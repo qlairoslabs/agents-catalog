@@ -10,6 +10,7 @@
 // every permission request refused. The credential is a long-lived token from
 // `claude setup-token`, passed by name; the interactive login is never mounted.
 
+import { randomUUID } from "node:crypto";
 import { mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -30,6 +31,18 @@ export const DEFAULT_OPTIONS: ModelOptions = {
     model: "opus",
     timeoutMs: 15 * 60_000,
 };
+
+/** Removes a run's container and checks it is gone. The container holds the
+ *  token, so a run that cannot confirm its removal fails loudly. */
+export async function removeContainer(name: string, timeoutMs = 20_000): Promise<void> {
+    const deadline = Date.now() + timeoutMs;
+    while (Date.now() < deadline) {
+        Bun.spawnSync(["podman", "rm", "-f", "-t", "0", name], { stdout: "ignore", stderr: "ignore" });
+        if (Bun.spawnSync(["podman", "container", "exists", name]).exitCode !== 0) return;
+        await Bun.sleep(250);
+    }
+    throw new Error(`container ${name} is still present; remove it by hand (podman rm -f ${name})`);
+}
 
 /** Claude Code's managed settings inside the container: every tool denied, and
  *  no way to switch permissions off. */
@@ -56,9 +69,9 @@ function settingsFile(): string {
 }
 
 /** The ACP adapter's command: podman around claude-agent-acp. */
-export function containerCommand(options: ModelOptions, settings: string): string[] {
+export function containerCommand(options: ModelOptions, settings: string, name = `classify-${randomUUID()}`): string[] {
     return [
-        "podman", "run", "--rm", "-i", "--pull=never",
+        "podman", "run", "--rm", "-i", "--pull=never", "--name", name,
         "--read-only", "--cap-drop=all", "--security-opt", "no-new-privileges",
         "--tmpfs", "/home/classify:rw,size=128m", "--tmpfs", "/tmp:rw,size=128m",
         ...(options.workMount ? ["-v", `${options.workMount}:/work:rw`] : ["--tmpfs", "/work:rw,size=1m"]),
@@ -83,7 +96,8 @@ export interface BatchRun {
 export async function runBatch(options: ModelOptions, prompt: string): Promise<BatchRun> {
     if (!process.env.CLAUDE_CODE_OAUTH_TOKEN) throw new Error("CLAUDE_CODE_OAUTH_TOKEN is not set (create one with `claude setup-token`)");
     // The relay adds the explicit empty tool set to session/new on the wire.
-    const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile())];
+    const name = `classify-${randomUUID()}`;
+    const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name)];
     // Only what podman needs on the host, and the token it passes on by name.
     const spawnEnv = Object.fromEntries(Object.entries({
         PATH: process.env.PATH, HOME: process.env.HOME, XDG_RUNTIME_DIR: process.env.XDG_RUNTIME_DIR,
@@ -117,6 +131,9 @@ export async function runBatch(options: ModelOptions, prompt: string): Promise<B
     } finally {
         clearTimeout(timer);
         await agent.stop().catch(() => undefined);
+        // acp-client stops the relay with SIGTERM, then SIGKILL; the container
+        // is removed here either way, and its absence confirmed.
+        await removeContainer(name);
     }
 }
 

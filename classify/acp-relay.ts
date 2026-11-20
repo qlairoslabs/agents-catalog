@@ -45,13 +45,26 @@ if (import.meta.main) {
     const command = process.argv.slice(2);
     if (!command.length) { console.error("usage: bun classify/acp-relay.ts <command...>"); process.exit(2); }
     const child = Bun.spawn(command, { stdin: "pipe", stdout: "pipe", stderr: "inherit", env: process.env });
+    // A stop reaches the container, not only podman's client: remove it by name.
+    const name = command[command.indexOf("--name") + 1];
+    let stopping = false;
+    const stop = (code: number) => {
+        if (stopping) return;
+        stopping = true;
+        if (name && command.includes("--name")) Bun.spawnSync(["podman", "rm", "-f", "-t", "0", name], { stdout: "ignore", stderr: "ignore" });
+        child.kill("SIGKILL");
+        process.exit(code);
+    };
+    process.on("SIGTERM", () => stop(143));
+    process.on("SIGINT", () => stop(130));
+    process.on("SIGHUP", () => stop(129));
     const toAgent = pump(Bun.stdin.stream(), line => { child.stdin.write(line); child.stdin.flush(); }, line => {
         const result = rewriteClientLine(line);
-        if (result.refused) { console.error(`acp-relay: refused ${result.refused}`); child.kill(); process.exit(3); }
+        if (result.refused) { console.error(`acp-relay: refused ${result.refused}`); stop(3); }
         return result.line;
     }).finally(() => child.stdin.end());
     const toClient = pump(child.stdout, line => { process.stdout.write(line); }, line => line);
-    await Promise.race([toClient, child.exited]);
-    void toAgent;
-    process.exit(await child.exited);
+    // The client closing its side ends the run too, even if the child keeps working.
+    await Promise.race([toClient, child.exited, toAgent]);
+    stop(child.exitCode ?? 0);
 }
