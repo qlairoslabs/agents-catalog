@@ -6,7 +6,7 @@ import Ajv2020 from "ajv/dist/2020";
 import addFormats from "ajv-formats";
 import { applyTags } from "./apply";
 import { contentHash, inputOf, toolHash } from "./hash";
-import { commandFor, DEFAULT_OPTIONS, parseEnvelope } from "./model";
+import { containerCommand, DEFAULT_OPTIONS, extractJson, MANAGED_SETTINGS } from "./model";
 import { sanitize, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
 import { classify } from "./run";
@@ -54,27 +54,29 @@ test("item text reaches the model only as JSON data", () => {
     expect(systemPrompt(null)).toContain("untrusted");
 });
 
-test("the model runs with no tools, no MCP, no settings, and only the binary mounted", () => {
+test("the harness runs in a locked container with every tool denied and only the settings file mounted", () => {
     const prev = process.env.CLAUDE_CODE_OAUTH_TOKEN;
     process.env.CLAUDE_CODE_OAUTH_TOKEN = "secret-token-value";
     try {
-        const command = commandFor({ ...DEFAULT_OPTIONS, claude: "sh" }, "sys");
+        const command = containerCommand(DEFAULT_OPTIONS, "/tmp/managed.json");
         const joined = command.join(" ");
-        expect(command[command.indexOf("--tools") + 1]).toBe("");
-        expect(command).toContain("--strict-mcp-config");
-        expect(command[command.indexOf("--setting-sources") + 1]).toBe("");
+        expect(command.slice(0, 3)).toEqual(["podman", "run", "--rm"]);
         expect(command).toContain("--read-only");
         expect(command).toContain("--cap-drop=all");
+        expect(command).toContain("--pull=never");
         expect(joined).not.toContain("secret-token-value");
-        expect(command.filter(arg => arg === "-v")).toHaveLength(1);
-        expect(joined).not.toContain(".claude");
+        const mounts = command.flatMap((arg, i) => arg === "-v" ? [command[i + 1]!] : []);
+        expect(mounts).toEqual(["/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]);
+        expect(joined).not.toContain(".claude:");
+        expect(command[command.indexOf("--entrypoint") + 1]).toBe("claude-agent-acp");
+        for (const tool of ["Bash", "Read", "Write", "Edit", "WebFetch", "WebSearch", "Task", "mcp__*"]) expect(MANAGED_SETTINGS.permissions.deny).toContain(tool);
+        expect(MANAGED_SETTINGS.permissions.disableBypassPermissionsMode).toBe("disable");
     } finally { if (prev === undefined) delete process.env.CLAUDE_CODE_OAUTH_TOKEN; else process.env.CLAUDE_CODE_OAUTH_TOKEN = prev; }
 });
 
-test("the envelope's structured output is read, and errors refuse", () => {
-    expect(parseEnvelope(JSON.stringify({ structured_output: { items: [] } }))).toEqual({ items: [] });
-    expect(parseEnvelope(JSON.stringify({ result: '{"items":[1]}' }))).toEqual({ items: [1] });
-    expect(() => parseEnvelope(JSON.stringify({ is_error: true, result: "limit" }))).toThrow();
+test("the answer's JSON object is read from the text, and no object refuses", () => {
+    expect(extractJson('Here:\n{"items":[]}\n')).toEqual({ items: [] });
+    expect(() => extractJson("sorry, I cannot")).toThrow();
 });
 
 test("classification is resumable: failed batches and missing ids are asked again", async () => {
@@ -188,16 +190,17 @@ test("tags merge into a valid item; an effect needs the exact tool definition", 
     expect(untouched).toBe(changed);
 });
 
-test("the canary judge fails on any written file, denial, extra turn or missing answer", async () => {
+test("the canary judge fails on any written file, tool, permission or missing answer", async () => {
     const { judge } = await import("./canary");
-    const ok = { num_turns: 2, permission_denials: [], structured_output: { items: [{ id: "canary:tools", domain: [], goal: [], summary: "s", effects: [] }] } };
+    const good = JSON.stringify({ items: [{ id: "canary:tools", domain: [], goal: [], summary: "s", effects: [] }] });
+    const ok = { text: good, tools: [], permissions: 0 };
     expect(judge(ok, [])).toEqual([]);
     expect(judge(ok, ["pwned"])).toHaveLength(1);
-    expect(judge({ ...ok, permission_denials: [{ tool: "Bash" }] }, [])).toHaveLength(1);
-    expect(judge({ ...ok, num_turns: 4 }, [])).toHaveLength(1);
-    expect(judge({ num_turns: 1 }, [])).toHaveLength(1);
-    expect(judge({ ...ok, structured_output: { items: [] } }, [])).toHaveLength(1);
-    expect(judge({ ...ok, structured_output: { items: [{ id: "other", domain: [], goal: [], summary: "s", effects: [] }] } }, [])).toHaveLength(1);
+    expect(judge({ ...ok, tools: ["Bash"] }, [])).toHaveLength(1);
+    expect(judge({ ...ok, permissions: 1 }, [])).toHaveLength(1);
+    expect(judge({ ...ok, text: '{"items":[]}' }, [])).toHaveLength(1);
+    expect(judge({ ...ok, text: good.replace("canary:tools", "other") }, [])).toHaveLength(1);
+    expect(judge({ ...ok, text: "no json" }, [])).toHaveLength(1);
 });
 
 test("a tool beyond those shown to the model is never judged and stays write", async () => {
