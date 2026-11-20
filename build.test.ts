@@ -191,6 +191,7 @@ test.skipIf(!r4Available)("classification attaches matching tags and facets with
         const listings = validatePart("connectors", connectors);
         const [item, untagged] = listings;
         if (item?.kind !== "mcp") throw Error("missing connector fixture");
+        item.discovery = { attributes: { signin: ["oauth"] } };
         const tool = item.connect.tools![0]!;
         const hash = contentHash(inputOf(item,"connector"));
         const tagFile = join(dir,`${hash}.json`);
