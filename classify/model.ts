@@ -35,8 +35,11 @@ export const DEFAULT_OPTIONS: ModelOptions = {
  *  no way to switch permissions off. */
 export const MANAGED_SETTINGS = {
     permissions: {
+        // A backstop: the relay (acp-relay.ts) gives the session no tools at all.
         deny: ["Bash", "BashOutput", "KillShell", "Read", "Write", "Edit", "MultiEdit", "NotebookEdit", "Glob", "Grep",
-            "LS", "WebFetch", "WebSearch", "Task", "Agent", "TodoWrite", "ExitPlanMode", "SlashCommand", "Skill", "mcp__*"],
+            "LS", "WebFetch", "WebSearch", "Task", "TaskCreate", "TaskUpdate", "TaskList", "TaskGet", "TaskOutput", "TaskStop",
+            "Agent", "TodoWrite", "EnterPlanMode", "ExitPlanMode", "SlashCommand", "Skill", "ToolSearch", "AskUserQuestion",
+            "ListMcpResourcesTool", "ReadMcpResourceTool", "mcp__*"],
         defaultMode: "default",
         disableBypassPermissionsMode: "disable",
     },
@@ -79,7 +82,8 @@ export interface BatchRun {
 
 export async function runBatch(options: ModelOptions, prompt: string): Promise<BatchRun> {
     if (!process.env.CLAUDE_CODE_OAUTH_TOKEN) throw new Error("CLAUDE_CODE_OAUTH_TOKEN is not set (create one with `claude setup-token`)");
-    const command = containerCommand(options, settingsFile());
+    // The relay adds the explicit empty tool set to session/new on the wire.
+    const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile())];
     // Only what podman needs on the host, and the token it passes on by name.
     const spawnEnv = Object.fromEntries(Object.entries({
         PATH: process.env.PATH, HOME: process.env.HOME, XDG_RUNTIME_DIR: process.env.XDG_RUNTIME_DIR,
@@ -102,7 +106,10 @@ export async function runBatch(options: ModelOptions, prompt: string): Promise<B
     try {
         await agent.start();
         const result = await agent.prompt(prompt, {
-            onActivity: (event: any) => { if (event?.kind === "tool") tools.push(String(event.title ?? event.toolName ?? event.kind)); },
+            // Task and todo activity reaches ACP as plan updates, not tool calls: both count.
+            onActivity: (event: any) => {
+                if (["tool", "tool_update", "plan", "plan_update", "plan_removed"].includes(event?.kind)) tools.push(String(event.title ?? event.kind));
+            },
             onPermissionRequest: () => { permissions++; return { outcome: "cancelled" } as const; },
         });
         const text = result.messages.map((message: any) => message.text ?? "").join("\n");
@@ -128,6 +135,7 @@ export function acpModel(options: ModelOptions = DEFAULT_OPTIONS): Ask {
     return async (instructions, data) => {
         const run = await runBatch(options, `${instructions}\n\nAnswer with the JSON object only, no other text.\n\n${data}`);
         if (run.tools.length || run.permissions) throw new Error(`the harness tried to use tools (${run.tools.join(", ") || "permission request"}); batch refused`);
+        if (run.stopReason !== "end_turn") throw new Error(`the turn ended with ${run.stopReason}; batch refused`);
         return extractJson(run.text);
     };
 }

@@ -92,13 +92,16 @@ library's release build (R3, with the switch).
 
 Run locally, never in an Action (catalogue §7). `classify/` drives Claude Code through
 `@qlairoslabs/acp-client` and the Claude ACP adapter (`claude-agent-acp`), on the
-maintainer's subscription, one fresh session per batch. A refused permission does not
+maintainer's subscription, one fresh session per batch. A relay on the ACP wire
+(`classify/acp-relay.ts`) gives every new session the adapter's explicit empty tool set and
+empty setting sources, since acp-client sends no session metadata. A refused permission does not
 switch off a harness's built-in tools, so the boundary is the container: the adapter runs
 in a read-only container (default: the agents standard image, or `CLASSIFY_IMAGE`) with an
 empty working folder, no host mounts except a read-only Claude Code managed settings file
 that denies every tool and bypass mode, no client terminal or filesystem, and every
 permission request refused. A batch in which the harness announces a tool or asks for a
-permission is refused. The credential is a long-lived token from `claude setup-token`,
+permission is refused, as is any turn that does not end normally (`end_turn`). Task and
+todo activity reaches ACP as plan updates and counts as a tool. The credential is a long-lived token from `claude setup-token`,
 passed by name as `CLAUDE_CODE_OAUTH_TOKEN`; the interactive login is never mounted.
 
     CLAUDE_CODE_OAUTH_TOKEN=... bun classify/canary.ts                  # isolation gate, first

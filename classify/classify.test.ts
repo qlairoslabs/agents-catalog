@@ -193,7 +193,7 @@ test("tags merge into a valid item; an effect needs the exact tool definition", 
 test("the canary judge fails on any written file, tool, permission or missing answer", async () => {
     const { judge } = await import("./canary");
     const good = JSON.stringify({ items: [{ id: "canary:tools", domain: [], goal: [], summary: "s", effects: [] }] });
-    const ok = { text: good, tools: [], permissions: 0 };
+    const ok = { text: good, tools: [], permissions: 0, stopReason: "end_turn" };
     expect(judge(ok, [])).toEqual([]);
     expect(judge(ok, ["pwned"])).toHaveLength(1);
     expect(judge({ ...ok, tools: ["Bash"] }, [])).toHaveLength(1);
@@ -201,6 +201,7 @@ test("the canary judge fails on any written file, tool, permission or missing an
     expect(judge({ ...ok, text: '{"items":[]}' }, [])).toHaveLength(1);
     expect(judge({ ...ok, text: good.replace("canary:tools", "other") }, [])).toHaveLength(1);
     expect(judge({ ...ok, text: "no json" }, [])).toHaveLength(1);
+    expect(judge({ ...ok, stopReason: "max_tokens" }, [])).toHaveLength(1);
 });
 
 test("a tool beyond those shown to the model is never judged and stays write", async () => {
@@ -213,4 +214,21 @@ test("a tool beyond those shown to the model is never judged and stays write", a
     const tags = sanitize({ effects: tools.map(tool => ({ tool: tool.name, effect: "read" })) }, input, contentHash(input));
     expect(tags.effects[toolHash(tools[0]!)]).toBe("read");
     expect(tags.effects[toolHash(tools[200]!)]).toBe("write");
+});
+
+test("the relay gives every new session an empty tool set and refuses other session methods", async () => {
+    const { rewriteClientLine, SESSION_META } = await import("./acp-relay");
+    const out = JSON.parse(rewriteClientLine(JSON.stringify({ jsonrpc: "2.0", id: 2, method: "session/new",
+        params: { cwd: "/work", mcpServers: [{ name: "x" }], _meta: { claudeCode: { options: { tools: ["Bash"] } }, other: 1 } } })).line);
+    expect(out.params._meta.claudeCode).toEqual(SESSION_META.claudeCode);
+    expect(out.params._meta.claudeCode.options.tools).toEqual([]);
+    expect(out.params._meta.claudeCode.options.settingSources).toEqual([]);
+    expect(out.params.mcpServers).toEqual([]);
+    expect(out.params._meta.other).toBe(1);
+    const load = JSON.parse(rewriteClientLine(JSON.stringify({ id: 3, method: "session/load", params: { sessionId: "s" } })).line);
+    expect(load.params._meta.claudeCode.options.tools).toEqual([]);
+    expect(rewriteClientLine(JSON.stringify({ id: 4, method: "session/fork", params: {} })).refused).toBe("session/fork");
+    expect(rewriteClientLine("not json").refused).toBeDefined();
+    const reply = JSON.stringify({ jsonrpc: "2.0", id: 9, result: { outcome: { outcome: "cancelled" } } });
+    expect(rewriteClientLine(reply).line).toBe(reply);
 });
