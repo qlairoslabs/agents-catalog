@@ -1,3 +1,4 @@
+import { Checkpoint } from "./mcp/checkpoint";
 import { createHash } from "node:crypto";
 import { mkdir, rename } from "node:fs/promises";
 import { join } from "node:path";
@@ -8,7 +9,7 @@ import type { CatalogItem } from "./mcp/model";
 import { catalogueTool, mapItem, mergeItems } from "./mcp/map";
 import { discoverTools } from "./mcp/tools";
 import { facets, withFacets } from "./facets";
-import { validateIndex, validatePart } from "./validate";
+import { validateIndex, validatePartBytes, encode } from "./validate";
 import { comparison, type Explanation, type Snapshot } from "./compare";
 import type { SourceCapture } from "./generate-catalog";
 
@@ -20,27 +21,29 @@ const json = (value: unknown) => JSON.stringify(value) + "\n";
 export function partWithFallback(id: Part, staged: unknown, previous: string | undefined, sourceErrors: string[] = [], minimum = 0) {
     try {
         if (sourceErrors.length) throw Error(sourceErrors.join("; "));
-        const items = validatePart(id, staged);
-        const prior = previous ? validatePart(id, JSON.parse(previous)).length : 0;
+        const stagedText = json(staged);
+        const items = validatePartBytes(id, stagedText);
+        const prior = previous ? validatePartBytes(id, previous).length : 0;
         if (items.length < Math.max(minimum, Math.floor(prior * 0.6))) throw Error(`only ${items.length} entries passed the part threshold`);
-        return { text: json(staged), items, warning: null };
+        return { text: stagedText, items, warning: null };
     } catch (error) {
         if (previous === undefined) throw error;
-        return { text: previous, items: validatePart(id, JSON.parse(previous)), warning: error instanceof Error ? error.message : "part failed" };
+        return { text: previous, items: validatePartBytes(id, previous), warning: error instanceof Error ? error.message : "part failed" };
     }
 }
 
-export function makeIndex(commit: string, parts: Record<Part, string>, now = Date.now(), previous?: ReturnType<typeof validateIndex>) {
-    const listings = partIds.flatMap(id => validatePart(id, JSON.parse(parts[id])));
+export function makeIndex(commit: string, parts: Record<Part, string | Uint8Array>, now = Date.now(), previous?: ReturnType<typeof validateIndex>) {
+    const listings = partIds.flatMap(id => validatePartBytes(id, parts[id]));
     const index = {
         schema: 1, sequence: Math.max(Math.floor(now / 1000), (previous?.sequence ?? 0) + 1), generatedAt: new Date(now).toISOString(),
         expires: new Date(now + 14 * DAY).toISOString(), rules: "1", commit,
         facets: facets(listings), annotations: [], blocked: previous?.blocked ?? { packages: [], servers: [], skills: [] },
         ...(previous?.revokes.length ? { revokes: previous.revokes } : {}),
         parts: partIds.map(id => ({ id, url: `https://raw.githubusercontent.com/qlairoslabs/agents-catalog/${commit}/${id}.json`,
-            sha256: createHash("sha256").update(parts[id]).digest("hex"), bytes: Buffer.byteLength(parts[id]),
+            sha256: createHash("sha256").update(parts[id]).digest("hex"), bytes: encode(parts[id]).byteLength,
             items: listings.filter(item => id === "connectors" ? item.kind === "mcp" : item.kind !== "mcp").length })),
     };
+    if (Buffer.byteLength(json(index)) > 2 * 1024 * 1024) throw Error("index exceeds the Hub byte limit");
     validateIndex(index);
     return index;
 }
@@ -134,15 +137,29 @@ async function parts(output: string) {
     if (!Number.isInteger(probing) || probing < 0) throw Error("invalid --probe-tools");
     const candidates = items.filter(item => item.kind === "mcp" && item.connect.auth === "none"
         && item.connect.config.type === "http" && !Object.keys(item.connect.config.headers ?? {}).length && !item.connect.tools).slice(0, probing);
-    let next = 0;
-    await Promise.all(Array.from({length: Math.min(20,candidates.length)}, async () => {
-        while (next < candidates.length) {
-            const item = candidates[next++]!;
-            if (item.kind !== "mcp" || item.connect.config.type !== "http") continue;
-            const tools = await discoverTools(item.connect.config.url);
-            if (tools) item.connect.tools = tools;
+    const toolCachePath = arg("tool-checkpoint");
+    const toolCache = toolCachePath ? new Checkpoint(toolCachePath) : null;
+    let discoveryBytes = 0;
+    try {
+        for (let offset = 0; offset < candidates.length && discoveryBytes < 8 * 1024 * 1024; offset += 20) {
+            const batch = candidates.slice(offset, offset + 20);
+            const discoveries = await Promise.all(batch.map(async item => {
+                if (item.kind !== "mcp" || item.connect.config.type !== "http") return null;
+                const { url } = item.connect.config;
+                const load = async () => await discoverTools(url) ?? null;
+                return toolCache ? toolCache.remember(url, load) : load();
+            }));
+            for (const [index, tools] of discoveries.entries()) {
+                const item = batch[index]!;
+                if (!tools || item.kind !== "mcp") continue;
+                const size = Buffer.byteLength(JSON.stringify(tools));
+                if (size <= 96 * 1024 && discoveryBytes + size <= 8 * 1024 * 1024) {
+                    discoveryBytes += size;
+                    item.connect.tools = tools;
+                }
+            }
         }
-    }));
+    } finally { toolCache?.close(); }
     const decorated = items.map(withFacets);
     const note = arg("comparison-note");
     const notes: string[] = note ? [note] : [];
@@ -174,13 +191,13 @@ if (import.meta.main) {
     const output = arg("output") ?? arg("dir") ?? (command === "validate" ? process.argv[3] : undefined) ?? ".r1-cache/candidate";
     if (command === "parts") await parts(output);
     else if (command === "index" || command === "validate") {
-        const bytes = Object.fromEntries(await Promise.all(partIds.map(async id => [id, await Bun.file(join(output,`${id}.json`)).text()]))) as Record<Part,string>;
+        const bytes = Object.fromEntries(await Promise.all(partIds.map(async id => [id, new Uint8Array(await Bun.file(join(output,`${id}.json`)).arrayBuffer())]))) as Record<Part,Uint8Array>;
         if (command === "index") {
             const previous = arg("previous");
             await writeAtomic(join(output,"index.json"),json(makeIndex(need("commit"), bytes, Date.now(),
                 previous ? validateIndex(await Bun.file(previous).json()) : undefined)));
         } else {
-            for (const id of partIds) validatePart(id, JSON.parse(bytes[id]));
+            for (const id of partIds) validatePartBytes(id, bytes[id]);
             const saved = await optional(join(output,"index.json"));
             if (saved) {
                 const index = validateIndex(JSON.parse(saved));

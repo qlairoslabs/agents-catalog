@@ -17,7 +17,7 @@ library scripts, snapshots and workflow remain in place until L2.
 | Marketplace | Reads and pins bundle members, adds skill origins, folds identical skill trees and merges bundle copies by repository and directory. Contents are fetched with the existing GitHub reader. If a bundle's contents cannot be fetched, its pinned descriptor can survive with no confirmed members. |
 | Duplicates | Across listings, merge equal connection configurations and identical skill trees. Keep the highest tier, then stable ID order. Record each converging ID in the comparison and preserve up to schema 1's 20 former IDs in the listing itself. |
 | Display and facets | Normalizes grouped display and origin, bounds strings, and derives kind, source, publisher, trust, sign-in, transport and bundle membership facets. Classification and effects remain R4. |
-| Broken parts | Validate with Ajv and the separate library-equivalent reader. A missing source, invalid part or part below the guard retains the previous validated bytes if present. An initial build with no last-good part fails closed. Compare before release. |
+| Broken parts | Validate with Ajv and the separate library-equivalent reader, including the Hub byte, depth, node and item limits. A missing source, invalid part or part below the guard retains the previous validated bytes if present. An initial build with no last-good part fails closed. Compare before release. |
 | Index | Writes the full commit, real dates, normal-form raw GitHub URLs, on-disk size and digest, and counts for both parts. Sequence is build time in seconds or one above a supplied previous sequence. Previous blocks and revocations carry forward. No signing or publication is performed. |
 
 ## Build and resume
@@ -35,7 +35,7 @@ bun generate-catalog.ts .r1-cache/live-sources.json
 bun build.ts parts --sources=.r1-cache/live-sources.json --feed=.r1-cache/live-feed.json \
   --rejections=.r1-cache/live-rejections.json --previous-snapshot=/path/to/snapshot.json \
   --previous-feed=/path/to/legacy-community-feed.json --comparison=reports/r1-comparison.md \
-  --probe-tools=5000 --output=out
+  --probe-tools=5000 --tool-checkpoint=.r1-cache/tools.sqlite --output=out
 bun build.ts validate out
 ```
 
