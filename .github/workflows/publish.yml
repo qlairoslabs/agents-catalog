@@ -80,6 +80,7 @@ jobs:
           BUILD: ${{ inputs.build }}
         run: |
           cd published
+          if [ -f index.json ]; then cp index.json ../previous-index.json; fi
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
           cp -R ../parts/. .
           rm -f index.json index.json.sig
@@ -87,7 +88,9 @@ jobs:
           git commit -q --allow-empty -m "Parts from build ${BUILD}"
           echo "PARTS_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
       - name: Write the index naming the parts' commit
-        run: bun tools/build.ts index --commit "$PARTS_COMMIT" --dir published
+        run: |
+          previous=(); if [ -f previous-index.json ]; then previous=(--previous previous-index.json); fi
+          bun tools/build.ts index --commit "$PARTS_COMMIT" --dir published "${previous[@]}"
       - name: Sign
         env:
           CATALOG_SIGNING_KEY: ${{ secrets.CATALOG_SIGNING_KEY }}
