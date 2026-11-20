@@ -1,13 +1,13 @@
 # R1 catalogue comparison
 
-Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 changed or merged, 246 dropped.
+Compared 5184 distinct legacy IDs with 5283 candidate listings. 415 added, 4885 changed or merged, 299 dropped.
 
-- This preflight pairs the live Docker and marketplace capture with the recorded library community feed. The manual-build branch will carry the full live-registry comparison.
+- Preflight pairs a live Docker and marketplace capture with the recorded library community feed; the manual-build branch carries the full live registry run.
 
 | Kind/transport | Snapshot and feed combined | Community feed | Candidate |
 | --- | ---: | ---: | ---: |
 | bundle | 315 | 0 | 312 |
-| mcp/http | 4136 | 4089 | 4010 |
+| mcp/http | 4136 | 4089 | 3957 |
 | mcp/npm | 529 | 525 | 489 |
 | mcp/pypi | 129 | 126 | 124 |
 | mcp/sse | 56 | 26 | 0 |
@@ -496,7 +496,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ai.bizmoon/regulatory | changed | schema 1 display, origin and discovery |
 | community-feed:ai.blast-radius/blast-radius | changed | schema 1 display, origin and discovery |
 | community-feed:ai.blaze.app/blaze | changed | schema 1 display, origin and discovery |
-| community-feed:ai.bloopo/bloopo | changed | schema 1 display, origin and discovery |
+| community-feed:ai.bloopo/bloopo | dropped | authentication is required but the source declares no secret header |
 | community-feed:ai.borealhost/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.boundaryai/boundaryai | changed | schema 1 display, origin and discovery |
 | community-feed:ai.bowmark/bowmark#npm:%40bowmark%2Fmcp | changed | schema 1 display, origin and discovery; exact pinned package |
@@ -561,7 +561,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ai.evolink/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.exa/exa | changed | schema 1 display, origin and discovery |
 | community-feed:ai.example4/xmp4 | changed | schema 1 display, origin and discovery |
-| community-feed:ai.explorium/mcp-explorium | changed | schema 1 display, origin and discovery |
+| community-feed:ai.explorium/mcp-explorium | dropped | authentication is required but the source declares no secret header |
 | community-feed:ai.extend/extend | changed | schema 1 display, origin and discovery |
 | community-feed:ai.ezel/ezel | changed | schema 1 display, origin and discovery |
 | community-feed:ai.factori/mcp | changed | schema 1 display, origin and discovery |
@@ -584,7 +584,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ai.fonzi/company | changed | schema 1 display, origin and discovery |
 | community-feed:ai.fonzi/talent | changed | schema 1 display, origin and discovery |
 | community-feed:ai.freudly/tests | changed | schema 1 display, origin and discovery |
-| community-feed:ai.gavelin/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:ai.gavelin/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:ai.gemus/gemus | changed | schema 1 display, origin and discovery |
 | community-feed:ai.genomicintelligence/genomic-intelligence | changed | schema 1 display, origin and discovery |
 | community-feed:ai.geodesiclabs/governance-platform | changed | schema 1 display, origin and discovery |
@@ -597,7 +597,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ai.glassflow/tares#pypi:tares | changed | schema 1 display, origin and discovery; exact pinned package |
 | community-feed:ai.gomarble/mcp-api | dropped | SSE-only transport |
 | community-feed:ai.good-sport/good-sport | changed | schema 1 display, origin and discovery |
-| community-feed:ai.groundroute/web-search | changed | schema 1 display, origin and discovery |
+| community-feed:ai.groundroute/web-search | dropped | authentication is required but the source declares no secret header |
 | community-feed:ai.gtfi/groundtruth | changed | schema 1 display, origin and discovery |
 | community-feed:ai.helixar/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.hirey/hi | changed | schema 1 display, origin and discovery |
@@ -621,7 +621,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ai.kive/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.klaaro/klaaro | changed | schema 1 display, origin and discovery |
 | community-feed:ai.klodkot/gen | changed | schema 1 display, origin and discovery |
-| community-feed:ai.kolens/kolens-mcp | changed | schema 1 display, origin and discovery |
+| community-feed:ai.kolens/kolens-mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:ai.korey/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.krater/krater | changed | schema 1 display, origin and discovery |
 | community-feed:ai.krtr/krtr | changed | schema 1 display, origin and discovery |
@@ -668,7 +668,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ai.nordax/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.normhyra/normhyra | changed | schema 1 display, origin and discovery |
 | community-feed:ai.nothumansearch/search | changed | schema 1 display, origin and discovery |
-| community-feed:ai.nudg3/brand-intelligence | changed | schema 1 display, origin and discovery |
+| community-feed:ai.nudg3/brand-intelligence | dropped | authentication is required but the source declares no secret header |
 | community-feed:ai.nullary/nullary | changed | schema 1 display, origin and discovery |
 | community-feed:ai.obris/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.oddessentials/agent-guild#npm:%40oddessentials%2Fagent-guild | changed | schema 1 display, origin and discovery; exact pinned package |
@@ -739,7 +739,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ai.sessionkeeper/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.sharebench/registry | changed | schema 1 display, origin and discovery |
 | community-feed:ai.shiplight/shiplight#npm:%40shiplightai%2Fmcp | dropped | package environment is not a declared secret reference |
-| community-feed:ai.sig.foodlog/food-logger | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:ai.sig.foodlog/food-logger | dropped | authentication is required but the source declares no secret header |
 | community-feed:ai.simsense/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.sitepulsar/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ai.sixta/sixta-connect | changed | schema 1 display, origin and discovery |
@@ -881,8 +881,8 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:app.era/context | changed | schema 1 display, origin and discovery |
 | community-feed:app.eurocomply/compliance | changed | schema 1 display, origin and discovery |
 | community-feed:app.eurolytics/eurolytics | changed | schema 1 display, origin and discovery |
-| community-feed:app.fakto/fakturownia | changed | schema 1 display, origin and discovery |
-| community-feed:app.fakto/wfirma | changed | schema 1 display, origin and discovery |
+| community-feed:app.fakto/fakturownia | dropped | authentication is required but the source declares no secret header |
+| community-feed:app.fakto/wfirma | dropped | authentication is required but the source declares no secret header |
 | community-feed:app.favorize/assistant | changed | schema 1 display, origin and discovery |
 | community-feed:app.fftcompanion/fft-companion | changed | schema 1 display, origin and discovery |
 | community-feed:app.finfam/calculators | changed | schema 1 display, origin and discovery |
@@ -897,13 +897,13 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:app.ganty/mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:app.geometry/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:app.getandiamo/andiamo | changed | schema 1 display, origin and discovery |
-| community-feed:app.getdialer/dialer | changed | schema 1 display, origin and discovery |
+| community-feed:app.getdialer/dialer | dropped | authentication is required but the source declares no secret header |
 | community-feed:app.getquieta/quieta-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:app.getsalta/salta | changed | schema 1 display, origin and discovery |
 | community-feed:app.glif/glif | changed | schema 1 display, origin and discovery |
 | community-feed:app.goodwatch/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:app.govauctions/govauctions | changed | schema 1 display, origin and discovery |
-| community-feed:app.hadl/portfolio | dropped | Its address needs values you choose. Add it under Custom. |
+| community-feed:app.hadl/portfolio | dropped | authentication is required but the source declares no secret header |
 | community-feed:app.havnre/havn | changed | schema 1 display, origin and discovery |
 | community-feed:app.health-os/health-os | changed | schema 1 display, origin and discovery |
 | community-feed:app.higgsfield.mizan-bazar/mizan | changed | schema 1 display, origin and discovery |
@@ -944,7 +944,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:app.memol/memol | changed | schema 1 display, origin and discovery |
 | community-feed:app.mhai/knihajizd | changed | schema 1 display, origin and discovery |
 | community-feed:app.miromiro/miromiro | changed | schema 1 display, origin and discovery |
-| community-feed:app.mochify/mochify | changed | schema 1 display, origin and discovery |
+| community-feed:app.mochify/mochify | dropped | authentication is required but the source declares no secret header |
 | community-feed:app.myghosts/myghosts | changed | schema 1 display, origin and discovery |
 | community-feed:app.nanocorp.agentarena/agent-coliseum-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:app.nausika/mcp | changed | schema 1 display, origin and discovery |
@@ -976,7 +976,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:app.postpone/api | changed | schema 1 display, origin and discovery |
 | community-feed:app.priorify/priorify | changed | schema 1 display, origin and discovery |
 | community-feed:app.promptfax/promptfax | changed | schema 1 display, origin and discovery |
-| community-feed:app.pumpx/pumpx | changed | schema 1 display, origin and discovery |
+| community-feed:app.pumpx/pumpx | dropped | authentication is required but the source declares no secret header |
 | community-feed:app.qwady/borough | changed | schema 1 display, origin and discovery |
 | community-feed:app.racecalendar/f1 | changed | schema 1 display, origin and discovery |
 | community-feed:app.raster/raster | changed | schema 1 display, origin and discovery |
@@ -1012,7 +1012,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:app.tabtree/tabtree#npm:tabtree-mcp | dropped | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:app.tbit/tbit | changed | schema 1 display, origin and discovery |
 | community-feed:app.teleboost/teleboost | changed | schema 1 display, origin and discovery |
-| community-feed:app.thoughtspot/mcp-server | changed | schema 1 display, origin and discovery |
+| community-feed:app.thoughtspot/mcp-server | dropped | authentication is required but the source declares no secret header |
 | community-feed:app.toofi/dental-planning | changed | schema 1 display, origin and discovery |
 | community-feed:app.toptik/tiktok | changed | schema 1 display, origin and discovery |
 | community-feed:app.trysonar/sonar | changed | schema 1 display, origin and discovery |
@@ -1124,7 +1124,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:cc.accrue/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:cc.captcha/captchacc | changed | schema 1 display, origin and discovery |
 | community-feed:cc.checkleaked/spotify-data | changed | schema 1 display, origin and discovery |
-| community-feed:cc.contexta/contexta-mcp | changed | schema 1 display, origin and discovery |
+| community-feed:cc.contexta/contexta-mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:cc.easydata/data | changed | schema 1 display, origin and discovery |
 | community-feed:cc.halite/recipes | changed | schema 1 display, origin and discovery |
 | community-feed:cc.joules/coach | changed | schema 1 display, origin and discovery |
@@ -1140,7 +1140,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ch.opencaselaw/swiss-caselaw | changed | schema 1 display, origin and discovery |
 | community-feed:ch.wejob/wejob | changed | schema 1 display, origin and discovery |
 | community-feed:ch.zenarion/booking | changed | schema 1 display, origin and discovery |
-| community-feed:chat.muro/support | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:chat.muro/support | dropped | authentication is required but the source declares no secret header |
 | community-feed:chat.prelim/prelim | changed | schema 1 display, origin and discovery |
 | community-feed:chat.trilo/mcp | dropped | It needs values in its headers. Add it under Custom. |
 | community-feed:church.ai.mcp/mcp-hub | changed | schema 1 display, origin and discovery |
@@ -1187,7 +1187,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:co.flow2/flow2 | changed | schema 1 display, origin and discovery |
 | community-feed:co.flyweel/mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:co.gleanit/gleanit | changed | schema 1 display, origin and discovery |
-| community-feed:co.heista/api | dropped | Its address needs values you choose. Add it under Custom. |
+| community-feed:co.heista/api | dropped | authentication is required but the source declares no secret header |
 | community-feed:co.heyspark.mcp/server | changed | schema 1 display, origin and discovery |
 | community-feed:co.huggingface/hf-mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:co.junely/junely | changed | schema 1 display, origin and discovery |
@@ -1208,7 +1208,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:co.supp/suppco | changed | schema 1 display, origin and discovery |
 | community-feed:co.tenderly/tenderly-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:co.truemarkets/marketdata | changed | schema 1 display, origin and discovery |
-| community-feed:co.valid/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:co.valid/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:co.vantaj/mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:co.wave/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:co.whooshly/whooshly-mcp | changed | schema 1 display, origin and discovery |
@@ -1258,7 +1258,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.adbloop/meta-ads | changed | schema 1 display, origin and discovery |
 | community-feed:com.adbtd/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.adbutler/mcp-server | changed | schema 1 display, origin and discovery |
-| community-feed:com.adcritter/mcp-agent | changed | schema 1 display, origin and discovery |
+| community-feed:com.adcritter/mcp-agent | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.adcritter/mcp-dev | changed | schema 1 display, origin and discovery |
 | community-feed:com.admakeai/admakeai | changed | schema 1 display, origin and discovery |
 | community-feed:com.admaxxer/ads-manager | changed | schema 1 display, origin and discovery |
@@ -1268,7 +1268,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.adrianhomelab/mall-directory | changed | schema 1 display, origin and discovery |
 | community-feed:com.adsbiq/adsbiq | changed | schema 1 display, origin and discovery |
 | community-feed:com.adskub/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.adspirer/ads | changed | schema 1 display, origin and discovery |
+| community-feed:com.adspirer/ads | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.adviserry/adviserry | dropped | It needs values in its headers. Add it under Custom. |
 | community-feed:com.advisorfinder/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.advisorppc/advisorppc | changed | schema 1 display, origin and discovery |
@@ -1278,7 +1278,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.aeroleads/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.aex402/rpc | changed | schema 1 display, origin and discovery |
 | community-feed:com.afdinstitute/afd-knowledge | changed | schema 1 display, origin and discovery |
-| community-feed:com.affogata.app/affogata | changed | schema 1 display, origin and discovery |
+| community-feed:com.affogata.app/affogata | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.aftership.mcp/tracking-public | changed | schema 1 display, origin and discovery |
 | community-feed:com.agentcat/agentcat | changed | schema 1 display, origin and discovery |
 | community-feed:com.agentcollect/ar-analyst | changed | schema 1 display, origin and discovery |
@@ -1351,7 +1351,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.angelmoncada/consulting | changed | schema 1 display, origin and discovery |
 | community-feed:com.anglero/speaker | changed | schema 1 display, origin and discovery |
 | community-feed:com.anglinglines/angling-lines | changed | schema 1 display, origin and discovery |
-| community-feed:com.anotepad/notes | changed | schema 1 display, origin and discovery |
+| community-feed:com.anotepad/notes | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.anots/directory | changed | schema 1 display, origin and discovery |
 | community-feed:com.anthonyhunts/shaart-agency | changed | schema 1 display, origin and discovery |
 | community-feed:com.anthonyhunts/shaart-agency-docs | changed | schema 1 display, origin and discovery |
@@ -1451,7 +1451,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.beauticslab/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.beehiiv/beehiiv | changed | schema 1 display, origin and discovery |
 | community-feed:com.beeimg/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.belindoc/belindoc-mcp | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:com.belindoc/belindoc-mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.benawf/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.benriscore/api | changed | schema 1 display, origin and discovery |
 | community-feed:com.besewbizzy/shop | changed | schema 1 display, origin and discovery |
@@ -1470,7 +1470,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.bigdata/bigdata-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.bikefuchs/bikefuchs | changed | schema 1 display, origin and discovery |
 | community-feed:com.bird/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.bitly/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:com.bitly/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.bitmovin.mcp.analytics/analytics-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.biz-planner/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.bjjsquare/bjjsquare | changed | schema 1 display, origin and discovery |
@@ -1602,7 +1602,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.clauderegistry/plugin-catalog | changed | schema 1 display, origin and discovery |
 | community-feed:com.clideck/network-knowledge | changed | schema 1 display, origin and discovery |
 | community-feed:com.clment/clment | changed | schema 1 display, origin and discovery |
-| community-feed:com.clootrack/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:com.clootrack/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.close/close-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.cloudflare.mcp/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.cloziq/cloziq | changed | schema 1 display, origin and discovery |
@@ -1618,7 +1618,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.coinira/calculators | changed | schema 1 display, origin and discovery |
 | community-feed:com.coinlobster/whale-data | changed | schema 1 display, origin and discovery |
 | community-feed:com.coinmarketcal/events | changed | schema 1 display, origin and discovery |
-| community-feed:com.coinmarketcap/coinmarketcap | changed | schema 1 display, origin and discovery |
+| community-feed:com.coinmarketcap/coinmarketcap | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.collabpls/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.coloringbookify/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.commonelements/data | changed | schema 1 display, origin and discovery |
@@ -1632,7 +1632,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.compoid/mcp-server | dropped | Its address needs values you choose. Add it under Custom. |
 | community-feed:com.conduyt/mcp#npm:conduyt-mcp | changed | schema 1 display, origin and discovery; exact pinned package |
 | community-feed:com.conferencegrid/conferencegrid | changed | schema 1 display, origin and discovery |
-| community-feed:com.configdirector/mcp | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:com.configdirector/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.congressmcp/congressmcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.consensus-analytics/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.consentlayer/mcp | changed | schema 1 display, origin and discovery |
@@ -1794,7 +1794,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.emergingtechcenter/gigs | changed | schema 1 display, origin and discovery |
 | community-feed:com.emisorasdecolombia/radio | changed | schema 1 display, origin and discovery |
 | community-feed:com.emorahealth/mental-health-care | changed | schema 1 display, origin and discovery |
-| community-feed:com.emtailabs/xray-vision | changed | schema 1 display, origin and discovery |
+| community-feed:com.emtailabs/xray-vision | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.encirca/domains | changed | schema 1 display, origin and discovery |
 | community-feed:com.encompassconfirm/ec360 | changed | schema 1 display, origin and discovery |
 | community-feed:com.energyaisolution/energyai | dropped | item.connect.secrets[0].label: length outside 1..200 |
@@ -1905,7 +1905,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.free-sign/signing | changed | schema 1 display, origin and discovery |
 | community-feed:com.freebatteryfactory/docs | changed | schema 1 display, origin and discovery |
 | community-feed:com.freeelatech/oneda | dropped | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:com.freename/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:com.freename/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.freerateupdate/mortgage-home-equity | changed | schema 1 display, origin and discovery |
 | community-feed:com.freqblog/music-metadata | changed | schema 1 display, origin and discovery |
 | community-feed:com.frisian-mcp/django | changed | schema 1 display, origin and discovery |
@@ -1935,7 +1935,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.geonode/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.german-elections/gerda | changed | schema 1 display, origin and discovery |
 | community-feed:com.get2great/get2great-discovery | changed | schema 1 display, origin and discovery |
-| community-feed:com.getabstract/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:com.getabstract/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.getadloop/adloop#pypi:adloop | changed | schema 1 display, origin and discovery; exact pinned package |
 | community-feed:com.getalai/presentations | changed | schema 1 display, origin and discovery |
 | community-feed:com.getarcresearch/arc-research | changed | schema 1 display, origin and discovery |
@@ -2038,14 +2038,14 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.gurusup/gurusup | changed | schema 1 display, origin and discovery |
 | community-feed:com.guruwalk/affiliates-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.guruwalk/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.gymnavigator/coach | changed | schema 1 display, origin and discovery |
+| community-feed:com.gymnavigator/coach | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.hackforddata/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.halalterminal/mcp | dropped | SSE-only transport |
 | community-feed:com.handsontable/docs | changed | schema 1 display, origin and discovery |
 | community-feed:com.hankookilbo.mcp/hankookilbo-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.hanyuguide/hanyuguide | changed | schema 1 display, origin and discovery |
 | community-feed:com.happyscribe/happyscribe | changed | schema 1 display, origin and discovery |
-| community-feed:com.hardlinephone/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:com.hardlinephone/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.harukibox/harukibox | changed | schema 1 display, origin and discovery |
 | community-feed:com.hatchable/hatchable | changed | schema 1 display, origin and discovery |
 | community-feed:com.haveitprinted/print-and-mail | changed | schema 1 display, origin and discovery |
@@ -2163,7 +2163,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.jobkeepr/jobkeepr | changed | schema 1 display, origin and discovery |
 | community-feed:com.jobyap/jobs | changed | schema 1 display, origin and discovery |
 | community-feed:com.johnsessentials/johns-essentials | dropped | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:com.joinnod/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:com.joinnod/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.joinsandwich/directory | changed | schema 1 display, origin and discovery |
 | community-feed:com.jonathanarvay/axis-avatar-foundry | changed | schema 1 display, origin and discovery |
 | community-feed:com.jpyc-service/ec-storefront | changed | schema 1 display, origin and discovery |
@@ -2226,7 +2226,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.lazyweb/discovery | changed | schema 1 display, origin and discovery |
 | community-feed:com.lazyweb/lazyweb | changed | schema 1 display, origin and discovery |
 | community-feed:com.leadboxer.mcp/leadboxer | changed | schema 1 display, origin and discovery |
-| community-feed:com.leadfriendly/lead-friendly | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:com.leadfriendly/lead-friendly | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.leadfriendly/lead-friendly-info | changed | schema 1 display, origin and discovery |
 | community-feed:com.leadpages/leadpages-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.leadrecorder/lead-recorder | changed | schema 1 display, origin and discovery |
@@ -2247,7 +2247,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.lezzoo/lezzoo | changed | schema 1 display, origin and discovery |
 | community-feed:com.liedetectortest/lie-detector-test | changed | schema 1 display, origin and discovery |
 | community-feed:com.lifelongedge/edge-lab | changed | schema 1 display, origin and discovery |
-| community-feed:com.lifttrackapp/lifttrack | changed | schema 1 display, origin and discovery |
+| community-feed:com.lifttrackapp/lifttrack | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.lilla-alva/booking | changed | schema 1 display, origin and discovery |
 | community-feed:com.lillytechsystems/ai-school | changed | schema 1 display, origin and discovery |
 | community-feed:com.limrun/mcp | changed | schema 1 display, origin and discovery |
@@ -2333,7 +2333,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.medianfi/compliance | changed | schema 1 display, origin and discovery |
 | community-feed:com.medigami/chatgpt | changed | schema 1 display, origin and discovery |
 | community-feed:com.medigami/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.medplum/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:com.medplum/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.medrecpro/drug-label-server | changed | schema 1 display, origin and discovery |
 | community-feed:com.medusajs/cloud | changed | schema 1 display, origin and discovery |
 | community-feed:com.medusajs/medusa-mcp | changed | schema 1 display, origin and discovery |
@@ -2417,7 +2417,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.mycardfolio/cards | changed | schema 1 display, origin and discovery |
 | community-feed:com.myclawn/desktop | changed | schema 1 display, origin and discovery |
 | community-feed:com.myhuiban.www/conference-partner | changed | schema 1 display, origin and discovery |
-| community-feed:com.myinfluenceai/agents | dropped | It needs a key under a name the hub reserves. |
+| community-feed:com.myinfluenceai/agents | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.myinsurebank/mib | changed | schema 1 display, origin and discovery |
 | community-feed:com.mysherah/sherah | changed | schema 1 display, origin and discovery |
 | community-feed:com.mystoq/storefront | changed | schema 1 display, origin and discovery |
@@ -2499,7 +2499,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.oneaiguide/public-catalog | changed | schema 1 display, origin and discovery |
 | community-feed:com.oneheartesim.mcp/esim | changed | schema 1 display, origin and discovery |
 | community-feed:com.onepagecrm/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.ones/ones | changed | schema 1 display, origin and discovery |
+| community-feed:com.ones/ones | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.onestori/stori | changed | schema 1 display, origin and discovery |
 | community-feed:com.oneuedu.mcp/oneu-education | changed | schema 1 display, origin and discovery |
 | community-feed:com.oneuptime/mcp | changed | schema 1 display, origin and discovery |
@@ -2538,7 +2538,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.packagento/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.pactlio/contracts | changed | schema 1 display, origin and discovery |
 | community-feed:com.paddle/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.paddle/mcp-sandbox | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:com.paddle/mcp-sandbox | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.padlet/padlet | changed | schema 1 display, origin and discovery |
 | community-feed:com.pageproofer/pageproofer | changed | schema 1 display, origin and discovery |
 | community-feed:com.pakistancaselaw/caselaw | changed | schema 1 display, origin and discovery |
@@ -2558,7 +2558,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.parseapi/mcp#npm:parseapi-mcp | changed | schema 1 display, origin and discovery; exact pinned package |
 | community-feed:com.parseium/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.parsely.dash/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.parsestream/parsestream | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:com.parsestream/parsestream | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.passportcraft/dpp-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.pawlisty/pet-listings | changed | schema 1 display, origin and discovery |
 | community-feed:com.paypal.mcp/mcp | changed | schema 1 display, origin and discovery |
@@ -2570,7 +2570,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.pdfia/pdf-tools | changed | schema 1 display, origin and discovery |
 | community-feed:com.peek/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.peerpush/peerpush | changed | schema 1 display, origin and discovery |
-| community-feed:com.pentest-tools/mcp-server | changed | schema 1 display, origin and discovery |
+| community-feed:com.pentest-tools/mcp-server | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.peopleanalyst/discovery | changed | schema 1 display, origin and discovery |
 | community-feed:com.peopleanalyticstoolbox/toolbox | changed | schema 1 display, origin and discovery |
 | community-feed:com.peoplecanbuild/mcp | changed | schema 1 display, origin and discovery |
@@ -2639,7 +2639,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.predixsport/sports-predictions | changed | schema 1 display, origin and discovery |
 | community-feed:com.premierletters/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.primecutsnursery/public-data | changed | schema 1 display, origin and discovery |
-| community-feed:com.printfriendly/printfriendly | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:com.printfriendly/printfriendly | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.printhiv3d/print-hive | changed | schema 1 display, origin and discovery |
 | community-feed:com.printinglabs/printing-labs | changed | schema 1 display, origin and discovery |
 | community-feed:com.prismposter/creator-tools#npm:%40prismposter%2Fcreator-tools | changed | schema 1 display, origin and discovery; exact pinned package |
@@ -2736,7 +2736,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.renacerpsicologico/renacer-psicologico | changed | schema 1 display, origin and discovery |
 | community-feed:com.renovationroute/federal-opportunities | changed | schema 1 display, origin and discovery |
 | community-feed:com.renzoprotocol/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.rephonic/rephonic | changed | schema 1 display, origin and discovery |
+| community-feed:com.rephonic/rephonic | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.repofuse/repofuse | changed | schema 1 display, origin and discovery |
 | community-feed:com.reps-log/repslog | changed | schema 1 display, origin and discovery |
 | community-feed:com.repuso/monitoring | changed | schema 1 display, origin and discovery |
@@ -2750,7 +2750,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.revelata/deepkpi-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.revelica/revelica | changed | schema 1 display, origin and discovery |
 | community-feed:com.revensi/revensi | changed | schema 1 display, origin and discovery |
-| community-feed:com.reviewflowz/reviews | changed | schema 1 display, origin and discovery |
+| community-feed:com.reviewflowz/reviews | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.revnu/revnu | changed | schema 1 display, origin and discovery |
 | community-feed:com.revorbit/crm | changed | schema 1 display, origin and discovery |
 | community-feed:com.revvedupcars/true-cost-index | changed | schema 1 display, origin and discovery |
@@ -2816,7 +2816,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.schedulenchill/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.scientificmicroservices/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.scopeblind/protect-mcp#npm:protect-mcp | changed | schema 1 display, origin and discovery; exact pinned package |
-| community-feed:com.scoutapm/scout-monitoring | changed | schema 1 display, origin and discovery |
+| community-feed:com.scoutapm/scout-monitoring | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.scrap-autos/scrap-autos-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.scrapeunblocker/scrapeunblocker-mcp#npm:scrapeunblocker-mcp | changed | schema 1 display, origin and discovery; exact pinned package |
 | community-feed:com.scrapingant/mcp | changed | schema 1 display, origin and discovery |
@@ -2848,11 +2848,11 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.sendifai/platform | changed | schema 1 display, origin and discovery |
 | community-feed:com.sendpulse.mcp/mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:com.sendquotenow/quote-engine | changed | schema 1 display, origin and discovery |
-| community-feed:com.sendseven/messaging | changed | schema 1 display, origin and discovery |
+| community-feed:com.sendseven/messaging | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.sendthisfax/fax | changed | schema 1 display, origin and discovery |
 | community-feed:com.sentientmail/email-platform | changed | schema 1 display, origin and discovery |
 | community-feed:com.seoclerks/seoclerks | changed | schema 1 display, origin and discovery |
-| community-feed:com.seofuxx/seo-audit | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:com.seofuxx/seo-audit | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.seranking/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.serdaroztetik/call-me | changed | schema 1 display, origin and discovery |
 | community-feed:com.serp-agent/seo | changed | schema 1 display, origin and discovery |
@@ -2882,7 +2882,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.shorttext/shorttext | changed | schema 1 display, origin and discovery |
 | community-feed:com.showmeonmap/maps | changed | schema 1 display, origin and discovery |
 | community-feed:com.shpbl/repository-audit-and-repair | changed | schema 1 display, origin and discovery |
-| community-feed:com.shurq/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:com.shurq/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.sidecardata/sidecar | changed | schema 1 display, origin and discovery |
 | community-feed:com.sigaoli/profile | changed | schema 1 display, origin and discovery |
 | community-feed:com.siglume/mcp-gateway | changed | schema 1 display, origin and discovery |
@@ -2942,7 +2942,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.sofiastage/events | changed | schema 1 display, origin and discovery |
 | community-feed:com.solofire/spark | changed | schema 1 display, origin and discovery |
 | community-feed:com.somosvelora/velora | changed | schema 1 display, origin and discovery |
-| community-feed:com.sonatype/dependency-management-mcp-server | changed | schema 1 display, origin and discovery |
+| community-feed:com.sonatype/dependency-management-mcp-server | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.songstoyoureyes/catalog | changed | schema 1 display, origin and discovery |
 | community-feed:com.sonlightwindow/booking | changed | schema 1 display, origin and discovery |
 | community-feed:com.sooveryn/sooveryn | changed | schema 1 display, origin and discovery |
@@ -3037,7 +3037,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.talkspirit/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.tallyfy/mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:com.tapcart/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:com.taproothq/taproot | changed | schema 1 display, origin and discovery |
+| community-feed:com.taproothq/taproot | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.tarotap/tarot | changed | schema 1 display, origin and discovery |
 | community-feed:com.taxact/taxact-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.taxisfabbrimone/mcp | changed | schema 1 display, origin and discovery |
@@ -3077,7 +3077,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.thedeskmonitor/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.thefilmradar/filmlab | changed | schema 1 display, origin and discovery |
 | community-feed:com.theholisticcare/open-mindfulness | changed | schema 1 display, origin and discovery |
-| community-feed:com.theirstack/theirstack | changed | schema 1 display, origin and discovery |
+| community-feed:com.theirstack/theirstack | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.thejohnsonbros/plumbing-booking | changed | schema 1 display, origin and discovery |
 | community-feed:com.themailx/email-deliverability | changed | schema 1 display, origin and discovery |
 | community-feed:com.themarginapp/the-margin | changed | schema 1 display, origin and discovery |
@@ -3101,7 +3101,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.thousandeyes/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.thrifle/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:com.thrustlab/thrustlab | changed | schema 1 display, origin and discovery |
-| community-feed:com.tianxiagongchang/factory-search | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:com.tianxiagongchang/factory-search | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.tickerdb/mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:com.ticketfairy/ticket-fairy-public-events | changed | schema 1 display, origin and discovery |
 | community-feed:com.tickwind/tickwind | changed | schema 1 display, origin and discovery |
@@ -3348,7 +3348,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:com.zip-codes/api | changed | schema 1 display, origin and discovery |
 | community-feed:com.zippfeed/zipp | changed | schema 1 display, origin and discovery |
 | community-feed:com.zobrx/zobrx | changed | schema 1 display, origin and discovery |
-| community-feed:com.zomato/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:com.zomato/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:com.zoninga/finance | changed | schema 1 display, origin and discovery |
 | community-feed:com.zoningsignal/observatory | changed | schema 1 display, origin and discovery |
 | community-feed:com.zylalabs/api-hub | dropped | item.connect.secrets[0].label: length outside 1..200 |
@@ -3408,7 +3408,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:dev.21st/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:dev.2ds/2ds | changed | schema 1 display, origin and discovery |
 | community-feed:dev.3tg/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:dev.acopio/acopio | changed | schema 1 display, origin and discovery |
+| community-feed:dev.acopio/acopio | dropped | authentication is required but the source declares no secret header |
 | community-feed:dev.adcrunch/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:dev.agent-module/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:dev.agently/brain | changed | schema 1 display, origin and discovery |
@@ -3493,7 +3493,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:dev.repofold/repofold | changed | schema 1 display, origin and discovery |
 | community-feed:dev.repowise/repowise#pypi:repowise | changed | schema 1 display, origin and discovery; exact pinned package |
 | community-feed:dev.revamp/revamp | changed | schema 1 display, origin and discovery |
-| community-feed:dev.robase/sms | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:dev.robase/sms | dropped | authentication is required but the source declares no secret header |
 | community-feed:dev.rye/portfolio | changed | schema 1 display, origin and discovery |
 | community-feed:dev.scrip/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:dev.seekrit/remote-mcp | changed | schema 1 display, origin and discovery |
@@ -3523,7 +3523,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:dev.wraps/docs | changed | schema 1 display, origin and discovery |
 | community-feed:dev.xroot/token-operations | changed | schema 1 display, origin and discovery |
 | community-feed:direct.openclaw/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:directory.brick/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:directory.brick/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:directory.neeed/listings | changed | schema 1 display, origin and discovery |
 | community-feed:discount.cryptoexchange/referral-codes | changed | schema 1 display, origin and discovery |
 | community-feed:dk.afbudsrejser/travel-search | changed | schema 1 display, origin and discovery |
@@ -3707,7 +3707,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:io.agentage/find-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:io.agentage/memory | changed | schema 1 display, origin and discovery |
 | community-feed:io.ai2sql/ai2sql | changed | schema 1 display, origin and discovery |
-| community-feed:io.aidc-ai/design-engine | changed | schema 1 display, origin and discovery |
+| community-feed:io.aidc-ai/design-engine | dropped | authentication is required but the source declares no secret header |
 | community-feed:io.airpipe/airpipe | changed | schema 1 display, origin and discovery |
 | community-feed:io.alphagrowth/data | changed | schema 1 display, origin and discovery |
 | community-feed:io.ambiscribe/ambiscribe | changed | schema 1 display, origin and discovery |
@@ -3741,7 +3741,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:io.capawesome/capacitor-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:io.capawesome/ionic-framework-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:io.capawesome/mcp | changed | schema 1 display, origin and discovery |
-| community-feed:io.catchmetrics.mcp/rum-analytics | changed | schema 1 display, origin and discovery |
+| community-feed:io.catchmetrics.mcp/rum-analytics | dropped | authentication is required but the source declares no secret header |
 | community-feed:io.cg3/prior | dropped | Its address needs values you choose. Add it under Custom. |
 | community-feed:io.chamade/server | dropped | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:io.changenow/crypto-swap | changed | schema 1 display, origin and discovery |
@@ -4382,7 +4382,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:io.leantrading/leantrading-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:io.liminary.api/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:io.linkflare/linkflare | changed | schema 1 display, origin and discovery |
-| community-feed:io.linklist/linklist | changed | schema 1 display, origin and discovery |
+| community-feed:io.linklist/linklist | dropped | authentication is required but the source declares no secret header |
 | community-feed:io.liqaa/meetings | changed | schema 1 display, origin and discovery |
 | community-feed:io.lmxcloud/mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:io.localize/localize-io | changed | schema 1 display, origin and discovery |
@@ -4407,7 +4407,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:io.nameintel/server | changed | schema 1 display, origin and discovery |
 | community-feed:io.nestr/mcp#npm:%40nestr%2Fmcp | changed | schema 1 display, origin and discovery; exact pinned package |
 | community-feed:io.neurall/neurall | changed | schema 1 display, origin and discovery |
-| community-feed:io.neuronik/drop | changed | schema 1 display, origin and discovery |
+| community-feed:io.neuronik/drop | dropped | authentication is required but the source declares no secret header |
 | community-feed:io.nevlo/nevlo | changed | schema 1 display, origin and discovery |
 | community-feed:io.nightbreak/forge | changed | schema 1 display, origin and discovery |
 | community-feed:io.nocrash/nocrash | changed | schema 1 display, origin and discovery |
@@ -4426,7 +4426,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:io.philidor/defi-vaults | changed | schema 1 display, origin and discovery |
 | community-feed:io.pickrate/pickrate | changed | schema 1 display, origin and discovery |
 | community-feed:io.picsee/short-link | changed | schema 1 display, origin and discovery |
-| community-feed:io.planable/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:io.planable/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:io.powerpointengine/powerpoint-engine | changed | schema 1 display, origin and discovery |
 | community-feed:io.preset/mcp-gateway | changed | schema 1 display, origin and discovery |
 | community-feed:io.printpal/printpal | changed | schema 1 display, origin and discovery |
@@ -4441,7 +4441,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:io.qase/mcp-server#npm:%40qase%2Fmcp-server | dropped | streamable HTTPS remote preferred |
 | community-feed:io.qt.qt-docs-mcp/qt-documentation | changed | schema 1 display, origin and discovery |
 | community-feed:io.quackr/quackr | changed | schema 1 display, origin and discovery |
-| community-feed:io.quanti/mcp-server | changed | schema 1 display, origin and discovery |
+| community-feed:io.quanti/mcp-server | dropped | authentication is required but the source declares no secret header |
 | community-feed:io.reelmint/studio | changed | schema 1 display, origin and discovery |
 | community-feed:io.revise/mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:io.roadflow/roadflow | changed | schema 1 display, origin and discovery |
@@ -4465,7 +4465,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:io.skala/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:io.sku/sku | changed | schema 1 display, origin and discovery |
 | community-feed:io.slingdata/sling-cli#pypi:sling | changed | schema 1 display, origin and discovery; exact pinned package |
-| community-feed:io.smartroutes/smartroutes | changed | schema 1 display, origin and discovery |
+| community-feed:io.smartroutes/smartroutes | dropped | authentication is required but the source declares no secret header |
 | community-feed:io.smootify/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:io.snov/snov-mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:io.snyk/mcp#npm:snyk | changed | schema 1 display, origin and discovery; exact pinned package |
@@ -4588,13 +4588,13 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:market.execution/execution-market | changed | schema 1 display, origin and discovery |
 | community-feed:market.mtok/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:market.plati.mcp/digimarket | changed | schema 1 display, origin and discovery |
-| community-feed:market.waxed/mcp | changed | schema 1 display, origin and discovery |
+| community-feed:market.waxed/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:markets.bellwether/prediction-markets | changed | schema 1 display, origin and discovery |
 | community-feed:markets.oblique.api/oblique-markets | changed | schema 1 display, origin and discovery |
 | community-feed:md.adsagent/google-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:md.adsagent/meta-mcp | changed | schema 1 display, origin and discovery |
 | community-feed:md.adsagent/tiktok-mcp | changed | schema 1 display, origin and discovery |
-| community-feed:md.eureka/eureka | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:md.eureka/eureka | dropped | authentication is required but the source declares no secret header |
 | community-feed:md.install/try | changed | schema 1 display, origin and discovery |
 | community-feed:me.ceki/mcp-server | changed | schema 1 display, origin and discovery |
 | community-feed:me.didit/mcp | changed | schema 1 display, origin and discovery |
@@ -4606,7 +4606,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:me.in-context/portfolio | changed | schema 1 display, origin and discovery |
 | community-feed:me.optiai/optiai | changed | schema 1 display, origin and discovery |
 | community-feed:me.seekon.fast/product-discovery-mcp | changed | schema 1 display, origin and discovery |
-| community-feed:me.structa/structa | changed | schema 1 display, origin and discovery |
+| community-feed:me.structa/structa | dropped | authentication is required but the source declares no secret header |
 | community-feed:me.zeeg/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:media.distro/distroverse | changed | schema 1 display, origin and discovery |
 | community-feed:moda.ai/remote-camera | dropped | item.connect.secrets[0].label: length outside 1..200 |
@@ -4637,7 +4637,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:net.domandata/domandata | changed | schema 1 display, origin and discovery |
 | community-feed:net.explorersmap/explorersmap | changed | schema 1 display, origin and discovery |
 | community-feed:net.fantasize/cruise-finder | changed | schema 1 display, origin and discovery |
-| community-feed:net.foxnose/knowledge | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:net.foxnose/knowledge | dropped | authentication is required but the source declares no secret header |
 | community-feed:net.fsaircraft/catalog | changed | schema 1 display, origin and discovery |
 | community-feed:net.fundz/agent-api | changed | schema 1 display, origin and discovery |
 | community-feed:net.fundz/fundz | changed | schema 1 display, origin and discovery |
@@ -4704,7 +4704,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ninja.mailtester/email-verification | changed | schema 1 display, origin and discovery |
 | community-feed:ninja.selfmade/labs | changed | schema 1 display, origin and discovery |
 | community-feed:nl.briefverzenden/post | changed | schema 1 display, origin and discovery |
-| community-feed:nl.digi-data/digidata | changed | schema 1 display, origin and discovery |
+| community-feed:nl.digi-data/digidata | dropped | authentication is required but the source declares no secret header |
 | community-feed:nl.dinilu/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:nl.intermediair.www/jobs | changed | schema 1 display, origin and discovery |
 | community-feed:nl.ledgerbotje/exact-online | changed | schema 1 display, origin and discovery |
@@ -4835,7 +4835,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:page.doc/pdf-extract | changed | schema 1 display, origin and discovery |
 | community-feed:page.infra/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:page.notepad/notepad | changed | schema 1 display, origin and discovery |
-| community-feed:pizza.redirect/mcp | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:pizza.redirect/mcp | dropped | authentication is required but the source declares no secret header |
 | community-feed:pk.myservice/hotels | changed | schema 1 display, origin and discovery |
 | community-feed:pl.analizafirm/krs | changed | schema 1 display, origin and discovery |
 | community-feed:pl.barwa/drukarnia | changed | schema 1 display, origin and discovery |
@@ -4890,7 +4890,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ru.lab4u.mcp/lab4u | changed | schema 1 display, origin and discovery |
 | community-feed:ru.laguna-pools.mcp/pools | changed | schema 1 display, origin and discovery |
 | community-feed:ru.layero/layero | changed | schema 1 display, origin and discovery |
-| community-feed:ru.lpmotor/mottor | dropped | It needs values in its headers. Add it under Custom. |
+| community-feed:ru.lpmotor/mottor | dropped | authentication is required but the source declares no secret header |
 | community-feed:ru.quintadb/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:ru.renthuman/renthuman | changed | schema 1 display, origin and discovery |
 | community-feed:ru.tuqo/mcp | changed | schema 1 display, origin and discovery |
@@ -5140,7 +5140,7 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:vc.doomscore/doom | changed | schema 1 display, origin and discovery |
 | community-feed:video.future/future-video-studio | changed | schema 1 display, origin and discovery |
 | community-feed:video.motiontext/motion-text | changed | schema 1 display, origin and discovery |
-| community-feed:video.open/open-video | changed | schema 1 display, origin and discovery |
+| community-feed:video.open/open-video | dropped | authentication is required but the source declares no secret header |
 | community-feed:video.quiz/api | changed | schema 1 display, origin and discovery |
 | community-feed:vin.visor/mcp | changed | schema 1 display, origin and discovery |
 | community-feed:vip.esim-global/esim-catalog | changed | schema 1 display, origin and discovery |
@@ -5691,19 +5691,25 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | docker:wix | rejected | SSE-only transport |
 | marketplace:anthropics/claude-plugins-official:plugin:azure:mcp:azure | rejected | package version is not exact |
 | community-feed:ai.agentdm/agentdm | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:ai.bloopo/bloopo | rejected | authentication is required but the source declares no secret header |
 | community-feed:ai.decisionlog/mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:ai.duvera/gateway | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:ai.entityenricher/enricher | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:ai.explorium/mcp-explorium | rejected | authentication is required but the source declares no secret header |
+| community-feed:ai.gavelin/mcp | rejected | authentication is required but the source declares no secret header |
+| community-feed:ai.groundroute/web-search | rejected | authentication is required but the source declares no secret header |
+| community-feed:ai.kolens/kolens-mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:ai.lumify/sports-intelligence | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:ai.marketintell/marketintell | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:ai.meacheal/mrc-data | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:ai.midplane/midplane#npm:midplane | rejected | Its command needs values you choose. |
+| community-feed:ai.nudg3/brand-intelligence | rejected | authentication is required but the source declares no secret header |
 | community-feed:ai.openaso/openaso | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:ai.primateintelligence/mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:ai.redditgrow/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:ai.seltz/seltz-ai-seltz-mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:ai.shiplight/shiplight#npm:%40shiplightai%2Fmcp | rejected | package environment is not a declared secret reference |
-| community-feed:ai.sig.foodlog/food-logger | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:ai.sig.foodlog/food-logger | rejected | authentication is required but the source declares no secret header |
 | community-feed:ai.skylit/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:ai.spala/public-mcp | rejected | header is not a declared secret reference |
 | community-feed:ai.spicygen/spicygen | rejected | item.connect.secrets[0].label: length outside 1..200 |
@@ -5711,90 +5717,128 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:ai.wiro/mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:ai.youtube-transcript/youtube-transcript | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:app.apiguru/amazon-data#npm:apiguru-mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:app.hadl/portfolio | rejected | Its address needs values you choose. Add it under Custom. |
+| community-feed:app.fakto/fakturownia | rejected | authentication is required but the source declares no secret header |
+| community-feed:app.fakto/wfirma | rejected | authentication is required but the source declares no secret header |
+| community-feed:app.getdialer/dialer | rejected | authentication is required but the source declares no secret header |
+| community-feed:app.hadl/portfolio | rejected | authentication is required but the source declares no secret header |
 | community-feed:app.justemails/mcp | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:app.mochify/mochify | rejected | authentication is required but the source declares no secret header |
 | community-feed:app.neurorank/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:app.pumpx/pumpx | rejected | authentication is required but the source declares no secret header |
 | community-feed:app.tabtree/tabtree#npm:tabtree-mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:chat.muro/support | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:app.thoughtspot/mcp-server | rejected | authentication is required but the source declares no secret header |
+| community-feed:cc.contexta/contexta-mcp | rejected | authentication is required but the source declares no secret header |
+| community-feed:chat.muro/support | rejected | authentication is required but the source declares no secret header |
 | community-feed:chat.trilo/mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:club.inite/inite-club | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:co.heista/api | rejected | Its address needs values you choose. Add it under Custom. |
+| community-feed:co.heista/api | rejected | authentication is required but the source declares no secret header |
+| community-feed:co.valid/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.86hc/hongkong-company | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.adcritter/mcp-agent | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.admitbase/admissions | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.adspirer/ads | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.adviserry/adviserry | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.affogata.app/affogata | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.allratestoday/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.anotepad/notes | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.arcnautical/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.arison8/smolabot | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:com.atly/places | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:com.belindoc/belindoc-mcp | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.belindoc/belindoc-mcp | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.bitly/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.bouncewatch/signals | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.cache-boost/cacheboost | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.cambercloud.camber-mcp/camber-mcp-server | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:com.cars-data/car-specs-api | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.chainstack/chainstack | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.clootrack/mcp | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.coinmarketcap/coinmarketcap | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.compoid/mcp-server | rejected | Its address needs values you choose. Add it under Custom. |
-| community-feed:com.configdirector/mcp | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.configdirector/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.cryptohopper/mcp-data | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.droplinked.mcp/server | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.emtailabs/xray-vision | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.energyaisolution/energyai | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.energyaisolution/solar-home-incentives | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.epublys/epublys | rejected | header is not a declared secret reference |
 | community-feed:com.freeelatech/oneda | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.freename/mcp | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.getabstract/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.getboxkite/xero-backup-export | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.getcurrentoffer/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.gymnavigator/coach | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.hardlinephone/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.htagai/htag-intelligence | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.htagai/htag-spatial | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.johnsessentials/johns-essentials | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.joinnod/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.laddro/career | rejected | It needs values in its headers. Add it under Custom. |
-| community-feed:com.leadfriendly/lead-friendly | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.leadfriendly/lead-friendly | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.lenderprice/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.lifttrackapp/lifttrack | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.local-mcp/local-mcp#npm:local-mcp | rejected | package environment is not a declared secret reference |
 | community-feed:com.luneresearch/lune | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.medplum/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.meteosource/weather | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:com.metricspot/seo-mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:com.microsoft/dataverse#npm:%40microsoft%2Fdataverse | rejected | Its command needs values you choose. |
 | community-feed:com.microsoft/powerbi-modeling-mcp#npm:%40microsoft%2Fpowerbi-modeling-mcp | rejected | Its command needs values you choose. |
 | community-feed:com.multyplylabs/sec-fundamentals | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:com.myinfluenceai/agents | rejected | It needs a key under a name the hub reserves. |
+| community-feed:com.myinfluenceai/agents | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.neurarelay/relay-mcp | rejected | It needs values in its headers. Add it under Custom. |
-| community-feed:com.paddle/mcp-sandbox | rejected | It needs values in its headers. Add it under Custom. |
-| community-feed:com.parsestream/parsestream | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.ones/ones | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.paddle/mcp-sandbox | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.parsestream/parsestream | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.pentest-tools/mcp-server | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.peopleprincipia/principia | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.persuadioai/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.playcallerapp/mcp | rejected | Its address needs values you choose. Add it under Custom. |
 | community-feed:com.pointifytravels/travel | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:com.printfriendly/printfriendly | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.printfriendly/printfriendly | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.qurangallery/mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:com.redocly/mcp | rejected | header is not a declared secret reference |
+| community-feed:com.rephonic/rephonic | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.retentionrail/retentionrail | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.reviewflowz/reviews | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.rubiic/rubiic | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:com.runriva.quizbase/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:com.seofuxx/seo-audit | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.scoutapm/scout-monitoring | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.sendseven/messaging | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.seofuxx/seo-audit | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.sgpdirectory/mcp | rejected | Its address needs values you choose. Add it under Custom. |
 | community-feed:com.sgpdirectory/singapore-business-directory | rejected | Its address needs values you choose. Add it under Custom. |
 | community-feed:com.shipmyform/shipmyform | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.shurq/mcp | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.sonatype/dependency-management-mcp-server | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.sparkvibeai/spec-committee | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.spicyapi/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.splark/splark | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:com.taproothq/taproot | rejected | authentication is required but the source declares no secret header |
+| community-feed:com.theirstack/theirstack | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.themonexus/terminal | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:com.tianxiagongchang/factory-search | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.tianxiagongchang/factory-search | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.tppflow/texas-rrc-wellbores | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.trellistate/listings | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.truealter/identity | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.usegeon/geon | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:com.zettoai/zetto | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:com.zomato/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:com.zylalabs/api-hub | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:com.zyphe/zyphe-mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:design.overflow/mcp | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:dev.acopio/acopio | rejected | authentication is required but the source declares no secret header |
 | community-feed:dev.cloro/cloro | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:dev.e2a/mcp-server | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:dev.falconbuilder/falcon-builder | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:dev.ngrok-free.sympathy-myself-jogger/agentbridge | rejected | header is not a declared secret reference |
-| community-feed:dev.robase/sms | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:dev.robase/sms | rejected | authentication is required but the source declares no secret header |
+| community-feed:directory.brick/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:fr.synergieloc/immobilier | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:fun.publish/mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:io.adtao/mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:io.afterlaunch/agentic-growth-marketing | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:io.aidc-ai/design-engine | rejected | authentication is required but the source declares no secret header |
+| community-feed:io.catchmetrics.mcp/rum-analytics | rejected | authentication is required but the source declares no secret header |
 | community-feed:io.cg3/prior | rejected | Its address needs values you choose. Add it under Custom. |
 | community-feed:io.chamade/server | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:io.chatcut/chatcut | rejected | header is not a declared secret reference |
@@ -5824,28 +5868,37 @@ Compared 5184 distinct legacy IDs with 5336 candidate listings. 415 added, 4938 
 | community-feed:io.github.zereight/gitlab-mcp#npm:%40zereight%2Fmcp-gitlab | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:io.indexone/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:io.keyflight/pnr | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:io.linklist/linklist | rejected | authentication is required but the source declares no secret header |
 | community-feed:io.namefi/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:io.neuronik/drop | rejected | authentication is required but the source declares no secret header |
+| community-feed:io.planable/mcp | rejected | authentication is required but the source declares no secret header |
+| community-feed:io.quanti/mcp-server | rejected | authentication is required but the source declares no secret header |
 | community-feed:io.routescore/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:io.smartroutes/smartroutes | rejected | authentication is required but the source declares no secret header |
 | community-feed:io.standoutmcp/standout | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:kr.wandsol/patent-search | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:llc.facet/ucp-shopping | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:love.chain.app/chainlove-mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:md.eureka/eureka | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:market.waxed/mcp | rejected | authentication is required but the source declares no secret header |
+| community-feed:md.eureka/eureka | rejected | authentication is required but the source declares no secret header |
+| community-feed:me.structa/structa | rejected | authentication is required but the source declares no secret header |
 | community-feed:moda.ai/remote-camera | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:net.aivideocheck/mcp | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:net.clickwise/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:net.foxnose/knowledge | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:net.foxnose/knowledge | rejected | authentication is required but the source declares no secret header |
 | community-feed:net.inkseal/inkseal | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:net.periodix/actions | rejected | It needs values in its headers. Add it under Custom. |
 | community-feed:network.edge/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
+| community-feed:nl.digi-data/digidata | rejected | authentication is required but the source declares no secret header |
 | community-feed:org.openweathermap/agents | rejected | It needs a key under a name the hub reserves. |
-| community-feed:pizza.redirect/mcp | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:pizza.redirect/mcp | rejected | authentication is required but the source declares no secret header |
 | community-feed:ru.krasoft/zakupki | rejected | item.connect.secrets[0].label: length outside 1..200 |
-| community-feed:ru.lpmotor/mottor | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:ru.lpmotor/mottor | rejected | authentication is required but the source declares no secret header |
 | community-feed:run.pantheon/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:site.chatgpt.alert-crab-1890.pageproof/pdf-extract | rejected | header is not a declared secret reference |
 | community-feed:space.innernote/innernote | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:to.sprawl/sprawl | rejected | It needs values in its headers. Add it under Custom. |
+| community-feed:video.open/open-video | rejected | authentication is required but the source declares no secret header |
 | community-feed:xyz.mindjack/mcp | rejected | item.connect.secrets[0].label: length outside 1..200 |
 | community-feed:ai.tuteliq/mcp#npm:%40tuteliq%2Fmcp | rejected | streamable HTTPS remote preferred |
 | community-feed:ai.wavespeed/mcp#npm:%40wavespeed%2Fmcp | rejected | streamable HTTPS remote preferred |

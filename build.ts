@@ -54,7 +54,7 @@ function wire(items: CatalogListingItem[], part: Part): unknown {
     return part === "connectors" ? { mcp: select("mcp") } : { skills: select("skill"), bundles: select("bundle") };
 }
 
-function pickCommunity(records: RegistryRecord[], reasons: Explanation[]) {
+export function pickCommunity(records: RegistryRecord[], reasons: Explanation[]) {
     const supplied = new Map<string, CatalogTool[]>();
     const entries = parseCommunityFeed({ servers: records.filter(record => !record.server.remotes?.length || !record.server.remotes.every(item => item.type === "sse")) });
     const itemsById = new Map(entries.map(item => [item.id,item]));
@@ -68,7 +68,10 @@ function pickCommunity(records: RegistryRecord[], reasons: Explanation[]) {
         }
         const mcp = itemsById.get(id)?.mcp;
         const recordedAuth = record._meta?.["agents/community"]?.auth;
-        if (mcp && recordedAuth === "oauth" && mcp.auth === "none") mcp.auth = "oauth";
+        if (mcp && mcp.auth === "none") {
+            if (recordedAuth === "oauth") mcp.auth = "oauth";
+            if (recordedAuth === "key") mcp.setupNeeded = "authentication is required but the source declares no secret header";
+        }
     }
     return { items: entries, supplied };
 }
@@ -139,10 +142,11 @@ async function parts(output: string) {
         && item.connect.config.type === "http" && !Object.keys(item.connect.config.headers ?? {}).length && !item.connect.tools).slice(0, probing);
     const toolCachePath = arg("tool-checkpoint");
     const toolCache = toolCachePath ? new Checkpoint(toolCachePath) : null;
-    let discoveryBytes = 0;
+    let discoveryBytes = 0, discoveryNodes = 0, probed = 0;
     try {
         for (let offset = 0; offset < candidates.length && discoveryBytes < 8 * 1024 * 1024; offset += 20) {
             const batch = candidates.slice(offset, offset + 20);
+            probed += batch.length;
             const discoveries = await Promise.all(batch.map(async item => {
                 if (item.kind !== "mcp" || item.connect.config.type !== "http") return null;
                 const { url } = item.connect.config;
@@ -152,9 +156,12 @@ async function parts(output: string) {
             for (const [index, tools] of discoveries.entries()) {
                 const item = batch[index]!;
                 if (!tools || item.kind !== "mcp") continue;
-                const size = Buffer.byteLength(JSON.stringify(tools));
-                if (size <= 96 * 1024 && discoveryBytes + size <= 8 * 1024 * 1024) {
+                const encoded = JSON.stringify(tools);
+                const size = Buffer.byteLength(encoded);
+                const nodes = encoded.match(/["\[{,]/g)?.length ?? 0;
+                if (size <= 96 * 1024 && discoveryBytes + size <= 8 * 1024 * 1024 && discoveryNodes + nodes <= 350_000) {
                     discoveryBytes += size;
+                    discoveryNodes += nodes;
                     item.connect.tools = tools;
                 }
             }
@@ -183,7 +190,7 @@ async function parts(output: string) {
         await mkdir(join(report,".."),{recursive:true});
         await writeAtomic(report,comparison(snapshot,oldFeed,accepted,reasons,aliases,notes));
     }
-    console.log(JSON.stringify({ listings: accepted.length, parts: stages.map(({id, items, warning}) => ({id,count:items.length,warning})), toolsProbed: candidates.length }));
+    console.log(JSON.stringify({ listings: accepted.length, parts: stages.map(({id, items, warning}) => ({id,count:items.length,warning})), toolsProbed: probed }));
 }
 
 if (import.meta.main) {

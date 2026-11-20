@@ -1,3 +1,4 @@
+import { parseCatalogJson } from "../ingestion";
 import { guardedFetch, type OAuthIo } from "./network";
 import { catalogueTool } from "./map";
 import type { CatalogTool } from "./item";
@@ -50,6 +51,7 @@ export async function discoverTools(url: string, io: OAuthIo = {}): Promise<Cata
             if (!tool) return;
             tools.push(tool);
         }
+        parseCatalogJson(new TextEncoder().encode(JSON.stringify(tools)), 20_000);
         return tools;
     } catch { return undefined; }
     finally {

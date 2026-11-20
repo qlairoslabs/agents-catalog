@@ -3,7 +3,7 @@ import { createHash } from "node:crypto";
 import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { makeIndex, partWithFallback } from "./build";
+import { makeIndex, partWithFallback, pickCommunity } from "./build";
 import { validateIndex, validatePart } from "./validate";
 import { mapItem, mergeItems } from "./mcp/map";
 import { registryToItem } from "./mcp/registry";
@@ -104,4 +104,12 @@ test("no-auth discovery lists tool shapes without invoking tools or following re
     });
     expect(requests).toEqual(["initialize","notifications/initialized","tools/list","DELETE"]);
     expect(listed).toEqual([{name:"search",description:"",inputSchema:{type:"object"}}]);
+});
+
+
+test("recorded key auth without a declared header is dropped before tool discovery", () => {
+    const { items } = pickCommunity([{ server:{name:"com.example/server",remotes:[{type:"streamable-http",url:"https://example.com/mcp"}]},
+        _meta:{"agents/community":{kind:"remote",auth:"key"}} }], []);
+    expect(items).toHaveLength(1);
+    expect(mapItem(items[0]!)).toHaveProperty("reason","authentication is required but the source declares no secret header");
 });
