@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/main/schema/annotations.schema.json",
+  "title": "Annotations for another catalogue (schema 1)",
+  "description": "Our notes about listings we do not own (catalogue §5.1): they only add discovery, set replacedBy, and give tools an effect by name. Never display, origin or connect, and no third-party text.",
+  "type": "object",
+  "required": ["catalogue", "entries"],
+  "properties": {
+    "catalogue": { "type": "string", "pattern": "^[a-z][a-z0-9-]{0,31}$" },
+    "entries": {
+      "type": "object",
+      "maxProperties": 20000,
+      "propertyNames": { "pattern": "^[a-z][a-z0-9-]*:[^\\s]{1,200}$" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "discovery": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "attributes": { "$ref": "item.schema.json#/properties/discovery/properties/attributes" },
+              "tasks": { "$ref": "item.schema.json#/properties/discovery/properties/tasks" }
+            }
+          },
+          "replacedBy": { "type": "array", "maxItems": 8, "items": { "$ref": "item.schema.json#/$defs/id" } },
+          "effects": {
+            "type": "object",
+            "maxProperties": 2000,
+            "propertyNames": { "minLength": 1, "maxLength": 128 },
+            "additionalProperties": { "$ref": "item.schema.json#/$defs/effect" }
+          }
+        }
+      }
+    }
+  }
+}

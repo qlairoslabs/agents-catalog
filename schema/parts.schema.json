@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/main/schema/parts.schema.json",
+  "title": "Catalogue parts (schema 1)",
+  "description": "connectors.json holds connectors; skills.json holds skills and bundles, as hubs read both under outbound.skills.",
+  "$defs": {
+    "connectors": {
+      "type": "object",
+      "required": ["mcp"],
+      "properties": { "mcp": { "type": "array", "maxItems": 50000, "items": { "allOf": [{ "$ref": "item.schema.json" }, { "required": ["connect"] }] } } }
+    },
+    "skills": {
+      "type": "object",
+      "required": ["skills", "bundles"],
+      "properties": {
+        "skills": { "type": "array", "maxItems": 50000, "items": { "allOf": [{ "$ref": "item.schema.json" }, { "required": ["skill"] }] } },
+        "bundles": { "type": "array", "maxItems": 20000, "items": { "allOf": [{ "$ref": "item.schema.json" }, { "required": ["bundle"] }] } }
+      }
+    }
+  }
+}

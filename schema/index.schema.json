@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/main/schema/index.schema.json",
+  "title": "Catalogue index (schema 1)",
+  "description": "The signed file (catalogue §8). Its exact bytes are signed; the signature is index.json.sig. Readers ignore fields they do not know and refuse a schema they cannot read.",
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "rawUrl": { "type": "string", "maxLength": 2000, "pattern": "^https://raw\\.githubusercontent\\.com/qlairoslabs/agents-catalog/[0-9a-f]{40}/[A-Za-z0-9._/-]+$" },
+    "facet": {
+      "type": "object",
+      "required": ["id", "label", "kinds"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z0-9_-]{0,31}$" },
+        "label": { "type": "string", "minLength": 1, "maxLength": 60 },
+        "hierarchical": { "type": "boolean" },
+        "kinds": { "type": "array", "minItems": 1, "items": { "enum": ["mcp", "skill", "bundle"] } },
+        "values": {
+          "type": "array", "maxItems": 2000,
+          "items": { "type": "object", "required": ["id"], "properties": { "id": { "type": "string", "maxLength": 120 }, "label": { "type": "string", "maxLength": 80 } } }
+        }
+      }
+    },
+    "blockReason": { "type": "string", "minLength": 1, "maxLength": 300 }
+  },
+  "type": "object",
+  "required": ["schema", "sequence", "generatedAt", "expires", "rules", "commit", "facets", "parts", "annotations", "blocked"],
+  "properties": {
+    "schema": { "const": 1 },
+    "sequence": { "description": "The build time, in seconds since the epoch. A reader refuses an older one than it accepted, and one in the future beyond a small tolerance.", "type": "integer", "minimum": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "expires": { "description": "14 days after the build.", "type": "string", "format": "date-time" },
+    "rules": { "description": "The rules version the build applied.", "type": "string", "maxLength": 100 },
+    "commit": { "description": "The repository commit that built this catalogue.", "type": "string", "pattern": "^[0-9a-f]{40}$" },
+    "facets": { "type": "array", "maxItems": 64, "items": { "$ref": "#/$defs/facet" } },
+    "parts": {
+      "type": "array", "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["id", "url", "sha256", "bytes", "items"],
+        "properties": {
+          "id": { "enum": ["connectors", "skills"] },
+          "url": { "$ref": "#/$defs/rawUrl" },
+          "sha256": { "$ref": "#/$defs/sha256" },
+          "bytes": { "description": "Uncompressed size, so a reader can refuse an oversized part before reading it.", "type": "integer", "minimum": 0 },
+          "items": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "annotations": {
+      "type": "array", "maxItems": 16,
+      "items": {
+        "type": "object",
+        "required": ["catalogue", "url", "sha256", "bytes", "items"],
+        "properties": {
+          "catalogue": { "type": "string", "pattern": "^[a-z][a-z0-9-]{0,31}$" },
+          "url": { "$ref": "#/$defs/rawUrl" },
+          "sha256": { "$ref": "#/$defs/sha256" },
+          "bytes": { "type": "integer", "minimum": 0 },
+          "items": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "blocked": {
+      "description": "What must not be used (rules §8). A hub refuses to start or connect anything on it, shows why, and deletes nothing.",
+      "type": "object",
+      "required": ["packages", "servers", "skills"],
+      "properties": {
+        "packages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["manager", "identifier", "versions", "reason"],
+            "properties": {
+              "manager": { "enum": ["npm", "pypi", "mcpb"] },
+              "identifier": { "type": "string", "minLength": 1, "maxLength": 214 },
+              "versions": { "description": "Exact versions, or [\"*\"] for every version.", "type": "array", "minItems": 1, "items": { "type": "string", "maxLength": 64 } },
+              "reason": { "$ref": "#/$defs/blockReason" }
+            }
+          }
+        },
+        "servers": {
+          "type": "array",
+          "items": { "type": "object", "required": ["url", "reason"], "properties": { "url": { "type": "string", "maxLength": 2000, "pattern": "^https://" }, "reason": { "$ref": "#/$defs/blockReason" } } }
+        },
+        "skills": {
+          "type": "array",
+          "items": { "type": "object", "required": ["treeSha", "reason"], "properties": { "treeSha": { "type": "string", "pattern": "^[0-9a-f]{40}$" }, "reason": { "$ref": "#/$defs/blockReason" } } }
+        }
+      }
+    }
+  }
+}

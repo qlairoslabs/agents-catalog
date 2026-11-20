@@ -1,0 +1,15 @@
+{
+  "catalogue": "composio",
+  "entries": {
+    "composio:vercel": {
+      "discovery": { "attributes": { "domain": ["software/hosting"] }, "tasks": ["deploy a website", "check a deployment", "manage domains"] }
+    },
+    "composio:notion": {
+      "discovery": { "attributes": { "domain": ["productivity/notes"] } },
+      "replacedBy": ["docker:notion"]
+    },
+    "composio:tiktok": {
+      "effects": { "TIKTOK_UPLOAD_VIDEO": { "effect": "risky", "hash": "7777777777777777777777777777777777777777777777777777777777777777" } }
+    }
+  }
+}

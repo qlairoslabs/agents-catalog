@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/main/schema/item.schema.json",
+  "title": "Catalogue item (schema 1)",
+  "description": "One listing. Parts group items by kind, so an item carries no kind: the block it holds (connect, skill or bundle) says what it is. Readers ignore fields they do not know, except inside connect, which decides what runs and is validated strictly.",
+  "$defs": {
+    "text": { "type": "string", "maxLength": 4000 },
+    "shortText": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*:[^\\s]{1,200}$" },
+    "trust": { "enum": ["curated", "verified-publisher", "community", "unvetted"] },
+    "sourceRef": {
+      "type": "object",
+      "required": ["id", "label"],
+      "properties": { "id": { "$ref": "#/$defs/shortText" }, "label": { "$ref": "#/$defs/shortText" } }
+    },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "httpsUrl": { "type": "string", "maxLength": 2000, "pattern": "^https://[^\\s]+$" },
+    "envName": { "type": "string", "pattern": "^[A-Z_][A-Z0-9_]{0,63}$" },
+    "secretRef": { "type": "string", "pattern": "^\\$[A-Z_][A-Z0-9_]{0,63}$" },
+    "effect": {
+      "description": "What a tool does to the world, classified from its definition (catalogue §7). hash is the sha256 of the tool's canonical definition (README, 'Tool hash'); a reader ignores an effect whose hash does not match the tool it holds, and counts the tool as write.",
+      "type": "object",
+      "required": ["effect", "hash"],
+      "additionalProperties": false,
+      "properties": { "effect": { "enum": ["read", "write", "risky"] }, "hash": { "$ref": "#/$defs/sha256" } }
+    },
+    "tool": {
+      "type": "object",
+      "required": ["name", "description", "inputSchema"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "description": { "$ref": "#/$defs/text" },
+        "inputSchema": { "type": "object" },
+        "effect": { "$ref": "#/$defs/effect" }
+      }
+    },
+    "secretInput": {
+      "type": "object",
+      "required": ["env", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "env": { "$ref": "#/$defs/envName" },
+        "label": { "$ref": "#/$defs/shortText" },
+        "example": { "type": "string", "maxLength": 200 }
+      }
+    },
+    "httpConfig": {
+      "type": "object",
+      "required": ["type", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "http" },
+        "url": { "$ref": "#/$defs/httpsUrl" },
+        "headers": {
+          "description": "Header values may only reference a declared secret.",
+          "type": "object",
+          "maxProperties": 16,
+          "additionalProperties": { "$ref": "#/$defs/secretRef" }
+        }
+      }
+    },
+    "packageConfig": {
+      "type": "object",
+      "required": ["type", "package"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "package" },
+        "package": {
+          "type": "object",
+          "required": ["manager", "identifier", "version"],
+          "additionalProperties": false,
+          "properties": {
+            "manager": { "enum": ["npm", "pypi", "mcpb"] },
+            "identifier": { "type": "string", "minLength": 1, "maxLength": 214 },
+            "version": { "type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[0-9A-Za-z.+_-]+$" },
+            "sha256": { "$ref": "#/$defs/sha256" }
+          }
+        },
+        "args": { "type": "array", "maxItems": 32, "items": { "type": "string", "maxLength": 500 } },
+        "env": { "type": "object", "maxProperties": 32, "additionalProperties": { "$ref": "#/$defs/secretRef" } },
+        "update": { "enum": ["auto", "pinned"] }
+      }
+    },
+    "connect": {
+      "description": "How a connector is added. Decides what runs: no unknown fields. The catalogue never emits delegated connectors; those are built by a hub's provider adapter.",
+      "type": "object",
+      "required": ["config", "auth", "secrets"],
+      "additionalProperties": false,
+      "properties": {
+        "config": { "oneOf": [{ "$ref": "#/$defs/httpConfig" }, { "$ref": "#/$defs/packageConfig" }] },
+        "auth": { "enum": ["none", "key", "oauth"] },
+        "secrets": { "type": "array", "maxItems": 16, "items": { "$ref": "#/$defs/secretInput" } },
+        "requires": { "type": "array", "maxItems": 8, "items": { "type": "string", "pattern": "^[a-z][a-z0-9-]{0,63}$" } },
+        "tools": { "type": "array", "maxItems": 1000, "items": { "$ref": "#/$defs/tool" } }
+      }
+    },
+    "gitSource": {
+      "type": "object",
+      "required": ["owner", "repo", "commit", "path"],
+      "additionalProperties": false,
+      "properties": {
+        "owner": { "type": "string", "pattern": "^[A-Za-z0-9_.-]{1,100}$" },
+        "repo": { "type": "string", "pattern": "^[A-Za-z0-9_.-]{1,100}$" },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "path": { "type": "string", "maxLength": 500 }
+      }
+    },
+    "skill": {
+      "type": "object",
+      "required": ["source", "treeSha", "readUrl"],
+      "additionalProperties": false,
+      "properties": {
+        "source": { "$ref": "#/$defs/gitSource" },
+        "treeSha": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "readUrl": { "$ref": "#/$defs/httpsUrl" }
+      }
+    },
+    "bundle": {
+      "type": "object",
+      "required": ["source", "version", "skills", "connectors"],
+      "additionalProperties": false,
+      "properties": {
+        "source": { "$ref": "#/$defs/gitSource" },
+        "version": { "type": "string", "minLength": 1, "maxLength": 100 },
+        "skills": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+        "connectors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "additionalProperties": false,
+            "properties": {
+              "name": { "$ref": "#/$defs/shortText" },
+              "transport": { "enum": ["http", "stdio"] },
+              "leftOut": { "type": "string", "maxLength": 300 }
+            }
+          }
+        }
+      }
+    }
+  },
+  "type": "object",
+  "required": ["id", "name", "display", "origin"],
+  "properties": {
+    "id": { "$ref": "#/$defs/id" },
+    "formerIds": { "type": "array", "maxItems": 20, "items": { "$ref": "#/$defs/id" } },
+    "name": { "type": "string", "minLength": 1, "maxLength": 100 },
+    "display": {
+      "description": "What it is. Untrusted text, shown as it is.",
+      "type": "object",
+      "required": ["title"],
+      "properties": {
+        "title": { "$ref": "#/$defs/shortText" },
+        "description": { "anyOf": [{ "$ref": "#/$defs/text" }, { "type": "null" }] },
+        "icon": { "anyOf": [{ "$ref": "#/$defs/httpsUrl" }, { "type": "null" }] }
+      }
+    },
+    "origin": {
+      "description": "Who says so: the only group that decides trust.",
+      "type": "object",
+      "required": ["trust", "source", "all"],
+      "properties": {
+        "trust": { "$ref": "#/$defs/trust" },
+        "publisher": {
+          "anyOf": [
+            { "type": "object", "required": ["name", "verified"], "properties": { "name": { "$ref": "#/$defs/shortText" }, "verified": { "type": "boolean" } } },
+            { "type": "null" }
+          ]
+        },
+        "source": { "$ref": "#/$defs/sourceRef" },
+        "bundle": { "$ref": "#/$defs/id" },
+        "all": {
+          "type": "array", "minItems": 1, "maxItems": 50,
+          "items": { "type": "object", "required": ["source", "trust"], "properties": { "source": { "$ref": "#/$defs/sourceRef" }, "trust": { "$ref": "#/$defs/trust" }, "bundle": { "$ref": "#/$defs/id" } } }
+        }
+      }
+    },
+    "discovery": {
+      "description": "How to find it. Optional; never affects trust or what runs. summary, whenToUse and tasks are untrusted text.",
+      "type": "object",
+      "properties": {
+        "summary": { "type": "string", "maxLength": 300 },
+        "whenToUse": { "type": "string", "maxLength": 500 },
+        "tasks": { "type": "array", "maxItems": 20, "items": { "type": "string", "maxLength": 120 } },
+        "attributes": {
+          "type": "object",
+          "maxProperties": 32,
+          "additionalProperties": { "type": "array", "maxItems": 20, "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*(/[a-z0-9][a-z0-9._-]*){0,2}$" } }
+        },
+        "signals": {
+          "type": "object",
+          "properties": {
+            "popularity": { "type": "integer", "minimum": 0, "maximum": 100 },
+            "updatedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+          }
+        }
+      }
+    },
+    "connect": { "$ref": "#/$defs/connect" },
+    "skill": { "$ref": "#/$defs/skill" },
+    "bundle": { "$ref": "#/$defs/bundle" }
+  },
+  "oneOf": [
+    { "required": ["connect"], "not": { "anyOf": [{ "required": ["skill"] }, { "required": ["bundle"] }] } },
+    { "required": ["skill"], "not": { "anyOf": [{ "required": ["connect"] }, { "required": ["bundle"] }] } },
+    { "required": ["bundle"], "not": { "anyOf": [{ "required": ["connect"] }, { "required": ["skill"] }] } }
+  ]
+}
