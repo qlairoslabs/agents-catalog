@@ -4,6 +4,7 @@
 
 import type { ClassifyInput } from "./hash";
 import { GOALS } from "./output";
+import { TOOLS_SHOWN } from "./hash";
 
 export function systemPrompt(vocabulary: { domain: string[]; product: string[]; audience: string[] } | null): string {
     const lists = vocabulary
@@ -36,7 +37,7 @@ export function batchPrompt(batch: readonly ClassifyInput[]): string {
     const data = batch.map(entry => ({
         id: entry.id, kind: entry.kind, title: entry.title.slice(0, 200),
         description: entry.description.slice(0, 2000), publisher: entry.publisher,
-        tools: entry.tools.slice(0, 200).map(tool => ({ name: tool.name, description: tool.description, inputSchema: tool.schema })),
+        tools: entry.tools.slice(0, TOOLS_SHOWN).map(tool => ({ name: tool.name, description: tool.description, inputSchema: tool.schema })),
     }));
     return `Classify these ${data.length} entries.\n\n${JSON.stringify(data)}`;
 }

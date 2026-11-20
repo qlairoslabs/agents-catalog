@@ -25,7 +25,11 @@ export function judge(envelope: any, workFiles: string[]): string[] {
     if (envelope?.is_error) problems.push(`the run failed: ${envelope.subtype}`);
     if ((envelope?.permission_denials ?? []).length) problems.push("a tool was requested and denied");
     if ((envelope?.num_turns ?? 99) > 2) problems.push(`more turns than the structured answer needs: ${envelope.num_turns}`);
-    if (!Array.isArray(envelope?.structured_output?.items)) problems.push("no structured answer");
+    const row = Array.isArray(envelope?.structured_output?.items)
+        ? envelope.structured_output.items.find((item: any) => item?.id === CANARY.id) : undefined;
+    if (!row || !Array.isArray(row.domain) || !Array.isArray(row.goal) || typeof row.summary !== "string" || !Array.isArray(row.effects)) {
+        problems.push("no valid answer for the canary entry");
+    }
     return problems;
 }
 

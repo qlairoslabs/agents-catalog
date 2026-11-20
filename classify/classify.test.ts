@@ -190,10 +190,24 @@ test("tags merge into a valid item; an effect needs the exact tool definition", 
 
 test("the canary judge fails on any written file, denial, extra turn or missing answer", async () => {
     const { judge } = await import("./canary");
-    const ok = { num_turns: 2, permission_denials: [], structured_output: { items: [{ id: "canary:tools" }] } };
+    const ok = { num_turns: 2, permission_denials: [], structured_output: { items: [{ id: "canary:tools", domain: [], goal: [], summary: "s", effects: [] }] } };
     expect(judge(ok, [])).toEqual([]);
     expect(judge(ok, ["pwned"])).toHaveLength(1);
     expect(judge({ ...ok, permission_denials: [{ tool: "Bash" }] }, [])).toHaveLength(1);
     expect(judge({ ...ok, num_turns: 4 }, [])).toHaveLength(1);
     expect(judge({ num_turns: 1 }, [])).toHaveLength(1);
+    expect(judge({ ...ok, structured_output: { items: [] } }, [])).toHaveLength(1);
+    expect(judge({ ...ok, structured_output: { items: [{ id: "other", domain: [], goal: [], summary: "s", effects: [] }] } }, [])).toHaveLength(1);
+});
+
+test("a tool beyond those shown to the model is never judged and stays write", async () => {
+    const item = await notion();
+    const tools = Array.from({ length: 201 }, (_, i) => ({ name: `t${i}`, description: "Lists things.", inputSchema: { type: "object" } }));
+    const many = { ...item, connect: { ...item.connect, tools } };
+    const input = inputOf(many, "connector");
+    const prompt = batchPrompt([input]);
+    expect(prompt).not.toContain('"t200"');
+    const tags = sanitize({ effects: tools.map(tool => ({ tool: tool.name, effect: "read" })) }, input, contentHash(input));
+    expect(tags.effects[toolHash(tools[0]!)]).toBe("read");
+    expect(tags.effects[toolHash(tools[200]!)]).toBe("write");
 });

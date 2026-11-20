@@ -35,6 +35,8 @@ export interface ClassifyInput {
 
 export const TOOL_DESCRIPTION_LIMIT = 600;
 export const TOOL_SCHEMA_LIMIT = 3000;
+/** Tools shown to the model per item; the rest are never judged and stay write. */
+export const TOOLS_SHOWN = 200;
 
 export function contentHash(input: ClassifyInput): string {
     return sha256(canonicalJson(input));

@@ -4,11 +4,11 @@
 // fields and values are dropped, text is cut to the schema's limits, and an
 // effect is kept only for a tool the item really has, defaulting to write.
 
-import type { ClassifyInput } from "./hash";
+import { TOOLS_SHOWN, type ClassifyInput } from "./hash";
 
 /** Bump when the prompt, schema or sanitizer change what a tag means: every
  *  stored tag is then classified again. A vocabulary merge does not need it. */
-export const CLASSIFIER_VERSION = 1;
+export const CLASSIFIER_VERSION = 2;
 
 export const GOALS = [
     "get-customers", "sell", "get-paid", "keep-in-touch", "support-customers", "be-online",
@@ -85,7 +85,8 @@ const values = (list: unknown, max: number) =>
     [...new Set((Array.isArray(list) ? list : []).map(slug).filter((v): v is string => !!v))].slice(0, max);
 
 export function sanitize(answer: any, input: ClassifyInput, contentHash: string): Tags {
-    const byName = new Map(input.tools.map(tool => [tool.name, tool]));
+    // Only the tools the prompt showed can be judged; the rest stay write.
+    const byName = new Map(input.tools.slice(0, TOOLS_SHOWN).map(tool => [tool.name, tool]));
     const effects: Tags["effects"] = Object.create(null);
     for (const tool of input.tools) effects[tool.hash] = "write"; // unsure is write
     for (const entry of Array.isArray(answer?.effects) ? answer.effects : []) {
