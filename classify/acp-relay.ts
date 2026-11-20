@@ -51,7 +51,8 @@ if (import.meta.main) {
     const stop = (code: number) => {
         if (stopping) return;
         stopping = true;
-        if (name && command.includes("--name")) Bun.spawnSync(["podman", "rm", "-f", "-t", "0", name], { stdout: "ignore", stderr: "ignore" });
+        // Same environment as the podman that created it; bounded, since the runner checks again.
+        if (name && command.includes("--name")) Bun.spawnSync(["podman", "rm", "-f", "-t", "0", name], { env: process.env, stdout: "ignore", stderr: "ignore", timeout: 5_000 });
         child.kill("SIGKILL");
         process.exit(code);
     };

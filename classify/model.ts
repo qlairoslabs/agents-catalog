@@ -32,16 +32,37 @@ export const DEFAULT_OPTIONS: ModelOptions = {
     timeoutMs: 15 * 60_000,
 };
 
-/** Removes a run's container and checks it is gone. The container holds the
- *  token, so a run that cannot confirm its removal fails loudly. */
-export async function removeContainer(name: string, timeoutMs = 20_000): Promise<void> {
+/** The exact environment podman runs with on the host: the same for creating,
+ *  removing and checking a container, so they all see one store. */
+export function podmanEnv(): Record<string, string> {
+    return Object.fromEntries(Object.entries({
+        PATH: process.env.PATH, HOME: process.env.HOME, XDG_RUNTIME_DIR: process.env.XDG_RUNTIME_DIR,
+        CONTAINERS_CONF: process.env.CONTAINERS_CONF,
+    }).filter((entry): entry is [string, string] => typeof entry[1] === "string"));
+}
+
+async function podmanStep(args: string[], env: Record<string, string>, timeoutMs: number): Promise<number | null> {
+    const child = Bun.spawn(["podman", ...args], { env, stdout: "ignore", stderr: "ignore" });
+    const timer = setTimeout(() => child.kill("SIGKILL"), timeoutMs);
+    try {
+        const code = await child.exited;
+        return child.signalCode ? null : code;
+    } finally { clearTimeout(timer); }
+}
+
+/** Removes a run's container and confirms it is gone: `podman container
+ *  exists` must answer exactly 1 (absent); an error (125) or a stuck command
+ *  is retried until the deadline, then fails loudly, since the container holds
+ *  the token. */
+export async function removeContainer(name: string, timeoutMs = 20_000, env: Record<string, string> = podmanEnv()): Promise<void> {
     const deadline = Date.now() + timeoutMs;
     while (Date.now() < deadline) {
-        Bun.spawnSync(["podman", "rm", "-f", "-t", "0", name], { stdout: "ignore", stderr: "ignore" });
-        if (Bun.spawnSync(["podman", "container", "exists", name]).exitCode !== 0) return;
+        const left = () => Math.max(500, Math.min(5_000, deadline - Date.now()));
+        await podmanStep(["rm", "-f", "-t", "0", name], env, left());
+        if (await podmanStep(["container", "exists", name], env, left()) === 1) return;
         await Bun.sleep(250);
     }
-    throw new Error(`container ${name} is still present; remove it by hand (podman rm -f ${name})`);
+    throw new Error(`could not confirm container ${name} is gone; remove it by hand (podman rm -f ${name})`);
 }
 
 /** Claude Code's managed settings inside the container: every tool denied, and
@@ -99,10 +120,8 @@ export async function runBatch(options: ModelOptions, prompt: string): Promise<B
     const name = `classify-${randomUUID()}`;
     const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name)];
     // Only what podman needs on the host, and the token it passes on by name.
-    const spawnEnv = Object.fromEntries(Object.entries({
-        PATH: process.env.PATH, HOME: process.env.HOME, XDG_RUNTIME_DIR: process.env.XDG_RUNTIME_DIR,
-        CONTAINERS_CONF: process.env.CONTAINERS_CONF, CLAUDE_CODE_OAUTH_TOKEN: process.env.CLAUDE_CODE_OAUTH_TOKEN,
-    }).filter((entry): entry is [string, string] => typeof entry[1] === "string"));
+    const env = podmanEnv();
+    const spawnEnv = { ...env, CLAUDE_CODE_OAUTH_TOKEN: process.env.CLAUDE_CODE_OAUTH_TOKEN };
     const agent = new AgentController({
         adapter: { command, displayName: "Claude (classify)" },
         adapterId: "claude",
@@ -133,7 +152,7 @@ export async function runBatch(options: ModelOptions, prompt: string): Promise<B
         await agent.stop().catch(() => undefined);
         // acp-client stops the relay with SIGTERM, then SIGKILL; the container
         // is removed here either way, and its absence confirmed.
-        await removeContainer(name);
+        await removeContainer(name, 20_000, env);
     }
 }
 

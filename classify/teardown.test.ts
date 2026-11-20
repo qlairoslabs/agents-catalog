@@ -54,3 +54,23 @@ test.skipIf(!podman)("after SIGKILL to the relay, removeContainer still removes 
         expect(exists(name)).toBe(false);
     } finally { Bun.spawnSync(["podman", "rm", "-f", "-t", "0", name]); }
 }, 60_000);
+
+test("removal is confirmed only by exit code 1; errors and stuck commands fail", async () => {
+    const { mkdtempSync, writeFileSync, chmodSync, rmSync } = await import("node:fs");
+    const { tmpdir } = await import("node:os");
+    const dir = mkdtempSync(join(tmpdir(), "fake-podman-"));
+    const fake = (body: string) => { writeFileSync(join(dir, "podman"), `#!/bin/sh\n${body}\n`); chmodSync(join(dir, "podman"), 0o755); };
+    const env = { PATH: `${dir}:${process.env.PATH}` };
+    try {
+        fake("exit 125");
+        await expect(removeContainer("x", 1_500, env)).rejects.toThrow(/could not confirm/);
+        fake('[ "$1" = container ] && exit 0; exit 0');
+        await expect(removeContainer("x", 1_500, env)).rejects.toThrow(/could not confirm/);
+        fake("sleep 30");
+        const started = Date.now();
+        await expect(removeContainer("x", 1_500, env)).rejects.toThrow(/could not confirm/);
+        expect(Date.now() - started).toBeLessThan(10_000);
+        fake('[ "$1" = container ] && exit 1; exit 0');
+        await removeContainer("x", 1_500, env);
+    } finally { rmSync(dir, { recursive: true, force: true }); }
+}, 30_000);
