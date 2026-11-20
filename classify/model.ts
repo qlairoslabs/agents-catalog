@@ -7,11 +7,11 @@
 // (acp-client's own guidance): the ACP adapter runs in a read-only container
 // with an empty working folder, no host mounts but a read-only managed
 // settings file that denies every tool, no client terminal or filesystem, and
-// every permission request refused. The credential is a long-lived token from
-// `claude setup-token`, passed by name; the interactive login is never mounted.
+// every permission request refused. The credential is the maintainer's own
+// Claude Code login file, mounted as itself (or a CLAUDE_CODE_OAUTH_TOKEN, if set).
 
 import { randomUUID } from "node:crypto";
-import { mkdtempSync, writeFileSync } from "node:fs";
+import { existsSync, mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { AgentController } from "@qlairoslabs/acp-client";
@@ -24,12 +24,17 @@ export interface ModelOptions {
     timeoutMs: number;
     /** The canary only: a host folder mounted as the working folder, to show it stays empty. */
     workMount?: string;
+    /** The maintainer's Claude Code login file, mounted read-write as itself, so a
+     *  refresh inside the container is written back and never logs them out.
+     *  Used unless CLAUDE_CODE_OAUTH_TOKEN is set. */
+    credentials?: string;
 }
 
 export const DEFAULT_OPTIONS: ModelOptions = {
     image: process.env.CLASSIFY_IMAGE ?? "localhost/agents-standard:linux-amd64-bf2f5c8fb584",
     model: "opus",
     timeoutMs: 15 * 60_000,
+    credentials: join(process.env.HOME ?? "", ".claude", ".credentials.json"),
 };
 
 /** The exact environment podman runs with on the host: the same for creating,
@@ -98,7 +103,10 @@ export function containerCommand(options: ModelOptions, settings: string, name =
         ...(options.workMount ? ["-v", `${options.workMount}:/work:rw`] : ["--tmpfs", "/work:rw,size=1m"]),
         "-v", `${settings}:/etc/claude-code/managed-settings.json:ro`,
         "--workdir", "/work",
-        "-e", "HOME=/home/classify", "-e", "CLAUDE_CODE_OAUTH_TOKEN",
+        ...(process.env.CLAUDE_CODE_OAUTH_TOKEN
+            ? ["-e", "CLAUDE_CODE_OAUTH_TOKEN"]
+            : options.credentials ? ["-v", `${options.credentials}:/home/classify/.claude/.credentials.json:rw`] : []),
+        "-e", "HOME=/home/classify",
         "-e", `ANTHROPIC_MODEL=${options.model}`,
         "-e", "DISABLE_AUTOUPDATER=1", "-e", "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1",
         "--entrypoint", "claude-agent-acp",
@@ -115,13 +123,16 @@ export interface BatchRun {
 }
 
 export async function runBatch(options: ModelOptions, prompt: string): Promise<BatchRun> {
-    if (!process.env.CLAUDE_CODE_OAUTH_TOKEN) throw new Error("CLAUDE_CODE_OAUTH_TOKEN is not set (create one with `claude setup-token`)");
+    if (!process.env.CLAUDE_CODE_OAUTH_TOKEN && !(options.credentials && existsSync(options.credentials))) {
+        throw new Error("no Claude Code login: sign in with `claude` on this machine, or set CLAUDE_CODE_OAUTH_TOKEN");
+    }
     // The relay adds the explicit empty tool set to session/new on the wire.
     const name = `classify-${randomUUID()}`;
     const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name)];
     // Only what podman needs on the host, and the token it passes on by name.
     const env = podmanEnv();
-    const spawnEnv = { ...env, CLAUDE_CODE_OAUTH_TOKEN: process.env.CLAUDE_CODE_OAUTH_TOKEN };
+    const spawnEnv: Record<string, string> = { ...env };
+    if (process.env.CLAUDE_CODE_OAUTH_TOKEN) spawnEnv.CLAUDE_CODE_OAUTH_TOKEN = process.env.CLAUDE_CODE_OAUTH_TOKEN;
     const agent = new AgentController({
         adapter: { command, displayName: "Claude (classify)" },
         adapterId: "claude",

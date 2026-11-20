@@ -66,8 +66,13 @@ test("the harness runs in a locked container with every tool denied and only the
         expect(command).toContain("--pull=never");
         expect(joined).not.toContain("secret-token-value");
         const mounts = command.flatMap((arg, i) => arg === "-v" ? [command[i + 1]!] : []);
-        expect(mounts).toEqual(["/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]);
-        expect(joined).not.toContain(".claude:");
+        expect(mounts).toEqual(["/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]); // a token: no login mounted
+        delete process.env.CLAUDE_CODE_OAUTH_TOKEN;
+        const login = containerCommand({ ...DEFAULT_OPTIONS, credentials: "/h/.claude/.credentials.json" }, "/tmp/managed.json");
+        const loginMounts = login.flatMap((arg, i) => arg === "-v" ? [login[i + 1]!] : []);
+        expect(loginMounts.sort()).toEqual(["/h/.claude/.credentials.json:/home/classify/.claude/.credentials.json:rw", "/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]);
+        expect(login).not.toContain("CLAUDE_CODE_OAUTH_TOKEN");
+
         expect(command[command.indexOf("--entrypoint") + 1]).toBe("claude-agent-acp");
         for (const tool of ["Bash", "Read", "Write", "Edit", "WebFetch", "WebSearch", "Task", "mcp__*"]) expect(MANAGED_SETTINGS.permissions.deny).toContain(tool);
         expect(MANAGED_SETTINGS.permissions.disableBypassPermissionsMode).toBe("disable");
