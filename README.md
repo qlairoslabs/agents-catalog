@@ -74,3 +74,66 @@ workflow writes the index in its publication staging directory after
 committing those exact part bytes. For a full comparison, pass the registry
 checkpoint and `--require-explanations`. An unattributed drop is marked in the
 report and fails the build before it writes the parts.
+
+## Signing and publishing (R3)
+
+`sign/` signs `index.json` with Ed25519 (`bun sign/cli.ts keygen|sign|verify`). It signs
+only with the shipped current key (`sign/keys.ts`, the same keys as the library's
+`BUILTIN_CATALOG_KEYS`) and verifies only shipped key ids.
+
+The `publish` workflow is dispatched by hand, from `main`, **by the owner only**, with the
+full commit of a build the owner has reviewed (its output in `out/`, on a branch of this
+repository). It runs in the protected `catalog-signing` environment (secret
+`CATALOG_SIGNING_KEY`, variables `CATALOG_SIGNING_KEY_ID` and `CATALOG_PUBLIC_KEY`).
+Nothing from the build commit runs: the tools are this workflow's own commit, and
+`sign/ingest.ts` reads the build's files as git objects, taking only `connectors.json`
+and `skills.json` as regular files, within the library's limits (24 MiB each, 64 MiB
+together) and as strict UTF-8, and refusing the build if anything else is in `out/`.
+Annotations are refused until the index signs their bytes. Reports and captures stay
+outside `out/`. The parts and then the index are validated by the trusted
+build code before signing. It publishes to `published` in two commits: the parts, then
+the index and its signature naming the parts' commit; the push is never forced.
+
+Any workflow on `main` could ask for the `catalog-signing` environment, so adding or
+changing a workflow is a reviewed change to the protected `main`. It needs
+`build.ts validate <dir>` and `build.ts index --commit <sha> --dir <dir> [--previous
+<index.json>]` from the build (R1); the new sequence must exceed the previous one.
+
+Still to come: the scheduled build (catalogue §9) and the catalogue embedded in the
+library's release build (R3, with the switch).
+
+## Classification (R4)
+
+Run locally, never in an Action (catalogue §7). `classify/` drives Claude Code with
+every tool, MCP server and settings file off, inside a read-only container holding only
+the Claude Code binary and an empty folder. The credential is a long-lived token from
+`claude setup-token`, passed by name as `CLAUDE_CODE_OAUTH_TOKEN`; the interactive login
+is never mounted. The spec's acp-client is replaced by Claude Code's own print mode
+(`claude -p`) with the same isolation rules: less surface, nothing else changes.
+
+    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/canary.ts                  # isolation gate, first
+    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/run.ts <parts-dir> [--batch=25] [--limit=N]
+    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/vocabulary.ts              # writes facets/vocabulary.proposed.json
+    bun classify/apply.ts <parts-dir>                                   # then the build's validator
+
+- **Pass 1** writes `tags/<content hash>.json` per item, atomically and resumably. The
+  hash covers what the model reads (title, description, publisher, each tool's name,
+  description and input schema), so a changed or renamed tool re-classifies. A tag is used
+  only if it is well formed and has the current `CLASSIFIER_VERSION`; bump it when the
+  prompt or schema change what a tag means.
+- **Answers are untrusted:** unknown values are dropped, text is cut to the schema's
+  limits, and a tool's effect is kept only for a tool the item has, by its definition's
+  hash. `read` needs the model to have seen the whole definition (description up to 600
+  characters, input schema up to 3,000); otherwise `write`. Classifier version 2
+  shows at most 200 tools per listing and leaves tools beyond that cutoff at
+  `write`. Unsure is `write`.
+- **Pass 2** proposes the vocabulary from the distinct values into
+  `facets/vocabulary.proposed.json`. A person reviews it, removes `added`, and renames it
+  to `facets/vocabulary.json`. Later passes only add: existing values and mappings are
+  kept exactly. `domain`, `product` and `audience` are published only through a reviewed
+  vocabulary; a value it does not map waits for the next review.
+- **Isolation, and what is left:** the canary checks that an entry aimed at the harness
+  writes nothing and gets no tool. The container still has ordinary network access,
+  because the model API needs it; with no tools the model has no way to use it. The
+  Claude Code binary itself is trusted.
+- **Deferred:** `reliesOn` (§7), which matters for skills, comes with R2.

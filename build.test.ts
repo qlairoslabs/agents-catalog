@@ -186,6 +186,7 @@ test.skipIf(!r4Available)("classification attaches matching tags and facets with
     const { facets } = await import("./facets");
     const hashModule = new URL("./classify/hash.ts", import.meta.url);
     const { contentHash, inputOf, toolHash } = await import(hashModule.href);
+    const { CLASSIFIER_VERSION } = await import(new URL("./classify/output.ts", import.meta.url).href);
     const dir = mkdtempSync(join(tmpdir(),"catalog-apply-tags-"));
     try {
         const listings = validatePart("connectors", connectors);
@@ -196,7 +197,7 @@ test.skipIf(!r4Available)("classification attaches matching tags and facets with
         const hash = contentHash(inputOf(item,"connector"));
         const tagFile = join(dir,`${hash}.json`);
         const tag = {
-            classifier:1, contentHash:hash, domain:["old-notes"], product:["notion"], audience:["operator"], goal:["automate-work"],
+            classifier:CLASSIFIER_VERSION, contentHash:hash, domain:["old-notes"], product:["notion"], audience:["operator"], goal:["automate-work"],
             summary:"Find notes",whenToUse:"Workspace search",tasks:["Search notes"],effects:{[toolHash(tool)]:"read"},flags:[],
         };
         await Bun.write(tagFile, JSON.stringify(tag));
