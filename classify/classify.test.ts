@@ -67,11 +67,8 @@ test("the harness runs in a locked container with every tool denied and only the
         expect(joined).not.toContain("secret-token-value");
         const mounts = command.flatMap((arg, i) => arg === "-v" ? [command[i + 1]!] : []);
         expect(mounts).toEqual(["/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]); // a token: no login mounted
-        delete process.env.CLAUDE_CODE_OAUTH_TOKEN;
         const login = containerCommand({ ...DEFAULT_OPTIONS, credentials: "/h/.claude/.credentials.json" }, "/tmp/managed.json");
-        const loginMounts = login.flatMap((arg, i) => arg === "-v" ? [login[i + 1]!] : []);
-        expect(loginMounts.sort()).toEqual(["/h/.claude/.credentials.json:/home/classify/.claude/.credentials.json:ro", "/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]);
-        expect(login).not.toContain("CLAUDE_CODE_OAUTH_TOKEN");
+        expect(login.join(" ")).not.toContain(".credentials.json"); // the login file is never mounted
 
         expect(command[command.indexOf("--entrypoint") + 1]).toBe("claude-agent-acp");
         for (const tool of ["Bash", "Read", "Write", "Edit", "WebFetch", "WebSearch", "Task", "mcp__*"]) expect(MANAGED_SETTINGS.permissions.deny).toContain(tool);
@@ -256,6 +253,14 @@ test("a run never needs a refresh in the container: the host refreshes first", a
     expect(slept).toBe(9 * 60_000);
     write(clock + 5 * 60_000); // a refresh that never lands fails loudly
     await expect(ensureFreshLogin(file, 20 * 60_000, { now: () => clock, sleep: async ms => { clock += ms; }, refresh: async () => {} })).rejects.toThrow(/did not refresh/);
+    write(clock + 5 * 60_000); // a refresh that lands on the last attempt is accepted
+    let calls = 0;
+    await ensureFreshLogin(file, 20 * 60_000, { now: () => clock, sleep: async ms => { clock += ms; },
+        refresh: async () => { if (++calls === 3) write(clock + 8 * 3_600_000); } });
+    expect(calls).toBe(3);
     writeFileSync(file, "{}");
     await expect(ensureFreshLogin(file, 1, { now: () => clock })).rejects.toThrow(/cannot read/);
+    const { loginAccess } = await import("./model");
+    writeFileSync(file, JSON.stringify({ claudeAiOauth: { accessToken: "a", refreshToken: "r", expiresAt: 5 } }));
+    expect(loginAccess(file)).toEqual({ accessToken: "a", expiresAt: 5 });
 });

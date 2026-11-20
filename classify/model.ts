@@ -7,8 +7,9 @@
 // (acp-client's own guidance): the ACP adapter runs in a read-only container
 // with an empty working folder, no host mounts but a read-only managed
 // settings file that denies every tool, no client terminal or filesystem, and
-// every permission request refused. The credential is the maintainer's own
-// Claude Code login file, mounted as itself (or a CLAUDE_CODE_OAUTH_TOKEN, if set).
+// every permission request refused. The credential is the access token of the
+// maintainer's own Claude Code login, refreshed on the host (or a
+// CLAUDE_CODE_OAUTH_TOKEN, if set); the refresh token never enters the container.
 
 import { randomUUID } from "node:crypto";
 import { existsSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
@@ -24,10 +25,10 @@ export interface ModelOptions {
     timeoutMs: number;
     /** The canary only: a host folder mounted as the working folder, to show it stays empty. */
     workMount?: string;
-    /** The maintainer's Claude Code login file, mounted read-only: the container
-     *  never refreshes or writes it. Refreshing happens on the host only
-     *  (ensureFreshLogin), under Claude Code's own refresh lock there, so it
-     *  cannot race the maintainer's other Claude processes. Used unless
+    /** The maintainer's Claude Code login file, read on the host only. The
+     *  container gets just its access token, after the host has made sure it
+     *  outlives the batch; the refresh token never leaves the host, so only the
+     *  host (under Claude Code's own lock) ever refreshes. Used unless
      *  CLAUDE_CODE_OAUTH_TOKEN is set. */
     credentials?: string;
 }
@@ -105,9 +106,8 @@ export function containerCommand(options: ModelOptions, settings: string, name =
         ...(options.workMount ? ["-v", `${options.workMount}:/work:rw`] : ["--tmpfs", "/work:rw,size=1m"]),
         "-v", `${settings}:/etc/claude-code/managed-settings.json:ro`,
         "--workdir", "/work",
-        ...(process.env.CLAUDE_CODE_OAUTH_TOKEN
-            ? ["-e", "CLAUDE_CODE_OAUTH_TOKEN"]
-            : options.credentials ? ["-v", `${options.credentials}:/home/classify/.claude/.credentials.json:ro`] : []),
+        // Only an access token, by name: never the login file or its refresh token.
+        "-e", "CLAUDE_CODE_OAUTH_TOKEN",
         "-e", "HOME=/home/classify",
         "-e", `ANTHROPIC_MODEL=${options.model}`,
         "-e", "DISABLE_AUTOUPDATER=1", "-e", "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1",
@@ -124,13 +124,17 @@ export interface BatchRun {
     stopReason: string;
 }
 
-/** When the login's access token expires; nothing else is read from the file. */
-export function loginExpiry(file: string): number | null {
+/** The login's access token and its expiry. The refresh token is never read. */
+export function loginAccess(file: string): { accessToken: string; expiresAt: number } | null {
     try {
-        const expiresAt = JSON.parse(readFileSync(file, "utf8"))?.claudeAiOauth?.expiresAt;
-        return typeof expiresAt === "number" && Number.isFinite(expiresAt) ? expiresAt : null;
+        const oauth = JSON.parse(readFileSync(file, "utf8"))?.claudeAiOauth;
+        const { accessToken, expiresAt } = oauth ?? {};
+        return typeof accessToken === "string" && accessToken && typeof expiresAt === "number" && Number.isFinite(expiresAt)
+            ? { accessToken, expiresAt } : null;
     } catch { return null; }
 }
+
+export const loginExpiry = (file: string) => loginAccess(file)?.expiresAt ?? null;
 
 /** A run must never need a refresh inside the container. If the token has less
  *  than `needMs` left, wait until it is nearly expired and let one trivial
@@ -140,10 +144,11 @@ export async function ensureFreshLogin(file: string, needMs: number, deps: {
 } = {}): Promise<void> {
     const now = deps.now ?? Date.now, sleep = deps.sleep ?? Bun.sleep, log = deps.log ?? (() => undefined);
     const refresh = deps.refresh ?? hostRefresh;
-    for (let attempt = 0; attempt < 3; attempt++) {
+    for (let attempt = 0; ; attempt++) {
         const expiry = loginExpiry(file);
         if (expiry === null) throw new Error(`cannot read the login's expiry in ${file}; sign in with \`claude\` on this machine`);
         if (expiry - now() >= needMs) return;
+        if (attempt === 3) break; // checked again after the last refresh, then given up
         // First a minute before expiry; if that did not refresh, just after it.
         const wait = Math.max(0, expiry - now() + (attempt === 0 ? -60_000 : 5_000));
         log(`login expires in ${Math.round((expiry - now()) / 60_000)} min; refreshing on the host${wait ? ` in ${Math.round(wait / 60_000)} min` : ""}`);
@@ -167,13 +172,15 @@ export async function runBatch(options: ModelOptions, prompt: string): Promise<B
         }
         await ensureFreshLogin(options.credentials, options.timeoutMs + 5 * 60_000);
     }
+    const token = process.env.CLAUDE_CODE_OAUTH_TOKEN || (options.credentials ? loginAccess(options.credentials)?.accessToken : undefined);
+    if (!token) throw new Error("no access token to give the container");
     // The relay adds the explicit empty tool set to session/new on the wire.
     const name = `classify-${randomUUID()}`;
     const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name)];
     // Only what podman needs on the host, and the token it passes on by name.
     const env = podmanEnv();
     const spawnEnv: Record<string, string> = { ...env };
-    if (process.env.CLAUDE_CODE_OAUTH_TOKEN) spawnEnv.CLAUDE_CODE_OAUTH_TOKEN = process.env.CLAUDE_CODE_OAUTH_TOKEN;
+    spawnEnv.CLAUDE_CODE_OAUTH_TOKEN = token;
     const agent = new AgentController({
         adapter: { command, displayName: "Claude (classify)" },
         adapterId: "claude",
