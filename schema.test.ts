@@ -75,3 +75,11 @@ test("the tool hash test vector", async () => {
     const text = canonical({ name: tool.name, description: tool.description ?? "", inputSchema: tool.inputSchema });
     expect(new Bun.CryptoHasher("sha256").update(text).digest("hex")).toBe(sha256);
 });
+
+test("index times are real calendar times (the same cases as the library's suite)", async () => {
+    const index = await read("./examples/index.json");
+    for (const time of ["2026-02-31T00:00:00Z", "2026-02-29T00:00:00Z", "2026-04-31T00:00:00Z", "2026-01-01T24:00:00Z", "2026-01-01T00:00:00+25:00"]) {
+        expect(check("index.schema.json", { ...index, expires: time })).not.toBeNull();
+    }
+    expect(check("index.schema.json", { ...index, expires: "2028-02-29T00:00:00Z" })).toBeNull();
+});
