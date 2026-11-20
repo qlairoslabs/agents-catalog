@@ -193,10 +193,12 @@ test.skipIf(!r4Available)("classification attaches matching tags and facets with
         if (item?.kind !== "mcp") throw Error("missing connector fixture");
         const tool = item.connect.tools![0]!;
         const hash = contentHash(inputOf(item,"connector"));
-        await Bun.write(join(dir,`${hash}.json`), JSON.stringify({
-            vocabulary:1, contentHash:hash, domain:["old-notes"], product:["notion"], audience:[], goal:[],
+        const tagFile = join(dir,`${hash}.json`);
+        const tag = {
+            classifier:1, contentHash:hash, domain:["old-notes"], product:["notion"], audience:["operator"], goal:["automate-work"],
             summary:"Find notes",whenToUse:"Workspace search",tasks:["Search notes"],effects:{[toolHash(tool)]:"read"},flags:[],
-        }));
+        };
+        await Bun.write(tagFile, JSON.stringify(tag));
         const vocabulary = join(dir,"vocabulary.json");
         await Bun.write(vocabulary,JSON.stringify({ domain:["productivity/notes"],product:["notion"],audience:[],
             mapping:{domain:{"old-notes":"productivity/notes"},product:{},audience:{}} }));
@@ -206,6 +208,15 @@ test.skipIf(!r4Available)("classification attaches matching tags and facets with
             connect:{tools:[{effect:{effect:"read",hash:toolHash(tool)}}]}});
         expect(result.items[1]).toBe(untagged);
         expect(facets(result.items)).toContainEqual({id:"domain",label:"Domain",hierarchical:true,kinds:["mcp"],values:[{id:"productivity/notes"}]});
+        const withoutReview = await applyClassification(listings,{tags:dir,vocabulary:join(dir,"missing.json"),required:true});
+        expect(withoutReview.items[0]!.discovery.attributes).toMatchObject({goal:["automate-work"]});
+        for (const field of ["domain","product","audience"]) expect(withoutReview.items[0]!.discovery.attributes).not.toHaveProperty(field);
+        await Bun.write(vocabulary, "{}");
+        await expect(applyClassification(listings,{tags:dir,vocabulary})).rejects.toThrow("vocabulary domain");
+        await Bun.write(tagFile, JSON.stringify({ ...tag, classifier:0 }));
+        expect((await applyClassification(listings,{tags:dir})).applied).toBe(0);
+        await Bun.write(tagFile, "malformed");
+        expect((await applyClassification(listings,{tags:dir})).applied).toBe(0);
     } finally { rmSync(dir,{recursive:true,force:true}); }
 });
 

@@ -63,8 +63,11 @@ the same raw captures and tool checkpoint. Replace `--untagged` with
 `--tags <tag-directory>` and optionally `--vocabulary <vocabulary.json>`.
 This rebuilds the comparison with the classified parts. An ordinary build
 also picks up `tags/*.json` and `facets/vocabulary.json` beside the code
-when present. Matching content hashes are required, and untagged listings
-keep their existing fields.
+when present. R4's reader ignores stale or malformed tag files. Untagged
+listings keep their fields. Only a reviewed vocabulary supplies domain,
+product and audience. Goals, summaries, tasks and tool effects can apply
+while vocabulary review is pending. `vocabulary.proposed.json` is outside
+the default build input.
 
 To apply tags directly to an already validated candidate without replaying
 the capture and comparison stages, use
