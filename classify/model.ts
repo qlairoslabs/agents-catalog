@@ -18,6 +18,8 @@ export interface ModelOptions {
     image: string;
     claude: string;
     timeoutMs: number;
+    /** The canary only: a host folder mounted as the working folder, to show it stays empty. */
+    workMount?: string;
 }
 
 export const DEFAULT_OPTIONS: ModelOptions = {
@@ -55,13 +57,28 @@ export function commandFor(options: ModelOptions, system: string, schema: object
     return [
         "podman", "run", "--rm", "-i",
         "--read-only", "--cap-drop=all", "--security-opt", "no-new-privileges",
-        "--tmpfs", "/home/classify:rw,size=64m", "--tmpfs", "/tmp:rw,size=64m", "--tmpfs", "/work:rw,size=1m",
+        "--tmpfs", "/home/classify:rw,size=64m", "--tmpfs", "/tmp:rw,size=64m",
+        ...(options.workMount ? ["-v", `${options.workMount}:/work:rw`] : ["--tmpfs", "/work:rw,size=1m"]),
         "--workdir", "/work",
         "-e", "HOME=/home/classify", "-e", "CLAUDE_CODE_OAUTH_TOKEN",
         "-e", "DISABLE_AUTOUPDATER=1", "-e", "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1",
         "-v", `${resolveBinary(options.claude)}:/usr/local/bin/claude:ro`,
         options.image, "/usr/local/bin/claude", ...args,
     ];
+}
+
+/** Runs one prompt and returns Claude Code's whole JSON envelope. */
+export async function runRaw(options: ModelOptions, system: string, prompt: string, schema: object = BATCH_SCHEMA): Promise<any> {
+    const child = Bun.spawn(commandFor(options, system, schema), {
+        stdin: new TextEncoder().encode(prompt), stdout: "pipe", stderr: "pipe",
+        env: { PATH: process.env.PATH ?? "", HOME: process.env.HOME ?? "", CLAUDE_CODE_OAUTH_TOKEN: process.env.CLAUDE_CODE_OAUTH_TOKEN ?? "" },
+    });
+    const timer = setTimeout(() => child.kill(), options.timeoutMs);
+    try {
+        const [stdout, stderr, code] = await Promise.all([new Response(child.stdout).text(), new Response(child.stderr).text(), child.exited]);
+        if (code !== 0) throw new Error(`claude exited ${code}: ${stderr.slice(0, 300)}`);
+        return JSON.parse(stdout);
+    } finally { clearTimeout(timer); }
 }
 
 /** Pulls the structured answer out of Claude Code's JSON envelope. */
@@ -77,16 +94,5 @@ export function claudeModel(options: ModelOptions = DEFAULT_OPTIONS, schema: obj
     if (options.sandbox === "podman" && !process.env.CLAUDE_CODE_OAUTH_TOKEN) {
         throw new Error("CLAUDE_CODE_OAUTH_TOKEN is not set (create one with `claude setup-token`)");
     }
-    return async (system, prompt) => {
-        const child = Bun.spawn(commandFor(options, system, schema), {
-            stdin: new TextEncoder().encode(prompt), stdout: "pipe", stderr: "pipe",
-            env: { PATH: process.env.PATH ?? "", HOME: process.env.HOME ?? "", CLAUDE_CODE_OAUTH_TOKEN: process.env.CLAUDE_CODE_OAUTH_TOKEN ?? "" },
-        });
-        const timer = setTimeout(() => child.kill(), options.timeoutMs);
-        try {
-            const [stdout, stderr, code] = await Promise.all([new Response(child.stdout).text(), new Response(child.stderr).text(), child.exited]);
-            if (code !== 0) throw new Error(`claude exited ${code}: ${stderr.slice(0, 300)}`);
-            return parseEnvelope(stdout);
-        } finally { clearTimeout(timer); }
-    };
+    return async (system, prompt) => parseEnvelope(JSON.stringify(await runRaw(options, system, prompt, schema)));
 }

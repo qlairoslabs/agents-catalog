@@ -94,15 +94,30 @@ Run locally, never in an Action (catalogue §7). `classify/` drives Claude Code 
 every tool, MCP server and settings file off, inside a read-only container holding only
 the Claude Code binary and an empty folder. The credential is a long-lived token from
 `claude setup-token`, passed by name as `CLAUDE_CODE_OAUTH_TOKEN`; the interactive login
-is never mounted.
+is never mounted. The spec's acp-client is replaced by Claude Code's own print mode
+(`claude -p`) with the same isolation rules: less surface, nothing else changes.
 
+    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/canary.ts                  # isolation gate, first
     CLAUDE_CODE_OAUTH_TOKEN=... bun classify/run.ts <parts-dir> [--batch=25] [--limit=N]
-    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/vocabulary.ts
+    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/vocabulary.ts              # writes facets/vocabulary.proposed.json
+    bun classify/apply.ts <parts-dir>                                   # then the build's validator
 
-Pass 1 writes `tags/<content hash>.json` per item, resumably: an item whose name,
-description, publisher or tools change gets a new hash and is classified again. Pass 2
-reads the distinct values and writes `facets/vocabulary.json` (the final lists and a
-mapping); a person reviews the lists. Answers are untrusted: unknown values are dropped,
-text is cut to the schema's limits, and a tool's effect is kept only for a tool the item
-has, by its definition's hash, `write` when unsure. `classify/apply.ts` merges tags into
-items at build time; an untagged item publishes without those filters.
+- **Pass 1** writes `tags/<content hash>.json` per item, atomically and resumably. The
+  hash covers what the model reads (title, description, publisher, each tool's name,
+  description and input schema), so a changed or renamed tool re-classifies. A tag is used
+  only if it is well formed and has the current `CLASSIFIER_VERSION`; bump it when the
+  prompt or schema change what a tag means.
+- **Answers are untrusted:** unknown values are dropped, text is cut to the schema's
+  limits, and a tool's effect is kept only for a tool the item has, by its definition's
+  hash. `read` needs the model to have seen the whole definition (description up to 600
+  characters, input schema up to 3,000); otherwise `write`. Unsure is `write`.
+- **Pass 2** proposes the vocabulary from the distinct values into
+  `facets/vocabulary.proposed.json`. A person reviews it, removes `added`, and renames it
+  to `facets/vocabulary.json`. Later passes only add: existing values and mappings are
+  kept exactly. `domain`, `product` and `audience` are published only through a reviewed
+  vocabulary; a value it does not map waits for the next review.
+- **Isolation, and what is left:** the canary checks that an entry aimed at the harness
+  writes nothing and gets no tool. The container still has ordinary network access,
+  because the model API needs it; with no tools the model has no way to use it. The
+  Claude Code binary itself is trusted.
+- **Deferred:** `reliesOn` (§7), which matters for skills, comes with R2.

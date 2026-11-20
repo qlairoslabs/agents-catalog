@@ -7,11 +7,11 @@
 // Results go to tags/<content hash>.json, reviewed and committed like any
 // change. The scheduled build only reads them; it never calls a model.
 
-import { existsSync, mkdirSync, readdirSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { contentHash, inputOf, type ClassifyInput } from "./hash";
 import { claudeModel, DEFAULT_OPTIONS, type Ask } from "./model";
-import { sanitize, VOCABULARY_VERSION, type Tags } from "./output";
+import { sanitize, validTags, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
 import { readVocabulary } from "./vocabulary";
 
@@ -27,7 +27,23 @@ export async function readItems(dir: string): Promise<ClassifyInput[]> {
     ];
 }
 
-/** Items still needing tags: no file for their content hash, or an older vocabulary. */
+/** A stored tag if it is current and well formed, else null (classified again). */
+export function readTag(tagsDir: string, hash: string): Tags | null {
+    try {
+        const value = JSON.parse(readFileSync(join(tagsDir, `${hash}.json`), "utf8"));
+        return validTags(value, hash) ? value : null;
+    } catch { return null; }
+}
+
+/** Written beside and renamed into place, so an interruption never leaves a partial tag. */
+export function writeTag(tagsDir: string, tags: Tags): void {
+    const file = join(tagsDir, `${tags.contentHash}.json`);
+    const temp = `${file}.${process.pid}.tmp`;
+    writeFileSync(temp, JSON.stringify(tags, null, 1) + "\n");
+    renameSync(temp, file);
+}
+
+/** Items still needing tags: no current, well-formed tag for their content hash. */
 export async function pending(items: readonly ClassifyInput[], tagsDir: string): Promise<{ input: ClassifyInput; hash: string }[]> {
     const out: { input: ClassifyInput; hash: string }[] = [];
     const seen = new Set<string>();
@@ -35,8 +51,7 @@ export async function pending(items: readonly ClassifyInput[], tagsDir: string):
         const hash = contentHash(input);
         if (seen.has(hash)) continue;
         seen.add(hash);
-        const file = join(tagsDir, `${hash}.json`);
-        if (existsSync(file) && (await Bun.file(file).json() as Tags).vocabulary === VOCABULARY_VERSION) continue;
+        if (readTag(tagsDir, hash)) continue;
         out.push({ input, hash });
     }
     return out;
@@ -57,11 +72,11 @@ export async function classify(items: readonly ClassifyInput[], ask: Ask, option
             options.log?.(`batch ${i / options.batch + 1} failed: ${error instanceof Error ? error.message : error}`);
             continue;
         }
-        const byId = new Map((Array.isArray(answer?.items) ? answer.items : []).map((item: any) => [item?.id, item]));
+        const byId = new Map((Array.isArray(answer?.items) ? answer.items : []).filter((item: any) => typeof item?.id === "string").map((item: any) => [item.id, item]));
         for (const { input, hash } of batch) {
             const result = byId.get(input.id);
             if (!result) { failed.push(input.id); continue; } // asked again next run
-            await Bun.write(join(options.tagsDir, `${hash}.json`), JSON.stringify(sanitize(result, input, hash), null, 1) + "\n");
+            writeTag(options.tagsDir, sanitize(result, input, hash));
             done++;
         }
         options.log?.(`classified ${Math.min(i + options.batch, todo.length)}/${todo.length}`);
@@ -78,5 +93,5 @@ if (import.meta.main) {
         sandbox: (flag("sandbox") as "podman" | "none") ?? DEFAULT_OPTIONS.sandbox });
     const result = await classify(await readItems(dir), ask, { tagsDir: TAGS_DIR, batch: Number(flag("batch") ?? 25),
         limit: flag("limit") ? Number(flag("limit")) : undefined, log: console.log });
-    console.log(`done ${result.done}; ${result.failed.length} to retry; ${readdirSync(TAGS_DIR).length} stored`);
+    console.log(`done ${result.done}; ${result.failed.length} to retry; ${readdirSync(TAGS_DIR).filter(n => n.endsWith(".json")).length} stored`);
 }

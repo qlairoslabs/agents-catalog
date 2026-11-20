@@ -10,7 +10,10 @@ import { commandFor, DEFAULT_OPTIONS, parseEnvelope } from "./model";
 import { sanitize, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
 import { classify } from "./run";
-import { buildVocabulary } from "./vocabulary";
+import { parseVocabulary, proposeVocabulary } from "./vocabulary";
+import { readTag, writeTag } from "./run";
+import { validTags } from "./output";
+import { writeFileSync } from "node:fs";
 
 const dirs: string[] = [];
 afterEach(() => { for (const dir of dirs.splice(0)) rmSync(dir, { recursive: true, force: true }); });
@@ -94,12 +97,73 @@ test("classification is resumable: failed batches and missing ids are asked agai
     expect(readdirSync(tagsDir)).toHaveLength(4);
 });
 
-test("the vocabulary merges only known values and keeps unplaced ones", () => {
-    const counts = { domain: { "software/dev": 3, "software/development": 1, "noise": 1 }, product: { slack: 2 }, audience: {} };
-    const vocab = buildVocabulary({ domain: [{ value: "software/development", from: ["software/dev", "software/development", "invented"] }], product: [], audience: [] }, counts);
-    expect(vocab.mapping.domain).toEqual({ "software/dev": "software/development", "software/development": "software/development", noise: "noise" });
-    expect(vocab.domain).toEqual(["noise", "software/development"]);
-    expect(vocab.product).toEqual(["slack"]);
+test("the first vocabulary pass proposes; a later pass only adds and never renames", () => {
+    const counts: any = { domain: { "software/dev": 3, "software/development": 1, noise: 1, constructor: 1 }, product: { slack: 2 }, audience: {} };
+    const first = proposeVocabulary({ domain: [{ value: "software/development", from: ["software/dev", "software/development", "invented", "constructor"] }], product: [{ value: "slack", from: ["slack"] }], audience: [] }, counts, null);
+    expect(first.mapping.domain["software/dev"]).toBe("software/development");
+    expect(first.mapping.domain.constructor).toBe("software/development");
+    expect(Object.hasOwn(first.mapping.domain, "noise")).toBe(false); // unplaced: no filter until reviewed
+    expect(Object.hasOwn(first.mapping.domain, "invented")).toBe(false);
+    const reviewed = parseVocabulary(first);
+    const later = proposeVocabulary({ domain: [{ value: "dev-tools", from: ["software/dev", "devtools"] }], product: [], audience: [] },
+        { domain: { "software/dev": 1, devtools: 1 }, product: {}, audience: {} } as any, reviewed);
+    expect(later.mapping.domain["software/dev"]).toBe("software/development"); // kept exactly
+    expect(later.mapping.domain.devtools).toBe("dev-tools");
+    expect(later.added.domain).toEqual(["dev-tools"]);
+    expect(later.domain).toContain("software/development");
+    expect(() => parseVocabulary({ ...first, mapping: { ...first.mapping, product: { slack: "unknown-final" } } })).toThrow();
+});
+
+test("a value named like an object property never leaks through the vocabulary", async () => {
+    const item = await notion();
+    const input = inputOf(item, "connector");
+    const hash = contentHash(input);
+    const tags = sanitize({ domain: ["constructor", "toString"], product: ["__proto__"], audience: [], goal: [], effects: [] }, input, hash);
+    const vocab = parseVocabulary({ domain: ["notes"], product: [], audience: [], mapping: { domain: {}, product: {}, audience: {} } });
+    const merged = applyTags(item, "connector", h => h === hash ? tags : null, vocab);
+    expect(merged.discovery.attributes.domain).toEqual(item.discovery.attributes.domain); // unchanged
+    expect(merged.discovery.attributes.product).toBeUndefined();
+    expect(JSON.stringify(merged)).not.toContain("null]");
+});
+
+test("tag files are atomic, and malformed or stale ones count as missing", async () => {
+    const dir = temp();
+    const item = await notion();
+    const input = inputOf(item, "connector");
+    const hash = contentHash(input);
+    const tags = sanitize({ domain: ["x"], effects: [] }, input, hash);
+    writeTag(dir, tags);
+    expect(readTag(dir, hash)).toEqual(tags);
+    writeFileSync(join(dir, `${hash}.json`), '{"classifier":1,"contentHash":"' + hash + '","domain":[nu');
+    expect(readTag(dir, hash)).toBeNull();
+    writeFileSync(join(dir, `${hash}.json`), JSON.stringify({ ...tags, classifier: 0 }));
+    expect(readTag(dir, hash)).toBeNull();
+    writeFileSync(join(dir, `${hash}.json`), JSON.stringify({ ...tags, contentHash: "0".repeat(64) }));
+    expect(readTag(dir, hash)).toBeNull();
+    writeFileSync(join(dir, `${hash}.json`), JSON.stringify({ ...tags, domain: [null] }));
+    expect(readTag(dir, hash)).toBeNull();
+    expect(validTags(tags, hash)).toBe(true);
+});
+
+test("read needs the whole tool definition; a truncated one stays write", async () => {
+    const item = await notion();
+    const long = { ...item, connect: { ...item.connect, tools: [{ ...item.connect.tools[0], description: "d".repeat(700) }] } };
+    const input = inputOf(long, "connector");
+    expect(input.tools[0]!.complete).toBe(false);
+    const tags = sanitize({ effects: [{ tool: "search", effect: "read" }] }, input, contentHash(input));
+    expect(Object.values(tags.effects)).toEqual(["write"]);
+    const risky = sanitize({ effects: [{ tool: "search", effect: "risky" }] }, input, contentHash(input));
+    expect(Object.values(risky.effects)).toEqual(["risky"]);
+});
+
+test("attributes stay within the item's limit when tags are added", async () => {
+    const item = await notion();
+    const full = { ...item, discovery: { ...item.discovery, attributes: Object.fromEntries(Array.from({ length: 32 }, (_, i) => [`a${i}`, ["x"]])) } };
+    const input = inputOf(full, "connector");
+    const hash = contentHash(input);
+    const tags = sanitize({ goal: ["sell"], effects: [] }, input, hash);
+    const merged = applyTags(full, "connector", h => h === hash ? tags : null, null);
+    expect(Object.keys(merged.discovery.attributes)).toHaveLength(32);
 });
 
 test("tags merge into a valid item; an effect needs the exact tool definition", async () => {
@@ -107,7 +171,11 @@ test("tags merge into a valid item; an effect needs the exact tool definition", 
     const input = inputOf(item, "connector");
     const tags: Tags = sanitize({ domain: ["productivity/notes"], product: ["notion"], audience: ["everyone"], goal: ["work-as-a-team"],
         summary: "Notion pages.", whenToUse: "When notes are in Notion.", tasks: ["search pages"], effects: [{ tool: "search", effect: "read" }], flags: [] }, input, contentHash(input));
-    const merged = applyTags(item, "connector", new Map([[contentHash(input), tags]]), null);
+    const vocab = parseVocabulary({ domain: ["productivity/notes"], product: ["notion"], audience: ["everyone"],
+        mapping: { domain: { "productivity/notes": "productivity/notes" }, product: { notion: "notion" }, audience: { everyone: "everyone" } } });
+    const lookup = (h: string) => h === contentHash(input) ? tags : null;
+    expect(applyTags(item, "connector", lookup, null).discovery.attributes.product).toBeUndefined(); // no reviewed vocabulary
+    const merged = applyTags(item, "connector", lookup, vocab);
     expect(merged.discovery.attributes.product).toEqual(["notion"]);
     expect(merged.discovery.attributes.signin).toEqual(["oauth"]);
     expect(merged.connect.tools[0].effect).toEqual({ effect: "read", hash: toolHash(item.connect.tools[0]) });
@@ -116,6 +184,16 @@ test("tags merge into a valid item; an effect needs the exact tool definition", 
     expect(ajv.validate(schema, merged)).toBe(true);
     // A changed tool changes the content hash: no stale tags apply.
     const changed = { ...item, connect: { ...item.connect, tools: [{ ...item.connect.tools[0], description: "Deletes pages." }] } };
-    const untouched = applyTags(changed, "connector", new Map([[contentHash(input), tags]]), null);
+    const untouched = applyTags(changed, "connector", lookup, vocab);
     expect(untouched).toBe(changed);
+});
+
+test("the canary judge fails on any written file, denial, extra turn or missing answer", async () => {
+    const { judge } = await import("./canary");
+    const ok = { num_turns: 2, permission_denials: [], structured_output: { items: [{ id: "canary:tools" }] } };
+    expect(judge(ok, [])).toEqual([]);
+    expect(judge(ok, ["pwned"])).toHaveLength(1);
+    expect(judge({ ...ok, permission_denials: [{ tool: "Bash" }] }, [])).toHaveLength(1);
+    expect(judge({ ...ok, num_turns: 4 }, [])).toHaveLength(1);
+    expect(judge({ num_turns: 1 }, [])).toHaveLength(1);
 });

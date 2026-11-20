@@ -28,8 +28,13 @@ export interface ClassifyInput {
     title: string;
     description: string;
     publisher: string | null;
-    tools: { name: string; description: string; hash: string }[];
+    /** schema is the canonical input schema, cut to a bound; complete says the
+     *  model saw the whole definition, which a read effect requires. */
+    tools: { name: string; description: string; schema: string; complete: boolean; hash: string }[];
 }
+
+export const TOOL_DESCRIPTION_LIMIT = 600;
+export const TOOL_SCHEMA_LIMIT = 3000;
 
 export function contentHash(input: ClassifyInput): string {
     return sha256(canonicalJson(input));
@@ -44,6 +49,16 @@ export function inputOf(item: any, kind: ClassifyInput["kind"]): ClassifyInput {
         title: String(item.display?.title ?? item.name ?? ""),
         description: String(item.display?.description ?? ""),
         publisher: item.origin?.publisher?.name ?? null,
-        tools: tools.map((tool: ToolDefinition) => ({ name: tool.name, description: String(tool.description ?? ""), hash: toolHash(tool) })),
+        tools: tools.map((tool: ToolDefinition) => {
+            const description = String(tool.description ?? "");
+            const schema = canonicalJson(tool.inputSchema ?? {});
+            return {
+                name: tool.name,
+                description: description.slice(0, TOOL_DESCRIPTION_LIMIT),
+                schema: schema.slice(0, TOOL_SCHEMA_LIMIT),
+                complete: description.length <= TOOL_DESCRIPTION_LIMIT && schema.length <= TOOL_SCHEMA_LIMIT,
+                hash: toolHash(tool),
+            };
+        }),
     };
 }

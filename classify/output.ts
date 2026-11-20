@@ -6,7 +6,9 @@
 
 import type { ClassifyInput } from "./hash";
 
-export const VOCABULARY_VERSION = 1;
+/** Bump when the prompt, schema or sanitizer change what a tag means: every
+ *  stored tag is then classified again. A vocabulary merge does not need it. */
+export const CLASSIFIER_VERSION = 1;
 
 export const GOALS = [
     "get-customers", "sell", "get-paid", "keep-in-touch", "support-customers", "be-online",
@@ -52,7 +54,7 @@ export const BATCH_SCHEMA = {
 } as const;
 
 export interface Tags {
-    vocabulary: number;
+    classifier: number;
     contentHash: string;
     domain: string[];
     product: string[];
@@ -83,15 +85,17 @@ const values = (list: unknown, max: number) =>
     [...new Set((Array.isArray(list) ? list : []).map(slug).filter((v): v is string => !!v))].slice(0, max);
 
 export function sanitize(answer: any, input: ClassifyInput, contentHash: string): Tags {
-    const byName = new Map(input.tools.map(tool => [tool.name, tool.hash]));
-    const effects: Tags["effects"] = {};
+    const byName = new Map(input.tools.map(tool => [tool.name, tool]));
+    const effects: Tags["effects"] = Object.create(null);
     for (const tool of input.tools) effects[tool.hash] = "write"; // unsure is write
     for (const entry of Array.isArray(answer?.effects) ? answer.effects : []) {
-        const hash = byName.get(entry?.tool);
-        if (hash && ["read", "write", "risky"].includes(entry.effect)) effects[hash] = entry.effect;
+        const tool = typeof entry?.tool === "string" ? byName.get(entry.tool) : undefined;
+        if (!tool || !["read", "write", "risky"].includes(entry.effect)) continue;
+        // read vouches for the whole definition: only when the model saw all of it.
+        effects[tool.hash] = entry.effect === "read" && !tool.complete ? "write" : entry.effect;
     }
     return {
-        vocabulary: VOCABULARY_VERSION,
+        classifier: CLASSIFIER_VERSION,
         contentHash,
         domain: values(answer?.domain, 3),
         product: values(answer?.product, 8),
@@ -100,7 +104,25 @@ export function sanitize(answer: any, input: ClassifyInput, contentHash: string)
         summary: text(answer?.summary, 300),
         whenToUse: text(answer?.whenToUse, 500),
         tasks: (Array.isArray(answer?.tasks) ? answer.tasks : []).map((t: unknown) => text(t, 120)).filter(Boolean).slice(0, 12),
-        effects,
+        effects: { ...effects },
         flags: (Array.isArray(answer?.flags) ? answer.flags : []).map((f: unknown) => text(f, 300)).filter(Boolean).slice(0, 5),
     };
+}
+
+const isStrings = (value: unknown, max: number) => Array.isArray(value) && value.length <= max && value.every(v => typeof v === "string");
+
+/** A stored tag file is used only if it is current and well formed; anything
+ *  else counts as missing and is classified again. */
+export function validTags(value: any, contentHash: string): value is Tags {
+    return !!value && typeof value === "object" && value.classifier === CLASSIFIER_VERSION && value.contentHash === contentHash
+        && isStrings(value.domain, 3) && value.domain.every((v: string) => slug(v) === v)
+        && isStrings(value.product, 8) && value.product.every((v: string) => slug(v) === v)
+        && isStrings(value.audience, 4) && value.audience.every((v: string) => slug(v) === v)
+        && isStrings(value.goal, 3) && value.goal.every((v: string) => (GOALS as readonly string[]).includes(v))
+        && typeof value.summary === "string" && value.summary.length <= 300
+        && typeof value.whenToUse === "string" && value.whenToUse.length <= 500
+        && isStrings(value.tasks, 12) && value.tasks.every((v: string) => v.length <= 120)
+        && isStrings(value.flags, 5)
+        && !!value.effects && typeof value.effects === "object" && !Array.isArray(value.effects)
+        && Object.entries(value.effects).every(([hash, effect]) => /^[0-9a-f]{64}$/.test(hash) && ["read", "write", "risky"].includes(effect as string));
 }
