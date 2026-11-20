@@ -87,3 +87,22 @@ changing a workflow is a reviewed change to the protected `main`. It needs
 
 Still to come: the scheduled build (catalogue §9) and the catalogue embedded in the
 library's release build (R3, with the switch).
+
+## Classification (R4)
+
+Run locally, never in an Action (catalogue §7). `classify/` drives Claude Code with
+every tool, MCP server and settings file off, inside a read-only container holding only
+the Claude Code binary and an empty folder. The credential is a long-lived token from
+`claude setup-token`, passed by name as `CLAUDE_CODE_OAUTH_TOKEN`; the interactive login
+is never mounted.
+
+    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/run.ts <parts-dir> [--batch=25] [--limit=N]
+    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/vocabulary.ts
+
+Pass 1 writes `tags/<content hash>.json` per item, resumably: an item whose name,
+description, publisher or tools change gets a new hash and is classified again. Pass 2
+reads the distinct values and writes `facets/vocabulary.json` (the final lists and a
+mapping); a person reviews the lists. Answers are untrusted: unknown values are dropped,
+text is cut to the schema's limits, and a tool's effect is kept only for a tool the item
+has, by its definition's hash, `write` when unsure. `classify/apply.ts` merges tags into
+items at build time; an untagged item publishes without those filters.
