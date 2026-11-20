@@ -101,12 +101,18 @@ empty working folder, no host mounts except a read-only Claude Code managed sett
 that denies every tool and bypass mode, no client terminal or filesystem, and every
 permission request refused. A batch in which the harness announces a tool or asks for a
 permission is refused, as is any turn that does not end normally (`end_turn`). Task and
-todo activity reaches ACP as plan updates and counts as a tool. The credential is a long-lived token from `claude setup-token`,
-passed by name as `CLAUDE_CODE_OAUTH_TOKEN`; the interactive login is never mounted.
+todo activity reaches ACP as plan updates and counts as a tool. The credential is the maintainer's own Claude Code login, read on the host only. Before
+each batch the run checks that its access token outlives the batch; if not, it waits until
+just before expiry and lets one trivial Claude Code call on the host refresh it, under
+Claude Code's own refresh lock there. The container gets only the access token, by name
+as `CLAUDE_CODE_OAUTH_TOKEN`: the login file and its refresh token never enter it, so
+nothing in the container can refresh or rotate the login. An explicit
+`CLAUDE_CODE_OAUTH_TOKEN` (from `claude setup-token`) is used instead when set. A token from `claude setup-token` in `CLAUDE_CODE_OAUTH_TOKEN`
+is used instead when set.
 
-    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/canary.ts                  # isolation gate, first
-    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/run.ts <parts-dir> [--batch=25] [--limit=N]
-    CLAUDE_CODE_OAUTH_TOKEN=... bun classify/vocabulary.ts              # writes facets/vocabulary.proposed.json
+    bun classify/canary.ts                                              # isolation gate, first
+    bun classify/run.ts <parts-dir> [--batch=25] [--limit=N]
+    bun classify/vocabulary.ts              # writes facets/vocabulary.proposed.json
     bun classify/apply.ts <parts-dir>                                   # then the build's validator
 
 - **Pass 1** writes `tags/<content hash>.json` per item, atomically and resumably. The

@@ -66,8 +66,10 @@ test("the harness runs in a locked container with every tool denied and only the
         expect(command).toContain("--pull=never");
         expect(joined).not.toContain("secret-token-value");
         const mounts = command.flatMap((arg, i) => arg === "-v" ? [command[i + 1]!] : []);
-        expect(mounts).toEqual(["/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]);
-        expect(joined).not.toContain(".claude:");
+        expect(mounts).toEqual(["/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]); // a token: no login mounted
+        const login = containerCommand({ ...DEFAULT_OPTIONS, credentials: "/h/.claude/.credentials.json" }, "/tmp/managed.json");
+        expect(login.join(" ")).not.toContain(".credentials.json"); // the login file is never mounted
+
         expect(command[command.indexOf("--entrypoint") + 1]).toBe("claude-agent-acp");
         for (const tool of ["Bash", "Read", "Write", "Edit", "WebFetch", "WebSearch", "Task", "mcp__*"]) expect(MANAGED_SETTINGS.permissions.deny).toContain(tool);
         expect(MANAGED_SETTINGS.permissions.disableBypassPermissionsMode).toBe("disable");
@@ -231,4 +233,34 @@ test("the relay gives every new session an empty tool set and refuses other sess
     expect(rewriteClientLine("not json").refused).toBeDefined();
     const reply = JSON.stringify({ jsonrpc: "2.0", id: 9, result: { outcome: { outcome: "cancelled" } } });
     expect(rewriteClientLine(reply).line).toBe(reply);
+});
+
+test("a run never needs a refresh in the container: the host refreshes first", async () => {
+    const { ensureFreshLogin } = await import("./model");
+    const dir = temp();
+    const file = join(dir, "creds.json");
+    let clock = 1_000_000;
+    const write = (expiresAt: number) => writeFileSync(file, JSON.stringify({ claudeAiOauth: { accessToken: "x", expiresAt } }));
+    write(clock + 3_600_000);
+    let refreshes = 0;
+    await ensureFreshLogin(file, 20 * 60_000, { now: () => clock, refresh: async () => { refreshes++; } });
+    expect(refreshes).toBe(0);
+    write(clock + 10 * 60_000); // 10 min left: wait until 1 min before expiry, then refresh on the host
+    let slept = 0;
+    await ensureFreshLogin(file, 20 * 60_000, { now: () => clock, sleep: async ms => { slept += ms; clock += ms; },
+        refresh: async () => { refreshes++; write(clock + 8 * 3_600_000); } });
+    expect(refreshes).toBe(1);
+    expect(slept).toBe(9 * 60_000);
+    write(clock + 5 * 60_000); // a refresh that never lands fails loudly
+    await expect(ensureFreshLogin(file, 20 * 60_000, { now: () => clock, sleep: async ms => { clock += ms; }, refresh: async () => {} })).rejects.toThrow(/did not refresh/);
+    write(clock + 5 * 60_000); // a refresh that lands on the last attempt is accepted
+    let calls = 0;
+    await ensureFreshLogin(file, 20 * 60_000, { now: () => clock, sleep: async ms => { clock += ms; },
+        refresh: async () => { if (++calls === 3) write(clock + 8 * 3_600_000); } });
+    expect(calls).toBe(3);
+    writeFileSync(file, "{}");
+    await expect(ensureFreshLogin(file, 1, { now: () => clock })).rejects.toThrow(/cannot read/);
+    const { loginAccess } = await import("./model");
+    writeFileSync(file, JSON.stringify({ claudeAiOauth: { accessToken: "a", refreshToken: "r", expiresAt: 5 } }));
+    expect(loginAccess(file)).toEqual({ accessToken: "a", expiresAt: 5 });
 });
