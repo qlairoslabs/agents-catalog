@@ -102,8 +102,10 @@ that denies every tool and bypass mode, no client terminal or filesystem, and ev
 permission request refused. A batch in which the harness announces a tool or asks for a
 permission is refused, as is any turn that does not end normally (`end_turn`). Task and
 todo activity reaches ACP as plan updates and counts as a tool. The credential is the maintainer's own Claude Code login: only
-`~/.claude/.credentials.json` is mounted, read-write as itself, so a refresh inside the
-container is written back. A token from `claude setup-token` in `CLAUDE_CODE_OAUTH_TOKEN`
+`~/.claude/.credentials.json` is mounted, read-only, so the container never refreshes or
+writes it. Before each batch the run checks that the access token outlives the batch; if
+not, it waits until just before expiry and lets one trivial Claude Code call on the host
+refresh it, under Claude Code's own refresh lock there. A token from `claude setup-token` in `CLAUDE_CODE_OAUTH_TOKEN`
 is used instead when set.
 
     bun classify/canary.ts                                              # isolation gate, first

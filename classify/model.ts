@@ -11,7 +11,7 @@
 // Claude Code login file, mounted as itself (or a CLAUDE_CODE_OAUTH_TOKEN, if set).
 
 import { randomUUID } from "node:crypto";
-import { existsSync, mkdtempSync, writeFileSync } from "node:fs";
+import { existsSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { AgentController } from "@qlairoslabs/acp-client";
@@ -24,9 +24,11 @@ export interface ModelOptions {
     timeoutMs: number;
     /** The canary only: a host folder mounted as the working folder, to show it stays empty. */
     workMount?: string;
-    /** The maintainer's Claude Code login file, mounted read-write as itself, so a
-     *  refresh inside the container is written back and never logs them out.
-     *  Used unless CLAUDE_CODE_OAUTH_TOKEN is set. */
+    /** The maintainer's Claude Code login file, mounted read-only: the container
+     *  never refreshes or writes it. Refreshing happens on the host only
+     *  (ensureFreshLogin), under Claude Code's own refresh lock there, so it
+     *  cannot race the maintainer's other Claude processes. Used unless
+     *  CLAUDE_CODE_OAUTH_TOKEN is set. */
     credentials?: string;
 }
 
@@ -105,7 +107,7 @@ export function containerCommand(options: ModelOptions, settings: string, name =
         "--workdir", "/work",
         ...(process.env.CLAUDE_CODE_OAUTH_TOKEN
             ? ["-e", "CLAUDE_CODE_OAUTH_TOKEN"]
-            : options.credentials ? ["-v", `${options.credentials}:/home/classify/.claude/.credentials.json:rw`] : []),
+            : options.credentials ? ["-v", `${options.credentials}:/home/classify/.claude/.credentials.json:ro`] : []),
         "-e", "HOME=/home/classify",
         "-e", `ANTHROPIC_MODEL=${options.model}`,
         "-e", "DISABLE_AUTOUPDATER=1", "-e", "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1",
@@ -122,9 +124,48 @@ export interface BatchRun {
     stopReason: string;
 }
 
+/** When the login's access token expires; nothing else is read from the file. */
+export function loginExpiry(file: string): number | null {
+    try {
+        const expiresAt = JSON.parse(readFileSync(file, "utf8"))?.claudeAiOauth?.expiresAt;
+        return typeof expiresAt === "number" && Number.isFinite(expiresAt) ? expiresAt : null;
+    } catch { return null; }
+}
+
+/** A run must never need a refresh inside the container. If the token has less
+ *  than `needMs` left, wait until it is nearly expired and let one trivial
+ *  Claude Code call on the host refresh it, the normal way. */
+export async function ensureFreshLogin(file: string, needMs: number, deps: {
+    now?: () => number; sleep?: (ms: number) => Promise<void>; refresh?: () => Promise<void>; log?: (line: string) => void;
+} = {}): Promise<void> {
+    const now = deps.now ?? Date.now, sleep = deps.sleep ?? Bun.sleep, log = deps.log ?? (() => undefined);
+    const refresh = deps.refresh ?? hostRefresh;
+    for (let attempt = 0; attempt < 3; attempt++) {
+        const expiry = loginExpiry(file);
+        if (expiry === null) throw new Error(`cannot read the login's expiry in ${file}; sign in with \`claude\` on this machine`);
+        if (expiry - now() >= needMs) return;
+        // First a minute before expiry; if that did not refresh, just after it.
+        const wait = Math.max(0, expiry - now() + (attempt === 0 ? -60_000 : 5_000));
+        log(`login expires in ${Math.round((expiry - now()) / 60_000)} min; refreshing on the host${wait ? ` in ${Math.round(wait / 60_000)} min` : ""}`);
+        if (wait) await sleep(wait);
+        await refresh();
+    }
+    throw new Error("the login did not refresh on the host; run `claude` here once, then retry");
+}
+
+async function hostRefresh(): Promise<void> {
+    const child = Bun.spawn(["claude", "-p", "--model", "haiku", "--tools", "", "--strict-mcp-config", "--mcp-config", '{"mcpServers":{}}',
+        "--setting-sources", "", "--no-session-persistence", "Reply with the word ok."], { stdout: "ignore", stderr: "ignore", cwd: tmpdir() });
+    const timer = setTimeout(() => child.kill("SIGKILL"), 120_000);
+    try { await child.exited; } finally { clearTimeout(timer); }
+}
+
 export async function runBatch(options: ModelOptions, prompt: string): Promise<BatchRun> {
-    if (!process.env.CLAUDE_CODE_OAUTH_TOKEN && !(options.credentials && existsSync(options.credentials))) {
-        throw new Error("no Claude Code login: sign in with `claude` on this machine, or set CLAUDE_CODE_OAUTH_TOKEN");
+    if (!process.env.CLAUDE_CODE_OAUTH_TOKEN) {
+        if (!(options.credentials && existsSync(options.credentials))) {
+            throw new Error("no Claude Code login: sign in with `claude` on this machine, or set CLAUDE_CODE_OAUTH_TOKEN");
+        }
+        await ensureFreshLogin(options.credentials, options.timeoutMs + 5 * 60_000);
     }
     // The relay adds the explicit empty tool set to session/new on the wire.
     const name = `classify-${randomUUID()}`;

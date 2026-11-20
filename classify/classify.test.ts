@@ -70,7 +70,7 @@ test("the harness runs in a locked container with every tool denied and only the
         delete process.env.CLAUDE_CODE_OAUTH_TOKEN;
         const login = containerCommand({ ...DEFAULT_OPTIONS, credentials: "/h/.claude/.credentials.json" }, "/tmp/managed.json");
         const loginMounts = login.flatMap((arg, i) => arg === "-v" ? [login[i + 1]!] : []);
-        expect(loginMounts.sort()).toEqual(["/h/.claude/.credentials.json:/home/classify/.claude/.credentials.json:rw", "/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]);
+        expect(loginMounts.sort()).toEqual(["/h/.claude/.credentials.json:/home/classify/.claude/.credentials.json:ro", "/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]);
         expect(login).not.toContain("CLAUDE_CODE_OAUTH_TOKEN");
 
         expect(command[command.indexOf("--entrypoint") + 1]).toBe("claude-agent-acp");
@@ -236,4 +236,26 @@ test("the relay gives every new session an empty tool set and refuses other sess
     expect(rewriteClientLine("not json").refused).toBeDefined();
     const reply = JSON.stringify({ jsonrpc: "2.0", id: 9, result: { outcome: { outcome: "cancelled" } } });
     expect(rewriteClientLine(reply).line).toBe(reply);
+});
+
+test("a run never needs a refresh in the container: the host refreshes first", async () => {
+    const { ensureFreshLogin } = await import("./model");
+    const dir = temp();
+    const file = join(dir, "creds.json");
+    let clock = 1_000_000;
+    const write = (expiresAt: number) => writeFileSync(file, JSON.stringify({ claudeAiOauth: { accessToken: "x", expiresAt } }));
+    write(clock + 3_600_000);
+    let refreshes = 0;
+    await ensureFreshLogin(file, 20 * 60_000, { now: () => clock, refresh: async () => { refreshes++; } });
+    expect(refreshes).toBe(0);
+    write(clock + 10 * 60_000); // 10 min left: wait until 1 min before expiry, then refresh on the host
+    let slept = 0;
+    await ensureFreshLogin(file, 20 * 60_000, { now: () => clock, sleep: async ms => { slept += ms; clock += ms; },
+        refresh: async () => { refreshes++; write(clock + 8 * 3_600_000); } });
+    expect(refreshes).toBe(1);
+    expect(slept).toBe(9 * 60_000);
+    write(clock + 5 * 60_000); // a refresh that never lands fails loudly
+    await expect(ensureFreshLogin(file, 20 * 60_000, { now: () => clock, sleep: async ms => { clock += ms; }, refresh: async () => {} })).rejects.toThrow(/did not refresh/);
+    writeFileSync(file, "{}");
+    await expect(ensureFreshLogin(file, 1, { now: () => clock })).rejects.toThrow(/cannot read/);
 });
