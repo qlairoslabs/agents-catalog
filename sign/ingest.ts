@@ -11,8 +11,13 @@
 import { mkdirSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
-export const MAX_PART_BYTES = 64 * 1024 * 1024;
-const ALLOWED = [/^connectors\.json$/, /^skills\.json$/, /^annotations\/[a-z0-9-]{1,64}\.json$/];
+// The library's ingestion limits (agents-core catalog/adapters/agents-catalog.ts):
+// a build a hub would refuse is not published.
+export const MAX_PART_BYTES = 24 * 1024 * 1024;
+export const MAX_TOTAL_BYTES = 64 * 1024 * 1024;
+// Annotations are not yet referenced by the index R1 writes, so they are refused
+// until the index signs their bytes too.
+const ALLOWED = [/^connectors\.json$/, /^skills\.json$/];
 
 export interface TreeEntry { mode: string; type: string; object: string; size: number; path: string }
 
@@ -37,6 +42,7 @@ export function checkTree(entries: readonly TreeEntry[]): string[] {
         paths.push(path);
     }
     if (!paths.includes("connectors.json") || !paths.includes("skills.json")) throw new Error("the build lacks connectors.json or skills.json");
+    if (entries.reduce((sum, entry) => sum + entry.size, 0) > MAX_TOTAL_BYTES) throw new Error("the parts together exceed the library's limit");
     return paths;
 }
 
@@ -57,7 +63,9 @@ export async function ingest(sha: string, dest: string, repo = process.cwd()): P
         const path = entry.path.slice(4);
         const bytes = git(["cat-file", "blob", entry.object], repo);
         if (bytes.byteLength !== entry.size) throw new Error(`size changed while reading: ${entry.path}`);
-        const parsed = JSON.parse(bytes.toString("utf8"));
+        // Fatal decoding: malformed UTF-8 refuses the build instead of being
+        // replaced, so the bytes hashed and the text parsed are the same.
+        const parsed = JSON.parse(new TextDecoder("utf-8", { fatal: true, ignoreBOM: true }).decode(bytes));
         if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) throw new Error(`not a JSON object: ${entry.path}`);
         if (path.includes("/")) mkdirSync(join(dest, path.slice(0, path.lastIndexOf("/"))), { recursive: true });
         await Bun.write(join(dest, path), bytes);

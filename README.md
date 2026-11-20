@@ -72,9 +72,11 @@ full commit of a build the owner has reviewed (its output in `out/`, on a branch
 repository). It runs in the protected `catalog-signing` environment (secret
 `CATALOG_SIGNING_KEY`, variables `CATALOG_SIGNING_KEY_ID` and `CATALOG_PUBLIC_KEY`).
 Nothing from the build commit runs: the tools are this workflow's own commit, and
-`sign/ingest.ts` reads the build's files as git objects, taking only `connectors.json`,
-`skills.json` and `annotations/<id>.json` as regular files and refusing the build if
-anything else is in `out/`. The parts and then the index are validated by the trusted
+`sign/ingest.ts` reads the build's files as git objects, taking only `connectors.json`
+and `skills.json` as regular files, within the library's limits (24 MiB each, 64 MiB
+together) and as strict UTF-8, and refusing the build if anything else is in `out/`.
+Annotations are refused until the index signs their bytes. Reports and captures stay
+outside `out/`. The parts and then the index are validated by the trusted
 build code before signing. It publishes to `published` in two commits: the parts, then
 the index and its signature naming the parts' commit; the push is never forced.
 

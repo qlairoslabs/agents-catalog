@@ -15,7 +15,7 @@ function run(cwd: string, ...args: string[]) {
 }
 
 /** A repository whose one commit holds the given files (a value of null is a link). */
-async function build(files: Record<string, string | null>): Promise<{ repo: string; sha: string }> {
+async function build(files: Record<string, string | Uint8Array | null>): Promise<{ repo: string; sha: string }> {
     const repo = temp();
     run(repo, "init", "-q");
     for (const [path, content] of Object.entries(files)) {
@@ -31,10 +31,10 @@ async function build(files: Record<string, string | null>): Promise<{ repo: stri
 const good = { "out/connectors.json": '{"mcp":[]}', "out/skills.json": '{"skills":[],"bundles":[]}' };
 
 test("a build with exactly the allowed parts is copied byte for byte", async () => {
-    const { repo, sha } = await build({ ...good, "out/annotations/composio.json": '{"a":1}', "README.md": "ignored, outside out/" });
+    const { repo, sha } = await build({ ...good, "README.md": "ignored, outside out/" });
     const dest = temp();
     const paths = await ingest(sha, dest, repo);
-    expect(paths.sort()).toEqual(["annotations/composio.json", "connectors.json", "skills.json"]);
+    expect(paths.sort()).toEqual(["connectors.json", "skills.json"]);
     expect(await Bun.file(join(dest, "connectors.json")).text()).toBe('{"mcp":[]}');
     expect(existsSync(join(dest, "README.md"))).toBe(false);
 });
@@ -47,6 +47,7 @@ for (const [name, extra] of [
     ["a workflow", { "out/.github/workflows/x.yml": "on: push" }],
     ["an unknown file", { "out/extra.json": "{}" }],
     ["a nested annotation", { "out/annotations/x/y.json": "{}" }],
+    ["an annotation (not yet signed by the index)", { "out/annotations/composio.json": "{}" }],
     ["a link", { "out/annotations/link.json": null }],
 ] as const) {
     test(`a build carrying ${name} is refused whole`, async () => {
@@ -62,6 +63,8 @@ test("missing parts, invalid JSON, a short SHA and a non-empty destination are r
     await expect(ingest(missing.sha, temp(), missing.repo)).rejects.toThrow(/lacks/);
     const invalid = await build({ ...good, "out/skills.json": "not json" });
     await expect(ingest(invalid.sha, temp(), invalid.repo)).rejects.toThrow();
+    const malformed = await build({ ...good, "out/connectors.json": new Uint8Array([...new TextEncoder().encode('{"mcp":[],"x":"'), 0xff, ...new TextEncoder().encode('"}')]) });
+    await expect(ingest(malformed.sha, temp(), malformed.repo)).rejects.toThrow();
     const array = await build({ ...good, "out/skills.json": "[]" });
     await expect(ingest(array.sha, temp(), array.repo)).rejects.toThrow(/object/);
     const ok = await build(good);
