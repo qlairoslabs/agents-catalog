@@ -60,3 +60,30 @@ Readers, and the build before it publishes, also check:
 - `generatedAt` and `expires` are valid times;
 - every HTTPS URL parses with a host and no credentials.
 - `revokes` in the index is honoured only under the offline next key (the verifier, L1).
+
+## Signing and publishing (R3)
+
+`sign/` signs `index.json` with Ed25519 (`bun sign/cli.ts keygen|sign|verify`). It signs
+only with the shipped current key (`sign/keys.ts`, the same keys as the library's
+`BUILTIN_CATALOG_KEYS`) and verifies only shipped key ids.
+
+The `publish` workflow is dispatched by hand, from `main`, **by the owner only**, with the
+full commit of a build the owner has reviewed (its output in `out/`, on a branch of this
+repository). It runs in the protected `catalog-signing` environment (secret
+`CATALOG_SIGNING_KEY`, variables `CATALOG_SIGNING_KEY_ID` and `CATALOG_PUBLIC_KEY`).
+Nothing from the build commit runs: the tools are this workflow's own commit, and
+`sign/ingest.ts` reads the build's files as git objects, taking only `connectors.json`
+and `skills.json` as regular files, within the library's limits (24 MiB each, 64 MiB
+together) and as strict UTF-8, and refusing the build if anything else is in `out/`.
+Annotations are refused until the index signs their bytes. Reports and captures stay
+outside `out/`. The parts and then the index are validated by the trusted
+build code before signing. It publishes to `published` in two commits: the parts, then
+the index and its signature naming the parts' commit; the push is never forced.
+
+Any workflow on `main` could ask for the `catalog-signing` environment, so adding or
+changing a workflow is a reviewed change to the protected `main`. It needs
+`build.ts validate <dir>` and `build.ts index --commit <sha> --dir <dir> [--previous
+<index.json>]` from the build (R1); the new sequence must exceed the previous one.
+
+Still to come: the scheduled build (catalogue §9) and the catalogue embedded in the
+library's release build (R3, with the switch).
