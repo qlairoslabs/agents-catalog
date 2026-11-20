@@ -60,3 +60,13 @@ Readers, and the build before it publishes, also check:
 - `generatedAt` and `expires` are valid times;
 - every HTTPS URL parses with a host and no credentials.
 - `revokes` in the index is honoured only under the offline next key (the verifier, L1).
+
+## Signing and publishing (R3)
+
+`sign/` signs `index.json` with Ed25519 (`bun sign/cli.ts keygen|sign|verify`). The
+`publish` workflow, run by hand from `main` with the full commit of a reviewed build,
+checks the build without secrets, then signs it in the protected `catalog-signing`
+environment (secret `CATALOG_SIGNING_KEY`, variables `CATALOG_SIGNING_KEY_ID` and
+`CATALOG_PUBLIC_KEY`) and publishes it to `published` in two commits: the parts, then
+the index and its signature naming the parts' commit. It needs `build.ts validate <dir>`
+and `build.ts index --commit <sha> --dir <dir>` from the build (R1).
