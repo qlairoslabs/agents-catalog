@@ -1,10 +1,12 @@
 # Signs a reviewed build and publishes it to the `published` branch (catalogue §9).
 #
-# Run by hand from main, naming the commit of the reviewed build (for now the
-# `manual-build` branch). The build output is checked without secrets; only the
-# `sign` job, in the protected `catalog-signing` environment, sees the key.
-# Publishing is two commits on `published`: the parts first, then the index and
-# its signature, naming the parts' commit.
+# Dispatched by hand, from main only, by the owner, naming the full commit of a
+# reviewed build whose output is in out/ (for now the `manual-build` branch).
+# Nothing from that commit runs: the tools come from this workflow's own commit,
+# and the build's files are read as git objects, checked against an exact
+# allowlist (sign/ingest.ts), then validated before signing. Publishing is two
+# commits on `published`: the parts, then the index and its signature naming
+# the parts' commit.
 
 name: publish
 
@@ -12,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       build:
-        description: "Full commit SHA of the reviewed build (its output is in out/)"
+        description: "Full commit SHA of the reviewed build, on a branch of this repository"
         required: true
         type: string
 
@@ -24,48 +26,37 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Refuse anything but a full commit SHA
-        env:
-          BUILD: ${{ inputs.build }}
-        run: '[[ "$BUILD" =~ ^[0-9a-f]{40}$ ]] || { echo "build must be a full commit SHA"; exit 1; }'
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          ref: ${{ inputs.build }}
-          persist-credentials: false
-      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
-      - run: bun install --frozen-lockfile
-      - run: bun test
-      - name: Validate the build output
-        run: bun build.ts validate out
-      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
-        with:
-          name: parts
-          path: out/
-          if-no-files-found: error
-
-  sign:
-    needs: check
+  publish:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment: catalog-signing
     permissions:
       contents: write
+    env:
+      BUILD: ${{ inputs.build }}
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Refuse anything but a full commit SHA
+        run: '[[ "$BUILD" =~ ^[0-9a-f]{40}$ ]] || { echo "build must be a full commit SHA"; exit 1; }'
+
+      - name: Check out the trusted tools at this workflow's exact commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: main
+          ref: ${{ github.sha }}
           path: tools
           persist-credentials: false
+          fetch-depth: 0
+
+      - name: Require the build commit to be on a branch of this repository
+        working-directory: tools
+        run: |
+          git fetch -q origin '+refs/heads/*:refs/remotes/origin/*'
+          [ "$(git cat-file -t "$BUILD" 2>/dev/null)" = commit ] || { echo "build commit not found on this repository's branches"; exit 1; }
+          [ -n "$(git branch -r --contains "$BUILD")" ] || { echo "build commit is not on a branch of this repository"; exit 1; }
+
       - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
       - run: bun install --frozen-lockfile
         working-directory: tools
-      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
-        with:
-          name: parts
-          path: parts
+
       - name: Check out or start the published branch
         env:
           GH_TOKEN: ${{ github.token }}
@@ -74,34 +65,46 @@ jobs:
           git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git config user.name "agents-catalog publisher"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git fetch -q --depth 1 origin published; then git checkout -q -B published FETCH_HEAD; else git checkout -q --orphan published; fi
-      - name: Commit the parts
-        env:
-          BUILD: ${{ inputs.build }}
+          set +e; git ls-remote --exit-code --heads origin published >/dev/null; found=$?; set -e
+          if [ "$found" = 0 ]; then
+            git fetch -q --depth 1 origin published && git checkout -q -B published FETCH_HEAD
+          elif [ "$found" = 2 ]; then
+            echo "first publication"; git checkout -q --orphan published
+          else
+            echo "could not read the published branch"; exit 1
+          fi
+
+      - name: Replace the parts with the reviewed build's
         run: |
           cd published
           if [ -f index.json ]; then cp index.json ../previous-index.json; fi
-          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
-          cp -R ../parts/. .
-          rm -f index.json index.json.sig
+          git rm -rqf --ignore-unmatch . && git clean -fdxq
+          cd ../tools && bun sign/ingest.ts "$BUILD" ../published
+
+      - name: Validate and commit the parts
+        run: |
+          bun tools/build.ts validate published
+          cd published
           git add -A
           git commit -q --allow-empty -m "Parts from build ${BUILD}"
           echo "PARTS_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
-      - name: Write the index naming the parts' commit
+
+      - name: Write and validate the index naming the parts' commit
         run: |
           previous=(); if [ -f previous-index.json ]; then previous=(--previous previous-index.json); fi
           bun tools/build.ts index --commit "$PARTS_COMMIT" --dir published "${previous[@]}"
+          bun tools/build.ts validate published
+
       - name: Sign
         env:
           CATALOG_SIGNING_KEY: ${{ secrets.CATALOG_SIGNING_KEY }}
           CATALOG_SIGNING_KEY_ID: ${{ vars.CATALOG_SIGNING_KEY_ID }}
           CATALOG_PUBLIC_KEY: ${{ vars.CATALOG_PUBLIC_KEY }}
         run: bun tools/sign/cli.ts sign published
+
       - name: Verify and publish
-        env:
-          BUILD: ${{ inputs.build }}
         run: |
-          bun tools/sign/cli.ts verify published "${{ vars.CATALOG_PUBLIC_KEY }}"
+          bun tools/sign/cli.ts verify published
           cd published
           git add index.json index.json.sig
           git commit -q -m "Index for ${PARTS_COMMIT}, build ${BUILD}"
