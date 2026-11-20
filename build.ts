@@ -9,6 +9,7 @@ import type { CatalogItem } from "./mcp/model";
 import { catalogueTool, mapItem, mergeItems } from "./mcp/map";
 import { discoverTools } from "./mcp/tools";
 import { facets, withFacets } from "./facets";
+import { applyClassification } from "./facets/classification";
 import { validateIndex, validateIndexBytes, validatePartBytes, validateSelectedParts, MAX_INDEX_BYTES, MAX_PART_BYTES, MAX_SELECTED_BYTES, encode } from "./validate";
 import { comparison, type Explanation, type Snapshot } from "./compare";
 import type { SourceCapture } from "./generate-catalog";
@@ -207,9 +208,14 @@ async function parts(output: string) {
             }
         }
     } finally { toolCache?.close(); }
-    const decorated = items.map(withFacets);
+    const decoratedItems = items.map(withFacets);
+    const classified = process.argv.includes("--untagged")
+        ? { items: decoratedItems, applied: 0 }
+        : await applyClassification(decoratedItems, { tags: arg("tags"), vocabulary: arg("vocabulary") });
+    const decorated = classified.items;
     const note = arg("comparison-note");
     const notes: string[] = note ? [note] : [];
+    if (classified.applied) notes.push(`Applied matching classification tags to ${classified.applied} listings.`);
     const accepted: CatalogListingItem[] = [];
     const stages = await Promise.all(partIds.map(async id => {
         const missing = Object.entries(sourceCapture.errors).filter(([source]) => id === "connectors" ? source === "docker" : source.startsWith("marketplace:"))
@@ -239,14 +245,14 @@ async function parts(output: string) {
     }
     await mkdir(output,{recursive:true});
     for (const { id, text } of stages) await writeAtomic(join(output,`${id}.json`),text);
-    console.log(JSON.stringify({ listings: accepted.length, parts: stages.map(({id, items, warning}) => ({id,count:items.length,warning})), toolsProbed: probed }));
+    console.log(JSON.stringify({ listings: accepted.length, parts: stages.map(({id, items, warning}) => ({id,count:items.length,warning})), toolsProbed: probed, tagsApplied: classified.applied }));
 }
 
 if (import.meta.main) {
     const command = process.argv[2];
     const output = arg("output") ?? arg("dir") ?? (command === "validate" ? process.argv[3] : undefined) ?? ".r1-cache/candidate";
     if (command === "parts") await parts(output);
-    else if (command === "index" || command === "validate") {
+    else if (command === "index" || command === "validate" || command === "apply-tags") {
         if (command === "validate") {
             const entries = await readdir(output, { withFileTypes: true });
             const expected = new Set(partIds.map(id => `${id}.json`));
@@ -254,7 +260,8 @@ if (import.meta.main) {
                 throw Error("release directory must contain only connectors.json and skills.json");
             }
         }
-        const files = partIds.map(id => [id, Bun.file(join(output,`${id}.json`))] as const);
+        const input = command === "apply-tags" ? need("input") : output;
+        const files = partIds.map(id => [id, Bun.file(join(input,`${id}.json`))] as const);
         if (files.reduce((total, [, file]) => total + file.size, 0) > MAX_SELECTED_BYTES) throw Error("selected parts exceed the Hub byte limit");
         if (files.some(([, file]) => file.size > MAX_PART_BYTES)) throw Error("part exceeds the Hub byte limit");
         const bytes = Object.fromEntries(await Promise.all(files.map(async ([id,file]) => [id, new Uint8Array(await file.arrayBuffer())]))) as Record<Part,Uint8Array>;
@@ -264,6 +271,15 @@ if (import.meta.main) {
             if (file && file.size > MAX_INDEX_BYTES) throw Error("index exceeds the Hub byte limit");
             await writeAtomic(join(output,"index.json"),json(makeIndex(need("commit"), bytes, Date.now(),
                 file ? validateIndexBytes(new Uint8Array(await file.arrayBuffer())) : undefined)));
+        } else if (command === "apply-tags") {
+            const classified = await applyClassification(validateSelectedParts(bytes), {
+                tags: arg("tags"), vocabulary: arg("vocabulary"), required: true,
+            });
+            const tagged = { connectors: json(wire(classified.items,"connectors")), skills: json(wire(classified.items,"skills")) };
+            validateSelectedParts(tagged);
+            await mkdir(output,{recursive:true});
+            for (const id of partIds) await writeAtomic(join(output,`${id}.json`),tagged[id]);
+            console.log(JSON.stringify({ listings: classified.items.length, tagsApplied: classified.applied }));
         } else validateSelectedParts(bytes);
-    } else throw Error("Usage: bun build.ts parts|index|validate [--output=directory]");
+    } else throw Error("Usage: bun build.ts parts|index|validate|apply-tags [--output=directory]");
 }

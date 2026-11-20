@@ -51,3 +51,22 @@ The comparison committed on the builder branch pairs a live trusted-source
 capture with the recorded library community feed to exercise schema 1 before the
 manual registry crawl completes. The manual-build branch will replace that
 comparison with the live crawl result.
+
+## Classification before manual review
+
+Use `--untagged` on the crawl's first `parts` build. Validate that initial
+directory, then give it to R4's classifier. The initial output remains a
+local capture and does not go on `manual-build`.
+
+With R1 and R4 both checked out, run the same `parts` command again against
+the same raw captures and tool checkpoint. Replace `--untagged` with
+`--tags <tag-directory>` and optionally `--vocabulary <vocabulary.json>`.
+This rebuilds the comparison with the classified parts. An ordinary build
+also picks up `tags/*.json` and `facets/vocabulary.json` beside the code
+when present. Matching content hashes are required, and untagged listings
+keep their existing fields.
+
+To apply tags directly to an already validated candidate without replaying
+the capture and comparison stages, use
+`bun build.ts apply-tags --input <untagged-dir> --tags <tag-directory> --output <dir>`.
+That command validates again before writing parts.

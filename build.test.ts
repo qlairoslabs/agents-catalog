@@ -179,3 +179,42 @@ test("comparison flags unattributed drops and accepts explicit source evidence",
     expect(comparison(previous, {servers:[]}, [], [{id:dropped.id, reason:"Upstream listing removed",url:"https://example.com/list"}],new Map()))
         .toMatchObject({unexplained:[],text:expect.stringContaining("Evidence: https://example.com/list")});
 });
+
+const r4Available = await Bun.file(new URL("./classify/apply.ts", import.meta.url)).exists();
+test.skipIf(!r4Available)("classification attaches matching tags and facets without changing untagged listings", async () => {
+    const { applyClassification } = await import("./facets/classification");
+    const { facets } = await import("./facets");
+    const hashModule = new URL("./classify/hash.ts", import.meta.url);
+    const { contentHash, inputOf, toolHash } = await import(hashModule.href);
+    const dir = mkdtempSync(join(tmpdir(),"catalog-apply-tags-"));
+    try {
+        const listings = validatePart("connectors", connectors);
+        const [item, untagged] = listings;
+        if (item?.kind !== "mcp") throw Error("missing connector fixture");
+        const tool = item.connect.tools![0]!;
+        const hash = contentHash(inputOf(item,"connector"));
+        await Bun.write(join(dir,`${hash}.json`), JSON.stringify({
+            vocabulary:1, contentHash:hash, domain:["old-notes"], product:["notion"], audience:[], goal:[],
+            summary:"Find notes",whenToUse:"Workspace search",tasks:["Search notes"],effects:{[toolHash(tool)]:"read"},flags:[],
+        }));
+        const vocabulary = join(dir,"vocabulary.json");
+        await Bun.write(vocabulary,JSON.stringify({ domain:["productivity/notes"],product:["notion"],audience:[],
+            mapping:{domain:{"old-notes":"productivity/notes"},product:{},audience:{}} }));
+        const result = await applyClassification(listings,{tags:dir,vocabulary,required:true});
+        expect(result.applied).toBe(1);
+        expect(result.items[0]).toMatchObject({discovery:{summary:"Find notes",attributes:{domain:["productivity/notes"]}},
+            connect:{tools:[{effect:{effect:"read",hash:toolHash(tool)}}]}});
+        expect(result.items[1]).toBe(untagged);
+        expect(facets(result.items)).toContainEqual({id:"domain",label:"Domain",hierarchical:true,kinds:["mcp"],values:[{id:"productivity/notes"}]});
+    } finally { rmSync(dir,{recursive:true,force:true}); }
+});
+
+test("an empty classification directory leaves ordinary parts unchanged and fails explicit application", async () => {
+    const { applyClassification } = await import("./facets/classification");
+    const dir = mkdtempSync(join(tmpdir(),"catalog-no-tags-"));
+    try {
+        const items = validatePart("connectors",connectors);
+        expect((await applyClassification(items,{tags:dir})).items).toBe(items);
+        await expect(applyClassification(items,{tags:dir,required:true})).rejects.toThrow("no classification tags");
+    } finally { rmSync(dir,{recursive:true,force:true}); }
+});

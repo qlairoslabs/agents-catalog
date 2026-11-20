@@ -17,12 +17,13 @@ export function withFacets(item: CatalogListingItem): CatalogListingItem {
 
 export function facets(items: readonly CatalogListingItem[]): CatalogFacet[] {
     const definitions: Array<[string, string]> = [["kind","Kind"],["trust","Trust"],["source","Source"],["vendor","Vendor"],
-        ["signin","Sign-in"],["runs","Runs as"],["bundle","Part of a bundle"]];
+        ["signin","Sign-in"],["runs","Runs as"],["bundle","Part of a bundle"], ["domain","Domain"],
+        ["product","Product"],["audience","Audience"],["goal","Goal"]];
     return definitions.flatMap(([id, label]) => {
         const selected = items.filter(item => item.discovery.attributes?.[id]?.length);
         if (!selected.length) return [];
         const values = [...new Set(selected.flatMap(item => item.discovery.attributes![id]!))].sort();
-        return [{ id, label, kinds: [...new Set(selected.map(item => item.kind))],
+        return [{ id, label, ...(id === "domain" ? { hierarchical: true } : {}), kinds: [...new Set(selected.map(item => item.kind))],
             ...(values.length <= 2000 ? { values: values.map(id => ({ id })) } : {}) }];
     });
 }

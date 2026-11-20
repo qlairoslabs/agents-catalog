@@ -53,6 +53,12 @@ export function comparison(snapshot: Snapshot, oldFeed: unknown, next: CatalogLi
         if (oldKind(item) !== newKind(other)) changes.push(`transport ${oldKind(item)} to ${newKind(other)}`);
         if (other.kind === "mcp" && other.connect.config.type === "package") changes.push("exact pinned package");
         if (other.kind === "mcp" && other.connect.tools) changes.push("tool definitions supplied or live-listed");
+        const attributes = other.discovery.attributes;
+        if (other.discovery.summary || other.discovery.whenToUse || other.discovery.tasks?.length
+            || [attributes?.domain, attributes?.product, attributes?.audience, attributes?.goal].some(values => values?.length)
+            || (other.kind === "mcp" && other.connect.tools?.some(tool => tool.effect))) {
+            changes.push("applied matching content-hash classification");
+        }
         if (item.title !== other.display.title || item.description !== other.display.description) changes.push("source display metadata changed or was bounded");
         if (other.kind === "skill" && other.skill.treeSha !== item.skill?.treeSha) changes.push("source tree changed");
         if (other.kind === "bundle") changes.push("bundle membership resolved at pinned source");
