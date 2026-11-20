@@ -90,12 +90,19 @@ library's release build (R3, with the switch).
 
 ## Classification (R4)
 
-Run locally, never in an Action (catalogue §7). `classify/` drives Claude Code with
-every tool, MCP server and settings file off, inside a read-only container holding only
-the Claude Code binary and an empty folder. The credential is a long-lived token from
-`claude setup-token`, passed by name as `CLAUDE_CODE_OAUTH_TOKEN`; the interactive login
-is never mounted. The spec's acp-client is replaced by Claude Code's own print mode
-(`claude -p`) with the same isolation rules: less surface, nothing else changes.
+Run locally, never in an Action (catalogue §7). `classify/` drives Claude Code through
+`@qlairoslabs/acp-client` and the Claude ACP adapter (`claude-agent-acp`), on the
+maintainer's subscription, one fresh session per batch. A relay on the ACP wire
+(`classify/acp-relay.ts`) gives every new session the adapter's explicit empty tool set and
+empty setting sources, since acp-client sends no session metadata. A refused permission does not
+switch off a harness's built-in tools, so the boundary is the container: the adapter runs
+in a read-only container (default: the agents standard image, or `CLASSIFY_IMAGE`) with an
+empty working folder, no host mounts except a read-only Claude Code managed settings file
+that denies every tool and bypass mode, no client terminal or filesystem, and every
+permission request refused. A batch in which the harness announces a tool or asks for a
+permission is refused, as is any turn that does not end normally (`end_turn`). Task and
+todo activity reaches ACP as plan updates and counts as a tool. The credential is a long-lived token from `claude setup-token`,
+passed by name as `CLAUDE_CODE_OAUTH_TOKEN`; the interactive login is never mounted.
 
     CLAUDE_CODE_OAUTH_TOKEN=... bun classify/canary.ts                  # isolation gate, first
     CLAUDE_CODE_OAUTH_TOKEN=... bun classify/run.ts <parts-dir> [--batch=25] [--limit=N]
@@ -117,7 +124,7 @@ is never mounted. The spec's acp-client is replaced by Claude Code's own print m
   kept exactly. `domain`, `product` and `audience` are published only through a reviewed
   vocabulary; a value it does not map waits for the next review.
 - **Isolation, and what is left:** the canary checks that an entry aimed at the harness
-  writes nothing and gets no tool. The container still has ordinary network access,
+  writes nothing, announces no tool and asks for no permission. The container still has ordinary network access,
   because the model API needs it; with no tools the model has no way to use it. The
-  Claude Code binary itself is trusted.
+  image's Claude Code and ACP adapter are trusted.
 - **Deferred:** `reliesOn` (§7), which matters for skills, comes with R2.

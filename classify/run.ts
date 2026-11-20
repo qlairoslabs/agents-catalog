@@ -10,7 +10,7 @@
 import { mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { contentHash, inputOf, type ClassifyInput } from "./hash";
-import { claudeModel, DEFAULT_OPTIONS, type Ask } from "./model";
+import { acpModel, DEFAULT_OPTIONS, type Ask } from "./model";
 import { sanitize, validTags, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
 import { readVocabulary } from "./vocabulary";
@@ -88,9 +88,8 @@ if (import.meta.main) {
     const args = process.argv.slice(2);
     const flag = (name: string) => args.find(arg => arg.startsWith(`--${name}=`))?.split("=")[1];
     const dir = args.find(arg => !arg.startsWith("--"));
-    if (!dir) { console.error("usage: bun classify/run.ts <parts-dir> [--batch=25] [--limit=N] [--model=opus] [--sandbox=podman|none]"); process.exit(2); }
-    const ask = claudeModel({ ...DEFAULT_OPTIONS, model: flag("model") ?? DEFAULT_OPTIONS.model,
-        sandbox: (flag("sandbox") as "podman" | "none") ?? DEFAULT_OPTIONS.sandbox });
+    if (!dir) { console.error("usage: bun classify/run.ts <parts-dir> [--batch=25] [--limit=N] [--model=opus] [--image=...]"); process.exit(2); }
+    const ask = acpModel({ ...DEFAULT_OPTIONS, model: flag("model") ?? DEFAULT_OPTIONS.model, image: flag("image") ?? DEFAULT_OPTIONS.image });
     const result = await classify(await readItems(dir), ask, { tagsDir: TAGS_DIR, batch: Number(flag("batch") ?? 25),
         limit: flag("limit") ? Number(flag("limit")) : undefined, log: console.log });
     console.log(`done ${result.done}; ${result.failed.length} to retry; ${readdirSync(TAGS_DIR).filter(n => n.endsWith(".json")).length} stored`);
