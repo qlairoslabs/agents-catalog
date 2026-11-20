@@ -8,9 +8,14 @@ export class Checkpoint {
         this.db.exec("PRAGMA journal_mode=WAL; CREATE TABLE IF NOT EXISTS captured(key TEXT PRIMARY KEY, value TEXT NOT NULL); CREATE TABLE IF NOT EXISTS signals(key TEXT PRIMARY KEY, value TEXT NOT NULL, observed INTEGER NOT NULL)");
     }
 
-    async remember<T>(key: string, load: () => Promise<T>): Promise<T> {
+    read<T>(key: string): T | undefined {
         const row = this.db.query<{ value: string }, [string]>("SELECT value FROM captured WHERE key = ?").get(key);
-        if (row) return JSON.parse(row.value);
+        return row ? JSON.parse(row.value) : undefined;
+    }
+
+    async remember<T>(key: string, load: () => Promise<T>): Promise<T> {
+        const saved = this.read<T>(key);
+        if (saved !== undefined) return saved;
         const value = await load();
         this.db.run("INSERT OR REPLACE INTO captured VALUES (?, ?)", [key, JSON.stringify(value)]);
         return value;

@@ -1,10 +1,11 @@
-import { afterEach, expect, test } from "bun:test";
+import { expect, test } from "bun:test";
 import { createHash } from "node:crypto";
-import { mkdtempSync, rmSync } from "node:fs";
+import { mkdtempSync, rmSync, truncateSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { makeIndex, partWithFallback, pickCommunity } from "./build";
-import { validateIndex, validatePart } from "./validate";
+import { comparison } from "./compare";
+import { validateIndex, validateIndexBytes, validatePart, validatePartBytes } from "./validate";
 import { mapItem, mergeItems } from "./mcp/map";
 import { registryToItem } from "./mcp/registry";
 import { Checkpoint } from "./mcp/checkpoint";
@@ -112,4 +113,69 @@ test("recorded key auth without a declared header is dropped before tool discove
         _meta:{"agents/community":{kind:"remote",auth:"key"}} }], []);
     expect(items).toHaveLength(1);
     expect(mapItem(items[0]!)).toHaveProperty("reason","authentication is required but the source declares no secret header");
+});
+
+function cli(args: string[]) {
+    return Bun.spawnSync([process.execPath, new URL("./build.ts", import.meta.url).pathname, ...args], { stderr: "pipe", stdout: "pipe" });
+}
+
+test("both CLI release checks refuse an invalid UTF-8 title byte and extras in out", async () => {
+    const dir = mkdtempSync(join(tmpdir(),"catalog-release-bytes-"));
+    try {
+        const path = join(dir, "connectors.json");
+        const bytes = Buffer.from(JSON.stringify(connectors));
+        const title = bytes.indexOf("Notion");
+        bytes[title] = 0xff;
+        await Bun.write(path, bytes);
+        await Bun.write(join(dir, "skills.json"), JSON.stringify(skills));
+        expect(cli(["validate",dir]).exitCode).not.toBe(0);
+        expect(cli(["index","--commit",commit,"--dir",dir]).exitCode).not.toBe(0);
+        expect(await Bun.file(join(dir,"index.json")).exists()).toBe(false);
+        await Bun.write(path, JSON.stringify(connectors));
+        expect(cli(["validate",dir]).exitCode).toBe(0);
+        await Bun.write(join(dir,"report.md"), "Review notes");
+        expect(cli(["validate",dir]).stderr.toString()).toContain("must contain only");
+        rmSync(join(dir,"report.md"));
+        const original = Buffer.from(JSON.stringify(connectors).replace("Notion","Notión") + "\r\n ");
+        await Bun.write(path, original);
+        expect(cli(["index","--commit",commit,"--dir",dir]).exitCode).toBe(0);
+        const index = await Bun.file(join(dir,"index.json")).json();
+        expect(index.parts[0]).toMatchObject({bytes:original.byteLength,sha256:createHash("sha256").update(original).digest("hex")});
+    } finally { rmSync(dir,{recursive:true,force:true}); }
+});
+
+test("release gates reject byte, aggregate, item, nesting and field oversize", async () => {
+    const mib = 1024 * 1024;
+    const dir = mkdtempSync(join(tmpdir(),"catalog-release-limits-"));
+    try {
+        const connectorPath = join(dir, "connectors.json"), skillsPath = join(dir, "skills.json"), old = join(dir, "old.json");
+        await Bun.write(connectorPath, JSON.stringify(connectors));
+        await Bun.write(skillsPath, JSON.stringify(skills));
+        await Bun.write(old, "{}");
+        truncateSync(old, 2 * mib + 1);
+        expect(cli(["index","--commit",commit,"--dir",dir,"--previous",old]).stderr.toString()).toContain("index exceeds");
+        rmSync(old);
+        truncateSync(connectorPath, 24 * mib + 1);
+        expect(cli(["validate",dir]).stderr.toString()).toContain("part exceeds");
+        truncateSync(skillsPath, 40 * mib);
+        expect(cli(["validate",dir]).stderr.toString()).toContain("selected parts exceed");
+        expect(() => validatePartBytes("connectors", JSON.stringify({mcp:Array.from({length:10_001},(_, i) => ({
+            ...connectors.mcp[1]!, id:`fixture:${i}`,
+        }))}))).toThrow("listing limit");
+        expect(() => validatePartBytes("skills", "[".repeat(49)+"]".repeat(49))).toThrow("nested");
+        expect(() => validatePartBytes("connectors", JSON.stringify({ mcp:[{
+            ...connectors.mcp[0]!, display:{ ...connectors.mcp[0]!.display, title:"x".repeat(201) },
+        }]}))).toThrow();
+        expect(() => validateIndexBytes(new Uint8Array(2 * mib + 1))).toThrow("index exceeds");
+    } finally { rmSync(dir,{recursive:true,force:true}); }
+});
+
+test("comparison flags unattributed drops and accepts explicit source evidence", () => {
+    const dropped = connector({ type:"http",url:"https://example.com/mcp" });
+    const previous = { sources:{ fixture:{items:[dropped]} } };
+    const result = comparison(previous, { servers:[] }, [], [], new Map());
+    expect(result.unexplained).toEqual([dropped.id]);
+    expect(result.text).toContain("UNATTRIBUTED");
+    expect(comparison(previous, {servers:[]}, [], [{id:dropped.id, reason:"Upstream listing removed",url:"https://example.com/list"}],new Map()))
+        .toMatchObject({unexplained:[],text:expect.stringContaining("Evidence: https://example.com/list")});
 });

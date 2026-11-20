@@ -33,6 +33,7 @@ bun mcp/build-community-feed.ts --checkpoint=.r1-cache/manual.sqlite \
   --report=.r1-cache/live-rejections.json
 bun generate-catalog.ts .r1-cache/live-sources.json
 bun build.ts parts --sources=.r1-cache/live-sources.json --feed=.r1-cache/live-feed.json \
+  --registry-checkpoint=.r1-cache/manual.sqlite --require-explanations \
   --rejections=.r1-cache/live-rejections.json --previous-snapshot=/path/to/snapshot.json \
   --previous-feed=/path/to/legacy-community-feed.json --comparison=reports/r1-comparison.md \
   --probe-tools=5000 --tool-checkpoint=.r1-cache/tools.sqlite --output=out
@@ -42,7 +43,8 @@ bun build.ts validate out
 Resume the crawl with the same arguments and checkpoint after an interruption.
 Use an existing `--previous-parts=<dir>` to enable independent part fallback.
 Only the review branch's `out/connectors.json` and `out/skills.json` are
-publication inputs. The release workflow commits those bytes first and calls
+publication inputs. The comparison records explicit source evidence and
+fails the build if any drop cannot be attributed. The release workflow commits those bytes first and calls
 `bun build.ts index --commit <parts-commit> --dir <dir> [--previous <index.json>]`.
 
 The comparison committed on the builder branch pairs a live trusted-source

@@ -1,6 +1,6 @@
 import { Checkpoint } from "./mcp/checkpoint";
 import { createHash } from "node:crypto";
-import { mkdir, rename } from "node:fs/promises";
+import { mkdir, readdir, rename } from "node:fs/promises";
 import { join } from "node:path";
 import { parseCommunityFeed } from "./mcp/feed";
 import type { FeedRejection, RegistryRecord } from "./mcp/feed-builder";
@@ -9,7 +9,7 @@ import type { CatalogItem } from "./mcp/model";
 import { catalogueTool, mapItem, mergeItems } from "./mcp/map";
 import { discoverTools } from "./mcp/tools";
 import { facets, withFacets } from "./facets";
-import { validateIndex, validatePartBytes, encode } from "./validate";
+import { validateIndex, validateIndexBytes, validatePartBytes, validateSelectedParts, MAX_INDEX_BYTES, MAX_PART_BYTES, MAX_SELECTED_BYTES, encode } from "./validate";
 import { comparison, type Explanation, type Snapshot } from "./compare";
 import type { SourceCapture } from "./generate-catalog";
 
@@ -18,7 +18,7 @@ const partIds: Part[] = ["connectors", "skills"];
 const DAY = 86_400_000;
 const json = (value: unknown) => JSON.stringify(value) + "\n";
 
-export function partWithFallback(id: Part, staged: unknown, previous: string | undefined, sourceErrors: string[] = [], minimum = 0) {
+export function partWithFallback(id: Part, staged: unknown, previous: string | Uint8Array | undefined, sourceErrors: string[] = [], minimum = 0) {
     try {
         if (sourceErrors.length) throw Error(sourceErrors.join("; "));
         const stagedText = json(staged);
@@ -33,7 +33,7 @@ export function partWithFallback(id: Part, staged: unknown, previous: string | u
 }
 
 export function makeIndex(commit: string, parts: Record<Part, string | Uint8Array>, now = Date.now(), previous?: ReturnType<typeof validateIndex>) {
-    const listings = partIds.flatMap(id => validatePartBytes(id, parts[id]));
+    const listings = validateSelectedParts(parts);
     const index = {
         schema: 1, sequence: Math.max(Math.floor(now / 1000), (previous?.sequence ?? 0) + 1), generatedAt: new Date(now).toISOString(),
         expires: new Date(now + 14 * DAY).toISOString(), rules: "1", commit,
@@ -43,8 +43,7 @@ export function makeIndex(commit: string, parts: Record<Part, string | Uint8Arra
             sha256: createHash("sha256").update(parts[id]).digest("hex"), bytes: encode(parts[id]).byteLength,
             items: listings.filter(item => id === "connectors" ? item.kind === "mcp" : item.kind !== "mcp").length })),
     };
-    if (Buffer.byteLength(json(index)) > 2 * 1024 * 1024) throw Error("index exceeds the Hub byte limit");
-    validateIndex(index);
+    validateIndexBytes(json(index));
     return index;
 }
 
@@ -84,14 +83,16 @@ const arg = (name: string) => {
     return index < 0 ? undefined : process.argv[index + 1];
 };
 const need = (name: string) => { const value = arg(name); if (!value) throw Error(`--${name} is required`); return value; };
-async function writeAtomic(path: string, text: string) {
+async function writeAtomic(path: string, text: string | Uint8Array) {
     const temp = `${path}.${process.pid}.tmp`;
     await Bun.write(temp, text);
     await rename(temp, path);
 }
 async function optional(path: string) {
     const file = Bun.file(path);
-    return await file.exists() ? file.text() : undefined;
+    if (!(await file.exists())) return undefined;
+    if (file.size > MAX_PART_BYTES) throw Error("previous part exceeds the Hub byte limit");
+    return new Uint8Array(await file.arrayBuffer());
 }
 
 async function parts(output: string) {
@@ -105,10 +106,49 @@ async function parts(output: string) {
     const { items: community, supplied } = pickCommunity(feedCapture.servers, reasons);
     const mappingInputs: CatalogItem[] = [...Object.values(sourceCapture.sources).flat(), ...community];
     const reportPath = arg("rejections");
-    const previousByBase = Map.groupBy(snapshot.sources["community-feed"]?.items ?? [], item => item.id.split("#")[0]!);
+    const legacyCommunity = new Map((snapshot.sources["community-feed"]?.items ?? []).map(item => [item.id, item]));
+    for (const item of parseCommunityFeed(oldFeed)) legacyCommunity.set(item.id, item);
+    const previousByBase = Map.groupBy([...legacyCommunity.values()], item => item.id.split("#")[0]!);
+    const registryPath = arg("registry-checkpoint");
+    if (registryPath) {
+        const checkpoint = new Checkpoint(registryPath);
+        let registry;
+        try { registry = checkpoint.read<RegistryRecord[]>("registry:Infinity"); }
+        finally { checkpoint.close(); }
+        if (!registry?.length) throw Error("full registry capture is required for source removal evidence");
+        const byName = Map.groupBy(registry, record => record.server.name);
+        for (const [id, entries] of previousByBase) {
+            const current = byName.get(id.slice("community-feed:".length));
+            for (const entry of entries) {
+                const config = entry.mcp?.config;
+                const status = (record: RegistryRecord) => record._meta?.["io.modelcontextprotocol.registry/official"]?.status;
+                let reason: string | undefined;
+                if (!current) reason = "Upstream removal: absent from the complete latest-version MCP Registry capture.";
+                else if (current.every(record => ["deleted", "deprecated"].includes(status(record)))) {
+                    reason = `MCP Registry marks all current records ${[...new Set(current.map(status))].join(" or ")}.`;
+                } else if (config?.type === "package") {
+                    const pkg = config.package;
+                    if (!current.some(record => record.server.packages?.some(p => p.identifier === pkg.identifier && p.registryType === pkg.manager))) {
+                        reason = "Upstream removal: the captured registry listing no longer declares this package.";
+                    } else if (!current.some(record => record.server.packages?.some(p => p.identifier === pkg.identifier && p.registryType === pkg.manager
+                        && p.transport?.type === "stdio" && p.version))) reason = "The current registry package lacks a versioned stdio declaration.";
+                } else if (!current.some(record => record.server.remotes?.length)) {
+                    reason = "Upstream removal: the captured registry listing no longer declares any remote.";
+                } else if (current.every(record => !record.server.remotes?.some(remote => remote.type === "streamable-http" && remote.url))) {
+                    reason = "The current registry listing has no streamable HTTP remote; SSE is excluded by schema 1.";
+                }
+                if (reason) reasons.push({ id: entry.id, reason });
+            }
+        }
+    }
     if (reportPath) for (const rejected of await Bun.file(reportPath).json() as FeedRejection[]) {
         const previous = previousByBase.get(`community-feed:${rejected.name}`) ?? [];
-        for (const item of previous) reasons.push({ id: item.id, reason: rejected.reason });
+        for (const item of previous) {
+            const config = item.mcp?.config;
+            if (rejected.kind === "remote" && config?.type === "package") continue;
+            if (rejected.kind === "package" && (config?.type !== "package" || config.package.identifier !== rejected.identifier)) continue;
+            reasons.push({ id: item.id, reason: rejected.reason });
+        }
     }
     const mapped: CatalogListingItem[] = [];
     for (const source of mappingInputs) {
@@ -184,12 +224,21 @@ async function parts(output: string) {
         if (result.warning) notes.push(`${id}: retained last good part because ${result.warning}`);
         return { id, ...result };
     }));
-    await mkdir(output,{recursive:true});
-    for (const { id, text, items } of stages) { await writeAtomic(join(output,`${id}.json`),text); accepted.push(...items); }
+    for (const stage of stages) accepted.push(...stage.items);
+    validateSelectedParts({
+        connectors: stages.find(stage => stage.id === "connectors")!.text,
+        skills: stages.find(stage => stage.id === "skills")!.text,
+    });
     if (report) {
         await mkdir(join(report,".."),{recursive:true});
-        await writeAtomic(report,comparison(snapshot,oldFeed,accepted,reasons,aliases,notes));
+        if (process.argv.includes("--require-explanations") && !registryPath) throw Error("--registry-checkpoint is required for strict comparison");
+        const evidence = (await Bun.file(new URL("./reports/r1-source-evidence.json", import.meta.url)).json()) as Explanation[];
+        const result = comparison(snapshot,oldFeed,accepted,[...reasons,...evidence],aliases,notes);
+        await writeAtomic(report,result.text);
+        if (result.unexplained.length) throw Error(`Unattributed drops require review: ${result.unexplained.join(", ")}`);
     }
+    await mkdir(output,{recursive:true});
+    for (const { id, text } of stages) await writeAtomic(join(output,`${id}.json`),text);
     console.log(JSON.stringify({ listings: accepted.length, parts: stages.map(({id, items, warning}) => ({id,count:items.length,warning})), toolsProbed: probed }));
 }
 
@@ -198,22 +247,23 @@ if (import.meta.main) {
     const output = arg("output") ?? arg("dir") ?? (command === "validate" ? process.argv[3] : undefined) ?? ".r1-cache/candidate";
     if (command === "parts") await parts(output);
     else if (command === "index" || command === "validate") {
-        const bytes = Object.fromEntries(await Promise.all(partIds.map(async id => [id, new Uint8Array(await Bun.file(join(output,`${id}.json`)).arrayBuffer())]))) as Record<Part,Uint8Array>;
-        if (command === "index") {
-            const previous = arg("previous");
-            await writeAtomic(join(output,"index.json"),json(makeIndex(need("commit"), bytes, Date.now(),
-                previous ? validateIndex(await Bun.file(previous).json()) : undefined)));
-        } else {
-            for (const id of partIds) validatePartBytes(id, bytes[id]);
-            const saved = await optional(join(output,"index.json"));
-            if (saved) {
-                const index = validateIndex(JSON.parse(saved));
-                const expected = makeIndex(index.commit, bytes, Date.parse(index.generatedAt));
-                if (index.parts.length !== expected.parts.length || expected.parts.some(part => {
-                    const actual = index.parts.find(entry => entry.id === part.id);
-                    return !actual || actual.url !== part.url || actual.sha256 !== part.sha256 || actual.bytes !== part.bytes || actual.items !== part.items;
-                })) throw Error("index does not describe the two validated part files");
+        if (command === "validate") {
+            const entries = await readdir(output, { withFileTypes: true });
+            const expected = new Set(partIds.map(id => `${id}.json`));
+            if (entries.length !== expected.size || entries.some(entry => !entry.isFile() || !expected.has(entry.name))) {
+                throw Error("release directory must contain only connectors.json and skills.json");
             }
         }
+        const files = partIds.map(id => [id, Bun.file(join(output,`${id}.json`))] as const);
+        if (files.reduce((total, [, file]) => total + file.size, 0) > MAX_SELECTED_BYTES) throw Error("selected parts exceed the Hub byte limit");
+        if (files.some(([, file]) => file.size > MAX_PART_BYTES)) throw Error("part exceeds the Hub byte limit");
+        const bytes = Object.fromEntries(await Promise.all(files.map(async ([id,file]) => [id, new Uint8Array(await file.arrayBuffer())]))) as Record<Part,Uint8Array>;
+        if (command === "index") {
+            const previous = arg("previous");
+            const file = previous ? Bun.file(previous) : undefined;
+            if (file && file.size > MAX_INDEX_BYTES) throw Error("index exceeds the Hub byte limit");
+            await writeAtomic(join(output,"index.json"),json(makeIndex(need("commit"), bytes, Date.now(),
+                file ? validateIndexBytes(new Uint8Array(await file.arrayBuffer())) : undefined)));
+        } else validateSelectedParts(bytes);
     } else throw Error("Usage: bun build.ts parts|index|validate [--output=directory]");
 }

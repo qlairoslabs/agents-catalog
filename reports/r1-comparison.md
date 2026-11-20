@@ -73,7 +73,7 @@ Compared 5184 distinct legacy IDs with 5283 candidate listings. 415 added, 4885 
 | docker:needle | dropped | header is not a declared secret reference |
 | docker:notion-remote | changed | schema 1 display, origin and discovery |
 | docker:octagon | changed | schema 1 display, origin and discovery |
-| docker:openmesh | dropped | source removed the listing or the current crawl no longer accepted it |
+| docker:openmesh | dropped | Upstream removal: Openmesh is absent from Docker's live v3 registry (HTTP 200; capture SHA-256 cc65cdd277333649579317b2573d853e160f52bde150028b59356c9eb19c4641). Evidence: https://desktop.docker.com/mcp/catalog/v3/catalog.yaml |
 | docker:openzeppelin-cairo | changed | schema 1 display, origin and discovery |
 | docker:openzeppelin-solidity | changed | schema 1 display, origin and discovery |
 | docker:openzeppelin-stellar | changed | schema 1 display, origin and discovery |
@@ -102,7 +102,7 @@ Compared 5184 distinct legacy IDs with 5283 candidate listings. 415 added, 4885 
 | marketplace:anthropics/claude-plugins-official:plugin:aikido | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:airtable | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:airwallex-agentos | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
-| marketplace:anthropics/claude-plugins-official:plugin:airwallex-dev | dropped | source removed the listing or the current crawl no longer accepted it |
+| marketplace:anthropics/claude-plugins-official:plugin:airwallex-dev | dropped | Upstream withdrew the standalone Airwallex Dev bundle. The current Airwallex AgentOS bundle includes an airwallex-dev HTTP connector, rather than a separate marketplace listing. Evidence: https://raw.githubusercontent.com/anthropics/claude-plugins-official/1b9a8c736db2330ce1812bcc41878a6e2e288e24/.claude-plugin/marketplace.json |
 | marketplace:anthropics/claude-plugins-official:plugin:aiven | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:alloydb | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:alloydb-omni | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
@@ -182,7 +182,7 @@ Compared 5184 distinct legacy IDs with 5283 candidate listings. 415 added, 4885 
 | marketplace:anthropics/claude-plugins-official:plugin:cwc-makers | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:dash0 | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:data | merged | duplicate connection or content; kept as marketplace:anthropics/claude-plugins-official:plugin:astronomer-data-agents |
-| marketplace:anthropics/claude-plugins-official:plugin:data-agent-kit-starter-pack | dropped | source removed the listing or the current crawl no longer accepted it |
+| marketplace:anthropics/claude-plugins-official:plugin:data-agent-kit-starter-pack | dropped | Explicit marketplace rename to data-agent-kit, now sourced from GoogleCloudPlatform/data-agent-kit-plugin. Evidence: https://raw.githubusercontent.com/anthropics/claude-plugins-official/1b9a8c736db2330ce1812bcc41878a6e2e288e24/.claude-plugin/marketplace.json |
 | marketplace:anthropics/claude-plugins-official:plugin:data-engineering | merged | duplicate connection or content; kept as marketplace:anthropics/claude-plugins-official:plugin:astronomer-data-agents |
 | marketplace:anthropics/claude-plugins-official:plugin:databases-on-aws | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:databricks | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
@@ -334,7 +334,7 @@ Compared 5184 distinct legacy IDs with 5283 candidate listings. 415 added, 4885 
 | marketplace:anthropics/claude-plugins-official:plugin:salesforce-development | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:sanity | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:sap-cds-mcp | merged | duplicate connection or content; kept as marketplace:anthropics/claude-plugins-official:plugin:cds-mcp |
-| marketplace:anthropics/claude-plugins-official:plugin:sap-fiori-mcp-server | dropped | source removed the listing or the current crawl no longer accepted it |
+| marketplace:anthropics/claude-plugins-official:plugin:sap-fiori-mcp-server | dropped | Explicit marketplace rename to sap-ux-fiori-tools, now sourced from plugins-coding-agents/fiori in SAP/open-ux-tools. Evidence: https://raw.githubusercontent.com/anthropics/claude-plugins-official/1b9a8c736db2330ce1812bcc41878a6e2e288e24/.claude-plugin/marketplace.json |
 | marketplace:anthropics/claude-plugins-official:plugin:sap-hana-cli | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:sap-mdk-server | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |
 | marketplace:anthropics/claude-plugins-official:plugin:save-to-spotify | changed | schema 1 display, origin and discovery; bundle membership resolved at pinned source |

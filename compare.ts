@@ -2,7 +2,7 @@ import type { CatalogItem } from "./mcp/model";
 import type { CatalogListingItem } from "./mcp/item";
 import { parseCommunityFeed } from "./mcp/feed";
 
-export type Explanation = { id: string; reason: string };
+export type Explanation = { id: string; reason: string; url?: string };
 export type Snapshot = { sources: Record<string, { items: CatalogItem[] }> };
 
 function oldKind(item: CatalogItem): string {
@@ -23,7 +23,7 @@ function counts<T>(items: readonly T[], key: (item: T) => string): Map<string, n
 }
 
 export function comparison(snapshot: Snapshot, oldFeed: unknown, next: CatalogListingItem[], reasons: Explanation[],
-    aliases: Map<string, string>, notes: string[] = []): string {
+    aliases: Map<string, string>, notes: string[] = []) {
     const prior = new Map(Object.values(snapshot.sources).flatMap(source => source.items.map(item => [item.id, item] as const)));
     const feed = parseCommunityFeed(oldFeed);
     for (const item of feed) prior.set(item.id, item);
@@ -31,7 +31,8 @@ export function comparison(snapshot: Snapshot, oldFeed: unknown, next: CatalogLi
     const oldCounts = counts([...prior.values()], oldKind);
     const feedCounts = counts(feed, oldKind);
     const newCounts = counts(next, newKind);
-    const rules = new Map(reasons.map(({ id, reason }) => [id, reason]));
+    const rules = new Map(reasons.map(reason => [reason.id, reason]));
+    const unexplained: string[] = [];
     const rows: string[] = [];
     const escape = (value: string) => value.replace(/[|\r\n]/g, " ").replace(/[<>]/g, "");
     let dropped = 0, changed = 0, added = 0;
@@ -39,7 +40,15 @@ export function comparison(snapshot: Snapshot, oldFeed: unknown, next: CatalogLi
     for (const [id, item] of prior) {
         const other = byId.get(id);
         if (aliases.has(id)) { changed++; row(id,"merged", `duplicate connection or content; kept as ${aliases.get(id)}`); continue; }
-        if (!other) { dropped++; row(id,"dropped", rules.get(id) ?? "source removed the listing or the current crawl no longer accepted it"); continue; }
+        if (!other) {
+            dropped++;
+            const evidence = rules.get(id);
+            if (!evidence) unexplained.push(id);
+            row(id,"dropped", evidence
+                ? [evidence.reason, evidence.url].filter(Boolean).join(" Evidence: ")
+                : "UNATTRIBUTED — review required");
+            continue;
+        }
         const changes = ["schema 1 display, origin and discovery"];
         if (oldKind(item) !== newKind(other)) changes.push(`transport ${oldKind(item)} to ${newKind(other)}`);
         if (other.kind === "mcp" && other.connect.config.type === "package") changes.push("exact pinned package");
@@ -54,9 +63,10 @@ export function comparison(snapshot: Snapshot, oldFeed: unknown, next: CatalogLi
     }
     const kinds = [...new Set([...oldCounts.keys(),...newCounts.keys()])].sort();
     const table = kinds.map(kind => `| ${kind} | ${oldCounts.get(kind) ?? 0} | ${feedCounts.get(kind) ?? 0} | ${newCounts.get(kind) ?? 0} |`);
-    return ["# R1 catalogue comparison","",`Compared ${prior.size} distinct legacy IDs with ${next.length} candidate listings. ${added} added, ${changed} changed or merged, ${dropped} dropped.`,
+    const text = ["# R1 catalogue comparison","",`Compared ${prior.size} distinct legacy IDs with ${next.length} candidate listings. ${added} added, ${changed} changed or merged, ${dropped} dropped.`,
         ...(notes.length ? ["", ...notes.map(note => `- ${escape(note)}`)] : []),"","| Kind/transport | Snapshot and feed combined | Community feed | Candidate |","| --- | ---: | ---: | ---: |",...table,"",
         "## Listing differences","","| Listing | Change | Rule |","| --- | --- | --- |",...rows,"",
         "## Candidate entries rejected during mapping","","| Listing | Change | Rule |","| --- | --- | --- |",
-        ...reasons.map(({id, reason}) => `| ${escape(id)} | rejected | ${escape(reason)} |`),""].join("\n");
+        ...reasons.filter(entry => !entry.url).map(({id, reason}) => `| ${escape(id)} | rejected | ${escape(reason)} |`),""].join("\n");
+    return { text, unexplained };
 }

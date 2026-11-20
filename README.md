@@ -60,3 +60,17 @@ Readers, and the build before it publishes, also check:
 - `generatedAt` and `expires` are valid times;
 - every HTTPS URL parses with a host and no credentials.
 - `revokes` in the index is honoured only under the offline next key (the verifier, L1).
+
+## R1 build review
+
+The standalone build and resume commands are in
+[CHANGES-FROM-LIBRARY.md](CHANGES-FROM-LIBRARY.md). The review branch's
+`out/` holds exactly `connectors.json` and `skills.json`. Keep crawl captures,
+checkpoints and logs in `.r1-cache/`, and the comparison under `reports/`.
+Do not put an index, signature, annotations or review notes in `out/`.
+
+Run `bun build.ts validate out` before handing off the parts. The release
+workflow writes the index in its publication staging directory after
+committing those exact part bytes. For a full comparison, pass the registry
+checkpoint and `--require-explanations`. An unattributed drop is marked in the
+report and fails the build before it writes the parts.

@@ -15,6 +15,8 @@ export function validateSchema(ref: string, data: unknown): void {
 
 export const MAX_PART_BYTES = 24 * 1024 * 1024;
 export const MAX_FILE_ITEMS = 10_000;
+export const MAX_SELECTED_BYTES = 64 * 1024 * 1024;
+export const MAX_INDEX_BYTES = 2 * 1024 * 1024;
 export const encode = (bytes: string | Uint8Array) => typeof bytes === "string" ? new TextEncoder().encode(bytes) : bytes;
 
 export function validatePartBytes(id: "connectors" | "skills", input: string | Uint8Array) {
@@ -41,6 +43,19 @@ export function validatePart(id: "connectors" | "skills", data: unknown) {
         }
     }
     return items;
+}
+
+export function validateSelectedParts(parts: Record<"connectors" | "skills", string | Uint8Array>) {
+    const connectors = encode(parts.connectors);
+    const skills = encode(parts.skills);
+    if (connectors.byteLength + skills.byteLength > MAX_SELECTED_BYTES) throw Error("selected parts exceed the Hub byte limit");
+    return [...validatePartBytes("connectors", connectors), ...validatePartBytes("skills", skills)];
+}
+
+export function validateIndexBytes(input: string | Uint8Array) {
+    const bytes = encode(input);
+    if (bytes.byteLength > MAX_INDEX_BYTES) throw Error("index exceeds the Hub byte limit");
+    return validateIndex(parseCatalogJson(bytes));
 }
 
 export function validateIndex(data: unknown) {
