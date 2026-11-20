@@ -1,8 +1,9 @@
 import { expect, test } from "bun:test";
-import { mkdtempSync, rmSync, statSync } from "node:fs";
+import { existsSync, mkdtempSync, rmSync, statSync, symlinkSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { generateKeyPair, publicKeyOf, signIndex, verifyIndex } from "./ed25519";
+import { SHIPPED_KEYS } from "./keys";
 
 const enc = (text: string) => new Uint8Array(new TextEncoder().encode(text));
 const index = enc('{"schema":1,"sequence":1}\n');
@@ -40,25 +41,43 @@ test("the library's verifier accepts what this signer writes", async () => {
     expect(await crypto.subtle.verify("Ed25519", key, new Uint8Array(Buffer.from(sig.signature, "base64url")), index)).toBe(true);
 });
 
-test("the CLI signs only with the key the library expects, and keygen never overwrites", async () => {
-    const dir = mkdtempSync(join(tmpdir(), "catalog-sign-"));
+test("keygen creates the key exclusively with mode 600, never over a file or through a link", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "catalog-keygen-"));
     try {
         const keyFile = join(dir, "key");
         const gen = Bun.spawnSync(["bun", join(import.meta.dir, "cli.ts"), "keygen", keyFile]);
         expect(gen.exitCode).toBe(0);
         const publicKey = gen.stdout.toString().trim();
         expect(statSync(keyFile).mode & 0o777).toBe(0o600);
+        expect(await publicKeyOf((await Bun.file(keyFile).text()).trim())).toBe(publicKey);
+        expect(gen.stdout.toString()).not.toContain((await Bun.file(keyFile).text()).trim());
         expect(Bun.spawnSync(["bun", join(import.meta.dir, "cli.ts"), "keygen", keyFile]).exitCode).not.toBe(0);
+        const link = join(dir, "link");
+        symlinkSync(join(dir, "target"), link);
+        expect(Bun.spawnSync(["bun", join(import.meta.dir, "cli.ts"), "keygen", link]).exitCode).not.toBe(0);
+        expect(existsSync(join(dir, "target"))).toBe(false);
+    } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+test("the CLI signs only with the shipped current key, and verifies only shipped key ids", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "catalog-sign-"));
+    try {
         await Bun.write(join(dir, "index.json"), index);
-        const privateKey = (await Bun.file(keyFile).text()).trim();
         const other = await generateKeyPair();
-        const env = { ...process.env, CATALOG_SIGNING_KEY: privateKey, CATALOG_SIGNING_KEY_ID: "catalog-2026-a" };
-        const wrong = Bun.spawnSync(["bun", join(import.meta.dir, "cli.ts"), "sign", dir], { env: { ...env, CATALOG_PUBLIC_KEY: other.publicKey } });
-        expect(wrong.exitCode).not.toBe(0);
-        const ok = Bun.spawnSync(["bun", join(import.meta.dir, "cli.ts"), "sign", dir], { env: { ...env, CATALOG_PUBLIC_KEY: publicKey } });
-        expect(ok.exitCode).toBe(0);
-        expect(ok.stdout.toString()).not.toContain(privateKey);
-        const verify = Bun.spawnSync(["bun", join(import.meta.dir, "cli.ts"), "verify", dir, publicKey]);
-        expect(verify.exitCode).toBe(0);
+        const cli = (args: string[], env: Record<string, string> = {}) =>
+            Bun.spawnSync(["bun", join(import.meta.dir, "cli.ts"), ...args], { env: { ...process.env, ...env } });
+        // An unshipped key, even self-consistent, is refused.
+        expect(cli(["sign", dir], { CATALOG_SIGNING_KEY: other.privateKey, CATALOG_SIGNING_KEY_ID: SHIPPED_KEYS.current.kid, CATALOG_PUBLIC_KEY: other.publicKey }).exitCode).not.toBe(0);
+        // The shipped public key with a private key that is not its pair is refused.
+        expect(cli(["sign", dir], { CATALOG_SIGNING_KEY: other.privateKey, CATALOG_SIGNING_KEY_ID: SHIPPED_KEYS.current.kid, CATALOG_PUBLIC_KEY: SHIPPED_KEYS.current.key }).exitCode).not.toBe(0);
+        // The next key's id is not used for routine signing.
+        expect(cli(["sign", dir], { CATALOG_SIGNING_KEY: other.privateKey, CATALOG_SIGNING_KEY_ID: SHIPPED_KEYS.next.kid, CATALOG_PUBLIC_KEY: SHIPPED_KEYS.next.key }).exitCode).not.toBe(0);
+        expect(existsSync(join(dir, "index.json.sig"))).toBe(false);
+        // A valid signature by an unshipped key id does not verify.
+        await Bun.write(join(dir, "index.json.sig"), JSON.stringify(await signIndex(index, "catalog-2099-z", other.privateKey)));
+        expect(cli(["verify", dir]).exitCode).not.toBe(0);
+        // A shipped id with a signature from another key does not verify.
+        await Bun.write(join(dir, "index.json.sig"), JSON.stringify(await signIndex(index, SHIPPED_KEYS.current.kid, other.privateKey)));
+        expect(cli(["verify", dir]).exitCode).not.toBe(0);
     } finally { rmSync(dir, { recursive: true, force: true }); }
 });

@@ -63,10 +63,25 @@ Readers, and the build before it publishes, also check:
 
 ## Signing and publishing (R3)
 
-`sign/` signs `index.json` with Ed25519 (`bun sign/cli.ts keygen|sign|verify`). The
-`publish` workflow, run by hand from `main` with the full commit of a reviewed build,
-checks the build without secrets, then signs it in the protected `catalog-signing`
-environment (secret `CATALOG_SIGNING_KEY`, variables `CATALOG_SIGNING_KEY_ID` and
-`CATALOG_PUBLIC_KEY`) and publishes it to `published` in two commits: the parts, then
-the index and its signature naming the parts' commit. It needs `build.ts validate <dir>`
-and `build.ts index --commit <sha> --dir <dir> [--previous <index.json>]` from the build (R1); the new sequence must exceed the previous one.
+`sign/` signs `index.json` with Ed25519 (`bun sign/cli.ts keygen|sign|verify`). It signs
+only with the shipped current key (`sign/keys.ts`, the same keys as the library's
+`BUILTIN_CATALOG_KEYS`) and verifies only shipped key ids.
+
+The `publish` workflow is dispatched by hand, from `main`, **by the owner only**, with the
+full commit of a build the owner has reviewed (its output in `out/`, on a branch of this
+repository). It runs in the protected `catalog-signing` environment (secret
+`CATALOG_SIGNING_KEY`, variables `CATALOG_SIGNING_KEY_ID` and `CATALOG_PUBLIC_KEY`).
+Nothing from the build commit runs: the tools are this workflow's own commit, and
+`sign/ingest.ts` reads the build's files as git objects, taking only `connectors.json`,
+`skills.json` and `annotations/<id>.json` as regular files and refusing the build if
+anything else is in `out/`. The parts and then the index are validated by the trusted
+build code before signing. It publishes to `published` in two commits: the parts, then
+the index and its signature naming the parts' commit; the push is never forced.
+
+Any workflow on `main` could ask for the `catalog-signing` environment, so adding or
+changing a workflow is a reviewed change to the protected `main`. It needs
+`build.ts validate <dir>` and `build.ts index --commit <sha> --dir <dir> [--previous
+<index.json>]` from the build (R1); the new sequence must exceed the previous one.
+
+Still to come: the scheduled build (catalogue §9) and the catalogue embedded in the
+library's release build (R3, with the switch).
