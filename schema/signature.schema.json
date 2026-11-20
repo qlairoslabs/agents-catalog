@@ -2,14 +2,26 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/main/schema/signature.schema.json",
   "title": "Index signature (index.json.sig)",
-  "description": "A detached Ed25519 signature over the exact bytes of index.json (catalogue §9).",
+  "description": "A detached Ed25519 signature over the exact bytes of index.json (catalogue §9). It authenticates only those bytes, so it carries nothing else; revocations are in the signed index.",
   "type": "object",
-  "required": ["algorithm", "keyId", "signature"],
+  "required": [
+    "algorithm",
+    "keyId",
+    "signature"
+  ],
   "additionalProperties": false,
   "properties": {
-    "algorithm": { "const": "ed25519" },
-    "keyId": { "type": "string", "pattern": "^[a-z0-9-]{1,64}$" },
-    "signature": { "description": "base64url, no padding.", "type": "string", "pattern": "^[A-Za-z0-9_-]{86}$" },
-    "revokes": { "description": "Key ids this signer declares revoked. Only honoured from the offline next key (catalogue §9).", "type": "array", "maxItems": 8, "items": { "type": "string", "pattern": "^[a-z0-9-]{1,64}$" } }
+    "algorithm": {
+      "const": "ed25519"
+    },
+    "keyId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]{1,64}$"
+    },
+    "signature": {
+      "description": "base64url, no padding.",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{86}$"
+    }
   }
 }

