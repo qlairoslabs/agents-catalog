@@ -62,6 +62,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           git init -q published && cd published
+          git config core.autocrlf false
           git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git config user.name "agents-catalog publisher"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
