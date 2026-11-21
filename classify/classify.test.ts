@@ -289,3 +289,142 @@ test("pass 2 at scale: a compact list first, then every value mapped in chunks, 
     expect(proposal.domain).not.toContain("invented-final");
     expect(asked.length).toBe(3 + 2 + 1 + 1); // three lists; domain in two chunks; product and audience one each
 });
+
+test("areas count distinct entries, and coverage slots are reserved inside the budget", async () => {
+    const { areaEntries, busyAreas, coverAreas, AREA_MIN_ENTRIES } = await import("./vocabulary");
+    const entries = [
+        ...Array.from({ length: AREA_MIN_ENTRIES }, (_, i) => [`travel/t${i}`]),            // 20 singleton travel values
+        ...Array.from({ length: AREA_MIN_ENTRIES - 1 }, () => ["tiny/a", "tiny/b", "tiny/c"]), // 19 entries, 57 labels
+        ...Array.from({ length: 50 }, () => ["software/dev"]),
+    ];
+    const areas = areaEntries(entries);
+    expect(areas.get("tiny")).toBe(AREA_MIN_ENTRIES - 1);
+    expect(busyAreas(areas)).toEqual(["software", "travel"]);
+    const proposed = Array.from({ length: 400 }, (_, i) => `software/s${i}`);
+    const finals = coverAreas([], proposed, busyAreas(areas), 400);
+    expect(finals).toHaveLength(400);
+    expect(finals).toContain("travel");
+    // An area's value at the end of an over-long proposal is reserved, not appended past the budget.
+    const late = coverAreas([], [...proposed, "travel/flights"], busyAreas(areas), 400);
+    expect(late).toHaveLength(400);
+    expect(late).toContain("travel/flights");
+    expect(late).not.toContain("travel");
+    expect(() => coverAreas(["a/1", "a/2"], [], ["x", "y"], 3)).toThrow(/cannot hold/);
+});
+
+test("an unmapped value falls back to its area's representative when there is no bare area", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES, areaFallback } = await import("./vocabulary");
+    expect(areaFallback(["travel/flights", "software/dev"], "travel")).toBe("travel/flights");
+    expect(areaFallback(["travel", "travel/flights"], "travel")).toBe("travel");
+    expect(areaFallback(["software/dev"], "travel")).toBeNull();
+    const domain: Record<string, number> = { "software/dev": 50 };
+    const entries: string[][] = Array.from({ length: 50 }, () => ["software/dev"]);
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) { domain[`travel/t${i}`] = 1; entries.push([`travel/t${i}`]); }
+    const ask = async (system: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["software/dev", "travel/flights"] };
+        return { mapping: data.map.map((from: string) => ({ from, to: from.startsWith("software") ? "software/dev" : null })) };
+    };
+    const proposal = await runPass2(ask, { domain, product: {}, audience: {} } as any, null, () => undefined, ["domain"], areaEntries(entries));
+    expect(proposal.domain).toContain("travel/flights");
+    expect(proposal.mapping.domain["travel/t5"]).toBe("travel/flights");
+});
+
+test("a busy area appears in the proposal even when the model maps nothing to it", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES } = await import("./vocabulary");
+    const domain: Record<string, number> = { "software/dev": 50 };
+    const entries: string[][] = Array.from({ length: 50 }, () => ["software/dev"]);
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) { domain[`travel/t${i}`] = 1; entries.push([`travel/t${i}`]); }
+    const counts: any = { domain, product: {}, audience: {} };
+    let mapFinals: string[] = [];
+    const ask = async (system: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) {
+            if (/'domain'/.test(system)) expect(Object.keys(data.areas)).toEqual(["software", "travel"]); // singletons counted
+            return { values: Array.from({ length: 400 }, (_, i) => `software/s${i}`) };
+        }
+        if (/'domain'/.test(system)) mapFinals = data.final;
+        return { mapping: data.map.map((from: string) => ({ from, to: from.startsWith("software") ? "software/s0" : null })) };
+    };
+    const proposal = await runPass2(ask, counts, null, () => undefined, ["domain"], areaEntries(entries));
+    expect(mapFinals.length).toBeLessThanOrEqual(400);
+    expect(mapFinals).toContain("travel");
+    expect(proposal.domain).toContain("travel");
+    expect(proposal.mapping.domain["travel/t3"]).toBe("travel");
+});
+
+test("a busy area the model maps entirely elsewhere is restored; one decided only by reviewed mappings is reported", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES, parseVocabulary } = await import("./vocabulary");
+    const domain: Record<string, number> = {};
+    const entries: string[][] = [];
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) { domain[`travel/t${i}`] = 1; entries.push([`travel/t${i}`]); domain[`software/s${i}`] = 1; entries.push([`software/s${i}`]); }
+    const ask = async (_s: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["travel/flights", "software/dev"] };
+        return { mapping: data.map.map((from: string) => ({ from, to: "software/dev" })) }; // everything to software
+    };
+    const proposal: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, null, () => undefined, ["domain"], areaEntries(entries));
+    expect(proposal.domain).toContain("travel/flights");
+    expect(proposal.mapping.domain["travel/t2"]).toBe("travel/flights");
+    expect(proposal.mapping.domain["software/s2"]).toBe("software/dev");
+    expect(proposal.uncovered).toEqual([]);
+    // Travel values already reviewed into software: kept, and travel reported.
+    const reviewed = parseVocabulary({ domain: ["software/dev"], product: [], audience: [],
+        mapping: { domain: Object.fromEntries(Object.keys(domain).map(v => [v, "software/dev"])), product: {}, audience: {} } });
+    const later: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, reviewed, () => undefined, ["domain"], areaEntries(entries));
+    expect(later.mapping.domain["travel/t2"]).toBe("software/dev");
+    expect(later.uncovered).toEqual(["travel"]);
+});
+
+test("coverage repair does not depend on order: an area covered only by another area's values is repaired", async () => {
+    const { runPass2, areaEntries } = await import("./vocabulary");
+    const sizes = { software: 22, commerce: 21, travel: 20 } as const;
+    const domain: Record<string, number> = {};
+    const entries: string[][] = [];
+    for (const [area, n] of Object.entries(sizes)) for (let i = 0; i < n; i++) { domain[`${area}/v${i}`] = 1; entries.push([`${area}/v${i}`]); }
+    const ask = async (_s: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["software/dev", "commerce/shops", "travel/flights"] };
+        return { mapping: data.map.map((from: string) => ({ from, to: from.startsWith("travel") ? "commerce/shops" : "software/dev" })) };
+    };
+    const proposal: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, null, () => undefined, ["domain"], areaEntries(entries));
+    for (const area of Object.keys(sizes)) {
+        expect(Object.entries(proposal.mapping.domain).some(([from, to]: any) => from.startsWith(area) && to.startsWith(area))).toBe(true);
+    }
+    expect(proposal.uncovered).toEqual([]);
+});
+
+test("a retired reviewed source does not count as covering an area", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES, parseVocabulary } = await import("./vocabulary");
+    const domain: Record<string, number> = {};
+    const entries: string[][] = [];
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) { domain[`travel/t${i}`] = 1; entries.push([`travel/t${i}`]); }
+    const reviewed = parseVocabulary({ domain: ["travel/old"], product: [], audience: [], mapping: { domain: { "travel/retired": "travel/old" }, product: {}, audience: {} } });
+    const ask = async (_s: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["software/dev"] };
+        return { mapping: data.map.map((from: string) => ({ from, to: "software/dev" })) };
+    };
+    const proposal: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, reviewed, () => undefined, ["domain"], areaEntries(entries));
+    expect(proposal.mapping.domain["travel/t1"]).toBe("travel/old"); // repaired onto the reviewed travel value
+    expect(proposal.uncovered).toEqual([]);
+});
+
+test("a source mapped two ways in one reply is unmapped, and uncovered comes from the written mapping", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES } = await import("./vocabulary");
+    const domain: Record<string, number> = {};
+    const entries: string[][] = [];
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) for (const area of ["software", "travel"]) { domain[`${area}/v${i}`] = 1; entries.push([`${area}/v${i}`]); }
+    const ask = async (_s: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["software/dev", "travel/flights"] };
+        return { mapping: data.map.flatMap((from: string) => from.startsWith("travel")
+            ? [{ from, to: "software/dev" }, { from, to: "travel/flights" }] // conflicting rows
+            : [{ from, to: "software/dev" }]) };
+    };
+    const proposal: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, null, () => undefined, ["domain"], areaEntries(entries));
+    // The conflicted travel values were unmapped, then repaired onto travel's own final.
+    expect(proposal.mapping.domain["travel/v3"]).toBe("travel/flights");
+    expect(Object.entries(proposal.mapping.domain).some(([f, t]: any) => f.startsWith("travel") && t.startsWith("travel"))).toBe(true);
+    expect(proposal.uncovered).toEqual([]);
+});
