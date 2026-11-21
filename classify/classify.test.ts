@@ -289,3 +289,10 @@ test("pass 2 at scale: a compact list first, then every value mapped in chunks, 
     expect(proposal.domain).not.toContain("invented-final");
     expect(asked.length).toBe(3 + 2 + 1 + 1); // three lists; domain in two chunks; product and audience one each
 });
+
+test("every busy domain area keeps a final value, even if the model leaves it out", async () => {
+    const { ensureAreaCoverage, AREA_MIN_ENTRIES } = await import("./vocabulary");
+    const counts = { "software/dev": 50, "travel/flights": AREA_MIN_ENTRIES - 5, "travel/hotels": 5, "tiny/thing": AREA_MIN_ENTRIES - 1 };
+    expect(ensureAreaCoverage(["software/development"], counts)).toEqual(["software/development", "travel"]);
+    expect(ensureAreaCoverage(["software/development", "travel/booking"], counts)).toEqual(["software/development", "travel/booking"]);
+});
