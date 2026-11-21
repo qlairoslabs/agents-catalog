@@ -74,17 +74,18 @@ jobs:
             echo "could not read the published branch"; exit 1
           fi
 
-      - name: Replace the parts with the reviewed build's
+      - name: Ingest and validate the reviewed build's parts in a clean folder
+        run: |
+          mkdir staging
+          cd tools && bun sign/ingest.ts "$BUILD" ../staging && cd ..
+          bun tools/build.ts validate staging
+
+      - name: Replace the published parts and commit them
         run: |
           cd published
           if [ -f index.json ]; then cp index.json ../previous-index.json; fi
           git rm -rqf --ignore-unmatch . && git clean -fdxq
-          cd ../tools && bun sign/ingest.ts "$BUILD" ../published
-
-      - name: Validate and commit the parts
-        run: |
-          bun tools/build.ts validate published
-          cd published
+          cp ../staging/connectors.json ../staging/skills.json .
           git add -A
           git commit -q --allow-empty -m "Parts from build ${BUILD}"
           echo "PARTS_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
@@ -93,7 +94,7 @@ jobs:
         run: |
           previous=(); if [ -f previous-index.json ]; then previous=(--previous previous-index.json); fi
           bun tools/build.ts index --commit "$PARTS_COMMIT" --dir published "${previous[@]}"
-          bun tools/build.ts validate published
+          bun tools/sign/check-index.ts published "$PARTS_COMMIT"
 
       - name: Sign
         env:
