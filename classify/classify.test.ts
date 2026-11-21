@@ -352,3 +352,26 @@ test("a busy area appears in the proposal even when the model maps nothing to it
     expect(proposal.domain).toContain("travel");
     expect(proposal.mapping.domain["travel/t3"]).toBe("travel");
 });
+
+test("a busy area the model maps entirely elsewhere is restored; one decided only by reviewed mappings is reported", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES, parseVocabulary } = await import("./vocabulary");
+    const domain: Record<string, number> = {};
+    const entries: string[][] = [];
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) { domain[`travel/t${i}`] = 1; entries.push([`travel/t${i}`]); domain[`software/s${i}`] = 1; entries.push([`software/s${i}`]); }
+    const ask = async (_s: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["travel/flights", "software/dev"] };
+        return { mapping: data.map.map((from: string) => ({ from, to: "software/dev" })) }; // everything to software
+    };
+    const proposal: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, null, () => undefined, ["domain"], areaEntries(entries));
+    expect(proposal.domain).toContain("travel/flights");
+    expect(proposal.mapping.domain["travel/t2"]).toBe("travel/flights");
+    expect(proposal.mapping.domain["software/s2"]).toBe("software/dev");
+    expect(proposal.uncovered).toEqual([]);
+    // Travel values already reviewed into software: kept, and travel reported.
+    const reviewed = parseVocabulary({ domain: ["software/dev"], product: [], audience: [],
+        mapping: { domain: Object.fromEntries(Object.keys(domain).map(v => [v, "software/dev"])), product: {}, audience: {} } });
+    const later: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, reviewed, () => undefined, ["domain"], areaEntries(entries));
+    expect(later.mapping.domain["travel/t2"]).toBe("software/dev");
+    expect(later.uncovered).toEqual(["travel"]);
+});

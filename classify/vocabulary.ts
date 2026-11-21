@@ -203,6 +203,7 @@ export async function runPass2(ask: Ask, counts: Record<Field, Record<string, nu
     log: (line: string) => void = () => undefined, fields: readonly Field[] = FIELDS,
     areas: ReadonlyMap<string, number> = new Map()): Promise<Vocabulary & { added: Record<Field, string[]> }> {
     const busy = busyAreas(areas);
+    const uncovered: string[] = [];
     const groups: Record<Field, { value: string; from: string[] }[]> = { domain: [], product: [], audience: [] };
     for (const field of fields) {
         const { min, cap, final } = PASS2_LIMITS[field];
@@ -238,10 +239,26 @@ export async function runPass2(ask: Ask, counts: Record<Field, Record<string, nu
                 const target = areaFallback(finals, areaOf(value));
                 if (target) byFinal.set(target, [...(byFinal.get(target) ?? []), value]);
             }
+            // Every busy area must have something mapped into it. If the model sent
+            // all of an area's new values elsewhere, they return to the area's final
+            // value; reviewed mappings are never changed, so an area they alone
+            // decide is reported as uncovered instead.
+            const reviewedTargets = Object.values(existing?.mapping.domain ?? {});
+            for (const area of busy) {
+                const hits = [...byFinal].some(([target, from]) => areaOf(target) === area && from.length) || reviewedTargets.some(t => areaOf(t) === area);
+                if (hits) continue;
+                const target = areaFallback(finals, area);
+                const own = unmapped.filter(value => areaOf(value) === area);
+                if (!target || !own.length) { uncovered.push(area); continue; }
+                for (const [key, from] of byFinal) byFinal.set(key, from.filter(value => !own.includes(value)));
+                byFinal.set(target, [...(byFinal.get(target) ?? []), ...own]);
+            }
         }
-        groups[field] = [...byFinal].map(([value, from]) => ({ value, from }));
+        groups[field] = [...byFinal].filter(([, from]) => from.length).map(([value, from]) => ({ value, from }));
     }
-    return proposeVocabulary(groups, counts, existing);
+    const proposal = proposeVocabulary(groups, counts, existing);
+    if (uncovered.length) log(`busy domain areas left uncovered: ${uncovered.join(", ")}`);
+    return { ...proposal, uncovered } as typeof proposal;
 }
 
 if (import.meta.main) {
@@ -266,5 +283,5 @@ if (import.meta.main) {
         }
     }
     await Bun.write(PROPOSED_FILE, JSON.stringify(proposal, null, 1) + "\n");
-    console.log(`proposal written to ${PROPOSED_FILE}; added ${FIELDS.map(f => `${f} ${proposal.added[f].length}`).join(", ")}. Review it, drop "added", and rename it to vocabulary.json.`);
+    console.log(`proposal written to ${PROPOSED_FILE}; added ${FIELDS.map(f => `${f} ${proposal.added[f].length}`).join(", ")}. Review it (see "uncovered"), drop "added" and "uncovered", and rename it to vocabulary.json.`);
 }
