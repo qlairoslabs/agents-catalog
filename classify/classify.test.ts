@@ -290,9 +290,41 @@ test("pass 2 at scale: a compact list first, then every value mapped in chunks, 
     expect(asked.length).toBe(3 + 2 + 1 + 1); // three lists; domain in two chunks; product and audience one each
 });
 
-test("every busy domain area keeps a final value, even if the model leaves it out", async () => {
-    const { ensureAreaCoverage, AREA_MIN_ENTRIES } = await import("./vocabulary");
-    const counts = { "software/dev": 50, "travel/flights": AREA_MIN_ENTRIES - 5, "travel/hotels": 5, "tiny/thing": AREA_MIN_ENTRIES - 1 };
-    expect(ensureAreaCoverage(["software/development"], counts)).toEqual(["software/development", "travel"]);
-    expect(ensureAreaCoverage(["software/development", "travel/booking"], counts)).toEqual(["software/development", "travel/booking"]);
+test("areas count distinct entries, and coverage slots are reserved inside the budget", async () => {
+    const { areaEntries, busyAreas, coverAreas, AREA_MIN_ENTRIES } = await import("./vocabulary");
+    const entries = [
+        ...Array.from({ length: AREA_MIN_ENTRIES }, (_, i) => [`travel/t${i}`]),            // 20 singleton travel values
+        ...Array.from({ length: AREA_MIN_ENTRIES - 1 }, () => ["tiny/a", "tiny/b", "tiny/c"]), // 19 entries, 57 labels
+        ...Array.from({ length: 50 }, () => ["software/dev"]),
+    ];
+    const areas = areaEntries(entries);
+    expect(areas.get("tiny")).toBe(AREA_MIN_ENTRIES - 1);
+    expect(busyAreas(areas)).toEqual(["software", "travel"]);
+    const proposed = Array.from({ length: 400 }, (_, i) => `software/s${i}`);
+    const finals = coverAreas([], proposed, busyAreas(areas), 400);
+    expect(finals).toHaveLength(400);
+    expect(finals).toContain("travel");
+});
+
+test("a busy area appears in the proposal even when the model maps nothing to it", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES } = await import("./vocabulary");
+    const domain: Record<string, number> = { "software/dev": 50 };
+    const entries: string[][] = Array.from({ length: 50 }, () => ["software/dev"]);
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) { domain[`travel/t${i}`] = 1; entries.push([`travel/t${i}`]); }
+    const counts: any = { domain, product: {}, audience: {} };
+    let mapFinals: string[] = [];
+    const ask = async (system: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) {
+            if (/'domain'/.test(system)) expect(Object.keys(data.areas)).toEqual(["software", "travel"]); // singletons counted
+            return { values: Array.from({ length: 400 }, (_, i) => `software/s${i}`) };
+        }
+        if (/'domain'/.test(system)) mapFinals = data.final;
+        return { mapping: data.map.map((from: string) => ({ from, to: from.startsWith("software") ? "software/s0" : null })) };
+    };
+    const proposal = await runPass2(ask, counts, null, () => undefined, ["domain"], areaEntries(entries));
+    expect(mapFinals.length).toBeLessThanOrEqual(400);
+    expect(mapFinals).toContain("travel");
+    expect(proposal.domain).toContain("travel");
+    expect(proposal.mapping.domain["travel/t3"]).toBe("travel");
 });
