@@ -375,3 +375,37 @@ test("a busy area the model maps entirely elsewhere is restored; one decided onl
     expect(later.mapping.domain["travel/t2"]).toBe("software/dev");
     expect(later.uncovered).toEqual(["travel"]);
 });
+
+test("coverage repair does not depend on order: an area covered only by another area's values is repaired", async () => {
+    const { runPass2, areaEntries } = await import("./vocabulary");
+    const sizes = { software: 22, commerce: 21, travel: 20 } as const;
+    const domain: Record<string, number> = {};
+    const entries: string[][] = [];
+    for (const [area, n] of Object.entries(sizes)) for (let i = 0; i < n; i++) { domain[`${area}/v${i}`] = 1; entries.push([`${area}/v${i}`]); }
+    const ask = async (_s: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["software/dev", "commerce/shops", "travel/flights"] };
+        return { mapping: data.map.map((from: string) => ({ from, to: from.startsWith("travel") ? "commerce/shops" : "software/dev" })) };
+    };
+    const proposal: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, null, () => undefined, ["domain"], areaEntries(entries));
+    for (const area of Object.keys(sizes)) {
+        expect(Object.entries(proposal.mapping.domain).some(([from, to]: any) => from.startsWith(area) && to.startsWith(area))).toBe(true);
+    }
+    expect(proposal.uncovered).toEqual([]);
+});
+
+test("a retired reviewed source does not count as covering an area", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES, parseVocabulary } = await import("./vocabulary");
+    const domain: Record<string, number> = {};
+    const entries: string[][] = [];
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) { domain[`travel/t${i}`] = 1; entries.push([`travel/t${i}`]); }
+    const reviewed = parseVocabulary({ domain: ["travel/old"], product: [], audience: [], mapping: { domain: { "travel/retired": "travel/old" }, product: {}, audience: {} } });
+    const ask = async (_s: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["software/dev"] };
+        return { mapping: data.map.map((from: string) => ({ from, to: "software/dev" })) };
+    };
+    const proposal: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, reviewed, () => undefined, ["domain"], areaEntries(entries));
+    expect(proposal.mapping.domain["travel/t1"]).toBe("travel/old"); // repaired onto the reviewed travel value
+    expect(proposal.uncovered).toEqual([]);
+});

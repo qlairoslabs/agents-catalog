@@ -239,20 +239,23 @@ export async function runPass2(ask: Ask, counts: Record<Field, Record<string, nu
                 const target = areaFallback(finals, areaOf(value));
                 if (target) byFinal.set(target, [...(byFinal.get(target) ?? []), value]);
             }
-            // Every busy area must have something mapped into it. If the model sent
-            // all of an area's new values elsewhere, they return to the area's final
-            // value; reviewed mappings are never changed, so an area they alone
-            // decide is reported as uncovered instead.
-            const reviewedTargets = Object.values(existing?.mapping.domain ?? {});
+            // Every busy area must have one of its own values mapped to one of its own
+            // finals; values mapped in from other areas do not count. A repair moves
+            // only an area's own new values, onto its own final, so it cannot uncover
+            // another area and the order does not matter. Reviewed mappings are never
+            // changed, and count only for sources still in use.
+            const ownCovered = (area: string) =>
+                [...byFinal].some(([target, from]) => areaOf(target) === area && from.some(value => areaOf(value) === area))
+                || Object.entries(existing?.mapping.domain ?? {}).some(([from, to]) => Object.hasOwn(counts.domain, from) && areaOf(from) === area && areaOf(to) === area);
             for (const area of busy) {
-                const hits = [...byFinal].some(([target, from]) => areaOf(target) === area && from.length) || reviewedTargets.some(t => areaOf(t) === area);
-                if (hits) continue;
+                if (ownCovered(area)) continue;
                 const target = areaFallback(finals, area);
                 const own = unmapped.filter(value => areaOf(value) === area);
-                if (!target || !own.length) { uncovered.push(area); continue; }
+                if (!target || !own.length) continue;
                 for (const [key, from] of byFinal) byFinal.set(key, from.filter(value => !own.includes(value)));
                 byFinal.set(target, [...(byFinal.get(target) ?? []), ...own]);
             }
+            uncovered.push(...busy.filter(area => !ownCovered(area)));
         }
         groups[field] = [...byFinal].filter(([, from]) => from.length).map(([value, from]) => ({ value, from }));
     }
