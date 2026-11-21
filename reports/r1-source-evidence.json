@@ -1,0 +1,22 @@
+[
+  {
+    "id": "docker:openmesh",
+    "reason": "Upstream removal: Openmesh is absent from Docker's live v3 registry (HTTP 200; capture SHA-256 cc65cdd277333649579317b2573d853e160f52bde150028b59356c9eb19c4641).",
+    "url": "https://desktop.docker.com/mcp/catalog/v3/catalog.yaml"
+  },
+  {
+    "id": "marketplace:anthropics/claude-plugins-official:plugin:airwallex-dev",
+    "reason": "Upstream withdrew the standalone Airwallex Dev bundle. The current Airwallex AgentOS bundle includes an airwallex-dev HTTP connector, rather than a separate marketplace listing.",
+    "url": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/1b9a8c736db2330ce1812bcc41878a6e2e288e24/.claude-plugin/marketplace.json"
+  },
+  {
+    "id": "marketplace:anthropics/claude-plugins-official:plugin:data-agent-kit-starter-pack",
+    "reason": "Explicit marketplace rename to data-agent-kit, now sourced from GoogleCloudPlatform/data-agent-kit-plugin.",
+    "url": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/1b9a8c736db2330ce1812bcc41878a6e2e288e24/.claude-plugin/marketplace.json"
+  },
+  {
+    "id": "marketplace:anthropics/claude-plugins-official:plugin:sap-fiori-mcp-server",
+    "reason": "Explicit marketplace rename to sap-ux-fiori-tools, now sourced from plugins-coding-agents/fiori in SAP/open-ux-tools.",
+    "url": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/1b9a8c736db2330ce1812bcc41878a6e2e288e24/.claude-plugin/marketplace.json"
+  }
+]

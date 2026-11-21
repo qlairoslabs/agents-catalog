@@ -61,6 +61,20 @@ Readers, and the build before it publishes, also check:
 - every HTTPS URL parses with a host and no credentials.
 - `revokes` in the index is honoured only under the offline next key (the verifier, L1).
 
+## R1 build review
+
+The standalone build and resume commands are in
+[CHANGES-FROM-LIBRARY.md](CHANGES-FROM-LIBRARY.md). The review branch's
+`out/` holds exactly `connectors.json` and `skills.json`. Keep crawl captures,
+checkpoints and logs in `.r1-cache/`, and the comparison under `reports/`.
+Do not put an index, signature, annotations or review notes in `out/`.
+
+Run `bun build.ts validate out` before handing off the parts. The release
+workflow writes the index in its publication staging directory after
+committing those exact part bytes. For a full comparison, pass the registry
+checkpoint and `--require-explanations`. An unattributed drop is marked in the
+report and fails the build before it writes the parts.
+
 ## Signing and publishing (R3)
 
 `sign/` signs `index.json` with Ed25519 (`bun sign/cli.ts keygen|sign|verify`). It signs
@@ -123,7 +137,9 @@ is used instead when set.
 - **Answers are untrusted:** unknown values are dropped, text is cut to the schema's
   limits, and a tool's effect is kept only for a tool the item has, by its definition's
   hash. `read` needs the model to have seen the whole definition (description up to 600
-  characters, input schema up to 3,000); otherwise `write`. Unsure is `write`.
+  characters, input schema up to 3,000); otherwise `write`. Classifier version 2
+  shows at most 200 tools per listing and leaves tools beyond that cutoff at
+  `write`. Unsure is `write`.
 - **Pass 2** proposes the vocabulary from the distinct values into
   `facets/vocabulary.proposed.json`. A person reviews it, removes `added`, and renames it
   to `facets/vocabulary.json`. Later passes only add: existing values and mappings are
