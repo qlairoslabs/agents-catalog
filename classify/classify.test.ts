@@ -409,3 +409,22 @@ test("a retired reviewed source does not count as covering an area", async () =>
     expect(proposal.mapping.domain["travel/t1"]).toBe("travel/old"); // repaired onto the reviewed travel value
     expect(proposal.uncovered).toEqual([]);
 });
+
+test("a source mapped two ways in one reply is unmapped, and uncovered comes from the written mapping", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES } = await import("./vocabulary");
+    const domain: Record<string, number> = {};
+    const entries: string[][] = [];
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) for (const area of ["software", "travel"]) { domain[`${area}/v${i}`] = 1; entries.push([`${area}/v${i}`]); }
+    const ask = async (_s: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["software/dev", "travel/flights"] };
+        return { mapping: data.map.flatMap((from: string) => from.startsWith("travel")
+            ? [{ from, to: "software/dev" }, { from, to: "travel/flights" }] // conflicting rows
+            : [{ from, to: "software/dev" }]) };
+    };
+    const proposal: any = await runPass2(ask, { domain, product: {}, audience: {} } as any, null, () => undefined, ["domain"], areaEntries(entries));
+    // The conflicted travel values were unmapped, then repaired onto travel's own final.
+    expect(proposal.mapping.domain["travel/v3"]).toBe("travel/flights");
+    expect(Object.entries(proposal.mapping.domain).some(([f, t]: any) => f.startsWith("travel") && t.startsWith("travel"))).toBe(true);
+    expect(proposal.uncovered).toEqual([]);
+});

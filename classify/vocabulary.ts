@@ -203,7 +203,6 @@ export async function runPass2(ask: Ask, counts: Record<Field, Record<string, nu
     log: (line: string) => void = () => undefined, fields: readonly Field[] = FIELDS,
     areas: ReadonlyMap<string, number> = new Map()): Promise<Vocabulary & { added: Record<Field, string[]> }> {
     const busy = busyAreas(areas);
-    const uncovered: string[] = [];
     const groups: Record<Field, { value: string; from: string[] }[]> = { domain: [], product: [], audience: [] };
     for (const field of fields) {
         const { min, cap, final } = PASS2_LIMITS[field];
@@ -223,10 +222,19 @@ export async function runPass2(ask: Ask, counts: Record<Field, Record<string, nu
             let answer: any = null;
             try { answer = await ask(mapPrompt(field, chunk, finals).system, mapPrompt(field, chunk, finals).prompt); }
             catch (error) { log(`${field} chunk ${i / MAP_CHUNK + 1} failed: ${error instanceof Error ? error.message : error}; left unmapped`); continue; }
+            // One assignment per source: a source the reply maps two different ways
+            // (or both to a value and to null) is treated as unmapped.
             const asked = new Set(chunk);
+            const assigned = new Map<string, string | null>();
+            const conflicted = new Set<string>();
             for (const entry of Array.isArray(answer?.mapping) ? answer.mapping : []) {
-                if (typeof entry?.from !== "string" || !asked.has(entry.from) || typeof entry?.to !== "string" || !finals.includes(entry.to)) continue;
-                byFinal.set(entry.to, [...(byFinal.get(entry.to) ?? []), entry.from]);
+                if (typeof entry?.from !== "string" || !asked.has(entry.from)) continue;
+                const to = typeof entry.to === "string" && finals.includes(entry.to) ? entry.to : null;
+                if (assigned.has(entry.from) && assigned.get(entry.from) !== to) conflicted.add(entry.from);
+                assigned.set(entry.from, to);
+            }
+            for (const [from, to] of assigned) {
+                if (to && !conflicted.has(from)) byFinal.set(to, [...(byFinal.get(to) ?? []), from]);
             }
             log(`${field}: mapped ${Math.min(i + MAP_CHUNK, unmapped.length)}/${unmapped.length}`);
         }
@@ -255,13 +263,17 @@ export async function runPass2(ask: Ask, counts: Record<Field, Record<string, nu
                 for (const [key, from] of byFinal) byFinal.set(key, from.filter(value => !own.includes(value)));
                 byFinal.set(target, [...(byFinal.get(target) ?? []), ...own]);
             }
-            uncovered.push(...busy.filter(area => !ownCovered(area)));
         }
         groups[field] = [...byFinal].filter(([, from]) => from.length).map(([value, from]) => ({ value, from }));
     }
     const proposal = proposeVocabulary(groups, counts, existing);
-    if (uncovered.length) log(`busy domain areas left uncovered: ${uncovered.join(", ")}`);
-    return { ...proposal, uncovered } as typeof proposal;
+    // Reported from the written mapping itself: a busy area is covered when one of
+    // its own values still in use maps to one of its own finals.
+    const written = Object.entries(proposal.mapping.domain).filter(([from]) => Object.hasOwn(counts.domain, from));
+    const finalUncovered = fields.includes("domain")
+        ? busy.filter(area => !written.some(([from, to]) => areaOf(from) === area && areaOf(to) === area)) : [];
+    if (finalUncovered.length) log(`busy domain areas left uncovered: ${finalUncovered.join(", ")}`);
+    return { ...proposal, uncovered: finalUncovered } as typeof proposal;
 }
 
 if (import.meta.main) {
