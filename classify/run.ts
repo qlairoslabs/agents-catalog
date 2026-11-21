@@ -2,7 +2,7 @@
 // Pass 1: classify every item whose content hash has no stored tags, in
 // batches, resumable (each batch's results are written as they come).
 //
-//   CLAUDE_CODE_OAUTH_TOKEN=... bun classify/run.ts <parts-dir> [--batch=25] [--limit=N] [--model=opus]
+//   CLAUDE_CODE_OAUTH_TOKEN=... bun classify/run.ts <parts-dir> [--batch=25] [--limit=N] [--model=sonnet]
 //
 // Results go to tags/<content hash>.json, reviewed and committed like any
 // change. The scheduled build only reads them; it never calls a model.
@@ -88,7 +88,7 @@ if (import.meta.main) {
     const args = process.argv.slice(2);
     const flag = (name: string) => args.find(arg => arg.startsWith(`--${name}=`))?.split("=")[1];
     const dir = args.find(arg => !arg.startsWith("--"));
-    if (!dir) { console.error("usage: bun classify/run.ts <parts-dir> [--batch=25] [--limit=N] [--model=opus] [--image=...]"); process.exit(2); }
+    if (!dir) { console.error("usage: bun classify/run.ts <parts-dir> [--batch=25] [--limit=N] [--model=sonnet] [--image=...]"); process.exit(2); }
     const ask = acpModel({ ...DEFAULT_OPTIONS, model: flag("model") ?? DEFAULT_OPTIONS.model, image: flag("image") ?? DEFAULT_OPTIONS.image });
     const result = await classify(await readItems(dir), ask, { tagsDir: TAGS_DIR, batch: Number(flag("batch") ?? 25),
         limit: flag("limit") ? Number(flag("limit")) : undefined, log: console.log });

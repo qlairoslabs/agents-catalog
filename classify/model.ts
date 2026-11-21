@@ -35,7 +35,7 @@ export interface ModelOptions {
 
 export const DEFAULT_OPTIONS: ModelOptions = {
     image: process.env.CLASSIFY_IMAGE ?? "localhost/agents-standard:linux-amd64-bf2f5c8fb584",
-    model: "opus",
+    model: "sonnet",
     timeoutMs: 15 * 60_000,
     credentials: join(process.env.HOME ?? "", ".claude", ".credentials.json"),
 };
