@@ -264,3 +264,28 @@ test("a run never needs a refresh in the container: the host refreshes first", a
     writeFileSync(file, JSON.stringify({ claudeAiOauth: { accessToken: "a", refreshToken: "r", expiresAt: 5 } }));
     expect(loginAccess(file)).toEqual({ accessToken: "a", expiresAt: 5 });
 });
+
+test("pass 2 at scale: a compact list first, then every value mapped in chunks, only onto that list", async () => {
+    const { runPass2, MAP_CHUNK } = await import("./vocabulary");
+    const counts: any = { domain: {}, product: { slack: 3, "slack-api": 1, "random-thing": 1 }, audience: { everyone: 5 } };
+    for (let i = 0; i < MAP_CHUNK + 5; i++) counts.domain[`software/dev-${i}`] = i < 3 ? 2 : 1;
+    const asked: string[] = [];
+    const ask = async (system: string, prompt: string) => {
+        asked.push(system.slice(0, 40));
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) {
+            const field = /'(\w+)'/.exec(system)![1];
+            if (field === "domain") expect(Object.keys(data.inUse)).toHaveLength(3); // only values used twice or more
+            return { values: field === "domain" ? ["software/development", "Not A Valid/Value/Too/Deep"] : field === "product" ? ["slack"] : ["everyone"] };
+        }
+        return { mapping: data.map.map((from: string) => ({ from, to: from === "random-thing" ? null : from.startsWith("software") ? "software/development" : from.startsWith("slack") ? "slack" : from === "everyone" ? "everyone" : "invented-final" })) };
+    };
+    const proposal = await runPass2(ask, counts, null);
+    expect(proposal.mapping.domain["software/dev-300"]).toBe("software/development"); // second chunk
+    expect(Object.keys(proposal.mapping.domain)).toHaveLength(MAP_CHUNK + 5);
+    expect(proposal.mapping.product["slack-api"]).toBe("slack");
+    expect(Object.hasOwn(proposal.mapping.product, "random-thing")).toBe(false);
+    expect(proposal.product).toEqual(["slack"]);
+    expect(proposal.domain).not.toContain("invented-final");
+    expect(asked.length).toBe(3 + 2 + 1 + 1); // three lists; domain in two chunks; product and audience one each
+});
