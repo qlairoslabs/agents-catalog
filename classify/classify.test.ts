@@ -304,6 +304,30 @@ test("areas count distinct entries, and coverage slots are reserved inside the b
     const finals = coverAreas([], proposed, busyAreas(areas), 400);
     expect(finals).toHaveLength(400);
     expect(finals).toContain("travel");
+    // An area's value at the end of an over-long proposal is reserved, not appended past the budget.
+    const late = coverAreas([], [...proposed, "travel/flights"], busyAreas(areas), 400);
+    expect(late).toHaveLength(400);
+    expect(late).toContain("travel/flights");
+    expect(late).not.toContain("travel");
+    expect(() => coverAreas(["a/1", "a/2"], [], ["x", "y"], 3)).toThrow(/cannot hold/);
+});
+
+test("an unmapped value falls back to its area's representative when there is no bare area", async () => {
+    const { runPass2, areaEntries, AREA_MIN_ENTRIES, areaFallback } = await import("./vocabulary");
+    expect(areaFallback(["travel/flights", "software/dev"], "travel")).toBe("travel/flights");
+    expect(areaFallback(["travel", "travel/flights"], "travel")).toBe("travel");
+    expect(areaFallback(["software/dev"], "travel")).toBeNull();
+    const domain: Record<string, number> = { "software/dev": 50 };
+    const entries: string[][] = Array.from({ length: 50 }, () => ["software/dev"]);
+    for (let i = 0; i < AREA_MIN_ENTRIES; i++) { domain[`travel/t${i}`] = 1; entries.push([`travel/t${i}`]); }
+    const ask = async (system: string, prompt: string) => {
+        const data = JSON.parse(prompt);
+        if ("inUse" in data) return { values: ["software/dev", "travel/flights"] };
+        return { mapping: data.map.map((from: string) => ({ from, to: from.startsWith("software") ? "software/dev" : null })) };
+    };
+    const proposal = await runPass2(ask, { domain, product: {}, audience: {} } as any, null, () => undefined, ["domain"], areaEntries(entries));
+    expect(proposal.domain).toContain("travel/flights");
+    expect(proposal.mapping.domain["travel/t5"]).toBe("travel/flights");
 });
 
 test("a busy area appears in the proposal even when the model maps nothing to it", async () => {
