@@ -231,3 +231,17 @@ test("an empty classification directory leaves ordinary parts unchanged and fail
         await expect(applyClassification(items,{tags:dir,required:true})).rejects.toThrow("no classification tags");
     } finally { rmSync(dir,{recursive:true,force:true}); }
 });
+
+test("secret labels fit the schema without changing secret names or references", () => {
+    const config = { type:"http", url:"https://example.com/mcp", headers:{ Authorization:"$FIXTURE_TOKEN", "X-Key":"$EMPTY_KEY" } } as const;
+    const source = connector(config, [
+        {env:"FIXTURE_TOKEN",label:"  A\\t B ".replace("\\t", "\t") + "x".repeat(195) + "😀 remainder"},
+        {env:"EMPTY_KEY",label:" \t\n "},
+    ]);
+    const result = mapItem(source);
+    expect(result).toHaveProperty("item.connect.config",config);
+    expect(result).toHaveProperty("item.connect.secrets",[
+        {env:"FIXTURE_TOKEN",label:"A B " + "x".repeat(195)},
+        {env:"EMPTY_KEY",label:"EMPTY_KEY"},
+    ]);
+});

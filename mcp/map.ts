@@ -41,6 +41,12 @@ function connect(mcp: CatalogMcp): CatalogConnectConfig | string {
         ...(config.args ? { args: config.args } : {}), update: "pinned" };
 }
 
+function secretLabel(label: string, name: string): string {
+    const normalized = label.replace(/\s+/gu, " ").trim() || name || "Secret";
+    // The reader counts UTF-16 units. Avoid splitting a surrogate pair.
+    return normalized.slice(0, 200).replace(/[\uD800-\uDBFF]$/u, "").trimEnd() || "Secret";
+}
+
 export function mapItem(item: CatalogItem, tools?: readonly CatalogTool[], members: { skills: string[]; connectors: { name: string; transport?: "http" | "stdio"; leftOut?: string }[] } = { skills: [], connectors: [] }): Mapping {
     const origin: CatalogOrigin = {
         trust: item.trust, publisher: item.publisher, source: item.source,
@@ -54,7 +60,7 @@ export function mapItem(item: CatalogItem, tools?: readonly CatalogTool[], membe
         if (!item.mcp) return { reason: "missing connector definition" };
         const config = connect(item.mcp);
         if (typeof config === "string") return { reason: config };
-        result = { ...common, connect: { config, auth: item.mcp.auth, secrets: item.mcp.secrets, ...(tools ? { tools } : {}) } };
+        result = { ...common, connect: { config, auth: item.mcp.auth, secrets: item.mcp.secrets.map(secret => ({ ...secret, label: secretLabel(secret.label, secret.env) })), ...(tools ? { tools } : {}) } };
     } else if (item.kind === "skill") {
         if (!item.skill) return { reason: "missing skill definition" };
         const { ref: _ref, ...source } = item.skill.source;
