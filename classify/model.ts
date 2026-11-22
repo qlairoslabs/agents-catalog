@@ -31,6 +31,24 @@ export interface ModelOptions {
      *  host (under Claude Code's own lock) ever refreshes. Used unless
      *  CLAUDE_CODE_OAUTH_TOKEN is set. */
     credentials?: string;
+    /** Which harness: Claude Code through claude-agent-acp (default), or OpenCode
+     *  (`opencode acp`), whose model is `provider/model` (e.g.
+     *  `opencode-go/deepseek-v4.1-flash`) and whose key is OPENCODE_API_KEY, passed by
+     *  name. OpenCode's binary is mounted read-only from the host. */
+    harness?: "claude" | "opencode";
+    opencodeBinary?: string;
+}
+
+/** OpenCode's settings inside the container: no tools, every permission denied,
+ *  nothing fetched or updated on its own. Passed as OPENCODE_CONFIG_CONTENT. */
+export function opencodeConfig(model: string): string {
+    return JSON.stringify({
+        $schema: "https://opencode.ai/config.json",
+        model, autoupdate: false, share: "disabled",
+        tools: { "*": false },
+        permission: { "*": "deny", edit: "deny", bash: "deny", webfetch: "deny", external_directory: "deny" },
+        mcp: {},
+    });
 }
 
 export const DEFAULT_OPTIONS: ModelOptions = {
@@ -38,6 +56,8 @@ export const DEFAULT_OPTIONS: ModelOptions = {
     model: "sonnet",
     timeoutMs: 15 * 60_000,
     credentials: join(process.env.HOME ?? "", ".claude", ".credentials.json"),
+    harness: process.env.CLASSIFY_HARNESS === "opencode" ? "opencode" : "claude",
+    opencodeBinary: process.env.CLASSIFY_OPENCODE_BINARY,
 };
 
 /** The exact environment podman runs with on the host: the same for creating,
@@ -99,6 +119,25 @@ function settingsFile(): string {
 
 /** The ACP adapter's command: podman around claude-agent-acp. */
 export function containerCommand(options: ModelOptions, settings: string, name = `classify-${randomUUID()}`): string[] {
+    if (options.harness === "opencode") {
+        if (!options.opencodeBinary) throw new Error("OpenCode needs its binary (opencodeBinary)");
+        return [
+            "podman", "run", "--rm", "-i", "--pull=never", "--name", name,
+            "--read-only", "--cap-drop=all", "--security-opt", "no-new-privileges",
+            "--tmpfs", "/home/classify:rw,size=256m", "--tmpfs", "/tmp:rw,size=128m",
+            ...(options.workMount ? ["-v", `${options.workMount}:/work:rw`] : ["--tmpfs", "/work:rw,size=1m"]),
+            "-v", `${options.opencodeBinary}:/usr/local/bin/opencode-classify:ro`,
+            "--workdir", "/work",
+            // Only the provider key, by name.
+            "-e", "OPENCODE_API_KEY",
+            "-e", "HOME=/home/classify",
+            "-e", `OPENCODE_CONFIG_CONTENT=${opencodeConfig(options.model)}`,
+            "-e", "OPENCODE_DISABLE_AUTOUPDATE=1", "-e", "OPENCODE_DISABLE_CLAUDE_CODE=1",
+            "-e", "OPENCODE_DISABLE_PROJECT_CONFIG=1", "-e", "OPENCODE_DISABLE_FILEWATCHER=1",
+            "--entrypoint", "/usr/local/bin/opencode-classify",
+            options.image, "acp",
+        ];
+    }
     return [
         "podman", "run", "--rm", "-i", "--pull=never", "--name", name,
         "--read-only", "--cap-drop=all", "--security-opt", "no-new-privileges",
@@ -174,13 +213,16 @@ type Controller = Pick<AgentController, "start" | "prompt" | "stop">;
 
 export async function runBatch(options: ModelOptions, prompt: string,
     deps: { controller?: (config: ConstructorParameters<typeof AgentController>[0]) => Controller; removeContainer?: typeof removeContainer } = {}): Promise<BatchRun> {
-    if (!process.env.CLAUDE_CODE_OAUTH_TOKEN) {
+    const opencode = options.harness === "opencode";
+    if (opencode && !process.env.OPENCODE_API_KEY) throw new Error("OPENCODE_API_KEY is not set for the OpenCode harness");
+    if (!opencode && !process.env.CLAUDE_CODE_OAUTH_TOKEN) {
         if (!(options.credentials && existsSync(options.credentials))) {
             throw new Error("no Claude Code login: sign in with `claude` on this machine, or set CLAUDE_CODE_OAUTH_TOKEN");
         }
         await ensureFreshLogin(options.credentials, options.timeoutMs + 5 * 60_000);
     }
-    const token = process.env.CLAUDE_CODE_OAUTH_TOKEN || (options.credentials ? loginAccess(options.credentials)?.accessToken : undefined);
+    const token = opencode ? process.env.OPENCODE_API_KEY
+        : process.env.CLAUDE_CODE_OAUTH_TOKEN || (options.credentials ? loginAccess(options.credentials)?.accessToken : undefined);
     if (!token) throw new Error("no access token to give the container");
     // The relay adds the explicit empty tool set to session/new on the wire.
     const name = `classify-${randomUUID()}`;
@@ -188,10 +230,10 @@ export async function runBatch(options: ModelOptions, prompt: string,
     // Only what podman needs on the host, and the token it passes on by name.
     const env = podmanEnv();
     const spawnEnv: Record<string, string> = { ...env };
-    spawnEnv.CLAUDE_CODE_OAUTH_TOKEN = token;
+    spawnEnv[opencode ? "OPENCODE_API_KEY" : "CLAUDE_CODE_OAUTH_TOKEN"] = token;
     const agent: Controller = (deps.controller ?? (config => new AgentController(config)))({
-        adapter: { command, displayName: "Claude (classify)" },
-        adapterId: "claude",
+        adapter: { command, displayName: opencode ? "OpenCode (classify)" : "Claude (classify)" },
+        adapterId: opencode ? "opencode" : "claude",
         // The launcher replaces the adapter command with the exact podman process;
         // /work is the folder the harness sees inside the container.
         launcher: { prepare: async () => ({ command, spawnCwd: tmpdir(), spawnEnv }) },
