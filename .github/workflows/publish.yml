@@ -87,6 +87,7 @@ jobs:
           if [ -f index.json ]; then cp index.json ../previous-index.json; fi
           git rm -rqf --ignore-unmatch . && git clean -fdxq
           cp ../staging/connectors.json ../staging/skills.json .
+          if [ -f ../staging/tools.json ]; then cp ../staging/tools.json . && cp -R ../staging/tools tools; fi
           git add -A
           git commit -q --allow-empty -m "Parts from build ${BUILD}"
           echo "PARTS_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
