@@ -58,3 +58,42 @@ test("weekly label input is JSONL and an input failure writes a closed verdict",
         expect(await Bun.file(join(directory,"verdict.json")).json()).toMatchObject({publish:false,reasons:["build-failure"]});
     } finally { await rm(directory,{recursive:true,force:true}); }
 });
+
+test("a resumed cached crawl stages a valid candidate without fetching network inputs", async () => {
+    const {Checkpoint}=await import("./mcp/checkpoint");
+    const {evidenceTarget}=await import("./evidence");
+    const {createHash}=await import("node:crypto");
+    const directory=await mkdtemp(join(tmpdir(),"catalog-weekly-resume-"));
+    try {
+        const cache=join(directory,"cache"), run=join(cache,"runs","fixture"), mapped=join(run,"mapped");
+        await mkdir(join(run,"evidence"),{recursive:true});
+        await cp(new URL("./examples/detached",import.meta.url).pathname,mapped,{recursive:true});
+        // Empty manifest provides a baseline for this OAuth-only fixture.
+        await Bun.write(join(mapped,"tools.json"),'{"lists":{}}');
+        await rm(join(mapped,"tools"),{recursive:true});
+        await Promise.all(Object.entries({
+            "sources.json":{}, "feed.json":{}, "rejections.json":[],
+            "decisions.json":{reasons:[],aliases:[],sourceErrors:{}},
+        }).map(([name,value])=>Bun.write(join(run,name),JSON.stringify(value))));
+        const db=new Checkpoint(join(run,"crawl.sqlite"));
+        await db.remember("registry:Infinity",async()=>[{server:{name:"fixture"}}]);
+        db.close();
+        const listings=[
+            ...readPart(await Bun.file(join(mapped,"connectors.json")).json(),"connectors"),
+            ...readPart(await Bun.file(join(mapped,"skills.json")).json(),"skills"),
+        ];
+        for(const item of listings) {
+            const key=createHash("sha256").update(item.id).digest("hex");
+            await Bun.write(join(run,"evidence",key+".json"),JSON.stringify({
+                id:item.id,target:evidenceTarget(item),fetched_at:new Date().toISOString(),health:"ok",
+            }));
+        }
+        const output=join(directory,"out"), verdict=join(directory,"verdict.json");
+        const launch=Bun.spawnSync([process.execPath,"weekly.ts","build","--cache",cache,"--run-id","fixture","--output",output,
+            "--previous-parts",mapped,"--verdict",verdict],{cwd:import.meta.dir});
+        expect(launch.exitCode).toBe(0);
+        expect(await Bun.file(verdict).json()).toMatchObject({publish:true,reasons:[],dropped:[],added:[]});
+        expect(await Bun.file(join(output,"tools.json")).json()).toEqual({lists:{}});
+        expect(await Bun.file(join(cache,"latest.json")).json()).toBe("fixture");
+    } finally { await rm(directory,{recursive:true,force:true}); }
+});
