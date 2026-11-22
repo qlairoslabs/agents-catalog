@@ -14,7 +14,7 @@
 //   bun sign/cli.ts verify <dir>
 //       Verifies against the shipped key the signature names; any other id fails.
 
-import { closeSync, constants, openSync, writeSync } from "node:fs";
+import { closeSync, constants, fstatSync, openSync, readSync, writeSync } from "node:fs";
 import { join } from "node:path";
 import { generateKeyPair, publicKeyOf, signIndex, verifyIndex, type IndexSignature } from "./ed25519";
 import { SHIPPED_KEYS, shippedKey } from "./keys";
@@ -28,6 +28,28 @@ function required(name: string): string {
     const value = process.env[name];
     if (!value) throw new Error(`${name} is not set`);
     return value.trim();
+}
+
+const MAX_PRIVATE_KEY_BYTES = 1024;
+
+function readOfflineKey(path: string): string {
+    const fd = openSync(path, constants.O_RDONLY | constants.O_NOFOLLOW | constants.O_NONBLOCK);
+    try {
+        const file = fstatSync(fd);
+        if (!file.isFile() || file.uid !== process.geteuid?.() || (file.mode & 0o077) !== 0
+            || file.size === 0 || file.size > MAX_PRIVATE_KEY_BYTES) {
+            throw new Error("offline key must be an owner-only regular file of at most 1024 bytes");
+        }
+        const bytes = Buffer.alloc(MAX_PRIVATE_KEY_BYTES + 1);
+        let length = 0;
+        while (length < bytes.length) {
+            const count = readSync(fd, bytes, length, bytes.length - length, null);
+            if (!count) break;
+            length += count;
+        }
+        if (length !== file.size) throw new Error("offline key file changed while reading");
+        return bytes.toString("utf8", 0, length).trim();
+    } finally { closeSync(fd); }
 }
 
 // A clean environment avoids chasing provider-specific credential names.
@@ -57,7 +79,7 @@ if (command === "keygen") {
         if (Object.keys(process.env).some(name => !OFFLINE_ENV.has(name))) {
             throw new Error("offline signing requires a clean environment; run with env -i and --no-env-file");
         }
-        privateKey = (await Bun.file(args[1]!).text()).trim();
+        privateKey = readOfflineKey(args[1]!);
     } else {
         privateKey = required("CATALOG_SIGNING_KEY");
         if (required("CATALOG_SIGNING_KEY_ID") !== key.kid || required("CATALOG_PUBLIC_KEY") !== key.key) {

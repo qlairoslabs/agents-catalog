@@ -94,7 +94,8 @@ env -i "$(command -v bun)" --no-env-file sign/cli.ts sign --next /offline/next.k
 ```
 
 The mode checks that the private key matches shipped key `catalog-2026-b`
-and writes `index.json.sig` beside the index. Omit the final directory argument
+and writes `index.json.sig` beside the index. Use an owner-only regular key
+file (mode `0600` or `0400`) at a path that is not a symlink. Omit the final directory argument
 to use the working directory. The environment may contain only `PATH`, `LANG`,
 `LC_ALL` and `TZ`. Use an offline machine even with a clean environment.
 Verify the detached signature before transferring the signed index for publication.
