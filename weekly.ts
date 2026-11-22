@@ -9,9 +9,12 @@ import { applyClassification } from "./facets/classification";
 import { loadReviewed } from "./facets/v1";
 import { Checkpoint } from "./mcp/checkpoint";
 import type { FeedRejection, RegistryRecord } from "./mcp/feed-builder";
-import { MAX_MANIFEST_BYTES, type CatalogListingItem } from "./mcp/item";
+import { MAX_MANIFEST_BYTES, readSignature, type CatalogListingItem } from "./mcp/item";
 import { decodeManifest, detachTools, loadToolParts, writeToolParts } from "./tool-parts";
 import { MAX_INDEX_BYTES, MAX_PART_BYTES, MAX_SELECTED_BYTES, validateIndexBytes, validateSelectedParts } from "./validate";
+import { parseCatalogJson } from "./ingestion";
+import { verifyIndex } from "./sign/ed25519";
+import { shippedKey } from "./sign/keys";
 import { stageV1 } from "./v1-build";
 
 const root = import.meta.dir;
@@ -57,9 +60,28 @@ async function download(url: string, limit: number, exact?: number) {
     return bytes.subarray(0, offset);
 }
 
-async function previousSnapshot(indexPath: string, directory: string) {
+export async function readPreviousIndex(indexPath: string, unsigned = false, findKey = shippedKey) {
     const remote = /^https:\/\//.test(indexPath);
-    const index = validateIndexBytes(remote ? await download(indexPath,MAX_INDEX_BYTES) : await fileBytes(indexPath,MAX_INDEX_BYTES));
+    if (remote && unsigned) throw Error("unsigned previous input must be local");
+    const indexBytes = remote ? await download(indexPath,MAX_INDEX_BYTES) : await fileBytes(indexPath,MAX_INDEX_BYTES);
+    if (!unsigned) {
+        let signaturePath = indexPath + ".sig";
+        if (remote) {
+            const url = new URL(indexPath);
+            url.pathname += ".sig";
+            signaturePath = url.href;
+        }
+        const signatureBytes = remote ? await download(signaturePath,1024) : await fileBytes(signaturePath,1024);
+        const signature = readSignature(parseCatalogJson(signatureBytes));
+        const key = findKey(signature.keyId);
+        if (!key || !await verifyIndex(indexBytes,signature,key)) throw Error("invalid previous index signature");
+    }
+    return validateIndexBytes(indexBytes);
+}
+
+async function previousSnapshot(indexPath: string, directory: string, unsigned: boolean) {
+    const remote = /^https:\/\//.test(indexPath);
+    const index = await readPreviousIndex(indexPath,unsigned);
     const refs = parts.map(id=>{
         const ref = index.parts.find(part=>part.id === id);
         const limit = id === "tools" ? MAX_MANIFEST_BYTES : MAX_PART_BYTES;
@@ -150,7 +172,7 @@ function fraction(value: string | undefined, fallback: number) {
 
 const options = {
     "cache":{type:"string"}, "run-id":{type:"string"}, "output":{type:"string"}, "previous-parts":{type:"string"},
-    "previous-index":{type:"string"}, "verdict":{type:"string"}, "classification-added":{type:"string"},
+    "previous-index":{type:"string"}, "previous-unsigned":{type:"boolean"}, "verdict":{type:"string"}, "classification-added":{type:"string"},
     "tags":{type:"string"}, "max-drop-fraction":{type:"string"}, "min-part-fraction":{type:"string"},
     "parts":{type:"string"}, "remote":{type:"string"}, "branch":{type:"string"},
 } as const;
@@ -185,8 +207,9 @@ async function main() {
     }
     if (command !== "build") throw Error("unknown weekly command: " + command);
     const verdict = path("verdict");
+    const previousUnsigned = values["previous-unsigned"] === true;
     const output = path("output");
-    await writeJson(verdict,{publish:false,reasons:["build-in-progress"]});
+    await writeJson(verdict,{publish:false,reasons:["build-in-progress"],previousUnsigned});
     let staging: string | undefined;
     let failure = "build-failure";
     try {
@@ -207,7 +230,12 @@ async function main() {
         if (prior !== null && !/^[a-zA-Z0-9][a-zA-Z0-9._-]{0,79}$/.test(prior)) throw Error("invalid cached previous run id");
         const priorDir = prior && prior !== id ? join(cache,"runs",prior) : undefined;
         if (!!values["previous-parts"] === !!values["previous-index"]) throw Error("choose one previous catalogue input");
-        const previous = values["previous-parts"] ? await readSnapshot(path("previous-parts")) : await previousSnapshot(required("previous-index"),directory);
+        failure = "previous release not verified";
+        const previous = values["previous-parts"]
+            ? previousUnsigned ? await readSnapshot(path("previous-parts"))
+                : await previousSnapshot(join(path("previous-parts"),"index.json"),directory,false)
+            : await previousSnapshot(required("previous-index"),directory,previousUnsigned);
+        failure = "build-failure";
         const thresholds = { maxDrop:fraction(values["max-drop-fraction"],0.05), minPart:fraction(values["min-part-fraction"],0.6) };
         const reviews = await loadReviewed(null,undefined,added);
         const source = join(directory,"sources.json"), feed = join(directory,"feed.json"), rejections = join(directory,"rejections.json");
@@ -250,7 +278,7 @@ async function main() {
         }
         for (const [id,reason] of staged.drops) reasons.set(id,reason);
         await reasonsForDrops(previous.items,checkpoint,rejections,reasons);
-        const comparison = compareWeekly(previous,candidate,reasons,thresholds);
+        const comparison = { ...compareWeekly(previous,candidate,reasons,thresholds), previousUnsigned };
         if (!comparison.publish) {
             await writeJson(verdict,comparison);
             process.exitCode = 1;
@@ -260,7 +288,7 @@ async function main() {
         await writeJson(latest,id);
         await writeJson(verdict,comparison);
     } catch (error) {
-        await writeJson(verdict,{publish:false,reasons:[failure],error:error instanceof Error ? error.message : String(error)});
+        await writeJson(verdict,{publish:false,reasons:[failure],previousUnsigned,error:error instanceof Error ? error.message : String(error)});
         process.exitCode = 1;
     } finally {
         if (staging) await rm(staging,{recursive:true,force:true});
@@ -280,7 +308,7 @@ async function release(dir: string, verdictPath: string, remote: string, branch:
     }
     if (branch !== "weekly-build") throw Error("release branch must be weekly-build");
     const verdict = await Bun.file(verdictPath).json();
-    if (verdict.publish !== true || !Array.isArray(verdict.reasons) || verdict.reasons.length !== 0) throw Error("weekly verdict refuses release");
+    if (verdict.previousUnsigned !== false || verdict.publish !== true || !Array.isArray(verdict.reasons) || verdict.reasons.length !== 0) throw Error("weekly verdict refuses release");
     const ref = "refs/heads/" + branch;
     const existing = await git(root,"ls-remote","--heads",remote,ref);
     const base = existing.split(/\s/,1)[0] || await git(root,"rev-parse","HEAD");

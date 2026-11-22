@@ -90,10 +90,33 @@ test("a resumed cached crawl stages a valid candidate without fetching network i
         }
         const output=join(directory,"out"), verdict=join(directory,"verdict.json");
         const launch=Bun.spawnSync([process.execPath,"weekly.ts","build","--cache",cache,"--run-id","fixture","--output",output,
-            "--previous-parts",mapped,"--verdict",verdict],{cwd:import.meta.dir});
+            "--previous-parts",mapped,"--previous-unsigned","--verdict",verdict],{cwd:import.meta.dir});
         expect(launch.exitCode).toBe(0);
-        expect(await Bun.file(verdict).json()).toMatchObject({publish:true,reasons:[],dropped:[],added:[]});
+        expect(await Bun.file(verdict).json()).toMatchObject({publish:true,reasons:[],dropped:[],added:[],previousUnsigned:true});
         expect(await Bun.file(join(output,"tools.json")).json()).toEqual({lists:{}});
         expect(await Bun.file(join(cache,"latest.json")).json()).toBe("fixture");
+    } finally { await rm(directory,{recursive:true,force:true}); }
+});
+
+test("the previous index verifies exact signed bytes and refuses a tampered index", async () => {
+    const {readPreviousIndex}=await import("./weekly");
+    const {generateKeyPair,signIndex}=await import("./sign/ed25519");
+    const directory=await mkdtemp(join(tmpdir(),"catalog-weekly-previous-"));
+    try {
+        const index=join(directory,"index.json");
+        const bytes=new Uint8Array(await Bun.file(new URL("./examples/index.json",import.meta.url)).arrayBuffer());
+        const keys=await generateKeyPair();
+        const signature=await signIndex(bytes,"fixture",keys.privateKey);
+        const lookup=(kid:string)=>kid === "fixture" ? keys.publicKey : null;
+        await Bun.write(index,bytes);
+        await Bun.write(index+".sig",JSON.stringify(signature));
+        expect((await readPreviousIndex(index,false,lookup)).schema).toBe(1);
+        await Bun.write(index,new TextDecoder().decode(bytes)+" ");
+        await expect(readPreviousIndex(index,false,lookup)).rejects.toThrow("invalid previous index signature");
+        const verdict=join(directory,"verdict.json");
+        const result=Bun.spawnSync([process.execPath,"weekly.ts","build","--cache",join(directory,"cache"),"--run-id","fixture",
+            "--output",join(directory,"out"),"--previous-index",index,"--verdict",verdict],{cwd:import.meta.dir});
+        expect(result.exitCode).toBe(1);
+        expect(await Bun.file(verdict).json()).toMatchObject({publish:false,reasons:["previous release not verified"],previousUnsigned:false});
     } finally { await rm(directory,{recursive:true,force:true}); }
 });
