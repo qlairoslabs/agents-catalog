@@ -1,0 +1,40 @@
+{
+  "skills": [
+    {
+      "id": "anthropic:pdf",
+      "name": "pdf",
+      "display": { "title": "PDF", "description": "Work with PDF files.", "icon": null },
+      "origin": {
+        "trust": "curated",
+        "publisher": { "name": "Anthropic", "verified": true },
+        "source": { "id": "anthropic", "label": "Anthropic" },
+        "bundle": "anthropic:document-skills",
+        "all": [{ "source": { "id": "anthropic", "label": "Anthropic" }, "trust": "curated", "bundle": "anthropic:document-skills" }]
+      },
+      "skill": {
+        "source": { "owner": "anthropics", "repo": "skills", "commit": "1111111111111111111111111111111111111111", "path": "document-skills/pdf" },
+        "treeSha": "2222222222222222222222222222222222222222",
+        "readUrl": "https://raw.githubusercontent.com/anthropics/skills/1111111111111111111111111111111111111111/document-skills/pdf/SKILL.md"
+      }
+    }
+  ],
+  "bundles": [
+    {
+      "id": "anthropic:document-skills",
+      "name": "document-skills",
+      "display": { "title": "Document skills", "description": null, "icon": null },
+      "origin": {
+        "trust": "curated",
+        "publisher": { "name": "Anthropic", "verified": true },
+        "source": { "id": "anthropic", "label": "Anthropic" },
+        "all": [{ "source": { "id": "anthropic", "label": "Anthropic" }, "trust": "curated" }]
+      },
+      "bundle": {
+        "source": { "owner": "anthropics", "repo": "skills", "commit": "1111111111111111111111111111111111111111", "path": "document-skills" },
+        "version": "1111111111111111111111111111111111111111",
+        "skills": ["anthropic:pdf"],
+        "connectors": [{ "name": "local-tool", "leftOut": "launches a file inside the bundle" }]
+      }
+    }
+  ]
+}

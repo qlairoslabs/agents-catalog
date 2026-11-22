@@ -13,6 +13,8 @@ import { contentHash, inputOf, type ClassifyInput } from "./hash";
 import { acpModel, DEFAULT_OPTIONS, type Ask } from "./model";
 import { sanitize, validTags, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
+import { loadToolParts } from "../tool-parts";
+import { validatePart } from "../validate";
 import { readVocabulary } from "./vocabulary";
 
 export const TAGS_DIR = join(import.meta.dir, "..", "tags");
@@ -20,6 +22,21 @@ export const TAGS_DIR = join(import.meta.dir, "..", "tags");
 export async function readItems(dir: string): Promise<ClassifyInput[]> {
     const connectors = await Bun.file(join(dir, "connectors.json")).json() as { mcp?: unknown[] };
     const skills = await Bun.file(join(dir, "skills.json")).json() as { skills?: unknown[]; bundles?: unknown[] };
+    if (await Bun.file(join(dir, "tools.json")).exists()) {
+        const listings = validatePart("connectors", connectors);
+        const detached = await loadToolParts(dir, listings);
+        return [
+            ...listings.map(item => {
+                const ref = detached.refs.get(item.id);
+                const withTools = item.kind === "mcp" && ref
+                    ? {...item, connect:{...item.connect, tools:detached.tools.get(ref.sha256)!}}
+                    : item;
+                return inputOf(withTools, "connector");
+            }),
+            ...(skills.skills ?? []).map(item => inputOf(item, "skill")),
+            ...(skills.bundles ?? []).map(item => inputOf(item, "bundle")),
+        ];
+    }
     return [
         ...(connectors.mcp ?? []).map(item => inputOf(item, "connector")),
         ...(skills.skills ?? []).map(item => inputOf(item, "skill")),

@@ -86,7 +86,28 @@ export interface CatalogFacet {
     label: string;
     hierarchical?: boolean;
     kinds: Array<"mcp" | "skill" | "bundle">;
-    values?: Array<{ id: string; label?: string }>;
+    version?: string;
+    values?: Array<{ id: string; label?: string; taxonomy?: CatalogTaxonomyLabel }>;
+}
+
+export interface CatalogTaxonomyLabel {
+    area: string;
+    category: string;
+    topic?: string;
+    definition: string;
+    excludes?: string;
+}
+
+function readTaxonomyLabel(value: unknown, path: string): CatalogTaxonomyLabel {
+    const raw = obj(value, path);
+    only(raw, path, ["area", "category", "topic", "definition", "excludes"]);
+    return {
+        area: str(raw.area, path + ".area", 120, 0),
+        category: str(raw.category, path + ".category", 120, 0),
+        definition: str(raw.definition, path + ".definition", 300, 0),
+        ...(raw.topic === undefined ? {} : { topic: str(raw.topic, path + ".topic", 120, 0) }),
+        ...(raw.excludes === undefined ? {} : { excludes: str(raw.excludes, path + ".excludes", 300, 0) }),
+    };
 }
 
 export interface CatalogFileRef { url: string; sha256: string; bytes: number; items: number }
@@ -105,7 +126,7 @@ export interface CatalogIndex {
     rules: string;
     commit: string;
     facets: CatalogFacet[];
-    parts: Array<CatalogFileRef & { id: "connectors" | "skills" }>;
+    parts: Array<CatalogFileRef & { id: "connectors" | "skills" | "tools" }>;
     annotations: Array<CatalogFileRef & { catalogue: string }>;
     blocked: CatalogBlocked;
     /** Key ids this index declares revoked. Honoured only when the index is
@@ -281,16 +302,82 @@ function readConnect(value: unknown, path: string): CatalogConnect {
     const declared = new Set(secrets.map(secret => secret.env));
     const references = parsed.type === "http" ? Object.values(parsed.headers ?? {}) : Object.values(parsed.env ?? {});
     for (const reference of references) if (!declared.has(reference.slice(1))) fail(`${path}.config`, "references an undeclared secret");
-    const tools = raw.tools === undefined ? undefined : arr(raw.tools, `${path}.tools`, 1000).map((entry, i) => {
-        const tool = obj(entry, `${path}.tools[${i}]`);
-        only(tool, `${path}.tools[${i}]`, ["name", "description", "inputSchema", "effect"]);
-        return { name: str(tool.name, `${path}.tools[${i}].name`, 128), description: str(tool.description, `${path}.tools[${i}].description`, 4000, 0),
-            inputSchema: obj(tool.inputSchema, `${path}.tools[${i}].inputSchema`),
-            ...(tool.effect === undefined ? {} : { effect: readEffect(tool.effect, `${path}.tools[${i}].effect`) }) };
-    });
+    const tools = raw.tools === undefined ? undefined : readTools(raw.tools, `${path}.tools`);
     return { config: parsed, auth: raw.auth as CatalogConnect["auth"], secrets,
         ...(raw.requires === undefined ? {} : { requires: arr(raw.requires, `${path}.requires`, 8).map((r, i) => match(r, `${path}.requires[${i}]`, /^[a-z][a-z0-9-]{0,63}$/, 64)) }),
         ...(tools ? { tools } : {}) };
+}
+
+function readTools(value: unknown, path: string): CatalogTool[] {
+    return arr(value, path, 1000).map((entry, i) => {
+        const tool = obj(entry, `${path}[${i}]`);
+        only(tool, `${path}[${i}]`, ["name", "description", "inputSchema", "effect"]);
+        return { name: str(tool.name, `${path}[${i}].name`, 128), description: str(tool.description, `${path}[${i}].description`, 4000, 0),
+            inputSchema: obj(tool.inputSchema, `${path}[${i}].inputSchema`),
+            ...(tool.effect === undefined ? {} : { effect: readEffect(tool.effect, `${path}[${i}].effect`) }) };
+    });
+}
+
+export const MAX_MANIFEST_BYTES = 2 * 1024 * 1024;
+export const MAX_TOOL_LIST_BYTES = 1024 * 1024;
+export interface ToolListRef {
+    sha256: string;
+    bytes: number;
+    tools: number;
+    read?: number;
+    write?: number;
+    risky?: number;
+}
+/** Missing classification is conservative: every tool must be known read-only. */
+export function toolListCanChangeThings(ref: ToolListRef | undefined): boolean {
+    return !ref || ref.read !== ref.tools;
+}
+const counts = ["read", "write", "risky"] as const;
+
+export function readToolManifest(value: unknown): Map<string, ToolListRef> {
+    const raw = obj(value, "tools");
+    only(raw, "tools", ["lists"]);
+    const rows = Object.entries(obj(raw.lists, "tools.lists"));
+    if (rows.length > 10_000) fail("tools.lists", "too many entries");
+    return new Map(rows.map(([id, value]) => {
+        str(id, "tools.lists.id", 256);
+        const path = `tools.lists[${id}]`;
+        const row = obj(value, path);
+        only(row, path, ["sha256", "bytes", "tools", ...counts]);
+        const integer = (key: string, min: number, max: number) => {
+            const n = row[key];
+            if (typeof n !== "number" || !Number.isInteger(n) || n < min || n > max) return fail(`${path}.${key}`, "invalid count");
+            return n;
+        };
+        const ref: ToolListRef = {
+            sha256: match(row.sha256, `${path}.sha256`, SHA256, 64),
+            bytes: integer("bytes", 1, MAX_TOOL_LIST_BYTES), tools: integer("tools", 1, 1000),
+        };
+        for (const key of counts) if (row[key] !== undefined) ref[key] = integer(key, 0, ref.tools);
+        if (counts.reduce((sum, key) => sum + (ref[key] ?? 0), 0) > ref.tools) fail(path, "effect counts exceed total");
+        return [id, ref];
+    }));
+}
+
+export function toolEffectCounts(tools: readonly CatalogTool[]) {
+    const result = { read: 0, write: 0, risky: 0 };
+    for (const tool of tools) {
+        if (!tool.effect) continue;
+        const effect = currentEffect(tool, tool.effect);
+        if (!effect) return fail("toolList.tools.effect", "hash does not match definition");
+        result[effect]++;
+    }
+    return result;
+}
+
+export function readToolList(value: unknown, ref: ToolListRef): CatalogTool[] {
+    const raw = obj(value, "toolList");
+    only(raw, "toolList", ["tools"]);
+    const tools = readTools(raw.tools, "toolList.tools");
+    if (tools.length !== ref.tools) fail("toolList.tools", "count differs from manifest");
+    const actual = toolEffectCounts(tools);
+    for (const key of counts) if (ref[key] !== undefined && ref[key] !== actual[key]) fail(`toolList.${key}`, "count differs from manifest");
+    return tools;
 }
 
 function gitSource(value: unknown, path: string): GitSource {
@@ -432,17 +519,21 @@ export function readIndex(value: unknown): CatalogIndex {
                 id: match(f.id, `index.facets[${i}].id`, /^[a-z][a-z0-9_-]{0,31}$/, 32),
                 label: str(f.label, `index.facets[${i}].label`, 60),
                 ...(f.hierarchical === undefined ? {} : { hierarchical: f.hierarchical === true }),
+                ...(f.version === undefined ? {} : { version: str(f.version, "index.facets.version", 16) }),
                 kinds: arr(f.kinds, `index.facets[${i}].kinds`, 3).map((k, j) => ["mcp", "skill", "bundle"].includes(k as string) ? k as "mcp" : fail(`index.facets[${i}].kinds[${j}]`, "unknown kind")),
                 ...(f.values === undefined ? {} : { values: arr(f.values, `index.facets[${i}].values`, 2000).map((v, j) => {
                     const value = obj(v, `index.facets[${i}].values[${j}]`);
-                    return { id: str(value.id, `index.facets[${i}].values[${j}].id`, 120), ...(value.label === undefined ? {} : { label: str(value.label, `index.facets[${i}].values[${j}].label`, 80) }) };
+                    return { id: str(value.id, `index.facets[${i}].values[${j}].id`, 120), ...(value.label === undefined ? {} : { label: str(value.label, `index.facets[${i}].values[${j}].label`, 120, 0) }),
+                        ...(value.taxonomy === undefined ? {} : { taxonomy: readTaxonomyLabel(value.taxonomy, "index.facets.values.taxonomy") }) };
                 }) }),
             };
         }),
         parts: unique(arr(raw.parts, "index.parts", 8).map((entry, i) => {
             const id = obj(entry, `index.parts[${i}]`).id;
-            if (id !== "connectors" && id !== "skills") fail(`index.parts[${i}].id`, "unknown part");
-            return { id: id as "connectors" | "skills", ...fileRef(entry, `index.parts[${i}]`, commit) };
+            if (id !== "connectors" && id !== "skills" && id !== "tools") return fail(`index.parts[${i}].id`, "unknown part");
+            const ref = fileRef(entry, `index.parts[${i}]`, commit);
+            if (id === "tools" && !ref.url.endsWith(`/${commit}/tools.json`)) fail("index.parts.tools.url", "not the root manifest");
+            return { id, ...ref };
         }), part => part.id, "index.parts"),
         annotations: unique(arr(raw.annotations, "index.annotations", 16).map((entry, i) => ({
             catalogue: match(obj(entry, `index.annotations[${i}]`).catalogue, `index.annotations[${i}].catalogue`, /^[a-z][a-z0-9-]{0,31}$/, 32),

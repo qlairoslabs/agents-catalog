@@ -77,11 +77,20 @@ export function mapItem(item: CatalogItem, tools?: readonly CatalogTool[], membe
 
 const trust = { curated: 0, "verified-publisher": 1, community: 2, unvetted: 3 };
 
-function identity(item: CatalogListingItem): string {
+export function normalizeAddress(address: string): string {
+    // Preserve the exact request target: URL.href can normalize more than case.
+    return address.replace(/^([^:]+):\/\/([^/?#]+)/, (_match, scheme: string, host: string) =>
+        scheme.toLowerCase() + "://" + host.toLowerCase());
+}
+
+export function listingIdentity(item: CatalogListingItem): string {
     if (item.kind === "skill") return JSON.stringify(["skill", item.skill.treeSha]);
     if (item.kind === "bundle") return JSON.stringify(["bundle", item.bundle.source.owner, item.bundle.source.repo, item.bundle.source.path]);
     const config = item.connect.config;
-    if (config.type === "http") return JSON.stringify(["http", new URL(config.url).href, item.connect.auth, Object.entries(config.headers ?? {}).sort()]);
+    if (config.type === "http") {
+        const slots = item.connect.secrets.map(secret => secret.env).sort();
+        return JSON.stringify(["http", normalizeAddress(config.url), item.connect.auth, Object.entries(config.headers ?? {}).sort(), slots]);
+    }
     return JSON.stringify(["package", config.package.manager, config.package.identifier, config.package.version, config.package.sha256 ?? null, config.args ?? [], Object.entries(config.env ?? {}).sort()]);
 }
 
@@ -90,7 +99,7 @@ export function mergeItems(items: readonly CatalogListingItem[]) {
     const aliases = new Map<string, string>();
     const sorted = [...items].sort((a, b) => trust[a.origin.trust] - trust[b.origin.trust] || a.id.localeCompare(b.id));
     for (const item of sorted) {
-        const key = identity(item);
+        const key = listingIdentity(item);
         const winner = merged.get(key);
         if (!winner) { merged.set(key, item); continue; }
         if (winner.id === item.id) continue;

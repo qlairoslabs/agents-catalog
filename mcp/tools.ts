@@ -24,40 +24,69 @@ async function limitedText(response: Response): Promise<string> {
     } finally { await reader.cancel().catch(() => {}); }
 }
 
-export async function discoverTools(url: string, io: OAuthIo = {}): Promise<CatalogTool[] | undefined> {
-    const signal = AbortSignal.timeout(4500);
-    const headers = new Headers({ "content-type": "application/json", accept: "application/json, text/event-stream" });
+export type Health = "ok" | "auth-required" | "not-found" | "unreachable" | "deprecated" | "rate-limited";
+
+export function responseHealth(status: number): Health {
+    if (status === 401 || status === 403) return "auth-required";
+    if (status === 404 || status === 410) return "not-found";
+    if (status === 429) return "rate-limited";
+    return status >= 200 && status < 300 ? "ok" : "unreachable";
+}
+
+export async function remoteEvidence(url: string, listTools: boolean, io: OAuthIo = {}): Promise<{ health: Health; tools?: CatalogTool[] }> {
+    const signal = AbortSignal.timeout(8000);
+    const headers = new Headers({ "content-type": "application/json", accept: "application/json, text/event-stream", "user-agent": "catalog-indexer/1" });
     const send = (message: Record<string, unknown>) => guardedFetch(url, { method: "POST", headers, signal,
         body: JSON.stringify({ jsonrpc: "2.0", ...message }) }, io);
     try {
         const initialized = await send({ id: 1, method: "initialize", params: { protocolVersion: "2025-06-18",
-            capabilities: {}, clientInfo: { name: "agents-catalog", version: "1" } } });
+            capabilities: {}, clientInfo: { name: "catalog-indexer", version: "1" } } });
+        const health = responseHealth(initialized.status);
+        if (health !== "ok") { await initialized.body?.cancel(); return { health }; }
         const session = initialized.headers.get("mcp-session-id");
-        if (!initialized.ok) { await initialized.body?.cancel(); return; }
         const reply = JSON.parse(await limitedText(initialized));
-        if (!reply?.result?.capabilities?.tools || !["2024-11-05", "2025-03-26", "2025-06-18", "2025-11-25"].includes(reply.result.protocolVersion)) return;
-        headers.set("MCP-Protocol-Version", reply.result.protocolVersion);
+        const result = reply?.result;
+        if (!["2024-11-05", "2025-03-26", "2025-06-18", "2025-11-25"].includes(result?.protocolVersion)) return { health: "unreachable" };
+        if (!listTools) return { health: "ok" };
+        headers.set("MCP-Protocol-Version", result.protocolVersion);
         if (session) headers.set("MCP-Session-Id", session);
+        if (!result.capabilities?.tools) return { health: "ok" };
         const notification = await send({ method: "notifications/initialized" });
         await notification.body?.cancel();
-        if (!notification.ok) return;
-        const response = await send({ id: 2, method: "tools/list" });
-        if (!response.ok) { await response.body?.cancel(); return; }
-        const list = JSON.parse(await limitedText(response))?.result;
-        if (!Array.isArray(list?.tools) || list.tools.length > 1000 || list.nextCursor) return;
+        if (!notification.ok) return { health: responseHealth(notification.status) };
         const tools: CatalogTool[] = [];
-        for (const raw of list.tools) {
-            const tool = catalogueTool(raw);
-            if (!tool) return;
-            tools.push(tool);
+        const names = new Set<string>();
+        const cursors = new Set<string>();
+        let cursor: string | undefined;
+        for (let page = 0; page < 10; page++) {
+            const response = await send({ id: 2 + page, method: "tools/list", ...(cursor ? { params: { cursor } } : {}) });
+            if (!response.ok) { await response.body?.cancel(); return { health: responseHealth(response.status) }; }
+            const list = JSON.parse(await limitedText(response))?.result;
+            if (!Array.isArray(list?.tools) || tools.length + list.tools.length > 1000) return { health: "ok" };
+            for (const raw of list.tools) {
+                const tool = catalogueTool(raw);
+                if (!tool || names.has(tool.name)) return { health: "unreachable" };
+                names.add(tool.name);
+                tools.push(tool);
+            }
+            cursor = list.nextCursor;
+            if (!cursor) {
+                parseCatalogJson(new TextEncoder().encode(JSON.stringify(tools)), 20_000);
+                return { health: "ok", tools };
+            }
+            if (typeof cursor !== "string" || cursor.length > 1024 || cursors.has(cursor)) return { health: "unreachable" };
+            cursors.add(cursor);
         }
-        parseCatalogJson(new TextEncoder().encode(JSON.stringify(tools)), 20_000);
-        return tools;
-    } catch { return undefined; }
+        return { health: "ok" };
+    } catch { return { health: "unreachable" }; }
     finally {
         if (headers.has("MCP-Session-Id") && !signal.aborted) {
             await guardedFetch(url, { method: "DELETE", headers, signal }, io)
                 .then(response => response.body?.cancel()).catch(() => {});
         }
     }
+}
+
+export async function discoverTools(url: string, io: OAuthIo = {}): Promise<CatalogTool[] | undefined> {
+    return (await remoteEvidence(url, true, io)).tools;
 }

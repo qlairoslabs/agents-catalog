@@ -1,3 +1,6 @@
+import { decodeManifest, detachTools, loadToolParts, writeToolParts } from "./tool-parts";
+import { stageV1, v1Report } from "./v1-build";
+import { readTaxonomy, taxonomyFacet } from "./facets/v1";
 import { Checkpoint } from "./mcp/checkpoint";
 import { createHash } from "node:crypto";
 import { mkdir, readdir, rename } from "node:fs/promises";
@@ -17,6 +20,7 @@ import type { SourceCapture } from "./generate-catalog";
 type Part = "connectors" | "skills";
 const partIds: Part[] = ["connectors", "skills"];
 const DAY = 86_400_000;
+const v1Taxonomy = readTaxonomy(await Bun.file(new URL("./facets/taxonomy-v1.1.tsv", import.meta.url)).text());
 const json = (value: unknown) => JSON.stringify(value) + "\n";
 
 export function partWithFallback(id: Part, staged: unknown, previous: string | Uint8Array | undefined, sourceErrors: string[] = [], minimum = 0) {
@@ -33,16 +37,18 @@ export function partWithFallback(id: Part, staged: unknown, previous: string | U
     }
 }
 
-export function makeIndex(commit: string, parts: Record<Part, string | Uint8Array>, now = Date.now(), previous?: ReturnType<typeof validateIndex>) {
+export function makeIndex(commit: string, parts: Record<Part, string | Uint8Array>, now = Date.now(), previous?: ReturnType<typeof validateIndex>, manifest?: Uint8Array) {
     const listings = validateSelectedParts(parts);
     const index = {
         schema: 1, sequence: Math.max(Math.floor(now / 1000), (previous?.sequence ?? 0) + 1), generatedAt: new Date(now).toISOString(),
         expires: new Date(now + 14 * DAY).toISOString(), rules: "1", commit,
-        facets: facets(listings), annotations: [], blocked: previous?.blocked ?? { packages: [], servers: [], skills: [] },
+        facets: [...facets(listings), ...(listings.some(item=>item.discovery.attributes?.topic?.length) ? [taxonomyFacet(v1Taxonomy)] : [])], annotations: [], blocked: previous?.blocked ?? { packages: [], servers: [], skills: [] },
         ...(previous?.revokes.length ? { revokes: previous.revokes } : {}),
-        parts: partIds.map(id => ({ id, url: `https://raw.githubusercontent.com/qlairoslabs/agents-catalog/${commit}/${id}.json`,
+        parts: [...partIds.map(id => ({ id, url: `https://raw.githubusercontent.com/qlairoslabs/agents-catalog/${commit}/${id}.json`,
             sha256: createHash("sha256").update(parts[id]).digest("hex"), bytes: encode(parts[id]).byteLength,
             items: listings.filter(item => id === "connectors" ? item.kind === "mcp" : item.kind !== "mcp").length })),
+            ...(manifest ? [{id:"tools",url:`https://raw.githubusercontent.com/qlairoslabs/agents-catalog/${commit}/tools.json`,
+                sha256:createHash("sha256").update(manifest).digest("hex"),bytes:manifest.byteLength,items:decodeManifest(manifest,listings).size}] : [])],
     };
     validateIndexBytes(json(index));
     return index;
@@ -243,21 +249,62 @@ async function parts(output: string) {
         await writeAtomic(report,result.text);
         if (result.unexplained.length) throw Error(`Unattributed drops require review: ${result.unexplained.join(", ")}`);
     }
+    const retainedConnectors = stages.find(stage => stage.id === "connectors" && stage.warning);
+    const previous = arg("previous-parts");
+    const previousLists = retainedConnectors && previous && await Bun.file(join(previous, "tools.json")).exists()
+        ? await loadToolParts(previous, retainedConnectors.items)
+        : undefined;
+    const detached = detachTools(accepted.map(item => {
+        const ref = previousLists?.refs.get(item.id);
+        return item.kind === "mcp" && ref
+            ? {...item, connect:{...item.connect, tools:previousLists!.tools.get(ref.sha256)!}}
+            : item;
+    }));
+    const lightConnectors = json(wire(detached.listings, "connectors"));
+    validatePartBytes("connectors", lightConnectors);
     await mkdir(output,{recursive:true});
-    for (const { id, text } of stages) await writeAtomic(join(output,`${id}.json`),text);
+    for (const { id, text } of stages) await writeAtomic(join(output,`${id}.json`),id === "connectors" ? lightConnectors : text);
+    await writeToolParts(output, detached);
+    await loadToolParts(output, detached.listings);
     console.log(JSON.stringify({ listings: accepted.length, parts: stages.map(({id, items, warning}) => ({id,count:items.length,warning})), toolsProbed: probed, tagsApplied: classified.applied }));
 }
 
 if (import.meta.main) {
     const command = process.argv[2];
     const output = arg("output") ?? arg("dir") ?? (command === "validate" ? process.argv[3] : undefined) ?? ".r1-cache/candidate";
-    if (command === "parts") await parts(output);
+    if (command === "parts" || command === "apply-tags") {
+        await mkdir(output, {recursive:true});
+        if ((await readdir(output)).length) throw Error("release output directory must be empty: " + output);
+    }
+    if (command === "parts" && arg("input")) {
+        const input = need("input");
+        const before = validateSelectedParts({
+            connectors:new Uint8Array(await Bun.file(join(input,"connectors.json")).arrayBuffer()),
+            skills:new Uint8Array(await Bun.file(join(input,"skills.json")).arrayBuffer()),
+        });
+        const staged = await stageV1(before,need("evidence"),arg("classification"));
+        const tagged = process.argv.includes("--untagged") ? { items:staged.items,applied:0 }
+            : await applyClassification(staged.items,{tags:arg("tags"),effectsOnly:true});
+        const detached = detachTools(tagged.items);
+        const parts = {connectors:json(wire(detached.listings,"connectors")),skills:json(wire(detached.listings,"skills"))};
+        validateSelectedParts(parts);
+        const report = arg("comparison");
+        if (report) await writeAtomic(report,v1Report(before,{...staged,items:tagged.items}));
+        await mkdir(output,{recursive:true});
+        for (const id of partIds) await writeAtomic(join(output,id+".json"),parts[id]);
+        await writeToolParts(output, detached);
+        await loadToolParts(output, detached.listings);
+        console.log(JSON.stringify({count:tagged.items.length,drop:staged.drops.size,merge:staged.aliases.size,tagsApplied:tagged.applied}));
+    }
+    else if (command === "parts") await parts(output);
     else if (command === "index" || command === "validate" || command === "apply-tags") {
         if (command === "validate") {
             const entries = await readdir(output, { withFileTypes: true });
-            const expected = new Set(partIds.map(id => `${id}.json`));
-            if (entries.length !== expected.size || entries.some(entry => !entry.isFile() || !expected.has(entry.name))) {
-                throw Error("release directory must contain only connectors.json and skills.json");
+            const expected = new Set(["connectors.json", "skills.json", "tools.json", "tools"]);
+            const required = partIds.map(id => id + ".json").concat("tools.json");
+            if (required.some(name => !entries.some(entry => entry.name === name && entry.isFile()))
+                || entries.some(entry => !expected.has(entry.name) || !(entry.name === "tools" ? entry.isDirectory() : entry.isFile()))) {
+                throw Error("release directory must contain only connectors.json, skills.json, tools.json and tools/");
             }
         }
         const input = command === "apply-tags" ? need("input") : output;
@@ -265,21 +312,34 @@ if (import.meta.main) {
         if (files.reduce((total, [, file]) => total + file.size, 0) > MAX_SELECTED_BYTES) throw Error("selected parts exceed the Hub byte limit");
         if (files.some(([, file]) => file.size > MAX_PART_BYTES)) throw Error("part exceeds the Hub byte limit");
         const bytes = Object.fromEntries(await Promise.all(files.map(async ([id,file]) => [id, new Uint8Array(await file.arrayBuffer())]))) as Record<Part,Uint8Array>;
+        const previous = command === "index" ? arg("previous") : undefined;
+        const file = previous ? Bun.file(previous) : undefined;
+        if (file && file.size > MAX_INDEX_BYTES) throw Error("index exceeds the Hub byte limit");
+        const listings = validateSelectedParts(bytes);
+        const detached = await loadToolParts(input, listings);
+        if (detached.bytes.byteLength + files.reduce((sum, [, part]) => sum + part.size, 0) > MAX_SELECTED_BYTES) {
+            throw Error("selected parts and manifest exceed the Hub byte limit");
+        }
         if (command === "index") {
-            const previous = arg("previous");
-            const file = previous ? Bun.file(previous) : undefined;
-            if (file && file.size > MAX_INDEX_BYTES) throw Error("index exceeds the Hub byte limit");
             await writeAtomic(join(output,"index.json"),json(makeIndex(need("commit"), bytes, Date.now(),
-                file ? validateIndexBytes(new Uint8Array(await file.arrayBuffer())) : undefined)));
+                file ? validateIndexBytes(new Uint8Array(await file.arrayBuffer())) : undefined, detached.bytes)));
         } else if (command === "apply-tags") {
-            const classified = await applyClassification(validateSelectedParts(bytes), {
-                tags: arg("tags"), vocabulary: arg("vocabulary"), required: true,
+            const withTools = listings.map(item => {
+                const ref = detached.refs.get(item.id);
+                return item.kind === "mcp" && ref ? {...item,connect:{...item.connect,tools:detached.tools.get(ref.sha256)!}} : item;
             });
-            const tagged = { connectors: json(wire(classified.items,"connectors")), skills: json(wire(classified.items,"skills")) };
+            const classified = await applyClassification(withTools, {
+                tags: arg("tags"), vocabulary: arg("vocabulary"), required: true,
+                effectsOnly: true,
+            });
+            const outputTools = detachTools(classified.items);
+            const tagged = { connectors: json(wire(outputTools.listings,"connectors")), skills: json(wire(outputTools.listings,"skills")) };
             validateSelectedParts(tagged);
             await mkdir(output,{recursive:true});
             for (const id of partIds) await writeAtomic(join(output,`${id}.json`),tagged[id]);
+            await writeToolParts(output, outputTools);
+            await loadToolParts(output, outputTools.listings);
             console.log(JSON.stringify({ listings: classified.items.length, tagsApplied: classified.applied }));
-        } else validateSelectedParts(bytes);
+        }
     } else throw Error("Usage: bun build.ts parts|index|validate|apply-tags [--output=directory]");
 }

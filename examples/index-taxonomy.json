@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "sequence": 1793420000,
+  "generatedAt": "2026-10-30T02:00:00Z",
+  "expires": "2026-11-13T02:00:00Z",
+  "rules": "1",
+  "commit": "3333333333333333333333333333333333333333",
+  "facets": [
+    {
+      "id": "topic",
+      "label": "Topic",
+      "version": "1.1",
+      "hierarchical": true,
+      "kinds": [
+        "mcp",
+        "skill",
+        "bundle"
+      ],
+      "values": [
+        {
+          "id": "01.03.02",
+          "label": "Software Development › Testing & QA › End-to-end & visual testing",
+          "taxonomy": {
+            "area": "Software Development",
+            "category": "Testing & QA",
+            "topic": "End-to-end & visual testing",
+            "definition": "Browser end-to-end tests and visual regression.",
+            "excludes": "General browser automation."
+          }
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "connectors",
+      "url": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/3333333333333333333333333333333333333333/connectors.json",
+      "sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+      "bytes": 3200,
+      "items": 2
+    },
+    {
+      "id": "skills",
+      "url": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/3333333333333333333333333333333333333333/skills.json",
+      "sha256": "5555555555555555555555555555555555555555555555555555555555555555",
+      "bytes": 2100,
+      "items": 2
+    }
+  ],
+  "annotations": [
+    {
+      "catalogue": "composio",
+      "url": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/3333333333333333333333333333333333333333/annotations/composio.json",
+      "sha256": "6666666666666666666666666666666666666666666666666666666666666666",
+      "bytes": 600,
+      "items": 2
+    }
+  ],
+  "blocked": {
+    "packages": [
+      {
+        "manager": "npm",
+        "identifier": "@evil/mcp",
+        "versions": [
+          "*"
+        ],
+        "reason": "Published credential stealer."
+      }
+    ],
+    "servers": [],
+    "skills": []
+  }
+}

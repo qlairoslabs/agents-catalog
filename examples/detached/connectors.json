@@ -1,0 +1,108 @@
+{
+  "mcp": [
+    {
+      "id": "docker:notion",
+      "formerIds": [],
+      "name": "notion",
+      "display": {
+        "title": "Notion",
+        "description": "Read and write Notion pages and databases.",
+        "icon": null
+      },
+      "origin": {
+        "trust": "curated",
+        "publisher": {
+          "name": "Notion",
+          "verified": true
+        },
+        "source": {
+          "id": "docker",
+          "label": "Docker"
+        },
+        "all": [
+          {
+            "source": {
+              "id": "docker",
+              "label": "Docker"
+            },
+            "trust": "curated"
+          }
+        ]
+      },
+      "discovery": {
+        "summary": "Notion workspaces: pages, databases and comments.",
+        "attributes": {
+          "domain": [
+            "productivity/notes"
+          ],
+          "signin": [
+            "oauth"
+          ],
+          "runs": [
+            "http"
+          ]
+        },
+        "signals": {
+          "popularity": 92,
+          "updatedAt": "2026-10-20"
+        }
+      },
+      "connect": {
+        "config": {
+          "type": "http",
+          "url": "https://mcp.notion.com/mcp"
+        },
+        "auth": "oauth",
+        "secrets": []
+      }
+    },
+    {
+      "id": "community-feed:example-weather",
+      "formerIds": [],
+      "name": "example-weather",
+      "display": {
+        "title": "Weather",
+        "description": null,
+        "icon": null
+      },
+      "origin": {
+        "trust": "community",
+        "publisher": null,
+        "source": {
+          "id": "community-feed",
+          "label": "Community"
+        },
+        "all": [
+          {
+            "source": {
+              "id": "community-feed",
+              "label": "Community"
+            },
+            "trust": "community"
+          }
+        ]
+      },
+      "discovery": {},
+      "connect": {
+        "config": {
+          "type": "package",
+          "package": {
+            "manager": "npm",
+            "identifier": "@example/weather-mcp",
+            "version": "1.2.3"
+          },
+          "env": {
+            "WEATHER_KEY": "$WEATHER_KEY"
+          }
+        },
+        "auth": "key",
+        "secrets": [
+          {
+            "env": "WEATHER_KEY",
+            "label": "Weather API key"
+          }
+        ]
+      }
+    }
+  ]
+}

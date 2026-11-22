@@ -18,7 +18,7 @@ export function withFacets(item: CatalogListingItem): CatalogListingItem {
 export function facets(items: readonly CatalogListingItem[]): CatalogFacet[] {
     const definitions: Array<[string, string]> = [["kind","Kind"],["trust","Trust"],["source","Source"],["vendor","Vendor"],
         ["signin","Sign-in"],["runs","Runs as"],["bundle","Part of a bundle"], ["domain","Domain"],
-        ["product","Product"],["audience","Audience"],["goal","Goal"]];
+        ["product","Product"],["audience","Audience"],["goal","Goal"],["language","Language"],["region","Region"],["status","Status"]];
     return definitions.flatMap(([id, label]) => {
         const selected = items.filter(item => item.discovery.attributes?.[id]?.length);
         if (!selected.length) return [];

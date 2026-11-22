@@ -60,5 +60,13 @@ export function validateIndexBytes(input: string | Uint8Array) {
 
 export function validateIndex(data: unknown) {
     validateSchema("index.schema.json", data);
-    return readIndex(data);
+    const index = readIndex(data);
+    for (const facet of index.facets) {
+        const ids = new Set<string>();
+        for (const value of facet.values ?? []) {
+            if (ids.has(value.id)) throw Error("duplicate index facet value " + value.id);
+            ids.add(value.id);
+        }
+    }
+    return index;
 }
