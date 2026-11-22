@@ -6,7 +6,7 @@ import Ajv2020 from "ajv/dist/2020";
 import addFormats from "ajv-formats";
 import { applyTags } from "./apply";
 import { contentHash, inputOf, toolHash } from "./hash";
-import { containerCommand, DEFAULT_OPTIONS, extractJson, MANAGED_SETTINGS } from "./model";
+import { containerCommand, DEFAULT_OPTIONS, extractJson, MANAGED_SETTINGS, SoftModelError } from "./model";
 import { sanitize, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
 import { classify } from "./run";
@@ -88,7 +88,7 @@ test("classification is resumable: failed batches and missing ids are asked agai
     const flaky = async (_s: string, prompt: string) => {
         calls++;
         const batch = JSON.parse(prompt.slice(prompt.indexOf("["))) as { id: string }[];
-        if (calls === 2) throw new Error("rate limited");
+        if (calls === 2) throw new SoftModelError("rate limited");
         return { items: batch.filter(entry => entry.id !== "a").map(entry => ({ id: entry.id, domain: ["x"], product: [], audience: [], goal: [], summary: "s", whenToUse: "w", tasks: [], effects: [], flags: [] })) };
     };
     const first = await classify(items, flaky, { tagsDir, batch: 2 });
@@ -427,4 +427,36 @@ test("a source mapped two ways in one reply is unmapped, and uncovered comes fro
     expect(proposal.mapping.domain["travel/v3"]).toBe("travel/flights");
     expect(Object.entries(proposal.mapping.domain).some(([f, t]: any) => f.startsWith("travel") && t.startsWith("travel"))).toBe(true);
     expect(proposal.uncovered).toEqual([]);
+});
+
+test("a hard model failure stops the classifier", async () => {
+    const tagsDir = temp();
+    const items = [{ id: "a", kind: "skill" as const, title: "a", description: "", publisher: null, tools: [] }];
+    await expect(classify(items, async () => { throw new Error("Authentication required"); }, { tagsDir, batch: 2 })).rejects.toThrow(/Authentication/);
+});
+
+test("tool activity before a provider failure is hard; only prompt-time limits are recoverable", async () => {
+    const { runBatch, classifyFailure, PromptFailure } = await import("./model");
+    const prev = process.env.CLAUDE_CODE_OAUTH_TOKEN;
+    process.env.CLAUDE_CODE_OAUTH_TOKEN = "test-token";
+    const deps = (impl: Partial<{ start: () => Promise<unknown>; prompt: (p: string, h: any) => Promise<unknown> }>) => ({
+        removeContainer: async () => {},
+        controller: () => ({ start: impl.start ?? (async () => ({})), stop: async () => {}, prompt: impl.prompt ?? (async () => ({ messages: [], stopReason: "end_turn" })) }) as any,
+    });
+    const run = (impl: Parameters<typeof deps>[0]) => runBatch(DEFAULT_OPTIONS, "p", deps(impl)).then(() => null, (e: unknown) => e);
+    try {
+        // Activity, then a 429: an isolation breach, hard.
+        const breach = await run({ prompt: async (_p, h) => { h.onActivity({ kind: "tool", title: "Bash" }); throw new Error("429 rate limit"); } });
+        expect(breach).not.toBeInstanceOf(PromptFailure);
+        expect(classifyFailure(breach)).not.toBeInstanceOf(SoftModelError);
+        const asked = await run({ prompt: async (_p, h) => { h.onPermissionRequest({}); throw new Error("You've hit your 5-hour limit"); } });
+        expect(classifyFailure(asked)).not.toBeInstanceOf(SoftModelError);
+        // A clean prompt-time limit: recoverable.
+        const limit = await run({ prompt: async () => { throw new Error("You've hit your 5-hour limit"); } });
+        expect(limit).toBeInstanceOf(PromptFailure);
+        expect(classifyFailure(limit)).toBeInstanceOf(SoftModelError);
+        // Any other prompt failure, and startup failures with matching text: hard.
+        expect(classifyFailure(await run({ prompt: async () => { throw new Error("Authentication required"); } }))).not.toBeInstanceOf(SoftModelError);
+        expect(classifyFailure(await run({ start: async () => { throw new Error("rate limit while starting"); } }))).not.toBeInstanceOf(SoftModelError);
+    } finally { if (prev === undefined) delete process.env.CLAUDE_CODE_OAUTH_TOKEN; else process.env.CLAUDE_CODE_OAUTH_TOKEN = prev; }
 });

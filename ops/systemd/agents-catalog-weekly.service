@@ -1,0 +1,13 @@
+# Runs the weekly catalogue build once. Settings come from the environment file,
+# which is not in the repository (it names this machine's directories).
+[Unit]
+Description=agents-catalog weekly build and publish
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=%h/.config/agents-catalog/weekly.env
+ExecStart=/bin/bash -lc '"$CATALOG_CHECKOUT/ops/weekly-run.sh"'
+TimeoutStartSec=12h
+Nice=10
