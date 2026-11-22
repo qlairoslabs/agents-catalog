@@ -87,9 +87,20 @@ jobs:
           if [ -f index.json ]; then cp index.json ../previous-index.json; fi
           git rm -rqf --ignore-unmatch . && git clean -fdxq
           cp ../staging/connectors.json ../staging/skills.json .
+          if [ -f ../staging/tools.json ]; then cp ../staging/tools.json .; fi
+          if [ -d ../staging/tools ]; then cp -R ../staging/tools tools; fi
           git add -A
           git commit -q --allow-empty -m "Parts from build ${BUILD}"
           echo "PARTS_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Validate the committed bytes themselves
+        # Exactly what GitHub will serve, exported from the parts commit into a clean
+        # folder and checked by the build's own full validator: every part, the
+        # manifest and every tool-list file, with their counts and references.
+        run: |
+          mkdir committed
+          git -C published archive --format=tar "$PARTS_COMMIT" | tar -x -C committed
+          bun tools/build.ts validate committed
 
       - name: Write and validate the index naming the parts' commit
         run: |
