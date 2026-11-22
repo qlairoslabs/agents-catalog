@@ -53,7 +53,8 @@ for the European Union, or one of a few broad regions using UN M49 names: `afric
 `asia`, `europe`, `latin-america`, `north-america`, `east-africa`. Named groups of
 countries (Benelux, DACH, the Nordics, the Gulf states, the Eurasian Economic Union) are
 expanded to their member countries. A place that is neither (for example "the
-Mediterranean") is left out. The mapping is `facets/regions.tsv`.
+Mediterranean") is left out. The mapping will be `facets/regions.tsv`, added with the
+first build that publishes regions.
 
 ## Status
 

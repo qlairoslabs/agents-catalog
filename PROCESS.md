@@ -69,7 +69,7 @@ publish better evidence of what they do, and it is fetched once per run:
 Tool lists are published (§6); the rest of the evidence is used for classification and
 is not published.
 
-Each entry gets a health result (`ok`, `auth-required`, `not-found`,
+**(v1)** Each entry gets a health result (`ok`, `auth-required`, `not-found`,
 `unreachable`, `deprecated`, `rate-limited`) with the time it was taken.
 
 How we contact servers: read-only requests, a generic client name, no personal
@@ -92,9 +92,11 @@ Each accepted entry becomes a listing in the catalogue format
 Facts that come from the data become filters here: kind, source, publisher, tier,
 sign-in, transport, bundle membership.
 
-**v1:** normalize addresses (case, trailing `/`, `www.`, query) before
-comparing, so the same server listed by two sources merges (for example a
-community entry and Docker's entry for one address). With evidence (§3), servers
+**v1:** two listings merge only when their whole connection is the same: for a remote,
+the address with only scheme and host lowercased (path and query kept unless proven
+equivalent), with the same headers, sign-in and secret slots; for a package, the same
+registry, name, version, arguments, environment and, for MCPB, digest. That merges, for
+example, a community entry and Docker's entry for one address. With evidence (§3), servers
 at different addresses with identical tool lists are flagged for review as
 probable duplicates; they are not merged automatically.
 
@@ -152,7 +154,8 @@ instructions, so models never run with access to the maintainer's machine:
 - Every output is checked outside the container before it is stored. Unknown
   values are dropped and text is cut to the format's limits.
 - Before a new image or login is used, a canary entry that tells the model to run
-  commands and write files must produce nothing.
+  commands and write files must produce no tool call, no permission request and no file,
+  and still a valid answer that ends its turn normally.
 
 Commands: `bun classify/canary.ts`, `bun classify/run.ts <parts-dir>`. See the
 README for options.
@@ -209,7 +212,8 @@ full commit of the reviewed build. It:
 5. Signs the index with the current key (Ed25519), verifies the signature, and
    commits it.
 
-The signing key is only available to that workflow, in a protected environment.
+The signing key is a secret of a protected environment limited to `main`: only workflows
+on `main`, which is itself protected and changed only by review, can use it.
 The public keys are built into the hubs; a second key, held offline, can revoke the
 current one. Every publication has a higher sequence number than the last.
 

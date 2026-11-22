@@ -1,8 +1,8 @@
 # RULES: what the catalogue offers
 
 Status: **in force**, reviewed 2026-11-14, updated 2026-11-22 with what the build
-enforces (§2.2, §3.1, §10) and the status policy (§11). Address normalization in §10 and
-all of §11 apply from the first signed publication. This says what gets offered to
+enforces (§2.2, §3.1, §10) and the status policy (§11). The merge key in §10 and all of §11
+apply from the first signed publication. This says what gets offered to
 users and why; `PROCESS.md` says how the catalogue is built, and `TAXONOMY.md` how it is
 organized. Sections marked **open** are not decided.
 
@@ -304,7 +304,7 @@ version it was built with.
 
 | Rule | Why |
 |---|---|
-| Listings with the same connection (the same address after normalizing case, trailing `/`, `www.` and query, or the same package and version) are one listing with all their sources, at the highest tier | the same tool must not appear twice because two sources list it |
+| Listings with the same whole connection are one listing with all their sources, at the highest tier: for a remote, the same address with only scheme and host lowercased (path and query kept unless proven equivalent) and the same headers, sign-in and secret slots; for a package, the same registry, name, version, arguments, environment and, for MCPB, digest | the same tool must not appear twice because two sources list it, but two connections that differ in any way may be different tools |
 | Skills with identical content are one listing (§5) | copies are common |
 | Different addresses of one publisher, different packaging of one service (a server and a bundle), and different builders for one service (an official and a community server) stay separate listings | they are different things to connect; a hub can show how they relate |
 | Two servers at different addresses with identical tool lists are flagged for review, never merged automatically | likely copies, but only a person can tell |
