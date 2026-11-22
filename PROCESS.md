@@ -25,7 +25,7 @@ installed or run.
 | 3 | Fetch evidence about each entry | tool lists, skill text, READMEs, health | code |
 | 4 | Map, merge and remove duplicates | one listing per tool, in the catalogue format | code |
 | 5 | Classify | topic, status, summary, language, regions; effect per tool | models, then a person (see §5) |
-| 6 | Apply the classification and validate | the parts: `connectors.json`, `skills.json` | code |
+| 6 | Apply the classification and validate | the parts: `connectors.json`, `skills.json`, the tool-list manifest `tools.json` and one `tools/<hash>.json` per server | code |
 | 7 | Compare with the previous catalogue | a report: every entry added, changed, merged or dropped, with its rule | code, read by a person |
 | 8 | Review | the reviewed build, on a branch | a person |
 | 9 | Sign and publish | `index.json` and its signature, on the `published` branch | the owner starts it |
@@ -65,6 +65,9 @@ publish better evidence of what they do, and it is fetched once per run:
 | Skill | `SKILL.md`, at the pinned commit | v1 |
 | Bundle | `README.md` and the plugin file, at the pinned commit | v1 |
 | npm or PyPI package | README, latest version, deprecated or yanked flags | v1 |
+
+Tool lists are published (§6); the rest of the evidence is used for classification and
+is not published.
 
 Each entry gets a health result (`ok`, `auth-required`, `not-found`,
 `unreachable`, `deprecated`, `rate-limited`) with the time it was taken.
@@ -167,6 +170,12 @@ batch run.
 or `bun build.ts apply-tags` applies it to an existing build. Untagged entries are
 published as they are, only without those filters.
 
+Tool lists are not inside the listings: each server's list is its own file,
+`tools/<sha256>.json`, named by its content, and `tools.json` (the manifest) gives each
+listing's file, size, tool count and its counts of `read`, `write` and `risky` tools.
+Hubs load the listings and the manifest, and fetch a tool list only when they need it.
+**(v1)**
+
 `bun build.ts validate <dir>` then checks every part against the schema and the
 same limits a hub applies (bytes, items, depth, text lengths). A part that fails,
 a source that comes back empty, or a part far smaller than the last good one keeps
@@ -189,12 +198,14 @@ bytes are published.
 The `publish` workflow is started by hand, from `main`, by the owner, naming the
 full commit of the reviewed build. It:
 
-1. Takes the build's two parts from that commit as git objects, refusing anything
-   else in `out/`. Nothing from the build commit runs.
+1. Takes the build's files from that commit as git objects: the two parts, and (v1) the
+   manifest and the tool-list files, refusing anything else in `out/`. Nothing from the
+   build commit runs.
 2. Validates them with this repository's own code, from the workflow's commit.
 3. Commits the parts to `published`.
-4. Writes the index naming that commit, and checks it against the committed bytes
-   (sizes and digests of what GitHub will serve).
+4. Writes the index naming that commit, and checks it, and (v1) every tool-list file
+   against the manifest, from the committed bytes (sizes and digests of what GitHub will
+   serve).
 5. Signs the index with the current key (Ed25519), verifies the signature, and
    commits it.
 
