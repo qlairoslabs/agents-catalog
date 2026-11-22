@@ -86,7 +86,14 @@ report and fails the build before it writes the parts.
 Routine publishing uses the shipped current key. The verifier accepts only IDs
 in `sign/keys.ts`, which holds the same public keys as the library.
 
-To sign a revocation index, move the prepared index to the offline machine.
+Prepare a revocation index from the last good published index in a fresh
+output directory. The existing commit and part references are preserved.
+
+```sh
+bun sign/cli.ts revocation-index --from /path/to/published/index.json --revoke catalog-2026-a --out /path/to/index-dir
+```
+
+Move the prepared index to the offline machine to sign it.
 From the catalogue checkout, run:
 
 ```sh

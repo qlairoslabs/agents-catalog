@@ -11,6 +11,8 @@
 //   bun sign/cli.ts sign --next <private-key-file> [dir]
 //       Signs with the shipped offline next key, using the current directory
 //       by default. Run on an offline machine with a clean environment.
+//   bun sign/cli.ts revocation-index --from <index.json> --revoke catalog-2026-a --out <dir>
+//       Validates and prepares an unsigned index using the previous part references.
 //   bun sign/cli.ts verify <dir>
 //       Verifies against the shipped key the signature names; any other id fails.
 
@@ -94,6 +96,9 @@ if (command === "keygen") {
     if (!await verifyIndex(index, sig, key.key)) throw new Error("the new signature does not verify");
     await Bun.write(join(dir, "index.json.sig"), JSON.stringify(sig) + "\n");
     console.log(`signed ${index.byteLength} bytes with ${key.kid}`);
+} else if (command === "revocation-index") {
+    const { writeRevocationIndex } = await import("./revocation-index");
+    await writeRevocationIndex(args);
 } else if (command === "verify") {
     const [dir] = args;
     if (!dir) throw new Error("usage: verify <dir>");
@@ -105,6 +110,6 @@ if (command === "keygen") {
     }
     console.log(`verified, key ${sig.keyId}`);
 } else {
-    console.error("usage: bun sign/cli.ts keygen <file> | sign <dir> | sign --next <private-key-file> [dir] | verify <dir>");
+    console.error("usage: bun sign/cli.ts keygen <file> | sign <dir> | sign --next <private-key-file> [dir] | verify <dir> | revocation-index --from <index.json> --revoke catalog-2026-a --out <dir>");
     process.exit(2);
 }
