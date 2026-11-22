@@ -23,6 +23,10 @@ CLASSIFY_EFFECTS_MODEL="${CLASSIFY_EFFECTS_MODEL:-sonnet}"
 export CLASSIFY_IMAGE="${CLASSIFY_IMAGE:-}"       # the classification container image (classify/model.ts)
 [ -n "$CLASSIFY_IMAGE" ] || unset CLASSIFY_IMAGE
 
+# The identity of the commits the job makes (labels on main, the release branch).
+export GIT_AUTHOR_NAME="${CATALOG_GIT_NAME:-agents-catalog weekly}" GIT_COMMITTER_NAME="${CATALOG_GIT_NAME:-agents-catalog weekly}"
+export GIT_AUTHOR_EMAIL="${CATALOG_GIT_EMAIL:-weekly@users.noreply.github.com}" GIT_COMMITTER_EMAIL="${CATALOG_GIT_EMAIL:-weekly@users.noreply.github.com}"
+
 RUN_ID="${CATALOG_RUN_ID:-$(date -u +%Y-%m-%d)}"
 RUN="$CATALOG_WORK/$RUN_ID"
 mkdir -p "$RUN" "$CATALOG_CACHE"
@@ -89,8 +93,7 @@ bun build.ts validate "$TAGGED" || fail "validation failed"
 step "record this week's labels on main"
 git add tags facets/classification-added.json
 if ! git diff --cached --quiet; then
-    git -c user.name="agents-catalog weekly" -c user.email="weekly@users.noreply.github.com" \
-        commit -q -m "Weekly labels, run $RUN_ID"
+    git commit -q -m "Weekly labels, run $RUN_ID"
     git push -q origin HEAD:main || { git pull -q --rebase origin main && git push -q origin HEAD:main; } \
         || fail "could not record the labels on main"
 fi

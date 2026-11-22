@@ -297,6 +297,7 @@ All in the environment; `ops/systemd/weekly.env.example` lists them.
 | `CATALOG_MAX_DROP_FRACTION` | the drop limit (default `0.05`) |
 | `CLASSIFY_LABEL_MODEL`, `CLASSIFY_RECHECK_MODEL`, `CLASSIFY_EFFECTS_MODEL` | the models for labeling (default Haiku), its re-check (Sonnet) and tool effects (Sonnet) |
 | `CLASSIFY_IMAGE` | the container image the models run in (§5.3) |
+| `CATALOG_GIT_NAME`, `CATALOG_GIT_EMAIL` | the identity of the job's commits (default `agents-catalog weekly`) |
 
 Credentials are not settings: the model login and GitHub access come from the machine
 the job runs on.
