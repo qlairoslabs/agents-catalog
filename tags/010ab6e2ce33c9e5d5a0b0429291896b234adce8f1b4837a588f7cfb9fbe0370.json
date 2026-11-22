@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "010ab6e2ce33c9e5d5a0b0429291896b234adce8f1b4837a588f7cfb9fbe0370",
+ "domain": [
+  "careers/resumes",
+  "productivity/documents"
+ ],
+ "product": [
+  "cloudresume"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Connector for the Cloudresume resume builder that lets an assistant create and edit resumes.",
+ "whenToUse": "Use when a user wants to draft, create or revise a resume through Cloudresume.",
+ "tasks": [
+  "create resumes",
+  "edit resumes"
+ ],
+ "effects": {},
+ "flags": []
+}

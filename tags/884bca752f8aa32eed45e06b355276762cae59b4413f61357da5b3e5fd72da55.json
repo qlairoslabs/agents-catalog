@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "884bca752f8aa32eed45e06b355276762cae59b4413f61357da5b3e5fd72da55",
+ "domain": [
+  "ecommerce/price-comparison",
+  "health/supplements"
+ ],
+ "product": [
+  "sportpoeder",
+  "supplementscore"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Dutch/Belgian supplement price comparison with price history, quality scores, discount codes, sale calendars and UCP catalogue lookups.",
+ "whenToUse": "Use when comparing supplement prices, checking if a discount is real, or finding codes and sales.",
+ "tasks": [
+  "search supplements",
+  "product quality verdict",
+  "price history",
+  "verified discount code",
+  "best in category",
+  "weekly deals",
+  "current sales",
+  "expected sales",
+  "score methodology",
+  "UCP catalogue search"
+ ],
+ "effects": {
+  "5477e92d4ac8e65cb327a263bf12d0313bc21683dadbfac7db0cad855196d8a6": "read",
+  "10647da06e90a8e0bea2b48b195de06e47c842a8fd6ce89edd84523324933841": "read",
+  "9514458352a96639178947703ba65e7ce258fd4d20e735de96435a7a540a1d7b": "read",
+  "f21529ab81ff952eead141d5ba528374b61ae3f91c0ee46f106a78e01f3303cf": "read",
+  "76a30f17e6017d2d0144359120c5e879a586f3d040eddb9b344888d513f67d53": "read",
+  "b5e39955e1fb01fcba3731f0dcac5f30568023a313910d6d76c6cf4418a2c71d": "read",
+  "f993fd47ab85b62d3d271049ff48d77238ed7e43a52f71e272053cdf940c0b5e": "read",
+  "a94ae16d8366863744f0c3398b81059d55c78e521753b4935a6e61e2e3c79705": "read",
+  "aaffc01488c1bd22b9495ea509005b6e92d1a1c8c56721e42454ff7330b6498b": "read",
+  "696a5f50e3c7ebb26fa8e70cbb8ea4dba6742bc3f0cf7acf7cc8f48193695470": "read",
+  "c118f3bb7ff3f8aef4b0d5e55ab2377d8584b83f9db2dd839ec2c2fbcb5fbf81": "read",
+  "7432dcc6a8e5b56907d845604266e2eaf4c8f57393d1ca2f4768ca5131e8a004": "read"
+ },
+ "flags": []
+}

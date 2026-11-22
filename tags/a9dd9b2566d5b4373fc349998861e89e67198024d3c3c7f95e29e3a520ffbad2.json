@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "a9dd9b2566d5b4373fc349998861e89e67198024d3c3c7f95e29e3a520ffbad2",
+ "domain": [
+  "software/ci-cd",
+  "software/migration"
+ ],
+ "product": [
+  "buildkite",
+  "jenkins",
+  "github-actions",
+  "circleci",
+  "bitbucket-pipelines",
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps plan and convert CI/CD configurations from Jenkins, GitHub Actions, CircleCI, Bitbucket or GitLab to Buildkite pipelines.",
+ "whenToUse": "Use when the user wants to migrate CI/CD to Buildkite or find Buildkite equivalents of another provider's features.",
+ "tasks": [
+  "plan ci migration",
+  "convert jenkins pipelines",
+  "convert github actions workflows",
+  "convert circleci config",
+  "convert bitbucket pipelines",
+  "convert gitlab ci",
+  "map features to buildkite equivalents"
+ ],
+ "effects": {},
+ "flags": []
+}

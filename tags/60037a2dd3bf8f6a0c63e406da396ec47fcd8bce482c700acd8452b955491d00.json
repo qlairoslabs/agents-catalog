@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "60037a2dd3bf8f6a0c63e406da396ec47fcd8bce482c700acd8452b955491d00",
+ "domain": [
+  "language/dictionary",
+  "reference"
+ ],
+ "product": [
+  "freedict"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "English dictionary lookup with definitions, synonyms, rhymes, etymology, slang, translations and word search.",
+ "whenToUse": "Use when an agent needs word definitions, synonyms, rhymes, origins or translations.",
+ "tasks": [
+  "look up definitions",
+  "find synonyms",
+  "find rhymes",
+  "show word origins",
+  "look up slang",
+  "translate words",
+  "search words"
+ ],
+ "effects": {},
+ "flags": []
+}

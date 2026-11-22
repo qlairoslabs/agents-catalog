@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5df840c6cbe3c9ea75e7c9c408f5cb17ab07e74799ca183c40d11230e8c9fee1",
+ "domain": [
+  "finance/crypto/risk-analysis",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "solana",
+  "ethereum"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Rug pull risk scoring and on-chain forensics for tokens on Solana and six EVM chains.",
+ "whenToUse": "Use when assessing whether a memecoin or token is a likely rug pull.",
+ "tasks": [
+  "analyze token rug pull risk",
+  "run on-chain forensics",
+  "check evm and solana tokens"
+ ],
+ "effects": {},
+ "flags": []
+}

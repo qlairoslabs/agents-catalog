@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2fd886b133a0e20e4d90e3ab5d8354c895d59472eaf0d44d8ee0c8b36a391490",
+ "domain": [
+  "travel/parking",
+  "transport"
+ ],
+ "product": [
+  "parclick"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds and compares bookable parking near a location in Europe, with firm prices and checkout links.",
+ "whenToUse": "Use when a user needs to park near an address, airport, station or event and wants prices and a booking link.",
+ "tasks": [
+  "search parkings",
+  "get parking details",
+  "get firm quote",
+  "provide checkout link"
+ ],
+ "effects": {
+  "6b26b3a6d87025e5fb7842ea7080ee4476afd266fae24ed352eccd98da2c1f00": "write",
+  "8e0d6073f267c610b9638faa38fd801fc267e91fcd8ef7ab1076cd8c13e43a91": "write",
+  "60d3d60c6a95908d6d2a6a0d2e5c59927af4571202bbc4581b4e98209b1b5daa": "read"
+ },
+ "flags": []
+}

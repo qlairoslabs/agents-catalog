@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "6dc748f0dab41512019a1b917a4aa44165dad7f6ea5a624165f4b1f833b2b5a9",
+ "domain": [
+  "real-estate/address-data",
+  "public-data/netherlands"
+ ],
+ "product": [
+  "bag",
+  "ep-online",
+  "koopscan"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Dutch addresses for BAG building facts, registered energy labels and reviewed news-based crime signals, with source articles.",
+ "whenToUse": "Use when evaluating a Dutch home and you need building data, energy label or local crime signals.",
+ "tasks": [
+  "look up Dutch address",
+  "get building facts",
+  "get energy label",
+  "summarize crime signals",
+  "list crime news sources"
+ ],
+ "effects": {
+  "d3c16a183c5cf2d202a61dc47d67410a4acda5f497d4b60f5db3264926c78f91": "write",
+  "c52075ffb5304b979665e43ad709d37ae4de4b3f24cbccc63cdba4ba7fa1884a": "read"
+ },
+ "flags": []
+}

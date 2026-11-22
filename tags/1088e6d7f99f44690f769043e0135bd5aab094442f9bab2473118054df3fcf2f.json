@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1088e6d7f99f44690f769043e0135bd5aab094442f9bab2473118054df3fcf2f",
+ "domain": [
+  "infrastructure/data-centers",
+  "energy"
+ ],
+ "product": [
+  "dc-hub"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Local npm server providing data center and energy market intelligence through an orchestration layer.",
+ "whenToUse": "Use when researching data center capacity, sites or energy information via DC Hub.",
+ "tasks": [
+  "run data center intelligence plans",
+  "query energy data"
+ ],
+ "effects": {},
+ "flags": []
+}

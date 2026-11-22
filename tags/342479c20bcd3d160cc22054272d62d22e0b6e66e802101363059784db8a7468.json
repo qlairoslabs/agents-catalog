@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "342479c20bcd3d160cc22054272d62d22e0b6e66e802101363059784db8a7468",
+ "domain": [
+  "finance/securities",
+  "investing"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides interpreted SEC insider filings: Form 4 trade events, Form 144 sale notices and 13D/13G stakes, delayed by 24 hours.",
+ "whenToUse": "Use when analyzing insider buying or selling and large holder stakes for a listed company.",
+ "tasks": [
+  "search insider events",
+  "filter by event type and value",
+  "get company timeline",
+  "get activist stakes",
+  "get sale notices"
+ ],
+ "effects": {
+  "2ea94447e59c71702dd656b9d62165636c80748a6091ed33698a30b6b1ee6a23": "read",
+  "9ca214b5db8c39018ae50c6e0baa930c784d9b21e3c674e2d5d856d5b4cc2f75": "read",
+  "2624eb6da3d12faca43ad80aa3fa0f9d66169faef00aa9a60cf7e144065af242": "read",
+  "f27b8a702d0bc8b91b09e5084f0029d3feae04b6aba2984d1ae4f65440124500": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "56cebacb611da4e6ff95e7de05d094ece135650643c747a5582c03afdeca3d09",
+ "domain": [
+  "marketing/advertising-analytics"
+ ],
+ "product": [
+  "google-ads",
+  "meta-ads",
+  "flyweel"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Gives an agent access to Google Ads and Meta Ads data for analysing campaign performance.",
+ "whenToUse": "Use when an agent needs to review or compare ad campaign performance on Google or Meta.",
+ "tasks": [
+  "read google ads data",
+  "read meta ads data",
+  "analyse campaign performance"
+ ],
+ "effects": {},
+ "flags": []
+}

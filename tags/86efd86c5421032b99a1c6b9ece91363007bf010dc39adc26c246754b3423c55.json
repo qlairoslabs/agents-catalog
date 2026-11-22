@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "86efd86c5421032b99a1c6b9ece91363007bf010dc39adc26c246754b3423c55",
+ "domain": [
+  "software/authentication",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-cli",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps developers get AWS credentials for CLI and SDK use with aws login.",
+ "whenToUse": "Use when an AWS operation fails from missing or expired credentials or a developer needs to set up AWS access locally.",
+ "tasks": [
+  "run aws login",
+  "set up local credentials",
+  "fix expired sessions",
+  "diagnose missing credential errors"
+ ],
+ "effects": {},
+ "flags": []
+}

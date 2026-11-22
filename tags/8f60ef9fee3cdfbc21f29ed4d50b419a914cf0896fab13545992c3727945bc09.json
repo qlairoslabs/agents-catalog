@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8f60ef9fee3cdfbc21f29ed4d50b419a914cf0896fab13545992c3727945bc09",
+ "domain": [
+  "finance/crypto/trading-signals"
+ ],
+ "product": [
+  "pique-signal",
+  "solana"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live Solana memecoin calls, single-coin deep dives, live prices and paper trading; requires a Pique key.",
+ "whenToUse": "Use when tracking Solana memecoin signals or paper trading them.",
+ "tasks": [
+  "get memecoin calls",
+  "get coin deep dives",
+  "get live prices",
+  "paper trade"
+ ],
+ "effects": {},
+ "flags": []
+}

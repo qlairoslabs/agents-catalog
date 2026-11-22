@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "174abf93cbe1b6d662db28720ef3fbe374118be1f0b8f15da9bdad73aef0857d",
+ "domain": [
+  "software/documentation"
+ ],
+ "product": [
+  "mintlify"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads Mintlify's documentation, and lets the agent submit documentation feedback.",
+ "whenToUse": "Use when answering questions about Mintlify setup, the mint CLI, docs.json or components.",
+ "tasks": [
+  "search docs",
+  "read doc pages",
+  "browse docs filesystem",
+  "submit docs feedback"
+ ],
+ "effects": {
+  "ab480864d4d2f12091ee22ec1074430e4b69d25c74fd166f76605876a6c6de07": "write",
+  "e86da29197505726c3e45972846750e8ca60b723ab6893dba2845b53ac70792a": "write",
+  "fcf9b7723e4121bf5d4f208c3731228c583078ec3029b854addd4aea8601eac9": "write"
+ },
+ "flags": []
+}

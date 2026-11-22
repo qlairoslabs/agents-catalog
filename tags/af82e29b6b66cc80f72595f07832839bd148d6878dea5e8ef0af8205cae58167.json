@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "af82e29b6b66cc80f72595f07832839bd148d6878dea5e8ef0af8205cae58167",
+ "domain": [
+  "finance/precious-metals"
+ ],
+ "product": [
+  "idfmetale",
+  "lbma"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Polish gold and silver bullion dealer catalogue with live prices, stock status, buyback prices and guides; read-only.",
+ "whenToUse": "Use when someone asks about bullion products, current prices, availability or buyback value at IDFMETALE.",
+ "tasks": [
+  "search bullion catalogue",
+  "get product details",
+  "get live price",
+  "list mints",
+  "list categories",
+  "check availability",
+  "get buyback price",
+  "read knowledge pages",
+  "search guides"
+ ],
+ "effects": {
+  "dbfcc0ccddc235db84a9a730d70c80a042e2846076e16f3b1a71aa69fb77707c": "write",
+  "5648369f9fda64c72e7b98e07fceb26f8fb5564ca566f32d44851cb2be5abdd7": "write",
+  "da08a9c65368cef2d95d184703c85df0480483441acb70452b168db9191e84cb": "read",
+  "7de9621947d151a1a4b1d3ce29391c4d2d26a595b1ce7d0b3bfe6abe75e1c18f": "read",
+  "daf476384005e6b27a05786b55e14fc63c5a7a5196ecdc30372adf73c5ed1d5a": "read",
+  "73c313747bb17f530e0ce7f20e645acf573755f3cd00d280f4b653cfe563c72d": "read",
+  "b7b9b57062b7121fee560c3999df2dc5a9945c3bab84a4c3dee2a13a0652faf8": "write",
+  "06e2cf14764867aeeafe4895e9add023925bfef1bba6fe72833264d37e463389": "read",
+  "40856575a94e9d2745938e426ec10dc909d3f18032131ff1bc4b9bca6e8e4ca1": "read"
+ },
+ "flags": []
+}

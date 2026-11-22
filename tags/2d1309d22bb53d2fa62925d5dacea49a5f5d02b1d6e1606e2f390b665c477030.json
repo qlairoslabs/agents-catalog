@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2d1309d22bb53d2fa62925d5dacea49a5f5d02b1d6e1606e2f390b665c477030",
+ "domain": [
+  "product/in-app-messaging",
+  "analytics/surveys"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lists Amplitude Guides and Surveys and reads the full configuration of a single guide or survey.",
+ "whenToUse": "Use when you need to see which Amplitude guides or surveys exist or inspect one's configuration.",
+ "tasks": [
+  "list guides",
+  "list surveys",
+  "read guide or survey configuration"
+ ],
+ "effects": {},
+ "flags": []
+}

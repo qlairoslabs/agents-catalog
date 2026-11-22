@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3c424f08a2625250433e70d8cbbaeb2579da83971be0ee87c4adfaaf2b19a54f",
+ "domain": [
+  "software/search",
+  "research/retrieval"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches local code, PDFs and Office files and returns results with exact citations.",
+ "whenToUse": "Use when an agent needs to find and cite passages in local code or documents.",
+ "tasks": [
+  "index local files",
+  "search code",
+  "search pdfs",
+  "search office documents",
+  "return cited passages"
+ ],
+ "effects": {},
+ "flags": []
+}

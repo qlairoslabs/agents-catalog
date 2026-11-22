@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "87ffac8f92f739a7cbad01701e03286aa39a660cc5a4d59a86d851b08b936e14",
+ "domain": [
+  "web/ai-avatars",
+  "software/web-development"
+ ],
+ "product": [
+  "asmi"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Lets users design an AI avatar for their website in the ASMI studio and have a coding agent add it to their repo.",
+ "whenToUse": "Use when a user wants to add an ASMI-designed AI avatar to their website codebase.",
+ "tasks": [
+  "design ai avatar",
+  "fetch avatar configuration",
+  "install avatar into repository"
+ ],
+ "effects": {},
+ "flags": []
+}

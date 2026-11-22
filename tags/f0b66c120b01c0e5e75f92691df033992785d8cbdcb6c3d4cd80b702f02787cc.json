@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f0b66c120b01c0e5e75f92691df033992785d8cbdcb6c3d4cd80b702f02787cc",
+ "domain": [
+  "science/structural-biology/structure-prediction",
+  "science/drug-discovery"
+ ],
+ "product": [
+  "boltz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Predicts the 3D structure and binding of a single protein, RNA, DNA or ligand complex using Boltz.",
+ "whenToUse": "Use when a user wants to fold one biomolecular complex, dock a single ligand, predict an interface or score binding.",
+ "tasks": [
+  "fold proteins, rna and dna",
+  "predict complex structures",
+  "dock a single ligand",
+  "predict binding interfaces",
+  "score binding affinity"
+ ],
+ "effects": {},
+ "flags": []
+}

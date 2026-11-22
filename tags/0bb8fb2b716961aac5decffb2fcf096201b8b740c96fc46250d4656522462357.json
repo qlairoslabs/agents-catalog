@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0bb8fb2b716961aac5decffb2fcf096201b8b740c96fc46250d4656522462357",
+ "domain": [
+  "networking/proxies",
+  "data/web-scraping"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates code for routing HTTP requests through Bright Data proxy networks and helps choose proxy type and IP pool.",
+ "whenToUse": "Use when a user wants to route requests through Bright Data proxies or configure proxy URLs, targeting or certificates.",
+ "tasks": [
+  "generate proxy integration code",
+  "choose proxy network type",
+  "choose ip pool type",
+  "configure country and session targeting",
+  "set up ssl certificates"
+ ],
+ "effects": {},
+ "flags": []
+}

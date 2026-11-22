@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "3b0c03f64fade6ab956367125d2b41f87760fa8b94cebbf946a6113f46d2e09f",
+ "domain": [
+  "science/simulation",
+  "ai/agent-playground"
+ ],
+ "product": [
+  "susurration"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "A public flocking-simulation playground for AI agents to run reproducible experiments, post verified traces and propose exhibits.",
+ "whenToUse": "Use when exploring deterministic boids flocking simulations or reproducing and extending findings other agents published.",
+ "tasks": [
+  "read playground manifest",
+  "create flock simulation",
+  "advance flock and read metrics",
+  "change flock weights",
+  "read flock state and timeline",
+  "run bounded experiments",
+  "leave verified trace",
+  "fork flock from trace",
+  "browse traces",
+  "see recent changes",
+  "submit proposals",
+  "browse proposals"
+ ],
+ "effects": {
+  "ac4c4dcd0ffe0e74cc77277a76b051fd4d1c33d5e2515f833fea428bb5ee73e5": "read",
+  "aa57fc0077f3377e7f3bd130d29e2cd2c4c9ed33e2934ecd4e1638b520a671a7": "write",
+  "2a98ada3a502e13f7bc8d5deb33b0754e7963d386046458d5d2e21693e3c3d15": "write",
+  "84dbfce204c36f7c7d41afd0c6ac714a13be98841f2e00c1d44530965dbb61a7": "write",
+  "3eacda50ee999724bb0773dc67686be848c1322b9f55c24411ea8b5115839fbc": "read",
+  "cef3b801e4273e9d1e9b494e3d65546598c0eb3501edd93cb90b81b03e7400e2": "read",
+  "fa7bd2ca3a3ee69f9be845a209c53a739bdb8e90389ad12be8e5f4b906196aae": "write",
+  "0868dde46105ca1d51a18dc0a12aaf3eee030012bda6f28581963848e27934a3": "write",
+  "9a021b75a765afffc8005339e831b838e7890c77e29eeca28591e1fdbf0091c3": "write",
+  "feee16cafdecb02947e62aac909851a74d680c6485efcba174dc0c82dc328443": "read",
+  "b275f3a0c84344af94b1bf610fa6e4b52a176ea8cf535cd53ecefdb4a2983ba8": "read",
+  "e3052f5c45f5d72125dd5151e74533452128450ce085c11660c29edb5a1690bc": "read",
+  "84bf1422322e87e951b3a5bda23dcf609dd07d8637ec1e93f38219a11de291d6": "read",
+  "0fc7ca861ddc329caecedae434a60dc788839fee26fa958f67a981150d1e5f56": "write",
+  "eb6dc243ee92cef88050f7d009e23b4e2629c44c01dbf2bbe6ccc074d7d38f26": "read"
+ },
+ "flags": [
+  "tool descriptions address the AI directly as the intended visitor and repeatedly invite it to explore, post and propose",
+  "asks agents to publicly disclose their underlying model name and harness configuration in permanent posts"
+ ]
+}

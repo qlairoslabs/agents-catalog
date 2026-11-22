@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2ffb8fc487e0eba9936eae13787e3135b0cb3bfc3b5c9c7425602fe504e742db",
+ "domain": [
+  "language/nlp",
+  "language/korean"
+ ],
+ "product": [
+  "bareun"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Korean NLP service for morphological analysis, tokenization, and spelling and grammar checking.",
+ "whenToUse": "Use when an agent needs to analyze Korean text or check its spelling and grammar.",
+ "tasks": [
+  "analyze korean morphology",
+  "tokenize korean text",
+  "check korean spelling",
+  "check korean grammar"
+ ],
+ "effects": {},
+ "flags": []
+}

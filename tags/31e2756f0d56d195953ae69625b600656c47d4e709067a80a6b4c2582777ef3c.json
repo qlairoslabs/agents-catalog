@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "31e2756f0d56d195953ae69625b600656c47d4e709067a80a6b4c2582777ef3c",
+ "domain": [
+  "software/service-virtualization",
+  "software/api-testing"
+ ],
+ "product": [
+  "traffic-parrot",
+  "ibm-mq",
+  "rabbitmq",
+  "activemq",
+  "grpc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "get-customers"
+ ],
+ "summary": "Request or withdraw a Traffic Parrot trial, send feature requests, and read docs and onboarding for its API and messaging simulation tool.",
+ "whenToUse": "Use when a developer wants to evaluate API or messaging mocking and agrees to share contact details for a trial.",
+ "tasks": [
+  "request trial",
+  "check trial status",
+  "withdraw trial request",
+  "submit feature request",
+  "read documentation",
+  "read onboarding guide"
+ ],
+ "effects": {
+  "dbc54b89a874abd662f40d83dd8d9e038fd3f527a26ff10ac2aa6e7ef6c7eafb": "write",
+  "c43e7a7aa370a191fd630e23e7f4a6f085db008d5337eaa10b7e9e67813936f7": "write",
+  "9002019e7f7308c93e73226f7560313cf3620ef32f56c5d62bdde054ddcd9df1": "write",
+  "74c49d62a169cfdd4952da88514dbe117ecde9eca72f7a23a9636086a497bf3b": "read",
+  "6a37d69b1187354a6a662cfe93b99ebddfe3227a4dc6ef47d28c02a6044f32e6": "read",
+  "be6a266da56f399e510a40dc1152cb98f8f790be342b8b8cd8291d2deec65485": "read"
+ },
+ "flags": []
+}

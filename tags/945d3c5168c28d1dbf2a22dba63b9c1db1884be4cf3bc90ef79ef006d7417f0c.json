@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "945d3c5168c28d1dbf2a22dba63b9c1db1884be4cf3bc90ef79ef006d7417f0c",
+ "domain": [
+  "software/ui-components",
+  "software/documentation"
+ ],
+ "product": [
+  "ignite-ui"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides Ignite UI documentation, API reference and CLI project scaffolding.",
+ "whenToUse": "Use when an agent is building an app with Ignite UI components and needs docs or scaffolding.",
+ "tasks": [
+  "search documentation",
+  "look up api reference",
+  "scaffold projects with cli"
+ ],
+ "effects": {},
+ "flags": []
+}

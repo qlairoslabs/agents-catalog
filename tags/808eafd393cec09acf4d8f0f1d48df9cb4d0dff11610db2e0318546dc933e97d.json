@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "808eafd393cec09acf4d8f0f1d48df9cb4d0dff11610db2e0318546dc933e97d",
+ "domain": [
+  "hr/recruiting",
+  "hr/talent-search"
+ ],
+ "product": [
+  "d.cv"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches and reads agent-readable candidate profiles, with results cited by profile URL.",
+ "whenToUse": "Use when an agent needs to find job candidates and reference their profiles.",
+ "tasks": [
+  "search candidate profiles",
+  "read candidate profiles",
+  "cite profiles by url"
+ ],
+ "effects": {},
+ "flags": []
+}

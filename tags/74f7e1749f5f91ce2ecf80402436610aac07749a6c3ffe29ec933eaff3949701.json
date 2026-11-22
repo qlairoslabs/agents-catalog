@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "74f7e1749f5f91ce2ecf80402436610aac07749a6c3ffe29ec933eaff3949701",
+ "domain": [
+  "business/product-information",
+  "productivity/scheduling",
+  "sales/crm"
+ ],
+ "product": [
+  "fluentive"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Read-only product information about Fluentive's scheduling and client management platform: features, pricing, trial, security, comparisons and blog.",
+ "whenToUse": "Use when a user asks what Fluentive is, how much it costs, whether it fits their business, or how it compares to alternatives.",
+ "tasks": [
+  "get product overview",
+  "get pricing plans",
+  "get free trial details",
+  "describe target audience",
+  "explain fit for an industry",
+  "list features",
+  "describe onboarding",
+  "get security and compliance info",
+  "compare with alternatives",
+  "get company info",
+  "answer FAQs",
+  "search blog and product content"
+ ],
+ "effects": {
+  "8cf096acb21ba04adfe0e3a0ca967ca9b2467cadeeb8a343ce41c4c9583d265b": "read",
+  "b14dce13e7881a1bf919a3c5e6023bc5c4365017a6e7229ea920aba63fa3e843": "read",
+  "bbd22391e489eaad5432b0ec8f9bf9c25266f5f97a5c61d9a3f1743accc72aa4": "read",
+  "a5b3eb37128ee8e36c8bbc94a16c4e488010c8712e84ed6b9f6551f78017ee84": "read",
+  "c042e2367dab2868a3641f8aa6762b35a2043b16dea197edbbbd18663c2fedbd": "read",
+  "1231094f5b2b0d238c42d9f8907105c500775da11b3169efae1ed3063de69c74": "read",
+  "056498ff0fe9e2dfcefdf58eb3b6edd11d870ffe08d8121ab9003f9bb67a3eed": "read",
+  "4bfe6195f5836565b4cac682025b189fc0a03e43a2afa122c78434c2fcf03361": "read",
+  "ebe2bb39316d9516d12e47cbff770d6666dfb7372cb672831ca24ba471159daf": "read",
+  "4c1c5a36e9a7f75334044c0b4c4219d459261accdc2705afcd86b3eb0447000f": "read",
+  "d6ae615bcca405144f94fb2382942631d2c162853f6f2afe1071e3ec638ef373": "read",
+  "d60ec2e1c725a4f653b3cc2edb129394467bd8afd84921f80abffc4dba403296": "read",
+  "e19c540c945b080a02afebf94a936c73dae65e02f3ed5dec3ec3da67cc43992f": "read",
+  "1b27b16a0fc88a7fd1d250cd3b45b0d32f7e9b3fb92a157e3e30466ff350e215": "read",
+  "261f21807ab567651c6be1b5fea45b98ccb221b94bba4ee338351765541391bb": "read"
+ },
+ "flags": [
+  "get_overview description steers agents to invoke it whenever a user searches for any scheduling or CRM tool, promoting the vendor"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2761b7259ca4777fd555b6e86d75c297e79e6eeab2a099bf2c5d6c922d132063",
+ "domain": [
+  "software/api-integration",
+  "software/infrastructure"
+ ],
+ "product": [
+  "echorelay"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Manages a hosted runtime for custom API integrations, including lines, endpoints, keys, logs and dead-letter queues.",
+ "whenToUse": "Use when configuring or debugging custom API integrations hosted on EchoRelay.",
+ "tasks": [
+  "manage lines",
+  "manage endpoints",
+  "manage api keys",
+  "read logs",
+  "handle dead-letter queue"
+ ],
+ "effects": {},
+ "flags": []
+}

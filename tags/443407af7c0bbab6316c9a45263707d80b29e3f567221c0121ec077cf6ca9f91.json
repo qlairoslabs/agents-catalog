@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "443407af7c0bbab6316c9a45263707d80b29e3f567221c0121ec077cf6ca9f91",
+ "domain": [
+  "crypto/reputation",
+  "trust-and-safety"
+ ],
+ "product": [
+  "ethos",
+  "x",
+  "ethereum",
+  "discord",
+  "telegram"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Looks up Ethos credibility scores, profiles and XP for wallets and social accounts to judge counterparty trustworthiness.",
+ "whenToUse": "Use before trading with or paying an unknown wallet or account, or to vet an X handle.",
+ "tasks": [
+  "get credibility score",
+  "look up profile by X handle",
+  "look up profile by address",
+  "search users",
+  "get XP"
+ ],
+ "effects": {
+  "63236efe0c9d0393195fe8226a211aaa51dbd35afecb9be401c3e8415b81877b": "write",
+  "791fea7e848641189c994572a17d35e80bd0df3cbc14591e8ab3d1cf0c05ac1c": "write",
+  "907e0f32dfc606f66151df86e675477769a6828a56584906b8013c9e017c3f23": "write",
+  "7bcbc59c86dba0e3918b0c85ce0f702b136b4e04270a5d2e39445dc76cf89e57": "write",
+  "d8e47107611ec942ae7ca3ee3c7269e7e588563ff66fbf8f31d30d75fae8fa35": "read"
+ },
+ "flags": []
+}

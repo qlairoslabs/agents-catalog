@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "6f60c106aebb7e770bdcf6c6ea6eaef4e2f2d1ecc79689c12d78d4ae2725c295",
+ "domain": [
+  "design/map-posters",
+  "ecommerce"
+ ],
+ "product": [
+  "mapposter",
+  "openstreetmap"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Designs map posters of any place in 50+ styles with text, markers and routes, and links to an editor for download or print ordering.",
+ "whenToUse": "Use when a user wants a map poster or map wall art of a place.",
+ "tasks": [
+  "search locations",
+  "list themes",
+  "create poster design",
+  "add markers and routes",
+  "multi-place posters"
+ ],
+ "effects": {
+  "99d945c72071f030105578d0d10195b41310ae2c4be070838bbcdf6296908ced": "read",
+  "1eec8eb91cb650108378066f945d64dde66a8e32bb6204d00150f9a821bb5ba3": "read",
+  "661b4dafcd6adf25cfc5a629826a242a15121b3cef9448d94c74cc8392a46932": "write"
+ },
+ "flags": []
+}

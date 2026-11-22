@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5b7d29e28dda68556afca561e783d7e8ea803c9e824a26ce410a037867d7c8c9",
+ "domain": [
+  "productivity/task-management",
+  "productivity/calendar"
+ ],
+ "product": [
+  "any-do"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Reads and updates a user's Any.do tasks, lists, reminders, calendar and team boards.",
+ "whenToUse": "Use when the user wants to view or manage their Any.do tasks, reminders, calendar or team boards.",
+ "tasks": [
+  "read tasks and lists",
+  "create or update tasks",
+  "manage reminders",
+  "view calendar",
+  "manage team boards"
+ ],
+ "effects": {},
+ "flags": []
+}

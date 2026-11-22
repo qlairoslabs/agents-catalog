@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3bb76432efeacc3d5e1483b2ef171f2e41230cb3b2beeae00f4e287a30fc8e1f",
+ "domain": [
+  "finance/invoicing"
+ ],
+ "product": [
+  "invompt"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Hosted invoicing service usable as a guest, letting users draft and review invoices before sending them.",
+ "whenToUse": "Use when an agent needs to prepare an invoice and let the user review it before it is sent.",
+ "tasks": [
+  "create invoices",
+  "review invoices before sending",
+  "send invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

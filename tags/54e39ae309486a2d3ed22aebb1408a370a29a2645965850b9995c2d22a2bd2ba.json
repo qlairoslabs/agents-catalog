@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "54e39ae309486a2d3ed22aebb1408a370a29a2645965850b9995c2d22a2bd2ba",
+ "domain": [
+  "travel/flight-compensation",
+  "legal/consumer-rights"
+ ],
+ "product": [
+  "eu261"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "get-paid"
+ ],
+ "summary": "Checks EU261 flight compensation eligibility, flight distances and airline details, and can submit a compensation claim.",
+ "whenToUse": "Use when a traveller has a delayed, cancelled or denied-boarding flight and wants to know about or file an EU261 claim.",
+ "tasks": [
+  "compute flight distance",
+  "check EU261 coverage",
+  "estimate compensation",
+  "submit a claim",
+  "look up airline"
+ ],
+ "effects": {
+  "7efb7883c291c46db7aaf199b0c9713cd5f31dee5f2336564534be44e587e306": "read",
+  "eca09fbb19a33efe54870152c685c6e739efae5ffa1f9691600418d277f45047": "read",
+  "0b6fb22dd87e0f1d12bbd3d12cf526283085ec53d3973b7663f4f2328ef9105a": "read",
+  "d0681a4caad3cc38a965287a55f22fb1bcb3007b1f6be375df8f1dab3391e675": "write",
+  "208c585340f952d56723dc3042c18ca41b7acc67c691de2a11cbe3cd7361a430": "read"
+ },
+ "flags": []
+}

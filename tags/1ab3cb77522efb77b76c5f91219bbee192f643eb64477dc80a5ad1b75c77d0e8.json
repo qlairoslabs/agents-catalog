@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1ab3cb77522efb77b76c5f91219bbee192f643eb64477dc80a5ad1b75c77d0e8",
+ "domain": [
+  "software/cybersecurity/secrets-management"
+ ],
+ "product": [
+  "aws-secrets-manager"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Guidance on handling secrets with AWS Secrets Manager using runtime references so plaintext values stay out of the model context.",
+ "whenToUse": "Use when code or tasks need credentials, API keys or passwords stored in AWS Secrets Manager.",
+ "tasks": [
+  "reference secrets at runtime",
+  "use asm-exec",
+  "avoid exposing secret values to the model"
+ ],
+ "effects": {},
+ "flags": []
+}

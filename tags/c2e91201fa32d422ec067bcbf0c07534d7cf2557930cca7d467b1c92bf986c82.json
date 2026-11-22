@@ -1,0 +1,58 @@
+{
+ "classifier": 2,
+ "contentHash": "c2e91201fa32d422ec067bcbf0c07534d7cf2557930cca7d467b1c92bf986c82",
+ "domain": [
+  "crypto/radix",
+  "knowledge-base/wiki"
+ ],
+ "product": [
+  "radix",
+  "xrd"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Search and read the community Radix DLT wiki, view the ideas pipeline and network activity, and create, edit or delete pages with wallet-signed login.",
+ "whenToUse": "Use when an agent needs Radix documentation or DAO progress, or must contribute wiki pages with a ROLA-authenticated wallet.",
+ "tasks": [
+  "search wiki",
+  "read pages",
+  "browse categories",
+  "see recent changes",
+  "bulk read corpus",
+  "view page history",
+  "view ideas board",
+  "get network activity",
+  "authenticate by ROLA signature",
+  "create and edit pages",
+  "restore revisions",
+  "upload images"
+ ],
+ "effects": {
+  "d498cfffadf9466a25aa8b88eb8439f1adebfe3a8156592680452d9519c7f964": "write",
+  "04680c308ee4e927414b60cb4b33180f30c98be3176c3ae3d7974b1fbd626ff5": "write",
+  "126ad211916bfb8a274c34ca3dd84e02540872e35242a5aa318994ebc87fe5de": "read",
+  "9c1c8a54bdff7feedd2dc30b70d704ac44c35259c131d5c93d479e4c6cfa15cc": "read",
+  "5c5b8fb0118775c0f3a00e3d45d23d1f605ccdc96cdadc7ea674cac327752aa6": "read",
+  "608ce5b75107420d06a17fdb7b87dbaf06368fecdf6a0692a740bc6353a47ed4": "read",
+  "cf7a27e9852fc624646f54c96b16ab692484671b3fd79b44d7f393075f386cc0": "read",
+  "e8e34f1da56e97a4f2c4d5f3ca51b70d81ad7fbca47d31611bd69b8c11ed3b41": "read",
+  "d81bad12ca25dc114d6f7922be4feb6a85fa1acae6319abd5abb6e40aac902b0": "read",
+  "3c28f563d7d5a572e12ef1fe5a10a201b7a94b7ff6737f984165a2aa2fbb91d1": "read",
+  "0e26f8a2371b821cc164c2bc57436a12de524fc15293ff1973dc3b6d372149cc": "write",
+  "e6499603e6d613b9e7cd5b58af4597452a4f9e2244ef7e4607965970388ddb0e": "write",
+  "1610b3fe3f063ab9779e6048dab09a8dcda5e284ecf9c6a715e2b5a822dc47b0": "write",
+  "81fd60ad906922862b84a9a240b1002469ec89c62f70f07963d81cf2515d9835": "write",
+  "0ea3ddad1433da6e2d8a656d8a594d057080b285676ed23951d2fec0d547ad34": "write",
+  "5deb90f541df769fc66b1ebdd25ce4d9de06344d169fe2bb0f82684d0e4ec046": "write",
+  "043060e28efaf3ecafffc230f657c12a885a8b951f06d8c1353fd36cbde1afce": "write",
+  "f263a58087fc4fe5e743b8d9f1a7c14b285307209961c6a30224885e93eec868": "write"
+ },
+ "flags": []
+}

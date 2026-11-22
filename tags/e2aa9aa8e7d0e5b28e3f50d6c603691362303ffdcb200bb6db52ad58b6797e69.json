@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e2aa9aa8e7d0e5b28e3f50d6c603691362303ffdcb200bb6db52ad58b6797e69",
+ "domain": [
+  "music/dj-mixes",
+  "media/track-identification"
+ ],
+ "product": [
+  "setlist-id",
+  "youtube",
+  "soundcloud",
+  "mixcloud"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Identifies the tracklist of a DJ mix from its YouTube, SoundCloud or Mixcloud URL.",
+ "whenToUse": "Use when a user wants to know which tracks are played in a DJ mix they have a link to.",
+ "tasks": [
+  "identify tracklist from url"
+ ],
+ "effects": {},
+ "flags": []
+}

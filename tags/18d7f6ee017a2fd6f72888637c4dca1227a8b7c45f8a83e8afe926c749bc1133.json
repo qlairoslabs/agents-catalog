@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "18d7f6ee017a2fd6f72888637c4dca1227a8b7c45f8a83e8afe926c749bc1133",
+ "domain": [
+  "finance/wealth-management/projections"
+ ],
+ "product": [
+  "blackrock-advisor-center"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Explains modeled portfolio performance, wealth projections, methodology and advisory-fee treatment.",
+ "whenToUse": "Use when an advisor asks for modeled performance, wealth projections or projection assumptions.",
+ "tasks": [
+  "show modeled performance",
+  "project wealth",
+  "explain projection assumptions",
+  "check fee inclusion",
+  "handle unsupported horizons"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "83c0698ffd6d1b87c377aa8c6ca96850ddf6f8fa83f2ec21976199b7e85e8012",
+ "domain": [
+  "communication/community-forums"
+ ],
+ "product": [
+  "discourse"
+ ],
+ "audience": [
+  "support",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Official Discourse MCP server run over stdio that exposes forum tools to agents.",
+ "whenToUse": "Use when an agent needs to search, read or post in a Discourse forum.",
+ "tasks": [
+  "search forum",
+  "read topics",
+  "create posts"
+ ],
+ "effects": {},
+ "flags": []
+}

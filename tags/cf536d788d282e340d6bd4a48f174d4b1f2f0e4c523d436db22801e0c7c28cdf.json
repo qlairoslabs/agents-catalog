@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "cf536d788d282e340d6bd4a48f174d4b1f2f0e4c523d436db22801e0c7c28cdf",
+ "domain": [
+  "media/news",
+  "ai-news"
+ ],
+ "product": [
+  "the-observatory"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search and read curated news issues and notes on AI, Ethiopia, India and politics from the Observatory publication.",
+ "whenToUse": "Use when a user wants recent curated news or background on AI, Ethiopia, India or politics.",
+ "tasks": [
+  "search news stories",
+  "search notes",
+  "list latest issues",
+  "read full issue",
+  "list publications"
+ ],
+ "effects": {
+  "d431c34e47f6ac10c6f7c9b79c9e27164cc94597bb025a94c6ac4ea02954a88f": "read",
+  "277c88da138fee166ffec6d219240a570c0140ebfb0084d9654fc7a4a9f952cb": "read",
+  "706672cb90a27fb3499ecf57c97bfd605c7712611a41dcb3c0182a05392eae29": "read",
+  "1a31eff2c65bc4049bd89c4e9dc904421bfd533527e478c16f206d5858cc2d6a": "read",
+  "dda3554a03c6d0b75fb0f21c79df08bbb513dd30f822f7079faaf66dac67df65": "read"
+ },
+ "flags": []
+}

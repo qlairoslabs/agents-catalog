@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c2d4e2d696bd4f9c17b37eda4fa0b1571238d1f088191b32e2c5cfd09f100977",
+ "domain": [
+  "automotive/compliance",
+  "regulatory/certification"
+ ],
+ "product": [
+  "hpt-su"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Searches hpt.su for Russian and EAEU vehicle compliance documents, including type approvals, certificates and VIN lookups.",
+ "whenToUse": "Use when checking vehicle type approvals, certificates or VIN data for Russia or the EAEU.",
+ "tasks": [
+  "search type approvals",
+  "search certificates",
+  "look up vin"
+ ],
+ "effects": {},
+ "flags": []
+}

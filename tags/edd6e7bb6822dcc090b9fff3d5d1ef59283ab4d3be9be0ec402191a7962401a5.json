@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "edd6e7bb6822dcc090b9fff3d5d1ef59283ab4d3be9be0ec402191a7962401a5",
+ "domain": [
+  "design/motion-graphics",
+  "media/animation"
+ ],
+ "product": [
+  "lottiefiles"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Hosted motion engine that builds animation layers and keyframes and exports MP4, WebM or Lottie files.",
+ "whenToUse": "Use when the user wants to create an animation and export it as video or Lottie.",
+ "tasks": [
+  "create animation layers",
+  "set keyframes",
+  "export mp4",
+  "export webm",
+  "export lottie"
+ ],
+ "effects": {},
+ "flags": []
+}

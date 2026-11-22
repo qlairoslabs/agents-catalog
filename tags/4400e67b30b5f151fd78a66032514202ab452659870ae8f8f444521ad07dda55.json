@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "4400e67b30b5f151fd78a66032514202ab452659870ae8f8f444521ad07dda55",
+ "domain": [
+  "industry/industrial-automation",
+  "knowledge/reference"
+ ],
+ "product": [
+  "captia-connect",
+  "opc-ua"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Industrial glossary, protocol reference and technical article search from Captia Technology, with an OEE calculator.",
+ "whenToUse": "Use when a user asks about industrial protocols, OT/IT terms, or needs to compute OEE from shift data.",
+ "tasks": [
+  "get company profile",
+  "look up glossary term",
+  "search technical articles",
+  "list protocols",
+  "compare protocols",
+  "calculate OEE"
+ ],
+ "effects": {
+  "f6c4f2e000315b9c79b58cf141b7881a0569e3b2264496cbff4fa3f9db635bef": "read",
+  "94a47c7f47b18de7f0d2dc4ab2227687c49c59d83d806f2738161e1deb006f05": "read",
+  "acf274336d8d2553aec479a4bc4f3c7f758cf8cea94ce2c5bbebc41e4662d63d": "read",
+  "44ca300b61032700f1edfbb5c331e99b68ffe010b40aa8bac6cb852393a15451": "read",
+  "59b50b962a2541208bda5b70073936f851c3209f728419afd11f0ad637ba460a": "read",
+  "8c09679e2e5a32f0a8b75f733a8c7cc7a2f366c46edc51fbdeb9859130778276": "read"
+ },
+ "flags": []
+}

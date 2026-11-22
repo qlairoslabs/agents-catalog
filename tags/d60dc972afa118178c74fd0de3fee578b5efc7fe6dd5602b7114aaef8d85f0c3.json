@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d60dc972afa118178c74fd0de3fee578b5efc7fe6dd5602b7114aaef8d85f0c3",
+ "domain": [
+  "travel/award-flights",
+  "travel/loyalty-programs"
+ ],
+ "product": [
+  "award-travel-finder"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches award flight availability and points prices across 27 airlines and 23 loyalty programs.",
+ "whenToUse": "Use when a user wants to find flights bookable with miles or points and compare their points cost.",
+ "tasks": [
+  "search award flights",
+  "compare points pricing",
+  "check availability across loyalty programs"
+ ],
+ "effects": {},
+ "flags": []
+}

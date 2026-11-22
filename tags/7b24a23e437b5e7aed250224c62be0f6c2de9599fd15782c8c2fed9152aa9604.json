@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "7b24a23e437b5e7aed250224c62be0f6c2de9599fd15782c8c2fed9152aa9604",
+ "domain": [
+  "marketing/ai-search-visibility",
+  "marketing/seo"
+ ],
+ "product": [
+  "perplexity"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tests whether a business site is cited by AI search for customer-style queries and returns a score, competitors and a scorecard link.",
+ "whenToUse": "Use when a business wants to know whether AI answer engines cite it for relevant customer questions.",
+ "tasks": [
+  "run queries through AI search",
+  "score visibility 0-100",
+  "list competing sources",
+  "produce scorecard link"
+ ],
+ "effects": {
+  "a5cc847b5d6ff71012107a42370533ed1719d9caf7896993db9c847655fdcd41": "write"
+ },
+ "flags": [
+  "Optional email field may trigger a human follow-up from the publisher; only pass an email the user provided"
+ ]
+}

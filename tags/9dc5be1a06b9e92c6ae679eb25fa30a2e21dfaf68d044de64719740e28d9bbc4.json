@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9dc5be1a06b9e92c6ae679eb25fa30a2e21dfaf68d044de64719740e28d9bbc4",
+ "domain": [
+  "software/ai-tools-directory"
+ ],
+ "product": [
+  "effecthub"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and compares a catalogue of AI tools with pricing, liveness, and effect and trust scores.",
+ "whenToUse": "Use when choosing or comparing AI tools for a task.",
+ "tasks": [
+  "search AI tools",
+  "get tool details",
+  "list alternatives",
+  "compare two tools"
+ ],
+ "effects": {
+  "1fc050279205043512f2fd97dbd8760d548131409150f9d24b44a8227467f6bc": "read",
+  "e17f54ded93cde9bda1b5d106154a265706602e199c9edd3b0a266ac15b287bf": "read",
+  "dae51af97bf15857d5701c6e2af956368c28806a490c6a8c2ebaafe56454c9ce": "read",
+  "fe2b681f33ecb13235cfcf3b27b9dec45696d383975317ba8fa89af996c1e78e": "read"
+ },
+ "flags": []
+}

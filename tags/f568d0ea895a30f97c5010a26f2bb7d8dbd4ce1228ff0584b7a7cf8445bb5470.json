@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f568d0ea895a30f97c5010a26f2bb7d8dbd4ce1228ff0584b7a7cf8445bb5470",
+ "domain": [
+  "ai/text-analysis",
+  "communication/tone"
+ ],
+ "product": [
+  "intencheck"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Analyzes text for tone, emotions and communication style and suggests replies in several languages.",
+ "whenToUse": "Use when judging the tone or intent of a message or drafting a fitting reply.",
+ "tasks": [
+  "analyze tone",
+  "detect emotions",
+  "assess communication style",
+  "suggest multilingual replies"
+ ],
+ "effects": {},
+ "flags": []
+}

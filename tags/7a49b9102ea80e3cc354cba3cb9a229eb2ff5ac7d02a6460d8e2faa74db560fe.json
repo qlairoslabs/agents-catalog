@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7a49b9102ea80e3cc354cba3cb9a229eb2ff5ac7d02a6460d8e2faa74db560fe",
+ "domain": [
+  "ai/llm-inference/serving",
+  "hardware/gpu"
+ ],
+ "product": [
+  "amd-instinct",
+  "vllm",
+  "rocm"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Deploys and serves language models with vLLM on AMD Instinct data center GPUs, covering detection, validation, configuration, launch and health checks.",
+ "whenToUse": "Use when a user wants to run or serve an LLM on AMD Instinct MI300X/MI325X/MI350X/MI355X GPUs with vLLM.",
+ "tasks": [
+  "detect amd gpus",
+  "validate rocm environment",
+  "configure vllm",
+  "launch model server",
+  "verify endpoint health"
+ ],
+ "effects": {},
+ "flags": []
+}

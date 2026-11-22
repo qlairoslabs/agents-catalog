@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "8b5445a238fc20a48a1fa4b9765fd0221bd375fe1ce40f3157b6c6b53572b205",
+ "domain": [
+  "finance/accounting",
+  "integration/api"
+ ],
+ "product": [
+  "quickbooks-desktop",
+  "conductor"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Provides read and write operations across all QuickBooks Desktop record types through Conductor.",
+ "whenToUse": "Use when reading or modifying QuickBooks Desktop accounting records such as invoices, customers or bills.",
+ "tasks": [
+  "query accounting records",
+  "create records",
+  "update records",
+  "manage invoices",
+  "manage customers"
+ ],
+ "effects": {},
+ "flags": []
+}

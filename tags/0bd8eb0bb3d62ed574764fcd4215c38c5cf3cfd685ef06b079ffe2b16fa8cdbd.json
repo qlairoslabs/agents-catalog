@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "0bd8eb0bb3d62ed574764fcd4215c38c5cf3cfd685ef06b079ffe2b16fa8cdbd",
+ "domain": [
+  "reference/perfume",
+  "retail/fragrance"
+ ],
+ "product": [
+  "olfastory"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Perfume encyclopedia with notes, olfactory family, perfumer, year and house for over 4,000 perfumes in six languages.",
+ "whenToUse": "Use when someone asks about a specific perfume, or wants perfumes containing certain notes.",
+ "tasks": [
+  "search perfumes",
+  "get perfume details",
+  "find perfumes by notes",
+  "filter by gender and concentration",
+  "fetch full record"
+ ],
+ "effects": {
+  "f9c291db0b303f9f333002eb3cede435f50d3ce06fa51f2e1ce2aed560f6bc2f": "read",
+  "712856a8f09dc99889089fde0f5e9a9225f03428a8b30e26a533647e787e61fe": "read",
+  "5b32e53ce42e8144d745e7e8d926a1e1e91707975f8d4f49c139c65a0e1cfeee": "read",
+  "ab4d3260820d6d5b5bccd6438e08ff2c567f2e67fa524cb94e2e23dd006b8035": "read",
+  "f6efb8f027541321eb0c859a5e4f76261a81a727f441504598d34a6ea307562a": "read"
+ },
+ "flags": []
+}

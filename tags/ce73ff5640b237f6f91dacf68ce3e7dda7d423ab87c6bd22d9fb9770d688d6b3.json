@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ce73ff5640b237f6f91dacf68ce3e7dda7d423ab87c6bd22d9fb9770d688d6b3",
+ "domain": [
+  "software/observability",
+  "software/developer-tools"
+ ],
+ "product": [
+  "grafana",
+  "grafana-assistant"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Skills and rules for developing and using the Grafana Assistant app and its CLI.",
+ "whenToUse": "Use when building with or operating the Grafana Assistant app or CLI.",
+ "tasks": [
+  "develop grafana assistant app",
+  "use grafana assistant cli"
+ ],
+ "effects": {},
+ "flags": []
+}

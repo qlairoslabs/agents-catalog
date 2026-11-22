@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "f7c6ef12be85ddcc083df07a99a5d6e8a16cd8e28bd3bca5e7c9171e45410e5c",
+ "domain": [
+  "logistics/air-freight"
+ ],
+ "product": [
+  "airfreightprice"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Look up air freight routes, airports, carriers and reference pages, and submit a quote inquiry.",
+ "whenToUse": "Use when researching air cargo lanes or requesting a freight quote.",
+ "tasks": [
+  "search routes",
+  "get route details",
+  "look up airports",
+  "look up carriers",
+  "read FAQ",
+  "get rate reference",
+  "submit quote inquiry",
+  "get company info"
+ ],
+ "effects": {
+  "aa9f863a6b46e48d7b04a89e883f8d1a6536e4b92ece46d8732111cab46166a1": "read",
+  "0d076455ded5825e6e320e90b008fbe8d898d66d7e91982b2daa0b8afec3760e": "read",
+  "1d6c1a83f8f7cf92ee154961732c978b6fc32961854664d180ed9cc150dcd14a": "read",
+  "1827e3642e445d53edbf0f6a14153ae24e3bde6a6e4aa2e3a15822be8b699d12": "read",
+  "673f2a48bba9f0ed609364cf758532111bec11026376f6eca225d43e9344a6be": "read",
+  "323b4c98141999ee677801f282e689f158452c1dbd6bd70ec2f24b1fc4eae913": "read",
+  "4a4321ac975d7abc793696c7313842dfc98ba80c7aebcb137688891cbf55d177": "read",
+  "687e18ddbf5da7eabda52a7917ecb02801532d3ce4b4a2017343bb4f2a1f0c17": "read",
+  "66c30bb6de3cb1f864b4c36d959134dba946abfb47b9f7c9149dc06ba49c69e6": "write",
+  "8b47079f073c95781cb54d0c73b6580e4509ec9939cbec96d11060044a7eac68": "read"
+ },
+ "flags": []
+}

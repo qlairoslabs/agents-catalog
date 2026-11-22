@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "76c760da90a8aec12a4888610ad8ed5be2ce180fa2f04e40795557c461a475e5",
+ "domain": [
+  "software/monitoring",
+  "ai/agent-operations"
+ ],
+ "product": [
+  "aislabs",
+  "discord"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Dead-man switch for agents and cron jobs that alerts by webhook or email when heartbeats stop and stores resume state.",
+ "whenToUse": "Use when the user wants to be alerted if a long-running agent or scheduled job dies and to resume it from saved state.",
+ "tasks": [
+  "register a monitor",
+  "send heartbeats with state",
+  "fetch last state capsule",
+  "view fleet status",
+  "delete a monitor"
+ ],
+ "effects": {
+  "84ceac444550ae3a709cfa2c9389702076b247ccfdbb7e783935b5301e59f015": "write",
+  "817c72ff0578f10a3644be7c7483ca98861725d43c957ca51a9b2336222e1e9b": "write",
+  "5d01c7ad39c621d13e307fb79ae41ef7ad4dcb9dee8668252337231ced00b115": "read",
+  "e9a3a2fd154889cd368213fb8b8e42b703e42f755d08f8fb24e374360a75ebfe": "read",
+  "9b326346aa43989e6fa916c106dcbcac302de4a190b925b69e3c884b1c549702": "write"
+ },
+ "flags": []
+}

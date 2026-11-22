@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1844c691297c5329caba8c7d28d79f5495ab3a52da9c4fc9b23d3d95680ae65a",
+ "domain": [
+  "finance/equity-research",
+  "finance/earnings-analysis"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds a cited forward-looking preview of a public company's upcoming earnings with drivers, sentiment, scenarios and key metrics, using Bigdata.com data.",
+ "whenToUse": "Use when a user wants to know what to expect before a public company reports earnings.",
+ "tasks": [
+  "build driver table",
+  "screen earnings quality",
+  "assess sentiment and positioning",
+  "estimate what is priced in",
+  "build bull and bear cases",
+  "weight scenarios by probability",
+  "list key metrics to watch"
+ ],
+ "effects": {},
+ "flags": []
+}

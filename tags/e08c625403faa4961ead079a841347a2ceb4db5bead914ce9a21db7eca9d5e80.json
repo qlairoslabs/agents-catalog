@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e08c625403faa4961ead079a841347a2ceb4db5bead914ce9a21db7eca9d5e80",
+ "domain": [
+  "software/hosting",
+  "software/deployment"
+ ],
+ "product": [
+  "dataecho",
+  "docker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Deploys files, websites and Dockerfile-based apps to live URLs and provides private drives that agents can use as persistent memory.",
+ "whenToUse": "Use when an agent needs to publish a site or app to a live URL or store persistent files for agent memory.",
+ "tasks": [
+  "deploy files",
+  "publish sites",
+  "deploy Dockerfile apps",
+  "get live URLs",
+  "store agent memory in private drives"
+ ],
+ "effects": {},
+ "flags": []
+}

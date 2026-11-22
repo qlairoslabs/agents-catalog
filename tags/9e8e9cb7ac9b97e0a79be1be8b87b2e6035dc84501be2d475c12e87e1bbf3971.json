@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9e8e9cb7ac9b97e0a79be1be8b87b2e6035dc84501be2d475c12e87e1bbf3971",
+ "domain": [
+  "communication/messaging",
+  "productivity/ai-agents"
+ ],
+ "product": [
+  "atmita",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Lets an agent message a user's Atmita agent, which in turn acts across its linked accounts and tools including WhatsApp.",
+ "whenToUse": "Use when the user wants to delegate tasks or send messages through their Atmita agent and its connected accounts.",
+ "tasks": [
+  "message atmita agent",
+  "reach connected accounts",
+  "send whatsapp messages"
+ ],
+ "effects": {},
+ "flags": []
+}

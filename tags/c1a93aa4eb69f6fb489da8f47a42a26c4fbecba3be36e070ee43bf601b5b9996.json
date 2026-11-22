@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "c1a93aa4eb69f6fb489da8f47a42a26c4fbecba3be36e070ee43bf601b5b9996",
+ "domain": [
+  "ecommerce/construction-supplies",
+  "ecommerce/electrical"
+ ],
+ "product": [
+  "rakentaja-outlet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Search the Rakentaja Outlet Finnish store catalogue, view product details, policies and build pre-filled cart links.",
+ "whenToUse": "Use when a user wants Finnish electrical or construction supplies, prices, stock or a cart link.",
+ "tasks": [
+  "search catalogue",
+  "get product details",
+  "create cart link",
+  "search shop policies and FAQs"
+ ],
+ "effects": {
+  "4875d03c9a9c65d99208071384cb5f8ce0200296fc0fa404963ff44ead4e2787": "write",
+  "23ea0c6d16de40b6bd39ef2f8788d444ca4cff710e3a288e93e301f105bd2bca": "write",
+  "1540a095139ab24c332e70808a26f96eabd682c0e7c535b8d5dc998038edd23a": "write",
+  "433f04c4355c330b33c5ad5a29352a77cae0243ef831b9386e1b1fd67031b246": "write",
+  "f316ccd6eb6caac4332c12ec6b8ed0d3c943146365e5fa8216ec6e13476b9e44": "write"
+ },
+ "flags": []
+}

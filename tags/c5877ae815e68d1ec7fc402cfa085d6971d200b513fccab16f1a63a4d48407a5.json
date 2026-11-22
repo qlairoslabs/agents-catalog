@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "c5877ae815e68d1ec7fc402cfa085d6971d200b513fccab16f1a63a4d48407a5",
+ "domain": [
+  "finance/crypto/on-chain-data",
+  "finance/trading"
+ ],
+ "product": [
+  "bitquery",
+  "pump.fun",
+  "hyperliquid",
+  "polymarket"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides blockchain data including DEX trades, token prices, pump.fun launches, wallet tracing, Hyperliquid and Polymarket activity.",
+ "whenToUse": "Use when an agent needs on-chain trading, price or wallet activity data across blockchains.",
+ "tasks": [
+  "get dex trades",
+  "get token prices",
+  "track pump.fun launches",
+  "trace wallets",
+  "query hyperliquid data",
+  "query polymarket data"
+ ],
+ "effects": {},
+ "flags": []
+}

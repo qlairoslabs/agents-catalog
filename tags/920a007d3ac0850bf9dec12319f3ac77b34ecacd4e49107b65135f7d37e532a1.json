@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "920a007d3ac0850bf9dec12319f3ac77b34ecacd4e49107b65135f7d37e532a1",
+ "domain": [
+  "software/mcp-ecosystem",
+  "software/trust-verification"
+ ],
+ "product": [
+  "mcp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Observatory that probes MCP registry servers for liveness and answer accuracy and gives allow/warn/block verdicts.",
+ "whenToUse": "Use when vetting or finding an MCP server before depending on it, or tracking changes in the MCP ecosystem.",
+ "tasks": [
+  "get registry overview",
+  "rate a server",
+  "find tools by need",
+  "resolve server name",
+  "get full server evidence",
+  "report call outcome",
+  "get changes since date",
+  "list findings"
+ ],
+ "effects": {
+  "914be0fa6ee5850d85cf5e96d87c44d3c4eb17019e06893a55f61b8112cde0c1": "read",
+  "734310431cc2dd41c9ed596fe88b73876e5ea88cac137c6647b8db874f0e71d2": "read",
+  "4fde096deec95e4f598b3b4ee80bf834857696aa99bd446a6d2f4b8900d1e725": "read",
+  "7bc708e0b1a0e829291008c208c340cfd26baeda98bb6ba74cb95670d42ef77c": "read",
+  "d102f48e175caf036ab2d0df658dee1a167db6d160f81a028741c470912e6b97": "write",
+  "b7bfb72da4ba0654225baac1908460ac965fcf58be854633970f808a0cf3706c": "write",
+  "046c0be4c63b2cc4fd167d09c316c3f0b0b7ccd3835961920b115adb1222ce40": "read",
+  "8b1b04ac2217211440ba973d81f4a3c4379b04c7bde44881d0623a1bf6f78af9": "read"
+ },
+ "flags": [
+  "tool descriptions use imperative steering ('Call this FIRST', 'THE GATE') to push agents to route calls through it"
+ ]
+}

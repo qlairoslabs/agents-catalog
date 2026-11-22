@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "3f32ffd6402ac6c950bd6dc50c20356ead0f3b95a00bcd414cfb8c68662bbc1f",
+ "domain": [
+  "software/observability",
+  "operations/incident-investigation"
+ ],
+ "product": [
+  "honeycomb",
+  "opentelemetry"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Skills and workflows for Honeycomb observability: queries, production investigations, SLOs and OpenTelemetry instrumentation.",
+ "whenToUse": "Use when investigating production issues, defining SLOs or instrumenting code for Honeycomb.",
+ "tasks": [
+  "write queries",
+  "investigate production issues",
+  "manage slos",
+  "add opentelemetry instrumentation",
+  "migrate from beeline"
+ ],
+ "effects": {},
+ "flags": []
+}

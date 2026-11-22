@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6109d621edbb375e158f0ed962b1fa8ac281caae2ee39fd302e488245dad610d",
+ "domain": [
+  "communications/messaging",
+  "software/api"
+ ],
+ "product": [
+  "msg91",
+  "whatsapp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "build-software"
+ ],
+ "summary": "Helps find and call MSG91 APIs for SMS, OTP, WhatsApp, email and voice messaging.",
+ "whenToUse": "Use when a user needs to send messages or OTPs through MSG91 or integrate its API.",
+ "tasks": [
+  "find msg91 api endpoints",
+  "send sms",
+  "send otp",
+  "send whatsapp messages",
+  "send email",
+  "place voice calls"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "93fff4d42bf24b450d7df2be0cdf301ed3626938c73991f726dffbf9592bceee",
+ "domain": [
+  "travel/surf-trips",
+  "weather/surf-forecast"
+ ],
+ "product": [
+  "strike-mission"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Plans surf trips with destination recommendations, spot details, comparisons and live 10-day forecasts for 1,100+ spots.",
+ "whenToUse": "Use when a user asks where or when to go surfing, compares surf destinations, or wants a forecast for a spot.",
+ "tasks": [
+  "recommend surf destinations",
+  "compare destinations",
+  "get spot planning details",
+  "get live 10-day spot forecast",
+  "find trip planning guides"
+ ],
+ "effects": {
+  "16faba634b936b90fb20afe6ead267a7c83cf86456fcff6eade3af0b0602ee64": "read",
+  "ec5e22b47e3bb5be4011b9b6ea1e355e250feac27e288a4ce43c8de1e83797ef": "read",
+  "22b9fc163e04ccc400be112cd1de63b74a498276d1021c1b42dd6a1ddda8d763": "read",
+  "f129382fee785e35dad772cf8029e966471966ddcc485596e6a0c1000b2cc900": "read",
+  "8ce8c53db84a660f003c3e91e8f2f2a8bfc1c35afdb9db068ffe4c8f1bd8939f": "read"
+ },
+ "flags": []
+}

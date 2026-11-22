@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "98daef22e450a718c780b580a5f23364c76afd79a52cf5728bced2ad994128f5",
+ "domain": [
+  "ai/pricing",
+  "cloud/gpu-rental"
+ ],
+ "product": [
+  "llmhosting"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "build-software"
+ ],
+ "summary": "Looks up LLM token prices across providers and GPU rental prices, including cheapest options and price history.",
+ "whenToUse": "Use when comparing LLM API costs across providers or finding the cheapest GPU rental.",
+ "tasks": [
+  "search llm models",
+  "compare model prices by provider",
+  "list gpu rental prices",
+  "find cheapest gpu by vram",
+  "view gpu price history"
+ ],
+ "effects": {
+  "0e55ae037d737cf23a9b4b721283cb71783d3991d000df6ba8fe5be43750ab18": "read",
+  "e0c4f6c03214f4e1fed8e2486087947a1950f8326edd4b36a32e70b3f059d0c0": "read",
+  "c2d12f40baa036fadc0e7a7d8e5125e4e409c8bde6621b22780fd389b1f61c7a": "read",
+  "84612261d67518251c7d2e2563164a9fc37a54914c911aa2ea13d661812230c2": "read",
+  "afab19e1b1f53a6bf36402e2066e61e01a6b14bae15790d8209f1f8e7abe1812": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "89643e513d022aad784a62b199f2789d369908bc47e4b9eb25b9d9b08d8fbf3e",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/devops/deployment"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance for deploying Airflow DAGs and projects, including CI/CD and production deployment strategies.",
+ "whenToUse": "Use when deploying Airflow projects or setting up CI/CD for them.",
+ "tasks": [
+  "deploy dags and projects",
+  "push code to deployments",
+  "set up ci/cd",
+  "plan production deployment strategy"
+ ],
+ "effects": {},
+ "flags": []
+}

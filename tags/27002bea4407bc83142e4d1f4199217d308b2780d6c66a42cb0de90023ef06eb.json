@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "27002bea4407bc83142e4d1f4199217d308b2780d6c66a42cb0de90023ef06eb",
+ "domain": [
+  "travel/vacation-rentals",
+  "hospitality"
+ ],
+ "product": [
+  "stay-portland",
+  "guesty"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Searches Portland vacation rentals, compares homes, keeps a shortlist and produces live quotes with a hosted checkout link; it never takes payment itself.",
+ "whenToUse": "Use when a traveler wants to find, compare and price a Portland short-term rental for specific dates.",
+ "tasks": [
+  "search rentals",
+  "search priced availability",
+  "compare listings",
+  "suggest alternate dates",
+  "get quote and checkout link",
+  "read reviews",
+  "save shortlist",
+  "read policies",
+  "check booking status"
+ ],
+ "effects": {
+  "eb8c9e64586551f6790239d434918186a23b8de586e0986d0baa58345072671e": "write",
+  "4971114697b5aea4439d679f5f6a47daaac16280f11fb544887d9dddd9a15108": "read",
+  "5f775d7c067f9733dfbde6cf1e6aa7d14b29ac3fd141c7a5b041815acefdb1bb": "write",
+  "fb7a3b1861d79973cd7e5926cd3f20e1a72809fadd68c32683e07675d3095048": "read",
+  "f5038dfd52dcb0172d6341d9fa02ac8e57e8e6e5e0ff8419c6a136b98f5beff2": "write",
+  "3c7b2dfd17d548994ea157ec5de3d5c13faf0b4c61fe6128a03d4739f34d8edd": "read",
+  "19f9cec75ed1689628c07ae69567ef9e2eba9354f42ef08b63455b416b34735e": "read",
+  "bca1bdb4d249b91919f6c4d6c08bc24ca068da4a3ee7e5345b1ffb145b56b8a0": "read",
+  "682f39f899e8bb4cabd2be40714962cfc095e3c2706755857b620351d2d17849": "read",
+  "8831f52b81b33033c008aee8e2006ca1c20b79766c19b9c10a7cc7a7ed92c99d": "write",
+  "41acbe36fd2b0aec3e6fb8c591d4773ad0ad88bcb761b117b48777c0c9cff3e2": "read",
+  "aebaf1005c81689be9e9e4b84482e78bf2f07b7234e69aeb66ae51d6583f0496": "write",
+  "f36d88e45d9af469d076d09e40ccd97a619ea94a4577724f5d0c559522ca1e73": "read",
+  "a3f742c8975acbe6c9d358aae4a1664562bb26d7ae6a9b90caaf7a42352f1fc2": "read"
+ },
+ "flags": []
+}

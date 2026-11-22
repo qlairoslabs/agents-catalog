@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "85a122b973233a7d5a998457952b7ecffdea683a12e79b3248da9c44696bee9e",
+ "domain": [
+  "energy/electricity-markets/australia",
+  "data/analytics"
+ ],
+ "product": [
+  "aemo",
+  "nem",
+  "scadaminer"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries Australian National Electricity Market data from AEMO including prices, generation, FCAS, interconnectors and bids.",
+ "whenToUse": "Use when analysing Australian electricity market prices, generation or bidding data.",
+ "tasks": [
+  "query spot prices",
+  "view generation data",
+  "query fcas",
+  "check interconnector flows",
+  "inspect bids"
+ ],
+ "effects": {},
+ "flags": []
+}

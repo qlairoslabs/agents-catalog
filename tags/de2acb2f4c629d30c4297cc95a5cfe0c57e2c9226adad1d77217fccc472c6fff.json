@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "de2acb2f4c629d30c4297cc95a5cfe0c57e2c9226adad1d77217fccc472c6fff",
+ "domain": [
+  "construction/estimating",
+  "construction/takeoff"
+ ],
+ "product": [
+  "sitesai"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Browser-based earthworks takeoff from PDF, DWG or DXF plans with calibration, drawing, cut-and-fill volumes and pricing.",
+ "whenToUse": "Use when estimating earthworks quantities and pricing from construction plans.",
+ "tasks": [
+  "load pdf dwg dxf plans",
+  "calibrate plans",
+  "draw takeoff areas",
+  "calculate cut and fill volumes",
+  "price estimates"
+ ],
+ "effects": {},
+ "flags": []
+}

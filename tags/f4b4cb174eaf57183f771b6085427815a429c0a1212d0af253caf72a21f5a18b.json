@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f4b4cb174eaf57183f771b6085427815a429c0a1212d0af253caf72a21f5a18b",
+ "domain": [
+  "productivity/task-management",
+  "software/agent-orchestration"
+ ],
+ "product": [
+  "tango"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Shared task queue for people and AI agents with leases, handoffs, approvals and signed receipts.",
+ "whenToUse": "Use when agents and humans need to coordinate work items, hand off tasks or request approvals.",
+ "tasks": [
+  "queue tasks",
+  "lease tasks",
+  "hand off tasks",
+  "request approvals",
+  "issue signed receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

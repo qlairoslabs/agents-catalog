@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0d497c5db2eb099af76e71e33a111df811817e568c2dd23e55e4c3a885330b12",
+ "domain": [
+  "marketing/seo",
+  "marketing/analytics"
+ ],
+ "product": [
+  "google-search-console",
+  "google-analytics"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Local npm connector giving an agent access to Search Console, Google Analytics and keyword data.",
+ "whenToUse": "Use when an agent needs search performance, traffic analytics or keyword data for a site.",
+ "tasks": [
+  "read search console data",
+  "read google analytics data",
+  "look up keyword data"
+ ],
+ "effects": {},
+ "flags": []
+}

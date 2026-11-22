@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f55c4c8d29667a59b19346c8bda8b494a232ba81df54ca5ab4f0a8669639fba5",
+ "domain": [
+  "finance/invoicing",
+  "legal/e-signature"
+ ],
+ "product": [
+  "asap"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Operates ASAP French invoicing, contacts and e-signature from an MCP client, compliant with NF203.",
+ "whenToUse": "Use when an agent needs to create French-compliant invoices, manage contacts or send documents for e-signature in ASAP.",
+ "tasks": [
+  "create invoices",
+  "manage contacts",
+  "send for e-signature"
+ ],
+ "effects": {},
+ "flags": []
+}

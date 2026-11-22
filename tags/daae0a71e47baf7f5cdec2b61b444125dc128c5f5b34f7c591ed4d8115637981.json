@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "daae0a71e47baf7f5cdec2b61b444125dc128c5f5b34f7c591ed4d8115637981",
+ "domain": [
+  "software/testing/device-automation",
+  "software/mobile"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Open-source layer that lets agents control mobile, web, TV and desktop apps.",
+ "whenToUse": "Use when an agent must drive or test an app on a device or emulator.",
+ "tasks": [
+  "control mobile apps",
+  "control desktop apps",
+  "control tv apps",
+  "automate ui interactions"
+ ],
+ "effects": {},
+ "flags": []
+}

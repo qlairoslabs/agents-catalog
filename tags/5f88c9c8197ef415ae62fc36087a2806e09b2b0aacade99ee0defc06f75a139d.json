@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "5f88c9c8197ef415ae62fc36087a2806e09b2b0aacade99ee0defc06f75a139d",
+ "domain": [
+  "productivity/spreadsheets"
+ ],
+ "product": [
+  "reogrid"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds spreadsheets from JSON with formulas, styles and filters and publishes them at a public shareable URL.",
+ "whenToUse": "Use when analyzed data should be shared as an Excel-like sheet at a link.",
+ "tasks": [
+  "get sheet schema",
+  "get feature spec",
+  "publish spreadsheet",
+  "fetch published sheet"
+ ],
+ "effects": {
+  "abe35a91f717d444cf2614f0403d38e496dff52b10be5ae72242eb65cb3ef199": "read",
+  "ba100f56459ce1674ec82b03025294583cb9c80b74cbbce5ce8dd5315adb35af": "read",
+  "3b2db2efad08f0d3a9c64b56a578dc0bac3902b2b6f27c7b73163c97dbd1e2c1": "write",
+  "5980a61f81ed215dc1797b79f0e22c341105a143ad3fdaae5ecaac02cf1a5753": "read"
+ },
+ "flags": []
+}

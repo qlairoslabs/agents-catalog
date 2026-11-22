@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f824737f9385a22cbe2ad0b25607d91cc3fc108a79d77db268c828c412e7d964",
+ "domain": [
+  "compliance/ai-regulation",
+  "software/ai-governance"
+ ],
+ "product": [
+  "complylayer"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Maintains an inventory of AI tools and use cases and checks new AI uses against the EU AI Act before launch.",
+ "whenToUse": "Use when cataloguing AI systems or assessing a planned AI use for EU AI Act obligations.",
+ "tasks": [
+  "inventory ai tools",
+  "list ai use cases",
+  "check new ai use before launch"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,63 @@
+{
+ "classifier": 2,
+ "contentHash": "88e787d7bc524f1719e9c23be747d9937c37efb6d180415649659f012f1b3b21",
+ "domain": [
+  "software/developer-utilities",
+  "software/cybersecurity",
+  "network/diagnostics"
+ ],
+ "product": [
+  "x402",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Pay-per-call utilities for DNS lookup, JWT decoding, JSON and text transforms, hashing, subnet math, and TLS and web security audits.",
+ "whenToUse": "Use when you need quick developer utilities or a non-intrusive security check of a public domain or website.",
+ "tasks": [
+  "resolve DNS",
+  "decode JWT",
+  "calculate subnets",
+  "repair and validate JSON",
+  "encode and hash text",
+  "generate UUIDs",
+  "parse URLs",
+  "inspect security headers",
+  "check SSL certificates",
+  "audit domains and websites"
+ ],
+ "effects": {
+  "600823d1ed0f8c7351a4dc355ed83a7ee009b8af5cde8633c243eb8184aa50b6": "read",
+  "7a8f253736fe5bd766fa8badef91184a20ed3a23e641b438182738302d716d9d": "read",
+  "8ff27a23eb9c76822208652e6a15c60f555d9dce36c021f05e5c95e085f87a26": "read",
+  "929b001125a29b3c9ba9656a942a5fa8cee0b272ebc52d798ed069b052d3b527": "read",
+  "72b510900b97e4f442263f8e2b79b2f1c57c6b9ab17a944cb7b427177c46482d": "write",
+  "da6b18c6141cc4fa889e6223746199902bb673ed3e58ee738631c8dbf1a20bcc": "write",
+  "d77c4ff5d991dc039d40223db1f14a216eac0ef3483717bd3362a69cf9d53892": "read",
+  "919883081b39b19b0c41db5db0ccc6b543998018e171467ceb32d09c621f3a51": "read",
+  "c15f6a9adf8b468172a12a55a5746658e6b769465fc76c8e280716f4d9d5c1d9": "read",
+  "7f62bafccca3093b81f8b46af5346c6f43cce4681aa474b4f461613ae3215b9e": "read",
+  "a8d75ec909ed84740cdf7fb35ad9aadf0f2ff0700e2b23734040388f37f11cf9": "read",
+  "ebf9a8bb88be82d294b003ccc1a5603c4df49ff076f64069b1c971c7617b976c": "read",
+  "6a55f094a77b69c4d92461bb0034f72a4ee831c6e0790e5ab9250aad3064739d": "read",
+  "1fbd25d3a49a5b33783893e54e691e6ae2443adf465770954deaaad234aef902": "read",
+  "7ded1cf201a90bd283cd08f388e51933a595768d2a8240b51a2b92474e584374": "read",
+  "f6edad376f3bc46a734ceda7c93247a0ea2c9e744498fbb15d5321f1ca7a33eb": "read",
+  "7171b4e7d2f321be365becea6c32a2cd3657b7633e4440772b2749f0fb116972": "read",
+  "2407579d327fae629adaed89faba1c664bb0446c0b8fb257b0ef38d01bcbe6f4": "read",
+  "3901edbf172d329c6513f1c0688afa3b44f7db7d29a8110e903e8b8c7363517a": "read",
+  "af463a62258b0073eb65f266150b32076eb32cc44160fd491ed78ac947942e32": "read",
+  "1b8c7b336e7768ba8cfccf72880cde10ca248b90d2f37ef48d04013183e79faa": "read",
+  "4a5b0698032b1e7552223d09727e5865427fb13f4af53b27c01bbfb6de31f6d8": "read",
+  "25a00d725f36c7aa9d6367d77b5f38e2d57407d82470957f1e0c132e86b2a4ae": "read",
+  "0a9ed4a6302bbdc61c330418eb48c664b442a291858aebb7ae9c9f9c3daf3e4c": "read",
+  "d86cff77d4ac4699bd078128a49e72ff8307843f399edad7e195e111cc12f4ce": "read"
+ },
+ "flags": []
+}

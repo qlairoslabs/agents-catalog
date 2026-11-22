@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c7fa826677ac3510f9162c479dd8805457eebac8ffe801a554cffd970c73b760",
+ "domain": [
+  "research/bibliometrics",
+  "media/monitoring"
+ ],
+ "product": [
+  "altmetric"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses Altmetric APIs to track attention to research outputs in news, policy, social media and more.",
+ "whenToUse": "Use when an agent needs to measure online attention or mentions of scholarly research.",
+ "tasks": [
+  "look up research attention scores",
+  "track news mentions",
+  "track policy citations",
+  "track social media mentions"
+ ],
+ "effects": {},
+ "flags": []
+}

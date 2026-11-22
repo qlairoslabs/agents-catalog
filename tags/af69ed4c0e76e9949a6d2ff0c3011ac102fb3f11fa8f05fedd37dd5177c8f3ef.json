@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "af69ed4c0e76e9949a6d2ff0c3011ac102fb3f11fa8f05fedd37dd5177c8f3ef",
+ "domain": [
+  "marketing/affiliate",
+  "ecommerce"
+ ],
+ "product": [
+  "amazon",
+  "amazon-associates",
+  "funn-to"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Generates hosted Amazon affiliate landing pages from a US amazon.com product URL, with adjustable style axes.",
+ "whenToUse": "Use when a user supplies an amazon.com product link and wants an affiliate landing page built.",
+ "tasks": [
+  "generate affiliate funnel",
+  "check funnel status",
+  "list style axes"
+ ],
+ "effects": {
+  "6987ca9bd808127a0fafde4e409ab9bb5de09e6f4e38c336c17e72267b7784cf": "risky",
+  "021bb51d3b4c9b80c4d3fb8881115ce96bd700674a96adb455fd52361883e63b": "read",
+  "685cc1bc39ccb4172dd056b89b13d041c9030f990a80d9c67f3545e77ef94a92": "read"
+ },
+ "flags": []
+}

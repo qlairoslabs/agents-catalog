@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "2600c7f8581fd90eeeb7dc015434afc385358d9f2a087e93f1cdb96df3bc9431",
+ "domain": [
+  "media/video-processing"
+ ],
+ "product": [
+  "ffpipe",
+  "ffmpeg",
+  "base",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Converts, probes and splits video into frames using FFmpeg, charged per job via x402 payments on Base.",
+ "whenToUse": "Use when a video needs format conversion, metadata inspection or frame extraction and paying per job is acceptable.",
+ "tasks": [
+  "convert video",
+  "probe video metadata",
+  "extract frames",
+  "pay per job"
+ ],
+ "effects": {},
+ "flags": [
+  "requires crypto payments per call"
+ ]
+}

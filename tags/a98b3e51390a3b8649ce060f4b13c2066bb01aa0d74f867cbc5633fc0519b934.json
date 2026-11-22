@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a98b3e51390a3b8649ce060f4b13c2066bb01aa0d74f867cbc5633fc0519b934",
+ "domain": [
+  "business/class-booking",
+  "scheduling"
+ ],
+ "product": [
+  "zooza"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "schedule",
+  "support-customers"
+ ],
+ "summary": "Connects to Zooza to manage class schedules, attendance and bookings for activity businesses.",
+ "whenToUse": "Use when running classes or courses in Zooza and handling schedules, attendance or bookings.",
+ "tasks": [
+  "manage class schedules",
+  "track attendance",
+  "manage bookings"
+ ],
+ "effects": {},
+ "flags": []
+}

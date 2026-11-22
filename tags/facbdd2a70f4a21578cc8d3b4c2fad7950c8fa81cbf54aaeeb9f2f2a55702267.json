@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "facbdd2a70f4a21578cc8d3b4c2fad7950c8fa81cbf54aaeeb9f2f2a55702267",
+ "domain": [
+  "software/low-code",
+  "data/databases"
+ ],
+ "product": [
+  "caspio"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets AI assistants read and work with data stored in Caspio low-code applications.",
+ "whenToUse": "Use when a user needs an AI to query or work with their Caspio datasets.",
+ "tasks": [
+  "access caspio data",
+  "query datasets"
+ ],
+ "effects": {},
+ "flags": []
+}

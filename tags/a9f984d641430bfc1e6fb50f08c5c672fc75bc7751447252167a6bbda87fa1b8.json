@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "a9f984d641430bfc1e6fb50f08c5c672fc75bc7751447252167a6bbda87fa1b8",
+ "domain": [
+  "government/civic-data",
+  "research/public-records"
+ ],
+ "product": [
+  "openpublica"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search US local-government meetings, AI summaries, transcripts and adopted plan and budget documents.",
+ "whenToUse": "Use when researching what a US city or county board discussed or adopted, or finding plan and budget document text.",
+ "tasks": [
+  "search meeting content",
+  "semantic search of summaries",
+  "list recent meetings",
+  "get meeting summary and transcript",
+  "find governments by name, zip or location",
+  "get government stats",
+  "discover topics",
+  "list and read plan documents",
+  "search budget documents"
+ ],
+ "effects": {
+  "2f5ee7067fb8ad41f50230655a4598e29454cd2d31d5d817f026b05a712c76f2": "read",
+  "f381fe7f14059d30cf6083f394894b922d742abcd0d82075a8f91a94c9aa2a5c": "read",
+  "0bf90a417bd9e59e0e666897ac16ac6859c878c2d2b8a04d7616c2b28cc521d5": "read",
+  "18f4147f697f73f302b0674069c576651753a9249b4ee90c7319fedfce2827ab": "read",
+  "9596e74986b2e21dbe8dd4c919768b501f229e380ac6c694a65b4f7e31c5b640": "read",
+  "b23e1eb62a24a59aade47e3fa7d7abfecbfe6ac3e8f1d75c553a239447ea4a87": "read",
+  "3069b9acc337255f6546ff921520a485b3510d9d61c2206e909b6e880ce4fb8d": "read",
+  "8cd6a5bead4d2a0838360988ab75dbe205ec4961b299510415a8fac3d5b41d12": "read",
+  "15a7ba64632e1545849d311403191e29595d67de8bc6a85e2a1e5210adfca4a8": "read",
+  "5ef74b9a93b5d14edba3c65c67cb90fa6aa567595540a93990d506d477ba93a5": "read",
+  "72c0798892cc3fe3a4694af011910b8b414e6ae256fb011d482b630022fca6ed": "read",
+  "d5a9cd08cf0f21d09f6bed34809b388f410540c99e4547c9a91d280891b2bac5": "write",
+  "3d64a0d0e36e63c57e3f6e9f2401d58f6b2cdc5534b9ecdda137ff2a09b867c3": "read",
+  "db8f8b8e43f7b49f816b0bc6dd98945dca4cebfeaaa1eb144b7d17bebbc49568": "read",
+  "88af459e4c331895724584fab711c129b1f12becea87613c5ab33209fe065841": "write",
+  "900b30fae53800d9789792575db54e6f018b0cbefc1c9f53ee27efccb3a9bc52": "read"
+ },
+ "flags": []
+}

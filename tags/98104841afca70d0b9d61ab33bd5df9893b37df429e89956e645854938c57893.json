@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "98104841afca70d0b9d61ab33bd5df9893b37df429e89956e645854938c57893",
+ "domain": [
+  "entertainment/video-games/recommendations"
+ ],
+ "product": [
+  "steam",
+  "imho.run"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Recommends Steam games similar to a named game, gives game facts and identifies games from descriptions.",
+ "whenToUse": "Use when a user wants game recommendations, facts about a game, or to identify a game from a description.",
+ "tasks": [
+  "find similar games",
+  "get game facts",
+  "identify game from description"
+ ],
+ "effects": {},
+ "flags": []
+}

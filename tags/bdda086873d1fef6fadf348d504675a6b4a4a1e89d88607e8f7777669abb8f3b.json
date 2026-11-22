@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bdda086873d1fef6fadf348d504675a6b4a4a1e89d88607e8f7777669abb8f3b",
+ "domain": [
+  "software/api/graphql"
+ ],
+ "product": [
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Best-practice guidance for writing GraphQL queries, mutations and fragments, with typegen and linting.",
+ "whenToUse": "Use when writing, organizing or reviewing GraphQL client operations.",
+ "tasks": [
+  "write queries and mutations",
+  "organize with fragments",
+  "optimize data fetching",
+  "set up type generation",
+  "set up linting",
+  "review operations"
+ ],
+ "effects": {},
+ "flags": []
+}

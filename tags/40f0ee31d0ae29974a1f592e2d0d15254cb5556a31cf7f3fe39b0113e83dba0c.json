@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "40f0ee31d0ae29974a1f592e2d0d15254cb5556a31cf7f3fe39b0113e83dba0c",
+ "domain": [
+  "design/design-systems",
+  "software/frontend"
+ ],
+ "product": [
+  "shadcn-ui",
+  "tailwind",
+  "figma"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Curated design systems with tokens, measured contrast and rules, plus tools that extract design tokens and DESIGN.md from live websites.",
+ "whenToUse": "Use when an agent must build UI against a defined design system, or needs to read a site's CSS tokens.",
+ "tasks": [
+  "search themes",
+  "get DESIGN.md",
+  "get theme tokens",
+  "get install command",
+  "decode site CSS",
+  "extract DESIGN.md from URL",
+  "check CSS feature support",
+  "verify DESIGN.md fingerprint",
+  "embed 3D scene"
+ ],
+ "effects": {
+  "ea4d96a5845315e0e2a638cb4ae79df4e41eb875603c819ba552b5d679e6e51f": "read",
+  "c0261e60a6ee93def721d14b86ac98e5eac348a3e3db196206fae74cf5a0947d": "read",
+  "2dcfed727be7fbcf68f9d1480fbbf725dd5ef83d3cd8dd2b01568d149d891fe2": "read",
+  "9c5bb466b651a4dc467f7ab03b7bd3bca7206d64f3e30e135c0dff42f4b5612d": "read",
+  "aae541346b66d39fbba6ebbcd5039efadd5cabbfc08baa8ce3123a426e63ca35": "read",
+  "c2842cf3830ba82ddb07bafe1281993df1b7f7406a1e4d0ad44759a521f1c023": "read",
+  "969647541d359319af436ddc57ecafb106b8e1a52a96cf6f246a061c523c6bb5": "read",
+  "c3b74b5830aaed0bed9b1b5a5e352d2c880c1234440be47ccad4a065f680d9c0": "write",
+  "b44807a41f05cbeeb77eed14d92b59744f26a5f1264d018205c16001b2b0b89e": "write",
+  "08a2718dbf5457c7f5feb471fbe3ddbcdffeb1d8d23c72779bd379e29fe470b5": "write",
+  "45cd7bceb598fd06ae2b0bbe06ccf34f2bfb1697d82e9d20708bcb25e67b73c9": "read",
+  "9a6e82052bca38f37e30ccf8b65839a7924fa63ee7cc6397b9447300785f51bd": "read",
+  "0fa42a4571ae0ce26b2e16f18331b4ac4de040ff6ee3bebe17333e61eb1ef94f": "write"
+ },
+ "flags": [
+  "get_agent_rules returns standing instructions meant to be pasted into agent config files (CLAUDE.md, AGENTS.md)"
+ ]
+}

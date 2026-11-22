@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "438d2f45b45c9fe224295500a70a7ab1fe516cfa0782698e710e2207cd4a9417",
+ "domain": [
+  "media/video-transcripts"
+ ],
+ "product": [
+  "youtube"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted service that returns YouTube transcripts and offers video search plus channel and playlist listings.",
+ "whenToUse": "Use when an agent needs the transcript of a YouTube video or wants to list videos from a channel or playlist.",
+ "tasks": [
+  "get video transcripts",
+  "search youtube",
+  "list channel videos",
+  "list playlist videos"
+ ],
+ "effects": {},
+ "flags": []
+}

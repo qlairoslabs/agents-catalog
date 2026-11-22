@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7452761a2640bac5e97de5b5bf347a6e715b0b70efb75e666b80a07fb8f7879a",
+ "domain": [
+  "infrastructure/cloud",
+  "payments/x402"
+ ],
+ "product": [
+  "run402",
+  "x402",
+  "postgres",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Explains how agents get databases, hosting, functions and storage on run402 paid per call via x402, and inspects x402 pricing of URLs.",
+ "whenToUse": "Use when an agent needs pay-per-use backend infrastructure or wants to check a URL's x402 price.",
+ "tasks": [
+  "show quickstart",
+  "probe URL for x402 pricing",
+  "decode 402 challenge"
+ ],
+ "effects": {
+  "8c7ea1c75ba738a9a2f4aa9db65a50d359e7c782cf0dcef2f4599a14222d55ea": "read",
+  "1ed6a76cbf740dd0161163626e879485f245fccd39f98235292007d6d4e7a9aa": "read"
+ },
+ "flags": []
+}

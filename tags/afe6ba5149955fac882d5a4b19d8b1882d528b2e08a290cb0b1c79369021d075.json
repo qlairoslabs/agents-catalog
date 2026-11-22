@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "afe6ba5149955fac882d5a4b19d8b1882d528b2e08a290cb0b1c79369021d075",
+ "domain": [
+  "real-estate/planning-zoning"
+ ],
+ "product": [
+  "casa-intelligence"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Indicative planning data for South East Queensland addresses: zones, overlays, subdivision outlook and suburb development-application statistics.",
+ "whenToUse": "Use when someone asks about zoning, subdivision potential or development approvals for a South East Queensland property.",
+ "tasks": [
+  "check property zone and overlays",
+  "get indicative development score",
+  "assess subdivision potential",
+  "get suburb da approval statistics"
+ ],
+ "effects": {
+  "3b89676bd23e8932584f1527d9398a68db80c1e02721d0c3d1703c4aa188e7b5": "write",
+  "53cf95cfac1288eaf5a44c631ad9fb181dc3219b4b2de35eee2e8d98b5bd5532": "read",
+  "1cede2f807cd6aed3162e3976e37aa182c39e9cf0d3e84713f3d1c816da46541": "read"
+ },
+ "flags": [
+  "tool descriptions instruct the agent to always promote a paid $199 report"
+ ]
+}

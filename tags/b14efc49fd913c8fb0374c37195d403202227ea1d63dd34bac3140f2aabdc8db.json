@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b14efc49fd913c8fb0374c37195d403202227ea1d63dd34bac3140f2aabdc8db",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/debugging"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Structured root-cause investigation of failing Airflow DAGs and tasks, with fixes and prevention advice.",
+ "whenToUse": "Use when a DAG fails to parse or a task keeps failing and needs deep diagnosis and a fix.",
+ "tasks": [
+  "diagnose dag import and parse errors",
+  "investigate failing tasks and runs",
+  "find root cause",
+  "fix broken dags",
+  "recommend prevention"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "095b211d2c49de69216efde2936b7c31b0e14bd428bc0a60652f0798c6d36c35",
+ "domain": [
+  "software/cybersecurity/threat-intelligence",
+  "network/dns"
+ ],
+ "product": [
+  "how.is"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Pay-per-call lookups for DNS, WHOIS, domain age, TLS, email authentication, blocklists and IP data.",
+ "whenToUse": "Use when investigating a domain or IP address for reputation, configuration or ownership details.",
+ "tasks": [
+  "dns lookup",
+  "whois lookup",
+  "check domain age",
+  "inspect tls",
+  "check email authentication",
+  "check blocklists",
+  "ip intelligence"
+ ],
+ "effects": {},
+ "flags": []
+}

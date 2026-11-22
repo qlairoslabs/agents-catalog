@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5c5c04a9cdc94e25f1d0724ded2869a0c2e1a4a078ad2520067ab13ed2de4a95",
+ "domain": [
+  "software/observability",
+  "ai/mcp-monitoring"
+ ],
+ "product": [
+  "spanly"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Observability for MCP servers, letting an agent query live traffic, errors, latency and alerts.",
+ "whenToUse": "Use when investigating traffic, errors or performance of MCP servers monitored by Spanly.",
+ "tasks": [
+  "query live traffic",
+  "view errors",
+  "view duration metrics",
+  "check alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

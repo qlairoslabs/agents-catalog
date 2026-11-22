@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7253602d424d304bd12d17443c314d502ee7867d52254fd230bc90602ce1073a",
+ "domain": [
+  "data/web-scraping",
+  "software/integrations"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference documentation for building production Bright Data integrations with Web Unlocker, SERP, Web Scraper and Browser APIs.",
+ "whenToUse": "Use when writing code that integrates Bright Data APIs for scraping, search or browser automation.",
+ "tasks": [
+  "implement web unlocker api",
+  "use serp api",
+  "use web scraper api",
+  "automate scraping browser",
+  "apply integration best practices"
+ ],
+ "effects": {},
+ "flags": []
+}

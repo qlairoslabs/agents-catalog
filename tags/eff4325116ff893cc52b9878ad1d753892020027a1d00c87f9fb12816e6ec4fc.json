@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "eff4325116ff893cc52b9878ad1d753892020027a1d00c87f9fb12816e6ec4fc",
+ "domain": [
+  "marketing/analytics",
+  "commerce/e-commerce"
+ ],
+ "product": [
+  "presso"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Connects e-commerce and marketing data sources to AI assistants.",
+ "whenToUse": "Use when an agent needs to query a store's e-commerce or marketing performance data.",
+ "tasks": [
+  "access e-commerce data",
+  "access marketing data"
+ ],
+ "effects": {},
+ "flags": []
+}

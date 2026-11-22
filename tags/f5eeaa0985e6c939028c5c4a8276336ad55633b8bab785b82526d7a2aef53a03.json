@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f5eeaa0985e6c939028c5c4a8276336ad55633b8bab785b82526d7a2aef53a03",
+ "domain": [
+  "software/development-workflow",
+  "ai/agent-skills"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skill collection for brainstorming, subagent-driven development with code review, systematic debugging, TDD and skill authoring.",
+ "whenToUse": "Use when you want a structured engineering workflow such as TDD, debugging or writing new skills.",
+ "tasks": [
+  "brainstorm ideas",
+  "run subagent-driven development",
+  "review code",
+  "debug systematically",
+  "apply red/green tdd",
+  "author and test skills"
+ ],
+ "effects": {},
+ "flags": []
+}

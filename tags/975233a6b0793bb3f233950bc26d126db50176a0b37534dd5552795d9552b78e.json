@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "975233a6b0793bb3f233950bc26d126db50176a0b37534dd5552795d9552b78e",
+ "domain": [
+  "retail/vehicle-accessories",
+  "ecommerce/product-fitment"
+ ],
+ "product": [
+  "rack-warehouse",
+  "thule"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Find roof racks, carriers and truck racks that fit a given vehicle at Rack Warehouse, with prices, product details and fit checks.",
+ "whenToUse": "Use when a shopper wants to know which racks or carriers fit their vehicle or needs product details from Rack Warehouse.",
+ "tasks": [
+  "find a vehicle",
+  "list what fits a vehicle",
+  "check product fit",
+  "search products",
+  "get product details"
+ ],
+ "effects": {
+  "3199b1d082c0537f7311f63a35ecd824183b5e6d4698bbba4db7463bd4a6168f": "read",
+  "89a266f162d85defee1447c2a3eec3f820173bf9b8ce73d0be3bb34d763cae13": "read",
+  "272261e9f2ff625196b95fe703ae274f51786fd3fc7cf248ea9412a927565f32": "read",
+  "6b29f02c1eeb45a571c398e7c6dcccc680318e1fb7b417c42cb3b9110f43d0e8": "read",
+  "c548de3635384338e8cb58248f131392f0a8f711bdca90366cf6062588b94666": "read"
+ },
+ "flags": []
+}

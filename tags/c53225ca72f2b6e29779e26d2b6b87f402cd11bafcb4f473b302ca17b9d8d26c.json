@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c53225ca72f2b6e29779e26d2b6b87f402cd11bafcb4f473b302ca17b9d8d26c",
+ "domain": [
+  "software/devops/kubernetes",
+  "software/cloud"
+ ],
+ "product": [
+  "kubernetes",
+  "openshift"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "MCP server for managing Kubernetes and OpenShift clusters, distributed via npm.",
+ "whenToUse": "Use when inspecting or managing Kubernetes or OpenShift cluster resources.",
+ "tasks": [
+  "list resources",
+  "inspect pods",
+  "view logs",
+  "manage deployments"
+ ],
+ "effects": {},
+ "flags": []
+}

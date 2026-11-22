@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6eea18a66991cb4c1d92879b0da76f73940ed81186c4668ee610e382e1b1f674",
+ "domain": [
+  "software/hosting",
+  "software/devops"
+ ],
+ "product": [
+  "cloudpepper",
+  "odoo"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages CloudPepper servers, Odoo instances, backups and deployments.",
+ "whenToUse": "Use when an agent needs to manage Odoo hosting, backups or deployments on CloudPepper.",
+ "tasks": [
+  "manage servers",
+  "manage odoo instances",
+  "manage backups",
+  "run deployments"
+ ],
+ "effects": {},
+ "flags": []
+}

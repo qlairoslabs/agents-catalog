@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "d993c71a3f85ee291ba99471abfb10555526f37c8b16b6e5d710650b6dcbf0ce",
+ "domain": [
+  "food/local-farms",
+  "agriculture"
+ ],
+ "product": [
+  "find-my-farmer"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Directory of Canadian farms that sell directly, with produce and breed knowledge, nearby markets, seasonality and aggregate local food prices.",
+ "whenToUse": "Use when someone wants to find Canadian farms, farmers' markets or pickup points selling a specific food, or wants local price and seasonality information.",
+ "tasks": [
+  "search farms by product or province",
+  "get a farm's public profile",
+  "find farms and markets near a place",
+  "get aggregate price statistics for a good",
+  "see what is in season by province",
+  "look up species, varieties and breeds",
+  "rank varieties for a use",
+  "compare two varieties",
+  "define farming practice terms",
+  "list local food hubs and places"
+ ],
+ "effects": {
+  "e7e0402b8ed1c9d495728e794b817d02b3e336233265c2e01ce18475ee483c55": "read",
+  "09c17fd184960b0e34cda4ffb57416a4c1b4e25f4957477dc78e1b023d8460bf": "read",
+  "108f6d6fc0ffdd21ce59339e435af614529e72b17514b515251848083ec26c47": "read",
+  "ad9dbf354c1b6bd2b784e7a3ed900466f31ef2910b1e950b074900cd4811731a": "read",
+  "69709ad466c3a15cf5152a958aafae57fba8fa1a456ba7e5fff60354c524d697": "read",
+  "95da5a07ea71bf8110d0c487edf0e4066e83fc3faa2990928b257b62ef9349a7": "read",
+  "a0810502ecc912546e3fe41ba88f1ac1e449e107449a1cb77896dc0fb3715e68": "read",
+  "5f3de6a73977ff709d0dd708ad1e84298d9c2037268a6a34c788827753eb6631": "read",
+  "5751f016309fcc15aa966bb4a43314542a322835e1a0cb1a070b6901dfbe96b9": "read",
+  "4fc274921f956953f8c7db6db65a6d9de22fd78b63fcbd73843f31a7d39c06ea": "read",
+  "aa5f19f7ef5f89be5507360e6dcdc1c16e5859c7266a7c3f31e2960b5da6d925": "read",
+  "c8095a6305e88c2e0b6414a47c20247d25c74d84e46a1227123e03ffdf3ecfb7": "read",
+  "b69cf5ef8816db1e81ffb2f76ee4171ff875df0364c2a2cd751a659746c146c6": "read",
+  "4a071c984fd653458c3b525d84a42a43d5f977800a51c772e9797a3ace0fb44c": "read",
+  "e58cc57b4dfc15debe86b067d3828648106892ba737fe2b064cc9a8565834dbb": "read"
+ },
+ "flags": []
+}

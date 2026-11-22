@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f8fd863381f4dfa4e027e51d28fb670177659eaf338678ed00099fa922c393c2",
+ "domain": [
+  "software/serverless",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-lambda",
+  "amazon-api-gateway",
+  "amazon-eventbridge",
+  "aws-step-functions"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guides designing, building, deploying, testing and debugging serverless applications on AWS Lambda.",
+ "whenToUse": "Use when working on Lambda functions or event-driven serverless applications on AWS.",
+ "tasks": [
+  "design serverless architecture",
+  "write lambda functions",
+  "configure event sources",
+  "deploy functions",
+  "test and debug lambdas"
+ ],
+ "effects": {},
+ "flags": []
+}

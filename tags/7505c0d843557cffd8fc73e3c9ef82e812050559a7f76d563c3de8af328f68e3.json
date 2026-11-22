@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7505c0d843557cffd8fc73e3c9ef82e812050559a7f76d563c3de8af328f68e3",
+ "domain": [
+  "software/cybersecurity/fraud-detection",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "ffraud"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Free fraud and security checks for websites, IP addresses, emails and domains, with no API key required.",
+ "whenToUse": "Use when an agent needs to assess the risk or reputation of an IP, email, domain or website.",
+ "tasks": [
+  "scan website security",
+  "check ip fraud risk",
+  "check email fraud risk",
+  "check domain reputation"
+ ],
+ "effects": {},
+ "flags": []
+}

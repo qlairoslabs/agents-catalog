@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "67a351c6954e336a5fb4bc037816f77adc1d704b1422620fb1bec0fa0375eb51",
+ "domain": [
+  "software/game-development/unreal-engine",
+  "software/development"
+ ],
+ "product": [
+  "unreal-engine"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Controls the Unreal Editor via MCP with toolsets for actors, blueprints, materials, Niagara, Sequencer, widgets and testing.",
+ "whenToUse": "Use when an agent needs to create or edit content directly inside the Unreal Editor.",
+ "tasks": [
+  "manage actors",
+  "edit blueprints",
+  "edit materials",
+  "build niagara effects",
+  "edit control rigs",
+  "edit sequencer cinematics",
+  "configure state trees",
+  "build ui widgets",
+  "configure gameplay ability system",
+  "run automation tests"
+ ],
+ "effects": {},
+ "flags": []
+}

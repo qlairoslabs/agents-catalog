@@ -1,0 +1,74 @@
+{
+ "classifier": 2,
+ "contentHash": "e5d993a5e4a322ec07876c84f2bc24799cc8f25a1017e32caa81145e764041dc",
+ "domain": [
+  "compliance/verification",
+  "finance/mexico-tax"
+ ],
+ "product": [
+  "sat",
+  "imss",
+  "infonavit",
+  "banxico",
+  "spei",
+  "cfdi",
+  "ofac"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money",
+  "hire-and-manage"
+ ],
+ "summary": "Mexican and Latin American verification: RFC, CURP, CLABE and CFDI checks, SAT blacklist status, sanctions and PEP screening, SPEI payment reconciliation, payroll calculations and statute lookup.",
+ "whenToUse": "Use when you must vet a Mexican company or invoice, screen a name against sanctions or PEP lists, reconcile a SPEI payment, or compute payroll or labor amounts.",
+ "tasks": [
+  "verify company by RFC",
+  "validate CFDI invoice",
+  "screen sanctions and PEP lists",
+  "monitor names for new matches",
+  "reconcile SPEI payment",
+  "validate RFC CURP CLABE NSS",
+  "calculate ISR and IMSS",
+  "calculate aguinaldo and severance",
+  "get USD/MXN rate",
+  "search Mexican law",
+  "issue verification receipt"
+ ],
+ "effects": {
+  "ee272e5eb54aaa363565fd07e33f21e0a67227b8c9c6424482753be501f1e2b9": "read",
+  "2ced9cbcc4743d8c6eef19f31aa510b89eaef64b7653baa541deb6e7aaa61bf0": "read",
+  "2f1f620b6c1c40efadb2757881928691254025c786957d4c505a6bbfdabfe7c6": "write",
+  "9e97f5670b0a9afad1ad5418a75ac3114b130620b90b0f828ea8803e8790a7c5": "write",
+  "8568fdd12128e8413dedea69e9d9e7f26142eedaf54cc23fa6f3f7582711e525": "write",
+  "7616893e694f1f945424e92be3761c06e766c117c336d5079290bbc4ba2c1d41": "write",
+  "6cb00876e7c3a3118a7f54e902cf742dabf60157ff4afc4b40fc4467dcd0cbc5": "write",
+  "80c34b89e632d6a0f7c2eb300bf0dec4213a4556098d00e24154c9052e062719": "write",
+  "d8dcbc23a4b85d874686f711055bcd77ca9e41875018eb330c131f03f6218204": "write",
+  "41cb8cd5438de99f542123c4f53e6455b41e63285b1196f654907e9cca39aec5": "write",
+  "2c4ee27627da1757bd21ce612aade5ecea878e1083d5dbaf4c0ada93b38aafc8": "write",
+  "77fafe3381b1ebc12e42244e38519a8b7d4f5bd728b1a6bdb3553544304de10a": "read",
+  "24254b1b34a9e29261d049af8946b8e759ebb874311ffc9c39b90573402b13cd": "read",
+  "9a621f43c15d0719c55805eb6e727203e111297a147e3e88fb2e326c09953dab": "read",
+  "e9667915ed351b3f72aca3cef5fca66a249221a906a22cb027fbc246bb2df8b9": "read",
+  "5dc6765a623a451c2af46323de3f912bf3362e0df6b85ca778fdcfdeaa701936": "write",
+  "ce18761a76d3686758aa97ff1a921e3dc52c949240c6aca5e26605e5b2694b77": "write",
+  "c89d6b30ba2a2dc225e84091dde00d90158ebfd6830b0d99bcd938dac5e9cb71": "write",
+  "1d2cfe692c2f147f5bb92853900ba3032a479d1a77568fcee002b3fcd8b3dd8e": "write",
+  "d75b3e30306ab54a88114e12ce5e1a3d1b1590de015db572e265b6753f050080": "write",
+  "34d0560d46d27853ee097db3a39b80a15bf1da30af1d94544d4c3406f6b521eb": "read",
+  "246e8cc40d996db096e0fbe4e2e3c43604aeed6834015d92d744e14917a4d755": "write",
+  "ab34fb7d78442033fa26c1b7bc3af7b183fd19b8632f1b4eff43adadaf64a830": "write",
+  "94677534b943c146f19fd4f67da204430ff98dae95226e66361c705945fe4951": "write",
+  "92bce3045aa01193d1dc4c68073a651be2d30f0b770f1a2af6e633efde622150": "write",
+  "eb6c43415e2864e6ca6d4df9100f57d833e0f297031e94f9f9976ee948ebe53f": "read",
+  "5784089f94caa64db2879d9f2114a0fb66ebfd1c598b359e81d918364cd8f14b": "read",
+  "7b4a4f69e618e072e65398da4b0ca8cf8a730496ac148ea0088706421efd0046": "read",
+  "9005dd40a25d44ca99d715873663ed51a43e39dc9cf2f0d0200f6d80655de337": "read"
+ },
+ "flags": []
+}

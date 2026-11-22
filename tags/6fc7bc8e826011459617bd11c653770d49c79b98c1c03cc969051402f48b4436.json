@@ -1,0 +1,66 @@
+{
+ "classifier": 2,
+ "contentHash": "6fc7bc8e826011459617bd11c653770d49c79b98c1c03cc969051402f48b4436",
+ "domain": [
+  "finance/defi",
+  "finance/risk-analytics"
+ ],
+ "product": [
+  "aave",
+  "morpho",
+  "spark",
+  "compound",
+  "kamino",
+  "ondo",
+  "philidor"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Risk scores and analytics for DeFi vaults, lending markets and tokenized assets, with comparisons, incident lists and policy conformity checks.",
+ "whenToUse": "Use when choosing or vetting a DeFi vault or lending market, comparing risk tiers, or checking positions against exposure limits.",
+ "tasks": [
+  "search and filter vaults",
+  "compare vaults",
+  "vault risk breakdown",
+  "list lending markets",
+  "market incident events",
+  "loop venue underwriting",
+  "Ondo tokenized asset data",
+  "native asset assessments",
+  "find safest vaults",
+  "policy conformity attestation"
+ ],
+ "effects": {
+  "e510a623a0c3633d7e7be5cd3fc4413ce86e3145ff4ef2350e5b513b655be0b5": "read",
+  "f603900862ff034afdbda0f7ceec88019de0aefb0eb999c6cb24ee62d5d85134": "read",
+  "7c693c2741d82644a06b3068638542ac17d906d5c8f1471aa8aecbc4cfcd9c14": "read",
+  "31c77a061ca217e00b888e7493be875a8f2880e281e08fbfc7fe28cdb05da114": "read",
+  "18f133277dbdc790cfb51d95e0eb3683ce5fe0cc59c8d6cd7cf2213ec53062d1": "read",
+  "b8588e0b714672b4221d951f3703ded46e97164d607effd5c3109f43a5b5814f": "read",
+  "c88b50457f9d88b5a54ef4879b4d48df76e7d068e18026aeba61a1c9b49063af": "read",
+  "f5ba7c5842879bb6b4e6363acae3fa8cccc819531e96dd48ded0a29be8c77b99": "read",
+  "7a053eb3416f0e8c4e77b5b51f1f6d5f1debcc9f318feb00611ad287b7e13da6": "read",
+  "61a2e62f0e8adba4286a030c3af59c50c99bd1bf2cca7dcd58641458a7745362": "read",
+  "456173f05f43029867ecc4dc34271497824b7f644a53d260d8f27d903f7f3f8d": "read",
+  "439e357740ad32d747f4028f8c5163e6b1b2d40a4c904a2bbe2ecd0fb8891c28": "read",
+  "02e05043245e1615515adc9be383e3bf6814c087902ec5f7aa11de2072c79717": "read",
+  "87fd0f688b35540125b2180e24982616a4088133cad36aa2c1fa836400ff9c76": "read",
+  "e4acb7b1be9b70816153c7a96c984630e18aaba95a24b74f782a6a04a12bfbb5": "read",
+  "a4d494a2b843ba953e38f03feb7427bd6796c3c53e32a54abb1c73f9920c7e41": "read",
+  "a08a167db5f9e969291d21ac0739aab52d242e530bfdd8dc32c16b76618b7153": "read",
+  "a13b48f95cf4de3212cd273f3ecf1b09ce39f03033abf65a9dd20b344e461923": "read",
+  "98d639b86419891477df17df79b19c29078c430a427c4838ebf5e3f03e206f2d": "read",
+  "ee6bcdb911cf8496c237731a2ed5892414621c7b1071788d64a5e48249b3b5e2": "read",
+  "e3fb342f17147864232167d2948b85a746087e3c283f1d8d2ee1408561eab726": "write",
+  "98b186e6f7e930d161e6f38f8fcbe47ed23d1a29f18e9c8f51097e56f6dac11a": "read",
+  "6d6b243915931545d65ca36bfb37beaa3a0e1f35546aad60078191cb1d7e0d11": "read",
+  "726783a898fff7d0de3a9561c94e0c8c2020a708998d991d2866a08bac9bad73": "read"
+ },
+ "flags": []
+}

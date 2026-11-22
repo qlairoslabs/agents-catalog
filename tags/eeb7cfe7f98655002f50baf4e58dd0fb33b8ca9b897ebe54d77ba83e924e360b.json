@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "eeb7cfe7f98655002f50baf4e58dd0fb33b8ca9b897ebe54d77ba83e924e360b",
+ "domain": [
+  "hr/calendar",
+  "local/vietnam"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "schedule",
+  "hire-and-manage"
+ ],
+ "summary": "Provides Vietnam public holidays for 2026–2040 and calculates business days, working-day offsets and holiday checks.",
+ "whenToUse": "Use when computing Vietnamese deadlines, payroll or SLA days that depend on holidays and swapped working days.",
+ "tasks": [
+  "list holidays by year",
+  "check if a date is a day off",
+  "count working days",
+  "add working days"
+ ],
+ "effects": {
+  "60d6079c4ddea3bee1722f182a0897876caa69a6ed5c7d2be9b98ffe4f78cc1a": "read",
+  "5656295b21b3f5defd2fbbf0fa36863d331c164d51e6ef98df0f78fae65b9629": "read",
+  "f47b6ab173543d00a416338fe2c63ce55be0e3734b3b7709c23e9830c4d88918": "read",
+  "9b67b9476ac896c9d0b421d88f4470f57da35ea280a969bd9e591295408713d9": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4b7f777624f2d0d7b356ac52410e86796ce5108dc31f226d7cb1efcb36729879",
+ "domain": [
+  "software/ai-agent-security/guardrails",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "thumbgate"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Pre-tool-use firewall for AI coding agents with feedback memory and single-use permits.",
+ "whenToUse": "Use when gating or auditing which tool calls an AI coding agent may make.",
+ "tasks": [
+  "block unsafe tool calls",
+  "issue single-use permits",
+  "record feedback memory"
+ ],
+ "effects": {},
+ "flags": []
+}

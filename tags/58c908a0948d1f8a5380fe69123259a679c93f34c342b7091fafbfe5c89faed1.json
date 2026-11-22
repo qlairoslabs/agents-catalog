@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "58c908a0948d1f8a5380fe69123259a679c93f34c342b7091fafbfe5c89faed1",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "software/dependency-management"
+ ],
+ "product": [
+  "endor-labs",
+  "endorctl"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Sets up endorctl and uses Endor Labs to scan, prioritize and fix software supply chain security risks.",
+ "whenToUse": "Use when scanning a codebase's dependencies and supply chain for security risks with Endor Labs.",
+ "tasks": [
+  "install endorctl",
+  "scan for supply chain risks",
+  "prioritize vulnerabilities",
+  "fix security risks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "12437a72d4baed55f1bfb1889a9b760f77986aaa4ca483d61b49bd8ab7e9c9b0",
+ "domain": [
+  "business/company-data",
+  "finance"
+ ],
+ "product": [
+  "firmoteka"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches Russian legal entities by name, INN or OGRN and returns company details, debts, state contracts and annual financials.",
+ "whenToUse": "Use when you need to research or verify a Russian company.",
+ "tasks": [
+  "search companies",
+  "get company card",
+  "get revenue and profit",
+  "check tax debts",
+  "see state contracts"
+ ],
+ "effects": {
+  "f46b8c140f0c99128d40a7ce992a0032320db24d86983b7cd5fc31ef694d1287": "read",
+  "1a32b804281be3a2ca50667c27b2a395aa92d712d5ed5b6fd15f2472952528c6": "read",
+  "3938d2376b3c623c293250901636929eb7c7f6c6bcd0e4ee969fa20cfa0fdeab": "read"
+ },
+ "flags": []
+}

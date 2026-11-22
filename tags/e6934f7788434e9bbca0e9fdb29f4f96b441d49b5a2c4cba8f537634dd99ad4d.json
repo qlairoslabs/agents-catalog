@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e6934f7788434e9bbca0e9fdb29f4f96b441d49b5a2c4cba8f537634dd99ad4d",
+ "domain": [
+  "sports/fantasy-sports"
+ ],
+ "product": [
+  "espn",
+  "yahoo",
+  "sleeper"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes a user's ESPN, Yahoo and Sleeper fantasy leagues with read-only access.",
+ "whenToUse": "Use when a user wants analysis of their fantasy sports leagues, rosters or matchups.",
+ "tasks": [
+  "read fantasy leagues",
+  "analyze rosters",
+  "analyze matchups"
+ ],
+ "effects": {},
+ "flags": []
+}

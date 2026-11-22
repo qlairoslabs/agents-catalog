@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0f6e6217c70015417f077ff26e47dd5047615ea6c7d3e46cf391410ea66b487e",
+ "domain": [
+  "compliance/workplace-safety",
+  "government/osha"
+ ],
+ "product": [
+  "osha"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up US workplace safety standards (29 CFR) with citation counts, penalties and rankings since 2016.",
+ "whenToUse": "Use when a user asks which OSHA standards are cited most, what a standard's penalties are, or needs enforcement figures for a section.",
+ "tasks": [
+  "search standards by number or keyword",
+  "get enforcement figures for a section",
+  "list most-cited standards",
+  "filter by CFR part"
+ ],
+ "effects": {
+  "6dd4b691df56cd8654ab6ca997c246b220ffee5e4fb25de274df568b0f45bb40": "read",
+  "ada7655b22bf02c7bd982bc28fdef6a6f4d49769d5ff40478e0888e7bc6f1b97": "read",
+  "1c21ce831e444903a1fbb061b081aede52ff808795952b3f3a19ec1bccaac6d5": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "4c03160cf859562090e64108a031c255816905335db9d91513b64a5fd9df0d83",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "imessage",
+  "whatsapp",
+  "telegram",
+  "sms"
+ ],
+ "audience": [
+  "everyone",
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Messaging layer that lets AI agents send and receive messages over iMessage, WhatsApp, Telegram and SMS.",
+ "whenToUse": "Use when an agent needs to message people on iMessage, WhatsApp, Telegram or SMS.",
+ "tasks": [
+  "send messages",
+  "receive messages",
+  "manage conversations"
+ ],
+ "effects": {},
+ "flags": []
+}

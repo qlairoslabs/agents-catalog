@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "f37f5a990e88608b5634079d26515dc58e149155d1e33b1d01ae928681c3bff5",
+ "domain": [
+  "education/international-schools",
+  "education/university-admissions"
+ ],
+ "product": [
+  "brightkey"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Bilingual English and Chinese data on universities and international schools, with tier ratings, degree ROI and sourced answers.",
+ "whenToUse": "Use when someone is choosing a university or international school, comparing options, or asking about degree return on investment.",
+ "tasks": [
+  "list universities by country and tier",
+  "get university profiles",
+  "compare two universities",
+  "calculate degree roi and break-even",
+  "find international schools by city and curriculum",
+  "answer international education questions",
+  "search and fetch education content"
+ ],
+ "effects": {
+  "8b81f563dd014794c0c73305ba804fffea480730fd90064eb7a5471b1b931191": "read",
+  "68db620ac4dd45da4765121956626dde4e7a896d2e1767e32b82bf56857d5939": "read",
+  "31c75c318441cd7e72cc7bc2dea45a2cadc38cd5747d73ccf92344e6ac7eb299": "read",
+  "a4c91ca14dc15da0adc06abb7bf199ad4706157a2b851123afe266d74e603e61": "read",
+  "ffa1f7ac2df06d3dee1d62f1f9bf5cc616850c9937858cc1e83186b7008adb26": "read",
+  "59cc44b2ba949c9ed9262d1ea91c00088c3bbaa50d3a8286be5a2a73c237f6be": "read",
+  "9af95ea48f2ed28adddf984b720fc15634889882b3e1c6d3d2c77c88ecda8ae8": "read",
+  "494e4298b83d41b70c1cb99bd355f11f3b4b7086b99090c20840d356bb3cec95": "read"
+ },
+ "flags": []
+}

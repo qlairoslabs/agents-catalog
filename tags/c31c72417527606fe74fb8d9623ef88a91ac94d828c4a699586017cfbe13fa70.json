@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c31c72417527606fe74fb8d9623ef88a91ac94d828c4a699586017cfbe13fa70",
+ "domain": [
+  "industry/equipment-procurement",
+  "energy/grid-interconnection"
+ ],
+ "product": [
+  "open-factory"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides lead times, prices, tariffs and grid interconnection terms for factory and datacenter equipment.",
+ "whenToUse": "Use when planning factory or datacenter builds and needing equipment costs, lead times or grid terms.",
+ "tasks": [
+  "look up equipment lead times",
+  "check equipment prices",
+  "look up tariffs",
+  "check grid interconnection terms"
+ ],
+ "effects": {},
+ "flags": []
+}

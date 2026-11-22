@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d90a8af6866919d551aeaedcbf48dde2e3311edd31eeae4d0c03a15025436052",
+ "domain": [
+  "finance/prediction-markets",
+  "crypto/derivatives"
+ ],
+ "product": [
+  "polymarket",
+  "hyperliquid"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Polymarket order book history, live books, trades and settlements, plus Hyperliquid perpetual order books.",
+ "whenToUse": "Use when analysing Polymarket market data or Hyperliquid perpetual order books.",
+ "tasks": [
+  "get orderbook history",
+  "get live order books",
+  "list trades",
+  "view settlements",
+  "get hyperliquid perp books"
+ ],
+ "effects": {},
+ "flags": []
+}

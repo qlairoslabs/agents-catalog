@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "706036d07d9884e0fd4a1bf1f01cf3b3a206e90713403e79fd0475f969940469",
+ "domain": [
+  "health/fitness"
+ ],
+ "product": [
+  "hevy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages workouts, routines and exercise data through the Hevy API.",
+ "whenToUse": "Use when a user wants to log, review or plan workouts in Hevy.",
+ "tasks": [
+  "list workouts",
+  "log workouts",
+  "manage routines",
+  "look up exercises"
+ ],
+ "effects": {},
+ "flags": []
+}

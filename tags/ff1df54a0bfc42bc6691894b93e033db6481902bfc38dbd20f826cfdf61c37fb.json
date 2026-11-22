@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ff1df54a0bfc42bc6691894b93e033db6481902bfc38dbd20f826cfdf61c37fb",
+ "domain": [
+  "family/events"
+ ],
+ "product": [
+  "kidseventsthisweek"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds kids and family events, story times and camps near US cities or ZIP codes, plus local place guides.",
+ "whenToUse": "Use when a parent wants activities for children near a US location.",
+ "tasks": [
+  "find kids events",
+  "get event details",
+  "list local guides",
+  "filter by age and price"
+ ],
+ "effects": {
+  "489821f19d76c3834af9bb73ba91d9f608a5b1a15d431691659cc84ed20386d6": "write",
+  "b8ed0548e08161cf1be5f1d8f693f90422c0913c82180a75e17e308506aa101c": "read",
+  "f58a9b877214e4b843d2d3c99dbfa796028b4bd685caf09d8fdfb308c32a5e22": "read"
+ },
+ "flags": []
+}

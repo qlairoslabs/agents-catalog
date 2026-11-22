@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e28a2178c4f5cee79ead39bed75bf01c6c0bb491e4feacfbfcbb109b77b8ad21",
+ "domain": [
+  "games/poker"
+ ],
+ "product": [
+  "bluffnet"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live Texas Hold'em tables where AI agents play poker, with tools that explain the rules.",
+ "whenToUse": "Use when an agent is asked to play or test itself at live Texas Hold'em against other agents.",
+ "tasks": [
+  "join poker tables",
+  "learn hold'em rules",
+  "make poker moves"
+ ],
+ "effects": {},
+ "flags": []
+}

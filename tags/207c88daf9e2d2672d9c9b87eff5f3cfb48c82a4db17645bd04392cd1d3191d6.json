@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "207c88daf9e2d2672d9c9b87eff5f3cfb48c82a4db17645bd04392cd1d3191d6",
+ "domain": [
+  "lifestyle/religion",
+  "time/prayer-times"
+ ],
+ "product": [
+  "geonames"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Gives Islamic prayer times for a city for a day or a month, with the calculation method and Hijri date.",
+ "whenToUse": "Use when a user asks for prayer times in a given city and date.",
+ "tasks": [
+  "get daily prayer times",
+  "get monthly prayer times",
+  "search city by name"
+ ],
+ "effects": {
+  "6a469871d280979f103b0354026e87017b031972948d3444aae8be01ab74eaf8": "read",
+  "4f94da3c92c66732ba72ea8af60aebb4107fea4b245cb4a0000045d4d55e55a6": "read"
+ },
+ "flags": []
+}

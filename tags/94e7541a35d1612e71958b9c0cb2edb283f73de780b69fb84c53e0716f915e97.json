@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "94e7541a35d1612e71958b9c0cb2edb283f73de780b69fb84c53e0716f915e97",
+ "domain": [
+  "marketing/email-verification",
+  "sales/lead-data"
+ ],
+ "product": [
+  "clearout"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Verifies email addresses, finds emails and validates names using Clearout.",
+ "whenToUse": "Use when an agent must verify or find email addresses for contacts or leads.",
+ "tasks": [
+  "verify emails",
+  "find emails",
+  "validate names"
+ ],
+ "effects": {},
+ "flags": []
+}

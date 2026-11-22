@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "7a05ff74aeaf8d0715e2b639faae8f8b0750a73dfb5703283aac8d8f928c4de4",
+ "domain": [
+  "finance/venture-capital",
+  "research/market-data"
+ ],
+ "product": [
+  "svtr"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Read-only database of AI startups, investors, founders and funding rounds with sources, plus sector statistics and research articles, covering the US and China.",
+ "whenToUse": "Use when researching AI companies, recent funding events, active investors or comparable companies.",
+ "tasks": [
+  "search companies and investors",
+  "get organization profiles",
+  "get founder profiles",
+  "list recent funding events",
+  "summarize sector funding",
+  "find active investors",
+  "find comparable companies",
+  "search research articles"
+ ],
+ "effects": {
+  "adc25158f56955b341f680a75dd49c0fe0ef1cbeccdf11383dda700507b05863": "read",
+  "e1f38c8e2e241067ce1e1cf3513e3f31bd06fcab1ae76a52f0c48c4968160bfa": "read",
+  "6d5cc81e70ee7abf7e6e22349e4e54f1624fb9fdfb1cbb4ff4260f752d1b44ac": "read",
+  "062fa57f8368f2a883a40538169c017e2bab8acc4858ac7462fb05fdc8ac9e75": "read",
+  "41da3634d7e5443a34cf06ea8c3c4dc6932d36a6763d9b3a987025ba8ab53b83": "read",
+  "4ca4dd489ec59a831d24dc5cd233b26e22e3c6ac451a9e8e2c76eba71e620854": "read",
+  "4b1e1234975fb0ba1b16bfada2c03816e78aa00b37dd8bcc2739e9517584ae1c": "read",
+  "b1cc6aa90aefc9a0f780c79d7bd6dfd9d1b0ea07bfd45a645f1925a5bea9d1e9": "read",
+  "895bbaf0dfba02b584689338e2f840a38dec2b30a194b140cee93a6658a66c81": "read"
+ },
+ "flags": []
+}

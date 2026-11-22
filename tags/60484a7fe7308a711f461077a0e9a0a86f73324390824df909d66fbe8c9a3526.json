@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "60484a7fe7308a711f461077a0e9a0a86f73324390824df909d66fbe8c9a3526",
+ "domain": [
+  "media/ai-video-generation",
+  "marketing/social-media"
+ ],
+ "product": [
+  "aicut"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates AI videos, images, audio and serialized video story episodes, and can publish them to social platforms.",
+ "whenToUse": "Use when the user wants to produce AI-generated media or episodic video stories and post them to social networks.",
+ "tasks": [
+  "generate video",
+  "generate images",
+  "generate audio",
+  "create video story episodes",
+  "publish to social media"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "08bb0d4e9e98d5c2bde302ab20db340beb7c2a957393647be6eb914d11e3f59f",
+ "domain": [
+  "iot/smart-home",
+  "pest-control"
+ ],
+ "product": [
+  "bzigo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reports Bzigo smart trap status, detections, health and firmware, and runs simulations.",
+ "whenToUse": "Use when a Bzigo device owner wants to check device status, detections or firmware.",
+ "tasks": [
+  "check device status",
+  "view detections",
+  "check device health",
+  "check firmware",
+  "run simulations"
+ ],
+ "effects": {},
+ "flags": []
+}

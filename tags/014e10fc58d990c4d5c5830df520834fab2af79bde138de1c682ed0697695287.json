@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "014e10fc58d990c4d5c5830df520834fab2af79bde138de1c682ed0697695287",
+ "domain": [
+  "geopolitics/risk-monitoring",
+  "analytics"
+ ],
+ "product": [
+  "arcane"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only live geopolitical risk readings across financial, energy, social, military, cyber and weather domains; observes current state without forecasting.",
+ "whenToUse": "Use when you need the current observed geopolitical risk picture, changes since yesterday or data freshness.",
+ "tasks": [
+  "get overview",
+  "get daily changes",
+  "drill into a domain",
+  "view bilateral signals",
+  "read data streams",
+  "see score composition",
+  "view trigger chains",
+  "track scenarios",
+  "check freshness"
+ ],
+ "effects": {
+  "6c8ecddb65b5c010aab4d31f334978f484064f35e8098d9fcd31748db45a0b8d": "read",
+  "8b7113dd56414b76d48d0f3f77f5d757b524a4b91d9a8f867e861f159220dafb": "read",
+  "bbe069efb09655d9435dbff26d3530c06c0f51d97cef62c96e8d2e4d71c006a3": "read",
+  "71d8b6e98af73184ca2f3515edf92d0391b5885a36208b54a862bb4c6ed6eb9d": "read",
+  "05d45f9f5963868fd046fe89d0bdb0bbdd51b971206555d48576d88e4792ebfc": "read",
+  "bb8539b4a5c4388afca2fe860bcf4b0c6edfa5ba21b6a8e5f7c860663b79d54a": "read",
+  "632325a2122aebbd749330e6f4431704c823459502dd3df5cbe90ff4cf1b9d96": "read",
+  "19f30f2695cd6aa42d5119860ace662e6186cc401868c6b6b09e6e96df6b199a": "read",
+  "641eb339fe352f0617ff049c65eab6de6102fd9ddda7d8d07814cbd524d9dd59": "read",
+  "48bd71dedf0bfc4e94a3d9f07405f33b1a911d4970c30833fff9be7163c685ab": "read"
+ },
+ "flags": []
+}

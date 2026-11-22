@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b05429362d1c0485fc609b2c068fe9807193d10da84f51736e27ab382658ab0a",
+ "domain": [
+  "design/placeholder-images",
+  "software/development"
+ ],
+ "product": [
+  "placepack"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Generates deterministic placeholder image URLs and packs by size spec or preset for docs, staging and testing.",
+ "whenToUse": "Use when you need placeholder images of specific dimensions for mockups or tests.",
+ "tasks": [
+  "list size presets",
+  "create placeholder image URL",
+  "create image pack"
+ ],
+ "effects": {
+  "1e512e49e7580b18e8f19404bef0aa407ef02da9006872d5fee9f21d3c48062a": "read",
+  "3f81c6a8934774548c58a5c0f924ec2ae277e95f7ed4cc8727403f0d9233a992": "read",
+  "362869e4a8be7aafc58f5270920b2ac95aeb8c750c25ea68bb5d7668cf74cd09": "read"
+ },
+ "flags": []
+}

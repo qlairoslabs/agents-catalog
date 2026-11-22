@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "81262c45c055b1c6ceb88b830fa05a6c5505876337a1878fb1e95aea5b26e0d1",
+ "domain": [
+  "data/databases/analytics",
+  "operations/cloud"
+ ],
+ "product": [
+  "clickhouse",
+  "clickhouse-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Connects Claude to ClickHouse Cloud to browse services and schemas, run read-only SQL, and check backups, billing and ClickPipes.",
+ "whenToUse": "Use when you need to explore or query ClickHouse Cloud data or inspect service backups and costs.",
+ "tasks": [
+  "browse organizations and services",
+  "list databases and table schemas",
+  "run read-only sql queries",
+  "monitor service backups",
+  "review billing costs",
+  "inspect clickpipe configurations"
+ ],
+ "effects": {},
+ "flags": []
+}

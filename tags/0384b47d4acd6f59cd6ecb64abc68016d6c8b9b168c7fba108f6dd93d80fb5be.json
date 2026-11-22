@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0384b47d4acd6f59cd6ecb64abc68016d6c8b9b168c7fba108f6dd93d80fb5be",
+ "domain": [
+  "analytics/product-analytics",
+  "software/experimentation"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Amplitude integration for instrumenting tracking, analyzing charts, building dashboards, running experiments and studying user and account behavior.",
+ "whenToUse": "Use when working with product analytics data, dashboards or experiments in Amplitude.",
+ "tasks": [
+  "instrument amplitude tracking",
+  "analyze charts",
+  "create dashboards",
+  "manage experiments",
+  "explore users and accounts",
+  "find product opportunities"
+ ],
+ "effects": {},
+ "flags": []
+}

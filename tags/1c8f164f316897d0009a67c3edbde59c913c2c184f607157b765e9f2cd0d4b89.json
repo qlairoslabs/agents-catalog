@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "1c8f164f316897d0009a67c3edbde59c913c2c184f607157b765e9f2cd0d4b89",
+ "domain": [
+  "finance/mortgage"
+ ],
+ "product": [
+  "paramount-loan-services",
+  "fannie-mae"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Submits a Form 1003 mortgage application to a licensed California broker and provides loan program and company information.",
+ "whenToUse": "Use when a consenting borrower wants to file a residential mortgage application with Paramount Loan Services.",
+ "tasks": [
+  "submit loan application",
+  "get application schema",
+  "list loan programs",
+  "get company info"
+ ],
+ "effects": {
+  "8fdcdc3d7f36355a680fc8c894886512c15dc827aadfec9422faeada8fc2bd42": "write",
+  "07e2fa7b01b92904a80178fc85c4be78387aaa0cb8d672670a7ab184e7ac3d1a": "read",
+  "ebf258775c2fee433d39ea461c99cedfd9ee5d1ed42e451dd2cb62dac771c086": "read",
+  "32f0ad7508f9286d3c3061ffca121f54ff384a11c21975818abfa3df8c310df8": "read"
+ },
+ "flags": []
+}

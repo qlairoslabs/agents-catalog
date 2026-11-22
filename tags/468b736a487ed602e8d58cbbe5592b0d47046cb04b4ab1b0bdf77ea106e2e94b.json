@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "468b736a487ed602e8d58cbbe5592b0d47046cb04b4ab1b0bdf77ea106e2e94b",
+ "domain": [
+  "software/cybersecurity/vulnerability-management",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-security-agent"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Pulls AWS Security Agent pentest and code review findings, exports them locally, prioritizes them and helps fix the highest-risk issues.",
+ "whenToUse": "Use when the user wants to see, triage or fix security findings from AWS Security Agent scans.",
+ "tasks": [
+  "discover scans",
+  "export findings locally",
+  "prioritize vulnerabilities",
+  "produce triage summary",
+  "fix high-risk issues"
+ ],
+ "effects": {},
+ "flags": []
+}

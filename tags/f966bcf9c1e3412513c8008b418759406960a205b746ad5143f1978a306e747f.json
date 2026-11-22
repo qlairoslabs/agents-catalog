@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "f966bcf9c1e3412513c8008b418759406960a205b746ad5143f1978a306e747f",
+ "domain": [
+  "ecommerce/personalised-gifts"
+ ],
+ "product": [
+  "giftstoprint",
+  "shopify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Order personalised newspaper-style birthday, anniversary and retirement posters delivered as print-ready files via a checkout link.",
+ "whenToUse": "Use when a user wants a personalised newspaper-style poster gift for a birthday, anniversary or retirement.",
+ "tasks": [
+  "find posters",
+  "get personalisation form",
+  "get photo upload link",
+  "upload photo",
+  "create checkout"
+ ],
+ "effects": {
+  "73e0367bf9db07ad79f4245d6cd982a4247de941e084e5d745cc8454a5ef75d3": "write",
+  "862b0f8abd08bc87fb1a1f892cc7aa702ac57da3d776719caffe0fcb508e718d": "read",
+  "6b6c78ea7084a2a512277fa62d69a25bffedd921e008e7bc31274316f754a896": "write",
+  "a08bc7c91e553f389215770806fbcaa3308291fa640430a16d822bdf1a88182f": "write",
+  "345d59c19c82cbc9bed800832d668c814db87037c77ac1788dacf6a6bcd1a4dd": "write"
+ },
+ "flags": []
+}

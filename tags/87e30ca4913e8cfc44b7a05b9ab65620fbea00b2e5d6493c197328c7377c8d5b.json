@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "87e30ca4913e8cfc44b7a05b9ab65620fbea00b2e5d6493c197328c7377c8d5b",
+ "domain": [
+  "operations/procurement",
+  "finance/purchasing"
+ ],
+ "product": [
+  "auravms"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Procurement connector to manage suppliers, send requests for quotation, compare quotes and place purchase orders.",
+ "whenToUse": "Use when the user needs to source from suppliers, request quotes or create purchase orders.",
+ "tasks": [
+  "manage suppliers",
+  "send rfqs",
+  "compare quotes",
+  "place purchase orders"
+ ],
+ "effects": {},
+ "flags": []
+}

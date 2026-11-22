@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "e3b29d983042891b717e1ec5b5303ffd0c787d0ba3649f3b0b565cd21ef09732",
+ "domain": [
+  "sports-betting",
+  "data/odds"
+ ],
+ "product": [
+  "theoddsgap",
+  "kalshi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Answers US sports betting price questions: best odds across books, game lines, props, futures, arbitrage and middle spots, and betting math.",
+ "whenToUse": "Use when comparing sportsbook prices, looking for arbs or middles, or doing odds and hedge calculations.",
+ "tasks": [
+  "answer odds questions",
+  "calculate odds and hedges",
+  "explain betting terms",
+  "list game slates",
+  "get game lines",
+  "view past games",
+  "get team records",
+  "get futures odds",
+  "get player props",
+  "find arbs",
+  "find middles"
+ ],
+ "effects": {
+  "45b12bca220da2e6e675ffb74239d761b824361bd933cffd91249fb79bf0de3e": "write",
+  "f9b8c9ddc623676d8876c2469c42132383ad40335450fda95ef4ae772cfcad8f": "read",
+  "caedf25ef0cb91d0b08d6187a858269ede84f6aa86813cc8a1f7e4807d17e819": "read",
+  "0b6a7d6f9f142e1822dada458033aac8928244fd321cbf814965046b9b7386d0": "read",
+  "72c02f0f89f98f776f11dc226a1eaaa5988d6350514231496f1c839f37b85ad1": "read",
+  "f032c16454754e9f6d2e3e8a579fe15289960eaa764edce95c1e50dbb60c8e4f": "read",
+  "fdc1cf4eee54d3a23187b80a78f69e0c2e72f7a76ad189576d26f3b79c4f058f": "read",
+  "7e4f8fbec055717fc7b73fc7c08b630cc32d2b9ed3d30ef33489226ef4943c46": "read",
+  "55e58d8af30dd2d5cff862067055b7f8e879659a56e69f5d7819445bb6b6b797": "read",
+  "3cf8e7e8d087b95f2b31c58c58bd71422db4510837eee9404a4806fd7b666f6b": "read",
+  "3339fd3112ed2bfbe080ed4bcffcb00d9b01d2acae3c979c79564b48d86f8279": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6f240a475facd4501a1d28fd20bf054d7a537918eebcd119e12cee357baad002",
+ "domain": [
+  "finance/brokerage",
+  "finance/market-data"
+ ],
+ "product": [
+  "interactive-brokers"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to Interactive Brokers to analyze global markets and manage an investment portfolio.",
+ "whenToUse": "Use when a user wants market analysis or to review and manage their Interactive Brokers portfolio.",
+ "tasks": [
+  "analyze markets",
+  "view portfolio",
+  "manage positions"
+ ],
+ "effects": {},
+ "flags": []
+}

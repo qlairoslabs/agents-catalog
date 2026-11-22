@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "8ed93233e6a55f2c851b8322780665c5bd87ba4e4eae82ae522313e8ce22f17b",
+ "domain": [
+  "crypto/liquidity-analysis",
+  "crypto/on-chain-lookup"
+ ],
+ "product": [
+  "base",
+  "ethereum",
+  "bnb-chain",
+  "kraken",
+  "coinbase",
+  "ens"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Measured exit costs for selling crypto tokens, coin profiles, PowerMap of issuer powers, address and transaction explanations, and a crypto glossary.",
+ "whenToUse": "Use when judging how liquid a token really is, who controls a coin, or what an address or transaction is.",
+ "tasks": [
+  "measure exit cost of a token",
+  "get coin profile",
+  "map issuer powers",
+  "get exit-friction index",
+  "identify address",
+  "explain transaction",
+  "explain crypto terms",
+  "search crypto pages"
+ ],
+ "effects": {
+  "9ef09b3c45d9c48a0b29bb81ec21f915a211c0bb497cf7f99c5e70e22fc60bb9": "write",
+  "61f80ae38c3f5d2b035195624e3c5b8a1b59818b3620bd4317bdbea2a440dcbb": "write",
+  "6fa1a4754091234d01d6ce29860be908d7728e041df1ca68bace0b53e8001fce": "read",
+  "3272d0f2570f30c24e9383b68aa0f9e7450745b198a35f892c37093c656dd8a0": "read",
+  "25c69611859da82e2adee357cb110684aa210b544c5c95c6a559da81c21e3541": "read",
+  "b0b959a7168f4bd45e81b78c110f5a0993e8a1ae2952958db7264f5fca2c3171": "read",
+  "22c459e4399dd7f595a8d5dc550fbb4ea9d57b39bfdce8a11e0bffe0cb87c7eb": "read",
+  "536433f21c86a70db12afbe7ad378aa71cdabe159c721df06cfcaad46c3cce60": "read"
+ },
+ "flags": []
+}

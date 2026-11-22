@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ba6e553c3010a0025e18ec9efcd806e3390de8ae69cfd07e3650cb09ce64b4a5",
+ "domain": [
+  "communication/email",
+  "marketing/email"
+ ],
+ "product": [
+  "eusend"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Sends transactional email and manages sending domains, audiences and broadcasts through Eusend.",
+ "whenToUse": "Use when sending transactional email or managing email audiences and broadcasts on Eusend.",
+ "tasks": [
+  "send transactional email",
+  "manage domains",
+  "manage audiences",
+  "send broadcasts"
+ ],
+ "effects": {},
+ "flags": []
+}

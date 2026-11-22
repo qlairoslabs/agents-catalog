@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "42a586b331d32c2ca7d55302b7e6e3f8496b3a9cb7a92afe98d72f12d3240f37",
+ "domain": [
+  "sales/crm"
+ ],
+ "product": [
+  "onepagecrm"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Connects to OnePageCRM to create, search, update and manage contacts, deals and other CRM records.",
+ "whenToUse": "Use when an agent needs to look up or change contacts, deals or follow-ups stored in OnePageCRM.",
+ "tasks": [
+  "search crm contacts",
+  "create contacts",
+  "update crm records",
+  "manage deals"
+ ],
+ "effects": {},
+ "flags": []
+}

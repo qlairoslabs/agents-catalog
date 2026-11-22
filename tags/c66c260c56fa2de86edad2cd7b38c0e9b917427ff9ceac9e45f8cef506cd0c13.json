@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c66c260c56fa2de86edad2cd7b38c0e9b917427ff9ceac9e45f8cef506cd0c13",
+ "domain": [
+  "media/rss-reader",
+  "productivity/news-monitoring"
+ ],
+ "product": [
+  "feeder"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads, searches and organizes the RSS feeds a user follows in Feeder; requires Feeder Plus.",
+ "whenToUse": "Use when an agent needs to read or search a user's RSS subscriptions or organize their feeds.",
+ "tasks": [
+  "read rss feeds",
+  "search feed items",
+  "organize feeds"
+ ],
+ "effects": {},
+ "flags": []
+}

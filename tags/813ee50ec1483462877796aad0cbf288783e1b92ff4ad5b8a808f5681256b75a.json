@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "813ee50ec1483462877796aad0cbf288783e1b92ff4ad5b8a808f5681256b75a",
+ "domain": [
+  "design/design-systems",
+  "software/frontend"
+ ],
+ "product": [
+  "supernova"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Accesses and maintains Supernova design system documentation, tokens, components and contexts.",
+ "whenToUse": "Use when an agent needs design system tokens, components or docs from Supernova.",
+ "tasks": [
+  "read design system docs",
+  "get design tokens",
+  "look up components",
+  "update documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9708446268d971cfc6a871f1b2aeb0269264a1e7b0f47918edeb400fc5d4f573",
+ "domain": [
+  "productivity/notes",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "obsidian"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives AI coding assistants on-demand access to an Obsidian vault.",
+ "whenToUse": "Use when a coding assistant needs notes or context stored in Obsidian.",
+ "tasks": [
+  "read obsidian notes",
+  "search vault",
+  "write notes"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4a2ac2515ae65213d034092d80e4b3378fa870335b5101e74e93c0b28ebc1d85",
+ "domain": [
+  "software/cybersecurity/ai-agent-safety"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Pay-per-call safety checks for AI agents covering prompt injection, tool calls, signing, secrets and x402 payment trust.",
+ "whenToUse": "Use when an agent needs to screen inputs or tool calls for injection, leaked secrets or untrusted payments.",
+ "tasks": [
+  "detect prompt injection",
+  "check tool calls",
+  "verify signatures",
+  "scan for secrets",
+  "assess x402 trust"
+ ],
+ "effects": {},
+ "flags": [
+  "pay-per-call pricing"
+ ]
+}

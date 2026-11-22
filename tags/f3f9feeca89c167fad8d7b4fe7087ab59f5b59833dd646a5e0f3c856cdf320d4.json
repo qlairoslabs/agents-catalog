@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "f3f9feeca89c167fad8d7b4fe7087ab59f5b59833dd646a5e0f3c856cdf320d4",
+ "domain": [
+  "legal/contracts",
+  "legal/privacy"
+ ],
+ "product": [
+  "north-end-law",
+  "stripe"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "sell"
+ ],
+ "summary": "Flat-fee ($350) data processing or business associate agreement from North End Law, drafted from submitted facts and released by a lawyer.",
+ "whenToUse": "Use when a company needs a DPA or BAA for a customer or vendor and wants a lawyer-reviewed document at a fixed price.",
+ "tasks": [
+  "list services and prices",
+  "get required facts schema",
+  "read engagement terms",
+  "open a matter",
+  "submit facts",
+  "check matter status",
+  "get payment link",
+  "get released agreement",
+  "request consultation"
+ ],
+ "effects": {
+  "7316e0d292fb02fff6c75f5970bfe24068b74ffee2b3188aa1a97bdd6ecf4c3c": "read",
+  "f3acd8ccd32982bac26d28227ed009d14cdacd4359f45cdb511f82af59365036": "read",
+  "8ca2ccd224ffd50450e467a8434b6e26f0396fbc3a7f0b6eee0f46945cdc28cc": "read",
+  "82a2761654c169c467136a5195f846c025dd0adccb03f398eeaa94053a6aa30d": "read",
+  "16708435a533068bd102e32628688978e1e537f9be3e98e0b2b000fcd59a4e54": "write",
+  "4703f769d2d3e6c198c7706adb422d459993569def9bd5bf3abeeb7e299ecb7e": "write",
+  "051d220e85ef2b6a7d0322a8702e403efc7d4e4cff7c8f149bfe48a382925bcf": "read",
+  "51eb6f6abd607bf77aa8f66af30d5e7601433b7b83c44e10dae098c583d46cf7": "write",
+  "774293e655222e6dff9088fea812fdd6f8179cbdf3a861677218876b5b70bdc9": "write",
+  "2702abcde4e38214e2335053f31bcaa87feec3bbdfdaf72d3c7c914b447e0ff4": "write",
+  "6ecf84c648e27437fbc4921940bc27697db1cab252f72da0cbb7c794d2e77478": "read"
+ },
+ "flags": []
+}

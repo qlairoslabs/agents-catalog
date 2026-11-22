@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "f9b6844488ab78dd499801466d72143056ae5343539a2b2a3e15b52a83c6117a",
+ "domain": [
+  "travel/accommodation-and-activities",
+  "hospitality"
+ ],
+ "product": [
+  "experience-bamfield"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Plan and price trips to Bamfield, BC: cottages, kayaks, parking, moorage and charters, with availability, quotes and a cart link.",
+ "whenToUse": "Use when helping a guest plan, price and prepare a Bamfield booking or check an existing trip's status.",
+ "tasks": [
+  "list products",
+  "get product details",
+  "check availability",
+  "price cottages",
+  "quote trip total",
+  "build cart link",
+  "camping permit info",
+  "list photos",
+  "get trip summary"
+ ],
+ "effects": {
+  "6d2de41b521ba8c6fe4288b9a3aed30846f5c9a08046dcca6fa0bc7c41ec06f9": "read",
+  "f9e6b56f8dc66006ec8672f61de0c03f83f249e6c3bd8790076a6ec5de6bf755": "read",
+  "4a76e98f0c78729deb1c58a6e7d316bbadf192e46c79ca8cf64e4495c3be47a4": "read",
+  "2c4f1657aac8f8ead41cc016fa5351a97003f6175278d128c3aa4d06e5c7ffc9": "read",
+  "d0c7e1f5f3edcecd8f57a39fc3378c319ccc19aafb7ac47ca37c2432cce6fe98": "read",
+  "6c60e9cdb705d3d2c0f212292187d6e41083aa1954be99e3589fe8b35789e430": "read",
+  "01d0c74b1f80060531b971626fae39b613cd2c0ff01ca33393264af035c3af75": "read",
+  "f09d2bdd56d787a06d82b42b7cf74fe5df29bb7baabbff4dbd0fb7ae74e33a9e": "read",
+  "069736f1c1fc53f6e9b0da5ed811907aad2d125c21982554026b7fa43a300261": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "242db6ca24bcefae3d6b433706b19408b5d49aae8fe9365a65c3fdc676b3a1d9",
+ "domain": [
+  "commerce/online-store",
+  "commerce/order-management"
+ ],
+ "product": [
+  "tendeta"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Connector for managing products and orders in a Tendeta online store with permissions limited to that store.",
+ "whenToUse": "Use when an agent needs to view or update a Tendeta store's catalogue or orders.",
+ "tasks": [
+  "manage product catalogue",
+  "view orders",
+  "update orders"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "eea2ad6be49cfdba07229718d1e52484c98ba1221c7f8ea5b28dbb515ba4ea93",
+ "domain": [
+  "sports/formula-1",
+  "data/sports-statistics"
+ ],
+ "product": [
+  "formula-1",
+  "openf1",
+  "f1db"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only Formula 1 data: schedules, standings, results, grids, circuits, live status, history and comparisons.",
+ "whenToUse": "Use when answering questions about Formula 1 schedules, results, standings or history.",
+ "tasks": [
+  "get season schedule",
+  "get standings",
+  "find next event",
+  "get session results",
+  "get starting grid",
+  "get race weekend",
+  "get spoiler-free preview",
+  "get live session status",
+  "get historical results",
+  "search f1 history",
+  "get recent updates",
+  "compare drivers or constructors"
+ ],
+ "effects": {
+  "6b9aee8b2f8af7d6bcd85beaa69e7031b1ba42b8165518846d9d441cedc0482e": "read",
+  "c1ca5e81c0775efd179a5501649cf1587cda3fea6140428b85db4107c6a93006": "read",
+  "b86c15d70aa3164a6177907389fa78a969cd660c568fea7a41cb239d82e03d95": "read",
+  "de2052d06d07d65c13d81931978a62d15f3756a1d00e4a6425af6a614bc152db": "read",
+  "9ab15ae5b44bc33d2e10da81d1d8c3381131d6e8b2548ab102e25c76f5525b28": "read",
+  "29050353083083838b04fd6768a8b6404d259838eefe9f9de63a1f8f000e69e0": "read",
+  "d3e1f3c7599a566d87250db6b31a10137800d40020c883e10e8370b5254ce731": "read",
+  "591badd10450ac88572ee27c61c6e0409d9914c6cf49b50956b0d28dd4b51a68": "read",
+  "cd21bd17fb015fa6917790f4b07b092fdf4fde5e8e34b3ac67767bfb1b31fd82": "read",
+  "df328037887fb76b9b993742c38558d5bf368bcc91116b286e5c6f7caf9098ee": "read",
+  "d7fc1e108907689f8eb7efcc512966fb554e153319c3234bc1b33a2014309af7": "read",
+  "7a94a86910daa5d9004d785b908a0325c718c1566957f2957a07d44709330643": "read",
+  "c3da62c941744533f00ba7ff0edd389ffa38a4a7bbb3c93a78ba16b399cc61c6": "read",
+  "a31b73ff0ff16d100cd5f761a7475e2d726d2c140acb6528654e62208293a8f7": "read",
+  "9967b406fa5b5fe65401a5d52923fb1b8bfbe46e09566a37a348b16c89dd5b13": "read"
+ },
+ "flags": []
+}

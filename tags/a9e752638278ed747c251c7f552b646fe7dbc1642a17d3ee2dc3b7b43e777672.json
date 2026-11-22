@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a9e752638278ed747c251c7f552b646fe7dbc1642a17d3ee2dc3b7b43e777672",
+ "domain": [
+  "web/html-hosting",
+  "software/content-sharing"
+ ],
+ "product": [
+  "htmlvault"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Publishes and manages shareable HTML pages with PII and secret scanning, batch creation, patch edits and analytics.",
+ "whenToUse": "Use when an agent needs to publish HTML as a shareable link, update it, or check its views.",
+ "tasks": [
+  "publish html links",
+  "scan for pii and secrets",
+  "batch create pages",
+  "patch page edits",
+  "view link analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

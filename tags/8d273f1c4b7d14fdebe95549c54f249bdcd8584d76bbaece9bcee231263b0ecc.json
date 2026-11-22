@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8d273f1c4b7d14fdebe95549c54f249bdcd8584d76bbaece9bcee231263b0ecc",
+ "domain": [
+  "health/nutrition",
+  "food/nutrition-data"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up nutrition facts per 100g for Japanese foods from official Japanese food composition tables.",
+ "whenToUse": "Use when a user needs nutrition data for a Japanese food by name.",
+ "tasks": [
+  "search Japanese foods",
+  "get nutrition per 100g"
+ ],
+ "effects": {
+  "4692da7cf3f8bac7de353137d348477b796de3decb00bb0a357c8aff6981e5fa": "read",
+  "b70236462748bbf5afed51bcca2d7ab079d53ef2a8d2403b5091f20f17b38544": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "45b190eab437d1fb437bbd6690afa72df383bb0f74e07a02477e12ef8747d8c9",
+ "domain": [
+  "careers/job-applications"
+ ],
+ "product": [
+  "haystack"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Shows a user's Haystack job matches and has Haystack's AI agent submit applications to selected jobs.",
+ "whenToUse": "Use when a job seeker wants to review job matches and apply to chosen ones through Haystack.",
+ "tasks": [
+  "list job matches",
+  "apply to selected jobs",
+  "sign in with haystack"
+ ],
+ "effects": {},
+ "flags": []
+}

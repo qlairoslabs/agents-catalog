@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "4c46fa8422bb374cf4eb269037781ec4edeaa464dd36943d41d3af846e78b34b",
+ "domain": [
+  "finance/prediction-markets"
+ ],
+ "product": [
+  "kalshi",
+  "polymarket",
+  "clearmarket"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Reference data for prediction markets with resolution clarity grades, cross-venue links, upcoming catalysts and daily signal bulletins.",
+ "whenToUse": "Use when judging whether a Kalshi or Polymarket price can be trusted or finding events and catalysts.",
+ "tasks": [
+  "search events",
+  "get event record",
+  "get market",
+  "list upcoming catalysts",
+  "browse signals",
+  "read signal"
+ ],
+ "effects": {
+  "75050cb58cd8ad0a85735da097d84359f1c4a1c51bca410debffe9caebdddadb": "write",
+  "2b245386bcc506c73ab5cfe2b9448de40c5e39d30ffc8df9192ff22c3c62c920": "write",
+  "85238430719734b697c4fd9fc7d37eb5ea1f86a6e85f5e21a024e37c9e89bddf": "write",
+  "cabb7f25ce7af322abc7a165b9674b80a9ddb543853479858dd3161ebe609266": "read",
+  "b9b58aefd8a87c6d783b9d63599bfa64eb43fe330b8627600727ad28a4e53fab": "read",
+  "050e06e4d65e8d1e322ce306b15cdfac7c29c5debfccfa64c2d4eeddcabb63d0": "read"
+ },
+ "flags": []
+}

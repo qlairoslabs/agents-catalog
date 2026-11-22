@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "f57389de21c303a64537d715e9c39bd1b0695b1b4124df5aa4739ca4ecaab70c",
+ "domain": [
+  "marketing/seo",
+  "advertising/brand-safety",
+  "web/accessibility"
+ ],
+ "product": [
+  "llmse"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Audits websites for SEO, E-E-A-T, AI answer-engine readiness, accessibility, readability and brand safety, and matches advertisers.",
+ "whenToUse": "Use when the user wants an SEO, accessibility or brand-safety audit of a URL, or to find competitor sites or fitting advertisers.",
+ "tasks": [
+  "classify website",
+  "match advertisers",
+  "analyze seo",
+  "analyze eeat signals",
+  "analyze ai answer engine optimization",
+  "check wcag accessibility",
+  "score garm brand safety",
+  "analyze readability",
+  "full site audit",
+  "find similar sites"
+ ],
+ "effects": {
+  "f61127b874c76dd03c474c0a9076942f31705c8c4d3fd442a73569a1201c5a33": "write",
+  "cf3d807709e925577dc26c33b5c691397415d78eedae29a5eeb92db42191cb6f": "write",
+  "252cc9cbf4397a7736cab2a7e07d2882340dff34d2f12a1b9f7eab361fbe9386": "write",
+  "4374029c01ae488dea4e772dc21c2e8fc5317043531a43797fb50a8cf07d6690": "write",
+  "cc74bd8be81fc1c12c3619fd27aef5b75abc3bdb02c9a9eb0a485150601d6b89": "write",
+  "25124d174bd48d4efefec4594a0d4f8ed43834be33918f37bd7332ea616022bb": "write",
+  "b3085c3ce54675189d6c2f9a458a4522ffa98076caa58b11a2b118430dd0bba3": "write",
+  "2c0ba2233f57f97f91dbcc3010b0d1befd1c977a058688a4bad195c9f3cdf9f7": "write",
+  "4d4d71af8eafd71bd43884043617897a0cc5475deca5575c862ec3bef957cfb1": "write",
+  "dd9d4da676c648c933ad99121ac7798a7cb95145e5bbe843bfdb08595ca70c3a": "write"
+ },
+ "flags": []
+}

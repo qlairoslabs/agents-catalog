@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1f60a12a7e38cfa4b8022d23c29287753710a8017ea12347e489c069c9788e41",
+ "domain": [
+  "commerce/proxy-buying",
+  "commerce/order-management"
+ ],
+ "product": [
+  "harukibox"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Manages a Japan proxy-buying business: inventory, orders, buyers and splitting shipping fees.",
+ "whenToUse": "Use when running a Japan proxy-shopping business and needing to manage stock, orders, buyers or shipping costs.",
+ "tasks": [
+  "manage inventory",
+  "manage orders",
+  "manage buyers",
+  "split shipping fees"
+ ],
+ "effects": {},
+ "flags": []
+}

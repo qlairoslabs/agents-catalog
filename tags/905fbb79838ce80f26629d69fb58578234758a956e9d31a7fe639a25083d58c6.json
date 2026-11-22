@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "905fbb79838ce80f26629d69fb58578234758a956e9d31a7fe639a25083d58c6",
+ "domain": [
+  "data/validation",
+  "software/testing"
+ ],
+ "product": [
+  "mcp"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Runs CSV structure checks and keyed diffs, SRT subtitle formatting, MCP result checks and review discovery.",
+ "whenToUse": "Use when validating or diffing CSV files, formatting SRT subtitles or checking MCP tool results.",
+ "tasks": [
+  "check csv structure",
+  "diff csv by key",
+  "format srt subtitles",
+  "check mcp results",
+  "discover reviews"
+ ],
+ "effects": {},
+ "flags": []
+}

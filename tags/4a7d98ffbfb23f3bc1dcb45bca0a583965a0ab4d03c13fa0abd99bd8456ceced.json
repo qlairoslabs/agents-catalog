@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "4a7d98ffbfb23f3bc1dcb45bca0a583965a0ab4d03c13fa0abd99bd8456ceced",
+ "domain": [
+  "productivity/scheduling",
+  "productivity/polls"
+ ],
+ "product": [
+  "meetlark"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Creates group scheduling polls, collects yes/maybe/no votes on time slots and shows results.",
+ "whenToUse": "Use when a group needs to agree on a meeting time and an agent should set up a poll, vote, or check results.",
+ "tasks": [
+  "create scheduling poll",
+  "view poll time slots",
+  "vote on time slots",
+  "view all votes and participants",
+  "close poll",
+  "reopen poll"
+ ],
+ "effects": {
+  "864a5db31a1d5191f63a86fe411645518ce441e56727113212d14d358a5adb3d": "write",
+  "cf38c2a4e47fb562e3facc8f157bf2e014c070e0fa210b651fc338a6298625a7": "read",
+  "9f6f9ef2bf9e87cb11b5e52d837bff9a1e6fc6b9aa5a6618fd0d7f4802de1b14": "write",
+  "dc1db95aef304d7111ebd2f2e29d444b5362945f35504788b9f22e8f182e4940": "read",
+  "58457d24a9a6322e1ebd5004f14154c7b0d7b8ac6ed9271d3d5fd18e04f0dd0f": "write",
+  "19f82db4354d5695125d5dbe558f0528ee66063141373e0209b2533a8cf31031": "write"
+ },
+ "flags": []
+}

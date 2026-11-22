@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "32303170962e667e91ce9f70c1c0292eb3cfc02a4fe043570f3b6c5f2af57cf4",
+ "domain": [
+  "social-media/instagram",
+  "media/download"
+ ],
+ "product": [
+  "instagram"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Views and downloads public Instagram posts, reels, stories, highlights, followers and comments without logging in.",
+ "whenToUse": "Use when an agent needs to fetch or download public Instagram content or profile data without an account.",
+ "tasks": [
+  "view public posts",
+  "download reels",
+  "view stories",
+  "view highlights",
+  "list followers",
+  "read comments"
+ ],
+ "effects": {},
+ "flags": []
+}

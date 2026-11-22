@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "86eb7674c24aa3f4b94065156e5d440a9f53bb36e132b3de4c8463a29a8da33a",
+ "domain": [
+  "crypto/blockchain-explorer",
+  "software/blockchain"
+ ],
+ "product": [
+  "blockscout",
+  "ethereum",
+  "ens"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Queries Blockscout block explorers for addresses, transactions, tokens, NFTs, contract code and ABIs across many chains.",
+ "whenToUse": "Use when you need on-chain data or smart contract details on an EVM chain.",
+ "tasks": [
+  "get block info",
+  "resolve ENS names",
+  "list transactions by address",
+  "get token transfers",
+  "look up tokens",
+  "get contract ABI and source",
+  "read contract state",
+  "get address info",
+  "get token and NFT holdings",
+  "get transaction details",
+  "list chains",
+  "call raw Blockscout API"
+ ],
+ "effects": {
+  "47ba8ef74a6be46451f82bc82b08c9d685f623dad44f52ce04f0adc553053b98": "read",
+  "d8ab71fca5757b7a48993bc6af6db617626bdc6041fd7f314be639944c3f8d80": "read",
+  "6d13f60655273c4100ae53c55b9e73e702c72a213415d87816426e3ae21885e2": "read",
+  "e12d1978278e0e67817fc676a24f14053a16fbe524bcabe3a696c53480479f9d": "read",
+  "6e754050908558b6bc588a06147bc790230e222e1ceeabb1f927dc79893d8e56": "read",
+  "a709007fa4b7df67967da0f928d91e8fb25fa00a79c6dca268b5112028b2cf94": "read",
+  "f32490573afcdc4c147a61f841a1430d6f4733c7a9ffda0439077f40e3ca0c45": "read",
+  "de18cc8281e090987daeeb5635802d80beef4bdec1df512256cc158c7e824920": "read",
+  "00882b537f47e8d513175c30dfb3a03f1fec5940baff4eb8c0c5e1a080139767": "read",
+  "91c05d5a5d46c16f2b9a18e2bd18f469b406d63e629285f64e1e071c8f261422": "write",
+  "975c252d5218bb13eb686183fc2981d3761abd88fbaaef0e7b1c445e34fddc19": "write",
+  "5c6e23090b06b8236bd782cf279774666625b9f58ebdeadd65746905095266d3": "read",
+  "67b5e6a0645037913c495783708ad204a32de1394a04923b88328873b49bc24e": "read",
+  "0a44b7bb9d9308b936fbafe348fd96414653adbb8ce46cf39c45ce3b8a832b83": "read",
+  "322a91df6ee1538364840a0139680b5e82231358cbb9358fa6380f07c9bfc8a4": "read",
+  "614dd89f0e3dbb18daa1902bc0b45b0ea51cf84b0ee257276955424e72b9414d": "write"
+ },
+ "flags": []
+}

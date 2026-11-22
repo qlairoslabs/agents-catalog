@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ae878c2d80edd601a8d4662e15b6281f56e0a46b2acd2da34e715afe6332c3a1",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "whatsapp",
+  "claude",
+  "chatgpt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Lets AI assistants search, read and send a user's WhatsApp messages through OAuth sign-in.",
+ "whenToUse": "Use when a user wants an assistant to read, search or send their WhatsApp messages.",
+ "tasks": [
+  "search messages",
+  "read messages",
+  "send messages"
+ ],
+ "effects": {},
+ "flags": []
+}

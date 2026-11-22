@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "1af345006b1aeaa7ac2b0b31ded783614a92381c668e52ed50cf4bc04ab5ae2b",
+ "domain": [
+  "data/pipelines",
+  "software/devops/troubleshooting"
+ ],
+ "product": [
+  "amazon-mwaa",
+  "apache-airflow",
+  "amazon-cloudwatch",
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Diagnoses failed Amazon MWAA workflow runs and tasks using the Airflow REST API, MWAA Serverless API and CloudWatch logs.",
+ "whenToUse": "Use when an MWAA DAG or serverless workflow run has failed or a DAG is not appearing.",
+ "tasks": [
+  "inspect failed runs and tasks",
+  "read cloudwatch logs",
+  "find import errors",
+  "diagnose worker out-of-memory",
+  "identify iam denials",
+  "detect dependency drift"
+ ],
+ "effects": {},
+ "flags": []
+}

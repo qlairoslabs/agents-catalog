@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "3ff812ef6b9b92b630f8df11811c1877a1de110627da7f454f75430513f384d7",
+ "domain": [
+  "arts/cultural-data",
+  "data/knowledge-graph"
+ ],
+ "product": [
+  "artsdata"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches the Artsdata knowledge graph for Canadian arts events, artists, organizations and venues, including read-only SPARQL.",
+ "whenToUse": "Use when looking up Canadian performing arts events, artists, organizations or venues.",
+ "tasks": [
+  "search entities",
+  "get entity details",
+  "search events by venue, artist or type",
+  "get data model",
+  "run read-only sparql queries"
+ ],
+ "effects": {
+  "9f8950fabfd7b6af1215ae180404109ab2687acc736a0f8b7cdb2c4ae299dc6c": "read",
+  "127afeddb5d04832bcf21d5bb7a109712099912cd7f85f9fe715d431080a69f1": "read",
+  "195a15c56736a38712bd44eaef8bd4237881ed7ce4a6a27aca6ae5ba0dc077e0": "write",
+  "c88159121bbca2f98cb9b52ce3e1b3ff87cf21ba28c752b0ebe201d6e4f7fa83": "read",
+  "d84fdd548933905c3588217c934e592f57d6b6af8ada3803c1fe7516c1f25ad0": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9126d18baa7d97cddbadfc00ffcd84241a12a2a7b813923c005677ce8e26acef",
+ "domain": [
+  "legal/immigration",
+  "finance"
+ ],
+ "product": [
+  "goodbyematrix"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Lists nine citizenship-by-investment programmes and calculates indicative family costs and eligibility, with a link to request a detailed breakdown.",
+ "whenToUse": "Use when a user asks what a second passport costs or which programmes a family qualifies for.",
+ "tasks": [
+  "list programmes",
+  "calculate family quote",
+  "compare programmes",
+  "create breakdown request link"
+ ],
+ "effects": {
+  "1a30189233c2f1184ea742c624637dc12eab9d553b8e0206297e9e0e62f4f223": "write",
+  "327f43c8bac02dc7f96f91614cd02f86466af0f1a083e192e6e0555c43e34312": "write",
+  "6f95b57b92e60643a1c3b7153451b34cd24d80c26f2e5cc9d1cc4524d8131d3d": "write"
+ },
+ "flags": []
+}

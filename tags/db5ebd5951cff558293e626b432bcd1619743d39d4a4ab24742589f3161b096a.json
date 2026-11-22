@@ -1,0 +1,69 @@
+{
+ "classifier": 2,
+ "contentHash": "db5ebd5951cff558293e626b432bcd1619743d39d4a4ab24742589f3161b096a",
+ "domain": [
+  "gaming/game-database",
+  "gaming/mmo"
+ ],
+ "product": [
+  "world-of-warcraft",
+  "everloot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches World of Warcraft: Forever lore and player-observed data on items, NPCs, quests, professions, talents, guilds and auctions.",
+ "whenToUse": "Use when a player asks about WoW: Forever items, drops, quests, vendors, professions, talents, guilds or auction prices.",
+ "tasks": [
+  "search game knowledge",
+  "get cited answers",
+  "plan profession leveling",
+  "look up items npcs quests and vendors",
+  "find what is near a map spot",
+  "list entity relations",
+  "read talent trees and decode share codes",
+  "check collection and completion progress",
+  "view guild boards and rankings",
+  "get auction history and market value",
+  "read character gold ledger",
+  "get recent official changes"
+ ],
+ "effects": {
+  "86c77da167dfcbd52f00b753c2ba80d5e6cc0dfbb8ae99ff0e47a5027d752c2a": "write",
+  "46f79a1828c9995ba86786c25133cef7bb9dfc45424846bb04a9ea7a3ee473ec": "write",
+  "a166bc423eb31cf7cb84c1eaa2f410791a5edd91056164cae24d4948c7234641": "write",
+  "2fc6a664c3317d59f07ad6d2a4870aa34247de11207819a6340ece0e206ed418": "read",
+  "17bd2a35512d1055187698432ae1ece05959205c5291c127c400988911a57495": "write",
+  "5e047aab17579a57904e27d8954f71dc1f6ec33efe1505e949b5d974be5f35df": "write",
+  "0f8ae0321f2332c561c25651441b379a3eedaa1ce35c905b97a8d7ba53b5f71a": "write",
+  "290238f2fd4963b772cc2b85e8ed189ae0115056921ce3ae3d56ad968b8e01ff": "read",
+  "e475e40d101e4c19019aa9db8420742b0e4d8c01406a1df1f138f254e5da710a": "write",
+  "63498c55ac8299bf31aa10364ad7b2cb5a6b0e6af3cdb85dabb5fbb16e929dc0": "write",
+  "fad4a1768a6dd17ec821dd07359d082cca731a62616d39f0d1927cbda08c6902": "write",
+  "afdab0ba84784ca3a4ec71836ac4948236161a1e1c546f259844c2870e56d48f": "write",
+  "f5f138ae2cf08587bb8f70495055f0ec013ae5533b03a9dee81ea9b1fbdfb5ad": "write",
+  "40afec01a96d23cda6a25bd580629ae6d8a765a5b684a22b2e952830e843260c": "write",
+  "4545aaf5951510ae1d2e0da0244cea8c1051f5ed1764526b873929f1ea8db138": "write",
+  "8007a1fa4ffbdffaa1accb39347ce9f017aee4b7fba3da9d15e7d5b7e4366d2b": "read",
+  "1acc75d1be325594826eda39d2b4317c7725e10a8390955ade3f0dc1406d4111": "write",
+  "087e5bd226670fdc81556dfc7d9b94f43245d55def55c61c4ae239b8876491af": "read",
+  "5208d1aeb1b7bb54ff21fc22fc45cbc06f05bbdf6a4a8fefd7992da8f5a94d60": "read",
+  "1ef467afe7efaa1e7c56e58d2381d080d00e3c54ddd79a05f677df99a7bd96c5": "write",
+  "b5bbe84b65238f83e52cd559a7cd92b02fcd4b0650eff2c3eccd886cf6c9c6f4": "write",
+  "00278a10b4ea9a152087e2edf932a93b6ac4b6fdcbb371074512f4c2581f7e8e": "write",
+  "450b13bc03f64af7fbcc0d174bb052bc44b42ac0fce99d0431b2a53ab5f04eb8": "write",
+  "30c3599b96a752792ba33f20e053ac0e185201ab0698e01ab316a1a8816124e5": "write",
+  "75722da24168277766da1252b59c937f29b1d3d828c21d564142e22615c70843": "write",
+  "fcfc9a8b713af0fa7420dac88fadad3544865dcb8a7d955102a3af519f54e71f": "write",
+  "8f8b5abbf311aa0ea0770006c42719d792f27a91b0eaa0e294726172d1394045": "write",
+  "52adee907049873dcdf57348f1795b44947cea6e9d35f38c783c81b01ebc657b": "write",
+  "fdfaf8720ef009fe929798746c0c73c7c1c0a40c764a0a07e9d0fc8a6fdfddba": "write",
+  "9a372b54daefd47f53407996574c8993ec3dbc0ec6eff950dac21f19d171b511": "read",
+  "854ceae8328007594861d8079e5fe01e7de6017b475b58a105683773e63a0f1b": "write",
+  "e7877a9e2bf509414042a1091adcbe017d281002a823786887b244af781adc7c": "write"
+ },
+ "flags": []
+}

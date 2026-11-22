@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "f2f3a9c74d0b47d70ab978edea80c3106389885bb91c60105f5e929f7b35d671",
+ "domain": [
+  "government/contracting",
+  "construction/bids"
+ ],
+ "product": [
+  "sam-gov",
+  "renovationroute"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches active federal construction and renovation contract opportunities from SAM.gov by state, NAICS, keyword or value tier.",
+ "whenToUse": "Use when a contractor wants to find federal construction or renovation bids and look at opportunity details.",
+ "tasks": [
+  "search opportunities",
+  "get opportunity details",
+  "get opportunity stats",
+  "list top states"
+ ],
+ "effects": {
+  "bdbdac883a2bffe8b30abc5c3b249e59b77febfeb6997e353aa7c446eccf406c": "read",
+  "8d8725b614ba8c68269b2d1c5eacd515385e266ba4f0615f30f0a7907d303b85": "read",
+  "3d7edac630121cb4e201daf3b0890539ebff31f44839caf578ae09b919957f2c": "read",
+  "ee68333d23484a2b8b26f296961d75d379602fd70ef9e778e26f06aff90e0768": "read"
+ },
+ "flags": []
+}

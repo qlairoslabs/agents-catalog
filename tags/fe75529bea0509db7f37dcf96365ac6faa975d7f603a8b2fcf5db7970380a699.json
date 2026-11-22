@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "fe75529bea0509db7f37dcf96365ac6faa975d7f603a8b2fcf5db7970380a699",
+ "domain": [
+  "web/cms",
+  "commerce/ecommerce"
+ ],
+ "product": [
+  "cmssy"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "sell",
+  "create-content"
+ ],
+ "summary": "Manages a hosted headless CMS with commerce: pages, media, forms, products, orders, refunds and discounts.",
+ "whenToUse": "Use when an agent needs to manage site content or store operations on Cmssy.",
+ "tasks": [
+  "manage pages",
+  "manage media",
+  "manage forms",
+  "manage products",
+  "manage orders",
+  "issue refunds",
+  "manage discounts"
+ ],
+ "effects": {},
+ "flags": []
+}

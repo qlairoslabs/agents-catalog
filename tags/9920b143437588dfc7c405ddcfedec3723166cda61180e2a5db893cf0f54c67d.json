@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9920b143437588dfc7c405ddcfedec3723166cda61180e2a5db893cf0f54c67d",
+ "domain": [
+  "productivity/project-management",
+  "productivity/gantt-charts"
+ ],
+ "product": [
+  "ganty"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Gantt chart service with critical path analysis, dependency-aware schedule shift impact, and create/update/delete of project items.",
+ "whenToUse": "Use when planning project timelines, checking the critical path, or assessing how moving a task affects dependent tasks.",
+ "tasks": [
+  "manage gantt tasks",
+  "compute critical path",
+  "analyze schedule shift impact",
+  "manage task dependencies"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fc83c62d494e1f836d2a6c9adcf814e79e02e00c5e97ffd7f6808bad02b9055b",
+ "domain": [
+  "gaming/esports",
+  "sports/statistics"
+ ],
+ "product": [
+  "teamwars",
+  "valorant",
+  "counter-strike-2"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Valorant esports data from TEAMWARS including player stats, teams, tournaments and prize information.",
+ "whenToUse": "Use when a user asks about Valorant pro players, teams, tournaments or prize pools.",
+ "tasks": [
+  "get player stats",
+  "look up teams",
+  "list tournaments",
+  "get prize information"
+ ],
+ "effects": {},
+ "flags": []
+}

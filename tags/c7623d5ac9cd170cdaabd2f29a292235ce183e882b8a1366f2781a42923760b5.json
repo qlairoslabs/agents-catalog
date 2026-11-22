@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c7623d5ac9cd170cdaabd2f29a292235ce183e882b8a1366f2781a42923760b5",
+ "domain": [
+  "engineering/embedded-systems",
+  "reference/technical-documentation"
+ ],
+ "product": [
+  "byteask",
+  "cmsis",
+  "misra"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches embedded, firmware and hardware references and returns verbatim page-cited excerpts.",
+ "whenToUse": "Use when needing exact citations from datasheets, protocol specs, grid standards or RTOS references.",
+ "tasks": [
+  "search embedded docs",
+  "expand a search hit",
+  "request a document be added"
+ ],
+ "effects": {
+  "aafb0073a1ea262dc6d5abcaf3711906a76cf2685d5269f72ba87ec1132ecab3": "write",
+  "4de8dbe2330f3134616e325edf528c65943d0c5bb27fe7219f5df352b2580d8b": "read",
+  "c68ded1a4fee78a81160d6b558c79c85c3ee32fc7c0566bde0d98ab846b1dbf8": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b126fd3e88f0acc9c5d6e03e56ef0c78b512b76b0dc3e092e8ec1f242188c1b9",
+ "domain": [
+  "finance/quant-trading",
+  "software/backtesting"
+ ],
+ "product": [
+  "tradingview"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs evidence-checked quantitative research on TradingView Pine Script strategies from an AI client.",
+ "whenToUse": "Use when evaluating or researching a TradingView Pine Script trading strategy.",
+ "tasks": [
+  "analyse pine script strategies",
+  "run quant research",
+  "validate strategy evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

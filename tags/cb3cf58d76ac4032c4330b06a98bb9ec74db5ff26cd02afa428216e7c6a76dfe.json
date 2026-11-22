@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cb3cf58d76ac4032c4330b06a98bb9ec74db5ff26cd02afa428216e7c6a76dfe",
+ "domain": [
+  "media/video-hosting",
+  "media/video-analytics"
+ ],
+ "product": [
+  "kollus"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Natural-language queries over a Kollus video platform account: VOD content, viewing analytics and documentation.",
+ "whenToUse": "Use when you need information about video content, analytics or docs in a Kollus account.",
+ "tasks": [
+  "search vod content",
+  "view video analytics",
+  "search kollus docs"
+ ],
+ "effects": {},
+ "flags": []
+}

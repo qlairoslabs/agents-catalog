@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c1db0099074db85b6cc49de1fe9505b58693bd90f243816b3951a731e5ab4e52",
+ "domain": [
+  "finance/sec-filings",
+  "finance/investing"
+ ],
+ "product": [
+  "sec-edgar",
+  "earnings-feed"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides real-time SEC filings, insider trades and company lookup, including 10-K, 10-Q, 8-K and Form 4.",
+ "whenToUse": "Use when someone needs recent SEC filings or insider trading data for a US public company.",
+ "tasks": [
+  "look up companies",
+  "read 10-k filings",
+  "read 10-q filings",
+  "read 8-k filings",
+  "track form 4 insider trades"
+ ],
+ "effects": {},
+ "flags": []
+}

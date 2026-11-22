@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f33e5622cfebae377232c4f7fa4eb2e3b5b91806b4e2191f7840cb3dab7f777c",
+ "domain": [
+  "ai/agent-memory",
+  "knowledge/graphs"
+ ],
+ "product": [
+  "knowmind"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Hosted memory and knowledge graph for AI agents, run in Germany, for storing and recalling facts and relations.",
+ "whenToUse": "Use when an agent needs persistent, GDPR-hosted memory across sessions.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "link relations"
+ ],
+ "effects": {},
+ "flags": []
+}

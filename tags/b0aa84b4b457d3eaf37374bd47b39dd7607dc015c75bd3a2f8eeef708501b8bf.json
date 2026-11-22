@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b0aa84b4b457d3eaf37374bd47b39dd7607dc015c75bd3a2f8eeef708501b8bf",
+ "domain": [
+  "software/documentation",
+  "software/code-analysis"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Generates architecture docs from a code repository: overview, modules, APIs, routes, dependency graph and diffs.",
+ "whenToUse": "Use when an agent needs to understand or document a repository's structure.",
+ "tasks": [
+  "generate architecture overview",
+  "list modules",
+  "map api surface",
+  "list routes",
+  "build dependency graph",
+  "summarize diffs"
+ ],
+ "effects": {},
+ "flags": []
+}

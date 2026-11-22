@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "387b3bda2f018be94a50748784239fcd9230bd1d143b7d0c107296ae271b536d",
+ "domain": [
+  "finance/precious-metals",
+  "data/market-prices"
+ ],
+ "product": [
+  "stackerscan",
+  "goldback"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only precious metal data: spot prices, observed marketplace premiums, price history, Goldback rates, supported currencies and an app usage guide.",
+ "whenToUse": "Use when you need current or historical prices and premiums for gold, silver, platinum, palladium, copper, nickel or Goldback.",
+ "tasks": [
+  "get spot prices",
+  "check observed premiums",
+  "fetch price history",
+  "get Goldback rate",
+  "list currencies",
+  "read app how-to guide"
+ ],
+ "effects": {
+  "958c5ddd0c3acdcb86d23a99b77f2b9c73540c288df482bf4502bc6326d17f4f": "read",
+  "80220950120305c4d4742a16c2baa695c74399c0490787d643a31ca578f27ed5": "read",
+  "69ff774799acfa0686c4bd69857341a9ff880c29b012090d5556a993792226a6": "read",
+  "f6d13c3f585ba202777cc116eecf9b313fcb69ee7d6893576701b579dde34e84": "read",
+  "961b771f05dfdbf9c18d660c6695ce50406a382fd7b62ca6923ed4d0da6fd37c": "read",
+  "3da085a73c88091b60bbac9543721b14319aaca2a3d0ddf83fcff2b72932d621": "write"
+ },
+ "flags": []
+}

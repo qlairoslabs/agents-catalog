@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f375402feee739ba25c018f6acb70879c7f73b25b16ac54653e6c4f862eee2df",
+ "domain": [
+  "design/character-generation",
+  "content/animation"
+ ],
+ "product": [
+  "mascotlab"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates an app mascot plus consistent props, poses and animations.",
+ "whenToUse": "Use when an agent needs to create a mascot or consistent character art and animations for a product.",
+ "tasks": [
+  "generate mascot",
+  "create props",
+  "create poses",
+  "create animations"
+ ],
+ "effects": {},
+ "flags": []
+}

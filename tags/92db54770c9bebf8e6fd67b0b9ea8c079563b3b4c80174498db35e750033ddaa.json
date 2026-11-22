@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "92db54770c9bebf8e6fd67b0b9ea8c079563b3b4c80174498db35e750033ddaa",
+ "domain": [
+  "services/field-tasks"
+ ],
+ "product": [
+  "vorortai"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Quotes and enquires about on-site and remote human tasks in Hamburg, such as field checks, audits and app tests.",
+ "whenToUse": "Use when a user needs a real-world check or human app test in Hamburg.",
+ "tasks": [
+  "list capabilities",
+  "quote task",
+  "check service area",
+  "view use cases",
+  "submit enquiry"
+ ],
+ "effects": {
+  "a0b22caf1e9f7d79df57ec8915e0810d0857dc276c4d9a1424e061b2d1d6d11c": "read",
+  "fada5a566de927b2770f704f7bdee56fa8ad2f49da594ef380bab5a735ae26bc": "read",
+  "a2cefa6bcc6116682f9f1bf0ed467cc322c41070a89baceac744a7c7d60a1823": "read",
+  "4494fb1365569a0040bc5e3b0270f2587d1c31fd40cf1a4256ab32e9af1cb8b4": "read",
+  "f34888434ee159e0a3dff54c0f9574a523c319a05889459d15424b5a3d0c7f57": "write"
+ },
+ "flags": []
+}

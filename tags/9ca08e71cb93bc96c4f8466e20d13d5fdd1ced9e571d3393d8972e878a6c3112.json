@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9ca08e71cb93bc96c4f8466e20d13d5fdd1ced9e571d3393d8972e878a6c3112",
+ "domain": [
+  "software/api-management/gateways",
+  "software/devops"
+ ],
+ "product": [
+  "kong-konnect"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Manages Kong Konnect API and AI gateways, including routes, plugins and analytics.",
+ "whenToUse": "Use when configuring or inspecting Kong Konnect gateways, routes, plugins or traffic analytics.",
+ "tasks": [
+  "manage gateways",
+  "manage routes",
+  "manage plugins",
+  "view api analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

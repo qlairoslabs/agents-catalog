@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "54c76c7c063a2c8e227e61c2c7d0788d7930839fc87c4203034d3c79f6ca83d4",
+ "domain": [
+  "marketing/link-management",
+  "marketing/analytics"
+ ],
+ "product": [
+  "flyn"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates and edits short links and QR codes and reports on their click analytics.",
+ "whenToUse": "Use when an agent needs to create or manage short links or QR codes, or check how they perform.",
+ "tasks": [
+  "create short links",
+  "edit short links",
+  "generate qr codes",
+  "analyse link clicks"
+ ],
+ "effects": {},
+ "flags": []
+}

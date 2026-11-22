@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c201e6cd04698d92669070dc0e02065bf44828d96ae0e5934be3ddead04d939e",
+ "domain": [
+  "nonprofit/volunteer-management",
+  "communication/sms"
+ ],
+ "product": [
+  "volunteerreminder"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Imports volunteer rosters and previews shift reminders, with live SMS only after human activation.",
+ "whenToUse": "Use when organising volunteer shifts and setting up reminder messages.",
+ "tasks": [
+  "import volunteer roster",
+  "preview shifts",
+  "prepare sms reminders"
+ ],
+ "effects": {},
+ "flags": []
+}

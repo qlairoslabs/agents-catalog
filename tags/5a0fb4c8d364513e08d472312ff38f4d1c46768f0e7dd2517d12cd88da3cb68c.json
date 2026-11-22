@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5a0fb4c8d364513e08d472312ff38f4d1c46768f0e7dd2517d12cd88da3cb68c",
+ "domain": [
+  "legal/case-law",
+  "legal/china"
+ ],
+ "product": [
+  "wenshucha"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a large database of Chinese court judgments and verifies case numbers and quotations.",
+ "whenToUse": "Use when researching Chinese case law or checking that a cited case or quote is real.",
+ "tasks": [
+  "search court judgments",
+  "verify case numbers",
+  "verify quotes"
+ ],
+ "effects": {},
+ "flags": []
+}

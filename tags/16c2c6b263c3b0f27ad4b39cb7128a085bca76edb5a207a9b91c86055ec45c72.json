@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "16c2c6b263c3b0f27ad4b39cb7128a085bca76edb5a207a9b91c86055ec45c72",
+ "domain": [
+  "media/podcasting",
+  "content/production"
+ ],
+ "product": [
+  "podmule"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Lets an agent search, draft and manage content in a PodMule podcast workspace.",
+ "whenToUse": "Use when an agent needs to work on podcast drafts or find material in a PodMule workspace.",
+ "tasks": [
+  "search podcast workspace",
+  "draft podcast content",
+  "manage workspace items"
+ ],
+ "effects": {},
+ "flags": []
+}

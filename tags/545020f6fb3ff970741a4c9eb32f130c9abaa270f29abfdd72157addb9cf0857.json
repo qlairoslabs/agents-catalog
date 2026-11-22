@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "545020f6fb3ff970741a4c9eb32f130c9abaa270f29abfdd72157addb9cf0857",
+ "domain": [
+  "real-estate/short-term-rental",
+  "finance/market-data"
+ ],
+ "product": [
+  "airbnb",
+  "vrbo"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Live short-term rental market data, comparable listings and portfolio insights for Airbnb and Vrbo hosts.",
+ "whenToUse": "Use when a rental host needs market data, comps or pricing insight for Airbnb or Vrbo properties.",
+ "tasks": [
+  "get rental market data",
+  "find comparable listings",
+  "analyze portfolio"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "98e7c1e9e46d99e9d96e76599e11e0f7afdc8719b47c7aa284a5abfbd93df117",
+ "domain": [
+  "business/enterprise-architecture",
+  "business/strategy",
+  "productivity/knowledge-graph"
+ ],
+ "product": [
+  "aiqbee"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Knowledge graph for managing enterprise architecture, portfolios and digital strategy.",
+ "whenToUse": "Use when an agent needs to query or update architecture, portfolio or strategy information held in Aiqbee.",
+ "tasks": [
+  "query architecture knowledge graph",
+  "manage portfolio items",
+  "track digital strategy"
+ ],
+ "effects": {},
+ "flags": []
+}

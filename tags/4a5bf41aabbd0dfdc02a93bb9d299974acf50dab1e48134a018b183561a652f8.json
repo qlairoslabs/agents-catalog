@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "4a5bf41aabbd0dfdc02a93bb9d299974acf50dab1e48134a018b183561a652f8",
+ "domain": [
+  "data/web-search",
+  "data/web-scraping"
+ ],
+ "product": [
+  "bright-data",
+  "google",
+  "bing",
+  "yandex"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs web searches through the Bright Data CLI, returning search engine results or semantically ranked discovery results.",
+ "whenToUse": "Use when the user needs search engine results or candidate URLs to feed into scraping via Bright Data.",
+ "tasks": [
+  "search google bing or yandex serp",
+  "semantic intent-ranked discovery",
+  "fetch optional page content",
+  "find urls for scraping",
+  "guide cli install and login"
+ ],
+ "effects": {},
+ "flags": []
+}

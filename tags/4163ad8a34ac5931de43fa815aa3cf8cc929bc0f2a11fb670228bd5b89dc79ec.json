@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "4163ad8a34ac5931de43fa815aa3cf8cc929bc0f2a11fb670228bd5b89dc79ec",
+ "domain": [
+  "software/product-discovery"
+ ],
+ "product": [
+  "peerpush"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Finds, compares and tracks software and AI tools with alternatives, pricing, trends and deals, and can create an unclaimed product listing.",
+ "whenToUse": "Use when someone needs a software tool recommendation, alternative, comparison, deal, or wants to list a product.",
+ "tasks": [
+  "find alternatives",
+  "search products",
+  "compare products",
+  "get product details",
+  "see trending products",
+  "browse by criteria",
+  "list deals",
+  "list new launches",
+  "create product listing"
+ ],
+ "effects": {
+  "c5b33d6b80e78695b56cf15c9911939a540b6e2467ebf72dbac4f394b929b23a": "read",
+  "aaaa3f5c9aa99996633256dc9d3660b1d1b8d1a0708c5ab792b61ac95acec325": "read",
+  "8bab7ccec4fd0955666772402f7fe113af1e54490e62bd896a06576749aa0105": "read",
+  "781914db152f3a9d1752bf317572bda87c7594bc17a0d15b7c32c78b6c6907ce": "read",
+  "8d40b989ca66e417b96ac67dc921dbbea4af4454f8d6080e05d8c8028dfeb471": "read",
+  "ca38789f69d41a25507bbfef3284f736a98b359ef9858d1dae653f0dbe2f789e": "read",
+  "d0636305916d518d83bd18093b7f744badaf1ab198d7c6a6c5ab4306afa1ca92": "read",
+  "1ee4d26a0408d2ddbc6a72c1e101b8ec9c76982488a930a00c652e8248914f10": "read",
+  "bc720d25822a83ca37518217a3bdc29fc6712f90c8dffd7bc1e71eca53e3bbd7": "write"
+ },
+ "flags": []
+}

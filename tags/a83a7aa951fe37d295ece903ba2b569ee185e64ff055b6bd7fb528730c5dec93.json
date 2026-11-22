@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a83a7aa951fe37d295ece903ba2b569ee185e64ff055b6bd7fb528730c5dec93",
+ "domain": [
+  "software/cybersecurity/api-security",
+  "software/testing"
+ ],
+ "product": [
+  "42crunch"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs 42Crunch live conformance and authorization scans against an API and fixes findings that block the quality gate.",
+ "whenToUse": "Use when the user wants live API conformance, BOLA or BFLA testing, or to configure and fix 42Crunch scans.",
+ "tasks": [
+  "run conformance scans",
+  "run authorization scans",
+  "test bola",
+  "test bfla",
+  "generate scan config",
+  "fix scan findings"
+ ],
+ "effects": {},
+ "flags": []
+}

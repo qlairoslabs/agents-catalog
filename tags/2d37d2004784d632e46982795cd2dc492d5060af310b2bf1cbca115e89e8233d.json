@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "2d37d2004784d632e46982795cd2dc492d5060af310b2bf1cbca115e89e8233d",
+ "domain": [
+  "logistics/motor-carrier-records",
+  "compliance/records"
+ ],
+ "product": [
+  "usdot"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Qualifies what a records archive holds for a US motor carrier by USDOT or docket number and date, and verifies fingerprints and specimens.",
+ "whenToUse": "Use when checking whether dated motor-carrier records exist for a USDOT or docket number before buying a record.",
+ "tasks": [
+  "qualify by USDOT number",
+  "qualify by docket",
+  "verify fingerprint",
+  "get specimen",
+  "get coverage"
+ ],
+ "effects": {
+  "4e57a368a13ba790ca1eaad068f24ff3f79815bbc75243bc71091c7c1f86d164": "read",
+  "9f1a29e7c63ccbacf28a91a0297d629ab83cb5190c971ceada3130701713e15a": "read",
+  "e1b9146b1ebb695267366367e91fc81976c0b589d3dddbd6cded7cd223c50e92": "read",
+  "41ba4ef2e670839fb2218e0a6f3903450ac84b3ad7d2ec11227a425b514410e4": "read",
+  "972bcc8ef76ba7a45aa5781b4aaa3386fb2ae79af7412eb4915d881d2717b3b8": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "da78cf46177c01315da91e934d9f23aff69252afb35a5f8505dd3cf0e54de95c",
+ "domain": [
+  "commerce/ecommerce-personalization",
+  "marketing/email"
+ ],
+ "product": [
+  "hello-retail"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Configures and tunes Hello Retail ecommerce search, recommendations, pages, email, product agents and analytics.",
+ "whenToUse": "Use when setting up or optimizing on-site search, recommendations or analytics in Hello Retail.",
+ "tasks": [
+  "configure search",
+  "tune recommendations",
+  "manage pages",
+  "set up email",
+  "configure product agents",
+  "view analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

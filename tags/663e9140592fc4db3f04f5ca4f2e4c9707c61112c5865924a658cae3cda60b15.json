@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "663e9140592fc4db3f04f5ca4f2e4c9707c61112c5865924a658cae3cda60b15",
+ "domain": [
+  "real-estate/data",
+  "real-estate/leads"
+ ],
+ "product": [
+  "dwelldata",
+  "x402",
+  "base"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Describes DwellData's paid US real-estate data feeds (deals, distress, auctions, leads) and explains how to pay for them with USDC via x402.",
+ "whenToUse": "Use when you need coverage, pricing and sample records for US real-estate data feeds or payment instructions.",
+ "tasks": [
+  "view catalog and coverage",
+  "view sample records",
+  "get payment instructions"
+ ],
+ "effects": {
+  "b0d499810a95b4199adefa0cf7a4d9732afb10d8baf2b5b835bef6506a641eb4": "read",
+  "eb09a5e14d8203f4fb8b53d5014f929325498f2b9c9f724bbccb2e7fb4cced5d": "read"
+ },
+ "flags": []
+}

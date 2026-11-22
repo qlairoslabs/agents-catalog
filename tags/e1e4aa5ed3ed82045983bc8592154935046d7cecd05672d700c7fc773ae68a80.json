@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e1e4aa5ed3ed82045983bc8592154935046d7cecd05672d700c7fc773ae68a80",
+ "domain": [
+  "data/visualization",
+  "data/cleaning"
+ ],
+ "product": [
+  "cleanchart"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Cleans messy tabular data and renders it as publication-quality PNG charts.",
+ "whenToUse": "Use when a user has messy table data and wants it cleaned and turned into a chart image.",
+ "tasks": [
+  "clean tabular data",
+  "render PNG charts"
+ ],
+ "effects": {},
+ "flags": []
+}

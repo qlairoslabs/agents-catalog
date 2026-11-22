@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "9633b91a385c83c34f85aa7954b0ec285b1d7cf9d7d9e6cf12b71a58b52fa75a",
+ "domain": [
+  "hiring/talent-and-education",
+  "education"
+ ],
+ "product": [
+  "youth4work"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Read-only search of Youth4work public profiles by assessed skill, jobs and internships in India, exam mock tests and colleges.",
+ "whenToUse": "Use when finding Indian talent, jobs or internships, exam preparation tests or colleges.",
+ "tasks": [
+  "search talent by skill",
+  "get public profile",
+  "list talent categories",
+  "search jobs",
+  "get job details",
+  "search mock tests",
+  "get mock test",
+  "search colleges",
+  "get college profile"
+ ],
+ "effects": {
+  "5b6f26462dd48cb1cf2691d30dae456f407394a272a2c314c4cc0fc1ddbe4c5a": "read",
+  "a22fbfb66c1e0a9dcc9852f20cf85abbb3d4e9f6ed32783233ab11492c8a78ce": "read",
+  "5ec98a1a93de517f286f3d261ae796c0a59dd5f43f9a75b15ca6df2e9ee09962": "read",
+  "c0aeffaf518b1a7b0f2e8a3e45532df4449c7463a887b4d4de64e23a52114e84": "read",
+  "9abcb8fce9ceeaf477749a27e60a8127a3609a131b2d3f1d0c4e6e3336c0f9ff": "read",
+  "8ec9e433d808ccedd3b5565589598797bf27510904186e7fe40c3752298eb4f5": "read",
+  "864e39b619ab14a7682250e6a413f65eabc0547156efb048a4f8c6c1d61d8107": "read",
+  "78d1de471c7268bbc946b6c8b436cdcd4f81c171ead0b24e9371fe87f6547bc6": "read",
+  "729dc47cd881240ad9b0dc224ee0d276f9b62aec30f50f01a02b4c269a3ddcf1": "read"
+ },
+ "flags": []
+}

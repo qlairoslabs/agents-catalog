@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d3a4d07a2c2eff8414278c408fe13f1e561019c50aa6326af4030b7807eb8f5b",
+ "domain": [
+  "productivity/transcription",
+  "media/audio"
+ ],
+ "product": [
+  "audiomap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and queries a user's AudioMap transcripts, notes, speakers and clips.",
+ "whenToUse": "Use when a user wants to find or ask questions about content in their AudioMap recordings.",
+ "tasks": [
+  "search transcripts",
+  "read notes",
+  "identify speakers",
+  "find clips",
+  "answer questions about recordings"
+ ],
+ "effects": {},
+ "flags": []
+}

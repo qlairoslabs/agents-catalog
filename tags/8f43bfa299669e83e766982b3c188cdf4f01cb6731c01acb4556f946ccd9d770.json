@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8f43bfa299669e83e766982b3c188cdf4f01cb6731c01acb4556f946ccd9d770",
+ "domain": [
+  "software/browser-automation",
+  "data/web-scraping"
+ ],
+ "product": [
+  "node-mantis"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs website tasks in a real local browser from plain-English instructions and returns structured data.",
+ "whenToUse": "Use when an agent must perform actions or extract data on websites that need a real browser.",
+ "tasks": [
+  "automate browser tasks",
+  "extract structured data",
+  "navigate websites"
+ ],
+ "effects": {},
+ "flags": []
+}

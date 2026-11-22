@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9d4f5761e66207e53e27040403d4d5e80a86ca51633ab47ed86ada883a4934f4",
+ "domain": [
+  "marketing/ai-agents",
+  "business/company-info"
+ ],
+ "product": [
+  "creationloop"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Read CreationLoop's company overview, design-partner offer and FAQ, and apply to become a design partner.",
+ "whenToUse": "Use when a user wants information about CreationLoop or to apply for its design partnership.",
+ "tasks": [
+  "read company overview",
+  "read design partner offer",
+  "read faq",
+  "submit design partner application"
+ ],
+ "effects": {
+  "694e647a63f72c5fe74117100151d4b849d7bbb5cc9d3a9903430eb8f2826e93": "read",
+  "53f7f344a5c3e0e2ca2fc1b3f33b8a81270a0ca984615ae9fcd97cb82a46b172": "read",
+  "c8f20812e29139bb5dd95a670e1a20af175fa44c609e0af50f772a4f0e653821": "read",
+  "495bedc7810837b438052f5cd8a1d6b3ca25f07e42f24f45f9e5f23693f90a22": "write"
+ },
+ "flags": []
+}

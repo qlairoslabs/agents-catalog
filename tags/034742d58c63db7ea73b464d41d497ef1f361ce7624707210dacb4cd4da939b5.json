@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "034742d58c63db7ea73b464d41d497ef1f361ce7624707210dacb4cd4da939b5",
+ "domain": [
+  "software/ai-evaluation",
+  "software/llm-ops"
+ ],
+ "product": [
+  "scorecard"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Access to the Scorecard API for evaluating and improving LLM systems.",
+ "whenToUse": "Use when running or reviewing evaluations of LLM applications in Scorecard.",
+ "tasks": [
+  "run llm evaluations",
+  "review evaluation results",
+  "optimize llm systems"
+ ],
+ "effects": {},
+ "flags": []
+}

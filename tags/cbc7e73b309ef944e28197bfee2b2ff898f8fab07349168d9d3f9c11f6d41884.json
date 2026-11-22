@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cbc7e73b309ef944e28197bfee2b2ff898f8fab07349168d9d3f9c11f6d41884",
+ "domain": [
+  "travel/safari",
+  "travel/itinerary-planning"
+ ],
+ "product": [
+  "iconic-expeditions"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Searches African safari destinations, builds day-by-day itineraries and prices expert travel planning work.",
+ "whenToUse": "Use when a user wants to plan or price a safari trip in Africa.",
+ "tasks": [
+  "search safari destinations",
+  "generate day-by-day itineraries",
+  "price travel planning services"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f24f01221243f2e03b5a0bf10e934f82b33196b62902dcb78a1d9fcfa1cb272c",
+ "domain": [
+  "finance/trading-journal",
+  "finance/investing"
+ ],
+ "product": [
+  "edgelock"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries trades, statistics and journal entries in the EdgeLock trading journal and logs new entries.",
+ "whenToUse": "Use when a trader wants to review their trading history and stats or log a journal entry by chat.",
+ "tasks": [
+  "query trades",
+  "view trading stats",
+  "read journal",
+  "log new journal entries"
+ ],
+ "effects": {},
+ "flags": []
+}

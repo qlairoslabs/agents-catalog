@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "94c006497de14df45225dcc76eeaabb356b5c5cc1338b0a008692ccb2889871a",
+ "domain": [
+  "ai/voice-agents/phone",
+  "sales/outbound-calling",
+  "automation"
+ ],
+ "product": [
+  "famulor"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work",
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Manages Famulor AI phone assistants, call history, campaigns, contacts, knowledge bases, messaging and automations.",
+ "whenToUse": "Use when configuring AI calling assistants or running call campaigns and contact outreach on Famulor.",
+ "tasks": [
+  "manage ai assistants",
+  "view call history",
+  "make calls",
+  "manage campaigns",
+  "manage contacts",
+  "manage knowledge bases",
+  "send messages",
+  "manage automations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cacd14f854e7e16846afe9b32eacaf1852eb8cc3b9ef1e26f81c528a9fb789ec",
+ "domain": [
+  "science/hpc",
+  "software/environment-management"
+ ],
+ "product": [
+  "lmod"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lists, searches and inspects Lmod environment modules and saves or restores module collections.",
+ "whenToUse": "Use when an agent needs to find or load software modules on an HPC system using Lmod.",
+ "tasks": [
+  "list modules",
+  "search modules",
+  "inspect modules",
+  "save module collections",
+  "restore module collections"
+ ],
+ "effects": {},
+ "flags": []
+}

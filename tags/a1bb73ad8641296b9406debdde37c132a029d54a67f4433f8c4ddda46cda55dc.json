@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a1bb73ad8641296b9406debdde37c132a029d54a67f4433f8c4ddda46cda55dc",
+ "domain": [
+  "media/audio-mastering"
+ ],
+ "product": [
+  "magic-master",
+  "suno",
+  "udio"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Masters audio tracks to loudness and true-peak targets and claims to remove AI-generation fingerprints from Suno/Udio audio.",
+ "whenToUse": "Use when an agent needs to master an audio file to specific loudness targets.",
+ "tasks": [
+  "master audio",
+  "set lufs target",
+  "set true peak limit",
+  "remove ai fingerprints"
+ ],
+ "effects": {},
+ "flags": [
+  "advertises removing ai-generation fingerprints, which may be used to evade ai-content detection"
+ ]
+}

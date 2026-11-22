@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "dfeac813ea0e57c0bb5869db35b86dc90ddb345f84ac199b3cdb71546d5557c5",
+ "domain": [
+  "finance/forex-brokers",
+  "trading"
+ ],
+ "product": [
+  "brokerflat",
+  "metatrader",
+  "ctrader",
+  "tradingview"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Compares 11 partner forex brokers, estimates cashback per lot and gives sign-up steps with BrokerFlat partner links.",
+ "whenToUse": "Use when a trader wants to compare forex brokers or estimate cashback on trading volume.",
+ "tasks": [
+  "filter brokers",
+  "get broker details",
+  "calculate cashback",
+  "get sign-up steps"
+ ],
+ "effects": {
+  "64b57b3187782470e236c79e169cb0874ca49cbc95e8c1bb017c749ab70e2cce": "read",
+  "0cb9458fabbba0a30568f6588fce13e9e00b9795c19ea99e9e2629222d6fad85": "read",
+  "6c58d91bc25ad270dafd5bd21b6d1ef23700c14afeaf0af9e9961cf79dc5ba3d": "read",
+  "0ee6b2805b1d9c99ec4a7027c73177b818f6f94a0d4ecaf52df70beccc83deaa": "read"
+ },
+ "flags": [
+  "affiliate-referral-links"
+ ]
+}

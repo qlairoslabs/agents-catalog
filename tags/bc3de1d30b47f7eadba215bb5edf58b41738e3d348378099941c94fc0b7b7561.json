@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bc3de1d30b47f7eadba215bb5edf58b41738e3d348378099941c94fc0b7b7561",
+ "domain": [
+  "web/agent-access",
+  "software/web-crawling"
+ ],
+ "product": [
+  "onlinewebdirectory"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "be-online"
+ ],
+ "summary": "Registry of how websites treat AI agents (bot walls, robots rules, llms.txt) with lookups, readiness checks and observation reports.",
+ "whenToUse": "Use before fetching a site to learn its access posture, or to report what you observed.",
+ "tasks": [
+  "look up site access posture",
+  "check agent readiness",
+  "report observation"
+ ],
+ "effects": {
+  "d574ebeb1c565b6e6314197bb91f39455e1bbfef052404f3f4d7d5066c3a3b0b": "write",
+  "4e3f645eed6d65098cf1bc6245871f5c524f6862d9a8bfc1879eb76fbf973151": "write",
+  "efa1a749cd01bf4d70052e88e2f753cf01e5a6316e64a31e9f5f554d86f1388c": "write"
+ },
+ "flags": []
+}

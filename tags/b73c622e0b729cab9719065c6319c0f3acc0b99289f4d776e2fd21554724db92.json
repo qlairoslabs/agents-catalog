@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b73c622e0b729cab9719065c6319c0f3acc0b99289f4d776e2fd21554724db92",
+ "domain": [
+  "analytics/business-intelligence"
+ ],
+ "product": [
+  "lumo",
+  "horusbi"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries business data in Lumo BI, including curated KPIs and aggregated queries.",
+ "whenToUse": "Use when a Lumo BI user wants to check KPIs or explore their business data.",
+ "tasks": [
+  "query kpis",
+  "run aggregated queries",
+  "explore data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "54bbf5c9716b9f55931a3c0a823f837c4ff5b1b61ff49e67f2b695f6a2395785",
+ "domain": [
+  "web/publishing",
+  "web/hosting"
+ ],
+ "product": [
+  "artidrop"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Publishes HTML, Markdown and multi-file sites as shareable URLs.",
+ "whenToUse": "Use when a user wants to quickly share a generated page or small site via a public link.",
+ "tasks": [
+  "publish html pages",
+  "publish markdown",
+  "publish multi-file sites",
+  "get shareable urls"
+ ],
+ "effects": {},
+ "flags": []
+}

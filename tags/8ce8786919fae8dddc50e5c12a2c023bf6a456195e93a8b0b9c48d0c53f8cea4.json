@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "8ce8786919fae8dddc50e5c12a2c023bf6a456195e93a8b0b9c48d0c53f8cea4",
+ "domain": [
+  "communication/messaging/sms"
+ ],
+ "product": [
+  "linq",
+  "imessage",
+  "rcs",
+  "sms"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Sends and manages iMessage, RCS and SMS conversations through the Linq API.",
+ "whenToUse": "Use when an agent needs to send or manage text-message conversations via Linq.",
+ "tasks": [
+  "send messages",
+  "manage conversations",
+  "read messages"
+ ],
+ "effects": {},
+ "flags": []
+}

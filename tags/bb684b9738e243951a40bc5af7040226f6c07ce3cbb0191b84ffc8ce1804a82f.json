@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bb684b9738e243951a40bc5af7040226f6c07ce3cbb0191b84ffc8ce1804a82f",
+ "domain": [
+  "software/cloud/architecture-review"
+ ],
+ "product": [
+  "aws-well-architected"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs AWS Well-Architected Framework reviews on code and infrastructure, producing evidence-backed findings and prioritized fixes.",
+ "whenToUse": "Use when a user asks for a Well-Architected review, pillar assessment or scorecard of a workload.",
+ "tasks": [
+  "run full well-architected reviews",
+  "run quick reviews",
+  "run pillar-scoped reviews",
+  "produce maturity scorecards",
+  "apply lens-specific reviews",
+  "analyze code and iac",
+  "prioritize remediation"
+ ],
+ "effects": {},
+ "flags": []
+}

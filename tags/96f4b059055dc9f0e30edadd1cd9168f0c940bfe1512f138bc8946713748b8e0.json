@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "96f4b059055dc9f0e30edadd1cd9168f0c940bfe1512f138bc8946713748b8e0",
+ "domain": [
+  "cloud/azure/storage"
+ ],
+ "product": [
+  "azure-blob-storage",
+  "azure-files",
+  "azure-queue-storage",
+  "azure-table-storage",
+  "azure-data-lake"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps with Azure Storage services such as blobs, file shares, queues, tables and Data Lake, including access tiers and lifecycle rules.",
+ "whenToUse": "Use when a user works with Azure Storage accounts, blobs, file shares or chooses storage tiers.",
+ "tasks": [
+  "upload files",
+  "download blobs",
+  "manage storage accounts",
+  "compare access tiers",
+  "set lifecycle management",
+  "use file shares",
+  "use queue storage",
+  "use table storage",
+  "work with data lake"
+ ],
+ "effects": {},
+ "flags": []
+}

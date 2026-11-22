@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a0a743491e84f8104b46d9a69a2b7ed5fb74c18eea01ba0f05127b766970eedd",
+ "domain": [
+  "software/documentation",
+  "cloud/azure"
+ ],
+ "product": [
+  "microsoft",
+  "azure",
+  "microsoft-learn",
+  "net",
+  "microsoft-365"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and fetches official Microsoft Learn documentation and code samples for Microsoft and Azure products.",
+ "whenToUse": "Use when answering questions or writing code involving Microsoft or Azure technologies.",
+ "tasks": [
+  "search Microsoft docs",
+  "search code samples",
+  "fetch doc page as markdown"
+ ],
+ "effects": {
+  "bafdec4e5d34b440d940c6f30a72b7f724cbc3d05d2a3b28d5006b2a0376c9e7": "write",
+  "d556f2329ba0ec90746d76f264d9e53fc89f473aab9727fb6d1e8b8b15770adf": "write",
+  "5bdc0d8af201cdf247e700946ab6de43bdd407a673d793f8e659e4b4d9906593": "write"
+ },
+ "flags": []
+}

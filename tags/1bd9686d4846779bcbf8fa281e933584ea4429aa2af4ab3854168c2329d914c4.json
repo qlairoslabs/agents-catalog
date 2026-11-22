@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1bd9686d4846779bcbf8fa281e933584ea4429aa2af4ab3854168c2329d914c4",
+ "domain": [
+  "productivity/personal-knowledge",
+  "content/writing-style"
+ ],
+ "product": [
+  "myaitwin"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Builds a personal retrieval database from chat so AI output can match the user's voice and knowledge.",
+ "whenToUse": "Use when an agent should write in a specific user's style or draw on their stored personal context.",
+ "tasks": [
+  "store personal knowledge",
+  "retrieve personal context",
+  "match writing voice"
+ ],
+ "effects": {},
+ "flags": []
+}

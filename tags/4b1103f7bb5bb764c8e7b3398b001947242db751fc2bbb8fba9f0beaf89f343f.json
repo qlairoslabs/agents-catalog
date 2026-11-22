@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4b1103f7bb5bb764c8e7b3398b001947242db751fc2bbb8fba9f0beaf89f343f",
+ "domain": [
+  "software/package-registry",
+  "software/rust"
+ ],
+ "product": [
+  "crates-io",
+  "rust"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Fetches public crates.io metadata for a Rust crate, including version, license, repository and download counts.",
+ "whenToUse": "Use when you need current metadata about a Rust crate.",
+ "tasks": [
+  "get crate metadata",
+  "check latest version",
+  "check license and downloads"
+ ],
+ "effects": {
+  "e0e27657dd5d87cd04bb1a10ce80b8f03d65dac4c800c3153165eba2287e013b": "read"
+ },
+ "flags": []
+}

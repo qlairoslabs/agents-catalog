@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "4210a8b9cdd94be8a83e9e27eb7ab9fe45960fa0cb1ef4806acab8cdd3cb1295",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/configuration"
+ ],
+ "product": [
+  "apache-airflow",
+  "dag-factory"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance for declaratively authoring Airflow DAGs from dag-factory YAML configs.",
+ "whenToUse": "Use when creating, editing, validating or upgrading dag-factory YAML DAG definitions.",
+ "tasks": [
+  "write dag-factory yaml configs",
+  "set defaults",
+  "define dynamic tasks",
+  "configure datasets and callbacks",
+  "validate configurations",
+  "upgrade dag-factory"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "678bceefc3c3fd2a15e42f385079e2f42224737705bc340e242eed0daba808c3",
+ "domain": [
+  "software/serverless",
+  "software/databases"
+ ],
+ "product": [
+  "azure-functions",
+  "azure-sql-database"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Builds serverless APIs and change-driven handlers on the local Azure SQL container using Azure Functions SQL bindings.",
+ "whenToUse": "Use when a user wants serverless HTTP endpoints or code that reacts to row changes in Azure SQL.",
+ "tasks": [
+  "create http crud functions",
+  "configure sql input output bindings",
+  "set up sql trigger function",
+  "enable change tracking",
+  "configure local settings connection string"
+ ],
+ "effects": {},
+ "flags": []
+}

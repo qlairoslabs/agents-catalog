@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "aac992022bd096ec8363133744e5e9204de93a113797f3ec33f91fb93ed979d7",
+ "domain": [
+  "data/business-intelligence",
+  "software/cli"
+ ],
+ "product": [
+  "preset",
+  "apache-superset",
+  "superset-sup"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Skills for scripting and CI/CD workflows on Preset using the sup CLI from the superset-sup package.",
+ "whenToUse": "Use when an agent needs to drive Preset or Superset through shell scripts or CI/CD using the sup CLI.",
+ "tasks": [
+  "run preset cli commands",
+  "script superset workflows",
+  "automate ci/cd for dashboards"
+ ],
+ "effects": {},
+ "flags": []
+}

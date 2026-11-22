@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "434884c4e76d88bb4dccf14a9afaf49fc74f48787eff46988a2ec5c7eb877d07",
+ "domain": [
+  "research/machine-learning",
+  "research/reinforcement-learning"
+ ],
+ "product": [
+  "hugging-face",
+  "shellops"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Searchable evidence from agentic RL papers on credit assignment and CLI agents, plus the ShellOps benchmark tasks and method filters with BibTeX.",
+ "whenToUse": "Use when researching agent RL credit-assignment methods or inspecting ShellOps CLI benchmark tasks.",
+ "tasks": [
+  "list sources",
+  "search paper evidence",
+  "fetch evidence block",
+  "inspect dataset overview",
+  "search benchmark tasks",
+  "get task",
+  "list method facets",
+  "filter methods"
+ ],
+ "effects": {
+  "37229fd7d52e855abf5959a9325a02f5c4ce126217b1a956451270e247dad625": "read",
+  "f9e9b0ce27d4ef85b3d11fcc8aa181dfcc78c24f2f7cd2f20475b83d78107de9": "read",
+  "1229f348528ff4adfdadcfcf3cafb8848448cd5e5a19b1f0b603b6b490611a69": "read",
+  "b83e9579e5bbb98e2ef1c7779967bda5d451b230f13c74835123aaf27d4912c8": "read",
+  "acdef3eb4eb294c0d48d19c6d3171b8ae9d59047fd2703811b952d7aa6345452": "read",
+  "66a770e4a5b8480aaf775919ab9e90e42b9f0ab6001da4cecc5326d307414330": "read",
+  "8afc5f3ce6faac7fbe74e991786e6ef4aa0ed621ac5fe818bd0a76a64982e0d9": "read",
+  "a9c9edf99e3133fde85d15061210f2d492d73bb501c8328143e959f9c3d03657": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "c11ff36be0a93ae8df178e20bd884e9e675073d93829961fbff37e31bbd62f19",
+ "domain": [
+  "local-business/directory",
+  "search/business-listings"
+ ],
+ "product": [
+  "1network"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Read-only search of a US local business directory with business pages, reviews, categories, locations, counts and pricing.",
+ "whenToUse": "Use when the user needs to find a US local service provider such as a plumber or dentist, or count businesses by category and place.",
+ "tasks": [
+  "search local businesses",
+  "read business details and reviews",
+  "list categories",
+  "list states and cities",
+  "count businesses",
+  "show directory prices"
+ ],
+ "effects": {
+  "7b5305e2121a147e3206181802fd1c1b348ca4fe341b25d7dc19590a4f6a5caa": "read",
+  "73b48a931f4108d87a2f34f4f136754c57d4b03cccce9c58755434111de98381": "read",
+  "4b7e2a8e50c7793a8720c85c29b4abf20c2ef5a4391e3c23eb5999e635783665": "read",
+  "4196610bb5559dc6de35141513ec51c5e1d5634fdacd24cfb262397fe95a50f6": "read",
+  "03d44f5bd23df286f532561e2cb54ff3128a3df6fc9c25e8ea78d5485ae7f878": "read",
+  "44dc5f55b1d4bd4793a0c986884817564b913afc67c603a0be5bd65869b62fa8": "read"
+ },
+ "flags": []
+}

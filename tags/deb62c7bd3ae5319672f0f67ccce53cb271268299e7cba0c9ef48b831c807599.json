@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "deb62c7bd3ae5319672f0f67ccce53cb271268299e7cba0c9ef48b831c807599",
+ "domain": [
+  "software/developer-tools",
+  "software/config-validation"
+ ],
+ "product": [
+  "oh-my-posh"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Validates oh-my-posh configurations and segment snippets against the official schema in JSON, YAML or TOML.",
+ "whenToUse": "Use when checking an oh-my-posh prompt config or segment for schema errors.",
+ "tasks": [
+  "validate config",
+  "validate segment snippet",
+  "auto-detect format"
+ ],
+ "effects": {
+  "3a2d3c3b2c3c9d7cdf1e454c1fc93a8ead81710250ebc7a82a8cf4fffe8034e3": "read",
+  "07d3a08968ce5764d751c6854b0b0e6951ccedaf41a9b742ac89806c553a4542": "read"
+ },
+ "flags": []
+}

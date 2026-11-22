@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "04874e87f3aae8f3ecdc02964a9c3035a6295e8f9eacac84d0ee7ea5e639b113",
+ "domain": [
+  "science/computational-biology",
+  "science/drug-discovery"
+ ],
+ "product": [
+  "boltz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Checks Boltz job status and recovers or downloads results for existing jobs.",
+ "whenToUse": "Use when listing Boltz jobs, checking progress or downloading results of an existing job.",
+ "tasks": [
+  "list jobs",
+  "check job progress",
+  "resume downloads",
+  "recover results by job id"
+ ],
+ "effects": {},
+ "flags": []
+}

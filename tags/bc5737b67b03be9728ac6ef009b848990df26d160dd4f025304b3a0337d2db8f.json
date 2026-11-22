@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "bc5737b67b03be9728ac6ef009b848990df26d160dd4f025304b3a0337d2db8f",
+ "domain": [
+  "real-estate/property-verification"
+ ],
+ "product": [
+  "homevisto"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Browse and search HomeVisto property verification missions, including nearby ones and aggregate stats.",
+ "whenToUse": "Use when a user wants to find or inspect property verification missions on HomeVisto.",
+ "tasks": [
+  "list missions",
+  "get mission details",
+  "search missions",
+  "find nearby missions",
+  "get mission stats"
+ ],
+ "effects": {
+  "cc1b287c35698d915548b8c57041631db99b46eb4e7b38f956855677320886ca": "read",
+  "ce2c9db5c535ecfeeba146c26af417d19a208e2c0616147da90959d9d6f55e2f": "read",
+  "3ef54afd12f4d2a51cd409b32584e7fcda1391e7b25f3c951a53fc4b4833d002": "read",
+  "c11b313e4385e7ebf9e42c030ce483a5b61490eedef86ec8a2bfa66625ae2d66": "read",
+  "a2b33aa4ded76e3bfdbf718f79ca4c864d51ad5db3b5a9f84f3964fccb82092c": "read"
+ },
+ "flags": []
+}

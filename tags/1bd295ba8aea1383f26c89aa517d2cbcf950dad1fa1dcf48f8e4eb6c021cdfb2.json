@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1bd295ba8aea1383f26c89aa517d2cbcf950dad1fa1dcf48f8e4eb6c021cdfb2",
+ "domain": [
+  "travel/aviation"
+ ],
+ "product": [
+  "pro-flight-search"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives live airport-level delay, cancellation, weather and next-day forecast information.",
+ "whenToUse": "Use when a user asks about delays or conditions at a specific airport.",
+ "tasks": [
+  "get airport delay status",
+  "get weather flight rules",
+  "get forecast",
+  "search supported airports"
+ ],
+ "effects": {
+  "8402159333df9e0111025322db877e6d39726ff2f63896f42667a3134fc0ac5c": "read",
+  "06ec8c88b5e453f48b53f40c78f0db7b755ea820c8a4d5493d4c6d314b4ae0b7": "read",
+  "1dd52e371bc303072c84d382abd19601d846010b43aee6963a83747473385cd2": "read",
+  "f22d8580ff5998856cac6e66b31cf3343f755cceae76083f2c44d90128c7bbda": "read"
+ },
+ "flags": []
+}

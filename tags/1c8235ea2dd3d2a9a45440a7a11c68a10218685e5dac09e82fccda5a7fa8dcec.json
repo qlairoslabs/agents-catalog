@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1c8235ea2dd3d2a9a45440a7a11c68a10218685e5dac09e82fccda5a7fa8dcec",
+ "domain": [
+  "software/erp",
+  "finance/accounting-systems"
+ ],
+ "product": [
+  "netsuite"
+ ],
+ "audience": [
+  "finance",
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "build-software"
+ ],
+ "summary": "Answers NetSuite questions on saved searches, SuiteScript, workflows and troubleshooting.",
+ "whenToUse": "Use when a user needs help with NetSuite configuration, scripting or troubleshooting.",
+ "tasks": [
+  "answer netsuite questions",
+  "explain saved searches",
+  "help with suitescript",
+  "explain workflows",
+  "troubleshoot netsuite"
+ ],
+ "effects": {},
+ "flags": []
+}

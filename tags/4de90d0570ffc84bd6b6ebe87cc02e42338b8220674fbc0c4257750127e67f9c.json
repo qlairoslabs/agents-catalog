@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4de90d0570ffc84bd6b6ebe87cc02e42338b8220674fbc0c4257750127e67f9c",
+ "domain": [
+  "finance/payments"
+ ],
+ "product": [
+  "hitpay"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Official HitPay server to view sales, payouts and balances and to create payment links and invoices; refunds not supported.",
+ "whenToUse": "Use when a HitPay merchant needs sales or balance figures or wants to issue a payment link or invoice.",
+ "tasks": [
+  "view sales",
+  "view payouts",
+  "check balances",
+  "create payment links",
+  "create invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

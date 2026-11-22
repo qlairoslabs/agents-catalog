@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6ac072314158566bc539ce95b86bd0c20fb1be39e0239e9375f042812ef10eb9",
+ "domain": [
+  "data/data-aggregation",
+  "search"
+ ],
+ "product": [
+  "kirha"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Aggregates many third-party data providers behind one API to fetch context for agents.",
+ "whenToUse": "Use when an agent needs data from external providers through a single search interface.",
+ "tasks": [
+  "search data providers",
+  "fetch contextual data"
+ ],
+ "effects": {},
+ "flags": []
+}

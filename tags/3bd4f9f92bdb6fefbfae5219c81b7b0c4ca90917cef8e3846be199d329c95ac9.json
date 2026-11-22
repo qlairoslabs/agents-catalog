@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "3bd4f9f92bdb6fefbfae5219c81b7b0c4ca90917cef8e3846be199d329c95ac9",
+ "domain": [
+  "data/pipelines",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-mwaa",
+  "apache-airflow",
+  "amazon-s3",
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software",
+  "schedule"
+ ],
+ "summary": "Writes and deploys Airflow DAGs or MWAA Serverless YAML workflows, with retries, timeouts, scheduling and failure notifications.",
+ "whenToUse": "Use when creating and deploying a new Airflow DAG or MWAA Serverless workflow.",
+ "tasks": [
+  "write airflow dags",
+  "write mwaa serverless yaml workflows",
+  "choose operators",
+  "design retries and timeouts",
+  "configure schedules",
+  "add failure notifications",
+  "upload dags to s3",
+  "create or update serverless workflows",
+  "create mwaa environment",
+  "redeploy fixes"
+ ],
+ "effects": {},
+ "flags": []
+}

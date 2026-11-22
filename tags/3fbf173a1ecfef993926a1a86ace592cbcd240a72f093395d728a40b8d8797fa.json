@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3fbf173a1ecfef993926a1a86ace592cbcd240a72f093395d728a40b8d8797fa",
+ "domain": [
+  "software/3d-modeling",
+  "software/game-development"
+ ],
+ "product": [
+  "godot"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "3D compiler for coding agents that turns small recipes into objects, worlds and games, exporting to Godot and STL.",
+ "whenToUse": "Use when an agent needs to generate 3D objects or game scenes for Godot or 3D printing.",
+ "tasks": [
+  "define 3d objects from recipes",
+  "build game worlds",
+  "export godot projects",
+  "export stl files"
+ ],
+ "effects": {},
+ "flags": []
+}

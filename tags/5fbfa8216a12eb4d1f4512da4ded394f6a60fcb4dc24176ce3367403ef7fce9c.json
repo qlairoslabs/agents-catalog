@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5fbfa8216a12eb4d1f4512da4ded394f6a60fcb4dc24176ce3367403ef7fce9c",
+ "domain": [
+  "home-services/renovation",
+  "local-services"
+ ],
+ "product": [
+  "renoolab"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Finds tradespeople in France, plans multi-trade renovation projects, sends moderated contact requests and creates profiles.",
+ "whenToUse": "Use when a user wants to find French artisans or plan a renovation involving several trades.",
+ "tasks": [
+  "search tradespeople",
+  "plan multi-trade project",
+  "submit contact request",
+  "create artisan profile"
+ ],
+ "effects": {},
+ "flags": []
+}

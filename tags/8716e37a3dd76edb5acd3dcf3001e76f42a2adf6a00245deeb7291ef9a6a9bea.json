@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "8716e37a3dd76edb5acd3dcf3001e76f42a2adf6a00245deeb7291ef9a6a9bea",
+ "domain": [
+  "web-hosting/management",
+  "infrastructure/hosting"
+ ],
+ "product": [
+  "hostinger"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Exposes the Hostinger API so agents can manage hosting resources.",
+ "whenToUse": "Use when an agent needs to manage Hostinger hosting, domains or servers via its API.",
+ "tasks": [
+  "manage hosting via hostinger api"
+ ],
+ "effects": {},
+ "flags": []
+}

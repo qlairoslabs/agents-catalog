@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "468f9acda6e4a9d01cd463cc190583f57182b568a9cba7fc20fec238a1e77441",
+ "domain": [
+  "food/online-ordering",
+  "restaurants"
+ ],
+ "product": [
+  "cordering"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Orders food from Cordering white-label restaurants: browse vendors and menus, stage an order, confirm and place it, and track status.",
+ "whenToUse": "Use when a user wants to order delivery food from a Cordering restaurant.",
+ "tasks": [
+  "list restaurants",
+  "show menu",
+  "prepare order",
+  "place order",
+  "check order status",
+  "sign in",
+  "switch account",
+  "sign out"
+ ],
+ "effects": {
+  "e45079413152614d67b8d6f39646f105e6a1a9ae583205bac756f7f35faa5447": "read",
+  "d33ae7c7660e6a8bce7eff668e31f496bbc18fc3fd55664174c8503ff9e39447": "write",
+  "5f0644d241aef3bbc3d5b6712eb55fda4cae6f11192bbe2c38d35a7e5980b97d": "risky",
+  "4542becc8bfede78014a28b25701314500634da50941e07123011e8a9cc233e3": "read",
+  "31f43a72630cffd696c5f48114efe022c3e6cc6188a8d97a389dc32bb978f766": "read",
+  "ffa761b40baa35a75f7d4e89c58dd91bee172252f3f11369d7c96a2df72c879f": "write",
+  "4d7880921e3841c45ac9dbf5c88529de23d8f861227e430a92820863f833d911": "write",
+  "128774ef286b244a1930dad09bd9f8cc93db07704abb64e57b30aa063d0d8f9f": "write",
+  "39e7b35b67171989fffcbbed79f92972733e8d7cadd216aad98a9e5c70f2ef51": "read",
+  "e0736c04f003f9318099db06aa901227dc0a370a600b126fe433e94cb3a488fc": "write"
+ },
+ "flags": []
+}

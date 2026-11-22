@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "846fc086c3449904f14437e37b77da589d612dc80b2380febefd915eeb0fc454",
+ "domain": [
+  "software/observability",
+  "software/reliability"
+ ],
+ "product": [
+  "causely"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides causal analysis of service reliability, identifying root causes, blast radius and service health.",
+ "whenToUse": "Use when investigating incidents or degraded services to find root causes and impact.",
+ "tasks": [
+  "identify root cause",
+  "assess blast radius",
+  "check service health"
+ ],
+ "effects": {},
+ "flags": []
+}

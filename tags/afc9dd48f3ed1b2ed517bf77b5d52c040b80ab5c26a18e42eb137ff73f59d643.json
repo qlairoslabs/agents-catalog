@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "afc9dd48f3ed1b2ed517bf77b5d52c040b80ab5c26a18e42eb137ff73f59d643",
+ "domain": [
+  "ecommerce/luxury-watches",
+  "product-configuration"
+ ],
+ "product": [
+  "brm-chronographes",
+  "alma",
+  "pledg"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Configures, prices, renders and starts an order for made-to-order B.R.M watches, plus appointment, quote and special-request submissions.",
+ "whenToUse": "Use when a user wants to design or price a B.R.M watch, view renders, or request an order, quote or visit.",
+ "tasks": [
+  "list models",
+  "describe options",
+  "validate configuration",
+  "quote price",
+  "render watch image",
+  "create share link",
+  "submit request",
+  "create order",
+  "check order status"
+ ],
+ "effects": {
+  "b48420c881be243f7644216b4760fcc0f5c8f40d15939b225be0daed2300d788": "read",
+  "e4e4b54ce0296e61f5b4543edb07fb6222c35ccf555ebf506d820b31a2d851bc": "read",
+  "2c24fbbac5a07cee51b6a655259c60cbe53770cfc205ad03de5b355ab6030c0a": "read",
+  "f6d30a18132af68febb8fb747937fd76654a6e7b03974817e0b3f43e964f9e89": "read",
+  "ef88b0a17d4547de6aef7fc3299424bcd9240e0640def98a0f5951f8d4d56423": "read",
+  "28be011c00b9278ffbe639272786888506db38c8f6ad0590bfddcb19268d4f9d": "write",
+  "fc906a8befa2f3e7dbb3c4637817b0b2a821b106eece3795266d65f4fbc4f91f": "write",
+  "cb483a3ec43ef04af4bdb3149cc9319d98e291f9a571cff2215bcd8a126847e0": "write",
+  "aa39996cb45f6f029df468f32c35738fb00daf524679f79adf46e01c3b628bae": "read"
+ },
+ "flags": []
+}

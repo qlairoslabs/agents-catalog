@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "ef452dfe754fe4b3218fe97eed8124455e0e264633f504701cc735d1ec32d51e",
+ "domain": [
+  "finance/real-estate",
+  "finance/personal-finance"
+ ],
+ "product": [
+  "rentbuy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Models 30-year rent versus buy comparisons with single scenarios, side-by-side comparisons, sensitivity sweeps and an interactive calculator.",
+ "whenToUse": "Use when a user is deciding whether to rent or buy a home and wants numeric comparisons or sensitivity analysis.",
+ "tasks": [
+  "run rent vs buy scenario",
+  "compare scenarios",
+  "sweep an input",
+  "open interactive calculator"
+ ],
+ "effects": {
+  "252efc695e23128371a6f7947622857e9d0295c9b11fc9a7458bea3a48cde4fe": "write",
+  "1618ed7e3734ff011bc1a39814a3c0bb288670a9cc764eb8e0fa673153fc644b": "write",
+  "ffdba32739dd46d4cc05d2c8153fe4da5e9e65297d1ceda5feb38acf4dbe995d": "write",
+  "5ee68370e8775ba9ad73009e202a2106341dad5784e1f410e53abbbf69ecb447": "write"
+ },
+ "flags": []
+}

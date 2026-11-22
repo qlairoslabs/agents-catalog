@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "0f5e574208b366677c8824b9b7b466c6b97a098413f11e3f072f5a8e7b6e71fb",
+ "domain": [
+  "gambling/slot-machines"
+ ],
+ "product": [
+  "slotmaps",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Advantage-play guides for casino slot machines, with paid full guides and photo-based machine assessment.",
+ "whenToUse": "Use when a user wants to know if a casino slot machine is worth playing.",
+ "tasks": [
+  "search machines",
+  "read overview",
+  "list free guides",
+  "get full guide",
+  "assess machine photo"
+ ],
+ "effects": {
+  "a73dd625e2a401c731330dc1352edbfeb4399bce6815c4cfa823571abaf57374": "read",
+  "8ac8c8e269a11d7895e0cc304b18c6cf91bd5ab03329757432119079440d9cf7": "read",
+  "88c46d57303aab6f6cb1ac0cafa9336fe1b2cc7684524f026681fd0d956d7c31": "read",
+  "bb3a076cc1a1a1f958ad476f29047fc1f70e3dbcd7bf63da5200629ad645db51": "write",
+  "b7da1f43e2e6706762cc6a51485566ae6c8753e4fb86fd53fe2773a80952e3e4": "write"
+ },
+ "flags": [
+  "paid calls ($1.99) via machine payments"
+ ]
+}

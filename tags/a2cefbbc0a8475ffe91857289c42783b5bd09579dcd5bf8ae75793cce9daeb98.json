@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a2cefbbc0a8475ffe91857289c42783b5bd09579dcd5bf8ae75793cce9daeb98",
+ "domain": [
+  "software/cybersecurity/application-security",
+  "software/development"
+ ],
+ "product": [
+  "nightvision"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Skills for using NightVision dynamic application security testing and API discovery to find vulnerabilities in web apps and REST APIs.",
+ "whenToUse": "Use when scanning web applications or REST APIs for exploitable vulnerabilities with NightVision.",
+ "tasks": [
+  "run dast scans",
+  "discover api endpoints",
+  "find web vulnerabilities",
+  "review scan findings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "642c6341e4665991a158da3f93d6fcbf2afdef86aebc4a9392692e38b2cbde3f",
+ "domain": [
+  "software/documentation",
+  "software/version-control"
+ ],
+ "product": [
+  "github",
+  "gitmcp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Fetch and search documentation and code of any GitHub repository, plus generic URL fetching.",
+ "whenToUse": "Use when you need a GitHub repository's docs or code, or to fetch a referenced URL.",
+ "tasks": [
+  "match library to repo",
+  "fetch repo documentation",
+  "search documentation",
+  "search code",
+  "fetch URL content"
+ ],
+ "effects": {
+  "a593d5096dd5f7e6176030aa83ddaa9cbffa786835d3bb9150b8021e4744be34": "read",
+  "334bae280fbeb0d7fd4a5025c359ad5a1f9ef7b106a4d9c9b40ed1a9e6d09afd": "read",
+  "998449e5079415e1a94186d02b247ea567b5b0dbca797f3a03b0499100d1f213": "read",
+  "6a75299a3d1718cac5aeb3d6bb34cb086d311d7d639499566d80f01ab1002441": "read",
+  "63d36fc927161890e155e7b7c529d016ca8c12e9510ea1bceccfd6072a2189e3": "read"
+ },
+ "flags": []
+}

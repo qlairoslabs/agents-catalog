@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "afdc279b24f8a2628c7ed478ba9f1911b08b53430f11b160d2e9db5a2ede22ec",
+ "domain": [
+  "finance/market-data/sec-filings"
+ ],
+ "product": [
+  "sec-edgar",
+  "alphacreek"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and reads SEC filings such as 10-K and 10-Q and answers questions with citations.",
+ "whenToUse": "Use when the user needs cited answers from a company's SEC filings.",
+ "tasks": [
+  "search SEC filings",
+  "read 10-K and 10-Q filings",
+  "answer questions with citations"
+ ],
+ "effects": {},
+ "flags": []
+}

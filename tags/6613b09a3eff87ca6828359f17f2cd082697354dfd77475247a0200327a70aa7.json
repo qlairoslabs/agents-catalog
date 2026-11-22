@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6613b09a3eff87ca6828359f17f2cd082697354dfd77475247a0200327a70aa7",
+ "domain": [
+  "finance/algorithmic-trading",
+  "finance/investing"
+ ],
+ "product": [
+  "tradetron"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Lets users build, backtest and diagnose algorithmic trading strategies in their Tradetron account using natural language.",
+ "whenToUse": "Use when a user wants to create, backtest or troubleshoot an algo trading strategy on Tradetron.",
+ "tasks": [
+  "build trading strategies",
+  "backtest strategies",
+  "diagnose strategy issues"
+ ],
+ "effects": {},
+ "flags": []
+}

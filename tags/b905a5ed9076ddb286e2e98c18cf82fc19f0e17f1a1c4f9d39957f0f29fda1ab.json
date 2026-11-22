@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b905a5ed9076ddb286e2e98c18cf82fc19f0e17f1a1c4f9d39957f0f29fda1ab",
+ "domain": [
+  "marketing/email-verification",
+  "marketing/email"
+ ],
+ "product": [
+  "easy-email-verification"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Verifies email addresses singly, in batches of 50 or in bulk lists of up to 10,000.",
+ "whenToUse": "Use before sending email to check whether addresses are valid.",
+ "tasks": [
+  "verify single email",
+  "verify batch emails",
+  "verify bulk lists"
+ ],
+ "effects": {},
+ "flags": []
+}

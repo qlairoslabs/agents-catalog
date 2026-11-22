@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "17e3415abf78593ce62050773328cbc1af29cede7c658af3d23d8c6242906bce",
+ "domain": [
+  "software/audit-logging",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "vouchwell"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only tool to read, verify and export a tamper-evident log of AI agent actions.",
+ "whenToUse": "Use when an agent or user needs to audit or prove what an AI agent did.",
+ "tasks": [
+  "read agent activity log",
+  "verify log integrity",
+  "export audit log"
+ ],
+ "effects": {},
+ "flags": []
+}

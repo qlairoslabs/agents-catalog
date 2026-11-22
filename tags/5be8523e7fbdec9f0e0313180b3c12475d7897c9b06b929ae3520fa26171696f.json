@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5be8523e7fbdec9f0e0313180b3c12475d7897c9b06b929ae3520fa26171696f",
+ "domain": [
+  "software/ai-models/routing"
+ ],
+ "product": [
+  "oriora-router"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Selects the best AI model per prompt using the user's own vendor keys, optionally running the request.",
+ "whenToUse": "Use when choosing or routing a prompt to the most suitable AI model.",
+ "tasks": [
+  "recommend model per prompt",
+  "route prompts",
+  "run prompts on chosen model"
+ ],
+ "effects": {},
+ "flags": []
+}

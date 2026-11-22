@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "176eea149f2da3c8c39dab4d67284b7346dda8265efa04713c14af0bbd0ab3aa",
+ "domain": [
+  "crypto/market-data",
+  "crypto/on-chain"
+ ],
+ "product": [
+  "usdc",
+  "base",
+  "x402",
+  "defillama",
+  "ethereum"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Pay-per-call crypto prices, candles, token info, TVL and wallet balances for agents, paid in USDC on Base via x402.",
+ "whenToUse": "Use when an agent needs crypto market or on-chain data and can pay small per-call USDC fees.",
+ "tasks": [
+  "view catalogue",
+  "check source status",
+  "get median price",
+  "get token info",
+  "get candles",
+  "get market overview",
+  "get protocol TVL",
+  "check address balance"
+ ],
+ "effects": {
+  "b6780af2406f596076abc80a31d90f62f9bf83693664fa4ad13603272fe24118": "read",
+  "1132c25383405b146340b9d8df0a6aeff8df818ace6d0eec1f95389917e8e6ca": "read",
+  "af2cf394a4d82e5f85cdc109f77059870e700e14708e3ade2bdab39153c7958a": "write",
+  "1307bc18c3662562bdb003d633c49348eb0aaf3c1ebc90eb2b4e50d006627ae8": "write",
+  "400a7dfb7e8adca39ec4a79d68f52696ef559f617e0e899b60d5642d03d471c5": "write",
+  "e30e4470580cddb5dec70fda41314765b08727ffa2594ce09b51777e152544c0": "write",
+  "cc5c71850646cfadb85815b37a6d7feb4d56f22b4a3f022afab7b61af41138b7": "write",
+  "01aced710da01fa86f757eb135517f55eae5b720897ed06698dd61ddbbc379a3": "write"
+ },
+ "flags": []
+}

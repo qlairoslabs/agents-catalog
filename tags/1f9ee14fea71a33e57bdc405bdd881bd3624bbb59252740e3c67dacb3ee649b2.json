@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1f9ee14fea71a33e57bdc405bdd881bd3624bbb59252740e3c67dacb3ee649b2",
+ "domain": [
+  "knowledge-management/research-library",
+  "productivity/notes"
+ ],
+ "product": [
+  "sombra"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Research library connector to save and organize notes and webpages as markdown for reuse as AI context.",
+ "whenToUse": "Use when an agent needs to save, organize or retrieve research notes and webpages as context.",
+ "tasks": [
+  "save notes",
+  "save webpages",
+  "organize library",
+  "retrieve markdown context"
+ ],
+ "effects": {},
+ "flags": []
+}

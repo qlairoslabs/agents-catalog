@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "606b42cfa26362e8fc0b40ad5e8e341fcb3b2d8d81fe2e7d94c35b45b7fc6f73",
+ "domain": [
+  "data/web-scraping"
+ ],
+ "product": [
+  "cloudflare"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scrapes web pages via HTTP or real browsers with CSS selectors, including stealth and Cloudflare bypass.",
+ "whenToUse": "Use when extracting data from web pages, including dynamic ones.",
+ "tasks": [
+  "fetch pages",
+  "render with browser",
+  "extract with css selectors"
+ ],
+ "effects": {},
+ "flags": [
+  "advertises-bot-protection-bypass"
+ ]
+}

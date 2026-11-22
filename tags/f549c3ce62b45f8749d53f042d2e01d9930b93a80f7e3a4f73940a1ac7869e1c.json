@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f549c3ce62b45f8749d53f042d2e01d9930b93a80f7e3a4f73940a1ac7869e1c",
+ "domain": [
+  "finance/charitable-giving"
+ ],
+ "product": [
+  "legacy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Verifies UK registered charities, quotes a donation with fees and Gift Aid, and creates a checkout link for the donor to pay.",
+ "whenToUse": "Use when a user wants to donate to UK charities and needs a quote and checkout link.",
+ "tasks": [
+  "check charity numbers",
+  "quote a gift",
+  "calculate Gift Aid",
+  "create checkout link"
+ ],
+ "effects": {
+  "a51b28f5f959b00b62b5d58f7631111382b932e667be96563f67a533887ec533": "read",
+  "38e6c3307a564b713ab798f63119e1c21a941cd44f7fbc14ed272f61bb503460": "read",
+  "0f7a36ad6899e775c1d64b211143485fa3a1afd1e77dfae4f8166cf184e4afdb": "write"
+ },
+ "flags": []
+}

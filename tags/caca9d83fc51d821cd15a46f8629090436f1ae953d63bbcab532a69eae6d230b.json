@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "caca9d83fc51d821cd15a46f8629090436f1ae953d63bbcab532a69eae6d230b",
+ "domain": [
+  "sales/lead-outreach",
+  "marketing/sms"
+ ],
+ "product": [
+  "persuadioai"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "keep-in-touch"
+ ],
+ "summary": "Analyzes leads, drafts follow-up campaigns and launches SMS outreach after explicit human approval.",
+ "whenToUse": "Use when an agent needs to score leads or prepare and send SMS follow-up campaigns with human sign-off.",
+ "tasks": [
+  "analyze leads",
+  "draft follow-up campaigns",
+  "launch sms outreach",
+  "request human approval"
+ ],
+ "effects": {},
+ "flags": []
+}

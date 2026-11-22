@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bf8bfca0cf45820eea594380e610e9668c7ead1b86f9100aaf2137cad42d3547",
+ "domain": [
+  "commerce/point-of-sale",
+  "commerce/inventory"
+ ],
+ "product": [
+  "korima"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Configures a Korima point-of-sale system, including products with variants, prices, stock levels and customers.",
+ "whenToUse": "Use when a merchant wants to set up or update products, prices, inventory or customers in Korima POS.",
+ "tasks": [
+  "manage products and variants",
+  "set prices",
+  "update stock levels",
+  "manage customers"
+ ],
+ "effects": {},
+ "flags": []
+}

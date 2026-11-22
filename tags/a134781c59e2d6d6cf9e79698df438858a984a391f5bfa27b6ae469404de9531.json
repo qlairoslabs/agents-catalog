@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a134781c59e2d6d6cf9e79698df438858a984a391f5bfa27b6ae469404de9531",
+ "domain": [
+  "hr/job-search",
+  "remote-work"
+ ],
+ "product": [
+  "curaiz"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Finds recent remote jobs matched by similarity to an ideal job description and eligible applicant locations.",
+ "whenToUse": "Use when a user wants remote job openings matching their experience and location.",
+ "tasks": [
+  "find remote jobs",
+  "match by description",
+  "get job details",
+  "list supported locations"
+ ],
+ "effects": {
+  "8145729839f76f27bd3aec044cfe2372d8f3780f66185a161f36e343eafd9a90": "read",
+  "c4b92867c474cf236548543ffb8a0214c100b6fd68461906a160d6e097f801fd": "read",
+  "805caee4dcc067380563efd80e2c11ad887cfeedf8cb5d881db8d4e93809a98c": "read"
+ },
+ "flags": []
+}

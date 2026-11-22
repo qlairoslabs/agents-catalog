@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f1b80fb49183daf8fd127e80e46b615c8076b2542a6857d2f91e049f992946b5",
+ "domain": [
+  "finance/e-invoicing",
+  "compliance/tax"
+ ],
+ "product": [
+  "peppol"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Checks whether a business can receive Peppol e-invoices, including Belgian lists, and validates EU e-invoices.",
+ "whenToUse": "Use when the user needs to confirm a client's Peppol receivability or validate an EU e-invoice.",
+ "tasks": [
+  "check peppol receivability",
+  "check belgian client lists",
+  "validate eu e-invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

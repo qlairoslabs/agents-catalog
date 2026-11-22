@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "897c8731b05c8bc3a267c78dc7c04dd3c352a4937cb6b26cbf3d8a80d85ec7d7",
+ "domain": [
+  "data/visualization",
+  "analytics/business-intelligence"
+ ],
+ "product": [
+  "regiabi"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Renders interactive data components over MCP, including what-if apps, tables, maps and 90 chart types.",
+ "whenToUse": "Use when an agent needs to present data as interactive charts, tables, maps or what-if scenarios.",
+ "tasks": [
+  "create charts",
+  "build interactive tables",
+  "render maps",
+  "build what-if apps"
+ ],
+ "effects": {},
+ "flags": []
+}

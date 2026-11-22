@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f31774e0510eb3e0d6ea8cee8b66517daa0a3fbd6d9c785ad10e3a4cba4fe692",
+ "domain": [
+  "gaming/game-modding",
+  "software/scripting"
+ ],
+ "product": [
+  "fivem",
+  "lua"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Developer tools for FiveM servers to find resources, check compatibility, validate Lua and server.cfg, and generate jobs.",
+ "whenToUse": "Use when developing or configuring a FiveM roleplay server.",
+ "tasks": [
+  "find resources",
+  "check compatibility",
+  "validate lua",
+  "validate server.cfg",
+  "generate jobs"
+ ],
+ "effects": {},
+ "flags": []
+}

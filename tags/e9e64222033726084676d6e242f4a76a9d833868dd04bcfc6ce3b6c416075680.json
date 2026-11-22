@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e9e64222033726084676d6e242f4a76a9d833868dd04bcfc6ce3b6c416075680",
+ "domain": [
+  "automotive/cost-of-ownership"
+ ],
+ "product": [
+  "revvedupcars"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Estimates monthly cost of owning new US cars including loan, insurance, maintenance and fuel, with comparisons and segment rankings.",
+ "whenToUse": "Use when comparing what new cars really cost per month to own in the US.",
+ "tasks": [
+  "find a car",
+  "get true monthly cost",
+  "compare two cars",
+  "rank a segment by cost"
+ ],
+ "effects": {
+  "79a029930b254c57ad8581cba574545cd4be25466435ce74af14ac5eb1d79125": "read",
+  "a9c935fefd5d15797f2ac969f98890d7e2105f90e8db09512411ac7c91f232ee": "read",
+  "7fcf36a946120d007ef5b303632aea5a6f8353ed2dbed71aebdfbc6d7b7bf089": "read",
+  "b5e032733635a61fcb0251ed5504874e03d7daaeff657a8e2518417579bb62ab": "read"
+ },
+ "flags": []
+}

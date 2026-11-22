@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "43ade1c3609a8fb66bdeeb8d1419e0fcb0e4baaf58229f93c600b282f5145fad",
+ "domain": [
+  "ai/chatbots",
+  "support/customer-chat"
+ ],
+ "product": [
+  "echo-ai"
+ ],
+ "audience": [
+  "support",
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Connector to list, configure, chat with, analyze and embed Echo AI assistants.",
+ "whenToUse": "Use when an agent needs to configure, test, analyze or embed an Echo AI assistant.",
+ "tasks": [
+  "list assistants",
+  "configure assistants",
+  "chat with assistants",
+  "analyze assistant usage",
+  "embed assistants"
+ ],
+ "effects": {},
+ "flags": []
+}

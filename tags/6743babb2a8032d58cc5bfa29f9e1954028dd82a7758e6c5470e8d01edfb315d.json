@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6743babb2a8032d58cc5bfa29f9e1954028dd82a7758e6c5470e8d01edfb315d",
+ "domain": [
+  "data/migration",
+  "data/lakehouse"
+ ],
+ "product": [
+  "oracle-ai-data-platform",
+  "databricks"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Plans and runs automated migrations of Databricks notebooks, jobs, schedules and catalog DDL to Oracle AI Data Platform, verifying on a live cluster.",
+ "whenToUse": "Use when migrating Databricks workloads to Oracle AI Data Platform.",
+ "tasks": [
+  "plan databricks migration",
+  "rewrite dependencies",
+  "migrate notebooks",
+  "migrate jobs and schedules",
+  "migrate catalog ddl",
+  "execute and verify cells on cluster",
+  "fix migration errors"
+ ],
+ "effects": {},
+ "flags": []
+}

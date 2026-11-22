@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4f4178e1ceb1042f07b188c2649f2fd7b3fc996647350440c2daf9afd4e199fe",
+ "domain": [
+  "communication/mobile-notifications",
+  "productivity/human-in-the-loop"
+ ],
+ "product": [
+  "reflecto"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work",
+  "schedule"
+ ],
+ "summary": "Lets an AI agent reach the user's own phone with notifications, approval prompts, reminders, ringing and files.",
+ "whenToUse": "Use when an agent needs to notify the user or ask for approval on their phone.",
+ "tasks": [
+  "send phone notification",
+  "ask approval question",
+  "set reminder",
+  "ring phone",
+  "send file to phone"
+ ],
+ "effects": {},
+ "flags": []
+}

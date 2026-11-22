@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "75e39f6bfec55ca82a8c39d8cc17dd5f2830ac6dfced772300ebf218ab831613",
+ "domain": [
+  "software/cloud/migration",
+  "ai/llm-migration"
+ ],
+ "product": [
+  "google-cloud",
+  "aws",
+  "terraform",
+  "openai",
+  "gemini",
+  "amazon-bedrock",
+  "langchain",
+  "langgraph"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Runs a phased migration from Google Cloud and AI providers to AWS, covering discovery, design, cost estimation and artifact generation.",
+ "whenToUse": "Use when moving workloads from GCP, or AI apps from OpenAI, Gemini or LangChain, to AWS.",
+ "tasks": [
+  "discover gcp resources from terraform",
+  "analyze app code and billing",
+  "map gcp services to aws",
+  "migrate llm calls to bedrock",
+  "design target architecture",
+  "estimate aws costs",
+  "generate migration artifacts",
+  "collect feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

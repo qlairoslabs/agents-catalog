@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2279e6732f711b2de798a652161c59751b39f4cd41bbce098a381d8f6b091e1d",
+ "domain": [
+  "software/cybersecurity/code-scanning"
+ ],
+ "product": [
+  "aikido",
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs Aikido Security scans in Claude Code for SAST issues, leaked secrets and infrastructure-as-code vulnerabilities.",
+ "whenToUse": "Use when checking code for security flaws, exposed secrets or IaC misconfigurations with Aikido.",
+ "tasks": [
+  "run sast scans",
+  "detect secrets",
+  "scan infrastructure as code",
+  "report vulnerabilities"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "dfbc2922bfb0ef604afc24b725ed03cef611f20ad8a57e109f39f1b512547356",
+ "domain": [
+  "education/music-lessons",
+  "scheduling/booking"
+ ],
+ "product": [
+  "telegram",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Browse online singing lesson services, prices and open slots at Voice School and send a lesson request to the coach.",
+ "whenToUse": "Use when a user wants to explore or request online singing lessons with Voice School.",
+ "tasks": [
+  "read school info",
+  "list lesson options and prices",
+  "search available slots",
+  "send lesson request"
+ ],
+ "effects": {
+  "6bbdbd6e0f8d488e6abcedf7089ac64c21c7e1b23f4ef36e27c48dacececa927": "read",
+  "4fe1df5e1a7754b80e1a50e21c88f375d8ad520b25fdbd9662967e89ec33d481": "read",
+  "db55b2702b7bdeb289394e5560e9da3a0f516460d6546032f4e46fb08d6ebf5e": "read",
+  "93006730ab1653b4a468ef35a6f2b65da046672769a0e57948385ae7c09b99f2": "write"
+ },
+ "flags": []
+}

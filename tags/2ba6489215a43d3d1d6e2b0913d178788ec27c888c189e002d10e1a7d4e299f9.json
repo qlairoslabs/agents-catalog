@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2ba6489215a43d3d1d6e2b0913d178788ec27c888c189e002d10e1a7d4e299f9",
+ "domain": [
+  "data/news",
+  "research/media-monitoring"
+ ],
+ "product": [
+  "google-news",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Google News data through 12 endpoints, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs news articles or headlines from Google News and can pay per request in USDC.",
+ "tasks": [
+  "fetch news articles",
+  "search news",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

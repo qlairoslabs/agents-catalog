@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "bc9bdd0c11772efc51e3d81096cecb7dac9eab1697fe5125ee843e369e484bae",
+ "domain": [
+  "finance/market-data",
+  "finance/visualization"
+ ],
+ "product": [
+  "marketcaper"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Gives cited market size snapshots, two-asset comparisons with images and stock heatmaps.",
+ "whenToUse": "Use when comparing the market size of two assets or showing a stock heatmap with a citable source.",
+ "tasks": [
+  "get asset size snapshot",
+  "compare two assets",
+  "draft comparison post",
+  "generate stock heatmap"
+ ],
+ "effects": {
+  "7f9a6e3aeba161a1bb180c6687ed22e2aa81b372fe07f09ea75029de7a92b632": "read",
+  "b29d08c833a84cd75b226dc0d8c80068d8a6823140f22b07e75e1fadfff04aeb": "read",
+  "d16314b56b32458a7e708fae3579ec6c4e2ad5bd79391d689584c933e223f60c": "read",
+  "60aaa81078361b8efcb843bbfd64af894039598ec15450a5cbb53c73ce35fa3b": "read"
+ },
+ "flags": []
+}

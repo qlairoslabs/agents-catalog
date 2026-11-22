@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "7ed5dee73221a5c19033b38f99458f09fe10443d90cac2560a576845e1d1aa18",
+ "domain": [
+  "product/feedback-management",
+  "product/changelogs"
+ ],
+ "product": [
+  "seggwat"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages feedback, ratings, surveys, changelogs and review tasks in SeggWat projects.",
+ "whenToUse": "Use when reviewing or managing user feedback, surveys or changelogs in SeggWat.",
+ "tasks": [
+  "manage feedback",
+  "view ratings",
+  "manage surveys",
+  "publish changelogs",
+  "manage review tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

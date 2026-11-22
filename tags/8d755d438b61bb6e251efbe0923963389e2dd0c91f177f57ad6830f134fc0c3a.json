@@ -1,0 +1,61 @@
+{
+ "classifier": 2,
+ "contentHash": "8d755d438b61bb6e251efbe0923963389e2dd0c91f177f57ad6830f134fc0c3a",
+ "domain": [
+  "finance/defi-yield",
+  "finance/stablecoin"
+ ],
+ "product": [
+  "accrue",
+  "usdc",
+  "aave",
+  "compound",
+  "morpho",
+  "ethereum",
+  "base",
+  "arbitrum"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "USDC yield benchmark and vault data from ACCRUE, plus tools to prepare and submit vault deposits and withdrawals on chain.",
+ "whenToUse": "Use when someone wants stablecoin yield benchmarks or vault APYs, or explicitly wants to deposit to or withdraw from an ACCRUE vault.",
+ "tasks": [
+  "get SYX index value and history",
+  "explain SYX methodology",
+  "list and compare vaults",
+  "search vaults by criteria",
+  "list model portfolios",
+  "recommend a strategy",
+  "project yield on a deposit",
+  "list vault contracts",
+  "prepare deposit or withdrawal",
+  "submit signed user operation",
+  "check transaction status"
+ ],
+ "effects": {
+  "87d18c21358bd005ec2a277703d517f3fb511ac7ab49d785e99c4b5968c7e686": "read",
+  "009c98c932dd7aa8267f5c284cd194585ad3811b9f5d99b10dd7812de5db2b92": "read",
+  "3801e4ba8bef860d941f385481e23823feb9d1daa3e6bd81b082d9f6443c1ba5": "read",
+  "f5e6f9786aafdc4d881a849dec91dbd794cac5058ab7d74f6a63de917879c574": "read",
+  "431bfcb8c0bc9a35b3e1aa813480ae2ebea501fc1bea10d05f281c5de23eafb8": "read",
+  "65e1729ce1f627c51259cac4bd1056cd623ae66a3d14097048cbbcd33b387b1f": "read",
+  "7d257e12d55fd123bfbe30db22a3a2317cd5e52b951775f47ebb7a2d6f3d2b60": "read",
+  "ae728d6285290ebad8e0f0ec22c4da1bcabad97a28b779baf475c87adbaaa712": "read",
+  "5d52fbbf91de72403461011bcf75c984e67f6fd05c83a225b075f89d8a65e05c": "read",
+  "d490cec61d08776d5a6d64efd31f118d6750ea5fb08e556192c01e7f611178af": "read",
+  "c0525459d4ecad5776b8dc207372a25db321a848eabb4b93d03a073b4c9cd0c1": "read",
+  "ca2fa453ad0e96243816dd7c3e2ab4fe8bdd303dad64e4fe5aa74171c425495a": "read",
+  "f3bcda55b70bb827dad666169262199e70e78be6064dd8706c11d6abb12ded28": "read",
+  "4d56a4e273a848b202d983c9ae36ecb4cc0751be8e8c130013b247135d494305": "read",
+  "46122daccfa7a789a39ae789a4128faa173922f2d5a94815ca1bb9d910f0ad72": "read",
+  "a1828b2405babf00576ad3bc4d149ef363dbfb0a0e1ff1db1d6cb98479ee65ff": "write",
+  "43bbf09475fee34a067ba3360410bdccd073731228370703eead55b963bb3136": "read",
+  "dfc2f14773904519bcaf39112bf7db4b33d67bec3b0183aae48dbdb040f43c87": "risky",
+  "46774cbbd04f10dd8ba43a3be8de62b5156e72b2084439aa4adb99edd1af234f": "read"
+ },
+ "flags": []
+}

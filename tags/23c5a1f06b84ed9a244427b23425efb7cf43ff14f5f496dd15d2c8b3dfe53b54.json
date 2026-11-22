@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "23c5a1f06b84ed9a244427b23425efb7cf43ff14f5f496dd15d2c8b3dfe53b54",
+ "domain": [
+  "finance/trading/options",
+  "finance/market-data"
+ ],
+ "product": [
+  "skylit"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Supplies options flow, volatility, dealer gamma exposure and dark pool data for AI trading agents.",
+ "whenToUse": "Use when analyzing options market activity, volatility, dealer positioning or dark pool prints.",
+ "tasks": [
+  "view options flow",
+  "get volatility data",
+  "get dealer gamma exposure",
+  "view dark pool data"
+ ],
+ "effects": {},
+ "flags": []
+}

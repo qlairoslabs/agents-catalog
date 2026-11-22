@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "71ea8635f2a1d17d036e572f54befff7e0030b9cef63e9c3b08b875f38da94c3",
+ "domain": [
+  "entertainment/events",
+  "local/nightlife"
+ ],
+ "product": [
+  "ticketmaster",
+  "gametime",
+  "stubhub",
+  "vivid-seats"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Live Los Angeles events, cross-marketplace ticket price comparison, bars and clubs with current happy hours, and museums with free-day rules and exhibitions.",
+ "whenToUse": "Use when someone wants things to do in Los Angeles, the cheapest tickets for a show, happy hours now, or free museum days.",
+ "tasks": [
+  "search events",
+  "get event details",
+  "compare ticket prices",
+  "get event price history",
+  "find bars and clubs",
+  "find museums",
+  "what's on tonight",
+  "list taxonomy tags"
+ ],
+ "effects": {
+  "b80bc3be1303260cf60df025dccbd38388dc8a4754c5e4107816c794c3667e9e": "write",
+  "62dda5ebd574072df6a3567d36f50716c2e8da88843a5a37c4cbbe3956c7b16d": "read",
+  "8a7eefbb75a07f160255030a40b7e7a25eadc3dc8f8cd0cf37f7fa7689cdae0c": "read",
+  "d6f9c39b2759c876ee96af919f5408e8226361e91d9f3cc64fe3f5713f3f4349": "read",
+  "337579d4201e5de3b8354ffa3ab6e9ff1afa1334543f85cd5cc300d9a583b72e": "read",
+  "9e19d60c4ce5f1ad11480e6c06b087e8212b87c5acaccbbc86ab10f7f6add9ad": "write",
+  "e80ee8255fb41efa81b7b62aee2e61f7748e224aa8062aa23c5006803a027921": "read",
+  "7f07f4e4ae621537b5e28c0cddf42528636a780107f5520e39bfc2a44e83f259": "read"
+ },
+ "flags": []
+}

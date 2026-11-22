@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3a1571845cb978c381781b44bd7d6c033e58eb6004614e650263cf47565217bf",
+ "domain": [
+  "finance/financial-modeling",
+  "software/code-execution"
+ ],
+ "product": [
+  "bridge-town",
+  "google-sheets"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "work-as-a-team"
+ ],
+ "summary": "Builds financial models as code with cloud execution, Google Sheets integration, version control and collaboration.",
+ "whenToUse": "Use when building or running a financial model as code and syncing it with Google Sheets.",
+ "tasks": [
+  "build financial models as code",
+  "run models in the cloud",
+  "sync with google sheets",
+  "version models",
+  "collaborate on models"
+ ],
+ "effects": {},
+ "flags": []
+}

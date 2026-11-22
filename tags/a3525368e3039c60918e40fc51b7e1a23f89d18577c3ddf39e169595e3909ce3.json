@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a3525368e3039c60918e40fc51b7e1a23f89d18577c3ddf39e169595e3909ce3",
+ "domain": [
+  "ai/tool-directory",
+  "software"
+ ],
+ "product": [
+  "toolboxes-top"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Curated directory of 221 AI tools across 21 industries, searchable by use case, department and pricing tier.",
+ "whenToUse": "Use when a user needs to discover AI tools for a task, department or free-tier requirement.",
+ "tasks": [
+  "search AI tools",
+  "get tool record",
+  "list departments",
+  "find free tools",
+  "view directory stats"
+ ],
+ "effects": {
+  "a02d6c252e50427fd863df7b44eaf1f4c116003201f0bf792dfd99a0502371b8": "read",
+  "db84208f22cf5473389a904167af36f71f18b552650c352478d86bbd2b5231c1": "read",
+  "98ffd254ceba237d778dbfd035b5aa4dad3457c6511179e44e43696d7ac962aa": "read",
+  "7282464956dcf2121659e1e939f20351ff6cb4b4cd5d7dcaafcc5d84e80f6afa": "read",
+  "a794ace92873e30093972837666fc5f6ded853ecf2b30382ad30b1ee696ecbf8": "read"
+ },
+ "flags": []
+}

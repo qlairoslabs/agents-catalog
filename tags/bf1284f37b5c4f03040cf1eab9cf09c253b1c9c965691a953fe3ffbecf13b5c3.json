@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "bf1284f37b5c4f03040cf1eab9cf09c253b1c9c965691a953fe3ffbecf13b5c3",
+ "domain": [
+  "software/cybersecurity",
+  "ai/safety"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Security tools for agents that detect prompt injection, suspicious packages and code vulnerabilities.",
+ "whenToUse": "Use when an agent needs to check inputs, dependencies or code for security issues.",
+ "tasks": [
+  "detect prompt injection",
+  "detect fake packages",
+  "scan for vulnerabilities"
+ ],
+ "effects": {},
+ "flags": []
+}

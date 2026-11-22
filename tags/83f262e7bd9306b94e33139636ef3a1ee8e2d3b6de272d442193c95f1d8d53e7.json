@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "83f262e7bd9306b94e33139636ef3a1ee8e2d3b6de272d442193c95f1d8d53e7",
+ "domain": [
+  "software/documentation",
+  "software/graphics-sdk"
+ ],
+ "product": [
+  "softhills"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Documentation, API reference, code examples, changelogs and migration guides for Softhills 3D/2D visualization SDKs.",
+ "whenToUse": "Use when coding against Softhills SDKs and needing API details, examples or upgrade guidance.",
+ "tasks": [
+  "search docs",
+  "get document",
+  "list products",
+  "list API classes",
+  "get API detail",
+  "get code examples",
+  "get changelog",
+  "migration guide",
+  "check index status"
+ ],
+ "effects": {
+  "f57b964cd06a4b64bc0540e338c5e169b0e5c7fffe4bc9c825a410302f9625ff": "read",
+  "2ef6be5002539e28919f434a14a81e0a58037622b877b4ab36fb0117053b8d57": "read",
+  "b8fa4b70f6da7ffb6c3f23ba21ffa3ee2f6abbadcf0a4bba1a6e7f421c735904": "read",
+  "534a0e6379260b783839e14285d9469953f2ba235f3b115a40c491db23c1a7c1": "read",
+  "336e80614e3b78240a66dbed0c7031d9bf4a0a6b8fb8d1b1e74cbea2e87c0d34": "read",
+  "bdb59e2a1c3a45e58e5d0160fb94f07fc6c7836f7aa85e2dde3589c43823666a": "read",
+  "afd6f6d74ba60af09427ae6a864fe5f25e553dad4a334ee135ccd74956f01201": "read",
+  "857cc4948fae13925aaf2a317f1cc623d8f50d3955dfc01f591fe3a517f495e9": "read",
+  "2507728aeb07d1a2f29623b2cb168d546f63b4f7b006ecb7a9a12d027ac287e1": "read",
+  "6c8cb64775e5bc597e07c71e506093922202745f189ce77c21945b28b441c501": "read",
+  "a125d4d10a4f44ab7443178a2810e2d4d87076ed16c22046aa819715cb285b59": "read",
+  "729dfbf38c03b33d619b5f6e124ae97370d73d33d2ab8703fcdb5ddb1c685a8f": "read"
+ },
+ "flags": []
+}

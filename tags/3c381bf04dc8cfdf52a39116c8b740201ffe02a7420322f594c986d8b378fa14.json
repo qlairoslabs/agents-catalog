@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3c381bf04dc8cfdf52a39116c8b740201ffe02a7420322f594c986d8b378fa14",
+ "domain": [
+  "compliance/kyc/sanctions-screening",
+  "legal/corporate-registry"
+ ],
+ "product": [
+  "companies-house",
+  "fca-register"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Runs UK sanctions, export control, Companies House ownership, FCA register and property checks.",
+ "whenToUse": "Use when an agent needs due-diligence or compliance checks on UK entities or properties.",
+ "tasks": [
+  "screen uk sanctions",
+  "check export controls",
+  "look up company owners",
+  "check fca register",
+  "run property checks"
+ ],
+ "effects": {},
+ "flags": []
+}

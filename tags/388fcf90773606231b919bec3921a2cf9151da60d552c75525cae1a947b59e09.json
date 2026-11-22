@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "388fcf90773606231b919bec3921a2cf9151da60d552c75525cae1a947b59e09",
+ "domain": [
+  "finance/crypto/defi",
+  "finance/market-data"
+ ],
+ "product": [
+  "solana",
+  "meteora"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Solana DeFi data, including Meteora DLMM pool briefs and details plus scouting of Solana DEX activity.",
+ "whenToUse": "Use when an agent needs market or liquidity information on Meteora DLMM pools or other Solana DEX activity.",
+ "tasks": [
+  "get meteora dlmm pool briefs",
+  "get dlmm pool details",
+  "scout solana dex markets"
+ ],
+ "effects": {},
+ "flags": []
+}

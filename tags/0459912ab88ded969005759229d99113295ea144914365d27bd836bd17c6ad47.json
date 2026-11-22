@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0459912ab88ded969005759229d99113295ea144914365d27bd836bd17c6ad47",
+ "domain": [
+  "cloud/azure/deployment",
+  "software/code-analysis"
+ ],
+ "product": [
+  "azure"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Assesses whether a codebase is ready to deploy to Azure, checking build health, dependencies, stack compatibility and blockers.",
+ "whenToUse": "Use when a user asks if their repo or app is ready to deploy to Azure before any infrastructure work.",
+ "tasks": [
+  "evaluate repo readiness",
+  "check build health",
+  "check dependency compatibility",
+  "identify local service dependencies",
+  "detect unsupported frameworks",
+  "list deployment blockers",
+  "check need for dockerfile",
+  "review app configuration"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "83afe82130f2c1016498c040d89b9155de43606f49ec1a714b569cfd5e6fd906",
+ "domain": [
+  "engineering/structural-analysis",
+  "engineering"
+ ],
+ "product": [
+  "fers",
+  "eurocode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Local finite element solver for structural engineering, covering frames, plates, buckling, seismic analysis and Eurocode checks.",
+ "whenToUse": "Use when an agent needs to model and solve structural engineering problems or verify designs against Eurocode locally.",
+ "tasks": [
+  "model frames and plates",
+  "run buckling analysis",
+  "run seismic analysis",
+  "perform eurocode checks",
+  "solve fem models locally"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "e312263b635940cc0358fb2a35b22f3cf9a54292dcc155b811ce829ea36cf24e",
+ "domain": [
+  "ai/machine-learning",
+  "ai/mlops"
+ ],
+ "product": [
+  "datarobot"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "DataRobot skills for ML model training, deployment, predictions, feature engineering, monitoring, explainability and app CI/CD.",
+ "whenToUse": "Use when training, deploying or monitoring machine learning models and agents on DataRobot.",
+ "tasks": [
+  "train models",
+  "deploy models",
+  "run predictions",
+  "engineer features",
+  "monitor models",
+  "explain models",
+  "prepare data",
+  "set up app ci/cd",
+  "monitor external agents"
+ ],
+ "effects": {},
+ "flags": []
+}

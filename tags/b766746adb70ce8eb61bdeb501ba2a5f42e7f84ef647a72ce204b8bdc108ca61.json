@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b766746adb70ce8eb61bdeb501ba2a5f42e7f84ef647a72ce204b8bdc108ca61",
+ "domain": [
+  "design/ui-design",
+  "software/frontend"
+ ],
+ "product": [
+  "subframe"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Designs and edits UI in Subframe and opens the design canvas within chat.",
+ "whenToUse": "Use when an agent needs to create or modify UI designs in Subframe.",
+ "tasks": [
+  "design ui",
+  "edit ui",
+  "open design canvas"
+ ],
+ "effects": {},
+ "flags": []
+}

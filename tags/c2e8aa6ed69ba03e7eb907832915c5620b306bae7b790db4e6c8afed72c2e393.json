@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c2e8aa6ed69ba03e7eb907832915c5620b306bae7b790db4e6c8afed72c2e393",
+ "domain": [
+  "local-services/directory"
+ ],
+ "product": [
+  "yloservice"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches local service providers such as cleaners, plumbers and electricians listed on YloService by skill and country.",
+ "whenToUse": "Use when a user wants to find a local tradesperson or service provider in a given country.",
+ "tasks": [
+  "search providers by skill",
+  "filter by country"
+ ],
+ "effects": {
+  "4194e95001ff1def43992695218aaf4398f2f645c18f1453373da5132f47d4d0": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "98a45a866cee6b6f420570a513afdf4fa59c0bcfaeafcfd2799ec524d22b1831",
+ "domain": [
+  "software/documentation",
+  "web/llms-txt"
+ ],
+ "product": [
+  "agentwebmap"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds publisher documentation through llms.txt files, returning source links, evidence and check dates.",
+ "whenToUse": "Use when you need to locate official documentation for a product or website via llms.txt.",
+ "tasks": [
+  "find llms.txt documentation",
+  "return source links",
+  "show check dates"
+ ],
+ "effects": {},
+ "flags": []
+}

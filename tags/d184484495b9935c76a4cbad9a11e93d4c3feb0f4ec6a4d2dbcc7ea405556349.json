@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "d184484495b9935c76a4cbad9a11e93d4c3feb0f4ec6a4d2dbcc7ea405556349",
+ "domain": [
+  "software/ai-platform",
+  "product-information"
+ ],
+ "product": [
+  "bike4mind"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only facts about Bike4Mind: model catalog, comparisons, open-core licensing, blog posts, product updates and ecosystem products.",
+ "whenToUse": "Use when someone asks what Bike4Mind is, which models it offers, or how it is licensed.",
+ "tasks": [
+  "get site info",
+  "list models",
+  "get comparison",
+  "get licensing facts",
+  "search blog",
+  "get blog post",
+  "get product updates",
+  "list products"
+ ],
+ "effects": {
+  "62b67699883f3702a325195de29e0340b42a692cf9258125622b66fb66a04cf3": "read",
+  "864b42ed93711a4201236c12a41deed738e2361f922c639b9969a0e86ce18a7b": "read",
+  "382f58c929210accd47f4b1dd5feec0eca79d9777f3abdda3fdb50313feb1f3a": "read",
+  "b8a6ed7466aac3ea3842d14e2b38bc0178d5bc2e20c1b11056cea0eea427d751": "read",
+  "5e5f33524b09cfed38f01b50d92a200f50b1547d69b16087bfb04d7a7251b57e": "read",
+  "2f0e287b3fae8899cfe3751dfd11fdf5ec7b1ddef1698fe320adbcc10d8182fa": "read",
+  "dc3838f90a84f099776ee2fb097b0afba61ead25c02d5e995d28672a40310d38": "read",
+  "a60487bc5fecc7bb0c29b648f55a65890389ecb0e1758900896f8ab0ee6ce473": "read",
+  "b80054c67ed60989af852690a30258e766f0cdd5fa705618521d4a599b827ba3": "read"
+ },
+ "flags": []
+}

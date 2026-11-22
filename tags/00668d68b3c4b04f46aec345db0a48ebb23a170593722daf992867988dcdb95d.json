@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "00668d68b3c4b04f46aec345db0a48ebb23a170593722daf992867988dcdb95d",
+ "domain": [
+  "finance/crypto/stablecoins",
+  "software/blockchain"
+ ],
+ "product": [
+  "circle",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "get-paid"
+ ],
+ "summary": "Skills and MCP docs server for building USDC payment, cross-chain transfer, wallet and smart contract apps with Circle.",
+ "whenToUse": "Use when developing applications that use USDC or Circle's SDKs.",
+ "tasks": [
+  "build usdc payments",
+  "implement cross-chain transfers",
+  "integrate wallets",
+  "write smart contracts",
+  "look up sdk docs"
+ ],
+ "effects": {},
+ "flags": []
+}

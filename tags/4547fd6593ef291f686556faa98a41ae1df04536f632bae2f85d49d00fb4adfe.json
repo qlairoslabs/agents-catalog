@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4547fd6593ef291f686556faa98a41ae1df04536f632bae2f85d49d00fb4adfe",
+ "domain": [
+  "marketing/web-analytics",
+  "software/analytics"
+ ],
+ "product": [
+  "betterlytics"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Lets AI agents query Betterlytics web analytics data such as traffic, funnels, user journeys, errors and uptime.",
+ "whenToUse": "Use when an agent needs website traffic, funnel or uptime figures from a Betterlytics account.",
+ "tasks": [
+  "query website traffic",
+  "analyze funnels",
+  "view user journeys",
+  "check site errors",
+  "check uptime"
+ ],
+ "effects": {},
+ "flags": []
+}

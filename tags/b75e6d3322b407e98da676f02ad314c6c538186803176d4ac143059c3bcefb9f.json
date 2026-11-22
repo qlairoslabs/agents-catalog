@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "b75e6d3322b407e98da676f02ad314c6c538186803176d4ac143059c3bcefb9f",
+ "domain": [
+  "ai/private-ai",
+  "compliance"
+ ],
+ "product": [
+  "csidia",
+  "splidia"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "Search CSIDIA and Splidia articles on private AI, compliance and fibre networks, and match needs to the group's service capabilities.",
+ "whenToUse": "Use when researching private open-weight AI, AI compliance or fibre and data-centre services from CSIDIA.",
+ "tasks": [
+  "search articles",
+  "fetch article text",
+  "list capabilities",
+  "match use case to services"
+ ],
+ "effects": {
+  "78a8ee6659b09f93b3d938609f2ad9c831672f1919571b72223d81022bcd3beb": "read",
+  "c98b69164e133306bad4da6e33ea2c1560f81914c798b4fdfbc0f88fe4f920c0": "read",
+  "c45238a67c84eb6290aacdf0afb566bb21890db81263b262d5e8fc2d37d6ded8": "write",
+  "dad1f3db6301e709c6dea9347218a657d7105f2cef515b994ba29f1b8c9bed6d": "read"
+ },
+ "flags": []
+}

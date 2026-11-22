@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "3bdb25ca4c9ca5c3dff4c6294eb543c82365c03f49118b1be4d6a350bf5d46d0",
+ "domain": [
+  "agriculture/cannabis-nursery",
+  "retail/plants"
+ ],
+ "product": [
+  "prime-cuts-nursery"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Read-only data from Prime Cuts Nursery: live cannabis clone inventory, pricing, California delivery quotes, testing policy and cultivar genetics.",
+ "whenToUse": "Use when checking what clones are available, quoting delivery, or looking up cultivar and breeder information from the nursery.",
+ "tasks": [
+  "get business info",
+  "get testing policy",
+  "get locations",
+  "quote delivery",
+  "search cultivars",
+  "list strains",
+  "get strain record",
+  "list breeders",
+  "read articles",
+  "check availability",
+  "get inventory",
+  "get teen inventory"
+ ],
+ "effects": {
+  "9fdf2ec71a7b913ada1fac4098110680f690dbf9c556a399aaeea15e4f824b9f": "read",
+  "c2755329c5298036dd7cb6247193d14a414d2492c090f7d3c7ab6b2506562b56": "read",
+  "ca07377dd0a2f2a5ee6ffb022d92a6ce394010fa7fffacea7ead9e25a6b2b13a": "read",
+  "c1447da7bbfcd32ef00364b149e4065038b687626e8a84584b47a07cc1e1f33d": "read",
+  "1f1a931b190a3d014bfcbb7a55f174ca7659d6e6b77dc232b25cdf8ba12b261c": "read",
+  "211b0c24fbeb6fecfb94b4f10aad33b8adcd57a604b0f03de79a0c59aa1d0fe3": "read",
+  "53e04ab137ac23acedbb630d639b3d4632712fdbfad1a97dc777a90af64ef680": "read",
+  "97d51093555409d1ced9d470476cf2b58e990aedf236599b5c94efbef9ba90cd": "read",
+  "41e44ff304997449b6d51dee35a609496343b4228e2d071332ebdc5ac7652e1c": "read",
+  "944f13b6c1dbf32c6d756db4b7ffcbe2786cc96dc8955a8ffdd103a8607861e6": "read",
+  "ce8e47f73c1a6ffd637b8cd4fa2e2257899a2b1069676f6cf792d74f05dcf8c0": "read",
+  "4dba4c2fce4b8358622f83f76b9072e66a9bb47ec416f189c79a139a3dc96653": "read",
+  "22a2233e31c535e1371a75bc85b66f5a3721361e044660b0c23aa61325723f16": "read",
+  "d82887f2ffb4c837c858a19754caba1bcbefc14a741c8e1ddc24cd54608f319a": "read"
+ },
+ "flags": []
+}

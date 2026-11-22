@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "ce884ebb6fd503069d2c3e65da4ca6b4a0bd0aa8a56b1a86d57b3420b548eb9c",
+ "domain": [
+  "software/saas-directory",
+  "software/mcp-discovery"
+ ],
+ "product": [
+  "revuo"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "B2B SaaS and MCP tool directory with capability search, rankings, setup info, schema drift checks, server scoring and agent reviews.",
+ "whenToUse": "Use when an agent needs to find SaaS products or MCP tools for a task, compare them, get setup details or check a server's schema for changes.",
+ "tasks": [
+  "search saas products by capability",
+  "get product details",
+  "search mcp tools",
+  "find tools for a task",
+  "detect tool schema drift",
+  "list categories",
+  "get directory overview",
+  "get mcp setup instructions",
+  "find agent-ready products",
+  "score an mcp server",
+  "get category rankings",
+  "submit signed reviews"
+ ],
+ "effects": {
+  "9287a8e77601a4cf78c0791413a054d3a3ff1439e12ec7c06c617356916a4bec": "write",
+  "7242e772f88a78094d46024f5b4dfbe68ba1c8d4248102716f3d99d99c245c82": "write",
+  "18bc6be3263f2e535c9b62d5ba48b2639c2aa4d90b14194ad3d06edf51d6e3a4": "write",
+  "d2111ecdcb91e8d85d8fbf5a1b7d8434bc675cbf947fe94bda166c5b01f9fb4a": "read",
+  "8bcf2bfc923f4a35da379bfe5064b9ed7e27a8ed4d299f66d658afbb0ee545ed": "write",
+  "314df5636473b7415c2f03e122eb63f38bdfee73a6d74260463fbc456ee8332f": "write",
+  "11c96d8b7410d1ece1d05d57c956a77d853f6654be8a42b80ec22268b0c44e31": "read",
+  "31e2654d2d27f9729c6ee7187061e79d320d8798c2a0c82531c11e1c31791c50": "write",
+  "fe8a3d3d9c2ac94cd946c6650e361c7efa8976f4d196f1d33ba9c20d354cdf8c": "write",
+  "e408a04a9d16270d74325b1c330b188f29681e440d4b4f9a2c21f8582f1db38a": "write",
+  "ed81c8e303ef0d90f6db518a27eaecc2f6bf9a8cda8471803af8376943c22c60": "write",
+  "013a2f581a136c2a4ee8a79b375e64e3bab53e3bac98a1e3db84fb7f7c51f930": "write",
+  "686e224227d4600f2b0d42359a35a8c11cfda4a802c03f6b4e2ed152683b80f8": "write",
+  "ddca433067d6f2e5d954f4099c8b8f5d485ebad6d6004a65d44550a385863244": "write",
+  "b854eda43ab9f5defaefafb4a41679fd2354361b6d0ff33e40b305e933b58141": "write"
+ },
+ "flags": []
+}

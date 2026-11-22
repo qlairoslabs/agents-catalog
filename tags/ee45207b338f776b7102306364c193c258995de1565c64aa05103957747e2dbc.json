@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ee45207b338f776b7102306364c193c258995de1565c64aa05103957747e2dbc",
+ "domain": [
+  "hr/interview-assessment",
+  "sales/training"
+ ],
+ "product": [
+  "waterrai"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lists WaterrAI scenarios, fetches AI-run meetings and retrieves rubric-scored analyses.",
+ "whenToUse": "Use when reviewing results of AI-run interview or roleplay meetings in WaterrAI.",
+ "tasks": [
+  "list scenarios",
+  "fetch ai-run meetings",
+  "get rubric-scored analyses"
+ ],
+ "effects": {},
+ "flags": []
+}

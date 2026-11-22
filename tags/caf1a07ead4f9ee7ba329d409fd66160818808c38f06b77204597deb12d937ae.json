@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "caf1a07ead4f9ee7ba329d409fd66160818808c38f06b77204597deb12d937ae",
+ "domain": [
+  "data/pipelines",
+  "software/testing"
+ ],
+ "product": [
+  "amazon-mwaa",
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Triggers and monitors MWAA workflow runs end to end, delegating failures to debugging and redeploying fixes before retesting.",
+ "whenToUse": "Use when a deployed MWAA DAG or serverless workflow needs a test run.",
+ "tasks": [
+  "verify deployment readiness",
+  "trigger dag runs",
+  "start serverless workflow runs",
+  "poll to completion",
+  "hand off failures for diagnosis",
+  "retest after fixes"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,93 @@
+{
+ "classifier": 2,
+ "contentHash": "4fd20d5e4ee8ebf60ee10e92cbd63c73ec6956d559c4a253ef3c355aebe4a01c",
+ "domain": [
+  "research/knowledge-archive",
+  "software/developer-utilities",
+  "finance/crypto"
+ ],
+ "product": [
+  "ishob",
+  "x402",
+  "cloudflare",
+  "sec-edgar",
+  "kyberswap",
+  "goplus",
+  "sourcify",
+  "aave"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Pay-per-call toolbox for agents: licensed research archive and spec search, web extraction, domain and site checks, crypto token and wallet analysis, SEC company data, barcodes and documents.",
+ "whenToUse": "Use when an agent needs licensed research text, live web page extraction or audits, on-chain token and wallet vetting, or SEC fundamentals, and can pay per call via x402.",
+ "tasks": [
+  "search research archive",
+  "fetch full text and references",
+  "extract web pages and tables",
+  "screenshot and audit sites",
+  "domain intelligence",
+  "audit tokens and wallets",
+  "quote DEX swaps",
+  "simulate transactions",
+  "SEC company snapshots",
+  "generate and read barcodes",
+  "render markdown to PDF/DOCX",
+  "schedule webhook alarm"
+ ],
+ "effects": {
+  "b0eebb6d525415d5383dae84f3b3d95e2c09d9395c16c3f0f708a0b328041709": "read",
+  "5ed58325975eb6737ac6495cbc0cd274d016c2503e292c7cdafdb3532c9822a0": "read",
+  "dcfa1a57b7ac8db89340e6aadb241c2f1567fca93f11cd48e1b63103933315f9": "read",
+  "e4a6f6e5920f4cd4966295d664941365ed31ef040a6838c0c03b36f8a78a42fe": "read",
+  "2e45156d6f20c2012ac3f4541a3f05a838d7e6dd3c9e5045bd662c17f962b0f0": "read",
+  "f1107b0173b594d3f52990d8330032505c6973cded7aa17f86584afa2e230bb5": "read",
+  "ef6e7007f51603b0890b72e19bf1cb15bd8ca3acc41219d60457d675e3adf418": "read",
+  "f2d7237c65a0cc8199d4c48836c5d10449f3b4e519db58d5f3f98f4264268b69": "read",
+  "5872281c395ed95f37b7a815b968d4cbbc7893cff8335d60084df4690f4e7a26": "read",
+  "dc61a4921dbdda26e01efb1f93915b922261d3522787ee053b284ac9503eee39": "read",
+  "744cb6b580c10c2fde9f123a0fa68ff6397eb61e8d2da82e0402292eed7a90c1": "read",
+  "2b99fc49e875eb391de7ba8ecd5d705ed60194d1dfd5f502478e6077213a21ec": "read",
+  "e992c0d1cc95aee2295d43eddfd1eda82b237fe1be02bc9959311402c68a9b6a": "read",
+  "79a285e905b0a386218d616eb3273546cf9db077f42faa5947dcf00440edab58": "read",
+  "54fb89addba510ebdfc0f715f0afd4c61588afe874606dab99bd9aaf75d9fbcb": "read",
+  "53ed472be74c416a84c3fbd71d0ce962f77bba468b9209090b4e0ee4abc47e2b": "read",
+  "1d787dfbc8dbf9d7a5149511485646a22d2e4163f5d86ebe533864b81ff4698f": "read",
+  "847ad775b786bc2598189a16445b7380243c43e6df9db95ca9d42967926b9d78": "read",
+  "0ab385260fe5aaa5111f1436fe193b797d54154dfc54e9c49043b2d6065193eb": "read",
+  "96f0362512ee9674155ed25de58bf0f0f3b7e4305cabdabed21612d8120f673f": "write",
+  "bf2ceeef994a9992560c0cd51546357e369484066b0042b3b22daac45bbcffdd": "read",
+  "ce57870f8d5b7eaea61be1b9001a845a98871cf1ebb57494e71e77291182c2d7": "read",
+  "f47e3d48506daccce61ad93b9d98a9b26a21599395f42d11569de24370209431": "read",
+  "6cbec48ad6a66e598b03f4f39fe5773af34ebf812d913b6819b4dc77145d9069": "read",
+  "fdcbeeffc8fe11823af66908a948e858f6270dd4cb6c8a64acc9e0a322f7cc07": "read",
+  "86dc4df6f7a345ac7537f0ef50f7cded3bee781d533e76fd866f1642303e73b8": "read",
+  "ac3e63504cd9aeff67974cf3c2c813881fe9840ac4286e891f929108fdc32b56": "read",
+  "831a036a322a07fb62112724f87f1726014261907ae042b0d35b62a7d14721e6": "read",
+  "750e93cfe4098ee08bcffc26bf34a78b32c620ffcaff627f28e1de839668caf4": "read",
+  "299955fc71389ddd4c92aed1acb94e59fdb086baaf6d124049d2a19c96cf1fd4": "read",
+  "8d76223edc5e5f708be63de32a29846b42ed59629631dc3e13f7aa9b73e15127": "read",
+  "ca8843ebb9231e15eb77683ce8224b97045846822b8c27bcbd95666cfa9efe27": "read",
+  "be8592c7970fc1b8af7e1426fa570f25ed8280404e2003c30b456573dd21d195": "read",
+  "46c133a1f22be881cad01611aca6941a735f9b1e8fccab2247936693b9f6d89f": "read",
+  "2119e8e3a0401ed63c428778a152280999aabe830f64fb305a07728c8268cdd5": "read",
+  "12427e32cfec57d0d0a9b27236962c48c953308293bf5f5a6737504df03a5d03": "read",
+  "59f22e5fc5044bf3260d8a5976fd610483f4981616118cfa8d7a477c1ec98a1a": "read",
+  "01e1fee5968d98101c2f72d10933e5c3dab447caf811e5256c2e39bedb872eff": "write",
+  "03b54ae4960c246ebbbfeb1f5b1ca805fdd833bb6ec7b1cdf71ba71b94029364": "read",
+  "b072bc546b561aacb204f0b21984b253edb0ededfc3b9c0f35ee78a526f04574": "read",
+  "c7a50262e2685ac265ab9ff5d3a494980ee73e38a794836b156663ceaf8b5703": "read",
+  "87b1d3bf6a55f9523cbbcdbfc7ea244ae1ccec19215ae66530dcd17a05a0a706": "read",
+  "f6c603b1d11787fc09b4958f72ce1be558ca79bd851638b8914ad575b2e422fd": "read"
+ },
+ "flags": [
+  "most tools are paid per call via x402 micropayments",
+  "swap_route can return an unsigned ready-to-sign transaction"
+ ]
+}

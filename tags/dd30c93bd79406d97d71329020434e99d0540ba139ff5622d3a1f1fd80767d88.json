@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "dd30c93bd79406d97d71329020434e99d0540ba139ff5622d3a1f1fd80767d88",
+ "domain": [
+  "software/cloud/kubernetes"
+ ],
+ "product": [
+  "google-kubernetes-engine",
+  "kubernetes",
+  "google-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Google's read-only connector for viewing GKE clusters and Kubernetes resources.",
+ "whenToUse": "Use when an agent needs to look up the state of GKE clusters or Kubernetes workloads.",
+ "tasks": [
+  "list gke clusters",
+  "read kubernetes resources"
+ ],
+ "effects": {},
+ "flags": []
+}

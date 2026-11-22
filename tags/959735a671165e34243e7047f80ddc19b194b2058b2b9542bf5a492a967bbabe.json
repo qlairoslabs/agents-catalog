@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "959735a671165e34243e7047f80ddc19b194b2058b2b9542bf5a492a967bbabe",
+ "domain": [
+  "finance/investing",
+  "finance/financial-data"
+ ],
+ "product": [
+  "sec-edgar",
+  "x402"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Company financials from SEC EDGAR with benchmarks, stock screening and value-investing scans; paid by x402 or API key.",
+ "whenToUse": "Use when a user wants fundamental financial data or screens on US public companies.",
+ "tasks": [
+  "get company financials",
+  "benchmark companies",
+  "screen stocks",
+  "run value scans"
+ ],
+ "effects": {},
+ "flags": []
+}

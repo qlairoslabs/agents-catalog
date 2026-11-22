@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "2f046dd96c53d3e96357c6057994a66d36286d6d84ebc01dc175620884d6be18",
+ "domain": [
+  "religion/bible",
+  "reference/text"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Look up Bible translations, books, chapters and verses, and search scripture by keyword.",
+ "whenToUse": "Use when you need Bible text, verse lookups or scripture search.",
+ "tasks": [
+  "list translations",
+  "list books",
+  "read chapter",
+  "read verse",
+  "search verses"
+ ],
+ "effects": {
+  "c9c01a8739cc7c476c49f1c2a5cc312249c3a1d39acbce32a1e61db56b015cfd": "read",
+  "759dd84073e9aed10a199473df29ba24520db835cc57d6c5f5f920b857e05269": "read",
+  "23fd0a0150fc33f7c587889c4692ce506e2952a0e5a3791278e31b2c82b4ba4c": "read",
+  "ae622413208ea91320cd54c909a18088d6a9dfa2aa8da13f46722805352f2f4a": "read",
+  "425ecc958ffb63bc20621f6b2f35dae7c3a71ccc36a672a47d2398aab6640137": "read"
+ },
+ "flags": []
+}

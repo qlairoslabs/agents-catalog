@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "8a6d9f42d28ccd05c76450535d9ce0a1ce6b5aa8427de4e16ad9eb503d4f27af",
+ "domain": [
+  "software/code-understanding"
+ ],
+ "product": [
+  "github",
+  "mermaid",
+  "gitdiagram"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides architecture explanations, Mermaid diagrams and explainer videos for public GitHub repositories.",
+ "whenToUse": "Use when you need an overview of how an unfamiliar public GitHub repository is structured.",
+ "tasks": [
+  "get repository diagram",
+  "find existing diagrams",
+  "get explainer video",
+  "explain components"
+ ],
+ "effects": {
+  "1ae40265dd94230bec1211bc373eae7850874b0bb67b7dcbb8eaa173d7f1c354": "write",
+  "7eced82af172017de4fd7bab0ab5508392e3bc3f2bbf45221a3c5811dae67abb": "read",
+  "2c0c64b043d7522878426718eb409f2ac8e42f105136eb9c70785ffcd2ea5b15": "read"
+ },
+ "flags": []
+}

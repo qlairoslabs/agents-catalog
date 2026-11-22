@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "552e5b586da5ee7facc30d7407c2e8e4898dcfd0b9807c5706c0386aa6cb1e7e",
+ "domain": [
+  "software/documentation"
+ ],
+ "product": [
+  "openplanr"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads the OpenPlanr documentation and course pages as Markdown for coding agents.",
+ "whenToUse": "Use when you need to look up OpenPlanr usage, skills or getting-started guidance.",
+ "tasks": [
+  "search docs",
+  "fetch docs page as Markdown",
+  "fetch course page"
+ ],
+ "effects": {
+  "06ce19d419f90111609e96c7b03583dc6df273524c7ac21bf7f5ec409b60a816": "read",
+  "697d225bc8c1672d917e553723c5d2c47f5b18524970ad69655580cec3e06365": "read"
+ },
+ "flags": []
+}

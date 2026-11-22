@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a76746e85ee67eb9a6a1c1dbd43c232e651157b289f7eb12a8ec12c73300befb",
+ "domain": [
+  "software/ai/agent-frameworks"
+ ],
+ "product": [
+  "atomic-agents"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps build an Atomic Agents BaseTool subclass with schemas, config, run methods and env-based secrets.",
+ "whenToUse": "Use when a user wants to add a tool or wrap an API as a tool in an Atomic Agents project.",
+ "tasks": [
+  "create basetool subclass",
+  "define tool schemas",
+  "configure basetoolconfig",
+  "implement run and run_async",
+  "load secrets from env",
+  "return typed failures"
+ ],
+ "effects": {},
+ "flags": []
+}

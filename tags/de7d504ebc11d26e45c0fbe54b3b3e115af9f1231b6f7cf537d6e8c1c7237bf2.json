@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "de7d504ebc11d26e45c0fbe54b3b3e115af9f1231b6f7cf537d6e8c1c7237bf2",
+ "domain": [
+  "retail/fishing-tackle",
+  "commerce/webshop"
+ ],
+ "product": [
+  "xfish"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches the Hungarian XFish webshop catalogue of fishing, toy, pet and DIY products by category, brand and price.",
+ "whenToUse": "Use when finding products or prices in the XFish.hu webshop.",
+ "tasks": [
+  "search products",
+  "list categories",
+  "get product details",
+  "list manufacturers"
+ ],
+ "effects": {
+  "be17886240edf27cc861493cb0aeb62155517e31732f808cf2af6ca4d450a111": "read",
+  "4b89ff04ed5230192611b006f65e68ad1f8b1276675b29d1f729f152e81c62d6": "read",
+  "8f62bab55baed1c8a018a933381119926bd1f5c58da3080d4655804e069af965": "read",
+  "a68d2ca1bcfe7616ead061145c857c3152b5c6b864b924e569bb39c645ec8c64": "read"
+ },
+ "flags": []
+}

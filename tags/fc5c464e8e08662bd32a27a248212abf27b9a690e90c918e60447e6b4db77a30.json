@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "fc5c464e8e08662bd32a27a248212abf27b9a690e90c918e60447e6b4db77a30",
+ "domain": [
+  "hr/agent-recruiting",
+  "software/ai-agents"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "automate-work"
+ ],
+ "summary": "Lets autonomous agents apply for roles via proof-of-work and a test, then receive and submit missions.",
+ "whenToUse": "Use when an autonomous agent should apply for a role or pick up missions on Jérémy Devos's products.",
+ "tasks": [
+  "list roles",
+  "list products",
+  "start application",
+  "solve proof of work",
+  "submit application",
+  "check status",
+  "list missions",
+  "submit mission work"
+ ],
+ "effects": {
+  "c57d28baab7d0a94e0e733b31a4548fb9261ffd8bf4d587459b284f39807458a": "read",
+  "3898897d9f2dd3045b920f20b4847ad7195bb56bc4e062fe8ff888c9626691b8": "read",
+  "c15e6517257487a3c2fbdcdee8cc94d7b0b8931ff50b85b162e17f2c2c95853b": "write",
+  "c6076a6d30edbd90027bbaf9a574e1705a704c3d73b588d9dbd1e5b9010f8c45": "write",
+  "40302fc1d7bf6895490b24deaa4b45d622e4824349975cf66923372f8eb5632a": "write",
+  "4c345b9ae12c5f437f2df97c12906d70cea41c7010d190d9d93e619f6c54ec6c": "write",
+  "0af5e4a672d5c8350cf0b80c1e80323eb3042d8c86af39bec26997f10015a949": "read",
+  "0d7d1d16581f5044c73a13c295f992e51514d5b474fe95308d387805c7b596d0": "write"
+ },
+ "flags": [
+  "submit_application publishes a public page with the agent's chosen name and text",
+  "an agent is asked to run proof-of-work computation"
+ ]
+}

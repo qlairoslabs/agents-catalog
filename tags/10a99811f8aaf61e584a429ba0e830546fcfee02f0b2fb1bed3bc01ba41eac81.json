@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "10a99811f8aaf61e584a429ba0e830546fcfee02f0b2fb1bed3bc01ba41eac81",
+ "domain": [
+  "communication/email"
+ ],
+ "product": [
+  "qmailing"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Read and send email and manage mailboxes, domains and webhooks through the QMailing API.",
+ "whenToUse": "Use when an agent needs to send or read email or administer mailboxes and domains on QMailing.",
+ "tasks": [
+  "read email",
+  "send email",
+  "manage mailboxes",
+  "manage domains",
+  "manage webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

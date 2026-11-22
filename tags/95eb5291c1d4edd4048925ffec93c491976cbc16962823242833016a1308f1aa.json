@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "95eb5291c1d4edd4048925ffec93c491976cbc16962823242833016a1308f1aa",
+ "domain": [
+  "productivity/office-suite",
+  "communication/email"
+ ],
+ "product": [
+  "gmail",
+  "google-drive",
+  "google-calendar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Permissioned access to Gmail, Drive and Calendar through the user's own Google account.",
+ "whenToUse": "Use when an agent needs to work with the user's Gmail, Drive files or Google Calendar.",
+ "tasks": [
+  "access email",
+  "access drive files",
+  "access calendar"
+ ],
+ "effects": {},
+ "flags": []
+}

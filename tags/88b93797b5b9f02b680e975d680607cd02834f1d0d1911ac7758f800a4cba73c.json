@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "88b93797b5b9f02b680e975d680607cd02834f1d0d1911ac7758f800a4cba73c",
+ "domain": [
+  "business/applicant-screening",
+  "compliance/kyc"
+ ],
+ "product": [
+  "carousel"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "hire-and-manage"
+ ],
+ "summary": "Applicant onboarding via a single link that collects ID, credit, bank, income, court and police record checks.",
+ "whenToUse": "Use when screening an applicant, such as a tenant or borrower, for identity, credit, income and background.",
+ "tasks": [
+  "send onboarding link",
+  "verify identity",
+  "check credit",
+  "verify bank and income",
+  "check court records",
+  "check police records"
+ ],
+ "effects": {},
+ "flags": []
+}

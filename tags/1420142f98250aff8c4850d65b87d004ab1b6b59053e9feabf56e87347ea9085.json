@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1420142f98250aff8c4850d65b87d004ab1b6b59053e9feabf56e87347ea9085",
+ "domain": [
+  "software/cybersecurity/penetration-testing",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-security-agent"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Runs an AWS Security Agent penetration test against a live web app after registering and verifying the target domain, returning runtime findings.",
+ "whenToUse": "Use when the user wants to pentest their own web application or check pentest status and findings.",
+ "tasks": [
+  "register target domain",
+  "verify domain ownership",
+  "run penetration test",
+  "check pentest status",
+  "retrieve findings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "78d91ce736c226568021c8cf5650020f7eb4f29c3794e594e12b087e228eb99a",
+ "domain": [
+  "hr/job-search",
+  "careers/resumes"
+ ],
+ "product": [
+  "remotestack"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches remote job listings, matches them to a resume and generates tailored resumes and cover letters.",
+ "whenToUse": "Use when an agent helps someone find remote jobs or tailor a resume and cover letter to a listing.",
+ "tasks": [
+  "search remote jobs",
+  "match resume to jobs",
+  "tailor resume",
+  "write cover letter"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "fc73accedd0f1c304da9168f7e0845a252ef6e0d2cf8aedc29fd9a84fd57783a",
+ "domain": [
+  "crypto/defi",
+  "finance/yield-analysis"
+ ],
+ "product": [
+  "aave-v3",
+  "compound-v3",
+  "uniswap-v3",
+  "ethereum",
+  "arbitrum"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Empirical DeFi lending returns, rankings, market snapshots, gas timing, viability checks and net position estimates for Aave, Compound and Uniswap pools.",
+ "whenToUse": "Use when evaluating where and when to deploy capital in DeFi lending or swaps before acting.",
+ "tasks": [
+  "query historical returns",
+  "rank lending returns",
+  "get market snapshot",
+  "verify market claims",
+  "assess opportunity",
+  "time gas",
+  "check entry viability",
+  "estimate net position",
+  "check pool viability"
+ ],
+ "effects": {
+  "d6938fedbe926cd7391e135fd1d89d27c158e02ad177a8f21bc809048c95b278": "write",
+  "e72979a261cb7d582ac7d3d96e67203dac40685262b69b1539972729d9a0a3a5": "read",
+  "fac39f2e459b1e75fd4b51b64eccd6a75d7999dda24916eaac3cc13ceb83866e": "write",
+  "0f1c42c54fd4f743266dea09c6bc9388d8b868964d4b0d37bbb05882927de25b": "write",
+  "49b8d4ef275be6c1a6ba26771a088df5334f9312150a73ffeaddc89034ac31e3": "write",
+  "5ce0e341c216816e40a9182d0c9eaf9b213c4d99adfac96c6a145d8831faf1b3": "read",
+  "6a48acd7a618447091a6f948faf34bfd608c27108b45acd5f09f9050d82725e4": "write",
+  "3d52c19e62b2b168a141973e36bcb06430a1ba1a4f8906ada89a3dd38fe58371": "write",
+  "f798f6f5e25d6dfa966caa40db5bdbb000376388531d7ba12320dc4d7110db59": "write"
+ },
+ "flags": []
+}

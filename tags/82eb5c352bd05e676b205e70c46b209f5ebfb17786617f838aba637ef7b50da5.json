@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "82eb5c352bd05e676b205e70c46b209f5ebfb17786617f838aba637ef7b50da5",
+ "domain": [
+  "utilities/date-calculation"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Calculates days between dates, adds or subtracts time from dates, and lists public holidays by country.",
+ "whenToUse": "Use when a task needs exact date arithmetic or public holiday lookups.",
+ "tasks": [
+  "count days between dates",
+  "add or subtract dates",
+  "look up public holidays"
+ ],
+ "effects": {},
+ "flags": []
+}

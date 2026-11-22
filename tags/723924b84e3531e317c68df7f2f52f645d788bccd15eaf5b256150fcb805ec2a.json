@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "723924b84e3531e317c68df7f2f52f645d788bccd15eaf5b256150fcb805ec2a",
+ "domain": [
+  "software/monitoring"
+ ],
+ "product": [
+  "uptybots"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates and manages uptime checks for HTTP, API, SSL, ping, port and domain targets in UptyBots.",
+ "whenToUse": "Use when an agent needs to configure or review uptime, SSL or domain expiry checks.",
+ "tasks": [
+  "create http checks",
+  "create ssl checks",
+  "create ping and port checks",
+  "monitor domain expiry",
+  "manage checks"
+ ],
+ "effects": {},
+ "flags": []
+}

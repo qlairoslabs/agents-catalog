@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "ddaaaa1ae71c981486c6cf4572f0e7179aa255f8748bfc80cdb461d4a0806742",
+ "domain": [
+  "research/data-extraction",
+  "documents"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Uses an LLM to pull structured data points out of research papers and other documents.",
+ "whenToUse": "Use when an agent needs to extract specific structured fields from a set of papers or documents.",
+ "tasks": [
+  "extract structured data from papers",
+  "extract data from documents"
+ ],
+ "effects": {},
+ "flags": []
+}

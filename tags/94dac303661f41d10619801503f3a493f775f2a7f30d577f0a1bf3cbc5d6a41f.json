@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "94dac303661f41d10619801503f3a493f775f2a7f30d577f0a1bf3cbc5d6a41f",
+ "domain": [
+  "nonprofit/car-donation",
+  "vehicles"
+ ],
+ "product": [
+  "cars-helping-kids"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Guidance on donating a vehicle to Cars Helping Kids, with readiness checks, tax document info, charity verification and donor-authorized submission.",
+ "whenToUse": "Use when a user wants to learn about or start a car donation to this charity.",
+ "tasks": [
+  "search donation info",
+  "fetch answers",
+  "get donation topic info",
+  "check vehicle readiness",
+  "get tax document checkpoints",
+  "verify legal recipient",
+  "submit donation request"
+ ],
+ "effects": {
+  "f70e61dd1756d2fc8079c8d0f428e696abc3522ee71d149a9ce0d29ee9d65d36": "read",
+  "d9a2ae7a0fa9856d7816c6cb814259e719228e3386d57b551970d7078f6ecd94": "read",
+  "a80e1918ee40fac48f1abc1a4507fa907338538d83c22599e652458ee40fbdef": "read",
+  "bcb03cebdbb2d64484e1da48ebca51978ebef0837f15a224e4743cd93bfd7e7c": "read",
+  "0d140b206b200c20e79ddc9e4ae7316e3bcebae8d25a3a2cea43188f3a34fec9": "read",
+  "a2718f1811aa8b0681bedba6e596497b0c714e17a6d62017b7a0fd008d71365d": "read",
+  "5c2e7de69a92f5c96c0c539c71599f36976f13c99e541f13061a2416d2a894eb": "write"
+ },
+ "flags": []
+}

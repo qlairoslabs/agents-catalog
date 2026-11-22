@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0f5ba119639fa7790013567e41961ccc9b7e9a452f488df61d25918681bf7045",
+ "domain": [
+  "travel/vacation-rental"
+ ],
+ "product": [
+  "lilla-alva"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Checks availability, quotes prices and submits booking requests for the Lilla Älva holiday cabin in Värmland, Sweden.",
+ "whenToUse": "Use when a guest wants to check dates, price a stay or request a booking at Lilla Älva.",
+ "tasks": [
+  "get property info",
+  "check availability",
+  "get price quote",
+  "submit booking request"
+ ],
+ "effects": {
+  "b257fe5625785ae3b9adcb17befb6fb38cb568d01e6ffa40f4d24ff74217025e": "read",
+  "284dc4884b184f327b7bb22fbc328a0cbdcbf51cfb952c7076c581ad3ab672d1": "read",
+  "6ed2a1d750c050fe2e94dd747df3cceb38409b62950dba219cde4476c62e6dec": "read",
+  "3a88f8a3cf88d7c5a480b567d78c5695c054942fe3144f307bda4848459098d5": "write"
+ },
+ "flags": []
+}

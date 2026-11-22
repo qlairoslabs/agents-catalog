@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c46c2e3df29988720b5423b94ba199f7ba7a01b5ed53e43e4b6e2259a28e7920",
+ "domain": [
+  "government/open-data",
+  "economics/statistics"
+ ],
+ "product": [
+  "indec",
+  "bcra"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and reads Argentina's official public datasets from INDEC, BCRA and other government portals, with cited answers.",
+ "whenToUse": "Use when a question needs official Argentine statistics or government data with sources.",
+ "tasks": [
+  "search argentine public datasets",
+  "read data tables",
+  "answer questions with citations"
+ ],
+ "effects": {},
+ "flags": []
+}

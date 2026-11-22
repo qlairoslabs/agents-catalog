@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "0e419f52049882d2140666370f16358a43d70d0f42820b73dab360d37d0bd7c9",
+ "domain": [
+  "software/documentation/apple",
+  "software/mobile-development"
+ ],
+ "product": [
+  "apple-developer",
+  "swift"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads Apple developer documentation, Human Interface Guidelines and WWDC transcripts as Markdown.",
+ "whenToUse": "Use when building for Apple platforms and needing official API docs, design guidelines or WWDC session content.",
+ "tasks": [
+  "search apple documentation",
+  "fetch documentation pages",
+  "read human interface guidelines",
+  "fetch swift-docc pages",
+  "fetch wwdc video transcripts"
+ ],
+ "effects": {
+  "8bbba8533f2e3dbfb8b36ab5c7f1db1db28e2699f60a6b45bd705f9c3b422269": "read",
+  "8f72b57bf681bcbd73b97d3ef4e4ea9002c356d645fb67db2d25d01bfc543fe0": "read",
+  "dadcb150a7faec0bf2bf4a68ffc3085797091f2cc755526f15ccf14c2dec5aab": "read",
+  "315db9561d56c801ee2ffa56e05f04dc2cf1737cc26f48720b15101e7155fd5d": "read"
+ },
+ "flags": []
+}

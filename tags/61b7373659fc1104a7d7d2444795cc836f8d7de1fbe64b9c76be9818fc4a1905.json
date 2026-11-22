@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "61b7373659fc1104a7d7d2444795cc836f8d7de1fbe64b9c76be9818fc4a1905",
+ "domain": [
+  "finance/testing",
+  "software/test-data"
+ ],
+ "product": [
+  "iban"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates structurally valid random test IBANs for 91 countries and validates IBANs.",
+ "whenToUse": "Use when you need fake IBANs for testing or want to check an IBAN's checksum and format.",
+ "tasks": [
+  "list countries",
+  "generate test IBANs",
+  "validate IBAN"
+ ],
+ "effects": {
+  "9b22fcabe9c14558d944df0e0eae306f366baf0b05dafd08b6b9a2e5620f5a4d": "read",
+  "8c583f7644ae95146e27ec50c0debe19a15f6b548221cf0a4f57ec2cda86ad12": "read",
+  "f99964d692623c05463d8806d072de1d610a8638d1d04e71815eba457c8a495a": "read"
+ },
+ "flags": []
+}

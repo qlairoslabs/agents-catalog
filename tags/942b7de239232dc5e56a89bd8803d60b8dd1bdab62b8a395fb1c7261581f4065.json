@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "942b7de239232dc5e56a89bd8803d60b8dd1bdab62b8a395fb1c7261581f4065",
+ "domain": [
+  "events/ticketing",
+  "community/membership"
+ ],
+ "product": [
+  "happenings"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Connector to run Happenings pages via its CLI, managing events, tickets, sales and members.",
+ "whenToUse": "Use when an agent needs to manage events, tickets, sales or members on Happenings pages.",
+ "tasks": [
+  "manage events",
+  "manage tickets",
+  "view sales",
+  "manage members"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b22449394aed5527ebe7718d463fe55bac1f74df81c32ec57670a517a7f4cb35",
+ "domain": [
+  "software/website-builder",
+  "software/development"
+ ],
+ "product": [
+  "wix"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Skills and MCP server for building, managing and deploying Wix sites and apps with the Wix CLI and Design System.",
+ "whenToUse": "Use when developing Wix apps or extensions or managing a Wix site.",
+ "tasks": [
+  "build dashboard extensions",
+  "create backend apis",
+  "build site widgets",
+  "create service plugins",
+  "manage wix sites",
+  "deploy apps"
+ ],
+ "effects": {},
+ "flags": []
+}

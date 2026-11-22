@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "38e8ecd96e4fb67546787e50a2e41b0b4566d87d29a965c44b897ebc33d63208",
+ "domain": [
+  "research/humanities",
+  "knowledge/corpus"
+ ],
+ "product": [
+  "vela"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Vela's corpus about human experience, returning cited passages, coordinates and reading paths.",
+ "whenToUse": "Use when the user wants cited passages or reading paths from Vela's corpus.",
+ "tasks": [
+  "search corpus",
+  "get cited passages",
+  "get reading path"
+ ],
+ "effects": {},
+ "flags": []
+}

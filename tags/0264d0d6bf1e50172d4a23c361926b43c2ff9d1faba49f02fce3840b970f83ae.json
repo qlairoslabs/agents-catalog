@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0264d0d6bf1e50172d4a23c361926b43c2ff9d1faba49f02fce3840b970f83ae",
+ "domain": [
+  "productivity/meetings/recording",
+  "productivity/meetings/transcription"
+ ],
+ "product": [
+  "myghosts"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Sends bots to join meetings for the user and returns recordings, transcripts and summaries.",
+ "whenToUse": "Use when a user wants a meeting attended and recorded on their behalf or needs its transcript or summary.",
+ "tasks": [
+  "send bot to meeting",
+  "get meeting recordings",
+  "get transcripts",
+  "get meeting summaries"
+ ],
+ "effects": {},
+ "flags": []
+}

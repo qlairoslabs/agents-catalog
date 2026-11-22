@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "c5db7a5441cf1b4c1091f9cd77dcef6b3a93814a7018bcf13cb61171c9ca1f08",
+ "domain": [
+  "ai/model-lifecycle",
+  "software/api-maintenance"
+ ],
+ "product": [
+  "openai",
+  "anthropic",
+  "google-gemini",
+  "google-vertex",
+  "azure-openai",
+  "aws-bedrock",
+  "mistral",
+  "cohere"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Tracks AI model deprecation and shutdown dates and replacements across eight providers, with a change feed and webhook or email alerts.",
+ "whenToUse": "Use when checking whether an AI model is being retired, what replaces it, or setting up alerts for upcoming shutdowns.",
+ "tasks": [
+  "get shutdown date",
+  "list upcoming shutdowns",
+  "search models",
+  "list provider models",
+  "get changes since date",
+  "subscribe to alerts",
+  "unsubscribe",
+  "get coverage"
+ ],
+ "effects": {
+  "fd16b199cd198eecec007830d0757240024f7dcf02037e06b54d02723e7e0a1a": "read",
+  "f7eb82caff75b95f1409f52eddc3766095a47b8f1b66dd8dd7570d0339653dc0": "read",
+  "85a77875d0b1fac0a25f043a914ad78f064d06c7e4b3e5e5f96b26b58b373205": "read",
+  "240f78e7e93b7cac76c1856fb3f3bd89ba58c21cc2ef7d4f95bb81b4bdf54944": "read",
+  "207d53589b3fda82dc5a8e2482dc1f991d709d476bbe49fd2e837d3168e7b6ba": "read",
+  "6c14fa6826f22d254e6a45c701817511aec3f95e78006275ccdee9d81d080c59": "write",
+  "4a86a70328bc00e218e9110207712a8c2f467be2857d5e46485c7b1ebab79c8a": "write",
+  "e23f03e7e132e0720c3fa2400f18794d3bed4d93b3c019513570a0ae52e9c59b": "read"
+ },
+ "flags": []
+}

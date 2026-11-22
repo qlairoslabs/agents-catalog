@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "1d23e5f0ef5bfbb2c89de3a6d67a8790dc194e7da98780f84b4d11a73f9d84bd",
+ "domain": [
+  "hr/people-analytics",
+  "marketing/content-catalog"
+ ],
+ "product": [
+  "peopleanalyst",
+  "bicycle-llc"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "hire-and-manage"
+ ],
+ "summary": "Free feeds of people-analytics answers, tools, data-story tracks, scene templates, brandscripts and evidence, plus a segmentation and data-ask planner.",
+ "whenToUse": "Use when you need people-analytics guidance, story templates or claim evidence from PeopleAnalyst, or want to segment supplied behavioral data.",
+ "tasks": [
+  "list feeds",
+  "get authored answers",
+  "get product descriptions",
+  "get marketing registry",
+  "get brandscripts",
+  "get story tracks",
+  "get scene templates",
+  "get canonical forms",
+  "check claim discourse volume",
+  "export library ids",
+  "run segmentation",
+  "plan next data ask"
+ ],
+ "effects": {
+  "d51bd1652b34f64663b16c015071e130a8ff1241076754445bc1a29c0994fef3": "read",
+  "ed27adec23caa584b05d4c12078cfb9391acd5328c3703db7701e495f55f9e50": "read",
+  "11dbe0cc3ca59a1e8416f006170ceaed92d06ce7fa4cef3da190f83a923c78cf": "read",
+  "d486a50acdbfc79528ec6a6cb12127d33be2f0958ad28cdce8e2ffca36f0bc2c": "read",
+  "d5003828f40233605d1309f52508723fe6455a1a65d9efaaf393435f2924846a": "read",
+  "df80202088dbe8c2bcaf141898964b3faa27eb41485f63237639d024068c24c1": "read",
+  "2e3f243c080f67441d503a0041bc7ad6053c18c844082b8452d3dea3ee1d4eff": "read",
+  "b514a4c1d5e9e3b9b6118c04c47763a2e60d0a67e9f56e6bf36034331e6edb33": "read",
+  "d2c65f6bb33d2657d41b900261a8877eef0091dcb278949717d9cbb7aedd58ac": "read",
+  "ad495bc085e399251ee6d5f251b0f2df407d9df31939c1b8a8732df9df164744": "read",
+  "e75860fb4ec02061d260b9e01ba451cdd5acb03809ff63cc62b8d1572343a918": "read",
+  "a92814151d8e2d6649b033ee5a20a8b75414f5a5b19f15fda92b9411b1cb599c": "read",
+  "82f464950c30e6652c1778e710331fcaca5f4df91576f72ac85a2e8f1a3485dd": "write",
+  "3fcd88f3b980f5a221d620886e99cffe10cf831059508a184db90cfe5b927bee": "read",
+  "683e15953bd0a6604799f9ac5cb5a2250e6107d18c38bdb631f9fd6da655c325": "read",
+  "80880619dafec346b319b115164f286253f30c38951c1b27722b2e72544ace4f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5e80f8b20fe5cb20109261bc64f435ce8acbc266992206d1bc756bc69a69e4e5",
+ "domain": [
+  "finance/market-data",
+  "finance/stocks"
+ ],
+ "product": [
+  "stashgamma"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Daily end-of-day OHLCV data for US-listed stocks with up to 15 years of history, via a free API key.",
+ "whenToUse": "Use when an agent needs historical daily price and volume data for US stocks.",
+ "tasks": [
+  "get daily ohlcv",
+  "fetch price history"
+ ],
+ "effects": {},
+ "flags": []
+}

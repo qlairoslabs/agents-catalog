@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7bc25b07fdb6af70701f8bf9fa135cef0200a8fc86b061b5f2908f486f00ae02",
+ "domain": [
+  "web/crawling",
+  "research/fact-checking"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Web crawler for agents that respects robots.txt, fetches each page once, and finds and verifies quotes.",
+ "whenToUse": "Use when an agent must fetch web pages responsibly or check that a quote really appears on a page.",
+ "tasks": [
+  "crawl web pages",
+  "respect robots.txt",
+  "deduplicate page fetches",
+  "find quotes in pages",
+  "verify quotes"
+ ],
+ "effects": {},
+ "flags": []
+}

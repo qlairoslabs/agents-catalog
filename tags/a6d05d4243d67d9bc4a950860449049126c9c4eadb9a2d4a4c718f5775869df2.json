@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a6d05d4243d67d9bc4a950860449049126c9c4eadb9a2d4a4c718f5775869df2",
+ "domain": [
+  "finance/equity-research",
+  "finance/sec-filings"
+ ],
+ "product": [
+  "sec-edgar",
+  "xbrl"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Researches U.S. public companies using SEC filings, XBRL financial facts and filing text.",
+ "whenToUse": "Use when analyzing a U.S. public company's financials or reading its SEC filings.",
+ "tasks": [
+  "get company financials",
+  "query xbrl facts",
+  "search filing text"
+ ],
+ "effects": {},
+ "flags": []
+}

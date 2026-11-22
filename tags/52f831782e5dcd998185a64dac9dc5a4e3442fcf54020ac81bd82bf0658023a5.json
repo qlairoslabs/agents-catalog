@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "52f831782e5dcd998185a64dac9dc5a4e3442fcf54020ac81bd82bf0658023a5",
+ "domain": [
+  "data/contact-verification",
+  "security/fraud-prevention"
+ ],
+ "product": [
+  "verified-net"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "stay-compliant"
+ ],
+ "summary": "Verifies email addresses, validates phone numbers, looks up phone carriers and scores IP addresses for risk.",
+ "whenToUse": "Use when someone needs to check whether contact details are valid or whether an IP address is risky.",
+ "tasks": [
+  "verify email addresses",
+  "validate phone numbers",
+  "look up carriers",
+  "score ip addresses"
+ ],
+ "effects": {},
+ "flags": []
+}

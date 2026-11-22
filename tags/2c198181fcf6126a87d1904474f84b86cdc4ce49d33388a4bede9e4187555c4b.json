@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2c198181fcf6126a87d1904474f84b86cdc4ce49d33388a4bede9e4187555c4b",
+ "domain": [
+  "marketing/seo/ai-search",
+  "web/site-audit"
+ ],
+ "product": [
+  "llms-txt"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Audits websites for readiness for AI search engines and generates or validates llms.txt files.",
+ "whenToUse": "Use when the user wants to check how well a website is prepared for AI search or needs an llms.txt file.",
+ "tasks": [
+  "audit ai search readiness",
+  "generate llms.txt",
+  "validate llms.txt"
+ ],
+ "effects": {},
+ "flags": []
+}

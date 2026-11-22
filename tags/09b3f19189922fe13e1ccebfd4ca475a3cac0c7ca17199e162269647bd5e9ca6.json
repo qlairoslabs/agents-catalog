@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "09b3f19189922fe13e1ccebfd4ca475a3cac0c7ca17199e162269647bd5e9ca6",
+ "domain": [
+  "software/forms",
+  "software/low-code"
+ ],
+ "product": [
+  "form-io"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local server to create and manage Form.io forms, resources, actions, roles and projects.",
+ "whenToUse": "Use when building or configuring forms and projects on the Form.io platform.",
+ "tasks": [
+  "create forms",
+  "manage resources",
+  "configure actions",
+  "manage roles",
+  "manage projects"
+ ],
+ "effects": {},
+ "flags": []
+}

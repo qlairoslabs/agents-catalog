@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7a49067ab641aa5c16352d09a1ee76e66ee4589a99065fef8ee9d48eaa11e4ba",
+ "domain": [
+  "finance/equity-research/ipo",
+  "finance/investing"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Produces a balanced pre-IPO research note from an S-1/F-1 filing, covering deal terms, financials, comparables and market conditions.",
+ "whenToUse": "Use when a user wants research on an upcoming, not-yet-listed company's IPO or its S-1 filing.",
+ "tasks": [
+  "summarize deal structure and valuation",
+  "review historical and interim financials",
+  "describe business model and funding history",
+  "size TAM and pick listed comparables",
+  "assess IPO-window conditions",
+  "summarize 90-day sentiment",
+  "present bull and bear debates"
+ ],
+ "effects": {},
+ "flags": []
+}

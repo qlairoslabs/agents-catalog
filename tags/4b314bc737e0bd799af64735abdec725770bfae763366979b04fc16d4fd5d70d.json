@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4b314bc737e0bd799af64735abdec725770bfae763366979b04fc16d4fd5d70d",
+ "domain": [
+  "finance/commodities"
+ ],
+ "product": [
+  "comex",
+  "cftc"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live and historical metal prices, COMEX inventories, CFTC positioning and Shanghai premiums.",
+ "whenToUse": "Use when analyzing precious or industrial metal markets.",
+ "tasks": [
+  "get live metal prices",
+  "get historical prices",
+  "check comex inventory",
+  "view cftc positioning",
+  "view shanghai premiums"
+ ],
+ "effects": {},
+ "flags": []
+}

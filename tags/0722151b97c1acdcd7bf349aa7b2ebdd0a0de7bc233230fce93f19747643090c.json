@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "0722151b97c1acdcd7bf349aa7b2ebdd0a0de7bc233230fce93f19747643090c",
+ "domain": [
+  "local-services/marketplace",
+  "home/repairs"
+ ],
+ "product": [
+  "loqal",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Finds and compares local service professionals across Brazil, estimates job prices and tracks and rates requests.",
+ "whenToUse": "Use when someone in Brazil needs a plumber, electrician, cleaner or other local professional, or a price estimate for a job.",
+ "tasks": [
+  "map a need to a service",
+  "list service categories",
+  "check coverage by location",
+  "find nearby providers",
+  "view provider profile",
+  "compare providers",
+  "estimate job cost",
+  "estimate price range",
+  "check request status",
+  "rate a provider"
+ ],
+ "effects": {
+  "a4b3a56997d658e080812bf3ce6d4149c09f67cd6a69e6ed0f927b87a3326fce": "read",
+  "79ed3697bd35b0ee81e8ba9a4891bb89b5aba5f49b090a8588e40127fc5d387d": "read",
+  "a32e5928f8a953a985fa65fffed4aee16c8c89fd87aeaeec610378d9d92e6401": "read",
+  "fcbc5e57a537dfbef197287e22bd8ac5055ff673aae4a9586c8112dff252b649": "read",
+  "72b593addc4fdf3bbb3a8d8029d0f11ff03454b0db7ec42faf5ba8b91c863237": "read",
+  "ba6a7804c22930493a575aa6e1bc90b835474289a303e214b2ead6506b979673": "read",
+  "f91c4cc077b4d5d99a4a0144037f470427ef72b612c5c0f4c704178e35a880fb": "read",
+  "886fb90bb01f0ff6002cfe24204b704b8a2b5caeb2f31b62e4b197e4271901bc": "read",
+  "55670ace1821b41de666a93f2ab0f40e72e857fb7cfa9587cc5fe7edddd0aa58": "read",
+  "ae09ef53085c36585323b16bd964e38ae8cecbc1fad8b7922503b6129246afd0": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "8f7f69ee01ec7006ad91bbb01ae2587027e07159eebde0c4ac378f6cb91b8b8e",
+ "domain": [
+  "software/browser-automation",
+  "software/testing"
+ ],
+ "product": [
+  "safari"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Automates the native Safari browser on macOS for AI agents through a large set of browser control tools.",
+ "whenToUse": "Use when an agent needs to browse, click, fill forms or scrape pages in Safari on a Mac.",
+ "tasks": [
+  "navigate pages",
+  "click and type",
+  "fill forms",
+  "take screenshots",
+  "read page content",
+  "run page scripts"
+ ],
+ "effects": {},
+ "flags": []
+}

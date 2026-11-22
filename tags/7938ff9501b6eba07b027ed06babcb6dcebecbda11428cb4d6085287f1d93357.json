@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "7938ff9501b6eba07b027ed06babcb6dcebecbda11428cb4d6085287f1d93357",
+ "domain": [
+  "finance/trading",
+  "blockchain/payments"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base",
+  "solana"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Catalog and quote tools for AI Rook's paid x402 endpoints (trading data, inference, escrow), with free previews and escrow lookups.",
+ "whenToUse": "Use when an agent wants to evaluate or plan payment for AI Rook's trading, escrow or inference endpoints.",
+ "tasks": [
+  "list endpoint catalog",
+  "quote endpoint prices",
+  "preview escrow lifecycle",
+  "sign payment receipts",
+  "preview market data",
+  "read escrow jobs",
+  "read attestations",
+  "get payment instructions"
+ ],
+ "effects": {
+  "20747ae5fae8a7e33ea5fb135737be9c88cc919c5c73783ab18aa11490a8cf46": "read",
+  "2b297aecab6159907383781f339faecf3a3c34f440468560507364cdd9d97178": "read",
+  "fe15c0361cb6ae1477c18fedbdd3162b1f4170b60a4f25c6a781e1e109a07868": "read",
+  "03573ed8156fb65b7dd1e82c6c3e493e578c0635eebbbaa0aeb6679ce22e8b19": "write",
+  "fa1b1efd4224aeae728b1c4b14e218ce530b3d1428ab3ec3412e9814d117da57": "read",
+  "7a2db6c6a73654f26ee189b29ebf176cd637e0ed4d2703b8dd66176b8f769d26": "read",
+  "d15c2e80a34514a89c75f56bab6530a572b419bd8594c1e9ae69b8c6a097f926": "read",
+  "df6debb8ae5e2762fe45d5213b75f7a76e265508c0d5111f81179c04578c16b0": "read",
+  "962f516f03e6d1d38bf4ae2a5a741bd755634623f9a53dbbaa2e6e67bdb37e54": "read",
+  "3a905cb0701a93d809c1cc68819043530f13409cc0b0877653d6ed818fbe1b6c": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "63d06f14657e54698a70ada2759cebfd3842815fd23888853b51decf554c579f",
+ "domain": [
+  "software/ecommerce-platform",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "magento",
+  "adobe-commerce",
+  "mage-os"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only data on Magento, Adobe Commerce and Mage-OS versions, EOL dates, requirements, security bulletins, quality patches and upstream fixes.",
+ "whenToUse": "Use when checking a Magento version's support status, vulnerabilities, compatibility or applicable patches.",
+ "tasks": [
+  "get version info",
+  "list versions",
+  "list supported versions",
+  "list EOL versions",
+  "check dependency compatibility",
+  "get latest version",
+  "list security bulletins",
+  "check version vulnerability",
+  "find quality patches",
+  "get patch details",
+  "find upstream fixes"
+ ],
+ "effects": {
+  "90f5360265caedf3a2ad135518a3205018018ec78b2268de56eadb5ba946bca1": "read",
+  "e5fb1f4e27d48615f7fb53562c062ef91d6e6b553b27fd066ff8718ca8e0873f": "read",
+  "c795321628f82afaff94dd23f79e2ed82d3adfe35983bbf098bd3c4545f7d67f": "read",
+  "9eb2d0af1332452f679d7d8622d569fd27a78b90e40eefddf09bb1014281d22b": "read",
+  "df3e6dc935badfb01925c7d308af694ddf70753a1dca0c3d917490b6130eea24": "read",
+  "8710728050809bc8effb0a4bd634bfbe13f8ec7f9f1c273771d368c9e2cb1f22": "read",
+  "6d718ee3fe6a040e97b51fe5b543e965e180387dc2541ef4f8449ae7ceb03555": "read",
+  "45166fcf80440daaca2339d8373b6a5239fb23123a3bf075ad9c8137cc074ec6": "read",
+  "bcd8defbfd970e1922c12055707eb994fbc9265b708129f39e28a4487d3465fb": "read",
+  "e71a15a70b5209901b41619156750ce3c8970848ec3cd06c17540c9dc77b1554": "write",
+  "69eb080e89da1092d602cc4e0ecf7f607ad9a8f8b845d311a0361f81a96932be": "read",
+  "39c402154c6f29741151b9abd8dddb8bd2027f9d4a5b6b738e78639af0efda8a": "write",
+  "a19cc5b51f08b8de54dad5c2a0eb598254da2b6090e38ea7539c59e9653cb363": "read"
+ },
+ "flags": []
+}

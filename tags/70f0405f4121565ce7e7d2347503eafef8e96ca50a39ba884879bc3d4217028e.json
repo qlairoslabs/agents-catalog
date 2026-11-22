@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "70f0405f4121565ce7e7d2347503eafef8e96ca50a39ba884879bc3d4217028e",
+ "domain": [
+  "analytics/user-behavior",
+  "analytics/product"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Investigates individual users and populations in Amplitude by resolving users, reading profiles, analyzing event timelines and checking cohorts.",
+ "whenToUse": "Use when asked what a specific user did, for attribution audits, population sampling, or resolving an email to a user ID.",
+ "tasks": [
+  "resolve user by email or id",
+  "read user profiles",
+  "analyze event timelines in batch",
+  "check cohort membership",
+  "audit attribution",
+  "sample user populations"
+ ],
+ "effects": {},
+ "flags": []
+}

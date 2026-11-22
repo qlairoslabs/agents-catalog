@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "63e816d93aaaedba32d97d17b7002edfb077b91eba6684ca3ec9df4fe8125c56",
+ "domain": [
+  "data/data-catalog/governance"
+ ],
+ "product": [
+  "atlan"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches and governs data assets in the Atlan catalog, including lineage, glossary and quality rules.",
+ "whenToUse": "Use when finding data assets, tracing lineage or managing data governance in Atlan.",
+ "tasks": [
+  "search data assets",
+  "traverse lineage",
+  "manage glossary",
+  "manage data quality rules"
+ ],
+ "effects": {},
+ "flags": []
+}

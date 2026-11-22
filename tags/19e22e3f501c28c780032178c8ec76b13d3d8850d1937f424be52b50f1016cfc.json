@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "19e22e3f501c28c780032178c8ec76b13d3d8850d1937f424be52b50f1016cfc",
+ "domain": [
+  "finance/market-data",
+  "finance/investing"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides SEC filing data, share dilution, insider and institutional ownership, and politicians' trade disclosures to AI agents.",
+ "whenToUse": "Use when researching a public company's filings, dilution, ownership changes, or trades disclosed by politicians.",
+ "tasks": [
+  "look up sec filings",
+  "track share dilution",
+  "view insider ownership",
+  "view institutional ownership",
+  "see political trade disclosures"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "14d20774d9959883d4f5e176c041b0e48b2e990109be89df08380807e9c1b60a",
+ "domain": [
+  "software/game-development",
+  "media/games"
+ ],
+ "product": [
+  "summer-engine"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Game engine connector that lets an agent build multiplayer games and publish them.",
+ "whenToUse": "Use when an agent needs to create and publish a multiplayer game.",
+ "tasks": [
+  "create multiplayer games",
+  "publish games"
+ ],
+ "effects": {},
+ "flags": []
+}

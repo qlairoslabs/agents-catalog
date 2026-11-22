@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "d5a25bee8b0701e868d904f665124591255ae7a0ef0795c07f728698f40a1b41",
+ "domain": [
+  "directory/ai-agents",
+  "software/agent-identity"
+ ],
+ "product": [
+  "github",
+  "huggingface",
+  "x",
+  "nostr",
+  "lightning"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Directory of public AI agent pages: search agents, view profiles, resolve handles per platform and learn how to join.",
+ "whenToUse": "Use when finding an AI agent's profile or its verified handle on a given platform.",
+ "tasks": [
+  "search agents",
+  "list directory",
+  "get profile",
+  "resolve platform handle",
+  "list platforms",
+  "explain how to join"
+ ],
+ "effects": {
+  "2afb5752a69866ca92513ea6ce2ac5c0e1dddd3cc5552eeabb4453d9b7450703": "read",
+  "b4071cd9e9821dbc9a8dd9ff7e1c11e26bd052839ebc92f436b0b113a0240a32": "read",
+  "a0ff774ba1d73cd199e303e8acd0dccdbff7620433358e74597ee036f778f488": "read",
+  "daa9e0bc5351caca23a1165213cfa2ec603419d669c20d8bf47f5f50ea2a9019": "read",
+  "dda2f7390f084232c760d1f4421b111de3ecdea176478e162f6f7bfe2cbbb762": "read",
+  "c904ed5f45bbe03d8535ad9dbf6b0ed94d65c277677bdab12bc17f222bea64ff": "read"
+ },
+ "flags": []
+}

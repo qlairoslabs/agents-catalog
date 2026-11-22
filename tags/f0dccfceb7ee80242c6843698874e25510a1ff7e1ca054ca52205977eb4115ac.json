@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "f0dccfceb7ee80242c6843698874e25510a1ff7e1ca054ca52205977eb4115ac",
+ "domain": [
+  "finance/investment-research",
+  "media/news"
+ ],
+ "product": [
+  "hedge-fund-alpha"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Searches public Hedge Fund Alpha article metadata and finds its official membership and data product pages and prices.",
+ "whenToUse": "Use when looking for recent Hedge Fund Alpha articles or its membership and data offerings.",
+ "tasks": [
+  "search content metadata",
+  "resolve article URL",
+  "list recent content by type",
+  "get official offerings",
+  "search membership catalogue",
+  "look up products",
+  "get product detail"
+ ],
+ "effects": {
+  "be6475926c607ae36d301f94c6c0a412688010bef7f5ecf62dc08f4d043389e8": "read",
+  "5567cc4e1df63a4148e5a4f51c554c9dbf09395ab999ffaa052aed1edd4564e1": "read",
+  "90930f4dbacff0e5230d4d510f5adf370b142e223664c6badbdee4b9fa526b20": "read",
+  "79519d482fbb95a45354a23d88d143fd8505267c502ea05d26c0b5d859ee7da1": "read",
+  "7ec083fe6b6fd0de552ebd43b2f55f8516bcf949879ba72b8ebb4560cfdc2ce5": "read",
+  "29837d69e968db7d7567394bed8ad9e355e555324575bd8eaef5da0b685a30a4": "read",
+  "e0fc6774d705ad2e258d9725db826b7d8c0fdd80857b63b02d49893549e13f87": "read"
+ },
+ "flags": []
+}

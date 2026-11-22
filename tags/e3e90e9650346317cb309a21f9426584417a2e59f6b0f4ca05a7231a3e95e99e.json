@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "e3e90e9650346317cb309a21f9426584417a2e59f6b0f4ca05a7231a3e95e99e",
+ "domain": [
+  "travel/experiences",
+  "shopping/price-comparison"
+ ],
+ "product": [
+  "piqod",
+  "viator",
+  "tiqets",
+  "headout"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "run-the-money"
+ ],
+ "summary": "Searches tours, activities and tickets and compares prices of the same experience across Viator, Tiqets and Headout.",
+ "whenToUse": "Use when a user plans travel and wants things to do or the best price for a tour or ticket.",
+ "tasks": [
+  "search experiences",
+  "compare provider prices",
+  "get destination guide",
+  "filter by budget",
+  "filter free cancellation",
+  "skip-the-line options"
+ ],
+ "effects": {
+  "2ab649eb09992ad2eedcfc1abed3f36eb5c4c3f5c6b96b22f2bba2d41e3c54a0": "write",
+  "fe5bca1cc659a1729826d71db4249b6b89a737a00fd775e1d9eef087e821b91f": "write",
+  "35a19962bdb148c61fe9cee43bf2ddb98551c6626080face3490ff3d60b5e4b0": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "48e15e4eeff30449fbd4e13c86f5bc8c2669f2a37a1e9cd7bc105691f5d67304",
+ "domain": [
+  "finance/compliance",
+  "finance/bookkeeping"
+ ],
+ "product": [
+  "median",
+  "quickbooks",
+  "xero",
+  "stripe"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Lists US federal and state filing obligations for a company and runs a bookkeeping health check with a score, alongside information about Median's bookkeeping services.",
+ "whenToUse": "Use when a founder or finance person asks which US filings apply to their company or whether their books are in good shape.",
+ "tasks": [
+  "list compliance obligations",
+  "explain an obligation",
+  "find confounding facts",
+  "list bookkeeping checks",
+  "explain a books check",
+  "score books health",
+  "get evidence recipes",
+  "read pricing",
+  "read blog posts"
+ ],
+ "effects": {
+  "069f6c04503cb2924d18c74db3c174d5235579889ca306173df4e86327a4c8cb": "read",
+  "b6109d8e80e273ae06cbab1792e89de93aa24cba8ad47c4a683b47f75330ec3b": "read",
+  "26c4f2785a9d4977d0da94072227716f2d0899998dd1a6da2b7fed5be8d52215": "read",
+  "e482c2b6f755d7a793d59faf4bd45392eb43c7f06f230ff2f44c8e1220cbe3cb": "read",
+  "1c3606cbdd596d1828965cb3bbb4dbfb9726a8dfe4f9533b34470a5500ff9031": "read",
+  "413a2fd33968846b01208cb93b7acf8dfa651a336328f7e6dad82c413ff4f6a7": "write",
+  "3538d348c42be4f91ddbd710f7465bfeebede8d0e544f5193e98508d8bc787bd": "write",
+  "8cfa18b50435d890832bdd6a96173ca3355bafffc13533a2714993b670a263e5": "read",
+  "ab194f2517c57ba24acd1b055dd20120d74d4d73e1e6e649ec3cfac30b440195": "read",
+  "e6b9412d392292db24c2542537e71c793aaaefa98859a7a0051b5279af985dde": "write",
+  "fe3fc0aea31e23c57a4295b881a237ec01ba6722d1256e033cc88d4fbde0f176": "read",
+  "ec5e73080f83f13043b368675c04995a6591e5a33887ab18448e600ba7a4f4a9": "write"
+ },
+ "flags": [
+  "tool descriptions tell the agent how to relay results",
+  "optional company_name is stored by the vendor, which may follow up"
+ ]
+}

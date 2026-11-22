@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "bd097ad7c8462701b0645768d3ff930c461ffe4eaa90cb7a281035f06cba239d",
+ "domain": [
+  "software/cybersecurity/reverse-engineering"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "CLI and MCP server for reverse engineering software from a terminal or agent.",
+ "whenToUse": "Use when an agent needs to analyze binaries or software internals.",
+ "tasks": [
+  "analyze binaries",
+  "disassemble code",
+  "inspect software internals"
+ ],
+ "effects": {},
+ "flags": []
+}

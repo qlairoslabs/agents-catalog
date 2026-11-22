@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f8e3b70c1d092acad335a27322c431fc4ed53432badac1c5a906af4898d2574c",
+ "domain": [
+  "sales/lead-scoring",
+  "sales/crm-enrichment"
+ ],
+ "product": [
+  "growthkit"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Scores B2B leads, checks ideal customer profile fit and enriches CRM records with writeback.",
+ "whenToUse": "Use when a sales team needs to prioritise leads or enrich and update CRM records.",
+ "tasks": [
+  "score leads",
+  "check icp fit",
+  "enrich crm records",
+  "write back to crm"
+ ],
+ "effects": {},
+ "flags": []
+}

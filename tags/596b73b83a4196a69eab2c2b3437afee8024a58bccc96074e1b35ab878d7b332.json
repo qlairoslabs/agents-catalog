@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "596b73b83a4196a69eab2c2b3437afee8024a58bccc96074e1b35ab878d7b332",
+ "domain": [
+  "data/data-collection",
+  "ai/chatbots"
+ ],
+ "product": [
+  "gnosari"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "support-customers"
+ ],
+ "summary": "Chatbot service that captures conversations as typed records; lets agents create bots, define fields and read collected data.",
+ "whenToUse": "Use when setting up a conversational form that collects structured data, or reading the records it gathered.",
+ "tasks": [
+  "create a gnosari chatbot",
+  "define record fields",
+  "read collected records"
+ ],
+ "effects": {},
+ "flags": []
+}

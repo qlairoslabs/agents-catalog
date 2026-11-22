@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "8548ef7120f276f6061bb36cce31d2f855145af1cc3634fbecaf753b9df0ade8",
+ "domain": [
+  "adult-services/directory"
+ ],
+ "product": [
+  "escortfox"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Read-only search of an escort directory covering cities, services and listing summaries.",
+ "whenToUse": "Use when a user explicitly asks to browse listings in the EscortFox adult directory.",
+ "tasks": [
+  "search listings",
+  "get listing summary",
+  "list countries",
+  "list cities",
+  "list districts",
+  "list services"
+ ],
+ "effects": {
+  "9f1a4280c7cdc9972763f5ed8919aadc6e8e677a8f958ee948db622e6e4f1296": "write",
+  "b1a3168a152e2fbd742f6e51bad1e5319d7010ca4633ca1cc07671dbb9e252c8": "read",
+  "368c2363ac03eb11785ca4ec4f179b326d9df981d1bbcb7c3577a5d7ed2b9d9b": "read",
+  "dfaff0c25f99e3272f2eab787e2578b6999324850f60e0f1e16135eb706440cb": "read",
+  "275ef99608af90b424e0df123a77b81ca0443d4604340ac42b3baa733cb80c6a": "read",
+  "307d4e0ca968905cf27132e5b3bbcc022f53c0991e45be60758bf25e758e9923": "read"
+ },
+ "flags": [
+  "adult-content"
+ ]
+}

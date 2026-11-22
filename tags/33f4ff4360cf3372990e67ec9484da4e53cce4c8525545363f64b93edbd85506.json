@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "33f4ff4360cf3372990e67ec9484da4e53cce4c8525545363f64b93edbd85506",
+ "domain": [
+  "hr/recruiting",
+  "hr/assessments"
+ ],
+ "product": [
+  "avahr"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Reads hiring data and creates inactive assessment and questionnaire drafts that await human review.",
+ "whenToUse": "Use when the user wants hiring data or to draft candidate assessments and questionnaires.",
+ "tasks": [
+  "read hiring data",
+  "draft assessments",
+  "draft questionnaires"
+ ],
+ "effects": {},
+ "flags": []
+}

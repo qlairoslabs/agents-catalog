@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a4e613d4525343c975b40de389737fce8c22715a2ef3a9c802f091e3633d6ab1",
+ "domain": [
+  "data/korean-public-data",
+  "ai/ocr",
+  "media/text-to-speech"
+ ],
+ "product": [
+  "apick"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Local npm server for APICK Korean data lookups, identity checks, document forms, OCR, search, image, video and TTS.",
+ "whenToUse": "Use when a user needs Korean data or verification lookups, OCR, or media generation via APICK.",
+ "tasks": [
+  "look up korean data",
+  "simple-auth verification",
+  "fill document forms",
+  "run ocr",
+  "search",
+  "process images",
+  "process video",
+  "text to speech"
+ ],
+ "effects": {},
+ "flags": []
+}

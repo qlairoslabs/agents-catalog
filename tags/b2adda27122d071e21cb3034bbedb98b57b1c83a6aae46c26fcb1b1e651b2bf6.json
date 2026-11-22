@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b2adda27122d071e21cb3034bbedb98b57b1c83a6aae46c26fcb1b1e651b2bf6",
+ "domain": [
+  "personal/profile",
+  "careers"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Read-only access to one person's profile, CV and project case studies in English or Chinese.",
+ "whenToUse": "Use when asked about Sigao Li's background, experience or project case studies.",
+ "tasks": [
+  "get profile",
+  "list CV experience",
+  "read case study"
+ ],
+ "effects": {
+  "1d6d87438b806417eb033d6d01873a171c382d187fc9891f6983ce46aacce3e8": "read",
+  "2072c7377f089f4b4cb70d8976fb1de250d0d12c78c6795c3bd62c8f46284eaf": "read",
+  "8971a25b53a659b3d2fab88d51972abb773ff6e2ee05465a83c5fec12e7e52e0": "read"
+ },
+ "flags": []
+}

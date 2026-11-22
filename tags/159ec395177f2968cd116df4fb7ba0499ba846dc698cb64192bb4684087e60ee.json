@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "159ec395177f2968cd116df4fb7ba0499ba846dc698cb64192bb4684087e60ee",
+ "domain": [
+  "events/wedding-planning",
+  "productivity/seating"
+ ],
+ "product": [
+  "wedding-seat"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Create an anonymous wedding project, add guests and auto-generate a reception seating plan, then read a summary of guests, tables and budget.",
+ "whenToUse": "Use when a user wants to organise a wedding guest list and generate a table seating plan without signing up.",
+ "tasks": [
+  "create wedding project",
+  "add guests",
+  "generate seating plan",
+  "read project summary",
+  "list culture packs",
+  "list planning tools"
+ ],
+ "effects": {
+  "8b13edbd33d59b9bccbda6634ca132eb1ac093fcdb4eeba647025f2c619f02ee": "write",
+  "8c5572d93a31071508c8a9419edf063e4970ced227248f6d3b273a3babb764b5": "write",
+  "146b433e7bcaae8ed4a7e624a2de12961692ceddac86ef1e790e4dea52c65be8": "write",
+  "6358555102411b5a3190caff27b07825463a921fe4c2b079dab7a8889b8b399f": "read",
+  "393ec86cc3687139dcb857e88a79cb3a848e3c43d1bdedf664f0166ad63cd60a": "read",
+  "35d96e056efd0dec951684b60be2d1a4ab4583fbb400af945ec20cd9ee4189d4": "read"
+ },
+ "flags": []
+}

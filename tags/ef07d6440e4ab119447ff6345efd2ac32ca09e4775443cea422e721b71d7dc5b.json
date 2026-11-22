@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ef07d6440e4ab119447ff6345efd2ac32ca09e4775443cea422e721b71d7dc5b",
+ "domain": [
+  "communication/sms"
+ ],
+ "product": [
+  "suresms"
+ ],
+ "audience": [
+  "marketing",
+  "support"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Sends SMS messages, manages contacts and groups, and reads delivery reports through SureSMS.",
+ "whenToUse": "Use when a user needs to send text messages or manage SMS contacts with SureSMS.",
+ "tasks": [
+  "send sms",
+  "manage contacts",
+  "manage groups",
+  "read delivery reports"
+ ],
+ "effects": {},
+ "flags": []
+}

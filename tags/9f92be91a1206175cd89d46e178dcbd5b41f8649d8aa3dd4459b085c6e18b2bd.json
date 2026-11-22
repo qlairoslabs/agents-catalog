@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9f92be91a1206175cd89d46e178dcbd5b41f8649d8aa3dd4459b085c6e18b2bd",
+ "domain": [
+  "finance/banking/deposit-rates"
+ ],
+ "product": [
+  "ratetrove"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Provides source-linked US credit union deposit rates and membership eligibility context; requires an API key.",
+ "whenToUse": "Use when comparing US credit union savings or deposit rates and membership requirements.",
+ "tasks": [
+  "look up credit union deposit rates",
+  "check membership context",
+  "view rate sources"
+ ],
+ "effects": {},
+ "flags": []
+}

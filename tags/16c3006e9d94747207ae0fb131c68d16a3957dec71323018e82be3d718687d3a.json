@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "16c3006e9d94747207ae0fb131c68d16a3957dec71323018e82be3d718687d3a",
+ "domain": [
+  "data/data-catalog",
+  "data/metadata-management"
+ ],
+ "product": [
+  "datahub"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Toolkit for DataHub covering connector planning, PR review, catalog search, metadata enrichment, lineage tracing and data quality.",
+ "whenToUse": "Use when searching or enriching a DataHub catalog, tracing lineage, or developing DataHub connectors.",
+ "tasks": [
+  "plan connectors",
+  "review pull requests",
+  "search data catalog",
+  "enrich metadata",
+  "trace lineage",
+  "manage data quality",
+  "set up connections"
+ ],
+ "effects": {},
+ "flags": []
+}

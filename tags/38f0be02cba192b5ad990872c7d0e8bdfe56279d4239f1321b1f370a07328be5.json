@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "38f0be02cba192b5ad990872c7d0e8bdfe56279d4239f1321b1f370a07328be5",
+ "domain": [
+  "travel/heritage",
+  "food/regional-cuisine",
+  "travel/coastal"
+ ],
+ "product": [
+  "kahve-tabela",
+  "yore-sofrasi",
+  "mavi-koy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only atlas of Turkish heritage places, regional dishes and coastal destinations.",
+ "whenToUse": "Use when exploring places, regional foods or coastal spots in Turkey, including near a coordinate.",
+ "tasks": [
+  "search heritage places",
+  "find nearby places",
+  "search regional dishes",
+  "search coastal atlas",
+  "render pages as markdown"
+ ],
+ "effects": {
+  "55c46cf972e352c2c9d9887eede7ed61406ca2a9dec3d7a4f52ccfa9359e5db4": "read",
+  "aa86ad5921fe4f2a0df5fe0ae146658df0cfcc40674bed03d946ebf132425081": "read",
+  "051424ec08e77545bec580eb9b40a6c9fdab719efa65450b718747d6b2981cfa": "read",
+  "0ce62680090aee91785b77d4436f6b65456445b77400c192bd126e28b5d564f1": "read",
+  "cf6e419a5f4d9196c509bb86e33e52745f52ebdd5a4da2b4a39184bd0d69c5c6": "read",
+  "119e14c64f451245cd5c7e44d7e023391298ef7418defbf8b1f16c4ad8192fd5": "read",
+  "c316b9821742870939de84165b4b603fc7f1e250810165c1b8c6f2ed934da670": "read",
+  "a8301978d6a3d1f3dbc02e5413d76632995527358ad6ec45f34b171ae4cc291c": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5bd925d7bd747f499ed0b822f7989e6c45fdf567454cd073fab51aff8b1f4ab0",
+ "domain": [
+  "software/documentation",
+  "data/streaming"
+ ],
+ "product": [
+  "redpanda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Answers questions from Redpanda documentation and searches its API references.",
+ "whenToUse": "Use when a developer has questions about Redpanda configuration, features or APIs.",
+ "tasks": [
+  "search documentation",
+  "search api references",
+  "answer redpanda questions"
+ ],
+ "effects": {},
+ "flags": []
+}

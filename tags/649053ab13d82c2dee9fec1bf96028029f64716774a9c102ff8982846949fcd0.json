@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "649053ab13d82c2dee9fec1bf96028029f64716774a9c102ff8982846949fcd0",
+ "domain": [
+  "manufacturing/3d-printing",
+  "ecommerce"
+ ],
+ "product": [
+  "formnord",
+  "vipps"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "build-software"
+ ],
+ "summary": "Quote and order 3D prints in PETG or ABS from STL/3MF files, printed and shipped within Norway.",
+ "whenToUse": "Use when a user wants a price for or an order of a 3D-printed part delivered in Norway.",
+ "tasks": [
+  "get service info",
+  "quote a print",
+  "upload model file",
+  "check quote status",
+  "place order with payment link"
+ ],
+ "effects": {
+  "ca5af791d10c2a3a259c902afafb6da6277c6710a3053d5c71dfd9331f1b7785": "read",
+  "ba72731ebac02217b95096ada96d696e03af54f5808eb68c14577946182119e8": "write",
+  "7ce2f8f7e1c1660b95d16c2e21a9e1da7025e8edc667fa069f6a6682a902be89": "read",
+  "27f6dd15abc94de099bf03880486790fa5af112c28421ae0fca326bc875c88dd": "write",
+  "47746fd642a96017da109ab9e15d65e5478c856bf1cf8c0031804eb13e717bf9": "write"
+ },
+ "flags": []
+}

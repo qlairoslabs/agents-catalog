@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "47f4a5af9a9cb488b69a379d46171ba3f93bb5de8ce7ac9d0bd2cc306a101e5c",
+ "domain": [
+  "finance/payment-risk",
+  "crypto/payments"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base",
+  "ofac"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Gives a GO/HOLD/STOP verdict with a signed receipt before an agent signs an x402 payment, based on reputation, price anomaly and sanctions.",
+ "whenToUse": "Use before an agent pays a counterparty over x402 to check risk first.",
+ "tasks": [
+  "pre-payment risk verdict",
+  "check counterparty reputation",
+  "detect price anomaly",
+  "screen against OFAC sanctions",
+  "issue signed receipt"
+ ],
+ "effects": {
+  "ba8bb58704332479b5b5cfa3522414a51bffa3ca0be80e35e1d196ac17f4b3f0": "write"
+ },
+ "flags": []
+}

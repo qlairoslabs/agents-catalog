@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f52e55ecd7dcd9322ab41edc616c1f0001bb0c0081d53902f471d88e1301459e",
+ "domain": [
+  "software/cybersecurity",
+  "software/network-security"
+ ],
+ "product": [
+  "portscan"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Scans the open TCP ports of the requester's own public IP, in a fast 32-port or full 65535-port mode.",
+ "whenToUse": "Use when checking which ports are exposed on your own network's public IP.",
+ "tasks": [
+  "fast scan common ports",
+  "deep scan all ports",
+  "read service banners"
+ ],
+ "effects": {
+  "779732f57fdf6f12d9f468fb0d3f8be6c03819da0c398fbc9b6c9e7fc44d9177": "write",
+  "05096247799f9c0e6952dfa497e7546a9cb6a00e111a7876f24ec45bc30b27c7": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "88df65b99450203e147994f57c08aac536357d42abbeeddd6853781ac039dd9e",
+ "domain": [
+  "legal/case-law",
+  "legal/legislation"
+ ],
+ "product": [
+  "librejustice"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches French-language and European case law along with French legal texts such as codes, statutes and treaties.",
+ "whenToUse": "Use when an agent needs to research French or European court decisions or French legal texts.",
+ "tasks": [
+  "search case law",
+  "search european decisions",
+  "read legal codes",
+  "read statutes",
+  "read treaties"
+ ],
+ "effects": {},
+ "flags": []
+}

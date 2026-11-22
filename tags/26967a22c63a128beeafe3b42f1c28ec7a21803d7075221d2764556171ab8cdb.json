@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "26967a22c63a128beeafe3b42f1c28ec7a21803d7075221d2764556171ab8cdb",
+ "domain": [
+  "automotive/batteries",
+  "ecommerce/booking"
+ ],
+ "product": [
+  "sos-battery",
+  "benben"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Slovak battery shop catalogue with vehicle fitment search and email-verified booking of battery replacement at partner garages.",
+ "whenToUse": "Use when a customer needs the right car battery or wants to book a replacement in Slovakia.",
+ "tasks": [
+  "search batteries",
+  "product detail",
+  "list collections",
+  "find partner garages",
+  "partner reviews",
+  "recommend battery for vehicle",
+  "shop categories",
+  "verify email",
+  "create booking request"
+ ],
+ "effects": {
+  "37af324c252ec83379937b59c4c32c734336114f08885d2b29f084e11b050bb3": "read",
+  "f5e2dd799635efc95d3f6091358a99a29be9efe2ab215c2f3b9d121d5b125169": "read",
+  "b189f1b959cee9d8eb68585d25fe1afabea735809c1adacf7beaefa7cc4b4457": "read",
+  "0e46287b051ad0f050689c7793a1ad532e38c9283452f70ecfc9910d648df510": "read",
+  "c1e569fe35d93aecbbfcf4f3794ed931b61bcea2413e077d087da22aebc67d8b": "read",
+  "6b89b64c1926587a32623299b38c2dc2267bf73d437b0e68f9499e7eff5810d5": "read",
+  "3065def593115657f4da0056e940b4bbceac3da893bf98329484754c32322d9b": "write",
+  "bb2725189d9cf91af4406b30599bee5052d67a6a2c28f3485f767bec9b2d16a7": "read",
+  "d51869f9d90b161e8c17e2af021f38ac76c8d74c9db622a70ebb61b1a262a1e1": "write",
+  "d77d6d9820e19929dd48a5bd00925fde6dc30eba822aadb6814e6b8a29b37a08": "write",
+  "cb6d4cff9891cdc4ebc4b6dd2a1aae965efc479ac8f4ecfcc56e5bdedf008078": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "e37eac95fe0883ad6652cb476f47955159be70392ab873b7c30f09fa6ff02d6e",
+ "domain": [
+  "software/ai-agents",
+  "software/cloud-hosting",
+  "media/generation"
+ ],
+ "product": [
+  "moltbotden",
+  "postgres",
+  "redis"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Platform for AI agents offering VM, Postgres, Redis and storage hosting, media generation and a per-agent inbox.",
+ "whenToUse": "Use when an agent needs hosted infrastructure, media generation or its own email inbox.",
+ "tasks": [
+  "provision vms",
+  "create postgres databases",
+  "create redis instances",
+  "manage storage",
+  "generate media",
+  "use agent inbox"
+ ],
+ "effects": {},
+ "flags": []
+}

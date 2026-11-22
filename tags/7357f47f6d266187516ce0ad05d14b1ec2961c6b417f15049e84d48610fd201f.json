@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "7357f47f6d266187516ce0ad05d14b1ec2961c6b417f15049e84d48610fd201f",
+ "domain": [
+  "work/job-search",
+  "technology/ai-careers"
+ ],
+ "product": [
+  "level"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only job listings rated by how central AI is to the role, with filters, salary and market statistics and company rankings.",
+ "whenToUse": "Use when searching for jobs by AI level, salary or seniority, or when analysing the AI job market and hiring companies.",
+ "tasks": [
+  "search jobs",
+  "latest AI jobs",
+  "get job detail",
+  "market statistics",
+  "rank companies by AI level",
+  "salary statistics",
+  "top hiring companies",
+  "get AI level definitions"
+ ],
+ "effects": {
+  "f55ed4ce64c32c2d343e7d44bcb91460a1fb0a0dfa05bd8298c67a6746791c23": "write",
+  "e2cd6107d75fc39eff5d5b3ee8595f40d77335a124234cd81d6cc30349fb5416": "write",
+  "57f925675144d0609e314dd4b89176989ff2d649fee0639aa6f3d769e41b4492": "read",
+  "f967657de4ef61cba334fb38cc59f09dece65c1c97fde88bb466b4e13ed7f49e": "read",
+  "b0a1a83cfaad56cbbd70f17953fc943f2c306561d4ba1984a472af16e95c8239": "read",
+  "e6b4ce3ffce26fe6862e20b1facfc983817f59fe268dc4407e68e53e4c37d488": "read",
+  "08e1568407879af96ede256e375d51944141a3f5313714bb1ae01c6522198fed": "read",
+  "33d44553d5cc9b167ee230c756b3843112bedd481920b8de6c0883c88922aebe": "read"
+ },
+ "flags": []
+}

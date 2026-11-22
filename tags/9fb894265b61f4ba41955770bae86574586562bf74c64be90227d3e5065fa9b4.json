@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9fb894265b61f4ba41955770bae86574586562bf74c64be90227d3e5065fa9b4",
+ "domain": [
+  "content/personal-blog"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches one author's personal blog, returns posts as Markdown, lists topics and provides the author's profile.",
+ "whenToUse": "Use when a user asks about Umesh Malik's blog posts or profile.",
+ "tasks": [
+  "search blog posts",
+  "fetch post as markdown",
+  "list topics",
+  "get author profile"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "09364601ef701ca86a2d72eb9f648bb5442b4d285e5839c3e0b6970122cb7eff",
+ "domain": [
+  "software/backend-as-a-service",
+  "payments"
+ ],
+ "product": [
+  "anythink"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "All-in-one backend platform covering data, auth, files, workflows, payments and APIs, configured through AI.",
+ "whenToUse": "Use when building an app backend on Anythink and configuring its data, auth, files, workflows or payments.",
+ "tasks": [
+  "configure data models",
+  "configure authentication",
+  "manage files",
+  "build workflows",
+  "set up payments",
+  "expose apis"
+ ],
+ "effects": {},
+ "flags": []
+}

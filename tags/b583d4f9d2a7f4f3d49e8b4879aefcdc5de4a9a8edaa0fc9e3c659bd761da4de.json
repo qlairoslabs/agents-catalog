@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b583d4f9d2a7f4f3d49e8b4879aefcdc5de4a9a8edaa0fc9e3c659bd761da4de",
+ "domain": [
+  "marketing/social-media",
+  "communication/publishing"
+ ],
+ "product": [
+  "threads",
+  "bluesky",
+  "mastodon"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Publishes draft posts to Threads, Bluesky and Mastodon only after a human has approved them.",
+ "whenToUse": "Use when an agent wants to post to Threads, Bluesky or Mastodon with a human approval step first.",
+ "tasks": [
+  "submit post draft",
+  "request human approval",
+  "publish to threads",
+  "publish to bluesky",
+  "publish to mastodon"
+ ],
+ "effects": {},
+ "flags": []
+}

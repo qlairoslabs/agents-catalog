@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "fdb1b0d46eb2fe31fb714a8fb202a26d7a57973e52be1c185988790e415ac008",
+ "domain": [
+  "software/cloud/migration"
+ ],
+ "product": [
+  "aws",
+  "google-cloud",
+  "amazon-bedrock",
+  "openai",
+  "gemini"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Plans GCP-to-AWS migrations by analysing IaC, code and billing data to design architecture, estimate costs and map AI workloads.",
+ "whenToUse": "Use when planning a move of infrastructure or AI workloads from Google Cloud to AWS.",
+ "tasks": [
+  "analyse iac files",
+  "discover gcp resources",
+  "design aws architecture",
+  "estimate costs",
+  "map ai providers to bedrock",
+  "generate migration artifacts"
+ ],
+ "effects": {},
+ "flags": []
+}

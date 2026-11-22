@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9b9e18add5a555de95ffa455527e33b7d7b82ec40df494fe2bf3270e054239a8",
+ "domain": [
+  "software/api-testing",
+  "software/developer-tools"
+ ],
+ "product": [
+  "kurlo",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm-based connector to run, write and test API requests saved in a Kurlo workspace, an open source API client.",
+ "whenToUse": "Use when working with a Kurlo workspace and an agent needs to execute, author or test saved API requests.",
+ "tasks": [
+  "run saved api requests",
+  "write new api requests",
+  "test api requests",
+  "browse kurlo workspace"
+ ],
+ "effects": {},
+ "flags": []
+}

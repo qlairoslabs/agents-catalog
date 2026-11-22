@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "026689462f3cd78dba50bccaf758e629dc607b6de774314c46fb1cee41177214",
+ "domain": [
+  "travel/booking",
+  "travel/visa"
+ ],
+ "product": [
+  "fareeagle"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Search and book flights, hotels, buses and holiday packages in India with live fares, plus passport scanning, e-tickets, cancellations and visa applications.",
+ "whenToUse": "Use when a user wants to search or book travel in or from India, manage a booking, or start a visa application.",
+ "tasks": [
+  "search flights",
+  "search hotels",
+  "search buses",
+  "get airport and airline info",
+  "lock fares and prepare bookings",
+  "create flight and hotel bookings",
+  "add baggage and meal add-ons",
+  "scan passport",
+  "check booking status",
+  "get e-ticket",
+  "start cancellation",
+  "search holiday packages"
+ ],
+ "effects": {
+  "8c47e4ef5e7e8af736305ab33397c78e85eb1f99ac73d23d59d360444cd75153": "write",
+  "742dfa6c55e234e2726df68e183363210839cc1439f0ffa0f88b3dabc832690c": "read",
+  "a11d9478e592759f96e12ed566023bde38120c41b37fe2fa6efffa3508a94e68": "read",
+  "3e270cc33fd26b84cf43fd8647f1b8f0804b18ae129b4848263bc77149bd62c4": "read",
+  "77943395983b4feba7f9579ce7b224ae41516e470203513b72b006b40d5c854c": "read",
+  "36e45d898535f3c469083a19b3c84e5ac61805ecd7d12e05a53ac110e68df4e4": "write",
+  "4e0986cb5098e8f280f3f0f17fa5065bfb1b747471d7c8e0d965b9831c40846c": "write",
+  "899f49fa4dc76910ffd4fe1e12c2d08287b1d31f143d33b3d61492058e1ddb2f": "read",
+  "e7ddafcbaf66cb4a44aaa43f1aa7670a1b9fbd6d293c7ffc3c2525cab2cbc7a3": "write",
+  "108c08330cdb2231dff89fa55e794d8a3e794867a6f465af7ce394e19db8756f": "write",
+  "f6c284b5ad210d088ba5a5eb47c4b0cac35eb6fd7c9e0c206051331fc4fb9a68": "write",
+  "657878eba7bfef4a76c46b6857647d40cb9c8034c968d9d41538898e1d78ae8d": "write",
+  "5a599423ef4dc7a714b251e71e42d0f8f5a06eb81ffc42183f65937f982f1d19": "read",
+  "91d1b37227e369ebda6bcf5c23c90c641f52019220cd9504fcb3c3fa425af047": "read",
+  "cc946b3681a92f01fefd429794877e07e117c442528c1aae13a5f294c7bf0a97": "write",
+  "5bd9a15a1a73315c6fb778c484f08b927ee076c7f277a1dc08185f2a6f219af0": "read",
+  "ce85a83707de74dd5d9b88025acfc3fa1bbb4c2dddf5748f2ea5d9fdb497b189": "read",
+  "c1058ac373d42842bdf862ec9968f2c250a443f414be260f47ba5bef836f4cf1": "write"
+ },
+ "flags": []
+}

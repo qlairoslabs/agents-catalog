@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "6f91784e557106bd8c60a18f67ea3731a4b9217317f07c71e78a7a09c0864d3a",
+ "domain": [
+  "commerce/fashion/product-discovery"
+ ],
+ "product": [
+  "glance"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Discovers fashion products from the Glance catalog and offers virtual try-on.",
+ "whenToUse": "Use when a user is shopping for clothing and wants recommendations or to preview items on themselves.",
+ "tasks": [
+  "search fashion products",
+  "virtual try-on"
+ ],
+ "effects": {},
+ "flags": []
+}

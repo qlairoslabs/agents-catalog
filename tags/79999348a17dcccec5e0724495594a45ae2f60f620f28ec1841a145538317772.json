@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "79999348a17dcccec5e0724495594a45ae2f60f620f28ec1841a145538317772",
+ "domain": [
+  "sales/event-leads",
+  "marketing/trade-shows"
+ ],
+ "product": [
+  "boothiq"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries trade show leads, meetings and events stored in BoothIQ.",
+ "whenToUse": "Use when reviewing leads or meetings captured at trade shows in BoothIQ.",
+ "tasks": [
+  "query trade show leads",
+  "list meetings",
+  "list events"
+ ],
+ "effects": {},
+ "flags": []
+}

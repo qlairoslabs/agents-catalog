@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "ae6eff02756269d3055845ccc79fda9fab498cb4de18b0e72823cc44738ca723",
+ "domain": [
+  "travel/events",
+  "travel/places-directory"
+ ],
+ "product": [
+  "pifini",
+  "stripe",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Search events and places across the Caribbean and Latin America and create Stripe checkout links for event tickets.",
+ "whenToUse": "Use when finding events, restaurants or venues in the Caribbean or Latin America, or buying event tickets.",
+ "tasks": [
+  "search events",
+  "get event details",
+  "search places",
+  "get place details",
+  "list place categories",
+  "create ticket checkout"
+ ],
+ "effects": {
+  "93f3d83eec89dd00775fda45fea347c75b6a9a23a72e6c57e9e67ee68c67ce79": "read",
+  "eb99ce6c78e1fe093b37a507b73073033c602d5c1fd7969d7c0aa249f940e796": "read",
+  "b23bdffa37fe6b90e024fb5e8d956711971cec8b2af1b52dc176cadb414af1ab": "write",
+  "7680e08286ca6f025f0c680f5e6848c177cea9d2956e15f1c42f9885615a0922": "read",
+  "3115aa68e19332d3f321e829c962dbf18d5acdc4aee1c52736e5ac42b1bbd2eb": "read",
+  "d7dc899b40f7adf9989332f2d199c81978bf71decea017e223242eb8aca1d7cb": "write"
+ },
+ "flags": []
+}

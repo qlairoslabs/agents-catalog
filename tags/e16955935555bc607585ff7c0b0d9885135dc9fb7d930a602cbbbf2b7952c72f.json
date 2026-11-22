@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "e16955935555bc607585ff7c0b0d9885135dc9fb7d930a602cbbbf2b7952c72f",
+ "domain": [
+  "automotive/vehicle-data",
+  "payroll"
+ ],
+ "product": [
+  "nhtsa",
+  "transport-canada",
+  "cra"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Free vehicle data: VIN decoding, recalls, service bulletins, OBD-II code descriptions, plus Ontario payroll deduction calculation.",
+ "whenToUse": "Use when decoding a VIN, checking recalls or bulletins, explaining a trouble code, or computing Ontario payroll deductions.",
+ "tasks": [
+  "decode VIN",
+  "look up vehicles",
+  "find recalls",
+  "find service bulletins",
+  "explain OBD-II codes",
+  "calculate Ontario payroll deductions"
+ ],
+ "effects": {
+  "41004c1d6301e95dfe62befdaf37d00ce8bc078f69e3327641f155a322fa3318": "write",
+  "d4a6f8535daf587594865ae57868e7e69e273f358325d5d807deb365b3977a5c": "write",
+  "4b4cd6372daa464ae73abee3a5949205ce2998d4dfc37fceeaa2ab750f9cedb7": "write",
+  "aef15595867c681b6f117bc74d06c59d8b424207d243b5c3519765787393a64f": "write",
+  "0c4ac9196729f472e96f760074ff496ab7a37ec2b4aaf86a15bcec0392dd02f2": "write",
+  "07b4c3b040766cdffaacd3445d352937d800d9a0e729d580b58915b0138ef5a7": "write"
+ },
+ "flags": []
+}

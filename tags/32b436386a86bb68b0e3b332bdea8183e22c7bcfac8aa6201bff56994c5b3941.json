@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "32b436386a86bb68b0e3b332bdea8183e22c7bcfac8aa6201bff56994c5b3941",
+ "domain": [
+  "software/app-builder",
+  "software/no-code"
+ ],
+ "product": [
+  "overskill",
+  "cursor",
+  "claude",
+  "chatgpt"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Lets MCP clients build and publish apps on the Overskill platform.",
+ "whenToUse": "Use when the user wants to create or publish an Overskill app from an AI assistant.",
+ "tasks": [
+  "build apps",
+  "publish apps"
+ ],
+ "effects": {},
+ "flags": []
+}

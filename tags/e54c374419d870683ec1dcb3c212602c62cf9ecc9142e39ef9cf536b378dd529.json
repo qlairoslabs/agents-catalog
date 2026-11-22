@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "e54c374419d870683ec1dcb3c212602c62cf9ecc9142e39ef9cf536b378dd529",
+ "domain": [
+  "real-estate/phuket",
+  "travel/weather-and-beaches"
+ ],
+ "product": [
+  "kvartiry-phuket"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Russian-language Phuket guides on property, taxes and visas, plus asking prices, condo assessment rates, weather, climate, webcams and sea conditions.",
+ "whenToUse": "Use when researching Phuket property, districts and prices, or checking weather, beaches and sea calmness.",
+ "tasks": [
+  "search guides",
+  "read guides",
+  "list districts",
+  "get district overview",
+  "get asking prices",
+  "get condo assessment rates",
+  "current weather",
+  "monthly climate",
+  "search FAQ",
+  "compare beaches",
+  "list webcams",
+  "sea state today"
+ ],
+ "effects": {
+  "a24eb16fb448b04520276cdad77c9c4039746196ecb2ed0004ad10651c919f13": "read",
+  "46a30d8f3b4bbfe8fa438ff739ce9cf819eabb191665f0a9a84222948a6ec8d9": "read",
+  "1a5db481e46ccc88aa5892558d4a77c9c15c85cb220848d29c55c37a2a2f1662": "read",
+  "073b092e5526e80657ed0ab491f066c4e83aade5c09c5d5c3de394d35eba46c3": "read",
+  "1ae75230d4221bec6577abec67b68d8c43655884bd7872d92dc60d433f88abe4": "read",
+  "bb86785710a597778d2b3c1d073adf747e8a9b611d98118837ab1e02f9220ff6": "read",
+  "47ee30a7c28d3b9679e73f86dd826dfda00e344c65e0a35fb0994a824418c32e": "read",
+  "e1d8d572d901ea961bdef0d6ef4871485fcb68ba4d5b316e5fc55ed9a113f6c8": "read",
+  "29ae8ddf62c4d7b2a1de22740c5a3423dd7547c00c60002cf06fbc0d48bd1618": "read",
+  "e63d7ddb5a37b4092271c84e216a7b610a646680ebcbf72792fd4b63d3f9e058": "read",
+  "b05e2d2554d08e94259b6e751e86c78f079ceeddb810da84f7ed3546a91b7bc4": "read",
+  "01db397a4b2b78597866e8682fde6470fde3896957a8c4060da9dce0d9466dac": "write",
+  "56d77c035c26df5c940ee66cfd3bae820a2ee491887f6d8fbc6abb5e216defb4": "read",
+  "9b7258d3749c2bac92c42e1f50ae97379dc3bf97a41cf8ecef52f7114cb65096": "read"
+ },
+ "flags": []
+}

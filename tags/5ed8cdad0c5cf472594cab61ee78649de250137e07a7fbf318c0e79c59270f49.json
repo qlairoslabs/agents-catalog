@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5ed8cdad0c5cf472594cab61ee78649de250137e07a7fbf318c0e79c59270f49",
+ "domain": [
+  "finance/personal-finance",
+  "finance/budgeting"
+ ],
+ "product": [
+  "zenfinance"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Keeps household finance context for assistants, including budgets, transactions and monthly reviews.",
+ "whenToUse": "Use when a user wants help tracking household spending, budgets or reviewing a month's finances.",
+ "tasks": [
+  "track transactions",
+  "manage budgets",
+  "run monthly reviews",
+  "store finance memory"
+ ],
+ "effects": {},
+ "flags": []
+}

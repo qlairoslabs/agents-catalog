@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "f37c8735441a6f173a8219d94f1889cf7ac0ec4e101da34f233620e392694c3a",
+ "domain": [
+  "events/tickets",
+  "nonprofit"
+ ],
+ "product": [
+  "tickets4pets",
+  "ticketnetwork"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches about 190k upcoming US live events, with city and category browsing, promo codes and ticket price research; purchases fund animal shelters.",
+ "whenToUse": "Use when a user wants US concert, sports or theatre events, ticket links, deals or typical ticket prices.",
+ "tasks": [
+  "search events",
+  "list categories",
+  "list top cities",
+  "get city events",
+  "explain mission",
+  "get promo codes",
+  "get ticket price index"
+ ],
+ "effects": {
+  "afe5790dff220fe9e315c0d00e2275c40ed8e09c665f4d7f633dd5d810d18371": "read",
+  "bd83b2f71a08ba05182b99962bd1e41ff0bdc7274055385a0d376e81f961c2cc": "read",
+  "788075d6cc93aba8e943dee1c322e558f2e5b3e01ae0bae9303f26689e050a67": "read",
+  "efeaba890ccf1c872d2dd394f3dab5203c0b5df64183759fe593624bb1f70214": "read",
+  "c63c7be39aeec6464bea58cce6a2f98a94749ed220097f67a48551664799748d": "read",
+  "ff509f912e3114f2e958960c330930d91182c945a9c1b8c539bf04a3b09d43f4": "read",
+  "6da87a2c9a9e89c10b7bff7600f287d252afc4deb64cb63ee40cca726fb26a8b": "read"
+ },
+ "flags": []
+}

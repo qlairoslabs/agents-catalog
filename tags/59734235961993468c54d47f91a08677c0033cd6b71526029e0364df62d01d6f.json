@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "59734235961993468c54d47f91a08677c0033cd6b71526029e0364df62d01d6f",
+ "domain": [
+  "web/agent-readiness",
+  "payments/agent-payments"
+ ],
+ "product": [
+  "x402",
+  "mpp",
+  "l402",
+  "openapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scans websites for AI agent readiness, including payment protocols, discovery endpoints, MCP and OpenAPI support, and validates x402.json files.",
+ "whenToUse": "Use when checking whether a website supports agent payments or discovery, or validating an x402.json file.",
+ "tasks": [
+  "scan url for agent capabilities",
+  "get compact readiness score",
+  "view scan history",
+  "validate x402.json"
+ ],
+ "effects": {
+  "a151d3061339a5c3a71717267295c2fdfe0aab879fbd28617f99e49a895fd120": "read",
+  "f8588cf0039bf76a93e8f63cc44338740cdbf3cd77328d356900aae7f3ae6468": "read",
+  "943bedc9c09fb9210d0ef953a00ab5a34681564f107edba4e17ac5122625913e": "read",
+  "32960c4b9b5907ff12f0d93b55891a803ee404fdfafcc44ea9e66cb06c11377d": "read"
+ },
+ "flags": []
+}

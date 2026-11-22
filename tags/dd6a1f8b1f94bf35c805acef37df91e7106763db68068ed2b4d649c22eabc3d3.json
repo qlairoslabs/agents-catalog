@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "dd6a1f8b1f94bf35c805acef37df91e7106763db68068ed2b4d649c22eabc3d3",
+ "domain": [
+  "finance/market-data/equities",
+  "finance/sec-filings"
+ ],
+ "product": [
+  "sec"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides SEC-derived dilution data, live market data and news for U.S. stocks, with point-in-time historical queries.",
+ "whenToUse": "Use when researching U.S. stocks' dilution risk, prices or news, including as of a past date.",
+ "tasks": [
+  "get dilution data",
+  "get live market data",
+  "read stock news",
+  "run point-in-time queries"
+ ],
+ "effects": {},
+ "flags": []
+}

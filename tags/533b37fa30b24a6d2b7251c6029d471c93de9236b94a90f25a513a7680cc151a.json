@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "533b37fa30b24a6d2b7251c6029d471c93de9236b94a90f25a513a7680cc151a",
+ "domain": [
+  "sustainability/carbon-accounting",
+  "sustainability"
+ ],
+ "product": [
+  "greencalculus"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides sourced carbon emission factors and calculations with audit trails that can be cited.",
+ "whenToUse": "Use when an agent needs to calculate carbon emissions with traceable, citable emission factors.",
+ "tasks": [
+  "look up emission factors",
+  "calculate carbon emissions",
+  "provide audit trail for calculations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "03348d560aa6ca079d6e6b4a5836ea9645827869af307a99132b5e0754187734",
+ "domain": [
+  "finance/insurance/life-insurance",
+  "sales/case-management"
+ ],
+ "product": [
+  "backnine"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Authenticated tools for life insurance agents to quote policies, submit electronic applications and manage cases.",
+ "whenToUse": "Use when a licensed insurance agent needs to quote, apply for or track life insurance cases with BackNine.",
+ "tasks": [
+  "quote life insurance",
+  "submit electronic applications",
+  "manage cases"
+ ],
+ "effects": {},
+ "flags": []
+}

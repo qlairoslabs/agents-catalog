@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6417768a44889d01f30c5d7cd65cac51d63f5733413a408ee49856baad6a7688",
+ "domain": [
+  "software/email-infrastructure",
+  "marketing/email-deliverability"
+ ],
+ "product": [
+  "adbtd"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Email infrastructure service for managing mailboxes, domains, dedicated IPs, sending and deliverability.",
+ "whenToUse": "Use when setting up sending domains and mailboxes or monitoring email deliverability.",
+ "tasks": [
+  "manage mailboxes",
+  "manage domains",
+  "manage dedicated ips",
+  "send email",
+  "monitor deliverability"
+ ],
+ "effects": {},
+ "flags": []
+}

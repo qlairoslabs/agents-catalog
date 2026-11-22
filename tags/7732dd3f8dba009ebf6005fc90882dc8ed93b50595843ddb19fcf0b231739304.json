@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7732dd3f8dba009ebf6005fc90882dc8ed93b50595843ddb19fcf0b231739304",
+ "domain": [
+  "software/documentation",
+  "communication/voice-ai"
+ ],
+ "product": [
+  "polyai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads PolyAI platform documentation and API specs, including the realtime voice API, and accepts docs feedback.",
+ "whenToUse": "Use when building on PolyAI and needing documentation, API references or code examples.",
+ "tasks": [
+  "search polyai docs",
+  "read doc pages and openapi specs",
+  "grep docs with shell-like commands",
+  "report documentation issues"
+ ],
+ "effects": {
+  "dfc28af6254b290726bb86572e85c5b10434961e7926f34efdcacc3939c64ff1": "write",
+  "76860c4b2bd1b0516208cef89d69bd61ed024b5670ba0b535032bb49f662c7eb": "write",
+  "fcf9b7723e4121bf5d4f208c3731228c583078ec3029b854addd4aea8601eac9": "write"
+ },
+ "flags": []
+}

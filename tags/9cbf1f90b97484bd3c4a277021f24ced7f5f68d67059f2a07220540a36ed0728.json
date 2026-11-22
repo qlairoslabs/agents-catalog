@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9cbf1f90b97484bd3c4a277021f24ced7f5f68d67059f2a07220540a36ed0728",
+ "domain": [
+  "it/mobile-device-management"
+ ],
+ "product": [
+  "android-management-api",
+  "android",
+  "google-cloud"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Google API for remotely managing enterprise Android devices, apps and policies.",
+ "whenToUse": "Use when administering a fleet of company Android devices, their policies or installed apps.",
+ "tasks": [
+  "manage enterprise devices",
+  "apply device policies",
+  "manage apps on devices"
+ ],
+ "effects": {},
+ "flags": []
+}

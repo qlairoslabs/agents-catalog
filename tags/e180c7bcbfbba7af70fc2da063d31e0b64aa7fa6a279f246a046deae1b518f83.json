@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e180c7bcbfbba7af70fc2da063d31e0b64aa7fa6a279f246a046deae1b518f83",
+ "domain": [
+  "health/telemedicine",
+  "health/prescriptions"
+ ],
+ "product": [
+  "hi-doctor"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Online doctor consultations in the EU covering health questionnaires, prescriptions and messaging with doctors.",
+ "whenToUse": "Use when a person in the EU wants an online consultation, prescription or to message their doctor.",
+ "tasks": [
+  "fill health questionnaires",
+  "request prescriptions",
+  "message doctors",
+  "start consultations"
+ ],
+ "effects": {},
+ "flags": []
+}

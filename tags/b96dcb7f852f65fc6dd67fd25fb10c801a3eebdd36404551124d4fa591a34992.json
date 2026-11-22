@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b96dcb7f852f65fc6dd67fd25fb10c801a3eebdd36404551124d4fa591a34992",
+ "domain": [
+  "business-process/workflow-automation",
+  "software/development"
+ ],
+ "product": [
+  "camunda"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Creates, validates, simulates and deploys Camunda 8 BPMN processes, forms and DMN decisions.",
+ "whenToUse": "Use when an agent must model or deploy Camunda 8 business processes and decision tables.",
+ "tasks": [
+  "create bpmn processes",
+  "validate processes",
+  "simulate processes",
+  "deploy to camunda",
+  "create forms",
+  "create dmn decisions"
+ ],
+ "effects": {},
+ "flags": []
+}

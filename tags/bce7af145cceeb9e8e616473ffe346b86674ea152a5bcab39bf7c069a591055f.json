@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "bce7af145cceeb9e8e616473ffe346b86674ea152a5bcab39bf7c069a591055f",
+ "domain": [
+  "operations/it-service-management"
+ ],
+ "product": [
+  "servicenow"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "ServiceNow connector with per-profile table and field access policies, dry-run batch changes and activity logging.",
+ "whenToUse": "Use when an agent needs governed read or write access to ServiceNow records.",
+ "tasks": [
+  "query servicenow tables",
+  "update records",
+  "run dry-run batches",
+  "enforce field policies",
+  "log activity events"
+ ],
+ "effects": {},
+ "flags": []
+}

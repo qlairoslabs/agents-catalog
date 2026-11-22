@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5f3d9fc2dc85e7f87faedf3971eec56d2af2389b349a6ba5aeb4afd3ffa6af05",
+ "domain": [
+  "software/sdk/barcode-scanning",
+  "software/developer-tools"
+ ],
+ "product": [
+  "scandit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps create a Scandit account, obtain trial license keys and integrate the Scandit scanning SDK into an app.",
+ "whenToUse": "Use when a developer wants to add Scandit barcode scanning to an application.",
+ "tasks": [
+  "create scandit account",
+  "get trial license key",
+  "set up scandit sdk"
+ ],
+ "effects": {},
+ "flags": []
+}

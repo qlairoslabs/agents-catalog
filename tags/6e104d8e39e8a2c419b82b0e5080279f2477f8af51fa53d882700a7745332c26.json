@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "6e104d8e39e8a2c419b82b0e5080279f2477f8af51fa53d882700a7745332c26",
+ "domain": [
+  "software/developer-tools/code-analysis"
+ ],
+ "product": [
+  "serena"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server for semantic code analysis, navigation and refactoring help using language servers.",
+ "whenToUse": "Use when navigating or refactoring a large codebase and symbol-level understanding is needed.",
+ "tasks": [
+  "semantic code navigation",
+  "code understanding",
+  "refactoring suggestions"
+ ],
+ "effects": {},
+ "flags": []
+}

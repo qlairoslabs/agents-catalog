@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0bb0147b469b97c650ffef1cf5b4f49fb30b8d84506b02c1cea6d463c2cbe99d",
+ "domain": [
+  "health/diabetes",
+  "health/nutrition"
+ ],
+ "product": [
+  "journey-for-health"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to glucose readings, meals and spike data a user shares from Journey for Health.",
+ "whenToUse": "Use when a user wants to review their shared glucose, meal or blood sugar spike data.",
+ "tasks": [
+  "read glucose data",
+  "read meal logs",
+  "review glucose spikes"
+ ],
+ "effects": {},
+ "flags": []
+}

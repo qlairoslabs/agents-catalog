@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "67595bfdbcce2683605a1c81cfb041a12a209629e487f3b8871592ced3f4903e",
+ "domain": [
+  "finance/market-intelligence",
+  "media/podcasts"
+ ],
+ "product": [
+  "audioalpha"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides sentiment, narratives and asset signals extracted from over 100 financial podcasts.",
+ "whenToUse": "Use when an agent needs what financial podcasts are saying about markets or specific assets.",
+ "tasks": [
+  "get podcast sentiment",
+  "track narratives",
+  "get asset signals"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "52d09c8892395df6cf6d889c5adb91cd17d855ddc90c33a1ca68760ea2be2166",
+ "domain": [
+  "productivity/transcription",
+  "productivity/meetings"
+ ],
+ "product": [
+  "riverscript"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Provides AI agents with access to RiverScript transcripts of meetings, calls and interviews.",
+ "whenToUse": "Use when the user wants to read or work with their RiverScript meeting, call or interview transcripts.",
+ "tasks": [
+  "access meeting transcripts",
+  "access call transcripts",
+  "access interview transcripts"
+ ],
+ "effects": {},
+ "flags": []
+}

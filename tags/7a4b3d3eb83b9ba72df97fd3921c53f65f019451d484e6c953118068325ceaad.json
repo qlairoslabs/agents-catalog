@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7a4b3d3eb83b9ba72df97fd3921c53f65f019451d484e6c953118068325ceaad",
+ "domain": [
+  "compliance/digital-product-passport",
+  "manufacturing/product-data"
+ ],
+ "product": [
+  "passportcraft"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Creates and manages EU Digital Product Passports for textiles, batteries and general goods via PassportCraft.",
+ "whenToUse": "Use when a manufacturer or seller needs to create or update EU Digital Product Passports.",
+ "tasks": [
+  "create digital product passports",
+  "manage passports",
+  "handle textile passports",
+  "handle battery passports"
+ ],
+ "effects": {},
+ "flags": []
+}

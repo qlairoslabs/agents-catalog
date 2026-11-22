@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "26761697b125c3e421abb8673dd9361286a7cb0987b12afc68553e35d6df36c7",
+ "domain": [
+  "games/poker",
+  "analysis/probability"
+ ],
+ "product": [
+  "pokerink"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Calculates exact Hold'em and Omaha equity, analyzes made hands and draws, and computes pot odds.",
+ "whenToUse": "Use when a user needs poker equity, outs or call-or-fold math.",
+ "tasks": [
+  "calculate equity",
+  "analyze hand and draws",
+  "calculate pot odds"
+ ],
+ "effects": {
+  "067698775561d1ec4b30884dddc791394d373f30c256dc1c5245c2de2e6e2092": "read",
+  "329901d6fb0bc235ed1ead4223f5489b996bbbdb2982169490f47280e7f6577f": "read",
+  "36c33f50333d1bf0bf045f4bd11d62d28f3fb5a7e12697a76fe2970a7e43dbde": "write"
+ },
+ "flags": []
+}

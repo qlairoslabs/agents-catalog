@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "de9f2510ba5719c86bec4dc4c3aebb77f6b7c5d787b2cb8bc64b2fe97e35d92f",
+ "domain": [
+  "legal/regulatory-compliance"
+ ],
+ "product": [
+  "reglayer"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Paid regulatory research service that produces company-specific briefs for business questions and screens supplied materials, as data or PDF.",
+ "whenToUse": "Use when the user needs a regulatory assessment across up to three jurisdictions or a compliance check of documents.",
+ "tasks": [
+  "list regulatory products",
+  "prepare paid brief request",
+  "check brief status",
+  "get brief result",
+  "get brief pdf",
+  "prepare document check request",
+  "check screening status",
+  "get check result and pdf"
+ ],
+ "effects": {
+  "f590d86d22d579ae06aaaffaa31c72a890c137141a6c420f3599567505af6724": "read",
+  "127b517a6625948038d84fa15acd3b547c6179615fbe73e37c55eafd245551ec": "read",
+  "8a1b5dff448d929df01d654a8045921f3d86953706d7943d0a8cb9facdee102b": "read",
+  "2bd4755f32d6b6af1ab90fe8e02d9c2ae42af57051116da390c7ec3522a3193f": "read",
+  "c35d2c7aee4c67b436f5bf0ba889b37e61f73e3ff8d5cace522232707bf7e98e": "read",
+  "5bc415c3ecb0aa00cdd2fc96b618af78bfe807f1d59fd25fb89d9d62d820642d": "read",
+  "58664bef98b5a5bf624c7e27106ced55ccaa49d6ef238ed1678d007c6ab9d178": "read",
+  "d924b1dd2f36e1b03d1cde5e93a4650222c568c736755372b8f58493d998e4e8": "read",
+  "fc230f5cad6fa9b57df3151b7f0816001a23b534296aaf1de935a2d1c6a68bd2": "read",
+  "b48592d351a8a0a9abe101bfe95e0c8473944a243b7f516cae4147a251d3cb7a": "read"
+ },
+ "flags": [
+  "access_token descriptions tell the agent to never expose the token to the end user"
+ ]
+}

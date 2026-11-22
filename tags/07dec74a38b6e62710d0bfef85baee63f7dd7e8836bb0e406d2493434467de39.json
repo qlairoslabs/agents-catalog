@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "07dec74a38b6e62710d0bfef85baee63f7dd7e8836bb0e406d2493434467de39",
+ "domain": [
+  "home-services/renovation"
+ ],
+ "product": [
+  "the-renovation-room"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Directory of Chicagoland renovation contractors, a fact-checked renovation FAQ and a prefilled project submission link.",
+ "whenToUse": "Use when a Chicago-area homeowner wants contractors, renovation answers or to request quotes.",
+ "tasks": [
+  "search contractors",
+  "get contractor listing",
+  "answer renovation questions",
+  "build project form link",
+  "explain quote process"
+ ],
+ "effects": {
+  "1a0ee0ef7cca88e0de9d1b493e2b870a423c27efc9dc7d55b9b6b649f8a286f9": "read",
+  "94ee1b41138cde3c2e8fa4dd342cfbec3d5109e02d8290e0a0cca5fb0751c798": "read",
+  "59ff2744606b061730a06b0d93f05e0d95b19ac6b501dda856ad20b633aae210": "read",
+  "11099e8a928dd9f83721aa6f57a3f1926e78055700acde61203d5a4b036d9b59": "read",
+  "aafc58f165149ee058df95b95ba68900fd64a1c68dfa189ba2aa0ad96cc325d2": "read"
+ },
+ "flags": []
+}

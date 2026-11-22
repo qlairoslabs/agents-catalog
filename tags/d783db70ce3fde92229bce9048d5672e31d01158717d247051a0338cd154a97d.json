@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d783db70ce3fde92229bce9048d5672e31d01158717d247051a0338cd154a97d",
+ "domain": [
+  "ai/agent-management",
+  "finance/cost-management"
+ ],
+ "product": [
+  "metrxbot"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local server for overseeing a company's AI agents, covering performance reviews, contracts and bill checks.",
+ "whenToUse": "Use when reviewing how a company's deployed AI agents perform, what they cost, or their contracts.",
+ "tasks": [
+  "review ai agent workforce",
+  "manage agent contracts",
+  "check agent bills"
+ ],
+ "effects": {},
+ "flags": []
+}

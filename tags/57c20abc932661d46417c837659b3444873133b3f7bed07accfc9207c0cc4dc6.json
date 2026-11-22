@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "57c20abc932661d46417c837659b3444873133b3f7bed07accfc9207c0cc4dc6",
+ "domain": [
+  "software/dependency-management",
+  "software/cybersecurity/vulnerabilities",
+  "software/ai-models"
+ ],
+ "product": [
+  "npm",
+  "pypi",
+  "crates-io",
+  "packagist",
+  "osv",
+  "openrouter"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Reports package versions, breaking API changes, vulnerabilities, compatible versions, end-of-life dates and AI model status across npm, PyPI, crates and Packagist.",
+ "whenToUse": "Use when choosing or upgrading dependencies, auditing a manifest, checking EOL dates or catching up on changes after a training cutoff.",
+ "tasks": [
+  "check package status",
+  "list package versions",
+  "diff npm api between versions",
+  "check symbol existence",
+  "find compatible versions",
+  "check version vulnerabilities",
+  "audit package.json or requirements.txt",
+  "list recent ecosystem changes",
+  "look up ai model pricing and status",
+  "check end-of-life dates",
+  "list changes since a cutoff date",
+  "find packages by name prefix"
+ ],
+ "effects": {
+  "2d8d389e5af3f3873fb51a1be6903be0f3089c517463c173cd62444ddab07667": "write",
+  "eef9584a82e99019422ae2811c3d22556bc046ddf472db7414ccc1362d02a217": "write",
+  "a325c48db45391f31aadb13527c232b4dcf677e4a71bdd5868651c4e1f7c0013": "write",
+  "3bae85e9327feb4584460b532b02b9f34cb165ad465764910e0d9a9cd79d45eb": "write",
+  "643648e51b6637d475073d5ae62425d69c10397a697e3a71aeadd874cb9b1967": "write",
+  "445b13166295b853edc422718cb09481ea22d9e53fccf1f27b372da9e10cf9dc": "write",
+  "8a572b073a1914a03cc14a8c7d93f8c61f701c205e6bec396b0f4fc5e664dd13": "write",
+  "58a9ef358f159b8c162fae5078d0c911773deee5cfe4ffc350d1f5bf9631938d": "write",
+  "26b24417dbe0fbf6cc39a5791c6b387dbcdea362dd316ed17e7717de9e238f60": "write",
+  "c6cf470b75d8ee7dab57d4b6be77d9e4b8124a77973ae16befd7594ec17ff913": "write",
+  "e1dea32ccad36a7a440db29727e3da531131932fedf910d79f7768631880efa5": "write",
+  "044af87080c709be02fb95efa129008b5100e1e840c7c4bbd998d9a60a180231": "read"
+ },
+ "flags": []
+}

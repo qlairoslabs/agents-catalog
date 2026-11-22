@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c17be081e4ea90ffba02be7595f38b1f8c1f5cdb904ebc4e7eb43ecacd7ea2b8",
+ "domain": [
+  "software/networking",
+  "software/devops"
+ ],
+ "product": [
+  "ngrok"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Manages ngrok endpoints, domains and traffic policies from an agent.",
+ "whenToUse": "Use when an agent needs to inspect or configure ngrok endpoints, domains or traffic policy.",
+ "tasks": [
+  "list endpoints",
+  "manage domains",
+  "edit traffic policy"
+ ],
+ "effects": {},
+ "flags": []
+}

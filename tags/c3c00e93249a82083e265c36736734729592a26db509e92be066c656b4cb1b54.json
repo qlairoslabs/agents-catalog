@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "c3c00e93249a82083e265c36736734729592a26db509e92be066c656b4cb1b54",
+ "domain": [
+  "utilities/web-tools",
+  "design/graphics",
+  "media/text-to-speech"
+ ],
+ "product": [
+  "fish-audio",
+  "google-fonts"
+ ],
+ "audience": [
+  "everyone",
+  "development",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Free utility tools: disposable email inbox, mind maps, passwords, time zones, CSV charts, Portuguese TTS, favicons, backgrounds and web-to-Markdown.",
+ "whenToUse": "Use when an agent needs a quick utility such as a chart, favicon, password, time zone conversion, page as Markdown or Portuguese audio.",
+ "tasks": [
+  "create disposable email inbox",
+  "create mind maps",
+  "generate passwords",
+  "compare time zones",
+  "draw charts from csv",
+  "convert text to portuguese speech",
+  "generate favicon sets",
+  "generate backgrounds and banners",
+  "convert web pages to markdown"
+ ],
+ "effects": {
+  "d3dbf25991fb73588519b6db6c6b3a759c1d7bfa74eb60b5efb4b787055f3564": "write",
+  "fe387cd9bdefe9e1c263a44bb71f6c23369406a8777f465d5058acc0db386a0d": "write",
+  "57e5fa589042c19d0e06d83c67b319809e0249ce2c35aec0b827080a330aca58": "read",
+  "1a9bb65c50a0e898104fea153da00786188fb4040f3056fb9ba90a534d96639e": "write",
+  "0a3641507e63b619872ade033fcbc03addf29ca4e4aa78c591a4d074b32e8454": "write",
+  "3733c5fb7036f94ec7353e438e9ef54c91bedfc479011d36bb621ca16a474bf4": "write",
+  "f966e5c3fc77bc20ac2024cd2b475fc684ed8bb720a2fdc0e5d0f1a6de2a3c9c": "write",
+  "de3b32f37649889d48b09b61c2ebb69d71bc3668c352476158e77955cc37f1dc": "write",
+  "98e2663eabc428592978628f7165e3bc795e29be8639e51a3e7da7d00f019f60": "write"
+ },
+ "flags": [
+  "undisclosed disposable email tool intended to sign up for services without the user's real address",
+  "generate_favicon description instructs the agent to prefer another tool from the same host"
+ ]
+}

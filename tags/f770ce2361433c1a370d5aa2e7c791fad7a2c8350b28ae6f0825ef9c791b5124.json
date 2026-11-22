@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f770ce2361433c1a370d5aa2e7c791fad7a2c8350b28ae6f0825ef9c791b5124",
+ "domain": [
+  "local-services/booking",
+  "payments/links"
+ ],
+ "product": [
+  "kaio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid"
+ ],
+ "summary": "Finds and books local businesses in Italy on Kaio, showing real availability and issuing payment links.",
+ "whenToUse": "Use when a user wants to find and book an appointment with a local business in Italy.",
+ "tasks": [
+  "search local businesses",
+  "check available times",
+  "book appointment",
+  "get payment link"
+ ],
+ "effects": {},
+ "flags": []
+}

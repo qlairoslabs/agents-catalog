@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "e32889cac2c80d19a80904c22bb9da532aae7d51432939540917134b726e72b9",
+ "domain": [
+  "finance/trade-data",
+  "finance/market-intelligence"
+ ],
+ "product": [
+  "eurostat",
+  "polymarket",
+  "daloopa",
+  "mt-newswires",
+  "base"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Free tools for EU trade statistics, agent trust profiles, prediction-market and token signals, commodity news and equity fundamentals.",
+ "whenToUse": "Use when you need EU trade flow data, commodity headlines, or signals from the Sputnik X agent ecosystem.",
+ "tasks": [
+  "query EU trade data",
+  "search tenant products",
+  "get prices",
+  "view agent trust profile",
+  "verify agent hash chain",
+  "browse insights",
+  "browse bounties",
+  "get prediction signals",
+  "get token wave signal",
+  "view wave portfolio",
+  "get front-running signals",
+  "fetch commodity news"
+ ],
+ "effects": {
+  "b9be2ea0007dc59a11ea8cd079d7bb45282558fe21b4359b978f71b9bdf33b61": "read",
+  "ba88cd7f7910879877eec76f4fd8ddcde275d9860f6a202ebb5a2d26c2546747": "read",
+  "68604dea39373ea12df0f421c550146369cbf812bf7eac6f2cef97b31ef53850": "read",
+  "6e00f5e6dc3b496ec5ccbf0a5ee41d07e3a8c8146c2fa098a6b3df3d446a7530": "read",
+  "0c2673f5e8313dbdf46dfa9ff96a8bbd4d100dcf41ac3f205c4b5a188a63f7fb": "read",
+  "998e4e0a5f78464922bcf4e3c5ac2c6e7071d4ee8edd3e768c12515e42adb864": "read",
+  "5bb0140070cd957768828acbc001b9b334ecaa1c48f6b31117b79f027f93ebd1": "read",
+  "bb82110d8e6f5885468572e07956e5ad63975dc0bcf29cd3edb37cc1c5933ee5": "read",
+  "bfe66fe7e4e6d91c0c4e27cc149d054955d23b9f6f55b921ec3df93acb5ff634": "read",
+  "1cc269e85ad8bba7c00294360e7693e57055ab101b2a1838ad8b5ba5e003604c": "read",
+  "08404d7ca384d7b6fe93ab3c915af38ed6ba714f82c8428e1e0abe26fb4e720c": "read",
+  "00d8f5f49694154872afdb733f3c3fbbac587bccee10e4e391a4f3ca69d718f9": "read",
+  "01461043853071f58d83171347bbbacba6c4b078f4e834270bbd10d5e36fa833": "read",
+  "111ba5c51259804a3bffd876e258a1e58cb1e5febb001de4a3699c7c370ad5ec": "read",
+  "67e3e855ea514c3b70ed3352cea208ff68de4f79ad5036e7c329eba987940e8d": "read",
+  "165c28be8f9a4194354f00102b738e46f4b600fd323ba281bf1f144374bbd81b": "read",
+  "98e76d5ac40ce1c9932f46895a268333bccf1059fa3a89b83c72359a6179a042": "read"
+ },
+ "flags": []
+}

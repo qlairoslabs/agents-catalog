@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0d1e11b3a49866bf929b497a0eab6b8ff74ada7828e3ba6a6fa223bef721bce3",
+ "domain": [
+  "media/video-production",
+  "marketing/content"
+ ],
+ "product": [
+  "youtube",
+  "framesail"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Produces long-form YouTube videos from script and storyboard through voiceover to a finished MP4 file.",
+ "whenToUse": "Use when an agent needs to generate a complete long-form video for YouTube from a topic or script.",
+ "tasks": [
+  "write video scripts",
+  "create storyboards",
+  "generate voiceovers",
+  "render mp4 videos"
+ ],
+ "effects": {},
+ "flags": []
+}

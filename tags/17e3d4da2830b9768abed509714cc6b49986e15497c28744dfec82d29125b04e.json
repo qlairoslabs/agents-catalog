@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "17e3d4da2830b9768abed509714cc6b49986e15497c28744dfec82d29125b04e",
+ "domain": [
+  "music/royalties",
+  "music/rights-registration"
+ ],
+ "product": [
+  "the-mlc",
+  "musicbrainz",
+  "spotify",
+  "youtube",
+  "cwr"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Checks recordings and catalogues against The MLC for registration status, looks up song rights data, validates CWR files and logs full-report requests.",
+ "whenToUse": "Use when verifying music royalty registration for ISRCs or songs, or validating a CWR file.",
+ "tasks": [
+  "look up recording by ISRC",
+  "check catalogue in batch",
+  "find writers and ISWC",
+  "validate CWR file",
+  "request full report"
+ ],
+ "effects": {
+  "0c75da2d200de5d8b8abd40418c4cf0a9d0654af4653828b4988f3a4e782ab18": "write",
+  "61c8e7d45d40576721c6b94ddf5e7e33fc40373e2ef709df87686bc1ad68011c": "write",
+  "c8f65cc5b73abe76a8d6459b3a661fd885de687bcce465e1b98be1a3715e047f": "read",
+  "2d551bde676dea97b0d16b36ef47590ff123600348fb5895dcfa4d53a178a36b": "write"
+ },
+ "flags": []
+}

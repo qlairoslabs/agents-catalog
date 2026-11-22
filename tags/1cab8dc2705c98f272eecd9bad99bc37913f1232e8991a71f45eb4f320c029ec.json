@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "1cab8dc2705c98f272eecd9bad99bc37913f1232e8991a71f45eb4f320c029ec",
+ "domain": [
+  "home-services/contractors",
+  "local/massachusetts"
+ ],
+ "product": [
+  "masshomecomfort"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Finds home-improvement contractors in Massachusetts towns and prepares estimate visit requests that the homeowner confirms on the site.",
+ "whenToUse": "Use when a Massachusetts homeowner wants a contractor or an estimate visit for HVAC, roofing, plumbing or similar.",
+ "tasks": [
+  "check town and trade coverage",
+  "find contractors",
+  "get booking questions",
+  "list visit windows",
+  "start estimate request",
+  "check booking status"
+ ],
+ "effects": {
+  "7570efb152dd821bb7bd67d14ad3559b94d94e0be7ab56571d17db5649a1c1d2": "write",
+  "edc722d650467b443f12038ea30c8bb0adac1b172bf0df58f1b7024f4e6ab572": "write",
+  "a40d91e23628f3e0d48cc1752abcdb60c37e3f6aa0619b3081545939486cca10": "read",
+  "6576b04fd8d2b9824f5d055a6a8da7bbf49f3903c3b08e92435c4a1fc9a1aba5": "read",
+  "6594d976828f6d8a23fe5cde067ec963d71a1c9efcaef0d91ce1c0e27a35c45b": "write",
+  "98762f23c60899c3b50ee18e7e8834d26a720f8c5b4011e7a4712e74e2a1271b": "read"
+ },
+ "flags": []
+}

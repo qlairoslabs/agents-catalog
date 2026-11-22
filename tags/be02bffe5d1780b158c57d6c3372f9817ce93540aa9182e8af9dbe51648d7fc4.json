@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "be02bffe5d1780b158c57d6c3372f9817ce93540aa9182e8af9dbe51648d7fc4",
+ "domain": [
+  "design/web-design",
+  "software/frontend"
+ ],
+ "product": [
+  "standout"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Gives AI coding agents design art directions, section code snippets and a 0-100 page design critique.",
+ "whenToUse": "Use when an agent is building a web page and wants design direction or a critique of its look.",
+ "tasks": [
+  "suggest art directions",
+  "provide section code",
+  "score page design"
+ ],
+ "effects": {},
+ "flags": []
+}

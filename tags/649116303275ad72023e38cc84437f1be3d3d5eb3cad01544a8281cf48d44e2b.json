@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "649116303275ad72023e38cc84437f1be3d3d5eb3cad01544a8281cf48d44e2b",
+ "domain": [
+  "software/databases",
+  "software/version-control"
+ ],
+ "product": [
+  "mongodb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides branchable MongoDB sandboxes for agents, with diff, merge and undo built on Git-like versioning.",
+ "whenToUse": "Use when an agent needs to experiment on MongoDB data safely with branches and the ability to roll back.",
+ "tasks": [
+  "create database branch",
+  "diff branches",
+  "merge branches",
+  "undo changes"
+ ],
+ "effects": {},
+ "flags": []
+}

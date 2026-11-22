@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "baaee1f9dd5572c5d8f1adf46395f42f492cd8fb62f807c4f849d4cfaf743f18",
+ "domain": [
+  "health/weight-tracking",
+  "health/nutrition"
+ ],
+ "product": [
+  "weight-forecast",
+  "garmin",
+  "telegram"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Weight tracking service that forecasts goal-weight dates, logs food, syncs Garmin and coaches via Telegram.",
+ "whenToUse": "Use when someone wants to log food, track weight progress or estimate when they will reach a goal weight.",
+ "tasks": [
+  "forecast goal-weight date",
+  "log food",
+  "sync garmin data",
+  "get daily coaching"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "02557188ca9e470e31b703a2611239b7f5284446cd2bc0b8b28d238bef3a28f0",
+ "domain": [
+  "music/theory/harmony"
+ ],
+ "product": [
+  "thiri"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Computes music theory results such as chord analysis, voicings and reharmonisation deterministically for agents.",
+ "whenToUse": "Use when a task needs exact chord analysis, voicing or reharmonisation rather than guesswork.",
+ "tasks": [
+  "analyse chords",
+  "generate voicings",
+  "reharmonise progressions",
+  "conduct arrangements"
+ ],
+ "effects": {},
+ "flags": []
+}

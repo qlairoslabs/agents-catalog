@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "97bdac2a4d244048a61a4cc1301cd7b3e041e0fc34cf7bc6ba1619a7b4160d2e",
+ "domain": [
+  "sales/lead-generation/enrichment",
+  "sales/intent-signals"
+ ],
+ "product": [
+  "pipe0"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Go-to-market data service for building and enriching lead lists and monitoring signals like job changes and hiring.",
+ "whenToUse": "Use when building or enriching prospect lists or tracking buying signals such as job changes and hiring.",
+ "tasks": [
+  "build lead lists",
+  "enrich leads",
+  "monitor job changes",
+  "track hiring signals"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c631c34956b744ce79ddcef044a66a969c512c273f719b553a1c19250f9e569b",
+ "domain": [
+  "software/marketplace"
+ ],
+ "product": [
+  "crela"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "sell",
+  "build-software"
+ ],
+ "summary": "Local npm connector to search the Crela software marketplace and publish, update and review listings.",
+ "whenToUse": "Use when a user wants to find software on Crela or publish and update their own software there.",
+ "tasks": [
+  "search marketplace",
+  "publish software",
+  "update software",
+  "review software"
+ ],
+ "effects": {},
+ "flags": []
+}

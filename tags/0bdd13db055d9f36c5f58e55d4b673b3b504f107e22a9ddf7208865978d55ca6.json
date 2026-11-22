@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0bdd13db055d9f36c5f58e55d4b673b3b504f107e22a9ddf7208865978d55ca6",
+ "domain": [
+  "commerce/product-search",
+  "commerce/price-comparison"
+ ],
+ "product": [
+  "channel3"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches a large product catalogue showing offers and live prices from multiple retailers.",
+ "whenToUse": "Use when a user wants to find a product and compare retailer prices.",
+ "tasks": [
+  "search products",
+  "compare retailer offers",
+  "get live prices"
+ ],
+ "effects": {},
+ "flags": []
+}

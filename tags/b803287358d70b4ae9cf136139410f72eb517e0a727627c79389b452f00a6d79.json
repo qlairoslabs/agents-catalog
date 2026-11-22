@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "b803287358d70b4ae9cf136139410f72eb517e0a727627c79389b452f00a6d79",
+ "domain": [
+  "software/open-source-discovery"
+ ],
+ "product": [
+  "github",
+  "srclog"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches GitHub repositories, finds similar repos, browses topics and ranks top developers and organizations.",
+ "whenToUse": "Use when looking for open-source projects, alternatives to a repo, or top developers by language or country.",
+ "tasks": [
+  "search repos",
+  "get repo details",
+  "find similar repos",
+  "list topics",
+  "list topic repos",
+  "rank developers",
+  "get owner profile"
+ ],
+ "effects": {
+  "9caf7e6e50bddb5559f90b60968e8afbb7e53db4f4119866ff5aabfac8351f3c": "read",
+  "b3c39eb51afefa39bc4ca4180d3a26cf83630a54579dc4ae68723b5aacf05ece": "read",
+  "db8f5293f6f8c59fd66e1997d4d115e3ce9575caa3570f5a44bda909b1208cf9": "read",
+  "0a9efbbb0e905f70e55151b95fbfcc04b20b7eabd6f5e8b852e19afe703be48b": "read",
+  "38d0dae80a9185ed97cc67a330aba996c29997d5807651d09deafdea84b3145d": "read",
+  "663409e2d793935130d8a73cfc150bbd3f926bdb20dab30bd788cb79a43546d4": "read",
+  "8ee3a7ec5c6ae3f29efeb11313028da05feed724e5facc77c54fb5830b32bdc3": "read"
+ },
+ "flags": []
+}

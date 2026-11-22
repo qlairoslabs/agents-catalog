@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d7abaad96c09d2b735812727aa3589044c2a8e7812ff8b67b178914bfa9853b8",
+ "domain": [
+  "product/in-app-guidance",
+  "software/frontend"
+ ],
+ "product": [
+  "pendo"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "support-customers"
+ ],
+ "summary": "Builds Pendo in-app guides such as walkthroughs, announcements and polls as HTML/CSS/JS from a short intake conversation.",
+ "whenToUse": "Use when creating a Pendo in-app guide or announcement.",
+ "tasks": [
+  "gather guide requirements",
+  "build walkthroughs",
+  "build announcements and alerts",
+  "build polls",
+  "build promotions"
+ ],
+ "effects": {},
+ "flags": []
+}

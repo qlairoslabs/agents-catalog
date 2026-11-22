@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c7f52adb0bfd085e64ccffef3f09747b29aa49983e0acf800564f996d5332efa",
+ "domain": [
+  "software/api-documentation",
+  "content/documentation"
+ ],
+ "product": [
+  "showdoc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Remote management of ShowDoc documentation and API docs, with many tools and per-user token auth.",
+ "whenToUse": "Use when an agent needs to read or edit project or API documentation stored in ShowDoc.",
+ "tasks": [
+  "manage doc pages",
+  "manage api docs",
+  "organize projects"
+ ],
+ "effects": {},
+ "flags": []
+}

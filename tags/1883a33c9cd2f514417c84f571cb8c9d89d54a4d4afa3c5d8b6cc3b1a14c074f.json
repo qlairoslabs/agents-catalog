@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "1883a33c9cd2f514417c84f571cb8c9d89d54a4d4afa3c5d8b6cc3b1a14c074f",
+ "domain": [
+  "marine/boat-marketplace",
+  "travel/boat-rental"
+ ],
+ "product": [
+  "obato"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Searches Obato's European boat marketplace for boats for sale or rent and marinas, with market stats, brand comparisons and an AI boat expert.",
+ "whenToUse": "Use when looking for boats, rentals or marinas in Europe, or when judging boat prices and brands.",
+ "tasks": [
+  "search boats for sale",
+  "get boat details",
+  "get market stats",
+  "compare brands",
+  "get pricing stats",
+  "find marinas by amenities",
+  "search rental boats",
+  "ask boat expert",
+  "get market snapshot",
+  "get brand info",
+  "get citable facts"
+ ],
+ "effects": {
+  "d925453e3c3585dd98e1e737fd150ca9253b0940dcd973322ee8034fb59b4e9c": "read",
+  "9fcc967752bb4ce12ef101e4b61c5e6cdb3dd96473df2274ac4fce6773c3187b": "read",
+  "ec36eb08822d78e0d9fe31b6591eae0aae58f28a7b80bd618b4100a8d94b23a6": "read",
+  "7580df003110086d839405d5a21b46b971f01de9c1436c5f841b1e106b992b00": "read",
+  "005fc1b56d40be5c29d41f1809580835ac3339551d3edf8041b36d6ff4163be3": "read",
+  "0a32535333bf53e0a3d5274339ac41e3ac5086d4adbc27d65f3e894084a98191": "write",
+  "3d34c028a205724fbb80463497fa516dbdf74277fc59508abbb3ffc77f34577f": "read",
+  "92cfcc7183849532034a1d197cad01889fa24a6c6df631a7e5ceeea23b89a3f6": "read",
+  "f0ef77593ca378fc713e0a2aeb164b6d92b8434cb7bd0846d54b93231a641bce": "read",
+  "c0db269c1114b261df418d2a5ae3355f905129d84d9b2376416cb719707460be": "read",
+  "59fe8bab4f33313225f5bac4f759e4569fd0d4484cce820feaae94af294bef69": "read"
+ },
+ "flags": []
+}

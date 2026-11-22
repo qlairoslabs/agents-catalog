@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "00c798b5453a3a20cdfc51a646eaeb170128dafdd5833d6efe262e0a6108d3f5",
+ "domain": [
+  "software/browser-automation",
+  "software/debugging"
+ ],
+ "product": [
+  "firefox"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Lets an agent drive and debug a Firefox browser, including navigation, form filling, network and console inspection, and profiling.",
+ "whenToUse": "Use when an agent needs to automate, test or debug a web page in Firefox.",
+ "tasks": [
+  "navigate pages",
+  "fill forms",
+  "inspect network requests",
+  "read console output",
+  "profile performance"
+ ],
+ "effects": {},
+ "flags": []
+}

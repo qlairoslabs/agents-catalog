@@ -1,0 +1,79 @@
+{
+ "classifier": 2,
+ "contentHash": "795d894e993fde60039a451a6712322ce19d6b0b734675fbf78bfb8d13cf80fd",
+ "domain": [
+  "crypto/market-data",
+  "crypto/defi-analytics"
+ ],
+ "product": [
+  "alphagrowth",
+  "defillama",
+  "coingecko"
+ ],
+ "audience": [
+  "finance",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "Free crypto data covering project metrics, TVL, fees, volumes, funding and investors, yields, stablecoins, token unlocks, grants and DAO treasuries.",
+ "whenToUse": "Use when an agent needs to research crypto projects, chains, DeFi yields, investors, token unlocks, prices or DAO treasuries.",
+ "tasks": [
+  "find and rank crypto projects",
+  "read TVL and fee history",
+  "look up funding rounds and investors",
+  "list upcoming TGEs and token unlocks",
+  "find DeFi yield pools",
+  "find borrow markets for a token",
+  "get token prices and history",
+  "track stablecoin supply",
+  "read DAO treasuries",
+  "find grants and hackathons",
+  "read crypto Space transcripts"
+ ],
+ "effects": {
+  "65180fe39731256a3451b0a862c5a3047db5ee12ef911b7e1634a20ebec4b8f6": "read",
+  "d7eefa243f49f381d4f6ed9d8ec31b18e608f13763ccc1926d540483861ff5a0": "read",
+  "017fe1ef8f33d4c40e47c7a2a449de732c81e3484a836af64c441b445db96958": "read",
+  "ca3b23567c131251345d6848f0d5755b7b3cab88930dac83da77102dba0d47a0": "read",
+  "076a5353a84a1be57e72fc0491bfe00311169fd86b676e8913d3bd0c2a0461b1": "read",
+  "97aed78ad8aca4d023efef39c1fa45e25b78ef8d801ede0cfb69b38b6d8a33bd": "read",
+  "46ca3439d251c5ce4444b6c4f970142d33fb98ca32420db65c37b2943749ce80": "read",
+  "cc9307e294d8eb53167e6fa68c551997726a0274c513a2260d32681ab6d09f0b": "read",
+  "da67b061df8d7ab15038c98cea4591da59ebdd9bb6c1f8e6f339fdb297c5d5d4": "read",
+  "e3c85d4fd1bc66e68ddd2fa330bef9b4a26ab568a80fa5641007404c6d0eae13": "read",
+  "0691711da5816224bb88d4e9f33e823641a09e55a2ec88cf7cacbe58c2b5c430": "read",
+  "073cbb7b7287697bb7cc1ca05d216cba47c11111adc437504ac8d81e1401ea7a": "read",
+  "1bbc08ed6dba3773559a4bf7568e954e0181a30e247cc6e0a565b033c2da938a": "read",
+  "12f910193676d968ce61049fb212203762149af2920eace3db556a0270f944bd": "read",
+  "e0370075a0322e49692ca01a0c8f5c299583352a9111c94acf399831dc8a0058": "read",
+  "b647b2c2ca0962d787c114801909f868f90c8d883d0673de8680996c429512c1": "read",
+  "6780f638740cd07f78cf9b3d846f3a0993aa842ef831bbd3bda3b56883765f4b": "read",
+  "2753e8c94fd7d0dbb4ee46d0cd64246c67a289d44ecf261f1d3fb9ce90e60cbc": "read",
+  "5ad9c2bc767c178b0e869550cf6543c96861bfa1bef86147ef28cc4007325728": "read",
+  "58a4a4f7748aabc765b2420293cf70e09205cdd21b376c6cefa7c6576a4fcbb2": "read",
+  "75a11f26e3e5ce94a6add06f5878a4e053f4a9e2e4be33dab982ea586a314686": "read",
+  "4f79dfe4433b6765711969682c2730a19f73c366b92be84d91b5a6c4651eb227": "read",
+  "9dca55bc4a63f45f8495ebb5e6ee6b6e62768dc0d6136389fab3f706a11595c1": "read",
+  "31f12151f2e560561f052c06d1f315111989869cff1123ddf757661015d67899": "read",
+  "93ffce200b02f7b14dadc75ac91477f89dbe2b5ba93a51384f7aa446177fa87d": "read",
+  "7ea369ab8755795115dd9215e9e57d9e58b1c4be68874bcb9afe80d2e5cf0481": "read",
+  "78a355794a32caa8bedeacc2457b4608a569e599a6752cb0394f03ade2855813": "write",
+  "d3e19abdfe1d37055972baa33c31b3e37e5203a7a36af6a40a7f93d65802be27": "read",
+  "f7731ad2d84f1d6dde5d57623d3b888c2596190d8fd1e695899437c191ad322a": "write",
+  "4e5ed5a7187eb78758470f78711e2f9d2533867272ff594be3ca3f136c671750": "write",
+  "190e845adcd40c98423713878d209522fd771e0242c249b5184c6bd474be2e1b": "read",
+  "146c7b26fc9ffe8733f29ff2f4252b20be98634e6bc2acb6dd978e3264ef4139": "read",
+  "e520a7d20a9433ecc3cecadd74af5de7dc65d1fb2d28fafff4aebce16048857a": "read",
+  "c72ea122ea01e2f3861c797cb75d0e519d2414fe08090acb3843339b8700e0a8": "read",
+  "f2e119451906417affd5667a410a2092737435585a554749d350a82da26b1426": "read",
+  "58e24a883abc0ccbce86a528f2211e1c8aa6a8bd79f9256da6cddc653a356451": "read",
+  "87e4bf1351f2b91bf5492ad0219bbc0a53eb23cf2ddbebf87a75a87041d3a7c7": "read",
+  "e29733af15ddc29f2c06c912e8a6d00dedbc0098a880de9e58b8b41a6a170f28": "read"
+ },
+ "flags": []
+}

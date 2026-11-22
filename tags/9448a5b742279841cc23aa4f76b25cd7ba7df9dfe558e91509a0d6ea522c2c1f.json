@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "9448a5b742279841cc23aa4f76b25cd7ba7df9dfe558e91509a0d6ea522c2c1f",
+ "domain": [
+  "software/cybersecurity",
+  "media/news"
+ ],
+ "product": [
+  "cisoclub",
+  "fstec-bdu"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches CISOCLUB's Russian-language information security content: news, articles, events, jobs, products and FSTEC BDU vulnerability records.",
+ "whenToUse": "Use when you need Russian-language infosec news, events, job listings, product catalogues or FSTEC vulnerability data.",
+ "tasks": [
+  "search publications",
+  "get latest news",
+  "list upcoming events",
+  "search security jobs",
+  "browse security products",
+  "read a publication",
+  "look up a vulnerability",
+  "filter vulnerabilities"
+ ],
+ "effects": {
+  "8e30cce4509dfb5108aef651b79be745fa5820b463c330e4402b7dfda01dad61": "read",
+  "827e7681224f735be6e6b41a29d0701871b492bfdd0dec93fcabaf983d313efc": "read",
+  "76520513cbc91bb01c532fc79d2baaede373c3e9374720b997a6b7190d45afb4": "read",
+  "b13765e28d665752cbab2a1d17a1c91bc280230e830c0b7be39c791811a41d5a": "read",
+  "3b9b1f783cf3d24647e182be6e177438db7687676e28cb09449c45253ed1366f": "read",
+  "b098f234e5b973fd51c399ea8e565b428ca91fc04d836c685f08e47ccb561edb": "read",
+  "86a853e9d850a8e7c04606d9766732063d2076f9117ff93f936cdf7aecaf4425": "read",
+  "2f5a1f066dec23c24bf04282d3fa172152677a6e2f7070d4b9dd3b6478443da6": "read"
+ },
+ "flags": []
+}

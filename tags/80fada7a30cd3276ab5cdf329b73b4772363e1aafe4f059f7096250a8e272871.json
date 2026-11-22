@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "80fada7a30cd3276ab5cdf329b73b4772363e1aafe4f059f7096250a8e272871",
+ "domain": [
+  "software/api-integration",
+  "ai-agents/tool-generation"
+ ],
+ "product": [
+  "openapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Turns an OpenAPI specification into agent tools with hidden authentication handling.",
+ "whenToUse": "Use when a developer wants to expose an existing API to agents from its OpenAPI spec.",
+ "tasks": [
+  "import openapi spec",
+  "generate agent tools",
+  "manage api auth",
+  "call api endpoints"
+ ],
+ "effects": {},
+ "flags": []
+}

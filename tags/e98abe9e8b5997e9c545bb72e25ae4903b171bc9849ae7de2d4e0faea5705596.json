@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e98abe9e8b5997e9c545bb72e25ae4903b171bc9849ae7de2d4e0faea5705596",
+ "domain": [
+  "customer-feedback/reviews"
+ ],
+ "product": [
+  "feedbackrobot"
+ ],
+ "audience": [
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted MCP server for the FeedbackRobot platform for collecting customer feedback and reviews.",
+ "whenToUse": "Use when an agent needs to read or manage customer feedback and reviews in FeedbackRobot.",
+ "tasks": [
+  "read customer feedback",
+  "read reviews",
+  "manage feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

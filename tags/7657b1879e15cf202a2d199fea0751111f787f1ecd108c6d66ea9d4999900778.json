@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7657b1879e15cf202a2d199fea0751111f787f1ecd108c6d66ea9d4999900778",
+ "domain": [
+  "software/integration-platform",
+  "software/api"
+ ],
+ "product": [
+  "one"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Single MCP server that finds, documents and executes authenticated API calls across many connected apps.",
+ "whenToUse": "Use when an agent needs to call APIs of many third-party apps through one authenticated gateway.",
+ "tasks": [
+  "find app api actions",
+  "read api documentation",
+  "execute authenticated api calls",
+  "connect many apps"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4bda934536c58be8298e77da7ea937aa37c2eb42b2140ee065b1308a8d8865f6",
+ "domain": [
+  "finance/payments"
+ ],
+ "product": [
+  "paypal"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Gives AI assistants access to PayPal services and operations.",
+ "whenToUse": "Use when a user needs to perform PayPal tasks such as invoicing, payments or transaction lookups.",
+ "tasks": [
+  "access paypal services",
+  "manage payments",
+  "manage transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

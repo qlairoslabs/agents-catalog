@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f9369c75a7e3ff9dda074e7c7cd17faf25dfb2f909b29db130e6be043c2132ca",
+ "domain": [
+  "data/quality/profiling",
+  "data/analytics"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Profiles a specific database table to report structure, statistics and data quality.",
+ "whenToUse": "Use when a user asks for statistics, structure or data quality of a named table.",
+ "tasks": [
+  "profile table",
+  "compute column statistics",
+  "assess data quality",
+  "describe table structure"
+ ],
+ "effects": {},
+ "flags": []
+}

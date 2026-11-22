@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "71db36d074f3372fe1321792fa383ab2c5e8b0ca62de7f7996c349a81f8c71d4",
+ "domain": [
+  "software/code-quality",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "python"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Checks AI-generated Python code with linting, type checks, security scans and a sandboxed run, then suggests fixes.",
+ "whenToUse": "Use when an agent has written Python code and needs to verify it works and is safe before handing it over.",
+ "tasks": [
+  "lint python code",
+  "check types",
+  "scan for security issues",
+  "run code in a sandbox",
+  "suggest fixes"
+ ],
+ "effects": {},
+ "flags": []
+}

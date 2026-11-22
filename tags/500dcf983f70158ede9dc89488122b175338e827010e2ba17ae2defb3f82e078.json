@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "500dcf983f70158ede9dc89488122b175338e827010e2ba17ae2defb3f82e078",
+ "domain": [
+  "retail/footwear"
+ ],
+ "product": [
+  "kari"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Search kari shoe and accessory catalogue in Russia, Kazakhstan and Belarus with prices, stores and size availability.",
+ "whenToUse": "Use when a user wants to find kari products, prices or stores with a given size in those countries.",
+ "tasks": [
+  "find city",
+  "find stores",
+  "search products",
+  "get product details",
+  "check size availability"
+ ],
+ "effects": {
+  "48237d5244b424f791131dcef0cd089fd2babd230ca8eb274fbf0c60744006c9": "read",
+  "8d4b42173162c2e4198d510498f3a3cf1189d8ddc9b1fed3a27644d68826f31a": "read",
+  "78dbea87efec56d0cb12c46258190587c1a7919804c2afa26f2f186789675bef": "read",
+  "fdb32df82cad12ab8bdb241ad862904e8c977c770eec1e2811181324b757a7da": "read",
+  "908fafdd55e0ce945d118814122b5059d3f52e3d47eb033af3ad68feed043f11": "read"
+ },
+ "flags": []
+}

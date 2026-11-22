@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "e4dc62b25bcb9a951226ab0fe88491986143e0b9917ccdcad102d3e204a50e5f",
+ "domain": [
+  "communication/phone-intelligence",
+  "sales/compliance"
+ ],
+ "product": [
+  "numbers-online",
+  "stir-shaken"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "Gives phone number intelligence for voice agents: line type, carrier, spam risk, STIR/SHAKEN signal and do-not-contact status.",
+ "whenToUse": "Use before calling or answering a phone number to check its type, risk and suppression preference.",
+ "tasks": [
+  "look up phone number",
+  "classify line type",
+  "assess caller risk",
+  "check do-not-contact"
+ ],
+ "effects": {
+  "db1c9ecc92599b5b04866269e0fbd61a5bec2c33b4b623dc5827e1164265021f": "read",
+  "e133d79eba255c5fd3d6477e4ec33abdf220035af223c69855f6d0ca66d11e88": "read",
+  "89669e428012f9c6ca4c2732be7c72d2a4070a6040683a130efe09705227ef40": "read",
+  "116a5138011dbaac9f073223b184ef2f6a85ff9f88a5f4dc94dc190a3bf108a7": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4807ef2f8395ec1408f47adfbceecf7ce5a19dbca24703bf61139432073ccee5",
+ "domain": [
+  "software/integration-gateway",
+  "software/authentication"
+ ],
+ "product": [
+  "civic"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Hosted MCP gateway that connects AI agents to other tools with authentication and workflow support.",
+ "whenToUse": "Use when an agent needs authenticated access to multiple external tools through a single gateway.",
+ "tasks": [
+  "connect external tools",
+  "manage authentication",
+  "run workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

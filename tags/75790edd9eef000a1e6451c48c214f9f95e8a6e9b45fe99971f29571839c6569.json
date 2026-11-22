@@ -1,0 +1,81 @@
+{
+ "classifier": 2,
+ "contentHash": "75790edd9eef000a1e6451c48c214f9f95e8a6e9b45fe99971f29571839c6569",
+ "domain": [
+  "finance/prediction-markets",
+  "finance/trading"
+ ],
+ "product": [
+  "predictasiax"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Prediction market server for searching markets, reading order books, placing and cancelling orders, market making, RFQs, subaccounts and builder webhooks.",
+ "whenToUse": "Use when an agent needs to browse PredictAsiaX markets, trade or provide liquidity, manage portfolio and subaccounts, or run builder integrations.",
+ "tasks": [
+  "search markets",
+  "read order books and price history",
+  "read portfolio and balances",
+  "place and cancel orders",
+  "post market-maker quotes",
+  "create and accept RFQs",
+  "manage subaccounts",
+  "propose new markets",
+  "manage builder webhooks",
+  "estimate fees and stipends"
+ ],
+ "effects": {
+  "53b951671f9ac5292722202fe1536b118c89cc2354b347b695a74fbd0b460c1e": "read",
+  "fae1b7022d1cb04da4b8ddf1287dfabd7c3f1b3f8a423a5b0bc76570eca26488": "read",
+  "5e5b051beda09175881c44544080252d766f2a46edefdd1979612978cdeb2222": "read",
+  "631248de27d1fa2c1cdb43afe09b55b61a18b7cab729397cf97747d7ee337c73": "read",
+  "a0c14b45f6321b49a137dc359ce68d0369ad28c2da3a511fedcc737ab378f37e": "read",
+  "b64a3312f133057ada6ef7ad42ec61c1fb2500d7ead2165168937d69107bc62e": "read",
+  "ae5035190c92f6b0cd9b94b5ba111bbae8e365445d18e55e0f95c21915da06f1": "read",
+  "74c3885a3188056183eb5a7d6b7157f19a4b4f34b072da41daa91e934aef616d": "read",
+  "630121a8c548eec1c7901a6fc49c34431a1b0bb6e9e5ce5ed8594f298f143f68": "read",
+  "f067ceb1bd182597b5aa278b9fc7e3bf811c2f7aa9f7dbb9b4f5c0a36f84a1c3": "read",
+  "640d40a42e22c44c664494e22db436bc753b51774353fc44bcb3df8354214124": "read",
+  "d468cda6cb2e480f82289014417daadd38001294fd32d09367e0fa84e2929273": "read",
+  "f140ed6045c41782323084ea583baf56f09d55dd708affe7b441ee67c2896d49": "risky",
+  "2b6e6af77b328516b91a98928c381a4a74bb2ffb409ee0b09c2f1d3529661c24": "write",
+  "be685efa47a30fcd851465a5ef87aebe7415fc92b90ad38b9335aea887c272be": "risky",
+  "759a8820416f08ca2588d2fd3936cb5be42f29328007647efc6e01289dccfed6": "read",
+  "8a9772826017040feb978c094c0d3d9cb48a82f44f7f744731e1363ea8c75b52": "read",
+  "4ef0b6a5d97412c1f6112c0eccfd02a8584e2b8b18a9c4f088ebe2e910a4c5d0": "read",
+  "f7a0bdb2113c075bfb8923dbedc318290978b0143da71ea20efa27fcf8a4c804": "read",
+  "06e2fdb94adcce99713eac19a1046ba6c9d1452d2b39098bc6e502f1812d36e1": "read",
+  "c8c5fc49f8c557ca3e8ac7053f57ea0840fd3c908983860c21dd3a0ecb389617": "read",
+  "feb2dc06a3cde4f3f49a6b8500fb60fc60cb160d49f54181afabd5335a9c00db": "write",
+  "9377cc003009712a77cfbd7fd50edecf3a9d09110a04c2d1d1312d47e9b8652e": "risky",
+  "b05cb90faf830b475560ea8c1e0b1eaaf8d1295db0c965c6740ce995415dd804": "write",
+  "dccfb087fbc046fc1da208444b5165bcf391fe6b359c78ff5f26644d500d5e6e": "read",
+  "132d56202c1e3d9af4704448cb61fcf5cd7379caba38ff58120236a1e21f013f": "read",
+  "07e078f34fcd874974221c85e415c30c723f8a5f40989a2719892a4d527e5f85": "write",
+  "e2108ebd71bcb8eb27b5adb31676b4ccfee18ed8ce0289f0d11688a6cb43e38d": "read",
+  "a7b96dee38d494937e0cc897fbdab67cfddfea9aade66f382181574b5fca33fe": "risky",
+  "1951001b3ff113a3729244e91d4181199f77a9d4bfd08933d6f6bffec7763223": "read",
+  "77026eb22289b7d581ac16fc72556593d5f8b06c6754b72583e2dee61cafd315": "write",
+  "288e87e5a014c2ab0c57aadc16d75f9fce6f777a024a7a3b7567657a9ed21b76": "risky",
+  "8855753062fb73efe8b9e41741985087fc740d05a023abd0be2197d7fe4971b0": "read",
+  "469713b785c19fc34c562470f95ddddde760ccbc02f909c32a0628d0abe10f02": "read",
+  "0a612e6e65c16c23397fbe42f73d371585f91f61efebd4ba127d775be3fed641": "read",
+  "d5aa10b2235917b29110fe5ac9373a2d4bc48f06f9aef5d86c661f4dbb5e478b": "read",
+  "fbf123a62f963bac4ccbbd0482fdea125e30f40b08071a5471d10a9cc1f4c385": "read",
+  "fe3c8f5f18735de3e46b30dc95edfa4c064a9e9960d8aed804f67a5944a25968": "read",
+  "bd3a47e87bb7aae352f91ef6601d40802dc9546719935e5965843997b44b83fd": "write",
+  "a0228f918425ca5e462b5e5a90cba72df31284ab2663e4deea38618b6253e1ee": "read",
+  "0ba9dfd38ff903c9b10d07e084e82b4cc90356c7ed29ecfee485a310dbaece6d": "write",
+  "24f8c4c674023a376352e860c4436f6caf53706f5dc696ad8490bfc3742eb893": "read",
+  "79baab8dafcef0e3e0ce332548884e22ae73e18963e866f2b7f0daed298efd7f": "read",
+  "d47fced5df77b7526be66a2aba01288d141ab85a4c121e5cbffeee08cc11098b": "read"
+ },
+ "flags": []
+}

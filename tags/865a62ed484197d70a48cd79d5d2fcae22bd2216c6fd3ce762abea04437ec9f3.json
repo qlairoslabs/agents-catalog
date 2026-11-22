@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "865a62ed484197d70a48cd79d5d2fcae22bd2216c6fd3ce762abea04437ec9f3",
+ "domain": [
+  "procurement/furniture",
+  "sales/quotes"
+ ],
+ "product": [
+  "aquamania",
+  "1c"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "sell",
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Catalogue, locker-room layout calculator, quotes, 44-FZ price justification and tender packages for AquaMania locker-room and pool furniture in Russia.",
+ "whenToUse": "Use when equipping locker rooms or pools and you need layouts, quotes, NMCK price calculations or tender documents.",
+ "tasks": [
+  "list concepts",
+  "configure locker layout",
+  "get quote",
+  "generate commercial offer",
+  "calculate NMCK",
+  "build tender package",
+  "search product catalogue",
+  "quote whole project",
+  "place dealer order",
+  "check order status",
+  "request API key"
+ ],
+ "effects": {
+  "eb3ea4841bd88a32b4a15c8dc404b3016878c8e5d7399b522f1d8821ce92c6d1": "read",
+  "9fd8e28cb58b389bb78a8c3860e3c065874005387562c33e99f66a3292aaff7c": "read",
+  "ebc2cee0cc461471c2ae31f6abe8410691a555af51d771e0ace0bde0e55c824c": "read",
+  "648cb07bded1d8198ddacc4d38ef0720957939057213de6458317aa9f19c5c66": "write",
+  "17401afbeea96193a51c1789ef31902868ff9a6b24b96a4361a7072676a420f6": "read",
+  "1b7fc85e0f24327d7f1e871155a947ab35c87d57f4807687d6768852e6975a62": "read",
+  "e9b1fd5a4c5dfeb7339f4de6c57faa9689096a78b1125de8a72e2ed4e11aa209": "write",
+  "d38b502556434d375779d61c8cdb5c7c8e00dcab41fc1178e41e792a465ec707": "write",
+  "e18b2680b580ae75dcd7bafc892cc777aaa2eeb50bb3c14d75d4eb459aea50ab": "read",
+  "058d37b1444a06915c83aca5731ec8f05cdf741058cd52b95ae5373bc6513173": "read",
+  "6cb777a3d10e1afa533c88edc88b079fd7fb702591fdb910abc02a6180aa3664": "write",
+  "2d2e5c8bb75bffd8fc6becba4a342e63f3725772cbb93a09a95086df068c53a8": "write",
+  "b9fcb11241d9344d421a8b0dcb00becb7a8290790008a602375b6b7e7f421fdf": "read",
+  "2f931497380590f7356a86ffad28f936d78ac457619fe3877d087ce614c1f9e0": "write",
+  "e350ba712d360b6a9904f25871a336ad4b845062bcf8ee9a889be3505ad5dfa8": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c9d45ec8f18482015b943b93d593b6c6ea5a70c289927864951dd745298a1aeb",
+ "domain": [
+  "software/mobile/monitoring",
+  "software/performance"
+ ],
+ "product": [
+  "kotzilla",
+  "android",
+  "kotlin-multiplatform"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives coding agents production runtime data like startup time, ANRs and slow screens for Android and KMP apps.",
+ "whenToUse": "Use when debugging or optimizing performance of an Android or Kotlin Multiplatform app using real production data.",
+ "tasks": [
+  "view startup performance",
+  "find anrs",
+  "identify slow screens"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d7047d2bc2b0a6964116206b24e667ba679212dbe8c0484d2de6729c1aa62ed3",
+ "domain": [
+  "data/analysis",
+  "data/file-formats"
+ ],
+ "product": [
+  "parquet"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Summarizes Parquet files, previews columns, reads row slices and aggregates values.",
+ "whenToUse": "Use when an agent needs to inspect or query Parquet files.",
+ "tasks": [
+  "summarize parquet files",
+  "preview columns",
+  "read row slices",
+  "aggregate values"
+ ],
+ "effects": {},
+ "flags": []
+}

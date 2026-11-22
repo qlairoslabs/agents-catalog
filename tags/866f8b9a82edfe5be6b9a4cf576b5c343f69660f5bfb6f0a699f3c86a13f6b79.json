@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "866f8b9a82edfe5be6b9a4cf576b5c343f69660f5bfb6f0a699f3c86a13f6b79",
+ "domain": [
+  "software/testing/acceptance-testing",
+  "software/browser-automation"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Runs acceptance tests in a real browser for coding agents and posts screenshots to pull requests.",
+ "whenToUse": "Use when a coding agent needs to verify a change end to end in a browser and report results on a PR.",
+ "tasks": [
+  "run browser acceptance tests",
+  "capture screenshots",
+  "post results to pull requests"
+ ],
+ "effects": {},
+ "flags": []
+}

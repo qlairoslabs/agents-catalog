@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "4efcb77c5f7240c1a72c8f2320570de9d08f0a32d37ab0a4932af98e296d1e80",
+ "domain": [
+  "commerce/deals",
+  "shopping"
+ ],
+ "product": [
+  "shopify",
+  "woocommerce",
+  "heartly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Lists live flash-sale deals from Shopify and WooCommerce merchants, filterable by category, country, discount and time left.",
+ "whenToUse": "Use when a user is looking for current discounts or flash sales.",
+ "tasks": [
+  "list active deals",
+  "search deals by category",
+  "filter by discount",
+  "filter by shipping country",
+  "get deal by id"
+ ],
+ "effects": {
+  "7d18661d6dd232e3227148f6b8dbfc67019765a6d560dd482003aea1882b57a1": "read",
+  "3e4ec38eb453b4a270949d4fd5a2ae71706dcc4a8493c8aaa01388faf96478f3": "read",
+  "17d68accfe260e7aa897819c2966980dafd49d0bb47ab692263dc31c47abd3ab": "read"
+ },
+ "flags": []
+}

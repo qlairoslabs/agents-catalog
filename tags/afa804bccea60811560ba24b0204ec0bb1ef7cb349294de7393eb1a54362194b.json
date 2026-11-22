@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "afa804bccea60811560ba24b0204ec0bb1ef7cb349294de7393eb1a54362194b",
+ "domain": [
+  "design/desktop-publishing",
+  "documents/pdf"
+ ],
+ "product": [
+  "adobe-indesign"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Runs an InDesign data merge from a CSV/TSV and a template to produce personalized PDFs per row.",
+ "whenToUse": "Use when the user wants to combine a data file with a layout template to produce cards, certificates, labels or similar per-row documents.",
+ "tasks": [
+  "merge csv with indesign template",
+  "convert pdf template to indd",
+  "generate personalized pdfs",
+  "batch export pdfs"
+ ],
+ "effects": {},
+ "flags": []
+}

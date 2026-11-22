@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "df3b5075c7bd7c1e5e54f93cc39d893bf78cc08f5aa66e72cef1b8c89d28870d",
+ "domain": [
+  "software/ai-agents/skill-registry",
+  "knowledge-management"
+ ],
+ "product": [
+  "sharebench"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Search a workspace's shared skills, agents, workflows and knowledge documents and fetch their full SKILL.md content.",
+ "whenToUse": "Use when an agent needs to discover and load a shared skill, prompt or playbook from a Sharebench workspace.",
+ "tasks": [
+  "search shared skills, agents and workflows",
+  "filter artifacts by type or industry",
+  "fetch full skill.md content"
+ ],
+ "effects": {
+  "0ce76f6e1670f63a8270a8eeaa5cdf9e79812def1d37b5b9ca8ba697e1b27d48": "write",
+  "ae1d06124ea15019b3eb631afc96408ab0d5b77424f35753edb011de61511e10": "write"
+ },
+ "flags": []
+}

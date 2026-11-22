@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9202ed8f0dd75b38f0567c539303fdbfac27bb0c5cb35f9c21e4479a3633b678",
+ "domain": [
+  "finance/crypto/options-analytics",
+  "finance/trading"
+ ],
+ "product": [
+  "backquant",
+  "bitcoin",
+  "ethereum",
+  "solana",
+  "hyperliquid"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Crypto options analytics with dealer gamma, implied volatility, flow and trade tape for BTC, ETH, SOL and HYPE.",
+ "whenToUse": "Use when analyzing crypto options market positioning, volatility or order flow.",
+ "tasks": [
+  "view dealer gamma",
+  "view implied volatility",
+  "analyze options flow",
+  "read trade tape"
+ ],
+ "effects": {},
+ "flags": []
+}

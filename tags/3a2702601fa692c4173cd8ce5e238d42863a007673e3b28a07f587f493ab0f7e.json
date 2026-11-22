@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3a2702601fa692c4173cd8ce5e238d42863a007673e3b28a07f587f493ab0f7e",
+ "domain": [
+  "government/open-data",
+  "finance/tax"
+ ],
+ "product": [
+  "us-census",
+  "sec",
+  "streamlined-sales-tax"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "US government data with provenance, including Census demographics, SST sales tax rates and SEC financials.",
+ "whenToUse": "Use when needing sourced US Census demographics, sales tax rates or SEC company financials.",
+ "tasks": [
+  "get census demographics",
+  "look up sales tax rates",
+  "get sec financials"
+ ],
+ "effects": {},
+ "flags": []
+}

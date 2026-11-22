@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "84f0b0dbe251f389768ed39fb488edaa39aa4e767e139cec917ab3fe704cb001",
+ "domain": [
+  "software/incident-management",
+  "software/infrastructure-monitoring"
+ ],
+ "product": [
+  "faultline"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Checks infrastructure health, manages incidents and executes runbooks in Faultline.",
+ "whenToUse": "Use when investigating infrastructure health or handling an incident tracked in Faultline.",
+ "tasks": [
+  "check infrastructure health",
+  "manage incidents",
+  "run runbooks"
+ ],
+ "effects": {},
+ "flags": []
+}

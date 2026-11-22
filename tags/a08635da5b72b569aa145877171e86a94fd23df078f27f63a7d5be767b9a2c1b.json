@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a08635da5b72b569aa145877171e86a94fd23df078f27f63a7d5be767b9a2c1b",
+ "domain": [
+  "marketing/brand-intelligence",
+  "market-research"
+ ],
+ "product": [
+  "persimmon"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Provides brand momentum scores, the signals behind them, and competitor snapshots from Persimmon's index.",
+ "whenToUse": "Use when you need a brand's momentum score, supporting evidence or competitive position.",
+ "tasks": [
+  "get momentum index",
+  "read brand signals",
+  "compare competitors",
+  "rank top brands"
+ ],
+ "effects": {
+  "b73e4c4a16c445ee7f2d3e4745b28544b5a869e7d39d12d867b2b6841d4a765f": "read",
+  "7f0534241df388f237365a4a8efddf5fd00da52215c6592f15347f14cacc1c0e": "read",
+  "97fbed59eaac0599c978771384afd6205fd6446979e5525d1a2817b2480a1125": "read"
+ },
+ "flags": []
+}

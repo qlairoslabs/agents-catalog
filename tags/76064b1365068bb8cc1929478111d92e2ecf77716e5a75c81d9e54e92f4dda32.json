@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "76064b1365068bb8cc1929478111d92e2ecf77716e5a75c81d9e54e92f4dda32",
+ "domain": [
+  "marketing/web-analytics",
+  "software/web"
+ ],
+ "product": [
+  "eurolytics"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Manages cookie-free web analytics: create sites, install and verify tracking, and read traffic stats.",
+ "whenToUse": "Use when an agent needs to set up privacy-friendly analytics for a site or read its traffic statistics.",
+ "tasks": [
+  "create sites",
+  "install tracking",
+  "verify tracking",
+  "read traffic stats"
+ ],
+ "effects": {},
+ "flags": []
+}

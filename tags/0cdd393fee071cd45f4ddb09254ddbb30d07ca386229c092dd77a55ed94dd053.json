@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0cdd393fee071cd45f4ddb09254ddbb30d07ca386229c092dd77a55ed94dd053",
+ "domain": [
+  "location/personal-tracking"
+ ],
+ "product": [
+  "geolocate-me"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives an AI assistant access to a phone's real-time GPS position and location history.",
+ "whenToUse": "Use when an agent needs the user's current or past phone location.",
+ "tasks": [
+  "get current location",
+  "get location history"
+ ],
+ "effects": {},
+ "flags": [
+  "exposes sensitive personal location data"
+ ]
+}

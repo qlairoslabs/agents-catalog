@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c0f6374cc50d4d5a97b5fdd4777660fc68d1f97715bafcf6b67f0a4a3208dbcd",
+ "domain": [
+  "documents/pdf/review"
+ ],
+ "product": [
+  "adobe-acrobat"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reviews a PDF and adds yellow highlights and comments on key points, risks, dates or figures based on a chosen focus.",
+ "whenToUse": "Use when the user wants a PDF reviewed or specific items in it highlighted or commented.",
+ "tasks": [
+  "classify documents",
+  "offer review focus menu",
+  "highlight key points",
+  "highlight risks and obligations",
+  "highlight dates and figures",
+  "add comments to highlights"
+ ],
+ "effects": {},
+ "flags": []
+}

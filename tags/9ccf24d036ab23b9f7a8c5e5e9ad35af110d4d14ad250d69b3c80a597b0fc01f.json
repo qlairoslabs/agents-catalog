@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9ccf24d036ab23b9f7a8c5e5e9ad35af110d4d14ad250d69b3c80a597b0fc01f",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/languages/python"
+ ],
+ "product": [
+  "appwrite",
+  "python",
+  "django",
+  "flask",
+  "fastapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite Python SDK in server-side Python apps, including Django, Flask and FastAPI.",
+ "whenToUse": "Use when building a Python backend that uses Appwrite.",
+ "tasks": [
+  "manage users",
+  "crud database tables",
+  "manage file storage",
+  "call functions",
+  "authenticate with api keys"
+ ],
+ "effects": {},
+ "flags": []
+}

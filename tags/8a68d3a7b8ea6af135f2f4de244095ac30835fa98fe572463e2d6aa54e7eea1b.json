@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8a68d3a7b8ea6af135f2f4de244095ac30835fa98fe572463e2d6aa54e7eea1b",
+ "domain": [
+  "software/apis/graphql"
+ ],
+ "product": [
+  "grafbase",
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Builds and deploys federated GraphQL APIs on the Grafbase platform.",
+ "whenToUse": "Use when the user is designing, deploying or governing GraphQL APIs with Grafbase.",
+ "tasks": [
+  "build graphql apis",
+  "deploy graphql apis",
+  "manage federation"
+ ],
+ "effects": {},
+ "flags": []
+}

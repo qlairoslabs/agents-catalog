@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "38160b1e3d2ab1791c68c49e243eb70254a66b44f84317b9052ea6cc13eac87f",
+ "domain": [
+  "food/restaurants/ordering"
+ ],
+ "product": [
+  "meni-ge"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Guest API for meni.ge restaurants to browse menus, place orders and reserve tables without authentication.",
+ "whenToUse": "Use when a user wants to view a meni.ge restaurant menu, order food or book a table.",
+ "tasks": [
+  "browse menus",
+  "place orders",
+  "reserve tables"
+ ],
+ "effects": {},
+ "flags": []
+}

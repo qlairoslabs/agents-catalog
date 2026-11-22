@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "feaec600b4205a7fdf1b54ab095c553a0373f8d7032c47d40b048200811aefb0",
+ "domain": [
+  "agriculture/farm-management"
+ ],
+ "product": [
+  "upcampo"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "upCampo assistant to query farm data, answer system questions and record field entries.",
+ "whenToUse": "Use when a farmer using upCampo wants to check farm information or log field activities.",
+ "tasks": [
+  "query farm data",
+  "answer system questions",
+  "record field entries"
+ ],
+ "effects": {},
+ "flags": []
+}

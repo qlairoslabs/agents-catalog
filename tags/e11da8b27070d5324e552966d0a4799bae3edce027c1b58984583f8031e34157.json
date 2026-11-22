@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e11da8b27070d5324e552966d0a4799bae3edce027c1b58984583f8031e34157",
+ "domain": [
+  "software/databases/documentation"
+ ],
+ "product": [
+  "azure-sql-database"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Explains the capabilities, limitations and differences of the Azure SQL Database container preview compared with the cloud service.",
+ "whenToUse": "Use when a user asks whether a feature works in the Azure SQL Database container or hits unexpected behavior in it.",
+ "tasks": [
+  "answer supported feature questions",
+  "explain known limitations",
+  "explain differences from cloud",
+  "link to known limitations page"
+ ],
+ "effects": {},
+ "flags": []
+}

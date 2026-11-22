@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "8e8376f22d4b1a0c08ddecdc3511ca01bf0fed0a62fcfef5094a98a7f1b1cbcd",
+ "domain": [
+  "software/wordpress",
+  "ecommerce"
+ ],
+ "product": [
+  "wordpress",
+  "woocommerce",
+  "wpbay",
+  "elementor"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Searches, retrieves and compares commercial WordPress plugins, themes and services on the WPBay marketplace.",
+ "whenToUse": "Use when looking for or comparing WordPress or WooCommerce plugins and themes.",
+ "tasks": [
+  "search WordPress software",
+  "get product details",
+  "compare products"
+ ],
+ "effects": {
+  "fa442e122fe0e59555815e4145aea07cc19e46c85707a03c668903ada387a6fe": "read",
+  "f0a9c0c0c2e5a5a0f40141895a0b44f35371facdbb3224eccf9720caf3e0211e": "read",
+  "daccdfc190ccc58e4844d7d554e3dc192609ccf3c92df0883a5f89680912a868": "read"
+ },
+ "flags": []
+}

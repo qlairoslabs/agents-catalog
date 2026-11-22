@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "bbcc71a0114760161ae5b3aeadb32efa1ce29a020fbede4f8e9f5af0e95ecf30",
+ "domain": [
+  "retail/firearms-parts",
+  "legal/firearms-law"
+ ],
+ "product": [
+  "gunpartpicker",
+  "ar-15",
+  "glock"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "US prices and stock for AR-15 and Glock parts, build compatibility checks, cheapest ammo, FFL dealer lookup and state gun law and travel checks.",
+ "whenToUse": "Use when comparing firearm part or ammo prices, checking build fit, finding an FFL for transfers, or checking state gun laws.",
+ "tasks": [
+  "search parts",
+  "compare store prices",
+  "check build compatibility",
+  "find cheapest ammo",
+  "find FFL dealers",
+  "look up state gun laws",
+  "check gun travel legality"
+ ],
+ "effects": {
+  "71169a9455e74fe87b7beee12942c95a8353805d8c58cd68d6abc567afd1f51c": "read",
+  "6c1cc7a94dc7ec0845d0a5c9ee38988e9e1be01483cc5f596336ef1efdb54be2": "read",
+  "b66db988bdf974d41093f588a6202eccca0594a1e9f1d2b72bf425a9996f47fb": "read",
+  "85e99935b1133ff1f343b319600bd9fba5f5754e0509c5e0b99c32d5f5abdd77": "read",
+  "4043ecd82734668f355f37fdb12a722c951d85ccd4e119d9d1b2f8b5d03588e4": "read",
+  "7fa39915787ce251d3e497f4252c59bd046ac1de6321c03842a7c934b6ffa7ee": "read",
+  "003dd9f2b8b5c873d2a2f0cf526f2b41aac8a89a4f3ea09057f7e57c3c13d3db": "read"
+ },
+ "flags": []
+}

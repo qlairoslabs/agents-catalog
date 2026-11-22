@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "1086b7b6a8746dd83e5438448e3ed692527be44d22f597a98811f2449240450f",
+ "domain": [
+  "finance/equity-research",
+  "markets"
+ ],
+ "product": [
+  "altair",
+  "tradingagents",
+  "x402"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Free AI equity research reports, market breadth and technical indicators for major indices and tickers, plus a paid x402 signals feed.",
+ "whenToUse": "Use when looking for stock research reports, model ratings, market breadth or indicator readings.",
+ "tasks": [
+  "list site pages",
+  "read pages",
+  "get market breadth",
+  "get market indicators",
+  "get ticker indicators",
+  "list research reports",
+  "get model decisions",
+  "read full reports",
+  "get paid research signals"
+ ],
+ "effects": {
+  "1b3059184faca4f2f79260f4dd6e40adb453729331ff9a7b9b74b11026e94ba0": "read",
+  "ae11771ce6abcc299f48ee5b51cf8ad589738593fbacc9f078268c9f9ef88453": "read",
+  "ec6c89f7b4548b502bd58d6d55457f00377925ad77786d92fb50de606c751641": "read",
+  "3855c11ee5f3421658a019f1ee363e90f727959ce4eed9365f86932be3028dcc": "read",
+  "222fbf1b46148de9eb79596f4c501c2d87f59cb3d0ff74ba13f5400c71d90219": "read",
+  "5967905fb0e0cefc71764a5d5a56ed2c58d85e7c500a2aba58bf83a9e84aad46": "read",
+  "a3057b7e15a4eef7839d427937c3751068c45a965bcfa0624a725555c15f13c6": "read",
+  "7fde34480396fc737ff7e3789b04009393f4dcc3d3d2a1e52f631b3993bfa14b": "read",
+  "aca68ce4647970606238e9db2053ba22462913756ac5608b4a88af6645b634e2": "write"
+ },
+ "flags": [
+  "get_research_signals triggers an x402 micropayment per call"
+ ]
+}

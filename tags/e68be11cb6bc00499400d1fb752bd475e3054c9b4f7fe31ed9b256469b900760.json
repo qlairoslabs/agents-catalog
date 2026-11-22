@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e68be11cb6bc00499400d1fb752bd475e3054c9b4f7fe31ed9b256469b900760",
+ "domain": [
+  "software/serverless",
+  "software/deployment"
+ ],
+ "product": [
+  "val-town",
+  "sqlite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work",
+  "be-online"
+ ],
+ "summary": "Deploys and manages serverless TypeScript on Val Town, including HTTP endpoints, cron jobs, SQLite, email and OAuth.",
+ "whenToUse": "Use when the user wants to write, deploy or schedule small TypeScript services on Val Town.",
+ "tasks": [
+  "deploy http vals",
+  "schedule cron vals",
+  "use sqlite storage",
+  "send email",
+  "configure oauth"
+ ],
+ "effects": {},
+ "flags": []
+}

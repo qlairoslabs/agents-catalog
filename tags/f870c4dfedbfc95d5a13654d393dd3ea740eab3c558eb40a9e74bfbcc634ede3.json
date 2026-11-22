@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f870c4dfedbfc95d5a13654d393dd3ea740eab3c558eb40a9e74bfbcc634ede3",
+ "domain": [
+  "real-estate/property-search"
+ ],
+ "product": [
+  "unlisted"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches residential properties not currently listed for sale, with area lookup and full property details.",
+ "whenToUse": "Use when the user wants to find off-market homes by area and criteria or view a property's details.",
+ "tasks": [
+  "autocomplete areas and addresses",
+  "search properties by criteria",
+  "get property details"
+ ],
+ "effects": {
+  "665344ae1326b5283c93763119ce16fabae39513976a4063af88664fb63454c5": "read",
+  "482d306a740adfa6a5090d7c5f57c01098041d59eae5b4230936d298c1609e2a": "write",
+  "7b8f42ec1339b0dd87e1991bf9b2a5901359fb188338ae6d8667ce3a7ad08a6c": "write"
+ },
+ "flags": []
+}

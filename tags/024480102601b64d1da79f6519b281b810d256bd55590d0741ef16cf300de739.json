@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "024480102601b64d1da79f6519b281b810d256bd55590d0741ef16cf300de739",
+ "domain": [
+  "travel/trip-tracking",
+  "lifestyle/personal"
+ ],
+ "product": [
+  "explorersmap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Updates a personal ExplorersMap travel map with visited countries, regions, places and trips.",
+ "whenToUse": "Use when the user wants to record or update where they have traveled on ExplorersMap.",
+ "tasks": [
+  "add countries",
+  "add regions",
+  "add places",
+  "log trips",
+  "update travel map"
+ ],
+ "effects": {},
+ "flags": []
+}

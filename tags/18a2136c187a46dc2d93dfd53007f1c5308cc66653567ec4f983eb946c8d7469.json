@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "18a2136c187a46dc2d93dfd53007f1c5308cc66653567ec4f983eb946c8d7469",
+ "domain": [
+  "design/design-review",
+  "design/graphic-design"
+ ],
+ "product": [
+  "canva"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Reads reviewer comment threads on a Canva design, applies clear changes and flags items needing a human decision.",
+ "whenToUse": "Use when the user wants reviewer comments or feedback on a Canva design addressed.",
+ "tasks": [
+  "read comment threads",
+  "summarize reviewer requests",
+  "apply clear-cut edits",
+  "flag ambiguous feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

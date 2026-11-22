@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "38d8a28d0139dca14ad9634983165ada1fd43dbce407a5a253453f504bea67c5",
+ "domain": [
+  "finance/crypto-trading",
+  "finance/market-data"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Market intelligence for agents with graded trade checks, briefs and liquidation maps.",
+ "whenToUse": "Use when an agent needs a quick assessment or brief on a trade or market liquidity levels.",
+ "tasks": [
+  "grade trade ideas",
+  "generate market briefs",
+  "show liquidation maps"
+ ],
+ "effects": {},
+ "flags": []
+}

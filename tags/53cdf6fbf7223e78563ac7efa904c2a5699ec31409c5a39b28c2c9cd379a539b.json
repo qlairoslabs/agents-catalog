@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "53cdf6fbf7223e78563ac7efa904c2a5699ec31409c5a39b28c2c9cd379a539b",
+ "domain": [
+  "shopping/price-comparison",
+  "consumer-electronics/laptops"
+ ],
+ "product": [
+  "wolaptop",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German-market price comparison for laptops, returning current best offers, buying guides and offer re-checks from many shops.",
+ "whenToUse": "Use when a user wants the cheapest price, a deal or buying advice for a laptop in Germany.",
+ "tasks": [
+  "search laptop offers",
+  "filter by brand and price",
+  "find buying guides",
+  "compare laptop models",
+  "re-check an offer price"
+ ],
+ "effects": {
+  "8fbd13301ae5fa31dd7b4d9791adaa7bf97dccbce4a123d76ec2fc8d0202fee5": "write",
+  "a52874f3d8ac1ff25befd7f623c73fa37956017308c79ff3fba399142dea6946": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

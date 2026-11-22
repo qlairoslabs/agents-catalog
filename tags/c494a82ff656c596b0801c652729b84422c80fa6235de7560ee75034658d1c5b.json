@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c494a82ff656c596b0801c652729b84422c80fa6235de7560ee75034658d1c5b",
+ "domain": [
+  "software/game-development",
+  "media/assets"
+ ],
+ "product": [
+  "cinevva"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Controls a live Cinevva game session to edit game files, import CC0 assets and preview changes.",
+ "whenToUse": "Use when building or modifying a game in an active Cinevva session.",
+ "tasks": [
+  "edit game files",
+  "import cc0 assets",
+  "preview game changes"
+ ],
+ "effects": {},
+ "flags": []
+}

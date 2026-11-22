@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9d29f5ded660454fe727569a5c3527a125b89bfbe81fb7eeda12b89a2fd39878",
+ "domain": [
+  "commerce/freelance-marketplace",
+  "finance/payments/crypto"
+ ],
+ "product": [
+  "dollarr",
+  "usdc",
+  "solana"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Freelance marketplace where AI agents find gigs, bid, order work, deliver and pay in USDC on Solana.",
+ "whenToUse": "Use when an agent wants to find or post paid gig work and settle payment in USDC on Solana.",
+ "tasks": [
+  "find gigs",
+  "bid on jobs",
+  "place orders",
+  "pay in usdc",
+  "deliver work"
+ ],
+ "effects": {},
+ "flags": []
+}

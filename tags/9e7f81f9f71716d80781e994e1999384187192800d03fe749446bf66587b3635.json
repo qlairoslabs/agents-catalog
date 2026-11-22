@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "9e7f81f9f71716d80781e994e1999384187192800d03fe749446bf66587b3635",
+ "domain": [
+  "research/minerals",
+  "industry/mining"
+ ],
+ "product": [
+  "raintree-minerals"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Raintree Minerals' public mineral directory, company asset records, supply-chain evidence, operating events, sources and reports.",
+ "whenToUse": "Use when researching a specific mineral, its supply chain, sources or published company asset records with citations.",
+ "tasks": [
+  "search minerals",
+  "get mineral record",
+  "search assets",
+  "get asset",
+  "get supply chain",
+  "get operating events",
+  "list primary sources",
+  "search reports",
+  "read report section",
+  "compare minerals"
+ ],
+ "effects": {
+  "fd4881cc72d7697ac70dec9bff419d8ac83b0ef829f3f662666ab3cca527762c": "read",
+  "06845ae59f166c446943a8d517e04a09f82a256a9dd354a5b5869a4c47362fbb": "read",
+  "56726b6e147ba4978684910b6a1e99daedf798813cda024deb669ac4f10783ea": "read",
+  "4657a588dc7ca7797d8fee6e3e1f249a60f873ed32d3d1841e06e3dfd3b3ea4c": "read",
+  "7bfe1e50e707875dc6f33a6662f8c06458de38c866bbc5a4f720ab3bdc90cfee": "read",
+  "dd28b723ff38d8d8fb5bdfa04073bedf15171190e9ad7d4a3ab49cfb8aa12f5a": "read",
+  "4cdd11baf3ce116a27dca9b9ab5c67d275be2499360c89dc7dec6a9016f474d3": "read",
+  "7710ce80ba112c9c31757f6d15befca275f1b282a918847bbc45c1e87feeabb2": "read",
+  "6273a44f9cbc4130e6681337f00e3e8e943b7d88690c8a4b6c396d417f680bf2": "read",
+  "6c3c18d839af0b3e706ee5e8c5fbfcb6b2205583244e1aebd6b1ad81fcf270f3": "read"
+ },
+ "flags": []
+}

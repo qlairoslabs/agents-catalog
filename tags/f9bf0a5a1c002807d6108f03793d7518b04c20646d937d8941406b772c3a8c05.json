@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f9bf0a5a1c002807d6108f03793d7518b04c20646d937d8941406b772c3a8c05",
+ "domain": [
+  "software/bug-tracking",
+  "customer-feedback"
+ ],
+ "product": [
+  "ybug"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Reads, filters and triages website feedback and bug reports collected in Ybug.",
+ "whenToUse": "Use when reviewing or triaging website bug reports and user feedback stored in Ybug.",
+ "tasks": [
+  "read bug reports",
+  "filter feedback",
+  "triage reports"
+ ],
+ "effects": {},
+ "flags": []
+}

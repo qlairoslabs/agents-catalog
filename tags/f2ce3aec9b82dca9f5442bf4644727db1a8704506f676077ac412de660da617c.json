@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "f2ce3aec9b82dca9f5442bf4644727db1a8704506f676077ac412de660da617c",
+ "domain": [
+  "data/integration",
+  "data/lakehouse"
+ ],
+ "product": [
+  "oracle-ai-data-platform",
+  "oracle-autonomous-database",
+  "oracle-fusion",
+  "oracle-epm",
+  "essbase",
+  "oci",
+  "apache-iceberg",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Spark connector skills for Oracle AI Data Platform Workbench covering Oracle databases and apps, OCI services and external sources like Postgres, Snowflake and S3.",
+ "whenToUse": "Use when connecting an Oracle AI Data Platform Spark workload to a specific data source.",
+ "tasks": [
+  "connect to autonomous database",
+  "read fusion erp data",
+  "connect to epm and essbase",
+  "stream from oci kafka",
+  "read oci object storage",
+  "use iceberg tables",
+  "connect to postgres and mysql",
+  "connect to sql server and snowflake",
+  "read azure adls and aws s3",
+  "use generic rest and jdbc",
+  "read excel files"
+ ],
+ "effects": {},
+ "flags": []
+}

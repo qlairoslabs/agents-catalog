@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "501125e419300e109908cd7b629eb21504f39d7ccfada12fe87568a995dc5ee6",
+ "domain": [
+  "marketing/email/cold-outreach",
+  "software/email-infrastructure"
+ ],
+ "product": [
+  "outreach2day"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Cold email infrastructure for managing domains, mailboxes, warm-up and outreach campaigns.",
+ "whenToUse": "Use when setting up sending domains and mailboxes or running cold email campaigns.",
+ "tasks": [
+  "manage domains",
+  "manage mailboxes",
+  "run warm-up",
+  "manage campaigns"
+ ],
+ "effects": {},
+ "flags": []
+}

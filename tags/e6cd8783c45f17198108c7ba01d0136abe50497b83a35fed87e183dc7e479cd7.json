@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "e6cd8783c45f17198108c7ba01d0136abe50497b83a35fed87e183dc7e479cd7",
+ "domain": [
+  "software/agent-tools",
+  "data/web-scraping",
+  "media/generation"
+ ],
+ "product": [
+  "goro"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work",
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Bundle of about 62 agent tools for search, scraping, social data, enrichment and image, video and voice generation.",
+ "whenToUse": "Use when an agent needs a general toolkit for web search, scraping, contact enrichment or media generation.",
+ "tasks": [
+  "web search",
+  "scrape pages",
+  "fetch social data",
+  "enrich contacts",
+  "generate images",
+  "generate video",
+  "generate voice"
+ ],
+ "effects": {},
+ "flags": []
+}

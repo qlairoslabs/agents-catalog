@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d4a45706e71831e2fd8b14025cadf13c03ff6f281ad24d8968fd7dc5f5dc7689",
+ "domain": [
+  "software/mcp-tooling/analysis",
+  "software/cybersecurity"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Inspects MCP servers to list their tools, estimate token cost and spot tools that modify data or use the network.",
+ "whenToUse": "Use when evaluating an MCP server's tools, context cost or side effects before adopting it.",
+ "tasks": [
+  "list mcp server tools",
+  "estimate token cost",
+  "detect data-changing tools",
+  "detect network access"
+ ],
+ "effects": {},
+ "flags": []
+}

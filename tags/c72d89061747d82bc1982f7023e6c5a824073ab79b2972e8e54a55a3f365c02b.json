@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c72d89061747d82bc1982f7023e6c5a824073ab79b2972e8e54a55a3f365c02b",
+ "domain": [
+  "data/business-registry",
+  "data/economics"
+ ],
+ "product": [],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Looks up Argentine companies by CUIT, public procurement tenders and economic series such as dollar rates, inflation and UVA.",
+ "whenToUse": "Use when checking an Argentine company, finding state tenders or getting Argentine economic indicators.",
+ "tasks": [
+  "look up company by cuit",
+  "search public tenders",
+  "get dollar exchange rates",
+  "get inflation data",
+  "get uva values"
+ ],
+ "effects": {},
+ "flags": []
+}

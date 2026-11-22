@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "000608102bf5bc1268f2231d59a9c6afc2893ad0a7eefd8d13a8d6e2050c630b",
+ "domain": [
+  "entertainment/cinema",
+  "spain/local-services"
+ ],
+ "product": [
+  "carteleracines"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Spanish cinema listings: films and showtimes by city or cinema, recommendations, people filmographies, nearby cinemas, movie details and streaming availability.",
+ "whenToUse": "Use when deciding what to watch in Spain or finding where and when a film is showing.",
+ "tasks": [
+  "get city listings",
+  "get cinema listings",
+  "find movie showtimes",
+  "recommend movies",
+  "find latest movie by person",
+  "find movie by fuzzy title",
+  "find person",
+  "get person's current films",
+  "find streaming platforms",
+  "find nearby cinemas",
+  "get movie details"
+ ],
+ "effects": {
+  "a768d7ea9f7b65dc755217e58ebfa34db68f84c7db9198091d7635089eedf726": "write",
+  "5ab56096f7ff77ebc74e94a62bbeea3ecbc7408ebe45d678098ea19e93241513": "read",
+  "b2ec34fd4a530609d60b9d077d9ac10cdd6681ef73afef408f2be76a50a1525b": "write",
+  "576c95ba1e8e9ddc021423f66b27b41981b49e0ed9890cde3a2f33afb81f13fa": "write",
+  "3c892062886a94aaaa73ffeaa66afef349a0b65156e6f0def31f4c1889cc0903": "read",
+  "fd40e3e98ff5a1a805b8397ead844aaf609916754b46c6c55d6c77a4cebc978e": "read",
+  "04ae8116a5f002db244fd2a7fcab8b62c27f874b8da80d79f35429623363d682": "read",
+  "8044ed8c7e616e2fcd1c35581c6c266fe7b975a9cdfd8b19b3c9f8a8be34ccd2": "write",
+  "c037359c4c2287342e101a4b8b64594fea0d7a09ec7df090d3c8d878bd968ee0": "read",
+  "08f1ca94bac2c35d9bd037132002d26f979968fdf6d18b0a29579be8ae074ef4": "read",
+  "74819a7e95b37ac81cb3164a040bfa08c0c701b2a157d6a66b193803d456eb0a": "read"
+ },
+ "flags": []
+}

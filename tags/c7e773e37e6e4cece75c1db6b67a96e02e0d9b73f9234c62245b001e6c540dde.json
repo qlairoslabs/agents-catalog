@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c7e773e37e6e4cece75c1db6b67a96e02e0d9b73f9234c62245b001e6c540dde",
+ "domain": [
+  "ai/llm-gateway",
+  "developer-tools/api"
+ ],
+ "product": [
+  "hubris",
+  "openai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "OpenAI-compatible gateway giving access to over 500 language models with ruble pricing, balance checks and chat.",
+ "whenToUse": "Use when a user in Russia wants to call many LLMs through one OpenAI-compatible API or check their ruble balance.",
+ "tasks": [
+  "list models",
+  "send chat completions",
+  "check balance",
+  "view pricing"
+ ],
+ "effects": {},
+ "flags": []
+}

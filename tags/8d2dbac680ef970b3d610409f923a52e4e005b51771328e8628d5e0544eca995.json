@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "8d2dbac680ef970b3d610409f923a52e4e005b51771328e8628d5e0544eca995",
+ "domain": [
+  "productivity/project-management",
+  "software/developer-tools"
+ ],
+ "product": [
+  "jira",
+  "confluence",
+  "bitbucket",
+  "atlassian-teamwork-graph"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Atlassian Teamwork Graph CLI that gives coding agents access to Jira issues, Confluence pages, Bitbucket PRs and connected third-party data.",
+ "whenToUse": "Use in a terminal or desktop coding agent when you need Atlassian work context or want to create and link Jira items from code work.",
+ "tasks": [
+  "query jira issues",
+  "read confluence pages",
+  "inspect bitbucket pull requests",
+  "draft jira issues from prs",
+  "link issues to epics",
+  "search connected third-party data"
+ ],
+ "effects": {},
+ "flags": []
+}

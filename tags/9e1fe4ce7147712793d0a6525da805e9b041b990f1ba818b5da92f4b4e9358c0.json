@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9e1fe4ce7147712793d0a6525da805e9b041b990f1ba818b5da92f4b4e9358c0",
+ "domain": [
+  "software/api-marketplace",
+  "software/integration"
+ ],
+ "product": [
+  "teetra"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Directory of verified APIs that an assistant can discover and call, with free trial calls and write previews.",
+ "whenToUse": "Use when an agent needs to find and call a third-party API it has no dedicated connector for.",
+ "tasks": [
+  "search verified apis",
+  "call apis",
+  "preview write operations",
+  "use free trial calls"
+ ],
+ "effects": {},
+ "flags": []
+}

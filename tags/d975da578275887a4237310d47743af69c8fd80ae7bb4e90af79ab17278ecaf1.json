@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d975da578275887a4237310d47743af69c8fd80ae7bb4e90af79ab17278ecaf1",
+ "domain": [
+  "software/browser-automation",
+  "data/web-scraping"
+ ],
+ "product": [
+  "browserless"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Official Browserless server offering browser automation, web scraping, screenshots and PDF generation for agents.",
+ "whenToUse": "Use when an agent needs to automate a browser, scrape pages, take screenshots or make PDFs of sites.",
+ "tasks": [
+  "automate browser",
+  "scrape web pages",
+  "take screenshots",
+  "generate pdfs"
+ ],
+ "effects": {},
+ "flags": []
+}

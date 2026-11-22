@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "0682e1cbb0dfeb8a1f3ed2b67c1401f8f0744e730a8f67a7ccf92e0d6ef913e2",
+ "domain": [
+  "it/managed-services",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "tier1",
+  "microsoft-365",
+  "google-workspace",
+  "cloudflare",
+  "huntress",
+  "eset"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "Runs a deterministic IT health check, public email-domain DNS security checks, managed-services pricing estimates and prepares enquiries to Tier1 (NZ).",
+ "whenToUse": "Use when assessing a small business's IT and email security posture, estimating managed IT costs, or preparing a contact request to Tier1.",
+ "tasks": [
+  "get health check questions",
+  "check email domain DNS security",
+  "score IT health check",
+  "get service recommendations",
+  "get resources",
+  "get pricing catalogue",
+  "estimate managed pricing",
+  "prepare contact request"
+ ],
+ "effects": {
+  "3843c401ca721bcf05dcecbaf0b318d00cd0e9fa092dddba1341446871ef108b": "read",
+  "1affc4789ea059b31a8bdc1697cbfa9e8d4100550d65aa369b52d3677fbaeccd": "write",
+  "b34260f218d839e1f5becbd82159fff5e29d20259e834e8b1c786998d1c5b62a": "read",
+  "ffb2ee7a4e8141a64191405fd56e7fb82d19c453f8df8e2ee277cc0500cea003": "read",
+  "97b6dc9cdbf093b6b14c201745f71b82591ec5e661ec9855f0bf08b63760e9ec": "read",
+  "eeb36d7ca1ab445b3ab7345b979a5eb134ee81f8df708bf5769276e8e3e556e4": "write",
+  "bd21b888567db765083bace605448b14c5565fb25e450d1e8a01c48cd0ee2763": "read",
+  "9635e5b2839678484a357dc5fb6403efe33efb95623fcb7bc8c9e9aaa8efe744": "write"
+ },
+ "flags": []
+}

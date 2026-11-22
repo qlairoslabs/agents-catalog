@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "c42e94106232594847de719ab99020d36ed199f37660eeefe43b97336c9bb4e6",
+ "domain": [
+  "media/screenwriting",
+  "creative/talent-discovery"
+ ],
+ "product": [
+  "sleeper-hit-studio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Read-only discovery of public writer profiles, projects, pitch assets and published shows on Sleeper Hit Studio.",
+ "whenToUse": "Use when looking for screenwriters, their public projects or pitch materials.",
+ "tasks": [
+  "search public content",
+  "fetch document",
+  "find writers",
+  "writer profile",
+  "find projects",
+  "project summary",
+  "list writer assets",
+  "list project assets",
+  "pitch assets",
+  "access info"
+ ],
+ "effects": {
+  "76bbe6e920731ee10c82fe6a8a6646d650076207b37172d6f0ab9e53001b33e3": "read",
+  "4c60cadd37b122544756902d42c68abb20aff703a997a4dd38bb97b184a4c42c": "read",
+  "8dc9c2deb7812099c20a08ab0902360e0d6a179bf054f2e94f354f323b5292a2": "read",
+  "b01536be2723f79cec00d0f6089dd92a5e714553966fe16e4d23ff423287ff7e": "read",
+  "32a8da74b41eb69a47bbaf79fb2aed2a43c40dcd242bc08f316e0ac133b5cc8d": "read",
+  "d9fc4b0ad51d364b987afad1295e903f47101c102451f82e9638f464db3f9c51": "read",
+  "592b62df97ff03fb9c4a8d359ca17e1be3124fea9293a511b61aabc04124a511": "read",
+  "34c2fed9ee8c46947d12c635a382c03e365ae03f44f22dbc6f49861ad9a5f5e7": "read",
+  "46aea6834fcca753e0b261f8994110257d8351ba32ae441aa3a4e156b0aaff16": "read",
+  "6553a66b74500dc579e6268dc85b4a16c6f62ca38adac08f336a081ed28006a6": "read"
+ },
+ "flags": []
+}

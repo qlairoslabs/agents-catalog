@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c1d9211dab0e27a8f429fd9a88289d8902dccdd820e9ec69577899c29370e5be",
+ "domain": [
+  "data/email-verification"
+ ],
+ "product": [
+  "emaillistvalidation"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Checks whether email addresses are valid, invalid, risky or unknown using MX, SMTP, catch-all and disposable checks.",
+ "whenToUse": "Use when you need to verify email addresses before sending to them.",
+ "tasks": [
+  "verify email address",
+  "check mx records",
+  "check smtp",
+  "detect catch-all domains",
+  "detect disposable emails"
+ ],
+ "effects": {},
+ "flags": []
+}

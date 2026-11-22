@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "88b17ad521bcacbf6ac21a290edc5125fdd6de1660e5de040ce19477e6a021b3",
+ "domain": [
+  "software/mobile-development",
+  "software/debugging"
+ ],
+ "product": [
+  "react-native",
+  "expo",
+  "metro"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Debugging, inspection and automation for React Native and Expo apps via Metro and Chrome DevTools Protocol.",
+ "whenToUse": "Use when an agent needs to debug or inspect a running React Native or Expo app.",
+ "tasks": [
+  "inspect app runtime",
+  "read logs",
+  "debug react native",
+  "automate app actions"
+ ],
+ "effects": {},
+ "flags": []
+}

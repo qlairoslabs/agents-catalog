@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e0d2de0bafc416dde6e4976af27af426c379712d16628e236ddb6261d7a16d5f",
+ "domain": [
+  "productivity/note-taking",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "notes-jpwilliams"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Daily notebook service where an AI agent writes entries on the current day's page and links them into an entity graph, marked as AI-authored.",
+ "whenToUse": "Use when an agent should keep a dated journal of its work or observations in a shared notebook the user can review.",
+ "tasks": [
+  "write daily notes",
+  "add entries to today's page",
+  "link notes to an entity graph",
+  "mark entries as ai-authored"
+ ],
+ "effects": {},
+ "flags": []
+}

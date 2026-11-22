@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "17561e6b9fa7bf25ec05f14989fcba800e7d8d09ea707399d349af4f87d34889",
+ "domain": [
+  "commerce/product-configurators",
+  "design/3d"
+ ],
+ "product": [
+  "configo"
+ ],
+ "audience": [
+  "design",
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Builds, tests and manages product configurators, materials and projects in Configo.",
+ "whenToUse": "Use when creating or maintaining product configurators and their materials in Configo.",
+ "tasks": [
+  "build product configurators",
+  "test configurators",
+  "manage materials",
+  "manage projects"
+ ],
+ "effects": {},
+ "flags": []
+}

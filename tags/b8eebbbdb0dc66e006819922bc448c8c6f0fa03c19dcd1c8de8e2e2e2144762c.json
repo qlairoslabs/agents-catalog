@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b8eebbbdb0dc66e006819922bc448c8c6f0fa03c19dcd1c8de8e2e2e2144762c",
+ "domain": [
+  "software/geospatial/maps",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-location-service",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guides developers in adding maps, place search, geocoding and routing with Amazon Location Service, including auth and SDK setup.",
+ "whenToUse": "Use when adding maps, geocoding, place search or routing to an app with Amazon Location Service.",
+ "tasks": [
+  "add maps",
+  "search places",
+  "geocode addresses",
+  "calculate routes",
+  "set up authentication",
+  "integrate sdk"
+ ],
+ "effects": {},
+ "flags": []
+}

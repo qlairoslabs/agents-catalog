@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "f863312d1f4da07502e52ba9da2b227f673ab92dbd2f8ff0e8260aaf22113475",
+ "domain": [
+  "commerce/promotional-products",
+  "marketing/branded-merchandise"
+ ],
+ "product": [
+  "dinilu"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Searches Dinilu Canada's custom promotional products and returns options and indicative CAD price and shipping quotes.",
+ "whenToUse": "Use when pricing custom-printed promotional products for a given quantity and configuration in Canada.",
+ "tasks": [
+  "search products",
+  "get product options and minimums",
+  "get price and shipping quote",
+  "fetch product text"
+ ],
+ "effects": {
+  "b2f84acb027c5e3764643825a7cce85c769c3cd7dcaee8888f521756649baf49": "read",
+  "2b0c6fed11cf2bb7947df826627ec7b94c971e91b21e59b9f1049c503829d2f3": "read",
+  "19e7aa1a6c5fee1b862368e5e974eacbfbfb705346231221f5b657b41f32b111": "read",
+  "e76e005347d6e8845bea686c73a1f93928e49906e9b9aad6c597266b74e42b2e": "read",
+  "6c0bd452667a814bd4957bc414c986d61332c9bda84f10eff5edd151a890fb0f": "read"
+ },
+ "flags": []
+}

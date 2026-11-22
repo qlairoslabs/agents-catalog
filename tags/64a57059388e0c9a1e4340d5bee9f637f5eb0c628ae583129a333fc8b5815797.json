@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "64a57059388e0c9a1e4340d5bee9f637f5eb0c628ae583129a333fc8b5815797",
+ "domain": [
+  "travel/regulations",
+  "aviation/drones"
+ ],
+ "product": [
+  "caat",
+  "nbtc",
+  "dji"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Gives sourced guidance on Thai drone registration, insurance and flight rules for hobby and tourist pilots, and explains DroneClear's registration help.",
+ "whenToUse": "Use when someone asks whether or how they can fly or register a drone in Thailand.",
+ "tasks": [
+  "check drone rules by location",
+  "explain CAAT and NBTC registration",
+  "advise on insurance",
+  "describe registration handling service"
+ ],
+ "effects": {
+  "63df1245b59e6f423445628b89c84f3dcd94798ec1049b5184049257ddb7f307": "write",
+  "cff9fbf95156396b8e4e8afafb20ca1c109fafb8eab0d74339d584701e912ab2": "read"
+ },
+ "flags": []
+}

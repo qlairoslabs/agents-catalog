@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0235115a978b8471757215e1ddf3ca82d50446a122905d1e9fb4c02592a542c1",
+ "domain": [
+  "software/ai-agents/computer-use"
+ ],
+ "product": [
+  "superbot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Personal AI agent that claims to perform any action a user can do on their computer.",
+ "whenToUse": "Use when a user wants an agent to carry out general tasks on their computer.",
+ "tasks": [
+  "automate computer tasks"
+ ],
+ "effects": {},
+ "flags": [
+  "broad computer control implies arbitrary command execution"
+ ]
+}

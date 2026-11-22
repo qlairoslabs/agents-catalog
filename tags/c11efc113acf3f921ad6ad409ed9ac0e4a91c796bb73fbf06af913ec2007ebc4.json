@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "c11efc113acf3f921ad6ad409ed9ac0e4a91c796bb73fbf06af913ec2007ebc4",
+ "domain": [
+  "software/consulting",
+  "sales"
+ ],
+ "product": [
+  "mcgill-technologies"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Describes McGill Technologies' fixed-fee software consultancy: engagement model, discovery phase, services, current capacity and contact details.",
+ "whenToUse": "Use when evaluating whether to hire this consultancy, or checking its scope, terms and availability.",
+ "tasks": [
+  "get engagement model",
+  "get discovery instrument",
+  "list services",
+  "check capacity",
+  "get contact info"
+ ],
+ "effects": {
+  "8733d42a6e0cf2c8abfed87459a4ce57489d4d11922bac0f20ea0430bcad09a1": "read",
+  "84f9581ade2e7d5acd10bcefa36e9c2efaad8c451bac40a9e6b277fc0ab8bdd9": "read",
+  "bbba079db8e0073d4333db1cb203ebb2cd4505fb8a3c8942f8a52ee4d8764c7a": "read",
+  "04b87f14c1d71e7a924e15ee2e42afbc28f4489d31c1d9df451018f030f4358e": "read",
+  "a41b404cd44a0dc53179e625ccbeab96cfa8e8bd3785977e25b7e4223b295a60": "read"
+ },
+ "flags": []
+}

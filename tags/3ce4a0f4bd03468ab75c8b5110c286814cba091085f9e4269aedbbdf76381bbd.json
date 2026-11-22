@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "3ce4a0f4bd03468ab75c8b5110c286814cba091085f9e4269aedbbdf76381bbd",
+ "domain": [
+  "research/web-search",
+  "software/documentation"
+ ],
+ "product": [
+  "exa",
+  "firecrawl",
+  "context7",
+  "deepwiki",
+  "github"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Web search, page reading, library documentation lookup, GitHub repository Q&A and MCP server install configs, with no key required.",
+ "whenToUse": "Use when an agent needs to search the web, read a page, look up current library docs, ask about a public repo, or find and configure an MCP server.",
+ "tasks": [
+  "search the web",
+  "read a web page as markdown",
+  "look up library documentation",
+  "answer questions about a github repo",
+  "get mcp server install config",
+  "find mcp servers for a task"
+ ],
+ "effects": {
+  "ef573afc2bd82607e12508733fb5978e95b9f0473176b04d2f5ddf5b63e09e30": "read",
+  "9ee4237b1611f7dbeddaa8aaf13f9ce93f3cab03b3cb0cd3a196bb19e57f38f5": "read",
+  "e67800bad3716feb7c2f6fad7983c4936b92cb52f51be22dfc1c3b414cae496f": "read",
+  "2393919ea06932b7c9080f8fef42f9891f42e9073a8341017c2cba69bf36c0c2": "read",
+  "488f05749433352104778c7c4ef980b1106b41926a9c9f2249d1c7c09d7c5745": "read",
+  "49a69916d6b005c58d5e56c24784aba41880053afa86cc51ba73f2b1647f83d8": "read"
+ },
+ "flags": []
+}

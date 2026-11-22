@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "3635c8d298d09ec5aad0e743c80fe0b6446abacbe65367c10936228deb59c1fc",
+ "domain": [
+  "communication/customer-inbox",
+  "support/messaging"
+ ],
+ "product": [
+  "dialogbrain",
+  "whatsapp",
+  "telegram",
+  "instagram",
+  "email"
+ ],
+ "audience": [
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "support-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Unified customer inbox that lets an agent read and reply to WhatsApp, Telegram, Instagram and email messages.",
+ "whenToUse": "Use when an agent needs to read or answer customer messages across WhatsApp, Telegram, Instagram or email.",
+ "tasks": [
+  "read customer messages",
+  "reply on whatsapp",
+  "reply on telegram",
+  "reply on instagram",
+  "reply to email"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a50187be104aa1143bfda9dc98a146dfc0bb33332bc5586c5b809061a96947e9",
+ "domain": [
+  "ai/memory",
+  "data/verification"
+ ],
+ "product": [
+  "recognitium"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Provides an AI memory store with SHA-256 hashing that can be verified offline; the description is vague about other features.",
+ "whenToUse": "Use when an agent needs persistent memory entries whose integrity can be verified by hash.",
+ "tasks": [
+  "store memories",
+  "verify memory hashes offline"
+ ],
+ "effects": {},
+ "flags": [
+  "vague-description"
+ ]
+}

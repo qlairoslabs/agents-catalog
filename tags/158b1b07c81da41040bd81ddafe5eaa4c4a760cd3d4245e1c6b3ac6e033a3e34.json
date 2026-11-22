@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "158b1b07c81da41040bd81ddafe5eaa4c4a760cd3d4245e1c6b3ac6e033a3e34",
+ "domain": [
+  "software/preflight-checks",
+  "finance/payables"
+ ],
+ "product": [
+  "openapi",
+  "postgres",
+  "npm",
+  "pypi",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Paid deterministic preflight checks for agents: OpenAPI readiness, PostgreSQL SQL safety, invoice matching, payout checks, optimization and package installs.",
+ "whenToUse": "Use before risky agent actions such as running production SQL, approving an invoice, sending a payout or installing a package.",
+ "tasks": [
+  "assess OpenAPI agent readiness",
+  "preflight PostgreSQL SQL",
+  "match invoice to PO and receipts",
+  "preflight outbound payout",
+  "optimize allocation decisions",
+  "check package install safety"
+ ],
+ "effects": {
+  "cd85d895eca953eee90c2acf510487cc93c39e8bfcc8939e1d0969bab64d6e72": "write",
+  "c86a7dffad37e2ea708ef8440e8d02ef7e478b6922ad0b51efaabfed859520c9": "write",
+  "f00ab96259933275b59c84919f11a735d1e02bcb81da31d09bbdc478e380af06": "write",
+  "2560c9d429df713cdf1937d5f8a7831e974a68c86f06a81df62a2adf856d6fb3": "write",
+  "b1594c8f80f4a16d61cda85070288ae5b5c5c925ca210e0272f0cc094146d193": "write",
+  "268af16e3dc4778cf2d57234b5dd6acb51b8d28569c29b12ad49e0a67b160fe9": "write"
+ },
+ "flags": [
+  "tools are paid per call (micro-USD)"
+ ]
+}

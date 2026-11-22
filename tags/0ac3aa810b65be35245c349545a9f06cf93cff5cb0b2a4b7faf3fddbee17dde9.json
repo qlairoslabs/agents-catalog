@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0ac3aa810b65be35245c349545a9f06cf93cff5cb0b2a4b7faf3fddbee17dde9",
+ "domain": [
+  "software/code-quality",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "livecheck-ai",
+  "quality-clouds"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Scans code for quality and security issues and proposes automatic fixes.",
+ "whenToUse": "Use when reviewing code for issues and wanting automated scanning and fix suggestions.",
+ "tasks": [
+  "scan code for issues",
+  "autofix code issues"
+ ],
+ "effects": {},
+ "flags": []
+}

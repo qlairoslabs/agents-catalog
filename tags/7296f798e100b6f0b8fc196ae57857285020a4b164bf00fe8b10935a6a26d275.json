@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7296f798e100b6f0b8fc196ae57857285020a4b164bf00fe8b10935a6a26d275",
+ "domain": [
+  "science/visualization",
+  "science/simulation"
+ ],
+ "product": [
+  "paraview"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Loads simulation fields into ParaView and slices, contours, colors and renders them.",
+ "whenToUse": "Use when an agent needs to visualize scientific simulation output with ParaView.",
+ "tasks": [
+  "load simulation fields",
+  "slice data",
+  "create contours",
+  "apply color maps",
+  "render images"
+ ],
+ "effects": {},
+ "flags": []
+}

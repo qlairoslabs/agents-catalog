@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bf4a22d2872503c480d2cdaf438dbea62d502c2b10219bcef6544bf8e0e3ce15",
+ "domain": [
+  "software/blockchain/infrastructure",
+  "software/cloud"
+ ],
+ "product": [
+  "chainstack"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Deploys and manages blockchain nodes on many protocols, searches Chainstack docs and requests testnet funds.",
+ "whenToUse": "Use when building on a blockchain and needing to deploy or manage nodes, look up Chainstack docs or get testnet tokens.",
+ "tasks": [
+  "deploy blockchain nodes",
+  "manage blockchain nodes",
+  "search documentation",
+  "request testnet funds"
+ ],
+ "effects": {},
+ "flags": []
+}

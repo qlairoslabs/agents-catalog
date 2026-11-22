@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b37f4fe11644b0e1b572de74bc80e138d09bb0d87b15c86a3f05e08d492ece61",
+ "domain": [
+  "data/lineage",
+  "data/orchestration/airflow"
+ ],
+ "product": [
+  "apache-airflow",
+  "openlineage"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Guidance on adding data lineage to Airflow tasks with inlets and outlets.",
+ "whenToUse": "Use when adding lineage metadata to Airflow tasks whose operators lack built-in OpenLineage extraction.",
+ "tasks": [
+  "add inlets and outlets to tasks",
+  "declare input and output datasets",
+  "enable lineage tracking"
+ ],
+ "effects": {},
+ "flags": []
+}

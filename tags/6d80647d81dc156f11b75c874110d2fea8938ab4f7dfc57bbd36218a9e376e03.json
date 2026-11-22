@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6d80647d81dc156f11b75c874110d2fea8938ab4f7dfc57bbd36218a9e376e03",
+ "domain": [
+  "software/crm",
+  "services/marketplace"
+ ],
+ "product": [
+  "salesforce",
+  "mustertheforce"
+ ],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "build-software",
+  "sell"
+ ],
+ "summary": "Salesforce-focused knowledge retrieval and diagnostics plus a marketplace of vetted Salesforce professionals.",
+ "whenToUse": "Use when a user needs help diagnosing Salesforce issues or finding a vetted Salesforce specialist.",
+ "tasks": [
+  "retrieve salesforce knowledge",
+  "diagnose salesforce issues",
+  "find salesforce specialists"
+ ],
+ "effects": {},
+ "flags": []
+}

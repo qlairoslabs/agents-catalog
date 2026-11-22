@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b192f67f6fc138e432327ee6de90bc3d091374e820dd73011e0400936dee8c46",
+ "domain": [
+  "travel/hotels",
+  "travel/price-comparison"
+ ],
+ "product": [
+  "trivago"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live hotel listings and prices across booking sites by coordinates or name, and forecasts monthly price trends.",
+ "whenToUse": "Use when a user wants to find and compare hotels or learn the cheapest time to visit a destination.",
+ "tasks": [
+  "search hotels by coordinates",
+  "search hotel by name",
+  "filter by dates, guests, rating",
+  "forecast price trends"
+ ],
+ "effects": {
+  "a24b0f673abda7ff345e6f1309a328749205fdb1d29765ca611443e2cb09c751": "write",
+  "ee68c8e81a53a89b5110fcb7043b9b0f0b1bf924d8dc6b2db66e2ca18466850d": "write",
+  "f661c183f9fe1786fe06ec2893725222a4f0a95b8444525b5451f59f50898648": "write"
+ },
+ "flags": []
+}

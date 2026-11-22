@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "822a732ffdd3ee08d7ecfb5fa10545ecfffce5e2b4484abba7159515fc000346",
+ "domain": [
+  "finance/market-data/sec-filings"
+ ],
+ "product": [
+  "sec-edgar",
+  "akkrudata"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Structured data from SEC filings, including financial statements, metrics, insider trades and institutional holdings.",
+ "whenToUse": "Use when the user needs company financials, insider activity or institutional ownership from SEC filings.",
+ "tasks": [
+  "get financial statements",
+  "get financial metrics",
+  "get insider holdings",
+  "get institutional holdings",
+  "read SEC filings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "e8d48c20ab1de27ce138df67df4d3ea77a3da811f9d3e294ddf329ca3a839fc3",
+ "domain": [
+  "ecommerce/marketplace",
+  "crypto/payments"
+ ],
+ "product": [
+  "jpyc",
+  "x402",
+  "ethereum"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Japanese marketplace for direct-from-producer goods paid in JPYC stablecoin: browse shops and products, get quotes with stock reservation, pay via x402, and view orders.",
+ "whenToUse": "Use when a user wants to browse and buy Japanese producer goods with JPYC through gasless x402 checkout.",
+ "tasks": [
+  "list shops",
+  "get shop",
+  "list shop products",
+  "get product",
+  "search products",
+  "quote checkout and reserve stock",
+  "authorize transfer",
+  "submit payment",
+  "view order history"
+ ],
+ "effects": {
+  "eb2ab6c27077a8a133eeeec32125ad734c5eb58d0d6e673c6e4b7a5171777dc6": "read",
+  "bd04d3fb212070445104b8bcf695e603df6b4a21936b2ca6167ccce39b0e79e5": "read",
+  "3edd8380d91f3106869b7b545a6272c69f5eacf227990aa19a3c0ca556b72578": "read",
+  "0ffffa3cf3cb94ef978d0bd790bb1393fad146cf495fd55573ad30eb89b49127": "read",
+  "0a68c62f00fc9f763f2efa66c2ac34330c686fbe54786aac22ee937249d713ff": "read",
+  "951bfe33b325eee948f986b638c5425c01b9f3a4d46fbb518d84d6d26c97b292": "write",
+  "7d743370b013ad36557ce40ed69912885e6ec7cebcf2f6c0c5af1a7a773b5505": "write",
+  "e45dc9d034141f7bc8e8cbe5b5df133839b17ee45abea705294affa73ed55cdc": "risky",
+  "af48c6d49e9cf2022714d7a1ff2ad99d21958c78891d1265bbfffe2ee0322311": "read"
+ },
+ "flags": []
+}

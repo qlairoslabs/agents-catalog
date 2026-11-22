@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "651d5ac0be5d40a19625714a360cc61187430907361726ba4c58dd481c754313",
+ "domain": [
+  "software/cybersecurity/fraud-detection"
+ ],
+ "product": [
+  "dregs"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Fraud and abuse detection for SaaS to investigate scored identities, triage escalations and tune rules.",
+ "whenToUse": "Use when investigating suspicious signups or tuning fraud rules for a SaaS product.",
+ "tasks": [
+  "investigate identities",
+  "triage escalations",
+  "tune detection rules"
+ ],
+ "effects": {},
+ "flags": []
+}

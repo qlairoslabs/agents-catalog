@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "2baf55944d99670143644aa463cf8e3ea102c01d456fcd0d251c0cc8f146d2e3",
+ "domain": [
+  "software/java-web-framework",
+  "software/development"
+ ],
+ "product": [
+  "webforj",
+  "maven"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Documentation search, project scaffolding, theme generation and token and class validation for building webforJ applications.",
+ "whenToUse": "Use when developing a webforJ app and you need API docs, styling tokens, a new project command or a generated theme.",
+ "tasks": [
+  "list webforJ versions",
+  "generate project scaffold command",
+  "read documentation",
+  "search knowledge base",
+  "look up component styling",
+  "list CSS tokens",
+  "validate CSS tokens",
+  "validate class names",
+  "generate theme"
+ ],
+ "effects": {
+  "2f1a3e45ff604ad90ff0ecc1d7374abe50c1e7d7f67cb6205f0e92c48129c423": "write",
+  "255e95b4b1f830c585c95039ee7152741e018d0a211ffc411f210dec2222d9d6": "read",
+  "5b3a11d605fbcccb84b128011aeeba2c906392bfb067dc0c8c7652328c375504": "read",
+  "23316a108a94acd1fe93fe62ac38e3c06d2b4d8fdf0d2f4785b928bec46faa92": "write",
+  "f7edda6d508114e05305cba07c056393bedc185d176c1ddba0ca1d9afd2cd947": "read",
+  "79751f26341d47a75d204409ee2480c78dac6f9055a54e07105a13ef92c04ec3": "write",
+  "46354fd18e0aee117282b72a9a5338737cdd46672a53ca7f2177edce93e63679": "read",
+  "0676abca1bab90f32420dbc178b8162512c9f5edc5f2e5f0de405e8fd1eff279": "read",
+  "e5a2eb3b56c1d3046f67ba3c38f7ac92286dc7849ba8bb452cff60f86c753926": "read"
+ },
+ "flags": [
+  "create_project tells the agent to run the returned Maven command through the shell unchanged"
+ ]
+}

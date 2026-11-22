@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "34e0d3f74dd8e6a68012afed09a5231201228d630c133a3eb91bffd5a2bbc422",
+ "domain": [
+  "marketing/email",
+  "software/email-rendering"
+ ],
+ "product": [
+  "emailmd"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "keep-in-touch"
+ ],
+ "summary": "Renders markdown into email-safe HTML, lints drafts for deliverability issues and previews emails.",
+ "whenToUse": "Use when writing emails in markdown and needing compatible HTML or deliverability checks.",
+ "tasks": [
+  "render markdown to email html",
+  "lint deliverability",
+  "preview email"
+ ],
+ "effects": {},
+ "flags": []
+}

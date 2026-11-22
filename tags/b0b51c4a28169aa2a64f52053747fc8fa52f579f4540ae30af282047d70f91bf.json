@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b0b51c4a28169aa2a64f52053747fc8fa52f579f4540ae30af282047d70f91bf",
+ "domain": [
+  "web/website-builder",
+  "web/hosting"
+ ],
+ "product": [
+  "pageweave"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Website builder for agents that creates, edits and hosts sites.",
+ "whenToUse": "Use when an agent should create, change or host a website for the user.",
+ "tasks": [
+  "create websites",
+  "edit websites",
+  "host websites"
+ ],
+ "effects": {},
+ "flags": []
+}

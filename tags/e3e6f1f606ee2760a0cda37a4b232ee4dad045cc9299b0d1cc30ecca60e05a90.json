@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "e3e6f1f606ee2760a0cda37a4b232ee4dad045cc9299b0d1cc30ecca60e05a90",
+ "domain": [
+  "cloud/azure/compute"
+ ],
+ "product": [
+  "azure-virtual-machines",
+  "azure-vm-scale-sets"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Routes Azure VM and scale set tasks: sizing, pricing, provisioning, autoscale, capacity reservations and machine management.",
+ "whenToUse": "Use when a user wants to create, size, price, scale or reserve capacity for Azure virtual machines.",
+ "tasks": [
+  "recommend vm size",
+  "compare vm pricing",
+  "create vm",
+  "configure scale sets",
+  "set up autoscale",
+  "check quota",
+  "list skus and images",
+  "manage capacity reservations",
+  "enroll machines in management",
+  "estimate cost"
+ ],
+ "effects": {},
+ "flags": []
+}

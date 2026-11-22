@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7cce60b17dbb8443d65a6a1121bfdd1cc249eb172cbd874c0d5f35ddc201d521",
+ "domain": [
+  "software/frontend-development",
+  "software/sap-development"
+ ],
+ "product": [
+  "sapui5",
+  "openui5"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps create and validate UI5 projects, look up API docs, run the UI5 linter and follow best practices.",
+ "whenToUse": "Use when developing SAPUI5 or OpenUI5 applications.",
+ "tasks": [
+  "create ui5 projects",
+  "validate ui5 projects",
+  "access api documentation",
+  "run ui5 linter",
+  "provide development guidelines"
+ ],
+ "effects": {},
+ "flags": []
+}

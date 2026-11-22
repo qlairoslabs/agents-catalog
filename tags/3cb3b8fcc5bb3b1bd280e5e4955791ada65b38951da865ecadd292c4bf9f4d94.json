@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "3cb3b8fcc5bb3b1bd280e5e4955791ada65b38951da865ecadd292c4bf9f4d94",
+ "domain": [
+  "finance/crypto",
+  "finance/market-data"
+ ],
+ "product": [
+  "bitcoin",
+  "ethereum",
+  "satoshimacro"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides live Bitcoin and Ethereum cycle scores, on-chain indicators, ETF flows, altcoin season index and crypto treasury company mNAV data.",
+ "whenToUse": "Use when a user asks where Bitcoin or Ethereum sits in its market cycle, about ETF flows, altcoin season, or MSTR/BMNR premiums.",
+ "tasks": [
+  "get cycle model score",
+  "read cycle indicators",
+  "check altcoin season index",
+  "view US Bitcoin ETF flows",
+  "view ASX Bitcoin ETF assets",
+  "compute crypto treasury mNAV",
+  "get market snapshot"
+ ],
+ "effects": {
+  "163d13f20e9c78f438d7bd07f748f115424dbce6a6b8aadd5bacfac823905050": "write",
+  "8434db88f85d671e946acc77bb3bcd5e799cad8e04c1c661b94d17f440605950": "write",
+  "e0b4a42af7e3f99a163aa12e7ecd1f6f4238343b680086b6936aaac4900ae56f": "read",
+  "fbf6b2c53dfe4430b479a5f2b7245f35e1761458ebd7635a35481781be62b57c": "read",
+  "5cc70d0d8010918abf5c490abdc4079b62b2bcf1719ba7048f27f1b9b17255e5": "read",
+  "73025e87c07e7ced346314d4079c647953c53fb67ae46c81057940418574a91e": "write",
+  "afb7eb72ec8076675c61ec13053147e1b8c73d6497435f2b5c19c8c4678e39bd": "read"
+ },
+ "flags": []
+}

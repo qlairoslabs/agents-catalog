@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6483c724c9ffffca5e553628ada6b45282808849bbeb6d230f6715a1b3415a35",
+ "domain": [
+  "software/app-builders/no-code",
+  "web/website-builders"
+ ],
+ "product": [
+  "branderux"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Generates and deploys a live website and MCP app from a single prompt in an AI client.",
+ "whenToUse": "Use when someone wants to quickly generate and publish a website or agentic app from a description.",
+ "tasks": [
+  "generate website",
+  "generate mcp app",
+  "deploy app live"
+ ],
+ "effects": {},
+ "flags": []
+}

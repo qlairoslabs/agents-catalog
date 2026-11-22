@@ -1,0 +1,65 @@
+{
+ "classifier": 2,
+ "contentHash": "c2eb16d8ef5ee88f9d9b8405040ca25350d8a5ee1f1722535daa6442e86111fc",
+ "domain": [
+  "hardware/optics",
+  "ecommerce/lens-catalog",
+  "electronics/machine-vision"
+ ],
+ "product": [
+  "commonlands",
+  "shopify",
+  "m12",
+  "c-mount",
+  "imx477",
+  "ar0234"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "sales"
+ ],
+ "goal": [
+  "build-software",
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Finder for Commonlands M12 and C-mount lenses matched to image sensors, with field-of-view calculation, live Shopify stock and prices, carts, checkout and RFQ.",
+ "whenToUse": "Use when choosing a camera lens for a sensor or target field of view, checking stock and price, or preparing a cart, checkout or quote request.",
+ "tasks": [
+  "match lens to sensor",
+  "calculate FoV",
+  "check distortion and coverage",
+  "search lens catalog",
+  "compare lenses",
+  "read sensor specs",
+  "check live price and stock",
+  "create and update carts",
+  "create checkout",
+  "submit RFQ"
+ ],
+ "effects": {
+  "699854fb0341459fc25b4a169fc31f21f6a8dd3d42d698b185ada513b63c6920": "read",
+  "bd1663cccf7ee958513fe1ad1370a9e7110a97ad49fecf4e894b806b89a442f5": "read",
+  "bf4974d2f59dddfcce5101959b011a9e22941765196a8c43fa9a4d66e46643ca": "write",
+  "0383d02b45ca77fcae6e921278eb2cc7314f2988b2704bb8dd5473143a7e816e": "write",
+  "53ef32c83d4505a4f85151a7002ac4758b2e7dd9189a799b93bb977d90f89efb": "write",
+  "cb46339b85908f813eaa819ddd69ad2d387f8f8ae9d75de5623a36f9f38c89de": "write",
+  "8d6be20b6a44eadd3cb6fcd19d525c83af04ac635f42c64d5169e6907428d363": "write",
+  "aa17940f27ec2d57a14030846d36aae906592ae31ff5d7c5bc781cab8a281135": "read",
+  "992713c4ec67b341b358b755d4f2fa0e5ed2e84c72c741606dd59278ebabda43": "read",
+  "6e4ec142e6fed78e3decc29a594363e1ae436f6a1d7fd5ab71313b243fcb1676": "read",
+  "58228708d26234a8470ec32a29e152aab55f394391c1ed7aac5edc4a11c1a1a0": "read",
+  "33233eab7263f7caffbec5fd9a66f0454c5ef6e05e27721f18321f06611f0239": "read",
+  "1071caa9f3305e91635670ee244563ff4c5522a663beefefee6e157121901c67": "write",
+  "0fa4269a06168abea909eae062661f063eeb15e6073fff4edce35493f4647ecd": "write",
+  "55d0b001b541cb06e3bbff3259fd04ee0ec7529cf663db3842f9d2a8bc67d10e": "read",
+  "90114637d53bad27b4f86efe6361544d10b56a561c4d8ee09c7cb478551c4557": "write",
+  "2fcb9755866133ecefb23eeaaff2b5795327701998747449696d6d4332b3eac7": "write",
+  "58c4427f7abecc4dacd178b464fc489bbce097d39eb97f5fc49367919cd8b7b5": "write",
+  "26679a9cf6c2fe969f744583d65d700a6cf92e5d9f97eee1b0d982084d55a855": "read",
+  "d0aed779c46e196b56b2463c65982edd08bfa58062417594e775e0d767f73b5f": "read",
+  "e1d14432043850b32f03d2a98d7d272048462c5f9fcbc590b9801bf94a70a44e": "write"
+ },
+ "flags": []
+}

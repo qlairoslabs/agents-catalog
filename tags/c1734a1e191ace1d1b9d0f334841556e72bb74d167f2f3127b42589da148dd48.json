@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c1734a1e191ace1d1b9d0f334841556e72bb74d167f2f3127b42589da148dd48",
+ "domain": [
+  "science/physics-simulation",
+  "engineering/simulation"
+ ],
+ "product": [
+  "arxyne"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs physics simulations locally through the Arxyne CLI and reads back their results.",
+ "whenToUse": "Use when an engineering or science task needs a physics simulation run and its outputs inspected.",
+ "tasks": [
+  "run physics simulations",
+  "read simulation results"
+ ],
+ "effects": {},
+ "flags": []
+}

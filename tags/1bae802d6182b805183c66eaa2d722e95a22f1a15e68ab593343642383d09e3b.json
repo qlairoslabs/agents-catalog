@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "1bae802d6182b805183c66eaa2d722e95a22f1a15e68ab593343642383d09e3b",
+ "domain": [
+  "ai/transparency",
+  "software/verification"
+ ],
+ "product": [
+  "crovia",
+  "hugging-face",
+  "bitcoin",
+  "drand"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Signed, Bitcoin-anchored observations of AI model training-data disclosure, with silence proofs, weekly reports and seal verification.",
+ "whenToUse": "Use when checking whether a model's training data disclosure has been observed, or verifying a Crovia seal or silence proof.",
+ "tasks": [
+  "get live totals",
+  "look up model observation",
+  "search models",
+  "get silence proof",
+  "verify seal",
+  "read weekly report",
+  "explain terms",
+  "compare Crovia and Causari"
+ ],
+ "effects": {
+  "61a941697dae4819e78791618afdc0155dafa70748347ed13d0a393fd26e194e": "read",
+  "2c7cfdb466c772fab84bb4837cefdd9535ba820238a4c7530b758ae0b0b365e1": "read",
+  "79840554854848351e7433edbdee18f06aae2d250895a4bc786a722873b25810": "write",
+  "dab9d696ae8329d7b819008a3a635e942f68f015fa4eeb78b28ce97a9499ecb0": "read",
+  "c6b828040702f3c5ed37e346d9c97007d538d2eae60a4f09db76095337805354": "read",
+  "e11a457de74c41c737e568a114d6f48707406ad4f8c8f9c6b9b7b8da5f4130be": "read",
+  "48b4e958510cc258e610b7521525b5ca609b5e1182ea793dc2c24e952de311e1": "read",
+  "6dee98e8d94cbcae4b19798b094b3e2d87e742034426fbedca9a8f85723ef58f": "read"
+ },
+ "flags": []
+}

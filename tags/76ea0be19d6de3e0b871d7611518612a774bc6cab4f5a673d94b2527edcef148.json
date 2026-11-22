@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "76ea0be19d6de3e0b871d7611518612a774bc6cab4f5a673d94b2527edcef148",
+ "domain": [
+  "productivity/databases",
+  "software/ai-agents/audit-logging"
+ ],
+ "product": [
+  "airtable"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Sets up and maintains an opt-in Airtable table logging what an agent did, decided and got blocked on during long-running workflows.",
+ "whenToUse": "Use when setting up an agent-driven Airtable workflow or when a user asks to track or audit agent actions and decisions.",
+ "tasks": [
+  "create agent activity log table",
+  "record agent actions",
+  "record agent decisions",
+  "log blockers",
+  "provide audit trail for workflows",
+  "plug into other workflow skills"
+ ],
+ "effects": {},
+ "flags": []
+}

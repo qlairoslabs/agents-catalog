@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "748ea79dff13a125fac632f4a0405eb7f53551e4b0555bd248aa4b53c01546f3",
+ "domain": [
+  "travel/hotel-booking"
+ ],
+ "product": [
+  "myservice"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches and books hotels worldwide with live rates across many cities.",
+ "whenToUse": "Use when a user wants to find hotel availability and prices or book a stay.",
+ "tasks": [
+  "search hotels",
+  "check live rates",
+  "book hotel"
+ ],
+ "effects": {},
+ "flags": []
+}

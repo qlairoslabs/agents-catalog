@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ddb6616232f608451ced797f6a412199578a953a2a858dc7a81a3feb7468be1f",
+ "domain": [
+  "software/cloud/scaffolding",
+  "software/development"
+ ],
+ "product": [
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Interactive workflow that gathers requirements, scans the codebase and writes an AWS architecture scaffold and implementation into the project.",
+ "whenToUse": "Use when a user wants to build, scaffold, or extend an app on AWS with code changes after a structured requirements discussion.",
+ "tasks": [
+  "gather requirements via questions",
+  "scan existing codebase",
+  "design aws architecture",
+  "write aws scaffold code",
+  "implement features on aws",
+  "refactor existing app for aws"
+ ],
+ "effects": {},
+ "flags": []
+}

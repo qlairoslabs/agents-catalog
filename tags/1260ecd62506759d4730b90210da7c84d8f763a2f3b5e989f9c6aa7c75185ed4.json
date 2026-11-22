@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "1260ecd62506759d4730b90210da7c84d8f763a2f3b5e989f9c6aa7c75185ed4",
+ "domain": [
+  "travel/airlines"
+ ],
+ "product": [
+  "starlink",
+  "united-airlines",
+  "alaska-airlines",
+  "hawaiian-airlines"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Checks and predicts whether flights on United, Alaska and Hawaiian have Starlink WiFi, with fleet stats and itinerary planning.",
+ "whenToUse": "Use when a traveller wants Starlink WiFi on a specific flight or route.",
+ "tasks": [
+  "check flight Starlink status",
+  "get fleet rollout stats",
+  "list equipped aircraft",
+  "predict flight odds",
+  "plan itineraries",
+  "predict route odds",
+  "search upcoming Starlink flights"
+ ],
+ "effects": {
+  "840b3ab37c084b02cd37564d922de8090422e436c1226ebec73f26e3cf76112d": "write",
+  "b761bbabb9f423fd7fc881d914e7a3c30af1c1abb155861df7b05e9aeb6e95ad": "read",
+  "3589a70238cfb9b0013640f1404abaa7406adaeb8133d1f061a4e17be9a23465": "read",
+  "ff5b41f43bf54a6dca8dfd9ad26c2c4619492753eabf6f7c83e98a3644ee81f2": "read",
+  "4729be6783dbbfd4225c1e451412a3aba22117a46b2d4befc61f775eef4ebcc5": "read",
+  "34df54965b3b353ed8eaa8c9a58e730a92cc3e65555b2a7573f79934e26668fa": "read",
+  "1160c7981ca0fb3c4640237828b48e3c1a8975289b02e70ead8205d81b441ac7": "read"
+ },
+ "flags": []
+}

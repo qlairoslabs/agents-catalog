@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "d80b4abe8cbb551d0482f6d85936b7ff43a5a6773c1574b8597d031a6c216b27",
+ "domain": [
+  "local-business/auto-detailing",
+  "booking"
+ ],
+ "product": [
+  "es-luxury-auto-detailing",
+  "google-maps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Lets an agent view services and prices, find open times, verify a service address, and book or cancel mobile auto detailing appointments.",
+ "whenToUse": "Use when a customer wants to book, check or cancel a car detailing or coating appointment with this business.",
+ "tasks": [
+  "read business card and services",
+  "find open times",
+  "check service address",
+  "book an appointment",
+  "check a booking",
+  "cancel a booking"
+ ],
+ "effects": {
+  "40da7fa3df9bf4a476db82675ec4d451d7c8e9e64346aa8ebb7c8b49a517de8e": "read",
+  "ca149cf8c7740def5c6eae64994262b368fb032812fb8d160d6ea9491ffb5112": "write",
+  "aa10fad3251a3101cda7dba499b66493609bec6d82b30d88014717897c8cac14": "write",
+  "8d4b439c94465dbad5a0fe6eb69022d20f4b142ecd9b52477f87270ac4308ac6": "write",
+  "7808a4a08f0e1363dd413375b36acc2b1afa0a6709880fd61e272921c31901a5": "read",
+  "e05f7dd7236f66d75b1b0fdce3c4a2bbf4d8347bb8505620c104fee49a8891af": "write"
+ },
+ "flags": []
+}

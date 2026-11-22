@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cbc898fbf2216a3fd6f2d5dd8e4bc95e03785c861f01d6a2f38f3af702473b91",
+ "domain": [
+  "software/mcp-hosting",
+  "software/devops"
+ ],
+ "product": [
+  "alpic"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages projects, debugs deployments and shows analytics for MCP servers hosted on Alpic.",
+ "whenToUse": "Use when the user hosts MCP servers on Alpic and needs to manage projects, fix deployments or check usage.",
+ "tasks": [
+  "manage projects",
+  "debug deployments",
+  "view analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

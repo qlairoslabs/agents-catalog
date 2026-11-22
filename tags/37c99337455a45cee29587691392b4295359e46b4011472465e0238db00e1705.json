@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "37c99337455a45cee29587691392b4295359e46b4011472465e0238db00e1705",
+ "domain": [
+  "software/testing/web-app-verification"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets agents inspect, interact with and assert on a running web app from the inside without screenshots.",
+ "whenToUse": "Use when an agent needs to verify behaviour of a running web app it is developing.",
+ "tasks": [
+  "inspect running app",
+  "perform ui actions",
+  "observe app state",
+  "assert behaviour"
+ ],
+ "effects": {},
+ "flags": []
+}

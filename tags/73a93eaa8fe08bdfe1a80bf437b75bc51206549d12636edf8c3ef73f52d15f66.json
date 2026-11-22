@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "73a93eaa8fe08bdfe1a80bf437b75bc51206549d12636edf8c3ef73f52d15f66",
+ "domain": [
+  "software/testing/visual-testing"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Uses local offline OCR on screenshots to confirm that text is actually visible to users.",
+ "whenToUse": "Use when an agent needs to verify from a screenshot that UI text renders visibly.",
+ "tasks": [
+  "read text from screenshots",
+  "verify text visibility",
+  "run offline ocr"
+ ],
+ "effects": {},
+ "flags": []
+}

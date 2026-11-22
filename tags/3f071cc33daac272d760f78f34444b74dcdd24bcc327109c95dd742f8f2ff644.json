@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "3f071cc33daac272d760f78f34444b74dcdd24bcc327109c95dd742f8f2ff644",
+ "domain": [
+  "agriculture/poultry-farming",
+  "operations/farm-management"
+ ],
+ "product": [
+  "quailos"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "sell",
+  "schedule"
+ ],
+ "summary": "Farm management for poultry and quail egg farms covering flocks, egg production, hatches, orders, tasks and calendar.",
+ "whenToUse": "Use when a poultry or quail farmer wants to track flocks, eggs, hatches, orders or farm tasks.",
+ "tasks": [
+  "track flocks",
+  "log egg production",
+  "manage hatches",
+  "manage orders",
+  "manage farm tasks",
+  "view farm calendar"
+ ],
+ "effects": {},
+ "flags": []
+}

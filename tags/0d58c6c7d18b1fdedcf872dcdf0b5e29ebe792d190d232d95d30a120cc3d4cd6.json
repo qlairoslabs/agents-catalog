@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "0d58c6c7d18b1fdedcf872dcdf0b5e29ebe792d190d232d95d30a120cc3d4cd6",
+ "domain": [
+  "health/adolescent-psychiatry",
+  "content/medical-articles"
+ ],
+ "product": [
+  "psychiatry-for-teens",
+  "emora-health"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Article library on adolescent psychiatry and medication decisions for parents, with search, citation formatting and crisis resources.",
+ "whenToUse": "Use when a user asks about teen mental health medication topics or needs a citable article, or when crisis resources are needed.",
+ "tasks": [
+  "search articles",
+  "list articles",
+  "read an article",
+  "format citation",
+  "get site info",
+  "get crisis resources"
+ ],
+ "effects": {
+  "0d82c5eada13857658415a02645c9e4402022a737216414e97841ef39789ee07": "read",
+  "7ea156863c94af3a83824b9ca661e1fcf5f239428c07dd04e55ac30553477794": "read",
+  "ccc5baac9015a5e4d1fce8c199806a7a4766e644e98ea1e1e6c0565c1a277f59": "read",
+  "e9c4dc68a5cecc334b7095ec04103e5fe09617570009b0c733a4ff4711e8ea2e": "read",
+  "13d9e7b2ed0eed61fc52284685fecb6c0cf5cccfd1a3a895c087290b59de0da0": "read",
+  "82e94c183d082a7b740c5ea5d739621c9c0c772eafe646489972c65086eee4e3": "read"
+ },
+ "flags": []
+}

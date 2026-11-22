@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "22c79dc3ec839b88a8d3cc4476ddd1c15ef5996672c0d4019d5ebb8e64a036f7",
+ "domain": [
+  "software/mobile-development",
+  "data-capture/barcode-scanning"
+ ],
+ "product": [
+  "scandit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills with product selection help, docs and implementation guides for the Scandit Data Capture SDK.",
+ "whenToUse": "Use when adding barcode scanning, ID capture or label capture to an app with Scandit.",
+ "tasks": [
+  "choose scandit products",
+  "look up sdk documentation",
+  "implement barcode scanning",
+  "implement id capture",
+  "implement smart label capture"
+ ],
+ "effects": {},
+ "flags": []
+}

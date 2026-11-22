@@ -1,0 +1,69 @@
+{
+ "classifier": 2,
+ "contentHash": "7fa45eff68206c05b786c518dc297039db0bd3c170d75035931c23320846b40d",
+ "domain": [
+  "government/politics",
+  "civic/public-data"
+ ],
+ "product": [
+  "congress.gov",
+  "fec"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "keep-in-touch"
+ ],
+ "summary": "Source-linked, signed US political data: officials at all levels, bills, votes, positions, speeches, polls and candidates, plus citizen workspaces, letters and watchlists.",
+ "whenToUse": "Use when you need verifiable facts about US elected officials, legislation, votes, stated positions, polls or 2026 candidates, or to help a citizen contact representatives.",
+ "tasks": [
+  "look up representatives by ZIP",
+  "search officials",
+  "resolve names",
+  "get bills and bill text",
+  "compare stated positions to votes",
+  "search speeches and state votes",
+  "list 2026 candidates",
+  "search polls",
+  "view provenance and changes",
+  "create citizen workspace",
+  "draft letters to officials",
+  "create email watchlist"
+ ],
+ "effects": {
+  "32365b35f95dbf979518793e1e6c69e8b67e076f9297c9df5d12d98438bf85fa": "read",
+  "47f4a2a84d7e6e2b63e5f392d6c4e9115317981bdda2a54126930bb7aafc2eef": "read",
+  "2221179c41738e8d414ffb925086d63973647a3de2989ac03b185c17f9b42c8a": "read",
+  "45aba5a57b40efc1e4a09b4483d415e4ada323d2dc80552bbaeaf129b39e2f80": "read",
+  "66b0e6bfd81b0b6ff28ccbfdbf045b00caedaf16845be554a926751201225eb8": "read",
+  "c3839161e563caa6e3f99f83d494ebb559bf4d78136d1d06f93afcf62fd7f9ed": "read",
+  "52bc2e9cfc42bacdf941acebe524bab9d94d73fadcf69dc258dc0e4e4cffe8bd": "read",
+  "c73d8b4256a79af0c4789720bc098d03ef4e4ba3447535db3d2b4d297e512358": "read",
+  "6707cf092308e58a6d003e76124006b2094103125a60f04f552e97b3f128faf8": "read",
+  "845582e836ca8d8c89010e1423e63f87f127ed12962383a4aff652057c7f311a": "read",
+  "7c241044ac084f3700fdb705ac9789a8cc0b787eb9b6587b32ab9be00edcdff2": "read",
+  "46b76eeb4eb7da0863b3d00161137c483b0d052c09dfa15c30049fb0180a2070": "write",
+  "b2a03d746edb7bd11bbfefbb4a166ee239ae7a17fdca356feffe94d697782460": "read",
+  "1ab0abfbc5af9208c2af184c86778abbe781dac0f8435ac76096d110f554cb26": "write",
+  "c175b80b34e79fa7f0df50fed8d97d304a3142c4105b1d79b612847f524d67a8": "write",
+  "623c9c50177e7ebd08e6be230d5fd72ea3740fa68176b1311399a534c9dcc5e3": "read",
+  "1c7a4a78b70c2e652ced785cdb64bc132f555d438868d35eb5a81b776142221a": "read",
+  "6205b2b8de3879c5c6c29ce47143f4af49910eedd1f72c5fc08e1f2b6cf0dde7": "read",
+  "323555775d4f7e5424fd2c3d15f783d831f0ff046bd256616c1f65f4a05f4f36": "read",
+  "e3b4b6c1d69bab77c65a30bbafae2481628b442e70a6023edff904a6e3554d1d": "read",
+  "4d350589e35258e709561d66a906f4194cbbb6cf371dd1e11cde243f0d545fe4": "read",
+  "1923e4525683066e83086316a7186bb4260459264e4d67e09cfc13047e29ae8b": "read",
+  "8071e36bbe729193f87a8ccea7288e75991608de0cd5d14cb077d2c946c8fe02": "read",
+  "3a6f9cee7714880106a80ea6fdff42690bd8b9574565874b8d05136e58d3f67a": "read",
+  "f72c71d438995d7e292d024892e453c3005657b71166b207b1832639fc9b132f": "read",
+  "a21405a07cfec4108b6d40b5e75c78e8176c1c05a76d1f822afc550566b6b186": "read",
+  "16fba5c4a20ce49bdc114e02a2fdd8eeafffc0f36c43511f5abd7b60fdc375d7": "read",
+  "d80cfbd5c96a148beb0ea0e238c33800f0554364451821c1b04ce6ee6e63d158": "read",
+  "1ac932ede6a75720cc77d34b28f5ba1669fe8a7208302c59cdaa3ddf407b6da6": "write",
+  "d5efac8f01fdd960490489187a0ef4890f29a97e100dde9878a64e90ac8af338": "read",
+  "ae01d751b31245a6969c7ae3d02601d76e36e6b33b55ca752a79a44119b0ce42": "read"
+ },
+ "flags": []
+}

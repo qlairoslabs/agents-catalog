@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "169ea894d304b968a8db75c5078e5d37c18eff8fdab5ac2d13a7a9c0e3d87910",
+ "domain": [
+  "it/remote-management",
+  "it/device-management"
+ ],
+ "product": [
+  "windows",
+  "macos"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Lets AI assistants reach authorized Windows and macOS devices to handle files, run commands and manage them.",
+ "whenToUse": "Use when an agent must access files or run commands on a managed remote Windows or macOS machine.",
+ "tasks": [
+  "access remote files",
+  "run remote commands",
+  "manage devices"
+ ],
+ "effects": {},
+ "flags": [
+  "remote command execution on devices"
+ ]
+}

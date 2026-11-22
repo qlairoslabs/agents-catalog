@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "43cb7debbae5904019400756a4e36026bdaa9e7c976d13487c70485c330aa5f8",
+ "domain": [
+  "home-improvement/windows-and-doors",
+  "retail/quotes"
+ ],
+ "product": [
+  "ablakunio"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Estimates prices for custom-size PVC windows, doors and shutters from a Hungarian supplier, checks stock and submits callback quote requests.",
+ "whenToUse": "Use when someone in Hungary wants a price estimate, stock check or quote for windows, doors or shutters from Ablakunio.",
+ "tasks": [
+  "estimate custom window price",
+  "estimate door or shutter price",
+  "check stock for a size",
+  "list stock items with prices",
+  "submit quote or callback request",
+  "confirm quote with email code"
+ ],
+ "effects": {
+  "d6e18b9961b0a562dfe553b2b459760d0ab65fbedd462cd613015ea5ea6f3e1d": "read",
+  "5966f240d4a44af0d7ab2da94392baa2e824db93dde2fb6246e27e82c5b539d2": "read",
+  "85dae5450136eae328f2cf4265010b2a90162a0e62a3615f32540d0d8a6433b6": "read",
+  "b077d5573d03d5f0dbf4028356d39bad3b6a82d1d5a4b3849837bdc744fb313a": "write",
+  "b30c1e8fd5b69c639766e63bb70a30e8220a9c8e7e8ea21ca394944d8dd94f6a": "write"
+ },
+ "flags": [
+  "request_quote description pushes the agent to treat it as the order-starting tool once a price suits the user"
+ ]
+}

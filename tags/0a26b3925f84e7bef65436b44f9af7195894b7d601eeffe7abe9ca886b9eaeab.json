@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "0a26b3925f84e7bef65436b44f9af7195894b7d601eeffe7abe9ca886b9eaeab",
+ "domain": [
+  "enterprise/integration-gateway",
+  "security/access-governance"
+ ],
+ "product": [
+  "braxos",
+  "salesforce",
+  "workday",
+  "ccure",
+  "genetec",
+  "zoom"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Governed gateway through braXos to an organization's systems such as Salesforce, Workday, CCure, Genetec and Zoom.",
+ "whenToUse": "Use when an agent needs controlled access to enterprise systems connected through braXos.",
+ "tasks": [
+  "access salesforce",
+  "access workday",
+  "access physical security systems",
+  "access zoom"
+ ],
+ "effects": {},
+ "flags": []
+}

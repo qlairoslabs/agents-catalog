@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0f1d0340d34880166f237e53eb1f12ca3575f0b583693f3bbe0699a5626adf6c",
+ "domain": [
+  "software/cybersecurity/code-scanning"
+ ],
+ "product": [
+  "aikido"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs Aikido Security scans for code vulnerabilities, leaked secrets and infrastructure-as-code issues.",
+ "whenToUse": "Use when checking a codebase for security flaws, exposed secrets or IaC misconfigurations.",
+ "tasks": [
+  "run sast scans",
+  "detect secrets",
+  "scan infrastructure-as-code"
+ ],
+ "effects": {},
+ "flags": []
+}

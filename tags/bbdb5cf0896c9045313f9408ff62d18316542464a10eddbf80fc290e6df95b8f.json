@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "bbdb5cf0896c9045313f9408ff62d18316542464a10eddbf80fc290e6df95b8f",
+ "domain": [
+  "ecommerce/custom-printing",
+  "design/labels-stickers"
+ ],
+ "product": [
+  "bottle-your-brand"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Prepares images as die-cut stickers and bottle labels for Bottle Your Brand, with print specs, artwork checks and order links.",
+ "whenToUse": "Use when a user wants stickers or product labels printed from an image or needs print sizing guidance.",
+ "tasks": [
+  "create sticker order link",
+  "get sticker guidance",
+  "get label specs",
+  "make print-ready label artwork",
+  "show upload panel",
+  "show free artwork tools"
+ ],
+ "effects": {
+  "c5a4421ed305b1e0765d1a81ae4406378839e2c6256866c04f015dfca492b191": "write",
+  "601b90d0d4e0ecddfd49fab38630d7c8438a52861b2351a90acbfdc94a8ff927": "write",
+  "629eded3d5c77eb1aa61213018600daec6e817f95bdef87e49b8e822bb49af80": "write",
+  "31018f101ec1f95fc7c69633cb21ec675e4fb6cff7cedbd751b62d146823a717": "write",
+  "84427ecfde9477badaa7e471892ccf218ffd03f31b21d693829ce5a6c8225104": "write",
+  "e1a4a82cbd1102cd28ade807d3305ef3f808adc63c2982f541579b60241a2658": "write",
+  "8de0994392f6ce79e79541d5d1aa2d9665125d99923a0bdacdfa9095af1c32ce": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,73 @@
+{
+ "classifier": 2,
+ "contentHash": "2e9e951497343bf7424e761692e5307fdadb94ec3a2cb7ebe649a4727489a22b",
+ "domain": [
+  "telecom/esim",
+  "telecom/sms-verification"
+ ],
+ "product": [
+  "pikasim"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Search and buy eSIM data plans, phone-number eSIMs and SMS verification numbers using a prepaid crypto-funded wallet that agents can create themselves.",
+ "whenToUse": "Use when an agent or user needs mobile data abroad, a real carrier number, or a temporary number to receive an SMS code.",
+ "tasks": [
+  "search eSIM plans",
+  "check country coverage",
+  "create agent wallet",
+  "check balance",
+  "deposit funds",
+  "purchase data eSIM",
+  "purchase phone-number eSIM",
+  "top up eSIM",
+  "cancel unused eSIM",
+  "order SMS verification number",
+  "rent long-term SMS number",
+  "read received SMS"
+ ],
+ "effects": {
+  "c8962bb14d49f7d769c9eff4677fb7d99d229582c061dc3be62fbbb49c801a23": "write",
+  "0053e18c313925653555dfdd2bb03d467dd84b73c853a96d153365378c7baca2": "write",
+  "9d019e49518404c53732b5224843e1bc2ca16422d27cd811c2845a8ba1a380a2": "write",
+  "b66637f263ac4abb2645a8d6fcc9205bec0229bc243b73d26e186bd68280a2ab": "write",
+  "9f2d14c0fc3dec654c20bfa06a7a425ce56dcf4fba466c98bb54fdbf8a7f1523": "write",
+  "31d534058c958640e72dfebf885ef6cd1c4daf77eb7ce11fc9fd14e242506b08": "write",
+  "a256e93db5a5f15a3ef60ed1a9b836ba9e76b717e10a4a93b65b1083a3fe5f9f": "write",
+  "f6b510134a7e52ee5836a98bbcff68bf96d66aa2b44c2fe1ea0820a57c9b24b9": "write",
+  "0322ea33220de5a9ed333d0e2cef31c67cc03de96be7f81cb17be22221359c43": "write",
+  "a3f77aca5af5198e5c936048350ec19b0d4ed74267e462040b94456d103ef313": "write",
+  "5d8a8b18794981adb3e82c94d29c6eef3bc202c24ea22096a6c873538f51a850": "risky",
+  "10da7cb3b1797e20587e0043bb92601ae749348af2f0c7a525b55c570b2f4255": "risky",
+  "f35b35c751e7e3d5bd0505c2e9f65d534a490057c0709bc0af2ebc01833c0a45": "write",
+  "bdd5f387087d66c753dca03e3b42a9b198260f57cd8d2c9bc5f6fb7421609a2a": "risky",
+  "8570e29308be9695add8e29a255979db9d1b546b4482746a698fd0ea241f0a51": "write",
+  "9126c76c40c3f3b9ef71d4debdda453197e0bddb82935fe283f4f89cb5cbb79b": "write",
+  "a8b56b533b7037547d4cb7489c0aa270ff2cef526eed7e584f60f1b8ed11e6c5": "write",
+  "7ccf336317f4a85268bd861f0731a739ef14ed8ed8262c0e4f936a66afd507f3": "write",
+  "e87be042a979cc3aa4c54b6f8acf273d097c4cd0f339b9babfa3eac3dffb29d1": "write",
+  "66aee51b3f709f5c1b5691c5f3d04f548a37f2de149eb6328a813e8fedaab0d1": "write",
+  "43c800172d3ea8898915e8dd43bc9449729f1ed1718919f942b05475adbe3ed1": "write",
+  "55f5ee0b55387141d993802ac851ef92cfb6016b72ae60fb1a05938e121bbe8a": "write",
+  "3240811acb9e47c03d6b841abc142dbe56ed43eb5d3ee48c4ba73c6100ac1d3f": "write",
+  "8a97b53fa20f1e77e012f3f7b9af95628a12ce1f8135c2c236d6556595f663cb": "write",
+  "fc06415b908ff13d21ee74c4f24eedb0d28d3c8e9e83e43324f78b9302ce631f": "risky",
+  "2ddae0fb3a5b2a8cc93afb03a34bc84b1b0cd0e679bc7eacf2d690186b1ea178": "write",
+  "8c611b22f3ef85b3a24f0831dd58a28db1f216660e1025a9b4c5f95d05e8e002": "write",
+  "c6f5511013e06c9939ab35a54be272d14992fd74fe05a07a09fe278ac070f6a3": "write",
+  "56be95cf88d867ea9cc301ad4f8d175fb86839c11ccbfe73543ec742327003e1": "risky",
+  "627d4a671d2bb9ee8c3cc04986ab3670325ee1226e8b271873e37150de6c1314": "risky",
+  "3d2b68a1b24ee0357b631100e3b07bc8a4119652bcd4a700bbecd42bb531a07c": "write",
+  "f2ec5974e36ec93eeb47db7089a09ac8e17ef26ce5e8eb2c09ad4e2e671e8f8f": "risky",
+  "36f2573f66f153b157d00a6366d29948a67c03479f67726c048f51866030fe1b": "write"
+ },
+ "flags": [
+  "anonymous no-KYC phone numbers and SMS verification codes for third-party services could facilitate account-creation abuse",
+  "agents self-onboard and spend money without human involvement"
+ ]
+}

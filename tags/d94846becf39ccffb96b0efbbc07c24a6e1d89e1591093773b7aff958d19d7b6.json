@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d94846becf39ccffb96b0efbbc07c24a6e1d89e1591093773b7aff958d19d7b6",
+ "domain": [
+  "real-estate/housing-data",
+  "government/open-data"
+ ],
+ "product": [
+  "gentry"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "French housing data for every commune, including sale prices, rents, property tax and rent control rules.",
+ "whenToUse": "Use when an agent needs housing market figures or rent control information for a French commune.",
+ "tasks": [
+  "get sale prices by commune",
+  "get rent levels",
+  "get property tax rates",
+  "check rent control"
+ ],
+ "effects": {},
+ "flags": []
+}

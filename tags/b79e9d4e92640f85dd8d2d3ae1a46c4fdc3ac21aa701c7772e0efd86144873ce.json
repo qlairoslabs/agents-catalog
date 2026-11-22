@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b79e9d4e92640f85dd8d2d3ae1a46c4fdc3ac21aa701c7772e0efd86144873ce",
+ "domain": [
+  "software/code-intelligence"
+ ],
+ "product": [
+  "sqlite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Traces static and dynamic call paths in a codebase using a SQLite property graph.",
+ "whenToUse": "Use when an agent needs to follow call chains or dependencies through a codebase.",
+ "tasks": [
+  "trace static calls",
+  "trace dynamic calls",
+  "query code graph"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b6077ff8bdc2779d19661acd1ebccb0496aec721a09f6e84ed9ba8e79dfff34a",
+ "domain": [
+  "finance/invoicing",
+  "compliance/e-invoicing"
+ ],
+ "product": [
+  "factur-x"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Checks a PDF invoice against 21 Factur-X criteria covering PDF/A-3, embedded CII XML and French BR-FR rules, and lists the criteria.",
+ "whenToUse": "Use when validating that an invoice PDF is a compliant Factur-X document or explaining a compliance report.",
+ "tasks": [
+  "validate Factur-X invoice PDF",
+  "report compliance criteria",
+  "list verification criteria"
+ ],
+ "effects": {
+  "d8b935c725fd0b9e503cdd6e0434e148c34f2c953d7a07d6489bed4b7906db68": "read",
+  "4e8abcf961de0c73068b0a68516053600c656ab46349e370db3e5e67637290b3": "read"
+ },
+ "flags": []
+}

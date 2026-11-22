@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "861d48da8fa4daf18602bffa527021ad9ed62c1ad699151d40b7b002d624838a",
+ "domain": [
+  "software/app-builder",
+  "software/deployment"
+ ],
+ "product": [
+  "lovable"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds, iterates on, deploys and manages Lovable apps, with prompts guarding credit use and publishing.",
+ "whenToUse": "Use when creating, changing, deploying or managing database work for a Lovable app.",
+ "tasks": [
+  "build apps",
+  "iterate on apps",
+  "deploy apps",
+  "manage apps",
+  "database workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

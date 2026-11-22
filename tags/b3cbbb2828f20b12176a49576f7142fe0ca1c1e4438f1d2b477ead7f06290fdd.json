@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b3cbbb2828f20b12176a49576f7142fe0ca1c1e4438f1d2b477ead7f06290fdd",
+ "domain": [
+  "communication/messaging/whatsapp"
+ ],
+ "product": [
+  "whatsapp",
+  "waapi"
+ ],
+ "audience": [
+  "support",
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Messaging API tools for sending messages and managing chats, groups and channels.",
+ "whenToUse": "Use when an agent needs to send messages or manage chats, groups or channels on the user's messaging account.",
+ "tasks": [
+  "send messages",
+  "manage chats",
+  "manage groups",
+  "manage channels"
+ ],
+ "effects": {},
+ "flags": []
+}

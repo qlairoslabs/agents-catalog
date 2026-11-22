@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b2c5029dc562de51598cc7a906e7b70383cd9ffc334d56141b4b4964cfc196f1",
+ "domain": [
+  "commerce/mobile-wallet-passes",
+  "marketing/loyalty"
+ ],
+ "product": [
+  "apple-wallet",
+  "google-wallet",
+  "walletwallet"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Creates, updates and revokes Apple Wallet and Google Wallet passes.",
+ "whenToUse": "Use when you need to issue or manage digital passes like tickets, loyalty cards or coupons for Apple or Google Wallet.",
+ "tasks": [
+  "create wallet passes",
+  "update wallet passes",
+  "revoke wallet passes"
+ ],
+ "effects": {},
+ "flags": []
+}

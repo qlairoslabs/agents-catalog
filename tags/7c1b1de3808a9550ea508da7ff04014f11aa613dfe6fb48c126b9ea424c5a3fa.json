@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7c1b1de3808a9550ea508da7ff04014f11aa613dfe6fb48c126b9ea424c5a3fa",
+ "domain": [
+  "it/tenant-administration",
+  "productivity/office-suite"
+ ],
+ "product": [
+  "microsoft-365",
+  "cli-for-microsoft-365"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "MCP server exposing the CLI for Microsoft 365 so a tenant can be managed through natural language.",
+ "whenToUse": "Use when an agent needs to administer or query a Microsoft 365 tenant.",
+ "tasks": [
+  "manage microsoft 365 tenant",
+  "run cli for microsoft 365 commands"
+ ],
+ "effects": {},
+ "flags": []
+}

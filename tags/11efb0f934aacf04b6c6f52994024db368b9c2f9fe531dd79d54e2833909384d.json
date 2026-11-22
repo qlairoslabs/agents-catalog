@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "11efb0f934aacf04b6c6f52994024db368b9c2f9fe531dd79d54e2833909384d",
+ "domain": [
+  "marketing/paid-advertising",
+  "marketing/search-ads"
+ ],
+ "product": [
+  "google-ads"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted Google Ads connector with OAuth, limited reads and confirm-before-write changes.",
+ "whenToUse": "Use when reviewing or changing Google Ads campaigns with a confirmation step.",
+ "tasks": [
+  "read campaign data",
+  "prepare ad changes",
+  "confirm ad changes"
+ ],
+ "effects": {},
+ "flags": []
+}

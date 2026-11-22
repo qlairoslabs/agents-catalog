@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4d4e3f80ab8ed8558726933e683267723b2cfb1abdc0bee4dbc12529e614fbd0",
+ "domain": [
+  "business/e-signature",
+  "business/documents"
+ ],
+ "product": [
+  "signatureapi"
+ ],
+ "audience": [
+  "operations",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "sell",
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Connects to the SignatureAPI e-signature service to send documents for signing, track envelopes and download signed files.",
+ "whenToUse": "Use when an agent needs to send a document for electronic signature or check the status of a signing envelope.",
+ "tasks": [
+  "send documents for signature",
+  "track envelope status",
+  "download signed files"
+ ],
+ "effects": {},
+ "flags": []
+}

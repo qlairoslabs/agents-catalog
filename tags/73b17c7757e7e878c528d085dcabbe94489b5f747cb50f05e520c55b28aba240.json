@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "73b17c7757e7e878c528d085dcabbe94489b5f747cb50f05e520c55b28aba240",
+ "domain": [
+  "software/cybersecurity/devsecops",
+  "software/incident-management"
+ ],
+ "product": [
+  "aws",
+  "aws-devops-agent",
+  "aws-security-agent"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "AWS DevOps and Security Agent bundle for incident investigation, code review, UAT, vulnerability scanning and penetration testing.",
+ "whenToUse": "Use when investigating incidents, checking release readiness or security-testing code on AWS.",
+ "tasks": [
+  "investigate incidents",
+  "review code",
+  "run uat for release readiness",
+  "scan code for vulnerabilities",
+  "run penetration tests"
+ ],
+ "effects": {},
+ "flags": []
+}

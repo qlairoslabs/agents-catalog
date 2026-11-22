@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "037e3bf8e5f8e015be84466a58bac0e759b1c548ed64f88e7ed625c9cdd2fe93",
+ "domain": [
+  "ai/model-registry",
+  "news/ai"
+ ],
+ "product": [
+  "the-neural-net"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Sourced register of open-weight AI model releases with parameters, context length and licence, plus AI news stories.",
+ "whenToUse": "Use when you need facts about open-weight models or recent AI releases and news.",
+ "tasks": [
+  "search models",
+  "get model record",
+  "list recent releases",
+  "get register stats",
+  "search news",
+  "view daily wire"
+ ],
+ "effects": {
+  "9bb8cac8f44ca58f7fcc22da921966af76884de7841e2eee2f890e3abad03d97": "read",
+  "f93e8d2965602527f0002ce6cbb3990cf88f0ff19dabfee1c345ed77ea5b0a7f": "read",
+  "b3159061aadb10dba4c25fb9a851dc216c8e846ef242d311a13e9d923ab4056c": "read",
+  "ed4a834cb2a595ec386691a71004c970ae31b717d0cc0678fe441ee6c0a0331f": "read",
+  "7af127933df7d36100ef3d85dca4fdb79838024b8071024b3f85be7f1032123f": "read",
+  "959ab9b25c85aaa6ad6f1f3399d829eeaaf44dda63c70b39f074a5f2a1da5cb6": "read"
+ },
+ "flags": []
+}

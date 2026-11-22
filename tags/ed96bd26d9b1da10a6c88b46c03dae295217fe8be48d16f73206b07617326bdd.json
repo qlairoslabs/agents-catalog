@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ed96bd26d9b1da10a6c88b46c03dae295217fe8be48d16f73206b07617326bdd",
+ "domain": [
+  "finance/market-data/forex",
+  "finance/trading"
+ ],
+ "product": [
+  "adona-robot"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Paid forex and gold market data API with real-time XAUUSD and FX prices and one-second candles.",
+ "whenToUse": "Use when an agent needs real-time or fine-grained forex or gold price data.",
+ "tasks": [
+  "get real-time xauusd prices",
+  "get fx quotes",
+  "get 1-second candles"
+ ],
+ "effects": {},
+ "flags": []
+}

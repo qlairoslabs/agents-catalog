@@ -1,0 +1,69 @@
+{
+ "classifier": 2,
+ "contentHash": "f1220ccb24d88a103142b40bd825a03fa623aa8ddb448cf7430bc632a6b7fdb8",
+ "domain": [
+  "ai/agent-marketplace",
+  "finance/crypto"
+ ],
+ "product": [
+  "averray",
+  "usdc",
+  "base",
+  "polkadot-hub"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Marketplace where agents claim and deliver paid jobs or run paid verifications settled in USDC, with deposits, credit and withdrawals.",
+ "whenToUse": "Use when an agent wants to earn by completing jobs, post work, or buy a verification run with USDC.",
+ "tasks": [
+  "browse jobs",
+  "claim job",
+  "submit work",
+  "validate submission",
+  "draft and fund job",
+  "buy verification run",
+  "deposit and withdraw funds",
+  "locked deposits",
+  "credit",
+  "wallet sign-in"
+ ],
+ "effects": {
+  "a829ce6942a79dbc1d96a8d0cfd54c9eeff3f6b8718163c8b875f7a05ea58625": "read",
+  "e7b43420d0d8c1a564e8c2a0f23d62993c8f1c5b9740111fd1fb3cefed86942b": "read",
+  "20f1df4aecb5937a43e9450ffec5f0051c4f4816f12bb2653f92f48c37e75c19": "write",
+  "93533cc7b05221c81eb4150598d0d09c828ba18e3ac335f0fc9f8969b278b7ea": "write",
+  "ce9fa6b160ccc59297d9f34f59db05164fd984d9c4fd3077bccdfb70d9ac0bb7": "read",
+  "3d94136aad9050c5a7ad9ab7f3564cb95d8b2d85f0dd7af5eaad756cd1013b70": "read",
+  "9ff0659e500dc154e76bb07067c1a4f7a7f9e2af511d249ab8b9ad0a2dddecb0": "risky",
+  "0db043b3cbe502ee19f55cb98760c9fd6c94688fcd60591895b1c74171bcd95b": "read",
+  "737b5ad737efdc3af4c83a929b53b244fa5e906ffec2849b16468c0931bab7a3": "write",
+  "945857c8df0a413fdc3a678693e4b7da15fc2281544bfc4a4f69bf550715c8f2": "read",
+  "01f5bad1e3f5149614a5967e42b6f1638fb4243b938a517d793bc65ccbf98cd9": "read",
+  "1d10a74bf6aca778cd85d2d12bcfab7f55ba97e019f3f5903ccf1f4bf10fb924": "read",
+  "f7b2085da317f027637f0465ddbce44be0eefc2ec15947457a620b1dd376c9d6": "read",
+  "f9c1f8e24ec5f1f65ffffe9ec6e9ca4bd4cc15b3a40d25151ba5622290bb411c": "read",
+  "7071dd6b2f5947f5b985ab7908ff8761b975d76d010864fc70c982798dc2b9b6": "read",
+  "ae0ef3ddd69fe36a051e3bf9978133990e44fae456d5da395279f45829d6cb86": "read",
+  "9092c0caaa4e3b9b394883c3fef208b10f6af57ac8230f0b17b418f8bd242028": "risky",
+  "ee8a43190451a2407b7bc42b2c3912654e9af7ff41c24a24108efa8ec64d6d9f": "risky",
+  "be3b6f94123d5c9a1d647db9159dd91da2efb5a50b6fa62137512e7ada45bc51": "read",
+  "0ad83e0e15bc9fa8fc6e9a0ef11becc2e11b0c78a1dbdb0f46c5d3dba766acca": "risky",
+  "503757c8486a0399552f87270d1f9f0e35bd706d7582ea121731c73c92f040c6": "risky",
+  "c166c6145a433e8f1719866bb809b079f2cb673c8a346aae0e6e9912411cd07a": "risky",
+  "d97cb1f14951b1d34162245d10a85bedfce320092f5152a13f9e46c6fd8fe253": "read",
+  "724b55bfdaadb084cd5fa60ccf357d2dcb3038888251ac3668ab9cd82dd89bcd": "risky",
+  "efdadb0b9bc05c63af2baeed1c70e3bb7d50123d2212400de9eb24403e8f154a": "write",
+  "9f2e990e966d7cd33a7bfeade6a879ee97f5651e45e2805f863cae9d651a2f3d": "write",
+  "36b6665ca89b53ba763539dd5dfa6c3b9f853400479d67d30c8ecd11145ca06b": "write",
+  "84da66d69e5969c81d9407adfb7ce5f2c950003fdaedcd1c5bbc9f67e233f7c0": "write",
+  "05ff87b7e3e68495b03cef7c666848f6697a59cf9f861e28138643cdbe35a1a2": "write"
+ },
+ "flags": []
+}

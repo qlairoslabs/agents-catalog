@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5f66d8722b5c9242e17ae8e20327d9833478526b16d487e699e18efe4820c25c",
+ "domain": [
+  "finance/exchange-rates",
+  "data/financial"
+ ],
+ "product": [
+  "allratestoday"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted, keyless service for live foreign exchange and official central-bank rates from over 110 sources.",
+ "whenToUse": "Use when an agent needs current currency exchange rates or official central-bank rates.",
+ "tasks": [
+  "get live fx rates",
+  "get central-bank rates",
+  "convert currencies"
+ ],
+ "effects": {},
+ "flags": []
+}

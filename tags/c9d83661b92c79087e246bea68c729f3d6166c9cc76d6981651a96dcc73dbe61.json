@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "c9d83661b92c79087e246bea68c729f3d6166c9cc76d6981651a96dcc73dbe61",
+ "domain": [
+  "finance/crypto-compliance",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "usdt",
+  "usdc",
+  "ofac",
+  "ethereum",
+  "tron",
+  "solana"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Screens crypto addresses for blacklists, sanctions and scams, checks payment safety such as address poisoning, traces funds and watches addresses.",
+ "whenToUse": "Use before sending or after receiving crypto to check a counterparty address for risk, poisoning or fund provenance.",
+ "tasks": [
+  "decide allow/review/deny",
+  "screen an address",
+  "batch screen addresses",
+  "preflight payment safety",
+  "trace fund flows",
+  "watch an address",
+  "check credit balance",
+  "get payment terms"
+ ],
+ "effects": {
+  "52d5b1c0fccba48269e68d9f6e63f16e108fee29e8b1b2f1de73da03d047b927": "read",
+  "79812d51e4d4f8ecb98815aeeda8db7c74b63488c611b1f9622ff4912961f727": "read",
+  "6fefd533b8a9af31afd85c30618e4c11b28e82d2b38675900752fe5fcb08a1e5": "read",
+  "0f6952c260761a8fcfffc876a28a4dd9cb3ef3cfcc4de88c0fd2bb0dbcf2735d": "write",
+  "8aeba575b282aced6048ba9b8f279440500b81a5886bc3d2115aa48b024763a8": "read",
+  "93c8f1f3ac10d26577d33af6fc9bbeba1f0fba8077270c2e2d2e05b45b25068a": "write",
+  "6a672ff6e87a9d60e95769c23a85c5ad66292a016df3f26754b6765d08533877": "read",
+  "90a89740b97ff7a4d72131f65de2294dfe0b79c5f7ee5cd894710dd054709ed3": "read"
+ },
+ "flags": []
+}

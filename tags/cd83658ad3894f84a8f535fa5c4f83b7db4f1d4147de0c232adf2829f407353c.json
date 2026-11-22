@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "cd83658ad3894f84a8f535fa5c4f83b7db4f1d4147de0c232adf2829f407353c",
+ "domain": [
+  "finance/trading/market-data"
+ ],
+ "product": [
+  "tradytics"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides US options flow, dark pool prints, dealer exposure and stock research data from Tradytics.",
+ "whenToUse": "Use when an agent needs options flow, dark pool activity or dealer positioning data for US stocks.",
+ "tasks": [
+  "view options flow",
+  "view ranked dark pool prints",
+  "check dealer exposure",
+  "research stocks"
+ ],
+ "effects": {},
+ "flags": []
+}

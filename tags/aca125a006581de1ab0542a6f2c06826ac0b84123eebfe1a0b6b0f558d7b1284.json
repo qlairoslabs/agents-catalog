@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "aca125a006581de1ab0542a6f2c06826ac0b84123eebfe1a0b6b0f558d7b1284",
+ "domain": [
+  "retail/jewelry",
+  "price-comparison"
+ ],
+ "product": [
+  "carat-hunter",
+  "gia",
+  "igi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Searches certified diamonds and compares latest prices across retailers, by spec or by grading certificate number.",
+ "whenToUse": "Use when a user is buying a diamond and wants to compare prices or check whether a certified stone's price is fair.",
+ "tasks": [
+  "search diamonds",
+  "get diamond details",
+  "look up certificate",
+  "check typical prices for a spec",
+  "view market overview"
+ ],
+ "effects": {
+  "872c52111701bec7d54ba338402e1d0c8a8f21e0e952bb2a8e5d6787fffb2fda": "read",
+  "f804fb942cec597d405fae68a32dd6d6baa44b9938277a6d18595bda4705dc0f": "read",
+  "31cf049e1c92ee5c06921410d7f955a80b4f5f758dfb3a72ae55c09cd2a668b2": "read",
+  "f855af4e36337cc7aa001519d8aff433cf962941e6572384599ed3f0f2f084a7": "read",
+  "46b57fd30427594e068925e4c4d4596a8aece21901273ddc068286405f8cbb13": "read"
+ },
+ "flags": []
+}

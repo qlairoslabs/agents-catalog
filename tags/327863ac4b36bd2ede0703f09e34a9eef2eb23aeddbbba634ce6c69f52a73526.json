@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "327863ac4b36bd2ede0703f09e34a9eef2eb23aeddbbba634ce6c69f52a73526",
+ "domain": [
+  "travel/outdoors",
+  "media/blog"
+ ],
+ "product": [
+  "spaghetti-and-summits"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "keep-in-touch"
+ ],
+ "summary": "Lists Dolomites climbing routes, ski resorts and rifugio guides from a travel blog and lets the user message the site owners.",
+ "whenToUse": "Use when planning Dolomites climbing, skiing or hut trips or contacting the blog owners.",
+ "tasks": [
+  "list climbing route guides",
+  "list ski resort guides",
+  "list rifugio guides",
+  "send message to site owners"
+ ],
+ "effects": {
+  "fa116473df13a5188374a980ff835e4388e5714e9cf82e1f970bce9cd6e03899": "read",
+  "2cb236b45e1a12db7ca2b8f1a8ce523c94c7bd3f74a60534b8a617fbca3cfbf6": "read",
+  "a61ad55d4c3cd66664cf6587b03c8beb89d2e011ba7a36fea4c9b7e6c481de53": "read",
+  "b7876321d8d865116527888c595b22763c069e4e1a37bc4615f5f75133bab861": "write"
+ },
+ "flags": []
+}

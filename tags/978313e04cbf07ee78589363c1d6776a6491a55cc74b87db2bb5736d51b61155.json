@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "978313e04cbf07ee78589363c1d6776a6491a55cc74b87db2bb5736d51b61155",
+ "domain": [
+  "real-estate/tax-time-tracking",
+  "finance/tax"
+ ],
+ "product": [
+  "repslog"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Logs and reads real estate professional status (REPS) time entries, properties and categories; needs a Premium plan.",
+ "whenToUse": "Use when recording or reviewing hours toward real estate professional tax status.",
+ "tasks": [
+  "log reps time",
+  "read time logs",
+  "manage properties",
+  "manage categories"
+ ],
+ "effects": {},
+ "flags": []
+}

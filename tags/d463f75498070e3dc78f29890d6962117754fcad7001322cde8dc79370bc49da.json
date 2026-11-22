@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d463f75498070e3dc78f29890d6962117754fcad7001322cde8dc79370bc49da",
+ "domain": [
+  "science/data-formats",
+  "data/analysis"
+ ],
+ "product": [
+  "hdf5"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Opens HDF5 files to browse groups, inspect datasets and attributes, and read or summarize data.",
+ "whenToUse": "Use when an agent needs to explore or read data stored in HDF5 files.",
+ "tasks": [
+  "open hdf5 files",
+  "browse groups",
+  "inspect datasets",
+  "read attributes",
+  "summarize data"
+ ],
+ "effects": {},
+ "flags": []
+}

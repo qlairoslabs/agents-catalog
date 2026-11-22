@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2f197c7f574084bc79c8a402965076a5cccfcad08af8f6bf70f405c17d3cbaab",
+ "domain": [
+  "design/brand-guidelines"
+ ],
+ "product": [
+  "guidelines"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Read-only access to brand assets in Guidelines, including colors, fonts, logos and guide pages as markdown.",
+ "whenToUse": "Use when creating content that must follow a brand's colors, fonts, logos or written guidelines.",
+ "tasks": [
+  "read brand colors",
+  "read brand fonts",
+  "get logos",
+  "read guide pages as markdown"
+ ],
+ "effects": {},
+ "flags": []
+}

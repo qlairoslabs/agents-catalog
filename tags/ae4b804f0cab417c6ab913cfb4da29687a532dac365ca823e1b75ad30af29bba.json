@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ae4b804f0cab417c6ab913cfb4da29687a532dac365ca823e1b75ad30af29bba",
+ "domain": [
+  "finance/exchange-rates"
+ ],
+ "product": [
+  "globalexchangerates"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Provides official central bank exchange rates, historical rates and currency conversion.",
+ "whenToUse": "Use when an official current or historical exchange rate or a currency conversion is needed.",
+ "tasks": [
+  "get latest rates",
+  "get historical rates",
+  "convert currency"
+ ],
+ "effects": {},
+ "flags": []
+}

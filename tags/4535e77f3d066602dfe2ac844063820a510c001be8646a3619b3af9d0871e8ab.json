@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "4535e77f3d066602dfe2ac844063820a510c001be8646a3619b3af9d0871e8ab",
+ "domain": [
+  "media/video-generation",
+  "content/image-generation"
+ ],
+ "product": [
+  "zvid"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Renders videos and images from JSON definitions and manages Zvid templates, projects, webhooks and credits.",
+ "whenToUse": "Use when programmatically generating videos or images from templates with Zvid.",
+ "tasks": [
+  "render videos",
+  "render images",
+  "manage templates",
+  "manage projects",
+  "manage webhooks",
+  "check credits"
+ ],
+ "effects": {},
+ "flags": []
+}

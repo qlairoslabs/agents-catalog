@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "afc503ddbef04f6f0afdacc83e39e10e3742b41968b2341f70cdc15ab9777f31",
+ "domain": [
+  "ecommerce/marketplace-data",
+  "data/product-research"
+ ],
+ "product": [
+  "amazon",
+  "apiguru"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local Python package for live Amazon product, review, search, deal, offer, stock and seller data across marketplaces.",
+ "whenToUse": "Use when a user needs current Amazon product, pricing, review or seller data.",
+ "tasks": [
+  "search amazon products",
+  "get product details",
+  "read reviews",
+  "find deals",
+  "check offers and stock",
+  "look up sellers"
+ ],
+ "effects": {},
+ "flags": []
+}

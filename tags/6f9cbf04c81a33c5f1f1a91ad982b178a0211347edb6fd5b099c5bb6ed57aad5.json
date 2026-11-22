@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6f9cbf04c81a33c5f1f1a91ad982b178a0211347edb6fd5b099c5bb6ed57aad5",
+ "domain": [
+  "software/hosting",
+  "software/devops"
+ ],
+ "product": [
+  "ohmyhost",
+  "github",
+  "postgres"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Operates ohmyho.st hosting from a coding agent, deploying GitHub apps and managing Postgres, mail and domains.",
+ "whenToUse": "Use when an agent needs to deploy or manage apps, databases, email or domains on ohmyho.st.",
+ "tasks": [
+  "deploy github apps",
+  "manage postgres databases",
+  "configure mail",
+  "manage domains"
+ ],
+ "effects": {},
+ "flags": []
+}

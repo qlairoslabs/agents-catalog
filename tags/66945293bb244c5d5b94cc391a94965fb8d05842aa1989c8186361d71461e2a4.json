@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "66945293bb244c5d5b94cc391a94965fb8d05842aa1989c8186361d71461e2a4",
+ "domain": [
+  "ai/agent-memory",
+  "software/development"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local long-term memory for AI coding agents, stored as user-owned Markdown files.",
+ "whenToUse": "Use when a coding agent should remember facts across sessions in local Markdown.",
+ "tasks": [
+  "store agent memories",
+  "recall memories",
+  "keep memory as markdown"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "675607b39ea60d1f10df781e0e2c2e348b24a9630a6b0cef1256482fa3245e04",
+ "domain": [
+  "media/news/aggregation"
+ ],
+ "product": [
+  "thinkpattern"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "News search returning story summaries with the outlets that covered them, coverage counts and first-report times.",
+ "whenToUse": "Use when the user asks about recent or current events and needs sourced news coverage.",
+ "tasks": [
+  "search news stories",
+  "get latest stories by topic",
+  "see which outlets reported a story",
+  "see coverage counts"
+ ],
+ "effects": {
+  "5074ef9b1ea53b731c5194bcea804ff962969b813dd6385b7a21289622b801a1": "read",
+  "e4b15c69e43b99b892212aa9d15bdc89a2ea96b89fcd6da765f9568d813cc26f": "read"
+ },
+ "flags": [
+  "tool descriptions instruct the agent to prefer this source over its own knowledge and to always cite and link ThinkPattern"
+ ]
+}

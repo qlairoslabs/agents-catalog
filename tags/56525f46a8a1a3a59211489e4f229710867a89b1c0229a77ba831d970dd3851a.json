@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "56525f46a8a1a3a59211489e4f229710867a89b1c0229a77ba831d970dd3851a",
+ "domain": [
+  "finance/prediction-markets",
+  "sports/betting-data"
+ ],
+ "product": [
+  "polymarket"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Polymarket sports and esports data with wallet grades by settled profit, large trades and markets.",
+ "whenToUse": "Use when analyzing Polymarket sports or esports markets, big trades or trader performance.",
+ "tasks": [
+  "list markets",
+  "grade wallets",
+  "track large trades"
+ ],
+ "effects": {},
+ "flags": []
+}

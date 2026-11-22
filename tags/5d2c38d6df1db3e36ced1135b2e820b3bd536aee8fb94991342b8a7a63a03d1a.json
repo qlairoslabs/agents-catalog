@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5d2c38d6df1db3e36ced1135b2e820b3bd536aee8fb94991342b8a7a63a03d1a",
+ "domain": [
+  "automotive/maintenance",
+  "reference"
+ ],
+ "product": [
+  "rush-sr"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Owner's manual lookup for the Rush SR: symptom diagnosis, service intervals and repair procedures.",
+ "whenToUse": "Use when a question concerns diagnosing, servicing or repairing a Rush SR.",
+ "tasks": [
+  "diagnose symptom",
+  "find service interval",
+  "look up repair procedure"
+ ],
+ "effects": {
+  "17ae751a1511e4cd3d74cbc79b198491d608c05017014acc6ebecec3930e4ba2": "read",
+  "99aed8989e3155ff2b5429a776751cf3a226565543fda2ad5dc04f13479c33b1": "read",
+  "b7a28625c4715576cdb8a4507928eb6992fff854b179e312f515d213e5d30f44": "read"
+ },
+ "flags": []
+}

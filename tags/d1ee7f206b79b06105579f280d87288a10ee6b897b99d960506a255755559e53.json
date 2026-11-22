@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d1ee7f206b79b06105579f280d87288a10ee6b897b99d960506a255755559e53",
+ "domain": [
+  "science/quantum-computing"
+ ],
+ "product": [
+  "flagquantum"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Builds, compiles, runs and exports FlagQuantum circuits locally with no credentials or network access.",
+ "whenToUse": "Use when designing or simulating quantum circuits with FlagQuantum.",
+ "tasks": [
+  "build circuits",
+  "compile circuits",
+  "run circuits locally",
+  "export circuits"
+ ],
+ "effects": {},
+ "flags": []
+}

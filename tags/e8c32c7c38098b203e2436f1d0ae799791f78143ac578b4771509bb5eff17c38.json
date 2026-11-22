@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "e8c32c7c38098b203e2436f1d0ae799791f78143ac578b4771509bb5eff17c38",
+ "domain": [
+  "events/photo-sharing",
+  "media/photos"
+ ],
+ "product": [
+  "pixever"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "create-content"
+ ],
+ "summary": "Accesses shared, moderated event photo spaces in Pixever to view status and media, upload guest photos, react and star.",
+ "whenToUse": "Use when a guest or host wants to view or contribute photos to a Pixever event space such as a wedding.",
+ "tasks": [
+  "get event space status",
+  "list media",
+  "build upload link",
+  "upload guest photo",
+  "react to media",
+  "star media",
+  "view interaction counts"
+ ],
+ "effects": {
+  "18671ddf328eddee4872be127fcbee29300823fb47f9e8b4dcccfa810470aadb": "read",
+  "d24dab10969146f426c7e0fffb2053ab67f06f5c41b3964c0bc145b8b706b0b4": "read",
+  "53311dbf7409c89e76dce40e83b6633278bd63a3d11a6c46a0baaf08d433d9f0": "read",
+  "d0ca167af30a6fae159f30c04730106937204824beaa0c38f85f2d71d69ee165": "write",
+  "4f5f43129cce854c264c460984f8203cf8f9366eeb195b849600fad5acfe42cc": "write",
+  "fe23e0e904c0e79deac11db898abea68483ea012cc664641b9e7a7ffee5c16f8": "write",
+  "7f87bed56ebc1583f252f5671243383c86ce527c2962901ab7e9cb10b58380a9": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a815a394286adf8bc66482b9ae213afbafaea561a54318f22c00253d2d119aab",
+ "domain": [
+  "design/user-research",
+  "research/usability-testing"
+ ],
+ "product": [
+  "userbrain"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Explores Userbrain user test data and summarizes feedback into insights.",
+ "whenToUse": "Use when an agent needs to analyze usability test results stored in Userbrain.",
+ "tasks": [
+  "browse user tests",
+  "summarize feedback",
+  "find insights"
+ ],
+ "effects": {},
+ "flags": []
+}

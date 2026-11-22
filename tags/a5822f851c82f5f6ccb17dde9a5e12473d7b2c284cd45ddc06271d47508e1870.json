@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a5822f851c82f5f6ccb17dde9a5e12473d7b2c284cd45ddc06271d47508e1870",
+ "domain": [
+  "software/app-builder",
+  "software/full-stack"
+ ],
+ "product": [
+  "base44"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Skills for building and deploying Base44 full-stack apps with its CLI and JavaScript/TypeScript SDK.",
+ "whenToUse": "Use when creating, developing or deploying a Base44 app.",
+ "tasks": [
+  "manage base44 projects via cli",
+  "develop with base44 sdk",
+  "deploy apps"
+ ],
+ "effects": {},
+ "flags": []
+}

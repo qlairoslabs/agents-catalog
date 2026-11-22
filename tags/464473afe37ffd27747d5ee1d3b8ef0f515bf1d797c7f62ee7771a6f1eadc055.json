@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "464473afe37ffd27747d5ee1d3b8ef0f515bf1d797c7f62ee7771a6f1eadc055",
+ "domain": [
+  "finance/crypto/market-intelligence"
+ ],
+ "product": [
+  "three-ws"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides crypto coin smart-money scores, wallet reputation, signal feeds and influencer leaderboards from three.ws.",
+ "whenToUse": "Use when an agent needs crypto market intelligence such as wallet reputation or smart-money activity.",
+ "tasks": [
+  "get smart-money scores",
+  "check wallet reputation",
+  "read signal feeds",
+  "view kol leaderboards"
+ ],
+ "effects": {},
+ "flags": []
+}

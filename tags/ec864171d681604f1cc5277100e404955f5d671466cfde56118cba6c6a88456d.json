@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ec864171d681604f1cc5277100e404955f5d671466cfde56118cba6c6a88456d",
+ "domain": [
+  "commerce/ticketing",
+  "events/live-events"
+ ],
+ "product": [
+  "xp-tickets"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Live-event ticket exchange for agents to quote, buy, make offers, bid on and sell tickets with escrow.",
+ "whenToUse": "Use when a user wants to buy or sell tickets for a live event through an escrowed exchange.",
+ "tasks": [
+  "get ticket quotes",
+  "buy tickets",
+  "make offers",
+  "place bids",
+  "sell tickets"
+ ],
+ "effects": {},
+ "flags": []
+}

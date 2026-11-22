@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "17ae83cca19af5297cf6c27a8d4ef8c5dbbb5a0003111efec0e7b41b3211edab",
+ "domain": [
+  "software/serverless/workflows"
+ ],
+ "product": [
+  "aws-lambda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guides building long-running, multi-step Lambda durable functions with checkpointing, retries, callbacks and saga error handling.",
+ "whenToUse": "Use when building stateful, long-running or human-in-the-loop workflows on Lambda durable functions.",
+ "tasks": [
+  "design durable function steps",
+  "apply replay model correctly",
+  "implement wait and callback patterns",
+  "implement saga error handling",
+  "configure retries",
+  "test with localdurabletestrunner"
+ ],
+ "effects": {},
+ "flags": []
+}

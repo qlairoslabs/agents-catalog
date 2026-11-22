@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "6107905893d5eaf03dc68df924269c894c7903bf5a8f5db28234362ed88ba132",
+ "domain": [
+  "industrial/forklifts",
+  "commerce/used-equipment"
+ ],
+ "product": [
+  "usedforktruck"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Read-only used forklift price bands, a seller value screen, walk-around checks, desk terms and a financing payment illustration.",
+ "whenToUse": "Use when estimating what a used forklift is worth, checking price ranges by class, or illustrating a monthly payment.",
+ "tasks": [
+  "illustrate financing payment",
+  "screen a truck's value",
+  "list price bands",
+  "get one price band",
+  "list walk-around checks",
+  "read desk terms",
+  "list request form choices"
+ ],
+ "effects": {
+  "b5cd19b7cc9d6ac3fc522587c7f089774c4c086067044a4abcbfa4f650996ad1": "write",
+  "c7df92dd7caea6a2c8043120154873dfffaa63ea80f381decab2b7b162d49412": "read",
+  "7124a382b6d939fd85ed60a1be99f7d789018c476cd262e5c1b452f12aa2e052": "read",
+  "e44d5c9edfdb48ae2fa75919d467ea8be902141a71f9db434778d620f6a6a797": "read",
+  "46cfe2d50ab30e182200649f410244f88a38d140b8f4e9733aa8c45768b10cd2": "read",
+  "dd6a479505d5e6c6ba123364a16cdbc486f5a5a0387586cb1738add0ffe02b7c": "read",
+  "b7b9eb0708d839667ee785342b69899fbc27ff8ea52704a3acd4a40307916526": "read"
+ },
+ "flags": []
+}

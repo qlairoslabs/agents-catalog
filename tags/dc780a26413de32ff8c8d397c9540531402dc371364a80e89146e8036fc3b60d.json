@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "dc780a26413de32ff8c8d397c9540531402dc371364a80e89146e8036fc3b60d",
+ "domain": [
+  "software/cybersecurity/code-scanning",
+  "software/devops"
+ ],
+ "product": [
+  "aws-security-agent",
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs an AWS Security Agent scan limited to code changed since a git ref, for pre-commit or pre-PR checks.",
+ "whenToUse": "Use when the user wants a quick security check of recent changes before committing or opening a PR.",
+ "tasks": [
+  "scan changed code",
+  "run pre-commit security check",
+  "report security findings"
+ ],
+ "effects": {},
+ "flags": []
+}

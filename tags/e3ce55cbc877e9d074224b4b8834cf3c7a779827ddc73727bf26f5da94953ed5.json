@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "e3ce55cbc877e9d074224b4b8834cf3c7a779827ddc73727bf26f5da94953ed5",
+ "domain": [
+  "travel/award-flights",
+  "travel"
+ ],
+ "product": [
+  "awardsecrets"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks award seat availability for a single route, airline and date using data from a contracted GDS.",
+ "whenToUse": "Use when a user wants to know whether award seats are open on a specific flight route and date.",
+ "tasks": [
+  "check award seat availability",
+  "look up route availability by airline and date"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "df9d4e5cbab4116cae76fd95a5d19b732176ac65779e2b5b9c9589dd693eba47",
+ "domain": [
+  "hiring/cybersecurity-jobs"
+ ],
+ "product": [
+  "infosecjobboard"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search live cybersecurity job listings, salary benchmarks, hiring stats and top employers.",
+ "whenToUse": "Use when a user is looking for security jobs or wants salary and hiring market data.",
+ "tasks": [
+  "search jobs",
+  "get job details",
+  "benchmark salaries",
+  "get market stats",
+  "list top employers"
+ ],
+ "effects": {
+  "aeda1f42b25f98010e04b553dfb1d76605d98e3ead3e4bc69ca20310dfe2a15a": "read",
+  "3078491a678ded67f3c879fed234f226227034f6ad24c4804aa7ca9c388171cc": "read",
+  "e388626e40854bcd6a9518ed2ac0c83cdaa7cfb23fab72477ef48b7e0517d946": "read",
+  "60125f68e097c33d9ab14c29b8097edac9ebf9065846708245794b02bfbc7b23": "read",
+  "cca7633c76bf1c234ead4753daedb2041d8cdf9473c8a7a08ed812fad772bf54": "read"
+ },
+ "flags": []
+}

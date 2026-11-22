@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "30c4ccdca776e09ad3fb07f68a203758bdb021ef6a36c8409efb353996ab607b",
+ "domain": [
+  "science/hpc-data",
+  "data/analysis"
+ ],
+ "product": [
+  "adios2"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads and analyzes ADIOS2 BP5 scientific data files, including metadata and attributes.",
+ "whenToUse": "Use when an agent needs to inspect or analyze ADIOS2 BP5 data files.",
+ "tasks": [
+  "read bp5 files",
+  "inspect metadata",
+  "read attributes",
+  "analyze variables"
+ ],
+ "effects": {},
+ "flags": []
+}

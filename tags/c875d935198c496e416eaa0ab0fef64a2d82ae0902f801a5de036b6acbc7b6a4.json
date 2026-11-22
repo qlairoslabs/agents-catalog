@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c875d935198c496e416eaa0ab0fef64a2d82ae0902f801a5de036b6acbc7b6a4",
+ "domain": [
+  "crypto/defi/restaking",
+  "finance/analytics"
+ ],
+ "product": [
+  "renzo",
+  "ezeth"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Exposes Renzo restaking protocol data such as supported chains, vaults, operators and ezETH metrics.",
+ "whenToUse": "Use when an agent needs data on Renzo protocol vaults, operators or ezETH.",
+ "tasks": [
+  "list chains",
+  "view vaults",
+  "view operators",
+  "get ezeth metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

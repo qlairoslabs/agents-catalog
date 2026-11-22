@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "ca92211f0ee01aa0003a94db9fd7ea59917529a816f69a5c83b687d99f6644ee",
+ "domain": [
+  "software/cybersecurity/api-security",
+  "software/api-design"
+ ],
+ "product": [
+  "42crunch",
+  "openapi",
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Audits and scans OpenAPI specs with 42Crunch for OWASP API security issues and suggests fixes inside Claude Code.",
+ "whenToUse": "Use when checking an API's OpenAPI definition for security vulnerabilities before deployment.",
+ "tasks": [
+  "audit openapi specs",
+  "scan apis for vulnerabilities",
+  "detect bola and bfla",
+  "map to owasp api risks",
+  "apply fixes",
+  "validate remediations"
+ ],
+ "effects": {},
+ "flags": []
+}

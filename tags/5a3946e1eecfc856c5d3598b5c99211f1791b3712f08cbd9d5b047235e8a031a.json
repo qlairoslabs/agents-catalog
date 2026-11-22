@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5a3946e1eecfc856c5d3598b5c99211f1791b3712f08cbd9d5b047235e8a031a",
+ "domain": [
+  "media/generative-ai",
+  "media/image-generation"
+ ],
+ "product": [
+  "glif"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generate images, video and audio using Glif's media generation agent.",
+ "whenToUse": "Use when an agent needs to create images, video or audio from prompts.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "generate audio"
+ ],
+ "effects": {},
+ "flags": []
+}

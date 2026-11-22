@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "646ad01a555c847e8abe637b258c8b37e0a861d8750c1a262d37802daa2da057",
+ "domain": [
+  "business/ai-front-desk",
+  "customer-service"
+ ],
+ "product": [
+  "amfion",
+  "jobber"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "get-customers",
+  "be-online"
+ ],
+ "summary": "Builds and tests a temporary AI front desk preview for a service business from its website, and returns install code for live setups.",
+ "whenToUse": "Use when a service business wants to try an AI receptionist or chat front desk before signing up.",
+ "tasks": [
+  "check product fit and pricing",
+  "build preview from website",
+  "check preview status",
+  "simulate customer messages",
+  "get website install snippets"
+ ],
+ "effects": {
+  "2043f7052e063dbd3d8879da7d4fb490e26ff6fdf08dc3409743324ac3743b7e": "read",
+  "6a945f0b7e002b15603e2bcad6872aa9f556824101faf940876ab6a984debd64": "write",
+  "2f56c55ed80e7c592f861d9016b30b124c2e1b253b0ab3c0319fc2a1d1a19ffa": "read",
+  "f572b3ca4562d5d32ef7c34f528c8c7d4eec53cc7ead87b60f0839b10c36f72b": "write",
+  "261dbe955e9823def73ef191a9935689eff6e8c7da03c358369420efd27fb934": "read"
+ },
+ "flags": []
+}

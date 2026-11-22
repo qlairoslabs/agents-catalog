@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "b750d3a6f1809515cb148c4699d04dafee338f7c3b515e1b9befc15ee072319e",
+ "domain": [
+  "astrology/vedic",
+  "lifestyle/calendar"
+ ],
+ "product": [
+  "kundlit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Computes Vedic astrology outputs: panchang, birth charts, dashas, marriage matching, doshas, transits, muhurta timings, eclipses, festivals and numerology.",
+ "whenToUse": "Use when a user asks for a panchang, kundali, nakshatra, dosha check, kundli matching, auspicious timing or numerology reading.",
+ "tasks": [
+  "get daily panchang",
+  "build janam kundali",
+  "match kundlis",
+  "check manglik dosha",
+  "check sade sati",
+  "check kaal sarp dosha",
+  "get pancha pakshi timings",
+  "get muhurta timings",
+  "list festivals and ekadashi",
+  "list eclipses",
+  "numerology readings",
+  "get dasha periods"
+ ],
+ "effects": {
+  "cad2a123bcf7b3093c39ef0308ea2d70aafa1a2f59d78a3f61b5e17070290d0e": "write",
+  "b5b0aa8f02be2660d7f24541aad8acf110281ca2f9310b362fa334ad805001be": "write",
+  "400dab96019f6d92f5c3a948d4691ab1382b6d7d0b686ac50c84db9c61cbb252": "write",
+  "39dd58db6b3af5eb817596ce7172f0c4e9385e4814805515bc557c1fa0223345": "write",
+  "c74b0d5c95aeddeb35ea0f3d1d2fbc1aa9c28dc81d30993b56abdd99bdfaccb2": "write",
+  "7b9be9eddd428d7ed5d2366758f2f8fbadaba789f2c7b8fa7f8e9a00c07aea25": "write",
+  "b8780e16b24c34a7feabaa00a25417da93daf85e42def9a855b2fccf905f02d0": "write",
+  "f7bec395d8ed66544be8d2487b3f5bf4871e171d19ec029a8ad469dd6552b2a3": "write",
+  "a97870e65938a430749b65b9151c00c47655e02deeb3254ba4ac53d4550e12d5": "write",
+  "cdd1991e64fe0958a872d0a9907a35d2ef1dc4b812a644a4ea8931093ebcd07e": "write",
+  "9db9dcb40771827a957891846f800b7232aaf3702b5f44bb3fde4881ce2bff28": "write",
+  "07788aeef344f41424d780dfcb155b8791063993c8eb360742afb27a9aace155": "write",
+  "20b7eb9eb59dea7e70ba8a624bc2959dddb75fbff6c608a72929e24d07fcba8b": "write",
+  "d6dd092c53c7d6c712d03913d5f42f18b33be6dbc0d1b0c4a05c0db16834d356": "write",
+  "5150e504441904986da9b7b01157d3e006e7d0e68c9ffe8756952a04c52c24db": "write",
+  "3d508c37be673ace43758475d05ba45a3d6b4871fc8c5b51fe5bcbdb306775f3": "write",
+  "cecac804d106cf9d61a5f83e02cc2e3b4a99ad5b6b0310f4622cdfe161fcbbb9": "write"
+ },
+ "flags": []
+}

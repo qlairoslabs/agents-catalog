@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ac3f13a46bb8234202055f34132d01a2210950652b5a85863a525fddf09bf57a",
+ "domain": [
+  "language/transliteration"
+ ],
+ "product": [
+  "wihp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Transcribes foreign words and short sentences into Hangul using WIHP rules and looks up IPA pronunciations.",
+ "whenToUse": "Use when a user wants a foreign word written in Hangul or needs its IPA pronunciation.",
+ "tasks": [
+  "transcribe to Hangul",
+  "look up IPA",
+  "list supported languages"
+ ],
+ "effects": {
+  "bb45938e4e2ff2bb36885148325f3a4d2427e424911ef239a8157a01365408dc": "read",
+  "8d4c1a3e7e1ea4de8705c9d9b1306935ba671e38a489e98adad66a038535c4dd": "read",
+  "d4b9d32adfd70d1b9b2ef130a38e1af9c137d7059f5341f267eb454b3c94a84f": "read"
+ },
+ "flags": []
+}

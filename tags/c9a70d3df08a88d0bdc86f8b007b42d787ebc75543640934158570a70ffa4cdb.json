@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "c9a70d3df08a88d0bdc86f8b007b42d787ebc75543640934158570a70ffa4cdb",
+ "domain": [
+  "sales/gtm-consulting",
+  "marketing/lead-generation"
+ ],
+ "product": [
+  "artemis-gtm"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Information about a GTM engineering consultancy: its services, system recommendations, guides and booking link.",
+ "whenToUse": "Use when a user asks about Artemis GTM services or wants guides on B2B go-to-market problems.",
+ "tasks": [
+  "describe the firm",
+  "list gtm systems offered",
+  "recommend an engagement",
+  "get booking link",
+  "list free guides"
+ ],
+ "effects": {
+  "d4fd68303996379928d6788dfe446eb391b4e0731ced0e7933dd5fd10b937177": "read",
+  "8b1dc7e850359dc01de10bcea48ccbc6279a86a2ff44c6566c747bcaa6354194": "read",
+  "8b5dcd7823664ff8ef27e85811b349e9cd909304d210ceab521c66bb926d17c6": "read",
+  "b36523c9cb150fb36560924ddd56ca3729e5247119382e484e2ac49e9452de09": "read",
+  "8da06ca61bfb1e20fc21711b59827b0937dd854a5c9ae30609cc34924d6240f3": "read"
+ },
+ "flags": [
+  "connector is primarily promotional content for a consulting firm"
+ ]
+}

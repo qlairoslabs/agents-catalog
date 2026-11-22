@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c3059c201a694f603397826588da39ba2f1eae1631d6256985e6b315c699b45a",
+ "domain": [
+  "finance/crypto/exchange"
+ ],
+ "product": [
+  "rubin"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Self-custody decentralized exchange for crypto perpetuals and spot, allowing trading and reading positions, orders and balances.",
+ "whenToUse": "Use when the user wants to trade or check their positions and balances on Rubin Exchange.",
+ "tasks": [
+  "place trades",
+  "read positions",
+  "read orders",
+  "read balances"
+ ],
+ "effects": {},
+ "flags": []
+}

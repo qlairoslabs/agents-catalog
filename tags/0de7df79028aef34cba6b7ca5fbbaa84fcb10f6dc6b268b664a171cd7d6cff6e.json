@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0de7df79028aef34cba6b7ca5fbbaa84fcb10f6dc6b268b664a171cd7d6cff6e",
+ "domain": [
+  "software/agent-orchestration",
+  "software/developer-tools"
+ ],
+ "product": [
+  "agent-guild",
+  "claude-code",
+  "codex",
+  "antigravity",
+  "grok",
+  "docker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Local npm package to view and steer multiple coding agent and shell sessions from one Agent Guild interface.",
+ "whenToUse": "Use when a developer runs several coding agents or shell sessions and wants to monitor and direct them in one place.",
+ "tasks": [
+  "view coding agent sessions",
+  "steer agent sessions",
+  "monitor shell sessions"
+ ],
+ "effects": {},
+ "flags": []
+}

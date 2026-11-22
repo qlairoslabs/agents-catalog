@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ed2a218cc634aacbc4d0c616de2261fafff2bf8b5be407fcba9eb9b16ec62a20",
+ "domain": [
+  "software/code-search",
+  "software/research"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and analyzes GitHub repositories to give agents code context and insights.",
+ "whenToUse": "Use when an agent needs to research code, patterns or implementations across GitHub repositories.",
+ "tasks": [
+  "search github code",
+  "analyze repositories",
+  "extract code insights",
+  "read repository files"
+ ],
+ "effects": {},
+ "flags": []
+}

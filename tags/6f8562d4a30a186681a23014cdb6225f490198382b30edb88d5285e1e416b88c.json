@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6f8562d4a30a186681a23014cdb6225f490198382b30edb88d5285e1e416b88c",
+ "domain": [
+  "sales/ai-assistant",
+  "communication/voice-sms"
+ ],
+ "product": [
+  "biglysales"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Configures the BiglySales AI sales assistant, including voice, SMS, follow-ups and web calling.",
+ "whenToUse": "Use when a BiglySales user wants to set up or adjust their AI sales assistant's outreach behavior.",
+ "tasks": [
+  "configure voice assistant",
+  "configure sms outreach",
+  "set up follow-ups",
+  "configure web calling"
+ ],
+ "effects": {},
+ "flags": []
+}

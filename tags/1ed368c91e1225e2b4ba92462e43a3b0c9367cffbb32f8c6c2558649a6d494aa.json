@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1ed368c91e1225e2b4ba92462e43a3b0c9367cffbb32f8c6c2558649a6d494aa",
+ "domain": [
+  "software/documentation",
+  "engineering/design"
+ ],
+ "product": [
+  "ntop"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads nTop's knowledge base and engineering guides, with an option to submit documentation feedback.",
+ "whenToUse": "Use when answering questions about nTop features, APIs or workflows.",
+ "tasks": [
+  "search docs",
+  "read doc pages",
+  "browse docs filesystem",
+  "submit docs feedback"
+ ],
+ "effects": {
+  "64ab4fdcd0d2d3e5c83d9a848415ab409903fc1d29e250bdb4728f3224f853c2": "read",
+  "ef93244642f38fc848393c74fdcab6fff1f5305017a8200911fd64528b67550c": "write",
+  "fcf9b7723e4121bf5d4f208c3731228c583078ec3029b854addd4aea8601eac9": "write"
+ },
+ "flags": []
+}

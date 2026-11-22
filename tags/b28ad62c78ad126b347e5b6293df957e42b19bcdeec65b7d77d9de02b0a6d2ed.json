@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b28ad62c78ad126b347e5b6293df957e42b19bcdeec65b7d77d9de02b0a6d2ed",
+ "domain": [
+  "events/ticketing",
+  "analytics/sales-reporting"
+ ],
+ "product": [
+  "pandy-tickets"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Read-only organizer access to Pandy Tickets events, sales, orders and attendees via OAuth.",
+ "whenToUse": "Use when an event organizer wants to check their Pandy Tickets sales, orders or attendee lists.",
+ "tasks": [
+  "list organizer events",
+  "view ticket sales",
+  "view orders",
+  "list attendees"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "30066b3ec7fdb35e8f7ba8d402f416f583e563274fbfbee62e5364f729c5818b",
+ "domain": [
+  "data/web-scraping",
+  "software/sdk"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guide to the Bright Data Python SDK for web scraping, search, datasets and browser automation.",
+ "whenToUse": "Use when a user working in Python wants to scrape or search websites or get platform datasets.",
+ "tasks": [
+  "scrape websites from python",
+  "run web searches",
+  "access datasets",
+  "automate browsers"
+ ],
+ "effects": {},
+ "flags": []
+}

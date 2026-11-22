@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "4a62e2385403e4849f58e789b331bb4ae4f0ae63a5a0d1d37fb5b9f08f69d0e1",
+ "domain": [
+  "real-estate/due-diligence",
+  "property"
+ ],
+ "product": [
+  "flatscope",
+  "rightmove",
+  "zoopla"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs cited due diligence on England and Wales flat listings from Rightmove or Zoopla, covering sold prices, lease, EPC and safety, with a verdict.",
+ "whenToUse": "Use when a user is considering buying a flat in England or Wales and wants a researched report from a listing link.",
+ "tasks": [
+  "explain flat-buying terms",
+  "show sample report",
+  "start listing analysis",
+  "fetch analysis result",
+  "check product fit"
+ ],
+ "effects": {
+  "c48547d4ad0bce80ea1ca32f82fca31b65baed8b0f68eae40d3f87da170fb4e6": "read",
+  "9e442e4dc4b78825f79bdc6afd0a08c766d546520d24df585795b8a34918d314": "read",
+  "5efbf6bbdefd5447805de824883ff7b89b9fce33e7e3d060f6b54a572cf7037f": "read",
+  "7a00121a2752b201b2e598bf7c7c609049de7d0b0a70e30f76e9f81e01163717": "write",
+  "7d02887f0005a7bcadcd445a97066594e14b9e1358422f02c700845925f733e9": "read"
+ },
+ "flags": []
+}

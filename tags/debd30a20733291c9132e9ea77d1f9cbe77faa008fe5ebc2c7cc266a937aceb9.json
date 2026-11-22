@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "debd30a20733291c9132e9ea77d1f9cbe77faa008fe5ebc2c7cc266a937aceb9",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "ai-agents/trust"
+ ],
+ "product": [
+  "agentavow",
+  "pypi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Local package providing signed, offline-verifiable safety scores for MCP servers, packages and tools an agent may connect to.",
+ "whenToUse": "Use before connecting an agent to an MCP server, package or tool to check its safety score.",
+ "tasks": [
+  "check safety scores",
+  "verify signed attestations offline",
+  "assess MCP servers and packages"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "33d283efde4f27899783d6901c7ec985dae6be768c296d1ed7ffeb2617f75c25",
+ "domain": [
+  "software/databases/postgres"
+ ],
+ "product": [
+  "neon",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Neon MCP server and Postgres skill for managing Neon projects and serverless Postgres databases.",
+ "whenToUse": "Use when creating or managing Neon Postgres projects, branches or databases.",
+ "tasks": [
+  "manage neon projects",
+  "manage databases",
+  "run postgres queries"
+ ],
+ "effects": {},
+ "flags": []
+}

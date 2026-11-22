@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "832d0bdab7d8c317312c29b42b3ca4540c1db375210a12547fc477950fdc1adc",
+ "domain": [
+  "marketing/ai-visibility",
+  "marketing/seo"
+ ],
+ "product": [
+  "asrm"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether AI crawlers can access and understand a website and answers GEO questions from published guides.",
+ "whenToUse": "Use when a user asks whether AI engines can crawl their site or how to improve brand visibility in AI answers.",
+ "tasks": [
+  "check ai crawler access",
+  "check sitemap and llms.txt",
+  "check homepage signals",
+  "get visibility scan link",
+  "search geo guides",
+  "read guides"
+ ],
+ "effects": {
+  "02c7e6ccb4e61d9930b373ce488119151924676d7c2889ea3e239256ff6d0abf": "read",
+  "183947dc9b03f086cf254e59436fc452fe3db8fde3f594df5865243523bdb29e": "read",
+  "5a03aea8ecfdf18d4d4a5410ade568a49307138581bbf24e7dbfeafda92c6cd1": "read",
+  "33316738aa945de315c174f97205da7078520f1d08ab88e131dd02478aacdff8": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "42929ced7665ca147211d48690548197e0b275627bf13e585ed40b670ae16fa3",
+ "domain": [
+  "software/reviews",
+  "business/software-selection"
+ ],
+ "product": [
+  "saaskly"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Independent UK business software reviews, rankings, pricing, comparisons and articles, plus a website agent-readiness checker.",
+ "whenToUse": "Use when choosing business software such as CRM, VPN, hosting or accounting tools, or checking whether a site is agent-ready.",
+ "tasks": [
+  "list software categories",
+  "rank providers",
+  "read provider reviews",
+  "compare providers",
+  "search reviews",
+  "read articles",
+  "check agent readiness of a site"
+ ],
+ "effects": {
+  "9879ba6b065bc7f00c67220625f99b13d5c675a0c9aabd89a45296508197450d": "read",
+  "e7eacc89a2e3c39844ee2ca54f914061b842b1c7ea78eafe9ffa7274e21af204": "read",
+  "684c7395776abc1778049ab5ecd2e25819d5a9e7ed27020834f75cb75236a787": "read",
+  "1de3fb3a4488dcb86a75d8699995e5e0aa8c9ff67909ee5d0e392c3e93e4764c": "read",
+  "949a46eef15e1bf2455360be12a9d9a799c32fe90d6264dd4282b058aa8aeb38": "read",
+  "f2ee678ce49bd34bc27ef94fd62d7a6a79312a807f4495ba18294c9ca78a94cc": "read",
+  "d8951a39a515e6e88cbfaad6fd94909e8eb64658adc7761f14656548d7c025c0": "read",
+  "32dae5687e6d1ddf2cbc96ee8e79e7c12cb4084b92ee3a1c01c1c6371adba2fb": "read",
+  "8b9534b145973d5980210cf90b1a432fd88e0a6435aedf5b8ad1cacecdc51761": "write"
+ },
+ "flags": []
+}

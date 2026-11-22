@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b540c8a72e588e3395e54e4f6d829994411c43806995a6e70c0d1a828dd46d31",
+ "domain": [
+  "software/hosting/domains",
+  "software/infrastructure"
+ ],
+ "product": [
+  "osir"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Registers and manages domains, DNS, VPS servers, email and self-hosted AI agents.",
+ "whenToUse": "Use when buying domains or managing DNS, servers or email hosted with OSIR.",
+ "tasks": [
+  "register domains",
+  "manage dns",
+  "manage vps",
+  "manage email",
+  "deploy ai agents"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4916f2c9f66f5e84752ef9ad463d696472248b2b960ede3bc43a50f310dd84ea",
+ "domain": [
+  "real-estate/neighborhood-data",
+  "public-safety/crime-data"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides US crime scores, incidents, demographics, rent data and offender search for an address.",
+ "whenToUse": "Use when evaluating the safety, demographics or rents of a US neighborhood.",
+ "tasks": [
+  "get crime scores",
+  "list incidents",
+  "view demographics",
+  "view rent data",
+  "search offenders"
+ ],
+ "effects": {},
+ "flags": []
+}

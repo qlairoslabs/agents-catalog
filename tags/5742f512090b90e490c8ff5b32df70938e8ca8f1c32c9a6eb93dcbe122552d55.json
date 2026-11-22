@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "5742f512090b90e490c8ff5b32df70938e8ca8f1c32c9a6eb93dcbe122552d55",
+ "domain": [
+  "cloud/azure/deployment",
+  "software/infrastructure-as-code"
+ ],
+ "product": [
+  "azure"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Takes an app idea or existing app through Azure service selection, cost estimation, infrastructure scaffolding and approved deployment.",
+ "whenToUse": "Use when a user wants to bring a new or existing app onto Azure end to end, including planning and cost.",
+ "tasks": [
+  "analyze app",
+  "detect needed azure services",
+  "estimate running cost",
+  "scaffold infrastructure code",
+  "get pre-deploy approval",
+  "deploy app to azure",
+  "migrate existing app with minimal changes",
+  "create starter project"
+ ],
+ "effects": {},
+ "flags": []
+}

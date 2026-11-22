@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "d290bb3fe3932ac0e07b9687c417d94af730121ba45e4511eb7752ea6a0b0112",
+ "domain": [
+  "real-estate/energy-certificates",
+  "compliance"
+ ],
+ "product": [
+  "ecoexperten"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "sell"
+ ],
+ "summary": "Pre-checks and orders German consumption-based energy certificates (Energieausweis) for residential buildings, paid on invoice after email confirmation.",
+ "whenToUse": "Use when a German property owner needs an Energieausweis, for example for renting or selling.",
+ "tasks": [
+  "get product info",
+  "pre-check order data",
+  "place order",
+  "check order status"
+ ],
+ "effects": {
+  "e65bed1a7be1151b678e36994b33637b10c30111b578f70dadcf384b69485955": "read",
+  "1156e4f2d0b7972765d9eebc2f15b6c6af3d9dc40644bbda3366b9f319705624": "read",
+  "da18fc069eaa1c44a12bd23e84b07db1adf3f7bf1fc1ee570f623ade5372ee1d": "write",
+  "2bae8b1edcbf90e52c51c71b6926ed80457ea4ecc4c40185ba2e3894c83d7432": "read"
+ },
+ "flags": []
+}

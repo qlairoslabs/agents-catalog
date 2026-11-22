@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6983eacc5bb00e54d2ee55b19534ad103f92bd8e75b2df859654ab2de333cd0f",
+ "domain": [
+  "sales/outreach",
+  "sales/crm"
+ ],
+ "product": [
+  "linkedin",
+  "salesbot"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "LinkedIn outreach with human approval steps and a built-in sales CRM for AI agents.",
+ "whenToUse": "Use when running human-approved LinkedIn prospecting and tracking leads in a CRM.",
+ "tasks": [
+  "send linkedin outreach",
+  "manage leads in crm",
+  "approve messages before sending"
+ ],
+ "effects": {},
+ "flags": []
+}

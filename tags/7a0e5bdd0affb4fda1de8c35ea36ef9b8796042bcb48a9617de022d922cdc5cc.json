@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "7a0e5bdd0affb4fda1de8c35ea36ef9b8796042bcb48a9617de022d922cdc5cc",
+ "domain": [
+  "software/cloud-storage"
+ ],
+ "product": [
+  "ironshard"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Free 30-day sandbox object storage: create a bucket and upload, download, list, inspect and delete objects.",
+ "whenToUse": "Use when an agent needs temporary object storage to stash or share files.",
+ "tasks": [
+  "create bucket",
+  "check bucket permissions",
+  "get bucket usage",
+  "get upload url",
+  "get download url",
+  "list objects",
+  "delete object",
+  "get object metadata"
+ ],
+ "effects": {
+  "79e621d2b69432547532394841c1a81852da08e0be66a1ef86326e387c3741f0": "write",
+  "28cd128f825d1281d29f5ae822011cc16630a67b28fe0db179e0f8765f4f51a1": "read",
+  "b4cf932698a9e1988de04afb9efd04bca1e33734c3210308942c9974fce096a0": "read",
+  "cc056487e5a51d0d3ae3e70c1adf5bc11c59491a3cfe9f62d7656357bf34e9af": "write",
+  "12a4a91d93b42ef39241c571d35250996b53e0f5f69770a058fcb5b95461aef3": "read",
+  "5b17048e0a7f9cf571d612fa5f915593991d3abfbb0fd3c80be8b8bc5851689a": "read",
+  "4d86f9c147f7369c8ea4be8cd0a386608e60f400ed326b82a9e64142a6852efb": "write",
+  "07a8116b80f6c24821a089d2b5b8861c6c6d8bf804756794ae6b9c20f5197ef7": "read"
+ },
+ "flags": []
+}

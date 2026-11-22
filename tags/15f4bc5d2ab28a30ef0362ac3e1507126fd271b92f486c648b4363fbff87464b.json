@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "15f4bc5d2ab28a30ef0362ac3e1507126fd271b92f486c648b4363fbff87464b",
+ "domain": [
+  "communication/video-meetings/recordings",
+  "productivity/transcripts"
+ ],
+ "product": [
+  "zoom"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Local CLI connector that downloads Zoom cloud recordings and transcripts to your computer for agents to use.",
+ "whenToUse": "Use when you need the contents of Zoom meeting recordings or transcripts after signing in with the zm CLI.",
+ "tasks": [
+  "list cloud recordings",
+  "read meeting transcripts",
+  "store recordings locally"
+ ],
+ "effects": {},
+ "flags": []
+}

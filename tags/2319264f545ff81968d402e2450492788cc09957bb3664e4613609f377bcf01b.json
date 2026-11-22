@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "2319264f545ff81968d402e2450492788cc09957bb3664e4613609f377bcf01b",
+ "domain": [
+  "books/religion",
+  "library"
+ ],
+ "product": [
+  "jainebooks"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search a catalogue of about 16,000 free Jainism ebooks and audiobooks in several languages.",
+ "whenToUse": "Use when a user wants to find Jain texts or audiobooks.",
+ "tasks": [
+  "search books",
+  "get book details",
+  "list filters"
+ ],
+ "effects": {
+  "15126fd64a9462d7740faf1b3ad1071b8d8d5d204e930523a2205b3d68c04522": "read",
+  "f2bf15211427d571fb55c4468261272811c2cb0a5afa7746a180c80cf64d5184": "read",
+  "92a04c2ebdf036c983a67549291f929f93c654eafe9128341d3be5f4f81b0672": "read"
+ },
+ "flags": []
+}

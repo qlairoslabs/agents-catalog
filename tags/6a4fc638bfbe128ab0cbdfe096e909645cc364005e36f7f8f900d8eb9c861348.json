@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6a4fc638bfbe128ab0cbdfe096e909645cc364005e36f7f8f900d8eb9c861348",
+ "domain": [
+  "operations/resource-scheduling",
+  "project-management"
+ ],
+ "product": [
+  "freispace"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Queries schedules, bookings, staff, projects, availability and tasks in the freispace resource planning tool.",
+ "whenToUse": "Use when an agent needs to check staff availability, bookings or project schedules in freispace.",
+ "tasks": [
+  "query schedules",
+  "view bookings",
+  "list staff",
+  "list projects",
+  "check availability",
+  "view tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

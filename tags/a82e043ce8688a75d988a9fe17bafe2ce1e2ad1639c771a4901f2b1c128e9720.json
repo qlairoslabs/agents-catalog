@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a82e043ce8688a75d988a9fe17bafe2ce1e2ad1639c771a4901f2b1c128e9720",
+ "domain": [
+  "software/devops/incident-response",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-devops-agent",
+  "aws"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Starts a deep root-cause investigation with the AWS DevOps Agent for incidents and outages, streams progress and returns recommendations.",
+ "whenToUse": "Use when the user reports an outage, alarm, error spike or unexplained production behavior on AWS.",
+ "tasks": [
+  "start root cause investigation",
+  "poll investigation progress",
+  "analyze outages and alarms",
+  "surface recommendations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "820b4fd811390915eee7f33ba62ed057ad12f97525238e1d92ad5fac286c4d94",
+ "domain": [
+  "software/observability",
+  "operations/monitoring"
+ ],
+ "product": [
+  "lumin"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to a Lumin project's logs, metrics, uptime checks, alerts and infrastructure.",
+ "whenToUse": "Use when an agent needs to inspect logs, metrics, alerts or uptime of a project monitored in Lumin.",
+ "tasks": [
+  "read logs",
+  "read metrics",
+  "check uptime",
+  "list alerts",
+  "view infrastructure"
+ ],
+ "effects": {},
+ "flags": []
+}

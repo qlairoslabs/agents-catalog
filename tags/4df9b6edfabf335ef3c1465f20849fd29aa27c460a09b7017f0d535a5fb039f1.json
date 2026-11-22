@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "4df9b6edfabf335ef3c1465f20849fd29aa27c460a09b7017f0d535a5fb039f1",
+ "domain": [
+  "collectibles/pokemon-cards",
+  "finance/valuation"
+ ],
+ "product": [
+  "gembook",
+  "psa",
+  "pokemon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Gives fair-value estimates and PSA population data for graded vintage Pokémon cards from 1999 to 2003.",
+ "whenToUse": "Use when a user asks what a PSA-graded vintage Pokémon card is worth or how rare a grade is.",
+ "tasks": [
+  "look up card price",
+  "look up population report",
+  "explain valuation methodology"
+ ],
+ "effects": {
+  "5d2a79bde118660622efdb09c91d7e32914e6c31dc4d821a08c3a145c723b48d": "read",
+  "634926519616185bfbbd3aaa9e131e62f4fb7800c2caa84723fdcb90adc4e20b": "read",
+  "ee67826d5fc612469aacba79807b13d475632feda052cff35a8cd6e7552ba42f": "read"
+ },
+ "flags": []
+}

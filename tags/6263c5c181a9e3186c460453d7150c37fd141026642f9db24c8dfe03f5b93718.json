@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6263c5c181a9e3186c460453d7150c37fd141026642f9db24c8dfe03f5b93718",
+ "domain": [
+  "software/documentation",
+  "productivity"
+ ],
+ "product": [
+  "google-workspace"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and fetches official Google Workspace developer documentation.",
+ "whenToUse": "Use when building against Google Workspace APIs and you need current docs or code examples.",
+ "tasks": [
+  "search Workspace docs",
+  "fetch documentation page"
+ ],
+ "effects": {
+  "9e080bc4e7a06a1cd60d98a9500bffed1b614f775b5799511ccae7b0f4e18aad": "read",
+  "18d9ee93cf3e938d27f78abcb08ef3b6fe8d18b47e2bd73aefa7606920d6a866": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "328f6de0b4f590d071440af81e3e4b1c3a55150e00f9952cbbb13794a590ab3b",
+ "domain": [
+  "weather/forecast-accuracy",
+  "data/analytics"
+ ],
+ "product": [
+  "weatherxm",
+  "ecmwf",
+  "gfs",
+  "meteoblue"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Ranks weather forecast models by verified error against ground stations, with coverage checks and head-to-head comparisons.",
+ "whenToUse": "Use when choosing the most accurate weather forecast model for a location or variable, or checking ground-station coverage.",
+ "tasks": [
+  "find best forecast model for a location",
+  "check ground-truth station coverage",
+  "view accuracy leaderboard",
+  "compare models head to head"
+ ],
+ "effects": {
+  "f718d1cc7e687a8146ddaab689dda12102709ed96090cc881a610a1fea7b40c9": "write",
+  "94b7498c4384b2d7fbffed93abf86a4376ea6533bdaa00181d9c99489bdcf57e": "read",
+  "814e32d7c8ae04d5b9d89848541cf5a02cfac7145863a2261bcdd13214315d77": "write",
+  "456ed6b2bb90ed8bee2bd9fdc840d46bec8ff40489ca9086c8cc03ce8abc59fb": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "69a15c109906f3ddd198a9438f7a62a10052fe77b3dab7901ec9a1d982e74a8a",
+ "domain": [
+  "finance/payments-policy",
+  "software/ai-agent-safety"
+ ],
+ "product": [],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Advisory check that returns eligible, escalate or block for an AI agent's spend request given mandate, vendor, receipt and limit inputs.",
+ "whenToUse": "Use before an agent makes a payment, to check the request against owner-defined spending limits and trust status.",
+ "tasks": [
+  "evaluate spend request",
+  "check mandate validity",
+  "check per-request and daily limits",
+  "check vendor and receipt status"
+ ],
+ "effects": {
+  "252b68c5a051a3094a9fa2211344af4f8f41a59460d59927ac5e0a5dce848c45": "read"
+ },
+ "flags": []
+}

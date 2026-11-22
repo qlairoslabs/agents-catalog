@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0e32f203c536a76b0c881df1c12b128bb2fdf278676b1efa20f6083651b5eeb8",
+ "domain": [
+  "hr/job-search",
+  "hr/resumes"
+ ],
+ "product": [
+  "jobspidey"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches jobs, prepares resumes and cover letters as PDFs, and tracks job applications.",
+ "whenToUse": "Use when a job seeker wants to find jobs, generate application documents or track applications.",
+ "tasks": [
+  "search jobs",
+  "prepare resume",
+  "write cover letter",
+  "download pdfs",
+  "track applications"
+ ],
+ "effects": {},
+ "flags": []
+}

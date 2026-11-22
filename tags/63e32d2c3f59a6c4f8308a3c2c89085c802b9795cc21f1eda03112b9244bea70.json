@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "63e32d2c3f59a6c4f8308a3c2c89085c802b9795cc21f1eda03112b9244bea70",
+ "domain": [
+  "software/cloud/serverless"
+ ],
+ "product": [
+  "aws-lambda",
+  "amazon-api-gateway",
+  "aws-step-functions",
+  "amazon-eventbridge",
+  "aws-sam",
+  "aws-cdk"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance for building, deploying and debugging serverless apps on AWS with Lambda, API Gateway, Step Functions and EventBridge.",
+ "whenToUse": "Use when working on Lambda functions, API Gateway, Step Functions or other event-driven AWS architectures.",
+ "tasks": [
+  "build lambda functions",
+  "configure api gateway",
+  "design step functions workflows",
+  "set event source mappings",
+  "fix cold starts",
+  "debug cors",
+  "tune concurrency",
+  "use powertools",
+  "schedule with eventbridge scheduler",
+  "fix timeouts and 5xx errors"
+ ],
+ "effects": {},
+ "flags": []
+}

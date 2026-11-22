@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "458380ebed0d2f27d249433ea980398ef102f10f5984441bc4f85441d16805f8",
+ "domain": [
+  "media/transcription",
+  "content/podcasts"
+ ],
+ "product": [
+  "pepys"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Transcribes audio and video with speaker diarization and timed SRT/VTT output, including links and whole podcast feeds.",
+ "whenToUse": "Use when someone needs a transcript or subtitles for audio, video, a link or a podcast feed.",
+ "tasks": [
+  "transcribe audio and video",
+  "speaker diarization",
+  "export srt and vtt subtitles",
+  "transcribe from a link",
+  "batch transcribe podcast feeds"
+ ],
+ "effects": {},
+ "flags": []
+}

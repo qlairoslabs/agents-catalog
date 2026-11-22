@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b74c7f580d52cfb5238894519197fa37d44e6826b74c24e82561c144992a91c2",
+ "domain": [
+  "software/development/requirements",
+  "software/quality/traceability"
+ ],
+ "product": [
+  "kibi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Manages requirements, traceability links and proofs for a project through Kibi, installed as a dev dependency.",
+ "whenToUse": "Use when an agent needs to track requirements and trace them to code, tests or proofs in a project.",
+ "tasks": [
+  "manage requirements",
+  "trace requirements",
+  "record proofs",
+  "check coverage"
+ ],
+ "effects": {},
+ "flags": []
+}

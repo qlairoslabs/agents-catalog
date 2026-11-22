@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f91ab56110281aa29afb220cdb69ff37bfb22f89f1d8d420c4a67ef6414ba220",
+ "domain": [
+  "software/code-intelligence",
+  "software/version-control"
+ ],
+ "product": [
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Entity-level code analysis offering semantic diffs, impact analysis, blame and context for AI agents.",
+ "whenToUse": "Use when an agent needs to understand how code changes affect functions or classes across a codebase.",
+ "tasks": [
+  "semantic diff",
+  "impact analysis",
+  "entity-level blame",
+  "gather code context"
+ ],
+ "effects": {},
+ "flags": []
+}

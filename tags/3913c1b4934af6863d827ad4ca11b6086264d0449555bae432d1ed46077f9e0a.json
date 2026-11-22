@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3913c1b4934af6863d827ad4ca11b6086264d0449555bae432d1ed46077f9e0a",
+ "domain": [
+  "security/access-control/file-sharing",
+  "productivity/file-storage"
+ ],
+ "product": [
+  "sharewatch",
+  "google-drive",
+  "claude"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "work-as-a-team"
+ ],
+ "summary": "Gives an AI assistant access only to selected Google Drive files and logs every action it takes.",
+ "whenToUse": "Use when a user wants an agent to work with specific Google Drive files under limited, audited access.",
+ "tasks": [
+  "share selected google drive files with an agent",
+  "read chosen files",
+  "log agent actions"
+ ],
+ "effects": {},
+ "flags": []
+}

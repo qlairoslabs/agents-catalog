@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "dc9939f6e6410c92883653a6e236073c2a264e7c5220e9a9c97f78dd6b2f3da4",
+ "domain": [
+  "software/ai-app-builder",
+  "web/hosting"
+ ],
+ "product": [
+  "bunstation"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds websites and apps from prompts, edits files, publishes them and reports credits and usage.",
+ "whenToUse": "Use when someone wants to generate, edit and publish a website or app with Bunstation.",
+ "tasks": [
+  "build site from prompt",
+  "edit files",
+  "publish site",
+  "check credits",
+  "check usage"
+ ],
+ "effects": {},
+ "flags": []
+}

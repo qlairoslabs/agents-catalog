@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "bb2ebb0969e651feb965442715a1f68cb70a432e91497260e8c9463bda554969",
+ "domain": [
+  "robotics/product-catalog",
+  "procurement/sourcing"
+ ],
+ "product": [
+  "robohub"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Catalogue of 300+ commercial robots with search, spec comparison and B2B vendor introduction requests.",
+ "whenToUse": "Use when someone is researching, comparing or sourcing commercial robots such as humanoids, AMRs or drones.",
+ "tasks": [
+  "search robots",
+  "filter by category and price",
+  "get robot specs and prices",
+  "compare two robots",
+  "list robot categories",
+  "request vendor introductions"
+ ],
+ "effects": {
+  "0990cae9495ba92d416657f7b8335ef33b1967947f4dcca27b5c296cb909c43c": "read",
+  "20412e2668967c26eec58db027fad71c969df1594c6de1bac78f36b5261ad9a3": "read",
+  "c30ebaca72302ab0abc83cbe0a82484c0ea85945e1bbca637a1466ba40a09e0d": "read",
+  "cd5e9cb4a8e985fa72caf0224c5a038cb378bfd76e02f66e47eb35119947254a": "read",
+  "8c1fb5110a6e1d37a07d70a47d9e785ff62070d4f9d47d9cdbbc1ee276aad635": "write"
+ },
+ "flags": []
+}

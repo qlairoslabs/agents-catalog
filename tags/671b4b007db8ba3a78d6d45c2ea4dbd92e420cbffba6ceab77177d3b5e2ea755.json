@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "671b4b007db8ba3a78d6d45c2ea4dbd92e420cbffba6ceab77177d3b5e2ea755",
+ "domain": [
+  "software/cybersecurity/bot-protection"
+ ],
+ "product": [
+  "captcha.cc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Human-verification CAPTCHA service offering visual and selective-listening audio challenges.",
+ "whenToUse": "Use when an agent is adding human verification or bot protection to a site or app.",
+ "tasks": [
+  "create captcha challenges",
+  "verify human responses",
+  "offer audio challenges"
+ ],
+ "effects": {},
+ "flags": []
+}

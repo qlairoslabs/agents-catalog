@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "c72d4be20c9763c2817da2d362501e9988630de2f2e989edbd940d1ba3a54959",
+ "domain": [
+  "hiring/virtual-assistants",
+  "outsourcing"
+ ],
+ "product": [
+  "armasourcing"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Gives information on hiring vetted Filipino virtual assistants: talent pool depth, hiring process, contract terms, supported roles and a discovery call link.",
+ "whenToUse": "Use when a user is considering hiring offshore virtual assistants or contact center staff and wants process, coverage and booking details.",
+ "tasks": [
+  "check talent pool coverage",
+  "explain hiring process",
+  "explain engagement terms",
+  "list supported roles",
+  "get booking link"
+ ],
+ "effects": {
+  "c8f250452dc6f6b2c44ef912fdf69c63e7e5b8c035c0753144e46f34b981f4e1": "read",
+  "0486278df3564953efe29c0053e2bc8124c9bdaa882fc4cd3f4c5c1412a02bbd": "read",
+  "7983d92cbcb44fb1a0ad642135b03eeb47ba312e49505de7d6ac918f0a901c51": "read",
+  "24eccdd633e655643bcf6a395061705e71c957d3857a03cbf851dca331d48e95": "read",
+  "bd06cf081c106ca8ab30895d4205b4dfe36346b275f32fca5dabe4b5d1122453": "write"
+ },
+ "flags": []
+}

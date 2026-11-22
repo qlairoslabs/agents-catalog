@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "08db8a852fbefb58d8e6375b1f0974143753c1b68b37326a79a5d3def0b1f93d",
+ "domain": [
+  "hr/job-boards",
+  "hr/recruiting"
+ ],
+ "product": [
+  "cavuno"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "automate-work"
+ ],
+ "summary": "Lets MCP clients manage a job board hosted on Cavuno.",
+ "whenToUse": "Use when an operator wants to manage listings or settings of their Cavuno job board.",
+ "tasks": [
+  "manage job board",
+  "manage job listings"
+ ],
+ "effects": {},
+ "flags": []
+}

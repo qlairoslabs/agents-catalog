@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "61b649ae7d43f3fef76e9b7562dec8cd937a675642c59eb52f482a74f384fff7",
+ "domain": [
+  "healthcare/physiotherapy",
+  "scheduling"
+ ],
+ "product": [
+  "monrdvkine"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds physiotherapists in France by city, postcode or GPS position and lists online first-appointment slots for new patients.",
+ "whenToUse": "Use when someone in France wants to find a kinésithérapeute and see available first-visit slots.",
+ "tasks": [
+  "search physiotherapists by city",
+  "search by GPS radius",
+  "list new-patient availability",
+  "select office and motive"
+ ],
+ "effects": {
+  "4a7097e85ed4a88e9c4f196272bdd36aa26ff7f16fff3ba042f9d81c2a88762c": "read",
+  "30c6fd4c096dafa9c114e04940397c48102f266f2fdad55b0385411c8f76818b": "read",
+  "b4183e8e623059c290d0636b1bf5b6b40f3aa3e4887f5fc7e54dbe0897d273d9": "write"
+ },
+ "flags": []
+}

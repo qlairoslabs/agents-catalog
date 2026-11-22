@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "8e70feecba350d0b314c9cda4ff5ef2636313e270aa2d3eca7a5b1da4b2c4af6",
+ "domain": [
+  "finance/retirement-planning",
+  "finance/portfolio-management"
+ ],
+ "product": [
+  "retirecrunch",
+  "interactive-brokers"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "FIRE and retirement calculators, a Swiss property gain tax estimator, wealth plan projections and a multi-currency portfolio rebalancer that outputs trades.",
+ "whenToUse": "Use when planning retirement or financial independence, or computing rebalancing trades for a portfolio.",
+ "tasks": [
+  "calculate FIRE target",
+  "calculate Coast FIRE",
+  "estimate Swiss property gains tax",
+  "project wealth plan",
+  "get historical return profiles",
+  "compute rebalance trades",
+  "load IBKR portfolio",
+  "fetch rebalance plan"
+ ],
+ "effects": {
+  "e64f7d6e6d3d4c4f6d44a35064d64345b8e2c773779b79683ca528e1b502e1d7": "read",
+  "ee6a955445020f25352ec43746084254acbbee6ad740fd1b96c61468f5c302d7": "read",
+  "aa8195d11ff1f1b2920d7dc01c65e671c3a1a6f879574578955dc03fd9a041e3": "read",
+  "320b48b8ceb402a5ef75092da1a0bd0c88ca8a5bd0a66cb08f3b70fe8c22b826": "write",
+  "a64165a4e47c09b7e1004c8c6cc137089c12752ff4e6c718718ffb063b35f539": "read",
+  "7c68688470e1d5b935e0f4cc8292dd29e3c04578eb440e1ec4805e04e4824349": "write",
+  "220822a95afd29b6853085e9ced77577d33d9d6035cc68fc4146a145941debfe": "write",
+  "7e35a6c94e765440259d94879c3401f0b70c30c545daee9d338f8dfc96247a62": "write"
+ },
+ "flags": []
+}

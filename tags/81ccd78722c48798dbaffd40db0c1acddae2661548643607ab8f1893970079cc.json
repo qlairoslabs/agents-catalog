@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "81ccd78722c48798dbaffd40db0c1acddae2661548643607ab8f1893970079cc",
+ "domain": [
+  "health/air-quality",
+  "environment"
+ ],
+ "product": [
+  "clara",
+  "hermes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives personalised UK air quality advice and estimates daily pollution exposure across home, work and commute.",
+ "whenToUse": "Use when a UK user asks how air pollution affects them given health context, home or commute.",
+ "tasks": [
+  "give contextual air quality advice",
+  "estimate daily exposure",
+  "factor commute mode",
+  "adjust for indoor sources"
+ ],
+ "effects": {
+  "5a5cec176e1cd406813c354402c2a1228e9429437e3f4585e5e5d7113dd9b053": "write",
+  "79deddddd23f974bf50354f944ea6cb09714da625a17b782f1d8a6a17050f895": "write"
+ },
+ "flags": []
+}

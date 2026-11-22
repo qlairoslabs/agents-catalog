@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ce76d48d08b2adc9642ebbc34d7c91a71505dffa75d5a8d73894b5ad44e6c8d0",
+ "domain": [
+  "marketing/qr-codes",
+  "marketing/link-shortening"
+ ],
+ "product": [
+  "qr-manager"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates dynamic QR codes and short links and reports scan and click analytics.",
+ "whenToUse": "Use when the user wants to create or manage QR codes or short links and see how often they are used.",
+ "tasks": [
+  "create dynamic qr codes",
+  "create short links",
+  "view scan and click analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

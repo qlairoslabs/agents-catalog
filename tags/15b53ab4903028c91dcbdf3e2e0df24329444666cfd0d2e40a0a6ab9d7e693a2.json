@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "15b53ab4903028c91dcbdf3e2e0df24329444666cfd0d2e40a0a6ab9d7e693a2",
+ "domain": [
+  "travel/road-tolls",
+  "transport"
+ ],
+ "product": [
+  "buyvignettepass"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "stay-compliant"
+ ],
+ "summary": "Determines which European motorway vignettes a car trip needs, with prices, extra tolls and a pre-filled order link.",
+ "whenToUse": "Use when a user plans a car trip in Europe and needs to know which vignettes to buy.",
+ "tasks": [
+  "find vignettes for a route",
+  "list vignette countries and products",
+  "list accepted cities"
+ ],
+ "effects": {
+  "5eecda70574ffb7d6fd1f4524d7f185fafbc0166474625e99540cbcb45ef76dc": "read",
+  "00831a9f83b1865888d2f279bc3ca23947193b462b0e81f07f7ef5ee7843c331": "read",
+  "a9fbd73a7a945d33f9547ecdd8deee5e56e8eaecb819a43fc1aa4212b558aabb": "read"
+ },
+ "flags": []
+}

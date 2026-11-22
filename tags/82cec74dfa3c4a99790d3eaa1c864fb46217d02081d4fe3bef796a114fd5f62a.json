@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "82cec74dfa3c4a99790d3eaa1c864fb46217d02081d4fe3bef796a114fd5f62a",
+ "domain": [
+  "software/cybersecurity",
+  "vulnerability-management"
+ ],
+ "product": [
+  "osv",
+  "cve"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Looks up CVE records, checks installed package versions against OSV advisories and lists recently updated CVEs.",
+ "whenToUse": "Use when a user needs details on a CVE, wants to check dependencies for known vulnerabilities or track new CVE updates.",
+ "tasks": [
+  "look up a CVE",
+  "check dependencies for advisories",
+  "list recent CVE updates",
+  "list supported ecosystems"
+ ],
+ "effects": {
+  "00b7c1a27e9244244add5872e4df2156575dd8e7e921cc2f6476e2510f3a6337": "read",
+  "cb303c297ec1f39151b3cf8c7b4f5311b6a482bfe1e1954789f16a44f467766d": "read",
+  "2399bd1259206d9c6f6d0e037106a0ff55c764531b12dedd8c77507d4e5dcf27": "read",
+  "31e28d935c0f4734d35e4496c98c3c39a0e563c98c1d93df5356dd8c911862e8": "read"
+ },
+ "flags": []
+}

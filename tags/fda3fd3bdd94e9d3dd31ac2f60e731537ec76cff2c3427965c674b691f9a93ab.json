@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "fda3fd3bdd94e9d3dd31ac2f60e731537ec76cff2c3427965c674b691f9a93ab",
+ "domain": [
+  "science/hpc",
+  "software/package-management"
+ ],
+ "product": [
+  "spack"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Finds and installs scientific software packages with Spack.",
+ "whenToUse": "Use when an agent needs to search for or install packages via Spack.",
+ "tasks": [
+  "search packages",
+  "inspect package info",
+  "install packages"
+ ],
+ "effects": {},
+ "flags": []
+}

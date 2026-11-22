@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "fc1bc81034fbff1d3c6be1517e41b0fcda4fc82c97f74d618bef327f8141f32e",
+ "domain": [
+  "finance/crypto",
+  "finance/backtesting"
+ ],
+ "product": [
+  "coinbase",
+  "base",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Survivorship-bias-free crypto strategy backtests, parameter optimization, market regime signals and token scam checks, paid per call in USDC via x402 with free samples.",
+ "whenToUse": "Use when testing a crypto trading strategy, reading the daily market regime or checking a token for scams.",
+ "tasks": [
+  "backtest strategies",
+  "optimize parameters",
+  "get market signals",
+  "check token scams",
+  "snapshot historical universe",
+  "validate requests free",
+  "get free samples"
+ ],
+ "effects": {
+  "bc8f873ce9b2226aeaa9eb093f5db9a59e71fde5a5bbde4d820fc88e1c311435": "risky",
+  "58a11acd5e34026f392effc316d84d96bc674eb84c0b8846f33acb34166942e0": "risky",
+  "27be7b7ca09f43f0e006532abc5ebdf38f19ae06462beac174d1500298113a17": "risky",
+  "7ca0757e007bdfdb5ab542e402621700a27a3c660c4f60030e1ca229e753b59b": "risky",
+  "c6d462ae062e96c603fe62ec82748b67b29e3f8a38950b1d46c1dc599b6e7b0e": "risky",
+  "b0ff23fdaf67ca6b137bf29b20ffc6b2f00394d8e3b5a4142244d01826f6acb3": "read",
+  "5a13c840e6468d85ff5ae746973345306fa579f8427803e4b2047603dfeeb9c0": "write",
+  "a6cd1a01a104494809f6b5299a4bcbb6339f5b48c070c6ba56e785762753e6a3": "read",
+  "db584b4674c4afad8747a683e7398784bdfece74127b08fc2ab96049373406b7": "read",
+  "2937865017c08c4c6f7f4352d984ba924ccbbdcf4be8779a60d8732374fa918c": "write",
+  "954e54380e803172716821cb04ecc8d13cbed98827a16d5ce49f8441a06d4f38": "read",
+  "5f49ccd864f3e94ca549f715c673134a016780a040372ce211895ca73836c5f9": "read",
+  "69e0514a8d4df6d5a9b0497141ee45d4440aaa4bcb12ff0630ff185ca073e1bf": "read"
+ },
+ "flags": []
+}

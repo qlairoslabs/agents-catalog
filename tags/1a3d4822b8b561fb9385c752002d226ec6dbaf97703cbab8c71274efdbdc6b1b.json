@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1a3d4822b8b561fb9385c752002d226ec6dbaf97703cbab8c71274efdbdc6b1b",
+ "domain": [
+  "marketing/seo/serp-data"
+ ],
+ "product": [
+  "semscraper",
+  "google",
+  "google-maps"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Fetches live Google and Google Maps results with pixel positions, AI Overviews and their sources.",
+ "whenToUse": "Use when an agent needs real Google or Maps search results for SEO analysis.",
+ "tasks": [
+  "fetch google serps",
+  "fetch google maps results",
+  "get pixel positions",
+  "get ai overviews and sources"
+ ],
+ "effects": {},
+ "flags": []
+}

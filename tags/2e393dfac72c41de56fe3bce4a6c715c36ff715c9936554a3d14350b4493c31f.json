@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2e393dfac72c41de56fe3bce4a6c715c36ff715c9936554a3d14350b4493c31f",
+ "domain": [
+  "health/mental-health",
+  "health/self-assessment"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Loads guided self-assessment questionnaires for anxiety (GAD-7), depression (PHQ-9) and well-being (WHO-5).",
+ "whenToUse": "Use when a user wants to take a brief anxiety, depression or well-being self-check.",
+ "tasks": [
+  "load GAD-7 test",
+  "load PHQ-9 test",
+  "load WHO-5 test"
+ ],
+ "effects": {
+  "95a94ffa616bca08b90d97e640c4fe765df46d7c069bc8b2791eb9b68b5a990c": "read"
+ },
+ "flags": []
+}

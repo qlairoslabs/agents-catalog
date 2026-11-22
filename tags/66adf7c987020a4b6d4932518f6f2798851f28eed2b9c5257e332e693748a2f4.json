@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "66adf7c987020a4b6d4932518f6f2798851f28eed2b9c5257e332e693748a2f4",
+ "domain": [
+  "research/web-search"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs web searches through a fixed provider and fetches URLs, DOIs and documents.",
+ "whenToUse": "Use when an agent needs to search the web or retrieve a page, paper or document.",
+ "tasks": [
+  "search the web",
+  "fetch urls",
+  "resolve dois",
+  "fetch documents"
+ ],
+ "effects": {},
+ "flags": []
+}

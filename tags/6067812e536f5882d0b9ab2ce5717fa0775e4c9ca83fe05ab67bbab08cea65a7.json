@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6067812e536f5882d0b9ab2ce5717fa0775e4c9ca83fe05ab67bbab08cea65a7",
+ "domain": [
+  "hobby/3d-printing",
+  "manufacturing/print-tracking"
+ ],
+ "product": [
+  "3dprintlog"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Logs and queries 3D prints, printers, filament and projects on 3dprintlog.com and searches its documentation.",
+ "whenToUse": "Use when the user wants to record or look up their 3D printing history, printers or filament stock.",
+ "tasks": [
+  "log prints",
+  "query print history",
+  "manage printers",
+  "track filament",
+  "manage projects",
+  "search docs"
+ ],
+ "effects": {},
+ "flags": []
+}

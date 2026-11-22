@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d2504b9e6dd214415ee8a60671537c115a812173d0a6a4c0a82a0223cc0b5175",
+ "domain": [
+  "software/api/graphql",
+  "software/languages/rust"
+ ],
+ "product": [
+  "apollo-router",
+  "rust"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for writing and modifying native Rust plugins for Apollo Router using service hooks.",
+ "whenToUse": "Use when creating or changing a native Rust plugin for Apollo Router.",
+ "tasks": [
+  "create router plugin",
+  "add service hooks",
+  "modify existing plugin",
+  "explain request lifecycle"
+ ],
+ "effects": {},
+ "flags": []
+}

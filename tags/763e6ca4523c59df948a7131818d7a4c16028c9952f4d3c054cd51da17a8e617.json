@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "763e6ca4523c59df948a7131818d7a4c16028c9952f4d3c054cd51da17a8e617",
+ "domain": [
+  "travel/vacation-rentals"
+ ],
+ "product": [
+  "aegeanbot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches verified Greek vacation rentals with live availability, total prices, house policies, host FAQs and direct booking links.",
+ "whenToUse": "Use when a user wants to find and price a vacation rental in Greece for specific dates.",
+ "tasks": [
+  "search listings",
+  "get listing details",
+  "check availability and price",
+  "get listing policies",
+  "answer host FAQs"
+ ],
+ "effects": {
+  "40c864dc1edfd2f3d0815cbeec35aea4a1cac5cd485ee5d63c5c1b394cbb9620": "read",
+  "ee7653dee3332a530a35d5df10e13d5fbb5aef3c73e1e29957dd4266a3884ba1": "read",
+  "277817c074ebead5f90a262542f14d6a3762d544e956764c41c18cad3cd76530": "write",
+  "67d3bdf4c337ac70396abcec7db8d3188d6c35be8d20d7d42e225405e0faff17": "read",
+  "39e3300e492af52e6fefe6178e351d3f208c3ef30c1f8f4c893948be1bd178a2": "read"
+ },
+ "flags": []
+}

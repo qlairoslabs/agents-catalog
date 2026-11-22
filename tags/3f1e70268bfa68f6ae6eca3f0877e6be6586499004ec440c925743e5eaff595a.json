@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3f1e70268bfa68f6ae6eca3f0877e6be6586499004ec440c925743e5eaff595a",
+ "domain": [
+  "media/audio-generation",
+  "media/music",
+  "media/text-to-speech"
+ ],
+ "product": [
+  "wubble"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates and manages Wubble requests for generated music, speech, voices and sound effects.",
+ "whenToUse": "Use when a user needs generated music, voiceover, speech or sound effects.",
+ "tasks": [
+  "generate music",
+  "generate speech",
+  "create voices",
+  "generate sound effects",
+  "inspect requests",
+  "manage requests"
+ ],
+ "effects": {},
+ "flags": []
+}

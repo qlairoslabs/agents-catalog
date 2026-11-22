@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5fca0977a413d89e551f7edb7991dd1a476a7625691cfabb520e83ed5b9a1763",
+ "domain": [
+  "design/image-generation",
+  "marketing/branding"
+ ],
+ "product": [
+  "pixeldrive"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates branded images in bulk by designing templates and rendering them to PNGs from prompts.",
+ "whenToUse": "Use when the user needs many on-brand images produced from a template.",
+ "tasks": [
+  "design templates",
+  "render pngs",
+  "generate images by prompt"
+ ],
+ "effects": {},
+ "flags": []
+}

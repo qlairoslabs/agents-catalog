@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "f5e8ed11a3f4fbb5ae2503fbe095877b35220b132eb7a421bdfc97fe114eee00",
+ "domain": [
+  "finance/equity-analysis"
+ ],
+ "product": [
+  "sec-edgar",
+  "boothcheck"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reverse-DCF analysis of US stock prices showing the growth, duration and margin they imply, based on SEC filings; no ratings or targets.",
+ "whenToUse": "Use when a user wants to know what expectations a US stock's price embeds or to compare two stocks.",
+ "tasks": [
+  "invert price to implied growth",
+  "rank stretched stocks",
+  "compare two tickers",
+  "list coverage",
+  "summarize research reports"
+ ],
+ "effects": {
+  "f02a23fa6eee670b61a4d4cbae27502ffe78f0fe0b98c3a17673424fb08181fd": "read",
+  "7f94da8679a92b137fd560e9ab239f650673f7031970a2155e231275086d81c8": "read",
+  "48d58a633e5f05662c46a2aa213c0adf443d8df962c1a7cce45137b654400fef": "read",
+  "da6a3da8f5227dcbe849ca487c8329e9a6428eb365cd3ad5f74dbf64322c7756": "read",
+  "92b04469ddeda4eee7e0f93f8e7b9234774273cb495147ad8c6a295312ce5e2d": "read"
+ },
+ "flags": []
+}

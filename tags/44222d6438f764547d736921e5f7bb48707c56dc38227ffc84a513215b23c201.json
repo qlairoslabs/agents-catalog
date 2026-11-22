@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "44222d6438f764547d736921e5f7bb48707c56dc38227ffc84a513215b23c201",
+ "domain": [
+  "transport/taxi"
+ ],
+ "product": [
+  "taxis-fabbrimone"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Gives business info and price estimates for a taxi company in Waterloo, Belgium, and submits ride booking requests.",
+ "whenToUse": "Use when a user wants a taxi fare estimate or ride booking in the Waterloo, Belgium area.",
+ "tasks": [
+  "get business details",
+  "estimate ride price",
+  "search site",
+  "book ride"
+ ],
+ "effects": {
+  "921c49e834ac8aa7978dd1148c1dcb94d6e920366ab5fb4f08362f6145099176": "read",
+  "e943cdfb674edc2df9debe6bf98729006689f0f7cb78c74203e3ddba9e292c82": "read",
+  "486c93610b53eee9a8b50d89c81d7eecfe688237417697865afdebb54d2e0438": "read",
+  "44494dd364d78f56db50308da85dec06fcec06184f41a03ca22e7df49df6bdf0": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1d882f2c84a5336f87f70844eac4079db21322fd68fa719f3c8a90dbec3e0242",
+ "domain": [
+  "software/product-management",
+  "support/feedback"
+ ],
+ "product": [
+  "lotsteam"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Turns user requests and support messages into tasks and notifies users when their requests ship.",
+ "whenToUse": "Use when capturing user feedback as tasks or informing users about shipped features.",
+ "tasks": [
+  "create tasks from requests",
+  "convert support messages to tasks",
+  "notify users of releases"
+ ],
+ "effects": {},
+ "flags": []
+}

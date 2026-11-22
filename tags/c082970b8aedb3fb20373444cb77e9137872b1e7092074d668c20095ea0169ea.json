@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c082970b8aedb3fb20373444cb77e9137872b1e7092074d668c20095ea0169ea",
+ "domain": [
+  "media/generative-ai",
+  "content/multimedia-production"
+ ],
+ "product": [
+  "sapiens-sinteticos"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Local npm server for running the Sapiens Sintéticos AI studio to generate images, articles, voice, music and video.",
+ "whenToUse": "Use when producing AI-generated media through a Sapiens Sintéticos account.",
+ "tasks": [
+  "generate images",
+  "write articles",
+  "generate voice",
+  "generate music",
+  "generate video"
+ ],
+ "effects": {},
+ "flags": []
+}

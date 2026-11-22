@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "33102c826a1abb881ae22f25128585628b868bd21171fc010d165e8d61c216c5",
+ "domain": [
+  "telecom/esim",
+  "travel/connectivity"
+ ],
+ "product": [
+  "one-heart-esim",
+  "line-pay",
+  "ecpay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "ONE HEART eSIM catalogue showing live prices and stock by country, recommending plans and creating orders with LinePay or ECPay links.",
+ "whenToUse": "Use when a traveller needs to pick and order an eSIM data plan for a destination country.",
+ "tasks": [
+  "check esim prices",
+  "check stock",
+  "recommend plans by trip length and usage",
+  "create orders",
+  "get payment links"
+ ],
+ "effects": {},
+ "flags": []
+}

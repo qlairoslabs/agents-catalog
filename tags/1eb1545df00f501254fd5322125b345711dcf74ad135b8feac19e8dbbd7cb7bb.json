@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1eb1545df00f501254fd5322125b345711dcf74ad135b8feac19e8dbbd7cb7bb",
+ "domain": [
+  "finance/market-intelligence",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "fundz",
+  "sec-edgar"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides dated funding events and SEC 8-K filings, each linked to its source filing.",
+ "whenToUse": "Use when the user needs sourced company funding or 8-K event data for research or prospecting.",
+ "tasks": [
+  "search funding events",
+  "search sec 8-k events",
+  "link to source filings"
+ ],
+ "effects": {},
+ "flags": []
+}

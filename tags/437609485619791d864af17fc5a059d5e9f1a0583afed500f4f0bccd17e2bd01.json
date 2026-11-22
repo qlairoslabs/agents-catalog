@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "437609485619791d864af17fc5a059d5e9f1a0583afed500f4f0bccd17e2bd01",
+ "domain": [
+  "software/devops/account-inventory",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "mess"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Keeps an inventory of service accounts, updated by coding agents, storing metadata only and no secrets.",
+ "whenToUse": "Use when a coding agent creates or uses a third-party service account and should record or look up its metadata.",
+ "tasks": [
+  "record service accounts",
+  "update account metadata",
+  "list service accounts"
+ ],
+ "effects": {},
+ "flags": []
+}

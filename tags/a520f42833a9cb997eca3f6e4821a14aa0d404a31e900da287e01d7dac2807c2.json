@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a520f42833a9cb997eca3f6e4821a14aa0d404a31e900da287e01d7dac2807c2",
+ "domain": [
+  "ai/context-portability",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "native-soil"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Saves an AI conversation's working state so it can be resumed in another model or provider, with secret filtering.",
+ "whenToUse": "Use when the user wants to move an in-progress chat to a different model or provider without losing context.",
+ "tasks": [
+  "save chat state",
+  "load chat state",
+  "transfer context between models",
+  "strip secrets"
+ ],
+ "effects": {},
+ "flags": []
+}

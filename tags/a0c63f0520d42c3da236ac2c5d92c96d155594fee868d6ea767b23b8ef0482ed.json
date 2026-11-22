@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a0c63f0520d42c3da236ac2c5d92c96d155594fee868d6ea767b23b8ef0482ed",
+ "domain": [
+  "ecommerce/beauty",
+  "retail/k-beauty"
+ ],
+ "product": [
+  "protoclinical"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches a K-beauty product catalog and manages buyer-approved carts and checkouts.",
+ "whenToUse": "Use when a user wants to find and buy K-beauty products from ProtoClinical.",
+ "tasks": [
+  "search product catalog",
+  "manage cart",
+  "create checkout"
+ ],
+ "effects": {},
+ "flags": []
+}

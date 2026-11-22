@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "baa56855cd86d1623a593d433e8ed4b516e47b903b65448a12905afc1467ca34",
+ "domain": [
+  "directory/phone-book",
+  "local-business"
+ ],
+ "product": [
+  "1820.ch"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Searches the Swiss public phone directory for people and businesses, with reverse number lookup and category browsing.",
+ "whenToUse": "Use when an agent needs a Swiss phone number, address, opening hours, or to identify who owns a Swiss number.",
+ "tasks": [
+  "search people and businesses",
+  "browse business categories by place",
+  "get entry phone numbers and hours",
+  "reverse phone number lookup"
+ ],
+ "effects": {
+  "e3beedd7b86dc354622b28bdeab350a3ac66dbb99411a13ccddc46eac3db8991": "read",
+  "98312b652b48ae22ad37e5e3b03356fd42e5e2af3e2d94f5f1339ad1b113fd71": "read",
+  "18ee864188a48960f2dbf0441420e6548f37cdf62635915451198829baa2bf9b": "read",
+  "7cb5383dc0ffaaf609aa1af0af73e17122f63255b6ff83579a05a54fb7e5300d": "read"
+ },
+ "flags": []
+}

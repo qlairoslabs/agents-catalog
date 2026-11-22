@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c819f485aa7f887c0aded38cd9d7e18f0c2926bac5842324145714f389ec9cd4",
+ "domain": [
+  "media/music-visualization",
+  "creative/generative-art"
+ ],
+ "product": [
+  "groovalizer",
+  "milkdrop"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Lets an agent write audio-reactive MilkDrop visualizer presets and preview them live in an open Groovalizer browser tab.",
+ "whenToUse": "Use when a user wants to create or tweak MilkDrop music visualizer presets and see them live.",
+ "tasks": [
+  "write milkdrop presets",
+  "test presets live",
+  "edit audio-reactive visuals"
+ ],
+ "effects": {},
+ "flags": []
+}

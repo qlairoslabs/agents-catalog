@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bcfcdfebb78fc0b2d33da3894b394b6dc23cadf8d9767e651c97ab408b0c9e19",
+ "domain": [
+  "marketing/landing-pages",
+  "sales/crm",
+  "education/courses"
+ ],
+ "product": [
+  "axl"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Builds landing pages, publishes them after user approval, and captures form signups into the AXL CRM.",
+ "whenToUse": "Use when a user wants to create and publish a landing page or course page and collect leads in AXL.",
+ "tasks": [
+  "build landing page",
+  "publish page after approval",
+  "capture form signups",
+  "manage crm contacts"
+ ],
+ "effects": {},
+ "flags": []
+}

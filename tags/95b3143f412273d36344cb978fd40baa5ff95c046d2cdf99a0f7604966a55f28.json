@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "95b3143f412273d36344cb978fd40baa5ff95c046d2cdf99a0f7604966a55f28",
+ "domain": [
+  "media/post-production",
+  "directory"
+ ],
+ "product": [
+  "mediawork"
+ ],
+ "audience": [
+  "operations",
+  "design"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Searches Mediawork's directory of post-production and distribution vendors, with services, places, FAQ, blog posts and plans.",
+ "whenToUse": "Use when looking for post-production facilities or vendors by service or location, or for Mediawork plan and FAQ info.",
+ "tasks": [
+  "list services",
+  "list places",
+  "search facilities",
+  "get facility profile",
+  "search FAQ",
+  "list blog posts",
+  "read blog post",
+  "get plans",
+  "search all content",
+  "fetch record"
+ ],
+ "effects": {
+  "c6a284120bff95bdcef1f5d47746466ac6a2bdf62fc0f37c19440e128905ad18": "read",
+  "b899802514eb06267967422d1fad96df5d828c20318482f14e101c2ab873fa2b": "read",
+  "38d6493981204d54bbdd5f7ae6092be232aa7d53115aacf36aa3234fe4913111": "read",
+  "8909cbf907bdc7807f14ea92e821ff91a3bf982b5d3c599330cd18b1bce0eb34": "read",
+  "685550ed9f3f881adc29f4e98289947ac12e96b87ba28b07f9a0c9b1217f9d61": "read",
+  "9f5c5ee730cef2544331d90f9b0cd4e3fd4b5a60125739a2a79405484d4e08d3": "read",
+  "06356d7a9845ea8a52c30289bfce8675fc170379bd0377cfae60afae39bcf3d8": "read",
+  "c73a6ad5c099308462c930ba2733ceea472ff2c8844aa34ed772b609f3419bde": "read",
+  "0c3fbe5d49631bd33d2af240dc19257de403a9ad6453ab00af03dcefef03d1b8": "read",
+  "659e0045c8867b17d3dde67027969d40a9befa8ec8e7bc459c67d798d56892cc": "read"
+ },
+ "flags": []
+}

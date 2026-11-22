@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "ada290eb8e5de2d727bb67a3e6f9b1eb09aa28cceb1d11cb9eaa4a8156c33ea4",
+ "domain": [
+  "ecommerce/home-decor",
+  "ecommerce/wallpaper"
+ ],
+ "product": [
+  "loppix"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Browse Loppix wall mural and wallpaper motifs, materials and knowledge entries, validate and price a configuration, and issue a review link without buying.",
+ "whenToUse": "Use when a customer wants to choose a wall motif, check sizes and materials, get a EUR quote, or prepare a configuration for checkout review.",
+ "tasks": [
+  "search motifs",
+  "get motif details",
+  "list materials",
+  "search knowledge base",
+  "validate configuration",
+  "quote configuration",
+  "create review handoff link"
+ ],
+ "effects": {
+  "7a51671feb638c996404ee34675280a9c82acb17f35daf0594883da01f0e7c4f": "read",
+  "da58623fd2a59cff04c1f76fe5fb0be593a58174ffc7c0c010204e413ed0ed1b": "read",
+  "5ee877bde0d1ad1fa9f2d6ed70b61275288ff6499f8b0c4be2c83d01b433486b": "read",
+  "3e11cc43a389595ffd60f519e18fdd5350cae36e7207ac3ac2da1f8ccb4fa896": "read",
+  "1017afc0748a159d60245ddbc8c49ae17e8582fcea9668d562ab44e5d69804e6": "read",
+  "f87a49857e3b7a7875f51205b7de6a9835d160d8e3dd8e0cc40ae41fd0585a9d": "read",
+  "9a57cbe8342a39acb3b9daa56f25a1ca3481f3801b22d3d69a5b0660db2cead6": "read",
+  "373bace277ca0a05b1ea2fae99b47974e45d4a99768283be2d1ae6ee4de2b4eb": "write"
+ },
+ "flags": []
+}

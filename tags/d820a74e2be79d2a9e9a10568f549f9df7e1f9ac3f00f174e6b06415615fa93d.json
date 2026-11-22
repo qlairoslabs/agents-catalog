@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d820a74e2be79d2a9e9a10568f549f9df7e1f9ac3f00f174e6b06415615fa93d",
+ "domain": [
+  "software/app-building",
+  "communication/discord-bots"
+ ],
+ "product": [
+  "vibebot",
+  "discord"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds dashboards, websites or apps around a VibeBot Discord bot using its live data.",
+ "whenToUse": "Use when a user wants to build a site or dashboard powered by their VibeBot Discord bot data.",
+ "tasks": [
+  "build dashboards",
+  "build websites",
+  "access live bot data"
+ ],
+ "effects": {},
+ "flags": []
+}

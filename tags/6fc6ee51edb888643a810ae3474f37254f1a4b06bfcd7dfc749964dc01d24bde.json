@@ -1,0 +1,22 @@
+{
+ "classifier": 2,
+ "contentHash": "6fc6ee51edb888643a810ae3474f37254f1a4b06bfcd7dfc749964dc01d24bde",
+ "domain": [
+  "productivity/time"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Provides the current time and converts between time zones.",
+ "whenToUse": "Use when the agent needs the current time or a time zone conversion.",
+ "tasks": [
+  "get current time",
+  "convert time zones"
+ ],
+ "effects": {},
+ "flags": []
+}

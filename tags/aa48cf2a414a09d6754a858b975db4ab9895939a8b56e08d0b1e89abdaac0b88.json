@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "aa48cf2a414a09d6754a858b975db4ab9895939a8b56e08d0b1e89abdaac0b88",
+ "domain": [
+  "ai/agent-memory",
+  "productivity/ticketing"
+ ],
+ "product": [
+  "stompy",
+  "claude"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Gives AI agents persistent memory with semantic search, conflict detection between memories, and simple ticketing.",
+ "whenToUse": "Use when an agent needs to remember information across sessions or track work items as tickets.",
+ "tasks": [
+  "store memories",
+  "semantic search memories",
+  "detect conflicting memories",
+  "manage tickets"
+ ],
+ "effects": {},
+ "flags": []
+}

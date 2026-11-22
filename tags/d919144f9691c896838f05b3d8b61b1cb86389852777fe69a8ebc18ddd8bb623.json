@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d919144f9691c896838f05b3d8b61b1cb86389852777fe69a8ebc18ddd8bb623",
+ "domain": [
+  "software/no-code-app-builder",
+  "software/hosting"
+ ],
+ "product": [
+  "buzzy",
+  "claude-code",
+  "codex",
+  "cursor"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Builds and hosts custom business apps such as CRMs, booking apps and portals from AI coding tools.",
+ "whenToUse": "Use when a user wants to create and host a custom business app through Claude Code, Codex or Cursor.",
+ "tasks": [
+  "build business apps",
+  "host apps",
+  "create crm or booking app"
+ ],
+ "effects": {},
+ "flags": []
+}

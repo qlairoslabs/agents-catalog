@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3183d5f97bd2d1f216ba67d0e9300b532eb940f306647e8a20f220062c6f6470",
+ "domain": [
+  "design/cad/3d-modeling"
+ ],
+ "product": [
+  "build123d"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Interactive 3D CAD through build123d, running model code, rendering, measuring and exporting geometry.",
+ "whenToUse": "Use when an agent needs to create or inspect 3D CAD models in code.",
+ "tasks": [
+  "execute build123d code",
+  "render geometry",
+  "measure geometry",
+  "export cad files"
+ ],
+ "effects": {},
+ "flags": []
+}

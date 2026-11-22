@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8d35a11063f26376053004c6089cd8f146f3659f00b293f811d1ba98249f4b40",
+ "domain": [
+  "data/document-conversion"
+ ],
+ "product": [
+  "docling"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "MCP server using Docling to convert PDFs and other documents into structured formats for AI use.",
+ "whenToUse": "Use when an agent needs to turn a PDF or office document into structured text or markdown.",
+ "tasks": [
+  "convert pdf to structured format",
+  "parse documents",
+  "extract tables"
+ ],
+ "effects": {},
+ "flags": []
+}

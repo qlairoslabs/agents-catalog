@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e1f25c0a270a583bb9fc8362a24282e443b76dcd76744c1bed6638d5e9805c6b",
+ "domain": [
+  "software/developer-utilities",
+  "data/web-extraction"
+ ],
+ "product": [
+  "omniyond"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Pay-per-use utilities for agents: scheduled HTTP calls, page and PDF extraction, OG image and QR code generation, short links.",
+ "whenToUse": "Use when an agent needs to schedule HTTP requests, extract web or PDF content, or generate images, QR codes or short links.",
+ "tasks": [
+  "schedule http calls",
+  "extract web pages",
+  "extract pdfs",
+  "generate og images",
+  "generate qr codes",
+  "create short links"
+ ],
+ "effects": {},
+ "flags": []
+}

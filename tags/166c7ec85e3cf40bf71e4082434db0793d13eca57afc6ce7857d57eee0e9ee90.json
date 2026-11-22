@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "166c7ec85e3cf40bf71e4082434db0793d13eca57afc6ce7857d57eee0e9ee90",
+ "domain": [
+  "finance/precious-metals",
+  "finance/price-comparison"
+ ],
+ "product": [
+  "bullionradar",
+  "or-fr",
+  "godot",
+  "goldunion",
+  "stonex"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Compare live gold and silver coin prices across 11 French and European dealers and read coin specifications.",
+ "whenToUse": "Use when a user wants the cheapest dealer for a gold or silver coin or the specs of an investment coin.",
+ "tasks": [
+  "find best dealer price",
+  "compare dealer prices",
+  "get coin specs",
+  "list dealers",
+  "compare two coins",
+  "search coin catalog"
+ ],
+ "effects": {
+  "15f1419dc9f185b94a54c6a7e686b649636176d43752782568b45cb70e521951": "read",
+  "3e5c93f1a48059f9765fd20c37fcb40045d6f3e3d42d8ac81ca754ed148945dc": "read",
+  "464c0a24152696897a936940a25fe14ff90fcd023726ac5f8133c08559d509d7": "read",
+  "2665fe251eba92798ff0d70b4c7b5d7f69100167b752186cb55c0ff4b6fd04c6": "read",
+  "96544d9607e124228fead9b5d9042b05afd35b55966ac440199635fd9f0d95ae": "read",
+  "d4e76699195742b2eb4ff4a9c5e8ddeb0851b4d7738d52b49651d0180b499d2a": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9f5354dab86c8c0bba0505e88355a9d50a8fcd89e57b1ff47b3578418967a40e",
+ "domain": [
+  "marketing/email-verification",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "mailtester-ninja"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Checks whether email addresses are deliverable by querying their mail server and finds professional email addresses.",
+ "whenToUse": "Use when validating email addresses before outreach or finding a person's work email.",
+ "tasks": [
+  "verify email address",
+  "find work email"
+ ],
+ "effects": {},
+ "flags": []
+}

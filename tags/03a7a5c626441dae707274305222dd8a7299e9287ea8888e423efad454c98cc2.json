@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "03a7a5c626441dae707274305222dd8a7299e9287ea8888e423efad454c98cc2",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "callstay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "automate-work"
+ ],
+ "summary": "Searches hotels worldwide and returns property details and live all-in room rates with booking links.",
+ "whenToUse": "Use when a user wants to find a hotel, compare room prices for exact dates or get property details.",
+ "tasks": [
+  "search hotels by place and dates",
+  "get property details",
+  "price rooms for a stay",
+  "show cancellation terms and fees"
+ ],
+ "effects": {
+  "285766cb8ede55f02757eae032f9f385702564b0571d0ccf64fda0e3fa2e5a3a": "read",
+  "344edc4ee14b15acc7a918ff6f7dcaa64e2d6e295474624316f9f7ea5816cb3b": "read",
+  "5e1197c70f45f88fb9dd34088f9a90619f2be7816fc20c606252e5f75fc93ae0": "read",
+  "a706617734b8fc56637a08b6d09cf6379d0074cc38b4aca3942d6d6689c3c208": "read"
+ },
+ "flags": []
+}

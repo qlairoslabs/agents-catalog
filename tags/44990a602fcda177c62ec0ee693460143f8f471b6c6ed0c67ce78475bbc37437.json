@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "44990a602fcda177c62ec0ee693460143f8f471b6c6ed0c67ce78475bbc37437",
+ "domain": [
+  "software/web-development/full-stack",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-amplify",
+  "amazon-cognito",
+  "aws-appsync",
+  "amazon-dynamodb",
+  "amazon-s3",
+  "amazon-bedrock"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Guidance for building and deploying full-stack web and mobile apps with AWS Amplify Gen2, covering auth, data, storage, functions and AI.",
+ "whenToUse": "Use when a project uses Amplify Gen2 or the user asks about its backend definitions or ampx CLI.",
+ "tasks": [
+  "configure cognito auth",
+  "model appsync data schema",
+  "set authorization rules",
+  "configure s3 storage",
+  "add functions",
+  "add ai kit features",
+  "deploy amplify apps"
+ ],
+ "effects": {},
+ "flags": [
+  "instructs the agent to always use this skill even for questions it thinks it knows"
+ ]
+}

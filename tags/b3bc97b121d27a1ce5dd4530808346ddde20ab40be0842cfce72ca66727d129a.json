@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "b3bc97b121d27a1ce5dd4530808346ddde20ab40be0842cfce72ca66727d129a",
+ "domain": [
+  "marketing/reporting",
+  "sales/outreach"
+ ],
+ "product": [
+  "linkedin",
+  "reddit-ads",
+  "linkedin-ads"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Client portal for Fractional Teams reports: SEO/AEO/outreach sections, recent leads, paid media metrics, agent-readiness scans and marking leads as replied.",
+ "whenToUse": "Use when a Fractional Teams client wants their published reports, outreach lead status, paid media figures or agent-readiness scores.",
+ "tasks": [
+  "list reports",
+  "read report sections",
+  "view recent leads",
+  "mark lead replied outside LinkedIn",
+  "unmark lead",
+  "view agent-readiness scans",
+  "view paid media campaigns",
+  "view campaign history"
+ ],
+ "effects": {
+  "54dc24637ca29c05eaf3dccecb635c0b74397d31e4278f37e2c6c3e7aa752435": "read",
+  "b24d102aac1f56a50fdfa3437f3b5e09d446d4a48ef843fd43d9eb90bb25603b": "read",
+  "245260e64648748f4e33a0423a3829fd9771aefbf1931f18c4e32125a4d0973e": "read",
+  "76386351b8984db47024a8cbb27c5ab91cf833509accf96d8a85027e36216a3d": "read",
+  "95a96583289e494cba4cecb54c39050d801eb7357a8a968bfd1c8ecd641bd5e3": "read",
+  "6f0e2b30cb11530856425a8de7437468b54d228a527c7cfad378748121cb5173": "read",
+  "c791c11dc186020737c59f12e1df10250819f5574d766566ffff6d943c6af2fd": "read",
+  "20ab75040bcdf7ec32805f97bc9d1375d2d6b2d889d34cfb898baeccca46f794": "write",
+  "7d27062cf8f6a460a78eb19ecb73dcc51ffac4b0dc9acb8a761cf583e9410f56": "write",
+  "c644dbf1a6c19f6c4e4af88019835d930a7fec6b88db917ca16ef95d49feb6dd": "read",
+  "89a9cb5dc2786754832d81b6100705e109a2767cbc4c07fd65b3580eddd33b31": "read",
+  "a9cf2b98f199c75d24fc70b939db399ff779dbb45edee8221687875b811b8312": "read",
+  "40ac91fa6f06288a4bafaed4d0ea5be6a69492598c7e3928c2e36d5536dffc91": "read"
+ },
+ "flags": []
+}

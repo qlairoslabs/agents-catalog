@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3accf44c1d9f2b5fe4753d179b8556f0e252dd68601d68291a39d7c082b9a2a0",
+ "domain": [
+  "marketing/paid-ads",
+  "marketing/ad-automation"
+ ],
+ "product": [
+  "meta-ads",
+  "facebook",
+  "instagram",
+  "google-drive"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Bulk-creates Facebook and Instagram ads across multiple Meta ad accounts from Google Drive creative folders, with guardrails.",
+ "whenToUse": "Use when a marketer needs to launch many Meta ads at once from creatives stored in Drive.",
+ "tasks": [
+  "bulk-create meta ads",
+  "use creatives from drive folders",
+  "manage multiple ad accounts"
+ ],
+ "effects": {},
+ "flags": []
+}

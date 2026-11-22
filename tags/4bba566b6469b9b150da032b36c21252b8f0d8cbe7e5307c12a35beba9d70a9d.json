@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "4bba566b6469b9b150da032b36c21252b8f0d8cbe7e5307c12a35beba9d70a9d",
+ "domain": [
+  "software/code-search"
+ ],
+ "product": [
+  "cocoindex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Semantic search over a local code repository using AST-based chunks and incremental indexing.",
+ "whenToUse": "Use when an agent needs to find relevant code in a local repository by meaning.",
+ "tasks": [
+  "index repository",
+  "semantic code search",
+  "incremental re-indexing"
+ ],
+ "effects": {},
+ "flags": []
+}

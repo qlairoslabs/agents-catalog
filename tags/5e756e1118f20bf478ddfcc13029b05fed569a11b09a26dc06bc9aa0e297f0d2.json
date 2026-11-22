@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5e756e1118f20bf478ddfcc13029b05fed569a11b09a26dc06bc9aa0e297f0d2",
+ "domain": [
+  "software/observability",
+  "software/logging"
+ ],
+ "product": [
+  "auralogs"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Read-only access to Auralogs production logs for searching logs, inspecting errors and reviewing AI-generated analyses.",
+ "whenToUse": "Use when an agent is debugging a production issue and needs to search logs or review error analyses in Auralogs.",
+ "tasks": [
+  "search production logs",
+  "inspect errors",
+  "review ai log analyses"
+ ],
+ "effects": {},
+ "flags": []
+}

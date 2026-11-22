@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ab78612103eab001a4d1ac2c55f8b17eae077c9efafbbaad842232dff8dee37e",
+ "domain": [
+  "software/ci-cd",
+  "software/databases/testing"
+ ],
+ "product": [
+  "azure-sql-database",
+  "github-actions",
+  "azure-pipelines",
+  "gitlab-ci",
+  "azure-container-registry"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Configures CI pipelines to run integration tests against the Azure SQL Database container as a service.",
+ "whenToUse": "Use when setting up CI workflows that need a real Azure SQL engine for integration tests.",
+ "tasks": [
+  "add database service container to ci",
+  "pull image from private acr",
+  "configure health check with sqlcmd",
+  "provision test database",
+  "set test connection string",
+  "configure ci secrets"
+ ],
+ "effects": {},
+ "flags": []
+}

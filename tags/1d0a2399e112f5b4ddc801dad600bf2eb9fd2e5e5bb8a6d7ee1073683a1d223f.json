@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1d0a2399e112f5b4ddc801dad600bf2eb9fd2e5e5bb8a6d7ee1073683a1d223f",
+ "domain": [
+  "legal/smart-contracts",
+  "crypto/blockchain"
+ ],
+ "product": [
+  "shodai"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Authors, validates, deploys and operates on-chain agreements on the Shodai platform.",
+ "whenToUse": "Use when creating or managing blockchain-based agreements with Shodai.",
+ "tasks": [
+  "author agreements",
+  "validate agreements",
+  "deploy on-chain agreements",
+  "operate agreements"
+ ],
+ "effects": {},
+ "flags": []
+}

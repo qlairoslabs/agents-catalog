@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d31425c734c5f1b4b34fcf31198a9937e2ac47008b6123f697acd8afdab8e0ec",
+ "domain": [
+  "it/remote-access",
+  "it/device-management"
+ ],
+ "product": [
+  "hoptodesk"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Manages remote computers in HopToDesk: list devices, run fixes, take screenshots and add devices.",
+ "whenToUse": "Use when an IT admin needs to inspect or fix managed computers remotely through HopToDesk.",
+ "tasks": [
+  "list devices",
+  "run fixes",
+  "take screenshots",
+  "add devices"
+ ],
+ "effects": {},
+ "flags": []
+}

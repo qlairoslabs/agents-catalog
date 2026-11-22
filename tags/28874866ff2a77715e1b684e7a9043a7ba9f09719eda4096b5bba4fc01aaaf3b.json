@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "28874866ff2a77715e1b684e7a9043a7ba9f09719eda4096b5bba4fc01aaaf3b",
+ "domain": [
+  "software/engineering-metrics",
+  "software/team-management"
+ ],
+ "product": [
+  "coderbuds"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Brings a team's shipping standards, org structure and delivery metrics into coding agents.",
+ "whenToUse": "Use when a coding agent needs the team's engineering standards, org map or delivery metrics.",
+ "tasks": [
+  "read shipping standards",
+  "view org map",
+  "view delivery metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "af8692eecd030be8f62e887780b1580213f05d4b2363efef4c53332ba3c420dd",
+ "domain": [
+  "business/verification",
+  "compliance/business-identity"
+ ],
+ "product": [
+  "ecz-id"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Read-only lookup of a business's ECZ-ID Business Passport state through the public resolver.",
+ "whenToUse": "Use when checking the ECZ-ID Business Passport status of a company.",
+ "tasks": [
+  "look up business passport state"
+ ],
+ "effects": {},
+ "flags": []
+}

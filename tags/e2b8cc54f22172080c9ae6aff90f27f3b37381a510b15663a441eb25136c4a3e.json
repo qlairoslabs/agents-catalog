@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e2b8cc54f22172080c9ae6aff90f27f3b37381a510b15663a441eb25136c4a3e",
+ "domain": [
+  "finance/banking/regulatory-data"
+ ],
+ "product": [
+  "fdic",
+  "ncua",
+  "federal-reserve",
+  "sec"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "US bank and credit union data from call reports, UBPR, FDIC, NCUA, Fed NIC and SEC filings.",
+ "whenToUse": "Use when researching financial condition or regulatory filings of US banks and credit unions.",
+ "tasks": [
+  "look up call reports",
+  "view ubpr data",
+  "search fdic data",
+  "search ncua data",
+  "read sec filings"
+ ],
+ "effects": {},
+ "flags": []
+}

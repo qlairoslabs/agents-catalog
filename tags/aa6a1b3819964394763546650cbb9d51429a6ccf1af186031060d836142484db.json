@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "aa6a1b3819964394763546650cbb9d51429a6ccf1af186031060d836142484db",
+ "domain": [
+  "software/no-code/databases"
+ ],
+ "product": [
+  "quintadb"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Manages QuintaDB no-code databases, forms, portals and sites, including records and automation.",
+ "whenToUse": "Use when a user wants to manage records, forms or automations in a QuintaDB workspace.",
+ "tasks": [
+  "manage database records",
+  "manage forms",
+  "manage portals",
+  "configure automation"
+ ],
+ "effects": {},
+ "flags": []
+}

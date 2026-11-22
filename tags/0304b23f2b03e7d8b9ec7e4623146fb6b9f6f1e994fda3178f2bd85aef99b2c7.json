@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0304b23f2b03e7d8b9ec7e4623146fb6b9f6f1e994fda3178f2bd85aef99b2c7",
+ "domain": [
+  "data/analytics"
+ ],
+ "product": [
+  "pylo"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Query and analyze pylo data, with any changes submitted as proposals for approval in the pylo admin.",
+ "whenToUse": "Use when a user wants to query their pylo data or propose changes for admin review.",
+ "tasks": [
+  "query pylo data",
+  "analyze data",
+  "propose changes for approval"
+ ],
+ "effects": {},
+ "flags": []
+}

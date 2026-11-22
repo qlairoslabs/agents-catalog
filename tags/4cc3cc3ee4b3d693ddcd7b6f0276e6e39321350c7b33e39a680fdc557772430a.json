@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4cc3cc3ee4b3d693ddcd7b6f0276e6e39321350c7b33e39a680fdc557772430a",
+ "domain": [
+  "cloud/azure/capacity-planning"
+ ],
+ "product": [
+  "azure"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks and manages Azure quotas and usage to validate capacity and choose regions before deployment.",
+ "whenToUse": "Use when a user needs to check limits, usage or request quota increases in an Azure subscription.",
+ "tasks": [
+  "check quotas",
+  "view current usage",
+  "check vcpu limits",
+  "validate capacity",
+  "check regional availability",
+  "request quota increase"
+ ],
+ "effects": {},
+ "flags": []
+}

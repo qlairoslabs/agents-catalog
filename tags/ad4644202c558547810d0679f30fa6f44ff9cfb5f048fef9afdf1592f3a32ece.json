@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ad4644202c558547810d0679f30fa6f44ff9cfb5f048fef9afdf1592f3a32ece",
+ "domain": [
+  "data/import",
+  "software/data-integration"
+ ],
+ "product": [
+  "oneschema"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Exposes OneSchema's public API features, such as data import and validation, to AI assistants.",
+ "whenToUse": "Use when working with OneSchema data import, mapping or validation workflows.",
+ "tasks": [
+  "use oneschema api features",
+  "manage data imports"
+ ],
+ "effects": {},
+ "flags": []
+}

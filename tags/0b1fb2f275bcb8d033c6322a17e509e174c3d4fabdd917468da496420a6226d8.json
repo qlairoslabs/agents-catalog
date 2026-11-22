@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0b1fb2f275bcb8d033c6322a17e509e174c3d4fabdd917468da496420a6226d8",
+ "domain": [
+  "media/content-provenance/watermarks"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Detects and strips AI watermarks and provenance metadata from images, video, audio and text.",
+ "whenToUse": "Use when checking or removing AI watermarks from media the user owns.",
+ "tasks": [
+  "detect ai watermarks",
+  "remove ai watermarks",
+  "strip provenance metadata"
+ ],
+ "effects": {},
+ "flags": [
+  "removes-ai-provenance-markers-could-enable-misuse"
+ ]
+}

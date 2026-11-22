@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "525b644d559c1d356bf1fa7dad23b480631442db5c4b19ad32b0db3a903548b5",
+ "domain": [
+  "marketing/product-demos",
+  "marketing/analytics"
+ ],
+ "product": [
+  "stepshots"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Manages hosted Stepshots product demos including analytics, publishing, guided tours and claim links.",
+ "whenToUse": "Use when publishing or reviewing performance of interactive product demos in Stepshots.",
+ "tasks": [
+  "view demo analytics",
+  "publish demos",
+  "manage guided tours",
+  "create claim links"
+ ],
+ "effects": {},
+ "flags": []
+}

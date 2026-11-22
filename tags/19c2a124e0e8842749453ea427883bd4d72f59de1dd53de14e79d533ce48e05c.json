@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "19c2a124e0e8842749453ea427883bd4d72f59de1dd53de14e79d533ce48e05c",
+ "domain": [
+  "software/observability",
+  "software/devops"
+ ],
+ "product": [
+  "new-relic"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Connects agents to New Relic to query metrics, logs, traces and entities from monitored systems.",
+ "whenToUse": "Use when an agent needs to investigate application performance, errors or incidents using New Relic data.",
+ "tasks": [
+  "query metrics",
+  "search logs",
+  "inspect traces",
+  "look up entities"
+ ],
+ "effects": {},
+ "flags": []
+}

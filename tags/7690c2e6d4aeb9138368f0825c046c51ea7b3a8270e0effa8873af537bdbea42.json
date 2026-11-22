@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7690c2e6d4aeb9138368f0825c046c51ea7b3a8270e0effa8873af537bdbea42",
+ "domain": [
+  "sales/outreach",
+  "sales/prospecting"
+ ],
+ "product": [
+  "apollo-io"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Finds leads by criteria, enriches and deduplicates them, creates contacts and bulk-enrolls them in an Apollo sequence.",
+ "whenToUse": "Use when someone wants to fill an Apollo outreach sequence with new matching leads.",
+ "tasks": [
+  "find leads by criteria",
+  "enrich leads",
+  "deduplicate contacts",
+  "create contacts",
+  "bulk-enroll in sequence"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "cb6fb0ae10afb126bed9b94351dc2676273c9d575f44ec590d89e07880bdf572",
+ "domain": [
+  "software/service-status",
+  "software/ai-providers"
+ ],
+ "product": [
+  "claude",
+  "openai",
+  "github-copilot",
+  "cursor",
+  "openrouter"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reports live status and health of AI coding providers such as Claude, OpenAI, Copilot and Cursor.",
+ "whenToUse": "Use before starting work that depends on an AI provider, or to pick a healthy provider.",
+ "tasks": [
+  "get provider status",
+  "check provider health"
+ ],
+ "effects": {
+  "5cd6986d429e1a81880f04773337d72230423b2cedb2ac0b0c0d24165d449f33": "read",
+  "4ebea1c0a1ea721b45c8d2e1cd06a55798802c8d09055f3b0aa72aff538bc569": "read"
+ },
+ "flags": []
+}

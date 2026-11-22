@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "bcc3fe56174f516006b592b54c2b6994a3cfe3756f4b877bba99e416994a15f6",
+ "domain": [
+  "health/therapy-booking",
+  "scheduling"
+ ],
+ "product": [
+  "ellomind"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid"
+ ],
+ "summary": "Checks availability and books, reschedules or cancels therapy sessions with ElloMind psychologists, including a payment link.",
+ "whenToUse": "Use when a user wants to book or manage a therapy session with a Malayalam-speaking psychologist.",
+ "tasks": [
+  "list services and plans",
+  "check availability",
+  "hold a slot with pay link",
+  "check booking status",
+  "cancel unpaid draft",
+  "reschedule confirmed session"
+ ],
+ "effects": {
+  "9595ea521cda0a9225b2e7ad8d9509b1feef2f4d717efb802c192dcb9c651bf3": "read",
+  "5d283b4be7ad79aa26ae63334a77ba173c2f7a31de35cef69756ef17309dbdd7": "write",
+  "1d416918a5ebb71a8903c4c873c842fd7216fe563871d640ac7eb6b5c561eaa1": "write",
+  "5dfd1858fb2c26a2f91ea30f9db61ae29bba1e64a88303513e59a22f847422e4": "read",
+  "f4073c3faf0ba8604f26eef6ce033da65ae4ef1db13e77ecaa0b73aa2859de71": "write",
+  "1f0c8d2a23d8239bcc192094f895f89e0d63daf92f4df35e5b4a666a48937a5b": "write"
+ },
+ "flags": []
+}

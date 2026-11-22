@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fad96251de490d11d4f7f192314b0541839d85ff16727ba681d7fe1090fee757",
+ "domain": [
+  "media/video/transcripts",
+  "research"
+ ],
+ "product": [
+  "youtube"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Fetches YouTube video transcripts and supports video search, channel browsing and playlist access.",
+ "whenToUse": "Use when an agent needs the text of a YouTube video or wants to find videos, channels or playlists.",
+ "tasks": [
+  "get video transcripts",
+  "search youtube videos",
+  "browse channels",
+  "list playlists"
+ ],
+ "effects": {},
+ "flags": []
+}

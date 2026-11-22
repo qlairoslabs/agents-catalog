@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "af1beeda48d0f9386749c0bf548c3da918df0978ebcf72139c73f5790356f1ed",
+ "domain": [
+  "software/documentation",
+  "software/api-docs"
+ ],
+ "product": [
+  "developerhub"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Lets an AI client find, write, publish and review documentation pages and API references in DeveloperHub.",
+ "whenToUse": "Use when you need to edit or publish product or API documentation hosted on DeveloperHub.",
+ "tasks": [
+  "find doc pages",
+  "write doc pages",
+  "publish pages",
+  "edit api references",
+  "check documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

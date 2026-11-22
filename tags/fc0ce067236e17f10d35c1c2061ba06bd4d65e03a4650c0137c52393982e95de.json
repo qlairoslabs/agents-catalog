@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fc0ce067236e17f10d35c1c2061ba06bd4d65e03a4650c0137c52393982e95de",
+ "domain": [
+  "design/3d-models",
+  "media/assets"
+ ],
+ "product": [
+  "sketchlib"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches a 3D model library and provides download links for models converted to GLB, FBX or USDZ formats.",
+ "whenToUse": "Use when an agent needs to find and download ready-made 3D models in a specific file format.",
+ "tasks": [
+  "search 3d models",
+  "download glb assets",
+  "download fbx assets",
+  "download usdz assets",
+  "get signed download urls"
+ ],
+ "effects": {},
+ "flags": []
+}

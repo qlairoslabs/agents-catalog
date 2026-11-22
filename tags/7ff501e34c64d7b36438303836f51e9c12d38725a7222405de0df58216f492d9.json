@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "7ff501e34c64d7b36438303836f51e9c12d38725a7222405de0df58216f492d9",
+ "domain": [
+  "software/cloud-infrastructure",
+  "software/hosting"
+ ],
+ "product": [
+  "tatnet",
+  "s3"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages TatNet cloud resources: website deploys, apps, volumes, VMs, S3 storage, NAT gateways and load balancers.",
+ "whenToUse": "Use when an agent needs to deploy a site or manage apps and infrastructure on TatNet.",
+ "tasks": [
+  "deploy websites",
+  "manage apps",
+  "manage persistent volumes",
+  "manage vms",
+  "manage s3 storage",
+  "manage nat gateways",
+  "manage load balancers"
+ ],
+ "effects": {},
+ "flags": []
+}

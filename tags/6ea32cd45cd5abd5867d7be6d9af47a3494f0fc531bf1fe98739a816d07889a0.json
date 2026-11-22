@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "6ea32cd45cd5abd5867d7be6d9af47a3494f0fc531bf1fe98739a816d07889a0",
+ "domain": [
+  "finance/portfolio-compliance",
+  "finance/investing"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Checks investment portfolios against mandates and computes allocation constraints.",
+ "whenToUse": "Use when verifying a portfolio complies with an investment mandate or calculating allocation limits.",
+ "tasks": [
+  "check mandate compliance",
+  "calculate allocation constraints"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "b7a6bb8b764be91ddb56c935bb22d99d7892953ca5fcf960c3bbce7439b3cb83",
+ "domain": [
+  "crypto/solana",
+  "crypto/token-security"
+ ],
+ "product": [
+  "solana",
+  "robinhood-chain",
+  "meteora",
+  "orca",
+  "raydium"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only Solana and Robinhood Chain tools to find recoverable rent and fees, audit token risk, check unlocks and approvals, list protocol upgrades and quote fees.",
+ "whenToUse": "Use when checking what a wallet can reclaim, whether a token looks safe, when tokens unlock, or what an on-chain operation would cost.",
+ "tasks": [
+  "check wallet recoverable funds",
+  "read reclaimable rent",
+  "check wrapped SOL",
+  "list token delegates",
+  "find failed deploy buffers",
+  "check LP fees",
+  "audit token risk",
+  "check token unlocks",
+  "search token directory",
+  "list Solana upgrades",
+  "check EVM approvals",
+  "estimate operation fees"
+ ],
+ "effects": {
+  "5da6d90442426ff2171cc73d4d49f98e3c3db237d31514773b1beddc75dcc19b": "write",
+  "dedc192678791bc6365a255c5d8568b1029a2256b0e96005382674e2f8402938": "read",
+  "eb005052ad6c748601e14ae52bd119f0d58101c3debcccd5d25c3687bdad369b": "read",
+  "2153841712065ea07b452af96f7f0e767f0887a48604129694c018136f9c273f": "read",
+  "d24f6f89c4be4d8db832fd0851f79300b77610a469c3c56d198a8d0cab1c0617": "read",
+  "ac9e4fd98de5c033b154072dfd2cf337495570bc95e864fcfb95a538307771c8": "read",
+  "7e89fecb1d0335a7928e9b26d998db929c3015d96f66783b367b1b056fccf56e": "read",
+  "a62f81aeee415eee63d4d4e7f7f1b158e25c252d798c83c871334e8d8de1dc00": "read",
+  "35790abcb271884337d81457dc106f64ea68f84a97c65bca2b16f2c9a2339764": "read",
+  "9c35b64be5065ca59081d1c1915783e7404cc75eb9e2dd31e4a61aaabf0a5b37": "read",
+  "ab3e68c23595ca136bb4848a1ccc467249ef95c7fa8fd52812205fe45ac833b0": "read",
+  "36910afbe3cbb6c3a3e6e8f7f2d1a9c6c20636899d0a00188fb480452387b948": "read",
+  "55dc6d6a152bbda63a6652769f9d099412ff255a97b376b5a4f560165346dc6c": "read",
+  "6968885d48e34ee55da03a32415ae68606fe5aea28cd18bb9fcd016d4bba9585": "read",
+  "5cd1fed3cd6cb76e7f6abca2ed15386590a5a572e4227b6c02ea5c5bdcda427d": "read",
+  "38ec27b6df629e7a48da25b61fe7e71f4c1055f1c52cfb612b7dda0538b99183": "read",
+  "3e9f12ffa379d0a3b23ba024253cd86a015f1f9d5e27f6298bfa809b1e842a11": "read",
+  "336d1134d0ba2ada3c54d20d71fc5b1552b6b58344b0c095672dfec9f7b8c04b": "read"
+ },
+ "flags": []
+}

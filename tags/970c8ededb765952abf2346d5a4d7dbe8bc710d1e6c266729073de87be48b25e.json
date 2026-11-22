@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "970c8ededb765952abf2346d5a4d7dbe8bc710d1e6c266729073de87be48b25e",
+ "domain": [
+  "software/api-testing",
+  "software/monitoring"
+ ],
+ "product": [
+  "httpstatus"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tools for mocking, testing and monitoring APIs, with security checks and automation.",
+ "whenToUse": "Use when an agent needs to mock an API, test HTTP endpoints or monitor their status.",
+ "tasks": [
+  "mock apis",
+  "test http endpoints",
+  "monitor endpoints",
+  "run security checks",
+  "automate api tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

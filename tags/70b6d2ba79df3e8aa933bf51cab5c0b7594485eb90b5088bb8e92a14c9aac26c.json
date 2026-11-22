@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "70b6d2ba79df3e8aa933bf51cab5c0b7594485eb90b5088bb8e92a14c9aac26c",
+ "domain": [
+  "ai/agent-infrastructure/trust",
+  "ai/agents"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Trust layer for AI agents covering discovery, authority delegation, execution, verification and receipts.",
+ "whenToUse": "Use when an agent needs to discover other agents or services and record verifiable authority and receipts for actions.",
+ "tasks": [
+  "discover agents",
+  "verify agent authority",
+  "record execution receipts",
+  "verify actions"
+ ],
+ "effects": {},
+ "flags": []
+}

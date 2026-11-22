@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d493d9534ea0d08b803d3c1da45a6f32bbd3feb6f1e22cd1870a8b3c00c0897b",
+ "domain": [
+  "marketing/seo"
+ ],
+ "product": [
+  "google-search-console"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to Google Search Console to query search performance, sitemaps and indexing status.",
+ "whenToUse": "Use when an agent needs search traffic data or indexing information for a website from Google Search Console.",
+ "tasks": [
+  "query search performance",
+  "manage sitemaps",
+  "inspect url indexing",
+  "list sites"
+ ],
+ "effects": {},
+ "flags": []
+}

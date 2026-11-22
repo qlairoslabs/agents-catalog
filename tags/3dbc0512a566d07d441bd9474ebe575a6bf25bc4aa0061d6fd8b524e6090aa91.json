@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3dbc0512a566d07d441bd9474ebe575a6bf25bc4aa0061d6fd8b524e6090aa91",
+ "domain": [
+  "ai/agent-memory",
+  "knowledge-management/knowledge-graph"
+ ],
+ "product": [
+  "agently"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Company knowledge store for agents with temporal knowledge graph search, exploration and durable memory.",
+ "whenToUse": "Use when an agent needs to search or store company knowledge that persists across sessions.",
+ "tasks": [
+  "search knowledge graph",
+  "explore entities",
+  "store memories",
+  "recall memories"
+ ],
+ "effects": {},
+ "flags": []
+}

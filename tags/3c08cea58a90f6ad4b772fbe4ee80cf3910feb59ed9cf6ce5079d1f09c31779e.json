@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "3c08cea58a90f6ad4b772fbe4ee80cf3910feb59ed9cf6ce5079d1f09c31779e",
+ "domain": [
+  "finance/fundraising",
+  "startups"
+ ],
+ "product": [
+  "f4"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "Ranks venture capital firms suited to a startup from a short description, with firm profiles and an emailed report link.",
+ "whenToUse": "Use when a founder asks which VC investors to pitch or wants details on a specific VC firm.",
+ "tasks": [
+  "rank VC firms for a startup",
+  "filter by stage, location and round size",
+  "get VC firm profile",
+  "email report link to founder"
+ ],
+ "effects": {
+  "ced6f095c47763965be9ef849fe87dc84cbf56a9dd92fc85d7849bfa9ed1e1a8": "write",
+  "48542673f9fe262a53f031c8f924384b21bdb54b675a430f41bfde69706e5566": "read",
+  "ee53bc705505b0723130f5bbef97291d3981679378e43220439eb32266c63b33": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "681dacc0f7176e444521ec42a76256ce8e55cc589d341ac659663875d390612b",
+ "domain": [
+  "software/api-discovery",
+  "real-estate/data"
+ ],
+ "product": [
+  "htag"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets agents discover HTAG MCP tools, API endpoints, OpenAPI operations and available agents.",
+ "whenToUse": "Use when an agent needs to find which HTAG tools or API endpoints exist before calling them.",
+ "tasks": [
+  "list mcp tools",
+  "find api endpoints",
+  "browse openapi operations",
+  "discover agents"
+ ],
+ "effects": {},
+ "flags": []
+}

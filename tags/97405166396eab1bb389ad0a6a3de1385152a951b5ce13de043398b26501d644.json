@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "97405166396eab1bb389ad0a6a3de1385152a951b5ce13de043398b26501d644",
+ "domain": [
+  "marketing/social-media",
+  "content/scheduling"
+ ],
+ "product": [
+  "postproxy"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Publishes, schedules and manages social media posts across several platforms through the Postproxy API.",
+ "whenToUse": "Use when the user wants to post or schedule content on multiple social networks.",
+ "tasks": [
+  "publish social posts",
+  "schedule posts",
+  "manage posts across platforms"
+ ],
+ "effects": {},
+ "flags": []
+}

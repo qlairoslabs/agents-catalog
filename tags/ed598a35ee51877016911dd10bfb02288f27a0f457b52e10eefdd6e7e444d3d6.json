@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ed598a35ee51877016911dd10bfb02288f27a0f457b52e10eefdd6e7e444d3d6",
+ "domain": [
+  "health/fitness-tracking",
+  "sports/running"
+ ],
+ "product": [
+  "garmin",
+  "coros",
+  "strava"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an AI query personal fitness activities and training data from Garmin, COROS, Strava and GPX files.",
+ "whenToUse": "Use when the user asks about their workouts, runs, rides or training trends recorded on fitness devices or apps.",
+ "tasks": [
+  "read fitness activities",
+  "analyze training data",
+  "import gpx tracks",
+  "summarize workouts"
+ ],
+ "effects": {},
+ "flags": []
+}

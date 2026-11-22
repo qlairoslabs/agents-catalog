@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "76f1d893a4e8fffa83e98496b06c68842a2ceeabb60f0b4fdadd54e5f5f4ab40",
+ "domain": [
+  "ai-agents/messaging",
+  "software/integration"
+ ],
+ "product": [
+  "agentrux"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Provides authenticated event topics for messaging between agents, with per-agent credentials and audit logs.",
+ "whenToUse": "Use when agents need to exchange messages securely through shared topics with audit trails.",
+ "tasks": [
+  "publish events to topics",
+  "subscribe to topics",
+  "manage agent credentials",
+  "review audit logs"
+ ],
+ "effects": {},
+ "flags": []
+}

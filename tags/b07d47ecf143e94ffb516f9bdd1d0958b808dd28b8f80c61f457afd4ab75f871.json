@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b07d47ecf143e94ffb516f9bdd1d0958b808dd28b8f80c61f457afd4ab75f871",
+ "domain": [
+  "data/databases/distributed-sql",
+  "operations/database-administration"
+ ],
+ "product": [
+  "cockroachdb",
+  "cockroachdb-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects Claude Code to CockroachDB clusters to explore schemas, write and debug SQL and manage clusters, with agents, skills and safety hooks.",
+ "whenToUse": "Use when developing against or administering CockroachDB self-hosted or cloud clusters.",
+ "tasks": [
+  "explore schemas",
+  "write optimized sql",
+  "debug queries",
+  "manage clusters",
+  "dba agent tasks",
+  "developer agent tasks",
+  "operator agent tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "e6b8892bb3355a01637da93b42caab26caaea91af4bfe11d3d0c953c24b3e569",
+ "domain": [
+  "finance/advisor-vetting",
+  "finance/wealth-management"
+ ],
+ "product": [
+  "sec-iapd",
+  "finra-brokercheck",
+  "advisorfinder"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches and vets SEC-registered investment advisors and firms, showing registrations, disclosure status, fees and credentials.",
+ "whenToUse": "Use when checking a financial advisor or advisory firm's registration, disclosures or fees.",
+ "tasks": [
+  "search advisors",
+  "get advisor profile",
+  "verify advisor registration",
+  "find marketplace advisors",
+  "search firms",
+  "get firm profile",
+  "get database stats"
+ ],
+ "effects": {
+  "f356c4fd6dadb2d12956b47e5b2bcadeac23c76ab5f1ab7163856af9104d0107": "write",
+  "241049015b1dacf985a27a2d8cac27b7cb88ec10c629958734be01f6b41d0b58": "write",
+  "6551cdf082e1ce7cea32f881c8cd3f4a1335a7b2f699490f4be69a1a587e0920": "write",
+  "31161f36d7cb5e4f336918b433c36bfd5c8321e95febfb6ec693f2700599387b": "write",
+  "f624ef65d5837136786ca35416edc7ec268f5215d1390873552f7b6a428b7518": "write",
+  "5fc4602b31783ceecef6b299d27dc4c6872e489a4886ebea5c5d7172fe8139a6": "write",
+  "76e2c08be0e001e1b293de4eab3175cf437c66984a41ff0ef3b7cfc90a82450b": "read"
+ },
+ "flags": []
+}

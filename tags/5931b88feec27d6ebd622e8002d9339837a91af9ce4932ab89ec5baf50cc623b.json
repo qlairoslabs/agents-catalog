@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5931b88feec27d6ebd622e8002d9339837a91af9ce4932ab89ec5baf50cc623b",
+ "domain": [
+  "commerce/online-store"
+ ],
+ "product": [
+  "escaparate"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Manages an Escaparate online store's catalogue, sales, announcements and images through conversation.",
+ "whenToUse": "Use when an Escaparate store owner wants to update products, review sales or post updates.",
+ "tasks": [
+  "manage product catalogue",
+  "review sales",
+  "publish announcements",
+  "manage images"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "703da74b2e0e2b346302321baa5f83c8b0f9526fec3ae3f9e48fc6289eb1900d",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "easygroupflights"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Group flight quotes for parties of 10 or more, plus live public fare search for up to 9 travellers.",
+ "whenToUse": "Use when someone plans group travel by air or needs a group fare quote.",
+ "tasks": [
+  "describe service",
+  "prepare group quote",
+  "send quote request to specialist",
+  "search live flights",
+  "get offer details"
+ ],
+ "effects": {
+  "a070b28b11a314fc19a77699487500b3fac26c25ad9d08dad718671b299e63ee": "read",
+  "163b7fd326b649de9094287c5414fd87b7a6a22bfbbf728ee8e0b155ff854bad": "read",
+  "8041452a79c58780bccc183e920b76633d123045d13a502346e98362f4a45650": "write",
+  "ccd08f4cccc31135efefa072655f4ab286d0522c439269a8a4f46d56f1cae23f": "read",
+  "cd73542d3a9d591dcf87b2dd07b451dd568e5054845176d55d69aab563cc317b": "read"
+ },
+ "flags": []
+}

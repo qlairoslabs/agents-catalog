@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "532f3fe04dceaa8839e9201a001147a8a331ff0a616431cec55dfb65d81f1052",
+ "domain": [
+  "hosting/documentation",
+  "support"
+ ],
+ "product": [
+  "umbhost",
+  "umbraco",
+  "greenstack"
+ ],
+ "audience": [
+  "support",
+  "development"
+ ],
+ "goal": [
+  "support-customers",
+  "be-online"
+ ],
+ "summary": "Searches and reads UmbHost help articles on Umbraco hosting, DNS, email and SSL.",
+ "whenToUse": "Use when answering questions about UmbHost hosting or Umbraco setup.",
+ "tasks": [
+  "search docs",
+  "read doc page",
+  "list all docs"
+ ],
+ "effects": {
+  "636f2551544bd6c23218f96fff1f287e671f44e4bdf29f243e2de99684839ce7": "read",
+  "34fe9aa231a862a0f9bb1137cdb68d10c9855dcf31f41179c4f5502642fe52d1": "read",
+  "027b48b560708996510badf38f858d1552dc9542db1e0d8b96e9ce0b0b203672": "read"
+ },
+ "flags": []
+}

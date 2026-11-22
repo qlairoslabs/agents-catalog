@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "a4e571988e09d3d23b27f4b0943e673d9befc87e937a3b2216d6194812b46bf4",
+ "domain": [
+  "finance/crypto-compliance",
+  "finance/blockchain-analytics"
+ ],
+ "product": [
+  "usdc",
+  "usdt",
+  "ofac",
+  "ethereum",
+  "tron",
+  "solana",
+  "base"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Stablecoin address risk data across seven chains: issuer freezes, OFAC listing, taint exposure, token approvals, transfer history and settlement graph.",
+ "whenToUse": "Use before sending or accepting stablecoins to check an address's risk, freezes, approvals or counterparties.",
+ "tasks": [
+  "get address risk tier",
+  "check freezes and OFAC",
+  "measure taint exposure",
+  "list token approvals",
+  "list recent transfers",
+  "list transfer history",
+  "walk settlement graph",
+  "check sync status"
+ ],
+ "effects": {
+  "8c925beb3ce86bdd64e2997b2ca70812e1eec0469717250308ee3284501878f7": "write",
+  "9c23405fcb5633bb9164e9ec491aed00675358e2ad72b0a5cc1b1536e0514217": "write",
+  "e5843f22f831776f73e8453f0d5325dd318fa4ed7133f4210e48aae72b66a8ac": "write",
+  "9d2092cf59931b7116b78d28a881ece0d29965c3b96d568e17a25b4d2561ad01": "write",
+  "1c0c81935fa39345b09e0b77b8bf3e2edfd42455a11c38d4a64286757039af85": "write",
+  "6d534e39ae206991fc4291d3786d138e0171247da0af7833133e6f55b5d18c1a": "write",
+  "e82182657d926ab1b3dfe941acea546fdf9da5dbcc5000999e0be34693005841": "write",
+  "df3581eb0de051d92b2d6f4e261e7e1917b0a01e3f9d1cc007bb5ea7ae49b0a9": "write",
+  "1a0d1445eb2328be5aadd67c3aa206f4a0f9d6724b239b129536bdb22db90e11": "write"
+ },
+ "flags": []
+}

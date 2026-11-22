@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "da08b4f0f82b4f0685dfb29bd77d957f95a607dfb1c247c5558e7417062abc27",
+ "domain": [
+  "data/warehouse",
+  "software/databases"
+ ],
+ "product": [
+  "amazon-redshift",
+  "amazon-s3",
+  "aws-glue"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference on Redshift-specific SQL, DDL, COPY/UNLOAD, system views and operations, correcting common PostgreSQL-based mistakes.",
+ "whenToUse": "Use when writing SQL or operating an Amazon Redshift cluster or Serverless workgroup.",
+ "tasks": [
+  "write redshift sql and ddl",
+  "use copy and unload",
+  "query system views",
+  "discover metadata",
+  "diagnose slow queries",
+  "fix permission errors",
+  "manage wlm and concurrency scaling",
+  "set up spectrum external tables"
+ ],
+ "effects": {},
+ "flags": []
+}

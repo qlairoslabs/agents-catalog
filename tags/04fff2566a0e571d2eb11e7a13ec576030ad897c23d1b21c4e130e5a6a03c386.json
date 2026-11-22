@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "04fff2566a0e571d2eb11e7a13ec576030ad897c23d1b21c4e130e5a6a03c386",
+ "domain": [
+  "customer-support/ai-chatbots",
+  "customer-support/help-desk"
+ ],
+ "product": [
+  "chatbase"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Manages Chatbase AI agents, their knowledge sources, conversations and help-desk tickets.",
+ "whenToUse": "Use when an agent needs to configure Chatbase support bots or review their conversations and tickets.",
+ "tasks": [
+  "manage chatbase agents",
+  "manage knowledge sources",
+  "review conversations",
+  "manage help-desk tickets"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f584947481d2146d1a3a2a6e0620c515c8b79075064e2b2cda759c1aadb74be0",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "software/package-management"
+ ],
+ "product": [
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Checks npm packages before install to block nonexistent packages, typosquats and risky install scripts.",
+ "whenToUse": "Use before an agent installs npm packages to verify they are real and safe.",
+ "tasks": [
+  "verify package exists",
+  "detect typosquats",
+  "flag risky install scripts"
+ ],
+ "effects": {},
+ "flags": []
+}

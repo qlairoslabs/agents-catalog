@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9dc428b8c5861c28511d10b6e17ae78e62aa5d7edb4885829847b46b9fbd470f",
+ "domain": [
+  "finance/payments",
+  "finance/virtual-cards"
+ ],
+ "product": [
+  "agentcard"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Issues prepaid virtual cards for AI agents with one-time use, spending caps and human approval steps.",
+ "whenToUse": "Use when an agent must make a purchase with a controlled, capped payment card under human approval.",
+ "tasks": [
+  "create one-time cards",
+  "set spend caps",
+  "request human approval",
+  "make agent purchases"
+ ],
+ "effects": {},
+ "flags": []
+}

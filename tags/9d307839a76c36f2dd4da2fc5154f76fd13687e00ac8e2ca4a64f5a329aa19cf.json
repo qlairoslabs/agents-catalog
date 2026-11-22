@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "9d307839a76c36f2dd4da2fc5154f76fd13687e00ac8e2ca4a64f5a329aa19cf",
+ "domain": [
+  "travel/holidays",
+  "travel/canary-islands"
+ ],
+ "product": [
+  "msc-cruises"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Catalogue of Canary Islands holiday packages from Italy with flights, hotels, excursions, climate, guides, FAQs and MSC cruises.",
+ "whenToUse": "Use when a customer wants to find or compare Canary Islands packages, hotels, excursions or travel information, in Italian.",
+ "tasks": [
+  "search package offers",
+  "get offer details",
+  "browse hotels",
+  "list excursions",
+  "get area info",
+  "check island climate",
+  "read practical info",
+  "read FAQs",
+  "read travel guides",
+  "view cruises"
+ ],
+ "effects": {
+  "184c2b39b37c850c5196b485680fe84a5835271db00bd4ae6e18078635a8a764": "write",
+  "7a1db381c1832d8fdbe89b768ff9e5f027b64c3f245c3e9839875eb8c24bb79d": "read",
+  "5a3b65fb4f55f42be17168abb80bc70120cf2b1652517fe7b62df276fafe08cb": "read",
+  "3e220131758452fd04f2b2f047985027dc88bba7f36afe4cdbc404de05598598": "read",
+  "61cc591ca346d1dfd77229dd361f7d10ef957587454aa26fbb4032221322a64e": "read",
+  "445468be2ee69db12797ad1479410707a7cee35892e95f559ddf434586455253": "read",
+  "d5daffc679ad155b63613d416ce553c699aba06c3454e9cbc075542938f143cc": "read",
+  "a3a565e5ca947e54d8619098e62e24cb0d5d3371d7f4a1ac68d7c5824d3730fb": "read",
+  "0e7c4bb3b84ff7f11c50cf15ecaf7bd0ac8cfabe68ff806591f1d8254a2fa7d0": "read",
+  "0e47560b465c1047da4b9dffeea956229aad4149d7ff37103efdbab4094ad21e": "read",
+  "5158d7cac28787a741233c65ae02daaed69b8f232f35a3493587d361b25c6952": "read",
+  "611dd0b3ce88aeafa1b280e1daf2ec6d97b3b0edaaeb8be5f05af5eea30af7a9": "read",
+  "a0ea2a6492647a53789c25c160c1fc98092fa22102b1c48eab161df2c58164f1": "read",
+  "53b44599818306c8b773ebacaebe0c2fb3d8522f40230f99545602dddbb5dddc": "write"
+ },
+ "flags": []
+}

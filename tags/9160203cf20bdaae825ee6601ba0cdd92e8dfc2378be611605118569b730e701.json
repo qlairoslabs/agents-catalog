@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9160203cf20bdaae825ee6601ba0cdd92e8dfc2378be611605118569b730e701",
+ "domain": [
+  "design/web-design",
+  "design/references"
+ ],
+ "product": [
+  "allgoodinsp"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Provides curated design references with concrete CSS values, typography specifications and color palettes.",
+ "whenToUse": "Use when an agent designing a UI needs real-world design references, typography or color palettes.",
+ "tasks": [
+  "browse design references",
+  "get css values",
+  "get typography specs",
+  "get color palettes"
+ ],
+ "effects": {},
+ "flags": []
+}

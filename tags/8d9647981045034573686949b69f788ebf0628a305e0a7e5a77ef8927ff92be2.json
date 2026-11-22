@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "8d9647981045034573686949b69f788ebf0628a305e0a7e5a77ef8927ff92be2",
+ "domain": [
+  "personal/profile",
+  "career/portfolio"
+ ],
+ "product": [],
+ "audience": [
+  "hiring",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Profile server for Jaroslav Kazejev with bio, skills, projects, education and contact details.",
+ "whenToUse": "Use when you want background on this person's skills, projects or contact details.",
+ "tasks": [
+  "get bio",
+  "get contact info",
+  "get profile summary",
+  "list projects",
+  "list skills",
+  "search profile by topic"
+ ],
+ "effects": {
+  "f7efea72019497ff6a5db39fd9f2820d0898e0343b875e7a33251d9e3659dad1": "read",
+  "45ddcf14b0d3d3b210627e8788a2f8874b059dea388e7370be3836d03d101b7b": "read",
+  "21f030d06e3d26f842820e48927fa89c3dab7ee07f04a467940688ec166d0ab4": "read",
+  "174bbbffc986e8e8433832fcf5383f8ce273e72405c21b01ad79832a49d8b88b": "read",
+  "0496f850e20047977d2a51c2f125a318669047fdcb5c7af0ad7882307a46a6c9": "read",
+  "a6fa5defa13e19217c8445a41d129d30d1703e093a59178703abdc06b62f0100": "read"
+ },
+ "flags": []
+}

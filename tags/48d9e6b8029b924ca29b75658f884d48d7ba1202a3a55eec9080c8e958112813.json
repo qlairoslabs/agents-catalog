@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "48d9e6b8029b924ca29b75658f884d48d7ba1202a3a55eec9080c8e958112813",
+ "domain": [
+  "software/app-builders",
+  "software/sdk"
+ ],
+ "product": [
+  "base44"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference for the Base44 SDK used to call entities, backend functions, realtime actors and AI agents and to write backend functions and actors.",
+ "whenToUse": "Use when writing code that uses the Base44 SDK in a Base44 project.",
+ "tasks": [
+  "query and update entities",
+  "call backend functions",
+  "write backend functions",
+  "write realtime actors",
+  "call ai agents",
+  "look up sdk modules and types"
+ ],
+ "effects": {},
+ "flags": [
+  "description tells the agent it must learn this skill whenever planning or implementing any feature, an overly broad trigger instruction"
+ ]
+}

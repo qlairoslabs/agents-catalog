@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "13c6d9b57fc8a1931d643246933b7760373ccb0b6681135657ba6469921232a6",
+ "domain": [
+  "construction/waste-removal",
+  "local-services"
+ ],
+ "product": [
+  "rent-a-skip"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Gives indicative UK skip hire prices by town, council road permit rules, skip size recommendations and coverage checks.",
+ "whenToUse": "Use when someone in the UK needs to size, price or plan a skip hire and check permit needs.",
+ "tasks": [
+  "get skip prices",
+  "get council permit info",
+  "recommend skip size",
+  "check town coverage"
+ ],
+ "effects": {
+  "21492157dab58ea0016fa1e902b5e2ead08746ca539f53399d1298290fb0d0aa": "read",
+  "31103155606b6d1fa1d4bba588d8dee00aefb0f2871ee0d45a6b8aff42f2d7e8": "read",
+  "789abf6d4ccc3927ef9a043ca1306bff2c369bbf0dc7a65eb07a58f1610ef209": "read",
+  "58f17cbd336d8ff55d54dd186f50c351ef4eb97e01a1e8a2a2841327dd00bee2": "read"
+ },
+ "flags": []
+}

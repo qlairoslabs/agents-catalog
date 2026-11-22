@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5cafbe3ce55b372dc8fb008a6eaad55ab5d6607142788b1a9388e5822577cd5c",
+ "domain": [
+  "travel/flights",
+  "travel/charter"
+ ],
+ "product": [
+  "cuba-te-espera"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Looks up published charter routes and advertised flight fares, baggage policies and availability categories for flights to Cuba.",
+ "whenToUse": "Use when a traveler wants to see published charter routes or advertised fares to Cuba on given dates.",
+ "tasks": [
+  "look up charter route",
+  "search published flights by date",
+  "view advertised prices",
+  "check baggage policy"
+ ],
+ "effects": {
+  "a4d10721e37a5dc919f9cb92e8c792c3a1a5ba1af96efc2836af4d56742c4fad": "read",
+  "2a4741ca997d968a8ac5e9027cdae73fd4e3603146c201b787f9057d00b21439": "read"
+ },
+ "flags": []
+}

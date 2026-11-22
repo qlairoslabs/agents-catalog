@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e9fc1205860125db9396c19e6744a35febe4075bb183d478a68a0f0b554b29ea",
+ "domain": [
+  "operations/incident-management",
+  "operations/on-call"
+ ],
+ "product": [
+  "incident-io"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Manages incidents, alerts and on-call schedules in incident.io.",
+ "whenToUse": "Use when handling production incidents, reviewing alerts or checking who is on call.",
+ "tasks": [
+  "manage incidents",
+  "analyze alerts",
+  "check on-call schedules",
+  "run operational analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "becfd1f07f43d5d0af6b7f151767dd6076eb7451e9d7eee43fc84f480cce1025",
+ "domain": [
+  "content/presentations"
+ ],
+ "product": [
+  "alai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates and edits AI-made presentations and exports them as PDF, PPTX or a share link.",
+ "whenToUse": "Use when a user needs a slide deck created, revised or exported.",
+ "tasks": [
+  "generate presentations",
+  "edit slides",
+  "export to pdf",
+  "export to pptx",
+  "create share links"
+ ],
+ "effects": {},
+ "flags": []
+}

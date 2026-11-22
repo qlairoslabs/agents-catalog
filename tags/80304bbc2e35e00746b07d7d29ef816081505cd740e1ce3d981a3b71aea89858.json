@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "80304bbc2e35e00746b07d7d29ef816081505cd740e1ce3d981a3b71aea89858",
+ "domain": [
+  "software/frontend",
+  "software/documentation"
+ ],
+ "product": [
+  "bestax-bulma",
+  "bulma",
+  "react"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference for bestax-bulma React components: props, examples, CSS variables and agent skills for Bulma v1.",
+ "whenToUse": "Use when an agent builds React UI with bestax-bulma components.",
+ "tasks": [
+  "look up component props",
+  "get code examples",
+  "list css variables"
+ ],
+ "effects": {},
+ "flags": []
+}

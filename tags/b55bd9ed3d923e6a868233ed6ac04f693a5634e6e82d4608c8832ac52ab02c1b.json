@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b55bd9ed3d923e6a868233ed6ac04f693a5634e6e82d4608c8832ac52ab02c1b",
+ "domain": [
+  "finance/payments",
+  "crypto/solana"
+ ],
+ "product": [
+  "hilt-pay",
+  "solana",
+  "usdc",
+  "x"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Non-custodial SOL and Solana USDC payments to verified X handles, approved in the user's wallet.",
+ "whenToUse": "Use when an agent needs to send or request SOL or USDC payments to a verified X account.",
+ "tasks": [
+  "send payment to x handle",
+  "request payment",
+  "verify x handle"
+ ],
+ "effects": {},
+ "flags": []
+}

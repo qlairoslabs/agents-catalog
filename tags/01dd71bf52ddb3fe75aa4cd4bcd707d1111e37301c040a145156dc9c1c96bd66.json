@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "01dd71bf52ddb3fe75aa4cd4bcd707d1111e37301c040a145156dc9c1c96bd66",
+ "domain": [
+  "finance/corporate-cards",
+  "finance/spend-management"
+ ],
+ "product": [
+  "airwallex"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Creates cardholders and issues virtual or physical Airwallex corporate cards with spend limits, and manages card spending.",
+ "whenToUse": "Use when a user wants to issue a corporate card or manage card spend limits in Airwallex Issuing.",
+ "tasks": [
+  "create cardholders",
+  "issue virtual cards",
+  "issue physical cards",
+  "set spend limits",
+  "manage card spending"
+ ],
+ "effects": {},
+ "flags": []
+}

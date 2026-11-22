@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "220412d7ec3171bd1d3e7c2328a943d4be508d817e2d3d995790a5118a967afb",
+ "domain": [
+  "content/fiction-writing",
+  "ai/text-generation"
+ ],
+ "product": [
+  "aistoryhub"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Remote server for AIStoryHub stories, chapters, story bibles, voiceprints and AI generation.",
+ "whenToUse": "Use when a writer wants to manage or generate stories and chapters in AIStoryHub.",
+ "tasks": [
+  "manage stories",
+  "manage chapters",
+  "edit story bible",
+  "use voiceprints",
+  "generate text with ai"
+ ],
+ "effects": {},
+ "flags": []
+}

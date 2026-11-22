@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "67b8dc3c67953a2610e14c9b784c75c4af091b5b89ae87144ee10821d023eb85",
+ "domain": [
+  "sales/conversation-intelligence",
+  "ai/voice-agents"
+ ],
+ "product": [
+  "canarics"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Accesses Canarics call analysis and voice agents for sales, including signup, usage, agent and call data.",
+ "whenToUse": "Use when a sales team wants to manage Canarics voice agents or review analysed call data.",
+ "tasks": [
+  "sign up for account",
+  "check usage",
+  "manage voice agents",
+  "get call data",
+  "review call analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

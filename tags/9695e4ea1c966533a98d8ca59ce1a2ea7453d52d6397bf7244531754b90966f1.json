@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "9695e4ea1c966533a98d8ca59ce1a2ea7453d52d6397bf7244531754b90966f1",
+ "domain": [
+  "finance/mortgage",
+  "finance/home-equity"
+ ],
+ "product": [
+  "freerateupdate",
+  "hmda",
+  "fhfa",
+  "census"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read published mortgage and HELOC rates, loan limits, lender HMDA and SEC figures, home values and state housing datasets from FreeRateUpdate.",
+ "whenToUse": "Use when a user compares mortgage or home equity rates, checks loan limits by ZIP, or researches a lender or housing market statistics.",
+ "tasks": [
+  "get mortgage rates",
+  "get HELOC rates",
+  "get loan limits by ZIP",
+  "get lender score",
+  "get lender HMDA figures",
+  "get lender SEC figures",
+  "get home values",
+  "get property tax data",
+  "get reference rate series",
+  "get answers and news",
+  "get request-form link"
+ ],
+ "effects": {
+  "b83135ec9332d92373b546750a8c2a0b6f5924cc78ff2bcb68996b4e7a5ddc5a": "write",
+  "3460ea90c6ef6aaa46e431b3ee9e14f4de767622d428378ad0a3fa32115b57af": "read",
+  "4ea78759362f9116f3b5d1de04be05b0771a39bb43ef3e7d4b692c2ced8f9f58": "read",
+  "8967e62255d6bdbde96befa29e141fb8f61db8e38902ae1124430694c02b1657": "read",
+  "162634662a6e1ba5a5f2a59c648b809794aa8729c16a4824fd9f747283937a32": "read",
+  "b11820f67ff96d589cf0bb378c8e0b945d12f2478ef539f2b98a150dd298a4b5": "read",
+  "ab911c6050e87e3ea84412a33f0e46e216ad3124f426db07f45fc0970c425173": "read",
+  "6437fcf01977e55b8b02f369fea97d2270e7d1b2a2d1550d0b5a839ca3e6f34b": "read",
+  "528a6ea6131274ab19bccbe9209bda56afe9ebe4931fb2d4093261509420d0fe": "read",
+  "aef554cef625c2c9f92d2c66dded0ca5df23a4fcc1249de6416a17d4a7d137da": "read",
+  "755c5f037f533724d953206fa6704c90cb5739a9d20bbc33ebb29c9d8e393863": "read",
+  "fd97638b05a233714a5cadf8c6d3683458657e6d21488e40bad7374c572d04f0": "read",
+  "63c4ed573a0d5152ed0faf1abe46b09e15f468ff492b98e03e307d63785714db": "write",
+  "b16abb0a2a14c32f1170be4c0523690cce39c2cfc028b3e190d8afa1bcc43c4f": "read",
+  "5830c8f8bcd9e68dd6304de0ae438440418a7c9e14735115bfb7e2dd063c2d51": "write",
+  "c8a75e87ff0b9a6e87c82c19905267294dfd4354f15d39ab6903b5bc426144a2": "write",
+  "feff67044d08d83517b0088905e10ca241e3b8c3f3524eae1f372d6804f02b9e": "read"
+ },
+ "flags": []
+}

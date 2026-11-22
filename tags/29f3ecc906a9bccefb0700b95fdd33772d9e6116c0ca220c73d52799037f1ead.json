@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "29f3ecc906a9bccefb0700b95fdd33772d9e6116c0ca220c73d52799037f1ead",
+ "domain": [
+  "design/3d-modeling",
+  "architecture/building-design"
+ ],
+ "product": [
+  "pascal"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Local npm MCP server for creating, inspecting, validating and saving editable 3D building scenes in the Pascal editor.",
+ "whenToUse": "Use when the user wants to build or edit 3D architectural scenes in Pascal through an agent.",
+ "tasks": [
+  "create 3d building scenes",
+  "inspect scenes",
+  "validate scenes",
+  "save scenes"
+ ],
+ "effects": {},
+ "flags": []
+}

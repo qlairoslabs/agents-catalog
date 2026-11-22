@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "3ac55eb5712fd1f764f6235ae5bb6dfb1ba5b7b8806380008417659e99e14ce5",
+ "domain": [
+  "games/outsourcing-directory",
+  "business/vendor-search"
+ ],
+ "product": [
+  "gamedevoutsourcing"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "hire-and-manage"
+ ],
+ "summary": "Searchable directory of game development outsourcing studios, with rankings, buyer guides and cost estimates.",
+ "whenToUse": "Use when someone needs to find, compare or budget an external game art, programming or porting studio.",
+ "tasks": [
+  "search studios by service, country, engine",
+  "get studio profile",
+  "directory statistics",
+  "list rankings",
+  "read buyer guides",
+  "estimate outsourcing cost"
+ ],
+ "effects": {
+  "ab38ff4020e6067d09ae1143a824bd71c26a54a04bfe719afc3dd99faef9f53a": "read",
+  "d908706a8805e51542584ea86045e8f0178e02af05942e160b85b1a587c56dbf": "read",
+  "32e1b61e882ef7aacba354343ede9f17d04513e07c6a34efdaea22a432f2dd5e": "read",
+  "c95b551295eebbe912d530da396d3d9b8afb09565fdee652695f1e778fd9822b": "read",
+  "b890e6e8c640c0620a06b38d0f425150b23a892ea4e82c2fa8ec8d28e30c04e2": "read",
+  "8ab3e476c60ed90c94aaad9f9f269d88f41c1fe3be889b8286b7f91abc888cd8": "read",
+  "cc346e3b56a7afb23c5271b30f35e5546808c298f3f593d2f2e642e78aea5da9": "read",
+  "39b72ff9b7fcd60b0dd4c50250a5dc8fd3fcb85feb71a4bcaf8c93b0abd26279": "read",
+  "d89c0a9da826e856728b0ad2f3505b24705c91c9cf1cb65acd3e600347bfecdd": "read",
+  "f06ff331a74246b6f2f552e538aa5bcadf7f94de432021348a84cefdac44d83a": "read"
+ },
+ "flags": []
+}

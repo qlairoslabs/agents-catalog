@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "979786c358e845bdaae114a141ec923140b3a98c5e946055e6b3eed9de524e56",
+ "domain": [
+  "media/image-optimization",
+  "software/web-performance"
+ ],
+ "product": [
+  "iminify"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Compresses, converts and resizes images and scans web pages to list every image they load.",
+ "whenToUse": "Use when a user needs to optimize images or audit the images loaded by a web page.",
+ "tasks": [
+  "compress images",
+  "convert image formats",
+  "resize images",
+  "scan web pages for images"
+ ],
+ "effects": {},
+ "flags": []
+}

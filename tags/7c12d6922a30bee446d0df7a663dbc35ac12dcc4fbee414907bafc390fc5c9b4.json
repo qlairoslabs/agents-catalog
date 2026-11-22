@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "7c12d6922a30bee446d0df7a663dbc35ac12dcc4fbee414907bafc390fc5c9b4",
+ "domain": [
+  "food/gluten-free",
+  "commerce/product-comparison"
+ ],
+ "product": [
+  "gluten-free-fr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "French gluten-free catalogue with product search, editorial comparisons, ingredient gluten checks, articles, store guides and free guides.",
+ "whenToUse": "Use when a French-speaking user asks which gluten-free products to buy or whether an ingredient contains gluten.",
+ "tasks": [
+  "search products",
+  "get product sheet",
+  "list comparisons",
+  "get comparison",
+  "search articles",
+  "check ingredient for gluten",
+  "list free guides",
+  "get store guide"
+ ],
+ "effects": {
+  "8230b78eca8702df2a6c13ea83c620d139c31c38fd5f3c6c83040a94910b25f1": "read",
+  "c5115c27cdf2aaf2649a6405b207bd407f0fd482bff736aeb9ea690d3359cee8": "read",
+  "43571c839a9dff8d28c9a43db4d9c185b19454aa0c6703fcfb1d6de20c402b7e": "read",
+  "abd1ccd49e5f1e9cdb8372303fb7b6f7e87bb07e9a00bf90792322a4b4b6c817": "read",
+  "6975e38601cba4adbd18832df6892d86d1d3f6408873350e1cf28f5cd80a864a": "read",
+  "d91498944a1ff4d6682431aafb5368cca42cda2d471774985065affb005545b1": "read",
+  "0bd7a40de9b4cb6e88008d912ae444015e705cce0c5a9eb56fbe6b0589524edf": "read",
+  "246c0f16f8626b3da09e747a9d5754685aca55273b76cb722ece9d7fea5b84cd": "read"
+ },
+ "flags": []
+}

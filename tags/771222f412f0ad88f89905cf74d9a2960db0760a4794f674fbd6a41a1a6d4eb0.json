@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "771222f412f0ad88f89905cf74d9a2960db0760a4794f674fbd6a41a1a6d4eb0",
+ "domain": [
+  "software/ai-consulting",
+  "data/consulting"
+ ],
+ "product": [
+  "shipshape-data"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Information on a London AI and data consultancy: services, case studies, a guide library and an AI readiness scoring questionnaire.",
+ "whenToUse": "Use when evaluating AI readiness or looking for data and AI guides or consultancy services.",
+ "tasks": [
+  "list services",
+  "get case studies",
+  "search guides",
+  "get readiness questions",
+  "score AI readiness",
+  "get contact info"
+ ],
+ "effects": {
+  "20c96993ae2b6c9a7afb669073a0885a1b1aa55e4d667c9958d782e05e52effb": "read",
+  "f2d2afcaccffc8d5a82011956677c4ffef395a49a0d5798297dc70d8afe0ba5b": "read",
+  "b9210f62710a9fc8f999d1ac1af31bac6814098cff7ebdb6ab3689d2153096d0": "read",
+  "c04231413a2f218dd0a622449341949648bc75df2ce4a68bf481740362afb4fd": "read",
+  "3a23dd58659abaf096a01a6c361de4159303996ee8b42bdcc5d138755bdd8798": "read",
+  "0d1dacd1b3e8bef8e44489af806d28172ed05424883bd3500969ebed3cb67afb": "read"
+ },
+ "flags": []
+}

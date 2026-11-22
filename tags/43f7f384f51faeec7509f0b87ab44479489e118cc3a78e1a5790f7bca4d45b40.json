@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "43f7f384f51faeec7509f0b87ab44479489e118cc3a78e1a5790f7bca4d45b40",
+ "domain": [
+  "entertainment/tarot",
+  "lifestyle"
+ ],
+ "product": [
+  "tarotap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Draws tarot cards from a shuffled 78-card Rider-Waite-Smith deck, with spreads and 23 languages.",
+ "whenToUse": "Use when a user wants a tarot reading, a card of the day or a spread.",
+ "tasks": [
+  "list spreads",
+  "draw cards for a spread",
+  "draw free-form cards",
+  "localize card names"
+ ],
+ "effects": {
+  "e74cc7ad2ec76b0060de26a2b302db659b3d811dc5999e82fd11c5ed72c68b46": "read",
+  "72c6b6d2b08555624c2cbf39f90cc2bf8b7c6ec8f9075428760b00081997c585": "write"
+ },
+ "flags": []
+}

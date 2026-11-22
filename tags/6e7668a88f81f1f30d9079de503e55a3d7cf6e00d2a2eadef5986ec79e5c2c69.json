@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6e7668a88f81f1f30d9079de503e55a3d7cf6e00d2a2eadef5986ec79e5c2c69",
+ "domain": [
+  "software/documentation",
+  "software/text-editor"
+ ],
+ "product": [
+  "emeditor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and reads EmEditor help pages.",
+ "whenToUse": "Use when a user has a question about EmEditor features or usage.",
+ "tasks": [
+  "search help pages",
+  "read help page"
+ ],
+ "effects": {
+  "96a08924ff8f98ba437256a4f650fc060d29dc1874e1b63e218aaee31d763ea7": "read",
+  "cdc2e8136b51979d06032fd157c77f349f194b31a9d8c36581b44d83d85035ec": "read"
+ },
+ "flags": []
+}

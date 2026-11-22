@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "1d9921080a47c4362c3eb187f501930dd1f2751f256083f9d7b0c68899f0c720",
+ "domain": [
+  "education/web3-security",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "onchain-diary"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches and reads Web3 security articles and a glossary in English and Chinese.",
+ "whenToUse": "Use when you need explanations of crypto scams, wallet drainers and Web3 security terms.",
+ "tasks": [
+  "search articles and glossary",
+  "read article",
+  "read glossary term",
+  "list content"
+ ],
+ "effects": {
+  "76c52b76545c0b342233e03270ce01cd038856ec20cc2839478e6d8396b2c91d": "read",
+  "0a8b8bc7b87e5901a18251a50c3e91e0d5bd023adc8eb4447c5a06ea9ddac8dc": "read",
+  "cf78222a40ee505542228932045902ea61f65a03bdf47c422ac26e44b5359092": "read",
+  "5016acf4996dd9134c078809ddb9e7f6987aebc83bbaeac3d6f034c75b62a355": "read"
+ },
+ "flags": []
+}

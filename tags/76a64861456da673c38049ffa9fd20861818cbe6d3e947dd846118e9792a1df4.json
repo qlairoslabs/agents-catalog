@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "76a64861456da673c38049ffa9fd20861818cbe6d3e947dd846118e9792a1df4",
+ "domain": [
+  "careers/resumes",
+  "documents/pdf"
+ ],
+ "product": [
+  "resustack"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "hire-and-manage"
+ ],
+ "summary": "Builds, versions and renders resumes to PDF from an MCP client.",
+ "whenToUse": "Use when creating, updating or exporting a resume as a PDF.",
+ "tasks": [
+  "build resume",
+  "version resumes",
+  "render resume pdf"
+ ],
+ "effects": {},
+ "flags": []
+}

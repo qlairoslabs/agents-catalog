@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "794de15eaa09335d5f2e1137d3adb8dcc78879a452d33a6da2f5ffc12a8ec7d4",
+ "domain": [
+  "website-content",
+  "it-services"
+ ],
+ "product": [
+  "blacklabel-tech",
+  "cloudflare"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and reads the public pages of blacklabeltec.com with source URLs.",
+ "whenToUse": "Use when you need information published on the BlackLabel Tech website.",
+ "tasks": [
+  "get site info",
+  "search pages by path",
+  "read page as Markdown"
+ ],
+ "effects": {
+  "66f9b029243a5bed555488ca79c2b9af970ade8d91a685e5decd624470b50cef": "read",
+  "fae05b6898e9a53d6fe80c5fa4f6c72bca46865dcfaef9b44536da9ae1d44698": "read",
+  "d003957f7fe7b240d8e90a753eb00d274c6c1cf951883184264f492f45116d18": "read"
+ },
+ "flags": []
+}

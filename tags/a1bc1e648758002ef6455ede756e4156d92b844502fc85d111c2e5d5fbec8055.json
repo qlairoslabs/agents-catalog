@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "a1bc1e648758002ef6455ede756e4156d92b844502fc85d111c2e5d5fbec8055",
+ "domain": [
+  "retail/jewelry",
+  "retail/lab-grown-diamonds"
+ ],
+ "product": [
+  "ada-diamonds",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Searches Ada Diamonds' lab-grown diamond, ring setting and jewelry inventory, reads buying guides, builds checkout links and books consultations.",
+ "whenToUse": "Use when a user shops for lab-grown diamonds, engagement rings or fine jewelry from Ada Diamonds.",
+ "tasks": [
+  "search loose diamonds",
+  "search engagement ring settings",
+  "search fine jewelry",
+  "search buying guides",
+  "read guide article",
+  "get company and showroom info",
+  "create checkout link",
+  "request consultation"
+ ],
+ "effects": {
+  "383141e7083037ec6ec84992d976f9be455af1e5d650755acda7ea34a4e92cd4": "read",
+  "0b5e201db31213b347541b354ce20f654f7e50c64def7f33ff4d143c1d95dccb": "read",
+  "5af7c50577b15c5c11b42cb5f80bb1ecc25f855a39fe4d984a799d0cd5951144": "read",
+  "4a6672bae77ee61ec525aa93dbb0ac9cdb71294571ec2a31c9c24cdb9b53369f": "read",
+  "82626cda339bbcf44dc94cc783f87fd0ed7365968f83f161b7263b122e72197c": "read",
+  "1161b89d39a1077f50d28834e457b97ae6e3a319e700b1143b57f8a1630ff511": "read",
+  "2b66367ea7bfc67b1d9bb06b0609a4faaa70a8d1200a2f15e20efb00c5bfb07b": "write",
+  "e40ea0428515cf9c5129a9b7d89202b3097e8710485c8539124eba8af2b2cd53": "write"
+ },
+ "flags": [
+  "every tool requires the agent to report its exact model identifier and a purpose description for analytics",
+  "conversation_id parameter asks the agent to keep tracking across unrelated later requests"
+ ]
+}

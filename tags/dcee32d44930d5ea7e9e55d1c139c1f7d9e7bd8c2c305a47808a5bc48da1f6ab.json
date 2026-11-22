@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "dcee32d44930d5ea7e9e55d1c139c1f7d9e7bd8c2c305a47808a5bc48da1f6ab",
+ "domain": [
+  "legal/intellectual-property",
+  "legal/timestamping"
+ ],
+ "product": [
+  "safe-creative"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "create-content"
+ ],
+ "summary": "Registers events with qualified timestamps and requests publicly verifiable certifications.",
+ "whenToUse": "Use when proof of existence or authorship of a work or event at a point in time is needed.",
+ "tasks": [
+  "register events with timestamp",
+  "request certifications",
+  "verify certifications"
+ ],
+ "effects": {},
+ "flags": []
+}

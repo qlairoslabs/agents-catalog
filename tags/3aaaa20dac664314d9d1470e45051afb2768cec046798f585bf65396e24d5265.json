@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "3aaaa20dac664314d9d1470e45051afb2768cec046798f585bf65396e24d5265",
+ "domain": [
+  "software/embedded-development",
+  "software/documentation"
+ ],
+ "product": [
+  "iar-embedded-workbench",
+  "c-spy",
+  "c-stat"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads IAR Embedded Workbench, compiler, debugger, C-STAT and debug probe documentation.",
+ "whenToUse": "Use when answering questions about IAR toolchains, compiler options, pragmas or debugging for embedded targets.",
+ "tasks": [
+  "search IAR documentation",
+  "read documentation pages",
+  "filter by architecture and version"
+ ],
+ "effects": {
+  "cfe981a1c7bc65dca82717dc311bdca5c8d5a62ec8814a2f7c8104986d144516": "read",
+  "f4ce619ac4dacc933e9aadcbb025c71c2337c95ed869f9e6240ebfdd9c0e615c": "read"
+ },
+ "flags": []
+}

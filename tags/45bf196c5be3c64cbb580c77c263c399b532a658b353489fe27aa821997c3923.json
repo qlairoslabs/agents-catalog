@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "45bf196c5be3c64cbb580c77c263c399b532a658b353489fe27aa821997c3923",
+ "domain": [
+  "software/diagnostics",
+  "operations/troubleshooting"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Computes an adaptive diagnostic policy and expected costs from supplied hypotheses, weights, probes, costs and deterministic outcomes.",
+ "whenToUse": "Use when you need to plan the cheapest order of diagnostic checks for a finite set of fault hypotheses with known probe outcomes.",
+ "tasks": [
+  "plan diagnostic policy",
+  "compute expected cost",
+  "order probes by cost",
+  "evaluate hypotheses"
+ ],
+ "effects": {
+  "cf10ad388ab398a2aa7af3f4415c220d479391c916af1a61d4a3385d701bed08": "read"
+ },
+ "flags": []
+}

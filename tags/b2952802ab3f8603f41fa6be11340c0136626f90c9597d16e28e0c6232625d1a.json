@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "b2952802ab3f8603f41fa6be11340c0136626f90c9597d16e28e0c6232625d1a",
+ "domain": [
+  "web/website-builder",
+  "web/wordpress"
+ ],
+ "product": [
+  "uichemy",
+  "wordpress",
+  "elementor",
+  "gutenberg"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Generates a WordPress website from a written brief and exports it as Elementor or Gutenberg layouts.",
+ "whenToUse": "Use when a user wants to create a WordPress site from a description and export it to Elementor or Gutenberg.",
+ "tasks": [
+  "generate website from brief",
+  "build wordpress site",
+  "export to elementor",
+  "export to gutenberg"
+ ],
+ "effects": {},
+ "flags": []
+}

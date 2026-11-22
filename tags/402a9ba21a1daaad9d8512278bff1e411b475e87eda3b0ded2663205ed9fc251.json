@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "402a9ba21a1daaad9d8512278bff1e411b475e87eda3b0ded2663205ed9fc251",
+ "domain": [
+  "travel/booking-search"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Travel search MCP server and CLI covering flights, hotels, trains, cars and ferries without API keys.",
+ "whenToUse": "Use when planning a trip and comparing transport or lodging options.",
+ "tasks": [
+  "search flights",
+  "search hotels",
+  "search trains",
+  "search car rentals",
+  "search ferries"
+ ],
+ "effects": {},
+ "flags": []
+}

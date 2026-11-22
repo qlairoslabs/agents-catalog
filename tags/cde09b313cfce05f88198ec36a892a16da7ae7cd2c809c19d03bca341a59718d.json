@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cde09b313cfce05f88198ec36a892a16da7ae7cd2c809c19d03bca341a59718d",
+ "domain": [
+  "software/cloud/infrastructure-as-code",
+  "software/web-development"
+ ],
+ "product": [
+  "aws-blocks",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for building and deploying full-stack apps with the AWS Blocks infrastructure-from-code framework.",
+ "whenToUse": "Use when a project uses AWS Blocks or the user wants to build an app with its building blocks.",
+ "tasks": [
+  "create apis",
+  "select building blocks",
+  "run local development",
+  "deploy aws blocks apps",
+  "apply version-specific patterns"
+ ],
+ "effects": {},
+ "flags": []
+}

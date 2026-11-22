@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "f674f40b2fc36a1249e672d4a093e4eb00dbfe07cfac1216f5ec335dd7806b65",
+ "domain": [
+  "commerce/stainless-steel",
+  "commerce/wholesale"
+ ],
+ "product": [
+  "karusele"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Lets agents search Karusele's stainless steel products in Lithuanian, view details and company info, and send a product inquiry.",
+ "whenToUse": "Use when looking for stainless steel products from UAB Karuselė or sending them a price inquiry.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "list categories",
+  "get company info",
+  "submit inquiry"
+ ],
+ "effects": {
+  "23ced30d88f22b087727255faecb7bbe0cecd1f0bbf18218613b414dbbdc4520": "read",
+  "9de7e20b5bba061903ef52c2c56c16c3d3c3911c4d4fdfa3423df35be733795c": "read",
+  "8b8628dfba197a71d1756245c70018315ce10d065013b4e73c34f826cd8f6a9b": "read",
+  "88fb9ce1311e57ee3a4f7fa5b3f188e76d571bdb78d89815c86e911680fab42e": "read",
+  "eaadad7060e1a7699668ed5f6ec71bb834bc72dc525e704f74f7320732be6fbe": "write"
+ },
+ "flags": []
+}

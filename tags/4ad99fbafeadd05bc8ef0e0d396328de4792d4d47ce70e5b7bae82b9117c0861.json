@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "4ad99fbafeadd05bc8ef0e0d396328de4792d4d47ce70e5b7bae82b9117c0861",
+ "domain": [
+  "software/databases/sql",
+  "software/performance"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Analyzes pasted SQL queries at database reliability engineer level without connecting to a database.",
+ "whenToUse": "Use when someone wants a review or optimization advice for a SQL query without giving database access.",
+ "tasks": [
+  "analyze sql queries",
+  "suggest query optimizations",
+  "review query risks"
+ ],
+ "effects": {},
+ "flags": []
+}

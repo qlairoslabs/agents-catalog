@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "160f40df6e2a7877a5d7a4886fc80d55dc209cdadd0d0f03fa01b9430fc5d977",
+ "domain": [
+  "sales/lead-generation",
+  "sales/outbound"
+ ],
+ "product": [
+  "catchintent"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Finds and triages B2B outbound leads scored by buying intent, and lets you act on them.",
+ "whenToUse": "Use when a sales team wants to find and prioritize warm B2B leads for outreach.",
+ "tasks": [
+  "find leads",
+  "triage leads",
+  "view warmth scores",
+  "act on leads"
+ ],
+ "effects": {},
+ "flags": []
+}

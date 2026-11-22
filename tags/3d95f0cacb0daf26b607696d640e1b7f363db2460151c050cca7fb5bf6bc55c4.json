@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "3d95f0cacb0daf26b607696d640e1b7f363db2460151c050cca7fb5bf6bc55c4",
+ "domain": [
+  "productivity/email",
+  "productivity/email/triage"
+ ],
+ "product": [
+  "radmail"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Email triage demo over a built-in sample inbox: ranks messages, tracks open commitments, searches and drafts replies without sending.",
+ "whenToUse": "Use when trying out RadMail's inbox triage, commitment tracking or reply drafting on its sample inbox.",
+ "tasks": [
+  "rank inbox by importance and urgency",
+  "list urgent messages",
+  "explain message ranking",
+  "list open commitments",
+  "draft replies for review",
+  "search messages"
+ ],
+ "effects": {
+  "08f72d527fa0f0bf54b5acc34892419215fdbfe8ef380e4972506ce088a8eac6": "read",
+  "8a5edf25fa5e7b29a04be7137b3f9ac558aa3c8c83322d2a9dcfe920d132fca3": "read",
+  "a6059acbedf5271c277d4f8aebc43f3b80876172d49dbed1c8139dd16eef7f66": "read",
+  "5e1fca957f7c9424c8d7c6c791a03660c6209015aeb3dd3cd713ef281f601763": "read",
+  "96c505597d95801d3b9352af06e91b51a61698d03f6e2d3e7e4d82e3b92453ae": "read",
+  "e76704ee8123370afa0faba9923e01872d614534c6351dc42a87fbfc92178fc8": "read"
+ },
+ "flags": []
+}

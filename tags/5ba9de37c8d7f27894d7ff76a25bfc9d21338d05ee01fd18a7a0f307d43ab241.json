@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "5ba9de37c8d7f27894d7ff76a25bfc9d21338d05ee01fd18a7a0f307d43ab241",
+ "domain": [
+  "ai/voice-agents",
+  "communication/telephony",
+  "training/role-play"
+ ],
+ "product": [
+  "toughtongue-ai",
+  "sip"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "hire-and-manage"
+ ],
+ "goal": [
+  "automate-work",
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates voice-agent scenarios, retrieves session analytics, places SIP calls and schedules meeting bots in ToughTongue AI.",
+ "whenToUse": "Use when building voice-agent practice scenarios, placing AI phone calls or reviewing call session analytics.",
+ "tasks": [
+  "create voice-agent scenarios",
+  "get session analytics",
+  "place sip calls",
+  "schedule meeting bots"
+ ],
+ "effects": {},
+ "flags": []
+}

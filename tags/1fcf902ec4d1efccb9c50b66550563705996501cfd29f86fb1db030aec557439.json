@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "1fcf902ec4d1efccb9c50b66550563705996501cfd29f86fb1db030aec557439",
+ "domain": [
+  "marketing/social-media",
+  "marketing/scheduling"
+ ],
+ "product": [
+  "postiz",
+  "x",
+  "linkedin",
+  "reddit",
+  "youtube",
+  "tiktok",
+  "instagram"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "CLI for scheduling social media posts, uploading media, managing integrations and tracking analytics across many platforms.",
+ "whenToUse": "Use when an agent needs to schedule or publish social media posts or check post analytics across multiple networks.",
+ "tasks": [
+  "schedule social posts",
+  "manage platform integrations",
+  "upload media",
+  "track post analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

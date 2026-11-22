@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e2599e517f27b38b01c346762102b4afd0859ed1893f65e3879202de2804023f",
+ "domain": [
+  "finance/ipo-analysis",
+  "finance/equity-research"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Writes a balanced first-trading-day note on a new IPO covering deal terms, day-one trading, demand, float mechanics, peer valuation and upcoming dates.",
+ "whenToUse": "Use when a user asks how a company's IPO debuted on its first day of trading.",
+ "tasks": [
+  "summarize deal terms",
+  "reconstruct first-day trading",
+  "assess demand and float",
+  "review stabilization",
+  "compare valuation to peers",
+  "map post-ipo timeline"
+ ],
+ "effects": {},
+ "flags": []
+}

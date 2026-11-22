@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "e499e3d06228084f5dbc5703468477b28f1bfe9b2549e1c81426e26e08b8fdd0",
+ "domain": [
+  "science/data-discovery"
+ ],
+ "product": [
+  "national-data-platform"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and discovers datasets in the National Data Platform across multiple catalogs.",
+ "whenToUse": "Use when an agent needs to find scientific datasets in the National Data Platform.",
+ "tasks": [
+  "search datasets",
+  "browse catalogs",
+  "get dataset details"
+ ],
+ "effects": {},
+ "flags": []
+}

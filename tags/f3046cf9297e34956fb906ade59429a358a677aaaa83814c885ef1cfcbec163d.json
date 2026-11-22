@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "f3046cf9297e34956fb906ade59429a358a677aaaa83814c885ef1cfcbec163d",
+ "domain": [
+  "sales/crm",
+  "support/ticketing"
+ ],
+ "product": [
+  "infotech-crm"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "sell",
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives read-only access to InfoTech-CRM leads, contacts, customers, deals, tickets and activities.",
+ "whenToUse": "Use when reviewing CRM records, deals or support tickets in InfoTech-CRM.",
+ "tasks": [
+  "view leads",
+  "view contacts",
+  "view customers",
+  "view deals",
+  "view tickets",
+  "view activities"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "5bc5877eb0e845161321731f16bdd1ae46dd85a357aaf3e394d989f97ad55a04",
+ "domain": [
+  "software/documentation",
+  "analytics"
+ ],
+ "product": [
+  "aidata-stream"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search and page retrieval over the aidata.stream docs, blog, changelog and pricing.",
+ "whenToUse": "Use when answering questions about AI Data Stream features, setup or pricing.",
+ "tasks": [
+  "search site",
+  "fetch page as markdown",
+  "list pages",
+  "get pricing plans"
+ ],
+ "effects": {
+  "c67f9525ba6b187a95b60e7c6fe5268f83b0699047467a33ce96dd9cce455375": "read",
+  "42652c4fe832b74259c4ba2188f1823d3756caabda564eb3645d4731f559d986": "read",
+  "1638c570863e5523989920e8caee0e7d633ee35ac61621bac3bd8b9cf1a6eba8": "read",
+  "40a95e312629ef5a4edfe7e31d227b5a9f300610d236892df62d7f8ac3421bdb": "read"
+ },
+ "flags": []
+}

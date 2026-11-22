@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "cdb2175b4d6e1ccf0b527b722139e6626f854f164444699d938182a64ad78973",
+ "domain": [
+  "healthcare/clinic-management",
+  "reference/vendor-info"
+ ],
+ "product": [
+  "all4clinic",
+  "whatsapp"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "sell"
+ ],
+ "summary": "Searches All4Clinic help guides, lists plans and FAQs, and finds demo or training slots for the Brazilian clinic software.",
+ "whenToUse": "Use when someone asks how to do something in All4Clinic, evaluates its plans, or wants a demo or training time.",
+ "tasks": [
+  "search help guides",
+  "read help articles",
+  "list help topics",
+  "list subscription plans",
+  "recommend a plan by users and units",
+  "find demo or training times",
+  "get signup steps",
+  "answer pre-sales faqs"
+ ],
+ "effects": {
+  "39707912e4109292d262285e3207fc3cf09109e0e6b4a4ac9b91caceecb8e413": "read",
+  "4299410b4fd55e1bf0c2c60468640d71e175ef5d9f7db422051a2f35a142a0f1": "read",
+  "fc13d5e922dcaf1fe9076f2112a1e736302bebcdad3ed6e5ce73740459497b89": "read",
+  "2479e4fd710375eaa92185b8dbe816128a26fbf8d6c240e1038877eeed23850d": "read",
+  "b51179b7002f41731e6ede7ddeae867351bd7acca0524d4ddafcd5262632514b": "read",
+  "12f8341506fecf3e1defb4d7e9eb5448d16056cc321c53eb986a45f380b619af": "read",
+  "1599f61904643a06a41beeaef74a1e8a808bd05bb36778e44d8685d3e0fca997": "read"
+ },
+ "flags": []
+}

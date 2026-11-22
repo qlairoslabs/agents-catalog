@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0b51962d0f7fd5f1cb070ae0809664a94889e3aa0a69525a18507aa7d6b5726c",
+ "domain": [
+  "arts/art-cataloguing",
+  "arts/provenance"
+ ],
+ "product": [
+  "raisonn"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "stay-compliant"
+ ],
+ "summary": "Art catalogue service for recording works, parsing provenance and producing signed catalogue records.",
+ "whenToUse": "Use when the user needs to catalogue artworks or document and verify their provenance.",
+ "tasks": [
+  "catalogue artworks",
+  "parse provenance",
+  "generate signed records"
+ ],
+ "effects": {},
+ "flags": []
+}

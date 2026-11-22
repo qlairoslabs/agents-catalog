@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1128b82fe568ac05040e14581db8b2ffdb4ef22d49e79eb092e3b073bbef5a2b",
+ "domain": [
+  "scheduling/public-calendars",
+  "events/rsvp"
+ ],
+ "product": [
+  "addcal"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Publishes public calendars and events that others can subscribe to, with RSVPs, feeds and add-to-calendar links.",
+ "whenToUse": "Use when a user wants to publish events or a subscribable calendar and collect RSVPs.",
+ "tasks": [
+  "create public calendars",
+  "publish events",
+  "generate add-to-calendar links",
+  "manage rsvps",
+  "provide calendar feeds"
+ ],
+ "effects": {},
+ "flags": []
+}

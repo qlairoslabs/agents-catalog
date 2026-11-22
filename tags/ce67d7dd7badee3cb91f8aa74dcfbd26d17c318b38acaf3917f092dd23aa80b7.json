@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ce67d7dd7badee3cb91f8aa74dcfbd26d17c318b38acaf3917f092dd23aa80b7",
+ "domain": [
+  "project-management/templates",
+  "operations/sops"
+ ],
+ "product": [
+  "kanbai"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Read-only public access to Kanbai project templates and standard operating procedures.",
+ "whenToUse": "Use when looking for reusable project task templates or example SOPs.",
+ "tasks": [
+  "list project templates",
+  "get template tasks",
+  "list sops",
+  "read sop content"
+ ],
+ "effects": {
+  "485c63275a6ea8472292bba01adfdea6c0e89ad945bf2740ba3513f002aefd6e": "read",
+  "f655277e8a9d410b9846f4fd09121edc74731bbc85f23db053becaa275ae6a12": "read",
+  "c7b236ada765b07b89d9e35b702179150feae5dabf7a3af6ae3d23177fe2556e": "read",
+  "21981c5e68734d41803262ae8f2bf42efa95a1f5d9eed098ab3f4391fe96d950": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3410a58c57755e1bbf03149ff8b8c077098c425ac67113be286c5873248a46c6",
+ "domain": [
+  "communication/phone-calls",
+  "ai/voice-agents"
+ ],
+ "product": [
+  "alterphone"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Places real phone calls and conducts spoken conversations on a user's behalf, billed per minute.",
+ "whenToUse": "Use when a user explicitly wants an AI to make a real phone call for them and accepts per-minute charges.",
+ "tasks": [
+  "place phone calls",
+  "hold spoken conversations",
+  "make calls on user's behalf"
+ ],
+ "effects": {},
+ "flags": []
+}

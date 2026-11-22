@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "b209488a0b26b8d0d2afcfb5185d5a1cc1aacffb5f064b85be4a88ec7844ea70",
+ "domain": [
+  "community/korea-japan",
+  "education/study-abroad"
+ ],
+ "product": [
+  "kimchisushi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads public posts and comments from a Korean-Japanese bilingual community and routes Korea and Japan study or working-holiday questions to sources.",
+ "whenToUse": "Use when the user asks about studying abroad or working holidays between Korea and Japan and wants community or cited answers.",
+ "tasks": [
+  "check connectivity",
+  "route Korea/Japan questions",
+  "search sources and posts",
+  "fetch a source or post",
+  "get recent or hot posts",
+  "read a post with comments"
+ ],
+ "effects": {
+  "ccb2f777e38aa5ea3d34898c36b47d8122e52f56a0a4e84b97988d432259d620": "read",
+  "5a333e178bd9997a516e45030d01cc373c7e6199bd1ae028943d9a5f517a06d3": "read",
+  "d99fc15cee24ac87706433eebc8f3477dd497b2dabec3311d3e72f5e6ae0e17c": "read",
+  "d2b0c42eeafcd25d32990b263ef36de3cd9abf986df77888b614795cf8213336": "read",
+  "99984f4554cd17a4a4118a3e4a389f0b8b81380519e7dc6b125d2be9adcacf66": "read",
+  "3841147b31e2e442ef72dd504f0b4aa82b05709ed009b3c4e2998e82df605449": "read"
+ },
+ "flags": []
+}

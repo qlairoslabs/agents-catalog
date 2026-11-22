@@ -1,0 +1,84 @@
+{
+ "classifier": 2,
+ "contentHash": "1ea7613496c6743ca9d545882f6ea0bfcf05d815a96424687e9c77dfa3f3e369",
+ "domain": [
+  "software/agent-infrastructure",
+  "communication/email-and-sms",
+  "finance/payments"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "solana",
+  "base",
+  "visa",
+  "tiktok",
+  "x",
+  "namecheap"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work",
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Pay-per-action agent infrastructure using x402 crypto payments: inboxes, phone numbers, prepaid cards, domains, VPS servers and TikTok/X posting.",
+ "whenToUse": "Use when an agent with a crypto wallet must provision email, phone, domains, servers or prepaid cards, or post and analyze social media, without API keys.",
+ "tasks": [
+  "list capability prices",
+  "plan priced multi-step intents",
+  "buy prepaid visa cards",
+  "create permanent and temporary email inboxes",
+  "send and read email",
+  "buy or lease phone numbers",
+  "send and read sms",
+  "wait for otp codes",
+  "post to x and tiktok",
+  "schedule and cancel tiktok posts",
+  "scrape tiktok analytics and hook reports",
+  "register domains and deploy vps servers"
+ ],
+ "effects": {
+  "1cc51768cdba33f84e0f9ae4863efabdf4cd06383499480b7f98ee283505baa5": "read",
+  "ce63f3a7506cadfa1e4e160400a6e4520b3b2081a73a35397c1df26633a35618": "read",
+  "3ccaebee087550a442147615cd3e461b77b6c159c7117a3ad6c1195efe42e768": "risky",
+  "6fa4cef23592b9a9e03fc8bc68bc420eee2e79188b9d5c215ac828a2b053f9bc": "risky",
+  "b01584cfc5bf504741defe258fd63437745fb20c1ac3e148279e942f75a07178": "read",
+  "b2de409de934653c721aeef157516e47cd7fe46d9d414853fc2a3fc0da85100c": "write",
+  "8961e132971ee3926e065bdd1487685a062c286de3fb53d1a73aca79c33006a2": "write",
+  "92731486c8a3b30290d7d50f5045e654a406d326ccb1e548c198171681bd99d8": "risky",
+  "55b09d96e5757a834c3b45a3a2c74bb3191d191ca7e25a7a5dbec8f177a92bc3": "write",
+  "bbb1bebdafa1854149b862b490acd78a05b42082de56b359c582c414b962606d": "write",
+  "b8f7b766bb0a011e1aaabafdb98ccd6b42a88ec06c3de68ea0f27dc3756065a5": "write",
+  "cf18a3c86bc2aea999a2efbec17cf7f47b109c6167b47ad1308991f9e5532e5e": "write",
+  "17fe492289b6e3b6f6f4621d4c218cbad737ffb02217931c80aa616c0d09ccfd": "risky",
+  "edba780f596cc7be59229ff6d4031806a56cae1759894c5decd9362d8fceebd6": "write",
+  "5f52a20bae5cec5399f24a8fcd1d43fb10c83cbd2ec2665ac265a49f56e8d4ca": "write",
+  "a3286c7039cc064bf2c7b91fe854a2d1b0c0dc44e0d9b49e90f5c1d505263557": "write",
+  "cc3a7757bd2660cb3a53d63954f1ec24458b8f142ce1ad17e15d7844c37e67fd": "write",
+  "92a7ef79e4a83849e9796857b79f06a6a85bb51363d610471294de67e95b5528": "write",
+  "eb457938fcb83a45ca09cf36c031d2a2deab3cf30aa3123e9c206dc2fb1f7b19": "write",
+  "87cbdedb656ffce0d9890a97fb297954efaf9fdd8527ae35fa783c4716cbcabf": "write",
+  "6422d74789c0be248e84f3727fe688a08bf7ac06d190b671687dff9fa8e912b2": "read",
+  "2a5d6e8e9d2afeff39aa61783f452b8c9c1c73090fe1fae1e15adcbd2dd6f92b": "risky",
+  "e9188c5a721431b39a491b60945eadedf7c98242fb0362cf63d78c7cada0fcea": "read",
+  "06d2e2919012518f46c4b8f4d1fe938c1e10060ee808c43f48b6a0233058590f": "write",
+  "482e6d586ea322a250350d3c6077c9114c917ea24cb2f805334d0674a7696015": "write",
+  "7378b41b248755c9b73938ba3908b0c1a32a8be758aa4fe68c24ddc2a2357681": "write",
+  "5ba0e696318a36862468baffaf7d69d7191c31c884f17e0e429e14d32d48c463": "write",
+  "b341b560726a532b85db3fdd27725a39a90396f5afedd647a63241ae1464fce0": "read",
+  "65ffa52d2938a433f64175ad970690de4ed66be515f4fec18aba07f7fd5cc80f": "write",
+  "2df400573d821a07466dd8193d638583fa7588292498739e43a1e8f40913059b": "write",
+  "56e53174f3fd1fbcb779613f7fdffec9ff6cad5987c4160a8b8d34a6b81ba3d0": "read",
+  "2448e5aee7c1fc4f4681aa4ef313fbadc175a526a5adb7402b8c9ecbf430fac7": "risky",
+  "9a47c85d13acb03ce03c4925f973682d28920e6d93875cf66d3edac7808e8e64": "risky"
+ },
+ "flags": [
+  "lets agents autonomously buy anonymous prepaid visa cards with crypto",
+  "disposable phone numbers and otp capture marketed for passing phone-gated signups on third-party sites",
+  "social posting via injected session cookies and server-held logged-in browser profiles for multiple accounts"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3c61e23f4ce68b5eba963f1d1c0e3a34831c55a344b11b3272965ca62eda5b0c",
+ "domain": [
+  "software/edge-computing",
+  "software/cdn"
+ ],
+ "product": [
+  "fastly"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Development tools and platform skills for Fastly.",
+ "whenToUse": "Use when developing for or configuring services on the Fastly platform.",
+ "tasks": [
+  "develop fastly services",
+  "use fastly platform"
+ ],
+ "effects": {},
+ "flags": []
+}

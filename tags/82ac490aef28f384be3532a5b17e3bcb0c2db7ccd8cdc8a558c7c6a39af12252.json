@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "82ac490aef28f384be3532a5b17e3bcb0c2db7ccd8cdc8a558c7c6a39af12252",
+ "domain": [
+  "marketing/seo",
+  "analytics/web"
+ ],
+ "product": [
+  "google-search-console",
+  "bing-webmaster-tools",
+  "google-analytics"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes SEO data from Google Search Console, Bing Webmaster Tools and GA4.",
+ "whenToUse": "Use when analyzing a site's search performance and traffic data.",
+ "tasks": [
+  "analyze search console data",
+  "analyze bing webmaster data",
+  "analyze ga4 data"
+ ],
+ "effects": {},
+ "flags": []
+}

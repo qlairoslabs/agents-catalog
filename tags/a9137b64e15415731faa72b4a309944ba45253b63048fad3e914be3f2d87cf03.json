@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "a9137b64e15415731faa72b4a309944ba45253b63048fad3e914be3f2d87cf03",
+ "domain": [
+  "entertainment/cinema",
+  "local/ticketing"
+ ],
+ "product": [
+  "multicines-ortega"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Lists films, showtimes, seat availability bands and ticket purchase links for Multicines Ortega in Puertollano.",
+ "whenToUse": "Use when someone asks what is playing, at what time, or wants a ticket link at Multicines Ortega.",
+ "tasks": [
+  "list showtimes",
+  "search film by title",
+  "get film details",
+  "list cinemas",
+  "get purchase links"
+ ],
+ "effects": {
+  "6afa7847d17963865337d432b987a3b7e463d1f6ebc93dadd9d7b61d69f14a02": "write",
+  "b15f43937f88db1ed8f682802b84175500308672699b7c560ada2e559c8cb679": "read",
+  "03625db1901e8868111e78db959ef40d6924860462e926bd947698db6618023b": "read"
+ },
+ "flags": []
+}

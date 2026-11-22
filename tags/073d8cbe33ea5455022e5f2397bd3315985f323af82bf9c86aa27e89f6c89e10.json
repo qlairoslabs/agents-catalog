@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "073d8cbe33ea5455022e5f2397bd3315985f323af82bf9c86aa27e89f6c89e10",
+ "domain": [
+  "marketing/email-marketing",
+  "sales/crm",
+  "marketing/automation"
+ ],
+ "product": [
+  "activecampaign"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch",
+  "sell"
+ ],
+ "summary": "Connects to ActiveCampaign to manage contacts, email campaigns, automations and deals, and get marketing insights.",
+ "whenToUse": "Use when working with ActiveCampaign contacts, campaigns, automations or deals.",
+ "tasks": [
+  "manage contacts",
+  "manage campaigns",
+  "manage automations",
+  "manage deals",
+  "get marketing insights"
+ ],
+ "effects": {},
+ "flags": []
+}

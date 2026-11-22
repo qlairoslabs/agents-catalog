@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "4c11c53187ba0f7969d51f22bedc14a4a4b8c7b5388ffb5d7f0d3ada23d0ca70",
+ "domain": [
+  "software/devops/remote-access"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs shell commands on remote computers through a curl and bash relay, with optional approval for each command.",
+ "whenToUse": "Use when an agent needs to execute commands on a remote machine that only has curl and bash available.",
+ "tasks": [
+  "run remote shell commands",
+  "approve commands individually",
+  "connect to remote computers"
+ ],
+ "effects": {},
+ "flags": []
+}

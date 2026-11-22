@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2cfa469869306ab53a09161da408db2c971341e64ed6fbb5cd6dda78980882f1",
+ "domain": [
+  "software/sandboxes/virtual-machines",
+  "cloud/compute"
+ ],
+ "product": [
+  "easybits"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Provides persistent Linux microVMs for agents with root access, internet, fast resume and a public URL.",
+ "whenToUse": "Use when an agent needs a persistent Linux machine to run code or host a service publicly.",
+ "tasks": [
+  "create linux microvms",
+  "run commands as root",
+  "resume vms",
+  "expose public urls"
+ ],
+ "effects": {},
+ "flags": []
+}

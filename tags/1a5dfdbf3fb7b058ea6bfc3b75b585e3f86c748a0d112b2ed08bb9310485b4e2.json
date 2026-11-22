@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1a5dfdbf3fb7b058ea6bfc3b75b585e3f86c748a0d112b2ed08bb9310485b4e2",
+ "domain": [
+  "software/cloud-hosting",
+  "software/devops",
+  "education/labs"
+ ],
+ "product": [
+  "selfmade-ninja-labs"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Lets an AI agent deploy and run Linux lab environments with domains, TLS certificates, databases and an audit log.",
+ "whenToUse": "Use when an agent needs a real Linux environment to deploy, route and run applications or databases.",
+ "tasks": [
+  "deploy linux labs",
+  "configure domains",
+  "set up tls",
+  "provision databases",
+  "run commands",
+  "view audit log"
+ ],
+ "effects": {},
+ "flags": []
+}

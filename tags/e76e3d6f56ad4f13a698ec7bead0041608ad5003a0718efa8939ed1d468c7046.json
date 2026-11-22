@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "e76e3d6f56ad4f13a698ec7bead0041608ad5003a0718efa8939ed1d468c7046",
+ "domain": [
+  "software/cloud-security",
+  "software/aws"
+ ],
+ "product": [
+  "aws",
+  "iam"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Verified method contracts and least-privilege IAM policy generation for AWS workflows, with policy simulation checks and fix registration.",
+ "whenToUse": "Use when writing AWS code that needs a minimal IAM policy, or checking whether a role is authorized for an operation.",
+ "tasks": [
+  "search method contracts",
+  "list services and methods",
+  "generate least-privilege IAM policy",
+  "list workflows",
+  "verify policy with simulator",
+  "pre-flight authorize operations",
+  "register fixes"
+ ],
+ "effects": {
+  "9235771fb9dcdc6eb64f5f86d970c17f574469551cbf9889923b075d26b0b510": "read",
+  "86d98a863cc65afb3dfa4f24a9f6f0d4a3e8e8d7f4171727eee1183fa6c3dbba": "read",
+  "5b9136e6dcb664e423dcac52e481bf2115cbf85d35ce2cd6c65d92a8a56778c5": "read",
+  "4db7e35d625c193d31457bb6b5f47b1c27e962beadfe44c3df159fa7c5c3108c": "read",
+  "e3e9eb79026a5d4baa549c4d9758ab212670ac6fb0397431c7f2b2c7a331bcec": "read",
+  "cc71b72638ad92a4d2d6c8a70b37065553f3b63d17070c2cf9abd3b8a5f72f4b": "read",
+  "12f9be3db76a0803f736bb1c59fa8d1ebef59c0f659aecce0a046461db3f9766": "read",
+  "75400a09c33a8e073c52ce578862e13e8d6e5af80e95d191d7ca1d263a6290eb": "write"
+ },
+ "flags": []
+}

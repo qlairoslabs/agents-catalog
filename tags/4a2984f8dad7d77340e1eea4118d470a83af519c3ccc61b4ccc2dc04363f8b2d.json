@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4a2984f8dad7d77340e1eea4118d470a83af519c3ccc61b4ccc2dc04363f8b2d",
+ "domain": [
+  "project-management/issue-tracking",
+  "software/development"
+ ],
+ "product": [
+  "jira",
+  "atlassian"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Searches, views and creates issues in self-hosted Jira Data Center.",
+ "whenToUse": "Use when an agent needs to find, read or create Jira Data Center issues.",
+ "tasks": [
+  "search issues",
+  "view issue details",
+  "create issues"
+ ],
+ "effects": {},
+ "flags": []
+}

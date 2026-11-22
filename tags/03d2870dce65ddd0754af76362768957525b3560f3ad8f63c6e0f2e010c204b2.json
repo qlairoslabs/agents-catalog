@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "03d2870dce65ddd0754af76362768957525b3560f3ad8f63c6e0f2e010c204b2",
+ "domain": [
+  "finance/trading",
+  "finance/brokerage"
+ ],
+ "product": [
+  "gcc-brokers"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives GCC Brokers instrument specs, live quotes, account types, company and regulatory info, economic calendar and market insight articles.",
+ "whenToUse": "Use when a user wants trading specifications, quotes, account details or scheduled economic events from GCC Brokers.",
+ "tasks": [
+  "list instruments",
+  "get contract specs",
+  "get bid/ask quotes",
+  "compare account types",
+  "get company info",
+  "read economic calendar",
+  "list market insights"
+ ],
+ "effects": {
+  "1076f27c261b413491120b49cba7b2ec38b932b90384a58f63b5f985839bd235": "read",
+  "cf9e5e0ae79536d875c3bc2927f88978e8ba6e11006fa1e0862d4e41da0b25a2": "read",
+  "061e02b72ca43c37a03c4a107dcc837fea2628db1cdd18fecd43c7654af0d82a": "read",
+  "7352644adcb84a3afa76d425236878c93c685b2d7053bbeef1248f533cc13857": "read",
+  "2c2d369ea4c705229bfadaa69e08f944c9c596c2d8197c57ec40f6ab6c2ccac2": "read",
+  "2dc2247a6655cd45e6f16eee6062fa0dc067ca3d1f6c8055d8bb845d99fce2a2": "read",
+  "d2f35b7a16597e7fa5e2c6523005cfe0690b1e7cc87932348c3772fe630b2227": "read"
+ },
+ "flags": []
+}

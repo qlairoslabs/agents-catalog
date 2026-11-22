@@ -1,0 +1,68 @@
+{
+ "classifier": 2,
+ "contentHash": "2e3e638898e0e880ddea8ae847d0e7edf4e496b5ccd7da40eb80a96ff4e4208a",
+ "domain": [
+  "finance/planning",
+  "finance/tax"
+ ],
+ "product": [
+  "worthune"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Verified financial calculation models and a household planning engine with projections, Monte Carlo, strategy decisions, mandates, proposals and signed evidence records.",
+ "whenToUse": "Use when an advisor or agent needs deterministic, verifiable retirement and tax planning calculations, or to manage stored households and approval-gated planning proposals.",
+ "tasks": [
+  "run financial models",
+  "verify numeric claims",
+  "create and edit households",
+  "project household finances",
+  "run coordination strategies",
+  "import household books",
+  "narrate decisions",
+  "manage mandates",
+  "review proposals",
+  "read ledger",
+  "answer data questions",
+  "manage preferences"
+ ],
+ "effects": {
+  "eb5d54251be17952b2746b5a71a5b5e568d46c1b19133458a57196904fe7a758": "read",
+  "e07816abcb46c31b627e0b904c22ca902d953583131b760ab154fd82b8a662c2": "read",
+  "b558868f5f625c09c9fca5821b9c06bc500f07438975d41f4ad8632bff5aa766": "read",
+  "3ed0a63409ff73ced92df1c844a7f6a78749dc81f583dda273986694c9460105": "read",
+  "6c01d483b831cd702cd0c809edf45172e7a9d17a0fbc484fb941687074bc9c08": "write",
+  "2a18bff76ceee2b27335d9f2b14655624659b4c8ef9f42e50e13f78f8fe176d6": "read",
+  "c48d5fde9e662ff936958b9275ccd94533d9c5c63bd25a4310d43475b11e1364": "read",
+  "9db8481ae013ccf333299cdf4c35c54f47565cb07551121bab0610d4358c3a3d": "write",
+  "a5110fdb2c79ce08c4b8fd6646ae6e52198667d87ced34fafd93da011b17ea36": "read",
+  "3894f3031d7855401cff1b835f28a0a0679c2279ff2aee7794df84e47559fc05": "read",
+  "8de3a1c78b2645d7066135462602657663d52871e0a516ab12c278eca10522b3": "read",
+  "1f04fa76ed254e989df54579f61069dfad66739247f64eaaeb2d5298985e4a37": "write",
+  "0613223494954aed9f2f58034934d88df50a44850c7ef0e8c68a07fe4549ff96": "write",
+  "a56e4f118e5008d8ec76be0b3875d8301eac3f7968c7bf53281fb1db1b436150": "read",
+  "d83dcd586b8198fab373f692b969ecc8bdf2aa7b03a2746455cc94449f392b1d": "read",
+  "651791bb36a0b9c327f24d51aee6d3ffd620f8156082d3b59975511b9d8dd0ba": "write",
+  "008a18e5af50468fc49d914500f60297080cbc029b9df571bb72793287e38421": "write",
+  "28fb3c1d0cc092704ffdc87afed4642c0397a437b9dced90e9b19f6e92015ba1": "write",
+  "3e3f4c03e424e12ac1e3fcb745f1f80c0b0bad443f98d3d498be223476af287d": "read",
+  "2510a0aad56653cb01b5d999a77ec29439ea0038d4bd0712c98e53b2704ce806": "write",
+  "8d7a843c6b35fa763c7c767c22e68253c36e50b4abb99c32c8e2a260daefe39b": "write",
+  "434d3533987b2fe87f267e33401eeb57cb42aa66385a4683bc087b6d36bf7dde": "read",
+  "414e5038c7ba2fc3d7ed8281d60feed94b3192b568f6e3d4b72ad7a3e0629bb9": "read",
+  "847a8a24829b739a705069924f604195d5fe800bc411278692ed7ddd578d5328": "write",
+  "f95b38ef16e9bd5843675ae5dc17a44cb1b5552e46ec756a5765247ae4e1fc4d": "read",
+  "aa8a08cf090ddf898d7543f27ae5fb2f0b1f16022f2e0288c54f2c7848a4a2cb": "write",
+  "79f374b3a22cc2fc1efa7a463e9fc473babc96e45579e0f6065900773cd1ce3d": "read",
+  "2ecdda439c4d7386e10b0fabd54ffc3273e680fba77869cd8e5db5cf30cfddcb": "read",
+  "6f57e656b0cb65d4a1135e95f430aa8e409f76fc4fe28176b46f4a5948287982": "write",
+  "92965913128f284302d5533640d9bedd87833918d0996f7d9d14833a47b8d622": "write"
+ },
+ "flags": []
+}

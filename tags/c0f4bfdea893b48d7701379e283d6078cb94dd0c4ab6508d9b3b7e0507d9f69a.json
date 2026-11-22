@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c0f4bfdea893b48d7701379e283d6078cb94dd0c4ab6508d9b3b7e0507d9f69a",
+ "domain": [
+  "finance/billing",
+  "finance/payments",
+  "sales/contacts"
+ ],
+ "product": [
+  "qualy"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Connects an AI assistant to Qualy to manage payments, billing and contacts.",
+ "whenToUse": "Use when handling billing, payments or contact records stored in Qualy.",
+ "tasks": [
+  "manage payments",
+  "manage billing",
+  "manage contacts"
+ ],
+ "effects": {},
+ "flags": []
+}

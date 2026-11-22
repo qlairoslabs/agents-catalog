@@ -1,0 +1,63 @@
+{
+ "classifier": 2,
+ "contentHash": "a25f8361142675c1164c291dc1584db0e2ad3bf2d3032a879f683718612e0d54",
+ "domain": [
+  "finance/investor-research",
+  "finance/market-data",
+  "mining/resource-data"
+ ],
+ "product": [
+  "6ix"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Research data on listed companies: news releases, earnings calls and transcripts, decks, prices, ownership, insider trades and mining studies.",
+ "whenToUse": "Use when the user researches a listed company's announcements, earnings calls, share price, shareholders or mining project data.",
+ "tasks": [
+  "read company news releases",
+  "search releases",
+  "get earnings calls and transcripts",
+  "view earnings calendar",
+  "read investor decks",
+  "get share prices and history",
+  "view ownership and insider trades",
+  "find substantial holders",
+  "compare peer ownership",
+  "get drill results",
+  "compare mining studies",
+  "find mineral projects"
+ ],
+ "effects": {
+  "33fbf21a94883f1fc8fdc33b8af957f49ee91f4d82d893b70182deb943fc40d6": "read",
+  "4f3e2160aa2fee18d9387424e2769357355eca9fd1ab51137bf6f318e4b87ca0": "read",
+  "96b55db1ac94565176370315e09ae8ff9267fae8eeaf8b920b95fa0c71aa9126": "read",
+  "dffdfd6106e6cab7a71f409eefa4af424873a182bbac10fbc60588f8089c56af": "read",
+  "5623350ae49617884501d8806e1934a6262a8fbb91c8cb1179767a6b71c6e0d6": "write",
+  "3e82defc1ff5e4502a5017d210805d3c639ca2a2da9862c85bc19bbc4cf3bfd6": "write",
+  "43342f8795b95d36f3f054e417f97d3de8e4f0e16e1f8ec7c03472871cbe6d8d": "write",
+  "f628fc7c96e62953ee042e461b4e3004c1e58053bc0d31fbe520529ee5f7a467": "write",
+  "491b9b343e842e271ffb8f94b076ae037800a0d7152ff0515161a0eb0f99690e": "write",
+  "f485369a8b4c5f1516a470f3e7212e979dee39a7372484be26a5105d7a2a9808": "write",
+  "61f760bb01990dfa0b8b9e0f43290bedaf32aca168437d4fb94521e3306837cf": "read",
+  "6975817583ca1676f1eee5a2153b383d34fd6054ffa621f31760a916859a205e": "read",
+  "08baae44abb791d6ca7f2739ec9229d5422f70e08b5d3c3a3b22f836118d26a6": "read",
+  "4560cbdac8a503c090b71af44ebfa01441bdd995156b2c50105e84a037200140": "read",
+  "c95dab9e7b02a6fb4f46c456f201a5362e735fcb468e3ada027e81d190114388": "read",
+  "63ddbc6e755b241102b6a68b13f20d3f1da728f92e74118dd5a58540f3f40567": "write",
+  "e5a5f1c128094c58b8e4eda854803e5b30d97ca347cc2caa20d92da9441b12e4": "read",
+  "8318275c802067dedb4e72e8bd46dbe160e310a2f12ae8ade283363b7b8c6c63": "read",
+  "fbf88df9d8f4157b17f9b6b89d2663f73db215b3f45cdc7a63c4bc14f959aae9": "write",
+  "4ee06b50640af41b0eb3f99a2e7b79641b1937e3e11f71ff44838de2972c5218": "write",
+  "0ae62733cf866ce7f79b8c6b8b3afbd9d9369df70ceaedc11cbe77805ea622aa": "read",
+  "df73789aec6a1345d247f5c46cec532f3b8ed18630020b955dabfe06e1daada6": "read",
+  "87a001545801e1352da11ee74c2bee8af2bc04ddf6abd57e765fb25eec3dca58": "read",
+  "2e7aba5d374dc208434d1d75d6d1699378c5354992a3b87212a0929232a88b5f": "read",
+  "118d1014dfe05384865d5da554c815130f3614e8676c921d3cfb016ff0d78e3f": "read",
+  "4b616591202807f075ea06b5ea21ede09f9dda6aa788be055a94d8708f5095b5": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1905d98cf7f3cc7e1097a64023e34afdfaeab38955569a854c893ba15ea58805",
+ "domain": [
+  "software/development/backend",
+  "data/databases"
+ ],
+ "product": [
+  "convex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Convex plugin with skills, a code-writing subagent, runtime error monitoring and MCP access for building Convex backends.",
+ "whenToUse": "Use when building or debugging an app backend on Convex.",
+ "tasks": [
+  "design schemas",
+  "write convex functions",
+  "build real-time features",
+  "set up auth",
+  "use file storage",
+  "schedule jobs",
+  "build ai agents",
+  "monitor runtime errors"
+ ],
+ "effects": {},
+ "flags": []
+}

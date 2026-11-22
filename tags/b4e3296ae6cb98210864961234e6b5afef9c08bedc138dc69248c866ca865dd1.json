@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b4e3296ae6cb98210864961234e6b5afef9c08bedc138dc69248c866ca865dd1",
+ "domain": [
+  "software/ai-workflows",
+  "productivity/automation"
+ ],
+ "product": [
+  "stewai"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Discover, run, inspect, build, test and privately reuse AI workflows on StewAI.",
+ "whenToUse": "Use when finding, running or building reusable AI workflows.",
+ "tasks": [
+  "discover workflows",
+  "run workflows",
+  "inspect workflow runs",
+  "build workflows",
+  "test workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

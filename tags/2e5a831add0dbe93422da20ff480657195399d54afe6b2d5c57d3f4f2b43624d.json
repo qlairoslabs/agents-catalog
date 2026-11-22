@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "2e5a831add0dbe93422da20ff480657195399d54afe6b2d5c57d3f4f2b43624d",
+ "domain": [
+  "media/generative-ai"
+ ],
+ "product": [
+  "flux-ai"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates images, videos and music, with model discovery, cost estimates and asynchronous result retrieval.",
+ "whenToUse": "Use when someone wants AI-generated images, video or music.",
+ "tasks": [
+  "discover models",
+  "estimate generation cost",
+  "generate images",
+  "generate videos",
+  "generate music",
+  "fetch async results"
+ ],
+ "effects": {},
+ "flags": []
+}

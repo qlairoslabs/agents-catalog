@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1fcf269cac5ab76c07b355a82f64ab398ac38a92607128a3219b446361509642",
+ "domain": [
+  "finance/personal/subscription-tracking",
+  "finance/personal"
+ ],
+ "product": [
+  "kordi"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks and analyzes streaming and SaaS subscriptions and lets agents act on them.",
+ "whenToUse": "Use when a user wants to review, analyze or manage their recurring subscriptions and spending.",
+ "tasks": [
+  "track subscriptions",
+  "analyze subscription spend",
+  "manage subscriptions"
+ ],
+ "effects": {},
+ "flags": []
+}

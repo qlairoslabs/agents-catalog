@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "dad2de74ef7b9040e26cdef583ec74e6dc0fb356ca81278b30b7383dd47226c9",
+ "domain": [
+  "sales/lead-generation",
+  "data/business-records"
+ ],
+ "product": [
+  "goodleads",
+  "stripe"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Sells contact lists of new business owners from US state filings, with free previews, quotes and Stripe checkout links.",
+ "whenToUse": "Use when a user wants to find, count, price or buy leads of newly registered businesses in supported US states.",
+ "tasks": [
+  "interpret a buyer's list request",
+  "browse leads by filters",
+  "look up lead by id",
+  "quote list price",
+  "list ready-made starter lists",
+  "check data quality and fill rates",
+  "translate naics sic mcc codes",
+  "list live states",
+  "create stripe checkout link"
+ ],
+ "effects": {
+  "3bf3e6bcd8b3626830182fd5cfe23a469be97eff219cb3bffbb1c66537fea64b": "write",
+  "ac45eba24df0c2720292ec2f8e29d1eb4766f3391f354a87197aa4ec5a17bdeb": "write",
+  "3940e9f827b3ec78c56da975286e5875c8ccbe03a6a7ce28963a9b0cf35d6e23": "write",
+  "9d76fef26a407ec213bdfdfa89c776298f999cb36e7cc3900ce73583e8bd2531": "write",
+  "b86733e1273f23bab5d9e33503269a88d4a4fe9baa95e98bc9fcbfa678db3da3": "write",
+  "8a9d03073501ce3c520bb433f35ab39fdbe35bb1836d32a619dff0758522ce8a": "write",
+  "824cc21e4fff5c5a6121e2d4f9a7fbc6479678a07915e2083640a5c26a1430da": "write",
+  "c8fc2f3c8bd69470a62fcd3330e0c59f9acc95f59c469209c8aacff0dc39c1c4": "write",
+  "ed533e8800a0b7c94fac468189d222065e1106021ee3e60154c66ff784beae7e": "write",
+  "6a37f02a74166156def2659616814c8529e03b2473cc00c72238d371821a78da": "write",
+  "805ccc33742197b39965c59598a308f5ebebd0940dc692faa7097baf7deb9808": "read",
+  "44d7eb0514bce5a96b8c9bcc0705b4c91e55a8007e9fe7d16c1ac9b854add66e": "write",
+  "e788df2230ceb92fc3fec19bbacf62c3679c339908960066151e7580974f2bac": "write",
+  "69bd1cf8946d5e41d7bd99e400e08c7897224ab50a2b603b0dced6491ee92936": "write"
+ },
+ "flags": [
+  "tool descriptions steer the agent toward purchase, e.g. telling it never to rule out the buyer and to proceed to quoting"
+ ]
+}

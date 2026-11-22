@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4cfe5a7c7b84758f175fa1be35251a24c26ba03264383b8a1576e5a8a0687a95",
+ "domain": [
+  "software/databases/postgres",
+  "software/containers"
+ ],
+ "product": [
+  "alloydb-omni",
+  "docker"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps manage AlloyDB Omni database instances running in containers: start, stop, list, connect and read logs.",
+ "whenToUse": "Use when a user runs AlloyDB Omni in a local or server container and needs to operate or troubleshoot it.",
+ "tasks": [
+  "start alloydb omni container",
+  "stop alloydb omni container",
+  "list running instances",
+  "connect to instance",
+  "query container logs"
+ ],
+ "effects": {},
+ "flags": []
+}

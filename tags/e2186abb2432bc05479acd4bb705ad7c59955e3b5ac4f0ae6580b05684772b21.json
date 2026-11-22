@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e2186abb2432bc05479acd4bb705ad7c59955e3b5ac4f0ae6580b05684772b21",
+ "domain": [
+  "commerce/sports-retail",
+  "commerce/online-store"
+ ],
+ "product": [
+  "trisport"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Romanian sports store with product search, sizes, stock and cart links, plus signed-in orders, tracking and loyalty points.",
+ "whenToUse": "Use when a user shops for sports gear at Trisport or wants to check their orders, shipping or points.",
+ "tasks": [
+  "search products",
+  "check sizes",
+  "check stock",
+  "create cart link",
+  "view orders",
+  "track shipments",
+  "check loyalty points"
+ ],
+ "effects": {},
+ "flags": []
+}

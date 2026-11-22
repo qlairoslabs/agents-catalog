@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "235e55399126007c58f34f62fbe721bdcefbb19748ec537897d2a14951255f20",
+ "domain": [
+  "marketing/seo",
+  "software/ai-visibility"
+ ],
+ "product": [
+  "chatgpt",
+  "perplexity",
+  "gemini",
+  "claude"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online"
+ ],
+ "summary": "Free checks of a site's readiness for AI crawlers, llms.txt validity, and whether AI assistants cite a domain.",
+ "whenToUse": "Use when evaluating a website's visibility to AI crawlers and answer engines.",
+ "tasks": [
+  "check AI crawler readiness",
+  "validate llms.txt",
+  "check AI citations"
+ ],
+ "effects": {
+  "93f6c47843e42dfb8f4a4a54fae91895d566650c6dc03967156414f517b0f32c": "read",
+  "d4789ad401a0733c043feeec9e7de80de8de71d62b36705cb065ddc9e46f4c73": "read",
+  "7ddaed26fc4beabf33968b7ce06da0c43a57f1999f6c300cd59443b1ae63a5b1": "write"
+ },
+ "flags": []
+}

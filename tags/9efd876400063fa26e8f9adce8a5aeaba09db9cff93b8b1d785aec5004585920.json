@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9efd876400063fa26e8f9adce8a5aeaba09db9cff93b8b1d785aec5004585920",
+ "domain": [
+  "research/biomedical-literature",
+  "health"
+ ],
+ "product": [
+  "pubmed",
+  "europe-pmc",
+  "unpaywall"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches PubMed and Europe PMC, fetching articles, full text, citations and MeSH terms.",
+ "whenToUse": "Use when finding or reading biomedical literature.",
+ "tasks": [
+  "search articles",
+  "fetch full text",
+  "get citations",
+  "look up mesh terms"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "25e2d96493d92c106c707b6fd2e279e2de31a987d08aa28d8a6b5f4c8496faef",
+ "domain": [
+  "data/web-scraping",
+  "payments/agent-payments"
+ ],
+ "product": [
+  "x402",
+  "mpp",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Extracts structured data from up to 10 web pages per call according to a JSON Schema, charged per URL in USDC.",
+ "whenToUse": "Use when you need structured fields pulled from web pages and accept a small per-URL payment.",
+ "tasks": [
+  "extract structured data from urls",
+  "map pages to json schema"
+ ],
+ "effects": {
+  "536af30525ca1ee9a4275eb558db79bfa5b8a6da6132674b262ed725c7aa89cc": "risky"
+ },
+ "flags": []
+}

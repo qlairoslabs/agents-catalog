@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "da3a738bee23dc3a932c92e0029cdfc10b4afd06d39684a266a64c23999f9be4",
+ "domain": [
+  "legal/legislation",
+  "government/switzerland"
+ ],
+ "product": [
+  "fedlex",
+  "termdat",
+  "lindas"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Queries Swiss federal law, consultations and TERMDAT terminology through SPARQL on Fedlex and LINDAS.",
+ "whenToUse": "Use when an agent needs Swiss federal legal texts, consultations or official terminology.",
+ "tasks": [
+  "search federal law",
+  "read legal texts",
+  "list consultations",
+  "look up terminology",
+  "run sparql queries"
+ ],
+ "effects": {},
+ "flags": []
+}

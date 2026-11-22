@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "163b71be5b6085242ab13d479190af5dae687f02e08da39fc5cde65534e47e67",
+ "domain": [
+  "finance/market-data",
+  "finance/currency"
+ ],
+ "product": [
+  "arzbin"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Indicative Iranian market rates for fiat currencies, gold, coins and crypto in Toman, with history and conversion.",
+ "whenToUse": "Use when you need current or historical Toman exchange, gold or crypto rates.",
+ "tasks": [
+  "convert to Toman",
+  "get gold rates",
+  "get crypto rates",
+  "get fiat rates",
+  "get OHLC history",
+  "compare rate sources"
+ ],
+ "effects": {
+  "4482fa6a2c499ad52a633e74081eca805aa820c4f7f2f636b8d93d83d64451ce": "read",
+  "ddf800c5e207fb59327218e665028b5d0a57d02fa628808a94f4a7b2eae1f78b": "read",
+  "70e0ff16dbddd4bac05d77e3165c788513a10e738c32f070be9a8fd772ece8f8": "read",
+  "e41e0f694a07730238f44799284357a3c2c38aff81d45349bfce6921f0d7d255": "read",
+  "3847307fc56a0e9b1255265234aab45fc18878e11ba9a45308aa48907eab06a8": "read",
+  "f35ff4ec61b9f24d262eb569a389840b3d9036dc85d2659317283ee7e97f5f5c": "read"
+ },
+ "flags": []
+}

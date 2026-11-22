@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c4e540673752d49e149bc1e3d0d50eca9dbd318b4f5e126d7f366e67ee1fb956",
+ "domain": [
+  "customer-support/helpdesk",
+  "software/b2b-support"
+ ],
+ "product": [
+  "plain"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Connects AI assistants to customer support data and workflows in Plain.",
+ "whenToUse": "Use when an agent needs to read or act on customer support threads and workflows in Plain.",
+ "tasks": [
+  "read support threads",
+  "access customer data",
+  "run support workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

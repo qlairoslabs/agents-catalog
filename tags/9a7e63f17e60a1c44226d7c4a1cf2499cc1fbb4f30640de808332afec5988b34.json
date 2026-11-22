@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "9a7e63f17e60a1c44226d7c4a1cf2499cc1fbb4f30640de808332afec5988b34",
+ "domain": [
+  "pets/adoption",
+  "animal-welfare"
+ ],
+ "product": [
+  "petnecto",
+  "petharbor"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds adoptable shelter pets and rescues in Taiwan, parts of the US, Zaragoza, Fukushima and Vienna, searchable by place, species or free-text wishes.",
+ "whenToUse": "Use when someone wants to find adoptable pets or shelters near a place and contact the rescue.",
+ "tasks": [
+  "show pets",
+  "search pets by filters",
+  "search by description",
+  "resolve place",
+  "find nearby shelters",
+  "resolve breed",
+  "get pet details",
+  "get rescue details",
+  "find similar pets",
+  "list available filters"
+ ],
+ "effects": {
+  "e730e53947d3ac4be0372445114919b5d65e35f2e1b0c13fac88ba47f3407ac0": "read",
+  "a0207c715fd7fc0b566fc388b1addc51fa9801a84c22eea39ce9da7a57b8e21c": "write",
+  "72f9498b1cf2ccf5d9f7a711aa5b1fce4b9bb29083e9f5c0c9601152f6f896f4": "read",
+  "a68529bc9711c5bf1a05280477fc132a7039306dde746f3c80fb8894bfce95ca": "read",
+  "7747a20ba052e13a3a9f37f5bcdb25a4010a3029e8d2bd85cbdfbbdb774e7918": "read",
+  "0fb0aca3f55ae00971d5c643a660f481f50224bbaf9f467297b0c48da5260db1": "read",
+  "f51fd5f16355bed6f3350dae9c6767353e87f2588406f8fd5781043292b9f94b": "read",
+  "18eb9a657f53ee79b4389bb7b08a6aed892daf88080c62b866f8e6e1bd716a0f": "read",
+  "7eb0f953a128207bdcae1734967489e3af80569fbe75d4e323dbdfbd52e63b0f": "write",
+  "61541a633c787e40bac7e9e20c6c9b93776becfd9edec593b15e0157c4c82bd8": "read",
+  "402ec66301815e14784274c260ec806f3b521d4e13b10f00d7ce8034322da283": "read"
+ },
+ "flags": []
+}

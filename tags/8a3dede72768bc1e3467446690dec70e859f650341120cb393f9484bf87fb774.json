@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "8a3dede72768bc1e3467446690dec70e859f650341120cb393f9484bf87fb774",
+ "domain": [
+  "software/sandboxes",
+  "software/cloud-infrastructure"
+ ],
+ "product": [
+  "runtime"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Provides Linux microVM sandboxes for AI agents to run commands, manage files and processes, and pause or resume them.",
+ "whenToUse": "Use when an agent needs an isolated Linux environment to execute code or commands.",
+ "tasks": [
+  "create sandbox",
+  "run commands",
+  "manage files",
+  "manage processes",
+  "pause sandbox",
+  "wake sandbox"
+ ],
+ "effects": {},
+ "flags": []
+}

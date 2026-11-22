@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "6f5357e54eb524a7a34c9f535ee6d43203819e31c1683cd8edc9688ee88e6942",
+ "domain": [
+  "software/api-documentation",
+  "telecom/sms-verification"
+ ],
+ "product": [
+  "smspva"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Searchable documentation and code examples for the SMSPVA API covering SMS activation, number rental and private email.",
+ "whenToUse": "Use when integrating with the SMSPVA API or looking up its methods and examples.",
+ "tasks": [
+  "search docs",
+  "read doc pages",
+  "get code examples",
+  "list doc pages"
+ ],
+ "effects": {
+  "9aadc60239d7333512e2cb14fad29c76a778ab866c9696a9c9a8137a46fd8d0a": "read",
+  "2145a60990e855a0d233c3dc694c3b2a216d567377cffea519a26594b1358184": "read",
+  "355b8592a27c3bde9e5acee507993d9ed81bb3be5f6a456df35d46c64b06be56": "read",
+  "f22e2ad7fa71eafdb9a0f04550d26dd7707c0ba0e415536e185e0ac8a25ac1ff": "read"
+ },
+ "flags": [
+  "service provides disposable phone numbers for SMS verification, which is commonly used to bypass account verification"
+ ]
+}

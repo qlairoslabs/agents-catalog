@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "86530d70b6ade54e31506c9b7efdb05148f0a58400b99f0a164bb3b556a4a770",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone",
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Local CLI connector to read, search and send messages from your WhatsApp account.",
+ "whenToUse": "Use when you need to read or send WhatsApp messages after the user signs in with the wa CLI.",
+ "tasks": [
+  "read messages",
+  "search messages",
+  "send messages"
+ ],
+ "effects": {},
+ "flags": []
+}

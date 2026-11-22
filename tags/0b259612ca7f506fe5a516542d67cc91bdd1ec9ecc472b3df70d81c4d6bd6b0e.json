@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0b259612ca7f506fe5a516542d67cc91bdd1ec9ecc472b3df70d81c4d6bd6b0e",
+ "domain": [
+  "design/visual-generation",
+  "marketing/creative-automation"
+ ],
+ "product": [
+  "abyssale"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Lets an AI client browse, generate and import Abyssale designs such as banners, videos and PDFs.",
+ "whenToUse": "Use when a user needs to produce marketing visuals from Abyssale templates.",
+ "tasks": [
+  "browse designs",
+  "generate banners",
+  "generate videos",
+  "generate pdfs",
+  "import designs"
+ ],
+ "effects": {},
+ "flags": []
+}

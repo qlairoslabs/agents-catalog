@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "aa38af41de0d82755adcb325b0c6fd2ec171af3048c49f2848411a4696ac7fa1",
+ "domain": [
+  "hr/pay-transparency",
+  "legal/compliance"
+ ],
+ "product": [
+  "pariteck",
+  "egapro"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "hire-and-manage"
+ ],
+ "summary": "Public information on French and EU pay transparency, Egapro index lookups and a first-pass readiness check.",
+ "whenToUse": "Use when assessing pay transparency obligations or looking up a French company's Egapro index.",
+ "tasks": [
+  "search public pages",
+  "fetch page",
+  "assess readiness",
+  "simulate 2027 index",
+  "get contact form link"
+ ],
+ "effects": {
+  "f550c2ebc42d8b182a21901cd0b19fbb93b1a0091c6be36dbc233613dedfc956": "read",
+  "27225f46708fe5390edbf6e14b963eb8d42f7c8afe0a9a5c3fd68bf5a0a20913": "read",
+  "cc42aec66618d9c0fb2f941de5a51817e276eae691555726fbb1fb6370213d3e": "read",
+  "ff033f721016e05b08b9975cc49e1463c8a6f15ba22820a89c78f01310d975c4": "read",
+  "c44cf54a47b61d293ca1af0b329ee7b3fd3330ac47f5848c4838c47131930521": "read"
+ },
+ "flags": []
+}

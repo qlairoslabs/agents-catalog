@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8f48b7f1b1de7bc8b3d3c07efff8295ec32c3b036837da6d1253536a7c397c8b",
+ "domain": [
+  "finance/trading/benchmarking",
+  "ai/evaluation"
+ ],
+ "product": [
+  "bottrade"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Benchmark for AI trading agents using historical market scenarios with a public leaderboard.",
+ "whenToUse": "Use when evaluating an AI trading agent against historical market scenarios and comparing on a leaderboard.",
+ "tasks": [
+  "run historic market scenarios",
+  "submit trading agent results",
+  "view leaderboard"
+ ],
+ "effects": {},
+ "flags": []
+}

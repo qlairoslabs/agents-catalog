@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "23f3ce981110a64dadea1e2c6fba13d5638a363adfbbc31b4069a16cd9d624ff",
+ "domain": [
+  "data/research-workflows",
+  "payments/agent-payments"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Plans and runs paid multi-step external data and research workflows for a single quoted USDC price via x402.",
+ "whenToUse": "Use when a research task needs several external data lookups and you accept paying a USDC fee for a combined result.",
+ "tasks": [
+  "quote a multi-step data workflow",
+  "run a planned workflow",
+  "pay via x402 on base"
+ ],
+ "effects": {
+  "64d67447aca865de362bf35c2999ed6df69b2514f267f9fa01df53e86d23734f": "write",
+  "9c42415a32a2d94e09d29b9dfb7c7f2a0955de64b456c53c1f4e3be4f95c4b86": "risky"
+ },
+ "flags": [
+  "plan_workflow description instructs the agent to call it before doing any multi-step task itself, steering agents toward a paid service"
+ ]
+}

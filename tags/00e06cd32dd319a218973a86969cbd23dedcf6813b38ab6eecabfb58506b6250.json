@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "00e06cd32dd319a218973a86969cbd23dedcf6813b38ab6eecabfb58506b6250",
+ "domain": [
+  "research/games-industry",
+  "media/directory"
+ ],
+ "product": [],
+ "audience": [
+  "marketing",
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Curated directory of sources, market profiles, trends, platform and genre maps and search techniques for researching the video games industry.",
+ "whenToUse": "Use when researching the games industry and you need to know where to find data, press or analysts for a given market.",
+ "tasks": [
+  "search sources",
+  "get source details",
+  "get market research guide",
+  "list industry trends",
+  "view platform and genre maps",
+  "find search techniques"
+ ],
+ "effects": {
+  "4d45b9c32d3e96089c934763d6204e303d1cf29fc1212e235a25c1a1f4284de6": "read",
+  "5a6cf17105c06cc7c1ede690eabe2aedf031cfc0023666ddea5d877c8b4e2ead": "read",
+  "621072d7154257f12cb6340417776405cfd04183ff610a8590ec65ab4355d3c8": "write",
+  "db213b813e7d5c3743a0b035fdf39e90273db9eab82b7c7335bac0c81cbf5f15": "write",
+  "75604b4f071a7f18dc1699c6a306e2b70e37bee4e181590ff702f7edc3e6094c": "read",
+  "c631c458dfa58f6f383ffe005b3f34b606b06f7194d5782cfebb80aab38d7c31": "read"
+ },
+ "flags": []
+}

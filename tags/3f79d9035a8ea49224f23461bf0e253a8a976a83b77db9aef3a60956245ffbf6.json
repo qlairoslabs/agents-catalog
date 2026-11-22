@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3f79d9035a8ea49224f23461bf0e253a8a976a83b77db9aef3a60956245ffbf6",
+ "domain": [
+  "sales/crm"
+ ],
+ "product": [
+  "nimble"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch",
+  "sell"
+ ],
+ "summary": "Connects AI assistants to Nimble CRM contacts and relationship data.",
+ "whenToUse": "Use when an agent needs to look up or update customer and contact records in Nimble CRM.",
+ "tasks": [
+  "look up contacts",
+  "update contact records",
+  "review relationship data"
+ ],
+ "effects": {},
+ "flags": []
+}

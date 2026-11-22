@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3a00a2ce12494ed936e0e0d39358bceb3ed6b151cebfd5e172614e05e8c67f04",
+ "domain": [
+  "finance/equity-research",
+  "finance/market-events"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Builds a ranked calendar of upcoming scheduled and foreseeable events that could move a public company's stock, using Bigdata.com data.",
+ "whenToUse": "Use when a user asks what upcoming events or key dates could move a specific public company.",
+ "tasks": [
+  "list scheduled catalysts",
+  "identify unscheduled foreseeable catalysts",
+  "estimate catalyst direction and magnitude",
+  "rank catalysts by impact",
+  "review events calendar",
+  "review filings and news"
+ ],
+ "effects": {},
+ "flags": []
+}

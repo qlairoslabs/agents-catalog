@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "edb8b76b17269a1c6d1b59131d91b4fb0c41489b8dc3dfa87e24d9020839cab6",
+ "domain": [
+  "entertainment/music-festivals"
+ ],
+ "product": [
+  "setline"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up music festivals worldwide: dates, locations, lineups, set times, artists and ticket links.",
+ "whenToUse": "Use when someone asks which festivals are on, who is playing, when an artist performs, or where to buy tickets.",
+ "tasks": [
+  "search festivals",
+  "get festival details",
+  "get lineup",
+  "get set times",
+  "search artists",
+  "find an artist's upcoming festivals",
+  "list what's on this weekend"
+ ],
+ "effects": {
+  "8caa6ad13c22dd260bb2ef32e13eb55711632f1a61baea981be76fc6d2409012": "read",
+  "11f53f86c5c8a9473320aea663a061cdf5e3ef223327b84da5e613f411fa2414": "read",
+  "f056ab7fc1106fb2a7ddd7b8af33dd8b7e37a24792c2c2eb47c23e09416c2c72": "read",
+  "19846754b30979d8ddd8abadef2de1023a3a95e4d427d2fbe64027c346150386": "read",
+  "18ab1b45e28893b74172f0a4ace7436ca3147792d0f85ab4e14634166bc6c4f0": "read",
+  "45a62c349ec0bec8a6069fb9cf38cc435ab1baf3d07561ce5cb2b6242feb4d83": "read",
+  "fdb181b1ffc8c501440bac315e0ad496d20840cdf9db93f05ab731ed673407be": "read"
+ },
+ "flags": []
+}

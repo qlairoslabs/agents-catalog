@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f4a94c7976652498e8addf187182b5d6211420272491e34697d82e4a553f7d5f",
+ "domain": [
+  "commerce/ecommerce/logistics",
+  "finance/payments"
+ ],
+ "product": [
+  "rocket-ecom"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Manages cash-on-delivery orders, shipping labels, wallet, catalogue and shipments on Rocket in Ecuador and Chile.",
+ "whenToUse": "Use when an online seller in Ecuador or Chile needs to handle Rocket orders, shipping guides or wallet balance.",
+ "tasks": [
+  "manage cash-on-delivery orders",
+  "create shipping guides",
+  "check wallet",
+  "manage product catalogue",
+  "track shipments"
+ ],
+ "effects": {},
+ "flags": []
+}

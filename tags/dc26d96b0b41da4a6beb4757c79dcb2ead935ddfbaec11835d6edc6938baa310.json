@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "dc26d96b0b41da4a6beb4757c79dcb2ead935ddfbaec11835d6edc6938baa310",
+ "domain": [
+  "software/documentation",
+  "developer-tools"
+ ],
+ "product": [
+  "developerhub"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches, browses and reads a DeveloperHub documentation site, including versions, sections, pages and API endpoint references.",
+ "whenToUse": "Use when you need to look up DeveloperHub product docs or API endpoint details.",
+ "tasks": [
+  "search docs",
+  "list versions",
+  "list sections",
+  "list pages",
+  "read page",
+  "list API endpoints",
+  "read endpoint"
+ ],
+ "effects": {
+  "749b03a46f4cb819926284c79fb6b0334ba570fb7d233f767dcfeac0a4de50dc": "read",
+  "9b309d87c53792f5be047dd9886b24e99a7c71601b26c496f49b152634a4a01c": "read",
+  "f2264af277c2222e54e3065ecc4343e73766a7210c5f36ef702c193524c80735": "read",
+  "b3049447ec80e2b5de6ef2a1bdaf27fb95e399a65ea374788624d04938dc837d": "read",
+  "97d36beba9d2a93ca74268ffac3d26969f4621872c58678f2aeb403dc53a9098": "read",
+  "75c277072c615f2f22354b5311bb1a71a41390661c13578ee27c524e19d9a127": "read",
+  "715880baa4e452cc895f2a04c9e691166fd06655ad5bb9989cd028912aaf9993": "read"
+ },
+ "flags": []
+}

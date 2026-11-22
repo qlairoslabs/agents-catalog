@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "fd0f37f1e5701cd8e08b06880e295f93010544e97fea6a446d7c10fef6ef6058",
+ "domain": [
+  "ai/generative-models"
+ ],
+ "product": [
+  "civitai"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Connects to Civitai, a hub for sharing AI image generation models.",
+ "whenToUse": "Use when an agent needs to look up AI image models or related content on Civitai.",
+ "tasks": [
+  "search models",
+  "get model details"
+ ],
+ "effects": {},
+ "flags": []
+}

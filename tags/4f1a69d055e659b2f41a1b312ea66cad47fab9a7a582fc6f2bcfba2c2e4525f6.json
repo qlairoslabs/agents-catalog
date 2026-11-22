@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4f1a69d055e659b2f41a1b312ea66cad47fab9a7a582fc6f2bcfba2c2e4525f6",
+ "domain": [
+  "it/remote-agent-access",
+  "software/governance"
+ ],
+ "product": [
+  "zp-nexus"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Lets AI assistants work on company computers and projects with permissions, approvals and audit logs.",
+ "whenToUse": "Use when an organization wants agents to act on its machines and projects under controlled approvals.",
+ "tasks": [
+  "access company computers",
+  "work on projects",
+  "manage permissions",
+  "request approvals",
+  "audit agent actions"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "38dddedbc31249118b440458f4440297351290d63797c5a0539e9ae81ae42f73",
+ "domain": [
+  "prediction-markets",
+  "finance/forecasting"
+ ],
+ "product": [
+  "manifold-markets"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read access to Manifold Markets: search prediction markets, get market details, users and bets.",
+ "whenToUse": "Use when a user wants forecasts, market odds or trader information from Manifold.",
+ "tasks": [
+  "search markets",
+  "get market details",
+  "get user",
+  "get bets",
+  "search users"
+ ],
+ "effects": {
+  "947c41e7068a1c4df953b23030fba2e72af7c382f9d63b700e0bde218dda6f74": "read",
+  "b73f71493cc0534f074d8a7ea01bfe2dad439d712c56b72648ad53d13dcad945": "read",
+  "2f30aeed0c9e56e1277fae3a8f89c1cf127eb200512154587112e6344be01c96": "read",
+  "e8b3e5d1fb67fddeb09ccf348ceb45b5c9a45a07feb986d640a5cb2803c51d3e": "read",
+  "11d0ace8b0a377bbb7a2517df774e341433ebbfe2f9ddebf3a242d08ecb965c8": "read"
+ },
+ "flags": []
+}

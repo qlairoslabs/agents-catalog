@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4218c62fcbbef1edb4e93beb872b1ed0fb651131e92d72c43c7ad32c48a54733",
+ "domain": [
+  "data/local-business",
+  "data/reviews"
+ ],
+ "product": [
+  "yelp",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Provides Yelp business and review data through 4 endpoints, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs Yelp business listings or reviews and can pay per request in USDC.",
+ "tasks": [
+  "fetch yelp businesses",
+  "fetch yelp reviews",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

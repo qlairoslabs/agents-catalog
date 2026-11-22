@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "09466c76030692930b062de5e1eeb033004656416bcaf79d66275de6c19f4fce",
+ "domain": [
+  "customer-feedback"
+ ],
+ "product": [
+  "suggestionbox-tips"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Sends a user's private suggestion, complaint or compliment to a business's suggestion box and looks up whether a business has one.",
+ "whenToUse": "Use when a user wants to send feedback privately to a business, after confirming the wording.",
+ "tasks": [
+  "find business suggestion box",
+  "leave suggestion",
+  "report problem",
+  "send compliment",
+  "attach order reference"
+ ],
+ "effects": {
+  "562da87a2626f455fddaf02051812a1ba2935e6b56433e6f6300c8facd38dff9": "read",
+  "4a0c704be801f495d902ea639ab3de0187cd6f9bf1e2801395cbbc10d0de180a": "write"
+ },
+ "flags": []
+}

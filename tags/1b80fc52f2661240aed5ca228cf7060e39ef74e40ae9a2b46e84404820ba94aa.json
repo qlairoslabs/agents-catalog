@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "1b80fc52f2661240aed5ca228cf7060e39ef74e40ae9a2b46e84404820ba94aa",
+ "domain": [
+  "website/wix-site-assistant",
+  "software/consulting"
+ ],
+ "product": [
+  "wix",
+  "zoho",
+  "codestringers"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Wix-powered assistant for the CodeStringers site: business details, site search, Wix API docs, and calls or code run against the site's Wix APIs.",
+ "whenToUse": "Use when seeking CodeStringers business details or Zoho/custom software content, or when working with Wix APIs on that site.",
+ "tasks": [
+  "get business details",
+  "search site content",
+  "search Wix API docs",
+  "read docs articles",
+  "browse docs menu",
+  "generate visitor token",
+  "call Wix site API",
+  "run JavaScript against Wix API"
+ ],
+ "effects": {
+  "81cacfec7927628e5cf5f571e15c1c79345d838cd9307b4a9b24763e6727ad06": "write",
+  "4f5e1d9748c597ebf8ae05ae069dcdf99bf50d83cbdb6a632cf0807a2fc7f71f": "write",
+  "c5414b1f0851d2e00cad4946c1526a44fbf97fca1496326e48b83b56e838eac9": "write",
+  "6478773236562844d4e9d909f8bfc382b11c9d865a51ea5c11e6a09ee4f408ed": "write",
+  "93f9dc43897ee53713beb016d57c912ef8664b6625462af19f4ea8826868a9f2": "write",
+  "27963f95922b59762490bc04599fba841ad64e1016585dcd222e911a26cfb12d": "write",
+  "ddc79a7bb3b0534bb6837619a93205823fb193e5398535547e18da2c6d9e712f": "write",
+  "2c67b9ee4b6ced41aad0a0f3860c89b341b2234e509d8776073883f833551340": "read",
+  "9c3c5a6294052e28098044ab6140c982b19140737f0fd14d87baaed76d72195a": "write",
+  "38ebb90d648536c145af31330be100de3fab42d526844874a1c8e3db731038cd": "risky"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b80c5a5d34b58e7c7d29260ee9bde8bfe61ce8838703ca2ecb5791d24804ef91",
+ "domain": [
+  "sales/crm",
+  "marketing/funnels"
+ ],
+ "product": [
+  "chasync"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to the Chasync CRM to work with leads, funnels, forms, email templates and analytics.",
+ "whenToUse": "Use when managing leads, sales funnels, forms or email templates in Chasync CRM.",
+ "tasks": [
+  "manage leads",
+  "manage funnels",
+  "manage forms",
+  "manage email templates",
+  "view analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

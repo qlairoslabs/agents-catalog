@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b2d6c342519e47693932f5331c9661844699645fcb2117aa70a9098268449df1",
+ "domain": [
+  "analytics/product",
+  "ai/insights"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Collects recent findings from Amplitude's AI agents, checks freshness and summarizes them into one narrative ranked by impact.",
+ "whenToUse": "Use when the user asks what Amplitude's AI agents have found or wants a digest of recent AI insights.",
+ "tasks": [
+  "fetch ai agent results",
+  "check result freshness",
+  "rank findings by impact",
+  "write unified insights digest"
+ ],
+ "effects": {},
+ "flags": []
+}

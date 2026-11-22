@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3751b1e0a036813416fff83c8747e70547670f79bd61f9b44c22e942cde7049f",
+ "domain": [
+  "ai/agent-governance",
+  "software/compliance/audit"
+ ],
+ "product": [
+  "marrow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Local npm MCP server that checks AI agent actions against policy before execution and records an audit trail.",
+ "whenToUse": "Use when agent actions need policy approval before running and a record afterwards.",
+ "tasks": [
+  "check actions against policy",
+  "gate agent actions",
+  "record audit trail",
+  "produce action proof"
+ ],
+ "effects": {},
+ "flags": []
+}

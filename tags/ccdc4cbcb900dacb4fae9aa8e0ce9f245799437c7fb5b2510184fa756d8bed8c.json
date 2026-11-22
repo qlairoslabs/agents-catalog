@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "ccdc4cbcb900dacb4fae9aa8e0ce9f245799437c7fb5b2510184fa756d8bed8c",
+ "domain": [
+  "healthcare/dental",
+  "local-business/argentina"
+ ],
+ "product": [
+  "dental-digital-center",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "get-customers"
+ ],
+ "summary": "Read-only information for a Buenos Aires dental clinic: treatments, reference prices in ARS, hours, FAQs and how to book.",
+ "whenToUse": "Use when someone asks about this clinic's treatments, prices, location or how to request an appointment.",
+ "tasks": [
+  "get clinic info",
+  "list treatments",
+  "get treatment details",
+  "get reference prices",
+  "answer FAQs",
+  "explain how to book"
+ ],
+ "effects": {
+  "f386624cf8ee9421f32072c4c2a5ae7d76db7546af6fcd5ae22c3580055de40f": "read",
+  "a77e761d0738069b34a60da793615d190e8931a010df9d3d65056828bfb69b5e": "read",
+  "aaa18c05e1eef623d838a71e5541d8a298861c4b5f8ca5a80f087d9a5bc235e5": "read",
+  "f269b6150838471a0ea243259b8d4eea97d3c8de3ae710ef85c906caf582b159": "read",
+  "49fe44c7fcd5b303920212f41ec0d804b76778bff738c573a6da12b2d9d27e75": "read",
+  "f61cd84de5b9fbbd646f51861584c2cc5c0bbdfbd247c79d921a45bde2da953c": "read"
+ },
+ "flags": []
+}

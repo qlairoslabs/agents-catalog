@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "77769c578ce04539ce856c8e228840ff4d6a5a10dd535702c798dae6787d2f97",
+ "domain": [
+  "media/music-generation",
+  "ai/generative"
+ ],
+ "product": [
+  "suno",
+  "ace-data-cloud"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates music, lyrics and covers with Suno through the Ace Data Cloud API and fetches task results.",
+ "whenToUse": "Use when an agent needs to create AI-generated songs, lyrics or covers.",
+ "tasks": [
+  "generate music",
+  "write lyrics",
+  "create covers",
+  "retrieve generation task results"
+ ],
+ "effects": {},
+ "flags": []
+}

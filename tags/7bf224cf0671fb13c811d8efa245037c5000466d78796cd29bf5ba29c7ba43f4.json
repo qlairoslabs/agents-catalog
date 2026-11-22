@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "7bf224cf0671fb13c811d8efa245037c5000466d78796cd29bf5ba29c7ba43f4",
+ "domain": [
+  "software/documentation",
+  "software/ui-components"
+ ],
+ "product": [
+  "handsontable",
+  "hyperformula"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Semantic search over Handsontable and HyperFormula docs, recipes, blog posts, release notes and GitHub issues.",
+ "whenToUse": "Use when building with Handsontable or HyperFormula and you need documentation or known issues.",
+ "tasks": [
+  "search documentation",
+  "search release notes",
+  "search GitHub issues",
+  "find code recipes"
+ ],
+ "effects": {
+  "a881af847ebf9cf499372de78b05beeb473f5eb979707bbe6ebfd347620d8508": "write"
+ },
+ "flags": []
+}

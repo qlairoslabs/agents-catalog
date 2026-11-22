@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5c5508b3fcf3ea21d9a32f4567283441dae3f32ca08664a2a5bd25af2574f411",
+ "domain": [
+  "software/browser-automation"
+ ],
+ "product": [
+  "kernel"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs a cloud browser that can navigate websites, sign in, fill forms, make purchases and download files for a user.",
+ "whenToUse": "Use when a task requires operating a website that has no API, such as filling forms or completing a checkout.",
+ "tasks": [
+  "navigate websites",
+  "sign in to sites",
+  "fill forms",
+  "make purchases",
+  "download files"
+ ],
+ "effects": {},
+ "flags": [
+  "can sign in and make purchases on user's behalf"
+ ]
+}

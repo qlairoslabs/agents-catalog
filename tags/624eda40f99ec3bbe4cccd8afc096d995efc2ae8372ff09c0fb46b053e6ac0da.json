@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "624eda40f99ec3bbe4cccd8afc096d995efc2ae8372ff09c0fb46b053e6ac0da",
+ "domain": [
+  "travel/tour-planning",
+  "travel/thailand"
+ ],
+ "product": [
+  "jenesis-travel",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Bangkok boutique travel planner offering Thailand journeys, prices, FAQs and budget estimates, with a way to file a planning enquiry.",
+ "whenToUse": "Use when a traveller is exploring luxury Thailand trips and may want to send an enquiry to Jenesis.",
+ "tasks": [
+  "get company facts",
+  "list journeys",
+  "get journey details",
+  "list FAQs",
+  "estimate trip budget",
+  "file a planning enquiry"
+ ],
+ "effects": {
+  "4216c368ca0c53f0f57a51baf2d9daad834b951116b5ea36a058cb53bc22fa8d": "read",
+  "115ab73f1db212a157e5b5e02e5de5daca072753f841678372da34443abb0b17": "read",
+  "68ffa4c0c56fbaff6a04f1cba6137721af5d0deed22df4c9986dc78f35445116": "read",
+  "8638ecf8fce3b88b8994e209144f84f5747d5b3b48d007944aad261e3dcc546a": "read",
+  "b867858de20d0c3ec8856deb5ea2b4a349fc61be2fc76786d47fdcccbf5dae52": "read",
+  "af28a7649f4b31837df2fcc4e8124bc10f99141708079d2b9b73e71137fd5467": "write"
+ },
+ "flags": []
+}

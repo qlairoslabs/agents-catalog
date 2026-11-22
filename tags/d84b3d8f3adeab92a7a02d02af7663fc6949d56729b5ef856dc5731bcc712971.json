@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d84b3d8f3adeab92a7a02d02af7663fc6949d56729b5ef856dc5731bcc712971",
+ "domain": [
+  "analytics/experimentation",
+  "product/management"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reviews active and recently finished Amplitude experiments, triages them by importance and reports deeper analysis on the most impactful.",
+ "whenToUse": "Use when the user asks for experiment status, an experiment review, or a periodic experiment health report.",
+ "tasks": [
+  "list active experiments",
+  "list recently completed experiments",
+  "triage experiments by importance",
+  "analyze experiment results",
+  "produce experiment health report"
+ ],
+ "effects": {},
+ "flags": []
+}

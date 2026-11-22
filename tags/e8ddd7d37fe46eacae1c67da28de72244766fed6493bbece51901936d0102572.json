@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e8ddd7d37fe46eacae1c67da28de72244766fed6493bbece51901936d0102572",
+ "domain": [
+  "hosting/game-servers",
+  "hosting/vps"
+ ],
+ "product": [
+  "boxtoplay",
+  "minecraft",
+  "bungeecord",
+  "teamspeak"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Hosting provider for Minecraft, BungeeCord, TeamSpeak, VPS and other game servers, accessible over MCP.",
+ "whenToUse": "Use when someone wants to set up or manage hosted game servers or a VPS with BoxToPlay.",
+ "tasks": [
+  "manage game servers",
+  "manage vps",
+  "host minecraft server",
+  "host teamspeak server"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e5fd1384c12a23e0bc124cf30dbcf0b834b6cc03e6eb1e81677cad223c7ed390",
+ "domain": [
+  "travel/visa-requirements"
+ ],
+ "product": [
+  "easyonward"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Checks visa, entry and transit requirements for a passport and destination pair, with official source links.",
+ "whenToUse": "Use when a user asks whether they need a visa to travel to a country.",
+ "tasks": [
+  "check visa requirements",
+  "resolve country to ISO code"
+ ],
+ "effects": {
+  "950985752a542caa0eb3b1393665fec38f110860611450b0837a534dc6b46a7b": "read",
+  "f591ad681012183b3ec63df0814a7624a935afbf4e0c4d311e18c48c4131816a": "read"
+ },
+ "flags": []
+}

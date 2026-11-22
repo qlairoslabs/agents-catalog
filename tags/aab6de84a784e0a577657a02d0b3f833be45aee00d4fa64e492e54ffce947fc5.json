@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "aab6de84a784e0a577657a02d0b3f833be45aee00d4fa64e492e54ffce947fc5",
+ "domain": [
+  "software/developer-tools/language-server",
+  "software/ecommerce/themes"
+ ],
+ "product": [
+  "shopify",
+  "shopify-cli",
+  "liquid"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Adds the Shopify CLI theme language server for Liquid template code intelligence.",
+ "whenToUse": "Use when editing Shopify Liquid theme files.",
+ "tasks": [
+  "liquid code intelligence",
+  "theme diagnostics",
+  "code completion"
+ ],
+ "effects": {},
+ "flags": []
+}

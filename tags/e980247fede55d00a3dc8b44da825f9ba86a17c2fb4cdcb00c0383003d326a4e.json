@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "e980247fede55d00a3dc8b44da825f9ba86a17c2fb4cdcb00c0383003d326a4e",
+ "domain": [
+  "cloud/azure/architecture",
+  "software/infrastructure-as-code"
+ ],
+ "product": [
+  "azure",
+  "bicep",
+  "terraform",
+  "azure-backup"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Plans and provisions enterprise Azure infrastructure such as landing zones, networks and DR, generating Bicep or Terraform.",
+ "whenToUse": "Use when cloud architects need enterprise-scale Azure networking, identity, security or multi-region topology designs.",
+ "tasks": [
+  "plan azure infrastructure",
+  "design landing zones",
+  "design hub-spoke networks",
+  "plan multi-region dr",
+  "set up vnets, firewalls and private endpoints",
+  "generate bicep or terraform",
+  "deploy at subscription scope",
+  "configure vm backup"
+ ],
+ "effects": {},
+ "flags": []
+}

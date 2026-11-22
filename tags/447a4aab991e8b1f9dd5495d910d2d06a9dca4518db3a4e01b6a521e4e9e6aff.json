@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "447a4aab991e8b1f9dd5495d910d2d06a9dca4518db3a4e01b6a521e4e9e6aff",
+ "domain": [
+  "finance/investment-research",
+  "finance/market-data"
+ ],
+ "product": [
+  "octagon",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides market intelligence including SEC filings, earnings transcripts and financial data.",
+ "whenToUse": "Use when researching companies through filings, earnings calls or financial metrics.",
+ "tasks": [
+  "analyze sec filings",
+  "read earnings transcripts",
+  "get financial data",
+  "research investments"
+ ],
+ "effects": {},
+ "flags": []
+}

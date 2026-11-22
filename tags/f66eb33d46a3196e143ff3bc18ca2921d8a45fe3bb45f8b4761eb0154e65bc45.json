@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "f66eb33d46a3196e143ff3bc18ca2921d8a45fe3bb45f8b4761eb0154e65bc45",
+ "domain": [
+  "finance/stock-analysis",
+  "investing"
+ ],
+ "product": [
+  "invest-like"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyses over 21,000 stocks against published rules of famous investors, with valuation checks, comparisons, screens, halal screening and portfolio scoring.",
+ "whenToUse": "Use when a user asks about a stock, wants to compare stocks, screen by investor rules or metrics, or score a portfolio.",
+ "tasks": [
+  "explain a stock",
+  "check valuation",
+  "compare stocks",
+  "score a portfolio",
+  "find stocks by rule",
+  "check investor rulebooks",
+  "check halal status"
+ ],
+ "effects": {
+  "1a8ceb20383265c33794755cc762ce1626775e8332dfbcd0cba0b46e9bdf7cdc": "write",
+  "c3987d918523c01def7cfbb90d03a10b6f2c06624592cf5a7cc2d06268b35087": "read",
+  "445f3104578c555aa834697e81121ad702c8303761c1ea052809fcbbb2038e22": "read",
+  "9fcf1e19a40a037feeccf005e443a02924b4956496b689529d8dbaa123a305e8": "write",
+  "09acd775e36843db4d75fafea31186cacfbefc97e6f8c805e723ceb82eee41a3": "write",
+  "19549bee265809e555a1a85858c8933c05d11e37ac1b2a3df1ba933792c1286f": "read",
+  "cb238007049ea2f9e34d33335d2ccc304154f0f5d3cad9e89d0e8f3abf541be4": "read"
+ },
+ "flags": []
+}

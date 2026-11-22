@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "2d01428e9425458bd55e0f2a02ceb0c1c948fcc0acb883875d12a420b04dbfee",
+ "domain": [
+  "gaming/game-database",
+  "gaming/strategy-rpg"
+ ],
+ "product": [
+  "final-fantasy-tactics"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Final Fantasy Tactics data on equipment, jobs, abilities, monsters and items across three releases.",
+ "whenToUse": "Use when a player asks about Final Fantasy Tactics gear, jobs, monsters, item sources or version differences.",
+ "tasks": [
+  "list covered versions",
+  "search entities by name",
+  "get full records",
+  "filter and sort equipment",
+  "find item sources",
+  "get job details",
+  "get monster details",
+  "compare entities across versions"
+ ],
+ "effects": {
+  "37d43b62c246d4a54e6ee1f03d31e750f6b6eb9a9d4ac35d5dae83da1e294cd2": "read",
+  "030696827c10bd221a2c800c01a8fd4df4e4a9604927bcbac911a0f35378c3df": "read",
+  "5376abba7e1c0fd02be20e274b174cca5ed5c1ac67194f5fb2d07b9984e2f217": "read",
+  "5ea0ce4b16bfe142727c44d26974141ddf30e3950396977b670491dc133850ba": "read",
+  "780ff62e43bcafa9a4cc26991c5cf8d1ee5dd08125d0c3477e44fd44e6097248": "read",
+  "41663dee0c8c4ebb26f6b2e726c1c0a2183d0b0817609b40efb228b5d144d5c9": "read",
+  "62c0c1ed57f36e57350226d254adb13adc508126972fa32c24ce4f3b8d4235a4": "read",
+  "5b9ecb5ccae0de06dc8059a871c9d5dc1b9c6ba9b52b604f36647d40b69e0b46": "read"
+ },
+ "flags": []
+}

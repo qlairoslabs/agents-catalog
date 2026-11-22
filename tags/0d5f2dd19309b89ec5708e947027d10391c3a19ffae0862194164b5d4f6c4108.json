@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0d5f2dd19309b89ec5708e947027d10391c3a19ffae0862194164b5d4f6c4108",
+ "domain": [
+  "analytics/product",
+  "software/incident-response"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Guides investigation of live product issues against Amplitude data, such as whether events fire, release breakage and affected users.",
+ "whenToUse": "Use for incident analysis, checking whether instrumentation is firing, or finding which users a problem affected.",
+ "tasks": [
+  "check if events are firing",
+  "assess release impact",
+  "find affected users",
+  "query amplitude data",
+  "avoid common query failure modes"
+ ],
+ "effects": {},
+ "flags": []
+}

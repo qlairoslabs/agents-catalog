@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "b52a4d91f5ab8aa7165a5f47a1023075792723b1a23eae0fe3f5a16c0f860492",
+ "domain": [
+  "commerce/retail-catalogue",
+  "photography"
+ ],
+ "product": [
+  "photo-warehouse"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches Photo Warehouse NZ's catalogue of new and second-hand photography products with prices and stock.",
+ "whenToUse": "Use when a user wants to find camera gear, prices or availability at Photo Warehouse NZ.",
+ "tasks": [
+  "search products",
+  "get product by SKU",
+  "list categories",
+  "list brands"
+ ],
+ "effects": {
+  "82c42796130122a60bfac2d8c186da931b1b805593a541d78ef7c15f2740408a": "read",
+  "15a5d82b0a758f4ecd7fd94bedfadca9ecd93b3a389248fa39904d939a44c9b6": "read",
+  "341db7a62c38caab5631c7ef1c0d12a9fe6bdc5c77f49c9ceb0da5439d7b8f6e": "read",
+  "d37b2e117e2a82f30c7e56b9bebedf770860368fb3f37d65d811cbd197b79786": "read"
+ },
+ "flags": []
+}

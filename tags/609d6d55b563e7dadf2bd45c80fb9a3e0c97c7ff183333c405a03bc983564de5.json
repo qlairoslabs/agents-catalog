@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "609d6d55b563e7dadf2bd45c80fb9a3e0c97c7ff183333c405a03bc983564de5",
+ "domain": [
+  "media/crypto-news"
+ ],
+ "product": [
+  "cryptowisser"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Latest crypto news and stories from Cryptowisser, searchable by entity, keyword or date.",
+ "whenToUse": "Use when a user asks about recent crypto news or developments about a coin, company or regulator.",
+ "tasks": [
+  "get latest news",
+  "news about an entity",
+  "trending stories",
+  "search news",
+  "read full article"
+ ],
+ "effects": {
+  "6ed6a3ec5480e30803b93f293450d26497b21067f65f955fc2a1769e600ffba6": "read",
+  "6b474c7c3597cdb1efcfe9bb57f1a57541322ff129ddc78f0a69ecc474da0f39": "read",
+  "4f0e8e7c4c546b4b1a2084d6f4644e2114e3ed411fa6c6b6ac358e7d6eb23276": "read",
+  "14ee048abaa424b0740a1e5b747e3dd015c7ab148989e22972f35b85eb19c1bc": "write",
+  "db83f2e5683ba4d685389f58c3b257422e1ebf87223cb59fe178bc394b57502c": "read"
+ },
+ "flags": []
+}

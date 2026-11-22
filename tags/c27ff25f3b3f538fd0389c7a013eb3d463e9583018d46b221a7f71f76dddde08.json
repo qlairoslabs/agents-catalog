@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c27ff25f3b3f538fd0389c7a013eb3d463e9583018d46b221a7f71f76dddde08",
+ "domain": [
+  "local-business/directory",
+  "food"
+ ],
+ "product": [
+  "melvea"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Finds local honey producers by place and optional varietal, with profiles and contact channels.",
+ "whenToUse": "Use when a user wants to find or buy local honey near a named place.",
+ "tasks": [
+  "find producers near a place",
+  "filter by honey varietal",
+  "get producer profile",
+  "search directory"
+ ],
+ "effects": {
+  "a58875c30e4ebdc610c82965aa2b31bf00b1fecde6558fe4319aae0dc26ead31": "write",
+  "f375ad628cac2e41084c1fb1f8c0ee34ccf09e5a366d79cca65b9b088642fa9c": "read",
+  "cca55e57291660f1e1974242b15f11bbdfe0cf5885c2f5dc3772ddb98acacbba": "read",
+  "2e502911f9347cae2e5a8fc7da6ba356407615d11e77e8506325e5c19d7108b5": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "edc768d0e0915870dc8d182909c24bb79c1b39751bd93bb047a370c8293876a7",
+ "domain": [
+  "software/source-control",
+  "software/devops"
+ ],
+ "product": [
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Go-based GitLab server exposing hundreds of GitLab API actions through two dynamic tools, depending on the GitLab tier.",
+ "whenToUse": "Use when an agent needs to manage GitLab projects, issues, merge requests, pipelines or other GitLab resources.",
+ "tasks": [
+  "manage projects",
+  "manage issues",
+  "manage merge requests",
+  "run and inspect pipelines",
+  "manage repositories",
+  "manage groups and members"
+ ],
+ "effects": {},
+ "flags": []
+}

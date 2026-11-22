@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4355b5e20f3038269146f1fb0dcf5bbedc74431c7ca95ceceec802c42a7b74c3",
+ "domain": [
+  "software/product-management",
+  "customer-feedback/feature-requests"
+ ],
+ "product": [
+  "featq"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Feature-request board where users vote on ideas and coding agents can fetch the top requests over MCP.",
+ "whenToUse": "Use when a coding agent needs to see which user-requested features are most wanted or update request status.",
+ "tasks": [
+  "list feature requests",
+  "get top voted requests",
+  "read request details",
+  "update request status"
+ ],
+ "effects": {},
+ "flags": []
+}

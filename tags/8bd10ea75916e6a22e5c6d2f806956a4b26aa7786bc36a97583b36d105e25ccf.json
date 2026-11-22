@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8bd10ea75916e6a22e5c6d2f806956a4b26aa7786bc36a97583b36d105e25ccf",
+ "domain": [
+  "communication/email/privacy"
+ ],
+ "product": [
+  "hidemail"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "stay-compliant"
+ ],
+ "summary": "Manages private email aliases that forward to a real inbox, letting users create, find, edit and toggle them.",
+ "whenToUse": "Use when a user needs a disposable or private email alias, or wants to manage existing aliases.",
+ "tasks": [
+  "create email aliases",
+  "search aliases",
+  "edit aliases",
+  "enable or disable aliases"
+ ],
+ "effects": {},
+ "flags": []
+}

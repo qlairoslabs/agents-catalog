@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "cf8183f6f1b6f560b6db4680197875f1ce3e14aba65b3bd8eb9e34df53681e54",
+ "domain": [
+  "software/developer-tools/language-server",
+  "software/python"
+ ],
+ "product": [
+  "pyright"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Pyright language server providing Python type checking and code intelligence.",
+ "whenToUse": "Use when an agent works on Python code and needs type checking, diagnostics or code navigation.",
+ "tasks": [
+  "type check python code",
+  "show diagnostics",
+  "navigate definitions"
+ ],
+ "effects": {},
+ "flags": []
+}

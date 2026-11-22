@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "079a67a85ac6809fcfe181f0086a942f897c05bfec92b9a7ed2585fe811fc524",
+ "domain": [
+  "analytics/product-analytics"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes a specific Amplitude chart to explain trends, anomalies and their likely causes.",
+ "whenToUse": "Use when a metric in an Amplitude chart spikes, drops or looks unusual and the user wants to know why.",
+ "tasks": [
+  "explain chart trends",
+  "investigate spikes and drops",
+  "identify likely drivers"
+ ],
+ "effects": {},
+ "flags": []
+}

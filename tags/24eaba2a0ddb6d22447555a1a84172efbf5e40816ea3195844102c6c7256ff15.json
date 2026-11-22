@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "24eaba2a0ddb6d22447555a1a84172efbf5e40816ea3195844102c6c7256ff15",
+ "domain": [
+  "software/web-development/app-hosting"
+ ],
+ "product": [
+  "samebase",
+  "github",
+  "convex",
+  "cloudflare"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds and manages repository-backed web apps using Samebase with GitHub, Convex and Cloudflare.",
+ "whenToUse": "Use when creating, deploying or managing a web app on the Samebase platform.",
+ "tasks": [
+  "create web app",
+  "manage repository",
+  "deploy to cloudflare",
+  "configure convex backend"
+ ],
+ "effects": {},
+ "flags": []
+}

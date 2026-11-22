@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ada4fc52b054768379d4954d22042d974e3aa9b76a2f205bce18de11b30e6fde",
+ "domain": [
+  "software/ai-governance",
+  "compliance/ai"
+ ],
+ "product": [
+  "qualequest"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Governance platform for multi-agent systems covering task orchestration, compliance checks, decision validation and ML predictions.",
+ "whenToUse": "Use when coordinating multiple AI agents and needing compliance checks or validation of their decisions.",
+ "tasks": [
+  "orchestrate agent tasks",
+  "check compliance",
+  "validate decisions",
+  "run ml predictions"
+ ],
+ "effects": {},
+ "flags": []
+}

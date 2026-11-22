@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "e1d5e4880f7cb608d6a6e9f5aab4d8e901e997bca098e1e4a0894de0d37039bd",
+ "domain": [
+  "cloud/kubernetes",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure-kubernetes-service"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Plans, creates and configures production AKS clusters, covering SKU choice, networking, security, autoscaling and pod rightsizing.",
+ "whenToUse": "Use when a user wants to create, secure, tune or rightsize an Azure Kubernetes Service cluster.",
+ "tasks": [
+  "create aks cluster",
+  "choose aks sku",
+  "design aks networking",
+  "secure aks",
+  "enable observability",
+  "configure cluster autoscaler",
+  "use spot nodes",
+  "plan upgrades",
+  "rightsize pods",
+  "apply vpa recommendations",
+  "analyze cost"
+ ],
+ "effects": {},
+ "flags": []
+}

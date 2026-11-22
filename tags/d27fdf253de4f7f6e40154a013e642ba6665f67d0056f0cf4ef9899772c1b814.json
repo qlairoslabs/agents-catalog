@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d27fdf253de4f7f6e40154a013e642ba6665f67d0056f0cf4ef9899772c1b814",
+ "domain": [
+  "software/cybersecurity/agent-guardrails",
+  "ai/agents"
+ ],
+ "product": [
+  "shield-agent"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Guardrail gate that evaluates coding agent actions to block destructive deletions or data leaks.",
+ "whenToUse": "Use when a coding agent's planned actions should be checked against safety rules before running.",
+ "tasks": [
+  "evaluate agent actions",
+  "ingest action context",
+  "block destructive operations"
+ ],
+ "effects": {},
+ "flags": []
+}

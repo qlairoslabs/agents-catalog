@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6d1c5310e9005ec0cddc97479f8268ddba9c838d905efe1afe800feaf9f59b67",
+ "domain": [
+  "search/web-search"
+ ],
+ "product": [
+  "neurobird"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Web search for AI agents returning ranked results with extracted passages, plus URL-to-markdown conversion.",
+ "whenToUse": "Use when an agent needs web search results or a web page converted to markdown.",
+ "tasks": [
+  "search the web",
+  "extract page passages",
+  "convert url to markdown"
+ ],
+ "effects": {},
+ "flags": []
+}

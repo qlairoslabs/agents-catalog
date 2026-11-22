@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "58ca50327e214eced58ae929c25b9a8c130d355cf0005a4b985b184304fcef89",
+ "domain": [
+  "marketing/market-research",
+  "ai/synthetic-panels"
+ ],
+ "product": [
+  "minds"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Runs market research with AI-simulated customer panels for testing concepts, messages and segments.",
+ "whenToUse": "Use when the user wants quick simulated customer feedback on a concept, message or segment.",
+ "tasks": [
+  "run synthetic panels",
+  "test concepts",
+  "test messaging",
+  "explore segments"
+ ],
+ "effects": {},
+ "flags": []
+}

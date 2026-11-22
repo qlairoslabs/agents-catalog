@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e9587f451c1af954dba0b705576c48e6ad222e794ca4effc95cc87d1e6ef0868",
+ "domain": [
+  "data/databases",
+  "productivity/spreadsheets"
+ ],
+ "product": [
+  "airtable"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "MCP server giving read and write access to Airtable bases, table schemas and records.",
+ "whenToUse": "Use when an agent needs to read, create or update records or tables in Airtable.",
+ "tasks": [
+  "list bases",
+  "read table schemas",
+  "search records",
+  "create records",
+  "update records",
+  "delete records"
+ ],
+ "effects": {},
+ "flags": []
+}

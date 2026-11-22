@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6905007dbd6ee21c04eeb7e17abea80f6aecb026a97e7a4d5958375d09f78bb5",
+ "domain": [
+  "marketing/analytics",
+  "analytics/data-integration"
+ ],
+ "product": [
+  "improvado"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Queries advertising, CRM and analytics data consolidated in an Improvado workspace.",
+ "whenToUse": "Use when analyzing marketing performance across ad platforms and CRM data held in Improvado.",
+ "tasks": [
+  "query ads data",
+  "query crm data",
+  "query analytics data"
+ ],
+ "effects": {},
+ "flags": []
+}

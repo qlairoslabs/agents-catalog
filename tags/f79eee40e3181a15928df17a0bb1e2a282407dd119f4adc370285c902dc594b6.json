@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "f79eee40e3181a15928df17a0bb1e2a282407dd119f4adc370285c902dc594b6",
+ "domain": [
+  "manufacturing/metals-sales",
+  "sales/quotations"
+ ],
+ "product": [
+  "standard-titanium"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Submits structured titanium product quotation requests and checks the status and pricing of submitted enquiries.",
+ "whenToUse": "Use when a customer wants a quote for titanium sheet, bar, tube or similar and has agreed to submit it.",
+ "tasks": [
+  "request titanium quote",
+  "submit line items",
+  "check quote status",
+  "view quoted prices"
+ ],
+ "effects": {
+  "67e7f9bbf7075945d02ac69b7341a7f04f6ebdb7b8e0f6da0fd8ee38f3a4b959": "read",
+  "2ceb36cd3d63935ba4546ff0b861b1fe20bafbbc1b14d72ccbe2680ad76a532b": "write"
+ },
+ "flags": []
+}

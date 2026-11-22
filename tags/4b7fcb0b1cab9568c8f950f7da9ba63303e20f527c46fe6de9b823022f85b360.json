@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4b7fcb0b1cab9568c8f950f7da9ba63303e20f527c46fe6de9b823022f85b360",
+ "domain": [
+  "research/web-search",
+  "software/ai-models"
+ ],
+ "product": [
+  "perplexity"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Local npm MCP server providing real-time web search, reasoning and research through the Perplexity API.",
+ "whenToUse": "Use when an agent needs current web information or researched answers with sources.",
+ "tasks": [
+  "search the web",
+  "run research queries",
+  "reason over search results"
+ ],
+ "effects": {},
+ "flags": []
+}

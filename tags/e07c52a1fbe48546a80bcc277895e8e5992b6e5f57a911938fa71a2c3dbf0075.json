@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "e07c52a1fbe48546a80bcc277895e8e5992b6e5f57a911938fa71a2c3dbf0075",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Claims to store and reuse previously authorized AI work as a persistent capability reservoir; purpose is vague.",
+ "whenToUse": "Use only when a user explicitly wants to store and reuse prior AI work results with this service.",
+ "tasks": [
+  "store ai work",
+  "retrieve stored ai work"
+ ],
+ "effects": {},
+ "flags": [
+  "vague-description-unclear-function"
+ ]
+}

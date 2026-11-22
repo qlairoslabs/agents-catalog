@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "302d4fc7ad7fcde68b460febf032e79f6a68e96a0964aa01c67477f176f2ce26",
+ "domain": [
+  "ecommerce/workwear",
+  "retail/promotional-products"
+ ],
+ "product": [
+  "softwear-prints"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Searches the Softwear Prints catalogue of printable workwear, teamwear and promotional textiles and links to setting up an own shop.",
+ "whenToUse": "Use when a user needs printable or embroiderable apparel and promo items, or wants to start a team or merchandise shop.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "list categories",
+  "explain shop plans and get setup link"
+ ],
+ "effects": {
+  "085faa9d25e07a4441ca571d776c4e50ea191893aee73155d0f093bdd08eddb6": "read",
+  "3bbaa9a2846e6f645972d72df7f14935d3ed0ca51c8e4ba13aa34fd6045eb1e3": "read",
+  "d0fe1a1cd20101668c903fcc607a470121d822f5c4cd39635841b49142ff3cda": "read",
+  "f23ba503bd8d8cfbf324c2e792e4a554912834d51c008d1d66854e77f3790d4b": "read"
+ },
+ "flags": []
+}

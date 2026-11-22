@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2f260f4de2936fc1b27e178a84e9ce40c76138ceb24465230eefb6e5823a9c8c",
+ "domain": [
+  "sports/betting-analysis"
+ ],
+ "product": [
+  "negativeev",
+  "mlb",
+  "wnba",
+  "pga",
+  "atp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Grades MLB, WNBA, PGA or ATP bets against play-by-play simulations, with no key or signup required.",
+ "whenToUse": "Use when evaluating the expected value of a sports bet in MLB, WNBA, PGA or ATP.",
+ "tasks": [
+  "grade sports bets",
+  "run play-by-play simulations"
+ ],
+ "effects": {},
+ "flags": []
+}

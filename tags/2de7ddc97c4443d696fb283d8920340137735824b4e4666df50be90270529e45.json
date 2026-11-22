@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "2de7ddc97c4443d696fb283d8920340137735824b4e4666df50be90270529e45",
+ "domain": [
+  "data/search",
+  "data/analytics/logs",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-opensearch-service",
+  "aws",
+  "elasticsearch",
+  "solr",
+  "amazon-bedrock"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Guidance for migrating to, provisioning and using Amazon OpenSearch Service and Serverless for search, vector RAG, log and trace analytics.",
+ "whenToUse": "Use when working with OpenSearch or Elasticsearch on AWS, including migration, vector or hybrid search, log or trace analytics, or root cause investigation.",
+ "tasks": [
+  "migrate solr or elasticsearch to opensearch",
+  "size and provision domains",
+  "configure fine-grained access control",
+  "build vector and hybrid search",
+  "set up rag with bedrock",
+  "analyze logs with ppl",
+  "configure anomaly detection",
+  "analyze otel traces",
+  "investigate incidents"
+ ],
+ "effects": {},
+ "flags": []
+}

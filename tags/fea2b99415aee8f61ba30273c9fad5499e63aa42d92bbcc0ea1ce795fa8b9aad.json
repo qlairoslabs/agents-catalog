@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "fea2b99415aee8f61ba30273c9fad5499e63aa42d92bbcc0ea1ce795fa8b9aad",
+ "domain": [
+  "commerce/building-materials",
+  "product-catalog"
+ ],
+ "product": [
+  "woocommerce",
+  "tekaem"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Read-only building materials catalogue with product search, specifications and PLN net and gross prices, including quantity-based price checks.",
+ "whenToUse": "Use when a user wants to find building materials, see their specs, or check the price for a given quantity.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "validate price for quantity",
+  "check stock status"
+ ],
+ "effects": {
+  "9d7fdba2d2b6b416d6fb5560df83bd1459375c5159ede5aae335e5f0d9dd6ddf": "read",
+  "ff92aea6c8a2bbefb812941c5b62f4972f794ed4dea080e8f59e91f2af7cef58": "read",
+  "8fa233ba574be6c2f600b764a7b10b4a2e0398033aa9b1a89cb768b43df7a1ef": "write"
+ },
+ "flags": []
+}

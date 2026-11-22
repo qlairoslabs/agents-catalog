@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9eb6d6a35d532b80fbf41cc46a0fec3f0912012528323aa62122accad82fb1d9",
+ "domain": [
+  "analytics/event-tracking/pipelines",
+  "software/data-engineering"
+ ],
+ "product": [
+  "walkeros"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Local npm server for building, validating, simulating and deploying walkerOS event tracking pipelines.",
+ "whenToUse": "Use when an agent is configuring or deploying a walkerOS analytics event flow.",
+ "tasks": [
+  "build event pipelines",
+  "validate pipelines",
+  "simulate events",
+  "deploy pipelines"
+ ],
+ "effects": {},
+ "flags": []
+}

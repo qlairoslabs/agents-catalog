@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "6b2b43897802c12a541de8e60d8fe1cfa05e7ffe47da892e66cd6f036fcae4ee",
+ "domain": [
+  "gaming/finance",
+  "revenue-sharing"
+ ],
+ "product": [
+  "royaltea",
+  "steam",
+  "epic-games-store",
+  "apple",
+  "google-play",
+  "unreal-engine"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "work-as-a-team"
+ ],
+ "summary": "Models game revenue splits after store cuts, drafts revenue-share agreements and prepares a RoyalTea studio setup link.",
+ "whenToUse": "Use when a game team needs take-home estimates, a rev-share draft or a studio setup.",
+ "tasks": [
+  "calculate revenue split",
+  "get platform cuts",
+  "draft revenue agreement",
+  "prepare studio setup link",
+  "explain RoyalTea"
+ ],
+ "effects": {
+  "79c485e7b5b7a8f7e4ba2f48951b95ff7decfa7316b54f0b7717b7a8d02bc997": "read",
+  "d0585ce5bde0ac4b8acac7375e09163c2e78b12ce684030691b6a7a369d71eb2": "read",
+  "cc81d408a70da73166acce6e19821c3980cc9fdbd926fd8367019da1484efc04": "read",
+  "db961c506731b21afa42530bc872158876fb16a9252d0e4bcd8dab64763ca4f9": "write",
+  "5871f59fdf160ec909d9c7fe9aed530e461b015640bf9ed32239de76c53984de": "read"
+ },
+ "flags": []
+}

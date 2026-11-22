@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1eeccd7030fcc76f3a3ab41db96f51c1baee6323ede38344e8789034d1fdf7f5",
+ "domain": [
+  "logistics/moving",
+  "sales/quoting"
+ ],
+ "product": [
+  "reelquoteai"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Supports moving companies with filmed surveys, itemized inventories, firm quotes and bookings.",
+ "whenToUse": "Use when a moving company needs to produce inventories, quotes or bookings from video surveys.",
+ "tasks": [
+  "run filmed surveys",
+  "build itemized inventories",
+  "create firm quotes",
+  "manage bookings"
+ ],
+ "effects": {},
+ "flags": []
+}

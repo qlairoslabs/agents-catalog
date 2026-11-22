@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "d35fd838ba35ac74d8ab3e475c67709ecbfc99a56a164891208472c07123718b",
+ "domain": [
+  "shopping/price-comparison",
+  "home/energy-meters"
+ ],
+ "product": [
+  "wostrom",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German-market price comparison for power meters and smart plugs with energy measurement, with guides and offer re-checks.",
+ "whenToUse": "Use when a user wants prices or buying advice for electricity measuring devices in Germany.",
+ "tasks": [
+  "search power meter offers",
+  "filter by brand and price",
+  "find buying guides",
+  "compare smart plugs",
+  "re-check an offer price"
+ ],
+ "effects": {
+  "4751d6f43f89dae571e07e6f106a16f419b9fad337b1f21f5fcae98f98b044cd": "write",
+  "d89b173d17cee3a35f05c1e101caab08aa3470d27a6c51d1ba47edbfbb300029": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

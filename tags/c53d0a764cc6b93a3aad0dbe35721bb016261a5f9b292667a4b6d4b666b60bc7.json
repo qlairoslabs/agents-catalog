@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c53d0a764cc6b93a3aad0dbe35721bb016261a5f9b292667a4b6d4b666b60bc7",
+ "domain": [
+  "healthcare/practice-management",
+  "healthcare/billing"
+ ],
+ "product": [
+  "therapybill-ai"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Practice management for pediatric therapy clinics covering scheduling, eligibility, claims and clinical notes.",
+ "whenToUse": "Use when running a pediatric therapy practice's schedule, insurance checks, claims or documentation.",
+ "tasks": [
+  "manage scheduling",
+  "check insurance eligibility",
+  "submit claims",
+  "write clinical documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

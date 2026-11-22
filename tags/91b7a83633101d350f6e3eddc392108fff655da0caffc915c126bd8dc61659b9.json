@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "91b7a83633101d350f6e3eddc392108fff655da0caffc915c126bd8dc61659b9",
+ "domain": [
+  "real-estate/investing",
+  "finance/property-analysis"
+ ],
+ "product": [
+  "dealscanner"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches investment properties, ranks top areas, runs flip, rental and BRRRR analysis and returns sold comps and area statistics.",
+ "whenToUse": "Use when evaluating real-estate deals, comparing neighborhoods or analyzing a BRRRR investment.",
+ "tasks": [
+  "search deals",
+  "analyze a property",
+  "run BRRRR analysis",
+  "get sold comps",
+  "rank top investment areas",
+  "get area stats",
+  "check API identity"
+ ],
+ "effects": {
+  "a5d9d7a172707f1c61f0a9b66337670ed99cea569c0356bee7e79d03bfd2f49a": "read",
+  "5620e21d8b428725a1b80def18efd91f569c70b88262881a65ad70f8dd4b3f04": "read",
+  "9f13d063b5fbaa637ba24f4c1a01e3cd78cc722e05a19cf419859f15b80968bf": "read",
+  "3867acb67113bb29c11780e27abc7906c3795bfdbe751aaea483218db8f28026": "read",
+  "6ffa1d25d0d56eea001589e0d4beaa27ec55bd04f97b2d0bf6911674ea0c6179": "read",
+  "8508a4910dc37a6c1450dd17c1ec3a468a36397e91952a23e02a79629331b605": "read",
+  "d6db79e59fe9d29b410236dc34be167031d73b053c3fdb43e306027bc8907620": "read"
+ },
+ "flags": []
+}

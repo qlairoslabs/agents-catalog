@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "290f68a17058f096d42f1af03871a3e88f646033b32cebaa0aac12423020139f",
+ "domain": [
+  "finance/erp"
+ ],
+ "product": [
+  "netsuite"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Guidance for agents using the NetSuite AI Connector, covering tool choice, formatting, multi-subsidiary currency and SuiteQL safety.",
+ "whenToUse": "Use when answering questions or running queries against NetSuite through the NetSuite AI Connector.",
+ "tasks": [
+  "choose connector tools",
+  "format netsuite output",
+  "handle multi-subsidiary data",
+  "handle currencies",
+  "safe suiteql queries"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ec18182312420bd018ac1d27923b54e1653d8d9e880d86ea3a1ff0870b8643e3",
+ "domain": [
+  "knowledge/evidence-lookup",
+  "software/developer-tools"
+ ],
+ "product": [
+  "mcp",
+  "cloudflare-d1",
+  "sqlite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Free lookup of sourced, dated evidence about MCP, D1 and SQLite, with shared findings for reuse.",
+ "whenToUse": "Use when needing sourced facts about MCP, Cloudflare D1 or SQLite behaviour.",
+ "tasks": [
+  "look up evidence",
+  "view sources and dates",
+  "share findings"
+ ],
+ "effects": {},
+ "flags": [
+  "shared user-contributed findings may contain untrusted content"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "08757ee005ff4a60e4de1bf61df2ba8711a6d4e9819d5ea35bcf487f2508d202",
+ "domain": [
+  "travel/hotels-places",
+  "travel/destination-info"
+ ],
+ "product": [
+  "wia-gil",
+  "agoda"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Travel lookups: city search, nearby hotels and landmarks, hotel details, country travel basics for Korean passport holders, and approximate route distances.",
+ "whenToUse": "Use when planning a trip and you need city coordinates, nearby hotels or places, country entry info or road distances.",
+ "tasks": [
+  "search cities",
+  "list nearby hotels",
+  "get hotel details",
+  "list nearby places",
+  "get country travel info",
+  "estimate route distance"
+ ],
+ "effects": {
+  "b9a0e43cf59ed3927e8ec776613bb56b80bff49c029c999a6c9c92d18c91f2c5": "read",
+  "cf055077f510f5b043bdd2cb9ddee28a2d4ab8abfcc32a6e272d0311025d6396": "read",
+  "db84b7c6f3528d95b00dbadc90bf767c1baea961a8f52b5916240e82c0287962": "read",
+  "2fe177bf52b6b7a4385054948fd75c9e39649385f7c2accb2c3a4d62809ccc7f": "read",
+  "45d44326395eb12937d6c55b7a714e18f8f242168aa3f443a305fe3f6f124e65": "read",
+  "e6f1ef94368c17984b723f967f32960968c6e5fe8b370bf5d27397d13cbb7b7e": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "785ad96da2c02938cdcf4df4d8dfa3e2917da979ce088c5de9d9c253b888d874",
+ "domain": [
+  "crypto/security",
+  "scam-detection"
+ ],
+ "product": [
+  "truedge",
+  "goplus",
+  "ofac"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Free crypto safety checks for token risk, contract safety, scam or sanctioned addresses, phishing URLs and recent hacks.",
+ "whenToUse": "Use before buying a token, sending funds to an address or connecting a wallet to a site.",
+ "tasks": [
+  "check token risk",
+  "check contract safety",
+  "list recent hacks",
+  "screen address",
+  "check phishing URL"
+ ],
+ "effects": {
+  "35fa12385b38168ea52945134012ad92050f2bc337d2d3110eafa8c96c2c01dc": "read",
+  "da9bcd20d010e5beb2d0ed1fa94cdb40d7e0e73290d62e8498ef0310c809819d": "read",
+  "5d7ab16e1f3adc171f498e91d2cfd9221f0b6300f91c29ba1627b61a1cd25da0": "read",
+  "1019db59f4130b4edcd442b1455b376f6ddf453a4854eecee623316aa36a2c99": "read",
+  "0b1f2cf17781c59abd1c94cb4c328e62d51490ff0cc523511133ea29e7ec98c3": "read"
+ },
+ "flags": []
+}

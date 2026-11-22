@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8da81c5a0e7b86f524f70f8ab5605c3a5026a4c2ea8c93098586d99213cb6a16",
+ "domain": [
+  "sales/call-research",
+  "sales/prospecting"
+ ],
+ "product": [
+  "hog"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Produces pre-call research briefs for sales calls that can be set up, booked and read from an agent.",
+ "whenToUse": "Use when a salesperson needs research on a prospect before a call.",
+ "tasks": [
+  "set up hog",
+  "book research briefs",
+  "read briefs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "d1485814adec7d503b355e2bb1394b9abfaf7bac6876e222838eb37793b27c08",
+ "domain": [
+  "media/news",
+  "data/korea-public-data"
+ ],
+ "product": [
+  "the-korean-today",
+  "kma",
+  "opinet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Korean news search and full articles in many languages, plus daily Korea data: exchange rates, fuel, weather, tides, holidays, pharmacies, gold and more.",
+ "whenToUse": "Use when a user wants Korean news or current practical Korea data such as exchange rates, weather, holidays or open pharmacies.",
+ "tasks": [
+  "search articles",
+  "get latest news",
+  "read full article",
+  "list sections",
+  "get KRW exchange rates",
+  "check holidays",
+  "find open pharmacies",
+  "get world time",
+  "get fuel prices",
+  "get weather and safety",
+  "get tide times",
+  "get gold prices"
+ ],
+ "effects": {
+  "1f2b9ea911e07dfacc1a9dcaddfca48186f83cf721e870a757b8329281f9465b": "read",
+  "6f945ba19f97d6e9bd11f27106305cfe2bf918851609c5bccdefc3510583608b": "read",
+  "6dde73ff146663826a8085a3f35233985347a92b7b7517129ee5ef4405f0f61d": "read",
+  "1c0a49caa3baf9beaf587649cfaabcfc2b83b57806f494f0332f7fca1f3bd448": "read",
+  "f03b583e1010b7fb37f2bb6d486d26ba29f0c0d123ed593559d5b8d55830d75c": "read",
+  "f5a15b34b21db1cb006837ffb410e2b66f41b46f6cca81b39bcbe8ee4793054b": "read",
+  "d6fac5cc9b1ab22f00240508c0565dab1312851c044a00ce1591f39654385121": "read",
+  "b74a3ae08a7b055c5a9b0b27b979896aa11d14f28940e44af893ecce8fbfd642": "read",
+  "38997b0ce6cbb6ead9afeb57575714f41d89165a99c8f3cea9805f2207940556": "read",
+  "37d9aa3ddfe576789ddcaed1040b9dcd3e81cc590836a28a286ebc1e71bb12fc": "read",
+  "54a542063be8f58fd88a398485bdc865ed9e6f7e44509dedc1cf8134ea9f6bd4": "read",
+  "b9db726fed1069bb7209aa1926e820782cd2aef90fe1e687a00542be84732474": "write",
+  "8699a116ebb6ab951cc2bc23589d56cef33926e65d14704b846426bf6bb57ca1": "read",
+  "eda51b4f5f7d2fda412d69a91d7d69919145b75d57fb41c0a86ec7b7b4d9f2c7": "read",
+  "7bb832d9e93add2a14ddcda7c7191d29d2278d580c85f03742dfced729980a7f": "read",
+  "5d52f5f41671b764faa1e193cf9938fade48ea3ebcca282b7ef6cfeb620f7916": "read",
+  "a877d9845155f3590dc82963ccb98449e49bf4ccb729d464fae5941571a542bb": "read",
+  "f83b2eb8406dba63e3b5b206866edb1c2336fa685644c5242424bcf8ec95dbfe": "write"
+ },
+ "flags": []
+}

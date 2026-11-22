@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "8ac1f2c3b82a6116fca4692ba90a0deb9ef0e2156e8911406e481f301b2af519",
+ "domain": [
+  "information/web-search"
+ ],
+ "product": [
+  "keenable"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live web search and page fetching as clean markdown using the Keenable index.",
+ "whenToUse": "Use when an agent needs current web results or a readable copy of a web page.",
+ "tasks": [
+  "search the web",
+  "fetch page as markdown"
+ ],
+ "effects": {},
+ "flags": []
+}

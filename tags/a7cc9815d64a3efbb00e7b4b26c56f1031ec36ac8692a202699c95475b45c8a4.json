@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a7cc9815d64a3efbb00e7b4b26c56f1031ec36ac8692a202699c95475b45c8a4",
+ "domain": [
+  "ecommerce/price-comparison",
+  "home/pools"
+ ],
+ "product": [
+  "wopool",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Compares current German prices for pools across shops and links to buying guides and comparison pages.",
+ "whenToUse": "Use when a user wants the cheapest price or buying advice for a pool in Germany.",
+ "tasks": [
+  "search pool offers",
+  "filter by brand and price",
+  "find buying guides",
+  "re-check offer price"
+ ],
+ "effects": {
+  "b8b696510884193a1c52867d205a2f6f6d11e2833fbcb9167cacd4b5167f5622": "write",
+  "91a81419c8a7b7c0eedcc3ed67ee26d78a747f80e3dca0d2e796216d4040d89d": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

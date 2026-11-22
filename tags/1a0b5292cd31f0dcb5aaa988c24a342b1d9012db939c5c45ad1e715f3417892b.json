@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1a0b5292cd31f0dcb5aaa988c24a342b1d9012db939c5c45ad1e715f3417892b",
+ "domain": [
+  "finance/e-invoicing",
+  "compliance/invoice-validation"
+ ],
+ "product": [
+  "zugferd",
+  "factur-x",
+  "xrechnung"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Validates ZUGFeRD, Factur-X and XRechnung e-invoices against EN 16931 and suggests fixes.",
+ "whenToUse": "Use when checking whether a German or EU e-invoice is valid under EN 16931 before sending it.",
+ "tasks": [
+  "validate e-invoice",
+  "check en-16931 conformance",
+  "suggest corrections"
+ ],
+ "effects": {},
+ "flags": []
+}

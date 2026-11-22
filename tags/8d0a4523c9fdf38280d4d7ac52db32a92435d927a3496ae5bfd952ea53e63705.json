@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "8d0a4523c9fdf38280d4d7ac52db32a92435d927a3496ae5bfd952ea53e63705",
+ "domain": [
+  "jobs/remote-jobs"
+ ],
+ "product": [
+  "remote-jobs-center"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Search curated remote job listings by category, region, perk or company and read job details.",
+ "whenToUse": "Use when a user is looking for remote or work-from-home jobs.",
+ "tasks": [
+  "search remote jobs",
+  "get job details",
+  "list categories",
+  "list perk collections",
+  "list hiring companies"
+ ],
+ "effects": {
+  "895454f1940cb425370a6d78a687bde37d8f6808e602b3f66a00b027b387a8d7": "read",
+  "32fb9f6af6e3595f9ef4bce4480a6fc7891da3cf733cddca74c34682d3f881c6": "read",
+  "2a3541aa92e1e74d1af14876e86d659cef4d75b61fd0bff5adefd126fc60c28b": "read",
+  "c8db5ed3be351b80d36a1d54794b019f9ac20042a0af1142b10a23cd685dac05": "read",
+  "4c7df6a1e38deb27de160061af6586393f2a46052a354a781468000e7d339877": "read"
+ },
+ "flags": []
+}

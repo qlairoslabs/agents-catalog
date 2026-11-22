@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "70c0dd9ee239fb6160b6d7120105842f911a5d4a7d55131f4c550fae6f8328a0",
+ "domain": [
+  "software/vector-databases",
+  "software/search"
+ ],
+ "product": [
+  "qdrant"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for Qdrant vector search covering scaling, performance, search quality, monitoring, deployment, migrations and multi-language SDK usage.",
+ "whenToUse": "Use when an agent is building, tuning or operating a Qdrant vector search deployment.",
+ "tasks": [
+  "optimize search performance",
+  "improve search quality",
+  "scale deployments",
+  "monitor qdrant",
+  "migrate embedding models",
+  "upgrade versions",
+  "use qdrant sdks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a65b9c6386e00416fdb930cc047baa45f8a0ff54c5d75a0562da54a657b611e6",
+ "domain": [
+  "compliance/kyc",
+  "finance/identity-verification"
+ ],
+ "product": [
+  "encompass"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Automates know-your-customer checks using authoritative public data sources; requires an Encompass licence.",
+ "whenToUse": "Use when performing KYC or due-diligence checks on customers or businesses with an Encompass licence.",
+ "tasks": [
+  "run kyc checks",
+  "retrieve public-source identity data",
+  "verify customers"
+ ],
+ "effects": {},
+ "flags": []
+}

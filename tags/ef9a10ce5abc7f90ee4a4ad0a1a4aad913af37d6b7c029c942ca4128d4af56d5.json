@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ef9a10ce5abc7f90ee4a4ad0a1a4aad913af37d6b7c029c942ca4128d4af56d5",
+ "domain": [
+  "business/strategy",
+  "business/consulting"
+ ],
+ "product": [
+  "james-prompt"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Business strategy agent that runs strategy missions and offers 15 kinds of business analysis.",
+ "whenToUse": "Use when an agent needs structured business strategy or business design analysis.",
+ "tasks": [
+  "run strategy missions",
+  "run business analyses",
+  "design business models"
+ ],
+ "effects": {},
+ "flags": []
+}

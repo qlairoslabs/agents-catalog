@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "22a9f798468b26597939668f0ed46d17a2dd3d1af52e80f4d7cda9c459282e26",
+ "domain": [
+  "software/cloud/serverless",
+  "software/development"
+ ],
+ "product": [
+  "catalyst-by-zoho",
+  "zoho"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills and MCP tools for building on Zoho Catalyst serverless platform, covering services, SDKs, CLI, pricing and migration.",
+ "whenToUse": "Use when building, deploying or managing applications on Catalyst by Zoho.",
+ "tasks": [
+  "use catalyst services",
+  "use sdks",
+  "use cli",
+  "apply architecture patterns",
+  "estimate pricing",
+  "follow migration guides",
+  "manage resources"
+ ],
+ "effects": {},
+ "flags": []
+}

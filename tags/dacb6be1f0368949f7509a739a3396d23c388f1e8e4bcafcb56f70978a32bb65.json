@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "dacb6be1f0368949f7509a739a3396d23c388f1e8e4bcafcb56f70978a32bb65",
+ "domain": [
+  "entertainment/sweepstakes",
+  "consumer/deals"
+ ],
+ "product": [
+  "ultimatesweepers"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Search free-to-enter US sweepstakes by prize, end date, state and frequency, view details, and submit new sweepstakes for listing.",
+ "whenToUse": "Use when a user wants to find free US sweepstakes to enter or suggest one to be listed.",
+ "tasks": [
+  "search sweepstakes",
+  "filter by prize category",
+  "filter by state",
+  "get sweepstake details",
+  "list categories",
+  "submit a sweepstake"
+ ],
+ "effects": {
+  "48cd7cd59a62336a1feebf28e6499f376db4743255379019ec9428dd101f4519": "read",
+  "3d0d20c995c8c73ed5210481d1a1ce39ab89b1dac5b1d4afa28c4eb0e18f70fa": "read",
+  "cd729deae0ef23d20b191e58ce380c48cc232d0b5c445f1052beb660241c4832": "read",
+  "a5bbbe63a58215fed6e1504c25fef3260a69afbdf87a9bf68ebea7b9babb9343": "write"
+ },
+ "flags": []
+}

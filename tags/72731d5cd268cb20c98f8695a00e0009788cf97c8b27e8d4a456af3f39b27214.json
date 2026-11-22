@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "72731d5cd268cb20c98f8695a00e0009788cf97c8b27e8d4a456af3f39b27214",
+ "domain": [
+  "finance/tokenized-stocks",
+  "crypto/on-chain-data"
+ ],
+ "product": [
+  "ethereum",
+  "robinhood-chain"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only data on tokenized stocks: issuers, chains, contract addresses, corporate actions and bytecode matches.",
+ "whenToUse": "Use when checking whether a stock is tokenized, on which chain and issuer, or looking up a token contract.",
+ "tasks": [
+  "search tokenized stocks",
+  "get stock details",
+  "list issuers",
+  "list chains",
+  "list corporate actions",
+  "look up contract",
+  "get data manifest",
+  "report data gaps"
+ ],
+ "effects": {
+  "31b84794a2c5f3815b9a504f497644b751db192e8fa5537e4eb6c566d699ac5b": "read",
+  "6955796055eafd0364ad80690c54888597b0ff74e252c8845eee45dca7e51f1b": "read",
+  "9c45b52602d7ce83a716cf672a64448720db5900a9823e078fd30e009a4b44cc": "read",
+  "8b2a6dbdec5d8230195a885b402634380c423c85a17221b67e87d3845e3287d4": "read",
+  "58112ed5f96a0bdc663d6064c20fc22c5a13744f9ae9059199e7ba6cb62f4f6e": "read",
+  "841f6322a15b124bbf28b50daf6d3af519d13c05dc06165bee9b44e3f6980c3c": "write",
+  "22a2bb26cb13606a943b04cccd1d033b02ad934ea6c6eaf96ebc6db5cc8f947d": "read",
+  "9be64e412bae260a4870fe760f76cbf73e406884a35aa22d499751962b164147": "write"
+ },
+ "flags": []
+}

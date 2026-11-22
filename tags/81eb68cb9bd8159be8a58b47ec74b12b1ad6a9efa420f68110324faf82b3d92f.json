@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "81eb68cb9bd8159be8a58b47ec74b12b1ad6a9efa420f68110324faf82b3d92f",
+ "domain": [
+  "construction/project-management",
+  "architecture/engineering"
+ ],
+ "product": [
+  "cogram"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Cogram projects, meetings, emails, RFIs and drawings for architects and engineers.",
+ "whenToUse": "Use when an agent needs project records, meetings, RFIs or drawings from Cogram for AEC work.",
+ "tasks": [
+  "read projects",
+  "read meetings",
+  "read project email",
+  "read rfis",
+  "read drawings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "2a113ad87ec2f9ff3c7344d56cdf96557ab021fcfd1de122e26ebc6dd68bc33d",
+ "domain": [
+  "finance/payments-validation",
+  "ecommerce/operations"
+ ],
+ "product": [
+  "vies",
+  "eori",
+  "stripe-connect",
+  "iban"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Validators and calculators for commerce: EU VAT and EORI lookups, IBAN, ABA and GTIN checks, VAT rates, email domains, Stripe splits and reorder points.",
+ "whenToUse": "Use before invoicing, paying out or shipping to verify identifiers or compute fees and stock levels.",
+ "tasks": [
+  "validate IBAN",
+  "validate GTIN",
+  "validate ABA routing",
+  "validate EU VAT number",
+  "validate EORI",
+  "check email domain MX",
+  "get VAT rates",
+  "compute Stripe Connect split",
+  "reconcile payout",
+  "compute reorder point"
+ ],
+ "effects": {
+  "810225a22f2a49df61d768e4bf159f4adcbceb75fc7db4d6fbb0056e3a38c391": "read",
+  "71cc800b13561e54563deb92015746eb7ec755f1d0111efc5fe97522ae7407de": "read",
+  "029c155340960fdea185fdc421b5ec6254367f39cdd21b8d5a491a6a39f36fe4": "read",
+  "1b82579e64bb7097377c703350b56fb94f55f9922a9c26f3a8181016d9b0a410": "read",
+  "9e47e23ab7df3f34cfcd2ff219e934d2b88efb51c2bf4cf3254b77f36696248c": "read",
+  "cd8ae5bedd593275090ea228984a27bfab54a6e27bf2681661363f90c09c3d3a": "read",
+  "44133745b96588f5770a415083557ade9bd2ca7e4129f03b4787243139d53462": "read",
+  "2f90b0784ec657a0704cafc7214f19f6ea68b0cf1d5c4223ddf53488df1c1534": "read",
+  "04e9922ebc05caa14c92dad37d8b53518a5da61beb47529cfdcd5258c1d23e87": "read",
+  "d2f0ddea8f754b123431a97795c7b34a8767394875c1c3f00cfa4900e8fe9a05": "read"
+ },
+ "flags": []
+}

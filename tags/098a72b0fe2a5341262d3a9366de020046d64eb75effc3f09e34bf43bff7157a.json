@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "098a72b0fe2a5341262d3a9366de020046d64eb75effc3f09e34bf43bff7157a",
+ "domain": [
+  "software/databases",
+  "software/infrastructure"
+ ],
+ "product": [
+  "tenantsdb",
+  "postgres",
+  "mysql",
+  "mongodb",
+  "redis"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provisions isolated per-tenant Postgres, MySQL, MongoDB and Redis databases on demand.",
+ "whenToUse": "Use when an agent needs to create or manage isolated databases for tenants of a multi-tenant application.",
+ "tasks": [
+  "provision tenant databases",
+  "manage postgres tenants",
+  "manage mysql tenants",
+  "manage mongodb tenants",
+  "manage redis tenants"
+ ],
+ "effects": {},
+ "flags": []
+}

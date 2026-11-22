@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "6104e59e3b19497e1ed3a8b4f0fcafd8cfc2d26fd1709cd34ebed37471a9a680",
+ "domain": [
+  "commerce/merchandise-shop",
+  "studio"
+ ],
+ "product": [
+  "squatch-stack",
+  "github-sponsors"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Shop and contact connector for the Squatch Stack studio: browse merch, build checkout links, leave requests and see support options.",
+ "whenToUse": "Use when someone wants to browse or buy Squatch Stack goods, contact the studio, or check a request's status.",
+ "tasks": [
+  "browse merchandise",
+  "show interactive shop",
+  "get product variants and prices",
+  "build checkout links",
+  "draft contact email link",
+  "leave a custom request",
+  "check request status",
+  "list supporter options",
+  "explain server trust and limits",
+  "parse buffalo sentences"
+ ],
+ "effects": {
+  "baacf1834b03cc7db0f6a712e8cab6b46dd7e1ec6343202ad9f758e22e8ac525": "read",
+  "ed503045c2dc7c210b50ba990f438cccb52fbf4fe814727485636d7153cdbc8e": "read",
+  "e46ddfe02e968bad038896b5fd095ed5e8612afb47425fade28356213f66ca78": "read",
+  "e450e99e90c7321ca54e5311b0b4298ce78fac8624ef9bf88e26495f511a9aeb": "read",
+  "74beafa060b1086120daadf92bbf576e8185aa596c9273d94d141a342da31d82": "read",
+  "2bd3d094bcec54f8b4f42548e9c71fb047f0414491cd829bd1f38923fc855e2b": "read",
+  "d463c51f448f10f4183cb4cce5728dd24ad2c32ad9efaa2fde3f2dccf7a7ba49": "read",
+  "dc39f4098972bcacf69a55e855eecc4f33ef5754bd0867fc85a5c886756e7b5d": "write",
+  "8923df5095585b6186c2e4e9153441f99a3c60448fd797404cc0349b034f268a": "read",
+  "affd5458fccb754cc6cdbd0575f89afde88b70070e48a9cc8e63930e7b62e979": "read",
+  "0a38e92baafa9ef04e2ebd768fa21dc3fee747cc7a8b6e49c87a05c811d4bb28": "read"
+ },
+ "flags": []
+}

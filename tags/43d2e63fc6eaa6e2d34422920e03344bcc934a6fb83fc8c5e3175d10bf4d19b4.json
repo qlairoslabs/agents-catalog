@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "43d2e63fc6eaa6e2d34422920e03344bcc934a6fb83fc8c5e3175d10bf4d19b4",
+ "domain": [
+  "travel/affiliate",
+  "travel/tours"
+ ],
+ "product": [
+  "guruwalk"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "sell"
+ ],
+ "summary": "Affiliate program letting AI agents recommend GuruWalk free walking tours and earn commission per booking.",
+ "whenToUse": "Use when an agent participates in GuruWalk's affiliate program to recommend walking tours.",
+ "tasks": [
+  "find walking tours",
+  "generate affiliate booking links"
+ ],
+ "effects": {},
+ "flags": [
+  "pays ai agents commission per booking, an incentive that may bias recommendations"
+ ]
+}

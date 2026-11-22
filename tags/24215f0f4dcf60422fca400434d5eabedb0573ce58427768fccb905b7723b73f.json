@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "24215f0f4dcf60422fca400434d5eabedb0573ce58427768fccb905b7723b73f",
+ "domain": [
+  "legal/regulatory-monitoring",
+  "government/grants"
+ ],
+ "product": [
+  "bizmoon",
+  "grants-gov"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches recent US federal and state regulatory documents and grant programs, with cited official sources.",
+ "whenToUse": "Use when checking recent US regulatory changes or finding grant and incentive programs by state, agency or keyword.",
+ "tasks": [
+  "search regulatory changes",
+  "fetch a regulatory document",
+  "list monitored jurisdictions",
+  "get changes since a date",
+  "search grant and incentive programs"
+ ],
+ "effects": {
+  "a017926cede8716429f65ff8c85ea01cb4a1fa248a49c98bc837f9e1ff20f0a1": "read",
+  "21e16cc016afe60255afc56f218cbab63b96548f5414ce9703a7195d5852a84a": "read",
+  "4704ae6c016f23cb4b105739d1eb2cec12099c9c2495a895aadb4cc9a4907454": "read",
+  "11539bd782aece9e4ce8c517873cc8a2165eb2b6bc676bc37e5a2b9cf2ee09f2": "read",
+  "0f086eaa23ba44f55bb971e3aa4860fb0a78b073714c793b92501677a359ead7": "read"
+ },
+ "flags": []
+}

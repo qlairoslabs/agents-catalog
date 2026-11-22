@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "3ff76e855f48b403ce4604aa87f560da80a20fcbd0193aa7d2bd8bc75fb31cfe",
+ "domain": [
+  "commerce/product-search",
+  "shopping"
+ ],
+ "product": [
+  "shop-nobi",
+  "shopify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Read-only search across US independent online stores, with product details, comparisons, price and stock checks, and similar items.",
+ "whenToUse": "Use when a US shopper wants to find, compare or check the price and stock of products from independent online stores.",
+ "tasks": [
+  "search products by query and brand",
+  "get product or variant details",
+  "compare products side by side",
+  "check current price and stock",
+  "find similar alternatives under a price cap",
+  "find shop nobi topic pages",
+  "identify server provider"
+ ],
+ "effects": {
+  "4ba2a4b21b285f5be3e11000f6c2d166b7fb28028201ff362bff1dc8ce3cbe1e": "write",
+  "d67ec686acd9e8a5407aa59332ff773571a724d5cbf03fb9cf5fce5d69cfd6ba": "write",
+  "adc11341744c8cf6d5f15e3e68d9527895cf1c59e84775bd58dc7ea8251b9819": "write",
+  "dd5c34ad17557d9bdc38256ea2f17367ec721103e07da30165f213bd88b9bbdd": "read",
+  "a621c60b15d143622073e8c06d567f9e60c3775d6c7e73103c5b9bfdfe383164": "read",
+  "b720fec2f2c78f91751c797d2e260f309ec631fcf251dc1b55cfb7f1e2327e61": "read",
+  "e715af158084832f8a4058007c0eab92e7e1a8afe3fab44fc464dba995d1521d": "read"
+ },
+ "flags": []
+}

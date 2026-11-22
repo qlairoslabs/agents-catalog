@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "411513ea02838ee586a581ef2eae8d77cfbd26aec1f2d062ff5447f4c11ae19c",
+ "domain": [
+  "software/cybersecurity/api-security",
+  "software/testing"
+ ],
+ "product": [
+  "42crunch"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs a 42Crunch static API audit followed by a live scan as one security pipeline.",
+ "whenToUse": "Use when the user wants a full 42Crunch API security check covering both audit and scan, or is unclear which phase to run.",
+ "tasks": [
+  "run api security audit",
+  "run live api scan",
+  "run full security pipeline",
+  "check security quality gates"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1b05a203d7196c4fefc5ce1c964e038c3cfc1885bafec73eacf2e2cad9d7598b",
+ "domain": [
+  "software/ai/agent-frameworks",
+  "software/development"
+ ],
+ "product": [
+  "output-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Toolkit for building Output.ai workflows with specialist agents, slash-command skills and a hook that loads SDK conventions at session start.",
+ "whenToUse": "Use when developing, debugging or evaluating workflows built on the Output.ai SDK.",
+ "tasks": [
+  "plan workflows",
+  "scaffold workflows",
+  "debug workflows",
+  "write prompts",
+  "review quality",
+  "run evaluations",
+  "manage credentials"
+ ],
+ "effects": {},
+ "flags": []
+}

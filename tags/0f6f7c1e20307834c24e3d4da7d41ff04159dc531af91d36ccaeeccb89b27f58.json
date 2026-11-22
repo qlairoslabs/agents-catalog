@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0f6f7c1e20307834c24e3d4da7d41ff04159dc531af91d36ccaeeccb89b27f58",
+ "domain": [
+  "information/web-search",
+  "information/news"
+ ],
+ "product": [
+  "search1api",
+  "google-maps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Web, news and platform search with Google Maps places, page reading, sitemaps and trends via Search1API.",
+ "whenToUse": "Use when an agent needs web or news search results, place lookups, page content or trend data.",
+ "tasks": [
+  "search the web",
+  "search news",
+  "find google maps places",
+  "read web pages",
+  "fetch sitemaps",
+  "look up trends"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3f0ded1b9dff976b01b7074f91389fe6783952cb75c82f7dc9c598987fda92fe",
+ "domain": [
+  "legal/company-registry",
+  "compliance/due-diligence"
+ ],
+ "product": [
+  "86hc",
+  "stripe"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Hong Kong company registry records including ownership and status, and orders official filings paid via Stripe.",
+ "whenToUse": "Use when the user needs due diligence on a Hong Kong company or wants to order NAR1 or NNC1 filings.",
+ "tasks": [
+  "search hk companies",
+  "view registration and status",
+  "view beneficial owners",
+  "order filings"
+ ],
+ "effects": {},
+ "flags": []
+}

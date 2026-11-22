@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "7836b9f2b1067233d61104e1133490a94a03a9453b12ee67c06e3d2add681a0b",
+ "domain": [
+  "finance/crypto/swaps"
+ ],
+ "product": [
+  "monero"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Quotes, creates and tracks cross-chain crypto swaps, including Monero.",
+ "whenToUse": "Use when a user wants to exchange cryptocurrency across chains, including XMR.",
+ "tasks": [
+  "get swap quote",
+  "create swap",
+  "track swap status"
+ ],
+ "effects": {},
+ "flags": []
+}

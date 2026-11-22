@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "72c1c0c32fe3a03d44c5c9cebee081d68056bde919341178b7343047de366a16",
+ "domain": [
+  "compliance/kyb",
+  "business/company-verification"
+ ],
+ "product": [
+  "bizverify"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Checks business registrations for know-your-business verification from an AI client.",
+ "whenToUse": "Use when an agent must confirm a company is legally registered before onboarding or transacting with it.",
+ "tasks": [
+  "verify business registrations",
+  "run kyb checks"
+ ],
+ "effects": {},
+ "flags": []
+}

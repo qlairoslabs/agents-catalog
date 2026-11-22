@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "120089aa1e515db400727cecebbe40bbcbaa85d4f06d3fc71538ff03c51379ab",
+ "domain": [
+  "software/databases/security",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "azure-sql-database",
+  "azure-key-vault",
+  "microsoft-entra"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Sets up secure app access to the Azure SQL Database container with least-privilege users, proper auth methods and safe connection secrets.",
+ "whenToUse": "Use when an app is about to connect as sa, needs a least-privilege database user, or needs its connection string secured.",
+ "tasks": [
+  "create least-privilege database user",
+  "grant minimal roles",
+  "choose auth method per environment",
+  "configure managed identity",
+  "set encrypt options",
+  "store connection string in key vault",
+  "use dotnet user-secrets"
+ ],
+ "effects": {},
+ "flags": []
+}

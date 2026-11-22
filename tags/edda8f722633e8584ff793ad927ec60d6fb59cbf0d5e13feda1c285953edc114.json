@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "edda8f722633e8584ff793ad927ec60d6fb59cbf0d5e13feda1c285953edc114",
+ "domain": [
+  "community/discord/moderation",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "vaultcord",
+  "discord"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "stay-compliant"
+ ],
+ "summary": "Manages Discord servers protected by VaultCord, covering members, verification, backups and security settings.",
+ "whenToUse": "Use when administering a VaultCord-protected Discord server's members, verification or backups.",
+ "tasks": [
+  "manage server members",
+  "configure verification",
+  "manage backups",
+  "adjust security settings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "dbe02f55ab8153899271c4df6085cda6550f2b18a2b17efb213d7a4ba8776128",
+ "domain": [
+  "marketing/campaigns",
+  "design/design-systems"
+ ],
+ "product": [
+  "atris"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Runs Atris marketing campaigns and extracts, checks or searches brand design systems.",
+ "whenToUse": "Use when an agent needs to manage Atris campaigns or look up a brand's design system.",
+ "tasks": [
+  "run campaigns",
+  "extract design system",
+  "check brand compliance",
+  "search design systems"
+ ],
+ "effects": {},
+ "flags": []
+}

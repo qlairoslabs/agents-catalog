@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "b1495e17e217b058fb6aeb1437d5ae6f8316d539dc7b92499d7d4e82ed441be3",
+ "domain": [
+  "travel/lodging"
+ ],
+ "product": [
+  "lodgify",
+  "pagosa-forest-lodge"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Gives property facts, availability, quotes and an official checkout link for a single Pagosa Springs lodge.",
+ "whenToUse": "Use when a guest wants to check dates, price or book a stay at Pagosa Forest Lodge.",
+ "tasks": [
+  "get property facts",
+  "search stays",
+  "check availability",
+  "get quote",
+  "get booking link"
+ ],
+ "effects": {
+  "58387aa03f6af6950abadda9bb3bdbce4e1f37a152f54ccd5ee19246e063ec11": "read",
+  "f841e38ca7510d5ad7963560ed7b26042d5785fd5acc1f4d5bff31b4f61d9aac": "read",
+  "2b47ccaef2433e65411d15512a89816fc595a7edeb7eb787faf7bc6dc8cf23c0": "read",
+  "bc114ef1f30f6b298929e98015237c069a2eac1e0b3f584a3a6a7aec0a7df72e": "read",
+  "cd89a4eded7c0733802aa6925fc52e9e2cbbb22441458ea37b4fb615a010a954": "read"
+ },
+ "flags": []
+}

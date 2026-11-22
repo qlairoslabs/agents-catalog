@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ad756fe595ddb857068215848cad6ac678d684add7346b6b3ffc26c8516a3abc",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "bookresorts"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches live hotel and resort prices and room options, then creates a checkout link where the traveller pays.",
+ "whenToUse": "Use when a user wants hotel or resort prices for given dates and a booking link.",
+ "tasks": [
+  "search hotels",
+  "view room rates",
+  "create checkout link"
+ ],
+ "effects": {
+  "685b318a5a8635197593b822b9fee514ae96fe209adaa53e731faff27da0e2dd": "read",
+  "ba04132aabf17e72cda32c8c97f1ec40f7d154ef5152a338081f9f29e75e5c35": "read",
+  "ec6f4fcc2cf093bcb5a996afa4ff257d6999711c0face1d8ac473871ea76bd40": "write"
+ },
+ "flags": []
+}

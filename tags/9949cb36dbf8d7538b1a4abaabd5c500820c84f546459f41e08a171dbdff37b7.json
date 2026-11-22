@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "9949cb36dbf8d7538b1a4abaabd5c500820c84f546459f41e08a171dbdff37b7",
+ "domain": [
+  "writing/craft-library",
+  "publishing/books"
+ ],
+ "product": [
+  "penwright"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Read-only access to Penwright's writing-craft book library, guide card metadata, debates, magazine pieces and grounded answers.",
+ "whenToUse": "Use when a writer wants book recommendations, craft debates or reading lists for memoir, fiction or publishing.",
+ "tasks": [
+  "search book library",
+  "get library work",
+  "get guide metadata",
+  "read magazine piece",
+  "read craft debates",
+  "build reading list from picks",
+  "get and search answers"
+ ],
+ "effects": {
+  "90a2af99e2084ddafa4fbd717d9d004a1a82434ac70b92482a3f0f17a72e5d88": "read",
+  "63098fd2f871b394594f3c3e1981af098f6941cd9b17fdec93d262c3bc2edae5": "read",
+  "44c34be086b9661cfb6915223fefa417840ed69462fdcf3f937d28f49a14f806": "read",
+  "7c982723bc8e85d3d5198c93a0499080daa2f8bc8f34bfdc144950ba541c82fa": "read",
+  "d444ec1e7ffff555fe45e7a2657e0b48f28bbdc062105011b291f2161ff22465": "read",
+  "c0488eb709c6d32bdd3054f2a26afee43a2514165e182e2940604d443e1246bd": "read",
+  "0478fcef48c49758bc42dbaf2becc0d82f9acaf7390a51aaa2dd95b96be54b5b": "read",
+  "81c90279cf218603c5049b9f4495acac332e744cd16f016853d8898db73e620a": "read",
+  "f48147be3421b0ef6a2fde72438a87cfa200dd0505c526cb7f9e546ff4cee5c7": "read"
+ },
+ "flags": []
+}

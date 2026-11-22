@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "dc3bc8af0063d984bf0912f8e28707a9e894f1281e41a4720a92133401c92252",
+ "domain": [
+  "research/ai-design",
+  "software/ai-evaluation"
+ ],
+ "product": [
+  "axi"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "AXI v2.0 tools: definition, gated score calculators, design reviews with conformance profiles, paper search and citations for AI systems.",
+ "whenToUse": "Use when reviewing an AI assistant, agent or robot design against AXI or computing an AXI score.",
+ "tasks": [
+  "get AXI definition",
+  "calculate AXI score",
+  "calculate autonomy score",
+  "run design review",
+  "search paper",
+  "generate citation"
+ ],
+ "effects": {
+  "b97621ce31d22c714116e7069539af1e62047a21cddf822d9eec91641be90118": "read",
+  "9b7ded9de1d1c4052bcf5fe2cc6439379e5e32f36264ccea0db43855a2f1821c": "read",
+  "6dea1979b8b79e9eb42de309ee36f1ae574690fe779ea2a48ae826f48344b03b": "read",
+  "c1c81ea40df67d739e1e60bbdba8ee1d6965fc3eebbb6de0e0ff78815cfa937c": "read",
+  "686b649787196affa285dd6606ff03cf0d0c4be2b6c1308030278c6c88bff712": "read",
+  "8775ca1934d12f5d9a4218f2fbb8ef9817284d67741e5363bb0c6f7dbe08a3d6": "read"
+ },
+ "flags": []
+}

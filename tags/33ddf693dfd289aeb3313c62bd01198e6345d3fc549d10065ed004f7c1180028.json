@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "33ddf693dfd289aeb3313c62bd01198e6345d3fc549d10065ed004f7c1180028",
+ "domain": [
+  "media/generative-ai/adult"
+ ],
+ "product": [
+  "spicygen"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates adult (18+) AI images, characters, videos and movies with a credit system.",
+ "whenToUse": "Use only when an adult user explicitly wants to generate 18+ AI images, characters or videos.",
+ "tasks": [
+  "generate adult images",
+  "create characters",
+  "generate videos",
+  "generate movies",
+  "manage credits"
+ ],
+ "effects": {},
+ "flags": [
+  "adult-content"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "1f85313048bc2f07e35806ce4157dc00f2c5a96fac3c21a41f9aaa127692a81b",
+ "domain": [
+  "hr/job-search",
+  "jobs/reduced-hours"
+ ],
+ "product": [
+  "4dayweek-io"
+ ],
+ "audience": [
+  "everyone",
+  "hiring"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search jobs and employers offering 4-day weeks and other reduced-hours schedules, with schedule definitions and market statistics.",
+ "whenToUse": "Use when finding jobs or companies with genuine reduced working hours or explaining schedule types.",
+ "tasks": [
+  "search jobs",
+  "get job details",
+  "search companies",
+  "get company profile",
+  "explain schedule types",
+  "get market stats"
+ ],
+ "effects": {
+  "3b739d2d51342a3b1041bf6a1bfc524b13b7a818724740c662ec8e6cbd1f79f9": "read",
+  "09536102b51f17cf835dacb36219da81aea379079e29eb5ba160544b2e93eb56": "write",
+  "11614b687f17bcc16251345e43a0eae836b6347a502ce4aa5caabbc85b10e11f": "write",
+  "5f74096824e3ce4622d70cefad403e820658c44322b9e92d2e13975d9dec58b2": "read",
+  "140bd8faaa10f94caef54d343893336a3db0ceb9e3d6e7868786adfed7e1be18": "write",
+  "7fd29df4f0d550eef4480b367dceecb576836c4c37ff1252858fb111edcff833": "write"
+ },
+ "flags": []
+}

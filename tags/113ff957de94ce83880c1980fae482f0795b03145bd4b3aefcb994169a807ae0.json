@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "113ff957de94ce83880c1980fae482f0795b03145bd4b3aefcb994169a807ae0",
+ "domain": [
+  "software/developer-docs",
+  "transportation/booking"
+ ],
+ "product": [
+  "ridedesk"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Developer documentation for building on RideDesk, covering its booking API, widgets and per-account booking MCP.",
+ "whenToUse": "Use when a developer is integrating RideDesk booking APIs or widgets and needs reference docs.",
+ "tasks": [
+  "look up booking API docs",
+  "read widget integration docs",
+  "learn about per-account booking MCP"
+ ],
+ "effects": {},
+ "flags": []
+}

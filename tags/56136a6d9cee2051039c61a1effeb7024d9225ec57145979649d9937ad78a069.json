@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "56136a6d9cee2051039c61a1effeb7024d9225ec57145979649d9937ad78a069",
+ "domain": [
+  "software/ai-agents/hosting",
+  "software/devops"
+ ],
+ "product": [
+  "openclaw"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "be-online"
+ ],
+ "summary": "Deploys, monitors and manages hosted OpenClaw AI assistants through natural-language requests.",
+ "whenToUse": "Use when you need to launch, check on or manage OpenClaw assistant instances.",
+ "tasks": [
+  "deploy assistants",
+  "monitor assistants",
+  "manage assistants"
+ ],
+ "effects": {},
+ "flags": []
+}

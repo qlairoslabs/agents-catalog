@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "d44fa62542f762276212544217c890e2a8ee9ef67d4a7777282cc82fa67b97e0",
+ "domain": [
+  "software/smart-contracts",
+  "blockchain/stellar"
+ ],
+ "product": [
+  "openzeppelin",
+  "stellar",
+  "soroban"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates OpenZeppelin-based Stellar smart contract source code for accounts, tokens, governors, stablecoins, NFTs and vaults.",
+ "whenToUse": "Use when scaffolding a Stellar/Soroban smart contract from OpenZeppelin building blocks.",
+ "tasks": [
+  "generate smart account",
+  "generate fungible token",
+  "generate governor",
+  "generate stablecoin",
+  "generate NFT",
+  "generate vault"
+ ],
+ "effects": {
+  "c1b50b5fa0c9e095717cbf6c94febfa58101d91ede5c8e0675f196799a93a102": "read",
+  "c4ce69808e9b26deb7c56b31498eaac40cfb23fa3c35b1209595dba64e571fb8": "read",
+  "410e646a1b8849830ee27e3c8bdc44d88724bafeb8dfff42fb657385fd3ee977": "read",
+  "58219c411eed9b6d83b3c9e72a7b898b98a1791e8f427a71e192a9b5e855d995": "read",
+  "b6cf493d15c4b64d1fb75ecb06e15ca44af48c56f74c27ca7688c6e7e17f2b51": "read",
+  "9b2bb4ed9ef6b504720cca4381122d0992139d36b9524b4276b9b001a77b2edf": "read"
+ },
+ "flags": []
+}

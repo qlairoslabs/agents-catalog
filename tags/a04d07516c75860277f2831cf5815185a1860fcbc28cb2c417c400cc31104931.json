@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a04d07516c75860277f2831cf5815185a1860fcbc28cb2c417c400cc31104931",
+ "domain": [
+  "software/app-builder",
+  "ai/code-generation"
+ ],
+ "product": [
+  "lovable"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Official Lovable connector for working with its AI-driven full-stack app builder.",
+ "whenToUse": "Use when a user wants to create or modify apps built on Lovable through an agent.",
+ "tasks": [
+  "build full-stack apps",
+  "edit lovable projects"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "9b0d4fefbdc9e332db47ab8a7a49b05fc3c76834fdaa9242caddf433fdec9ab6",
+ "domain": [
+  "entertainment/streaming",
+  "creator"
+ ],
+ "product": [
+  "twitch",
+  "discord"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "sell"
+ ],
+ "summary": "Live status, stream schedule, recent videos, merch search and profile info for the streamer Taren Raider.",
+ "whenToUse": "Use when someone asks if Taren Raider is live, when they stream next, what to watch or what merch exists.",
+ "tasks": [
+  "check live status",
+  "get stream schedule",
+  "list latest VODs",
+  "search merch",
+  "get site info"
+ ],
+ "effects": {
+  "86f2d0841c9fa24a97b25ca26bdb77b676a7f236e8445b2cb6c2d27b9433a343": "read",
+  "2331a3cdc4de433753b2fdf3b0c010dbf65d55ff68fc8444bab6abda5ad266e1": "read",
+  "986c779db11f8b0e944b48be863ffdc000b51b59e52190ae4b5adca7511c0db9": "read",
+  "85266250d3e64cd89559f0427148f4b6201c6b783e6b78bd3f30e8b655c49001": "read",
+  "bb8eb05e8abf1b5fa4e3cc3ed787fb3785a8266793a2870a12d8275d27a0ee07": "read"
+ },
+ "flags": []
+}

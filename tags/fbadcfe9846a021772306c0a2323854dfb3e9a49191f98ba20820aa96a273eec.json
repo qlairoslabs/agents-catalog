@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "fbadcfe9846a021772306c0a2323854dfb3e9a49191f98ba20820aa96a273eec",
+ "domain": [
+  "software/code-analysis",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "archgraph"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Code intelligence service with tools for architecture, security and change-impact analysis of codebases.",
+ "whenToUse": "Use when an agent needs to understand a codebase's architecture, assess security issues or estimate the impact of a change.",
+ "tasks": [
+  "analyze code architecture",
+  "run security analysis",
+  "assess change impact"
+ ],
+ "effects": {},
+ "flags": []
+}

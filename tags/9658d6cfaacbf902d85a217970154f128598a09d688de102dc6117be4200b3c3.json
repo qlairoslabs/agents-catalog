@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9658d6cfaacbf902d85a217970154f128598a09d688de102dc6117be4200b3c3",
+ "domain": [
+  "software/product-management"
+ ],
+ "product": [
+  "priorify"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Permission-scoped access to product management operations in Priorify workspaces.",
+ "whenToUse": "Use when the user manages product work in Priorify and wants an agent to act on it.",
+ "tasks": [
+  "manage product workspace items",
+  "prioritize product work"
+ ],
+ "effects": {},
+ "flags": []
+}

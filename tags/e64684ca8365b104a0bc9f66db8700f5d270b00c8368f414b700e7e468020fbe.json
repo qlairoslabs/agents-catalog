@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e64684ca8365b104a0bc9f66db8700f5d270b00c8368f414b700e7e468020fbe",
+ "domain": [
+  "software/no-code/app-auditing",
+  "software/no-code"
+ ],
+ "product": [
+  "appsheet",
+  "knotrik"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an agent query and audit AppSheet app definitions that Knotrik has already scanned.",
+ "whenToUse": "Use when you need to inspect, explain or audit the structure and logic of AppSheet apps.",
+ "tasks": [
+  "query appsheet app definitions",
+  "audit appsheet apps",
+  "explain app structure"
+ ],
+ "effects": {},
+ "flags": []
+}

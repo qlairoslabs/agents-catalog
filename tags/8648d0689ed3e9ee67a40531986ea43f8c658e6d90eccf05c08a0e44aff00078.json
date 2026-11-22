@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "8648d0689ed3e9ee67a40531986ea43f8c658e6d90eccf05c08a0e44aff00078",
+ "domain": [
+  "retail/inventory-services",
+  "business/sales-inquiry"
+ ],
+ "product": [
+  "store-invent"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Information on a Czech retail inventory company's services, quote requirements and FAQ, with the ability to submit a sales inquiry.",
+ "whenToUse": "Use when a retailer needs inventory counting or audit services in the Czech Republic and wants info or a quote request.",
+ "tasks": [
+  "get company info",
+  "list services",
+  "get service details",
+  "get quote requirements",
+  "read FAQ",
+  "submit inquiry",
+  "ask question"
+ ],
+ "effects": {
+  "ae5715e9cdf6a6fbece88ac966afc4e5501e8fa124299e0396a8a9118d773e25": "read",
+  "9130aa1415e6d72249558fabd8ea53b17098c82195f71cf1188f6aa2a9aa636d": "read",
+  "8f06cfd4362d27fd79234e5074e2defc62f0b2c29681fa83e60e851e78f5f35c": "read",
+  "d113b5fdce3448be77e4bb9ae1ff119e22f102c2575a0c4f2cde35ed97b2195f": "read",
+  "75547e54ff5cb7477560d9b252c99869b384df7cfc4040e06dd7ccfaee5c52ff": "read",
+  "e360425c1783687adc42b0ea33feae354ffd96c128ef9dec48d129bd90e8b748": "write",
+  "c374a7373e45c0423cb804aa69919c448018c8db82627c3ef1db5c8e77c4486e": "read"
+ },
+ "flags": []
+}

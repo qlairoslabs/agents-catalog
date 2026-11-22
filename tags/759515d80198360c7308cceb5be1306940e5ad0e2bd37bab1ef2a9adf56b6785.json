@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "759515d80198360c7308cceb5be1306940e5ad0e2bd37bab1ef2a9adf56b6785",
+ "domain": [
+  "customer-support/ai-agents",
+  "software/ai"
+ ],
+ "product": [
+  "chat-thing"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Connector for building and managing AI customer support agents on the Chat Thing platform from an MCP client.",
+ "whenToUse": "Use when a user wants to create, configure or manage AI support chatbots hosted on Chat Thing.",
+ "tasks": [
+  "build support agents",
+  "manage support agents",
+  "configure chatbot behaviour"
+ ],
+ "effects": {},
+ "flags": []
+}

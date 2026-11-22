@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "20358c48ae09d55a3968e29915c1eb398ad3ac47b0d9d2f159766ac1d4b97537",
+ "domain": [
+  "data/database",
+  "software/agent-storage"
+ ],
+ "product": [
+  "hutchdb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "A database service that lets AI agents store, query and update structured data.",
+ "whenToUse": "Use when an agent needs persistent structured storage it can query and update.",
+ "tasks": [
+  "store records",
+  "query data",
+  "update records"
+ ],
+ "effects": {},
+ "flags": []
+}

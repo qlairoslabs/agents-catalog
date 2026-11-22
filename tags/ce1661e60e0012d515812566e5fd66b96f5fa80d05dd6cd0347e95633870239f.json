@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ce1661e60e0012d515812566e5fd66b96f5fa80d05dd6cd0347e95633870239f",
+ "domain": [
+  "food-and-drink/cocktails"
+ ],
+ "product": [
+  "mixwise"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Suggests cocktails makeable from bottles you own, gives full recipes, and recommends the next bottle to buy.",
+ "whenToUse": "Use when a user lists their bar ingredients or asks how to make a cocktail.",
+ "tasks": [
+  "find cocktails from bottles",
+  "get recipe",
+  "suggest next bottle",
+  "get drink of the day"
+ ],
+ "effects": {
+  "910e068333c2cdd97e6e832ebebff8f8926f01193313c3aa9f3bae1dfc8967c6": "read",
+  "f7808615e36e71e5023337a79acbaa93319adead70f5308484bc3712349681c5": "read",
+  "f982ee19de77fdf510f1fe7494aec9ec5349e896a776153b68d98e5c406a4afc": "read",
+  "25a1f352a6489d590c40cebafaec837d464b29910f5435caaf97ba6a259885e5": "read"
+ },
+ "flags": []
+}

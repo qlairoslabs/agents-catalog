@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b1d6290f93c468116d0f4938c49e1224d0f4844edd1b16426c5ab5c2492dbf0f",
+ "domain": [
+  "communication/email/disposable",
+  "software/testing"
+ ],
+ "product": [
+  "blinkinbox"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Provides disposable email inboxes for agents to receive mail and extract one-time codes and links.",
+ "whenToUse": "Use when an agent needs a throwaway email address to receive a verification code or link during sign-up or testing.",
+ "tasks": [
+  "create disposable address",
+  "wait for incoming mail",
+  "read otp codes",
+  "extract links from email"
+ ],
+ "effects": {},
+ "flags": []
+}

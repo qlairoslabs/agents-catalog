@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "54e0eac57e92c0c920556f44c3eaa0d00d3901aabe929a5076a5bb82fee8345d",
+ "domain": [
+  "hobby/retro-gaming",
+  "reference/hardware-specs"
+ ],
+ "product": [
+  "sony-pvm",
+  "sony-bvm",
+  "playchoice-10"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only reference for orlandu.com: site search, Sony PVM/BVM monitor specs, BKM cards, console video connections, PlayChoice-10 games and a monitor registry.",
+ "whenToUse": "Use when answering questions about Sony broadcast CRT monitors, connecting retro consoles to them, or PlayChoice-10 games.",
+ "tasks": [
+  "search site",
+  "read pages",
+  "list Sony monitor specs",
+  "list BKM option cards",
+  "plan console to monitor connection",
+  "list PlayChoice-10 games",
+  "view monitor registry census"
+ ],
+ "effects": {
+  "886813f551ab6dae16aa678bcd17ed2428bbdbab5b82e77d9d36a01e63fbab2d": "read",
+  "93f15d7c1c25d10904b83a4f7c544f83080404300e6953ad713927083b69436a": "read",
+  "f19b8d1f188542ab04668369fb4d99c87535a9e3a9da6d0fb9c37f70cfe6a65f": "read",
+  "8cd02b8352b3fb0312dfb9edd1077808eed24a9ca3bacf77cf9a374400d0fc34": "read",
+  "dbbcf26f9d90a3c5e2dca82bd792c941936c6332454967affce26a7e2ed9fe54": "read",
+  "4fba8e48c9778969d54973d56103b95b9f042405d2a6920c475b39614d22e834": "read",
+  "2bd220690ca1b5fae55fe1d00f6cc758e538573e78d12a37d7acce9690a53ed5": "read",
+  "83a2e9a87b4df29256c402e6300d9874c13d07dd09ca0caffcf97806836111e6": "read",
+  "389b7a798d7f6a2d888cabaf52d0957d073cdcdade3f40134d221b250b108721": "read"
+ },
+ "flags": []
+}

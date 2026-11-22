@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "f34ac3ab0f7cf845a295a0d5134fc595cf878d81f662f2d45570db472ffb9885",
+ "domain": [
+  "hospitality/direct-booking",
+  "software/product-info"
+ ],
+ "product": [
+  "guruhotel",
+  "channex",
+  "stripe"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Product knowledge for GuruHotel's direct booking platform: facts, pricing model, PMS integrations and compatibility checks.",
+ "whenToUse": "Use when a hotelier or agent needs to know whether GuruHotel works with a PMS or how it is priced.",
+ "tasks": [
+  "search knowledge base",
+  "get product facts",
+  "get pricing model",
+  "list integrations",
+  "check PMS compatibility",
+  "read page markdown"
+ ],
+ "effects": {
+  "36242bd7592e9460af005fc066872ec26bbfdccc8d1999f5262aab5c6c11fba9": "read",
+  "4b0eadcec1d32233d995d2725b6bd2eacdfa085afbad508e5496769a14c35529": "read",
+  "f00df30bae5c7c8006bba286fe28cfaa4430b6441f4b294c1e29cb1422bb86a1": "read",
+  "23af93807aae78b9e5d890ec091e9eb37d213f0697309d1aa81a4e862450eb1c": "read",
+  "1d759635431db06e279a2a6d2a35b8340a757123133c0f3c9697e0794cadf02d": "read",
+  "528c827b8c8fb7c8180363646136d60ce6c6cab441b6506cc849dd5af641a1f8": "read"
+ },
+ "flags": []
+}

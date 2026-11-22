@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "59be259b78481e35fa0cd3153eabc3cffd0a9913bb47ef265c4f7e7cd8cef878",
+ "domain": [
+  "3d/avatar-generation"
+ ],
+ "product": [
+  "unity",
+  "unreal",
+  "godot",
+  "roblox",
+  "trellis",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "3D avatar and asset pipeline: generate from text or image, repair, rig, validate and export engine-ready GLBs, paid per call in USDC.",
+ "whenToUse": "Use when generating or validating 3D avatars and assets and exporting them for Unity, Unreal, Godot or Roblox.",
+ "tasks": [
+  "generate avatar from text",
+  "generate avatar from image",
+  "poll generation job",
+  "validate mesh",
+  "inspect avatar contract",
+  "compare avatars",
+  "run full pipeline",
+  "export to platform",
+  "verify manifest",
+  "repair mesh",
+  "retarget animation",
+  "roblox compliance check"
+ ],
+ "effects": {
+  "013b8dc10a49664b81566177ee2fb569308eacd7a9d40c6cf41d56b1ef5880e1": "read",
+  "c4af9e238597e9edaf5b578082bb3c37f1f23482565127e89cb518e32a9eea1e": "write",
+  "4c8ea3831e7d53a7340ac888775b7352f7b254cdd080af021bd51b52d5d1d582": "write",
+  "7ca21b8e954000e9ec5a87743e8d5b176c2b2403f21f3980987273174c4a0dec": "write",
+  "36ca93fb2a3b7697122d37a24772989067f3261707501899cbd78440132b4682": "write",
+  "5c29e1dbdb5084deb9fd61e6928f9e0012a99dc947cccd7da1b72383e9bc41f4": "write",
+  "257045f6d6f84440d5c8e314766db714f48a9a0aae112ba42951659cae6a745f": "write",
+  "7a6bba8c2b13e9e64e5914982bbb6af4271b84e6ae2cc3d40a920caa188632a7": "write",
+  "74b581f6628c03eabd0592a6aff60c9b94c51aa528d0e6edc84e212b5dd6d26a": "write",
+  "02f42af90245d335fe3f5af5f48a415179af9945f6314b500524feec6dedcbf8": "write",
+  "1dff9d295b9738b1ac31d4fa046af56951d69068420e3a1366415a685817c7dd": "write",
+  "50e2491f14fd53f8ad3fbbfe6ea1326f9b690380060d3830452cfb9a10f30367": "risky",
+  "e4883bd35b39fd9f0aac94fe330ef13864c7a45b2fbf4899bcdb03923d64c104": "risky",
+  "e6dd30649ed537e0375397936be1a1e42f534cfb0eca50dabacc906a23886617": "read"
+ },
+ "flags": [
+  "most tools charge USDC per call via x402; generation costs $5-6"
+ ]
+}

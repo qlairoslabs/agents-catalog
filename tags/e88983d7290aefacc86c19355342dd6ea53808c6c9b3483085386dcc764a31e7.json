@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e88983d7290aefacc86c19355342dd6ea53808c6c9b3483085386dcc764a31e7",
+ "domain": [
+  "software/ai-agents",
+  "software/search-routing"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Recommends a search provider for an agent in economy or critical mode and collects reported outcomes plus public stats.",
+ "whenToUse": "Use when an agent must choose between search providers and wants to report how the chosen one performed.",
+ "tasks": [
+  "recommend search provider",
+  "report execution outcome",
+  "read public stats",
+  "read public outcomes"
+ ],
+ "effects": {
+  "0c894ce489eda9dcf651c9bc90558c43b5d6ce6626f3d52bd6071ac7fc4b4539": "write",
+  "14479d19e28d9887b26a5d3c695751db1e9dd63efe2fbc00b51fd4287b20b529": "write",
+  "328511a925cd031ea097701c31c1d62181a440c5347fc1d94149530980a1fbd6": "read",
+  "70ac5d48a52abda04b9230ef90291ec69b4189193d48182d3092a47ca1308202": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "224df2aade94cf5ede8c8390f95627fc035207db765fdc4fe8dd8bc037cd17c8",
+ "domain": [
+  "finance/crypto/copy-trading"
+ ],
+ "product": [
+  "three-ws"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Manages copy-trading follows on three.ws, including leader selection, sizing, guard rules and fees owed.",
+ "whenToUse": "Use when an agent needs to set up or adjust copy-trade follows on three.ws.",
+ "tasks": [
+  "follow trade leaders",
+  "adjust position sizing",
+  "set guard rules",
+  "track fees owed"
+ ],
+ "effects": {},
+ "flags": []
+}

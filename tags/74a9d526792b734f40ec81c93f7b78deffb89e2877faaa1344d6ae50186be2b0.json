@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "74a9d526792b734f40ec81c93f7b78deffb89e2877faaa1344d6ae50186be2b0",
+ "domain": [
+  "software/ai-agents/development",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "amazon-bedrock-agentcore",
+  "amazon-bedrock",
+  "strands",
+  "langgraph"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Extends an AgentCore agent project with memory, app integration, VPC, multi-agent, model changes, browser, code interpreter, payments or resource removal.",
+ "whenToUse": "Use when adding capabilities to an existing AgentCore agent project or migrating from Bedrock Agents.",
+ "tasks": [
+  "add agent memory",
+  "invoke agent from app",
+  "configure vpc connectivity",
+  "set up multi-agent a2a",
+  "migrate bedrock agents",
+  "change model",
+  "add browser tool",
+  "add code interpreter",
+  "add x402 or mpp payments",
+  "remove agent resources"
+ ],
+ "effects": {},
+ "flags": []
+}

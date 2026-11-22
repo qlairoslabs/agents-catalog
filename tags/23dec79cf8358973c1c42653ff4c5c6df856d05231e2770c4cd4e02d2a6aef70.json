@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "23dec79cf8358973c1c42653ff4c5c6df856d05231e2770c4cd4e02d2a6aef70",
+ "domain": [
+  "finance/crypto",
+  "finance/market-analysis"
+ ],
+ "product": [
+  "asrai"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Crypto signals, screeners, technical analysis, sentiment and AI insights for thousands of coins via an Asrai API key.",
+ "whenToUse": "Use when an agent needs technical analysis, signals or sentiment on crypto assets.",
+ "tasks": [
+  "get trading signals",
+  "screen coins",
+  "run technical analysis",
+  "read sentiment",
+  "get ai insights"
+ ],
+ "effects": {},
+ "flags": []
+}

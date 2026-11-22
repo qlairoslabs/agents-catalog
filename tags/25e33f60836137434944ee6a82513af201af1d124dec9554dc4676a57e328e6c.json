@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "25e33f60836137434944ee6a82513af201af1d124dec9554dc4676a57e328e6c",
+ "domain": [
+  "igaming/reference-data",
+  "gambling/slots"
+ ],
+ "product": [
+  "pragmatic-play"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "hire-and-manage"
+ ],
+ "summary": "Reference data for iGaming: slot specs and RTP variants, providers, series, themes, regional search demand, regulators, industry news and job vacancies.",
+ "whenToUse": "Use when researching slot games, provider profiles, market demand by country, regulators, industry news or iGaming job openings.",
+ "tasks": [
+  "search providers",
+  "list provider slots",
+  "search slots",
+  "get slot RTP and specs",
+  "get slot search demand",
+  "list series, themes, features",
+  "get market demand ranking",
+  "list news",
+  "list jobs",
+  "list regulators",
+  "list news sources"
+ ],
+ "effects": {
+  "2cf6ace789048da7fe4019a441527ae7616a50784abde478e80598d4ff798711": "read",
+  "a522aaf9d231f94c4c7835180bb9951edee0841ab0dc7e6d25f04e1ae8bb42d1": "read",
+  "35c1f37269a3b06454edf6a216c7b82b7090dc3f5d404d7482b2317c134b978b": "read",
+  "ec5c5fa4f867b69384c59cb5edd88fcc9aa8ef8359650452ec1e0678fba31b09": "read",
+  "1f248a46e76ff234196b8d88112bcf4e8c5daacfcea6a08c7b6cfb3efdfa4a53": "write",
+  "4fe2cd1e67adad6ea135b0da3c8535a0f2d8fed4a1ea447370448d284cc06cde": "write",
+  "ccbdef85de02b6f902cbe7554db8841f3915f918f1e62149aae672ac3f84d3fe": "write",
+  "bf23f61dcdb19523c4dbbc7e7c35f843887680eed0e2a2bfc09e3b07a66637c2": "write",
+  "6676cc2290b59ee876775b4379c98ab66e43451d7e52c874d06e29d295a299dd": "write",
+  "46f1869d540997fee7692204ce742c1d007cd7faea3e6f8b8421f168b241beb3": "write",
+  "10350a78def5ed8fe79bd12185739cb460f039c07dd0070ec17d07c60f4ec975": "write",
+  "76d42a0029136a5fa77768c9f90a00276f2ed8503e60b3a6fc6289b506eff421": "write",
+  "49a8f3777aa689e2044a48d72522ee718f9bb0f8a9473a33536bc5c9d411ba68": "read",
+  "5727d798186e0f50acaf5268902fd9b20308f2c2385ba1f694ef9563656b6659": "read",
+  "7dd961546a552eed63d51daedfd9fb9f91b26ff94004f1aca9b7f4abad17443a": "read",
+  "0bd15cb14fa0d9d8e188b76c2a73463ab5435093758eccefb4b9987be70704ca": "read",
+  "f8174879bf1e1724ddc39e8bfb8a5c8f4b3279a19dbb56909d23b9ee2b1cc622": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "46456ff97cf7c2147c80ab91c35c1ba262368aa0e83d12fd23eff73d1f2c2d35",
+ "domain": [
+  "software/media-delivery",
+  "software/documentation"
+ ],
+ "product": [
+  "imagekit"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Searches ImageKit documentation and builds image or video transformation URLs from plain descriptions.",
+ "whenToUse": "Use when working with ImageKit and you need docs answers or a transformation URL.",
+ "tasks": [
+  "search ImageKit docs",
+  "build transformation URL",
+  "verify URL via CDN"
+ ],
+ "effects": {
+  "2df461c2ad9e8ebec49da645cf45a3f797d9b59d95c8e5cd7698b13cd6232657": "read",
+  "8dc45b127f2f67b58e874bbf2ca174eff98167f8d3db4b16b41db5f1ade43574": "read"
+ },
+ "flags": []
+}

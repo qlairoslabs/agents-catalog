@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0165d41de6adea91d07bc92c473e2f73165e6c43ce2c579e972638d17a13e645",
+ "domain": [
+  "software/middleware/dds",
+  "software/developer-tools"
+ ],
+ "product": [
+  "rti-connext"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Brings RTI Connext product knowledge into agent workflows for development help.",
+ "whenToUse": "Use when building or debugging systems with RTI Connext DDS and needing product-specific guidance.",
+ "tasks": [
+  "answer connext questions",
+  "provide connext development assistance"
+ ],
+ "effects": {},
+ "flags": []
+}

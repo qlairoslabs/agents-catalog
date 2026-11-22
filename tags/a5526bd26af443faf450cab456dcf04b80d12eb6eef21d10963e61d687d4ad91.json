@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a5526bd26af443faf450cab456dcf04b80d12eb6eef21d10963e61d687d4ad91",
+ "domain": [
+  "productivity/databases/querying"
+ ],
+ "product": [
+  "airtable"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Builds field-type-aware Airtable filter parameters, including choice and collaborator IDs, date ranges and nested AND/OR logic.",
+ "whenToUse": "Use when a user wants to find, narrow down or search Airtable records by field values.",
+ "tasks": [
+  "build record filters",
+  "compare field values by type",
+  "filter by choice or collaborator",
+  "filter by date range",
+  "combine and or conditions"
+ ],
+ "effects": {},
+ "flags": []
+}

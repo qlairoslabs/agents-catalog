@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "90db82d6cad0c3c4c99af70fb05eeffe4b021a198014032569d42fd46d4ce8a0",
+ "domain": [
+  "design/3d-assets",
+  "design/textures"
+ ],
+ "product": [
+  "3dtexel"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches and downloads PBR materials, HDRIs, decals and 3D assets, and generates new PBR materials and HDRIs.",
+ "whenToUse": "Use when the user needs textures, HDRI environments or 3D assets for rendering or game work.",
+ "tasks": [
+  "search pbr materials",
+  "download assets",
+  "search hdris",
+  "generate pbr materials",
+  "generate hdris"
+ ],
+ "effects": {},
+ "flags": []
+}

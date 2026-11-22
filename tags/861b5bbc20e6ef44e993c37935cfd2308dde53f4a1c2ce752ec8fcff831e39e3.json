@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "861b5bbc20e6ef44e993c37935cfd2308dde53f4a1c2ce752ec8fcff831e39e3",
+ "domain": [
+  "software/mobile-testing",
+  "software/test-automation"
+ ],
+ "product": [
+  "appium",
+  "ios",
+  "android"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "MCP server for Appium that automates iOS and Android devices and helps create mobile tests.",
+ "whenToUse": "Use when an agent needs to drive a mobile app on a device or emulator or generate Appium tests.",
+ "tasks": [
+  "start device session",
+  "tap and type in apps",
+  "find elements",
+  "take screenshots",
+  "generate test code"
+ ],
+ "effects": {},
+ "flags": []
+}

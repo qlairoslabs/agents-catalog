@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "c2af3c1b368fd16b05750d8f2ce0f87fd12aa83868dcc60094afd21dd4e20baa",
+ "domain": [
+  "documents/spreadsheets",
+  "data/cleaning"
+ ],
+ "product": [
+  "excel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Opens, edits, creates, cleans and converts spreadsheet files such as xlsx, xlsm, csv and tsv, including formulas, formatting and charts.",
+ "whenToUse": "Use when the main input or output of a task is a spreadsheet file, not a Word document, report or Google Sheets integration.",
+ "tasks": [
+  "read spreadsheets",
+  "edit spreadsheets",
+  "add columns",
+  "compute formulas",
+  "format cells",
+  "create charts",
+  "clean messy data",
+  "create new spreadsheets",
+  "convert tabular formats"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4c7c1aadf209ea5efe72bf219ee2f4722084b91ecaeda5d62c1bc7e7adb31df3",
+ "domain": [
+  "finance/market-data",
+  "crypto/market-data"
+ ],
+ "product": [
+  "idx"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live market data and analysis for cryptocurrencies and Indonesia Stock Exchange stocks, with no API key needed.",
+ "whenToUse": "Use when an agent needs current crypto or Indonesian stock market data or signals.",
+ "tasks": [
+  "get crypto prices",
+  "get idx stock data",
+  "market analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

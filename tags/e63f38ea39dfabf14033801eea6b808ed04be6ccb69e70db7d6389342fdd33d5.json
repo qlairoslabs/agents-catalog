@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e63f38ea39dfabf14033801eea6b808ed04be6ccb69e70db7d6389342fdd33d5",
+ "domain": [
+  "research/surveys",
+  "data"
+ ],
+ "product": [
+  "koekatsu"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search and retrieval of public Japanese survey results with vote counts, citation URLs and categories.",
+ "whenToUse": "Use when you need Japanese survey data on a topic with citable sources.",
+ "tasks": [
+  "search surveys",
+  "get survey results",
+  "browse categories",
+  "pin results to a month"
+ ],
+ "effects": {
+  "e22ebffd5db28703cdfed89ffe862fdd057c58d5b6979e4f5a0b4f509eb78286": "read",
+  "9f7285207f3450ebb8aba086f9981d191cce4637257de5b8d3db586343334e14": "read",
+  "20b2c137ca2ebc1c747e84a9a4b9fea148dd8c823cf62222ae7d93b3cb815c30": "read"
+ },
+ "flags": []
+}

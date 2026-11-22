@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "f2a3566095e9aeaa80aeed597faadfcafc7a40d941c856fec4f86c398a2507ff",
+ "domain": [
+  "commerce/promotional-products",
+  "commerce/quoting"
+ ],
+ "product": [
+  "brindesbrasil"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches a Brazilian catalogue of custom promotional gifts with colors, engraving options, quantity pricing and shipping quotes.",
+ "whenToUse": "Use when someone wants to find, price or quote shipping for branded promotional items in Brazil.",
+ "tasks": [
+  "search promotional products",
+  "get product details",
+  "calculate price by quantity",
+  "find similar products",
+  "identify product from image",
+  "list categories",
+  "calculate shipping by cep"
+ ],
+ "effects": {
+  "f1378449d519d17c46fdb35e482b1ddc6fdbd7a195484ee09092e2815da2c0b8": "read",
+  "3d0a9d91896ae7e15566da89d03ebb9daea4a0e866d0301e26a3f09159392d9d": "read",
+  "20def2adc3c89b8490ad3ebc6ecdfee18ff21248d7a4defb441315b44e0a498d": "read",
+  "25dc7df22c2f0e67eb57ade06e4c03d4a5c58fc3a5ad3ccb6fa7a657e41c6b6c": "read",
+  "6daf07562ef49afab05dc8ffd1a215f5914e054c8626d5efc1adfa7dc5d43e3d": "read",
+  "5636ae7f0297a8a8bd5bc080a30696c19d39a7d7acde09fba94e06e8db36f73a": "read",
+  "aede21a8a9e6c86a0d392973f746abe4b1d58bc4dc7719eebd8d057ca9cb81b7": "read"
+ },
+ "flags": [
+  "mentions a radar.js script that tracks products visited by customers"
+ ]
+}

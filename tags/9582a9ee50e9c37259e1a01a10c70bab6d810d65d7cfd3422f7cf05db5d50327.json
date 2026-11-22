@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "9582a9ee50e9c37259e1a01a10c70bab6d810d65d7cfd3422f7cf05db5d50327",
+ "domain": [
+  "data/data-platform",
+  "data/data-engineering"
+ ],
+ "product": [
+  "databricks",
+  "spark"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Skills for working with Databricks CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, declarative pipelines, bundles and serverless migration.",
+ "whenToUse": "Use when developing, deploying or migrating workloads on Databricks.",
+ "tasks": [
+  "use databricks cli",
+  "build databricks apps",
+  "manage lakebase",
+  "deploy model serving",
+  "configure lakeflow jobs",
+  "build declarative pipelines",
+  "manage asset bundles",
+  "migrate to serverless"
+ ],
+ "effects": {},
+ "flags": []
+}

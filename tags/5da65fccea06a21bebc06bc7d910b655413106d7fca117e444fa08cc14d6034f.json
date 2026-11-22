@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5da65fccea06a21bebc06bc7d910b655413106d7fca117e444fa08cc14d6034f",
+ "domain": [
+  "software/databases/managed-services",
+  "software/data-streaming"
+ ],
+ "product": [
+  "aiven",
+  "kafka"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Guides a user through signing up for Aiven, authenticating, and connecting their account so Aiven managed data services can be used.",
+ "whenToUse": "Use when a user is new to Aiven or Aiven tools fail because of missing authentication or connection problems.",
+ "tasks": [
+  "guide aiven account sign-up",
+  "authenticate aiven connection",
+  "troubleshoot aiven tool authentication failures",
+  "onboard to aiven managed databases and kafka"
+ ],
+ "effects": {},
+ "flags": []
+}

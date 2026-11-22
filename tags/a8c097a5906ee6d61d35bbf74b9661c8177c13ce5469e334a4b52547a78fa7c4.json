@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "a8c097a5906ee6d61d35bbf74b9661c8177c13ce5469e334a4b52547a78fa7c4",
+ "domain": [
+  "sales/vendor-storefront",
+  "ai/consulting"
+ ],
+ "product": [
+  "aivonic"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Aivonic's sales connector for viewing pricing and products, checking slots, booking discovery calls and requesting quotes.",
+ "whenToUse": "Use when the user is interested in Aivonic's AI services and wants pricing, a demo booking or a quote.",
+ "tasks": [
+  "get pricing",
+  "list products and services",
+  "check call availability",
+  "book a demo",
+  "request a quote"
+ ],
+ "effects": {
+  "182a40f1afe65277254cf50892e3f6384c1992a915ef079195ba1f2bd61aa416": "read",
+  "85bbcaf9bd0f87b87f82e6b241a65d2fefab5dd030476f11b2f336e06a33b5f7": "read",
+  "c8c5a65ccb0a54dfb0a0c67f0b7c740efa6a44968026dff2cf9e430c9d7187ad": "read",
+  "553293e0ca7b165909381ee449720e93173228445a6de215744cac8c5943a725": "write",
+  "b435707c210845bde23380d53b829a02f94a10971e22f47b6b30c74964942d9d": "write"
+ },
+ "flags": []
+}

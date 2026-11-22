@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5d42e0680b5737528efe8025d32389e34dc54e5c409256f38df2df36b4991c8a",
+ "domain": [
+  "software/infrastructure-as-code",
+  "software/cloud"
+ ],
+ "product": [
+  "pulumi"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Creates, deploys and manages cloud infrastructure as code with Pulumi.",
+ "whenToUse": "Use when the user wants to define or deploy cloud infrastructure with Pulumi.",
+ "tasks": [
+  "create infrastructure",
+  "deploy stacks",
+  "manage cloud resources"
+ ],
+ "effects": {},
+ "flags": []
+}

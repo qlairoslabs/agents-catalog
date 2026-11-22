@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "04784d235212c0fd7cf3e5ca948c499012d759d82bc901855b36ad3058e84a64",
+ "domain": [
+  "software/web/browser-debugging",
+  "software/testing"
+ ],
+ "product": [
+  "chrome",
+  "chrome-devtools"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives agents access to Chrome DevTools to control and inspect a browser.",
+ "whenToUse": "Use when an agent needs to debug, automate or profile a web page in Chrome.",
+ "tasks": [
+  "control chrome",
+  "inspect pages",
+  "debug web apps",
+  "analyze performance"
+ ],
+ "effects": {},
+ "flags": []
+}

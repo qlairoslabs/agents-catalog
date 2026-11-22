@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d1caba58d1d5d7a92fb9a60142927121d304496bb3fa17bb7353b92cd3a02abe",
+ "domain": [
+  "logistics/freight",
+  "logistics/shipping"
+ ],
+ "product": [
+  "mothership"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Freight quoting and shipment tracking for LTL, FTL and local freight through Mothership.",
+ "whenToUse": "Use when a user needs a freight shipping quote or wants to track a Mothership shipment.",
+ "tasks": [
+  "get freight quotes",
+  "track shipments",
+  "compare ltl and ftl options"
+ ],
+ "effects": {},
+ "flags": []
+}

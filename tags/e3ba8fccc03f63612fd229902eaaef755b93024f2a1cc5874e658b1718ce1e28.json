@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e3ba8fccc03f63612fd229902eaaef755b93024f2a1cc5874e658b1718ce1e28",
+ "domain": [
+  "marketing/web-analytics",
+  "data/analytics"
+ ],
+ "product": [
+  "google-analytics"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Google Analytics 4 server offering schema discovery and server-side aggregated reports for agents.",
+ "whenToUse": "Use when analysing website or app traffic data stored in GA4.",
+ "tasks": [
+  "discover ga4 dimensions and metrics",
+  "run aggregated reports",
+  "analyse traffic data"
+ ],
+ "effects": {},
+ "flags": []
+}

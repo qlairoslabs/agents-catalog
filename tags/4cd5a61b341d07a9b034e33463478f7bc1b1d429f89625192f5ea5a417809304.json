@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4cd5a61b341d07a9b034e33463478f7bc1b1d429f89625192f5ea5a417809304",
+ "domain": [
+  "productivity/project-management/gantt"
+ ],
+ "product": [
+  "ganttfather"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Reads and edits GanttFather projects including tasks, dates, dependencies and critical path.",
+ "whenToUse": "Use when planning or updating project schedules kept in GanttFather.",
+ "tasks": [
+  "read projects",
+  "edit tasks",
+  "change dates",
+  "manage dependencies",
+  "view critical path"
+ ],
+ "effects": {},
+ "flags": []
+}

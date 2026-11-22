@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "4bf6eaf0c8745dbd54837b66ee689b649a2a7573b04e6575607e89d1c7818c3d",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/mobile/android"
+ ],
+ "product": [
+  "appwrite",
+  "kotlin",
+  "android"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite Kotlin SDK in Android apps and server-side Kotlin/JVM backends.",
+ "whenToUse": "Use when building an Android or Kotlin backend app that uses Appwrite.",
+ "tasks": [
+  "implement email and oauth auth",
+  "query databases",
+  "upload files",
+  "subscribe to real-time events",
+  "manage users server-side",
+  "administer databases and storage",
+  "call functions"
+ ],
+ "effects": {},
+ "flags": []
+}

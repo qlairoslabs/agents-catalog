@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "59ef8cb64401366997d4709fb15faa006470ecf9e3daed0baf604f298d58a5bb",
+ "domain": [
+  "electronics/hardware-design",
+  "software/embedded"
+ ],
+ "product": [
+  "electrogen",
+  "arduino",
+  "esp32",
+  "raspberry-pi"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Browse ElectroGen's public electronics project gallery, component marketplace, news and platform capabilities.",
+ "whenToUse": "Use when looking for Arduino, ESP32 or Raspberry Pi project ideas, components or ElectroGen platform info.",
+ "tasks": [
+  "list public projects",
+  "browse component products",
+  "list news posts",
+  "get capabilities",
+  "describe platform"
+ ],
+ "effects": {
+  "39b445e50f86d62586b7c342f9f71b01a88b5576bb575b10efb7063f6768ccaf": "read",
+  "8e6420573bba134acbddefff9dffcfc40cba34330d00e903effa5cf7996c1df2": "read",
+  "679d92336a2dc8dd2b95d74fa5bbb0b67c589ac677c75ed51722bb74ccbcd576": "read",
+  "eb0272cba2b1ccf2f85a42b99d207cf00cd8bdbde4297628392bf2f895521b57": "read",
+  "9014e2cc5ef8644c4970d1d03d3c3a99bfdba26eb68ade41f7eba8d8b328f521": "read"
+ },
+ "flags": []
+}

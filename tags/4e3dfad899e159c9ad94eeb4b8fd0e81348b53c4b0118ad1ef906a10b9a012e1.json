@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4e3dfad899e159c9ad94eeb4b8fd0e81348b53c4b0118ad1ef906a10b9a012e1",
+ "domain": [
+  "finance/prediction-markets",
+  "research/forecasting"
+ ],
+ "product": [
+  "polymarket",
+  "manifold",
+  "metaculus"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares prediction markets Polymarket, Manifold and Metaculus and combines them into one probability per question.",
+ "whenToUse": "Use when a user wants a consolidated forecast probability for a question tracked on prediction markets.",
+ "tasks": [
+  "compare prediction markets",
+  "get combined probability",
+  "search forecast questions"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3f3755c273ff3ae5c577bc9ca21f1fff23a8f6967cc277bc70808f8ca7b017cb",
+ "domain": [
+  "finance/financial-data",
+  "data/economic-statistics"
+ ],
+ "product": [
+  "factiq"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Official economic statistics, company filings, earnings call transcripts and market data with cited sources.",
+ "whenToUse": "Use when an agent needs sourced economic or company financial data.",
+ "tasks": [
+  "get economic statistics",
+  "search company filings",
+  "read earnings calls",
+  "get market data"
+ ],
+ "effects": {},
+ "flags": []
+}

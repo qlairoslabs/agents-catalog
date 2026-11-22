@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "90ac7e4e40fb9c3f48335b4ad902fa458aa1fd8df339db9a3da4547dc2a0b017",
+ "domain": [
+  "compliance/sanctions-screening",
+  "finance/kyc"
+ ],
+ "product": [
+  "ofac",
+  "compliapi"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Screens crypto addresses, emails, websites, IDs, countries and IPs against OFAC and global sanctions lists, with VPN and geo checks.",
+ "whenToUse": "Use when checking whether a person, wallet, site or location is sanctioned or high risk.",
+ "tasks": [
+  "screen crypto addresses",
+  "screen emails",
+  "screen websites",
+  "screen ids",
+  "check country sanctions",
+  "detect vpn",
+  "geolocate ip"
+ ],
+ "effects": {},
+ "flags": []
+}

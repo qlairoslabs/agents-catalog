@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7538dd2e8730133605a61359dbe9ab24c0a67570d1347844ddfdc9bb63744586",
+ "domain": [
+  "project-management/task-tracking",
+  "software/ai-agents"
+ ],
+ "product": [
+  "tri2b-projects"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Task tracker for coding agents that leases subtasks so two agents never work on the same one.",
+ "whenToUse": "Use when several coding agents need to share and claim tasks without duplicating work.",
+ "tasks": [
+  "track tasks",
+  "lease subtasks to agents",
+  "coordinate multiple agents"
+ ],
+ "effects": {},
+ "flags": []
+}

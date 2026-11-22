@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bc91176ab84ff14e0b045309af91683ca0fa8e66e15573412ad992009a9f1fd5",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/development/go"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for writing Airflow task logic in Go with the Airflow Go SDK, including registration and dependency injection.",
+ "whenToUse": "Use when implementing Airflow tasks in Go or using the Go SDK APIs.",
+ "tasks": [
+  "register go tasks and dags",
+  "use bundle provider interfaces",
+  "inject context, logger and client",
+  "read connections, variables and xcoms from go"
+ ],
+ "effects": {},
+ "flags": []
+}

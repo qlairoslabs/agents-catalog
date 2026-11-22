@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "2306a1671e931ad7d9381d4fdd50d4cf399685484710d506a4bb0aadca7d4ab8",
+ "domain": [
+  "design/diagramming",
+  "business/strategy"
+ ],
+ "product": [
+  "jeda-ai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Generates SVG diagrams like flowcharts, mindmaps and Gantt charts, and runs business frameworks such as SWOT.",
+ "whenToUse": "Use when the user wants a diagram or a structured business framework analysis rendered as an image.",
+ "tasks": [
+  "generate diagrams",
+  "create flowcharts",
+  "create mindmaps",
+  "create gantt charts",
+  "list style options",
+  "recommend business frameworks",
+  "run framework analysis"
+ ],
+ "effects": {
+  "e388b6c22c00c3d1af1eb317af61550b497dcbefa23f4a54b5f8395ee0a77d50": "write",
+  "83d4faf5c8382f36da3141509cbfadd8e69e6c22614a4435d548f5aa1fe37e72": "write",
+  "9ce68c1a41526556b3263b1ae69e5b5484289814fa1121dcba38abd2e587ed8b": "write",
+  "0d550b97793a0c273cf120dde31d696e856c4999f1aaaaa9c56eaa5d9e17fae8": "write",
+  "5957f0cc8df66d42946c7f47030b58549ef8346b59b56c6b66ca0f35fbb164a0": "write"
+ },
+ "flags": [
+  "generate_visual and generate_framework_analysis descriptions tell the agent it is REQUIRED to run a curl one-liner returned in the tool response"
+ ]
+}

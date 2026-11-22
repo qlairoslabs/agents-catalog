@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "74411704b635203ad095cc90df665b0d09141d034b81bf5e41de81d5405b2dcb",
+ "domain": [
+  "software/observability/incident-management",
+  "software/monitoring"
+ ],
+ "product": [
+  "oneuptime"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages incidents, alerts, monitors, status pages, on-call schedules and telemetry in OneUptime.",
+ "whenToUse": "Use when handling outages, checking monitors, or updating status pages and on-call in OneUptime.",
+ "tasks": [
+  "manage incidents",
+  "manage alerts",
+  "configure monitors",
+  "update status pages",
+  "manage on-call schedules",
+  "query telemetry"
+ ],
+ "effects": {},
+ "flags": []
+}

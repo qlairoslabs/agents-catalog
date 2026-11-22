@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bf2e87f3b9188f9e90d0f40477a49694e5e2c2f9922de8de5ac533f6fdd85cdb",
+ "domain": [
+  "productivity/transcription",
+  "productivity/meeting-notes"
+ ],
+ "product": [
+  "happyscribe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Lets an agent search, read, analyze and create HappyScribe transcripts and meeting notes.",
+ "whenToUse": "Use when a user wants to find, analyze or create transcripts or meeting notes in HappyScribe.",
+ "tasks": [
+  "search transcripts",
+  "read transcripts",
+  "analyze meeting notes",
+  "create transcripts"
+ ],
+ "effects": {},
+ "flags": []
+}

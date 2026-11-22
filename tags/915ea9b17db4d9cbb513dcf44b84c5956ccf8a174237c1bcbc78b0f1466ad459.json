@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "915ea9b17db4d9cbb513dcf44b84c5956ccf8a174237c1bcbc78b0f1466ad459",
+ "domain": [
+  "data/maps",
+  "data/local-business"
+ ],
+ "product": [
+  "google-maps",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Provides Google Maps data through 4 endpoints, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs places or business data from Google Maps and can pay per request in USDC.",
+ "tasks": [
+  "fetch google maps data",
+  "look up places",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

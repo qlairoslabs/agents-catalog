@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "90fe41eee3b6e07cb09182263d4dbc315ad82125c9f1f31870f376c97e3ce024",
+ "domain": [
+  "software/ci-cd",
+  "software/mobile-development"
+ ],
+ "product": [
+  "appcircle"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server for the Appcircle mobile CI/CD platform.",
+ "whenToUse": "Use when an agent needs to work with mobile app builds and deployments in Appcircle.",
+ "tasks": [
+  "manage mobile builds",
+  "manage app distribution"
+ ],
+ "effects": {},
+ "flags": []
+}

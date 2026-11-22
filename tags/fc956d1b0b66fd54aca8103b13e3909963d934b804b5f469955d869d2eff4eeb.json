@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "fc956d1b0b66fd54aca8103b13e3909963d934b804b5f469955d869d2eff4eeb",
+ "domain": [
+  "ai/agent-memory",
+  "software/development-tools"
+ ],
+ "product": [
+  "sqlite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local Markdown and SQLite-backed memory for AI coding agents, shared across editors.",
+ "whenToUse": "Use when a coding agent needs to store or recall persistent notes across sessions or editors.",
+ "tasks": [
+  "save memories",
+  "search memories",
+  "share memory across editors"
+ ],
+ "effects": {},
+ "flags": []
+}

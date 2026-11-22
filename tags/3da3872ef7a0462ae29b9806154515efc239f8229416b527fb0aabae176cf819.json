@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "3da3872ef7a0462ae29b9806154515efc239f8229416b527fb0aabae176cf819",
+ "domain": [
+  "finance/payments",
+  "api-marketplace"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "stripe",
+  "graded"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Catalog and paid gateway for 2,000+ x402 machine-payable services, with prepaid credits, spending limits and graded reliability history.",
+ "whenToUse": "Use when an agent needs to discover and call x402 pay-per-call APIs through a prepaid-credit gateway.",
+ "tasks": [
+  "search service catalog",
+  "get service detail",
+  "view service uptime history",
+  "call a service",
+  "create account",
+  "view balance",
+  "set spending limits",
+  "mint owner key",
+  "get top-up info",
+  "create card top-up link"
+ ],
+ "effects": {
+  "32915cb7299bf613d870c5b0e49672c23ef95a8487c498c96ffb0fad84d6d317": "read",
+  "1c0cd981ce5eea040f37ffd5f577e1b0d4c657e6d992863696ff302f6d49284c": "read",
+  "2473ac4f484d67a0b2df1468777783c8c3326c47338ee82691dc5ef1eeb9cd00": "read",
+  "e344112b0f68f515926c8aed08dd915e4376a56d1f87de6ccb7d66f999503427": "risky",
+  "12581d4ab0ddc97667ecdd7304282ddc33a849aeeca43336c1bc8fe07caccbd7": "write",
+  "27eb05ddd856a21f95858a98ddc204f68b994b4afe86da9560e57861075bafc8": "read",
+  "60de6e1374f0fdeb79f51a9bf862210ff0b3e36ba6c8f06b916337c07bd3cf50": "risky",
+  "92bf0946380b5e0379b340e1d2dfb1a44401ff77008b1f3bd9373c13baa03af9": "risky",
+  "96e53754e6e16ef53c44d0d99c29932119711aafbecbbd341d440180eab8999a": "read",
+  "0ad502496516424a32074eb310c9cbf8efb74cb07d4138b779fb7accd6c72bb8": "write"
+ },
+ "flags": [
+  "Spends real money on arbitrary third-party paid services with a 25% markup",
+  "Lets agent change its own spending and access limits"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "65927782cd7a96b2ab82e45388507dd690478a09b3146abd208e52c468c4c081",
+ "domain": [
+  "software/identity/authentication",
+  "software/development"
+ ],
+ "product": [
+  "workos"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Skills for integrating WorkOS AuthKit, SSO, Directory Sync, RBAC, Vault and Audit Logs into applications.",
+ "whenToUse": "Use when adding authentication, SSO, user provisioning or access control with WorkOS.",
+ "tasks": [
+  "integrate authkit",
+  "set up sso",
+  "configure directory sync",
+  "implement rbac",
+  "use vault",
+  "add audit logs",
+  "migrate auth providers",
+  "look up api reference"
+ ],
+ "effects": {},
+ "flags": []
+}

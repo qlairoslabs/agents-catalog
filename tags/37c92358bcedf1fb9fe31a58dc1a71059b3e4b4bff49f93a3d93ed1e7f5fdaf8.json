@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "37c92358bcedf1fb9fe31a58dc1a71059b3e4b4bff49f93a3d93ed1e7f5fdaf8",
+ "domain": [
+  "finance/real-estate",
+  "legal/notary-fees"
+ ],
+ "product": [
+  "mesfraisnotaire"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Estimates French notary fees for property purchases and gives transfer-tax rates by département.",
+ "whenToUse": "Use when a user needs a notary fee estimate or DMTO rates for buying property in France.",
+ "tasks": [
+  "calculate notary fees",
+  "get département tax rates",
+  "compare départements",
+  "handle new or old property",
+  "account for first-time buyer"
+ ],
+ "effects": {
+  "4f52de32febe737b07409e47cf065786c901e16802b241684ff26a29cad66c8d": "read",
+  "a7efc216a60c60d80bb0ac2af4ccb739a0fea2193e5e63c8600ceb5356519667": "read",
+  "d90cbf383ed4536cc50c73ab11ed5a356e4f5e720a9e4641c6b73cb4ad359b06": "read"
+ },
+ "flags": []
+}

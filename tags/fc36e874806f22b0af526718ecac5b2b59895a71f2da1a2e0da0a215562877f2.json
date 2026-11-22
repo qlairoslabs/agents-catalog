@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "fc36e874806f22b0af526718ecac5b2b59895a71f2da1a2e0da0a215562877f2",
+ "domain": [
+  "software/website-localization",
+  "marketing/translation"
+ ],
+ "product": [
+  "proxylang"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Set up website translation with a script tag and free trial, check status, switch sites and restyle the language menu.",
+ "whenToUse": "Use when a user wants to translate their website into other languages by adding a script tag.",
+ "tasks": [
+  "start trial setup",
+  "check tag installation",
+  "get closing message",
+  "check trial status",
+  "change or add site",
+  "restyle language menu"
+ ],
+ "effects": {
+  "cac4e907fa33218e2bdf6d239feff8924525cf907c62af8af8ae811f217e6cb9": "write",
+  "9beca2aaacf9111c85b0df0a0ab621fab0bfcf63189871f816b8cff88a5d8f19": "read",
+  "f55702cf38e570c934c196423e013a683f801dabcb040621e6f2ad8f0eec5f35": "read",
+  "e3383f3d92bd85bce4510d54e4555b69da8cd68a8c13c92029984e2d993950f5": "read",
+  "d6182495747a5cd61daeaa969cb09f4800d4bb5a707fd1bc3ac629620f54a4cd": "write",
+  "ba508c113f6a2e7dfc08fd4c2b4f62b08425074563bf50086937d053ce2d1c25": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "95427ede98fa8de4e09ed1254f2260b3b10481dcf3f2ce4b04a8a81297880c02",
+ "domain": [
+  "content/translation",
+  "publishing/ebooks"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Translates full EPUB books into 16 languages while preserving layout, with upload, quote and download steps.",
+ "whenToUse": "Use when a user wants an entire EPUB book translated into another language.",
+ "tasks": [
+  "upload epub",
+  "get translation quote",
+  "translate book",
+  "download translated epub"
+ ],
+ "effects": {},
+ "flags": []
+}

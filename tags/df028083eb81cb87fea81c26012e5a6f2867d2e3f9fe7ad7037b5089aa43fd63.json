@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "df028083eb81cb87fea81c26012e5a6f2867d2e3f9fe7ad7037b5089aa43fd63",
+ "domain": [
+  "software/ai-agents",
+  "software/developer-tools"
+ ],
+ "product": [
+  "skillry",
+  "claude-code",
+  "codex",
+  "cursor"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Local npm tool to search, preview and install curated creative agent skills in Claude Code, Codex and Cursor.",
+ "whenToUse": "Use when a user wants to discover and install creative agent skills into their coding assistant.",
+ "tasks": [
+  "search creative skills",
+  "preview skills",
+  "install skills"
+ ],
+ "effects": {},
+ "flags": []
+}

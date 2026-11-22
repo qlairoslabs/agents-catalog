@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "444b2a64b93a9e5e20c745c3e150d0275ac690aab007ec59123be22e168c0121",
+ "domain": [
+  "ecommerce/automotive-parts"
+ ],
+ "product": [
+  "gm",
+  "white-automotive-media"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only catalog of GM infotainment, instrument cluster and electronics module parts with price and availability.",
+ "whenToUse": "Use when looking up GM electronics replacement parts, prices or product attributes.",
+ "tasks": [
+  "search catalog",
+  "list products by category or tag",
+  "get product details"
+ ],
+ "effects": {
+  "ac30b2afe7f9e3f096655d1e5587f1a1b1c82071ceb397b49d1cf9c94ca13465": "read",
+  "2b85e3c5f793f7632b9072d1f24b8435c1e403c68508010ebeadef2ca13ad220": "read",
+  "12f83adfc51c250b53bc056ef9439f835bbc16037700e64bcb1e9a000cf61e4d": "read"
+ },
+ "flags": []
+}

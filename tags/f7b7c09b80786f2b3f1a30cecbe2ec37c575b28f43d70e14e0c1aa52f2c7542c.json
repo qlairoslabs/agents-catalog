@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f7b7c09b80786f2b3f1a30cecbe2ec37c575b28f43d70e14e0c1aa52f2c7542c",
+ "domain": [
+  "data/databases",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "postgres",
+  "nlqdb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Gives agents a hosted Postgres database they can store and query using plain English.",
+ "whenToUse": "Use when an agent needs to store structured data and run analytical queries in natural language.",
+ "tasks": [
+  "store data",
+  "query in plain english",
+  "run analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

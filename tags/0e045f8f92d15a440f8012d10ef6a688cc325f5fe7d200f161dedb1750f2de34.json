@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0e045f8f92d15a440f8012d10ef6a688cc325f5fe7d200f161dedb1750f2de34",
+ "domain": [
+  "productivity/meeting-notes",
+  "productivity/knowledge-base"
+ ],
+ "product": [
+  "tiro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Searches meeting notes, transcripts and team wiki pages in a Tiro workspace.",
+ "whenToUse": "Use when an agent needs content from past meetings or the team wiki stored in Tiro.",
+ "tasks": [
+  "search meeting notes",
+  "search transcripts",
+  "search wiki pages"
+ ],
+ "effects": {},
+ "flags": []
+}

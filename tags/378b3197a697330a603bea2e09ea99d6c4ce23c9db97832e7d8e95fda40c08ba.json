@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "378b3197a697330a603bea2e09ea99d6c4ce23c9db97832e7d8e95fda40c08ba",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Shared, user-owned markdown memory that multiple AI clients read and write over MCP.",
+ "whenToUse": "Use when an agent should store or recall user context shared across AI clients.",
+ "tasks": [
+  "read memory",
+  "write memory",
+  "share memory across clients"
+ ],
+ "effects": {},
+ "flags": []
+}

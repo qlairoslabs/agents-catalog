@@ -1,0 +1,72 @@
+{
+ "classifier": 2,
+ "contentHash": "8e19087776c40be2cf2a8b1d276645a5e4bf92cb46e4a26953628d8e315e5d8d",
+ "domain": [
+  "finance/tax-reference-data",
+  "business/compliance"
+ ],
+ "product": [
+  "usaref"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Cited government reference data for North American countries: public holidays, VAT, income tax, minimum wage, statutory interest, filing deadlines and business-day calculations, partly paid per call.",
+ "whenToUse": "Use when you need sourced statutory rates, tax or wage calculations, filing deadlines, or business-day arithmetic for supported countries.",
+ "tasks": [
+  "list data series",
+  "get public holidays",
+  "compute business days",
+  "get series values and history",
+  "check minimum wage",
+  "compute VAT",
+  "compute income tax",
+  "compute statutory interest",
+  "cost a hire",
+  "check invoices",
+  "validate tax IDs",
+  "register change alerts"
+ ],
+ "effects": {
+  "03be13c9695776dd9259ee1ab2e8a0754215ce5f5bac0a2c556b2d62f41bffee": "write",
+  "3713b98aa32006276b7fb58367b2bad3fd16059735d3d297d6ac79c4cf456509": "write",
+  "fe99f5fa856f8afa1929b078a5ac3150cb350da2f31ad15c42fc02a2e52a1f97": "write",
+  "fd3ca5c06eb44002062a1eb961fc719eb9baa1256b653e67a5d23b0b5c95582a": "write",
+  "a58b77f22841e8170cf3a0683e0a44cf73348eb2ae93d6c0f6402d1f5a179a53": "write",
+  "90e3491196df7fb0a14386ef1d9702057775bee0ce39428f2e3e6c79fa317534": "write",
+  "53c625d5a14a3cb32aab949306d31bf0ca61da311f5463b960fc6998f060a14c": "write",
+  "44778aa5ee39069e5f1c6d55a045adbd33dae8f4a9b10575ff6896ca53d790a4": "write",
+  "f60d5feeaa609342d27f472ddb32bcef16cda1f995ff096efabef3b33db268f5": "write",
+  "9f263a30ed7170aa01bd18f09f99b4783dd9419439edcb0637d4977478b14a3f": "write",
+  "a988e452bdf7fe7ac7b990662f3e299f624f5e4eb7344e38a9c0ac667d75959e": "write",
+  "ba60d8c1745835470d8207bf17e093d7fca056d6689b74ae2859026a24bbbb63": "write",
+  "824a889d12760195a4e65abbb5d3a68cb44cab25d4944379186cd8b947f1273b": "write",
+  "afc3df723fc78ac48c28047c4cd56ae9b947753cad8e19c13a6a29176bdf387e": "write",
+  "b26155333efc93fbc21c3075bdaf1ea9dc8954a857dc0c8d27b2d8b504b3b5b9": "write",
+  "86fb80856028c1f6923c497ad356c4bf8a4fe3f3ee7bd5f92d7f5be43fad4976": "write",
+  "b2754aac96e626ca401f0c58c696605034bde21b88602ef8d7c32987f187880e": "write",
+  "08996e72b1de87cd77a14bf159636033532706643db663c28f62b0df26c33bf3": "write",
+  "dc98f89793ed78a6f34233c129002b84931808b73106aec5b6583f3dbfb838f4": "write",
+  "8f82f5858badb90799b9cf50950871c7035b06cd8c6186479620d06b32c6f5bc": "write",
+  "8f6e8a01e83250e2c28c2bf98826d059a6989ed002012a9c073890c057d15a1a": "write",
+  "671701816a2e620fb8c25a83ed471513654b13bd055021cd61beece5378984bd": "write",
+  "4e1d4b2c69c76e3a7c978c8191a14184114eef89af5f77e4b8a19d7ce8dcf24e": "write",
+  "7c4e45d1cc806db78ec564e2525f6bf47b171663d30e3eac638da85eb5ac7266": "write",
+  "22297297b56554c2bc71220641b1bfb6c4d49ab27d3033f333a95feb78ddcb2b": "write",
+  "d4b5f13fb9ec685fbb360a7731262661b61709e6b9ccd461dc6825d1fafa4454": "write",
+  "bfd5152d90f73b494576fc7f624e7bff8793c022fd84dddf119e7f25e6e283f7": "write",
+  "e3f8d404b832b40c3af525cf2929d60e8fb40e12fdd64a57a0d5cdbda2469a73": "write",
+  "65da08b355cfeb0e43f67ca780ffa1ef16cd04a9ea4bbab29bb7a7b4e81b642d": "write",
+  "0f6609d259204f77e539c8253e0b6e882157b3ddcb22eea07b8ee4a4cf7322f6": "write",
+  "3cc75623868ccad7139cf09d64e5353401502a1e3c1b1ecf2220098792d73486": "write",
+  "2634c4f2ea01fa4e7e02f6232705a915a85565a01c029ad61160f61ccf987117": "write",
+  "ab893bcda41a71dc85440cf50c4897a3cb2d2e10032b82b270ca36722eda3b3c": "write"
+ },
+ "flags": []
+}

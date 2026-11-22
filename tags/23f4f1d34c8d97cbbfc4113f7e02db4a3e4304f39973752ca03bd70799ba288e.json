@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "23f4f1d34c8d97cbbfc4113f7e02db4a3e4304f39973752ca03bd70799ba288e",
+ "domain": [
+  "sales/lead-generation",
+  "data/web-scraping"
+ ],
+ "product": [
+  "scrapercity"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "B2B lead generation tools with more than 20 scrapers, email finding and skip tracing.",
+ "whenToUse": "Use when building B2B prospect lists or finding contact details for leads.",
+ "tasks": [
+  "scrape lead data",
+  "find emails",
+  "skip trace people"
+ ],
+ "effects": {},
+ "flags": [
+  "skip tracing gathers personal data on individuals; privacy-sensitive"
+ ]
+}

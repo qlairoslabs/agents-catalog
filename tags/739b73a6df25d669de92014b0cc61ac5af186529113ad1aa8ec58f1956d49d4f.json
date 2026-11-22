@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "739b73a6df25d669de92014b0cc61ac5af186529113ad1aa8ec58f1956d49d4f",
+ "domain": [
+  "communication/email",
+  "software/ai-agents"
+ ],
+ "product": [
+  "banger"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Company email service where agents handle messages and a human reviews their work.",
+ "whenToUse": "Use when an agent should read, draft or send company email with human review.",
+ "tasks": [
+  "read email",
+  "draft replies",
+  "send email",
+  "queue messages for review"
+ ],
+ "effects": {},
+ "flags": []
+}

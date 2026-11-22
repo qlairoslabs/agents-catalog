@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "444a5110bf1c42b16920b23c8d126d8716a06c1624b7d382928b8c4ee5c891fd",
+ "domain": [
+  "legal/court-records",
+  "legal/north-carolina"
+ ],
+ "product": [
+  "nc-ecourts",
+  "court-delta"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Look up North Carolina court cases, citations, judgments, attorney calendars and courthouse info, with traffic-ticket guidance and case alert signup.",
+ "whenToUse": "Use when someone needs NC court case details, party or business case searches, judgments, hearings or help with a traffic citation.",
+ "tasks": [
+  "look up case or citation",
+  "search cases by person",
+  "search by attorney",
+  "search by business",
+  "get attorney hearing calendar",
+  "subscribe to case alerts",
+  "find courthouse info",
+  "estimate license points",
+  "check traffic charge",
+  "search judgments",
+  "list filed cases"
+ ],
+ "effects": {
+  "973d0c9908b00cf1d0aa65b58924d0914e402be8a8454323a77f5509a48cea00": "write",
+  "707096bb15fc4a8bb55274870fdd620277eff67e1e5b3e602b35e9aa54b8f84f": "write",
+  "581e5acf9435b0b8eed1a8d0393ff0809aae557a00aa2e5e53471d0c4f003eb3": "write",
+  "59373339c0249be1b6b74ff989a6ec883d304362c8625653e64be13694a865aa": "write",
+  "6f9d37389dc40604828e2b5a9fca2cb77d3edf3eb71473fd84ccdec2546c2db1": "write",
+  "89a373a0d826e52b3974edad647f855efbffb089803b70efe805ba00f7bd7ef5": "write",
+  "adea052dbb5326474c634d3c3d00c39792f387055f3a23def3987c7db36318aa": "write",
+  "9e415ff2b3e6729f5b265bc657a6f9fe590b6ab753527fde5c3264053e29ceb5": "write",
+  "79e8545223d5e6effffd21f2cc157c58974f39af3df0348540ba5443237335a7": "write",
+  "4bb386fbe11185f5ab9ae6f1ec71ec673c646c8ac057509669d6933b8570c931": "write",
+  "16bc0f7e2755e2bf56a3c1cf69a8620f435b3336da59660f3a8901a5750fb901": "write",
+  "24ca1c5f8f5a6a04517c64de6d35c1f71c9d12d7878294dbed8958b228bb6dc6": "read"
+ },
+ "flags": []
+}

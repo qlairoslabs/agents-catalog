@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "910f23b73cff57c82b2280f6f97bd852951ec8aa022116e804153154ac39f654",
+ "domain": [
+  "software/web-app-builder",
+  "software/hosting"
+ ],
+ "product": [
+  "codebase"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Lets an agent build, preview and update web apps, download source and publish with permission.",
+ "whenToUse": "Use when a user wants an agent to create and publish a web app without managing infrastructure.",
+ "tasks": [
+  "build web app",
+  "preview app",
+  "update app",
+  "download source",
+  "publish app"
+ ],
+ "effects": {},
+ "flags": []
+}

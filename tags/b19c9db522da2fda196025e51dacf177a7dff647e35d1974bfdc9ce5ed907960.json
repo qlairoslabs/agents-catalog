@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "b19c9db522da2fda196025e51dacf177a7dff647e35d1974bfdc9ce5ed907960",
+ "domain": [
+  "gaming/league-of-legends",
+  "esports/statistics"
+ ],
+ "product": [
+  "league-of-legends",
+  "trackdiff",
+  "riot-games"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "League of Legends ranked ladders, rank cutoffs, player profiles, live games, streamers, champion stats and builds, and events from TrackDIFF.",
+ "whenToUse": "Use when looking up LoL players, ladders, live games, champion builds or streamers.",
+ "tasks": [
+  "get regional leaderboard",
+  "get rank cutoffs",
+  "get player profile",
+  "get live game",
+  "get streamer persona",
+  "get champion stats",
+  "get champion build",
+  "list live streamers",
+  "list events",
+  "get event standings",
+  "search players and champions"
+ ],
+ "effects": {
+  "181ba2033605fc2a83ef6f725252dfe8249f281c6141e6233213aba395808a8a": "read",
+  "b305a1db5f01dfc6b0ffd272f8884720482f48c95c17ebaa24773504b90743b7": "read",
+  "5e30a7a584b45cc146edcf232d96482a78df75db537b00d488e7b7b1f221d808": "read",
+  "19a947a6972659a3c00a0215fe52358e6a6d11783b6dc6a04eff62e6028d616d": "read",
+  "917b48a6ac62cd07f39e42079cc36f9a599a354579cd7d292f19902860a98def": "read",
+  "d37026bd5b9a1365963efc30eb32628c042ee8fb305b102485528738053fde33": "read",
+  "1d07233e009d830ee947beecca0333a0531797304cab4ddec0857b68a28ade21": "read",
+  "19913288e81974bc57d09e2f8c31da8c85c6dd8b08ec254c9a479f3188b91e1b": "read",
+  "ef024e0f1f5a3c26317eca9dcf5568f3cb67b15b0d4cc71b73ac04d8eb59465f": "read",
+  "9cbd52cf76b4c150054abbe1ceb1aad5121598f3c38ecc916389924e4c4975b7": "read",
+  "3516310c0e7a66b7a1ea6b9b35544bd5465297dd77a094322262312e0af4542b": "read"
+ },
+ "flags": []
+}

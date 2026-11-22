@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "681287f39fdf80e031508da0623e2e841c7f148f2d27526fe158b71fae043fd1",
+ "domain": [
+  "ai/agent-memory",
+  "collaboration/knowledge"
+ ],
+ "product": [
+  "gjalla"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Hosted shared memory service that multiple AI agents can read from and write to, with automatic curation.",
+ "whenToUse": "Use when several agents need a common shared memory of context and decisions.",
+ "tasks": [
+  "store shared memories",
+  "retrieve shared context",
+  "curate memory"
+ ],
+ "effects": {},
+ "flags": []
+}

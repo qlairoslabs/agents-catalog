@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "31b3a702f6658b339a3807031b9da94aa9a030e21575cca4c59f877f0eb2e370",
+ "domain": [
+  "entertainment/tabletop-games",
+  "productivity/notes"
+ ],
+ "product": [
+  "sessionkeeper",
+  "dungeons-and-dragons"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "schedule"
+ ],
+ "summary": "Companion for tabletop role-playing campaigns that manages sessions, NPCs, campaign wiki and game master prep in SessionKeeper.",
+ "whenToUse": "Use when a game master or player wants an agent to prep sessions or look up and update campaign NPCs and wiki notes.",
+ "tasks": [
+  "manage game sessions",
+  "manage npcs",
+  "edit campaign wiki",
+  "prepare dm session notes"
+ ],
+ "effects": {},
+ "flags": []
+}

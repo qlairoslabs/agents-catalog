@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "114c1bb0f12f85b2392683b0a95e2525c78f201ef1d5756da35e072b98892e94",
+ "domain": [
+  "software/demo-recording",
+  "content/video"
+ ],
+ "product": [
+  "tday",
+  "npm"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Lets a coding agent record narrated demo videos of the app being built, running locally via npm.",
+ "whenToUse": "Use when a developer wants a narrated video demo of their app produced by their coding agent.",
+ "tasks": [
+  "record app demo",
+  "add narration",
+  "generate demo video"
+ ],
+ "effects": {},
+ "flags": []
+}

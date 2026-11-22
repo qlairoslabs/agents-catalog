@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "814c437fbbf89cb5839b2535a435e744cff8605e84fac2eda5d06208994170b5",
+ "domain": [
+  "finance/stock-research/options"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "End-of-day research on about a thousand US stocks and their options, including signals, IV rank, expected moves and gamma.",
+ "whenToUse": "Use when researching US equities or options metrics such as IV rank, implied moves or gamma exposure.",
+ "tasks": [
+  "get stock signals",
+  "check iv rank",
+  "view priced moves",
+  "analyze gamma exposure"
+ ],
+ "effects": {},
+ "flags": []
+}

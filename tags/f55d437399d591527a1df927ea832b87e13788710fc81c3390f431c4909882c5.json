@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f55d437399d591527a1df927ea832b87e13788710fc81c3390f431c4909882c5",
+ "domain": [
+  "software/no-code-apps",
+  "automation/workflows"
+ ],
+ "product": [
+  "glide"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Official Glide MCP server to build, manage and operate GlideOS apps, their data and workflows.",
+ "whenToUse": "Use when an agent needs to create or modify Glide apps, data or workflows.",
+ "tasks": [
+  "build glide apps",
+  "manage app data",
+  "manage workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

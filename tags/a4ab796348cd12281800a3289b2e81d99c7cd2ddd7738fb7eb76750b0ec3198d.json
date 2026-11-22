@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a4ab796348cd12281800a3289b2e81d99c7cd2ddd7738fb7eb76750b0ec3198d",
+ "domain": [
+  "software/cybersecurity/dast",
+  "software/testing"
+ ],
+ "product": [
+  "stackhawk",
+  "hawkscan",
+  "docker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Configures and runs HawkScan dynamic security scans and turns findings into prioritized fix tasks.",
+ "whenToUse": "Use when you want to run a DAST scan on an application and act on the results in code.",
+ "tasks": [
+  "generate stackhawk.yml config",
+  "run scans via cli or docker",
+  "interpret scan findings",
+  "create prioritized fix tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

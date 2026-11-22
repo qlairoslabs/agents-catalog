@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a1ae3914c81ba32825bfd90ba085257f6edf39ea92b5fc628f3f43134011d8bc",
+ "domain": [
+  "software/agent-infrastructure"
+ ],
+ "product": [
+  "raccha"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Utility toolbox for agents offering key-value storage, authentication, queues and other helper tools.",
+ "whenToUse": "Use when an agent needs simple hosted storage, queues or auth helpers during a task.",
+ "tasks": [
+  "store and read key-value data",
+  "manage auth",
+  "use message queues",
+  "run utility tools"
+ ],
+ "effects": {},
+ "flags": []
+}

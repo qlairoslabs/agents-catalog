@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "3eea25bb47b57955d60efa6c1063bd0bbf187977a3b748fd829710dff8999acc",
+ "domain": [
+  "software/ai-agents/mcp",
+  "software/networking"
+ ],
+ "product": [
+  "docker",
+  "cloudflared",
+  "claude"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Sets up an Anthropic MCP tunnel to a private MCP server using a Docker Compose quickstart with certificates and cloudflared.",
+ "whenToUse": "Use when you need Claude to reach an MCP server on a private network via a tunnel.",
+ "tasks": [
+  "generate certificates",
+  "configure proxy",
+  "set up cloudflared",
+  "run docker compose",
+  "verify sample server"
+ ],
+ "effects": {},
+ "flags": []
+}

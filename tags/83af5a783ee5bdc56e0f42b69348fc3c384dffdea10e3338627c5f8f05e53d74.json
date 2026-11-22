@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "83af5a783ee5bdc56e0f42b69348fc3c384dffdea10e3338627c5f8f05e53d74",
+ "domain": [
+  "software/web-hosting",
+  "software/databases",
+  "dns"
+ ],
+ "product": [
+  "aderlo-cloud",
+  "mysql",
+  "postgres",
+  "wordpress"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages Aderlo Cloud hosting resources including files, DNS, MySQL/PostgreSQL databases and WP-CLI via OAuth scopes.",
+ "whenToUse": "Use when managing a site hosted on Aderlo Cloud, its DNS, databases or WordPress install.",
+ "tasks": [
+  "manage hosting files",
+  "manage dns records",
+  "manage mysql and postgres databases",
+  "run wp-cli commands"
+ ],
+ "effects": {},
+ "flags": []
+}

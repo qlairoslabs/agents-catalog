@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7283fd532899147aed63ec8edb548718e4a78b6791e2eaf92218ecbce6568aea",
+ "domain": [
+  "hr/reference-checking",
+  "support/help-center"
+ ],
+ "product": [
+  "refapp"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "hire-and-manage"
+ ],
+ "summary": "Answers questions about using Refapp from its help center, explaining statuses and concepts with article links.",
+ "whenToUse": "Use when a user asks how Refapp works, what a status means, or needs a help article.",
+ "tasks": [
+  "search help articles",
+  "read help article",
+  "explain status",
+  "explain concept"
+ ],
+ "effects": {
+  "0a242e365f52cc10e058b0a19fd0759ee6c8f48b19248359a4aa317bbc43407b": "read",
+  "76591308b64c7e38bceeea901313b1adcdfd19e9ddb89c1cb73e64ac5a7bb003": "read",
+  "dc409c2602924d8a021f08b01380f132712fec11af0f094558841117a104bd1e": "read",
+  "9e8bc940f75f237fb3c40247a4c7b1168522f8b58c693278d737f2fecc456a09": "read"
+ },
+ "flags": []
+}

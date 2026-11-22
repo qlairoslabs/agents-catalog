@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "157e75495ffd2dae240359787c7830752fa3e0516ce0e67a2bec88e0cbd6dcda",
+ "domain": [
+  "sales/rfp-response",
+  "security/questionnaires"
+ ],
+ "product": [
+  "rfp-ai"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "stay-compliant"
+ ],
+ "summary": "Drafts cited answers to RFPs and security questionnaires from a knowledge base for human review.",
+ "whenToUse": "Use when the user must answer an RFP or security questionnaire using their existing documentation.",
+ "tasks": [
+  "draft rfp answers",
+  "draft security questionnaire answers",
+  "cite knowledge base sources",
+  "support human review"
+ ],
+ "effects": {},
+ "flags": []
+}

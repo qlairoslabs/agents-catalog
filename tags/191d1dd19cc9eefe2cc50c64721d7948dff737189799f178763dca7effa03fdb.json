@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "191d1dd19cc9eefe2cc50c64721d7948dff737189799f178763dca7effa03fdb",
+ "domain": [
+  "web/website-management",
+  "business/bookings"
+ ],
+ "product": [
+  "appset"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "create-content",
+  "schedule"
+ ],
+ "summary": "Manages an Appset website's pages, blog posts, products, services and bookings through an AI assistant.",
+ "whenToUse": "Use when editing content or handling bookings on a website built with Appset.",
+ "tasks": [
+  "manage pages",
+  "write blog posts",
+  "manage products",
+  "manage services",
+  "manage bookings"
+ ],
+ "effects": {},
+ "flags": []
+}

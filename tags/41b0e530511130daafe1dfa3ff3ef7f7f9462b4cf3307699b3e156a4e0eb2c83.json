@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "41b0e530511130daafe1dfa3ff3ef7f7f9462b4cf3307699b3e156a4e0eb2c83",
+ "domain": [
+  "ecommerce/storefront",
+  "algeria/cash-on-delivery"
+ ],
+ "product": [
+  "mystoq",
+  "yalidine"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Directory of Algerian Mystoq stores plus cash-on-delivery profit, delivery and fraud-risk calculators, and tools for merchants to manage products and prices.",
+ "whenToUse": "Use when finding Algerian online stores, estimating COD profit or order risk, or managing products in a Mystoq store.",
+ "tasks": [
+  "search stores",
+  "get store",
+  "list plans",
+  "get platform stats",
+  "compute COD profit",
+  "estimate delivery success",
+  "score order risk",
+  "create product",
+  "set price",
+  "publish product",
+  "delete product"
+ ],
+ "effects": {
+  "2ea110399fa3fcccf5ee3aa6186018e0437729eb28a874b5cafd82f0348fd2f5": "read",
+  "b809d72f7741bd5287466e158f8d3e48554526139bee5b9c8ebd22407d329df6": "read",
+  "902335640827e1b330e097901e06cbde83067bbdcfb8f7fafe65f0013385d502": "read",
+  "4a4823081431fd00694480c84526db226d639683938c53625dd87da58f3ea903": "read",
+  "2d4285750e5f41df55ccc224daea23416637e54708b102c0bd431dffcd27d3fb": "read",
+  "1d999b8f11252956f2fc8ea6e2b487ce431b5dc499eae418ac074c7dd4d53a5e": "read",
+  "3b767f0727425aeb615a1aaa5e4cd6332ca10176b6e42cfb38e666d0c673830f": "read",
+  "0951864dadb7383c64cee7e2081974668bcbf3bd1eb0be4bf7f874db090952f0": "write",
+  "55f3a20ab77705593a10feba540fc91d834af3c1171e5cb8ee504a22476a987a": "write",
+  "a0024c9d2ca2ae0d0806c75e778071582fc9d6aeb9e6eef31d30d6f87faf63e2": "write",
+  "49fb01d97386406f1b579de623716a0654e862133cb3a3fc25c863045c3f28b4": "write"
+ },
+ "flags": []
+}

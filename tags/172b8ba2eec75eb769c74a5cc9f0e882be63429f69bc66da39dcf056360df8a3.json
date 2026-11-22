@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "172b8ba2eec75eb769c74a5cc9f0e882be63429f69bc66da39dcf056360df8a3",
+ "domain": [
+  "legal/official-documents",
+  "real-estate/valuation"
+ ],
+ "product": [
+  "zertidox"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Requests Spanish official certificates, property valuations and legal documents, and tracks the status of requests.",
+ "whenToUse": "Use when an agent needs to obtain Spanish official certificates, property valuations or legal documents and follow up on them.",
+ "tasks": [
+  "request official certificates",
+  "request property valuations",
+  "request legal documents",
+  "track requests"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7ea4428b575ae77377ec1511bef024530a88a641497847cd51cd60f7ea7a2f89",
+ "domain": [
+  "pets/dogs",
+  "pets/breeders"
+ ],
+ "product": [
+  "honestdog"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "German dog breed catalogue with health grades and tests, vetted breeder directory and adoptable shelter dogs.",
+ "whenToUse": "Use when choosing a dog breed, checking breed health, finding a breeder or adopting a shelter dog in Germany.",
+ "tasks": [
+  "search breeds",
+  "get breed health profile",
+  "search breeders",
+  "search shelter dogs",
+  "explain data sources"
+ ],
+ "effects": {
+  "f39a7a8ee28a0a5d474b4d31feaf159660b26b48fc1485289f119dd18f729070": "read",
+  "105f5763ff82ff1f0d9178af7399d2af486754fedc19eaf16051f1662720a55e": "write",
+  "814aa0685400321a97f075c089a180efb81b7f16502816a09cad75a6d64a7929": "write",
+  "b7a15ec2f821391946f17fa761bd9b71ba0113e25edf2d0c1a53e0b44735f8e1": "write",
+  "d840082b12d37565d3041b4bc981c9d0b9fe858620c430265f442268649afead": "read"
+ },
+ "flags": []
+}

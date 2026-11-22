@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "03aed61a7e949304101bd1f7fff3db071b5fda18c2ca6f73c467956e87767fc8",
+ "domain": [
+  "hospitality/restaurant-reservations"
+ ],
+ "product": [
+  "loyalist"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Checks availability and books tables at restaurants on the Loyalist network without a login.",
+ "whenToUse": "Use when someone wants to reserve a table at a Loyalist network restaurant.",
+ "tasks": [
+  "check availability",
+  "book tables"
+ ],
+ "effects": {},
+ "flags": []
+}

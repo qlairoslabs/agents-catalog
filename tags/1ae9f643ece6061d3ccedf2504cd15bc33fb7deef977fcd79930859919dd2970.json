@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "1ae9f643ece6061d3ccedf2504cd15bc33fb7deef977fcd79930859919dd2970",
+ "domain": [
+  "finance/stock-research",
+  "finance/sec-filings"
+ ],
+ "product": [
+  "sec-edgar",
+  "nexqual"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only US stock data: quotes, price history, analyst targets, superinvestor 13F holdings, insider trades, earnings, financials and SEC events.",
+ "whenToUse": "Use when researching a US-listed company or ETF, its filings, insider activity or what well-known investors hold.",
+ "tasks": [
+  "get stock quotes",
+  "get price history and returns",
+  "read analyst consensus",
+  "track superinvestor 13F holdings",
+  "list insider buys and sells",
+  "get earnings results",
+  "read financial statements and valuation",
+  "summarize SEC 8-K events",
+  "get company profile"
+ ],
+ "effects": {
+  "5fbfbb405643463fa1b02b8c49e8c3b13e67717bb65ab5e1bf969ab466a3d1cd": "read",
+  "2aa4f81a84c3732c13075c406e143018ead535b50b7a657b9648e82324f7d25e": "read",
+  "ae96c4b027453cfc9efbd290c146db37c1cfcb1abbf26f3348514164afc64dde": "read",
+  "c620cd47d3cdfc87b87e46ae4bf2887584f99b3737dfad2ce9a2ccf0cb2f001a": "read",
+  "9ef9f1491c43a125f4555208afb3c020386f704b766659b35d1a0d920b116679": "write",
+  "4c3d56dfe53126af1d2f7ad9b5b90d66dbdf40893c86ad1e75f5ff803c41260f": "read",
+  "de6c97880886c354e74ef71799d3cceabaaff2206ff432b1902809062f58f382": "read",
+  "874894effb1e051e2997977d05c9a47f803e5491a89b08b71a73e1feeee3cd77": "read",
+  "33ec268824468570190fbc1eadb8a5db1da40c2f77b26161f79d6acde356e49d": "read"
+ },
+ "flags": []
+}

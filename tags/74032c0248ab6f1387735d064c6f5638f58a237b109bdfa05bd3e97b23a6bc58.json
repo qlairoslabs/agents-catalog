@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "74032c0248ab6f1387735d064c6f5638f58a237b109bdfa05bd3e97b23a6bc58",
+ "domain": [
+  "commerce/b2b-ecommerce",
+  "commerce/order-management"
+ ],
+ "product": [
+  "b2bware"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Gives AI assistants access to products, orders and customers stored in B2Bware.",
+ "whenToUse": "Use when a user needs to look up or manage B2Bware products, orders or customer records.",
+ "tasks": [
+  "look up products",
+  "view orders",
+  "view customers"
+ ],
+ "effects": {},
+ "flags": []
+}

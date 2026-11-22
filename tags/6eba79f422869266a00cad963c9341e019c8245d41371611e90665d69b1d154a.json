@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6eba79f422869266a00cad963c9341e019c8245d41371611e90665d69b1d154a",
+ "domain": [
+  "travel/itinerary-planning"
+ ],
+ "product": [
+  "citywalkplan"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Generates day-by-day self-guided walking itineraries for over 50 cities from a curated catalog of places.",
+ "whenToUse": "Use when a user wants a walking tour plan or details on a place for a city trip.",
+ "tasks": [
+  "list supported cities",
+  "plan multi-day walk",
+  "look up place details",
+  "prioritize must-see stops"
+ ],
+ "effects": {
+  "688c7eacb59aa19d2dd727d3f895d78bcc00f2dca1926d7c606c23b6773f8bf6": "read",
+  "72551ddbdc6e3c31ddaf3d1558276ddb04b8db0d349771c83a1a224edb336daf": "read",
+  "c8d7645c1dd779ef1b7bf9e4ce2de0fb94d09268636bbf0ed0ceaf0b0817b6b8": "read"
+ },
+ "flags": []
+}

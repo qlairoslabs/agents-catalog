@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "19bf9343d66ffe8a87735bfc44e6a906d009b8d70399a8bc0babce7f175254c4",
+ "domain": [
+  "telecom/isp-billing",
+  "finance/billing"
+ ],
+ "product": [
+  "centipid"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries an ISP's revenue, subscribers, payments and routers in Centipid billing.",
+ "whenToUse": "Use when an ISP operator wants figures on revenue, subscribers, payments or routers from Centipid.",
+ "tasks": [
+  "query revenue",
+  "list subscribers",
+  "view payments",
+  "view routers"
+ ],
+ "effects": {},
+ "flags": []
+}

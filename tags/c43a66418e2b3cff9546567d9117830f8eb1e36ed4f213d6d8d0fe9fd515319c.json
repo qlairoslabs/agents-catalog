@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c43a66418e2b3cff9546567d9117830f8eb1e36ed4f213d6d8d0fe9fd515319c",
+ "domain": [
+  "software/code-review",
+  "software/testing"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Offline read-only review that flags agent-made changes which weaken tests, assertions, coverage or CI.",
+ "whenToUse": "Use when reviewing code changes made by an AI agent to catch weakened tests or CI.",
+ "tasks": [
+  "detect weakened tests",
+  "detect removed assertions",
+  "flag coverage drops",
+  "flag ci changes"
+ ],
+ "effects": {},
+ "flags": []
+}

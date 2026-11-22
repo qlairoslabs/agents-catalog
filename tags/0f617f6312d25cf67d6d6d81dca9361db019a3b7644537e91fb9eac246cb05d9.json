@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "0f617f6312d25cf67d6d6d81dca9361db019a3b7644537e91fb9eac246cb05d9",
+ "domain": [
+  "automotive/vehicle-export",
+  "ecommerce"
+ ],
+ "product": [
+  "japan-direct-trucks",
+  "freightos"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches Japanese used trucks, pickups, SUVs and vans for export, with freight estimates, shipping news and import guides by country.",
+ "whenToUse": "Use when a buyer wants Japanese used commercial vehicles, shipping cost estimates or import notes for a destination country.",
+ "tasks": [
+  "search vehicles",
+  "get vehicle details",
+  "list shipping news",
+  "estimate ocean freight",
+  "get import guide",
+  "list destinations",
+  "get company info"
+ ],
+ "effects": {
+  "b8205254e20abc4075e1855854bfe67eabd1529d6de7abf89dbd1a5da9d4db3f": "read",
+  "4e4ccd7418ed41f932accb0f4d90304bd0b6803087f443ec039774adb0d9f74b": "read",
+  "9b815de6b6ace66572fcec596329b0dc61e82e698d8f635ccfd944fdc0587e31": "read",
+  "fd12edc6a56aca01355e0617d1565e1858c708c95278f2d5fc1d418f665fdb17": "read",
+  "13636519b66e43e66f77265e96cc99ecf885d7ca9ffa156113631db1a12a972e": "read",
+  "10dbc0c7f472d2642d6bd97129c09e613884fadc462b1509b3967864d2971f23": "read",
+  "0bce5d31e7fdeb553e152d818059b26aeb0cfbe488607746a4d12321810a034f": "read"
+ },
+ "flags": []
+}

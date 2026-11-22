@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a14eec0a4680cb91d4e96d3a40442600cf459cea9cfe71b8ab521d52409e81c3",
+ "domain": [
+  "ai/agents",
+  "communication/messaging"
+ ],
+ "product": [
+  "slack",
+  "telegram",
+  "sms",
+  "email"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "keep-in-touch"
+ ],
+ "summary": "Hosts persistent AI agents that run continuously inside Slack, Telegram, SMS or email.",
+ "whenToUse": "Use when a user wants an always-on AI agent that works through their messaging channels.",
+ "tasks": [
+  "create persistent agents",
+  "run agents in slack",
+  "run agents in telegram",
+  "run agents over sms or email"
+ ],
+ "effects": {},
+ "flags": []
+}

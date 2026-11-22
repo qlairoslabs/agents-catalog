@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f77b6270e76d59a17a06c167232366b316bc2da6b86ed6b76fbaa1b07f94d00a",
+ "domain": [
+  "software/integration/tool-gateway"
+ ],
+ "product": [
+  "danube-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "A gateway that exposes over 100 services and 1,400 tools through a single MCP connection with shared authentication.",
+ "whenToUse": "Use when an agent needs access to many third-party services through one connection instead of separate connectors.",
+ "tasks": [
+  "discover services",
+  "call third-party tools",
+  "manage unified authentication"
+ ],
+ "effects": {},
+ "flags": []
+}

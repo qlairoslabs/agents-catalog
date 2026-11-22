@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f8a118a675795893e5aa0698b970f058544f87e303a9be464f820c0a74fbcebd",
+ "domain": [
+  "marketing/cold-email",
+  "software/email-infrastructure"
+ ],
+ "product": [
+  "winnr"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Sets up cold email infrastructure: buying domains, creating SMTP mailboxes, configuring DNS, warming inboxes and reading mail.",
+ "whenToUse": "Use when setting up or managing sending domains and mailboxes for cold outreach.",
+ "tasks": [
+  "buy domains",
+  "create smtp mailboxes",
+  "configure dns",
+  "run mailbox warming",
+  "read mail"
+ ],
+ "effects": {},
+ "flags": []
+}

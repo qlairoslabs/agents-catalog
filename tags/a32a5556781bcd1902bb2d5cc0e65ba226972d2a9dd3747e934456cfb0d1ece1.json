@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a32a5556781bcd1902bb2d5cc0e65ba226972d2a9dd3747e934456cfb0d1ece1",
+ "domain": [
+  "research/consumer-feedback",
+  "marketing/polling"
+ ],
+ "product": [
+  "pickfu"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Runs polls with real people to get feedback on ideas, images, names and copy.",
+ "whenToUse": "Use when an agent needs real human opinions to choose between options like names, designs or copy.",
+ "tasks": [
+  "create polls",
+  "test images",
+  "test names",
+  "test copy",
+  "get human feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0f0671fe30b7b7d13145accb481293afb0b7335fb34ddf1a1c414c1a1c6f0bcb",
+ "domain": [
+  "ecommerce/product-catalog",
+  "healthcare/dental-supplies"
+ ],
+ "product": [
+  "med-dent24"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only public product catalogue of Med-Dent24 with listing and SKU lookup.",
+ "whenToUse": "Use when looking up Med-Dent24 dental or medical products by name or SKU.",
+ "tasks": [
+  "list catalog products",
+  "search by name or SKU",
+  "get product details"
+ ],
+ "effects": {
+  "6bcfd2dfadce20eaa2e0eec4864ace5dab004c728e0607c32d8feee180a46df2": "read",
+  "96814d277888f1430929c4b5976b646c64cb1f2c949fdcd2dcf401ff973a3260": "read"
+ },
+ "flags": []
+}

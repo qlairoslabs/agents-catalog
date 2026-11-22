@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "893502191b57d6b6d68109971aa93e46810fd5089c9a4d949658c25e8c01fca3",
+ "domain": [
+  "sales/sales-automation",
+  "sales/vendor-info"
+ ],
+ "product": [
+  "gethal"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Public read-only information about gethal.ai's AI sales agent products: pricing, features, use cases, playbooks and blog posts.",
+ "whenToUse": "Use when someone asks what gethal.ai or the HAL sales agent does, costs or how to use it.",
+ "tasks": [
+  "get company info",
+  "get pricing",
+  "list products",
+  "list features",
+  "get use cases",
+  "get playbook guides",
+  "get blog posts",
+  "explain hal pipeline",
+  "get target customer profile"
+ ],
+ "effects": {
+  "04da09d116eadb043af3e6d6834e74d00ffa63fea8c9326d4cc489f7a010afce": "read",
+  "5cf8d56520718588c1020e4118cccd11c50c41e098ed3bfd734b604acf8a7a47": "read",
+  "dfa83141b6d21424aac47f8fe14d21781326ab300bd5379f45f034677b31bf12": "read",
+  "e37758cf2e874b166cc9408b1d4b92c3c2fa5c591b6fdc2c60448205880f37d4": "read",
+  "0ca95e67b3adbc4aea52f2f1038ed777ebf898cd939ba4052c52ae903e008082": "read",
+  "ea40dbf8111624d148cac0204aa9966fa35a718cb6b3d567a951182847d6117d": "read",
+  "4274459a971f2f524c809127bb0be0c24e15c8f5f45b5ba643427c479a7176a1": "read",
+  "d492e5984803531c4923b31ceeb20921d3eb8d5dfd1f5cad787047044ea8ef61": "read",
+  "e1da95a9e79cce557576616615f5e7c1043b6b45669107389307e50c616d13d5": "read"
+ },
+ "flags": []
+}

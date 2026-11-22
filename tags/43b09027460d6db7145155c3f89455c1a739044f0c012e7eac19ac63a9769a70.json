@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "43b09027460d6db7145155c3f89455c1a739044f0c012e7eac19ac63a9769a70",
+ "domain": [
+  "travel/connectivity",
+  "telecom/esim"
+ ],
+ "product": [
+  "esimpass",
+  "iphone",
+  "android"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Finds travel eSIM plans by destination with live prices, checks phone eSIM support, builds checkout links and returns install links after purchase.",
+ "whenToUse": "Use when a traveller needs mobile data abroad and wants plans, device compatibility or install help.",
+ "tasks": [
+  "search destinations",
+  "list plans and prices",
+  "check device eSIM support",
+  "create checkout link",
+  "get eSIM install links",
+  "fetch destination document"
+ ],
+ "effects": {
+  "20d17de1c032c8ebbde918644e511ca6a80c542a245d2c5c01f391fe9c9ba3ac": "read",
+  "eb7d04591e4481b7eade9657a7d4ffa66ec1791ac3e066d62888a3376d0279e9": "read",
+  "3b30a394cde9945371e2fd589172804ea1a05916408d6bd1b0501d32f59a883f": "read",
+  "d7bcb5b10f1911955e2ee9749c9dc77eb6c86f0133d2dc6f07e3ba3a83df7109": "read",
+  "2730ad5a644d6434100dbbd251e1b348ba5eaac48903dd4ab6dff905682f1861": "read",
+  "988f995363a4221b8cf5b1df8b59881f8036a0759259cd705b8653bc0cabd295": "read",
+  "15677b478cb689e2870637384cad87b6a2713e25f54d73902b899838d83e0dc7": "read"
+ },
+ "flags": []
+}

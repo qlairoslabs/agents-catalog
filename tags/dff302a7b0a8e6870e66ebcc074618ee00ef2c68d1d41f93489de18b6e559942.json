@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "dff302a7b0a8e6870e66ebcc074618ee00ef2c68d1d41f93489de18b6e559942",
+ "domain": [
+  "commerce/price-tracking",
+  "commerce/product-search"
+ ],
+ "product": [
+  "amazon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides current Amazon prices, product search, 90-day price history, price forecasts and price drop alerts.",
+ "whenToUse": "Use when a user wants to check or track Amazon product prices or decide when to buy.",
+ "tasks": [
+  "search amazon products",
+  "get current prices",
+  "view 90-day price history",
+  "forecast prices",
+  "set price drop alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

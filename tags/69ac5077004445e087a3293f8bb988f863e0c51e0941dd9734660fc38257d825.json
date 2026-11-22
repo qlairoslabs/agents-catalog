@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "69ac5077004445e087a3293f8bb988f863e0c51e0941dd9734660fc38257d825",
+ "domain": [
+  "finance/personal-finance",
+  "finance/budgeting"
+ ],
+ "product": [
+  "zoninga"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Personal finance tool for accounts, budgets, savings goals, debt payoff planning and reports, using OAuth.",
+ "whenToUse": "Use when an agent helps a person track accounts, budgets, goals or plan debt payoff.",
+ "tasks": [
+  "view accounts",
+  "manage budgets",
+  "track goals",
+  "plan debt payoff",
+  "generate reports"
+ ],
+ "effects": {},
+ "flags": []
+}

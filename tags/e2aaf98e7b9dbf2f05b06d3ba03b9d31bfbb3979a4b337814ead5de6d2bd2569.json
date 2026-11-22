@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e2aaf98e7b9dbf2f05b06d3ba03b9d31bfbb3979a4b337814ead5de6d2bd2569",
+ "domain": [
+  "entertainment/astrology"
+ ],
+ "product": [
+  "astroclaw"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Daily playful horoscopes per zodiac sign, with helpers to pick a sign for an agent.",
+ "whenToUse": "Use when a user or agent wants a daily horoscope for fun.",
+ "tasks": [
+  "get daily horoscope",
+  "find zodiac sign",
+  "list signs"
+ ],
+ "effects": {
+  "a25c8bd5e341c7816b5014e401c46cc80c703f9d22e1b639ec1beabfa7d5b95a": "read",
+  "e882aa71f185efcd231abd089b2561381b088351331d9d00885b4a5f7bbc59c8": "read",
+  "d1e35e75737e1c1b27db03cc452f696a6d7370b43ab1f79fcf3ea2ad7e88e1df": "read"
+ },
+ "flags": []
+}

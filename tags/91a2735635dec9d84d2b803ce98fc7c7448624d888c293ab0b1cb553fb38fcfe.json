@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "91a2735635dec9d84d2b803ce98fc7c7448624d888c293ab0b1cb553fb38fcfe",
+ "domain": [
+  "software/infrastructure-as-code",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "terraform",
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Authoring rules and a read-only policy check for AWS Terraform produced by migration skills.",
+ "whenToUse": "Use when a migration skill is writing or has written a terraform directory and needs posture rules or a pass/fail policy verdict.",
+ "tasks": [
+  "provide terraform authoring rules",
+  "apply security baseline spec",
+  "check generated terraform against policy",
+  "report policy verdict"
+ ],
+ "effects": {},
+ "flags": []
+}

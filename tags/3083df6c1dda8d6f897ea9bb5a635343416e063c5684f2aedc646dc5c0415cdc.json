@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3083df6c1dda8d6f897ea9bb5a635343416e063c5684f2aedc646dc5c0415cdc",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "waspy"
+ ],
+ "audience": [
+  "everyone",
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Searches contacts, reads chats and sends user-confirmed messages for a single Waspy account.",
+ "whenToUse": "Use when the user wants to look up contacts, read conversations or send messages through Waspy.",
+ "tasks": [
+  "search contacts",
+  "read chats",
+  "send messages"
+ ],
+ "effects": {},
+ "flags": []
+}

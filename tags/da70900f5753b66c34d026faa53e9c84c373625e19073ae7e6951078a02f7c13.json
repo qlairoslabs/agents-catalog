@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "da70900f5753b66c34d026faa53e9c84c373625e19073ae7e6951078a02f7c13",
+ "domain": [
+  "media/news",
+  "research/topic-monitoring"
+ ],
+ "product": [
+  "niche"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Lets an assistant read niche topic briefings, research news and explore sourced story angles.",
+ "whenToUse": "Use when an agent needs briefings or sourced story ideas about a specific followed niche.",
+ "tasks": [
+  "read niche briefings",
+  "research news",
+  "explore story angles"
+ ],
+ "effects": {},
+ "flags": []
+}

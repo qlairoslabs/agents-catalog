@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "e0b39fb78d155d923b0127c5fc0a9d29c433ca61661b4b8697ed2b5f047610e2",
+ "domain": [
+  "automotive/vehicle-research",
+  "consumer"
+ ],
+ "product": [
+  "wrench-pro",
+  "nhtsa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Recalls, common issues and maintenance intervals and costs for US-market vehicles since 1990.",
+ "whenToUse": "Use when a user asks about buying, maintaining or the reliability and recalls of a specific US vehicle.",
+ "tasks": [
+  "resolve vehicle",
+  "get vehicle summary",
+  "get recalls",
+  "get known issues",
+  "get maintenance schedule and costs"
+ ],
+ "effects": {
+  "dd57cbb97b54305cb910846e32631cdb632fbae759939e4062461d84d6c1dc28": "read",
+  "44dace924d0be700dda861c215356465c19d7685af7f767356a15434fa2e04fb": "read",
+  "f9adf01ab57d1208bde48985c2b5948d914ee8cdaad188cd1b3203aa3fad99f5": "read",
+  "3b9df03f592f45d433f42ca07af6602436d4617774ae8f197b97bdc96c5b262e": "read",
+  "96dd0eaece043a136b558eefc2efcf2e791d2899947363446faaed72ec147678": "read"
+ },
+ "flags": []
+}

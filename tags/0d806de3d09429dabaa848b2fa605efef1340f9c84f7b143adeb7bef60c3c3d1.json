@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "0d806de3d09429dabaa848b2fa605efef1340f9c84f7b143adeb7bef60c3c3d1",
+ "domain": [
+  "marketing/market-research",
+  "business/local-business-data"
+ ],
+ "product": [
+  "google-maps",
+  "scrap-io"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates statistical reports of Google Maps business counts by place, type, rating and online presence, with optional written analysis and PDF.",
+ "whenToUse": "Use when you need counts or shares of businesses on Google Maps in a region for market sizing or prospecting.",
+ "tasks": [
+  "create census report",
+  "count businesses by type and zone",
+  "break down by rating or reviews",
+  "measure website and phone presence",
+  "retrieve report results",
+  "generate PDF report"
+ ],
+ "effects": {
+  "aca798f51e31066cedb207c11b571db7b12427d7d3d4784ba2bdd2d79c077060": "write",
+  "e4a468433fd03604e939ea15ed065a824bd1b925ad2a02872066e9216a2be5cb": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4e3ed5218ed522cd7b55036342b0e667037c4374a5950bf364885a5cd947832c",
+ "domain": [
+  "software/web-development/php"
+ ],
+ "product": [
+  "laravel"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server that assists Laravel development with Artisan, Eloquent, routing, migrations and code generation.",
+ "whenToUse": "Use when building or maintaining a Laravel application.",
+ "tasks": [
+  "run artisan commands",
+  "run eloquent queries",
+  "inspect routes",
+  "manage migrations",
+  "generate laravel code"
+ ],
+ "effects": {},
+ "flags": []
+}

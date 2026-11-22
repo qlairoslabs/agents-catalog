@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b28e136039e5c8b7b1a1eda1c536de8054689237e4b30870183fb7523fedb17c",
+ "domain": [
+  "ai/memory",
+  "productivity/knowledge-management"
+ ],
+ "product": [
+  "worldku"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Saves AI conversations to a Worldku memory store and recalls them from any MCP client.",
+ "whenToUse": "Use when you need to save or retrieve past conversation context across AI clients.",
+ "tasks": [
+  "save conversations",
+  "recall saved memories",
+  "search memory"
+ ],
+ "effects": {},
+ "flags": []
+}

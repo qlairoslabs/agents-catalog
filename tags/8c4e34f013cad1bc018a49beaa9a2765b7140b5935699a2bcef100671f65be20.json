@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8c4e34f013cad1bc018a49beaa9a2765b7140b5935699a2bcef100671f65be20",
+ "domain": [
+  "science/drug-discovery/virtual-screening",
+  "science/computational-chemistry"
+ ],
+ "product": [
+  "boltz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Screens a supplied small-molecule library against a target with Boltz, ranking compounds by docking and binding scores and adding basic ADME estimates.",
+ "whenToUse": "Use when a user has a SMILES list or compound library and wants it docked, scored and ranked against a specific target.",
+ "tasks": [
+  "screen compound libraries against a target",
+  "dock and score smiles molecules",
+  "rank compounds by predicted binding",
+  "estimate solubility, permeability and logd"
+ ],
+ "effects": {},
+ "flags": []
+}

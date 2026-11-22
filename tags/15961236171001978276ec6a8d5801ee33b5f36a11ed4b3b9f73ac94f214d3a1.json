@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "15961236171001978276ec6a8d5801ee33b5f36a11ed4b3b9f73ac94f214d3a1",
+ "domain": [
+  "finance/calculators",
+  "payroll/tax"
+ ],
+ "product": [
+  "calculatorlib"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Runs payroll, tax and social-insurance calculators for Asian markets plus about 8,000 general calculators, unit conversion and math solving.",
+ "whenToUse": "Use when a user needs a payroll or tax figure for Vietnam or other Asian markets, or any general calculation, unit conversion or math solution.",
+ "tasks": [
+  "search calculators",
+  "run a calculator",
+  "get calculator schema",
+  "convert units",
+  "solve algebra and calculus",
+  "compute Vietnam income tax"
+ ],
+ "effects": {
+  "e749c51c2231936865505b7911bd53f0432852feee1fa001b9d0eca7141007c4": "read",
+  "659ceaef94d04800049cb4d1fab28e30108410e3c0bb909b10e6d22a7b451c2f": "read",
+  "c800fd0dc2c2c1354aece1bbe7645b4694bed411fd2857848075ef0d967aa16c": "write",
+  "b454cf4f45fb6b5cd94b1cf6df2af64031dd678321d9aa98858756d028404e67": "read",
+  "95b468d55ada24b4eb990b5e4d93054f2b3d65b90a9797445b49e1a07cfa5c1d": "read"
+ },
+ "flags": []
+}

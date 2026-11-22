@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1de5164105ad77ab53d48707d1f5ead1c51f57179da21651167acb06e64100bd",
+ "domain": [
+  "software/web-hosting",
+  "software/deployment"
+ ],
+ "product": [
+  "hostingsurge",
+  "wordpress"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Deploys apps, sites, WordPress and databases on Hostingsurge, reads logs, adds domains and migrates sites.",
+ "whenToUse": "Use when deploying or managing hosted sites, apps or databases on Hostingsurge.",
+ "tasks": [
+  "deploy apps",
+  "deploy wordpress",
+  "create databases",
+  "read logs",
+  "add domains",
+  "migrate sites"
+ ],
+ "effects": {},
+ "flags": []
+}

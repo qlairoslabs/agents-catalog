@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cec1a28d21b22ed119d42bda3dc0b0f6a7f7916691af6c3ca2d032704719fc84",
+ "domain": [
+  "media/video-hosting",
+  "business/training"
+ ],
+ "product": [
+  "viddler"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "List Viddler videos, manage access control and retrieve proof-of-viewing analytics.",
+ "whenToUse": "Use when managing Viddler video access or checking who watched which videos.",
+ "tasks": [
+  "list videos",
+  "manage access control",
+  "pull viewing analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

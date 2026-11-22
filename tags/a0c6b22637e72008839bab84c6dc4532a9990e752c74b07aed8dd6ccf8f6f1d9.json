@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a0c6b22637e72008839bab84c6dc4532a9990e752c74b07aed8dd6ccf8f6f1d9",
+ "domain": [
+  "finance/invoicing",
+  "crm"
+ ],
+ "product": [
+  "swipify"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Reads invoices, quotes, clients and statistics in SWIPIFY and creates drafts without issuing documents.",
+ "whenToUse": "Use when reviewing SWIPIFY billing data or preparing draft invoices and quotes.",
+ "tasks": [
+  "list invoices",
+  "list quotes",
+  "list clients",
+  "view statistics",
+  "create draft invoice",
+  "create draft quote"
+ ],
+ "effects": {},
+ "flags": []
+}

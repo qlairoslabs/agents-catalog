@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "7170929d4fda51ec445fb09ad17d01eb8e3c032eb63d41f9b641f72e921b7370",
+ "domain": [
+  "technology/agent-commerce",
+  "web/agent-access"
+ ],
+ "product": [
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Independent checks of paid x402 data sellers and of whether AI agents can access shopping and travel sites, plus routing to free official data sources.",
+ "whenToUse": "Use before paying an x402 seller, or to check if a retail or travel site lets agents in or to find a good free data source.",
+ "tasks": [
+  "search paid sellers",
+  "check seller accuracy and price",
+  "list sellers on a domain",
+  "list categories",
+  "check website agent access",
+  "batch check sellers and sites",
+  "get changes since date",
+  "find best data source route",
+  "list rated websites"
+ ],
+ "effects": {
+  "4d0ff7ef45fe3fa4fa4a5ba38e5d99c6e2020d30f043bd19f2cd1b353353aff0": "read",
+  "0a433a6139588971b3b59b60d8abce263e3721e24bcb812a3bae8296a7b7d44f": "read",
+  "4bf67e31327a11a024ed17a246bc607b35547e3a1c944ccbed2b3a1db05c6f5c": "read",
+  "aa85543321c2871285590f77b8c149c6de7cf2ddc0d81781cfa7aba1541875a6": "read",
+  "af37081963b04dd3ea7c35b51362797b5aa2e7c1ea94eb07bfa2084f61334fb3": "read",
+  "2e1f196124e88cdd8a4bee39269a7f43bc59f3bac2bd990372a375a8b7cdd8d2": "read",
+  "625536cad1db734f0a87db64c4ebeba94468b2a803059b929d62239f374f9e2e": "read",
+  "d2444004759a4b7736805ee6260e8b517df8181487f08b60d9f1ec7ddd9066ac": "read",
+  "7e313cdf4f2a5cd6b3d26138fca221f5bd9734de8effa5fc5f1436e0124e2aa9": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "263832f897445cf6d26d61014a66a535968360a3a5e92f3245786cfc0ea99f80",
+ "domain": [
+  "marketing/social-media-analytics"
+ ],
+ "product": [
+  "minter-io",
+  "instagram",
+  "tiktok",
+  "x",
+  "facebook",
+  "linkedin",
+  "threads"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries Minter.io social media analytics for Instagram, TikTok, X, Facebook, LinkedIn and Threads accounts.",
+ "whenToUse": "Use when reporting on social media account performance tracked in Minter.io.",
+ "tasks": [
+  "query social analytics",
+  "view instagram metrics",
+  "view tiktok metrics",
+  "view x metrics",
+  "view facebook metrics",
+  "view linkedin metrics",
+  "view threads metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

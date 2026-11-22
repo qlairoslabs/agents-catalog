@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "bcc7f5fca63093da62d5170a1682cfcbf39e8b39ec6d9a00b8d5e2b1476f7c3d",
+ "domain": [
+  "finance/financial-planning",
+  "data/reference-data"
+ ],
+ "product": [
+  "irs",
+  "ssa",
+  "cms"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Cited 2026 U.S. federal planning parameters, synthetic household samples and a financial-advice AI benchmark.",
+ "whenToUse": "Use when you need sourced U.S. tax, retirement, Social Security or Medicare figures, sample household data, or to evaluate AI financial advice.",
+ "tasks": [
+  "list household archetypes",
+  "list bundles",
+  "get sample household",
+  "describe household schema",
+  "get purchase link",
+  "list reference parameters",
+  "get reference parameter",
+  "get planning benchmark"
+ ],
+ "effects": {
+  "6cafab529fe670950d6e86a317d1b62a76d765f79cfe18e9b00fa3c97e32faf9": "read",
+  "b82e6e8ad3e46c26ffa739fcbf9454ab09de80783f98b9eacdd98c5cf4717f41": "read",
+  "66a44fab4be1079d962acc06ae37f5f862f0714df4cc6964456180b1d6a8316f": "read",
+  "29a0d10c9a5fcf8404d370bb820a318532823245f0970ef549df32535f846b0b": "read",
+  "587d58207cf53359ec1799dfcbf7b63acfd6c4af763c24a09741014378808ca3": "read",
+  "f4730d855d02df8cb7d7a56aa8cfe5738132547929dc3cb07daddfc785b85e27": "read",
+  "f0ff970ca2058f34c04f8654967de003e794de8628b4f4d4ddde963a54cb4f69": "read",
+  "c191695ba5814ba694977c93e8e4faa01046bf1e39b14eced0c4df4435d8ac67": "read"
+ },
+ "flags": []
+}

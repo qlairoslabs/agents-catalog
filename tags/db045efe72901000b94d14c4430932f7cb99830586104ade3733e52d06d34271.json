@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "db045efe72901000b94d14c4430932f7cb99830586104ade3733e52d06d34271",
+ "domain": [
+  "analytics/customer-retention",
+  "business/subscriptions"
+ ],
+ "product": [
+  "churn-solution"
+ ],
+ "audience": [
+  "marketing",
+  "support",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Read-only queries of Churn Solution cancellation-flow metrics, saved revenue and customer feedback.",
+ "whenToUse": "Use when analysing subscription cancellations, retention offers or churn feedback captured by Churn Solution.",
+ "tasks": [
+  "query cancellation-flow metrics",
+  "view retained revenue",
+  "analyse cancellation feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e405c8d439d67ed7579cda3cf0b81d019be24f4540be79449d6b6faf473f4bfa",
+ "domain": [
+  "blockchain/documentation",
+  "developer-tools"
+ ],
+ "product": [
+  "celo"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads Celo developer documentation, with a sandboxed read-only docs filesystem and a feedback tool.",
+ "whenToUse": "Use when you need Celo documentation, code examples or API references.",
+ "tasks": [
+  "search docs",
+  "read doc pages",
+  "grep docs",
+  "submit docs feedback"
+ ],
+ "effects": {
+  "5ffd20cf12836b30a6f4256826579aa4028b1635da30eed1eb44a36a9d54a0ec": "write",
+  "bcbb1b7abbd02e881aac90b1516bf071fe3ee8d907cc5757ac6728fe672f789a": "write",
+  "fcf9b7723e4121bf5d4f208c3731228c583078ec3029b854addd4aea8601eac9": "write"
+ },
+ "flags": []
+}

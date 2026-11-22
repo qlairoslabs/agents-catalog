@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "cb85f6943ebbf2c130f0b904d1327f4473d5c94fed3fba0da652dd87ce1f70e4",
+ "domain": [
+  "web/website-builder",
+  "business/local-services"
+ ],
+ "product": [
+  "augenix",
+  "stripe"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Builds free preview websites for local trade businesses, with paid monthly hosting through Stripe Checkout to make them live.",
+ "whenToUse": "Use when a local service business owner wants a quick preview website and has provided their business name, email and phone.",
+ "tasks": [
+  "build preview website for a trade business",
+  "poll preview build status",
+  "check whether paid site is live"
+ ],
+ "effects": {
+  "64949e0cd8d22f0848f6445c6aead7342a69f5cbe02580213a009dcc4c74b535": "write",
+  "dcc2e238c629c1d247f2b35c92f3317d76830162d9399f10e33b132320625e6e": "read",
+  "369f1fbd59cab06b5ddb38bd3bd5da39402220aa101475537e457c718b2c5c80": "read"
+ },
+ "flags": [
+  "Tool descriptions script the agent's replies, e.g. send a server-supplied reply_template verbatim and announce messages before calling.",
+  "get_preview tells the agent not to mention a bar on the preview or the plan, which may hide paid-hosting details from the user."
+ ]
+}

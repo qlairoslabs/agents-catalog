@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "d7eaf155d6723e88a156dec5fd6cc82ae4d48f6170e5b491d74b710e61a4e41d",
+ "domain": [
+  "software/app-builders",
+  "software/remote-development"
+ ],
+ "product": [
+  "base44",
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Explains how to connect an external coding agent to a Base44 cloud sandbox over MCP or CLI to edit, preview and verify a Base44 app remotely.",
+ "whenToUse": "Use when a user wants to develop a Base44 app from their own coding agent through the Base44 sandbox MCP or sandbox CLI.",
+ "tasks": [
+  "connect agent to base44 sandbox",
+  "authenticate sandbox connection",
+  "read write and edit sandbox files",
+  "run commands in sandbox",
+  "create checkpoints",
+  "get app preview url",
+  "check app status",
+  "list user apps",
+  "connect connectors",
+  "read vite dev-server logs"
+ ],
+ "effects": {},
+ "flags": []
+}

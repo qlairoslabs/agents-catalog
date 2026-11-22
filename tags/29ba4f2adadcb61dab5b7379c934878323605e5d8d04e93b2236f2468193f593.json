@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "29ba4f2adadcb61dab5b7379c934878323605e5d8d04e93b2236f2468193f593",
+ "domain": [
+  "legal/surety-bonds",
+  "compliance/licensing"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Searchable encyclopedia of over 6,900 US surety bond requirements by state and jurisdiction, with application steps and pricing links.",
+ "whenToUse": "Use when a user needs to find which surety bond a license or contract requires and how to apply.",
+ "tasks": [
+  "search bonds by keyword",
+  "filter by state",
+  "get bond details",
+  "list states",
+  "list jurisdictions"
+ ],
+ "effects": {
+  "1f431c24d3e7ab141127f0d94ba28a3d615168632f7212523339e1e0b6603218": "read",
+  "a65d4d3de35f1664ce9a7421aa42ce1c0f9a3b8197c7ff0d822deb71d485350a": "read",
+  "f7427eb3d045fc3f794db38e4f50f47f1956a61a9359fe541c62021bb5b8c666": "read",
+  "ec7c06d12dc567e6c787664391fcac9702647aacd25e8a247fb636d7831b976a": "read"
+ },
+ "flags": []
+}

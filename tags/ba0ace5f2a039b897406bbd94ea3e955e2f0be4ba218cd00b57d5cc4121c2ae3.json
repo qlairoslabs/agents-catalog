@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "ba0ace5f2a039b897406bbd94ea3e955e2f0be4ba218cd00b57d5cc4121c2ae3",
+ "domain": [
+  "design/sketching",
+  "productivity/file-storage"
+ ],
+ "product": [
+  "roughsketch",
+  "google-drive"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Manages sketches stored in Google Drive: search, read, preview, create, edit, rename, arrange and trash.",
+ "whenToUse": "Use when a user wants to find, create or edit RoughSketch drawings kept in their Google Drive.",
+ "tasks": [
+  "search sketches",
+  "read sketch",
+  "preview sketch",
+  "create sketch",
+  "update sketch",
+  "rename sketch",
+  "arrange sketches",
+  "trash sketch"
+ ],
+ "effects": {},
+ "flags": []
+}

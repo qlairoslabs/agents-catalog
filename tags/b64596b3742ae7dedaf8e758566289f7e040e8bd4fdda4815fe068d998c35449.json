@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "b64596b3742ae7dedaf8e758566289f7e040e8bd4fdda4815fe068d998c35449",
+ "domain": [
+  "data/web-scraping",
+  "data/lead-generation"
+ ],
+ "product": [
+  "ultimatewebscraper",
+  "shopify"
+ ],
+ "audience": [
+  "development",
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Scrapes and crawls websites into queryable tables such as product lists, leads, Shopify catalogs and real estate listings.",
+ "whenToUse": "Use when structured data needs to be extracted from websites, such as product catalogs, leads or property listings.",
+ "tasks": [
+  "scrape websites",
+  "crawl sites",
+  "extract products",
+  "extract leads",
+  "scrape shopify catalogs",
+  "scrape real estate listings",
+  "query scraped tables"
+ ],
+ "effects": {},
+ "flags": []
+}

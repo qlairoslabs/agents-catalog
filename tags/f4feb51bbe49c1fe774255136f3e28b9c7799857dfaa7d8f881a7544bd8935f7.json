@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f4feb51bbe49c1fe774255136f3e28b9c7799857dfaa7d8f881a7544bd8935f7",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/languages/ruby"
+ ],
+ "product": [
+  "appwrite",
+  "ruby",
+  "rails",
+  "sinatra"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite Ruby SDK in server-side Ruby apps, including Rails and Sinatra.",
+ "whenToUse": "Use when building a Ruby backend that uses Appwrite.",
+ "tasks": [
+  "manage users",
+  "crud database tables",
+  "manage file storage",
+  "call functions",
+  "authenticate with api keys"
+ ],
+ "effects": {},
+ "flags": []
+}

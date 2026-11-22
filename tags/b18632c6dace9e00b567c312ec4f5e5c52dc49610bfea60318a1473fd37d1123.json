@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b18632c6dace9e00b567c312ec4f5e5c52dc49610bfea60318a1473fd37d1123",
+ "domain": [
+  "software/documentation"
+ ],
+ "product": [
+  "context7"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Fetches current, version-specific library and framework documentation and code examples into the prompt.",
+ "whenToUse": "Use when coding against a library and accurate docs for a specific version are needed.",
+ "tasks": [
+  "resolve library id",
+  "get library docs",
+  "get code examples"
+ ],
+ "effects": {},
+ "flags": []
+}

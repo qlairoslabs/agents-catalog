@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "93280399562f53ee487b54f6ed47d40ed422922492c8958e0c1329d67c998b2a",
+ "domain": [
+  "media/sound-effects",
+  "creative/audio"
+ ],
+ "product": [
+  "lots-of-sounds"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches, previews and downloads CC0 sound effects and music from the Lots of Sounds catalogue.",
+ "whenToUse": "Use when you need royalty-free CC0 sound effects or audio for a project.",
+ "tasks": [
+  "browse free samples",
+  "search sounds",
+  "get sound metadata",
+  "get download link",
+  "get profile"
+ ],
+ "effects": {
+  "d467d0eaedd22d8350bda83c36b1a456ba52394421d03f8b8215276f6b017586": "read",
+  "5232ca9f3566085747e5a8af9cb98bcea7ca1ff5c6e72f05f724173e19064611": "read",
+  "2a8eb4759052300ce5c0175bcfc197118f9967e3828fe56c330a5b3ed386e1b9": "read",
+  "c8769bd8e2ef86633bec8c354b474823c11ff998f1aff9348043a0fee2f77abf": "write",
+  "73c831da330b8d9e2900444dde2ec73080df96d9263f38c3f342887e4d9f749c": "read"
+ },
+ "flags": []
+}

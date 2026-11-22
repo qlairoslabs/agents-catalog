@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "b6ebc0e1e1fb5cb60bd59c78dbfb12d8c810464c36b64a4bf5c8b702a096d31f",
+ "domain": [
+  "legal/court-records"
+ ],
+ "product": [
+  "aicasepredict"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search US court records for cases, attorneys, judges and courts, with public facts and report offers.",
+ "whenToUse": "Use when looking up a US court case, attorney, judge or court.",
+ "tasks": [
+  "search cases",
+  "search attorneys",
+  "search judges",
+  "get case details",
+  "get attorney stats",
+  "get judge stats",
+  "get court info"
+ ],
+ "effects": {
+  "6167a6880423b95ecd39d2d80a0b08770892f9533b4a361ede60750d2be1e301": "read",
+  "24e205315d4baebea60be44f9c9f4be73b85f21d46ed72300495e1ba9e596af8": "read",
+  "260b1357e3933555043d4323e493e5528492eee019180584518a7c0d97322002": "read",
+  "8564f4bb08dc29abf3ba9b571b90bddeed6cbc19864459d0b1212d98eb288b07": "read",
+  "88a95385e525c5a9589822fef96606a0759055595597635bdc5b73bfa2d04634": "read"
+ },
+ "flags": []
+}

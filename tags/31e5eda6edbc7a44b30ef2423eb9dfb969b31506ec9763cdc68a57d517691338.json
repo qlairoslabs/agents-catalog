@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "31e5eda6edbc7a44b30ef2423eb9dfb969b31506ec9763cdc68a57d517691338",
+ "domain": [
+  "commerce/post-purchase",
+  "logistics/delivery-analytics"
+ ],
+ "product": [
+  "parcellab"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Configures parcelLab customer journeys, tracking pages and returns portals, and queries delivery analytics.",
+ "whenToUse": "Use when an ecommerce team needs to set up parcelLab communications, tracking or returns portals, or analyze delivery performance.",
+ "tasks": [
+  "configure customer journeys",
+  "set up tracking pages",
+  "configure returns portals",
+  "query delivery analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

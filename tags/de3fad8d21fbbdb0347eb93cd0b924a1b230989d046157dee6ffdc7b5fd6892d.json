@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "de3fad8d21fbbdb0347eb93cd0b924a1b230989d046157dee6ffdc7b5fd6892d",
+ "domain": [
+  "manufacturing/metal-fabrication",
+  "commerce/quoting"
+ ],
+ "product": [
+  "steady-steel"
+ ],
+ "audience": [
+  "operations",
+  "design"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Quotes laser-cut steel, stainless and aluminum plate and catalog steel products, with handoff links to order and pay on the shop's site.",
+ "whenToUse": "Use when someone needs a price for a laser-cut plate or steel product, or a quote request for custom fabrication.",
+ "tasks": [
+  "list plate materials",
+  "search catalog products",
+  "quote a laser-cut plate",
+  "quote a catalog product",
+  "retrieve a saved quote",
+  "create order handoff link",
+  "create custom quote request link"
+ ],
+ "effects": {
+  "9fec78609b9a146fd9a72c1465c01883b3c12a3506994ebcbd41940224bf29f7": "read",
+  "99919c3b5b6f410ab14f49b886263579ac297d4e840f507c6e857fc655491f63": "read",
+  "eba3836c5c7f49907314d5dacd70ef7f36848e5814e85ab8f0c88c197ca0c87c": "write",
+  "da3403ca400db1bb54326bd921a1660acf286a3b68c2e9a98c70a397fbb5bad8": "write",
+  "bff71a4e1da2bb4a8a789fbed458ca1385e5e491696891c7e30919ec7ddf12e5": "read",
+  "18f82caa5ab7f1c411caee1b3038bc3da5f4883dc425951650ca7a879b89b4e4": "write",
+  "b3f2729b3e1db27c6763a882a8078e3bbec5e7fbc1897ee222d1cb0e510ef4f5": "write"
+ },
+ "flags": []
+}

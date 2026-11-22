@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "199b76d7dfb6e33871c12d284fda39c21705e950d78aa69124200fad65a7675c",
+ "domain": [
+  "business/ai-consulting",
+  "business/assessment"
+ ],
+ "product": [
+  "sophon"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Deterministic scoring tools that triage a single AI workflow idea and assess an organization's readiness to run AI in production, producing Markdown reports.",
+ "whenToUse": "Use when evaluating whether a proposed AI workflow is worth deeper work or whether an organization is ready for production AI.",
+ "tasks": [
+  "triage AI opportunity",
+  "score bottleneck severity and value",
+  "assess AI readiness",
+  "produce handoff Markdown",
+  "list follow-up questions"
+ ],
+ "effects": {
+  "fdf38996f046fdb84884d91e478a322a388c4ed7d8de4e1f0554387f1143accd": "write",
+  "94d41ba3ff4de75e4937cf33f393df0e0672a158f50bf5ce39c3f74ad77ca97b": "write"
+ },
+ "flags": []
+}

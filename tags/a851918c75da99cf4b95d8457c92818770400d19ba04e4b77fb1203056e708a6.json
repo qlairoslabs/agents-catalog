@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "a851918c75da99cf4b95d8457c92818770400d19ba04e4b77fb1203056e708a6",
+ "domain": [
+  "software/api/graphql",
+  "software/developer-tools/cli"
+ ],
+ "product": [
+  "apollo-rover",
+  "apollo-graphos",
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Apollo Rover CLI to publish, compose, check and explore GraphQL schemas.",
+ "whenToUse": "Use when managing graph or subgraph schemas or running local supergraph development with Rover.",
+ "tasks": [
+  "publish schemas",
+  "fetch schemas",
+  "compose supergraph",
+  "run rover dev",
+  "check and lint schemas",
+  "configure rover auth",
+  "search graph schema"
+ ],
+ "effects": {},
+ "flags": []
+}

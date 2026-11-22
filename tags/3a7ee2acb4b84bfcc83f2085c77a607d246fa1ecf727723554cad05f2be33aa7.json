@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3a7ee2acb4b84bfcc83f2085c77a607d246fa1ecf727723554cad05f2be33aa7",
+ "domain": [
+  "travel/booking"
+ ],
+ "product": [
+  "jinko",
+  "chatgpt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Travel assistant connector for searching and planning trips from a chat assistant.",
+ "whenToUse": "Use when the user wants help finding or planning flights, hotels or other travel.",
+ "tasks": [
+  "search travel options",
+  "plan trips"
+ ],
+ "effects": {},
+ "flags": []
+}

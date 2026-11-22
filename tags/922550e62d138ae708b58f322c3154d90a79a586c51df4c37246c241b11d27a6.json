@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "922550e62d138ae708b58f322c3154d90a79a586c51df4c37246c241b11d27a6",
+ "domain": [
+  "software/testing/browser-automation"
+ ],
+ "product": [
+  "webdriverio",
+  "appium"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Automates web browsers and iOS/Android apps through WebdriverIO and Appium.",
+ "whenToUse": "Use when an agent needs to drive a browser or mobile app for testing or automation.",
+ "tasks": [
+  "automate browser",
+  "automate ios apps",
+  "automate android apps",
+  "interact with page elements",
+  "take screenshots"
+ ],
+ "effects": {},
+ "flags": []
+}

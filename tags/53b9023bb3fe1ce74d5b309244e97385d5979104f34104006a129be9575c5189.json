@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "53b9023bb3fe1ce74d5b309244e97385d5979104f34104006a129be9575c5189",
+ "domain": [
+  "marketing/loyalty-programs",
+  "marketing/customer-feedback"
+ ],
+ "product": [
+  "fidelip"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Manages a business's Fidelip loyalty cards, rewards, customer surveys and sign-up page.",
+ "whenToUse": "Use when an agent needs to set up or operate a loyalty program, rewards or surveys for a business on Fidelip.",
+ "tasks": [
+  "create loyalty cards",
+  "manage rewards",
+  "run customer surveys",
+  "configure customer sign-up page"
+ ],
+ "effects": {},
+ "flags": []
+}

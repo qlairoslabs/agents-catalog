@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c9dc047c5b01b463cc02165165d1fcbef51ea618aab42cfb651b39970855730a",
+ "domain": [
+  "software/documentation"
+ ],
+ "product": [
+  "context7",
+  "upstash"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides current library and framework documentation to AI coding agents.",
+ "whenToUse": "Use when an agent needs up-to-date docs or code examples for a library instead of relying on training data.",
+ "tasks": [
+  "resolve library ids",
+  "fetch library documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

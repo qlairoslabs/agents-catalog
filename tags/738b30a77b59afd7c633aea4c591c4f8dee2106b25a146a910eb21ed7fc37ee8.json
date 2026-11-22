@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "738b30a77b59afd7c633aea4c591c4f8dee2106b25a146a910eb21ed7fc37ee8",
+ "domain": [
+  "hr/recruiting",
+  "hr/applicant-tracking"
+ ],
+ "product": [
+  "100hires"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Connects an agent to the 100Hires applicant tracking system to work with candidates, jobs, applications and interviews.",
+ "whenToUse": "Use when the user recruits with 100Hires and wants to look up or manage candidates, job openings, applications or interviews.",
+ "tasks": [
+  "manage candidates",
+  "manage job postings",
+  "track applications",
+  "handle interviews"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f6e646274455922fe9ec92518bbdd3c77e35cb5d60c403f43f17b247e2c4f3e9",
+ "domain": [
+  "logistics/parcel-tracking",
+  "ecommerce/fulfillment"
+ ],
+ "product": [
+  "ship24"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks parcels across more than 2,500 carriers and 3PLs, returning live delivery status, event history and carrier details.",
+ "whenToUse": "Use when an agent needs the current status or history of a shipment from a tracking number.",
+ "tasks": [
+  "track parcel",
+  "get delivery status",
+  "view tracking event history",
+  "look up carrier"
+ ],
+ "effects": {},
+ "flags": []
+}

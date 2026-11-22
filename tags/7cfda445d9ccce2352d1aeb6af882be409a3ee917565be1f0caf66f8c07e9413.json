@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "7cfda445d9ccce2352d1aeb6af882be409a3ee917565be1f0caf66f8c07e9413",
+ "domain": [
+  "ecommerce/price-comparison",
+  "electronics/phones"
+ ],
+ "product": [
+  "wohandy",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Compares current German prices for mobile phones across shops and links to buying guides and comparison pages.",
+ "whenToUse": "Use when a user wants the cheapest price or buying advice for a phone in Germany.",
+ "tasks": [
+  "search phone offers",
+  "filter by brand and price",
+  "find buying guides",
+  "re-check offer price"
+ ],
+ "effects": {
+  "fb428a8ea11eccf586a0dc9769f771db8e0496119285c3184b8d1ee2d7c338e4": "write",
+  "e23cc6fe3c64b31bae35ad5db261284d2f9d8d145965f3cc96f741d24a8c9263": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

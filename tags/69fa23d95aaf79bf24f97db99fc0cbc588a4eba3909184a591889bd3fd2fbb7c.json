@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "69fa23d95aaf79bf24f97db99fc0cbc588a4eba3909184a591889bd3fd2fbb7c",
+ "domain": [
+  "finance/sec-filings",
+  "finance/company-research"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Token-efficient SEC EDGAR-based profiles, timelines, people, filings and earnings call facts for US public companies, with email briefing enrollment.",
+ "whenToUse": "Use when researching a US public company, its executives or filings, or searching earnings call topics.",
+ "tasks": [
+  "look up company by ticker",
+  "get full profile",
+  "get quarterly timeline",
+  "trace person's career",
+  "search across companies",
+  "list SEC filings",
+  "search earnings transcripts",
+  "enroll for briefings",
+  "get digest"
+ ],
+ "effects": {
+  "f1ef08f34bac2c29beb0a7f5cea5f237b6f9537e26cd73220ab2e0ae0ea0fa00": "read",
+  "7a0a0fb2d83515356ee785d5c7d6f6a32a0add0791e2fc76eefdabec540502f0": "read",
+  "1f21f27f8a19630477bf63366c7e7d56f89c533fdd89d7c3b7375f4eff664d7c": "read",
+  "cc349c83bebebbbbda83d77c9192add95d60c0edd0fb95fe6dfa4eaae9738346": "read",
+  "3a57bc7fa75545122b34ab9b0911ced3c5f20d1ea66e8213f2729b77b2668822": "read",
+  "e572dfa49fceec2175ebaacea4b773986e6fc38109ab5f5658a99bcd88009c6f": "read",
+  "ca1673346d2f1e5a6f63c8f35b67adac758d98ef0ec792e545ab31d9549756f3": "read",
+  "385e2486cede7df636569a26320e666da331f6c583c528f47ad2407541c10d1a": "write",
+  "7bad6554bf59a84fdec95aafe8cfdce8c55dcbbc95ef5589a73e33f60936d349": "read"
+ },
+ "flags": []
+}

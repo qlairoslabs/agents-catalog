@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b9bea3b78e4a2534fc1dd85b499ee30a8e6615068e3d28391a374d484cfd9ceb",
+ "domain": [
+  "data/business-intelligence",
+  "data/analytics"
+ ],
+ "product": [
+  "rill"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Skills for building and querying projects in the Rill business intelligence platform.",
+ "whenToUse": "Use when an agent is developing Rill dashboards or querying data in Rill.",
+ "tasks": [
+  "develop rill projects",
+  "query rill data"
+ ],
+ "effects": {},
+ "flags": []
+}

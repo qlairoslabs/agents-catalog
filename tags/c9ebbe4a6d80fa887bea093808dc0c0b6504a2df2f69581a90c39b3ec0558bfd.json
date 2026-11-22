@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c9ebbe4a6d80fa887bea093808dc0c0b6504a2df2f69581a90c39b3ec0558bfd",
+ "domain": [
+  "data/business-intelligence",
+  "data/analytics"
+ ],
+ "product": [
+  "redash"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects an agent to Redash to run SQL queries and manage dashboards.",
+ "whenToUse": "Use when an agent needs to query data or work with dashboards in a Redash instance.",
+ "tasks": [
+  "run sql queries",
+  "query data sources",
+  "manage dashboards"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "f00251486a19816775e260af5289b4802027a7b91aafa6a491810ac404095354",
+ "domain": [
+  "software/mcp-directory",
+  "developer-tools"
+ ],
+ "product": [
+  "agentage",
+  "mcp-registry"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Searches a directory of MCP servers crawled from the official registry, with filters, full records and install commands.",
+ "whenToUse": "Use when a user wants to discover or compare MCP servers for a task.",
+ "tasks": [
+  "search MCP servers",
+  "filter by category, language, license",
+  "get server details",
+  "get install command",
+  "list categories"
+ ],
+ "effects": {
+  "976635cb96352c14dfdcbe602a3cedb326dda4d330cf998b4b994e0e3368635a": "write",
+  "fe3b0c9a60bd70f9e0715faffe6036203dfc016b0e8b305a8e649980efdb3abb": "write",
+  "e4121a7e4a510ebcedf7c787c267f6556d982225dc6c305c568606814938260d": "read"
+ },
+ "flags": []
+}

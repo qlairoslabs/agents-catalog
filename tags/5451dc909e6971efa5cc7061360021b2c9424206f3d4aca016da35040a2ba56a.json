@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "5451dc909e6971efa5cc7061360021b2c9424206f3d4aca016da35040a2ba56a",
+ "domain": [
+  "energy/electrical-equipment",
+  "energy/ev-charging"
+ ],
+ "product": [
+  "entogo"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Catalogue, lead times, company facts and EV charging service sizing from Entogo, a Canadian maker of transformers, switchgear and battery storage.",
+ "whenToUse": "Use when researching transformers, switchgear, battery storage or EV charging capacity, or preparing an RFQ to Entogo.",
+ "tasks": [
+  "search product knowledge",
+  "list products",
+  "get product specifications",
+  "get lead time",
+  "estimate ev charging service capacity",
+  "get company facts",
+  "get rfq channel"
+ ],
+ "effects": {
+  "3b5a8273a07064fea8fddf1275afa4141d19684e18f5f86fbcb175e0775d4bb7": "read",
+  "1ce72b7ebf34c924d3375e56f1eddab60b8d0a8012a2e59cfd134625dd5b1d25": "read",
+  "a67d5449468fe8862903c6af658a421df5033b902de792b7f78ada5c2abe50f8": "read",
+  "b4933023b56238f0bdbe810a1c260034c97daec9f017fef3dbce2c6895723938": "read",
+  "73b62c0cf2909493006ab3d3a504d9f197ca25b36c7d7e9ab4c1530a101bf393": "read",
+  "82740ff8f767e93e094081071bec88234ed8dce2ae942533693a6796b6c6c4dc": "read",
+  "62f1cdfcbedd226f45d7a5a8655dfe0e2f36afd93c8994cc71a0c346b66ea4a1": "read"
+ },
+ "flags": []
+}

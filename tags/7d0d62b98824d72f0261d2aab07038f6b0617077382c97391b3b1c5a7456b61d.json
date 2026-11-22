@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "7d0d62b98824d72f0261d2aab07038f6b0617077382c97391b3b1c5a7456b61d",
+ "domain": [
+  "research/forecasting",
+  "intelligence/geopolitics"
+ ],
+ "product": [
+  "jyotint",
+  "bitcoin"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only record of Bitcoin-anchored, pre-dated forecasts with grades, calibration, luck test, warning timelines and verbatim site passages.",
+ "whenToUse": "Use when verifying, searching or scoring JYOTINT's sealed forecasts or quoting its published record.",
+ "tasks": [
+  "search sealed forecasts",
+  "fetch advisory by id",
+  "list open calls",
+  "check calibration",
+  "view map",
+  "answer from site copy",
+  "semantic search",
+  "compute information yield",
+  "view warning timelines",
+  "regrade the record",
+  "run luck test",
+  "read governance posture"
+ ],
+ "effects": {
+  "a84f3674f0ff4df6ba9253029b5c2c6eb5efae49f7c087d1708a81855ad9601b": "read",
+  "80416ca003d54fcc1226b6f78ceb0762cede822bc3ccd4493317e4f18a251c67": "read",
+  "7f9ce2a9a2383f5e3ab8ad575ebb3036bc9cdb45b71ba2633602bf7e556ec318": "read",
+  "a8645a91d264a4bb3519173ab3c9dbc2f936c90e5ec0a90279939c02c59f9399": "read",
+  "31b6ce91f4f6b4e716604f4124287ce136a7149e975743b2fcef0adb5c4b7a1b": "read",
+  "a72815f0d9b7943f845537180135c7a7a2f6d3e592bf091d8f6f16b74966dc99": "write",
+  "ecf21eab7a5cdb85d57250940f6a4e9f97819981763681423eaef85e3f07f6e7": "write",
+  "a906f33a3eb8e3ba3e34fbd7fccb327d33b8cf0a597ebec684f6784969ec7683": "read",
+  "83f63f1db7ff49fb1e0a456c8a0f3cff6204467b4a495a07f3674509eaa8adde": "read",
+  "4e9343b5968119ca04550751b98f0bd30f0fa84bf6b608a9defd0304295483d4": "read",
+  "df655cf181e054cbc8a810e1d4da060f9af1a2adb4feb46306d6d8afc383b367": "write",
+  "15bfa77edc70605a311c0190dbccd132b75fd5327968bc80086101207ebd220c": "write",
+  "dd7c770847f3266ee4c4211b36658d56e75c6772763f55bf985f68b25d17da14": "write"
+ },
+ "flags": []
+}

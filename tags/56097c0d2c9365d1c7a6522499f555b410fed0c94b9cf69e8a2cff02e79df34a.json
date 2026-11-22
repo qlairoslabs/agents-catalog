@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "56097c0d2c9365d1c7a6522499f555b410fed0c94b9cf69e8a2cff02e79df34a",
+ "domain": [
+  "ai/agent-memory",
+  "software/developer-tools"
+ ],
+ "product": [
+  "cachly"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Stores rules, decisions and fixes explained to an AI so they persist across sessions and tools, hosted on EU servers.",
+ "whenToUse": "Use when an agent should recall or save project rules and past decisions across sessions.",
+ "tasks": [
+  "save rules and decisions",
+  "recall stored knowledge",
+  "share context across tools"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "2363378bbeb47d9b32071b8a3a4bb8392ee19b035136ae10597a67d7a40a3d3a",
+ "domain": [
+  "business/local-directory",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "coreloop"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Searches a directory of businesses, reads their profiles, services, hours and agent endpoints, and sends them an inquiry.",
+ "whenToUse": "Use when finding a local business, comparing its services or contacting it.",
+ "tasks": [
+  "search businesses",
+  "check opening hours",
+  "compare services",
+  "get agent endpoints",
+  "get business profile",
+  "list services",
+  "send inquiry"
+ ],
+ "effects": {
+  "4c4327e0aa41a5cc4b626fff3f06adb3667b71759d80dbf0e60648fc9ec93425": "write",
+  "14bdcad1073109ff6c0d016afde53887cc3d67861b73630834b5fb514e1898e5": "read",
+  "75203fe09a6057cc6511175135c760772e408cf8cb9a57f98a8810122cb97b30": "read",
+  "024af9ab4de74bf534e6e3accec4422b3fc9a05323318afe0890c9dbb90a25dc": "read",
+  "a69e6744384800983ecce9eedc30ccd752d02395194a57a704241a8187723702": "read",
+  "990e9dd214087b59051a029ae0cb938de0a4ad2aa7f1a54400ae4da043f898c7": "read",
+  "8e209d1a8d99df6f7457952d519fc96e0edea1520030f78fdf4ebe44d8e56456": "write"
+ },
+ "flags": []
+}

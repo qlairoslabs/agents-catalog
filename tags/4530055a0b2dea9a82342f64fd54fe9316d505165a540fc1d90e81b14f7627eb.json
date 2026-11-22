@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4530055a0b2dea9a82342f64fd54fe9316d505165a540fc1d90e81b14f7627eb",
+ "domain": [
+  "finance/crypto/trading"
+ ],
+ "product": [
+  "memeswap"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Researches memecoins and builds swap quotes and unsigned swap transactions for the user's wallet to sign, with a 0.85% fee.",
+ "whenToUse": "Use when a user wants to research or prepare memecoin trades whose transactions they will sign in their own wallet.",
+ "tasks": [
+  "research trending memecoins",
+  "get swap quotes",
+  "build unsigned swap transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

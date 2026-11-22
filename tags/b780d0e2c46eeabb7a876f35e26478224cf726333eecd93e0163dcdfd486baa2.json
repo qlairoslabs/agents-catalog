@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "b780d0e2c46eeabb7a876f35e26478224cf726333eecd93e0163dcdfd486baa2",
+ "domain": [
+  "finance/home-loans",
+  "real-estate/property-finance"
+ ],
+ "product": [
+  "arthr"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Australian home-loan calculators and lender data: repayments, borrowing power, refinancing, LVR, stamp duty, lender servicing checks and rate comparisons.",
+ "whenToUse": "Use when someone in Australia asks about mortgage repayments, how much they can borrow, refinancing, stamp duty or which lenders offer what.",
+ "tasks": [
+  "estimate loan repayments",
+  "estimate borrowing power",
+  "estimate refinance savings and break-even",
+  "calculate equity and lvr",
+  "estimate stamp duty by state",
+  "look up mortgage discharge process",
+  "look up lender cashback, lmi waivers and rate changes",
+  "run lender serviceability check",
+  "compare advertised rates",
+  "find loan products by features",
+  "answer site faq questions"
+ ],
+ "effects": {
+  "35e15965de5e44bd349762e4fee03a0ea1f356d0cdad26afd8c93cf1ae868e5c": "read",
+  "809ed0966724f7cd5cc0d519393edc6c31f556b37f3c56ce18a02e3119a7db51": "write",
+  "06c1701a444cae9670611a01822203890238b7aa90e37f8cc8ab73f921ef4031": "read",
+  "1c8c5f4592e8e3862900a1121f9368ca6efc0a894a7358a6c22f6e7d1754dc02": "write",
+  "3acb19d3b448aeb486ca81f391eb5880bb839eb0293018972acdadc44dad5bbd": "read",
+  "2e57844f92350eb015373247d7530b89019156fdbce46cd9c460c0f2fb751e48": "read",
+  "5ebc4395d692802e936c7ec922481bf75a93bdebf1ad74524fb61671db0ac22f": "read",
+  "001ff7768be66741a89cad03efe41391011b2694372f05a52333106484d04697": "write",
+  "fd902e27e99977f38f88f40afc45fd75d0d8a4975f4af234083694660c513354": "read",
+  "63122af1f9ea8d03df7dce1ab24d84759fb49977941b76db73418ba42a969c6f": "write",
+  "86e1447f00fadb37313ef21495661578a56947c4dd54171d3836861606c24f29": "read",
+  "78bb4fd8f87298df12aeb1c7c2bf55afb564c4d6e9c4e6eabcc6d815b96b0a10": "read"
+ },
+ "flags": []
+}

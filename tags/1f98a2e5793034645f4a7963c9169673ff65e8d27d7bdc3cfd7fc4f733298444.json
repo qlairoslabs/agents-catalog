@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1f98a2e5793034645f4a7963c9169673ff65e8d27d7bdc3cfd7fc4f733298444",
+ "domain": [
+  "software/devops/remote-access",
+  "software/infrastructure"
+ ],
+ "product": [
+  "ssh"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Lets agents run commands, move files, make backups and check health on servers over SSH, with approvals, a credential vault and audit log.",
+ "whenToUse": "Use when an agent needs to administer or inspect remote servers over SSH.",
+ "tasks": [
+  "run remote commands",
+  "transfer files",
+  "create backups",
+  "check server health",
+  "store credentials in a vault",
+  "keep an audit trail"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "fafca5f5dce668a0b4e93510fb67efcba24d881ab3e9432946d6e16ce7bb768d",
+ "domain": [
+  "legal/privacy-compliance",
+  "legal/gdpr"
+ ],
+ "product": [
+  "dastra"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Manages GDPR compliance records in Dastra, including processing activities, data breaches, subject requests, risks, audits and AI systems.",
+ "whenToUse": "Use when an agent needs to read or update privacy compliance records in a Dastra workspace.",
+ "tasks": [
+  "manage records of processing",
+  "track data breaches",
+  "handle data subject requests",
+  "manage risks",
+  "manage audits",
+  "register ai systems"
+ ],
+ "effects": {},
+ "flags": []
+}

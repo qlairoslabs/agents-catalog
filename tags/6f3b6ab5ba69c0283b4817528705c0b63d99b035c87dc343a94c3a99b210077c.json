@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6f3b6ab5ba69c0283b4817528705c0b63d99b035c87dc343a94c3a99b210077c",
+ "domain": [
+  "productivity/file-storage",
+  "software/integrations"
+ ],
+ "product": [
+  "box"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Foundation guide for using Box: authentication, MCP or CLI or REST setup, rate limits, error troubleshooting and routing to the right Box reference.",
+ "whenToUse": "Use whenever a user asks about Box, including setup, choosing an access method, fixing Box API errors or using Box MCP tools.",
+ "tasks": [
+  "set up box authentication",
+  "choose between mcp, cli and rest",
+  "handle rate limits and pacing",
+  "troubleshoot box api errors",
+  "route requests for files, search, collaboration, hubs and doc gen"
+ ],
+ "effects": {},
+ "flags": []
+}

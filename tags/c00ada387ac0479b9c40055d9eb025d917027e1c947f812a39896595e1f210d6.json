@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "c00ada387ac0479b9c40055d9eb025d917027e1c947f812a39896595e1f210d6",
+ "domain": [
+  "ai/model-inference/media-generation",
+  "media/generation"
+ ],
+ "product": [
+  "wavespeed"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Runs models from the WaveSpeed catalog for image, video, audio and 3D generation.",
+ "whenToUse": "Use when an agent needs to generate images, video, audio or 3D assets with hosted models.",
+ "tasks": [
+  "browse model catalog",
+  "generate images",
+  "generate video",
+  "generate audio",
+  "generate 3d assets"
+ ],
+ "effects": {},
+ "flags": []
+}

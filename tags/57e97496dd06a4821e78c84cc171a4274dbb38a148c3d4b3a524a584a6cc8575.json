@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "57e97496dd06a4821e78c84cc171a4274dbb38a148c3d4b3a524a584a6cc8575",
+ "domain": [
+  "marketing/copy-testing",
+  "marketing/ab-testing"
+ ],
+ "product": [
+  "jacquard"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Simulates an A/B test across 2 to 20 marketing copy drafts and predicts which one would perform best.",
+ "whenToUse": "Use when an agent has several marketing copy variants and wants a predicted winner before running a real test.",
+ "tasks": [
+  "simulate ab tests",
+  "compare copy drafts",
+  "predict winning copy"
+ ],
+ "effects": {},
+ "flags": []
+}

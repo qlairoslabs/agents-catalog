@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "8f2256b0122213b5a944a56a68bb07b96eac8417a141b7986baedbac8f6901db",
+ "domain": [
+  "software/project-planning",
+  "consulting"
+ ],
+ "product": [
+  "aidoos"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Turns an initiative description into a delivery plan with pods, roles, AI agents, Delivery Unit sizing, timeline and cost estimate.",
+ "whenToUse": "Use when a user describes a project and wants team, scope, timeline or cost estimates.",
+ "tasks": [
+  "create delivery plan",
+  "refine plan",
+  "estimate cost of work items",
+  "retrieve plan",
+  "recommend next step"
+ ],
+ "effects": {
+  "c47f74aae47d7219665ff8ef6f56b4ec89ce8723135a010f994f75ac6ca6e83e": "write",
+  "2844f0d4ecae6041317c451857c1ef6599d3f3245e7e596a260bc3810bebaa17": "write",
+  "19ffeffc779b2f1da019c4960a1c9e7fa8a570113d6584174e476cfd45d2262a": "read",
+  "1e2133886ec7dcfee49638daa676941b40a657b6ab7db6590771c95261b404bb": "read",
+  "193cd53077422afb413b55a2cde3152f0c53b3667ca96039479f06f53040cbf4": "read"
+ },
+ "flags": []
+}

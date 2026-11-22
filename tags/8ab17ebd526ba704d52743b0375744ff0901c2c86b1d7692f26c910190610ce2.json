@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "8ab17ebd526ba704d52743b0375744ff0901c2c86b1d7692f26c910190610ce2",
+ "domain": [
+  "software/cloud/compute",
+  "operations/infrastructure"
+ ],
+ "product": [
+  "amazon-ec2",
+  "aws-systems-manager",
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for provisioning, scaling and operating Amazon EC2 workloads, Auto Scaling groups and Systems Manager fleet operations.",
+ "whenToUse": "Use when choosing EC2 instance types, configuring Auto Scaling, or troubleshooting EC2 instance and fleet problems.",
+ "tasks": [
+  "select instance types",
+  "configure launch templates",
+  "configure auto scaling groups",
+  "use spot and warm pools",
+  "manage amis",
+  "configure imdsv2",
+  "run fleet operations with ssm",
+  "patch instances",
+  "troubleshoot capacity errors",
+  "fix ssh and status-check failures"
+ ],
+ "effects": {},
+ "flags": []
+}

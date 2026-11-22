@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "407f9857d9cc0b440e63b85c3afd49b9aeaa63444a14bbef0c0327e7a22b31e0",
+ "domain": [
+  "software/ai-agents/frameworks"
+ ],
+ "product": [
+  "atomic-agents"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Development workflow for the Atomic Agents framework with helper agents for schema design, architecture, code review and tool building.",
+ "whenToUse": "Use when building AI agents with the Atomic Agents Python framework.",
+ "tasks": [
+  "design agent schemas",
+  "plan agent architecture",
+  "review agent code",
+  "develop agent tools",
+  "validate against best practices"
+ ],
+ "effects": {},
+ "flags": []
+}

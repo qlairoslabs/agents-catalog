@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0318aa9e501d58c2ca1a8ad37df0d478940fde7fcb4b7667a778cb22eca0d749",
+ "domain": [
+  "software/cybersecurity/crypto",
+  "finance/crypto"
+ ],
+ "product": [
+  "seraph"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Transaction firewall and risk-checking tools for crypto transactions made by AI agents.",
+ "whenToUse": "Use when an agent should assess risk or block unsafe crypto transactions before they are sent.",
+ "tasks": [
+  "screen crypto transactions",
+  "assess transaction risk",
+  "block risky transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

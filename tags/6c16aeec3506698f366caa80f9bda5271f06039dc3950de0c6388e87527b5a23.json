@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6c16aeec3506698f366caa80f9bda5271f06039dc3950de0c6388e87527b5a23",
+ "domain": [
+  "education/libraries",
+  "data/books"
+ ],
+ "product": [
+  "calil"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches over 7,400 Japanese libraries to find which hold a given book, and browses NDC classification.",
+ "whenToUse": "Use when a user wants to find a book in a Japanese library or explore NDC subject classes.",
+ "tasks": [
+  "search japanese libraries",
+  "find book holdings",
+  "browse ndc classification"
+ ],
+ "effects": {},
+ "flags": []
+}

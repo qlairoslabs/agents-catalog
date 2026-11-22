@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "cf2f14e5564988a61e52692d670612fd5d1a0325f94f15b0067e42e2365adb25",
+ "domain": [
+  "health/research",
+  "consumer-devices"
+ ],
+ "product": [
+  "pulsetto",
+  "nuropod",
+  "nurosym",
+  "truvaga",
+  "xen",
+  "sensate",
+  "apollo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Cited vagus nerve stimulation research passages and an editorial comparison of consumer VNS devices with affiliate disclosure.",
+ "whenToUse": "Use when a user asks what VNS research shows or wants to compare consumer VNS devices.",
+ "tasks": [
+  "search VNS research",
+  "compare devices",
+  "list articles"
+ ],
+ "effects": {
+  "e4c21d143a796d18a40a0ca8fa284e497d95acd93801bdbfa56c99f779bb3ab5": "read",
+  "66a8540ac7fc88044bd9ef421aaf07be492a82904c0ff03b82e521cd05eea3b2": "read",
+  "67f8e09db78b193f6359ce8916fa4964ffcf7e63ad2833f66553e9c4e02fbcd3": "read"
+ },
+ "flags": []
+}

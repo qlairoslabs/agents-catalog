@@ -1,0 +1,64 @@
+{
+ "classifier": 2,
+ "contentHash": "41532efe47cff39dea33e195f12200f76b3b88f4808cd289f407b86466f41038",
+ "domain": [
+  "sales/lead-generation/company-data",
+  "finance/due-diligence",
+  "legal/company-registry"
+ ],
+ "product": [
+  "onrc",
+  "anaf",
+  "vies",
+  "seap"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Romanian company registry data: ONRC records, ANAF status, financials since 2008, contacts, VAT checks, procurement contracts and change monitoring.",
+ "whenToUse": "Use when researching, vetting or building lead lists of Romanian companies, or monitoring them for registry changes.",
+ "tasks": [
+  "look up romanian companies by name, cui or domain",
+  "bulk match company lists",
+  "find companies by activity and county",
+  "find companies by director",
+  "extract website contacts",
+  "enrich company profiles",
+  "read financial statements and ratios",
+  "check vat numbers in vies",
+  "list public procurement contracts",
+  "whois and dns email-security audit",
+  "watch companies and caen codes for changes",
+  "report data issues"
+ ],
+ "effects": {
+  "6010f362b0ed23e8b9a4537af67bdacd60494dc0657140b81a88fdae62f08c24": "read",
+  "efbb19a214695025e3f4dd44124f83315fe6adc374e621eaf2402b4f7de3d837": "read",
+  "d6b4a80b930b61643ef58bc830eb2efef7fd44cc2eca8221803303edb4ef84cb": "read",
+  "bf3272025a6e47c8ccb0ec98dadd3d9754f610c079b00ca810facdb935a1f153": "read",
+  "46f142e0d045a79081888854dca22934e8b7e4269979daaa77fd009e9a428e48": "write",
+  "644e9ea286b5d8b5bd67149c13797f8a2e11ec6be71621d07668429e58080d34": "read",
+  "4048ae389b8c7d7c194054b010565d61aec13144ff603869c765aa916fbe0349": "read",
+  "c24ec2d24feaa7f4a78f28835336ade989fbe380c59d2a805b15771a0913d6b2": "read",
+  "c5dc000519fcbffe71c4976738ad7a9b00ad7300295d0630d347a747663d5e38": "read",
+  "c232c2c26fe7626d6714219198917b73ec17e92beb4308c2eb690eab68a0376b": "read",
+  "954e804dd08b1092e7601544d9d45d98ed3a1f2683082c54c18de9468a9151e0": "read",
+  "e8ab61e23d654b4876c21eb8df987d889c5aea7cbada2a61bab5d259e6282da9": "write",
+  "b7b9c94df58f6e293f9b316c5442d3971890cc0fff294639e26f1a5c1c3fe880": "write",
+  "7e5c48d0afd5a43812441d0ce4d0b0b3059a51d45b499260b389b37208682204": "write",
+  "4a684383696d0303d6f2864b5bdc4329293426b145f95bac9a2f7a84a5635103": "read",
+  "572acbdf80372f96358260e273bc4e486009df155329edd44f3878828bc8de6a": "write",
+  "94f058c64994b8b3379727967b4da0916ce49f6dbfe12230b7cdd1ad950edd9d": "read",
+  "065c8c43e46c0a0be3dda4c3a632ef1c760da3ffdc2d90fcdeebe957150f369b": "write",
+  "4365ab3d81203889a1ce8b82f25f1977691007617b3b1a32aa9eaae00d30a619": "read",
+  "6b9768d3afb86401fb81c5b007c336dd7531ef04c6c0a5e3ecb693dc974a3dac": "read",
+  "2369563ff97f25235d4e992d1aef4f98012c1eb6b5efbb7c394dd25d7f5f3111": "read"
+ },
+ "flags": []
+}

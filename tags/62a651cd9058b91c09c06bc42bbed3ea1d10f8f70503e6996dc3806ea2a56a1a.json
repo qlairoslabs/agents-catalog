@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "62a651cd9058b91c09c06bc42bbed3ea1d10f8f70503e6996dc3806ea2a56a1a",
+ "domain": [
+  "software/cybersecurity",
+  "ai/mcp-trust"
+ ],
+ "product": [
+  "craftedtrust",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Trust scores and security scans for MCP servers, with a searchable registry of indexed servers.",
+ "whenToUse": "Use before adopting an MCP server to check its trust grade or run a live security scan.",
+ "tasks": [
+  "check trust score",
+  "scan MCP server",
+  "search registry",
+  "get ecosystem stats"
+ ],
+ "effects": {
+  "8446bc090e9b936cff01c41abff6773a25e84d7b135bdfeb499f4f890dc3cd02": "read",
+  "3f0d79447bfb0ffac972c41fd3b274f06ddbeb5ef8035e336f28ebb242b5ef30": "write",
+  "f99cf6fdea0ea496285667c3da4eb0e0f2e06d47dd49a1ba23bc8076a4f2e6a4": "read",
+  "36fd42d268f4ecfe98dc3dd684cd5f0170a68280b0da1b4df62275ce9c753fed": "read"
+ },
+ "flags": []
+}

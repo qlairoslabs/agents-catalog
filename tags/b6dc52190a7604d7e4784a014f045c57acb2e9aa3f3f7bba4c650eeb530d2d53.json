@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b6dc52190a7604d7e4784a014f045c57acb2e9aa3f3f7bba4c650eeb530d2d53",
+ "domain": [
+  "marketing/advertising",
+  "marketing/ppc"
+ ],
+ "product": [
+  "ppcmate"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "run-the-money"
+ ],
+ "summary": "Manages PPCmate ad campaigns, including stats, account balance, spend health checks and pausing or resuming.",
+ "whenToUse": "Use when an agent needs to review or control PPCmate pay-per-click campaigns and spend.",
+ "tasks": [
+  "view campaign stats",
+  "check account balance",
+  "run spend health checks",
+  "pause campaigns",
+  "resume campaigns"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a7e686aaa84240059b8ec6ba89329e6e22dcd21c866c18761b26749d145bd957",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "getmyhotels"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches hotels with live prices and supports booking checkout within the chat.",
+ "whenToUse": "Use when the user wants to find, compare or book a hotel.",
+ "tasks": [
+  "search hotels",
+  "get live prices",
+  "book hotel"
+ ],
+ "effects": {},
+ "flags": []
+}

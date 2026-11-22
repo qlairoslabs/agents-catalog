@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "894bf4cbdf6b04bab1edea379e45e3512831c92fc768cdc202dc93a26b76afa4",
+ "domain": [
+  "software/cybersecurity",
+  "security/vulnerability-intelligence"
+ ],
+ "product": [
+  "cisa-kev",
+  "epss",
+  "nvd",
+  "osv",
+  "metasploit",
+  "nuclei",
+  "sigma"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "CVE intelligence with exploitation signals, detection coverage, fixed versions, package lookups, exploit chains and BOD 26-04 reads.",
+ "whenToUse": "Use when triaging CVEs, checking if one is exploited or detectable, or finding fixed package versions.",
+ "tasks": [
+  "get CVE record",
+  "search CVEs",
+  "query package vulnerabilities",
+  "change stream",
+  "defender scoreboard",
+  "field sightings",
+  "known exploit chains",
+  "EPSS movers",
+  "BOD 26-04 table read"
+ ],
+ "effects": {
+  "f44a60fd8d76a9422d50c2b740ce2512016776c39310f5999de1f9583d6b40b1": "write",
+  "7a9d5316999e0a0c381a142b9994431f94c51b4b44dc0be5d90c12091cf3300d": "write",
+  "44c498edf11170fca529ee64b1176dca2d6ff712b9a96c52e267bcce52a1c46c": "read",
+  "d485d33e560149017e47b833b9e8735d2dbd947f8f61ef10498133a66d3218fd": "write",
+  "9c8cee78e1d4a6bd90c7b5f31103257cdb9319a35ba00d25da1cacfb0ccffc1c": "read",
+  "09d4d7dfaebeb1d2c9d6138fb18d6db9710b41f557faf057d47d8adf4e3144e1": "write",
+  "4b4d0d95af31a3e101a3077170a6873a7d0538d254c85e56c47520c5095240d5": "write",
+  "162155ecdf9a4cfcce671950858e4b505364f7e34d3fdd0432d30cd465abdb61": "read",
+  "cef9b0e90a0ac86d4a1492b49e0d4ba90ea4b54aa2ac2e85fcef9c881e6cb9ad": "write"
+ },
+ "flags": []
+}

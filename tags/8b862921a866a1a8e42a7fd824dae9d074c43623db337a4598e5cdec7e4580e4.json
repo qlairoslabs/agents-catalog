@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "8b862921a866a1a8e42a7fd824dae9d074c43623db337a4598e5cdec7e4580e4",
+ "domain": [
+  "software/api/graphql"
+ ],
+ "product": [
+  "apollo-graphql",
+  "apollo-client",
+  "apollo-server",
+  "apollo-router",
+  "rover-cli"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Apollo GraphQL skills covering Client, Server, Federation, Connectors, Router, Rover CLI, mobile SDKs, schema design and query optimization.",
+ "whenToUse": "Use when building or optimizing GraphQL APIs and clients with the Apollo ecosystem.",
+ "tasks": [
+  "design graphql schemas",
+  "set up apollo client",
+  "build apollo server",
+  "configure federation and router",
+  "use rover cli",
+  "optimize queries",
+  "use apollo on ios and kotlin",
+  "set up apollo mcp server"
+ ],
+ "effects": {},
+ "flags": []
+}

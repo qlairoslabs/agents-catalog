@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9fab6643dc26fc1a2d239382c886062ddacc91da67df345d111b212405eeff7c",
+ "domain": [
+  "sports/statistics",
+  "data/analytics"
+ ],
+ "product": [
+  "nba",
+  "mlb",
+  "nfl",
+  "nhl"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live sports statistics and pre-computed analysis for NBA, MLB, NFL and NHL.",
+ "whenToUse": "Use when a user asks about live scores, player or team stats, or analysis for major US sports leagues.",
+ "tasks": [
+  "get live game stats",
+  "get player stats",
+  "get team stats",
+  "get pre-computed analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

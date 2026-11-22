@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "e691885bc1e46a29df25f54355907fbc0f9973447a64cf03f5eb3f00bd9bff1a",
+ "domain": [
+  "real-estate/public-records",
+  "government/open-data"
+ ],
+ "product": [
+  "cadastre",
+  "sitadel",
+  "insee"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Public facts on French addresses, parcels and communes: zoning, risks, permits, sales, corporate owners and local statistics.",
+ "whenToUse": "Use when researching a French property, parcel or commune for zoning, risks, permits or prices.",
+ "tasks": [
+  "get address facts",
+  "get commune facts",
+  "list building permits",
+  "look up parcel"
+ ],
+ "effects": {
+  "f53e6cc3407dfea4ba8b8b6ccd5c3430e492ba94453c79fa46244fdac1f9a01a": "write",
+  "a0114a07d5da6d7f11eb0c1b1522f53e4de9cb465c0f89089758d63660e8b6b4": "read",
+  "7e53837b5153f74c04a1e4174e0a0f5ff40962d3f9589c462368eab846201504": "read",
+  "b9475b1388fa07ee4ce59747b85279e8ab0728923e7300c6fed9a4669e48871e": "read"
+ },
+ "flags": []
+}

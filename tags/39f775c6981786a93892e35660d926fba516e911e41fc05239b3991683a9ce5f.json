@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "39f775c6981786a93892e35660d926fba516e911e41fc05239b3991683a9ce5f",
+ "domain": [
+  "finance/crypto-trading",
+  "finance/trading-bots"
+ ],
+ "product": [
+  "binance",
+  "bybit",
+  "mexc",
+  "okx",
+  "bitget"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Runs DCA and grid crypto trading bots on several exchanges and offers a backtesting lab.",
+ "whenToUse": "Use when setting up, managing or backtesting automated crypto trading strategies on supported exchanges.",
+ "tasks": [
+  "create dca bots",
+  "create grid bots",
+  "manage trading bots",
+  "backtest strategies"
+ ],
+ "effects": {},
+ "flags": [
+  "can place real-money crypto trades"
+ ]
+}

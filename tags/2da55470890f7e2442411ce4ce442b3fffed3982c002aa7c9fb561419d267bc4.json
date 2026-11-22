@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2da55470890f7e2442411ce4ce442b3fffed3982c002aa7c9fb561419d267bc4",
+ "domain": [
+  "analytics/product-analytics",
+  "support/customer-feedback"
+ ],
+ "product": [
+  "userpilot"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Access to Userpilot product analytics, user and company insights, surveys, NPS, reports and dashboards.",
+ "whenToUse": "Use when an agent needs product usage data, survey results or NPS from Userpilot.",
+ "tasks": [
+  "read product analytics",
+  "view user insights",
+  "view company insights",
+  "read survey and nps results",
+  "view reports and dashboards"
+ ],
+ "effects": {},
+ "flags": []
+}

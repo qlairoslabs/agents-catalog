@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "35b20ab3c9850dbf6a3ffedef727cfb1662af7d8f491fe9050c4ce2ce957d938",
+ "domain": [
+  "community/local-communities",
+  "membership/onboarding"
+ ],
+ "product": [
+  "local-foundation"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "work-as-a-team"
+ ],
+ "summary": "Reads local community information and handles consent-based onboarding of new members.",
+ "whenToUse": "Use when an agent needs to read about a local community or help someone join it with their consent.",
+ "tasks": [
+  "read community information",
+  "onboard members with consent"
+ ],
+ "effects": {},
+ "flags": []
+}

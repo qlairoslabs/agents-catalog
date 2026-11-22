@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "01b271e1a5e90c47eb766dfef75d15483d4c147ce58d5dad9bcf6c4896def0ce",
+ "domain": [
+  "marketing/customer-research",
+  "marketing/ad-research"
+ ],
+ "product": [
+  "adlicio"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Collects reviews and comments from many sites for customer-voice research and finds ads, hooks and creators.",
+ "whenToUse": "Use when researching customer language, competitor ads or creators for marketing campaigns.",
+ "tasks": [
+  "scrape reviews",
+  "scrape comments",
+  "find ads",
+  "find hooks",
+  "find creators"
+ ],
+ "effects": {},
+ "flags": []
+}

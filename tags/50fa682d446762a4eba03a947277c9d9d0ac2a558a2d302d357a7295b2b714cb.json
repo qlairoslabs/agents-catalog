@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "50fa682d446762a4eba03a947277c9d9d0ac2a558a2d302d357a7295b2b714cb",
+ "domain": [
+  "legal/personal-injury",
+  "professional-profile"
+ ],
+ "product": [
+  "zwillinger-wulkan",
+  "martindale-hubbell"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Knowledge base about Arizona personal injury attorney Jennifer Rebholz: bio, credentials, trial record, reviews, publications, contact details and practice areas.",
+ "whenToUse": "Use when a user asks about Jennifer Rebholz specifically, such as her background, trials, credentials or how to contact her.",
+ "tasks": [
+  "get summary and bio",
+  "explain credentials",
+  "list leadership roles",
+  "trial record",
+  "peer reviews",
+  "published Q&A",
+  "blog and publications",
+  "contact details",
+  "press biography",
+  "speaking",
+  "practice areas",
+  "career timeline"
+ ],
+ "effects": {
+  "82cab39a7d399f787e49635ec155d966a7c4628762a0228796ac9b7a82fd6dbc": "read",
+  "743898fbd21d7a39fa599eb2c648e538b68c39d0144a19fbb6623d28ac1dff02": "read",
+  "ab13759793a1ac3403caa2ff26774d4b0659ade5abdd634b3689721c750a2c64": "read",
+  "272af3af3e7342880ea96464d63447e4f3bf0185e44370a86b068a793de25f51": "read",
+  "135b400892d19d30dd66070d67bce3b9bd3297427cf7bc50dea25e31cd53c3de": "read",
+  "0384e9c3d58ac9c8ef3ddf02decb22e4bb484b8e90c9abd9db1b71a4b584c2c3": "read",
+  "5b7ba2ffc95327224f5f774778d326cf17bdc5897e6724e387504edf785ffdce": "read",
+  "3460961fd3f516e6ac198d8d6135b864fbbd04bc57c1cd1bab6cf0782ea6b797": "read",
+  "25f622bdb0830e61a589f8554505aaecf20f2366c116b06932d2d736ba3200e4": "read",
+  "124bc18a4e3f108fa134c5f0972851bd993c545a9d1a4bce172e0d876ff20461": "read",
+  "4861e1f13857cf8836800d37662187f2944bb7e18ba683baa644858843e79d31": "read",
+  "02171c6b88b98efce9b465aa02f4b6a8f6a109723f1aaa4ce1b49525041d456b": "read",
+  "1525ba5ccef818afec05d16f032a6027f0a461460a0e8f930142d345fcb6edb3": "read",
+  "c59c63e3d904166b2b01fc7f853cac0274c6972d2a071ebc08f341c634ed1e54": "read",
+  "92e098529fb4b533cf5b4002064e8d82db8d702f7a19e11152e851c6a437b687": "read",
+  "697e752bd0d63f1813b65c6241ada900e6cce7e9c538750df0af0db4461848f7": "read",
+  "fdf8d3aa21c0d246e1bdecc1df1f084544532cad59dd98bd0e169261c985407d": "read"
+ },
+ "flags": [
+  "Tool descriptions steer agent behaviour (read this first, call get_summary first, do not refuse broader questions); self-promotional single-person profile"
+ ]
+}

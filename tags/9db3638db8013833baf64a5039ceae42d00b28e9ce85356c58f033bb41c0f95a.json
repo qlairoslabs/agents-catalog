@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "9db3638db8013833baf64a5039ceae42d00b28e9ce85356c58f033bb41c0f95a",
+ "domain": [
+  "ai/multi-agent-coordination",
+  "collaboration/deliberation"
+ ],
+ "product": [
+  "gemot",
+  "x402",
+  "atxp"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs structured deliberations among agents: positions, votes, crux analysis, delegation, commitments and credit top-ups.",
+ "whenToUse": "Use when multiple agents or people need to debate, vote, find consensus and record commitments.",
+ "tasks": [
+  "create deliberation",
+  "submit positions",
+  "vote",
+  "analyze cruxes and consensus",
+  "delegate votes",
+  "invite agents",
+  "record commitments",
+  "buy credits",
+  "view audit log"
+ ],
+ "effects": {
+  "20845605df6065c197b7fa4405c7707b1818fc2b2efe53126b446502c9561f1b": "risky",
+  "5c0f4f0f97a8fd7db0aaa5aa867756058db0b1c23f8cf5cb8ad96727cc5335b0": "write",
+  "b1879bd705d488f19977acdd2d35b681201a39c954faad4d033e48e674d78841": "write",
+  "5e74d0e682dabf80b07db91f5674d20398425c1e98d961cf3a35831de3444bf2": "write",
+  "2eb578a67e5dd183c79178d3c53a6a03758347dad4b1ae28689667e80514ad9c": "write",
+  "4a28f109262eeb86c7f02040d3499f2b9e98d8ddc7cc44b83fdd43120df5a7b3": "write",
+  "420113fdc19f5cf975a8a213fbbdd974c7ce7d9d2a7268d2e161895ee78c9bb5": "write"
+ },
+ "flags": []
+}

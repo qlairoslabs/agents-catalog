@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9015a0fe158290b1cac8539d5e0f16eb8f843b47d71826cb81dbcd83a695dca4",
+ "domain": [
+  "software/cybersecurity/sandboxing",
+  "software/ai-agent-auditing"
+ ],
+ "product": [
+  "gvisor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs coding agents inside a local gVisor sandbox and records the commands they actually executed.",
+ "whenToUse": "Use when agent-run commands should be isolated and audited.",
+ "tasks": [
+  "sandbox agent commands",
+  "record executed commands"
+ ],
+ "effects": {},
+ "flags": []
+}

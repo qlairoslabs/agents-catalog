@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "c10851076c6681f41d96cd35c8cd7f81eabb27d94361246966dc0f7e7d03f29b",
+ "domain": [
+  "software/desktop-automation"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "MCP server that lets an agent control the computer by taking screenshots and driving mouse and keyboard.",
+ "whenToUse": "Use when an agent must operate desktop applications that have no API.",
+ "tasks": [
+  "take screenshots",
+  "move and click mouse",
+  "type keyboard input"
+ ],
+ "effects": {},
+ "flags": []
+}

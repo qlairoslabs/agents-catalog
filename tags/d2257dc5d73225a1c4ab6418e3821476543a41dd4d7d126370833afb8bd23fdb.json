@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "d2257dc5d73225a1c4ab6418e3821476543a41dd4d7d126370833afb8bd23fdb",
+ "domain": [
+  "events/ticketing",
+  "events/discovery"
+ ],
+ "product": [
+  "pandy-tickets"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Searches public events in Guatemala on Pandy Tickets, returns checkout links and drafts new events for organizers to publish.",
+ "whenToUse": "Use when someone wants to find or buy tickets for an event in Guatemala, or wants to set up their own ticketed or free event on Pandy Tickets.",
+ "tasks": [
+  "search upcoming events in guatemala",
+  "get event details and ticket types",
+  "get prefilled checkout link",
+  "draft a new event with tickets",
+  "set early-bird price phases",
+  "add attendee registration questions"
+ ],
+ "effects": {
+  "773e71f84c4189114a939b34ec6dbd0d3898f68e599fc51f29beda8c3c75ea07": "read",
+  "fe6fbc3e4595f2d90d58f0884135f3065f8c9a4763471f241947d0f20da3193f": "read",
+  "0789a58b8121823d41a135e43180c69c5ec0814406fd2d36e8baa96ba360ada7": "read",
+  "c40db37f0c6e20a45a260ad5e3f88502744971e5e069ecd23c5a01ca12bd9ed2": "write"
+ },
+ "flags": []
+}

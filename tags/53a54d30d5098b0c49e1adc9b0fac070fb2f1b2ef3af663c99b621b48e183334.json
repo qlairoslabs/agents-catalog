@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "53a54d30d5098b0c49e1adc9b0fac070fb2f1b2ef3af663c99b621b48e183334",
+ "domain": [
+  "developer-tools/utilities",
+  "finance/calculations"
+ ],
+ "product": [
+  "thousand-api"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Collection of deterministic tools for date, cryptography and finance calculations for agents.",
+ "whenToUse": "Use when an agent needs exact date, crypto or financial computations instead of estimating.",
+ "tasks": [
+  "date calculations",
+  "cryptographic functions",
+  "financial calculations"
+ ],
+ "effects": {},
+ "flags": []
+}

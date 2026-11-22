@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b4fa4c7c2c343a1f84599dcae93fe234eb8a8d75ea99e0911e161d23148bd562",
+ "domain": [
+  "communication/messaging",
+  "communication/chatbots"
+ ],
+ "product": [
+  "max-messenger"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Local CLI connector for reading, searching and sending messages from a MAX messenger account and its bots.",
+ "whenToUse": "Use when you need to read or send MAX messenger messages or work with MAX bots after signing in with the max CLI.",
+ "tasks": [
+  "read messages",
+  "search messages",
+  "send messages",
+  "manage bots"
+ ],
+ "effects": {},
+ "flags": []
+}

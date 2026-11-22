@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "0c00afbda419be8dee1864ff3552e9b629d05ae5cd4090bfbdadae3ab000b63f",
+ "domain": [
+  "science/neuroscience/knowledge-graphs"
+ ],
+ "product": [
+  "brainkb"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries BrainKB, a knowledge base built on neuroscience knowledge graphs.",
+ "whenToUse": "Use when answering research questions that need structured neuroscience knowledge.",
+ "tasks": [
+  "query neuroscience knowledge graph",
+  "search brainkb entities"
+ ],
+ "effects": {},
+ "flags": []
+}

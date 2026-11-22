@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d84a4f5198e0f6ffa32401261e2541ef2e0995728f1b4145c39e071d093e4bdd",
+ "domain": [
+  "finance/market-data",
+  "finance/equity-research"
+ ],
+ "product": [
+  "leeway"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "European-focused financial data with forecasts, fundamental stock screening and historical market capitalization.",
+ "whenToUse": "Use when a user needs stock forecasts, fundamental screens or historical market cap, especially for European companies.",
+ "tasks": [
+  "get forecasts",
+  "screen stocks by fundamentals",
+  "get historical market cap"
+ ],
+ "effects": {},
+ "flags": []
+}

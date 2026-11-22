@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7be729f2aba159f4d6c72e52452d1bfe0cdf0793811e9692402a2d6277342111",
+ "domain": [
+  "finance/market-data/sentiment",
+  "finance/investing"
+ ],
+ "product": [
+  "sentisense"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "US stock market sentiment, proprietary sentiment scores, news, analyst ratings and institutional flow data.",
+ "whenToUse": "Use when an agent needs the market mood or sentiment, news and analyst views on a US stock.",
+ "tasks": [
+  "check market mood",
+  "get stock sentiment scores",
+  "read stock news",
+  "view analyst ratings",
+  "track institutional flows"
+ ],
+ "effects": {},
+ "flags": []
+}

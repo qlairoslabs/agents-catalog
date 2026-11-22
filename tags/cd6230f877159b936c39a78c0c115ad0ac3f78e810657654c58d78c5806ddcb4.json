@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "cd6230f877159b936c39a78c0c115ad0ac3f78e810657654c58d78c5806ddcb4",
+ "domain": [
+  "data/web-scraping",
+  "finance/crypto"
+ ],
+ "product": [
+  "coingecko",
+  "github",
+  "x402",
+  "base"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Pay-per-call tools for crypto market signals, readable web page extraction and GitHub repo SEO audits, paid in USDC via x402.",
+ "whenToUse": "Use when an agent needs paid crypto signals, cleaned page text from a URL, or a GitHub repo metadata score.",
+ "tasks": [
+  "get crypto market signal",
+  "fetch readable web text",
+  "audit GitHub repo SEO"
+ ],
+ "effects": {
+  "a18e6df216a89bbc8da090591cb4c2fe75f1ab47a9ecdf23ccdba8051e142f03": "risky",
+  "ef9aa04d0f498d17696bc7f5bd3cc18737a01de4e5649ac44b4eb6e7ab4617d1": "risky",
+  "fb14069ca8b7b52866aacb3785a5029342f35a12aa2b8ee71c4074ba7e985e94": "risky"
+ },
+ "flags": [
+  "each call spends USDC via x402 payment header"
+ ]
+}

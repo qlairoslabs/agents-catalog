@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "654dec102909f2dd9bf7fa25e72edc0262af707cf0f94d9c002d3cfffb99c530",
+ "domain": [
+  "data/analytics/data-warehouse"
+ ],
+ "product": [
+  "bigquery",
+  "google-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to BigQuery to query datasets and generate data insights.",
+ "whenToUse": "Use when querying or analyzing data stored in BigQuery.",
+ "tasks": [
+  "run sql queries",
+  "explore datasets",
+  "generate insights"
+ ],
+ "effects": {},
+ "flags": []
+}

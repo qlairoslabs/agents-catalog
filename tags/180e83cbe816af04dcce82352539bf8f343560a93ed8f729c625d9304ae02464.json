@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "180e83cbe816af04dcce82352539bf8f343560a93ed8f729c625d9304ae02464",
+ "domain": [
+  "software/documentation"
+ ],
+ "product": [
+  "google"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives agents search and retrieval over Google's public developer documentation.",
+ "whenToUse": "Use when an agent needs authoritative Google developer docs for an API or product.",
+ "tasks": [
+  "search google developer docs",
+  "retrieve documentation pages"
+ ],
+ "effects": {},
+ "flags": []
+}

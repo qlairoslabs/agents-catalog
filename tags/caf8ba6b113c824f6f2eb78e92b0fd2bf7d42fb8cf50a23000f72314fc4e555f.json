@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "caf8ba6b113c824f6f2eb78e92b0fd2bf7d42fb8cf50a23000f72314fc4e555f",
+ "domain": [
+  "finance/stock-valuation",
+  "finance/market-data"
+ ],
+ "product": [
+  "sweetvaluelab",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Valuation model output for S&P 500 and Nasdaq-100 stocks, Treasury yield context, sentiment and 13F investor holdings.",
+ "whenToUse": "Use when researching stock valuations, market context or what major investors hold.",
+ "tasks": [
+  "search stocks",
+  "get stock valuation",
+  "get Treasury yield and sentiment context",
+  "get investor 13F holdings",
+  "get 13F consensus"
+ ],
+ "effects": {
+  "3ce39c8fe059b684c734d8b857f814b45d3e0c4462fc93353d401b08e1ba6e2f": "read",
+  "59ae15800e73157bd7c690a140b62cf8d72c213e4a51bbb1c5e5cc5bac463a65": "read",
+  "7232470a99e88048a9291f0d9a2749bc064503de4aa637362bac086857235b9c": "read",
+  "9bb8fc1b1eab8b00f061fe1a47dde3a6ef8addaf594fb1055200a36624ecf22a": "read",
+  "6b38d6cfdda911af4a8662fa920479af742f1a7fdc9a7e285b621819523d870d": "read"
+ },
+ "flags": []
+}

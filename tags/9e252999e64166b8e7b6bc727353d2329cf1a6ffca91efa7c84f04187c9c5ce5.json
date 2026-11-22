@@ -1,0 +1,74 @@
+{
+ "classifier": 2,
+ "contentHash": "9e252999e64166b8e7b6bc727353d2329cf1a6ffca91efa7c84f04187c9c5ce5",
+ "domain": [
+  "government/public-records",
+  "finance/market-research"
+ ],
+ "product": [
+  "usaspending",
+  "sam-gov",
+  "sec",
+  "fec",
+  "federal-register",
+  "fara"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Searchable US federal data on contracts, SAM notices, congressional and insider trades, PAC and lobbying money, bills, executive orders, FARA filings and patents linked to public companies.",
+ "whenToUse": "Use when researching government contracts, political money, lobbying, congressional trading or regulatory activity tied to companies or tickers.",
+ "tasks": [
+  "search contract awards",
+  "find SAM opportunities",
+  "track congressional trades",
+  "look up insider trades",
+  "trace political donations",
+  "analyze lobbying",
+  "search Federal Register",
+  "look up PACs and super PACs",
+  "list foreign agents",
+  "find patents",
+  "check Form D raises",
+  "browse themes"
+ ],
+ "effects": {
+  "853bba1e15ec6c1ac8a08cbb4fc8d49224735a0975dba4f3ac83735d7948151d": "write",
+  "363bf8fe71b5d156369421847565543fecd63c81c890703a7dc953f8359d8f36": "write",
+  "0d99a18dcfb06830431161b4e9ea33081794d1991431809bd933f177d515049b": "write",
+  "d9b4f7357daf6ef0bb0dcc0daff8cc2da62decb79548bc83af270a776bd0d9b9": "write",
+  "04bdc6314ef00ca9f521edb68eb906be98a96cfed2d54dd53be368ecc0231f29": "write",
+  "6a58d866a301283cd8cf74cac6f281c93f735be8a2ceca903f74c4d1580cfb84": "write",
+  "69aa0d2a1d622c13833dfaa04ee7bda67c8576da88d25a45df0ba32944d76d29": "write",
+  "04e17191ea8e87a4c30d92b95c74154f765052d4dd965f6a6c9810751a042c91": "write",
+  "45442f63c74e0507b0b0abdafb8309b0b4e4911fddf3c1f341368fe9529b1baf": "write",
+  "b32b09b89c5d17ed48ef064c3eea0c47aa9b46db7de55fbc6106d34e6b08af17": "write",
+  "93e1821cb93c6186960af3b31f6c7e44cf9edcf9292324ab9bb45c37ccbb3f80": "write",
+  "835120769c95402db133c402d68723e09b1153033db64e02416ec3b4fc2830fe": "write",
+  "d2e5a1340dbd04d0586a508601cf7c0fceeab5a972282aa3c7ebf09ad0b061a0": "write",
+  "c16ad20b79babb01b3d9275e2d5cf6cba7dde5b6547c9e908c48a05fcc11ef4a": "write",
+  "0127d178158afccf4203c94915a8a496cdaf90ca9563460da10e3a1ca6b891fa": "write",
+  "0c45ceda16b7dae250c67b7499075a9e7f52639d581325c44dfcf428a4abbb8b": "write",
+  "1241ebda7deefaeafd37d6c93f3c6a836c1470f031a871f45591da98e38e4beb": "write",
+  "c46bfe360133e391f5a8991a150c294dadbfc6067a7ee083ad8e51ff21dd61a7": "write",
+  "0bf6f6faa4eff0f9551fbabd044ad1e222b4944a713a8889e409dc447f398c67": "write",
+  "779663d3b2c5459e467f2a10ecf1deb89a0fc600e8ab170c30b2e109c0401a23": "write",
+  "56839da83b4ff0372f8c79320f08393730dd27f1bada86fc2317f8513512452f": "write",
+  "6127344f0682fa781874e31665cfc942ace98161d9ecbc33eb670732d3a44b43": "write",
+  "9f085d14555f11671714711a778ff1bb3282f657d5ea30cb6a184040194134ac": "write",
+  "aad12d47aac9b9c78972e2b2a9562afee75da1a220c08c249c894e602d7bf972": "write",
+  "2f5a227ca93ec0741682c23c3786c1beb7259ffc63b619f5240d2493a65d5d04": "write",
+  "e1c855a4581de6bf26991162111d9d6654aa3af69b87cce7de26b499a78f1506": "write",
+  "a04edd9b08dcd0cda99617dbe12cb22fff69127e0a7ed3ea4a2285b4f63103cd": "write",
+  "c0cb69a380046eb4190afc2f645ddcd3a237d9448a4ea528dfa37da281efbc68": "write",
+  "3297c5d5e28b3d9469c610e328f0bcd06bc070b2075388e9a10841153cbddda5": "write",
+  "d598791ced9cf03dfaa362a54d87d40517d5cb8f19a3dfbe9d3d55ca208d2a7c": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "45c8416ccc4304bb31c0233f20d03f9c0ff9b1c9dd923442611b09900ae6b166",
+ "domain": [
+  "games/minecraft-plugins",
+  "software/game-modding"
+ ],
+ "product": [
+  "minecraft",
+  "elitemobs",
+  "magmacore",
+  "betterstructures",
+  "freeminecraftmodels",
+  "lua"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Read-only knowledge base for Nightbreak Minecraft plugins: wiki, source search, config schemas and Lua/YAML validation.",
+ "whenToUse": "Use when writing or checking EliteMobs or related plugin configs and Lua scripts.",
+ "tasks": [
+  "search plugin source",
+  "fetch source file",
+  "Lua reference",
+  "validate Lua draft",
+  "search wiki",
+  "fetch wiki page",
+  "authoring notes",
+  "list config types",
+  "config schema",
+  "validate config files"
+ ],
+ "effects": {
+  "e37cafff5eb98f2951040b89abc2e865a72236b08b18982380e6e9e15b19149e": "write",
+  "0cef70513980051f23b935e67328e8466154db101a60a73f5abfd7269cc32d7b": "read",
+  "6d43c3109b6f9bee531b959e7a4e98b80cd873b7f55d977d115a5540b7ec7647": "write",
+  "299e7a076a49703da8b09c8b245a027167539cde73bac342fb2dce463c22d267": "write",
+  "d3ab2eda3889f5fa2d48a835f3e69e327fb7c3d874cc5256ef6ad679e1dce279": "read",
+  "e80109d5340cdb07c8bc318dbae9190fa33a2100f7026e607c8ff1d725fe75e4": "read",
+  "a434984625e3ec650b9722f1bd5ec522bf6e7d025e1afbb7a4b52086b3bfbb80": "read",
+  "59f8bfcbaacf898825df3a1d7dbd8b00ff12d9f88e0c697eb890b8ffa9a901b0": "read",
+  "8a0f92b0ab22c671e13f558be0ab3bdb81f10d520e804d7d4608fcf00fa346ad": "read",
+  "51b8135963e948b7973980395c59deb963a806b71ef3bab2e4d131c6c515bf72": "read"
+ },
+ "flags": []
+}

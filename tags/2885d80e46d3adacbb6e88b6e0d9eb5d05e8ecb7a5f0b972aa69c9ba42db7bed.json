@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "2885d80e46d3adacbb6e88b6e0d9eb5d05e8ecb7a5f0b972aa69c9ba42db7bed",
+ "domain": [
+  "data/market-benchmarks",
+  "ecommerce/analytics"
+ ],
+ "product": [
+  "oddly"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Observed web data with verifiable receipts: price and assortment benchmarks by product category, subject history and a storefront audit.",
+ "whenToUse": "Use when benchmarking ecommerce prices by category, verifying an observed value, or auditing a storefront.",
+ "tasks": [
+  "get subject history",
+  "verify a receipt",
+  "answer an attribute question",
+  "list benchmark categories",
+  "look up price benchmarks",
+  "audit a storefront"
+ ],
+ "effects": {
+  "c1e910c83eaf1d50408de1c2369875ba35f8cc97ea21da599e80ec4dff116978": "read",
+  "308d4a8973f24e558d1b3ed7cae44a73b80f7c39926a33454c3e35b2aef00306": "read",
+  "a2da27415fab3c8c8e9b48fe10d364125ed05b7f27c513d3c76efc8e770bd098": "read",
+  "6f6db3f040cb9f7c9123d3c0809f66f8d61704c41356ce3b6cf92941e33b133b": "read",
+  "2d2a67b8989ab82e37204b1bb717eb243bb381a246392acf0233593cdb01ace1": "read",
+  "394fc2d09b4af0b46f276279931b071984d66b1188648cb7c7d5268393fe7e42": "read"
+ },
+ "flags": []
+}

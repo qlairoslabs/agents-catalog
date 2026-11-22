@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "d24baeba8c536027015fe9a0e9818e57c0d14eb0c0bd950990e9a92d030abea0",
+ "domain": [
+  "legal/eu-regulation",
+  "fashion/textile-sustainability"
+ ],
+ "product": [
+  "reecopedia"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Searchable corpus of EU textile sustainability regulation (ESPR, DPP, CSRD, CBAM) with citable source text and outline navigation.",
+ "whenToUse": "Use when researching EU textile and sustainability legal requirements and you need cited source passages.",
+ "tasks": [
+  "search regulations",
+  "fetch source text",
+  "outline a document",
+  "find exact text",
+  "list corpus documents",
+  "report answer issue"
+ ],
+ "effects": {
+  "0d594a687f5024e77e4d9de4b9d524c9949562e29629ef73452a6c2fb5536a8d": "read",
+  "346e740ff8e674e9862065d1c356eaca755d7cbb48707bee0fe4ee243418f879": "read",
+  "6d2d9cbb07c422efd9357084ea80cbce060160881dbcadf97e74b0786525ed16": "read",
+  "28ba0795703305bf25a08b6fb6b734190ee10b10157754c7aec016e38b47978d": "read",
+  "60aec9f6b6dea8408382ab372d750775e83be5a629028714b28ba5f04c459e74": "read",
+  "ad6027c5bffac5c21d4708100625bf7dc1a75e108174a37e6db4df16eb71dcd6": "read",
+  "cf761d60e194e3fdfcef968061297108bff7cc603d69d0cd9209563cc5dab159": "read",
+  "497f0d2b4ffa131a2e94f3a8e535f1628005255bc9513e7a17cb54b204727bae": "write"
+ },
+ "flags": []
+}

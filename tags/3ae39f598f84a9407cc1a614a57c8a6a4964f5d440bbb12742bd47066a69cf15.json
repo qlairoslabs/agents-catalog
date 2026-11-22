@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3ae39f598f84a9407cc1a614a57c8a6a4964f5d440bbb12742bd47066a69cf15",
+ "domain": [
+  "communication/team-chat"
+ ],
+ "product": [
+  "pachca"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Exposes the Pachca messenger API as tools for messages, chats, threads, reminders and users.",
+ "whenToUse": "Use when the user needs to read or send messages or manage chats in Pachca.",
+ "tasks": [
+  "send messages",
+  "manage chats",
+  "manage threads",
+  "set reminders",
+  "manage users"
+ ],
+ "effects": {},
+ "flags": []
+}

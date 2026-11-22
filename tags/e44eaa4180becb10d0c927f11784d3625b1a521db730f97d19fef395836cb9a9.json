@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e44eaa4180becb10d0c927f11784d3625b1a521db730f97d19fef395836cb9a9",
+ "domain": [
+  "travel/aviation/flight-planning",
+  "travel/road-trips",
+  "data/weather"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Aviation flight planning tools with VFR routing, METAR/TAF weather and WGS84 coordinates, plus road trip logistics.",
+ "whenToUse": "Use when an agent needs to plan a VFR flight, read aviation weather or organize a road trip.",
+ "tasks": [
+  "plan vfr flights",
+  "read metar and taf weather",
+  "calculate wgs84 routes",
+  "plan road trips"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "8471971fdf4c3ca9bcd1918cd667a2cf56b35370019294cf7625f43a370cca76",
+ "domain": [
+  "government/french-admin",
+  "legal/letters",
+  "finance/calculators"
+ ],
+ "product": [
+  "vitef"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "French administrative helper: law-citing letter templates, 69 calculators (salary, tax, notice) and price-range estimates for home works and moving.",
+ "whenToUse": "Use when someone in France needs to reply to a letter, cancel a contract, compute a salary or indemnity, or estimate a renovation cost.",
+ "tasks": [
+  "search services",
+  "find reply letter for received mail",
+  "list calculators",
+  "run calculator",
+  "describe quote form",
+  "estimate quote price range",
+  "get letter template",
+  "preview letter text"
+ ],
+ "effects": {
+  "48b7ced312258f90007498e839dcf8ce87811aa677d3dda2006b1ef72ef75662": "read",
+  "c1e6f5377db37bb92f4f4d05226b053d7f9ff3dd10399cb1d8f12c1d29f4ec7e": "read",
+  "6fd3358de2e0436ec9c46b51c5d060b1454c463870251f1c968f1520dc29c849": "read",
+  "0df59130abf30859aa98671ca302505423f8f57b052ea37b2d646a2e0abdf9e6": "read",
+  "5eb36a6431752fe24a21773b65689d027696007c3b80a70e16773b6b6f83daeb": "read",
+  "877789eb9ce37c540e7df170b494d5587f9bf3968d1a68e97d8d2c9e77c1b41e": "write",
+  "d56abc50f17b3d4fb6a3f4ebb39f7fef829685c321b87a3bd3053655888966eb": "read",
+  "e9ca46e3c99f41c083e83fd1bc690acd3571445b72ccf9e450a884675d242f02": "read",
+  "effee5127ea3776b2e35c5b345d3e4c9d45a533aa0ac3c29e3052220e697a90d": "read"
+ },
+ "flags": []
+}

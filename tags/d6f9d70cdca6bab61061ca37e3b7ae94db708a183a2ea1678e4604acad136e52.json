@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d6f9d70cdca6bab61061ca37e3b7ae94db708a183a2ea1678e4604acad136e52",
+ "domain": [
+  "commerce/customer-account",
+  "commerce/wholesale"
+ ],
+ "product": [
+  "tvcmall"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Read-only access to TVCMall customer data: products, orders, tracking, shipping, points and balance.",
+ "whenToUse": "Use when a TVCMall customer wants to look up products, orders, shipments, points or balance.",
+ "tasks": [
+  "search products",
+  "view orders",
+  "track shipments",
+  "check shipping options",
+  "view points",
+  "view account balance"
+ ],
+ "effects": {},
+ "flags": []
+}

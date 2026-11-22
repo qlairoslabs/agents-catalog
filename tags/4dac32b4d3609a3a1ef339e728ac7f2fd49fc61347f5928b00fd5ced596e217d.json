@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4dac32b4d3609a3a1ef339e728ac7f2fd49fc61347f5928b00fd5ced596e217d",
+ "domain": [
+  "software/agent-infrastructure",
+  "finance/payments"
+ ],
+ "product": [
+  "relaystation"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Pay-per-call infrastructure for agents covering file storage and handoff, compute, messaging, e-signatures and identity checks.",
+ "whenToUse": "Use when an agent needs to store or hand off files, send messages, collect e-signatures or run KYC on a pay-per-use basis.",
+ "tasks": [
+  "store and share files",
+  "run compute tools",
+  "send messages",
+  "collect e-signatures",
+  "run kyc checks"
+ ],
+ "effects": {},
+ "flags": []
+}

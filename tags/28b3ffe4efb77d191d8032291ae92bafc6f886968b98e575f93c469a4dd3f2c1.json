@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "28b3ffe4efb77d191d8032291ae92bafc6f886968b98e575f93c469a4dd3f2c1",
+ "domain": [
+  "data/identity/social-media",
+  "marketing/social-media"
+ ],
+ "product": [
+  "verified-handles"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up people, organisations and things along with their official social media accounts and identifiers.",
+ "whenToUse": "Use when an agent needs to confirm the official social accounts or identifiers of an entity.",
+ "tasks": [
+  "look up entities",
+  "find official social accounts",
+  "get identifiers"
+ ],
+ "effects": {},
+ "flags": []
+}

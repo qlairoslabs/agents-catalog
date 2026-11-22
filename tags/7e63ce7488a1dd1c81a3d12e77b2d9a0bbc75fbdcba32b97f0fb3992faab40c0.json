@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "7e63ce7488a1dd1c81a3d12e77b2d9a0bbc75fbdcba32b97f0fb3992faab40c0",
+ "domain": [
+  "finance/payments",
+  "software/development"
+ ],
+ "product": [
+  "stripe"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "build-software"
+ ],
+ "summary": "Plugin that helps an agent develop integrations with Stripe payments.",
+ "whenToUse": "Use when building or debugging a Stripe payments integration.",
+ "tasks": [
+  "assist with stripe integration development"
+ ],
+ "effects": {},
+ "flags": []
+}

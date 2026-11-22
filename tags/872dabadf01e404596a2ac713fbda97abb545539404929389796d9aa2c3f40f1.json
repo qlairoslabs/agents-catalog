@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "872dabadf01e404596a2ac713fbda97abb545539404929389796d9aa2c3f40f1",
+ "domain": [
+  "software/ai-agents/knowledge-graph"
+ ],
+ "product": [
+  "ontonym"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Lets agents read a team's shared knowledge graph and propose actions that team members approve.",
+ "whenToUse": "Use when an agent needs company context from a shared graph or must route actions through team approval.",
+ "tasks": [
+  "read shared knowledge graph",
+  "propose actions for approval"
+ ],
+ "effects": {},
+ "flags": []
+}

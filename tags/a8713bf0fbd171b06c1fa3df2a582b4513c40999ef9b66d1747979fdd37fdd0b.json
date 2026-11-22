@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a8713bf0fbd171b06c1fa3df2a582b4513c40999ef9b66d1747979fdd37fdd0b",
+ "domain": [
+  "communication/email",
+  "software/agent-infrastructure"
+ ],
+ "product": [
+  "agentmail"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Provides email inboxes for AI agents to send, receive, reply to, search and manage threaded email.",
+ "whenToUse": "Use when an agent needs its own inbox to send or receive email and manage threads.",
+ "tasks": [
+  "create inboxes",
+  "send email",
+  "receive email",
+  "reply to email",
+  "search email",
+  "manage threads"
+ ],
+ "effects": {},
+ "flags": []
+}

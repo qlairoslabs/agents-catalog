@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "ff89b4421f35d3fc07e98dc473f2694bbbaa440cba2c9e2957191415815083cf",
+ "domain": [
+  "data/statistics",
+  "science/econometrics"
+ ],
+ "product": [
+  "stata"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an AI model run Stata to perform regression and statistical analysis.",
+ "whenToUse": "Use when an agent needs to run regression or other statistical analysis in Stata.",
+ "tasks": [
+  "run stata commands",
+  "perform regression analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

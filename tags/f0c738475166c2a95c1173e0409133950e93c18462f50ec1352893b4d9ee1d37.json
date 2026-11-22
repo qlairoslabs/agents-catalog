@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f0c738475166c2a95c1173e0409133950e93c18462f50ec1352893b4d9ee1d37",
+ "domain": [
+  "research/public-statistics",
+  "government/open-data"
+ ],
+ "product": [
+  "statsmapped"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Local server for public statistics on Ireland and the UK covering housing, crime, health, economy and welfare, with data caveats.",
+ "whenToUse": "Use when answering questions with official Irish or UK statistics.",
+ "tasks": [
+  "query housing statistics",
+  "query crime statistics",
+  "query health statistics",
+  "query economic data",
+  "query welfare data"
+ ],
+ "effects": {},
+ "flags": []
+}

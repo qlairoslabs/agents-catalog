@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e4014e59e12e3992773c0bfdd0c80c09f56583bf1e5a61218f04ce8e83a47a80",
+ "domain": [
+  "customer-support/help-desk",
+  "ai/chatbots"
+ ],
+ "product": [
+  "wonderchat"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Sets up and trains an AI support agent for a website and manages the Wonderchat ticket inbox.",
+ "whenToUse": "Use when configuring a website support chatbot or handling help desk tickets in Wonderchat.",
+ "tasks": [
+  "set up website support agent",
+  "train support agent",
+  "manage ticket inbox"
+ ],
+ "effects": {},
+ "flags": []
+}

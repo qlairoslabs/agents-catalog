@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "4fb1cb08beecc24c47b0528c9099bb3ddbb12ea6612d513b4507f89741cc13ff",
+ "domain": [
+  "language/translation",
+  "legal/certified-documents"
+ ],
+ "product": [
+  "translayte"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "support-customers"
+ ],
+ "summary": "Quote and order certified, sworn, notarised and apostilled translations, upload documents and track orders with Translayte.",
+ "whenToUse": "Use when someone needs an official translation priced, ordered or tracked.",
+ "tasks": [
+  "list services and languages",
+  "check country coverage",
+  "upload document",
+  "get quote",
+  "create unpaid order",
+  "track order status",
+  "resend order links"
+ ],
+ "effects": {
+  "eacb8688e30cd097c2ab5826a8fea47b162403b22e60d4605bbe5817ec0b42e3": "read",
+  "7c64ac8534339ea655e6020bddcef962724c20aad47b4832db5a994e1c0d9374": "read",
+  "49e69c4aa71a58dbe4e46aae50bca532d448202782751dab94b3c895ac269977": "read",
+  "ae6088772209a55ec7f01cf39ab64905fc96e8247198bec544fc9c0cf597f9b3": "read",
+  "9f7eba21c97ab1be5d657af094b7c04471cd502667d4a848e49eaf2c020783e0": "write",
+  "24b3a2602c8a703e762a55c787cee7ee61079b74cfd19c6ba4f6461d5b40bb89": "read",
+  "201531820ab0f6c32ddba356f9c27f7a9f963f54f554eb85711597872fec3e5b": "write",
+  "9fc8a34dba4994110c82808a1b6a7690d20e3b9a2412e910421571fc67cb1f21": "read",
+  "86b77bf4450c3652f03c18a8b58c8492722c84a013ce557434c409f08c7ee606": "write"
+ },
+ "flags": []
+}

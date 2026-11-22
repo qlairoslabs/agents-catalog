@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "e1ea5bec774e4ed534117603b00aa799c0d6fd4917ccf06852656370d89265c0",
+ "domain": [
+  "business/company-data",
+  "finance/financials"
+ ],
+ "product": [
+  "firme-romanesti"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only data on Romanian companies including search, profiles, yearly financials, status flags and CAEN codes.",
+ "whenToUse": "Use when researching Romanian companies or building prospect lists by activity, region and size.",
+ "tasks": [
+  "search companies",
+  "get company profile",
+  "get financial history",
+  "check company status",
+  "resolve CAEN code"
+ ],
+ "effects": {
+  "0cdb84ff1f066d3461fa5edeaeff9bfb45f65d8110420bcefc1fe1d4fc0e214b": "read",
+  "9d6fdd1013fd04e1dfb62b4e1c8cdc5f81b53d900a4de1db96dcd8bdebf00cfd": "read",
+  "3d0c148e36370f1955822fa09f390643d8e8c29357761834553b19d0cfe98033": "read",
+  "712c37a1eb6e64515b0b364341461c5be3d67d882a8f731e478c65d0c8d28125": "read",
+  "d836bc6396f4c71f58452956ab1506af1d2e80718728f671074bc97ce044bc2c": "read"
+ },
+ "flags": []
+}

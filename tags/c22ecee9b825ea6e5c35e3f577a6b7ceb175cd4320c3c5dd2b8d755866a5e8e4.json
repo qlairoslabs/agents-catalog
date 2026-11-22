@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c22ecee9b825ea6e5c35e3f577a6b7ceb175cd4320c3c5dd2b8d755866a5e8e4",
+ "domain": [
+  "research/academic-papers",
+  "science"
+ ],
+ "product": [
+  "arxiv"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches arXiv by topic, author, title or date and exports paper details as BibTeX or PDF.",
+ "whenToUse": "Use when an agent needs to find or cite academic papers on arXiv.",
+ "tasks": [
+  "search papers",
+  "read paper details",
+  "export bibtex",
+  "download pdfs"
+ ],
+ "effects": {},
+ "flags": []
+}

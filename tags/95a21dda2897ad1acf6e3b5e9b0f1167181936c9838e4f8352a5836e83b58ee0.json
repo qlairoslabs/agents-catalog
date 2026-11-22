@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "95a21dda2897ad1acf6e3b5e9b0f1167181936c9838e4f8352a5836e83b58ee0",
+ "domain": [
+  "it/endpoint-monitoring",
+  "operations/alerting"
+ ],
+ "product": [
+  "et-ducky"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to an ET Ducky organization's agents, alerts and fleet overview.",
+ "whenToUse": "Use when checking device agents, alerts or fleet status in ET Ducky.",
+ "tasks": [
+  "list agents",
+  "view alerts",
+  "get fleet summary"
+ ],
+ "effects": {},
+ "flags": []
+}

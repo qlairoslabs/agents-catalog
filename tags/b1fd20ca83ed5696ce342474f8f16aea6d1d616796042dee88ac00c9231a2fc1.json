@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "b1fd20ca83ed5696ce342474f8f16aea6d1d616796042dee88ac00c9231a2fc1",
+ "domain": [
+  "legal/compliance/nis2",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "reglyze"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether NIS2 applies to an organization, tracks EU transposition and incident deadlines, and reads the user's own Reglyze compliance status with a token.",
+ "whenToUse": "Use when you need to decide if NIS2 covers a company, find national incident reporting deadlines, or review the company's Reglyze compliance tasks and incidents.",
+ "tasks": [
+  "check NIS2 scope",
+  "classify essential or important entity",
+  "look up transposition status by country",
+  "find incident notification deadlines",
+  "view compliance score",
+  "list compliance documents",
+  "list open remediation tasks",
+  "list recorded incidents"
+ ],
+ "effects": {
+  "85a27ae027bbd39c33f8c9350cda6e0fbefdc53cb4db8d2fde70e08c4efb7487": "write",
+  "5edee66209ad74bcc82a5abfd4cf8c720854707184219f63eee423d43f899ea4": "read",
+  "bf0546c52f8b362e5920648463fa19085461d577986e6dc464e960b136ceb9dc": "read",
+  "3dafc508a8446808758714f31bf4166c9f7a35b1c9279dc9b175b107b5525fd9": "read",
+  "bb1d93d210e7b1f32801bfef38f77e24e15c0826946984480f6549034f0ce9f9": "read",
+  "ba5fe4ceef804f71695aa85eb45dd1a5e6398cc648a7ccc2d8da76d7b7a4993d": "read",
+  "22a39525699ef3728e29a0e4d6cfffba03a91394c4b25e1b8ad517bf9be1cf36": "read"
+ },
+ "flags": []
+}

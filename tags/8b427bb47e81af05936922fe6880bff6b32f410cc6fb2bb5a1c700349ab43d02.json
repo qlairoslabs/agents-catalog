@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "8b427bb47e81af05936922fe6880bff6b32f410cc6fb2bb5a1c700349ab43d02",
+ "domain": [
+  "compliance/ai-regulation",
+  "legal"
+ ],
+ "product": [
+  "eu-ai-act"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Classifies AI systems by EU AI Act risk tier, estimates maximum fines, drafts Article 50 disclosure notices and lists application deadlines.",
+ "whenToUse": "Use when assessing EU AI Act obligations for an AI system or drafting AI disclosure notices.",
+ "tasks": [
+  "classify AI system risk",
+  "estimate fines",
+  "generate disclosure notices",
+  "list deadlines"
+ ],
+ "effects": {
+  "ae27fde58dd18f99bfd40d63a76c4e96b39711ba8a19006859b4f706cedf3bf0": "write",
+  "429e93716dd1c479ca20bda8280e33e6e15b0dfdd5b5e6cfa660813f2d329fbb": "read",
+  "a085f6a5c0e0f6c3daa48ea169629314ca53300836bdc7312e95754077868acf": "read",
+  "8c3e61ad4ba0b03a4a305a1b20fb8bc185957a1a230224c5de1c609b901bcff2": "read"
+ },
+ "flags": []
+}

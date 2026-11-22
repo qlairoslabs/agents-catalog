@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "24dfe0ecfb7a226375caa00fb4e293925b0f0789f4fbcdf33852be51959ae4ea",
+ "domain": [
+  "finance/forensic-accounting",
+  "finance/equity-research"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Screens a public company's reported earnings for quality and accounting red flags such as weak cash conversion, accruals and non-GAAP gaps, using Bigdata.com.",
+ "whenToUse": "Use when a user questions whether a public company's reported earnings are trustworthy or wants an accounting red-flag check.",
+ "tasks": [
+  "measure cash conversion",
+  "compute accrual ratio",
+  "check working-capital signals",
+  "flag revenue recognition issues",
+  "compare gaap and non-gaap",
+  "compute beneish m-score",
+  "give trust verdict"
+ ],
+ "effects": {},
+ "flags": []
+}

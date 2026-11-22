@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ae0eb012097eaf0bd281f61f63921e4bcee2cd12bf9170fddc1fef20343a0b5e",
+ "domain": [
+  "finance/tax",
+  "finance/accounting"
+ ],
+ "product": [
+  "taptax",
+  "hmrc"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "UK tax tools for take-home pay, self-employed and company tax, VAT, stamp duty, invoices and Making Tax Digital.",
+ "whenToUse": "Use when a user needs UK tax calculations, invoices or MTD help.",
+ "tasks": [
+  "calculate take-home pay",
+  "estimate self-employed tax",
+  "estimate company tax",
+  "calculate vat",
+  "calculate stamp duty",
+  "create invoices",
+  "help with making tax digital"
+ ],
+ "effects": {},
+ "flags": []
+}

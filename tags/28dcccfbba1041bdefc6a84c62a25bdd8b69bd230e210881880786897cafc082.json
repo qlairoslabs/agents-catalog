@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "28dcccfbba1041bdefc6a84c62a25bdd8b69bd230e210881880786897cafc082",
+ "domain": [
+  "hr/job-search",
+  "career-management"
+ ],
+ "product": [
+  "metaintro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "schedule"
+ ],
+ "summary": "Personal job search assistant tracking next steps, job matches, résumés, applications and reminders.",
+ "whenToUse": "Use when a user wants to manage their own job hunt, track applications, or get matched jobs and reminders.",
+ "tasks": [
+  "suggest next job search steps",
+  "find job matches",
+  "manage résumés",
+  "track applications",
+  "set reminders"
+ ],
+ "effects": {},
+ "flags": []
+}

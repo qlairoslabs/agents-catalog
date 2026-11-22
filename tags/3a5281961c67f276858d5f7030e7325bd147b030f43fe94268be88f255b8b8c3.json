@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3a5281961c67f276858d5f7030e7325bd147b030f43fe94268be88f255b8b8c3",
+ "domain": [
+  "information/web-search"
+ ],
+ "product": [
+  "andi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Web search and page fetching from Andi's own index, returning markdown suited to language models.",
+ "whenToUse": "Use when an agent needs current web search results or clean page content as markdown.",
+ "tasks": [
+  "search the web",
+  "fetch web pages",
+  "return markdown content"
+ ],
+ "effects": {},
+ "flags": []
+}

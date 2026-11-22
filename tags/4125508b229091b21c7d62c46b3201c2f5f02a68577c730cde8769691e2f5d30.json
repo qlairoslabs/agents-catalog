@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4125508b229091b21c7d62c46b3201c2f5f02a68577c730cde8769691e2f5d30",
+ "domain": [
+  "software/ai-gateway",
+  "privacy/data-protection"
+ ],
+ "product": [
+  "openai",
+  "anthropic"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "AI model API compatible with OpenAI and Anthropic formats that processes personal data before it reaches the model.",
+ "whenToUse": "Use when routing AI model calls through a gateway that strips or handles personal data first.",
+ "tasks": [
+  "proxy openai-compatible requests",
+  "proxy anthropic-compatible requests",
+  "handle personal data before model calls"
+ ],
+ "effects": {},
+ "flags": []
+}

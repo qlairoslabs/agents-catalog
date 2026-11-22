@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c2255af2a75ce4416953dbab4eed8c70514af52f3ae6aa935ff6a936af5672bf",
+ "domain": [
+  "finance/accounting",
+  "agriculture"
+ ],
+ "product": [
+  "ambrook"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Ambrook books including P&L, balance sheets, unpaid invoices, bills due and transactions.",
+ "whenToUse": "Use when an agent needs financial reports or transaction data from an Ambrook account.",
+ "tasks": [
+  "read profit and loss",
+  "read balance sheet",
+  "list unpaid invoices",
+  "list bills due",
+  "list transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

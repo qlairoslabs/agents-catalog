@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c7717289bf4f457344dbeff8175086a5bd2437c03af23968684c15aa50ae566c",
+ "domain": [
+  "software/product-analytics",
+  "software/feature-flags",
+  "software/error-tracking"
+ ],
+ "product": [
+  "posthog",
+  "claude-code"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Connects Claude Code to PostHog for analytics, feature flags, experiments, error tracking and insights.",
+ "whenToUse": "Use when an agent needs to query PostHog product analytics, manage feature flags or experiments, or inspect tracked errors.",
+ "tasks": [
+  "query product analytics",
+  "manage feature flags",
+  "run experiments",
+  "review error tracking",
+  "view insights"
+ ],
+ "effects": {},
+ "flags": []
+}

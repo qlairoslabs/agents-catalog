@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a68c1d338833f4d9c92b521157f70e314bf3635ff93bcf554f58ea1b88cbd53b",
+ "domain": [
+  "education/college-admissions"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Estimates admission chances at US colleges from a student's profile, scores college lists and returns federal admissions data.",
+ "whenToUse": "Use when a student or parent asks about chances of admission or which US colleges fit their scores.",
+ "tasks": [
+  "estimate admission chances",
+  "score college list",
+  "search colleges",
+  "get school admissions data",
+  "find colleges for a score"
+ ],
+ "effects": {
+  "ebcbec14969f366e4bbb7fe78156c9b221b33735af62c42f2ac3ac296584e03d": "read",
+  "1231753222e1e0277d0e16547fb4e2582bbf3abac2b8b73c78c26a98bbd3e8f4": "read",
+  "d20c8441b7ef1055c100daa6e62e2e2736696a4f42d184c6bdc6ab05fa46dd67": "read",
+  "d7eb248fff9192223bba0791f3873e3f590569368dfb0f174e27b9952e398b6a": "read",
+  "997eba851f0ec1605a17d5b4c346a3d7de3f6ec3bea47f804b0d27e9721887e0": "read"
+ },
+ "flags": []
+}

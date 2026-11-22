@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "72c58dd9524a83c6cb2be185eac8f3bb5061d0f33d6b775ab8abe0c658d058fa",
+ "domain": [
+  "data/databases/no-code",
+  "operations/workflow"
+ ],
+ "product": [
+  "airtable"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Bundles the Airtable MCP server so Claude can create bases and schemas, work with records and share interfaces.",
+ "whenToUse": "Use when reading or updating Airtable bases, tables or records, or setting up new Airtable bases.",
+ "tasks": [
+  "create bases",
+  "define schemas",
+  "read records",
+  "create and update records",
+  "share interfaces"
+ ],
+ "effects": {},
+ "flags": []
+}

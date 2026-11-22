@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "175d8c9226296ef56f4322472695ed78dfe78ca8c197667713af0b7135dd5c19",
+ "domain": [
+  "operations/supply-chain",
+  "operations/network-design"
+ ],
+ "product": [
+  "sc-builder",
+  "scmodeling"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Saved supply-chain simulation, optimization and greenfield siting demo results from SCModeling, plus primers on each method.",
+ "whenToUse": "Use when learning or demonstrating supply-chain simulation, network optimization or greenfield facility siting with saved sample results.",
+ "tasks": [
+  "list sample models",
+  "get saved simulation run",
+  "explain SC theory",
+  "explain simulation",
+  "explain optimization",
+  "explain greenfield analysis",
+  "list optimization demos",
+  "get optimization results",
+  "list greenfield demos",
+  "get greenfield results"
+ ],
+ "effects": {
+  "3de7067740bbccba81ecf59c7af67923e4ef75dbc43429f7b68fa9ddfa3f1c63": "read",
+  "4d61c5a83d6f93d8e5a20a2cbadd3419d4aaf8fd39e232e0db90244db5f6906e": "read",
+  "c23a25d721bb1ae025db6c66b529c0a5166e4993a6ba8a38b36b642d2a290d30": "read",
+  "a1267eab81e8055b7bab6864bc142a894bb24d8d5449a76c2921037f7ebf0179": "read",
+  "8b96e3f8a731f71a30dced8a7be15e3a8a83871d0c2af00ddacee97ab0d11caf": "read",
+  "bf003fc5a70a35a076734dc06ea093e44ee02e48448805b85b272400f049e09f": "read",
+  "8078e0de77e1462a8c587fe3ecbbe4fe77ca0dcae05762d375204a32fa1af805": "read",
+  "e8c2971b6f6aec55cbcce1c86f12ce5909649639593d9950ecc17c139ceaf351": "read",
+  "9fbe6cca188376a94bdb876d98bcb446d402d8c6395c24e7c94e3a9a7cc16eff": "read",
+  "0fec112d40073ae8ede8eda48553ce9ccbf582ebded0f4c4a39dadedb1c4ffbc": "read",
+  "cde28022f89b2c31279a83383f7ad8b6213db19a2711e346bf8ee9d13509ec1e": "read",
+  "54fdc2b9d65b91af5d8f42a1a54a17f9094972aa49c0b3c3cf156e0ae4faeb7a": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d30d09de1d812d73d2ff82e8eca5fcdd3be8a7e47fb612ab5d4866d134d15391",
+ "domain": [
+  "data/validation",
+  "regional/china"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Validation utilities for Chinese data formats such as ID cards, bank cards, phone numbers, plates, USCC codes, VINs and lunar dates.",
+ "whenToUse": "Use when an agent needs to check or parse Chinese identifiers or convert lunar calendar dates.",
+ "tasks": [
+  "validate chinese id cards",
+  "validate bank cards",
+  "validate phone numbers",
+  "validate license plates",
+  "validate uscc codes",
+  "decode vins",
+  "convert lunar calendar dates"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5fb94893ad7e6d5b5d95e66e269fe2502b12321126d7b10cb089a91713cc1630",
+ "domain": [
+  "software/backend",
+  "software/automation"
+ ],
+ "product": [
+  "air-pipe"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Lets an AI client build, validate and deploy HTTP APIs, cron jobs, webhooks and MCP tools on Air Pipe.",
+ "whenToUse": "Use when an agent needs to create and deploy a small API, scheduled job or webhook without managing servers.",
+ "tasks": [
+  "build http apis",
+  "create cron jobs",
+  "set up webhooks",
+  "deploy mcp tools",
+  "validate configurations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "b144d2a922988dd4630330e02042b065d4cf46a19b21326f5d139bd95f0d5def",
+ "domain": [
+  "legal/vaccine-injury",
+  "research"
+ ],
+ "product": [
+  "vicp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searchable database of US Vaccine Injury Compensation Program decisions with case records, court text, statistics, attorneys and special masters.",
+ "whenToUse": "Use when researching VICP cases, outcomes, attorneys or special master decision patterns.",
+ "tasks": [
+  "search cases",
+  "get case record",
+  "read case text",
+  "list filter values",
+  "get statistics",
+  "search attorneys",
+  "get attorney profile",
+  "get special master patterns",
+  "free-text search",
+  "fetch case"
+ ],
+ "effects": {
+  "9226275c7d0f796de9bd25a474f02ce17b2bae03b76b0a76815c0dc038af7c7a": "write",
+  "6899936b61dab83f1d01666f81c650e6c7d2fbd25bdd5f9e5ac8954356b07aeb": "read",
+  "52b479ed9221d14eb1c274deba497384b8e7a642b3c7fcd4c40d12b8735f9c77": "read",
+  "6569d1072c353021b6d64507309b9eae4cfca7a95dc0fe927920122ed50d6a86": "read",
+  "c8178e9a28e0da06495601c1cf3eb3281393257da9a1e05cdc29d276b4075f79": "read",
+  "57a60b86d3decc23df95854bc20919e939ffecd07ca54b5254b71ff09bd0b91a": "read",
+  "a08c2b40878d4cf458e0518877765432aeea5be7f63351430516cc825882e5b6": "read",
+  "4684009fd5a74d8d296e16ef30e12c59c285068b14c3b52cabe8fadd9a1671ed": "read",
+  "bfc256f911754433da44587093d67c7a0733138f6935052c0a3e8ee362d45156": "read",
+  "c39e8d220a5e239b9544e77f5b311ee27dcd23ed581023e8b4c7bc36037be4b5": "read"
+ },
+ "flags": []
+}

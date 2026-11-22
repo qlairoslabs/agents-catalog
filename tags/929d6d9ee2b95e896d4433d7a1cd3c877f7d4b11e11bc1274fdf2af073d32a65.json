@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "929d6d9ee2b95e896d4433d7a1cd3c877f7d4b11e11bc1274fdf2af073d32a65",
+ "domain": [
+  "recruiting/job-search",
+  "startups"
+ ],
+ "product": [
+  "a16z",
+  "speedrun"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Search open roles at a16z portfolio startups, browse companies and collections, view hiring stats, and join the speedrun talent network.",
+ "whenToUse": "Use when a candidate wants startup jobs at a16z portfolio companies or to join the speedrun talent network.",
+ "tasks": [
+  "search jobs",
+  "get job details",
+  "get company profile",
+  "list collections",
+  "get collection",
+  "get hiring stats",
+  "explain network",
+  "join talent network",
+  "get apply info",
+  "list companies"
+ ],
+ "effects": {
+  "c9b92fa34f26ccb067d182f67e206e4a6ea577ce2e39f78c7c5298498ea04690": "write",
+  "eb94f2ca547452f7b0101ff217990fd3dccfb40d7c003a31f6e2f088ca510100": "write",
+  "1176f9dd3ec49332ccbc61ce498af6df7f0347e476175caea2e054b6a17c2451": "read",
+  "ede2fb0657bc1c38b005fd1de77b81c2fdfb96909eb9d361234dca69236dbdb0": "read",
+  "2867af19c494e2c648f4126fe7f93fa6568b82f1eab26c59d9e4a856641d213a": "read",
+  "6b9e67082696254293ae5ee6d365353fc7b9f86cd65c236f86c5d2448609c429": "read",
+  "afe70ec68b6212f9da040b1d1b58223ee9a2bd4dd561b483b2668659f78a9a36": "read",
+  "a17ff3a800132897556ae73607fee771b0d9433daee210716f2d049a00252ce5": "write",
+  "f0976883de73f9ea4a6decedeaaee8a918ae331ca79eafe1663d2bf0c95d72dd": "read",
+  "13c65023b7bbf0fef708314fe4e315ebc86d95320273396a4351890e96759e83": "read"
+ },
+ "flags": []
+}

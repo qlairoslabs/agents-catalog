@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8600fc69dc5112209834799e6a296dd3eb4198dc4a7914fec9774666904cd36f",
+ "domain": [
+  "software/app-builder",
+  "software/hosting"
+ ],
+ "product": [
+  "floot"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Build and publish full-stack web and mobile apps on Floot from an MCP client.",
+ "whenToUse": "Use when a user wants to create and deploy an app without managing infrastructure.",
+ "tasks": [
+  "build web apps",
+  "build mobile apps",
+  "publish apps"
+ ],
+ "effects": {},
+ "flags": []
+}

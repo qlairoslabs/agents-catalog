@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1c7612288446dfe710cab9dbabb2dc7c407a66641529a0893efd887e7804e021",
+ "domain": [
+  "data/web-scraping",
+  "data/databases"
+ ],
+ "product": [
+  "parseium"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Web scraping runtime for agents that manages parsers, scrape jobs, batches, scheduled crons and SQL databases.",
+ "whenToUse": "Use when an agent needs to scrape websites at scale, schedule recurring scrapes, or store results in SQL.",
+ "tasks": [
+  "create parsers",
+  "run scrapes",
+  "run batch scrapes",
+  "schedule cron jobs",
+  "query sql databases"
+ ],
+ "effects": {},
+ "flags": []
+}

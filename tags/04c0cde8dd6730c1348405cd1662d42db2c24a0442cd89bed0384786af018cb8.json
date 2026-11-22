@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "04c0cde8dd6730c1348405cd1662d42db2c24a0442cd89bed0384786af018cb8",
+ "domain": [
+  "legal/us-federal-law",
+  "government"
+ ],
+ "product": [
+  "us-code",
+  "cfr"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search and read US federal law including the Code, CFR, public laws, bills and executive orders, with citations, history and diffs.",
+ "whenToUse": "Use when you need the text, amendment history or citing documents of a US federal statute, regulation, bill or order.",
+ "tasks": [
+  "search federal law",
+  "fetch a provision",
+  "find citing documents",
+  "view legislative history",
+  "compare releases"
+ ],
+ "effects": {
+  "d7012b2c7835c7a4671a634ad3b2a73c06532431ca098734a7f14d7e9ad80a27": "read",
+  "082a742d96dc74b65d365061c006287d608d65cb161594e3808a589d18c1e4a5": "read",
+  "46f19c85cb01bb55fb4db4927f3cc8204f9c3c9ee6eddc8e75709a752929a51a": "read",
+  "9bf3719e2c4b57d25bf3b7d3c0083fe405abfd0512d18292ee135816d2673289": "read",
+  "8c64725c2d7d372cadcc738520d537cdfd03ab9365dc694afa117fd07fe97ab4": "read"
+ },
+ "flags": []
+}

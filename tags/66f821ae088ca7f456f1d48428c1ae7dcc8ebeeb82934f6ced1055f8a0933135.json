@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "66f821ae088ca7f456f1d48428c1ae7dcc8ebeeb82934f6ced1055f8a0933135",
+ "domain": [
+  "software/web-scraping/search"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Fetches web pages and searches the web using several backends, trying cheaper ones first.",
+ "whenToUse": "Use when an agent needs to read web pages or run web searches.",
+ "tasks": [
+  "fetch web pages",
+  "search the web",
+  "extract page content"
+ ],
+ "effects": {},
+ "flags": []
+}

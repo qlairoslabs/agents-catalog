@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b23dbd878db46e0b086d8be5be52c38055c4558ff491d4267cded8bd87685402",
+ "domain": [
+  "software/app-builders",
+  "software/remote-development"
+ ],
+ "product": [
+  "base44"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Describes authoring Base44 app resources directly in Base44's cloud sandbox, where written files auto-sync, and connecting OAuth connectors remotely.",
+ "whenToUse": "Use when editing a Base44 app inside its cloud sandbox without a local checkout.",
+ "tasks": [
+  "author backend functions remotely",
+  "create entities remotely",
+  "create agents remotely",
+  "add realtime actors",
+  "set up oauth connectors",
+  "structure sandbox resource files"
+ ],
+ "effects": {},
+ "flags": []
+}

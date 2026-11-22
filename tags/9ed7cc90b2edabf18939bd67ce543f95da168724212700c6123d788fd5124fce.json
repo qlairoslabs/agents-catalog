@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "9ed7cc90b2edabf18939bd67ce543f95da168724212700c6123d788fd5124fce",
+ "domain": [
+  "professional-services/software-development",
+  "business/service-catalog"
+ ],
+ "product": [
+  "codeatlas"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Lists and searches the software and consulting services offered by CodeAtlas and lets a person request contact.",
+ "whenToUse": "Use when someone wants to learn about CodeAtlas services or ask CodeAtlas to get in touch.",
+ "tasks": [
+  "list services",
+  "get service details",
+  "search services by business need",
+  "send contact request"
+ ],
+ "effects": {
+  "9ff0d31cf84e4c1a01ef7ffb42d462eff2848ac427d9499c0e783cd8ae15fca4": "read",
+  "b4ba4c9a907cbf619fec77d8f81dae180a9dff3a9a6cbac9f56c5d87ffef9548": "read",
+  "68ef4f4098f15fdcd46b436b7740f07ea0b027aa61c5bb5583466836e652bff4": "read",
+  "7acb11e22b4d96cc6d7008bf23fcd419000d2092aa906a9aa8d1659bb31b36a4": "write"
+ },
+ "flags": []
+}

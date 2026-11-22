@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e594529372e8352914f1e6b161fa6e02d8c8fbd0dd9bab560cfdb70d46befdb9",
+ "domain": [
+  "marketing/email-verification",
+  "sales/lead-enrichment"
+ ],
+ "product": [
+  "clearbounce"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Verifies email addresses in real time and finds business email addresses using live mailbox checks.",
+ "whenToUse": "Use when validating email lists or finding a business contact's email address.",
+ "tasks": [
+  "verify email address",
+  "find business email",
+  "check mailbox"
+ ],
+ "effects": {},
+ "flags": []
+}

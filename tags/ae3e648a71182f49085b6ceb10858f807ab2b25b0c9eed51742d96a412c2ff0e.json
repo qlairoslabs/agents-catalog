@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "ae3e648a71182f49085b6ceb10858f807ab2b25b0c9eed51742d96a412c2ff0e",
+ "domain": [
+  "media/documentary-films"
+ ],
+ "product": [
+  "guidedoc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search public documentary film records, filmmakers, topics and articles, and see which titles stream on GuideDoc.",
+ "whenToUse": "Use when finding documentaries by title, director, topic or filters, or getting similar recommendations.",
+ "tasks": [
+  "search documentaries",
+  "read film details",
+  "search filmmakers",
+  "browse topics and genres",
+  "search articles",
+  "recommend similar films",
+  "filter by duration, language, year",
+  "service info"
+ ],
+ "effects": {
+  "6a43b361fce0f10aa0e530cb8a3dca3038e585170ed02404b6bc962e5742c967": "read",
+  "57e5c922d13a14be480d7a62af62644a1cf2005dc35d64f658e5f5d80aa6456f": "read",
+  "08487b58571db9cedabb0732fb5863113b95ca5180a01418ed080b6b4d3ea5dc": "read",
+  "5c141ec2efdf7f4794688ebcc72ac88f4e869863c9ef5279a4657b0c52b913b5": "read",
+  "984a03f525493605ea0463bd35049946c5ee56baa15937d96cd585c278db422b": "read",
+  "af7d49bfadb5ab95279ecccd55c29a7af8b92c1b93d05dcd4c1284f9f76dfbf5": "read",
+  "f74a9206b5b953e9b4a8f5536c1b76e00f70dde0895dbfb71b3051e4ae0c060f": "read",
+  "6e04730c73fd830189f7e86832ed8d9cb9574aa2953f2ffa4a2eb93d095ae164": "read",
+  "c03964ebb5d343003b873af3f2f645c81c6a98cb1446514915b3e084f601fc75": "write",
+  "9b63db637e9cc04fad89420745257f4e2ab40c01cf35f24ced54ea10957a6eec": "read",
+  "98a043d93906e37f0cf749932ed77081ba4c0937f8e3fe5e12fdaedee6f06a3b": "read",
+  "0b29b74ae1f7f887d9f68e79789da41c22090d5854a2251686e0ebe0f7ca5e0c": "read",
+  "a71f28b40e7394d0e14e73696809bb3952706ca99a896a2be58aa7df78b41fdf": "read",
+  "f2a2668b38f68239b730a341200e040b3ca16b2bf60e947105ab214c329f7289": "read",
+  "6a97e88bbf08cbfc559e049a479e095315fbae740d1e0e1358d88297370fed6d": "read",
+  "a7ed935af78af29602c78cd62ad207766900a9b07954298f01063e5a60e1110b": "read"
+ },
+ "flags": []
+}

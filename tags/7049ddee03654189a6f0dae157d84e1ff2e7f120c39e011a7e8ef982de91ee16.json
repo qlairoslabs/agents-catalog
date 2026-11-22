@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7049ddee03654189a6f0dae157d84e1ff2e7f120c39e011a7e8ef982de91ee16",
+ "domain": [
+  "software/game-servers/hosting",
+  "operations/server-management"
+ ],
+ "product": [
+  "gameserverapp"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "be-online"
+ ],
+ "summary": "Manages game servers, their configurations, players and groups via GameServerApp.",
+ "whenToUse": "Use when administering game servers or player communities hosted through GameServerApp.",
+ "tasks": [
+  "manage game servers",
+  "edit server configurations",
+  "manage players",
+  "manage groups"
+ ],
+ "effects": {},
+ "flags": []
+}

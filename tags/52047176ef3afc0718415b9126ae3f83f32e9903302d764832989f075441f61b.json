@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "52047176ef3afc0718415b9126ae3f83f32e9903302d764832989f075441f61b",
+ "domain": [
+  "services/interpreting",
+  "language/translation"
+ ],
+ "product": [
+  "remoto",
+  "proz"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "schedule"
+ ],
+ "summary": "Finds Remoto interpreters, checks language-pair coverage, quotes per-minute prices and open slots, and returns prefilled links to start or book a call.",
+ "whenToUse": "Use when someone needs an interpreter for a language pair and wants availability, price and a booking link.",
+ "tasks": [
+  "list interpreting services",
+  "resolve language names",
+  "check language pair coverage",
+  "quote price",
+  "find interpreters",
+  "view interpreter profile",
+  "check open slots",
+  "get start or booking link",
+  "search help articles"
+ ],
+ "effects": {
+  "7c4b0afc3c6b3eea06bfee1183908f3a29d60cac8d63179de9a7cd80b02d6855": "read",
+  "b08b7786877e7d3184b7359ffbef22220de682a9fd80302e95bd729da2cea1d2": "read",
+  "5b89d15461fb003e4335112abf5dd5c6b34c9d93006aaa0de74a52fb09e80df3": "read",
+  "0a6fd90c9c3fb7863a57ed13590d88d0e95f7aec24fd4e7fd851f3b87a33ee84": "read",
+  "55de2566b43848f1dafaa288913c4b3af7c2172dea3c66b4b8d7950ae1e7cb7d": "read",
+  "2aea06500822ae73b770026f2762a8c5d7df116ac39579a6b042b3e60e266223": "read",
+  "94c8a71307358c68566675df4c41b715f25e124dcee9fb83da9cecbeb62977bf": "read",
+  "cdea5a025201c9b8d5577ca58bb2f02c0171a0bce7185eaeb5ed2d3f706c93dd": "read",
+  "bf4283e87c7f298814fb552b15e0ca7ffd5611a768412fbfbdf393a497cf2345": "read"
+ },
+ "flags": []
+}

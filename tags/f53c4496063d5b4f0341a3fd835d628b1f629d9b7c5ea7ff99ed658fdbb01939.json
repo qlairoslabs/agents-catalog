@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f53c4496063d5b4f0341a3fd835d628b1f629d9b7c5ea7ff99ed658fdbb01939",
+ "domain": [
+  "ai/speech-to-text",
+  "media/audio-analysis"
+ ],
+ "product": [
+  "assemblyai"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Transcribes, summarizes and analyzes audio using AssemblyAI speech recognition and understanding models.",
+ "whenToUse": "Use when audio recordings need transcription, summaries or analysis.",
+ "tasks": [
+  "transcribe audio",
+  "summarize audio",
+  "analyze speech"
+ ],
+ "effects": {},
+ "flags": []
+}

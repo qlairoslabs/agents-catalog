@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cf343f796073e1f0e490e390a8c960fa38a7106e82d4965eacdf3d3a5150ef3d",
+ "domain": [
+  "automotive/vehicle-inventory",
+  "automotive/market-data"
+ ],
+ "product": [
+  "opendealer"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Searches vehicle inventory, dealers, deals and automotive market data.",
+ "whenToUse": "Use when a user is shopping for a vehicle or wants dealer or car market information.",
+ "tasks": [
+  "search vehicles",
+  "find dealers",
+  "find deals",
+  "get market data"
+ ],
+ "effects": {},
+ "flags": []
+}

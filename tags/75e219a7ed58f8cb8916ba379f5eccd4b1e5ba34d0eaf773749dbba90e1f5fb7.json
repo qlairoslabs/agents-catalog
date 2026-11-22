@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "75e219a7ed58f8cb8916ba379f5eccd4b1e5ba34d0eaf773749dbba90e1f5fb7",
+ "domain": [
+  "sales/crm/event-venues",
+  "events/venue-management"
+ ],
+ "product": [
+  "joinways"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "schedule",
+  "support-customers"
+ ],
+ "summary": "CRM for event venues to manage inquiries, quotes, events and availability.",
+ "whenToUse": "Use when handling event venue inquiries, quotes, bookings or availability checks.",
+ "tasks": [
+  "manage inquiries",
+  "create quotes",
+  "manage events",
+  "check availability"
+ ],
+ "effects": {},
+ "flags": []
+}

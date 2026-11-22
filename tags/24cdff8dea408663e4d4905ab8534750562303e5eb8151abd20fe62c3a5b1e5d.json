@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "24cdff8dea408663e4d4905ab8534750562303e5eb8151abd20fe62c3a5b1e5d",
+ "domain": [
+  "communication/email",
+  "sales/relationship-tracking",
+  "productivity/meetings"
+ ],
+ "product": [
+  "attrove",
+  "gmail",
+  "slack"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "understand-what-is-happening"
+ ],
+ "summary": "Monitors Gmail, Slack and meeting conversations to flag threads going quiet and track expected outcomes.",
+ "whenToUse": "Use when the user wants to find stalled conversations or search across email, Slack and meetings.",
+ "tasks": [
+  "detect quiet conversations",
+  "watch outcomes",
+  "search gmail",
+  "search slack",
+  "search meetings"
+ ],
+ "effects": {},
+ "flags": []
+}

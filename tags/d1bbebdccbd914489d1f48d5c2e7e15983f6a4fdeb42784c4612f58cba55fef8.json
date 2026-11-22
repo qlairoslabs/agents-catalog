@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d1bbebdccbd914489d1f48d5c2e7e15983f6a4fdeb42784c4612f58cba55fef8",
+ "domain": [
+  "services/human-tasks"
+ ],
+ "product": [
+  "the2410",
+  "stripe"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "get-paid"
+ ],
+ "summary": "Finds fixed-price digital services done by people, prepares an order and returns a Stripe payment link.",
+ "whenToUse": "Use when a user wants a digital task done by a human at a fixed price.",
+ "tasks": [
+  "search services",
+  "read service scope",
+  "prepare draft order",
+  "create checkout link",
+  "send feedback"
+ ],
+ "effects": {
+  "99772993f7d9cd1e9746f5a6828daaad60b11d9b673c3287fb4fdbc4850bfcd0": "write",
+  "bbd37542014acd360490bf9c0d0f99f08a61e9626a6d7443708f0c7f4a6e5543": "read",
+  "4c1d530875b6e68a39f68ef62cc2abdfedf82e48402c93b7e61cef88e88cf082": "write",
+  "882103dcfbd37189402e65517079b0e4bede235e41a46f3d62ea37b6674823b4": "write",
+  "dad7e020d217c65d23a5312235d25d0ebec54156919201d8a55094ac0392bd80": "write"
+ },
+ "flags": []
+}

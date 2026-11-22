@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2a17f83686b8a612d37082275ad374f6112e2ec705b353e240623d894f348d8f",
+ "domain": [
+  "data/analytics-platform",
+  "software/data-engineering"
+ ],
+ "product": [
+  "microsoft-fabric"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Local server with tools for working with Microsoft Fabric data and analytics workspaces.",
+ "whenToUse": "Use when an agent needs to interact with Microsoft Fabric workspaces or items.",
+ "tasks": [
+  "interact with microsoft fabric"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d9ded9a5c691960109e7c3437d585e4861375b3bda97f21ffa3778253d418620",
+ "domain": [
+  "software/ai-agents/debugging",
+  "software/development"
+ ],
+ "product": [
+  "atomic-agents"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps diagnose and fix errors in Atomic Agents apps, such as import, schema validation, LLM output, provider, history and MCP transport problems.",
+ "whenToUse": "Use when atomic-agents code throws errors, tracebacks or behaves incorrectly.",
+ "tasks": [
+  "diagnose import errors",
+  "fix schema validation failures",
+  "debug malformed llm output",
+  "resolve provider mode errors",
+  "fix history and context issues",
+  "debug mcp transport errors"
+ ],
+ "effects": {},
+ "flags": []
+}

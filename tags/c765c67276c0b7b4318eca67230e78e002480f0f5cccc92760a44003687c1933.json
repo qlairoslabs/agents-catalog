@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c765c67276c0b7b4318eca67230e78e002480f0f5cccc92760a44003687c1933",
+ "domain": [
+  "design/architecture",
+  "design/3d-modeling"
+ ],
+ "product": [
+  "luw-studio"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Builds 3D building models through chat, including rooms, walls, doors, windows, stairs, roofs and furniture.",
+ "whenToUse": "Use when the user wants to design a building layout in 3D conversationally.",
+ "tasks": [
+  "create rooms and walls",
+  "add doors and windows",
+  "add stairs and roofs",
+  "place furniture"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f6966dfa8acf1a540aaaad5a7ea418ad1ee7ca5344908770cdf20cd19ea7b8f7",
+ "domain": [
+  "data/spreadsheets",
+  "productivity/office"
+ ],
+ "product": [
+  "excel"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Local spreadsheet toolkit that reads, writes, recalculates, diffs, audits and repairs Excel workbooks.",
+ "whenToUse": "Use when an agent needs to inspect, edit, recalculate or compare Excel spreadsheet files locally.",
+ "tasks": [
+  "read spreadsheets",
+  "write spreadsheets",
+  "recalculate formulas",
+  "repair broken references",
+  "diff workbooks",
+  "audit spreadsheets"
+ ],
+ "effects": {},
+ "flags": []
+}

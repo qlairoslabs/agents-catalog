@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "916be2f9a73b95ea173a82c66f904be0e0b7189fd0ad91eebeac86243136239f",
+ "domain": [
+  "media/podcasts/search"
+ ],
+ "product": [
+  "audioscrape"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and analyzes a large database of podcasts, interviews and talks.",
+ "whenToUse": "Use when an agent needs to find what was said in podcasts or recorded talks on a topic.",
+ "tasks": [
+  "search audio content",
+  "analyze transcripts",
+  "find podcast mentions"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b9c2d4d41d570a128dc0e279551b12c8429761fbb7e72a9826d138a62a8f7e1a",
+ "domain": [
+  "finance/wealth-management/portfolio-analysis"
+ ],
+ "product": [
+  "blackrock-advisor-center"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Runs a full review of a saved portfolio, household or model covering snapshot, stress tests, opportunities, fund health and capital gains.",
+ "whenToUse": "Use when an advisor asks for a broad portfolio review or meeting prep, not one specific analysis.",
+ "tasks": [
+  "produce portfolio snapshot",
+  "run stress scenarios",
+  "show opportunities and fund health",
+  "review capital gains",
+  "check concentration and downside exposure",
+  "suggest follow-ups"
+ ],
+ "effects": {},
+ "flags": []
+}

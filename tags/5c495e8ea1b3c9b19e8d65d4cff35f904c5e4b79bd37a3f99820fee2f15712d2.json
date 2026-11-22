@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5c495e8ea1b3c9b19e8d65d4cff35f904c5e4b79bd37a3f99820fee2f15712d2",
+ "domain": [
+  "software/databases/postgresql"
+ ],
+ "product": [
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets AI assistants query PostgreSQL, inspect schemas, explain queries and run health checks.",
+ "whenToUse": "Use when querying or inspecting a PostgreSQL database.",
+ "tasks": [
+  "run sql queries",
+  "inspect schema",
+  "explain queries",
+  "run health checks"
+ ],
+ "effects": {},
+ "flags": []
+}

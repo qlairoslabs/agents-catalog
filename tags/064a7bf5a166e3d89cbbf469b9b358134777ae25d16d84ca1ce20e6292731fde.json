@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "064a7bf5a166e3d89cbbf469b9b358134777ae25d16d84ca1ce20e6292731fde",
+ "domain": [
+  "software/ui-generation",
+  "design/ui-components"
+ ],
+ "product": [
+  "gravity-ui"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches public Gravity AI UI drafts and generates Gravity UI interface payloads.",
+ "whenToUse": "Use when building interfaces with Gravity UI and needing example drafts or generated UI payloads.",
+ "tasks": [
+  "search ui drafts",
+  "generate gravity ui payloads"
+ ],
+ "effects": {},
+ "flags": []
+}

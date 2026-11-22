@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c198ee5a462d7f975ff9db9106228b6533826ca5583ff55da93e18afff3a7686",
+ "domain": [
+  "data/data-catalog",
+  "data/data-governance"
+ ],
+ "product": [
+  "google-cloud",
+  "knowledge-catalog"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Connects to Google's Knowledge Catalog to discover, manage, monitor and govern data and AI assets.",
+ "whenToUse": "Use when finding or governing data and AI artifacts across a Google Cloud data platform.",
+ "tasks": [
+  "discover data assets",
+  "manage metadata",
+  "monitor data assets",
+  "govern ai artifacts"
+ ],
+ "effects": {},
+ "flags": []
+}

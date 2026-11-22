@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a468e8527957a105679f99dc7c90a21f5319a95919fc3968bc12b787a09f3dee",
+ "domain": [
+  "design/architecture/floor-plans"
+ ],
+ "product": [
+  "archlang"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Compiles, lints and repairs ArchLang floor-plan code into SVG, DXF and PDF.",
+ "whenToUse": "Use when creating or fixing floor plans written in ArchLang.",
+ "tasks": [
+  "compile floor plans",
+  "lint arch files",
+  "repair floor plans",
+  "export svg dxf pdf"
+ ],
+ "effects": {},
+ "flags": []
+}

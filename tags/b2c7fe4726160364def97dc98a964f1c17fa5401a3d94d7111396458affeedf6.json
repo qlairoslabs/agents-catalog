@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b2c7fe4726160364def97dc98a964f1c17fa5401a3d94d7111396458affeedf6",
+ "domain": [
+  "data/orchestration/local-dev",
+  "software/devops"
+ ],
+ "product": [
+  "astro-cli",
+  "apache-airflow",
+  "docker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps run and troubleshoot a local Airflow environment with the Astro CLI in Docker or standalone mode.",
+ "whenToUse": "Use when a user wants to start, stop, restart, inspect logs of or fix a local Airflow environment.",
+ "tasks": [
+  "start local airflow",
+  "stop or restart airflow",
+  "view logs",
+  "query airflow api",
+  "troubleshoot environment issues"
+ ],
+ "effects": {},
+ "flags": []
+}

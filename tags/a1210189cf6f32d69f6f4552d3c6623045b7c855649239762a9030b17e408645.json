@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "a1210189cf6f32d69f6f4552d3c6623045b7c855649239762a9030b17e408645",
+ "domain": [
+  "hr/job-board/switzerland",
+  "education/training"
+ ],
+ "product": [
+  "wejob"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Read-only search of public job offers, training courses and company profiles on the Swiss platform WeJob.",
+ "whenToUse": "Use when a user is looking for jobs, training courses or employer profiles in Switzerland via WeJob.",
+ "tasks": [
+  "search jobs formations and companies",
+  "fetch an item by id",
+  "search job offers with filters",
+  "get job details",
+  "search training courses",
+  "get training details",
+  "search company profiles",
+  "get company profile"
+ ],
+ "effects": {
+  "f1e29b6daedc8a481ece38b853bc2c993f6e8c831f7d334610cf9fdd6f0da5f5": "read",
+  "acb6c4c6f0c5881210622831c70b749071a87807696edce5745ca8e4f81a6680": "read",
+  "99d10bc8ef21ac57d4887881e9d1f78e09388e326c4e129ea831c351d4ade56f": "read",
+  "77a500560e887abc787ccd90499fcaaba565293de056f9882e0e364639a64e38": "read",
+  "b6ebc04b0d1ab6185b21bec996332f29e2636bdabb24505b7daa65dd84cfd7e7": "read",
+  "2acb2be8064e15aca94d088f83bcdded8aaae110fea1416b8d4a30fae36c44f6": "read",
+  "c1a63ecda9b465aeca563904692ef32ed28d5315318cda9648e9666ce3521df0": "read",
+  "6d776ba1c0d371dd00c85358f76c8dcf32aadc1f4db38997af4d5cc57c2811e1": "read"
+ },
+ "flags": []
+}

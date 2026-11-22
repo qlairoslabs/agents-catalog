@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4088ad09e011799c546514cc289e8c1b20cc0201f6ad099044bcab55ad46d2b2",
+ "domain": [
+  "data/databases",
+  "software/cloud"
+ ],
+ "product": [
+  "google-cloud-spanner"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an agent query and work with Google Cloud Spanner databases using natural language.",
+ "whenToUse": "Use when you need to explore or query data stored in Google Cloud Spanner.",
+ "tasks": [
+  "connect to spanner databases",
+  "query data in natural language",
+  "explore schemas"
+ ],
+ "effects": {},
+ "flags": []
+}

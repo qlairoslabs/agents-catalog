@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e9b8adc0cf793f759682ced955a1f99bd135338fc21a1ab20112e49d57dea5bb",
+ "domain": [
+  "marketing/seo",
+  "marketplace/freelance-services"
+ ],
+ "product": [
+  "seoclerks"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Finds and orders SEO services on the Seoclerks marketplace, tracks orders and handles messages.",
+ "whenToUse": "Use when an agent needs to buy SEO services, follow orders or reply to messages on Seoclerks.",
+ "tasks": [
+  "search seo services",
+  "order services",
+  "track orders",
+  "answer messages"
+ ],
+ "effects": {},
+ "flags": []
+}

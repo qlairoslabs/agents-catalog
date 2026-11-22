@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "2eb2a2cb843d6f9783e70331b5234f6a57c9d5ec2695eb081f9e64d15f206762",
+ "domain": [
+  "travel/tours",
+  "travel/hotels"
+ ],
+ "product": [
+  "mbd-travel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Read-only MBD Travel catalogue of tours, departures, hotel quotes, private transfers and Dubai visa, in Turkish or English and EUR/USD/AED.",
+ "whenToUse": "Use when helping a traveler browse MBD tours, compare departures, price hotels or transfers, or find last-minute trips.",
+ "tasks": [
+  "search catalogue",
+  "search tours",
+  "get tour itinerary",
+  "list departures",
+  "browse destinations",
+  "compare tours",
+  "find last-minute tours",
+  "list hotels",
+  "quote hotel stays",
+  "search and quote transfers"
+ ],
+ "effects": {
+  "8dd594cb924533f66db2f40200d125f548bc3491bb9b91ad8cc0bfd8a3f53ad1": "read",
+  "91e935f5c170320559fa4e4abb9627b43031bff2b03fab7305ea08a584123dba": "read",
+  "f57172e05f8def0859d951b90dcccac1ac5c4871d18e9ac36c852fee44e3f02a": "read",
+  "a74898f4b57417bd42eeef4c0db842c825561b0f23d9eed08134f8d6b58da89c": "read",
+  "37c6234c4b474e81939eea2e17b5ac804cab7c4f8559a9e7715a8bc5878f20a9": "read",
+  "7e354ba5686d06eadfcebfe9543a94b0b320582e74ff3130fb993499eaeac586": "read",
+  "83e2575202c6e6d0d2e774005544a788d308bc2eadc5042b01dc614cd7303a2d": "read",
+  "5ea1e6787e1012c36cea625cd1829847ffdf7ff2ef934a9435d509e9d2fd5f39": "read",
+  "fa7a54a0a3ac0bfd129d73c3fc22026f44ed035589fa6d5ac1c2f49c4ffc7163": "read",
+  "9b88dc3ae9f16ac851f2ebf5be4fb6e85e536124484b93322eee889dd25b1510": "read",
+  "cd4abefaa7245a5dd96c1a522a77fcb27808419f7cf0b5009b068ad1f881e61b": "read",
+  "23cadc035c1b5d3ab557093b80fdcc8881e961546a106c45ce14c45953cd465b": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "dc739d5452b723fdb6cc5835f16fcccd8b2796203cdc5880a6b60dd907a9eec6",
+ "domain": [
+  "finance/crypto/compliance",
+  "finance/blockchain-analytics"
+ ],
+ "product": [
+  "usdt",
+  "usdc",
+  "tether",
+  "circle"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up dated, cited USDT and USDC blacklist, freeze and seizure records for a wallet address.",
+ "whenToUse": "Use when checking whether a crypto wallet has been blacklisted or had USDT or USDC frozen or seized.",
+ "tasks": [
+  "check wallet blacklist status",
+  "look up freeze records",
+  "look up seizure records"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9b9139ed17eb94fdfe47c9f567eb45f8e028b6ce0ee8339b2934799bf7cd0f8f",
+ "domain": [
+  "finance/crypto-trading",
+  "finance/market-data"
+ ],
+ "product": [
+  "arbitron"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives access to crypto perpetual funding rates, spreads and listings, plus the user's Arbitron cards, trades, profit and loss, and docs.",
+ "whenToUse": "Use when a user wants crypto perpetual funding or spread data or to review their own Arbitron trades and PnL.",
+ "tasks": [
+  "view perp funding rates",
+  "compare spreads",
+  "track new listings",
+  "review own trades",
+  "check profit and loss",
+  "read arbitron docs"
+ ],
+ "effects": {},
+ "flags": []
+}

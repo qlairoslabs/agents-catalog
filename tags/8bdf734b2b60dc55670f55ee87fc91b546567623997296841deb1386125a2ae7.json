@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8bdf734b2b60dc55670f55ee87fc91b546567623997296841deb1386125a2ae7",
+ "domain": [
+  "media/video-editing/short-clips",
+  "media"
+ ],
+ "product": [
+  "vyexa"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Turns a video link into vertical short clips with subtitles through jobs that are created, polled and downloaded.",
+ "whenToUse": "Use when someone wants to turn a long video into subtitled vertical clips for social media.",
+ "tasks": [
+  "create clip job",
+  "poll job status",
+  "get download links"
+ ],
+ "effects": {},
+ "flags": []
+}

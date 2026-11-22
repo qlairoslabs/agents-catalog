@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "072b2fef9e9d558850e5882ea3180769991cf6fb0bc02157d204742424444963",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Cross-session memory store for AI agents that records the source of each stored memory.",
+ "whenToUse": "Use when an agent needs to persist and recall information across sessions with provenance.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "view memory sources"
+ ],
+ "effects": {},
+ "flags": []
+}

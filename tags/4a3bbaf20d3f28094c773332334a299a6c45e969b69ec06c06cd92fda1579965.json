@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "4a3bbaf20d3f28094c773332334a299a6c45e969b69ec06c06cd92fda1579965",
+ "domain": [
+  "community/engineering-leadership",
+  "career"
+ ],
+ "product": [
+  "engineering-leaders-community"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Engineering Leaders Community tools: leadership ratio benchmark, partnership business case, meetup launch readiness and career path planning.",
+ "whenToUse": "Use when benchmarking manager-to-senior-IC ratio, building a partnership case, assessing a meetup launch or planning a leadership career.",
+ "tasks": [
+  "benchmark leadership ratio",
+  "build partnership business case",
+  "assess meetup readiness",
+  "plan career path",
+  "list available tools"
+ ],
+ "effects": {
+  "d35fa8e89881a46f853635f23805eb732b884ed2b95d34ab00378517d99812d6": "read",
+  "04466d90aa3febd37d07e38b52c5536a0d8cfb67cc8e48b7ebd846877ad5ae02": "read",
+  "95c051ba9e1a7b857bf476b81fb68723aa8ad399391a6b31e485df1eb26cbcec": "write",
+  "db9766c3e7f80789f296a57b2473d5ac1fb1ae0ebfe25988a8d3aa1fc39c6921": "read",
+  "d4c6e058e358235433a94912ed3835ac8c488470e1e8c8fcd8eab6ea740bf838": "read",
+  "5073df5084b56e876fe3b616c6c0cb9fdd84408944415e8ae6700588169fe290": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "08d6397e0d623cca3dc6dc881cb27561232d72c075439ca6d022014501d0f2bd",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Two-layer memory system for AI agents with built-in safeguards against bad memories and no dependencies.",
+ "whenToUse": "Use when an agent needs persistent memory across sessions with protection against corrupted entries.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "consolidate memories"
+ ],
+ "effects": {},
+ "flags": []
+}

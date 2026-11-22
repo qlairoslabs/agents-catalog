@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a913ee056d1f56efa3dcd74189b8a93ef3181dddf3e28c5b05007be28851a70a",
+ "domain": [
+  "software/cybersecurity/mcp-trust",
+  "ai/agent-infrastructure"
+ ],
+ "product": [
+  "servercardtrust"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Paid remote MCP that validates MCP server cards, checks auth setup and produces trust reports.",
+ "whenToUse": "Use when validating an MCP server's metadata card and authentication before publishing or trusting it.",
+ "tasks": [
+  "validate server cards",
+  "check auth configuration",
+  "generate trust packets",
+  "check readiness"
+ ],
+ "effects": {},
+ "flags": [
+  "templated-paid-mcp-series"
+ ]
+}

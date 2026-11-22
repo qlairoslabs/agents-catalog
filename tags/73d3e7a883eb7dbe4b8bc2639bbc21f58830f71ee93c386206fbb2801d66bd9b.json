@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "73d3e7a883eb7dbe4b8bc2639bbc21f58830f71ee93c386206fbb2801d66bd9b",
+ "domain": [
+  "travel/vacation-rentals",
+  "travel/booking"
+ ],
+ "product": [
+  "chucho"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Search vacation rentals worldwide from a natural-language trip description, compare host prices and book directly with the host.",
+ "whenToUse": "Use when a user wants to find and book a vacation rental by describing their trip.",
+ "tasks": [
+  "search vacation rentals",
+  "describe trip in natural language",
+  "check host prices",
+  "book direct with host"
+ ],
+ "effects": {},
+ "flags": []
+}

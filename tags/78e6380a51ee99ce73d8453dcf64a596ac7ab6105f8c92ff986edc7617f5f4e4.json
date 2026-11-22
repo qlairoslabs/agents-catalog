@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "78e6380a51ee99ce73d8453dcf64a596ac7ab6105f8c92ff986edc7617f5f4e4",
+ "domain": [
+  "software/observability/telemetry",
+  "operations/monitoring"
+ ],
+ "product": [
+  "dash0",
+  "opentelemetry",
+  "claude-code"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Records Claude Code tool calls, model calls, token use and errors as OpenTelemetry traces sent to Dash0 or another OTel backend.",
+ "whenToUse": "Use when you want to monitor or analyze Claude Code session activity with OpenTelemetry.",
+ "tasks": [
+  "capture tool call traces",
+  "trace llm invocations",
+  "record token usage",
+  "capture errors",
+  "export to dash0",
+  "export to otel backend"
+ ],
+ "effects": {},
+ "flags": []
+}

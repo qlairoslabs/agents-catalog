@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "17d12ee617be67dc568cf6b022600a5a29dc2de08b249dfd474360443a952321",
+ "domain": [
+  "research/surveys",
+  "marketing/feedback"
+ ],
+ "product": [
+  "blocksurvey"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Creates, edits and publishes surveys in a BlockSurvey team workspace.",
+ "whenToUse": "Use when an agent needs to build or publish a survey in BlockSurvey.",
+ "tasks": [
+  "create surveys",
+  "edit surveys",
+  "publish surveys"
+ ],
+ "effects": {},
+ "flags": []
+}

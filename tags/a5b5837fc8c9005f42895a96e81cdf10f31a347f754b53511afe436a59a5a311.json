@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a5b5837fc8c9005f42895a96e81cdf10f31a347f754b53511afe436a59a5a311",
+ "domain": [
+  "entertainment/tabletop-rpg/virtual-tabletop",
+  "software/scripting"
+ ],
+ "product": [
+  "foundry-vtt"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Preview mode where the agent writes scripts against a typed Foundry VTT API and runs them in a sandbox.",
+ "whenToUse": "Use when complex or bulk changes to a Foundry VTT world are easier to express as a script than as individual tool calls.",
+ "tasks": [
+  "write scripts against foundry api",
+  "run scripts in sandbox"
+ ],
+ "effects": {},
+ "flags": [
+  "runs agent-written code against the user's world"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "daa927302dca60686ae39df9c48d917506e8954afe33ad09415188ee32d5960b",
+ "domain": [
+  "documents/e-signature",
+  "sales/proposals"
+ ],
+ "product": [
+  "pandadoc"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Creates, sends, signs and tracks PandaDoc documents.",
+ "whenToUse": "Use when the user needs to prepare, send or track documents or contracts for signature in PandaDoc.",
+ "tasks": [
+  "create documents",
+  "send documents",
+  "sign documents",
+  "track document status"
+ ],
+ "effects": {},
+ "flags": []
+}

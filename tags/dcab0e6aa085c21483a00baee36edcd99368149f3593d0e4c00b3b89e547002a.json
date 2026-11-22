@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "dcab0e6aa085c21483a00baee36edcd99368149f3593d0e4c00b3b89e547002a",
+ "domain": [
+  "finance/crypto/portfolio-tracking"
+ ],
+ "product": [
+  "sentio"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks public crypto wallets, including token balances, prices, portfolio value, DeFi positions and holding history.",
+ "whenToUse": "Use when an agent needs to inspect holdings or history of a public blockchain wallet.",
+ "tasks": [
+  "get token balances",
+  "get token prices",
+  "compute portfolio value",
+  "view defi positions",
+  "view holding history"
+ ],
+ "effects": {},
+ "flags": []
+}

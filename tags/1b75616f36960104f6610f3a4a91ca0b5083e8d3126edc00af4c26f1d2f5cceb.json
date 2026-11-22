@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1b75616f36960104f6610f3a4a91ca0b5083e8d3126edc00af4c26f1d2f5cceb",
+ "domain": [
+  "ai/agent-routing",
+  "software/mcp-tooling"
+ ],
+ "product": [
+  "toolroute"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Recommends which MCP server and LLM to use for an agent task based on benchmark results.",
+ "whenToUse": "Use when choosing the best MCP server or model for a given agent task.",
+ "tasks": [
+  "recommend mcp server",
+  "recommend llm",
+  "compare benchmark scores"
+ ],
+ "effects": {},
+ "flags": []
+}

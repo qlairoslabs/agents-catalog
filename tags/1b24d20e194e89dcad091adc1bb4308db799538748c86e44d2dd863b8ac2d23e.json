@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "1b24d20e194e89dcad091adc1bb4308db799538748c86e44d2dd863b8ac2d23e",
+ "domain": [
+  "media/video-creation"
+ ],
+ "product": [
+  "clipkit"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Video authoring toolbox where agents build, edit, preview and share Clipkit video projects from JSON, including promo templates and hosted assets.",
+ "whenToUse": "Use when creating or editing a programmatic video, promo or animation and previewing frames.",
+ "tasks": [
+  "read authoring docs",
+  "get schema",
+  "create project",
+  "set project source",
+  "add element",
+  "edit element",
+  "delete element",
+  "validate project",
+  "preview still frame",
+  "create promo",
+  "open in editor",
+  "host remote assets"
+ ],
+ "effects": {
+  "933b5dfc70d55d35850c5f043f568885788912077494b4ed81927f5a9172f502": "write",
+  "005f132a821960d9f6ec3ecabecf754d4c2a312f3db3dcb4dc1bbeceb655975d": "read",
+  "130cd4dc25166c432d5ce624fcdd7d27cf3f9e7623e83c2adbeb5dadac4a3e8d": "write",
+  "63c8e96bebb38f2f87a4476c56aeea42de9a20c22fc668f8abdee93547db6a46": "read",
+  "417522513fa097c790b4ade3b12accf21663496c04f39a88a3d6b8528d66e0b0": "read",
+  "4e2f922f032d81ce4eeb94a16d8ad9fe03d184ec7a1191d8999be2ac700b84d5": "write",
+  "e271cf609715ffd11a91b479685afeec2f3dd205679d5d247c46efae0a61ed2a": "write",
+  "ac9a07d7f4c5f31af041dd1bc43e17eac7af063b19919d9fefa1c3b26dc94dbd": "write",
+  "8e9c123f07aebc42fb7f5b11088cf85546f71b754f2b18fe9c6453e9f5b88c04": "write",
+  "60304b15e8b717a9be1c9f24af2f42171c7d96e51165628efc87dd0534613da6": "read",
+  "3c0bc3629220ddfc922c0c83f43e447d526897ccac3c101297af351d1099db05": "read",
+  "1db5e1e82ca997c2a6bf21aee952fcf4f93b540e9f08555d04baa13d920a8f21": "write",
+  "b7811bd0fd0a24fc018d00ff000a56d41b3a6e0c8883e6634e1081c8a4e3170a": "write",
+  "020af4a6e697b7df1ac502435828426ff8961e5c4f896387c6287a20a71c86a5": "write",
+  "c43095ed855cccddbcd4d4d1c6f50e580f510cec0f96c2bf421af7f4f1662191": "write"
+ },
+ "flags": []
+}

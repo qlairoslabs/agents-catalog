@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "2fe3f7307d121fd12e90a5b6df4ab0057447dc49c293b1adfc5a5b3dc2977f9b",
+ "domain": [
+  "entertainment/anime",
+  "media/torrent-search"
+ ],
+ "product": [
+  "anime-garden",
+  "bangumi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Anime Garden's index of anime torrent releases by title, fansub group, publisher, category, quality keywords and date range.",
+ "whenToUse": "Use when the user wants to find anime releases, specific episodes, fansub group uploads or collections listed on Anime Garden.",
+ "tasks": [
+  "search anime releases",
+  "filter by fansub group",
+  "filter by publisher",
+  "filter by category",
+  "filter by date range",
+  "match quality and codec keywords",
+  "track a Bangumi subject"
+ ],
+ "effects": {
+  "178f192c9ce8fff0fbc7cf7a11fc85409e7713094269184820a3bb0e39bdad7c": "write"
+ },
+ "flags": []
+}

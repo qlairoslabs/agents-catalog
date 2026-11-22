@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "31d6419f9426bc0d06c92140bd2fd3b753e494f603b4ac7247ab2b7d4eb3dc36",
+ "domain": [
+  "ai/agent-orchestration",
+  "software/development"
+ ],
+ "product": [
+  "claude-code",
+  "codex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Adds agent teams, swarms, memory and hooks to Claude Code and Codex through an MCP server.",
+ "whenToUse": "Use when running Claude Code or Codex with coordinated agent teams and persistent memory.",
+ "tasks": [
+  "create agent teams",
+  "run swarms",
+  "store agent memory",
+  "configure hooks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2403c09cc3658d963d6e7023060057c95d93b48d0a463e22e2e5714ea0598f42",
+ "domain": [
+  "entertainment/time-zones"
+ ],
+ "product": [
+  "findyourfivepm"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds a city where it is currently 5PM and returns timezone and location details.",
+ "whenToUse": "Use when a user wants a fun pick of a place where it is 5PM right now.",
+ "tasks": [
+  "find random city at 5PM",
+  "get city info by geonameid"
+ ],
+ "effects": {
+  "c1379e23778ba5792fce066c6e0fb823668b4f2baf8e05e75bdae952d28929e6": "read",
+  "55285e5f8ee74230c0a4a33c228adbc1646e7781bbd5a1464f630ef316449ee6": "read"
+ },
+ "flags": []
+}

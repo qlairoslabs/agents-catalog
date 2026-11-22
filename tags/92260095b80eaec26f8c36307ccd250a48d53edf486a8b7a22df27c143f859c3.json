@@ -1,0 +1,79 @@
+{
+ "classifier": 2,
+ "contentHash": "92260095b80eaec26f8c36307ccd250a48d53edf486a8b7a22df27c143f859c3",
+ "domain": [
+  "community/local-activities",
+  "software/agent-tools"
+ ],
+ "product": [
+  "fathom"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Lab service that finds local places and groups for an interest in a town, lets users propose missing ones, join activities, and run private Spaces with synthetic data.",
+ "whenToUse": "Use when a person wants to find or join a local activity group for an interest, or to prototype a group Space with choices and invites.",
+ "tasks": [
+  "find places and groups by interest",
+  "propose missing places",
+  "request to join activities",
+  "store meeting preferences",
+  "forget a memory",
+  "join private Spaces",
+  "tick time and place choices",
+  "create Spaces and activities",
+  "create invite links",
+  "propose extensions and views"
+ ],
+ "effects": {
+  "1fe804b38d9b7369314aaeb4bd72da985bdf02ac670098704afeae67ece68a0e": "read",
+  "16bf2153061daabdccf64b574fb8bae4d72f0d00480e4fb32ad8fee4c1f46c6b": "write",
+  "ea85b6304d945a162e261f93f4e3a1130f3a188e482711a8b5a781a8bfe6b237": "read",
+  "43452d05936090a8542eedbc698d2e70f2220a50e270f928b807718b36dbec98": "write",
+  "a63110dc95686df228c2ce64e4a72f5c96444bf4d601cb35368b8a7f8f86965a": "write",
+  "a5f985cfb438d7c38954ae10e6c70aa0952be26d35027ed622064a44ee6af084": "write",
+  "fff111b0eaec7c321e357e5ce17d3ef87b5c25e582536f3a5ecfc81f488f27a1": "write",
+  "005fd371416edcaf21ae0e300df71453cb4f079b10990670c869ac11eb8867a1": "write",
+  "0f83eb56915e4e684b310febcecb0b308153d90a6f516ad375a952e230a83a36": "read",
+  "13ca0c2d255f5e968f28ed7ff191ab8edcc27cd03a7d01e028fd8e2a42553682": "write",
+  "f8ee9f5215df72acb704fdad595892211c36604581a01cab73843f98eb02b7d4": "read",
+  "42e0e3a2e9ddf11a7ccf9faefa1d637432f6bd6a25bea77538bf94f471e1fed9": "read",
+  "1cd21c2fdee594a553874b24809adcf2236bf350702f624faf8a693d8ae80771": "read",
+  "d5b7cb9b033839b499592bd0329a702163c7839a341de943cd49dd6e0dad90d4": "write",
+  "022f5cd8e3a8c64cae9bf68720f372c7637ce81f15b0dc452bcf6da188f8ed38": "read",
+  "a9bdef6d88af57a583feaa9814471550233f681a814ec57a4eb736c9394cef6d": "read",
+  "1400552099bf2d4358a5cac1e9066ed2299b2ac0d36fcc4b8be413030841a049": "read",
+  "db5dc6c2c1c010c77e817d9b290dae685a3b1e5c5b150b0ca6f11886b283d68a": "write",
+  "4b81ec3e27ca65ac61658b51c8e1057d391ae4a991a30911104c79a2ad9e5f43": "read",
+  "0683ab709ccfe6f072e223f0e1738b91a5ec9b513e737ad23051bd36c34c030d": "read",
+  "6646a4532ad0db8baf7079e123d2146f667314b3df26e7719c939cc2feb0943e": "write",
+  "94bcffd9b7d237b221286555c2f6dc9682f70ce0185f8e92bb8f30160cb55531": "read",
+  "27199aa755a682ca430bc197ccad0c362f0e9df57ca83d5c97303a8b1a476a04": "write",
+  "2895b8a5acb377e5408197d341eca0acf4d8addd59aa4251d61a3aeab2a6ba4f": "write",
+  "6087f26bb9c2d83fa4fc83b343f65958625eb2cbc467cb21ceeb055807590b42": "read",
+  "e5878657db01be15b92bfbd189a643e003ee67fedf1f8f785eded16c84d88d30": "write",
+  "79ee2cb89e776c0ee7e537729dc19a1fc72be097e27fa04fc9b6199a319b0589": "write",
+  "403e5564d42cee2eee0dc384fdc96acb1b041955cd564620c4dfbf06f0fbe344": "write",
+  "9ca98aeb32da2c22bdc4e38c6ddef732ab689ef608025e5e1ac540481e8b3a24": "read",
+  "088e80712b9f1c35550ae764325972848e82002d959b93478e6051f0da202bb0": "write",
+  "9eafdb6ec005130e6688d50eee3eff947f4408a2cb5d4151e0125a46af4e29b5": "write",
+  "c78556aa847aae276e0223f18b2a69de5225cabfa55b2f466c47f6d8810b2d63": "read",
+  "924b36e2393ced53774f2763d6b7ab7437bbca85df26ffecedaa15c9406cf07c": "write",
+  "d062e0b363069b66ed20729a18ef51ce13662bfbd10a54f38b76cf4eef4984b7": "read",
+  "b26d5793ac513fc7ed1c11864dd34d52a9750236b4bb9f8b473116e3b38dceb8": "write",
+  "22036b48837c8b7e2d1f71c613381ad93409cc70ddf60f6fcc8b271bb0cebbcf": "read",
+  "39960e7cb2b0adde546aa94fa4410a50a921f5a5ac0f077c3b2975edcd3b57c0": "write",
+  "6aa6fbe18a38ca31d156b00ffd0429525e07678ca34fbb602aefaf389124a785": "write",
+  "548cae84dfdaabbe53d54ae16357d0ddeec208068b4510a2e52f976e2e9ccd8b": "write",
+  "87fa21640807fc525cb50c9ecc02d6f2d7237c6f2eb4eab8f181c314d3bb6b18": "read",
+  "893beec3ce790c67472b6c0222847351fb722984425262705ca2145870903db7": "write",
+  "cc93643b110e27963b49d5db4b5db912e12f2f67fa1e56c9182af0fd57220f27": "read",
+  "a5ec63986e9efba4e8df366c36fb4fce270e44649e2a29422a19f47370c8a137": "write"
+ },
+ "flags": []
+}

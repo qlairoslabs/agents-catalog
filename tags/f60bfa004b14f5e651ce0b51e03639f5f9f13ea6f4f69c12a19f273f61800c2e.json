@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f60bfa004b14f5e651ce0b51e03639f5f9f13ea6f4f69c12a19f273f61800c2e",
+ "domain": [
+  "documents/pdf",
+  "automation"
+ ],
+ "product": [
+  "basestation"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Creates an AI-driven job that fills out a PDF form from natural language instructions.",
+ "whenToUse": "Use when you need to fill a PDF form automatically from instructions.",
+ "tasks": [
+  "fill PDF form",
+  "create autofill job",
+  "notify via callback URL"
+ ],
+ "effects": {
+  "91930d9268bc546f14ef0b95ad8afb089af91bd78797957f9575999d9b3ab36a": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "457edd70ae41591b6ab5bd501577c4c467a08afdde7ff996aa4dfd63e7219278",
+ "domain": [
+  "finance/market-research",
+  "finance/investing"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides licensed, cited financial news, filings, earnings transcripts, research and company tearsheets.",
+ "whenToUse": "Use when an agent needs sourced financial news, filings or transcripts for company or market research.",
+ "tasks": [
+  "search financial news",
+  "read filings",
+  "read earnings transcripts",
+  "access research",
+  "get company tearsheets"
+ ],
+ "effects": {},
+ "flags": []
+}

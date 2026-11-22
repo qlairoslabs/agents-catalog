@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "416d514d97cd9c8e83ee6243870dd19c1cd32d71620015da01b79f98171f68be",
+ "domain": [
+  "web/domain-names",
+  "marketplace"
+ ],
+ "product": [
+  "hugedomains"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Searches and prices premium aftermarket domain names for sale on HugeDomains, with filters and purchase links.",
+ "whenToUse": "Use when a user wants domain name ideas or the price of a specific domain for sale.",
+ "tasks": [
+  "search domains by keyword",
+  "filter by TLD and price",
+  "get listing for a domain",
+  "fetch listing details"
+ ],
+ "effects": {
+  "a8fc41adb380a241c35b1338d832717a311f6c31bbb3c19f0a5bc07a987e3960": "read",
+  "1cea9eebdbc72497e149b507467aa6b268fdc9fd476fdce9e98f9c37c736be96": "read",
+  "649a4ee00ff6e0c711cb3e51b638245b0564f12758c6a1985ecc908f57b8b29f": "read",
+  "5648fa89d395066fa73888b52ab78e3eed176f6fbdf175ab4aa77cd24ed5c68e": "read"
+ },
+ "flags": []
+}

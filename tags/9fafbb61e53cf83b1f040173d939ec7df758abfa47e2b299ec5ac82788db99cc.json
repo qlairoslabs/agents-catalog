@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9fafbb61e53cf83b1f040173d939ec7df758abfa47e2b299ec5ac82788db99cc",
+ "domain": [
+  "software/privacy/pii-redaction"
+ ],
+ "product": [
+  "eleyed"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Removes personally identifiable information from text before it is sent to a model, storing nothing.",
+ "whenToUse": "Use when text may contain personal data that should be stripped before further AI processing.",
+ "tasks": [
+  "redact pii from text",
+  "detect personal data"
+ ],
+ "effects": {},
+ "flags": []
+}

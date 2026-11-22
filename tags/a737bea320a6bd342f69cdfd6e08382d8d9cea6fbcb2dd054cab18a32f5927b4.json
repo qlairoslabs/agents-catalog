@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a737bea320a6bd342f69cdfd6e08382d8d9cea6fbcb2dd054cab18a32f5927b4",
+ "domain": [
+  "software/cybersecurity/tls"
+ ],
+ "product": [
+  "lets-encrypt",
+  "tlsradar"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "stay-compliant"
+ ],
+ "summary": "Scans SSL/TLS configurations, issues free Let's Encrypt certificates and monitors certificate expiry.",
+ "whenToUse": "Use when checking a site's TLS setup, obtaining a certificate or tracking certificate expiration.",
+ "tasks": [
+  "scan ssl/tls configuration",
+  "issue lets-encrypt certificates",
+  "monitor certificate expiry"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c763ae0c1d8682b26c381e3b05c259b4510983c034e353c14d23104ea4ef52c7",
+ "domain": [
+  "communication/email"
+ ],
+ "product": [
+  "mailly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Provides an email inbox for agents to read mail, draft replies for approval and wait for verification codes.",
+ "whenToUse": "Use when an agent needs its own inbox to receive mail, sign-up verification codes or send approved replies.",
+ "tasks": [
+  "read mail",
+  "draft replies",
+  "wait for verification codes"
+ ],
+ "effects": {},
+ "flags": []
+}

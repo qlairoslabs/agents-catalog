@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c64078a5eea5a703b772913bc715bc8df7056f8d4515bd492d2bc071e9792aac",
+ "domain": [
+  "decision-support/i-ching",
+  "divination"
+ ],
+ "product": [
+  "yowayow"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Casts I Ching hexagrams from structured evidence for decision framing, plus traditional Liuyao casting, without using an LLM.",
+ "whenToUse": "Use when a user wants an I Ching structural reading of a decision or a traditional Liuyao plate.",
+ "tasks": [
+  "preflight a question",
+  "cast evidence-based hexagram",
+  "cast Liuyao plate"
+ ],
+ "effects": {
+  "dc42e42c5b7dc2eb8b43ce0106a516f2e1a1c6e260cf31894b49653ebe9271b9": "read",
+  "4667f06a73180315585dcb80eaaa3585833c47a6afa3289960939c5d4f26ccc9": "write",
+  "cbc1d0b879a95ffefba96a2657dc38c27e503e9f8d6127a6e7e06a40ac4612f3": "write"
+ },
+ "flags": []
+}

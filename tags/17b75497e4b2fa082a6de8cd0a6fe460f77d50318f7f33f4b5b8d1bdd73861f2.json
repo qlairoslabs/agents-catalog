@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "17b75497e4b2fa082a6de8cd0a6fe460f77d50318f7f33f4b5b8d1bdd73861f2",
+ "domain": [
+  "ecommerce/industrial-equipment",
+  "procurement"
+ ],
+ "product": [
+  "hpcontrol",
+  "magento"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Search a B2B catalogue of industrial valves, solenoid valves and pneumatic actuators, configure bundles and build a shopping cart.",
+ "whenToUse": "Use when sourcing industrial valves or actuators and you need to check availability and prices or prepare a cart.",
+ "tasks": [
+  "search products",
+  "look up SKUs",
+  "get product details",
+  "configure bundle products",
+  "create cart",
+  "update cart",
+  "view cart",
+  "cancel cart"
+ ],
+ "effects": {
+  "725498e4b38f03110b47d6934c3192a267791b0a5470d21271681ececb0cf3fd": "read",
+  "7946a8e15a2ab34b64b5dbf2c3c2fdc7b4efdf7c06a62fd273ed3ec5d7f32cbd": "read",
+  "a653a1a0f2f8c7b744384e45e08fbe35bbed8659bfe27e83c8965f715b33d017": "read",
+  "4b634bcaa53f79a577f669f1e8dd6635ee2e0453f865677fd20d477abec54bb3": "write",
+  "8121cde8670c67d0a44830aedde79e8622351e068be337e48860d84b302b41c4": "write",
+  "7b4f211949e141711fef04eb4318ab09893aecc7be0e1a31c678f5458d8722a5": "write",
+  "26c17f594aa8e9f3837c66b480c2a17064367a600c021f89dd1e9972bdf1c2a4": "read",
+  "e81a56f861444d3b56852974223691b9cd21382db25c64da560095b167bc9ce0": "write"
+ },
+ "flags": []
+}

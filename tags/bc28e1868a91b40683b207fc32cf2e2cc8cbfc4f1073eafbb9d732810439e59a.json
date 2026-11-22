@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "bc28e1868a91b40683b207fc32cf2e2cc8cbfc4f1073eafbb9d732810439e59a",
+ "domain": [
+  "transport/parking",
+  "legal/parking-fines"
+ ],
+ "product": [
+  "parksy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "stay-compliant"
+ ],
+ "summary": "Finds parking spaces near a place and helps with parking fines, covering guides, appeal strength checks, sample letters and space value estimates.",
+ "whenToUse": "Use when a driver needs parking, is dealing with a ticket or tow, or an owner wants to price a spare space.",
+ "tasks": [
+  "search parking listings",
+  "get listing details",
+  "search parking guides",
+  "check fine appeal grounds",
+  "get sample appeal letters",
+  "estimate space value"
+ ],
+ "effects": {
+  "acf4fc69b64d9c6dd3806d649a9401d35d195ada8723c25b96bbd476a0d5a06b": "read",
+  "2a0c7438f018f07d81fac5e653b84a56e77f737e110d78f09ec18bd7771b4387": "read",
+  "390a3a2ee3d46c936405a3fae90e915f1514dcc356901b5ac443d7933b6103f0": "read",
+  "96443bc2a53052a07d1bd2c9da34113885c65a7c98d2fbc29d4fe644211c616c": "write",
+  "3809b7cdf14d1a1c9d5962a5101199af4c5f376e053f4b727f4617209b51f326": "read",
+  "a941caa0c870ed288eb4481c8cef27e2f04c662008dce0dc441b3f7667f614a3": "read"
+ },
+ "flags": []
+}

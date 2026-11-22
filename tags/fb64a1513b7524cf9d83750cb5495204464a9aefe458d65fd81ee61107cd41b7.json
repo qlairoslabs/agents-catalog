@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "fb64a1513b7524cf9d83750cb5495204464a9aefe458d65fd81ee61107cd41b7",
+ "domain": [
+  "sales/cpq"
+ ],
+ "product": [
+  "veles-cpq"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Connects to Veles CPQ to configure products, price them and generate quotes.",
+ "whenToUse": "Use when a salesperson needs to configure a product and produce a priced quote.",
+ "tasks": [
+  "configure product",
+  "calculate price",
+  "create quote"
+ ],
+ "effects": {},
+ "flags": []
+}

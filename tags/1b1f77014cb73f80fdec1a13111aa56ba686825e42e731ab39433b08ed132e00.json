@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "1b1f77014cb73f80fdec1a13111aa56ba686825e42e731ab39433b08ed132e00",
+ "domain": [
+  "food/delivery",
+  "ecommerce/restaurants"
+ ],
+ "product": [
+  "bringmethat",
+  "yelp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Finds US restaurants and caterers on BringMeThat, reads menus, quotes carts and builds a checkout link where the customer pays.",
+ "whenToUse": "Use when a user wants to order delivery, pickup or catering from US restaurants.",
+ "tasks": [
+  "search restaurants",
+  "search caterers",
+  "read menus",
+  "quote order",
+  "create checkout link",
+  "check order status",
+  "get premium signup link"
+ ],
+ "effects": {
+  "e79de7a691278937d7c3b86289dfd03a1143997d0117e8fa0a897c439e0c1a77": "read",
+  "e418b8007b60beb860b72beac2d1895ec468b3081c455615e8ca3b5838acdeca": "read",
+  "646a7e9c3ac142420111f79aca1dfa54216ba04dec329d73e5eabba6547ca092": "read",
+  "e82a39e039508bcff22ae6bfad155b7cdd3501aa6d401ae17f6e89efcf03614e": "write",
+  "38fc56a1a348bc871b98d946b2d5d6c175ce1229769c5c339f127ae1d446010f": "write",
+  "1d0ac9bee6301cd3bbf6c4b19d7d46489158dd9fa2cc4dbe242e59573460f3e5": "read",
+  "7cc9f66b1fd94e81df09f8680007d312064121dec381653c954dab02de857869": "read"
+ },
+ "flags": []
+}

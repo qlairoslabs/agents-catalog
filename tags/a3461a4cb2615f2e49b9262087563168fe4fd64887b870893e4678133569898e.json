@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "a3461a4cb2615f2e49b9262087563168fe4fd64887b870893e4678133569898e",
+ "domain": [
+  "insurance/auto",
+  "finance/insurance-quotes"
+ ],
+ "product": [
+  "sigo-seguros"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Guides a customer through non-binding personal car insurance estimates from several carriers via Sigo Seguros, plus carrier questions and a commercial auto quote request.",
+ "whenToUse": "Use when a customer in a licensed US state wants car insurance estimates in English or Spanish, or needs help finishing a Sigo application.",
+ "tasks": [
+  "list licensed states",
+  "ask quote questions",
+  "find occupation code",
+  "start quote",
+  "read carrier estimates",
+  "answer carrier questions",
+  "resolve application link",
+  "collect commercial auto intake",
+  "submit commercial request"
+ ],
+ "effects": {
+  "fc4cb56a28458dd1bdb1ec474daff161c14622cb094f727d9f053a000c31816d": "write",
+  "679d0431d5eacbc6ee6dde58320de26518848a124f30f3a09e01d6fd630f8fd2": "write",
+  "a54fa870f1ca289ef9b9aaace55653c9741cc76c03301e68b2325e1919c99d92": "read",
+  "229eaad5873309721e462ed6bebfb69aa4eb8e457dee66702408ac2c2a15bc16": "write",
+  "a1920f402baab2ff239e4d754010f565abfb07177424f254b86e23402506a41a": "write",
+  "271108fc3640a918e6490d52fa9a512a7d7881eca318e42b29764594de5be2e5": "write",
+  "2e377aae8da085b64dd340e4413036ac2bb23ee6221e8d971f2f298075cf5efd": "write",
+  "4c8c2fe623d4916fb1d51ec4fafa034228136cdfb91af951b32ae7fcdaced72f": "write",
+  "ca03b2b42a113712006887ac24f528b4777cbd6e0830a643bd1c4019d4bde1c5": "read",
+  "cd93fe20ed6aa73b2a56ba0e9e0f1a6efb7520c5d43aa24473d03d2b3b12300d": "write",
+  "da90dd12707fbaf4d39a1f7296324ab94fee4815393ad2e17cb9a13897477a24": "write",
+  "e10e9a66f66a745d24fdfd6016044b167032e4f4449a95656aa663dcd6106a8a": "write"
+ },
+ "flags": []
+}

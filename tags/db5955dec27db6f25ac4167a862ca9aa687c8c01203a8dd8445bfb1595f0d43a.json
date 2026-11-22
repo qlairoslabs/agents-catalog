@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "db5955dec27db6f25ac4167a862ca9aa687c8c01203a8dd8445bfb1595f0d43a",
+ "domain": [
+  "commerce/store-audits",
+  "marketing/conversion"
+ ],
+ "product": [
+  "ecomhint"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs ecommerce store audits and shows findings with evidence, fix steps and task tracking.",
+ "whenToUse": "Use when a store owner wants to audit their online store and track fixes.",
+ "tasks": [
+  "run store audits",
+  "read findings",
+  "view fix steps",
+  "track tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

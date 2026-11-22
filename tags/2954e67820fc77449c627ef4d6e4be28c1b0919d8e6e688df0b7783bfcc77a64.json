@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "2954e67820fc77449c627ef4d6e4be28c1b0919d8e6e688df0b7783bfcc77a64",
+ "domain": [
+  "music/theory",
+  "music/tools"
+ ],
+ "product": [
+  "musokit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Music theory helpers for chords, scales, transposition, capo choice and tempo-to-milliseconds, with links to free MusoKit tools.",
+ "whenToUse": "Use when a musician needs chord fingerings, transposition, a capo position or delay times.",
+ "tasks": [
+  "chord notes and fingering",
+  "scale notes",
+  "transpose chords",
+  "find capo fret",
+  "BPM to milliseconds",
+  "link to tuner or metronome"
+ ],
+ "effects": {
+  "b485ae30472df82033ce619d793f5d5af385495f2498768c6762559c693786e2": "read",
+  "8d92d7aa413bfc40fb7433c50f5343f3d3b4a44c39c4af52057c0a7afc9ef1d9": "read",
+  "cfb5979ee3256b6ef2414e07a1b9cc43f348356dfd45fd5fe6b6808fda092d97": "read",
+  "1a0e73d9b3559ae64fe21c1b42558e477970beea7a77fa5d879fb82f262af3e2": "read",
+  "30ad1a82900100ee573f749881a433d1cdbae4e441dc65016c283d9ed7e4c419": "read",
+  "957d0ea4f8fc04483ce22f06dfb1a8742e50a8137a67315019464479e21041ae": "read"
+ },
+ "flags": []
+}

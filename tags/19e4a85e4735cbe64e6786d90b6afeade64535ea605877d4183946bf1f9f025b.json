@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "19e4a85e4735cbe64e6786d90b6afeade64535ea605877d4183946bf1f9f025b",
+ "domain": [
+  "software/documentation",
+  "it/mdm"
+ ],
+ "product": [
+  "applivery"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Searches and reads the public Applivery docs for mobile device management and app distribution, including OpenAPI definitions.",
+ "whenToUse": "Use when answering questions about Applivery MDM or app distribution, or building calls to its REST API.",
+ "tasks": [
+  "search docs",
+  "read doc pages",
+  "get API endpoint definitions",
+  "list doc sections"
+ ],
+ "effects": {
+  "f5e45c638a7c5b4d3a3c6aed5969fe39ed951444b73de8b0ca4818298dbbaf40": "read",
+  "a3cd2be79a8ce74c26f450b3a50b71ae5a9cef441ee012ebb1de3e314d121f88": "read",
+  "ff88298aac75479c5d92d5379116692969191925e19e624e6a559ea76f244351": "read",
+  "47c461620ed895ba4b4041add945d8eb64f6987e69851df5863dc7c347037e3a": "read"
+ },
+ "flags": []
+}

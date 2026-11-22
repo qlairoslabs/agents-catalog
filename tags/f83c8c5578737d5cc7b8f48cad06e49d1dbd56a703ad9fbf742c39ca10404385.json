@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f83c8c5578737d5cc7b8f48cad06e49d1dbd56a703ad9fbf742c39ca10404385",
+ "domain": [
+  "finance/market-data",
+  "finance/sec-filings"
+ ],
+ "product": [
+  "zencap",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides institutional-grade company financial data with citations to SEC filings.",
+ "whenToUse": "Use when a user needs company financial figures backed by SEC filing sources.",
+ "tasks": [
+  "look up company financials",
+  "cite sec filings",
+  "research public companies"
+ ],
+ "effects": {},
+ "flags": []
+}

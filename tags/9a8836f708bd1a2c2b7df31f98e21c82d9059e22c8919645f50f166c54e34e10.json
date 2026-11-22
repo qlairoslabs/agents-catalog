@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9a8836f708bd1a2c2b7df31f98e21c82d9059e22c8919645f50f166c54e34e10",
+ "domain": [
+  "software/internationalization",
+  "content/translation"
+ ],
+ "product": [
+  "verbaly"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Internationalization tools for coding agents that extract, check and translate app strings, with human-approved drafts.",
+ "whenToUse": "Use when localizing an application's text into other languages from within a coding agent.",
+ "tasks": [
+  "extract app strings",
+  "check missing translations",
+  "translate strings",
+  "submit drafts for approval"
+ ],
+ "effects": {},
+ "flags": []
+}

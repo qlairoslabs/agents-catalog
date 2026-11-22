@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "74c77b7650d63b598f065de2ee4777ecd7d2dc4d4558a372c8dad7e913a80daa",
+ "domain": [
+  "productivity/note-taking",
+  "knowledge-management"
+ ],
+ "product": [
+  "obsidian"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Obsidian vault connector that searches and edits notes directly on the filesystem.",
+ "whenToUse": "Use when an agent needs to search or edit notes in a local Obsidian vault.",
+ "tasks": [
+  "search notes",
+  "edit notes"
+ ],
+ "effects": {},
+ "flags": []
+}

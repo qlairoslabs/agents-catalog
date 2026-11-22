@@ -1,0 +1,73 @@
+{
+ "classifier": 2,
+ "contentHash": "f781c9f613027c3a93d089e5cfc5a08ccf14ec27711fe4ef1393af5c341b8670",
+ "domain": [
+  "web/scraping",
+  "research/web-search"
+ ],
+ "product": [
+  "google",
+  "youtube",
+  "hacker-news",
+  "npm",
+  "pypi",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work",
+  "get-customers"
+ ],
+ "summary": "Pay-per-call web access for agents: page fetch, crawl, sitemap, screenshots, structured extraction, Google searches, YouTube transcripts, research answers and domain, package and company intel.",
+ "whenToUse": "Use when an agent needs live web content, search results, a site crawl, or background on a domain, package or company.",
+ "tasks": [
+  "fetch page as markdown",
+  "render JavaScript pages",
+  "take screenshot",
+  "crawl site",
+  "map site URLs",
+  "extract PDF text",
+  "extract structured data",
+  "search web, news, images, places",
+  "get YouTube transcript",
+  "answer questions with citations",
+  "run deep research",
+  "inspect domain and company"
+ ],
+ "effects": {
+  "06cdb815ad2fe9691dbd687442eef200d0607d0b3ef26209f7710fb0e28d8e15": "read",
+  "005eed8c3ae5990e3d961c9e202f2ed0144144f991ee4679e910cc9a39c359fc": "read",
+  "eb90056313ad94649d19792bc2237d3de7404a53874a45cc5c0703191f02e6d5": "read",
+  "af937c376c7e5f620c2f9238e029e8c430899bfa7484209eafd533dc392dc94b": "read",
+  "ad77cee530337056c80cee452cf83c163fe66b54a7228983b21650a0234444e7": "read",
+  "53667980af6f46fbc6bdcfce58af519fd2a56a6225e065a756a2fef208f25818": "read",
+  "963da9f0f723e61b724be6892e7267c9c2c9db6d6e09f0319f6114ae0b8f0d73": "read",
+  "7be1cc23a8655ec8426753744c36257bc2f9fcb0df6987153a516cb08d656da9": "read",
+  "e8c857116c1e97f3118bf213e4aff058c926369dd77a4dbf74df37ce48ea2452": "read",
+  "426bfae6d02e3a41732379566d0a77b8b155649c6c28a3c5830e3744aebdfee7": "read",
+  "73a4338f2409ada98e780fd4fbbffbc0b8738b38d269af3f94a8db44fdbe071e": "read",
+  "015b38e5e7e4cbfe1ec3ec76756e81c4912f1461bdf106a28e129a7cd16b59bf": "read",
+  "09e7aa0d23f630aaf643dd8bf65c3508ac98ac837f8a14ea79bcaa68ea1d57b3": "read",
+  "88bad040bc18a8a5588348a4959ca95516371c0527230fc9d3ac4388932f9a93": "read",
+  "531e2b46c31cd3042eb74d7cd25ce48d272354963913ff0ff27a7202d15e7364": "read",
+  "4c3107ded045d02db05117370069bc6d63d7acc5c8e585cc782935e167e4e365": "read",
+  "081fb60972213ccae618eeadb8c4ef3dd9e0e5f119aa03348dbf39a234cd9100": "read",
+  "3b4f533019ddd37850fb276237e052653759ce98576fcd904a7e678abdcb09a7": "read",
+  "f3a2039f5ffc26de2cb7ea0067d710602364b6fb0226b6ec1976826eda97f443": "read",
+  "a5882e753c7d4964c4b687b8ae515fa7222a2c3d23e41c25069d14fba78902eb": "read",
+  "4409b30c17430b56f0cc37ec98bd60e3132ad7d447c17f2edad67959c56a49dc": "read",
+  "a12e9c4060368bc5163ffb53df3112635d34a98eaddf60994e582cfa4a104746": "read",
+  "45025636425e6ab89912fb597789de902ccb6994f5fb6b3952af218effde4ef0": "read",
+  "b612b2db0562bc935e0d628adc2963fd40619930e29b86976995447313c8a14b": "read",
+  "70235f43aba7ef7726758e5c66a65d8f753249e291aaf4ae3285cad56941b447": "read",
+  "7a33a5e4027a81d7245b55462b59173d4af9ad1c962a6e2a366c739c276a4f91": "read"
+ },
+ "flags": [
+  "every tool is paid per call via x402"
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "80b415dcfc1d05aee632632955680d2d834cac0ae9461504cb5ae1aaccf33cbe",
+ "domain": [
+  "data/sports"
+ ],
+ "product": [
+  "balldontlie"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives access to live sports data and analytics from the BALLDONTLIE sports API.",
+ "whenToUse": "Use when an agent needs scores, stats or other sports data.",
+ "tasks": [
+  "get live scores",
+  "get player stats",
+  "get team data"
+ ],
+ "effects": {},
+ "flags": []
+}

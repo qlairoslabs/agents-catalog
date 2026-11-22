@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "03a4993aaa59f4cf4eaabdefae7368a356f0cb762299a2612d9a679aee5262cf",
+ "domain": [
+  "developer-utilities",
+  "game-development"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Pay-per-call USDC tools for game planning, release checklists and small data transforms, plus paid downloadable skill packs.",
+ "whenToUse": "Use when an agent has a payment wallet and needs a small bounded transform or a game or designer skill pack and accepts per-call charges.",
+ "tasks": [
+  "build game launch plan",
+  "write store art prompts",
+  "score release checklist",
+  "hash text",
+  "normalize JSON",
+  "convert CSV and JSON",
+  "normalize URLs",
+  "compute cron times",
+  "build UTM URLs",
+  "encode base64",
+  "download skill packs"
+ ],
+ "effects": {
+  "9d57ba78aea6f8724cbdcf447d6c789b1c1d3424f814618921922d3b834e74e5": "write",
+  "d21962fcc7da1d37f1bf7ab9e63386ccdf521c37eb1048e1fad0ea2adf0cad3a": "write",
+  "b52eaf64be9e3393231fc9553e270193909db9a59b3c0c734f7677aee0936708": "write",
+  "42739fca3fd32fac935f2bb37e77defa5d63ef7595a34e32a1080ed537fe38e5": "write",
+  "e1315178483f3c40a94bc53c75129035eb272655f70100da976f40f0ea7cfa3a": "write",
+  "eb85117d58526d602b1ae0b21f1262f04e08db274325ce713c856239e412bd3a": "write",
+  "a4d03562acb00891197558ebcdf070172e396e1d5b2efb91694103361ad774bb": "write",
+  "2058e17004bffee0852217ff6995191f674561684eef09ead34f7cbbbbf32c93": "write",
+  "9e96f07420f80981fc03ec8822d6dcb5d9d14ee144766db5ef5a68d4a2639635": "write",
+  "9bdaa727cc68f67cbc18ca9cf310a7b4f58b7dfbe5cf6bda5083695f0fc8249a": "write",
+  "4aec17dc0cc204ad040a6c09366dc26295eb4780e9b0ec3da4f1bdd4f5257053": "risky",
+  "ab96ad53eea0cf658fcb6f920613e4a4f643756928f2602387209eea0a6b1ed1": "risky",
+  "a47c05f7cbbd937f069a1351d85d0ac562b126fb79986b77d97971d9a4515f1a": "risky"
+ },
+ "flags": [
+  "Every tool requires on-chain USDC payment authorization; skill packs cost $29-39"
+ ]
+}

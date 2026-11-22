@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e814d4a7fbf6795ad51732a36a3d86e1a0a947c846249169b04495888af5557f",
+ "domain": [
+  "telecom/voip",
+  "pricing"
+ ],
+ "product": [
+  "efon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "eFon per-minute international call rates, country comparisons, dialing guides and calling-code lookup.",
+ "whenToUse": "Use when a user asks what it costs to call a country, how to dial it, or which country a calling code belongs to.",
+ "tasks": [
+  "get call rates",
+  "compare countries",
+  "get dialing guide",
+  "look up calling code"
+ ],
+ "effects": {
+  "9eea67e8bd46aef785c1477071235cc387e41c9978b4840ebd380938acbf7998": "read",
+  "5bc5dce063a6398cf34286cbb4952a7b9b0e20ca0e00bc9d3e1a23530fdbc183": "read",
+  "b1ce1a5e43fb3dca926bc352849b69193d7922e785e2d08e75322a20503ac97c": "read",
+  "27cc2a01d5d5ca24fb4618bdb7a258eec077c114cb5ecdbedd6983126bf2f3e9": "read"
+ },
+ "flags": []
+}

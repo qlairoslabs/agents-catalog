@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6baa4e0f099480b062417fedb72ef370e6072032acdf4347762a6fec60da1a2a",
+ "domain": [
+  "education/relationships",
+  "ecommerce"
+ ],
+ "product": [
+  "love-campus"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Lists and recommends Love Campus courses and books on dating, marriage and family, and prepares a purchase handoff for customer payment.",
+ "whenToUse": "Use when a user wants course or book recommendations on dating, marriage or family and a purchase link.",
+ "tasks": [
+  "list products",
+  "filter by budget and college",
+  "recommend courses and books",
+  "prepare purchase handoff"
+ ],
+ "effects": {
+  "e0c567f373ee6e4a684f8f07c0fc767f71a9b46be3260db3ad83f9b46781d684": "read",
+  "1d94c7cc5d0aea0419a365c574fdfebab8ed48dc889f1da220c98917801d3c64": "read",
+  "57ba5eb03ba73d70139c8c652d3209f779018720963d05ecba4040b98211a8ef": "read",
+  "19b40883f9da908a4506b5cb3550417e26914113bd08ea1e026b618ff238d626": "write"
+ },
+ "flags": []
+}

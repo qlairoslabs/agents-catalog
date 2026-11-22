@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "93416ec6dca2bcd6f8b71589c53309e3c1b43e11ad018102f10460b57fc2641e",
+ "domain": [
+  "environment/air-quality"
+ ],
+ "product": [
+  "aurn",
+  "breathe-london",
+  "who",
+  "daqi"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "UK air quality data: live readings, historical trends, LAQM-style statistics, WHO guideline checks, monitor lookup and a knowledge base.",
+ "whenToUse": "Use when asked about air quality, pollution trends or guideline compliance at a UK location.",
+ "tasks": [
+  "assess location air quality",
+  "current readings",
+  "historical data",
+  "AQI summary",
+  "list monitors",
+  "chart trends",
+  "trend analysis",
+  "compare locations",
+  "regulatory statistics",
+  "time-of-day patterns",
+  "guidelines and health knowledge"
+ ],
+ "effects": {
+  "74bb1a5af38f5229cdad94a3a591afc1913bb66d382e5d4eff1f808f2ace1f5c": "write",
+  "16be500e2878748cb952a259c5557b692c159160657d67ec47d3431f25cada16": "read",
+  "c993620cd7555a726376625cc78fa3ce7e1e064aeb27c0254fbf3bb321c2bfbb": "write",
+  "740948a20508477ad6b2b1f8bd1b47c8179b0835adc78f5b6e1f1735b3a8594f": "read",
+  "1bf16997d8842c9016eec3352afac4e8c093283b42f574400f327cbf6c91cc32": "read",
+  "dfe14e007dbbacd5226dfeb2b292915a36f144b7d6995f9cc793dd448279729f": "write",
+  "8a997d6b7f8769bf3508cc5ed063138176ab9924d5dac39b946b277276213522": "write",
+  "0c2f9ca10d3006b9c63d69daef21b8295a69f82dc179443a7937044944df2660": "read",
+  "0b2b20e2eddba310389866e5f19257ffeb9e82a95a2e77f77c528a96a4b8eab4": "read",
+  "06e16064138c785b2d77daf466afd06f79feac9f017a8f3ccab4a6c1cb67dd30": "read",
+  "5e8251257c9b6db02159f612238352fe0fa6793f9a98d8c91de5d73f79c713b3": "read",
+  "833184bad4a14d507784efb460b7de366aa8545ee37db28ace9891f52e8e2791": "read",
+  "0bb45cf4a4c2b76f54fa65c1458b0e0ccbbcb93f9fd3c30722ac1e5a70948b22": "read",
+  "999d99ce3f98726e4ca5ec3ab2542b5ac925b00160baea7bd706a710e8c3fe3f": "write",
+  "e765af5ca5150ee8eaca9eb67c36f45eec5d5974be3a89e57052dcd62a1cfbb6": "read"
+ },
+ "flags": []
+}

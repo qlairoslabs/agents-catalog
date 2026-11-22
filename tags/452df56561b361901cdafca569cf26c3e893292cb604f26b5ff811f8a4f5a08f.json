@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "452df56561b361901cdafca569cf26c3e893292cb604f26b5ff811f8a4f5a08f",
+ "domain": [
+  "events/photo-sharing"
+ ],
+ "product": [
+  "guest-pictures"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Free browser photo booth with effects, plus plans for collecting guest photos and video or voice guestbooks via QR code at events.",
+ "whenToUse": "Use when a user plans a party or wedding and wants a photo booth or a shared guest photo album.",
+ "tasks": [
+  "open photo booth",
+  "list effects",
+  "explain guest photo collection",
+  "plan guest photo album",
+  "plan video or voice guestbook"
+ ],
+ "effects": {
+  "46c392f3b56226cf43b41f0b4c663b8d308472c4c3860d1a0c9c23ab0244ad88": "write",
+  "766dacf7e9be9201ea5617d6fffaeced51ff775aa0792e8144cecd96ac7beeaa": "read",
+  "2f1f840da85fbcb4e6ec3c9b1c7272b39e8100e21364e033e1a7d2a5221a9408": "read",
+  "8fde47e28dc77a395f3e3db73bb09e1b5d0958e7fbf591f52ede2563dbcd25f7": "write",
+  "95330153fb7c9e3f485177c25bffedf50ec1d2ab330118f1595d268aa5632bb6": "write"
+ },
+ "flags": []
+}

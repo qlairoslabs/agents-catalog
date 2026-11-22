@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "e44419fe5410ccdfef8a2c41b5ab6f858bc7dff12e49d5dfcc2710ff13eec056",
+ "domain": [
+  "software/cloud/migration",
+  "software/web-development"
+ ],
+ "product": [
+  "aws",
+  "aws-blocks",
+  "lovable",
+  "bolt-new",
+  "replit"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Migrates vibe-coded and frontend web apps to AWS, producing deployable AWS Blocks infrastructure code.",
+ "whenToUse": "Use when a user wants to host, deploy or move a web app built with a vibe-coding platform or frontend framework onto AWS.",
+ "tasks": [
+  "analyze existing web apps",
+  "migrate apps to aws",
+  "generate aws blocks infrastructure code",
+  "deploy static sites and spas",
+  "deploy ssr apps"
+ ],
+ "effects": {},
+ "flags": []
+}

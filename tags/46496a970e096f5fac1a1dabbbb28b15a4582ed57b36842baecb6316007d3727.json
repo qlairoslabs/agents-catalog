@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "46496a970e096f5fac1a1dabbbb28b15a4582ed57b36842baecb6316007d3727",
+ "domain": [
+  "web/change-monitoring",
+  "monitoring"
+ ],
+ "product": [
+  "wachete"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Lets a signed-in Wachete user create, read and monitor watches that track changes on websites.",
+ "whenToUse": "Use when the user wants to track changes on a web page or review existing Wachete monitors.",
+ "tasks": [
+  "create website watches",
+  "read watch results",
+  "monitor page changes"
+ ],
+ "effects": {},
+ "flags": []
+}

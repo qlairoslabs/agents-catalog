@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "b069a505fe5478eee850a9b3966d14a0beed6cd9bd2bd0ba1b353e1a489b1ccc",
+ "domain": [
+  "social/gift-exchange",
+  "events/organizing"
+ ],
+ "product": [
+  "secretsantaraffle",
+  "whatsapp",
+  "telegram"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Creates Secret Santa draws with exclusion rules, emails invitations to participants, and drafts share messages.",
+ "whenToUse": "Use when a user wants to organize a Secret Santa or gift exchange among a group.",
+ "tasks": [
+  "create draw",
+  "apply exclusions",
+  "email invitations",
+  "generate group share message"
+ ],
+ "effects": {
+  "d1d41246a214a0744bfab37116f9533a10039a246ce611c82fd772de34572d9a": "write",
+  "80dbee4def0f0c1502f5dd7ebd220e36106c453ca1f5c708d041e25fae255dfd": "write",
+  "021b5a6fac2f3e5f2d4c685248874c5d21a6f4b73619584ae8091f963868fd76": "read"
+ },
+ "flags": []
+}

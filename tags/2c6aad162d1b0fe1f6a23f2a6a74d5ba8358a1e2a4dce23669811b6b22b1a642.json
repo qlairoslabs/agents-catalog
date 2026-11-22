@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2c6aad162d1b0fe1f6a23f2a6a74d5ba8358a1e2a4dce23669811b6b22b1a642",
+ "domain": [
+  "finance/trading/options"
+ ],
+ "product": [
+  "options-profit-calculator"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Calculates options probability of profit and P/L charts, shows option chains and finds trades for US stocks.",
+ "whenToUse": "Use when evaluating potential profit or loss of US stock option strategies.",
+ "tasks": [
+  "calculate probability of profit",
+  "graph profit and loss",
+  "fetch option chains",
+  "find trades"
+ ],
+ "effects": {},
+ "flags": []
+}

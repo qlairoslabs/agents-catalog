@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1d1498653674966f0f01e2fc78d196a404779379575ddd70e653bec268c24a6c",
+ "domain": [
+  "media/audio",
+  "media/video"
+ ],
+ "product": [
+  "audo"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Audio and video processing tools for noise removal, voice enhancement and transcription.",
+ "whenToUse": "Use when an agent needs to clean up voice recordings or transcribe audio or video files.",
+ "tasks": [
+  "remove background noise",
+  "enhance voice",
+  "transcribe audio and video"
+ ],
+ "effects": {},
+ "flags": []
+}

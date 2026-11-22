@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c5a098eefeadda56f92e7cc6b06f906af4b3fdd8ba174fdb66ccae1578e4de7f",
+ "domain": [
+  "software/cybersecurity/application-security",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "kodem"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to Kodem Security so users can ask about security findings and act on them within their permissions.",
+ "whenToUse": "Use when reviewing or triaging application security findings stored in Kodem.",
+ "tasks": [
+  "query security findings",
+  "review vulnerabilities",
+  "act on findings"
+ ],
+ "effects": {},
+ "flags": []
+}

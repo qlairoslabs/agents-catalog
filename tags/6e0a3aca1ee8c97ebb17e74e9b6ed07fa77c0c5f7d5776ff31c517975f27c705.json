@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6e0a3aca1ee8c97ebb17e74e9b6ed07fa77c0c5f7d5776ff31c517975f27c705",
+ "domain": [
+  "travel/hotels",
+  "travel/booking"
+ ],
+ "product": [
+  "vistalink"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches a large hotel inventory, compares direct prices and offers, matches rooms and makes bookings.",
+ "whenToUse": "Use when a user wants to find, compare or book a hotel stay.",
+ "tasks": [
+  "search hotels",
+  "get direct prices",
+  "list offers",
+  "match rooms",
+  "book hotels"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "366fec2c6fb2db3ee33cd7eb2cf407756e5a43ba12281c6b6c713bc309d1b68c",
+ "domain": [
+  "content-management/headless-cms",
+  "software/web-development"
+ ],
+ "product": [
+  "sanity"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Sanity CMS integration with an MCP server, skills and commands for querying and authoring content, GROQ and schemas.",
+ "whenToUse": "Use when working with a Sanity project to query or edit content, write GROQ, design schemas or set up Visual Editing.",
+ "tasks": [
+  "query content",
+  "author content",
+  "build groq queries",
+  "optimize groq queries",
+  "design schemas",
+  "set up visual editing"
+ ],
+ "effects": {},
+ "flags": []
+}

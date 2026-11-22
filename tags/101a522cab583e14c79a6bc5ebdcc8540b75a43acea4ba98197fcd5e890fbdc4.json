@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "101a522cab583e14c79a6bc5ebdcc8540b75a43acea4ba98197fcd5e890fbdc4",
+ "domain": [
+  "business/procurement/packaging",
+  "business/pricing"
+ ],
+ "product": [
+  "packindex"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Packaging material price data with quote checks, contract price adjustments, pack costing and supplier RFQs.",
+ "whenToUse": "Use when evaluating packaging costs, checking supplier quotes or preparing packaging RFQs.",
+ "tasks": [
+  "look up packaging prices",
+  "check quotes",
+  "adjust contract prices",
+  "cost packs",
+  "create supplier rfqs"
+ ],
+ "effects": {},
+ "flags": []
+}

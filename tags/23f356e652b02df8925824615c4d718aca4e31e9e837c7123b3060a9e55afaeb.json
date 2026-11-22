@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "23f356e652b02df8925824615c4d718aca4e31e9e837c7123b3060a9e55afaeb",
+ "domain": [
+  "sales/lead-enrichment",
+  "data/spreadsheets"
+ ],
+ "product": [
+  "leadmagic"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Spreadsheet with live enrichment columns that fill in emails, mobile numbers and company data.",
+ "whenToUse": "Use when an agent needs to build or enrich lead lists in a spreadsheet with contact and firmographic data.",
+ "tasks": [
+  "enrich emails",
+  "enrich mobile numbers",
+  "add firmographics",
+  "manage lead sheets"
+ ],
+ "effects": {},
+ "flags": []
+}

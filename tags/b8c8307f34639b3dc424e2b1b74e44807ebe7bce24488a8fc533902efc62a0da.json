@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "b8c8307f34639b3dc424e2b1b74e44807ebe7bce24488a8fc533902efc62a0da",
+ "domain": [
+  "marketing/analytics",
+  "marketing/advertising"
+ ],
+ "product": [
+  "google-ads",
+  "meta-ads",
+  "google-analytics",
+  "google-search-console",
+  "google-merchant-center"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Reports marketing performance across Google Ads, Meta Ads, GA4, Search Console and Merchant Center.",
+ "whenToUse": "Use when a user needs ad, traffic or search performance reports from Google or Meta marketing platforms.",
+ "tasks": [
+  "report google ads performance",
+  "report meta ads performance",
+  "query ga4 analytics",
+  "query search console data",
+  "check merchant center data"
+ ],
+ "effects": {},
+ "flags": []
+}

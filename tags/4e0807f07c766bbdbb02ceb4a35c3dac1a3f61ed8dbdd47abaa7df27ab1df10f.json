@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4e0807f07c766bbdbb02ceb4a35c3dac1a3f61ed8dbdd47abaa7df27ab1df10f",
+ "domain": [
+  "media/transcripts",
+  "research/search"
+ ],
+ "product": [
+  "youtube",
+  "cleolm"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and cites timestamped YouTube and podcast transcripts and transcribes videos or episodes on request.",
+ "whenToUse": "Use when an agent needs quotes or facts from video or podcast content with timestamps.",
+ "tasks": [
+  "search transcripts",
+  "cite timestamps",
+  "transcribe videos",
+  "transcribe podcast episodes"
+ ],
+ "effects": {},
+ "flags": []
+}

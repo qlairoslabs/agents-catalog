@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "7559e596625913911b715318a0eac1326210a7948398a4a160c53fa866607a6b",
+ "domain": [
+  "automotive/vehicle-auctions",
+  "data/market-data"
+ ],
+ "product": [
+  "copart",
+  "iaa"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Read-only access to Copart and IAA vehicle auction listings, sale history, filters, yard locations and shipping info.",
+ "whenToUse": "Use when an agent needs to search or research salvage and used vehicle auction lots on Copart or IAA.",
+ "tasks": [
+  "search auction vehicles",
+  "view vehicle sale history",
+  "apply search filters",
+  "look up auction locations",
+  "estimate shipping",
+  "check api usage"
+ ],
+ "effects": {},
+ "flags": []
+}

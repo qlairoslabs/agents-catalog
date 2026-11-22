@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5de560c4b107ff1270db627fecedc794f52bb83dde6461075332249d00aa15c6",
+ "domain": [
+  "finance/investment-research",
+  "finance/sec-filings"
+ ],
+ "product": [
+  "matterfact",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Investment research tool covering podcasts and SEC filings with configurable no-code research pipelines.",
+ "whenToUse": "Use when researching companies through SEC filings or podcast content, or running research pipelines.",
+ "tasks": [
+  "search sec filings",
+  "search podcasts",
+  "run research pipelines"
+ ],
+ "effects": {},
+ "flags": []
+}

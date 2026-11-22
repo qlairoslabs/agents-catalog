@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b7cbaf7a25ab68608d64291e815565b344b4dc193063e55b81b85cffa5178c26",
+ "domain": [
+  "productivity/office-suite",
+  "productivity/email"
+ ],
+ "product": [
+  "gmail",
+  "google-calendar",
+  "google-drive",
+  "google-workspace"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Multi-account access to Gmail, Google Calendar, Drive and other Google Workspace services.",
+ "whenToUse": "Use when an agent needs to read or send email, manage calendar events or work with Drive files.",
+ "tasks": [
+  "read and send email",
+  "manage calendar events",
+  "manage drive files",
+  "switch accounts"
+ ],
+ "effects": {},
+ "flags": []
+}

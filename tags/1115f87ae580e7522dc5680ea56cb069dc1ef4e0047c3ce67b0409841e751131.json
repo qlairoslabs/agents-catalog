@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "1115f87ae580e7522dc5680ea56cb069dc1ef4e0047c3ce67b0409841e751131",
+ "domain": [
+  "business/company-intelligence",
+  "finance/compliance"
+ ],
+ "product": [
+  "firmaradar"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Norwegian companies, including ownership, roles, financials, risk scores and KYC/AML/PEP screening from several sources.",
+ "whenToUse": "Use when an agent needs to research or vet a Norwegian company or its people for due diligence or compliance.",
+ "tasks": [
+  "look up norwegian companies",
+  "view ownership structures",
+  "view company roles",
+  "get company financials",
+  "assess company risk",
+  "run kyc and aml checks",
+  "screen for politically exposed persons"
+ ],
+ "effects": {},
+ "flags": []
+}

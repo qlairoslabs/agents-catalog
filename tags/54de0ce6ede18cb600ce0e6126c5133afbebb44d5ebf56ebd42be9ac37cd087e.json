@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "54de0ce6ede18cb600ce0e6126c5133afbebb44d5ebf56ebd42be9ac37cd087e",
+ "domain": [
+  "finance/securities-filings",
+  "finance/research"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Open-source toolkit for searching and reading SEC EDGAR filings of all types, with no API key needed.",
+ "whenToUse": "Use when an agent needs company filings, financial statements or insider data from SEC EDGAR.",
+ "tasks": [
+  "search sec filings",
+  "read company filings",
+  "extract financial statements"
+ ],
+ "effects": {},
+ "flags": []
+}

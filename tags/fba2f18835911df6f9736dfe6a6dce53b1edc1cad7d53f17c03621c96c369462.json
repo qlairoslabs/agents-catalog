@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "fba2f18835911df6f9736dfe6a6dce53b1edc1cad7d53f17c03621c96c369462",
+ "domain": [
+  "email/validation",
+  "software/developer-tools"
+ ],
+ "product": [
+  "mailverdict"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Checks email addresses and domains for syntax, disposable or role accounts, free providers, MX records and typos.",
+ "whenToUse": "Use when validating an email address or domain before signup or outreach.",
+ "tasks": [
+  "check email deliverability",
+  "detect disposable domains",
+  "detect role accounts",
+  "look up MX records",
+  "suggest typo fixes"
+ ],
+ "effects": {
+  "acfdd38eaaaa7e23d7be60ba5a57a627372299425fba05f25a05e05e37842658": "read",
+  "7299c4cbb24b7bdedabc40aadc70243c0323baffb8b4a968c9613c9079b851b0": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "49cd57d27e99ee04dd5fe077c23d359d8cde33b986024fff6349fa719b1fbc4e",
+ "domain": [
+  "data/app-store",
+  "marketing/app-intelligence"
+ ],
+ "product": [
+  "google-play",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Google Play store data through 7 endpoints, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs Android app listings, reviews or metadata from Google Play and can pay per request.",
+ "tasks": [
+  "fetch google play data",
+  "look up app details",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0121dd5409e77d146009c185c6afdce36a8d2765e4142895d87f8b8c2b1a4067",
+ "domain": [
+  "software/cybersecurity/binary-analysis",
+  "software/reverse-engineering"
+ ],
+ "product": [
+  "byteray"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Hosted binary analysis toolset for finding vulnerabilities in compiled software, available by invite.",
+ "whenToUse": "Use during authorized security research to analyze binaries for vulnerabilities.",
+ "tasks": [
+  "analyze binaries",
+  "find vulnerabilities"
+ ],
+ "effects": {},
+ "flags": []
+}

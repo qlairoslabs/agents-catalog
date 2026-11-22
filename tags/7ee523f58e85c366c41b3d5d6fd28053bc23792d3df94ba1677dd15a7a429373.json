@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7ee523f58e85c366c41b3d5d6fd28053bc23792d3df94ba1677dd15a7a429373",
+ "domain": [
+  "finance/equities/sec-filings"
+ ],
+ "product": [
+  "distill-markets",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides SEC filing data for US equities: fundamentals, point-in-time values, 13F holders and insider activity.",
+ "whenToUse": "Use when researching fundamentals, institutional holders or insider trades of US-listed companies.",
+ "tasks": [
+  "get fundamentals",
+  "get point-in-time values",
+  "list 13f holders",
+  "view insider transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

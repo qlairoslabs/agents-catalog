@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7760ce6f5915642f0f6b34377cd90643c1cdc1cbdeca2607ff90e864bab411ff",
+ "domain": [
+  "software/credentials-management",
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Credential broker that registers an AI agent for SaaS developer tools and manages their credentials within a signed spending limit.",
+ "whenToUse": "Use when an agent needs to sign up for or obtain credentials to developer SaaS tools under a pre-approved budget.",
+ "tasks": [
+  "sign up for saas dev tools",
+  "broker api credentials",
+  "enforce spending mandate"
+ ],
+ "effects": {},
+ "flags": [
+  "agent can create accounts and spend money on paid services"
+ ]
+}

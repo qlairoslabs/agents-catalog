@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "18a368aa7cab9c31a46b060c84e500cc1a28ea2d6e5aca8926f57c7d5c5f018e",
+ "domain": [
+  "logistics/vehicle-transport",
+  "customs"
+ ],
+ "product": [
+  "shipmycar",
+  "hmrc"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Builds quotes for UK and EU or international car transport, including HMRC import cost estimates, from a stepwise draft.",
+ "whenToUse": "Use when a user wants a price to ship a car to or within the UK.",
+ "tasks": [
+  "update quote draft",
+  "check route requirements",
+  "estimate HMRC costs",
+  "generate quote",
+  "get continue-quote link"
+ ],
+ "effects": {
+  "477340a2fb5c6d3297ba6878a87edd859e9696f989e19296f79a5ca08ade3f6e": "write",
+  "6d9849ebd19aeec50acf76431a92efcd29ce15cdf668eaadf826f29f06ecf02f": "write",
+  "7aad9e7203cef057ba5f5f34f3979a29519a08faa68cc9f6291f76c00147ed87": "write"
+ },
+ "flags": []
+}

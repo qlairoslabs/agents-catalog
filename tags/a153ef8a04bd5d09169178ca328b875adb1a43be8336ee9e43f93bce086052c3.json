@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a153ef8a04bd5d09169178ca328b875adb1a43be8336ee9e43f93bce086052c3",
+ "domain": [
+  "finance/mortgages",
+  "finance/lending"
+ ],
+ "product": [
+  "lqn"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Profiles home loan applicants in Colombia and routes each case to filing, onboarding or referral with LQN.",
+ "whenToUse": "Use when assessing a Colombian housing credit case and deciding whether to file, link or refer it through LQN.",
+ "tasks": [
+  "profile housing credit applicants",
+  "route mortgage cases",
+  "refer cases to lqn"
+ ],
+ "effects": {},
+ "flags": []
+}

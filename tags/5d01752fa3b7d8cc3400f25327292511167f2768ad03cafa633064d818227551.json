@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5d01752fa3b7d8cc3400f25327292511167f2768ad03cafa633064d818227551",
+ "domain": [
+  "data/databases",
+  "cloud/administration"
+ ],
+ "product": [
+  "google-bigtable",
+  "google-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Manages Google Cloud Bigtable instances, clusters and tables through natural language commands.",
+ "whenToUse": "Use when administering Bigtable resources such as instances, clusters or tables in Google Cloud.",
+ "tasks": [
+  "manage bigtable instances",
+  "manage clusters",
+  "manage tables"
+ ],
+ "effects": {},
+ "flags": []
+}

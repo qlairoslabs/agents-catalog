@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c5ab61aa7106f2b52652530f11edb2fe5100e44674d1ed5aae20317ea0ede9a9",
+ "domain": [
+  "finance/accounting"
+ ],
+ "product": [
+  "exact-online",
+  "claude",
+  "chatgpt",
+  "copilot"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "EU-hosted connector with many tools linking Exact Online accounting to AI assistants via OAuth.",
+ "whenToUse": "Use when an assistant needs broad access to Exact Online accounting data.",
+ "tasks": [
+  "query accounting data",
+  "manage exact online records"
+ ],
+ "effects": {},
+ "flags": []
+}

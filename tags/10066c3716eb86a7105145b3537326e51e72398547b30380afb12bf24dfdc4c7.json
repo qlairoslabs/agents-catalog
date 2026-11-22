@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "10066c3716eb86a7105145b3537326e51e72398547b30380afb12bf24dfdc4c7",
+ "domain": [
+  "health/fitness-tracking"
+ ],
+ "product": [
+  "gym-plus",
+  "chatgpt",
+  "claude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects an AI assistant to a Gym Plus account to log workouts, review history and get coaching.",
+ "whenToUse": "Use when the user wants to record or review workouts in Gym Plus or get training advice based on them.",
+ "tasks": [
+  "log workouts",
+  "review workout history",
+  "get ai coaching"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "7ae7a7f4efae997a0fccb5bfafc44fcc1997624b030fc227db24eb27f904e698",
+ "domain": [
+  "software/automotive-diagnostics",
+  "software/embedded"
+ ],
+ "product": [
+  "uds",
+  "iso-tp",
+  "can",
+  "udslib"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes CAN traces of UDS flash sessions to find failures, and decodes or builds UDS, ISO-TP and DTC messages without hardware.",
+ "whenToUse": "Use when debugging a failed ECU flash or diagnostic session, or decoding or building UDS and ISO-TP messages.",
+ "tasks": [
+  "analyze CAN trace",
+  "decode UDS messages",
+  "build UDS requests",
+  "reassemble ISO-TP",
+  "decode DTCs",
+  "look up UDS reference",
+  "plan UDSLib integration"
+ ],
+ "effects": {
+  "44f127a4910957af4b330f7a76dca57454f2654e2bda015f440194175ddd33cc": "write",
+  "b078f9f2c8042b7e21267997806dd4c91960b47efa9225ea47d39beb955a2bd8": "read",
+  "7a6ed59dca22e145fe57b30e75871c6cf151a8333671033fffe6f5da358d162a": "read",
+  "a32fd2efe70bfc2bbfe627a91abfb0f29a0b952b5e41599cfe4bbab2a76fe89a": "read",
+  "4583021d25f13de1384fa5eaec9d33b186ae4810f8c194d3401664b387058458": "read",
+  "272651a6b8f93bcd72d819965192e2ce9824db7c6c9b248b36f87ed88ed0f86f": "read",
+  "af0ed54749fd4644f6d982cdb61e1cf5db929715c837b9fb10dc70600da00920": "read"
+ },
+ "flags": []
+}

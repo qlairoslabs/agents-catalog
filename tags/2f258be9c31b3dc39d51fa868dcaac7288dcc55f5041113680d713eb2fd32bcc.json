@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "2f258be9c31b3dc39d51fa868dcaac7288dcc55f5041113680d713eb2fd32bcc",
+ "domain": [
+  "software/documentation",
+  "software/licensing"
+ ],
+ "product": [
+  "nalpeiron",
+  "zentitle2",
+  "zengain",
+  "zenmeter",
+  "gitbook"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads Nalpeiron product documentation, answers questions and can send documentation feedback.",
+ "whenToUse": "Use when you need Nalpeiron, Zentitle2, ZenGain or ZenMeter documentation or implementation details.",
+ "tasks": [
+  "search documentation",
+  "fetch doc page",
+  "ask documentation question",
+  "report doc issue"
+ ],
+ "effects": {
+  "c1cbfe6a21df3610c6fe9d9c7627b3c32c6871fc0c669048d85dbdd299787795": "read",
+  "7c62ab72d52aabcaa2e1c2667d6f065e35724aba3393723a4ccace871bab5444": "read",
+  "bb7aa1f6b4dada662a4b71251d7887248064d5c0ce495341370bf798e39d7ccd": "read",
+  "bad4bfcc3f695ee6dbb534bbc728c57792a6d384fcf2680abc9704b28143f94c": "write"
+ },
+ "flags": []
+}

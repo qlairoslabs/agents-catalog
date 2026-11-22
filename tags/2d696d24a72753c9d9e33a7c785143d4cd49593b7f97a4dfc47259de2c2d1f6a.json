@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "2d696d24a72753c9d9e33a7c785143d4cd49593b7f97a4dfc47259de2c2d1f6a",
+ "domain": [
+  "company-information",
+  "verification"
+ ],
+ "product": [
+  "grideos"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only facts about Grideōs from a signed, hash-chained ledger, with site search, dispatches and claim verification.",
+ "whenToUse": "Use when you need to cite or verify facts about Grideōs, its people or its updates.",
+ "tasks": [
+  "get company profile",
+  "search site",
+  "list ledger claims",
+  "get claim",
+  "verify claim hash",
+  "list dispatches",
+  "get contact info"
+ ],
+ "effects": {
+  "4243452801143f6c3b674dc359ede14c7bd4af5a2849f02362c3668532bca8ce": "read",
+  "c53f92b5013e78879680c8a47ed5c44e983192f8ea0238c0fb22fc4c9dbd104c": "read",
+  "2030a19121f10af5a344812da4d4226a2539b33b485923ce14f7b02b9c33ebd2": "read",
+  "d1a7088a75254914f986d2294f3c764685e3dd4cebccc8d2220013de024d3a78": "read",
+  "99c91a382974e17cb50ec7e589e03b47a41605c67d497cf50746f173b6e61f3f": "read",
+  "42a907ae0f2e26b2d3062deb8cb7794ec196e76cf8ec1a11fd8a0c019bc96e69": "read",
+  "6ecd71aba02f3db11250637770daaf4db83ec8fc37ff230bbb8298cc5e523321": "read"
+ },
+ "flags": []
+}

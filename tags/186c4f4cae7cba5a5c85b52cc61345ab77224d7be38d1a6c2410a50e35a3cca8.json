@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "186c4f4cae7cba5a5c85b52cc61345ab77224d7be38d1a6c2410a50e35a3cca8",
+ "domain": [
+  "data/validation",
+  "crypto/blockchain"
+ ],
+ "product": [
+  "nuban",
+  "base",
+  "ethereum",
+  "arbitrum",
+  "polygon",
+  "solana",
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Pay-per-call USDC API for Nigerian phone, bank account and ID format validation, EVM chain reads, and Solana token auditing and unsigned launch transactions.",
+ "whenToUse": "Use when validating Nigerian phone, NUBAN or ID numbers, reading EVM chain data, or auditing or preparing a Solana token launch.",
+ "tasks": [
+  "list nigerian states",
+  "phone lookup",
+  "nuban validation",
+  "identity number format check",
+  "evm balances and gas",
+  "block and transaction lookup",
+  "erc-20 balance",
+  "solana token audit",
+  "plan token launch",
+  "build unsigned launch transaction"
+ ],
+ "effects": {
+  "0ca820d468ab13e321c1225bb17e405ef63c7178009a67a899e9ec6ed3fc50c8": "read",
+  "bfb73c9422297f00450b948d3bd3b76001123e0c76e9f71c73e222e09039df3f": "write",
+  "ccdc642d4c7e88e96da21b0aa215a701e5afe50309f055a1faebe0a6db28b0e7": "write",
+  "361b0f79d8cc08e5308f676c7aceea36e9b73558e541c930581c9fe59ff942bd": "write",
+  "5a65eb38a95d6de7e13b21801d86db054840d75499815352f8365ab5ea3306bb": "read",
+  "26bdc5188a3ec64cb1a7205579704c17269ae39edd708b0d21412f62bd4a5d7b": "write",
+  "a1c61ae526d024f96b02d91d0759e5362b623df3a51876bf58971a38a264a4cf": "write",
+  "00df68752a2caf9aa4187e56c804a08447f4fa2ddb863a89d3c64c2047e289cc": "write",
+  "d34a4ff6172b446c2c0a412103b2922a91de72c03a6c5111a2f5467e03281ce2": "write",
+  "20c501ab33ccdb5c88eb938609d5b8a40b6bccd3e11e734c06ef5e2a583db8ee": "write",
+  "5ae28fda12fc54acb470f162b9d5bbcee2c40edf6c97563f7e7ff0c43c27f4de": "write",
+  "dfa5bc666bfbe1fd420f5ec1e872db3cc67daf9ced4d8fccf46842f2bce181c0": "read",
+  "3c8b165c27b4a2b6ca432fe8616fb7a2347bd28722bcdfa3a6542c0253248111": "read",
+  "91fc68fad3feab9dfc83956c7f58e79a965b6369d1d347baae62dd6ebfbed00d": "write",
+  "cf05a3114951194082b35045b72d34d148f5cd64235e9c8333003c5b4fadc207": "write"
+ },
+ "flags": [
+  "most tools charge USDC per call via x402"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "824250d8a89b2b08a7f4fcb4a3bce9e6193b2730a42e5afce5b4f0a1b328dae5",
+ "domain": [
+  "productivity/sharing",
+  "developer-tools"
+ ],
+ "product": [
+  "xi-pe"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Stores text at a short public URL that expires within 7 days, and reads or deletes pastes.",
+ "whenToUse": "Use when text needs to be shared as a link or handed to another agent or machine.",
+ "tasks": [
+  "create paste",
+  "read paste",
+  "delete paste",
+  "set expiry"
+ ],
+ "effects": {
+  "0a979736bb0a8e94ce6cccb424d7583823b87fccc31984072f5b55d8e76664ff": "write",
+  "bdd4804dd7e8a28aec6dea1ca563de29c684d5bc2826459a906ce63f222d7cba": "write",
+  "8aa2dd6dbd326bda977aaa4982e437ab4c4323396bf9d433a476b6fc7d5640c6": "read"
+ },
+ "flags": []
+}

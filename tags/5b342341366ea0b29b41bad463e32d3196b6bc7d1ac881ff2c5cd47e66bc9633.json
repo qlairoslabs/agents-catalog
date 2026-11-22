@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "5b342341366ea0b29b41bad463e32d3196b6bc7d1ac881ff2c5cd47e66bc9633",
+ "domain": [
+  "sales/crm",
+  "marketing/messaging"
+ ],
+ "product": [
+  "teleboost",
+  "telegram"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers",
+  "get-customers"
+ ],
+ "summary": "Telegram-based CRM for managing contacts, conversations, support tickets, campaigns and analytics.",
+ "whenToUse": "Use when a user runs customer relationships over Telegram and needs to manage contacts, tickets or campaigns.",
+ "tasks": [
+  "manage contacts",
+  "manage conversations",
+  "manage tickets",
+  "run campaigns",
+  "view analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

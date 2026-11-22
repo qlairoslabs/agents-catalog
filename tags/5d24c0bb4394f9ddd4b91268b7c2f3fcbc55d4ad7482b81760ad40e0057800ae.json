@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5d24c0bb4394f9ddd4b91268b7c2f3fcbc55d4ad7482b81760ad40e0057800ae",
+ "domain": [
+  "software/databases/postgres",
+  "software/kubernetes"
+ ],
+ "product": [
+  "alloydb-omni",
+  "kubernetes"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps create, manage and monitor AlloyDB Omni DBClusters deployed with the AlloyDB Omni Operator on Kubernetes.",
+ "whenToUse": "Use when a user operates AlloyDB Omni on Kubernetes through its operator and needs to provision or monitor clusters.",
+ "tasks": [
+  "create dbclusters",
+  "manage dbclusters",
+  "monitor dbclusters",
+  "work with alloydb omni operator"
+ ],
+ "effects": {},
+ "flags": []
+}

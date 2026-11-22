@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "8faf07de1f876475bbe6141db2f2e2c3d43c06fe4377ef5389101acab65d5f91",
+ "domain": [
+  "software/ai-agents",
+  "cloud/azure"
+ ],
+ "product": [
+  "microsoft-foundry",
+  "azure",
+  "azure-developer-cli",
+  "azure-ai-services"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Covers building, deploying, evaluating, fine-tuning and managing agents, models and resources on Microsoft Foundry.",
+ "whenToUse": "Use when working on Microsoft Foundry agents or models, including deployment, evaluation, prompt optimization, fine-tuning, quotas or RBAC for Foundry projects.",
+ "tasks": [
+  "scaffold and deploy hosted agents",
+  "create and update prompt agents",
+  "add tools to agents",
+  "run batch and continuous evaluations",
+  "optimize prompts and agent instructions",
+  "deploy models",
+  "fine-tune models with sft dpo rft",
+  "manage foundry projects and resources",
+  "configure rbac and role assignments",
+  "troubleshoot quota and deployment failures",
+  "create knowledge indexes",
+  "curate datasets from traces"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ea1c926b63cef763d652c4450d0b0e4f7bd87979d1eeec7c449dddeb63426580",
+ "domain": [
+  "software/databases/emulation",
+  "software/testing"
+ ],
+ "product": [
+  "dynamodb",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local DynamoDB emulator exposing DynamoDB operations to coding agents through MCP.",
+ "whenToUse": "Use when an agent needs a local DynamoDB for development or testing.",
+ "tasks": [
+  "create tables",
+  "put items",
+  "query items",
+  "scan tables",
+  "delete items",
+  "manage indexes"
+ ],
+ "effects": {},
+ "flags": []
+}

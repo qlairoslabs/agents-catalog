@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "16a20a295049357f4575e438d62e1340f8158b4d083c5a2580a301292f953c45",
+ "domain": [
+  "knowledge-management/wiki",
+  "productivity/workflow-automation"
+ ],
+ "product": [
+  "fakeparrot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Lets an agent search and edit a company's FakeParrot wiki and trigger its workflows using the signed-in employee's access.",
+ "whenToUse": "Use when an agent needs to find or update internal company wiki content or run a FakeParrot workflow on behalf of an employee.",
+ "tasks": [
+  "search wiki",
+  "read wiki pages",
+  "edit wiki pages",
+  "run workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

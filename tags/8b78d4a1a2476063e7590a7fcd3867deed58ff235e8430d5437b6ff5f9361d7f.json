@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "8b78d4a1a2476063e7590a7fcd3867deed58ff235e8430d5437b6ff5f9361d7f",
+ "domain": [
+  "home-services/handyman",
+  "travel-local/booking"
+ ],
+ "product": [
+  "taskman",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "schedule",
+  "get-paid"
+ ],
+ "summary": "Book London handyman, furniture assembly, wall mounting, electrical and smart home jobs, with quotes, availability, verification, deposit payment and booking.",
+ "whenToUse": "Use when a user in London wants a home-service job priced, scheduled and booked, or wants to check an existing booking.",
+ "tasks": [
+  "identify the right service",
+  "check postcode coverage",
+  "estimate price",
+  "check availability",
+  "match providers",
+  "submit booking request",
+  "verify customer by OTP or magic link",
+  "load saved addresses",
+  "start deposit payment",
+  "create booking",
+  "add CRM notes and tags"
+ ],
+ "effects": {
+  "bbf1d434d840059c0b5699ab1868fa42836f07e52ac0b69a4d0b592c862462a7": "read",
+  "7283affe65b25ef9856c31bf79abfd727256aaf1d10935acc2d084a20a798192": "read",
+  "b156e06075627408b2ccb0ac9788a67c57e48db0c7920ba2cc80e90b7d3918a5": "read",
+  "c06d65def3ca1bb5ed2858f7bfba11e713d12f241b6ec63b37d6b83ee7eb9273": "read",
+  "629bc3865fcbd1e96729abefd212cd2986bef013ce3e7f48de2b948d7366cb82": "read",
+  "723243519d3986f0fbe9f17baf90c962ea8da655868ea7e2901980dda7cd70fb": "write",
+  "c56e5fb2325fce54ce98af623c29f6f7297cc806ed8b218952597304170f0bdb": "read",
+  "6f99d7c344177bf8c6095f1077a8097748fcabb56a005cc879a8436d1dc582e5": "write",
+  "cf2a1b7d04b7fa369b2fb46e94a9124d8e3584ce8cb52ab7bfaa32fb656510b7": "write",
+  "8b864227338896430ef939e53ad3b14db9b2ec675ec95b968a53436b96594ef9": "write",
+  "76e3201fb234578934249783ce059354cb6e31d4732111d6385ab6aa541043fe": "write",
+  "472afb0773bf8188c88e21bb41d5df598db06b2cf69bdc7ad157b8711cafa166": "read",
+  "c3cfb82bd2ec321cd030b25d67f02f699a9ee96b8c97e91fe0de8022bb67f7b2": "read",
+  "18bfec64a65da169f8d490e690f5b1d429a5d5f62af4f223a7a2923885f5bb44": "read",
+  "8b9f8166b40186b3389bf4268173e1f866e9172fce79a873cca4077abff11a6e": "read",
+  "69c8b034dec02f75798e7e928c08260825c04a7000f301ae6ce902484b6b2f2e": "risky",
+  "c6673608174c5bed55daa7354a1f5634357db4765ad1f7e95d7db84df2e60789": "read",
+  "a0b70f574ecc493f105c28fc2a291d4c8d6dad1a75e89a76569733c6f3c403ec": "write",
+  "bb1bc6275be837a675148301ad740a6c7a84277d92219f8e63f7290765fac448": "write",
+  "8ba4d279e4b1379852051420b08dff35b03f926f758afa5fea73db808cbe0042": "write"
+ },
+ "flags": [
+  "start_trusted_phone_session opens a booking session without OTP verification, relying on the caller channel"
+ ]
+}

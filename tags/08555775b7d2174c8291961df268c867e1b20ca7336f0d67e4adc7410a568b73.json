@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "08555775b7d2174c8291961df268c867e1b20ca7336f0d67e4adc7410a568b73",
+ "domain": [
+  "software/containers/compose",
+  "software/databases"
+ ],
+ "product": [
+  "azure-sql-database",
+  "docker-compose",
+  "dev-containers"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds the Azure SQL Database container as a sidecar in Docker Compose or Dev Containers with healthchecks and database init.",
+ "whenToUse": "Use when wiring a SQL database service into an existing compose stack or devcontainer.",
+ "tasks": [
+  "add sql sidecar service",
+  "set linux amd64 platform",
+  "log in to private registry",
+  "add healthcheck wait",
+  "create appdb init service",
+  "configure depends_on"
+ ],
+ "effects": {},
+ "flags": []
+}

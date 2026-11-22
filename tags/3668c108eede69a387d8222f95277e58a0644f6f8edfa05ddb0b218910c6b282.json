@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "3668c108eede69a387d8222f95277e58a0644f6f8edfa05ddb0b218910c6b282",
+ "domain": [
+  "software/cybersecurity/setup",
+  "software/developer-tools"
+ ],
+ "product": [
+  "endor-labs",
+  "github",
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps set up and verify Endor Labs Agent Kit for Claude Code, including auth, namespaces and required CLI and MCP prerequisites.",
+ "whenToUse": "Use when installing or troubleshooting Endor Labs Agent Kit, checking Endor auth, or diagnosing missing endorctl, gh or MCP setup.",
+ "tasks": [
+  "check agent kit readiness",
+  "verify endor authentication",
+  "choose namespaces",
+  "diagnose missing endorctl",
+  "diagnose missing gh cli",
+  "check endor mcp configuration"
+ ],
+ "effects": {},
+ "flags": []
+}

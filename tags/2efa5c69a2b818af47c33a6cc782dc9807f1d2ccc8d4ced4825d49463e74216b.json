@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2efa5c69a2b818af47c33a6cc782dc9807f1d2ccc8d4ced4825d49463e74216b",
+ "domain": [
+  "marketing/advertising",
+  "marketing/analytics"
+ ],
+ "product": [
+  "google-ads",
+  "reddit-ads",
+  "google-analytics",
+  "google-tag-manager"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local server for managing Google Ads and Reddit Ads with GA4 and Tag Manager access, previewing changes before applying.",
+ "whenToUse": "Use when reviewing or changing ad campaigns and tracking setup across Google and Reddit.",
+ "tasks": [
+  "manage google ads campaigns",
+  "manage reddit ads",
+  "read ga4 reports",
+  "manage tag manager",
+  "preview changes"
+ ],
+ "effects": {},
+ "flags": []
+}

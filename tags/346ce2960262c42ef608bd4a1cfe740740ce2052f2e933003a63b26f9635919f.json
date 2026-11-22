@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "346ce2960262c42ef608bd4a1cfe740740ce2052f2e933003a63b26f9635919f",
+ "domain": [
+  "finance/crypto/trading-signals"
+ ],
+ "product": [
+  "three-ws"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Finds and ranks trading signal feeds and publishers on three.ws, with subscriptions and result tracking.",
+ "whenToUse": "Use when an agent needs to discover, rank or subscribe to crypto trading signals.",
+ "tasks": [
+  "discover signal feeds",
+  "rank publishers",
+  "subscribe to feeds",
+  "track signal results"
+ ],
+ "effects": {},
+ "flags": []
+}

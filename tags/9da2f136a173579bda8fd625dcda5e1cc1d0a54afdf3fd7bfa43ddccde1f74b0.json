@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9da2f136a173579bda8fd625dcda5e1cc1d0a54afdf3fd7bfa43ddccde1f74b0",
+ "domain": [
+  "software/cli-setup",
+  "science/computational-biology"
+ ],
+ "product": [
+  "boltz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Covers installing, updating, authenticating and troubleshooting the Boltz API command-line tool.",
+ "whenToUse": "Use when the boltz-api CLI is missing, failing to authenticate, or long-running commands need handling.",
+ "tasks": [
+  "install boltz-api cli",
+  "update and verify cli",
+  "authenticate via browser login",
+  "fix path and sandbox issues",
+  "run long-running commands"
+ ],
+ "effects": {},
+ "flags": []
+}

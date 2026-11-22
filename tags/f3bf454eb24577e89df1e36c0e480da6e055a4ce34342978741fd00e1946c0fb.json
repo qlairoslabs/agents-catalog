@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f3bf454eb24577e89df1e36c0e480da6e055a4ce34342978741fd00e1946c0fb",
+ "domain": [
+  "commerce/online-shopping"
+ ],
+ "product": [
+  "pastaclean"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Lets an agent search products and place orders at the pastaclean.tv shop on a customer's behalf, within spending limits the customer sets.",
+ "whenToUse": "Use when a user wants an agent to find and buy products from pastaclean.tv within their set limits.",
+ "tasks": [
+  "search products",
+  "place orders",
+  "respect customer spending limits"
+ ],
+ "effects": {},
+ "flags": []
+}

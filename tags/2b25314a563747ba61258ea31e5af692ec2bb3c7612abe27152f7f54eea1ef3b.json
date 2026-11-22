@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2b25314a563747ba61258ea31e5af692ec2bb3c7612abe27152f7f54eea1ef3b",
+ "domain": [
+  "finance/accounting",
+  "finance/bookkeeping"
+ ],
+ "product": [
+  "crane-ledger"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "build-software"
+ ],
+ "summary": "API-first double-entry accounting and bookkeeping engine exposed as many MCP tools over HTTP.",
+ "whenToUse": "Use when an agent needs to record transactions, manage accounts or produce books in a headless ledger.",
+ "tasks": [
+  "manage chart of accounts",
+  "record journal entries",
+  "manage transactions",
+  "produce financial reports"
+ ],
+ "effects": {},
+ "flags": []
+}

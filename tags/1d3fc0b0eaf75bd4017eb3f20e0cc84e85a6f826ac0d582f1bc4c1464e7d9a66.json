@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1d3fc0b0eaf75bd4017eb3f20e0cc84e85a6f826ac0d582f1bc4c1464e7d9a66",
+ "domain": [
+  "network/domains",
+  "network/dns"
+ ],
+ "product": [
+  "who.is"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Returns parsed WHOIS, RDAP, DNS, certificate, nameserver and history data for domains.",
+ "whenToUse": "Use when looking up domain ownership, registration, DNS or certificate details.",
+ "tasks": [
+  "whois lookup",
+  "rdap lookup",
+  "dns records",
+  "certificate lookup",
+  "nameserver lookup",
+  "domain history"
+ ],
+ "effects": {},
+ "flags": []
+}

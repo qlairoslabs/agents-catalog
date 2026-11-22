@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "2f1db8c951c26f8755683ae781257be18cd2daff93c5c164c6b1c6102c82aa4b",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "alice"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches flights by route, dates, passengers and cabin class, provided by the Israeli travel app Alice.",
+ "whenToUse": "Use when a user wants to find flight options for a given route and dates.",
+ "tasks": [
+  "search flights",
+  "filter by cabin class",
+  "set passengers and dates"
+ ],
+ "effects": {},
+ "flags": []
+}

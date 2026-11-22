@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "a4282e7e5e5ac73a5d4b0a6b25cdf12eb0f5cbe18c1d77c5a180b2234e00f26d",
+ "domain": [
+  "marketing/advertising/creative-generation",
+  "marketing/social-media",
+  "design/video"
+ ],
+ "product": [
+  "adgpt",
+  "facebook",
+  "instagram",
+  "tiktok",
+  "shopify",
+  "google-ads"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Generates and edits AI ad creatives (image, video, UGC presenter videos, ad copy) and publishes ads or organic posts to social platforms.",
+ "whenToUse": "Use when a user wants AI-generated ad campaigns or creatives for a product and to edit, resize, schedule or publish them to Facebook, Instagram or TikTok.",
+ "tasks": [
+  "register or log in to adgpt",
+  "generate full ad campaigns from a product url",
+  "generate image, video and ugc ads",
+  "upload product images",
+  "edit images, videos and narration",
+  "resize ads for platforms",
+  "manage brands",
+  "import product feeds",
+  "clone and remake existing ads",
+  "create tiktok ads",
+  "schedule and publish organic social posts",
+  "check live ad performance"
+ ],
+ "effects": {
+  "41e7bb0a3003a26578741aa5ff948dbed9930e7beb2ecbfa731e71598d157ed9": "read",
+  "6895a9a99008c4d24afd5d6d7e74f86bab9b49801d9598f0cf0079e3dbc20fdc": "write",
+  "770a65229671e6153e11eb8f4f36b3f21a2858896b75c915ffe6f5cf40e9ba93": "read",
+  "19485f9c9109be2a8310f00bc676fe9641f7f27f1bc8ebaa72b79490d25e24bd": "write",
+  "130ba6332339814b22750483d7dff8207aa68ce2c6e0b2b1a89937f7528b974f": "write",
+  "ec6d2750e05192066ae4eb8a4d6e9d79e71316d3f1b9624dc93c851816f45dec": "write",
+  "cc1dbd7b845c1668525b89496849f772fdd7823aa111c7a615dcf64c1c7cfff7": "write",
+  "86210638fa29cbb1f7950d1dcc9dcb3afd83e84477f6495df8e4d7a7422eef38": "read",
+  "010b68c03bd9c9ab740206d43e4e1597544525aa34e4e0a740c2ac2d2e19c48f": "write",
+  "47697f02082162c11e8b2c5f394f8e0aa018a3438fd8599f779b449fdc9cf25c": "write",
+  "4eabef3c2acd3243ea07c1a9b757972b290825e666f89a9c232bcc27bad28d7f": "write",
+  "d825a9a075ff7f268d773da1de1ef3b796bf25164df32fa8ae22974402b9e075": "write",
+  "21f79a1359739f96855b75b8b40b717d0a3aeb74fb1ad42dbda1e94b238b0fae": "read",
+  "acd79e140bc53066fedf77c52734a2ae707f0ea6f69d333cce50a8735f046405": "risky",
+  "b7b620c0f59814de7e5ef7475d0e9a4547373666891dc20e3cfa3619022537d1": "write",
+  "098db33aa58c7210c14039986f9b3f245950be2a9afdb3454cb97120ef9f6898": "write"
+ },
+ "flags": []
+}

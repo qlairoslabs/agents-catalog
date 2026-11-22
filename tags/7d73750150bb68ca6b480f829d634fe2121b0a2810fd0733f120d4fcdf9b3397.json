@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "7d73750150bb68ca6b480f829d634fe2121b0a2810fd0733f120d4fcdf9b3397",
+ "domain": [
+  "travel/accommodation/hostel",
+  "local/kochi"
+ ],
+ "product": [
+  "ashraf-gents-hostel",
+  "whatsapp",
+  "openstreetmap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Information on a men's hostel in Kalamassery, Kochi: rates, rules, local guides, nearby places and a prepared WhatsApp enquiry.",
+ "whenToUse": "Use when someone looks for men's accommodation near Kalamassery or Kochi institutions, or wants local area information.",
+ "tasks": [
+  "get hostel facts and rates",
+  "search local guides",
+  "read a guide",
+  "list nearby places and distances",
+  "prepare a whatsapp availability enquiry"
+ ],
+ "effects": {
+  "33cdf88750e86048887bc298a83a03c5fe83bdfcbf1a9dd671433cae6a1f4279": "read",
+  "c2e523e5352c3cde23541adb015b52e8c0297a3e06b1ee7441f3ee7b629ea3f1": "read",
+  "68effa11b4511c2fdb035c5829ee85efe87c53d871f257133f15a75dabccfd84": "read",
+  "3728c6d475f5d2d81ee73e9b25d3cf96dddb566edd7c585471d7923a88def677": "read",
+  "29229a24ed49a9951944d9981c2d36d0095574261bd1e7879972067ce157305b": "read"
+ },
+ "flags": []
+}

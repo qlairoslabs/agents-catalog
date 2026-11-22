@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "50308bfb7d5902412fd164d8fcdf6410ba7a01731f2344353ce94c5b8ac45f72",
+ "domain": [
+  "development/bug-tracking",
+  "development/user-feedback"
+ ],
+ "product": [
+  "vynix"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Gives AI coding agents access to Vynix visual feedback, bug reports and AI-generated diagnoses.",
+ "whenToUse": "Use when a coding agent needs to read bug reports or visual feedback captured in Vynix to fix issues.",
+ "tasks": [
+  "read visual feedback",
+  "read bug reports",
+  "view ai diagnosis"
+ ],
+ "effects": {},
+ "flags": []
+}

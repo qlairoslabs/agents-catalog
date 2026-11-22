@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3a6ee7a9e6b11cc8e1b6ab0ce32daacb3cb9b1ccdce1cbd5c6eff2dae3151396",
+ "domain": [
+  "real-estate/property-search",
+  "real-estate/valuation"
+ ],
+ "product": [
+  "somantic"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches German property listings and estimates the value of German addresses.",
+ "whenToUse": "Use when a user wants German real-estate listings or a valuation for a German address.",
+ "tasks": [
+  "search property listings",
+  "estimate property value"
+ ],
+ "effects": {},
+ "flags": []
+}

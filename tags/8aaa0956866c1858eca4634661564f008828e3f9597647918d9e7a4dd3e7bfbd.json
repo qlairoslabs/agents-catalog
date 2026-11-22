@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8aaa0956866c1858eca4634661564f008828e3f9597647918d9e7a4dd3e7bfbd",
+ "domain": [
+  "travel/etiquette"
+ ],
+ "product": [
+  "tippingrules"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives tipping customs for about 140 destinations and calculates a suggested tip for a bill.",
+ "whenToUse": "Use when a traveller asks how much to tip in a country or needs a tip calculated.",
+ "tasks": [
+  "search destinations",
+  "get tipping rules",
+  "calculate tip"
+ ],
+ "effects": {
+  "0fbb2978faf2648fa302a6025f5c8475f44b400439657d518a2b5bda8181e89b": "read",
+  "9133942f3647bdcc8824cbda4522b8b33d3f5ae4796392b66d6c2911bf8d2eb6": "read",
+  "95613b020bb3c8d7ca47606c8e7efe40510c1c5b355723e26e76058cd76a3b34": "read"
+ },
+ "flags": []
+}

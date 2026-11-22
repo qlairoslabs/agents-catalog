@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7554fd1aaa669154a4aea4b885d30f0baf5e92005859d8f4effe667c3096074d",
+ "domain": [
+  "software/api-marketplace",
+  "software/cybersecurity/osint",
+  "crypto/blockchain-data"
+ ],
+ "product": [
+  "x402",
+  "solana",
+  "base",
+  "usdc",
+  "sec-edgar"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Collection of about 1,014 pay-per-call tools paid in USDC on Solana or Base, covering web, security/OSINT, SEC and chain data.",
+ "whenToUse": "Use when an agent needs a specialized web, OSINT, SEC or blockchain lookup and can pay per call in USDC.",
+ "tasks": [
+  "web data lookups",
+  "security and osint lookups",
+  "sec data queries",
+  "solana and evm data queries",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

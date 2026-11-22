@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8081d99604d33ab90670537517d99cff67ed4ceb983feb6f5514294cda178ecb",
+ "domain": [
+  "design/website-feedback",
+  "support/client-feedback"
+ ],
+ "product": [
+  "huddlekit"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "support-customers"
+ ],
+ "summary": "Reads client feedback left on websites with screenshots and page context, and lets you reply and resolve it.",
+ "whenToUse": "Use when an agent needs to review, answer or close client feedback on a website project.",
+ "tasks": [
+  "read website feedback",
+  "view feedback screenshots",
+  "reply to feedback",
+  "resolve feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

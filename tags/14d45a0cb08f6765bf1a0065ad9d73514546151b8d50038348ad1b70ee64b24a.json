@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "14d45a0cb08f6765bf1a0065ad9d73514546151b8d50038348ad1b70ee64b24a",
+ "domain": [
+  "software/ai-agents/sdk"
+ ],
+ "product": [
+  "claude-agent-sdk"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Development kit for building applications with the Claude Agent SDK.",
+ "whenToUse": "Use when creating or working on a project that uses the Claude Agent SDK.",
+ "tasks": [
+  "set up agent sdk projects",
+  "build claude agents",
+  "check agent sdk usage"
+ ],
+ "effects": {},
+ "flags": []
+}

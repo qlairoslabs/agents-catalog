@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "dca1799df2acdf7cfc3607c9de4b20c399027e8e638875c5d1c6fad33757626a",
+ "domain": [
+  "software/cloud-distribution",
+  "operations/subscription-management"
+ ],
+ "product": [
+  "sherweb"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Manages Sherweb cloud subscriptions and orders, authenticated with OpenID Connect.",
+ "whenToUse": "Use when an agent needs to view or change Sherweb customer subscriptions or orders.",
+ "tasks": [
+  "list subscriptions",
+  "manage subscriptions",
+  "place orders",
+  "track orders"
+ ],
+ "effects": {},
+ "flags": []
+}

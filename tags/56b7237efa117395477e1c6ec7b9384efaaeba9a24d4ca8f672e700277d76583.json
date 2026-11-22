@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "56b7237efa117395477e1c6ec7b9384efaaeba9a24d4ca8f672e700277d76583",
+ "domain": [
+  "research/social-listening",
+  "marketing/social-media"
+ ],
+ "product": [
+  "superpowers-social",
+  "x",
+  "reddit"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only connector for live research on X/Twitter and Reddit.",
+ "whenToUse": "Use when an agent needs current posts or discussions from X/Twitter or Reddit for research.",
+ "tasks": [
+  "search x posts",
+  "search reddit",
+  "research social trends"
+ ],
+ "effects": {},
+ "flags": []
+}

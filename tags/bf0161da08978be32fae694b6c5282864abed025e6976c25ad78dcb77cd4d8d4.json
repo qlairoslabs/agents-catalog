@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bf0161da08978be32fae694b6c5282864abed025e6976c25ad78dcb77cd4d8d4",
+ "domain": [
+  "software/domains/dns",
+  "communication/email"
+ ],
+ "product": [
+  "domani",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Registers or brokers domains and sets up email and DNS for AI agents, paid by card or USDC.",
+ "whenToUse": "Use when an agent or user needs to register a domain, configure DNS or set up email.",
+ "tasks": [
+  "register domains",
+  "broker domains",
+  "configure dns",
+  "set up email",
+  "pay by card or usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

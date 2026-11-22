@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "d9dca66b1426f8ce07bf4a339c6075cb7d51cff1b4a0004c218cb5823981d882",
+ "domain": [
+  "events/aviation",
+  "travel/leisure"
+ ],
+ "product": [
+  "events-aero"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search of public aviation events such as airshows, fly-ins, workshops and club meets, with event details and links.",
+ "whenToUse": "Use when someone wants to find upcoming aviation events by place, date, type or distance, or needs details about a specific event.",
+ "tasks": [
+  "search aviation events",
+  "filter by type, country and date",
+  "search near a location",
+  "get event details",
+  "get fly-in info like ppr and landing fees",
+  "list featured events",
+  "list event types",
+  "list supported countries"
+ ],
+ "effects": {
+  "7bfa6ff46a0a4c366a1f0f83c2aa0b852bc9ce60f0323eb0e814be33da837246": "read",
+  "0d062c6b34114feee391ba3eac8e29e7f1690d1270c2a883db4e73ebf0646e4b": "read",
+  "ab9a3f17cde2c9482e2748e4641656a991594fcc3b51a21190265a4ff4b30db8": "read",
+  "2e1ba6dc8535ba730b581e1872d88b7e3031b9e7c0adae4f08ec7d932ffdc801": "read",
+  "511c2ef6a132b2f1132f908248d13ba6dee01832d612a2cbbaf790df6670848c": "read"
+ },
+ "flags": []
+}

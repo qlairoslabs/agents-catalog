@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9a13115cc7bd5d7a067390970e3e603b7113819e659d301c883f8c5f59f89acf",
+ "domain": [
+  "media/video/editing"
+ ],
+ "product": [
+  "adobe-premiere-pro"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Local server for working with Adobe Premiere Pro projects in supported workflows, starting with a read-only connection check.",
+ "whenToUse": "Use when an agent needs to inspect or automate editing work in Adobe Premiere Pro.",
+ "tasks": [
+  "check connection",
+  "inspect project",
+  "automate editing steps"
+ ],
+ "effects": {},
+ "flags": []
+}

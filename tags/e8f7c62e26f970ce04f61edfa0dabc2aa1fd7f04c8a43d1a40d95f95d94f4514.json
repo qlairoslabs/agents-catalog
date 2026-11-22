@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e8f7c62e26f970ce04f61edfa0dabc2aa1fd7f04c8a43d1a40d95f95d94f4514",
+ "domain": [
+  "education/study",
+  "ai/tutoring"
+ ],
+ "product": [
+  "llamanotes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "AI study helper for the user's LlamaNotes courses offering chat, progress tracking and course generation.",
+ "whenToUse": "Use when a learner wants to study, check progress or generate courses in LlamaNotes.",
+ "tasks": [
+  "chat about course material",
+  "track study progress",
+  "generate courses"
+ ],
+ "effects": {},
+ "flags": []
+}

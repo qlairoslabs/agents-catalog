@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "116f02d8a6ef74e7a824c56c834d7cc90811c123e15352f5be7a194142da4bf7",
+ "domain": [
+  "iot/device-management"
+ ],
+ "product": [
+  "nodle"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Accesses fleets, devices, detections and webhooks on the Nodle Bluetooth Low Energy network.",
+ "whenToUse": "Use when an agent needs to monitor or manage BLE device fleets and detections on Nodle.",
+ "tasks": [
+  "manage fleets",
+  "view devices",
+  "read detections",
+  "manage webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

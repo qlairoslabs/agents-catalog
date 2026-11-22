@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "dd2e8f0160e56e3cd2a81a1d6da0ce2efffd158f46b484e2ca18bc4194497d61",
+ "domain": [
+  "mobile/battery-statistics",
+  "research"
+ ],
+ "product": [
+  "batterysnap",
+  "android"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Crowdsourced Android battery statistics by brand, model, device and region with rankings and device comparisons.",
+ "whenToUse": "Use when comparing phone battery life, charging speed or temperature or checking whether a device is normal.",
+ "tasks": [
+  "list brands",
+  "list models",
+  "list devices",
+  "device summary",
+  "model summary",
+  "fleet totals",
+  "regional comparison",
+  "rank devices",
+  "rank models",
+  "device percentile",
+  "search models"
+ ],
+ "effects": {
+  "5ed79b2321a8338f212c7ad74cf63910b829902712ce257844b5b34c556e2bc2": "write",
+  "88cab0b711025d992ee2269ea51e095eff703b666be7991832d5712d2502db36": "write",
+  "316299a7b439dedab20ec89aba74dc1864c0509dc368d51404434025b1d62054": "write",
+  "711181f3dfa033a6e3c00d86f447a17fa353f173d36654fde5dae0ebedfd456d": "read",
+  "ebc094f5cde5fdb4a4643af0cebf6f38725d01ff2f53e0289d9c2b5fbd83a7fe": "write",
+  "862fff923b2c5778a93180e8eb0f31ce6499088ff79283fe985ec738cd3556f2": "read",
+  "858003b32b5c4b7b63412663f49163c9d9053ef27b963f0e4e29644c85b26002": "read",
+  "99da6057ec2149f0ce3fa2e751d5a471e55538680750d95ffcbd2fd9bd355ab9": "write",
+  "951ba235879fc8afcc199d2ee7b6de1a9bb41185f96717bfb69a410d7b4e089c": "read",
+  "1c539b7918c7cd9e39c2152c7ee3a786edd726e97f00b0c6ae731f6884e6ddff": "read",
+  "da634514307127ee04c54cc736ae3ab288abda3a20ab8053efb6186dea48b7f2": "write",
+  "3b94b03ba3a71fc933eb7fcb26e5c4e286f7f522b4805ebe1e0a359a54d8767f": "read",
+  "67aac9bd46bd96fdd92791e905177c0da9c131e1b53089d3ee0c0877aed90c80": "read",
+  "7a7e4d5a462ad7a53cd970be27d04b210cbb85b66f26e6fe57a615c7141fd7e2": "read"
+ },
+ "flags": []
+}

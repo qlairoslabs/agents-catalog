@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "86e58024ed2ad4859694b31faee6ce25874de34c165bcaafa9e700dd1d04ff00",
+ "domain": [
+  "data/economics",
+  "finance/public-data"
+ ],
+ "product": [
+  "bcra",
+  "indec",
+  "cnv",
+  "mecon"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides official Argentine economic and financial data from BCRA, INDEC, CNV and the economy ministry.",
+ "whenToUse": "Use when you need official Argentine economic or financial statistics.",
+ "tasks": [
+  "query central bank data",
+  "query inflation and statistics",
+  "query securities regulator data",
+  "query economy ministry data"
+ ],
+ "effects": {},
+ "flags": []
+}

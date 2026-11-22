@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9e780a2676579670e4d81e1576268a29a08aa97a173ac33b7000471a3780561c",
+ "domain": [
+  "media/memes",
+  "marketing/social-content"
+ ],
+ "product": [
+  "memebo.at"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches memebo.at meme templates and creates shareable captioned memes with fonts and image effects, anonymously.",
+ "whenToUse": "Use when someone wants to find a meme template or generate a captioned meme image with a shareable link.",
+ "tasks": [
+  "search meme templates",
+  "get template details and origin",
+  "create a captioned meme",
+  "apply image effects like deep-fry"
+ ],
+ "effects": {
+  "3c5ae451124577bb55a8d7194f37c0a139e5dca087769736106bc8dc54069432": "read",
+  "95f78016bd86d83b504160670e930e8d8eff8d1a545f1c25b67d01e5d4746943": "read",
+  "ed12bc176bbf38de6f8147f45e4a305740d714d5881fbad2fb537ffb27505016": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "f9d783eda4ae3ac21fb5968da887aa781cb8b5dd3bbe03ccf4665e32257af5c6",
+ "domain": [
+  "finance/precious-metals",
+  "ecommerce/bullion"
+ ],
+ "product": [
+  "bullion-trading-llc"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Read-only access to a New York bullion dealer's spot prices, catalog, premiums, buy-back rates, policies and news, plus cart link creation.",
+ "whenToUse": "Use when a user wants gold, silver, platinum or palladium prices, product options, sell estimates or a cart link.",
+ "tasks": [
+  "get spot prices",
+  "search products",
+  "compare premiums",
+  "estimate buy-back",
+  "plan budget",
+  "estimate sales tax",
+  "view price history",
+  "read market news",
+  "prepare checkout link"
+ ],
+ "effects": {
+  "df2a6c3fb48af751d8272697bc6e8f2e5a20fbdcd4e916d527421f1cd7a0833d": "read",
+  "7a865d1c4519d61a1229207477ab65451516ac5e810b78b071f6adf01598b865": "read",
+  "f20ce68831491c46131c8206817bdfddc6c39c2ea57ebd41b1f10303f8afacd1": "read",
+  "db2eced8cce833fa0f6eca101924908f922c1ebd27b7129eb7a66914634dad71": "read",
+  "26c5c2d557da244c5c9b7025ba99784e1133db857e393bbf884afa84408e3eb8": "read",
+  "576100ff12fe8da986dbbdf7f0db9fdc0cac8a3e096e764253fb388a5c85e5d9": "read",
+  "f4f0bc1ff3f878239cd6eefff45343b37837d98151bbb1ccd4690e605e58a219": "read",
+  "273442aaa1ed32ad28d0af482478aadd9bb70941a3df185e5203f9055b2d0369": "read",
+  "61a738c0f7d3a72b21f6d70cdc9f8261557dd1a970ecc6dd5e4b40b9df62ec9d": "read",
+  "36e9a7de190d51e2bf680c0f8d9cac564e88bf47e706da683b0c100cb988b2b1": "read",
+  "c38bce74cafcbb2105317198a8d5934db918db324a3e0ac4fc3c27c5043cedae": "read",
+  "a2c85a8506cc87081bca5114b44c92c6052ab66d5df342d967348174d6bcc76b": "read",
+  "49d931add160199b0990bf8f4306474fe69d57ad3331c4fca7682c67a6f7a2bd": "read",
+  "8e829d89917659b3f9656063be7689b7400bdaa1efca04eab39dca09cb36f68d": "read",
+  "bc9c25c9b069ab997065abcb7a621448a7fa790d4fe524cf033d01ded2d722d7": "read",
+  "b647da9aa0ecf178cef189ae946e9eed572d360d714b85277ae03b11cfe963cf": "read",
+  "024c18fbbf200cfd56189f2ce0ff5bbe07bbf9039ceb423e676ba7965039a680": "read",
+  "43b1e6902d0f73014e5d2c3ad711d3e9905fe0615f694a9ae159681f8442c9c6": "read",
+  "86f1bf2c56adfd260c96893572e6581afcf8d31956100b0e23a4527414c50d75": "write",
+  "61930949cb055ffaa4f0d994522e4ed2a8b723493bd24183e8a23685dabe487a": "write"
+ },
+ "flags": []
+}

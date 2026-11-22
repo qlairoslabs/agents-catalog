@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "60346f07a7b38797397fbcee10fa80832d3f83ff67790b73e99b515898299428",
+ "domain": [
+  "design/pixel-art",
+  "design/image-generation"
+ ],
+ "product": [
+  "retro-diffusion"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates pixel art such as sprites, animations and tilesets.",
+ "whenToUse": "Use when the user needs pixel art assets for a game or design project.",
+ "tasks": [
+  "generate pixel art sprites",
+  "generate animations",
+  "generate tilesets"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b8dbb120c216f530505459250581bba90e854f2ef7d4989ebc4e94abe7a937fd",
+ "domain": [
+  "software/cybersecurity",
+  "network/ip-intelligence"
+ ],
+ "product": [
+  "ip99"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Looks up an IP address for risk score, proxy/VPN/datacenter detection, network details and geolocation.",
+ "whenToUse": "Use when you need to assess the risk or location of an IPv4 or IPv6 address.",
+ "tasks": [
+  "look up IP risk score",
+  "detect proxy or VPN",
+  "get ASN and usage type",
+  "get geolocation"
+ ],
+ "effects": {
+  "2eef88e4c117baf1dd8092d8fd2769c562292b3df6cb83319c1023fd2c7533b9": "read"
+ },
+ "flags": []
+}

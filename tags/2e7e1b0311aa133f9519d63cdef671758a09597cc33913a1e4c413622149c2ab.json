@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2e7e1b0311aa133f9519d63cdef671758a09597cc33913a1e4c413622149c2ab",
+ "domain": [
+  "web/website-builder",
+  "web/hosting"
+ ],
+ "product": [
+  "aveiro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Creates, updates and publishes hosted websites through the Aveiro API.",
+ "whenToUse": "Use when a user wants an agent to build or update and publish a hosted website.",
+ "tasks": [
+  "create website",
+  "update website",
+  "publish website"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "0a5fef139b46c87b9b5ba4fe99f3a6a160dbb9195227e3fdde1004e6a9c6b32f",
+ "domain": [
+  "marketing/press-placements",
+  "reputation-management"
+ ],
+ "product": [
+  "essentras",
+  "google",
+  "instagram",
+  "wikipedia"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Buy press placements in vetted media outlets, plus free checkers for Knowledge Panel readiness, review removal, Wikipedia notability, account recovery and removal routes.",
+ "whenToUse": "Use when pricing media coverage or assessing a reputation, review, Wikipedia or account-recovery problem.",
+ "tasks": [
+  "search outlets",
+  "price placement basket",
+  "list services",
+  "quote a service",
+  "Instagram recovery route",
+  "Knowledge Panel readiness",
+  "review removability",
+  "Wikipedia notability",
+  "find removal route"
+ ],
+ "effects": {
+  "c8af32a0ab5e70fb0227e8b1a0d95fb4b72fbfa4b4e62fb95d27f2bf6d9518a7": "write",
+  "f046f8ef377533578b95ab5ca7f36a6921f1dbba8933ad9a8d860f337d2d48bc": "write",
+  "6c4155571b25c6e9b279d93f043e288d2c236cc3f5e1b00ef7e420b05f93292f": "write",
+  "023fbe9aa71f8587e6f64cbcd74ff5493fa542fe1cff0f13335f6ff2502fc22a": "write",
+  "ee0af223a8d58878c4f3cefd67fc8ceadcbc91f96501a9a851b8c7bf2bf6ec38": "write",
+  "c8d7a00712af17660adef9a18c036462840acf2b7f3e729c965d7b27c2f870d7": "read",
+  "a2e9d4ba50da3655bde5eab6b49c36a846262d9eb26ae233cf11d24dc8c0a9d3": "read",
+  "9a57d05038daac8527608382a6ce817a1289be1e2365250bda77002a12ecaeed": "read",
+  "56354aad495a15af95e1594db5501d08425cc84713d88e0cf03e694dd415094d": "read",
+  "05a5defd615fe2d4a3a1086881cc968e59d3d215f55e56aa689c6c9cf7dbf0f9": "read"
+ },
+ "flags": []
+}

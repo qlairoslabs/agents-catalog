@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "79a2c7ea938722563fb8f94f9e76626fa21a4368779c9fc70910935aaafc9ba9",
+ "domain": [
+  "product-research/ux-review",
+  "design/annotated-screenshots"
+ ],
+ "product": [
+  "cobalt-capture"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Build shareable annotated-screenshot reviews and site studies, render pages into screenshots, mark them up, test signup emails and export reports.",
+ "whenToUse": "Use when an agent must document a site study such as a usability or pricing review as a shareable report with screenshots and notes.",
+ "tasks": [
+  "create review",
+  "capture page screenshots",
+  "add notes",
+  "annotate screenshots",
+  "edit and reorder items",
+  "fetch review",
+  "search published studies",
+  "run study playbooks",
+  "create temp inbox",
+  "read inbox",
+  "email review link",
+  "export to PDF or Word"
+ ],
+ "effects": {
+  "9aad13b83471c2f0bdcd7f5284dad534ba28966cb9e9e7dc34c535e4d300c6f5": "read",
+  "d46650f2144604fd559bfe604b4e7dfb5c0ddca3ae00527f961f87bbdbb671a1": "write",
+  "afb3bd8f2274f104f8a281b85df1cd8a896efc25d981d280c3f77e761c9e911f": "write",
+  "052c78b088361ed7cdd7462e5f61631bf718d769498b5c69c2286c26923c503c": "write",
+  "adb47a85f1138dadf1a81b332d55fe787a788f73944384dbba97ec5d4fac9d17": "write",
+  "67dbee927db83e80fe1176b4d62a1ce1a827b77eb03cc35fa40efea986399cb4": "write",
+  "bce3badf6d45b12e603215a3689351a9b0025452af1f8e68791a82e1ed7bfd61": "write",
+  "caf7131d0d1b79004430571fcfaf12d2ea7dc918d7aef1199f6a976ebc3e82e9": "read",
+  "b78bc9d85101d9bb80d8ee25054b8771d0556830cf9c72b2c9b0b77a272268eb": "read",
+  "dd5d50aaa1d292a246a05b0c13519bbc431f93501635b30a8b9763248bfea3fa": "write",
+  "2da2a72f953d18771c918d14148881570a898a1b4d1b5537dbf440eeb6f6f376": "read",
+  "2534da4ef3065592059a0633a268449f2fc3f98ed3a15e0ccc9c0caba7cbd922": "write",
+  "4814996a20c70e38fdba9d85ceff1cede08d3f7c23f7d83f2cc2949a7f5bfdeb": "write",
+  "bab49661ee03f202bff7644be6c895ddd576ffb2523df5ed6844749ade3d6f0d": "write",
+  "c59575838a8b5562e96b00c54b53ea661940083a4317b7b1c05f2b95fae1652c": "write",
+  "df715a8cb347beaa5b89cfe83a4000e44a28ff07d15a7cbf671c3c49a3d6612e": "write",
+  "e8848c020e4847a8d889dd38d236dc6e46d28a2039a8bb783db29ad50e049f5d": "read"
+ },
+ "flags": []
+}

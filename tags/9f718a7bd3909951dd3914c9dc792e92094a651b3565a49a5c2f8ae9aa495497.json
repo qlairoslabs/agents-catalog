@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9f718a7bd3909951dd3914c9dc792e92094a651b3565a49a5c2f8ae9aa495497",
+ "domain": [
+  "business/erp"
+ ],
+ "product": [
+  "odoo",
+  "erpipe"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Connects agents to one or more Odoo instances with gated write operations.",
+ "whenToUse": "Use when reading or updating records in an Odoo ERP system.",
+ "tasks": [
+  "query odoo records",
+  "update records with approval",
+  "work across multiple instances"
+ ],
+ "effects": {},
+ "flags": []
+}

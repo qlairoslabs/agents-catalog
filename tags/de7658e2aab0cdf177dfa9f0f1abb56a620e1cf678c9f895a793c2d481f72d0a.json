@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "de7658e2aab0cdf177dfa9f0f1abb56a620e1cf678c9f895a793c2d481f72d0a",
+ "domain": [
+  "digital-signage/display",
+  "data/dashboards"
+ ],
+ "product": [
+  "agentview"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Lets AI agents push HTML, dashboards and live data to physical screens.",
+ "whenToUse": "Use when an agent needs to show content or dashboards on a connected display.",
+ "tasks": [
+  "push html to screens",
+  "display dashboards",
+  "show live data"
+ ],
+ "effects": {},
+ "flags": []
+}

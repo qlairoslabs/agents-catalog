@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "00eb6256c7ff7449ee94558196c4a6f98e61914b3602833b5d74b2304213bfcd",
+ "domain": [
+  "software/frontend",
+  "software/documentation"
+ ],
+ "product": [
+  "svgrid",
+  "svelte"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Documentation search, demos and a code checker for the SvGrid Svelte 5 data grid, validating generated code against the real API.",
+ "whenToUse": "Use when writing or reviewing Svelte code that uses SvGrid, to get correct API names and verify the code.",
+ "tasks": [
+  "search docs",
+  "fetch doc pages",
+  "list demos",
+  "get demo source",
+  "get API reference",
+  "check SvGrid code",
+  "preview a grid"
+ ],
+ "effects": {
+  "e005b9104fd2c996f65b7fb569cc0484eaaa5f9a7c90e471b8c583f2c9bd1e95": "read",
+  "a0ef0d9f94325b5f296a3797611122d90fae64cf96e15f46a528391bbff92ef1": "read",
+  "7094740305542394481b5b8b652a6718cdc6dc359396a8260762e7b74c238396": "read",
+  "254111e9a31ef23a1d11a5808cfd54d1ba9b206e051bfc0cd346f85b93fb461f": "read",
+  "a97548794efe8f906e44726694b6076ea820671ed2d6ecd1e2893b40160d4e17": "read",
+  "cb16abc037b9c43f49ec1a73faa3cd72610a5189b1e2353e11cf020ac75cfc38": "read",
+  "51015d1708b17034b767e0567170946882b3cba305c80cb25ade7ab964ae040f": "read"
+ },
+ "flags": []
+}

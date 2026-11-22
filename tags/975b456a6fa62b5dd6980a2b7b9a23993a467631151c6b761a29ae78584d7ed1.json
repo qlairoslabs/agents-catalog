@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "975b456a6fa62b5dd6980a2b7b9a23993a467631151c6b761a29ae78584d7ed1",
+ "domain": [
+  "finance/payments",
+  "finance/operations"
+ ],
+ "product": [
+  "airwallex"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Fallback Airwallex skill for ad-hoc API operations, troubleshooting and areas like payment links, refunds, disputes and spend management.",
+ "whenToUse": "Use only when an Airwallex task does not match a dedicated Airwallex workflow skill.",
+ "tasks": [
+  "list and get airwallex objects",
+  "update or delete records",
+  "void or cancel transactions",
+  "create payment links",
+  "handle refunds",
+  "manage disputes",
+  "manage spend",
+  "pull financial reports",
+  "troubleshoot api issues"
+ ],
+ "effects": {},
+ "flags": []
+}

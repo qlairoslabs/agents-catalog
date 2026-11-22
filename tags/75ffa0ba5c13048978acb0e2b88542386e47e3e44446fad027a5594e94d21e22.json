@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "75ffa0ba5c13048978acb0e2b88542386e47e3e44446fad027a5594e94d21e22",
+ "domain": [
+  "software/code-search",
+  "software/cybersecurity/vulnerabilities"
+ ],
+ "product": [
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches public open-source code, docs, package metadata, vulnerabilities, changelogs and usage examples.",
+ "whenToUse": "Use when an agent needs real-world code examples or package info while writing or upgrading code.",
+ "tasks": [
+  "search open-source code",
+  "search documentation",
+  "get package metadata",
+  "check vulnerabilities",
+  "read changelogs",
+  "find code examples"
+ ],
+ "effects": {},
+ "flags": []
+}

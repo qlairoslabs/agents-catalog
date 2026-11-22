@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8218a64f5e2f4656a7e3c62248d1a13af276112c74c052fc40916f2c94cf05e7",
+ "domain": [
+  "legal/immigration",
+  "travel/relocation"
+ ],
+ "product": [
+  "expatriator"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Spanish and Portuguese immigration pitfalls, step-by-step procedure guides, and live Madrid padrón appointment availability.",
+ "whenToUse": "Use when a user asks about Spanish immigration procedures like NIE, TIE renewal, nationality or padrón, or needs a Madrid padrón appointment.",
+ "tasks": [
+  "search immigration gotchas",
+  "list procedure guides",
+  "get procedure guide",
+  "check Madrid padrón appointments"
+ ],
+ "effects": {
+  "db32ab12ab89dd99f16623dc5d859fa6bb3e77fe22a6e055aa1f02cbab781d76": "read",
+  "0d86daa1f9e173d55640593c5a2bc880ab2a260466f8ae5e085472071699b96f": "read",
+  "e501dbc683cfae24aa8151bb9d3a96d0e51107c8bd41d4013bbc57eda85144e5": "read",
+  "b8d2ee19368f6a2b609f3e6e6afd1166d3cd92c18bce62ad56ad1d4b0d542a11": "read"
+ },
+ "flags": []
+}

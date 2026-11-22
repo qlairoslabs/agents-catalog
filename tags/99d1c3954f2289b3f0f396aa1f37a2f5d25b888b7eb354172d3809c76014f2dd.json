@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "99d1c3954f2289b3f0f396aa1f37a2f5d25b888b7eb354172d3809c76014f2dd",
+ "domain": [
+  "music/audio-analysis"
+ ],
+ "product": [
+  "spotify",
+  "rekordbox",
+  "serato"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Track audio features (BPM, key, energy, mood), catalogue search, similarity, and harmonic DJ set building, as a replacement for Spotify's audio-features API.",
+ "whenToUse": "Use when you need tempo, key or mood data for tracks, similar tracks, or a harmonically mixed DJ setlist.",
+ "tasks": [
+  "get audio features",
+  "batch audio features",
+  "search catalogue",
+  "find tracks by bpm",
+  "find tracks by key",
+  "discover tracks by criteria",
+  "find similar tracks",
+  "search by description",
+  "compatible keys",
+  "score transitions",
+  "build setlist",
+  "related artists"
+ ],
+ "effects": {
+  "b207347672207f72d1369d685cefbb27ca706e16789e777d1a53d710fcda1b07": "write",
+  "9eaa1f5b464a4c01e87f4f70a53d61ce8e96555222259d39d5312f37591ce3e3": "write",
+  "6a88cea9ce76503d3aed11c8d415ecefa5a53f0fed807747dc00a8abbd6b53a2": "write",
+  "12d9b765f616ff36009169f0137b1a58a25590e6353d13fafe14f47805cc5b0f": "read",
+  "c98f7aaacf2983d2f696701afd87212f14cb87a7cb29f7660f72faff01429d4b": "read",
+  "99255a86762b576f5abcf5415488dad86a24e372147b918c4cee82141b7044cc": "write",
+  "bb9b3598c789633321f4f9f8bed5e8a7695abc3e4a15c1a2eb3fbd7c4addc00d": "write",
+  "5067ddb389197dc0da92d45accb8bbdbbe842656e6119dc86a19431b7e0e3c31": "write",
+  "bfec45c160c38c2612abe3fd4dc9fc8b94427a5f70e0c096f88ff9eaa2422a83": "read",
+  "ff636088b7894d5e64f360289df6a953b53c9b1abbee24113317c384c7885d1c": "write",
+  "7f18c430a0f0576c4cb4b41b7ac99963cacc7a601d186f085cfc4be31150a314": "write",
+  "5e0ef15dc5507d54e687b91be7b18154ad61784cb985f17cbdf66d1016ef8a05": "write",
+  "8b3543cd581a2279e93ab00a6b297bcbba7ad30a08f4dbd4b0c4741ebabe1832": "write",
+  "6a8c77a014b6d72fa7644f8c9c4e6a6810d92a4a2b04fa5da1234ac8835036e7": "write",
+  "ade4412b120b7f06a99b6c26668ac74b5f088c6a285302d0bde2857ddc24e49a": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "119e6285c5555dc607a9806af48f4aeb58f86bd3f54644233d2d8c0e0fc4bf10",
+ "domain": [
+  "knowledge/wiki",
+  "software/knowledge-management"
+ ],
+ "product": [
+  "kcp",
+  "cantara"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Exposes the Cantara Norwegian open-source community wiki as a KCP knowledge web, with tools to plan, load, trace, validate and replay knowledge loads.",
+ "whenToUse": "Use when you need to look up Cantara community wiki knowledge or work with KCP knowledge.yaml manifests.",
+ "tasks": [
+  "plan knowledge loading",
+  "load knowledge units",
+  "validate manifest",
+  "trace gate decisions",
+  "replay saved plan"
+ ],
+ "effects": {
+  "41c570b3aa5f9eb5b2eb7f9500b1f7b24f2c0343ba5ef6eda59343b3a9f77f5f": "read",
+  "90dff8467734eb34d2303483d15cc1682188fc593905773075e99f629d04b7ca": "read",
+  "eb4cd9292c47d66d98ad6edc94f26160c09260d9a874698db91134c0022c0f2e": "read",
+  "75cb270c8321ec4d2ebb01382dc5f0214195db6e03f0e02baa64a8411dc8c50f": "read",
+  "27f90aa7e8cd9c2af666e7a3e04dd714bcaa58815865d10750b1d992cdbad3db": "read"
+ },
+ "flags": []
+}

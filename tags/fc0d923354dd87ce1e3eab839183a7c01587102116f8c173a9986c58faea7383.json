@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "fc0d923354dd87ce1e3eab839183a7c01587102116f8c173a9986c58faea7383",
+ "domain": [
+  "lifestyle/religion/hindu-calendar",
+  "lifestyle/astrology"
+ ],
+ "product": [
+  "hinducalendar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Computes Hindu panchang, festival dates, muhurta windows and birth details using the HinduCalendar app's engine.",
+ "whenToUse": "Use when a user asks for Hindu festival dates, daily panchang, auspicious timings or birth nakshatra and rashi.",
+ "tasks": [
+  "get daily panchang",
+  "find festival dates",
+  "list muhurat windows",
+  "compute birth nakshatra and rashi",
+  "get current choghadiya and hora",
+  "find rahu kalam"
+ ],
+ "effects": {
+  "5203937d88ddbf9cf889480d4ff3173b84fdda498d941ab8baee6b6c61bf3f0d": "write",
+  "ce14cff203d508a07aa35516a1a36b1ce9759c04ac1d74210ff78309e45ec40c": "write",
+  "f47a0bbf7453f04d258c7826ef23fc4ebbcbdf6aff4015e5f8941f61e1e97108": "write",
+  "a7e4610fe82f2e60316ea5f7e400855b913efc566c3c64d61ffd712dffceb936": "write",
+  "190e661b583fd84574a6251460675f574971ef08c863d2058873fb5e471dd230": "write"
+ },
+ "flags": []
+}

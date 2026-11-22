@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "c13b9166be726cbce14c67aaff5bca976c737628290a10833914018dc39cc5f6",
+ "domain": [
+  "marketplace/classifieds",
+  "e-commerce"
+ ],
+ "product": [
+  "somon-tj"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches classified listings on Somon.tj, the Tajikistan marketplace, with category filters, and opens listing details and seller contacts on request.",
+ "whenToUse": "Use when a user wants to find items, vehicles or property for sale in Tajikistan on Somon.tj.",
+ "tasks": [
+  "search listings",
+  "filter by category and price",
+  "view listing details",
+  "list categories",
+  "get category filters",
+  "reveal seller contact"
+ ],
+ "effects": {
+  "30d74b85dcaa75ffa8fd8c74d717570898b9e280c409a519396e874406254e2a": "read",
+  "70c4ae6a75889ab27325eb20f8332c07528635f23c94284bace959fd6e898937": "read",
+  "26dbf22dfc74665dabdcbb8bcf41bec672689e89c74dccd0f8b8d73de8d8b325": "read",
+  "c5a0194f0cae0b6eb1d581384ef260c4ba33fdc0c57ec74fa97e2e6e56d999f9": "read",
+  "7e0f417cf544a416ac406079226414b6a6ec3b23e4d38b26d6fbd76b866d0eff": "read"
+ },
+ "flags": []
+}

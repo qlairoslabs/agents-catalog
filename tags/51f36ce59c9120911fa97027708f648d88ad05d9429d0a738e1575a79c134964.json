@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "51f36ce59c9120911fa97027708f648d88ad05d9429d0a738e1575a79c134964",
+ "domain": [
+  "software/cybersecurity",
+  "media/deepfake-detection"
+ ],
+ "product": [
+  "identifai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Checks whether images, videos and audio are AI-generated using identifAI deepfake detection.",
+ "whenToUse": "Use when the user needs to verify whether a piece of media may be AI-generated or a deepfake.",
+ "tasks": [
+  "detect ai-generated images",
+  "detect ai-generated video",
+  "detect ai-generated audio"
+ ],
+ "effects": {},
+ "flags": []
+}

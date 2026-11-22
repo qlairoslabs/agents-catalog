@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "79348cb52de433e358132d883c7536bcbb1f5b637748453cc17f8eb4c5353b13",
+ "domain": [
+  "data/orchestration/operations",
+  "software/devops"
+ ],
+ "product": [
+  "astronomer",
+  "astro-cli",
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Helps investigate Astronomer production deployment issues using logs, failure analysis and environment variables.",
+ "whenToUse": "Use when diagnosing failures or issues in an Astronomer production deployment.",
+ "tasks": [
+  "view production logs",
+  "analyze failures",
+  "investigate deployment issues",
+  "manage environment variables"
+ ],
+ "effects": {},
+ "flags": []
+}

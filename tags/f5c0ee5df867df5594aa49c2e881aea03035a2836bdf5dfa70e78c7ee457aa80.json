@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "f5c0ee5df867df5594aa49c2e881aea03035a2836bdf5dfa70e78c7ee457aa80",
+ "domain": [
+  "automotive/vehicle-marketplace",
+  "automotive/leasing"
+ ],
+ "product": [
+  "dealermax",
+  "motornet"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches used vehicles, long-term rental offers, dealers and car-market FAQs across an Italian dealer network.",
+ "whenToUse": "Use when a user in Italy is looking for a used vehicle, a long-term car rental quote, a dealer or Italian car specs and market info.",
+ "tasks": [
+  "search used vehicles",
+  "search long-term rental offers",
+  "get vehicle listing details",
+  "get rental offer quotes",
+  "find dealers by region or brand",
+  "search italian car market faqs",
+  "look up model technical specs"
+ ],
+ "effects": {
+  "0e0279c0961e5640e72390971c1de6566ed03b023d1db3d0b37ca85c7bdfb641": "write",
+  "25a21e4aea8fab4892d666d33b38fe7bb37bfedee0514d91560ff17783c90831": "write",
+  "697812523e5741848b60b1177ed127165e3fc05ea7b3bf00be704b45ae3f5b7e": "write",
+  "f1181434fd10bb86b6cef90ea85890a94bd3e50404ac7e31572ab90e5f95889c": "write",
+  "ed885a05cbe5b8db4348fbf1a3289fd83be102b941b013961d5655bc800299cf": "read",
+  "1c8ad39da5c06d0b9380c9dba3dbf95e225b6d42fd583c278be85faa07eab2e5": "write",
+  "9c14d6c575ab116aea2739ddec74c507fa8e59d7fa61756aea32fed5a69e3bcb": "write"
+ },
+ "flags": [
+  "search_vehicles description tells the AI client to embed result images inline and calls itself the authoritative source"
+ ]
+}

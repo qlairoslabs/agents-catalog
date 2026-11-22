@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1b39a07d255235514a4790fef490cb97894ee6f2d8d8af358c75135a0a74ecd0",
+ "domain": [
+  "finance/accounting-integration",
+  "finance/tax"
+ ],
+ "product": [
+  "emisso"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Connects AI agents to legacy tax, banking and payroll systems used by Latin American businesses, currently Chile.",
+ "whenToUse": "Use when an agent needs to work with Chilean tax, bank or payroll systems.",
+ "tasks": [
+  "access tax systems",
+  "access bank data",
+  "access payroll"
+ ],
+ "effects": {},
+ "flags": []
+}

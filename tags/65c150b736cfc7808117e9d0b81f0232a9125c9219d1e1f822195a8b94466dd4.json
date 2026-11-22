@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "65c150b736cfc7808117e9d0b81f0232a9125c9219d1e1f822195a8b94466dd4",
+ "domain": [
+  "media/social-media",
+  "content/web-reading"
+ ],
+ "product": [
+  "x",
+  "twitter"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Fetches public X (Twitter) posts, threads and Articles and returns them as clean Markdown with a download link.",
+ "whenToUse": "Use when you need to read or archive the text of a public X post, thread or Article from its link or ID.",
+ "tasks": [
+  "read X post",
+  "unroll author thread",
+  "read X Articles",
+  "export as Markdown",
+  "get download link for PDF or EPUB"
+ ],
+ "effects": {
+  "f532013b817e6cfdb8e01d373f69bf58f9e1797d8cb3a4183666774b3a2a2dbd": "read"
+ },
+ "flags": []
+}

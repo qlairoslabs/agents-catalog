@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "73b5345bfcc57a226e88b84956a4c090627fcb9bc93cc60eea8555aa39ceb576",
+ "domain": [
+  "data/document-extraction",
+  "data/datasets"
+ ],
+ "product": [
+  "klaaro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries datasets, documents and extracted records stored in Klaaro.",
+ "whenToUse": "Use when the user needs information from their Klaaro datasets or extracted document records.",
+ "tasks": [
+  "query datasets",
+  "search documents",
+  "get extracted records"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "9a6aa1d2ba71f31a14c1f15f03ec11be49cc8e45494260359b5cc2390ef0c39f",
+ "domain": [
+  "ai/agent-services",
+  "marketing/video"
+ ],
+ "product": [
+  "vevang",
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work",
+  "get-customers"
+ ],
+ "summary": "Pay-per-call AI agents paid in USDC via x402: marketing video, AI-visibility checks, deliverable verification, web page reading and data extraction.",
+ "whenToUse": "Use when you need a paid marketing video, AI visibility score, web page markdown or structured scraping and the user approves spending.",
+ "tasks": [
+  "list agents",
+  "make marketing video",
+  "check AI visibility",
+  "verify agent output",
+  "read web page",
+  "extract web data"
+ ],
+ "effects": {
+  "478312a29948208050d1a0de5cfd044f81c037a14c7c6615bd1bf311f0e6a0aa": "read",
+  "78fba8fbb679f0b3864d44cdaa83612203655392bcda7dc311504b651048a677": "risky",
+  "65402187e9a26e95abc4572d81977160f02adf8dba58fc1269f3e28888c2cd10": "risky",
+  "fde3dad9c79be30afa5bd784ab3e72d883670085aefcb43443b51cb7c1775144": "risky",
+  "6bc20fc73aa0ff307a7d799e6910bbb8c461d6e92bd6ffc0e4f2f662d82ec041": "risky",
+  "b1966f9cd251ca7f116d5ea4df88b4fb9b2bd3154c57dff70d37b4b69c90ad1c": "risky"
+ },
+ "flags": [
+  "tools spend real money (USDC) per call"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6c840f882182a162c5775e4288611bed59bd5002812007979b798365e8c26910",
+ "domain": [
+  "software/developer-tools/language-server",
+  "software/ruby"
+ ],
+ "product": [
+  "ruby-lsp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Ruby language server providing code intelligence and analysis.",
+ "whenToUse": "Use when an agent works on Ruby code and needs diagnostics or code navigation.",
+ "tasks": [
+  "analyze ruby code",
+  "show diagnostics",
+  "navigate definitions"
+ ],
+ "effects": {},
+ "flags": []
+}

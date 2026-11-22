@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5037898818f81f94bdd4079870109e357a6ba41c4d3f51b4b698a277016fd83d",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [
+  "memoryrouter",
+  "claude",
+  "chatgpt"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Shares a persistent memory store across Claude, ChatGPT, coding agents and other MCP clients.",
+ "whenToUse": "Use when context should be remembered and reused across different AI assistants or sessions.",
+ "tasks": [
+  "store memories",
+  "recall memories across clients"
+ ],
+ "effects": {},
+ "flags": []
+}

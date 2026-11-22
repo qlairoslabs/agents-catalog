@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "344d7ad76ad724a8a102c800753eacbf09f34b7f6f313a51aac3523116ecb81b",
+ "domain": [
+  "marketing/advertising",
+  "marketing/analytics"
+ ],
+ "product": [
+  "airbridge",
+  "google-ads",
+  "meta-ads",
+  "apple-search-ads"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads ad performance and creates paused campaigns and creatives across Google, Meta and Apple Ads.",
+ "whenToUse": "Use when an agent needs to review ad results or draft new paused campaigns on Google, Meta or Apple Ads.",
+ "tasks": [
+  "read ad performance",
+  "create paused campaigns",
+  "create ad creatives"
+ ],
+ "effects": {},
+ "flags": []
+}

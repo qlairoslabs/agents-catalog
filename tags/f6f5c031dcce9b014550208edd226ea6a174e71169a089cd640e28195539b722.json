@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f6f5c031dcce9b014550208edd226ea6a174e71169a089cd640e28195539b722",
+ "domain": [
+  "software/databases/realtime"
+ ],
+ "product": [
+  "instantdb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Works with Instant, a real-time offline-first database for building synced applications.",
+ "whenToUse": "Use when building an app backed by InstantDB that needs real-time sync.",
+ "tasks": [
+  "manage app schema",
+  "query data",
+  "build real-time apps"
+ ],
+ "effects": {},
+ "flags": []
+}

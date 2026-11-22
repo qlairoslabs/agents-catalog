@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e1bb6fd5e5e07be17d1970034a21d379ce2d4d58d74f436d7dddb143e9e1f717",
+ "domain": [
+  "analytics/business-metrics"
+ ],
+ "product": [
+  "steep"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries metrics, targets, entities and team data stored in a Steep analytics workspace.",
+ "whenToUse": "Use when a user asks about business metrics, targets or team data held in their Steep workspace.",
+ "tasks": [
+  "query metrics",
+  "read targets",
+  "read entities",
+  "read team data"
+ ],
+ "effects": {},
+ "flags": []
+}

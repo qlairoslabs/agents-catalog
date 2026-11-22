@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bfcb174cf28584a9da459b096ea2c44c90a943e67001593e1e4120c6214db835",
+ "domain": [
+  "iot/device-management",
+  "automation"
+ ],
+ "product": [
+  "kilo-iot"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "IoT platform connector letting AI read, provision, automate and send commands to physical devices.",
+ "whenToUse": "Use when an agent needs to read device data or control and provision IoT devices on the Kilo platform.",
+ "tasks": [
+  "read device data",
+  "provision devices",
+  "automate device behavior",
+  "send device commands"
+ ],
+ "effects": {},
+ "flags": []
+}

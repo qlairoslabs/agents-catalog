@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "29c80bdc990733943359040f4da8fdbde083c2e8ffb750b5222c620747802901",
+ "domain": [
+  "automotive/vehicle-specs",
+  "data/apis"
+ ],
+ "product": [
+  "cars-data",
+  "x402"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches, filters and compares car variants by detailed specifications in multiple languages, with paid access via x402.",
+ "whenToUse": "Use when looking up or comparing car model specifications.",
+ "tasks": [
+  "search car variants",
+  "compare cars",
+  "filter by specs",
+  "get specs in multiple languages"
+ ],
+ "effects": {},
+ "flags": []
+}

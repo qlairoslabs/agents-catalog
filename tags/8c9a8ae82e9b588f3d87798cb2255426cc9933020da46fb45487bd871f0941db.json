@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "8c9a8ae82e9b588f3d87798cb2255426cc9933020da46fb45487bd871f0941db",
+ "domain": [
+  "software/consulting"
+ ],
+ "product": [
+  "synergyboat"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Exposes SynergyBoat's public services, case studies, AI use cases and team, and lets visitors submit enquiries or demo requests.",
+ "whenToUse": "Use when evaluating SynergyBoat as a vendor or when a user wants to contact them or request a demo.",
+ "tasks": [
+  "list services",
+  "get service",
+  "list case studies",
+  "get case study",
+  "list AI use cases",
+  "list team",
+  "get company overview",
+  "submit enquiry",
+  "request demo"
+ ],
+ "effects": {
+  "e8b525b835ac4ad4c91f15509024acca958ca80fb742185642ecbaec09e6fdac": "read",
+  "9d11438bd575a486212acf7dd3f5c7aaf628d6c03cb7f34ff8fe549cd805c6b9": "read",
+  "4ca8974557f96ae53e6936d624fefea0a1e16525d5f52f4acb49dd415581f01f": "read",
+  "a3d90ad0852ce076ad85dd01376cb86bb2dca6d7e0de326549082d8899c00d5b": "read",
+  "6725e0474d1db96e876c02d9d51f303a55936446622ad16763e33c91c5c227b6": "read",
+  "ce6adc63921efa569b5be8591635f51ad727a872c1e8f5d633a9f5463a091d08": "read",
+  "1617f24a995a385c84d78321ccec1c2e414d41c58ab71b78b7fe81185019c515": "read",
+  "37a0f08c16aee5d08ac4bf229e46d7e8de872be0fc06192ec4265cc8df9f66e1": "write",
+  "449aa147d083ccb72b1b93eabd7a88e8f574f518a2be30c368553844c2779c1b": "write"
+ },
+ "flags": []
+}

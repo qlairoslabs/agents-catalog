@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "dc3aefe0e2be8840bf747ae213133c58d605bc1487d08bda7e881b925841166c",
+ "domain": [
+  "publishing/fiction/novels",
+  "software/git"
+ ],
+ "product": [
+  "humanread",
+  "git"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Publishes multilingual novels stored in Git, with agent-assisted layout, reviews and author approval before release.",
+ "whenToUse": "Use when an author wants an agent to help prepare, review and publish a Git-backed multilingual novel with their approval.",
+ "tasks": [
+  "publish novels",
+  "manage multilingual editions",
+  "apply safe layouts",
+  "run reviews",
+  "request author approval"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "b78e8f610ab6b81b3616cb7e43ef61dbed5019c864ea87e551b06d82b7a040dd",
+ "domain": [
+  "ecommerce/custom-prints",
+  "retail/photo-products"
+ ],
+ "product": [
+  "bolot-studio"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Read-only storefront access to Bolot Studio's custom metal photo prints: catalog search, recommendations, shipping, reviews, FAQs and photo-resolution checks.",
+ "whenToUse": "Use when helping a customer pick, size, price or configure a Bolot Studio metal print or answer shipping and policy questions.",
+ "tasks": [
+  "search products",
+  "recommend prints",
+  "compare products",
+  "check photo resolution",
+  "estimate shipping",
+  "read reviews",
+  "search FAQs",
+  "build configurator link"
+ ],
+ "effects": {
+  "854a06054c791d85c7521dbe348311662530476fed7f3c691b2be3cd8bc95980": "read",
+  "fb54e64443897b931438f364019a818c065fbb77bd847070f59dbb421f6e4abf": "read",
+  "3de6746ad657ec5f4d5d52f24454e9ad4b53a43db7910342099bcbf8e4340aef": "read",
+  "948264bf4cb231a28ff988c746774d4bf1ccf093e03ba80d14ae8a9f7478775c": "read",
+  "85a810151c4bf9366c4df4bdd05f3cf6537e69ef855c16614c10892488cf298b": "read",
+  "06d7c66bd3c13442f4d4c18b5c2f0ff47199a98eeade4a3baef2ab9b3fdbae40": "read",
+  "6dbb01cd42cd00e2caa698d3378f9d69b235fb363624bb6cf33f4aca07d9cffe": "read",
+  "006792cb8025f582c73837c85a48d765de55aa2f50f0266bff299976de448047": "read",
+  "4ec95eb3011b34433e051a0dc9f8cb3ac90f88b57233bc1c479c14712b925db0": "write",
+  "8688ce3cea67695866f500cc605bead9e42f070f1464ebe22d9a2af24ae74fec": "read",
+  "5c955a0f190f3d1358a68247f7b9092210dd8e5c2a82cd91460440098f4b94dd": "read"
+ },
+ "flags": []
+}

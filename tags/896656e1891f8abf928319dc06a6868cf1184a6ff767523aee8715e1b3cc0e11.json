@@ -1,0 +1,22 @@
+{
+ "classifier": 2,
+ "contentHash": "896656e1891f8abf928319dc06a6868cf1184a6ff767523aee8715e1b3cc0e11",
+ "domain": [
+  "software/development-workflow/verification"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Pins an acceptance spec for agent coding tasks so verification criteria cannot be altered.",
+ "whenToUse": "Use when an agent's coding work must be checked against a fixed acceptance specification.",
+ "tasks": [
+  "pin acceptance spec",
+  "verify task completion"
+ ],
+ "effects": {},
+ "flags": []
+}

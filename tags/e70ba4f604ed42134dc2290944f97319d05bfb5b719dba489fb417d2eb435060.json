@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e70ba4f604ed42134dc2290944f97319d05bfb5b719dba489fb417d2eb435060",
+ "domain": [
+  "software/web/form-backend",
+  "software/integration/webhooks"
+ ],
+ "product": [
+  "submitrax"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Form backend for static sites to create forms, manage submissions, configure webhooks and export data.",
+ "whenToUse": "Use when an agent needs to set up or manage forms and submissions for a static website.",
+ "tasks": [
+  "create forms",
+  "manage submissions",
+  "configure webhooks",
+  "export submissions"
+ ],
+ "effects": {},
+ "flags": []
+}

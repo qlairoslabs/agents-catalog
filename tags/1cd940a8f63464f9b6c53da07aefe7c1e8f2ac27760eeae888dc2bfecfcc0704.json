@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1cd940a8f63464f9b6c53da07aefe7c1e8f2ac27760eeae888dc2bfecfcc0704",
+ "domain": [
+  "finance/accounting/nonprofit-fund-accounting"
+ ],
+ "product": [
+  "np-ledger"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Nonprofit fund accounting system that an agent can use to read the books and post journal entries.",
+ "whenToUse": "Use when managing a nonprofit's fund accounting, reviewing balances or recording transactions.",
+ "tasks": [
+  "read ledger",
+  "view fund balances",
+  "post journal entries"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4ba7b1ea85a6ca30c48b0f54640fbb1cc912354e3c619208502fa1a76d854633",
+ "domain": [
+  "finance/crypto",
+  "finance/payments"
+ ],
+ "product": [
+  "mudko"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Non-custodial router that ranks fiat-to-crypto and cross-chain routes and handles swaps, onramps and a gasless wallet.",
+ "whenToUse": "Use when a user wants to compare or execute crypto swaps, bridges or fiat onramps.",
+ "tasks": [
+  "rank fiat to crypto routes",
+  "find cross-chain routes",
+  "swap tokens",
+  "onramp fiat",
+  "use gasless wallet"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "534f6a12b8437f7861b95d85c445457c239e32ae2926ab6e4e3bd8b3d9bcdec0",
+ "domain": [
+  "design/design-systems",
+  "software/developer-tools"
+ ],
+ "product": [
+  "mzizi"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides search and execution over the Mzizi design system's components, tokens, crates, skills and documentation.",
+ "whenToUse": "Use when building with the Mzizi design system and needing its components, tokens or docs.",
+ "tasks": [
+  "search components",
+  "look up design tokens",
+  "search crates",
+  "read docs",
+  "execute design system operations"
+ ],
+ "effects": {},
+ "flags": []
+}

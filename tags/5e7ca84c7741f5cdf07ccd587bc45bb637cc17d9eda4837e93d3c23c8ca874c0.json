@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5e7ca84c7741f5cdf07ccd587bc45bb637cc17d9eda4837e93d3c23c8ca874c0",
+ "domain": [
+  "finance/market-data",
+  "finance/sec-filings"
+ ],
+ "product": [
+  "shareseer",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides SEC filings, insider transactions and financial data through the ShareSEER API.",
+ "whenToUse": "Use when an agent needs SEC filings, insider trading data or company financials.",
+ "tasks": [
+  "search sec filings",
+  "get insider transactions",
+  "get financial data"
+ ],
+ "effects": {},
+ "flags": []
+}

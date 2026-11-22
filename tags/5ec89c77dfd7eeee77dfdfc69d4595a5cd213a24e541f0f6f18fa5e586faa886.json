@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5ec89c77dfd7eeee77dfdfc69d4595a5cd213a24e541f0f6f18fa5e586faa886",
+ "domain": [
+  "marketing/analytics/automotive",
+  "automotive/dealerships"
+ ],
+ "product": [
+  "google-analytics-4"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Analytics for car dealerships combining GA4 traffic, ASC event audits, verified households and DMS sales attribution by source.",
+ "whenToUse": "Use when analyzing a car dealer's website traffic, event tracking quality or which marketing sources drive vehicle sales.",
+ "tasks": [
+  "report website traffic",
+  "audit asc events",
+  "count verified households",
+  "attribute dms sales by source"
+ ],
+ "effects": {},
+ "flags": []
+}

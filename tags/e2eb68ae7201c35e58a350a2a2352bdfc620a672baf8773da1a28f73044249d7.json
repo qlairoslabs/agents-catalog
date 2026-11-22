@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "e2eb68ae7201c35e58a350a2a2352bdfc620a672baf8773da1a28f73044249d7",
+ "domain": [
+  "software/documentation",
+  "commerce/ecommerce-platform"
+ ],
+ "product": [
+  "medusa"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Retrieves Medusa documentation to help with Medusa commerce development.",
+ "whenToUse": "Use when developing with Medusa and needing reference from its documentation.",
+ "tasks": [
+  "search medusa documentation",
+  "retrieve docs pages"
+ ],
+ "effects": {},
+ "flags": []
+}

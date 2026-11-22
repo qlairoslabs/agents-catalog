@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "e0b2cd9c0a6f258e5fb249fc0038e1852a9c2e5fb69f20d6db5df156be753c8b",
+ "domain": [
+  "productivity/meeting-scheduling"
+ ],
+ "product": [
+  "ask-my-envoy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Early-stage discovery service for meeting-coordination agents; currently only reports its own status.",
+ "whenToUse": "Use only to check whether Ask My Envoy discovery is available yet.",
+ "tasks": [
+  "check service status"
+ ],
+ "effects": {
+  "2cff3c6f990dbdd8b2c6500ce66d0b82862af1e231a96a68e4ac21f4dd2ca3e4": "read"
+ },
+ "flags": []
+}

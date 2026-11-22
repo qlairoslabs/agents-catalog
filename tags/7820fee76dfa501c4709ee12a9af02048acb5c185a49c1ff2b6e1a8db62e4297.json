@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "7820fee76dfa501c4709ee12a9af02048acb5c185a49c1ff2b6e1a8db62e4297",
+ "domain": [
+  "finance/investing",
+  "finance/backtesting"
+ ],
+ "product": [
+  "brighter"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Browse, tune and backtest rule-based portfolios of tokenized US stocks and ETFs, and write strategies in Brighter's language.",
+ "whenToUse": "Use when exploring or backtesting portfolio strategies or writing a rule for tokenized assets.",
+ "tasks": [
+  "list strategies",
+  "get strategy",
+  "backtest strategy",
+  "current allocation",
+  "find assets",
+  "asset price history",
+  "language reference",
+  "check strategy code",
+  "format code",
+  "backtest code"
+ ],
+ "effects": {
+  "01e00364ceb34daada55ebfff131b0a9b655336ab6904663c56cb8e633437d3a": "read",
+  "6dc0bdc7b2603cb5104ec107212326af9523f344fc8190c0d385973219625f06": "read",
+  "429cc087e363cc9a0cc5efd01c52273e5ec2a0b7abad24137b0a991baf26e599": "read",
+  "e1f779b1882e04334a21d3a9c2dd5183c762f3b0bdeae82800ca15fe526ba59c": "read",
+  "b05a95776f693ec4f352631e790c0d226ac26c1ff5cb00a909bdf81d7cbd9a06": "read",
+  "c328815313e56b64d0fc8f514493193d23b26dbf5f09a2311e7f2c6a63949eea": "read",
+  "e39a5eb76c98fdc0fb821cd6f1c23254f9e7a76845f95a92ce007b00990bdaa3": "read",
+  "1411759e87217967d32eb6c916278fa90c19b455c05195c67d9475030d96678d": "read",
+  "40694c3de44feaa2d1142c048139c6e95730044357bfce88a3aa92fb85a7129b": "read",
+  "0e737fc1ee987f15e345364c6d4ed3b6329021bea4b5a616086a26c0b09450f6": "read",
+  "fa2b5712bd4ecf33e569cca0b047e9bd933cfd99d36459e4d5eb6d6ebbced4b9": "read"
+ },
+ "flags": []
+}

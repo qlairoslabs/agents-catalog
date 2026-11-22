@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "2414ba47be2d3c56c85b5d966d544ddb551c0d1a8139cd89797ca27eb27a7616",
+ "domain": [
+  "entertainment/video-games",
+  "retail/merchandise"
+ ],
+ "product": [
+  "abyssfall"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "sell"
+ ],
+ "summary": "Official info for the Abyssfall game: facts, playtest and press kit, plus newsletter signup and merch preorder reservations.",
+ "whenToUse": "Use when a user asks about the game Abyssfall, wants to join its playtest or newsletter, or reserve merch.",
+ "tasks": [
+  "get game facts",
+  "get playtest info",
+  "get press kit",
+  "browse merch catalog",
+  "subscribe to newsletter",
+  "reserve merch preorder"
+ ],
+ "effects": {
+  "059537691c8aa4c4a80f8c93ff6e75d6c27269fe237529caf6fd00c62c9d4f42": "read",
+  "22074274060b6d26c78b01e8676e1bc0e25dd200acea0e4f05171cf7a8a85c64": "read",
+  "9fa35895e677a33dc04a0d6d36d481df24ddbd0f3ad96148bd0e508dc34e7833": "read",
+  "b2a9c0bcd71814b78bbc1fc83d6f36b77f4d3df88438564e232920fe602683b5": "read",
+  "66ef50185e8b70941fb307db3f5f128380321f2d12e02e2915c3a0bb41c3d761": "write",
+  "989d16beedee1d2ae62383c7bf85e128efd8f0095bf8863df149589deaa2c75f": "write"
+ },
+ "flags": []
+}

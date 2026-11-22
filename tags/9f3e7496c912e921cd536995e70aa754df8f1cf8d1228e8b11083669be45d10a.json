@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9f3e7496c912e921cd536995e70aa754df8f1cf8d1228e8b11083669be45d10a",
+ "domain": [
+  "software/ci-cd",
+  "software/devops"
+ ],
+ "product": [
+  "buildkite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Buildkite skills covering pipelines, migration, preflight checks, agent runtime, CLI and API usage.",
+ "whenToUse": "Use when configuring, migrating or troubleshooting Buildkite CI pipelines.",
+ "tasks": [
+  "configure pipelines",
+  "migrate ci",
+  "run preflight checks",
+  "manage agent runtime",
+  "use buildkite cli",
+  "use buildkite api"
+ ],
+ "effects": {},
+ "flags": []
+}

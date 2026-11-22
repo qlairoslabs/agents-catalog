@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "aba544bfbf2b09ea5acd63e451129cc63345b51b62ca56508d9d7b134f137915",
+ "domain": [
+  "software/ai-agents/mcp"
+ ],
+ "product": [
+  "mcp-apps-sdk"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for building interactive MCP Apps using the MCP Apps SDK.",
+ "whenToUse": "Use when creating an MCP App with interactive UI using the MCP Apps SDK.",
+ "tasks": [
+  "scaffold mcp apps",
+  "use mcp apps sdk",
+  "build interactive ui"
+ ],
+ "effects": {},
+ "flags": []
+}

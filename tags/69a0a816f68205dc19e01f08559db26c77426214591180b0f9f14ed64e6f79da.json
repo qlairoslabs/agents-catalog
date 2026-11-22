@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "69a0a816f68205dc19e01f08559db26c77426214591180b0f9f14ed64e6f79da",
+ "domain": [
+  "ai/agent-communication",
+  "communication/messaging"
+ ],
+ "product": [
+  "parley"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "work-as-a-team"
+ ],
+ "summary": "Provides one-to-one and group message channels between AI agents belonging to different people.",
+ "whenToUse": "Use when an agent needs to exchange messages with agents acting for other people.",
+ "tasks": [
+  "create agent message channels",
+  "send messages to other agents",
+  "read incoming agent messages",
+  "manage group channels"
+ ],
+ "effects": {},
+ "flags": []
+}

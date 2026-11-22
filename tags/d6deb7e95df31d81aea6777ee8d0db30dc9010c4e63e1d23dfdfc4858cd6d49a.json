@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d6deb7e95df31d81aea6777ee8d0db30dc9010c4e63e1d23dfdfc4858cd6d49a",
+ "domain": [
+  "real-estate/facility-management",
+  "procurement/tenders"
+ ],
+ "product": [
+  "properly-fm",
+  "damsgaard-fm"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Read public pages of Properly.fm, a Danish platform for tendering property service agreements, and send an inquiry to Damsgaard FM.",
+ "whenToUse": "Use when a user asks about Properly.fm or wants to contact Damsgaard FM about facility service tenders.",
+ "tasks": [
+  "list site pages",
+  "read page text",
+  "search site text",
+  "describe Properly.fm",
+  "send inquiry"
+ ],
+ "effects": {
+  "29f194789b91ee79a4daf6ba4b29a2d354e56d5696acf09178803da51c365a1f": "read",
+  "8b5784eced11b0acfb4f499722257d5b308ab043df620dc85e701b2c2cddf5eb": "read",
+  "61f03823286696c917d67c8fe5b5befb372ab5bccd1845d11f4799b48ba5c6a6": "read",
+  "d5250b90fbf4bfaae85e67a23728986ee8971b66ba4df70b6bb432af86a619f2": "read",
+  "8939affe2d30bfa97804b29f5eca59db497d1e3edc37302a530d3977322bf346": "write"
+ },
+ "flags": []
+}

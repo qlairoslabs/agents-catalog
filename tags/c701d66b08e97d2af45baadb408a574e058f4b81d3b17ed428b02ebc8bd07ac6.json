@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "c701d66b08e97d2af45baadb408a574e058f4b81d3b17ed428b02ebc8bd07ac6",
+ "domain": [
+  "software/cybersecurity",
+  "compliance/hardening"
+ ],
+ "product": [
+  "disa-stig",
+  "rhel",
+  "windows",
+  "cisco-ios",
+  "ubuntu"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Searches DISA STIG hardening rules with check and fix text and exports STIG Viewer .ckl checklists for several OS and Cisco benchmarks.",
+ "whenToUse": "Use when hardening a system to DISA STIG, looking up a rule, or producing a compliance checklist.",
+ "tasks": [
+  "search STIG rules",
+  "get rule check and fix text",
+  "list benchmarks",
+  "export .ckl checklist"
+ ],
+ "effects": {
+  "4a1823bc82a45c41c50bc384b7f40936f4858e419a9b7603baa0868a139a533f": "read",
+  "a8568f466c9e8d448cd13a8c14cd829cf301d312b2b2a9a397cf169cfda6855c": "read",
+  "79096e38bbe39bfa4d02eefc2e62802647ba396c0cafcf828c4138d683afda9c": "read",
+  "21065ad55978a79408295af2e32e5beec8fdde2dcea1b87fd8a914e8baec32a5": "read"
+ },
+ "flags": []
+}

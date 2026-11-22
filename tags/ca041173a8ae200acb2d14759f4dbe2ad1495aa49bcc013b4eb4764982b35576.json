@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "ca041173a8ae200acb2d14759f4dbe2ad1495aa49bcc013b4eb4764982b35576",
+ "domain": [
+  "finance/reference-data",
+  "markets"
+ ],
+ "product": [
+  "finance-foundation"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Open financial reference data on companies, markets, funds and banks with LEI/ISIN/FIGI identifiers, a relationship graph and periodically refreshed macro series.",
+ "whenToUse": "Use when you need to resolve financial identifiers, look up entities and relationships, or fetch reference rates.",
+ "tasks": [
+  "look up entity",
+  "list entities",
+  "search entities",
+  "resolve ticker or ISIN",
+  "traverse knowledge graph",
+  "extract entities from text",
+  "get reference rates"
+ ],
+ "effects": {
+  "adeed469acb1d2e932b76c717ccb54652f0e16d3c1a91950b681b82efe4b5fad": "read",
+  "461a646461eddc5d11ae280ac627d6217d3fdde30d721d893f727497c9a7827d": "read",
+  "170f6896f6a41ef7f3ec825fd63f648a72ad0045115a43ca461a1527624702d9": "read",
+  "0b5b8a137471e94672246a9c8689d28baa69bbce9fbca8334c1af53053370181": "read",
+  "a58550dc485c36a0ae9a224bb8a6ad40cd268cc03caf97d98c21d97b9ea0d26f": "read",
+  "46b4e5baf223ff950b279248bc3611feb2581c369ca4a1a02550982914993adf": "read",
+  "fef6838fe46b60323ba7eac4a851d22772d7aaf391652fd1aa8e7e78d0bf3649": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c7715e85eee5d75144baa2349f9958b016d631b8f830eaa02781dcb62d1a907e",
+ "domain": [
+  "ai/agents",
+  "sales/crm"
+ ],
+ "product": [
+  "ghosty-studio"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "sell",
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Access a Ghosty account to message its AI agents, review chat history and manage a sales pipeline board, via OAuth.",
+ "whenToUse": "Use when the user wants to interact with their Ghosty AI agents, review conversations or update their sales board.",
+ "tasks": [
+  "talk to ai agents",
+  "review chats",
+  "manage sales board"
+ ],
+ "effects": {},
+ "flags": []
+}

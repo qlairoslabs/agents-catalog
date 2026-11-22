@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fc596be7f4c5134cc03c233ac1f9d9f567f7ce514085452858e9dc290e857fc0",
+ "domain": [
+  "marketing/advertising/ppc",
+  "marketing/analytics"
+ ],
+ "product": [
+  "advisorppc"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects authorized ad accounts to AI assistants for audits, reporting and changes that require approval.",
+ "whenToUse": "Use when auditing or reporting on paid ad accounts and proposing changes that a human approves.",
+ "tasks": [
+  "audit ad accounts",
+  "generate ad reports",
+  "propose approval-gated changes"
+ ],
+ "effects": {},
+ "flags": []
+}

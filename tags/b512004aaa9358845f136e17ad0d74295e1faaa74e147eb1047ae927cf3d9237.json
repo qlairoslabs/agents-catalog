@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "b512004aaa9358845f136e17ad0d74295e1faaa74e147eb1047ae927cf3d9237",
+ "domain": [
+  "education/college-admissions",
+  "marketplace/mentoring"
+ ],
+ "product": [
+  "goanywhere",
+  "college-scorecard"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Classifies US universities as reach, match or safety from test scores using College Scorecard data, and searches admitted-student mentors and booking links.",
+ "whenToUse": "Use when a student wants admissions fit for US colleges or a verified mentor or tutor.",
+ "tasks": [
+  "assess admissions fit",
+  "list supported universities",
+  "search mentors",
+  "get booking options",
+  "capture lead email"
+ ],
+ "effects": {
+  "3fe99c370bbede2ecd57e67e50611697e9bc969097f458488320888b56b392cc": "read",
+  "f03d8a7ca8b54a369810917388a7e10ac549d9d6c17cabb1c1c2d04924b999ab": "read",
+  "40460f1835acb4eae7d27cc8b4b2ab3bbd2359445b6d553f451408ce17935469": "read",
+  "6d17b1648e84f02c5a40ea024fd500c764fc1bca6f7522cf7c3da339f1a0e4e2": "read",
+  "36bcfe5681bd37e0d3240344f87a8c298dc159bf41486021e914dd80d68bbfd1": "write"
+ },
+ "flags": []
+}

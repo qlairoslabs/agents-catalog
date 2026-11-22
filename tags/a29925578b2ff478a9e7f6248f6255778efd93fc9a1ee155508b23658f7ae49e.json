@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "a29925578b2ff478a9e7f6248f6255778efd93fc9a1ee155508b23658f7ae49e",
+ "domain": [
+  "software/charting",
+  "reference/documentation"
+ ],
+ "product": [
+  "sbchart2",
+  "softbowl"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Search SBChart2.0 chart library docs, options and runnable examples so AI can generate correct chart code.",
+ "whenToUse": "Use when writing code with the SBChart2.0 charting library.",
+ "tasks": [
+  "search chart API",
+  "get API detail",
+  "browse APIs",
+  "find code examples"
+ ],
+ "effects": {
+  "b7d6db787dad4ace87e8bb1e4d400572067570d6c5f9c345b7c2987e395f5542": "read",
+  "32971b4020a67b44ed7219d4755c9eb217d29280434e6ca87e3a1e316504fdf2": "read",
+  "0f9bbea3637d7428977337a1c187ada9f3d1cfd78ff0e3417f59d7a1f473f60c": "read",
+  "8e2e0321628d4d62f8a044ac19e034ba7b9ec4513735ba0820a4505268b53e5c": "read"
+ },
+ "flags": [
+  "tool descriptions repeat an instruction to follow 'server common guidelines' in server instructions when generating code"
+ ]
+}

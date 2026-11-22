@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7b935818fcafae85b29867a7b5dc883b38aef5ffb447a650d31f782248f896d3",
+ "domain": [
+  "ai/image-generation",
+  "design/generative-art"
+ ],
+ "product": [
+  "comfyui",
+  "claude-code"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "MCP server and Claude Code plugin for ComfyUI to run workflows, generate images and manage models and VRAM.",
+ "whenToUse": "Use when an agent needs to generate images or run ComfyUI workflows on a local ComfyUI instance.",
+ "tasks": [
+  "run workflows",
+  "generate images",
+  "manage models",
+  "manage vram"
+ ],
+ "effects": {},
+ "flags": []
+}

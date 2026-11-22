@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "f241af6be429a7434a5f820029f9438ca0cb8cad1a7573b58cecd67277ac6f74",
+ "domain": [
+  "lifestyle/astrology-numerology",
+  "reference/calendars",
+  "sports/baseball"
+ ],
+ "product": [
+  "geometry",
+  "retrosheet",
+  "mlb"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Deterministic date data including moon phases, calendars and weekdays, plus cardology, numerology, tarot readings and baseball numerology.",
+ "whenToUse": "Use when a user asks about a date's moon phase, season, weekday or calendars, or wants cardology, numerology or compatibility readings.",
+ "tasks": [
+  "get moon phase and calendar data for a date",
+  "compare two birth dates for compatibility",
+  "decode a name with numerology",
+  "get age spread card",
+  "get age board plate",
+  "get long range theme card",
+  "analyze mlb roster cardology",
+  "find baseball stat numerology patterns"
+ ],
+ "effects": {
+  "0240ece2da81d2457917b21ad858c7d2a5e71758b915bfce8ae817c6267c4a6d": "write",
+  "738a51c96deea8ea7132cbfc6532ba855faaaa181a3503f086e042febf5b6cc6": "write",
+  "564d2262a5932562c676f96d8cd6ed5d1e21fb586e6d267657fa071ff63fd570": "write",
+  "be9fc47f8ba3c692e8cefd1e2dbfe37a46f8ebd670a3d5d31a13228d9c0d602a": "read",
+  "3b8e80275960f399e963d14f3ca07dbbabdfc60bdcb78d5d3dc1e78cae6cbebe": "read",
+  "caaa6e1e79ad19662abd562b9431f38a92b5cb679800c5c61f37f26e9c7efa9a": "read",
+  "51ac759dd7b2dd9597e5849f20a53564901d14bed3ee1d2b0fbf99cb416fa850": "read",
+  "025cc4148f3fab09975558c36289c469e2686fabb49782a6f1faac9e3c977401": "read"
+ },
+ "flags": []
+}

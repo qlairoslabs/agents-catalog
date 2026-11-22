@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "1ef98d8c34c204fe0f4f72c3751e592eb9deb309ff4f51b5ad939ffc35995225",
+ "domain": [
+  "finance/crypto-exchange"
+ ],
+ "product": [
+  "changenow"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Quotes, creates and tracks non-custodial cross-chain crypto swaps, validates addresses and builds prefilled swap links.",
+ "whenToUse": "Use when a user wants to swap one cryptocurrency for another and needs quotes, address checks or an order.",
+ "tasks": [
+  "list assets",
+  "get asset details",
+  "quote swap",
+  "validate address",
+  "build swap link",
+  "create swap order",
+  "check swap status"
+ ],
+ "effects": {
+  "c1553246d7923510bd4622da668a3969152300b9d54bda17b4a528d8abf4d028": "read",
+  "462757f44f2f53aed8c429eeecae315956a9498169e1f1ad66951649e655fffd": "read",
+  "e9c4c39fc8be9524229224b0ae78bd383623751bd66c2436b0c4aa7ffdc17b51": "read",
+  "fb790052590db245e4a7de4380f5ecbc125da14056414cb95de7607dd5c6fe26": "read",
+  "f97ae87c31a9de4dbadc2d5a6520e6fe5753713d0d6a4d24d77563a9d2d558c7": "read",
+  "c8d07b278927ee8ff2580ba1a7a9615863864fcdbf82278383b9f3d890f67eb2": "risky",
+  "977fb0c3e8c8cd62240fb852ae4fb3dbe939cccbab92a413594d5da030e2b5e7": "read"
+ },
+ "flags": []
+}

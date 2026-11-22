@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6c0d561f592de79a66669aa7575d50faa4bde9bb51d206f38cc1500851d3ca0e",
+ "domain": [
+  "cloud/kubernetes",
+  "software/devops",
+  "observability"
+ ],
+ "product": [
+  "mengi-cloud",
+  "kubernetes"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Manages Kubernetes clusters, deployments, databases, secrets and observability on Mengi Cloud.",
+ "whenToUse": "Use when operating Kubernetes workloads, databases or secrets hosted on Mengi Cloud.",
+ "tasks": [
+  "manage kubernetes clusters",
+  "manage deployments",
+  "manage databases",
+  "manage secrets",
+  "view observability data"
+ ],
+ "effects": {},
+ "flags": []
+}

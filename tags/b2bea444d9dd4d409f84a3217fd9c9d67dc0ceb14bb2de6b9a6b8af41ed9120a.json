@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "b2bea444d9dd4d409f84a3217fd9c9d67dc0ceb14bb2de6b9a6b8af41ed9120a",
+ "domain": [
+  "real-estate/energy-certificates",
+  "poland/compliance"
+ ],
+ "product": [
+  "swiadectwo-energetyczne24"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Lets users order Polish energy performance certificates: pricing, required property data, document uploads, order tracking and a payment link.",
+ "whenToUse": "Use when someone needs a Polish building energy certificate priced, ordered or followed up.",
+ "tasks": [
+  "list certificate options and prices",
+  "get service information",
+  "create order",
+  "check missing fields",
+  "update order",
+  "calculate price",
+  "get payment link",
+  "upload property documents",
+  "check order status"
+ ],
+ "effects": {
+  "ff64a30bd392dd935f354a230d143f9c3a0ea2b54393f9fecc261bf3c44e5a40": "read",
+  "b782f910006c97bcd6f02281e5895dc5359c534a68b07a8729d31fbfa62ca0c3": "read",
+  "a41b7356326f9620e621eafdae1f76cc0bbe654928be48cfdb169951aea2641b": "write",
+  "e4da1a08ec552b51d124a59370e4c19bdb02c1339803aa3167bc2ccc09a69e7b": "read",
+  "295b5b16fdfe040a51a6f75b9ab97b8679ab762d980575eae74c31b1f014f7ac": "write",
+  "2ae505fe781b4c8152277aecfd27a7d9a02ca7a10166d91571af4a924a77e9d1": "read",
+  "f1e28cc790ababcd6258cb762c796ff98f6259bebc9dfea5a9d26dce770f4dc7": "read",
+  "c083624a6380c8838eab8ac1dd3041c2d3046a0adc4373e207c1c8e775c6e529": "read",
+  "89314a117e0f6f125f76e5d482f42e8540fdb62ebf13445b6dac955d51835d18": "write",
+  "d270dea31f2c26660b55e1fae0cc98c69035297e73b5bca63b217a2f500beab4": "write",
+  "ec9d37b50b002767c9686c4a7bc5bf3b5c45b6caab6491ec84a402c004d34d8a": "write"
+ },
+ "flags": []
+}

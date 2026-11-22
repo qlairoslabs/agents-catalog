@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "15279e27644be00dab2405896a405503fe8cff7cac9e9cdc425798cd9769a4d6",
+ "domain": [
+  "consulting/ai"
+ ],
+ "product": [
+  "rz-ai-labs"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Returns information about RZ AI Labs and founder Amit Raz: overview, services, workshops and contact details.",
+ "whenToUse": "Use when someone wants to learn about RZ AI Labs' AI consulting and training or contact them.",
+ "tasks": [
+  "get overview",
+  "list services",
+  "list workshops",
+  "get contact details"
+ ],
+ "effects": {
+  "8c2080a1a08493ae12be721a0bf907fe9f94d65847bb1184c2d8d4ea4756ea87": "read",
+  "06bb7f3b76b0fedb8c44b9cb2bf6ab55503491b3fb886fae1a04a9ff3cba7073": "read",
+  "99b8d9e4575b6f89a5c79823e87a501ea322aed5a329da25c1c18a8b6298c3c9": "read",
+  "fd90dd8e6e9a6e18b65175deb2f8c4f09f76674ef7d6f8d021d922d4ca7ba84a": "read"
+ },
+ "flags": []
+}

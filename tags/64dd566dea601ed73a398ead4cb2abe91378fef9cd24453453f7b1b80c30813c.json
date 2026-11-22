@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "64dd566dea601ed73a398ead4cb2abe91378fef9cd24453453f7b1b80c30813c",
+ "domain": [
+  "communication/messaging/whatsapp",
+  "customer-support/inbox"
+ ],
+ "product": [
+  "whatsapp-business",
+  "chatty"
+ ],
+ "audience": [
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "support-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Connects a WhatsApp Business inbox managed in Chatty, showing waiting contacts and follow-ups and allowing replies.",
+ "whenToUse": "Use when checking which WhatsApp Business customers are waiting, planning follow-ups or replying to messages.",
+ "tasks": [
+  "view waiting conversations",
+  "list follow-ups",
+  "reply to whatsapp messages"
+ ],
+ "effects": {},
+ "flags": []
+}

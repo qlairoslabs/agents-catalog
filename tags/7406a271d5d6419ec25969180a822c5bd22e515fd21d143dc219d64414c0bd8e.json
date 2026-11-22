@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7406a271d5d6419ec25969180a822c5bd22e515fd21d143dc219d64414c0bd8e",
+ "domain": [
+  "software/infrastructure-as-code",
+  "software/devops"
+ ],
+ "product": [
+  "terraform"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Terraform MCP server giving agents access to the Terraform ecosystem for infrastructure-as-code work.",
+ "whenToUse": "Use when writing or managing Terraform configurations and needing provider or module information.",
+ "tasks": [
+  "look up providers and modules",
+  "assist with terraform configuration",
+  "automate iac workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "22bb1f6fd648a6337cf6d906f965b8030e6ce3f59698b4e12442c0e36f9031e1",
+ "domain": [
+  "productivity/voice-notes"
+ ],
+ "product": [
+  "whisper-memos"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Reads and summarizes voice memos recorded in Whisper Memos so they can be acted on.",
+ "whenToUse": "Use when someone wants to review, summarize or follow up on their recorded voice memos.",
+ "tasks": [
+  "read voice memos",
+  "summarize memos",
+  "act on memo contents"
+ ],
+ "effects": {},
+ "flags": []
+}

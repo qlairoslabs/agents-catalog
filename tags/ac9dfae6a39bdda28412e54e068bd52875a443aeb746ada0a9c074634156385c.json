@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "ac9dfae6a39bdda28412e54e068bd52875a443aeb746ada0a9c074634156385c",
+ "domain": [
+  "finance/quant-analysis",
+  "finance/stock-markets"
+ ],
+ "product": [
+  "yahoo-finance",
+  "tsx"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Pay-per-call quant tools for US and TSX stocks: quotes, price history, indicators, signals, screens, backtests, scores and portfolio construction.",
+ "whenToUse": "Use when analysing US or Canadian stocks quantitatively, screening, backtesting strategies or building weighted portfolios.",
+ "tasks": [
+  "get quotes",
+  "get price history",
+  "get fundamentals",
+  "compute indicators",
+  "detect technical signals",
+  "compute risk stats",
+  "compare tickers",
+  "screen universe",
+  "backtest strategies",
+  "score universe",
+  "build portfolios",
+  "portfolio backtest"
+ ],
+ "effects": {
+  "5250e350f49b639ed860e206a73f1dab9cf409b0f03749912e418464264d8532": "read",
+  "b9d6e4cd7f165d6f18c585ec468c445b3ba7d3974efe1b5d2dc82e7a256ecd56": "read",
+  "f21a353735ba906fdd37a78eba5d81cb5b23f7622a113aff7603491457c27bb1": "read",
+  "787919acf444578f2ef86e08ea2872bbc813d18a39b7cd62a0ee766d0d265d17": "write",
+  "b41b3a475be0345194121931188930f01a41b035cb9dd1e8a94bf740ca5be263": "write",
+  "19f9e20c0ac34b3fd9974c3c5cda94b6988ca2a11c36a888b3b4720799102d7a": "read",
+  "911676578b1f4a42fad9fe8e95db36959f92900c27cbb0e0f92846dd6b69459c": "read",
+  "25b3ec2499975e8da40f970c5f26a691de2221d7f3e6ee1d6952b6933ef5e04f": "read",
+  "e4300c8afe4981afac750fccbf47ee284ec5dbd698e9a67832b2c389f99d1001": "read",
+  "8a9c4e21738acfe1b55fe5c7157967567fa74defac594b2cf11334e94777aace": "read",
+  "109b8a4b23ad0390503e2630b35116454cefd2ce8000f512dfa3de04a0a81b2a": "write",
+  "3b6c3598904d0bfcbf5f9ced38f3b28b910ac61f65fdad6200ae9f1ca217403c": "write",
+  "6205f44804524cce0485bce4434300142946a9f70e77339536f36cca3b4ac784": "write",
+  "eddfb9ea7f59fae124cb5d80731fac771e0bf572999bb0dadf2735c6589d2733": "write",
+  "930a9c67ed816edb60a5fc9fe97210e5c94fdd4c278b6082ca54c68fd8599413": "write",
+  "0ebc4491e54cb3e3655dcb385a361d1b5919e4db64fb75c9a8c701812c0c9df9": "read"
+ },
+ "flags": []
+}

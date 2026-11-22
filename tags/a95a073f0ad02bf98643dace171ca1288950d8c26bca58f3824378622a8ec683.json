@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "a95a073f0ad02bf98643dace171ca1288950d8c26bca58f3824378622a8ec683",
+ "domain": [
+  "services/local-marketplace",
+  "home/trades"
+ ],
+ "product": [
+  "muovi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Finds verified home-service professionals in Argentine neighbourhoods on Muovi, shows profiles and reviews, and drafts task requests.",
+ "whenToUse": "Use when someone in Argentina needs a plumber, electrician, mover or similar professional and wants to find one or draft a job request.",
+ "tasks": [
+  "search professionals by service and barrio",
+  "get professional profile",
+  "read reviews",
+  "list services",
+  "list cities and neighbourhoods",
+  "build task creation link",
+  "get service requirements",
+  "save task draft"
+ ],
+ "effects": {
+  "890ff7ed077c826b4ce28d28b85d75329b6ef1112223373cba2724ae671b009a": "write",
+  "4a9db3ffa2be466ea92e8ab57e9ae8b12a020e0415029e4e150d0e0700489429": "write",
+  "78d4c1bd8f7032c5e44099d1fdcce1b8472d4730d80cafa2b7ddc061df824d04": "write",
+  "7f5a75daf76eb9e29607e0f8eca4d7401156f1cbc0ddc210593bcb9a0cdc1a84": "read",
+  "dde0e2fb39131dd166252c8d6c09d250fb040d0dcd6600be9272ec627bcfe0b8": "read",
+  "5bd27751d9541e97cfb68f7722fcde93ca3581d9dd986c65b0521762deab17e9": "write",
+  "f5eb44b24486c41b23990d25b3df7af2ee0bece76240a926dee19dec56bac80a": "write",
+  "1db23168a0870c22029c6273b9e4a858e7039e192952102e3c68a1c4183a5ec6": "write"
+ },
+ "flags": [
+  "tool description tells the agent never to mention when a verification is missing"
+ ]
+}

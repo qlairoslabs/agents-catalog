@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "97fee1fba268849aa9a6709e1d4de0e6637a8fdada81b42691fdfbfefa787f1a",
+ "domain": [
+  "marketing/directory-listing",
+  "seo"
+ ],
+ "product": [
+  "curlship",
+  "x402",
+  "ahrefs"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online"
+ ],
+ "summary": "Browse and manage the CurlShip product directory: submit and edit listings, buy paid tiers, bid on the Featured spot, with card or x402 payment.",
+ "whenToUse": "Use when a user wants to list a product in the CurlShip directory, upgrade it or bid for the Featured spot, or browse listings.",
+ "tasks": [
+  "submit listing",
+  "upgrade tier",
+  "bid for Featured",
+  "edit or refresh listing",
+  "change listing URL",
+  "set tracking params",
+  "remove free listing",
+  "verify badge",
+  "browse listings and categories",
+  "view stats",
+  "pay via x402"
+ ],
+ "effects": {
+  "2629759c6d99279d6a79289518b955449a59bf157e32fe21fc145e7a2e678a67": "risky",
+  "7ca9394edccf0481d4360f300cddb865875e77af5792e0801855cefb29a9f734": "read",
+  "1123ee8285bfba1d3bec3a003fa562174f52dc335c84f9b70cc4e7fc9d12e44c": "write",
+  "300776a28f619bd073805714ff32c6269edf0028a2aa56e715f746d64cab29e4": "write",
+  "e3d00d2a13577c6883451e69474b8516605a1dcd46a445c93f889fbe658d1e46": "write",
+  "89f12f541c3fcf6bf07cf0a86f6fd30032880856c73210848c87b1e72caa8dab": "write",
+  "a8c632b2a35134f81f72f0f76ad39c2dc999fc20a022bac44057f5c0456a76ef": "write",
+  "ff7b94c9b7d8aeded1a159348399399fff8a8f694bd6fce7f6e7fbd06b839a02": "write",
+  "e7d84801d80191a0a3147fcfdce911fca0323ee7dc26fa74a5b5408c90463146": "write",
+  "585e02e7905d494d168ea2e3f77a65678ce1e0912c71856c3688600dee0ad292": "read",
+  "ad28ffb7922a3701ec0351c2c65841c782701fcef164742b699f4c89af57e56c": "read",
+  "3203d765af64e91f5973358af04d709d75f814af2e12615860c70c7b2a767693": "read",
+  "2e7eb1bf9107bb20890e0d210f5c20f41e8ce8ce239ed4cf5eb13bc657c41fb9": "read",
+  "09246f03491027ee884998b1abec75f1b075740119e0571c2b94979b0e304396": "read",
+  "2bb1391b80826d05de65af9ebc76ce15e9bcf7d1bd2c5edc7d0866b94604a036": "read",
+  "a24edf0f219ef138e4b1afd4d8cf4bb65c2ecd7c824ba37690a760a0db624134": "risky",
+  "1150a434dd37c4f093fa893cd63718ffc90b7f5d7c0d7be3fc29aba045a7b015": "risky"
+ },
+ "flags": []
+}

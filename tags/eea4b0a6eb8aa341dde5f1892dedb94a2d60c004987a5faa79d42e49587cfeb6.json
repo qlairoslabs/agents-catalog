@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "eea4b0a6eb8aa341dde5f1892dedb94a2d60c004987a5faa79d42e49587cfeb6",
+ "domain": [
+  "software/web-development",
+  "enterprise/erp"
+ ],
+ "product": [
+  "sap-fiori"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server and skills for building, modifying and testing SAP Fiori Elements applications.",
+ "whenToUse": "Use when developing or testing SAP Fiori Elements apps.",
+ "tasks": [
+  "build fiori apps",
+  "modify fiori apps",
+  "test fiori apps"
+ ],
+ "effects": {},
+ "flags": []
+}

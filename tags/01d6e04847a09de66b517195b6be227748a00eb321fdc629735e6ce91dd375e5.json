@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "01d6e04847a09de66b517195b6be227748a00eb321fdc629735e6ce91dd375e5",
+ "domain": [
+  "communication/messaging",
+  "marketing/customer-engagement"
+ ],
+ "product": [
+  "bird",
+  "whatsapp"
+ ],
+ "audience": [
+  "marketing",
+  "support",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Sends and receives messages across email, SMS, WhatsApp and voice through Bird's single API.",
+ "whenToUse": "Use when an agent needs to send or read customer messages over email, SMS, WhatsApp or voice.",
+ "tasks": [
+  "send email",
+  "send sms",
+  "send whatsapp messages",
+  "make voice calls",
+  "receive messages"
+ ],
+ "effects": {},
+ "flags": []
+}

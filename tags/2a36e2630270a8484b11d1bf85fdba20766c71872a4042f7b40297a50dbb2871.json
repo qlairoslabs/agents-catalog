@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "2a36e2630270a8484b11d1bf85fdba20766c71872a4042f7b40297a50dbb2871",
+ "domain": [
+  "finance/personal-budgeting"
+ ],
+ "product": [
+  "centscheck"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Lets an AI agent check budgets and log spending in the CentsCheck budgeting app without bank connections.",
+ "whenToUse": "Use when a user wants to check their budget or record an expense in CentsCheck.",
+ "tasks": [
+  "check budgets",
+  "log spending"
+ ],
+ "effects": {},
+ "flags": []
+}

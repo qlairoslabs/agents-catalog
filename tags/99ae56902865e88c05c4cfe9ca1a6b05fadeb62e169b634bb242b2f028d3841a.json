@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "99ae56902865e88c05c4cfe9ca1a6b05fadeb62e169b634bb242b2f028d3841a",
+ "domain": [
+  "finance/finops",
+  "software/cloud-operations",
+  "operations/workflow-automation"
+ ],
+ "product": [
+  "wiv"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Automates cloud cost (FinOps) workflows, cases and cloud operations through the Wiv Workflow API.",
+ "whenToUse": "Use when a user wants to run or manage FinOps and cloud-ops workflows and cases in Wiv.",
+ "tasks": [
+  "run finops workflows",
+  "manage cases",
+  "automate cloud operations",
+  "track cloud costs"
+ ],
+ "effects": {},
+ "flags": []
+}

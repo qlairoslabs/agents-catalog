@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "0935afcd2d7363c774b3c1be5d8fec05624c2fae129b9d2b030a7f8b9d60ecae",
+ "domain": [
+  "software/release-tracking",
+  "ai/coding-tools"
+ ],
+ "product": [
+  "claude-code",
+  "openai-codex",
+  "cursor",
+  "gemini-cli",
+  "github-copilot",
+  "windsurf"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Release intelligence for AI coding tools: latest releases, typed changes, breaking changes, upgrade notes, feature adoption and cadence.",
+ "whenToUse": "Use when checking what changed in AI coding tools, planning an upgrade, or comparing tools' release activity.",
+ "tasks": [
+  "list tracked tools",
+  "get latest releases",
+  "digest changes since date",
+  "search changes",
+  "get release details",
+  "get upgrade notes",
+  "list breaking changes",
+  "compare tools",
+  "feature adoption timeline",
+  "release cadence stats"
+ ],
+ "effects": {
+  "938f97ef71456a5084641a5204ae2de6887d820a331142e1fd3cc40132ca5bc6": "read",
+  "0f88b48e1b30536a7f53680a6fdf6ce9a30bf5c2576a7d9485642d4465a32df6": "read",
+  "4cc8083a4e726ad1c30a5a0c2bd8a7c26b42f88e328c60ce89c33853a7bc4409": "read",
+  "0260732ca29c9864f86fbdfb4c4833f47426248ada59ea877d9372d2533a7e41": "read",
+  "1f2958d1a05e8134edb69ef7da0fd0fecd17b09f8f2c6dbeb96bb18d45ca59a0": "read",
+  "d88cfeb9c93ea92ed49f8dfda32e2c09b836786548e75b83e50094449441d429": "read",
+  "9352e22cd208e5c7ca06eaeea54003cd9c5c11aacb949ac03bac9933e7fe467f": "read",
+  "2105fd5f69c0e10ad7897629270ab83235460e5e39dcf990d9d6c3182a4b2cdc": "read",
+  "877ab3874c231a5204594427cfcc963a44be333560665d41f6a4bb55a198b7a5": "read",
+  "289b993d69afa9160da3cfb1969dd22fbcb1f04b93dea81c2afb8489101ffa93": "read",
+  "7efb3624af745bc21ad1546ad63abd50793857b61a8bfb75da95b09fb70a01da": "read",
+  "a15a0330fa68bcc118e1022db7ea83700cff71701d9eb677cae376e2b72d84c2": "read",
+  "efdf5ab365035ed085e62418e9764acf83cce14de03e62494c60fb65c53b564d": "read",
+  "870b076d3e55cab2d52a765dfd62f18aadd56113f5ef347499b75113a1f25d3d": "read",
+  "c1f1058e35809c5fe474fbd1607a507f37445cef16c248d20c0cae6a2928ae96": "read"
+ },
+ "flags": []
+}

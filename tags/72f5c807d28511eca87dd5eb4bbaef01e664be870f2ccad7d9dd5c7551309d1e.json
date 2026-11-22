@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "72f5c807d28511eca87dd5eb4bbaef01e664be870f2ccad7d9dd5c7551309d1e",
+ "domain": [
+  "finance/crowdfunding",
+  "finance/investing"
+ ],
+ "product": [
+  "thecrowdspace"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Catalogue of crowdfunding and P2P lending platforms with market statistics, national regulation, news and an error-reporting tool.",
+ "whenToUse": "Use when comparing crowdfunding platforms, checking regulation in a country or reading industry news.",
+ "tasks": [
+  "search platforms",
+  "get market overview",
+  "get regulatory map",
+  "get industry news",
+  "report catalogue inaccuracy"
+ ],
+ "effects": {
+  "59aa77e0148a0932adf7fc2a2da1501402088fe02bcad4764088cf3b352d6bbb": "write",
+  "56cc43092e9b58a410265072086a555d9933d0e375dc2b6ac9e4c83c90605ddb": "write",
+  "47c4fe12eecb0a6a941aafdeb50cd69dc1c34d6ad8cb7ccb63a81b4b47481a24": "write",
+  "43512d90aea52962bd0ddda269c67e18f78ce63b9627fdb8f203084d4f43aa7e": "read",
+  "d034ebd3d23bd9bb31c4f140e2ad89165826195a860db12afc269c3b9e53f676": "write"
+ },
+ "flags": []
+}

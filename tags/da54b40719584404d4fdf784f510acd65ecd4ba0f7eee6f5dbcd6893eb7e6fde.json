@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "da54b40719584404d4fdf784f510acd65ecd4ba0f7eee6f5dbcd6893eb7e6fde",
+ "domain": [
+  "infrastructure/hosting",
+  "procurement"
+ ],
+ "product": [
+  "hetzner",
+  "ovhcloud",
+  "rentservers"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides GPU and dedicated server price benchmarks, 36-month TCO calculations, provider repricing audits and blind counter-quote requests.",
+ "whenToUse": "Use when comparing GPU or bare-metal rental costs or requesting competing provider quotes.",
+ "tasks": [
+  "get price index",
+  "calculate 36-month TCO",
+  "audit provider repricing",
+  "request blind counter-quotes"
+ ],
+ "effects": {
+  "e357d1bbee928ae5acd28903334bcf220826f10d1087f32af8e54959d32b4e86": "read",
+  "74af8d3dbe0669b24f6831dc00165739876ab49bab25d316b754ecb7a5b174e8": "read",
+  "de77becd8bb348ce1318e5ff25fa8f2066202029d86b9f56604f284287318aa9": "read",
+  "99076cdc3f62b978b0f38fff239143ab9d51577f592d28728912b99ddbc31a54": "write"
+ },
+ "flags": []
+}

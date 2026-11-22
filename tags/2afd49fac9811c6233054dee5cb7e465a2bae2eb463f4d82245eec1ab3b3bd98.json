@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "2afd49fac9811c6233054dee5cb7e465a2bae2eb463f4d82245eec1ab3b3bd98",
+ "domain": [
+  "finance/invoicing",
+  "legal/e-invoicing"
+ ],
+ "product": [
+  "zugferd",
+  "factur-x",
+  "xrechnung",
+  "kosit"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Generates, validates and parses German e-invoices (ZUGFeRD, Factur-X, XRechnung, EN 16931) checked against the official KoSIT validator.",
+ "whenToUse": "Use when you need to create, check or read a compliant German or EU electronic invoice.",
+ "tasks": [
+  "generate e-invoice",
+  "validate e-invoice",
+  "parse e-invoice to JSON",
+  "check validator health"
+ ],
+ "effects": {
+  "116d44d6c444b59edc0ffb17dccad1b36a90cc1f13f624236b425422b6f59b34": "read",
+  "6099da7611567ef16cbfc653d911fcf01f859d4c7843a8db7a478666add0ea49": "read",
+  "84ccc93f69067776839c4e0127d3db700d178529e1451b3b5565faab84e993e0": "read",
+  "83cf3d6664005bf0a3e786ee1d3d4312bea07f1803499dfa365d1e3c7ae85b8e": "read"
+ },
+ "flags": []
+}

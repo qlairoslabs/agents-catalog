@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "25a4b11e6e125edca533bc7678bf4bee0cc51b7d42f60cf5efb364a2d6e134f7",
+ "domain": [
+  "logistics/freight",
+  "logistics/shipping"
+ ],
+ "product": [
+  "ovrsea"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries OVRSEA freight data including shipments, quotations, documents, tasks and analytics.",
+ "whenToUse": "Use when the user needs status or reporting on their OVRSEA freight shipments.",
+ "tasks": [
+  "query shipments",
+  "view quotations",
+  "access shipment documents",
+  "list tasks",
+  "run reporting analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

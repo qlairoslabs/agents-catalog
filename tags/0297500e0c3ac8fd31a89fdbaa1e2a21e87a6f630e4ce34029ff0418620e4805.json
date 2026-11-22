@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0297500e0c3ac8fd31a89fdbaa1e2a21e87a6f630e4ce34029ff0418620e4805",
+ "domain": [
+  "data/transformation/dbt",
+  "data/orchestration/airflow"
+ ],
+ "product": [
+  "dbt-fusion",
+  "astronomer-cosmos",
+  "snowflake",
+  "databricks"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance for running dbt Fusion projects with Astronomer Cosmos using local execution on Snowflake or Databricks.",
+ "whenToUse": "Use when orchestrating a dbt Fusion project in Airflow via Cosmos 1.11+.",
+ "tasks": [
+  "run dbt fusion project with cosmos",
+  "verify engine and warehouse support",
+  "configure local execution mode"
+ ],
+ "effects": {},
+ "flags": []
+}

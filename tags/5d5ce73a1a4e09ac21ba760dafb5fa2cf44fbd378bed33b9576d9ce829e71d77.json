@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "5d5ce73a1a4e09ac21ba760dafb5fa2cf44fbd378bed33b9576d9ce829e71d77",
+ "domain": [
+  "retail/sports-equipment",
+  "golf-simulators"
+ ],
+ "product": [
+  "duffer-golf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Read-only facts about Duffer Golf folding simulator enclosures: models, prices, room fit check, FAQ, dealers and contact details.",
+ "whenToUse": "Use when a user asks about Duffer Golf prices, whether one fits their room, or where to buy.",
+ "tasks": [
+  "list models and prices",
+  "check room fit",
+  "answer FAQ",
+  "find dealers",
+  "get contact info"
+ ],
+ "effects": {
+  "770efa37d9f59450af05401ca380954546ca089502ec3f1280c783e648bfa15c": "read",
+  "65b953f895c31a856136031c9a564a0526822e2b3bc5af2fbe9c97775bf6fdd7": "read",
+  "423c498766cdf0eec9d77ec3fb76a94f321ad3157467d63e0576d35974614318": "read",
+  "79630339b056bc453f8d1bd477ae58ad48ec35665c578fc4acd2361036ee1ac4": "read",
+  "ec4b3f8a112e65334a44e727e18a7bf1bab84dd7ea51060d4f5a493a887569cc": "read"
+ },
+ "flags": []
+}

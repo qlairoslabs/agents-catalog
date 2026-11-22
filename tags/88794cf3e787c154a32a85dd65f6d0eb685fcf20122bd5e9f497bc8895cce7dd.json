@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "88794cf3e787c154a32a85dd65f6d0eb685fcf20122bd5e9f497bc8895cce7dd",
+ "domain": [
+  "marketing/deep-linking",
+  "marketing/attribution"
+ ],
+ "product": [
+  "grovs"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connector for managing deep links, attribution, analytics and campaigns on the open-source Grovs platform.",
+ "whenToUse": "Use when an agent needs to create deep links or review attribution and campaign analytics in Grovs.",
+ "tasks": [
+  "create deep links",
+  "manage campaigns",
+  "view attribution data",
+  "view link analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

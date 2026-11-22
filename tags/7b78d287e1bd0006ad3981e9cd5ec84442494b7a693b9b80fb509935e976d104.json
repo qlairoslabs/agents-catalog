@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7b78d287e1bd0006ad3981e9cd5ec84442494b7a693b9b80fb509935e976d104",
+ "domain": [
+  "finance/payments/global-accounts"
+ ],
+ "product": [
+  "airwallex"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Connects to an Airwallex account to handle invoices, supplier onboarding and multi-currency cash checks.",
+ "whenToUse": "Use when managing Airwallex invoices, suppliers or cash balances across currencies.",
+ "tasks": [
+  "create invoices from purchase orders",
+  "onboard suppliers",
+  "check cash position",
+  "run finance workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

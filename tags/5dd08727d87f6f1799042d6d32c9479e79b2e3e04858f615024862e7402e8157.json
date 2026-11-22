@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5dd08727d87f6f1799042d6d32c9479e79b2e3e04858f615024862e7402e8157",
+ "domain": [
+  "productivity/knowledge-management",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "dijin"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Cross-assistant memory layer that stores and recalls notes, decisions and supporting evidence.",
+ "whenToUse": "Use when an agent should recall past notes or decisions, or save new ones for later sessions or other assistants.",
+ "tasks": [
+  "recall notes",
+  "recall decisions",
+  "answer with evidence from memory",
+  "store memories"
+ ],
+ "effects": {},
+ "flags": []
+}

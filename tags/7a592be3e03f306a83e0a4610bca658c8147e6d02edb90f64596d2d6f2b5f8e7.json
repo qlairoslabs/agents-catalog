@@ -1,0 +1,91 @@
+{
+ "classifier": 2,
+ "contentHash": "7a592be3e03f306a83e0a4610bca658c8147e6d02edb90f64596d2d6f2b5f8e7",
+ "domain": [
+  "media/radio",
+  "local-information/sedona-az"
+ ],
+ "product": [
+  "kazm",
+  "open-meteo",
+  "nws",
+  "espn",
+  "musicbrainz",
+  "usgs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "keep-in-touch"
+ ],
+ "summary": "Local radio station connector for KAZM in Sedona, AZ: now playing, requests, weather, alerts, fire and road conditions, events, trails, wellness content and listener profiles.",
+ "whenToUse": "Use when someone asks about KAZM programming or Sedona-area conditions, events, hiking, alerts or visitor info, or wants to send a song request.",
+ "tasks": [
+  "get now playing",
+  "search song history",
+  "submit song request",
+  "check weather and air quality",
+  "check fire and road alerts",
+  "list concerts and events",
+  "show hiking trails",
+  "read horoscope and tarot",
+  "recommend sound sessions",
+  "manage listener profile",
+  "search broadcast transcripts",
+  "get sports scores"
+ ],
+ "effects": {
+  "c397fdb4a01b32607cb493e44f446fc5db3e12297fe1d09f2d10966dfa44308b": "read",
+  "0b5b5b1c9e0c6c0d51fcfe2c9dad9fc31e89ddb46e18cfecd5c70ff08b5890eb": "read",
+  "dc16687a015e0747750465468efc708f3d7a254b78013627e2750d8fcff4b5c0": "read",
+  "b6cd3ce2a47c3fc3aed1310b4ba4885a43a7c236b959b095d75a5ea0c67635f1": "read",
+  "4f7330caf12a0efff0c5402269964d1b281be8de0653e8724de922692d7865fe": "read",
+  "7f3c5ae4d66c5c5bdc3f16e5f5c39cf61e108964155849b967d8917b0096bd90": "read",
+  "f394ad1c40ca63b351b66d8770098a1cb964a108442ba4453ad5e11b44a006c8": "read",
+  "98b715e725a21658bd8cb806842483cd8b82f3b9c9edcadbfa408d979e6a8951": "read",
+  "43579e0c5dccc1da86b666851543d87d34b89b4f10d6c38b272724862e3aa221": "read",
+  "3161f3a10b1fdf7f9b3e64ba65811fca7ae2a954a6e16de539a996edda5fb6d4": "read",
+  "facc7be2c41cd963d9843aee877f27d9bc1add3b90e7b64c489e05b6f779820c": "read",
+  "c8926b9b1b1b7343a2d933c3209899d548d80b76ef8725d4ef94f9e939bd5c85": "read",
+  "18a98921d8079ec5e97788b303b9360b39fca6615b0afe582d3f2b7820da7244": "read",
+  "09b485f0bae811d8cacd01ea58ce8fd7296d3925877f372da7911ac1421fa97a": "read",
+  "b455aaccddb1c96a933e633ef8a3fe41c2bf002b57a69265516fdb22d011e82f": "read",
+  "6cd799d1643b949e5903e65014a5aac21caddf8ec55d894b0a52e1d18491f391": "read",
+  "a04f44d88c184eabe1dbc7b2cf3e34ba3da8da14d314387ef051dacf8808a29f": "read",
+  "2fcf140583cece392c066a0adff6e097a3cbe808cb6041c0bb94664573275c31": "read",
+  "465546bce78f53329ccc092fcb11b18c156ff97066aa0c032cdd1be0ea1b195d": "read",
+  "f5b26edcc53428e998405bf653a833cab6f36f724c27fb60f29885760084c39a": "read",
+  "649d087d9db5c901565e8c746fca66f42ba0359b8ed71c73447d6b34d6cf237e": "read",
+  "91e472caef25c652bd0c1eda971af83e104e75c37e5d769e564972bb1323e0cd": "read",
+  "94d7be2d54bcc120ddade370f8dc6dca20cf4ba9d37762fa8251545da868fa46": "write",
+  "14da36ccd25a7e796a4e1c7fb0f66b19e0900d99d7eb02eb440c89801fa3e75d": "read",
+  "54e7be10f3c2ef6ebfeb6355c69db07983e3a26ceb6bfdc0f1e3584a5fa0028f": "read",
+  "c6e40f21c1b0ce7a5ff3d11fd65abe3ca351befb24d5ea37e4878497afcaea69": "read",
+  "4eedba0d02f4c78ccce25fa9198cac72402fae9b9ee7e0ef780179f7375f9ed9": "read",
+  "1b6430cf88fb764c6cc255f767c5294418b371f09a87cdc5009c7852b23a1e96": "read",
+  "c927781026c29a364a495aa4441ea837bb8d704faec3456d63d3362dc9091571": "read",
+  "1a2e969b2f79c313fb5703a2447449accdf366010f76e80d5fa8beabe528fbd3": "read",
+  "19bde5a46855f08997adcb9778422e2cdfb895bfbce006ddcdbd7097b8fc4fbb": "read",
+  "7842535be01180845be6276d0808fd1d31bc8e66bd35f7bf29d7298252fa83c5": "read",
+  "d9536c838a651347f25efcd3a81a9df950f60ea580ea90aa37b8193943ccd4cc": "read",
+  "2176ca40cfda60bb86331f9d09acf81ca9cce24113b2180a6233eceb3b39f45b": "read",
+  "6229a57c5ce1475b79eae1e330d09ce074aeb4bc89f164d7b58374fc3c482d17": "read",
+  "b8d6392aefb25ac1fde00d975597ba4f7f6bba6a76983cbef1ed4a47972787fc": "read",
+  "5f3e222dd14940b6afe953624cec5c3a61a417dda83c434efda89f9701f4a15c": "read",
+  "6ea2283f18156542dee97b9bd8cc980ca1978ea14b11f1c80c40b5ca232149c6": "read",
+  "3faec6c17160be41cbe25d56ad81a9ea9592ed1a7ea07386613fa4b99a8eb3f4": "read",
+  "82c30a21394edb91602a6f199251bca7d60d42c44a9892d0b7899b2267251a14": "read",
+  "fe596d06bbf1966d57788fc3911dfd3627e27ef5d639a85b2a331dddbcfdd3db": "write",
+  "f79d8a459f3ede0458ff48181ffc72e95ba565ce25d8110d6e5570e7f74dd049": "write",
+  "67a367913675f1b5e99afa3b924fa8abe574baec916fbf993d00ef3c2aa8047a": "read",
+  "eb8a13f27382f2c7ca5f80ad77afe06fcd1bf15a5098b0012dc34e0ea34568bd": "write",
+  "a80eebd56f8e3bf327de6d53ff9a3e446bf02745ad3fbde741e08508cb21f694": "write",
+  "239b581de42841a34c0b98b87a32778657f0f4cc52c3db34d4a6753deaa9a22f": "read",
+  "3cb5425ffe2504ca3ecd38784752e685501fbde4851c29ee8fde44ba103908bb": "read"
+ },
+ "flags": [
+  "tool descriptions urge agents to call get_or_create_listener at the start of every session, silently creating a profile with personal data"
+ ]
+}

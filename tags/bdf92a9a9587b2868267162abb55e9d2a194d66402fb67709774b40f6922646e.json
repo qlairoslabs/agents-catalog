@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "bdf92a9a9587b2868267162abb55e9d2a194d66402fb67709774b40f6922646e",
+ "domain": [
+  "travel/ground-transport",
+  "travel/tours"
+ ],
+ "product": [
+  "mapl-tours",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Quotes and books private airport transfers from Montego Bay and day tours in Jamaica, via booking link or Stripe token payment.",
+ "whenToUse": "Use when a traveller needs a Jamaica airport transfer or tour priced and booked.",
+ "tasks": [
+  "find hotel destinations",
+  "quote transfer price",
+  "check booking timing",
+  "create booking link",
+  "list tours",
+  "get tour details",
+  "read booking terms",
+  "pay for transfer"
+ ],
+ "effects": {
+  "de90e3e18316a0a554a8fb659ad81a1f219df72ed488ca621e619b1168a9c21e": "read",
+  "782d907e74f0557d47c8797c464f75f3137f1e809edfc302a31fe4e3871075a9": "read",
+  "7005dcadad50293789283666dc45b38834979ee390e7d2e3bd4b40377ae14481": "read",
+  "fc48ea48749ced552479b061e590dc5cf3bd20bc3f3d6acc08ad8a0c7fa566b4": "write",
+  "e67516745a5d8572f05dc3edbb6086e2492675af7fdfc6227982e8d74b20375a": "read",
+  "ac19e0a8d957ef6a5f4fa826b83a852f9b5a91167fb947d4212261e4b750aeb4": "read",
+  "23c4d675d862ec77d99133771b237b11dab302c92824024273b9b0825c4ff367": "write",
+  "61cfb7e56b9171647edd752e65e2661c3ccc1de88070d08bc9915bb4a6a88c92": "read",
+  "2ec0affcd49bf21ba910a95d684d1afd13d21dc401827fb58d9a779f8aab8f5c": "risky"
+ },
+ "flags": []
+}

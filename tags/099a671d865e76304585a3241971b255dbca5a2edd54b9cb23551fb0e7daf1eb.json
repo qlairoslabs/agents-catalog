@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "099a671d865e76304585a3241971b255dbca5a2edd54b9cb23551fb0e7daf1eb",
+ "domain": [
+  "software/hosting/deployment",
+  "software/devops"
+ ],
+ "product": [
+  "vercel"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Integrates Vercel to manage deployments, check builds, read logs and configure domains.",
+ "whenToUse": "Use when deploying or troubleshooting a project hosted on Vercel.",
+ "tasks": [
+  "manage deployments",
+  "check build status",
+  "read logs",
+  "configure domains"
+ ],
+ "effects": {},
+ "flags": []
+}

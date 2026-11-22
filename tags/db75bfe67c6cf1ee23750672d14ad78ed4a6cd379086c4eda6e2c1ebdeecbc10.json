@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "db75bfe67c6cf1ee23750672d14ad78ed4a6cd379086c4eda6e2c1ebdeecbc10",
+ "domain": [
+  "entertainment/filming-locations",
+  "travel/tourism"
+ ],
+ "product": [
+  "wikidata"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Wikidata-based atlas of where films and series were shot and where games, anime and manga are set.",
+ "whenToUse": "Use when finding filming locations for a title, productions at a place, or locations near coordinates.",
+ "tasks": [
+  "find filming locations",
+  "search productions",
+  "list productions at a place",
+  "search locations",
+  "find locations near coordinates",
+  "rank top locations",
+  "get statistics"
+ ],
+ "effects": {
+  "735ec3d2cbc0cf0dd5160673d1e037843c39347ab287d9986eef73fb5f7bd5f0": "write",
+  "5e090ffb2c17fcb0a649fa68f987f1d9c224da09ea75f85379d7eb5a17492bf6": "read",
+  "4dba425492bcd046e5cd6d0d2d3da2bfdb96e374a038b0d5c071028d7f065570": "read",
+  "4371bf3ab74f21dcbf5674da39c94b3c22f428942e339febbedd8886ec90a75b": "read",
+  "547e6ac270b4a6b9a63f9b52c16b1599610bda30dc0be71937dadba3fdbe4d97": "read",
+  "b2c21fc5819401f55865b418c1d9a3901e31fdd005e1b726b1d4c2fd7e050d58": "read",
+  "71538133900df77101e37ee50b68f578aefd0500b434827a20a4144a63db117e": "read",
+  "3991257dd3ab234ce6aa7f4e5a63599826470a50406e5338191d6760f77d9867": "read"
+ },
+ "flags": []
+}

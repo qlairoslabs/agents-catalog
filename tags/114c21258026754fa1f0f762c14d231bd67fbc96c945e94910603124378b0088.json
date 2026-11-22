@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "114c21258026754fa1f0f762c14d231bd67fbc96c945e94910603124378b0088",
+ "domain": [
+  "business/agency-management",
+  "sales/crm",
+  "finance/invoicing"
+ ],
+ "product": [
+  "agency-handy"
+ ],
+ "audience": [
+  "operations",
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "get-paid",
+  "sell"
+ ],
+ "summary": "Connects to Agency Handy to manage agency clients, projects, tasks, invoices and proposals.",
+ "whenToUse": "Use when managing an agency's clients, project work, invoicing or proposals in Agency Handy.",
+ "tasks": [
+  "manage clients",
+  "manage projects",
+  "manage tasks",
+  "create invoices",
+  "create proposals"
+ ],
+ "effects": {},
+ "flags": []
+}

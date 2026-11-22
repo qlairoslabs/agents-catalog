@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "f2ee91415e4eff6090d1878717f8f2f936fe183a2672e76432c0f7d130ede7bf",
+ "domain": [
+  "travel/bike-rental",
+  "travel/camino-de-santiago"
+ ],
+ "product": [
+  "tournride"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Checks bike rental availability and exact prices for Camino de Santiago routes and saves a quote with a link to book.",
+ "whenToUse": "Use when a traveler plans to rent bikes for the Camino de Santiago and needs prices or a quote.",
+ "tasks": [
+  "check bike availability",
+  "calculate exact prices",
+  "check sizes by height",
+  "save a rental quote",
+  "get quote link"
+ ],
+ "effects": {
+  "897ebdddfe8031ff9a3b3a5ba3de3812588d00e572aac5fd47d8b60c17120c38": "write",
+  "ee4c825d1cbbe10df05574f0f6e4d4995c30f5470bf1435a8e6be25fb6bc9cf1": "write"
+ },
+ "flags": []
+}

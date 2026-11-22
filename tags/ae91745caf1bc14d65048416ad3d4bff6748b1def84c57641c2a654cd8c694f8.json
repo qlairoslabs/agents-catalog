@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "ae91745caf1bc14d65048416ad3d4bff6748b1def84c57641c2a654cd8c694f8",
+ "domain": [
+  "entertainment/movies",
+  "commerce/media"
+ ],
+ "product": [
+  "blu-ray",
+  "bluraysuchmaschine"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a German Blu-ray and 4K UHD movie database by title, person, year, genre or tag, with details and similar titles.",
+ "whenToUse": "Use when looking up Blu-ray or 4K releases, editions, featured titles or similar movies.",
+ "tasks": [
+  "search movies",
+  "get movie details",
+  "list featured movies",
+  "browse by tag",
+  "list tags",
+  "find similar movies",
+  "browse by year and genre"
+ ],
+ "effects": {
+  "34209c25159ab94cbb4db7504ecceb0a77ca0951f1fe843bc0c6253cf008adbc": "read",
+  "4fef520d730d39378922aabdcf4eb673a2e1c56cdf5ac206079c62613661e910": "read",
+  "16c626edf7e9aad5650943a8cccbdcca847a14a3d5a091ccb252c3af92659e43": "read",
+  "898b6a58f03fb970f8c7cd8d12a75f112dabee290b6f8d8c936c373e99e2fe90": "read",
+  "cd89bf17009952093a3d78a6c36ff25550617b5583091d64537b67dc09198e58": "read",
+  "f5e741bec2516fb0741158e1937198b72bd223ab36e008e2e8d3420558850e72": "read",
+  "04f510db9429feaa17e3b3d0134edb81d7d85940bc00e808d6a3714987b0a173": "read"
+ },
+ "flags": []
+}

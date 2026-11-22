@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e9d7202543adbcc067820c3af724176fc5af994300388cefa1af4207ece21143",
+ "domain": [
+  "finance/accounts-receivable",
+  "finance/collections"
+ ],
+ "product": [
+  "agentcollect"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only querying of your accounts-receivable portfolio in AgentCollect.",
+ "whenToUse": "Use when you need answers about outstanding receivables, debtors or collection status.",
+ "tasks": [
+  "query receivables portfolio",
+  "analyse outstanding balances",
+  "review collection status"
+ ],
+ "effects": {},
+ "flags": []
+}

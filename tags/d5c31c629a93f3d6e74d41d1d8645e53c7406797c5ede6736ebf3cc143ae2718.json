@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d5c31c629a93f3d6e74d41d1d8645e53c7406797c5ede6736ebf3cc143ae2718",
+ "domain": [
+  "communication/email",
+  "privacy/email-aliases"
+ ],
+ "product": [
+  "inboxy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Reads and manages inboxy.net email aliases, mail and RSS feeds, with mail composition on paid plans.",
+ "whenToUse": "Use when the user wants to check or manage their inboxy aliases, messages or RSS feeds.",
+ "tasks": [
+  "manage aliases",
+  "read mail",
+  "manage rss feeds",
+  "compose mail"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "53c141c0cf8330adc5133f1bfeba2e26467dc7527e1bbc09ce78923ebe7680c7",
+ "domain": [
+  "media/live-streaming",
+  "marketing/video"
+ ],
+ "product": [
+  "livereacting"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "be-online",
+  "schedule"
+ ],
+ "summary": "Runs continuous live streams from pre-recorded videos or schedules a recorded video to go live at a set time.",
+ "whenToUse": "Use when the user wants to broadcast pre-recorded video as a live stream or schedule a streamed video.",
+ "tasks": [
+  "start 24/7 looped stream",
+  "schedule recorded video as live",
+  "manage stream playlists"
+ ],
+ "effects": {},
+ "flags": []
+}

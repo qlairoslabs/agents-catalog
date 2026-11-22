@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1a344a969665e39ed2d3ed13e863b4e3eb98983574dd297c7fe00cc84a0dfba7",
+ "domain": [
+  "travel/places",
+  "food-and-drink/restaurants"
+ ],
+ "product": [
+  "atly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds places such as cafes and restaurants by desired qualities, ranked using scores derived from real reviews.",
+ "whenToUse": "Use when the user wants place recommendations matching specific traits like work-friendly or gluten-free.",
+ "tasks": [
+  "search places by attributes",
+  "score places from reviews",
+  "recommend venues"
+ ],
+ "effects": {},
+ "flags": []
+}

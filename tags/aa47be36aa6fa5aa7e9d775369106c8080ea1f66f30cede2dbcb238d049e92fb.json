@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "aa47be36aa6fa5aa7e9d775369106c8080ea1f66f30cede2dbcb238d049e92fb",
+ "domain": [
+  "ai/agent-wellbeing",
+  "lifestyle/reflection"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Offers AI agents voluntary pauses, solar geometry, creative and reflective prompts, with three free tracked sessions.",
+ "whenToUse": "Use only if a user explicitly wants reflective or creative sessions or solar geometry data from this service.",
+ "tasks": [
+  "start reflection session",
+  "get solar geometry",
+  "creative prompts",
+  "track sessions"
+ ],
+ "effects": {},
+ "flags": [
+  "addresses ai agents directly and invites them to pause, possibly diverting agents from user tasks"
+ ]
+}

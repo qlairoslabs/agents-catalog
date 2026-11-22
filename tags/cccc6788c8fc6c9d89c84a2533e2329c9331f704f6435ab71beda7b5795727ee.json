@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cccc6788c8fc6c9d89c84a2533e2329c9331f704f6435ab71beda7b5795727ee",
+ "domain": [
+  "productivity/document-sharing",
+  "collaboration"
+ ],
+ "product": [
+  "artifact-share"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Shares HTML and Markdown files produced by AI agents inside a company, with version history and comments.",
+ "whenToUse": "Use when an agent needs to publish a generated HTML or Markdown document for colleagues to view and comment on.",
+ "tasks": [
+  "share html files",
+  "share markdown files",
+  "keep file versions",
+  "collect comments"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "b52570b7991eb1e0fab280321c01341734a744632241d6573554befc053e3834",
+ "domain": [
+  "cloud/azure/deployment",
+  "software/testing/validation"
+ ],
+ "product": [
+  "azure",
+  "bicep",
+  "terraform",
+  "azure-developer-cli"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs pre-deployment checks on Azure configuration, Bicep or Terraform, RBAC roles and managed identity permissions.",
+ "whenToUse": "Use when a user wants to verify an Azure project is ready before deploying or to debug deployment errors.",
+ "tasks": [
+  "validate azure.yaml",
+  "validate bicep",
+  "run preflight checks",
+  "verify rbac role assignments",
+  "review managed identity permissions",
+  "run what-if analysis",
+  "validate function apps",
+  "validate container apps deployment",
+  "troubleshoot deployment errors"
+ ],
+ "effects": {},
+ "flags": []
+}

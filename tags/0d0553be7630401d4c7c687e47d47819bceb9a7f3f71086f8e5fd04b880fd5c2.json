@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0d0553be7630401d4c7c687e47d47819bceb9a7f3f71086f8e5fd04b880fd5c2",
+ "domain": [
+  "commerce/online-store"
+ ],
+ "product": [
+  "sellfy"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Manages a Sellfy store's products, discounts, orders and sales data, and drafts marketing emails.",
+ "whenToUse": "Use when running or analyzing a Sellfy store from an AI assistant.",
+ "tasks": [
+  "manage products",
+  "manage discounts",
+  "view orders",
+  "view sales",
+  "draft emails"
+ ],
+ "effects": {},
+ "flags": []
+}

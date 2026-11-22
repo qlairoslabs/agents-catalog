@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "e468565c52a347e878ce8b59fb7344751e5d631d4eb163e4498b5cc6e2fa0567",
+ "domain": [
+  "education/language-testing",
+  "immigration/canada"
+ ],
+ "product": [
+  "celpip",
+  "celpass",
+  "ircc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "CELPIP exam practice questions, answer checking, sample answers and templates, plus a calculator for Canada's November 2026 Express Entry CRS points.",
+ "whenToUse": "Use when a learner wants CELPIP practice or feedback, or needs to estimate Express Entry CRS points or look up high-wage NOC occupations.",
+ "tasks": [
+  "calculate CRS points",
+  "look up high-wage occupations",
+  "get practice questions",
+  "check reading and listening answers",
+  "get sample answers",
+  "get answer templates"
+ ],
+ "effects": {
+  "fc460a2173e5f11a77cef6b6f645ff01d5aa1d987c404d6a89b1ecb3003d01f1": "read",
+  "9277fc6cfca428269411702de100c6220a0d76e6796ec7bee5d3c80a6384cfed": "read",
+  "6ac614ecad8be3525a42b44855f68edf8bf5173a1410e6a394b8a6f5175270fd": "write",
+  "2fe1985b1fd0a2e2ab1cf99b08121a92c6e963554191d3628b9c793011a485e5": "write",
+  "c749523d05ce30806916f8cb823b2ed77296f5a971f03358e0aa7823fe63cb0f": "read",
+  "1b87f6458cacbcd77bad334b31ee35aafcb45ebd3ce6aa370caf88a0650d4b26": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "7df398024b4f310d8529feed64a6a412417babaa65d7ab8fa50ea6ad018baf7a",
+ "domain": [
+  "design/ux-research",
+  "analytics/session-replay"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Analyzes Amplitude Session Replays across many sessions to produce a ranked map of UX friction where users struggle or abandon.",
+ "whenToUse": "Use when a PM or designer wants evidence of usability problems or friction in a specific page, feature or flow.",
+ "tasks": [
+  "find relevant session replays",
+  "detect hesitation and abandonment",
+  "identify ux friction patterns",
+  "rank friction points",
+  "audit a user flow"
+ ],
+ "effects": {},
+ "flags": []
+}

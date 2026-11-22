@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "388ab81184ccb053b897e9294e01d9bbf4c902eed7bf3b5dba2c9856fc6e22ef",
+ "domain": [
+  "personal-finance/budgeting"
+ ],
+ "product": [
+  "envelopebudget"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Reviews EnvelopeBudget data and can categorize transactions with scoped permissions.",
+ "whenToUse": "Use when the user wants to review their EnvelopeBudget budget or categorize transactions.",
+ "tasks": [
+  "review budget data",
+  "view transactions",
+  "categorize transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

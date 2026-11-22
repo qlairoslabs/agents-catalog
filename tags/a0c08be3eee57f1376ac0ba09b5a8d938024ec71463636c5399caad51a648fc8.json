@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a0c08be3eee57f1376ac0ba09b5a8d938024ec71463636c5399caad51a648fc8",
+ "domain": [
+  "software/monitoring",
+  "operations/status-pages"
+ ],
+ "product": [
+  "atlassian-statuspage"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Fetches recent incidents from any public Atlassian Statuspage status page without authentication.",
+ "whenToUse": "Use when checking whether a service has had recent outages or incidents on its public Statuspage.",
+ "tasks": [
+  "list recent incidents",
+  "check incident status and impact",
+  "get incident shortlinks"
+ ],
+ "effects": {
+  "c981edbd82dfdf52f21eab84dd5fad992b9dab25cc2776ef8e18b5b2b46a3ba0": "read"
+ },
+ "flags": []
+}

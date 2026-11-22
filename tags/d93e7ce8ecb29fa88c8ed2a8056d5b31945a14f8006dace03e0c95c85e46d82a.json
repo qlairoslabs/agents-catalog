@@ -1,0 +1,63 @@
+{
+ "classifier": 2,
+ "contentHash": "d93e7ce8ecb29fa88c8ed2a8056d5b31945a14f8006dace03e0c95c85e46d82a",
+ "domain": [
+  "email/deliverability",
+  "it/dns"
+ ],
+ "product": [
+  "spf",
+  "dkim",
+  "dmarc",
+  "bimi",
+  "google-workspace",
+  "microsoft-365"
+ ],
+ "audience": [
+  "operations",
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Check a domain's SPF, DKIM, DMARC, BIMI, blacklists and DNS records, generate email DNS records, find SMTP/IMAP settings and test mail logins.",
+ "whenToUse": "Use when emails land in spam or a user needs email authentication verified, DNS records inspected or SPF/DMARC records generated.",
+ "tasks": [
+  "audit domain deliverability",
+  "check SPF",
+  "check DKIM",
+  "check DMARC",
+  "check BIMI",
+  "generate DMARC and SPF records",
+  "check blacklists",
+  "look up MX TXT CNAME PTR records",
+  "find SMTP and IMAP settings",
+  "test SMTP login",
+  "test IMAP login"
+ ],
+ "effects": {
+  "bbb4b6a0c508d0466277ce9fd767aa47303380a9696dd893dd794aab11f307dd": "read",
+  "8b44d64e47100dce0241e25f45b824fed846a93def60bcbe3ec31a0d12b06eef": "read",
+  "275f991c38a592f47c593a9661aa8ab125086a2c872c549839502fdbdd6e5c79": "read",
+  "bb2a23006e5aad2b47c3e55d338b8643000624bb355f8bb15cd36269af787603": "read",
+  "8c41c6bc2e0dfeec1dead17c20b323e7a26e1665f51a793c7edd44527633bc0b": "read",
+  "a74223a7ee536c62a5df469af4a3c7770c40021fdd4e224dc7f73b57ab375303": "read",
+  "9db39feffc6a96745afe876091ba0d169ff45c0dd6db90c220a308af05c94435": "read",
+  "43b5be7a6b06955d218ed7c706d101be0ac0c8659456a8148f97979089ad3647": "write",
+  "4e847f303b760aae24a6045196b3f228605c537ba843f539492c6674b77805f4": "read",
+  "e4fce92cac535f3f858cb673368c196bdebee326ac42a382a36ff8180344c5bb": "read",
+  "4692f818b4a9605a510ed2deae4d49a0cee6ab1be84042329be7e7976c49db93": "read",
+  "411cda652db5f019f51ad26415a5e43f6f11829f05ee5ceed7424fbf24d7d877": "read",
+  "24ce8d05580384213b446dc3564a868f260ee22e4459194c3c47f02ae71c5e67": "read",
+  "84ed144a42a82d54bc25610e51f8460bea0ff26fb8c3c1056596f2fab409c8f6": "read",
+  "becaf02bddd55cb14668d9543f9b0ac2ff367558ee90bbe91abf35143ef622ce": "read",
+  "4630658337b10151e973dbd7c6c19e9b59ef89140cc37d4cebfffa79183aea3e": "read",
+  "fb8b25f32ca3561289787190e10629b841e27b066cfe222dcd5afe19c96c2ceb": "read"
+ },
+ "flags": [
+  "smtp_check and imap_check take mailbox passwords as tool arguments"
+ ]
+}

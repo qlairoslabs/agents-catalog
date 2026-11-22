@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "d4279513897bc872e2635b79f4d0163ae48c94813c41fe2712531c08e480778a",
+ "domain": [
+  "business/company-data/brazil",
+  "legal/due-diligence"
+ ],
+ "product": [
+  "dabra",
+  "receita-federal"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Brazilian companies and individuals by CNPJ or CPF, returning registry, partners, tax status, sanctions and lawsuits.",
+ "whenToUse": "Use when an agent needs due-diligence or registry data on a Brazilian company or person.",
+ "tasks": [
+  "look up company by cnpj",
+  "look up person by cpf",
+  "list partners",
+  "check tax status",
+  "check sanctions",
+  "find lawsuits"
+ ],
+ "effects": {},
+ "flags": []
+}

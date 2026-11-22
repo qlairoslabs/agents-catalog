@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "6bb5162549fa41a9d89a65f72d938d6e854aa1ba6a10c5e729339f9965d6370a",
+ "domain": [
+  "productivity/project-management",
+  "productivity/kanban"
+ ],
+ "product": [
+  "kanbanthing"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Creates and manages password-protected KanbanThing boards, columns and cards without an account or API key.",
+ "whenToUse": "Use when you need a quick shared kanban board to track tasks, or must read or update a board the user shared.",
+ "tasks": [
+  "create board",
+  "read board",
+  "list columns",
+  "list cards",
+  "create card",
+  "move card",
+  "update card",
+  "delete card"
+ ],
+ "effects": {
+  "4964fbec92a78a38ab7b2dff02556839c2f777c50bb94f685511358a2c034c91": "write",
+  "0deb92a58d6d63ab24ee2a97850c050f0dca44a9d60d369397ac6074edc5618c": "read",
+  "b323c44c9fc8e4de88a6977cf81a50068f174aa5cbd881a8bf7b67693d9295b6": "read",
+  "21e12ee3cc1b069863134a767adac0f32e1e3032ce47fe4e110b4398c0f70b72": "read",
+  "b701765f514012c2d905261c9c57da96b57ee16e2b8c5393f0ac6ca61ae32205": "write",
+  "ab38c825b9ca6e912383986f4528406b80bdf858a92da1e626468493a02c4187": "write",
+  "9efc2266ea5900f5ad15e84fe1f88ca21f8f44d8c7bfc6b62d43c61935fd10e4": "write",
+  "dab9ce492206164aaab644f1e57be9edce7cd685c1fda6f73ec8ed1927f88180": "write"
+ },
+ "flags": []
+}

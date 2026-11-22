@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "62d64b7826fb466a9692eca48b7ea6f85e9f8ea1d06958607879e5de09544d96",
+ "domain": [
+  "marketing/digital-signage",
+  "media/content-management"
+ ],
+ "product": [
+  "signagespace"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Manages digital signage screens, playlists and media content from an AI assistant.",
+ "whenToUse": "Use when an agent needs to update what is shown on digital signage screens.",
+ "tasks": [
+  "manage screens",
+  "manage playlists",
+  "manage media"
+ ],
+ "effects": {},
+ "flags": []
+}

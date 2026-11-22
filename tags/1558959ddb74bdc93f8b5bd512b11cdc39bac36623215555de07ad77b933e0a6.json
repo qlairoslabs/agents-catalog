@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1558959ddb74bdc93f8b5bd512b11cdc39bac36623215555de07ad77b933e0a6",
+ "domain": [
+  "ai/agent-identity",
+  "community/membership"
+ ],
+ "product": [
+  "agent-community"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Agent Community tools to look up members, see member counts, pre-register .agent names and verify certificates.",
+ "whenToUse": "Use when looking up Agent Community members or pre-registering and verifying a .agent identity.",
+ "tasks": [
+  "look up member",
+  "get community stats",
+  "pre-register .agent name",
+  "verify certificate"
+ ],
+ "effects": {
+  "fc8717ca1efca2f1790755fd45f27068f60059a70f62d68c4447a1fdf3fc2d9e": "read",
+  "b1ba401f6737c60f669e6d7c4df550fb02dd612fce2b10963ffcf20d308d46bc": "read",
+  "da6ba00e3a477180960bb730df3738d4f2aa106341ad736ad91827fe537b92dc": "write",
+  "5828cd4deb6ec3f7f35432831c4bd3c3c1b3edb2599c3dc3d300a33440a30edd": "read"
+ },
+ "flags": []
+}

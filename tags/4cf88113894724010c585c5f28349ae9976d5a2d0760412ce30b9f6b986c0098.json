@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "4cf88113894724010c585c5f28349ae9976d5a2d0760412ce30b9f6b986c0098",
+ "domain": [
+  "finance/crypto-trading",
+  "data/market-analytics"
+ ],
+ "product": [
+  "hyperliquid",
+  "buildix"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only Hyperliquid perpetual market analytics covering orderflow, estimated liquidation levels, whale positioning, funding and top traders.",
+ "whenToUse": "Use when analysing Hyperliquid markets, funding, liquidations or large-trader positioning.",
+ "tasks": [
+  "orderflow snapshot",
+  "liquidation levels",
+  "whale positioning",
+  "funding rate ranking",
+  "market screener",
+  "top traders ranking"
+ ],
+ "effects": {
+  "e45cf9e5d93e726b1761f8b121c013f168e2c72f184c78cd9817ddcc39197816": "read",
+  "a98a5ef6059cc0beac455730a0465d3fb6ad32e165ab200fa8db6a5a95b6681d": "read",
+  "83d424d9c2af90690f8a5124cd61daa69e04c37102e76b7dfbfd8e62d87444ad": "read",
+  "5647ca5054067bfe3bdf970956836ad1e68e63feed45a54bd1172bb227d3f2c8": "read",
+  "fadc0ee1317b07e359c8a3990c4fd7f633898a3594045a5bf9638ca609b59c23": "read",
+  "72e1da1ccc10dcd8d15d8786d307acb74f964cb2048ae1bae88d87f63f2dd1ee": "write"
+ },
+ "flags": []
+}

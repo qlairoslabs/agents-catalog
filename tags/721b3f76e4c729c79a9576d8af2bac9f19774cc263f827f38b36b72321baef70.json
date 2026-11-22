@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "721b3f76e4c729c79a9576d8af2bac9f19774cc263f827f38b36b72321baef70",
+ "domain": [
+  "compliance/kyc-aml",
+  "security/fraud-prevention"
+ ],
+ "product": [
+  "didit"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Identity and business verification, AML and wallet screening, transaction monitoring and fraud workflows.",
+ "whenToUse": "Use when verifying customers or businesses, screening for AML risk, or monitoring transactions for fraud.",
+ "tasks": [
+  "run kyc checks",
+  "run kyb checks",
+  "aml screening",
+  "wallet screening",
+  "monitor transactions",
+  "fraud workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

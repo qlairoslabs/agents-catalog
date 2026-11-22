@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a327b48a6684dd84188f087d19d89f4b25fba9071cbf1821e5ad044bf7f37a3b",
+ "domain": [
+  "networking/proxies"
+ ],
+ "product": [
+  "proxyjam"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Buy and manage ISP proxies including orders, renewals, traffic, IP whitelists and account wallet.",
+ "whenToUse": "Use when a user wants to order, renew or configure ISP proxies on ProxyJam.",
+ "tasks": [
+  "browse proxy offers",
+  "place orders",
+  "renew proxies",
+  "check traffic",
+  "manage ip whitelists",
+  "manage wallet"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "942b9ca512f61c16cdf13a4139aa1bbf790a2cd729d59453ec2a77e5f06aac54",
+ "domain": [
+  "media/stock-photos",
+  "design/image-search"
+ ],
+ "product": [
+  "pexafy"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches free-to-use stock photos by keywords, example image or similarity, with the licence shown for each result.",
+ "whenToUse": "Use when an agent needs free stock images with clear licensing for content or design work.",
+ "tasks": [
+  "search photos by keyword",
+  "search by image",
+  "find similar photos",
+  "show licence info"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ae74719cf015313fe652fd395a72884a7dba3b7d866968aa335bfb8420bc099c",
+ "domain": [
+  "family/location-sharing",
+  "safety"
+ ],
+ "product": [
+  "positionguard"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Reports which opted-in group members are in a named area such as home or school, without sharing coordinates.",
+ "whenToUse": "Use when a user asks whether family or group members are at a known place like home or school.",
+ "tasks": [
+  "check who is at an area",
+  "list group members present"
+ ],
+ "effects": {},
+ "flags": [
+  "handles-personal-location-data"
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bf84ca994dfd96ddd7b7b9af0fd83718f29c1d5896e072737852f2863b20111f",
+ "domain": [
+  "hardware/embedded",
+  "software/testing"
+ ],
+ "product": [
+  "embeddedci",
+  "benchpod"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Controls a BenchPod hardware-in-the-loop test bench including power, flashing, UART, I2C, CAN, analog and logic signals.",
+ "whenToUse": "Use when flashing, powering or testing embedded hardware connected to a BenchPod bench.",
+ "tasks": [
+  "control power",
+  "flash firmware",
+  "read uart",
+  "use i2c bus",
+  "send can messages",
+  "read analog signals",
+  "capture logic signals"
+ ],
+ "effects": {},
+ "flags": []
+}

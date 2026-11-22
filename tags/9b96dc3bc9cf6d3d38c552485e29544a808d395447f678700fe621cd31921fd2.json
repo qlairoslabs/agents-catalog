@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9b96dc3bc9cf6d3d38c552485e29544a808d395447f678700fe621cd31921fd2",
+ "domain": [
+  "marketing/content-creation",
+  "marketing/audience-testing"
+ ],
+ "product": [
+  "neuroflash",
+  "claude",
+  "cursor"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Creates marketing content and tests it against simulated audience digital twins from neuroflash.",
+ "whenToUse": "Use when drafting marketing content and gauging how a target audience might react.",
+ "tasks": [
+  "create content",
+  "test content with digital twins"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "d054fa3193eb92251123c1af464caca0a5283f44bb754d073e042a97990062b6",
+ "domain": [
+  "marketing/ai-visibility",
+  "research"
+ ],
+ "product": [
+  "ask10ais"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Published measurements of how 12 AI models mention and rank brands in Chinese and English, with rankings and scenario mention rates.",
+ "whenToUse": "Use when checking how AI models rank or mention a brand or verifying an ask10ais certificate.",
+ "tasks": [
+  "find brand",
+  "list rankings",
+  "get ranking",
+  "list scenarios",
+  "get mention rates",
+  "verify certificate"
+ ],
+ "effects": {
+  "59b2aaa86578504b12b1701649e18b2b9bedca3da2c4edcc96186961b4b1fe17": "read",
+  "3b82f43990b00ba295a1e8914045b54fde7fe2df995e4478610dcf3d94289e72": "read",
+  "d4b108ad2bf954aeba8de4a6914f1655f7d8581c0e5868d29a13f60848a6a913": "read",
+  "79b5257260a81295a893c1062088c13316b22919dabcbfea7b1b51f6c18b93e6": "read",
+  "0d346bbb258879c21dad8fc2b79117da58dedde75f2e6264269d503b47aecc36": "read",
+  "a028a200adbc5043ba6359177d19c6e96e36d5cbdff5c22ef6208df6b7019186": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "11de79e6f0f183e6214c06ca560892e14ee48f917db6e03a9081c5b0cf9b7500",
+ "domain": [
+  "ai/agents",
+  "software/development-tools"
+ ],
+ "product": [
+  "claude-code",
+  "gemini",
+  "codex",
+  "github-copilot",
+  "cursor",
+  "opencode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Lets Claude Code delegate tasks to other AI coding CLIs as sub-agents.",
+ "whenToUse": "Use when a coding agent wants to hand off work to Gemini, Codex, Copilot, Cursor or opencode CLIs.",
+ "tasks": [
+  "delegate tasks to sub-agents",
+  "run other coding agent clis"
+ ],
+ "effects": {},
+ "flags": []
+}

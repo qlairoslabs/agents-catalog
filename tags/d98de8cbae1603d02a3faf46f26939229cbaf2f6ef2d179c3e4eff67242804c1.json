@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d98de8cbae1603d02a3faf46f26939229cbaf2f6ef2d179c3e4eff67242804c1",
+ "domain": [
+  "software/developer-tools/version-control"
+ ],
+ "product": [
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reads, searches and modifies Git repositories.",
+ "whenToUse": "Use when the agent needs to inspect history, diffs or make commits in a Git repository.",
+ "tasks": [
+  "read repository history",
+  "search repositories",
+  "view diffs",
+  "make changes and commits"
+ ],
+ "effects": {},
+ "flags": []
+}

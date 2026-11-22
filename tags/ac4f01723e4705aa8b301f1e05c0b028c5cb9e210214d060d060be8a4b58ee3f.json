@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ac4f01723e4705aa8b301f1e05c0b028c5cb9e210214d060d060be8a4b58ee3f",
+ "domain": [
+  "devices/remote-camera",
+  "storage"
+ ],
+ "product": [
+  "aws-s3"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Captures photos from mobile devices remotely, uploading them through S3-backed URLs.",
+ "whenToUse": "Use when an agent needs to request a photo from a user's mobile device camera.",
+ "tasks": [
+  "request remote photo capture",
+  "generate upload urls",
+  "retrieve captured photos"
+ ],
+ "effects": {},
+ "flags": []
+}

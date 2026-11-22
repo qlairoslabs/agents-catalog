@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2dde9d84bc309a09baae89c0b88350ecbb7962c524c9e30a87becef53d5a8ebd",
+ "domain": [
+  "data/market-intelligence",
+  "ai/llm-inference"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Pay-per-call analytics, market intelligence, research and LLM inference for agents via x402.",
+ "whenToUse": "Use when an agent needs paid market research, analytics or inference billed per request.",
+ "tasks": [
+  "get market intelligence",
+  "run analytics",
+  "request research",
+  "run llm inference"
+ ],
+ "effects": {},
+ "flags": []
+}

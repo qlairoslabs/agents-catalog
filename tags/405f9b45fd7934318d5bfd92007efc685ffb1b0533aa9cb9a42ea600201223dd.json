@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "405f9b45fd7934318d5bfd92007efc685ffb1b0533aa9cb9a42ea600201223dd",
+ "domain": [
+  "design/ui-design",
+  "marketing/graphics"
+ ],
+ "product": [
+  "superdesign"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Generates and refines frontend UI and marketing graphic drafts on the Superdesign canvas using codebase context.",
+ "whenToUse": "Use when designing or redesigning a frontend UI or marketing visual based on an existing codebase.",
+ "tasks": [
+  "read codebase for design context",
+  "set up design system",
+  "generate design drafts",
+  "branch and refine drafts",
+  "create marketing graphics"
+ ],
+ "effects": {},
+ "flags": []
+}

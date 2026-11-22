@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "ed61357da6d819b12ba5f2cd6ab03e0e1e27a9e2e68ebce0d84b6977bd367057",
+ "domain": [
+  "productivity/calendar"
+ ],
+ "product": [
+  "google-calendar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Hosted connector giving agents access to Google Calendar without self-hosting.",
+ "whenToUse": "Use when an agent needs to read or manage Google Calendar events.",
+ "tasks": [
+  "read calendar events",
+  "manage calendar events"
+ ],
+ "effects": {},
+ "flags": []
+}

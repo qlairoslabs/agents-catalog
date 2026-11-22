@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4a3ccb738b3808fbbe430b40c7cae46128f576e35aff84d1c1bbfd52293b7566",
+ "domain": [
+  "commerce/merchant-management",
+  "marketing/content"
+ ],
+ "product": [
+  "xavio"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "create-content",
+  "schedule"
+ ],
+ "summary": "Authenticated access for Xavio merchants to manage stories, products and schedules.",
+ "whenToUse": "Use when an agent acts for a Xavio merchant to manage products, stories or schedules.",
+ "tasks": [
+  "manage stories",
+  "manage products",
+  "manage schedules"
+ ],
+ "effects": {},
+ "flags": []
+}

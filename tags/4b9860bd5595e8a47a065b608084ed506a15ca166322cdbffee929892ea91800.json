@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4b9860bd5595e8a47a065b608084ed506a15ca166322cdbffee929892ea91800",
+ "domain": [
+  "software/notifications",
+  "marketing/messaging"
+ ],
+ "product": [
+  "suprsend"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "build-software"
+ ],
+ "summary": "Hosted server for SuprSend covering users, lists, workflows, templates and notification data.",
+ "whenToUse": "Use when configuring or inspecting notification workflows, templates or recipients in SuprSend.",
+ "tasks": [
+  "manage users",
+  "manage lists",
+  "manage workflows",
+  "manage templates",
+  "read notification data"
+ ],
+ "effects": {},
+ "flags": []
+}

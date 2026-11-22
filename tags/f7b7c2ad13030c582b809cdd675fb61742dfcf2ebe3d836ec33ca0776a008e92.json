@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f7b7c2ad13030c582b809cdd675fb61742dfcf2ebe3d836ec33ca0776a008e92",
+ "domain": [
+  "communication/email/tracking",
+  "sales/outreach"
+ ],
+ "product": [
+  "mailsuite"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "sell"
+ ],
+ "summary": "Email tracking that shows who opened messages and sends tracked emails and follow-ups.",
+ "whenToUse": "Use when an agent must check email open activity or send tracked emails and follow-ups.",
+ "tasks": [
+  "see email opens",
+  "send tracked emails",
+  "send follow-ups"
+ ],
+ "effects": {},
+ "flags": []
+}

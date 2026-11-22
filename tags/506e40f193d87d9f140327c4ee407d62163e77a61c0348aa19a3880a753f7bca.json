@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "506e40f193d87d9f140327c4ee407d62163e77a61c0348aa19a3880a753f7bca",
+ "domain": [
+  "travel/meetup-planning",
+  "local/venues"
+ ],
+ "product": [
+  "fairwhere"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Ranks curated London venue lists by journey fairness for a group and returns published where-to-meet answers.",
+ "whenToUse": "Use when a group in London needs a fair place to meet based on everyone's starting points.",
+ "tasks": [
+  "list venue placelists",
+  "rank venues for a group",
+  "build planning link",
+  "list meet pairs",
+  "get meet pair answer",
+  "test connectivity"
+ ],
+ "effects": {
+  "25a3d5bfc3c7409d33065223676a947545606cd90f4a9055724cfcdf321e9587": "read",
+  "f7117aa796b79f657b15f57c80f1673ea7d43e1ed128bf97d65f861ff53c8421": "read",
+  "58a0f6d3fff9662826f5133558348d51b97e10ba1bb4f5e2bcc3991e605ffba3": "read",
+  "24bbaa65bb4a4377b3429431a1d533ec2c7f3a33c2db95f3e1c639b615429bc9": "read",
+  "5d85cb47a0b4afb7ab957e84b05904b662bdc90a5820f8c141bc32ad1dbc77c0": "read",
+  "37b5a69c098653684b3cbbd1f5f077bde8ffc5164e83a4fe283b1f327e4ed28a": "read"
+ },
+ "flags": []
+}

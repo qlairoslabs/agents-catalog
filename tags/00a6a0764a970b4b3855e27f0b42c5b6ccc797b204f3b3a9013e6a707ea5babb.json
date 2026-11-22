@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "00a6a0764a970b4b3855e27f0b42c5b6ccc797b204f3b3a9013e6a707ea5babb",
+ "domain": [
+  "finance/calculators",
+  "advocacy"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Turns large fortunes into relatable comparisons: spending duration, money stack height, item counts and compound growth, versus the user's wealth.",
+ "whenToUse": "Use when illustrating the scale of billionaire wealth against everyday amounts.",
+ "tasks": [
+  "compute daily spend duration",
+  "compute money stack height",
+  "count purchasable items",
+  "compute compound interest growth",
+  "compare two wealths"
+ ],
+ "effects": {
+  "d5bd2f79d92baa878619925902dc2751348053fc7934883ee867fcf7da67f28f": "read",
+  "3d90b1bcd2a9c441600478e810e25906e9331c3c2bc69d6ff76d89485fa1f5a4": "read",
+  "fc1a469d47ccc8c1b5eeeefd5d5a6cee25d93fdf1904e2d154594ab90f82571e": "read",
+  "f68f449f013d52158db0f38da2b2497a30e2122b438ae1b1ce279c0c1e872c47": "read",
+  "320bd43fa6684c94c669c26f588fe068ef0ce28abe4d5ec30ba9076f78b7fa49": "write"
+ },
+ "flags": []
+}

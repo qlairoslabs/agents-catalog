@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6728d941c695bbce279f23381fd13dd8baada772834d24d6a08e6b9da8f203b3",
+ "domain": [
+  "media/image-editing",
+  "media/video-generation"
+ ],
+ "product": [
+  "youcam"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "YouCam API access for AI-driven image and video editing and generation.",
+ "whenToUse": "Use when an agent must generate or edit images or videos with YouCam.",
+ "tasks": [
+  "edit images",
+  "generate images",
+  "edit videos",
+  "generate videos"
+ ],
+ "effects": {},
+ "flags": []
+}

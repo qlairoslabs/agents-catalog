@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9abd26bf90dd43ff82321775c243848a2eb1354e56d12a1bc09cf29b8c4983e5",
+ "domain": [
+  "communication/email"
+ ],
+ "product": [
+  "sickle",
+  "gmail",
+  "outlook",
+  "icloud",
+  "fastmail"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Connects agents to Gmail, Outlook, iCloud, Fastmail and IMAP mailboxes with scoped OAuth and approved sending.",
+ "whenToUse": "Use when an agent needs to read or send email from the user's mailboxes with approval controls.",
+ "tasks": [
+  "read email",
+  "search mailboxes",
+  "draft email",
+  "send approved email"
+ ],
+ "effects": {},
+ "flags": []
+}

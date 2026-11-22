@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "ca11010216507e0843fd79b9c1421b1d7e1109fdcd08eefbd4da2272f87b7f87",
+ "domain": [
+  "finance/personal/credit-cards"
+ ],
+ "product": [
+  "stackeasy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Answers questions about a user's own credit cards, such as which card to use, utilization and missed rewards.",
+ "whenToUse": "Use when someone asks which of their credit cards to use, their utilization, or rewards they missed.",
+ "tasks": [
+  "recommend best card for a purchase",
+  "check credit utilization",
+  "find missed rewards"
+ ],
+ "effects": {},
+ "flags": []
+}

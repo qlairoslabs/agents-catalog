@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7b47b5c723f7eb4fc2932ef86bd55b9affd37585fb3d6a9720fba34a4e55c693",
+ "domain": [
+  "documents/pdf"
+ ],
+ "product": [
+  "pdf.net"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Creates, converts and organizes PDF files.",
+ "whenToUse": "Use when an agent needs to generate, convert or rearrange PDF documents.",
+ "tasks": [
+  "create pdfs",
+  "convert files to and from pdf",
+  "organize pdf pages"
+ ],
+ "effects": {},
+ "flags": []
+}

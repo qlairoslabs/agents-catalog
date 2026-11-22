@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c98a7d2242888e88eac9eac46699f2292306a28323358b81b21b22e75a4930db",
+ "domain": [
+  "marketing/advertising",
+  "commerce/ecommerce"
+ ],
+ "product": [
+  "meta",
+  "google-ads",
+  "amazon",
+  "shopify"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Connector for managing ecommerce ad campaigns across Meta, Google, Amazon and Shopify from an AI assistant.",
+ "whenToUse": "Use when an agent needs to create, adjust or report on ecommerce ad campaigns on Meta, Google or Amazon tied to a Shopify store.",
+ "tasks": [
+  "manage ad campaigns",
+  "report ad performance",
+  "manage shopify store data"
+ ],
+ "effects": {},
+ "flags": []
+}

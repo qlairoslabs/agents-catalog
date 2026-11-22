@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b61ca8a40f5b602bcaed67804e919ab11e6f8a4fd1428d647eb238bd1b33f730",
+ "domain": [
+  "knowledge-management/company-knowledge",
+  "sales/enablement"
+ ],
+ "product": [
+  "salespeak"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Answers questions about your own company from its recorded knowledge and highlights where sources conflict.",
+ "whenToUse": "Use when an agent needs accurate facts about the user's company and wants to see conflicting sources.",
+ "tasks": [
+  "answer questions about the company",
+  "cite company knowledge sources",
+  "show where sources disagree"
+ ],
+ "effects": {},
+ "flags": []
+}

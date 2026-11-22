@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "a3cc7fda64325bcc2cb9608dc2a67e0295fc5793643dc8e1c72ce0345f4b7203",
+ "domain": [
+  "home-services/hvac",
+  "local-business/information"
+ ],
+ "product": [
+  "absolute-best-air"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Gives public facts about an HVAC company near Atlanta: hours, service area, flat-rate pricing, offers, recent jobs and credentials.",
+ "whenToUse": "Use when a user asks about Absolute Best Air's HVAC services, prices or coverage in Henry County or South Metro Atlanta.",
+ "tasks": [
+  "get company info and hours",
+  "list services and repair catalog",
+  "check zip coverage",
+  "get current offers and financing",
+  "look up flat-rate pricing",
+  "list recent completed jobs",
+  "get technician credentials"
+ ],
+ "effects": {
+  "8d90e3190a47b82d09a2fd4a017dcc905e502e1d99000d0a5655c50ecc759947": "read",
+  "68afbf2c567bf5e6d641cca201118d80da9ebe2284232b413d8e4d000b6899a3": "read",
+  "f721f610d07710c8fc8abcffac8b7e0e69b97e266185c127fd5e68e3662b540e": "read",
+  "6909f203067edafa30ac06f015128c43e317ea66eac5731f43f1f633925caf2c": "read",
+  "e54affe7c4f01d3c9de030399ad5b12d09c9ed8034d5042e9a1acc6990e8b5ec": "read",
+  "a1075e05d58fe29f6452d537c402621f81b818dbb380307fcfff321eaf59e3d7": "read",
+  "978781e735dc5c1b40e6a18ba208c037c6ef8da2bfcb20d1eca6b184908922f7": "read"
+ },
+ "flags": []
+}

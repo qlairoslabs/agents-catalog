@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0f78e4939004c7fe7a2ee7bbfd943bc9e1c05873ed4ae267e0658fc8db61f864",
+ "domain": [
+  "ai/agent-memory",
+  "software/vector-databases"
+ ],
+ "product": [
+  "qdrant"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Provides persistent, scoped agent memory stored in Qdrant through four tools.",
+ "whenToUse": "Use when an agent needs to store and recall memories across sessions in Qdrant.",
+ "tasks": [
+  "store memories",
+  "search memories",
+  "scope memories",
+  "delete memories"
+ ],
+ "effects": {},
+ "flags": []
+}

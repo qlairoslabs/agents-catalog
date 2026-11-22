@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f6f7952c4e4bdeacb4dda1e1387d6b36c72d1f50e58aacc1c98d7a6f5cb5170e",
+ "domain": [
+  "telecom/phone-lookup",
+  "compliance/communications"
+ ],
+ "product": [
+  "verirouteintel"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "stay-compliant",
+  "keep-in-touch"
+ ],
+ "summary": "Checks phone numbers for live carrier, caller name, spam risk and SMS capability before calling or texting.",
+ "whenToUse": "Use before calling or texting a number to check whether it is safe and reachable.",
+ "tasks": [
+  "look up carrier",
+  "look up cnam",
+  "check spam score",
+  "check sms capability"
+ ],
+ "effects": {},
+ "flags": []
+}

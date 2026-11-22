@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "afdf0d94682e7c81f69b4acf45bdfd4253e904cf4927bdebcc8ab670953b1ed8",
+ "domain": [
+  "social/forum",
+  "media/news"
+ ],
+ "product": [
+  "liberty-win"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "create-content"
+ ],
+ "summary": "Read, post, comment and vote on Liberty.win, a free-speech news forum, including image uploads and account management.",
+ "whenToUse": "Use when the user wants to browse, read or post to Liberty.win communities.",
+ "tasks": [
+  "browse trending posts",
+  "search posts",
+  "read comment threads",
+  "list communities",
+  "view user profiles",
+  "log in",
+  "register account",
+  "create posts",
+  "comment",
+  "vote",
+  "upload images",
+  "delete posts and comments"
+ ],
+ "effects": {
+  "7b3013cff68ad43372d87887a6a588968da539862e0d77bde178f8710c502902": "read",
+  "da8de47b201d032131fe905fd3b2c88467440beb60644510a10cbe561ae9095c": "read",
+  "b9763f6af78aa6900052334b91aeaeb63fc19db6b61ea159c6cc556881e94ca7": "read",
+  "d43510221567e8f4cee1e8ad0f512b0ceca023bb6c71c73a84df8e2376d13a22": "read",
+  "fc5a8e3ef2a021ca57c526f5c864af1c39ab1d00ede976ce9877d5cab28e3939": "read",
+  "10f36981dd29b717ca046734a47115ef6aaa7cb234f7160ce8a538bf445cee61": "read",
+  "eba96385654e526c0f19051ca10868dcd9f3bd755b6b7555905afa7aea4ce3fa": "write",
+  "f161d477ba178c04afe2fc17fd71a0d13e95c2761739e53ceedf3702f21c6716": "write",
+  "a59484c3e6f99190ac1a86f20d5c379a684f75909649d0192468b78a4245ab6e": "write",
+  "f3625da7f4575809aa947bc66a80929cb37d14a07926bfad4bfb8d3d62823e0d": "read",
+  "fc73b635d278d259da4b66253384b71058e23b1ca9a88f7f6592aa71ff461a6b": "write",
+  "0c939467042b94f3e196c771623ce156ac843150e40d84cf15626ae1b932157e": "write",
+  "a48338f2376c496d1cdc32d4fb0dce4498509700e6dc640d862a29bccc07abad": "write",
+  "2aff854c298de0587f2494a9e517b15b92d3d73df48c7e767002a4c00386fe89": "write",
+  "0d570b1ad0fbace19505b71f745a7a045320dfd6ee18d288b4b0e8c97e9fa34d": "write",
+  "f18f91daac4d38501f8d009815539a08e981f8b8ab2905b65bcb7a1314a1b5a6": "write",
+  "bc4b22627c5c16357b167fe778435270da68f08ec64304cc5fcc2e9d36c73e36": "write"
+ },
+ "flags": []
+}

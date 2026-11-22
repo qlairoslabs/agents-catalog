@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e809a3c0e6488c20a86cf8360b62f86eab3d0af16d8fce7dfd9febdb5806af17",
+ "domain": [
+  "industrial/plc-programming",
+  "software/embedded"
+ ],
+ "product": [
+  "codesys"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reads, edits, compiles and simulates Structured Text code in CODESYS V3.5 PLC projects.",
+ "whenToUse": "Use when an agent needs to modify or build PLC programs in a CODESYS V3.5 project.",
+ "tasks": [
+  "read project code",
+  "write structured text",
+  "compile project",
+  "run simulation"
+ ],
+ "effects": {},
+ "flags": []
+}

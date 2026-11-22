@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "72a70fd1b183cc1425b6bc0dc6bb2127d3e8fabdab56c740b8dbda30bc635e2d",
+ "domain": [
+  "ai/memory"
+ ],
+ "product": [
+  "heirmos",
+  "claude",
+  "chatgpt",
+  "grok"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Stores persistent memory that is shared across multiple AI assistants and MCP clients.",
+ "whenToUse": "Use when a user wants context or facts remembered and available across different AI assistants.",
+ "tasks": [
+  "save memories",
+  "recall memories",
+  "share memory across clients"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2041787ed88a5d06f2579c94e31b38859b33b801fdb0d32d50081334cc7cc68b",
+ "domain": [
+  "design/diagramming",
+  "design/whiteboarding"
+ ],
+ "product": [
+  "excalidraw"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Excalidraw MCP server with authentication and rate limiting for creating and editing sketch-style drawings.",
+ "whenToUse": "Use when an agent needs to create or modify Excalidraw drawings or diagrams.",
+ "tasks": [
+  "create drawings",
+  "edit drawing elements"
+ ],
+ "effects": {},
+ "flags": []
+}

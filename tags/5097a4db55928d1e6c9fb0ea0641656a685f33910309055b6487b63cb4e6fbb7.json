@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5097a4db55928d1e6c9fb0ea0641656a685f33910309055b6487b63cb4e6fbb7",
+ "domain": [
+  "travel/flight-tracking"
+ ],
+ "product": [
+  "lufthaven",
+  "starlink"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks the user's trips and any flight's live status, routes, Starlink Wi-Fi availability and fares.",
+ "whenToUse": "Use when the user asks about a flight's status, routes, onboard Wi-Fi or fares, or their saved trips.",
+ "tasks": [
+  "view trips",
+  "check live flight status",
+  "look up routes",
+  "check starlink wi-fi",
+  "check fares"
+ ],
+ "effects": {},
+ "flags": []
+}

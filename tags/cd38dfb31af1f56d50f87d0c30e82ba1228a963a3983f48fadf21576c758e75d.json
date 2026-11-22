@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "cd38dfb31af1f56d50f87d0c30e82ba1228a963a3983f48fadf21576c758e75d",
+ "domain": [
+  "media/video",
+  "content/clips"
+ ],
+ "product": [
+  "youtube",
+  "tubechop"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates shareable public TubeChop links for an exact time range of a public YouTube video.",
+ "whenToUse": "Use when a user wants to share a specific segment of a YouTube video.",
+ "tasks": [
+  "create YouTube clip link",
+  "set start and end times",
+  "add a comment"
+ ],
+ "effects": {
+  "9778dd09f31e8891f2ac45fc3947f704b8b76d7c186cc0d5ba9e040040032095": "write"
+ },
+ "flags": []
+}

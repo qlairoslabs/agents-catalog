@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "2b80106bbbac5e1f6124d5c0e9a44e8a47035fda762a1a91071a9f2b8108f144",
+ "domain": [
+  "media/tv-guide",
+  "entertainment"
+ ],
+ "product": [
+  "netflix",
+  "hbo-max",
+  "prime-video",
+  "disney-plus"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Romanian TV guide with live listings, prime time, search, mood-based recommendations, evening planning and streaming cross-reference.",
+ "whenToUse": "Use when a user in Romania asks what to watch on TV or streaming now, tonight or later.",
+ "tasks": [
+  "show what is on now",
+  "search programs",
+  "get prime time",
+  "recommend by mood",
+  "plan an evening",
+  "compare titles",
+  "find picks for a couple",
+  "check data freshness"
+ ],
+ "effects": {
+  "854aea9c87db63150658f4b56f7fdd4b92aa7d15a8c14990a3d0f80cb8d1ab66": "read",
+  "63bbbbba8074e6db2413209d1f8cdb4fff1834242f1575bf4f7ce19b77aab67a": "read",
+  "6c6322b55f92a92d616fb66f0d8dfe9d5dc6c4ef3eec49de32f9df9416e2e434": "read",
+  "83d7f3e00756fbb5a12fc2dbdc8711332a4546f26f21abae395d8a21413fb281": "read",
+  "6eda9b6012213040d950acf5d60ddb1df304df7a8306d693639416a3ba01757b": "read",
+  "1187b19b18f3182556c5da98ced62e893e5e1c6d1484a13b4ec765112d3c6a92": "read",
+  "1318371793250f0a8f5a6fb90ecd55bd1efc75ffc4369b9884ec424798d3a78b": "write",
+  "d4a6ec3867f4f728aca982d12df1106eb97f7802e946f2cf2cd322c28c7968aa": "read",
+  "f180ce170779ac81efb25cc827b47e59ae3ffeaceb133c304849b7a7f0f3383b": "read",
+  "5784de1642655494ee45b1f62c0428d15eb7ad01578c7921b392e581184b3dbe": "read",
+  "2a1f231d28776208faa868dc226b2b92a7ff4ad8f6ace069074cdc1469151165": "read",
+  "a223b8cbc64c9cf59e15e988be4d5d581385d66279585e626aa3fd69ac3a0e3a": "write",
+  "c6613be1c07981da7aff24ef4f5517b44706acb439e78fe9cc89530becc78fb2": "write",
+  "0217bfae6c8d42e4d858a4a496298ea07eddab45ffe8714510bf67f696a027c2": "write"
+ },
+ "flags": []
+}

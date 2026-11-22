@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "aa3584e1a04a6988db42a3d1dcca5355ec7645be74bf3c7eac5651bd54b82542",
+ "domain": [
+  "science/astronomy",
+  "culture/indian-astronomy"
+ ],
+ "product": [
+  "kaalshodh"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Computes Indian astronomy data from -5000 to +5000 including planetary positions, eclipses, panchang date matching and conjunctions.",
+ "whenToUse": "Use when dating historical events via panchang, or checking planetary positions and eclipses across history.",
+ "tasks": [
+  "list astronomical events",
+  "find nearest event",
+  "planetary positions",
+  "match panchang dates",
+  "find planet conjunctions"
+ ],
+ "effects": {
+  "1997077eaa1d288c10d3983cdeddbdb31fd7bd5d2c3027904df146714e280f98": "write",
+  "2b4a4bb098bd96b4fa90046d798bcbb8a3e7a3fbefb3e8d8d6c3693704df9a09": "write",
+  "ecbf72d4df972b53f5116b51bf366b5b54f3fa59c8afbcbcf910ef3a47f1130a": "write",
+  "26f100a2ceb63675b77e87cc22fe4a6ce109a3a4d3729667980aecf0063bbf94": "write",
+  "b1c86a233930af3580b6f744830ac161a4fe1d785cbdde59bb304cace54c3090": "write"
+ },
+ "flags": []
+}

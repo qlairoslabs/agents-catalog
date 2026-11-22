@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "7ee887da0219531c9f94700cee569f586075e4d87dd3749b1188977848e79d2d",
+ "domain": [
+  "education/hackathons",
+  "developer-community"
+ ],
+ "product": [
+  "mymlh"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives OAuth-authenticated access to a user's MyMLH (Major League Hacking) account data.",
+ "whenToUse": "Use when an agent needs to read a user's MyMLH profile or hackathon-related data.",
+ "tasks": [
+  "authenticate with mymlh",
+  "read mymlh profile data"
+ ],
+ "effects": {},
+ "flags": []
+}

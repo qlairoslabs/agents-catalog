@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f65341feeed64b7643ec217468f080e57bfb27083bf42c013c79755f213001b9",
+ "domain": [
+  "software/web-automation",
+  "software/hosting",
+  "documents/pdf"
+ ],
+ "product": [
+  "customjs"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work",
+  "be-online"
+ ],
+ "summary": "Hosts static HTML pages, generates PDFs and screenshots, scrapes JavaScript-rendered sites and runs sandboxed JavaScript.",
+ "whenToUse": "Use when an agent needs to publish a static page, render a PDF or screenshot, scrape a dynamic site, or execute JavaScript in a sandbox.",
+ "tasks": [
+  "host static html pages",
+  "generate pdfs",
+  "take website screenshots",
+  "scrape javascript sites",
+  "run sandboxed javascript"
+ ],
+ "effects": {},
+ "flags": []
+}

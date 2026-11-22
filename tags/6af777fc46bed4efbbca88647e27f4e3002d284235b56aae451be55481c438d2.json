@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6af777fc46bed4efbbca88647e27f4e3002d284235b56aae451be55481c438d2",
+ "domain": [
+  "security/digital-safety"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "support-customers"
+ ],
+ "summary": "Step-by-step playbooks and prevention guides for scams and hacked accounts in nine languages, with country-specific reporting channels.",
+ "whenToUse": "Use when a user faces a scam, hacked account or other digital incident and needs steps and where to report.",
+ "tasks": [
+  "list situations",
+  "get playbook",
+  "match situation",
+  "find reporting channels",
+  "check freshness"
+ ],
+ "effects": {
+  "21212599e9262a25dad0adedbcd95b68b22c93e93f39b65d029679fee7cf28b9": "read",
+  "5b63403cfacd5744c2ba430c691684a4f8962808a111bd3d1e54f92e5ff217d0": "read",
+  "31c31d94d44395ce165d1f58a91d8ebd35db663672633e6d7a508b2c3a47e157": "read",
+  "af969146acc00e6735bce64de3f8c423820789adaae7303768c896c6a82484f8": "read",
+  "eb8d12946dd374c7afbc977f8e24e82a9d8442bc5e59d85f8a09d38917c2ed07": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "74ff3881f3e52b30a8526ad993ef16f6d48c855d38e48966309f6bd25c31965a",
+ "domain": [
+  "software/web-hosting",
+  "software/domains-dns"
+ ],
+ "product": [
+  "ex2",
+  "wordpress"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Manages an Ex2 hosting account: ordering, renewals, DNS, email, WordPress and backups, with user consent.",
+ "whenToUse": "Use when an Ex2 customer wants an agent to order or renew services or manage DNS, mail, WordPress or backups.",
+ "tasks": [
+  "order services",
+  "renew services",
+  "manage dns",
+  "manage email",
+  "manage wordpress",
+  "manage backups"
+ ],
+ "effects": {},
+ "flags": []
+}

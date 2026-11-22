@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "346237529b195f97f3175fac21afd5c36c39531ff7b4f29e6c0d7216c2091c39",
+ "domain": [
+  "ecommerce/advertising",
+  "marketing/analytics"
+ ],
+ "product": [
+  "ecomwith"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Calculators for break-even ROAS, max CPA and profit scenarios, a UTM link builder, and search over Ecomwith tutorials and public reports.",
+ "whenToUse": "Use when working out ad profitability for an ecommerce store, tagging campaign URLs, or finding Ecomwith guidance.",
+ "tasks": [
+  "calculate break-even ROAS",
+  "compare profit scenarios",
+  "build UTM campaign URLs",
+  "search ecommerce tutorials",
+  "list weekly reports",
+  "read a weekly report"
+ ],
+ "effects": {
+  "a8631f179552062dd7a5339803ac5019e7d0c51c82d654380fa0c15a4369608f": "read",
+  "ec60267054a0b238475beb49eea496f17c9e2dbd56aa60df47ed3e43848c03f0": "read",
+  "1a06f87c5eccba7340da63d610729f146821709a02fd3fe8a458c25c8b766fb6": "read",
+  "831a2ea2bd0c397e3710066b51584ea15fdc5a8f4e600bbb03077fa79b3a2f37": "read",
+  "a06fe413a091d0abb175eee4aba277234556e0ef15f9b181b0d7454826f3d6be": "read",
+  "88b48e5c2ecb729a7ee9e215000753849f90a1b3256ee74eb180b3d042144b80": "read"
+ },
+ "flags": [
+  "Tool description tells the agent to ask for missing inputs even if the user asked not to ask questions"
+ ]
+}

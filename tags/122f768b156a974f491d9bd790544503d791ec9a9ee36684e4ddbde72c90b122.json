@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "122f768b156a974f491d9bd790544503d791ec9a9ee36684e4ddbde72c90b122",
+ "domain": [
+  "entertainment/k-pop",
+  "analytics/trends"
+ ],
+ "product": [
+  "ktrenz",
+  "naver",
+  "youtube"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up K-pop artists, ranks rising artists by 7-day velocity, and reports artist and release reach across AI answer engines.",
+ "whenToUse": "Use when a user asks about trending K-pop artists, or an artist's or release's measured visibility and momentum.",
+ "tasks": [
+  "search artists",
+  "get artist reach",
+  "get trending artists",
+  "get release reach"
+ ],
+ "effects": {
+  "e3a23195a0440451056c77a62570c5ada4bfd3a451bdfdc887d97184223fbdd2": "read",
+  "0b2bc91ca9f4a1a3647b8398cda8c369354cad3bee4d9301db2b421c18c739ed": "read",
+  "8097c14830b63cc7e9a71ce7fc12fa3f46480391645224c35ff9daf1020155b6": "read",
+  "6031468193b01de53c482de086f2e5310719c65e1f8323f42b0525ce4da4c447": "read"
+ },
+ "flags": []
+}

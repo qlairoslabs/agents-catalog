@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "4cce3fe61d7dad3e3bd10f59dbc19205601c572b7c856dbf4b2486c1e61abc30",
+ "domain": [
+  "productivity/office-suite",
+  "communication/email"
+ ],
+ "product": [
+  "microsoft-365",
+  "microsoft-graph",
+  "outlook",
+  "onedrive"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch",
+  "schedule"
+ ],
+ "summary": "Connector for Microsoft 365 and Office services through the Microsoft Graph API.",
+ "whenToUse": "Use when an agent needs to work with Microsoft 365 mail, calendar, files or other Office data.",
+ "tasks": [
+  "manage email",
+  "manage calendar",
+  "access files",
+  "use microsoft graph"
+ ],
+ "effects": {},
+ "flags": []
+}

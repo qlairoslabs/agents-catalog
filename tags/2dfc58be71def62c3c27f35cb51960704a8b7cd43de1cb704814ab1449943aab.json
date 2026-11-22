@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "2dfc58be71def62c3c27f35cb51960704a8b7cd43de1cb704814ab1449943aab",
+ "domain": [
+  "business/press-releases",
+  "jobs"
+ ],
+ "product": [
+  "workpick"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Searches published Japanese company press releases with corporate numbers and source links, company profiles and related jobs.",
+ "whenToUse": "Use when researching announcements or confirmed profiles of Japanese companies.",
+ "tasks": [
+  "search press releases",
+  "get press article",
+  "list company press",
+  "get company profile"
+ ],
+ "effects": {
+  "4709ac2dc37dbd6595c9eef94f06df573d379cfe106c00db6bde7a6b6ec2c0f6": "read",
+  "3c317c90061e5b254d2e1cb6260d10f6afc95591ffba95705a03a9dd57adb2e2": "read",
+  "c06bb9d7317d5f1046b62feb118c784f7de8a70a476cc55b720bd7fe380da1e2": "read",
+  "3b953cea4dc427d4e968cdf87f05a05aa911a649c20c86302b731689cd1d1393": "read"
+ },
+ "flags": []
+}

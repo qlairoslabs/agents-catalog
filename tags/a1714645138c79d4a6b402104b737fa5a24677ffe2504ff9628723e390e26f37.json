@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a1714645138c79d4a6b402104b737fa5a24677ffe2504ff9628723e390e26f37",
+ "domain": [
+  "payments/agent-wallets",
+  "ai/llm-access"
+ ],
+ "product": [
+  "agentpay",
+  "bsv",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "build-software"
+ ],
+ "summary": "Card-funded prepaid wallets and scoped keys letting AI agents pay per call for LLM and extraction services, including BSV x402 payments.",
+ "whenToUse": "Use when an agent needs a funded wallet to pay per call for LLM or data extraction services.",
+ "tasks": [
+  "fund prepaid wallets",
+  "issue scoped keys",
+  "pay per call for llm requests",
+  "run content extraction",
+  "make x402 payments"
+ ],
+ "effects": {},
+ "flags": []
+}

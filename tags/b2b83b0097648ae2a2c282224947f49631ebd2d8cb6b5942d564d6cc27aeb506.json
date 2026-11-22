@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b2b83b0097648ae2a2c282224947f49631ebd2d8cb6b5942d564d6cc27aeb506",
+ "domain": [
+  "software/voice-ai",
+  "support/call-automation"
+ ],
+ "product": [
+  "speko"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Manages Speko voice AI agents, sessions, calls, phone numbers, knowledge bases, evaluations and docs.",
+ "whenToUse": "Use when configuring or monitoring Speko voice agents, their phone numbers, calls or knowledge bases.",
+ "tasks": [
+  "manage voice agents",
+  "view sessions and calls",
+  "manage phone numbers",
+  "manage knowledge bases",
+  "run evals",
+  "read docs"
+ ],
+ "effects": {},
+ "flags": []
+}

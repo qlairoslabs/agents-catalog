@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cc2f4f90163e736ed127749df362e90529f6b12c800ee48261cd78a0d2276b46",
+ "domain": [
+  "science/bioinformatics",
+  "science/protein-engineering"
+ ],
+ "product": [
+  "esm-2",
+  "esmc",
+  "esmfold"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Protein analysis tools providing ESM-2 and ESMC embeddings, mutation scoring, mutational landscape scans and ESMFold structure prediction.",
+ "whenToUse": "Use when an agent needs protein embeddings, mutation effect scores or predicted protein structures.",
+ "tasks": [
+  "compute protein embeddings",
+  "score mutations",
+  "scan mutational landscapes",
+  "predict protein structure"
+ ],
+ "effects": {},
+ "flags": []
+}

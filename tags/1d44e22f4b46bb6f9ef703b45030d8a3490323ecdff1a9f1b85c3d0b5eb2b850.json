@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1d44e22f4b46bb6f9ef703b45030d8a3490323ecdff1a9f1b85c3d0b5eb2b850",
+ "domain": [
+  "government/land-records",
+  "reference/geography"
+ ],
+ "product": [
+  "india-property-register"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lists Indian states, districts, tehsils and villages with LGD codes and where each state keeps land records.",
+ "whenToUse": "Use when finding Indian administrative codes or locating a state's land record portal.",
+ "tasks": [
+  "list indian states",
+  "list districts and tehsils",
+  "look up village lgd codes",
+  "find state land record sources"
+ ],
+ "effects": {},
+ "flags": []
+}

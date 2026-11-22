@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "84d6637602eab62df9cc91fe1c69b172501c26ae52e3a09d0eeef1cab092dcba",
+ "domain": [
+  "finance/investment-research",
+  "finance/sec-filings"
+ ],
+ "product": [
+  "oxford-ledge",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives access to public financial records such as SEC filings, 13F holdings, insider trades and BDC loans.",
+ "whenToUse": "Use when researching public company filings, institutional holdings or insider trading activity.",
+ "tasks": [
+  "search sec filings",
+  "read 13f holdings",
+  "view insider trades",
+  "look up bdc loans"
+ ],
+ "effects": {},
+ "flags": []
+}

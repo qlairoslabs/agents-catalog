@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9a8d54331502692f7c9d5af13cc7e8c88410dc7cf420f908baf8c302d4e4939b",
+ "domain": [
+  "software/ai-agents/mcp-gateway",
+  "software/integration"
+ ],
+ "product": [
+  "unyly"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "A single gateway connector giving AI clients access to a large directory of MCP servers plus a team's private ones.",
+ "whenToUse": "Use when an agent needs to reach many MCP servers or a team's private MCPs through one connection.",
+ "tasks": [
+  "discover MCP servers",
+  "connect to MCP servers",
+  "access private team MCPs"
+ ],
+ "effects": {},
+ "flags": []
+}

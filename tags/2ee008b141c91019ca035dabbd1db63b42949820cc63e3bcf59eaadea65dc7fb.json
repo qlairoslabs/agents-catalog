@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "2ee008b141c91019ca035dabbd1db63b42949820cc63e3bcf59eaadea65dc7fb",
+ "domain": [
+  "software/testing",
+  "software/test-generation"
+ ],
+ "product": [
+  "jest",
+  "vitest",
+  "typescript",
+  "react",
+  "3tg"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Generates Jest/Vitest tests, specs and mocks for TypeScript and React files from Markdown spec tables, using credits per test case.",
+ "whenToUse": "Use when a developer wants generated tests or specs for a .ts or .tsx file.",
+ "tasks": [
+  "generate tests",
+  "generate spec",
+  "generate tests from spec",
+  "generate spec for one function",
+  "generate Jest mock",
+  "validate spec",
+  "validate config",
+  "check credits",
+  "create agent instructions",
+  "help"
+ ],
+ "effects": {
+  "638b2d4d4b768371033ddfe3617c1651b033f4acc64cd36b63c3ec593bc62aed": "write",
+  "9fffe348895a83935b42b92e03b476701feb6885596e4a877852c53008206d2e": "write",
+  "10ffa6bf5cec4228acc482861a03fee0770e41be42cc6884708578bc0dab41e5": "write",
+  "9e89b8e819f15d25e48c203bff23354c9c3682eb481ad007d099153c6ff23313": "write",
+  "04f935ebe5dda786fcc28dd2bf21f928bc7c3eee22282e87dc0ed0db8e52a818": "write",
+  "e18c5e19afd16f861996e78d7e5f9ae85e51a9a28b792f435613d668a0a3ed0f": "write",
+  "a3b39f11b0c67e968a157fb5c0fc1698aaef5baa948ec5236c84ab4fe704f047": "write",
+  "8b08db62aaa7fd39234490417bc33d7fa80da56f3cec5db995bc03c22dfe8809": "write",
+  "266a09630dc9b0ccf7bf29085d4eaa80ae30a50ead8881faf5f8530cbc7c5747": "write",
+  "8a9272e1b597d3c4ebabe23a87e8be51806a333a711c711587a7dc981c3d40a6": "write"
+ },
+ "flags": [
+  "tool descriptions order the agent to always call them instead of answering from its own knowledge"
+ ]
+}

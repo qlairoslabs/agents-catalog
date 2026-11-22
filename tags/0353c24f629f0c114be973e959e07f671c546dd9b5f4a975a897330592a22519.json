@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0353c24f629f0c114be973e959e07f671c546dd9b5f4a975a897330592a22519",
+ "domain": [
+  "shopping/price-comparison",
+  "gaming-consoles"
+ ],
+ "product": [
+  "wokonsole",
+  "amazon",
+  "ebay",
+  "playstation"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German price comparison for game consoles with best-price search, buying guides and offer re-checks.",
+ "whenToUse": "Use when the user wants current German prices or buying advice for game consoles.",
+ "tasks": [
+  "search best console offers",
+  "find guides and comparisons",
+  "re-check offer price"
+ ],
+ "effects": {
+  "731371c0912ca4faf66721f426eb1e0d3f19d769d966921577c43e0d2f0a3fa0": "write",
+  "d10e3e343d3b5ac23a8b4ed5b74c4a4bf25f4c986dd1d8d1475f19f757fdbe81": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

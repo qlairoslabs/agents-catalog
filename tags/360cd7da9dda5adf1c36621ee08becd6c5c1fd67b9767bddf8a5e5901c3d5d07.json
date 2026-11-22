@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "360cd7da9dda5adf1c36621ee08becd6c5c1fd67b9767bddf8a5e5901c3d5d07",
+ "domain": [
+  "education/open-educational-resources"
+ ],
+ "product": [
+  "edufeed"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches German open educational resources using AMB/schema.org metadata, limited to openly licensed material.",
+ "whenToUse": "Use when looking for openly licensed German teaching or learning materials.",
+ "tasks": [
+  "search oer",
+  "filter by open license",
+  "read amb metadata"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0f2fa0318d12a281a3ba07e38d99b91bce727c425d44c672a5fe8531781a59ea",
+ "domain": [
+  "software/version-control"
+ ],
+ "product": [
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Exposes git operations such as clone, commit and worktree management to AI agents.",
+ "whenToUse": "Use when an agent needs to run git operations on a repository.",
+ "tasks": [
+  "clone repositories",
+  "commit changes",
+  "manage branches",
+  "manage worktrees",
+  "view history"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9f40d7a6cba07362b61b80434c96149b716751a807160ab12fcb90a2e4615db2",
+ "domain": [
+  "marketing/ad-serving",
+  "marketing/advertising"
+ ],
+ "product": [
+  "adbutler"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connector for managing AdButler ad-serving campaigns, zones, ad items, VAST video ads and reports.",
+ "whenToUse": "Use when an agent needs to set up, change or report on ad campaigns and placements served through AdButler.",
+ "tasks": [
+  "manage campaigns",
+  "manage ad zones",
+  "manage ad items",
+  "configure vast video ads",
+  "pull ad reports"
+ ],
+ "effects": {},
+ "flags": []
+}

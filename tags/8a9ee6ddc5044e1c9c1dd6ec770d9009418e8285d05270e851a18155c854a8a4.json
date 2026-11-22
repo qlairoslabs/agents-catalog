@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "8a9ee6ddc5044e1c9c1dd6ec770d9009418e8285d05270e851a18155c854a8a4",
+ "domain": [
+  "entertainment/ai-personas",
+  "communication/simulated-conversations"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Lets users chat with AI simulations of many real people or set two of them debating each other.",
+ "whenToUse": "Use when a user wants a simulated conversation or debate with personas of real people.",
+ "tasks": [
+  "chat with simulated people",
+  "stage debates between personas"
+ ],
+ "effects": {},
+ "flags": [
+  "impersonates-real-people"
+ ]
+}

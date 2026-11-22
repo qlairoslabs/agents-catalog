@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2af49c7c390381180255f0511878a2d27d88407d0bff2732c0b2c83453bdd84c",
+ "domain": [
+  "software/analytics/instrumentation",
+  "ai/agents"
+ ],
+ "product": [
+  "pendo"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Finds AI agents in a codebase and instruments them with Pendo Agent Analytics using the right SDK or API.",
+ "whenToUse": "Use when adding Pendo Agent Analytics tracking to AI agents in an application.",
+ "tasks": [
+  "detect ai agents in code",
+  "instrument with python sdk",
+  "instrument with typescript sdk",
+  "add client-side trackagent",
+  "use conversations api"
+ ],
+ "effects": {},
+ "flags": []
+}

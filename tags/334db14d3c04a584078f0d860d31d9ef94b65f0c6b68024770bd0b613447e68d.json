@@ -1,0 +1,64 @@
+{
+ "classifier": 2,
+ "contentHash": "334db14d3c04a584078f0d860d31d9ef94b65f0c6b68024770bd0b613447e68d",
+ "domain": [
+  "software/agent-tools",
+  "finance/crypto"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "usdc",
+  "firecrawl",
+  "serper",
+  "tesseract"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Pay-per-call x402 utilities (Base USDC): web search, page extraction, OCR, Base transaction and allowance scans, seller vetting and side-income offer scoring. Tools return a free sample and payment steps.",
+ "whenToUse": "Use when an agent needs cheap paid web search, URL extraction, OCR, Base wallet checks, or to vet an x402 seller before paying.",
+ "tasks": [
+  "list catalog",
+  "vet x402 sellers",
+  "dry-run facilitator verify",
+  "audit payment receipts",
+  "check Bazaar indexing",
+  "Base balance and allowances",
+  "decode Base transactions",
+  "URL fingerprint and extract",
+  "web search",
+  "image OCR",
+  "scam red-flag scan",
+  "score side-income offers"
+ ],
+ "effects": {
+  "e915f4d6af570e53aa2f70cbb9ca525e84c3a77652b10211c5361872d19bed82": "read",
+  "5a32769915414b22415bd14efa733fe77ce21465d3359bb007782a9228a9c31c": "read",
+  "af085cc78a2b43195bde3d92b060128d802c5f20901048e9ae087895603c585e": "read",
+  "05f725e50699fa3282adba8434ab3bf2699781ac378ccf8b69e624db2c816baa": "read",
+  "5438867bfcfb01a53b5d476278424198c0b27dc47ac560f3ae14c7624809dae6": "read",
+  "6ef4c600ab77477c168f95b6b860f802dd489621902d0db3c2ec493208dcc337": "read",
+  "fbe2b3708a04636f7412f4b69f466aec6be26b4cc11be0a0cdf617f9a298a17a": "read",
+  "8ac5037f1c84d39bc854b8dd3e397c4488fc731ee25301e6704da16712c1cd25": "read",
+  "cb073857608f9d68dfc06413a4995a59cc8d6a192199a05d01916f15b1b56e38": "read",
+  "0e07f188104f88907c61bf2ba52936532d4c473b011f97ce5e1b4e820d26d210": "read",
+  "c16e972efa91069542fabcb59a6ec4e5692991601cbbf750a490745a87a21e03": "read",
+  "06816489407f8290c95d2b90ee2a583b611543c0fdbff0f12a77220178a4645d": "read",
+  "270d77a3dacf0e2878bf617af46de7c1966b3a0a185f6dad06ac4a58f60e597d": "read",
+  "651e7d298bd7f0e0bea34440c3547c28923aa74cfb3a5cf5baf6657386896a19": "read",
+  "c2d600ceb0a7cc417bae29126df5a09bf070e2833d17d4f44c23f9a5cb0d8079": "read",
+  "ff745299eace36f2d057f7b8b1f28f1826a321e244ca1b32a903710bc22bdfba": "read",
+  "97c99fea8ab472f507fa47fe9916db36084ead2c328b49d8643bb58c8d4a7d6e": "read",
+  "b86dd24b8a216a33a2c2103e6b39b7189f6c55100d87ba4164e89126d261d976": "read",
+  "f2988bdb4f3335fde8ce9b6da9eb5a92e110f546ebae7c9c937dc941fc15a432": "read",
+  "e9cf0fea99e749280aabc1ec6c1d496149b050f98d4ef2e516b598449c739bf3": "read",
+  "25cd81b967d20e2148d251170eb12c73de76a857085369304bb2c769ce9cd6b1": "read",
+  "4dd927da36e9561dbbec957ea109d29116a4fe63f7fbc2787687df68707bd19b": "read"
+ },
+ "flags": []
+}

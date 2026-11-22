@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "05c77b6180b3c3a58bd4cb4d87c82df239b9feb9291da07d799aea1c41ce47db",
+ "domain": [
+  "software/cloud-hosting/containers",
+  "software/deployment"
+ ],
+ "product": [
+  "back4app"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Deploys container-based applications and returns a live HTTPS address, with no account needed to start.",
+ "whenToUse": "Use when a user wants to quickly deploy a containerized app and get a public URL.",
+ "tasks": [
+  "deploy container",
+  "get https url",
+  "host application"
+ ],
+ "effects": {},
+ "flags": []
+}

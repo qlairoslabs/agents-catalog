@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "58676943fee3cb76559685558b43c66396b842a6258ec0a0dd922c50fc48a0c8",
+ "domain": [
+  "product/customer-feedback",
+  "sales/account-intelligence"
+ ],
+ "product": [
+  "modem"
+ ],
+ "audience": [
+  "support",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Searches customer feedback, topics, people and companies in Modem and can run the Modem agent.",
+ "whenToUse": "Use when an agent needs to analyze customer feedback or find related people and companies stored in Modem.",
+ "tasks": [
+  "search customer feedback",
+  "search topics",
+  "search people",
+  "search companies",
+  "run modem agent"
+ ],
+ "effects": {},
+ "flags": []
+}

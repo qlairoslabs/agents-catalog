@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4d23d5c28790e3924355b898f38836a3a1f1617e556a00a895d3d442e3b28c37",
+ "domain": [
+  "media/video-production",
+  "ai/generative-video"
+ ],
+ "product": [
+  "cinegenta"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Turns a script into an AI-produced film, with free planning and quoting followed by paid production capped by credits.",
+ "whenToUse": "Use when a user wants to generate a film from a script and control spending on production credits.",
+ "tasks": [
+  "plan film from script",
+  "get production quote",
+  "produce film",
+  "cap credit spending"
+ ],
+ "effects": {},
+ "flags": []
+}

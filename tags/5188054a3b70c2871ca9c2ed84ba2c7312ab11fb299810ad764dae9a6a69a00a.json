@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "5188054a3b70c2871ca9c2ed84ba2c7312ab11fb299810ad764dae9a6a69a00a",
+ "domain": [
+  "ai/prompt-library"
+ ],
+ "product": [
+  "wikiprompt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Catalogue of 900+ curated AI prompts searchable by model, style, type and language, with optional prompt submission.",
+ "whenToUse": "Use when looking for a ready-made prompt for a model or task, or contributing one.",
+ "tasks": [
+  "search prompts",
+  "get full prompt",
+  "list categories",
+  "list facets",
+  "featured prompts",
+  "trending prompts",
+  "recent prompts",
+  "random prompt",
+  "translations",
+  "submit prompt"
+ ],
+ "effects": {
+  "a3f0ae9f0f9d13feac854cff0aa82c312eff5ca6e623171f538469ba56d03c93": "read",
+  "5949a77b69b17f6dc56fe77c14f9ec3d3f4c5854c37aacc7dbc17f044d3a1e69": "read",
+  "31dc71b963293019501f413fbcad43ef698940f7cd94eabf92f16c9c391253b4": "read",
+  "409fec98ba33af3799aceff0cfe6887af393646f9cf100c0e41c9b9b32924db9": "read",
+  "50df14fd1822fb14e0d4e30dfac9a583c2e7da76deda01847e256d36053da3e5": "read",
+  "cba45d7d2ea82a6234946dc3493781acd57b3335d9eb3247bf4d351d9ddb6b19": "read",
+  "f171a3b279e5659cf7cb00b7895442515790a4ede9fcb56efa375e863d13a5a3": "read",
+  "77ce659bfc1063eb55d8911d544b3076cd2a055af4406c173de773d37215927e": "read",
+  "b53169454d3a3aa5edebcf1d93a8ac48fa6ea0588505f6fbdcba672f28bc3ad1": "read",
+  "ef6899713ec8a27ab00e20ba71c0fab5e03c313ec2351ca871094bfbce1a5081": "read",
+  "743b7996da03465d14d16e55def30d35d8d000690eb110201e298eedeb664fa8": "read",
+  "d1f955d7ae2b1c6c794c4d6a8706c07e0358f631fff7ff92a5a54d9adcf71aee": "write"
+ },
+ "flags": []
+}

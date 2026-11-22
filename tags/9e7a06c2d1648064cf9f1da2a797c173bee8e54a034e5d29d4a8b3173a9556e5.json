@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "9e7a06c2d1648064cf9f1da2a797c173bee8e54a034e5d29d4a8b3173a9556e5",
+ "domain": [
+  "software/cybersecurity",
+  "compliance/privacy"
+ ],
+ "product": [
+  "launchtrust"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Scans web apps for security and compliance gaps and provides jurisdiction rules and signed scan records.",
+ "whenToUse": "Use when checking a web app for exposed secrets, missing headers or privacy and AI-disclosure gaps before launch.",
+ "tasks": [
+  "quick-scan a public url",
+  "list tracked jurisdictions",
+  "get compliance rules",
+  "verify signed scan records",
+  "list registered apps",
+  "register an app",
+  "run a full app scan",
+  "view scan history",
+  "get market compliance report"
+ ],
+ "effects": {
+  "474f6cb5949d30967e2bed1f7bdd3eb682f738df699dd90432181675ecc9bc51": "write",
+  "03b4bc7153d27b088f78f6560f2e6885706c162ec7083b5ff441b2eca35b68b4": "read",
+  "51a847a07d2b433219d964e08d85687e99da2658b540cb9fca19251e31ed2d04": "read",
+  "efe44b8b717ec6798807eb00ae1cc81f1d500968ea7e17070a5197247f4087bd": "read",
+  "f76436543baa37785a3b39a06534acff026751ed64d8000418596d11d77c3ec4": "read",
+  "d39a23b91a26a993b8890f5a5252e7e9c101baa3525ea36ed0e070b238ef0833": "write",
+  "d5255d1b6b0ecccdda81a69950535163681cf7760d2d2489a977981363705322": "write",
+  "e3b79bc20ac19ca9d817e6359df86f7ff1bc9671acbb6835230dad1d9e84b156": "read",
+  "28a85502990a752144cfc36f4a44a41d09d676cfd512467040f64bd102f4cb40": "read"
+ },
+ "flags": []
+}

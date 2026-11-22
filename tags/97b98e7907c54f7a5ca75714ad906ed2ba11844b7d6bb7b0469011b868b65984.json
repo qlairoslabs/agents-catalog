@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "97b98e7907c54f7a5ca75714ad906ed2ba11844b7d6bb7b0469011b868b65984",
+ "domain": [
+  "design/graphic-design",
+  "marketing/branding"
+ ],
+ "product": [
+  "canva"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Bundle for creating, editing, resizing, reviewing and brand-checking Canva designs via the Canva MCP server.",
+ "whenToUse": "Use when an agent needs to make or adjust Canva designs.",
+ "tasks": [
+  "create designs",
+  "edit designs",
+  "review designs",
+  "resize designs",
+  "check brand compliance"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "18ac492660d388ebc2ba78a0a1b82e6ea1acb2645f956e374ed0e0be9006465a",
+ "domain": [
+  "finance/accounting",
+  "finance/payroll",
+  "finance/tax"
+ ],
+ "product": [
+  "mynto",
+  "altinn"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "AI accounting service for Norwegian companies, covering bookkeeping, VAT, payroll and Altinn filings in plain Norwegian.",
+ "whenToUse": "Use when a Norwegian company wants to do bookkeeping, VAT, payroll or Altinn reporting through an agent.",
+ "tasks": [
+  "record bookkeeping entries",
+  "handle vat returns",
+  "run payroll",
+  "submit to altinn",
+  "answer accounting questions in norwegian"
+ ],
+ "effects": {},
+ "flags": []
+}

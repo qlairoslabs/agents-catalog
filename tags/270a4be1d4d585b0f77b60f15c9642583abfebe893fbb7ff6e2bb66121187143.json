@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "270a4be1d4d585b0f77b60f15c9642583abfebe893fbb7ff6e2bb66121187143",
+ "domain": [
+  "software/hosting",
+  "software/infrastructure"
+ ],
+ "product": [
+  "servera"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages Servera hosting including VPS/VDS, DNS, firewall, backups, SSL certificates, billing and support tickets.",
+ "whenToUse": "Use when a user wants an agent to administer their Servera servers, DNS or hosting account.",
+ "tasks": [
+  "manage vps and vds servers",
+  "edit dns records",
+  "configure firewall",
+  "manage backups",
+  "manage ssl certificates",
+  "view billing",
+  "open support tickets"
+ ],
+ "effects": {},
+ "flags": []
+}

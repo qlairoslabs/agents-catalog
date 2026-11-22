@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2984a52b2fbae93c5fd9073d15a927337dff324def36d03f4425acd0859132b5",
+ "domain": [
+  "ai/agent-orchestration",
+  "software/developer-tools"
+ ],
+ "product": [
+  "claude-code",
+  "codex",
+  "cursor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Python package of a harness that directs coding agents and reviews their output against a user's stored memories.",
+ "whenToUse": "Use when a developer wants to coordinate Claude Code, Codex or Cursor and check their work against personal guidelines.",
+ "tasks": [
+  "direct coding agents",
+  "review agent work",
+  "store user memories"
+ ],
+ "effects": {},
+ "flags": []
+}

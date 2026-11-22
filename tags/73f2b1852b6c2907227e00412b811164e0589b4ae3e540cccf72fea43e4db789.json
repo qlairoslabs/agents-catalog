@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "73f2b1852b6c2907227e00412b811164e0589b4ae3e540cccf72fea43e4db789",
+ "domain": [
+  "data/news"
+ ],
+ "product": [
+  "apitube"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches real-time news from many sources and languages, with sentiment and entity data.",
+ "whenToUse": "Use when an agent needs current news articles or sentiment on a topic, company or person.",
+ "tasks": [
+  "search news",
+  "filter by language",
+  "get sentiment",
+  "extract entities"
+ ],
+ "effects": {},
+ "flags": []
+}

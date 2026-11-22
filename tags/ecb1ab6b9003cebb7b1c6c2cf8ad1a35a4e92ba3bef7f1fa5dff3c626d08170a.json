@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ecb1ab6b9003cebb7b1c6c2cf8ad1a35a4e92ba3bef7f1fa5dff3c626d08170a",
+ "domain": [
+  "software/ai-agents/coordination",
+  "software/development-tools"
+ ],
+ "product": [
+  "axis",
+  "claude-code",
+  "cursor",
+  "codex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Shared board where several coding agents claim jobs and lock files to avoid conflicting work.",
+ "whenToUse": "Use when multiple coding agents work on the same codebase and need to split tasks and avoid editing the same files.",
+ "tasks": [
+  "claim jobs on a shared board",
+  "lock files",
+  "coordinate multiple coding agents"
+ ],
+ "effects": {},
+ "flags": []
+}

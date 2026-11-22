@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8b9628e51464622dbef66787acd2a09ad83f8d28abdc29c9b6c8faed3fe09dd9",
+ "domain": [
+  "software/ai-agents",
+  "software/agent-memory"
+ ],
+ "product": [
+  "delimit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Tool that keeps shared context across coding assistants and offers a panel for consulting several models.",
+ "whenToUse": "Use when switching between coding assistants or models and the agent needs to keep shared project context.",
+ "tasks": [
+  "share context across assistants",
+  "consult multiple models"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b59a445301d001a1e985353123cfb213f873eab36797d5d2e985de4de4dbaa6d",
+ "domain": [
+  "health/personal-records"
+ ],
+ "product": [
+  "mednode"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Connects a personal MedNode health vault with records, summaries, lab results and appointments.",
+ "whenToUse": "Use when an agent needs a user's own health records, lab results or appointments from MedNode.",
+ "tasks": [
+  "view health records",
+  "get health summaries",
+  "view lab results",
+  "view appointments"
+ ],
+ "effects": {},
+ "flags": []
+}

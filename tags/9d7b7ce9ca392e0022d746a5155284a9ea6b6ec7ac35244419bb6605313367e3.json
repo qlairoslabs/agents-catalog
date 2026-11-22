@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9d7b7ce9ca392e0022d746a5155284a9ea6b6ec7ac35244419bb6605313367e3",
+ "domain": [
+  "design/image-editing",
+  "ai/generative"
+ ],
+ "product": [
+  "adobe-photoshop"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Controls Adobe Photoshop from an MCP client with many editing tools, generative features, recipes and a web UI.",
+ "whenToUse": "Use when an agent needs to create or edit images in Photoshop.",
+ "tasks": [
+  "edit images",
+  "manage layers",
+  "apply generative fill",
+  "run editing recipes",
+  "export images"
+ ],
+ "effects": {},
+ "flags": []
+}

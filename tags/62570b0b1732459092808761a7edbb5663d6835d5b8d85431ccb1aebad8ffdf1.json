@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "62570b0b1732459092808761a7edbb5663d6835d5b8d85431ccb1aebad8ffdf1",
+ "domain": [
+  "documents/pdf-conversion"
+ ],
+ "product": [
+  "filetopdf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Converts files, HTML and Markdown to PDF through the FileToPDF API using your own API key.",
+ "whenToUse": "Use when a document, HTML page or markdown needs to be turned into a PDF.",
+ "tasks": [
+  "convert file to pdf",
+  "convert html to pdf",
+  "convert markdown to pdf"
+ ],
+ "effects": {},
+ "flags": []
+}

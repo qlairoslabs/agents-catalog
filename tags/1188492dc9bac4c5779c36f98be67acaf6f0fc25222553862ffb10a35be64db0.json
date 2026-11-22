@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1188492dc9bac4c5779c36f98be67acaf6f0fc25222553862ffb10a35be64db0",
+ "domain": [
+  "productivity/databases/reference"
+ ],
+ "product": [
+  "airtable"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Explains Airtable's data model: bases, tables, fields, records, views, automations and interfaces.",
+ "whenToUse": "Use when an agent needs background on how Airtable structures data before working with it.",
+ "tasks": [
+  "explain bases and tables",
+  "explain fields and records",
+  "explain views",
+  "explain automations",
+  "explain interfaces"
+ ],
+ "effects": {},
+ "flags": []
+}

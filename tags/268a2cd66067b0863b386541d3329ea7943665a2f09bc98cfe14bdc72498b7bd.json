@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "268a2cd66067b0863b386541d3329ea7943665a2f09bc98cfe14bdc72498b7bd",
+ "domain": [
+  "engineering/electronics/pcb-design"
+ ],
+ "product": [
+  "kicad"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets agents work with KiCad projects for PCB design, design rule checks, simulation, BOM generation and manufacturing preparation.",
+ "whenToUse": "Use when an agent needs to design, check or prepare a KiCad PCB project for manufacturing.",
+ "tasks": [
+  "edit pcb designs",
+  "run design rule checks",
+  "run circuit simulation",
+  "generate bill of materials",
+  "check design for manufacturing",
+  "export manufacturing files"
+ ],
+ "effects": {},
+ "flags": []
+}

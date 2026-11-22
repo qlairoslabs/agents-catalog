@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "61300606308f4c69a4e4a39cb4f3ca284966eecfc5d88f25ba85f6ee709d0654",
+ "domain": [
+  "software/code-review",
+  "software/devtools"
+ ],
+ "product": [
+  "cubic",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Connects to cubic AI code review to triage findings, start pull request reviews and read wikis, scans and team learnings.",
+ "whenToUse": "Use when working with cubic code review findings or starting a review on a pull request.",
+ "tasks": [
+  "triage review findings",
+  "start pr review",
+  "read codebase wiki",
+  "read security scans",
+  "read team learnings"
+ ],
+ "effects": {},
+ "flags": []
+}

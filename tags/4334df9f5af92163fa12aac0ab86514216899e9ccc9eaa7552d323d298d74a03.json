@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "4334df9f5af92163fa12aac0ab86514216899e9ccc9eaa7552d323d298d74a03",
+ "domain": [
+  "real-estate/market-data",
+  "finance/investment"
+ ],
+ "product": [
+  "dubai-land-department"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Dubai residential property prices and gross rental yields by area from official DLD sale and rental data.",
+ "whenToUse": "Use when comparing Dubai neighborhoods by price, yield or affordability for a budget.",
+ "tasks": [
+  "list areas",
+  "get area price snapshot",
+  "get rental yield",
+  "get market overview",
+  "rank areas by yield",
+  "compare areas",
+  "check affordability"
+ ],
+ "effects": {
+  "8ac5f4f79636a5373fe997d2581f969730ea87fe102702965c3490790219b006": "read",
+  "1c1d058772c900daa14d373caebc2b4abfed7f59c3bbc8f49ca5330113ba6b8e": "read",
+  "a392a3df79043216b929c904048a38487fd3d5289fa55dffab27db9641214aac": "read",
+  "bd913a2e83a5b4be8936e65064bd1ee76780730f2e8038c00d7b3be2d37a7d52": "read",
+  "814e42c8b7eb54372c1460196624e8276dcc0333e04fee65ff235395f3835e39": "read",
+  "a757f9754f93d215ce0fe390decd6b03f8fa82e340be7464fbd911514369c3e1": "read",
+  "7c49a406907c7d2a3eb23d6339d73550bc1cb9f877e0148dd488af3ecbd8892a": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "50d91ca6a3737789947b9410d3d4b2452e9d898d390a78ee011febfe34861d61",
+ "domain": [
+  "communication/postal-mail"
+ ],
+ "product": [
+  "sendletter"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Sends physical printed letters by post across Europe, with a price quote before sending.",
+ "whenToUse": "Use when a user needs to send a real paper letter by post from an agent.",
+ "tasks": [
+  "quote letter price",
+  "send printed letter"
+ ],
+ "effects": {},
+ "flags": []
+}

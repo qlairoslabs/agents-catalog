@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e59006cf4eeaf4d5a362edb92f8b1852db7ef72c5aa7023b636fd78abfd3f6b5",
+ "domain": [
+  "marketing/referral-programs",
+  "marketing/partner-programs"
+ ],
+ "product": [
+  "cello"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Connector for setting up and managing referral and partner programs in Cello.",
+ "whenToUse": "Use when an agent needs to launch, configure or manage a referral or partner program run on Cello.",
+ "tasks": [
+  "launch referral program",
+  "manage partner program",
+  "manage referrals"
+ ],
+ "effects": {},
+ "flags": []
+}

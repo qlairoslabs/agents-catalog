@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a60970cecfa0e966af6950036c09c7831b10fece2883ec296680f9212d29f21c",
+ "domain": [
+  "software/databases/postgres",
+  "software/cloud-storage"
+ ],
+ "product": [
+  "wowsql",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Managed Postgres service connector for projects, running SQL, searching docs and managing storage buckets.",
+ "whenToUse": "Use when managing WoWSQL Postgres projects, running SQL queries or handling storage buckets.",
+ "tasks": [
+  "manage projects",
+  "run sql queries",
+  "search documentation",
+  "manage storage buckets"
+ ],
+ "effects": {},
+ "flags": []
+}

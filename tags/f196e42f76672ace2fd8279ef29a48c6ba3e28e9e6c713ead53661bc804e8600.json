@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f196e42f76672ace2fd8279ef29a48c6ba3e28e9e6c713ead53661bc804e8600",
+ "domain": [
+  "finance/trading/journal"
+ ],
+ "product": [
+  "trandence"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads trades, statistics, playbooks and notes from a Trandence trading journal, read-only by default.",
+ "whenToUse": "Use when the user wants to review or analyse their logged trades and performance in Trandence.",
+ "tasks": [
+  "list trades",
+  "view trading stats",
+  "read playbooks",
+  "read notes"
+ ],
+ "effects": {},
+ "flags": []
+}

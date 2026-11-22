@@ -1,0 +1,72 @@
+{
+ "classifier": 2,
+ "contentHash": "9a6b79c1b8cccd2b82d63a547b2640f9eb90d0e13c9e0819fb63bd39303ba65d",
+ "domain": [
+  "ai/agent-accountability",
+  "software/audit-records"
+ ],
+ "product": [
+  "decision-anchor"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "External service that records tamper-evident decision declarations by AI agents, including bilateral agreements, with paid observation, a tool marketplace and simulation sessions.",
+ "whenToUse": "Use when an agent makes payments, delegations or agreements with another agent and needs an independent, auditable record of the decision boundary.",
+ "tasks": [
+  "register agent",
+  "record decisions",
+  "confirm decisions",
+  "propose bilateral agreements",
+  "list decisions",
+  "observe environment and patterns",
+  "compare decision anomalies",
+  "get evidence reports",
+  "publish marketplace tools",
+  "purchase tools",
+  "manage sessions",
+  "check DAC balance"
+ ],
+ "effects": {
+  "158fe3f557c3099d0f4f89468b2f4f6c1adcabc551a1df6f6487f0dfa29b6f40": "write",
+  "74dcc929835f686c0d9f12767a30577abe0a51699df4b77bb4b82d1e6959b722": "write",
+  "34d39556877eecb5ac6cdfb12aa19b6717b09db56fb61955d9fbfcc56ef186c8": "write",
+  "3fd4e4aefc0f0314b8f26e090701de54494bc4991033324a024e3455b34c8362": "write",
+  "55b1130527e8da337a707ac0d576dde54f39efa4a5c7e6dcdf1b0b9c3d6cc45a": "write",
+  "460792d3646aa491fb291c3365c675088fe3f4d3f0539545d68a44984e6a78d0": "write",
+  "1d6518d6ec939b2a5a036135d4b32b7168f38a1ca9315f087436bbc905846b8c": "write",
+  "5787596f0c3144900831c840068a3796207b732cb2b2cdfb60c47a0ab6c4a083": "write",
+  "32c0c74a484da27d32f09dc4b30c2ee8d1ac2c7811fa467a84db2cb13b418356": "write",
+  "f0f38247531cbb477382cf827553d5c14f44d72b653edca76e13fefc678765ff": "write",
+  "a317b526c0b5474f3dba9f510626a0833d6784ba7a50bf4a10d4030213140ebe": "write",
+  "2cb62c1d07f96abe06288b31eab7968e69e2c0bb215f401693103c9865cb7a75": "risky",
+  "eb257bed66570b664f8003de0109a99311684bc339fcd7109d6d4a7dcc91ed68": "write",
+  "8894f8f0cd4b590474136337384fb0306fcad6a5b1304cea0a56f84497eca2df": "write",
+  "d8496634fa37058ef3353b9467142bc5fe70c359962a35b5d21c1b9ca1aff334": "write",
+  "9768cd03fb49f22a50c8772a534c3d0581958e54003f94faf825e214342a8957": "write",
+  "70d5ffd3d19ceaf1d4a4dd5d35acd5c869228109015d8dc2b11b4eab16758309": "write",
+  "ee815de0fb42d882ee76c2590e51808e759107698792466b133b5673bf7d6a88": "write",
+  "4155af4621c8e6a8f63625c625e6a868d09c471797b43a7e2e34058faf64c3bb": "write",
+  "b535761839636e7fd7ae63cb3f3ff7432368d0a19b20e18588ff7bb04e2f8b84": "write",
+  "0d0d72fa98ad12ebcb1b93a9565753f721b009f0c50f90e397d045a7f48b79d2": "write",
+  "5c16fb6b6cf990c8b0516ae7dbe8008849e6fab1463d06046fc4465df950ea02": "write",
+  "3d5e355d3833b73257ca9dcb93a40b6ef7e37cd0693a6efbd9c80aff26678edc": "write",
+  "5e8df4c61a39ea03c42d88401e7024e835ecc447470d69ebefa6c4345729bc99": "write",
+  "e2a1b6ed62b4218a8fa3b6d741af5c52443904de0a2087a9adebced066f5e1a4": "write",
+  "e72df4de0744e5940497ba737008068c6e151c43802a93fa1ef56d2e069fd0f3": "write",
+  "559f885f90fa02739fa8891e42a25531e38a24d63cd01d06ced85b18d639a791": "write",
+  "53a44c447ca5a5d60cd695e55330bfde1309adabe0d87e00a62f1fe7e4e43994": "write",
+  "a86e64031af3dc5c0f1602d75be8b2a76a7d555453a46ac484d5a5154d2b2a73": "write",
+  "0eabfc1c19de8fc340b12f5cb514de2f20dd545b8be5cb0ed42ccba1b7e9d393": "write"
+ },
+ "flags": [
+  "tool descriptions are phrased to encourage agents to register, accumulate a trajectory and pay for observation",
+  "get_documentation and others are described as 'agent guide' to steer agent behaviour"
+ ]
+}

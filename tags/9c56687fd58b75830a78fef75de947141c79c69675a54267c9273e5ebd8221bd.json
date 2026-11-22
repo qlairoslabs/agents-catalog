@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9c56687fd58b75830a78fef75de947141c79c69675a54267c9273e5ebd8221bd",
+ "domain": [
+  "software/web-development/cms",
+  "commerce/ecommerce"
+ ],
+ "product": [
+  "wordpress"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Bundle for building WordPress sites and apps, including themes, plugins, commerce and deployment.",
+ "whenToUse": "Use when developing or deploying a WordPress site, theme or plugin.",
+ "tasks": [
+  "build themes",
+  "build plugins",
+  "set up commerce",
+  "deploy sites"
+ ],
+ "effects": {},
+ "flags": []
+}

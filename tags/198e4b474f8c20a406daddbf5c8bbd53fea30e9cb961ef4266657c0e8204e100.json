@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "198e4b474f8c20a406daddbf5c8bbd53fea30e9cb961ef4266657c0e8204e100",
+ "domain": [
+  "software/app-builders",
+  "software/developer-tools"
+ ],
+ "product": [
+  "base44"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference for the Base44 CLI used to configure, create and deploy Base44 project resources such as entities, backend functions, realtime actors and AI agents.",
+ "whenToUse": "Use when configuring or deploying resources in a Base44 project with the base44 CLI.",
+ "tasks": [
+  "initialize base44 projects",
+  "configure entities",
+  "configure backend functions",
+  "configure realtime actors",
+  "configure ai agents",
+  "create resources",
+  "deploy projects"
+ ],
+ "effects": {},
+ "flags": [
+  "description tells the agent it must learn this skill whenever planning or implementing any feature, an overly broad trigger instruction"
+ ]
+}

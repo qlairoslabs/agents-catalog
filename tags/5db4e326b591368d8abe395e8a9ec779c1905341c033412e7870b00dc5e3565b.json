@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5db4e326b591368d8abe395e8a9ec779c1905341c033412e7870b00dc5e3565b",
+ "domain": [
+  "data/analytics",
+  "data/warehousing"
+ ],
+ "product": [
+  "bigquery",
+  "google-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Bundle for connecting to BigQuery, running queries and producing insights from datasets.",
+ "whenToUse": "Use when an agent needs to query or analyze data stored in Google BigQuery.",
+ "tasks": [
+  "connect to bigquery",
+  "run sql queries",
+  "explore datasets",
+  "generate data insights"
+ ],
+ "effects": {},
+ "flags": []
+}

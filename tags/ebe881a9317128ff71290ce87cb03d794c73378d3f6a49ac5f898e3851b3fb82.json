@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ebe881a9317128ff71290ce87cb03d794c73378d3f6a49ac5f898e3851b3fb82",
+ "domain": [
+  "software/debugging",
+  "analytics/session-replay"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Turns bug reports into reproduction steps by finding error sessions in Amplitude Session Replay and identifying the actions that lead to failures.",
+ "whenToUse": "Use when a user reports a bug or an error spikes and you need reproduction steps or to know what a user did before an error.",
+ "tasks": [
+  "find error sessions in session replay",
+  "extract interaction timelines",
+  "identify common action sequences before failures",
+  "write reproduction steps",
+  "investigate what a specific user did"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8042c4432ad79da9012682b0e29ad913982a64fd9e9d966ae3a6fb67f778ea53",
+ "domain": [
+  "construction/project-management",
+  "data/project-data"
+ ],
+ "product": [
+  "ingenious.build"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Connects an AI assistant to live construction project data in INGENIOUS.BUILD; requires a Pro plan.",
+ "whenToUse": "Use when a user wants to query or work with their INGENIOUS.BUILD construction project data.",
+ "tasks": [
+  "read construction project data",
+  "answer project status questions"
+ ],
+ "effects": {},
+ "flags": []
+}

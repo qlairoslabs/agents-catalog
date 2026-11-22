@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "31a875ff85ed087d0f416a79c36a678034ed51d8e31c60c673e7a321ff90ae87",
+ "domain": [
+  "finance/wealth-management/portfolio-construction"
+ ],
+ "product": [
+  "blackrock-advisor-center"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Builds, imports, edits or clones advisor portfolios after the advisor confirms holdings and the write action.",
+ "whenToUse": "Use when an advisor wants to create a new portfolio from tickers, a statement, a model or a what-if variation.",
+ "tasks": [
+  "build portfolio from tickers and weights",
+  "import portfolio from statement",
+  "clone model or saved portfolio",
+  "modify portfolio holdings",
+  "create comparison portfolio",
+  "explore what-if variations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "45e739c0dae46e1cdacba54248c7e40ae23afd2318f0f1ad4db6b6f120575a65",
+ "domain": [
+  "software/filesystem"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Gives AI assistants access to the local filesystem.",
+ "whenToUse": "Use when an agent needs to read or manage files on the local machine.",
+ "tasks": [
+  "read files",
+  "list directories",
+  "search files"
+ ],
+ "effects": {},
+ "flags": []
+}

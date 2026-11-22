@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "601be909dcc9a6084afba8c7a024bb7d3226dfa30bb9e3de088636a7cd419611",
+ "domain": [
+  "legal/consumer-rights",
+  "transport/parking"
+ ],
+ "product": [
+  "parkingeye",
+  "euro-car-parks",
+  "popla",
+  "tfl"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Free UK parking ticket appeal guides, PCN contravention code lookup, deadline calculator and appeal status lookup.",
+ "whenToUse": "Use when a user has a UK parking charge or penalty notice and needs to understand it, its deadlines or how to appeal.",
+ "tasks": [
+  "search appeal guides",
+  "read guides",
+  "explain contravention codes",
+  "search codes",
+  "calculate deadlines",
+  "look up appeal status"
+ ],
+ "effects": {
+  "053c4b38ef6c1e9ec13dd60c41ca0753d9540cd805863519b3d35a0f1b617830": "read",
+  "e34c40c1d860a30cb01bb5232d826589bbb5ee471bd82d8d33d326a02815845d": "read",
+  "a62526cb3c32e48716801eea653f8409dd42d979ad48b756a6895395da193ecf": "read",
+  "f2a98727f0789010b3331e4bda204e0352e00f594573b9fe7f2138955ad930d1": "read",
+  "44d8fd3bb30867e3879846b114296bda0c40ae12c16493698b6fc14c8419d8b2": "read",
+  "8345ad6cbfa5773c836e47be279370de98b05a6e178232d73420ba8bff3f6936": "read"
+ },
+ "flags": []
+}

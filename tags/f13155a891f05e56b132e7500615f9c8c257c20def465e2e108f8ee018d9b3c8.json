@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "f13155a891f05e56b132e7500615f9c8c257c20def465e2e108f8ee018d9b3c8",
+ "domain": [
+  "energy/power-markets",
+  "energy/europe"
+ ],
+ "product": [
+  "entso-e"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "European power-market data from ENTSO-E: day-ahead prices, load, generation, cross-border flows, outages and derived metrics for 47 zones.",
+ "whenToUse": "Use when analysing European electricity prices, generation mix, flows, outages or battery-arbitrage spreads.",
+ "tasks": [
+  "list zones and endpoints",
+  "get day-ahead prices",
+  "get load",
+  "get generation by type",
+  "get cross-border flows",
+  "get outages",
+  "compare zones",
+  "TBx battery spreads",
+  "capture prices and derivations",
+  "check data coverage"
+ ],
+ "effects": {
+  "2950b25c87a1c0b6c42ac10f7bc8c32712b50efba56bc16ead141c4781c17124": "read",
+  "fe24ac27a07a9d42671e74721bfe4ca80c4ab4cee0ccf4f427abfb769e29bf9a": "read",
+  "3a04d56f25f347e56847f2680a6334350f7af9155a3a481ede8dee4204cf6d37": "write",
+  "519907594a2d7ff251ebc6a4a0094fea9e737c76016aaaff37a09947725e92ce": "write",
+  "a0f03353df4584f0a8892654d6bf52f54ffa68cf77d3210f8b364d3030650117": "write",
+  "1ca9f6835be6642b4361f926005a47254920a09ae8f2c6cfb0057fa1abb2dbd5": "write",
+  "f590b5ac81bab31290be972ff06d4ac8943ff761475aa7c02252fd4b855953a6": "read",
+  "9213de47b0abb82ca03660db72de39c6c9bfe161c1f40b29e79b27719b4ae7cc": "write",
+  "06765c7d2917e84b402e651411142b490792a4d3b34a64b7490063d63206f1d7": "read",
+  "ed3eddd36d258558747e805ffa99b5115c7c541cd218b01056bf9bc6cf09baa7": "write",
+  "7d9b11729660eb4b25d340446577d442f9cad27b82b3ede719a29e9d025d67e8": "write",
+  "f870f16a2611be7deda7f9e619915585bc5da88d3e69385098916143754e89ed": "read",
+  "8d72038d17e93ea050e46ff0e0df09206d79c78d36d3488e391b3e5c150b52b1": "write",
+  "3080626eac25207f49e3b6dfa6e8547d4d2c655175ab28d6e47a3537d2590a9d": "write"
+ },
+ "flags": []
+}

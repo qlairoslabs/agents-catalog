@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "66f10332b8112c2afe36badc89bb5b32910a3fa7e5d548ee479c2622c4ae9ffa",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/workflow-approvals"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Guidance for building Airflow 3.1+ human-in-the-loop workflows with approval gates, form input and human-driven branching.",
+ "whenToUse": "Use when a DAG needs a human approval, sign-off, decision or form input step.",
+ "tasks": [
+  "add approval or reject steps",
+  "collect form input mid-run",
+  "branch on human choice",
+  "use hitl operators and triggers"
+ ],
+ "effects": {},
+ "flags": []
+}

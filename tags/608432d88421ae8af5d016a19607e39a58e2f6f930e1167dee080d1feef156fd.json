@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "608432d88421ae8af5d016a19607e39a58e2f6f930e1167dee080d1feef156fd",
+ "domain": [
+  "travel/accommodation",
+  "travel/price-comparison"
+ ],
+ "product": [
+  "booking-com",
+  "airbnb",
+  "vrbo",
+  "google-hotels"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches hotels and vacation rentals with live prices and reviews across Booking.com, Airbnb, Vrbo and Google Hotels.",
+ "whenToUse": "Use when comparing accommodation prices and reviews for a trip.",
+ "tasks": [
+  "search hotels",
+  "search vacation rentals",
+  "compare live prices",
+  "read reviews"
+ ],
+ "effects": {},
+ "flags": []
+}

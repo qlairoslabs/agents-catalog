@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "fa2253b57476a94de4e21239b6de977a0affdcba9d969b75da3f1c55011fed63",
+ "domain": [
+  "shopping/price-comparison",
+  "health/supplements"
+ ],
+ "product": [
+  "wovitamine",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German-market price comparison for vitamin supplements, with current best offers, buying guides and offer re-checks.",
+ "whenToUse": "Use when a user wants prices or buying advice for vitamin products in Germany.",
+ "tasks": [
+  "search vitamin offers",
+  "filter by brand and price",
+  "find buying guides",
+  "compare supplements",
+  "re-check an offer price"
+ ],
+ "effects": {
+  "aae5f54fbefc9f52b099a0ff3ace5fd30deee9000217a3cc9ca47f7468eb2366": "write",
+  "75b41dbe05fa6ed695c735c8d55fdbc2888b5d3f340fd4d074760ebfe1acd681": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

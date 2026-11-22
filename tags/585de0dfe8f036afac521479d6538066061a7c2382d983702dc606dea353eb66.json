@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "585de0dfe8f036afac521479d6538066061a7c2382d983702dc606dea353eb66",
+ "domain": [
+  "content/video-recording",
+  "sales/product-demos"
+ ],
+ "product": [
+  "recapp"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Lets AI agents record narrated product demo videos, with transcripts, summaries and search.",
+ "whenToUse": "Use when an agent should produce a narrated walkthrough video of a product.",
+ "tasks": [
+  "record product demo",
+  "narrate video",
+  "get transcript",
+  "summarize recording",
+  "search recordings"
+ ],
+ "effects": {},
+ "flags": []
+}

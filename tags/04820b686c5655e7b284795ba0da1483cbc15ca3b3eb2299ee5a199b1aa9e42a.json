@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "04820b686c5655e7b284795ba0da1483cbc15ca3b3eb2299ee5a199b1aa9e42a",
+ "domain": [
+  "marketing/waitlists",
+  "marketing/email"
+ ],
+ "product": [
+  "usewait"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Creates and manages waitlists, including pages, custom domains, emails, signups and broadcasts.",
+ "whenToUse": "Use when an agent needs to launch or run a product waitlist and contact signups.",
+ "tasks": [
+  "create waitlist",
+  "manage waitlist page",
+  "set custom domain",
+  "manage signups",
+  "send emails",
+  "send broadcasts"
+ ],
+ "effects": {},
+ "flags": []
+}

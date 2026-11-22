@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b2ea0a15837443a8390969743b40b3eb61f5e39d6a83fe5c569ac250b31e3529",
+ "domain": [
+  "software/ai-gateway",
+  "software/llm-routing"
+ ],
+ "product": [
+  "openai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "OpenAI-compatible gateway listing 22 LLM providers with routing, failover and tools.",
+ "whenToUse": "Use when an agent needs to route requests across multiple LLM providers with failover.",
+ "tasks": [
+  "catalog llm providers",
+  "route llm requests",
+  "handle failover"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "6449fbc79ac0e6b95d45e5b1b5b89c7311854c26e657efa62c13f315c2120c29",
+ "domain": [
+  "data/integration",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-glue",
+  "aws-secrets-manager",
+  "amazon-rds",
+  "amazon-redshift",
+  "snowflake",
+  "bigquery",
+  "oracle",
+  "sql-server"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Creates and troubleshoots AWS Glue connections to JDBC databases, Redshift, Snowflake and BigQuery, including credentials and VPC setup.",
+ "whenToUse": "Use when setting up or fixing a Glue connection to a database or warehouse.",
+ "tasks": [
+  "discover existing glue connections",
+  "find rds and redshift candidates",
+  "store credentials in secrets manager",
+  "configure iam db auth",
+  "configure vpc networking",
+  "test connections",
+  "troubleshoot connection timeouts"
+ ],
+ "effects": {},
+ "flags": []
+}

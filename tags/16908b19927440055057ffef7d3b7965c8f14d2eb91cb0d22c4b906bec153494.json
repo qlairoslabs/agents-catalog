@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "16908b19927440055057ffef7d3b7965c8f14d2eb91cb0d22c4b906bec153494",
+ "domain": [
+  "software/cybersecurity/ai-security",
+  "software/observability"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Audits MCP servers at runtime, tracing behavior and detecting scope violations.",
+ "whenToUse": "Use when checking whether an MCP server behaves within its declared scope.",
+ "tasks": [
+  "trace mcp server behavior",
+  "detect scope violations",
+  "audit runtime activity"
+ ],
+ "effects": {},
+ "flags": []
+}

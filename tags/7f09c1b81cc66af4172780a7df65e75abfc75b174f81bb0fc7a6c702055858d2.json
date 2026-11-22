@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "7f09c1b81cc66af4172780a7df65e75abfc75b174f81bb0fc7a6c702055858d2",
+ "domain": [
+  "software/custom-development",
+  "sales/inquiry"
+ ],
+ "product": [
+  "the2410"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "get-customers"
+ ],
+ "summary": "Lets a customer scope a custom software project with The2410: fit check, estimate, case studies, delivery window, inquiry submission and consultation booking.",
+ "whenToUse": "Use when a customer wants to commission custom software and needs an estimate, inquiry or consultation with The2410.",
+ "tasks": [
+  "evaluate project fit",
+  "create preliminary plan and price",
+  "find case studies",
+  "check delivery window",
+  "draft inquiry",
+  "submit inquiry",
+  "get consultation slots",
+  "book consultation",
+  "send feedback"
+ ],
+ "effects": {
+  "a66b204ae293727a3d5b484d82bf6879dc458a3581f1f1c70ec11cdec2fb83f3": "write",
+  "1847bd1737b1ca9888cf7bbb4763534428a4394944982f722a665affc8793b96": "write",
+  "5d58fdbbfb0ba968f907b3653560c0065e299c22ba1f19d92c6c705d34283a05": "read",
+  "8da5316a07cbc29b14c4c5c71beadce85950b494a4bf9be1eafc2363da62a965": "write",
+  "85496cc2d01a59a67fce18987a9f02775b8c59cbd00ab5d34ea00e2cadb5ca09": "write",
+  "059e472b694ffb14683f01dfd4b9d2adad5aee4c22455920eb2d47fba92dc823": "write",
+  "1117b302afc08907348a21ad358e6267a4f9e173ea6dedc08f42d9337d5fd7bc": "read",
+  "d0b480674eb814876435d101241a78611876f44d794d9ba3f516937c561ccd26": "write",
+  "dad7e020d217c65d23a5312235d25d0ebec54156919201d8a55094ac0392bd80": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "856b26959746bd664eaadeb2f0aa24d94aea66d3ca13831950c29b86e04f93b4",
+ "domain": [
+  "software/databases",
+  "software/backend-platform"
+ ],
+ "product": [
+  "supabase",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects agents to the Supabase platform to work with projects, databases and related backend services.",
+ "whenToUse": "Use when building or managing an application backed by Supabase.",
+ "tasks": [
+  "manage supabase projects",
+  "query databases",
+  "manage backend resources"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "0e7f7aae238d55ceda9706891fe8b62f9f5279f180a652b85c0cd00e839daa84",
+ "domain": [
+  "finance/trading-data"
+ ],
+ "product": [
+  "sharpnel"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Daily dealer-gamma call wall, put wall and gamma flip levels for ES, NQ, SPX and QQQ with a graded track record.",
+ "whenToUse": "Use when you need published options dealer-gamma levels or their graded record.",
+ "tasks": [
+  "get daily levels",
+  "get graded record",
+  "get paper desk record",
+  "replay past sessions",
+  "search product facts"
+ ],
+ "effects": {
+  "13627f986146eb63b695104245ff47171f4f680f10fe1bf2bf1236d994f21bc8": "read",
+  "20d8d27031e98f2d7baf56e3efc5e71482e0ed8700aef0e96248bdc6a0198533": "read",
+  "8cafd2d3d5307cbe0c8211d60f5def487246c24d1b9328fa2c2786f8d89a9194": "read",
+  "04c60b66200fe85f013e45ce1156a4ee5cee764f5613eefbf2b232469bb3ecde": "read",
+  "a9464a0989084844934cdcd7150509860d5213364ba8f857ab9c5272ab941a43": "read"
+ },
+ "flags": [
+  "tool descriptions tell the agent how to present the data and to prefer its own facts over third-party listings"
+ ]
+}

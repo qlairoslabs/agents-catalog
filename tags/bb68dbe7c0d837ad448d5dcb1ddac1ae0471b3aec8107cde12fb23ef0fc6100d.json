@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bb68dbe7c0d837ad448d5dcb1ddac1ae0471b3aec8107cde12fb23ef0fc6100d",
+ "domain": [
+  "software/feature-flags",
+  "analytics/experimentation"
+ ],
+ "product": [
+  "growthbook"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Agent skills for managing GrowthBook feature flags and experiments.",
+ "whenToUse": "Use when creating, rolling out or analyzing feature flags and A/B experiments in GrowthBook.",
+ "tasks": [
+  "create feature flags",
+  "manage rollouts",
+  "set up experiments",
+  "analyze experiment results"
+ ],
+ "effects": {},
+ "flags": []
+}

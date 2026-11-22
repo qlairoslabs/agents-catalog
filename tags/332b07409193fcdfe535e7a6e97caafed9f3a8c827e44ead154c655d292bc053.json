@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "332b07409193fcdfe535e7a6e97caafed9f3a8c827e44ead154c655d292bc053",
+ "domain": [
+  "it/identity-and-access-management",
+  "it/device-management"
+ ],
+ "product": [
+  "jumpcloud"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Lets an AI agent manage JumpCloud directory resources such as users, devices and access.",
+ "whenToUse": "Use when administering JumpCloud users, groups, devices or access policies through an agent.",
+ "tasks": [
+  "manage jumpcloud users",
+  "manage groups",
+  "manage devices",
+  "manage access"
+ ],
+ "effects": {},
+ "flags": []
+}

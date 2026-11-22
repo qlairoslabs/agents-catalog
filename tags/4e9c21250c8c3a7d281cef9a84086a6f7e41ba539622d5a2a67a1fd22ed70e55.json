@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4e9c21250c8c3a7d281cef9a84086a6f7e41ba539622d5a2a67a1fd22ed70e55",
+ "domain": [
+  "finance/crypto/wallet"
+ ],
+ "product": [
+  "swapwallet",
+  "telegram"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Crypto wallet access for balances, profit and loss and history, with swaps, transfers and withdrawals gated by Telegram approval.",
+ "whenToUse": "Use when a user wants to review crypto wallet balances or history, or initiate swaps and transfers they will approve in Telegram.",
+ "tasks": [
+  "view balances",
+  "view profit and loss",
+  "view transaction history",
+  "request swaps",
+  "request transfers and withdrawals"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "ddb3a360539940a15de9c81433cbd132f7a043b5efbcdc31768844d3076bff1f",
+ "domain": [
+  "ecommerce/price-comparison",
+  "retail/sneakers"
+ ],
+ "product": [
+  "hypeibiza"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares sneaker prices and per-size stock across European shops, lists daily deals and converts shoe sizes between EU, US and UK.",
+ "whenToUse": "Use when a user wants the cheapest shop for a sneaker, stock in their size, current price drops, or a size conversion.",
+ "tasks": [
+  "search sneakers",
+  "list shop offers",
+  "check size stock",
+  "list deals",
+  "convert shoe sizes"
+ ],
+ "effects": {
+  "6dd06a4faa7cdcd1047869819e70abc233243974a139e27cf22fca85349b5146": "read",
+  "ffd1eaccc15a0a46f35e2fd59940cd6edf6c39078970c4dbe02874395e726929": "read",
+  "fbb519be7e81aa2b4bde83214ec1245b4b6e2cf4377411b13ad50ccd44106c28": "read",
+  "dd4f1bacd48c0183f480882b34f3c739cedbd76fad842e06758635cad81acda6": "read"
+ },
+ "flags": []
+}

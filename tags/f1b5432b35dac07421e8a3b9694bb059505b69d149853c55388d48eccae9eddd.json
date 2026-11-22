@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f1b5432b35dac07421e8a3b9694bb059505b69d149853c55388d48eccae9eddd",
+ "domain": [
+  "software/cybersecurity/threat-intelligence"
+ ],
+ "product": [
+  "shodan"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Queries the Shodan API for internet device search, IP and domain reconnaissance, DNS and CVE/CPE data.",
+ "whenToUse": "Use when investigating exposed hosts, IPs, domains or vulnerabilities via Shodan.",
+ "tasks": [
+  "search internet-connected devices",
+  "look up ip information",
+  "domain and dns lookups",
+  "query cve data",
+  "query cpe data"
+ ],
+ "effects": {},
+ "flags": []
+}

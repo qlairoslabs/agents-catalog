@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d25889b262a5a7170eafc8d27d281f4ca5b3ac9fd553f346d8a5d4731c3a037b",
+ "domain": [
+  "software/ai-agent-memory",
+  "software/developer-tools"
+ ],
+ "product": [
+  "imperal"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives coding agents cross-session memory, a live code map, change undo and fact checking.",
+ "whenToUse": "Use when a coding agent needs persistent memory, codebase mapping or the ability to undo changes.",
+ "tasks": [
+  "store memory across sessions",
+  "map code",
+  "undo changes",
+  "fact check"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "1e64f0f8928336312e4668ed96aa356b74e71886c07c5bfdd87f0371d93b9d0b",
+ "domain": [
+  "finance/m-and-a",
+  "business/valuation"
+ ],
+ "product": [
+  "imergea",
+  "stripe"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "Free indicative SME valuation and sell-readiness scoring, plus routing to paid M&A advisory packages and partner or deal-referral handoffs, in four languages.",
+ "whenToUse": "Use when a business owner or advisor wants a rough company valuation, a transaction-readiness score, or advisory pricing and booking links.",
+ "tasks": [
+  "list capabilities",
+  "estimate business valuation",
+  "assess sell-readiness",
+  "list advisory packages",
+  "recommend package",
+  "get booking link",
+  "prepare partner application",
+  "prepare deal referral"
+ ],
+ "effects": {
+  "1d2a1cd9317e412815f3516e8eba4341c9932980aa5626b6898291fd361861c2": "read",
+  "33661679597af768d8363aea03909cf0cde20e49e470999fca2854e6fc95fef6": "write",
+  "ec70645d99c5797b8a277bd31a5664dd4795d14945bddf31d27e2242fe37c3f9": "read",
+  "588168047c999787dfb450d87d22ab89497d70e64f80a39ea4f6a5bdcbab2666": "read",
+  "37b26e8c08c54a35374350efa70cea4b2c18128b33e4c13d22825113c1e4ea1c": "read",
+  "b0d9a50efbf067c6ccf3fdc0771ea7303301d7edf91454519feec05f4d87e4b7": "read",
+  "14bb4a98211266a2d2989260b79e90e29d7eb36864cad9f40caff92e5e140a26": "read",
+  "98fb12aae8673c14ae27cd988fc2138c3b61b38d572d6175c5a5022d41aea471": "read"
+ },
+ "flags": []
+}

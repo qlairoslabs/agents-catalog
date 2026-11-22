@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "da5dc62c0e837d2fa688d9047a1ee132d0a33e4249c7a123059e0859e73ca557",
+ "domain": [
+  "education/quantum-computing",
+  "software/quantum"
+ ],
+ "product": [
+  "roro-quantum",
+  "roro-academy"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read RoRo Academy quantum computing lessons and learning tracks, and list RoRo Quantum simulators and hardware.",
+ "whenToUse": "Use when learning quantum computing topics or checking which RoRo quantum devices and simulators are available.",
+ "tasks": [
+  "search lessons",
+  "read a lesson",
+  "list learning tracks",
+  "list quantum computers",
+  "describe RoRo Quantum"
+ ],
+ "effects": {
+  "ee54243dac8f0e613e96741cb454353089f30eadc976378b18fc974b1c39b702": "read",
+  "30ef1911aa6dbd89e546fead0b634b965cb5c1828fc7a985ccd066422e7e9358": "read",
+  "c43afd122d304431dcca76b8c65ce8d4073a6a60ccf4d0465e44a4b867136a2a": "read",
+  "489801a6e793b62283b6db31ba033d7a549058d296a9429c8d03355c6f915653": "read",
+  "242e43644d540319e022350f78cc53efed8018e920ce82c691b6f25c04eb4dbe": "read"
+ },
+ "flags": []
+}

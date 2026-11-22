@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6d401ced4b085177bf7a5c8d12f5d94720909dfc316ab9d5b5d255fa7958b206",
+ "domain": [
+  "web/domains",
+  "monitoring/alerts"
+ ],
+ "product": [
+  "rdap"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks domain availability via RDAP and monitors watchlists with scheduled checks, change history and alerts.",
+ "whenToUse": "Use when checking whether a domain is available or tracking changes to domains of interest.",
+ "tasks": [
+  "check domain availability",
+  "manage watchlists",
+  "schedule checks",
+  "view change history",
+  "receive alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

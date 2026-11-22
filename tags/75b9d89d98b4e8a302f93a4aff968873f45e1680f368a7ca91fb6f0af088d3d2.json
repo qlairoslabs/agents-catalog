@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "75b9d89d98b4e8a302f93a4aff968873f45e1680f368a7ca91fb6f0af088d3d2",
+ "domain": [
+  "marketing/social-media"
+ ],
+ "product": [
+  "tiktok",
+  "instagram",
+  "youtube",
+  "tokportal"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Provides managed TikTok, Instagram and YouTube accounts and bulk video posting run by human managers.",
+ "whenToUse": "Use when a user wants to post videos at scale through managed social media accounts.",
+ "tasks": [
+  "get managed social accounts",
+  "post videos",
+  "schedule posts at scale"
+ ],
+ "effects": {},
+ "flags": [
+  "possible-platform-policy-risk-managed-accounts-at-scale"
+ ]
+}

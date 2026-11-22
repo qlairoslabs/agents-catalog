@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b30fc7415e15681b0947b04c314e227b93832778c08d379351c704b9af7e6c92",
+ "domain": [
+  "web/hosting/publishing"
+ ],
+ "product": [
+  "htmldrop"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Publishes HTML or Markdown from an MCP client to a shareable live URL on htmldrop.app.",
+ "whenToUse": "Use when a user wants to quickly share generated HTML or Markdown as a public web page.",
+ "tasks": [
+  "publish html",
+  "publish markdown",
+  "get shareable url"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5e83bfcab3e1f9b488adcde194b76e2545b9ffe41948ee338baa8a2eeb57a04f",
+ "domain": [
+  "marketing/email/validation",
+  "data/verification"
+ ],
+ "product": [
+  "pingvalid"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Validates email addresses and returns a verdict, risk score and supporting evidence, with a small free monthly quota.",
+ "whenToUse": "Use when checking whether an email address is deliverable or risky before sending or storing it.",
+ "tasks": [
+  "validate email address",
+  "get email risk score",
+  "review validation evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8570c16da3635430322d85a845ba3f522f5d4ca7e147795d4694023df667b9ec",
+ "domain": [
+  "knowledge-management/knowledge-bases",
+  "research"
+ ],
+ "product": [
+  "mozg"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searchable knowledge bases scored by exams, with a public list of known knowledge gaps.",
+ "whenToUse": "Use when an agent needs to search a curated, quality-scored knowledge base on a topic.",
+ "tasks": [
+  "search knowledge bases",
+  "view knowledge gaps",
+  "check knowledge scores"
+ ],
+ "effects": {},
+ "flags": []
+}

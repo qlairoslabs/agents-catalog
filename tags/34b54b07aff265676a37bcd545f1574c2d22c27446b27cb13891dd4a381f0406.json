@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "34b54b07aff265676a37bcd545f1574c2d22c27446b27cb13891dd4a381f0406",
+ "domain": [
+  "gaming/server-hosting"
+ ],
+ "product": [
+  "nodecraft"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Manages Nodecraft game servers including power, files, backups, console, players and settings.",
+ "whenToUse": "Use when an agent needs to control or configure a game server hosted on Nodecraft.",
+ "tasks": [
+  "start servers",
+  "stop servers",
+  "manage files",
+  "create backups",
+  "run console commands",
+  "manage players",
+  "change settings"
+ ],
+ "effects": {},
+ "flags": []
+}

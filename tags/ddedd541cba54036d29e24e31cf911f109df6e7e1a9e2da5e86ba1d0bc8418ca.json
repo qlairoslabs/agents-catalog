@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ddedd541cba54036d29e24e31cf911f109df6e7e1a9e2da5e86ba1d0bc8418ca",
+ "domain": [
+  "software/devops/ci-cd",
+  "crm/salesforce"
+ ],
+ "product": [
+  "salesforce"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Plans Salesforce deployments, opens pull requests and triggers deployment pipelines from an AI client.",
+ "whenToUse": "Use when a Salesforce developer wants to plan a deploy, open a pull request or start a pipeline run.",
+ "tasks": [
+  "plan salesforce deployments",
+  "open pull requests",
+  "trigger pipelines"
+ ],
+ "effects": {},
+ "flags": []
+}

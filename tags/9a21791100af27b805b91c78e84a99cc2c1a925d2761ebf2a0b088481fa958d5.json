@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "9a21791100af27b805b91c78e84a99cc2c1a925d2761ebf2a0b088481fa958d5",
+ "domain": [
+  "finance/crypto-backtesting",
+  "research/verification"
+ ],
+ "product": [
+  "pruviq",
+  "okx"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only published backtest verdicts, rankings, per-coin stats and verification records for crypto trading strategies, with no trading tools.",
+ "whenToUse": "Use to check a crypto strategy's published verification status and metrics before relying on its backtest.",
+ "tasks": [
+  "list strategies",
+  "get strategy verdict",
+  "daily rankings",
+  "per-coin strategy stats",
+  "explain methodology",
+  "forward verification records"
+ ],
+ "effects": {
+  "fae98b50e101f5d89641d5a2aadc5aae52c350fe317273989a5f2431c0fd4fab": "read",
+  "b68243b668caa2d65dc5d5ae9939e840f3219c399c469bf700068c1cc399788b": "read",
+  "a2d9dceadc0573c11270c88abce04d377a24cc4c715c682380a903cad3bd1e81": "read",
+  "667da1de7a15ed5b430c9da565757abaa795c53e3174cd4ce4d32bcc35bb0e05": "read",
+  "f949230e3996774f812bb10c99958c6f21feb27922eb9dc9548da2425d9badfa": "read",
+  "6b3d5de35fd752ebc9966d4107a4edf24cfc18888a3307be8a726fa7b06d16f3": "read"
+ },
+ "flags": []
+}

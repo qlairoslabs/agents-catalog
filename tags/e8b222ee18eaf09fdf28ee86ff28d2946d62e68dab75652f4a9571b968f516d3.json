@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "e8b222ee18eaf09fdf28ee86ff28d2946d62e68dab75652f4a9571b968f516d3",
+ "domain": [
+  "commerce/gifts",
+  "commerce/e-commerce"
+ ],
+ "product": [
+  "kapruka"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Shop Kapruka.com, a Sri Lankan gift store: search products, check delivery, create guest orders with payment links and track orders.",
+ "whenToUse": "Use when someone wants to send gifts, cakes or flowers in Sri Lanka or abroad via Kapruka.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "list categories",
+  "check delivery date and fee",
+  "list delivery cities",
+  "browse international gift stores",
+  "create order with payment link",
+  "track order",
+  "render product options card"
+ ],
+ "effects": {
+  "59d5e8f0b768d882fc7761a29cdb9c9a3a02e1d044d96d0edf659bc2a7b9c7f4": "write",
+  "d49b7b39da9ab6daef6564a898fa3fd4227bdb587428ebe9c7d9391aabcd6d58": "write",
+  "7e9a2bec83681a28c5cb81f73fa76e680cea27e83f40e56d5deec13b000ef2b9": "write",
+  "3d4211fe611a913da058833eccbd8ef772c49c15cf78ff59c63f1b4883e1e96f": "write",
+  "aa82cbef099ece4ccadcc14fdbbc76c009f511667b7fd84d9af7260cef7f8351": "write",
+  "5e2c1b32312bbb95fae8131775e67e851c239d9e7f429e1fb17dbc76013703e3": "write",
+  "0755b47619ba2022325f7e37a688a8d680ad9938c8fe1646f461d844d5553e69": "write",
+  "f442354978ed3403e191613f661b47b0404e2fdf2a4c039323ba4f0c9c36fae1": "write",
+  "682b5fd4b03e3a45dc76799f8263832e31740a5c28440e40b43b0df6be8acdd7": "write",
+  "8ffce6980341400d615d006bc21478a81d86a02c5a6ae1fc67fa4c052cb9f4e7": "write"
+ },
+ "flags": []
+}

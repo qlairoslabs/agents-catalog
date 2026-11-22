@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8222a2b0ef73acdaa7e0f4c6e9a40c3cd9d080073b5ab1431198b80a6acb0bd2",
+ "domain": [
+  "finance/personal-tax"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "US tax and money calculators comparing job offers, freelance rates, Roth vs traditional, filing status and raises, with a verdict and link.",
+ "whenToUse": "Use when a user asks a US take-home pay, tax or retirement account decision question.",
+ "tasks": [
+  "compare job offers",
+  "compute freelance rate floor",
+  "compare Roth and traditional",
+  "compare filing statuses",
+  "value a raise or bonus"
+ ],
+ "effects": {
+  "def05ad0f9f3ea9e87809f05331967226a07bbba2c4759a0560747c0f15479bf": "write",
+  "e9938a5f28be0ab2d272afa4a1b2fb23dc1a4765030f34177db4f2c3a2c667f8": "read",
+  "37cfb97ba64babbf5254a089d6a5a2ac4b4d9131bdcc704c9d923d95bffffff5": "read",
+  "d773b4578f1914b4afd16eabc111c072ed25dd5cd2d27e5ddf0eafc3f421ce20": "read",
+  "08374d91522d2eb126ef8526c74af0873dca09e0dd09419e896de1828c4623dd": "read"
+ },
+ "flags": []
+}

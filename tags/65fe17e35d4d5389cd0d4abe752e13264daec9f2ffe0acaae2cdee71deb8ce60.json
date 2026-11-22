@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "65fe17e35d4d5389cd0d4abe752e13264daec9f2ffe0acaae2cdee71deb8ce60",
+ "domain": [
+  "ai/local-inference",
+  "software/app-integration"
+ ],
+ "product": [
+  "lemonade",
+  "openai",
+  "anthropic",
+  "ollama"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps developers add local AI features like chat, embeddings, image generation and speech to their apps using Embeddable Lemonade.",
+ "whenToUse": "Use when a user wants to add on-device AI to an app they build or replace cloud AI APIs in it with a local backend.",
+ "tasks": [
+  "add local llm chat to app",
+  "add local embeddings",
+  "add local image generation",
+  "add speech-to-text and text-to-speech",
+  "replace cloud ai api with local backend"
+ ],
+ "effects": {},
+ "flags": []
+}

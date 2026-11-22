@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "febd22ac571e724d53198d67509b52f84032dbfd9cb10e9b73d1789be4878a18",
+ "domain": [
+  "software/mobile/ios",
+  "software/api/graphql"
+ ],
+ "product": [
+  "apollo-ios",
+  "graphql",
+  "swift",
+  "xcode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for building Swift apps on Apple platforms with the Apollo iOS GraphQL client, codegen, caching and tests.",
+ "whenToUse": "Use when adding or using Apollo iOS in a Swift or SwiftUI project.",
+ "tasks": [
+  "add apollo ios via spm or xcode",
+  "configure codegen",
+  "configure apolloclient auth and caching",
+  "write queries mutations subscriptions",
+  "use graphql from swiftui",
+  "test with generated mocks"
+ ],
+ "effects": {},
+ "flags": []
+}

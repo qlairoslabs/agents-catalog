@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ca31c0c681fb9bca95782a15740140d16e66d83921c8105ac8af2d6bd212a21f",
+ "domain": [
+  "finance/investing/equity-research",
+  "finance/portfolio-analytics"
+ ],
+ "product": [
+  "shinobidata",
+  "chatgpt"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides portfolio analytics and US stock market research data to AI clients, with ChatGPT deep-research compatibility.",
+ "whenToUse": "Use when an agent needs to analyze an investment portfolio or research US equities.",
+ "tasks": [
+  "analyze portfolio",
+  "research us equities",
+  "support deep-research queries"
+ ],
+ "effects": {},
+ "flags": []
+}

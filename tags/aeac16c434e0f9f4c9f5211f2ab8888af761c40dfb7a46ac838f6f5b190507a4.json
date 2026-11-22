@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "aeac16c434e0f9f4c9f5211f2ab8888af761c40dfb7a46ac838f6f5b190507a4",
+ "domain": [
+  "customer-experience/feedback-analytics",
+  "support/quality-assurance"
+ ],
+ "product": [
+  "unitq"
+ ],
+ "audience": [
+  "support",
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses unitQ customer feedback, support QA and research data, limited to the user's role through SSO.",
+ "whenToUse": "Use when analyzing customer feedback, support quality or user research data stored in unitQ.",
+ "tasks": [
+  "query customer feedback",
+  "review support qa data",
+  "access research data"
+ ],
+ "effects": {},
+ "flags": []
+}

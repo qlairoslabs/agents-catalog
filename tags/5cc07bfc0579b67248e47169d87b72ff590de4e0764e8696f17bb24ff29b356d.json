@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "5cc07bfc0579b67248e47169d87b72ff590de4e0764e8696f17bb24ff29b356d",
+ "domain": [
+  "retail/cosmetics",
+  "ecommerce"
+ ],
+ "product": [
+  "makeup-land"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Israeli cosmetics shop access: shade-matched product search, brands, gift cards, customer wallet, cart, orders, deals and events.",
+ "whenToUse": "Use when helping a makeup.land customer find products or check their cart, orders, balance or events.",
+ "tasks": [
+  "browse products",
+  "match shades by colour",
+  "list brands",
+  "check gift card balance",
+  "get customer tier and credits",
+  "view cart",
+  "list orders",
+  "list payment links",
+  "get best deals",
+  "list events"
+ ],
+ "effects": {
+  "0724e3f6b95ca7457047169ce7ade80c90565ee0e97e76178d272da2a4c73df0": "read",
+  "8e3af5743959dc0aaf0a83a8d3ba23c4f4b06d411cd9d76420e2cbd6f8852ad2": "read",
+  "8d47fbcba3dd33b6aff23ebdfecf45776068c5a7ece6fe98799c3157172ce81d": "read",
+  "8df1a59fcdc936d8b612a0df12cc2a4129de37b69d3a0b9472b44da03f092b41": "read",
+  "41177902db5a625282cf8c807a93118b93e87aad5d1b7d6a3bb46cf83f71e0a3": "read",
+  "e1eb68359d3bbfd89889d873fa7c371cb3c09d9f12a8eeb871fe147a76bd5568": "read",
+  "7fe3d02b224402d53a0f660ce63fa0ab4bc1decd4da1dd83bdbbddb1c4d89ea6": "read",
+  "2f0f65938f0a90f3f8fcdc13c5c3cde7c99ab2618bf6958f3fa0336001149b39": "read",
+  "2702819fa8066bfdebec29c1931fac0e619b63ecc4f623b48f810d1f0167052a": "read",
+  "bdabec554ec8375fd999c6177d7b2e0d187fb48c598445107fc9d4d581d6d71f": "read"
+ },
+ "flags": []
+}

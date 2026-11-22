@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5267d2c7a1e5fcfda1bbbeb53aab2cbf1066de67f2a1695b2125e568f7bf4db2",
+ "domain": [
+  "gifts/printing"
+ ],
+ "product": [
+  "token-of-esteem"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Lets an agent order a personalized humorous printed booklet that is mailed as a gift.",
+ "whenToUse": "Use when a user wants to send a personalized printed gift booklet to someone.",
+ "tasks": [
+  "commission personalized booklet",
+  "mail gift"
+ ],
+ "effects": {},
+ "flags": [
+  "agent-initiated-purchase"
+ ]
+}

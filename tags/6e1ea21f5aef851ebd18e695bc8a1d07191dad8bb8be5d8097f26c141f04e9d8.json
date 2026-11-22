@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6e1ea21f5aef851ebd18e695bc8a1d07191dad8bb8be5d8097f26c141f04e9d8",
+ "domain": [
+  "finance/equity-research",
+  "news/company-monitoring"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Produces a cited summary of the last 30 days of events at a public company, categorized and tagged with investment implications, using Bigdata.com data.",
+ "whenToUse": "Use when a user wants to catch up on recent news and developments at a specific public company.",
+ "tasks": [
+  "summarize last 30 days of company news",
+  "categorize material events",
+  "assign bullish bearish neutral implications",
+  "add competitive context",
+  "rank top developments",
+  "cite news filings and transcripts"
+ ],
+ "effects": {},
+ "flags": []
+}

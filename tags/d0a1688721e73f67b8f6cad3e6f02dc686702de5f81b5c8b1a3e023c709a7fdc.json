@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d0a1688721e73f67b8f6cad3e6f02dc686702de5f81b5c8b1a3e023c709a7fdc",
+ "domain": [
+  "software/documentation",
+  "software/databases"
+ ],
+ "product": [
+  "mariadb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Search and read official MariaDB documentation and release notes, and report documentation issues.",
+ "whenToUse": "Use when you need accurate MariaDB reference information or want to report a docs problem.",
+ "tasks": [
+  "search documentation",
+  "fetch doc page",
+  "send docs feedback"
+ ],
+ "effects": {
+  "eb6c6b5ba9cab228afd58e4d229e88f3b80c8e3722355146acd703479ecf7272": "read",
+  "30b27aed07f0916eff30bb10a24e49a3d208c266c434aa91afd82720c7240db9": "read",
+  "d738392e357f2316d1050bef15d7503ecec73f3d7fe92d7aa2fdd4e3be240c69": "write"
+ },
+ "flags": []
+}

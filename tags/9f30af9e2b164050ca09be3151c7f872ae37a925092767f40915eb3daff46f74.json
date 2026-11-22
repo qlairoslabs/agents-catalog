@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9f30af9e2b164050ca09be3151c7f872ae37a925092767f40915eb3daff46f74",
+ "domain": [
+  "software/cybersecurity/code-scanning"
+ ],
+ "product": [
+  "aikido"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs an Aikido SAST and secrets scan on new or modified code files to find vulnerabilities and exposed credentials.",
+ "whenToUse": "Use when a user wants code scanned for security issues or mentions Aikido or SAST scanning.",
+ "tasks": [
+  "scan code for vulnerabilities",
+  "detect exposed secrets",
+  "scan modified files",
+  "verify generated code security"
+ ],
+ "effects": {},
+ "flags": [
+  "description tells the agent to always run an Aikido scan after generating any code, pushing self-invocation beyond explicit user requests"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "625f6b5b1ccaf3ff33bef0af020dab3c825621934cd055651c442ed9e4565eb2",
+ "domain": [
+  "travel/itinerary-management"
+ ],
+ "product": [
+  "travcozy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Reads and updates TravCozy trips including flights, hotels, trains, car rentals and transfers.",
+ "whenToUse": "Use when the user wants to view or edit a trip itinerary stored in TravCozy.",
+ "tasks": [
+  "view trips",
+  "update trips",
+  "manage flights",
+  "manage hotels",
+  "manage trains",
+  "manage car rentals",
+  "manage transfers"
+ ],
+ "effects": {},
+ "flags": []
+}

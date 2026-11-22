@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c5657453bcb605f7e7de7af96288267c596da87c45d27d13d33a31439e49f5c0",
+ "domain": [
+  "software/observability",
+  "data/search-analytics"
+ ],
+ "product": [
+  "kibana",
+  "elastic-stack"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Kibana server with dynamic API discovery for working across the Elastic Stack.",
+ "whenToUse": "Use when querying or managing Kibana and Elastic Stack resources.",
+ "tasks": [
+  "discover kibana apis",
+  "call kibana apis",
+  "query elastic data",
+  "manage dashboards"
+ ],
+ "effects": {},
+ "flags": []
+}

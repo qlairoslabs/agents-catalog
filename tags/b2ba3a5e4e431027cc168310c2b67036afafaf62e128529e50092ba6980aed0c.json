@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "b2ba3a5e4e431027cc168310c2b67036afafaf62e128529e50092ba6980aed0c",
+ "domain": [
+  "government/contracting",
+  "market-intelligence"
+ ],
+ "product": [
+  "sam-gov",
+  "usaspending"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches SAM.gov contract opportunities and entity registrations (own API key needed) and USAspending federal award data.",
+ "whenToUse": "Use when finding federal bid opportunities, vetting contractors, or researching incumbents and agency spending.",
+ "tasks": [
+  "search opportunities",
+  "look up SAM entity",
+  "search awards",
+  "get award detail",
+  "resolve agency names",
+  "resolve NAICS codes",
+  "aggregate spending by category"
+ ],
+ "effects": {
+  "45b9bc282d59882f8dfeea5b3ce27bfbfc05105bcb05296a703e516ad652ae13": "read",
+  "0822429e55ad7a8e83f26c9105872b822e0b96d33cbe625788f2f019f88f9e0a": "read",
+  "897bc868432fe0e85866db3918614d915a07bddb59fd16078caf172b4404505f": "read",
+  "34c515ebc10e34bdbfcce0a2555fa396df3c63a2b07396dbe69ad6e2f829ca2e": "read",
+  "999f0604f6c760dc0b6b0295f2465eca6cebe8e186db07457bd3ca3143b300d3": "read",
+  "1a6b8fbc47f63570029c5ef0abaea2c4d6e33d4233630b4c77a0df06f748d5ba": "read",
+  "a1a572a0d3a824cf0805ade20d38d2499a4013fdc60f05b5d59d998ce79e2d57": "read"
+ },
+ "flags": []
+}

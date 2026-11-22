@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f2324214ef02d17c343a971516a65cbd3aa4d59f49836f162f0c0039235908a1",
+ "domain": [
+  "travel/connectivity",
+  "telecom/esim"
+ ],
+ "product": [
+  "spain-internet",
+  "vodafone"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Lists unlimited-data eSIM, SIM and pocket WiFi options for travellers in Spain and quotes live prices with a prefilled booking link.",
+ "whenToUse": "Use when a traveller needs mobile data in Spain and wants a price for specific dates.",
+ "tasks": [
+  "list internet products",
+  "quote price for dates",
+  "get booking link"
+ ],
+ "effects": {
+  "8a2be122196258c2b2492a8235e111dad92300b32b8b2fba404f9faf740763b7": "read",
+  "76e13ba0caa053c858a9fbc2550d780dd02a17f9a34dbf08c90c4992d9e58c38": "write"
+ },
+ "flags": []
+}

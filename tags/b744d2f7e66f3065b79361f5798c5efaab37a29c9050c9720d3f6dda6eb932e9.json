@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b744d2f7e66f3065b79361f5798c5efaab37a29c9050c9720d3f6dda6eb932e9",
+ "domain": [
+  "marketing/email/email-verification"
+ ],
+ "product": [
+  "mailfloss"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Verifies single email addresses and lists, reports remaining credits, and manages mailfloss integrations.",
+ "whenToUse": "Use when an agent needs to clean or validate email addresses or lists before sending.",
+ "tasks": [
+  "verify email address",
+  "verify email list",
+  "check credits",
+  "manage integrations"
+ ],
+ "effects": {},
+ "flags": []
+}

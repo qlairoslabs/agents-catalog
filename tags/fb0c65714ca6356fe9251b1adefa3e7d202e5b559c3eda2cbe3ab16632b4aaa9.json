@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fb0c65714ca6356fe9251b1adefa3e7d202e5b559c3eda2cbe3ab16632b4aaa9",
+ "domain": [
+  "energy/metering",
+  "energy/ev-charging"
+ ],
+ "product": [
+  "smart-me"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Shows real-time building energy data from smart-me meters, load profiles, EV charging and ZEV billing.",
+ "whenToUse": "Use when a user wants to monitor building energy use, EV charging or shared-consumption billing via smart-me.",
+ "tasks": [
+  "read meter data",
+  "view load profiles",
+  "monitor ev charging",
+  "view zev billing"
+ ],
+ "effects": {},
+ "flags": []
+}

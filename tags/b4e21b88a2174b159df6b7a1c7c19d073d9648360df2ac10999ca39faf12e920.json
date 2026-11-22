@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b4e21b88a2174b159df6b7a1c7c19d073d9648360df2ac10999ca39faf12e920",
+ "domain": [
+  "documents/data-extraction",
+  "finance/accounting"
+ ],
+ "product": [
+  "excel"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Converts PDFs such as bank statements, invoices and receipts into Excel workbooks.",
+ "whenToUse": "Use when financial or tabular data locked in PDFs needs to become an Excel spreadsheet.",
+ "tasks": [
+  "convert bank statements to excel",
+  "extract invoice data",
+  "extract receipt data",
+  "convert pdf tables to workbooks"
+ ],
+ "effects": {},
+ "flags": []
+}

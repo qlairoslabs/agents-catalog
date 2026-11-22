@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "ed5bd5b3f5deebd5afb70d9b05a3194ab9710a4a70e481ccabcae14564e09fcb",
+ "domain": [
+  "data/web-scraping",
+  "data/search"
+ ],
+ "product": [
+  "scrapingbee",
+  "google",
+  "amazon",
+  "walmart",
+  "youtube"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scrapes web pages and searches Google, Amazon, Walmart and YouTube through the ScrapingBee API.",
+ "whenToUse": "Use when extracting data from web pages or retailer and search results.",
+ "tasks": [
+  "scrape web page",
+  "search google",
+  "search amazon",
+  "search walmart",
+  "search youtube",
+  "extract data"
+ ],
+ "effects": {},
+ "flags": []
+}

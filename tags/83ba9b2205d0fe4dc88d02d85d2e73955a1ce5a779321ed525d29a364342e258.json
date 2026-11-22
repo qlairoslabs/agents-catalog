@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "83ba9b2205d0fe4dc88d02d85d2e73955a1ce5a779321ed525d29a364342e258",
+ "domain": [
+  "marketing/traffic-exchange",
+  "marketing/web-traffic"
+ ],
+ "product": [
+  "feelingsurf"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Manages a FeelingSurf traffic exchange account, including sites, targeting, templates, traffic sources and proxies.",
+ "whenToUse": "Use when the user has a FeelingSurf account and wants an agent to configure their traffic exchange campaigns.",
+ "tasks": [
+  "manage sites",
+  "set traffic targeting",
+  "manage templates",
+  "manage traffic sources",
+  "manage proxies"
+ ],
+ "effects": {},
+ "flags": [
+  "traffic exchange with proxy management may be used to generate artificial website traffic"
+ ]
+}

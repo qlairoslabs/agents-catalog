@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "8d9a4591a1a80a389706ec3b0dfdd453f87f725c3b963e22182194ebed329d47",
+ "domain": [
+  "travel/flights-hotels",
+  "travel"
+ ],
+ "product": [
+  "wego"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search live flight and hotel prices on Wego, with schedules, public holidays, hotel photos, rooms and location lookup.",
+ "whenToUse": "Use when comparing flight or hotel prices, finding cheap destinations or checking timetables and holidays.",
+ "tasks": [
+  "cheapest one-way prices by date",
+  "flight schedules",
+  "search flights",
+  "search anywhere destinations",
+  "nearest airport",
+  "public holidays",
+  "hotel photos",
+  "hotel room rates",
+  "search hotels",
+  "find locations"
+ ],
+ "effects": {
+  "bed536db9aa69a53440708794c867c39178a904b98680fa0bb74b0a513f404be": "read",
+  "e5481cf49929e2b72d880d04c4f8a8ac641b58b9e96823bb43d274c9d4aedf9b": "read",
+  "8cfff8ee2795c2a2ced108878551253300b9f8649d0a461f51d54526d5961a51": "write",
+  "18476830755c8c5da64f6545990b83fe02d6526a269e5306709d2538124c68a0": "read",
+  "3e25516d2097e8cfa64aad4f5cbbbd133f2ae458fa563c72042682c052c11037": "read",
+  "f100b07359c45728d6f88cbcbfc8bab828b62c19f7ab4651df71c2da70d371dd": "read",
+  "f59ce5382c5cffa736d2c9f37797d945f86a22ebf55cb8ce3bde5e315ebb6bc8": "read",
+  "dd5bd0faa14914225c12dd0549b746deac10093db767b1f2a16fd59f184ca796": "read",
+  "e79f80fe80e26770626820240c318fde09149c46fa0312a3ed525b8ddc141443": "write",
+  "c700d6ef222dde9793033c1904b7eff1c41e7eeab560266a6be01819cd1bf032": "write"
+ },
+ "flags": []
+}

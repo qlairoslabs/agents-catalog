@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0db8e3ec662728cfa89ab5bb03e885679eb7861317771863ab6d3b8a03650751",
+ "domain": [
+  "software/ai-agents/safety",
+  "software/verification"
+ ],
+ "product": [
+  "invinoveritas"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Provides a second opinion before an agent takes an irreversible action, with signed proofs recorded on a public ledger.",
+ "whenToUse": "Use before an agent performs an irreversible action and needs an independent check with a verifiable record.",
+ "tasks": [
+  "review planned agent action",
+  "issue signed proof",
+  "verify proof",
+  "record on public ledger"
+ ],
+ "effects": {},
+ "flags": [
+  "publishes-to-public-ledger"
+ ]
+}

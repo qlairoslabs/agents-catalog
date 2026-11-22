@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "df672ccf4c9c5ccb0cd4a34d497a0905183d1c50921ded96d217c7ac7f5f258f",
+ "domain": [
+  "ai/agent-memory",
+  "productivity/knowledge-management"
+ ],
+ "product": [
+  "obsidian"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Agent memory stored in a user-owned Markdown vault, with search, read, write, recap and context-pack tools.",
+ "whenToUse": "Use when an agent needs persistent memory or notes kept in a local Markdown or Obsidian vault.",
+ "tasks": [
+  "search notes",
+  "read notes",
+  "write notes",
+  "create recaps",
+  "build context packs"
+ ],
+ "effects": {},
+ "flags": []
+}

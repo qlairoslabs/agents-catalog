@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5dc23b083c34d6aa2f8d80b333f27c06b03f8bd2458c6ea04bc7656e6c89d3fd",
+ "domain": [
+  "finance/banking",
+  "finance/personal-finance"
+ ],
+ "product": [
+  "banksync"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects AI agents to bank accounts for transactions, balances and investment data.",
+ "whenToUse": "Use when an agent needs to look at account balances, transactions or investments.",
+ "tasks": [
+  "view accounts",
+  "list transactions",
+  "check balances",
+  "view investments"
+ ],
+ "effects": {},
+ "flags": []
+}

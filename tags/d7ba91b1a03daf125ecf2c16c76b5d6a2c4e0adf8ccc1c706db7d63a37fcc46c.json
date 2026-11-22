@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d7ba91b1a03daf125ecf2c16c76b5d6a2c4e0adf8ccc1c706db7d63a37fcc46c",
+ "domain": [
+  "finance/tax/korea"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Korean tax calculators with statute citations covering corporate tax, VAT, withholding, expatriate tax and transfer pricing.",
+ "whenToUse": "Use when an agent needs to compute Korean tax amounts with references to the governing statutes.",
+ "tasks": [
+  "calculate corporate income tax",
+  "calculate vat",
+  "calculate withholding tax",
+  "compute expat taxes",
+  "transfer pricing calculations"
+ ],
+ "effects": {},
+ "flags": []
+}

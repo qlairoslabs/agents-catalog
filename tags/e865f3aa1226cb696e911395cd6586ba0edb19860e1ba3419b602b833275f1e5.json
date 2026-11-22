@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "e865f3aa1226cb696e911395cd6586ba0edb19860e1ba3419b602b833275f1e5",
+ "domain": [
+  "finance/foreign-exchange",
+  "finance/market-data"
+ ],
+ "product": [
+  "paralelo.bo"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides current and historical Bolivia parallel-market USD/BOB rates from P2P exchanges, conversions and bank card limit info.",
+ "whenToUse": "Use when someone needs the Bolivian parallel or official dollar rate, a USD/BOB conversion, or info on Bolivian bank card limits.",
+ "tasks": [
+  "get current parallel usd/bob rate",
+  "get historical rate by date",
+  "compare p2p exchange quotes",
+  "list bolivian bank card limits",
+  "convert between usd and bob"
+ ],
+ "effects": {
+  "bcbe1c1fd141fb002d5630bc7f504fc10788b8efdeab9b8d4a318dcb9203f9a2": "read",
+  "c195b7b4092fc7b88012d3f4925d19389fc6f7d93ee18d5faec561d658ed5d3c": "read",
+  "58b25545225c47777c3587ee6e5e6a9777cc882110e97139fadaccc1eaad5008": "read",
+  "7b20f9daa2e310e2afd4c0101564a64bac803e7a650ea9269359b28105649240": "read",
+  "69d9e80003f4773d37d0710aaecf39cf203804cd26d8b9eefa2d254f8b5d2ff3": "read"
+ },
+ "flags": []
+}

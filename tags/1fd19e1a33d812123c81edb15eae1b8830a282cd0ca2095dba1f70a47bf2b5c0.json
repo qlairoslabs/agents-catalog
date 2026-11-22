@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1fd19e1a33d812123c81edb15eae1b8830a282cd0ca2095dba1f70a47bf2b5c0",
+ "domain": [
+  "finance/accounting",
+  "data/backup"
+ ],
+ "product": [
+  "xero",
+  "boxkite"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Read-only backup and export of Xero accounting data into a ZIP file with a manifest.",
+ "whenToUse": "Use when a full copy of Xero accounting data needs to be exported or archived.",
+ "tasks": [
+  "back up xero data",
+  "export accounting data",
+  "generate manifest"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "63d4d259c2540ecb508aea6c0527a8d13fc102be70b8d62fe5b7ec289488e00c",
+ "domain": [
+  "software/cybersecurity/identity-and-access",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-iam",
+  "aws-sts",
+  "aws-organizations",
+  "terraform"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Corrections and workflows for AWS IAM policies, roles, trust policies, STS and Organizations, including policy generation from code.",
+ "whenToUse": "Use when creating IAM roles, writing IAM or bucket policies, or working with STS and Organizations.",
+ "tasks": [
+  "create service roles",
+  "write iam policies",
+  "write bucket policies",
+  "generate policies from source code",
+  "generate policies from terraform plans",
+  "add confused deputy protection",
+  "use condition operators safely",
+  "handle sts session limits"
+ ],
+ "effects": {},
+ "flags": []
+}

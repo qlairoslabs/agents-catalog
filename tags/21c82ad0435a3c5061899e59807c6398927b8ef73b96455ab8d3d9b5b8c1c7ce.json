@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "21c82ad0435a3c5061899e59807c6398927b8ef73b96455ab8d3d9b5b8c1c7ce",
+ "domain": [
+  "creative/game-assets",
+  "media/generative-ai"
+ ],
+ "product": [
+  "spritecook"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Generates 2D game assets such as sprites, tilesets and animations with AI.",
+ "whenToUse": "Use when someone needs sprites, tilesets or animations for a 2D game.",
+ "tasks": [
+  "generate sprites",
+  "generate tilesets",
+  "generate animations"
+ ],
+ "effects": {},
+ "flags": []
+}

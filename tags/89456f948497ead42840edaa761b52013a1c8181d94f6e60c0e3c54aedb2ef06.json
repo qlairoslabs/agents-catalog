@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "89456f948497ead42840edaa761b52013a1c8181d94f6e60c0e3c54aedb2ef06",
+ "domain": [
+  "gaming/player-stats",
+  "gaming"
+ ],
+ "product": [
+  "steam",
+  "faceit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Steam profiles, converts SteamIDs, checks bans, and shows FACEIT stats, friends lists and player comparisons.",
+ "whenToUse": "Use when a user asks about a Steam player's profile, bans, FACEIT stats or friends, or wants to compare players.",
+ "tasks": [
+  "look up steam profiles",
+  "convert steamid formats",
+  "check bans",
+  "get faceit stats",
+  "list friends",
+  "compare players"
+ ],
+ "effects": {},
+ "flags": []
+}

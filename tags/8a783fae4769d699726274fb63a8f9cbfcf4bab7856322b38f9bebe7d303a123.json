@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "8a783fae4769d699726274fb63a8f9cbfcf4bab7856322b38f9bebe7d303a123",
+ "domain": [
+  "commerce/ecommerce/analytics",
+  "software/observability"
+ ],
+ "product": [
+  "noibu"
+ ],
+ "audience": [
+  "marketing",
+  "support",
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Connects an agent to Noibu ecommerce session, error and conversion data and related commerce tools to find and act on revenue loss.",
+ "whenToUse": "Use when investigating what errors or friction are costing an online store revenue and acting on it.",
+ "tasks": [
+  "analyze session data",
+  "review site errors",
+  "analyze conversion data",
+  "identify revenue loss",
+  "trigger actions in marketing and support tools",
+  "build automated workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "625c1f382c76a7a8bc6be033bf7d2c1bea1e5fa9408ddbff3afc4daa3df22408",
+ "domain": [
+  "travel/motorcycle-tours"
+ ],
+ "product": [
+  "us-bike-travel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Search, compare and get dates and prices for guided US BIKE TRAVEL motorcycle tours, with next-step contact info.",
+ "whenToUse": "Use when a user wants a motorcycle tour (German-language), including dates, prices and booking contact.",
+ "tasks": [
+  "search tours",
+  "get tour details",
+  "get dates and prices",
+  "compare tours",
+  "get next steps"
+ ],
+ "effects": {
+  "d2438ad7c143bc94de606385ba0c2bdc6a0171131a10894d9314c5d4d3203388": "read",
+  "fd6e86c7cd7b148a25ac693dbbf7167d6d376b4ee427c89ad177e3d504df9539": "read",
+  "2c1ec04e913338e3a5ada2d016aae3ee8d2afcf7b5818dba1740f2b784b740f7": "read",
+  "6b5c9db4096f88963feed242407b94cd5e66ce0d34a50f794a0d8748310162be": "read",
+  "909e82a88b3a6fab9266b94a47e5798a92939c73379b1f76a11e3fdc3ebda2b1": "read"
+ },
+ "flags": []
+}

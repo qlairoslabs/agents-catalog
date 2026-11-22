@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "360f07352e222fc9ab7f500dbe2bd033e8d7ea785fea932945b6e89eb20b6bec",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/devops/build"
+ ],
+ "product": [
+  "apache-airflow",
+  "docker",
+  "kubernetes",
+  "astro"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for compiling, packing and deploying Airflow Go SDK bundles to workers.",
+ "whenToUse": "Use when building or shipping a Go task bundle to Airflow workers.",
+ "tasks": [
+  "compile go task bundle",
+  "pack bundle with airflow-go-pack",
+  "inspect bundle",
+  "cross-compile for workers",
+  "manage go-sdk module versions",
+  "place bundle under executables root",
+  "deploy to docker, kubernetes or astro"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,61 @@
+{
+ "classifier": 2,
+ "contentHash": "7d3379df42952fd3957d1bbe34129976815cc46ea15fabd46a8e6432c1a926dc",
+ "domain": [
+  "design/web-design",
+  "software/frontend"
+ ],
+ "product": [
+  "jinero",
+  "svgo"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Design toolkit for agents: font search and image-based font recognition, color palettes and naming, contrast checks, code minify and convert, SVG optimization and CSS clamp generation.",
+ "whenToUse": "Use when an agent needs to pick or identify fonts, build color palettes, check contrast, or minify code and SVG.",
+ "tasks": [
+  "search free fonts",
+  "recognize fonts in images",
+  "get font files and CSS",
+  "check WCAG contrast",
+  "generate color shades",
+  "name colors",
+  "extract palette from image",
+  "search palettes",
+  "minify or beautify code",
+  "convert code formats",
+  "optimize SVG",
+  "generate fluid clamp CSS"
+ ],
+ "effects": {
+  "db1ec099f5722b797e09852242c502b2e43b4fe775df476cbd33c1f6603332f7": "read",
+  "2d9327a6909dce0eb55c250815debae90398fdc285a3be1aa0f9bb918cf98a80": "write",
+  "05f8c173862f3f2c9c07fa3073de07839f0a89e7d55d38526daaa05bfddde700": "read",
+  "f3609aa7d5b7f761ea89358aba5b58a283a289173c981a6deb43c5c0b3b4134f": "read",
+  "489acee0ad82faaf62aa6b498b788a5f19d6f182e7c34a9f94af246b1266e277": "read",
+  "6bc595bcc0953bccec0042b43970bcda76088364d5d0bb2d30fc8af311dbca36": "read",
+  "35deeef99a10c41142d6ec732fea1282ed491c801ad5914c4b3f09bfd185c4f0": "read",
+  "8564af3dc6c2b84f17fb285bb90d8ab6dbce89a2fba8c49de7ddb0e1707364da": "read",
+  "1d192caa2ae57609d150eed7d3c2284cbf200e360728ea70afa440d49f55ee40": "read",
+  "dd8fdc3f8343388f7d27a58a36630306f0f6e81ef79141a95149999b2f5c8327": "read",
+  "2cfc63eea0ed6eb3a8364292cc5d8f9c30d503242e29cde71956ab81d52ae9f5": "read",
+  "0f97144de44ae854fec7139ed8fef627973eca44fb3eec868d0edc986676dc16": "read",
+  "3b50716843088ac3a7551350709db5cbb8cfd948ee7cbdbf8f2e7a6a1db13c16": "read",
+  "93432d3eabe53465261371ad9eb49a1236b7570c1b5901e40a67f875ea380dab": "read",
+  "1f0bff126f05a7273321dc2dcde8d8532c2feb9a5f0209a2719a316efcb3f13c": "read",
+  "5411331ee2dbe7fdd6f382cdbbffb41705398d674be01723578d9667e55aacb3": "read",
+  "9549b0e07bee623dd771ca2b14a27b69d218780df6682aa1e740622da6a97d96": "read",
+  "e9f34e8a29ff13d9f6e50fa39844b1af2625275112f75ac9d232f8726522dcf5": "read",
+  "d8e43a2bca668e0f10c996d46620fdd303a99a9ad6914827f8cbb51f248089eb": "read",
+  "821c985cf72526ef121bec922f9168491d5fb6e7959340109e65a0c2c81724ae": "read",
+  "e4d3f2aadbb58541072fc3d32f804388da07cb43af24645e790245192a0231fe": "read",
+  "4d704444a4edf4ebba9b09894b85cf301e67cbbbb95b2f3b4ce4ce5d3b437b9b": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "83e50c07beb0f777b9b10aaf429f52bb5b0b737513fde2b606eaedad95b68962",
+ "domain": [
+  "industrial/centrifuges",
+  "industrial/equipment-sales"
+ ],
+ "product": [
+  "alfa-laval",
+  "dolphin-centrifuge"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Specs, stock, RCF sizing and quote requests for remanufactured Alfa Laval centrifuges from Dolphin Centrifuge.",
+ "whenToUse": "Use when selecting, sizing or asking for a quote on an industrial disc stack or decanter centrifuge.",
+ "tasks": [
+  "get model specs",
+  "list models",
+  "check stock",
+  "size centrifuge RCF",
+  "list Alfa Laval documents",
+  "published figures",
+  "machine datasheet",
+  "list machines",
+  "request quote"
+ ],
+ "effects": {
+  "4dee57126fd49a2193882870c1d32db68e2c5ed7f523d8e3a4c13fe5cffa9973": "read",
+  "a54b59368556e03236db8bf5ead82b321be954f8fb3441b788be04c58046834e": "read",
+  "891ef39233108933bd1a36ffd70cbf8f8ea0bff1d4bf73c8ce320502752e999e": "read",
+  "1ebfb525de55759ed9bd35a4e68fa2a1ee4c8d6abce1c3487dfc10677eb18c12": "read",
+  "7d7d7dbe291eb6213adce109a48b3b4f6352455467f5d5c772b807ea12e93f50": "read",
+  "8c0bfc2728e7b9859b4201f55a1c47989a46653e2c263b73e9aee5f19d2daf8d": "read",
+  "43714c7e8a8422441a496e46da20cf078af50bed4fbac2da13d245af3371d8d5": "write",
+  "5b3d4268e059250a93ed4ae1603bfdc6a659390f41580ce994f5b3cea5931c6f": "read",
+  "90f09ab66a1f64ded91532aae77cfa67b9f9b22ac652c9a73403bb0ec1656e94": "write"
+ },
+ "flags": []
+}

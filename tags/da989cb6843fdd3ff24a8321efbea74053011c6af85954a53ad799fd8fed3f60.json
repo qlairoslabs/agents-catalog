@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "da989cb6843fdd3ff24a8321efbea74053011c6af85954a53ad799fd8fed3f60",
+ "domain": [
+  "data/web-scraping",
+  "data/web-search"
+ ],
+ "product": [
+  "bright-data",
+  "amazon",
+  "linkedin",
+  "instagram",
+  "tiktok",
+  "youtube",
+  "facebook",
+  "x"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Guide to using the Bright Data MCP server for web search, page scraping, structured platform data and browser automation.",
+ "whenToUse": "Use when a task needs web search, page content or structured data from major platforms via the Bright Data MCP server.",
+ "tasks": [
+  "search the web",
+  "scrape pages to markdown",
+  "extract structured platform data",
+  "automate browsers",
+  "handle javascript-heavy pages"
+ ],
+ "effects": {},
+ "flags": [
+  "instructs the agent to always use it and replace built-in WebFetch and WebSearch tools with no exceptions",
+  "advertises bot detection and captcha bypass"
+ ]
+}

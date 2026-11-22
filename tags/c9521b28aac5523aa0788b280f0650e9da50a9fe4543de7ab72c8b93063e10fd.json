@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c9521b28aac5523aa0788b280f0650e9da50a9fe4543de7ab72c8b93063e10fd",
+ "domain": [
+  "finance/market-data",
+  "finance/investing"
+ ],
+ "product": [
+  "nse",
+  "bse",
+  "marketping"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Covers Indian stocks with AI-read NSE/BSE filings, price reactions, fundamentals, IPOs and foreign investor flows.",
+ "whenToUse": "Use when an agent needs Indian company filings, stock fundamentals, IPO details or FPI flow data.",
+ "tasks": [
+  "read exchange filings",
+  "get price reactions",
+  "get fundamentals",
+  "get ipo data",
+  "get fpi flows"
+ ],
+ "effects": {},
+ "flags": []
+}

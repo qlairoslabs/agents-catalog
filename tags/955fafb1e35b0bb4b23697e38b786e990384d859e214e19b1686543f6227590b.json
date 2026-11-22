@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "955fafb1e35b0bb4b23697e38b786e990384d859e214e19b1686543f6227590b",
+ "domain": [
+  "logistics/freight",
+  "marketplace"
+ ],
+ "product": [
+  "bijack"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches active public freight loads and loadboard halls on Bijack, an Iranian freight platform.",
+ "whenToUse": "Use when looking for available cargo loads or loadboard halls by route, goods or loader.",
+ "tasks": [
+  "search cargos",
+  "filter by origin and destination",
+  "filter by goods",
+  "search loadboard halls"
+ ],
+ "effects": {
+  "a80ae256852116ef9cfb34a166812a11f897a4962cd6cb78effa9d1ad6fa6b14": "read",
+  "f8a9f203074555967765ad10bb93d425ebea45789d8f9b936bc88113b72417aa": "read"
+ },
+ "flags": []
+}

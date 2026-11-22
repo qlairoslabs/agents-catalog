@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c30420feb27893c269a1ce320b679b7285c6f266f4081c20147b672d867cc006",
+ "domain": [
+  "documents/verification",
+  "legal/e-signature"
+ ],
+ "product": [
+  "attest"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Read-only verification of Attest agreements, stamp codes, receipts, proofs and SHA-256 fingerprints without signing in.",
+ "whenToUse": "Use when you need to check that an Attest agreement, receipt or document fingerprint is authentic.",
+ "tasks": [
+  "verify agreements",
+  "check stamp codes",
+  "verify receipts and proofs",
+  "verify sha-256 fingerprints"
+ ],
+ "effects": {},
+ "flags": []
+}

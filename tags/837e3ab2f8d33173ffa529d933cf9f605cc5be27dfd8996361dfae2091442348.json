@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "837e3ab2f8d33173ffa529d933cf9f605cc5be27dfd8996361dfae2091442348",
+ "domain": [
+  "food/gluten-free-dining",
+  "travel/local-search"
+ ],
+ "product": [
+  "sansglu"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds gluten-free and celiac-friendly restaurants, bakeries and cafés and checks a named place's gluten-free status.",
+ "whenToUse": "Use when a user needs gluten-free or celiac-safe places to eat.",
+ "tasks": [
+  "find gluten-free places",
+  "filter dedicated gluten-free",
+  "check a place's status"
+ ],
+ "effects": {
+  "bbc8a6327acdb705f958819a6f462ab95e17f5b2614c3cce4985b87479b69cc4": "write",
+  "3ef2d0588250e59ca81efd401e4af6f8cf2dd75d2c4186082928b66eb8ebe1b8": "read"
+ },
+ "flags": []
+}

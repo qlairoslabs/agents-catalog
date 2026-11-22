@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5c3a08a664bc0cba35a3e6bb930209adda3993f02a16219b566be875440c3c4f",
+ "domain": [
+  "finance/prediction-markets",
+  "finance/crypto/on-chain-analytics"
+ ],
+ "product": [
+  "polymarket"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Polymarket trader analytics that ranks wallets by on-chain profit and shows their trades.",
+ "whenToUse": "Use when an agent needs to analyse top Polymarket traders and their recent fills.",
+ "tasks": [
+  "rank traders by pnl",
+  "follow traders",
+  "read trader fills"
+ ],
+ "effects": {},
+ "flags": []
+}

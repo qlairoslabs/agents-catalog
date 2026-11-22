@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ead30c0fcf6824a3ff8ab8ba177b2502429f8a6c4f67f0ab24efcc5d294499d7",
+ "domain": [
+  "career/guides",
+  "hr"
+ ],
+ "product": [
+  "rung"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Finds published Rung career guides for occupations, resume situations and military transitions, and shows public task, skill and tool examples.",
+ "whenToUse": "Use when someone wants public occupation or military-transition guidance, not live jobs or resume editing.",
+ "tasks": [
+  "find occupation guides",
+  "find military transition guides",
+  "explore occupation tasks",
+  "explore skills and tools"
+ ],
+ "effects": {
+  "46e9b9ab502e762da512aecbcbdeb1c555ad5b0b7df22216619fe4373636f5cb": "read",
+  "e39fe1171371969693973a07580383057cecbb87655b6ae36119ab6f1a6cd9d1": "read"
+ },
+ "flags": []
+}

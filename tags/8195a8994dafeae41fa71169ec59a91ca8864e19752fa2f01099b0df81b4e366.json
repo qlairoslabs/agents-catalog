@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8195a8994dafeae41fa71169ec59a91ca8864e19752fa2f01099b0df81b4e366",
+ "domain": [
+  "data/web-scraping",
+  "data/structured-data"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Extracts structured JSON from known sites using Bright Data's prebuilt scrapers through the bdata pipelines CLI commands.",
+ "whenToUse": "Use when a user wants clean structured data from a supported site such as e-commerce, social, jobs or real estate.",
+ "tasks": [
+  "search prebuilt scrapers",
+  "get scraper info",
+  "run scraper pipelines",
+  "return structured json"
+ ],
+ "effects": {},
+ "flags": []
+}

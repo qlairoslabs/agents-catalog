@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "024dd6301161afb0cd7d4885e5c5b83b17f47cc554c329a2b02315456a304c9e",
+ "domain": [
+  "business/brand-research",
+  "business/reputation"
+ ],
+ "product": [
+  "netentropyscore"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares a brand's website coherence score against recent news to show the divergence between claim and reality.",
+ "whenToUse": "Use when assessing or comparing brands for the gap between their messaging and recent news.",
+ "tasks": [
+  "get brand coherence signal",
+  "compare several brands"
+ ],
+ "effects": {
+  "f78cddc45827e316d754356bfacfaf521737b9e8e0eaa16242c0d7819fe652df": "read",
+  "0e438a6e0073872ec3bc5562824878b46a6b86dd7ce2653ad7b3ac0d06f58d87": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "81c6fe155f735cdd3da22ed43528e89b6a6e52659aec87dd36cbe5aca760c6af",
+ "domain": [
+  "finance/bill-payment",
+  "payments/consumer"
+ ],
+ "product": [
+  "papaya-pay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Pays US bills from chat: creates a bill from its details, confirms payment with a card, tracks status and cancels.",
+ "whenToUse": "Use when a user wants to pay a US utility, medical, rent or similar bill through Papaya Pay.",
+ "tasks": [
+  "analyze and create bill",
+  "check card on file",
+  "confirm and submit payment",
+  "refresh auth token",
+  "check bill status",
+  "cancel a bill"
+ ],
+ "effects": {
+  "134d76fbd4b5dd03d7a6c15130c986b39523ee3fb7ad8c559f4a73ff709f9a1f": "write",
+  "59cc06595a4035fd92a8d867d6f69b8bf43805e43047f27b1421ad5e14309363": "read",
+  "f9e923f9d53abdaf018013933ebe1c617c91d2ed428bd25c4bf6a1f93549ed80": "risky",
+  "9ef3b4515e1e4d7dac6e16c9e6150303e6e502894b63f3a6bfa9221ac13b8dd4": "write",
+  "f833896fb57e8d7e34420a665b4b611ffdab9264a6bb2b111e88c9a86500ba1d": "read",
+  "828ca31e68645df971b8a67f0c3c4a2398f351508f62d4ba82023e738e53ebe7": "write"
+ },
+ "flags": []
+}

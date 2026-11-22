@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bb4611aa18e35e0b8a922fe6b1e7fb76147ab03cdf931d799d3ee0a3aaaf876e",
+ "domain": [
+  "design/image-generation",
+  "marketing/social-media"
+ ],
+ "product": [],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates logos, social posts, app screenshots, comic panels and visual-novel assets from prompts.",
+ "whenToUse": "Use when an agent needs quick generated visual assets such as logos, social graphics or comic art.",
+ "tasks": [
+  "generate logos",
+  "create social posts",
+  "create app screenshots",
+  "generate comic panels",
+  "generate visual-novel assets"
+ ],
+ "effects": {},
+ "flags": []
+}

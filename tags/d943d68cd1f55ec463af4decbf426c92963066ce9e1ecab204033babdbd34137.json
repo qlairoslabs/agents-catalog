@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d943d68cd1f55ec463af4decbf426c92963066ce9e1ecab204033babdbd34137",
+ "domain": [
+  "finance/planning",
+  "data/analytics"
+ ],
+ "product": [
+  "pigment"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an agent analyze business data and build Pigment models, metrics and boards in natural language.",
+ "whenToUse": "Use when analyzing plans or building models and boards in Pigment.",
+ "tasks": [
+  "analyze business data",
+  "build models",
+  "define metrics",
+  "create boards"
+ ],
+ "effects": {},
+ "flags": []
+}

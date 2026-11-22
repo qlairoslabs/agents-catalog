@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cadf00de754f503b54834cb5290ccdacafc27a2e1434d1d59f3928d1836d6c7f",
+ "domain": [
+  "data/orchestration/testing",
+  "software/testing"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs iterative test, debug and fix cycles for Airflow DAGs.",
+ "whenToUse": "Use for multi-step requests to test a DAG, debug failures and fix it until it passes.",
+ "tasks": [
+  "run dag tests",
+  "debug dag failures",
+  "fix dag code",
+  "rerun pipelines"
+ ],
+ "effects": {},
+ "flags": []
+}

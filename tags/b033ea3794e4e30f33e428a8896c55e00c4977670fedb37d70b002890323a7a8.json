@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "b033ea3794e4e30f33e428a8896c55e00c4977670fedb37d70b002890323a7a8",
+ "domain": [
+  "marketing/seo",
+  "analytics/web"
+ ],
+ "product": [
+  "google-analytics",
+  "google-search-console",
+  "google-adsense",
+  "google-tag-manager",
+  "pagespeed-insights",
+  "google-trends"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "SEO and marketing toolkit connecting GA4, Search Console, AdSense, Tag Manager, PageSpeed and Trends data.",
+ "whenToUse": "Use when analyzing site traffic, search performance, ad revenue, page speed or search trends.",
+ "tasks": [
+  "read ga4 analytics",
+  "read search console data",
+  "read adsense earnings",
+  "manage tag manager",
+  "run pagespeed tests",
+  "query google trends"
+ ],
+ "effects": {},
+ "flags": []
+}

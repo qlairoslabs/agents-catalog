@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "ce672fd4df18c786fba2b2b16f2dd7074069ef5ef8ac219c76be31af1284cb96",
+ "domain": [
+  "travel/connectivity",
+  "ecommerce"
+ ],
+ "product": [
+  "alt-esim",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Search and recommend travel data eSIM plans for 70+ destinations, create Stripe payment links and fetch the eSIM QR after payment.",
+ "whenToUse": "Use when a traveller needs a data eSIM for a destination and wants to buy one.",
+ "tasks": [
+  "read shop rules",
+  "list destinations",
+  "search plans",
+  "recommend plans",
+  "get plan details",
+  "create Stripe checkout link",
+  "fetch eSIM QR code"
+ ],
+ "effects": {
+  "376d7fd0ace3105dd98fb31b6770e9417e7c05dedfe2d425aa288d329ca5f717": "read",
+  "d05aeff39ffea7cfa1766d4c67b5f4ce2ea0a059876205e78d120e092b18adba": "read",
+  "03122530fc9630c9904b7254114546b6e7503b248eec96d95a7f86762505a4bc": "read",
+  "58ba9b1de197f8786f5c0a4ffe532d8169627fe4297e13ede188547492373116": "read",
+  "b1d70c645900f5a5c7c8444d367690f8030a92879cfc0eaf58fd4874bd726999": "read",
+  "2a62771297873c2bf511c7f0e3bfcef55ec7dbe775c3cf25c9e8d6caf1b920a4": "write",
+  "04eb24b17ba4d6a8f71638a767724fcee847d594d8602f6ae458092ced31ee23": "read"
+ },
+ "flags": []
+}

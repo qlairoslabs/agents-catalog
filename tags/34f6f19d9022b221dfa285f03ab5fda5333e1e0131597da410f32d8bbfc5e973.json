@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "34f6f19d9022b221dfa285f03ab5fda5333e1e0131597da410f32d8bbfc5e973",
+ "domain": [
+  "data/web-search",
+  "ai/retrieval"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Covers Bright Data's Discover API for intent-ranked web search with relevance scores and optional parsed page content via REST, CLI or SDKs.",
+ "whenToUse": "Use when a user needs semantic, relevance-ranked web search or web-grounded retrieval for an LLM.",
+ "tasks": [
+  "trigger discovery jobs",
+  "retrieve ranked results",
+  "get parsed page content",
+  "choose search modes",
+  "use via rest, cli or sdk"
+ ],
+ "effects": {},
+ "flags": []
+}

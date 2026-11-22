@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2bbd1848137b3e2f796356bef8e2caee797eb9fac8bd5240fd115a8a3e2727cc",
+ "domain": [
+  "productivity/project-tracking",
+  "software/developer-tools"
+ ],
+ "product": [
+  "astryke"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "A single project board that coding agents keep updated with the status of all ongoing projects.",
+ "whenToUse": "Use when a coding agent should report progress to, or read status from, the user's project board.",
+ "tasks": [
+  "update project status",
+  "read project board",
+  "track projects"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2f0428b1db70f1e5b5424ff7d90e904d5503e00396fca982c76df2395452f1b3",
+ "domain": [
+  "health/physiotherapy-clinics"
+ ],
+ "product": [
+  "fysio-care"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Directory of Swedish musculoskeletal clinics showing their services, prices and free appointment slots, with booking completed by the patient on the web.",
+ "whenToUse": "Use when someone in Sweden wants to find a physiotherapy, naprapathy or chiropractic clinic and see available appointment times.",
+ "tasks": [
+  "search clinics by city and modality",
+  "list clinic services and prices",
+  "get available appointment slots",
+  "find next available date"
+ ],
+ "effects": {
+  "3d32ff51699d6e4ebb5a0b24f625c59523d0a18940a63c7447efc9b930ea99f9": "read",
+  "98a12f691a750c9c4517ef6b666fc2c704a26ef1ed83d8283ff5f759e92a56d6": "read",
+  "89b41a02444e1a0a1c675f31ddfb0d95c3e888a88b10e4fe3143686488016619": "read",
+  "3fa0472b2bc1c09db030f7cefafdd6782ddbb5590dd354143010d3ae2f1eba16": "read"
+ },
+ "flags": []
+}

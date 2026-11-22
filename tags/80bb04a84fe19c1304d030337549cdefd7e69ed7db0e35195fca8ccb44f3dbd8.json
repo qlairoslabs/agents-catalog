@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "80bb04a84fe19c1304d030337549cdefd7e69ed7db0e35195fca8ccb44f3dbd8",
+ "domain": [
+  "productivity/knowledge-management/search"
+ ],
+ "product": [
+  "confluence",
+  "jira"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Searches Confluence, Jira and internal docs in parallel to explain internal concepts with cited answers.",
+ "whenToUse": "Use when a user asks about internal systems, processes or terminology documented in company knowledge bases.",
+ "tasks": [
+  "search confluence",
+  "search jira",
+  "synthesize multiple sources",
+  "provide cited answers"
+ ],
+ "effects": {},
+ "flags": []
+}

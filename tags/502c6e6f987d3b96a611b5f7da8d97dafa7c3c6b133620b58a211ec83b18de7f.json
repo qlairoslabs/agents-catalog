@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "502c6e6f987d3b96a611b5f7da8d97dafa7c3c6b133620b58a211ec83b18de7f",
+ "domain": [
+  "finance/crypto/wallets",
+  "software/cybersecurity/key-management"
+ ],
+ "product": [
+  "ethereum"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Generates Ethereum wallets with BIP39 mnemonics, HD derivation paths, vanity addresses and private key backups.",
+ "whenToUse": "Use when an agent needs to create Ethereum wallets or derive keys.",
+ "tasks": [
+  "generate wallets",
+  "create bip39 mnemonics",
+  "derive hd paths",
+  "generate vanity addresses",
+  "back up private keys"
+ ],
+ "effects": {},
+ "flags": [
+  "handles-private-keys"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "218e4e82bca07677297fb7876411c2c9914a3aab3c23de623308cc8b9eb171f6",
+ "domain": [
+  "finance/open-banking",
+  "finance/brokerage"
+ ],
+ "product": [
+  "redbark"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives agents live Australian and New Zealand bank (CDR) and brokerage data, plus management of Redbark syncs and rules.",
+ "whenToUse": "Use when a user wants to query their AU/NZ bank or brokerage data or manage Redbark sync settings and rules.",
+ "tasks": [
+  "read bank account data",
+  "read brokerage holdings",
+  "manage syncs",
+  "manage rules"
+ ],
+ "effects": {},
+ "flags": []
+}

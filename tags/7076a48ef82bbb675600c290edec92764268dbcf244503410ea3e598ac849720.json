@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7076a48ef82bbb675600c290edec92764268dbcf244503410ea3e598ac849720",
+ "domain": [
+  "finance/personal-finance",
+  "productivity/memory"
+ ],
+ "product": [
+  "era"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects AI assistants to personal finance and bank account data plus a shared memory across assistants.",
+ "whenToUse": "Use when a user wants an assistant to use their financial accounts or shared personal context.",
+ "tasks": [
+  "read bank account data",
+  "analyze personal finances",
+  "store and recall shared memory"
+ ],
+ "effects": {},
+ "flags": []
+}

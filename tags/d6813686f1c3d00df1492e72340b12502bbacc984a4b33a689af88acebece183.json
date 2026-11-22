@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d6813686f1c3d00df1492e72340b12502bbacc984a4b33a689af88acebece183",
+ "domain": [
+  "ai/media-generation",
+  "software/api-integration"
+ ],
+ "product": [
+  "runway"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Guidance and account access for building video, image and audio generation into apps with the Runway API and SDKs.",
+ "whenToUse": "Use when integrating Runway generative media APIs or debugging Runway tasks, model routers or real-time avatars.",
+ "tasks": [
+  "integrate runway api and sdks",
+  "list available models",
+  "inspect task errors",
+  "manage model routers",
+  "manage real-time avatars",
+  "inspect routing decisions"
+ ],
+ "effects": {},
+ "flags": []
+}

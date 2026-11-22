@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "a1cf1188b7bd8f2f7c1000f6ec51a2189e5f58cf2dd619b4491bcf8c8ce9e463",
+ "domain": [
+  "software/developer-tools/code-context"
+ ],
+ "product": [
+  "unblocked"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Supplies engineering context to coding agents from Unblocked.",
+ "whenToUse": "Use when a coding agent needs background on a codebase or team knowledge.",
+ "tasks": [
+  "retrieve development context"
+ ],
+ "effects": {},
+ "flags": []
+}

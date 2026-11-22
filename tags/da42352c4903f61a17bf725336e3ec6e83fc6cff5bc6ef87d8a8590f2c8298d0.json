@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "da42352c4903f61a17bf725336e3ec6e83fc6cff5bc6ef87d8a8590f2c8298d0",
+ "domain": [
+  "documents/word-processing"
+ ],
+ "product": [
+  "microsoft-word"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates, reads and edits Word .docx and .dotx files, including formatting, images, tracked changes and comments.",
+ "whenToUse": "Use when the user wants to create, read or edit a Word document or template, or wants a deliverable as a .docx file.",
+ "tasks": [
+  "create docx documents",
+  "read and extract content",
+  "edit existing documents",
+  "add tables of contents and headings",
+  "insert or replace images",
+  "find and replace text",
+  "handle tracked changes and comments",
+  "work with dotx templates"
+ ],
+ "effects": {},
+ "flags": []
+}

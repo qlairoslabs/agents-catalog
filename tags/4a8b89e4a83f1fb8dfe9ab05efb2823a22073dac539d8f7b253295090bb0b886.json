@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "4a8b89e4a83f1fb8dfe9ab05efb2823a22073dac539d8f7b253295090bb0b886",
+ "domain": [
+  "data/data-engineering",
+  "cloud/google-cloud"
+ ],
+ "product": [
+  "google-cloud",
+  "bigquery",
+  "dbt",
+  "spark"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Skills for data engineers on Google Cloud to design pipelines, write dbt transformations, Spark and BigQuery SQL notebooks, and orchestrate workflows.",
+ "whenToUse": "Use when building or orchestrating data pipelines on Google Cloud with dbt, Spark or BigQuery.",
+ "tasks": [
+  "design data pipelines",
+  "transform data with dbt",
+  "write bigquery sql notebooks",
+  "write spark notebooks",
+  "orchestrate gcp data workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

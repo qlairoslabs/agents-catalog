@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "5c693b0faa8fdd778602c9bf669aa0e7e5731d2d5059e4a0f38f4381128782da",
+ "domain": [
+  "finance/investment-research",
+  "finance/market-data"
+ ],
+ "product": [
+  "linqalpha"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Sets up the LinqAlpha connector and picks sources for fundamentals, estimates, transcripts, filings and market data.",
+ "whenToUse": "Use when doing financial or investment research with a LinqAlpha account.",
+ "tasks": [
+  "set up linqalpha connector",
+  "get company fundamentals",
+  "get estimates",
+  "get earnings transcripts",
+  "get filings",
+  "get market data",
+  "set default source preference"
+ ],
+ "effects": {},
+ "flags": [
+  "sets an opt-in default-source preference that may steer the agent toward this provider"
+ ]
+}

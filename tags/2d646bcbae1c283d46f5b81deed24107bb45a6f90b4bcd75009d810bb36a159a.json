@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2d646bcbae1c283d46f5b81deed24107bb45a6f90b4bcd75009d810bb36a159a",
+ "domain": [
+  "software/cloud/databases"
+ ],
+ "product": [
+  "google-cloud-sql",
+  "google-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Google's connector for creating, managing and querying Cloud SQL database instances.",
+ "whenToUse": "Use when an agent needs to create, administer or query Google Cloud SQL instances.",
+ "tasks": [
+  "create sql instances",
+  "manage databases",
+  "run queries"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "cb007d67d2bca020db32d772e831439ddb7a832750a79dc76b85fabf05d6642f",
+ "domain": [
+  "software/vector-database",
+  "software/documentation"
+ ],
+ "product": [
+  "vector-panda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Documentation access for Vector Panda: search docs, quickstart, API operations, pricing, storage tiers and benchmarks.",
+ "whenToUse": "Use when building with Vector Panda or comparing its pricing, tiers and benchmark results.",
+ "tasks": [
+  "search docs",
+  "read doc",
+  "get quickstart",
+  "inspect API operations",
+  "get pricing",
+  "read benchmark methodology",
+  "compare storage tiers",
+  "list supported formats"
+ ],
+ "effects": {
+  "d39caa3075c155997f8e5d2e8ad9b4c9867e92957ebcc214e8b2aaba35aeb6a2": "read",
+  "8468c1f472195de72430955f19a589c4f09f2bfff508a74acb72ba0d20554c74": "read",
+  "495576a77f9662e44975ffe673be25429fbf1b2b1c44cfdb1cb08bb46a1b234f": "read",
+  "e00ae3af0e17a64c847df06c2d59add7f52ca51486bc109c4bf205a49bf4155d": "read",
+  "7f65da601505a98825f385d5478dbe57fe79bdbfbd737cb3aa4a238fd3e67860": "read",
+  "82c97b46b170177f41e742babbc64fffe06e3478a643ca58b2f3918acb0e3ecd": "read",
+  "0861481a3f1fd90067c3b6012f9df00ac197ae8b26d10b0ea848dac5cb0ff0fb": "read",
+  "4b1d0255eb9764f0716c9224b6a2dc9197227ccce108e78a9a787ff006d3345e": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "26f2c0ee86b810f74f94acf1639b5275c7c373b1a05787f1577b634d1e0e8e9d",
+ "domain": [
+  "health/ingredient-safety",
+  "consumer-products"
+ ],
+ "product": [
+  "clarity",
+  "open-food-facts",
+  "fda"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks food, cosmetic and supplement ingredients and products against condition-specific evidence, interactions and FDA recalls.",
+ "whenToUse": "Use when someone asks whether an ingredient, supplement stack or product is suitable for a condition such as pregnancy or allergy, or has been recalled.",
+ "tasks": [
+  "check ingredient by condition",
+  "audit supplement stack",
+  "find safer alternatives",
+  "look up strains and mushrooms",
+  "scan barcode",
+  "validate health claim",
+  "check interactions",
+  "score product quality",
+  "check recalls"
+ ],
+ "effects": {
+  "f1aeed7f864ae07f4f84e1d800adbbced8a1e7465ed192a6e644f988335c626f": "write",
+  "3eb12ceb30b67990ec76fc074085b4b3684beca823bf0d5a8d80400b1738b635": "read",
+  "dec80ba17cb02b130cf87a4adfb2733f398922629da617f47d7a8532ab9c2f14": "read",
+  "8959ef3e3766e9c6e37d5b7787146784121c767930bc975e52568d0acd6e6252": "read",
+  "0f7eb8005e9922105248505f6d7544fd98f231f26f752992d128b74d0c0650bc": "write",
+  "99b1f6b55abc0e9e86dd8da650f2f6cc925b23a4133c9bdcb16eb2fa7227bbd6": "write",
+  "cf1214228a6b024421fb6d684cf310cec529ac9b62584dcc30d102b95bde4b8a": "read",
+  "72c3c40df49c9de01d9035bfe1ab0b627b9c85d0b0a894f38ac88f8217571f00": "read",
+  "5a285bdde717bc4525b8c83c08da0ad556c00347be3acd4fa1c2d8143ccbccaa": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "6ace2b3f691fac52dc96efe440bf9440efb375bd6b056bc4954a4ee8e187bf33",
+ "domain": [
+  "travel/yacht-charter",
+  "travel/booking"
+ ],
+ "product": [
+  "sedna"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches available charter yachts by base and dates, shows details, compares boats, previews pricing with extras and submits booking or option requests.",
+ "whenToUse": "Use when a customer wants to find, price and request a yacht charter.",
+ "tasks": [
+  "list bases",
+  "search available yachts",
+  "view yacht details and media",
+  "preview booking price",
+  "compare boats",
+  "submit booking request",
+  "submit option request"
+ ],
+ "effects": {
+  "90b825858a2def160e7b62f5e096d36b39f54bd55b5a0cc81c7273d4ab1832e7": "write",
+  "27469b1e8bca21b700baa804e827095bb1e1531a18e6d04f53c7d361d453c9e0": "read",
+  "54edb99ce56cc2dc61cb46a98a573e1f6d7ba99d4715b5769595fb21bb719ab5": "write",
+  "cc25a25a5152b1697b166c2191685be72dc2eb441261479cc94616c4a64f7d6e": "write",
+  "eb538095cdad133ef5178d55c0a2e0e861cc93e50c103a2608eead3600b873a3": "write",
+  "23ede35ea480f6f0a482925901baca1096cb45ef69ae77af7c384c2270c14afc": "write",
+  "eb2433e4838394d631b618b333a462932f1a112b6631c642c21dfc788def4603": "write",
+  "9c25ff6d640e02ab11a03e09268a6d2a9161ed89868d1bf19ab60b94b7191063": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3f5820350ea3fbe7ad52fb9d6c20960b91ec938b7851c20f601e5d505b2a0fa2",
+ "domain": [
+  "content/presentations",
+  "content/writing"
+ ],
+ "product": [
+  "slidescript"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Converts PDF slide decks into timed, word-for-word speaking scripts that can be edited and downloaded.",
+ "whenToUse": "When a user needs a speaking script or presenter notes generated from a PDF slide deck.",
+ "tasks": [
+  "generate speaking script from pdf",
+  "time script sections",
+  "edit script",
+  "download script"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bb67f693f990353f5568aa5f52d787a8921faeb5b4485b1e2a9a7d75114116cf",
+ "domain": [
+  "design/style-library",
+  "design/ui"
+ ],
+ "product": [],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Library of design styles that agents can search by use case or mood, preview, and apply as a spec.",
+ "whenToUse": "Use when an agent needs to pick and apply a visual design style for an interface or asset.",
+ "tasks": [
+  "search styles by use",
+  "search styles by mood",
+  "preview style",
+  "get style spec"
+ ],
+ "effects": {},
+ "flags": []
+}

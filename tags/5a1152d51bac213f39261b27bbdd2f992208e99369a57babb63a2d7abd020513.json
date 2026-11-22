@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "5a1152d51bac213f39261b27bbdd2f992208e99369a57babb63a2d7abd020513",
+ "domain": [
+  "legal/compliance",
+  "data-protection"
+ ],
+ "product": [
+  "dsgvo-pro"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Searches 26 German and EU statutes and scans websites against up to 33 compliance modules, returning scores and violations.",
+ "whenToUse": "Use when a user needs German or EU law text or wants a website checked for DSGVO and related compliance.",
+ "tasks": [
+  "search statutes",
+  "read article text",
+  "list laws",
+  "start compliance scan",
+  "check scan status",
+  "get scan report",
+  "cancel scan"
+ ],
+ "effects": {
+  "d93f85b1f7d03da47d09df515817e81b66b39ea8634c8291e79d6228dabd1f8b": "read",
+  "9b95726a4da1ca2f3bf1ec27a15215ac432d0c038c9a088e1ca0bb6c5ff63004": "read",
+  "52ed8ac1124a3df020f7f3660d0ae5ef96ddec080616fd48a47d619a4eb9bce5": "read",
+  "c26ef87ae6d8830c853f8cefcc2b5931ab88037e426c7cd657f64e122518e33a": "write",
+  "e0fd2a3da109189519724035c079257ec9b53deaa214cc795b02a5e5b1fcac90": "write",
+  "45dc5f20806450bcddf4d61a87fb2446243d66d3e2a0af5f6cd81bfd6fe5d8b2": "read",
+  "a7d1c70165d3d655772239642af6b07244592cde716949ef7681371d5dee5e59": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6870d554c7845e336722acca84db13cdb5d4aec57a55748578ee32ccc1635b1f",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "telegram"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Bridges an agent to Telegram messaging with access control for pairing, allowlists and policies.",
+ "whenToUse": "Use when you want to send or receive Telegram messages through the agent with controlled access.",
+ "tasks": [
+  "send telegram messages",
+  "receive telegram messages",
+  "manage pairing",
+  "manage allowlists",
+  "set access policy"
+ ],
+ "effects": {},
+ "flags": []
+}

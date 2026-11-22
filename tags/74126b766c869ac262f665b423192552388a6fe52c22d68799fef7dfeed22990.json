@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "74126b766c869ac262f665b423192552388a6fe52c22d68799fef7dfeed22990",
+ "domain": [
+  "finance/investing/indices",
+  "finance/backtesting"
+ ],
+ "product": [
+  "index-one"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries financial index data, backtests strategies and deploys systematic investment strategies on Index One.",
+ "whenToUse": "Use when researching index data or testing and launching rules-based investment strategies on Index One.",
+ "tasks": [
+  "query index data",
+  "run backtests",
+  "deploy investment strategies"
+ ],
+ "effects": {},
+ "flags": []
+}

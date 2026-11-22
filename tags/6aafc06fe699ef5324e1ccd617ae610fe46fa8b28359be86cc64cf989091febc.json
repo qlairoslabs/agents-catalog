@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "6aafc06fe699ef5324e1ccd617ae610fe46fa8b28359be86cc64cf989091febc",
+ "domain": [
+  "data/web-scraping",
+  "software/automation"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates AI-generated Bright Data scrapers from plain-language descriptions and runs them on one or many URLs using the bdata CLI.",
+ "whenToUse": "Use when the user wants to build a custom scraper from a description or run a Bright Data collector against one or more URLs.",
+ "tasks": [
+  "generate scraper from natural-language description",
+  "create scraper template",
+  "poll ai generation progress",
+  "run collector on a single url",
+  "batch scrape list of urls",
+  "read urls from input file",
+  "synchronous scrape for fast pages",
+  "fall back to batch endpoint for large pages"
+ ],
+ "effects": {},
+ "flags": []
+}

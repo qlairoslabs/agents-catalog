@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "8d57df199f62ed7be62509d69b76de9a4d4182bd2911352230f5c99d03988b76",
+ "domain": [
+  "finance/crypto-payments",
+  "finance/payment-settlement"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base",
+  "solana",
+  "coinbase-cdp"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Verifies signed x402 USDC payment envelopes and settles them on-chain to the AgentPay treasury, which is irreversible.",
+ "whenToUse": "Use when verifying an x402 payment payload or settling one payable to the AgentPay treasury.",
+ "tasks": [
+  "verify x402 payment",
+  "check signer and balance",
+  "settle USDC payment",
+  "get transaction hash"
+ ],
+ "effects": {
+  "5836be9dfda1975119d3d579d0e579d6ed05338feeb02c53df53e476c574e1f3": "write",
+  "b1804ce7b99ccfc44e762cba332f3f79c023c1891426cb81b1a005666a5c7f1e": "risky"
+ },
+ "flags": []
+}

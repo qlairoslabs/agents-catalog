@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fabf4135f02119577f3c1e4916dae9f182668bcedf4137f4d1215ee30f64f0e5",
+ "domain": [
+  "ai/agent-memory",
+  "software/developer-tools"
+ ],
+ "product": [
+  "sooveryn",
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Provides AI personas with persistent encrypted per-project memory for Claude Code, hosted in France.",
+ "whenToUse": "Use when a Claude Code session should keep durable project memory or use defined personas across sessions.",
+ "tasks": [
+  "store project memory",
+  "recall project memory",
+  "use ai personas"
+ ],
+ "effects": {},
+ "flags": []
+}

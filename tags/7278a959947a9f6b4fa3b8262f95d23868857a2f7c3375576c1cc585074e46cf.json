@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "7278a959947a9f6b4fa3b8262f95d23868857a2f7c3375576c1cc585074e46cf",
+ "domain": [
+  "software/code-analysis",
+  "software/development-tools"
+ ],
+ "product": [
+  "weavatrix"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Read-only tools for inspecting code and configuration across a software repository.",
+ "whenToUse": "Use when an agent needs to explore or analyze a repository's code and configuration without changing it.",
+ "tasks": [
+  "inspect repository code",
+  "analyze configuration files"
+ ],
+ "effects": {},
+ "flags": []
+}

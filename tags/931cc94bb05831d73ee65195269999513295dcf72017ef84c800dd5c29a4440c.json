@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "931cc94bb05831d73ee65195269999513295dcf72017ef84c800dd5c29a4440c",
+ "domain": [
+  "gaming/racing-telemetry",
+  "gaming"
+ ],
+ "product": [
+  "f1laps",
+  "f1-game"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to F1 video game laps, telemetry, car setups, leaderboard benchmarks and progress.",
+ "whenToUse": "Use when an agent analyses a player's F1 game laps, telemetry or setups to help them improve.",
+ "tasks": [
+  "view laps",
+  "view telemetry",
+  "view setups",
+  "compare leaderboard benchmarks",
+  "track progress"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,22 @@
+{
+ "classifier": 2,
+ "contentHash": "336928e067fcfb412a530d2bbd8bbc1c2cc9c3aa52f8eb5bd8bbeb110a6d34cb",
+ "domain": [
+  "software/development/code-execution"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Executes code snippets in many programming languages on the local machine.",
+ "whenToUse": "Use when an agent needs to run a piece of code and see its output.",
+ "tasks": [
+  "run code snippets",
+  "execute multiple languages"
+ ],
+ "effects": {},
+ "flags": []
+}

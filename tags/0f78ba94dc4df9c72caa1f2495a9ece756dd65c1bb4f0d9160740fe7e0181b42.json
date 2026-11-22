@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "0f78ba94dc4df9c72caa1f2495a9ece756dd65c1bb4f0d9160740fe7e0181b42",
+ "domain": [
+  "travel/bookings",
+  "entertainment/events"
+ ],
+ "product": [
+  "agentorist",
+  "viator"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Booking gateway to discover movies, events, experiences, hotels and cars, then book inline or hand off to partner checkout.",
+ "whenToUse": "Use when a user wants to find and book tickets, showtimes, tours or hotels.",
+ "tasks": [
+  "list booking verticals",
+  "search bookable items",
+  "search across verticals",
+  "find showtimes and tickets",
+  "book an option",
+  "list nearby venues",
+  "log unsupported booking demand"
+ ],
+ "effects": {
+  "cdee5c5e381c32abec569d6621db9a4c8aed383fb46a9223e62476a301e6f395": "read",
+  "2b7844916c97d1f1f14fd0dcbe06766d45319fb0306ba44a14cb6e72381a6823": "read",
+  "c3969b0c84a2db6d9ded6857c23861b2815b620ee696957badd5132fd542fac5": "read",
+  "b3e5b6872c591288adc3919e6dc30c0e97c9121b907623ec6f6da819104f3236": "read",
+  "6b7c41a1c23f0b99687487bc682e8a30e08745d06e3cc2341dd21072eb163b1a": "write",
+  "5472c78079abacd74246690b9c4a668e9daa0c325194aaa84cf4bec78769285a": "read",
+  "c5b03923c457e8724494b99e6c90d8b77856f21e886558365cc2c89e51c377cf": "write"
+ },
+ "flags": [
+  "request_unsupported_booking collects user demand and optional email, sold on to venues"
+ ]
+}

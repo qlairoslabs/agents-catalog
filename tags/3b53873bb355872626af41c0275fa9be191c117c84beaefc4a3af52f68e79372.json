@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3b53873bb355872626af41c0275fa9be191c117c84beaefc4a3af52f68e79372",
+ "domain": [
+  "support/helpdesk",
+  "support/analytics"
+ ],
+ "product": [
+  "muninx"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manage Muninx support tickets and messages, search tickets and view support analytics.",
+ "whenToUse": "Use when a user needs to handle or analyze customer support tickets in Muninx.",
+ "tasks": [
+  "manage tickets",
+  "send messages",
+  "search tickets",
+  "view support analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6566a597ea62ca6e3cc462fa3e7c3308d9a12cf65309b31452169d567b713c17",
+ "domain": [
+  "telecom/numbering-data"
+ ],
+ "product": [
+  "telcodata"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up North American phone numbering data such as carriers, rate centers, OCNs and number history.",
+ "whenToUse": "Use when an agent needs to identify the carrier or rate center of a North American phone number.",
+ "tasks": [
+  "look up carrier",
+  "look up rate center",
+  "look up ocn",
+  "get number history"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8e9e0b9a59722d0d61bda3ed712fab676127b0c045a93d0c0340fa0312cb911a",
+ "domain": [
+  "software/web-performance",
+  "software/cdn"
+ ],
+ "product": [
+  "cacheboost"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages sites for cache warming, runs warm jobs on CDN and proxy caches and reports cache-hit stats.",
+ "whenToUse": "Use when someone wants to pre-warm website caches or review cache hit rates.",
+ "tasks": [
+  "manage sites",
+  "run cache warms",
+  "read cache-hit stats"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "5fea83195a2edbada4646c2b66788dc403d2402fb691eb512b10efe5bbd316ca",
+ "domain": [
+  "ecommerce/apparel",
+  "design/print-on-demand"
+ ],
+ "product": [
+  "pixdress"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Searches AI-designed print-on-demand clothing, shows design details and returns a link to generate a new motif.",
+ "whenToUse": "Use when a user wants custom or existing printed clothing designs, such as a hoodie with a described motif.",
+ "tasks": [
+  "search designs",
+  "get design details",
+  "create design studio link"
+ ],
+ "effects": {
+  "ab3b5773594a8af73da24f2f32ed7fa72fa7e20c5a09682449171ef53de32e6b": "read",
+  "4b5613aec21ed1b88906bef8651a50512d4d2a23959138856e552b6470075fbe": "read",
+  "36889316c85d4426b853c6c0e0bcef8cb29355f6ce87aef3cf27cccb300e80ac": "read"
+ },
+ "flags": []
+}

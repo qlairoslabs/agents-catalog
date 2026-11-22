@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "7ddb159f6b5372dec5521918d6b7838e0e9923c6aafc57873f8b289c8dff6004",
+ "domain": [
+  "real-estate/poland",
+  "local-business/directory"
+ ],
+ "product": [
+  "cityon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Polish real estate listings, developer investments and transaction prices, plus a local business directory.",
+ "whenToUse": "Use when searching property in Poland, checking apartment prices, or finding local businesses.",
+ "tasks": [
+  "search businesses",
+  "business details",
+  "list categories",
+  "nearby businesses",
+  "search properties",
+  "property details",
+  "property stats",
+  "list investments",
+  "investment details",
+  "apartment transaction prices"
+ ],
+ "effects": {
+  "5ac1154f9569437b195e07c0e0fd376525e3da7900843755b58562f3ebb6b960": "read",
+  "e479b0d079cdeead1342ee0175298408d25421927b5d154e04937da0b4c5f0ca": "read",
+  "2b5899cfd02f2142c6b8e3257e5bda2f0570df20dfa68e8ada8174366f7973ae": "read",
+  "9a43f1db0819b87c3f1237f625cdf85abedac7f5d6dd3d6e2efe5968dc44e160": "read",
+  "089c4982252e5409aca3a2958b343d9ec4234a5a5e4b582811062cb18b28e5b2": "write",
+  "2593f2b7dc0a498fa1423a3ea5f8b0184b1ba15317561945f4dfe78c7352ffd9": "read",
+  "dc29a70aa65d4d2e925a4a7acea6db634f792129be1b253f5334b9d6caa1c9ca": "read",
+  "8af1c8436125b9b98e73a3ac21340be5ce9d18f0631db081c6df8e4f413ead42": "read",
+  "d54c2b7c452f3649ef6d6b21b97122ef5aa6d8f4b46be1ac2ca2ce904dd04b04": "read",
+  "8a926630696f0503a36ff80ad30d655fed7bfee85ec36f71ace4eeda2d125c87": "read"
+ },
+ "flags": []
+}

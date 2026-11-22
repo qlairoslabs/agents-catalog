@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2411dcaa82d8cf9d594ccf5521e0113490cfb9d62fafc5e08ddf23f7347147f9",
+ "domain": [
+  "software/ai-agents/usage-metering"
+ ],
+ "product": [
+  "knos"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Independent metering for AI agent work so usage counts are not controlled by either party.",
+ "whenToUse": "Use when agent work needs to be measured by a neutral party, for example for billing between parties.",
+ "tasks": [
+  "meter agent work",
+  "record usage counts"
+ ],
+ "effects": {},
+ "flags": []
+}

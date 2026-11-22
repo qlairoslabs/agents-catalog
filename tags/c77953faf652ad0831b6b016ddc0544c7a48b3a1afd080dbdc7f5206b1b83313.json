@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "c77953faf652ad0831b6b016ddc0544c7a48b3a1afd080dbdc7f5206b1b83313",
+ "domain": [
+  "business/ecommerce-services",
+  "marketing/seo"
+ ],
+ "product": [
+  "advisors-ai"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Matches an online store's problem to one of Advisors AI's fixed-price services and returns a request link; also checks basic site signals.",
+ "whenToUse": "Use when a store owner describes a business need and wants to know which Advisors AI service fits, its price, or a basic site check.",
+ "tasks": [
+  "list services",
+  "get service scope and packages",
+  "match a need to a service",
+  "check public site basics like robots and sitemap",
+  "prepare a request link"
+ ],
+ "effects": {
+  "b19a87fec3b527acf692f07565540c40d47fbf2ef90537ffac5c2b841ce353c3": "read",
+  "a6ded3cbd7de728a9c603e3fd545196aae5cfd8605caa954ee263277e8e0cbde": "read",
+  "a6d1fb012af5e906512924628356604e1bf9a486b162230825f9ddf7da2909c2": "read",
+  "76584f0e3c7e9a5be5a806cfb17146cefe0121bdbcc91844e540d28c9ff66ed7": "read",
+  "302f8f55db54b3384fc39d6cb0c9a2ec2b8e131954c7f713016432f40f99b22f": "read"
+ },
+ "flags": []
+}

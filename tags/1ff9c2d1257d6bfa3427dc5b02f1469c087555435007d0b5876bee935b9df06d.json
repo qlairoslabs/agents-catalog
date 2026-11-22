@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1ff9c2d1257d6bfa3427dc5b02f1469c087555435007d0b5876bee935b9df06d",
+ "domain": [
+  "design/assets",
+  "software/ui-components"
+ ],
+ "product": [
+  "craftwork",
+  "react"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Provides human-made React components, templates, fonts, shaders, 3D assets, icons and mockups.",
+ "whenToUse": "Use when an agent needs ready design assets or React components for a project.",
+ "tasks": [
+  "find react components",
+  "get templates",
+  "get fonts",
+  "get icons",
+  "get mockups",
+  "get 3d assets"
+ ],
+ "effects": {},
+ "flags": []
+}

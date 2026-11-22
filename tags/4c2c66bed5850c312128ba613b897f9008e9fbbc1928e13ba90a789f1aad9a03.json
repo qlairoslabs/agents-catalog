@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "4c2c66bed5850c312128ba613b897f9008e9fbbc1928e13ba90a789f1aad9a03",
+ "domain": [
+  "software/debugging",
+  "software/bug-reporting"
+ ],
+ "product": [
+  "bugezy"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives an AI agent access to voice-recorded bug reports with console logs, network errors, DOM recordings, screenshots, timelines and terminal errors.",
+ "whenToUse": "Use when debugging an issue a developer recorded with BugEzy and you need its logs, transcript or timeline.",
+ "tasks": [
+  "list bug reports",
+  "get report overview",
+  "read console logs",
+  "read network errors",
+  "read voice transcript",
+  "get page info",
+  "summarize DOM recording",
+  "get live errors",
+  "get terminal logs",
+  "get screenshots",
+  "get full timeline",
+  "check usage quota"
+ ],
+ "effects": {
+  "b6f3402e884c5b6175810e795ad5520ede0fe50403b74f72d9570f506eba5900": "read",
+  "d810007e1c58a471f6d901a9825da58673cff902ee39ba12503b52118e23f135": "read",
+  "fd15a56e2f67973d1733ab3bd2c5ab24e4a20be4b3c546419b54963a54523010": "read",
+  "caa75aaeca97f94463ac982bb3ae91f722b5e6492c0971eeb49586010f88f2eb": "read",
+  "6987c0e40b82d27631829202acc89e77226d494b9349870c8c86c368f44b564a": "read",
+  "6456533b901ae2b395d6b589122d2ba6d9a27013849868c0ee45639bb29b006c": "read",
+  "55b8fcd83419eaa28348c4c74fd4496260500b273aa4d3d2a905aaa70632d711": "read",
+  "fa295224f7774c7293bc91392785dba6c6b78f08c2c32bdd338bfe27afeebeb6": "read",
+  "18392e7f1802c20bad95263235896b57917c2dd2ab5cf17575140b9182db835a": "read",
+  "047815f1de9e78ddbcb83c2d4e82204abfcdf0119ca54778c0d2725edef97069": "read",
+  "5022a56cc3d46bc2541227ce7af55ee3748f466252015fb90e3d1f3b639e8eeb": "read",
+  "205a68ea4665329b38a967ad21fd178789d5e9d6d939cb6e0aa26b2f6a6ea855": "read",
+  "a766ab6c907b2afded8d8b6c67f831661faf65b50556e65bf66902b238701164": "read",
+  "69512a4021142e1564504e1d8375b54ff98bee68d8fda262718a5fb11ebc49e9": "read"
+ },
+ "flags": []
+}

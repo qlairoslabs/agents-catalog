@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "c1de424894e49b0e2615d902b6ae5d5bdffbd4193239163c09c0564ab0c95ba6",
+ "domain": [
+  "events/ticketing",
+  "entertainment/live-music"
+ ],
+ "product": [
+  "toots-jazz-club",
+  "stripe",
+  "link",
+  "bancontact"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid",
+  "schedule"
+ ],
+ "summary": "Concert listings and ticket booking for Toots Jazz Club in Brussels, including holds, contact details, pass and gift card redemption and payment.",
+ "whenToUse": "Use when a person wants to find concerts at Toots Jazz Club, check seats or buy and recover tickets.",
+ "tasks": [
+  "list upcoming concerts",
+  "get concert details",
+  "check live ticket availability",
+  "get venue info and faq",
+  "hold tickets",
+  "attach buyer contact and get payment link",
+  "redeem toots pass",
+  "redeem gift card",
+  "pay with link shared payment token",
+  "release unpaid hold",
+  "check booking status",
+  "resend lost tickets by email"
+ ],
+ "effects": {
+  "cfebc6193beb40ea3b6a7eb485981be563d50374ebba95a198193f3a3269bdff": "read",
+  "347da859b40f9b09772fd1c09d76cbd1e6f61b85738d489d6e815592ed9ab4be": "read",
+  "f75785f2432b7390cd0ba1a9a1717e23ae5dd3e7a43ff130286025b8e5e70d61": "read",
+  "dd3a10509fd3fc58804a977cb959f441963e7fbaae7e5ce78ac3188aa32ec574": "read",
+  "29a28241a35ca82b632d3823d47d8ccc6876eea502c937377d132c6414b4cd95": "write",
+  "0655f1ac2284bf3c75eeeeff1bbbc49b66642f7ce55f03ddb9114b3a2dc1b692": "write",
+  "8e62b4d9d9dd5fc11bb55c2833b1fef0d5497510322584785b168923bef0e30e": "risky",
+  "934603abacfc5cad0e0569a1b35d97381474fa24316e7cbbf192e4fb82142faf": "risky",
+  "21af21edfa3cdd5618041cab97a291414294f8028b5d7d5bf09e5721523735d2": "risky",
+  "38732a09bf818c7946ee7806529a1cbbcdfc2104b3535bbb88819856012cb553": "write",
+  "7eeed594c39dc931a6c953125335d73c0dc5e84e12fde7e60e15c3400245004c": "read",
+  "06ac5853f1a560866901ad856fe0d1a440d95984d6d949536feea7f6dbd73349": "read",
+  "2f0f1e183198e311f85c5a5e1c4600f3cabafc5e17a786748c65c9e1a9ef273b": "write"
+ },
+ "flags": []
+}

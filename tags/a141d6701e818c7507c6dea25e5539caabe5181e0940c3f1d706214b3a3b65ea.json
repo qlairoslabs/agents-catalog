@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "a141d6701e818c7507c6dea25e5539caabe5181e0940c3f1d706214b3a3b65ea",
+ "domain": [
+  "ecommerce/reselling",
+  "marketplaces/username-check"
+ ],
+ "product": [
+  "ebay",
+  "poshmark",
+  "grailed",
+  "vinted",
+  "whatnot",
+  "bonanza",
+  "chairish",
+  "depop"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Checks username availability across 12 resale platforms and compares seller fees and profit on 7 platforms.",
+ "whenToUse": "Use when a reseller picks a username or compares where a sale is most profitable.",
+ "tasks": [
+  "check username availability",
+  "compare platform fees",
+  "rank platforms by profit"
+ ],
+ "effects": {
+  "3eca6e14995263be8b883b776b4f07fe756287fb56469f02780adc07714af5a2": "read",
+  "572f63fb40c4c56c812d64620b153aa273a1989f0817616526cd2d441f55b6a0": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "dfa338bc5cb0c6dddc270736a3ef5a3382555461b999be544b287fdd5ca2257c",
+ "domain": [
+  "business/document-sharing",
+  "finance/invoicing",
+  "finance/personal"
+ ],
+ "product": [
+  "paperlink"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Connector for PaperLink document sharing, invoicing and personal finance features via OAuth.",
+ "whenToUse": "Use when sharing documents, creating invoices or reviewing personal finances in PaperLink.",
+ "tasks": [
+  "share documents",
+  "create invoices",
+  "track personal finances"
+ ],
+ "effects": {},
+ "flags": []
+}

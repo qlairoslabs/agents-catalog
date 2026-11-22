@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5c5ede70cf5e7a8f9d62500241c87fad99d944476688a45bd7ff396595452155",
+ "domain": [
+  "astrology"
+ ],
+ "product": [
+  "lunara",
+  "swiss-ephemeris"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates a natal chart with planetary positions, and rising sign and houses when birth time is given, from birth date and location.",
+ "whenToUse": "Use when a user wants an astrology birth chart.",
+ "tasks": [
+  "generate natal chart",
+  "calculate planetary positions",
+  "calculate rising sign and houses"
+ ],
+ "effects": {
+  "ae013f0b0e7d273ed0d126734b39309099bc929c5a945edb2a694297e155e818": "read"
+ },
+ "flags": []
+}

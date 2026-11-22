@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0c3fcdacce0eaf70bdd92cada8e8ff399f6f022b1473c7a15d3d436b21bf3ab3",
+ "domain": [
+  "software/web-development/rich-text-editor"
+ ],
+ "product": [
+  "ckeditor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps install, configure and integrate CKEditor 5, free and premium, in JavaScript projects.",
+ "whenToUse": "Use when adding or configuring CKEditor 5 in a JavaScript application.",
+ "tasks": [
+  "install ckeditor",
+  "configure editor",
+  "integrate premium features"
+ ],
+ "effects": {},
+ "flags": []
+}

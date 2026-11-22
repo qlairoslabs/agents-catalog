@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a45095049848330392b1a69362ccb76c9432029dcbe8f9b4af18dffb38c2150c",
+ "domain": [
+  "media/podcasts",
+  "productivity/read-later"
+ ],
+ "product": [
+  "podstow"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Turns web articles or generated text into audio episodes on a personal podcast feed.",
+ "whenToUse": "Use when the user wants to listen to an article or text as a podcast episode.",
+ "tasks": [
+  "send article to podcast feed",
+  "convert text to audio episode"
+ ],
+ "effects": {},
+ "flags": []
+}

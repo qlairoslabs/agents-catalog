@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "fdd9057e8f84c02826a4d0ff721a535671e3a18571de8fa3da0d763d18041d5a",
+ "domain": [
+  "finance/invoicing/e-invoicing",
+  "finance/tax/vat"
+ ],
+ "product": [
+  "simple-fatoora",
+  "zatca"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Handles Saudi e-invoicing with Simple Fatoora: invoices, quotations, sales and VAT reports, and ZATCA Phase 2.",
+ "whenToUse": "Use when a Saudi business needs to create ZATCA-compliant invoices or quotes, or pull sales and VAT reports.",
+ "tasks": [
+  "create invoices",
+  "create quotations",
+  "view sales reports",
+  "view vat reports",
+  "zatca phase 2 submission"
+ ],
+ "effects": {},
+ "flags": []
+}

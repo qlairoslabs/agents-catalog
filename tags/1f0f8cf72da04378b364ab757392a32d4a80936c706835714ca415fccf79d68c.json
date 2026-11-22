@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1f0f8cf72da04378b364ab757392a32d4a80936c706835714ca415fccf79d68c",
+ "domain": [
+  "business/contract-management",
+  "finance/procurement"
+ ],
+ "product": [
+  "renewly"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Reads vendor contracts, tracks renewal dates, highlights negotiation leverage and drafts cancellation or renewal emails.",
+ "whenToUse": "Use when reviewing vendor contracts, tracking upcoming renewals or preparing to renegotiate or cancel a vendor.",
+ "tasks": [
+  "read contracts",
+  "track renewals",
+  "find vendor leverage",
+  "draft cancellation emails",
+  "draft renewal emails"
+ ],
+ "effects": {},
+ "flags": []
+}

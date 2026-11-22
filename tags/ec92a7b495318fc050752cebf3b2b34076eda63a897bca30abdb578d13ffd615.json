@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ec92a7b495318fc050752cebf3b2b34076eda63a897bca30abdb578d13ffd615",
+ "domain": [
+  "data/aviation"
+ ],
+ "product": [
+  "flightradar24"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses the Flightradar24 API for real-time and historical flight data.",
+ "whenToUse": "Use when looking up live flight positions or past flight records.",
+ "tasks": [
+  "get live flight positions",
+  "look up flight history",
+  "search flights"
+ ],
+ "effects": {},
+ "flags": []
+}

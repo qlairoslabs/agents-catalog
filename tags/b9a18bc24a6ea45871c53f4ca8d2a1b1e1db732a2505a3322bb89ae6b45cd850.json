@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b9a18bc24a6ea45871c53f4ca8d2a1b1e1db732a2505a3322bb89ae6b45cd850",
+ "domain": [
+  "media/trend-monitoring",
+  "research/news"
+ ],
+ "product": [
+  "upriver"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Reports breakout online topics in tech, sports and politics, with citations.",
+ "whenToUse": "Use when an agent needs to know which topics are currently gaining traction online.",
+ "tasks": [
+  "find trending topics",
+  "track tech trends",
+  "track sports trends",
+  "track politics trends",
+  "return cited sources"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "549e8d584fbc8f46743fff54165c95ff4855f06dd9817031671e85126be2db0d",
+ "domain": [
+  "commerce/b2b-procurement",
+  "commerce/product-catalog"
+ ],
+ "product": [
+  "airshelf"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Cross-vendor B2B product catalog with search, comparisons, evidence-backed specs, shopping research and quote requests.",
+ "whenToUse": "Use when the user needs to find, compare or source B2B hardware and equipment, or request a quote from a vendor.",
+ "tasks": [
+  "search product catalog",
+  "find candidate products for a need",
+  "run shopping research",
+  "get product records and prices",
+  "compare products",
+  "explain product evidence",
+  "list merchants",
+  "request a quote"
+ ],
+ "effects": {
+  "f72942c45963ca277538958eb6a37feaa692d3679fd60797ea48a2c62bfd3e41": "write",
+  "59e0b73e814c48c86b774c5153452fa7f1059d6fe9af6e4a2732aa925fb27337": "write",
+  "a4794850494d4753ec462336d50ec5084a6c686aa7aa88ec0bd9e83f1a42bb55": "write",
+  "67b4ce67efb2546c7008f05f166e35c5ad957aac4b7ec1d3b5213096e28062e3": "write",
+  "0be7d338ab978fc2f284e7d25779598605ca370f4a96c2dc001e36d9a04881ca": "write",
+  "712d9769344c89a489e38e3886362bed9d8ff20741ccdcd54fceba856dc30146": "read",
+  "0f12510fbbeccc3a04d61eba1d88364cc69907dab359678e890cd94c6bab6495": "read",
+  "817356ae06fde979959c7834348dba60f1514fa7b953e815a428327fa265e8b3": "write"
+ },
+ "flags": []
+}

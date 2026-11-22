@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7be4f762d72a96ded9246d9544d27612726a74ae2b0d46760cca44d51df1979e",
+ "domain": [
+  "healthcare/credentialing",
+  "compliance/license-verification"
+ ],
+ "product": [
+  "licensy"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "hire-and-manage"
+ ],
+ "summary": "Verifies US medical licenses in real time across all 50 states and DC.",
+ "whenToUse": "Use when the user needs to check whether a US medical professional holds a valid license.",
+ "tasks": [
+  "verify medical licenses",
+  "check license status by state"
+ ],
+ "effects": {},
+ "flags": []
+}

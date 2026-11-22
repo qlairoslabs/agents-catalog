@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ffb59257cec61ae1eed58aef5fa0ef1345c9e597b1c079ef4916c293e206b14f",
+ "domain": [
+  "business/verification",
+  "finance/risk"
+ ],
+ "product": [
+  "jid"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Checks a business against official registries before an agent pays, signs or buys, returning a cited decision and signed receipt.",
+ "whenToUse": "Use before an agent pays, signs a contract or buys from a business, to verify the counterparty is legitimate.",
+ "tasks": [
+  "verify business identity",
+  "check company registry",
+  "get signed verification receipt"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9fcaa156a5178edcc134cf45643a2be55856f9dcd3245c5bf6ca65a11e024b0e",
+ "domain": [
+  "gaming/steam",
+  "gaming/recommendations"
+ ],
+ "product": [
+  "steam",
+  "needmoar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Ranks Steam games by community preference from head-to-head votes, with matchups, game details and similar titles.",
+ "whenToUse": "Use when a user asks which of two games players prefer or wants games similar to one they like.",
+ "tasks": [
+  "resolve game names",
+  "compare two games",
+  "show game consensus",
+  "find similar games"
+ ],
+ "effects": {
+  "4152aef8ea6d65657a46a1a81a28404e710cf3693689ac519474e52ab6fb37ec": "read",
+  "54ccd8eccdc8da1c5837c004040cd41a1fa19c3ccc8b60f4018a0cd7d48f33db": "read",
+  "e75bb5ebdd79df2abc8b9b5788690b6fb98c807722ddfc600a6aac78b1888af8": "read"
+ },
+ "flags": []
+}

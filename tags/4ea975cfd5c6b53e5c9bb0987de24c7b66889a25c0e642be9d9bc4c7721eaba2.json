@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "4ea975cfd5c6b53e5c9bb0987de24c7b66889a25c0e642be9d9bc4c7721eaba2",
+ "domain": [
+  "marketing/ai-search-visibility",
+  "marketing/brand-analytics"
+ ],
+ "product": [
+  "dabyte"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Open dataset measuring how often AI answer engines name 20 SaaS and AI tool brands, with ranks, history and methodology.",
+ "whenToUse": "Use when asked how visible a SaaS or AI tool brand is in AI assistant answers, or how that visibility changed over time.",
+ "tasks": [
+  "get full visibility index",
+  "get one brand's share of answer",
+  "list tracked brands",
+  "get weekly history per brand",
+  "read measurement methodology"
+ ],
+ "effects": {
+  "e58f875c618d78b978985cc341e356a1e1f9cd310b480cf2e23c24ae47d1d76b": "write",
+  "62a1d124161ee8edb1f1123b2b366e5d2ac45036f116e3117529e68fcd0188d3": "write",
+  "f199bd643335b04bd075448ccb182966a258135094d35433ab63e58c86e07609": "write",
+  "e51244212b3365269af53365067db4050223a1ca72e98815158cc1ce8ffe0f89": "write",
+  "e2a6f9232e6ae33f7d01e331e8451f9127fa5c04dffec0b451d77711b99a5aa8": "write"
+ },
+ "flags": []
+}

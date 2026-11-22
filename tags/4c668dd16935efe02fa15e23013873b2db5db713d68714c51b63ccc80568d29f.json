@@ -1,0 +1,83 @@
+{
+ "classifier": 2,
+ "contentHash": "4c668dd16935efe02fa15e23013873b2db5db713d68714c51b63ccc80568d29f",
+ "domain": [
+  "finance/crypto/market-data",
+  "lifestyle/religion/islamic",
+  "real-estate/leads"
+ ],
+ "product": [
+  "coingecko",
+  "defillama",
+  "hyperliquid",
+  "geckoterminal",
+  "blockscout",
+  "ens",
+  "openstreetmap",
+  "relay"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Pay-per-call API paid in USDC covering crypto market data and token risk, Islamic prayer and halal place lookups, and home-service and real-estate lead submission.",
+ "whenToUse": "Use when an agent with an x402 wallet needs crypto prices, token safety checks or swap quotes, Muslim travel information, or to submit a consented home-service or housing lead.",
+ "tasks": [
+  "get crypto spot prices and candles",
+  "check token rug-pull risk and safety score",
+  "screen trending or new tokens",
+  "get defi yields, funding rates and stablecoin data",
+  "get swap and bridge quotes",
+  "view evm wallet portfolio",
+  "find halal food and mosques",
+  "get prayer times, qibla and hijri dates",
+  "calculate zakat",
+  "convert fiat currencies",
+  "submit home-service quote requests",
+  "submit real-estate buyer or renter leads"
+ ],
+ "effects": {
+  "f5ab599f023492f59adbc88360a8398aa0c15a5b84f587354758214f0321890e": "risky",
+  "0195c81943f8f4cf2e6f15f2d5e2f40b88fa7ae541fb8b992d1be0d0a98ea1f3": "risky",
+  "78ce3374ec41ec52cf8e2114e6b57421cb4d61d3d8b34ad450e281099b089a43": "risky",
+  "11b71382902b314f9373fa264f803c173afe36c8a4a1790ed48607f30c7d4cb7": "risky",
+  "f6f4189e6812638912e1d02433c35a4ab76b8630099f2574b9459f29f3911269": "risky",
+  "2bd116a8d9c03eb33b6c17bcb89b5a2c89ebeee56788231eb14ac2f739202090": "risky",
+  "4a52c1c4594cc4b043e9878f9b3bab1e71e2d76e319330ede2fd18033a7c137e": "risky",
+  "ffbf64417b257131edd16b9f70c3e171fd990e428bae2e3e0e059f716fe47634": "risky",
+  "729bf60060c68d3b2c244566891ed16f16dc24f712e379377521d17e4e0fb31b": "risky",
+  "770556e293e467a953eb0b5161e36dd55e27f52ec807510e18fb95cbbc33f9ee": "risky",
+  "8328044b0dd808d69fc9294a6de9e6eb4d2d6c61dd0b7c841cba3c0f2acc9d81": "risky",
+  "7ecda1716ff601edb2b949201a1b224e2e62b6a838a90619c35fb77ab59289b3": "risky",
+  "61c1f5973d088c53d35cb4a6f5bd51e3ec17e2f2deee97df9f62b9605470ee95": "risky",
+  "15c8dcf33490e0427e095d0c3d2d399a1b68c5cf6fdd5185cd8b78df3abac32a": "risky",
+  "e470b3bed039ee139552102bfe7e270e00bae107eefc9efaac940ab50a7ffdeb": "risky",
+  "a195fc2a1691bd25bdd2239373f1f13eb365962d7d5ebf15c620e31899646836": "risky",
+  "dca6d354fcd635966b44534721b670d5630e7f082e9bf5fde5ee68a26d3e530f": "risky",
+  "ab156d1d7d922ffb1a7ea992c5cb14f840c16119cf2fc74dfd0fb347b2e637b6": "risky",
+  "1b34a88c8f37f983af746f32e4606e3c4b793514fb92d038b40fe372ce7a8b54": "risky",
+  "cff45c0433787c3ed1e9d6ec175ba233f59cfa107d23b77266cef3049ec45e52": "risky",
+  "bce6c98e67dcad15e3f93bb881911ba46cea77e6d4c4e0200bd3a6ab53c41b9e": "risky",
+  "f9f2dcddbe371b8fadfc6ebaf234315afc81d5a41d7974072676f439532777a5": "risky",
+  "283f1b26399b8a6cd05cfaf969ed1d4bb22824ef5831cabcefa2991316d009ec": "risky",
+  "78a5767a5bcd760ec67b25cf04e007ea0abf26704cb23ee06830afb3e8adced4": "risky",
+  "94ed181e74ee85539093fce7b6d375f1cd890352fa13acf5f1f0dc0586294922": "risky",
+  "a8691bcde9b880cc5da025c3d63b83318ee07cbc1b2a72e00ed7ce117b7b5cfb": "risky",
+  "0269616b2ad6f0c551fbfa8b3fc88f41efef23614cc096fd39d6e957bdcbfcda": "risky",
+  "dee9474400bf61b3521cc29dfd136b4b34c959018313a115027fe0a04e858274": "risky",
+  "ef2c0206b7758d67e179d950c312f366eaef79e7abc294564363cd1c0da0762e": "risky",
+  "d05af232a9417db3c530e0f2b9d4688f04a6459032fcf3d99fe728f37ebadfb4": "risky",
+  "7a0b9628e6103c0befe8c2ac242a8e95ea244435390250cfdf94b058970c0b28": "risky",
+  "232620f1ddd08b22d721ed209afbde312c0dba7e42920ac4f17846845faf1f07": "risky",
+  "d32909e24c68fb7b4210b0c402a6dab176b7887fab118e24e94f7f4d48b85c9a": "risky"
+ },
+ "flags": [
+  "every tool charges a usdc micropayment per call",
+  "lead tools offer a $10 referral bounty to the paying wallet, which incentivizes agents to submit customers' personal contact details",
+  "unrelated services (crypto data, religious lookups, home-service and real-estate leads) are bundled under a crypto data title"
+ ]
+}

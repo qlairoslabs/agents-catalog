@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "f951dcdd2e79ee1bd77016b1f5e037b18f56cdef690699509a3b9e825ee02e3b",
+ "domain": [
+  "food/recipes",
+  "food/meal-planning"
+ ],
+ "product": [
+  "meal-planner"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Searches and reads free sample dinner recipes and explains the paid weekly Meal Planner Plus service.",
+ "whenToUse": "Use when a user wants a dinner recipe by ingredient, diet label or cooking time.",
+ "tasks": [
+  "search recipes",
+  "filter by diet label",
+  "filter by cooking time",
+  "read full recipe",
+  "explain Plus offer"
+ ],
+ "effects": {
+  "13cf7782201543acbb1c41e5c30448e1cc6d30f8988049d09e6dc8f13f15752d": "read",
+  "a5fcd4cbef56e1accf5f5c8c110e2b531042c61b2fe9ee3e9cba0101034938df": "read",
+  "ea447735da177724f9b26735e11bb133296f09e12a7960cbfb9a1cdcdda8ff33": "read"
+ },
+ "flags": []
+}

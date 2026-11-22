@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6c9129d67c8594b8d32f64255da78efce975d3911e038cea0af6fb1304eef776",
+ "domain": [
+  "productivity/calendar",
+  "productivity/scheduling"
+ ],
+ "product": [
+  "google-calendar",
+  "outlook",
+  "icloud"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Syncs Google, Outlook and iCloud calendars to manage events, availability and booking links.",
+ "whenToUse": "Use when an agent needs to manage events or availability across multiple calendar providers.",
+ "tasks": [
+  "sync calendars",
+  "create and update events",
+  "check availability",
+  "manage booking links"
+ ],
+ "effects": {},
+ "flags": []
+}

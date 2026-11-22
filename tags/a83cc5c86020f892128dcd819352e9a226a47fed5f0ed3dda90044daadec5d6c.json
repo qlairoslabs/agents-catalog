@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a83cc5c86020f892128dcd819352e9a226a47fed5f0ed3dda90044daadec5d6c",
+ "domain": [
+  "ai/speech-to-text"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "GPU-based transcription of English WAV audio, with temporary trial access obtained without login.",
+ "whenToUse": "Use when an English WAV recording needs to be transcribed to text.",
+ "tasks": [
+  "transcribe english wav audio",
+  "obtain trial access"
+ ],
+ "effects": {},
+ "flags": [
+  "agents obtain access credentials automatically without user login"
+ ]
+}

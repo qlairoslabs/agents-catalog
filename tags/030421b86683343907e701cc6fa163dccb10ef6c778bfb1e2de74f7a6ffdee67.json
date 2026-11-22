@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "030421b86683343907e701cc6fa163dccb10ef6c778bfb1e2de74f7a6ffdee67",
+ "domain": [
+  "trade/customs-duties",
+  "finance/tariffs"
+ ],
+ "product": [
+  "usitc",
+  "hts"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Looks up US HTS base duty rates and reviews import duty stacks with official sources and unresolved layers.",
+ "whenToUse": "Use when an importer needs US HTS duty rates or an import duty review.",
+ "tasks": [
+  "look up HTS base rate",
+  "review import duty stack",
+  "flag unresolved tariff layers"
+ ],
+ "effects": {
+  "64cd931ebf9044adf3f83de60758de1fccccf5029770e62c13fc25bfaae44267": "read",
+  "2c2342f2229723003e8af7447d71ca229a92596933c0bafb12cdd98b38385423": "write"
+ },
+ "flags": []
+}

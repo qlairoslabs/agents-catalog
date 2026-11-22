@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "c3387eb37a535435d847797fdda286591d7de0c7551f0007a6258d1b75cafe04",
+ "domain": [
+  "media/stock-footage",
+  "media/licensing"
+ ],
+ "product": [
+  "stockfilm",
+  "stripe"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "get-paid",
+  "build-software"
+ ],
+ "summary": "Search and license vintage 8mm home-movie clips, build rough cuts, and buy AI-training datasets with quotes, agreements and checkout.",
+ "whenToUse": "Use when finding or licensing authentic vintage footage, or purchasing a licensed video dataset for AI training.",
+ "tasks": [
+  "search footage",
+  "find similar clips",
+  "build rough cut",
+  "check clip rights",
+  "quote 4K license",
+  "create checkout",
+  "retrieve paid order",
+  "scope dataset",
+  "quote dataset",
+  "accept dataset agreement",
+  "pay for dataset",
+  "track dataset order"
+ ],
+ "effects": {
+  "68b92f6d3ff870e9cddddd0cf3a8735820d57856f770357f3bc5712c5c8ebe3d": "write",
+  "3fff6a114752ea937361670e16c72567806466ce1ed8bc5af3936aa6014e5d35": "read",
+  "f67b8e78cb71b1dea025ec20689f78c12f6403fc8203b7840c61f72c14604e7f": "read",
+  "24a796f6f8d574a179687c78759e1cffe730bc4ec9f135985a9ee0a19aeca11f": "risky",
+  "a3908355965ac68b0ec04e5cf7382474797a52b519f62eb85e73f3645b18c475": "risky",
+  "a8e9776a3aa7826d98516a5c4869bb7b6df514afbd977fabad86b308af15e040": "read",
+  "76b8443b9ecc9916a27e54e755e51833de0845e9c4c63618520a221f7ec9f1a2": "read",
+  "27497a3f6161c79106d5cd6c68a37a4168d0d017e79ba9d1835569455b67f5f1": "write",
+  "bcf4becc32c563614e67b2bde8f3e8b0fc80d7014cc017aca6920157bc5bc194": "read",
+  "77c9f8be507c60c594583c9a3141a3b524454e4333e725d86d5312f1f88cc710": "read",
+  "fc85b1bc1964ae0dc27363392c9fbef816728c2042a811d230b49a5df18f795b": "read",
+  "78e8f4f55c2a24c7a007af1cf94f67cc85acc4c6db345966764370000c9f9f99": "read",
+  "85cb494511d74eb0192068daf5af48bbf4f3aadadcb25a610f3b292ff58d875f": "write",
+  "3c3698820d66c5ba880979dba1d5ffe4d29f72e6eaf4e9bc71e9aaf83e44480a": "write",
+  "8fdb2ad6c45b79c0e1435b7edcc398d60212a1d4349642434de7093823f5a86f": "read",
+  "34744bf5118bdd593bc995460e166766a541511da0d5f2c4547c7188662e264a": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "357284238a38af546eb5cd646ee4f0462417049dd399eb4d14a521281e4a8424",
+ "domain": [
+  "finance/accounting",
+  "documents/data-extraction"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Converts bank statement PDFs into categorized transactions with balance checks and reports.",
+ "whenToUse": "Use when an agent needs to extract and categorize transactions from bank statement PDFs.",
+ "tasks": [
+  "parse bank statement pdfs",
+  "categorize transactions",
+  "check balances",
+  "generate reports"
+ ],
+ "effects": {},
+ "flags": []
+}

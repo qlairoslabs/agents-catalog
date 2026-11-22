@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "47d1ffae70a534688cb652e1e07c89049f069240eae0e875ec4cbdd764627951",
+ "domain": [
+  "software/erp/netsuite",
+  "software/development"
+ ],
+ "product": [
+  "netsuite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for building NetSuite SuiteCloud solutions with SuiteScript, SDF objects, UIF apps, permissions and secure coding practices.",
+ "whenToUse": "Use when writing, upgrading or documenting NetSuite SuiteScript or SDF projects.",
+ "tasks": [
+  "write suitescript",
+  "upgrade suitescript versions",
+  "define sdf objects",
+  "configure roles and permissions",
+  "build uif single-page apps",
+  "apply owasp secure coding",
+  "document suitecloud projects"
+ ],
+ "effects": {},
+ "flags": []
+}

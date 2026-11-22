@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "65236b4aa5a0635c3fc8a6b83bd2eb863d7263e4122e156956703e068bbced1e",
+ "domain": [
+  "productivity/timelines",
+  "personal/logging"
+ ],
+ "product": [
+  "logr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Queries public logr profiles for timelines and events, with owner-authorized write access.",
+ "whenToUse": "Use when reading a logr profile's timeline or adding events with the owner's authorization.",
+ "tasks": [
+  "query profiles",
+  "read timelines",
+  "read events",
+  "write events with authorization"
+ ],
+ "effects": {},
+ "flags": []
+}

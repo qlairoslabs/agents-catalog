@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "caebb0fc2b7401706d930e42aa0d16d0a37310373bf1052295e8672a3ddc84c2",
+ "domain": [
+  "search/ipfs",
+  "web-search"
+ ],
+ "product": [
+  "ipfs",
+  "darksearch"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Full-text search over web pages published on IPFS, returning titles, excerpts, content IDs and gateway URLs, up to 10 results per call.",
+ "whenToUse": "Use when a user needs to find content published on IPFS by keyword.",
+ "tasks": [
+  "search IPFS pages",
+  "get excerpts",
+  "get gateway URLs"
+ ],
+ "effects": {
+  "280a06f54c03876df1179fa3e1605531bc1b75ce941634471fcd02f8b2c68e70": "read"
+ },
+ "flags": []
+}

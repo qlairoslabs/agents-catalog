@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "31ea7ae4942cab9e92999f5bb0e93f3b3bd28be883338541bc29b98351a77a78",
+ "domain": [
+  "ecommerce/subscriptions/analytics"
+ ],
+ "product": [
+  "recharge"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only Recharge store analytics with metrics, dimensions and governed natural-language queries.",
+ "whenToUse": "Use when a subscription merchant wants analytics on their Recharge store data.",
+ "tasks": [
+  "query store metrics",
+  "explore dimensions",
+  "ask analytics questions in plain language"
+ ],
+ "effects": {},
+ "flags": []
+}

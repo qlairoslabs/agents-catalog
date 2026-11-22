@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "083d43b605ff7b5f4d75a75b1e19d0f28fbf3171f5c08f2f58730899f2cec0d8",
+ "domain": [
+  "psychology/self-assessment",
+  "health/mental-wellbeing"
+ ],
+ "product": [
+  "psychologie-et-serenite",
+  "scanmylove",
+  "scanmyjob"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Read-only catalogue of a French-language psychology site: self-assessment tests, blog articles, books, concept glossary and video appointment info.",
+ "whenToUse": "Use when someone wants psychological self-assessment tests, articles or books on relationships and emotions, or details on the site's services.",
+ "tasks": [
+  "list services",
+  "describe a service",
+  "search psychological tests",
+  "get test details",
+  "get test link",
+  "get example reports",
+  "search blog articles",
+  "read an article",
+  "search books",
+  "get book details",
+  "search psychology concepts"
+ ],
+ "effects": {
+  "b5bc08c0bce5d1a089a29c4c3df3330a9c40cfe86fcf6be69224d7d0f55e71e1": "write",
+  "4c39bdee378a71960d56043ee2ff356267216eae71d32402a6f6a8e0cdd68608": "write",
+  "95e6303ea16bfd218383050f08e88a7695dc7ebd3d89c77385837730f7e40534": "write",
+  "4843770b9477f5cdfbcdea2ab89c1d3ca2c74ab48399c453a7443fbf74be74a4": "read",
+  "adda56642de59e05ea3da7e6cec924d01d632f7871123a54b38a90f4fe8a52a5": "read",
+  "802fee7fa0228f173ac9dc8dbc0bdbe754bed2f2ad5035f53cd7a1239badedea": "read",
+  "0198a7c25567318e72460187010a555ae22acb06a590d047008a742394d258f7": "write",
+  "69b67e6010ef24d6d99693f3274332241c543e4979f8368af1f6a36fc9392b3e": "read",
+  "edbde045b1889cab335322afa8e02c5cdd8f9d58fe2da7e3a51f474c627cd6b5": "write",
+  "1d93dcff18023cad45d016eb3d69d11ed286f38cd7aaf31df1ad0f107ef6f674": "read",
+  "a5ab3711270797f06f7ad91751dd560ca38ed4bc67a4e9e78145a12526deebf7": "write"
+ },
+ "flags": []
+}

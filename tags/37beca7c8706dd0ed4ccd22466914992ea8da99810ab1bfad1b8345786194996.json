@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "37beca7c8706dd0ed4ccd22466914992ea8da99810ab1bfad1b8345786194996",
+ "domain": [
+  "finance/blockchain-analytics",
+  "crypto"
+ ],
+ "product": [
+  "arkham",
+  "polymarket"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries Arkham blockchain intelligence for entities, labels, balances, transfers, tokens and Polymarket data.",
+ "whenToUse": "Use when investigating crypto wallets, entities or on-chain transfers.",
+ "tasks": [
+  "look up entities",
+  "get address labels",
+  "check balances",
+  "trace transfers",
+  "get token data",
+  "get polymarket data"
+ ],
+ "effects": {},
+ "flags": []
+}

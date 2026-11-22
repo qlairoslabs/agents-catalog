@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bf27dccddbd121c914ba056d77e47cbd4aa6284f35dc2c09c543e9198d0f3c5a",
+ "domain": [
+  "software/catalog",
+  "software/discovery"
+ ],
+ "product": [
+  "jpfreesoft"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Searches a catalogue of Japanese software and AI tools with recorded facts and source links.",
+ "whenToUse": "Use when looking for Japanese-language software or AI tools filtered by platform, price or support.",
+ "tasks": [
+  "search software and AI tools",
+  "filter by platform and free plan",
+  "read catalog entry details"
+ ],
+ "effects": {
+  "7be1e6fdbbbade3b129234285285d584ead7e7b3093eb6d00e1c005e176ddc07": "read",
+  "2097d3d593fd68a671919f747a4e08cf15301cca905514d6d25024dce6f96d2a": "read"
+ },
+ "flags": []
+}

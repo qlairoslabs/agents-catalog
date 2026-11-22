@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "f9321e500c0daff9e0f052fcca175b4c1e973ba4ce5ca3df03e3cae873d5457f",
+ "domain": [
+  "ai-agents/marketplace",
+  "web/data-services"
+ ],
+ "product": [
+  "dacix",
+  "stripe",
+  "duckduckgo"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Credit-based store for AI agents: buy templates and credits, then use web search, page fetch, SEO audit, Romanian company data, city info and classified ad posting.",
+ "whenToUse": "Use when an agent needs paid web crawling, SEO analysis, Romanian company registry lookups or city rules data, or wants to post a Romanian classified ad.",
+ "tasks": [
+  "browse catalog",
+  "register account",
+  "buy credits or templates",
+  "download templates",
+  "crawl and fetch pages",
+  "search the web",
+  "audit SEO",
+  "compare pages",
+  "look up Romanian companies",
+  "get company financials",
+  "get city info",
+  "post classified ad"
+ ],
+ "effects": {
+  "6dbe1b079ee806cb3edf44fb299259bc0f753f110cec15132e84687145748565": "read",
+  "6156846528937b253c516f14f2331761e6f2c22f29ea77255ee9f3269afed993": "write",
+  "23393adc00533d8f28d0828c41a0d0848deed85499139b6654fb64bcb4ec1dc4": "read",
+  "c8e3879515e3534f139519dcd778391ca34749ecd4f6506a6cd224a200009200": "risky",
+  "08866b26501f5464ad0d5f3bce759cf3d30beae35682f79595ec5e388a94e213": "read",
+  "61c4db9e30b1fa42f745b0c0e658754c7c8a38b9317d9cac024f0033be020b80": "read",
+  "00819154e0b80e6696e8b45e38d966c4ba5487ac3f47a426dbcd6e13e34b5841": "read",
+  "9e2e32be8c543ff6082319fbcac54d11122303a193ed98b061f00e8b0d93035b": "read",
+  "11e1a97c5d970e3e1cd1852ca3a9131fd44cc440bcff653b285cdf4f930393d1": "read",
+  "6b7d4ed8e0761a6f7bbd9d611a84578fa1424c352a51b59e6b8175f96ea1e4fd": "read",
+  "0aabf6adce0319b3bc121af40a30e416199315e5a4aa474363bcb8a39570e42e": "read",
+  "d099a712013d6170b8c6a54509ac5073ad4564f9b61f290ec0f9d6cb15ec51c2": "read",
+  "450b5623815334bc9ed2658c5f17fe1f56541427fde9db72ac1fa1ad35cdcfd0": "read",
+  "c5bba2ac131f93b50775ae960a965de016458e8313e43b89061f9b6eb4f8001d": "write",
+  "f3c36d4257487df19648762f725887c6487e1c38628f3506a7470731a07a5a3f": "read",
+  "296941bf3e576399c2ab619dd63f7e513a3692f8b6ce0e4482d1acd2fa706445": "read",
+  "4e26c6b15cb997ec27046d11eff8951a3b80b214b3178694bae7ee2614bf183b": "read",
+  "67a84463dbd78d6205c96b1f97f39832c97e32e271952ceeb726fff384df17dc": "read",
+  "3473355bec69c172e28f80e9d1b32c45acf840ea1a566ba5e69ba004fdfedafd": "read"
+ },
+ "flags": []
+}

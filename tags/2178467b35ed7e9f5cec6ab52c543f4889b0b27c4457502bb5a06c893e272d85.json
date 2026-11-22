@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "2178467b35ed7e9f5cec6ab52c543f4889b0b27c4457502bb5a06c893e272d85",
+ "domain": [
+  "compliance/policy-management"
+ ],
+ "product": [
+  "clearpolicy"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Authenticated server for policy and compliance workflows in ClearPolicy.",
+ "whenToUse": "Use when managing organizational policies or compliance workflows stored in ClearPolicy.",
+ "tasks": [
+  "manage policies",
+  "run compliance workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

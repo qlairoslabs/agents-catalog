@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "aa05ee0f4b23c95ae3d81a478b94966788b6f9d6a407fbffbbc0c6ef3ec9ed15",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [
+  "sqlite",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Stores agent memory in SQLite or Postgres, marks outdated facts and declines to answer when confidence is low.",
+ "whenToUse": "Use when an agent needs persistent memory that tracks superseded facts across sessions.",
+ "tasks": [
+  "store memories",
+  "recall facts",
+  "flag superseded facts",
+  "abstain on low confidence"
+ ],
+ "effects": {},
+ "flags": []
+}

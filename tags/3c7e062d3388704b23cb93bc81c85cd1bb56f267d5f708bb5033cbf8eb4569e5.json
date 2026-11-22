@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "3c7e062d3388704b23cb93bc81c85cd1bb56f267d5f708bb5033cbf8eb4569e5",
+ "domain": [
+  "business/small-business-tools",
+  "finance/invoicing"
+ ],
+ "product": [
+  "eoslog"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "sell",
+  "stay-compliant"
+ ],
+ "summary": "Free tools for US service businesses: quote and invoice PDFs, house cleaning price estimates, cleaning sales tax by state and gas leaf blower rules.",
+ "whenToUse": "Use when a small service business needs a quote, invoice, cleaning price or local tax or ordinance info.",
+ "tasks": [
+  "create quote PDF",
+  "create invoice PDF",
+  "estimate house cleaning price",
+  "check cleaning sales tax by state",
+  "look up leaf blower rules",
+  "find free EosLog tool"
+ ],
+ "effects": {
+  "c028f45017cc614a82193ce7a93248ba98d0147e511a55aa84c5d9fe3d6b6a94": "read",
+  "bea0ed1ae2e2bd03edc75fb4d8d53768c96f412a8d1aa234f6d084eaf9b0dcc0": "write",
+  "0ee4eded8ff1bb63b351ee58aeeea3ad6e3963b0c834480e29f27958550dc734": "write",
+  "9a7880439c22f8162a586580e1701542120c894cb7b149ca170aa4827759c213": "read",
+  "3a31b756366d085407e7357dcc99ab81c4b1a403989fa8c0dcce3c8e830e02a0": "read",
+  "81e2a061899185cbcb9a072b575faba5a3eb3c2bf6769e393cc6cff890ebc0f3": "read"
+ },
+ "flags": []
+}

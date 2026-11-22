@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "4fe04d0c5168bebb9da9fb4a6760d17923ff7ebfaae81092c9018084a5242cac",
+ "domain": [
+  "logistics/shipping",
+  "thailand/parcel-delivery"
+ ],
+ "product": [
+  "proship",
+  "thailand-post"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Creates and manages Thailand Post shipments via ProShip, including COD, labels, order status changes, duplicate checks and parcel tracking.",
+ "whenToUse": "Use when creating, labelling, tracking or cancelling parcel shipments in Thailand.",
+ "tasks": [
+  "track parcel",
+  "sign up account and shop",
+  "list shops",
+  "create shipment order",
+  "list orders",
+  "get order",
+  "update order status",
+  "cancel order",
+  "check duplicate customer",
+  "print shipping label",
+  "list status codes"
+ ],
+ "effects": {
+  "4551948d6ffa59915988042f89dc0281cd02520ebc00e9283ee943db5bdbd669": "read",
+  "46ba4eaf291e5ffa576ce615c41543d52ab8cfabac4cf85428da5325035fc05f": "read",
+  "2b2ac61cbf85211a077d973d6683610fafff88e83529b63c37067c95028fb818": "write",
+  "60fbfd0cae1b1566ed794f2cab2fdc520f73e28f4c25c5a54f2d51834cd2d858": "read",
+  "70052b967c7f847c21052039e6c6c1cee6f445d44475e7b7a62500d18d211239": "write",
+  "1263316e5d42654799b49e654377cd96a1ff5e1888c6f485e44225d06c7ad0fd": "read",
+  "99e77b8c74476ca1cc07e3026c193975639a27c3a06c8d82761e316abb1436ea": "read",
+  "7228fc4dbb071372a9a60c4400bdafcf6d071c8d0380d6d8e66f39950b2feb91": "write",
+  "8b35efa025b6f1475c31ef6d44a697fccd00cd6ffe78513a7ddf4a66b3177f96": "write",
+  "2c41e8b82f7cd589e92f2eeb2306bb6de761837eaa99dbe5f499c9a25a496fbc": "read",
+  "fecf67aa69507a9d7ee38463dd72bb25c103f2870ae26a654d0588d75e2c592c": "write"
+ },
+ "flags": []
+}

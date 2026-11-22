@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "72fb4195911947ddcf9c2d2c8e7d5d62c6bacc8160181b768f8dec2d328dc7cc",
+ "domain": [
+  "software/ai-agents/observability",
+  "software/machine-learning"
+ ],
+ "product": [
+  "mlflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Skills for instrumenting, tracing and evaluating AI agents with MLflow to iterate on quality.",
+ "whenToUse": "Use when adding tracing or evaluations to an AI agent with MLflow.",
+ "tasks": [
+  "instrument agents",
+  "collect traces",
+  "run evaluations",
+  "iterate and validate"
+ ],
+ "effects": {},
+ "flags": []
+}

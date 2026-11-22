@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1fd27f37b39fd7293330e609b696ddccc8c43f5d1e99b25f8edaac592d14fe17",
+ "domain": [
+  "finance/regulatory-compliance",
+  "finance/mortgage-lending"
+ ],
+ "product": [
+  "hmda",
+  "cfpb"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Validates HMDA Loan Application Register files against CFPB edit checks for community banks and credit unions.",
+ "whenToUse": "Use when a lender needs to check an HMDA LAR file for errors before regulatory submission.",
+ "tasks": [
+  "validate hmda lar files",
+  "run cfpb edit checks",
+  "report validation errors"
+ ],
+ "effects": {},
+ "flags": []
+}

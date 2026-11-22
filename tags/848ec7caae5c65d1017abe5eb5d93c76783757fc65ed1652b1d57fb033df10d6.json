@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "848ec7caae5c65d1017abe5eb5d93c76783757fc65ed1652b1d57fb033df10d6",
+ "domain": [
+  "data/web-scraping",
+  "software/cli-tools"
+ ],
+ "product": [
+  "bright-data",
+  "google",
+  "bing",
+  "yandex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Guide for the Bright Data CLI to scrape sites, run search queries, use prebuilt scrapers, manage proxy zones and check account balance.",
+ "whenToUse": "Use when a user wants to scrape or search the web from the terminal with the brightdata or bdata CLI.",
+ "tasks": [
+  "scrape urls",
+  "search google, bing and yandex",
+  "run pre-built scrapers",
+  "manage proxy zones",
+  "check account balance",
+  "install bright data skills"
+ ],
+ "effects": {},
+ "flags": []
+}

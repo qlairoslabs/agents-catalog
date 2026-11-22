@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7380348055cee3ecf81703a8135e23fcb8a45813a69d15d3244a1007ba6544d0",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/databases"
+ ],
+ "product": [
+  "superdb",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Brazilian backend platform with Postgres, auth and storage where the agent creates tables, enables RLS and runs SQL.",
+ "whenToUse": "Use when building an app on SuperDB and the agent needs to manage its database schema or run queries.",
+ "tasks": [
+  "create tables",
+  "enable row level security",
+  "run sql",
+  "manage auth",
+  "manage storage"
+ ],
+ "effects": {},
+ "flags": []
+}

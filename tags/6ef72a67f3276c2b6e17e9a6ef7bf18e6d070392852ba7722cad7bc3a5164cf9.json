@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "6ef72a67f3276c2b6e17e9a6ef7bf18e6d070392852ba7722cad7bc3a5164cf9",
+ "domain": [
+  "software/documentation",
+  "software/ai-agents"
+ ],
+ "product": [
+  "tandem"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and serves Tandem's published documentation, guides and SDK help, with tools to manage a local docs cache.",
+ "whenToUse": "Use when someone needs to install, configure or build workflows with Tandem or its Python/TypeScript SDKs and wants answers grounded in the official docs.",
+ "tasks": [
+  "search tandem docs",
+  "fetch a docs page",
+  "recommend a starting path by role",
+  "suggest next docs to read",
+  "answer how-to questions from docs",
+  "return structured learning guides",
+  "warm up docs cache",
+  "check cache status",
+  "refresh docs index or pages",
+  "invalidate cache entries",
+  "compare content hashes before and after refresh"
+ ],
+ "effects": {
+  "8ea31e0da46dde4fd4529ef72cb89afe3fece4deeb6f6896ed7b2f547ea7c2a2": "read",
+  "523cbc924d0b5a4c399c7a307d23668f3583852d5aa5562bac9f69efdb4b46c7": "read",
+  "c52600995e1ee3237b46d0dd66c881fbcb4c1d7c124ee4c16398c71e82758bdd": "read",
+  "a52b08bd40663b900b29395dabb3177ff8cdaa07e6bd8b1957deccc3ed341732": "read",
+  "677e12b9e8e082ec0d73eaee354e1d6f544407c533c531c0c1bd9e46759155d2": "read",
+  "9e32c32ed2cb90ec7d481d1d7158458069ee8460a58eeea55f63131fcc283a3b": "read",
+  "ad37882f2a21585f3ffa925a25eea067e0ecb49e8b1e99d8df163625e52144d1": "write",
+  "e5e06272cabb7f70b14c886cb701e6d26737b65254950fba03e369ee3ee3059c": "read",
+  "13ba8f5ddd3be32b8c20e315af3f60657c5ce4706bfefa56b36a2b6b085fa488": "write",
+  "88c14c913a205b80d52d8e716f0d2b75cc3bafae84011a35af5de864d12cd8af": "write",
+  "264a4a62ddc5a33869f93f1005a6b0dab2bb0c35c509f158e0a457a665175fb7": "write",
+  "97c0c76021bf276c9642487d65a428e4cff8060bee379480e25bb456e8979d04": "write",
+  "4e73888e37014d73fca35f356f8e6c484069addf0d8b46afd3c7cce6233e5448": "write"
+ },
+ "flags": []
+}

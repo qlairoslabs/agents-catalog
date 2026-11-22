@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9a1ee92e2e39c983bb568d08ae00e5dee232f381bf19c2ec111529d5b0f368dd",
+ "domain": [
+  "software/mobile-notifications"
+ ],
+ "product": [
+  "00widget",
+  "ios"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "keep-in-touch"
+ ],
+ "summary": "Publish status cards and Live Activities to iOS home screen widgets, Lock Screen and Dynamic Island.",
+ "whenToUse": "Use when an agent should push a live status or progress update to someone's iPhone.",
+ "tasks": [
+  "publish status cards",
+  "update live activities",
+  "show info on lock screen and dynamic island"
+ ],
+ "effects": {},
+ "flags": []
+}

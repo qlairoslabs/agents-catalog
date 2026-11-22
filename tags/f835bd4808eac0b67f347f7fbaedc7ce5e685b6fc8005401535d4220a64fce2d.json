@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f835bd4808eac0b67f347f7fbaedc7ce5e685b6fc8005401535d4220a64fce2d",
+ "domain": [
+  "knowledge/knowledge-base"
+ ],
+ "product": [
+  "iknow"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "OAuth-secured access to an iknow.dev knowledge base for searching, reading and maintaining entries.",
+ "whenToUse": "Use when an agent needs to search, read or update knowledge stored on iknow.dev.",
+ "tasks": [
+  "search knowledge base",
+  "read entries",
+  "maintain entries"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d41fe63440e0fa0a6a1524c61cddaa8c720628641de5c7bb4cbbcf7c1af52c22",
+ "domain": [
+  "software/agency-services",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "censais"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "get-customers"
+ ],
+ "summary": "Describes the software and AI development services Censais offers and produces a rough first-pass project sketch from a short idea.",
+ "whenToUse": "Use when someone wants a team to build a web app, AI assistant or MVP and needs a rough scope and plan.",
+ "tasks": [
+  "list agency services",
+  "explain project process",
+  "sketch project modules",
+  "estimate phases and durations"
+ ],
+ "effects": {
+  "b9abe998b63635d948cf02ac7180b989e49621cc9bf640b5c9c73a7f737a6076": "read",
+  "a8aab79f2d565465219807ba95365939eacb3f7abd5bd50e4ea48677d6825457": "read"
+ },
+ "flags": []
+}

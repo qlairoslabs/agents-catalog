@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9db2de90c34869431b7ad8d53ef03d038594486eb805a3a51c55c75b4e6540fa",
+ "domain": [
+  "data/geolocation",
+  "data/demographics"
+ ],
+ "product": [
+  "zip-codes.com"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Validates and geocodes US addresses and returns demographics, districts and school data, with paid agent access.",
+ "whenToUse": "Use when an agent needs to validate or geocode a US address or get demographic and district data for a location.",
+ "tasks": [
+  "validate us addresses",
+  "geocode addresses",
+  "get demographics",
+  "look up districts",
+  "look up schools"
+ ],
+ "effects": {},
+ "flags": [
+  "agents make purchases via mpp"
+ ]
+}

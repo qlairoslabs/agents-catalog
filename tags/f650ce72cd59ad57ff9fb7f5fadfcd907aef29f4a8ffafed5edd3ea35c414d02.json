@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f650ce72cd59ad57ff9fb7f5fadfcd907aef29f4a8ffafed5edd3ea35c414d02",
+ "domain": [
+  "marketing/email",
+  "communication/email"
+ ],
+ "product": [
+  "sendgrid"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "MCP server for the SendGrid v3 API covering marketing email, transactional mail, templates and analytics.",
+ "whenToUse": "Use when an agent needs to send email, manage templates or contacts, or read email stats in SendGrid.",
+ "tasks": [
+  "send transactional email",
+  "manage email templates",
+  "run marketing campaigns",
+  "view email analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

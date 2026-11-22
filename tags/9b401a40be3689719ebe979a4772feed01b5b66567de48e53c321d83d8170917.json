@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9b401a40be3689719ebe979a4772feed01b5b66567de48e53c321d83d8170917",
+ "domain": [
+  "finance/payments/point-of-sale",
+  "software/mobile-development"
+ ],
+ "product": [
+  "sumup"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "build-software"
+ ],
+ "summary": "Helps build SumUp payment integrations for card-reader POS apps and online checkout, and control readers via Cloud API.",
+ "whenToUse": "Use when integrating SumUp terminal or online checkout payments into an app.",
+ "tasks": [
+  "build android pos apps",
+  "build ios pos apps",
+  "integrate online checkout",
+  "use checkout widget",
+  "use server sdks",
+  "control card readers remotely"
+ ],
+ "effects": {},
+ "flags": []
+}

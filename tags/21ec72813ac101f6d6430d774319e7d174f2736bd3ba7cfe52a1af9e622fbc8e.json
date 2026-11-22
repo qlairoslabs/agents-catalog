@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "21ec72813ac101f6d6430d774319e7d174f2736bd3ba7cfe52a1af9e622fbc8e",
+ "domain": [
+  "support/helpdesk-configuration",
+  "operations/change-management"
+ ],
+ "product": [
+  "zendesk"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Manages Zendesk configuration changes through a propose, review, apply and rollback workflow.",
+ "whenToUse": "Use when an agent needs to change Zendesk settings safely with review and the option to roll back.",
+ "tasks": [
+  "propose zendesk config change",
+  "review changes",
+  "apply changes",
+  "roll back changes"
+ ],
+ "effects": {},
+ "flags": []
+}

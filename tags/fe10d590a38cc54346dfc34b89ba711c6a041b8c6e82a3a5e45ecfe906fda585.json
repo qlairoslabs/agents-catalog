@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "fe10d590a38cc54346dfc34b89ba711c6a041b8c6e82a3a5e45ecfe906fda585",
+ "domain": [
+  "cloud/migration",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure",
+  "aws",
+  "aws-lambda",
+  "azure-functions",
+  "heroku",
+  "google-app-engine",
+  "google-cloud-run",
+  "aws-fargate"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Assesses workloads on other clouds and migrates them to Azure services with reports and code conversion.",
+ "whenToUse": "Use when a user wants to move workloads from AWS, GCP, Heroku or Kubernetes to Azure.",
+ "tasks": [
+  "assess cross-cloud workloads",
+  "produce migration reports",
+  "convert lambda to azure functions",
+  "migrate beanstalk, heroku or app engine to app service",
+  "migrate fargate, cloud run or kubernetes to container apps",
+  "migrate spring boot apps"
+ ],
+ "effects": {},
+ "flags": []
+}

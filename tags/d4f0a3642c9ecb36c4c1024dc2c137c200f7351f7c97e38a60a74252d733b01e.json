@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d4f0a3642c9ecb36c4c1024dc2c137c200f7351f7c97e38a60a74252d733b01e",
+ "domain": [
+  "religion/catholicism",
+  "reference/encyclopedia"
+ ],
+ "product": [
+  "wikitolica"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and reads articles of a Spanish-language Catholic encyclopedia on doctrine, saints, liturgy and history.",
+ "whenToUse": "Use when a user asks about Catholic faith, doctrine, saints or history in Spanish.",
+ "tasks": [
+  "search articles",
+  "read full article"
+ ],
+ "effects": {
+  "5274ff90da9ee84813177db23041986ecc9223cd94b8f8d5c829e4526baddfd9": "read",
+  "fc4745ddf0a28adb401c91bd25f3bd4d9dfb8e1596c8f78b515e8e22d4673251": "read"
+ },
+ "flags": []
+}

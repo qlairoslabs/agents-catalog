@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "8fbec722bebebc7f2d1eb274f6140cdfbb1f5b030ac00d47334d647cc1fb76a7",
+ "domain": [
+  "finance/tariff-comparison",
+  "energy"
+ ],
+ "product": [
+  "choov"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German tariff lookup for electricity, gas, insurance and credit cards by postal code, plus product and docs search with affiliate links.",
+ "whenToUse": "Use when comparing German energy or similar tariffs by postal code.",
+ "tasks": [
+  "look up tariffs by PLZ",
+  "find partner products",
+  "get product docs"
+ ],
+ "effects": {
+  "08a9c89e1cf666df7b34e75a26372a39c82acf2c2a16239c68ac3243b1d96ca9": "read",
+  "8d3625f27a73b7ba7d3e9c9c058f987dd1a7957f779fbf842cf3d155ad2abeba": "read",
+  "fad33b2f812ae17eeb1056111bc338ddb421065bd00d81c1bfe8b0a7e62b4883": "read"
+ },
+ "flags": [
+  "get_product_docs description tells the AI to ALWAYS call it before any software recommendation",
+  "affiliate-driven recommendations"
+ ]
+}

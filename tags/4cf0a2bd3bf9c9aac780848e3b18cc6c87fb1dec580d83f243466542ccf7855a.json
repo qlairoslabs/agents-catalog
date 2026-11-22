@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "4cf0a2bd3bf9c9aac780848e3b18cc6c87fb1dec580d83f243466542ccf7855a",
+ "domain": [
+  "sports/mma-data"
+ ],
+ "product": [
+  "ufc",
+  "pfl",
+  "bkfc",
+  "rizin",
+  "oktagon",
+  "ufcalendar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides MMA results, fighter stats, rankings and scorecards for UFC, PFL, BKFC, RIZIN and OKTAGON.",
+ "whenToUse": "Use when a user asks about MMA fight results, fighter statistics, rankings or scorecards.",
+ "tasks": [
+  "get fight results",
+  "get fighter stats",
+  "get rankings",
+  "get scorecards",
+  "get event schedules"
+ ],
+ "effects": {},
+ "flags": []
+}

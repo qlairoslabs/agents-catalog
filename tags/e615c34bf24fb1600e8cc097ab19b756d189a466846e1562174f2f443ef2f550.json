@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e615c34bf24fb1600e8cc097ab19b756d189a466846e1562174f2f443ef2f550",
+ "domain": [
+  "media/ai-video-generation",
+  "marketing/ad-creation"
+ ],
+ "product": [],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates AI videos, images, ads and short dramas from text descriptions, showing price before creation; sign-in required.",
+ "whenToUse": "Use when a user wants AI-generated videos, images or ads from a description.",
+ "tasks": [
+  "generate videos",
+  "generate images",
+  "create ads",
+  "create short dramas",
+  "quote prices"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d4e0eb676439585090a06656dd90d3d7afd251f8a91531fac214b54eac8d7d6a",
+ "domain": [
+  "data/industrial-data-management",
+  "data/time-series"
+ ],
+ "product": [
+  "tdengine",
+  "tdengine-idmp"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Skills for TDengine IDMP covering data discovery, schema inspection and guarded operational workflows.",
+ "whenToUse": "Use when an agent needs to explore or operate on data managed in TDengine IDMP.",
+ "tasks": [
+  "discover data assets",
+  "inspect schemas",
+  "run safe operational workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

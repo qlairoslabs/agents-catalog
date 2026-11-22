@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "0d8b299ba1a8d0ea844c42a369f41b059f87716805ae8b0a2af5402969dd6f4f",
+ "domain": [
+  "marketing/social-media-analytics",
+  "data/web-scraping"
+ ],
+ "product": [
+  "tiktok"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Unofficial TikTok data API for creator profiles, videos, comments, followers, sounds, hashtags and search, paid per call via x402.",
+ "whenToUse": "Use when you need public TikTok data for influencer vetting, trend tracking, engagement analysis or competitive research.",
+ "tasks": [
+  "fetch creator profiles",
+  "list creator videos",
+  "list followers and following",
+  "read video stats",
+  "read comments and replies",
+  "get watermark-free download URL",
+  "search videos, creators, hashtags, sounds, lives",
+  "track sound and hashtag trends"
+ ],
+ "effects": {
+  "c37ac9a1aa5560b5af26ee8da72292b78631f6482417fa8a18481948fa347e86": "read",
+  "cee5c4c8f0a8af5ba3657f715782c85a6f07d7f05bcbd04d44e1e6f0f1d36278": "read",
+  "c80bc66d1263fa12955188b4429c3274cd50c82e4acd9ca49bc459dadceaee85": "read",
+  "621bbcb32a57d690e75432beaf6d7367fbd9faa3d2747196cf58bfcf22bc6b94": "read",
+  "9368272b9dde3f193c163fe49282659506e675719822c9e1dc214a9a90ffd2d5": "read",
+  "06f633551aa91dcff7042a1f4678b9fdb800a37267c541e6d171b8d393c1653c": "read",
+  "c01b904fa30b0ce955d789ad5eeb6c3e878112790f6df56b57c53426131db759": "read",
+  "fdadddbe71663611e92591af82e9c5d5c385a65b9c330d651547988654bf4aed": "read",
+  "df9a0f86ca4e46277107c8092d71ff7e65b978f71544a86655fda46ad40a0a28": "read",
+  "8d65f1f0ea640f52d2d4dec52ecf890ef1d7923595289851af2a8be60d21c779": "read",
+  "7c8c255b3dedef3701c17564880d65a9cdc39842645487a9ec2217a27a7f3748": "read",
+  "d390c9994613529a2a13c86ee09aa97a3517cff1f7cad0905423d6d0521be567": "read",
+  "ff7b9f9ad6f53f185d36b933f44e575f4fcf82857f91c91ba184bfe2e4423277": "read",
+  "e7e596df6a7abdcbd399f6721845a917652d552245018686039e64c0e8d39ffa": "read",
+  "32bdb762c1557f2a0ff78c69c60ef36dfd843e3fc8003d50484a4835aedec862": "read",
+  "b4e7bdaf13940552782e773d59d30ff6c06f1eec75830e86dab07e08e3b7274c": "read",
+  "6be9108bbe90887f0aa9ac4185c92f06e1291b6a3f3dd8747b68aaad0f6f6a48": "read",
+  "1e73178871daa2c1020cc52140e0a1ff295ebcbbfeae5854bab3cef119ad2872": "read",
+  "d2441fa20a86b18b8b0a6937635970ed872d35c5c6c0ee361534e8126780d2ef": "read"
+ },
+ "flags": []
+}

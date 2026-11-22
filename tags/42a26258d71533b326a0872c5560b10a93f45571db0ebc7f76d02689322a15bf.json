@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "42a26258d71533b326a0872c5560b10a93f45571db0ebc7f76d02689322a15bf",
+ "domain": [
+  "data/databases/nosql",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure-cosmos-db"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Assistant for Azure Cosmos DB data modeling, query optimization and performance tuning.",
+ "whenToUse": "Use when designing or tuning an Azure Cosmos DB database.",
+ "tasks": [
+  "model data",
+  "optimize queries",
+  "tune performance",
+  "apply best practices"
+ ],
+ "effects": {},
+ "flags": []
+}

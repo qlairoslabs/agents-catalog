@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "077e779f92470183b682d1d41c46b6a7d1b17b562fc4bf521f4660915e9961f7",
+ "domain": [
+  "legal/ai-regulation",
+  "compliance/reporting"
+ ],
+ "product": [
+  "systemprompt.io",
+  "x402",
+  "stripe",
+  "usdc"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Paid EU AI Act compliance reports at $1.50 per call via x402 USDC on Base or Stripe.",
+ "whenToUse": "Use when an agent needs an EU AI Act compliance report and payment per call is acceptable.",
+ "tasks": [
+  "generate eu ai act compliance reports"
+ ],
+ "effects": {},
+ "flags": [
+  "charges per call"
+ ]
+}

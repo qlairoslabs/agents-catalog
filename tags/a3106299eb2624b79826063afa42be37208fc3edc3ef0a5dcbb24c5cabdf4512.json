@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a3106299eb2624b79826063afa42be37208fc3edc3ef0a5dcbb24c5cabdf4512",
+ "domain": [
+  "finance/personal-finance",
+  "finance/banking"
+ ],
+ "product": [
+  "plaid"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access via Plaid to bank and investment accounts, including balances, holdings, transactions and SQL analytics.",
+ "whenToUse": "Use when an agent needs to review a user's account balances, holdings or transactions.",
+ "tasks": [
+  "view balances",
+  "view investment holdings",
+  "list transactions",
+  "run sql analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

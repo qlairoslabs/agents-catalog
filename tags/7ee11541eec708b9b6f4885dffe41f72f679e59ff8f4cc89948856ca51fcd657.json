@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "7ee11541eec708b9b6f4885dffe41f72f679e59ff8f4cc89948856ca51fcd657",
+ "domain": [
+  "travel/hotels-flights",
+  "travel/price-comparison"
+ ],
+ "product": [
+  "booking-com",
+  "agoda",
+  "trip-com",
+  "traveloka",
+  "hotels-com",
+  "airbnb",
+  "kiwi-com",
+  "google-flights"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "run-the-money"
+ ],
+ "summary": "Compare live hotel and flight prices across many travel sites, view fare calendars, and request or cancel bookings at partner hotels.",
+ "whenToUse": "Use when comparing hotel or flight prices, checking fare trends, or booking and cancelling a partner hotel stay.",
+ "tasks": [
+  "search hotels live",
+  "poll hotel results",
+  "search flights live",
+  "poll flight results",
+  "fare calendar",
+  "price insight",
+  "hotel details",
+  "compare hotel link prices",
+  "cancellation policy",
+  "request booking",
+  "check booking status",
+  "cancel booking"
+ ],
+ "effects": {
+  "04bf5a6c2a460e63627c0620c6c4e69a3b36f3a9f811b20856009a52d2793c7e": "read",
+  "ba35f629ea311fcb0c0e2f254e42034ff2992222aa8901dfd4b4958327f3789f": "read",
+  "f5ae7dc54ca0ec7bd631071afbc6ec617c92c6a098b25797580b139f38a62552": "write",
+  "ce7fd8e1e2d09747fd2bd3fa58aef29bb11f8451c859a6c6e4d5d12650aa39b5": "write",
+  "181ec97ad478f707fdf5c6ae20a32232f73e46b5bc846a9abae41d4bba44a792": "read",
+  "57e38c4e099aee11706491131444402c4468f6353dc82e474a93c8f870e21eb4": "write",
+  "d0fdb2d41199db2970c01ac5b46cffc4e62990ab099c38aa690ff0f2d4ec70cd": "read",
+  "e405aaf44e2ce3ac4f91483e38dc0f83c963aed1eff2b3d5b1ad7630196a2444": "read",
+  "afdbb527370b83c13c12d213c9c2bd050129194193e3a03dc7cbdd374a17e2a9": "read",
+  "c51af651462ea6fd4a40496a701a72cde9d98c964e0d428d113568357f476fd9": "read",
+  "e0be5d1494fd5038864da8ac6cb7c836dc570d2e28e84a069710c44b811e6970": "read",
+  "a8666d7a331ffb51566649d100e5ecd3060721549b7f5939f9a794a405dd1235": "write",
+  "c3b111ef6f53f412e85a7c134994d2d266931ac9d87a5d87b0ee012f67308a30": "read",
+  "64ceda1ef0b9fa2ff3e0e1aa5ff27e7ef18c67a1de5062d3c6a65eb13d14d817": "read",
+  "e28eba29dc320dc5acc15c23c300bd759ade549363ad5046ad116d982a1aa2eb": "write",
+  "2335d80c6e15b826d5e169e5164910a99baa23da9ccdec2f2c359976439ba1a4": "write"
+ },
+ "flags": []
+}

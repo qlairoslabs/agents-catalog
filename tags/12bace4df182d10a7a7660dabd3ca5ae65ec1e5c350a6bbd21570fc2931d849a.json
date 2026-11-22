@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "12bace4df182d10a7a7660dabd3ca5ae65ec1e5c350a6bbd21570fc2931d849a",
+ "domain": [
+  "finance/equity-research",
+  "finance/earnings-analysis"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Produces a cited post-earnings digest of a public company's latest results, guidance, surprises, scenarios and valuation, using Bigdata.com data.",
+ "whenToUse": "Use when a user asks how a public company did in its most recently reported quarter.",
+ "tasks": [
+  "compare results to consensus",
+  "break down revenue and margins",
+  "review segment kpis",
+  "summarize management guidance",
+  "review cash flow and balance sheet",
+  "check bull bear thesis",
+  "update scenarios with expected value",
+  "cross-check valuation"
+ ],
+ "effects": {},
+ "flags": []
+}

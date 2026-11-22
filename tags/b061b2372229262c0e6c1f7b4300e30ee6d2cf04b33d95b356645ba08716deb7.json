@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b061b2372229262c0e6c1f7b4300e30ee6d2cf04b33d95b356645ba08716deb7",
+ "domain": [
+  "travel/booking-search",
+  "travel"
+ ],
+ "product": [
+  "travel-world"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Read-only travel tools for looking up flights, hotels and travel brands, with OAuth sign-in.",
+ "whenToUse": "Use when an agent needs to search flight or hotel options while planning a trip.",
+ "tasks": [
+  "search flights",
+  "search hotels",
+  "look up travel brands"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "09ba5d73d1acb93b01b23867977a01310a95450f888f59bd117b021f217c63aa",
+ "domain": [
+  "software/ai-agents",
+  "software/development-workflow"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Runs Claude repeatedly on the same task, feeding back its prior work, until the task is complete.",
+ "whenToUse": "Use when an agent should iterate autonomously on a development task over many passes until done.",
+ "tasks": [
+  "run iterative agent loops",
+  "repeat task until completion"
+ ],
+ "effects": {},
+ "flags": []
+}

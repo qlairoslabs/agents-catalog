@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8b22a78ef27224c2ec2e5e752125b65fd2898029c1cecb9d45fefe3e1ea95d44",
+ "domain": [
+  "shopping/price-comparison",
+  "energy-storage"
+ ],
+ "product": [
+  "wospeicher",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German price comparison for home batteries and power stations with best-price search, guides and offer re-checks.",
+ "whenToUse": "Use when the user wants current German prices or buying advice for energy storage.",
+ "tasks": [
+  "search best storage offers",
+  "find guides and comparisons",
+  "re-check offer price"
+ ],
+ "effects": {
+  "d6e4216855b5147233acf385beddf29065519084ef3b940e0c44497064172754": "write",
+  "573f665dca273a0d2adcb45bf91661c4a0acf767e4f05c11118f6690e5c73e78": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

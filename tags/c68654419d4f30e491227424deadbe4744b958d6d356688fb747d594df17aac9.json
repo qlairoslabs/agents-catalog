@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c68654419d4f30e491227424deadbe4744b958d6d356688fb747d594df17aac9",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local-first memory store for AI agents that lets them read, correct and delete stored memories over MCP.",
+ "whenToUse": "Use when an agent needs persistent memory it can recall, correct or delete across sessions.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "correct memories",
+  "delete memories",
+  "share memory across agents"
+ ],
+ "effects": {},
+ "flags": []
+}

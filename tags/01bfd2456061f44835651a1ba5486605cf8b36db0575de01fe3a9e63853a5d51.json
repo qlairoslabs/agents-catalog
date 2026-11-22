@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "01bfd2456061f44835651a1ba5486605cf8b36db0575de01fe3a9e63853a5d51",
+ "domain": [
+  "web/domains/dns",
+  "web/hosting"
+ ],
+ "product": [
+  "porkbun",
+  "cloudflare"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Official Porkbun server for managing domains, DNS, SSL certificates, hosting and Cloudflare through the Porkbun API.",
+ "whenToUse": "Use when an agent needs to register or manage domains, edit DNS records or handle SSL on Porkbun.",
+ "tasks": [
+  "manage domains",
+  "edit dns records",
+  "manage ssl certificates",
+  "manage hosting",
+  "configure cloudflare"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "880df7c2bca2f6a15277e4823845842054e2bb30b8f8e6c631b9336edad2b5f0",
+ "domain": [
+  "crypto/naming-service",
+  "crypto/blockchain"
+ ],
+ "product": [
+  "robinhood-chain",
+  "hood-name-service"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only lookups for .hood names on Robinhood Chain: forward and reverse resolution, text records, availability and price.",
+ "whenToUse": "Use when you need to map a .hood name to a wallet address or back, read its records, or check if a name can be registered.",
+ "tasks": [
+  "resolve name to address",
+  "reverse resolve address",
+  "read text records",
+  "check name availability and price",
+  "get full name info including owner and expiry"
+ ],
+ "effects": {
+  "9a4fd3bfb4b7a4d78f06683f0301220c90bef88ce23ba1bed19aa29e70fc8974": "read",
+  "0c9668511c07075363677bef9e7d1274867ee014522e8180cd077179070d7777": "read",
+  "3b97fcfff3225150536b116f66b43d6067252373fdd2293b86055732b0c0ff1b": "read",
+  "2facc5aa9281ebeac38d97d9c4e8af18c7620a3767e4042c865793339587275a": "read",
+  "8f1b0847749cd28aa3ceb73607931f746ce4ec925428866aae80f924489b8138": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "a8fd33a7e154140224ef879f3285c209a8005fba283c303ee37e0c1af251fcc0",
+ "domain": [
+  "software/ui-components",
+  "software/scheduling-components"
+ ],
+ "product": [
+  "daypilot",
+  "react",
+  "angular",
+  "vue"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "schedule"
+ ],
+ "summary": "Official DayPilot docs search, package resolution, CSS theme rendering and verified starter project generation for scheduler, calendar, gantt and similar components.",
+ "whenToUse": "Use when building with DayPilot: finding API docs, picking the right package, generating a theme, or scaffolding a new project.",
+ "tasks": [
+  "search documentation",
+  "fetch doc article",
+  "resolve latest package",
+  "list builder components",
+  "validate project spec",
+  "generate project ZIP",
+  "get theme manifest",
+  "render CSS theme"
+ ],
+ "effects": {
+  "6aaf6c58bd09941d66cc8d5f7e0356978b69d56beaab857c942db75d9887602f": "read",
+  "80586601c92adf773bb7eca1422c1b8e1331a244ba2f75369de72065b14f4feb": "read",
+  "16a15247bd0f767105f36962633ef1bfdfa4a2ba6229cd98b053aaf998fdbf18": "write",
+  "c8ebf8bf9cb28652ef4dc8ba94083cbe9a515a27b0d8f079077cee37ed907f8b": "read",
+  "650693f5eac2b9f7d5a088f897ab939291a03ef084f760b691945116c493a7a5": "read",
+  "81c95a12c7b90703dceeb6a12fe69ccc3402c9f460ee0b12f3042ae3df833d28": "read",
+  "2e87cd2786206fda31b72c948c66f17404c45e27c75725601716e48486d738ba": "read",
+  "6e525353e649febf2112e3b5f929191980d809f365aca5dc97be7ff14d16420d": "read"
+ },
+ "flags": []
+}

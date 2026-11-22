@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "639f10b8356c5dadb19563ac08ce9d8d1e2423cdbde8c6782a66eabde6829c5a",
+ "domain": [
+  "marketing/website-audit",
+  "marketing/seo"
+ ],
+ "product": [
+  "kashif",
+  "whatsapp"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Audits a business website's online presence, returning a 0-100 score and top issues, and emails the full report in English or Arabic.",
+ "whenToUse": "Use when someone asks to audit, grade or improve a business website's search visibility, trust, speed and contactability.",
+ "tasks": [
+  "score website online presence",
+  "list top issues to fix",
+  "check search visibility",
+  "check AI assistant readability",
+  "check mobile speed",
+  "check contact options",
+  "email full report",
+  "generate Arabic report"
+ ],
+ "effects": {
+  "03bc5b61433be27b5aa5d64cee67042c04369fe4865d6b6a13ce5e07017d46a9": "write"
+ },
+ "flags": [
+  "requires an email address, described as a lead for the vendor's team, so user contact details get captured and sent to a third party"
+ ]
+}

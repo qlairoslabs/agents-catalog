@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "47343962a232d20230cac562b3543646692e5801dc346afaa9db5d29bf8dc7d1",
+ "domain": [
+  "hobbies/trading-cards",
+  "commerce/pricing"
+ ],
+ "product": [
+  "magic-the-gathering"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Magic: The Gathering card prices, price movers, arbitrage, sealed box expected value and seller inventory tools.",
+ "whenToUse": "Use when an agent needs Magic: The Gathering card prices, market trends or seller inventory data.",
+ "tasks": [
+  "look up card prices",
+  "track price movers",
+  "find arbitrage opportunities",
+  "calculate sealed box ev",
+  "manage seller inventory"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "c10bbd34c1e4598cf18ba80bc9b4e2c571aa23048589d7d49e9d45a21d99f7f3",
+ "domain": [
+  "food-and-drink/no-low-abv-beverages",
+  "hospitality"
+ ],
+ "product": [
+  "beyond-wine"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Claims-based reference on no and low alcohol specialty beverages, producers and people for fine dining, with source provenance and a relationship graph.",
+ "whenToUse": "Use when researching non-alcoholic wine alternatives, craft ferments or teas and their producers, with sourced claims.",
+ "tasks": [
+  "search claims",
+  "get claim with provenance",
+  "search producers",
+  "get producer",
+  "search beverages",
+  "get beverage profile",
+  "get entity profile",
+  "list entities",
+  "get topic context",
+  "get relationship graph",
+  "get ontology"
+ ],
+ "effects": {
+  "b75fa4ef6ac9ec6b771bfbd963b4dc76cc6d75b38ec77712bf940ac5e1af3fb8": "write",
+  "f569c515a13bebe210703c91b7b5ab6625664b94033130ec7990f72f09ac08be": "write",
+  "79856f3e185c6c88d3a02bb4d28b492d5377eb47644707d9fd89c4bc6f0c2b8c": "write",
+  "15bdb53ec362771c7725d9323b327a817248753d7e5b10ab74f9642c323bd4a2": "read",
+  "31b97db51ca2b18ec1c79eeed3aa9954b3c424464d880c6ca2a65a36529a394a": "write",
+  "70b851fe1f50c97dd3ad0f158e274fa8a5bc6a6bb82b9beaca688b038d495b3a": "write",
+  "3cd687b0e4fec517c8e5a2470f3785c21b77a408737da92a3e346c22611771b9": "write",
+  "0a138d3577ed642c684bf65d39fe86afa990935ff0285b8df812c9d28cd8a47a": "read",
+  "23b55ab22cc3b4b799d3f27537ec94845bea4a3219bdacaeeef80d75c153dd57": "read",
+  "984f251ce928b42b37fab3f4e5596e46c88251896fb71a7128630880495c22e5": "read",
+  "1000e3247e23de01b45ecb68a787221783e230fcf4dc0c725a87d5b8a4974605": "read"
+ },
+ "flags": []
+}

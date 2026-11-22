@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b1d8f83e39331c85b392bed458623d56dfcb97adaaf09cc30ab5b798a5a4a899",
+ "domain": [
+  "finance/equity-research/ipo",
+  "finance/investing"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Writes a balanced research note on a company's one-year post-IPO lock-up expiry, float expansion and likely insider selling.",
+ "whenToUse": "Use when a user asks about a recently listed company's 366-day founder lock-up expiry or float expansion.",
+ "tasks": [
+  "analyze lock-up structure from prospectus",
+  "calculate float expansion and days-to-trade",
+  "estimate index reweight demand",
+  "assess likelihood of founder selling",
+  "review dual-class governance",
+  "write two-sided setup note"
+ ],
+ "effects": {},
+ "flags": []
+}

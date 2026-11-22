@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6217339930261f29005e312cfa9a38bf46becfcaf5116e1a6b6cc842cf9a8154",
+ "domain": [
+  "hr/role-design"
+ ],
+ "product": [
+  "agora-merit"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Free assessment of a job title and responsibilities, returning findings and a private review link for a human.",
+ "whenToUse": "Use when a user authorizes sharing a job description for a role-design assessment.",
+ "tasks": [
+  "get service info and pricing",
+  "assess job responsibilities",
+  "generate private review link"
+ ],
+ "effects": {
+  "451902e5026b382b49dbb09a60aba66e25d322249ad8cf266219bd402725c1af": "read",
+  "d5aad48ec2a41173c733d3ebb944be6a0e316658e51cff7ffdb61ed280b04b9b": "write"
+ },
+ "flags": []
+}

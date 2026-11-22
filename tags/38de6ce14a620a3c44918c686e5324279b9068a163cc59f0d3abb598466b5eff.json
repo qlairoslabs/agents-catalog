@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "38de6ce14a620a3c44918c686e5324279b9068a163cc59f0d3abb598466b5eff",
+ "domain": [
+  "geospatial/geocoding/routing"
+ ],
+ "product": [
+  "geloky"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Paid geocoding and reverse geocoding with road distances and multi-stop routing.",
+ "whenToUse": "Use when converting addresses to coordinates or computing road distances and routes.",
+ "tasks": [
+  "geocode address",
+  "reverse geocode",
+  "calculate road distance",
+  "plan multi-stop route"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "519753b189d77a374198dadc0c15f985f6d7b5238b76d7253d0f4ee7d2cc9c9c",
+ "domain": [
+  "design/ui-design"
+ ],
+ "product": [
+  "figma"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Local MCP server covering the Figma REST API.",
+ "whenToUse": "Use when an agent needs to read or work with Figma files, comments or design data.",
+ "tasks": [
+  "read figma files",
+  "access figma rest api"
+ ],
+ "effects": {},
+ "flags": []
+}

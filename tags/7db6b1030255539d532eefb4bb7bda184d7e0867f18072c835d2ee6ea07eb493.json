@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "7db6b1030255539d532eefb4bb7bda184d7e0867f18072c835d2ee6ea07eb493",
+ "domain": [
+  "home-services/renovation",
+  "local-business"
+ ],
+ "product": [
+  "wordpress"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Read-only access to a Polish renovation company's public services, price list, locations and project gallery, with calculators for painting and renovation labour estimates.",
+ "whenToUse": "Use when someone asks about renovation services, prices, service areas or past projects of ABC Remonty Oleba in the Warsaw area.",
+ "tasks": [
+  "search site content",
+  "list services",
+  "get service prices",
+  "check service area",
+  "browse realizations",
+  "estimate painting cost",
+  "estimate renovation cost",
+  "find location pages"
+ ],
+ "effects": {
+  "4d90f63639645b54c8c1bbca74a09b3063d61ed992d4be4ce147b484cf82819d": "read",
+  "6948145a2a217c20ec6afb57ed168e077a1a406d30caa7429ae1ae15240869a5": "read",
+  "a0df79a63b4e8777b38b7bdf08ed760f4d12d925bddd0923a06ee5b8d30a95a2": "read",
+  "b789ab3a2691e1dcca620d56a137075f1d19eab0401e4c0f6f14d87f97775dbb": "read",
+  "0e5cdcb808d34a5c61333ede24f6be3e2238a51a375dc83b82c0cc6f747603be": "read",
+  "c9fbb5f46c647804b383ca53d12c67fc0480cd23b5973a3e29c69bbb2faaf274": "read",
+  "7fdb1d5eaeb7d92c2d9a0cfe54b0ec2b7777d05481f78ab1e77815c2603be7fa": "read",
+  "223100bb25538dd111a5109918f4b86c79be667ea330b116ca07c34337367456": "read",
+  "cc341483752a3e70edc7e4fe778007165a3682fc52dca325563dbb02b8a7d0cb": "read",
+  "4482f724c47021d5d2b57b009bc8739cd63f3f9dbb0a7b3df9eb3d6c37e7e0e3": "read",
+  "c1237458ce5c1d04bd9aa7a59741d6730d816a2772e92ab3206d66a2fff4397e": "read",
+  "031757cdb51473fa6aa88a99c4756f0b7386e6571bc36a27b86f703ebd8169b6": "read",
+  "9a486f05488b17bc9c3db9d383d3176e1ba1b42c5ccc790f50f67b51da58c696": "read",
+  "3afc6b38dc17b4cf1d6c0fe8ff8c6b45500ca6d690a7cfee2c7c4931e68074fd": "write",
+  "7990cd9c0e72056fdb4768a5c0d4cf6e43ad04051b5c72839fc7f30a7258cbb0": "read"
+ },
+ "flags": []
+}

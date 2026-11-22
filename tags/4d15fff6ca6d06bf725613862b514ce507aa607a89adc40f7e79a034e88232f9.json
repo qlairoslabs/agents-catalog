@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "4d15fff6ca6d06bf725613862b514ce507aa607a89adc40f7e79a034e88232f9",
+ "domain": [
+  "travel/art-tourism",
+  "culture/museums"
+ ],
+ "product": [
+  "travel.art"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "create-content"
+ ],
+ "summary": "Art travel data covering biennales, art fairs, museum guides and opening days, layover itineraries, nearby places and city itineraries.",
+ "whenToUse": "Use when planning art-focused trips, checking art event dates, or museum visit details.",
+ "tasks": [
+  "find art events",
+  "get event details",
+  "find museum guides",
+  "check museum open days",
+  "find layover itineraries",
+  "find nearby places",
+  "build city itineraries",
+  "recommend art trips"
+ ],
+ "effects": {
+  "071c18056d4b8f8bac371552b02e6ef865f78d2a9b61cb1f687d40a728376b76": "read",
+  "d160c7df533f09cbc70fe5dab5fcf81b34093eb747bac11917e24816b10ef643": "read",
+  "4eba5aadf36138298ae7907ee63c2810bd664312335008f8e4572efe6111bf76": "read",
+  "9916f3e8e30fe7a1352f9e5ba1b0920b8ffb4f5a1af7d57cdfa1257e287993b2": "read",
+  "e621dc59a15b0562911416174cf3600298fa604cf218978cc6cd3a0506486a09": "read",
+  "f347cce410d0e21ab9375663601fd3c35ae88f1ca0d88a8c2da0b7e80cca19ed": "read",
+  "30e2b41fd24819b0bbda549642101b79d8a4b811f25741613ce5f8169d39a001": "read",
+  "897c58ec0186d963fc2d7361658ef906301574b52d02e180d2b2baf48000b2da": "read"
+ },
+ "flags": []
+}

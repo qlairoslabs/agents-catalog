@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "a29c8e82ebd2a7095711b66411d41e41411ce4632be46428e53f62d6767233e8",
+ "domain": [
+  "crypto/defi"
+ ],
+ "product": [
+  "thorchain"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "THORChain data and swap tools: quotes, non-custodial swap preparation, swap status, pools, vault addresses, fees and network info.",
+ "whenToUse": "Use when quoting, preparing or tracking cross-chain swaps on THORChain or reading pool and network data.",
+ "tasks": [
+  "quote swap",
+  "prepare swap instructions",
+  "quote limit order",
+  "track swap status",
+  "list pools",
+  "pool stats",
+  "inbound addresses",
+  "outbound fees",
+  "network summary",
+  "lookup thorname",
+  "check memoless reference"
+ ],
+ "effects": {
+  "81c7874beb120b60242c02d6bd57eee623395b052ac8f20697fb6d506dde8e01": "read",
+  "bfe43825a376407fde5e08d17773c0716bec4afffec7e1a1da0f883b67327b41": "read",
+  "e63c7aec4491b0b7d140fb3bb7815292d47555b49f78c5f406c41a7c8fe99338": "read",
+  "b19addc787b1b6a317891b323511c3b3a84fb1cdb24f403faa26041a92227a33": "read",
+  "becd30983ce4078234bc9d6e915b414c0bbeacf48aeda42ddc1b96e037fe852a": "read",
+  "2a30d577ed06eb31378ebc3c72b8d7b939965125153ca0e7895c07f8d02c2100": "read",
+  "66260853d63aff3fee00b7589641ebad2a7fd16883174dd572c419de63e9c413": "read",
+  "ec3924cd9eca903bd4d3affc820932f4b8968c62f19da42fad4aa22252c2e6f5": "read",
+  "2d312f10e0f0ca96f2ce922ac98500ce3c3ac6a1f5b16745f7f580268f152770": "read",
+  "9d47cc473ad45045f7980ece10ab1f99048a01b5772da84c6958436519d15ce6": "read",
+  "2660f8cb7244eb832aad5be448c3db6df21d9c5bd6239ec2cc33e2a473a4bd62": "read",
+  "507cab4d4a338dfcb7c904780c6493192df6f3a4af147de58c3cad851bc43abd": "read",
+  "36824e75a2f1c02e87cbcb758bc1f0dd44d13fcc022c91a6bebdd609bf1857ea": "read",
+  "e7cc9e187d7c8ed760d4dce22330bcb992f91a00fa6b6d3f59cb2f2e6f97a411": "read",
+  "c52cebe966bd4388b37ec49b8a0c435f4160a22746bb8f540128b20e0cb800f7": "read",
+  "47ee8c4c4a926afd018075263969dbaa9c2fc5b01e6f391cf1fb3c8020f6690f": "read"
+ },
+ "flags": []
+}

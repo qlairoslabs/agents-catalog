@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7d8add8278c74a99303d71c96026329d18ae2f9dd02b29a5dee841494152bc16",
+ "domain": [
+  "commerce/auctions/whisky",
+  "data/market-prices"
+ ],
+ "product": [
+  "whiskyhunter"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides whisky auction market data including past and live lots, prices, distillery statistics and retail listings.",
+ "whenToUse": "Use when researching whisky auction prices, distillery statistics or bottle values.",
+ "tasks": [
+  "look up past auction lots",
+  "view live auction lots",
+  "check whisky prices",
+  "get distillery statistics",
+  "browse retail listings"
+ ],
+ "effects": {},
+ "flags": []
+}

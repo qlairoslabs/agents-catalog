@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "c88eb8c19fb8496e0c371ff358aa446bf62631e9b09bbea863882989b4c4d76c",
+ "domain": [
+  "travel/entertainment",
+  "travel/las-vegas"
+ ],
+ "product": [
+  "vegasnearme"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only Las Vegas guide for shows, showtimes, restaurants, attractions and resorts with nearby search, comparison and ticket links.",
+ "whenToUse": "Use when a user plans an evening or trip in Las Vegas and needs shows, showtimes, dining or venue details.",
+ "tasks": [
+  "list shows by date",
+  "find showtimes",
+  "browse discover lineup",
+  "find dining near shows",
+  "search catalogue",
+  "search nearby",
+  "compare items",
+  "get ticket links",
+  "get item details",
+  "get venue and resort details",
+  "browse categories"
+ ],
+ "effects": {
+  "d77b8e8ba70a0c1b247cc25e351f3853aaa47e176c92011c0a8abde05229baa0": "read",
+  "fcc2535b10d029af43f4572960eed6b5fc015cf81c051889efbd072b1f5b6076": "read",
+  "eba9b3011bcd8d737ec98f67b3d718fba4c81330d7a26237ab331992b051c686": "read",
+  "0dd93cbb0b1ca3f162d96dfae886a45e04431d546d16ded4a95e7e2edf76b490": "read",
+  "63cb81fb09cdb5b35151656b6111a758839e68e71e4cec78e832c686b3c0fc56": "read",
+  "d076286ad087d3a1757be64c922fc6d9c9699c1303224ff94dbf0fe08cd84839": "read",
+  "f2a70e604bfeff1d957170c3f27b09e6f7eb660cc819a30d2fae18aee94a8458": "read",
+  "3ba3566ab97940defb0a4f3b026b7d7275806f4db4029fbd28fb40c3290ab95d": "read",
+  "6317d5d42ca674cc6e6e16ab4676091a4a260290388a88ae2e661041fd004ac8": "write",
+  "c0d1e5d828edb3be3273548696caa4a54a8f0b0f04ccfce0ed60625d08366d51": "read",
+  "f0c3545fe3ae672aa74ad96fccb15ff14840838702df02a57dc6f874e0bc8319": "read",
+  "a08f596914a2afcfe435f328fb7474c4eec17d37750f3d9bb7a6bc5553777c2e": "read",
+  "af63fb6865e2f2f7ddc918da46306fb52fdd340491f6fd8a30bc26875282fb2e": "read"
+ },
+ "flags": []
+}

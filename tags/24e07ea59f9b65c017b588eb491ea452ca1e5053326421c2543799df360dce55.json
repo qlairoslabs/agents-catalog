@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "24e07ea59f9b65c017b588eb491ea452ca1e5053326421c2543799df360dce55",
+ "domain": [
+  "health/mental-health",
+  "health/counseling"
+ ],
+ "product": [
+  "foundations-counseling"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "get-customers"
+ ],
+ "summary": "Read-only information about a private-pay counseling practice in Northern Colorado: counselors, services, offices, fees, availability and how to start.",
+ "whenToUse": "Use when someone asks about counseling options, counselors, fees or how to begin therapy at Foundations Counseling in Northern Colorado.",
+ "tasks": [
+  "find counselors by service, office or age",
+  "get counselor profile",
+  "list therapy services",
+  "get office locations",
+  "check fees and insurance",
+  "check availability",
+  "explain how to start",
+  "search mental health articles"
+ ],
+ "effects": {
+  "e463ba7b931cab6a6fb821e6504cc19665b206ad284cdbca1ccd28939370ff20": "read",
+  "629439b25d89f7387e678302dc885d0621c6e8bdc1d8c412c6f7f664085e23a6": "write",
+  "e1257468662f3f4a5d85b6d73822fcad518cb8f1bdd1d0c50e7943704840c457": "read",
+  "6c45436102a3d847b3030c04e2600130a9242e8295140f1c695e1615716f58ba": "read",
+  "aa0f929520843af9bc5d93d90ffbb9038cb11c78b907fd782e2f56477ace0400": "read",
+  "d66ef62156a259b3427b72a23342e9586bcc9e0cd4f67ef976ef36433d3e2e32": "read",
+  "93838be20813451319bfae80c2f3b1c6696e5469f6b54de75d1694a54aee5849": "read",
+  "36741becb7967b3710ab5243705602695bbe23fb75a7b492a4efa45e38ec288e": "read",
+  "4ee61e9480679a39d24c351898a3b0d5950c2dbee600422b5c304ced9bbbc3c3": "read",
+  "c7812c54e469a74e39bce042be1aaa2280cf905bb3aa1a580238484cca67d8fa": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "851b492c13d5e11c7162d7121d570447c7ebf8f765d95c22aa49a6cdd15868bd",
+ "domain": [
+  "retail/home-appliances"
+ ],
+ "product": [
+  "filtrecharbon",
+  "fac"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Finds FAC charcoal filters for extractor hoods, shows specs, price and stock, and prepares a private checkout link for France or Belgium.",
+ "whenToUse": "Use when a user needs a replacement charcoal filter and wants to order it in France or Belgium.",
+ "tasks": [
+  "find filter by reference",
+  "view specifications",
+  "check price and stock",
+  "prepare checkout link"
+ ],
+ "effects": {
+  "6ae35b6789aca1b088d1a957b4a48b24734c8a6cac1947b0c49b86c762faa780": "write",
+  "43df03eaf1c5f92db447ef81ad2832f44559478d9ddb47cb3d9e2c5529cc93f0": "write",
+  "549df78b4e62dc918e7b939a99aeee94ac07b91714b9ca177223990371f043d7": "write"
+ },
+ "flags": []
+}

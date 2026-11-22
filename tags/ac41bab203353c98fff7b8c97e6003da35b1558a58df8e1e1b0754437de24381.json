@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ac41bab203353c98fff7b8c97e6003da35b1558a58df8e1e1b0754437de24381",
+ "domain": [
+  "commerce/dropshipping",
+  "commerce/marketplace-management"
+ ],
+ "product": [
+  "ebay",
+  "amazon",
+  "shopify",
+  "hustle-got-real"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Manages dropshipping across eBay, Amazon and Shopify, covering products, listings, prices, stock, orders and analytics.",
+ "whenToUse": "Use when an agent needs to run dropshipping listings, pricing, inventory or orders across marketplaces.",
+ "tasks": [
+  "find products",
+  "create listings",
+  "update prices",
+  "sync stock",
+  "manage orders",
+  "view sales analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "50a8f2295ab590cc8b0ab1d4a2e6979c2bb2116ca35c12764a058b51f2b0b5d6",
+ "domain": [
+  "finance/crypto-risk",
+  "finance/portfolio-analysis"
+ ],
+ "product": [
+  "sentralis"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Crypto portfolio risk analytics including value at risk, scenarios, liquidity and correlation.",
+ "whenToUse": "Use when measuring the risk of a cryptocurrency portfolio.",
+ "tasks": [
+  "compute value at risk",
+  "run scenario analysis",
+  "analyze liquidity",
+  "analyze correlations"
+ ],
+ "effects": {},
+ "flags": []
+}

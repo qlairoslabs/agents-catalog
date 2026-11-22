@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2ccd17fdd61209cf9c6075938083f48973b64e872460df7f555f037b258117da",
+ "domain": [
+  "software/error-tracking",
+  "software/observability"
+ ],
+ "product": [
+  "flare",
+  "laravel",
+  "php"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Fetches errors, stack traces and context from Flare error tracking for Laravel and PHP applications.",
+ "whenToUse": "Use when debugging a Laravel or PHP app and the agent needs recent errors and stack traces from Flare.",
+ "tasks": [
+  "list errors",
+  "fetch stack traces",
+  "read error context"
+ ],
+ "effects": {},
+ "flags": []
+}

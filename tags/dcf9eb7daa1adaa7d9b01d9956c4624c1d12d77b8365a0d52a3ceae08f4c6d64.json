@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "dcf9eb7daa1adaa7d9b01d9956c4624c1d12d77b8365a0d52a3ceae08f4c6d64",
+ "domain": [
+  "software/ui-development",
+  "enterprise/sap"
+ ],
+ "product": [
+  "sap-fiori"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server that helps AI assistants build and modify SAP Fiori applications.",
+ "whenToUse": "Use when developing or changing SAP Fiori apps with an AI assistant.",
+ "tasks": [
+  "generate fiori apps",
+  "modify fiori apps",
+  "look up fiori guidance"
+ ],
+ "effects": {},
+ "flags": []
+}

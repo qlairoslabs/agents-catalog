@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "17d49bfc16f3755f17a08153bb50bb63ba91ffa73b4c73d98e2b0e032a94ccfe",
+ "domain": [
+  "media/video-download"
+ ],
+ "product": [
+  "facebook",
+  "tiktok",
+  "pinterest"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Returns download links for public videos, reels, images and GIFs from Facebook, TikTok and Pinterest.",
+ "whenToUse": "Use when the user wants a download link for public social media media they are entitled to save.",
+ "tasks": [
+  "get facebook video links",
+  "get tiktok video links",
+  "get pinterest media links"
+ ],
+ "effects": {},
+ "flags": []
+}

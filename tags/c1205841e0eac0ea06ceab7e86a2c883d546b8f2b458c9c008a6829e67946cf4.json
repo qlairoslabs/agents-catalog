@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c1205841e0eac0ea06ceab7e86a2c883d546b8f2b458c9c008a6829e67946cf4",
+ "domain": [
+  "marketing/testimonials",
+  "research/customer-feedback"
+ ],
+ "product": [
+  "tessamonials"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Collects customer and prospect voice interviews, feedback and testimonials through a hosted connector.",
+ "whenToUse": "Use when an agent needs to gather or review customer interviews, feedback or testimonials.",
+ "tasks": [
+  "run voice interviews",
+  "collect feedback",
+  "gather testimonials"
+ ],
+ "effects": {},
+ "flags": []
+}

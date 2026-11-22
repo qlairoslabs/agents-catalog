@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "bf69cd7421d2fb5b73eb05367d5ad0545ca246d7b46a15bb3aa42cc519b3104a",
+ "domain": [
+  "web/access-policy",
+  "ai-agents/web-access"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Checks a public URL before fetching to report robots rules, licensing, payment requirements and the cheapest eligible access route for an agent.",
+ "whenToUse": "Use before fetching, searching or training on a web page to learn what access restrictions and payment routes apply.",
+ "tasks": [
+  "preflight a URL",
+  "check robots restrictions",
+  "check licensing terms",
+  "find cheapest eligible route",
+  "consider payment budget",
+  "check agent protocol support"
+ ],
+ "effects": {
+  "eccdbb54741b67d45f8e3d7d73bc43c405beec44e0f31a062c86b7051eacbc43": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "bbb381e91300db8f61408de7eec3db1c30be16f40dce17c4b63d7bfcc84c0635",
+ "domain": [
+  "crypto/analytics/agent-payments"
+ ],
+ "product": [
+  "x402",
+  "erc-8004"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only SQL analytics over x402 agent payments and ERC-8004 agent identity data.",
+ "whenToUse": "Use when analyzing onchain agent payment activity or agent identity records.",
+ "tasks": [
+  "query x402 payments",
+  "query erc-8004 identities",
+  "run sql analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

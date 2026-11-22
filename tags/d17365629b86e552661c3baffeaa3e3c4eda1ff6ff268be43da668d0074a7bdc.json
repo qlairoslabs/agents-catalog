@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "d17365629b86e552661c3baffeaa3e3c4eda1ff6ff268be43da668d0074a7bdc",
+ "domain": [
+  "software/frontend",
+  "software/ui-components",
+  "ecommerce/storefront"
+ ],
+ "product": [
+  "frontic",
+  "vue"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Lets agents search and read docs and examples of Frontic UI Vue components for commerce storefronts and get the CLI command to add them.",
+ "whenToUse": "Use when building a Vue commerce storefront with Frontic UI and you need component docs, examples or the install command.",
+ "tasks": [
+  "search components",
+  "read component docs",
+  "get examples",
+  "get add command"
+ ],
+ "effects": {
+  "a36e99743b0ff1397b2adb010cd9e4683c087488bd474f8ab81acc389004113b": "read",
+  "cffcd0172889118b8d0242d8e00354035f7dd805f28966d20ad01c8d34f4e5af": "read",
+  "f25d102de6475d00d02c2259a0bbcac95d525d70a6467d12a3be27f736e2f26b": "read",
+  "1ee96180c90aeb53cd571d4c0daa15c73c9a45b65bd4724c80cb59bd488ce6d1": "read"
+ },
+ "flags": []
+}

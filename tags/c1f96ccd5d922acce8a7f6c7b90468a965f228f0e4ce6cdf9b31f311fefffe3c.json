@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "c1f96ccd5d922acce8a7f6c7b90468a965f228f0e4ce6cdf9b31f311fefffe3c",
+ "domain": [
+  "ecommerce/discounts",
+  "ecommerce/promotions"
+ ],
+ "product": [
+  "shopify",
+  "aiod"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Creates, edits and analyses Shopify discounts in the AIOD app, including BOGO, free gift, tiered and bundle offers.",
+ "whenToUse": "Use when a Shopify merchant wants to set up or review automatic discounts and free-gift promotions.",
+ "tasks": [
+  "create bogo discounts",
+  "create free gift offers",
+  "set tiered discounts",
+  "set volume discounts",
+  "create bundle discounts",
+  "configure upsells",
+  "edit discounts",
+  "analyse discount performance"
+ ],
+ "effects": {},
+ "flags": []
+}

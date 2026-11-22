@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "ac54a0fbc1c1f869f354c8d3a9e187e29da7635bd8b770f17a84957c1448a5ba",
+ "domain": [
+  "software/developer-tools/ai-agent-migration"
+ ],
+ "product": [
+  "bringyour",
+  "claude-code",
+  "codex",
+  "cursor",
+  "stripe"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Previews and sells a paid local tool for moving AI coding agent setups between tools like Claude Code and Codex.",
+ "whenToUse": "Use when planning a migration of an AI coding harness setup between supported tools.",
+ "tasks": [
+  "preview a harness move",
+  "preview a first setup",
+  "list supported tools",
+  "get local install commands",
+  "list products",
+  "quote a license",
+  "start checkout"
+ ],
+ "effects": {
+  "e7f59b018af52adaaad433e6f2a8a54132e46c1bb800f2292ca987b6183d3f75": "read",
+  "8e686825f89955d21c107404e98bcd92354505e8f248704881c54aa260eff858": "read",
+  "fdb16bab3102787d781cde7c74076efd933ba3b15754460160e973c4babe2dcd": "read",
+  "d24f6dca9070480a52115bce1a33c8ff2bcd4ce45d69cb28a013644d638455d1": "read",
+  "dd6dec8ecc74de3cb02136b00ccb7e0a2d0708bbeaef318ef2b24f58baacf755": "read",
+  "8687e54cbe7f5d225b74759c8301ceb7c15ea286a5a50fc7f1544d54fa818b16": "read",
+  "bc3400cd09d4c2929d0344639296f60ee845d00385d26ddd95104cb9f6ad53b0": "risky"
+ },
+ "flags": [
+  "start_checkout can settle a stripe payment without a browser using a shared payment token"
+ ]
+}

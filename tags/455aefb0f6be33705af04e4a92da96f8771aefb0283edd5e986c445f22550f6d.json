@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "455aefb0f6be33705af04e4a92da96f8771aefb0283edd5e986c445f22550f6d",
+ "domain": [
+  "marketing/competitor-ads",
+  "marketing/video-ads",
+  "business/go-to-market"
+ ],
+ "product": [
+  "recao",
+  "apple-app-store",
+  "apple-ad-repository"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes competitors' EU App Store ads from Apple's ad repository and generates paid UGC-style video ads with go-to-market playbooks.",
+ "whenToUse": "Use when an app founder wants to study competitor App Store ads or produce short ad videos.",
+ "tasks": [
+  "search app advertisers",
+  "rank competitor ads by longevity",
+  "get ad creative details",
+  "read gtm playbooks",
+  "sign up account",
+  "get upgrade link",
+  "read and write account memory",
+  "diagnose growth stage",
+  "generate ugc avatars",
+  "render video clips",
+  "assemble ad video",
+  "check usage and spend"
+ ],
+ "effects": {
+  "1e466445213e712d52dc60db1667c77e2c354debd9312a86a15c9dcf39fb932e": "read",
+  "44c80ed70fd7e823cca64e03a9d54d3340f1c034664d95a47f5f9a796b35edcd": "read",
+  "f9d1a535c924e15d5e6e46eac157b7242606d79498fcce264675b6afd3900e35": "read",
+  "068ba55142ec04de38ffcc40551198654284521bdd43746e7b6ed992dab705ee": "read",
+  "3db5573fd6ecf732e21fcbf4266874ecda07e41720f8a720ebf11efb4712e987": "write",
+  "8404084836c019de0a4bf24e44e2d894d1863ae1c5ab27c06d68844a177274df": "write",
+  "fa2f97f9abd19f642c8a68719a3a42cf2a8cb84f975a1dce78761d9b6c5a9591": "read",
+  "77ea47496a959ab41a3aa0d051838bb9e23eb83eb5b9755d87e82a554c118829": "read",
+  "f9cf93f6132c324dc8ff5d5767b4a585d33926d7281a377ebcb6d866ce40d38d": "write",
+  "ce99bbffaf5bed33d13315a0169cd88d761d552038604df2e349d92e76c6280a": "read",
+  "92ab350578c573fecc710d792dc90e641d631f022883e96c362dc295443acbb5": "risky",
+  "489b2ab2725b7acab9c4c1ae957f49d154f35c90e4384a25aaf458b38aa4be5d": "risky",
+  "4eb47519760eece0d5bf7ded1b4e0384912dff4376ea5a7a08b16b1016657473": "read",
+  "510d45c32e026d5c384059b0b19177fc9a0959a15b1f569ed187584aec664494": "write",
+  "f37ab434c9eee41c1fb1927e2b407d9781901505c362f053c91874b8c127b0ed": "read",
+  "f918b521854137d30ab8b9fe4634d51e1302599f7820d1c56c5e70525d5a825c": "read",
+  "d34c535e2f9408a65038dfe5b52b9e183c827de796c46836632c4cd99095c852": "read"
+ },
+ "flags": [
+  "sign_up description gives the agent behavioural instructions about when to call it and treats tool-call approval as user consent"
+ ]
+}

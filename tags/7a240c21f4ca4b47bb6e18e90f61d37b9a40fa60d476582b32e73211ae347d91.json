@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "7a240c21f4ca4b47bb6e18e90f61d37b9a40fa60d476582b32e73211ae347d91",
+ "domain": [
+  "business-data/company-registry",
+  "legal/kyb"
+ ],
+ "product": [
+  "mca",
+  "qorpiq"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Indian companies, LLPs and directors from MCA registry data, with MCA uptime and a sample of recent incorporations.",
+ "whenToUse": "Use when verifying an Indian company or director by CIN, LLPIN or DIN.",
+ "tasks": [
+  "look up company by CIN",
+  "search companies by name",
+  "look up director by DIN",
+  "check MCA status",
+  "sample recent incorporations",
+  "list paid KYB checks"
+ ],
+ "effects": {
+  "721113ecc458083d987d1804c23fc3e3f1b0af770f7fa31a213dfeca08755be4": "read",
+  "fda146347cd30b98cd3f1a077a5b64549ab555d7e2ce7ed00ffcf5e1540c6ebf": "read",
+  "bb56d60994148384358c25bb3e6dd3758b75a70f91b3d1ed1c1fcd4e0e564951": "read",
+  "d521d6c29b16059cac171161ff4e77b1dc7ce303b8c6215afc6147c4375eb735": "read",
+  "78264853d52b39e364af2189528f1d8735caadb8b42f9b283bf7e77ac1a5878e": "read",
+  "22227e95f237034e1515e8fedc3ae40c79ca7b6b24a06783a67f93f5bd053c0e": "read"
+ },
+ "flags": []
+}

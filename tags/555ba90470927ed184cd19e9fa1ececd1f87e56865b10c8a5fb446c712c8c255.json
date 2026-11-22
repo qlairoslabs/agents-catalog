@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "555ba90470927ed184cd19e9fa1ececd1f87e56865b10c8a5fb446c712c8c255",
+ "domain": [
+  "shopping/bridal",
+  "shopping/plus-size-fashion"
+ ],
+ "product": [
+  "persnickety"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds US bridal boutiques with plus-size wedding dress samples to try on, and lists at-home try-on programs.",
+ "whenToUse": "Use when a plus-size bride wants to find where to try on wedding dress samples in a given size or state, or at home.",
+ "tasks": [
+  "find boutiques with plus-size bridal samples",
+  "filter by size and state",
+  "list at-home try-on programs",
+  "compare sample fees and deposits"
+ ],
+ "effects": {
+  "e184705aff718e6f1a6bd4a01f68ab1427131db9206c1f3acfa3b9c4aded8d10": "read",
+  "d82be3af7f511bf43acf2559242c27f7aee945c4972cafaef9f3181d82771193": "read"
+ },
+ "flags": []
+}

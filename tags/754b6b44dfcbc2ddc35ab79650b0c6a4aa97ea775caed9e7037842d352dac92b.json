@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "754b6b44dfcbc2ddc35ab79650b0c6a4aa97ea775caed9e7037842d352dac92b",
+ "domain": [
+  "software/business-rules",
+  "automation/decisioning"
+ ],
+ "product": [
+  "decisionrules"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Creates, manages and tests business rules on the DecisionRules platform.",
+ "whenToUse": "Use when a user wants to author or test decision tables and business rules in DecisionRules.",
+ "tasks": [
+  "create rules",
+  "manage rules",
+  "test rules"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "45262d73f7d7c588624c50c204e52d411b99f3764558b84fd693ee16da679ca9",
+ "domain": [
+  "healthcare/genomics/consumer"
+ ],
+ "product": [
+  "gencove"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses a Gencove consumer genomics account: profile, kit status, ancestry, polygenic risk scores and raw data.",
+ "whenToUse": "Use when a user wants to review their own Gencove genetic test results or kit status.",
+ "tasks": [
+  "view profile",
+  "check kit status",
+  "view ancestry",
+  "view polygenic risk scores",
+  "access raw data"
+ ],
+ "effects": {},
+ "flags": []
+}

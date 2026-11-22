@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "8e1cd5a59104e0d05b04b8508e96b45f58b7e08e68f72ef7e1961912bc7c9c02",
+ "domain": [
+  "media/video-processing",
+  "media/audio-processing"
+ ],
+ "product": [
+  "ffmpeg",
+  "ffprobe"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Cloud-hosted FFmpeg and FFprobe for converting, compressing, trimming and analyzing video and audio files.",
+ "whenToUse": "Use when an agent needs to transform or inspect media files without a local FFmpeg install.",
+ "tasks": [
+  "convert video formats",
+  "compress video",
+  "trim audio and video",
+  "analyze media with ffprobe"
+ ],
+ "effects": {},
+ "flags": []
+}

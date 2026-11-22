@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "679b0b852d8f5ab710eebe48c4f9271d8d9aa802e2a2b53e31bc6dc5ee8b9077",
+ "domain": [
+  "productivity/usage-reporting",
+  "software/developer-tools"
+ ],
+ "product": [
+  "claude-code",
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds a local report of Claude Code usage and shipped work per project from transcripts and read-only git history.",
+ "whenToUse": "Use when a user wants a summary of their Claude Code usage and output for a manager or self-review.",
+ "tasks": [
+  "read claude code transcripts",
+  "analyze git history",
+  "attribute usage by project",
+  "generate impact report"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "5b18cbcd5c0ad8a46a23d8877be32738195d7e60720d6dc4f2c2d47179483690",
+ "domain": [
+  "software/saas"
+ ],
+ "product": [
+  "turrior"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Authenticated remote MCP server for the Turrior service; capabilities are not described.",
+ "whenToUse": "Use when a user with a Turrior account needs to access it from an agent.",
+ "tasks": [
+  "access turrior account"
+ ],
+ "effects": {},
+ "flags": []
+}

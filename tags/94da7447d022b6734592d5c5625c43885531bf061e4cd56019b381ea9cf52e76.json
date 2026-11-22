@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "94da7447d022b6734592d5c5625c43885531bf061e4cd56019b381ea9cf52e76",
+ "domain": [
+  "marketing/email-automation",
+  "product/engagement"
+ ],
+ "product": [
+  "pendo"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Creates and edits draft Pendo Orchestrate email journeys, including multi-email and conditional flows, leaving activation to the UI.",
+ "whenToUse": "Use when designing or editing a Pendo Orchestrate email journey draft.",
+ "tasks": [
+  "create email journeys",
+  "configure multi-email flows",
+  "add conditional splits",
+  "edit draft journeys"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d1ce3a0dc85329578a04851263f2cf2c4fde60cc21c0169a5f7987f012f27fad",
+ "domain": [
+  "software/ai-development",
+  "software/python"
+ ],
+ "product": [
+  "pydantic-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance with current patterns and pitfalls for writing Pydantic AI agents, tools, structured output, streaming and multi-agent apps.",
+ "whenToUse": "Use when an agent is writing or debugging code with the Pydantic AI framework.",
+ "tasks": [
+  "write pydantic ai agents",
+  "define agent tools",
+  "use structured output",
+  "implement streaming",
+  "build multi-agent apps"
+ ],
+ "effects": {},
+ "flags": []
+}

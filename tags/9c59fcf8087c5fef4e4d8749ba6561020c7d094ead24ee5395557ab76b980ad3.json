@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9c59fcf8087c5fef4e4d8749ba6561020c7d094ead24ee5395557ab76b980ad3",
+ "domain": [
+  "marketing/email/verification",
+  "data-quality"
+ ],
+ "product": [
+  "kawaa"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Checks whether email addresses can receive mail, individually or in bulk, without sending messages.",
+ "whenToUse": "Use when validating email addresses or cleaning a mailing list before outreach.",
+ "tasks": [
+  "verify single email",
+  "verify email list",
+  "check deliverability"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b5bea2e0b53a2944e32bdabbe52d7e38a4f9000f04ee1fe52b4570f052acf66b",
+ "domain": [
+  "data/public-statistics",
+  "government/india"
+ ],
+ "product": [
+  "dataful"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives access to Indian government statistics and public datasets on the economy, elections, health, agriculture and more.",
+ "whenToUse": "Use when an agent needs official Indian statistics or public datasets on economy, elections, health or agriculture.",
+ "tasks": [
+  "search public datasets",
+  "get economic statistics",
+  "get election data",
+  "get health data",
+  "get agriculture data"
+ ],
+ "effects": {},
+ "flags": []
+}

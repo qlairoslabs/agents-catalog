@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5f736b689f9b9e76103a486c2d45e4f3cbe57e45be9f746fe03ef400b57a2278",
+ "domain": [
+  "finance/expense-processing",
+  "finance/tax/australia-gst"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Extracts structured data from Australian receipts and invoices, checking ABNs and assigning GST tax codes per line item.",
+ "whenToUse": "Use when turning Australian receipt or invoice images into GST-coded bookkeeping data.",
+ "tasks": [
+  "extract receipt data",
+  "validate abn",
+  "assign gst tax codes per line"
+ ],
+ "effects": {
+  "39a278d7e6ae5ff465d39e842136e111d56715cd5da2851e12575dfd926dc756": "read"
+ },
+ "flags": []
+}

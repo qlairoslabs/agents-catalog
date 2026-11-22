@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "e976346697ae52150341bac3d2ed59340aa1416fcdc55e3cd618fdebec8ae459",
+ "domain": [
+  "software/sdk",
+  "software/cloud"
+ ],
+ "product": [
+  "boto3",
+  "aws",
+  "amazon-s3",
+  "amazon-dynamodb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Development patterns for using boto3 and botocore to call AWS services from Python.",
+ "whenToUse": "Use when writing Python code that imports boto3 or botocore.",
+ "tasks": [
+  "create service clients",
+  "configure sessions and credentials",
+  "handle client errors",
+  "use paginators and waiters",
+  "transfer s3 files",
+  "create presigned urls",
+  "work with dynamodb tables"
+ ],
+ "effects": {},
+ "flags": [
+  "description uses imperative 'You MUST use this skill' wording aimed at the agent"
+ ]
+}

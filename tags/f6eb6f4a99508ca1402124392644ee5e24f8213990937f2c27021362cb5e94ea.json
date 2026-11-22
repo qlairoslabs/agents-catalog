@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "f6eb6f4a99508ca1402124392644ee5e24f8213990937f2c27021362cb5e94ea",
+ "domain": [
+  "finance/cloud-cost-management",
+  "software/cloud"
+ ],
+ "product": [
+  "aws",
+  "aws-cost-explorer",
+  "aws-compute-optimizer",
+  "amazon-athena"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Guidance for analyzing AWS spend, finding savings, managing budgets and right-sizing resources.",
+ "whenToUse": "Use when a user asks about their AWS bill, cost reduction, budgets, savings plans or pricing.",
+ "tasks": [
+  "analyze aws costs",
+  "find savings",
+  "manage budgets",
+  "evaluate savings plans and reserved instances",
+  "right-size compute resources",
+  "look up service pricing",
+  "query cur with athena",
+  "detect cost anomalies",
+  "scope costs to billing views",
+  "monitor free tier usage"
+ ],
+ "effects": {},
+ "flags": []
+}

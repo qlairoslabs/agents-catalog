@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "fa68f491c95935cc9d78b24f788f00d6965f2f36a8c38a42d1ac7cee04068585",
+ "domain": [
+  "retail/darts-equipment",
+  "shopping/product-recommendation"
+ ],
+ "product": [
+  "hotshot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Recommends, details and compares darts equipment from a curated UK catalogue ranked by fit.",
+ "whenToUse": "Use when a user wants help choosing darts, boards or accessories in the UK.",
+ "tasks": [
+  "recommend darts gear",
+  "get item details",
+  "compare items"
+ ],
+ "effects": {
+  "5d849f88ab32ba7f8588cbd85015c964212650232442149754a4a2f5bdb0fd58": "write",
+  "fe8c8af50e83548b12383058a090413fbb8055ab12ea4dafcd5df5f7ea4f3981": "read",
+  "5214df235f39f08326cc41a65fa2da72a178c7643cefeb37fd6517e3356a521c": "read"
+ },
+ "flags": []
+}

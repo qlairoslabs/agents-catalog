@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cae4efdcdb29488f825acfc22ff6c41571a8900b582735ca5b8b3f3bcc9db0e5",
+ "domain": [
+  "finance/sec-filings",
+  "finance/financial-data"
+ ],
+ "product": [
+  "sec-edgar",
+  "xbrl"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Local tool for reading SEC EDGAR and XBRL filings, with no account required.",
+ "whenToUse": "Use when the user wants to read or analyse a company's SEC filings or XBRL financial data.",
+ "tasks": [
+  "read sec edgar filings",
+  "parse xbrl data",
+  "analyze financial statements"
+ ],
+ "effects": {},
+ "flags": []
+}

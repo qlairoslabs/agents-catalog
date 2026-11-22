@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "269582afd7c340d2e737609e1c595a20ea75899142717f3ece9cda818d4d80bc",
+ "domain": [
+  "software/development/code-review"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Reviews pull requests using several specialized agents and confidence scoring to cut false positives.",
+ "whenToUse": "Use when you want an automated review of a pull request.",
+ "tasks": [
+  "review pull requests",
+  "run specialized review agents",
+  "score finding confidence",
+  "filter false positives"
+ ],
+ "effects": {},
+ "flags": []
+}

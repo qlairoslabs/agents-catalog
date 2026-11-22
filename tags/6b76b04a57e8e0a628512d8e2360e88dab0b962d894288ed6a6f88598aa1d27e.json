@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "6b76b04a57e8e0a628512d8e2360e88dab0b962d894288ed6a6f88598aa1d27e",
+ "domain": [
+  "marketing/directory-listing",
+  "software/product-directory"
+ ],
+ "product": [
+  "ai-startup-hub"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Browse and search an AI product directory, submit a product for a dofollow backlink, and upvote entries.",
+ "whenToUse": "Use when a user wants to discover AI products or list their own product in a directory for a backlink.",
+ "tasks": [
+  "list products",
+  "search products",
+  "submit a product",
+  "upvote a product",
+  "get product details"
+ ],
+ "effects": {
+  "303a7029ce1508060a1e5314e66a11998c84deca7529d2f928b5240e581e5c0c": "read",
+  "85053448d1247538f2068278f374d061a897f5cc25d0768db9f863ca1c98348a": "read",
+  "cb72441636f70d48f6a341f47d0a6748fd8eb150198cf7f4d5df4d2a2d0db8ff": "write",
+  "f2c4979d7e81d74cae4b40d6961e5b79cfd616f84562816d3e73e9e7aa9159bb": "write",
+  "20368e258d86ec53d3a22a869bd1f19984dbf261cb988685f0683dc76eb29012": "read"
+ },
+ "flags": [
+  "backlink-seeding / SEO promotion purpose",
+  "public submission and voting without auth"
+ ]
+}

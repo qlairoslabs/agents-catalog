@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9b2f822756dbab84931f8e04fea648c171e2fcca31ab5cebf294716474bdff32",
+ "domain": [
+  "software/code-execution",
+  "software/sandbox"
+ ],
+ "product": [
+  "cdbx"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Sandboxed code execution in about 30 languages with persistent sessions, plus app building.",
+ "whenToUse": "Use when an agent needs to run code in an isolated sandbox across multiple steps.",
+ "tasks": [
+  "run code in sandbox",
+  "keep persistent sessions",
+  "build apps"
+ ],
+ "effects": {},
+ "flags": []
+}

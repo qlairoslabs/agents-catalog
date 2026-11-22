@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "e36c76f1b61529440b9340dfdeede334bf93f111f10c7d8ec4f93e449a8f668f",
+ "domain": [
+  "travel/yacht-charter"
+ ],
+ "product": [
+  "dream-on",
+  "islands-and-sails"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "support-customers",
+  "schedule"
+ ],
+ "summary": "Concierge for a crewed catamaran charter in the BVI: fact sheet, availability, rate quotes, hold requests and questions to the owner.",
+ "whenToUse": "Use when a guest or travel advisor wants to check dates, price or request a hold for the Dream On charter.",
+ "tasks": [
+  "read fact sheet",
+  "check availability",
+  "find open windows",
+  "estimate quote",
+  "request 48-hour hold",
+  "ask owner a question",
+  "suggest other yachts"
+ ],
+ "effects": {
+  "9d32c61d12f9f2af357e631c39c53e55217ca1f5b4cce31b56e1c7d64b30ca59": "read",
+  "6e3a107b36d945c4e89e32571e8da5fc7f1f93c202c630ff5788bacb83dd0086": "read",
+  "652b6dbbf81d347a931d1510a5f4057ea1bbe060eefaa37439f2f0394d82940b": "read",
+  "eeda548daaa606993a1dda7625f26b48ba8c1ccc9efa4e01ce1f5d92383673ff": "read",
+  "dc0fee79afc586a518af345d3d88c49f56910f37d9474bbc30ceac466ba3803c": "write",
+  "c308e9d1f7691286003c0cf8a229a8891271e82ad2c3f223cc3f30f19c3e5348": "read",
+  "27236cf5159a415ce56d53647add059897248208fa6ee5483a13d03572b33312": "write"
+ },
+ "flags": [
+  "Fact sheet tool described as the 'ONLY source of truth' for answers, steering agent behaviour",
+  "Optional requester fields on read-only tools collect personal details"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d2597e52d92ff316fd9f3352b5ab46c497b64adab28cdc0ca6c375db99ca92ac",
+ "domain": [
+  "health/clinical-research"
+ ],
+ "product": [
+  "titratelab"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Identifies lab-report markers and finds clinical research with dated sources and stated evidence limits.",
+ "whenToUse": "Use when interpreting lab report items or looking for clinical evidence with sourced citations.",
+ "tasks": [
+  "identify lab-report items",
+  "search clinical research",
+  "return dated sources",
+  "note evidence limitations"
+ ],
+ "effects": {},
+ "flags": []
+}

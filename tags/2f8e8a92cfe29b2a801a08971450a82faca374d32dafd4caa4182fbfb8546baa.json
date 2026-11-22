@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2f8e8a92cfe29b2a801a08971450a82faca374d32dafd4caa4182fbfb8546baa",
+ "domain": [
+  "software/project-management",
+  "productivity/documentation"
+ ],
+ "product": [
+  "jira",
+  "confluence",
+  "compass",
+  "atlassian"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Works with Jira, Confluence and Compass to manage projects, write documentation and track services.",
+ "whenToUse": "Use when an agent needs to read or update Jira issues, Confluence pages or Compass components.",
+ "tasks": [
+  "manage jira issues",
+  "create confluence pages",
+  "search documentation",
+  "track compass services"
+ ],
+ "effects": {},
+ "flags": []
+}

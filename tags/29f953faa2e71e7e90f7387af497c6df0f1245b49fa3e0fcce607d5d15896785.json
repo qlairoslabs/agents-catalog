@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "29f953faa2e71e7e90f7387af497c6df0f1245b49fa3e0fcce607d5d15896785",
+ "domain": [
+  "branding/name-availability",
+  "web/domains"
+ ],
+ "product": [
+  "namesniper",
+  "uspto",
+  "telegram",
+  "roblox"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Checks brand names across domains, social handles and USPTO trademarks, generates name ideas, and watches taken usernames for release.",
+ "whenToUse": "Use when choosing a brand name or handle, or monitoring a taken username.",
+ "tasks": [
+  "check name everywhere",
+  "check domains",
+  "check social handles",
+  "generate names",
+  "trademark screening",
+  "name alternatives",
+  "watch a handle",
+  "list watches",
+  "stop watch",
+  "Telegram username price",
+  "Roblox rarity"
+ ],
+ "effects": {
+  "b1234e48c38942fcbcc2aae7d27477d361a03fb12612347d4d91f360d2dc894f": "write",
+  "989a6fbd6cfbf993d26a7f3e7191c46392dc816a72f007c7015a5ca0f1f08949": "read",
+  "41ee64c19bbd661e52773391c4b3b8e076426970f9246e2007f65432438460af": "read",
+  "ea7a6999790c24fdf29db075914a7f2e358825386286edbca01dc5ab0e6d571f": "read",
+  "52033202940c98bbc4d55128a34277b4eaa13fc0ee48c42c826af660419ed09e": "read",
+  "1f804d96558447a219e2ad216a1dae69bc21b9cb36eb55aeebd1e3422a38450c": "read",
+  "19721057db9ae4e960c2b49a168a71ae1d0c58fb572737d28929bc8e869eb87c": "write",
+  "2989113f0a0a2d0a87076a705c4ee0655e8e93457acfd0dcb6805df5a456288a": "read",
+  "6a2ebd123e2ae50b8df71dc69fc724273545913bc0a1e8647e3ff8158b475a3a": "write",
+  "cf6388915046d23bc96f23a030706e07195f1dcf5184b4a939d1b587030499e7": "read",
+  "c2ac2ee28ac1519512006ce83c5b5b0664fc43be4b18d0866065e1869ee07127": "read"
+ },
+ "flags": []
+}

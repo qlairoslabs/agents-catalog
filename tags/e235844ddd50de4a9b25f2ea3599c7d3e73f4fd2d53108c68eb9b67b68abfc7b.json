@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e235844ddd50de4a9b25f2ea3599c7d3e73f4fd2d53108c68eb9b67b68abfc7b",
+ "domain": [
+  "software/apis",
+  "software/databases"
+ ],
+ "product": [
+  "azure-sql-database",
+  "data-api-builder"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Creates a no-code REST and GraphQL API, and optionally an MCP endpoint, over Azure SQL tables using Data API Builder.",
+ "whenToUse": "Use when a user wants a quick REST or GraphQL API over existing database tables without writing controllers.",
+ "tasks": [
+  "initialize dab config",
+  "expose tables as rest api",
+  "generate graphql api",
+  "serve mcp endpoint from database",
+  "configure entities",
+  "start dab"
+ ],
+ "effects": {},
+ "flags": []
+}

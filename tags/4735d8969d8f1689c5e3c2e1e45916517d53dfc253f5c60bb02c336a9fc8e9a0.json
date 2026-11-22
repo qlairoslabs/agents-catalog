@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4735d8969d8f1689c5e3c2e1e45916517d53dfc253f5c60bb02c336a9fc8e9a0",
+ "domain": [
+  "education/elearning",
+  "education/course-authoring"
+ ],
+ "product": [
+  "skillsail",
+  "scorm"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates, edits, translates and exports SCORM eLearning modules in Skillsail.",
+ "whenToUse": "Use when building or translating training courses that need to be exported as SCORM packages.",
+ "tasks": [
+  "create elearning modules",
+  "edit modules",
+  "translate modules",
+  "export scorm"
+ ],
+ "effects": {},
+ "flags": []
+}

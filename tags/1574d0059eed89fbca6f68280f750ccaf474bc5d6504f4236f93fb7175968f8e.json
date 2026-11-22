@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "1574d0059eed89fbca6f68280f750ccaf474bc5d6504f4236f93fb7175968f8e",
+ "domain": [
+  "software/cryptography",
+  "security/randomness"
+ ],
+ "product": [
+  "qeaas",
+  "ml-kem"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Quantum-seeded random bytes, dice rolls, provenance verification and ML-KEM-768 post-quantum key generation and encapsulation.",
+ "whenToUse": "Use when you need verifiable random bytes or ML-KEM-768 keys for development or demos.",
+ "tasks": [
+  "generate random bytes",
+  "roll dice",
+  "get signed random bytes",
+  "verify provenance",
+  "generate ML-KEM keypair",
+  "encapsulate shared secret"
+ ],
+ "effects": {
+  "a79ea1a198fe7ff394a1469f4e6bd31bcb484377a090a3663724aed213f9f99f": "read",
+  "03b374488084782c7d5501a90b64cabdeff98669f83afc8c9f419bd6ecd310cd": "read",
+  "5b406195413e0e824c6528ae1a09fa93cb498b5431f71e0e79e9fc43e0122159": "read",
+  "53a830cc5db2ab97604b254f5414a4b37df947b25c1145e66ca6bb75374221c3": "read",
+  "6d47bf8c340f2dd71c5ecd9d416e0b940b1a5728e1e7075cb4949320c71db358": "read",
+  "1f15634cea814af9fa6b47bc0401369a8731076de4ec1c0f4be01fb6822332f5": "read"
+ },
+ "flags": []
+}

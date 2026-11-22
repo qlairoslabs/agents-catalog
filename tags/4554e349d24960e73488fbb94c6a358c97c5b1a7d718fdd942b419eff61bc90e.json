@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4554e349d24960e73488fbb94c6a358c97c5b1a7d718fdd942b419eff61bc90e",
+ "domain": [
+  "software/3d-graphics",
+  "software/development-tools"
+ ],
+ "product": [
+  "three-js"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets agents inspect and edit Three.js scenes, materials, shaders and lights in real time.",
+ "whenToUse": "Use when an agent is building or debugging a Three.js scene and needs to inspect or tweak it live.",
+ "tasks": [
+  "inspect scene graph",
+  "edit materials",
+  "edit shaders",
+  "adjust lights"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2e928930aa5f292f5ce2f8b3e4fac9523580a6c574af495d4d5028b74fc3cd07",
+ "domain": [
+  "business/groupware",
+  "hr/time-tracking"
+ ],
+ "product": [
+  "work-handler"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "hire-and-manage"
+ ],
+ "summary": "Connects to the Work Handler groupware to view organisations and members, share attendance, manage time cards and handle approval flows.",
+ "whenToUse": "Use when working with Work Handler for attendance, time cards, members or approvals.",
+ "tasks": [
+  "view organisation and members",
+  "share clock-in and clock-out",
+  "manage time cards",
+  "handle approval workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

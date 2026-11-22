@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "af38d0609e7e7c65f3a555bfaee726a485b8b6a30e2995172a7424081be1ac5b",
+ "domain": [
+  "transportation/rail-safety",
+  "public-data"
+ ],
+ "product": [
+  "fra"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up US railroad crossings by location or FRA ID, with equipment, train counts, traffic and county and state summaries.",
+ "whenToUse": "Use when a user asks about railroad crossings or train activity near a US location.",
+ "tasks": [
+  "find crossings near a point",
+  "get crossing by ID",
+  "county summary",
+  "state summary",
+  "train activity score"
+ ],
+ "effects": {
+  "acf72966dc5d6542cad5d7999b6947ae076599d5ae248346267664159fd96d66": "read",
+  "07e0b172ce7c45566e67972033ac4cfdf482dad45ac4d27a49fe9e321c0aa515": "read",
+  "1c90fc31c7536d6f1f58813bdd8f31c59fa724066209ec2c104f8137872f1c04": "read",
+  "75735bdf8e100e610070745bc05f43b8635d2287e8c56d3008079370c4645a5f": "read",
+  "c6e890bfcb99ae9ad13445c2aeca8a803659faeb865ac32ffb4e50e870c94aef": "read"
+ },
+ "flags": []
+}

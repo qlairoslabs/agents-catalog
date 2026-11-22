@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "378b0f15f0acb08ed1c69911a0d1824cd9d9793600bdc966111a4ee6d2b90fc6",
+ "domain": [
+  "software/observability"
+ ],
+ "product": [
+  "honeycomb"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Queries Honeycomb observability data including traces, events, metrics, SLOs, triggers and boards.",
+ "whenToUse": "Use when an agent needs to investigate production behaviour or incidents using Honeycomb data.",
+ "tasks": [
+  "query traces",
+  "query events",
+  "view metrics",
+  "check slos",
+  "view triggers",
+  "view boards"
+ ],
+ "effects": {},
+ "flags": []
+}

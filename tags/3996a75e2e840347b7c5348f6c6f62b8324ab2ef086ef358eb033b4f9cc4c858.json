@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "3996a75e2e840347b7c5348f6c6f62b8324ab2ef086ef358eb033b4f9cc4c858",
+ "domain": [
+  "healthcare/lab-tests",
+  "e-commerce"
+ ],
+ "product": [
+  "lab4u"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Finds Lab4U lab tests by city and keyword, checks a list of tests against ready panels, and builds a cart link on lab4u.ru.",
+ "whenToUse": "Use when a user in Russia wants to choose lab tests for a goal or a doctor's list and get a cart link.",
+ "tasks": [
+  "list cities",
+  "search tests",
+  "get test details",
+  "check test basket",
+  "create cart link"
+ ],
+ "effects": {
+  "c7c0f7182ec4c9f3769d68ba55af451b1b3b5c919cba378e3e1dc95b0a96cd16": "read",
+  "a9a007c3385695213b0998df8196f78f563a1c29de090e4a00bf23962035f12d": "read",
+  "753e73950b9f8b6015b12b0bc5662efd8c9e86fb529c1e89b1e4eb6ec3b13cde": "read",
+  "0e613222888906c2d8423a972cf78247cf53ae47ec6d3d9ad0389e7d471d1184": "read",
+  "8b00c4a7636c5a9f91bf0c47d1502a5106f3fbd3975e711120018cfaafb7654e": "write"
+ },
+ "flags": []
+}

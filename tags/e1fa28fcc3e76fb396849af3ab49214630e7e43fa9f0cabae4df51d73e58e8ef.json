@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "e1fa28fcc3e76fb396849af3ab49214630e7e43fa9f0cabae4df51d73e58e8ef",
+ "domain": [
+  "software/developer-tools",
+  "creative/avatars"
+ ],
+ "product": [
+  "codex",
+  "ydb-qdrant"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Registry of community Codex pet packs with search, install, badge and embed snippets, and server-paid generation of new animated pets.",
+ "whenToUse": "Use when finding or installing a Codex pet, getting README badges or embeds, or generating a new pet.",
+ "tasks": [
+  "search pets",
+  "get pet card",
+  "get install instructions",
+  "get badge code",
+  "get embed code",
+  "get card code",
+  "get pet request info",
+  "generate pet",
+  "poll generation task"
+ ],
+ "effects": {
+  "6443e27e4b16c3c0bf78348e633088967c77b4965ed2056429c869651d01447d": "read",
+  "3941f281b3e460ab9cb04f2ec83a604058461e12b8d0d899ecf040aa97a953d0": "read",
+  "e892aa4f599ee0d5ea75926682d0ed1feaab2a9cf6357ce03d5d4bf5001a18ea": "read",
+  "fa39627540766d45380c91221ca18cab50da157cce4a07e7e3cbecfde3336327": "read",
+  "7379f54100c4ade012782e3ec3b140581f1ca1a62c408d1af513017cf750c073": "read",
+  "c8b993c88a440b9048aed6f73f5465a63b96482a01a003a49b917f19909edf57": "read",
+  "00557d83b5f777d92790b2df7478495e4ed7cf4ddc57e2877b9ccc1ffad33fa6": "read",
+  "a0103af6a382dd7f4f809d7a67e8e891c912af2d588b92ae801cf50d4d2b33c5": "write",
+  "a02f9a61122656307abdfd8a1e8a809de9aa41a18bb9d2d4289884d5a77b1586": "write"
+ },
+ "flags": []
+}

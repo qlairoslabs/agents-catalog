@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "545bf202964de3d9fa5a1e184ba05f342e9feac7b87c59672a385fa22816be20",
+ "domain": [
+  "software/development/refactoring"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "An agent that refactors recently changed code for clarity and consistency without changing its behavior.",
+ "whenToUse": "Use after making code changes when you want them cleaned up and simplified.",
+ "tasks": [
+  "simplify recent code changes",
+  "improve readability",
+  "enforce consistency",
+  "preserve functionality"
+ ],
+ "effects": {},
+ "flags": []
+}

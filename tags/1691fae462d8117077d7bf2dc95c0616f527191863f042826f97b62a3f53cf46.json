@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "1691fae462d8117077d7bf2dc95c0616f527191863f042826f97b62a3f53cf46",
+ "domain": [
+  "software/cloud/migration"
+ ],
+ "product": [
+  "microsoft-azure",
+  "aws",
+  "terraform",
+  "azure-openai",
+  "amazon-bedrock"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Runs a phased migration from Azure to AWS: discovering resources, designing targets, estimating costs and generating artifacts.",
+ "whenToUse": "Use when moving workloads from Microsoft Azure to AWS or estimating their AWS cost.",
+ "tasks": [
+  "discover azure resources from terraform",
+  "discover via az cli",
+  "analyze billing exports",
+  "map services to aws",
+  "design target architecture",
+  "estimate aws costs",
+  "reprice scenarios",
+  "generate migration artifacts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "d1e15105ea7f5117562c6a243e8d22a8ca4b87788cf2b7a0dde51c70e2cf80b6",
+ "domain": [
+  "careers/job-search",
+  "careers/salary-data"
+ ],
+ "product": [
+  "remoote"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches remote job listings on Remoote, shows salary statistics, creates job alerts and apply links.",
+ "whenToUse": "Use when someone is looking for a remote job or wants remote salary benchmarks.",
+ "tasks": [
+  "search remote jobs",
+  "get job details",
+  "get salary stats",
+  "list popular jobs",
+  "create apply redirect",
+  "create job alert"
+ ],
+ "effects": {
+  "963b649e29b3d1c3b23100f555f6384dc206d5398076f14158fd9c42518a0dde": "read",
+  "0493a662313e8a488e543941c9b4aa529e057808ebc350deec4f725877b843e2": "read",
+  "4eb92f848a6290cea09618a3beb4145be80bf0b32f7ea9f8cba26c70de96552d": "read",
+  "42764363409de6fcf44f3f9f5032be2bd5f70e71cfcf6a43ddc246a4358be8ce": "read",
+  "7ffae2a486632c079b46db3456a390e9378a1a3895d9d9589020a3aae076ea24": "write",
+  "a4487e5d90bafb8a726c987bc5c956b760cba95a5b2f55deeb530069fd525ed0": "write"
+ },
+ "flags": []
+}

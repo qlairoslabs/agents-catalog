@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "143fbd1bb40cd9d9f866c250ffee6deafd008491c9bfd0846a816ec8c969d34a",
+ "domain": [
+  "health/mental-health",
+  "health/practice-management"
+ ],
+ "product": [
+  "sinthoma"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "support-customers"
+ ],
+ "summary": "Read-only access to Sinthoma clinical records, including patients, sessions and session preparation.",
+ "whenToUse": "Use when a clinician using Sinthoma wants to review patients or prepare for sessions.",
+ "tasks": [
+  "view patients",
+  "view sessions",
+  "prepare for sessions"
+ ],
+ "effects": {},
+ "flags": []
+}

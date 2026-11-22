@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1ece589ec84a35caf34b782f8629088d65a92f340fc20f98df98726901fc208d",
+ "domain": [
+  "design/visual-qa",
+  "software/testing"
+ ],
+ "product": [
+  "whoogy",
+  "figma",
+  "claude"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Compares Figma designs with live websites and produces visual and content QA reports.",
+ "whenToUse": "Use when checking that a built website matches its Figma design.",
+ "tasks": [
+  "compare figma to website",
+  "generate visual qa report",
+  "check content differences"
+ ],
+ "effects": {},
+ "flags": []
+}

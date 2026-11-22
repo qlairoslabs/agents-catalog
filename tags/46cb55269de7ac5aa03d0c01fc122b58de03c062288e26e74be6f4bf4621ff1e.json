@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "46cb55269de7ac5aa03d0c01fc122b58de03c062288e26e74be6f4bf4621ff1e",
+ "domain": [
+  "finance/investing/portfolio-management",
+  "business/crm"
+ ],
+ "product": [
+  "signed"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening",
+  "keep-in-touch"
+ ],
+ "summary": "Accesses an angel investor's portfolio, startup deal pipeline and CRM data stored in their Signed account.",
+ "whenToUse": "Use when an angel investor wants to review their portfolio, deal pipeline or investor CRM records in Signed.",
+ "tasks": [
+  "view portfolio",
+  "review deal pipeline",
+  "access crm contacts"
+ ],
+ "effects": {},
+ "flags": []
+}

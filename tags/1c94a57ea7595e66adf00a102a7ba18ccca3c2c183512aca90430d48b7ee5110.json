@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "1c94a57ea7595e66adf00a102a7ba18ccca3c2c183512aca90430d48b7ee5110",
+ "domain": [
+  "construction/contractor-quoting",
+  "marketing/lead-generation"
+ ],
+ "product": [
+  "satellitequotes",
+  "wordpress",
+  "squarespace",
+  "wix",
+  "webflow",
+  "shopify"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "be-online"
+ ],
+ "summary": "Creates contractor accounts and website quote widgets that price jobs from satellite measurements, with install help and cost estimates.",
+ "whenToUse": "Use when a contractor wants an instant-quote widget on their website or a ballpark cost from a measurement.",
+ "tasks": [
+  "create contractor account",
+  "list platforms",
+  "get embed snippet",
+  "verify installation",
+  "get pricing",
+  "list trades",
+  "estimate cost",
+  "get lead playbook"
+ ],
+ "effects": {
+  "5e48682eadda35e732745aa8889c6ac161df08a19739dd3a33a2207e0426021d": "write",
+  "3fe25a61d38d6475159ed4508939d806d78724645d69a6592dd906a2675a7a12": "read",
+  "4d31b061dab88d4a822f67a38eb74bf44573d03e87bca0375b3272e644d15359": "read",
+  "9c3e055f56a0bc47d128180cdbab2fdf7f31a22b4542b6d45f5a3669fa9143da": "read",
+  "ac31d6775421a8e6ca881f58f989e3e3642b19241676383b1f569af0dd827f8b": "read",
+  "55f75d0fdb2a03af675578d56da139528d540fcd0addf1413a3fcbe7c100a075": "read",
+  "be3bd4e23b7ec336d11f032a223d525d75a62867c3f03ae82488a32d46d71c29": "read",
+  "7708d57d0b19bf9a2e40b45735ffc6208b96fc98848966384f24e1dc0a1121fc": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f0105a2720338e5b101defc3893c0cb08d3efe8cea81b856b6b17b2ef9d01bcd",
+ "domain": [
+  "software/developer-tools/language-server"
+ ],
+ "product": [
+  "lua"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lua language server integration that gives the agent code intelligence for Lua files.",
+ "whenToUse": "Use when reading, navigating or editing Lua code and you need diagnostics, definitions or completions.",
+ "tasks": [
+  "provide lua diagnostics",
+  "go to definition",
+  "find references",
+  "code completion"
+ ],
+ "effects": {},
+ "flags": []
+}

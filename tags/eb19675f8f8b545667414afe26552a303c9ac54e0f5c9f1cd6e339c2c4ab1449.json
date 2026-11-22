@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "eb19675f8f8b545667414afe26552a303c9ac54e0f5c9f1cd6e339c2c4ab1449",
+ "domain": [
+  "travel/private-aviation",
+  "travel/booking"
+ ],
+ "product": [
+  "villiers"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "run-the-money"
+ ],
+ "summary": "Provides private jet charter price estimates and confirmed live quotes for routes worldwide.",
+ "whenToUse": "Use when a user wants pricing or a quote for a private jet charter flight.",
+ "tasks": [
+  "estimate charter price",
+  "request live charter quote",
+  "search worldwide routes"
+ ],
+ "effects": {},
+ "flags": []
+}

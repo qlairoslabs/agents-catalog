@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2584b7730cfc43a8a2d8bce9a17003b9ea6dcd3f642b64f9a28e1699444c8fcf",
+ "domain": [
+  "ai/model-access",
+  "research/web"
+ ],
+ "product": [
+  "google-gemini"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Connects agents to Google Gemini for chat, research and search-grounded answers.",
+ "whenToUse": "Use when an agent wants a second model's answer or grounded research from Google Gemini.",
+ "tasks": [
+  "chat with gemini",
+  "run research queries",
+  "get grounded answers"
+ ],
+ "effects": {},
+ "flags": []
+}

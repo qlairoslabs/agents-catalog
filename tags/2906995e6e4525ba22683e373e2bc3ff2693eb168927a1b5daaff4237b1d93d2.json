@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2906995e6e4525ba22683e373e2bc3ff2693eb168927a1b5daaff4237b1d93d2",
+ "domain": [
+  "software/php/package-discovery"
+ ],
+ "product": [
+  "laravel",
+  "laraplugins"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides vetted data on Laravel plugins, including health scores, compatibility and vendor trust.",
+ "whenToUse": "Use when choosing or evaluating Laravel packages for a project.",
+ "tasks": [
+  "look up plugin health scores",
+  "check compatibility",
+  "check vendor trust"
+ ],
+ "effects": {},
+ "flags": []
+}

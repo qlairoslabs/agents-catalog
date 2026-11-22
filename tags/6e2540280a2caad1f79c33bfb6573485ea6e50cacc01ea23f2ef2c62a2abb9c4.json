@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "6e2540280a2caad1f79c33bfb6573485ea6e50cacc01ea23f2ef2c62a2abb9c4",
+ "domain": [
+  "finance/equities",
+  "finance/market-data"
+ ],
+ "product": [
+  "listr",
+  "finanstilsynet",
+  "oslo-bors"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Shows short positions and insider trades in Norwegian listed companies, with company lookup.",
+ "whenToUse": "Use when researching short interest or insider buying and selling in Norwegian stocks.",
+ "tasks": [
+  "list top short positions",
+  "look up company short positions",
+  "list insider trades",
+  "filter buys or sells",
+  "find company by name or ISIN"
+ ],
+ "effects": {
+  "1639e8f07505aaaccd5595ad52e004e21fb281a0fae3b31619aa8553b07c5cd2": "read",
+  "82e4ce3e13adf447e93cefc9cc45321003be7b5d25168e17a8b0bf05b1998587": "read",
+  "a1511e815e171cb5061956ebcf591b62b4200659544a541bc3ecfc70956b8daf": "read"
+ },
+ "flags": []
+}

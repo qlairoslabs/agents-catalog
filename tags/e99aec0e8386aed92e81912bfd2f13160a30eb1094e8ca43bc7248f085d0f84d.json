@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e99aec0e8386aed92e81912bfd2f13160a30eb1094e8ca43bc7248f085d0f84d",
+ "domain": [
+  "software/automation",
+  "software/ai-agents"
+ ],
+ "product": [
+  "dossier"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local MCP server that lets agents discover, verify and run dossiers following the dossier automation standard.",
+ "whenToUse": "Use when an agent needs to find, check and execute dossier-format automation workflows.",
+ "tasks": [
+  "discover dossiers",
+  "verify dossiers",
+  "execute dossiers"
+ ],
+ "effects": {},
+ "flags": []
+}

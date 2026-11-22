@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "9a351601dc1eabe4e43556bde7aef935693b833ad6835eb95ce38f32d73d92ae",
+ "domain": [
+  "marketing/analytics",
+  "marketing/advertising",
+  "software/web-infrastructure"
+ ],
+ "product": [
+  "google-analytics",
+  "google-search-console",
+  "google-ads",
+  "cloudflare",
+  "aidata"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Connects an AI assistant to a site's Google Analytics, Search Console, Ads, CRM, Cloudflare and other data.",
+ "whenToUse": "Use when a user wants to query website traffic, search performance, ad results or CRM data for their sites.",
+ "tasks": [
+  "query google analytics",
+  "query search console",
+  "review google ads data",
+  "access crm data",
+  "view cloudflare data"
+ ],
+ "effects": {},
+ "flags": []
+}

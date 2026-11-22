@@ -1,0 +1,67 @@
+{
+ "classifier": 2,
+ "contentHash": "e288984380a117723417dccb7e07052a0a6a4411fbd25db64f3dbe09a05613ae",
+ "domain": [
+  "crypto/memecoin-intel",
+  "finance/trading-data"
+ ],
+ "product": [
+  "robinhood-chain",
+  "solana",
+  "pump.fun",
+  "uniswap",
+  "telegram",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Pay-per-call memecoin intelligence for Robinhood Chain and Solana: buyer bursts, rug checks, token verdicts, copy-trade leaders and Telegram caller outcomes.",
+ "whenToUse": "Use when an agent needs rug checks or live launch and burst data on Robinhood Chain or Solana tokens before trading.",
+ "tasks": [
+  "rug check tokens",
+  "list live buyer bursts",
+  "view scored burst history",
+  "find new pools",
+  "inspect pool flow",
+  "detect sniper crews",
+  "rank copy-trade wallets",
+  "grade tokens",
+  "rank Telegram callers",
+  "track pump.fun graduations",
+  "audit desk trades",
+  "buy stream pass"
+ ],
+ "effects": {
+  "c98bab9a15fe2ee556a8feaca2cd9440bd150cdafc706b462e3fb63ae1e9e623": "write",
+  "86161e2f352bade1519552a65f8c13685ec043e73afef8d82c59ee2a772830bd": "read",
+  "9ae7fe50763463095d6b4e0724226ebcadf54079d4e5d5766d53cd4d193779d0": "read",
+  "ce4acf1d6fb0bcb226ebd7276c95cf12c24a8fa6d59aa5521db561debfd8fdee": "read",
+  "5df83778c4e266b8710f89e6cc5a04b1736666b1b3e8b424375a4381dfd33181": "read",
+  "00045e74244753e37f631c059c7a4017dda8ce923ff6002c69afd645b9557991": "read",
+  "1d6abb9d8679f3dd38f4fd74b37aaac80a73ad0db8e950424e2988e0f33d1252": "read",
+  "eb2ed709c21cb49bed4967e7d5c47eab3ff17e8bc34951410cd216cd3b2b4406": "read",
+  "52b427deae183936bfaa22ef18b1beafe78e49fd2dc80dfc47e42e82f1b3d3ba": "read",
+  "ca5f9b752013fbbae3739af7215ea794d73340f8477cfb950d2d40204b2a4431": "read",
+  "26867a11efdb198943d622941c1d664493b312244f767682271c02041341144c": "write",
+  "31f19a2b40e46be50c553c38c2fe65a02a20285c6cbde51db80f3d4c37c70b95": "write",
+  "484880681f2649bdef4aefcfc0a57a585ff33c5a0fb1a8e943b1b92c0e6e32fc": "write",
+  "7ee6c55337d71e838e873ccc3476ec428169190fdef7bc1dcae718e0f744aa43": "read",
+  "26b7fbea499b4d0232e1006008ca4e0b186d1a079e53ce7911e467152fd0663c": "read",
+  "a72eea5cb359eacd8fe420c32650037a207e5ef0f9ad206ec9451b8425f27749": "read",
+  "703698e04e5e0dd2e4241e5f18df80a541f344df5220a4bacfda7750081484e1": "read",
+  "7f5a83c80cdebbffaa76ced29360eef908add97096b483fa2bf1f71cbb223a2a": "read",
+  "82f8cf88f5c86df7a34fe0a8d5fbed4cd30e1be8f7accea1fc68bed43c27d19d": "read",
+  "5248302b4ca04dce6cac9979648731209e0d6897288805fc915cfbbeb8c72aa9": "read",
+  "23693a5acd80ae51fb7a6dc721da153db8653ec2956477b7e4517e827fbd792d": "read",
+  "91fa88ee5ba33fe223457ede2e90fbe17e542feba56dbf3c8a8ec281a3ffdfe7": "write",
+  "56b2b5e66d4dd0cfd98a1009a1dde699f070195d736cfc28b7a68e9fddb02810": "read",
+  "6eaee5920141b85bac8cdc65567100f19051e1676bb70dc94dc49cf4f45955a4": "read"
+ },
+ "flags": []
+}

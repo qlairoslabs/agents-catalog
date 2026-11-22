@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "603babbc6528a466f01cd98c98a51ab1e9699e69f2d1e5788996249ae2776d9d",
+ "domain": [
+  "sports/gps-tracking",
+  "data/geospatial"
+ ],
+ "product": [
+  "sportstracklive"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live GPS sports tracking and per-sport analysis of GPX, IGC and FIT files, including thermals, wind, phases and laps.",
+ "whenToUse": "Use when an agent needs to analyze a GPS activity file or follow live sports tracking.",
+ "tasks": [
+  "track live gps activities",
+  "analyze gpx files",
+  "analyze igc files",
+  "analyze fit files",
+  "detect thermals",
+  "analyze wind",
+  "split laps and phases"
+ ],
+ "effects": {},
+ "flags": []
+}

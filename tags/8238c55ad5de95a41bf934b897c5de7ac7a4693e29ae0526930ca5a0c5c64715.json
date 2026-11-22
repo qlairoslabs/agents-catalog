@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8238c55ad5de95a41bf934b897c5de7ac7a4693e29ae0526930ca5a0c5c64715",
+ "domain": [
+  "ai/model-gateway",
+  "software/developer-tools"
+ ],
+ "product": [
+  "kyma-api"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Live AI model catalog with prices and uptime, rankings, credit and spend tracking, and spend-capped chat.",
+ "whenToUse": "Use when comparing AI models by price or uptime, checking API spend, or running chat with a spend limit.",
+ "tasks": [
+  "list models with prices",
+  "check model uptime",
+  "view rankings",
+  "check credits and spend",
+  "run spend-capped chat"
+ ],
+ "effects": {},
+ "flags": []
+}

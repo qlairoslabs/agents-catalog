@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "79af00c53b5f1f02246ed52c77eb65c5b49df178a33b678e4cd1d4f17c22a53c",
+ "domain": [
+  "productivity/meetings",
+  "productivity/communication"
+ ],
+ "product": [
+  "circleback"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives access to Circleback meeting records, emails and calendar events for conversational context.",
+ "whenToUse": "Use when an agent needs context from past meetings, emails or calendar events captured by Circleback.",
+ "tasks": [
+  "search meetings",
+  "access emails",
+  "access calendar events"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "21f1818ba41be7beca6bc48039f0dbc0209063ed9365094759e47cc000f6db18",
+ "domain": [
+  "media/ai-generation",
+  "media/video"
+ ],
+ "product": [
+  "google-flow",
+  "veo",
+  "imagen",
+  "nano-banana"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates videos and images through Google Flow models such as Veo, Nano Banana and Imagen, with a CLI.",
+ "whenToUse": "Use when an agent needs to generate AI video or images via Google Flow.",
+ "tasks": [
+  "generate video",
+  "generate images",
+  "use from cli"
+ ],
+ "effects": {},
+ "flags": []
+}

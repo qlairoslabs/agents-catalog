@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fa9014ecd7b74eab5ae852d67f52206e935000a4729d5003c56238dc3c1e7ee9",
+ "domain": [
+  "data/business-intelligence",
+  "data/text-to-sql"
+ ],
+ "product": [
+  "vibe-bi"
+ ],
+ "audience": [
+  "everyone",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers plain-English business questions by querying a connected database without writing SQL.",
+ "whenToUse": "Use when a user asks a business question that needs data from their own database.",
+ "tasks": [
+  "answer business questions",
+  "query database in natural language",
+  "generate sql automatically"
+ ],
+ "effects": {},
+ "flags": []
+}

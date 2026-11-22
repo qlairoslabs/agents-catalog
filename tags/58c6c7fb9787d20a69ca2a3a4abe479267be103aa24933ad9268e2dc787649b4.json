@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "58c6c7fb9787d20a69ca2a3a4abe479267be103aa24933ad9268e2dc787649b4",
+ "domain": [
+  "software/ai-models/gateway"
+ ],
+ "product": [
+  "oneover"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Single remote MCP server and API key giving access to chat, image, video and audio models from many vendors.",
+ "whenToUse": "Use when an agent needs to call text, image, video or audio generation models from various providers via one key.",
+ "tasks": [
+  "chat with language models",
+  "generate images",
+  "generate video",
+  "generate audio"
+ ],
+ "effects": {},
+ "flags": []
+}

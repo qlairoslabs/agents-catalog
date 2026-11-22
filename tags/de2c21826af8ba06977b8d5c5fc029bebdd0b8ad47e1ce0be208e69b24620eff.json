@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "de2c21826af8ba06977b8d5c5fc029bebdd0b8ad47e1ce0be208e69b24620eff",
+ "domain": [
+  "software/ui-components",
+  "software/documentation"
+ ],
+ "product": [
+  "mobiscroll"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Version-aware Mobiscroll UI component schemas, examples and validation, plus Mobiscroll Connect calendar REST API and SDK documentation.",
+ "whenToUse": "Use when writing or checking code that uses Mobiscroll components or the Mobiscroll Connect calendar API and SDKs.",
+ "tasks": [
+  "detect framework and version",
+  "list components",
+  "get component API schema",
+  "search examples",
+  "validate code snippets",
+  "list Connect endpoints",
+  "get SDK method docs",
+  "map REST to SDK calls",
+  "look up error taxonomy",
+  "read Connect guides and models"
+ ],
+ "effects": {
+  "8d9ce9e9951c795be31fbbf1d66f74f9d388fcd1e768a7ff9a1ccc43203163e2": "read",
+  "67c753b0b1ffd48eab7f855edfd01964ccd2525395da669493274957e7928edc": "read",
+  "2dca8ed4de3151afab08502fbbc4ca4c89e6a156f7c75c2dc94af4caf3590924": "write",
+  "218ea266304d3503c19b3b07b9e23dee093d7e860a987e5e029150dac5285cb8": "read",
+  "aa34dc3fabd66eb2326b505ad242a02f3a1ef3a88dd88b27e2bf90281249b5e1": "read",
+  "5da06c1c60b950b0e293c79aa6eb48e859072d3f66aa49551857ba4b78ece146": "read",
+  "7f86939af96686e1736b64a8ddc81bbaf5198de7ce2c6fd3a91b06694ef70fe7": "read",
+  "ea3d00228de5449c6cb9bdd1929ef3349e94a27b49111ecc2002379956efcf0b": "read",
+  "402f03068ce66703f499e377bde57457f80e73769c88ab711ef75883e53349d8": "read",
+  "25c46513f46fad45102e6160b118146f408e2bee169564c29945da91d7ec5054": "read",
+  "0e55f3b5facf4fdc464a4e23faef06680ea17e685a2d993c201e1890ac2a6d17": "read",
+  "e78c40279a9c2939befc50aa05adba84702a34daac38e8301e0f1db020cd3a91": "read",
+  "db60e814cd07f85d7e1355ce04476ffa1b066226350d764987714c8b4ea74437": "read",
+  "f590ed2182322d8312f99cd01752f6ae21fc522ea7722ca3a59e64c419358974": "read",
+  "36e9f1d7cb5306ee31a288cdb24bfdcca067e2cc6e2835d89a44c2ff86524db2": "read",
+  "df68254cbc638e03b0d707f4e8de40a6bf05acd0e507c5024ece465b8249c3cc": "read"
+ },
+ "flags": []
+}

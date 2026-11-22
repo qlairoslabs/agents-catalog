@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "99802313471b924dda121b16a262080cf98ed5f14f4ea34c19556b569525e0e5",
+ "domain": [
+  "media/video-editing"
+ ],
+ "product": [
+  "final-cut-pro"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Edits and analyzes Final Cut Pro FCPXML timelines through grouped tools.",
+ "whenToUse": "Use when inspecting or modifying Final Cut Pro timelines via FCPXML.",
+ "tasks": [
+  "parse timelines",
+  "edit clips",
+  "add markers",
+  "export fcpxml"
+ ],
+ "effects": {},
+ "flags": []
+}

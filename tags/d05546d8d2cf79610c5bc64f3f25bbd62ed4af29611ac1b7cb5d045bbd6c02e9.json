@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "d05546d8d2cf79610c5bc64f3f25bbd62ed4af29611ac1b7cb5d045bbd6c02e9",
+ "domain": [
+  "research/academic-conferences",
+  "research/publishing"
+ ],
+ "product": [
+  "myhuiban",
+  "ccf",
+  "icore",
+  "qualis"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Search academic conference and journal call-for-papers deadlines, CCF/ICORE/QUALIS rankings, acceptance rates and research fields.",
+ "whenToUse": "Use when a researcher needs to find venues to submit to, check deadlines or rankings, or compare conferences and journals.",
+ "tasks": [
+  "search conferences",
+  "search journals",
+  "browse open CFPs",
+  "browse rankings",
+  "get conference details",
+  "get journal details",
+  "get researcher profile",
+  "get site statistics"
+ ],
+ "effects": {
+  "22f81b6e2deeccf77a9a5e815926e82c4e3dd8a8c3a575ae8e71cc2cd573f17c": "read",
+  "b5b7edddf2ec66218c99d6f4c850d52289b6c2aa819feda4e65060a8f273a888": "read",
+  "00d0db36b44e91fc11fc71fa14212db255abdf82c6191f1c694863ddc9ac7716": "read",
+  "b01eb86f8d8d0c610d33953747f894f5acf45f308a7cc85be924f2c5d17b02d3": "read",
+  "d3ded0dcb7930312d1e358e16e14c00236d0f179716c6ec66625ac0b16741a5a": "read",
+  "3d3d5ad734ecf2ab8bbadb43a5088ce480db300d4b9945365b60d7a2eb981fb1": "read",
+  "91d4c0449566476afd8a07dca9cb9488dc7966426bc06e3154b2cebeee738ba2": "read",
+  "d5d55d54108249cf291fd623fd0f9a8425fa6571b46be3bab083b73ad37cf071": "read"
+ },
+ "flags": []
+}

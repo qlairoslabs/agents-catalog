@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f70c095bd3707c50e0f84f387f762be9e9b4c5072f4789bd3dfd7829ac8a9e89",
+ "domain": [
+  "manufacturing/metal-stamping",
+  "engineering"
+ ],
+ "product": [
+  "balford"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Answers metal stamping, deep drawing and DFM questions from Balford's published engineering pages, with citations.",
+ "whenToUse": "Use when you have a metalworking or sourcing question, such as process choice or RFQ preparation.",
+ "tasks": [
+  "answer engineering questions",
+  "search published material",
+  "list engineering topics",
+  "prepare RFQ info"
+ ],
+ "effects": {
+  "705690d6a2979add1e46d31fa10784d54ea67afb0878ee87b59a5e7562701c71": "write",
+  "acbc37f53008e72fd74fe7c0b224f67134df598fccdff31798b385cbc4015770": "read",
+  "2675625597a99799f7dfdae2c5cc62d8805395e262c37ad27bde12b1991a6d79": "read"
+ },
+ "flags": []
+}

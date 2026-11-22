@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "260979f208b57ccf441a81d7ebcd4748c223f41df419a5fb5374b26fbff52cdf",
+ "domain": [
+  "software/vendor-security-review",
+  "compliance"
+ ],
+ "product": [
+  "openai",
+  "saasdossier"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Provides a free OpenAI security evidence ledger of 55 fields and a register of SaaSDossier vendor evidence dossiers, with methodology.",
+ "whenToUse": "Use when doing vendor security due diligence on OpenAI or learning about SaaSDossier's evidence framework.",
+ "tasks": [
+  "get release register",
+  "get OpenAI evidence ledger",
+  "get methodology",
+  "get free dossier PDF link"
+ ],
+ "effects": {
+  "5423e02b2f2f4fb6f3dda83b134c4b0b3a52ea586d65dc3fbe639c9525312ec3": "write",
+  "848a6accc0717aa5e903341a3814daa23c3e42450e7be169a1cd09be8b7a1085": "write",
+  "a0aa43bb7514b192ea7f6f29c53990dd7a1f183cf38547513e86392fc4d4116b": "write",
+  "8245b75ec72259d4775eba53b92c39eea9108df865ec15fa0461bdc5825cd5c8": "write"
+ },
+ "flags": []
+}

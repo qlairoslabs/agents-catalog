@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "23c145fd27657bfc9783f987244ae9ed080503cd2b57a5001eebe6d782d704f2",
+ "domain": [
+  "sales/lead-generation",
+  "marketing/prospecting"
+ ],
+ "product": [
+  "lead-radar",
+  "google-maps"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Generates B2B leads from Google Maps by searching businesses, removing duplicates and enriching them with email addresses.",
+ "whenToUse": "Use when an agent needs a list of local businesses with contact emails for prospecting.",
+ "tasks": [
+  "search businesses on google maps",
+  "deduplicate leads",
+  "enrich leads with emails"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bb35db76a0990546d84c8aea4e8c547a46b8ea6c05542a8035d33c6fdcf9fd8a",
+ "domain": [
+  "automation/ai-agents",
+  "productivity/meeting-notes"
+ ],
+ "product": [
+  "runable"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs agent tasks on Runable, tracks their progress, retrieves output files and searches meeting notes.",
+ "whenToUse": "Use when delegating tasks to Runable or searching Runable meeting notes.",
+ "tasks": [
+  "run agent tasks",
+  "track task progress",
+  "retrieve files",
+  "search meeting notes"
+ ],
+ "effects": {},
+ "flags": []
+}

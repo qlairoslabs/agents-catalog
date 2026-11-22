@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3b5ea967258ad56cd8b209b128a4fe5aad4fce6ec4d9a38c3daa426683ec5b64",
+ "domain": [
+  "support/chatbots",
+  "marketing/messaging"
+ ],
+ "product": [
+  "landbot",
+  "whatsapp"
+ ],
+ "audience": [
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Build, edit, test and publish Landbot chatbots and WhatsApp flows in a Landbot account.",
+ "whenToUse": "Use when an agent needs to create or modify chatbot or WhatsApp conversation flows on Landbot.",
+ "tasks": [
+  "build chatbots",
+  "edit chatbot flows",
+  "test chatbots",
+  "publish chatbots",
+  "manage whatsapp flows"
+ ],
+ "effects": {},
+ "flags": []
+}

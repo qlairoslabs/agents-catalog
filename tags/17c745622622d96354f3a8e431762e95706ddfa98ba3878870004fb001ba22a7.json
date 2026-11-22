@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "17c745622622d96354f3a8e431762e95706ddfa98ba3878870004fb001ba22a7",
+ "domain": [
+  "data/geospatial",
+  "science/terrain-analysis"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes terrain from DEMs for slope, aspect and suitability, and reads and grids point clouds.",
+ "whenToUse": "Use when an agent needs to analyze elevation models or point-cloud terrain data.",
+ "tasks": [
+  "compute slope",
+  "compute aspect",
+  "score site suitability",
+  "read point clouds",
+  "grid point clouds"
+ ],
+ "effects": {},
+ "flags": []
+}

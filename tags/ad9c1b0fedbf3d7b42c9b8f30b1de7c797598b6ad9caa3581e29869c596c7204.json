@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "ad9c1b0fedbf3d7b42c9b8f30b1de7c797598b6ad9caa3581e29869c596c7204",
+ "domain": [
+  "jobs/job-board"
+ ],
+ "product": [
+  "jobily"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Search Greek job listings on Jobily.gr by role, location, sector, company and employment type.",
+ "whenToUse": "Use when a user is looking for jobs in Greece.",
+ "tasks": [
+  "search jobs",
+  "get job posting",
+  "look up locations",
+  "list sectors",
+  "look up roles and companies"
+ ],
+ "effects": {
+  "c8f7562300b0cc5dcfe1d9c11567abf6978524f9094ead14b123613c724713a8": "read",
+  "4b24fd239ea0c4af08252b8567b37d5a7bf951fed787149dcaef8db2f68b8951": "read",
+  "9e28b28e329fbdc2cb0535104ed6a61341d4185f8aef5f6c051e90e43cad69ee": "read",
+  "0777141b4e9408546601971d62f80da0738e98c78d63379ed8eb3ee09adca13d": "read",
+  "10b8e1bd721d53b2ddde0e205b0c9ff8cab290164d15c9cfff4db96327f7d0d5": "write"
+ },
+ "flags": []
+}

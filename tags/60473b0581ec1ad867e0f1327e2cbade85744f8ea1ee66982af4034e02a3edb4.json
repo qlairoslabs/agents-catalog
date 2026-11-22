@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "60473b0581ec1ad867e0f1327e2cbade85744f8ea1ee66982af4034e02a3edb4",
+ "domain": [
+  "commerce/marketplace-selling",
+  "marketing/advertising"
+ ],
+ "product": [
+  "amazon-seller-central",
+  "amazon-ads"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Hosted MCP server connecting agents to Amazon Seller Central and Amazon Ads accounts.",
+ "whenToUse": "Use when an Amazon seller wants an agent to work with their Seller Central data or Amazon Ads campaigns.",
+ "tasks": [
+  "access seller central data",
+  "manage amazon ads"
+ ],
+ "effects": {},
+ "flags": []
+}

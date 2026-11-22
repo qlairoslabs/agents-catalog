@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "946ec0158ed382d040e078517067df9ab6c9f326683e37a2285eaac242f0830b",
+ "domain": [
+  "software/web-development/feedback"
+ ],
+ "product": [
+  "pageproofer",
+  "claude-code",
+  "cursor"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Lets coding agents read, fix and reply to website feedback notes from PageProofer.",
+ "whenToUse": "Use when a developer wants to work through PageProofer website feedback from their coding agent.",
+ "tasks": [
+  "read feedback notes",
+  "resolve feedback",
+  "reply to notes"
+ ],
+ "effects": {},
+ "flags": []
+}

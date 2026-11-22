@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bc2d253fdeedef2dc6a15e55f1b3e077ff23804b8af554776b452a9a1d2cde81",
+ "domain": [
+  "software/documentation",
+  "rust"
+ ],
+ "product": [
+  "rust",
+  "crates-io"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and shows Rust documentation for the standard library and any crates.io crate.",
+ "whenToUse": "Use when looking up Rust items, crate APIs or discovering which crate to use.",
+ "tasks": [
+  "look up item by path",
+  "search within a crate",
+  "discover crates",
+  "pin crate versions"
+ ],
+ "effects": {
+  "d8abbf4cdde6b9713961ec26bcd03cd1d697a3fd67c0f4771fb18adfdf14b9ad": "read",
+  "e5b434dac46993046f886b450fc2d46b273ad745921b3aa9716d9021d0c409fb": "read"
+ },
+ "flags": []
+}

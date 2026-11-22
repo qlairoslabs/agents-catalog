@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9fc3489a53d276fc95b39e624d16312bcd9b585aa417d5fa9bb3e9a694fd722c",
+ "domain": [
+  "software/devops/cloud-operations",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-devops-agent",
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Quick conversational queries to the AWS DevOps Agent about cost, architecture, topology, runbooks, security and dependencies.",
+ "whenToUse": "Use for fast questions about an AWS environment that do not need a deep incident investigation.",
+ "tasks": [
+  "ask cost optimization questions",
+  "review architecture",
+  "map topology",
+  "discover runbooks",
+  "run quick security audits",
+  "answer dependency questions"
+ ],
+ "effects": {},
+ "flags": []
+}

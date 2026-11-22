@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b6fab5c1dbaebf6ffee33a88bba49b45a074383f52f76ea24ee6560981163cec",
+ "domain": [
+  "media/video-processing"
+ ],
+ "product": [
+  "qencode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Video processing pipeline for AI analysis, transcoding to MP4, HLS or DASH, editing, protection and delivery.",
+ "whenToUse": "Use when an agent needs to transcode, edit, analyze or deliver video files.",
+ "tasks": [
+  "analyze video with ai",
+  "transcode to mp4",
+  "package hls and dash",
+  "edit video",
+  "protect video content",
+  "deliver video"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ee22d064cb37c06ff4f7994ba742ce07f5a44123ea00078ec20d881ccc6d45db",
+ "domain": [
+  "productivity/databases",
+  "operations/workflow"
+ ],
+ "product": [
+  "airtable"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Official Airtable server for creating bases and schemas, working with records and sharing views.",
+ "whenToUse": "Use when an agent needs to read, create or organize structured data in Airtable.",
+ "tasks": [
+  "create bases",
+  "define schema",
+  "create and update records",
+  "query records",
+  "share views"
+ ],
+ "effects": {},
+ "flags": []
+}

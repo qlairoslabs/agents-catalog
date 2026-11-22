@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "981fb9ffb0b9ff5455f073f1ae366c8d9651c5c711232c3e3c73f382e20f26c7",
+ "domain": [
+  "media/podcasting",
+  "content/audio"
+ ],
+ "product": [
+  "spotify"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Produces narrated audio episodes with TTS, timelines and cover art and saves them to Spotify through a CLI.",
+ "whenToUse": "Use when the user wants to turn content into an audio episode and save it to Spotify.",
+ "tasks": [
+  "generate tts narration",
+  "build episode timelines",
+  "create cover images",
+  "save episodes to spotify"
+ ],
+ "effects": {},
+ "flags": []
+}

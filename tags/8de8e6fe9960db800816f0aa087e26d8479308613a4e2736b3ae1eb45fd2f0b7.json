@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "8de8e6fe9960db800816f0aa087e26d8479308613a4e2736b3ae1eb45fd2f0b7",
+ "domain": [
+  "business/product-ideas",
+  "marketplace/digital-goods"
+ ],
+ "product": [
+  "sentedge",
+  "x402",
+  "base"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Marketplace of AI-generated product ideas: free teasers, paid full reads and paid exclusive buyouts in USDC via x402.",
+ "whenToUse": "Use when a user wants to browse product ideas and possibly pay to read or exclusively buy one.",
+ "tasks": [
+  "list product ideas",
+  "view idea teasers",
+  "get a free sample idea",
+  "get payment instructions for a full idea",
+  "buy an idea exclusively",
+  "view purchase economics",
+  "learn how to pay via x402"
+ ],
+ "effects": {
+  "3e225513b4f59b079b336a77eb6ae605195fc6ab7e851c118cadc8c74e3a07cd": "read",
+  "bd756d85f51cee12a3ff9d11af88f795cde12a0deac7343366d21d75f80107af": "read",
+  "f2600b2efd557497d9bf29c1887f855e98f730f31400698ce411eb3ff491b9ac": "write",
+  "c5b556ed2120524d2cb9c88ec1e9dfc38e2b8268b2f1ed9cce8785cbef2b2389": "risky",
+  "79317f333e594b21566083b9c96f744585f6db299e9871ca0adb09b1d9386e8d": "read",
+  "eded292850c957219df5cd74de86dee762ff7bf3b28810ce8c0348c2ceb3a32f": "read",
+  "ab3833e461ceafdd5fc88352fb9f8749b06cf38b372faf6d65820b04a36a4b45": "read"
+ },
+ "flags": [
+  "tool descriptions nudge the agent toward spending (e.g. 'call this before deciding whether to spend')"
+ ]
+}

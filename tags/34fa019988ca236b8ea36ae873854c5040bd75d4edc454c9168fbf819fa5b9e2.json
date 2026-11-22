@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "34fa019988ca236b8ea36ae873854c5040bd75d4edc454c9168fbf819fa5b9e2",
+ "domain": [
+  "software/cybersecurity/threat-intelligence"
+ ],
+ "product": [
+  "crimson-crawler"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Enriches, searches, assesses and manages threat intelligence data through many MCP tools.",
+ "whenToUse": "Use when investigating indicators of compromise or managing threat intelligence records.",
+ "tasks": [
+  "enrich indicators",
+  "search threat intelligence",
+  "assess threats",
+  "manage intelligence records"
+ ],
+ "effects": {},
+ "flags": []
+}

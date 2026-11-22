@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9f4895ab29849f23044c885ff9137089851a5c5c0070b2d7c88d9e89c9e1f352",
+ "domain": [
+  "commerce/marketplaces/amazon",
+  "commerce/inventory"
+ ],
+ "product": [
+  "amazon-seller-central"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects an Amazon Seller Central account to analyze sales, inventory and listings and run approved listing, inventory or FBA actions.",
+ "whenToUse": "Use when reviewing Amazon seller sales, inventory or listing performance, or making approved changes to listings or FBA.",
+ "tasks": [
+  "view sales data",
+  "check inventory",
+  "analyze listing performance",
+  "get recommendations",
+  "update listings",
+  "manage inventory",
+  "manage fba actions"
+ ],
+ "effects": {},
+ "flags": []
+}

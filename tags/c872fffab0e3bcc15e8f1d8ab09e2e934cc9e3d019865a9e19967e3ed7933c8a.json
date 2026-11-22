@@ -1,0 +1,78 @@
+{
+ "classifier": 2,
+ "contentHash": "c872fffab0e3bcc15e8f1d8ab09e2e934cc9e3d019865a9e19967e3ed7933c8a",
+ "domain": [
+  "marketing/website-analysis",
+  "software/cms-selection",
+  "software/web-reliability"
+ ],
+ "product": [
+  "oshyn",
+  "hubspot"
+ ],
+ "audience": [
+  "marketing",
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Free Oshyn tools to scan a website's reliability, assess brand visibility in AI answers, match a DXP or CMS, estimate a redesign budget, and contact Oshyn.",
+ "whenToUse": "Use when a user wants a site reliability scan, an LLM brand discoverability assessment, a DXP or CMS recommendation, or a digital project budget estimate.",
+ "tasks": [
+  "scan site reliability",
+  "assess LLM brand discoverability",
+  "match a DXP or CMS",
+  "estimate DXP project budget",
+  "run redesign advisor questionnaire",
+  "query Digital Trust Index scores",
+  "search Oshyn blogs",
+  "submit contact request"
+ ],
+ "effects": {
+  "cc9e0378b00bbc6345a2ca42edfc2fb59823bc3de77fa89a0a152e17e66fe96e": "write",
+  "f1789a90d248b269bd43cdd8fb3546fb2208cd9d6d1d11d9999bab7b5cd821c9": "write",
+  "2e357ea612a646b667aa3dcdeca8fc8f952ecfa5dba73b682cdf3fa26419e052": "write",
+  "fec66df9dc6264c9ef74defbb9a8cf50cdfadc3bce3ec3d0376e9187e6702cfb": "write",
+  "bf72b9fa10352c746dc2ca2995d1e463339c1873ec44be0a0278d0d4bc17bddd": "write",
+  "33546158fac5398241c5861a667ca713eba8c1a96e27662386e63c5fde9acc29": "write",
+  "618841f0e696cccd8415177d7965269d94886d44290130e294b45e23839abd83": "read",
+  "189c8c7696b2768c570b084b9ef37825f0e2614420627075e3fb4939e7c7eef7": "write",
+  "0da96db0d533b8c010dc327de2e356afbc5743e2289405da7256499888c8896e": "write",
+  "daceb2291f91f65f6b388eb9aa8b6fc8e5c680755432262085dd7c5733b59568": "write",
+  "99eef709d27961b16c3ed4fef0f588394f75e4f02b67f6023704a7ca90f437fa": "write",
+  "41605630ddc5fafc159c081f02a51cdbfa7d3ed81f5fa076aff6ba19fced9a1e": "write",
+  "4d67dd87c9b5b43412aa068021082c5e63f3509d095a681e0aa1b7468871e83f": "write",
+  "ca9d8ee1f8e3d4bd246d16ebe70f78f301449e1bbd93da5a03820a2e059ea514": "write",
+  "1d8862d5fc119b80363baa255772ed48af06fe8e697417964e3fd691df8cc138": "write",
+  "b3a8637197adc8315621fb05c6231ef27dd3915b3b49d2c250a21a8c3be38854": "read",
+  "b9d1623c52508ea9ce6f82e1587e0f03de40c8b72f35d20d69ac2ee045b6c380": "write",
+  "d0e2c1e34a9a42ecfa142ce793a033613fcfdc63e27642eecd6c625366be3f31": "read",
+  "87f0a6f8c4d27baab54b2ffdd38ba6fe314abf3520848125191e854de2e5fa22": "read",
+  "c3b778f089959147028f491d260127a081ce23ff0a61122039b26ce743980f09": "write",
+  "9ded4b20e1ca40cb4cd6371227eeb561b55fccce5c504ea8b0261baaaf537e5f": "write",
+  "6e8ebfe87ffdced00dfbf0eaa64fd46b71bdb98108753d032ccb5a8fa3b7b816": "write",
+  "4d2e08dd51b88c890c91158e4d10fa7c6e2bca7e3b05fa36f7449da21958beac": "write",
+  "83b61f3b1de75145a82dfe44999908c4eb17cbc4f51d540708f32104a9da5fe6": "read",
+  "e717b1553cc534792b21bc2fee43c08e61a4277646a065172da01f89754eabf1": "read",
+  "2ee6414f87c75b277e14e28ef57fecfc1f75ebf14c83fca84b284bf8970cce3b": "read",
+  "4216df83185d5e41b854fc15eb6364c97c8e532ce43c47618b1ae9e8e79040a6": "write",
+  "82ae0f19e3a38aa79706ed9f5bb96446796a179c82420ab2e0079b8ac00a00e1": "write",
+  "4e232625aefa9363b7ac66fd76c88faa8605fec125a37666cc1796d88595a1ea": "write",
+  "cbadb843e3112c6c0cfb9e7b708c99b53dd91576753b6cd14103596b893b8117": "write",
+  "4484749d867b69598bd85fc889a7d2a932dba601795f86c338f966402bdac9cb": "write",
+  "abd67b4d8aeb226fc48ed826255364c9efd147b310c715831e50d72ea4903c26": "read",
+  "7c1bdbda31395ea64570ccb86134928e6e5b17bf84c8689526372b4edb34603d": "write",
+  "d2c0f17964e1858c6fe96ce2ab353eeaebae6733fb88fb8eee8f951b66027b88": "write",
+  "9c32267b5f514a8daa3e450e637e505af0fd50803a0f3bb88a80857264013a34": "write",
+  "7a1bd718a42461059fe1e8dc8106006295f936dbcf33129313af344547de31ff": "read",
+  "8a330243797c8793f272748625ce9205d40d24db153edb3d46d641a687641583": "write",
+  "9f3b6f05fa2d16c24e9987b97f49c8b781760eb850fb5a324ddeb414ebcd4c41": "write",
+  "3e337bdea2ced0f58858417689eeda89d8ac435590421f1b0c9b2ca68f79ac41": "write",
+  "826a3598f21b128889a412950a4eee53e0dd85b2ec8fb85d86902b76c7f66b40": "write"
+ },
+ "flags": []
+}

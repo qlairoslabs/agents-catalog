@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "672f24d95db9d2f2e9d1dab5a3452342e6877a2ec12e21603a0ebf8bccf7abd2",
+ "domain": [
+  "sales/proposal-software",
+  "software/saas"
+ ],
+ "product": [
+  "cuevr",
+  "pandadoc",
+  "docusign"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Read-only buyer assistant for Cuevr sales-proposal software: site search, pricing and quotes, ROI calculator, comparisons, sales advice and demo/trial links.",
+ "whenToUse": "Use when a prospect asks about Cuevr features, pricing, comparisons, ROI, or wants a demo or trial.",
+ "tasks": [
+  "search product pages",
+  "read pages",
+  "diagnose sales problems",
+  "give selling advice",
+  "calculate ROI",
+  "explain app steps",
+  "list strengths",
+  "compare tools",
+  "show plans",
+  "price a team",
+  "cite figures",
+  "get demo or trial link"
+ ],
+ "effects": {
+  "f518233ea23f93722742f0db6f9d8c4540b8da8324f53ba154120c23ae64b4fc": "read",
+  "b5f4247c124d61355f923623ff4f1ba126c8d473e59793244041a5237dbc0c04": "read",
+  "170006094387b5cb692f520297bd1d1d4c4a698a37a7e1823599020024ed5d22": "read",
+  "338c2d4c7bcfd6be689fa70a397d2e9769bfea448c8229db1e3025f2a79d2ca3": "read",
+  "2b3fdd89edc68757dd9862566293677aaf2c0492d5009151bb271f71860ebb37": "read",
+  "1477744d473ebe71aa457de610e4261ba1f8b861e07937a0f44db58f91bab9bd": "read",
+  "ad075ceaf2c8b5c5f8631cda85a3d90e907d51801e35a1ef8367db458f50bfcd": "read",
+  "c646b21a04c2cc5ccd218cef409c42568f8eb9ad35d207b2f322507d24ffc4f6": "read",
+  "8f07f36869f9ada41fbf5db2fbfc587e117740e3f6975dab76822a039f176485": "read",
+  "66f92c59db84db65318c2a81237dcdb119d2e4b5e81ca0477440d2236b249d99": "read",
+  "e68cb7b7963f6d491d986bbac779fc278fcbc81eefa754d4d1945e92e392396f": "read",
+  "87e1399c55393ce6c8724a9ed1fc747728b98c4bfa40d0c2d529bba6f9fd7aba": "read",
+  "edf799151214379d5f4edc83654186012fd1ed5b757cdb70106a049b45ce792a": "read"
+ },
+ "flags": []
+}

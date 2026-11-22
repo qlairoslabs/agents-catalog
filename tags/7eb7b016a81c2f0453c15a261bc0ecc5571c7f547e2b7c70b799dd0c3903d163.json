@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "7eb7b016a81c2f0453c15a261bc0ecc5571c7f547e2b7c70b799dd0c3903d163",
+ "domain": [
+  "hiring/cv-builder",
+  "documents"
+ ],
+ "product": [
+  "lebenslaufheld"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "hire-and-manage"
+ ],
+ "summary": "Builds German CVs and cover letters as PDFs from 20 templates, with ATS readability and completeness checks.",
+ "whenToUse": "Use when a user wants a German Lebenslauf or Anschreiben laid out as a document or an existing CV checked for ATS readability.",
+ "tasks": [
+  "create German CV",
+  "create cover letter",
+  "change template and colour",
+  "check ATS readability",
+  "check CV completeness",
+  "list templates",
+  "get profession examples"
+ ],
+ "effects": {
+  "b4b2100b29f0933d2fa8dbeb48e076be3ff9ab65330d71496d6835d8bb253170": "write",
+  "56a33cdeb3cb980e16c5732f867eb687de2752f71155eb3cb66248d58e3a6ebb": "write",
+  "6aa4a8f3aeacea0d11f260126e88e5ddfb3798d7fee1d2c8bb647c1e15f384c1": "write",
+  "3414f74892e221e4d7043be4ba94fedcaeb77e3af83937373506c8b6be8be29c": "read",
+  "fa749ee8a78e8cd46648d3713a7efcef83e81fea967fc98479fa60ba0f330c24": "write",
+  "6e5fc4886aa24d646a9e635bfc57a884c4f6bbdbefdaa2c6c491dc7d248771ff": "read",
+  "b9395779508670409df864a189b7f4203b315696d461cf975072be6520b3f634": "read"
+ },
+ "flags": []
+}

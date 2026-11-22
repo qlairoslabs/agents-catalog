@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8768e816173c2be7a63581a69d176c4e5db885ac4d07aaa72883bd4f899bf1e9",
+ "domain": [
+  "productivity/project-management"
+ ],
+ "product": [
+  "trello"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "MCP server for working with Trello boards, lists and cards through the Trello API, with rate limiting.",
+ "whenToUse": "Use when an agent needs to read or update Trello boards, lists or cards.",
+ "tasks": [
+  "read boards",
+  "manage lists",
+  "create cards",
+  "update cards"
+ ],
+ "effects": {},
+ "flags": []
+}

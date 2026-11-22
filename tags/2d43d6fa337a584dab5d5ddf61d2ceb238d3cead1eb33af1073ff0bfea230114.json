@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2d43d6fa337a584dab5d5ddf61d2ceb238d3cead1eb33af1073ff0bfea230114",
+ "domain": [
+  "home-services/garage-door-repair"
+ ],
+ "product": [
+  "garage-doorman"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Business information, website search and quote requests for a residential garage door repair company in Grimsby, Ontario.",
+ "whenToUse": "Use when a homeowner near Grimsby, Ontario asks about garage door repair from this business or wants it to contact them with a quote.",
+ "tasks": [
+  "get business facts and hours",
+  "search website pages",
+  "read a website page",
+  "request a quote callback"
+ ],
+ "effects": {
+  "5154d08200eba4895c31532db216f5c702dc2dccba8ddddf572e448784e79da3": "read",
+  "f367be6539cdbd54c994efee8ff7f074828377b6edb4ebf5099be85fc2ea2f02": "read",
+  "b1ee61db432456bf8139a66ac367879558ac7741f96f5a52287853b5eea818b0": "read",
+  "500cd21553c502f3564b930ee6e1a9815ada76fcea83cf0c2a803fae8dbdd193": "write"
+ },
+ "flags": []
+}

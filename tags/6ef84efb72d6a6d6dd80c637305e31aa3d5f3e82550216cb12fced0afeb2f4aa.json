@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6ef84efb72d6a6d6dd80c637305e31aa3d5f3e82550216cb12fced0afeb2f4aa",
+ "domain": [
+  "research/scientific-literature",
+  "education/academic"
+ ],
+ "product": [
+  "scite"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Search scientific literature full text, see how papers are cited, and access articles to ground answers.",
+ "whenToUse": "Use when an agent needs to back claims with peer-reviewed research or judge how trustworthy a paper is.",
+ "tasks": [
+  "search scientific literature",
+  "evaluate citation context and trust",
+  "access full-text articles",
+  "ground answers in sources"
+ ],
+ "effects": {},
+ "flags": []
+}

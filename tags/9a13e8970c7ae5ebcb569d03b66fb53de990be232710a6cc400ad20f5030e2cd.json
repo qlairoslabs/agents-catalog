@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9a13e8970c7ae5ebcb569d03b66fb53de990be232710a6cc400ad20f5030e2cd",
+ "domain": [
+  "commerce/online-store/catalog-management"
+ ],
+ "product": [
+  "marea-alcalina"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Manages a Marea Alcalina storefront's catalog and products and publishes changes from an agent.",
+ "whenToUse": "Use when an agent must add, edit or publish products in a Marea Alcalina store.",
+ "tasks": [
+  "manage catalog",
+  "manage products",
+  "publish storefront"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c06ede2100bb41a9f91d05df5cfdfa797466d8f3d138fc1f529f9a9b34b963bf",
+ "domain": [
+  "finance/investment/fund-research",
+  "finance/wealth-management"
+ ],
+ "product": [
+  "vanguard"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets financial advisors research and compare funds and ETFs and prepare for client conversations using Vanguard's connector.",
+ "whenToUse": "Use when a financial advisor needs fund or ETF research and comparisons before a client meeting.",
+ "tasks": [
+  "research funds",
+  "compare etfs",
+  "prepare client conversations"
+ ],
+ "effects": {},
+ "flags": []
+}

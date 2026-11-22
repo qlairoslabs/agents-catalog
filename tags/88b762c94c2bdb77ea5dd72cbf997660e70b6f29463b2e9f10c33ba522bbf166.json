@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "88b762c94c2bdb77ea5dd72cbf997660e70b6f29463b2e9f10c33ba522bbf166",
+ "domain": [
+  "collaboration/governance",
+  "productivity/task-management"
+ ],
+ "product": [
+  "talkspirit"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Reads Talkspirit circles, roles and meetings and creates tasks, goals and proposals using the user's permissions.",
+ "whenToUse": "Use when a user works in Talkspirit and wants to check circles or meetings or add tasks, goals or proposals.",
+ "tasks": [
+  "read circles",
+  "read roles",
+  "read meetings",
+  "create tasks",
+  "create goals",
+  "submit proposals"
+ ],
+ "effects": {},
+ "flags": []
+}

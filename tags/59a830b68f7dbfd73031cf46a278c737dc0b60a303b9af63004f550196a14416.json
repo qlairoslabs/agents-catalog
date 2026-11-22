@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "59a830b68f7dbfd73031cf46a278c737dc0b60a303b9af63004f550196a14416",
+ "domain": [
+  "finance/crypto-news",
+  "data/sentiment-analysis"
+ ],
+ "product": [
+  "shingou"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Hourly sentiment scores and typed market events from crypto news, with sources attached.",
+ "whenToUse": "Use when gauging crypto market sentiment or recent market-moving news events.",
+ "tasks": [
+  "get hourly news sentiment",
+  "list market events",
+  "view signal sources"
+ ],
+ "effects": {},
+ "flags": []
+}

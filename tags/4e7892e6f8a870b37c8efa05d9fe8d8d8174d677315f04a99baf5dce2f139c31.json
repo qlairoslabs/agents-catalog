@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4e7892e6f8a870b37c8efa05d9fe8d8d8174d677315f04a99baf5dce2f139c31",
+ "domain": [
+  "analytics/instrumentation",
+  "product/management"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Generates a broad list of candidate analytics events to track from a change brief YAML produced from a code diff.",
+ "whenToUse": "Use as step two of the analytics instrumentation workflow, when a change brief exists and the user asks what events to track for a change.",
+ "tasks": [
+  "read change brief yaml",
+  "generate candidate analytics events",
+  "surface analytics coverage gaps",
+  "prioritize event candidates for pm review"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "ce31d777aa538a40634350d2686870a1321a1717367c3aea12552d0449ba6bad",
+ "domain": [
+  "consulting/ai-adoption"
+ ],
+ "product": [
+  "walnai"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Public information server for Walnai AI consulting: services, pricing, FAQs, blog, pricing estimates and lead submission.",
+ "whenToUse": "Use when a prospect wants information or a price estimate from Walnai, or asks to be contacted.",
+ "tasks": [
+  "list services",
+  "get pricing",
+  "estimate pricing",
+  "get faqs",
+  "read blog posts",
+  "company info",
+  "adoption process",
+  "mcp server building info",
+  "submit lead"
+ ],
+ "effects": {
+  "0ee2c3a6291fc045643760f5d9352112e0974dceb97442306a96633a60347ac9": "read",
+  "c28c45015fdff104eef1511a0e7401d572e88493d44ad600009ea45fd274ae46": "read",
+  "8becdd2dd504649cf5d454ba0bdaf55857bb1b3ecaab088d24a82a3677498673": "read",
+  "801cd00f69c48478c60cdb973518254839e3559b14744aeaff5b7ac89cf24d61": "read",
+  "4a9c1617addfa2e514cc2e392fb88f3faf25cf5562977510a6e963f4777b1500": "read",
+  "d81853c38c44f97b1253dac4d3026d82bb28a248fd6111af3f0130f25c6d802a": "read",
+  "9ba5ceebb273767c9a746217a5a233b699e6d60c64f0e7921753da6a7d8cdabe": "read",
+  "194a7a5ff515a7a585051f2c2528f2d28845c9bf5c6144b31ecda0c060b94ad7": "write",
+  "605a906d0f63ab76d182914c0006c1043e7feb782c36524bdc3eb3edaebab3a5": "read",
+  "b549fd1f4a340dd10740b6b3945ef54ad96f97b45faa4dc92323d707cf159bc3": "read",
+  "faa3f5471b5eedd4cae1d172fc79925dd02af716e92281c6f77a8b09cf137d22": "read",
+  "cb4f9f3ea858c9d1cc9daf040e9909bf859594b95fe5cda38405084f1b74ae8b": "read",
+  "153dde05431f9f3c2f048633954060ba878a1a05c443cee4516ef286c2823477": "write",
+  "199cf5207d3057ddac22676b7b1309b574851cf5c0b9d97906d7ea7682c36e25": "read",
+  "17be171c36270041444d43ad885d19058786e8e7d3ae103ee3fa5f0f79c96ce5": "read",
+  "4ef2b69c0cd9e14edde788a69e8bb58f5ba2274b227eae38251cc91428dff04d": "read"
+ },
+ "flags": [
+  "tool descriptions nudge the agent to offer lead follow-up after answers",
+  "estimate_pricing sends the requester's contact details into a lead notification flow"
+ ]
+}

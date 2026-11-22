@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1575b48f8d82b4c67be0a9f9086701fcda1657942108ce34a423f8941224533e",
+ "domain": [
+  "software/cybersecurity/email-security"
+ ],
+ "product": [
+  "trustifi"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Investigates and manages email security settings and events in Trustifi.",
+ "whenToUse": "Use when an admin needs to investigate email threats or manage Trustifi email security.",
+ "tasks": [
+  "investigate email threats",
+  "manage email security"
+ ],
+ "effects": {},
+ "flags": []
+}

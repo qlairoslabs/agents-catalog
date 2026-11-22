@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6dd8a47631498dcb12580c3ec6a5e7ce157ad0d8a8046364364c01abb99729b5",
+ "domain": [
+  "data/web-scraping",
+  "software/development"
+ ],
+ "product": [
+  "zyte",
+  "scrapy",
+  "scrapy-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Web scraping skills using the Zyte API to scrape sites, build and run Scrapy spiders and deploy to Scrapy Cloud.",
+ "whenToUse": "Use when extracting data from websites or building and deploying Scrapy spiders.",
+ "tasks": [
+  "scrape websites",
+  "generate scrapy spiders",
+  "run spiders",
+  "define extraction schemas",
+  "deploy to scrapy cloud"
+ ],
+ "effects": {},
+ "flags": []
+}

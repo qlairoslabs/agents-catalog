@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4fbccc726f6f413575343cb715153e6f33287d4cae8b7fea501f0483357ed5f9",
+ "domain": [
+  "software/databases/postgres",
+  "software/orm"
+ ],
+ "product": [
+  "prisma",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Works with PostgreSQL databases through Prisma, including migrations and queries.",
+ "whenToUse": "Use when managing Prisma Postgres databases, schemas or migrations.",
+ "tasks": [
+  "create databases",
+  "run migrations",
+  "query data",
+  "manage schema"
+ ],
+ "effects": {},
+ "flags": []
+}

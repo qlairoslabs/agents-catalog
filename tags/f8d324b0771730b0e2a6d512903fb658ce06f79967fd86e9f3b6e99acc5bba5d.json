@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "f8d324b0771730b0e2a6d512903fb658ce06f79967fd86e9f3b6e99acc5bba5d",
+ "domain": [
+  "hiring/job-search",
+  "labor-market"
+ ],
+ "product": [
+  "hitprace"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search of Czech job listings and employers, with market counts and salary snapshots.",
+ "whenToUse": "Use when a user wants Czech job offers, employer profiles or job counts and salaries.",
+ "tasks": [
+  "search jobs",
+  "read job details",
+  "read job full text",
+  "get market snapshot",
+  "find employers",
+  "get employer profile",
+  "list employer jobs"
+ ],
+ "effects": {
+  "691d9a5e0548bad30f7d28b86da293d5a9397c3f89a559ddc64bd8e168457de4": "write",
+  "bb3ee78c9676c966d1652e12ba2b601b0e535133319ce9a7aa952760b4f84c53": "read",
+  "2319541e2fcb36bb3165f29d44060de0fd72402319a4f8df44eeff68c6748d08": "read",
+  "50c991d9aaa411716692266a24792e4c7860ab7d33c81f034c8e62a214b93c63": "write",
+  "58aac6174681c30e557df769d2f15f29c49f970090f35cec0228a0334dbb85e0": "read",
+  "500f7b28d9644facf8ec2739a0a4029b0202f2a96ea0837729dc834ec3900b0c": "read",
+  "47208d93973e9ebf1d192601e0bca9296aa9a9d2145c921135e05afc1e44c7f5": "write"
+ },
+ "flags": []
+}

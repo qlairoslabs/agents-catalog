@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "2d18dc2f154cb628235a794166793daabad8e6044bd19f0490365ba57a103196",
+ "domain": [
+  "finance/crypto-market-data"
+ ],
+ "product": [
+  "bitcoin",
+  "x402",
+  "bitnomial",
+  "okx",
+  "hyperliquid",
+  "dydx"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Paid signed BTC and macro market intelligence: directional context, funding surfaces, event risk, DCA indicator and monthly series via x402.",
+ "whenToUse": "Use when a research or trading agent needs BTC funding, regime or macro-event risk data and can pay per call.",
+ "tasks": [
+  "get BTC snapshot",
+  "get funding surface",
+  "get funding regime",
+  "get macro event risk",
+  "get DCA indicator",
+  "get monthly series",
+  "check service status"
+ ],
+ "effects": {
+  "5ab5e6f5138ed5ccda7a410b142f94c96dfeaa5a48b8e59809461930ddc28ba6": "risky",
+  "dc09786ebff8444c8384f97d4968bc4d6e51ecb84bfa1f995c568aba6bc39497": "risky",
+  "15b02ef6a060895a8df0e0d24834b45606985f8fc966dc62a3ef840c70fa0d36": "risky",
+  "63f5389da02dbbb569a9a04d38ed8bc6c8e3dbf180bdfd135f1b9f4dcbc46215": "risky",
+  "e963e59cc0f4e8f0c2c94e17189e9dc68fffcbc07b82eacf8310025e4ccdc2d9": "risky",
+  "2c2a68ab31c1cfd1d30af72a4498e716588a231e2a8a70a105327c865b6d1423": "risky",
+  "d5e7dda41b65ad130b0a432999faabb77aca75169037be353d5f5fff07648406": "read"
+ },
+ "flags": []
+}

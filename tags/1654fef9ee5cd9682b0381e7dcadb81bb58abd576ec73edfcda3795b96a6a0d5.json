@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1654fef9ee5cd9682b0381e7dcadb81bb58abd576ec73edfcda3795b96a6a0d5",
+ "domain": [
+  "hr/job-search"
+ ],
+ "product": [
+  "openhire"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Lists job postings pulled from employers' own applicant tracking systems with real posting dates, keeping résumés local.",
+ "whenToUse": "Use when a user is searching for jobs and wants fresh postings direct from employers.",
+ "tasks": [
+  "search job postings",
+  "show real posting dates",
+  "match jobs to local resume"
+ ],
+ "effects": {},
+ "flags": []
+}

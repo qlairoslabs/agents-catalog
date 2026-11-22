@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "4610fdda5d2243959ba8894e1962e320a90afc24e8a8fb671e60f0927846b462",
+ "domain": [
+  "legal/copyright",
+  "legal/dmca-takedown"
+ ],
+ "product": [
+  "lawyerd",
+  "cloudflare"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "support-customers"
+ ],
+ "summary": "Identifies who hosts an infringing URL, assesses a DMCA takedown, and links to intake and evidence-capture forms.",
+ "whenToUse": "Use when a content owner needs to find the host of infringing content and start a takedown or preserve evidence.",
+ "tasks": [
+  "resolve host of URL",
+  "assess takedown process",
+  "get takedown intake link",
+  "get evidence capture link"
+ ],
+ "effects": {
+  "0f4096fd23d3ded31ced2945e60e97780b82f04878cc94b28d68d63409b51001": "write",
+  "5e6a5e5eef0dbd43716713057b7fa4924a0ea64e6946d334d4e24b7902350075": "read",
+  "042fee3fec00f5f331c47ed8b44c7de3437342e53f856f391693c3cfd03c2a55": "read",
+  "4f8b98b4dd2b6eea165fc8bab186d8d7ad2eac970f0579e14e1948a48ec9a2cc": "write"
+ },
+ "flags": []
+}

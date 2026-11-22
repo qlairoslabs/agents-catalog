@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "af27fc16969b61bc9c800c2fe3fced02b9d959e09758838e28622b802246251a",
+ "domain": [
+  "real-estate/property-data",
+  "government/open-data"
+ ],
+ "product": [
+  "dvf",
+  "cadastre",
+  "dpe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Official French real estate data including property sales, cadastre, energy ratings, risks and zoning.",
+ "whenToUse": "Use when a user researches a French property's sales history, parcel, energy rating, risks or zoning.",
+ "tasks": [
+  "look up property sales",
+  "query cadastre parcels",
+  "check energy performance ratings",
+  "check natural and industrial risks",
+  "look up urban planning rules"
+ ],
+ "effects": {},
+ "flags": []
+}

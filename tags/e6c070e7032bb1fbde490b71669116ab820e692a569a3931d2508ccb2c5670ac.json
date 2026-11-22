@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "e6c070e7032bb1fbde490b71669116ab820e692a569a3931d2508ccb2c5670ac",
+ "domain": [
+  "health/mental-health",
+  "health/pediatric-care"
+ ],
+ "product": [
+  "emora-health"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "schedule"
+ ],
+ "summary": "Helps parents find child and teen mental health clinicians, view openings, estimate costs and get a pre-filled booking link.",
+ "whenToUse": "Use when a parent asks about therapy, medication, ADHD or autism testing for a child, or what that care costs.",
+ "tasks": [
+  "recommend care path",
+  "search clinicians",
+  "check availability",
+  "get booking link",
+  "estimate costs",
+  "search parent resources",
+  "show crisis resources"
+ ],
+ "effects": {
+  "58a73182aa2ee66ba8ab2a90a4abab4e487e9213c47cd673bcdd6b2aac10865e": "write",
+  "36dc3846d498a84bf50435747089f77f58627c4f4bc5a7ba7c1c31733e091299": "write",
+  "27f1334ab7c058a0a63a8cbf24eaee3a0fabf96f474be7d509d2f3e4f22b7b84": "read",
+  "696d72dd13582f3eeceff3ea7a1ec0d3b30510215c9705c07c9c26674aeb8680": "write",
+  "f2b75220ad1d8b8c38c66c2a690d7fad46b6fac07f7c3e5dcac1a6c31d179a14": "write",
+  "29bdd50dd028785c18d195c24449f4481a665b5cd98f8dfa36b5bacaf0f6f76a": "read",
+  "7229c4af841430c06229ce898f0727a2737fa5211590bcb9bcfc1abf3aa58f65": "read",
+  "d648088d69ade8caf1357a3e71deef139641a4871c49df5fc23c78549e240fe8": "read"
+ },
+ "flags": []
+}

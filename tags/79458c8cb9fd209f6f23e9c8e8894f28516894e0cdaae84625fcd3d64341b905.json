@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "79458c8cb9fd209f6f23e9c8e8894f28516894e0cdaae84625fcd3d64341b905",
+ "domain": [
+  "software/testing/end-to-end"
+ ],
+ "product": [
+  "e2e"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Opens live web and mobile app sessions from an e2e project to inspect apps and test locators.",
+ "whenToUse": "Use when writing or debugging end-to-end tests that need a live app session.",
+ "tasks": [
+  "open web app sessions",
+  "open mobile app sessions",
+  "inspect app ui",
+  "try locators"
+ ],
+ "effects": {},
+ "flags": []
+}

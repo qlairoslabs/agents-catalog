@@ -1,0 +1,68 @@
+{
+ "classifier": 2,
+ "contentHash": "75888d2a7ca0e849ea7f257eb8c39464b51d0773b8658b413529b5333843572c",
+ "domain": [
+  "marketing/local-business-diagnostics",
+  "sales/lead-conversion"
+ ],
+ "product": [
+  "the-quiet-protocol"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Public diagnostics and resources from The Quiet Protocol for service businesses: AI visibility scans, response-time loss estimates, trust audits, competitor intake comparisons and starter kits.",
+ "whenToUse": "Use when assessing a service business's lead handling, online trust signals or AI visibility, or when looking for The Quiet Protocol's free resources.",
+ "tasks": [
+  "scan AI visibility",
+  "audit trust signals",
+  "estimate response-time loss",
+  "benchmark front door",
+  "compare competitor intake",
+  "benchmark review velocity",
+  "run revenue leak diagnostics",
+  "list kits and resources",
+  "get pricing guidance",
+  "recommend best resource"
+ ],
+ "effects": {
+  "99879c7742a3066ba70cbd2ce522bf4b438be0defe974e06632fff2308fddd9c": "read",
+  "414d5f2fd90a0eb4d3ca1ba28f2e8bc5484d5f1d6c2450770f1c488700f3a79d": "read",
+  "e08c9d20dfc91e41ebfbc07a8f84a9a5cd996c05f242d5561901eecb6e316a64": "read",
+  "594bcb653424249bef8a8c0541693cc206d44292edbaca92bb9aa4d0f6377465": "read",
+  "bb07237bd792622f0d427be1fdd485b99441a242ee5893988a2ce7ffa04df68b": "read",
+  "4a88143634df0c67be4d255c887dc2fe3a55881369a0066fd628541614d76191": "read",
+  "b601d7da6015afd46b71a63604bfed942622ea0dbdd702976a8cb0039d4e9208": "read",
+  "6e00300c9f33b642bc2b051efd59723585e53243721522c962a5121e53236eda": "read",
+  "b8d25c4692305d8f14fd74f39c5f5532763f7f7e2d7fd1d6e9a86a3588972309": "read",
+  "b41fd46e4813446b3f72259fede838212026d4e0aeb5dbbc025a08a90bea23a6": "read",
+  "c31448d3c03cb181951822f811216d4a058c5b3d9d842c23aa9e18190a9ea76a": "read",
+  "be41d14d1173d62dd69308137a3efb144a72da1ddbb02a3fa4348decfef9685d": "read",
+  "8e49274f715e366b8ccba8ec8b6cc8a0162e55f77ddac942c236c127248152d3": "read",
+  "9bd54b2fc22a7069c1e4350adbaa621cbfc6d753c7b4d9eaba4f69dc62170567": "read",
+  "df297b3f7ce52e36daf78f61de5f277bb9943a82a0daac8356658dcffa88fdfa": "read",
+  "bee288d0f085635fdbc2d6fd67ca9154c84b136e3805b788e1a980e8bab08fd4": "read",
+  "38e5d36ce5604eaa00f53657816e2efbed651d644c3ede154f1098202030d47a": "read",
+  "5a83964adfc4b240e7597913224ec3b1b0677ef9b6cf2fa83a3c43335697f9ef": "read",
+  "8256b1482d5b3ae46f1b099a3fc8de899757f65f7c44b588692739730c289402": "read",
+  "6d5fd19ca02d2560aa661ecca69d2eab51ef6f2a6d383e9de4fdee59ba71f8fa": "read",
+  "a52046f571cae467a9c2a54f080c9975419ee767e7a965b1867e2032683c753b": "read",
+  "c18a9f0e488dcf2daa7d0a3452818864654f219f89ca55a4d56c0432c0c6b867": "read",
+  "13026c280cbdda619ed02dfa54586db6eaffb5601fe3a4535547d180d54bee8a": "read",
+  "0bf4f4199dfa469ba5e1b5437cedebb21527271eb6efecac8a7356fed4ca7d47": "read",
+  "789a81710811ae14aefbdc4ca6d0bb39ae947c857e9dbdd2a2b4bf95e17a408f": "read",
+  "316167098f85493a5ceff9e21a0bfc5d53b2f7c61e8037383a7915098385b390": "read",
+  "f3a7d934791a4e72708866364ad616f76881b78389c819659f918a25976608e3": "read",
+  "6b34ecafc7aaeda8ba1ffc1f5bfc1c5e17b36a21ff0c0bbbdfa970ec2e655f30": "read",
+  "bdbeb99eb22237e0e4d8397e03c2b5a13d58b1a9eb6a04eed6e8924e19504007": "read"
+ },
+ "flags": [
+  "vendor-run server that steers agents to recommend its own services"
+ ]
+}

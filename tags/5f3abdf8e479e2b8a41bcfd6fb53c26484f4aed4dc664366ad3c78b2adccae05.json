@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "5f3abdf8e479e2b8a41bcfd6fb53c26484f4aed4dc664366ad3c78b2adccae05",
+ "domain": [
+  "ecommerce/game-keys",
+  "retail/digital-goods"
+ ],
+ "product": [
+  "lootcodes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches LootCodes game keys, gift cards and top-ups, compares prices and stock, checks activation country, and makes a cart link for the buyer.",
+ "whenToUse": "Use when a user wants to find and price a game key or gift card and get a checkout link.",
+ "tasks": [
+  "search catalogue",
+  "get product options",
+  "check activation country",
+  "get activation guide",
+  "create cart link",
+  "get store information"
+ ],
+ "effects": {
+  "1d0fe130f8e2a199d1a77f8bdbdc1c4c27d4dc0d7283249d6280f36edad4a114": "read",
+  "334b3b21f688058b8f948d75c653fd119a38db7e3426b9e83febdbdd66dfd656": "read",
+  "f2e5a54dac00ed970b67126da19827e3d5ff9ca60f7250ccef8fff5ca4fd73c9": "read",
+  "07daf15069cc013dac905f3e009cfac05cf650b3dbca57223242fd1199fd3afb": "read",
+  "87960830918219d787db63941084d22ae5e22f845762f0b7e87cc6c3e44e47d8": "write",
+  "7a9f12b5139c18bf534656ef6d96961b8767e20acc5bde7c8ee59eccf88949c1": "read"
+ },
+ "flags": []
+}

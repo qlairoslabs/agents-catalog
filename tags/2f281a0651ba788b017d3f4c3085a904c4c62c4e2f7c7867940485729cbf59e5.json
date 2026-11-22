@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2f281a0651ba788b017d3f4c3085a904c4c62c4e2f7c7867940485729cbf59e5",
+ "domain": [
+  "data/database-querying",
+  "data/alerts"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Lets users query databases in plain English, run read-only SQL and configure data alerts.",
+ "whenToUse": "Use when someone needs answers from a database without writing SQL, or wants data alerts.",
+ "tasks": [
+  "ask databases in plain english",
+  "run read-only sql",
+  "set up data alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

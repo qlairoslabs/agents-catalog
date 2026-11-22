@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "de8e63c007377d9e241af1f01263cb437add4f682b9d55b2f8945e82a5183d6a",
+ "domain": [
+  "software/secrets-management",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "seekrit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Encrypted store for API keys and database URLs that code can use without the agent seeing the values.",
+ "whenToUse": "Use when an agent's code needs credentials but the secret values should stay hidden from it.",
+ "tasks": [
+  "store secrets",
+  "use secrets in code without revealing them"
+ ],
+ "effects": {},
+ "flags": []
+}

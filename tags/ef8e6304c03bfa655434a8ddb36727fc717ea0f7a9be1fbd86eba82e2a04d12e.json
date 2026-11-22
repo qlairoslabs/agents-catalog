@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "ef8e6304c03bfa655434a8ddb36727fc717ea0f7a9be1fbd86eba82e2a04d12e",
+ "domain": [
+  "commerce/retailer-authorization",
+  "commerce/brand-protection"
+ ],
+ "product": [
+  "authorized.by"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches brands and retailers on authorized.by and checks whether a shop is an authorized seller of a brand.",
+ "whenToUse": "Use when checking whether an online shop is authorized to sell a brand or listing a brand's authorized retailers.",
+ "tasks": [
+  "search brands",
+  "get brand profile",
+  "list brand's authorized retailers",
+  "search retailers",
+  "get retailer profile",
+  "list retailer's authorized brands",
+  "verify shop authorization by domain or gtin"
+ ],
+ "effects": {
+  "d2d6f6637b6ee6788df58988435365c10f104d98913d6810d0efd0aede436e7e": "write",
+  "2af51295453819494d985a988a9152ff57e19d7a8dd28d0e9edad8f773ca27f5": "write",
+  "4e49eba3389c82329085059d48d9cfbf3b282975f61d528bf4bf7656149c91da": "write",
+  "9c8282d36ac0d93f052f527951c3fd1b28b8c5da8f273783d88ef4e71f23e0b1": "write",
+  "67e5d0985ed9bd7edbed0734af49932c886c28a065d1e0f7ef67573f02c5596f": "write",
+  "c5d942a373979652e34e48cf127801794f71b72dbaf5c47fca1fbd72def98ce6": "write",
+  "0d45a3be22eb15dceeed9055f5e68c7eeff6ac26e7461f12ea71039369171da7": "write"
+ },
+ "flags": []
+}

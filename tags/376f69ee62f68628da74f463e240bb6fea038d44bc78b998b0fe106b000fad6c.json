@@ -1,0 +1,62 @@
+{
+ "classifier": 2,
+ "contentHash": "376f69ee62f68628da74f463e240bb6fea038d44bc78b998b0fe106b000fad6c",
+ "domain": [
+  "trade/export",
+  "finance/trade-calculators"
+ ],
+ "product": [
+  "amazon",
+  "chukoudan"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "run-the-money",
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Chinese export calculators and data: tax refund, FOB/CIF quotes, freight, CBM, container and pallet loading, L/C fees, FX, Amazon fees, duty, labels and refund-rate lookup.",
+ "whenToUse": "Use when a Chinese exporter needs quotes, export tax refund, freight or loading calculations, FX settlement cost, or HS-code refund rates.",
+ "tasks": [
+  "export tax refund",
+  "FOB/CIF/CFR quotes",
+  "build buyer quote",
+  "CBM and volumetric weight",
+  "container and pallet loading",
+  "freight estimate",
+  "L/C fees",
+  "cargo insurance",
+  "FX conversion cost",
+  "UK duty estimate",
+  "Amazon profit",
+  "barcode and shipping mark labels"
+ ],
+ "effects": {
+  "a1ec67f387b6202a58397900d5abc2e8af3bb08d434bb3662b7462798763b69b": "write",
+  "548f093a0423ef70a29ff305fe07f45a8ec7344a858ffd1cfabc4c1857c5f388": "write",
+  "73afd34f592c9c48418946c2a2971ba2e67e1928c5a3f7348c81e45c06995c53": "read",
+  "3d29928be4962d26817a76e5225147d82a4af38e81d5bb67c55e07fafe5903c0": "write",
+  "05c03e73a61217b787871caebbb2f8e314681adb6de7a8017d8ffcb4ed1dd5e7": "read",
+  "c4b7357b7e6eb15edb86ce2250aad02a5ebc40e24642d38c92b43c47c6244f0c": "write",
+  "ae28fc4bee5b0eac74288b18b749c1ee60b705b0ad1b7a3f82e3ca738f1c653c": "write",
+  "29962206126fccdd350e1c25c63be575071de55fe262e9191c4817959faaee8d": "write",
+  "55011df110990ea71e869ed1504cb31d4cf920a80e5394b3b43ceaced2915c1f": "read",
+  "4c91be9b7f4b9badff0b562a84e9b5b076a498244b6e9f372f04bd530ce8a55b": "read",
+  "e17c7afe3cfc51b379d0c6698c4796677dac061cca35dac3b5bc0eefb74e752f": "write",
+  "6bd7057ac1c8e4dac4a64b0b071cba4c01c82ee42b065b9421b7e822b3790782": "write",
+  "376eeb5b5aa8549ebf26ac7b2d98fafb0285e424fca57b9dd0f01d2ec4760158": "write",
+  "aece8d4c6fdc2c4aebe7854e3caadb07194a231b0d97cc3bc60710fb06cb74d4": "write",
+  "1761fe2c34456179834bf58aabdc55281f1e0f34bd1d8b453ed0070d22aa1196": "write",
+  "52e4c3f834a794157d6434b1b9ad097954d0be9f43b67628be95fc8b0630c8a8": "write",
+  "161906f199b81e0cf9c318ad0539642289f925608d6a99a0089d24c990b6988a": "read",
+  "4da848f9a5f6a9bf3073723a123e8e1468878b3c6d0a163706821ff2632da025": "read",
+  "49a1f0575b8d4e0d6f8f7a47231689bc5dc160f19aa49406578adbfddc29b205": "read",
+  "a5b08da69d3f347fd9f54478759ea0da28b77a09c3c00d923dcd91befccd58a4": "write",
+  "d113cb436524d51d879c2944e751d3155fadf12369e668a403494e739394672e": "write"
+ },
+ "flags": []
+}

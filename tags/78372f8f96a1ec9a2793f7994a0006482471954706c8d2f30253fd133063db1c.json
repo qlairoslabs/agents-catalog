@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "78372f8f96a1ec9a2793f7994a0006482471954706c8d2f30253fd133063db1c",
+ "domain": [
+  "finance/tax/korea",
+  "legal/research"
+ ],
+ "product": [
+  "korea-national-tax-service"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Research tool for Korean tax law, including NTS rulings, court cases, tax treaties, residency and transfer pricing.",
+ "whenToUse": "Use when an agent needs to look up Korean tax rulings, case law or treaty provisions.",
+ "tasks": [
+  "search nts rulings",
+  "search tax court cases",
+  "look up tax treaties",
+  "research residency rules",
+  "research withholding and transfer pricing"
+ ],
+ "effects": {},
+ "flags": []
+}

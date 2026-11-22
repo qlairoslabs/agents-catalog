@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "5c46234d028f6409e500a7f546a2b655c1e6a7c39f23ca0114d4642dad3ed938",
+ "domain": [
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Feature development workflow with agents for codebase exploration, architecture design and quality review.",
+ "whenToUse": "Use when planning and implementing a new feature in an existing codebase.",
+ "tasks": [
+  "explore codebase",
+  "design architecture",
+  "review code quality"
+ ],
+ "effects": {},
+ "flags": []
+}

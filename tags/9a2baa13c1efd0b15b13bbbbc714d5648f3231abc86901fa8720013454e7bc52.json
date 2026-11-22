@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9a2baa13c1efd0b15b13bbbbc714d5648f3231abc86901fa8720013454e7bc52",
+ "domain": [
+  "data/catalog",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-glue",
+  "amazon-s3-tables",
+  "amazon-redshift",
+  "apache-iceberg"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Inventories and audits AWS Glue Data Catalog assets across S3 Tables, Redshift-federated and remote Iceberg catalogs.",
+ "whenToUse": "Use when a full overview or audit of the data catalog is needed.",
+ "tasks": [
+  "enumerate catalogs",
+  "list databases and tables",
+  "audit catalog assets",
+  "summarize data landscape"
+ ],
+ "effects": {},
+ "flags": []
+}

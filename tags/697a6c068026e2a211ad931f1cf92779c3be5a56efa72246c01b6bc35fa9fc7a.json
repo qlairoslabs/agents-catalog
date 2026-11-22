@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "697a6c068026e2a211ad931f1cf92779c3be5a56efa72246c01b6bc35fa9fc7a",
+ "domain": [
+  "software/sdk",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-sdk-javascript",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Development patterns for using the AWS SDK for JavaScript v3 in JavaScript or TypeScript code.",
+ "whenToUse": "Use when writing JavaScript or TypeScript code that calls AWS services through @aws-sdk packages.",
+ "tasks": [
+  "write aws sdk v3 code",
+  "use schemas and runtime validation",
+  "handle serialization",
+  "generate code"
+ ],
+ "effects": {},
+ "flags": []
+}

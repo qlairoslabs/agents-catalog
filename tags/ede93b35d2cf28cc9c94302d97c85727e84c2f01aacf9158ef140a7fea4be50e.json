@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ede93b35d2cf28cc9c94302d97c85727e84c2f01aacf9158ef140a7fea4be50e",
+ "domain": [
+  "finance/accounting"
+ ],
+ "product": [
+  "quickbooks-online"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Connects QuickBooks Online to AI agents with read or write access across multiple companies.",
+ "whenToUse": "Use when an agent needs to read or update accounting data in one or more QuickBooks Online companies.",
+ "tasks": [
+  "read accounting data",
+  "write accounting records",
+  "switch between companies"
+ ],
+ "effects": {},
+ "flags": []
+}

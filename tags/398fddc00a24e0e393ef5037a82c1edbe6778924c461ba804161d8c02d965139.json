@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "398fddc00a24e0e393ef5037a82c1edbe6778924c461ba804161d8c02d965139",
+ "domain": [
+  "media/music-generation",
+  "media/songwriting"
+ ],
+ "product": [
+  "melody-genie"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Writes and scores song lyrics in many styles, generates full songs with several engines and separates audio stems.",
+ "whenToUse": "Use when a user wants to write lyrics, generate a complete song or split a track into stems.",
+ "tasks": [
+  "write lyrics in many styles",
+  "score lyrics",
+  "generate full songs",
+  "split audio stems"
+ ],
+ "effects": {},
+ "flags": []
+}

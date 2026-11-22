@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ba86ccfce07912948304379852ab31dc787cd1ff12031fd8b2045a224b027e9f",
+ "domain": [
+  "software/mobile-testing",
+  "software/development-tools"
+ ],
+ "product": [
+  "react-native",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm tool that lets AI agents inspect and check running React Native apps.",
+ "whenToUse": "Use when an agent needs to verify behaviour of a running React Native app beyond reading source code.",
+ "tasks": [
+  "inspect running react native app",
+  "check app behaviour at runtime"
+ ],
+ "effects": {},
+ "flags": []
+}

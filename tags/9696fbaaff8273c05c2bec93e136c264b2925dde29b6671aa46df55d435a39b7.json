@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9696fbaaff8273c05c2bec93e136c264b2925dde29b6671aa46df55d435a39b7",
+ "domain": [
+  "finance/trading/quantitative",
+  "finance/investing"
+ ],
+ "product": [
+  "cpzai"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "build-software"
+ ],
+ "summary": "Builds, backtests and deploys quantitative trading strategies from an AI agent.",
+ "whenToUse": "Use when the user wants to design, backtest or deploy an algorithmic trading strategy.",
+ "tasks": [
+  "build trading strategies",
+  "backtest strategies",
+  "deploy strategies"
+ ],
+ "effects": {},
+ "flags": []
+}

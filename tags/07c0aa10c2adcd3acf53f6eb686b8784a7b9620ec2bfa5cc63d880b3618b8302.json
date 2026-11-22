@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "07c0aa10c2adcd3acf53f6eb686b8784a7b9620ec2bfa5cc63d880b3618b8302",
+ "domain": [
+  "productivity/databases",
+  "data/spreadsheets"
+ ],
+ "product": [
+  "teable"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Lets an agent query and update records and manage tables in a Teable no-code database through its API.",
+ "whenToUse": "Use when a task involves reading, adding or editing rows or tables stored in Teable.",
+ "tasks": [
+  "query records",
+  "update records",
+  "manage tables",
+  "call teable api"
+ ],
+ "effects": {},
+ "flags": []
+}

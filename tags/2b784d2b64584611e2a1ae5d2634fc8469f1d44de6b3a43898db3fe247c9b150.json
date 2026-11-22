@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2b784d2b64584611e2a1ae5d2634fc8469f1d44de6b3a43898db3fe247c9b150",
+ "domain": [
+  "communication/telephony",
+  "communication/sms"
+ ],
+ "product": [
+  "telnyx"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "build-software"
+ ],
+ "summary": "Official TypeScript library for the Telnyx communications API.",
+ "whenToUse": "Use when building or operating voice, messaging or number features on Telnyx.",
+ "tasks": [
+  "call telnyx api",
+  "manage messaging",
+  "manage voice calls",
+  "manage phone numbers"
+ ],
+ "effects": {},
+ "flags": []
+}

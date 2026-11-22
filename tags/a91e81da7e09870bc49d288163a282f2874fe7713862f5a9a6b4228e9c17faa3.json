@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a91e81da7e09870bc49d288163a282f2874fe7713862f5a9a6b4228e9c17faa3",
+ "domain": [
+  "travel/corporate-booking"
+ ],
+ "product": [
+  "travel-code"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "run-the-money"
+ ],
+ "summary": "Searches and books corporate flights, hotels, rail and transfers and manages travel orders.",
+ "whenToUse": "Use when the user needs to book or manage business travel through Travel Code.",
+ "tasks": [
+  "search flights",
+  "book flights",
+  "book hotels",
+  "book rail",
+  "book transfers",
+  "manage orders"
+ ],
+ "effects": {},
+ "flags": []
+}

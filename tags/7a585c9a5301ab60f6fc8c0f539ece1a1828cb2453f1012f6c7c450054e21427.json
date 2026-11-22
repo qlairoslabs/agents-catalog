@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7a585c9a5301ab60f6fc8c0f539ece1a1828cb2453f1012f6c7c450054e21427",
+ "domain": [
+  "communication/email",
+  "it/domains"
+ ],
+ "product": [
+  "faivelo"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "be-online"
+ ],
+ "summary": "Business email hosting on a custom domain with mailbox, alias, draft and DNS management plus sending and reading mail.",
+ "whenToUse": "Use when an agent needs to send, read or draft business email or set up mailboxes, aliases or DNS for a domain on Faivelo.",
+ "tasks": [
+  "send email",
+  "read email",
+  "manage drafts",
+  "create mailboxes",
+  "manage aliases",
+  "configure dns records"
+ ],
+ "effects": {},
+ "flags": []
+}

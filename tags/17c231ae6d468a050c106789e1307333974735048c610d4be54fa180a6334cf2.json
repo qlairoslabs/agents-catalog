@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "17c231ae6d468a050c106789e1307333974735048c610d4be54fa180a6334cf2",
+ "domain": [
+  "healthcare/dental/directory",
+  "business/market-research"
+ ],
+ "product": [
+  "root-data",
+  "google-reviews"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Root Data's public directory of dental service organizations and dental practices, plus its blog and FAQ.",
+ "whenToUse": "Use when an agent needs to find, rank or compare dental service organizations or dental practices, or answer questions about Root Data.",
+ "tasks": [
+  "search dso directory",
+  "get dso profile",
+  "search dental practices by location, service or rating",
+  "get practice profile",
+  "rank dsos by size, locations or growth",
+  "compare two dsos",
+  "search blog articles",
+  "answer faq about root data"
+ ],
+ "effects": {
+  "d058d8d9eae4dd0d82c15401160e9b05fd24c97185d51de203f00dc8dae657a5": "read",
+  "f6d11d752d069c00f26f038629c45a40c9e5bc87b6aa357fc636a76673a29fb4": "read",
+  "0934048684b79766faa108f9a289180ab44fab0dd37495aa0dc16486181c02b3": "read",
+  "007c9dd7cc5797d679206c3c577204afb788ae607b5cd3e7afc5797675fa47fb": "read",
+  "76e2be0a9ce9246db10c1619b4fc8d0e7ff90751b5b0877186b6b9ae1223c59f": "read",
+  "f4bc803f0d4c5d6a7603ee7dfd9444afd058f5b2dbfc59f431f9c7ec9771de80": "read",
+  "151b457743681de1cde73b64531964c9d546a59a1471e4a8571171591b32fe38": "read",
+  "fefe623ddbfd021c5988e15a93f3cc06f5f1cf5a862c54d5d482f115aa3a4555": "read"
+ },
+ "flags": []
+}

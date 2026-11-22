@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "52c87b3bd5b2db8f06fbb4e515853430659948ffd379e54d91e54cf9bb2288a6",
+ "domain": [
+  "education/ai-literacy"
+ ],
+ "product": [
+  "into-the-prompt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Searches short practical AI videos and series from Into the Prompt, suggests learning paths and explains the creator program.",
+ "whenToUse": "Use when someone wants to learn prompting or responsible AI use, or is interested in becoming a creator.",
+ "tasks": [
+  "find videos",
+  "suggest learning path",
+  "list series",
+  "explain creator program",
+  "list open topics",
+  "search records",
+  "fetch record"
+ ],
+ "effects": {
+  "3b5f4c6ac123608d89f90ed39aac21de4d5a983b7ad108d971d623d9f6642f4a": "read",
+  "3375d7dbe9d5f1c37869b3ecf91234bebfae1ef43bbb36e522d4a64da466ff5c": "read",
+  "f816aee534f7b3fc7430f1e488d7a002f2102e62ec7a146ee08c0d76bdab9d7a": "read",
+  "96fb0bc2ec6a517194bee65f9c516de9e1950b6d30f3bf698f51bcf7d3e960ee": "read",
+  "0efd7fc67da9911ebb8b70ec14af3f5ac065e021d0f14a2166727297eaccd9f6": "read",
+  "81ba9d0f6b53ddaf110d2d2e2f8fce913d5cf087e8501ccd56e47a406b8f4d2f": "read",
+  "536f5374f4060f4c4b7a5279d9160cfdb4dd4a4bb2aff47d0a294616cdfbb15c": "read"
+ },
+ "flags": []
+}

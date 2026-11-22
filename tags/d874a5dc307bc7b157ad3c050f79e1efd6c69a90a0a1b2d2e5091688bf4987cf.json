@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d874a5dc307bc7b157ad3c050f79e1efd6c69a90a0a1b2d2e5091688bf4987cf",
+ "domain": [
+  "finance/financial-news",
+  "data/sentiment-analysis"
+ ],
+ "product": [
+  "finlight"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Real-time financial news searchable by ticker and source, with sentiment and entity tags.",
+ "whenToUse": "Use when an agent needs current market news about a company or ticker.",
+ "tasks": [
+  "search news by ticker",
+  "filter by source",
+  "get sentiment",
+  "extract entities"
+ ],
+ "effects": {},
+ "flags": []
+}

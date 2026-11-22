@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b924b5f11188b1d095150c5b588f3b9afc20e0f86d21ffcad8ee1b3914ba6746",
+ "domain": [
+  "software/devops/deployment"
+ ],
+ "product": [
+  "riven-deploy"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lists and inspects Riven Deploy services and deployments, and starts, stops, restarts or redeploys them.",
+ "whenToUse": "Use when the user needs to check or control services hosted on Riven Deploy.",
+ "tasks": [
+  "list services",
+  "inspect deployments",
+  "start services",
+  "stop services",
+  "restart services",
+  "redeploy services"
+ ],
+ "effects": {},
+ "flags": []
+}

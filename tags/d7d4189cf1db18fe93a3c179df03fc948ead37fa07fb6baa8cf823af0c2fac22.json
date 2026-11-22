@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d7d4189cf1db18fe93a3c179df03fc948ead37fa07fb6baa8cf823af0c2fac22",
+ "domain": [
+  "food-and-drink/bar-prices",
+  "local/venues"
+ ],
+ "product": [
+  "vahada"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Drink prices in Turkish bars: cheapest beer, wine and cocktails by district, live happy hours, nearby venues and a price index.",
+ "whenToUse": "Use when finding cheap drinks or happy hours in Turkey.",
+ "tasks": [
+  "rank cheapest drinks",
+  "venue price list",
+  "list covered areas",
+  "happy hours now",
+  "venues near a location",
+  "beer price index"
+ ],
+ "effects": {
+  "7885507ff763256d3c7e1e9ffb7174a9f6f3da4bc10e03e3e6d6a5349b33c2d2": "read",
+  "d4e86a7b0c9a68840912e7d6816f2865b3315046086683f4224137f30b93b3de": "read",
+  "a94fcf08e4b3bf947279e56190a781f886d01585b7fd5c30634e1bfc617469d8": "read",
+  "8c60c978d1f9af9c83fca8f6a019c00ce88f31ace6fa64d05f1fc8969fc4ec31": "read",
+  "56afab3628ca9e39579b808703fe72314544ab5859c369df93b3d4d5148b317d": "read",
+  "d1bd455da0b5f55672678e6976909def6c98c985bbbf22058d07181fe37d286f": "read"
+ },
+ "flags": []
+}

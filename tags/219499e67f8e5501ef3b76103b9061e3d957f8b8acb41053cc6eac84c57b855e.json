@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "219499e67f8e5501ef3b76103b9061e3d957f8b8acb41053cc6eac84c57b855e",
+ "domain": [
+  "entertainment/movies-tv",
+  "lifestyle/watchlist"
+ ],
+ "product": [
+  "reelrifter"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets users query their ReelRifter watchlist, viewing history and stats.",
+ "whenToUse": "Use when a user asks about what they have watched or plan to watch on ReelRifter.",
+ "tasks": [
+  "view watchlist",
+  "view watch history",
+  "view viewing stats"
+ ],
+ "effects": {},
+ "flags": []
+}

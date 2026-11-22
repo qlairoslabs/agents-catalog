@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bd3234bb41b4253e5d752d4ce6758fc97ed39e8667df3576a3ce55089a0ea818",
+ "domain": [
+  "entertainment/video",
+  "media/search"
+ ],
+ "product": [
+  "turkishmeme"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches a catalog of Turkish and global meme videos by title, quote, person or scene and returns metadata and page links.",
+ "whenToUse": "Use when a user is trying to find a Turkish meme video from a remembered quote, person or scene.",
+ "tasks": [
+  "search meme videos",
+  "get video details",
+  "read transcript excerpt"
+ ],
+ "effects": {
+  "43dc3cc27d03a2ec05dd5d94c017fb87275dc84a94e70156bc06b2750eacdaef": "read",
+  "3f8b070daa2da305f5aad65ce34089e038825a752ab9103732008b546eb34c39": "read"
+ },
+ "flags": []
+}

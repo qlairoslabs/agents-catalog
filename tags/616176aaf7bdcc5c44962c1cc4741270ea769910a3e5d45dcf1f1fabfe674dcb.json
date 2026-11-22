@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "616176aaf7bdcc5c44962c1cc4741270ea769910a3e5d45dcf1f1fabfe674dcb",
+ "domain": [
+  "real-estate/agent-matching"
+ ],
+ "product": [
+  "rate-my-agent"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Gives review statistics per city and submits a questionnaire to match buyers or sellers with a rated real estate agent in the US or Canada.",
+ "whenToUse": "Use when a user wants a real estate agent to buy or sell property in the US or Canada.",
+ "tasks": [
+  "get city review statistics",
+  "fetch matching questions",
+  "submit match request",
+  "collect buyer or seller requirements"
+ ],
+ "effects": {
+  "35d31e2eeafe76a79e075f14359b5a0dca4134cbd674511dafc7e343185a3d2f": "write",
+  "3a8af19e1cc15c3968922721bdd833c884de7ce1f64823c20854ec22a405e2b9": "write",
+  "a8c89974b783b84db276f9582ad997c0728302038349d451ccd70a53a2ee3897": "write"
+ },
+ "flags": []
+}

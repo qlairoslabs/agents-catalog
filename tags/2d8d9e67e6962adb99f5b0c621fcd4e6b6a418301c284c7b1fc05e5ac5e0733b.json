@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2d8d9e67e6962adb99f5b0c621fcd4e6b6a418301c284c7b1fc05e5ac5e0733b",
+ "domain": [
+  "software/blockchain-development",
+  "software/debugging"
+ ],
+ "product": [
+  "tenderly"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Simulate, debug and test blockchain transactions and contracts across 100+ networks with Tenderly.",
+ "whenToUse": "Use when developing or debugging smart contracts and needing transaction simulation or tracing.",
+ "tasks": [
+  "simulate transactions",
+  "debug transactions",
+  "test on networks"
+ ],
+ "effects": {},
+ "flags": []
+}

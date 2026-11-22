@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "0e1fbacee2d0c4a4a8608153e3064a1c3096a39b5635f87306155a69f05e68d9",
+ "domain": [
+  "religion/christianity",
+  "media/articles"
+ ],
+ "product": [
+  "christianpure"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only lookup of Christian Pure's articles, prayers, Bible verse collections, courses and newsletter information.",
+ "whenToUse": "Use when someone wants Christian articles, prayers for a need, Bible verses on a subject or course information.",
+ "tasks": [
+  "search articles",
+  "find prayers",
+  "find Bible verses",
+  "get an article",
+  "list topics",
+  "list courses",
+  "describe newsletter"
+ ],
+ "effects": {
+  "6f274a27c3eda390e60925321bcbe4f668a8541521767020cdbd25d46352c175": "read",
+  "96e322b03d3c26eb3c74f596909f0509698d6eeb17e429069fe0615e792cf503": "read",
+  "f9d75d2bf9677e4c7a74e539ca0a7d47c773e53d1a9f43206002bc466443ad25": "read",
+  "febfe6fb447073b6085c6560fbd6d6cdcf0e1d129403a69e1b01114ae53f7e43": "read",
+  "5a992d11801ce5b5c1084aa50b71c42a7fc645179a6011495c516d7a92b0338e": "read",
+  "ee770a28633c11208ca440edb5068d86cfdc457c38a5e2753b39acfcecb46034": "read",
+  "e49b6d97d570b3994787fd39c2c8854089e93d34e9f1149c0bc1bfe20f4166b3": "read"
+ },
+ "flags": []
+}

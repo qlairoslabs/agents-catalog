@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "1a98c9a4b8ab988e0279a43e58e1a9c9e5573103227fdb254372a3109925b032",
+ "domain": [
+  "legal/us-law",
+  "business-formation"
+ ],
+ "product": [
+  "corpus-law",
+  "stripe",
+  "usdc",
+  "solana"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online",
+  "run-the-money"
+ ],
+ "summary": "Search and cite US federal, state and municipal law, and prepare, price, check names for and order LLC or nonprofit formation.",
+ "whenToUse": "Use when a user needs US legal provisions with citations or wants to form an LLC or nonprofit.",
+ "tasks": [
+  "search law",
+  "get provision text",
+  "list coverage",
+  "get formation requirements",
+  "compare formation providers",
+  "look up NAICS codes",
+  "check company name",
+  "validate formation draft",
+  "create formation order",
+  "track order status",
+  "register webhook"
+ ],
+ "effects": {
+  "d09e2d9cfb94c4684fdf884116e26d09be9f579800f491fb5fa7307effd7eb84": "read",
+  "ca474201f4801c4273e58f27b434c6e64a2877c26517cb303c136741f5fbe5bf": "read",
+  "692876f3ecfcd0cfca4fc91670a5f6ef2de8e8ca987a5d8b47b28119d522d1e0": "read",
+  "d605e571a4584e1a923d69d482644a0e7934814b7951da790a916c01604192c6": "write",
+  "d8371e099bceebaab4b19234ab6c6dac4091ac9416f75b5306b7bf985761125f": "read",
+  "d76bcda184b2f6da69016a1e6253b85612b23d58fa762c5c590a3b41a47ea9a8": "read",
+  "d8423c4036ade0d6300671eeb74881f955adbbddd7165970c2a67d2180e57a8f": "read",
+  "e90323457783ddcc993ba0ab9cca198ca7aea216a468579a9b3d395c17fe749d": "read",
+  "6ae9a1baa419fb86be938a780e10d55da4e5d0ca5a34b2a8b1c625911fe46f24": "write",
+  "c68c379d7030e63ef725704a7de4fa28ed949796d3b037c749b16bc7d45cd6fa": "read",
+  "83630ea4c97f726573784ed756e9b62560184b84d3b4edc477117a43e867aec1": "write",
+  "b6a40f04da6c27bb05834a435ac58ae838df5781e5850aee496c13943bda774b": "read",
+  "7adae41a21a35aa97b9aa22b4037376a06c9785aa21d437d6119bdc0a91893f7": "write"
+ },
+ "flags": [
+  "Vendor compares itself against competitors in formation.compare"
+ ]
+}

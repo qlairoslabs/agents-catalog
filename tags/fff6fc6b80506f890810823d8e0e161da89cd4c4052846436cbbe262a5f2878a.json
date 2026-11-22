@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "fff6fc6b80506f890810823d8e0e161da89cd4c4052846436cbbe262a5f2878a",
+ "domain": [
+  "legal/lawyer-directory",
+  "scheduling/appointments"
+ ],
+ "product": [
+  "dikoo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Read-only directory of lawyers in France with their public availability slots and booking links.",
+ "whenToUse": "Use when an agent needs to find a lawyer in France and see available appointment slots.",
+ "tasks": [
+  "search lawyers",
+  "view public availability",
+  "get booking link"
+ ],
+ "effects": {},
+ "flags": []
+}

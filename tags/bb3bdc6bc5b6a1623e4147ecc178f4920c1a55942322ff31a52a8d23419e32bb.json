@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "bb3bdc6bc5b6a1623e4147ecc178f4920c1a55942322ff31a52a8d23419e32bb",
+ "domain": [
+  "retail/flowers",
+  "ecommerce/delivery"
+ ],
+ "product": [
+  "pinflower"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Search, quote and order bouquets from Prague florists with delivery checks, payment links, order status and cancellation.",
+ "whenToUse": "Use when a buyer wants flowers delivered or picked up in Prague and needs prices, times, an order or cancellation.",
+ "tasks": [
+  "check delivery to a place",
+  "search bouquets",
+  "get bouquet details",
+  "quote order",
+  "create order and payment link",
+  "get new payment link",
+  "track order status",
+  "cancel order",
+  "answer store questions"
+ ],
+ "effects": {
+  "126cd2b881f14cd8ddff6e7a25a1002f2e3c28c4171d9cd625562eaa4f97f563": "write",
+  "1e6ed6df524b2cfcbba0fdd39f6ff7eb370a11cf77c546897411f25241377c7f": "read",
+  "293e89fa0e2fa48ef58f2618a4ad1b9e44dbb6519223da2bf9e4092c762c20a5": "write",
+  "2124e3050058a929a6126e9639599c46e527cbcdec1e268a86019c3186094da5": "read",
+  "a5d37a51b8401a4a8b3db0280170645bc5638041f6d537bc4314f63da1d9d94f": "read",
+  "31ee68bdd9e2e74346abb0d6fcee38e481a9826fbe2b04e73671884b5e63da52": "write",
+  "de191ddf29eb158f94084dbf9dd61dec77f5e32a6474ea0e71d65fa6d2f5faf2": "write",
+  "d4060412207ef6880af690b2ee074916ef1cd708eee7b39620657ec716686635": "read",
+  "40a4135cba4be10130866f9e42aa402090cac140827dada470a24f59153151f4": "read"
+ },
+ "flags": []
+}

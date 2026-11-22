@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "11bdb4733e5c8dee208a60c3b030d33d4d1842e0e4c4a3f8ec6c857dea599180",
+ "domain": [
+  "hr/recruiting",
+  "professional-network"
+ ],
+ "product": [
+  "parlel"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Search open roles, companies, people profiles and published watch agents on the Parlel professional network.",
+ "whenToUse": "Use when looking for jobs, hiring companies, candidate profiles, or standing-search agents on Parlel.",
+ "tasks": [
+  "search jobs",
+  "get job details",
+  "search companies",
+  "get company",
+  "search people",
+  "get person profile",
+  "search agents",
+  "get agent"
+ ],
+ "effects": {
+  "6fc575ae12202be51441020f8088c22d0d569e086dc5bc372b7f6b6486e0d1c3": "read",
+  "043a3300f39f55add8fa276a9d6522405b65b705ccb9b231d770eb4296f12711": "read",
+  "be790fd3b714b4af1d97756fbac1d6961492109357d2874570402ac5248dffc3": "read",
+  "3387027c4c26238b26986e8cacff20239ad829e85ede46296782fc5d79b34335": "read",
+  "4e5ed2ba5a0c39cd1b33d48e63ecdeb4516dc3d10777467a149d344d69b9b931": "read",
+  "8b4c2aa61c90b56767518ba97ed9b565f7ac200a0cdd0cbb93bcad11fe2c8dc5": "read",
+  "a8f51c6efaf5fde2ff616ad6f3ee092e9f42c2c7905892ab0085763c46b3a3c9": "read",
+  "88a27f18e73bb9a4fbcee886afe2daefe3038b8c0bef2cdd92d201f88d2f46ca": "read"
+ },
+ "flags": []
+}

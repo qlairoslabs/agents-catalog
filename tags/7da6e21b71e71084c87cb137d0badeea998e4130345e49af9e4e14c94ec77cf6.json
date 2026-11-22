@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7da6e21b71e71084c87cb137d0badeea998e4130345e49af9e4e14c94ec77cf6",
+ "domain": [
+  "business/field-service",
+  "finance/invoicing"
+ ],
+ "product": [
+  "jobkeepr"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid",
+  "support-customers"
+ ],
+ "summary": "Manages jobs, customers, scheduling, estimates and invoices for field service businesses.",
+ "whenToUse": "Use when a field service business needs to schedule jobs, manage customers or create estimates and invoices.",
+ "tasks": [
+  "manage jobs",
+  "manage customers",
+  "schedule work",
+  "create estimates",
+  "create invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

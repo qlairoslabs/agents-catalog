@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "da242e5fa9b4e3742fc45f3dd8df077317b454a173b19e9c101cda8f5132b1a2",
+ "domain": [
+  "sales/crm",
+  "marketing/automation"
+ ],
+ "product": [
+  "conduyt"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Local npm server giving agents access to Conduyt CRM contacts, deals, pipelines, tasks, automations, messaging and reports.",
+ "whenToUse": "Use when managing customer contacts, deals or follow-ups in Conduyt CRM.",
+ "tasks": [
+  "manage contacts",
+  "manage deals",
+  "manage pipelines",
+  "manage tasks",
+  "run automations",
+  "send messages",
+  "view reports"
+ ],
+ "effects": {},
+ "flags": []
+}

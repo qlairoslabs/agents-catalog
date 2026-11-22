@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "531977c754570336eca70765382226d95fc7f53dcd90029c75c127c114a6f821",
+ "domain": [
+  "business/company-data",
+  "finance/due-diligence"
+ ],
+ "product": [
+  "bodacc",
+  "inpi",
+  "ademe"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "French company data: dated gazette changes, insolvencies, filed accounts, public grants and directors' other insolvencies, by SIREN.",
+ "whenToUse": "Use when vetting or monitoring a French company's history, finances, insolvency status or public aid.",
+ "tasks": [
+  "get company timeline",
+  "monitor announcements",
+  "view insolvency barometer",
+  "get financials",
+  "get ADEME grants",
+  "get state aid",
+  "check officers' insolvencies"
+ ],
+ "effects": {
+  "097b22bc3fa2ad6db9596a5bf425795e395707d6b763b87ace60bfec2b09dacd": "write",
+  "7d41cdd4b5a87e324b55bf9b702f0dbc66115515effe71516e2f08dd497165e6": "read",
+  "86a5db93e88acdbf8c1c3d70e7382e0a0d2910976304542bc27e6b39c62a3a2b": "read",
+  "6de7ac552afd0f48a93969a5950efd48277e34c6bd1e297fbfa16fe5912aa287": "write",
+  "825d40aa00f2557401c4fc21463ad4bfe77b728c381339d8f1e1243f3e5ab114": "read",
+  "ee28b95124a725aa58fcd4d6a2acfc81d8538bff5c162a522635510f052dc7ba": "read",
+  "f6f2cdb06fe0fec9fed57be0793be2dfe2486984b5f99456b7c548c463d9571a": "read"
+ },
+ "flags": []
+}

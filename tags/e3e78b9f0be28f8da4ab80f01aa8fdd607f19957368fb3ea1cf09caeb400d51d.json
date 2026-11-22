@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e3e78b9f0be28f8da4ab80f01aa8fdd607f19957368fb3ea1cf09caeb400d51d",
+ "domain": [
+  "software/browser-automation",
+  "ai/agents"
+ ],
+ "product": [
+  "reflex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local browser automation for agents using compressed page snapshots and batched actions to save tokens.",
+ "whenToUse": "Use when an agent needs to navigate and act on web pages efficiently.",
+ "tasks": [
+  "take page snapshots",
+  "run batched browser actions",
+  "navigate pages"
+ ],
+ "effects": {},
+ "flags": []
+}

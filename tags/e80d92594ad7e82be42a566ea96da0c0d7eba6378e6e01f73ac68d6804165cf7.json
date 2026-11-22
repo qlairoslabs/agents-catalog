@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e80d92594ad7e82be42a566ea96da0c0d7eba6378e6e01f73ac68d6804165cf7",
+ "domain": [
+  "software/reliability",
+  "analytics/product"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Produces a reliability health check from auto-captured network request, JavaScript error and error click data in Amplitude.",
+ "whenToUse": "Use when the user asks for a reliability check, error rates, page health, release impact, or a product quality report.",
+ "tasks": [
+  "compute error rates",
+  "check page health",
+  "review network request failures",
+  "review javascript errors",
+  "check release impact",
+  "track error budget"
+ ],
+ "effects": {},
+ "flags": []
+}

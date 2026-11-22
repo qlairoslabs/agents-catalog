@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "59f47df3397158da99333837c6f46e0e673f1b9d14d654392206dd42a78ffeba",
+ "domain": [
+  "software/developer-tools",
+  "education"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Makes Claude add educational explanations of implementation choices and codebase patterns while working.",
+ "whenToUse": "Use when a developer wants explanations of why code is written a certain way while the agent works.",
+ "tasks": [
+  "explain implementation choices",
+  "describe codebase patterns"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7597bfb93e57fe9e8f36aa128dbfee177226b0352d0a058fe0b92db08dfa5809",
+ "domain": [
+  "finance/sector-research",
+  "finance/investing"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes a market sector's performance, valuations, sub-industries, cycle position and catalysts, ending with a positioning view.",
+ "whenToUse": "Use when a user asks how a sector or industry is doing or whether it is attractive.",
+ "tasks": [
+  "review sector performance and valuations",
+  "map sector-specific KPIs",
+  "assess cycle position",
+  "aggregate bellwether metrics",
+  "list upcoming catalysts",
+  "suggest top picks and areas to avoid"
+ ],
+ "effects": {},
+ "flags": []
+}

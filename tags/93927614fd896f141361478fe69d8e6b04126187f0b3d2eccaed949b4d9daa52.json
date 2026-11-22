@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "93927614fd896f141361478fe69d8e6b04126187f0b3d2eccaed949b4d9daa52",
+ "domain": [
+  "data/video",
+  "marketing/social-listening"
+ ],
+ "product": [
+  "youtube",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides YouTube data through 15 endpoints, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs YouTube videos, channels or comments data and can pay per request in USDC.",
+ "tasks": [
+  "fetch youtube videos",
+  "fetch channel data",
+  "fetch comments",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "3c34ba31364a657fd8964e8ea95c011769d410a20b44d6e0047bf4df42ca58c7",
+ "domain": [
+  "crypto/solana",
+  "crypto/risk-screening"
+ ],
+ "product": [
+  "solana",
+  "jupiter",
+  "usdc"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Pay-per-call Solana tools to risk-screen tokens, inspect wallets, simulate transactions and estimate priority fees, paid in USDC.",
+ "whenToUse": "Use before buying an unfamiliar Solana token, interacting with a wallet or submitting a transaction.",
+ "tasks": [
+  "screen token risk",
+  "inspect wallet",
+  "simulate transaction",
+  "price priority fees",
+  "read payment info",
+  "read service info",
+  "check RPC health",
+  "request a capability"
+ ],
+ "effects": {
+  "3d14251fe3e38dd9a12a3b94bc26d0dafd2fc8b613069bf8feac253c6b2546ea": "write",
+  "98de315d2ef7f8d98c6952f807c166dacc7bf2869640db1c8dc93ee369b36247": "write",
+  "1d162b8e4ad24068808b1fb04717ec7e26220b50fd1de321e2cc899ef931f247": "write",
+  "a9a7bb52a0f73fd113a4081f7b566bdc7c982b55fb9171c5133038453b9f4c48": "write",
+  "c85da257547d6ab6e2f83579b490a64b68b7121be8f5a8cfd9e3b0f5d7c5175e": "read",
+  "f12b82da1e3e006368be3c8cfbbc8e2d784e70bb350a02bcc04e3c7e01e76abf": "read",
+  "86b17decfe39bf3d32b338c7a5c48805f0c3eb0b6ceb565f1aac88a818cbc64d": "read",
+  "584b73ad2cb88a8e182e2b30330bac32e2b602aa26df0539e01f0145e9258ffd": "write"
+ },
+ "flags": []
+}

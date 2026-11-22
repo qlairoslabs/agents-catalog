@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "81ace188167202173f15d5a6a5792d69896b6b5ff9015de6af036a2fb7d22b17",
+ "domain": [
+  "finance/market-data",
+  "finance/crypto"
+ ],
+ "product": [
+  "followin"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides research reports, market data, news and trading signals for crypto and US equities.",
+ "whenToUse": "Use when an agent needs market data, news or research on crypto assets or US stocks.",
+ "tasks": [
+  "get market data",
+  "read research reports",
+  "fetch news",
+  "get trader signals"
+ ],
+ "effects": {},
+ "flags": []
+}

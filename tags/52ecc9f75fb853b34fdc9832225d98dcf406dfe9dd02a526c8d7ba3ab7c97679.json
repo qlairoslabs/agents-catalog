@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "52ecc9f75fb853b34fdc9832225d98dcf406dfe9dd02a526c8d7ba3ab7c97679",
+ "domain": [
+  "travel/event-travel",
+  "ticketing/events"
+ ],
+ "product": [
+  "event-escapes",
+  "hotelbeds"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Search sporting and music events, curated trip packages, nearby hotels and experiences, build booking links and create payment links on Event Escapes.",
+ "whenToUse": "Use when planning travel around F1, soccer, concerts or other events and needing tickets, hotels and activities.",
+ "tasks": [
+  "search events",
+  "search trip packages",
+  "get event details",
+  "find hotels near venue",
+  "find experiences",
+  "build event link",
+  "build package link",
+  "create payment link"
+ ],
+ "effects": {
+  "979ae7527ae7abf85370de61a179680531f3d0c2fd30a1117d55333383dc13e0": "read",
+  "e9ab90f0f56dba81083f19a41299292c3fd29e6a79b5870247e9fedf8cdcfad5": "read",
+  "0bf9a02ce4c6f483267733105b242765f1fbd816ced860f1037615a248d87444": "read",
+  "c5ea87d19ed01e3ebc9d9d6d79c7731005c100a6bf05e432c6fe56c3392e569c": "read",
+  "c7b7d2aa12390262d1fd48aa206ddafcfd1baa38648cb19531be232275851b71": "read",
+  "179b7416ed42b47875dbafba8ac59a864f515570e703b8bad53138b4c2df1c9e": "read",
+  "7d457af3772ac442d3af9b1b66eb808b2cd3a412b6a74985674a58f5da8da379": "read",
+  "31207a92dd9ec3b14e8cafa92371782b214ecad73082ecbb10a8b2ab1ba98be5": "write"
+ },
+ "flags": []
+}

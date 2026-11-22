@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "710bede79e0f2471f2eac3aaa657113b5bd1934f2eba6f73c1e4bca9835c9b94",
+ "domain": [
+  "industrial/automation",
+  "corporate/product-information"
+ ],
+ "product": [
+  "siemens",
+  "insights-hub",
+  "industrial-edge",
+  "polarion",
+  "simatic"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Search public Siemens content, products, datasheets, developer docs and media assets, and read Siemens web pages.",
+ "whenToUse": "Use when a user needs Siemens product specs, developer documentation, references, news or media with usage rights.",
+ "tasks": [
+  "search Siemens content",
+  "find media assets",
+  "search developer docs",
+  "get product datasheets",
+  "read web pages"
+ ],
+ "effects": {
+  "c40d8192823a38c674d61d076174518910e7424382eeedbb852508e934e10021": "write",
+  "433439897746610bcc4ab14d45f0e0b3db89e7177cec47865cd2e44b3e56f9a5": "write",
+  "e558f7f018162a6602ca241ee21ad42a89afeac69e74db8e7971a1346ea7341c": "write",
+  "e9999a152010e415449070af3d2e8bb1e6a84a4a896e77dd12c0d88c67f96889": "write",
+  "9430ba96254690c06abdf9ac80e3245dd0467a7b68d91c22b3debe3f15d37e85": "write"
+ },
+ "flags": []
+}

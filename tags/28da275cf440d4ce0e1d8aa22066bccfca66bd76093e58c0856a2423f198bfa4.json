@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "28da275cf440d4ce0e1d8aa22066bccfca66bd76093e58c0856a2423f198bfa4",
+ "domain": [
+  "software/cybersecurity/code-scanning",
+  "software/development"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Scans your own code for vulnerabilities inside Claude Code, double-checks each finding, and proposes verified patches you can apply.",
+ "whenToUse": "Use when you need a security audit of a codebase with checked findings and suggested fixes.",
+ "tasks": [
+  "scan code for vulnerabilities",
+  "choose scan effort tier",
+  "challenge and verify findings",
+  "compute verification tally",
+  "generate targeted patches",
+  "verify patches with agent panel"
+ ],
+ "effects": {},
+ "flags": []
+}

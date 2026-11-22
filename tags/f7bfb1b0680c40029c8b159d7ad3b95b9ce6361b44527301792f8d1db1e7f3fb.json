@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "f7bfb1b0680c40029c8b159d7ad3b95b9ce6361b44527301792f8d1db1e7f3fb",
+ "domain": [
+  "software/observability",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-cloudwatch",
+  "aws-x-ray",
+  "cloudtrail",
+  "cloudwatch-omni"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Guidance for using CloudWatch and CloudWatch Omni for logs, metrics, alarms, tracing, dashboards and AI agent evaluation.",
+ "whenToUse": "Use when querying logs, setting alarms, tracing requests or debugging production behavior on an AWS service already sending telemetry.",
+ "tasks": [
+  "query logs with log insights",
+  "create alarms",
+  "publish custom metrics",
+  "build dashboards",
+  "trace requests with x-ray",
+  "run canaries",
+  "use dynamic instrumentation",
+  "query omni with sql and promql",
+  "find root cause",
+  "evaluate ai agent quality from traces"
+ ],
+ "effects": {},
+ "flags": []
+}

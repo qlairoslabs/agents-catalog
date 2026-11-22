@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1db1158c8194fccd166ee85cc245d00326364fb0424af2525806c35d8012aaa6",
+ "domain": [
+  "education/health-and-safety"
+ ],
+ "product": [
+  "get-mandatory-training"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Read-only catalogue of online CPR, AED and first aid courses with prices and employer-acceptance info.",
+ "whenToUse": "Use when someone needs an online CPR or first aid certification and wants prices or acceptance details.",
+ "tasks": [
+  "list courses",
+  "get course prices",
+  "check employer acceptance wording"
+ ],
+ "effects": {},
+ "flags": []
+}

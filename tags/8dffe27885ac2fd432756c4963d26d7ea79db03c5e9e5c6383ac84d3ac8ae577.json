@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "8dffe27885ac2fd432756c4963d26d7ea79db03c5e9e5c6383ac84d3ac8ae577",
+ "domain": [
+  "commerce/agentic-checkout",
+  "marketing/ai-visibility"
+ ],
+ "product": [
+  "arc",
+  "google"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks and monitors whether AI shopping agents can reach and use a store's checkout, with fixes and brand perception.",
+ "whenToUse": "Use when a user wants to test, monitor or improve how AI shopping agents reach their store's checkout.",
+ "tasks": [
+  "check store checkout evidence",
+  "find agent-ready stores",
+  "report checkout attempts",
+  "check google agentic checkout readiness",
+  "check product data",
+  "run readiness checks",
+  "ask agent personas about a brand",
+  "get fixes",
+  "create scheduled monitors",
+  "update pause or resume monitors",
+  "run monitors on demand"
+ ],
+ "effects": {
+  "7575deb47d651163937962bd86302ff67e0a3a3aed37d9fd7bf90ff374a4c058": "read",
+  "f4d57a62c77536571e7b861964d0c8d8c0ebe227a09c558e65f18ae20b02aef6": "write",
+  "972a314ee07984d035c5fd30994eb1ca766af99c69897876e51b262796743295": "write",
+  "3abbd6a695267294b335b9acb747d9762ec46e980c94df661261014efe24b992": "read",
+  "1032154787f0742440e9e0d7a946c240bb123b02adf11086130afb9268b9e793": "read",
+  "e74aa96a6f2cbe7fd270482fbc006b08917597dbc7ebe3f74db955865e107678": "read",
+  "45209c49708163e67488726f24a317043b6a744308eea992ca0b10535707ce76": "write",
+  "c72c20c4727b4153dd37042aecbae45c3de7c77287137faea892a8eb13959656": "write",
+  "4c35dc5e11f33eddab1bcf65fb67c821441c5de946a1e481df77c23f5e8b532c": "read",
+  "96901386d7e999e64aeb8b51d41a06a82744d9f6351140f60d147c3f17793291": "read",
+  "f38c00a9b16aa1cead3d2cc8023b7ef2d7050512bb6e6e38bd2a8011ac4ab215": "write",
+  "2255cb15d22fe09bddf4a23adebced6f0803e838aa0c09fc9f60bc59fc9bad57": "read",
+  "486e1f6359fb36aee944c73d83299186bc059d1bab22fdd7561af185df3df883": "write",
+  "6e2fd2ac722db66966b2ce7626db764f4237e0010fbaec3acd3ffceabe3f68a5": "read",
+  "8a41dc162a8e4da9a2f2f52c3298ab3186cf7ec1bc5d395a5ea200e134803569": "read",
+  "9aa98a6d343d3f42538754e1d148acdf012bc73461a83796627d5588c14d935b": "write",
+  "14a84a7813f685e5c6485bafa0f7c23157372463f93ecc10064ac3526fdb4098": "write",
+  "644c3da30daa69f83886eb2894a57af956b5f857bbde0bfcba44d8c6e46b4985": "write",
+  "f3f19a0848f73a84a4bc884d0efe0de46f22962f124d9d22290b74fc448f95ca": "write"
+ },
+ "flags": []
+}

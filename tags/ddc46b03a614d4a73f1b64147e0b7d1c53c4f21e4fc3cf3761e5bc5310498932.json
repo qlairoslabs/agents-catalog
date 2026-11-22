@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ddc46b03a614d4a73f1b64147e0b7d1c53c4f21e4fc3cf3761e5bc5310498932",
+ "domain": [
+  "data/databases/postgres"
+ ],
+ "product": [
+  "alloydb-omni",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Creates, connects to and queries AlloyDB Omni databases.",
+ "whenToUse": "Use when creating or querying an AlloyDB Omni database.",
+ "tasks": [
+  "create databases",
+  "connect to databases",
+  "query data"
+ ],
+ "effects": {},
+ "flags": []
+}

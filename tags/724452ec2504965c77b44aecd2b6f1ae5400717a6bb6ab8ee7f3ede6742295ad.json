@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "724452ec2504965c77b44aecd2b6f1ae5400717a6bb6ab8ee7f3ede6742295ad",
+ "domain": [
+  "analytics/product-analytics"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about an Amplitude chart or dashboard link by fetching its definition and data, then explaining or adapting it.",
+ "whenToUse": "Use when a user pastes an Amplitude chart or dashboard URL and asks what it shows or wants it refreshed or adapted.",
+ "tasks": [
+  "fetch chart definition",
+  "pull chart data",
+  "explain chart",
+  "refresh dashboard report",
+  "clone or adapt analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

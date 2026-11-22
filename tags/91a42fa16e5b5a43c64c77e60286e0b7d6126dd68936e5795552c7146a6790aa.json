@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "91a42fa16e5b5a43c64c77e60286e0b7d6126dd68936e5795552c7146a6790aa",
+ "domain": [
+  "travel/esim",
+  "telecom"
+ ],
+ "product": [
+  "mybestsim"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Compares prepaid travel eSIM plans by destination, data and trip length, including multi-country trip planning.",
+ "whenToUse": "Use when a traveller needs mobile data abroad and wants to compare eSIM plans or prices.",
+ "tasks": [
+  "search eSIM plans",
+  "plan multi-country eSIM coverage",
+  "get destination price overview",
+  "get plan details"
+ ],
+ "effects": {
+  "cb59d969d05269d3e621965b8f6a78bb51a3123559ad3244c55e6ae25f7b43d1": "write",
+  "63c750b0c9ad8624ad60bbb1c15b66823d4acd74822cb955933072929c7f8dac": "write",
+  "ec786c1a81a311498e27c8209663e91c2fb8bcd9e72a69d8d683ca4cc031db7c": "write",
+  "b745c9d0ee8d26540233b2249b41dec036eb1ef8e92cb83c5e69b1d895859859": "read"
+ },
+ "flags": []
+}

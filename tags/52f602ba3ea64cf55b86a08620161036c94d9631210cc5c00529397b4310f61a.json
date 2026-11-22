@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "52f602ba3ea64cf55b86a08620161036c94d9631210cc5c00529397b4310f61a",
+ "domain": [
+  "software/mcp-discovery",
+  "developer-tools"
+ ],
+ "product": [
+  "mcp-marketplace"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Searches and compares MCP servers in the MCP Marketplace, with security scores, creator profiles and install details.",
+ "whenToUse": "Use when an agent or user needs to find, vet or compare an MCP server for a missing capability.",
+ "tasks": [
+  "search servers",
+  "get server details",
+  "find similar servers",
+  "list recent servers",
+  "view creator profile",
+  "compare servers",
+  "list categories"
+ ],
+ "effects": {
+  "ce2c871f5d9d89358daf834e935b146055d952165890ebc556cb31c4aa6ad639": "write",
+  "b5cf976ba7e95645368495475b6bc940660901c1956006cca1fb000652f85322": "read",
+  "467877b642bab3236c7ed25d2b09c6ed23d916dbc2d2906d868d5c9e661ee94d": "read",
+  "04e05efd52966f2ab539747c305fcc0132f7080f8d0460ea18622317026d28e4": "read",
+  "8fda7da5303a01962d304512e2b82efe4806b840e44fde40b29859d04a667f79": "read",
+  "b55a3d07442da874127cfd12137d34047d2bf18302da3816f81929192ef3798d": "read",
+  "ca3da5d9b23b961726e528ecf7f21a357c2321fdb7d7b4ba922f7a2192114c05": "read"
+ },
+ "flags": []
+}

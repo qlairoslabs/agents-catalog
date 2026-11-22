@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "974160a387a7e5d3656c1bfab7d43be57e1dbcd3e1e4f0621a71b6fc659f6cb1",
+ "domain": [
+  "finance/grants/funding-discovery"
+ ],
+ "product": [
+  "grantiq",
+  "chatgpt",
+  "claude"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Finds UK and EU grants by checking eligibility first.",
+ "whenToUse": "Use when an organisation wants to find UK or EU grants it is eligible for.",
+ "tasks": [
+  "search grants",
+  "check eligibility",
+  "filter uk and eu funding"
+ ],
+ "effects": {},
+ "flags": []
+}

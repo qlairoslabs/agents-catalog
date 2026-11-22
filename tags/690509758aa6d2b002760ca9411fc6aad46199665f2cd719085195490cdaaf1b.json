@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "690509758aa6d2b002760ca9411fc6aad46199665f2cd719085195490cdaaf1b",
+ "domain": [
+  "travel/deals",
+  "consumer/vouchers"
+ ],
+ "product": [
+  "crno-jaje"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Searches Crno Jaje's current Croatian deals for stays, spa, beauty and food, with prices, discounts and hotel availability.",
+ "whenToUse": "Use when someone wants discounted vouchers for hotel stays, wellness or activities in Croatia.",
+ "tasks": [
+  "search deals",
+  "list extra-discount deals",
+  "get deal details",
+  "find similar deals",
+  "list categories",
+  "list places",
+  "check hotel availability"
+ ],
+ "effects": {
+  "363d18c3fe38d34f5a4e786a1012d1f5807ef5a6210bdc0b0e5fd1da6e4e0e0e": "write",
+  "d99bf2327863fee8a3235cb37faa6aa6653af468d156e1f17bfe89194fc09f3c": "read",
+  "15c8432da5dc2838e3b8a0f131ced6e32ee0b830d36afddcabb855293df9e132": "read",
+  "7cbf96eb17e3c43c690940bcbf0b1fb6a7307db75739f56019f781235f119b48": "read",
+  "573ff6fdcef44b7201c7d081c06dc5409faa081160a764e8847d993a4fe58b39": "read",
+  "83b27728debeb5031094f9bc61ef263397d96eb96cfe68dfafb36789bfa53157": "read",
+  "342789a3c09d1a0687d393ed2bdc939024c7111634b267ff93452279e9bdefdc": "read"
+ },
+ "flags": []
+}

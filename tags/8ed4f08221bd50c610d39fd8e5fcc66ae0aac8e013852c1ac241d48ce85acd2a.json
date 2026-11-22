@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8ed4f08221bd50c610d39fd8e5fcc66ae0aac8e013852c1ac241d48ce85acd2a",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/development/java"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for writing Airflow task logic in Java, Kotlin or other JVM languages with the Airflow Java SDK.",
+ "whenToUse": "Use when implementing Airflow tasks on the JVM or using the Java SDK annotations and interfaces.",
+ "tasks": [
+  "write java or kotlin tasks",
+  "use builder annotations",
+  "implement task and bundle builder interfaces",
+  "read connections, variables and xcoms",
+  "map json to java types",
+  "log from java tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

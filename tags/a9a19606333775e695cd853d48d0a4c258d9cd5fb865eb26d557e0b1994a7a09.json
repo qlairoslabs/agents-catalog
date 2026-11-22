@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a9a19606333775e695cd853d48d0a4c258d9cd5fb865eb26d557e0b1994a7a09",
+ "domain": [
+  "software/issue-tracking/triage",
+  "support/bug-reports"
+ ],
+ "product": [
+  "jira"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "build-software"
+ ],
+ "summary": "Triages bug reports by searching Jira for duplicates and creating new issues or commenting on existing ones.",
+ "whenToUse": "Use when a bug report or error message needs to be checked for duplicates and logged in Jira.",
+ "tasks": [
+  "search similar issues",
+  "detect duplicates",
+  "check fix history",
+  "create bug ticket",
+  "comment on existing ticket"
+ ],
+ "effects": {},
+ "flags": []
+}

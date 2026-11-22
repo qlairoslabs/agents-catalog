@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "a2ef1a2e55444dbd82488bbd768541162ca588a3f4f4617074b12bfd5c6fdb50",
+ "domain": [
+  "finance/investing-research",
+  "media/podcasts"
+ ],
+ "product": [
+  "bidclub"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search and read transcripts, TL;DRs and digests from over 45 investor podcasts in English and Chinese, with no API key.",
+ "whenToUse": "Use when an agent needs to find or read what investor podcasts said about a company, sector, person or market topic.",
+ "tasks": [
+  "list podcast shows",
+  "list episodes",
+  "full-text search episodes",
+  "read episode tldr, digest or transcript",
+  "browse episode catalogue",
+  "build download links"
+ ],
+ "effects": {
+  "ff67c87e87444c9e22257439269f5c246e745645f4a7756ef0158f8c89fe4db6": "read",
+  "0385a121f5f59987f89cd9f282aa0b2d16114223fd9bd54462327f0dd5166fcf": "read",
+  "ef297ad9de4899272a8b5833016556d79f26297c6f21b91648144440016bae3c": "read",
+  "0e0d9f9138a4f8d482e144e6ad02bfbae1409742cfd637923752ab61d37e6639": "read",
+  "b8d59a2819e07ecd227d5e8867cbe5dadced32d1736490e519ef457098397c98": "read",
+  "8d98af2be1243fbe0309cb1cc8d00cc693de762956393156a3ade5c59c6cb611": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f0e56cf130dff83cc610dce627f484a1e84578a2604d17ca8509f3f6cdabcf6c",
+ "domain": [
+  "media/internet-radio",
+  "media/streaming"
+ ],
+ "product": [
+  "casthost"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Controls a CastHost internet radio station: listeners, stream, playlists, AutoDJ, DJ accounts and store.",
+ "whenToUse": "Use when a CastHost radio operator wants to manage their station from an AI client.",
+ "tasks": [
+  "view listeners",
+  "control stream",
+  "manage playlists",
+  "configure autodj",
+  "manage djs",
+  "manage store"
+ ],
+ "effects": {},
+ "flags": []
+}

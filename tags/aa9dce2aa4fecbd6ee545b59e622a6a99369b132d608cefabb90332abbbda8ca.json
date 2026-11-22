@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "aa9dce2aa4fecbd6ee545b59e622a6a99369b132d608cefabb90332abbbda8ca",
+ "domain": [
+  "business/consulting-templates",
+  "business/management"
+ ],
+ "product": [
+  "flevy"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Searches Flevy's marketplace of consulting frameworks, slide decks, Excel models and management case studies.",
+ "whenToUse": "Use when you need a business framework, template, financial model or case study on a management topic.",
+ "tasks": [
+  "search documents and case studies",
+  "get content details",
+  "preview slides",
+  "get topic overview",
+  "list management topics"
+ ],
+ "effects": {
+  "97ace0da53f002b6a92654d26d5429f3ed7e9cd4ac2edd7ba796b5330e90530a": "write",
+  "99deb60ecb283b1f4e5c24f547b7206a22d9b6cb12e49e662d0aab51a807d85f": "write",
+  "4f0b4d964bdeefea5bd59efc30f0ee95ae27baa72d12695e479137b552be42bc": "read",
+  "30628a3e36cfa2c54daf8354aa68ad474461444e0535c906967f5acbacfd2744": "read",
+  "2f60e8896017f409bd7dfe2ba05addb2dd8ceaac3df34f55ccd411214dfa1fb0": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "b1c90a383cc475262d5b6713635f551efe889ba98619c201551e774638664911",
+ "domain": [
+  "marketplace/human-tasks",
+  "operations/outsourcing"
+ ],
+ "product": [
+  "octopus",
+  "stripe"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "hire-and-manage"
+ ],
+ "summary": "Marketplace where agents hire humans for escrowed paid tasks such as errands, phone calls, reviews and verification, then review and approve the work.",
+ "whenToUse": "Use when a task needs a real person, physical presence or expert judgment that an agent cannot provide, and the user agrees to pay.",
+ "tasks": [
+  "register agent account",
+  "declare intents",
+  "view marketplace",
+  "post paid task",
+  "list my tasks",
+  "check task status",
+  "message worker",
+  "approve work",
+  "request changes",
+  "cancel task",
+  "check wallet",
+  "create top-up link"
+ ],
+ "effects": {
+  "2c33335855e0f61b8851a7df2642e96074db5778b7ddbfa4ad61105950ba893e": "write",
+  "cede2c088a4c5d11ea69e93ad96a0d1071fd0d953a465230ba90924851bec322": "write",
+  "4d0730af9f7c8fc3afa9966e9e0542f9758c9077e96666ef3c4d169e378b6fd3": "read",
+  "dc2183e3489c40b253b216e4c45edc932b1f6e2100ca2370ca80f864ea47d7a7": "risky",
+  "9661e30386a77e6c2427bcae295e354a87d5a4b9271289aaba495ac26d5a2aec": "read",
+  "2628f689fb2ce5ae4b82c43168910ffc88e50d3728fa1b86fb988591584ea52d": "read",
+  "3095ca5c308106f43b673bddb1626c8a712088a40da5053be81ada8a338757fb": "write",
+  "2c150e3ca946c8946bb28df5382357d2a90748675d0545db1f9a2870ebe86a16": "risky",
+  "4825c2c9bfc5f1dba59efdf79c4df750e9e4435ca378253a6604ff18ab5a5b03": "write",
+  "3e11e323685cdb89cad51a3d6ba2351df4cb481db4e230d8a7fa20747a4c47fe": "write",
+  "022f053af8f91a8a8d9b8368c90b4eb2236662ee12c66412721e1a8dbbfca187": "read",
+  "1912b2181d7549b3f608961fa597cc35a8f8fe0f2b34f01a6ac3853838a57472": "risky"
+ },
+ "flags": [
+  "moves real money via escrow and approval",
+  "hiring strangers to act for the agent"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "dd201ae1072650c238015ec496e7d4b0ffb34d633b444727e4df9541a7ea1e49",
+ "domain": [
+  "software/web-development",
+  "design/web"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Collection of web production utilities such as contrast checks, Japanese text tools, WebP conversion, JSON-LD, slugs and dates.",
+ "whenToUse": "Use for small web production chores like checking color contrast, generating structured data or converting images.",
+ "tasks": [
+  "check color contrast",
+  "process japanese text",
+  "convert to webp",
+  "generate json-ld",
+  "make slugs",
+  "format dates"
+ ],
+ "effects": {},
+ "flags": []
+}

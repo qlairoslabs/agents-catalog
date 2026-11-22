@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "29a14b15a720cb6b65cbb69d527d374983baf86f5a76c65c27fb3e3146ade42d",
+ "domain": [
+  "marketing/seo",
+  "web/search-analytics"
+ ],
+ "product": [
+  "google-search-console"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "SEO analysis from Search Console data: indexing, page yield, query opportunities, competitor gaps, keyword volume, backlinks and SERP positions.",
+ "whenToUse": "Use when diagnosing a site's search performance or finding keyword and competitor opportunities.",
+ "tasks": [
+  "check index coverage",
+  "find dead pages",
+  "find near-ranking queries",
+  "find competitor gaps",
+  "get keyword volume",
+  "summarise backlinks",
+  "check SERP positions",
+  "check account budget"
+ ],
+ "effects": {
+  "bf7bfc17b024ad9b5fa7387382a0686374baf1d9c582f10156b43b3ebf2a9d00": "read",
+  "152f3ebd4b5e3ae5e5214f502246109953013fb052e98ab0ae54b96bd8682c4a": "read",
+  "b1ef24cd56b193788e323b9a5d10c83747a8e2b78fb59bb95e58351c2a1531f9": "read",
+  "4680595e2259fad669304d2e0110e9ec4b9ed65c19ad59bc92a7360b9545f38d": "read",
+  "f301a07f2590eb31b8bf308260e3359cc008cab02b55ce6227960d6d94ab216b": "read",
+  "22a43d96649ff652702f015518809d043b6904c4fc881d6692b6d236d5dbae19": "read",
+  "0fa4daffc365082b988d1c5e047b8b0c4843dab463a4f99d78029ba26e9ea54b": "read",
+  "2ef6a985ef5e2dd24e6fe676a7140da538c71b0a48f58c07c9a93e191d5fbc5d": "read"
+ },
+ "flags": []
+}

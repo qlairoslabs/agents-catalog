@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "690bc24f8b6655dd9e3ad5731750cdc60ca4b8aec084bf09bdb19a4575f372f9",
+ "domain": [
+  "travel/esim",
+  "telecom"
+ ],
+ "product": [
+  "gitsim",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Search, order and top up eSIM data packages for travel in 190+ countries, with Stripe checkout links and data balance checks.",
+ "whenToUse": "Use when a traveller needs a mobile data eSIM for a destination, wants to buy or top up one, or check their balance.",
+ "tasks": [
+  "search eSIM packages by country",
+  "get package details",
+  "create order checkout link",
+  "check order status",
+  "list delivered eSIMs",
+  "check data balance",
+  "find top-up packages",
+  "buy top-up"
+ ],
+ "effects": {
+  "5b98e24f32a2d092efe51ba52b830d3fc536f82b297b1a0551a11c1af81606ad": "read",
+  "b137f7626c10eb618d2d81d771c66e2f2fc97e41f45a9e09e7a8d40da7131448": "write",
+  "33d4ba864c050b236a2e4a39c38f1e39f685997bfc83e3b8a67b88c6ebfd5d99": "read",
+  "6a205af1b8dbe55e398a2df06a52a87bea01bd577ba17f900743bc8abec7e9a1": "write",
+  "2d5788eb3f9a6d9419848813fbe6782b2173b7826c91119ca25b89220a026d50": "read",
+  "e823012cfb34a7f2ea682dc3f59bdd52b9acda00cafa78bae1427be11af3c3bb": "read",
+  "c3d19c9144423d34c7095363d2d5d0ab0bbb492dfdbd5b228877e2b64430d755": "read",
+  "044ffb9e76022988ba6f948d7ea025731b568a14cac2e0924d286b40d9f4bca9": "read",
+  "27c3575c59551dc4165fb440a4dd69a11300f3eedbc0c4b89181428981d641ba": "write"
+ },
+ "flags": []
+}

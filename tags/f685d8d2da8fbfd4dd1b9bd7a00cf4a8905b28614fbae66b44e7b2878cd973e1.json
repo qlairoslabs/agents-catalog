@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f685d8d2da8fbfd4dd1b9bd7a00cf4a8905b28614fbae66b44e7b2878cd973e1",
+ "domain": [
+  "software/devops/platform-engineering"
+ ],
+ "product": [
+  "cycloid"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Connector for the Cycloid internal developer portal and platform.",
+ "whenToUse": "Use when a user wants to interact with projects, stacks or environments in Cycloid.",
+ "tasks": [
+  "interact with cycloid portal"
+ ],
+ "effects": {},
+ "flags": []
+}

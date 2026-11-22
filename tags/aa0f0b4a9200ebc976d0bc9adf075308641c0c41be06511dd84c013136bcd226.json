@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "aa0f0b4a9200ebc976d0bc9adf075308641c0c41be06511dd84c013136bcd226",
+ "domain": [
+  "ecommerce/supplements"
+ ],
+ "product": [
+  "fjordgull",
+  "vipps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Norwegian-language info on Fjordgull's omega-3 subscription: product, price, delivery status and an order preview link.",
+ "whenToUse": "Use when a user asks about Fjordgull omega-3 or wants to start an order on the site.",
+ "tasks": [
+  "get product and price",
+  "get delivery status",
+  "preview order"
+ ],
+ "effects": {
+  "8b7459f8fce68c9bba38e1dd2b0799abf28cdaa579c4ff132885b0c8f10a5f72": "read",
+  "086cd5e1b11427a5245b073e938879936596c425aa1dc8cd32bee78c90d34186": "read",
+  "8bb1d837a71f3977a933adf6f4d84868cbf3da86b0eac54a28d5f00954776f8f": "read"
+ },
+ "flags": []
+}

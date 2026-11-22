@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "55dc55b7df430c26fb2261fe3917f93c8ad48a688d1ce20ead552d23677242c7",
+ "domain": [
+  "careers/resumes",
+  "documents/pdf"
+ ],
+ "product": [
+  "ai-resume-master"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Builds and edits resumes in an AI Resume Master account and exports them as PDF.",
+ "whenToUse": "Use when a user wants to create, update or export a resume stored in AI Resume Master.",
+ "tasks": [
+  "create resume",
+  "edit resume",
+  "export resume to pdf"
+ ],
+ "effects": {},
+ "flags": []
+}

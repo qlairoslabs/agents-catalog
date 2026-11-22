@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "f7209fbe00d2273049964e4a1854c128eb17f07032361a448494af412d15a0ff",
+ "domain": [
+  "regulatory/japan",
+  "crypto/market-data"
+ ],
+ "product": [
+  "agentfeeds",
+  "x402",
+  "usdc",
+  "base",
+  "jupiter"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Paid x402 data feeds: Japan regulatory events, DEX spread statistics and anomalies, and crypto address screening against Japan MOF sanctions.",
+ "whenToUse": "Use when you need Japan regulatory updates, DEX spread stats or sanctions screening of a crypto address and payment is approved.",
+ "tasks": [
+  "get catalog",
+  "get terms",
+  "list regulatory events",
+  "DEX spread summary",
+  "DEX spread anomalies",
+  "sanctions check address"
+ ],
+ "effects": {
+  "ac789382a0c53ce58125e7ef610e628fd0d76829b678c97c19964d74d4ee06d7": "read",
+  "ad1f29c815459f385781bd4064923cb6c0e3b1820e142f105bcfea541480aa78": "read",
+  "ee5f6785b3186f5a3c51ddb268dbb8421e21ac1852973239528009a60e57e782": "risky",
+  "65f1f4aee369848f3c569590285b57b152a9f541053c29cc69872b4966d0bba9": "risky",
+  "8f37783a2b5a29759d8dd9e59e9b24f5953554621d0bb9bad29fcc386bd31e73": "risky",
+  "4b30e988cf2183551afdc904cfb9431dcff4b5853ad7a1c6342a3cc62dc8787c": "risky"
+ },
+ "flags": [
+  "paid calls move USDC per request"
+ ]
+}

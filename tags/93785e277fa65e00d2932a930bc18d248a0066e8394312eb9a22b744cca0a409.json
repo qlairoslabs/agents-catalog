@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "93785e277fa65e00d2932a930bc18d248a0066e8394312eb9a22b744cca0a409",
+ "domain": [
+  "food/regulation",
+  "compliance"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Looks up food additives and analyzes ingredient labels against Japanese, EU and US regulatory rosters, with sources; cross-axis diffs are paid and HTTP-only.",
+ "whenToUse": "Use when checking how a food additive is regulated in Japan, the EU or the US, or parsing additives on a label.",
+ "tasks": [
+  "search substances by name",
+  "get substance details",
+  "analyze label additives",
+  "point to paid diff endpoints"
+ ],
+ "effects": {
+  "9665678e7d05aadd830b0b43e3e7e2a006bdff2fc363d1570ff94c718b8f5e35": "write",
+  "ac3b7328e8a3ef689dfc2ba9781839a65b0a834e7c9ecfb2e09f4a32405652ca": "write",
+  "163d1207b899ae79e17f9a659553891a09602603d9ab2ca1d8c21ee5b7641e68": "write",
+  "fd3b9bcc0dfa8d71dd44de5b868089e10a83d656ecd144012ffff206e4ddfc93": "read",
+  "dd944f67a87caa526d62ac56ef693fa6845bee27f8f0342df5a9b6d26de65a3c": "read"
+ },
+ "flags": []
+}

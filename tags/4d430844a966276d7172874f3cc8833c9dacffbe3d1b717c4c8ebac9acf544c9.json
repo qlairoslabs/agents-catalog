@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4d430844a966276d7172874f3cc8833c9dacffbe3d1b717c4c8ebac9acf544c9",
+ "domain": [
+  "automation/workflow",
+  "automation/integrations"
+ ],
+ "product": [
+  "ifttt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Connects agents to IFTTT to build Applets and run actions and queries across over 1,000 services.",
+ "whenToUse": "Use when a user wants to automate tasks or trigger actions across connected apps and devices via IFTTT.",
+ "tasks": [
+  "build applets",
+  "run actions",
+  "run queries",
+  "connect third-party services"
+ ],
+ "effects": {},
+ "flags": []
+}

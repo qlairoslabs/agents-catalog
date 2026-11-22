@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "f99b1d978d065a93b65192183d2c0502b493a8ee6c0e7a00be02a48c5846a9a2",
+ "domain": [
+  "commerce/automotive-parts",
+  "automotive/fitment"
+ ],
+ "product": [
+  "trail-fortress",
+  "rough-country"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Read-only fitment lookup for truck and Jeep parts: vehicle options, compatible parts, fit checks, product details, search and tire sizes.",
+ "whenToUse": "Use when a user needs to know which lift kits, parts or tire sizes fit a specific truck or Jeep.",
+ "tasks": [
+  "list vehicle options",
+  "find parts for vehicle",
+  "check part fit",
+  "get product details",
+  "search parts",
+  "look up tire fitment"
+ ],
+ "effects": {
+  "294b9691b713ddf8e2204444066b59a58441c4510048fa075429cf40a7fcfb94": "read",
+  "4abe567e36c92e26125a7159eec8ae5e54a705085042dbab01c89dfa8f587fb1": "read",
+  "ad6b26abb3243c41220dc68ba1ed6037cf7817d21baac9286d051be8a14cf833": "read",
+  "1d488a4134ebd12cb7468737e5bd99230f3d43a375ab1d5b4827476b2fc16d8a": "read",
+  "0ba2349c3f2cfe3178d00c8148248651aaa0c631678b2f61d8626c865339e356": "read",
+  "45f6fd7da8ec41bc0daf72e5a4bc7463840b55bcd1afb8ab12140c58a4029a1a": "read"
+ },
+ "flags": []
+}

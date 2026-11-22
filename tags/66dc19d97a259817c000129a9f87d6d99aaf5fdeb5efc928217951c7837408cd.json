@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "66dc19d97a259817c000129a9f87d6d99aaf5fdeb5efc928217951c7837408cd",
+ "domain": [
+  "ai/generative-media",
+  "ai/chat"
+ ],
+ "product": [
+  "venice-ai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Access to Venice AI models for generating images, video, music and speech, and for private chat.",
+ "whenToUse": "Use when an agent needs to generate images, video, music or speech through Venice AI.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "generate music",
+  "text to speech",
+  "private chat completion"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "24c0f5a2ee248c2b90ad9cdbc788e7439fef428d88db74d599db05693e994851",
+ "domain": [
+  "finance/trading-journal",
+  "finance/crypto-trading"
+ ],
+ "product": [
+  "tradechainly",
+  "claude",
+  "chatgpt"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets AI assistants analyse a user's own crypto trading history for performance, patterns and behaviour.",
+ "whenToUse": "Use when a trader wants insight into their own crypto trading results and habits.",
+ "tasks": [
+  "analyse trading performance",
+  "find trading patterns",
+  "review trading behaviour"
+ ],
+ "effects": {},
+ "flags": []
+}

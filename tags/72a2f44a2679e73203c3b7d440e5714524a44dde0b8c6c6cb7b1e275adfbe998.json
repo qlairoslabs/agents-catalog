@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "72a2f44a2679e73203c3b7d440e5714524a44dde0b8c6c6cb7b1e275adfbe998",
+ "domain": [
+  "sales/lead-scoring",
+  "data/b2b-italy"
+ ],
+ "product": [
+  "machinesignal"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Product catalog and buyer-fit checks for scoring and ranking an Italian B2B lead list into explained JSON decisions, with order-intent preparation.",
+ "whenToUse": "Use when an Italian B2B team wants to prioritize an existing company or lead list and needs to check fit or prepare an order.",
+ "tasks": [
+  "map business need",
+  "get product catalog",
+  "check buyer fit",
+  "preview synthetic example",
+  "read purchase requirements",
+  "prepare order intent template"
+ ],
+ "effects": {
+  "349c744d980d118526afec5cdeb084d81e7e67abcf2200dcc62ee1fd434d7324": "write",
+  "55c17028717bee429f36bffecae2197ed5f24b72913aa8008b05d2f629c48b81": "read",
+  "658e0381a3aef8949b179ff343d3232a9e93e1ac544c763fde26ffa7addc4a2c": "write",
+  "56f2016e0c72aff50d9c45f0f173b50c4a969a122fd432e21540da712569e0ff": "read",
+  "0838640c16a0264ad08c7017f70279c1764384e7a6c7f2f66b8ccaa05f916a49": "read",
+  "7c1af75c588abb192f4a8885753c6ccb99392bb870ec8b28cee0b99ab026ae86": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "90eedee09a681e2beac3bcda67f397aa19812b1d7cb2a258fb91a17ed809516a",
+ "domain": [
+  "software/product-management/requirements",
+  "software/documentation"
+ ],
+ "product": [
+  "dotrequirements"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Tool for writing shared product documentation and testable specifications for a team.",
+ "whenToUse": "Use when drafting or maintaining product requirements and testable specifications shared across a team.",
+ "tasks": [
+  "write product documentation",
+  "write testable specifications",
+  "share docs with team"
+ ],
+ "effects": {},
+ "flags": []
+}

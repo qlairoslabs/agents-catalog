@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "6f1de475ff13df4e2947a47e7b4a0767136a3e8a3f476fc435492a40cd562ac4",
+ "domain": [
+  "food/bakery-ordering",
+  "retail/ecommerce"
+ ],
+ "product": [
+  "toast",
+  "shopify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Lets an agent browse Pinoyshki Bakery's menu, design custom cakes, validate an order against bakery rules, and get a payment checkout link.",
+ "whenToUse": "Use when a customer wants to see Pinoyshki Bakery's menu, ask about allergens, plan a cake or catering order, or place a pickup or delivery order.",
+ "tasks": [
+  "browse today's menu",
+  "browse catering menu",
+  "search menu items",
+  "show item details and allergens",
+  "get custom cake options",
+  "check order against bakery rules",
+  "get available pickup dates and times",
+  "create checkout link",
+  "offer combo upgrades"
+ ],
+ "effects": {
+  "414263039e536b4a0e0c4744b36922ccba6d6bec2db786e09083c223522e618e": "read",
+  "c27203b6ed27f4dd384c3d5a9a5abce6d8f6958e7aa1993ff865d638e8cd88fb": "read",
+  "5552fa6536ec5c42612312bd702aec7a9eb1786e5101fa6fac15b0b8e364e122": "read",
+  "110c080fa2fc8098a8287b84313053068871a15d642a8050d0d30c643a37b68d": "read",
+  "7a285cf66ca0b0a9b709df33f149fd7713ffcbabd482372ffbeaa264b6714cd7": "write",
+  "13b2c50266032a9c8d15ce21b4c08ef6d5b139a969606b52405ad3e3c285e113": "write"
+ },
+ "flags": []
+}

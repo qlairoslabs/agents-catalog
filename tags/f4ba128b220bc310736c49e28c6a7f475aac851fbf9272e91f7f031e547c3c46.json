@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f4ba128b220bc310736c49e28c6a7f475aac851fbf9272e91f7f031e547c3c46",
+ "domain": [
+  "software/databases",
+  "software/ai-agents"
+ ],
+ "product": [
+  "tmpstate"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Temporary JSON store for agents that needs no signup or API keys.",
+ "whenToUse": "Use when an agent needs quick throwaway state storage without credentials.",
+ "tasks": [
+  "store json data",
+  "read json data"
+ ],
+ "effects": {},
+ "flags": []
+}

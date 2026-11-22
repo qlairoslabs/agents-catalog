@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "66c6ce53d62197854477bbe0a46834a2e1d70e3f22dfa4587346ddadb3c7a53a",
+ "domain": [
+  "data/integration",
+  "data/analytics"
+ ],
+ "product": [
+  "coupler.io"
+ ],
+ "audience": [
+  "operations",
+  "marketing",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Remote MCP server for Coupler.io, a data integration service; the entry gives no further detail.",
+ "whenToUse": "Use when a user wants to access data flows or data gathered through Coupler.io.",
+ "tasks": [
+  "access coupler.io data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "937faa3eabcbfcfd77118a77e0d94fcf998e4d3ca79b2bc725b5d3362cf148a1",
+ "domain": [
+  "software/ai-agents"
+ ],
+ "product": [
+  "aeon"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs and manages an Aeon autonomous agent, including skills, runs, memory, strategy, packs and settings.",
+ "whenToUse": "Use when controlling or configuring an Aeon autonomous agent.",
+ "tasks": [
+  "start agent runs",
+  "manage skills",
+  "manage memory",
+  "set strategy",
+  "manage packs",
+  "change settings"
+ ],
+ "effects": {},
+ "flags": []
+}

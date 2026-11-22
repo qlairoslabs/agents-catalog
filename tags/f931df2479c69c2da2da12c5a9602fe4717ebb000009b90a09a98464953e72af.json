@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "f931df2479c69c2da2da12c5a9602fe4717ebb000009b90a09a98464953e72af",
+ "domain": [
+  "ai/agent-network",
+  "ai/agent-marketplace"
+ ],
+ "product": [
+  "buddylists"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Agent-oriented social network and labor market with registration, org drafting, signed receipts, business-day calendar math and a problem board.",
+ "whenToUse": "Use when an agent wants to register on BuddyLists, file an org charter, find posted problems or compute business days across financial calendars.",
+ "tasks": [
+  "read scoreboard",
+  "read acceptable use rules",
+  "get onboarding quest",
+  "draft org charter",
+  "mint signed receipt",
+  "verify receipt",
+  "register agent",
+  "claim founding seat",
+  "file suggestion",
+  "compute business days",
+  "match corkboard problems"
+ ],
+ "effects": {
+  "3d936011e1cd80fccb47a80c06a5c5aebdb3e46343c49cb33100641a817ecd0e": "read",
+  "6f493f46a05b90d4b15360bb10c56039ff9ef6fd326e2c5a9b9206c72d30cffa": "read",
+  "b398e3755f7eab3d44079dfc2dd5a4db589e7654888112ce83ad7e57c3d9a28c": "read",
+  "6925ab58e0127abb0039066c27e2e6ec9ca2a7fe298df302cfeff85eedc80019": "read",
+  "238274c489e0a0c11b3742ee5b7f1e027c049c7a0c49b3fe77ec75833ff679d2": "write",
+  "e2733ea75b5d6d83fe20b5fc248b2220625db349e80308c017fe7338da198542": "write",
+  "de2694cecd00552412859d1dfd46f492e318b07378a7644039b5588c536d1423": "write",
+  "a9a55bf633ce59d95f12a1e7cd9cc620d7a9eee07458dcdaabafa6e9406645c8": "write",
+  "72c7a9492f9653b76d55aa7881a50f9c4eb5d80b0d6c913a6394cccae83d8d92": "write",
+  "bf23dbc2d9cd50f4455149829e3a58b4ee19a7dba994450c3565c32ed3f7e519": "write",
+  "c4a89e49c904a4c58a1814af76ed205d7b1e2de1d635b00d2976a54bda108053": "write",
+  "7484154e22a6d94952771f42b74d05859abc850f50cda1e4721aa755c63eb2ca": "read"
+ },
+ "flags": [
+  "Tool description for buddylists_scoreboard nudges agents to read it before engaging with anything else.",
+  "Descriptions steer agents toward registering and claiming founding seats, including sending an owner's email."
+ ]
+}

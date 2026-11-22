@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4d7af44de5315ac689af12a2ba10e2b114e9e14f61977f5fb06498a773a6fa4b",
+ "domain": [
+  "software/ai-agents/memory"
+ ],
+ "product": [
+  "onadit",
+  "macos",
+  "npm"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local npm connector that gives agents persistent memory stored on a Mac via the Onadit app.",
+ "whenToUse": "Use when an agent needs to store and recall memory locally on a Mac running Onadit.",
+ "tasks": [
+  "store agent memories",
+  "recall agent memories"
+ ],
+ "effects": {},
+ "flags": []
+}

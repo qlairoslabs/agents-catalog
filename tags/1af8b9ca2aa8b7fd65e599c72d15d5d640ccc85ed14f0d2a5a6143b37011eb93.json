@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1af8b9ca2aa8b7fd65e599c72d15d5d640ccc85ed14f0d2a5a6143b37011eb93",
+ "domain": [
+  "finance/market-data",
+  "finance/stocks"
+ ],
+ "product": [
+  "financial-datasets"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Structured real-time stock market data for over 27,000 active and delisted U.S. tickers.",
+ "whenToUse": "Use when an agent needs U.S. stock prices or company financial data.",
+ "tasks": [
+  "get stock market data",
+  "look up tickers",
+  "access delisted ticker data"
+ ],
+ "effects": {},
+ "flags": []
+}

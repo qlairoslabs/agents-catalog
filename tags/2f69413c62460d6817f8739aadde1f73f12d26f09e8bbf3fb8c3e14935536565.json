@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2f69413c62460d6817f8739aadde1f73f12d26f09e8bbf3fb8c3e14935536565",
+ "domain": [
+  "healthcare/pharmacy",
+  "healthcare/medication-availability"
+ ],
+ "product": [
+  "idkrx"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Lets users report medication stock at pharmacies and post a pharmacy's verified status.",
+ "whenToUse": "Use when a user wants to report or share pharmacy medication stock or pharmacy verification status.",
+ "tasks": [
+  "report pharmacy stock",
+  "post verified pharmacy status"
+ ],
+ "effects": {},
+ "flags": []
+}

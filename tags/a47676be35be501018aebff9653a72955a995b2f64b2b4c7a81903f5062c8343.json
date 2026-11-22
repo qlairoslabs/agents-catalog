@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a47676be35be501018aebff9653a72955a995b2f64b2b4c7a81903f5062c8343",
+ "domain": [
+  "software/form-backend"
+ ],
+ "product": [
+  "formcarry"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Configures form handling for websites, including email alerts, auto replies and webhooks, and queries submissions.",
+ "whenToUse": "Use when setting up a website form backend with notifications or auto replies, or retrieving its submissions.",
+ "tasks": [
+  "set up form endpoints",
+  "configure email alerts",
+  "configure auto replies",
+  "configure webhooks",
+  "query submissions"
+ ],
+ "effects": {},
+ "flags": []
+}

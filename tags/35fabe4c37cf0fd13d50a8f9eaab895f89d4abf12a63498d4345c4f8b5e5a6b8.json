@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "35fabe4c37cf0fd13d50a8f9eaab895f89d4abf12a63498d4345c4f8b5e5a6b8",
+ "domain": [
+  "communication/phone-reception",
+  "scheduling/bookings"
+ ],
+ "product": [],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "AI receptionist that handles missed calls, shares open times, books jobs and arranges callbacks.",
+ "whenToUse": "Use when a business needs calls answered, appointments booked or callbacks arranged automatically.",
+ "tasks": [
+  "answer missed calls",
+  "share open times",
+  "book jobs",
+  "schedule callbacks"
+ ],
+ "effects": {},
+ "flags": []
+}

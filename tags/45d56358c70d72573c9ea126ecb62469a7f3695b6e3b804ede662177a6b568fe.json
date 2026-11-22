@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "45d56358c70d72573c9ea126ecb62469a7f3695b6e3b804ede662177a6b568fe",
+ "domain": [
+  "finance/crypto-payments",
+  "payments"
+ ],
+ "product": [
+  "payai",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Verifies and settles x402 stablecoin payments on-chain through the PayAI facilitator and browses the PayAI Bazaar catalog of payable resources.",
+ "whenToUse": "Use when building or operating x402 payment flows that need payment verification, settlement or discovery of payable services.",
+ "tasks": [
+  "list supported networks",
+  "verify payment payload",
+  "settle payment on-chain",
+  "browse bazaar resources",
+  "get catalog stats"
+ ],
+ "effects": {
+  "9dfc90f60024aca4a23775c7863157504e1263cd31742936212a1218dfb38538": "read",
+  "b211c961dad60b8a7438813ef1b0185d3a2d9710a4918ceb4e8b19f159389259": "read",
+  "6835b9e4d6973bbcbc4dd7425805eaef16eb55531648d38eb76f655d84a71c5d": "risky",
+  "5fe995787f9704d532721e9f2772806bdc1b42e755a51d8f56733da3c6b63209": "read",
+  "bef101a493c9cbef74b629475a6e982a3baae95f9cadffe34195322a976d99a7": "read"
+ },
+ "flags": []
+}

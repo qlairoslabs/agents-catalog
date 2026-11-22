@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e39998be89a80a2ec109936edbd16c9e9c6509ef2c8f887177f175d9d95f3381",
+ "domain": [
+  "finance/payments/integration"
+ ],
+ "product": [
+  "mercado-pago"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "build-software"
+ ],
+ "summary": "Mercado Pago integration toolkit with skills for setup, webhooks, testing and review, using the official Mercado Pago MCP server.",
+ "whenToUse": "Use when integrating Mercado Pago payments into an application.",
+ "tasks": [
+  "guided payment integration",
+  "configure webhooks",
+  "set up test accounts",
+  "review integration",
+  "fetch api references"
+ ],
+ "effects": {},
+ "flags": []
+}

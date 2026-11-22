@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3cf1630674664b42c8ffe0cc03a9e12df7f9005c1ed2279cb89f61694bb83442",
+ "domain": [
+  "media/image-generation",
+  "media/video-generation"
+ ],
+ "product": [
+  "ninjachat"
+ ],
+ "audience": [
+  "everyone",
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates images and videos from an MCP agent using a choice of 17 models with spend limits.",
+ "whenToUse": "Use when an agent needs to create an image or video and pick among several generation models.",
+ "tasks": [
+  "generate images",
+  "generate videos",
+  "choose generation model",
+  "set spend limits"
+ ],
+ "effects": {},
+ "flags": []
+}

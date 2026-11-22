@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "49e0086357de0815cab34cae56d7191dd2e122078d9a9760d6d3cf388f05f811",
+ "domain": [
+  "data/japan",
+  "business/data-normalization"
+ ],
+ "product": [
+  "shirabe",
+  "nta-corporate-number-registry",
+  "address-base-registry"
+ ],
+ "audience": [
+  "operations",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Japan data tools: calendar and rokuyo lookup, address normalization, name splitting and corporate number lookup and search.",
+ "whenToUse": "Use when cleaning Japanese customer records, validating companies by corporate number, or needing Japanese calendar facts.",
+ "tasks": [
+  "look up Japanese calendar",
+  "normalize addresses",
+  "split personal names",
+  "look up corporation by number",
+  "search corporations by name"
+ ],
+ "effects": {
+  "bc1dfc0eb518fa56268af666293f0f6286d723a9ad260d4b272586785cfdaccd": "read",
+  "fa726a8a26a24306e586c0922091b5ec4de3927cd8acba6955ed4a1693f49967": "read",
+  "9ebcf1bdcde6349c733ff5bd1610d0ef14048f098ab60804d1b8dfdee4556e9f": "read",
+  "7e9d985296706f3b44e382e53352f57d308f5fca36eac70a667fb4f3dc945d29": "read",
+  "30b09d20affdd7ea5afaf75656c158409082804cadace8ac040417d28a825ce7": "read"
+ },
+ "flags": []
+}

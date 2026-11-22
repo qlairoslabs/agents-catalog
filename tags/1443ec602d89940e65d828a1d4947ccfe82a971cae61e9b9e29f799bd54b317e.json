@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "1443ec602d89940e65d828a1d4947ccfe82a971cae61e9b9e29f799bd54b317e",
+ "domain": [
+  "vehicles/number-plates",
+  "retail"
+ ],
+ "product": [
+  "national-numbers",
+  "dvla"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Suggests, looks up, formats and values UK private number plates, checks availability and explains DVLA transfer steps.",
+ "whenToUse": "Use when a user wants to find, check, format or value a UK number plate or understand transferring one.",
+ "tasks": [
+  "suggest plates",
+  "look up registration",
+  "check availability",
+  "format plate",
+  "bulk format plates",
+  "explain transfer requirements",
+  "estimate plate value"
+ ],
+ "effects": {
+  "d8c7f789f9a520ca7eab2c1e8042a7755e2727e82d89af2af15b2db1d77dc980": "read",
+  "0b5031f53680724d44cbbd171727e05a8fe26565d46108adfe4006e9db1c046c": "read",
+  "9f3bf605ebdf113853ccb3f9ac7bebb523b8afd1d50aa7eda8fd67d7186b88d8": "read",
+  "5b837827c51edfe921103aaf45ce8201df17641ff2ed5c1dbb6183deb046a2bc": "read",
+  "20cd801242c947bafc7dba4175f5e8bb3d5383fd41299d46afe19c73580bc186": "read",
+  "7a7ab0a9295a0312ffe03b692f1694691b642665795bde38067f3554598ea060": "read",
+  "fea8c39b72f6d238cbaeaccb13e037b5bd2e45a594876afc1d9c17b27e6f6b9b": "read"
+ },
+ "flags": []
+}

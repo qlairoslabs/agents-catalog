@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "b7d2ed7b54ebfc8b13d55286f58561789983d743cc7684426da72f1c0a75a62a",
+ "domain": [
+  "healthcare/dental",
+  "local-business"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Public information about Virohana Dental Clinic in Bengaluru: treatments, hours, location, contact, dentist and oral-health articles.",
+ "whenToUse": "Use when someone asks about this dental clinic, its treatments, opening hours or how to book a consultation.",
+ "tasks": [
+  "clinic overview",
+  "list treatments",
+  "treatment details",
+  "location and hours",
+  "contact and booking",
+  "about the dentist",
+  "oral health articles",
+  "FAQs"
+ ],
+ "effects": {
+  "645c80abf293d2fddcafb8ca998cfae488f2ba0bc8fe934b0310fe0dfd48bce2": "read",
+  "29f8a91d5cfe8795f7dee340ff25ed0f60f5a41a15d2dfb7e897fabe5582ff2e": "read",
+  "44221202679920f71f13aaff8af0e3cc5b624773b43fc138e9d94d3caca990cf": "read",
+  "e61a871df2f2417afd3e187daa77f49beff23382c241eb21d3627d70e76a728b": "read",
+  "438e492759fc78865180d5f0e0da45af39a262835c9f4e983892ee5691313837": "read",
+  "116c4f5348e05ae260c7b4a0e4707ebb164e0332f996af4e11438651ce791e9f": "read",
+  "fbb6236d1e63104787869337354091b1574925fca1ba1d764143c72b2d331bd8": "read",
+  "c131d43005af82ba0882894384a4a752c9c2df25e89c1bee89503c74b1771ff3": "read"
+ },
+ "flags": []
+}

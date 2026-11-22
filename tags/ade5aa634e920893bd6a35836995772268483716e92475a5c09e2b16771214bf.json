@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ade5aa634e920893bd6a35836995772268483716e92475a5c09e2b16771214bf",
+ "domain": [
+  "software/api/graphql",
+  "software/api-design"
+ ],
+ "product": [
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Best-practice guidance for designing GraphQL schemas, types, nullability, pagination, errors and security.",
+ "whenToUse": "Use when designing a new GraphQL schema or reviewing an existing one.",
+ "tasks": [
+  "design schema",
+  "review schema",
+  "choose types and nullability",
+  "implement pagination",
+  "design error patterns",
+  "secure schema design"
+ ],
+ "effects": {},
+ "flags": []
+}

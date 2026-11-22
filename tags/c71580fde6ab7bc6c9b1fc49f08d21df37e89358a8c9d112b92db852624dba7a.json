@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "c71580fde6ab7bc6c9b1fc49f08d21df37e89358a8c9d112b92db852624dba7a",
+ "domain": [
+  "finance/crypto",
+  "software/cybersecurity"
+ ],
+ "product": [],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Checks the intent of crypto token transactions without simulating or signing them; free trial until 2026-09-25.",
+ "whenToUse": "Use when reviewing what a token transaction is meant to do before approving it.",
+ "tasks": [
+  "check token transaction intent"
+ ],
+ "effects": {},
+ "flags": []
+}

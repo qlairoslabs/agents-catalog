@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "308ee8641c98024853eaa8d4844bda6329ce9a9143231733eea990b339737cf5",
+ "domain": [
+  "commerce/product-catalog",
+  "ai/agent-readiness"
+ ],
+ "product": [
+  "pollen"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Manages a Pollen account to sync, enrich, fix and publish a store's product catalog for AI agents.",
+ "whenToUse": "Use when an agent needs to sync, improve or publish a store catalog through Pollen so AI agents can read it.",
+ "tasks": [
+  "sync store catalog",
+  "enrich product data",
+  "fix catalog issues",
+  "publish catalog"
+ ],
+ "effects": {},
+ "flags": []
+}

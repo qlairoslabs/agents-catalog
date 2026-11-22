@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9d15b201b1141a20edd7c524facf5fd185b231c64cc70a5596a5134edf758937",
+ "domain": [
+  "data/web-scraping"
+ ],
+ "product": [
+  "oxylabs"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Fetches and processes web content from URLs and sources through the Oxylabs Web Scraper API.",
+ "whenToUse": "Use when an agent needs to scrape or extract content from web pages.",
+ "tasks": [
+  "scrape urls",
+  "process page content"
+ ],
+ "effects": {},
+ "flags": []
+}

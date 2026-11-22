@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "379321eae31039dcdcaec4844140af700e948a02b0fd40c412bfd6777ed4ddcd",
+ "domain": [
+  "language/translation"
+ ],
+ "product": [
+  "langbly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Translates plain text or HTML, detects the language of text and lists supported languages via Langbly.",
+ "whenToUse": "Use when text or HTML content needs translating or its language identified.",
+ "tasks": [
+  "translate text",
+  "translate html",
+  "detect language",
+  "list supported languages"
+ ],
+ "effects": {},
+ "flags": []
+}

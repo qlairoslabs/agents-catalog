@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "e8ce9dc3fe334f4a6f994a2be3ce4f0a62d8e27714d6bfa94a5651f8e1e793be",
+ "domain": [
+  "ai/agents/architecture",
+  "software/cloud"
+ ],
+ "product": [
+  "aws",
+  "amazon-bedrock-agentcore",
+  "amazon-ecs",
+  "amazon-eks",
+  "aws-lambda",
+  "temporal"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps pick an AWS runtime for AI agents, plan migration of existing agents, and build a proof of concept.",
+ "whenToUse": "Use when deploying, designing or migrating an AI agent on AWS, including AgentCore or Temporal setups.",
+ "tasks": [
+  "compare agent runtimes",
+  "plan agent migration",
+  "design agent architecture",
+  "add agentcore services",
+  "run temporal workers on aws",
+  "build proof of concept"
+ ],
+ "effects": {},
+ "flags": []
+}

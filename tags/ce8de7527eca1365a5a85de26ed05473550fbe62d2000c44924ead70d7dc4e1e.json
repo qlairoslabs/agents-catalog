@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "ce8de7527eca1365a5a85de26ed05473550fbe62d2000c44924ead70d7dc4e1e",
+ "domain": [
+  "sales/gtm-tools-directory",
+  "marketing/software-discovery"
+ ],
+ "product": [
+  "clay"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Directory of go-to-market software with search, tool listings, side-by-side comparisons, dated pricing comparison and recommended stacks per job.",
+ "whenToUse": "Use when choosing or comparing sales and GTM tools such as enrichment, email finding or outreach software.",
+ "tasks": [
+  "search GTM tools",
+  "get tool listing",
+  "list categories",
+  "compare two tools",
+  "compare pricing",
+  "recommend a stack for a job"
+ ],
+ "effects": {
+  "fff889c3f6f5570cee2fcac91dfadb6cb0519b5840c3fa5d8f182096ea9a1afe": "read",
+  "d7c5a396f508ea216eee1de365a145fdafd78b9c118159e00f9ceffe780a5315": "read",
+  "61dc90c900a060a4b12b744605ef1b0e434e14a542aaefe0c078af63aaf00a90": "read",
+  "a4da27612083789a30d90e91720ae354b59e6fb958ff114491ee455c1cdcfb3e": "read",
+  "2faab587ded608200a1e07129fb2a14d3b8f47a67f5252880980f337e2d3c3e8": "read",
+  "e5c0e371c2b2e90d119efa7b60d65cf65942ced16b64b01fc268f8e702c43e96": "write"
+ },
+ "flags": []
+}

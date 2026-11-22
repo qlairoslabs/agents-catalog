@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "5df629e93f9d7fe0c1ad8e13e957948fb96a81c6e04cbd9c7e43926c59425017",
+ "domain": [
+  "media/art-research",
+  "business/company-intelligence"
+ ],
+ "product": [
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "design",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening",
+  "get-paid"
+ ],
+ "summary": "Searches art and illustration research articles and prepares paid x402 quotes for art commissions and company intelligence reports without spending funds.",
+ "whenToUse": "Use when you need sourced art or illustration research, a commission price estimate, or a prepared company or vendor risk report request.",
+ "tasks": [
+  "search art articles",
+  "get article metadata",
+  "list latest articles",
+  "browse articles by category",
+  "get x402 payment instructions",
+  "prepare commission quote",
+  "prepare company intelligence request"
+ ],
+ "effects": {
+  "701e44d5f338e616435d30c2fd80667142ad8a5455d7b902855072656dcaa1a2": "read",
+  "c0318db30538c5026a3569cdbe4b9c5cfb580a6a6a0b1797d8642738504311b0": "read",
+  "beb8e203af41a4d0687d485ab45889ae0ff3f6b7bf9a6a90b3a804bf188b422e": "read",
+  "848a946e93d8ad41f7b30b04eb353baba615f4419fa9683ac7dbdee9cc2c9974": "read",
+  "7cfb86f6a7a0d9e4290de762c04e4fa7aeb632ecbb9827a2c91ae18dc98e1177": "read",
+  "49f60573b1df634684e221256a6e2186de45e99a7e8b262e8764d018cd414a13": "read",
+  "7217f0e24473847d91dd9d2cc3aa675ad34e94d29b7417d8026ffe9c999fb53e": "read"
+ },
+ "flags": []
+}

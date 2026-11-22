@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "36eb4d5c77eae19d8f2cc9e8e7055dc4ae5b5e9f41cfc3cf9fd1fdc60947c7a3",
+ "domain": [
+  "travel/visas",
+  "travel/documents"
+ ],
+ "product": [
+  "ivisa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Checks visa requirements and required travel documents for international destinations.",
+ "whenToUse": "Use when an agent needs to know what visa or travel documents a traveller needs for a destination.",
+ "tasks": [
+  "check visa requirements",
+  "check required travel documents"
+ ],
+ "effects": {},
+ "flags": []
+}

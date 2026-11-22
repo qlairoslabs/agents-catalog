@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0d63865fc4dd0643267c58a1a9553702de5ec9070eff33704df380722f4ca367",
+ "domain": [
+  "finance/crypto/market-data"
+ ],
+ "product": [
+  "cryptodataapi"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Supplies live crypto market data such as prices, funding, open interest, liquidations, sentiment and macro.",
+ "whenToUse": "Use when the user needs current crypto market metrics or derivatives data for analysis.",
+ "tasks": [
+  "get crypto prices",
+  "get funding rates",
+  "get open interest",
+  "get liquidations",
+  "get gamma exposure",
+  "track whales",
+  "get sentiment",
+  "get macro data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "dffa33fec23ba1c578b485a16773b180f11e87efcd341f591a54c472fb369ceb",
+ "domain": [
+  "finance/crypto/blockchain-analytics",
+  "finance/stablecoins"
+ ],
+ "product": [
+  "arc",
+  "usdc",
+  "eurc",
+  "defillama"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only hourly data on stablecoin apps on the Arc blockchain: payments, volumes, activity indices, ecosystem directory and address labels.",
+ "whenToUse": "Use when an agent needs stats on apps, USDC flows, TVL, new projects or address ownership on the Arc chain.",
+ "tasks": [
+  "get arc activity indices",
+  "view index history",
+  "list apps by stablecoin payments",
+  "get app details and history",
+  "find newly seen apps",
+  "list verified builders",
+  "browse ecosystem directory",
+  "get project details",
+  "get chain-level numbers",
+  "rank apps by weekly payments",
+  "get daily usdc received per app",
+  "label an arc address"
+ ],
+ "effects": {
+  "013462ffbb166aab50e2f3de47c4a89e18f5a41f8eaa53a81d628a74f6d0b7e8": "read",
+  "d80195c05dbe3a35dd128d37b8c7a8abf875a226b42b2fb42302db5415310943": "read",
+  "03aac47cc8329bb9df71ddfb7dba2513c332fe2de5806798b8c2e5e6a1c927fc": "read",
+  "e5cb3b5a92b48f2b4d4d7c14829a201f8fad3cb93b63a0aa1d1e4a0c11d47c27": "read",
+  "159f61e1e2f91227d4e80a6e52eeb36c7af36db1de4530391163a1e767c2580b": "read",
+  "b307568117f2607f9c83917f1367fea963516250bc288f95cbaecf821b220f7e": "read",
+  "0bbaf648f98816b7fc6e4ae941525a51fcb7067ead7938beee1b76dfd87feb51": "read",
+  "34d764c0b480a57fa5e630f3b34dc650112db6f9676fc63677465da434a16fde": "read",
+  "63a08c91350bb781e0f01879ba21b46af532b06bb0aa530ecbc0bbfc34d4bdc6": "read",
+  "5069e420849166fe2e2fa4b9023a1f3aca3ef11c8e2e484d85f33518d4b5dc60": "read",
+  "6e582efb98d1adf6df67660ee8d1b22672795c361f96ffca13859b7b621f3f08": "read",
+  "7fe1efb75d308abbdc22d70a8eaa8494294f3f1580cafcb9b95779453ad1b28d": "read",
+  "1484c325b0bcb9bb5c5b12085ad654429cc0a67640663d8b953f1950dcddd67d": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "97943a1adb691f3352c0c3d208c0b654db178fee23048f796af6c9ee1c7342ac",
+ "domain": [
+  "documents/secure-sharing",
+  "documents/question-answering"
+ ],
+ "product": [
+  "moatdrop"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "support-customers",
+  "work-as-a-team"
+ ],
+ "summary": "Lets an AI answer questions about client documents shared through MoatDrop secure links.",
+ "whenToUse": "Use when a user needs to query or summarize client documents received via MoatDrop.",
+ "tasks": [
+  "access shared client documents",
+  "answer questions about documents"
+ ],
+ "effects": {},
+ "flags": []
+}

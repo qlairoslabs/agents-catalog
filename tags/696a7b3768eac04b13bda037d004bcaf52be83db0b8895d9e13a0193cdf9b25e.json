@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "696a7b3768eac04b13bda037d004bcaf52be83db0b8895d9e13a0193cdf9b25e",
+ "domain": [
+  "software/testing",
+  "software/ci"
+ ],
+ "product": [
+  "diffci"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs the tests and checks affected by a code change and produces a verification receipt for AI coding agents.",
+ "whenToUse": "Use when a coding agent needs to verify that its change passes the relevant tests before finishing.",
+ "tasks": [
+  "select affected tests",
+  "run tests",
+  "produce verification receipt"
+ ],
+ "effects": {},
+ "flags": []
+}

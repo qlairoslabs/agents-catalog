@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "923f330373905b4337c95c8320c7853b748b6a2e67815e829d48036445205719",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [
+  "mnemoverse"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Hosted agent memory service that learns from outcomes and supports shared rooms.",
+ "whenToUse": "Use when agents need persistent memory hosted remotely or shared with others.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "share memory rooms",
+  "learn from outcomes"
+ ],
+ "effects": {},
+ "flags": [
+  "sends data to hosted third-party service"
+ ]
+}

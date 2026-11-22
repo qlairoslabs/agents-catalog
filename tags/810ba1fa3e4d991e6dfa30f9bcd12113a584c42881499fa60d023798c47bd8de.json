@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "810ba1fa3e4d991e6dfa30f9bcd12113a584c42881499fa60d023798c47bd8de",
+ "domain": [
+  "travel/accommodation"
+ ],
+ "product": [
+  "guesthost"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Shows open dates and direct booking links for a single two-bedroom apartment in Milan.",
+ "whenToUse": "Use when a user wants to book a Milan apartment near Fiera or for EICMA directly.",
+ "tasks": [
+  "search open date windows",
+  "get booking link in Italian or English"
+ ],
+ "effects": {
+  "0b8c8c7a9a0bfdb89da6b68ea287388954de79d14034dbffc97afb019fba04f5": "read",
+  "57e4718041536eae31a73466302b372e6e991e6010205aa9a9dd50807604bda4": "read"
+ },
+ "flags": []
+}

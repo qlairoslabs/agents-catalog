@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9f5e06047287588a3b0475e4e016e9c4cfdc2b756db99ff0580d349e49822829",
+ "domain": [
+  "automotive/dealerships",
+  "sales"
+ ],
+ "product": [
+  "bestcarfinder"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Helps car dealers search their inventory, match buyer wanted-requests and draft private offers.",
+ "whenToUse": "Use when a car dealer wants to find vehicles in stock that fit buyer requests and prepare offers.",
+ "tasks": [
+  "search dealer inventory",
+  "match buyer car-wanted requests",
+  "draft private offers"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2bbc9dab36a24949946252986d46e9da9b35ea3f83e4d6ada910a86bda0c1eac",
+ "domain": [
+  "finance/banking/iban-validation",
+  "data/validation"
+ ],
+ "product": [
+  "iban-test"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Validates IBANs for 111 countries and checks bank directories for several EU countries.",
+ "whenToUse": "Use when an agent must confirm an IBAN is valid before recording or paying to it.",
+ "tasks": [
+  "validate iban",
+  "check bank directory",
+  "identify bank from iban"
+ ],
+ "effects": {},
+ "flags": []
+}

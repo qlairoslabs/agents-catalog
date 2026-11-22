@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "594a0d2eb8285d6120fc3c9be43af1e965519ec0ee5bab941101eb64356ee0cc",
+ "domain": [
+  "sales/crm",
+  "productivity/databases"
+ ],
+ "product": [
+  "airtable",
+  "salesforce",
+  "hubspot",
+  "clay"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Sets up and runs Airtable-based sales operations and CRM workflows such as pipelines, accounts, deal desk, RFPs, partners and forecasting.",
+ "whenToUse": "Use when a user wants to track deals, manage accounts, build a sales pipeline, run a deal desk or manage RFPs in Airtable.",
+ "tasks": [
+  "build sales pipeline",
+  "manage accounts and renewals",
+  "run deal desk",
+  "manage rfp pipelines",
+  "manage partner crm",
+  "forecast sales",
+  "set up vertical crm",
+  "enrich leads",
+  "support ai-assisted outbound"
+ ],
+ "effects": {},
+ "flags": []
+}

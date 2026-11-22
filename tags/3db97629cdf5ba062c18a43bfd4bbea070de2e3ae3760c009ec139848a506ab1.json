@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "3db97629cdf5ba062c18a43bfd4bbea070de2e3ae3760c009ec139848a506ab1",
+ "domain": [
+  "ai/safety-evaluation",
+  "ai/standards"
+ ],
+ "product": [
+  "aio",
+  "eu-ai-act"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "AI Integrity Organization resources: papers, value-judgment benchmarks, standards packs, Tier 0 model scoring against the EU AI Act, public RFCs and contribution tasks.",
+ "whenToUse": "Use when reading AIO research, running the benchmark or Tier 0 evaluation of a model, verifying a score report, or commenting on an RFC.",
+ "tasks": [
+  "list and read papers",
+  "benchmark distributions",
+  "fetch benchmark items",
+  "submit benchmark run",
+  "framework vocabulary",
+  "standards packs",
+  "register model for Tier 0",
+  "run and submit evaluation",
+  "verify score report",
+  "RFC comments",
+  "contribution tasks"
+ ],
+ "effects": {
+  "1da7a9c643114ad67ebb6fe2656d0886eb18d74f3c3a20a003bae8ecbcbd39d5": "read",
+  "fc5f0eef78b439eb78ddfe16d0956c29dac4f449ef7d2ea62e91af82dc859ab5": "read",
+  "6bd00128bc4af6adf7a1252afb91a17cb929ae72912e3703fafcbb185ecccfd9": "read",
+  "37f2f54418a614e30af87dd26ca9076ee2ef4973e4c56fb5d3597d50c2754e34": "read",
+  "bc22a7241e245fba7e2ac4274430109325271e3ba132f8e338c84f52fa2710ef": "write",
+  "cae274f5f1f4c50454ed0810a6425ab4ea00bfdeb5777c2561bf22c532ed1e27": "read",
+  "296102a9d54d15f0d3a4bd0b1f8035ce0ca0b909ce0115adb6c6f62f9b726dc6": "read",
+  "33297d490ff06d173d77c4a81a32f0cca25a4f3d575a8daa1cffa7d3b159f62f": "read",
+  "b19f063b46b1ff1fdf49dfd8a5160a80e8f68e4ea5b74849fa8c300cd3f3b859": "write",
+  "6073c7a54af78a127dff6ba3d88f7fdfb51dfcddffc8eddac7eabef599e0fd0a": "write",
+  "da28ad57a8f448b6ee00696e77d747ac9a48727650c7e4d91dcbd3167012e97b": "write",
+  "cc85b85274e32446ec150b9a2ffda516e3c2bb08376148386f5f62f9150d1ef2": "write",
+  "65d1bbba01293bf39439d361cd8bbd51f30c0c20cebbf683ef0cf931f629bb33": "write",
+  "e9da79da17570c0ae7723aa9d2078d54dd3bf187b54b8eee309ec3e7191c4701": "read",
+  "f790b0ffa5ac224b502b288c1e541b73e1c9b4ade49ab69dbcc2498478edc0fb": "read",
+  "0714cb50dc499981c5ae6e657df769811f2971ef6772f4a20ee22e36cd774c9c": "write",
+  "f6800cc6a56efdc3ac5cc66f722537250f067d1f9af226bd27419135d984e67e": "write",
+  "7768f0385d68a03f3c3c8b4fb01317e409d8c368aad110dc51a183927e943c76": "write",
+  "dfef275385cd56d3f0e8e09bcf8c2b84b694ba39d0848eb2950d72e32c57b00e": "read",
+  "c794c31f95d7ca3f00799e0a195b006ccf1326cab923959cc89a7c2f4ca62700": "write",
+  "dc79207df722835d355b6047b89e3e7f6d5c4adc797ebac91cd3a931cc241132": "write",
+  "1f2efe120e4a616cd5fbcac48ab406220fdb0580ac6acbcbe983e75262a157b4": "read"
+ },
+ "flags": []
+}

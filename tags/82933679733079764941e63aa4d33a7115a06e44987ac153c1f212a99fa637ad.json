@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "82933679733079764941e63aa4d33a7115a06e44987ac153c1f212a99fa637ad",
+ "domain": [
+  "travel/chauffeur",
+  "transport"
+ ],
+ "product": [
+  "tripyana"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Gives fixed London chauffeur prices for airport and cruise transfers, hourly hire and day trips, and builds a prefilled booking link.",
+ "whenToUse": "Use when a user needs a price or booking link for a chauffeur transfer or tour in London.",
+ "tasks": [
+  "quote airport transfer",
+  "quote hourly hire",
+  "list day trips",
+  "search services",
+  "build booking link",
+  "price meet and greet",
+  "get company info"
+ ],
+ "effects": {
+  "36e5a239b58411f6ac59f78e6afe362e2f401a9830a81b5af76ebfc8e344205c": "read",
+  "e5738d207e25d41c4685e89afd87c7c9a6fa3c7943efa6fc43b219e42691aa85": "read",
+  "2af9b566fb586aad9987213c185dc08fb3b4aa0fc749b34934eb7397a2b69630": "read",
+  "723a32e16abf6f3598721f8ff915303c604a81851b029256b7171715611da5e2": "read",
+  "23b825e03fcc5068d6e49a5a92e7db57c27cd26be75f3d1fbcdc57f03e2e1b8f": "read",
+  "776659abafd584b64387680d6f415f8473e50524b307f42247940c6d381c75fb": "read",
+  "6a8cf21033d0982ae267e1773e04d9b301d703185f14719754ab15029938266b": "read"
+ },
+ "flags": []
+}

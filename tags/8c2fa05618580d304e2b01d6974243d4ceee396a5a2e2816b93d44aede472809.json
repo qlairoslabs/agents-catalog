@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8c2fa05618580d304e2b01d6974243d4ceee396a5a2e2816b93d44aede472809",
+ "domain": [
+  "travel/airports"
+ ],
+ "product": [
+  "flightqueue",
+  "faa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Airport security wait times and forecasts, FAA delays, EES border queues and baggage statistics.",
+ "whenToUse": "Use when planning airport arrival time or checking delays and queues.",
+ "tasks": [
+  "get security wait times",
+  "forecast wait times",
+  "check faa delays",
+  "check border queues",
+  "read baggage stats"
+ ],
+ "effects": {},
+ "flags": []
+}

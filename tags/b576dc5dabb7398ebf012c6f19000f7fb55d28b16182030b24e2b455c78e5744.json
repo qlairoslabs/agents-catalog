@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b576dc5dabb7398ebf012c6f19000f7fb55d28b16182030b24e2b455c78e5744",
+ "domain": [
+  "media/music/audio-mixing"
+ ],
+ "product": [
+  "bandmixr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "AI mixing and mastering service that analyzes songs, mixes stems and adjusts mixes from plain-language requests.",
+ "whenToUse": "Use when a musician wants to check, mix or master a track or change a mix by describing it.",
+ "tasks": [
+  "analyze song",
+  "mix stems",
+  "master track",
+  "adjust mix from text"
+ ],
+ "effects": {},
+ "flags": []
+}

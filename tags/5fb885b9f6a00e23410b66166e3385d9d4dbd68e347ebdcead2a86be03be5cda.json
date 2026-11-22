@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5fb885b9f6a00e23410b66166e3385d9d4dbd68e347ebdcead2a86be03be5cda",
+ "domain": [
+  "software/frontend-frameworks"
+ ],
+ "product": [
+  "sapui5",
+  "openui5",
+  "sap"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server supporting development of SAPUI5 and OpenUI5 applications.",
+ "whenToUse": "Use when an agent is building or maintaining a SAPUI5 or OpenUI5 web application.",
+ "tasks": [
+  "assist ui5 app development",
+  "look up ui5 apis"
+ ],
+ "effects": {},
+ "flags": []
+}

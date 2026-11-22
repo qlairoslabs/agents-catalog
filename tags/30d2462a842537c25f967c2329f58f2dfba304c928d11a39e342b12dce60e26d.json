@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "30d2462a842537c25f967c2329f58f2dfba304c928d11a39e342b12dce60e26d",
+ "domain": [
+  "documents/pdf",
+  "knowledge/retrieval"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and answers questions over local PDFs with page-level citations so answers can be verified.",
+ "whenToUse": "Use when an agent needs to find information in PDF documents and cite the pages it came from.",
+ "tasks": [
+  "read pdf pages",
+  "search pdf content",
+  "answer questions with citations",
+  "extract text"
+ ],
+ "effects": {},
+ "flags": []
+}

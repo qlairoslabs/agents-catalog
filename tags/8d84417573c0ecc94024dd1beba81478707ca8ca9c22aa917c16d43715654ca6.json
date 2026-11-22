@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8d84417573c0ecc94024dd1beba81478707ca8ca9c22aa917c16d43715654ca6",
+ "domain": [
+  "science/biology/protein-structure",
+  "science/drug-discovery"
+ ],
+ "product": [
+  "boltz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Bundle for predicting biomolecular structures, screening molecules and proteins, and designing binders with Boltz.",
+ "whenToUse": "Use when a task involves protein or molecule structure prediction, screening or binder design.",
+ "tasks": [
+  "predict structures",
+  "screen molecules",
+  "screen proteins",
+  "design binders"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d498bbf227cc2b79bfc63d0816059f28d5314888f3112fcc5d5186b224083504",
+ "domain": [
+  "communication/voice-agents",
+  "telephony"
+ ],
+ "product": [
+  "rymi"
+ ],
+ "audience": [
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "support-customers",
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Builds, manages and places calls with AI voice agents on real phone lines.",
+ "whenToUse": "Use when an agent needs to set up or trigger AI voice agents that make or take phone calls.",
+ "tasks": [
+  "create voice agents",
+  "place phone calls",
+  "manage voice agents"
+ ],
+ "effects": {},
+ "flags": []
+}

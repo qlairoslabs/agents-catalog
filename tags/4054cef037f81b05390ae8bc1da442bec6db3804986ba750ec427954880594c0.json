@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "4054cef037f81b05390ae8bc1da442bec6db3804986ba750ec427954880594c0",
+ "domain": [
+  "energy/electricity-markets",
+  "finance/trading"
+ ],
+ "product": [
+  "powerstation",
+  "miso",
+  "spp",
+  "oasis"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Provides electricity transmission market data and transmission service request actions for MISO and SPP OASIS.",
+ "whenToUse": "Use when an agent needs power transmission market data or to submit or manage transmission service requests on MISO or SPP.",
+ "tasks": [
+  "read transmission market data",
+  "submit transmission service requests",
+  "manage tsr actions"
+ ],
+ "effects": {},
+ "flags": []
+}

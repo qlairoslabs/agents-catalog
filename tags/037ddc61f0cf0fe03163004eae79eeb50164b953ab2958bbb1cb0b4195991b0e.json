@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "037ddc61f0cf0fe03163004eae79eeb50164b953ab2958bbb1cb0b4195991b0e",
+ "domain": [
+  "data/web-scraping"
+ ],
+ "product": [
+  "markfetch"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted service that converts web pages into clean Markdown, with optional JavaScript rendering on a paid tier.",
+ "whenToUse": "Use when an agent needs the readable content of a web page as Markdown.",
+ "tasks": [
+  "fetch web page as markdown",
+  "render javascript pages"
+ ],
+ "effects": {},
+ "flags": []
+}

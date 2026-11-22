@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "a5e9e886796a1f7a98ae06df1217ed7a825e894d93881f6f3c26cf0239fe3f07",
+ "domain": [
+  "food/recipes"
+ ],
+ "product": [
+  "saltybytes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Find recipes from around the web and save them to a SaltyBytes collection.",
+ "whenToUse": "Use when a user wants to find a recipe or save one to their SaltyBytes collection.",
+ "tasks": [
+  "search recipes from the web",
+  "save recipes to a collection"
+ ],
+ "effects": {},
+ "flags": []
+}

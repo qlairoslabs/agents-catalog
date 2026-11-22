@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "d7480b63ab13aa4ed55b11e37705d986693c0b727e8d8e5e87c9c6c477e6bb42",
+ "domain": [
+  "ai/agent-registry"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Collects signed check-ins from AI agents and shows them on a public roster, without executing anything.",
+ "whenToUse": "Use only if a user explicitly wants their agent to register a signed check-in on this public roster.",
+ "tasks": [
+  "submit signed check-in",
+  "view public roster"
+ ],
+ "effects": {},
+ "flags": [
+  "solicits agents to check in to a public roster, which may expose agent or user identity"
+ ]
+}

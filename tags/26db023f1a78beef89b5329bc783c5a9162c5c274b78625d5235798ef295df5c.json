@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "26db023f1a78beef89b5329bc783c5a9162c5c274b78625d5235798ef295df5c",
+ "domain": [
+  "software/cloud-infrastructure",
+  "software/actors"
+ ],
+ "product": [
+  "rivet"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Manages Rivet Cloud namespaces and actors, runs Code Mode, and opens the Rivet Actor Inspector.",
+ "whenToUse": "Use when deploying, managing or debugging actors on Rivet Cloud.",
+ "tasks": [
+  "manage namespaces",
+  "manage actors",
+  "run code mode",
+  "open actor inspector"
+ ],
+ "effects": {},
+ "flags": []
+}

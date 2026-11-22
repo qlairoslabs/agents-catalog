@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5be5d20bbc5a6113b91fbef31b8e338396adb2f1aeb20809327c29a466d6a88f",
+ "domain": [
+  "ai/agent-tools",
+  "knowledge/knowledge-graph"
+ ],
+ "product": [
+  "wauldo"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Stateless agent tools for concept extraction, long-context handling, knowledge graphs and planning.",
+ "whenToUse": "Use when an agent needs help extracting concepts, handling long documents, building knowledge graphs or planning steps.",
+ "tasks": [
+  "extract concepts",
+  "process long context",
+  "build knowledge graph",
+  "plan tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "ba35fb2c8998f862c8edc680520f43a15cebc7c7c3dfb9eb9287a0b27765d8da",
+ "domain": [
+  "software/python",
+  "software/documentation"
+ ],
+ "product": [
+  "python",
+  "hmr",
+  "pypi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Documentation, source code and unit tests for the Python hmr library for hot module reloading and reactive programming.",
+ "whenToUse": "Use when a user mentions HMR or reactive programming in Python and you need to learn or write code with the hmr library.",
+ "tasks": [
+  "explain hmr basics",
+  "read hmr core source",
+  "read hmr unit tests",
+  "learn reactive programming patterns"
+ ],
+ "effects": {
+  "fbcc685e13da6754588bff37f9bc3b82cb87c0f60ada7e4b8e412210c5f9cc22": "read",
+  "47c1494cd512db5cd71c6946759a847e065682b18e860fa2013ea25a8b6d902b": "write",
+  "54775f007e29191e8e164fb75892edc79c977dbde9b12f14cda5847ea9c38ae5": "read"
+ },
+ "flags": [
+  "tool descriptions insist the tool must always be called first and that other resources not be viewed"
+ ]
+}

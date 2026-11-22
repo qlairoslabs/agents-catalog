@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "56002f2b91653a98b9598040bfba36ff08adc04e2df297788fcee36d202ed7e4",
+ "domain": [
+  "media/journalism-archive"
+ ],
+ "product": [
+  "camfeed",
+  "abc",
+  "substack",
+  "mastodon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only archive of Australian journalist Cameron Wilson's articles, appearances, transcripts and biography with citable results.",
+ "whenToUse": "Use when someone asks about Cameron Wilson, his reporting or what he has published on a topic.",
+ "tasks": [
+  "search the archive",
+  "fetch full citable items",
+  "list latest work",
+  "list featured work",
+  "filter by source, kind and date",
+  "get transcripts and full text",
+  "find work by topic",
+  "build a reading list"
+ ],
+ "effects": {
+  "1110859f2a0f5c3859ff9b876035d56c775c844f97820f6757acaef186e93e9a": "read",
+  "6db0f03bb6944a297c7bf4e1d9aba1825b970dd022927495a53cc8e853b4f008": "read",
+  "913e978036959c4e657adf114651b989dfab83930352e7a6b134b2305033c1b5": "read",
+  "464fc31d40e63df28daab061d01627eb2d2789a1578ead642cc0d70978891aca": "read",
+  "eb794c1a0f5234bf98819728abb2fd45b904199f2f3da7a08b530ddc776be71a": "read",
+  "a161fbb7ca34a2cc686eacf4b385f35704d96742e3fa67ce477d2d4692272c4b": "read",
+  "3fcd26438f722eafd10f093f4f02f8dc67b904c37d920cbfff94f828a8587983": "read",
+  "7029f226611f777c1fcac85d3759fb922d4a16bb6061a52740d787fe34bd6ed4": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f019f36c16834fce791710604f3fdf3c6d5134fcccfe35730e3d7df86c74c5b0",
+ "domain": [
+  "communication/telephony"
+ ],
+ "product": [
+  "voixcall"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Accesses a VoixCall international calling account for rates, balance, call history, summaries and contacts.",
+ "whenToUse": "Use when a user asks about their VoixCall rates, balance, past calls or contacts.",
+ "tasks": [
+  "check call rates",
+  "check balance",
+  "view call history",
+  "read call summaries",
+  "manage contacts"
+ ],
+ "effects": {},
+ "flags": []
+}

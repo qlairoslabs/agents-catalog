@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "5e1b37a01237bc7c363d01857a5d80e8a0e9a435a7614dde0acc5decf85141ac",
+ "domain": [
+  "travel/places",
+  "local/venues"
+ ],
+ "product": [
+  "evendo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds, filters and ranks venues and places worldwide using Evendo's place score, with area browsing and venue details.",
+ "whenToUse": "Use when recommending restaurants, bars or attractions in a city or neighbourhood.",
+ "tasks": [
+  "resolve place names",
+  "find top venues",
+  "keyword search venues",
+  "list subareas",
+  "get venue details",
+  "get multiple venues"
+ ],
+ "effects": {
+  "e67f50665068a04a8cd5ddd9c7bed8d8ee21cc3995b978b2b4a5658254803614": "read",
+  "c1f0ecf2808768b864bdb76d5f563feb996e3cd66fab73035cbc24759a9a0ae9": "write",
+  "3cc03915af14f2af4b682bb21a09eb017e54b7a2926cfb857b353a7966ffd399": "write",
+  "0cee46bb45fba266662576cc19f4f7110d2b28fa56c3492f9e4cce86366a5cc0": "read",
+  "01be34780a0029ecb35814ea41d44a6740f222b908593c20117175549fd92bd6": "read",
+  "356b93c6a3e6d0a619ae7c9e449b29bf064163f055fd58811820350ca9649bdb": "read"
+ },
+ "flags": []
+}

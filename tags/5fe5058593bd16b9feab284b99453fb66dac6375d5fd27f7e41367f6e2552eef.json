@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5fe5058593bd16b9feab284b99453fb66dac6375d5fd27f7e41367f6e2552eef",
+ "domain": [
+  "software/devops/code-review",
+  "software/release-management"
+ ],
+ "product": [
+  "aws-devops-agent",
+  "github",
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs a pre-merge release readiness review of a GitHub PR, GitLab MR or local branch for risk, correctness and rollback issues.",
+ "whenToUse": "Use before merging when the user wants to know if code changes are safe to ship.",
+ "tasks": [
+  "review pull requests",
+  "review merge requests",
+  "analyze local branch changes",
+  "assess release risk",
+  "identify rollback issues"
+ ],
+ "effects": {},
+ "flags": []
+}

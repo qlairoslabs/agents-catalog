@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "da5709433ed5f57e7133c53b48341038aaadcf8c035f2506cc21d67ba597bedf",
+ "domain": [
+  "software/documentation",
+  "messaging"
+ ],
+ "product": [
+  "nservicebus",
+  "particular-service-platform"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads documentation for NServiceBus and the Particular Service Platform.",
+ "whenToUse": "Use when answering questions about NServiceBus or Particular Platform features and configuration.",
+ "tasks": [
+  "search docs",
+  "read doc pages as markdown"
+ ],
+ "effects": {
+  "1b99f8ed978f8b7a4b5132e714084794795d1bc48973cde9c86c767d464c6364": "read",
+  "8ed9406107115a8c1b27a8ec1c01536c5ddc3d6509b8760ae0b16af92b64869f": "read"
+ },
+ "flags": []
+}

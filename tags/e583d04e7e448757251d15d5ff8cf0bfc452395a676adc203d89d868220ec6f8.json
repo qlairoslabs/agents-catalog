@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e583d04e7e448757251d15d5ff8cf0bfc452395a676adc203d89d868220ec6f8",
+ "domain": [
+  "finance/subscription-retention",
+  "finance/payment-recovery"
+ ],
+ "product": [
+  "churnkey"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "marketing"
+ ],
+ "goal": [
+  "get-paid",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads and manages Churnkey cancel flows, retention metrics and failed-payment recovery.",
+ "whenToUse": "Use when an agent needs to analyse subscription churn or adjust Churnkey cancellation and payment-recovery flows.",
+ "tasks": [
+  "view retention metrics",
+  "manage cancel flows",
+  "manage payment recovery"
+ ],
+ "effects": {},
+ "flags": []
+}

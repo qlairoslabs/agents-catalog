@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "9d289c34c0533606631ef5276aee442b2a82da30b675618b20e27e895b4ec547",
+ "domain": [
+  "finance/crypto/token-launch",
+  "finance/crypto/solana"
+ ],
+ "product": [
+  "pump.fun",
+  "solana"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "create-content"
+ ],
+ "summary": "Prepares pump.fun token launch drafts that the user approves and signs in their own wallet, and reports launch status and creator fees.",
+ "whenToUse": "Use when a user wants to plan and draft a pump.fun memecoin launch or check a token's progress or claimable creator fees.",
+ "tasks": [
+  "gather launch questions and cost estimates",
+  "create token launch draft with approval link",
+  "generate free token site",
+  "check launch status",
+  "view bonding-curve progress and market cap",
+  "check claimable creator fees"
+ ],
+ "effects": {
+  "dd765d7baa2eb74871a0db93a93f8fd470d062b67c790219f0973e91c190d528": "read",
+  "618ca87bbbbdaa797f5c3113e581dfd8df2133fb6edefb3ea9638183f257d989": "write",
+  "59e1d25e9ac0cf37a876f02c3a3acf45d4263db89bfb99ce0a82102851d7435f": "read",
+  "549c771bfc0fe8f6de5c25035c7b833569b98511b635441e04ac6e1f19ab8eaf": "read",
+  "c139ab1401950e825ef005b07e8f8fc5b682bd149ef314fd2f33229ae2a3486e": "read"
+ },
+ "flags": []
+}

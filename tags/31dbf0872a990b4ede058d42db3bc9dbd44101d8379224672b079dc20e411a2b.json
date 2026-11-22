@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "31dbf0872a990b4ede058d42db3bc9dbd44101d8379224672b079dc20e411a2b",
+ "domain": [
+  "cloud/azure/deployment",
+  "software/devops"
+ ],
+ "product": [
+  "azure-developer-cli",
+  "terraform",
+  "bicep",
+  "azure-cli"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Runs deployments for prepared Azure projects with azd, terraform apply or az deployment, with error recovery.",
+ "whenToUse": "Use when a project already has an Azure deployment plan and validated infrastructure and the user wants to ship it.",
+ "tasks": [
+  "run azd up",
+  "run azd deploy",
+  "run terraform apply",
+  "run bicep or az deployments",
+  "recover from deployment errors",
+  "push to production"
+ ],
+ "effects": {},
+ "flags": []
+}

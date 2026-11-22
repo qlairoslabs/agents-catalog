@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b17bb63011536b0e277a29e829b2e9721214953ba5b3222c1e1a513bb14f23ea",
+ "domain": [
+  "sales/lead-generation",
+  "sales/email-finding"
+ ],
+ "product": [
+  "evaboot",
+  "linkedin-sales-navigator"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Extracts leads from LinkedIn Sales Navigator and finds or validates their work email addresses.",
+ "whenToUse": "Use when building prospect lists from Sales Navigator or verifying professional emails.",
+ "tasks": [
+  "extract sales navigator leads",
+  "find professional emails",
+  "validate emails"
+ ],
+ "effects": {},
+ "flags": []
+}

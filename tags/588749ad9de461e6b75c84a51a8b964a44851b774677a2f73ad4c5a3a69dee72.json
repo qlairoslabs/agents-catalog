@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "588749ad9de461e6b75c84a51a8b964a44851b774677a2f73ad4c5a3a69dee72",
+ "domain": [
+  "finance/market-data",
+  "finance/taiwan"
+ ],
+ "product": [
+  "taiex",
+  "twse",
+  "ndc"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Free read-only Taiwan finance open data: ETFs, funds, TAIEX, market sentiment, business climate signal and FX rates, with a generic dataset query layer.",
+ "whenToUse": "Use when you need Taiwan ETF, fund, index, sentiment or FX data.",
+ "tasks": [
+  "search ETFs and funds",
+  "market overview",
+  "ETF lookup",
+  "ETF price history",
+  "fund lookup",
+  "fund NAV history",
+  "market sentiment",
+  "business climate signal",
+  "FX rates",
+  "list dataset catalog",
+  "query datasets"
+ ],
+ "effects": {
+  "4d12ae5375729b93f68daefb3909575c9fbe9e153ecf4c38d602513d01e68727": "read",
+  "090f3169b00f85cfe73a0a9116abb21175239d6e23f040fa628c59c58de33bff": "read",
+  "0bc006cb1f784a5a316a4253b428e4143a9a73ce362f9470ba4f008c54f7770b": "read",
+  "bd8349c5d49f570b6f8a29b2688dd3a48c760a9a900ae62d0012309940ebc3f8": "read",
+  "e3fbcd2b037313f9bbb2e832c38312eecfcdf1c44843426e8c786e62d6fa1644": "read",
+  "9e082234e107cfda017194135f81f971f40fcd88311d1bc60d30a940c28b2eac": "read",
+  "4c5b9350e8f33d3d01690a39e2e4b7ffd484b4f74137eafd5dff353b2d6c215e": "read",
+  "cca3c785e9a02d6dfffd42f4d4874d7daae9269f7f4645b6b633a80107cb0383": "read",
+  "184386dd3af3ce339895a214dbcd55c6e0b4570d5ce6ab2c1a7d9d7c7662ba02": "read",
+  "8eedd90ddcf9b9108624724ccde4c7731233765f92930a77389e0d833c617bdb": "read",
+  "87817141ff890266dc61679b3f482447937d1c874b1059deee89cd0f49e9ce86": "read",
+  "4d1b4a41682fcc3312aafbe8fcc56056a052fe8eafb951f0916b894f17209fc5": "read",
+  "0ae53e9f53365968014116dd441afc416568f8a38882c40f216ef04774d3dd36": "read",
+  "09b684d73d8aa0256a38f6dc89c12d893d798c214c1cd44f9bf20f1e4167fba4": "read",
+  "517619dac1a744d4ee3c55457ac4ca25d54e328ac070b6d7825d39e8f0f44fee": "read"
+ },
+ "flags": []
+}

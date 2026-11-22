@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "374fed1abe3ebf4efb1b3348ddf0ba70da53615c260c3379c386d858d23e45bd",
+ "domain": [
+  "travel/journey-planning",
+  "travel/rail"
+ ],
+ "product": [
+  "railroute"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Plans intercity trips in India by train, flight or a mix, showing fares for each travel class.",
+ "whenToUse": "Use when an agent needs to plan an intercity journey in India and compare train and flight fares.",
+ "tasks": [
+  "plan train journeys",
+  "plan flight journeys",
+  "combine train and flight",
+  "compare class fares"
+ ],
+ "effects": {},
+ "flags": []
+}

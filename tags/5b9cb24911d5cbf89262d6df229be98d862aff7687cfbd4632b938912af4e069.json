@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5b9cb24911d5cbf89262d6df229be98d862aff7687cfbd4632b938912af4e069",
+ "domain": [
+  "product/customer-feedback",
+  "product/roadmapping"
+ ],
+ "product": [
+  "outcomet"
+ ],
+ "audience": [
+  "support",
+  "development"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads customer feedback, problems and initiatives in Outcomet and logs new feedback.",
+ "whenToUse": "Use when a user wants to review or record customer feedback and related product initiatives.",
+ "tasks": [
+  "read customer feedback",
+  "read problems",
+  "read initiatives",
+  "log new feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

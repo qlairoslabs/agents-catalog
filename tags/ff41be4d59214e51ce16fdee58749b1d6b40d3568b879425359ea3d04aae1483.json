@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ff41be4d59214e51ce16fdee58749b1d6b40d3568b879425359ea3d04aae1483",
+ "domain": [
+  "media/audio-production",
+  "music/mastering"
+ ],
+ "product": [
+  "mozonic"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "AI audio tools to analyze mixes, apply automatic DSP fixes, render stems and master tracks.",
+ "whenToUse": "Use when a user wants to analyze, fix or master a music mix.",
+ "tasks": [
+  "analyze mixes",
+  "apply dsp autofix",
+  "render stems",
+  "master tracks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "28a3abb52a81ae9d8d7098aea546616bfa0eafddc69133b3bcfdf84753e776eb",
+ "domain": [
+  "data/databases"
+ ],
+ "product": [
+  "oracle-database"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects an agent to Oracle databases to run queries and work with their data.",
+ "whenToUse": "Use when querying or interacting with an Oracle database.",
+ "tasks": [
+  "connect to oracle database",
+  "run queries",
+  "explore data"
+ ],
+ "effects": {},
+ "flags": []
+}

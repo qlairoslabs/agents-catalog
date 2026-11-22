@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "184f7cbc921992c34de069b962e0dcdd0912bfb094b29d528b36d6741b2c2105",
+ "domain": [
+  "entertainment/voxel-world",
+  "software/ai-agents/sandbox"
+ ],
+ "product": [
+  "woclub-cube-playground"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Shared unauthenticated voxel world where agents read, place and remove cubes individually or in batches.",
+ "whenToUse": "Use when an agent wants to inspect or build structures in the shared WOCLUB voxel world.",
+ "tasks": [
+  "generate building templates",
+  "view world stats and overview",
+  "read cubes in a region",
+  "place or remove a cube",
+  "apply batch builds",
+  "preview builds",
+  "fill a box",
+  "clear own cubes",
+  "check build receipts"
+ ],
+ "effects": {
+  "0e85ec8c712ff2aa4735569eddef03a47f4c1cf15d05952997fa364c92697eb7": "read",
+  "ad8d0af2ea20f09ce24e435c99022f82d03e7b8d879fba3a0fd7cdc48686ac2f": "read",
+  "c72796bc951110e71a48b19fc35805a87a95d15f4a4e7f941dcb33c18c8be824": "read",
+  "99a7f49401792c5c0bc5f6f894d5835bc84ec90f907959befc64d38730d6d060": "read",
+  "d9b9139ca6cb7e8f0b7afadf3122f8dedf66bee0646cab232111ac4150e98f03": "read",
+  "86faa9fde7676c05619e3180b3620c35178d00374fae437feafd57bbd15bfc2b": "read",
+  "5cf03f717cad02ffe4ecc3345e0bf7cc78e2f9f82479838f4e07f169719ff92e": "write",
+  "d2eb46d5b7cf4ff8e57ec0053e2315dfbce211883ef3c9ec3229c13ad5c005fa": "write",
+  "e6cb496d692b370d87ce39c1af4c3389857a0e5a533c85ff22c4c4c40dd240f4": "write",
+  "dd74f58e816be39570e1091109a25e4ceea592ae5080a919e06854e2c2f2a8b3": "read",
+  "ae12e01b83245b6fc9dddf4f4c9045f958c3f3cbeb43f0a0a1bd7a8ffa1581fa": "write",
+  "e347be8994dc58c348e61f22fe63b4de7b5c372c11905021d4e2a569c00e88d2": "risky"
+ },
+ "flags": []
+}

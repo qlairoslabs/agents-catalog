@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "43af5f3c68710ad4c75d53c0a8d0baeecdb2604e6fc4d30041ba0118f0bbbc58",
+ "domain": [
+  "media/image-hosting",
+  "media/image-editing"
+ ],
+ "product": [
+  "basepic"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Uploads images by URL or base64, edits them, and returns shareable links; images can be deleted with a key.",
+ "whenToUse": "Use when an agent needs to host, resize, crop or otherwise edit an image and share it by link.",
+ "tasks": [
+  "upload image",
+  "edit image",
+  "get image details",
+  "delete image"
+ ],
+ "effects": {
+  "aa6c1a10271cf89e0a9d30341125a4db76c72ed4a8de136bd577b71f829e2910": "write",
+  "95d61f65591c90fbc40f3960292bb1d485fabbe64a9b11990c258501c1116ce6": "write",
+  "131173e04501b06cbfd5fdcb896a3ec6849bb54d5efbdafa5b6057d88b068868": "read",
+  "a083418fee0c1ce72b4b2f1a5fae00f9a8e1be861c22313a5fa6936768656336": "write"
+ },
+ "flags": []
+}

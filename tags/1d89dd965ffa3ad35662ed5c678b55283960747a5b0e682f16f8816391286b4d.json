@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1d89dd965ffa3ad35662ed5c678b55283960747a5b0e682f16f8816391286b4d",
+ "domain": [
+  "analytics/reporting"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Produces a weekly briefing of the key trends, wins and risks across an Amplitude instance for sharing with a team or leadership.",
+ "whenToUse": "Use when the user asks for a weekly review, summary or recap of the past seven days.",
+ "tasks": [
+  "summarize weekly trends",
+  "highlight wins",
+  "flag risks",
+  "write shareable weekly recap"
+ ],
+ "effects": {},
+ "flags": []
+}

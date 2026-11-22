@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5dd61fc9b598d4ac7b4fddb6e7ecff24442641dab54b711a6b107f16abeb8227",
+ "domain": [
+  "software/bug-reporting",
+  "software/debugging"
+ ],
+ "product": [
+  "jam"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Provides Jam recordings with video, console and network logs as debugging context and proof of work for coding agents.",
+ "whenToUse": "Use when a coding agent needs bug reproduction context from a Jam recording or to attach proof of work.",
+ "tasks": [
+  "read jam recordings",
+  "view console logs",
+  "view network requests",
+  "attach proof of work"
+ ],
+ "effects": {},
+ "flags": []
+}

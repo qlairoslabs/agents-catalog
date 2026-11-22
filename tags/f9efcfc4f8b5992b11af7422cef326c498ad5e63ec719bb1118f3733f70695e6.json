@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f9efcfc4f8b5992b11af7422cef326c498ad5e63ec719bb1118f3733f70695e6",
+ "domain": [
+  "email/verification",
+  "marketing/list-hygiene"
+ ],
+ "product": [],
+ "audience": [
+  "marketing",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Verifies and cleans email addresses, with self-service account signup and cryptocurrency payment.",
+ "whenToUse": "Use when checking whether email addresses are valid before outreach or list cleanup.",
+ "tasks": [
+  "verify email addresses",
+  "clean email lists",
+  "create account",
+  "pay with crypto"
+ ],
+ "effects": {},
+ "flags": [
+  "agent self-onboarding with crypto payment may let an agent spend money without user approval"
+ ]
+}

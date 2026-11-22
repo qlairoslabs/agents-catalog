@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "a703536c5ba43fe67cbc8ec296cccea34e5a7783d566100b4dcb67042e1973d9",
+ "domain": [
+  "web/website-builder/link-in-bio",
+  "marketing/personal-branding"
+ ],
+ "product": [
+  "unulu"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Creates, reads and updates link-in-bio sites hosted on unu.lu, and checks handle availability.",
+ "whenToUse": "Use when a user wants a quick public link-in-bio page with their name, bio and links.",
+ "tasks": [
+  "create link-in-bio site",
+  "read site state",
+  "update site links and bio",
+  "choose theme skin",
+  "check handle availability"
+ ],
+ "effects": {
+  "fdc8146e1dca4028f886132ac2d4735a5672d50aa0167fd458e859ac6e189dd6": "write",
+  "3eb41f876ce29df98c6ac10ce7ed8a391be742a00ef84d5028727e01a6bf5eae": "read",
+  "6b81fac974bd57a84ead5dc5ef3e4f054039ee4bf5ed08a037142d4b27040099": "write",
+  "d6f2266f8b623aae03df1c78be8e3f3dee2e5d4ac9b5f62e345191cccd7b79d6": "read"
+ },
+ "flags": [
+  "tool descriptions contain behavioral instructions directed at the AI agent (e.g. what to tell the user, when to call, to offer finding all public links for a person)"
+ ]
+}

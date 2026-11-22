@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "2dea5aaa7d2c36849bee101d5bae9f259ecc4fa88ef3a7a3007c3e6fd053f87e",
+ "domain": [
+  "communication/messaging",
+  "sales/outreach"
+ ],
+ "product": [
+  "whatsapp",
+  "blueticks"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Connects an agent to WhatsApp on the user's own number to read chats, search contacts and send messages.",
+ "whenToUse": "Use when an agent needs to read or send WhatsApp messages from the user's account.",
+ "tasks": [
+  "read whatsapp chats",
+  "search contacts",
+  "send whatsapp messages"
+ ],
+ "effects": {},
+ "flags": []
+}

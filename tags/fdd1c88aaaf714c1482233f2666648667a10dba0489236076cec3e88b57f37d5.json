@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "fdd1c88aaaf714c1482233f2666648667a10dba0489236076cec3e88b57f37d5",
+ "domain": [
+  "software/game-development"
+ ],
+ "product": [
+  "gamedev-pl"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Lets a coding agent build and publish browser games on the gamedev.pl platform.",
+ "whenToUse": "Use when a coding agent should create a browser game hosted on gamedev.pl.",
+ "tasks": [
+  "create browser game",
+  "publish game"
+ ],
+ "effects": {},
+ "flags": []
+}

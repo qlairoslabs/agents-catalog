@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "060163b6614b65a069a8cf88019160c2ad8ee3be7b41c995baeebaffe68fbfda",
+ "domain": [
+  "ai/memory",
+  "ai/personal-world-model"
+ ],
+ "product": [
+  "odei"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Pairs an AI agent with an ODEI account to set up a local world model and read or write hosted personal memory facts.",
+ "whenToUse": "Use when a user wants to connect their agent to ODEI and store or recall personal facts across sessions.",
+ "tasks": [
+  "pair with a code",
+  "check setup progress",
+  "get install plan",
+  "report setup step",
+  "answer from session state",
+  "remember a fact",
+  "recall facts"
+ ],
+ "effects": {
+  "405442b6fc3636c03c9488300c0b36dff17623de6e12ef7f72653042b78cf75b": "write",
+  "1a6da5572777c57f1434ee2763d204da6eb379743d563401de7b6f6f4be0de42": "read",
+  "1dceeb218382a1eda0972fa2c50e93c637815ec47c32b183572589b2e2b6f705": "read",
+  "7610cbd4dac48917e9d1c423165329b2f4ca41073c104bcd861ba4ff3f0179d0": "write",
+  "314777a9d2199b5393fb284a9c0f4a1ae50ca39b81df88cfa2189fd85639d327": "read",
+  "82bd55aaa2315e878d37cf6b87300ac4ce29d03be9a201a155f8d6c925a13216": "write",
+  "ada45291d5b233431dfa6521b654f668b24e12e5e2fd7c31419cb0301b9e66fe": "read"
+ },
+ "flags": []
+}

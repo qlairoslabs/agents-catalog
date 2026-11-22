@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "8d0d31fc61136a758e3f4eb8a775c51ccd954e9eecd7a12c0dac3d0eee6e5b25",
+ "domain": [
+  "health/pediatrics",
+  "health/child-growth"
+ ],
+ "product": [
+  "growo",
+  "who-growth-charts",
+  "cdc-growth-charts"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Child growth calculators using WHO and CDC references: percentiles, BMI, corrected age, target height, birth size, velocity and milestones, plus article search.",
+ "whenToUse": "Use when a parent or clinician needs to place a child's measurement on a growth chart or compute age, BMI or growth rate.",
+ "tasks": [
+  "growth percentile",
+  "reference range",
+  "BMI percentile",
+  "growth trend",
+  "birth size percentile",
+  "corrected age for preterm",
+  "target height",
+  "newborn weight change",
+  "growth velocity",
+  "ponderal index",
+  "child age",
+  "unit conversion"
+ ],
+ "effects": {
+  "c6448b58ab1f602d0b5b7b60229cc471fff0a595c611aa025c152638734d5a80": "read",
+  "10d1d2e35995471654d38e40e28a32df59a04cb1de56dd68dac902f62a7d40bd": "read",
+  "a5c5878545c4dad9c880bcd1dbf9a0e8039358e8fc68ce1c765fff94c9db0aec": "read",
+  "0abbb349041a548c141d6166f9beef16ffd0e4bff2524773a2b75f05db7daad3": "read",
+  "7e12733d029ad00e42bdc32f21a64bdc3e88dd3ce051c351e74d5247181c4ac5": "read",
+  "1e8fd2ea57eab31088ed8406dc047e40600717033042e09f748746f3151c3c12": "write",
+  "0ecc06adef69e1cf4b3165c89d0eb706387f1b1b4f149dc6881a4ca449c2929b": "write",
+  "7267408d6ccc8dbcdcaf40fa76450a1564bc4a5d51d88265b14b3264da7e1118": "read",
+  "dd3868433bf9808adb0bd257f462095fd36afc36fe86ae27ec0a65f45651bd06": "read",
+  "ab84dbbedd9137553639121bf27caa2ac032690962d84315d155bc3018ae1ff2": "read",
+  "1f9dbd37f60cdab4f832dfc70764f274e34bdd0c24ba009c4549efac7582e982": "read",
+  "41dcb8553faaa61ec7cfa463df9b4d2cdced0cf107df07fa1ef9f5db23393406": "read",
+  "272e774b40e7411cd424ae7063cd0072fae4dfe611948260e19b7291cdc8f926": "read",
+  "308ddcb49fbb7c9c3b72f4f6418f6771bdd8f74701d0c78c7693ed1e31b3cc1e": "read",
+  "00010e780b019e9b5cb282c5b76a187c0068bebd8dd70e55e39745280d1f0162": "read",
+  "9b9cdca32cf6decd543796dc992003a64902fb55a855a7195652140becc86967": "read"
+ },
+ "flags": []
+}

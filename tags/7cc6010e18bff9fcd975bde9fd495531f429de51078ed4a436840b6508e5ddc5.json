@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7cc6010e18bff9fcd975bde9fd495531f429de51078ed4a436840b6508e5ddc5",
+ "domain": [
+  "communication/voice-and-chat",
+  "communication/meetings"
+ ],
+ "product": [
+  "discord",
+  "microsoft-teams",
+  "google-meet",
+  "slack",
+  "zoom",
+  "telegram",
+  "whatsapp",
+  "nextcloud-talk"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "work-as-a-team"
+ ],
+ "summary": "Lets AI agents join voice calls and chats across Discord, Teams, Meet, Slack, Zoom, Telegram, WhatsApp and SIP.",
+ "whenToUse": "Use when an agent needs to speak or chat in meetings or messaging platforms.",
+ "tasks": [
+  "join voice calls",
+  "send chat messages",
+  "join meetings"
+ ],
+ "effects": {},
+ "flags": []
+}

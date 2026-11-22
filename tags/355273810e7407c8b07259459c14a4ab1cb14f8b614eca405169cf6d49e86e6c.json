@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "355273810e7407c8b07259459c14a4ab1cb14f8b614eca405169cf6d49e86e6c",
+ "domain": [
+  "commerce/cosmetics",
+  "beauty/ingredient-analysis"
+ ],
+ "product": [
+  "olive-young",
+  "daiso",
+  "naver",
+  "coupang",
+  "11st"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches Korean cosmetics across major Korean retailers with EWG-based ingredient analysis.",
+ "whenToUse": "Use when a user wants to find Korean cosmetics or check their ingredient safety ratings.",
+ "tasks": [
+  "search cosmetics",
+  "compare retailers",
+  "analyze ingredients"
+ ],
+ "effects": {},
+ "flags": []
+}

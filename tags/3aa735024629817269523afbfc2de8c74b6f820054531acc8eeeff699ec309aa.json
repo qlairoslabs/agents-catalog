@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3aa735024629817269523afbfc2de8c74b6f820054531acc8eeeff699ec309aa",
+ "domain": [
+  "software/cloud-hosting",
+  "software/infrastructure"
+ ],
+ "product": [
+  "vpsnet"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages VPSnet servers, applications, private networks and Functions for authorized customers.",
+ "whenToUse": "Use when a user needs to manage their VPSnet hosting resources.",
+ "tasks": [
+  "manage servers",
+  "manage apps",
+  "manage private networks",
+  "manage functions"
+ ],
+ "effects": {},
+ "flags": []
+}

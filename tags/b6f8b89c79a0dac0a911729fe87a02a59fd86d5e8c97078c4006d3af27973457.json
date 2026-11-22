@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b6f8b89c79a0dac0a911729fe87a02a59fd86d5e8c97078c4006d3af27973457",
+ "domain": [
+  "software/documentation",
+  "ai/llm-api"
+ ],
+ "product": [
+  "claude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads the Claude Platform documentation and API reference.",
+ "whenToUse": "Use when building on the Claude API and needing accurate documentation or reference details.",
+ "tasks": [
+  "search documentation",
+  "read api reference"
+ ],
+ "effects": {},
+ "flags": []
+}

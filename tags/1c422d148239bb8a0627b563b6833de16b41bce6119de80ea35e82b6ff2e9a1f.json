@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "1c422d148239bb8a0627b563b6833de16b41bce6119de80ea35e82b6ff2e9a1f",
+ "domain": [
+  "software/randomness",
+  "blockchain/payments"
+ ],
+ "product": [
+  "costheta",
+  "x402",
+  "base"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Provides random outcomes from a signed cosmic-ray detection beacon, with paid x402 tools for committed decisions and witnessed commitments.",
+ "whenToUse": "Use when you need verifiable physical randomness or a signed commit-and-reveal decision certificate.",
+ "tasks": [
+  "get free random outcome",
+  "make committed decision",
+  "witness commitment",
+  "pay via x402"
+ ],
+ "effects": {
+  "aebfcd02b2942d51c545e91bf291e0319d2ca8e3cefd7d295f240810f3f1c0e2": "read",
+  "2f69534a26bcd29e619cd313774c800e8312e9fd01e8917b5b9007cf7b27204d": "risky",
+  "e78b67f956d8b38ca641792edeed9cdf984817355fb66cf74ed7f89ef28c786e": "risky"
+ },
+ "flags": []
+}

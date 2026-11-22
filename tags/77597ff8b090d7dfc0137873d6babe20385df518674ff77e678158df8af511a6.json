@@ -1,0 +1,61 @@
+{
+ "classifier": 2,
+ "contentHash": "77597ff8b090d7dfc0137873d6babe20385df518674ff77e678158df8af511a6",
+ "domain": [
+  "software/developer-utilities",
+  "design/image-optimization"
+ ],
+ "product": [
+  "cleanor"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "No-auth developer utilities: image optimization, storage and format benchmarks, hashing, encoding, QR codes, regex, cron, diffs and color tools.",
+ "whenToUse": "Use when an agent needs exact results for hashing, encoding, counting, conversions, regex tests, or wants to shrink an image or generate a QR code.",
+ "tasks": [
+  "optimize images",
+  "generate QR codes",
+  "compute hashes and HMACs",
+  "generate UUIDs",
+  "encode or decode base64",
+  "format JSON",
+  "decode JWTs",
+  "test regex",
+  "describe cron expressions",
+  "convert units and number bases",
+  "diff texts",
+  "build color palettes"
+ ],
+ "effects": {
+  "79ef39028869332b03894d6e4bace63d65bec8d9d66042b8962e7c86c8bddd9b": "read",
+  "e90bb9c04621b22e96eb27c3462a29544817010eed812eb6ec18cbbcccde1704": "read",
+  "9267f2085923bb30639da22103135e8dea534cf7dc16f8abe31c424f27c2d5cb": "read",
+  "2eff9e743be6741361bb750618983a75cd6b0358dae3ce7fdf0df940a62a3c8f": "read",
+  "7b2174d54584138e2f97f1196d0f427c18da0e7cebb8ccdbfb84732806bf428a": "read",
+  "71e9e19b18ec194226a3b7e8063073751376caa6539596f73cdbd745d30b2b92": "read",
+  "9a5f596f13f950f83b350471af499ffaebfdc8c9f7fda8b02e34799f4e44b410": "read",
+  "5749cfc1567fffcd1461f8dc0ca70c95007d96de08e7706c7eadffe11069f660": "read",
+  "68a36f6656134e41dceff5972a704ce5040eba7d406b08b737722cc10313fa27": "read",
+  "9f05cc12f4ce2ed85a5179acdafbc46dde709116c83b1cae4b1ef489972d94a9": "read",
+  "31c2cf087acc7ffad7cf2279fd29ee06611998d80f6d81922af5690f2906518f": "read",
+  "810b2373cfb443987336ade689695c1b03dfdba02b5f2edd62aeb78607351aa8": "read",
+  "fc1f27a2c5dd5ee45c2faaf9e3718a08064756a8def11bb39a738a05688e72a1": "read",
+  "dac2d9afc095a52a8b8ddd6820250573a1c2650b3877aa4704239eaec39ee82d": "read",
+  "1261c58612d13cb947dbd56c309c38157f9cdcb0153592bdfa2af4a5ef553e14": "read",
+  "00403632f95af0057ed22bca3b3f5dc9561a8b20b9d76f44b00d82814fffb4bc": "read",
+  "68732864f9202ea9b107efecde94b02e1fb00c7609c0e9cf21a78f2619996f4e": "read",
+  "382609290879b1b8ac330b668074abbd7cb93cca4d82af5e6b00156f4a03dcad": "read",
+  "3f40c100ba06586f0cb2dbb6b4bed5b18f99024cfffc180ecf222283879ab9bb": "read",
+  "b098eb51eb42e6577ff2c5c371f1a06e0a8cf4e30d60083120ac4e062aaf21cf": "read",
+  "88741b93404a3d863279fe9eff037608cb1ad39e0b0de59d4d935d8bd7d7f73f": "read",
+  "37951cc7684cf15e0f79aeaf5bd157072312a195679287809f0695b082036c0c": "read"
+ },
+ "flags": [
+  "Several tool descriptions tell the AI to 'always use this tool' instead of answering itself, steering tool usage."
+ ]
+}

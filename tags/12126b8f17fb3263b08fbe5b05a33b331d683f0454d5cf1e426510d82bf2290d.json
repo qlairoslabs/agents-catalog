@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "12126b8f17fb3263b08fbe5b05a33b331d683f0454d5cf1e426510d82bf2290d",
+ "domain": [
+  "operations/monitoring/service-status"
+ ],
+ "product": [
+  "stackpulse"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks the status of thousands of third-party services and reads the user's Stackpulse dashboards and URL monitors; requires a Pro plan.",
+ "whenToUse": "Use when diagnosing whether an outage comes from a third-party service or when checking the user's own monitors.",
+ "tasks": [
+  "check third-party service status",
+  "read dashboards",
+  "read url monitors"
+ ],
+ "effects": {},
+ "flags": []
+}

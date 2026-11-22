@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7a905e19fa4968d8a98fd6c239676773c199a00a5696501c1463b3fd0a39033b",
+ "domain": [
+  "software/cybersecurity",
+  "software/application-security"
+ ],
+ "product": [
+  "arcjet"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Connects agents to Arcjet, a runtime application security platform for protecting apps.",
+ "whenToUse": "Use when a developer wants to inspect or configure Arcjet security protections for an application.",
+ "tasks": [
+  "manage app security rules",
+  "review security events"
+ ],
+ "effects": {},
+ "flags": []
+}

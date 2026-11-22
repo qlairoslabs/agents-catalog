@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3706b4c69e216f972a9c7f17e9194bdc495716f7fb62d5ba95d910fc730c4f3b",
+ "domain": [
+  "marketing/partner-offers",
+  "business/startups"
+ ],
+ "product": [
+  "aws-activate"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Appends one relevant AWS Activate partner offer with a tracked redeem link after other startup advisor skills finish their output.",
+ "whenToUse": "Use only after another AWS Startup Advisor skill has finalized its output, to optionally mention a relevant Activate offer.",
+ "tasks": [
+  "check offer relevance",
+  "read offers from knowledge base",
+  "append one offer line",
+  "include tracked redeem link"
+ ],
+ "effects": {},
+ "flags": [
+  "instructs the agent to inject promotional partner offers with tracked links into its responses"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "42cb45dc0109be778a515f821f3826752008ad3161fb1925f3826a4b6e49a128",
+ "domain": [
+  "travel/private-aviation",
+  "travel"
+ ],
+ "product": [
+  "aviationhs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Finds US airports, checks aircraft runway suitability, estimates flight time and returns indicative private jet charter quotes from a broker.",
+ "whenToUse": "Use when a user wants an indicative price or feasibility check for a US private jet charter flight.",
+ "tasks": [
+  "search airports",
+  "list aircraft",
+  "check runway suitability",
+  "estimate flight time",
+  "quote charter trip"
+ ],
+ "effects": {
+  "48df98fc1d35809fd43623e513778e7421d078af2d882e028bfaa45e7bd3d527": "read",
+  "8029dfebbf0ff9c2aeefdf57f519d4840a785514b28cb6ebaddc4a04f515108d": "read",
+  "88afe3a77fb367d5a0df5f04f339dbb51c9d74c75c6632366b6bdf0c6f0069c0": "read",
+  "9ab0e600866274cca73fb6a0e854f8983cc296408c6972a343af1560b5f063d9": "read",
+  "0620b240769f6f58dc583ded84449cf6d09556dbd712b726d96ecf1b7868808e": "read"
+ },
+ "flags": []
+}

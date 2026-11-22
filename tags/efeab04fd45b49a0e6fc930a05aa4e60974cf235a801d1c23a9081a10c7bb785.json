@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "efeab04fd45b49a0e6fc930a05aa4e60974cf235a801d1c23a9081a10c7bb785",
+ "domain": [
+  "data/integration",
+  "business/analytics"
+ ],
+ "product": [
+  "dataddo"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Connects AI models to business data from CRMs, databases, ERPs and SaaS apps through the Dataddo integration platform.",
+ "whenToUse": "Use when an agent needs to query business data that a company syncs through Dataddo from CRMs, databases or SaaS apps.",
+ "tasks": [
+  "query crm data",
+  "query database data",
+  "access erp data",
+  "serve saas app data to llms"
+ ],
+ "effects": {},
+ "flags": []
+}

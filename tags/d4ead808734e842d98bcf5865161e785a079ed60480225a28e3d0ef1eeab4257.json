@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d4ead808734e842d98bcf5865161e785a079ed60480225a28e3d0ef1eeab4257",
+ "domain": [
+  "finance/crypto",
+  "finance/market-data"
+ ],
+ "product": [
+  "bitculator"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Crypto market data including live prices, OHLCV candles, sentiment, technical indicators and exchange info.",
+ "whenToUse": "Use when an agent needs current crypto prices, charts, sentiment or indicators.",
+ "tasks": [
+  "get live prices",
+  "get ohlcv data",
+  "get market sentiment",
+  "calculate indicators",
+  "list exchanges"
+ ],
+ "effects": {},
+ "flags": []
+}

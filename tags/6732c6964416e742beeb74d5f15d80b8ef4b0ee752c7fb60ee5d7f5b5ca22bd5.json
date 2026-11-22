@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "6732c6964416e742beeb74d5f15d80b8ef4b0ee752c7fb60ee5d7f5b5ca22bd5",
+ "domain": [
+  "design/color",
+  "media/design"
+ ],
+ "product": [
+  "coolours"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Turns colour palettes into Coolours links with colour names, CSS variables and WCAG contrast ratios, and parses or exports palettes.",
+ "whenToUse": "Use when proposing or checking a colour scheme and you want a viewable link, contrast checks or export code.",
+ "tasks": [
+  "create palette link",
+  "check contrast ratios",
+  "name colours",
+  "parse palette link",
+  "export as CSS or JS"
+ ],
+ "effects": {
+  "d18e1ce7e96c52024d402f749a451e1ad435733d7f4a161bce6396d7331c81cc": "write",
+  "4db6392a8958f6dbdfeeb74e76ed8849acc868af4c88e98b1c66a10a9034a8ad": "read",
+  "87f067b82b60325356fdb9035beede5bf5843bd37088db3baffb9bbcfb8f293a": "read"
+ },
+ "flags": []
+}

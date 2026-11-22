@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "033417c5fb90536b79b87e6fba6b9adb03f2cd248d3898daabd3784642b74490",
+ "domain": [
+  "software/product-management",
+  "customer/feedback"
+ ],
+ "product": [
+  "produktly"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Gives an assistant read access to Produktly changelogs, feedback responses and roadmap items.",
+ "whenToUse": "Use when reviewing product changelogs, user feedback or roadmap items stored in Produktly.",
+ "tasks": [
+  "read changelogs",
+  "read feedback responses",
+  "read roadmap items"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ab1f6366f7aa7b03229a0864f2c6a09fc080c364c88abe1fef874a82909bec41",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "discord"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "work-as-a-team"
+ ],
+ "summary": "Bridge for messaging through Discord with access control for pairing, allowlists and policy.",
+ "whenToUse": "Use when the agent should send or receive messages via Discord with controlled access.",
+ "tasks": [
+  "send and receive discord messages",
+  "manage pairing",
+  "manage allowlists",
+  "set access policy"
+ ],
+ "effects": {},
+ "flags": []
+}

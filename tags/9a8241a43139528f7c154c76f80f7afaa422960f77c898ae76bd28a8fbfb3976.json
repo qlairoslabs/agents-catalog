@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9a8241a43139528f7c154c76f80f7afaa422960f77c898ae76bd28a8fbfb3976",
+ "domain": [
+  "ecommerce/magento/extensions",
+  "software/package-management"
+ ],
+ "product": [
+  "magento",
+  "packagento"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "sell"
+ ],
+ "summary": "Marketplace for Magento 2 extensions to search, buy, publish and install packages.",
+ "whenToUse": "Use when the user wants to find, purchase, publish or install Magento 2 extensions.",
+ "tasks": [
+  "search extensions",
+  "buy packages",
+  "publish packages",
+  "install packages"
+ ],
+ "effects": {},
+ "flags": []
+}

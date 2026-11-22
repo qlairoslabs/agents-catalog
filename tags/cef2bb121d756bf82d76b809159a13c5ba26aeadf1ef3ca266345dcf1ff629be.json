@@ -1,0 +1,62 @@
+{
+ "classifier": 2,
+ "contentHash": "cef2bb121d756bf82d76b809159a13c5ba26aeadf1ef3ca266345dcf1ff629be",
+ "domain": [
+  "ai/human-in-the-loop/review",
+  "ai/verification"
+ ],
+ "product": [
+  "humantaste",
+  "base",
+  "metamask"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Paid human expert services for AI agents: content, code and plan review, consultations, approvals and dispute arbitration with on-chain certificates.",
+ "whenToUse": "Use when an agent needs a human to review output, verify a claim, approve a risky action or answer a question requiring lived experience.",
+ "tasks": [
+  "review content",
+  "review code",
+  "review plans",
+  "verify external sources",
+  "request human approval",
+  "consult domain expert",
+  "order think tank sessions",
+  "arbitrate disputes",
+  "predict audience reaction",
+  "verify on-chain certificates",
+  "ask a human a question",
+  "check order results"
+ ],
+ "effects": {
+  "3ae52563e3510fb5473f782fea95ac1562099e3a4fc518ed4fcad50cb68a80f4": "read",
+  "34188987038f486e4539832cf55a4eddabb6e509c3d3a378894e1b492861f3f5": "read",
+  "aa0266a345d83d685b45e5a6b3be8416e54926c2cd0194955c1264668a3d163f": "read",
+  "09218ee297c5fc787951692ea199d3bab11eb8b95745d57bc53420eb769f5b4a": "write",
+  "55272b90798b4f564b6fc7bbca5dd9ae71b03ca9b140f3dcc6c8e447fdbb5450": "write",
+  "00f6bc3e8a4e233e23a776939c1d7f6f0cf811718443b652a182d53335e43603": "write",
+  "e3c45bab2228632ad88ab9a6c24c8cecc7b8c9596fd82ad6cd2d8adf71995136": "write",
+  "17904a82d66156e511d8a31e4b034940cc2f541a85368e49f08d2572089bbf9e": "write",
+  "8a43b84606e0549e458a4778c56f1006c10f71add988349f2e928ef4788f0537": "write",
+  "4c172909afd1bc45c4ffe3319652ff1c9146e3b6ba43c7332aca999cd5b0800d": "write",
+  "38755c057e691f435ec9c41b4ccf89cad098d941e0e4509063b97355a72368b6": "write",
+  "87f0e6957e08b643200e5ef04f42d02ecc0433512480343b932c0d1d062cb40d": "write",
+  "0e7f4ac28c29efcc5439a641d1638ac80cd5bee055bcaf8cd5fd3468aa27d5be": "write",
+  "9ba9e34e47bc4e167ed2b68de8e55badce218123825cc9f8f238accc63137f67": "read",
+  "1e71a192ac00d9e72bef9590a44f54e320755bae5010ed3accb50df3c7367693": "write",
+  "97ee188e339116b6873b6ed18741df8b553fc06a878497274789bd1fa936ac7c": "write",
+  "88531e31dc5aa49082cc356c6acbe2a7c3b26ab2b70c178d9125130d6d9bed40": "write",
+  "79eb53efb2018724b6909acf5961e2b63de325a6644bd754f6b81427e798e227": "write",
+  "3eb5170b835eb56d002bdd5dff7cc139bc72cc1f615dd6936d5efa8db62318ac": "write",
+  "16675a6a0749bb7beeb717c0108c3ea485bf007c8b06854351ea98407836bcdc": "write"
+ },
+ "flags": []
+}

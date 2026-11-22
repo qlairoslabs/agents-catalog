@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "542d99a5317ec71368c3adc4fed194598675f656301f887e309c75b13a993656",
+ "domain": [
+  "marketing/email-verification",
+  "data/validation"
+ ],
+ "product": [
+  "pricklymails"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "EU-hosted email address verification service that checks deliverability without retaining addresses.",
+ "whenToUse": "Use when an agent needs to check whether email addresses are valid before sending.",
+ "tasks": [
+  "verify email addresses",
+  "check deliverability"
+ ],
+ "effects": {},
+ "flags": []
+}

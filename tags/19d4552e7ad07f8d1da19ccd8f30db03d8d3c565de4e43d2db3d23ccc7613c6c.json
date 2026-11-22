@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "19d4552e7ad07f8d1da19ccd8f30db03d8d3c565de4e43d2db3d23ccc7613c6c",
+ "domain": [
+  "data/lineage",
+  "data/orchestration/airflow"
+ ],
+ "product": [
+  "openlineage",
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Guidance for writing custom OpenLineage extractors for Airflow operators, including column-level lineage.",
+ "whenToUse": "Use when lineage is needed from unsupported operators or beyond what inlets and outlets provide.",
+ "tasks": [
+  "create custom openlineage extractor",
+  "extract lineage from third-party operators",
+  "add column-level lineage"
+ ],
+ "effects": {},
+ "flags": []
+}

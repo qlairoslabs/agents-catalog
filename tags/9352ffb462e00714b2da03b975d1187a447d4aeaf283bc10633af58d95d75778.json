@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "9352ffb462e00714b2da03b975d1187a447d4aeaf283bc10633af58d95d75778",
+ "domain": [
+  "ai/agent-services",
+  "payments"
+ ],
+ "product": [
+  "ausca"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Pay-per-call agent services such as disposable receive-only inboxes and remote browser sessions, with offer catalog, invocations and receipts.",
+ "whenToUse": "Use when an agent needs a temporary email inbox or remote browser session bought per call.",
+ "tasks": [
+  "search offers",
+  "prepare invocation",
+  "open inbox",
+  "read inbox messages",
+  "get attachment link",
+  "extend inbox",
+  "lease browser session",
+  "connect browser",
+  "close session",
+  "cancel invocation"
+ ],
+ "effects": {
+  "42a1f549c6ea94ff5b537665fa014d948224dd57592eff63aa5ab43691940d98": "read",
+  "d634bde89b6529573fa74b0347ba66a63c49a709e45bacd6610e7081bbfee34e": "write",
+  "5e66a75263002c921934df6baba06be3363fd3d4f836915d9b59c48dedd1aedb": "read",
+  "25172366bd25a34e7a18eb9f781fbb4eee3dad5529528247a7dee17404b102e5": "read",
+  "c27477db064d60e0a718afcd41581df406fd952c42c34cc8f76aa4def0bc4ae2": "read",
+  "c6d704182180de0062947696d08ad7284f798f05e78bb4c9f5b91c210d212aa0": "read",
+  "2393d33b5bd9d89bd3234bf538138ce3c2a935b2ff2a335fb12f7ef755046846": "write",
+  "7eef842ab1803864f96dc720c22a4d9f924232ceacc8a79a2da6219f177ad04e": "write",
+  "c9021701e3ad78c65c8284bf2a2f088e71d5d9c10ad782ea48bb760ed9a19f96": "read",
+  "60d6a86ba14d923ac72fbaa87f40026d807237cd34af66882df0fb4cd939c023": "write",
+  "77d885f425dbd8bd9d53c3f0fde9f241fc300446e3b9283a3c93256169fb090e": "risky",
+  "bfd92edc938448925ab5cbea81555aef558dc0fbc5d5da7b50708c5b9b1086e5": "read",
+  "1c0e5832baee5ecb7ca88e7014819fdec472af5a5bbb0679258abea0cf2296a0": "read",
+  "8095cf0e69476633c0fa6d46fca717f30a009ef50d53b8ee31bea662c22a67a2": "risky",
+  "c9c334217b42114aa92364fdf2febcbd302c035e6feaf7803ac4f7500775d370": "risky",
+  "16be77be129f4a87d288d13348ec284e601f43b6cc1ffd0b95ae54222a7d2a42": "write",
+  "521eb7be297e5c6fac39acca5d68943c0b40555e6ea6aec922977bde59732c56": "read"
+ },
+ "flags": []
+}

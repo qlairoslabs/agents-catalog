@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d70c217c6fb5028c38aecd88f05409ccceca878a9e76ddae009072d58967e836",
+ "domain": [
+  "travel/accommodation",
+  "vacation-rental"
+ ],
+ "product": [
+  "wanaka-haus",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid"
+ ],
+ "summary": "Checks availability, quotes and books stays at Wanaka Haus in New Zealand, with Stripe checkout and cancellation.",
+ "whenToUse": "Use when a user wants to check dates, price, book or cancel a stay at Wanaka Haus.",
+ "tasks": [
+  "check availability",
+  "get stay quote",
+  "create booking hold",
+  "get booking status",
+  "cancel booking"
+ ],
+ "effects": {
+  "0610da57bd97d10b79ae46d9dc63561ab3891181c77c1a0321fb230efcf5bd57": "read",
+  "982a79f2aac0c3a0988acdf2b5c4919cbe4ce02e59436c65feb04e46d81cefc9": "read",
+  "edf32583131b98950c433961f8fc8874c0ff5f75eedb4f3d8c8213c54a3c4e88": "write",
+  "56340015995c34ca6c788ecce639f09e60479737d20fbe5f39dad868679b2ed9": "read",
+  "e96df3a7a04fe1e86f76dd433228f9c76860ddd514cb13f7981405d380e0f496": "write"
+ },
+ "flags": []
+}

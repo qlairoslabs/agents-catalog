@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c7bd2b2acf9f510fda2e00783a22e50f2b72c134f1b2dcbc4efaaf5823fbb11b",
+ "domain": [
+  "retail/shopping-planning"
+ ],
+ "product": [
+  "lastlist"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Plans grocery and shopping trips using live store inventory, aisle-sorted lists and multi-store routes.",
+ "whenToUse": "Use when a user wants to plan a shopping trip, check store stock or organize a shopping list by aisle.",
+ "tasks": [
+  "check store inventory",
+  "sort list by aisle",
+  "plan multi-store route",
+  "build shopping list"
+ ],
+ "effects": {},
+ "flags": []
+}

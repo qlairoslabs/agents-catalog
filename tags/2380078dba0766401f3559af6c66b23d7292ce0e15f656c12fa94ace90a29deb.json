@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2380078dba0766401f3559af6c66b23d7292ce0e15f656c12fa94ace90a29deb",
+ "domain": [
+  "finance/market-data",
+  "finance/investment-research"
+ ],
+ "product": [
+  "trovest",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides financial statements, ratios, SEC filings and analyst data for public companies; needs a premium account.",
+ "whenToUse": "Use when an agent needs fundamentals, filings or analyst estimates for a public company.",
+ "tasks": [
+  "get financial statements",
+  "get financial ratios",
+  "read sec filings",
+  "get analyst data"
+ ],
+ "effects": {},
+ "flags": []
+}

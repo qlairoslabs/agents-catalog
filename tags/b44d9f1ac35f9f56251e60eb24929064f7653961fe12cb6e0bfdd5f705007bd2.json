@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b44d9f1ac35f9f56251e60eb24929064f7653961fe12cb6e0bfdd5f705007bd2",
+ "domain": [
+  "productivity/calendar"
+ ],
+ "product": [
+  "caldav"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Lists, creates, updates and deletes events on CalDAV calendars.",
+ "whenToUse": "Use when an agent needs to read or manage events on a CalDAV-compatible calendar.",
+ "tasks": [
+  "list events",
+  "create events",
+  "update events",
+  "delete events"
+ ],
+ "effects": {},
+ "flags": []
+}

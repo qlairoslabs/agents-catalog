@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e483e49c47b8ba70735c8820baf0249457063f7809f64e9b97870823ed91e3f2",
+ "domain": [
+  "finance/small-business-accounting"
+ ],
+ "product": [
+  "savi-tools"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about a Savi Tools business account, including invoices, expenses and mileage.",
+ "whenToUse": "Use when the user asks about invoices, expenses or mileage recorded in Savi Tools.",
+ "tasks": [
+  "query invoices",
+  "query expenses",
+  "query mileage"
+ ],
+ "effects": {},
+ "flags": []
+}

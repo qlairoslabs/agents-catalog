@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "44161003059c8fd6c800ffd5799c87b0190132618d4656d696e8ec20fef2826c",
+ "domain": [
+  "finance/prediction-markets",
+  "finance/trading"
+ ],
+ "product": [
+  "kalshi",
+  "polymarket"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Live prediction market data from Kalshi and Polymarket, including expected-value edges, arbitrage and large trades.",
+ "whenToUse": "When an agent needs current prediction market prices, cross-venue arbitrage or whale trade activity.",
+ "tasks": [
+  "list prediction markets",
+  "find expected-value edges",
+  "detect cross-venue arbitrage",
+  "track whale trades"
+ ],
+ "effects": {},
+ "flags": []
+}

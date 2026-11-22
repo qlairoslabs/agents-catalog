@@ -1,0 +1,79 @@
+{
+ "classifier": 2,
+ "contentHash": "efe525c473d3e4e80cd27ee9264fba09606019867ef176219801256ecb046087",
+ "domain": [
+  "crypto/on-chain-analytics",
+  "crypto/network-data"
+ ],
+ "product": [
+  "bitcoin",
+  "kaspa",
+  "bittensor",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Pay-per-call on-chain analytics for Bitcoin, Kaspa and Bittensor from the publisher's own nodes, plus an archive and scorecard of AI crypto forecasts.",
+ "whenToUse": "Use when an agent needs Bitcoin mempool, fees and block data, Kaspa network metrics, or Bittensor subnet, validator and alpha-price analytics.",
+ "tasks": [
+  "track Kaspa hardfork status",
+  "analyze Kaspa fees and throughput",
+  "read Bitcoin mempool and fee curve",
+  "attribute Bitcoin miners",
+  "extract Bitcoin block data",
+  "track Bittensor subnet stake flows",
+  "list subnet validators and yields",
+  "get alpha-token prices",
+  "track subtensor events",
+  "read forecast archive and scorecard"
+ ],
+ "effects": {
+  "e6c6ae379de23d5fc23c67a0f0f783248f961dc523632fe52de1d21c46a3e051": "read",
+  "33f4fd8192445b3fb319095da93efabb88d086d2530653284043d5f100ce405c": "read",
+  "452f973330e13d6caf6e036492586df2b0ca57d668b8ef116068f67715196bbc": "read",
+  "5af28775ad8712eb8ad5288f12bf6b5de6d13b32c3177bd7e49176e24dd837f6": "read",
+  "d99f72d5fe125ce56132b0760ff07a16b157ee517db048aca8df45a48d698483": "read",
+  "748eb2291e3e570b666e3cdf2c7ea80fb0d664f3587d5defaae2f8b29c8c5542": "read",
+  "a526ceb8c707f82a6c1de0154660d11e22fe04ff73bdda3dfd2cb467f668ee80": "read",
+  "ea0ec2c4f84162c7166f1bc7d206f36143676dfd9e70ba23bc9be43a0f385830": "read",
+  "0b7500ff3460b2d17b48eb27de0736f3cafc002920749a5f71b9e73853ed542a": "read",
+  "ce832911e9987be4212cbab1ec652117dd1d367a3c131b87b22b1637e9014613": "read",
+  "654c9b530fb552f91f35ee065560c4385a1e9b5845b4ebbe901b1e83fdf0e2f8": "read",
+  "ac6c0197a7db86a88dfa60ec82910702dcd9685edef3a71dd613cb88d103763e": "read",
+  "29e8ca9d178aa4a81d8e3f4e22a13cf44ec27e417df10234cb987dab8b618204": "read",
+  "42fa0689d78778bdfc97fba15f4b58c35c8f47f854085d272db2acb8a84089c7": "read",
+  "026cac9006d5626c0a3107f4c3388c702950985d73e9dd0eaa828621d15fd051": "read",
+  "af301b90b5e368cb3db04cef03ea7074e8f7f8bbac5165438da45651d38c1371": "read",
+  "963e47ad9c197d56fe731ef06c799c6379295f6724e428641123fc997e5facfa": "read",
+  "fd0bc61c8700f6dee68e0f9c61cc0d45a1630990092bff658cf5aaed8641786c": "read",
+  "88814121e205797ff96cded9048475397937de3a1f809cdb5bf4807fe5c8811c": "read",
+  "607687aa36e93f257110129d28ae8ffecaed3aa64fcb911cc61012184f852c64": "read",
+  "e9296156869023f856340f92d589362dd1fe2f25e7cf05091e1fa4fce3cbaf26": "read",
+  "9b24cab88850dff3f38b7553843c0bb87374d9efda8b06e384b46909fc5c8a49": "read",
+  "8604ddd3e220fa8a6fd1457d6fe5745790cb51c04689198106007d99b20076dd": "read",
+  "ca2009d0e1a758f975c99a4e931b242983f6564aaca8ac33f215e30c68679682": "read",
+  "1158d1f69d36e5b34f39c5781bfd6e2334b346c34cf6970db391283c8c6d6121": "read",
+  "a06dfe5ddb60aa4c7b44f5ab3f7ce0e89bc41a2a354230a5fdc227003e2976b2": "read",
+  "30994e1dffe9fd35bd7a22404b98600bc33b9ea8dc4e8d118c921a86ad099acf": "read",
+  "8a7aeeca2b0cc4d08acefb5f88c220f81cce5f72bd10e6ac1d0075ee00af0486": "read",
+  "df547fa78d61bdf7fc72b47fbeeaeb0c00a018ccf15ef6a4f542bdd420a1b0db": "read",
+  "885ab2ff55ded2e6c71f06824acd74a41691399db3315b8c53e10ed28daf4801": "read",
+  "4585654eb54625b8ffabafa1f6b43db1d511229a908d926e0bd9f087b5ca5787": "read",
+  "4821470bd7d3d7cb27154502cf7983a223c4417ebfcba27630a4f6ad5b55d656": "read",
+  "151f4cdbb572053956a14f8a88b661aa8060006968df2e0f282c39b9ac9097df": "read",
+  "c98c4d9ab0860feca5ad8790a86e3164af3b7a6eef38df9d9bb3f9c441890157": "read",
+  "d7967a059b635f5c7d08a0914bdefc9e70e6c9bb64a2620d5ce539901bb1e192": "read",
+  "9dad36bcfdc74938b7daec365d8d8777d15acf2b44a60e1a38f0fb171d3b5e1a": "read",
+  "ce9c27ab0b5db8e3e3aebf39d929501bdfe088d1b8c040ecc2e33161a3cea1ad": "read",
+  "bdc5b713a006e1a2d296106d0552abf841d8ea62c7612acf399b01d7fd8a046e": "read",
+  "f8f7352f610ce53adee495eda3cb3ce0915dc833d3857df2043dfb95571a7d54": "read",
+  "936315df2e34b5feab0a19e43da64ca3df68712356248516ca0cd927609d6f7e": "read"
+ },
+ "flags": []
+}

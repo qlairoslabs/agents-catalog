@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "92164d02b6c0afd2e7972a57e1fdd1a716daa8b4416fa69a45f8dc99dc087a42",
+ "domain": [
+  "media/blog-feed"
+ ],
+ "product": [
+  "corduroy-labs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Corduroy Labs studio blog updates from its JSON Feed.",
+ "whenToUse": "Use when a user asks about recent news or posts from Corduroy Labs.",
+ "tasks": [
+  "list blog updates",
+  "read an update in full"
+ ],
+ "effects": {
+  "fc62646b1ba01291d5b645731d237464cc95da8551737c9b5436b9b8be5c58d2": "read",
+  "df5b550c81a71221f8bcba4f4fdeb88e36bbb38efb2dbdf44dc2bbb95124a126": "read"
+ },
+ "flags": []
+}

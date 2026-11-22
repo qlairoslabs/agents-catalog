@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "158488a7185011e6a8fcd21bba5fc07a9442822f79861eaebf117cb4c8af7e8f",
+ "domain": [
+  "ai/llm-inference/performance-optimization",
+  "hardware/gpu"
+ ],
+ "product": [
+  "amd-instinct",
+  "hyperloom",
+  "vllm",
+  "sglang",
+  "quark",
+  "rocm"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Runs the Hyperloom multi-agent optimizer to tune and benchmark LLM inference throughput on AMD Instinct GPUs, including config and kernel changes.",
+ "whenToUse": "Use when a user wants to raise LLM serving throughput with vLLM or SGLang on AMD MI300X-class GPUs via an optimization loop.",
+ "tasks": [
+  "set up hyperloom",
+  "tune serving configuration",
+  "patch framework source",
+  "rewrite gpu kernels",
+  "benchmark candidates",
+  "quantize with quark",
+  "resume optimization session",
+  "report validated throughput gain"
+ ],
+ "effects": {},
+ "flags": []
+}

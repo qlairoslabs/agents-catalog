@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cf43a5608fa480300aa550fa718cc5a7c35af893d27d68127dad6da650f08ad9",
+ "domain": [
+  "ai/agent-memory",
+  "software/documentation"
+ ],
+ "product": [
+  "mitosis"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Exposes Mitosis agent-memory platform pricing, documentation search, status and agent skills.",
+ "whenToUse": "Use when a developer asks about the Mitosis platform's docs, pricing or current status.",
+ "tasks": [
+  "search documentation",
+  "get pricing",
+  "check platform status",
+  "list agent skills"
+ ],
+ "effects": {},
+ "flags": []
+}

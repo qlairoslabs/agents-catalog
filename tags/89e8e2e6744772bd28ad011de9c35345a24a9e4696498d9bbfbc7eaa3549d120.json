@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "89e8e2e6744772bd28ad011de9c35345a24a9e4696498d9bbfbc7eaa3549d120",
+ "domain": [
+  "travel/airport-transfers",
+  "transport/taxi"
+ ],
+ "product": [
+  "airport-pickups-london"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Quotes, books and tracks fixed-price airport transfers in the UK and shows nearby cars.",
+ "whenToUse": "Use when a user needs a price or booking for a car transfer to or from a UK airport.",
+ "tasks": [
+  "get transfer quote",
+  "book airport transfer",
+  "track booking",
+  "view live cars nearby"
+ ],
+ "effects": {},
+ "flags": []
+}

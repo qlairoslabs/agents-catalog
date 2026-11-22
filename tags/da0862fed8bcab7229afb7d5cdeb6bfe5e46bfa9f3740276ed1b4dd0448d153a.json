@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "da0862fed8bcab7229afb7d5cdeb6bfe5e46bfa9f3740276ed1b4dd0448d153a",
+ "domain": [
+  "ecommerce/reselling/liquidation",
+  "marketplaces/auctions"
+ ],
+ "product": [
+  "bstalker"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches liquidation marketplaces and provides manifests, closing comparables and bid calculations for resellers.",
+ "whenToUse": "Use when a reseller is evaluating liquidation lots and deciding how much to bid.",
+ "tasks": [
+  "search liquidation listings",
+  "view manifests",
+  "get closing comps",
+  "calculate bids"
+ ],
+ "effects": {},
+ "flags": []
+}

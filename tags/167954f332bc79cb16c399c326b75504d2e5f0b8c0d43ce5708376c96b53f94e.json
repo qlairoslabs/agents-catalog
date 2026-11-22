@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "167954f332bc79cb16c399c326b75504d2e5f0b8c0d43ce5708376c96b53f94e",
+ "domain": [
+  "software/devops/deployment",
+  "software/serverless"
+ ],
+ "product": [
+  "aws-sam",
+  "aws-cdk",
+  "aws-lambda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guides deploying serverless applications with AWS SAM and AWS CDK, including templates, constructs and CI/CD pipelines.",
+ "whenToUse": "Use when deploying serverless apps with SAM or CDK.",
+ "tasks": [
+  "write sam templates",
+  "initialize sam projects",
+  "deploy with sam",
+  "use cdk lambda constructs",
+  "combine sam and cdk",
+  "set up serverless ci-cd"
+ ],
+ "effects": {},
+ "flags": []
+}

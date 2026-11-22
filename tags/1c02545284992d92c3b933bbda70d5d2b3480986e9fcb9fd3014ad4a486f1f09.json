@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "1c02545284992d92c3b933bbda70d5d2b3480986e9fcb9fd3014ad4a486f1f09",
+ "domain": [
+  "finance/insurance",
+  "consumer/car-insurance"
+ ],
+ "product": [
+  "the-zebra"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Get car insurance quotes from carriers on The Zebra, answer carrier questions, and move toward buying a policy with a licensed agent.",
+ "whenToUse": "Use when a user in the US wants to compare auto insurance rates and start buying a policy.",
+ "tasks": [
+  "start quote session",
+  "get estimated rates",
+  "get next step for chosen quote",
+  "get carrier questions",
+  "submit answers",
+  "get final price"
+ ],
+ "effects": {
+  "54bf512ef55df14317c258b883a16e35672303c7fd9272fa14cf7e68e89e3abc": "write",
+  "11bc781b594d9fc3eaecfc6af573573d764a85c85622ba3be666b35f1fd6b44b": "write",
+  "575f1c872cea20ad4938e3c3b57304221cd824f8fc2c0aa4e6eea329c8105ce8": "read",
+  "8fabff18ed77055ab8feab7a51d0685de26003ef8cf1729710d752e8abfddb74": "write",
+  "053821538f4b5d5c596c2680945b8064dbb37531d759d4923856afb1c5c75d39": "write",
+  "fe5cd7438217f52f2a999d44992e2f414a36c3d1a6f4ac0c2f8199fb891523d1": "write"
+ },
+ "flags": []
+}

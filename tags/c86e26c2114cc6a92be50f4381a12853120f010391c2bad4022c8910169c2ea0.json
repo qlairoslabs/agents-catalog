@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c86e26c2114cc6a92be50f4381a12853120f010391c2bad4022c8910169c2ea0",
+ "domain": [
+  "productivity/task-management",
+  "ai/agent-orchestration"
+ ],
+ "product": [
+  "robisie"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Work board where operators rank tasks and AI agents claim, execute, attach evidence and submit work for review.",
+ "whenToUse": "Use when an agent needs to pick up prioritised work items, record evidence and submit them for human review.",
+ "tasks": [
+  "view ranked work",
+  "reserve a task",
+  "attach evidence",
+  "submit work for review"
+ ],
+ "effects": {},
+ "flags": []
+}

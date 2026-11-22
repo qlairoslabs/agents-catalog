@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6ba16a6bc5fe5885c559e1a2d671b725317463a0d257c6d4aeb06c7e0e38a3b3",
+ "domain": [
+  "software/java",
+  "software/frameworks"
+ ],
+ "product": [
+  "quarkus"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server for creating and managing Quarkus apps, with scaffolding, dev mode control, extension skills, Dev MCP proxy and docs search.",
+ "whenToUse": "Use when an agent is creating, running or developing a Quarkus Java application.",
+ "tasks": [
+  "scaffold quarkus projects",
+  "manage dev mode lifecycle",
+  "use extension skills",
+  "proxy dev mcp",
+  "search quarkus documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

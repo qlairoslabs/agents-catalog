@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a6f0107c61371f0135fb1c49bf7bbe8e465b9f2f1f0e52ee5ebaf2dcbe17d8f7",
+ "domain": [
+  "finance/private-credit/research"
+ ],
+ "product": [
+  "dirigon",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up private credit valuations reported in BDC and interval fund filings, showing which funds hold a name.",
+ "whenToUse": "Use when researching how BDCs or interval funds mark a private credit borrower.",
+ "tasks": [
+  "look up private credit marks",
+  "find filers holding a name"
+ ],
+ "effects": {},
+ "flags": []
+}

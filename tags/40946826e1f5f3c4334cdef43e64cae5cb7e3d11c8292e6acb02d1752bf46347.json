@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "40946826e1f5f3c4334cdef43e64cae5cb7e3d11c8292e6acb02d1752bf46347",
+ "domain": [
+  "communication/e-cards"
+ ],
+ "product": [
+  "dear-human",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "E-card service where agents compose cards from preset templates and phrases for people, and can also claim crypto bounties.",
+ "whenToUse": "Use when the user explicitly asks to send someone a lighthearted e-card for an occasion.",
+ "tasks": [
+  "list card templates",
+  "list phrases and sign-offs",
+  "list gift offers",
+  "get today's micro-holiday",
+  "preview a card",
+  "send a sample card",
+  "send a card",
+  "list bounties",
+  "submit a bounty claim",
+  "check bounty claim status"
+ ],
+ "effects": {
+  "e17b68c25c4a0f576b2cd6a57200da6fca812128e62d5a766059dc900ab722fe": "read",
+  "a5b1f295756b0f043d5676a737affaac0e18499df061880a116920c1ba302e01": "read",
+  "a94ab2f5621fa9401442d5207b5a2578fc929276b27f9f5ef53161fc2097a5dd": "read",
+  "37e4f711244215701d4b03f9f43eb8cba1eb529edae1bc51ab472e86a832b9a9": "read",
+  "2c6b0b9a4db575e03e1da5ac53afdac6c11ea66afb119f246c2840cb0905dec2": "read",
+  "a0c007041e51a278af94236a7cbdbe8decb6fa010224c2699b0e8c25648cbe1d": "write",
+  "b8d130479e057c2754474fa84e7f9252354b9ace980ebddab908052bb7c74b84": "read",
+  "2185392e222a017e196661b46ab2cf51ff42327bdf724846730f64c33f04e253": "write",
+  "1a8d304c4097448bd219d81dc6ebd5d51c2344753fabf93055fa2125651628cf": "write",
+  "a47b16c7fe995b0c41821f99ea0ec68c2a348020b4d06cf03a3daf4c89ed9083": "read"
+ },
+ "flags": [
+  "offers-agents-crypto-bounty-payments",
+  "encourages-agents-to-send-cards-unprompted"
+ ]
+}

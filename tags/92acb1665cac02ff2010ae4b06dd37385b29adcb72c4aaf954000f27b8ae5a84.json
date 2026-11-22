@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "92acb1665cac02ff2010ae4b06dd37385b29adcb72c4aaf954000f27b8ae5a84",
+ "domain": [
+  "productivity/calendar/subscriptions"
+ ],
+ "product": [
+  "calfeed",
+  "apple-calendar",
+  "google-calendar",
+  "outlook"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Converts a written schedule into a subscribable calendar feed for Apple, Google and Outlook.",
+ "whenToUse": "Use when turning a text schedule into a shareable calendar subscription link.",
+ "tasks": [
+  "convert schedule to calendar feed",
+  "share subscription link"
+ ],
+ "effects": {},
+ "flags": []
+}

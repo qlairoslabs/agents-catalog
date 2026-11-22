@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3ffce43cd02080b4803989e217addd3297d2430accebca52e98fb90211e4404f",
+ "domain": [
+  "finance/crypto/on-chain-analytics",
+  "finance/market-data"
+ ],
+ "product": [
+  "cryptoquant"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides cryptocurrency on-chain metrics, OHLCV price data, market data and CryptoQuant research insights.",
+ "whenToUse": "Use when an agent needs on-chain crypto metrics, historical prices or analyst commentary from CryptoQuant.",
+ "tasks": [
+  "query on-chain data",
+  "get ohlcv prices",
+  "get market data",
+  "read research insights",
+  "read quicktake posts"
+ ],
+ "effects": {},
+ "flags": []
+}

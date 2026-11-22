@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b5911f15430948a505188240d8763a672a76fc14b09540084ceef8f0b793fe87",
+ "domain": [
+  "data/vector-search",
+  "ai/rag"
+ ],
+ "product": [
+  "amazon-s3-vectors"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Stores and queries vector embeddings in Amazon S3 Vectors for semantic search and RAG at low query volume.",
+ "whenToUse": "Use when embeddings need cost-effective storage and similarity search on AWS without high sustained query rates.",
+ "tasks": [
+  "create vector bucket",
+  "create vector index",
+  "store embeddings",
+  "run similarity search",
+  "migrate from other vector databases"
+ ],
+ "effects": {},
+ "flags": []
+}

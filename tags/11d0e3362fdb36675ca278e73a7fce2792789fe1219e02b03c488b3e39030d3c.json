@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "11d0e3362fdb36675ca278e73a7fce2792789fe1219e02b03c488b3e39030d3c",
+ "domain": [
+  "collectibles/trading-cards/pricing"
+ ],
+ "product": [
+  "pokemon",
+  "psa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides sold prices, price history and PSA population data for graded Pokémon cards in English, Japanese and Chinese.",
+ "whenToUse": "Use when an agent needs market value or grading population data for a Pokémon card.",
+ "tasks": [
+  "look up sold prices",
+  "view price history",
+  "check psa population",
+  "resolve card nicknames"
+ ],
+ "effects": {},
+ "flags": []
+}

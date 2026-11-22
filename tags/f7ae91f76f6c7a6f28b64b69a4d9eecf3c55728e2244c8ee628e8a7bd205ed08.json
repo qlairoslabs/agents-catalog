@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f7ae91f76f6c7a6f28b64b69a4d9eecf3c55728e2244c8ee628e8a7bd205ed08",
+ "domain": [
+  "science/drug-discovery/admet",
+  "science/cheminformatics"
+ ],
+ "product": [
+  "boltz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Predicts basic ADME properties such as solubility, permeability and logD for small molecules from SMILES.",
+ "whenToUse": "Use when a user wants ADME properties for molecules without a protein target.",
+ "tasks": [
+  "predict solubility",
+  "predict permeability",
+  "predict lipophilicity logd",
+  "batch predict from smiles list"
+ ],
+ "effects": {},
+ "flags": []
+}

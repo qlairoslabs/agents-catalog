@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0d0d9211522cfc38704f4815aa8c7911a653a8532cb0b0c2097707a447e7fa80",
+ "domain": [
+  "ai/performance-profiling",
+  "software/pytorch"
+ ],
+ "product": [
+  "tracelens",
+  "pytorch"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Orchestrates TraceLens analysis of PyTorch profiler traces with parallel subagents and writes a prioritized performance report.",
+ "whenToUse": "Use when a user wants to analyze or compare PyTorch profiler traces with TraceLens.",
+ "tasks": [
+  "generate perf reports",
+  "analyze a profiler trace",
+  "compare two traces",
+  "run system-level and kernel subagents",
+  "validate outputs",
+  "write analysis report"
+ ],
+ "effects": {},
+ "flags": []
+}

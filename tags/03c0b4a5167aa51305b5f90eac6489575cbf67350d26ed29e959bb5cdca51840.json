@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "03c0b4a5167aa51305b5f90eac6489575cbf67350d26ed29e959bb5cdca51840",
+ "domain": [
+  "web/url-intelligence"
+ ],
+ "product": [
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Paid URL intelligence for agents: access and CAPTCHA checks, API discovery, change checks, product and commerce risk signals, single and batch.",
+ "whenToUse": "Use before an agent visits or buys from a URL to learn whether it is accessible, changed or risky.",
+ "tasks": [
+  "check access and login",
+  "discover APIs",
+  "detect page changes",
+  "preflight a URL",
+  "extract product price",
+  "batch preflight",
+  "premium multi-agent check"
+ ],
+ "effects": {
+  "1d31f7aa607db1286a67258b135bbbae38ccd89bfdd6e9e638669046523d3065": "risky",
+  "53da08cbd886e16291d48106251698d968b2a699904db146cac6d1f7c761794b": "risky",
+  "ea267b006826a4ef24b31d6fda98ff37e963a367e2151a490e2bb994870a698f": "risky",
+  "a471c650ee1d285cce5297c0cd5b463ebecdc8b1c8245747e9f162ab86d4a5dc": "risky",
+  "2a30d4a713de7bb1fe8d7bc79ea5266cc6be0a3eeb7b58a4b001b83fe4ae9d49": "risky",
+  "f5c23a21615d59726b65925ead58467c8c7bddf38eafbf12bb4d98b97798c49a": "risky",
+  "df0ce82a7509849941b67bd72b7423163316246047e2f7b4e1abcab0f959764c": "risky"
+ },
+ "flags": []
+}

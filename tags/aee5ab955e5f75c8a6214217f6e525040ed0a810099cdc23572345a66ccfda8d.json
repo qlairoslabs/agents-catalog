@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "aee5ab955e5f75c8a6214217f6e525040ed0a810099cdc23572345a66ccfda8d",
+ "domain": [
+  "software/cloud-storage",
+  "software/infrastructure"
+ ],
+ "product": [
+  "tigris"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects agents to Tigris object storage for bucket and object management.",
+ "whenToUse": "Use when an agent needs to manage buckets or objects in Tigris storage.",
+ "tasks": [
+  "list buckets",
+  "create buckets",
+  "upload objects",
+  "download objects",
+  "delete objects"
+ ],
+ "effects": {},
+ "flags": []
+}

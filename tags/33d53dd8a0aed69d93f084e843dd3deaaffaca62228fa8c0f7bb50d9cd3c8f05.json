@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "33d53dd8a0aed69d93f084e843dd3deaaffaca62228fa8c0f7bb50d9cd3c8f05",
+ "domain": [
+  "crypto/defi/transaction-safety"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only pre-signing checks for onchain transactions covering route quality and MEV exposure, with a clear or caution verdict.",
+ "whenToUse": "Use before an onchain agent signs a swap or transaction to assess routing and MEV risk.",
+ "tasks": [
+  "assess route quality",
+  "check mev exposure",
+  "give pre-sign verdict"
+ ],
+ "effects": {},
+ "flags": []
+}

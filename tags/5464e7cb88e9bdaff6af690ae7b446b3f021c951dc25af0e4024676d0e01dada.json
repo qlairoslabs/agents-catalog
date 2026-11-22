@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5464e7cb88e9bdaff6af690ae7b446b3f021c951dc25af0e4024676d0e01dada",
+ "domain": [
+  "software/web-hosting",
+  "software/deployment"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Hosting service built for agents to deploy sites, apps, databases and domains.",
+ "whenToUse": "Use when an agent needs to deploy and host a website, app or database or set up a domain.",
+ "tasks": [
+  "deploy sites",
+  "deploy apps",
+  "create databases",
+  "manage domains"
+ ],
+ "effects": {},
+ "flags": []
+}

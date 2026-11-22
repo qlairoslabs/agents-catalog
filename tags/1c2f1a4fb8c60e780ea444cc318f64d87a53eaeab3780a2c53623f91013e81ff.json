@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1c2f1a4fb8c60e780ea444cc318f64d87a53eaeab3780a2c53623f91013e81ff",
+ "domain": [
+  "networking/proxies"
+ ],
+ "product": [
+  "coproxy"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Connector for buying, managing and monitoring residential, mobile and datacenter proxies on CoProxy.",
+ "whenToUse": "Use when a user needs to purchase, configure or monitor proxies in their CoProxy account.",
+ "tasks": [
+  "buy proxies",
+  "manage proxies",
+  "monitor proxy usage"
+ ],
+ "effects": {},
+ "flags": []
+}

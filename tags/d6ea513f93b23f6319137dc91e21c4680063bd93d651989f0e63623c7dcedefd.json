@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d6ea513f93b23f6319137dc91e21c4680063bd93d651989f0e63623c7dcedefd",
+ "domain": [
+  "education/course-authoring"
+ ],
+ "product": [
+  "sapiens",
+  "kindle"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Helps agents write courses from Sapiens' personalized briefs and export them, including to Kindle.",
+ "whenToUse": "Use when the user wants to author a personalized course and read it on Kindle.",
+ "tasks": [
+  "read course briefs",
+  "write course content",
+  "export course",
+  "send to kindle"
+ ],
+ "effects": {},
+ "flags": []
+}

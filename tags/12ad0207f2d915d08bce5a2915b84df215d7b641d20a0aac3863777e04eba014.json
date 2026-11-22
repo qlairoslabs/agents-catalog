@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "12ad0207f2d915d08bce5a2915b84df215d7b641d20a0aac3863777e04eba014",
+ "domain": [
+  "science/neuroscience",
+  "research/data"
+ ],
+ "product": [
+  "virtualflybrain",
+  "flybase",
+  "neuprint",
+  "flywire"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Query Drosophila neuroanatomy data from VirtualFlyBrain: terms, hierarchies, connectome connectivity, neurotransmitters and cross-references.",
+ "whenToUse": "Use when researching fly neuron types, brain regions, connectivity or driver lines.",
+ "tasks": [
+  "get term info",
+  "run pre-computed queries",
+  "search terms",
+  "resolve FlyBase names",
+  "query connectivity across connectomes",
+  "get neurotransmitter predictions",
+  "build hierarchies",
+  "map external accessions",
+  "combine query sets"
+ ],
+ "effects": {
+  "511a2e6ba1b0360d98256a387c953c3872bf7c41c7f98719fcd669714da04047": "write",
+  "8b53966247a661b03b7d3a0eaf27790e65beed8bd948c2f50e04029fe5682407": "write",
+  "5b20a852c63463ca5a859d329b03a4b076df1c5fb1c19bccbb6b78f68e09f529": "write",
+  "9160f26fbcb4da1950d30c4574f4140926c929be4db521bf9671f704eb66a770": "read",
+  "4db920206ce2d9fae03ce6c4085a855d8e14107fae6f19de0d23c033b6ecf3d5": "write",
+  "eb62a70b4f4d12dacbe30a4439fccf66e5a64c9c67e4d33cead11c3f889375bf": "write",
+  "e73e0b784b897328c9be1b766e51de1b053889972cf6745a5c473432897af118": "read",
+  "341cdc52224e0bf5af5fe4986cea7e7917a7c54f92c0d6769206bbfc4c2ce850": "write",
+  "49e4de33531de21a39a20472558f788abea58d99380d490eb41082cdf373f431": "write",
+  "cab09335e20f64e5c6fb86426ff1e1336447be68a16182b39706354e87f3c501": "write",
+  "9e90bb9c5009fb48674a5144988eb8db18a1adae816579417c8b466f0975e06d": "read",
+  "7b0fb93723bdee2184e8d6933c9482d8c683f473bd3d083891f8f8717bfb7321": "write",
+  "ad1c41b1d91b0711f7105ee43573627227b71ac29a528af9c662eb38cdfc1c88": "write"
+ },
+ "flags": []
+}

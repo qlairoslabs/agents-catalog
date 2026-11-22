@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "24ea60ffd3293ae8dbb521c8e611bdeda896284b7f8e2d3571a81fc6de6ee493",
+ "domain": [
+  "finance/financial-data",
+  "finance/filings"
+ ],
+ "product": [
+  "sec-edgar",
+  "consensus-analytics"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only financial facts from SEC, EU and Korean filings by ticker and period, including report lines and spreadsheet grids.",
+ "whenToUse": "Use when pulling reported financial figures for public companies from regulatory filings.",
+ "tasks": [
+  "look up tickers",
+  "get reporting periods",
+  "read report lines",
+  "build data grids"
+ ],
+ "effects": {},
+ "flags": []
+}

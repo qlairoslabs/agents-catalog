@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "072f5fccfb22ad5d167eca03fb1a8fbe1fcb2f87d95ce6f90e741e76ec008c93",
+ "domain": [
+  "productivity/personal-organizer",
+  "productivity/tasks"
+ ],
+ "product": [
+  "beckett"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "automate-work"
+ ],
+ "summary": "Lets AI assistants read and update the user's beckett tasks, notes, calendar and lists.",
+ "whenToUse": "Use when the user wants to view or change their tasks, notes, calendar events or lists in beckett.",
+ "tasks": [
+  "read tasks",
+  "update tasks",
+  "read notes",
+  "update notes",
+  "read calendar",
+  "update calendar",
+  "manage lists"
+ ],
+ "effects": {},
+ "flags": []
+}

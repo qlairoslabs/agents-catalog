@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "032f67b826c7e177a6a6d5c0a156c7cd9c4e640e82c45766e4c7e872f54be750",
+ "domain": [
+  "marketing/analytics/web-analytics"
+ ],
+ "product": [
+  "google-analytics"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Reads and writes Google Analytics 4 data, including reports, funnels, audits and server-side events.",
+ "whenToUse": "Use when an agent needs GA4 reports or funnels, an audit of a GA4 setup, or to send server-side events.",
+ "tasks": [
+  "run reports",
+  "analyze funnels",
+  "audit property",
+  "send server-side events",
+  "change configuration"
+ ],
+ "effects": {},
+ "flags": []
+}

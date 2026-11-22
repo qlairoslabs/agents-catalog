@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "70422ac81fd1cd943414de9d3afe66bc67bcd964bfb74e9cc9c17c415d1f0abb",
+ "domain": [
+  "science/hpc-io-profiling",
+  "software/performance"
+ ],
+ "product": [
+  "darshan"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes Darshan I/O profiler trace files to understand application I/O behavior.",
+ "whenToUse": "Use when an agent needs to analyze HPC I/O performance from Darshan traces.",
+ "tasks": [
+  "parse darshan traces",
+  "analyze io patterns",
+  "summarize io performance"
+ ],
+ "effects": {},
+ "flags": []
+}

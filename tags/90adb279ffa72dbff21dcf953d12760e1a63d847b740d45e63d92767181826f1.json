@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "90adb279ffa72dbff21dcf953d12760e1a63d847b740d45e63d92767181826f1",
+ "domain": [
+  "real-estate/property-data",
+  "real-estate"
+ ],
+ "product": [
+  "bag",
+  "cbs",
+  "rivm"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Returns a verified report on a Dutch address from open data: build year, area, energy label, neighbourhood stats, noise and air quality, monument status and nearby schools.",
+ "whenToUse": "Use when a user asks about facts, risks or surroundings of a specific address in the Netherlands.",
+ "tasks": [
+  "look up building year and area",
+  "get energy label",
+  "get neighbourhood statistics",
+  "check noise and air quality",
+  "check monument status",
+  "check protected area",
+  "list nearby schools"
+ ],
+ "effects": {
+  "b3c4042a3c1c97167d761c3312c80e01ac1f6c4b22fea6cfbbfa29196f3f01df": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "115d03287aef2b89e284acb59e053e5644e82106b218387d11522f690f53710e",
+ "domain": [
+  "finance/payments/checkout",
+  "events/ticketing"
+ ],
+ "product": [
+  "checkout-page"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "sell"
+ ],
+ "summary": "Creates and manages checkout pages, event tickets, forms, customers, payments and subscriptions.",
+ "whenToUse": "Use when setting up checkout pages or managing payments, subscriptions or ticket sales on Checkout Page.",
+ "tasks": [
+  "create checkout pages",
+  "manage event ticketing",
+  "manage forms",
+  "manage customers",
+  "manage payments",
+  "manage subscriptions"
+ ],
+ "effects": {},
+ "flags": []
+}

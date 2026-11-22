@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "de6263952954cb0de81aa9c75fe4d4bc2ce704b321877bb6071849ddacb4b7fe",
+ "domain": [
+  "news/world-events",
+  "news/geopolitics"
+ ],
+ "product": [
+  "v3-news"
+ ],
+ "audience": [
+  "everyone",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracked world news events with risk and impact scores, global briefs, breaking news and a global pulse reading.",
+ "whenToUse": "Use when you need cited current-events context on a topic or country, or a world overview.",
+ "tasks": [
+  "search events",
+  "get event details",
+  "fetch event report",
+  "get latest global brief",
+  "list breaking events",
+  "get global pulse"
+ ],
+ "effects": {
+  "b4ae92cdfb225d7715b7213eba91de9cefbcfe5365d4f22a3ce7eca18691e0ea": "write",
+  "3fe00058d2ec31f4f107b587d9ff88de10e121208f15b102fcf89fc76b92df80": "read",
+  "f3803a2ec8e84af4bbeabb4cbb4f12a116932b0e22f2b473b214c8c59eb871e0": "read",
+  "dde6040beca016ee53632e1cf18dee746772f8eb6ed3b2a2dc56b807ab66a160": "read",
+  "54e8af815cdcb214b991e8d7f209b0c7ecf267784d6ef79fd081da04604b274f": "read",
+  "95fe75c5b932c22382141dcfc305a8488f64ac2f51ac238e34958eae9caad7cf": "read",
+  "ab69b1568b48c8fd1ab6b1fc987b3f8ca05fb7d52bbe864ebf732f901524953c": "read"
+ },
+ "flags": []
+}

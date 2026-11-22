@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "75d8921e46a3ef39d5135a9d58907defea68ef59db6beca06ffc535b426fbdc7",
+ "domain": [
+  "documents/pdf"
+ ],
+ "product": [
+  "pdfassistant"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "PDF toolkit for converting, merging, compressing, OCR, redacting and signing PDF files from an AI assistant.",
+ "whenToUse": "Use when a user needs to convert, combine, shrink, OCR, redact or sign PDF documents.",
+ "tasks": [
+  "convert pdfs",
+  "merge pdfs",
+  "compress pdfs",
+  "ocr scanned pdfs",
+  "redact pdfs",
+  "sign pdfs"
+ ],
+ "effects": {},
+ "flags": []
+}

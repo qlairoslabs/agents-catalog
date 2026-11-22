@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b1c2e096d08d7cf28642a650ca107236772525c34536691d20a157737da88e68",
+ "domain": [
+  "events/seating-plans",
+  "events/venue-planning"
+ ],
+ "product": [
+  "seatcanvas"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "create-content"
+ ],
+ "summary": "Gives SeatCanvas pricing, estimates venue seating capacity and returns links to prefilled seating plans.",
+ "whenToUse": "Use when planning seating for a wedding, quinceañera or corporate event and estimating how many guests fit.",
+ "tasks": [
+  "get pricing",
+  "estimate venue capacity",
+  "create prefilled seating plan link"
+ ],
+ "effects": {
+  "dc6d331e868f8a0739eab1e985e9c44f05837f97bfd2dcf6ef9b8ebc67be8669": "read",
+  "bc2911ae1e56026528fc3b108c41d761a44d71285c4c2f52cbc0559b5cd6c101": "read",
+  "eb41dcf4970855c9f0a3d85692567660403fbfc2ba481c01c02ff9e149fa6ff4": "read"
+ },
+ "flags": []
+}

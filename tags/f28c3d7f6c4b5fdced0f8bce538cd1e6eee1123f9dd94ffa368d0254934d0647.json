@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f28c3d7f6c4b5fdced0f8bce538cd1e6eee1123f9dd94ffa368d0254934d0647",
+ "domain": [
+  "software/code-modernization",
+  "software/sap-development"
+ ],
+ "product": [
+  "sapui5",
+  "openui5"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Workflow and fix patterns for modernizing legacy SAPUI5/OpenUI5 applications.",
+ "whenToUse": "Use when upgrading or refactoring an older UI5 application to current practices.",
+ "tasks": [
+  "run modernization workflow",
+  "apply fix patterns",
+  "update deprecated ui5 code"
+ ],
+ "effects": {},
+ "flags": []
+}

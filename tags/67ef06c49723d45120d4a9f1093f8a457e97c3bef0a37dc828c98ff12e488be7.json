@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "67ef06c49723d45120d4a9f1093f8a457e97c3bef0a37dc828c98ff12e488be7",
+ "domain": [
+  "knowledge/fact-checking",
+  "ai/grounding"
+ ],
+ "product": [
+  "talarion"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Knowledge base of verified, dated facts intended to correct common language model mistakes.",
+ "whenToUse": "Use when an agent needs to verify a fact that may be outdated or commonly misstated.",
+ "tasks": [
+  "look up verified facts",
+  "check dated information"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6d5e7dd7502e429beadbb23af469047f7ebe640bedc1044158d86a9bc5eee872",
+ "domain": [
+  "real-estate/property-prices",
+  "real-estate/cadastral-data"
+ ],
+ "product": [
+  "cenogram",
+  "rcn"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Polish real estate deed transaction prices from the RCN register and parcel context by cadastral ID.",
+ "whenToUse": "Use when analyzing Polish property prices or details for a specific land parcel.",
+ "tasks": [
+  "search transaction prices",
+  "look up parcel by cadastral id",
+  "analyze property prices"
+ ],
+ "effects": {},
+ "flags": []
+}

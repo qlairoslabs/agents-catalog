@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6f568c0f5d00b45a89fd0726b6e7b1829410f3110ed71df423ac4463b424ef8a",
+ "domain": [
+  "research/scientific-literature"
+ ],
+ "product": [
+  "tomesphere"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches 8.5 million scientific papers with AI summaries, citations, linked entities, figures and full text.",
+ "whenToUse": "Use when an agent needs to find or read scientific papers and their citations.",
+ "tasks": [
+  "search papers",
+  "get paper summaries",
+  "get citations",
+  "get linked entities",
+  "get figures",
+  "read full text"
+ ],
+ "effects": {},
+ "flags": []
+}

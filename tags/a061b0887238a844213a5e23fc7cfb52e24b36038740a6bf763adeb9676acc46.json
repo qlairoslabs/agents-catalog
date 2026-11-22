@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a061b0887238a844213a5e23fc7cfb52e24b36038740a6bf763adeb9676acc46",
+ "domain": [
+  "software/remote-access",
+  "software/developer-tools"
+ ],
+ "product": [
+  "desktop-commander"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Lets AI apps work with files, the terminal and processes on the user's own computers remotely.",
+ "whenToUse": "Use when an agent needs to read or edit files, run commands or manage processes on the user's own machine from a remote AI app.",
+ "tasks": [
+  "access remote files",
+  "run terminal commands",
+  "manage processes"
+ ],
+ "effects": {},
+ "flags": []
+}

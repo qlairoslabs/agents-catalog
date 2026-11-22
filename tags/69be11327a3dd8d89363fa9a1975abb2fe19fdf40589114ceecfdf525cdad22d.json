@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "69be11327a3dd8d89363fa9a1975abb2fe19fdf40589114ceecfdf525cdad22d",
+ "domain": [
+  "software/file-hosting"
+ ],
+ "product": [
+  "nudgehost"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "File hosting service where agents upload files and receive a public link.",
+ "whenToUse": "Use when an agent needs to share a file through a public URL.",
+ "tasks": [
+  "upload files",
+  "get public links"
+ ],
+ "effects": {},
+ "flags": [
+  "uploaded files become publicly accessible"
+ ]
+}

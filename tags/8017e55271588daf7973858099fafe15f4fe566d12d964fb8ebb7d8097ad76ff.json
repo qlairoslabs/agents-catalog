@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "8017e55271588daf7973858099fafe15f4fe566d12d964fb8ebb7d8097ad76ff",
+ "domain": [
+  "software/ai-agents",
+  "software/developer-tools"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Searches an index of AI agent skills, rules files and MCP servers from GitHub, and returns recommendations and install instructions.",
+ "whenToUse": "Use when looking for a skill or MCP server for a project or agent, or to get its install steps.",
+ "tasks": [
+  "search skills",
+  "get skill file",
+  "recommend skills for a project",
+  "get install instructions"
+ ],
+ "effects": {
+  "b61238c047387e33bfecdd5036849dec1ed52a4ab371d9086037666f6c124fc6": "read",
+  "982d063a8d4bc030b8945677190fff0efe6616899f35e60f75db3fffca2f8546": "read",
+  "c5e07f1d3ecdd3975c5634062fc786d3981a980836957a28c3cd7bb5de504d82": "read",
+  "62ffc7803703487c0264f7f15ceb7e633d1993ca3c5266d1794169a6feece6a3": "read"
+ },
+ "flags": []
+}

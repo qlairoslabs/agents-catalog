@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "14f694d4757c2d27655afa11eefcce42e2d7a971f0f38fa3014dbf22392913bb",
+ "domain": [
+  "travel/vacation-rentals"
+ ],
+ "product": [
+  "airbnb",
+  "vrbo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Caribbean vacation-rental registry with search, availability, pricing across platforms, licences, reviews, market data and shareable shortlists.",
+ "whenToUse": "Use when helping someone find or compare vacation rentals in the Cayman Islands, St. Lucia or Turks & Caicos.",
+ "tasks": [
+  "search rentals",
+  "property details",
+  "check availability",
+  "compare platform prices",
+  "price history",
+  "aggregate reviews",
+  "license lookup",
+  "market statistics",
+  "create shortlist session",
+  "add picks to session",
+  "search island venues"
+ ],
+ "effects": {
+  "561683388e941a0d55f24bfbf90297dfd0dfeac617f792a9f1fac1172a3e808a": "read",
+  "d22701180851892e3e4cb2d9a88005e69d01c6183579d75dd698da28c9580528": "read",
+  "f7bf290fb54095c3220507e84348f5077b1b83a4f09c92e2eaed515e167e6f1d": "read",
+  "749ff9174358b3208f71d947d68328c5617511b0d4745a1f35665d858d6efa3f": "read",
+  "df747bed916a0b6683c8ee740ed6186fe8e2711a06f15ffb50934e2021134526": "read",
+  "01a95336ce64eb63bab25acb6641fece950a9d28e4230168e0a18b212721a875": "read",
+  "397ce28228fb1af5cdf3d4b3b4243cacd083c8e6ab543e7eef772d49ea9cfa9f": "read",
+  "b69517cc9ea7514e12ac5c60465840226b9ef959d960f9bef904fd9ffb05ae7c": "read",
+  "dc2df1695f710afd023d52cb660192db2d18548c505bac8914470726dcda7258": "read",
+  "03ab0b4334af3a37ab46132a9c3090854d32ca7ee37c050d6e2468fd981e6be4": "read",
+  "2f46d6c91bbb286804fe40f36f27b2c8f19aa5c1d04a8d0988ed580cdf646fe4": "read",
+  "8b0d255485db2e4fae549fb6c5b089178541f4a6e8a18eb2ae1c6fa405942e1c": "write",
+  "525e79094e7fbf737f22032028eb4a4560944c126817f28032275551eac2423c": "write",
+  "f8fe93f65b5dd5b8fb1844de02d72d285fa39d09174ba293ca0db5225f21a0b4": "read",
+  "72ab669f34411747e8cc34b4f9d20eb48732a81822f58740d27a3c1c75c56f83": "read",
+  "e4465f9659a5a9aeb22b8cc2e7fcbebb7cb854885dc64bcb29d92ed12152b926": "read"
+ },
+ "flags": [
+  "tool descriptions direct the agent's workflow ('YOU ARE THE BUYER'S AGENT', 'READ THIS FIRST', share the URL)"
+ ]
+}

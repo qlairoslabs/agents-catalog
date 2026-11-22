@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0ef46973960a6a42b9656baa4e79af71a618dcf78b84610b74f3b3c779ff9a46",
+ "domain": [
+  "logistics/last-mile-delivery/routing",
+  "fleet-management"
+ ],
+ "product": [
+  "vepathos"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "schedule"
+ ],
+ "summary": "Imports delivery orders, manages fleets and generates optimized last-mile delivery routes.",
+ "whenToUse": "Use when planning delivery routes or managing a delivery fleet and orders.",
+ "tasks": [
+  "import orders",
+  "manage fleet",
+  "optimize delivery routes"
+ ],
+ "effects": {},
+ "flags": []
+}

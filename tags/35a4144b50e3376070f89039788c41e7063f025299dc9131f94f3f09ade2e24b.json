@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "35a4144b50e3376070f89039788c41e7063f025299dc9131f94f3f09ade2e24b",
+ "domain": [
+  "public-services/waste-collection",
+  "local/taiwan"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Looks up garbage truck stops and arrival times in Taiwanese cities by location or text search.",
+ "whenToUse": "Use when someone in Taiwan needs to know when and where the garbage truck arrives.",
+ "tasks": [
+  "list cities",
+  "find nearby truck stops",
+  "search stops by text",
+  "get route schedule"
+ ],
+ "effects": {
+  "facf3d0812400b725efc836d2468297c453f7506df0029d2edef37b1aded3061": "read",
+  "2772b848f913ef01b632b1622bd78d804d094eca6b5c645f3241e27af06306d0": "read",
+  "5dd0be6689748b217022ffef7c646f2d1c0d59242aa796806573c5d23e68af42": "read",
+  "6a08fa44e7a63bbc80d5a66f9ad300d655a493445054287164826c83ade9ec97": "read"
+ },
+ "flags": []
+}

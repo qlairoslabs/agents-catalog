@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f5ab24f90e928820228f99838d245e0a660b07aaddd19a212e0f0e7bb8dfbbce",
+ "domain": [
+  "productivity/task-management"
+ ],
+ "product": [
+  "nirvana"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "automate-work"
+ ],
+ "summary": "Reads and updates Nirvana GTD tasks and projects, including states, tags, due dates and capture.",
+ "whenToUse": "Use when an agent needs to manage a user's tasks or projects in Nirvana.",
+ "tasks": [
+  "read tasks",
+  "update tasks",
+  "capture new tasks",
+  "set due dates",
+  "manage tags"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f2e2a5422fe84f8458727326a2170b5f5169d2d4063f12f4c535be553075778d",
+ "domain": [
+  "marketing/email-verification",
+  "data/validation"
+ ],
+ "product": [
+  "checkmails"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Checks whether email addresses can receive mail using SMTP lookups and detects catch-all, disposable and role addresses.",
+ "whenToUse": "Use when an agent needs to verify email addresses before sending campaigns or cleaning a contact list.",
+ "tasks": [
+  "verify email deliverability",
+  "detect catch-all domains",
+  "detect disposable addresses",
+  "detect role addresses"
+ ],
+ "effects": {},
+ "flags": []
+}

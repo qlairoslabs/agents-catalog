@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4765d5d0ae462afb15e0ae4c6aa063354f96079f2b78eaa945ca709c79219b6f",
+ "domain": [
+  "information/web-search",
+  "ai/agents"
+ ],
+ "product": [
+  "you-com"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "MCP server offering web search, an AI research agent and web page content extraction through You.com APIs.",
+ "whenToUse": "Use when an agent needs live web search results or to extract content from web pages.",
+ "tasks": [
+  "search the web",
+  "run ai research agent",
+  "extract page content"
+ ],
+ "effects": {},
+ "flags": []
+}

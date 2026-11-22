@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2b3c4afa93b48b027597f3ee067a58e121d9f1e22ae91ae52713077ea71f87cc",
+ "domain": [
+  "finance/payments",
+  "software/api-integration"
+ ],
+ "product": [
+  "roki-connect"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "get-paid"
+ ],
+ "summary": "Provides the ROKI Connect payments API contract, operations, schemas and a validator for coding agents.",
+ "whenToUse": "Use when writing or validating code that integrates with the ROKI Connect payments API.",
+ "tasks": [
+  "list payment operations",
+  "read api schemas",
+  "validate integration requests"
+ ],
+ "effects": {},
+ "flags": []
+}

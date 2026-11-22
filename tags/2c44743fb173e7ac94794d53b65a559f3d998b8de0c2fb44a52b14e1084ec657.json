@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "2c44743fb173e7ac94794d53b65a559f3d998b8de0c2fb44a52b14e1084ec657",
+ "domain": [
+  "finance/invoicing",
+  "finance/quotes"
+ ],
+ "product": [
+  "sodatsu-mitsumori"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "get-paid",
+  "sell"
+ ],
+ "summary": "Creates, edits and converts quotes and invoices via OAuth, with PDF output, share links and an item master.",
+ "whenToUse": "Use when a user needs to draft or convert Japanese quotes or invoices and export them as PDF.",
+ "tasks": [
+  "create quotes",
+  "create invoices",
+  "edit documents",
+  "convert quote to invoice",
+  "generate pdf",
+  "create share url",
+  "manage item master",
+  "save learned preferences"
+ ],
+ "effects": {},
+ "flags": []
+}

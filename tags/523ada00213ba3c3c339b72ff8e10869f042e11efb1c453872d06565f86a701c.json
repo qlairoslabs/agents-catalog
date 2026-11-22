@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "523ada00213ba3c3c339b72ff8e10869f042e11efb1c453872d06565f86a701c",
+ "domain": [
+  "knowledge-management",
+  "ai/context"
+ ],
+ "product": [
+  "kumbuka"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "stay-compliant"
+ ],
+ "summary": "Self-hostable store of team-curated, governed and auditable knowledge for AI assistants to use.",
+ "whenToUse": "Use when an agent needs approved, curated team knowledge with audit trails rather than open sources.",
+ "tasks": [
+  "retrieve curated team knowledge",
+  "audit knowledge access",
+  "self-host knowledge base"
+ ],
+ "effects": {},
+ "flags": []
+}

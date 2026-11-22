@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "35f5613b4e5d35ce57e738711e5af5a3cbbc21626ecfabb4d840e71041077c37",
+ "domain": [
+  "commerce/product-offers",
+  "marketing/affiliate"
+ ],
+ "product": [
+  "aon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Network of purchasable product and service offers with live pricing and tracked links for agents to recommend.",
+ "whenToUse": "Use when an agent needs current offers or prices for products or services to suggest to a user.",
+ "tasks": [
+  "search offers",
+  "get live pricing",
+  "get trackable links"
+ ],
+ "effects": {},
+ "flags": [
+  "returns tracked affiliate-style links that may bias agent recommendations"
+ ]
+}

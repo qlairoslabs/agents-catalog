@@ -1,0 +1,82 @@
+{
+ "classifier": 2,
+ "contentHash": "db62de0c9adc597edaa2b4d8b49880abb816c2c542fc6c158f9fff1d7d1d5967",
+ "domain": [
+  "software/developer-utilities",
+  "finance/calculators",
+  "text-utilities"
+ ],
+ "product": [
+  "clean-tools"
+ ],
+ "audience": [
+  "development",
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Authless set of deterministic utilities: cron, dates and time zones, loan and interest math, hashing, diffs, regex, format conversion, IDs, passwords, colors and text tools.",
+ "whenToUse": "Use when an agent needs an exact computed result instead of guessing, such as cron times, time zone conversion, loan maths, hashes, regex matches or format conversion.",
+ "tasks": [
+  "explain and validate cron",
+  "expand RRULE recurrences",
+  "convert time zones and timestamps",
+  "amortization and TVM calculations",
+  "compound interest and APR",
+  "hash text",
+  "diff text",
+  "test regex",
+  "convert JSON, CSV, YAML, XML",
+  "generate UUIDs, IDs and passwords",
+  "convert colors and check contrast",
+  "format SQL and JSON"
+ ],
+ "effects": {
+  "3becb628f8261863cde7ae0723c2c301ba0e4dcf156b66823b3a5daab2765df9": "write",
+  "343e00b417e1a36ce873e7b22c36c6d793f60014c469e9d379cb9ccc3dfd3144": "read",
+  "3e72c2539e3e420025c7f394828e882631352c73ce23c5d99efb214d29ffae50": "write",
+  "5bdc9eb0d6473278fecf10625cf512aa11ecb53b67501309fbf39ee9ea9c8105": "read",
+  "09ad7db9fa321c8e80ce3bb6c86127b968312e9c2f14dcfba17076cb360e6cf0": "read",
+  "909b7ea3e5776ad1d32a7416e2975b9706fab41771fdb7e4e6d90b71cb203b22": "read",
+  "22f62468a89460a1a9180cd27e695d603f19ea96e37ce8dfc62e16378bf6d616": "write",
+  "c98286e3c35a4738d2490f7f3f5369b365b2b6d9b1511b6097f72f1e283628e9": "write",
+  "8ecf3b612c963e8fdd5aa5d2ec22391505e64f7a8ccbaf78068c0af6319b43e1": "read",
+  "87d42a439116bbaccbe1a44082b8cb71bbde63a44bdd858dfb5b87b978842de6": "write",
+  "38e46db0d8e303343f0c3522b4c641206e32c86d5169417ff376d4d082eed737": "read",
+  "9bf8053293f1a7dd42f8717edaf0a4bf761fe4b0b274847db7dfb96a18b33d58": "write",
+  "cc77226787d1ebe3dc2127c806f27820ba4bb5da70908d889025fb5898d9d466": "write",
+  "cbb41522a6031ede18ceebb840719c8ce9229eba74ab7d98f33f5d4f53e3480e": "write",
+  "dd3d62394c79c3629fdf702a37151be2b60479bfad829f37607341af17f01e5f": "read",
+  "a6c81bc7d16307464f1145bdff8368661884f2e8533c658290f0d7b12f872b60": "write",
+  "86795742b023e2d177cbc5605800efd15981de1474f748a9a086413db0c9b82e": "read",
+  "e01cbb265c5716652cb53e1cf52ba7fdeca9581d1719139612911e8be5831c53": "read",
+  "1b1494d01c46b032952217b26bcbfcbe2ccf83fafd564860c6e6856def69e552": "read",
+  "90ab15c41a16aad4451d9d61f2de6f23b30bef1baa26a86b4c02aa32a1df61b6": "write",
+  "210a69a69748fe24bac00276b1c8a5a417a97c9b81926fd11a179cc731bda1a5": "write",
+  "5c36dfebc606f66c9369ec3ef6644c869276429035f44278934d9fffeee50947": "write",
+  "5aa72d558c85f0b53a3745c5076ed8786398e085e19284a89db7ae097ecff485": "write",
+  "baefbb81edfd5dc73b7804dfdc2d2921559f98cb3f3c5bc798859b52ab82bb1e": "read",
+  "35aff4ce5d007f15b205291c4c632769565a65253bc20181cf5f5d3386ed0026": "write",
+  "7470bfc69800b6b241b52d910458ec2ed83d16829de07c7cc04a59c46828f7ed": "read",
+  "8c4f7764260563b025a904e51482f456cc46ae8973aff2278502f1bcde4602ec": "read",
+  "c07843e72f84b6a798b4ce0ea211ff6ae6db42d65b31ebc8983f4fc0f23d4ea1": "write",
+  "53ece16e44ca058307e135692db80346e479d81680430537b2dceed0bb3d56d5": "write",
+  "e43b9c3cf32ce77932b7638e349f3e5fff2914c762a864937a1758562f281af2": "write",
+  "17ff9a18996d67cc7fde6e52e31cf1a080ec357fc3daac3bfbf427a08052ceca": "write",
+  "7a1b863f8380ea8d229dbf6cf963dfa31197889d67aad70465f08d3aece70302": "write",
+  "5adcd3f9200d11122f59d07d371014c3bbaf7deb07c48197da06d9de9e886fbb": "read",
+  "62ec62ddfcf0b93fe3a830064ba44aed11807d864137dbabff2d95add9491d43": "read",
+  "e2b3cfc9a143edbab93347a16ecf4af85cd2075545755f9bf3bb6abd9e24cb5e": "write",
+  "aa2c1c0ca25c92eea09dead99e0d390deb9146b4a951dd6feddc8153e4d31353": "write",
+  "9d1ef9274924985c2faaa15bb4457a98b955136e6b9eff7536149c6b00995f59": "read",
+  "c8a8910262cbc7c60753fc1e75449ef819bdac7a5e0b95acd0b470c63cf34e71": "read",
+  "98716637ca5b7c74d36c2693995d55ee8317909a219f156ce77ef9b6fe2876cd": "write",
+  "707941261d99f67c1a12166158d10d43e19608dd2300950f3c55bea870c074ef": "read",
+  "3306b9af25afa3602a49e8ae3bd4cd772b297b6e0f05f0b97bda57a585de1432": "write",
+  "172299cb9205fdc019e03e09d9bf6f747920786b974af783b29a2cb4dc3f98e6": "write"
+ },
+ "flags": []
+}

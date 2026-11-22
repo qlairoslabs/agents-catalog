@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "fa8450b878660dd9e8c6bbc3d34e68a6ae843834fec9edadbea818fe8772fb24",
+ "domain": [
+  "software/version-control",
+  "software/project-management"
+ ],
+ "product": [
+  "gitkraken",
+  "github",
+  "gitlab",
+  "azure-devops",
+  "bitbucket",
+  "jira"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Gives an agent Git and project context such as commits, branches, pull requests and issues across multiple hosting services.",
+ "whenToUse": "Use when an agent needs commit, branch, pull request or issue context across repos and platforms.",
+ "tasks": [
+  "view commits",
+  "manage branches",
+  "work with pull requests",
+  "work with issues",
+  "cross-repo context"
+ ],
+ "effects": {},
+ "flags": []
+}

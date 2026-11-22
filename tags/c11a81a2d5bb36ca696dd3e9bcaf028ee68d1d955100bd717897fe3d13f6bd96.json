@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "c11a81a2d5bb36ca696dd3e9bcaf028ee68d1d955100bd717897fe3d13f6bd96",
+ "domain": [
+  "cloud/aws/architecture",
+  "cloud/migration"
+ ],
+ "product": [
+  "aws",
+  "azure",
+  "google-cloud",
+  "heroku",
+  "amazon-bedrock",
+  "terraform",
+  "openai",
+  "gemini"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "AWS guidance for startups on architecture, cost and security, plus migrations from other clouds and AI providers and AWS Activate credit checks.",
+ "whenToUse": "Use when a startup is planning AWS architecture, migrating to AWS, or looking for AWS startup credits and offers.",
+ "tasks": [
+  "recommend architecture by stage",
+  "estimate costs",
+  "give security recommendations",
+  "discover resources on other clouds",
+  "generate terraform for migration",
+  "migrate ai code to bedrock",
+  "plan agents on agentcore",
+  "check aws activate eligibility"
+ ],
+ "effects": {},
+ "flags": []
+}

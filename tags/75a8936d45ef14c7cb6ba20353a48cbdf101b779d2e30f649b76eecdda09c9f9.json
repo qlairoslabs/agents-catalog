@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "75a8936d45ef14c7cb6ba20353a48cbdf101b779d2e30f649b76eecdda09c9f9",
+ "domain": [
+  "ai/agent-memory",
+  "ai/persona"
+ ],
+ "product": [
+  "throughline"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Portable user-owned AI memory and persona layer that carries context and preferences across AI hosts.",
+ "whenToUse": "Use when the user wants their memory, persona and preferences to persist across different AI tools.",
+ "tasks": [
+  "store memories",
+  "maintain persona",
+  "share context across hosts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "44998e87dbc72b937302799f5660f38f9e6e5b8e39bfa5ed8f0ed9ad536972ed",
+ "domain": [
+  "food-safety/classification",
+  "science/nutrition"
+ ],
+ "product": [
+  "efsa-foodex2"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Converts an English food description into an EFSA FoodEx2 classification code.",
+ "whenToUse": "Use when food items need FoodEx2 codes for EFSA reporting or food data work.",
+ "tasks": [
+  "encode food descriptions to foodex2"
+ ],
+ "effects": {},
+ "flags": []
+}

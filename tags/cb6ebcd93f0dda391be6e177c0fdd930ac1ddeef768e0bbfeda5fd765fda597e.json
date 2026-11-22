@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "cb6ebcd93f0dda391be6e177c0fdd930ac1ddeef768e0bbfeda5fd765fda597e",
+ "domain": [
+  "finance/market-data/company-fundamentals",
+  "finance/investing"
+ ],
+ "product": [
+  "opencapital"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Free fundamentals data on US public companies, including metrics, business segments and peer comparisons.",
+ "whenToUse": "Use when an agent needs financial metrics, segment data or peers for a US listed company.",
+ "tasks": [
+  "get company metrics",
+  "get business segments",
+  "compare peers"
+ ],
+ "effects": {},
+ "flags": []
+}

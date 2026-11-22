@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "6553353d7258fd326cb3f00a3cb003c39181a05211147686a16008b94525f509",
+ "domain": [
+  "travel/flights-and-hotels",
+  "travel/booking"
+ ],
+ "product": [
+  "vuelo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers",
+  "schedule"
+ ],
+ "summary": "Searches live flights, hotels and packages and starts bookings the traveller pays on a secure Vuelo page, with cancellation, receipts and support tools.",
+ "whenToUse": "Use when a user wants to find or book flights, hotels or packages, or manage, cancel or get help with an existing Vuelo booking.",
+ "tasks": [
+  "search trips",
+  "check hotel availability",
+  "view offer details",
+  "list bags and seat options",
+  "change package flight",
+  "start a booking",
+  "switch payment option",
+  "correct traveller details",
+  "send link to a payer",
+  "cancel booking",
+  "request changes",
+  "contact support and track tickets"
+ ],
+ "effects": {
+  "d1e7d4980f062389de4e4e6af4f3be71e03349b69bae1aa300b3bad95473d26a": "write",
+  "6d4ba369dc59012c3ca8a7f645f38019ed5600c3c0cafda7d23d082578c61310": "write",
+  "c276180f0efd3545a0ca2b91eeb59e300852b333e9a3d778fa6228648a4f5ce7": "read",
+  "49805c2ef5db2d9ca7597cce70a4bbc62e8f686ef33ae8a4bd680ce255f963df": "write",
+  "bbb65b644f83526706ffbc32179f81a595c78db1c5c230a38ba99a41e5763cf6": "read",
+  "12f7f5590ff02ee6d342fae9e227fed9852ac72a3880c2315275805baa0d859a": "risky",
+  "712f8c27e6f5e45cd6ad36483b433c74af6710f366fc9b914b5bb87173de259c": "read",
+  "a3ce01ce916ea848b2a10650f181a65ee7c036f4bfdd268ee46bf3060c20940e": "write",
+  "9aea896870277b99d8b608371221f1d1f1579172fce5c121ead24078c15ff115": "write",
+  "6057df77c86fa7ae27fb84412545b0af6819626e23c861a8baea3aab453afb1b": "write",
+  "a72cb0c3908171f52710cd9ffc89101a2b62fa633c41cd478212a310069d58aa": "write",
+  "22786a223a47d79ef475979462151c87d864c3797d7edd29d193ca2c494ca5fb": "risky",
+  "38a51ce1a9e5bcf933752055b45ec8dc5f4c591b9a61f4968465fd98f6a91849": "write",
+  "7b075042a2a55e1ff5ba3892a15985ff21f0e5c99226c37a298798e3410919c9": "write",
+  "653a2ab9a0b17213b94ba4529369fcf0a75db35a201aa6602b2ff5149d483430": "write",
+  "1d2f5487b4bc546ece2368eeaf692efbfb51294e4dfb38ebd88d17de2150caa2": "write",
+  "6fd25d56e0fdde3f72cd80aff84d2536a88635b78081b3d8f2aa94e09cd65063": "write",
+  "812b96eb2a6dedf3ab4ef63e7835f6ac143d8c6d5fc9d0369497f4acbdadbfd5": "write",
+  "fddc23879116ddaee4c6bea1673b97659b52d8e4d61f1fcc53d8ff70e3c44516": "write",
+  "f837d3e0e376b6caefd18d3d42f7311a7c730bf6f2fb97debeb339841e826cc1": "read",
+  "b851e1e17f4b8b1bfff274e39736d210c6a35d67147db2013f38451102626a0d": "read"
+ },
+ "flags": []
+}

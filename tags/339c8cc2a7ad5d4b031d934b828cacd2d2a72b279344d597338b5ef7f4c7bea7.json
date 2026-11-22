@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "339c8cc2a7ad5d4b031d934b828cacd2d2a72b279344d597338b5ef7f4c7bea7",
+ "domain": [
+  "real-estate/singapore",
+  "finance/property-calculators"
+ ],
+ "product": [
+  "propely",
+  "mas",
+  "cpf"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Calculators for Singapore property: BSD, ABSD, SSD, TDSR, maximum loan tenure, decoupling, seller net proceeds and SORA rates.",
+ "whenToUse": "Use when estimating stamp duties, loan affordability or sale proceeds for a Singapore home.",
+ "tasks": [
+  "calculate BSD",
+  "calculate ABSD",
+  "check TDSR and max loan",
+  "find max loan tenure",
+  "evaluate decoupling",
+  "calculate SSD",
+  "estimate seller net proceeds",
+  "get SORA rates",
+  "describe Propely"
+ ],
+ "effects": {
+  "f2a08869fbc51af0896dd1de1ebfcbaabe51265bdd60148a784bd2b0524e19e6": "read",
+  "696b1213da27929bf026da86fa71025e3766335eb7066251e1eb58b71c2c17ed": "read",
+  "ab0cf96ee47143e6a8cf6797194eacab98f785bb60fc63c9eab86956330d4dae": "read",
+  "c2b7d58272c6e6e86154bb75a7f6df7aed077cf63b95193ac36e900be432e3f3": "read",
+  "19defd9035affd59eebe6d179a44783d90c172833ef0d928ad14f92f2922dbfa": "read",
+  "27a8095e82ecbe8e553bf23e7031603cd750bbcba25810db54f89e76b9aa34cc": "read",
+  "20f9886bcf5338ea101d2b0a9bd721dfd2dfab241be5b6961bf4478ad4ed828e": "read",
+  "f6ef1a94dd060418d0920d0dce128c557ffd7bc2935670b149efab032c3a8a29": "read",
+  "5087dda7aea00742f0fb266a2416c8f3a75edb671a333d9c308b32a65a7bee88": "read"
+ },
+ "flags": []
+}

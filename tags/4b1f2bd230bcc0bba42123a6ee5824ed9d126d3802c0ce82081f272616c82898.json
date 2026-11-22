@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4b1f2bd230bcc0bba42123a6ee5824ed9d126d3802c0ce82081f272616c82898",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "imessage",
+  "applescript"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Bridges iMessage to the agent by reading the local chat.db and sending messages via AppleScript, with allowlist-based access control.",
+ "whenToUse": "Use when an agent on a Mac needs to read or send iMessages under controlled access.",
+ "tasks": [
+  "read imessage chats",
+  "send imessages",
+  "manage pairing",
+  "manage allowlists",
+  "set access policy"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d90cad2ea5fb36bf80d5cc8d660f4df5ab08b1dfa170d6064988f0a47e71eebc",
+ "domain": [
+  "finance/accounting",
+  "finance/payments"
+ ],
+ "product": [
+  "ledgerbeaver"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Runs governed finance operations covering payables, receivables, general ledger, approvals, reporting and payments.",
+ "whenToUse": "Use when handling accounts payable, receivables, ledger entries, approvals or payments in LedgerBeaver.",
+ "tasks": [
+  "manage accounts payable",
+  "manage accounts receivable",
+  "post ledger entries",
+  "handle approvals",
+  "run financial reports",
+  "process payments"
+ ],
+ "effects": {},
+ "flags": []
+}

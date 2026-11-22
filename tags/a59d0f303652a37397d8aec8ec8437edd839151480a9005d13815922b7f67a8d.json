@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a59d0f303652a37397d8aec8ec8437edd839151480a9005d13815922b7f67a8d",
+ "domain": [
+  "software/web-development/frontend",
+  "software/ai-agents/artifacts"
+ ],
+ "product": [
+  "claude",
+  "react",
+  "tailwind-css",
+  "shadcn-ui"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Tools for building complex multi-component claude.ai HTML artifacts with React, Tailwind CSS and shadcn/ui.",
+ "whenToUse": "Use when building a complex claude.ai artifact that needs state management, routing or shadcn/ui components.",
+ "tasks": [
+  "scaffold react artifacts",
+  "use tailwind css",
+  "use shadcn ui components",
+  "add state management",
+  "add routing",
+  "bundle into html artifact"
+ ],
+ "effects": {},
+ "flags": []
+}

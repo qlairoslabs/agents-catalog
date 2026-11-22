@@ -1,0 +1,66 @@
+{
+ "classifier": 2,
+ "contentHash": "edb51a6f235c86996a79042da16dab9d437f2a8dc2839decdc66a2ef34dd84b0",
+ "domain": [
+  "data/market-data",
+  "finance/crypto",
+  "data/weather"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "usdc",
+  "coingecko",
+  "defillama",
+  "ethereum"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Pay-per-call API tools for weather, FX, crypto prices, DeFi yields, wallet risk and x402 marketplace analytics, paid in USDC on Base.",
+ "whenToUse": "Use when an agent with an x402 wallet needs weather, FX, crypto, gas or wallet-risk data, or wants to audit x402 marketplace listings.",
+ "tasks": [
+  "weather forecast and history",
+  "delay risk score",
+  "FX rates and conversion",
+  "crypto prices and news",
+  "DeFi yield scan",
+  "gas prices",
+  "wallet profiling and risk report",
+  "price and gas watches",
+  "x402 listing audits"
+ ],
+ "effects": {
+  "c25431dc5efbc931662abba70ee548ac193895aa8f2d704179d79cd81a28c163": "read",
+  "92cb6c41e4214c85d29e643e9168c7d92880d408857fd1eadb8d308f93e630d1": "read",
+  "d8e3b0742dc51c30a0eb0a7c038cd91a16fe1f5179452da42fc6e5d5d601e04a": "risky",
+  "5f9d909a61d61a1b4ee387ff0d820c2353c7a27658c861a24e060fbb76da6860": "risky",
+  "3945bc0807d0541f9abaa612cd39d880c6eff5308d262986b790eddb6e4964fe": "risky",
+  "67cbdfdccb94f30623a9335509a2522c3df8f06e21072ceccfbe040809983ce3": "risky",
+  "f42f6b45c8c4e2b1f2ea07c8b628519893e084e5ebe6839a3b2a177fef104999": "risky",
+  "f57136510fec1f24f043a2839b082871c71064bd98ed416594cb80a81085f773": "risky",
+  "0817f630c4a90d34a77607e90023bdbe04b8ecbe70af50414cec942ef71af043": "risky",
+  "6479001e3216851ae6c094730f58462ae5ccf2b9b06849e52a8c206f93d6a4ff": "risky",
+  "22ebdc05e25ced370e48e48c3f3e5c2b4e1e998b7f246b446cbb67777b4af69c": "risky",
+  "f059e1a56a15b668456392fe6b842f194547a29e3fb3e03e8107431b24289a4b": "risky",
+  "f576dbbd92cf2d13ec280863329eaa92a7e9d9c4e668f27dd0fe5588483cc21b": "risky",
+  "e7dc0e4bffae9776c79179e4a7d71201ef0f5bb213e7fb229b42818e1c81bb78": "risky",
+  "d5bb8ef4d453d9c47fc7e30a295745f0c74816fff034cfe35ba674d632653823": "risky",
+  "5f1e09371d619b7190be53f7b63626e1692558bf81b341b20b79dd8cd05a93d9": "risky",
+  "3399dda4d90ef8a0def5830766faba21f17c4611665f837e29edf955e8e9ef13": "risky",
+  "b162d6705b6676aaa508945a383e0dd7a1776e0b4e23ceabee4a37c1d7909b7b": "risky",
+  "d76dd4e0aa0874e4e37eb102b6d29a7bf2b79cc53c541bf3b5da576cd5326dc5": "risky",
+  "abc91e2d950379557bc088a8feac68478376733def0d98080b237ebfb1c7c235": "risky",
+  "31eb1ed4fb66d41de3a4338f0bd025c284e9c2073a02a8dbf553759f34c5e709": "risky",
+  "026f859b4737f63bfde3d1f8ab802616936266c35673e93fe1861d049fb87d3c": "risky",
+  "9ad4da3b861a306c9c0a70413993f95addaa10e09739ac910c4a04a9e6d8a3db": "risky",
+  "13e640ae6df3346f95f1a10f75e2ce81fa27b0f02440ab32760e8a84adda8c9d": "risky",
+  "c7cae26a23455be38dce59ed1c7949155b926e5549c5c16f4ce39a31efe3806c": "read"
+ },
+ "flags": []
+}

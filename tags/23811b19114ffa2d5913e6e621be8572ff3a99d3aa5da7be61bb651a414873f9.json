@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "23811b19114ffa2d5913e6e621be8572ff3a99d3aa5da7be61bb651a414873f9",
+ "domain": [
+  "media/live-streaming",
+  "marketing/events"
+ ],
+ "product": [
+  "evmux"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Controls evmux live streaming studios, including scenes, layers, participants, media, banners and broadcasts.",
+ "whenToUse": "Use when an agent needs to set up or operate a live stream in an evmux studio.",
+ "tasks": [
+  "manage scenes",
+  "manage layers",
+  "manage participants",
+  "add media",
+  "show banners",
+  "start or stop broadcast"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "5b2fcd2de0aac9587a6c03832a80e975fa0b72e071adc3970c496c419ded5f96",
+ "domain": [
+  "real-estate/rental-search",
+  "housing"
+ ],
+ "product": [
+  "socials-homes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Lists cities, plans and live rental listing counts for Socials Homes and returns a signup link for a home search.",
+ "whenToUse": "Use when someone is looking for a rental home in a supported city and wants to know supply and plans.",
+ "tasks": [
+  "list cities",
+  "get plans",
+  "count live listings",
+  "get signup link"
+ ],
+ "effects": {
+  "66a5116871b5cc6dd092a90319b41576502c87ffb5b4fd5439776c19c443bd19": "read",
+  "69785f1f7c80bdb06f6593ba911ff567204a8da3b6a75cd41cdcb95655f9d774": "read",
+  "8167188197604c1ddf6a9b3fc5861495dacf077bf25e9c3e35b01d063ba49581": "read",
+  "7cc8a14c45ac6f5b46a0d061a2ea315d1e5f08601e4f35937989e0bcbea57620": "read"
+ },
+ "flags": []
+}

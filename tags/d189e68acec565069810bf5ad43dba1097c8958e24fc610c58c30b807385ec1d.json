@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "d189e68acec565069810bf5ad43dba1097c8958e24fc610c58c30b807385ec1d",
+ "domain": [
+  "crypto/bitcoin",
+  "finance/market-data"
+ ],
+ "product": [
+  "bitcoin",
+  "strategy-mstr",
+  "miningrigrentals"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Bitcoin market data: buying gauge, treasury-company mNAV, float, halving, preferreds yields, a bitcoin-merchant directory and hashrate market info.",
+ "whenToUse": "Use when a user wants current bitcoin market signals, treasury company valuations, bitcoin-accepting merchants or hashrate rental market data.",
+ "tasks": [
+  "get buying gauge",
+  "get gauge history",
+  "get treasury mNAV",
+  "get bitcoin float",
+  "get halving countdown",
+  "get bitcoin price",
+  "rank treasury preferreds",
+  "search bitcoin merchants",
+  "look up glossary terms",
+  "get hashrate market",
+  "get rental status"
+ ],
+ "effects": {
+  "4b89642a37ef663f5b207a8e0ffa87068ef684d691adee5b1ff78672b1a0e0d2": "read",
+  "3b50599269bab464770755479116cc363c2cc444d300d3cfd8099c0bcaf9f44a": "read",
+  "258967ffe370cb363e82ecddd8f3deca563fe58dbedf50aeed72e19ad0218f52": "write",
+  "7e1c0da18cf7eb5ea4c5f5695796066a15d50fd9c81b72b3bae0b8fd05e5c0bc": "read",
+  "35738e36c5e26cf3bf358901c4c37f6b6f49961f6ff5a66932652c3da90e8e34": "read",
+  "ae40f4b7916161f48850b77c50c20fd5036dd3ba9b481605aa1b9a9f241b586e": "read",
+  "715ba240cdcdd13766fc11cfbc2d0b8008f970240682d635aee58fdff0fb7bf9": "read",
+  "4033630d2d3d7accec985612abdff5f3c4f16c37f6b543da55cc3bb684749e0e": "read",
+  "a256a6094981366e96d540eed930e7d5ac31f8b9ef7e25a63cc609c631378175": "read",
+  "60226f5deb80052ddacf46cc7b4424c369712974e416039604deeb043d061912": "read",
+  "c067aaed831d6a38600123817b3c464290ee5e147ee44dfac85662ef344e404b": "read",
+  "c06ad1b6a790266fbbf6a6ea7ca2ce6ed659565b7e14a8846961fb9b165b519d": "read",
+  "d84172135e9e817394e76873fe7dbdb91294863f1fcce9f13dd845731742288a": "read",
+  "060c8833576af0c6cb878d2f3b4843cbdef06154996fd29bfcc99c164c0ffdd0": "read",
+  "0e27603ba39f75a7f9914dc72ef639d7f801b17317f1636ec21b2b03a0766aa5": "read",
+  "4fc07b052fc451cde3f585d5ab8bfbb2bd29dc7cff49946a8d103cbc6786aa33": "read",
+  "208ebb67265d38f3732ab49d669444e5a08e2fad8af8d637f1969460b85923a0": "write"
+ },
+ "flags": [
+  "rental tools only return a disclosed referral link to MiningRigRentals",
+  "tool descriptions reference create_rental, which is not listed"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6d9edb149e86d0ae0d67334349ffa2387798633c0fd2e843fcaa9f6ef33be235",
+ "domain": [
+  "analytics/product-analytics",
+  "crypto/web3"
+ ],
+ "product": [
+  "formo"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analytics and attribution connector for onchain apps covering events, wallets, funnels, retention and revenue.",
+ "whenToUse": "Use when an agent needs analytics on an onchain app's users, funnels, retention or revenue.",
+ "tasks": [
+  "query events",
+  "analyze wallets",
+  "analyze funnels",
+  "analyze retention",
+  "track revenue",
+  "attribution analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "4fe7857616161d987a4cc19839f5f71eb89541b9b24f111435e07ae24fa57b63",
+ "domain": [
+  "communication/sms",
+  "communication/whatsapp",
+  "marketing/messaging"
+ ],
+ "product": [
+  "topmessage",
+  "whatsapp"
+ ],
+ "audience": [
+  "marketing",
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Sends and schedules SMS and WhatsApp messages, manages contacts and templates, and tracks delivery status.",
+ "whenToUse": "Use when an agent needs to send or schedule SMS or WhatsApp messages to contacts and check delivery.",
+ "tasks": [
+  "send sms",
+  "send whatsapp messages",
+  "schedule messages",
+  "manage contacts",
+  "manage templates",
+  "track delivery"
+ ],
+ "effects": {},
+ "flags": []
+}

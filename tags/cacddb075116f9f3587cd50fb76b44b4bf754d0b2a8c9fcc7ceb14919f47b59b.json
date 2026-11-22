@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cacddb075116f9f3587cd50fb76b44b4bf754d0b2a8c9fcc7ceb14919f47b59b",
+ "domain": [
+  "marketing/social-media",
+  "messaging/telegram"
+ ],
+ "product": [
+  "telegram"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Analytics, content planning and scheduled publishing for Telegram channels you administer, without a userbot.",
+ "whenToUse": "Use when an agent needs to plan, schedule or analyze posts for Telegram channels the user administers.",
+ "tasks": [
+  "view channel analytics",
+  "build content plans",
+  "schedule channel posts"
+ ],
+ "effects": {},
+ "flags": []
+}

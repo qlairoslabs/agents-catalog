@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "bdd70175328dfc1edb50f1da29a172d65d075ffc98f71ba8a77c7e287ab8ac25",
+ "domain": [
+  "data/social-media-search",
+  "marketing/research"
+ ],
+ "product": [
+  "linkedin",
+  "x",
+  "reddit",
+  "tiktok",
+  "youtube",
+  "google-maps"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Searches social media, news, forums and Google Maps, including LinkedIn, X, Reddit, TikTok and YouTube.",
+ "whenToUse": "Use when an agent needs public posts, news or local business listings across many platforms.",
+ "tasks": [
+  "search social media",
+  "search news",
+  "search forums",
+  "search google maps"
+ ],
+ "effects": {},
+ "flags": []
+}

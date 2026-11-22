@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b0574fb0341bd5e3e7dff9d6e1c53f41aa08a267a4cb8ad2200d70d806337fcf",
+ "domain": [
+  "content/localization",
+  "content/translation"
+ ],
+ "product": [
+  "localize-io"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Localization tools for agents covering translation, TMS sync, translation memories, glossaries and post-editing.",
+ "whenToUse": "Use when an agent needs to translate content or manage localization assets in Localize.io.",
+ "tasks": [
+  "translate content",
+  "sync tms",
+  "manage translation memories",
+  "manage glossaries",
+  "post-edit translations"
+ ],
+ "effects": {},
+ "flags": []
+}

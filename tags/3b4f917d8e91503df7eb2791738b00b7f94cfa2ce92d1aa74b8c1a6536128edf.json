@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "3b4f917d8e91503df7eb2791738b00b7f94cfa2ce92d1aa74b8c1a6536128edf",
+ "domain": [
+  "finance/software-pricing",
+  "procurement"
+ ],
+ "product": [
+  "salesforce",
+  "hubspot",
+  "openai",
+  "anthropic",
+  "aws-bedrock"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Sourced pricing data for thousands of software products: tiers, hidden costs, negotiation tips, price changes, TCO and LLM cost estimates.",
+ "whenToUse": "Use when comparing software prices, estimating true cost for a team, or preparing a vendor negotiation.",
+ "tasks": [
+  "get pricing",
+  "find hidden costs",
+  "negotiation tips",
+  "price history",
+  "compare products",
+  "discover software",
+  "calculate TCO",
+  "estimate LLM cost",
+  "recent price changes"
+ ],
+ "effects": {
+  "649c85f32d1ad7253bcc9b1c27e47953f98639cf56d4281b465905afff5fb71d": "read",
+  "47876ae1f46f11dc816e456dccabbe949c112ea7094562ac118102c7fc15202c": "read",
+  "4aa75fec34ca8f3fdff63132e96c2c4313c93f15d088031a96936f5e91105cae": "read",
+  "85cbd403ff819e12885985fae09c055fcd6c7299e86986e4dd9c5d8c9aa72a64": "read",
+  "8886fad1e93de39a59e708ce06a6daa74347a9ac2d662cb80393b480ffbcba18": "read",
+  "1b689308e6b2ec7a389aa653ca621db6f60393a36079e466c4417461ba16380c": "read",
+  "68259010ec801ed1399cfb153ebcd3f93509bf568954ce0d77fc505ef339f157": "read",
+  "4c382d6f8ae76261e98bd68e9dd63c3e24be589a0b196b1a23aeb2c220414d8a": "read",
+  "5b81e98deb3030bbae5afba41e5a7500191ee36feaac59f9b29513aefc747577": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6fc637e2010234b1a275eaf6c052d744ad28f67da90c1e2344554e58dc160f0e",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/development"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Explains the shared model for running Airflow tasks in non-Python languages via Python stubs, matching IDs and JSON XCom.",
+ "whenToUse": "Use when planning Airflow tasks in a non-Python language and needing the shared stub pattern.",
+ "tasks": [
+  "pair task stub with native code",
+  "match task and dag ids",
+  "pass data via xcom as json",
+  "choose available language sdk"
+ ],
+ "effects": {},
+ "flags": []
+}

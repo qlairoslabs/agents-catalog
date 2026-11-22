@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "fba0e080094aad75b217c85e8eaf2262179f8181d01eedd4ba99ce4d219b1144",
+ "domain": [
+  "cycling/product-database"
+ ],
+ "product": [
+  "the-wheel-atlas",
+  "uci"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Open database of bicycle wheelsets with specs, weights, rim depths, UCI approval status and prices in several currencies.",
+ "whenToUse": "Use when comparing or looking up bicycle wheels, their specs, prices or UCI approval.",
+ "tasks": [
+  "search wheels by filters",
+  "get wheel price and specs",
+  "compare wheels",
+  "check UCI approval"
+ ],
+ "effects": {
+  "9a13ca54487264a3cd9476269ac2b67079ad135a53879cb4a800a1ba60478a50": "read",
+  "f73761751da19bfb34b182fe42b76923ea7c1d2eae20cf4cfb7b2956849a85dd": "read",
+  "44c04a358cb9579d5b27cb7cc8eaedd08d4aaa7cc59f3287560cb85e88ff12c3": "read",
+  "aee1ec18f3505f27b1e3a60d500dd2dcdee03046addc28f1366a9a6d290b2ff6": "read"
+ },
+ "flags": []
+}

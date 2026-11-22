@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "77023bca598e3da1e848ac699cd6897a23d2902a0aaf09fe322d20df30459d33",
+ "domain": [
+  "finance/trading/crypto",
+  "finance/trading"
+ ],
+ "product": [
+  "metatrader-5"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Connects an AI assistant to 16 crypto exchanges and MetaTrader 5 for placing and managing trades.",
+ "whenToUse": "Use when an agent needs to trade crypto or forex/CFD instruments on supported exchanges or MetaTrader 5.",
+ "tasks": [
+  "place trades on crypto exchanges",
+  "trade via metatrader 5",
+  "manage positions across exchanges"
+ ],
+ "effects": {},
+ "flags": []
+}

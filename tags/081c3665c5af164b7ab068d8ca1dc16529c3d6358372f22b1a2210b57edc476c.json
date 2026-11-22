@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "081c3665c5af164b7ab068d8ca1dc16529c3d6358372f22b1a2210b57edc476c",
+ "domain": [
+  "software/cybersecurity/threat-intelligence"
+ ],
+ "product": [
+  "virustotal"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Queries VirusTotal for security analysis of files, URLs, IPs and domains.",
+ "whenToUse": "Use when an agent needs to check whether a file, URL, IP or domain is malicious.",
+ "tasks": [
+  "scan urls",
+  "look up file hashes",
+  "check ip reputation",
+  "check domain reputation"
+ ],
+ "effects": {},
+ "flags": []
+}

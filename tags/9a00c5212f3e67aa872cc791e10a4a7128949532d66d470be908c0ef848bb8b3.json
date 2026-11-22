@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "9a00c5212f3e67aa872cc791e10a4a7128949532d66d470be908c0ef848bb8b3",
+ "domain": [
+  "education/careers",
+  "education/training-programs"
+ ],
+ "product": [
+  "vocaneo",
+  "rncp",
+  "rome"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only French career data: job profiles, skills comparison, similar jobs, RNCP diplomas and training programs and providers.",
+ "whenToUse": "Use when advising on French careers, retraining, diplomas or finding training programs and schools.",
+ "tasks": [
+  "search jobs",
+  "get job profile",
+  "compare skills to a job",
+  "find similar jobs",
+  "list sectors",
+  "find diploma pathways",
+  "search certifications",
+  "search trainings",
+  "search training centers",
+  "resolve location"
+ ],
+ "effects": {
+  "e3e6e2d9a964cd53fc5b9c98a57dacf2561237c4e9c16bdeca88b4a0506021cb": "write",
+  "67ebbfffd349e4495650c11a59f733e7368bf1249d105f10aa74d9c7fcca3287": "read",
+  "8b8f5d97292a84629716d432efb63642ff916c7eec096a890ac8026020b7521f": "write",
+  "b216437d83c6f6013c2eb82ecaa0f5d89e2ed6057f6b92fa09fdd770021643c9": "write",
+  "f6394f4bc8cd9a35ce61b68cd487794ef760887bd59f4542aadf85378d30e4b6": "read",
+  "ad29c7d0af2403f4ad3ff7a8771ba44c148eca3ab748e137a90408b6ea5708b0": "write",
+  "4dc605b9d240f37fc6f77a9fcc5c6477cb0644fb26f7cff9af4e9429b063784b": "write",
+  "51f4d752463fbf59a2e87da1dcc245769f3a4f0f4252a5a1c13968a47dcae8f6": "read",
+  "748a1f5ac435f1aa64c1d2f5d395d960d80cd48a3c5ef36b437cb9bea8f44d97": "write",
+  "d8f11fedea61fb3de8031e9490e36fdbcbc474d92879f7e9f0c662fb4883cf64": "read",
+  "c8a983d7671813acff9d7345fd2342d151f3afddbdea08c0c0f606279c545f61": "write",
+  "7c5aea1c5e908bc5764317dc5092a9918442a3a9bd8e15512a72ae45ccf52be1": "write",
+  "fb7d26a826e41128781ae139b32493b99ec6ca9f44f0b5b882ddaf7cc622ea53": "write"
+ },
+ "flags": []
+}

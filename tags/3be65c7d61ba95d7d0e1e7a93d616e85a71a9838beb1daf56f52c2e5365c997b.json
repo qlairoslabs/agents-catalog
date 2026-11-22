@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3be65c7d61ba95d7d0e1e7a93d616e85a71a9838beb1daf56f52c2e5365c997b",
+ "domain": [
+  "data/vector-databases",
+  "software/ai/rag"
+ ],
+ "product": [
+  "pinecone"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Pinecone vector database tools for managing indexes, upserting and querying vectors, and scaffolding projects.",
+ "whenToUse": "Use when building semantic search, RAG or recommendation features on Pinecone.",
+ "tasks": [
+  "create indexes",
+  "describe indexes",
+  "upsert vectors",
+  "query indexes",
+  "generate agents.md",
+  "initialize python projects"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "75a5f42418eb8b51f1c1c383a994178878bcb8c1157b035114b15804af946f92",
+ "domain": [
+  "weather/surf"
+ ],
+ "product": [
+  "noaa",
+  "global-surfari"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives 7-day surf forecasts of wave height, period and wind for coordinates or named surf spots.",
+ "whenToUse": "Use when a user asks about surf conditions at a beach or coordinate.",
+ "tasks": [
+  "forecast by coordinates",
+  "forecast by spot name",
+  "list saved spots"
+ ],
+ "effects": {
+  "f820c25a78876f4b9ad696ea863edb8bc4d542da784a939452dc9359ae47a4d3": "write",
+  "6a5706558e8c35dfc6488aec62199071aaf1e5da6a597debf57403bd1d59f2db": "write",
+  "b916d0ab500af99313ca9fa0d93c44cac3f27eba2a80fbd75bc2dda12cfd87d3": "write"
+ },
+ "flags": []
+}

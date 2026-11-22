@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d430d5fe5aba063f4b6f72ce1b9b6f18f2bf097a2581c9ff3a6dc4a82db21e34",
+ "domain": [
+  "software/cybersecurity",
+  "software/dependency-scanning"
+ ],
+ "product": [
+  "snyk",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Local npm package exposing Snyk security scanning to find and fix vulnerabilities in application code and dependencies.",
+ "whenToUse": "Use when scanning a codebase or its dependencies for security issues with Snyk.",
+ "tasks": [
+  "scan code for vulnerabilities",
+  "scan dependencies",
+  "suggest fixes"
+ ],
+ "effects": {},
+ "flags": []
+}

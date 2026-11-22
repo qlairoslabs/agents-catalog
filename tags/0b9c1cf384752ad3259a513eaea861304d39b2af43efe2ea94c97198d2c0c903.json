@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "0b9c1cf384752ad3259a513eaea861304d39b2af43efe2ea94c97198d2c0c903",
+ "domain": [
+  "healthcare/pharmacy-benefits",
+  "healthcare/medical-coding"
+ ],
+ "product": [
+  "cms-nadac",
+  "fda-drug-shortage-database",
+  "medicare-part-d"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Public US drug acquisition costs, drug shortages, medical claim codes and PBM contract guidance for checking what health plans pay.",
+ "whenToUse": "Use when someone asks whether a prescription price is fair, needs a medical billing code explained, or is preparing for a PBM contract renewal.",
+ "tasks": [
+  "look up drug acquisition cost",
+  "search drugs by name",
+  "compare a charged price to acquisition cost",
+  "list current drug shortages",
+  "look up cpt, icd-10, hcpcs, drg and denial codes",
+  "get a full drug profile",
+  "explain pbm contract terms",
+  "generate a pbm renewal checklist"
+ ],
+ "effects": {
+  "0c5a1b7d9818b58d9cb932d3a29f676d6611dc7a018c087fd857180e9c47c737": "read",
+  "0407f90ea468e1348e00885c418e5c276c927c1360f96eca1a76c6adcbf37d69": "read",
+  "1d11fc43412095a6c6ae2606d931ec848351772f8be2a021cf5f03938c3ff925": "read",
+  "058564ae82444accf75c5af7995b272d4494865433c0a2c27b6c52dd33991c0c": "read",
+  "df1e9778e2c9c722648427a8918f2032be3ea3065b2b3748645d9a073c9e8bf3": "read",
+  "8a79c483878c75d44db0d9a304c8b3a85eacddaf17892ed235df4b23f1abbd20": "read",
+  "8da9cc13354903c9e0a94324cdc832a4efca224aa637880ca3e4f526ddc94377": "read",
+  "17989c85a2720d7f0b7e967f6339f5483f2796a07ff328d226d6ad9abe07273a": "read"
+ },
+ "flags": []
+}

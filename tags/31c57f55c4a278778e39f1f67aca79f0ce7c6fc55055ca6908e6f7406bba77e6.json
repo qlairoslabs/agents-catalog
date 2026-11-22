@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "31c57f55c4a278778e39f1f67aca79f0ce7c6fc55055ca6908e6f7406bba77e6",
+ "domain": [
+  "media/generation",
+  "design/creative-canvas"
+ ],
+ "product": [
+  "flora"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates and edits images, video, audio, text and 3D assets on the FLORA creative canvas.",
+ "whenToUse": "Use when an agent needs to create or edit multimedia assets on FLORA.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "generate audio",
+  "generate 3d assets",
+  "edit media"
+ ],
+ "effects": {},
+ "flags": []
+}

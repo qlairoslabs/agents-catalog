@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ecadb34961cca54d27568f8952722fcdb0d5f3223748d03d22b8db6b3a3c3140",
+ "domain": [
+  "ecommerce/amazon-wholesale",
+  "ecommerce/product-sourcing"
+ ],
+ "product": [
+  "seller-assistant",
+  "amazon"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Connects AI clients to Seller Assistant workflows for Amazon wholesale operations.",
+ "whenToUse": "Use when an Amazon wholesale seller wants to run Seller Assistant product or sourcing workflows.",
+ "tasks": [
+  "run amazon wholesale workflows",
+  "analyse products"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "ee0f88bd808040100fbcd6c41adae33a9575285a907f2bb906ee78bcc0c84714",
+ "domain": [
+  "standards/specifications",
+  "reference/documentation"
+ ],
+ "product": [
+  "wia"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Search WIA's own voluntary standards catalogue and read their overviews and specification files.",
+ "whenToUse": "Use when a user needs to find or read a WIA-authored standard or specification.",
+ "tasks": [
+  "search standards",
+  "get standard overview",
+  "read spec files",
+  "get catalogue stats"
+ ],
+ "effects": {
+  "fa117fe82b5822bfa31837387b2aa597ecbe6f7163ad07a62c4240cfd858c8de": "read",
+  "ad83c33d15ddaaff1b307607b0a47548d68eb4b9a7ecca1520d84509d9772740": "read",
+  "882a9f84ca29c0a892a149fa4ae3b7bb6dce6161ee7c4a72aaf017e0fce9c214": "read",
+  "2ccd6132118f2350954e3534626e2b1d409e7a416749f17f018efdb8ee1653bb": "read"
+ },
+ "flags": []
+}

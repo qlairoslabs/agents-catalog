@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "a9566d9e34c1bcc8fddb59426c6c4350f69a9034670c57b548f6d33d4f1d8c6d",
+ "domain": [
+  "community/startup-builders",
+  "software/project-showcase"
+ ],
+ "product": [
+  "rounders-to-founders",
+  "stripe"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Lets an agent sign up a human to the R2F community, publish their build, post log updates, verify ownership and self-report revenue.",
+ "whenToUse": "Use when the user wants to post their project to Rounders to Founders, log progress or report revenue.",
+ "tasks": [
+  "start signup",
+  "finish signup",
+  "update profile",
+  "list builds",
+  "create build",
+  "update build",
+  "verify ownership",
+  "post log update",
+  "report revenue",
+  "search community",
+  "view tool rankings"
+ ],
+ "effects": {
+  "c78d929955a2b3965f8f2b33a1b1f9c68e7c28235b6932c549f4f1396522ec0c": "write",
+  "9a09019fed677a0ef21eec36fbaacc353178b60cf54e7f6b0173687c952ba526": "write",
+  "a575863c822853c7748f21b1443fff93e815869825bdefafabf5bb4ba8c2935c": "write",
+  "2bc10955a1ba0205f953d762a7a6db633ad9ff8992920514b13dbc5bdc624b3e": "read",
+  "2277b90a9e7f6eb71f5fdf5681917b42a5a6b3faf2d63c2404b01aa8836808db": "read",
+  "1cb48f5b047c929a8423a49c3ef7ecf443f17146448c5361f16d7b86db46b9f4": "read",
+  "f4e361a77490263922668488c6d55d603343a6add42a64fad841448057559482": "write",
+  "d06eb768bc8c6f58f51ee644372651f735107e68b04f54590e1873373f289b39": "write",
+  "db1f72d9f0faee574480aa5a7d8ae8b9ea8b84cd749d2ceb32f88700a2ab9b3e": "write",
+  "1103a843b68a2ef83d5e8c856e01cf044ca8a06d61c250b750d0702d23510e80": "write",
+  "e1211c9964167c58a45c0e7c8bb4be7238cf17f258457dee2cd7c02a865773d7": "write",
+  "645b1114bdbbc45b172110e8dfc6791c46a380e4573fc51d50da9e5c11fc66c3": "read",
+  "2748b194787a2f0e345b97a4fe55ee821fe7e333d1f28fbb10a86198ef0a8981": "read"
+ },
+ "flags": []
+}

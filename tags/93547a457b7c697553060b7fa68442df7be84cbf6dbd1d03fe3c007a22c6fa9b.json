@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "93547a457b7c697553060b7fa68442df7be84cbf6dbd1d03fe3c007a22c6fa9b",
+ "domain": [
+  "software/full-stack",
+  "cloud/aws"
+ ],
+ "product": [
+  "aws-amplify",
+  "aws-lambda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Guided workflows for building full-stack apps with AWS Amplify Gen 2: auth, data models, storage, GraphQL APIs and Lambda.",
+ "whenToUse": "Use when building a full-stack app on AWS Amplify Gen 2.",
+ "tasks": [
+  "set up authentication",
+  "define data models",
+  "configure storage",
+  "build graphql apis",
+  "add lambda functions"
+ ],
+ "effects": {},
+ "flags": []
+}

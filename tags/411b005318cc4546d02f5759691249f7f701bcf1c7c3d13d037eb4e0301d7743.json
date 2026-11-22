@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "411b005318cc4546d02f5759691249f7f701bcf1c7c3d13d037eb4e0301d7743",
+ "domain": [
+  "hr/job-search",
+  "government/unemployment-benefits"
+ ],
+ "product": [
+  "locate-jobs-network"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches live US jobs on Locate Jobs Network boards and answers unemployment benefit questions for 13 states.",
+ "whenToUse": "Use when a user is looking for US jobs or needs unemployment benefit information.",
+ "tasks": [
+  "search jobs by role and place",
+  "filter remote jobs",
+  "answer unemployment questions by state"
+ ],
+ "effects": {
+  "bdd1d7c0f2ddd9f7459f94e1db5c9b434fc97c2fe0dc167178a5d04242416d82": "write",
+  "949c936a03c48984dd04b1257287370b7ca71e670ed333791bef2d1c3f3045e8": "write"
+ },
+ "flags": []
+}

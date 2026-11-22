@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fb1b69257166adaf6fec5c1c30e22a6413719804976c45b57a0bbb17ec347245",
+ "domain": [
+  "health/nutrition",
+  "food/food-database"
+ ],
+ "product": [
+  "edamam"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up nutrition facts for foods by natural-language query, barcode or image, drawing on a database of over a million foods.",
+ "whenToUse": "Use when you need calorie, macro or nutrient data for a food, meal, barcode or food photo.",
+ "tasks": [
+  "look up food nutrition",
+  "search foods by natural language",
+  "identify food by barcode",
+  "analyze food from image"
+ ],
+ "effects": {},
+ "flags": []
+}

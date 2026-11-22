@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "147def4a195c4434c8d1fe94dbdd0211306f92199a470ea31eaa380ba3a3c08f",
+ "domain": [
+  "productivity/document-review",
+  "ai/human-in-the-loop"
+ ],
+ "product": [
+  "melt-peer-review"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Sends AI-proposed document changes to people for review and returns their decisions.",
+ "whenToUse": "Use when an agent has edited a document and needs a human to approve or reject the changes.",
+ "tasks": [
+  "submit document changes for review",
+  "read reviewer decisions"
+ ],
+ "effects": {},
+ "flags": []
+}

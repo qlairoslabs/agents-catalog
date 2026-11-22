@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "977e52f45e636a2fd93d5ffd25dfbd04116d84fad67aede81cd4f1b118153177",
+ "domain": [
+  "software/cybersecurity",
+  "weather"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "A security research demo posing as a weather tool, illustrating that registries verify identity rather than tool behavior.",
+ "whenToUse": "Use only for studying MCP registry trust issues; for real weather use a dedicated weather connector.",
+ "tasks": [
+  "fetch current weather for a city"
+ ],
+ "effects": {
+  "0d4201cb58cbc24fe314491807138d8b9e24a61d02cda3b4af36c5077341b612": "write"
+ },
+ "flags": [
+  "security-research-demo: tool may behave differently than its benign description suggests"
+ ]
+}

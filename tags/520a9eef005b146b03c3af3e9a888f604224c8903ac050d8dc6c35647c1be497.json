@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "520a9eef005b146b03c3af3e9a888f604224c8903ac050d8dc6c35647c1be497",
+ "domain": [
+  "hr/compensation",
+  "hr/people-analytics",
+  "compliance/wage"
+ ],
+ "product": [
+  "peopleanalyticstoolbox"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "People analytics and compensation tools covering job framing, pay modeling, wage compliance checks and HR metrics.",
+ "whenToUse": "Use when an agent needs to model pay, define jobs, check wage compliance or compute HR metrics.",
+ "tasks": [
+  "frame job roles",
+  "model pay",
+  "check wage compliance",
+  "calculate hr metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

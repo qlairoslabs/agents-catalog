@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5e4bfe5a88ca6f9985c1ba207fbb83391c87eed64f9db9fdf3d164a63e205008",
+ "domain": [
+  "software/language-servers",
+  "software/development"
+ ],
+ "product": [
+  "typescript",
+  "javascript"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds a TypeScript/JavaScript language server for code intelligence.",
+ "whenToUse": "Use when editing or navigating TypeScript or JavaScript code and you need diagnostics or references.",
+ "tasks": [
+  "provide diagnostics",
+  "go to definition",
+  "find references"
+ ],
+ "effects": {},
+ "flags": []
+}

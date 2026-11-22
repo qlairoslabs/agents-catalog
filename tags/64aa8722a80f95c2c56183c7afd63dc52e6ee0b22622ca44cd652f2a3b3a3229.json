@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "64aa8722a80f95c2c56183c7afd63dc52e6ee0b22622ca44cd652f2a3b3a3229",
+ "domain": [
+  "software/documentation",
+  "ai/agent-tooling"
+ ],
+ "product": [
+  "install-md"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Creates and manages anonymous projects, tool steps and data sources that become install guides served as MCP servers for coding agents.",
+ "whenToUse": "Use when you want to publish step-by-step setup instructions for a library or API as an MCP guide for coding agents.",
+ "tasks": [
+  "create session",
+  "create project",
+  "update project",
+  "delete project",
+  "add tool step",
+  "reorder steps",
+  "toggle tool",
+  "add data source",
+  "list projects"
+ ],
+ "effects": {
+  "c2806e42131ce4617d3d87e37873fc7983924490d451660986e518262c2795a2": "write",
+  "1d888438fb7238e7a4bc31a43ea02c16e62951ddb3c2f5f52f4957a3e57baca7": "read",
+  "dac8a229dbd08ac3007179c20823f94029236116b185975e2d086d6c7d6916ba": "read",
+  "8240b8423605079c3062e50fa981a03e459644aea19f4ac3e6696a5259eaf0a9": "write",
+  "a8ea6d2318cfe6cc7393995d43334ad32a463a1be9bee7f75113ebc41900dc5a": "write",
+  "63a9993a43decb6c1c2651cff8f89d1cc97c8febf02970df809421ad8773cd04": "write",
+  "e7b607d5dbee8b6016571657f0833050129c331259564d70044b0f03308fa71c": "write",
+  "0301a1c386579b6273f9dde5a6f04d620e8418abc9a13e8c37fb620aa5410f58": "write",
+  "ea4cb4f03e329a9e764c2db4eb795fd01a32bc2e006062708cbf2948954c84f5": "write",
+  "30156632e653c8eacd9e8e4fa3d9388f2f475daf14aa3729ebbe18f57cae9a1b": "write",
+  "487cc950c876537cfd8dc42281d155537b8ca51567b29fc5eae05912b4aedf4a": "write",
+  "4a0fcd8d93f532fb13f19afbaffd564bb67539ed7b537761fada7bda8419dcc9": "write",
+  "d55ddf8ae68df98f3e6eb9c0a74ebf5e3d145aadaa165d29ec63a47c1425617b": "write"
+ },
+ "flags": []
+}

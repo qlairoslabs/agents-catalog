@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "fc50a82393e6ed7c19c4573981ebd1b337f741339438297c3df2f03983d520ce",
+ "domain": [
+  "immigration/investment-migration",
+  "legal/citizenship"
+ ],
+ "product": [
+  "imi-daily",
+  "uscis"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Read-only data on residence and citizenship by investment programs, citizenship rules, settlement blocs, approved agents, EB-5 centers, statistics and news.",
+ "whenToUse": "Use when comparing golden visa or citizenship-by-investment programs, verifying authorised agents or EB-5 centers, or tracking program changes.",
+ "tasks": [
+  "search programs",
+  "get program profile",
+  "compare programs",
+  "get country paths",
+  "list settlement blocs",
+  "find approved agents",
+  "find EB-5 regional centers",
+  "get statistics",
+  "get recent changes",
+  "list events",
+  "get latest news"
+ ],
+ "effects": {
+  "4b7daf03775fa451efc40939b2a331dd24e7ce45a222626f1f4fed78e4569fed": "read",
+  "6da6c80dbcc510cf326ad0da194a2edc31d843bc7c65b6e9075dec1ae8672d45": "read",
+  "658b4aaa6eff774d25c6a282275a832e5d26bbe33c16ca02691d2db5c97088cd": "read",
+  "8fa13893eba142719e4235429db9d85390f5aa4f3fc2a2e2446482706fad42ad": "read",
+  "12a5ad15c947ccb910909dc23da660d3de07626267aeb4e431be1e31e6ade390": "read",
+  "d54f726991f17995703295666747ca6065c8c9bdab414424e4f61a7effcab01b": "read",
+  "a111a2e76a14fe37a8c2ddbeaa16be63004bae6258fd074de4d4f7df5cf725ed": "read",
+  "95294bacf208595a7320ad21836cf5eabf062955b3035b2c50620cdc0892c6bb": "read",
+  "96cb126913bb8f217c24a8b28d76994108a61befd1c60248cd7702e4ee0583b2": "read",
+  "ebffbf6c6a394b4a648e81b4c71a601e64212bac96dfa2151a8205242b22e47e": "read",
+  "0648c49a084f164a0df863bde5734558bcaeb12b70bf222ffc6ac7f0d312f278": "read",
+  "1a88e33d9028af5d58575ade26687920a9ea2b7f612f28e2d3f6c4a0f53b81f4": "read"
+ },
+ "flags": []
+}

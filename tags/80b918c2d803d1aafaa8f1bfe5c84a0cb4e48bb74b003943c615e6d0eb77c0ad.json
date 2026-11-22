@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "80b918c2d803d1aafaa8f1bfe5c84a0cb4e48bb74b003943c615e6d0eb77c0ad",
+ "domain": [
+  "software/documentation",
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Serves documentation to AI agents locally and offline for fast, private retrieval.",
+ "whenToUse": "Use when an agent needs library or project documentation without online lookups.",
+ "tasks": [
+  "retrieve documentation offline",
+  "search docs"
+ ],
+ "effects": {},
+ "flags": []
+}

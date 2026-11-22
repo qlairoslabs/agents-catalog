@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "6fa8a502aa55b14e6233aa5cf3d43e13bfb4bb459b2a639a06edcb1ffba3a47b",
+ "domain": [
+  "commerce/online-store",
+  "retail/low-tox-products"
+ ],
+ "product": [
+  "lowtoxgear"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Read-only catalogue of Lowtoxgear, an Australian low-tox lifestyle brand: search products, collections and certifications, and policies.",
+ "whenToUse": "Use when helping someone find low-tox, certified or organic products on Lowtoxgear.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "list collections",
+  "filter by certification",
+  "get store policies"
+ ],
+ "effects": {
+  "21f44933b9ab38909d394011a1a2e3bd39aed1a59904254a3a52b5b5a0169386": "read",
+  "a393df4644334d6d9f053772368c67ea354980e0413c3a55d0350c23107e4886": "read",
+  "0108df6d53d6d6de35530cb3c789cd5d23d20346333ded54ccc15c013582a3b6": "read",
+  "4f95de25c565423e437543b1a0bff155a724110d456cfa9f870fd5a0f33fbe73": "read",
+  "6346606a15d379a754520ca30e097b71416131155415e902aedcf3f9ad706ef9": "read"
+ },
+ "flags": []
+}

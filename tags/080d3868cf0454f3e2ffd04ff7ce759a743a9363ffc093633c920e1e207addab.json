@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "080d3868cf0454f3e2ffd04ff7ce759a743a9363ffc093633c920e1e207addab",
+ "domain": [
+  "support/helpdesk/ticketing"
+ ],
+ "product": [
+  "dispatch-tickets"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Lists, searches, creates, updates and replies to support tickets across Dispatch Tickets brands.",
+ "whenToUse": "Use when handling customer support tickets in Dispatch Tickets.",
+ "tasks": [
+  "list tickets",
+  "search tickets",
+  "create tickets",
+  "update tickets",
+  "reply to tickets"
+ ],
+ "effects": {},
+ "flags": []
+}

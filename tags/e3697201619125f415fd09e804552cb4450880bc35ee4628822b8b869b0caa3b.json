@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e3697201619125f415fd09e804552cb4450880bc35ee4628822b8b869b0caa3b",
+ "domain": [
+  "software/no-code/databases",
+  "software/forms"
+ ],
+ "product": [
+  "quintadb"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Connects to QuintaDB to manage no-code database records, forms, portals and automations using natural language.",
+ "whenToUse": "Use when a user wants to read or change records or automations in their QuintaDB no-code databases.",
+ "tasks": [
+  "manage database records",
+  "manage forms",
+  "manage portals",
+  "configure automations"
+ ],
+ "effects": {},
+ "flags": []
+}

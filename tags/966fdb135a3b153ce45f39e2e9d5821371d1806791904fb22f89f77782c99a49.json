@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "966fdb135a3b153ce45f39e2e9d5821371d1806791904fb22f89f77782c99a49",
+ "domain": [
+  "finance/payments/crypto",
+  "commerce/merchant-directory"
+ ],
+ "product": [
+  "lightning",
+  "l402",
+  "bolt12",
+  "usdt",
+  "usdc"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "sell",
+  "get-paid",
+  "understand-what-is-happening"
+ ],
+ "summary": "Directory of verified merchants that accept agent payments over Lightning, L402, BOLT12 and stablecoins, with endpoint checks.",
+ "whenToUse": "Use when an agent needs to find merchants that accept crypto or Lightning agent payments and check their payment endpoints.",
+ "tasks": [
+  "search verified merchants",
+  "get merchant payment details",
+  "verify payment endpoints live",
+  "list categories",
+  "list payment rails",
+  "check credential and rate limits"
+ ],
+ "effects": {
+  "689f18c5bd7c924412971cacbb8d6ab6196351e3ccfe9d4809ac676f7bd077e5": "read",
+  "383bf7db3e1efa34c097eb2262cc8f2c9903c912d54f625b9609592004059698": "read",
+  "8beeec673438cc956abd74ad2ceaaa0a3cba5853016d2c94fcb7fb947ca582ab": "read",
+  "1a2dbbe3099b102270dab8b0081518f27cb7c181dcfb81db5bfd0a121148e25d": "read",
+  "e31ddd47544dc4d5c5b35761f73c9ff69aca0f45fc69f42540888e18b15e52e9": "read",
+  "e0bfe75a4417a98d9590af0ed22981df0c99b16f4996da35e63589b8c22792ce": "read"
+ },
+ "flags": []
+}

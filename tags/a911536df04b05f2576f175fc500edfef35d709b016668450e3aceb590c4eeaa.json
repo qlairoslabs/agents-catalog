@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a911536df04b05f2576f175fc500edfef35d709b016668450e3aceb590c4eeaa",
+ "domain": [
+  "personal/profile"
+ ],
+ "product": [
+  "calendly",
+  "cal-com",
+  "topmate"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "schedule"
+ ],
+ "summary": "Read-only public profile, contact details, site search and booking links for one individual, Ayush Rai.",
+ "whenToUse": "Use when you need to learn about Ayush Rai or find ways to contact or book time with them.",
+ "tasks": [
+  "get public profile",
+  "get contact details",
+  "search public facts",
+  "get booking links"
+ ],
+ "effects": {
+  "5fd4b3612e55eb9bde652d1dab2db49310c3d042b5f595c28f4cc587a9e1527e": "read",
+  "eeb2a3672edf6985a818106faddb616f59529b00a161a550e5c80adf3e9eaff7": "read",
+  "91beddad8d4462bdf86bbe5f8da93ad18fa744487c8ab919821e79bd79d3bacf": "read",
+  "e739bcb5faf7f9abae9fc58f310f392059fa11fd0319fdb22bc04a39565b49a6": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0a7efc2f6d39d41291c372e890fee7969e67842f9d7ac0395f1ea1b26682c641",
+ "domain": [
+  "software/development/legacy-modernization",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guides modernization of legacy codebases through assessment, mapping, business-rule extraction, planning, and an upgrade, rewrite or rebuild with equivalence checks.",
+ "whenToUse": "Use when planning or carrying out the modernization of an old codebase while preserving its behavior.",
+ "tasks": [
+  "assess legacy codebase",
+  "build interactive code map",
+  "extract business rules",
+  "create modernization plan",
+  "upgrade rewrite or rebuild code",
+  "prove behavioral equivalence",
+  "harden security",
+  "produce summary report"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "cc198e5299de0a0d29d3e9e9782ea5c6e642e61ca0a8a0c51251be2099ec7b70",
+ "domain": [
+  "commerce/research-chemicals",
+  "science/peptides"
+ ],
+ "product": [
+  "defiance-international"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only catalog, sequence, evidence, policy and certificate-of-analysis education lookup for a research-use-only chemical sequence supplier.",
+ "whenToUse": "Use when looking up the supplier's research-use-only sequence catalog, evidence records or policies.",
+ "tasks": [
+  "search catalog",
+  "look up sequence",
+  "read evidence claims",
+  "read use policy",
+  "learn about COA verification",
+  "read platform overview"
+ ],
+ "effects": {
+  "1aed029ae18a49c53150370237bf9db914b07955e3b1f36bd79d0ca77e767dc7": "read",
+  "2abbc06dce838eb7b2404bdf682f15f1052d7a49bb6c1bfb4fb77e4702a6771b": "read",
+  "c0d537bde0ebbec81a24cad2d02342fd4be548038dacb20ab2fa28ff5bac14fd": "read",
+  "688675b1cdc3b9a4ddeb231b8185b1fc5a265a56f2a0107c279a61cb557b55f6": "read",
+  "101e837bca62f378c638a89ae2a43b5639ed3e57561340058ed14128bd9625f0": "read",
+  "116d940553a4fea65cf2d943474faa3d6f7b481d85d2b6eeb8798d3148b4195d": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "0867f68edc09a6a1033afb3dfc0c1ae42019be5a9a9a1d078630040e5271996b",
+ "domain": [
+  "compliance/vendor-due-diligence",
+  "japan"
+ ],
+ "product": [
+  "iso-27001",
+  "privacy-mark",
+  "ismap",
+  "soc-2"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Researches a Japanese vendor's third-party security certifications from public sources and returns five-level status judgments with evidence URLs.",
+ "whenToUse": "Use when checking whether a Japanese vendor holds ISO 27001, Privacy Mark, ISMAP or SOC 2 certifications.",
+ "tasks": [
+  "research vendor certifications",
+  "return evidence URLs",
+  "explain status categories"
+ ],
+ "effects": {
+  "37b17b3aa8e2df81aa9d6439fbd2b1e8442c0e42801573ff75b554ca03c0511b": "read",
+  "fd4a0ba96ff7fa520472839cf00ddc37967c5a4dd2b5dfc0acdea904e9ff9ab4": "read"
+ },
+ "flags": []
+}

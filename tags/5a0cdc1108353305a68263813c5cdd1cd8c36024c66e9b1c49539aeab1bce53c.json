@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5a0cdc1108353305a68263813c5cdd1cd8c36024c66e9b1c49539aeab1bce53c",
+ "domain": [
+  "software/cybersecurity/code-scanning",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-security-agent",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Uploads workspace source to AWS Security Agent for a full scan and returns ranked findings with locations and remediations.",
+ "whenToUse": "Use when the user wants a full security scan of their codebase or to manage existing scans.",
+ "tasks": [
+  "upload source for scanning",
+  "run security scan",
+  "check scan status",
+  "show findings",
+  "list recent scans",
+  "stop a scan"
+ ],
+ "effects": {},
+ "flags": []
+}

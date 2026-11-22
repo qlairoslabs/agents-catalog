@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6edf9236a139e26a7c03635641688f7a13668e99621289fe8420073883c554d1",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/development/rust"
+ ],
+ "product": [
+  "appwrite",
+  "tokio"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite Rust SDK in async server-side apps: users, TablesDB data, storage, functions, permissions and queries.",
+ "whenToUse": "Use when writing server-side Rust code that talks to an Appwrite backend.",
+ "tasks": [
+  "set up async appwrite client with api key",
+  "manage users",
+  "work with tablesdb databases, tables and rows",
+  "upload and manage files in storage",
+  "execute functions",
+  "set permissions",
+  "build queries",
+  "handle sdk errors"
+ ],
+ "effects": {},
+ "flags": []
+}

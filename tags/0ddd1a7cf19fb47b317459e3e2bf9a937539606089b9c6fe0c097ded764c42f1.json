@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0ddd1a7cf19fb47b317459e3e2bf9a937539606089b9c6fe0c097ded764c42f1",
+ "domain": [
+  "healthcare/synthetic-data",
+  "data/fhir"
+ ],
+ "product": [
+  "k01",
+  "fhir"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Generates synthetic health records conforming to FHIR R4 and R5 for privacy-safe testing.",
+ "whenToUse": "Use when test or demo healthcare data in FHIR format is needed without real patient data.",
+ "tasks": [
+  "generate synthetic patient data",
+  "produce fhir r4 resources",
+  "produce fhir r5 resources"
+ ],
+ "effects": {},
+ "flags": []
+}

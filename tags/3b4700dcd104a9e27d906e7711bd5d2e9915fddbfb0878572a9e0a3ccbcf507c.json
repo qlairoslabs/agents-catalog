@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3b4700dcd104a9e27d906e7711bd5d2e9915fddbfb0878572a9e0a3ccbcf507c",
+ "domain": [
+  "compliance/privacy",
+  "compliance/vendor-risk"
+ ],
+ "product": [
+  "concord"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Access to Concord privacy data such as consent records, data subject requests, data maps, risks and vendors.",
+ "whenToUse": "Use when a user needs to review or manage privacy compliance data in Concord.",
+ "tasks": [
+  "view consent records",
+  "manage privacy requests",
+  "explore data map",
+  "review risks",
+  "manage vendors"
+ ],
+ "effects": {},
+ "flags": []
+}

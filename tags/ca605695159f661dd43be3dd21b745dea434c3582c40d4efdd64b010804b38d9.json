@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ca605695159f661dd43be3dd21b745dea434c3582c40d4efdd64b010804b38d9",
+ "domain": [
+  "software/ci-cd"
+ ],
+ "product": [
+  "teamcity"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Exposes JetBrains TeamCity builds and CI/CD workflows to AI coding assistants.",
+ "whenToUse": "Use when triggering, monitoring or diagnosing TeamCity builds.",
+ "tasks": [
+  "trigger builds",
+  "check build status",
+  "view build logs",
+  "manage build configurations"
+ ],
+ "effects": {},
+ "flags": []
+}

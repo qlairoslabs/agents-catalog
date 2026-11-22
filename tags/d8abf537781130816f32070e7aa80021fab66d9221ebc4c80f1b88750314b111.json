@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "d8abf537781130816f32070e7aa80021fab66d9221ebc4c80f1b88750314b111",
+ "domain": [
+  "health/psychology"
+ ],
+ "product": [
+  "renacer-psicologico"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Read-only information on an online psychology practice: services and prices, team credentials, clinical blog topics and a free initial assessment.",
+ "whenToUse": "Use when someone in Spanish seeks online psychology services, prices, therapist credentials or the free first session.",
+ "tasks": [
+  "get services and prices",
+  "get professional credentials",
+  "find clinical article hubs",
+  "get free assessment info"
+ ],
+ "effects": {
+  "1ffb17e722fcdc40196f8861f86e4bef9938e94c2244a887381b8596de3d3a5b": "read",
+  "252c91a6f4c46bb8f0cdfefa31a00f2acc4767a35cc2b67b67736727c7181904": "read",
+  "3712220f81a6d232073b052155a8c491711fa90a3ef2f35e00de90d632919051": "read",
+  "368ce7693bdcda0957688ba3dd3acc92057f83cf92b051c58e9fd32b49e90024": "read"
+ },
+ "flags": []
+}

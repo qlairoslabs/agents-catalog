@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "8d6cef89d5561a17e678745a6ab55def462474f8c50f7816b328e84af0fe4c30",
+ "domain": [
+  "government/local-government",
+  "civic-information"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides US city council meetings, transcripts, votes and documents, with citations.",
+ "whenToUse": "Use when an agent needs to research what a US city council discussed, decided or voted on.",
+ "tasks": [
+  "search council meetings",
+  "read meeting transcripts",
+  "look up votes",
+  "retrieve council documents"
+ ],
+ "effects": {},
+ "flags": []
+}

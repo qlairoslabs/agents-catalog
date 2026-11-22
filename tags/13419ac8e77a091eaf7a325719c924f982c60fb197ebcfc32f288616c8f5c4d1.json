@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "13419ac8e77a091eaf7a325719c924f982c60fb197ebcfc32f288616c8f5c4d1",
+ "domain": [
+  "finance/broker-verification"
+ ],
+ "product": [
+  "brokerchooser"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Checks whether an investment broker is legitimate using regulator data and scam reports, and whether it accepts clients from a country.",
+ "whenToUse": "Use when a user wants to verify a broker's safety or availability before opening an account.",
+ "tasks": [
+  "check broker legitimacy",
+  "check regulatory status",
+  "check country availability"
+ ],
+ "effects": {
+  "271c60dce19a1d4616252ddcdcc3ce4edda0c572d17b6649d12c1f26866bc640": "read",
+  "aa730bb21c0ccc78e73b79f8bdbcb1f765ac0e711397d51b318adcac58e3fa9f": "read"
+ },
+ "flags": []
+}

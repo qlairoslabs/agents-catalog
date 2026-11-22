@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a38c32ebf25318ea73a55c1f9f6d7faf7482c3da397dd6e35e52f20906801fbf",
+ "domain": [
+  "web/wordpress",
+  "content/website-management"
+ ],
+ "product": [
+  "wordpress",
+  "ai-engine",
+  "claude",
+  "chatgpt"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Free MCP server for WordPress via the AI Engine plugin, letting AI assistants connect to a site with OAuth.",
+ "whenToUse": "Use when an AI assistant needs to manage or work with content on a WordPress site.",
+ "tasks": [
+  "connect ai to wordpress",
+  "manage wordpress site"
+ ],
+ "effects": {},
+ "flags": []
+}

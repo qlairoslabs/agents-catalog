@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f1c7a1072bf3481beddc4a63d788c8c7ee26f6c57aad3a546285630ce5db4b4e",
+ "domain": [
+  "science/drug-discovery",
+  "science/cheminformatics"
+ ],
+ "product": [
+  "boltz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Generates novel small-molecule ligands or hits for a protein target with Boltz.",
+ "whenToUse": "Use when a user wants new small-molecule binders for a target without a fixed compound library.",
+ "tasks": [
+  "design novel small molecules",
+  "generate ligand hits for target"
+ ],
+ "effects": {},
+ "flags": []
+}

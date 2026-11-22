@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6151a75ff1838fff9ef4e5c6a40f8d11349245ffeeefc33b2c68212ed40e8c4d",
+ "domain": [
+  "content/presentations",
+  "sales/sales-enablement"
+ ],
+ "product": [
+  "storydoc"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates and manages Storydoc interactive presentations from an MCP client.",
+ "whenToUse": "Use when an agent needs to generate or update Storydoc presentations or decks.",
+ "tasks": [
+  "generate presentations",
+  "manage presentations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "56e84fabcf4e21d5fd536b98351b45f9cbe9ed2e9ba1b9a54a7869b4c438584a",
+ "domain": [
+  "software/cybersecurity/ip-intelligence",
+  "software/fraud-prevention"
+ ],
+ "product": [
+  "vpndetection"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether an IP address belongs to a VPN, proxy, Tor node, hosting provider or CDN.",
+ "whenToUse": "Use when an agent needs to assess whether an IP address is anonymized or from a datacenter.",
+ "tasks": [
+  "detect vpn",
+  "detect proxy",
+  "detect tor",
+  "detect hosting ip",
+  "detect cdn"
+ ],
+ "effects": {},
+ "flags": []
+}

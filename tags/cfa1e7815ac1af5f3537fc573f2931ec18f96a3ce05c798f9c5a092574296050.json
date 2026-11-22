@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cfa1e7815ac1af5f3537fc573f2931ec18f96a3ce05c798f9c5a092574296050",
+ "domain": [
+  "data/web-scraping"
+ ],
+ "product": [
+  "decodo"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Decodo MCP server for scraping and parsing web pages, including sites restricted by geography, through proxies.",
+ "whenToUse": "Use when an agent needs to fetch and parse web content, especially from geo-restricted or hard-to-reach sites.",
+ "tasks": [
+  "scrape web pages",
+  "parse web content",
+  "access geo-restricted sites"
+ ],
+ "effects": {},
+ "flags": []
+}

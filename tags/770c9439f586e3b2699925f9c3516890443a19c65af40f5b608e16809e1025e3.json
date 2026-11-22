@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "770c9439f586e3b2699925f9c3516890443a19c65af40f5b608e16809e1025e3",
+ "domain": [
+  "software/code-intelligence",
+  "software/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Builds a queryable knowledge graph of a codebase so agents can explore code with fewer tokens.",
+ "whenToUse": "Use when an agent needs to understand structure and relationships in a large codebase quickly.",
+ "tasks": [
+  "index codebase",
+  "query code graph",
+  "find symbol relationships"
+ ],
+ "effects": {},
+ "flags": []
+}

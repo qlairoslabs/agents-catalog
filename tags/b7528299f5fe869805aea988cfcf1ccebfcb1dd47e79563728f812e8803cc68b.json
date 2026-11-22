@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b7528299f5fe869805aea988cfcf1ccebfcb1dd47e79563728f812e8803cc68b",
+ "domain": [
+  "data/weather"
+ ],
+ "product": [
+  "open-meteo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides weather, air quality and timezone information using the Open-Meteo API.",
+ "whenToUse": "Use when an agent needs current or forecast weather, air quality or time zone data for a place.",
+ "tasks": [
+  "get current weather",
+  "get weather forecast",
+  "get air quality",
+  "convert time zones"
+ ],
+ "effects": {},
+ "flags": []
+}

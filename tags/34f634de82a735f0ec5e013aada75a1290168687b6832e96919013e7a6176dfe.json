@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "34f634de82a735f0ec5e013aada75a1290168687b6832e96919013e7a6176dfe",
+ "domain": [
+  "sports/betting",
+  "data/odds"
+ ],
+ "product": [
+  "sportwizzard"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Real-time sports betting odds, player props, edges and arbitrage across 35+ sportsbooks and DFS apps.",
+ "whenToUse": "Use when an agent needs current sports betting odds or arbitrage opportunities.",
+ "tasks": [
+  "get betting odds",
+  "get player props",
+  "find betting edges",
+  "find arbitrage"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fd8fefd479f894b54ba52f2329d2a9e52494e29fcc068e7f24001bcde51180e4",
+ "domain": [
+  "events/audience-engagement/polls"
+ ],
+ "product": [
+  "crowdhum"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates and runs live audience polls with QR voting and an AI-generated recap.",
+ "whenToUse": "Use when the user wants to run a live poll for an audience during a talk, class or event.",
+ "tasks": [
+  "create polls",
+  "run live polls",
+  "generate vote qr code",
+  "get ai recap"
+ ],
+ "effects": {},
+ "flags": []
+}

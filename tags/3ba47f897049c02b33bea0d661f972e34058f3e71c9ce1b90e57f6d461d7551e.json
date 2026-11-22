@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3ba47f897049c02b33bea0d661f972e34058f3e71c9ce1b90e57f6d461d7551e",
+ "domain": [
+  "data/data-warehouse",
+  "ai/coding-agents"
+ ],
+ "product": [
+  "snowflake",
+  "snowflake-cortex-code",
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Routes Snowflake-related prompts from Claude Code to Cortex Code, with commands for code review and task delegation.",
+ "whenToUse": "Use when working on Snowflake tasks that should be delegated to Snowflake Cortex Code.",
+ "tasks": [
+  "route snowflake prompts",
+  "delegate tasks to cortex code",
+  "review code",
+  "set up cortex code"
+ ],
+ "effects": {},
+ "flags": []
+}

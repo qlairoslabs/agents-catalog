@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "5c7a3599707c3875f96e54bb7dc880594fab615c19b952b58177b00fbde5ccbf",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [
+  "memra"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "EU-hosted persistent memory store for AI agents with hybrid recall and contradiction detection.",
+ "whenToUse": "Use when an agent needs to store and recall facts across sessions.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "detect contradictions"
+ ],
+ "effects": {},
+ "flags": []
+}

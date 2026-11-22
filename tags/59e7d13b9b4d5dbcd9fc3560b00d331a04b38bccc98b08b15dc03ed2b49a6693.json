@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "59e7d13b9b4d5dbcd9fc3560b00d331a04b38bccc98b08b15dc03ed2b49a6693",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "npm",
+  "pypi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Runs a local deterministic security scan of MCP servers, agent skills, and npm or PyPI packages.",
+ "whenToUse": "Use before installing or trusting an MCP server, agent skill, or package to check it for security issues.",
+ "tasks": [
+  "scan mcp servers",
+  "scan agent skills",
+  "scan npm packages",
+  "scan pypi packages"
+ ],
+ "effects": {},
+ "flags": []
+}

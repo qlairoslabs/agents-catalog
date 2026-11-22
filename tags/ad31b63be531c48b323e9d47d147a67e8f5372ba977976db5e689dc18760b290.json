@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "ad31b63be531c48b323e9d47d147a67e8f5372ba977976db5e689dc18760b290",
+ "domain": [
+  "software/code-analysis"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Call graph for TS/JS, Go, Python and Java showing callers up to HTTP routes, callees and usages.",
+ "whenToUse": "Use when an agent needs to trace calls between functions and HTTP routes.",
+ "tasks": [
+  "find callers",
+  "find callees",
+  "trace to http routes",
+  "find usages"
+ ],
+ "effects": {},
+ "flags": []
+}

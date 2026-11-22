@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "66a8dd98b70f03c4c3842b08a204424d5fa006a3741b3e761603ec8c6f30f1cf",
+ "domain": [
+  "entertainment/music-events"
+ ],
+ "product": [
+  "lineup-atlas"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds upcoming electronic music club nights, festivals, artists and venues worldwide with ticket links.",
+ "whenToUse": "Use when someone wants to find parties, festivals, an artist's tour dates or venues in a city.",
+ "tasks": [
+  "search events",
+  "get event details",
+  "search artists",
+  "get artist dates",
+  "search venues",
+  "get venue events",
+  "get city page",
+  "list cities"
+ ],
+ "effects": {
+  "3311a28610f7d3b81255f146756e4ec6fe6a7780648909c3ee51bd2fb000884f": "read",
+  "6a4b67330d4510d80c96db3a5000312c972cd56bc79aa58a3d1d1ce9de1c8448": "read",
+  "f1072f190bc847d781b1b8cba3e8d392067e6f297ead234a8bba6bc6c4f70c58": "read",
+  "35d466f12bc629f6e66fdd7b0f042de009344d58edbde02c5ed8f7beafe0f694": "read",
+  "2d3ed6d218cddf14874436034e48dfeaee3eced87619f6a3c6ac7b7abc1988fd": "read",
+  "34d398336b11a40c6102f01de2f511618e6de1c02ff1b6a781a7eade8cf24c7f": "read",
+  "fc813b562be44d6f2b42fdb6443d547da6891edbf32b5a3c4d1d521120629657": "read",
+  "e3ac5ce47ea25bf5862d3f8043296d896063f33c5e7b2482d67639b11a4c4878": "read",
+  "1ee37643ab3f9893b3a9031fd86a101f58b8bb39355aeddef442e68873454c1c": "read"
+ },
+ "flags": []
+}

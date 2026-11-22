@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "8f4cd1eef923361d5864344a26cf2d51049bbd665f4ed128584881146197204c",
+ "domain": [
+  "crypto/payments",
+  "blockchain/celo"
+ ],
+ "product": [
+  "celo",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "build-software"
+ ],
+ "summary": "Inspect a Celo x402 payment facilitator: supported assets, config, health, payment verification and on-chain authorization status.",
+ "whenToUse": "Use when integrating or debugging x402 payments on Celo and verifying signed payments.",
+ "tasks": [
+  "list supported kinds",
+  "get asset config",
+  "check health",
+  "verify signed payment",
+  "check authorization status"
+ ],
+ "effects": {
+  "e36a3840565dd61020f4f521c0fca0dd99c818a770d886ceea62ab908e21e876": "read",
+  "daaf5ae65bccd2a2827b2165179e8cf2848f64f6719ba6e620bbb0bbdf2134c9": "read",
+  "fac8ca8c1cc40756d1b02b76e9492e44e57a3250203ee3b61f3b6ed320cc5aa0": "read",
+  "01bf143880702368f7f579bc22af72fc30db92e86fab0ee8542e26838ac7d651": "read",
+  "b956913c191ca0ed723f2586b21c36e717676ab6d9d65bf481959b04216d68cf": "write"
+ },
+ "flags": []
+}

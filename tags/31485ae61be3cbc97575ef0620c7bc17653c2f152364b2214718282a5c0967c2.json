@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "31485ae61be3cbc97575ef0620c7bc17653c2f152364b2214718282a5c0967c2",
+ "domain": [
+  "software/ui-components",
+  "software/frontend"
+ ],
+ "product": [
+  "21st.dev"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches UI components and themes, fetches their code, and optionally generates components with hosted AI.",
+ "whenToUse": "Use when building a frontend and needing existing UI components or themes to reuse.",
+ "tasks": [
+  "search ui components",
+  "find themes",
+  "retrieve component code",
+  "generate components"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "f68228644ee39e2e56abd9115d1910012a2450cc355076a5ba6f7cbb912c5b92",
+ "domain": [
+  "business/appointment-booking",
+  "services/ai-consulting"
+ ],
+ "product": [
+  "enhanced-intelligence"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Booking door for Enhanced Intelligence LLC: view services and prices, find open times, book, check and cancel appointments.",
+ "whenToUse": "Use when a customer wants to book a call or service with Enhanced Intelligence LLC.",
+ "tasks": [
+  "read business card",
+  "find open times",
+  "match customer free windows",
+  "book appointment",
+  "check booking",
+  "cancel booking"
+ ],
+ "effects": {
+  "40da7fa3df9bf4a476db82675ec4d451d7c8e9e64346aa8ebb7c8b49a517de8e": "read",
+  "cbe88f3668354a17d342da7272a6cfd37a9d08ce3c796fd53f03de599f6b4b80": "read",
+  "09f9faa5055f13108f96e8e7a98a140d378b855fee5e7b7d38d625f46f244807": "write",
+  "7808a4a08f0e1363dd413375b36acc2b1afa0a6709880fd61e272921c31901a5": "read",
+  "e05f7dd7236f66d75b1b0fdce3c4a2bbf4d8347bb8505620c104fee49a8891af": "write"
+ },
+ "flags": []
+}

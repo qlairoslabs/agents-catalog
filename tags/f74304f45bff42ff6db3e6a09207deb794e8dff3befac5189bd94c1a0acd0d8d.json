@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f74304f45bff42ff6db3e6a09207deb794e8dff3befac5189bd94c1a0acd0d8d",
+ "domain": [
+  "productivity/task-management",
+  "productivity/notes"
+ ],
+ "product": [
+  "clean-notes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Kanban task boards and project notes for AI clients, with OAuth and per-project read or write permissions.",
+ "whenToUse": "Use when an agent needs to read or update project tasks and notes kept in Clean Notes.",
+ "tasks": [
+  "manage kanban tasks",
+  "write project notes",
+  "grant per-project access"
+ ],
+ "effects": {},
+ "flags": []
+}

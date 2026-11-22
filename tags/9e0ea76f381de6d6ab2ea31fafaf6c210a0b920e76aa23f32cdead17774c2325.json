@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "9e0ea76f381de6d6ab2ea31fafaf6c210a0b920e76aa23f32cdead17774c2325",
+ "domain": [
+  "data/engineering/dbt",
+  "data/warehousing"
+ ],
+ "product": [
+  "dbt",
+  "snowflake",
+  "bigquery",
+  "redshift",
+  "databricks",
+  "postgres",
+  "mysql",
+  "duckdb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Delegates dbt and data warehouse work to the altimate-code CLI agent for SQL analysis, lineage, dbt runs and profiling.",
+ "whenToUse": "Use when working on dbt projects or analyzing, profiling or optimizing a data warehouse.",
+ "tasks": [
+  "analyze sql",
+  "trace column-level lineage",
+  "run dbt build test and run",
+  "profile warehouses",
+  "analyze warehouse costs",
+  "connect to warehouses"
+ ],
+ "effects": {},
+ "flags": []
+}

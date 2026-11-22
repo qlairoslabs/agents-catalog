@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e8f102334255ca0c2fa537bf1608f1285a12380cbd86adfa1a9056e05a0a3821",
+ "domain": [
+  "media/generative-ai",
+  "creative/image-generation",
+  "creative/video-generation"
+ ],
+ "product": [
+  "mage"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates images, video and audio using a range of frontier AI models, with private generation by default.",
+ "whenToUse": "Use when a user wants to generate AI images, videos or audio clips.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "generate audio",
+  "choose generation model"
+ ],
+ "effects": {},
+ "flags": []
+}

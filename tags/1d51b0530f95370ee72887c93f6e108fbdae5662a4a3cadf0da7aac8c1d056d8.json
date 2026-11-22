@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "1d51b0530f95370ee72887c93f6e108fbdae5662a4a3cadf0da7aac8c1d056d8",
+ "domain": [
+  "sales/outreach",
+  "marketing/email",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "warmysender",
+  "linkedin",
+  "instagram",
+  "whatsapp"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Runs multichannel outreach with cold email, inbox warmup, LinkedIn, Instagram, WhatsApp, email verification and a lead database.",
+ "whenToUse": "Use when the user wants to find leads and run cold outreach campaigns across email and social channels.",
+ "tasks": [
+  "send cold email campaigns",
+  "warm up inboxes",
+  "verify email addresses",
+  "search leads",
+  "LinkedIn outreach",
+  "WhatsApp outreach"
+ ],
+ "effects": {},
+ "flags": []
+}

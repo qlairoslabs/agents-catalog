@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9991fd12f2ca0d41e2068848e2be78ca44b8d3f9f0f2c27c6ac8f0d453bb6a11",
+ "domain": [
+  "software/forms/form-backend",
+  "web/hosting"
+ ],
+ "product": [
+  "shipmyform"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work",
+  "get-customers"
+ ],
+ "summary": "Form backend service exposing tools to create form endpoints, route submissions, publish pages and manage a submissions inbox.",
+ "whenToUse": "Use when an agent needs to set up web form endpoints or process form submissions without building a backend.",
+ "tasks": [
+  "create form endpoint",
+  "route submissions",
+  "publish form page",
+  "manage submission inbox"
+ ],
+ "effects": {},
+ "flags": []
+}

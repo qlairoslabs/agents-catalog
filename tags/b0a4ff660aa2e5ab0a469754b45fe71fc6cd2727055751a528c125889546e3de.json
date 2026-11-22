@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b0a4ff660aa2e5ab0a469754b45fe71fc6cd2727055751a528c125889546e3de",
+ "domain": [
+  "software/code-review",
+  "software/documentation"
+ ],
+ "product": [
+  "gitmir"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets coding agents query a repository's business logic and check commits before they are merged.",
+ "whenToUse": "Use when a coding agent needs business-logic context about a repo or a pre-merge check of commits.",
+ "tasks": [
+  "ask about repository business logic",
+  "check commits before merge"
+ ],
+ "effects": {},
+ "flags": []
+}

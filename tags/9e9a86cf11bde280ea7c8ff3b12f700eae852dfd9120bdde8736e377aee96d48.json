@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9e9a86cf11bde280ea7c8ff3b12f700eae852dfd9120bdde8736e377aee96d48",
+ "domain": [
+  "marketing/video-ads",
+  "media/ai-video-generation"
+ ],
+ "product": [
+  "retiplex"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Generates AI user-generated-style video ads from a product, covering script, AI actor, scenes and final render.",
+ "whenToUse": "Use when producing UGC-style video ads for a product with AI.",
+ "tasks": [
+  "write ad script",
+  "choose ai actor",
+  "generate scenes",
+  "render finished video ad"
+ ],
+ "effects": {},
+ "flags": []
+}

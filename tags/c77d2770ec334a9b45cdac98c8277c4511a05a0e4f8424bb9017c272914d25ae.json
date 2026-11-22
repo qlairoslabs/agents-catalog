@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c77d2770ec334a9b45cdac98c8277c4511a05a0e4f8424bb9017c272914d25ae",
+ "domain": [
+  "email/agent-mailbox",
+  "ai/human-oversight"
+ ],
+ "product": [
+  "multimail"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Gives an AI agent its own email address, with configurable human approval levels for sending.",
+ "whenToUse": "Use when an agent needs to send and receive email under its own address with human oversight.",
+ "tasks": [
+  "send email",
+  "receive email",
+  "require human approval",
+  "configure autonomy level"
+ ],
+ "effects": {},
+ "flags": []
+}

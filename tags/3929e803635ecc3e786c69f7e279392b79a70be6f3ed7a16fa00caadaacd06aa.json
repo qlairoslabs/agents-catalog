@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3929e803635ecc3e786c69f7e279392b79a70be6f3ed7a16fa00caadaacd06aa",
+ "domain": [
+  "commerce/resale-pricing"
+ ],
+ "product": [
+  "ebay",
+  "underpricedai"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Estimates resale value of thrift items using eBay sold listings, giving a price range and net after fees.",
+ "whenToUse": "Use when a user wants to know what a second-hand item is likely to sell for on eBay.",
+ "tasks": [
+  "look up ebay sold comps",
+  "estimate price range",
+  "calculate net after fees"
+ ],
+ "effects": {},
+ "flags": []
+}

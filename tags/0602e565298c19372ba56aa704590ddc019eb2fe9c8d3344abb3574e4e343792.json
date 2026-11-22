@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0602e565298c19372ba56aa704590ddc019eb2fe9c8d3344abb3574e4e343792",
+ "domain": [
+  "software/api-design/documentation",
+  "software/developer-tools"
+ ],
+ "product": [
+  "openapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Analyzes an API codebase and generates an OpenAPI 3.0 specification from the source code.",
+ "whenToUse": "Use when the user wants to create or reverse-engineer an OpenAPI spec from existing API code.",
+ "tasks": [
+  "analyze api source code",
+  "generate openapi 3.0 spec",
+  "document existing apis",
+  "reverse-engineer api definitions"
+ ],
+ "effects": {},
+ "flags": []
+}

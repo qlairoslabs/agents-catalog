@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "d2976ec3b7160d99c16fdc58a391a543abfee0769f33a534fdb1ec79e582d7b2",
+ "domain": [
+  "ecommerce/product-search",
+  "automotive/parts"
+ ],
+ "product": [
+  "tudetic",
+  "prestashop"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only product search, product details and vehicle fitment lookup across Tudetic's family of online shops.",
+ "whenToUse": "Use when a user wants to find or compare products or parts that fit a vehicle on Tudetic shops.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "check vehicle compatibility",
+  "filter by price and brand"
+ ],
+ "effects": {
+  "00b623ecbcfe5d15eaab4464ba8f2114ed89c5eaf62eb4eadfb52be4d0326162": "read",
+  "1f5850e87b4a48ea432b7b122d5fa0dc5c8655d53b013fa7cb579a6f4344405f": "read",
+  "2ba0bafd27a68fd5e6142e38f090f1c9d728c24cf6f5230e4dc271f8a8b0ab33": "read"
+ },
+ "flags": []
+}

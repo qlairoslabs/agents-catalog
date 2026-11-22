@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "8fa6512f5f99437532f93b65ab515797f10f898912e337200f965204b76fd47b",
+ "domain": [
+  "software/observability",
+  "software/python"
+ ],
+ "product": [
+  "logfire",
+  "fastapi",
+  "httpx",
+  "asyncpg",
+  "sqlalchemy"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Helps add Logfire observability with auto-instrumentation to Python apps using common libraries.",
+ "whenToUse": "Use when instrumenting a Python application for tracing and monitoring with Logfire.",
+ "tasks": [
+  "add logfire to python apps",
+  "instrument fastapi",
+  "instrument httpx",
+  "instrument asyncpg",
+  "instrument sqlalchemy"
+ ],
+ "effects": {},
+ "flags": []
+}

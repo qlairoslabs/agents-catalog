@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "16ae40c040d49fe9d99d52abd698d313556988faef998afca65f683cf927ad00",
+ "domain": [
+  "health/acupuncture",
+  "health/reference"
+ ],
+ "product": [
+  "acuiq",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Matches symptoms to acupuncture protocols, looks up acupoints and meridians, reads a reference wiki and sells guides and supplies.",
+ "whenToUse": "Use when a user wants acupuncture protocols for a symptom, details on an acupoint, or AcuiQ reference content.",
+ "tasks": [
+  "resolve symptoms",
+  "find acupuncture protocols",
+  "list meridians (paid)",
+  "get symptom details",
+  "look up an acupoint",
+  "create checkout",
+  "check order and delivery",
+  "search wiki",
+  "read wiki pages",
+  "browse wiki categories",
+  "get recent wiki changes",
+  "send feedback"
+ ],
+ "effects": {
+  "0b839669f8bc148e1500a291039e4a0bfc930793fd86386d0926e0d264bc9766": "read",
+  "3489cc5392a6f6dab6da46c1ccb8185b973989ffa1afd945300412e849cea9a7": "write",
+  "c417b61d0e5021362de31e645ed3f86e6b4d541f14cb399a9e10639733cbc2e1": "risky",
+  "8d392d5fd5fb8b8c6c544b47253f6d29126991ea49e75fd576ecf058a72e4d93": "read",
+  "136a255c96ad203b8e463f0fc624751bcb3b370fb0a5ab71a42528dd5451f419": "read",
+  "b2ef6ff91c01b719c6357512b25e9ca7a59c8a2a0dee248f22d1c8ea606d9722": "write",
+  "4bbf695e56265df84fee90928d25821077183529c2d17e505314188c8041913e": "write",
+  "1367b4536483b4dded7ef5a9124c5bd42de33ce52d57954275e0faa2724bd568": "write",
+  "89022050dc43032dd65e8611ebfd97fa4ff52784ba3307b3b14afbd204edb594": "write",
+  "bfcdd0555f781ef12c1089cb3d5b9295c9aded4484d80728493db60cace8daf6": "read",
+  "3b924f385b2fc3b1e62298a60c5909892a731e99e9d006220670634fdbfbfb7e": "read",
+  "b8be4cecec9ecb83e16ffaf0b6dff326c60a7e0324a189ce643874aa85fbbcdf": "read",
+  "68b5d04a066ef4d644f1051491960e8331403e0ef816c7dc5ad86ba49cf9b80c": "read",
+  "5e98ccb1e2e61c65b61a5efd9fd8f2bbaff2a7b08bfeb90b5e4acf10da4a2cb5": "read",
+  "bf71ff66dc976f725bf0702bdd0fa39a747466ab98aff3e71ef081e542fc48e7": "read",
+  "21702cfd46a90860d539e62196bc43913dc2da8fcb2bc8726b04e7e8095af449": "write"
+ },
+ "flags": [
+  "get_meridians charges $0.50 via an agent-supplied Stripe payment token",
+  "wiki tool descriptions reference unrelated paths (developers/scrypto) and edit/restore features with no matching tools, suggesting copied boilerplate"
+ ]
+}

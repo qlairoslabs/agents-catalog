@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ece35936997a88f2e9cb0e794d7a4ebc7f3e49eca3d33c4870ff3f68c6c7b5e5",
+ "domain": [
+  "ai/prompt-management",
+  "software/llmops"
+ ],
+ "product": [
+  "promptot"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Manage, version and publish LLM prompts using blocks, variables and evaluations.",
+ "whenToUse": "Use when maintaining versioned production prompts or running prompt evaluations.",
+ "tasks": [
+  "manage prompts",
+  "version prompts",
+  "publish prompts",
+  "run evaluations"
+ ],
+ "effects": {},
+ "flags": []
+}

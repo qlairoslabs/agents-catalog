@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ca525cbdcb52dad87c0f62893942d1acd874875034bfd66a90980fd50f71ab65",
+ "domain": [
+  "data/web-scraping",
+  "research/search"
+ ],
+ "product": [
+  "firecrawl"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Searches, scrapes and interacts with web pages via Firecrawl, with academic paper search.",
+ "whenToUse": "Use when an agent needs web content, search results or research papers as clean data.",
+ "tasks": [
+  "search the web",
+  "scrape pages",
+  "interact with websites",
+  "search papers"
+ ],
+ "effects": {},
+ "flags": []
+}

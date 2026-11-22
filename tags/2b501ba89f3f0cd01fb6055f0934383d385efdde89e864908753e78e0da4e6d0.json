@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "2b501ba89f3f0cd01fb6055f0934383d385efdde89e864908753e78e0da4e6d0",
+ "domain": [
+  "finance/sanctions-screening",
+  "legal/compliance"
+ ],
+ "product": [
+  "ofac",
+  "bis",
+  "eu-sanctions",
+  "un-sanctions"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Screens names and addresses against 14 sanctions and export-control lists with fuzzy matching and returns scored potential matches.",
+ "whenToUse": "Use when checking a person, company or address against sanctions or export-control lists.",
+ "tasks": [
+  "screen names",
+  "screen addresses",
+  "list sanctions sources",
+  "search listed entries",
+  "fetch entry details"
+ ],
+ "effects": {
+  "9a67ea27e577c165410c764110493d6154f5639685cf6f5fc17b81bd18b9c914": "write",
+  "4308a9843b38fa57a89af73a36d8906ec7f49809b3eeb156162343c434d69712": "write",
+  "60c7d51a17884fc69b7c050b2dfcefefce186cb1fc900441364a6deb694c0d22": "read",
+  "1a957cd05e78fe0b63ceeb6c002df1bc3dfab683df4bacbebd4f914a8ee240b5": "read",
+  "1565ea3a567b9723593506c3eaa6937684de0d067af712c523e756bce98c53dd": "read"
+ },
+ "flags": []
+}

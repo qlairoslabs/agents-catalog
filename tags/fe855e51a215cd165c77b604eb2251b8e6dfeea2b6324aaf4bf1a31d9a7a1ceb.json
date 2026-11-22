@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fe855e51a215cd165c77b604eb2251b8e6dfeea2b6324aaf4bf1a31d9a7a1ceb",
+ "domain": [
+  "finance/commodities",
+  "finance/market-data"
+ ],
+ "product": [
+  "arc-research"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Commodities research data including a knowledge graph, COT reports, natural gas storage and weather, quotes and news.",
+ "whenToUse": "Use when researching commodity markets, positioning or natural gas fundamentals.",
+ "tasks": [
+  "query knowledge graph",
+  "read cot reports",
+  "check natural gas storage",
+  "check weather data",
+  "get quotes",
+  "read market stories"
+ ],
+ "effects": {},
+ "flags": []
+}

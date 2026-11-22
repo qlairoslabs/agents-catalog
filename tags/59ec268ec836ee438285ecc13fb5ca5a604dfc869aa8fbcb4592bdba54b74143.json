@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "59ec268ec836ee438285ecc13fb5ca5a604dfc869aa8fbcb4592bdba54b74143",
+ "domain": [
+  "hr/hris-ats",
+  "software/vendor-information"
+ ],
+ "product": [
+  "hirehint"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Public documentation, product facts and evaluation checklists for the HireHint HRIS and ATS, in English, Arabic and Spanish.",
+ "whenToUse": "Use when a user asks about HireHint or wants a vendor evaluation checklist for an HRIS or ATS.",
+ "tasks": [
+  "search public docs",
+  "read a document",
+  "get product facts",
+  "create HRIS or ATS evaluation checklist"
+ ],
+ "effects": {
+  "1abaa98e3da6fd50c844f0c3d3f67bed7e58fcd26d8aa14a167990ca0145d84f": "read",
+  "5005591a4b01c4e3b4afa23cfd4588bd5375d1d375cc29138ca3d6ff0271d38a": "read",
+  "21671d79abcfa034ee7303743072eb8dd568d51b49a6bdd45ad70c984501d4d7": "read",
+  "59a96e314c9187da56094cf6cc9e11ba3b6df3bd99ca2fc1a2614b12b490fcf4": "read"
+ },
+ "flags": []
+}

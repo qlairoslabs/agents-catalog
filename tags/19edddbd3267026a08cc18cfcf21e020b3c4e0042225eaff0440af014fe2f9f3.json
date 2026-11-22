@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "19edddbd3267026a08cc18cfcf21e020b3c4e0042225eaff0440af014fe2f9f3",
+ "domain": [
+  "finance/equity-research/risk",
+  "finance/investing"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds a risk assessment for a public company across six risk categories, rated by likelihood and impact using filings and news.",
+ "whenToUse": "Use when a user asks what could go wrong with a public company or how risky it is.",
+ "tasks": [
+  "review 10-k risk factors and 8-k events",
+  "rate risks by likelihood and impact",
+  "run distress screen on leverage",
+  "assess mitigation status",
+  "build risk priority matrix",
+  "link scenarios to value drivers"
+ ],
+ "effects": {},
+ "flags": []
+}

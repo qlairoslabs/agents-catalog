@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "c11d76e42d8da3bf0c3611b57b97178946c653b21e2c81a862e0785dfb5eb700",
+ "domain": [
+  "finance/payments",
+  "ai-agents/commerce"
+ ],
+ "product": [
+  "asterpay",
+  "usdc",
+  "sepa"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Offers agent trust scoring, USDC to EUR settlement estimates, market rates and European merchant payment endpoint lookup.",
+ "whenToUse": "Use when an agent must vet a wallet, estimate a USDC to EUR conversion or resolve a merchant's IBAN.",
+ "tasks": [
+  "score agent trust",
+  "estimate EUR settlement",
+  "get market rates",
+  "resolve merchant payment endpoint"
+ ],
+ "effects": {
+  "df4baedafb5750b8e320868c5a98f9d4011d9dcb5b57b55da2f44aed00287d44": "read",
+  "8e85831591dbd31cf42b03859aecf12de76741ab875a74ba447d9d074bc692ee": "read",
+  "2ae97630838a7a740516596ad5e74d90b62618c592a193b5b9bc1f6af967d4cf": "read",
+  "bab0be70dd401dacee771af7b955b39a4eccd1e1129c17ff6c0f7ef33b0871bd": "read"
+ },
+ "flags": []
+}

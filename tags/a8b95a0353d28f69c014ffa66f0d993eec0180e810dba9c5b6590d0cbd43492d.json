@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a8b95a0353d28f69c014ffa66f0d993eec0180e810dba9c5b6590d0cbd43492d",
+ "domain": [
+  "software/diagramming",
+  "software/documentation"
+ ],
+ "product": [
+  "mermaid"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Validates and renders Mermaid diagram code.",
+ "whenToUse": "Use when an agent needs to check Mermaid syntax or render a Mermaid diagram.",
+ "tasks": [
+  "validate mermaid diagrams",
+  "render mermaid diagrams"
+ ],
+ "effects": {},
+ "flags": []
+}

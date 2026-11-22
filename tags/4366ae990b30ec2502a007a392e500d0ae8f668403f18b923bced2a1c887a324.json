@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "4366ae990b30ec2502a007a392e500d0ae8f668403f18b923bced2a1c887a324",
+ "domain": [
+  "travel/outdoors"
+ ],
+ "product": [
+  "hutlists"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Directory of Alpine mountain huts with location, season, booking info, availability and route guides.",
+ "whenToUse": "Use when planning a hut-to-hut hike or looking for an Alpine hut and its booking details.",
+ "tasks": [
+  "search huts",
+  "get hut details",
+  "check bed availability",
+  "list regions",
+  "list route guides"
+ ],
+ "effects": {
+  "e31304453723230badcbf8a66e52e75a21319ed38e7d6b3b258a54b0ec2e6771": "read",
+  "53f827c3ab99d590b66519d0700e41ebafd6f08b84e37eae8fb01c97c86d0674": "read",
+  "31262341b3feaa2885a70d68acab4cf7d48f64fede22015f7eee9bcfc9348562": "read",
+  "3a8d0b85807805ccbaa36b2c9ca241e7a4e55023b0aec63c0b71f63f1486a267": "read",
+  "a2007388101019c337c9b0739de27de2d671d6096b3235cb51c22d0f8f796812": "read"
+ },
+ "flags": []
+}

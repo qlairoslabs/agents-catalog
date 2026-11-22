@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "03a2695177b609000661c94f66e40a877b08344ef7f2b44a02d2800274dabced",
+ "domain": [
+  "data/reference-lookups",
+  "business/company-data"
+ ],
+ "product": [
+  "htmlweb.ru"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reference lookups for Russian INN/OGRN, banks, geography and WHOIS, with a small free daily quota.",
+ "whenToUse": "Use when checking Russian company identifiers, bank details, geographic data or domain WHOIS.",
+ "tasks": [
+  "check inn and ogrn",
+  "look up bank details",
+  "look up geographic data",
+  "whois domain lookup",
+  "register agent account"
+ ],
+ "effects": {},
+ "flags": [
+  "describes agents registering themselves for an account via register_agent"
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "f45582678887ba2b15064964fca2f15bb098929fe069ca11fec3e89c944fcf20",
+ "domain": [
+  "finance/crypto",
+  "finance/retirement-planning"
+ ],
+ "product": [
+  "coin-ira",
+  "bitcoin",
+  "ethereum",
+  "xrp",
+  "solana"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Calculators for what a past USD crypto investment would be worth now and for hypothetical compound growth in a crypto retirement account.",
+ "whenToUse": "Use when a user asks what a past BTC, ETH, XRP or SOL purchase would be worth, or wants a retirement growth projection.",
+ "tasks": [
+  "calculate historical crypto investment value",
+  "project retirement growth",
+  "apply constant annual return"
+ ],
+ "effects": {
+  "33e35b4717ef5150667c4e644e8e85c60e6586b8304feebcd15c31a6cb71afd2": "read",
+  "d9ab11145271474a27a88f35222705755927a3ee13542c4ba3b4d1a6d8e31f46": "read"
+ },
+ "flags": []
+}

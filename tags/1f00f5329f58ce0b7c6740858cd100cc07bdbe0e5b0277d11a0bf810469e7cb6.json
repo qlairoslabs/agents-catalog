@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1f00f5329f58ce0b7c6740858cd100cc07bdbe0e5b0277d11a0bf810469e7cb6",
+ "domain": [
+  "games/art-assets",
+  "media/generative-ai"
+ ],
+ "product": [
+  "spriteship"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Builds a game's 2D art layer, including characters, animations, tilesets and levels, for five game engines.",
+ "whenToUse": "Use when an agent is producing 2D characters, tilesets or levels for a game.",
+ "tasks": [
+  "create characters",
+  "create animations",
+  "create tilesets",
+  "build levels",
+  "export to game engines"
+ ],
+ "effects": {},
+ "flags": []
+}

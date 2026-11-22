@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "ceda96f2b95dc949489c1f8c100bf9d147041d18c5ca84ffae7fda94634b29d3",
+ "domain": [
+  "finance/market-history",
+  "data/investing"
+ ],
+ "product": [
+  "s-p-500",
+  "nasdaq-100",
+  "history-of-market"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only US stock market history including S&P 500 returns, CAPE, valuations, drawdowns and index changes.",
+ "whenToUse": "Use when you need historical US equity market data, valuations or index constituent changes.",
+ "tasks": [
+  "latest readings",
+  "annual returns",
+  "index changes",
+  "search charts",
+  "read datasets"
+ ],
+ "effects": {
+  "945797872fb7a37aa02b8faea7e3dad084cd08785cd80702628ff300947b43f7": "read",
+  "7fdedf3e8071ff9b37a6a20932f607e139c0d2df0c47017e865656e0c739c51e": "read",
+  "533ca333c168b98b139b47437beb122c147b20f7636ba29ca9fe6d9039725628": "read",
+  "c7132f9c871e45817ce13c6b3484e675d3d9e24712c3acd56275b38099de9208": "read",
+  "493c1c44abda7796a995ca59131aa56d5776c115515b279162729d25f8e35d13": "read"
+ },
+ "flags": []
+}

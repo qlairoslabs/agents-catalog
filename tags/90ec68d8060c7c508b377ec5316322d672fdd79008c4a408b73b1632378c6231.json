@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "90ec68d8060c7c508b377ec5316322d672fdd79008c4a408b73b1632378c6231",
+ "domain": [
+  "software/testing/flaky-tests",
+  "software/ci-cd"
+ ],
+ "product": [
+  "trunk"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Detects flaky tests, analyzes their root causes and suggests fixes for development teams.",
+ "whenToUse": "Use when an agent is investigating unreliable tests in a codebase tracked by Trunk.",
+ "tasks": [
+  "detect flaky tests",
+  "analyze root causes",
+  "suggest test fixes"
+ ],
+ "effects": {},
+ "flags": []
+}

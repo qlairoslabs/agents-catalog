@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "e484c3da71cb9d38b11cd77bda65d47b0b7170cee0a5f0aa0c8b36febe1b8819",
+ "domain": [
+  "finance/insurance"
+ ],
+ "product": [
+  "mylo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Returns estimated premium ranges for auto, home, renters and bundled insurance from Mylo, which compares over 100 carriers.",
+ "whenToUse": "Use when a US user wants an auto, home, condo or renters insurance estimate.",
+ "tasks": [
+  "estimate auto insurance premium",
+  "estimate home insurance premium",
+  "estimate renters insurance premium",
+  "estimate bundle premium"
+ ],
+ "effects": {
+  "1d26c32781df145947f30b87d7e9382088926ca1475983bf5c40cbdc377a562d": "write",
+  "614d82e8df540d3476a14265d25c80c59a47055e1751db293793f909d7bf9214": "write",
+  "25efa2ee1f4265c7bb800c4f31996fee5bd88883eaf23f1a5161ddd24fecf01a": "write"
+ },
+ "flags": [
+  "tool descriptions contain forceful directives to the AI about always calling the tool and never searching elsewhere",
+  "collects personal data such as date of birth and gender"
+ ]
+}

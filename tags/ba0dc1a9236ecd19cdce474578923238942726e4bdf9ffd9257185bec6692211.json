@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ba0dc1a9236ecd19cdce474578923238942726e4bdf9ffd9257185bec6692211",
+ "domain": [
+  "communication/voice-agents",
+  "support/call-center"
+ ],
+ "product": [
+  "callin.io"
+ ],
+ "audience": [
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives AI assistants access to Callin.io AI phone agents, call history and call transcripts.",
+ "whenToUse": "Use when an agent needs to review or manage Callin.io voice agents, calls or transcripts.",
+ "tasks": [
+  "list ai phone agents",
+  "view call history",
+  "read call transcripts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fbf15c04f25b7d542ae7121c8a923a4e8bf5bebce96363207eba8c5208dafa54",
+ "domain": [
+  "media/video-generation",
+  "media/voiceover",
+  "ai/tool-directory"
+ ],
+ "product": [
+  "stork"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates talking-photo videos, singing videos and voiceovers, and searches a directory of AI tools.",
+ "whenToUse": "Use when a user wants to animate a photo into a talking or singing video, generate a voiceover, or find an AI tool.",
+ "tasks": [
+  "make talking-photo video",
+  "make singing video",
+  "generate voiceover",
+  "search ai tool directory"
+ ],
+ "effects": {},
+ "flags": []
+}

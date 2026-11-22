@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "51b4bbbe33b83a59fda528519800e8d860a4ca5f7865b6ae220ff7d5b7d2a06c",
+ "domain": [
+  "design/reference",
+  "engineering/file-formats"
+ ],
+ "product": [
+  "falcon"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "hire-and-manage"
+ ],
+ "summary": "Reference for frontier design covering file formats, converters, sensors, companies and open design jobs at defense, robotics and space firms.",
+ "whenToUse": "Use when the user asks what a technical file format is, how to open or convert it, or wants frontier company and design job information.",
+ "tasks": [
+  "search frontier design reference",
+  "define terms and formats",
+  "profile companies",
+  "list design jobs",
+  "identify file formats",
+  "compare formats",
+  "find in-browser converters"
+ ],
+ "effects": {
+  "6cbc1f2ebac201fee2558768ebb4ddbd780460120646580c0870b9ebcf01b54a": "read",
+  "f37dbc97c62c957fb83875ef9e39be29af1eaef1fb0885ea6b6a5a6f24dda17c": "read",
+  "4b2925da3a5e7fc6e6ac62489c1f4856aac93191fad36942ee0084dfde2f5fca": "read",
+  "56674bf08ebfea4460cdbf6377e33125742f86d0b924146fff592c091164cae2": "read",
+  "322fceeed441d2d895683ccb374a264cb1aac42056d4178f5b97c0c85f59f46b": "read",
+  "e2dce7b410101e06e596af1dc98cc77a5a228320b49ebc0d27948f9a9cba89b8": "read",
+  "aee2574017c1d5b1f8757e085e8a74a7a6048a96042767568cb6c5ed06f9ac08": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7a6b74cb78cf183014a38e4c3b8e52878e4b11313d542d8e50f1bf2b946683de",
+ "domain": [
+  "publishing/print-on-demand/coloring-books",
+  "create-content/illustration"
+ ],
+ "product": [
+  "amazon-kdp",
+  "kdp-coloring-book-studio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Generates print-ready coloring book interiors for Amazon KDP, with price quotes and confirmation before creating.",
+ "whenToUse": "Use when someone wants to produce a coloring book interior for self-publishing on KDP.",
+ "tasks": [
+  "design coloring book interior",
+  "get quote",
+  "confirm order",
+  "produce print-ready files"
+ ],
+ "effects": {},
+ "flags": []
+}

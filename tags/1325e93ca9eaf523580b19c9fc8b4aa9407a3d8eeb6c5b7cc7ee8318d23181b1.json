@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "1325e93ca9eaf523580b19c9fc8b4aa9407a3d8eeb6c5b7cc7ee8318d23181b1",
+ "domain": [
+  "software/ai/prompts",
+  "software/cloud"
+ ],
+ "product": [
+  "aws",
+  "amazon-bedrock",
+  "amazon-eks"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Library of AWS-curated prompts for AI coding agents and downloadable agents for cost, quota, multi-account and database tasks.",
+ "whenToUse": "Use when a user wants a ready-made prompt for an AWS task or an installable agent for cost monitoring, quotas or Bedrock model availability.",
+ "tasks": [
+  "provide mvp scaffolding prompt",
+  "provide rag chatbot prompt",
+  "provide security baseline prompt",
+  "provide cost anomaly prompt",
+  "provide gpu quota request prompt",
+  "provide eks deployment prompt",
+  "provide well-architected review prompt",
+  "point to installable aws agents"
+ ],
+ "effects": {},
+ "flags": []
+}

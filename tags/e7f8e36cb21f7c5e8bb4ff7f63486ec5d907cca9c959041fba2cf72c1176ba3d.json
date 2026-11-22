@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "e7f8e36cb21f7c5e8bb4ff7f63486ec5d907cca9c959041fba2cf72c1176ba3d",
+ "domain": [
+  "software/identity/authentication",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "auth0",
+  "vercel"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Guidance for implementing and configuring Auth0 authentication and API protection, including SSO, MFA, passkeys, RBAC, tenant audits and migrations.",
+ "whenToUse": "Use when adding, debugging or configuring user authentication or API protection, especially with Auth0.",
+ "tasks": [
+  "implement login and logout",
+  "manage sessions and tokens",
+  "protect routes and apis",
+  "configure mfa and passkeys",
+  "set up sso and organizations",
+  "configure rbac",
+  "brand universal login",
+  "audit tenant health",
+  "debug auth flows",
+  "migrate from another auth provider",
+  "set up vercel integration"
+ ],
+ "effects": {},
+ "flags": [
+  "over-broad trigger: tells the agent to use it even if the user never mentions Auth0"
+ ]
+}

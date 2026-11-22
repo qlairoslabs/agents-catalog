@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "821cf278f2ff8bf8374cc4787baac92a6360eb3c682632babe266626d0e0e2f5",
+ "domain": [
+  "software/databases/reliability",
+  "software/development"
+ ],
+ "product": [
+  "azure-sql-database"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds connection pooling and transient-fault retry handling for apps using the Azure SQL Database container and cloud service.",
+ "whenToUse": "Use when hardening a data-access layer against dropped connections, timeouts or transient errors on Azure SQL or SQL Server.",
+ "tasks": [
+  "configure connection pooling",
+  "add retry logic",
+  "handle transient faults",
+  "tune pool size",
+  "add backoff",
+  "enable retry on failure"
+ ],
+ "effects": {},
+ "flags": []
+}

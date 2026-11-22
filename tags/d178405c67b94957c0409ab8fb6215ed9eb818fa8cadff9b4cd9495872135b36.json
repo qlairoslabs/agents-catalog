@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d178405c67b94957c0409ab8fb6215ed9eb818fa8cadff9b4cd9495872135b36",
+ "domain": [
+  "commerce/price-comparison",
+  "data/product-data"
+ ],
+ "product": [
+  "ponito"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares product prices across Swiss and European shops, with barcode lookup and daily price history.",
+ "whenToUse": "Use when an agent needs to find the best price for a product in Switzerland or Europe or see its price history.",
+ "tasks": [
+  "compare prices",
+  "look up gtin barcode",
+  "view price history"
+ ],
+ "effects": {},
+ "flags": []
+}

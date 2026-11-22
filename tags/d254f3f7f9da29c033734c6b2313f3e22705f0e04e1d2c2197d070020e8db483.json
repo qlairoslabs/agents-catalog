@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d254f3f7f9da29c033734c6b2313f3e22705f0e04e1d2c2197d070020e8db483",
+ "domain": [
+  "telecom/platform-management",
+  "software/api"
+ ],
+ "product": [
+  "telequick"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Tenant-scoped control plane exposing the full TeleQuick platform API to agents.",
+ "whenToUse": "Use when an agent must administer a TeleQuick tenant through its API.",
+ "tasks": [
+  "manage tenant resources",
+  "call telequick api"
+ ],
+ "effects": {},
+ "flags": []
+}

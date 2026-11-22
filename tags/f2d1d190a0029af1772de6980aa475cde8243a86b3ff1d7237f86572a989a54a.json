@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f2d1d190a0029af1772de6980aa475cde8243a86b3ff1d7237f86572a989a54a",
+ "domain": [
+  "real-estate/building-permits",
+  "government/open-data"
+ ],
+ "product": [
+  "nearby-permits"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up building permits by address for a set of US cities and counties using municipal open data.",
+ "whenToUse": "Use when checking building permit history or activity at a US address.",
+ "tasks": [
+  "search building permits by address",
+  "list covered cities and counties"
+ ],
+ "effects": {},
+ "flags": []
+}

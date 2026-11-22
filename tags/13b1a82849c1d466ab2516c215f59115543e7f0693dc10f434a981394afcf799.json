@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "13b1a82849c1d466ab2516c215f59115543e7f0693dc10f434a981394afcf799",
+ "domain": [
+  "content/email-templates",
+  "developer-tools/templates"
+ ],
+ "product": [
+  "unlayer"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Generates email, landing page and PDF document templates as React code or with AI, with visual editing.",
+ "whenToUse": "Use when building email, page or document templates in code or editing them visually with Unlayer.",
+ "tasks": [
+  "generate email templates",
+  "generate page templates",
+  "generate pdf templates",
+  "export as react code",
+  "edit templates visually"
+ ],
+ "effects": {},
+ "flags": []
+}

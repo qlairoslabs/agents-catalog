@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2973f931afbdc41848a38c9e4d16e99934d85ba1b8e2a2aa39010605e8669bb0",
+ "domain": [
+  "education/mentorship",
+  "careers/coaching"
+ ],
+ "product": [
+  "mentorcruise"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "schedule"
+ ],
+ "summary": "Searches MentorCruise mentors, applies after email verification, and books and pays sessions using credits.",
+ "whenToUse": "Use when the user wants to find, apply to or book a mentor on MentorCruise.",
+ "tasks": [
+  "search mentors",
+  "verify email",
+  "apply to mentor",
+  "book sessions",
+  "pay with credits"
+ ],
+ "effects": {},
+ "flags": []
+}

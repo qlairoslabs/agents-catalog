@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "27c4dce76eddab1612ca958a25845789a590a04e1d0f017342bc37e66cdc7db7",
+ "domain": [
+  "finance/commodity-prices"
+ ],
+ "product": [
+  "zahabprice",
+  "tamara",
+  "tabby"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Live gold and silver prices per gram for 37 countries plus Tamara and Tabby installment calculations for gold purchases in Saudi Arabia.",
+ "whenToUse": "Use when someone asks for current gold or silver prices or wants to compute buy-now-pay-later installments for gold in Saudi Arabia.",
+ "tasks": [
+  "get gold price",
+  "get silver price",
+  "calculate installment plan",
+  "list countries"
+ ],
+ "effects": {
+  "e714dda76efcbed6c2a026a4249f04adec5a8849ca6b383d56092227a6ada294": "read",
+  "a379d520a3bf856c37e2b522afb3726edf9123a57ccd3ab58905d74f0bd22e74": "read",
+  "96dddc939cf9539a4e30b7d9f41e3420b387440e1b463bcb3dcf1cf71a7069f4": "read",
+  "4dac1b6e7331918dbd0f6e584e406e1d4e6c90f32356e3eb8261ce894003ac20": "read"
+ },
+ "flags": []
+}

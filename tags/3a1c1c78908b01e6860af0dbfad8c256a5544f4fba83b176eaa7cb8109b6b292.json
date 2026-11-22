@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "3a1c1c78908b01e6860af0dbfad8c256a5544f4fba83b176eaa7cb8109b6b292",
+ "domain": [
+  "manufacturing/laser-cutting",
+  "software/cad"
+ ],
+ "product": [
+  "kerfscript"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Documentation, examples, parameter extraction and rendering of KerfScript parametric laser-cutting designs to SVG or DXF.",
+ "whenToUse": "Use when writing, checking or exporting parametric laser-cut designs in KerfScript.",
+ "tasks": [
+  "read docs",
+  "find examples",
+  "extract parameters",
+  "render SVG",
+  "render DXF"
+ ],
+ "effects": {
+  "f11c577dd20ab32c9f3e137c3318f313072d1bf6563006a42a6439556f0f2e2b": "read",
+  "76a455dcabfcad18854870f2547298a1a8cb7ed34e2eb341a4871d1541cc4c05": "read",
+  "2bcaf33de34e183212562734cfed37e12813ddde3e1b909e607214167bb99905": "read",
+  "6f6c8788eba201a59037f27a07eebd222bea41dbaba94199dccab43d60908d51": "read"
+ },
+ "flags": []
+}

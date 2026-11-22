@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b07589b661310fbd2764f21287bd13ddb80f69f4400c3a41f0ef77015cd7cc4d",
+ "domain": [
+  "software/hosting",
+  "software/bot-deployment"
+ ],
+ "product": [
+  "bot-hosting-net",
+  "discord",
+  "telegram"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Deploys and manages Discord bots, Telegram bots, websites, APIs and databases on Bot-Hosting.net.",
+ "whenToUse": "Use when a user wants to deploy or manage a bot, site, API or database on Bot-Hosting.net.",
+ "tasks": [
+  "deploy discord bot",
+  "deploy telegram bot",
+  "host website",
+  "host api",
+  "manage database",
+  "manage servers"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5c95e6571a3d1a75469cef72b733ab2e6d37fb20f4e5320d029415acba67aa6f",
+ "domain": [
+  "automation/human-in-the-loop",
+  "productivity/forms"
+ ],
+ "product": [
+  "superforms"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Lets AI agents request input from people through voice-first answer links, MCP tools and HTTP APIs.",
+ "whenToUse": "Use when an agent needs to collect an answer or approval from a human mid-task.",
+ "tasks": [
+  "create answer links",
+  "collect human input",
+  "receive voice answers"
+ ],
+ "effects": {},
+ "flags": []
+}

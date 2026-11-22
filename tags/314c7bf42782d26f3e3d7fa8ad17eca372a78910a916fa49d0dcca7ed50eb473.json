@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "314c7bf42782d26f3e3d7fa8ad17eca372a78910a916fa49d0dcca7ed50eb473",
+ "domain": [
+  "finance/compliance/legal-entity-identifiers"
+ ],
+ "product": [
+  "global-finreg",
+  "gleif"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Looks up Legal Entity Identifiers and lets a Global FinReg user register, renew and transfer LEIs and get invoices.",
+ "whenToUse": "Use when looking up an LEI or registering, renewing or transferring one for a company.",
+ "tasks": [
+  "look up lei",
+  "register lei",
+  "renew lei",
+  "transfer lei",
+  "get invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

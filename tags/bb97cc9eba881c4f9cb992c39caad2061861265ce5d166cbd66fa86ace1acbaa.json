@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bb97cc9eba881c4f9cb992c39caad2061861265ce5d166cbd66fa86ace1acbaa",
+ "domain": [
+  "software/system-automation",
+  "software/file-management"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "MCP server that runs terminal commands, manages processes and performs file operations on many file types.",
+ "whenToUse": "Use when an agent needs to run shell commands, manage processes or read and edit local files.",
+ "tasks": [
+  "run terminal commands",
+  "manage processes",
+  "read and write files",
+  "edit pdf and docx files",
+  "work with excel files",
+  "handle images"
+ ],
+ "effects": {},
+ "flags": []
+}

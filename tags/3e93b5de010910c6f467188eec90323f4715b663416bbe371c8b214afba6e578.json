@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3e93b5de010910c6f467188eec90323f4715b663416bbe371c8b214afba6e578",
+ "domain": [
+  "data/address-validation",
+  "data/geocoding"
+ ],
+ "product": [
+  "acuris",
+  "royal-mail-paf"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Validates and geocodes addresses in over 240 countries, including UK PAF data and US and Canada enrichment.",
+ "whenToUse": "Use when an agent needs to verify, standardize or geocode a postal address.",
+ "tasks": [
+  "validate addresses",
+  "geocode addresses",
+  "look up uk paf addresses",
+  "enrich us and canada addresses"
+ ],
+ "effects": {},
+ "flags": []
+}

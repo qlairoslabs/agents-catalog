@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "876492fda73a2a0b70e706b0c20d1c7751b5fc49a94603a3035d6a38ba84681c",
+ "domain": [
+  "jobs/job-search",
+  "jobs/salary-data"
+ ],
+ "product": [
+  "whatjobs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live job listings in 58 countries, gives salary insights and comparisons, top hiring companies and profile-based job matches.",
+ "whenToUse": "Use when a user is looking for jobs, salary levels or who is hiring for a role and place.",
+ "tasks": [
+  "search jobs",
+  "get salary insights",
+  "compare salaries",
+  "find top hiring companies",
+  "compare job counts",
+  "find latest jobs",
+  "match jobs to profile"
+ ],
+ "effects": {
+  "86d641195fee5ef5b6a913449e03c822d1972e6252a31228113cf19dad7e204b": "write",
+  "86a5ab48c304afc21cfaffb8264d573932e7b40ecc76f0cf6e5470a556c8e83a": "write",
+  "680ee1dcde3aaad98a174c1d6a4a6b2e0a10ea5ed7ae1f2c39fbdfc947ab9204": "write",
+  "71faaa989d8965ba8df3144b05008c15ff04ab9cde1833cc633c9f00c5ec3589": "write",
+  "3fe0af840fc5643f1a44fc531ec920e630d6783987092ea1c801863e19f009f1": "write",
+  "64d6b65f803f7dd37f1e23afd7c3728357d52138310540ee953b3b7e37716321": "write",
+  "346d6b8c14202a7d728a8c21ae9b61b78a42b9279c7a37f223e366561838f260": "write",
+  "28a7aac4ff6173ef802655628329b4a3d0f1ae82cd9c3f51b76d092df554f698": "write"
+ },
+ "flags": []
+}

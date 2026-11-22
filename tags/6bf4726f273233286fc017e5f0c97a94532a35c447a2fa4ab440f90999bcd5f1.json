@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6bf4726f273233286fc017e5f0c97a94532a35c447a2fa4ab440f90999bcd5f1",
+ "domain": [
+  "finance/company-filings",
+  "finance/investment-research"
+ ],
+ "product": [
+  "xbrl"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Official filings and XBRL financial data for listed companies worldwide, as originally published.",
+ "whenToUse": "Use when an agent needs primary-source financial statements or filings for listed companies in any country.",
+ "tasks": [
+  "search company filings",
+  "retrieve xbrl financials",
+  "access official documents"
+ ],
+ "effects": {},
+ "flags": []
+}

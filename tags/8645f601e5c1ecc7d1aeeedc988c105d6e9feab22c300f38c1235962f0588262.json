@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8645f601e5c1ecc7d1aeeedc988c105d6e9feab22c300f38c1235962f0588262",
+ "domain": [
+  "science/genomics",
+  "ai/bioinformatics"
+ ],
+ "product": [
+  "genomic-intelligence"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted DNA language models for predicting promoters, splice sites, enhancers, chromatin state, expression and annotation.",
+ "whenToUse": "Use when analysing DNA sequences to predict regulatory elements, splicing or gene expression.",
+ "tasks": [
+  "predict promoters",
+  "predict splice sites",
+  "predict enhancers",
+  "predict chromatin state",
+  "predict expression",
+  "annotate sequences"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "dc70db0a7919ccd27ceab6622f23131ccd75f17dcc591ea171d1d5d8ea47e554",
+ "domain": [
+  "automotive/vehicle-appraisal",
+  "software/saas"
+ ],
+ "product": [
+  "tradebasis"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Static information about TradeBasis, a Canadian B2B vehicle appraisal SaaS, including its pricing tiers and research briefs.",
+ "whenToUse": "Use when someone asks what TradeBasis is, how much it costs, or wants its automotive market research briefs.",
+ "tasks": [
+  "describe the product",
+  "show pricing tiers",
+  "list and read research briefs"
+ ],
+ "effects": {
+  "6c2100b31a37c8a1138cf96ce8339da6b412590dfbc4d44dddd7a745cb32e5b1": "read",
+  "20ff0645a071116685c8dffa5abf9b831676491dade2094315a286e2cfa7efda": "read",
+  "7b840cd7bd7b428b7b3edcdb76b8cd461df975d41a165435f7daf19afaa65e5a": "read"
+ },
+ "flags": []
+}

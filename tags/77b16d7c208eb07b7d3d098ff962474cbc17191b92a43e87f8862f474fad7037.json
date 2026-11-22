@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "77b16d7c208eb07b7d3d098ff962474cbc17191b92a43e87f8862f474fad7037",
+ "domain": [
+  "software/ai-ml/inference",
+  "hardware/gpu"
+ ],
+ "product": [
+  "amd-ryzen-ai",
+  "amd-instinct",
+  "vllm",
+  "hyperloom",
+  "pytorch"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "AMD agent skills for running local AI on Ryzen AI, serving LLMs on Instinct GPUs with vLLM, tuning inference throughput, and profiling GPU kernels and PyTorch traces.",
+ "whenToUse": "Use when deploying, optimizing or profiling AI model inference on AMD hardware.",
+ "tasks": [
+  "route image and audio to local ai on ryzen ai",
+  "serve llms on amd instinct with vllm",
+  "optimize inference throughput with hyperloom",
+  "analyze gpu kernel performance",
+  "analyze pytorch traces"
+ ],
+ "effects": {},
+ "flags": []
+}

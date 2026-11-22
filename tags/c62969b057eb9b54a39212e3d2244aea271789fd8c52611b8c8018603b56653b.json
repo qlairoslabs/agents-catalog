@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c62969b057eb9b54a39212e3d2244aea271789fd8c52611b8c8018603b56653b",
+ "domain": [
+  "software/backend-as-a-service"
+ ],
+ "product": [
+  "appwrite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Appwrite SDK skills, MCP servers and deployment commands for building apps on Appwrite.",
+ "whenToUse": "Use when building or deploying an application backed by Appwrite.",
+ "tasks": [
+  "manage appwrite resources",
+  "use appwrite sdks",
+  "deploy apps"
+ ],
+ "effects": {},
+ "flags": []
+}

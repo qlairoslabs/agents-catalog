@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "b81995d986603e89bdde1d6d285c83061ad1834eeffe88841bf2dca718ab944f",
+ "domain": [
+  "web/domains-hosting",
+  "infrastructure/servers"
+ ],
+ "product": [
+  "host.al"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Checks .al and international domain availability and prices, lists Host.al VPS, server, hosting and network products, and answers support questions.",
+ "whenToUse": "Use when someone wants to register an .al domain or compare hosting, VPS or server plans in Albania.",
+ "tasks": [
+  "check domain availability",
+  "get domain prices",
+  "list hosting and server products",
+  "build cart links",
+  "search help articles",
+  "get company info"
+ ],
+ "effects": {
+  "d2faa8c5971422a9845a0f716f5b0d028366402dae16c74d80e3ee8db05876da": "read",
+  "10b63ffee883d965f4e8f8fab10a2a6b9261c207727bec8248a6381c1dcb9f98": "read",
+  "15eb1836d1a27fdde6b6e63f507d4aaeea1eb6f344b148b3d5cf6de8c0bfe3b2": "read",
+  "4f8a8df18a27f6d2e6a82f08199ed833675fc13cf0a936162fa4efd30f858b81": "read",
+  "3cb0a292d56ec38871fcb6ea751eae63b158fcd11383026c872c1368f59e8f49": "read",
+  "6021891c9b06ad3bb6f34f478e988ba0a08c2088737aaaceeedb9c7e27278d27": "read",
+  "63805d14f08a1d284c800b614a3a41cb2327960e85626b0cf575ad49dd9e4d4f": "read"
+ },
+ "flags": []
+}

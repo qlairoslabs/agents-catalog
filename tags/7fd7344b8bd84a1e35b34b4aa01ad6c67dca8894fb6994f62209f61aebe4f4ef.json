@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7fd7344b8bd84a1e35b34b4aa01ad6c67dca8894fb6994f62209f61aebe4f4ef",
+ "domain": [
+  "ecommerce/jewellery",
+  "retail/catalogue"
+ ],
+ "product": [
+  "origine-paris",
+  "shopify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Describes the Origine Paris jewellery house and lets agents search its catalogue, collections and product details.",
+ "whenToUse": "Use when a user is looking for lab-grown diamond and recycled gold jewellery from Origine Paris or wants details on the house.",
+ "tasks": [
+  "describe the house and founders",
+  "search catalogue",
+  "get product detail",
+  "list collections"
+ ],
+ "effects": {
+  "5c6ee0ad11c1c5d8af679affbbf08953b73d11c5ed46390a9eaaa2e58fa66bb9": "write",
+  "5eb2d5537eccdd202e4a2b7b5e2701aa4b6558e4f87ab47431d040d50b7860b0": "write",
+  "5db0ba1a2f44a8a0c96a45667e495f49c3804b6dbf2c3ed42423674987b5e982": "write",
+  "9fb64c34a67581ba6ae86462c2030955aa8d41d35dad0fe3da5b6f4c0a103235": "write"
+ },
+ "flags": []
+}

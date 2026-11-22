@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "750b4062227c951f482ca5c629d70841211e98549ee68e5529efcfcbc61a2ee3",
+ "domain": [
+  "software/documentation",
+  "software/sdk"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Verifies SDK symbols for an exact package version and compares them across two versions with commit-pinned GitHub links.",
+ "whenToUse": "Use when you need to confirm an API signature or change for a specific package version.",
+ "tasks": [
+  "resolve exact version symbol",
+  "compare versions",
+  "list coverage",
+  "link pinned source code"
+ ],
+ "effects": {
+  "70d1a7c05b570555fbb13ac4788d750768af7a0f7266a68e50983330e8097093": "read",
+  "1743830992ac79ffa5ce9c7f20cc6a0338a004db9e2099cc88c77363fc24d107": "read",
+  "f51369ee15f1454e12f1682c3b1b790efece19bbba402d65d1ddef802d0beeb3": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "1494abcd565ebbfc6974d5cdfe710d93cdbf12c77aa6f68f4a854cacc50de29d",
+ "domain": [
+  "marketplace/classifieds",
+  "real-estate/listings",
+  "hr/job-listings"
+ ],
+ "product": [
+  "assetlog"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches vehicle, real estate and job listings and manages a user's listings, alerts, enquiries and viewings.",
+ "whenToUse": "Use when a user wants to search or manage classified listings for vehicles, property or jobs on AssetLog.",
+ "tasks": [
+  "search vehicles",
+  "search real estate",
+  "search jobs",
+  "manage listings",
+  "manage alerts",
+  "handle enquiries",
+  "schedule viewings"
+ ],
+ "effects": {},
+ "flags": []
+}

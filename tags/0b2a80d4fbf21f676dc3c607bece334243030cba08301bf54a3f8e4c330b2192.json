@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0b2a80d4fbf21f676dc3c607bece334243030cba08301bf54a3f8e4c330b2192",
+ "domain": [
+  "marketing/email",
+  "communication/transactional-email"
+ ],
+ "product": [
+  "ahasend"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Email service connector for sending mail, checking deliverability, configuring domains and managing templates, contacts and campaigns.",
+ "whenToUse": "Use when an agent needs to send email or manage AhaSend domains, templates, contacts or campaigns.",
+ "tasks": [
+  "send email",
+  "check deliverability",
+  "set up sending domains",
+  "manage templates",
+  "manage contacts",
+  "run campaigns"
+ ],
+ "effects": {},
+ "flags": []
+}

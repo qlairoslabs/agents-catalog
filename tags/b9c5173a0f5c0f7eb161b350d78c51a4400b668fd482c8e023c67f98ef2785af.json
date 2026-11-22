@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b9c5173a0f5c0f7eb161b350d78c51a4400b668fd482c8e023c67f98ef2785af",
+ "domain": [
+  "finance/markets/sentiment",
+  "finance/crypto"
+ ],
+ "product": [
+  "finbert"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives FinBERT-scored news sentiment and price history for a set of crypto, FX, stock, ETF and commodity tickers.",
+ "whenToUse": "Use when an agent needs news sentiment or price history for supported market tickers.",
+ "tasks": [
+  "get news sentiment",
+  "get price history"
+ ],
+ "effects": {},
+ "flags": []
+}

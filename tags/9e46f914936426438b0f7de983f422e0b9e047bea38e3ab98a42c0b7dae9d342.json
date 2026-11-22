@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9e46f914936426438b0f7de983f422e0b9e047bea38e3ab98a42c0b7dae9d342",
+ "domain": [
+  "communication/phone-calls",
+  "ai/voice-agents"
+ ],
+ "product": [
+  "joovoice"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "schedule"
+ ],
+ "summary": "Lets an AI agent place real phone calls to make bookings, appointments, cancellations and refund requests.",
+ "whenToUse": "Use when a user wants an agent to phone a business to book, cancel or request a refund.",
+ "tasks": [
+  "place phone calls",
+  "book appointments",
+  "make reservations",
+  "cancel bookings",
+  "request refunds"
+ ],
+ "effects": {},
+ "flags": []
+}

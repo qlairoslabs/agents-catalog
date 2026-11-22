@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "d73385c697abdcaf382b4ce808075cc4d5663976048b69399289409c6700c541",
+ "domain": [
+  "software/developer-tools/system-access"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Runs terminal commands, manages files and controls processes on the local machine.",
+ "whenToUse": "Use when an agent needs shell access, file editing or process control locally.",
+ "tasks": [
+  "run terminal commands",
+  "read and write files",
+  "search files",
+  "list and kill processes"
+ ],
+ "effects": {},
+ "flags": []
+}

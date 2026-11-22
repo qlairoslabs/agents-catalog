@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d34ebea3de77bd5ef7e36620dca78a27ca5296126e030bdadadb0953211dd8ae",
+ "domain": [
+  "finance/payments/agent-payments"
+ ],
+ "product": [
+  "payware"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "sell"
+ ],
+ "summary": "Connects to the payware agent-to-agent payments API for merchants, ISVs, payment institutions and buying agents.",
+ "whenToUse": "Use when an agent needs to create or process payments through payware.",
+ "tasks": [
+  "create payments",
+  "process transactions",
+  "check payment status"
+ ],
+ "effects": {},
+ "flags": []
+}

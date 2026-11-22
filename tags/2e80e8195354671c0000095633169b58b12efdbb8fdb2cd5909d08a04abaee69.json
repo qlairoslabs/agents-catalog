@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2e80e8195354671c0000095633169b58b12efdbb8fdb2cd5909d08a04abaee69",
+ "domain": [
+  "productivity/shared-context",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "basethread"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Shared context store that a team's AI tools can read from and write to over MCP.",
+ "whenToUse": "Use when an agent needs to read or save team context that other AI tools should share.",
+ "tasks": [
+  "read shared team context",
+  "write shared team context"
+ ],
+ "effects": {},
+ "flags": []
+}

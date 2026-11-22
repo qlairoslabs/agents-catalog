@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ddf746bb9d92f0a36300214243026d13642657487c7adae30aa45ff2c225542b",
+ "domain": [
+  "knowledge-management/wiki"
+ ],
+ "product": [
+  "mediawiki"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "MCP server that lets AI clients read and edit pages on any MediaWiki wiki.",
+ "whenToUse": "Use when an agent needs to search, read or edit content on a MediaWiki site.",
+ "tasks": [
+  "search wiki pages",
+  "read wiki pages",
+  "edit wiki pages"
+ ],
+ "effects": {},
+ "flags": []
+}

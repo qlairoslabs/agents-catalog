@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6fddafee65d1e2cf1fb424db4425d3c3eb093badd37599bb6b0809c797c420c7",
+ "domain": [
+  "commerce/fulfillment",
+  "operations/inventory"
+ ],
+ "product": [
+  "quivo"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Access orders, shipments, returns, products and stock in a Quivo Connector fulfillment account.",
+ "whenToUse": "Use when checking or managing e-commerce orders, shipments, returns or stock in Quivo.",
+ "tasks": [
+  "view orders",
+  "track shipments",
+  "manage returns",
+  "view products",
+  "check stock levels"
+ ],
+ "effects": {},
+ "flags": []
+}

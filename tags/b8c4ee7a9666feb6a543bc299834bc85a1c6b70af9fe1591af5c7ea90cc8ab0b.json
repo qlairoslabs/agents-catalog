@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b8c4ee7a9666feb6a543bc299834bc85a1c6b70af9fe1591af5c7ea90cc8ab0b",
+ "domain": [
+  "product/management",
+  "analytics/product"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Finds product opportunities from Amplitude analytics, experiments, session replays and feedback, prioritized with RICE scoring.",
+ "whenToUse": "Use when a user asks what to build next, where users are dropping off, or wants a data-driven improvement backlog.",
+ "tasks": [
+  "analyze product analytics",
+  "review experiments",
+  "review session replays",
+  "analyze customer feedback",
+  "find user drop-off points",
+  "score opportunities with rice",
+  "build prioritized backlog"
+ ],
+ "effects": {},
+ "flags": []
+}

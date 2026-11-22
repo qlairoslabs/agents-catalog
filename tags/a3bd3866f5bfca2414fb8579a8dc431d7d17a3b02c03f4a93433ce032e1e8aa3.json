@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a3bd3866f5bfca2414fb8579a8dc431d7d17a3b02c03f4a93433ce032e1e8aa3",
+ "domain": [
+  "customer-support/helpdesk",
+  "sales/crm"
+ ],
+ "product": [
+  "customerly"
+ ],
+ "audience": [
+  "support",
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Manages Customerly contacts, conversations, companies, segments and knowledge base articles.",
+ "whenToUse": "Use when a user wants to work with customer contacts, support conversations or help articles in Customerly.",
+ "tasks": [
+  "manage contacts",
+  "manage conversations",
+  "manage companies",
+  "manage segments",
+  "manage knowledge base"
+ ],
+ "effects": {},
+ "flags": []
+}

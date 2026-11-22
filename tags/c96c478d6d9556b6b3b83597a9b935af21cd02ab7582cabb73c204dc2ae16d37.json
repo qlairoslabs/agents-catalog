@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c96c478d6d9556b6b3b83597a9b935af21cd02ab7582cabb73c204dc2ae16d37",
+ "domain": [
+  "data/web-scraping",
+  "research/web-search"
+ ],
+ "product": [
+  "scrapenest"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Offers web search, page scraping, cited RAG answers and translation as tools.",
+ "whenToUse": "Use when an agent needs to search the web, extract page content or get sourced answers.",
+ "tasks": [
+  "search web",
+  "scrape pages",
+  "answer with citations",
+  "translate text"
+ ],
+ "effects": {},
+ "flags": []
+}

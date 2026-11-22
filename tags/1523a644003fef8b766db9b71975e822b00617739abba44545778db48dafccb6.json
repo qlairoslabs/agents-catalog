@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1523a644003fef8b766db9b71975e822b00617739abba44545778db48dafccb6",
+ "domain": [
+  "ai/usage-tracking",
+  "finance/cost-tracking"
+ ],
+ "product": [
+  "claude-code",
+  "codex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Reports token usage and cost for AI coding agents from local session files.",
+ "whenToUse": "Use when an agent needs to report token usage or spend for AI coding tools.",
+ "tasks": [
+  "count tokens",
+  "estimate cost",
+  "compare agent usage"
+ ],
+ "effects": {},
+ "flags": []
+}

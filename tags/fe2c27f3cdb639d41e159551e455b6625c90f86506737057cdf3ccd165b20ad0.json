@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fe2c27f3cdb639d41e159551e455b6625c90f86506737057cdf3ccd165b20ad0",
+ "domain": [
+  "software/developer-platform/account-management",
+  "finance/crypto/infrastructure"
+ ],
+ "product": [
+  "crossmint"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Manages Crossmint organisations, projects, environments and API keys from an AI assistant.",
+ "whenToUse": "Use when a developer needs to administer Crossmint projects, environments or API keys.",
+ "tasks": [
+  "manage organisations",
+  "manage projects",
+  "manage environments",
+  "manage api keys"
+ ],
+ "effects": {},
+ "flags": []
+}

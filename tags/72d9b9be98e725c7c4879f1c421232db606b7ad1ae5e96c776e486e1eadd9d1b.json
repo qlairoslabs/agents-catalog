@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "72d9b9be98e725c7c4879f1c421232db606b7ad1ae5e96c776e486e1eadd9d1b",
+ "domain": [
+  "work/freelance-marketplace",
+  "hiring/contractors"
+ ],
+ "product": [
+  "upwork"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Official Upwork server that lets an agent access an Upwork account and act on the user's behalf.",
+ "whenToUse": "Use when an agent needs to work with Upwork jobs, proposals, contracts or messages for the user.",
+ "tasks": [
+  "access upwork account",
+  "act on upwork on behalf of user"
+ ],
+ "effects": {},
+ "flags": []
+}

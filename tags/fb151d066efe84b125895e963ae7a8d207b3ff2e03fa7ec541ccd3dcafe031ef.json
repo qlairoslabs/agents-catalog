@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "fb151d066efe84b125895e963ae7a8d207b3ff2e03fa7ec541ccd3dcafe031ef",
+ "domain": [
+  "software/ai-safety/agent-guardrails",
+  "software/cybersecurity"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Wraps stdio MCP servers so risky tool calls require human approval before running; remote mode is cooperative.",
+ "whenToUse": "Use when agent tool calls need a human-in-the-loop approval gate before risky actions execute.",
+ "tasks": [
+  "wrap stdio mcp servers",
+  "hold risky calls for approval",
+  "block unapproved calls"
+ ],
+ "effects": {},
+ "flags": []
+}

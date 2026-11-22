@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "3b73df516bc1dda58fa9e4a8e9dec573a42c50f81416eca5212bca0c05b9f588",
+ "domain": [
+  "productivity/personal-data-access",
+  "communication/email"
+ ],
+ "product": [
+  "local-mcp",
+  "imessage",
+  "microsoft-teams",
+  "chatgpt",
+  "claude",
+  "cursor"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "keep-in-touch",
+  "schedule"
+ ],
+ "summary": "Desktop bridge for Mac and Windows that exposes local email, calendar, iMessage, Teams and files to AI assistants.",
+ "whenToUse": "Use when an agent needs access to the user's local email, calendar, messages or files on their computer.",
+ "tasks": [
+  "read and send email",
+  "read calendar events",
+  "read and send imessages",
+  "access teams messages",
+  "read local files"
+ ],
+ "effects": {},
+ "flags": []
+}

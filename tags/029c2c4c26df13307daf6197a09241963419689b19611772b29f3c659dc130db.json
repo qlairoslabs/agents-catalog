@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "029c2c4c26df13307daf6197a09241963419689b19611772b29f3c659dc130db",
+ "domain": [
+  "media/image-generation",
+  "software/ai"
+ ],
+ "product": [
+  "comfyui"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Controls a local ComfyUI install to generate images, monitor jobs and build workflows.",
+ "whenToUse": "Use when generating images or building ComfyUI workflows on the user's own machine.",
+ "tasks": [
+  "generate images",
+  "monitor generation jobs",
+  "build workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "4ee672393f7ab7dc14ca5c8c07d761b221995ade2447e57e120acfb2adc43f46",
+ "domain": [
+  "productivity/office-suite",
+  "communication/email"
+ ],
+ "product": [
+  "google-workspace",
+  "google-sheets",
+  "google-drive",
+  "google-docs",
+  "google-calendar",
+  "gmail"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Connects agents to Google Sheets, Drive, Docs, Calendar and Gmail, with Docs in HTML or Markdown.",
+ "whenToUse": "Use when an agent needs to read or edit Google Workspace files, events or emails.",
+ "tasks": [
+  "read and write sheets",
+  "manage drive files",
+  "edit docs",
+  "manage calendar events",
+  "read and send email"
+ ],
+ "effects": {},
+ "flags": []
+}

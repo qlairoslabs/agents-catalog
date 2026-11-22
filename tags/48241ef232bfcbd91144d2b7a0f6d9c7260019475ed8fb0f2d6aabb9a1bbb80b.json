@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "48241ef232bfcbd91144d2b7a0f6d9c7260019475ed8fb0f2d6aabb9a1bbb80b",
+ "domain": [
+  "productivity/project-management",
+  "software/issue-tracking"
+ ],
+ "product": [
+  "atlassian",
+  "jira",
+  "confluence"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Connects to Jira and Confluence to search and create issues, read docs and manage sprints.",
+ "whenToUse": "Use when working with Jira issues, sprints or Confluence pages.",
+ "tasks": [
+  "search issues",
+  "create issues",
+  "manage sprints",
+  "read confluence pages"
+ ],
+ "effects": {},
+ "flags": []
+}

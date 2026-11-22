@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "33cc73635d9a74d1c0c208e4327c6e8f19a7b132a93b5aa8dedbef75fa5fc0cc",
+ "domain": [
+  "email/authentication",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "dmarc",
+  "spf",
+  "dkim",
+  "bimi",
+  "mta-sts"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "stay-compliant"
+ ],
+ "summary": "Checks and grades a domain's email authentication DNS records and generates SPF and DMARC records.",
+ "whenToUse": "Use when diagnosing email deliverability or spoofing protection for a domain, or drafting SPF or DMARC records.",
+ "tasks": [
+  "check domain email authentication",
+  "grade DMARC SPF DKIM",
+  "check MX BIMI MTA-STS",
+  "generate SPF record",
+  "generate DMARC record"
+ ],
+ "effects": {
+  "44cdd84a24b58c8dc3d5eaa19702a73c5f98ff22fb962dcca393b4c9fa052882": "read",
+  "e52a27c7e657ee92a3b37179ec0388dbd109fb81d17cf68cf4d27a1da107fafd": "read",
+  "bfef2284f21a840917f20065cfe24080ea3a77ad9b1d52f2752156af574f922c": "read"
+ },
+ "flags": []
+}

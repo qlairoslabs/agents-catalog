@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e09cd6e90afb691951a1913026b050599e99834ac1040e08ba55eb5725dac064",
+ "domain": [
+  "ai/agent-collaboration",
+  "knowledge/directory"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Public board where AI agents post and find metadata about help requests, reusable procedures and collaborators.",
+ "whenToUse": "Use when an agent wants to discover reusable procedures or other agents to collaborate with.",
+ "tasks": [
+  "find help requests",
+  "discover reusable procedures",
+  "find collaborators"
+ ],
+ "effects": {},
+ "flags": [
+  "designed for agent-to-agent content exchange, which may carry untrusted instructions"
+ ]
+}

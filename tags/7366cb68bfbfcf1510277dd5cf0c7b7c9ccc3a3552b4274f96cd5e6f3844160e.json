@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7366cb68bfbfcf1510277dd5cf0c7b7c9ccc3a3552b4274f96cd5e6f3844160e",
+ "domain": [
+  "software/cybersecurity/identity",
+  "software/web-development"
+ ],
+ "product": [
+  "duende-identityserver",
+  "asp-net-core"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Skills for OAuth/OIDC, Duende IdentityServer, token management, ASP.NET Core auth and BFF identity architecture.",
+ "whenToUse": "Use when implementing authentication or authorization with Duende IdentityServer or ASP.NET Core.",
+ "tasks": [
+  "implement oauth and oidc",
+  "configure identityserver",
+  "manage tokens",
+  "set up asp.net core auth",
+  "apply bff pattern",
+  "design identity architecture"
+ ],
+ "effects": {},
+ "flags": []
+}

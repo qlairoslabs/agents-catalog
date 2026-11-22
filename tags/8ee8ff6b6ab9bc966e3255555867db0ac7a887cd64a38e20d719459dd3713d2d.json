@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "8ee8ff6b6ab9bc966e3255555867db0ac7a887cd64a38e20d719459dd3713d2d",
+ "domain": [
+  "healthcare/billing",
+  "insurance/appeals"
+ ],
+ "product": [
+  "medigami",
+  "cpt",
+  "x12"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Patient-facing lookups for hospital negotiated rates, bill markups, denial codes, appeal deadlines, insurer overturn rates and procedure codes.",
+ "whenToUse": "Use when a patient is checking a medical bill, understanding a claim denial or planning an insurance appeal.",
+ "tasks": [
+  "get hospital negotiated rate",
+  "check bill markup",
+  "explain denial code",
+  "get appeal deadline",
+  "get insurer overturn rate",
+  "look up procedure code"
+ ],
+ "effects": {
+  "744ba82bf4db18eaec348f8484ee48637cce9c174b653649677b935d4b7f2d3c": "read",
+  "5a605dd034d5be4e86c5b1dc9d7ddb08a5f766ab1e8a7c88d05e7093ad93d4c7": "read",
+  "797d4fb5d989a9e7d2aa0a95021c6a3e24e27638cff0c155cccf8776474cb7f8": "read",
+  "f8707a8a2cfb246fc21e797068125b8f882b76d64d551dfdde2521cd3e13ae96": "read",
+  "8764508548a317cd898f1969a33578a02db645c8aadedf0ce3a19b20b6c74601": "read",
+  "58f890b62015e06970a175d81743d87ef101ccb86625cc411aa48b0e8ba04976": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c6d28dd4053f717b013cba432b1bf170057e9dc7387f03f86c810f9c8bc7cf70",
+ "domain": [
+  "finance/payment-verification",
+  "finance/banking"
+ ],
+ "product": [
+  "veriko",
+  "banxico",
+  "spei"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Verifies Mexican SPEI transfers against Banxico CEP records and operates the public Veriko API, run locally via npm.",
+ "whenToUse": "Use when a user needs to confirm a SPEI bank transfer in Mexico actually took place.",
+ "tasks": [
+  "verify spei transfers",
+  "check banxico cep",
+  "use veriko api"
+ ],
+ "effects": {},
+ "flags": []
+}

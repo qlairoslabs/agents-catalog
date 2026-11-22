@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "63214e2d9c0c3eb1b78360f6111d7007be16c26ba0bfe7afd20e0dcf90eb3465",
+ "domain": [
+  "scheduling/appointments",
+  "local-services"
+ ],
+ "product": [
+  "bookingmaven"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Find service businesses such as barbers, salons and trainers on BookingMaven, check availability, and book, reschedule or cancel appointments.",
+ "whenToUse": "Use when a user wants to find a local service provider and book or change an appointment.",
+ "tasks": [
+  "search businesses",
+  "view services and staff",
+  "check availability",
+  "book appointment",
+  "reschedule",
+  "cancel",
+  "look up booking",
+  "list own bookings",
+  "get signup links"
+ ],
+ "effects": {
+  "fed41abb53460f6b09c59eb3d8d36f6bcc2e0a902ff8009cd830fe780af79f2e": "read",
+  "6f4bed1ac54198f33eb9869dea285e9444fe262544d17ebc7e9f7ee193847ca1": "read",
+  "990478d6e3e44ecd3623edf9ec7218e86348cff4d3c44fed7d5ea9277fd17d9d": "read",
+  "00ff3ba1e9e19644d80616ce486113645cf6d8e5c3852b65cfa6a2e14a00b0e0": "write",
+  "30dfffaba6771e64b8ad32dcbaa9c5ca60ab9876b4e34fc882f4a26374cf62de": "read",
+  "b30d419379ab723092b3ad5e8bd81f983c43f92bb325d82fd7a9679d1e5e4fcc": "write",
+  "d90402365ea3941b00099930c81116544f2fad3d5e7198cb590a298281026b56": "write",
+  "c5e613db6bb0fb7968cde656567abe9dc6bf87dc8e6c42a61bcbe33a3687c431": "write",
+  "6df9168b31ae336fa4fe37f5b695c2344eef95359811f3ef55278cbf4d3c890d": "write",
+  "e126b733c8028ee738568dbca2d4a6f56e6b50e7f3ffc48f489bd7e6c271cc90": "read",
+  "7dc9fb5ea37528c524cc39c02e3f4b1f2b5d20cda52034cbeb5ef366eec39589": "write"
+ },
+ "flags": []
+}

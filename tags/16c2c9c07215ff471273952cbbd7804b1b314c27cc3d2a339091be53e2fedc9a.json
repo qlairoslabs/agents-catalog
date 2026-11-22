@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "16c2c9c07215ff471273952cbbd7804b1b314c27cc3d2a339091be53e2fedc9a",
+ "domain": [
+  "media/documentaries",
+  "entertainment/streaming"
+ ],
+ "product": [
+  "iwonder"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches a catalogue of over 100,000 documentaries, returns film details and shows where each can be watched in a given country.",
+ "whenToUse": "Use when a user wants to find a documentary or learn where to stream it in their country.",
+ "tasks": [
+  "search documentaries",
+  "filter by runtime, year, service",
+  "get film details",
+  "check where to watch by country"
+ ],
+ "effects": {
+  "ab88d26e60352d13858d804bdda6ba6701e9d823d0a540330698a783c3506c2a": "read",
+  "be51a970be2737ffe27b290e5b2d04597bce51c5f492d347b869a9d21b4db236": "read",
+  "ecf73c7c8df31e962678e4a9493becb10253df8a7fc10175f4fd261e58819dc4": "read"
+ },
+ "flags": []
+}

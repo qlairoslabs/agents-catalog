@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "684204e6e47f1f1335949e0095be049feb386d98b9b7f68e90c498e47ac28e72",
+ "domain": [
+  "software/documentation",
+  "politics/communications"
+ ],
+ "product": [
+  "political-comms"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Documentation server for Political Comms: keyword search, a read-only virtual docs filesystem, and a docs feedback submission tool.",
+ "whenToUse": "Use when answering questions about Political Comms features, APIs or implementation details from its docs.",
+ "tasks": [
+  "search docs",
+  "read doc pages",
+  "grep docs filesystem",
+  "submit docs feedback"
+ ],
+ "effects": {
+  "394ac380f5d96fca04ac7431c65d1cfd9a6651dae0cbd210a16f6951c595d6fb": "write",
+  "232b3643f8aca223d928d99f2104e44e011a25908f76a249e3352e5be33371b4": "write",
+  "fcf9b7723e4121bf5d4f208c3731228c583078ec3029b854addd4aea8601eac9": "write"
+ },
+ "flags": []
+}

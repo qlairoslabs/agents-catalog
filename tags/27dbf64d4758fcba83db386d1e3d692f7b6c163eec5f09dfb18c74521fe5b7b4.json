@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "27dbf64d4758fcba83db386d1e3d692f7b6c163eec5f09dfb18c74521fe5b7b4",
+ "domain": [
+  "sports/boxing"
+ ],
+ "product": [
+  "boxerbook"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Professional boxing data: schedules, results, boxer cards, rankings, forecasts, broadcasters and gyms.",
+ "whenToUse": "Use when a user asks about upcoming or past boxing fights, boxers, rankings, where to watch, or boxing gyms.",
+ "tasks": [
+  "list upcoming cards",
+  "get results",
+  "look up boxers",
+  "find next fight",
+  "compare fighters",
+  "find where to watch",
+  "get rankings",
+  "find gyms",
+  "search catalog"
+ ],
+ "effects": {
+  "424ee3ab62c255e411441ba4fd072e9500f5dd78b1191e45dfe6fdbba806eca2": "write",
+  "404253cd32d74f95361e70ea4cf177f8f65b86d8ee58c2988b1c1feb479b9044": "read",
+  "e2615ea2b02ee629dbf0efef049f0fea538d2daf4e8a9da16616d00f0fef281c": "read",
+  "7866d6d5cab8343b4a3955ca4615b706267b35d5f5f51dbc4df3a916cdbcbc09": "read",
+  "d4d2af8295a3d905aac94ce4819fe03a6cb6bc35172c5509478e902b741f6561": "write",
+  "8050310f4d58a385c110df59bdb9b3289feda0081d7c43e947fb1439d3f0b649": "write",
+  "a6869e0cd0e0e5257161f22d860f720644d1f74cd1f11c525e0c3459eef612eb": "write",
+  "dc010890ac45d63a89d2646848e944d3e08ceb8132a447a671e44253f0d857d2": "write",
+  "205a34d8bb3ad27e6b51eecd2915babbe25e10d575910a81584476c2200ae8e3": "read",
+  "170c6ac4509bc1a693ff1e64557c4e6e18f9dc2717978fd236a167c72b962c9d": "read",
+  "6c4636a4574d8c7cdeda042561caa244ed67f07ee0256431d31b7ed1d43ec3cd": "read"
+ },
+ "flags": []
+}

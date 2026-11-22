@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3b4668f2ebacbf8374cc93ae62bfe069609f7b5e7b225bf9f7acf5f07cf4878e",
+ "domain": [
+  "analytics/instrumentation",
+  "software/development"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Turns prioritized event candidates into a concrete JSON tracking plan with properties and exact code insertion points for tracking calls.",
+ "whenToUse": "Use as step three of the analytics instrumentation workflow, when event candidates exist and the user wants tracking code or a tracking plan.",
+ "tasks": [
+  "read event candidates yaml",
+  "inspect codebase analytics patterns",
+  "find variables in scope",
+  "design event properties",
+  "pick insertion points for tracking calls",
+  "output json tracking plan"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8e9e8d44794042848465d4030f8b07bdd6d3ea298813e9c16eb2b478e54b2e6e",
+ "domain": [
+  "design/ui-design",
+  "software/frontend"
+ ],
+ "product": [
+  "figma"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Official Figma server that provides design file context to AI agents.",
+ "whenToUse": "Use when an agent needs to read Figma designs, components or layout details, for example to implement UI in code.",
+ "tasks": [
+  "read figma design context",
+  "inspect components and layouts",
+  "support design-to-code"
+ ],
+ "effects": {},
+ "flags": []
+}

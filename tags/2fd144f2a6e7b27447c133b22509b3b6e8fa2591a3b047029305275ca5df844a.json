@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "2fd144f2a6e7b27447c133b22509b3b6e8fa2591a3b047029305275ca5df844a",
+ "domain": [
+  "collectibles/trading-cards",
+  "price-data"
+ ],
+ "product": [
+  "pokemon",
+  "magic-the-gathering",
+  "yu-gi-oh",
+  "psa",
+  "cgc",
+  "bgs"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "run-the-money",
+  "sell"
+ ],
+ "summary": "Prices and grading ROI for over 1.5M trading cards, with price history, trends and set listings.",
+ "whenToUse": "Use when a user wants a card's value, whether it is worth grading, or which cards are trending.",
+ "tasks": [
+  "search cards",
+  "get card prices",
+  "calculate grading ROI",
+  "get price history",
+  "rank best cards to grade",
+  "find trending cards",
+  "find liquid movers",
+  "list sets",
+  "list set cards"
+ ],
+ "effects": {
+  "76b99905fc20368bc705e573835e020c7c4a5b5de282e6108c560308b1246e75": "read",
+  "dde726e9003ed0647109b5c0de806f453a0e004983d0d50ae4d95650d6f6859f": "read",
+  "383d3f012c9962bac3ac931b5b4d45db1e9907bc2f11de6ecebd232b45202048": "read",
+  "32b99bca77019eb20f55cab6bcb07dd7ba9e49596cef584ecbdcd77b30310edc": "read",
+  "011cc7d29620f0c97e77621a774264ae92da59dce0edc3e4d9d9240e9b8abff3": "read",
+  "7ff6c47555945bb9288816757a7261dcdd9850c5b838fec342ee93cbb0ee7c22": "read",
+  "db92162632d0251187cf19b223ddf38f4a25f6ed6fb36917d7e94dd1d34d8516": "read",
+  "57371daf18d521fc3e429717413233e67600405f86193be4e74fffd612becc5b": "read",
+  "db7dc4e53bb17aee3545de959ed3c9c641a807cc8481790002485c0c6d08f1c1": "read"
+ },
+ "flags": []
+}

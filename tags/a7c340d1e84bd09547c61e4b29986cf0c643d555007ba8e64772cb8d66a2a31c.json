@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a7c340d1e84bd09547c61e4b29986cf0c643d555007ba8e64772cb8d66a2a31c",
+ "domain": [
+  "software/ai-governance",
+  "software/llm-routing"
+ ],
+ "product": [
+  "thinkneo"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Enterprise control plane for AI usage covering governance policies, guardrails, spend tracking, compliance and model routing.",
+ "whenToUse": "Use when managing or auditing an organisation's AI model usage, cost, policies or routing.",
+ "tasks": [
+  "apply guardrails",
+  "track ai spend",
+  "check compliance",
+  "route model requests",
+  "manage governance policies"
+ ],
+ "effects": {},
+ "flags": []
+}

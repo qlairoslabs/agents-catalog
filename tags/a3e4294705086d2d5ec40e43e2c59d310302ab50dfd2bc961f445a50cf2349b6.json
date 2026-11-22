@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a3e4294705086d2d5ec40e43e2c59d310302ab50dfd2bc961f445a50cf2349b6",
+ "domain": [
+  "entertainment/lottery",
+  "reference-data"
+ ],
+ "product": [
+  "quicklotto",
+  "euromillions"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides winning numbers for 30+ world lotteries, latest or by past date.",
+ "whenToUse": "Use when a user asks for lottery winning numbers or draw history.",
+ "tasks": [
+  "list lotteries",
+  "get latest results",
+  "get results by date"
+ ],
+ "effects": {
+  "cc1b801ac4b0b7bb728a022dc156f4df5e28d0c2b54aa1f92b8e1d35350c3c63": "read",
+  "1b65ac0755c4a65c892ac7ee61b56bb9934ef7dab03c260e187c1ac1f93ab7ec": "read",
+  "409ef7fe65e24ca94fb10bc008985d484b71234c41b52ed30b4eda817b4d20b1": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "17031433134118979fce88113cbf93e9ac1158ed49c728d7ea8fbd379928fe30",
+ "domain": [
+  "software/api-integration",
+  "software/web-frameworks"
+ ],
+ "product": [
+  "django",
+  "django-rest-framework"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Exposes a Django REST Framework API as a small set of MCP dispatcher tools governed by Django permissions.",
+ "whenToUse": "Use when an agent needs to call endpoints of a Django REST Framework application through MCP.",
+ "tasks": [
+  "expose drf endpoints as tools",
+  "dispatch api calls",
+  "enforce django permissions"
+ ],
+ "effects": {},
+ "flags": []
+}

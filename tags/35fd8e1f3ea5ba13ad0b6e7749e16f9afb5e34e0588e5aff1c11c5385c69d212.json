@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "35fd8e1f3ea5ba13ad0b6e7749e16f9afb5e34e0588e5aff1c11c5385c69d212",
+ "domain": [
+  "finance/crypto-staking",
+  "finance/crypto"
+ ],
+ "product": [
+  "everstake",
+  "pipedrive"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "Everstake staking data: supported chains, APRs, products, security and integrations, a rewards calculator and a sales inquiry form.",
+ "whenToUse": "Use when evaluating staking on a network, estimating rewards or contacting Everstake sales.",
+ "tasks": [
+  "list chains and APRs",
+  "company profile",
+  "contact info",
+  "developer docs",
+  "integrations",
+  "products",
+  "security profile",
+  "solutions",
+  "uptime metrics",
+  "submit integration inquiry",
+  "estimate staking rewards"
+ ],
+ "effects": {
+  "705295162932d2ec10a6493aa802bf726e5386c7bcb89e43eab7eb18740519a9": "read",
+  "afeb11c8a1c0fc9446bab53b3e0b3204e27b1917d0077f8ef2708e2e9c7e4242": "read",
+  "e1db847645d65949863f7dae731f87c3e3c666aadbca30745e9bdfaf29b4e6f9": "read",
+  "6bd8c9bd9d2b7cc88d89d60b150015c811a6d277bf0b16cb817391e69178a56b": "read",
+  "669990c1d4ef375cef69b409ca7c000f4fb774bbe1025eb5a1a4dd561bb5c2c1": "read",
+  "1c7a1549c8bedbe758f0bb1ece2fde9b0c3ea0108f03614d68d3d4a7b56624f8": "read",
+  "00b674d1766fc0485f330be5691723d3ee26bd2e1a325ce5825f9dd70bdaae85": "read",
+  "5b814bbbbd896199f79d0faca33a56c552a4cfe2a41f06b41c237d6229921333": "read",
+  "4b24eff5774578b30e1cf8df78868255a2daadadbe782ff6881ba3e10e5c0815": "read",
+  "ddf41db9ecbdd7778154aea622503b865b3179af63a5c6b96e6bf820b0ff8ae9": "write",
+  "9d51c858515aae48690cc5f70fe9fc53b575f27a56a91b3b49c54b51a59ca33e": "read"
+ },
+ "flags": []
+}

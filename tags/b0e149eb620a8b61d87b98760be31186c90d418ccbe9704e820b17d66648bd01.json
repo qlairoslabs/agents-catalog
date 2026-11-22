@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b0e149eb620a8b61d87b98760be31186c90d418ccbe9704e820b17d66648bd01",
+ "domain": [
+  "software/devops/configuration",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-devops-agent",
+  "aws-security-agent"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Sets up the connections to AWS DevOps Agent and AWS Security Agent.",
+ "whenToUse": "Use when the user wants to configure these agents or their MCP tools are missing.",
+ "tasks": [
+  "configure devops agent connection",
+  "configure security agent connection"
+ ],
+ "effects": {},
+ "flags": []
+}

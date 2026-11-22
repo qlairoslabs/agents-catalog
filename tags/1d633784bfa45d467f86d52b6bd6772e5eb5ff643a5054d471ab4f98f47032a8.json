@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1d633784bfa45d467f86d52b6bd6772e5eb5ff643a5054d471ab4f98f47032a8",
+ "domain": [
+  "software/cybersecurity/url-scanning",
+  "web/link-safety"
+ ],
+ "product": [
+  "preclick",
+  "urlcheck"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Scans URLs for threats and checks that a link matches the intended destination before an agent opens it.",
+ "whenToUse": "Use before an agent visits or follows an unfamiliar link, to check for phishing or malware.",
+ "tasks": [
+  "scan url for threats",
+  "check link intent match",
+  "preflight links before clicking"
+ ],
+ "effects": {},
+ "flags": []
+}

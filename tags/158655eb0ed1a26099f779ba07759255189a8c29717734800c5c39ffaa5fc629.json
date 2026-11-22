@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "158655eb0ed1a26099f779ba07759255189a8c29717734800c5c39ffaa5fc629",
+ "domain": [
+  "media/video-editing"
+ ],
+ "product": [
+  "vidtl"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Control an open VidTL browser editor to cut video, add subtitles, clean audio, apply effects and export.",
+ "whenToUse": "Use when a user has VidTL open and wants the agent to edit their video.",
+ "tasks": [
+  "cut video",
+  "add subtitles",
+  "clean up audio",
+  "apply effects",
+  "export video"
+ ],
+ "effects": {},
+ "flags": []
+}

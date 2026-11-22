@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "b743a9fbfd11a11cb29cd9de0227a7a1f9f5133603767cf3bf774d6b165a0c3c",
+ "domain": [
+  "finance/banking-rates",
+  "finance/mortgage"
+ ],
+ "product": [
+  "ratezip",
+  "fdic"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Sourced US savings, CD, mortgage and HELOC rates with timestamps, plus deposit comparison and home equity payment calculators.",
+ "whenToUse": "Use when comparing current US deposit or mortgage rates or modelling savings earnings and home equity payments.",
+ "tasks": [
+  "compare deposit options",
+  "get savings rates",
+  "get CD rates",
+  "get mortgage rates",
+  "compare home equity payments",
+  "calculate APY earnings difference"
+ ],
+ "effects": {
+  "6c0aebdcef7009af262295b0c5cb904f79f3d71c9f91bcb0cf29efaa734ed930": "read",
+  "590002c593c6b603603442849070b00b752b5d77742c261f7bd4867c4b539618": "write",
+  "0eb1a592b6bad10a141861d1f3c8595849e9798b5a06873f717bafe10d0da5cd": "write",
+  "75a81cfb15c5be478bc26a47507d4c70955e709c3c9d72c83632859b7b67715e": "write",
+  "da7ce27bd4894f68938ad87d2ddb724e435332fb0edc22623b21ef6597edbde6": "read",
+  "bbf94322a0e2875a758f02df63b2d529c3f321f93a91ed9e662c462d394156cd": "read"
+ },
+ "flags": []
+}

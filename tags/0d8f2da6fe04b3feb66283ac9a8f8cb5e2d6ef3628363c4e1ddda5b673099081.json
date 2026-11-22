@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0d8f2da6fe04b3feb66283ac9a8f8cb5e2d6ef3628363c4e1ddda5b673099081",
+ "domain": [
+  "web/cms",
+  "commerce/online-store"
+ ],
+ "product": [
+  "wordpress",
+  "woocommerce"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "create-content",
+  "sell"
+ ],
+ "summary": "Local npm MCP server for editing WordPress sites, including page-builder content, full pages and WooCommerce data.",
+ "whenToUse": "Use when an agent needs to create or edit WordPress pages or manage WooCommerce products on a site.",
+ "tasks": [
+  "edit page-builder content",
+  "create full pages",
+  "manage woocommerce products"
+ ],
+ "effects": {},
+ "flags": []
+}

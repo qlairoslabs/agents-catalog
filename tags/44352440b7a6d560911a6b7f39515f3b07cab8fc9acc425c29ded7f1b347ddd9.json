@@ -1,0 +1,62 @@
+{
+ "classifier": 2,
+ "contentHash": "44352440b7a6d560911a6b7f39515f3b07cab8fc9acc425c29ded7f1b347ddd9",
+ "domain": [
+  "retail/swimming-pools",
+  "sales/product-catalog"
+ ],
+ "product": [
+  "laguna-pools"
+ ],
+ "audience": [
+  "sales",
+  "design",
+  "support",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Russian composite swimming pool vendor tools: model search, specs and prices, turnkey quotes, BIM/CAD files, dealer lookup, service consultations and lead submission.",
+ "whenToUse": "Use when an agent helps a customer choose, price or service a Laguna composite pool, or needs BIM files and dealers.",
+ "tasks": [
+  "search pool models",
+  "get specs and prices",
+  "recommend a pool",
+  "calculate turnkey cost",
+  "generate commercial proposal",
+  "email proposal to client",
+  "find dealers",
+  "get BIM and CAD files",
+  "quote sliding terraces",
+  "answer service questions",
+  "answer technical questions",
+  "submit sales leads"
+ ],
+ "effects": {
+  "644ecfe39015d4f6f4013dd16ae0b630d429762630839ac3cf8b494313123ee5": "read",
+  "8608e1ec2fab60c2338678e350fdab563e90d44021d0768328dc87522c770fc1": "read",
+  "0156bb274838081e4f3f7b68b401b786e854662c69a7bb68f71b62dfb9d42502": "read",
+  "bb0ea04bb9d30c4714a68de18c93e475dc3dbcce6842265da768732357f57bd7": "read",
+  "28dbf70d4bb7fadb78e63e577f84e08c424df461d6747b8acaa558cf3833c30b": "read",
+  "a2fe203afd516ad49cf01a25f9c05d464f03be4b3dfd65b5e68273e8eb012c39": "read",
+  "316e156d4a3028dcd5d8a6804db08fdf8e500a4001e0678a7df40221226b079d": "read",
+  "37ffc313b9b60fed653ba56ed30bb921308582a8e7b9c8f0877b9e051089b97f": "read",
+  "e060d2ba1f78a3406b73762f86948cf1a1f5818d1b52fcbadb67f12fe49177d5": "read",
+  "ea322d0bb1c56e003acc10ce795fdea740dda5774d3b9637471cb2a936c1683f": "read",
+  "b6ac8b95cb0b2712f1d7b99e4d3814d5f1ee5b045b17dc0c66eb2ba65312b8e4": "read",
+  "f841ddba60679ec8cdef3b0d4e2e888210e123956696c68b10ee1a8aac050b82": "read",
+  "96a694cc0ac005719a815555826dca571c48e24d8d58dfb0bb799ce878feaf4d": "write",
+  "92a0298fb389499fa9a9090a31df52b9808480df7ede4bb3f5a706e902ac2eb6": "read",
+  "d8002b7c38c41f024f5dbec613fd443421392199e28faccaad51ec7719ceb0b5": "read",
+  "963e1816d238afdb9e24b0247c089659c1b39a03bd1f20b4ba4f932748fd74ef": "read",
+  "df6ca856c8b9d07daca8297497ba0f6f6d0b7807aa1a06347afce7c3d71d9530": "write",
+  "89ba2c735e82b400d6e6b4e26c74e2c2afb3523f96156bfe8043bd66c5926025": "read",
+  "74bc87f7ffae6ddcf3d28dd4cf11c55d62c99b93b6cefcbcbfc47cd08d07c062": "read",
+  "a86597ef723c3c0fd8536008276ff55b458698d49c244bccaa64fb0acf4a26c9": "write",
+  "619a404920d31b73b9bf2ba3d68de9b05b57f6dccdf5ffcc7ff8d6cf63d9896d": "write"
+ },
+ "flags": []
+}

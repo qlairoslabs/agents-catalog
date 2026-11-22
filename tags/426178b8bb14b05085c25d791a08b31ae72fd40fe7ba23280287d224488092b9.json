@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "426178b8bb14b05085c25d791a08b31ae72fd40fe7ba23280287d224488092b9",
+ "domain": [
+  "education/physics",
+  "reference"
+ ],
+ "product": [
+  "chertov-org-ua"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to solved problems from the Chertov and Vorobyov physics problem book, with Russian statements and GIF solutions.",
+ "whenToUse": "Use when looking up or searching a problem from the Chertov-Vorobyov physics book and its worked solution.",
+ "tasks": [
+  "list chapters",
+  "list paragraphs",
+  "list problems",
+  "get problem",
+  "search problem statements"
+ ],
+ "effects": {
+  "307fbff7c781fb3b2d96ce8807c19349e174384931f0ed5edc21a2f40c5c2a32": "read",
+  "1a4aeb66da57337bfd691833912e346c399788b475e3a97265f862e14612a1db": "read",
+  "617dc3273734cb375faa414ac3c1103ad54417cc91370cf801793961f29abaa3": "read",
+  "704362bf855fac8deeb2f55de634eae571e938be3a21fb80bc69c26f5da94f51": "read",
+  "3ef3f034c57cd39966cc2bc3420db4d676d2a250f7eb642799d52b3bc4e18a44": "write"
+ },
+ "flags": []
+}

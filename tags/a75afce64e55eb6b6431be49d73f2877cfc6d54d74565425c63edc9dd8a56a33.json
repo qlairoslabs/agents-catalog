@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "a75afce64e55eb6b6431be49d73f2877cfc6d54d74565425c63edc9dd8a56a33",
+ "domain": [
+  "software/incident-management",
+  "operations/on-call"
+ ],
+ "product": [
+  "incident-io"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Connects to incident.io to handle and investigate incidents, check on-call and escalations, and write runbooks and architecture docs.",
+ "whenToUse": "Use when responding to or investigating an incident, or checking who is on call, in incident.io.",
+ "tasks": [
+  "respond to incidents",
+  "investigate incidents",
+  "check on-call schedules",
+  "check escalations",
+  "author runbooks",
+  "write architecture docs"
+ ],
+ "effects": {},
+ "flags": []
+}

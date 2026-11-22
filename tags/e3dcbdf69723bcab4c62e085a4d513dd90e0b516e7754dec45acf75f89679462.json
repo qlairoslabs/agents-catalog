@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e3dcbdf69723bcab4c62e085a4d513dd90e0b516e7754dec45acf75f89679462",
+ "domain": [
+  "software/documentation",
+  "developer-tools"
+ ],
+ "product": [
+  "deepwiki",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads DeepWiki documentation for GitHub repositories and answers questions about their codebases.",
+ "whenToUse": "Use when you need to understand an open-source GitHub repository's structure or code.",
+ "tasks": [
+  "ask repo question",
+  "read wiki contents",
+  "list wiki topics"
+ ],
+ "effects": {
+  "d8676b264e2cf481676f220907cf3d110083719751743fac6aa8bb50bd191bae": "read",
+  "40d9a00c2d712747c340a4c20adbd5119b162acc63c556f303be0ab48d6fa3c2": "read",
+  "5da58611bd5a25b9cadd891abf95069803c590ad096e5548d7a457758f44e54f": "read"
+ },
+ "flags": []
+}

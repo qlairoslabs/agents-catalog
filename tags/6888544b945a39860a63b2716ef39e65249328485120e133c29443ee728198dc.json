@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6888544b945a39860a63b2716ef39e65249328485120e133c29443ee728198dc",
+ "domain": [
+  "software/site-reliability",
+  "software/devops"
+ ],
+ "product": [
+  "aient",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "AI SRE service that diagnoses production problems and proposes fixes as reviewed GitHub pull requests.",
+ "whenToUse": "Use when the user asks what is broken in production and wants a proposed code fix as a pull request.",
+ "tasks": [
+  "diagnose production issues",
+  "propose GitHub fix pull requests"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "b101e3662c04c0d5a74d1ad5f73b9886f253f0ad31701a2bd9d6b3805de82cdb",
+ "domain": [
+  "media/music",
+  "media/sound-effects"
+ ],
+ "product": [
+  "arcalune",
+  "youtube"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches royalty-free background music, sound effects and streaming-only game arrangements, with usage rights and links.",
+ "whenToUse": "Use when a user needs free BGM or sound effects for videos or games and wants licence terms checked.",
+ "tasks": [
+  "search tracks",
+  "filter by tags and category",
+  "get track details",
+  "list tags",
+  "check usage rights"
+ ],
+ "effects": {
+  "a18a8d54907da0c53de98ea434c9e3b0d65afc267b4b19611a299c655cca2ec0": "read",
+  "da66177922a93354628ad9d881e561cbcfc04fbfc057035b281f537b046a8620": "read",
+  "59a90a38bb13e6842c0a41a2cb7b8a1fc1f7c786a5fc5497785c3dc82b91911c": "read"
+ },
+ "flags": []
+}

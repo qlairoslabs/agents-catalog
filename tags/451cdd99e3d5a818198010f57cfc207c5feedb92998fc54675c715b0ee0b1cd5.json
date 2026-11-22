@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "451cdd99e3d5a818198010f57cfc207c5feedb92998fc54675c715b0ee0b1cd5",
+ "domain": [
+  "documents/pdf-generation",
+  "software/templating"
+ ],
+ "product": [
+  "pdfs.build",
+  "typst"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Designs, publishes and renders PDF templates written in Typst, covering the full template lifecycle.",
+ "whenToUse": "Use when an agent needs to create or update a PDF template and render documents from it.",
+ "tasks": [
+  "design pdf templates",
+  "publish templates",
+  "render pdfs from data"
+ ],
+ "effects": {},
+ "flags": []
+}

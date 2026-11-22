@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "06c7d5eb5cd5ea5516e2b044f086c63fe613aad2583abe645e4a3f89c410c258",
+ "domain": [
+  "productivity/office-suite",
+  "communication/email"
+ ],
+ "product": [
+  "google-workspace",
+  "gmail",
+  "google-drive",
+  "google-calendar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch",
+  "schedule"
+ ],
+ "summary": "Large Google Workspace server spanning 29 services with support for several accounts and your own OAuth credentials.",
+ "whenToUse": "Use when an agent must work across multiple Google accounts in Gmail, Drive, Calendar and other Workspace services.",
+ "tasks": [
+  "switch between google accounts",
+  "manage email",
+  "manage drive files",
+  "manage calendar events",
+  "discover available workspace tools"
+ ],
+ "effects": {},
+ "flags": []
+}

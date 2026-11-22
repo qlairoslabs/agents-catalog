@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8aff13a288768f82d16a9cf6e2dfc6cd1ce349612bcc51d8740bfae2e02d7650",
+ "domain": [
+  "software/developer-tools/language-server"
+ ],
+ "product": [
+  "rust-analyzer"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Rust language server that gives the agent code intelligence such as navigation, diagnostics and analysis.",
+ "whenToUse": "Use when reading, navigating or editing Rust code and precise symbol or diagnostic information is needed.",
+ "tasks": [
+  "rust code navigation",
+  "show diagnostics",
+  "find references",
+  "analyze rust code"
+ ],
+ "effects": {},
+ "flags": []
+}

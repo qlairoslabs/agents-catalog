@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6d98c82ba4afde3e6e5ccd6f468db5a97eb9c0dc5a6e2c64d6aa8fa29f8b9d4f",
+ "domain": [
+  "software/ai-agents/orchestration"
+ ],
+ "product": [
+  "orquesta"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Reads a project's prompts, logs and agents in Orquesta and dispatches work to agents on the user's machines.",
+ "whenToUse": "Use when the user wants to inspect Orquesta project activity or assign tasks to their local agents.",
+ "tasks": [
+  "read prompts",
+  "read logs",
+  "list agents",
+  "send work to agent"
+ ],
+ "effects": {},
+ "flags": []
+}

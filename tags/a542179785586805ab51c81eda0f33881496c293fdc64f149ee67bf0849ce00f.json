@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "a542179785586805ab51c81eda0f33881496c293fdc64f149ee67bf0849ce00f",
+ "domain": [
+  "literature/persian-poetry",
+  "religion/sufism"
+ ],
+ "product": [
+  "masnavi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches, retrieves, verifies and explains verses from Rumi's Masnavi and the Divan-e Shams ghazals.",
+ "whenToUse": "Use when a user asks about Rumi's poetry, wants a verse found by words or theme, or a Rumi quote checked before it is cited.",
+ "tasks": [
+  "full-text search masnavi verses",
+  "semantic search by theme in any language",
+  "look up beyt by citation",
+  "verify a rumi quote",
+  "get full story section",
+  "browse table of contents",
+  "get random beyt",
+  "fetch range of beyts",
+  "find sections by title",
+  "get scholarly commentary on a beyt",
+  "search divan-e shams ghazals",
+  "fetch complete ghazal"
+ ],
+ "effects": {
+  "879e6a549a42adc5755da63f58be31afc371a855bad5e10ef440de78e488830c": "read",
+  "3bdec60b4454954391052ba6a02166f7b015ccb398bc9dbe77579e683264f803": "read",
+  "2294e2b0135d58eaec371a4bb6afb5c801863090baa26a1a17cca5bd6206f315": "read",
+  "77edefb1efd24b95179e857ec747f582d508c2096e3cff02b7368919447e10e8": "read",
+  "6e46384d4615614239b50fc744e38aad72827c524a9324d37b7f511432ab0ce6": "read",
+  "d08f09bf41205fde3525941e499b8218c9705814e1c5044f0c39102a694729a5": "read",
+  "f300cef71a208388dfdc9894a9a010ef85156ebee1bdc37c31970b76772d9546": "read",
+  "155bb393181af24af650d7ecb61389fe21553b24fcf475b3ac15b2ae082dbe0a": "read",
+  "7cb4fb72617599e19399ce577c6985a3ec9fe7d981f2db6a4da0e6fc629034d7": "write",
+  "783291f528261c6f51332e566f33f14ab277738009ee80af7ba1645ea7cca7a8": "read",
+  "ab914b2f91cb6cb598017c8256a036dd2696bdc28ec3f067286555e49f03bea2": "read",
+  "074d4b09d6dfaaf39c60ce9348c61a3c34175c3cdc101139129a205a7300e29b": "read",
+  "c2db31f5492aba26905134cf79144971fae579a5df1c86544e88d032b284bbbe": "read"
+ },
+ "flags": []
+}

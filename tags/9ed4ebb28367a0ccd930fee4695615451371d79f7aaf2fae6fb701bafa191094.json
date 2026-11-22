@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "9ed4ebb28367a0ccd930fee4695615451371d79f7aaf2fae6fb701bafa191094",
+ "domain": [
+  "retail/instrument-rental",
+  "education/music"
+ ],
+ "product": [
+  "prelude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Search musical instruments for rent in New Zealand, view rental plans and pricing, find teachers and read FAQs.",
+ "whenToUse": "Use when a user in New Zealand wants to rent an instrument, compare plans or find a music teacher.",
+ "tasks": [
+  "search instruments",
+  "get rental pricing",
+  "search teachers",
+  "get rental FAQs"
+ ],
+ "effects": {
+  "e2ad7f8d0e9a521aeffa00347c5f8d759791dc8738ee77bf673d65aa604d20c8": "read",
+  "5172196dd58867829f59b27ef4b80a525aa63d2df342463cefe5423fe74ae9d8": "read",
+  "db0e0589b23798b2b8dd02c2f954e5d3fa59246500b34eecef2446053f4d4556": "read",
+  "720fd57bcf9987c11a89634e09669d86a9a9f72fdcd1993d225a83237b558b9c": "read"
+ },
+ "flags": []
+}

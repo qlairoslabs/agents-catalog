@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f27734421838fd98ca648ed3931ee1f5e26d7ff5becd0fce4be9774793c425df",
+ "domain": [
+  "hr/recruiting/screening",
+  "analytics"
+ ],
+ "product": [
+  "prelim"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads results of AI-run preliminary phone screens, including roles, candidate scores, transcripts and analytics.",
+ "whenToUse": "Use when a recruiter wants to review candidate screening scores, transcripts or hiring analytics from Prelim.",
+ "tasks": [
+  "list open roles",
+  "read candidate scores",
+  "read screening transcripts",
+  "view screening analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

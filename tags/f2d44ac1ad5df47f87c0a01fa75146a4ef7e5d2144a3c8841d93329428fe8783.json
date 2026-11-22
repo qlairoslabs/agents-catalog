@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f2d44ac1ad5df47f87c0a01fa75146a4ef7e5d2144a3c8841d93329428fe8783",
+ "domain": [
+  "communication/email",
+  "software/agent-infrastructure"
+ ],
+ "product": [
+  "primitive"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Email infrastructure that lets AI agents send, receive, search and reply to email.",
+ "whenToUse": "Use when an agent needs its own mailbox to send or handle email.",
+ "tasks": [
+  "send email",
+  "receive email",
+  "search email",
+  "reply to email"
+ ],
+ "effects": {},
+ "flags": []
+}

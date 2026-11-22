@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "82c228558003cb32258417239634c609fbd00a0d62871f9dd54cc8add821b3de",
+ "domain": [
+  "software/bug-tracking",
+  "software/website-feedback"
+ ],
+ "product": [
+  "bugherd"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Official BugHerd server for accessing website feedback and bug tracking, using OAuth sign-in.",
+ "whenToUse": "Use when working with bugs or visual feedback tracked in BugHerd.",
+ "tasks": [
+  "access bugherd projects",
+  "work with bug reports and feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

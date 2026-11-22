@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "88bddae292bc86873d69b17b608e908e902cba8455788d135ef0fa3e90de4c29",
+ "domain": [
+  "documents/pdf",
+  "documents/conversion"
+ ],
+ "product": [
+  "adobe-acrobat"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Adobe Acrobat skill for PDF tasks such as creating, converting, compressing, OCR, organizing pages, exporting and reading properties.",
+ "whenToUse": "Use when the user needs a substantial PDF operation and Adobe tools are available.",
+ "tasks": [
+  "create pdfs",
+  "convert markdown to pdf",
+  "export pdf to office formats",
+  "convert pdf to markdown",
+  "ocr pdfs",
+  "compress pdfs",
+  "merge, split and reorder pages",
+  "convert pdf to images",
+  "read pdf properties",
+  "view pdfs"
+ ],
+ "effects": {},
+ "flags": [
+  "description uses 'MANDATORY' language and instructs the agent to use it first and avoid other PDF libraries until tried, steering AI behavior"
+ ]
+}

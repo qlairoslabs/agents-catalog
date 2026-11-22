@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "4aa697acf83393d966cb9ef925d6e5ad35f06e8b029b9367a0b991ec5e5ca722",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "hotelmonitor",
+  "agoda"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "run-the-money"
+ ],
+ "summary": "Hotel price history in GBP that tells whether a quoted price is good, which months are cheapest, and lists current deals.",
+ "whenToUse": "Use when a user asks if a hotel price is good, when to travel cheaply, or wants hotel deals.",
+ "tasks": [
+  "check if hotel price is good",
+  "find cheapest months",
+  "find hotel deals",
+  "shortlist hotels for a trip"
+ ],
+ "effects": {
+  "7e3ba12a087b802b2b7f25de0bf905fa5e1af90b737886a56bb0d232fe44d9f1": "read",
+  "306ca869148eb31a7f64091e3c16887816260b4849ccb9a02c3ec88911fe4246": "write",
+  "dccb5fbdb40bfd4437bee1d497a0a0020ebf5642da94b169a196bfa57d3dc97e": "write",
+  "ac5d3756b5f661c8d9f977071eb2a3984543c5de548ca0ccd31655ad27448efc": "read",
+  "6c5490b00b6086ca012b63500c6d4741d1e5880c95288ec89ae67888a8ee678b": "read",
+  "78a6a4c35506d96b4da89076bcece82ecf68a7603f00849cc786062be5d2ae08": "read"
+ },
+ "flags": []
+}

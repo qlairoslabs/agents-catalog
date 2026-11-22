@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0c014d590ee9237f7f1675e8c75c5c657358b2f211521ecdc2605e2db9102d81",
+ "domain": [
+  "software/web-accessibility",
+  "software/web-development"
+ ],
+ "product": [
+  "axe-core",
+  "lighthouse"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "be-online",
+  "stay-compliant"
+ ],
+ "summary": "Runs automated accessibility checks with axe-core and Lighthouse on a single public web page and retrieves saved results.",
+ "whenToUse": "Use when you need to audit a public web page for accessibility issues or review earlier audit results.",
+ "tasks": [
+  "check page accessibility",
+  "run axe-core audit",
+  "run lighthouse audit",
+  "fetch saved results"
+ ],
+ "effects": {},
+ "flags": []
+}

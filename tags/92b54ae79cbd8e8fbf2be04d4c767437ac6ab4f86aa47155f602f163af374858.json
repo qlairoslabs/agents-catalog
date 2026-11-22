@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "92b54ae79cbd8e8fbf2be04d4c767437ac6ab4f86aa47155f602f163af374858",
+ "domain": [
+  "web/hosting/static-sites"
+ ],
+ "product": [
+  "hoaster"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Hosts AI-generated HTML, images, SVG and JSON at public URLs, with custom domain support.",
+ "whenToUse": "Use when an agent needs to publish generated web content to a public URL.",
+ "tasks": [
+  "publish html",
+  "host images and svg",
+  "host json",
+  "configure custom domains"
+ ],
+ "effects": {},
+ "flags": []
+}

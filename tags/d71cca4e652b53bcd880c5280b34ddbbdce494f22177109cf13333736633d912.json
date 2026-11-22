@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "d71cca4e652b53bcd880c5280b34ddbbdce494f22177109cf13333736633d912",
+ "domain": [
+  "marketing/seo",
+  "software/web"
+ ],
+ "product": [
+  "llms-txt",
+  "robots-txt"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Checks whether a website is visible to AI search crawlers, and generates or validates llms.txt and lints robots.txt.",
+ "whenToUse": "Use when auditing a site's AI crawler access or creating and validating llms.txt and robots.txt files.",
+ "tasks": [
+  "check AI crawler access",
+  "generate llms.txt",
+  "validate llms.txt",
+  "lint robots.txt"
+ ],
+ "effects": {
+  "8da83334cf04dd16b78153aebd24e9dae261bbdc1d87de9cff97bff56caaa545": "read",
+  "2b84516ad6168352371090001a5307c39e19872983ffb015091209dd14bb46c7": "read",
+  "3beeabbaaa2c0295fadc752c1ebe2f1cbb365308c9a1f51b5fcc3523b2b1769e": "read",
+  "11f94353fdb523876f454c37c3e53c23569b7b892d912855e99a01081204ba00": "read"
+ },
+ "flags": []
+}

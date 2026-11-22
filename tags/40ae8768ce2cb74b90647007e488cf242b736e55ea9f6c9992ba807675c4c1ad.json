@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "40ae8768ce2cb74b90647007e488cf242b736e55ea9f6c9992ba807675c4c1ad",
+ "domain": [
+  "industrial/filtration",
+  "content-search"
+ ],
+ "product": [
+  "filter-solutions"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search of public filtration and oil monitoring posts and pages from Filter Solutions Ltd.",
+ "whenToUse": "Use when a user asks technical questions on filtration or oil monitoring covered by this company.",
+ "tasks": [
+  "search content",
+  "get post or page",
+  "get site info"
+ ],
+ "effects": {
+  "06599ba7b4b6a6b8607539076eaa2ac238007ee6da70fa4d9f0f34cb7d529364": "read",
+  "dfcc8b0bd08468234756f805082d4bcd6e52d0318eea3796da7783650ce45a29": "read",
+  "1c06a281506adc29e84cba30fd5dbd36640a49d17f9cd89cec647a5f7acd9c54": "read"
+ },
+ "flags": []
+}

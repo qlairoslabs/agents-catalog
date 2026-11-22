@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "e191f9529ebe9abebc1d5389329008f06509f3c1c1cc588ea52663476d75fc80",
+ "domain": [
+  "software/utility-apis"
+ ],
+ "product": [
+  "apyhub"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Provides access to a large set of ApyHub utility APIs from the US cluster, requiring a US API key.",
+ "whenToUse": "Use when an agent needs general-purpose utility APIs such as conversion or data processing.",
+ "tasks": [
+  "call utility apis"
+ ],
+ "effects": {},
+ "flags": []
+}

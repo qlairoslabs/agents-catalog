@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "48dc82ec6367e23fa03c2bec423e688dd5b0212f1540b9a71fdcd5165646e858",
+ "domain": [
+  "compliance/sanctions-screening",
+  "maritime"
+ ],
+ "product": [
+  "arcnautical"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Screens vessels by IMO number for sanctions exposure, ownership opacity and vetting grade.",
+ "whenToUse": "Use when checking a ship for sanctions or ownership risk before chartering, trading or insuring.",
+ "tasks": [
+  "screen vessel by imo",
+  "check sanctions",
+  "assess ownership opacity",
+  "get vetting grade"
+ ],
+ "effects": {},
+ "flags": []
+}

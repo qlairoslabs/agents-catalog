@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c40bca25ffa11fcb9e12718e4542fabe89a32421f6db0024db3fdaae0d31e006",
+ "domain": [
+  "software/app-builder"
+ ],
+ "product": [
+  "fabricate"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Public Fabricate information: plans and prices, canonical documentation pages, and an agent guide.",
+ "whenToUse": "Use when you need Fabricate pricing, plan limits or public documentation.",
+ "tasks": [
+  "get plans and prices",
+  "search public pages",
+  "read pages as markdown",
+  "read agent guide"
+ ],
+ "effects": {
+  "363eb9972c5997bb910714cba1cf1608c10aae11ef8d14d3ae1775b132cdf797": "read",
+  "ff3c94561107d073f7232915b78d5b1ae80ad909fd5a882fc3a057b35c1ff1e9": "read",
+  "11b5cab0a7017dd816606a69c04d2914f2d5db19de6621126223fb7a32040fe5": "read",
+  "b39e1b257392dbf7a16f72036e12807ecaf6ca92db82785cf96eee8d6df9be27": "read"
+ },
+ "flags": []
+}

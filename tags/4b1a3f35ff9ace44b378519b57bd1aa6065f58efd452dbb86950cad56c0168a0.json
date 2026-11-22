@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "4b1a3f35ff9ace44b378519b57bd1aa6065f58efd452dbb86950cad56c0168a0",
+ "domain": [
+  "travel/connectivity",
+  "telecom/esim"
+ ],
+ "product": [
+  "esimkenya",
+  "airalo",
+  "holafly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Lists, details and compares eSIM providers and plans for Kenya with prices, ratings and park-level coverage.",
+ "whenToUse": "Use when a traveler needs a data eSIM for Kenya or wants to compare providers.",
+ "tasks": [
+  "list eSIM providers",
+  "filter by destination",
+  "get provider plans",
+  "compare two providers"
+ ],
+ "effects": {
+  "3005f2a98eb687fff90efaceecfeb6c6de6f277b6900c1cc751ace244c5a525f": "read",
+  "5de419a95a38402825c725b8bddc27d86bed54d7b1af5700b2ea1c271bcd183c": "read",
+  "ed78209c961c736b3dc7a2a08d7bd5cd6230e4ed0a33413e62310a25b46eb139": "read"
+ },
+ "flags": []
+}

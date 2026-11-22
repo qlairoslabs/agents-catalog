@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "540879533f4b4cf238626cd1bcc6bb37b1a7b9e073fdba095ad028bc3a2554d3",
+ "domain": [
+  "software/frontend/css",
+  "software/development"
+ ],
+ "product": [
+  "master-css"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets an AI client inspect Master CSS classes, the CSS they generate, and project stylesheets.",
+ "whenToUse": "Use when working on a project styled with Master CSS and needing to understand classes or generated CSS.",
+ "tasks": [
+  "inspect master css classes",
+  "view generated css",
+  "read project stylesheets"
+ ],
+ "effects": {},
+ "flags": []
+}

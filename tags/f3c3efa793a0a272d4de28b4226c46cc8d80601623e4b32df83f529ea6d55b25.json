@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f3c3efa793a0a272d4de28b4226c46cc8d80601623e4b32df83f529ea6d55b25",
+ "domain": [
+  "software/code-intelligence"
+ ],
+ "product": [
+  "symvanta"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Hosted code graph giving callers, dependencies and cross-repository impact analysis.",
+ "whenToUse": "Use when an agent needs to know who calls code or what a change will affect across repositories.",
+ "tasks": [
+  "find callers",
+  "map dependencies",
+  "analyse cross-repo blast radius"
+ ],
+ "effects": {},
+ "flags": []
+}

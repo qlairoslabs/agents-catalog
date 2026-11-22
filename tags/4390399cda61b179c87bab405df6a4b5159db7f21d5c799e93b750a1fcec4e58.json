@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4390399cda61b179c87bab405df6a4b5159db7f21d5c799e93b750a1fcec4e58",
+ "domain": [
+  "web/website-builder",
+  "content/web-pages"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Builds and hosts a web page from a written brief, then lets the agent read and refine it.",
+ "whenToUse": "Use when the user needs a quick hosted web page created from a description and iterated on.",
+ "tasks": [
+  "generate web page from brief",
+  "host web page",
+  "read page back",
+  "refine page"
+ ],
+ "effects": {},
+ "flags": []
+}

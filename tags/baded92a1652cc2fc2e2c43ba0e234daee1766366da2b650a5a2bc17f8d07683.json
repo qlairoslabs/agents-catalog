@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "baded92a1652cc2fc2e2c43ba0e234daee1766366da2b650a5a2bc17f8d07683",
+ "domain": [
+  "community/free-giveaways"
+ ],
+ "product": [
+  "givore"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live free giveaway listings in Spanish cities and reads individual listings.",
+ "whenToUse": "Use when a user wants free items offered in a Spanish city.",
+ "tasks": [
+  "search listings by city",
+  "filter by category",
+  "get listing details"
+ ],
+ "effects": {
+  "7a90f7b5ed9b1cb69dc16fa3933cc909f19067d1275ef96d4f32520f98ac13c7": "read",
+  "d4ed8412efb44d8f90edae7d47f566ce6e1f3df67045365ee7164a82c60f27eb": "read"
+ },
+ "flags": []
+}

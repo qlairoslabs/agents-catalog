@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3a95d48e54120417e898e18545680e017fd369318c499335a691b2031950aacf",
+ "domain": [
+  "finance/market-data",
+  "finance/economics"
+ ],
+ "product": [
+  "insync-analytics"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides financial data such as earnings, estimates, guidance, stock prices and macro indicators.",
+ "whenToUse": "Use when researching company earnings, stock prices or macroeconomic indicators.",
+ "tasks": [
+  "get earnings",
+  "get analyst estimates",
+  "get company guidance",
+  "get stock prices",
+  "get macro indicators"
+ ],
+ "effects": {},
+ "flags": []
+}

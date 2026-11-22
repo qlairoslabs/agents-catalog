@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1c2a8fbeadda4fd0cf043bc8a28888d7fcdff7adad7d060e88f2b4a768043da4",
+ "domain": [
+  "software/form-backend"
+ ],
+ "product": [
+  "formslist"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Form backend that lets agents create live form endpoints, configure them and read submissions.",
+ "whenToUse": "Use when an agent needs to spin up a form endpoint for a site or app and collect its submissions.",
+ "tasks": [
+  "create form endpoints",
+  "configure forms",
+  "read submissions"
+ ],
+ "effects": {},
+ "flags": []
+}

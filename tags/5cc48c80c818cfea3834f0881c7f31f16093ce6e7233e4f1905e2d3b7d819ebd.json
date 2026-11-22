@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5cc48c80c818cfea3834f0881c7f31f16093ce6e7233e4f1905e2d3b7d819ebd",
+ "domain": [
+  "travel/cruises"
+ ],
+ "product": [
+  "gangwaze"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches cruises and shows fares, price history, cabins, ships, cruise lines and ports.",
+ "whenToUse": "Use when planning or comparing cruise trips and prices.",
+ "tasks": [
+  "search cruises",
+  "check fares",
+  "view price history",
+  "look up cabins",
+  "look up ships and lines",
+  "look up ports"
+ ],
+ "effects": {},
+ "flags": []
+}

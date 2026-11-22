@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "677574ce8164775cd1ed5475186bc4c005096c55593b7f63db187958ddb2e25f",
+ "domain": [
+  "software/devops/salesforce",
+  "software/ci-cd"
+ ],
+ "product": [
+  "copado",
+  "salesforce",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local MCP server via the Agentia CLI npm package that lets AI agents run Copado DevOps tasks.",
+ "whenToUse": "Use when an agent needs to run Copado DevOps tasks such as deployments from a local environment.",
+ "tasks": [
+  "run copado devops tasks",
+  "manage deployments",
+  "run local cli commands"
+ ],
+ "effects": {},
+ "flags": []
+}

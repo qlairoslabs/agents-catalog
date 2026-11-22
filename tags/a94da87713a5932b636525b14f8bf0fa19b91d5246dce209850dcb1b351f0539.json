@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a94da87713a5932b636525b14f8bf0fa19b91d5246dce209850dcb1b351f0539",
+ "domain": [
+  "finance/personal-finance",
+  "finance/cash-flow"
+ ],
+ "product": [
+  "bazous"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Household cash-flow assistant showing upcoming bills, projected low balance and suggested actions before payday.",
+ "whenToUse": "Use when a user asks about upcoming bills or whether their balance will last until payday.",
+ "tasks": [
+  "list upcoming bills",
+  "project lowest balance",
+  "suggest cash-flow moves"
+ ],
+ "effects": {},
+ "flags": []
+}

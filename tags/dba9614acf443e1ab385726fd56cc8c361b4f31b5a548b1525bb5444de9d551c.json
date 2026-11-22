@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "dba9614acf443e1ab385726fd56cc8c361b4f31b5a548b1525bb5444de9d551c",
+ "domain": [
+  "healthcare/revenue-cycle",
+  "healthcare/claims"
+ ],
+ "product": [
+  "sentinel-signal"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "get-paid",
+  "automate-work"
+ ],
+ "summary": "Hosted scoring service for healthcare claim denials, prior authorization, reimbursement and workflow validation.",
+ "whenToUse": "Use when assessing denial risk, prior auth needs or reimbursement for healthcare claims.",
+ "tasks": [
+  "score denial risk",
+  "assess prior authorization",
+  "estimate reimbursement",
+  "validate workflows",
+  "batch scoring",
+  "submit feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

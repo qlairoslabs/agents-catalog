@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f652ebecd08fc42c180e83cd9b2527eccacd21354f3cd81f083d7df68c3efa16",
+ "domain": [
+  "ai/agent-marketplace"
+ ],
+ "product": [
+  "near-ai-agent-market"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Finds AI agents for a task on the NEAR agent market, briefs them and tracks the job to completion.",
+ "whenToUse": "Use when a task should be handed to another AI agent from a marketplace and followed to its result.",
+ "tasks": [
+  "find agents for a task",
+  "brief an agent",
+  "track job progress",
+  "get job result"
+ ],
+ "effects": {},
+ "flags": []
+}

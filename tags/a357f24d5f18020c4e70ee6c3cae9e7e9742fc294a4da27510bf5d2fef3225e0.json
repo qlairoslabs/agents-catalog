@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a357f24d5f18020c4e70ee6c3cae9e7e9742fc294a4da27510bf5d2fef3225e0",
+ "domain": [
+  "education/quiz-video",
+  "media/video"
+ ],
+ "product": [
+  "quiz-video"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Lists, creates, AI-generates and renders quiz and flashcard videos.",
+ "whenToUse": "Use when the user wants to produce quiz or flashcard videos.",
+ "tasks": [
+  "list quiz videos",
+  "create quiz",
+  "ai-generate quiz",
+  "render video",
+  "create flashcards"
+ ],
+ "effects": {},
+ "flags": []
+}

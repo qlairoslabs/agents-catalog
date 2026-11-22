@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "384608a2caae048723c6069c98f04036dc2e4d378846101d09e0ef8d55450bb4",
+ "domain": [
+  "food/artisan-production",
+  "business/inventory",
+  "finance/billing"
+ ],
+ "product": [
+  "anto"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Assistant for artisan food makers covering stock, orders, HACCP food safety records and billing.",
+ "whenToUse": "Use when an artisan food business using Antò wants an agent to manage stock, orders, HACCP records or invoices.",
+ "tasks": [
+  "manage stock",
+  "manage orders",
+  "record haccp checks",
+  "create invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

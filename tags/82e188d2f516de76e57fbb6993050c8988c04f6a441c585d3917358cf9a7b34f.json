@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "82e188d2f516de76e57fbb6993050c8988c04f6a441c585d3917358cf9a7b34f",
+ "domain": [
+  "legal/contract-management",
+  "legal/e-signature"
+ ],
+ "product": [
+  "fynk",
+  "claude",
+  "chatgpt",
+  "cursor"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "sell",
+  "stay-compliant"
+ ],
+ "summary": "Drafts, finds, analyzes, updates and signs contracts in the fynk contract management platform.",
+ "whenToUse": "Use when an agent needs to create, search, review or sign contracts stored in fynk.",
+ "tasks": [
+  "draft contracts",
+  "search contracts",
+  "analyze contracts",
+  "update contracts",
+  "sign contracts"
+ ],
+ "effects": {},
+ "flags": []
+}

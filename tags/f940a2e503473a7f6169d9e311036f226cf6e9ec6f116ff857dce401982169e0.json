@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "f940a2e503473a7f6169d9e311036f226cf6e9ec6f116ff857dce401982169e0",
+ "domain": [
+  "software/wordpress",
+  "web-publishing"
+ ],
+ "product": [
+  "wordpress",
+  "woocommerce"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "French WordPress articles plus tools to rate plugin trustworthiness, compare plugins, detect a site's WordPress setup, check domains and audit AI-agent readiness.",
+ "whenToUse": "Use when a user asks about WordPress security, plugin reliability, a site's stack or a domain's health, especially in French.",
+ "tasks": [
+  "search articles",
+  "read articles",
+  "rate plugin security",
+  "compare plugins",
+  "detect WordPress on a site",
+  "audit domain DNS email HTTPS",
+  "audit AI readiness of a page"
+ ],
+ "effects": {
+  "bdfa303663736ca3e0d3db987e547f8a79bce5102067788dd5c899a35c3b3b5e": "read",
+  "856f53441a9b905937e2a1d8aa09f2a09028793692079a2bc3fa26907fc329d9": "read",
+  "396a72e09e0b8c4407a81c358e9a85beac20c260b0609a069775ced9063b31d0": "read",
+  "650e3cd71790350a84066eeeb814754841cfcf28d5abc89d308cd356d0873f1f": "read",
+  "0ca653cffff39e69b03243c8cf5c1f78b24a227eb336e54263e33e77c8773ad3": "read",
+  "c46eaeb428d6d2777aa3f970bd71f1745253cef2decf1b9346b811dcb5bcccce": "read",
+  "d8bff30daa999e2a4f6a859a4f98085a54ff92fb1c477ed3afc2a963377001a9": "read"
+ },
+ "flags": []
+}

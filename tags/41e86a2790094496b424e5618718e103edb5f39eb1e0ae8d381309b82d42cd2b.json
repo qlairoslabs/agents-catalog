@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "41e86a2790094496b424e5618718e103edb5f39eb1e0ae8d381309b82d42cd2b",
+ "domain": [
+  "marketing/company-content",
+  "marketing/franchise-marketing"
+ ],
+ "product": [
+  "flamel"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Flamel.ai's public content, including its company overview, blog posts, case studies, FAQs and testimonials.",
+ "whenToUse": "Use when an agent needs facts about Flamel.ai's product or its published marketing content.",
+ "tasks": [
+  "get company overview",
+  "search content",
+  "list blog posts",
+  "read blog post",
+  "list blog categories",
+  "list case studies",
+  "read case study",
+  "list faqs",
+  "list testimonials"
+ ],
+ "effects": {
+  "913ab31aa0ffe6d08a53a52e4a2ca72ef536c2978deef5d899cd4680ee3b2a51": "read",
+  "4f5fcabcfe50d54afce4a2afa93852f56acf55f756fe743f58ba7ff577006ca6": "read",
+  "f8ec27121e399a79c6fc9ab3cafa5b6ae5e8636b52e25732ce4ca0c6dec7c8e3": "read",
+  "dac9a61e1197d9bd9aa5075ee257f99c0630c76cafdf2875982337bc43dba57a": "read",
+  "27eb3004d5bff2a0b5ce392bea024ff59733f30f20e6c9682709b171b6de8fc2": "read",
+  "a2f72d102d0a005eedd28fe95bf2becf22ae9fbf88390ab5b5f571ddbc0f3577": "read",
+  "e980bf68d561cd0fe9f2f8edf3b2d86496abb6d9b61fb4c74d0194a35a4759d1": "read",
+  "f599ccebc491778cf3f0e1c96349efc4e45c1ecbd91057080f799d87888aaf18": "read",
+  "088800b6c977cf5fcbaf33877f3fc519d75d13cc212fc0a07aa04883ae444fa4": "read"
+ },
+ "flags": []
+}

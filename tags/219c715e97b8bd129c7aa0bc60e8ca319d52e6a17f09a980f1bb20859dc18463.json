@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "219c715e97b8bd129c7aa0bc60e8ca319d52e6a17f09a980f1bb20859dc18463",
+ "domain": [
+  "finance/market-data",
+  "crypto"
+ ],
+ "product": [
+  "base",
+  "x402",
+  "sec",
+  "bls",
+  "usgs"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Paid market-data service giving crypto token risk scans, US equity and smart-money signals, labor and critical-minerals data, and Base wallet PnL, billed per call via x402.",
+ "whenToUse": "Use when you need quick investment research signals on tokens, US stocks, macro labor data or wallet performance.",
+ "tasks": [
+  "scan token for rug risk",
+  "get equity buy/sell signal",
+  "get US labor market data",
+  "get smart-money signal",
+  "get critical minerals supply data",
+  "get wallet PnL"
+ ],
+ "effects": {
+  "173d65a4313689fd21afaf537c0b017805a508a488fe1a1bdf7b486f3abe19bd": "read",
+  "45626ea7278d63e865c26e357221f6fa8036c5abc5bdda37662b862cffcbf4dc": "read",
+  "a20a660eb1330cae71196b97eb98e215a386f8e006afb10b86f6190045046a92": "read",
+  "3a4685f5f3e5c7ac15cffeeffb47c609be70d6348ccbd0efaf01eed5ecf8e6a3": "read",
+  "7b9a5ec54b0c002dd7e64f11a7f56917202260894634cc6a3d23311644eed7ac": "read",
+  "0ff04e0dceacc9e922b6d615d0fb12216c8106dc6ba31c7aa446841ff0312716": "read"
+ },
+ "flags": []
+}

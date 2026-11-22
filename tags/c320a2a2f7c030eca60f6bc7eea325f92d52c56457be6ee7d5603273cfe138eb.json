@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c320a2a2f7c030eca60f6bc7eea325f92d52c56457be6ee7d5603273cfe138eb",
+ "domain": [
+  "finance/crypto/payment-safety"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Checks the trustworthiness of an x402 payment endpoint before an agent pays it, returning an avoid, caution or ok verdict backed on-chain.",
+ "whenToUse": "Use before an agent pays an x402 endpoint to check whether it is safe to pay.",
+ "tasks": [
+  "check x402 endpoint reputation",
+  "get payment risk verdict",
+  "view on-chain proof"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "8e583ce950d6c34b73b789eff9a7b532f2f5e2103532a0b0c430e1dae4eb7a09",
+ "domain": [
+  "writing/fiction/long-form",
+  "writing"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Chinese long-form novel writing server with 24 tools that enforce checks against AI memory loss, setting drift and AI-sounding prose.",
+ "whenToUse": "Use when an agent is writing a long Chinese novel and must keep plot, setting and style consistent.",
+ "tasks": [
+  "track story settings",
+  "enforce writing quality gates",
+  "maintain continuity"
+ ],
+ "effects": {},
+ "flags": []
+}

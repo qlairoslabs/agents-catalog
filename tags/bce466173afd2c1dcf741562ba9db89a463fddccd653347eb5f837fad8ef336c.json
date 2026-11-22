@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "bce466173afd2c1dcf741562ba9db89a463fddccd653347eb5f837fad8ef336c",
+ "domain": [
+  "telecom/mobile-plans",
+  "consumer/comparison"
+ ],
+ "product": [
+  "saveonphone"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and compares US cell phone plans, shows plan details and switching checklists, and finds wireless news.",
+ "whenToUse": "Use when someone wants to compare US mobile plans or plan a carrier switch.",
+ "tasks": [
+  "search plans",
+  "list carriers",
+  "get plan details",
+  "compare plan costs",
+  "find wireless articles",
+  "get switching guide"
+ ],
+ "effects": {
+  "8b4334bc4214e8c7d3980008aed3300042cc1f6e786fdfe1a3307e1e2e26b9a4": "read",
+  "bd5c37f28934a3253f5d765dac587b1f32e2310955e266629d9c288f37ad76e2": "read",
+  "7320b4e5fcc13ed6c2d68dc0c9012f7b33e6d0d4ed975954c276b7b85ea52af0": "read",
+  "89e6e204104bf3cff1cf7a56a19e40dd674ec516dbc9aa92528c9767d31f1f5c": "read",
+  "edc9edcb6b3a75e7640a321cf44b8da4faad75daafcba6d142cd15318e2dfc6a": "read",
+  "590267fb5a28f748fad9a622331241d78f11c14a9d650ee65847419fd3e32a7f": "read"
+ },
+ "flags": []
+}

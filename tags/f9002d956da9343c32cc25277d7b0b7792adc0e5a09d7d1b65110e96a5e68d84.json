@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f9002d956da9343c32cc25277d7b0b7792adc0e5a09d7d1b65110e96a5e68d84",
+ "domain": [
+  "energy/oil-and-gas",
+  "government/public-records"
+ ],
+ "product": [
+  "texas-railroad-commission"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Texas Railroad Commission oil and gas wellbore records including API numbers, completion dates, depth and plug status.",
+ "whenToUse": "Use when researching oil and gas wells in Texas and their regulatory records.",
+ "tasks": [
+  "search wellbores",
+  "look up api numbers",
+  "get completion dates",
+  "get well depth",
+  "check plug status"
+ ],
+ "effects": {},
+ "flags": []
+}

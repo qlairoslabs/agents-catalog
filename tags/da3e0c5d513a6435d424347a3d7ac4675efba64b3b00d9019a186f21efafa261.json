@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "da3e0c5d513a6435d424347a3d7ac4675efba64b3b00d9019a186f21efafa261",
+ "domain": [
+  "data/company-data",
+  "compliance/kyb"
+ ],
+ "product": [
+  "dato-capital"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches official company and director data, including profiles, officers, filings and company name normalization.",
+ "whenToUse": "Use when looking up official registry details about a company or its directors.",
+ "tasks": [
+  "search companies",
+  "view company profiles",
+  "list officers",
+  "view filings",
+  "normalize company names"
+ ],
+ "effects": {},
+ "flags": []
+}

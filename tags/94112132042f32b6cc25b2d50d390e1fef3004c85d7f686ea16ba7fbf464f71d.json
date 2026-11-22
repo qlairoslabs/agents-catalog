@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "94112132042f32b6cc25b2d50d390e1fef3004c85d7f686ea16ba7fbf464f71d",
+ "domain": [
+  "marketing/conversion-tracking",
+  "marketing/analytics"
+ ],
+ "product": [
+  "tracklution"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Lets an AI coding agent install and configure Tracklution server-side conversion tracking on a website.",
+ "whenToUse": "Use when setting up server-side conversion tracking for ads and analytics on a site.",
+ "tasks": [
+  "install server-side tracking",
+  "configure conversion tracking"
+ ],
+ "effects": {},
+ "flags": []
+}

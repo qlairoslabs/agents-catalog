@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "df180691c8ada153411e38f41107bae8ba0dcd324e632fea60ad3b66be2993c2",
+ "domain": [
+  "data-science/statistics",
+  "data-science/modeling"
+ ],
+ "product": [
+  "factorguide"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Takes a coupling matrix and returns factorization strategy, risk predictions and zone classifications for probabilistic models, with pay-per-query access.",
+ "whenToUse": "Use when choosing how to factorize a statistical model and estimating the cost and risk of that choice.",
+ "tasks": [
+  "navigate factorization strategy",
+  "diagnose a variable pair",
+  "submit payment proof",
+  "report outcome diagnostics",
+  "explain a prior result",
+  "detect regime changes",
+  "detect synergy"
+ ],
+ "effects": {
+  "cf126ec5387dd6438356c6e6a2d6dc2ce8c0c87c52ea53a42d6a846bfa137e5d": "write",
+  "f9497c9b7464b043de88336ffad2f77637293513af4a19a45aade8ca598875ec": "read",
+  "afd09d23bd6ee02d1f801955a34889382537789890bcd0ea83eabe8cab9e3a8a": "write",
+  "8922d1ddbead4d692bd7204c9e8d888f5bcbb7328d0d589960fed18d5120eddb": "write",
+  "7c6a5769c7dab6305d08f57afb3214fb765b26b3907f2128820a359c6215cd73": "read",
+  "48e1a65e5dcf51cbb886eb1c4bb2d75598372f11032f8afea45b98cf83c64ae8": "read",
+  "077321da2b110fdeee1fdca72fbf1b51b27711d6187dab6b843cc2d95558c128": "read"
+ },
+ "flags": [
+  "requires-wallet-header-and-crypto-payment"
+ ]
+}

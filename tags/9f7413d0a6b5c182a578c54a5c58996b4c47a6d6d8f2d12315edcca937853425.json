@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9f7413d0a6b5c182a578c54a5c58996b4c47a6d6d8f2d12315edcca937853425",
+ "domain": [
+  "science/astronomy",
+  "utilities/weather-and-time"
+ ],
+ "product": [
+  "sunrise-sunset-org"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "create-content"
+ ],
+ "summary": "Returns sunrise, sunset, twilight, golden hour and moon data for any coordinates and date or date range.",
+ "whenToUse": "Use when you need sun or moon times for a location, such as planning photography or outdoor events.",
+ "tasks": [
+  "get sun times for a date",
+  "get sun times for a date range",
+  "get golden and blue hour",
+  "get moon phase and times",
+  "handle polar day and night"
+ ],
+ "effects": {
+  "534fc6b70d56a5b4599c2758fc9afb216c044128017c473e626effe36149c1a6": "read",
+  "058b6d1f5e58a25be883587e98da7ae8fbdacb7687941bd212038c3bcf987ebc": "read"
+ },
+ "flags": []
+}

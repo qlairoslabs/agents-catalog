@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cd30c8ca3d6053f976c31332d75ddf976f9dbca71f2db08c43ea0c6b3340cbc6",
+ "domain": [
+  "software/engineering-analytics",
+  "data/business-intelligence"
+ ],
+ "product": [
+  "keypup"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Answers questions and builds charts from engineering data to track software delivery health.",
+ "whenToUse": "Use when an agent needs metrics or visualizations about a team's software development activity and performance.",
+ "tasks": [
+  "query engineering metrics",
+  "generate visualizations",
+  "track development health"
+ ],
+ "effects": {},
+ "flags": []
+}

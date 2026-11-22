@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "162dce9da2c550d25529a7b79eebf9289f981199f27f11ee691a780eb0f60ce9",
+ "domain": [
+  "marketing/links",
+  "marketing/analytics"
+ ],
+ "product": [
+  "codeqr"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connector for CodeQR to create and manage short links and QR codes and view their analytics.",
+ "whenToUse": "Use when a user wants to create or manage short links or QR codes, or check their click analytics in CodeQR.",
+ "tasks": [
+  "create short links",
+  "create qr codes",
+  "manage links",
+  "view link analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

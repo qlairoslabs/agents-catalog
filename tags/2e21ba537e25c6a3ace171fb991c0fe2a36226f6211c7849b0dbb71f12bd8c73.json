@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2e21ba537e25c6a3ace171fb991c0fe2a36226f6211c7849b0dbb71f12bd8c73",
+ "domain": [
+  "marketing/qr-codes"
+ ],
+ "product": [
+  "qr-top"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Create dynamic QR codes whose destinations can be edited after printing, with smart routing and scan analytics.",
+ "whenToUse": "Use when a user wants to create or update dynamic QR codes and view scan stats.",
+ "tasks": [
+  "create dynamic qr codes",
+  "edit qr destinations",
+  "set smart routing",
+  "view scan analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

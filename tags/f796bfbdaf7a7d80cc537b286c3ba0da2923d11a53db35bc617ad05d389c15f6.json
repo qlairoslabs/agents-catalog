@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f796bfbdaf7a7d80cc537b286c3ba0da2923d11a53db35bc617ad05d389c15f6",
+ "domain": [
+  "software/api/graphql",
+  "software/infrastructure"
+ ],
+ "product": [
+  "apollo-router",
+  "graphql"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Version-aware guidance and YAML generation for configuring, securing and running Apollo Router v1 and v2.",
+ "whenToUse": "Use when configuring, securing, extending or troubleshooting Apollo Router for a supergraph.",
+ "tasks": [
+  "generate router yaml config",
+  "configure routing headers cors",
+  "write rhai scripts or coprocessors",
+  "configure telemetry",
+  "secure graph with jwt and authorization",
+  "set up persisted query safelisting",
+  "validate config in ci/cd",
+  "troubleshoot performance"
+ ],
+ "effects": {},
+ "flags": []
+}

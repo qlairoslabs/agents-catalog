@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e97e37a6132c3ee827185207dd67b353582f7d5e9749c4619f3761d8bae0e076",
+ "domain": [
+  "software/monitoring/uptime",
+  "operations/incident-management"
+ ],
+ "product": [
+  "openstatus"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Manages uptime monitors, status pages, incidents and maintenance windows in an openstatus workspace.",
+ "whenToUse": "Use when an agent needs to set up monitoring, report an incident or schedule maintenance on an openstatus status page.",
+ "tasks": [
+  "manage monitors",
+  "manage status pages",
+  "create incidents",
+  "schedule maintenances"
+ ],
+ "effects": {},
+ "flags": []
+}

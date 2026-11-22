@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "ec348138d4cc6386c0f045a3a55546943e4c4e52dcbb5c6fc7ac5d81086dbb44",
+ "domain": [
+  "hr/job-search",
+  "recruiting"
+ ],
+ "product": [
+  "haystack",
+  "greenhouse",
+  "ashby",
+  "workable",
+  "smartrecruiters",
+  "teamtailor"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Searches live job listings from employer careers sites and reports employer reply rates and application form facts.",
+ "whenToUse": "Use when a user is looking for jobs or wants to know how employers respond to applications.",
+ "tasks": [
+  "search jobs",
+  "get job details",
+  "get employer application facts",
+  "get ATS facts"
+ ],
+ "effects": {
+  "51fc4f7d7b0c130678609fdf4438a89a5f5ee58a71dded782be1ce2b2ac4b0ac": "read",
+  "d39f666704ca318549feaa78aa84d13c614ebadf1760925a35d3cc2c6dba8a67": "read",
+  "5891e42fc0f2386c9b6dab473b60fd0695e496ed67500c083fc420d3122df250": "read",
+  "360a7706996cc8a6a3fdb2d78fb17fc4121484f9d9536716b62cf772bab04fe8": "read"
+ },
+ "flags": []
+}

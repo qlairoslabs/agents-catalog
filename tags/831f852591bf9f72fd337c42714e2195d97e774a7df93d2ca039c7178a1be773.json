@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "831f852591bf9f72fd337c42714e2195d97e774a7df93d2ca039c7178a1be773",
+ "domain": [
+  "search/web-search",
+  "research"
+ ],
+ "product": [
+  "linkup"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Real-time web search connector that returns answers with sources.",
+ "whenToUse": "Use when an agent needs current web information with cited sources.",
+ "tasks": [
+  "search the web",
+  "get sourced answers"
+ ],
+ "effects": {},
+ "flags": []
+}

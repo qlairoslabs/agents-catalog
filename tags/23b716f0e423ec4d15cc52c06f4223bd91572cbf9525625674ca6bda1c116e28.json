@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "23b716f0e423ec4d15cc52c06f4223bd91572cbf9525625674ca6bda1c116e28",
+ "domain": [
+  "maps/route-planning",
+  "sports/outdoor"
+ ],
+ "product": [
+  "remap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Generates cycling, running and walking routes for any location.",
+ "whenToUse": "Use when the user wants a cycling, running or walking route planned somewhere.",
+ "tasks": [
+  "generate cycling routes",
+  "generate running routes",
+  "generate walking routes"
+ ],
+ "effects": {},
+ "flags": []
+}

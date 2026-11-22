@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0d3cd6003a38a75631a88b8e05e98a7b39436c186e6e9587953765e618308a70",
+ "domain": [
+  "marketing/seo",
+  "analytics/web"
+ ],
+ "product": [
+  "google-search-console"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Read-only access to Google Search Console data for SEO analysis, with an HTML audit report generator in English or Italian.",
+ "whenToUse": "Use when an agent needs to analyse a site's search performance, indexing or SEO issues from Google Search Console.",
+ "tasks": [
+  "query search performance",
+  "inspect indexing status",
+  "review sitemaps",
+  "generate seo audit report",
+  "produce white-label html report"
+ ],
+ "effects": {},
+ "flags": []
+}

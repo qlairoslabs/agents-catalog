@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f27e699a1f9f2a13d8072599b04d444ac2057f7099d804c6c2d9d0e1df84185e",
+ "domain": [
+  "software/code-reuse",
+  "software/scaffolding"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Finds reusable code in your GitHub repositories and scaffolds new apps from it.",
+ "whenToUse": "Use when starting a new app and wanting to reuse existing code from the user's GitHub repos.",
+ "tasks": [
+  "discover reusable code",
+  "scaffold new apps",
+  "search github repositories"
+ ],
+ "effects": {},
+ "flags": []
+}

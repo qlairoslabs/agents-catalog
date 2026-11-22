@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "6e6525794ca2c6d69ac58f99ac26b424c974aae66960d1c8fe16952c95cec35b",
+ "domain": [
+  "software/agency",
+  "business/automation-services"
+ ],
+ "product": [
+  "ig-digital-lab"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "automate-work",
+  "get-customers"
+ ],
+ "summary": "Information and contact channel for IG Digital Lab, a Sacramento software and AI automation agency, including a free process audit request.",
+ "whenToUse": "Use when someone wants to learn about IG Digital Lab or contact them or request a free audit.",
+ "tasks": [
+  "get company info",
+  "list services",
+  "check service areas",
+  "send contact request",
+  "request free audit"
+ ],
+ "effects": {
+  "6393fa2876aa7bd29bd548518a630558f8f891878b56c0f4dc6cbc861d1d30b0": "read",
+  "b283aa39e7d9175331772d771257f371743c0a7beb2ea8129a6d99b08d805c62": "read",
+  "6a867c4071799219c00a9250fc948d93568980b79d76dea3e4620f3b01cd3393": "read",
+  "0425e3bf3f9b36c66fe846e9ef1b5eef37bd6e2c854cb234d7c54fc6d2dc903d": "write",
+  "b6916b29369a4b78103865e0e4c4fc99f924476531fedbedaa0952a4ca9a9fc9": "write"
+ },
+ "flags": []
+}

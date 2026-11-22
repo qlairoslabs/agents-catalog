@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "904c2fdb477222f4faddee2e5db91690b2dec57b73f5ef32f730a27d878ec8d1",
+ "domain": [
+  "finance/crypto/trading",
+  "finance/crypto"
+ ],
+ "product": [
+  "warden-protocol",
+  "base",
+  "bnb-chain",
+  "robinhood-chain",
+  "arc"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Finds tokens, prices swaps and executes onchain trades on Base, BNB Chain, Robinhood Chain and Arc.",
+ "whenToUse": "Use when a user wants to discover tokens, quote swaps or trade onchain on the supported chains.",
+ "tasks": [
+  "find tokens",
+  "price swaps",
+  "execute onchain trades"
+ ],
+ "effects": {},
+ "flags": []
+}

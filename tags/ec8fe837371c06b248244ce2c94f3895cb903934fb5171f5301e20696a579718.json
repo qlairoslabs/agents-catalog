@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ec8fe837371c06b248244ce2c94f3895cb903934fb5171f5301e20696a579718",
+ "domain": [
+  "software/code-review"
+ ],
+ "product": [
+  "greptile",
+  "github",
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects to Greptile AI code review to view and resolve PR comments, review branches and search coding patterns.",
+ "whenToUse": "Use when handling Greptile review comments or reviewing a branch before a pull request.",
+ "tasks": [
+  "view pr review comments",
+  "resolve review comments",
+  "review working branch",
+  "search knowledge base",
+  "search coding patterns"
+ ],
+ "effects": {},
+ "flags": []
+}

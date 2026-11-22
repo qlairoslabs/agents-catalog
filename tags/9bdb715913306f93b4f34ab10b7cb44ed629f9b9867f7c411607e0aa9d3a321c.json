@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9bdb715913306f93b4f34ab10b7cb44ed629f9b9867f7c411607e0aa9d3a321c",
+ "domain": [
+  "finance/payments",
+  "finance/digital-wallets"
+ ],
+ "product": [
+  "n3xt"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Accesses N3XT account wallets for instant USD settlement and making payments.",
+ "whenToUse": "Use when the user needs to check N3XT wallets or send USD payments.",
+ "tasks": [
+  "view wallets",
+  "make payments",
+  "check balances"
+ ],
+ "effects": {},
+ "flags": []
+}

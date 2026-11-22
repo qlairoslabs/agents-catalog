@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a540cb491a6a2adff3e108549c90a01f138136fa6a06705df7af8db5e54d0194",
+ "domain": [
+  "software/web-scraping",
+  "software/api-generation"
+ ],
+ "product": [
+  "indices"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Official Indices server that turns websites into structured APIs for agents.",
+ "whenToUse": "Use when an agent needs structured data or actions from a website that has no API.",
+ "tasks": [
+  "create api from website",
+  "extract website data"
+ ],
+ "effects": {},
+ "flags": []
+}

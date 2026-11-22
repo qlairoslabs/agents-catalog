@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "59c5cb3389fe7865232fb28007c4333e6a15633bb9661f46f3ac29edd9c52aa1",
+ "domain": [
+  "travel/risk-intelligence"
+ ],
+ "product": [
+  "travel-risk-api"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides country travel risk levels, government advisories, disaster and conflict alerts, and flight, airport and Wi-Fi info.",
+ "whenToUse": "Use when the user wants to assess the safety or conditions of travelling to a country.",
+ "tasks": [
+  "get country risk",
+  "read travel advisories",
+  "get disaster alerts",
+  "get conflict alerts",
+  "look up flights",
+  "look up airports",
+  "find wi-fi info"
+ ],
+ "effects": {},
+ "flags": []
+}

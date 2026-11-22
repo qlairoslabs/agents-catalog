@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f1f5f61568542751f9e5702cc79450cb9de266e60d1f6e623cc52117a31c6c35",
+ "domain": [
+  "data/company-registry",
+  "business/due-diligence"
+ ],
+ "product": [
+  "cnpj"
+ ],
+ "audience": [
+  "sales",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Looks up Brazilian companies by CNPJ number, searches companies by filters and shows account usage.",
+ "whenToUse": "Use when an agent needs registry data on a Brazilian company or a filtered list of Brazilian companies.",
+ "tasks": [
+  "look up company by cnpj",
+  "search companies by filters",
+  "check account usage"
+ ],
+ "effects": {},
+ "flags": []
+}

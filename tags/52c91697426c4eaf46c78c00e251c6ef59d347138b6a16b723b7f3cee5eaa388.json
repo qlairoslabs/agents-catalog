@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "52c91697426c4eaf46c78c00e251c6ef59d347138b6a16b723b7f3cee5eaa388",
+ "domain": [
+  "real-estate/zoning",
+  "government/planning"
+ ],
+ "product": [
+  "zoning-signal"
+ ],
+ "audience": [
+  "development",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Planning and zoning records for 25 Central Florida jurisdictions: place and corridor dossiers, meeting readings, entities, named patterns and a watch calendar.",
+ "whenToUse": "Use when researching zoning, planning-board decisions or development activity in Lake, Orange, Osceola, Polk or Seminole counties, Florida.",
+ "tasks": [
+  "list places and corridors",
+  "describe place by stakeholder lens",
+  "read meeting summaries",
+  "list named patterns",
+  "look up entities",
+  "watch upcoming hearings",
+  "track record of predictions",
+  "semantic search",
+  "trace connections between actors",
+  "submit feedback"
+ ],
+ "effects": {
+  "86b1d33333f81b7a8b1aef81bd2c22e4c6786dce883cb3e640a4b5b716160360": "read",
+  "e686a4033e71c29c3caa23efadaf5b7132abbd0efa01a1f7f8358806325d7799": "read",
+  "03ed97dbd42a347ef82da00b4406f2f37c2245782783cb98a2fcdd44b60ec989": "read",
+  "1df1f42c834074d491f7e5c112ab1322e152f63e392a788fcca1d223e14a7912": "write",
+  "d29d93f72a67076be6f12e2b4995877427c05437d25f5c6347881f7712f6e4d5": "read",
+  "f4fc339bc43e03a3b6802a3ad0a01175908f60c877a95774a59852723f9b6664": "write",
+  "371d822e8d7749f0a85491c1c7c4bbe76d08cd00a2180126c79a5bfc00215421": "write",
+  "f609c588dade62c80c5e2efc931c6108693ac76efa63190d23c34b26c5dadab8": "read",
+  "c77dd630222deafa2dc794505474cfe7d53f3b1ddef674db4bcdeec39f1d5f06": "read",
+  "6c6e1540b934242a43ad68a1c8fdfd57305a5552e7ade52ac0ecb330b4da724b": "read",
+  "c3000327e527f0b85f315d591c386f17426a4ed57df6bdbe28a5200beb529864": "write",
+  "7af92650906d94fbcb5587f08aa8418a747efea678299a42aaa86166a1b05129": "read",
+  "3820a44c7eb8c071daea38e76f3d906d993f6c8ef54a1b6842732cb5970f4be3": "read",
+  "b50ab2cdb402ae416d4f9917a8a097ba8f4017eb7eb6e9f2e8520fc9c513552b": "write",
+  "3467e779c558a6f565ce52b1836eade9c7a31c2f981049e3ffd2ba5d7e7f95e3": "write",
+  "a36fa375e04b6c7e74900571e38a231359430f641255329ca4942664a1bcf58c": "write",
+  "87d7fc606c1f6e404deea7720547498ea6e6664812d01cecc8d3da3c8004b3df": "write",
+  "3365ed808abec82c4829aa831bce00674e6ee3711a6c46419faf4630eb0bf1fa": "write"
+ },
+ "flags": []
+}

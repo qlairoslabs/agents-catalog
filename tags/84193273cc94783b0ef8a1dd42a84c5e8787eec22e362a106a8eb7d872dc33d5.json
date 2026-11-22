@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "84193273cc94783b0ef8a1dd42a84c5e8787eec22e362a106a8eb7d872dc33d5",
+ "domain": [
+  "finance/trading",
+  "finance/analysis"
+ ],
+ "product": [
+  "autrady"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether a trading strategy's track record could be due to luck and describes its full strategy audit service.",
+ "whenToUse": "Use when the user wants to assess if a trading strategy's performance is statistically meaningful.",
+ "tasks": [
+  "run luck check",
+  "explain strategy audit"
+ ],
+ "effects": {},
+ "flags": []
+}

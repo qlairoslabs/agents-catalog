@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "938e867aa2e9be75077c46b705abfef2d74d705a1add1712dd0d77a5c5256b7c",
+ "domain": [
+  "ecommerce/quilting-supplies",
+  "retail"
+ ],
+ "product": [
+  "be-sew-bizzy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches Be Sew Bizzy's quilt fabrics and sewing supplies for prices, sales and stock, and lists classes and opening hours.",
+ "whenToUse": "Use when someone asks about fabric, notions, classes or hours at Be Sew Bizzy.",
+ "tasks": [
+  "search products",
+  "fetch product details",
+  "check stock and sale price",
+  "list upcoming classes",
+  "get store hours"
+ ],
+ "effects": {
+  "52e0443203fa46f336abb9e9b8bba7b5ae8983d3930e61d736287d90b11eefb9": "read",
+  "110e08030cc7ccfedd35f38b2c14abd9ddaa7c321ec3dc4d216eb8b5a569cadc": "read",
+  "e1be4d83b80c45e78b1931991c68893329c7c0b8a8d51c2e6daae0a0f5ca5ab9": "read",
+  "630d3a3c2f7a6568d29f5ce95039d452a4fa6ae6dadf06777d2d8f8526040279": "read",
+  "4dfa8f369258e71d5c348e79d58b7b094df07c328720ca78331700a49bd9a404": "read",
+  "a95ae08495594edae2343b86b33b71c00983c57f38c606dcabf8e51600458c8f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "62a82f35786695e57a2c93ab183f9b7db9bd3b344056266bb3808d125bd06155",
+ "domain": [
+  "software/ai-agents/memory",
+  "software/data-integrity"
+ ],
+ "product": [
+  "axiomseal",
+  "claude",
+  "cursor"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Persistent memory service for AI assistants that validates entries and seals them with SHA-512 hashes.",
+ "whenToUse": "Use when an agent needs to store and recall tamper-evident memories across sessions.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "validate stored facts",
+  "verify memory integrity"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "573d68ced92d1835a84712d2f8172be20bb8c61d5f2231f23b64a831d6bf3e27",
+ "domain": [
+  "software/monitoring",
+  "software/devops"
+ ],
+ "product": [
+  "uptime-kuma"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "MCP server for managing an Uptime Kuma 2 instance, including monitors, status pages, notifications and maintenance windows.",
+ "whenToUse": "Use when an agent needs to check or change uptime monitors, status pages or maintenance in Uptime Kuma.",
+ "tasks": [
+  "manage monitors",
+  "manage status pages",
+  "configure notifications",
+  "schedule maintenance windows"
+ ],
+ "effects": {},
+ "flags": []
+}

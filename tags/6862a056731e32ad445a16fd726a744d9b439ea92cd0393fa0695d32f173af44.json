@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6862a056731e32ad445a16fd726a744d9b439ea92cd0393fa0695d32f173af44",
+ "domain": [
+  "data/analytics/log-analytics",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure-data-explorer"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries and analyzes Azure Data Explorer data with KQL for logs, telemetry and time series.",
+ "whenToUse": "Use when a user needs KQL queries against Kusto or Azure Data Explorer clusters.",
+ "tasks": [
+  "write kql queries",
+  "query adx databases",
+  "analyze logs",
+  "analyze time series",
+  "analyze iot telemetry",
+  "detect anomalies"
+ ],
+ "effects": {},
+ "flags": []
+}

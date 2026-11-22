@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2d836914c4a9b95dd813a14776c854e99b7f1fc7b0a9135e78c0089d26030ad4",
+ "domain": [
+  "ai/multi-model",
+  "software/code-review"
+ ],
+ "product": [
+  "claude"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Asks several AI models to review work or perform a task and judges results blind.",
+ "whenToUse": "Use when an agent wants second opinions from other models on its work or a task.",
+ "tasks": [
+  "multi-model review",
+  "run task across models",
+  "blind judging",
+  "fork a model"
+ ],
+ "effects": {},
+ "flags": []
+}

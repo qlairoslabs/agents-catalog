@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "85e5e14e835a17cbbeee88d38c318431fd318d70d4f37fea1b13f5b5e8d1eb24",
+ "domain": [
+  "marketplace/home-services"
+ ],
+ "product": [
+  "meseriasi-ro",
+  "supabase"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Romanian marketplace connecting homeowners with tradespeople: search profiles, message them via email OTP and post projects.",
+ "whenToUse": "Use when a user in Romania wants to find a tradesperson, contact them or post a home project.",
+ "tasks": [
+  "search tradespeople",
+  "get profile",
+  "request chat OTP",
+  "start conversation",
+  "open contact form",
+  "create project"
+ ],
+ "effects": {
+  "f953b06f1d0666de8fd76e1e9afab0128016466cfede16e4aed6dc7e9f52bc46": "read",
+  "7e75b6f59deae69a73c59f250e1ecbb9a0a5a31ea79c4bb9de17bfbf009e712c": "read",
+  "1be201463319130b065c733c054f03bb49a57c4b39c728e0f4618281244c2b79": "write",
+  "8a029410981ce067552ae1f751de33b774e707c68006a24607d5a863271e3bc7": "write",
+  "2b5a4fadf320d5ede1d04ac178167c10be4e8c672320fe8fdaee4e4036ed0659": "read",
+  "3ec2065d82c9b680636ab8b7cc44f19dc907d339e19836959d70d73ad83067cc": "write"
+ },
+ "flags": []
+}

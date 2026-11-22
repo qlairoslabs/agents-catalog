@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f3ee56fabcc008ea75b8223e7a5106de20371d5368cbb28d1d83c40400522a33",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "ai/mcp-registry"
+ ],
+ "product": [
+  "policylayer"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Registry that assesses MCP servers for publisher identity, overall risk grade and per-tool risk before installation.",
+ "whenToUse": "Use before installing an MCP server to check its identity and risk profile.",
+ "tasks": [
+  "look up mcp servers",
+  "check server identity",
+  "get risk grade",
+  "get per-tool risk"
+ ],
+ "effects": {},
+ "flags": []
+}

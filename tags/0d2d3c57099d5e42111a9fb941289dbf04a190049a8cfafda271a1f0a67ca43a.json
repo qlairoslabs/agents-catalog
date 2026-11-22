@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0d2d3c57099d5e42111a9fb941289dbf04a190049a8cfafda271a1f0a67ca43a",
+ "domain": [
+  "communication/telephony/ai-receptionist",
+  "sales/lead-capture"
+ ],
+ "product": [
+  "kestrel-voice"
+ ],
+ "audience": [
+  "support",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Manages a Kestrel Voice AI receptionist, including calls, leads, credits, usage, workflows and setup.",
+ "whenToUse": "Use when reviewing calls and leads or configuring an AI phone receptionist in Kestrel Voice.",
+ "tasks": [
+  "review calls",
+  "manage leads",
+  "check credits",
+  "view usage",
+  "configure workflows",
+  "guided setup"
+ ],
+ "effects": {},
+ "flags": []
+}

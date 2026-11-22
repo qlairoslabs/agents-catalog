@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8af1809b56f0dc27e937d6cc909b546590721cdba55b93a3c4b002e51b208595",
+ "domain": [
+  "language/translation",
+  "software/localization"
+ ],
+ "product": [
+  "i18n-agent"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "AI translation service covering 48 languages with context-aware output.",
+ "whenToUse": "Use when text or app strings need translating into other languages.",
+ "tasks": [
+  "translate text",
+  "localize content",
+  "support 48 languages"
+ ],
+ "effects": {},
+ "flags": []
+}

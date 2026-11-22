@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f4d4c7d5c08b37b62b829688473bb11bb1d3c44dce2a6b489716c47288f52c54",
+ "domain": [
+  "media/video-recordings",
+  "productivity/meetings"
+ ],
+ "product": [
+  "supercut"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Reads Supercut recordings, transcripts, video frames and comments using the user's own permissions.",
+ "whenToUse": "Use when an agent needs content from a user's Supercut video recordings, such as transcripts or comments.",
+ "tasks": [
+  "read recordings",
+  "read transcripts",
+  "read video frames",
+  "read comments"
+ ],
+ "effects": {},
+ "flags": []
+}

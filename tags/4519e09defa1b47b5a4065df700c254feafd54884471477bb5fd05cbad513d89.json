@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "4519e09defa1b47b5a4065df700c254feafd54884471477bb5fd05cbad513d89",
+ "domain": [
+  "marketing/social-listening",
+  "marketing/brand-reputation"
+ ],
+ "product": [
+  "bright-data",
+  "reddit",
+  "x",
+  "instagram",
+  "tiktok",
+  "youtube"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Collects public mentions of a brand, product or person across social, news and review sites, then classifies sentiment and summarizes themes with citations.",
+ "whenToUse": "Use when a user wants to know what people say about their brand, track reputation, or measure sentiment and buzz around a launch.",
+ "tasks": [
+  "collect brand mentions across social media",
+  "scrape news and review sites",
+  "classify sentiment",
+  "cluster discussion themes",
+  "produce cited digest with recommendations"
+ ],
+ "effects": {},
+ "flags": []
+}

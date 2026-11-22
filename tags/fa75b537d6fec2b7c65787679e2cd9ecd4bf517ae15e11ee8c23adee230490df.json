@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "fa75b537d6fec2b7c65787679e2cd9ecd4bf517ae15e11ee8c23adee230490df",
+ "domain": [
+  "creativity/lateral-thinking"
+ ],
+ "product": [
+  "sideways"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Returns random lateral-thinking strategy cards in six categories to help break through creative or mental blocks.",
+ "whenToUse": "Use when a user is stuck on a problem and needs an unexpected prompt or reframing.",
+ "tasks": [
+  "get reframe strategy",
+  "get reduce strategy",
+  "get expand strategy",
+  "get disrupt strategy",
+  "get embody strategy",
+  "get pause strategy"
+ ],
+ "effects": {
+  "74baf97140fc3a45190b68d39c9d6e4b06a9b3ec72e69c25fdecc52d899a072c": "read",
+  "0775a985b019c66ce23e731ea461e3e377b16ddd6c266ae31618c5afff00b465": "read",
+  "dab78d78001da6a139057370bfca1637407f424e5b9151a07e43a8507cb4b128": "read",
+  "0e38107d1a44d3488346bafc5ea1576419c29c44c8e5ed35cddad9a7a13f80fb": "read",
+  "36650833793add68b700d9f3c89c15d8235608581f1bf054315e24fccadafea4": "read",
+  "d3a810f3d42be73d63f33612bc45b1d6aadf00a3735e231481b28e9d4abcf94e": "read"
+ },
+ "flags": []
+}

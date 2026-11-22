@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "dbe50b8ac7cac6a25be564f93eeaa7c32b9a1cd1fa78e7d1e3285079958ba86e",
+ "domain": [
+  "finance/accounting"
+ ],
+ "product": [
+  "e-boekhouden"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Connects an AI assistant to e-Boekhouden Dutch accounting for invoices, contacts and ledgers.",
+ "whenToUse": "Use when working with invoices, contacts or ledger entries in e-Boekhouden.",
+ "tasks": [
+  "manage invoices",
+  "manage contacts",
+  "view ledgers"
+ ],
+ "effects": {},
+ "flags": []
+}

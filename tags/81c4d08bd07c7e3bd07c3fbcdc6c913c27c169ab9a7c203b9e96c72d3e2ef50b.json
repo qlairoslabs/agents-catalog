@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "81c4d08bd07c7e3bd07c3fbcdc6c913c27c169ab9a7c203b9e96c72d3e2ef50b",
+ "domain": [
+  "data/databases",
+  "cloud/aws"
+ ],
+ "product": [
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for AWS database services covering schema design, querying, migrations and choosing a suitable database.",
+ "whenToUse": "Use when designing, querying or migrating databases on AWS or picking an AWS database service.",
+ "tasks": [
+  "design schemas",
+  "run queries",
+  "plan migrations",
+  "recommend aws database for workload"
+ ],
+ "effects": {},
+ "flags": []
+}

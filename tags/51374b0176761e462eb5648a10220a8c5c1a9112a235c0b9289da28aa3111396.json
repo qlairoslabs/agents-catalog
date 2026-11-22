@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "51374b0176761e462eb5648a10220a8c5c1a9112a235c0b9289da28aa3111396",
+ "domain": [
+  "business/agency-growth",
+  "marketing/agencies"
+ ],
+ "product": [
+  "agency-growth"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Guides, pricing benchmarks, growth plans and a free AI audit for marketing and AI agency owners, with a hand-off to purchase plans.",
+ "whenToUse": "Use when an agency owner asks about pricing retainers, growth bottlenecks, automation ideas or Agency Growth's own plans.",
+ "tasks": [
+  "explain Agency Growth",
+  "list plans and prices",
+  "run free AI audit",
+  "search agency guides",
+  "read guides",
+  "benchmark retainer pricing",
+  "build 30-day growth plan",
+  "list daily automation issues",
+  "get playbooks",
+  "start plan purchase"
+ ],
+ "effects": {
+  "5607dcd667e71a0048762f896075f528b9a90a0320476257add1ed4a00a366d9": "read",
+  "2809e50cb6c96e417b0343e4dcd6f848e4b16fcb0322d50f372b7a5faa7d1d95": "read",
+  "e8156a28e9a4977455297846155b86637c41e9494c102553285f1ba168ddb22c": "write",
+  "879041468ba7fe56f1e7521310bb43f82c69289da382cc2f1895389b8d11270a": "read",
+  "cf56027b3f2ca35f930eed1c9959cdd3be33febe0f37834f31b4e69ac4efaa2e": "read",
+  "ad2c8b3beadff0f3346d56681d108ff661897da50de78d0853b7759b8513c25f": "read",
+  "b5d85b59df422272733c28237fd927cc7ba0bb92547ae9a4c062fc97ba195229": "read",
+  "dbcf1c44a70fe36a0f0617905fb587d44e483a916e6442930975e00168a76fc5": "read",
+  "cb3968d5bea35afe581ddee36b99f3ddcc728ae1222c74c1488c3a54c23f6b83": "read",
+  "88f26cec4c05f5790674333f9326cd1863038409b300f99168fe2fa6c6f1e67e": "read",
+  "e3d26b14992cfcde345db2a9818d9f12f7749331da31a247336fa19c53d0d14b": "read"
+ },
+ "flags": []
+}

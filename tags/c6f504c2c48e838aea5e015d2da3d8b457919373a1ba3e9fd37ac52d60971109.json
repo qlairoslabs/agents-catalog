@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c6f504c2c48e838aea5e015d2da3d8b457919373a1ba3e9fd37ac52d60971109",
+ "domain": [
+  "finance/billing/subscriptions",
+  "finance/payments"
+ ],
+ "product": [
+  "paddle"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Queries and manages Paddle Billing pricing, subscriptions, payments, revenue reports and webhooks.",
+ "whenToUse": "Use when the user needs to inspect or change Paddle billing data, subscriptions or webhooks.",
+ "tasks": [
+  "manage pricing",
+  "manage subscriptions",
+  "view payments",
+  "run revenue reports",
+  "manage webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

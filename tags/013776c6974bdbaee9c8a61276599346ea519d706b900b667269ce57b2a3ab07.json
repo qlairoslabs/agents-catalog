@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "013776c6974bdbaee9c8a61276599346ea519d706b900b667269ce57b2a3ab07",
+ "domain": [
+  "software/ai-context",
+  "productivity/personal-knowledge"
+ ],
+ "product": [
+  "portable-context-deck"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Stores a user's personal context so it can be loaded into different AI assistants.",
+ "whenToUse": "Use when a user wants to bring their saved personal context into an AI session.",
+ "tasks": [
+  "load personal context",
+  "share context across ai tools"
+ ],
+ "effects": {},
+ "flags": []
+}

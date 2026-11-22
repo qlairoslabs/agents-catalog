@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "8562cb251beb4b4711cedd7fb3c5e49fc0ee0c3fe68e66bd4e46a5b36d180e79",
+ "domain": [
+  "crypto/perp-futures",
+  "finance/market-data"
+ ],
+ "product": [
+  "hyperliquid",
+  "binance",
+  "bybit",
+  "okx",
+  "dydx"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only perp futures data across venues: all-in trading cost, fees, funding rates, volume rankings and jurisdiction access.",
+ "whenToUse": "Use when comparing perpetual futures venues on cost, funding, volume or regional availability.",
+ "tasks": [
+  "rank venues by all-in cost",
+  "get venue fees",
+  "get funding rates",
+  "rank venues by volume",
+  "check venue access by country"
+ ],
+ "effects": {
+  "90e9f5d6bfe8a16f0aff896de993a1e4d7e7d7154e3be222784d45c07ac44145": "read",
+  "37d47197afac5b9c445ca641b6f3261dd151b5cadd7b6d31fd4642890b43186e": "read",
+  "69d21ca6c7ea445601a55f4286a02259949b9f748673dc40464acaec16ca9e13": "read",
+  "d9f022d264cccffd0ed18ddfdfbddeddb18cadc9e71027f65715d650ac121bb7": "read",
+  "a315141c0c5cda595383eb29ae9e537977cc904008d67651049f93c03f9283be": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "5021633885b01b327de33a4c627bfdbd95905950d280f341217c303fd03a0986",
+ "domain": [
+  "real-estate/short-term-rentals",
+  "data/market-analytics"
+ ],
+ "product": [
+  "airbnb",
+  "airroi"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides short-term rental market data such as occupancy, ADR, RevPAR, revenue, comparables and rates.",
+ "whenToUse": "Use when analysing Airbnb or short-term rental performance or market comparables.",
+ "tasks": [
+  "get occupancy data",
+  "get average daily rate",
+  "get revpar",
+  "estimate rental revenue",
+  "find comparable listings",
+  "check live rates"
+ ],
+ "effects": {},
+ "flags": []
+}

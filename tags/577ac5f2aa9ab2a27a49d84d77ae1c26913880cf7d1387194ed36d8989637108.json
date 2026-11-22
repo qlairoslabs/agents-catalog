@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "577ac5f2aa9ab2a27a49d84d77ae1c26913880cf7d1387194ed36d8989637108",
+ "domain": [
+  "hardware/robotics"
+ ],
+ "product": [
+  "robopartpicker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches robotics components and public projects with bills of materials and validates RPPS manifests.",
+ "whenToUse": "Use when sourcing or comparing robotics parts or looking up published robotics projects.",
+ "tasks": [
+  "search components",
+  "compare components",
+  "search projects",
+  "get project",
+  "validate RPPS manifest"
+ ],
+ "effects": {
+  "88ad302cdceebff58de1dc296fa4fa6d8f6a0fcbc4113378d83d8403ee4d92a6": "read",
+  "512b2717a775c4f42675c27bdec3dd3bc0af7f55a9bf9ada205c775270d06586": "read",
+  "f558d77d47248089499b4575b2addaf4edba44e7bf0c0fe231cbc9e67488b0ed": "read",
+  "9470fdd2fdcfe039a258ac7c417eaff29172278267b42eb5d2661432321dc0aa": "read",
+  "8a77af6bf0557d81caf2990a953aab35e4d521278876d62585faf54feacdd813": "read"
+ },
+ "flags": []
+}

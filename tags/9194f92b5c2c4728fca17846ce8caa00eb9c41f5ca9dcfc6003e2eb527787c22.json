@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "9194f92b5c2c4728fca17846ce8caa00eb9c41f5ca9dcfc6003e2eb527787c22",
+ "domain": [
+  "education/crafts",
+  "content/tutorials"
+ ],
+ "product": [
+  "craftingstepbystep",
+  "youtube"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searchable step-by-step craft and how-to tutorials with tools, materials and video timestamps, plus a way to request missing tutorials.",
+ "whenToUse": "Use when the user wants a step-by-step craft or DIY tutorial to follow or cite.",
+ "tasks": [
+  "search tutorials",
+  "get full tutorial steps",
+  "list categories",
+  "browse by category",
+  "list recent tutorials",
+  "request a new tutorial"
+ ],
+ "effects": {
+  "ecd407a7566059686c41240fa461f5518104637b3d54cbfd00d2ffd1c86c8274": "read",
+  "913e4146eb824afb96c995a44b19ee11311620f5a8842514f6a75c38a207f850": "read",
+  "e39b177aff36d9acbef2f7dfa20de9b47d5fbd8c7740354a944a4e75bbe4172f": "read",
+  "ff77b373f98692aa52a74bce5988e30af5e66b136857d7d0bb5fc6ab20b2fb07": "read",
+  "d5b013cc1f0a594553c7e4e6d8b7fafa067d3ffe453c83180096ba372d2b3611": "read",
+  "c5249e5e4ba20dfe8b4991b2c63dd53cdc2c86160bff1e020f6e7c47cd73f3dc": "write"
+ },
+ "flags": []
+}

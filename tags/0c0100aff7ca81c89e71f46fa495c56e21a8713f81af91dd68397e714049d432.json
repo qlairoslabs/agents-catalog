@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "0c0100aff7ca81c89e71f46fa495c56e21a8713f81af91dd68397e714049d432",
+ "domain": [
+  "finance/crypto",
+  "games/trading-contest"
+ ],
+ "product": [
+  "base",
+  "base167"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Checks BASE167 claim eligibility and builds unsigned transactions to claim an entry pass, enroll a wallet and join the Degen Games trading contest on Base.",
+ "whenToUse": "Use when a user wants to claim BASE167, enter the Degen Games season, or view standings.",
+ "tasks": [
+  "read season state",
+  "read leaderboard",
+  "check claim eligibility",
+  "claim entry pass",
+  "enroll game wallet",
+  "claim winner badge",
+  "set display name"
+ ],
+ "effects": {
+  "5918b40fa4366f23324c185c568571fbab327fffa690c26d975c2b190a973afc": "read",
+  "8c81fc44eef164b44abaf08786a19d0d82c1f93069b7beb77cdfe7df9f2e9cb9": "read",
+  "bda10da245a7d39fd390bdba68486a68ada1530b150b7647d5222c8e8644b110": "write",
+  "e0ef95e91c1df5068ee098145b083e0bcf7d199852722974f4bb2171c8b0c308": "write",
+  "ccca8e03a0d68bae16481a7377a28b678f1c3a669865ad7fad4f02ec40e68dd4": "write",
+  "db932c317a95cc13400b7020eb0af866877be7a2e4ff16ab5db3baa021ea7fc5": "write",
+  "6f02b68f87fdee239a8c273dba95017c20f9d5931e07a0aa728817031b6ba546": "write"
+ },
+ "flags": []
+}

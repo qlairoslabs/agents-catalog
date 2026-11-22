@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fc6286b875f160d7466298c227863e8a173ac57d683e1f89a22c98ac104bf994",
+ "domain": [
+  "software/cybersecurity",
+  "security/url-scanning"
+ ],
+ "product": [
+  "preclick"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Scans URLs for threats and checks they match the intended destination before an agent opens them.",
+ "whenToUse": "Use before an agent visits an unfamiliar link to check it for threats or mismatch with intent.",
+ "tasks": [
+  "scan urls for threats",
+  "check link intent match"
+ ],
+ "effects": {},
+ "flags": []
+}

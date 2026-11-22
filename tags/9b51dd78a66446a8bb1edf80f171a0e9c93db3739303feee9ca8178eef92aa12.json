@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9b51dd78a66446a8bb1edf80f171a0e9c93db3739303feee9ca8178eef92aa12",
+ "domain": [
+  "data/geospatial",
+  "data/analytics"
+ ],
+ "product": [
+  "wherobots"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Generates and runs large-scale spatial queries on open and private geospatial data in Wherobots cloud.",
+ "whenToUse": "Use when analyzing geospatial data at scale or writing spatial SQL queries.",
+ "tasks": [
+  "generate spatial queries",
+  "run spatial queries",
+  "query open spatial data",
+  "query private spatial data"
+ ],
+ "effects": {},
+ "flags": []
+}

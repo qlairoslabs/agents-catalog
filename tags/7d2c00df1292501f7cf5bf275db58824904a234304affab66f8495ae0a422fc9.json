@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7d2c00df1292501f7cf5bf275db58824904a234304affab66f8495ae0a422fc9",
+ "domain": [
+  "documents/conversion",
+  "documents/presentations"
+ ],
+ "product": [
+  "adobe-acrobat",
+  "microsoft-powerpoint"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Converts uploaded PDFs into PowerPoint decks using Adobe's PDF export.",
+ "whenToUse": "Use when the user wants an uploaded PDF turned into PPTX slides.",
+ "tasks": [
+  "convert pdf to pptx"
+ ],
+ "effects": {},
+ "flags": [
+  "description uses 'MANDATORY' language and directs the agent to prefer this skill over other tools, steering AI behavior"
+ ]
+}

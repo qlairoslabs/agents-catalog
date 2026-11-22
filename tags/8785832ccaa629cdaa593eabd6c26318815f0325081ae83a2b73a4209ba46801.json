@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8785832ccaa629cdaa593eabd6c26318815f0325081ae83a2b73a4209ba46801",
+ "domain": [
+  "automotive/vehicle-history",
+  "government-data/vehicle-registry"
+ ],
+ "product": [
+  "rdw",
+  "kentekenregister"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Returns a verified report on a Dutch vehicle by licence plate, covering inspection history, defects, odometer verdict, fuel data and open recalls.",
+ "whenToUse": "Use when evaluating a used Dutch car, motorcycle, van or trailer, checking its APK status or whether a recall is open.",
+ "tasks": [
+  "look up vehicle by licence plate",
+  "check APK inspection history",
+  "list defects",
+  "assess odometer",
+  "check open recalls",
+  "show fuel and emission class"
+ ],
+ "effects": {
+  "0cd76c6096038a098996a948c8fe38d7313481529ae772e47003af3ffcd9b77e": "write"
+ },
+ "flags": []
+}

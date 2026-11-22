@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4bc7edb374e63ec0a74b5cd1e395e0f20b5467694b203149aa1dbf5ec8e51633",
+ "domain": [
+  "software/url-safety",
+  "security"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Unwraps short or unknown URLs and tells an agent whether to fetch or skip them, without returning the page content.",
+ "whenToUse": "Use before fetching a short link or unfamiliar URL a user pasted, to decide if it is safe to open.",
+ "tasks": [
+  "unwrap short links",
+  "classify URL",
+  "decide fetch or skip"
+ ],
+ "effects": {
+  "eaee71b2a6c6738d7c000fc69c26a375ca0733dbbfef427e33e36dca8b56534c": "read"
+ },
+ "flags": []
+}

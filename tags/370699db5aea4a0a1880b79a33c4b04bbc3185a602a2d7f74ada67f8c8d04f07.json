@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "370699db5aea4a0a1880b79a33c4b04bbc3185a602a2d7f74ada67f8c8d04f07",
+ "domain": [
+  "commerce/agentic-checkout",
+  "commerce/store-readiness"
+ ],
+ "product": [
+  "arc"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks saved records of whether AI agents can reach checkout at online stores, with blockers and fixes.",
+ "whenToUse": "Use before an agent attempts checkout at a store, or to compare stores or learn why an agent was blocked.",
+ "tasks": [
+  "check checkout reachability",
+  "find agent-friendly stores",
+  "explain checkout blockers",
+  "report checkout outcomes",
+  "view store records",
+  "compare stores",
+  "get platform readiness guidance"
+ ],
+ "effects": {
+  "3f0fa64ea5602e589e4f840d8cb21d5aea63e6ab65832ba5ea6d3a9e863d69c9": "write",
+  "46a1f9b19d39a20a200965dbe97f3bf9c85ed633783ac0f640f2cb2ae02e4326": "write",
+  "23929885a62202e488d819ba6ebe9eba9688ba79ae5f64a588e6f15a29651a08": "write",
+  "8622e27daec1facb982e3bc4bd0472643d4aec70e9d1cba4b181bef93dd93f87": "write",
+  "6badde5cf28c8a1f85cc8ac279d40dd0438f2ee6a76029b84d88d9f3cb31bc6f": "write",
+  "cb28eaeb67c30a168e88e1b613bf447d66d3fcb2eb10512f7fe526e7df52e2e3": "write",
+  "21aaa12c825724b6bbdb348d3b98f6d88be2d2fb1b6dff4f6681e0b2e6b67b30": "write"
+ },
+ "flags": []
+}

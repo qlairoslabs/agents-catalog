@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a4e5316060fe7dab6fa6c46bbfb218dc3586fd64beedc8d5abf2ec41ed52828b",
+ "domain": [
+  "commerce/wishlist",
+  "commerce/price-alerts"
+ ],
+ "product": [
+  "buylater"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Saves products to buy later and sends alerts on restocks, price drops or new releases.",
+ "whenToUse": "Use when someone wants to save a product and be notified when it is back in stock or cheaper.",
+ "tasks": [
+  "save product",
+  "set restock alert",
+  "set price drop alert",
+  "set release alert"
+ ],
+ "effects": {},
+ "flags": []
+}

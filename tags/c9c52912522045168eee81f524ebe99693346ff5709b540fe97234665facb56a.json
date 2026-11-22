@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "c9c52912522045168eee81f524ebe99693346ff5709b540fe97234665facb56a",
+ "domain": [
+  "gaming/server-hosting",
+  "software/infrastructure"
+ ],
+ "product": [
+  "tacyon",
+  "minecraft"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Creates and manages Minecraft servers including plugins, files, console, modpacks, backups and metrics.",
+ "whenToUse": "Use when setting up or administering a Minecraft server hosted on Tacyon.",
+ "tasks": [
+  "create servers",
+  "configure servers",
+  "install plugins",
+  "manage files",
+  "run console commands",
+  "install modpacks",
+  "manage backups",
+  "view metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "edb1ed5b840dc15d38090d1ef05d761cdc9d3043adbdd712e0514b61c9f3059a",
+ "domain": [
+  "software/cybersecurity",
+  "security/vulnerability-intelligence"
+ ],
+ "product": [
+  "cisa-kev",
+  "epss",
+  "cvss"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Searches 365k+ CVEs and NotCVEs with CVSS, EPSS, CISA KEV status, exploits, patches and affected versions.",
+ "whenToUse": "Use when assessing a vulnerability, its severity, exploitation status or available patches.",
+ "tasks": [
+  "search cves",
+  "get cvss scores",
+  "get epss scores",
+  "check cisa kev",
+  "find exploits",
+  "find patches",
+  "check affected versions"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9753a131ab1fa217c9b177acb1b78b04b3209bd75fc07ad6e5fe0fa4e8e1b845",
+ "domain": [
+  "commerce/storefront",
+  "commerce/checkout"
+ ],
+ "product": [
+  "xavio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches the public Xavio product catalog and creates binding checkout quotes.",
+ "whenToUse": "Use when an agent shops the Xavio catalog or needs a firm checkout price quote.",
+ "tasks": [
+  "search catalog",
+  "create checkout quote"
+ ],
+ "effects": {},
+ "flags": []
+}

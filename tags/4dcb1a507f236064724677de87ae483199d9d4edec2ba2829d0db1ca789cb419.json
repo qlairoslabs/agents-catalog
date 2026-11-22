@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "4dcb1a507f236064724677de87ae483199d9d4edec2ba2829d0db1ca789cb419",
+ "domain": [
+  "marketplace/classifieds"
+ ],
+ "product": [
+  "malinica"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches classified listings on the Serbian marketplace Malinica by text, category and location.",
+ "whenToUse": "Use when looking for items, vehicles or other classified listings in Serbia.",
+ "tasks": [
+  "list categories",
+  "get category attributes",
+  "search listings",
+  "get listing details",
+  "find locations",
+  "get picklist values"
+ ],
+ "effects": {
+  "15ea34ab61aa5c4ea897a25799a04e62ec089d6a8ee296241f1b6706fa2203aa": "read",
+  "01ca05aec884a28b0426bd4c6c5cf8c564087cd0a67c57bbe993991c757d408a": "read",
+  "0de04dec396cd549bb6f6618b15b730fab2d06691ae30b32b8a00c5717f8bc2b": "read",
+  "7ac69142af7e2463afa0cc68d4e84999bd7bc80bdb91eb83e2bd528224d14bae": "read",
+  "1e7fe6d842927abad37e73395a568ecbbd3e55e4e8af71b94688c8c24cd506a8": "read",
+  "9219a53366925b0c7bc5d421499e2dce9ef2c71531f722049f64267f0671cfed": "write"
+ },
+ "flags": []
+}

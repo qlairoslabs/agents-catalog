@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ac8b75c0bb6632d82a13570817b9b635b6d77bdd1b26acf7b57e8b2c7101d036",
+ "domain": [
+  "software/testing",
+  "software/desktop"
+ ],
+ "product": [
+  "electron"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets agents launch, inspect, interact with and assert on real Electron desktop apps for UX testing.",
+ "whenToUse": "Use when testing or debugging the user interface of an Electron application.",
+ "tasks": [
+  "launch electron app",
+  "inspect ui",
+  "interact with elements",
+  "run assertions"
+ ],
+ "effects": {},
+ "flags": []
+}

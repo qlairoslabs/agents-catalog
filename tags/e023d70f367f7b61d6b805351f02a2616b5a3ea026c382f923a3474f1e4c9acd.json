@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "e023d70f367f7b61d6b805351f02a2616b5a3ea026c382f923a3474f1e4c9acd",
+ "domain": [
+  "business/team-performance",
+  "research/organizational-psychology"
+ ],
+ "product": [
+  "performix"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Performix's public team-performance research: books, evidence sources, outcome models, guide chapters and a self-diagnosis calculator.",
+ "whenToUse": "Use when researching why team performance varies or looking up evidence behind the Performix CAMS framework.",
+ "tasks": [
+  "list and read book profiles",
+  "list evidence sources",
+  "trace source to survey item evidence",
+  "list outcome models",
+  "get outcome driver tables",
+  "read guide parts",
+  "rate team levers to find weakest one",
+  "get synthetic demo scenarios"
+ ],
+ "effects": {
+  "5563a5d78e6739e7d998a78fa18b0ff296409cda226078bb1bec31127ba88f76": "read",
+  "5ab18d9a5d740ccb480efd6f9e02ab5e811d17e8ecad3e5f124a21e340177169": "read",
+  "c38bfad8933f08b6d5c03340b473d59801e346ea4dde1c7794294d5caf1baa1e": "write",
+  "7079e78478da6da63bfeb8b8cc55b560bdbbf20957e8f0f7604791262ece3f50": "read",
+  "0c1ee7fb184a2bcc2c842427ed2e325e81e3c44755274839edb00c41df82ae4c": "read",
+  "c665e92e878102d68706be49c79a7683f596b1cc1eca18ba8392f8700b8dec5c": "write",
+  "10e8dfd9f02e08dbeb2556c10ecf78d508f9dc06c195621aad80075dc422dbcd": "read",
+  "1c8d2c2ed1e723591cf3b1d195c1f7102347fb2cde64ceb2842e28aa3f3cf326": "read",
+  "b15975325b0fad5deb2963beb2220ee7e33e9562e6ec9c6e7074e50c09cec89a": "read",
+  "c5924038096d5aabcef207939659ba34cc3b45db92d9d5e3fd3c51cecae5b2a0": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "7cf4fa43a556263b279945716f4055a63875c42c79aa9073ec6d180f90be4e8c",
+ "domain": [
+  "real-estate/neighbourhood-data"
+ ],
+ "product": [
+  "hoodex"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides livability scores, community and street-level data for any address.",
+ "whenToUse": "Use when a user wants to evaluate a neighbourhood or address before moving or buying.",
+ "tasks": [
+  "get livability score",
+  "get community data",
+  "get street data"
+ ],
+ "effects": {},
+ "flags": []
+}

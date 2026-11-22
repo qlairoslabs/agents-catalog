@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e4b25b558264a98fe89536461675b949c0f4df7eb13ade21c0596522c3dec37b",
+ "domain": [
+  "marketing/social-media",
+  "content/design"
+ ],
+ "product": [
+  "linkedin",
+  "instagram",
+  "youtube",
+  "slidler"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Turns a URL or text into a branded carousel PDF for LinkedIn or Instagram.",
+ "whenToUse": "Use when a user wants a social media carousel generated from an article, video or text.",
+ "tasks": [
+  "create carousel from URL",
+  "create carousel from text",
+  "generate PDF"
+ ],
+ "effects": {
+  "b41daca5673f0c8982c89521dd3a98274d289fc3f312704cdfe62c639b5e7a49": "write"
+ },
+ "flags": []
+}

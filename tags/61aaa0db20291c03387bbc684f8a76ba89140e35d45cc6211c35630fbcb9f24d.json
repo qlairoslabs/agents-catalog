@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "61aaa0db20291c03387bbc684f8a76ba89140e35d45cc6211c35630fbcb9f24d",
+ "domain": [
+  "software/web-tools",
+  "software/testing",
+  "finance/e-invoicing"
+ ],
+ "product": [
+  "ironfang",
+  "peppol"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Renders web pages to images and PDFs, audits websites, explains Peppol e-invoicing rules and runs integration test rigs.",
+ "whenToUse": "Use when an agent needs a page screenshot or PDF, a website audit, Peppol rule guidance or integration test runs.",
+ "tasks": [
+  "render pages to images",
+  "render pages to pdf",
+  "audit websites",
+  "explain peppol rules",
+  "run integration tests"
+ ],
+ "effects": {},
+ "flags": []
+}

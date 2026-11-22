@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1bbcfbc974124cc0295504a3cb6511d1b5e858f0f99526985f7f2e491d39edcf",
+ "domain": [
+  "commerce/online-store",
+  "commerce/inventory"
+ ],
+ "product": [
+  "storeep"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Manages a Storeep online store including sales, orders, products, prices, stock, pages and settings.",
+ "whenToUse": "Use when an agent needs to operate or update a Storeep store's catalogue, orders or storefront.",
+ "tasks": [
+  "view sales",
+  "manage orders",
+  "edit products",
+  "update prices",
+  "manage stock",
+  "edit storefront pages",
+  "change store settings"
+ ],
+ "effects": {},
+ "flags": []
+}

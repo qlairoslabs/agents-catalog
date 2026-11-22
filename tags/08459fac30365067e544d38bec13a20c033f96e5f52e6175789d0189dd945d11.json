@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "08459fac30365067e544d38bec13a20c033f96e5f52e6175789d0189dd945d11",
+ "domain": [
+  "sales/data-enrichment",
+  "sales/prospecting"
+ ],
+ "product": [
+  "leadboxer"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Enriches companies and contacts with firmographics from a domain or IP address and profiles from work emails.",
+ "whenToUse": "Use when identifying a company from an IP or domain, or enriching a contact from a work email.",
+ "tasks": [
+  "enrich company from domain",
+  "identify company from ip",
+  "enrich contact from work email"
+ ],
+ "effects": {},
+ "flags": []
+}

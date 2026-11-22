@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fe457cec9109027e74e8c50865e2f6dc1ccb0f40f7c7e4fa6773ac81364cc696",
+ "domain": [
+  "software/developer-tools/agent-configuration",
+  "documentation/project-memory"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Tools for auditing and updating CLAUDE.md files and recording session learnings as project memory.",
+ "whenToUse": "Use when reviewing or maintaining a project's CLAUDE.md instructions.",
+ "tasks": [
+  "audit claude.md quality",
+  "capture session learnings",
+  "update project memory"
+ ],
+ "effects": {},
+ "flags": []
+}

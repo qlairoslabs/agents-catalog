@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8305068f6d30124c0930438bed0572e59cccce7622e9a426c0b52fca9ebf4b18",
+ "domain": [
+  "software/observability",
+  "software/devops"
+ ],
+ "product": [
+  "dynatrace"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects agents to a Dynatrace Managed deployment to query logs, events and metrics.",
+ "whenToUse": "Use when investigating application or infrastructure behavior monitored by a self-hosted Dynatrace Managed cluster.",
+ "tasks": [
+  "query logs",
+  "list events",
+  "read metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

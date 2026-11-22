@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "fff7bc6b8f968ca58598592adef5109af74ce910a85167d6cf830e89c977b922",
+ "domain": [
+  "data/analytics",
+  "data/warehouse-access"
+ ],
+ "product": [
+  "claude",
+  "chatgpt",
+  "contextflo"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets AI assistants query a data warehouse or CSV with table-level access control and audit logging.",
+ "whenToUse": "Use when an agent needs governed SQL-style access to company warehouse data or a CSV.",
+ "tasks": [
+  "query data warehouse",
+  "query csv",
+  "enforce table access",
+  "audit queries"
+ ],
+ "effects": {},
+ "flags": []
+}

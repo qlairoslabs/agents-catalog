@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e842f56ab8ec3757db975af7dde7826fd01dd1810baea443b732d143fc6a3237",
+ "domain": [
+  "ai/agent-skills",
+  "software/developer-tools"
+ ],
+ "product": [
+  "claude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Helps create and improve agent skills and evaluate their performance with evals and benchmarks.",
+ "whenToUse": "Use when creating, updating or benchmarking an agent skill.",
+ "tasks": [
+  "create skills",
+  "improve existing skills",
+  "run skill evals",
+  "benchmark skill performance",
+  "analyze variance"
+ ],
+ "effects": {},
+ "flags": []
+}

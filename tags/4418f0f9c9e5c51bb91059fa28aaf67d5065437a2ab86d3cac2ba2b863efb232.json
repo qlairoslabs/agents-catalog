@@ -1,0 +1,22 @@
+{
+ "classifier": 2,
+ "contentHash": "4418f0f9c9e5c51bb91059fa28aaf67d5065437a2ab86d3cac2ba2b863efb232",
+ "domain": [
+  "software/testing/mcp-compliance"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "CLI and server that tests MCP servers for conformance with the MCP specification.",
+ "whenToUse": "Use when checking whether an MCP server follows the protocol spec.",
+ "tasks": [
+  "test mcp server compliance",
+  "report spec violations"
+ ],
+ "effects": {},
+ "flags": []
+}

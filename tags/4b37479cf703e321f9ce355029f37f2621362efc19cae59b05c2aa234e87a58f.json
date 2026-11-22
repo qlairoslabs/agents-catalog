@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "4b37479cf703e321f9ce355029f37f2621362efc19cae59b05c2aa234e87a58f",
+ "domain": [
+  "automotive/vehicle-data"
+ ],
+ "product": [
+  "vincario"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Decodes VINs, checks stolen vehicle databases and returns vehicle market value estimates.",
+ "whenToUse": "Use when you need vehicle specs, stolen status or market value from a VIN.",
+ "tasks": [
+  "decode VIN",
+  "list decodable fields",
+  "check stolen status",
+  "get market value"
+ ],
+ "effects": {
+  "72edaa15a4673037baba94327975c7dfe679971d1df953df5492b9f7f581b5e6": "read",
+  "dce9b79fa9d95fa06e1df3e0f259218b3f613c5c66256fb4870028667b736a8c": "read",
+  "8a1d5d38240a18ab09b6860d23a881b3c6f98c96b8496e8626e3c4828ae1ba47": "read",
+  "8d6999ddbb3a23467b05c8c69b728a2361957e8cfd2edc307ca7b1a9633c68b9": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a6029c80f047d8475ef2c190b91a78f9ddb3ce44ec77f7cf4985d2ff9ee95178",
+ "domain": [
+  "commerce/local-marketplace",
+  "logistics/courier"
+ ],
+ "product": [
+  "buynearby"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Shop a local Calgary marketplace, book courier deliveries and request personal shopping runs.",
+ "whenToUse": "Use when a user in Calgary wants to buy from local sellers, book a courier or arrange a personal shopper.",
+ "tasks": [
+  "browse local marketplace",
+  "buy products",
+  "book couriers",
+  "request personal shopping"
+ ],
+ "effects": {},
+ "flags": []
+}

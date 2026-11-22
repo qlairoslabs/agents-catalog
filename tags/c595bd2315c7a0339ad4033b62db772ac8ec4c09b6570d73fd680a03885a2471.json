@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c595bd2315c7a0339ad4033b62db772ac8ec4c09b6570d73fd680a03885a2471",
+ "domain": [
+  "manufacturing/3d-printing",
+  "design/cad"
+ ],
+ "product": [
+  "printpal"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "3D printing helper with printable models, calculators, troubleshooting wiki, build guides and AI 3D/CAD design.",
+ "whenToUse": "Use when finding printable models, troubleshooting prints or designing 3D/CAD parts.",
+ "tasks": [
+  "find printable models",
+  "run print calculators",
+  "troubleshoot prints",
+  "read build guides",
+  "generate 3d models"
+ ],
+ "effects": {},
+ "flags": []
+}

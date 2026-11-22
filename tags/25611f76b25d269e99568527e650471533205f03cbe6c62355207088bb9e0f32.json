@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "25611f76b25d269e99568527e650471533205f03cbe6c62355207088bb9e0f32",
+ "domain": [
+  "travel/outdoor-recreation",
+  "travel/beaches"
+ ],
+ "product": [
+  "beachfinder"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Search of worldwide swim, surf, dive and river spots with live conditions, activity providers, guides and equipment shop suggestions.",
+ "whenToUse": "Use when a user wants beaches, swim or water-activity spots, conditions or local providers near a destination.",
+ "tasks": [
+  "find beaches",
+  "find swim spots",
+  "find surf spots",
+  "find dive and snorkel spots",
+  "find whitewater spots",
+  "find van and camping spots",
+  "find activity providers",
+  "search guides",
+  "get spot details",
+  "get live conditions",
+  "read community reports",
+  "compare spots"
+ ],
+ "effects": {
+  "56b6307a67942b69c7a04badb1d0822b20e40fb315d0a1aca06fa819a1e33d3b": "read",
+  "1e9be33c95a442927dcdaa15008665a4bcde75211a05a56746b6a20e5d433934": "read",
+  "ffa0e0dcfd71183dac24379c6d458d2654b09e079b9f20de5719d869774679b9": "read",
+  "5d5cdd33d3675499a2799749088fe9864d6b233bbdf1aba14e0ea237ca64c48f": "read",
+  "7a995a7ede9310bbe12db808b2c61522a107ad786594b90d4d168f38e864d82e": "read",
+  "560a6c3eb3ca00f0885e9519e5cc5917135b2568019135f479dc054e58a62be4": "read",
+  "fa75150add80f181b463bee7b65e474a8a1755c7c963c5cd096af1fdafbbd40b": "read",
+  "4c8e14d16fadc1411472c7e0d881cca6ba2cc93ee0e26983d738061c22cae33c": "write",
+  "372e91d90632a82add73a2d51180f3e2e3ec5f8cce13e6b05b3ed54755410378": "read",
+  "d22a9ca114c9f7e9f1b43f3a4529ae7286e289643408c0e88000944fb7e434f4": "read",
+  "75f8a4825ed9f5f4c1774e09ae23baa883494747d6de99b82ed3b33edfc99fe0": "read",
+  "5ed4ef2c75891fee5ed056a3306f6abdf58e2d8de04adcbc52bed8d9ef8bd061": "read",
+  "46fa91665cf4016234129df58795270243abbf08c75077f3df854b69af4f2e0d": "read"
+ },
+ "flags": [
+  "tool descriptions instruct the agent to append a commercial Shop suggestion to answers"
+ ]
+}

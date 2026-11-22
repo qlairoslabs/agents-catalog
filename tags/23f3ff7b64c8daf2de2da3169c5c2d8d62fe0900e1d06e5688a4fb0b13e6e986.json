@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "23f3ff7b64c8daf2de2da3169c5c2d8d62fe0900e1d06e5688a4fb0b13e6e986",
+ "domain": [
+  "travel/hotels",
+  "travel/price-comparison"
+ ],
+ "product": [
+  "blue-pillow"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Compares live hotel and stay prices across 16+ booking sites, with property details, reviews and availability checks.",
+ "whenToUse": "Use when a traveller wants to find and compare accommodation prices for specific dates and destinations.",
+ "tasks": [
+  "search stays",
+  "get property details and reviews",
+  "check live availability and quotes",
+  "resolve destination names",
+  "discover nearby destinations",
+  "get anonymous API key"
+ ],
+ "effects": {
+  "6c657266bf106df16831d2ff4bb0bda7d916b594eb8d7646ba8f752713ea5ff3": "write",
+  "0c8bf13b6e374ebf4915a2442e7226015f67ad3519eca74555c6c608eff72bcb": "write",
+  "4ba5e01d078c0cbaa29352e45e6d9bd44d2f116d3ec95aeeaa01b01fc0d6d0ef": "write",
+  "d01178bd5e8ee1bdf611d882f303087cf17dff62b85a6a4e53e37a4d26466b24": "write",
+  "053df43fa0f615dfc7fbf274eaa0a8c6565ce7af01cab52dbb96f4fdd00ed6d0": "write",
+  "3e8e56152ad86ca1bd9d6ba4cb1954ca0b1e2769f1ea4ff6ff5efce32a486352": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c7e9bc393ac7b1829fb2eb3f3efb16a29f90c1a0085ad26deb9297311dfe910a",
+ "domain": [
+  "software/developer-tools/automation",
+  "software/ai-agents"
+ ],
+ "product": [
+  "n8n",
+  "dify",
+  "mermaid"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Multi-purpose server with many tools spanning code work, local CI, n8n and Dify workflows, agents, Mermaid diagrams and Web3.",
+ "whenToUse": "Use when an agent needs combined tooling for code, local CI, workflow platforms or diagrams in one server.",
+ "tasks": [
+  "work with code",
+  "run local ci",
+  "manage n8n workflows",
+  "manage dify apps",
+  "generate mermaid diagrams",
+  "web3 operations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "c4b5b5591607050d54e61eba250dab176818ec85623e3e1a3e971650e02c139f",
+ "domain": [
+  "blockchain/data",
+  "finance/crypto"
+ ],
+ "product": [
+  "alchemy",
+  "solana"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries blockchain data across many chains, including token prices, NFTs, transfers, simulations and traces.",
+ "whenToUse": "Use when an agent needs on-chain data, token prices, NFT info or transaction simulation.",
+ "tasks": [
+  "get token prices",
+  "query nfts",
+  "list transfers",
+  "simulate transactions",
+  "trace transactions",
+  "query solana assets"
+ ],
+ "effects": {},
+ "flags": []
+}

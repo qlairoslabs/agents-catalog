@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "c50265b4240d8a250e078626b00ae3a88e1097c7938f16ac17f9b0d0c21114a0",
+ "domain": [
+  "government/legislation",
+  "civic/politics"
+ ],
+ "product": [
+  "govbase",
+  "congress"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read access to U.S. federal bills, executive orders, members of Congress, roll-call votes, policy stories and local representative and voter lookups.",
+ "whenToUse": "Use when researching U.S. legislation, how a member voted, the status of a bill or finding a user's representatives.",
+ "tasks": [
+  "search policies",
+  "get policy and full text",
+  "search members of Congress",
+  "check member votes",
+  "follow story bundles",
+  "resolve bill nicknames",
+  "track effort lineage",
+  "look up representatives by address",
+  "get voter info"
+ ],
+ "effects": {
+  "a08e4e3b0c965d4606818b8ffa4a166383fe7c5ef5d9f827404a1fcae12d2d33": "read",
+  "7bc454fbc91e6e10c30d1c3daa28bc2a5c92ab3c6209353b60a8f09a42f4e06e": "read",
+  "31b89805085adbdf5e9e710c8087e468a080919eb606d187c84a92d96bc7b869": "read",
+  "75b95931753691c1a6925ed917eecd14677834a31e19f61e7ae106d5424db363": "read",
+  "1b856525cf236490786a8c146edec918dba25878d623e075771b705fccc85a13": "read",
+  "0eee7d736e3497372839fb6a8300de138786de6c7031e970adac18257c0e13af": "read",
+  "488d2e0b3c9c5e1c3184e857526f0ccc684d64ce8ce8cc7f238cd0c646448dc4": "read",
+  "ab02e22c73939a5a6ae90ba1d30b12b540d54507d871f65691c40d498c868046": "read",
+  "7cf51513be7f60cfde41d9c079bf973c4382cf775b30ac8296ff6f157f7d26c5": "read",
+  "a0d5903278de668183316b84ab99549aef6bfeb770b898f09e2e15419d89e6a3": "read",
+  "40d8ebc70ac1a39f47d6e216e2154cc2889d473c2cca8d4db9a64356af5bd91a": "read",
+  "4d897fcf7005b14afdd276eb38e25a3c7242f974033678f51f80000953f6b6fa": "read"
+ },
+ "flags": []
+}

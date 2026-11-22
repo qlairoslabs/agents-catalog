@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "1c474dd31251435e50f947e0e521d5f063ceeed68dce376773ec2e6fa0383070",
+ "domain": [
+  "ai/service-discovery",
+  "ai/tool-catalogue"
+ ],
+ "product": [
+  "toolskipper",
+  "exa",
+  "jina",
+  "tavily",
+  "firecrawl",
+  "browserless"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Read-only discovery of agent services (search, page reading, PDF, browser, data): catalogue search, recommendations, comparisons, connection specs and evidence.",
+ "whenToUse": "Use when choosing or connecting an external service for web search, page reading, PDF parsing or browser automation.",
+ "tasks": [
+  "search service catalogue",
+  "recommend services",
+  "compare services",
+  "get connection spec",
+  "get service evidence",
+  "find alternatives",
+  "search LLM provider plans",
+  "search MCP registry",
+  "read official documents",
+  "plan benchmark",
+  "run discovery workflow"
+ ],
+ "effects": {
+  "9d3eeb5660a564307d96dedbba0f3208c114d6d9ca12f8da6ed23057c05ea8b1": "read",
+  "e61536b3c7847e05dcd2b86ff72337f2ce9e3d089b070c8fd2a82b45c00928d0": "write",
+  "97a8abdb74c29908850be1368488128ef2bc39d53de4e48f0cab39dff8026eea": "write",
+  "6e136011ac4cf6f6e457fde8943a908a76e8ccfcc4fe500e87151be0531feeba": "write",
+  "aa7049c4456f437fee90216ad595714d5878ee1caaa72b576a9844ac26e9e62f": "write",
+  "18e4a06153b167db11cc420e6295f68d3581cde443bb174a25dd1b1956a8f515": "read",
+  "527e5553c48af2c1fedcdc7a6e125dd5a158041d172bd2b6179cde07bbe1f211": "read",
+  "1b732a035c2a8fda16c5114e93e75d7bfe4ce1fcfed27ca6d14be274f08bd1af": "write",
+  "e1d5a43ba761e7bc3dd5c0e05cf0f8c27d4e39f8fb66859a80aa5b1e4ad52e77": "read",
+  "26e7b8d2a2f3f228e1ab7631585ff4f80b24a178df55741d4ec7944b2a8b81fd": "write",
+  "0c7f508b97a61feefdaea85ac4ebef3225cadfe2a515b190e8f51fbfae794cc7": "write",
+  "48cc664a1673584b16cb4a1778f59cb8c09b5ae7a02384f23f695adfbc3d4481": "read",
+  "ad1a70df1bddb4ea5451c83b0a8fd9487637e66edd3bd51d2b90631b715a14f7": "read",
+  "4356f274584334835e7cd89129b2bcb65aaa0f925f073924032bfa1a6f9ae937": "read",
+  "ed647cd0b07196c2717f6afdacdbd6d34812474671040440905207ae2828c617": "write",
+  "24a3ff9f8b486ac89d285aa6024783da953a129b111485d2c4958ccc3ff3d1ca": "write"
+ },
+ "flags": []
+}

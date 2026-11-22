@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "3c42325fdb738e21a9dd948767bbdb01fb6a0c372e7d3e26f4ca7e0d54b44e96",
+ "domain": [
+  "ecommerce/storefront",
+  "retail/outdoor-gear"
+ ],
+ "product": [
+  "magento",
+  "nord-trail",
+  "ucp"
+ ],
+ "audience": [
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Reference agent-ready storefront exposing a Magento product catalogue for search, lookup, stock and price checks, with a problem reporting channel.",
+ "whenToUse": "Use when testing or demonstrating agent shopping against the Nord Trail catalogue, or to check product stock and price.",
+ "tasks": [
+  "list products",
+  "search catalogue",
+  "look up products by id",
+  "get product details",
+  "check stock and price",
+  "report a problem"
+ ],
+ "effects": {
+  "b501a60b5bc5b14512d848107f49c33440ed96e20fe3617f5401d89c2675c056": "read",
+  "229ce74d115b3769452cc61a135f03c9ee9fcb8c319fdcc8a63b14a77554cb79": "read",
+  "b5c980a3f83faa6dce0400619601cfbf5b9a112fd7bb7194c18f850ada7b0047": "read",
+  "bf00b96983f341e5b24206e17a1e7f2270dc226a53acd00c79ca327e88a0091b": "read",
+  "4acb8cd2572c54dbdec7ad8ac2a5a32a981fe2fde026367f52192f3dafe7b294": "read",
+  "03f1daf2d4e5f0764e01e866000b55d28541cf9d3e28e8c95ca3d0bf0b02ea5e": "write"
+ },
+ "flags": []
+}

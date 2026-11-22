@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e7ae392e4a2a0e61b9a44c60d8f1d7867a65a8d8610625d0c80a91be36325f7d",
+ "domain": [
+  "analytics/data-governance"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Audits Amplitude tracking plans to find stale, duplicate, orphaned or otherwise unused events and properties that are safe to delete.",
+ "whenToUse": "Use when cleaning up an Amplitude tracking plan and looking for events or properties that can be safely removed.",
+ "tasks": [
+  "find stale events",
+  "find duplicate events",
+  "find orphaned properties",
+  "detect never-ingested events",
+  "detect deleted but still emitted events",
+  "list safe deletion candidates"
+ ],
+ "effects": {},
+ "flags": []
+}

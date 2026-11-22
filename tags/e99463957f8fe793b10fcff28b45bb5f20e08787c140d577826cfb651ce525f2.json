@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e99463957f8fe793b10fcff28b45bb5f20e08787c140d577826cfb651ce525f2",
+ "domain": [
+  "music/track-identification"
+ ],
+ "product": [
+  "instagram",
+  "soundcloud",
+  "youtube",
+  "tiktok",
+  "mixcloud"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Identifies music tracks played in Instagram, SoundCloud, YouTube, TikTok and Mixcloud posts, including unreleased ones.",
+ "whenToUse": "Use when the user wants to know which song is playing in a social or streaming clip.",
+ "tasks": [
+  "identify tracks from social media links",
+  "find unreleased tracks"
+ ],
+ "effects": {},
+ "flags": []
+}

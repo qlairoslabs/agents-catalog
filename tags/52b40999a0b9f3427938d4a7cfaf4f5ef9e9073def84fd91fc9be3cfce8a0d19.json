@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "52b40999a0b9f3427938d4a7cfaf4f5ef9e9073def84fd91fc9be3cfce8a0d19",
+ "domain": [
+  "finance/banking/analytics",
+  "finance/regulatory-data"
+ ],
+ "product": [
+  "fdic",
+  "hmda",
+  "cra"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Community bank data covering FDIC financials, peer benchmarks, HMDA mortgage lending and CRA performance.",
+ "whenToUse": "Use when analysing or benchmarking a US community bank's financials, lending or CRA standing.",
+ "tasks": [
+  "look up bank financials",
+  "benchmark against peers",
+  "review hmda lending data",
+  "assess cra posture"
+ ],
+ "effects": {},
+ "flags": []
+}

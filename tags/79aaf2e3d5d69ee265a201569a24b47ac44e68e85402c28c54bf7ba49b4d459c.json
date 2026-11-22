@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "79aaf2e3d5d69ee265a201569a24b47ac44e68e85402c28c54bf7ba49b4d459c",
+ "domain": [
+  "media/video-editing",
+  "media/audio"
+ ],
+ "product": [
+  "ffmpeg"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Runs local FFmpeg video and audio operations over stdio, keeping media files on the machine.",
+ "whenToUse": "Use when an agent needs to convert, trim, merge or otherwise process local video or audio files.",
+ "tasks": [
+  "convert formats",
+  "trim video",
+  "merge clips",
+  "extract audio",
+  "resize video",
+  "inspect media"
+ ],
+ "effects": {},
+ "flags": []
+}

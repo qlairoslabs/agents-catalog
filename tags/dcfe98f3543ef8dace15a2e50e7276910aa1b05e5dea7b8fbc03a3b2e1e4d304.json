@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "dcfe98f3543ef8dace15a2e50e7276910aa1b05e5dea7b8fbc03a3b2e1e4d304",
+ "domain": [
+  "finance/tax/uk-corporation-tax",
+  "finance/accounting"
+ ],
+ "product": [
+  "hmrc",
+  "companies-house"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Helps a signed-in director prepare UK company annual accounts and CT600 Corporation Tax returns.",
+ "whenToUse": "Use when a UK company director wants help preparing statutory accounts or a CT600 return.",
+ "tasks": [
+  "prepare company accounts",
+  "prepare ct600 return",
+  "calculate corporation tax"
+ ],
+ "effects": {},
+ "flags": []
+}

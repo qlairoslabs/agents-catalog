@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "5bfe7403b724be82f2458c1071f96f6a8d23128991887f7305f96aeef79f70f4",
+ "domain": [
+  "science/bioinformatics",
+  "science/protein-interactions"
+ ],
+ "product": [
+  "string-db",
+  "gene-ontology",
+  "kegg",
+  "uniprot"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Query the STRING database for protein interactions, networks, functional enrichment, annotations, homology and species, with image and link outputs.",
+ "whenToUse": "Use when a researcher needs protein identifiers resolved, interaction partners or networks, enrichment analysis, or homology data.",
+ "tasks": [
+  "resolve protein IDs",
+  "get interactions",
+  "find interaction partners",
+  "draw network images",
+  "cluster networks",
+  "run functional enrichment",
+  "get annotations",
+  "find homologs",
+  "search by sequence",
+  "find proteins for a term",
+  "query species",
+  "export results file"
+ ],
+ "effects": {
+  "4c535a70c09182000dd80f2f958263d184f5b18072604e068140e2dee5b55c25": "read",
+  "252252c1936deb83975e5f2d6eb4c9cf3f07073857ab3d260e766359dfaf893a": "write",
+  "842cf73503feec34856be954a34ea974755e2bf2734780d4fb5afecd47fd2aa8": "write",
+  "a04a5f5c7196dc41c6660c6ed132cc4e6eb02a1f429caa98a5b196756abe6e70": "write",
+  "0e3a26b7fe88e35e55f2c3dc431f526072faa1e5a13528f1943b782715537024": "write",
+  "8f6e7b045b1789ab4dacd5f609e4bb64aefb4965ea71c445af3e0b5cbfaa82d4": "write",
+  "14f1ad38dda6f047ff7cf00662c83fcf4598970735e9e7e32f239962bfd5c88d": "read",
+  "0ed1a16a98de39adcce0a4a1028d4088ae3c37f5f35dd11a4e98c7a3bcf4cffa": "write",
+  "81c05e4490c2a7c03879056accacf35d860331c8bf3eb6b5ee0e9797539df64f": "write",
+  "c8b9713cffc34d5810a6c466e917129c2d9b0c0dc27180e09412a7ae4c187758": "write",
+  "7e3236091797425b6de2172acefe463fadb597a91de859aae47b5675c262e494": "read",
+  "9f2b98a45d8532bd3a5b782c5ffb9c4bcb9a326ac584b7699d44c5bf833c8f79": "write",
+  "5dcc4ec23808bcae9c9e7dd371b48dac7378f253aa1458dcba542d10ba49315b": "write",
+  "116abd6dd92706fb578678d91d31350ee8c225a8dfdd6392ffe4d2b6f0722fbc": "read",
+  "8777c8b76b85f3af1312c8cc0d1464204747f57fec8310cec74f65b1834d3434": "write",
+  "351967e6d6ffa66db6fd953381c5002a2f8637b48f44a874f935b0a479c09964": "write",
+  "33da007bca41e11e63b41374a6174ff7f9261889bbbeb6a863163b6a14e2f5d9": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "db138cb38398bf68a0662eea598f083787e12a237a01e6cf5de7a72f29bd2dba",
+ "domain": [
+  "ai/infrastructure",
+  "hardware"
+ ],
+ "product": [
+  "hugging-face",
+  "nvidia",
+  "aws",
+  "google-cloud",
+  "azure",
+  "runpod",
+  "vast-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Estimates GPU memory, GPU count and speed needed to run open LLMs, lists models that fit a GPU, and shows GPU rental prices.",
+ "whenToUse": "Use when sizing hardware for an open-weight LLM or comparing GPU hourly prices.",
+ "tasks": [
+  "estimate VRAM and KV cache",
+  "find models that fit a GPU",
+  "compare GPU rental prices"
+ ],
+ "effects": {
+  "e09bca59cab10a19d78df1c5b4e475cdaf0bbf5af10fae9937154d2c9a830f64": "read",
+  "c0338965d0ba5faea464c9c1144ae2680becb710734f2033cb8c5fb926bd7d01": "read",
+  "34dfc2605f6c375e34989bcf903977cc54237ea69b30e43640ce2581a2c24a06": "read"
+ },
+ "flags": []
+}

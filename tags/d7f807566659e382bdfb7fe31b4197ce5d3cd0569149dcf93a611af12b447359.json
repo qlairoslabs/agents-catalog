@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d7f807566659e382bdfb7fe31b4197ce5d3cd0569149dcf93a611af12b447359",
+ "domain": [
+  "sales/lead-enrichment",
+  "marketing/data"
+ ],
+ "product": [
+  "versium"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Enriches leads, builds prospect lists and validates email addresses using Versium's identity data.",
+ "whenToUse": "Use when enriching contact records, building prospect lists or validating emails.",
+ "tasks": [
+  "enrich leads",
+  "generate prospect lists",
+  "validate emails"
+ ],
+ "effects": {},
+ "flags": []
+}

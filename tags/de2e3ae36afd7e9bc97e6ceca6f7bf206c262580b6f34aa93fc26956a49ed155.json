@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "de2e3ae36afd7e9bc97e6ceca6f7bf206c262580b6f34aa93fc26956a49ed155",
+ "domain": [
+  "software/code-quality",
+  "software/cybersecurity"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Static analysis tool finding dead code, security issues, leaked secrets and quality problems in Python, TypeScript and Go.",
+ "whenToUse": "Use when an agent needs to scan a codebase for dead code, vulnerabilities or hardcoded secrets.",
+ "tasks": [
+  "detect dead code",
+  "scan for security issues",
+  "detect secrets",
+  "check code quality"
+ ],
+ "effects": {},
+ "flags": []
+}

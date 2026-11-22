@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f15ef98654146d29e13566baabb9b2434e966243e6c9347bd0636b6639690abc",
+ "domain": [
+  "sales/outbound-prospecting"
+ ],
+ "product": [
+  "linkedin",
+  "sliq"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Runs LinkedIn and email outbound campaigns from an AI agent.",
+ "whenToUse": "Use when the user wants to run or manage outbound outreach over LinkedIn or email.",
+ "tasks": [
+  "run linkedin outreach",
+  "send outbound email",
+  "manage campaigns"
+ ],
+ "effects": {},
+ "flags": []
+}

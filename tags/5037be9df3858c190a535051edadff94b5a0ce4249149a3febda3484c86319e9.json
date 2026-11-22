@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "5037be9df3858c190a535051edadff94b5a0ce4249149a3febda3484c86319e9",
+ "domain": [
+  "telecom/vanity-numbers",
+  "business/phone-numbers"
+ ],
+ "product": [
+  "vanitynumbers",
+  "resporgs",
+  "1800available",
+  "newlocalnumbers"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online"
+ ],
+ "summary": "Find, check and watch toll free and local vanity phone numbers, view number history, and send requests for numbers held by other vendors.",
+ "whenToUse": "Use when a business wants a memorable toll free number that spells a word or wants to know a number's availability.",
+ "tasks": [
+  "search vanity numbers",
+  "check number availability",
+  "browse numbers by business type",
+  "view number history",
+  "watch a number by email",
+  "request vendor-held number"
+ ],
+ "effects": {
+  "f4b5814df5c87975805f5b79be6eecf5d4ef9f7b03ed800a278f191ed3a23792": "write",
+  "81d4648d25926f3f15978cc40f64f99d200e9bf3fd82a8a952a59fa4c74caabb": "write",
+  "bc23522a48800add391eed6b9a71b242f961dd80517d29ecde7ba929d4fa78ae": "read",
+  "8d7d8f1ded5cf08410798b6b8b4d0f2e3664d76f49a853264a7f998337ee0482": "read",
+  "86201511179cb10ad508e089478fff54d55fca2d4dc4380978a2fa93e94d9837": "write",
+  "51be15d114a4a51ef771c3fa5b4eb6770239890d62d950558d79b5f883276561": "write"
+ },
+ "flags": []
+}

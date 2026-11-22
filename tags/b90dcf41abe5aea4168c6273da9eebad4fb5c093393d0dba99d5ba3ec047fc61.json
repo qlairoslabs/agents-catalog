@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b90dcf41abe5aea4168c6273da9eebad4fb5c093393d0dba99d5ba3ec047fc61",
+ "domain": [
+  "finance/kyb",
+  "compliance/risk"
+ ],
+ "product": [
+  "prometiam"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local npm server for company data and KYB across 44 countries: financials, insolvency, sanctions and monitoring.",
+ "whenToUse": "Use when verifying a business, checking sanctions or insolvency, or reviewing company financials.",
+ "tasks": [
+  "look up companies",
+  "check sanctions",
+  "check insolvency",
+  "read financial statements",
+  "monitor companies"
+ ],
+ "effects": {},
+ "flags": []
+}

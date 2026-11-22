@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "83e1498cdc81759d6156212e9efb7fad2fad820476a28209fe32a3fa670887af",
+ "domain": [
+  "software/mcp-gateway",
+  "finance/payments"
+ ],
+ "product": [
+  "stripe",
+  "metamesh"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software",
+  "get-paid"
+ ],
+ "summary": "Gateway for discovering and routing MCP tools, with catalog search and metrics plus proxied Stripe docs, API read/write and analytics tools.",
+ "whenToUse": "Use when searching a catalog of MCP tools or when working with a Stripe account through its API, docs and analytics.",
+ "tasks": [
+  "get gateway context",
+  "search MCP tool catalog",
+  "tool trust info",
+  "gateway metrics and health",
+  "plan Stripe integration",
+  "search Stripe docs",
+  "get account info",
+  "search Stripe API operations",
+  "read Stripe data",
+  "write Stripe data",
+  "run Stripe analytics",
+  "send Stripe feedback"
+ ],
+ "effects": {
+  "90d370e6aad2b612ffa88d5ef950534e10a4911a66ad0312657063d50e5e936e": "read",
+  "38f18d70aa51791d1228604abd4c7cfad917eea035d039cedb1fdc8ab65c696a": "read",
+  "010a3db6e940e2ed880786459088de2036dc60e57dd700f82492db1c6c24cdd3": "read",
+  "a285611bfbad872637c46b092c082cbcfacaff6dc1e6c0884e133b5c91444601": "read",
+  "33b3648c40f1a054151d4dc5b600ae926d30eb6f5349fbcc091e6da2ce349077": "read",
+  "a640d86630ed851a12b6a58a548cd0853e88ae725bdf0ccb88ad7813b42e5772": "read",
+  "5c366875454cc5acd55d1b74926825a4883bb82a6f2fb5c47e9f219f62fd968b": "read",
+  "098ec4411116d8bb8cfb087af42a34750eb93cc92c12320e28e8ed801e10c4ac": "write",
+  "8c0ecef25e8bafe61af86a76dbc67bbb698d17780166645ca42c76b829a0422b": "read",
+  "281e385b14e90bf649a112e1e6d4b9b34eab85b27072fc06cd11b3fd9abe7400": "read",
+  "6f217368481fd868aa19dce676b0b710f135f51db2327b7ff7e83a435d1dd9be": "read",
+  "0e4f501f49242702cd3d240f88e710f0d2944dbc66286884ca1c3376c61e101e": "read",
+  "2583ea7911e2ce618f9232331362bd2b13592f2d73862fe86dc469866710d1fe": "read",
+  "874a332c4674e6eea26c02abfdea32c0b9da5a58ca7119688f75a32ecd2d2063": "risky",
+  "bbf87f2980c8544ef4a0a6917a555b4d6fd35e4d370ec43bd33283c2676d84d6": "write"
+ },
+ "flags": []
+}

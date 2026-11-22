@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f85e77c923e0f93badf9cc40e5c4ae274823f63d160d5c058dac67a0a345fee9",
+ "domain": [
+  "marketing/paid-advertising",
+  "marketing/social-ads"
+ ],
+ "product": [
+  "meta-ads"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted Meta Ads connector with OAuth, limited reads and confirm-before-write changes.",
+ "whenToUse": "Use when reviewing or changing Meta ad campaigns with a confirmation step.",
+ "tasks": [
+  "read campaign data",
+  "prepare ad changes",
+  "confirm ad changes"
+ ],
+ "effects": {},
+ "flags": []
+}

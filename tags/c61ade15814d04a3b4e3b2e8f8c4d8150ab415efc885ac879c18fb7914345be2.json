@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c61ade15814d04a3b4e3b2e8f8c4d8150ab415efc885ac879c18fb7914345be2",
+ "domain": [
+  "marketing/sms-messaging",
+  "communication/sms"
+ ],
+ "product": [
+  "eztexting"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Official EZTexting server for sending SMS and MMS, managing contacts and workflows, and viewing reports.",
+ "whenToUse": "Use when an agent needs to send text messages or manage SMS contacts, workflows or reports in EZTexting.",
+ "tasks": [
+  "send sms",
+  "send mms",
+  "manage contacts",
+  "manage workflows",
+  "view reports"
+ ],
+ "effects": {},
+ "flags": []
+}

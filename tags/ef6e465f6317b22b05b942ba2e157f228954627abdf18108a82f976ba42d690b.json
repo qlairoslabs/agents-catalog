@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ef6e465f6317b22b05b942ba2e157f228954627abdf18108a82f976ba42d690b",
+ "domain": [
+  "software/containers",
+  "software/documentation"
+ ],
+ "product": [
+  "docker",
+  "docker-compose",
+  "docker-hub"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Fetches the Docker documentation index (llms.txt) as markdown to help with Docker, Compose, Docker Hub and related topics.",
+ "whenToUse": "Use when answering questions about Docker, Docker Compose or Docker Hub and the official docs are needed.",
+ "tasks": [
+  "fetch Docker documentation",
+  "read docs index as markdown"
+ ],
+ "effects": {
+  "fc8b242a00d8abe3b1650584873d15ea79ae833131e534474208d92612e752c0": "read"
+ },
+ "flags": []
+}

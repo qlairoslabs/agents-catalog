@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "1bf09a0bf895da83e7b33c53e77f9145c651e4248bcc263ac961544239d7a45e",
+ "domain": [
+  "finance/trading",
+  "marketing/coupons"
+ ],
+ "product": [
+  "propfirmdiscount"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Lists prop trading firm discount codes, current deals and seasonal promotions.",
+ "whenToUse": "Use when someone wants a discount code or current deal for a proprietary trading firm challenge.",
+ "tasks": [
+  "list discount codes",
+  "get firm details",
+  "read firm page markdown",
+  "list latest deals",
+  "search deals",
+  "list seasonal events",
+  "get event deals",
+  "check dataset health"
+ ],
+ "effects": {
+  "1e361e188eff85fc503394aa7d82c5e38bc84d2ea061c5786d66c8ec99556600": "read",
+  "fcf0a3dd12b3c50fa3d14c99ac0afa4e8d4aba4ca405db72fd06235704a36fda": "read",
+  "c366aa04265853d687640a8ad9463bc963caba936c6faac0d0828b6bcb96e718": "read",
+  "21a19f6c1b4e28f0d290e0a013e3bd7239ec132e7a10b727e8353ea84591b631": "write",
+  "9b8ce26a3da8af3ad55598681e427edbd18b3403db740deafbb04e6d925689f9": "read",
+  "904f6c9b0c3c89552376e351e9e4b28f86a7f1376250342f25bf4ab59240aa07": "read",
+  "6c5f1c977e352d8e0cc9e29aa99bc0fdcb9a2f5e56d6c12cb022f70f5dabf246": "read",
+  "816d9723379bd5d6667b89d60bbd3bc62e863ee9fba0c4504d7087c3a24679eb": "read"
+ },
+ "flags": [
+  "tool descriptions instruct the agent how to word answers and to never use third-party sources",
+  "affiliate-style steering to its own links"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f2681d67c69c473d046249b29caf1c3d1511df90f293e740ca758a4f1548be0e",
+ "domain": [
+  "education/puzzles"
+ ],
+ "product": [
+  "ohmydots"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates shareable puzzle links on ohmydots.com: crosswords, audio crosswords, word searches, cryptograms and cross-math.",
+ "whenToUse": "Use when a user wants a crossword, word search, cryptogram or math puzzle generated.",
+ "tasks": [
+  "create crossword",
+  "create audio crossword",
+  "create word search",
+  "create cryptogram",
+  "create cross-math puzzle"
+ ],
+ "effects": {
+  "ce3dfd45fcc57db75cc303ce339794c6530439db40a1e507fe60269bc7c98848": "write",
+  "2ea13c0c14ef8dfe06bdfc8eeddbf913a615652be79b3d25497d94c075390efa": "write",
+  "98e08540103f9e17579df4fdd09feb9c844fe70b8434029f8a2db9e2dfaaa8e5": "write",
+  "741f9f165a037b6e1937cefe53dd98a2b658bc3da3e9e1a091b8328bd0d14be2": "write",
+  "45d66c8aecdfd184d491d0d4c693856fa7c736db3ebf5cd0fdf022a787874c9b": "write"
+ },
+ "flags": []
+}

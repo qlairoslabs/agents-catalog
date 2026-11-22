@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "14938650b09a35a0fc90ffbfa19d678ea0446b01c32a97e3636b8284fa459de1",
+ "domain": [
+  "education/first-aid-training"
+ ],
+ "product": [
+  "australia-wide-first-aid"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "schedule"
+ ],
+ "summary": "Finds Australian first aid and CPR courses, venues and upcoming sessions and gives a booking link.",
+ "whenToUse": "Use when someone needs a first aid or CPR course in Australia and wants sessions near them.",
+ "tasks": [
+  "list courses",
+  "course details",
+  "FAQs",
+  "list venues",
+  "search sessions",
+  "search nearby sessions",
+  "get booking link"
+ ],
+ "effects": {
+  "a0978404f66f75aaa9b3edcbb00906209ec64fe770037171373194b3fa9b7a21": "read",
+  "6fba21ebf08d669228538433dd045573bcb623ef0ba32fc463877e75da20e893": "read",
+  "6f720fd462db8afb4de8888e6fa88ac8e29337785d354996186af27d3aaddac0": "read",
+  "ef025fbfb4bd6314f20d3407b84007a174d684efdfe245197d5e80e22d5420f6": "read",
+  "5809d094040016aff2b1c3e6e627c25a811721a36ebb83ba2dd8aa511b17105e": "read",
+  "6b51a5bf9727ea23666cd0d8993e57b8fe641fcf7a8ae3af1bb6e1ada1c2c7fa": "read",
+  "028c45d14330838f51e3d55b9d65891543a9bf07f9d12b59bce80224aa739260": "read"
+ },
+ "flags": []
+}

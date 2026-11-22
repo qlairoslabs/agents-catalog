@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "a731e39d6f0a9f1657185efa6f9eb0ccbbfe90e09e8601e112ccc8ae4e14faea",
+ "domain": [
+  "construction/contractor-forms",
+  "finance/tax-estimates",
+  "legal/workplace-safety"
+ ],
+ "product": [
+  "blue-crane",
+  "cra"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Searchable library of Canadian contractor forms with citations, plus 2026 self-employed tax, hourly rate and HST calculators.",
+ "whenToUse": "Use when a Canadian contractor needs the right site or statutory form or a tax or billing-rate estimate.",
+ "tasks": [
+  "search contractor forms",
+  "get form details",
+  "suggest forms for a situation",
+  "list form categories",
+  "estimate contractor income tax",
+  "calculate required hourly rate",
+  "compare hst quick method",
+  "get form maker pass pricing"
+ ],
+ "effects": {
+  "8fecdcc9692e3f1ac02bb17dec93193a5817d6f7d9a866296861ee0aa65b5b71": "read",
+  "586b4850bb2734bfad3efc03310d10360ebfbcbeee5e6c676e9b9fb3a69046f1": "read",
+  "c5c56c480984cb9e7ace4cf02c2da8b92e1a6a651fece3c629636881bac9dd23": "read",
+  "f8c2e9165287396fbd8246410fae8e5dba75cee7b679de63ea0d14c4b44f94be": "read",
+  "103daafc260c0a9f4924dcc0207331ce49eea07f5d94946848f83e3b2e79b293": "read",
+  "45305514fd022e48f315ae282b03996916eff61e04cb7bac3797aa50642b51a9": "read",
+  "b29111f13589c6a5b31ff4eb3a3d910d28cff2b5efd3d2322e31bd22d667ced5": "read",
+  "de637331359c14dc0713c5603e2b070632f661c9a44eecacfb45a1fe02e33e3a": "read"
+ },
+ "flags": []
+}

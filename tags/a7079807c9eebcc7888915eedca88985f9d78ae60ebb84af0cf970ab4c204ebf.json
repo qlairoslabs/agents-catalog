@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "a7079807c9eebcc7888915eedca88985f9d78ae60ebb84af0cf970ab4c204ebf",
+ "domain": [
+  "consumer-products/recalls",
+  "reference-data"
+ ],
+ "product": [
+  "productguru"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up products by EAN/UPC barcode or name and returns attributes plus official recall notices.",
+ "whenToUse": "Use when you need factual product details or want to check whether a product has been recalled.",
+ "tasks": [
+  "lookup by barcode",
+  "search products",
+  "search recall notices",
+  "fetch product or recall record"
+ ],
+ "effects": {
+  "655a17ce01cfdbea9ae7d9b0482ab8c86bfcf279ff33d87b65cd2bbe4fe6b895": "read",
+  "e7fc81c16717a0afbcf89adc59e703bcd3f7547f2d3a2799a31b2b6a1cf4f913": "read",
+  "29eab6f636c27386ed86695603ccaec4f876d4ecab9e99f9eb6e35338e96da84": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "690c9da9ffb3d9a6b466e589e130f166b1b901ee0c69491319e6899f9d64c26a",
+ "domain": [
+  "finance/market-data",
+  "finance/news"
+ ],
+ "product": [
+  "el7"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Delivers financial market news, macro data, central bank info, COT reports, stocks, earnings and commodities.",
+ "whenToUse": "Use when answering questions about markets, macroeconomics, earnings or gold and oil prices.",
+ "tasks": [
+  "get market news",
+  "get macro data",
+  "track central banks",
+  "read cot reports",
+  "get stock data",
+  "get earnings",
+  "get gold and oil data"
+ ],
+ "effects": {},
+ "flags": []
+}

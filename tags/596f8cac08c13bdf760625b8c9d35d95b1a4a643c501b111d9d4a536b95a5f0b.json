@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "596f8cac08c13bdf760625b8c9d35d95b1a4a643c501b111d9d4a536b95a5f0b",
+ "domain": [
+  "software/testing",
+  "software/cross-browser-testing"
+ ],
+ "product": [
+  "browserstack"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Official BrowserStack server for running and managing tests on real browsers and devices.",
+ "whenToUse": "Use when an agent needs to test apps or sites on BrowserStack browsers and devices.",
+ "tasks": [
+  "run browser tests",
+  "test on real devices",
+  "manage test sessions"
+ ],
+ "effects": {},
+ "flags": []
+}

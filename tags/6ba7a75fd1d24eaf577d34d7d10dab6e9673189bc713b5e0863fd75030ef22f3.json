@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "6ba7a75fd1d24eaf577d34d7d10dab6e9673189bc713b5e0863fd75030ef22f3",
+ "domain": [
+  "collectibles/pokemon-cards",
+  "data/pricing"
+ ],
+ "product": [
+  "pokeinvest",
+  "psa",
+  "cgc",
+  "bgs",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Pokemon card prices from completed sales across raw and graded copies, with population reports, history, photo identification and live deals.",
+ "whenToUse": "Use when valuing a Pokemon card, checking graded population, viewing sales history, identifying a card from a photo, or finding deals.",
+ "tasks": [
+  "search cards",
+  "get card prices",
+  "get PSA population",
+  "get price history",
+  "get population history",
+  "get completed sales",
+  "identify card from photo",
+  "get deals"
+ ],
+ "effects": {
+  "3d9c13df36535b7cacb1ef2e3ec7d71644590af07e88fe64eedfb5da847888ec": "read",
+  "8fc214c94b0ea858a762f3bbdb3f953f69890e0b421c347554d43dc36226645d": "read",
+  "919128ab30274a88955280e9fbd1d4b789115adb87364464c61b16f9b54edf90": "read",
+  "d82065ef88ddd5af13de171117fac134180881516334bd0674100d949113c948": "read",
+  "2ee2f276c28976ad2433fc7969a9bea971fff5178dba97a68821970443bebc35": "read",
+  "43421821e978ca70983453b7b3fae298b3d180374f994d8a0e17b84f3f42a5d6": "read",
+  "18ddba4436bf6737182d9dc4af6319acd36a8d4b529570ba70ef516c60c543f3": "read",
+  "278ca6408339bc9a3ea8c57bcf23ab9d8edf02e32556f60be2953e875d867088": "read"
+ },
+ "flags": []
+}

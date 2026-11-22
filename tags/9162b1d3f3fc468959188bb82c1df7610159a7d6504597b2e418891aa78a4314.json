@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9162b1d3f3fc468959188bb82c1df7610159a7d6504597b2e418891aa78a4314",
+ "domain": [
+  "travel/chauffeur-transport"
+ ],
+ "product": [
+  "iconic-cls"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid"
+ ],
+ "summary": "Prices and books private chauffeured trips in Los Angeles at a fixed rate, returning a payment link for the rider.",
+ "whenToUse": "Use when a user needs a chauffeured car or airport transfer in Los Angeles.",
+ "tasks": [
+  "list services",
+  "quote a trip",
+  "book a trip",
+  "hold a car",
+  "return payment link"
+ ],
+ "effects": {
+  "5b2a4c8285dc7104b08a900cf555d64314d23dc8e6ead0289dfbafb57dfd4512": "read",
+  "658393f933929196c33e2fd99147752d892b00bda4d19783348c43e7be3545fb": "read",
+  "30b9a6fc7bee03711c9a48b8bf9e0972fe2ecb9c4a1308ca14a8c3693be40423": "write"
+ },
+ "flags": []
+}

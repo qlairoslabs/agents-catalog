@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9ce4d697bb02f53e1719e799b4de5e3076bbc485d3778e377e41c2bf3cd25ef0",
+ "domain": [
+  "education/neurotechnology",
+  "ecommerce/product-info"
+ ],
+ "product": [
+  "sarmad"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Searches and reads Sarmad's public Persian and English courses, EEG/QEEG guides, blog articles and product prices.",
+ "whenToUse": "Use when a user asks about Sarmad courses, EEG/QEEG guides or product prices in Persian or English.",
+ "tasks": [
+  "search courses and guides",
+  "fetch full article text",
+  "get product price and stock"
+ ],
+ "effects": {
+  "655d5bf72d2c37eba6337caaf09698c46993fcf197b22ee717176f6f8a6a3304": "read",
+  "44b656242cfa6eddd1adc0d739de3e32a4eb5cb05190d9c9bfa672040fe204af": "read",
+  "3511f6e1884584a74f3df64e31465d3803dc3521fdc24b9f2cfdbb1317997b43": "read"
+ },
+ "flags": []
+}

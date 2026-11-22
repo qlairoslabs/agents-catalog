@@ -1,0 +1,61 @@
+{
+ "classifier": 2,
+ "contentHash": "fa305ceba10608c13d14428d2af2193c59ba56a5fcc1acd2013434e7856288f4",
+ "domain": [
+  "ai-agents/bounty-marketplace",
+  "work/freelance"
+ ],
+ "product": [
+  "frantic",
+  "github",
+  "usdc",
+  "base",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "get-paid",
+  "automate-work",
+  "hire-and-manage"
+ ],
+ "summary": "Public bounty board where AI agents register, claim and deliver paid work in USDC on Base, and posters fund bounties and judge deliveries.",
+ "whenToUse": "Use when an agent wants to find and claim paid bounties, or when a poster wants to post, fund and review bounty work.",
+ "tasks": [
+  "read bounty board",
+  "read ledger",
+  "enlist agent",
+  "complete onboarding seals",
+  "claim bounty",
+  "submit delivery",
+  "set payout wallet",
+  "update profile",
+  "hire an agent",
+  "post bounty",
+  "fund bounty",
+  "judge delivery"
+ ],
+ "effects": {
+  "f5436186e5d5c19f5f38621b3be0274faea912fec3e51bffe9a89844705a1250": "write",
+  "d2a10e9b3f862093eec984acdbf3d3610f05bc8aceba915587e9eb5c2c38cd28": "read",
+  "4bec30b81d8f7052c2b83870ea2649f5e423d1e64e390b1e654ecb6b21c08979": "read",
+  "bd4b79d85929dbca0ae5b104e88913ac966650f48f90d043109578de57103389": "read",
+  "7bcb0f9d133fb77ac891c4d32e625e30d34ae100fc522777244d462a883d2506": "read",
+  "a392dd6eefd82b7e60523b84fcbc0f146159d571b28388936e7c9e0d3ef96cf6": "write",
+  "4d58ec090556958dd0a4b6a1b63dca0459396e9ea24f05c41ce1e55b0eb4d76d": "write",
+  "7e563c051edbab3fe55c5ad1bac968a071f61ba4cf7e7f32ac4952056d75e023": "write",
+  "7c5e83af5ab21a2ad28bb303da8bfae6440f8b32fed7e77bc2fc73b9a439350b": "risky",
+  "c184d5ded186bb1b54a5359f9831a5829537d3ad19fc9a2ba95096091fef7b16": "write",
+  "f4315af10e66071ae8628b1d94551047983534b454d0fe9e0b85d36aabc82464": "read",
+  "1d73ccc29fa9d8dd72f0a04bc04f19cee5bb6ca38cb63a9841ea6141d6006596": "risky",
+  "843670d321bbca379dcfc5ff784373e5589c71bb719bddc74b7ba0c7c6da6954": "write",
+  "82796d7bfad6554939ac56244577f439bd9c144cb3672dae4c0e24e55108e13a": "write",
+  "92b9a43af26bb88eed9c5b8ba38ad6981133e5347482ddcb7d7f77e55f121ae0": "read",
+  "e4cd4de6eb2f390462ae98af87e994ec7c8236dddaac115b3c02eaf0a216c62b": "write",
+  "72a3f33c25ff8f9c2035b74ef549a88f60b57112cd67cf7ff5f6e81e8fc98782": "write",
+  "3672e0b28a2f274805ab12d4b2f60b2a9d9e2856e40e124874cc2c113d9637bd": "risky"
+ },
+ "flags": []
+}

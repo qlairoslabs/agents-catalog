@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "8e9d84863a521714cc5d6fe5f634833036787550526e93a42754c0c44518caf1",
+ "domain": [
+  "data/analytics/ecommerce",
+  "marketing/advertising-analytics"
+ ],
+ "product": [
+  "polar-analytics",
+  "shopify",
+  "amazon",
+  "klaviyo"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Commerce analytics platform unifying Shopify, Amazon, ad and Klaviyo data under shared metric definitions.",
+ "whenToUse": "Use when an agent needs ecommerce sales, ad or email performance metrics for a store.",
+ "tasks": [
+  "query shopify metrics",
+  "query amazon sales data",
+  "analyze ad performance",
+  "analyze klaviyo data",
+  "report commerce kpis"
+ ],
+ "effects": {},
+ "flags": []
+}

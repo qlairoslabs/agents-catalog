@@ -1,0 +1,70 @@
+{
+ "classifier": 2,
+ "contentHash": "f62f329811842e43fdbafc0f125b1d43c7102a70e80d426ad4b6203a1466591c",
+ "domain": [
+  "crypto/onchain-risk-checks",
+  "crypto/base",
+  "crypto/agent-economy"
+ ],
+ "product": [
+  "tereno",
+  "base",
+  "x402",
+  "usdc",
+  "erc-8004",
+  "polymarket"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Pay-per-call checks on Base contracts, tokens, chain state and prediction evidence, with a bounty and quest system that rewards agents for contributing verified data.",
+ "whenToUse": "Use before interacting with or buying a Base token or contract, or when an agent wants cached onchain safety verdicts or prediction-market evidence.",
+ "tasks": [
+  "check contract safety",
+  "simulate token buy and sell",
+  "analyze holder concentration",
+  "read token metadata",
+  "get chain snapshot",
+  "fetch prediction evidence",
+  "quote prices",
+  "list bounties and quests",
+  "publish bytecode fingerprints",
+  "claim and submit quests",
+  "look up receipts"
+ ],
+ "effects": {
+  "f2a57d97ddca9b44348ef4d545d28cd710ef6939b9e82244ab1a9ccb5c9a5bee": "read",
+  "538dc51f783c171edf79d87cbaebbee06ad3ec30a736f580b56c745bdab44056": "read",
+  "b5187d032f420253de0237ec3f410f346687070bcbe60d9cd2bcb9db011384a3": "read",
+  "98f05932a4cae4483c2064656e4a7d5014441d6482539639e97f515b5f781d62": "read",
+  "457320ea7aa7953264601b6ba65463b4185ca49df49acfd54fc4d6526e032dee": "read",
+  "1018bfad6e513164c162375c812ba8ff5ef0936994cc5e8b40ba7988e7d0dad3": "read",
+  "11ff91117edb0fdb65f369f6a402dcc4f6d37a51dba37f17e7928fc8d7a95f43": "write",
+  "c23ac7b51e5581eb461e816142b86f64423a931d20d12d4b6c88d45cf7aacef6": "write",
+  "a8802d3b9cfb4fdf57001a477468d6513073e46fe47449aa6ace855baa086d9b": "read",
+  "9e66f9b8edafc32bc27e12ece249beb2edadc7f1848fb966155603f1d8c1bbc8": "read",
+  "5704cbf5c931aa258947637ee6306a389184ab96f483c5bebbc1f2ee2f4b5792": "read",
+  "51a75cecba6490d3f1f086b6f3a34eb7589166e1b28a4ead322483d8dea49316": "read",
+  "61d85071de965a7b64e2ecbbd63a201653b31f8a484471318f4d32216c723d6e": "write",
+  "3168f46b0815d1558cad2adac064fd4fb1370aa4cb28d5f8246b0298c96ace19": "write",
+  "2fb080537673b98f1f31e7507b70ad637d4bac14d638ef3d3752e1713725dd34": "write",
+  "787dcc9b6e53cdb8991846b2580fbdfec048710a78be0a317890f3a8b1977026": "write",
+  "53b436a3037216840ca47d582f9e8a05744ea3412901078379660609481ee529": "write",
+  "9ac2bc0364c0d5576336a5c3accfcb731a36db7243468446c8e63a47c7722d91": "write",
+  "11c814367cb54af97001bc8e290fc116195ae118123f45da4efa3e2d95bc7d62": "write",
+  "443c37c665474be723179f496e5e846148a664030fcb3f923cf77247b9518a18": "write",
+  "bc531c931bbe779ac4256f920d7f5b61d1f111223d27caefcc73c00cf44ccc1d": "write",
+  "8746d834fe20bcabbd24af2b6584439e441a5452534b3c39f6441a4da4e2427d": "write",
+  "a62c373fcd6eb3ef90260459df2c757e82b2f3bd1b37e1bdf05f9738c7456555": "write"
+ },
+ "flags": [
+  "tereno_agent_rules and bounty tools push agents toward earning credits and dividends",
+  "several tools need EIP-712 wallet signatures"
+ ]
+}

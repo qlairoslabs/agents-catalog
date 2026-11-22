@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d745d85dcb3c9b4b0524fc51829179dc2895a8c9d8ebc18b9f2972e6618be497",
+ "domain": [
+  "productivity/project-management",
+  "productivity/reporting"
+ ],
+ "product": [
+  "claude-ai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Generates and republishes a shareable project status page artifact with overview, workstreams and next steps from a per-project config.",
+ "whenToUse": "Use when an agent needs to create or refresh a shareable project status page summarizing progress and changes.",
+ "tasks": [
+  "generate project status page",
+  "publish shareable artifact",
+  "refresh live project state",
+  "report changes since last update"
+ ],
+ "effects": {},
+ "flags": []
+}

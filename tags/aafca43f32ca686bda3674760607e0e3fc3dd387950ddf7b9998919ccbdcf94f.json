@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "aafca43f32ca686bda3674760607e0e3fc3dd387950ddf7b9998919ccbdcf94f",
+ "domain": [
+  "automotive/vehicle-data",
+  "automotive/pricing"
+ ],
+ "product": [
+  "marketcheck"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Accesses MarketCheck automotive data to search US and UK car listings, predict prices, decode VINs and view market history.",
+ "whenToUse": "Use when researching vehicle listings, valuations, VIN details or car market trends in the US or UK.",
+ "tasks": [
+  "search vehicle listings",
+  "predict vehicle prices",
+  "decode vins",
+  "view market history"
+ ],
+ "effects": {},
+ "flags": []
+}

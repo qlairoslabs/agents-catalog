@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "48761ff114ec779a56dfb1c55fd4c107be477cadfa6ec7d3159e5c5d26a922f4",
+ "domain": [
+  "knowledge-management/team-memory",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "mnema"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Self-hostable shared knowledge base for people and AI agents holding docs, flows, meetings, decisions and rationale.",
+ "whenToUse": "Use when an agent needs to store or look up team documents, meeting notes or past decisions and their reasons.",
+ "tasks": [
+  "store documents",
+  "record decisions",
+  "save meeting notes",
+  "search shared knowledge"
+ ],
+ "effects": {},
+ "flags": []
+}

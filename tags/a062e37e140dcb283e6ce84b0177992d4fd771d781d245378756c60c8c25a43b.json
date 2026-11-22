@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a062e37e140dcb283e6ce84b0177992d4fd771d781d245378756c60c8c25a43b",
+ "domain": [
+  "software/development/testing",
+  "software/integrations/webhooks"
+ ],
+ "product": [
+  "webhooks-cc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Captures, inspects, sends and asserts on webhooks and inbound email for testing from a coding agent.",
+ "whenToUse": "Use when an agent is developing or testing code that sends or receives webhooks or inbound email.",
+ "tasks": [
+  "capture webhooks",
+  "inspect requests",
+  "send test webhooks",
+  "assert on payloads",
+  "receive inbound email"
+ ],
+ "effects": {},
+ "flags": []
+}

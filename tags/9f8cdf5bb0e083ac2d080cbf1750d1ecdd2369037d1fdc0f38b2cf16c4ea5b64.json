@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9f8cdf5bb0e083ac2d080cbf1750d1ecdd2369037d1fdc0f38b2cf16c4ea5b64",
+ "domain": [
+  "design/cad",
+  "engineering/mechanical"
+ ],
+ "product": [
+  "zoo"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Gives agents access to the Zoo API for CAD operations such as generating, converting and analysing 3D models.",
+ "whenToUse": "Use when an agent needs to create, convert or inspect CAD models through Zoo.",
+ "tasks": [
+  "generate cad models",
+  "convert file formats",
+  "calculate model properties",
+  "render model views"
+ ],
+ "effects": {},
+ "flags": []
+}

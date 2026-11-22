@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3c6e1cc4aa2ac7f38d9658e1e132bb238e7fed391269fccf4aea00eae9f38d75",
+ "domain": [
+  "streaming/community-scheduling"
+ ],
+ "product": [
+  "twitch"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Manages Twitch raid-train schedules, letting streamers claim, release and trade slots.",
+ "whenToUse": "Use when a Twitch streamer wants to view or change their raid-train slots.",
+ "tasks": [
+  "view raid-train schedule",
+  "claim slots",
+  "release slots",
+  "trade slots"
+ ],
+ "effects": {},
+ "flags": []
+}

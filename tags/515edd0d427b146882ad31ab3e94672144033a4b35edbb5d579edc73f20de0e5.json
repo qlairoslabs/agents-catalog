@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "515edd0d427b146882ad31ab3e94672144033a4b35edbb5d579edc73f20de0e5",
+ "domain": [
+  "software/observability/uptime-monitoring",
+  "software/incident-management"
+ ],
+ "product": [
+  "site-qwality"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Manages uptime monitors and incidents and searches logs, metrics and traces in Site Qwality.",
+ "whenToUse": "Use when investigating website downtime or managing monitors and incidents in Site Qwality.",
+ "tasks": [
+  "manage uptime monitors",
+  "manage incidents",
+  "search logs",
+  "query metrics",
+  "search traces"
+ ],
+ "effects": {},
+ "flags": []
+}

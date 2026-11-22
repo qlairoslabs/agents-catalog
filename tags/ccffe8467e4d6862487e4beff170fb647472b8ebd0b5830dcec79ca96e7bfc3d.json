@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ccffe8467e4d6862487e4beff170fb647472b8ebd0b5830dcec79ca96e7bfc3d",
+ "domain": [
+  "productivity/scheduling",
+  "sales/crm",
+  "communication/voice-agents"
+ ],
+ "product": [
+  "zeeg"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Books meetings, manages CRM records and runs AI voice agents within a Zeeg workspace.",
+ "whenToUse": "Use when a user wants to schedule meetings, update contacts or operate voice agents in Zeeg.",
+ "tasks": [
+  "book meetings",
+  "manage crm contacts",
+  "run ai voice agents"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "276747fb4e17e99372b4b697e4fe00b31e89f42cdb391422d0df75b6a8edd5a9",
+ "domain": [
+  "software/project-management",
+  "productivity/task-tracking"
+ ],
+ "product": [
+  "ikanban"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Manages tasks, sprints, releases and documentation for engineering teams working with AI coding agents.",
+ "whenToUse": "Use when an agent needs to read or update engineering tasks, sprints, releases or team docs.",
+ "tasks": [
+  "manage tasks",
+  "plan sprints",
+  "track releases",
+  "edit docs"
+ ],
+ "effects": {},
+ "flags": []
+}

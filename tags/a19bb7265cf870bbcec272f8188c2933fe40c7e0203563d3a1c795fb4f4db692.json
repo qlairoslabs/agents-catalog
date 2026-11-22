@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "a19bb7265cf870bbcec272f8188c2933fe40c7e0203563d3a1c795fb4f4db692",
+ "domain": [
+  "marketing/seo",
+  "marketing/ai-visibility"
+ ],
+ "product": [
+  "momentic",
+  "wikidata",
+  "cloudflare"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Free SEO, GEO and AEO audit tools: page and site analysis, AI-crawler access checks, freshness and link-graph computation, entity lookup, and Momentic's own content.",
+ "whenToUse": "Use when auditing a page or domain for SEO and AI-search readiness or checking whether AI crawlers can reach it.",
+ "tasks": [
+  "analyze page SEO",
+  "analyze site AI discovery signals",
+  "probe AI crawler access",
+  "parse freshness signals",
+  "extract links",
+  "compute link graph",
+  "look up entity",
+  "ask Momentic",
+  "search Momentic site"
+ ],
+ "effects": {
+  "10c3899fdc1e540637101eace1d7146cf36072d2a89700b4827d1518949c8d0a": "read",
+  "c8003e447d7f82b6156903e2213da5007ecc7d7f67dd32a406090588d70d9545": "read",
+  "271700353f2afdbbcee2cb937c3843fb929f5e734307c6094583503eee0b863e": "read",
+  "78b9ed42b43fb9c81700efe81d696a5987850b2741e916a83126727c7dcd4097": "read",
+  "392c81c84ccbed686646dec2a12babb7d15ded0903af23b9a98fde909e3935eb": "write",
+  "980c423eecd8745648595fb931b179f58fd801047389a71d841184967ffa2454": "write",
+  "d4ed7362972ba6c9e976c852bf5e0cbee51ec489bc3891989b68921e7dcedcc9": "write",
+  "7c6388f88aadc0555c6bc92c8ae2a9929b1d83f242a4bf5b636d55ade7f09994": "write",
+  "7df18666051880db64b343746f0fea601c91c70e5c83277aa6fa8e2564084f75": "write",
+  "e8b7a45ff96a0ac3dd63aebe430af719b542ef8b15344921c586ad5e1d936417": "read",
+  "44aa0092c1ead2f010f0be0a3dbebb320a979efb52bb20ff40c9bc673bfa4eaa": "write",
+  "7389dc935ae7c2c537d71bed683f18d81cc2714d80064ae67360b1346c3dbb99": "write"
+ },
+ "flags": []
+}

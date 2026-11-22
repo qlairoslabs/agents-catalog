@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "06c23dee0fa4ab587fe549b7ff116b34ac1f91755b09fab1d55789e957cca2e0",
+ "domain": [
+  "travel/places",
+  "tourism"
+ ],
+ "product": [
+  "aventuro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Finds sights, museums, parks and beaches by place or coordinates and returns detailed place cards with photos.",
+ "whenToUse": "Use when a user wants things to visit in a city or region or details on a specific place.",
+ "tasks": [
+  "find places by city",
+  "search near coordinates",
+  "filter by category and needs",
+  "read place details",
+  "get place photos"
+ ],
+ "effects": {
+  "1b7baaef528e9607c1f0721c992f5dcdb8c5301ae88e645704bcb4b50bb3c6ee": "write",
+  "2672417327799b7185aef4dd2845f9ccb6678410bd8b642796e4febc005a47ce": "write"
+ },
+ "flags": []
+}

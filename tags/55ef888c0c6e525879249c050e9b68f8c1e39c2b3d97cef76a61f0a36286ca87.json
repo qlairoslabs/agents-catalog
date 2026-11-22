@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "55ef888c0c6e525879249c050e9b68f8c1e39c2b3d97cef76a61f0a36286ca87",
+ "domain": [
+  "software/databases/postgresql"
+ ],
+ "product": [
+  "alloydb",
+  "google-cloud",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Creates, connects to and queries AlloyDB for PostgreSQL databases on Google Cloud.",
+ "whenToUse": "Use when managing or querying an AlloyDB for PostgreSQL instance.",
+ "tasks": [
+  "create clusters and instances",
+  "connect to database",
+  "run queries"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "9482b9c08bb19bc9fc802c07dadb4b45386f7449720029742b041b09d39f52cc",
+ "domain": [
+  "marketing/local-seo",
+  "health/therapy-practice"
+ ],
+ "product": [
+  "google-business-profile",
+  "ariadne"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Audits a therapy practice's Google Business Profile and website for local-search gaps and writes ethical sample Google posts.",
+ "whenToUse": "Use when a private-practice therapist wants to know why they are hard to find on Google or needs an example post.",
+ "tasks": [
+  "audit Google Business Profile",
+  "score local search setup",
+  "check website SEO basics",
+  "write sample Google post",
+  "explain Ariadne service"
+ ],
+ "effects": {
+  "768c1598260bbf066882d0de07234f3b6ffab37ec94b87a8ea7852b20477d2b8": "write",
+  "03ac92f3700fa0fd7e49ecb657855edf44655c120e3b945ca7da5c40fe580b5a": "write",
+  "2e6cc0f176eb4a1db396402b86422bcb919b7b5d6a497e55a50474a776be7cb7": "read"
+ },
+ "flags": []
+}

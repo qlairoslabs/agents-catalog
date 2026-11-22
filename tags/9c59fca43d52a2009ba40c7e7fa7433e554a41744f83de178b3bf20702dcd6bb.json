@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9c59fca43d52a2009ba40c7e7fa7433e554a41744f83de178b3bf20702dcd6bb",
+ "domain": [
+  "ai/model-hosting",
+  "ai/generative-media"
+ ],
+ "product": [
+  "replicate"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Local MCP server that connects agents to Replicate for running hosted machine learning models.",
+ "whenToUse": "Use when an agent needs to run or query models hosted on Replicate.",
+ "tasks": [
+  "run hosted ml models",
+  "work with replicate api"
+ ],
+ "effects": {},
+ "flags": []
+}

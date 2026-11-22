@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "8a49994ec34454d791777b0e7559f8903cb4a7603f0a3fea9a746f880074b065",
+ "domain": [
+  "software/identity-verification",
+  "legal/proof-of-existence"
+ ],
+ "product": [
+  "verixid"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Verifies VerixID proof-of-existence records by Record ID, and can confirm ownership when given an Ownership Key.",
+ "whenToUse": "Use when a user supplies a VerixID Record ID and wants to confirm it exists, when it was registered, or that they own it.",
+ "tasks": [
+  "verify a record exists",
+  "check registration date",
+  "prove record ownership"
+ ],
+ "effects": {
+  "4e424fc9bdce7c6d38d8e90a39cfc3b1b676f51c089b6e5fb9502ae44bbcb24e": "write"
+ },
+ "flags": [
+  "tool description mentions upsell fields (coa_upgrade_url, coa_upsell_message) in responses, possibly steering the agent toward promotion"
+ ]
+}

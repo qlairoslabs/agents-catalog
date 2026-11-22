@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2604b03f83e4d73916f25e3f4aed83da2c72954889d1eaa91ec338e434351200",
+ "domain": [
+  "software/data-management",
+  "software/no-code"
+ ],
+ "product": [
+  "chrysai"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Hosted service for creating data apps, defining schemas and creating, reading, updating and deleting structured records.",
+ "whenToUse": "Use when an agent needs to set up a lightweight data app or manage structured records and schemas in Chrysai.",
+ "tasks": [
+  "create apps",
+  "manage schemas",
+  "create records",
+  "read records",
+  "update records",
+  "delete records"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "a0a7ba2d58d5f639057beeb67a4d0ada633b8d887a2d7ff5c86eace459096756",
+ "domain": [
+  "travel/ride-hailing"
+ ],
+ "product": [
+  "rovv",
+  "google-maps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches places, estimates fares and books, tracks and cancels Rovv rides in African cities, with wallet balance.",
+ "whenToUse": "Use when a user wants to get a ride, fare estimate or trip status in an African city served by Rovv.",
+ "tasks": [
+  "search places",
+  "get place details",
+  "estimate fares",
+  "book ride",
+  "cancel ride",
+  "get current ride",
+  "get ride history",
+  "get route info",
+  "check wallet balance"
+ ],
+ "effects": {
+  "882ed449a3296d7f268ac6693c35702370e341ab8d0837281d020f0564818711": "read",
+  "ef5902a915980129ab0f83aac9f0e4dbf0210f69b67e3749f6e4ce832e03e4e9": "read",
+  "78711d84e4682389493d6f1a5d50994bce140b20eb62e1485b0c0f8bb964323b": "read",
+  "92bed5fb68939eb0583b75d0b1352514852ae5b8124a18db358a22f674584cc8": "write",
+  "cac20f6c8735e7c0526583d29820b022a7ef7fb717bbb7fc110fa18b61ff2eb5": "write",
+  "a52fcb608be94782c0f21f3d68bb9bdfa2a5aaa35cea178754bc56ddec4aca34": "read",
+  "335fadb70b991fe28168a89c9f591dadef52d4f84961dcb1df3d76f593019f51": "read",
+  "42e8659a9d43ae299502e0b0f08cf719ffa6c6b925d64c8bcdb3bb2dc30da31f": "read",
+  "9f48568599fa406e39845730705efa05e9543dc859a9e470e3aa54e4cf38f7d9": "read"
+ },
+ "flags": []
+}

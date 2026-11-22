@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "e14229c1b5dee1debd42c8ac65566be88641630e8adfbcef037d86a80d3d8c7f",
+ "domain": [
+  "education/citizenship-test"
+ ],
+ "product": [
+  "ai-citizenship"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Unofficial citizenship test practice with test formats, free practice questions, answer checking and topic summaries.",
+ "whenToUse": "Use when someone is studying for a country's citizenship test and wants practice questions.",
+ "tasks": [
+  "list tests",
+  "get practice questions",
+  "check answer",
+  "get topic summary",
+  "get full practice link"
+ ],
+ "effects": {
+  "f23c900f5bba506929809ead5a957cf5ec74ae7778ed3c9a514f42bb2403613c": "write",
+  "0791afe77511360f57b2c14582b2fbfd099577685e48f6c44770d2bb554a799d": "write",
+  "d03e0d16a782b0700df78e23e0fa9d9207bb0da9a5bf3ee9fe416a1921b5ec9a": "write",
+  "da86ef3ea90afeea701275cc72bf8e2986ebd3b099607b0b05c705850a674f9a": "write",
+  "14c21408dc7411b5808b1b532c2e7cf3dc91ff3392145a350ac88ecb04919e88": "write"
+ },
+ "flags": []
+}

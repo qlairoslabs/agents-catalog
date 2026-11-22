@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1e0527734a9b4ec9930f0850991691212e16341a60def855bff1c740082eb987",
+ "domain": [
+  "marketing/influencer-marketing"
+ ],
+ "product": [
+  "deinai",
+  "tiktok",
+  "instagram",
+  "youtube"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Second version of Deinai's influencer search across TikTok, Instagram and YouTube, using a live API token.",
+ "whenToUse": "Use when looking for social media creators for a campaign with the v2 Deinai service.",
+ "tasks": [
+  "search influencers",
+  "filter creators by platform"
+ ],
+ "effects": {},
+ "flags": []
+}

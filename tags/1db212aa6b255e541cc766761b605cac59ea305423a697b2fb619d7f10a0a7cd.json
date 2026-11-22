@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1db212aa6b255e541cc766761b605cac59ea305423a697b2fb619d7f10a0a7cd",
+ "domain": [
+  "finance/currency-conversion",
+  "finance/market-data"
+ ],
+ "product": [
+  "ratevert"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Read-only access to Ratevert asset search, pair exchange rates and conversions.",
+ "whenToUse": "Use when an agent needs exchange rates or conversions between currencies or assets.",
+ "tasks": [
+  "search assets",
+  "get pair rates",
+  "convert amounts"
+ ],
+ "effects": {},
+ "flags": []
+}

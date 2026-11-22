@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e608051c3ee636cc7f9d8f66eb6b90c9f17147889209cb8ea30231e508e60572",
+ "domain": [
+  "software/ai/agent-frameworks"
+ ],
+ "product": [
+  "atomic-agents"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps build and wire an AtomicAgent with schemas, config, system prompt, provider client and history.",
+ "whenToUse": "Use when a user wants to create or add an agent in an Atomic Agents project.",
+ "tasks": [
+  "define agent schemas",
+  "configure agentconfig",
+  "build system prompt generator",
+  "wire provider client",
+  "add history and hooks",
+  "attach context providers"
+ ],
+ "effects": {},
+ "flags": []
+}

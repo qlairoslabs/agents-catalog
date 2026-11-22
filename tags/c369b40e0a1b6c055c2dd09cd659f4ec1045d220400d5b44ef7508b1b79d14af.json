@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c369b40e0a1b6c055c2dd09cd659f4ec1045d220400d5b44ef7508b1b79d14af",
+ "domain": [
+  "security/secrets-management"
+ ],
+ "product": [
+  "hush"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "A secret store for AI agents that keeps plaintext hidden from the agent; the tool returns the setup playbook.",
+ "whenToUse": "Use when an agent needs to handle secrets without seeing plaintext and needs install instructions.",
+ "tasks": [
+  "get hush SKILL.md playbook"
+ ],
+ "effects": {
+  "7f0424f2368cde0e4e2dd59b7505680aa4ca8e9b3f978655faf23e19311ffc21": "read"
+ },
+ "flags": []
+}

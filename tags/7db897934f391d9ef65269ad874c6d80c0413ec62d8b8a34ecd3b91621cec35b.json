@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7db897934f391d9ef65269ad874c6d80c0413ec62d8b8a34ecd3b91621cec35b",
+ "domain": [
+  "software/hosting/deployment"
+ ],
+ "product": [
+  "layero"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Deploys and operates websites on Layero hosting in Russia, including domains, environment variables and a Data API.",
+ "whenToUse": "Use when deploying or managing a site hosted on Layero.",
+ "tasks": [
+  "deploy sites",
+  "manage domains",
+  "manage environment variables",
+  "use data api"
+ ],
+ "effects": {},
+ "flags": []
+}

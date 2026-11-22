@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a79a45b201e07568b9f5f32a0678959b086a525d9cc51f23c43628b67a1d73c2",
+ "domain": [
+  "software/hosting",
+  "software/devops"
+ ],
+ "product": [
+  "softkiln"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Hosting service that deploys AI-built apps to live HTTPS URLs with custom domains, secrets management and backups.",
+ "whenToUse": "Use when an agent needs to publish a generated app to a live URL and manage its domain, secrets or backups.",
+ "tasks": [
+  "deploy app to https url",
+  "configure custom domains",
+  "manage secrets",
+  "manage backups"
+ ],
+ "effects": {},
+ "flags": []
+}

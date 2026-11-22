@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0701ae4d5f32ff9923f84118dd2d45eaee8b3fad682d34fcd691589f5864107b",
+ "domain": [
+  "automotive/directory",
+  "local-services"
+ ],
+ "product": [
+  "bocaross",
+  "google-reviews"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Finds garages, body shops, MOT inspection, windscreen and car-wash providers in France with contact details, ratings, hours and published prices.",
+ "whenToUse": "Use when a user in France needs a nearby car repair, inspection, windscreen or detailing professional.",
+ "tasks": [
+  "search auto professionals by trade and city",
+  "filter open on Saturday",
+  "get contact details and hours",
+  "get published prices",
+  "get inspection fees"
+ ],
+ "effects": {
+  "92be0ce616fd162aaa9c2b116665000f8846e8dff7e530d8694f50757ce5807c": "read",
+  "d461d3f8bdc724f8380d7cde2b6c3cb5dc7afe44e649068b18f9cd9a8bef97c2": "read"
+ },
+ "flags": []
+}

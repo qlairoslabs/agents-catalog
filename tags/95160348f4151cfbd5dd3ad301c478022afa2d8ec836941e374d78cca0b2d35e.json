@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "95160348f4151cfbd5dd3ad301c478022afa2d8ec836941e374d78cca0b2d35e",
+ "domain": [
+  "productivity/documents",
+  "publishing"
+ ],
+ "product": [
+  "auteng"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Markdown document workspace for agents, authenticated by wallet signature, with create, update, delete and public sharing.",
+ "whenToUse": "Use when an agent needs to store, edit or publicly share markdown documents in a wallet-authenticated workspace.",
+ "tasks": [
+  "create markdown document",
+  "update document",
+  "list documents",
+  "delete document",
+  "share document publicly",
+  "browse public shared documents"
+ ],
+ "effects": {
+  "d177a7dada333813288e27b2bf5623bcdb7044f9302edab678d8765a8ec93407": "write",
+  "58eb99b863fa6141cd14db3c60711a6bb74a5230266071a810ed16ef0fb8e2a5": "write",
+  "ca713920f6296563685099535d9bfa5d776524703e59e61c38b3d42490a2fc37": "read",
+  "80e81563b1b0f478e2eed960f607a258c743a65bea57d9fcb95ce0fd22a96c99": "write",
+  "ea6546a80047d0dd861b81118b3012932c95405327ca47953fde2c6142e72f6a": "risky",
+  "8cf0aed16af07ca244025e0e6715120287727bb8fdce1cafd079add5370e10a4": "read"
+ },
+ "flags": []
+}

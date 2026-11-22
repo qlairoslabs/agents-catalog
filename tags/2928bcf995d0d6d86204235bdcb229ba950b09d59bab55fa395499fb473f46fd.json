@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "2928bcf995d0d6d86204235bdcb229ba950b09d59bab55fa395499fb473f46fd",
+ "domain": [
+  "travel/carpooling"
+ ],
+ "product": [
+  "seat-sherpa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds carpool rides and shared-cab pools in California and Nevada and builds links to post or request rides.",
+ "whenToUse": "Use when someone needs a long-distance carpool or split rideshare in California or Nevada, or is a driver offering seats.",
+ "tasks": [
+  "search rides",
+  "get ride details",
+  "list service areas",
+  "build ride request link",
+  "build post-ride link",
+  "search cabpools",
+  "build cabpool link"
+ ],
+ "effects": {
+  "2b81266123e504a60ed7d571c763da3c061ac8748e830eae0c91be72c6129e2f": "write",
+  "5dc66834743a8bbd5237578b1bb8855b449f509223f92db16c11f4dbb317109b": "read",
+  "68496052a38a8aa3ab84d3fb4a869ddbda59eff15498c8c3905da208aad78339": "read",
+  "c1c217f08b4b12b1f54adab6bb04e8456d570a704eef8fbcd96fe83baea2646d": "read",
+  "7874a608f5414d33b6c313f0de223e19b44b052604b0f5ff564b8747331fdc80": "read",
+  "28ba5b3db41f87aedd0623a88a4dbc4d00138a016b9a265c78e6d53cedd9b9f8": "read",
+  "a8b0897df31596378948709c811526cc214c5ab52b59bd0708f151b6b2500e51": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "b82afdc3e21cda5c822c6ea07176f2b273c237deae900abf4eb270aa7cf74df9",
+ "domain": [
+  "food/restaurants",
+  "travel/local-search"
+ ],
+ "product": [
+  "foodeist"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Restaurant guide with city rankings, nearby search, ratings, hours and menus.",
+ "whenToUse": "Use when someone wants the best restaurants by city or cuisine, a place's hours, or its menu.",
+ "tasks": [
+  "search restaurants",
+  "rank top restaurants by city",
+  "find nearby restaurants",
+  "get restaurant details",
+  "read menus",
+  "look up cities"
+ ],
+ "effects": {
+  "58743f5c8111f9c1b2b07708cf006389f764ae9f1f2ec54c9845679794ca09f5": "read",
+  "d5bbc071b084039f9259f5c3cff1c531f39057b9ce73d8d5a9243be91e957901": "read",
+  "3bdd3d4a093a2a278a873788a5098e6ba6c054b456cb5ae0170d110ed6663382": "read",
+  "a49855aee28fa5417a739e1f4efb5229dccd0afffb708c8f31070ccf15b028be": "read",
+  "cc30ff9ffeb08a4e9f2f8b19a3bc7aefc8dd0d06962f8779fd59e7148bb323aa": "read",
+  "3947f2c9ff717f2aaa75ca4f1f7d1d12caa07afdc3c79c4047133c73f54d617b": "read",
+  "85d5a5cd7f2d6737d30992dbf623737f538e03328e051ae1dc7d826658ba125e": "read",
+  "4c0158bcb08a9fe2cf6c244c2710a3df7d6b86ee7cdbe15faeae29fc3b36aff1": "read"
+ },
+ "flags": []
+}

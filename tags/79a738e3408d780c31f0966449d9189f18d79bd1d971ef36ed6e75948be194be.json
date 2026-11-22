@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "79a738e3408d780c31f0966449d9189f18d79bd1d971ef36ed6e75948be194be",
+ "domain": [
+  "design/infographics",
+  "content/data-visualization"
+ ],
+ "product": [
+  "graphmake"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Renders infographics as PNG or SVG from a short script or from over 90 templates, with a link to edit them in the GraphMake editor.",
+ "whenToUse": "Use when the user wants data turned into an infographic, chart set or report graphic.",
+ "tasks": [
+  "render infographic from script",
+  "read script reference",
+  "list templates",
+  "inspect a template",
+  "render filled template",
+  "open in editor"
+ ],
+ "effects": {
+  "719dad66399f6f7b9b90920fd32925c3c785b3813e78990d9f63605feef456be": "read",
+  "eb91ce7ee5cec1bdc6a3a54c8be0526829ca5eed54b24a2cefa0d4f9b38ae2e5": "read",
+  "4713e6bf3eae299158b88609ea6af0e88b570c63fe6235657e28b64bc74a44ed": "read",
+  "f93294b4934f2f695b170c342f328a3650dbc9c319c2ae2771e3568ca4850228": "read",
+  "c6641d5a727f461e1b69fa942891dc51640bf146ee627e9a812a5f614edfdeea": "read",
+  "2931ffcff8bd1dcf8fbf5847e9a26bc3b441f598c9df24c34a1702633d78eeff": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "e297438ebd1bcbfdea206fb6947e15020571c572cefa4d788899b34e9ce182de",
+ "domain": [
+  "software/consulting",
+  "hiring"
+ ],
+ "product": [
+  "dynomatix"
+ ],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Company information for the software practice Dynomatix: open roles, case studies, and forms to apply or send a project enquiry.",
+ "whenToUse": "Use when evaluating Dynomatix as a software vendor, finding its open jobs, or sending an enquiry or application for a user.",
+ "tasks": [
+  "list open positions",
+  "read a job posting",
+  "submit a job application",
+  "list past work",
+  "read a case study",
+  "submit a project enquiry",
+  "read company info"
+ ],
+ "effects": {
+  "53fa4b58086fc227bcbab56d532270045de0e3c827d951f2324783f15b87a6a4": "read",
+  "e5841e6ff150c6d7851297e684ec8b2eb81608281366756dd8c7b493fd4fc047": "read",
+  "ff37f0d8c3d08d4b0b31634f5483a75dd19d91ac7cdb6e59f68bfda298ad9e62": "write",
+  "f375f347a7548bad8c5307affa8d1d66bee7f134324373d0d8e01dad6b4b65c5": "read",
+  "7d715ec85841c93274e6167df9fca79ab07a8649db5fb577d49bcb9010e4a121": "read",
+  "d8df1f5e457804b0a6b9e1a54c6cdba3d94e89a4912b5c296e3b093ad367ff09": "write",
+  "70baeb381966ec409c79a509e168973f0194357b829d945c2b33274f1071f077": "read"
+ },
+ "flags": []
+}

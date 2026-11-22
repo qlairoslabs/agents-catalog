@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "755eae8ed8c8c9da7d945c18382e0f59c4d95f8d15160d44f39edde1ba51c0a1",
+ "domain": [
+  "gaming/arknights",
+  "data/drop-rates"
+ ],
+ "product": [
+  "arknights",
+  "penguin-statistics"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Crowdsourced Arknights drop-rate data by stage and item across CN, US, JP and KR servers, with events and item or stage search.",
+ "whenToUse": "Use when a player asks where to farm an Arknights item, what a stage drops or which events are open.",
+ "tasks": [
+  "describe dataset",
+  "rank stages for an item",
+  "get stage drops",
+  "list events",
+  "search items",
+  "search stages"
+ ],
+ "effects": {
+  "f998cde703ce260f0592827c711d5c8cc214515d4e104b25ec9bb102d7428a3e": "read",
+  "ded7d6e7624862e642d1fd3a233fd2fb6004e615ca2c81c15d0a238249f73ce4": "write",
+  "6ea8ce9ed92206f1143cad4df885a0966d24ecfad256aba7d0cdf0c10b39bbf6": "read",
+  "ef7b6cf19dae3a53b681e6881591723eb93dac247ba559ca617da3cb699e36a4": "read",
+  "f956deda625c4fdd478e35bd3befe6f60933a69688fe8736be3131ac5f0c1047": "write",
+  "9aae57a18f3dd820ccb914f8a3072d16a9ff777d78026bc81ad4917dae97b248": "write"
+ },
+ "flags": []
+}

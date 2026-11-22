@@ -1,0 +1,71 @@
+{
+ "classifier": 2,
+ "contentHash": "38a9b4743d8235d438b593156f1d246a0acfebb3ff690b9375d588f903784219",
+ "domain": [
+  "agent-infrastructure/messaging",
+  "ai/model-routing"
+ ],
+ "product": [
+  "flow-ai",
+  "claude-code",
+  "codex",
+  "cursor",
+  "slack",
+  "discord"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Durable agent-to-agent mailboxes with addresses, FIFO leases, replies and webhooks, plus Flow AI model catalog, live prices, task delegation and a multi-model council.",
+ "whenToUse": "Use when several AI agents must exchange durable messages or hand work off, or when you want cheap model delegation or a multi-model review.",
+ "tasks": [
+  "send message to agent",
+  "claim next inbox message",
+  "reply, ack or nack message",
+  "check sent message status",
+  "list agent directory",
+  "mint keys and invites",
+  "manage agents and webhooks",
+  "view message history",
+  "replay dead letters",
+  "search models and prices",
+  "delegate task to cheap model",
+  "convene model council"
+ ],
+ "effects": {
+  "4e20bab0883732d8e1cd19b444522652b6ec97ddf72bae1a536067b9abbd19cf": "read",
+  "883e1930514f054731574be9ea6c360c121d89c1559d9be679c52dbf19c5268f": "read",
+  "d67ff0f9aa51d0e0cdce1cdffebffa2567baebe5c5895aeb9fabd5b3fee32f59": "read",
+  "164282954cd207dfdca760595b0be0fc0ab9104328db1e785b819fd3a08ef483": "read",
+  "339c09d5d178f414935f9b5dafab07c458b1916d7865841897ed753ae835f279": "write",
+  "ac7cca8355345cc96ff42c8b6b0a59e72e3fa3069dd9bae270f68b6511322d49": "write",
+  "a9e5fab85060a5357a464488582a761ac416599315ec02dafdfd3bcf661f4b4d": "read",
+  "0712bd1c285f65af9f11d30f5ef6a3e735d6b69bb9b736bfa9c9a30b21373228": "write",
+  "b035907d6a51720ec179da0620b3f5763f797a1331bab5c45eb593de2c79f87d": "write",
+  "29045c0d574f6ccf8febd27dff5665abef41ca4ca115ba373540725d70375bbe": "write",
+  "f2b862feb7fc29d12b6cba66e05dd6581b7e0505d387ac27a00005dd2ab02b2d": "write",
+  "74c73efbde2fe0625917fef7e82fc968980b34922a5ce2e9faa1ec1df82576d3": "write",
+  "5a5ef029205ef2d37a6c562035b8c6b58c3e389146bd2018d11c6ed07a1f45ca": "risky",
+  "bef261fae5af3044f8b8be72fe74259553d24d924fa7c7023eef8220061404e4": "risky",
+  "97ed28aebced2b9f48e248986e3a95bf0dbf12e595828046823d65a14948ed6f": "read",
+  "00dcb9a48b463b5b857291fbfdbcbb40cd097b9a6d3b1de98c3c973e07a012d3": "write",
+  "21b7c119bcdb16c4302fdf98812e57217c5ce38d4bd4678bfbf4e9cb5392161b": "write",
+  "6abcc3a8fa5541aa978870ad9cbe894d6a4edbc2b3dfcfb77cad68e3d09c9ff0": "write",
+  "426fa5946349d9b9ee0cf445041092a2fc7b25e8f58c2e9cadcb6fa29fd40a51": "read",
+  "d651c28ac2781f1de059e31a6619ee14f0eaca7054f08cc144cef79506ff5cba": "read",
+  "b8385ab9fa3ac00fc45bf2cbe68011e947dc797ae3c7db59d7b3f8eed110c018": "write",
+  "0321977ab4ceddd8c94839a12226c469ca59c0f3d1eccf899dfc2dd48cde6057": "write",
+  "f572562903cc7f3cdfa032454dd58fddf86877fcac37c30881ea0345811e7c47": "write",
+  "6a05b4ec7fb276f19858e29ac8621ec3109f9b2951811aa72a5ab240b3b05be8": "read",
+  "e449ae6a832feae66f588ec88f4c97e7392397e97c3e002ad5cfd49d4c8b7978": "write"
+ },
+ "flags": [
+  "tool descriptions urge running a background doorbell process beside the session",
+  "received messages are untrusted input from other agents"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "0c9feba997eee07f5fa3afeb1fa0bd2d30b2f50feb14e3b5634c0a0ad22f212a",
+ "domain": [
+  "commerce/deals",
+  "shopping"
+ ],
+ "product": [
+  "discounthub"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Searches product deals, promo codes and store offers in the DiscountHub catalogue, with filters for country, store, category and price.",
+ "whenToUse": "Use when a user wants discounts, coupon codes or the best current deals on a product or at a merchant.",
+ "tasks": [
+  "search deals",
+  "find promo codes",
+  "get store offers",
+  "rank best deals",
+  "list stores",
+  "list categories",
+  "look up offer details",
+  "compare two searches"
+ ],
+ "effects": {
+  "0dce46fb5a93df036824f906560860559614783aec2f3ce6cfe46e5f026f93ce": "read",
+  "eecb0144307f8e1910b42372fe5fec5a2b93d0b47fed6e433b8f46f2058ccfaf": "read",
+  "0fc37ab99db8245743094207940979ae3fa106f38e11efb86261dfa669634004": "read",
+  "c7df68fff5a587d777cc36b7d127aff6be4d8c6b370f6c09d1d467fd6bbd2b3a": "read",
+  "266f25d1479830d58cd27c2593a8af103f674589391062a8ad183b7a73c1ef8c": "read",
+  "55e3f81bdb0504e64e6583e8dcd72b82d4c7640d2185c2caa88ea28dcbdae1d2": "read",
+  "3fec90a6403f1f9dbed932423f78a2b5bc03f9b17ad8fb1bac445e26f0557b55": "read",
+  "eba7db90134b94c9b61ae1d21db8664a9370e4191117649abd65eae3036acb68": "read"
+ },
+ "flags": []
+}

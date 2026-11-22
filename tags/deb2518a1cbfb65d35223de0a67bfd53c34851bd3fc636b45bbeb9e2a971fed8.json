@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "deb2518a1cbfb65d35223de0a67bfd53c34851bd3fc636b45bbeb9e2a971fed8",
+ "domain": [
+  "business/point-of-sale",
+  "business/inventory",
+  "finance/accounting"
+ ],
+ "product": [
+  "tecopos"
+ ],
+ "audience": [
+  "operations",
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages a Tecopos business account covering sales, inventory, cash, customers, purchases and reports.",
+ "whenToUse": "Use when an agent needs to check or manage sales, stock, cash or purchases in a Tecopos business.",
+ "tasks": [
+  "review sales",
+  "manage inventory",
+  "track cash",
+  "manage customers",
+  "record purchases",
+  "generate reports"
+ ],
+ "effects": {},
+ "flags": []
+}

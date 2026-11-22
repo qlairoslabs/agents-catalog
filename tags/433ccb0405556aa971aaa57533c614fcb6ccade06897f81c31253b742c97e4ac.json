@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "433ccb0405556aa971aaa57533c614fcb6ccade06897f81c31253b742c97e4ac",
+ "domain": [
+  "productivity/calculators",
+  "math"
+ ],
+ "product": [
+  "mcpcalc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Online calculators and a computer algebra system with shareable prefilled URLs and live collaborative sessions.",
+ "whenToUse": "Use when you need a precise calculation (finance, math, CAS) or a shareable calculator session.",
+ "tasks": [
+  "list calculators",
+  "get calculator schema",
+  "run calculation",
+  "generate prefilled URL",
+  "evaluate CAS expressions",
+  "create interactive session",
+  "push actions into session",
+  "read session state",
+  "close session"
+ ],
+ "effects": {
+  "80af994547f388f70d81eb0cefb1204e01fec3244e25a9ac86287fd3365089fb": "read",
+  "dd4e05fe600b4c19d762645576b94ab267e3b218f93eca37012150f963ca7b90": "read",
+  "3c8a7dc74ef4eb1d8687c9e3b3b192543bbe030a65c716cdc9d26ab975347ba0": "read",
+  "58425963a9eff2fec4e337060ad4704ba57e0a6e0a6fedf2421e4c20bbc9d8b0": "read",
+  "5816ccf9f6938a9d8c751c1800a7ad749b2bbac4df87212c976d39605ad82088": "read",
+  "ebfc5509ffa00a302cded28f0bb97a1f77a063c203df93ed4c8c99b1bc54c2c8": "read",
+  "5b414bdf432afdfa5c4b12fe8a21712b4e1fdf458470832286fe2b49c2aa3a77": "write",
+  "34154d44bb6f58100aa61bd1163ff5dd9eaaa0c4ac2fd887edbee914866925f7": "read",
+  "723896f9b4893f9da53f664f72f125377be3b9aa82ca289ae981c89f6440bec3": "write",
+  "abffae6512cbccef00d1d6b170a3676b01484ff43c141ed70afd54eaa6d4dbe3": "write"
+ },
+ "flags": []
+}

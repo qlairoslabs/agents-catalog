@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7521aeb25cf386439374a7b7154b30311f494ecdd282385ba10ad1dfcb587a2e",
+ "domain": [
+  "lifestyle/wedding-planning"
+ ],
+ "product": [
+  "zola"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds US wedding vendors, registry gifts and invitations, and answers wedding planning questions from Zola.",
+ "whenToUse": "Use when an agent helps someone plan a US wedding, find vendors, or choose registry gifts or invitations.",
+ "tasks": [
+  "find wedding vendors",
+  "browse registry gifts",
+  "browse invitations",
+  "answer wedding planning questions"
+ ],
+ "effects": {},
+ "flags": []
+}

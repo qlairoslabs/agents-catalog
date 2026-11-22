@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "daff810d4800b19ea2422e326236f423e562fd56466f77ce929cff8b9aa87e03",
+ "domain": [
+  "data/social-media",
+  "marketing/social-listening"
+ ],
+ "product": [
+  "tiktok",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides TikTok data through 13 endpoints, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs TikTok videos, profiles or trend data and can pay per request in USDC.",
+ "tasks": [
+  "fetch tiktok videos",
+  "fetch tiktok profiles",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

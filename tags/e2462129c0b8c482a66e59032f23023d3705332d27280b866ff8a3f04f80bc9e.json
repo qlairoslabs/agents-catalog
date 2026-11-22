@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e2462129c0b8c482a66e59032f23023d3705332d27280b866ff8a3f04f80bc9e",
+ "domain": [
+  "communication/community-management"
+ ],
+ "product": [
+  "discord"
+ ],
+ "audience": [
+  "everyone",
+  "marketing",
+  "support"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "work-as-a-team"
+ ],
+ "summary": "Lets agents manage a Discord server, including messages, moderation, roles, forums and events.",
+ "whenToUse": "Use when an agent needs to post, moderate or administer channels, roles or events on Discord.",
+ "tasks": [
+  "send messages",
+  "moderate members",
+  "manage roles",
+  "manage forums",
+  "manage events"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "2a632d09bdca3923ae4929e9d74453eeb586b53ab651405189a8b9e5de986a7b",
+ "domain": [
+  "finance/crypto/market-data"
+ ],
+ "product": [
+  "cryptohopper"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides real-time crypto candles, tickers and order books across many exchanges.",
+ "whenToUse": "Use when the user needs exchange-level crypto price data or order books.",
+ "tasks": [
+  "get candles",
+  "get tickers",
+  "get order books"
+ ],
+ "effects": {},
+ "flags": []
+}

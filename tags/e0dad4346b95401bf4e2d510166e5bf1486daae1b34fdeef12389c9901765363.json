@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e0dad4346b95401bf4e2d510166e5bf1486daae1b34fdeef12389c9901765363",
+ "domain": [
+  "productivity/project-management/risk-forecasting"
+ ],
+ "product": [
+  "genchi",
+  "slack"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Flags projects likely to miss deadlines based on anonymous team confidence votes in Slack.",
+ "whenToUse": "Use when assessing which projects are at risk of slipping their deadlines.",
+ "tasks": [
+  "identify at-risk projects",
+  "read team confidence votes"
+ ],
+ "effects": {},
+ "flags": []
+}

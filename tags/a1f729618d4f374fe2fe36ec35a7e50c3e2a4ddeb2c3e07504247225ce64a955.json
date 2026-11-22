@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "a1f729618d4f374fe2fe36ec35a7e50c3e2a4ddeb2c3e07504247225ce64a955",
+ "domain": [
+  "software/cloud/architecture",
+  "software/cloud/migration"
+ ],
+ "product": [
+  "aws",
+  "azure",
+  "gcp",
+  "heroku",
+  "terraform",
+  "amazon-bedrock"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Gives startups AWS architecture, cost and security advice and helps migrate workloads and AI code to AWS.",
+ "whenToUse": "Use when a startup plans AWS architecture, estimates costs or migrates from another cloud.",
+ "tasks": [
+  "recommend architecture",
+  "estimate costs",
+  "discover resources for migration",
+  "generate terraform",
+  "migrate ai code to bedrock",
+  "check activate credits eligibility"
+ ],
+ "effects": {},
+ "flags": []
+}

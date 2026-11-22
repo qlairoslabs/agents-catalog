@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "5b03b44898a1ba448479c77162b2e0c468a090ffc8b98d89c28505131748c64f",
+ "domain": [
+  "ai-agents/context-management",
+  "text/summarization"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Selects passages from supplied documents within a token budget and checks that declared exact evidence excerpts are still retained.",
+ "whenToUse": "Use when you need to shrink supplied documents to a token budget while verifying key excerpts remain.",
+ "tasks": [
+  "select passages under token budget",
+  "check evidence retention"
+ ],
+ "effects": {
+  "6e2072628df1cdbb53b5b1cfa12cf36da9061efba4bbba7cb75d886b7cea5ddd": "read"
+ },
+ "flags": []
+}

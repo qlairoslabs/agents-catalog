@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0eb8d184bf71948ddcb208c6628e753c52235e95b988fba4885c12e5704613c0",
+ "domain": [
+  "automotive/used-cars"
+ ],
+ "product": [
+  "motorsingh"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches about 1.5 million used car listings across India by city, make, model, price, year and fuel.",
+ "whenToUse": "Use when a user wants to find used cars for sale in India.",
+ "tasks": [
+  "search used cars",
+  "find city",
+  "get listing details"
+ ],
+ "effects": {
+  "6b8a98f2326a61e324ad30ffcf5875fc710252e29627180dc323a60bbc544421": "write",
+  "10ca160c6b5b190d1e25984466fc83f9b6fa377c3b9586d8d4cee812545f4cd6": "write",
+  "0b960e48d0acb6ba3863571c2031de7b8b1e3a997c3d8cddcbbca2f28c4ec2eb": "write"
+ },
+ "flags": []
+}

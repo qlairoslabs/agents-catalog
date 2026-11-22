@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a902a1703a64ff9c484b447b1fe195644c445e2c736be149e4e4ce9b17e9fddf",
+ "domain": [
+  "software/serverless/workflows"
+ ],
+ "product": [
+  "aws-step-functions"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guides building AWS Step Functions state machines in Amazon States Language with JSONata, and migrating from JSONPath.",
+ "whenToUse": "Use when writing or migrating Step Functions state machines.",
+ "tasks": [
+  "write asl state machines",
+  "use jsonata transformations",
+  "configure error handling",
+  "integrate aws services",
+  "migrate jsonpath to jsonata"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f7aa059c4754bb1870452b254e71e30c78e902ef9ba26e3ca91ec89d167d5a2c",
+ "domain": [
+  "software/cloud/architecture",
+  "business/startups"
+ ],
+ "product": [
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Gives stage-aware AWS architecture advice for startups' non-agent workloads, covering service choice, cost control and diligence prep.",
+ "whenToUse": "Use when a startup founder wants AWS architecture recommendations or reviews rather than code changes.",
+ "tasks": [
+  "recommend aws services",
+  "review architecture",
+  "plan by startup stage",
+  "stretch credits",
+  "control cloud costs",
+  "prepare for technical diligence"
+ ],
+ "effects": {},
+ "flags": []
+}

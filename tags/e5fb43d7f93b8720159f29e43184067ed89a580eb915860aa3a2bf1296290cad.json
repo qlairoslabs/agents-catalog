@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "e5fb43d7f93b8720159f29e43184067ed89a580eb915860aa3a2bf1296290cad",
+ "domain": [
+  "security/breach-monitoring",
+  "security/identity"
+ ],
+ "product": [
+  "breach402",
+  "solana",
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks one owner-verified email for data breaches and credential exposure, paid $1 USDC on Solana via x402, with a defensive report.",
+ "whenToUse": "Use when the owner suspects credential exposure, phishing or a suspicious login and approves a breach check of their own email.",
+ "tasks": [
+  "assess security need",
+  "preview sample report",
+  "verify owner email",
+  "prepare paid check",
+  "retrieve breach report",
+  "revoke authorization"
+ ],
+ "effects": {
+  "a13f632e4354cb2e3113e96b680c12bb09c13f754f6df7b5dd177b854736374c": "read",
+  "52e5427d3e2885cf81e804c58710b1b02f3b51c8dcc04c0f4b37358a39ca7863": "read",
+  "f28ce94661b0594583bf25c59ce7bd72ebb572391821582765f83c442dba9596": "write",
+  "dd276402c654de96bb417f7bc367cafca2230cbec0ee72baea68e95e56b9fc36": "read",
+  "1d3deeda61b7e5386b892ca5bc4f0a67e70c4dcff6d1495282817862e2e6f074": "write",
+  "c13ba34c7295803f1c2e79e91c8e63351857a3d64ca138388b2380c40b00888c": "risky",
+  "efafea5b78be15ea7271711e6c8bba343e529ee71a54814081901f900eaf150e": "read",
+  "38a94906a418d6284b5b893fd91d70d4b366fff26e4b9237e7f79b02702ef3e1": "write"
+ },
+ "flags": [
+  "Report returns raw credential and recovery values; sensitive data",
+  "Involves a paid crypto transaction"
+ ]
+}

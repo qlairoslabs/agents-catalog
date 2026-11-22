@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "629c30abfb41138a5c4d85702b591c49917ec9d2041bc0f58e7b70763e7743b3",
+ "domain": [
+  "commerce/promotional-products",
+  "commerce/custom-merchandise"
+ ],
+ "product": [
+  "promotion-pros",
+  "fedex"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches Promotion Pros' branded merchandise, prices real quantities with decoration options, estimates delivery and can issue an emailed quote.",
+ "whenToUse": "Use when someone needs custom branded merchandise priced, configured and quoted.",
+ "tasks": [
+  "search catalog",
+  "look up products",
+  "get product details",
+  "quote price by quantity",
+  "view imprint options",
+  "view color and size options",
+  "estimate delivery",
+  "issue instant quote"
+ ],
+ "effects": {
+  "a32e298a9f00b535f6bf62244dcef0b1e6d791f44da8d2848735265246b53de0": "read",
+  "c7564b5cf5bdc00da2179d800462c571ebbd354cbe7cef3420097ae1c15c4086": "read",
+  "3ead096752ecfdf76debd128e0971e2a564a2351c1ce85a810f660d94749d2b2": "read",
+  "e4dfd1c3a0f3d802e90965937bf944f134269ef7b817fd43784af47688c89089": "read",
+  "2075b9f4d177dd05dd4ac7fe8135973efe7d94f608d75d475b3379684aa7891d": "read",
+  "f64e26eb294bcd8ec25736fa60ce0ad9cee07e17daee199cdad153de2faab637": "read",
+  "d1096383ed057dd7884fb2a7d98cf3880d48023a87461127f094b99f02c89e8a": "read",
+  "218f4644fc67eb11847038058e8f62307732d41dae96dca43bbb2d066dc12619": "write"
+ },
+ "flags": []
+}

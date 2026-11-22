@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "78b6dd09bb898dca8990d7269efcec3f391d2ece673733bdf45f79e79ada9dc5",
+ "domain": [
+  "content/presentations",
+  "media/narration"
+ ],
+ "product": [
+  "bisque"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Builds narrated presentations from HTML, tracks build status, lists presentations and returns their text.",
+ "whenToUse": "Use when turning HTML content into a narrated presentation or reading an existing Bisque presentation.",
+ "tasks": [
+  "create narrated presentation from html",
+  "poll build status",
+  "list presentations",
+  "read presentation as text"
+ ],
+ "effects": {},
+ "flags": []
+}

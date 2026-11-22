@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9f03b49837b7acd3032f98e1e0108ef0fa2ddf5ebf7f0d61b2c15b71c680a5db",
+ "domain": [
+  "media/audio-editing",
+  "media/transcription"
+ ],
+ "product": [
+  "cleanvoice"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Cleans up audio and video by removing noise and filler words, enhancing sound and producing transcripts.",
+ "whenToUse": "Use when a user wants to clean up podcast, audio or video recordings or get transcripts of them.",
+ "tasks": [
+  "remove background noise",
+  "cut filler words",
+  "enhance audio quality",
+  "transcribe audio and video"
+ ],
+ "effects": {},
+ "flags": []
+}

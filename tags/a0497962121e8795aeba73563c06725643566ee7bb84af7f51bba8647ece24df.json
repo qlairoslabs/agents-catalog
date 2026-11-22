@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a0497962121e8795aeba73563c06725643566ee7bb84af7f51bba8647ece24df",
+ "domain": [
+  "web/website-hosting",
+  "web/publishing"
+ ],
+ "product": [
+  "pagelet"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Free HTML hosting that publishes pages to a pagelet.host subdomain in one step and lets agents list or delete their sites.",
+ "whenToUse": "Use when an agent needs to quickly publish a static HTML page to a public URL at no cost.",
+ "tasks": [
+  "publish html page",
+  "list sites",
+  "delete site"
+ ],
+ "effects": {},
+ "flags": []
+}

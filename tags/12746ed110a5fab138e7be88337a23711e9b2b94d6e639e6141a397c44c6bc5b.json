@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "12746ed110a5fab138e7be88337a23711e9b2b94d6e639e6141a397c44c6bc5b",
+ "domain": [
+  "travel/flights",
+  "travel/hotels"
+ ],
+ "product": [
+  "skiplagged"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches flights, award seats, hotels and rental cars on Skiplagged, with flexible-date calendars and booking links.",
+ "whenToUse": "Use when finding cheap flights, hotel or car options, or award availability for a trip.",
+ "tasks": [
+  "search flights",
+  "find cheap destinations",
+  "flexible date calendars",
+  "search hotels",
+  "hotel room details",
+  "search rental cars",
+  "search award seats",
+  "resolve airport codes",
+  "search FAQ"
+ ],
+ "effects": {
+  "3290f8de0f881a9db596c4127643b4d8b445e26b1c826d0197a0e9cd6877c3df": "write",
+  "524a1ac6bb7669850e6e099399484dd4134643bf23858aa33bb816ade8a1b872": "read",
+  "73b29456d5b87569b59338180dc371ba219dc4bef45562b25b4e185d9b85ee45": "read",
+  "722f0bf3150b31e3224ebe724336e393428e553e59aa649429d3b24142611fa6": "read",
+  "6befd776e216368563c1eb1be4e6e9754fc361afa81bbf2e5236a9d80b97abcf": "read",
+  "8928b083fe00d7911a42a59e6eb9a177adad88a5f27a111e3d16d84657171ab2": "read",
+  "987617f530bc5a4bed654b57a0c1bea27b15ae42795595dc80a1fca7383163f0": "write",
+  "58e7a8871fec00d8b0f45bf16705741484ccf7aaa9dae5927d9e4de971668dff": "read",
+  "96272221c68690627f9cb7295411819b7346bc28013976315d76dbc632a6b823": "read",
+  "e28501400214a50378c28b59c098818d442efa432e0c611471842b2829415a7a": "read",
+  "444f719681803acfe5d9c11062c509de50c586f927b167f72b531297b3a6e2bc": "read"
+ },
+ "flags": []
+}

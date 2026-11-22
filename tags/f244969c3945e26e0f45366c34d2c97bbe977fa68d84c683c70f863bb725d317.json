@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "f244969c3945e26e0f45366c34d2c97bbe977fa68d84c683c70f863bb725d317",
+ "domain": [
+  "travel/vacation-rentals",
+  "hospitality"
+ ],
+ "product": [
+  "beach-valencia",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Checks availability, prices, policies and creates booking requests for Beach Valencia holiday apartments in Valencia, Spain.",
+ "whenToUse": "Use when a traveller wants to find, price or request a stay at Beach Valencia apartments.",
+ "tasks": [
+  "search availability by dates",
+  "compare apartment categories",
+  "get property details",
+  "get exact quote",
+  "read cancellation and check-in policies",
+  "create booking request with payment link"
+ ],
+ "effects": {
+  "4bb20e9ae5c38f6c897be1dab61839c241b32bb3d420cc8050c73a62fb934187": "write",
+  "fd94397414bd27ff8f928cba4006dafd6a1f33a09234dea859d3c9e8ff370fd3": "write",
+  "3aa24b6c36c346ae33b3f7b83b55f39e72c389efa3eac493d89ac61dcb3339d5": "write",
+  "8d1d469dd0b227c17ce37460247a18fba8ce6ecd8920c3e9736a6b99b1163c64": "read",
+  "790f7a512ec5387f28a9395f75ddc81e9837c2411acd041aebc65dca06862b7f": "write"
+ },
+ "flags": []
+}

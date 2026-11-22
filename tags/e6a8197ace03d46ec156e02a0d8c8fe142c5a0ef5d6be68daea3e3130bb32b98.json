@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "e6a8197ace03d46ec156e02a0d8c8fe142c5a0ef5d6be68daea3e3130bb32b98",
+ "domain": [
+  "restaurants/sales-tools",
+  "sales/lead-qualification"
+ ],
+ "product": [
+  "settro",
+  "square",
+  "clover",
+  "instagram",
+  "facebook"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Settro's public sales calculators for restaurants: missed-call loss, direct-order recovery options, social ordering readiness and fit.",
+ "whenToUse": "Use when evaluating a restaurant's missed-call losses or fit for Settro's direct-order and social ordering tools.",
+ "tasks": [
+  "estimate missed-call loss",
+  "compare order recovery options",
+  "assess social ordering readiness",
+  "summarize Settro fit"
+ ],
+ "effects": {
+  "f59c40957712c7f1c4d8a66b223a10c2b30e792a3dfde8026892c73527fcdee2": "read",
+  "0936aa055f83543fb0208823922e6e4ccdde1435b60e5b8bf678ed4b940744ff": "read",
+  "e920d25e37996fe828557e64ec28eae1d0eb270d58e161e98fffe1c80aaf2ded": "read",
+  "dd6c111aae763a2f4a6034b0c23ce6d43fd5aea0897a92cad297898090be2108": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b80539100a10a7560e819ddd8e91b51edc7dd9b3e0121c3bec6817b611ef56f8",
+ "domain": [
+  "finance/market-data/fundamentals",
+  "finance/investing"
+ ],
+ "product": [
+  "roic-ai"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Access to ROIC.AI data on public companies, including financial statements, ratios, prices and earnings call transcripts.",
+ "whenToUse": "Use when an agent needs public company financials, valuation ratios, price history or earnings transcripts for research.",
+ "tasks": [
+  "get financial statements",
+  "get financial ratios",
+  "get stock prices",
+  "read earnings call transcripts"
+ ],
+ "effects": {},
+ "flags": []
+}

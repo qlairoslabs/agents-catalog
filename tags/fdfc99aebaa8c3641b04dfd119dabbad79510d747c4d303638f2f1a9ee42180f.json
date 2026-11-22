@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "fdfc99aebaa8c3641b04dfd119dabbad79510d747c4d303638f2f1a9ee42180f",
+ "domain": [
+  "consulting",
+  "software/scientific-computing"
+ ],
+ "product": [
+  "codereclaimers"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Answers questions about the skills, projects and availability of an independent consultant in computational geometry and scientific computing.",
+ "whenToUse": "Use when assessing this consultant's fit or availability for a technical project.",
+ "tasks": [
+  "query capabilities",
+  "check availability",
+  "get capability manifest"
+ ],
+ "effects": {
+  "17a3424798e5ce9a2a50729c72c0b54aaa619db2ebbfc8f91e338162004a8994": "read",
+  "f18fee7f2649a3c648a9c2ef5f88e751e885eaaa16933711f1046b94f5a0f9e7": "read",
+  "68ebf8acdf30bf0ebfed6da367b61cbd7aec4a73bc8ee08273c5a350d7f4f774": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "85d103b84c6c25ce7abc0087f739933aeb3effd2dad30f88cbc94c8b6564319b",
+ "domain": [
+  "software/code-analysis"
+ ],
+ "product": [
+  "typescript",
+  "javascript"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides structured code analysis tools for TypeScript and JavaScript codebases.",
+ "whenToUse": "Use when analyzing structure, dependencies or dead code in a TypeScript or JavaScript project.",
+ "tasks": [
+  "analyze codebase",
+  "find unused code",
+  "inspect dependencies"
+ ],
+ "effects": {},
+ "flags": []
+}

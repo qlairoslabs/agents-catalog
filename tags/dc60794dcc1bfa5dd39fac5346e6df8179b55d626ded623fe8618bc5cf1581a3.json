@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "dc60794dcc1bfa5dd39fac5346e6df8179b55d626ded623fe8618bc5cf1581a3",
+ "domain": [
+  "travel/tour-operator",
+  "travel/trip-planning"
+ ],
+ "product": [
+  "kratons",
+  "zicasso",
+  "google-reviews"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Lets an agent browse Kratons' tours and sample itineraries in Spain, Portugal and Morocco, read reviews, and submit a proposal request to a human advisor.",
+ "whenToUse": "Use when a traveller wants a bespoke trip to Spain, Portugal or Morocco and you need tour options or to request a proposal.",
+ "tasks": [
+  "get company facts",
+  "list destinations",
+  "search tours and tickets",
+  "list sample itineraries",
+  "read reviews",
+  "check proposal status",
+  "submit proposal request"
+ ],
+ "effects": {
+  "cc24397c1d6653731e2136a48f0fb71bdc893700681d865503839adc90020eb0": "read",
+  "7862abdd195c2484ad405c9431ff09b77dba1905e9c41d59ca1a087fe410ea08": "read",
+  "da2cf5de6120b4cbbe9205180375b2e0e72d0f509da7cb22e64caefab9a46f08": "read",
+  "1b4541ba1876dbbbabf072a00f36458b27e7c8086fbe6fdfca9bd8682814cb43": "read",
+  "d9b790c02b1284a43f5e6380e49ae888c42ecb8e2078c1e4c4b597a28e181d27": "read",
+  "8f9ee3eafedc6de2c0ea312d3bb8d91ea130117d5875617e04358fd850606c9c": "read",
+  "ff745d802a63d9902414b3c0ffe517a8a6a7f3dd235bb1d21c8d2155dce55871": "read",
+  "5b981d35f0c33794bdaeced797aa1702e0c92d07cf01bdcf0d3cc8e2a4647ec3": "write"
+ },
+ "flags": []
+}

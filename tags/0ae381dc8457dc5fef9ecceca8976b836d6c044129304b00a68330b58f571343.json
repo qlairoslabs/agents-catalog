@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0ae381dc8457dc5fef9ecceca8976b836d6c044129304b00a68330b58f571343",
+ "domain": [
+  "software/databases/local-development",
+  "software/containers"
+ ],
+ "product": [
+  "azure-sql-database",
+  "docker",
+  "podman",
+  "microsoft-entra"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs the Azure SQL Database container locally and routes to related skills for compose, CI, seeding, vectors and connections.",
+ "whenToUse": "Use when a user wants a local SQL Server or Azure SQL database in a container, or has trouble starting or connecting to one.",
+ "tasks": [
+  "run azure sql container locally",
+  "connect with sqlcmd",
+  "use podman for sql",
+  "troubleshoot container startup",
+  "configure entra auth on container",
+  "provide connection string",
+  "route to task skills"
+ ],
+ "effects": {},
+ "flags": []
+}

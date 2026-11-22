@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "cd354ba6ebb2666055d9fcbf178b0d8f5482a0c3c99723b9d7551089a77ef1d5",
+ "domain": [
+  "communication/voice-calls/ai-calling",
+  "operations/outreach"
+ ],
+ "product": [
+  "voxplo"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work",
+  "get-customers"
+ ],
+ "summary": "Places outbound AI phone calls and returns a summary, transcript and extracted fields.",
+ "whenToUse": "Use when an agent needs to phone a person or business and capture the outcome.",
+ "tasks": [
+  "place outbound ai calls",
+  "get call summary",
+  "get call transcript",
+  "extract fields from calls"
+ ],
+ "effects": {},
+ "flags": []
+}

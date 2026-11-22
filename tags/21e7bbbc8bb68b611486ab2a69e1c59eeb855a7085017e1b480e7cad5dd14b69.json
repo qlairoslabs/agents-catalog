@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "21e7bbbc8bb68b611486ab2a69e1c59eeb855a7085017e1b480e7cad5dd14b69",
+ "domain": [
+  "productivity/project-management",
+  "productivity/documentation"
+ ],
+ "product": [
+  "jira",
+  "confluence"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Jira and Confluence integration to search and create issues, read documentation and manage sprints.",
+ "whenToUse": "Use when working with Jira issues, sprints or Confluence pages.",
+ "tasks": [
+  "search jira issues",
+  "create jira issues",
+  "manage sprints",
+  "read confluence pages"
+ ],
+ "effects": {},
+ "flags": []
+}

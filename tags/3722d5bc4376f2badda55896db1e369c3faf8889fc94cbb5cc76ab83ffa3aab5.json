@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3722d5bc4376f2badda55896db1e369c3faf8889fc94cbb5cc76ab83ffa3aab5",
+ "domain": [
+  "documents/data-extraction",
+  "ai/structured-output"
+ ],
+ "product": [
+  "velrim"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Extracts data from documents according to a JSON Schema with per-field confidence scores, run as async jobs.",
+ "whenToUse": "Use when pulling structured fields out of documents and needing confidence per field.",
+ "tasks": [
+  "extract document data to json schema",
+  "get field confidence scores",
+  "check async job status"
+ ],
+ "effects": {},
+ "flags": []
+}

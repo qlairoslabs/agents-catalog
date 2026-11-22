@@ -1,0 +1,65 @@
+{
+ "classifier": 2,
+ "contentHash": "6169c99611f81c78092e48a28400aeb2ab082e0f1da54909402c992037d0a1a3",
+ "domain": [
+  "software/data-visualization",
+  "software/frontend"
+ ],
+ "product": [
+  "apexcharts",
+  "apexgantt",
+  "apextree",
+  "apexsankey",
+  "apexgrid",
+  "apexstock",
+  "apexmaps"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Generates and validates configuration for ApexCharts libraries (charts, gantt, tree, sankey, grid, stock, maps) and serves their reference docs.",
+ "whenToUse": "Use when building or debugging charts, Gantt, tree, sankey, grid, stock or map visualizations with ApexCharts libraries.",
+ "tasks": [
+  "generate chart configs",
+  "validate configs",
+  "list chart types",
+  "read library references",
+  "build gantt schedules",
+  "build tree diagrams",
+  "build sankey flows",
+  "build data grids",
+  "build stock charts",
+  "build geographic maps"
+ ],
+ "effects": {
+  "33331f83e19e6f15d9e309aebcbb46e9a4488c537a9cc967785306450705f983": "read",
+  "028694f8bd76c16bd83e9d1ae520f32da9a790779203259eb258b5f464fb5964": "read",
+  "6eb8a0e415e959305aa629456bd8c54ab6d610bc9eb1992e6fa9f5965c64b463": "read",
+  "c73bb68e1b1f488c8c861207637f712d777f35acc1ffcd2be170e7b7c740e831": "read",
+  "8a52d74377361b463c17ce9a0f8f5ae248c2015439c8d914292b7824b1439194": "read",
+  "deee598feeb2ddcd945a2ca544cc7e2acefdc7382c28627959fa8ed0aa646c78": "read",
+  "b4c5916bf7f079d31c123aa3ee6395bcd3e59ac95e24eef3c50f6c04cc9fb552": "write",
+  "11df307942d207620853b9b066db2f8295f2beae31391470015a3201c7807307": "read",
+  "0888398dc06d20f5d2a644d8db0f348d1b0c96fffad743f8e560b71b430103d5": "read",
+  "5b30d8f6337db58037e7377c49e0d7f97f109e0f7d30fd070789e098b649241f": "read",
+  "c5a43e029bd0e09523ade498d62a932a05668345215d7fe09435d8d8ae47f364": "read",
+  "4edaacc1a6058aac10a743a2ed690ea16dfb1b467f41c9904f9bd3665fb7554d": "read",
+  "b234524042f7934a9008a879b4f6b666c11186cea67d9327d493757eb9621b7d": "read",
+  "74d98d48ee76bc6b2a74a2af0cd8fb290baab5b2e78ddf0ad2c1cf7c87c289c4": "read",
+  "dc10f30a72e34e1b6109d6280b5a00a25dbad31dfa30a1877f76708f3181f844": "read",
+  "e4a3054aa8353cd81555fa105fed12ad378680b348145a5f18af119762165126": "read",
+  "623c633e0c3830cbc1b6c602fe5e02ad5f57debfff3bdcfb2a8b87a4dd91a67e": "read",
+  "4a815668a3c04af1beb5a02a6ea48788a2f610ec46b465a538918cd5f82ee668": "read",
+  "062697413a82e97e3478cd28c16b3a9dd6bf931e9fe48559fd3145d8a7f8e826": "read",
+  "4fb63c771cb876aabe84634d58c8c028b04e917c43e625de38481d43a0d3ddfc": "read",
+  "90cd4b070eaf99a8b4fc83d121c36f3159ec191c51a33ccd46cfd0d92792798e": "read",
+  "aa414d96dd9cd203874b1778e73b7ba86244b5456e075c27d9b04ef417dff223": "write",
+  "a48532d5b08972692bf9cf012076282464d3bd60948f819c906ad31b5b9cb810": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c31aa96cbebc6bb2f889c273ca1c8a3598c30a68255a409aebd97eafa24d2fbe",
+ "domain": [
+  "software/feedback/issue-reporting"
+ ],
+ "product": [
+  "azure-sql-database",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "support-customers",
+  "build-software"
+ ],
+ "summary": "Drafts prefilled GitHub issues for bugs or feedback about the azuresql-db skills or the Azure SQL container, submitting only after user confirmation.",
+ "whenToUse": "Use when a user wants to report a bug or request a feature for these skills or the container, or the agent had to work around a skill defect.",
+ "tasks": [
+  "triage skill vs container issue",
+  "choose issue template",
+  "prefill github issue",
+  "request user confirmation before submit"
+ ],
+ "effects": {},
+ "flags": [
+  "instructs the agent to proactively file bug reports when it deviates from the skills, even if the task succeeded"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a6c1bfed3b5784cdfe4351817133c852b5ebb5c29bc75e68548fb5f09903e924",
+ "domain": [
+  "sports/statistics"
+ ],
+ "product": [
+  "askscores"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers plain-English sports statistics questions across NBA, WNBA, NFL, MLB, NHL and college football.",
+ "whenToUse": "Use when a user asks for player, team or game stats in major US sports.",
+ "tasks": [
+  "answer stats questions",
+  "player stats",
+  "game logs",
+  "leaders",
+  "head-to-head"
+ ],
+ "effects": {
+  "76a257485f478f2f48684a9ff498b49f418b4426f17b539e2951dc963232ac88": "read"
+ },
+ "flags": []
+}

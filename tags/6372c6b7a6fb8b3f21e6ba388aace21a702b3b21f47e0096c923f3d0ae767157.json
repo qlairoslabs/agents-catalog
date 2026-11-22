@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6372c6b7a6fb8b3f21e6ba388aace21a702b3b21f47e0096c923f3d0ae767157",
+ "domain": [
+  "software/cloud/infrastructure"
+ ],
+ "product": [
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Helps build, deploy and operate applications on AWS, including writing infrastructure-as-code.",
+ "whenToUse": "Use when deploying or managing applications and infrastructure on AWS.",
+ "tasks": [
+  "author infrastructure-as-code",
+  "use core aws services",
+  "deploy applications"
+ ],
+ "effects": {},
+ "flags": []
+}

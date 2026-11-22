@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "fec5c49f11056bb62f063ddb0c1c8a39de675bf3032528b4b7ed2dc601714031",
+ "domain": [
+  "legal/contracts",
+  "business"
+ ],
+ "product": [
+  "pactlio",
+  "stripe"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Drafts AI-generated contracts and gives statute-cited US state legal requirements and non-compete enforceability checks, with paid unlock of full drafts.",
+ "whenToUse": "Use when a user needs a contract drafted, state-specific contract requirements, or a non-compete enforceability check.",
+ "tasks": [
+  "list contract types",
+  "get jurisdiction requirements",
+  "check non-compete enforceability",
+  "get intake questions",
+  "start contract draft",
+  "check draft status",
+  "get checkout link"
+ ],
+ "effects": {
+  "08fad5fcc7b34d3b6342c98dfabf9dc0307f6e9d5c262ae7655bc7ccd4bae060": "read",
+  "70817f509ead1764162dfe82cf910ff6d4462d575a432a10213542d946de2c2f": "read",
+  "a39d981a5c07ba4729a3346028e432cdb8b9419f296e9b830e1b36d2c99c2243": "read",
+  "1d05d521ecbeb4ae00f910344bb06af1762763b15a1187585fd0de34ca5f6bd7": "read",
+  "41f291f025ac4f7a213dd8e9657656ee38fb9c99ddb08a4fcb51e7af174f6db6": "write",
+  "5575fdac6ed4e98e9162dd60c2e134adfeb24de831c6f9bb8865355e62f8ddb6": "read",
+  "b1513261f255653c7874fa188e524940448a9d22da43395ed06b91ab9b27d43a": "read"
+ },
+ "flags": []
+}

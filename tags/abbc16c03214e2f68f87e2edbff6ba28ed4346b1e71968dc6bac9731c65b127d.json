@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "abbc16c03214e2f68f87e2edbff6ba28ed4346b1e71968dc6bac9731c65b127d",
+ "domain": [
+  "software/serverless",
+  "cloud/aws"
+ ],
+ "product": [
+  "aws",
+  "aws-lambda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for designing, building, deploying, testing and debugging serverless applications on AWS.",
+ "whenToUse": "Use when working on serverless applications on AWS.",
+ "tasks": [
+  "design serverless apps",
+  "build functions",
+  "deploy serverless apps",
+  "test serverless apps",
+  "debug serverless apps"
+ ],
+ "effects": {},
+ "flags": []
+}

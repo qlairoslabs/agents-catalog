@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "84ff471483b0e044b559b51d43fbdb52ee0c79b5446c08a31402bf9fea963ee3",
+ "domain": [
+  "compliance/security-frameworks/audit",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "screenata",
+  "soc-2",
+  "hipaa",
+  "iso-27001"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Manages compliance controls, policies and audit readiness for SOC 2, HIPAA, ISO 27001 and similar frameworks.",
+ "whenToUse": "Use when preparing for a compliance audit or tracking controls and policies.",
+ "tasks": [
+  "manage controls",
+  "manage policies",
+  "track audit readiness"
+ ],
+ "effects": {},
+ "flags": []
+}

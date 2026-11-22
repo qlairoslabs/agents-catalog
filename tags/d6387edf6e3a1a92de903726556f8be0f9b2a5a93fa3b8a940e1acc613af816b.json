@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d6387edf6e3a1a92de903726556f8be0f9b2a5a93fa3b8a940e1acc613af816b",
+ "domain": [
+  "communication/sms/virtual-numbers"
+ ],
+ "product": [
+  "quackr"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Provides virtual phone numbers to receive SMS verification codes and manage numbers.",
+ "whenToUse": "Use when an agent needs a temporary phone number to receive SMS or OTP verification codes.",
+ "tasks": [
+  "get virtual phone numbers",
+  "receive sms",
+  "read otp codes",
+  "manage numbers"
+ ],
+ "effects": {},
+ "flags": [
+  "virtual numbers for sms verification can be used to bypass account verification"
+ ]
+}

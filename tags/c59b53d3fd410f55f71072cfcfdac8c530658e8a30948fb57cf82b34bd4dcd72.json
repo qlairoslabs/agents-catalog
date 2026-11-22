@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "c59b53d3fd410f55f71072cfcfdac8c530658e8a30948fb57cf82b34bd4dcd72",
+ "domain": [
+  "travel/experiences",
+  "travel/itinerary-planning"
+ ],
+ "product": [
+  "peek"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "be-online"
+ ],
+ "summary": "Searches Peek's travel experiences by region, tag and date, with details, availability and pricing, plus embeddable activity tiles.",
+ "whenToUse": "Use when planning a trip and looking for bookable activities and their availability.",
+ "tasks": [
+  "search experiences",
+  "get experience details",
+  "check availability",
+  "list tags",
+  "search regions",
+  "render activity tiles"
+ ],
+ "effects": {
+  "9b04ff595a429befab360080587aaf16ab7166887e2b4905b5e864612691643a": "read",
+  "c4f53c91e7067ff2c1d4df31ec3045b6ac64d54b9803e0fe7d9634742fcb8ae5": "read",
+  "183e768a482280ac656335bbec3caa8dcd48e91a908b8568c7599972df3efb3b": "read",
+  "eeb0ace9fc20089b1ffe0e9d9d5bc571572fd5a2b1719a4ca796e32e007dab1d": "read",
+  "f4ab8fc390639d3fad961c1931e64b123f33f5fc1f18ba56883095d5e29c75c4": "read",
+  "dd135d6d7e331a7a59f809cb29beb800cd53821106ca669ae0d9514645fe93ad": "read"
+ },
+ "flags": []
+}

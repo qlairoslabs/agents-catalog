@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "9be631c64f9d1b2c185b5356c372c3514c1c90eccb40b242ca543d8a687db453",
+ "domain": [
+  "travel/ski-accommodation",
+  "travel"
+ ],
+ "product": [
+  "ski-france"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Search French ski-resort apartments with weekly prices and availability, plus resort, ski area and ski pass information.",
+ "whenToUse": "Use when planning a winter ski holiday in France and comparing apartments, resorts or ski pass prices.",
+ "tasks": [
+  "search apartments",
+  "resolve destination keywords",
+  "list accommodations",
+  "accommodation detail",
+  "list ski areas",
+  "ski area detail",
+  "list resorts",
+  "resort detail",
+  "ski pass prices"
+ ],
+ "effects": {
+  "12a1c91f08e6fb89b3c5d4aa50be784f5327f8cefffb1a127f52282c1c8a81f6": "write",
+  "310824b3ac47b67817b3a137b7e9b6c373e62cecf2b7473391624eebbd0a0bc7": "read",
+  "edad37432f25745d7110fa08e095ac549f371d150a2bed4487ab3f1a5baa1042": "read",
+  "f1010729479104ab349c158cba9793b9dd1ebe46fff063c0a9497309d0b1ba8a": "read",
+  "f989cbcad7ae33d3753c70146d8f5ac5d3cd99462c17221c561466905390e46a": "read",
+  "8c6fd9f62eadae15d1bc6267bcebecacbee8c920a426724f9c75b35b92872048": "read",
+  "117728fec733cf55692389b604929bfb43eed87f85211c52306048c4e038afbd": "read",
+  "de081c7fe5534bcdc22d000e3e1ad8f00c380f07cf123c88e6995f2c372ec3d1": "read",
+  "48f4f58de618d0c38cfad5ab4812f293f3a428f1af05e6f23b076f09a0c40d15": "read",
+  "5880ef1c1e96a35b5f68222f647c0044f45863711c5bf4008b934ed67a8ae6d8": "read"
+ },
+ "flags": []
+}

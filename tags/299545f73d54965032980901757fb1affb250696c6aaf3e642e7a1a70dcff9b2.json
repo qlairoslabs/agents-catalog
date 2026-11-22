@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "299545f73d54965032980901757fb1affb250696c6aaf3e642e7a1a70dcff9b2",
+ "domain": [
+  "family/parenting"
+ ],
+ "product": [
+  "baby-age-calculator"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Computes a baby's exact age, zodiac sign, birthstone and milestone dates from a birth date.",
+ "whenToUse": "Use when a user asks how old a baby is or wants milestone dates for a calendar.",
+ "tasks": [
+  "calculate baby age",
+  "list milestones",
+  "get milestone dates",
+  "get zodiac sign",
+  "get birthstone"
+ ],
+ "effects": {
+  "c9082b55cb230f52f641bb447694461799418737573704787660bdc57af81407": "read",
+  "3ce68a6795511c5315d038fd74457e4ce5b10a8ebfef977d1bff47f32ec4db04": "read",
+  "290443110a9dfa77b1007cd6fadfcb58c2c5981d3e30e87d0d75b32668b12250": "read",
+  "36096ef50b9719a3464fda360529d28a6943181537491a015d6ced80174b4fa6": "read",
+  "0a42310a32536d4b427eec7601633a7f2edf83a410012a2ba2e883b0ce43c81c": "read"
+ },
+ "flags": []
+}

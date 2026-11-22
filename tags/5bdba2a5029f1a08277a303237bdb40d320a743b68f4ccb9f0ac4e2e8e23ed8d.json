@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "5bdba2a5029f1a08277a303237bdb40d320a743b68f4ccb9f0ac4e2e8e23ed8d",
+ "domain": [
+  "marketplace/classifieds",
+  "e-commerce"
+ ],
+ "product": [
+  "unegui-mn"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches classified listings on Unegui.mn, the Mongolian marketplace, with category filters, and opens listing details and seller contacts on request.",
+ "whenToUse": "Use when a user wants to find items, vehicles or property for sale in Mongolia on Unegui.mn.",
+ "tasks": [
+  "search listings",
+  "filter by category and price",
+  "view listing details",
+  "list categories",
+  "get category filters",
+  "reveal seller contact"
+ ],
+ "effects": {
+  "9b7cf622f8b77ebcac9d7edf826ffd4e1814152addb3a36d4345fff10d971199": "read",
+  "b0ab98b2022d3b3258d5243e7a56a0de3ca68ad098a2487b25abb667e04fcc35": "read",
+  "26dbf22dfc74665dabdcbb8bcf41bec672689e89c74dccd0f8b8d73de8d8b325": "read",
+  "45a7ef523b0847dfc3097a83d088c233fdede9ee606b8e70e157f814cb9c1310": "read",
+  "1690d0fa52cd3faec27248a30e4b668ab1c4951dd5c716aabf96956e8a43f8a4": "read"
+ },
+ "flags": []
+}

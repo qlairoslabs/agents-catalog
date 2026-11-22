@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a848b41a716f7ae71bfbabc42c2b945a342bd28be778aa440e161ad8c5527025",
+ "domain": [
+  "sales/prospecting/contact-enrichment"
+ ],
+ "product": [
+  "salesql"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Finds B2B emails and phone numbers and enriches people and company records for prospecting.",
+ "whenToUse": "Use when an agent needs contact details or firmographic data on prospects.",
+ "tasks": [
+  "find business emails",
+  "find phone numbers",
+  "search people",
+  "search companies",
+  "enrich contact records"
+ ],
+ "effects": {},
+ "flags": []
+}

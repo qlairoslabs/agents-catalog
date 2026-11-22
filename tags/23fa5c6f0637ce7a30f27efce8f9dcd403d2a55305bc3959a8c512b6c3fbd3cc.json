@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "23fa5c6f0637ce7a30f27efce8f9dcd403d2a55305bc3959a8c512b6c3fbd3cc",
+ "domain": [
+  "commerce/price-comparison",
+  "retail/product-data"
+ ],
+ "product": [
+  "lemmebuyit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live product prices, promotions, price history and UPC/ASIN matching across more than 100 U.S. retailers.",
+ "whenToUse": "Use when comparing current prices, finding deals or checking price history for a product sold by U.S. retailers.",
+ "tasks": [
+  "compare product prices",
+  "find promotions",
+  "view price history",
+  "match products by upc",
+  "match products by asin"
+ ],
+ "effects": {},
+ "flags": []
+}

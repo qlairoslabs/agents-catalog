@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d0d8bab5ac5dc0efd5f8e9481f09f1e231f8125dad6f374728366aadb055dcd7",
+ "domain": [
+  "publishing/paid-articles",
+  "sports/horse-racing"
+ ],
+ "product": [
+  "bookers"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Drafts, prices and publishes paid articles on BOOKERS and records horse-racing picks.",
+ "whenToUse": "Use when a user wants to write and sell articles on BOOKERS or log horse-racing predictions there.",
+ "tasks": [
+  "draft article",
+  "set article price",
+  "publish paid article",
+  "log horse-racing picks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cd9c96e7c35687a31a95ded574846f57775bd5a18b375a8b2968031648804dae",
+ "domain": [
+  "software/frontend/prototyping",
+  "design"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Generates self-contained single-file HTML playgrounds with visual controls, live preview and prompt output.",
+ "whenToUse": "Use when an interactive HTML explorer would help visualize a design, data set, concept or document.",
+ "tasks": [
+  "create html playgrounds",
+  "build design playgrounds",
+  "build data explorers",
+  "create concept maps",
+  "critique documents"
+ ],
+ "effects": {},
+ "flags": []
+}

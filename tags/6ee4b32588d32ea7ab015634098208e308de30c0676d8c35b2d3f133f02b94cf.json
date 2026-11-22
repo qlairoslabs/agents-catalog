@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6ee4b32588d32ea7ab015634098208e308de30c0676d8c35b2d3f133f02b94cf",
+ "domain": [
+  "automotive/repair-data"
+ ],
+ "product": [
+  "open-labor-project"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides labor times, torque specs, fluid capacities, diagnostic trouble codes and battery specs for vehicles since 1955.",
+ "whenToUse": "Use when estimating auto repair work or looking up vehicle specifications and fault codes.",
+ "tasks": [
+  "look up labor times",
+  "get torque specs",
+  "get fluid capacities",
+  "decode dtc codes",
+  "look up battery specs"
+ ],
+ "effects": {},
+ "flags": []
+}

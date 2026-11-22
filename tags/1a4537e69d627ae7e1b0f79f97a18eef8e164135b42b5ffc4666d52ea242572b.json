@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1a4537e69d627ae7e1b0f79f97a18eef8e164135b42b5ffc4666d52ea242572b",
+ "domain": [
+  "software/ci-cd",
+  "software/testing"
+ ],
+ "product": [
+  "buildkite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs Buildkite CI builds against uncommitted changes in the local working tree.",
+ "whenToUse": "Use when the user asks to run preflight checks or CI on local changes before pushing.",
+ "tasks": [
+  "run ci on local changes",
+  "run preflight builds"
+ ],
+ "effects": {},
+ "flags": []
+}

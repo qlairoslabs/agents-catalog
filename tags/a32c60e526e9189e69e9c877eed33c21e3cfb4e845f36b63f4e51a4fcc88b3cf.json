@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a32c60e526e9189e69e9c877eed33c21e3cfb4e845f36b63f4e51a4fcc88b3cf",
+ "domain": [
+  "documents/pdf"
+ ],
+ "product": [
+  "oxidize-pdf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Generates, parses, splits, merges and edits PDF files using the oxidize-pdf library.",
+ "whenToUse": "Use when a task involves creating or manipulating PDF documents.",
+ "tasks": [
+  "generate pdfs",
+  "parse pdf text",
+  "split pdfs",
+  "merge pdfs",
+  "edit pdf files"
+ ],
+ "effects": {},
+ "flags": []
+}

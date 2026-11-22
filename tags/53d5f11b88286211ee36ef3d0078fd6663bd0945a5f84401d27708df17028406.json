@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "53d5f11b88286211ee36ef3d0078fd6663bd0945a5f84401d27708df17028406",
+ "domain": [
+  "documentation",
+  "software/api"
+ ],
+ "product": [
+  "vooks"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and fetches Vooks' published API documentation, pricing and site overview pages.",
+ "whenToUse": "Use when answering questions about Vooks pricing or its Public Catalog API.",
+ "tasks": [
+  "search docs",
+  "fetch document",
+  "list documents"
+ ],
+ "effects": {
+  "c16c942fa50d96af2cc622ccce0d6d67505dbd838405af6d51dff84030647241": "read",
+  "e3e04146631d5191b7112af27e533732f17ada6777f114b7cbab3df44d2d781c": "read",
+  "7cc13e39f3ec70b0e9e245850c083a07940316aff3c228470bc0e2edbf7d9481": "read"
+ },
+ "flags": []
+}

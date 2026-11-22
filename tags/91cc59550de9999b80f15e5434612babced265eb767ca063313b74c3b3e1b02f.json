@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "91cc59550de9999b80f15e5434612babced265eb767ca063313b74c3b3e1b02f",
+ "domain": [
+  "media/video-summarization",
+  "productivity/research"
+ ],
+ "product": [
+  "bibigpt",
+  "youtube",
+  "bilibili",
+  "tiktok"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Summarizes and transcribes videos and podcasts from YouTube, Bilibili, TikTok and similar platforms.",
+ "whenToUse": "Use when an agent needs a transcript or summary of an online video or podcast episode.",
+ "tasks": [
+  "summarize youtube videos",
+  "transcribe videos",
+  "summarize bilibili and tiktok videos",
+  "summarize podcasts"
+ ],
+ "effects": {},
+ "flags": []
+}

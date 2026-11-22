@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3f10ad995ac5373677f5f92ef72acc96828ffb3a818f09b9b7747c8a614aa3aa",
+ "domain": [
+  "software/mobile-development",
+  "software/debugging"
+ ],
+ "product": [
+  "buoy",
+  "react-native",
+  "flutter"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets agents inspect and control a running React Native or Flutter app through Buoy devtools.",
+ "whenToUse": "Use when an agent needs to debug or drive a live React Native or Flutter app.",
+ "tasks": [
+  "read app state",
+  "drive running app",
+  "debug mobile app"
+ ],
+ "effects": {},
+ "flags": []
+}

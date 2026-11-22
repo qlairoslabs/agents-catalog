@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "1e3f0a92dea9fc1e1c925aa7a3a3143c08bb4993c34aa0de559e955b282f01c3",
+ "domain": [
+  "finance/invoicing",
+  "software/product-info"
+ ],
+ "product": [
+  "faktura-vat",
+  "ksef",
+  "mobilna-faktura"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Gives product, pricing, FAQ and KSeF 2.0 e-invoicing information for RAFSOFT's Faktura VAT Polish invoicing software.",
+ "whenToUse": "Use when answering questions about Faktura VAT editions, pricing or Polish KSeF e-invoicing support.",
+ "tasks": [
+  "search knowledge base",
+  "get product and pricing info",
+  "compare editions",
+  "read FAQ",
+  "get KSeF integration info"
+ ],
+ "effects": {
+  "33f81d10f103c63385356a6d45fd961daddfaf2a9a67a3c9ec2acddf906efcb5": "read",
+  "278e655fcdc5339931eb3f4213609b01e1b8cc3b507dd0863a1d409fd4830c91": "read",
+  "28e9012f5093ae9af9020f82b494fbd5bce03b5f81f35c6b2079cab82cf9c6da": "read",
+  "0d53914ed911951651af339e50ffdcf9f5a5b3391fa5b777ff95f3088b488f08": "read",
+  "e3af3e330e7cbbf08245616a33b6142519f7568e49b4c4fb4f37503160651b72": "read"
+ },
+ "flags": []
+}

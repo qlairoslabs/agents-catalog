@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "73ed7e71fd956addc91aae22b61cf368720bfcffa2bd80ba00a62f0273c5eb92",
+ "domain": [
+  "software/code-quality",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "eslint"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Checks AI-written JavaScript and TypeScript for problems, including weakened tests and risky packages, before work is marked done.",
+ "whenToUse": "Use when an agent writes JS/TS code and needs to verify quality and safety before finishing.",
+ "tasks": [
+  "scan code",
+  "detect weakened tests",
+  "check packages",
+  "verify before completion"
+ ],
+ "effects": {},
+ "flags": []
+}

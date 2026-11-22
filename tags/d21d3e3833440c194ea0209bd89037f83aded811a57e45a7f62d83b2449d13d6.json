@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d21d3e3833440c194ea0209bd89037f83aded811a57e45a7f62d83b2449d13d6",
+ "domain": [
+  "science/quantum-computing",
+  "software/compute-services"
+ ],
+ "product": [
+  "openqasm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Free service that runs OpenQASM 3 quantum programs, validates them and returns signed results without an account.",
+ "whenToUse": "Use when a user wants to execute or check an OpenQASM 3 quantum circuit.",
+ "tasks": [
+  "run openqasm 3 jobs",
+  "validate quantum circuits",
+  "get signed results"
+ ],
+ "effects": {},
+ "flags": []
+}

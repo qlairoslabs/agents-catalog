@@ -1,0 +1,58 @@
+{
+ "classifier": 2,
+ "contentHash": "f3e57b7a64995a05c0c27ada808073d00030a13cd569edbd806af98baa46b0c5",
+ "domain": [
+  "sports/fantasy-football",
+  "data/predictions"
+ ],
+ "product": [
+  "fantasy-premier-league",
+  "fplcopilot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Fantasy Premier League assistant with expected points, team ratings, captain picks, transfers, fixtures, price changes, chip squads and mini-league win odds.",
+ "whenToUse": "Use when an FPL manager wants squad advice, captain or transfer picks, fixture difficulty, price changes or mini-league odds.",
+ "tasks": [
+  "rate a team",
+  "best XI and captain",
+  "captain picks",
+  "find and compare players",
+  "fixture ticker",
+  "price changes",
+  "penalty takers",
+  "best chip squad",
+  "mini-league standings and odds",
+  "gameweek review",
+  "predicted lineups",
+  "rules guides"
+ ],
+ "effects": {
+  "bc6ab531b1541f87dcc2fb15d6f0fc7ef228e4e651cf090dcbd687876da75162": "read",
+  "3e5588ab3512048aaa50f70baf7624248f32d8e5dc0a2d972880019c67619cc3": "read",
+  "8c4dc97bf0ad94ca990c8a4f6295ec2982805c70ad01018879f6b28e1b72f27b": "read",
+  "72f8e047316a99d87802ef670ff9f86b8c7d1a046973840af9f9349f143ddf27": "read",
+  "385845998f5a0108a5de24a6abefa8046713e5f819a9d1b176162d6658a924c4": "read",
+  "80aaf285871ac976d8edd87f623a26aa3a55dca8f9c43a31920756c2df712d61": "read",
+  "4619373e9eef5cefa07f8228cbdf40b36d4b2caf9ad5c556e2c0af874c05dd23": "read",
+  "6642de96ffe3316dc08d24b27a53bc77b45a470281c97e4763736dd898cb87ee": "read",
+  "43e98a775b106ea286503bb3bb91cdd66d1505344045cdc296ff5ecfead5d868": "read",
+  "0879f4ce91b42e78653b4eaf153df570dd3a6b84dae3508fa98d3ef4b076bebf": "read",
+  "3207196f9655ffdaedd683c38e8e411fea21687f179b71c147cfe6878cf2fd16": "read",
+  "acac7d1dc183278b7bd7ec6ba7f9cdcdd6f78fa518dcb5c2ec243f9323bb34fb": "read",
+  "159fe57e7271c175d2c330dc1efee023ba3de838b1601d4fc219d3f60b2946a5": "read",
+  "ea4246b1be6dbbf48cd663f45e65227fb1aa7e010bd91401a8e5486634d16745": "read",
+  "d6ec4e3b2b3229515d86ed0723d21495b630d2707b452a80639b2bc664510439": "read",
+  "47be1ab0616683affdeb4cf4305f8752ce02fe1f39b6dfa76750bb7c9e782ee4": "read",
+  "ef72b5221b54b50ad7ef739dcb8d6cb0e312f59ab36c5277beb91bf88cfaac1e": "read",
+  "65c6f1b7e8c1c0e1acb2bc25e7cdc649cc830f14166f88f002d22f8304a8d8b4": "write",
+  "45d5c2bf86cfef1276462bfb79ac77ee4679977ecbb0662fb2b422b6ff873322": "read",
+  "3caab13049ec56579025dc4d3ba6d19adaf4070923d35bed93d14be0cb5f7629": "read",
+  "e75f31650479f4601ac05021b4bc495d34b2fb76a374f5546531a5fa3ea87c62": "read"
+ },
+ "flags": []
+}

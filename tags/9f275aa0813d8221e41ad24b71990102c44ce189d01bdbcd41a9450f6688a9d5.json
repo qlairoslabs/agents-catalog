@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9f275aa0813d8221e41ad24b71990102c44ce189d01bdbcd41a9450f6688a9d5",
+ "domain": [
+  "legal/privacy/cookie-consent",
+  "web/websites"
+ ],
+ "product": [
+  "consentstack"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Sets up GDPR and CCPA cookie consent by creating sites, publishing banners and scanning trackers.",
+ "whenToUse": "Use when a user needs to add or configure a cookie consent banner on a website for GDPR or CCPA.",
+ "tasks": [
+  "create site",
+  "publish consent banner",
+  "scan trackers",
+  "categorize trackers"
+ ],
+ "effects": {},
+ "flags": []
+}

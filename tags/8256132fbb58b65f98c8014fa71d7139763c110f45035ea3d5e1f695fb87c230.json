@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8256132fbb58b65f98c8014fa71d7139763c110f45035ea3d5e1f695fb87c230",
+ "domain": [
+  "web/cms/wordpress",
+  "software/website-management"
+ ],
+ "product": [
+  "wordpress"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "WordPress plugin exposing about 129 tools so AI assistants can manage a WordPress site.",
+ "whenToUse": "Use when an agent needs to manage content, settings or other parts of a WordPress site.",
+ "tasks": [
+  "manage posts and pages",
+  "manage site content",
+  "administer wordpress site"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7a9bfa81048aec0b2968a93bbd0fdcf15e5f33a2326472605d78bf238c0e18c4",
+ "domain": [
+  "documents/e-signature"
+ ],
+ "product": [
+  "swiftsign"
+ ],
+ "audience": [
+  "everyone",
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "automate-work",
+  "sell"
+ ],
+ "summary": "E-signature service for agents: create a sandbox key, send PDFs for signing, track their status and download the sealed documents.",
+ "whenToUse": "Use when an agent needs to send a PDF for electronic signature and retrieve the signed result.",
+ "tasks": [
+  "create sandbox api key",
+  "send pdf for signature",
+  "track signing status",
+  "download sealed document"
+ ],
+ "effects": {},
+ "flags": []
+}

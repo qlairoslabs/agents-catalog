@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a78bb742c2fa06adfb3f445bad55e89bb9796918e7c5a8647f1e064a0fc072d5",
+ "domain": [
+  "software/mobile-automation",
+  "software/testing"
+ ],
+ "product": [
+  "iphone",
+  "iphone-mirroring",
+  "macos"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Controls a regular iPhone through macOS iPhone Mirroring without Developer Mode or Xcode, with replayable recorded skills.",
+ "whenToUse": "Use when an agent must tap, type or navigate apps on a physical iPhone from a Mac, e.g. for testing or automation.",
+ "tasks": [
+  "tap and swipe on iphone screen",
+  "type text on iphone",
+  "take iphone screenshots",
+  "launch iphone apps",
+  "record and replay skills"
+ ],
+ "effects": {},
+ "flags": []
+}

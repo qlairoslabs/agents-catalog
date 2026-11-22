@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "82deed933894c841c763491f683959b107ae01792f379bb1f1e1c377ea12f56f",
+ "domain": [
+  "hr/job-search",
+  "luxury-industry"
+ ],
+ "product": [
+  "cerulean-jobs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches open jobs at luxury houses and brands, reads full listings and finds similar roles.",
+ "whenToUse": "Use when someone is looking for luxury-sector jobs by brand, place, department or seniority.",
+ "tasks": [
+  "search luxury jobs",
+  "filter by brand and location",
+  "read a listing in full",
+  "find similar roles"
+ ],
+ "effects": {
+  "634087f172faf526e666124522f147c0131f659ef88cf7132b3b178739a5ef7d": "read",
+  "01c20fe051078ca67134c34c7ab25afabb3f20652fec7c78f684fdcf4e370e4c": "read",
+  "e6308b7be37520cb1b3f01069118e4e7e2d51752dac49594ba2ea413d7e89469": "write"
+ },
+ "flags": []
+}

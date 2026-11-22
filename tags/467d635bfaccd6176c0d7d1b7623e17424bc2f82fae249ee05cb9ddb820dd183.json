@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "467d635bfaccd6176c0d7d1b7623e17424bc2f82fae249ee05cb9ddb820dd183",
+ "domain": [
+  "commerce/online-store",
+  "retail/specialty-parts"
+ ],
+ "product": [
+  "suntekstore",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Search a specialty parts and tools store, view product details and policies, build cart checkout links on Stripe, and check order status.",
+ "whenToUse": "Use when a user wants to find or buy hard-to-find hobby parts and tools from SuntekStore or track an order.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "read store policies",
+  "create checkout link",
+  "create multi-item cart",
+  "check order status"
+ ],
+ "effects": {
+  "b5b377523abf2a686e8490d50d204fb63069a902dcfac04a8e72a9a24da8e09d": "write",
+  "f6f3ab7c710df5a2cafee176964d797b98b9d846d2858c07147c3ea5f63424c0": "read",
+  "bc12b1228f6e9715d1f289ce9f6da86bf6b8e56d788ffccc0312b5182741435d": "read",
+  "d05c4292a071a4f66c2affc4bafc2f8ccb274612c00af1d1dbd168185223fb23": "write",
+  "00377b4c6d67f1b09d2dd005789b278bd28b2120b38ba4c3ff31ec6d49e59ce1": "write",
+  "044de9988d20ba535e39690a5f0083d097e40b2c3dbdbf0bfe122c14a7f89020": "read"
+ },
+ "flags": []
+}

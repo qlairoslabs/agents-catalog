@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a64212b1b7a2afa89690a48e20e3ea047b8dc208fb565389f3f681f7eb6f5964",
+ "domain": [
+  "marketing/social-media/instagram"
+ ],
+ "product": [
+  "instagram",
+  "vixai"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule"
+ ],
+ "summary": "Creates, reviews, publishes and schedules Instagram images, carousels and Reels from AI assistants.",
+ "whenToUse": "Use when a user wants to produce and schedule Instagram posts or Reels from chat.",
+ "tasks": [
+  "create instagram images",
+  "create carousels",
+  "create reels",
+  "review posts",
+  "publish posts",
+  "schedule posts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "aea131567b713491b4ef665d702c5f74af545004ec8ad99f44897182736ebcfa",
+ "domain": [
+  "real-estate/rentals",
+  "data/public-records"
+ ],
+ "product": [
+  "lucidrents"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reports on rental buildings in NYC, LA and Chicago with violations, 311 complaints, reviews, rents, landlord records and neighborhood stats.",
+ "whenToUse": "Use when vetting an apartment building, landlord or neighborhood before renting.",
+ "tasks": [
+  "search buildings",
+  "building report card",
+  "landlord record",
+  "neighborhood rents and crime",
+  "tenant review summary"
+ ],
+ "effects": {
+  "3e783d40323c58bdde883356fa0c8316c62b7c89df0fb4d44308e80be586cd2c": "read",
+  "15e0c8b7c7c446ac81b0630a323b51b5d24cb5146b3585739f4069a1f11615f4": "read",
+  "6388e3e1f96e71ac11f3135782f6bd974fd1a2b2c5c583d479ab178c0caab024": "read",
+  "98777854d40c9644453bd4d2d79d6ea6cd5b915e922d7cfb8497a8cd719e8d8e": "read",
+  "9ad7b99cfc242961e03aa4de4719beead99a55c57141695232759b02af031a82": "read"
+ },
+ "flags": []
+}

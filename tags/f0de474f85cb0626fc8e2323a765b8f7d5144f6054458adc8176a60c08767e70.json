@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f0de474f85cb0626fc8e2323a765b8f7d5144f6054458adc8176a60c08767e70",
+ "domain": [
+  "maps/geocoding"
+ ],
+ "product": [
+  "latlng"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Geocoding, reverse geocoding and places search using the LatLng service.",
+ "whenToUse": "Use when converting addresses to coordinates or back, or searching for places.",
+ "tasks": [
+  "geocode addresses",
+  "reverse geocode coordinates",
+  "search places"
+ ],
+ "effects": {},
+ "flags": []
+}

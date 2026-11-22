@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "850ebf1911c3302e486d7e2b60302ef711f436ca34697b6622b5aae1bd06910b",
+ "domain": [
+  "health/medical-coding",
+  "health/billing"
+ ],
+ "product": [
+  "icd-10-cm",
+  "hcc"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "ICD-10-CM and HCC medical coding tools with code verification and claim denial-prevention rules.",
+ "whenToUse": "Use when assigning or checking ICD-10-CM or HCC codes for medical claims.",
+ "tasks": [
+  "look up icd-10-cm codes",
+  "map hcc categories",
+  "check denial-prevention rules",
+  "verify codes"
+ ],
+ "effects": {},
+ "flags": []
+}

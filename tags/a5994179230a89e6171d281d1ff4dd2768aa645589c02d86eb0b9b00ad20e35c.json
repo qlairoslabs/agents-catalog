@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a5994179230a89e6171d281d1ff4dd2768aa645589c02d86eb0b9b00ad20e35c",
+ "domain": [
+  "software/cloud/api-management",
+  "software/serverless"
+ ],
+ "product": [
+  "amazon-api-gateway",
+  "aws-lambda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds and operates REST, HTTP and WebSocket APIs on Amazon API Gateway and troubleshoots their errors.",
+ "whenToUse": "Use when creating, configuring or debugging APIs on Amazon API Gateway.",
+ "tasks": [
+  "create rest http and websocket apis",
+  "configure custom domains",
+  "set up lambda authorizers",
+  "configure usage plans and throttling",
+  "fix cors",
+  "set up vpc links and private apis",
+  "troubleshoot 4xx and 5xx errors",
+  "write iac for api gateway"
+ ],
+ "effects": {},
+ "flags": []
+}

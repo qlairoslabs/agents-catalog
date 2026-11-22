@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "8ec91f8ab9eb7ac8f0c4a96f7a596a2f3d6c0484c0487eed07a285fbe91935aa",
+ "domain": [
+  "science/genetics",
+  "science/genealogy"
+ ],
+ "product": [
+  "theytree"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only lookup of the Y-chromosome haplogroup tree, including lineages, subtrees, defining mutations and Y-SNP name resolution.",
+ "whenToUse": "Use when you need to place a Y-SNP in a haplogroup, traverse the paternal haplogroup tree or list defining mutations.",
+ "tasks": [
+  "list haplogroups",
+  "get haplogroup",
+  "list defining mutations",
+  "get lineage to root",
+  "list child clades",
+  "resolve SNP",
+  "batch resolve SNPs",
+  "get subtree"
+ ],
+ "effects": {
+  "86c8b3de4d21736b8a9e979c08d2b918ebd94d93a63c7169d4d8ed4244e180c5": "read",
+  "7d5523a76cda3f1452133bdfbef4daab3148004e002e465a50931a4f97a343cf": "read",
+  "e638cc7725ae3410843ca4a375c2a5a09eff0618f987289528c5aa118b6ab02f": "read",
+  "85434d2b1d4a673c69af4cfac02e0438ecaad95dc0fff942160f1f726ce278a4": "read",
+  "60510270ddeb2832128f70d575aa4bd98f632eda738a66081717bb1ced2cdfae": "read",
+  "d711287d1bed0ee9eca68ec5c1a2b8ee6a21dadf624002d81a4e0f75e799ef3e": "read",
+  "1669a0f148466ba2bd1a4c85e072191ec93e34cb0f310268fc3e1f479c6b23c1": "read",
+  "2f1b166bd1ee60997d473e8e632cd2d0c0df88bbaec1318bfcc5d46fab50ad14": "read",
+  "5e2abab0bd6abc337c29475eafc8b0317ab0ddbfdccd8110aee7e6a90fa8de5e": "read"
+ },
+ "flags": []
+}

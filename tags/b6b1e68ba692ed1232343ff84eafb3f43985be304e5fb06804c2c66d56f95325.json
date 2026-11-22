@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b6b1e68ba692ed1232343ff84eafb3f43985be304e5fb06804c2c66d56f95325",
+ "domain": [
+  "software/developer-tools/agent-memory",
+  "productivity/notes"
+ ],
+ "product": [
+  "ctlsurf"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "A notebook for AI coding agents that stores pages, datastores, tasks and skills as a shared record over MCP.",
+ "whenToUse": "Use when a coding agent needs persistent pages, task lists or data stores to record and retrieve project work.",
+ "tasks": [
+  "create pages",
+  "manage datastores",
+  "track tasks",
+  "store skills"
+ ],
+ "effects": {},
+ "flags": []
+}

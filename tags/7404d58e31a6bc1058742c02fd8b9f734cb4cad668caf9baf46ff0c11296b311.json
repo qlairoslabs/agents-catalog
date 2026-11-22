@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7404d58e31a6bc1058742c02fd8b9f734cb4cad668caf9baf46ff0c11296b311",
+ "domain": [
+  "logistics/shipping",
+  "commerce/fulfillment"
+ ],
+ "product": [
+  "shippo",
+  "usps",
+  "ups",
+  "fedex",
+  "dhl"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Shippo integration to compare carrier rates, buy shipping labels, validate addresses and track packages.",
+ "whenToUse": "Use when the user needs to rate-shop, buy a shipping label, verify an address or track a parcel.",
+ "tasks": [
+  "compare shipping rates",
+  "buy shipping labels",
+  "create customs declarations",
+  "validate addresses",
+  "track packages"
+ ],
+ "effects": {},
+ "flags": []
+}

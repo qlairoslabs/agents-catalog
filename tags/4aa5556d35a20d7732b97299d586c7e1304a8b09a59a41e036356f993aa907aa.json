@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4aa5556d35a20d7732b97299d586c7e1304a8b09a59a41e036356f993aa907aa",
+ "domain": [
+  "finance/crypto-wallet",
+  "commerce/purchasing"
+ ],
+ "product": [
+  "imba-wallet",
+  "usdt",
+  "tron"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Lets an agent deposit USDT on TRC-20 and buy catalog items with an IMBA key; withdrawals not supported.",
+ "whenToUse": "Use when a user wants an agent to fund an IMBA wallet with USDT and make catalog purchases.",
+ "tasks": [
+  "deposit usdt trc-20",
+  "buy catalog items",
+  "spend with api key"
+ ],
+ "effects": {},
+ "flags": []
+}

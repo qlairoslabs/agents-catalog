@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4a845e69dc5b42bdf29e14eedb122df0de59e20bf18e648dcd452ea1783f42de",
+ "domain": [
+  "finance/erp"
+ ],
+ "product": [
+  "next-finance"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Connects to the NEXT Finance ERP through browser login to work with wallets, accounts and transactions.",
+ "whenToUse": "Use when an agent needs to view or manage accounts and transactions in NEXT Finance ERP.",
+ "tasks": [
+  "log in via browser",
+  "list wallets",
+  "list accounts",
+  "view transactions",
+  "record transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

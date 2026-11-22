@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "eecb56a6a2aaa634cf99456be1ef9579b92019dbfa8d7cccd0abb1f72e2bc8b9",
+ "domain": [
+  "commerce/print-on-demand",
+  "design/merchandise"
+ ],
+ "product": [
+  "1211"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Places a picture or SVG lettering on shirts, hoodies, caps, tumblers or totes and returns a checkout page with mockup and price.",
+ "whenToUse": "Use when the user wants custom printed apparel or merchandise made from their own picture or text.",
+ "tasks": [
+  "list printable items and prices",
+  "check artwork resolution",
+  "upload artwork",
+  "create a product design",
+  "get a saved design",
+  "report a problem"
+ ],
+ "effects": {
+  "b7811016747950c1e1d9eb0462bc0357c0c050e30fbfb98365bdb4f6d0b73a40": "read",
+  "1f482d312f7c31232956a0f82215ffa6560e3366b150ea3b3cda42c9a13414a7": "write",
+  "29792b857a4ba3a4b6e8c727f164795f6bf1b8704d5be2d86edc71842c24b025": "write",
+  "62a547fd595614fac854a800a4613f56efd69e24a015006132e274a11fb7b3f4": "read",
+  "4517e7de84013174edaf4d0004887a5776c99df9bd0cbe1f4e91dbc9e6d39014": "write"
+ },
+ "flags": [
+  "create_design asks the agent to pass its own name in a ref field for attribution"
+ ]
+}

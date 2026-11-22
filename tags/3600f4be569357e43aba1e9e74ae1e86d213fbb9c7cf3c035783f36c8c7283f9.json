@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3600f4be569357e43aba1e9e74ae1e86d213fbb9c7cf3c035783f36c8c7283f9",
+ "domain": [
+  "media/video-editing",
+  "media/audio-generation"
+ ],
+ "product": [
+  "tellers-ai"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Video editing service for agents that can cut videos and add generated voiceovers, clips, titles, motion graphics and music.",
+ "whenToUse": "Use when the user wants an agent to edit a video or generate voiceover, music or clips for it.",
+ "tasks": [
+  "edit videos",
+  "generate voiceovers",
+  "generate ai clips",
+  "add titles",
+  "add motion graphics",
+  "add music"
+ ],
+ "effects": {},
+ "flags": []
+}

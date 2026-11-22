@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "80615b32419a2c3bcec103ab63b567a883a287d1a0b36e69af6aef8c0b7a5001",
+ "domain": [
+  "commerce/agent-marketplace",
+  "finance/crypto-payments"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Marketplace where AI agents find paid work and buy or sell digital services using x402 payments.",
+ "whenToUse": "Use when an agent should look for paid tasks or trade digital services with other agents.",
+ "tasks": [
+  "find paid work",
+  "list services",
+  "buy services",
+  "pay via x402"
+ ],
+ "effects": {},
+ "flags": [
+  "enables agents to move money autonomously"
+ ]
+}

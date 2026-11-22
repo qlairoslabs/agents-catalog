@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d26f50015ed11c361161ae7244f6fc87ba6ae3b4a25e24b5c67fcc8a730264f8",
+ "domain": [
+  "research/video-transcripts",
+  "media/video"
+ ],
+ "product": [
+  "youtube",
+  "tubexperto"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches transcripts of followed YouTube expert channels and answers questions with citations.",
+ "whenToUse": "Use when a user wants cited answers drawn from YouTube expert channels they follow.",
+ "tasks": [
+  "search transcripts",
+  "ask questions over channels",
+  "return cited answers"
+ ],
+ "effects": {},
+ "flags": []
+}

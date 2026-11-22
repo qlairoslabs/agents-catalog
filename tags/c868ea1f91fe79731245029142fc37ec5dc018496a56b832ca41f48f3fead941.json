@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c868ea1f91fe79731245029142fc37ec5dc018496a56b832ca41f48f3fead941",
+ "domain": [
+  "internet/domain-intelligence",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "netapi"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Domain data including top 1M rankings, compromise checks, newly registered domain search and registered domain lists.",
+ "whenToUse": "Use when looking up domain rank, checking if a domain is compromised or finding new registrations.",
+ "tasks": [
+  "get domain rank",
+  "check compromised domains",
+  "search new domains",
+  "list registered domains"
+ ],
+ "effects": {},
+ "flags": []
+}

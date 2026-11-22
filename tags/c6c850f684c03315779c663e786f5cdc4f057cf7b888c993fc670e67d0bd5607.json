@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "c6c850f684c03315779c663e786f5cdc4f057cf7b888c993fc670e67d0bd5607",
+ "domain": [
+  "research/scientific-literature",
+  "research/arxiv"
+ ],
+ "product": [
+  "arxiv",
+  "pith"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Reviews of arXiv papers with verdicts, extracted claims, falsifiers, compiled records, citation graphs and citation verification.",
+ "whenToUse": "Use when an agent needs to assess a specific paper, check whether literature supports a scientific claim, or verify a citation or reference list.",
+ "tasks": [
+  "get paper review",
+  "search papers and claims",
+  "extract premises and falsifier",
+  "read signed human reviews",
+  "show citation neighbors",
+  "compare two papers",
+  "check scientific claims",
+  "verify a citation",
+  "check draft references",
+  "ask the literature a question"
+ ],
+ "effects": {
+  "b3ba59724fef37142bbfbfc25e0b41985baf1a852a44d93a6cfb7cc0a6d4be82": "read",
+  "b018cac256c374946c733fdd422ee9438c48f2a486dbb35140839d79e552b16d": "read",
+  "0bf59cc59370a549d3efbd66e2c57272031b7b71766f9df4c22c9c9a97300635": "read",
+  "eea6bac8756bfa408f7c3efa220a431e63e934616583dcca340e9132ec6f79b6": "read",
+  "e4319aaf4b824d309cbf7bc16de126e932ddea190684fb8c6e4ff00ec111b0b1": "read",
+  "34955c45041e7b221ac6c82469add5d54774ed45adecb625f040ed5d524759d7": "read",
+  "ec25f1dbeff2c5035f76eb6a2932165f9192f56bd03b1133b539a4668bdc2f99": "read",
+  "5b83ce5af97be0f68259db325d50a0fc73098cfa1a0ec6365c3334a02e6ca55d": "read",
+  "996e0be75e3d19c68e197bfbf84996455b6fb26a85eef89833f569643a33815b": "read",
+  "c6e5df8f220768f69f57335c1462e98780f193bc9a5e33a9bb87e8cf5ca23ebb": "read",
+  "b7136697be17d8dc9c1e24d2fc108ef3cbf813392b8eb2a67e6b94bfaf5c0ba9": "write",
+  "f681944a8a7822a81a2c9489e307d30ada5d08322fcc3d38ec29789fcf447048": "read",
+  "3d34b19b1e4277e5cffb7cf6532bb7f7fc0a0f2a2a6625b995387519b02a4f23": "read",
+  "1d3b636f7d07bef35facd5ccbc1dcc43802567958788c15426bb824b0594cce2": "read",
+  "b1fae2ea66bf2c8d42876e6c3e27d00f1e7a183f6dc24fbd21ec56271e326f75": "read",
+  "36c30040d47591070cb802045b5ac0286ea20b0b5cade711c50cb0b7bd028ec9": "write",
+  "11d3e4206ad720f11a7b0e18d8bc868db0fb0981f933237494625185cb11d108": "write",
+  "4786ff45f0c7e8e8571a4afd69f2434182585bf0097fae654e57636f622ce20d": "write",
+  "c162dd05517993a036cd900c996fb253e84d774db97a50bb11b5b0aa2b688e96": "read",
+  "c306537d52148061749bc0ce07e4f7f31019050a00a7cef13b8ab87d6d91e2d9": "read",
+  "c569b63aa2801c7374f0e6fdbcc027db8123fdb4d36a7944e553dfad656a1972": "read",
+  "13e46d9e033592f33c53f5b9786edf728ffad60beeb30c24b3f8fcba1eb93b87": "read",
+  "f3d3cbbdf336ccee7a416f08015c4b9ad9521fab692d65a939d77877ea4ba4fc": "read",
+  "98e88c8878d45871caac819e66400451e12dfd9445e0b5309896ab6718fe6d23": "read"
+ },
+ "flags": []
+}

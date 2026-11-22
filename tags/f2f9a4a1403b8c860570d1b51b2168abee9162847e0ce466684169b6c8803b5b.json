@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f2f9a4a1403b8c860570d1b51b2168abee9162847e0ce466684169b6c8803b5b",
+ "domain": [
+  "business/directory",
+  "ai-agents/discovery"
+ ],
+ "product": [
+  "anots"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Directory of businesses on ANOTS whose AI agents can be searched and asked questions directly.",
+ "whenToUse": "Use when researching products or services and wanting answers from business agents, e.g. for purchase decisions.",
+ "tasks": [
+  "search businesses",
+  "ask a business agent",
+  "ask several businesses at once"
+ ],
+ "effects": {
+  "dc6a969a3ebb5925936730159c4fc43627e3cd2610a439e22d0b50dd64635b77": "read",
+  "0d8fa6123282ee9d61d518c57190328c5759bbf4cae80fdd40143f35737035eb": "write",
+  "2a498f7486fc368175b7fbce8f9a4495fb4311e00fb689e4fd2e3092f280a6f2": "write"
+ },
+ "flags": []
+}

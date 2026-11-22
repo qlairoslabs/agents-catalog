@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5f4bb624958e3433bb056d479922e8b033cc861c4651073f1aacdd55facebcab",
+ "domain": [
+  "finance/trading",
+  "software/code-library"
+ ],
+ "product": [
+  "owl-group-trading"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides a library of Owl Group Trading indicators with verified Python and JavaScript source code and parity proofs.",
+ "whenToUse": "Use when you need the implementation of an Owl Group Trading indicator in Python or JavaScript.",
+ "tasks": [
+  "list indicators",
+  "get indicator source code",
+  "view verification proof"
+ ],
+ "effects": {
+  "98caeca337c7a4a92b5350eb422766622f26e3d5158279b85541b0e938d2f501": "read",
+  "7f452b1045b070f5fd804c4d470e207b352eeec258862b2ae9016fcdd906223a": "read"
+ },
+ "flags": []
+}

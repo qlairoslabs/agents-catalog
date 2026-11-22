@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "8bff0dc1d2d1cdf27544df943945be9db624ed4ea9cca079bb8d2cf20a12b4fe",
+ "domain": [
+  "personal-profile",
+  "scheduling"
+ ],
+ "product": [
+  "google-calendar"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "hire-and-manage",
+  "keep-in-touch"
+ ],
+ "summary": "Public profile of a London platform engineer with work and skills lists, an intro email request, and call booking with confirmation by Google sign-in.",
+ "whenToUse": "Use when someone wants to learn about this engineer, introduce themselves, or book or cancel a call.",
+ "tasks": [
+  "read profile",
+  "list work",
+  "list skills",
+  "read FAQ",
+  "send intro email",
+  "list meeting types",
+  "check availability",
+  "book a meeting",
+  "check booking status",
+  "cancel booking"
+ ],
+ "effects": {
+  "62e7a78a30046a4024fc7e30a151d00c2dd49dde1fd34f9e123edc8d60dbce2d": "read",
+  "6877cd43fead3561f63d5038edbed963455ba4e1fea3dbab40c91bd26aa64820": "read",
+  "d7b16d1aec5ce935ed69f92af34ef4144a5705d2890d379e65932333912c46a6": "read",
+  "ac070ce8b9560049b87ad7f0127b1c71a48c3b568152a66305c8899676920d81": "read",
+  "10a34f996c76ea80856aced9f9b8aec2bd17620370569f7e67f58cfd9805f2f8": "write",
+  "4acb3a86404d6e2c04a2e0dcefe8fba039fb1710598da5ef955a764d3f06bc58": "read",
+  "2863aef4ee2d081e4aed31fbfcabd6ea721b850d20b4cd1d8d390a60c372b58f": "read",
+  "3db9b8e5162a8b27e9057c8d7405e4022709928f7d938d918d1759d5efd1f2c3": "read",
+  "b7f661e7c31bab23b67fd29c1d2cc5ab056d50f6efdd20df21a9d107e7af5adb": "write",
+  "33c87d07a458bf3d93080747c4bec803bcd3772afa2eefe13bf59fd8208650cf": "read",
+  "0b66f9a3edf8a12d6a0dd1dfba5cd31bf79685aebe226c567d8b440d111c7755": "write"
+ },
+ "flags": []
+}

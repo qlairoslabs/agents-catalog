@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "501f5a1af472f7d125aafb1027d4ca99df7c06d98afb2ae83b8758d490f50e89",
+ "domain": [
+  "fundraising/personal-appeal",
+  "crypto"
+ ],
+ "product": [
+  "usdc",
+  "base",
+  "nostr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-paid"
+ ],
+ "summary": "A personal appeal for voluntary USDC support on Base, with optional tasks and a private inbox for agent proposals.",
+ "whenToUse": "Only when a user explicitly wants to read this individual's appeal or send them a proposal; never send funds without the user's decision.",
+ "tasks": [
+  "read appeal",
+  "list open tasks",
+  "get USDC receiving address",
+  "submit proposal",
+  "check receipt"
+ ],
+ "effects": {
+  "ebcdf8348268406dd2baffae969d7ec248a6b5b613aa4a5a41381269230f2582": "read",
+  "b187dc65e5481c3709eff39cb435be8599cb1a7311c13425e02596a7774e7a8e": "read",
+  "5998758598e11408cd3c79cb74e112fca49e1f6cbd88a1df902e1368a6998f49": "read",
+  "940675a6e48ba2a4ef232df39ecbd909de672f3ebfffb2e5446cc42e8552b26f": "write",
+  "613be718650f4847496e0090ad9253e2cd48c6618d4c952767c83d911010916f": "read"
+ },
+ "flags": [
+  "aimed at AI agents to solicit cryptocurrency donations",
+  "provides unsigned USDC transfer instructions"
+ ]
+}

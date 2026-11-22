@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2b89fd9fa70aa050712d6c66dbe1f4256f77d29e6b07b3c87fc76dc53a42362f",
+ "domain": [
+  "sales/cold-email",
+  "sales/crm",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "acquisity"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Runs cold email campaigns, an AI SDR inbox, lead search and a CRM in Acquisity from MCP clients.",
+ "whenToUse": "Use when running outbound sales: finding leads, sending cold email campaigns, handling replies or updating CRM records.",
+ "tasks": [
+  "run cold email campaigns",
+  "manage ai sdr inbox",
+  "search leads",
+  "manage crm records"
+ ],
+ "effects": {},
+ "flags": []
+}

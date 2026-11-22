@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "6a56a191f38f2c7f78c7d22f692bbb55e2cdc8b2b0b65b30ad5f19b067061929",
+ "domain": [
+  "business/analytics",
+  "sales/crm",
+  "marketing/seo"
+ ],
+ "product": [
+  "businessmcp"
+ ],
+ "audience": [
+  "operations",
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers",
+  "run-the-money"
+ ],
+ "summary": "Combines business analytics, CRM, SEO, ads and revenue data in one server with per-data-class scopes.",
+ "whenToUse": "Use when an agent needs a cross-cutting view of a business's analytics, customers, ads or revenue.",
+ "tasks": [
+  "read analytics",
+  "access crm data",
+  "review seo",
+  "review ads",
+  "view revenue"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cb7f615d13b63f629c9c6973eb2eb28e372a5ee127abced258c71c41d6dfd7b3",
+ "domain": [
+  "product/analytics"
+ ],
+ "product": [
+  "pendo"
+ ],
+ "audience": [
+  "development",
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Brings Pendo product analytics into the agent for account health, feature adoption, session replays and feedback analysis.",
+ "whenToUse": "Use when planning or prioritizing product work based on Pendo usage data.",
+ "tasks": [
+  "check account health",
+  "analyze feature adoption",
+  "find and triage session replays",
+  "analyze feedback",
+  "plan with usage data"
+ ],
+ "effects": {},
+ "flags": []
+}

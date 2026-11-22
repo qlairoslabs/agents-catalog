@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a886e8a5c4353edfaf617488d145509d31c10aecad7f2ee6e3c4f79c285bf88f",
+ "domain": [
+  "automotive/collision-parts"
+ ],
+ "product": [
+  "maplev",
+  "tesla"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Catalogue of Tesla Model 3 and Model Y collision parts with OE numbers, CAD prices and Canadian delivery options.",
+ "whenToUse": "Use when a body shop or owner needs to find a Tesla Model 3 or Model Y collision part, its price, or delivery timing in Canada.",
+ "tasks": [
+  "search parts by keyword or OE number",
+  "look up a single part",
+  "list part categories",
+  "get delivery options and fees"
+ ],
+ "effects": {
+  "f047c95dc97a025e0b5709fcf09d7a64c837b6339cc68fd8270c5ae56506dad0": "read",
+  "7a61e49a4e6decd9d452e67a26d9058e1343d942d7b85501da0fc9b1e5a63598": "read",
+  "e8e82b41b69588760bf9596fd9421a2ee19667a9354c9fbc94eadf3e6288ecab": "read",
+  "5b53ef000e778275ace12328f4f3a96e105f2ef4e773a19fcbbf17317cf15b04": "write"
+ },
+ "flags": []
+}

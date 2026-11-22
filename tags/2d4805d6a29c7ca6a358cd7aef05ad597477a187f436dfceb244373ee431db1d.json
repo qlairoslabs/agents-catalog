@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "2d4805d6a29c7ca6a358cd7aef05ad597477a187f436dfceb244373ee431db1d",
+ "domain": [
+  "data/lakehouse",
+  "data/engineering"
+ ],
+ "product": [
+  "oracle-ai-data-platform",
+  "apache-spark",
+  "delta-lake",
+  "mlflow",
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Agent skills for operating an Oracle AI Data Platform Spark/Delta lakehouse: SQL, pipelines, clusters, data quality, governance and MLOps via the aidp CLI.",
+ "whenToUse": "Use when querying, modifying or administering an Oracle AI Data Platform lakehouse through natural language.",
+ "tasks": [
+  "discover catalog",
+  "generate spark sql",
+  "run create insert update delete merge",
+  "optimize and vacuum tables",
+  "ingest files",
+  "profile data and set quality rules",
+  "author and repair pipelines",
+  "provision clusters",
+  "debug via spark ui",
+  "manage roles and credentials",
+  "configure delta sharing",
+  "run mlflow workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

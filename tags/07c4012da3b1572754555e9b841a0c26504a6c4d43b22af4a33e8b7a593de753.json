@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "07c4012da3b1572754555e9b841a0c26504a6c4d43b22af4a33e8b7a593de753",
+ "domain": [
+  "finance/accounting",
+  "finance/financial-reporting"
+ ],
+ "product": [
+  "microsoft-excel"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Turns a trial balance into Schedule III financial statements for Indian companies as an Excel workbook.",
+ "whenToUse": "Use when preparing Schedule III financial statements for an Indian company from a trial balance.",
+ "tasks": [
+  "convert trial balance to schedule iii",
+  "generate excel financial statements"
+ ],
+ "effects": {},
+ "flags": []
+}

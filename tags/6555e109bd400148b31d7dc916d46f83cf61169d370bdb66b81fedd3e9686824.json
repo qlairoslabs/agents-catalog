@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "6555e109bd400148b31d7dc916d46f83cf61169d370bdb66b81fedd3e9686824",
+ "domain": [
+  "ai/model-gateway",
+  "media/generative-content"
+ ],
+ "product": [
+  "ccapi",
+  "suno",
+  "claude",
+  "gpt",
+  "gemini"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Single paid gateway to many AI models for text chat and image, video, music and lyrics generation.",
+ "whenToUse": "Use when needing to generate images, video or music, or query another text model, via one paid API key.",
+ "tasks": [
+  "chat with text models",
+  "generate images",
+  "edit images",
+  "upscale images",
+  "generate videos",
+  "generate music",
+  "extend songs",
+  "write lyrics",
+  "check task status",
+  "check balance",
+  "list models"
+ ],
+ "effects": {
+  "3f606ed3ae536a24ea7c268ec8f0d9512ca5c3e335e59a1b66ac912dfd56ffb4": "write",
+  "a8348adb3cbb01dda58cfd2a4dd18016dbabbdc0036821d39c6755859195b403": "write",
+  "c74d31453bb0539120e49990ff920236eea2daa0c4224a59774609f77f870392": "write",
+  "45d8cbb2d599d26d304b200e342288a0e74edd9936e1ad3a9ce2551a5320c592": "write",
+  "9d50293f3f6d9214ad202aba77ad7e7b9aa95308ac971110b00545fe2bb4e3d6": "write",
+  "0717478c29c742ae812782f15af13cf0c6aa542c86c399376f34e76570244574": "write",
+  "71be1d1f4c0580052e06eff3dd3decc71c95366c3db0bf1adf47a73c8be93146": "write",
+  "a82ec20f44f681881e21708c5fb64b928cfad797b62d9d8da6642650dbc016d2": "read",
+  "cde3fcca3287285166bf3020926c2bf551f9a0b7751f703f3a1e56c00f1f0486": "read",
+  "9d56eed4239ce7db4bef4fd4ea3489cfa3c55a5a50fbf9f6995176e45a8ebdb4": "read",
+  "a80de2dbafd1fa93c45872802b07ac309a95b254462c3e977d904f74076f1894": "write"
+ },
+ "flags": []
+}

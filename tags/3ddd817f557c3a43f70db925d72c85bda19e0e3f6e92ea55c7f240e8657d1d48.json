@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3ddd817f557c3a43f70db925d72c85bda19e0e3f6e92ea55c7f240e8657d1d48",
+ "domain": [
+  "media/video/motion-graphics",
+  "design"
+ ],
+ "product": [
+  "adobe-after-effects"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Connects to Adobe After Effects to inspect compositions and layers, run undo-grouped edits and render frames.",
+ "whenToUse": "Use when an agent needs to inspect or modify an After Effects project or render frames from it.",
+ "tasks": [
+  "inspect compositions",
+  "inspect layers",
+  "edit layers",
+  "group undo steps",
+  "render frames"
+ ],
+ "effects": {},
+ "flags": []
+}

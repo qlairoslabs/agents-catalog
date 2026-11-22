@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "06c4f2e48890b965182f225944c78c2d2b89944d0505a1b69957cca531eaf599",
+ "domain": [
+  "operations/workforce-scheduling"
+ ],
+ "product": [
+  "vigotime"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "hire-and-manage"
+ ],
+ "summary": "Compute rule-based duty rosters with the vigotime planner.",
+ "whenToUse": "Use when creating staff duty rosters or shift plans under scheduling rules.",
+ "tasks": [
+  "compute duty rosters",
+  "plan shifts"
+ ],
+ "effects": {},
+ "flags": []
+}

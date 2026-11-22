@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8c0519c0c89a2e47768bd0d0da124b1b423bf8ebe00dd3d42a6097a9a4f14603",
+ "domain": [
+  "software/debugging",
+  "software/app-builders"
+ ],
+ "product": [
+  "base44"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Helps diagnose production problems in Base44 apps using backend function logs and workflow run history.",
+ "whenToUse": "Use when a Base44 app has errors in production or a scheduled job or automation failed.",
+ "tasks": [
+  "read backend function logs",
+  "review workflow run history",
+  "debug function calls",
+  "diagnose failed scheduled jobs",
+  "investigate app errors"
+ ],
+ "effects": {},
+ "flags": []
+}

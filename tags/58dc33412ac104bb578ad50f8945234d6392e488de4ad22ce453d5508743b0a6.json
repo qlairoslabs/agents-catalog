@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "58dc33412ac104bb578ad50f8945234d6392e488de4ad22ce453d5508743b0a6",
+ "domain": [
+  "ai/tool-directory"
+ ],
+ "product": [
+  "agenlify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Searchable directory of AI tools by task, with pricing, setup steps, limitations and official sources.",
+ "whenToUse": "Use when the user needs to find or compare AI tools suited to a specific task, including pricing and setup details.",
+ "tasks": [
+  "search AI tools by task or name",
+  "filter by pricing and setup",
+  "get product details and limitations",
+  "list tasks with checklists"
+ ],
+ "effects": {
+  "72f74c374c0022e6571e7d128f324e7cc9d97365ec395217840a895b6b7574c6": "read",
+  "f650ed18fe95bef09de9fe35def14e2d154195fa6e9d473cb1e1db35ee61ccf0": "read",
+  "3866a1edbdf0f8b8946daa75cc95c234eae4d8a3a6b33558afa54ac338021645": "read"
+ },
+ "flags": []
+}

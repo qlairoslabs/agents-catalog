@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5b822dd66b2d423e0f02db1892db08664e49561b7688b98838e86a0bdf619b44",
+ "domain": [
+  "finance/crypto/derivatives",
+  "finance/market-data"
+ ],
+ "product": [
+  "sharpe-terminal"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live crypto derivatives market data including funding rates, open interest, basis, arbitrage spreads and new listings.",
+ "whenToUse": "Use when an agent needs current crypto futures data such as funding, open interest, basis or arbitrage opportunities.",
+ "tasks": [
+  "get funding rates",
+  "get open interest",
+  "view basis",
+  "find arbitrage spreads",
+  "track new listings"
+ ],
+ "effects": {},
+ "flags": []
+}

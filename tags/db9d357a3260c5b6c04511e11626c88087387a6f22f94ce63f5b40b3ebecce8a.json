@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "db9d357a3260c5b6c04511e11626c88087387a6f22f94ce63f5b40b3ebecce8a",
+ "domain": [
+  "business/scheduling/appointments",
+  "sales/crm",
+  "finance/billing"
+ ],
+ "product": [
+  "coordinalo"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid",
+  "keep-in-touch"
+ ],
+ "summary": "Handles scheduling, availability, client records, billing and CRM for appointment-based service businesses.",
+ "whenToUse": "Use when managing appointments, clients or invoices for a service business on Coordinalo.",
+ "tasks": [
+  "manage appointments",
+  "check availability",
+  "manage clients",
+  "handle billing",
+  "track crm records"
+ ],
+ "effects": {},
+ "flags": []
+}

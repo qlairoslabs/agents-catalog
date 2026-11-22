@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "87a5c5bc90379ffe659f7d1440826ad6d83c07e691fb36a2c1497499d112c5ec",
+ "domain": [
+  "business/org-charts",
+  "hr/organization"
+ ],
+ "product": [
+  "simplorg"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "work-as-a-team"
+ ],
+ "summary": "Creates an editable org chart from a list of people and reporting lines, and reads existing SimplOrg chart links.",
+ "whenToUse": "Use when a user wants to build or update an org chart from a team description.",
+ "tasks": [
+  "create org chart",
+  "read org chart link",
+  "model dotted-line reporting",
+  "tag departments"
+ ],
+ "effects": {
+  "51d9525f0e5aa53488dd4786a8fe41829fec291441d83aa2320c688e9ebb42c9": "write",
+  "a200a096dea15f81eb5fffb5d3d6dd50dee42cfc91830adee5567f644499c9fd": "read"
+ },
+ "flags": []
+}

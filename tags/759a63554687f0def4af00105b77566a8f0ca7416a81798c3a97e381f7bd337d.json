@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "759a63554687f0def4af00105b77566a8f0ca7416a81798c3a97e381f7bd337d",
+ "domain": [
+  "finance/real-estate-tax",
+  "finance/depreciation"
+ ],
+ "product": [
+  "stripe",
+  "cost-seg-smart"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Quotes cost segregation studies for US properties with Year-1 depreciation estimates, and creates Stripe checkout links to buy them.",
+ "whenToUse": "Use when a US property owner wants a cost segregation study price, tax-savings estimate or purchase link.",
+ "tasks": [
+  "quote cost segregation study",
+  "estimate year-1 depreciation",
+  "estimate tax savings",
+  "create Stripe checkout link"
+ ],
+ "effects": {
+  "2add1f6a6e9a45c20e7ba8ae991d80473d61ee1754216f4cd8f00cf54e1c66cc": "read",
+  "a12a1684e81556506e36db583c1a41cedea9b001d5e0ea85ac3422bac073be02": "write"
+ },
+ "flags": []
+}

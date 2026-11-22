@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "92ad262b20f3ea3138545e15a844d351afc3a601404b4b8125191b003eed8e10",
+ "domain": [
+  "community/online-communities",
+  "education/online-courses",
+  "events"
+ ],
+ "product": [
+  "circle"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-paid",
+  "be-online"
+ ],
+ "summary": "Connector for managing a Circle community, including members, website, discussions, events, courses and payments.",
+ "whenToUse": "Use when an agent needs to manage members, posts, events, courses or payments in a Circle community.",
+ "tasks": [
+  "manage members",
+  "manage discussions",
+  "manage events",
+  "manage courses",
+  "manage payments",
+  "manage community website"
+ ],
+ "effects": {},
+ "flags": []
+}

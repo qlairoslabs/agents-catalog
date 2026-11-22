@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "6d80840f7c043f9dbebd90279d5e826d8f6466c41d24ef564306b38989683e75",
+ "domain": [
+  "news/aggregation"
+ ],
+ "product": [
+  "clstr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Aggregates over 100k articles daily, deduplicated into situations with timelines; free with no key.",
+ "whenToUse": "Use when an agent needs current news grouped into story situations with timelines.",
+ "tasks": [
+  "search news situations",
+  "view situation timelines",
+  "browse deduplicated articles"
+ ],
+ "effects": {},
+ "flags": []
+}

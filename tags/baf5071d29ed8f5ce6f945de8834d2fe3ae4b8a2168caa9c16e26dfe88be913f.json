@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "baf5071d29ed8f5ce6f945de8834d2fe3ae4b8a2168caa9c16e26dfe88be913f",
+ "domain": [
+  "finance/personal-finance",
+  "finance/budgeting"
+ ],
+ "product": [
+  "bonsave"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an MCP client query a user's net worth, spending, transactions, budgets and investment portfolio from Bonsave.",
+ "whenToUse": "Use when a user asks about their personal finances, spending, budgets or portfolio tracked in Bonsave.",
+ "tasks": [
+  "check net worth",
+  "review spending",
+  "list transactions",
+  "view budgets",
+  "view portfolio"
+ ],
+ "effects": {},
+ "flags": []
+}

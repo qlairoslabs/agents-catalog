@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "ffd860dbf12414ef01d46f87e33d6605b18bc92bb71548fbb3403ded3a06d82b",
+ "domain": [
+  "marketing/deep-linking",
+  "commerce/marketplaces"
+ ],
+ "product": [
+  "mobzio",
+  "wildberries",
+  "ozon",
+  "yandex-market",
+  "kaspi"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages marketplace deeplinks for Wildberries, Ozon, Yandex Market and Kaspi with click stats and attributed orders.",
+ "whenToUse": "Use when creating marketplace deeplinks or checking their clicks and attributed orders.",
+ "tasks": [
+  "create deeplinks",
+  "manage links",
+  "view click statistics",
+  "view attributed orders"
+ ],
+ "effects": {},
+ "flags": []
+}

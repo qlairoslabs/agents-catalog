@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "b25b0a84d690cfc4463594fa43c9cda32d0ac36e6887d2598d5e5f4941df59ba",
+ "domain": [
+  "travel/cruises",
+  "travel"
+ ],
+ "product": [
+  "fantasize",
+  "cruisebound"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Cruise price finder across 23 lines and about 30,000 sailings, with value ratings, comparisons, price checks and booking links.",
+ "whenToUse": "Use when someone is comparing cruises, judging a quoted fare or looking for last-minute deals.",
+ "tasks": [
+  "search cruises",
+  "sailing details",
+  "compare cruise lines",
+  "last-minute deals",
+  "fare index",
+  "list options",
+  "report problem",
+  "request specialist help",
+  "check quoted price",
+  "port guide"
+ ],
+ "effects": {
+  "54e1bd6787b37f2e97191e2488bc2c77079c3a394d54898382d4c30621e6ca42": "read",
+  "2c973cf820b1e03cce343f4f462c81ce455f3d74f656dccb2bbbdf561a5ed621": "read",
+  "de847f2050c1f9c9f54c4d740ebcf97cc4ab342e36dc236c278d655de14a35f0": "read",
+  "eaa47403750b7852a9f02300521d5dd2dd6fa1214429e7b9d073301eb84bc1f4": "read",
+  "1cc91af51e50bda7f42011e2be9b9bd6849a5df1f0aed8a10b906a448c9cb348": "read",
+  "3a9c0729fb9bc5add183fc2c0b7fc8971c98986896cb60c158cfc667bd8f1599": "read",
+  "4e9ae8a706df620c02334bb3207290d5414fe4b14840978e2d66acc118e5c913": "write",
+  "a4371cbb60ef285e2feaee1c9e6297cdff658b35f1c844ba241d92c534c33ff3": "write",
+  "fb29ee9f43b363122333864fa35a342cb9f682ec3f096d308d205897a7d936cc": "read",
+  "b13342e28e3411629d9c6f6300e3892c208944b2e98a20ed8af40d6bf0b949ae": "read"
+ },
+ "flags": []
+}

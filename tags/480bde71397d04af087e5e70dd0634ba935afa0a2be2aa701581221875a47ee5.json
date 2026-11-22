@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "480bde71397d04af087e5e70dd0634ba935afa0a2be2aa701581221875a47ee5",
+ "domain": [
+  "media/generative-ai",
+  "documentation"
+ ],
+ "product": [
+  "splice"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Public read-only search of Splice documentation, available models, live prices and templates.",
+ "whenToUse": "Use when looking up Splice docs, model options, prices or templates without signing in.",
+ "tasks": [
+  "search docs",
+  "list models",
+  "get prices",
+  "list templates"
+ ],
+ "effects": {},
+ "flags": []
+}

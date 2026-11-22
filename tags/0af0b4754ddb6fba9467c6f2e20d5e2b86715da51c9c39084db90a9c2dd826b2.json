@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0af0b4754ddb6fba9467c6f2e20d5e2b86715da51c9c39084db90a9c2dd826b2",
+ "domain": [
+  "software/developer-tools/agent-configuration"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Analyzes a codebase and suggests Claude Code hooks, skills, MCP servers and subagents to set up.",
+ "whenToUse": "Use when setting up or improving Claude Code automation for a project.",
+ "tasks": [
+  "analyze codebase",
+  "recommend hooks",
+  "recommend skills",
+  "recommend mcp servers",
+  "recommend subagents"
+ ],
+ "effects": {},
+ "flags": []
+}

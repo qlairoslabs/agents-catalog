@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "3c5af7aafb17eae01621f147c8cea3e7c4562d12f1880dad2bb545e53efc1891",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/languages/php"
+ ],
+ "product": [
+  "appwrite",
+  "php",
+  "laravel",
+  "symfony"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite PHP SDK in server-side PHP apps, including Laravel and Symfony.",
+ "whenToUse": "Use when building a PHP backend that uses Appwrite.",
+ "tasks": [
+  "manage users",
+  "crud database tables",
+  "manage file storage",
+  "call functions",
+  "authenticate with api keys"
+ ],
+ "effects": {},
+ "flags": []
+}

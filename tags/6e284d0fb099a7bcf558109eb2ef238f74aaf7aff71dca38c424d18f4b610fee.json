@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "6e284d0fb099a7bcf558109eb2ef238f74aaf7aff71dca38c424d18f4b610fee",
+ "domain": [
+  "mail/physical-mail",
+  "document-delivery"
+ ],
+ "product": [
+  "postalform",
+  "usps",
+  "stripe",
+  "loqate",
+  "postgrid"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Create and pay for real mailed letters, PDFs, government forms and bulk campaigns, with address search, order drafts, tracking and payment via Stripe, MPP or x402.",
+ "whenToUse": "Use when a user wants to physically mail a letter, PDF or workflow form and track delivery.",
+ "tasks": [
+  "browse forms",
+  "search addresses",
+  "upload PDF",
+  "draft letter order",
+  "draft PDF order",
+  "draft form order",
+  "bulk letter campaign",
+  "pay order",
+  "track order status"
+ ],
+ "effects": {
+  "565e9b1f52aa43350fcb80b0f5fa34e069659de561504a90598ac4e8e912cfca": "read",
+  "62618d1ed606c506031f3ab2a31be3da3dfb9da98bd580503f1b3a7aa53e0948": "read",
+  "b7db3981eea2d8461531cf7ceaf2d2c5a3742108d2fca18a6e0fa18882839fcc": "read",
+  "bfb0dc6469d27df439b012cce145418ed874ec8bb68a7ebafc1495b5787bda00": "write",
+  "e818a2e13cfb061897055bfe67a7cf930f0bca2987127f518909f7b5af833839": "write",
+  "621b825757b7e65bb3598cc14c48a35ff3b5fd5bec2f6c31f879e70672be762a": "read",
+  "a83525919ace27b86c6158135baee87a34a933107a1a16f63c7727f39e173e62": "write",
+  "b03515435430adff23622fb6e57a87cde62dac28ac99ce0c593a586e27f6bf92": "write",
+  "470098c5e3f763ad83a48772725fbc8783c9bc9f107445d77cc3d107f4bce39e": "risky",
+  "1fd8f3f4b53d1e18323c4ca61da9edfac01f5f765f52f8299eb0ab02407d735a": "risky",
+  "a6fd1b96db002301dbe6281829f8beb3aa17642d9055f54f6ea781517bfb2965": "risky",
+  "f644f9cd18efadee8651ce71f3e90642021db7b1cf1451d617b19c3a7b890b6c": "write",
+  "486f816555c28e7d5b99cf424b2df694cdbcddefb00df7a923dc80f516a48bab": "read"
+ },
+ "flags": []
+}

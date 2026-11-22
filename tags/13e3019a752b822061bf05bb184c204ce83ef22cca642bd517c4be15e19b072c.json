@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "13e3019a752b822061bf05bb184c204ce83ef22cca642bd517c4be15e19b072c",
+ "domain": [
+  "sales/crm",
+  "marketing/messaging",
+  "events"
+ ],
+ "product": [
+  "sendifai"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "CRM platform with email and SMS messaging, event management and OAuth, exposing many tools and playbooks.",
+ "whenToUse": "Use when an agent needs to manage CRM contacts, run email or SMS campaigns, or handle events in sendifai.",
+ "tasks": [
+  "manage crm contacts",
+  "send email",
+  "send sms",
+  "manage events",
+  "run playbooks"
+ ],
+ "effects": {},
+ "flags": []
+}

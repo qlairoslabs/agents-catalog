@@ -1,0 +1,73 @@
+{
+ "classifier": 2,
+ "contentHash": "bb10a931460c7cc53c9778a0a9c7307863c0937e76545d53259c4b33f93b31ab",
+ "domain": [
+  "software/developer-utilities",
+  "design/color-and-images",
+  "health/nutrition-calculators"
+ ],
+ "product": [
+  "app-store",
+  "itunes-search-api",
+  "app-store-connect"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Collection of 31 deterministic utilities: image conversion and resizing, metadata stripping, App Store assets, colour maths, health and recipe calculators.",
+ "whenToUse": "Use when an agent needs a quick deterministic calculation or file conversion such as icons, image compression, contrast checks, App Store data or calorie estimates.",
+ "tasks": [
+  "estimate ai token counts",
+  "generate app icon and favicon sets",
+  "compress, resize and convert images",
+  "strip exif metadata",
+  "check wcag colour contrast",
+  "convert oklch colours and build ramps",
+  "search app store and compare markets",
+  "calculate app store net revenue",
+  "render app store screenshots",
+  "inspect provisioning profiles and strings files",
+  "calculate bmi, tdee and weight goals",
+  "convert and scale recipes"
+ ],
+ "effects": {
+  "988dfa382e49a02a6aabe37f23e4f9458aafbaf9fc2a94714f0b70328085f834": "write",
+  "7310f9d6002ec2031300de3371cee900eb90efc7a3a03da79db1b491c943cef5": "write",
+  "fd4c63dcb7b96632f9918bfe878796a6c4049ece4b5d23fd8db7960ad1a885ec": "write",
+  "d76cf2e606960a34ddee725d9130368da7488ea1cabe01bd519f856c614aa18f": "write",
+  "6438f7a9b6b14e3babc5c8cc6c37c4539a8e82abf29360f1bb64262bf0990e45": "read",
+  "b66456b8837210ee4db6f70b1cc8b717c57e08048c8974d0e6aabf55ab110424": "write",
+  "0dbade2fbf3494b8466b344d61d54c4db7b826a535c0cf745dca6fae69a9139e": "read",
+  "487102f8ea73908c00e607e714503a76f6095b9873c56f6de60df2760547ebe6": "read",
+  "5a635553970258a5d0597efeba345bc6434ad5194081503071af149823cb9b74": "write",
+  "ee22acf26043e717f6b0f093d769a8230a481840f1af75cec171515f8693dd41": "write",
+  "d1a74c9bbcccfb15b458b444e8eb2f7cb411a3c8d90f45494faacadcacbbf68e": "write",
+  "caf563f7446fb63402fae311e264f21912f9f66557341839cc75d70779a251f7": "read",
+  "203fb58ef3ccae166432b435dcb37f21e53cd4a2204b7d340d12f70ef00cec71": "write",
+  "db9e53f3ce70f9048093000b1ceb77a85171659ffa4ce6cdd7036ebcb7760838": "write",
+  "f5677a64f8b1c796e6bfc67ffa89322921de409b024e9f7027a72fbcc3d95b31": "write",
+  "f706d91152177b9a2ca3dcef9664877c4585650fc618749f98dfb66e23baa3db": "write",
+  "4390f3961e8fb132cf7faa405d9e5c399935867f9893c2ae55c66a2c18366837": "write",
+  "36c24eddd568162d5da3d0fc90520ec3de6c4f4dd04e0e9580623c9460de141b": "write",
+  "ec5e13e37b2bc9ed413ba148f5fad29e143293af2d7d925c1156b13902d09064": "write",
+  "40bb9b0012d87cfa7d5e338460d1982db0d50f6e1ba969f280b1ed6265935093": "read",
+  "8470bcbc997e91c14100662eae3d1d70f99c44532eb72e3e777fe3441ab21e8c": "read",
+  "891b6ae2d56be1a4a3bf4478cbbd8d2ed9efcf8eaa267f28cec6a13f9b4eea89": "write",
+  "5b9cd02e2cafb954f24f3be9652168d4f13e17b67868809e4f6555cfa18ba208": "write",
+  "125b772dc8d06603419069d36da442967e405a86a792f9cd4d9bbd54ab07337b": "write",
+  "5d7a590870a91648384680a5e46e2986a56917dd4d679527da4b430d35054bd3": "write",
+  "28698b50dc6a9448125704cf346773711b04543fd01985774b9d13f5e557ee89": "write",
+  "0d2f4ece35210133090468ca872fe2d1240fa1d3b3b12ce59a4f6732208456f6": "write",
+  "6c902fa2dc03eec937483746363f45be68380a38ca1e6d66f2bc0726d4475aaf": "write",
+  "950640de22289db5d0f5dfcec555637b1ce735ccb600566c49806d21e6b16162": "read",
+  "666dbd471f814f28b6066074d083257158fae85d3768f180a1502fbefd47f7b3": "write",
+  "f37ac0fccc524501676f6805a457a541dc3da373dbbeca54dad04d9eaf2d4a85": "write"
+ },
+ "flags": []
+}

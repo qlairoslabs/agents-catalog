@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4fa5973c1df5eb575d2769713448bd5068840873ac4e13f67e23dfa2c1463105",
+ "domain": [
+  "science/protein-design",
+  "science/drug-discovery"
+ ],
+ "product": [
+  "boltz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Designs new protein, peptide, antibody or nanobody binder candidates for a target with Boltz.",
+ "whenToUse": "Use when a user wants to generate novel protein binders against a target.",
+ "tasks": [
+  "design protein binders",
+  "design peptides",
+  "design antibodies and nanobodies"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c8604dc91f94bd23839cf46e8f95aed160173fedadb8cf7fd77eb0981615cb0f",
+ "domain": [
+  "commerce/marketplaces",
+  "business/analytics"
+ ],
+ "product": [
+  "amazon-seller-central",
+  "amazon-vendor-central"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted connector giving AI assistants access to Amazon Seller and Vendor account data.",
+ "whenToUse": "Use when an agent needs to look up or analyze Amazon Seller or Vendor account data such as sales, orders or inventory.",
+ "tasks": [
+  "access amazon seller data",
+  "access amazon vendor data",
+  "analyze marketplace sales"
+ ],
+ "effects": {},
+ "flags": []
+}

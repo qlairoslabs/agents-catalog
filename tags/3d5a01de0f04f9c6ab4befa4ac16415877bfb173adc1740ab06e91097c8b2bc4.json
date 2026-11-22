@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3d5a01de0f04f9c6ab4befa4ac16415877bfb173adc1740ab06e91097c8b2bc4",
+ "domain": [
+  "automotive/vehicle-listings"
+ ],
+ "product": [
+  "visor"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches US dealer vehicle listings with price statistics, VIN lookup and dealer profiles.",
+ "whenToUse": "Use when someone is shopping for a car in the US or needs to look up a VIN or dealer.",
+ "tasks": [
+  "search vehicle listings",
+  "get price stats",
+  "look up vin",
+  "view dealer profiles"
+ ],
+ "effects": {},
+ "flags": []
+}

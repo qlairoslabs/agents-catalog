@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "ee9e065d396a4cb0ac9af14f3b0b0836972ad29be087c3ed0f913dae8b419b6c",
+ "domain": [
+  "finance/defi",
+  "finance/crypto"
+ ],
+ "product": [
+  "barker",
+  "morpho",
+  "aave",
+  "pendle",
+  "hyperevm"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Stablecoin yield index across DeFi protocols with an advisor, pool history, and unsigned deposit/redeem transactions; calls are paid per use via x402.",
+ "whenToUse": "Use when finding or comparing stablecoin yields or preparing a vault deposit or redeem transaction.",
+ "tasks": [
+  "list yield pools",
+  "market overview",
+  "APY trend vs treasuries",
+  "recommend pools",
+  "pool detail",
+  "pool history",
+  "search pools",
+  "cross-chain routes",
+  "quote deposit/redeem",
+  "read vault position",
+  "hedge-farm estimate"
+ ],
+ "effects": {
+  "eee98bf3cddfe94d8cb53b973a1f34283c286481b1c6e028282c0a5dc810f400": "read",
+  "8b1518050727493eec7b551d932b6247aae308628fa0f91ccf81938088da674d": "read",
+  "de84043e0e504373c8523a33571a1b0db77f67cd6f0422e9c71260634398027c": "read",
+  "8da50581dcbf10eec16748ca8ecf7f14122ce0d2b794c1468734c480bd20cbb9": "read",
+  "defa28ca45b75adb554a4023a3c6aa1a0704435ed3f044772e1841ecd0240a95": "read",
+  "8c032d5dc158a90ba386c330bfd3d7b8442db83e62555fa57c8150a3ab9ee23f": "read",
+  "27c5be471bd9dc0cdcea1d6152609401cf19b539f187b301e69fa741065b5515": "read",
+  "28918bb1dd5d6a1a5fe064a701144e74ec43747481d3c7266cafda7861cacb52": "read",
+  "e433d19869fd67d92fc3a2b0515a0d6621ee4121e8ed3ae80d9c8355ea38c53a": "write",
+  "0f51c05964bea68235dcc77f9e7279aa9c1476db28f55f6962a06a21c6302f03": "write",
+  "855d95d5938784ea7d4a03f9f4fb0fcdbab6418514047a9a89cb3cb485fb429c": "write",
+  "ce4e56c9e2b5fe575193c1429bdb258f118cf414687faa8169cc99fd6f9d1255": "read"
+ },
+ "flags": []
+}

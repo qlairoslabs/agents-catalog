@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "0783359d7ad1430189f64a7780636523139746f291b659b8bae7a0ab17e7a8f0",
+ "domain": [
+  "support/help-center",
+  "healthcare/veterinary-software"
+ ],
+ "product": [
+  "vetofix"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Help and FAQ for Vetofix mobile veterinary practice software, with feature explanations, troubleshooting steps, documented limits and confirmed support ticket creation.",
+ "whenToUse": "Use when answering questions about Vetofix features or problems, or when a user needs a support ticket opened.",
+ "tasks": [
+  "search help articles",
+  "get FAQ answer",
+  "explain a feature",
+  "get troubleshooting steps",
+  "list current limitations",
+  "create support ticket"
+ ],
+ "effects": {
+  "405b50a020e2af3d940e17a26d6eb19c7c44a1292d9de7b475d8d5ab189e986b": "read",
+  "55aa971908f014ebad633ccb5b47503f36897b7b9f8b70586f0e0d876636c7bc": "read",
+  "2d4d0ae28839bda0005da69df87456397b9e48defd375bfa199c3ad06c176353": "read",
+  "5de61c21f21178ab606b6cb64e552a0bb7d5f89cabab34e27ea1a18e29f47256": "read",
+  "65c2ebede0f4542341edf02ba925ef9c10498b34e1a9f05155a6c58f33cd7be6": "read",
+  "d1e7f45f4b83d63d18296c4f10eb8cc4dae9189ab004361400fd9045a77fc8df": "write"
+ },
+ "flags": []
+}

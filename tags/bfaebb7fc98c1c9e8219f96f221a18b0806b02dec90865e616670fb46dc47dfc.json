@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bfaebb7fc98c1c9e8219f96f221a18b0806b02dec90865e616670fb46dc47dfc",
+ "domain": [
+  "software/api-monitoring",
+  "software/devops"
+ ],
+ "product": [
+  "safeship"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "API monitoring from the editor that validates JSON response bodies, not only HTTP status codes.",
+ "whenToUse": "Use when a developer wants to set up or check monitors on API endpoints and their response content.",
+ "tasks": [
+  "monitor api endpoints",
+  "check json responses",
+  "view monitoring results"
+ ],
+ "effects": {},
+ "flags": []
+}

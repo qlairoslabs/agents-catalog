@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "513a00c48e1ecace4f40d8822e19948bdc1b845794f983db5fa88fc29125dfc0",
+ "domain": [
+  "data/databases",
+  "software/low-code"
+ ],
+ "product": [
+  "microsoft-dataverse",
+  "power-platform"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Skills for building on, analyzing and managing Microsoft Dataverse using its MCP server, PAC CLI and Python SDK.",
+ "whenToUse": "Use when building solutions on or querying and managing data in Microsoft Dataverse.",
+ "tasks": [
+  "query dataverse data",
+  "manage tables",
+  "use pac cli",
+  "use python sdk",
+  "analyze dataverse data"
+ ],
+ "effects": {},
+ "flags": []
+}

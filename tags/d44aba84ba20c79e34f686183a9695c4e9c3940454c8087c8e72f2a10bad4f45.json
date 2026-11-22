@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d44aba84ba20c79e34f686183a9695c4e9c3940454c8087c8e72f2a10bad4f45",
+ "domain": [
+  "jobs/visa-sponsorship",
+  "legal/immigration"
+ ],
+ "product": [
+  "uk-sponsor-register",
+  "netherlands-ind-register"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "stay-compliant"
+ ],
+ "summary": "Check whether companies hold UK or Dutch work-visa sponsor licences and test UK offers against Skilled Worker salary thresholds.",
+ "whenToUse": "Use when a job seeker or recruiter needs to verify visa sponsorship or salary eligibility.",
+ "tasks": [
+  "check sponsor licence",
+  "search sponsor register",
+  "get sponsor details",
+  "get register info",
+  "check salary threshold"
+ ],
+ "effects": {
+  "355975ad40d3d9e1cef717b61bc86cda2868cda12c631a750689bdf1be0b3097": "write",
+  "ee2d9fea152debd61602a691a35aa9e18882e005e9759b45961a4e9c9f06fe91": "read",
+  "9b2cfff2dba071b10f481310d70b40df75ae1a08b4af19fffba2ca05ea547356": "read",
+  "96856f38036613be28dc6492edcd538a025f554771ec8ba8869047d55aa476de": "read",
+  "289ba13f68af9bb21d52bc55ed92ef0eaed4e83fc862ee753f32ffe66f0fcc68": "read"
+ },
+ "flags": []
+}

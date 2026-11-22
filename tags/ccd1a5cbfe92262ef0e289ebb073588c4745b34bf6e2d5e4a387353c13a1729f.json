@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ccd1a5cbfe92262ef0e289ebb073588c4745b34bf6e2d5e4a387353c13a1729f",
+ "domain": [
+  "software/web-performance",
+  "software/web-development"
+ ],
+ "product": [
+  "chromium",
+  "core-web-vitals"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs a library of web performance snippets in headless Chromium to measure Core Web Vitals and diagnose page speed issues.",
+ "whenToUse": "Use when an agent needs to measure or debug the loading and rendering performance of a web page.",
+ "tasks": [
+  "measure core web vitals",
+  "run performance snippets",
+  "debug page load speed",
+  "analyze rendering issues"
+ ],
+ "effects": {},
+ "flags": []
+}

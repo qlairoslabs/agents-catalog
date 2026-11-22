@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a13a6828ceb47f1127aab2a3018c58b13e0e6850824e58501d6e144aa6de43b8",
+ "domain": [
+  "productivity/chat-history",
+  "productivity/personal-memory"
+ ],
+ "product": [
+  "memchats"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches personal chat history and contact memory and answers questions about past conversations.",
+ "whenToUse": "Use when the user wants to recall past conversations or details about contacts stored in Memchats.",
+ "tasks": [
+  "search chat history",
+  "search contact memory",
+  "ask advisors about conversations"
+ ],
+ "effects": {},
+ "flags": []
+}

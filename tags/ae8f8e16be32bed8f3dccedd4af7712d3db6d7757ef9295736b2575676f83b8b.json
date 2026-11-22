@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "ae8f8e16be32bed8f3dccedd4af7712d3db6d7757ef9295736b2575676f83b8b",
+ "domain": [
+  "finance/economics/indicators",
+  "data/open-data"
+ ],
+ "product": [
+  "world-bank",
+  "imf",
+  "fred",
+  "oecd"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Free read-only economic indicators for any country from World Bank, IMF, FRED, OECD and other sources.",
+ "whenToUse": "Use when you need macroeconomic indicators such as GDP or inflation for a country.",
+ "tasks": [
+  "get economic indicators",
+  "compare countries",
+  "query world bank data",
+  "query imf data",
+  "query fred data",
+  "query oecd data"
+ ],
+ "effects": {},
+ "flags": []
+}

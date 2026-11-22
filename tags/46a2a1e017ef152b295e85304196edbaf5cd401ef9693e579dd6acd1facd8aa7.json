@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "46a2a1e017ef152b295e85304196edbaf5cd401ef9693e579dd6acd1facd8aa7",
+ "domain": [
+  "data/weather",
+  "agriculture"
+ ],
+ "product": [
+  "precip"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Weather history, nowcasts, forecasts and soil data for saved locations or any US or Canada point.",
+ "whenToUse": "Use when a user needs past, current or forecast weather or soil conditions for a US or Canada location.",
+ "tasks": [
+  "get weather history",
+  "get nowcasts",
+  "get forecasts",
+  "get soil data",
+  "manage saved locations"
+ ],
+ "effects": {},
+ "flags": []
+}

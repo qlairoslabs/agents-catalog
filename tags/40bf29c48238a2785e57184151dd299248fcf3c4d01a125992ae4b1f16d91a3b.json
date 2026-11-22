@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "40bf29c48238a2785e57184151dd299248fcf3c4d01a125992ae4b1f16d91a3b",
+ "domain": [
+  "software/code-quality",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "zenable"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Checks AI-generated code with deterministic guardrails to fix poor quality and prevent security vulnerabilities.",
+ "whenToUse": "Use when reviewing or generating code and you want quality and security checks applied.",
+ "tasks": [
+  "review ai-generated code",
+  "detect vulnerabilities",
+  "enforce coding guardrails"
+ ],
+ "effects": {},
+ "flags": []
+}

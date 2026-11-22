@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "aefb2a135d91b14986bf1fe957f336ff8d9ecd39aefa719915acfbc4ecb8bbe3",
+ "domain": [
+  "ai/evaluation",
+  "ai/agents"
+ ],
+ "product": [
+  "jev"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Requests typed yes/no, choice and score judgments from the Jev service in batched calls.",
+ "whenToUse": "Use when an agent needs structured judgments or decisions from Jev, with escalation support.",
+ "tasks": [
+  "get yes-no judgments",
+  "pick one option",
+  "score items",
+  "escalate decisions"
+ ],
+ "effects": {},
+ "flags": []
+}

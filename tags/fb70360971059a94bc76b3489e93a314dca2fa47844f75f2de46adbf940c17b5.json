@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fb70360971059a94bc76b3489e93a314dca2fa47844f75f2de46adbf940c17b5",
+ "domain": [
+  "software/it-operations/server-management"
+ ],
+ "product": [
+  "managelm",
+  "linux",
+  "windows"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Manages Linux and Windows servers through AI agents, including private agents running local models.",
+ "whenToUse": "Use when an agent needs to administer or troubleshoot Linux or Windows servers.",
+ "tasks": [
+  "manage linux servers",
+  "manage windows servers",
+  "run server tasks via agents"
+ ],
+ "effects": {},
+ "flags": []
+}

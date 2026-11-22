@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "83ddd4404c4a105dc05313b86a39ab4440ffa79b8e29666f8b3b695122224acd",
+ "domain": [
+  "legal/software-directory"
+ ],
+ "product": [
+  "legalaimcp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Directory of AI tools and MCP servers for law firms, with search, shortlists and recommendations by practice area and firm size.",
+ "whenToUse": "Use when a legal team wants to discover AI software for contracts, intake, billing, research or compliance.",
+ "tasks": [
+  "build shortlist",
+  "search tools",
+  "get tool listing",
+  "list categories",
+  "recommend tools"
+ ],
+ "effects": {
+  "fcd4552c691c227f464dd4768089282f6c7537894d8ef69b349887badaa8d982": "read",
+  "0314ade5807ea08d1b1a9a87c51eb1b969fced0ea434c73faf6075005c4e532a": "read",
+  "c4a7105ac1f4d99242474b836f28237ae38e60ece301695e9216e273574e2140": "read",
+  "4a5f2d0109e0919efd7fc7ab30c52f2d79c581016fa21a6dddd1c5ea453847ac": "read",
+  "8934a32ed3b9825d4ddb5a333aa02d9a04541775f70b36c7098846dba8d1d109": "read"
+ },
+ "flags": []
+}

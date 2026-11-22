@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "40768bd24f40793831a06eb283edb5590adee6f3c480aa7357d48bc1ca1d88de",
+ "domain": [
+  "finance/crypto/treasury",
+  "finance/real-world-assets"
+ ],
+ "product": [
+  "solana"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Automated real-world-asset treasury on Solana with daily allocation, on-chain receipts and proofs, and personal vaults.",
+ "whenToUse": "Use when a user wants to inspect or manage a Solana-based RWA treasury vault and its allocation records.",
+ "tasks": [
+  "view daily allocation",
+  "view on-chain receipts",
+  "verify proofs",
+  "manage personal vault"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "aa5409fe0463f7311b4e14b645a7bb028a3e8bcea28d09841d4b55f4b791d2bc",
+ "domain": [
+  "sales/lead-generation"
+ ],
+ "product": [
+  "lyre-leads",
+  "google-maps"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Builds lists of businesses of a given type in a city from Google Maps, enriched from their websites with verified emails.",
+ "whenToUse": "Use when compiling a local business lead list with contact emails.",
+ "tasks": [
+  "find businesses by type and city",
+  "extract website data",
+  "get verified emails"
+ ],
+ "effects": {},
+ "flags": []
+}

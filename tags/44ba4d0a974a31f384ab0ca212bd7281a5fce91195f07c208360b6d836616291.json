@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "44ba4d0a974a31f384ab0ca212bd7281a5fce91195f07c208360b6d836616291",
+ "domain": [
+  "communication/fax"
+ ],
+ "product": [
+  "edwyna"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Sends individual transactional faxes paid with prepaid credit and reports delivery status.",
+ "whenToUse": "Use when you need to send a fax to a recipient and track whether it was delivered.",
+ "tasks": [
+  "send fax",
+  "check fax delivery status",
+  "check prepaid credit"
+ ],
+ "effects": {},
+ "flags": []
+}

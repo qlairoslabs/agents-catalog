@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8172fb483597be238d81d86ec8c8bf63b12f208ab28fd0d70043fc7dfc991780",
+ "domain": [
+  "software/hosting",
+  "web/wordpress"
+ ],
+ "product": [
+  "xcloud",
+  "wordpress"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Official xCloud connector for managing servers, sites, WordPress installs, SSL certificates, backups and deployments.",
+ "whenToUse": "Use when a user hosts servers or WordPress sites on xCloud and wants to manage them, their SSL, backups or deploys.",
+ "tasks": [
+  "manage servers",
+  "manage sites",
+  "manage wordpress",
+  "configure ssl",
+  "run backups",
+  "deploy sites"
+ ],
+ "effects": {},
+ "flags": []
+}

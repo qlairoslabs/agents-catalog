@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a84c8c57126e228b31d308a6811a6c03b01b17ebf079e2e34fce6e4f39e43408",
+ "domain": [
+  "productivity/task-management"
+ ],
+ "product": [
+  "microsoft-to-do",
+  "microsoft-graph"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Manages Microsoft To Do task lists, tasks, checklist items and reminders through the Microsoft Graph API.",
+ "whenToUse": "Use when an agent needs to create, read or update a user's Microsoft To Do tasks or reminders.",
+ "tasks": [
+  "list task lists",
+  "create tasks",
+  "update tasks",
+  "delete tasks",
+  "manage checklist items",
+  "set reminders"
+ ],
+ "effects": {},
+ "flags": []
+}

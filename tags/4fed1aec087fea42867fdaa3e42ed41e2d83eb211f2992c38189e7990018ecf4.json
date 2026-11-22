@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "4fed1aec087fea42867fdaa3e42ed41e2d83eb211f2992c38189e7990018ecf4",
+ "domain": [
+  "fintech/x402-payments",
+  "api/monetization"
+ ],
+ "product": [
+  "neuronto",
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "An x402 facilitator that reports settlement status and prices, lists paid resources, and wraps an API behind USDC payments.",
+ "whenToUse": "Use when a developer wants to charge per call for an API through x402 or find paid resources.",
+ "tasks": [
+  "check facilitator status",
+  "get settlement prices",
+  "find paid resources",
+  "get integration snippet",
+  "monetize an API",
+  "buy credits info"
+ ],
+ "effects": {
+  "fd461b5c5a218a2331f5a76cad3f8d23205744d6208d31e51363e0eb60cc09bf": "read",
+  "7c6f2adfe6ec3845b5339a7197e469284338fe3063f5921f883d741fa3a4a65b": "read",
+  "e4ee2fc21947f700de1023f89854f05391c283ac8689c191fe5d1315ae95b719": "read",
+  "6d86256e03b66d74747746a1c67fe169e4dfa732bc536e611e46013d4db6c5b8": "read",
+  "cc7bde31ada0225a525bd800de116d3faf80cd6829293f7c41bba794f5ed4fe9": "write",
+  "028fcc703288b444ba53afcde74f715627ea2939ca3c82fda418f7d5b11c73fe": "read"
+ },
+ "flags": []
+}

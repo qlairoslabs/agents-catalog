@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f64cf6978a79a752a7d7bbec0c5891031aa37717bee7b043d481489ad95f7428",
+ "domain": [
+  "software/development/code-review",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "coderabbit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs CodeRabbit's AI review and static analyzers on code changes to find bugs, security issues and logic errors with suggested fixes.",
+ "whenToUse": "Use after writing or changing code, before committing, to get an independent review.",
+ "tasks": [
+  "review code changes",
+  "run static analyzers",
+  "detect bugs and vulnerabilities",
+  "apply project guidelines",
+  "suggest fixes"
+ ],
+ "effects": {},
+ "flags": []
+}

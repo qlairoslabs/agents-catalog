@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0f2ef12351bd3ad99e384aa26be454ef9191adf25018c72f506388fbf608efe0",
+ "domain": [
+  "software/networking",
+  "software/testing"
+ ],
+ "product": [
+  "hproxy"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Free public proxy list, live proxy checker and IP geolocation lookup.",
+ "whenToUse": "Use when you need test proxies, to verify proxy health, or to geolocate IP addresses.",
+ "tasks": [
+  "list free proxies",
+  "check proxy liveness",
+  "look up IP geolocation"
+ ],
+ "effects": {
+  "9929cdb56941a941884633bda57a8b09a615dd6f02ad345cc9d852b2da490248": "read",
+  "3910aacf1a748bc2c8dbee8fd7c00cc17c430af1b17c65aa72867111fbae1e42": "read",
+  "e5283526021dc07057e9239b62814208cd7932c83988be1ac8a012d3dd4eb1d2": "read"
+ },
+ "flags": []
+}

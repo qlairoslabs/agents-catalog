@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "da55aef1d4316d713673ceb42be7b7f4aa03861a3b9052f64db0bd66642f933a",
+ "domain": [
+  "knowledge-management/notes",
+  "ai/memory"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Local knowledge base stored as Markdown files that an LLM can read and write in both directions.",
+ "whenToUse": "Use when an agent should keep persistent notes or memory in local Markdown files.",
+ "tasks": [
+  "write notes",
+  "read notes",
+  "search knowledge base",
+  "link related notes"
+ ],
+ "effects": {},
+ "flags": []
+}

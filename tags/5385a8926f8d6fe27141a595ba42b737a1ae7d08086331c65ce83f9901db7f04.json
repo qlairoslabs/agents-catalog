@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5385a8926f8d6fe27141a595ba42b737a1ae7d08086331c65ce83f9901db7f04",
+ "domain": [
+  "pets/marketplace"
+ ],
+ "product": [
+  "pawlisty"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches live pet listings for sale, adoption, lost or found on Pawlisty by species, breed, location and price, plus buyer safety guides.",
+ "whenToUse": "Use when someone wants to find or adopt a pet or check how to avoid pet scams.",
+ "tasks": [
+  "search pet listings",
+  "get listing details",
+  "browse breeds",
+  "get buying safety guide"
+ ],
+ "effects": {
+  "94b950a552ffc6604932e6c268b8c8ac1e317e10eb102ff9069017999e27ada3": "read",
+  "785d1c63617a239cda4edc1e78a4c2e2888dc6761c9f234f9f7bc9ad8ce58383": "read",
+  "c12e77fe2f2b5d8fda6227e216f00b154936d70356be052f7e434eba8dd36304": "read",
+  "519317f6dc178ca5d82d5382d75e5528bf7169ca187d61a1ed64ee23d320e2aa": "read"
+ },
+ "flags": []
+}

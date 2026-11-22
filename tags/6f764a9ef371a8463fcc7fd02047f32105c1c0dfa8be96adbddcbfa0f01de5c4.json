@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6f764a9ef371a8463fcc7fd02047f32105c1c0dfa8be96adbddcbfa0f01de5c4",
+ "domain": [
+  "media/processing",
+  "media/video",
+  "media/images"
+ ],
+ "product": [
+  "transloadit"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Connector that runs Transloadit Robots to encode, convert and transform video, audio, images and documents.",
+ "whenToUse": "Use when an agent needs to transcode, resize, convert or otherwise process media files through Transloadit.",
+ "tasks": [
+  "encode video",
+  "process audio",
+  "resize and convert images",
+  "convert documents",
+  "run transloadit assemblies"
+ ],
+ "effects": {},
+ "flags": []
+}

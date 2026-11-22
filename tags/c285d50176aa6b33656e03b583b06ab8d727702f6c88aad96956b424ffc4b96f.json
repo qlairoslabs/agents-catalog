@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c285d50176aa6b33656e03b583b06ab8d727702f6c88aad96956b424ffc4b96f",
+ "domain": [
+  "business/documents/pdf-forms"
+ ],
+ "product": [
+  "simplepdf"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Finds PDF forms in SimplePDF, reads their fields, prefills them for review and retrieves submissions.",
+ "whenToUse": "Use when an agent needs to fill out a PDF form or collect completed form submissions from SimplePDF.",
+ "tasks": [
+  "find pdf forms",
+  "read form fields",
+  "prefill forms",
+  "retrieve submissions"
+ ],
+ "effects": {},
+ "flags": []
+}

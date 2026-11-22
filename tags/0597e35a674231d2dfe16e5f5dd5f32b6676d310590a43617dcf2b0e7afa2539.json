@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0597e35a674231d2dfe16e5f5dd5f32b6676d310590a43617dcf2b0e7afa2539",
+ "domain": [
+  "legal/swiss-federal-law"
+ ],
+ "product": [
+  "fedlex"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Searches Swiss federal legislation on Fedlex and retrieves consolidated act text, single articles and amendment version dates in French, German or Italian.",
+ "whenToUse": "Use when you need the official text of a Swiss federal law or its version history.",
+ "tasks": [
+  "search laws by title",
+  "get act text",
+  "get a single article",
+  "list consolidation versions"
+ ],
+ "effects": {
+  "cfcd368a4aa001eeb35065c29f0c053f42665c73ab4d352aa96110e4f65a6d40": "read",
+  "8fc057431df8c2b4835a1b40a4f45737e6d0708eec170cde8be92c0dc3bb06b2": "read",
+  "7ff601906b373f09b6c1d93b942539bf5d2713fcdea2ff8e7b9152259494d67b": "read",
+  "b40c13af425b95518a692fb8cf63c10c8d3e383de34060ebf04f73933c068dee": "read"
+ },
+ "flags": []
+}

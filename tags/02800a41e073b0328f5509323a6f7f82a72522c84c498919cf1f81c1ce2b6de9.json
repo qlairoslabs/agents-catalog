@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "02800a41e073b0328f5509323a6f7f82a72522c84c498919cf1f81c1ce2b6de9",
+ "domain": [
+  "software/documentation",
+  "support/knowledge-base"
+ ],
+ "product": [
+  "vitextra"
+ ],
+ "audience": [
+  "support",
+  "everyone"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Searches and reads Vitextra's documentation, product pages, how-to guides, FAQ, glossary and blog.",
+ "whenToUse": "Use when answering questions about Vitextra products or looking up its documentation.",
+ "tasks": [
+  "search knowledge base",
+  "read a page as Markdown",
+  "list products",
+  "answer questions from site content"
+ ],
+ "effects": {
+  "53d9ff371da94e5147d14a0aa9646fe14f3f8d5362553914c7759c3b6fdd8bc1": "read",
+  "ff2ee45fe2565324c2c0337c8f9a5f52564ac431098b594b12fd8d8f02b228c2": "read",
+  "121bd8f0f1bca09de0a9dd8d6513ea46014a8bd6ffe15165e6d0b051a68fe644": "read",
+  "1a8ea94fd695086163f78b252430df1a9e13db637152695beda625a7fef85ddb": "read"
+ },
+ "flags": []
+}

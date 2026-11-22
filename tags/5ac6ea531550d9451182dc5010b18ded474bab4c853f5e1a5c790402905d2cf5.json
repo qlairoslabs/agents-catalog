@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5ac6ea531550d9451182dc5010b18ded474bab4c853f5e1a5c790402905d2cf5",
+ "domain": [
+  "software/remote-execution",
+  "software/fleet-management"
+ ],
+ "product": [
+  "git"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Controls fleets of remote machines with command execution, file operations, git, and map/reduce jobs.",
+ "whenToUse": "Use when an agent must run commands or manage files across many remote machines.",
+ "tasks": [
+  "execute remote commands",
+  "manage remote files",
+  "run git operations",
+  "run fleet operations",
+  "run map-reduce jobs"
+ ],
+ "effects": {},
+ "flags": []
+}

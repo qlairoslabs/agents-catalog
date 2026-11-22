@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "9555db236c9e760bac38d6282e41d69b4201ef2ef1ec06a72e5cbd68f1560b89",
+ "domain": [
+  "real-estate/property-data",
+  "uk/compliance"
+ ],
+ "product": [
+  "hm-land-registry",
+  "environment-agency",
+  "ofcom",
+  "epc-register"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "UK property data by address or postcode: EPC history, sale prices, flood risk, planning, broadband, MEES 2030 compliance, grants and a planning-record gap score.",
+ "whenToUse": "Use when researching a UK property before buying, or checking landlord EPC compliance and grants.",
+ "tasks": [
+  "search property",
+  "get property summary",
+  "get EPC history",
+  "get price history",
+  "get area market",
+  "get flood risk",
+  "get planning history",
+  "get broadband coverage",
+  "get PRISM score",
+  "check MEES compliance",
+  "find grants"
+ ],
+ "effects": {
+  "691da29966c23b0c98510a03626674187914af22d5840a651c5096ce4375cf31": "read",
+  "6ae30002700ef63997f95d4a9a7d8375b2e8a1e7850f44394e20bb3abe0d83a1": "read",
+  "bbed6275c64029b99faa48db2aba52182c54a30132c46477ba700035993e6c02": "read",
+  "40ceb3f2e9c6a41f39c3d32d71aa185c3f1203bf6e22943397fa49970da39be0": "read",
+  "c867e843aa4f6b49af1f67448a01e4c9fe5c413671f2394269703b76f29d2b1b": "read",
+  "a908a2dc8d0090a58d7b1d1e0b37d51127f894b2bd0ac6b4ee5f3ccc0a064ead": "read",
+  "76f7bc2eff8d9c0b8939474427b29b00729961c96d3c548d33b29dfc64b95fd3": "read",
+  "3bc0591c6f0c3e0b51f9f02379f29ab82997d50b358bb53ce693897e7bcee5c3": "read",
+  "a6ed65edfd6680e216a761231fcd2e89b9f8589c19a53a5ea1b274e5509fea7b": "read",
+  "9719c937e0bd668b56505565ee8c442f0a8f1f083127d695db1ae5d45548597f": "read",
+  "dc8bf2c330c7499c3bdb5d558b48e5796d8c350f43dc06d0c60574a8671a032b": "read"
+ },
+ "flags": []
+}

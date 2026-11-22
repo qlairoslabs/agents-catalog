@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7914136d7424655bc10a8d7c525753359a4a550cf9976132f352403031c20303",
+ "domain": [
+  "software/app-generation/low-code"
+ ],
+ "product": [
+  "dataceen"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates a running system from a business description, including data model, API, MCP server, SDKs and a hosted app.",
+ "whenToUse": "Use when someone wants to turn a business description into a deployed backend and app quickly.",
+ "tasks": [
+  "generate data model",
+  "generate api",
+  "generate mcp server",
+  "generate sdks",
+  "deploy hosted app"
+ ],
+ "effects": {},
+ "flags": []
+}

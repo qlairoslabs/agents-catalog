@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b46b587e967121a53b55aa9e32b82d29966a1b98854914c232ee3fa7323f0b7f",
+ "domain": [
+  "productivity/workspaces",
+  "automation/workflows"
+ ],
+ "product": [
+  "omegaai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Queries, browses and automates OmegaAI workspaces over streamable HTTP with OAuth.",
+ "whenToUse": "Use when working with content or automations inside an OmegaAI workspace.",
+ "tasks": [
+  "query workspaces",
+  "browse workspace content",
+  "automate workspace actions"
+ ],
+ "effects": {},
+ "flags": []
+}

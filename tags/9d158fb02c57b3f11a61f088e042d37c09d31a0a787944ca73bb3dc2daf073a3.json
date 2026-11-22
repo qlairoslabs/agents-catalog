@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9d158fb02c57b3f11a61f088e042d37c09d31a0a787944ca73bb3dc2daf073a3",
+ "domain": [
+  "software/game-development",
+  "software/testing"
+ ],
+ "product": [
+  "debuff",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm server that lets coding agents play, test and tune 2D web games using live state, error explanations, replays and fuzzing.",
+ "whenToUse": "Use when a coding agent is building or debugging a 2D web game and needs to observe and test it.",
+ "tasks": [
+  "inspect live game state",
+  "explain errors",
+  "record replays",
+  "fuzz test games",
+  "tune gameplay"
+ ],
+ "effects": {},
+ "flags": []
+}

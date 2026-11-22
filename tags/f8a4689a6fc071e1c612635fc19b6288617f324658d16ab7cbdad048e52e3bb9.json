@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f8a4689a6fc071e1c612635fc19b6288617f324658d16ab7cbdad048e52e3bb9",
+ "domain": [
+  "data/us-county-data",
+  "economics/labor-market"
+ ],
+ "product": [
+  "kcalbin"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "US county-level data including displacement signals, WARN layoff notices, death-care forecasts and a page reader.",
+ "whenToUse": "Use when analysing US county economic signals such as layoffs or displacement.",
+ "tasks": [
+  "get displacement signals",
+  "search warn notices",
+  "get death-care forecasts",
+  "read web pages"
+ ],
+ "effects": {},
+ "flags": []
+}

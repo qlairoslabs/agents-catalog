@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "4a7a59eb81bbe1754ab17715498e29c7bc678eef02984f03430f46225d366f47",
+ "domain": [
+  "retail/price-comparison",
+  "consumer/shopping"
+ ],
+ "product": [
+  "prisjakten"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Searches Norwegian web shop products and shows store prices, price history and the biggest recent price drops.",
+ "whenToUse": "Use when comparing prices in Norwegian shops or judging whether a price is good.",
+ "tasks": [
+  "search products",
+  "check store prices",
+  "view price history",
+  "list biggest price drops"
+ ],
+ "effects": {
+  "e042ff1147f5351aff75b149c3b2795ac642b95176190c99529e65ad7b99d7b5": "read",
+  "2ff44ecb1ce7242ece146168a7c00c8e140cbf400f7254478b95f660ed1b613c": "read",
+  "24e2f5bf5de7d2bdd56762866ee2b7e9bf996ad5c714422d065efed9152e2a33": "read",
+  "747bc2740745f69de82256d54ebd2df2f7d7ab3d7730a8203f2c1d63f69d1bf9": "read"
+ },
+ "flags": []
+}

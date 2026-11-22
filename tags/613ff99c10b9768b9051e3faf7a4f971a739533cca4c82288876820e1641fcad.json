@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "613ff99c10b9768b9051e3faf7a4f971a739533cca4c82288876820e1641fcad",
+ "domain": [
+  "healthcare/prior-authorization",
+  "documentation"
+ ],
+ "product": [
+  "genko-prior-auth"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Read-only public docs, pricing, facts, specialty packet checklists and fit checks for Genko Prior Auth.",
+ "whenToUse": "Use when evaluating Genko Prior Auth or learning what a prior authorization packet needs for dental, aesthetics or physiotherapy.",
+ "tasks": [
+  "search docs",
+  "read pages",
+  "get packet checklist",
+  "get product facts",
+  "get pricing",
+  "check specialty fit"
+ ],
+ "effects": {
+  "cb6141080efe85805b83dce63cb0d3bf10973ca2c647261cca830ba240f0dd68": "read",
+  "9d818b7e9dad9fd515261d27b6ab12bbd17a30b0f3a8877b3d140f90f4b1c5b6": "read",
+  "e105b59b4af183d056d380de243c3bf78d7077804a0b9f69bd974a70abad840f": "read",
+  "0925e0ce7e6ecadd9a14a37609d066d60996a5b09bb9a959cd16cdbd9d45842f": "read",
+  "6c4166ca938f176c2b0b12ad556690672e4a225e515e1253415313b2ebc33a49": "read",
+  "4de25dafd521778e7a3a51d7df845b8eaef72aae3a14d5ffe5957712201b1d05": "read"
+ },
+ "flags": []
+}

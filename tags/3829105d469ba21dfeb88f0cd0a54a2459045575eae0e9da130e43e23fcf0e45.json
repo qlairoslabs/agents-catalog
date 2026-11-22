@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3829105d469ba21dfeb88f0cd0a54a2459045575eae0e9da130e43e23fcf0e45",
+ "domain": [
+  "sales/crm"
+ ],
+ "product": [
+  "lotscrm"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "CRM connector for contacts, companies, deals, pipelines and follow-ups.",
+ "whenToUse": "Use when the user needs to look up or update contacts, deals or follow-ups in LotsCRM.",
+ "tasks": [
+  "manage contacts",
+  "manage companies",
+  "manage deals",
+  "manage pipelines",
+  "schedule follow-ups"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c9e7f52497b1aef74ebd3d44e843f78478aa5b6ab6ef57526b5b45bc00fa8b0f",
+ "domain": [
+  "media/news"
+ ],
+ "product": [
+  "newsmcp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live world news grouped into deduplicated story events with corroboration counts and source links.",
+ "whenToUse": "Use when an agent needs current world news events with source links and an idea of how widely they are reported.",
+ "tasks": [
+  "get latest news events",
+  "see corroboration counts",
+  "get source links"
+ ],
+ "effects": {},
+ "flags": []
+}

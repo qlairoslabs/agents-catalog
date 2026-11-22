@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "47ad654aaceb34e3b6a1cdeb24d08550b441ebb5864ae47cedb840f4966b3004",
+ "domain": [
+  "software/feature-flags",
+  "software/devops"
+ ],
+ "product": [
+  "configcat"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects AI agents to ConfigCat to manage feature flags and settings.",
+ "whenToUse": "Use when creating, reading or changing feature flags in ConfigCat.",
+ "tasks": [
+  "list feature flags",
+  "update feature flags",
+  "manage configs and environments"
+ ],
+ "effects": {},
+ "flags": []
+}

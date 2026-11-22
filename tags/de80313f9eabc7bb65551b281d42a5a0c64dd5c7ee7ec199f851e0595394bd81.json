@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "de80313f9eabc7bb65551b281d42a5a0c64dd5c7ee7ec199f851e0595394bd81",
+ "domain": [
+  "software/it-service-management",
+  "support/ticketing"
+ ],
+ "product": [
+  "servicenow"
+ ],
+ "audience": [
+  "operations",
+  "support",
+  "development"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Large ServiceNow toolset for AI assistants, read-only unless configured otherwise.",
+ "whenToUse": "Use when an agent needs to look up or manage ServiceNow incidents, records or workflows.",
+ "tasks": [
+  "query records",
+  "manage incidents",
+  "manage changes",
+  "run workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

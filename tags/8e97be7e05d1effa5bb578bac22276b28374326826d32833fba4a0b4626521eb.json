@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8e97be7e05d1effa5bb578bac22276b28374326826d32833fba4a0b4626521eb",
+ "domain": [
+  "data/web-scraping",
+  "commerce/market-data"
+ ],
+ "product": [
+  "upscrape"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Provides real-time data APIs for over 50 commerce, grocery, social and maps platforms through one OAuth server.",
+ "whenToUse": "Use when an agent needs live product, price, social or map data from many online platforms.",
+ "tasks": [
+  "fetch commerce listings",
+  "fetch grocery prices",
+  "fetch social platform data",
+  "fetch maps data"
+ ],
+ "effects": {},
+ "flags": []
+}

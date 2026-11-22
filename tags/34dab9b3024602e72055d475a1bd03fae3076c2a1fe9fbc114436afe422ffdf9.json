@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "34dab9b3024602e72055d475a1bd03fae3076c2a1fe9fbc114436afe422ffdf9",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/reliability"
+ ],
+ "product": [
+  "apache-airflow",
+  "databricks",
+  "snowflake",
+  "bigquery",
+  "redshift",
+  "spark",
+  "dbt-cloud",
+  "aws-emr"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance on persisting task and asset state across retries with Airflow 3.3 state stores and designing crash-safe submit-and-poll tasks.",
+ "whenToUse": "Use when tasks need checkpoints, watermarks or job IDs that survive retries, or when reviewing DAGs that submit and wait on external jobs.",
+ "tasks": [
+  "use task and asset state stores",
+  "checkpoint task progress",
+  "make operators resumable after crashes",
+  "flag variable or xcom state anti-patterns",
+  "design submit and poll patterns",
+  "configure deferrable and durable waits"
+ ],
+ "effects": {},
+ "flags": []
+}

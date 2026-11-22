@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "82893a3dda094f84a2daf2c69e8302dd567e5c9141a9c71569b76ed34720f65d",
+ "domain": [
+  "compliance/cmmc",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "nist-800-171",
+  "cmmc",
+  "sprs",
+  "dfars"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Reference and calculators for NIST 800-171 controls, CMMC levels, SPRS scoring, POA&M eligibility, DFARS clauses and framework crosswalks.",
+ "whenToUse": "Use when a defense contractor needs to understand 800-171 or CMMC requirements, compute an SPRS score or prepare a POA&M.",
+ "tasks": [
+  "look up controls",
+  "list controls by weight",
+  "calculate SPRS score",
+  "get assessment objectives",
+  "crosswalk frameworks",
+  "determine CMMC level",
+  "generate POA&M entries",
+  "check contract type eligibility",
+  "explain DFARS clauses",
+  "scope assessment",
+  "look up Rev 3 requirements"
+ ],
+ "effects": {
+  "f6f6e74330cb577ec8cba42b27c5eed7581cfbffaee7c8b1e56dc818d50321a7": "read",
+  "796eb8e1f80ad1b866099054df0ad8cce3c67d55dac768349605ca0c9f5b8ef4": "read",
+  "1f544828bfb6f76bec33e227f9ef4b904d2bad4cc8ea0b93cb0f7c09c5d804eb": "read",
+  "65a7a6f941d4bfb2e68b7ffb8e0d25eacade8515d2070c245f17dfff0650ac48": "read",
+  "b2834e348a71732be8b1c623bdaa00b5f8d3207c290100749645eb2fff0a821e": "read",
+  "d02e51cf830a96f8ae4a1bb874a42d7ae41458a85f143b30762feaa340a657e1": "read",
+  "7b55a9a07bed8fbb0fac087e71925a776ac0c2233e661fb766ca89a22a840f48": "read",
+  "c04de934ebc646ac3a0b824bdf5e63591e4dc3b42de95bc05b673b397564a6ce": "write",
+  "d245c1cc13be61d4d266f361ee3cd670281bc141c7f8d16a352e5a1c92dee95a": "write",
+  "18e7c874c8a75a8f211e2cf60dc6849cb09110cc43ff761b68bc01a7c69b954e": "write",
+  "ff393eed65a977b6602968bf08483f73dc1229522be5a69245cbe8ea647131b6": "write",
+  "2c09a1a73da5dd5ed4ab9eaa4b8cc8cb8a890a662f4cbcbc6f97f67088d2ef84": "write",
+  "83b61c2ef8b8f1ac1249d25200029aab2819987808179169668edce55b576dc4": "read"
+ },
+ "flags": []
+}

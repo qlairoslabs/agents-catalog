@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1a4d6ccfda94f58e384a9d5090bc6cb76d9377e054ecf4f6f0f467039b5be004",
+ "domain": [
+  "software/observability/error-logging",
+  "software/monitoring/uptime"
+ ],
+ "product": [
+  "elmah.io"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Searches logs, investigates errors, reviews deployments and checks uptime for an elmah.io organisation.",
+ "whenToUse": "Use when debugging application errors or checking deployments and uptime monitored in elmah.io.",
+ "tasks": [
+  "search logs",
+  "investigate errors",
+  "check deployments",
+  "monitor uptime"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "28ed0632e365791b1b379edd8eb3933195d3d12b587cc31c4667abaca4e0b9d2",
+ "domain": [
+  "sports/predictions",
+  "data/probabilistic-forecasts"
+ ],
+ "product": [
+  "predixsport"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Calibrated probability predictions with full distributions for NBA, EuroLeague, football and ATP/WTA tennis games.",
+ "whenToUse": "Use when an agent needs probabilistic forecasts for basketball, football or tennis matches.",
+ "tasks": [
+  "get nba predictions",
+  "get euroleague predictions",
+  "get football predictions",
+  "get tennis predictions",
+  "view outcome distributions"
+ ],
+ "effects": {},
+ "flags": []
+}

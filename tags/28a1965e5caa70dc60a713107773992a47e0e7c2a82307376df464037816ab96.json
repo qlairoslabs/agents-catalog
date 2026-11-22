@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "28a1965e5caa70dc60a713107773992a47e0e7c2a82307376df464037816ab96",
+ "domain": [
+  "ai/personalization",
+  "ai/user-modeling"
+ ],
+ "product": [
+  "hunchful"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Maintains a consent-based, testable model of how a person works with AI that agents can read and extend.",
+ "whenToUse": "Use when an agent should adapt to a user's known working preferences or record new observations about them with consent.",
+ "tasks": [
+  "read user working-style model",
+  "add observations to user model",
+  "test hypotheses about user preferences"
+ ],
+ "effects": {},
+ "flags": []
+}

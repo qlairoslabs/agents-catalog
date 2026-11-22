@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "524b45cb7ba6c27d25745557b7c3c1ee5699894d198042ff7064d1269ccf6368",
+ "domain": [
+  "software/testing/test-management"
+ ],
+ "product": [
+  "qase"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Official Qase connector for managing test cases, test runs, suites and defects.",
+ "whenToUse": "Use when creating, organizing or reviewing test cases, runs, suites or defects in Qase.",
+ "tasks": [
+  "manage test cases",
+  "manage test runs",
+  "organize test suites",
+  "track defects"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b220ca486f8c70301c99b086181f8bda7271e02b4e515157b9b9aa6faa0060ed",
+ "domain": [
+  "marketing/seo",
+  "web/analytics"
+ ],
+ "product": [
+  "google-search-console",
+  "google-analytics-4",
+  "pagespeed-insights"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "SEO analysis for owned websites using Search Console, GA4, PageSpeed and full site audits.",
+ "whenToUse": "Use when an agent needs to analyze search performance, traffic or technical SEO of a site the user owns.",
+ "tasks": [
+  "query search console",
+  "analyze ga4 traffic",
+  "run pagespeed checks",
+  "audit sites"
+ ],
+ "effects": {},
+ "flags": []
+}

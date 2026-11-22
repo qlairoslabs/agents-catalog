@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "9302bba15270df841459f1a5ba01ed1b5350e0cdef1e58006397c1771aeb7a6b",
+ "domain": [
+  "career/profile"
+ ],
+ "product": [
+  "rafeblandford"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Read-only access to one person's published career, case studies and writing, with tools to match role requirements against that record.",
+ "whenToUse": "Use when evaluating Rafe Blandford's experience against a role or reading their writing.",
+ "tasks": [
+  "get profile and career",
+  "read case studies",
+  "search writing",
+  "read posts",
+  "check experience on a topic",
+  "map role requirements"
+ ],
+ "effects": {
+  "7101b8cbe7f43244039969c2c667d423e8e8c2704d4a82f14db8c4c42b8e1b22": "write",
+  "7cbd4840ea2b37eeb4830a1c63667ac43e5df365b1cc55946ef218e67f7275d5": "read",
+  "b5282ed7cf11b44a9f5204dc37e66098e0fda372bb7afd319a8cef7ffbefd43b": "read",
+  "cfd20bbe9c79b0765d27303604c407400db738db2f35faf6180048e974c3dc93": "write",
+  "f1d0a070bd7d96646d373bfe53ee971c8b75524ed2b8dd77e7c196a090cff135": "write"
+ },
+ "flags": []
+}

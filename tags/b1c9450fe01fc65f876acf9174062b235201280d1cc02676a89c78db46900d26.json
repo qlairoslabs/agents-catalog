@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b1c9450fe01fc65f876acf9174062b235201280d1cc02676a89c78db46900d26",
+ "domain": [
+  "workflow/document-approval",
+  "collaboration"
+ ],
+ "product": [
+  "sornflow"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Document approval workspace accessed via OAuth, with tools limited by the signed-in member's space permissions.",
+ "whenToUse": "Use when routing, reviewing or approving documents in a SORNFlow workspace.",
+ "tasks": [
+  "view documents",
+  "submit for approval",
+  "review approvals"
+ ],
+ "effects": {},
+ "flags": []
+}

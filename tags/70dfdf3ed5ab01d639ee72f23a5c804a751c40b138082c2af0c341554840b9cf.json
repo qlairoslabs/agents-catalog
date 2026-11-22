@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "70dfdf3ed5ab01d639ee72f23a5c804a751c40b138082c2af0c341554840b9cf",
+ "domain": [
+  "productivity/project-management/dashboards",
+  "software/agile"
+ ],
+ "product": [
+  "jira"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Creates a visual sprint dashboard from Jira boards, sprints, filters or JQL.",
+ "whenToUse": "Use when a user wants a visual sprint, standup, delivery or WIP dashboard from Jira data.",
+ "tasks": [
+  "fetch sprint data",
+  "query jira with jql",
+  "build sprint dashboard",
+  "summarize wip",
+  "prepare sprint review view"
+ ],
+ "effects": {},
+ "flags": []
+}

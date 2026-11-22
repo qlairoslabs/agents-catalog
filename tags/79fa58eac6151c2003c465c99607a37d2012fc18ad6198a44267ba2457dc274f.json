@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "79fa58eac6151c2003c465c99607a37d2012fc18ad6198a44267ba2457dc274f",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/configuration"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for configuring Airflow coordinators and queue routing to run Java, Go and other native-language SDK tasks.",
+ "whenToUse": "Use when setting up or debugging Airflow routing of tasks to native-language coordinators.",
+ "tasks": [
+  "register coordinator",
+  "map queue to coordinator",
+  "ensure runtime artifacts on workers",
+  "tune coordinator options",
+  "debug tasks not picked up"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "12a418078b3306343df0a1f5f31fd809d664eb6ab93d3d11561fc6a6132fd1bd",
+ "domain": [
+  "software/identity-and-access",
+  "cloud/azure"
+ ],
+ "product": [
+  "microsoft-entra",
+  "azure",
+  "msal"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guides registering applications in Microsoft Entra ID, configuring OAuth 2.0 and API permissions, and integrating MSAL authentication into apps.",
+ "whenToUse": "Use when setting up a standard Entra ID or Azure AD app registration, OAuth sign-in or MSAL-based authentication.",
+ "tasks": [
+  "create app registration",
+  "configure oauth 2.0",
+  "add api permissions",
+  "create service principal",
+  "write msal integration examples",
+  "set up console app authentication"
+ ],
+ "effects": {},
+ "flags": []
+}

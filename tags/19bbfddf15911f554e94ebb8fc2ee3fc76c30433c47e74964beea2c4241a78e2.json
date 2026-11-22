@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "19bbfddf15911f554e94ebb8fc2ee3fc76c30433c47e74964beea2c4241a78e2",
+ "domain": [
+  "retail/point-of-sale",
+  "software/app-builder"
+ ],
+ "product": [
+  "final-pos"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Builds custom point-of-sale apps such as checkout flows, kiosks and payment terminals, plus store operations tools.",
+ "whenToUse": "Use when an agent needs to build or customize a POS, kiosk or checkout app, or manage store operations.",
+ "tasks": [
+  "build checkout flows",
+  "create kiosk apps",
+  "configure payment terminals",
+  "manage store operations"
+ ],
+ "effects": {},
+ "flags": []
+}

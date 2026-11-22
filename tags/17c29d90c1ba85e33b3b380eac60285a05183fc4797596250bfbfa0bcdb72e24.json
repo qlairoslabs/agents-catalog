@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "17c29d90c1ba85e33b3b380eac60285a05183fc4797596250bfbfa0bcdb72e24",
+ "domain": [
+  "real-estate/rentals"
+ ],
+ "product": [
+  "openigloo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live NYC apartment listings and reports on buildings and landlords using tenant reviews and public records.",
+ "whenToUse": "Use when a user is looking for a NYC rental or wants to vet a building or landlord.",
+ "tasks": [
+  "search apartments",
+  "find nearby alternatives",
+  "get building report",
+  "get apartment details",
+  "get landlord report"
+ ],
+ "effects": {
+  "032d6f171daf8f81dc65ac2cbd99e0a5eb4063c1903a11c98af8ac7e02417a69": "read",
+  "539d185d6fcc984edfcc74e6d0fc5ee34c7a0de43c3d43d6e0e5b1c70cb77cc0": "read",
+  "b4fc4dae3f7ed6f046b26c22516f3bdc5483001aaa807fcbf58b57a5d4954ea6": "read",
+  "6569bcf076619937ee004fc95565f69ff649007a86d681f6bf282acbdf4f3390": "read",
+  "069483d5f5d39eece612883defc8e36084f9187cbe7257c98766b505e2159b2a": "read"
+ },
+ "flags": []
+}

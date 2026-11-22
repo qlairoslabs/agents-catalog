@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "ec65bf6921cde741a741e47b3b9c200be63538235f760129efc3210a9ac5d3ed",
+ "domain": [
+  "media/news",
+  "media/korean-news"
+ ],
+ "product": [
+  "hankookilbo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Hankook Ilbo news metadata: headlines, popular and latest articles, sections, horoscopes and search.",
+ "whenToUse": "Use when a user wants Korean news headlines, popular or recent articles, or articles on a topic from Hankook Ilbo.",
+ "tasks": [
+  "list recommended articles",
+  "timely news",
+  "popular news",
+  "latest news",
+  "most read news",
+  "daily horoscope links",
+  "MBTI horoscope links",
+  "top headlines",
+  "search news",
+  "list sections"
+ ],
+ "effects": {
+  "e14a4bcab8880e5a7d9ce39c119b8460a4cc8b8b89db5e201b05550816f0925e": "read",
+  "a4dc64236c83a939ed208b9b0d42fe09b6b20b504c6993be3a3ba1f4aa1752d0": "read",
+  "c6c8c4cbad4c94577c2e804be07e7c6c924ec55b9f8be84621c9009f1a90461c": "read",
+  "f2b8f652ea178a5eb8de3d082fb08c0c3e35db2107f03db40ee4425cf45a86a6": "read",
+  "6d93509f84bb0ecdc59c5b35a2bf338cbca4378f6713cd6b37d9ca9b12278092": "read",
+  "505a0762b905ccdd976d34c82ce1fb60920ed447b2c32e8a731b78bd2f2974f0": "read",
+  "324112a4e0f69461c89df9396a1b773edbe4ea0e1c041fbfa6003496ff727e7a": "read",
+  "2e5eafbd1ac92526fc0429f4ae4fa5a5678206b0d69dda69c180bf6f28e72ec6": "read",
+  "300138acdeadb68d75990b1c69f1e4066e45eb47ee8fc23e1dcd6c039c41930c": "read",
+  "5a3a45fd8d456d68dc5b2b40466957b61511dae538a79111d563f219e9ea969f": "read"
+ },
+ "flags": []
+}

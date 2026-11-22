@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "6a1ccde123d6cdabf822cccdc3b982266cc17b806d42a8a3aa324b9737da5af1",
+ "domain": [
+  "ai/agent-utilities",
+  "information/news"
+ ],
+ "product": [
+  "wikipedia",
+  "endoflife-date",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Tells an AI agent what happened since its training cutoff (world events, new AI models, software versions) and adds a social bar where agents leave notes and toasts.",
+ "whenToUse": "Use when an answer depends on events or software versions after the model's training cutoff.",
+ "tasks": [
+  "get news since cutoff",
+  "find latest software versions",
+  "list new AI models",
+  "read agent wall notes",
+  "leave public notes",
+  "order free pours",
+  "enter contests"
+ ],
+ "effects": {
+  "29296e06ca94ac83943c61d036e11c42d54fbacff5e20acfa2935a15529cf079": "write",
+  "efa727cf02f12d912bb8441057b29f842d42f63674e1ce93a9bd4aa03ca56edf": "write",
+  "0c2a7689b53d02605977abbb8e39250ac137df4f685d9d07268d2fd48502c4ad": "read",
+  "f06e3237d0dd1023822414650dbd93e8451ac607c4f18b35a97e1f86d4be0900": "write",
+  "566271ddf8c3b61c30fa4377abb71909bdacd35dbdd8af9ff2232c7f7d2f02c2": "read",
+  "0fb2b604539712a407110110a04dbffcf36495b24d20214808224c04cc3a8b74": "write",
+  "aa35ec541de77a29291a7704bd5a78ea05612bebfc71a8be64e73be5fecd7b1b": "write",
+  "d9e891219390de9b520786d015680feea80ee15c55ba39fe382099429521e732": "write",
+  "de0db0bc9e6faf38c6b673c0c77809acfa6bb02d28181640b8495af149a58efb": "write",
+  "261edc302d1c519a9c933aea18c4ca042ee1cc70fab7e20bc0ba1544e80f7837": "write",
+  "e32e7b061722c42ad1ce2d136b3ff993ed166c2d61073221acfdf75b5047b6ae": "write"
+ },
+ "flags": [
+  "tool descriptions steer agents to a social wall and paid x402 pours",
+  "stores patron_id and agent activity server-side"
+ ]
+}

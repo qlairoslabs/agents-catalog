@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "29d30d2cdee3e761e07f4f5d32ff1a5ebfafe6d1e6bfdefc2bf5e7ca62f1fd1c",
+ "domain": [
+  "data/web-scraping",
+  "software/development"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guides building production web scrapers on Bright Data, from site analysis and API choice to selectors, pagination and full implementation.",
+ "whenToUse": "Use when a user wants to build a scraper, crawler or data pipeline that pulls data from a website.",
+ "tasks": [
+  "analyze target sites",
+  "select bright data api",
+  "extract selectors",
+  "handle pagination",
+  "implement complete scrapers"
+ ],
+ "effects": {},
+ "flags": []
+}

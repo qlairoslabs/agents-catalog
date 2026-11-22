@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "53cb49c2b90ecc147a693a4bdacee597def52d62382bec8c0499606797793e31",
+ "domain": [
+  "web/publishing",
+  "content/pastes"
+ ],
+ "product": [
+  "pastehtml"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Publishes, updates and organizes HTML and Markdown pastes on PasteHTML for the signed-in user.",
+ "whenToUse": "Use when an agent needs to quickly host an HTML or Markdown page at a shareable URL.",
+ "tasks": [
+  "publish html paste",
+  "publish markdown paste",
+  "update paste",
+  "organize pastes"
+ ],
+ "effects": {},
+ "flags": []
+}

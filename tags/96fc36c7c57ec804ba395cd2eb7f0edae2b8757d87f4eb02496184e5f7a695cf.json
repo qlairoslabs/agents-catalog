@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "96fc36c7c57ec804ba395cd2eb7f0edae2b8757d87f4eb02496184e5f7a695cf",
+ "domain": [
+  "environment/noise",
+  "health/hearing-safety"
+ ],
+ "product": [
+  "decibel-shield"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides city and address noise levels, decibel values of common sounds, noise ordinances and NIOSH safe exposure times.",
+ "whenToUse": "Use when a user asks how loud a city, address or sound is, how long exposure is safe, or about local noise rules.",
+ "tasks": [
+  "get city noise estimates",
+  "rank loudest cities",
+  "look up sound decibel levels",
+  "calculate safe exposure time",
+  "get us city noise exposure",
+  "get address noise levels",
+  "get european city noise",
+  "rank neighborhood noise",
+  "get city noise ordinances",
+  "get decibel meter app info"
+ ],
+ "effects": {
+  "80e54c2bd615adb24c2b0348ff5ffc5b0de7b706d6df21b758817658f39cdb36": "read",
+  "b961f3d4e3f9f8a5d609f3f55a1dbafa087b8c0fcffce173ce138aa11a819056": "read",
+  "7409b88a6a5fd733686cf5b178ed20ec14fb64d964316618ad63718aa2232acc": "read",
+  "3d2d794adb83b0aed87ab793d1b25ddb4f205b02b6dc861f26426a7de2058477": "read",
+  "44a0e24753cb3ffa59e373703005756dd9f2880f04bbc0e8a8e1a630e60d9617": "read",
+  "15d81af52be750ef262fb2dae72ae88fa5fcd1dd2b6d3c47623f9756a9d691d0": "write",
+  "e27b95b8b7a44fb19a9f03a0f52b12123eab77667fdf7d1ad337229265294b97": "read",
+  "9930ba3c503b23c7df49161797ea6c85bc91e418405e9eb91fb38868c7ca3d9c": "read",
+  "5b16658c50c0a16f55cb2844c085f138131c9103d5b19ca1ddc838b17d2d562b": "read",
+  "9d36753abdc7da23022f2b27eb742fcacfb6468bf558207f159454650b6c4384": "read"
+ },
+ "flags": []
+}

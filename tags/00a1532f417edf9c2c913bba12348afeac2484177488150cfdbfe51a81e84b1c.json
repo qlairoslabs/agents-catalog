@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "00a1532f417edf9c2c913bba12348afeac2484177488150cfdbfe51a81e84b1c",
+ "domain": [
+  "ecommerce/fashion",
+  "retail/streetwear"
+ ],
+ "product": [
+  "lorenzo",
+  "shopify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Shop Lorenzo's streetwear and denim: search products, view details and size guides, get outfit pairings, manage a cart and reach checkout.",
+ "whenToUse": "Use when a shopper wants to browse Lorenzo clothing, pick sizes, find matching items or build a cart.",
+ "tasks": [
+  "search products",
+  "view product details",
+  "size guide",
+  "complete the look suggestions",
+  "add to cart",
+  "update quantities",
+  "swap variants",
+  "view cart",
+  "get checkout link",
+  "cancel cart"
+ ],
+ "effects": {
+  "48fe5d3c7d97a02d006d0d68f55adb4d40d0862ac3f3a064547a88a8813b43fe": "write",
+  "33369c6fbc73b1677253c2a695b30af153c4b3d7c9a0417fc7c1599926ebecce": "read",
+  "b2bbc55c2e86ccced430bac34f4a6a3e1624becbb9c845419f1e54e3c80c9a2c": "write",
+  "7031b39e380f6697c633739e5d830e08a966f373bfdd1421c09a6d4489b55c2b": "write",
+  "34662a61ae5ba73c96cdd2a7c324ae64a2a88a928f6a322d141a0198cce024d0": "write",
+  "9be742e359461ff021de3ae7dacc606b79fc1fce0cfdf7a494e6561842ba538f": "write",
+  "059655a7b34c065d0252e599b52f2b45ba47cd7dba1b08088938e0013dd4ffa3": "write",
+  "73ae71c9b5852e8c112fc74edd78cd94c47dba10e4b0b4e006f652a9e4319ab8": "read",
+  "05fbef73dd8a2701f1d8d8a8c7e7e5400223e46e14652aa0c50a51a0f921b903": "read",
+  "b8273fb24e55abd8accbc33d8fabf3434d509355ff266b86de614998c6a53e1a": "read",
+  "6f37786de4e2b59ee74312256b2418c341a42cbd88adb5f742a8a26b14f929c3": "write",
+  "e5d48e8785177d0ec3abdd1dc7008b542db0d1aaf859a436a0402ff901395c0a": "write",
+  "c7b08dfa0d2fc8a7c6019f442db64d4470838ff2437849cf1511303e8673a32d": "write",
+  "640a669e5ef9634ea97f0ef65b783a2c2a6775eb14b2eb9b8821b5397b83b2c0": "write",
+  "8f11e8421dee0104a6addb791984a3fd580fdfa76e48168632e98bc37ff5fb8d": "write",
+  "e4f5dc427ccaab3abd290f8dee7bf19fd6cd912b8e3438e164c439b1f209da5d": "write",
+  "574173e90c9969a2573e1d2eed6e748c451ae8c2ca2de83d89c5ecbad3d85351": "write",
+  "c54dfdd06246398bc947f5aeba5e23565209d06185d0231bd668328d49b411df": "read",
+  "212d2e18973319a4911c5195e4b087b9cca1372774338152684ef9564b204d10": "read"
+ },
+ "flags": []
+}

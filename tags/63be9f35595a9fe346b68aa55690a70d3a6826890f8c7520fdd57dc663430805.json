@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "63be9f35595a9fe346b68aa55690a70d3a6826890f8c7520fdd57dc663430805",
+ "domain": [
+  "finance/open-finance",
+  "finance/personal"
+ ],
+ "product": [
+  "snabber",
+  "open-finance-brasil"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Brazilian personal and business finance tool using Open Finance for transactions, cards and investments.",
+ "whenToUse": "Use when a Snabber user wants to review transactions, card spending or investments.",
+ "tasks": [
+  "view transactions",
+  "view card spending",
+  "view investments"
+ ],
+ "effects": {},
+ "flags": []
+}

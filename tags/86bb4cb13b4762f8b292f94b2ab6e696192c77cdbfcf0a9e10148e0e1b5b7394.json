@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "86bb4cb13b4762f8b292f94b2ab6e696192c77cdbfcf0a9e10148e0e1b5b7394",
+ "domain": [
+  "communication/agent-notifications",
+  "communication/voice"
+ ],
+ "product": [
+  "heard",
+  "macos"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Lets cloud agents speak progress updates aloud on a user's Mac and receive the user's replies.",
+ "whenToUse": "Use when a remote agent needs to notify the user by voice and wait for their reply.",
+ "tasks": [
+  "speak progress updates",
+  "receive user replies"
+ ],
+ "effects": {},
+ "flags": []
+}

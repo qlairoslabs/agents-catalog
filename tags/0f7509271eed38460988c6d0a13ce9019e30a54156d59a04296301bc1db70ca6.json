@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0f7509271eed38460988c6d0a13ce9019e30a54156d59a04296301bc1db70ca6",
+ "domain": [
+  "events/social-dining",
+  "lifestyle/local-events"
+ ],
+ "product": [
+  "the-dinner-table-club"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Finds upcoming The Dinner Table Club dinners for strangers in NYC, DC, LA and Miami with prices, availability and ticket links.",
+ "whenToUse": "Use when someone wants to find a social dinner with strangers in a supported US city on given dates.",
+ "tasks": [
+  "find dinners by city and date",
+  "get dinner details and faq",
+  "list supported cities"
+ ],
+ "effects": {
+  "5d74eb3c72169bdc9f3929e79847e1f0f9353c26e0c10e473244048c45d43c2f": "read",
+  "01a20c4a6f80f6f9d4b134ab10978d05e9526c88de850af88f19d9747a720a4b": "read",
+  "66253a9b7b76718d6b4790649de4d4b206fa070d9895d00383eb59baf56134a6": "read"
+ },
+ "flags": []
+}

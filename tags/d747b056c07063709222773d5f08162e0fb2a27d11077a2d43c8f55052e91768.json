@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "d747b056c07063709222773d5f08162e0fb2a27d11077a2d43c8f55052e91768",
+ "domain": [
+  "sports/football-predictions"
+ ],
+ "product": [
+  "tipmaster"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Football match predictions from TipMaster player groups, with accuracy stats, expert picks and a model benchmark.",
+ "whenToUse": "Use when a user wants crowd or expert predictions for a football match or how accurate those groups are.",
+ "tasks": [
+  "get model benchmark",
+  "get match prediction",
+  "find matches",
+  "get group accuracy",
+  "get expert picks",
+  "list matches",
+  "get consensus records"
+ ],
+ "effects": {
+  "abc5f55d6e71b9444aa7731aeebe7dccc21eb7eed08e4a4a40d9f60cdc69e91d": "read",
+  "e6857e8cb9692a8b3ad244a435e9beaf83e62dc12f2a347d7a47b949213b712b": "write",
+  "8e2cc17f6f85b9fafad3394e36c646602fcf6b5d9f7eac2fb60f105b212d445b": "read",
+  "ec7ec352d98ac7337c3c3f0a0092cd24a4810535f8c6d7d8791f105b68bd50a0": "write",
+  "55c6c219255c821257fbbc01c0763b8b4dca02d529bfc8b81eb9b0608b6145ef": "write",
+  "16196c634e62d9d532604d6bbdec1e89f0708ce5a31f3f956f32e6b85c5664d1": "read",
+  "a8f80347fc98742fdd638d04844a9ffe02b834397445a47444f4b9e8c1fc28aa": "read"
+ },
+ "flags": []
+}

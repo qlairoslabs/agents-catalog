@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "96c2f14887d927cdcbffafae078c9023d27108ce6d763bb1033e2263f99afac3",
+ "domain": [
+  "data/company-registry",
+  "finance/due-diligence",
+  "compliance/kyc"
+ ],
+ "product": [
+  "cvr",
+  "companydata-dk"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches the Danish CVR company registry for companies, financials, ownership and beneficial owners.",
+ "whenToUse": "Use when you need details, financials or ownership of a Danish company, such as for due diligence or lead research.",
+ "tasks": [
+  "search companies",
+  "view financials",
+  "view ownership",
+  "view beneficial owners"
+ ],
+ "effects": {},
+ "flags": []
+}

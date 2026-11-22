@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0f4602c048636ab7cab7c46bbfdb7b60d1b8324042e7a000541ff6abe46ac978",
+ "domain": [
+  "media/ai-generation",
+  "design/image-editing"
+ ],
+ "product": [
+  "picsart"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Official Picsart server to generate and edit images, video and audio using many AI models.",
+ "whenToUse": "Use when an agent needs to generate or edit images, video or audio with Picsart.",
+ "tasks": [
+  "generate images",
+  "edit images",
+  "generate video",
+  "generate audio"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "426dc43be0f99dbb9e0a0409a37167304be1972e18b7d764948d89c3a5966a76",
+ "domain": [
+  "telecom/voip",
+  "communication/sms"
+ ],
+ "product": [
+  "didlogic"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Manages a didlogic telecom account: phone numbers, SIP accounts, call routing, SMS, call records and billing.",
+ "whenToUse": "Use when a user needs to manage didlogic numbers, SIP accounts, routing, SMS, calls or billing.",
+ "tasks": [
+  "manage phone numbers",
+  "manage sip accounts",
+  "configure routing",
+  "send sms",
+  "review calls",
+  "check billing"
+ ],
+ "effects": {},
+ "flags": []
+}

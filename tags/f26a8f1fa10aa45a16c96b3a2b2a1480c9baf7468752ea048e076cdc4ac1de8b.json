@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f26a8f1fa10aa45a16c96b3a2b2a1480c9baf7468752ea048e076cdc4ac1de8b",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "hoteldiscount24"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds hotels worldwide by amenities, checks a hotel's amenity profile and gives typical nightly prices and destination knowledge.",
+ "whenToUse": "Use when choosing hotels with specific features or estimating nightly costs for a destination.",
+ "tasks": [
+  "find place",
+  "search hotels by amenities",
+  "get hotel facts",
+  "get price guide",
+  "get travel knowledge"
+ ],
+ "effects": {
+  "e43b6d42d9fa8f9cb1ab9eac96183d26772f80c64ff98d361e32ce7eb5a85935": "read",
+  "1e136e0bf07ed9a43b7f7d368a1851742172b87c5991d7d65c09c8de6f2e0d03": "write",
+  "ce452677f4f5ea6633a463932d489732278ec248ca227211dfc9fe513ee5780f": "read",
+  "27e2dd91debe06adea0485cf6c50a8d37ef1a5fda0205cd14be5a56e7d3e4361": "read",
+  "bab5fc7743f51d635a120d82b06d95b6b8e2a1777a85cda55d466651c5906eb2": "read"
+ },
+ "flags": []
+}

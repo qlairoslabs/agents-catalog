@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d423f52d6f1542e2a42fc880edd2acbb793ade045bf16f660c8949c2f88fe96d",
+ "domain": [
+  "software/documentation",
+  "software/data-visualization"
+ ],
+ "product": [
+  "amcharts"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides amCharts 5 documentation, code examples and API reference on demand.",
+ "whenToUse": "Use when an agent writes charting code with amCharts 5.",
+ "tasks": [
+  "search documentation",
+  "get code examples",
+  "look up api reference"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1504b272d4444212d3fcfb40b64bb5fe16fad6ab3e6975d6378100ad6e9f74e0",
+ "domain": [
+  "events/registration",
+  "events/ticketing"
+ ],
+ "product": [
+  "sorted"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Event registration service with event pages, waitlists, virtual queues and dynamic pricing.",
+ "whenToUse": "Use when setting up events, managing registrations, waitlists or queues for high-demand events.",
+ "tasks": [
+  "create events",
+  "manage registrations",
+  "manage waitlists",
+  "run virtual queues",
+  "set dynamic pricing"
+ ],
+ "effects": {},
+ "flags": []
+}

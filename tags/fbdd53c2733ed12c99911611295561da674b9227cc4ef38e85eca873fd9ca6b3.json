@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fbdd53c2733ed12c99911611295561da674b9227cc4ef38e85eca873fd9ca6b3",
+ "domain": [
+  "finance/subscription-analytics",
+  "business/experiments"
+ ],
+ "product": [
+  "zerosettle"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only access to revenue, subscription, customer and experiment data in ZeroSettle accounts.",
+ "whenToUse": "Use when analyzing subscription revenue, customers or experiment results in ZeroSettle.",
+ "tasks": [
+  "view revenue",
+  "view subscriptions",
+  "look up customers",
+  "review experiments"
+ ],
+ "effects": {},
+ "flags": []
+}

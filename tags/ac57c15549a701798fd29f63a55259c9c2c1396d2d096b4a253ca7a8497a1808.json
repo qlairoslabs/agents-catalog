@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ac57c15549a701798fd29f63a55259c9c2c1396d2d096b4a253ca7a8497a1808",
+ "domain": [
+  "ecommerce/hair-care",
+  "retail/cosmetics"
+ ],
+ "product": [
+  "ferbu",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Klinikk Ferbu web shop for hair-care products in Norway: product info, live shipping rates and Stripe checkout links.",
+ "whenToUse": "Use when a user wants to browse, price and buy Klinikk Ferbu hair-care products for delivery in Norway.",
+ "tasks": [
+  "list products",
+  "get product details",
+  "get shipping rates",
+  "create checkout link"
+ ],
+ "effects": {
+  "c5fb21d930472049bcf43eadda4d7d4c3aee024a354174da901f39463f6316d6": "read",
+  "9ccba009271afa1b8f2b764d409038555515985eacede6f88cb3e707a37c118d": "read",
+  "57e8e5649c91748eb2ac8b4b51ef4c72da1880236cd6ead2e07f15975444f1ed": "read",
+  "6899b45e7eae6e6edee322e1620fd1a41c65ed719ab9db53007161555c340741": "write"
+ },
+ "flags": []
+}

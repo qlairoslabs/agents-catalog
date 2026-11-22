@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "695093fda28b36beb5e58fa5319668cf2bd65274df54b54d4502b20bf9b00a65",
+ "domain": [
+  "design/design-to-code",
+  "software/frontend"
+ ],
+ "product": [
+  "figma"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives coding agents access to Figma file data so they can implement designs in code.",
+ "whenToUse": "Use when implementing a UI from a Figma design.",
+ "tasks": [
+  "read figma files",
+  "extract design data",
+  "support design implementation"
+ ],
+ "effects": {},
+ "flags": []
+}

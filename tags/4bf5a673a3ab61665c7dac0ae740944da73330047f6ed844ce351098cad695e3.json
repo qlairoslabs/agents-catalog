@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4bf5a673a3ab61665c7dac0ae740944da73330047f6ed844ce351098cad695e3",
+ "domain": [
+  "legal/client-intake",
+  "productivity/file-storage"
+ ],
+ "product": [
+  "box"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work",
+  "support-customers"
+ ],
+ "summary": "Automates legal client intake in Box by checking documents for completeness, summarizing risk, routing to attorneys and generating engagement letters.",
+ "whenToUse": "Use when a user handles new client intake, onboarding documents or engagement letters in a Box-based legal practice.",
+ "tasks": [
+  "check intake documents for completeness",
+  "summarize risk for attorneys",
+  "route incomplete or high-risk submissions",
+  "extract client and matter metadata",
+  "generate engagement letters from docgen templates"
+ ],
+ "effects": {},
+ "flags": []
+}

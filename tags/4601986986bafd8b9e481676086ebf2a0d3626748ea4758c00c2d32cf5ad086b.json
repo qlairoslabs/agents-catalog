@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "4601986986bafd8b9e481676086ebf2a0d3626748ea4758c00c2d32cf5ad086b",
+ "domain": [
+  "compliance/cookie-consent",
+  "software/web-privacy"
+ ],
+ "product": [
+  "cookieinspector",
+  "cookiebot",
+  "onetrust",
+  "google-consent-mode"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scans websites to see what cookie banners really block: cookies and trackers before consent, consent platform and risk score.",
+ "whenToUse": "Use when auditing a site's cookie banner and tracking behavior before or after consent.",
+ "tasks": [
+  "quick pre-scan",
+  "pre-scan result",
+  "full browser scan",
+  "scan status",
+  "scan summary",
+  "scan findings",
+  "list scans",
+  "explain finding code",
+  "describe capabilities"
+ ],
+ "effects": {
+  "552abea83237e06e4cb2cc0d0b1a3af7d499a5228075aa0a839ce4d8c5e59061": "read",
+  "2aedcd5bcd8c01c8a06762fd44f3d09970d3447e607f7141b2295ba6b5ccd266": "read",
+  "ff2f1950973371c3dc698f183f61daadb761ef2e04c69d4c418c081c21cf61df": "read",
+  "57c749da73e4ea156ca60d103cacd813e527f91ad5771e8dab8433246673203d": "write",
+  "5b972ae61067b66767c38b543d1a80cb9a80e1178b0e88d6e030c53278c15c5b": "read",
+  "767da577aca5c31c44a56458acfa423f0c4439f8c90b74fde9211d05c16ac71d": "read",
+  "9b98a8adf2350bd8426571be573c8a72ce81f81d6042638800251e104774143a": "read",
+  "299d74314e218767b731d00cb177ebd9a7fe19fff298247aeb7e0a2c1229a4c3": "read",
+  "5554e30af23bbbc87b28a502ca87f8e9b2186dc1b6dec65cd5e3c81f2d1233fa": "write"
+ },
+ "flags": []
+}

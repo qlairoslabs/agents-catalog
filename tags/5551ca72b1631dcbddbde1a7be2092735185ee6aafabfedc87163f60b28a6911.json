@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5551ca72b1631dcbddbde1a7be2092735185ee6aafabfedc87163f60b28a6911",
+ "domain": [
+  "monitoring/service-status"
+ ],
+ "product": [
+  "downtester"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reports live service status, active incidents and outage history from Downtester.",
+ "whenToUse": "Use when checking whether an online service is down or has had recent outages.",
+ "tasks": [
+  "check service status",
+  "list active incidents",
+  "search services",
+  "view outage history"
+ ],
+ "effects": {},
+ "flags": []
+}

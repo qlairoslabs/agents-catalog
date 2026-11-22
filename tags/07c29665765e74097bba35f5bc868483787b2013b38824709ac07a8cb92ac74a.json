@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "07c29665765e74097bba35f5bc868483787b2013b38824709ac07a8cb92ac74a",
+ "domain": [
+  "data/databases/postgresql",
+  "operations/cloud"
+ ],
+ "product": [
+  "google-cloud-sql",
+  "postgres"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Creates and connects to Google Cloud SQL for PostgreSQL databases and works with their data.",
+ "whenToUse": "Use when you need to create, query or manage a Cloud SQL for PostgreSQL database.",
+ "tasks": [
+  "create cloud sql postgresql instance",
+  "connect to database",
+  "query database data"
+ ],
+ "effects": {},
+ "flags": []
+}

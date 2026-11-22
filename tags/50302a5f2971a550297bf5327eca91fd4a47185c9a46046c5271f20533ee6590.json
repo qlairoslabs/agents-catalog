@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "50302a5f2971a550297bf5327eca91fd4a47185c9a46046c5271f20533ee6590",
+ "domain": [
+  "legal/building-codes",
+  "construction/zoning"
+ ],
+ "product": [
+  "gocodebook",
+  "california-title-24"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Looks up exact text of California Title 24 building codes and local zoning codes by section, with citations.",
+ "whenToUse": "Use when the exact wording of a California building or local zoning code section is needed with a citation.",
+ "tasks": [
+  "look up title 24 sections",
+  "look up local zoning codes",
+  "get code citations"
+ ],
+ "effects": {},
+ "flags": []
+}

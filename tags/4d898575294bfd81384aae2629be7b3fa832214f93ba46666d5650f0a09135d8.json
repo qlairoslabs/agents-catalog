@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4d898575294bfd81384aae2629be7b3fa832214f93ba46666d5650f0a09135d8",
+ "domain": [
+  "productivity/agent-memory"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Extracts and compresses Claude Code conversations into tiered daily logs to keep memory across sessions.",
+ "whenToUse": "Use when an agent should recall prior sessions' work or keep persistent memory across days.",
+ "tasks": [
+  "summarize conversations",
+  "compress session history",
+  "maintain daily logs",
+  "recall previous work"
+ ],
+ "effects": {},
+ "flags": []
+}

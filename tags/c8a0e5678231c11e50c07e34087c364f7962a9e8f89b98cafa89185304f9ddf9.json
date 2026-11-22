@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c8a0e5678231c11e50c07e34087c364f7962a9e8f89b98cafa89185304f9ddf9",
+ "domain": [
+  "finance/open-banking"
+ ],
+ "product": [
+  "nevlo"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads bank accounts, balances and transactions from over 10,000 European banks.",
+ "whenToUse": "Use when the user needs their European bank balances or transaction history.",
+ "tasks": [
+  "list bank accounts",
+  "read balances",
+  "read transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

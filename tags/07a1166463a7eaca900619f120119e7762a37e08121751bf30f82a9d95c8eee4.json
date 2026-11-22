@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "07a1166463a7eaca900619f120119e7762a37e08121751bf30f82a9d95c8eee4",
+ "domain": [
+  "design/ui-styling",
+  "software/frontend"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Captures the visual style of a given website and applies it to an existing frontend codebase.",
+ "whenToUse": "Use when a user wants their app to look like or match the design of a specific website.",
+ "tasks": [
+  "capture site visual style",
+  "extract design tokens",
+  "apply style to existing codebase"
+ ],
+ "effects": {},
+ "flags": []
+}

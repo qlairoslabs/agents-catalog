@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9c121b089ba299cab554b9a52d87efa476f6f0522bee9966182ad8b2edf585e3",
+ "domain": [
+  "finance/equity-research",
+  "finance/corporate-governance"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Assesses the durability of a public company's competitive advantage and the quality of its management, capital allocation and governance, using Bigdata.com.",
+ "whenToUse": "Use when a user asks whether a company has a moat or whether its management and governance can be trusted.",
+ "tasks": [
+  "identify moat type",
+  "compare roic and wacc",
+  "assess pricing power",
+  "estimate competitive advantage period",
+  "analyze five forces",
+  "review capital allocation record",
+  "review board and compensation",
+  "check insider activity"
+ ],
+ "effects": {},
+ "flags": []
+}

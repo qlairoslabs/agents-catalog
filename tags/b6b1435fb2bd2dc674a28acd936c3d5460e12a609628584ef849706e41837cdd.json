@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b6b1435fb2bd2dc674a28acd936c3d5460e12a609628584ef849706e41837cdd",
+ "domain": [
+  "communication/messaging",
+  "marketing/messaging"
+ ],
+ "product": [
+  "wbiztool",
+  "whatsapp",
+  "telegram"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "support"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Sends WhatsApp and Telegram messages, manages reminders and checks numbers in a WbizTool workspace.",
+ "whenToUse": "Use when the user wants to send WhatsApp or Telegram messages or set reminders via WbizTool.",
+ "tasks": [
+  "send WhatsApp messages",
+  "send Telegram messages",
+  "manage reminders",
+  "check phone numbers"
+ ],
+ "effects": {},
+ "flags": []
+}

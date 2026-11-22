@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "2ce94ac3f7344497e63d144de3c38f4c63e80cf594b82f031f580b0b98e71953",
+ "domain": [
+  "software/file-utilities/compression"
+ ],
+ "product": [
+  "gzip"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Compresses and decompresses files with gzip and reports compression ratio.",
+ "whenToUse": "Use when an agent needs to gzip or gunzip files.",
+ "tasks": [
+  "compress files",
+  "decompress files",
+  "report compression ratio"
+ ],
+ "effects": {},
+ "flags": []
+}

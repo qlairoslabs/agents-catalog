@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "4cb0c5b5ae707e9da80fac1a92acf889a1b50a9785f938aa7b37e851e6209f48",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/devops/build"
+ ],
+ "product": [
+  "apache-airflow",
+  "gradle",
+  "maven",
+  "docker",
+  "kubernetes",
+  "astro"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for building Airflow Java SDK bundles into JARs and deploying them to workers.",
+ "whenToUse": "Use when packaging a JVM task bundle or getting the JAR onto Airflow workers.",
+ "tasks": [
+  "build bundle with gradle plugin",
+  "set up maven shade and bom",
+  "choose fat or thin jars",
+  "configure logging integrations",
+  "use preview builds",
+  "deploy jar to docker, kubernetes or astro"
+ ],
+ "effects": {},
+ "flags": []
+}

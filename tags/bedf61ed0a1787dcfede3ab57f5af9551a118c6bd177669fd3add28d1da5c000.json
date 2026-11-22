@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "bedf61ed0a1787dcfede3ab57f5af9551a118c6bd177669fd3add28d1da5c000",
+ "domain": [
+  "web/site-audit",
+  "web/data-extraction"
+ ],
+ "product": [
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Website audits and page utilities for agents: a free preview audit plus x402-paid agent-readiness, Markdown, structured extraction, feed parsing, link maps and summaries.",
+ "whenToUse": "Use when an agent needs a quick audit or clean extraction of a single public web page.",
+ "tasks": [
+  "preview website audit",
+  "audit agent readiness",
+  "extract page Markdown",
+  "extract structured data",
+  "parse feed",
+  "map links",
+  "summarise page"
+ ],
+ "effects": {
+  "7152c2c439c19ad6dc1cce5b3a4b7fd0118ea3f81e3a7b5c447fa5fcae01a21f": "write",
+  "e8642cf6a71c05cc3ad0ffd2fe3ca19a70dcc097a529dba5da1cecf14fd554ad": "read",
+  "53736c009cdbc5a34dde67e55f39b0ca6d785d974af1767f26a9e6fd26943fd0": "read",
+  "b8e65df124d771df9c25ec7ca39c0343000b968d5114b9dae8ac3a248f841d69": "write",
+  "a39bed4e99d6a861cf4164fd097ed88f53135ff62821907391e17462913c34ad": "read",
+  "a832f28faed937a8ae1ab8d6788b71b2f186e6f6dcd60a03d62a7119b0025398": "read",
+  "e9048ce6eeb62589d7d8966925e8b533c7e8fe9638d9b196ad8bca0b485bc976": "read"
+ },
+ "flags": []
+}

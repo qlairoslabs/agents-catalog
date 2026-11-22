@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "3cdbc65b8d2daae381126dbb239ab4f23a09c0d1e71ff708d26e2f39e6edc084",
+ "domain": [
+  "content/memes",
+  "creative/image-generation"
+ ],
+ "product": [
+  "memesio"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches meme templates and renders captioned memes, GIFs and AI-generated meme variants, with optional agent account creation.",
+ "whenToUse": "Use when you need to create a meme or animated GIF from a template or an uploaded image.",
+ "tasks": [
+  "create agent account",
+  "search templates",
+  "suggest template ideas",
+  "caption template",
+  "caption uploaded image",
+  "generate AI memes",
+  "generate GIFs",
+  "check AI quota"
+ ],
+ "effects": {
+  "c62b52a15c723f06fd0931df077d2a1f59300c2f61cb415aab96559640bbfc85": "write",
+  "e0995f39c491d23f74ec197017ae382225081e7046dcdd4549765dc25f1d39d3": "read",
+  "286a157d03d01edc9a765c5a3205a77e09145ef1f94ccb8c06e38417c8ff320c": "read",
+  "cf2a9f03f6b043eec0c4b3bd08bb2fd1456f1223332d23af6206af5873e50729": "write",
+  "6a0c9bd9edc58353b8a8db2d1943f6637358264d7be3433f812439845f4a5143": "write",
+  "a4e60aebf0bff189a0b2adbd0f1652e13ac95e9cf2f173e21a1562c9632c32b9": "write",
+  "38f381466b5c4b535b4b173e2487fadf3bdc234a6b35714367a07e7b382d8a05": "write",
+  "7789dbf547af867f2ea6dd86322e9b39e3ccba524ce49b6ae036f31e4b8ea13f": "read"
+ },
+ "flags": []
+}

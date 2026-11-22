@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "76541f1fda4a9b68d6fdc9007514c8c420674e37e1e4b08724f51d27b1eaa345",
+ "domain": [
+  "health/public-health-surveillance"
+ ],
+ "product": [
+  "who",
+  "ecdc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Qualitative flu, COVID-19 and RSV activity levels for 24 countries plus tracked WHO outbreak notifications.",
+ "whenToUse": "Use when asked about current respiratory illness activity in a country or active disease outbreaks.",
+ "tasks": [
+  "list countries",
+  "get respiratory activity",
+  "list outbreaks"
+ ],
+ "effects": {
+  "4f698aacac3da851b75ecb6ea40c8dc266052d96c0617a1c1b8fd745aedc0f68": "read",
+  "55019bedd35ef3fa8b1b425fd6d5a772c0d67d8b3d599e15a96c54e729a5620f": "read",
+  "2a18da881edaee95ff9e2366dbecd9cde45e8228a2cf8598deec5c7fab8f68ee": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f56314826119d8a7ad9ec77c77392449e2cbe66328877192a6b460a357bc0fb4",
+ "domain": [
+  "software/observability",
+  "operations/incident-management"
+ ],
+ "product": [
+  "grafana"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "MCP server for working with Grafana dashboards, datasources, alerting and incidents.",
+ "whenToUse": "Use when inspecting or managing Grafana dashboards, alerts, datasources or incidents.",
+ "tasks": [
+  "manage dashboards",
+  "query datasources",
+  "manage alerting",
+  "manage incidents"
+ ],
+ "effects": {},
+ "flags": []
+}

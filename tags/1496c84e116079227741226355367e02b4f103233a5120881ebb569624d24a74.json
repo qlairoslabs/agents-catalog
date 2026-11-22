@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1496c84e116079227741226355367e02b4f103233a5120881ebb569624d24a74",
+ "domain": [
+  "advice/human-in-the-loop"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Lets an agent submit a question to a named human, Geoff, and poll for the answer later.",
+ "whenToUse": "Use when you need human judgment on intuition, product strategy or Kubernetes that you cannot compute.",
+ "tasks": [
+  "list people to ask",
+  "submit question",
+  "poll for answer",
+  "receive callback"
+ ],
+ "effects": {
+  "722d0cdb9dbb93c6dd623e56a762067b7ddfb70db84efc1dd66fb9627ba3226b": "read",
+  "76941f075d647391ad737c87520f586e8a3da2ca2c46378349280baf16dd5ebf": "write",
+  "b1ec70527c331cedea8b4ff6963c35763e24301111451f82a9c508a4381cd65b": "read"
+ },
+ "flags": [
+  "question context may be sent to a human and optional callback URL; may share asker contact details"
+ ]
+}

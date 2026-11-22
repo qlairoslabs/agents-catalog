@@ -1,0 +1,61 @@
+{
+ "classifier": 2,
+ "contentHash": "5262a4bcf3b90bccdf9085645a6cd28cb4856ec8698e4324a3d10cf54ff2e180",
+ "domain": [
+  "social-media/telegram-analytics",
+  "marketing/audience-research"
+ ],
+ "product": [
+  "telegram",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Pay-per-call Telegram analytics: channel info and stats, subscriber growth, reach, engagement, post search, keyword tracking, ad intelligence and similar-channel discovery.",
+ "whenToUse": "Use when an agent needs Telegram channel statistics, competitor analysis, brand monitoring or ad intelligence.",
+ "tasks": [
+  "fetch channel messages",
+  "search channels and posts",
+  "extract entities",
+  "analyze sentiment",
+  "get channel profile",
+  "get post stats",
+  "track keywords",
+  "track mentions",
+  "chart subscriber growth",
+  "chart reach and engagement",
+  "find similar channels",
+  "view ad networks and ad posts"
+ ],
+ "effects": {
+  "af318641913915042559984a8bb820090ed49aa8d555c0d6023c48b9379f9378": "read",
+  "71cc7130f43d54c1dd11f88de47cfcc43e01eb144d2f2a01d43a2737dfa5a66e": "read",
+  "26e5d905d3353c2fbc24f62be76828e70f397bbbfe109881e431f2888d96459d": "read",
+  "918ebc96cbdbcf4102b866fba295c01b0048ee470b2d9a657031d1d9be957115": "read",
+  "68163b53eee25d185f127851ea58da07d70fb03cb9f91fd40c5849c8a644ec45": "read",
+  "0b9f403b3f6647906a819a8e8e27d34fca6418c1551179d0b198cf29500b0189": "read",
+  "0804958118768fbf99e65b11eb3211d501db8a61559d524b74060e9dbb03318b": "read",
+  "1a07b1850106c45e528136ee571b5fd674568602b166704444704415616138be": "read",
+  "3018adb7151cdf2f38c84175bb973b799008d85c11a6b55bca6238236568b075": "read",
+  "f1238d7ebc42af9077c55e11c90ac64ef3fede47723d980594d7fbd24dfdc3b7": "read",
+  "992a33438ee323537857d94258f01027a1dc2774b8a8a08e74e3027b6664ea25": "read",
+  "56fa6cc519f7e4bc448493fe3b5d5c6af99e0edd9f7237bae140809f67260899": "read",
+  "4f8dd307dd440493324c70eb9e5e72101d1b32c234aead05b35d32277c17204b": "read",
+  "e2eb161b6ec2a45cb494e3a742ce57828b16af8596dae2b33d834276663ad8b9": "read",
+  "f70fc640061a931ca162de62e66400620dc74f0c555c196f8cec664ad52e71ae": "read",
+  "879b8adb328ae83b0f1ab972cc4bc4148aefa91f30ccd473a1845a23a1945b1b": "read",
+  "59c3399f608730a04915977c6517efc6c64542b42a6e130a16f4208dd6f7054a": "read",
+  "7c19293580688b0da0712eba61d580cdd3a7aa89b7b743ad6a7e415057e854e4": "read",
+  "7f41c9819ad6b63051861a78419ceb05d1213bfeab02fc15dd58c9bbf9712987": "read",
+  "6e05abd5e93731a2ebaa111affdbbf3da6b967ceb0c37929bd1711f630e0b88e": "read"
+ },
+ "flags": []
+}

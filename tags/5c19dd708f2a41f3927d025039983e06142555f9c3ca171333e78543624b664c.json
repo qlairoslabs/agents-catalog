@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5c19dd708f2a41f3927d025039983e06142555f9c3ca171333e78543624b664c",
+ "domain": [
+  "software/developer-portal",
+  "software/devops"
+ ],
+ "product": [
+  "opslevel"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries an OpsLevel internal developer portal for service catalog, maturity data and technical docs.",
+ "whenToUse": "Use when an agent needs service ownership, maturity or documentation from OpsLevel.",
+ "tasks": [
+  "query service catalog",
+  "read maturity data",
+  "search tech docs"
+ ],
+ "effects": {},
+ "flags": []
+}

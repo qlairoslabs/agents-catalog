@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ef29e77478bd6af76b1d6575060ea7ad14567164a5023770595cc03a7d79423c",
+ "domain": [
+  "ecommerce/store-management",
+  "inventory"
+ ],
+ "product": [
+  "vendizap"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Official Vendizap API for managing a store's products, stock, orders and discounts.",
+ "whenToUse": "Use when managing a Vendizap online store's catalogue, inventory, orders or discounts.",
+ "tasks": [
+  "manage products",
+  "update stock",
+  "manage orders",
+  "manage discounts"
+ ],
+ "effects": {},
+ "flags": []
+}

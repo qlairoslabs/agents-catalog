@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "800d92392883ebf8846306042001b07f5032aef423cc75f722d9f1ddbf2fba7a",
+ "domain": [
+  "logistics/moving-services",
+  "marketplace"
+ ],
+ "product": [
+  "hireahelper",
+  "permitpuller"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Find, compare and book moving-labor and full-service movers by ZIP code and date, with pricing, reviews, size recommendations and quote creation.",
+ "whenToUse": "Use when a user wants to compare movers or labor-only help, get a move estimate, or create a moving quote in the US.",
+ "tasks": [
+  "list providers by ZIP",
+  "rank providers",
+  "get provider reviews",
+  "recommend crew and hours",
+  "get starting price",
+  "check coverage",
+  "create quote",
+  "send checkout link",
+  "check permit coverage"
+ ],
+ "effects": {
+  "70dfd7465d0ee7993bb83ee4b0353c8aa7a37a24eacced2ee6fce4bdce82447b": "read",
+  "96e3352959eb4fdb502f2232026d727635c0dd49db2d2def45cd75e3e82ede95": "write",
+  "7b95c558ad914d8e8d9844bbb0a6f1a92a31154853f8f280ad95b5503bca9072": "write",
+  "c05a17d8b7892f78ae8f01bceb6ec3f2a7d58378825348ab586e978990d254d6": "write",
+  "2b3fbea30da6790d05796cfa56063b01b20fabdde13fc5004c8c5107886af25d": "write",
+  "0760e3283dc2e51c3302e3b99be211a5b301136f930c7eb73b243ae0dc2ea8f3": "read",
+  "020629fd52825dce0b4908a005ddb2dc9ba2aa5f8302caaf92366648eea2f906": "write",
+  "ae6924cd0f2d6ea0ec4420dad885ce72178750940bf152e7fb4cc460faa4ad70": "read",
+  "046c027165a5bcb6c9964abe2ed589d981f80a1e6b8fa98e8ccc5dbba8b8ae28": "read",
+  "3b60f23475a3fc36ec8f3a5b4706718e1f3661148a0864f58facf72dbd3a4acb": "read",
+  "0301665be6723e2ac3adcb178de2d4dfb389b15fd33770959c90bc2252a1a49e": "read",
+  "034a9d745347054dc185a83307daaee0e0094ba476909b7b8b25c13c1bea7203": "read",
+  "9e4550a3da83703253872ad1122fb635ba5b4376f1c84342cab3efa485db7404": "read",
+  "32b43c0d03f2ececaa7fa497a832870a72b9f3384fc6ddbdf90207c64665cdba": "write"
+ },
+ "flags": []
+}

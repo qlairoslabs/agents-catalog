@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "46d6f55936f85410cbe892b7dd2cb98abe5b4b7fefff542030d1cdad9780bf2a",
+ "domain": [
+  "communication/messaging",
+  "communication/sms"
+ ],
+ "product": [
+  "whatsapp",
+  "2chat"
+ ],
+ "audience": [
+  "support",
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Accesses WhatsApp Web and Business API messaging, SMS, contacts and call records through 2Chat.",
+ "whenToUse": "Use when an agent needs to send or read WhatsApp or SMS messages or manage contacts via 2Chat.",
+ "tasks": [
+  "send whatsapp messages",
+  "read whatsapp messages",
+  "send sms",
+  "manage contacts",
+  "view call records"
+ ],
+ "effects": {},
+ "flags": []
+}

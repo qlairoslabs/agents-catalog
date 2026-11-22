@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "fa38485cee8698bd893813e04cc3778918c658f615290e12d821f18238eb337d",
+ "domain": [
+  "software/fairness-computation",
+  "legal/verifiable-agreements"
+ ],
+ "product": [
+  "redeal",
+  "drand"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Runs commit-reveal fairness deals between parties, such as fair division, verifiable random draws, Shapley shares and sealed-bid auctions, and issues signed certificates.",
+ "whenToUse": "Use when several parties need a provably fair split, draw or auction outcome that others can verify afterwards.",
+ "tasks": [
+  "create fairness deal",
+  "commit sealed input",
+  "reveal input",
+  "validate input",
+  "compute commitment hash",
+  "fetch drand entropy",
+  "get signed certificate",
+  "verify certificate",
+  "list algorithms",
+  "get API key"
+ ],
+ "effects": {
+  "fc49d4c3e4bfeb12d9e2db67a7a7c57367d2dcee0a4c3b89b83586d5ba1303e8": "write",
+  "a47b5d36905afe1969e152fa8521fe53d001af5928cec36315dac523ea81d585": "read",
+  "e8d0e4fe57540093c0121f060d6dd9c71189cb1ba3bf3e09f61b6aa7058b848f": "write",
+  "a4c50ccba094d0221e2598e4077d9874286c6a70ea661a2ca19cd8de4becc36d": "write",
+  "a6a710605f20ad1809dcac2e53c110306dd4e275bef6bccd4b704fc087cf2711": "read",
+  "b2fe0990e6e0836f14b4d92c107bb2a5ddee89aa0826bf6a8a4396b443c75224": "read",
+  "6d7cc4c03a291945c4861b33d76c7d729874305a74111721973ed200ca9822fe": "write",
+  "099c7c2f593a39dbb2ba03cfa89adfbf9fb8555224237490e44f80c90a629c93": "read",
+  "5653c8ba329986259cfac5ec5a5be55c6287b29ac85d7029eef9158f0832f137": "read",
+  "f98ef10da67d38349c6ff7235bb23e237468d2fe2c65d9e53f1c1c0b97e887cd": "write",
+  "bbb9c441f50e6dbf0c3fd9a368ef0cd435b5c2a8ccf3b623f27369128fb1f2ab": "read",
+  "1800da2608ddf43dd21ce2f4d3aac1b3a2bfd06dfaadfd899adb94c479d8625a": "read"
+ },
+ "flags": []
+}

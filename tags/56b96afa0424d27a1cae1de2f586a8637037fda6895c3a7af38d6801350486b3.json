@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "56b96afa0424d27a1cae1de2f586a8637037fda6895c3a7af38d6801350486b3",
+ "domain": [
+  "gaming/steam",
+  "entertainment/game-discovery"
+ ],
+ "product": [
+  "steam",
+  "steamcozy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and discovers Steam games with review scores, tags, price lows, reviewer consensus and monthly new releases.",
+ "whenToUse": "Use when a user wants Steam game recommendations, review summaries, price history or new releases.",
+ "tasks": [
+  "search games",
+  "fetch game record",
+  "find games by tags",
+  "find similar games",
+  "list new releases"
+ ],
+ "effects": {
+  "9e7626dca9fdf2a13c74cb5350a8488bd53a0130791b71362569801e0a3341dc": "read",
+  "857ddfa8267a38128c654d069298150c65bf40f98259787d3deee37511b5c5cf": "read",
+  "f3c43513aa990ace1ddf64a0e14fcd32d41c12faef179b05e77fe3eb60624473": "read",
+  "59530d0eb05be43b84f1ccd109b040df06ee08553be481272a303d1f2cbcc799": "read"
+ },
+ "flags": []
+}

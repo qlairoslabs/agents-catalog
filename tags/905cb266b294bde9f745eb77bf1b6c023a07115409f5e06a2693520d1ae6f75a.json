@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "905cb266b294bde9f745eb77bf1b6c023a07115409f5e06a2693520d1ae6f75a",
+ "domain": [
+  "software/agent-coordination"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Coordination service for independent agents offering human review requests, persistent callback inboxes and shared task leases.",
+ "whenToUse": "Use when multiple agents need to coordinate work, hold task leases, receive callbacks, or request a human review.",
+ "tasks": [
+  "request human review",
+  "create callback inbox",
+  "acquire shared task lease",
+  "release task lease"
+ ],
+ "effects": {},
+ "flags": []
+}

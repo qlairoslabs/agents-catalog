@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "848891f26f2239a3f2cce0d45e21c5e4b33002ae2d93fd4e67f4e9a3513f7a56",
+ "domain": [
+  "manufacturing/reliability-simulation"
+ ],
+ "product": [
+  "reliasim"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Returns saved reliability simulation results for manufacturing line chapters: bottlenecks, gain/loss analysis, buffer tradeoffs and concept primers.",
+ "whenToUse": "Use when analysing bottlenecks, failure impact or buffer sizing on the ReliaSim example production lines.",
+ "tasks": [
+  "find bottleneck",
+  "get chapter facts",
+  "get chapter narrative",
+  "run gain/loss experiment",
+  "run buffer tradeoff",
+  "explain concepts",
+  "compare chapters"
+ ],
+ "effects": {
+  "d80c8ccdb95059acce434cc077035f22282fd6b7476a137739b483d350caa1c5": "read",
+  "abba6fcd52b2332e05729ef0c0248953a06bca921f9c0bb0b739e990279c2780": "read",
+  "7f3f76bbc0c00020846a599c488b12d76b3b6f50d5a1cc5ccb751ff4646e3f51": "read",
+  "4a857873b1f74c9d5f034b9f97ab5fe715a10293355f2e95ac190b9949947733": "read",
+  "c09ebc1cdd02b3d50c7f4a246259832f26875e5b712666f0e3e3492f100b42cd": "write",
+  "6208f55ae261a4723f07127b3330b4d3798d1ef19bb7da96891464b42044a02b": "read",
+  "5b48f8554989b3d052e16ff3a4e29661f2f794710a7d19fd9025304014eeb58d": "read"
+ },
+ "flags": []
+}

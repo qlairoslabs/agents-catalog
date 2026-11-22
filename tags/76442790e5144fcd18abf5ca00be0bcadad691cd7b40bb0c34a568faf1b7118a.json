@@ -1,0 +1,75 @@
+{
+ "classifier": 2,
+ "contentHash": "76442790e5144fcd18abf5ca00be0bcadad691cd7b40bb0c34a568faf1b7118a",
+ "domain": [
+  "email/deliverability",
+  "software/dns"
+ ],
+ "product": [
+  "spf",
+  "dkim",
+  "dmarc",
+  "cloudflare",
+  "route-53",
+  "godaddy",
+  "namecheap",
+  "slack"
+ ],
+ "audience": [
+  "operations",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scans domains for email authentication and blocklist problems, tracks DMARC reports and alerts, and can publish DNS fixes at a connected registrar.",
+ "whenToUse": "Use when diagnosing or fixing why a domain's email lands in spam, or checking SPF, DKIM, DMARC and blocklist health.",
+ "tasks": [
+  "scan domain deliverability",
+  "check blocklists",
+  "summarize DMARC reports",
+  "list domains and alerts",
+  "plan and apply DNS fixes",
+  "analyze email headers",
+  "batch scan domains",
+  "set up alert channels",
+  "create share links",
+  "connect Microsoft SNDS",
+  "run inbox placement tests",
+  "portfolio rollup"
+ ],
+ "effects": {
+  "2c68981c9ff740bfe6f6acf8742ab6abf8ffdcf642405383ea6c77729cd2c524": "write",
+  "18f390695660493b664413942ee662144a05b30988dc702b1e481670f7d3fa9e": "write",
+  "5837d047a2a574daa623bb6fe3d30cb72587bf7415e3635fce4cec27b92b94ae": "read",
+  "4586f137705fdb7424325fb68057e9097b881bd588d98d6378f7743d1785035d": "read",
+  "cc2c5b7dcf963541b1c6e87be28887dfd125290a093cd5d123654f5071c749b7": "read",
+  "9b6d4864dff35f08c4ff00de1bf38df458c5c649ec8364fddb0af87366acf70c": "read",
+  "5abc1b84595520bafbb60ceb5931562ac53de29455ba185f52f0291866695659": "read",
+  "4bfa3246515957ee71f8dccef1fa53dbced3e2d05a1520feaaee4bd009dc4f14": "read",
+  "57e78004508c44e74f6ce0d5a596368f48151477f8bcbfd692cff00f1d4f22c4": "write",
+  "89c8910876481a907fbb104b8be6ceb072880d4d2d6e44e8967ab57db7548333": "read",
+  "b12c7e3c8c44583d4b2f2e93267fd85f34807bf7bdfd38e6e94bf1fe126cb1a7": "risky",
+  "4613ff56038ebeab2d22657ad3d00bef4ed50331deec24fe0bb572bd2563455d": "read",
+  "9d8c9a1bb1b33b7fd596b985f18f818e349e45412b0ecdac933517ecb153ba15": "write",
+  "b048f4f7c62ea8faaa96405acdff527ad5cf4a0c381c1aab39ff08f2ee01158a": "read",
+  "952f3e2901f385a81f2ebe988d0d1d61e578d0016bf54353915904df5ea41952": "risky",
+  "6d9407e4c3983aff8a17aff4b185fb9435872f90ecc841290cfe757de691d6b6": "read",
+  "1b54396d2373fffecfa1807eb8a17c37e93fea74ddfc33df16e1411a8c4f171f": "write",
+  "67c218ee76152c70719c0bd45ec8abfa07cbcf7b44a667568982834de19b80df": "write",
+  "81433075bf4d2d9e14ba5e9d6282b9050774dfef794aff5027c0216c9890a787": "write",
+  "fda57d7cbed3625bac2ccf6c343119ef019e30c433d12c42857ad7fb2a7c4797": "read",
+  "16973930199bb3cd277774b6f2b550a95019e949e8606b7d3017fbaa8513190b": "read",
+  "6822acb74257dc33374687a4cf05824254fa56fd230cea5bed0072d837d50309": "write",
+  "a7ee49a14fd7c2407c98851ed571ba5e6ed323742751a3f6ffe2a4ad7e0a9fa1": "read",
+  "89ee39a4f6336461037ea76852fe79f67ad3088e30d490f1ef5048dbaefbc179": "write",
+  "16ca37596fe10f5ad24643844e47161d28ae192bfb471cb6252398442b1d927f": "read",
+  "8c1bb34ba12df379c9827bb356cb381427c0842dc7501c55733ba199d7ada0b6": "read",
+  "d495fdb32e3c04dcfb896bb526d3c98a90049ea20d571b3ee4be7bd0d594ea3d": "write",
+  "5941f9c61b8a789ffe219136b8813fb2cc05f50c1fd157850261917a5366e9cc": "read"
+ },
+ "flags": []
+}

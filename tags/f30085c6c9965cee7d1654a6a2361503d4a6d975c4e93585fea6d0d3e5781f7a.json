@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "f30085c6c9965cee7d1654a6a2361503d4a6d975c4e93585fea6d0d3e5781f7a",
+ "domain": [
+  "business/consulting-intake",
+  "hiring"
+ ],
+ "product": [
+  "marziale-technologies"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "hire-and-manage"
+ ],
+ "summary": "Intake flow for Marziale Technologies, a New York firm: guided questions for business operators or talent, then a submitted request.",
+ "whenToUse": "Use when a user wants to contact Marziale Technologies as a business owner or job seeker; submit only after they confirm.",
+ "tasks": [
+  "read offerings",
+  "ask intake questions",
+  "review draft answers",
+  "submit request"
+ ],
+ "effects": {
+  "d74946341fbdef875c5bb9604c072beed69e54812f437b3b08d5502c3e71dad7": "read",
+  "e9570cfe27a2dcfbd6c222eacde6dcedfd4394edef7233ccc4c1d2e4173011e3": "write",
+  "f970374973e45bf61d6fa523d8b61973b747e5f3409bbab07a5040327f0759c4": "write",
+  "73e10d8aba7085361218fb87f2c4ed2ed1c6488f85ad558b3e73fca596442f65": "read",
+  "b9b851183707fc35dd691dc1361daf24fc8e1bb2d2523572396dbb4454fb5375": "write"
+ },
+ "flags": []
+}

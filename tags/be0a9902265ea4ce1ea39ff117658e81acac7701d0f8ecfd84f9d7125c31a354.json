@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "be0a9902265ea4ce1ea39ff117658e81acac7701d0f8ecfd84f9d7125c31a354",
+ "domain": [
+  "data/databases/sql",
+  "ai/text-to-sql"
+ ],
+ "product": [
+  "postgres",
+  "mysql",
+  "sql-server"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Turns natural language into read-only SQL queries on PostgreSQL, MySQL and SQL Server using the actual schema.",
+ "whenToUse": "Use when someone wants to query a SQL database in plain language without writing SQL.",
+ "tasks": [
+  "generate sql from text",
+  "run read-only queries",
+  "read database schema"
+ ],
+ "effects": {},
+ "flags": []
+}

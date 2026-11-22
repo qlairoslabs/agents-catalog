@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "ef594a0e13878bbe4334ab7492997ec70713750c286e539a38b3cc40b1ba6a2c",
+ "domain": [
+  "electronics/datasheets",
+  "hardware"
+ ],
+ "product": [
+  "whatic"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches IC datasheets by parametric specs, retrieves extracted specs and datasheet sections and figures, and ranks parts by relative price tier.",
+ "whenToUse": "Use when selecting or verifying integrated circuit parts and you need real datasheet specs.",
+ "tasks": [
+  "find parts by specs",
+  "get extracted specs",
+  "compare part price tiers",
+  "search datasheets",
+  "look up datasheet sections",
+  "expand segments",
+  "fetch figures"
+ ],
+ "effects": {
+  "bc6f5a0c3ba23f76afe1170f429481bf3272420d909ae873c4d7f51a223cf552": "write",
+  "ca7c654da945c06b39e176b2d02facd35b4066f47541d268db313d1cd26adccb": "read",
+  "6153ceeabb0247460b80d02da7ad6fec4711444cbac8d4f1cda2fb2d70d2d422": "read",
+  "240425f575797c667e04f16a52ca0a13741187674c2098185d4a38af58c57589": "read",
+  "b6b904323c6429fa4564987669b053ca9f7928f54bea164d362dce59f4b42426": "read",
+  "c18cecb3595248fba2b331bb3a3992b1a8674b8858375dd1834a3a42e8816529": "read",
+  "c92c911aee896beee47cba708d11979ed1f2c04745ad3e7fb9828364168ef1ca": "read"
+ },
+ "flags": []
+}

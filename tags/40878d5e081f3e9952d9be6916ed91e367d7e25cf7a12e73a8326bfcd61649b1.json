@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "40878d5e081f3e9952d9be6916ed91e367d7e25cf7a12e73a8326bfcd61649b1",
+ "domain": [
+  "ecommerce/amazon-seo",
+  "marketing/keyword-research"
+ ],
+ "product": [
+  "amazon",
+  "merchantwords"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Amazon keyword research: search volume and trends, reverse-ASIN lookup, page-one results, related keywords and bulk lookups across marketplaces.",
+ "whenToUse": "Use when an Amazon seller needs keyword volumes, competitor ASIN keywords or search result data.",
+ "tasks": [
+  "look up keyword volume",
+  "reverse ASIN lookup",
+  "get search results page",
+  "find related keywords",
+  "bulk keyword lookup",
+  "list marketplaces",
+  "check plan quota"
+ ],
+ "effects": {
+  "f89d4e2a788bb879e43a368fde9187e775264799c2c74d3fc14f83474e046f17": "read",
+  "1f5d6fa407738482bb6e7c79a5ff14b32020db50853c525aaa1683f19ee78a32": "read",
+  "63a0def80a5ea779ba032d461b498830a7f666d2cdc1b153b15f867e444b4bdc": "read",
+  "5f49c68c6af2b09dba05be3a32494f4ecc034a14b1b877450457420263f0d66d": "read",
+  "76f7a389da5b73394400fa532ea5d485c5dcc9a5045be191e8d2f86442fc1765": "read",
+  "121152f705280b03868a0abfed4843f1a95e453b6b7aac01c5924d796b4bcb63": "read",
+  "fa9cdd4b9bd82c64391975de7b88e9daa27b38bdacbf3127584f6efa50b41e7a": "read"
+ },
+ "flags": []
+}

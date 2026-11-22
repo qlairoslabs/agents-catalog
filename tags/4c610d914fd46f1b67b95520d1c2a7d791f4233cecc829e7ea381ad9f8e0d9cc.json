@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "4c610d914fd46f1b67b95520d1c2a7d791f4233cecc829e7ea381ad9f8e0d9cc",
+ "domain": [
+  "software/ai-inference",
+  "developer-tools"
+ ],
+ "product": [
+  "frontier"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Frontier's public model aliases, API capabilities and usage for the calling API key.",
+ "whenToUse": "Use when you need to know which Frontier models and endpoints exist or check usage for a Frontier API key.",
+ "tasks": [
+  "list model aliases",
+  "get endpoint capabilities",
+  "read API usage"
+ ],
+ "effects": {
+  "8880a63a1689b31c3165094247a0e1edaeb8beda8aa8a0c68e971b6b02195b89": "read",
+  "fe1d653baef88bb42933332c8e3c9a70dd4c1e794ac960fe58db3863110ba965": "read",
+  "97e4144fe6790dc60fc5ae587fd39cc891b4926fbafe324a4ace6397136f2d81": "read"
+ },
+ "flags": []
+}

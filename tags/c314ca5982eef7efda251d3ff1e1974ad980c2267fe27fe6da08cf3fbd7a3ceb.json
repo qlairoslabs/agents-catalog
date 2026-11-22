@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c314ca5982eef7efda251d3ff1e1974ad980c2267fe27fe6da08cf3fbd7a3ceb",
+ "domain": [
+  "finance/financial-reporting",
+  "finance/fp-and-a"
+ ],
+ "product": [
+  "k-phi"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries financial statements, KPIs, ratios, cash forecasts and budgets derived from a general ledger.",
+ "whenToUse": "Use when answering questions about a company's financials, ratios, budgets or cash forecast from ledger data.",
+ "tasks": [
+  "query financial statements",
+  "read kpis",
+  "calculate ratios",
+  "view cash forecasts",
+  "view budgets"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "3a0fcdc271a3e45859035b035c1f1a3a8afa2c019bf6e91e22f967f855248ca6",
+ "domain": [
+  "software/cybersecurity",
+  "consulting/agent-readiness"
+ ],
+ "product": [
+  "turva",
+  "hardenize",
+  "internet-nl",
+  "isitagentready"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only information about turva.dev's agent-readiness audit and advisory services, its own readiness and security evidence, principles and contact details.",
+ "whenToUse": "Use when evaluating turva.dev's services, pricing, evidence or how to contact them.",
+ "tasks": [
+  "get service catalog",
+  "get agent-readiness score",
+  "get security scan evidence",
+  "get principles",
+  "get contact info"
+ ],
+ "effects": {
+  "44d8b95a97d2df13860c99003cb49c88dadea0226003d4145c91c1af5f9a2634": "write",
+  "a2425d716137a1c2eff26c9324151f2959a25579566da50614ae73b82d8a6bdc": "write",
+  "3d1e649ddac138d72ac88b3b03b58efbaf53149d25d1039c3d37000b6c7e1c05": "write",
+  "8cd4c08c36d82517ae7acb1aa4b1d0482b926d6e55304d0d10db56147cdffc7e": "read",
+  "06a62b64a20e311e188d37c4e6e4cac321c7a79bc7eb187617d09f587619ccfd": "write"
+ },
+ "flags": []
+}

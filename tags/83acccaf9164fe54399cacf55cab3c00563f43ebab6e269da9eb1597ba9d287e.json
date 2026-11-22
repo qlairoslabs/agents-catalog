@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "83acccaf9164fe54399cacf55cab3c00563f43ebab6e269da9eb1597ba9d287e",
+ "domain": [
+  "content/publishing",
+  "communication/sharing"
+ ],
+ "product": [
+  "fmrl"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Publishes agent-produced content to fmrl and returns a shareable link, without an account.",
+ "whenToUse": "Use when an agent's output should be published publicly as a shareable link.",
+ "tasks": [
+  "publish content",
+  "get shareable link"
+ ],
+ "effects": {},
+ "flags": []
+}

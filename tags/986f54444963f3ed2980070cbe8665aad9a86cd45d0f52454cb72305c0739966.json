@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "986f54444963f3ed2980070cbe8665aad9a86cd45d0f52454cb72305c0739966",
+ "domain": [
+  "sales/rfp-management",
+  "business/tenders"
+ ],
+ "product": [
+  "helvabase"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "stay-compliant",
+  "work-as-a-team"
+ ],
+ "summary": "Connects an AI assistant to governed tender and RFP response dossiers with sources, versions and decisions.",
+ "whenToUse": "Use when preparing or reviewing tender or RFP responses that need traceable sources and versions.",
+ "tasks": [
+  "access rfp dossiers",
+  "review sources",
+  "track versions",
+  "record decisions"
+ ],
+ "effects": {},
+ "flags": []
+}

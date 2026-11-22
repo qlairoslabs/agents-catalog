@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "8378fcccee44efe78ea32052921f4485000aec65d211e76c74fd0e81c5f4d9f6",
+ "domain": [
+  "software/cybersecurity/configuration",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-security-agent",
+  "aws-iam",
+  "amazon-s3"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Configures AWS Security Agent for a workspace by provisioning or reusing an agent space, IAM service role and S3 bucket.",
+ "whenToUse": "Use on first use of AWS Security Agent or when the user asks to configure it.",
+ "tasks": [
+  "provision agent space",
+  "create iam service role",
+  "create s3 bucket",
+  "check configuration status"
+ ],
+ "effects": {},
+ "flags": []
+}

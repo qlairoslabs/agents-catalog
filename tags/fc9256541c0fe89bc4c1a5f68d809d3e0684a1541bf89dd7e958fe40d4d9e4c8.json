@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fc9256541c0fe89bc4c1a5f68d809d3e0684a1541bf89dd7e958fe40d4d9e4c8",
+ "domain": [
+  "data/document-processing",
+  "ai/rag/data-preparation"
+ ],
+ "product": [
+  "unstructured"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Converts documents into structured data for AI by parsing, enriching, chunking and embedding them.",
+ "whenToUse": "Use when an agent needs to prepare documents for search, RAG or other AI pipelines.",
+ "tasks": [
+  "parse documents",
+  "enrich content",
+  "chunk documents",
+  "create embeddings"
+ ],
+ "effects": {},
+ "flags": []
+}

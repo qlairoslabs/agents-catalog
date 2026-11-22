@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "ec9353dceb45495c40f37e8a4c8c9cf8133c23a93b14cc823784212b28e39427",
+ "domain": [
+  "software/log-analysis"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Sorts, filters and summarizes large log files by timestamp, level or keyword.",
+ "whenToUse": "Use when an agent needs to sort or search through large log files.",
+ "tasks": [
+  "sort logs by timestamp",
+  "filter by level",
+  "filter by keyword",
+  "summarize logs"
+ ],
+ "effects": {},
+ "flags": []
+}

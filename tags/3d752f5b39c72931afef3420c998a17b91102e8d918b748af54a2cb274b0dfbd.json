@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3d752f5b39c72931afef3420c998a17b91102e8d918b748af54a2cb274b0dfbd",
+ "domain": [
+  "trade/customs/tariffs",
+  "logistics/import"
+ ],
+ "product": [
+  "gateway-lines"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Provides US import duty rates, HTS classification and tariff change information.",
+ "whenToUse": "Use when estimating US import duties or classifying goods under HTS codes.",
+ "tasks": [
+  "classify goods by hts code",
+  "look up import duty",
+  "track tariff changes"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4c5ea56f71bda756aceaa3568e0833756b3501bc8825421522dfdf06b5b3b9fe",
+ "domain": [
+  "media/screen-recording",
+  "media/video-editing"
+ ],
+ "product": [
+  "windows",
+  "ffmpeg"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Records the Windows screen, exposes recordings as frames and edits them with ffmpeg.",
+ "whenToUse": "Use when an agent needs to record, view or edit Windows screen recordings.",
+ "tasks": [
+  "record windows screen",
+  "view recording frames",
+  "edit video with ffmpeg"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "287bb61aee1eb82450de571bae469807c71fb626002ab34969e9e9f4e91cb181",
+ "domain": [
+  "media/live-streaming/analytics",
+  "media/live-streaming"
+ ],
+ "product": [
+  "twitch"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries a Twitch creator's streams, events, supporters, raids and rankings, using OAuth.",
+ "whenToUse": "Use when a Twitch streamer wants an overview of their stream history, supporters, raids or rankings.",
+ "tasks": [
+  "query streams",
+  "view events",
+  "list supporters",
+  "view raids",
+  "check rankings"
+ ],
+ "effects": {},
+ "flags": []
+}

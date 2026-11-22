@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2732bd7601e2bf82087bd1436c363d09e68cf0b81841a0e33fccd60d61acdcb0",
+ "domain": [
+  "software/mobile/android",
+  "software/api/graphql"
+ ],
+ "product": [
+  "apollo-kotlin",
+  "graphql",
+  "gradle",
+  "android"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Apollo Kotlin GraphQL client in Android, Kotlin/JVM and multiplatform projects.",
+ "whenToUse": "Use when setting up or writing GraphQL client code with Apollo Kotlin.",
+ "tasks": [
+  "set up apollo kotlin in gradle",
+  "download schema",
+  "configure codegen",
+  "configure apolloclient auth and caching",
+  "write queries mutations subscriptions"
+ ],
+ "effects": {},
+ "flags": []
+}

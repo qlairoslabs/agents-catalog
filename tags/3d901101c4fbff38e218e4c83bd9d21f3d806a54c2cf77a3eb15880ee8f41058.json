@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3d901101c4fbff38e218e4c83bd9d21f3d806a54c2cf77a3eb15880ee8f41058",
+ "domain": [
+  "software/no-code-database",
+  "productivity/automation"
+ ],
+ "product": [
+  "baserow"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Reads and builds Baserow databases, automations, dashboards and applications.",
+ "whenToUse": "Use when an agent needs to work with data or build tools inside a Baserow workspace.",
+ "tasks": [
+  "read databases",
+  "create tables",
+  "build automations",
+  "build dashboards",
+  "build applications"
+ ],
+ "effects": {},
+ "flags": []
+}

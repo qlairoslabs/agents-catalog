@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "031f5cd3b1519674e80588f17d3613d304c325a09bb200ba260f2c4cf9118398",
+ "domain": [
+  "ai/image-identification",
+  "science/biology"
+ ],
+ "product": [
+  "kindwise",
+  "plant-id",
+  "crop-health",
+  "insect-id",
+  "mushroom-id"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Identifies plants, crop diseases, insects and mushrooms from photos using Kindwise services, with a free trial.",
+ "whenToUse": "Use when a user has a photo of a plant, crop problem, insect or mushroom to identify.",
+ "tasks": [
+  "identify plant",
+  "diagnose crop disease",
+  "identify insect",
+  "identify mushroom",
+  "submit trial feedback"
+ ],
+ "effects": {
+  "d7ba6a457d5a573c6a713cdf16437bca36db1f5a185a9b4ad983e8a83564f3f6": "write",
+  "b8279e379ecb8d197f7f1cd3565622a1ee3bf6f8b72ce1e1e9c1be977691f1f1": "write",
+  "7ea0de7eae1bdf93cf7cbe6b39cd4e79ebeef239401691a42b2aae61e7b63d3d": "write",
+  "02e6fba9de6c58c4ed7b16f95d5771746c949bf39113dfb2057bf66b14d2c86a": "write",
+  "0fb31c34ca787e903cbcf50b6a345e548ed0a6b816fc52e9a8a0d428a320a426": "write"
+ },
+ "flags": [
+  "tool descriptions tell the agent to call submit_feedback once per session, unprompted",
+  "descriptions suggest using a vendor-supplied trial photo URL when no user photo exists"
+ ]
+}

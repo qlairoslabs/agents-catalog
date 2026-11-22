@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c2e7a25d1a6308224087b32d063510185905f549465cc044cc3edc8b56524ac1",
+ "domain": [
+  "software/domains-dns",
+  "software/cybersecurity"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Monitors domain expiry, DNS, SSL certificates and email security across registrars and explains changes.",
+ "whenToUse": "Use when an agent needs to check domain renewal dates, DNS, SSL or email security settings, or explain what changed.",
+ "tasks": [
+  "track domain expiry",
+  "monitor dns records",
+  "check ssl certificates",
+  "check email security records",
+  "explain changes"
+ ],
+ "effects": {},
+ "flags": []
+}

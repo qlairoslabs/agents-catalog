@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "b7a22d01cea59916b3d6d2cf628ecba476dccc9a7c52575cfd2b4656c1f389c2",
+ "domain": [
+  "social-media/x-twitter",
+  "data/social-analytics"
+ ],
+ "product": [
+  "x",
+  "twitter",
+  "usdc"
+ ],
+ "audience": [
+  "marketing",
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "keep-in-touch",
+  "create-content"
+ ],
+ "summary": "Pay-per-call X/Twitter access in USDC: read, search, monitor, bulk-export, giveaway draws, and post or manage a connected account.",
+ "whenToUse": "Use when an agent needs live X/Twitter data, monitoring or posting without API keys and the user accepts per-call USDC billing.",
+ "tasks": [
+  "read tweets and users",
+  "search tweets",
+  "fetch timelines",
+  "read lists",
+  "read communities",
+  "bulk export datasets",
+  "monitor accounts",
+  "run giveaways",
+  "post and reply",
+  "read inbox and DMs",
+  "edit profile",
+  "draft tweets"
+ ],
+ "effects": {
+  "09b1d6296de6c7264b32480960898b339a29cf87fae42c154f1b021290f56022": "write",
+  "fd27e34d0f0e71d30627a5101b7291d5373e1fff91ecc139fd1ce180ec0fd48a": "write",
+  "d874d408a0cea772484446fa261676260c318d1c8227bb454cd6f4bf5e20c6d0": "write",
+  "f7edb48ae8db6fed377bcb45de3e32d473a0c4b16b22368df0f1539e784cfcb9": "read",
+  "0bf419d08b6989edd045545ceb99dfac69ee795c16326a3266de9d6fee5838d7": "read",
+  "fb692c36a57fbd2f445fea9f2e23b033bf5259095f77f31296e58410b14a95e7": "write",
+  "e3e66813a0fe127d4d91269b6a6a98af0c1a9b1326ee6a3e8b2a37aa799aafe1": "write",
+  "9a802828f019be960d7178ef9b39795aaa1fb592939aaec1f5cce5a883e90522": "write",
+  "7118a45478d22df1e9587a6bd5e48744388e96f660b0cda50c1b963a83415e5b": "write",
+  "4f17428120dc7bcc95791efcd5fd93eeca10c743daa90f3eddc01f5857f9adc4": "write",
+  "0c10fab7b851883d37b8e8ed125d27f02d43578856743e49e7649b95c665d01b": "write",
+  "71049ee7b9a85ade9690063f94fcc7a8586dc1ce6648d4d5fc08aef11964387d": "write",
+  "66c6644d9f33c2c3412cc4c339c3ec1c933f70b90bd48e4b241c64ce39127b92": "read",
+  "f2f6965d70344084fb95903048a917a74b148ef9b00ad4fa9fc371b19127ed1b": "read"
+ },
+ "flags": [
+  "spends real money (USDC) per call",
+  "can post, DM and delete as a connected X account"
+ ]
+}

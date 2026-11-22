@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1ccb091417687e0bee3b94a190909336737fd2918c83fa59884ebfcfdd9a9453",
+ "domain": [
+  "software/ai/vector-search",
+  "software/databases"
+ ],
+ "product": [
+  "azure-sql-database"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Builds vector search and RAG on the Azure SQL container using native VECTOR columns, VECTOR_DISTANCE and vector indexes.",
+ "whenToUse": "Use when a user needs embeddings, similarity search or RAG and their data is or can be in Azure SQL.",
+ "tasks": [
+  "create vector columns",
+  "insert embeddings",
+  "run similarity search",
+  "build rag retrieval",
+  "create vector index",
+  "plug in embedding endpoint",
+  "provision appdb"
+ ],
+ "effects": {},
+ "flags": []
+}

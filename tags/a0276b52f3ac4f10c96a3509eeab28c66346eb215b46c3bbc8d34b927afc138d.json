@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "a0276b52f3ac4f10c96a3509eeab28c66346eb215b46c3bbc8d34b927afc138d",
+ "domain": [
+  "retail/barcode-and-mobile-computing",
+  "support/technical"
+ ],
+ "product": [
+  "autoid",
+  "zebra",
+  "woocommerce"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Read-only AutoID Romania catalogue and support server: product search, live stock and prices, variants, related accessories, plus manuals, firmware and drivers.",
+ "whenToUse": "Use when answering questions about AutoID products, stock and prices, or finding manuals, drivers and firmware.",
+ "tasks": [
+  "search products",
+  "get product group",
+  "list variants",
+  "get live offer and stock",
+  "related accessories and consumables",
+  "list brands and categories",
+  "sync catalogue",
+  "search support resources",
+  "fetch support documents",
+  "health checks"
+ ],
+ "effects": {
+  "802508eaa4f62501c1659d7a09521b2bc7e72ca35cf798afb9e15e5bbd0739df": "read",
+  "833eed3a3748cab64a78b3f067554d76d735cff78639d59779d9b092f5bcb44f": "read",
+  "3a12b37e10869719d469907c9b20eea79779618f84f2a1a31106d2426c7e480e": "read",
+  "673475fc3d1309bebc45a9b7479b80de7e48673956f74e663e3c43edaac43d37": "read",
+  "1bbcdabd833a12cbb2b6850beb975dcdba9ced7a724f07af4f76af3267fffc09": "read",
+  "478279c3427c0b9a66697ea06efdd15b142dbf6d07fa91d0e7ba61b3ff2dff24": "read",
+  "10aa18e4de70a138d882a8dc3c28c153fc8a2f2a52cb3a66105c4c7a49cd0a33": "read",
+  "1edf537afa9ad7c805f8ab45359d0da68d9bab4f3729d3b1a928737e11f851c5": "read",
+  "ad07142361ffcc2aebbe3c1a5ab8af3c12e09d6283871928a694c09307aeab1b": "write",
+  "b84ce739160e7db3f1c2cb21966dea4e36e379df4d3199cd1b03c76a7c51a13a": "write",
+  "0d2a5f1fecd3f9099bafc99c01cc262ccd6a398954dc3b784c55d26c6eb01ed8": "read",
+  "2f33c22514cd980a7629302f768116184c4f50a9aa501cb751c382b045231b3f": "read",
+  "3eeb0ae5e8fc7f8917856f40f617914139c62510dc6b69c77d6f1c6816465414": "read",
+  "b6eaf2ac4d352cd805a37f38b84886708eec0b05469a094018be8ecb8f6e90df": "read",
+  "0e4209eadf5b33e9ee76e3fbb45fbd9b8354e711a22a9b0c97c3947906c6c309": "read"
+ },
+ "flags": []
+}

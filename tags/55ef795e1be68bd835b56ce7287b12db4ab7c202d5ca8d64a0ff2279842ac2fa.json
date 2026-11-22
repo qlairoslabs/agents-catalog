@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "55ef795e1be68bd835b56ce7287b12db4ab7c202d5ca8d64a0ff2279842ac2fa",
+ "domain": [
+  "media/video-analysis",
+  "media/video-clipping"
+ ],
+ "product": [
+  "momentclip",
+  "youtube"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds, cites and clips moments in YouTube videos, with transcripts, analysis, Q&A and 1080p clip downloads.",
+ "whenToUse": "Use when a user wants to locate, quote or extract a specific moment from a YouTube video.",
+ "tasks": [
+  "analyse youtube videos",
+  "get transcripts",
+  "answer questions about videos",
+  "find moments",
+  "cite timestamps",
+  "download clips"
+ ],
+ "effects": {},
+ "flags": []
+}

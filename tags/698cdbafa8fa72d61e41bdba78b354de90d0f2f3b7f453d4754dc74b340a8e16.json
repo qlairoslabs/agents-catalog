@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "698cdbafa8fa72d61e41bdba78b354de90d0f2f3b7f453d4754dc74b340a8e16",
+ "domain": [
+  "data/web-search",
+  "software/ai-development"
+ ],
+ "product": [
+  "tavily"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Helps build AI apps using Tavily's web search, extraction, crawling and research APIs.",
+ "whenToUse": "Use when an application needs real-time web data via Tavily search or crawling.",
+ "tasks": [
+  "search the web",
+  "extract page content",
+  "crawl sites",
+  "run research queries"
+ ],
+ "effects": {},
+ "flags": []
+}

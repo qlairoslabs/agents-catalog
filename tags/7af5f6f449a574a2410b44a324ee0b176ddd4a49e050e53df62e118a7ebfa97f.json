@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7af5f6f449a574a2410b44a324ee0b176ddd4a49e050e53df62e118a7ebfa97f",
+ "domain": [
+  "software/observability/apm",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure-application-insights"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Guidance on adding Azure Application Insights telemetry to web apps, including SDK setup, patterns and configuration.",
+ "whenToUse": "Use when a user asks how to instrument an app with Application Insights or wants APM telemetry guidance.",
+ "tasks": [
+  "explain application insights",
+  "set up app insights sdk",
+  "apply telemetry patterns",
+  "configure instrumentation",
+  "provide instrumentation examples"
+ ],
+ "effects": {},
+ "flags": []
+}

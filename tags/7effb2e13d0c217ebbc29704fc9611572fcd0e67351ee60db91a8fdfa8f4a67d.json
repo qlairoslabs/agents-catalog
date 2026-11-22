@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7effb2e13d0c217ebbc29704fc9611572fcd0e67351ee60db91a8fdfa8f4a67d",
+ "domain": [
+  "hospitality/hotels",
+  "travel/booking"
+ ],
+ "product": [
+  "the-driscoll"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "sell"
+ ],
+ "summary": "Read-only property information, indicative availability, booking links and guest support for The Driscoll.",
+ "whenToUse": "Use when a guest asks about The Driscoll property, its availability or how to book.",
+ "tasks": [
+  "get property facts",
+  "check indicative availability",
+  "get booking links",
+  "answer guest questions"
+ ],
+ "effects": {},
+ "flags": []
+}

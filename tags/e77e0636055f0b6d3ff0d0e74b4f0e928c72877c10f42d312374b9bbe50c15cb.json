@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e77e0636055f0b6d3ff0d0e74b4f0e928c72877c10f42d312374b9bbe50c15cb",
+ "domain": [
+  "design/design-review",
+  "design/graphic-design"
+ ],
+ "product": [
+  "canva"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Reads a Canva design and gives structured feedback on hierarchy, copy, layout, consistency, readability and accessibility without editing it.",
+ "whenToUse": "Use when the user asks for a critique or improvement suggestions on a Canva design.",
+ "tasks": [
+  "review visual hierarchy",
+  "critique copy and messaging",
+  "assess layout and spacing",
+  "check consistency",
+  "check readability and accessibility"
+ ],
+ "effects": {},
+ "flags": []
+}

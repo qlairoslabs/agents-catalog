@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1ebf2b0d58aac20f0453f5635def5bcbecb88032903c800598df3e4200acd35c",
+ "domain": [
+  "finance/personal-finance",
+  "finance/budgeting"
+ ],
+ "product": [
+  "dhanvrit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Personal finance assistant that tracks accounts, expenses, subscriptions and forecasts cash flow.",
+ "whenToUse": "Use when a user wants to review their personal accounts, spending, subscriptions or upcoming cash flow.",
+ "tasks": [
+  "track accounts",
+  "track expenses",
+  "forecast cash flow",
+  "manage subscriptions"
+ ],
+ "effects": {},
+ "flags": []
+}

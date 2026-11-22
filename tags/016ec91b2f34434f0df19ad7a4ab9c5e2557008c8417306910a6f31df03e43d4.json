@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "016ec91b2f34434f0df19ad7a4ab9c5e2557008c8417306910a6f31df03e43d4",
+ "domain": [
+  "communication/email/transactional-email"
+ ],
+ "product": [
+  "maileroo"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Sends email through Maileroo, searches delivery logs, and manages sending domains and account settings.",
+ "whenToUse": "Use when an agent needs to send email or investigate delivery through a Maileroo account.",
+ "tasks": [
+  "send email",
+  "search delivery logs",
+  "manage domains",
+  "manage account"
+ ],
+ "effects": {},
+ "flags": []
+}

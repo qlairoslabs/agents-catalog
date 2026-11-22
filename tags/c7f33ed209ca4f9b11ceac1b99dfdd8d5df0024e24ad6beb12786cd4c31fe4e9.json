@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c7f33ed209ca4f9b11ceac1b99dfdd8d5df0024e24ad6beb12786cd4c31fe4e9",
+ "domain": [
+  "web/screenshots"
+ ],
+ "product": [
+  "url2image"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Captures screenshots of batches of public web pages in a real browser and returns them as a zip.",
+ "whenToUse": "Use when an agent needs screenshots of many web pages at once.",
+ "tasks": [
+  "capture web page screenshots",
+  "batch screenshot urls",
+  "download screenshots as zip"
+ ],
+ "effects": {},
+ "flags": []
+}

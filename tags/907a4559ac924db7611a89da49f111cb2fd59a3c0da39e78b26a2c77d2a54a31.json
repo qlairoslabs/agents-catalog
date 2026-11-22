@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "907a4559ac924db7611a89da49f111cb2fd59a3c0da39e78b26a2c77d2a54a31",
+ "domain": [
+  "software/observability",
+  "data/dashboards"
+ ],
+ "product": [
+  "squaredup"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries and manages SquaredUp dashboards, data streams, knowledge graph and KPIs in the US region.",
+ "whenToUse": "Use when an agent needs to query or update SquaredUp dashboards or KPIs hosted in the US.",
+ "tasks": [
+  "query dashboards",
+  "manage dashboards",
+  "query data streams",
+  "explore knowledge graph",
+  "manage kpis"
+ ],
+ "effects": {},
+ "flags": []
+}

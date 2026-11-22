@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "76b682db692cdc20ab605b5dd47d2710bf0ab86a217d86b6f6058b1b74ed7305",
+ "domain": [
+  "content/publishing",
+  "collaboration/review"
+ ],
+ "product": [
+  "derive"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Publishes agent-generated output to permanent versioned URLs and lets the agent read reviewer comments and publish revisions.",
+ "whenToUse": "Use when an agent needs to share a document or output at a stable link, collect feedback, and iterate on it.",
+ "tasks": [
+  "publish output to a url",
+  "create new versions",
+  "read review comments",
+  "revise published content"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6800c85555914d48603c4249718d2ee9788e1db64b35fd7ef0f62a6647cbd3c2",
+ "domain": [
+  "software/cybersecurity",
+  "legal/privacy-compliance"
+ ],
+ "product": [
+  "ecoa"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Checks website security and compliance, covering headers, TLS, DNS, email settings, Brazilian LGPD and penetration tests.",
+ "whenToUse": "Use when auditing a website's security configuration or LGPD compliance.",
+ "tasks": [
+  "check security headers",
+  "check tls",
+  "check dns",
+  "check email authentication",
+  "check lgpd compliance",
+  "run pentest"
+ ],
+ "effects": {},
+ "flags": []
+}

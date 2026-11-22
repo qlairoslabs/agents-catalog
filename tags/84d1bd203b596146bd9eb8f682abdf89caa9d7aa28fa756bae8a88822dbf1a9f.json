@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "84d1bd203b596146bd9eb8f682abdf89caa9d7aa28fa756bae8a88822dbf1a9f",
+ "domain": [
+  "data/database",
+  "productivity/shared-records"
+ ],
+ "product": [
+  "statey"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "A hosted database for AI agents that stores shared, validated, structured records usable across chats.",
+ "whenToUse": "Use when an agent needs to store and share structured records that persist across AI conversations.",
+ "tasks": [
+  "store structured records",
+  "validate records",
+  "share records across chats",
+  "query records"
+ ],
+ "effects": {},
+ "flags": []
+}

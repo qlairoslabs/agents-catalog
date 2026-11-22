@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8a58397b674b90bf00a1cacdfb97842f744168a30f95a5929421cd18468bcf90",
+ "domain": [
+  "marketing/messaging",
+  "communication/email"
+ ],
+ "product": [
+  "senderkit"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Lets an agent build and send email, SMS and push notifications.",
+ "whenToUse": "Use when an agent needs to compose and send email, SMS or push messages to users or customers.",
+ "tasks": [
+  "build email",
+  "send email",
+  "send sms",
+  "send push notifications"
+ ],
+ "effects": {},
+ "flags": []
+}

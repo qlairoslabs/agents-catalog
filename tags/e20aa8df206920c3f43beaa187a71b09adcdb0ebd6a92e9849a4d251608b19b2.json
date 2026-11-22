@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e20aa8df206920c3f43beaa187a71b09adcdb0ebd6a92e9849a4d251608b19b2",
+ "domain": [
+  "productivity/office-documents"
+ ],
+ "product": [
+  "microsoft-word",
+  "microsoft-excel",
+  "microsoft-powerpoint"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Reads and edits Word documents, Excel workbooks and PowerPoint files.",
+ "whenToUse": "Use when an agent needs to read or change Office files.",
+ "tasks": [
+  "read word documents",
+  "edit word documents",
+  "read excel workbooks",
+  "edit excel workbooks",
+  "edit powerpoint files"
+ ],
+ "effects": {},
+ "flags": []
+}

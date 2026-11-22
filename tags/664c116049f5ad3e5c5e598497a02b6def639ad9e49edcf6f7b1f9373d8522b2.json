@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "664c116049f5ad3e5c5e598497a02b6def639ad9e49edcf6f7b1f9373d8522b2",
+ "domain": [
+  "science/oceanography",
+  "data/environmental"
+ ],
+ "product": [
+  "aquaview",
+  "noaa",
+  "ndbc",
+  "ioos"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a catalogue of over 268,000 oceanographic, atmospheric and marine datasets and pulls observation rows from supported sources.",
+ "whenToUse": "Use when you need ocean or marine environmental datasets, buoy readings or profile observations for research or analysis.",
+ "tasks": [
+  "search datasets",
+  "fetch dataset item details",
+  "list collections",
+  "aggregate catalogue counts",
+  "list data sources",
+  "pull observation rows"
+ ],
+ "effects": {
+  "30846e9ef72e2422c8615877f4fb67f819479894d7bde449a30b9f93f5729888": "write",
+  "24b2081632dc1a611ca28b0fcfa1f8bc13c7862a9aadd768bc9dc55139ee81ef": "write",
+  "14c1fb34b0a20b279c81f8385f4ffee863dca4d47fa2e54da271c2a36beccbe3": "write",
+  "f22fe9d3c8e19ecd9d07fbd7ba36eee4a0cf6d40319fd1e70c1d7ed185d0df94": "write",
+  "c67cd12c18aa7ef2521330ad3b19de492f7e5a9d443714884b20a654595dd1fb": "read",
+  "cba82eef3fb540bb1e29e3b9fb142cd19c26762abbc8cb20fc99f816fdd330b3": "write"
+ },
+ "flags": []
+}

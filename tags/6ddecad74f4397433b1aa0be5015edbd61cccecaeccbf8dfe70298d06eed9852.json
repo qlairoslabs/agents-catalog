@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6ddecad74f4397433b1aa0be5015edbd61cccecaeccbf8dfe70298d06eed9852",
+ "domain": [
+  "software/code-quality",
+  "software/cybersecurity/static-analysis"
+ ],
+ "product": [
+  "sonarqube"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "SonarQube code quality and security checks in the agent loop via hooks, secrets scanning, quality gates and an MCP server.",
+ "whenToUse": "Use when code edits should be checked against SonarQube rules, quality gates or secrets scanning.",
+ "tasks": [
+  "analyze code after edits",
+  "scan for secrets",
+  "check quality gate status",
+  "view coverage",
+  "view duplication",
+  "assess dependency risks"
+ ],
+ "effects": {},
+ "flags": []
+}

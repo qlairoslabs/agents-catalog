@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "55b90fc93cc54a019e786c58333511c592bda99e68ddcc52334f69669b42634c",
+ "domain": [
+  "knowledge-management/wiki",
+  "collaboration/documentation"
+ ],
+ "product": [
+  "confluence",
+  "atlassian"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Lets agents read and manage pages in self-hosted Confluence Data Center.",
+ "whenToUse": "Use when an agent needs to search, read, create or update Confluence Data Center content.",
+ "tasks": [
+  "search pages",
+  "read pages",
+  "create pages",
+  "update content"
+ ],
+ "effects": {},
+ "flags": []
+}

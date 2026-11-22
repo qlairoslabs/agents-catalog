@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "57f26e2f59e9283eac56fe0673c0c8e5adba99671e00d682e9c32cbdfac10819",
+ "domain": [
+  "software/file-storage"
+ ],
+ "product": [
+  "limewire"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Hosted file storage for agents that supports uploading, listing, downloading, link sharing, expiry and scratch space.",
+ "whenToUse": "Use when an agent needs to store, retrieve or share files by link, including temporary files.",
+ "tasks": [
+  "upload files",
+  "list files",
+  "download files",
+  "share files by link",
+  "set file expiry",
+  "use scratch storage"
+ ],
+ "effects": {},
+ "flags": []
+}

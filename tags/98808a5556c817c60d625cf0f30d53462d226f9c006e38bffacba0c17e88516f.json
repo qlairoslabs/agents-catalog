@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "98808a5556c817c60d625cf0f30d53462d226f9c006e38bffacba0c17e88516f",
+ "domain": [
+  "travel/tours",
+  "travel/activities"
+ ],
+ "product": [
+  "guruwalk"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds free walking tours and paid activities in 1,000+ cities with availability, ratings, details, support guides and booking links.",
+ "whenToUse": "Use when a traveler wants tours or activities in a city and needs availability or booking info.",
+ "tasks": [
+  "search tours by destination",
+  "browse by category",
+  "check availability",
+  "get product details",
+  "show tour cards",
+  "get support guides"
+ ],
+ "effects": {
+  "42393c6b82d7af58839aea62685cd8754de15ab54469ee1f7a8d9c31e2e8e128": "write",
+  "4aafca981899dae4ca6f0ce07639febc0549f75a92aeb753768c1d5640845b6f": "write",
+  "7f76eb92b4c06ff1088548e208d183abb597304e91c488bb94165e950c7b2d7b": "write",
+  "29f2c6c625c5bb07651adb2bc6f62adaac2803b646b96b9d85053d059e635597": "write",
+  "ad8fd10acf92bd9b79066012ba46786f3e4fb76b5f326326b4c065cc74efb5a0": "write",
+  "b22f38037b54290d8fc0ab8028413be2383326c369726f6f458cddcde90ca6f0": "write"
+ },
+ "flags": [
+  "Tool description instructs the agent to call show_tours_activities whenever tours are mentioned without being asked"
+ ]
+}

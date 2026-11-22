@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ac3ddaa99bf0d44d2485836aa7d7d8af840bc0b72bf25eda63779ebd68fa4346",
+ "domain": [
+  "sales/company-intelligence",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "predictleads"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Company insight data including job postings, technology stack, news events, key customers and similar companies.",
+ "whenToUse": "Use when an agent needs to research a company for prospecting or market analysis.",
+ "tasks": [
+  "look up job postings",
+  "identify tech stack",
+  "find news events",
+  "find key customers",
+  "find similar companies"
+ ],
+ "effects": {},
+ "flags": []
+}

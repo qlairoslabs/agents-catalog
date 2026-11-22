@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "84d6884b9379bfe4da17291b42014f3ca55cd7dbff43bc7164ec0787901dd028",
+ "domain": [
+  "finance/crypto-mev",
+  "finance/defi-liquidations"
+ ],
+ "product": [
+  "ethereum",
+  "aave",
+  "spark",
+  "morpho",
+  "flashbots",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Real-time DeFi liquidation intelligence, builder recommendations, calldata building and signed bundle submission for MEV searchers.",
+ "whenToUse": "Use when a searcher needs to find, assess and execute lending-protocol liquidations on Ethereum or Base.",
+ "tasks": [
+  "list near-liquidation borrowers",
+  "searcher leaderboard",
+  "recommend builder",
+  "MEV feed",
+  "submit signed bundle",
+  "monitor crossing candidates",
+  "predict liquidation probability",
+  "daily report",
+  "build liquidation calldata"
+ ],
+ "effects": {
+  "2d97efc08af44d66ee803f55372ddd1ea52bf23c2f4dc5a587a66810fb563153": "read",
+  "fd0d5ba3aa882fb09f8a69c01316799359723252e6c887843cb579ba948749a2": "read",
+  "6ace5a26ebe025f33787ca90669a68297f40005e596612b4a921d72bcc069820": "read",
+  "a9828f9f8d43dd118803f20b4f27da1dd55b174d58a4dca93cdb86a81da552e0": "read",
+  "a2288b061dda9c5038c736747abcafd488568f874d9dfeb87215cedb946f2d94": "risky",
+  "bcc7b6897b4d94f48864b6a112593b570a03ad11377298cf5d80c3a1cb132294": "read",
+  "42baf97b9794f3843af1a40ecef8eecd2a0d3cb71b2c7cd3cdc731a667820775": "read",
+  "a1a9e3e3440e8412a528d7fbbb874f8e96c7343bbb280f3de5a7399c53c2a4b1": "write",
+  "e2892fcd8e80b1b312c36208865c702aa650117d59f2bed4dd9c44e5fba2c472": "read",
+  "032865fe66836ad2c90bd5815fd6057d65b15a575e1cb96a405da8a3427414c6": "read"
+ },
+ "flags": [
+  "executes-onchain-financial-transactions"
+ ]
+}

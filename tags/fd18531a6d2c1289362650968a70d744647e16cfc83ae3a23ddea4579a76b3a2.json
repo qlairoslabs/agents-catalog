@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "fd18531a6d2c1289362650968a70d744647e16cfc83ae3a23ddea4579a76b3a2",
+ "domain": [
+  "finance/tax",
+  "finance/investing"
+ ],
+ "product": [
+  "irs"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Deterministic tax calculator for publicly traded MLP holdings covering K-1 basis, §751 recapture, projections and estate views.",
+ "whenToUse": "Use when a user holding MLP units needs basis, sell-versus-hold or estate tax calculations with IRS citations.",
+ "tasks": [
+  "project multi-year mlp taxes",
+  "estate planning view",
+  "compare sell vs hold",
+  "look up mlp reference data",
+  "compute k-1 adjusted basis",
+  "track multi-year basis"
+ ],
+ "effects": {
+  "93345d80fdaf71285cedd9419c51f4c2a42b2991c6b39737bc2e414cd8c398a6": "write",
+  "50f8004f4e32e1cb905de5088dc579dd0012766637de48983a2565135eac3d86": "write",
+  "ff002cb99cb7534e4d9a40b9500445e3279fe0cff6bb9a103253ddc48285e4c6": "write",
+  "386d586a4116f9efd21c1d9fe466bb2137a90bf103bea8c6fe49fd21d8d347db": "write",
+  "fbe1778b5f026cc2a99302384ecd1a1b0a20b6670ef7af2f5d51194105a276d8": "write",
+  "2b98e540405c8a1dc7aa17a5ed5f1cacc345edf86c6a3f05a80dbd5681168e05": "write"
+ },
+ "flags": []
+}

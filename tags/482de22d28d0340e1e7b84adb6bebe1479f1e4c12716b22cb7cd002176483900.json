@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "482de22d28d0340e1e7b84adb6bebe1479f1e4c12716b22cb7cd002176483900",
+ "domain": [
+  "software/code-understanding",
+  "ai/llm-integration"
+ ],
+ "product": [
+  "gemini",
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Answers questions about a codebase from Claude Code by sending it to Gemini's large context window.",
+ "whenToUse": "Use when an agent needs questions answered over a large codebase that exceeds its own context.",
+ "tasks": [
+  "scan workspace",
+  "ask questions about codebase",
+  "cache code context"
+ ],
+ "effects": {},
+ "flags": []
+}

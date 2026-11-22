@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d0b4223d18c2594dabdf3d53454e1bf3e699e291becef35093b3cf18f765e35f",
+ "domain": [
+  "ai/retrieval-augmented-generation",
+  "data/web-search"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps build RAG pipelines or custom search engines using Bright Data's Discover API for live retrieval or ingestion into vector stores.",
+ "whenToUse": "Use when a user wants to ground an LLM or chatbot in live web data or ingest web content into a vector database.",
+ "tasks": [
+  "set up live web retrieval",
+  "ingest web content",
+  "chunk and embed pages",
+  "load vector stores",
+  "build custom search engine"
+ ],
+ "effects": {},
+ "flags": []
+}

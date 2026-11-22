@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "76c9b6e208d095a782101db203f69e7d99e605ca1954650c3308496600607c84",
+ "domain": [
+  "design/ui-design",
+  "software/prototyping"
+ ],
+ "product": [
+  "flowstep"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Generates, inspects and manages Flowstep UI designs from an AI assistant.",
+ "whenToUse": "Use when an agent needs to create or review UI designs in Flowstep.",
+ "tasks": [
+  "generate ui designs",
+  "inspect designs",
+  "manage designs"
+ ],
+ "effects": {},
+ "flags": []
+}

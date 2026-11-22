@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "71424a5d5dac70180ced1bbe813288f66b2d61d1210d0c65f32c310c68725ce6",
+ "domain": [
+  "customer-support/chatbots/website-agent"
+ ],
+ "product": [
+  "caac-go"
+ ],
+ "audience": [
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Trains, tests, installs and reviews a website AI agent built on CAAC Go.",
+ "whenToUse": "Use when the user wants to set up or improve an AI chat agent on their website.",
+ "tasks": [
+  "train website agent",
+  "test agent",
+  "install agent",
+  "review agent conversations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "7f5715feb0696dcb420e43cae86e2102cc08b4ca5f9a5ee3e7332adcac166697",
+ "domain": [
+  "software/ui-components",
+  "software/documentation"
+ ],
+ "product": [
+  "sbgrid3",
+  "softbowl"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches Softbowl SBGrid3.0 data grid API documentation and examples to help generate correct grid code.",
+ "whenToUse": "Use when writing or debugging code that uses the SBGrid3.0 data grid.",
+ "tasks": [
+  "search grid APIs",
+  "get API detail",
+  "browse API categories",
+  "find code examples"
+ ],
+ "effects": {
+  "f567c9705800787c10726deea5c71030865c88da3cb58e49d4ec9dc22e0144c1": "read",
+  "efe3199a5cfce26aab06f0cde90f722de3c287566e2cbdebd422eafa57ceb0e3": "read",
+  "265a92dac0a359ae33ec89b64de40204fa9a61959bfc455f370322d53e1be62a": "read",
+  "275d958dd5815e59416dc572b04c45e3cd291935f69c68b2496c96fc82875e58": "read"
+ },
+ "flags": [
+  "tool descriptions embed a directive about following server instructions"
+ ]
+}

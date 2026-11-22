@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6115ea89b2a993a7affd6c4eda30e56a83944485b876392663ae6a7bba2d0444",
+ "domain": [
+  "software/devops/kubernetes",
+  "software/cloud"
+ ],
+ "product": [
+  "kubernetes",
+  "openshift"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "MCP server for managing Kubernetes and OpenShift clusters, distributed via PyPI.",
+ "whenToUse": "Use when inspecting or managing Kubernetes or OpenShift cluster resources.",
+ "tasks": [
+  "list resources",
+  "inspect pods",
+  "view logs",
+  "manage deployments"
+ ],
+ "effects": {},
+ "flags": []
+}

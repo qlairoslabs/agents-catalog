@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "79986b5ca76689785f7fae54e182da7d3930661156d57bbda1b91d8866c88b2b",
+ "domain": [
+  "software/game-development"
+ ],
+ "product": [
+  "godot"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Harness for controlling a Godot 4 project from an agent via addons, a runtime bridge, MCP server and CLI.",
+ "whenToUse": "Use when an agent needs to build, run or inspect a Godot 4 game project.",
+ "tasks": [
+  "install addons",
+  "run project",
+  "inspect runtime",
+  "control via cli"
+ ],
+ "effects": {},
+ "flags": []
+}

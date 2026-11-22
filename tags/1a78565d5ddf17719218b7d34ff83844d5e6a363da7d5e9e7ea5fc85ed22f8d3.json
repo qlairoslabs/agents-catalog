@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1a78565d5ddf17719218b7d34ff83844d5e6a363da7d5e9e7ea5fc85ed22f8d3",
+ "domain": [
+  "sales/lead-enrichment",
+  "sales/prospecting"
+ ],
+ "product": [
+  "leadmagic"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Research B2B accounts, enrich contacts and clean LeadMagic sheets via OAuth.",
+ "whenToUse": "Use when an agent needs B2B company research or contact enrichment for prospecting.",
+ "tasks": [
+  "research b2b accounts",
+  "enrich contacts",
+  "clean sheets",
+  "enrich sheets"
+ ],
+ "effects": {},
+ "flags": []
+}

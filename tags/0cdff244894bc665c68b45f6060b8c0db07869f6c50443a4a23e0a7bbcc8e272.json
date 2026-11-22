@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "0cdff244894bc665c68b45f6060b8c0db07869f6c50443a4a23e0a7bbcc8e272",
+ "domain": [
+  "finance/crypto-data",
+  "blockchain/analytics"
+ ],
+ "product": [
+  "peer",
+  "base",
+  "usdc",
+  "x402",
+  "venmo",
+  "revolut",
+  "wise"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Paid aggregate datasets on Peer protocol seller premiums and USDC liquidity depth on Base, charged in USDC via x402.",
+ "whenToUse": "Use when analysing Peer protocol seller rates or liquidity and the user accepts the small per-call fee.",
+ "tasks": [
+  "list paid datasets",
+  "get weekly seller rates",
+  "get hourly liquidity depth"
+ ],
+ "effects": {
+  "b3034589a64419bd859879e0168ca197835f842c036760a59010da96579f16ff": "read",
+  "f0da8bf1bef71ca7016263aff3343a3ef4f4579f8adc4cbcc1e3a9808ee568e3": "risky",
+  "3fcf43b0291200a0e3127b6fdab4d4e3a9349c177236204ee71d4ebb814b3c19": "risky"
+ },
+ "flags": []
+}

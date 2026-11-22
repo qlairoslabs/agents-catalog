@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3d905d0e7e00323169cea547270f4d3349d6acd48803531924b1c91b2da74617",
+ "domain": [
+  "knowledge/documentation",
+  "ai/prompts"
+ ],
+ "product": [
+  "liz6"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search and Markdown retrieval of an individual's public documents, prompts and resources.",
+ "whenToUse": "Use when the user wants to look up content from liz's published docs, prompts or resources.",
+ "tasks": [
+  "search public docs",
+  "read docs as markdown",
+  "browse prompts",
+  "browse resources"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "07d11c7fe736066b1593ead35f6f65438922308c141b6804a8366f27b7059362",
+ "domain": [
+  "data/quality",
+  "data/enrichment",
+  "data/matching"
+ ],
+ "product": [
+  "interzoid"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Offers dozens of APIs for data quality checks, record matching and data enrichment.",
+ "whenToUse": "Use when cleaning, deduplicating, matching or enriching business data.",
+ "tasks": [
+  "check data quality",
+  "match records",
+  "find duplicates",
+  "enrich data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "2d026a94e3ddcb226d04645c7132ec64451627e5b075a700b78465a754b7579d",
+ "domain": [
+  "productivity/project-management"
+ ],
+ "product": [
+  "zerno"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Remote MCP connector that lets AI agents read project briefs, tasks and context stored in ZERNO.",
+ "whenToUse": "Use when an agent needs project briefs, task lists or project context kept in a ZERNO workspace.",
+ "tasks": [
+  "read project briefs",
+  "read tasks",
+  "fetch project context"
+ ],
+ "effects": {},
+ "flags": []
+}

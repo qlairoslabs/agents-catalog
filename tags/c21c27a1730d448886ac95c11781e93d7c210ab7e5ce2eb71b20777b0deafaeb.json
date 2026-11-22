@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "c21c27a1730d448886ac95c11781e93d7c210ab7e5ce2eb71b20777b0deafaeb",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/development/typescript"
+ ],
+ "product": [
+  "appwrite",
+  "react-native",
+  "node-js",
+  "deno"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite TypeScript SDK in web, React Native and Node.js or Deno apps, covering auth, data, storage, realtime and admin.",
+ "whenToUse": "Use when building JavaScript or TypeScript web, mobile or backend apps on Appwrite.",
+ "tasks": [
+  "set up email, oauth and anonymous auth",
+  "query databases",
+  "upload files",
+  "subscribe to realtime events",
+  "manage users with api keys",
+  "administer databases",
+  "manage storage",
+  "run functions"
+ ],
+ "effects": {},
+ "flags": []
+}

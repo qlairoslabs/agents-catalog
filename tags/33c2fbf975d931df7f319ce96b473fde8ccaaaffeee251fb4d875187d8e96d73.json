@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "33c2fbf975d931df7f319ce96b473fde8ccaaaffeee251fb4d875187d8e96d73",
+ "domain": [
+  "research/web-search",
+  "finance/crypto"
+ ],
+ "product": [
+  "blockrun",
+  "x402"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Pay-per-call web search, deep research, prediction market and crypto data using x402 payments.",
+ "whenToUse": "Use when an agent needs web research or crypto and prediction market data and paying per call is acceptable.",
+ "tasks": [
+  "web search",
+  "deep research",
+  "prediction market data",
+  "crypto data",
+  "pay per call"
+ ],
+ "effects": {},
+ "flags": [
+  "spends money per call via x402 payments"
+ ]
+}

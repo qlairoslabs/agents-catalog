@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8ba2102bac299c3890502697f4166bb4e0f1c8c1071a000168fd8d1e13ba9572",
+ "domain": [
+  "software/geospatial/maps"
+ ],
+ "product": [
+  "mapbox"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Mapbox skills and MCP servers for building location-aware apps, with geospatial tools and map style management.",
+ "whenToUse": "Use when building or debugging map and location features with Mapbox on web, mobile or agent frameworks.",
+ "tasks": [
+  "geospatial queries",
+  "manage map styles",
+  "build web maps",
+  "build ios and android maps",
+  "location-aware agent patterns"
+ ],
+ "effects": {},
+ "flags": []
+}

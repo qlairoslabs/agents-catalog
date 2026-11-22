@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "df2b16f505db23f4f564b123b8f64a41f70268ffb7c991121d3e1f3d349cc5e2",
+ "domain": [
+  "gig-work/human-tasks",
+  "operations/outsourcing"
+ ],
+ "product": [
+  "haas.my"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "automate-work"
+ ],
+ "summary": "Lets agents hire verified people to carry out real-world tasks through an API or MCP.",
+ "whenToUse": "Use when an agent needs a physical or real-world task done by a person.",
+ "tasks": [
+  "post human tasks",
+  "hire verified workers",
+  "track task progress"
+ ],
+ "effects": {},
+ "flags": []
+}

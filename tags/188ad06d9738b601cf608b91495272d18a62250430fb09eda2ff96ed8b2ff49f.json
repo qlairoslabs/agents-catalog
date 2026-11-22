@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "188ad06d9738b601cf608b91495272d18a62250430fb09eda2ff96ed8b2ff49f",
+ "domain": [
+  "hiring/job-search"
+ ],
+ "product": [
+  "jobsbase"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Search a curated job board of cross-functional builder roles with filters for location, seniority, salary and visa.",
+ "whenToUse": "Use when a user is looking for founding-engineer or builder-type jobs.",
+ "tasks": [
+  "search jobs",
+  "filter by country, salary, seniority",
+  "get job details",
+  "list filter values"
+ ],
+ "effects": {
+  "0801649f64c06e27ae8001940462ac7be24b4f73d3f3789116f88bed601cf5fc": "write",
+  "cc0c5d3f222a4f8923dfbfbc372cb1fec88e922d5ed7395f927703a3dbe22e3a": "read",
+  "7e6de99d208be5aa95aea7f20f5ad5943d327b551c0499dc526b4218514dafde": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "172272203bb03297ded92b01534351df8a1942d20771f3a4ef6cee86a62bfb85",
+ "domain": [
+  "software/testing",
+  "software/qa"
+ ],
+ "product": [
+  "momentic"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs AI bug bashes on apps and pull requests and lists Momentic test runs and quarantined tests.",
+ "whenToUse": "Use when a developer wants an app or PR tested for bugs or needs Momentic test run information.",
+ "tasks": [
+  "bug bash an app",
+  "bug bash a pull request",
+  "review findings",
+  "list test runs",
+  "list quarantined tests"
+ ],
+ "effects": {},
+ "flags": []
+}

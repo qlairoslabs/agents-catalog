@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b213641e02df77c88f2c2b7b201acf12278aa1952a75b3b43d0c7cef6fc9c3f9",
+ "domain": [
+  "software/browser-automation",
+  "software/testing"
+ ],
+ "product": [
+  "playwright"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Playwright-based MCP server for controlling a web browser.",
+ "whenToUse": "Use when an agent needs to browse, interact with or test web pages.",
+ "tasks": [
+  "navigate web pages",
+  "click and type",
+  "take snapshots",
+  "test web apps"
+ ],
+ "effects": {},
+ "flags": []
+}

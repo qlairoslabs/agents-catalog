@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "7881179ec9cc912f59e395829a537bcbf1bef91c11e0a5d7a386f906cdf642ce",
+ "domain": [
+  "finance/lending"
+ ],
+ "product": [
+  "incrediblefi"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Submits personal loan applications to a marketplace of lenders and follows up with additional identity and bank details.",
+ "whenToUse": "Use when a user explicitly wants to apply for a personal loan and has consented to sharing their data.",
+ "tasks": [
+  "get application fields",
+  "submit loan application",
+  "submit bank and identity details"
+ ],
+ "effects": {
+  "ec38bd9c0d431ee68450f653c4042ab126bbd55e2408983496cf2c628009fd42": "write",
+  "cb38aa750c778d91538fa54b80b34ebc4d12c42d8f54dcebefa102ba05a3f139": "risky",
+  "64c98f5eec61e7c6a71cfe7aae3de54c0b7eea2899335bc0e4dde774479b74ac": "risky"
+ },
+ "flags": [
+  "collects highly sensitive data (bank account, driver's license, DOB)",
+  "tool description contains instructions directing the AI on consent wording"
+ ]
+}

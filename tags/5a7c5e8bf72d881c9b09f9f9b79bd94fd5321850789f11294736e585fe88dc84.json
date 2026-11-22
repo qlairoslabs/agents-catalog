@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5a7c5e8bf72d881c9b09f9f9b79bd94fd5321850789f11294736e585fe88dc84",
+ "domain": [
+  "finance/payments/messaging",
+  "software/data-formats"
+ ],
+ "product": [
+  "iso-20022",
+  "sepa",
+  "swift"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "build-software"
+ ],
+ "summary": "Generates and validates SEPA ISO 20022 XML payment files (pain.001, pain.008) and SWIFT MT103 messages.",
+ "whenToUse": "Use when an agent needs to build or validate a SEPA credit transfer, direct debit or SWIFT MT103 payment message.",
+ "tasks": [
+  "generate pain.001 files",
+  "generate pain.008 files",
+  "generate swift mt103 messages",
+  "validate payment xml"
+ ],
+ "effects": {},
+ "flags": []
+}

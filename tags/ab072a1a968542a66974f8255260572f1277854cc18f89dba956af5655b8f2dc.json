@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ab072a1a968542a66974f8255260572f1277854cc18f89dba956af5655b8f2dc",
+ "domain": [
+  "marketing/social-media-data",
+  "data/social-listening"
+ ],
+ "product": [
+  "twitter",
+  "x"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Paid alternative API for searching tweets and reading X profiles and follower lists, billed per result.",
+ "whenToUse": "Use when an agent needs to search tweets or look up X user profiles and followers.",
+ "tasks": [
+  "search tweets",
+  "get user profiles",
+  "list followers"
+ ],
+ "effects": {},
+ "flags": []
+}

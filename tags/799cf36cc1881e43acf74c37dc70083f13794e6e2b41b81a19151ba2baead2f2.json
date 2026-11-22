@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "799cf36cc1881e43acf74c37dc70083f13794e6e2b41b81a19151ba2baead2f2",
+ "domain": [
+  "creative/photography",
+  "services/photo-studio"
+ ],
+ "product": [
+  "mb-way",
+  "multibanco"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "schedule",
+  "get-paid"
+ ],
+ "summary": "Porto photo studio: prices, studio slot booking with payment, quotes for events, gift vouchers and licensing of AI caricature booth software.",
+ "whenToUse": "Use when a customer wants a Porto photo session, event photography quote, gift voucher or the caricature booth software.",
+ "tasks": [
+  "list services and prices",
+  "check studio slots",
+  "book studio session",
+  "cancel booking",
+  "reschedule booking",
+  "check event date",
+  "request quote",
+  "buy gift voucher",
+  "check voucher",
+  "start caricature demo",
+  "buy booth credits",
+  "check booth credits"
+ ],
+ "effects": {
+  "bc8993f2ef84db6bd2b544f1a40bf7de8534e3729cade2686c2d30c395fa2d55": "read",
+  "e0ba79daf215f5ab99ed7095760ecbcd95ec6a16b78d39aafa423b8019c44c24": "read",
+  "0e9d7fe74c1c39beacc019e02a31f63b249a7bcaded1f59fc17ffa3eda2c583a": "risky",
+  "e09436e041a538c1ec343799f3738d3ae75a4bbb3f2778beb9665d60cb30d994": "write",
+  "84ace13ebf2f4209bf380ce63f6ffed324fd547e80e57bf151ee6cb0eb299e57": "write",
+  "a0d5b1eb3a83c468b95e996a28161dbc7b22b62028232f990b6ce5c678e3203d": "read",
+  "652e8f4a7be47c32037e978efc85526fb71433fc358fd5e2c9ed51d5b822af56": "write",
+  "6a17f576d63dd6396cc01802e47e638dd73852327d266f7a5def9a848b25da73": "risky",
+  "ae3f1ff868e92118d6e10454fe27485a3f1673e394501f494622f874b8a6931c": "read",
+  "fd4ac4db76527747ebfaad1f9e01770894e23b67e18b2fa072774653371e50be": "write",
+  "6c21f7446dd6d5893aaeefbe8405e634c580bf909e6e43decdda3734cc69350c": "risky",
+  "eb8af71edd49263084c33ae51453fd74744094c511c05842b76f44a64bf7560f": "read"
+ },
+ "flags": []
+}

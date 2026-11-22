@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9a30ee5db16d5a977b773d33b0c613556ff40151ff4d3f83b814a057f713e515",
+ "domain": [
+  "software/observability"
+ ],
+ "product": [
+  "grafana-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted MCP server that connects an agent to Grafana Cloud observability.",
+ "whenToUse": "Use when querying or managing observability data in Grafana Cloud.",
+ "tasks": [
+  "query grafana cloud observability",
+  "explore metrics logs and traces"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "eeb41735f4ecdcd04cd5d6ab919fd0a7c21c38cba2e4a2c0709bfb6a62561c02",
+ "domain": [
+  "travel/aviation",
+  "travel/wifi"
+ ],
+ "product": [
+  "united-airlines",
+  "starlink"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Tells whether United Airlines flights have Starlink WiFi, using tail assignments and historical odds, and plans itineraries favoring Starlink planes.",
+ "whenToUse": "Use when a traveler asks if a United flight or route has Starlink WiFi or wants Starlink-equipped itineraries.",
+ "tasks": [
+  "check flight Starlink status",
+  "get fleet rollout stats",
+  "list Starlink aircraft",
+  "predict flight odds",
+  "plan itinerary",
+  "predict route odds",
+  "search near-term Starlink flights"
+ ],
+ "effects": {
+  "00e0a2a07c21780b8b6f50774adeb9fa4ca5b6785e179bdda694806f435c10d9": "write",
+  "cdd37f857b8f9c4f70318f82acae8d7b5b132fdf7b6bc1ab126a1b5cb089d090": "read",
+  "47f1146ccf2fd4db9adc910d4bbd4584f1974a41e50c6017c013dca4a9759b0e": "read",
+  "e5e8953b211e1a439c2a7359a592d58608d324f2ef9df0e6c4576792ae45e5c8": "read",
+  "8884a335c69c90a2b511c5b4be250c326899e20f20eb97ac60f4318a9f1cb4c3": "read",
+  "f51eb9cc289be971587841b7aa5f47d84e2095f7fe19ed3dfacdceb8cd074570": "read",
+  "1160c7981ca0fb3c4640237828b48e3c1a8975289b02e70ead8205d81b441ac7": "read"
+ },
+ "flags": []
+}

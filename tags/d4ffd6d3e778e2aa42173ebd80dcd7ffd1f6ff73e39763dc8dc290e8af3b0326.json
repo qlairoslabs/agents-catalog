@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "d4ffd6d3e778e2aa42173ebd80dcd7ffd1f6ff73e39763dc8dc290e8af3b0326",
+ "domain": [
+  "software/api-aggregation"
+ ],
+ "product": [
+  "ppn-hub"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Single MCP endpoint exposing 69 public APIs, with a search tool for discovery and a generic call tool.",
+ "whenToUse": "Use when an agent needs to discover and call one of the public APIs offered through PPN Hub.",
+ "tasks": [
+  "search available apis",
+  "execute api calls"
+ ],
+ "effects": {},
+ "flags": []
+}

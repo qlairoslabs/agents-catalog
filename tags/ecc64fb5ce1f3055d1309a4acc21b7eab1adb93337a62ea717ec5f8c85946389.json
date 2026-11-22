@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "ecc64fb5ce1f3055d1309a4acc21b7eab1adb93337a62ea717ec5f8c85946389",
+ "domain": [
+  "payments/x402",
+  "developer/api-directory"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Directory for finding and vetting x402 payment APIs by uptime, price, change history and on-chain volume, with an optional paid assessment.",
+ "whenToUse": "Use before paying an x402 service to find, compare and check the health of candidate services.",
+ "tasks": [
+  "search x402 services",
+  "get service record",
+  "rank best service",
+  "check health",
+  "view facilitator volumes",
+  "view payTo and price changes",
+  "buy AI assessment"
+ ],
+ "effects": {
+  "cacafa3f12a6d3bc969105821c7c8e44ef8b86c3c689eaf345f3b3ba7732903d": "read",
+  "ec298d04d02ea50c557ae5a1ed085b022fd32661eb5e85f8660bde7651369cc9": "write",
+  "b9e24e1395ed4b4f1d6a6f086db6bec5172e8f2a4858868ecfa7aac272fb52f4": "write",
+  "589d424ee7b8d8b6a890bdd5a9a0b01fbebf4efaad76210dc03159ecfc1bda4b": "read",
+  "1869ab3815d85f430598dd412750e9454080f1209cc74417252dce7f384e81b3": "write",
+  "51f7e745a285f2bb1003b3def1c38a6d3655a014a05be18cc1a9f0b1960505a0": "risky",
+  "ad10cea49650b0d94fa0258d563c51ae1a19296620a16363da7bf243ad77f65c": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "a0b1fdd634598702f65e2c60a721d3ca1c250c5510fd382b19753147186ef2ab",
+ "domain": [
+  "finance/stock-market",
+  "markets"
+ ],
+ "product": [
+  "yahoo-finance"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "US market snapshot, sentiment score, stock prices, fundamentals, statements, news and analyst recommendations.",
+ "whenToUse": "Use when a user asks about US market conditions or a specific US stock's price, financials, news or analyst views.",
+ "tasks": [
+  "get market overview",
+  "get fear and greed score",
+  "get historical prices",
+  "get stock summary",
+  "get news",
+  "get financial statements",
+  "get analyst recommendations"
+ ],
+ "effects": {
+  "d17f4ef4c0dd2455680ae079f690616eb83b6389538d9f0fa2f4bc2ffa098fc1": "read",
+  "541bb21e16ada64be2b78fa708b967984afa717b786eb8321fa1ec982d22041d": "write",
+  "c1fcb4111fd0b866bfd704c5acaf607ed644eb3794d6a8c9ce2b9474863b11a1": "write",
+  "4c7d9cf26123f80b0c2fca2a94ad9fc78f89821ceda3b51d892e0c72d821b569": "read",
+  "af047dc7910af916f946742bd489461b4b3c21a4c341d9c828018c77c97a4a74": "read",
+  "36906bdddb00fa97e9eb71924c54fe82083dd99af39d40299e4e0e6325fd88d2": "write",
+  "16d7384e3af419bcf33516181c14f9d82f3969616daf34d30c566502bee10660": "read"
+ },
+ "flags": []
+}

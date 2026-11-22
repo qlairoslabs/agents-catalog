@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9e02f81685ead36fe1ca465c41206ab2319c4251d76c252b54b27b8f8d233bdc",
+ "domain": [
+  "software/testing",
+  "software/qa"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Scans a running web app for broken pages and reports reproduction steps and suggested fixes.",
+ "whenToUse": "Use when testing a running web application for page errors before release.",
+ "tasks": [
+  "crawl web app",
+  "detect broken pages",
+  "report reproduction steps",
+  "suggest fixes"
+ ],
+ "effects": {},
+ "flags": []
+}

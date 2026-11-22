@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c13f72e4bea497ca5c318651ab3bde1d757fc1473a2bb5168ac307f0526da75f",
+ "domain": [
+  "retail/jewelry/appraisal"
+ ],
+ "product": [
+  "gemstoneai"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes jewelry photos, shows comparable listings and sales, and saves pieces to a collection.",
+ "whenToUse": "Use when estimating value of a jewelry item from a photo or tracking a collection.",
+ "tasks": [
+  "analyze jewelry photo",
+  "find comparable listings",
+  "view comparable sales",
+  "save to collection"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d39df5bdff9f19ab7e5ef33918e31442fd7670d529c1f37e16a75dcfc7caf675",
+ "domain": [
+  "software/browser-automation"
+ ],
+ "product": [
+  "reduck"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Discovers, runs and creates browser automation scripts for websites, including ones behind logins.",
+ "whenToUse": "Use when the user wants to automate actions on a website that has no API.",
+ "tasks": [
+  "discover browser scripts",
+  "run browser scripts",
+  "create browser scripts",
+  "automate logged-in sites"
+ ],
+ "effects": {},
+ "flags": []
+}

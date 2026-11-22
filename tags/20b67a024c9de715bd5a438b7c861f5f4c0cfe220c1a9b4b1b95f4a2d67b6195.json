@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "20b67a024c9de715bd5a438b7c861f5f4c0cfe220c1a9b4b1b95f4a2d67b6195",
+ "domain": [
+  "data/analytics",
+  "data/warehouse"
+ ],
+ "product": [
+  "kubit"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects Kubit product analytics so an agent can query data warehouse data using natural language.",
+ "whenToUse": "Use when the user wants to ask analytics questions of their data warehouse through Kubit.",
+ "tasks": [
+  "query warehouse in natural language",
+  "product analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

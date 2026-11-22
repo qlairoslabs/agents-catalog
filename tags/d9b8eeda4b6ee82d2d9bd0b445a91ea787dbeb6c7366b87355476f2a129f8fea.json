@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "d9b8eeda4b6ee82d2d9bd0b445a91ea787dbeb6c7366b87355476f2a129f8fea",
+ "domain": [
+  "public-data/uk-areas",
+  "real-estate/area-research"
+ ],
+ "product": [
+  "open-index"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Cited UK public data by area, covering house prices, crime, deprivation, schools and more, with rankings, comparisons and postcode lookup.",
+ "whenToUse": "Use when researching a UK area, council or postcode for housing, crime, schools or deprivation figures.",
+ "tasks": [
+  "search places",
+  "get area figures",
+  "rank councils",
+  "compare areas",
+  "look up postcode",
+  "search overviews",
+  "fetch area overview"
+ ],
+ "effects": {
+  "86a5a62856d395a2b07727515ca0716fccda5eb510bc77f5f732fc01e0048669": "read",
+  "5ee2d25f1567d81f0cd10ab7e75f1d87ee7403fc047c96d080b1a2ffb80e3033": "read",
+  "8e39e14151775f24ee2fbe1d19947f213015ea746541939de6eb14a97f4cc8ab": "read",
+  "150be9fec60366c902de6bfdd6ccf31d44f6152680ae452d28561cfd41d97281": "read",
+  "de770693e98b3b152e42dce207bb2fcc872e681242a587451e8f93aafb5468cf": "read",
+  "991ed8e5e0545cc84308c7ccc568cb3b4cc3088a504154aac5645e540bbee4bd": "read",
+  "1c713b22c62b2a90c707558891192897fb3515cd068af26aca9f9fb4eade74cf": "read"
+ },
+ "flags": []
+}

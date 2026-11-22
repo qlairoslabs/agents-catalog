@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "ef22a8fbc6e94706ffa2f8857dce89527bcf8deaa87decf4e08e17f647c05150",
+ "domain": [
+  "real-estate/court-auctions",
+  "finance/investing"
+ ],
+ "product": [
+  "auction-radar"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Searches Korean court real-estate auctions with case summaries, rights risks, sold comparables, statistics, nearby risks, location, land data and demand history.",
+ "whenToUse": "Use when researching Korean court auction properties, their risks and comparable results.",
+ "tasks": [
+  "search auctions",
+  "get case summary",
+  "estimate bid (locked)",
+  "sold comparables",
+  "auction statistics",
+  "sale probability",
+  "nearby risks",
+  "location score",
+  "land info",
+  "housing demand"
+ ],
+ "effects": {
+  "5fee021ff9a90445a5aaa4600f50bca8b079baf756777cecfe35d6980d3fcdae": "write",
+  "0323e96cdc31c48e4f2f27ef3aa0e773c87624e76a7f91dbd73df1bd9fd74824": "read",
+  "37b3d55a1c1801c5c8d11cee54f803f9f2b24923560094906f32e87d931edd24": "read",
+  "71a22da2d9db38106f2cbded9aa33ee669c4de6008497082b8525fb1396dd00b": "read",
+  "d21bb8144b60d63a58c0c297f5f97d2e894aa22bcc47a14bcb35e73915e3f8fd": "read",
+  "633a5e96b845d0d38450a111cb67e1c57bbeb5f6b5a0ffcdeb6aaaaef9feb5fe": "read",
+  "b40566b949ae2f35907bd05810423896ec7fa88afd21ff53741ac092bf37f6fd": "read",
+  "c2d5748cdb939f26184475e648d2b48641a2d36c3a03cd07f24a6e628c20f5fb": "read",
+  "66e00b78c855fa144487996bfe4df219e6b50c22d6d6904e6f240b07ab5a409c": "read",
+  "ce1d7e209d62f769024c57321e3a2fed1a4a97289505d25ec0b9b622938fb70d": "read",
+  "681fb2973cb5c0d04a9d35fb1ccf363da62c9cc17e5229e5e5723a241306ccea": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "479d71323d4e6f596c5e49e7989671254f5aa66d0252c7d2aa43142acf67e81a",
+ "domain": [
+  "consumer/non-toxic-products",
+  "home-and-baby"
+ ],
+ "product": [
+  "nontoxicnook"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to a vetted catalogue of non-toxic home and baby products, with articles, curated sets and the published vetting criteria.",
+ "whenToUse": "Use when a user wants safer household or baby product recommendations and the reasons behind them.",
+ "tasks": [
+  "search products",
+  "get product record",
+  "search articles",
+  "get article",
+  "list curated sets",
+  "get curated set",
+  "read vetting criteria"
+ ],
+ "effects": {
+  "16dd23b545de560df94a4f19a0ce2d2f99db0a4598db98d842a5d217a55727e6": "read",
+  "9a257779e5f1cf889878531a53186d0183baf7544f1e9b7ae916800611c6bd64": "read",
+  "a95eadb372fae45790cc9d8379b91a9fadad715abed1fd1beb6e488a63edd4f7": "read",
+  "11dae0bb8319e449ccb8c7a370ec545ec3749f61b61e564c59ef98b9eaab277b": "read",
+  "819811362a1ee21ddfda9d4f3dfd97dfd387e8e440d66e43315042a94b7f3687": "read",
+  "e3cd5bb45c78a76f16e7806ee2f093ff58c2266dcf9ec7578b0c7bb9565e5cdd": "read",
+  "50e2576ba7e535a094f16802a14b0a116ad6b71839cbb41395ccb29842e9b9a3": "read"
+ },
+ "flags": []
+}

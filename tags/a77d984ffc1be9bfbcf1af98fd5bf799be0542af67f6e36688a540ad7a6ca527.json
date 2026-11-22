@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a77d984ffc1be9bfbcf1af98fd5bf799be0542af67f6e36688a540ad7a6ca527",
+ "domain": [
+  "software/web-frameworks"
+ ],
+ "product": [
+  "next.js",
+  "vercel"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Development tools for Next.js projects exposed over stdio.",
+ "whenToUse": "Use when an agent is building, debugging or upgrading a Next.js application.",
+ "tasks": [
+  "inspect next.js dev server",
+  "diagnose next.js errors",
+  "look up next.js docs"
+ ],
+ "effects": {},
+ "flags": []
+}

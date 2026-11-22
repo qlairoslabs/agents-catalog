@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "11aef47f757e389e3529d5c81d2d03fb4464c78b2e777238f88d097be6486951",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [
+  "memorysync"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Provides persistent memory for AI agents to store and search durable facts, preferences and decisions.",
+ "whenToUse": "Use when an agent needs to remember or recall facts, preferences or decisions across sessions.",
+ "tasks": [
+  "store facts",
+  "store preferences",
+  "record decisions",
+  "search memories"
+ ],
+ "effects": {},
+ "flags": []
+}

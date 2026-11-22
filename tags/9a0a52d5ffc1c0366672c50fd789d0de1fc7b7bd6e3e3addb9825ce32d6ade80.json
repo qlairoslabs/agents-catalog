@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9a0a52d5ffc1c0366672c50fd789d0de1fc7b7bd6e3e3addb9825ce32d6ade80",
+ "domain": [
+  "software/application-development",
+  "software/cpp"
+ ],
+ "product": [
+  "qt",
+  "qml"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for Qt development covering C++ and QML code review, QML coding and documentation.",
+ "whenToUse": "Use when an agent is writing, reviewing or documenting Qt C++ or QML code.",
+ "tasks": [
+  "review qt c++ code",
+  "review qml code",
+  "write qml",
+  "document qt code"
+ ],
+ "effects": {},
+ "flags": []
+}

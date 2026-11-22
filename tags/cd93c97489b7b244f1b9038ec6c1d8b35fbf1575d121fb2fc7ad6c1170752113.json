@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "cd93c97489b7b244f1b9038ec6c1d8b35fbf1575d121fb2fc7ad6c1170752113",
+ "domain": [
+  "finance/accounting",
+  "finance/tax"
+ ],
+ "product": [
+  "fin3000"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Accounting system for German small businesses covering invoices, clients, bank transactions, journal entries and VAT.",
+ "whenToUse": "Use when an agent needs to handle bookkeeping, invoicing or VAT for a German SMB in Fin3000.",
+ "tasks": [
+  "create invoices",
+  "manage clients",
+  "review bank transactions",
+  "post journal entries",
+  "handle vat"
+ ],
+ "effects": {},
+ "flags": []
+}

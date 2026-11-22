@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "acc879cd0285f43555d97e07b3c3cdb66aa96ff27b79f82cee3408c7c3cc3963",
+ "domain": [
+  "design/typography",
+  "design"
+ ],
+ "product": [
+  "everythingfonts"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Tools for finding, inspecting, converting and optimizing font files through the EverythingFonts service.",
+ "whenToUse": "Use when an agent needs to find fonts, inspect font metadata, or convert and optimize font files.",
+ "tasks": [
+  "discover fonts",
+  "inspect font files",
+  "convert font formats",
+  "optimize fonts for web"
+ ],
+ "effects": {},
+ "flags": []
+}

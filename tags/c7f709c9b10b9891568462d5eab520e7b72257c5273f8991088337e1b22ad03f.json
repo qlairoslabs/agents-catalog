@@ -1,0 +1,76 @@
+{
+ "classifier": 2,
+ "contentHash": "c7f709c9b10b9891568462d5eab520e7b72257c5273f8991088337e1b22ad03f",
+ "domain": [
+  "ai/agent-governance",
+  "data/validation",
+  "software/compliance"
+ ],
+ "product": [
+  "geodesicai"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Rule-based validation and governance service that returns deterministic PASS/FAIL/REVIEW verdicts and certificates for agent outputs.",
+ "whenToUse": "Use when an agent must check extracted data or approve a real-world action against defined rules before proceeding.",
+ "tasks": [
+  "validate structured data",
+  "suggest repairs",
+  "create and update blueprints",
+  "authorize actions",
+  "govern generation steps",
+  "run multi-agent chains",
+  "discover validation rules",
+  "detect anomalies and drift",
+  "verify certificates",
+  "manage api keys",
+  "load rule packs",
+  "retrieve audit traces"
+ ],
+ "effects": {
+  "7f35dd3b9c2e8479703c3de5db79bd2c3d4948a49ed34f5ba7a23c2eafcb26a0": "write",
+  "27bb37a480611480b399e999b69529e0a31da44c36197f6cf9ed6d86ed278379": "write",
+  "0ecc31dda8c61459b1f14300222cae2e3b2db038205eb7c0cab83fbbfe96e06a": "write",
+  "8a7b84afbefbc3d19eab49fb261d2523ab42e86d9cace195e04879582545bba2": "read",
+  "8246bfdaeef5460f6e3e5205568519f4c6915752c07893195abf59d0231eef25": "read",
+  "ff34716e629a4d9a62e188c381319e67a4f00435580b54bcd0bc12a7b6717482": "read",
+  "34b8e5cee7d6c5989129cc9ae874ef50e853f577bd5ea169b95b3971b3ef212a": "read",
+  "9fb85503c1cf233b3eec705f86382b0e848eba4cda38db8f3ca66f88cc27efe0": "write",
+  "c3d69bfbfd92b75092446d66fa1d1544435ee2e9a154e6b01a426c707ffaf8b6": "read",
+  "2503042bab032f51fb072c754b49c77bd07dddf2b6150a522b7d9fb3836d7676": "read",
+  "c31a668a2cdfdc217ac52dab1146a4ed5cf52a8cc1566bc737915d2ffbeb5949": "read",
+  "17637d4bd486d97fa0ab7f392413c7901d451ab3472a37146c23a9113fea05cc": "read",
+  "167bef5dd1d1243149aa657ac40a512437611516cf8b717ef0340cbc02664b15": "read",
+  "0a261fe516e5392a301cb14b9d0434fbbc11e5fe01beedb1ea0550ffa7d5a3f0": "write",
+  "aa880f8f677941ea2d5b5527b46cf19ef14eab4bf61421d0b76562dc760af791": "read",
+  "1b6fad9150f583a1e6bee484a17a0d8687fca4ae8874f62587bd972371c15438": "read",
+  "a7b347b6b7b9a0c5a10a6d9568c3b4be7b91cf30c5fddc259cb178e83b7e6276": "read",
+  "f270f3265920befeb08109fc4bf70e1d7528d0b2010a82d5a523cfb6d40613a8": "write",
+  "c0e505e54e7cb24a44bb0218681850fdafc8d50c9d715b57ef5ce8fabf50b6c5": "write",
+  "53ea9c8bba1b71f51fcd1c0be70f0f7a822f5fc42eb3a5667e37cfe195118a2e": "read",
+  "e4d6d74ab6627fa088789822c07fae998ec620c0b4ed57b9ca9fc430cf66f194": "write",
+  "5233b0b6cc5e3b4b0f883c7b0408cb2ade7915eea46c227967ae62e0e9a35fb2": "write",
+  "152e5ce5870e53073724a4b9fd7cac4f554286f41212f71be56b1f817bcfeaed": "read",
+  "58139e24c9c8d7fc6c158e543979ca718acbc2cc3cd69d5dceafb011c66360fe": "read",
+  "3532ce2bf8de83c24b922b3479bc0f2c863eca7ba2ea9ecd35091a7d40bfa493": "read",
+  "34d84d36b0e48c5d062cc7e395e8607e9199c4b0f6cb3077d528b0a2c54fe1aa": "read",
+  "7252f1019067f3482e1522a37bbd536e5b5e76fa56c07fb4d3ac3bfe87428da1": "write",
+  "4d9a82b1800af4781bb468893738e7083eef6281f2d5c1e70048e1c5d003847a": "write",
+  "b9f0be664edc67964b7db8deb28d2a3d655f358dd3e29e2259bdf0b5a34d4ccf": "read",
+  "2509d87668ddf7579d36fa4031d172518e65c711423c4a20dd3507b6cfc557d3": "write",
+  "03ea7e56a75bc3b4a9f80702dd4c73e774be53b4e8450375a88f627e56fe9c67": "read",
+  "d5924f6fd1c07aeddd6e46e7f3e252391d9cc6328c83381bb04e7d65bb189ab2": "read",
+  "7e86e3800be667bfe16c2ca125170b332d272f8e095528b456c56e678e0acaa0": "risky",
+  "55ef5529a906f6796679b16e6b4ba359311749b57cc28010108ea6407ce341a5": "write",
+  "427139f65d986102d2e914320e424555bd4aaef74c1486102ee9eba819b2b19c": "read",
+  "8ccd9a46bdcc1510e9acd8cfa671bf0c440e2c4d22831f58be56fd2f6b401df5": "risky",
+  "35f64a340a4b162f48ae446b1d6835d0c660e5a3c28606ab08e9941fda3fcbfc": "risky"
+ },
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "eb5df0182475e377906517f250f49e1e80eb75596bff126ec38b00553808fcd0",
+ "domain": [
+  "software/documentation",
+  "software/email-infrastructure"
+ ],
+ "product": [
+  "wraps",
+  "aws-ses"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Searches Wraps documentation and estimates monthly cost of running email on Wraps plus AWS SES.",
+ "whenToUse": "Use when answering how-to questions about Wraps or estimating its email sending costs.",
+ "tasks": [
+  "search docs",
+  "read doc page",
+  "list docs index",
+  "estimate monthly cost"
+ ],
+ "effects": {
+  "62f7037b87ba59c88ea3f496eb507724f8e5c5a4707009f3bdb860d81672f3d4": "read",
+  "d105f7e5450c808c45e0b9438ada6c353719999dcae81c845ee0e78ca9b9a823": "read",
+  "68a5094e8ad09761075ccafd1c75e237157be41c31cdc21a753b5c4aa27ec933": "read",
+  "128952b42b0a9fe9fcace9750f1ff9f2b6e94459a7694ef6d5317a324d81f4f0": "read"
+ },
+ "flags": []
+}

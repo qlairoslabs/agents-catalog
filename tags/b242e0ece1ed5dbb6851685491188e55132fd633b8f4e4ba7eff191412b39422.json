@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "b242e0ece1ed5dbb6851685491188e55132fd633b8f4e4ba7eff191412b39422",
+ "domain": [
+  "marketing/analytics/reporting",
+  "marketing/advertising"
+ ],
+ "product": [
+  "porter-metrics",
+  "google-search-console",
+  "google-analytics",
+  "google-ads",
+  "meta-ads"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Hosted server that pulls data from 30+ marketing sources such as Search Console, GA4, Google Ads and Meta Ads.",
+ "whenToUse": "Use when an agent needs marketing performance data from analytics, search or ad platforms.",
+ "tasks": [
+  "query search console data",
+  "query ga4 data",
+  "query google ads data",
+  "query meta ads data",
+  "build marketing reports"
+ ],
+ "effects": {},
+ "flags": []
+}

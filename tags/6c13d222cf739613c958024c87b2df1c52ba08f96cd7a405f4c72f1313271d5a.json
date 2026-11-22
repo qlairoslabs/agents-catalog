@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "6c13d222cf739613c958024c87b2df1c52ba08f96cd7a405f4c72f1313271d5a",
+ "domain": [
+  "trade/customs-duty",
+  "finance/import-costing"
+ ],
+ "product": [
+  "cbsa",
+  "canada-gazette"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Estimates Canadian import duty by HS code and country of origin, covering tariff, surtax and SIMA measures, excluding sales tax.",
+ "whenToUse": "Use when costing a shipment into Canada or checking which tariffs and trade measures apply to an HS code.",
+ "tasks": [
+  "look up tariff by HS code",
+  "estimate duty by origin",
+  "list trade measures",
+  "get measure detail",
+  "see recent changes",
+  "check data sources"
+ ],
+ "effects": {
+  "9cb488ed645641e5f65c045639e8d8a62a17f34164bceda38bccd6c9c8e79694": "write",
+  "3c036fdd53c0bd74dee4e80ab70c6c93be8bebfbd35af795b56d01a3c30acffd": "write",
+  "601124fa08c9b5d372eacc9dcdea55f7de97c43f7c9d0322249ae002c7112df4": "read",
+  "25d8b669b6f4c139980fcdabc5abf1e0812da245ee9f5c5dfda34d6401b507ec": "read",
+  "da13946d79df9d6a8aaf8dce3740c22ea7a6a4b4a7441a988293f122164edd11": "read",
+  "864777b8502520638742ce8e2a7798b31a640788d7a1797fddf947d69eabbcd4": "read"
+ },
+ "flags": []
+}

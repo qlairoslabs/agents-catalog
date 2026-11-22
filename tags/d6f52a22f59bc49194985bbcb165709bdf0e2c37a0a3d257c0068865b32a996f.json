@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "d6f52a22f59bc49194985bbcb165709bdf0e2c37a0a3d257c0068865b32a996f",
+ "domain": [
+  "software/smart-contracts",
+  "blockchain/starknet"
+ ],
+ "product": [
+  "openzeppelin",
+  "cairo",
+  "starknet"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates OpenZeppelin Cairo smart contract source for Starknet: ERC-20, 721, 1155, 6909 tokens, accounts, multisig, governor, vesting and custom contracts.",
+ "whenToUse": "Use when writing a Starknet Cairo contract and you want a configured OpenZeppelin-based starting point.",
+ "tasks": [
+  "generate ERC-20 token",
+  "generate ERC-721 NFT",
+  "generate ERC-1155",
+  "generate ERC-6909",
+  "generate account contract",
+  "generate multisig",
+  "generate governor",
+  "generate vesting contract",
+  "generate custom contract"
+ ],
+ "effects": {
+  "bdeb43024d96f7ae4b3ffc6b582d71039de9da6afcff1618fa27bba24d78d137": "write",
+  "ce3e8fbf8ca6646128b38baeda1266387d625707ee611b537cec9fcbf109aab6": "write",
+  "af61ed88f690a9c030070a61c18a58fab000c17df3eb22ee5a6da296a47e4928": "write",
+  "9679611e74dbc7f5b326aa6ae1fe054949ca00203c58c0a5b8a640aecb373061": "read",
+  "329bd597b89343909a608925461afa0a6ba35e7376901e997201619b8b2e110d": "read",
+  "fb7dfd4cb0f0697ff0f77fd8937450a356a954540b5bf90159b409ad53430b89": "read",
+  "36f5a624bd1ac90a477681eb05279e2850b51138e7963d17ea5af2d964a25b85": "write",
+  "a770d1609d80576b3669b79a5eed91c85866b9f75dd5e207bf830b1228f94673": "read",
+  "333468b374a26088bcf216d8077da1b77a614ff649b020742570e5919691a809": "read"
+ },
+ "flags": []
+}

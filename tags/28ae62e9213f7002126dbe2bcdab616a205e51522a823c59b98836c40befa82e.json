@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "28ae62e9213f7002126dbe2bcdab616a205e51522a823c59b98836c40befa82e",
+ "domain": [
+  "sports/youth-soccer",
+  "sports/team-management"
+ ],
+ "product": [
+  "pitch-time"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Plans youth soccer games with fair playing-time rotations, formations, age-group lookups and round-robin fixtures.",
+ "whenToUse": "Use when a youth soccer coach needs a fair lineup, formation, playing-time split, age group or league schedule.",
+ "tasks": [
+  "generate fair lineup rotation",
+  "recommend formation",
+  "calculate playing time",
+  "find age group from birth date",
+  "generate round-robin fixtures"
+ ],
+ "effects": {
+  "57ffd9217609590516184a49568ab6cba5d2dec10bdc2cdcbb674ee4551d93e7": "write",
+  "de38adcf49cf1290263b85cbd56e6c43d5e300430b3225fb2e40d891ee3742bc": "read",
+  "54c3cb58e55a97c79850a7fc2b1a4f762d028b37e8b1d25d5c106a069c56edfb": "read",
+  "ece74b77f7c0e2289451ec7723c286f46ecdeec614f853af8c670c6fc833365f": "read",
+  "05e223467c7901e8eb45669d263892722ac75c6fef37eadc96249bce30333440": "write"
+ },
+ "flags": []
+}

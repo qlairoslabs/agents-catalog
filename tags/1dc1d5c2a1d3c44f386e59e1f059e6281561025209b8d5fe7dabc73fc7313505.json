@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1dc1d5c2a1d3c44f386e59e1f059e6281561025209b8d5fe7dabc73fc7313505",
+ "domain": [
+  "software/ai/context-management",
+  "software/code-search"
+ ],
+ "product": [
+  "contextstream"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Provides agents with code search, recorded team decisions and project context from ContextStream.",
+ "whenToUse": "Use when an agent needs project context, past team decisions or code search across a codebase.",
+ "tasks": [
+  "search code",
+  "record team decisions",
+  "retrieve project context"
+ ],
+ "effects": {},
+ "flags": []
+}

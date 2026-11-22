@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c29b7451b8aeee1688f8f4259d379e11d033702a14561d63fce0f84dd63c3131",
+ "domain": [
+  "finance/payments",
+  "finance/digital-wallets"
+ ],
+ "product": [
+  "webmoney"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Authenticated access to WebMoney wallets, transactions, messages and invoices.",
+ "whenToUse": "Use when the user wants to check WebMoney balances, transactions or invoices, or send messages there.",
+ "tasks": [
+  "check wallet balances",
+  "list transactions",
+  "read and send messages",
+  "manage invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

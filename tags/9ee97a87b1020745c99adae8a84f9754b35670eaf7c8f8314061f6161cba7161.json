@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9ee97a87b1020745c99adae8a84f9754b35670eaf7c8f8314061f6161cba7161",
+ "domain": [
+  "software/development/version-control"
+ ],
+ "product": [
+  "git",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Commands for git workflows: committing, pushing and opening pull requests.",
+ "whenToUse": "Use when you need to commit, push or open a pull request from the session.",
+ "tasks": [
+  "create git commits",
+  "push branches",
+  "create pull requests"
+ ],
+ "effects": {},
+ "flags": []
+}

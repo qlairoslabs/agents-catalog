@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "feb5e81ccef10cb8fbd9fae76bea23bbdc6319073fb082a1eb972b5311d7e46d",
+ "domain": [
+  "productivity/polls-and-surveys",
+  "scheduling"
+ ],
+ "product": [
+  "pollunit"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Creates, updates and analyses PollUnit polls, scheduling polls, surveys and contests.",
+ "whenToUse": "Use when an agent needs to run a poll, survey or scheduling vote, or read its results.",
+ "tasks": [
+  "create polls",
+  "update polls",
+  "create scheduling polls",
+  "create surveys",
+  "run contests",
+  "analyze poll results"
+ ],
+ "effects": {},
+ "flags": []
+}

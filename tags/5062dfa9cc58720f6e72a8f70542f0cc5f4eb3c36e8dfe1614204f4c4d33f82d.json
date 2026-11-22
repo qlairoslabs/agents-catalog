@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "5062dfa9cc58720f6e72a8f70542f0cc5f4eb3c36e8dfe1614204f4c4d33f82d",
+ "domain": [
+  "finance/defi",
+  "finance/islamic-finance"
+ ],
+ "product": [
+  "sukukfi",
+  "berachain"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only vault metrics, terms, contract addresses and documentation for SukukFi, an Islamic trade finance protocol on Berachain.",
+ "whenToUse": "Use when researching SukukFi vaults, their live metrics, terms, risks or contracts.",
+ "tasks": [
+  "get vault stats",
+  "search docs and blog",
+  "read doc page",
+  "get contract addresses",
+  "get vault terms"
+ ],
+ "effects": {
+  "4994aa7741f02c6db2080087b3b12746051ed518159a62729c9ab8c36eeda419": "read",
+  "92f7eecf136f918354ba5a9897458bf92df90e15e4ec1acac59fba0895aa5c6c": "read",
+  "c1fee09930fcd73b9b5f1a558dd3a4a23b9ce908af619b45888327e458d8e553": "read",
+  "25e1e1fc16e6578ecd7d8ee667bb485f2d03ede0f748c7d5974f21b67fd455b3": "read",
+  "54c481433d499e515b2940626d59ff20de4015348fc7cb41e6e116c78e038ce0": "read"
+ },
+ "flags": []
+}

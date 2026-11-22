@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "dd42613729ab5ce633c6e87eea1ec25319e10d1ad64fa6bc16dc2712fea8f0d4",
+ "domain": [
+  "geospatial/gis/mapping"
+ ],
+ "product": [
+  "geobble"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Geospatial workspace for managing data sources and maps, running spatial analysis and publishing interactive maps.",
+ "whenToUse": "Use when analyzing geographic data or producing shareable interactive maps.",
+ "tasks": [
+  "manage data sources",
+  "manage maps",
+  "run spatial analysis",
+  "publish interactive maps"
+ ],
+ "effects": {},
+ "flags": []
+}

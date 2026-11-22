@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "67e82db73b0c0da614784db19e500c6be187f9d43a121d10da5931e33864120b",
+ "domain": [
+  "communication/email/transactional"
+ ],
+ "product": [
+  "postmark"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Local MCP server that connects agents to the Postmark email delivery service.",
+ "whenToUse": "Use when an agent needs to send or manage transactional email through Postmark.",
+ "tasks": [
+  "send transactional email",
+  "work with postmark api"
+ ],
+ "effects": {},
+ "flags": []
+}

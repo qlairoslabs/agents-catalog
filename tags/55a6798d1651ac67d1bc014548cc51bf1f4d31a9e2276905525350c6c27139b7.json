@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "55a6798d1651ac67d1bc014548cc51bf1f4d31a9e2276905525350c6c27139b7",
+ "domain": [
+  "media/video-processing",
+  "media/audio",
+  "media/image-generation"
+ ],
+ "product": [
+  "ffmpeg"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Processes video, audio and images with FFmpeg and AI models, adds captions, and generates media from text prompts.",
+ "whenToUse": "Use when an agent needs to convert, edit, caption or generate video, audio or image files.",
+ "tasks": [
+  "transform video",
+  "process audio",
+  "edit images",
+  "add captions",
+  "generate media from prompts"
+ ],
+ "effects": {},
+ "flags": []
+}

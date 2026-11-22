@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "77f72ec4f407de5ccc3ec4490f1f1302842414a4334dd1edabf8a3a0faecf593",
+ "domain": [
+  "crypto/blockchain-validators",
+  "operations/incident-monitoring"
+ ],
+ "product": [
+  "solana",
+  "ethereum",
+  "sui",
+  "cosmos"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides validator incident data such as slashing events across Solana, Ethereum, Sui and Cosmos.",
+ "whenToUse": "Use when an agent needs to check validator incidents or reliability on major proof-of-stake chains.",
+ "tasks": [
+  "look up validator incidents",
+  "compare validators across chains"
+ ],
+ "effects": {},
+ "flags": []
+}

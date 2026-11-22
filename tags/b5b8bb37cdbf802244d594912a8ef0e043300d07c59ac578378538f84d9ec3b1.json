@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "b5b8bb37cdbf802244d594912a8ef0e043300d07c59ac578378538f84d9ec3b1",
+ "domain": [
+  "sales/prospecting/data-enrichment",
+  "marketing/outreach"
+ ],
+ "product": [
+  "clay"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "keep-in-touch"
+ ],
+ "summary": "Lets Claude Code use the Clay CLI to query tables, search people and company data, manage audiences and workflows, and draft outreach campaigns.",
+ "whenToUse": "Use when working with Clay data, prospect lists, signals or Sequencer outreach campaigns.",
+ "tasks": [
+  "set up and sign in to clay cli",
+  "query and analyze clay tables",
+  "search people and companies",
+  "manage audiences",
+  "manage signals and routines",
+  "manage workflows",
+  "draft sequencer campaigns",
+  "review sequencer campaigns"
+ ],
+ "effects": {},
+ "flags": [
+  "includes hooks that auto-approve its own cli calls, bypassing user permission prompts"
+ ]
+}

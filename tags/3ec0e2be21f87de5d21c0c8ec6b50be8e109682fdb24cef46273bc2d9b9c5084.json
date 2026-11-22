@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3ec0e2be21f87de5d21c0c8ec6b50be8e109682fdb24cef46273bc2d9b9c5084",
+ "domain": [
+  "software/languages/rust",
+  "software/code-quality"
+ ],
+ "product": [
+  "rust"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for writing idiomatic Rust based on Apollo's handbook, covering ownership, errors, performance and tests.",
+ "whenToUse": "Use when writing, reviewing or refactoring Rust code.",
+ "tasks": [
+  "write idiomatic rust",
+  "review and refactor rust",
+  "choose borrowing vs cloning",
+  "handle errors with result",
+  "optimize performance",
+  "write tests and docs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "cff3551ce56ad0f39ce8698c28b69c2d563fb5bb11cf2184dc44c29582b1b507",
+ "domain": [
+  "ai/self-hosting",
+  "software/documentation"
+ ],
+ "product": [
+  "nvidia-dgx-spark",
+  "sglang",
+  "docker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searchable blog of self-hosted AI engineering on NVIDIA DGX Spark, plus an SGLang config checker.",
+ "whenToUse": "Use when troubleshooting or configuring SGLang or other local inference on DGX Spark/GB10 hardware.",
+ "tasks": [
+  "search articles",
+  "list articles",
+  "read article",
+  "diagnose SGLang config",
+  "list tags"
+ ],
+ "effects": {
+  "1ac50361653246580f4d89362d8ae87eb9e786f84226655824027989055675d7": "read",
+  "48b754781967ff58157c1965e6b2462f345b44d45cf8707d13f56946d321477a": "read",
+  "6d3def95693247c9c29232bb4d39e6457aff0fd341092ab5ace7509377516707": "read",
+  "675b887f2063cae08abd4b7fa20932869b248b57bb30ecfbfc79b872d30cefec": "read",
+  "aad49dced45cdf806c1d68adbb040acc86c3b3b86cd8e69e1a342c04a7361ad4": "read"
+ },
+ "flags": []
+}

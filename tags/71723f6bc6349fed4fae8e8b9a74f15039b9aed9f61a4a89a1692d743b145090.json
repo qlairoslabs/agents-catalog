@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "71723f6bc6349fed4fae8e8b9a74f15039b9aed9f61a4a89a1692d743b145090",
+ "domain": [
+  "analytics/customer-retention",
+  "software/sdk"
+ ],
+ "product": [
+  "whisperr"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Helps install the Whisperr retention SDK, check that events arrive, and read churn and retention metrics.",
+ "whenToUse": "Use when integrating Whisperr into an app or analysing customer churn and retention data from it.",
+ "tasks": [
+  "install retention sdk",
+  "verify received events",
+  "read churn data",
+  "read retention metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

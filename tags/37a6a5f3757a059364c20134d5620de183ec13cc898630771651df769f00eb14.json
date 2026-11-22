@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "37a6a5f3757a059364c20134d5620de183ec13cc898630771651df769f00eb14",
+ "domain": [
+  "marketing/email-marketing",
+  "marketing/analytics"
+ ],
+ "product": [
+  "sendinel",
+  "npm"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Local npm server for running email campaigns, contacts, segments, analytics and sending through Sendinel.",
+ "whenToUse": "Use when an agent needs to manage email contacts and segments, run campaigns or check email analytics in Sendinel.",
+ "tasks": [
+  "manage email campaigns",
+  "manage contacts",
+  "build segments",
+  "view email analytics",
+  "send emails"
+ ],
+ "effects": {},
+ "flags": []
+}

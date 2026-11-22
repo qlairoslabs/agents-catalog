@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "904f11b1510206983736f663e1fcad29c2892bd2be1a605f3613571350e4e267",
+ "domain": [
+  "documents/data-extraction",
+  "documents/processing"
+ ],
+ "product": [
+  "extend"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Converts documents into structured data by parsing, extracting, classifying and splitting them, and fills PDF forms.",
+ "whenToUse": "Use when an agent needs to pull structured fields from documents or fill in PDF forms.",
+ "tasks": [
+  "parse documents",
+  "extract structured data",
+  "classify documents",
+  "split documents",
+  "fill pdf forms"
+ ],
+ "effects": {},
+ "flags": []
+}

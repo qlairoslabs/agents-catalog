@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "eaeb5022984b0a3fedd4de5c55a46623023181c0a8e7dd0f4f028ce46ee88fa2",
+ "domain": [
+  "ai/evaluation",
+  "ai/observability"
+ ],
+ "product": [
+  "future-agi",
+  "claude",
+  "cursor",
+  "windsurf"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Access to Future AGI tooling for building, testing, monitoring and improving AI applications from coding agents.",
+ "whenToUse": "Use when an agent needs to evaluate, test or monitor an AI application with Future AGI.",
+ "tasks": [
+  "run ai evaluations",
+  "test models",
+  "monitor ai applications",
+  "improve prompts"
+ ],
+ "effects": {},
+ "flags": []
+}

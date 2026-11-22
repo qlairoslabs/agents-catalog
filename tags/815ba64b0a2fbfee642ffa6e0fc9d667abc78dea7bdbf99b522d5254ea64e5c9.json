@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "815ba64b0a2fbfee642ffa6e0fc9d667abc78dea7bdbf99b522d5254ea64e5c9",
+ "domain": [
+  "software/feature-flags",
+  "software/devops"
+ ],
+ "product": [
+  "unleash"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local server giving agents an interface to the Unleash feature flag platform.",
+ "whenToUse": "Use when creating, inspecting or toggling feature flags in Unleash.",
+ "tasks": [
+  "manage feature flags",
+  "inspect flag configuration"
+ ],
+ "effects": {},
+ "flags": []
+}

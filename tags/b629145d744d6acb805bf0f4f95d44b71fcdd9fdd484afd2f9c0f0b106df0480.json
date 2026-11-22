@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b629145d744d6acb805bf0f4f95d44b71fcdd9fdd484afd2f9c0f0b106df0480",
+ "domain": [
+  "crypto/identity",
+  "social/identity-resolution"
+ ],
+ "product": [
+  "walletlink",
+  "x",
+  "farcaster"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Resolves crypto wallet addresses to X and Farcaster accounts and the reverse.",
+ "whenToUse": "Use when an agent needs to find the social account behind a wallet address or the wallet behind an X or Farcaster account.",
+ "tasks": [
+  "resolve wallet to social account",
+  "resolve social account to wallet"
+ ],
+ "effects": {},
+ "flags": []
+}

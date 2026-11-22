@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "02e0d9271db0fb9da04a68cb573274a0250bcb230e007e08389fcf203067e6fa",
+ "domain": [
+  "media/audio",
+  "entertainment/soundboards"
+ ],
+ "product": [
+  "101soundboards"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches and fetches public sounds and soundboards, including text-to-speech boards, on 101soundboards.com.",
+ "whenToUse": "Use when the user wants to find a sound effect, sound clip or soundboard, or a text-to-speech voice board.",
+ "tasks": [
+  "search sounds",
+  "search soundboards",
+  "filter text-to-speech boards",
+  "fetch a soundboard by url",
+  "fetch a sound by url"
+ ],
+ "effects": {
+  "21bdbe80e40f36e8c42237badf5aa94f69ae1030e93ec2a9e52017804f3a8906": "read",
+  "e92b3bcec31898962d68dfba669cdc5618e94adb17d35ffb7306a168590763d0": "read",
+  "c3b5cbf24e9445458f4365dedaaa56fe4826224674b36c8af77333fdcf4ab141": "read",
+  "3e42b5815636c27fc851d7a6af5a89311c2c6b726761540d4fad971fce8cd545": "read"
+ },
+ "flags": []
+}

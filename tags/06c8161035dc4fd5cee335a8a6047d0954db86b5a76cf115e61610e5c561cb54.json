@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "06c8161035dc4fd5cee335a8a6047d0954db86b5a76cf115e61610e5c561cb54",
+ "domain": [
+  "shopping/grocery",
+  "shopping/route-planning"
+ ],
+ "product": [
+  "offerhopper",
+  "rewe",
+  "aldi",
+  "lidl",
+  "penny",
+  "netto",
+  "norma",
+  "edeka"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Plans the cheapest shopping trip in Germany by matching a list to current supermarket and drugstore offers and weighing travel cost.",
+ "whenToUse": "Use when someone in Germany wants to know where to buy a shopping list most cheaply and whether the trip is worth it.",
+ "tasks": [
+  "match shopping list to current offers",
+  "plan cheapest multi-store route",
+  "estimate trip savings",
+  "swap an item on a planned route"
+ ],
+ "effects": {
+  "bf1053e25fca456e9f0046363d802c846cb45ba9feb0d77615f92ff7fa5722a4": "write",
+  "ef099e4b234f64d5ee6089a95b9c87f38bf70c92bd4290a7b0303461e48e911c": "write"
+ },
+ "flags": []
+}

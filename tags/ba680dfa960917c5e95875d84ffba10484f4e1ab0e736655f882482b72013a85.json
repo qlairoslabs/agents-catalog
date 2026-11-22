@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ba680dfa960917c5e95875d84ffba10484f4e1ab0e736655f882482b72013a85",
+ "domain": [
+  "marketing/social-media",
+  "marketing/analytics"
+ ],
+ "product": [
+  "eden"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Social media connector to schedule posts, read account analytics and research viral content across seven platforms.",
+ "whenToUse": "Use when an agent needs to schedule social posts, check social analytics or research trending content.",
+ "tasks": [
+  "schedule posts",
+  "read analytics",
+  "research viral content"
+ ],
+ "effects": {},
+ "flags": []
+}

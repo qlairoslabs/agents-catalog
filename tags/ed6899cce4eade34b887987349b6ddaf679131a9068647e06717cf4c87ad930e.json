@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "ed6899cce4eade34b887987349b6ddaf679131a9068647e06717cf4c87ad930e",
+ "domain": [
+  "media/production-music",
+  "media/licensing"
+ ],
+ "product": [
+  "songs-to-your-eyes"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches a catalogue of production-music cues by mood, tempo and exact runtime, with versions, cue sheets and preview links.",
+ "whenToUse": "Use when choosing music for a video, advert, film or podcast, fitting a cut to a set length, or fetching clearance data.",
+ "tasks": [
+  "search tracks by brief",
+  "fit to duration",
+  "get track details",
+  "list versions and stems",
+  "get cue sheet",
+  "find similar tracks",
+  "read licensing info",
+  "send feedback"
+ ],
+ "effects": {
+  "6f04af231befbf967991485fa611fb851495150b68ee9777a4ea40b7612a95e9": "write",
+  "d43ddeea66dc911760daff56a514d44e626d8660961e3c66241f031fdcd5090d": "write",
+  "316d47881a2206d15db149ac6fddb0d060218fe7b4d8232cf1318471290220d1": "read",
+  "fabbcca534b14a0d51aee73b2f551add594f021b2d5f0ac971088b29dc2e4677": "read",
+  "b5e9729f5c7474ff13bbc0a58d7db7198b05be19b7f4bc25297ad012922e37b9": "read",
+  "076df59b95c50839191277d09744c80bb204d3a7ea4ebab871fde89db4f18e07": "read",
+  "c48cadb01aaeb8ca4c54b053504e7f017e38fabbd9c582af0cdd30379b6a55f4": "read",
+  "b54c55cadf2893900258da4ad3329f07942376eafb74caa317078d561dd8b3de": "write"
+ },
+ "flags": []
+}

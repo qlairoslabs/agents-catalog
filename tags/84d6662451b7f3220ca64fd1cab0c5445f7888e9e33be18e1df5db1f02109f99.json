@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "84d6662451b7f3220ca64fd1cab0c5445f7888e9e33be18e1df5db1f02109f99",
+ "domain": [
+  "productivity/knowledge-management",
+  "productivity/notes"
+ ],
+ "product": [
+  "notion"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Token-authenticated Notion MCP server for pages, databases, blocks, comments and files that can run headless in CI.",
+ "whenToUse": "Use when an agent needs to read or edit Notion content, including in headless or CI environments.",
+ "tasks": [
+  "read pages",
+  "create pages",
+  "query databases",
+  "edit blocks",
+  "add comments",
+  "upload files"
+ ],
+ "effects": {},
+ "flags": []
+}

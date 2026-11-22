@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "6be5521286f095dcabc9628d1d921cb630ac9dd9d2a7fc4106f36014b950db89",
+ "domain": [
+  "software/product-discovery"
+ ],
+ "product": [
+  "appboard",
+  "product-hunt",
+  "notion",
+  "zapier"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Searches AppBoard's community-ranked software catalogue for trending products, product details and alternatives to tools people already use.",
+ "whenToUse": "Use when the user wants to find software for a job, see what is trending, or find an alternative to a tool.",
+ "tasks": [
+  "find software products",
+  "list trending launches",
+  "get product details",
+  "find alternatives to a product",
+  "find alternatives to a tool in use",
+  "browse categories and use cases",
+  "list alternative targets"
+ ],
+ "effects": {
+  "4f2a966cf85c3b6fd697c9b5894e96124db9d440e7f3acb5c0c578b1860eaf8c": "read",
+  "770a82200eb63c2810556e230ae6e934cbbe9befd6995f054e3967b32544e36e": "read",
+  "9f02bc1a067f002d3762fc8d574712c5e4159327d6779000e5ee28b314c0c868": "read",
+  "49693270d2c8aef9338e1b5791fdacd9ecdc860adf0eccb06eaeaea8ffdf3f7b": "read",
+  "c3719b116d8545d08cefa1b373df0d6e796f5759472efa027af5ee6e423d3521": "read",
+  "55984d9fb2fccdc8afcc8b4e6b3a1bd2f8b0a83e2f681ba03fea392f51f7e14b": "read",
+  "a17af3dcabee6285425811b78c83c2267390b9523267eebd421418a7a1e07188": "read"
+ },
+ "flags": []
+}

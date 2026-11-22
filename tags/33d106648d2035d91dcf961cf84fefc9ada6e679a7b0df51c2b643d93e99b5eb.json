@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "33d106648d2035d91dcf961cf84fefc9ada6e679a7b0df51c2b643d93e99b5eb",
+ "domain": [
+  "productivity/project-management",
+  "software/ai-agents/orchestration"
+ ],
+ "product": [
+  "roryplans"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Work orchestration service for managing plans, tasks and teams and dispatching work to coding agents.",
+ "whenToUse": "Use when an agent needs to plan work, track tasks across a team, or hand tasks off to coding agents.",
+ "tasks": [
+  "create and manage plans",
+  "manage tasks",
+  "coordinate teams",
+  "dispatch work to coding agents"
+ ],
+ "effects": {},
+ "flags": []
+}

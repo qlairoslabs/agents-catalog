@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "45957ec4ce5a2568fe24d3805533867eb95928ad2c4e28b3e28a07cac25021ee",
+ "domain": [
+  "local-business/directory",
+  "hospitality/booking",
+  "food/ordering"
+ ],
+ "product": [
+  "directorio-systema",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Spanish-language directory of Miami and Central American businesses with real bookings, food orders, quotes and reviews.",
+ "whenToUse": "Use when a user wants to find local Hispanic businesses in Miami or Central America and book, order or contact them.",
+ "tasks": [
+  "search businesses",
+  "search by service or product",
+  "view business profile",
+  "check appointment availability",
+  "book appointment",
+  "order food for cash pickup or delivery",
+  "book a class",
+  "book a hotel room",
+  "request a contractor estimate",
+  "send real-estate inquiry",
+  "post a public review",
+  "find events and promotions"
+ ],
+ "effects": {
+  "37b47144c0a6000051258f424ba84a7db386d1ff4c98bf79414daa4a08ea7c96": "read",
+  "fe9f05547bc242e50829fdfdf9952066342084416977524cbd60069997134400": "read",
+  "2cb5471b35105142752179213211a47cdf7a760e470f5f9a950a67d3c7c66d64": "read",
+  "aee712c1d6ab89fc5dc9e2d599b2ce2877c784c1d6b261b63ddb4b4442e67024": "write",
+  "44b64b54f274dbbd685476c7d0d17816b27d80cd85ac494f2dd4557f6af5c9f8": "write",
+  "f39870831577561e62764337868b63de28406c82e038ffa7a225ed2789daf01d": "read",
+  "939f4e863b0dd5d6704167e0acbc8b8d6010e3826e5b31df9e8e769ed28e9957": "write",
+  "d5ed95aaff9986bfd62ad94bae4c2eb5e51f282ec4b629b7ca50374d56d8d8e2": "write",
+  "6277671987624b20daeb23cd89633839a3fffaff8c1cf7f9bbaeb7d3005c89ea": "write",
+  "82793cf01c6d166eb0c53893231eeafb48393116bfbfef2b3b60a9a8cd726ec9": "write",
+  "5d9bd9ffc4063f80b1f95de623abbb695de1d0a2c4b691b6ab1e3c4c6896e9df": "write",
+  "89cc46db72c712644329d542f7fd3575844437c6311fdf08606c23f51333f200": "read",
+  "80c59d67054f71685541c1a64b1a42fc720fa7869feeaa29eca61c328ad7c295": "read"
+ },
+ "flags": []
+}

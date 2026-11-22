@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "9e2108e7dfe8a06b943887120b301078024b2d094f62585b33173320a7e872d5",
+ "domain": [
+  "finance/insurance",
+  "insurance/life-health"
+ ],
+ "product": [
+  "puntoseguro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "Spanish insurance broker tools for life-insurance coverage calculation, quotes and details, plus health quotes and links to start applications.",
+ "whenToUse": "Use when a Spain resident wants life or health insurance quotes or an indicative coverage amount.",
+ "tasks": [
+  "calculate life cover",
+  "open quote form",
+  "list life quotes",
+  "get quote details",
+  "get application link",
+  "price by age",
+  "list health quotes"
+ ],
+ "effects": {
+  "5e1a6d9f2b65c97c96e642a059b4bb92e743b458db77fb73d499606d8385b981": "read",
+  "aae9128d525a69b06a708e3fb66c0611d9d413811282a860b7703a28413386ce": "read",
+  "20662e89334ac51d9b919425849e9e5b64263e76fcd1976350582d7731c76277": "read",
+  "f844f7b570864b9cf2b2638e92731d7bfe1aa68abff0ad5a4764a243804c4563": "read",
+  "94da3012be6df02362954dd4fd3c4eeb0c9bda1e850970442733d959849d5b3e": "read",
+  "afecb2600bf27f2515c69f117d45a9d33ef8841e71a0b9e26c19b8ff95129bc7": "write",
+  "5caf1e19827e9c7c98c6196f12a69f01a2c306810b8da838f953cd6c98f25993": "write"
+ },
+ "flags": []
+}

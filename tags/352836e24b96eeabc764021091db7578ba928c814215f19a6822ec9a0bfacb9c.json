@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "352836e24b96eeabc764021091db7578ba928c814215f19a6822ec9a0bfacb9c",
+ "domain": [
+  "fintech/agent-payments",
+  "security/authorization"
+ ],
+ "product": [
+  "flint",
+  "x402",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Issues agent passports and signed authorization records, scans intended agent transactions, verifies authority, looks up agent reputation and sells prepaid scan credits.",
+ "whenToUse": "Use before an agent makes a payment or paid API call, or when a merchant must verify an agent's delegated authority.",
+ "tasks": [
+  "scan intended transaction",
+  "issue authorization record",
+  "verify signed record",
+  "look up agent reputation",
+  "create trust manifest",
+  "generate authorization scope",
+  "issue agent passport",
+  "update passport mandate",
+  "sign in via email code",
+  "claim passport",
+  "buy scan credits",
+  "report scan outcome"
+ ],
+ "effects": {
+  "28f8123069dafe4a3e7d66a36c87671f6b0c0c1de483a0c20ad36c1af97df8df": "risky",
+  "48bcbb1ec8eb21b150c542a551359e4a4c4242b6441aeaf5f14e0028188e2be8": "write",
+  "b0add320f1ba7ef628c0111f3384edb082180a4bfb391d862044ee7d28be8dae": "read",
+  "97952f47f527989ecb2335ac3720d8ef852169e78ef2b2a465adb5e0299d108c": "read",
+  "699f394209cf2288ab4a6c0b5159c3d8c71fa1ccf3cbbe7bd9b1f282ba0b2222": "read",
+  "002663c64037b770721bbaf174db19f7cdd76c1a54b8b09f50de493d6cdc7e69": "read",
+  "0018c9162808af47b4bccecf779b0dfa4fa48ad43f0ea573ecb9cc5e86a5d4e6": "read",
+  "1dc90ccee1a523510bba9456f01eb11d2021bd967d5769fedafc642ea7098363": "write",
+  "f89c2cf5ba50fb7d20cdb82080ad7004fef98a52c777497c7882943230e23922": "read",
+  "826a9b657564f197115b5dc059e10325d815c4669e7309cee4e2b694deea4a35": "risky",
+  "03dd7694aa504b5139a337844c4e1d35780dce3a1779c0d0f400fbdf5a6c4b33": "write",
+  "7f6459ed921cdaf592755576bac9d91d346a527b153a9ad55fa611d2dacbe249": "write",
+  "7a846c6dd4688fff5abebfed7c330ebb71a02ee91b8000731e145cf69c6052fa": "write",
+  "a77f3682d06bfa34c128c9907b2170d3a7dbb1e4a4b8b87b564942a31db347d0": "write",
+  "3e9661cd967e690f29c8792e49aa952900a48ffc901bbbc7da77df27497b1a23": "risky",
+  "e12ee338be3cfd787294d74e9c736328aa5c2bb2e29aecf10c8593dc10c9647f": "read",
+  "6defeed82b08dbdb3cb2e30d64e989bc819d757692d0ea91095415467c1377d6": "write"
+ },
+ "flags": []
+}

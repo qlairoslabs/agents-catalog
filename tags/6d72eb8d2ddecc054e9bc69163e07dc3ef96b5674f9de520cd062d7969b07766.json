@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6d72eb8d2ddecc054e9bc69163e07dc3ef96b5674f9de520cd062d7969b07766",
+ "domain": [
+  "media/audio",
+  "ai/speech"
+ ],
+ "product": [
+  "audiopod"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Core AudioPod audio tools for speaker-labelled transcription, stem splitting, noise removal, speaker separation and audio-to-MIDI conversion.",
+ "whenToUse": "Use when an agent needs to transcribe or process existing audio, such as separating speakers or stems or removing noise.",
+ "tasks": [
+  "transcribe with speaker labels",
+  "split stems",
+  "remove noise",
+  "separate speakers",
+  "convert audio to midi"
+ ],
+ "effects": {},
+ "flags": []
+}

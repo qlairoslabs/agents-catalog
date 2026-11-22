@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "28c0fb9c7e13681b196c74b52eb35383a9f0708bd94d904ce43dfeb9fffbf0ea",
+ "domain": [
+  "data/orchestration/deployment",
+  "software/devops"
+ ],
+ "product": [
+  "astronomer",
+  "astro-cli",
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guides use of the Astro CLI to authenticate, switch workspaces, manage Astronomer deployments and push code to production.",
+ "whenToUse": "Use when a user needs to create, update, delete or deploy to Astronomer production deployments via the Astro CLI.",
+ "tasks": [
+  "authenticate astro cli",
+  "switch workspaces",
+  "create deployments",
+  "update deployments",
+  "delete deployments",
+  "deploy code to production"
+ ],
+ "effects": {},
+ "flags": []
+}

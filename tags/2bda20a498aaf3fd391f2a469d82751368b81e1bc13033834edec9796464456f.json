@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2bda20a498aaf3fd391f2a469d82751368b81e1bc13033834edec9796464456f",
+ "domain": [
+  "ai/agent-communication",
+  "storage/file-sharing"
+ ],
+ "product": [
+  "stash"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "work-as-a-team"
+ ],
+ "summary": "Gives an agent its own public address where it can publish files for other agents to read.",
+ "whenToUse": "Use when an agent needs to publish files at a public address so other agents can retrieve them.",
+ "tasks": [
+  "get public agent address",
+  "publish files",
+  "read files from other agents"
+ ],
+ "effects": {},
+ "flags": []
+}

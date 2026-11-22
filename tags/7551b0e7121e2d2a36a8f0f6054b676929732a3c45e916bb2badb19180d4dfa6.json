@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "7551b0e7121e2d2a36a8f0f6054b676929732a3c45e916bb2badb19180d4dfa6",
+ "domain": [
+  "finance/tax",
+  "finance/self-employment"
+ ],
+ "product": [
+  "cra"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Calculators for Canadian self-employed taxes, covering income tax, CPP or QPP, GST/HST registration, quick method, instalments and CRA deadlines.",
+ "whenToUse": "Use when a Canadian freelancer or sole proprietor needs to estimate taxes, CPP, GST/HST obligations, instalments or upcoming CRA deadlines.",
+ "tasks": [
+  "estimate self-employed tax bill",
+  "compute CPP contributions",
+  "check GST/HST registration requirement",
+  "compare GST quick method vs regular",
+  "plan quarterly tax instalments",
+  "list upcoming CRA deadlines"
+ ],
+ "effects": {
+  "7022fffc7ca417d12e80caec8b12c2232cd65d8c479b6c97ac4dd833ce657566": "read",
+  "bc1704ac253bc32d0367cf941e5ce9852671490d3e9ff072e345e74e0081df6e": "read",
+  "3093de1b1cb68b5caa53a0b85b17880a22faeb2e732e62339fca77cf6f0c880c": "read",
+  "c2c4dc80ead6daa0456a6f7280f23a85279491f4b4b1585325bfb0b1be223a15": "read",
+  "e65c49e44a5d1fbef7cf5d1f4e8ee139138ee3b3aaca7172d9781c279c05e9df": "read",
+  "703ccc6f15a27c51301a0f80e5726f0c2d4d87ed27717a0d30039ac09c4786b1": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "713543d2d603728edda700842c121ff56c32abcf313577c7bd8b3c9815cb85a2",
+ "domain": [
+  "healthcare/fertility-clinic"
+ ],
+ "product": [
+  "eko-iksi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Public information about EKO-IKSI, an IVF clinic in Tashkent: contacts, services, prices, doctors and articles in three languages.",
+ "whenToUse": "Use when someone asks about this Tashkent fertility clinic's prices, services, doctors, contacts or published articles.",
+ "tasks": [
+  "get clinic contacts",
+  "list services",
+  "search prices",
+  "list doctors",
+  "get doctor profile",
+  "list articles",
+  "search articles",
+  "read an article"
+ ],
+ "effects": {
+  "8b667d34cfb309d2012dec919a189db10b44c3c470c8566428aa7946807eefb6": "read",
+  "c7293d222a09d161a89e08735b6dc572ee63963576aade1da0da8e168f3f3de7": "read",
+  "96e9e85b09e7690b5a65551c4c4de7251ec9ad9fe64e331c78f972520d013378": "read",
+  "c02afd85e40de79a7ee6d01ee458ff1a2aca03a2d7ddabb2be63b6fc0de74d4f": "read",
+  "9166bb324e0d13e28f64a353d97b77b51eff722c8db7b1f81a748be104e0ea2e": "read",
+  "d23fac6a313bd25cf06987de749c20d08d2054690f07a4fa67002253130f6b5f": "read",
+  "fed561c11b5c1d30cb9bccc72127da2f3552fe5502ca2d7b478bfc79a00122e3": "read",
+  "26a07d58def412f2b5c472f451e3f72b9b959b0806f09202e890992f228e813d": "read"
+ },
+ "flags": []
+}

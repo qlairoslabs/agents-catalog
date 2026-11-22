@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "37f31f8fa2bf3abbabbcc74c0b2371ffca0d8b6fc0e885d66f7d9dc4e7aeb6fe",
+ "domain": [
+  "ai/news-briefing",
+  "software/security"
+ ],
+ "product": [
+  "magpie",
+  "github"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only daily AI brief covering new capabilities, rising repos, regulatory constraints, security threats and videos worth watching.",
+ "whenToUse": "Use when a user wants current AI developments, trending repos, AI-related security threats or regulation updates.",
+ "tasks": [
+  "read daily edition",
+  "search recent editions",
+  "get capability details",
+  "look up a repo or model",
+  "list possibilities",
+  "track constraints",
+  "list security threats",
+  "find rising repos",
+  "list editions"
+ ],
+ "effects": {
+  "33170e5524525d10351b0a3f7878055ce67d313752b319fa9eeb67641c82f640": "write",
+  "456bd8116ad791e7285550759326384be80cede2013ad3524a2216d8e1a35fa0": "read",
+  "f25e6c3194144201e1a65a36a4e5676a74f3ac4120d87dc821a69258f7e64949": "read",
+  "7bed1a420f363c4748bdd7474ed3ef9e221058455b2edfa86e16175ee780ef9e": "write",
+  "eb37b4d2c6d4c1ad0cc080376796c79fdb4d2bf2341f766bb90d2ff3a5939a9e": "write",
+  "a0a0cbd8434ac017a9c7ebaa3e4a742af73ab92208a5377e048213aa078ead29": "write",
+  "5cd555c389fc74be3088b17f007e0cbbd4796563089681b7cd312b1bbf0ff91d": "write",
+  "3c321dbda9453a0aa0c4323e9e69a625356bc4f348e09e0fa8750de0a518cfa1": "read",
+  "995a5061661741c62f6b0210b80a88eacc917b578881a7bac51b2b20ebe3aae6": "read",
+  "7317389480aa2d623ccecefc535098c45ce0196cd3ce107851dc83608c78f7f9": "read"
+ },
+ "flags": []
+}

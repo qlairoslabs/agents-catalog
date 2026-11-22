@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "03ca691eae864f04238650728bda7bd6b59282c9cbfd36434cd8a5ef6128f8b7",
+ "domain": [
+  "marketing/web-analytics"
+ ],
+ "product": [
+  "nexly"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Nexly web analytics data including traffic, pages, acquisition, events and reports.",
+ "whenToUse": "Use when an agent needs website traffic or visitor behaviour data from a Nexly account.",
+ "tasks": [
+  "view traffic stats",
+  "view top pages",
+  "view acquisition sources",
+  "view events",
+  "read reports"
+ ],
+ "effects": {},
+ "flags": []
+}

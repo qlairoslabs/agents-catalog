@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3ab01bb4f245bd64bb232a4e22c89efff3f7715a294b7ceacab64c7975b13ccd",
+ "domain": [
+  "communication/email",
+  "software/email-infrastructure"
+ ],
+ "product": [
+  "groundmail"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Sends and receives email, creates agent mailboxes and manages domains and templates via Groundmail.",
+ "whenToUse": "Use when an agent needs its own mailbox or to send and receive email through Groundmail.",
+ "tasks": [
+  "send email",
+  "receive email",
+  "create mailboxes",
+  "manage domains",
+  "manage templates"
+ ],
+ "effects": {},
+ "flags": []
+}

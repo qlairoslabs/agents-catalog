@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "974c40f18dada8c61e9a1df8b35ec9faf35521b48fc5a408fa66fd24b89f8cc5",
+ "domain": [
+  "finance/trading/strategy-backtesting",
+  "finance/research"
+ ],
+ "product": [
+  "praxis"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Re-runs published trading strategies and reports verdicts comparing claimed versus measured performance statistics.",
+ "whenToUse": "Use when checking whether a published trading strategy actually performs as claimed.",
+ "tasks": [
+  "look up audited trading strategies",
+  "compare claimed vs measured stats",
+  "get strategy verdicts"
+ ],
+ "effects": {},
+ "flags": []
+}

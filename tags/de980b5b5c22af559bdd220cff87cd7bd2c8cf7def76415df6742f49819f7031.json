@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "de980b5b5c22af559bdd220cff87cd7bd2c8cf7def76415df6742f49819f7031",
+ "domain": [
+  "finance/accounting",
+  "finance/bookkeeping"
+ ],
+ "product": [
+  "beancount",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Hosted double-entry Beancount ledger for agents with signed requests and x402 micropayments; supports directives, balances and reports.",
+ "whenToUse": "Use when an agent needs to keep a double-entry ledger and produce balance sheets or income statements.",
+ "tasks": [
+  "register ledger key",
+  "submit directive",
+  "validate directive",
+  "submit batch",
+  "list directives",
+  "list accounts",
+  "account balance",
+  "export ledger",
+  "balance sheet",
+  "income statement",
+  "trial balance"
+ ],
+ "effects": {
+  "d17b911549e90c1ef1b66b71b8339ef8eb3454d19c4e00ecad86315f183eead7": "write",
+  "8f874e1e88420173886126a8c3341a167c84a0ba88e1c71024e8539cd023fcaa": "read",
+  "b5c0d185ec63d22e0577e424312d227ada7d45c4e422a3e538efc9ef4ed79fa7": "write",
+  "f2f694d0bc1e648523554cc812f057eabcec3e08dfe0093a5da0858eedcf054b": "read",
+  "61b357baccd4324c033b67033112bf6e573a670d963e3ce0e4fa8b361d8c9115": "read",
+  "f2ede0cf12827ab21bc54d89fb8945142bb1a3eeb285b1db687e4a91b6206797": "read",
+  "54e04071e24cf10e05ab81fd448346a51847d16be9bf31a11aefe3a59db66545": "read",
+  "07727a7b9f364579d3eef84c9ff3af68fe394beed916de0383cfac8ce9400ce0": "read",
+  "de3413c95f98e023d285807439005383bebf420bf8661ba9fcb26c2ecc5c7153": "read",
+  "dc1d4c463bc8495582675d000e9dd2ee343acbdfaf6d87036b58e66c7e9966b7": "read",
+  "2a30bc8b90199ed55978c4ed7b538f022d95a7a74eecdce09b43701c64cf3a16": "write"
+ },
+ "flags": []
+}

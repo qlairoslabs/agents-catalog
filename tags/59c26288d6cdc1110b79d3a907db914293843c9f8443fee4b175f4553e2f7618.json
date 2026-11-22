@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "59c26288d6cdc1110b79d3a907db914293843c9f8443fee4b175f4553e2f7618",
+ "domain": [
+  "sales/prospecting",
+  "sales/email-verification"
+ ],
+ "product": [
+  "leadsapp"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches a database of US and Canadian B2B contacts, verifies emails, gives compliance verdicts and sells contact reveals.",
+ "whenToUse": "Use when looking for B2B prospect contacts in the US or Canada or verifying email addresses.",
+ "tasks": [
+  "search b2b contacts",
+  "verify email",
+  "get compliance verdict",
+  "reveal contact details"
+ ],
+ "effects": {},
+ "flags": []
+}

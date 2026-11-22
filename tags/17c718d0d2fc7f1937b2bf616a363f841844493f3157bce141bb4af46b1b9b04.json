@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "17c718d0d2fc7f1937b2bf616a363f841844493f3157bce141bb4af46b1b9b04",
+ "domain": [
+  "business/idea-validation",
+  "analytics/scoring"
+ ],
+ "product": [
+  "ideaudit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Set of twenty deterministic offline scoring tools used to audit ideas, requiring no account.",
+ "whenToUse": "Use when an agent needs repeatable scoring to evaluate or audit an idea.",
+ "tasks": [
+  "score ideas",
+  "run deterministic audit checks"
+ ],
+ "effects": {},
+ "flags": []
+}

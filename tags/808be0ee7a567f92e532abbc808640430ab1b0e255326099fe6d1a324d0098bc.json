@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "808be0ee7a567f92e532abbc808640430ab1b0e255326099fe6d1a324d0098bc",
+ "domain": [
+  "hardware/electronics",
+  "maker/diy"
+ ],
+ "product": [
+  "schematik",
+  "esp32",
+  "arduino",
+  "raspberry-pi-pico"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Searches an electronics parts catalogue and published hardware build guides with wiring and firmware.",
+ "whenToUse": "Use when choosing electronics parts or looking for a step-by-step microcontroller project guide.",
+ "tasks": [
+  "search parts",
+  "get part pinout and price",
+  "search build guides",
+  "read build guide"
+ ],
+ "effects": {
+  "0172434a0d0e844e3fe6183754c7b8fc2828bff58ef13e1bef8cb51f3e40e457": "read",
+  "b5f0b86c59866182f7ef05487e4b78a43c877db2fd63401beb24bc4302e108aa": "read",
+  "840f1336e36df83bd90650e5e9478de89e98350223f0dab0b1523e7d9467d590": "read",
+  "072d27ca58a37bd8d31a61bb5e48734bdfefa5577ae91b133ef56b51d3133a21": "read"
+ },
+ "flags": []
+}

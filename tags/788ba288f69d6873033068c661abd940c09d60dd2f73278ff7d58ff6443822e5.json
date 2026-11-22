@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "788ba288f69d6873033068c661abd940c09d60dd2f73278ff7d58ff6443822e5",
+ "domain": [
+  "legal/compliance/gdpr",
+  "software/cybersecurity/web-audit"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Audits AI-built websites for France and Belgium on cookies, GDPR, legal pages, exposed keys and security.",
+ "whenToUse": "Use when checking a French or Belgian website for GDPR, cookie, legal page or security issues.",
+ "tasks": [
+  "audit cookie compliance",
+  "check gdpr",
+  "check legal pages",
+  "detect exposed keys",
+  "scan security issues"
+ ],
+ "effects": {},
+ "flags": []
+}

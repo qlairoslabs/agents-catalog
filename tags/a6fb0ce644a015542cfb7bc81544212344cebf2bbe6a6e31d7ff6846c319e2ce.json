@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a6fb0ce644a015542cfb7bc81544212344cebf2bbe6a6e31d7ff6846c319e2ce",
+ "domain": [
+  "media/audio-generation",
+  "creative/sound-design"
+ ],
+ "product": [
+  "sfx-engine"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates sound effects and music from text prompts and returns audio file URLs.",
+ "whenToUse": "Use when an agent needs custom sound effects or music for a game, app or video.",
+ "tasks": [
+  "generate sound effects",
+  "generate music",
+  "return audio urls"
+ ],
+ "effects": {},
+ "flags": []
+}

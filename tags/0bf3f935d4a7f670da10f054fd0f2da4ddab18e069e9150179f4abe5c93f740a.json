@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0bf3f935d4a7f670da10f054fd0f2da4ddab18e069e9150179f4abe5c93f740a",
+ "domain": [
+  "retail/grocery/price-comparison",
+  "consumer/shopping"
+ ],
+ "product": [
+  "pinch",
+  "woolworths",
+  "coles",
+  "aldi",
+  "harris-farm"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live grocery prices from major Australian supermarkets including Woolworths, Coles, Aldi and Harris Farm.",
+ "whenToUse": "Use when comparing or looking up current grocery prices at Australian supermarkets.",
+ "tasks": [
+  "look up grocery prices",
+  "compare prices across supermarkets",
+  "check product availability"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "161a22ca4574910c39159b5444d6e2be60da7617dbf8976142639793ae40ad2a",
+ "domain": [
+  "ecommerce/store-management",
+  "ecommerce"
+ ],
+ "product": [
+  "prestashop"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries PrestaShop sales, stock and orders and makes store edits with undo support.",
+ "whenToUse": "Use when a PrestaShop store owner wants to check sales, inventory or orders, or edit store data.",
+ "tasks": [
+  "report sales",
+  "check stock",
+  "view orders",
+  "edit store data",
+  "undo edits"
+ ],
+ "effects": {},
+ "flags": []
+}

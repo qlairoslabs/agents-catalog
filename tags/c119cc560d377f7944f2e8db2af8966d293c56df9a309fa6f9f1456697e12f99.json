@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c119cc560d377f7944f2e8db2af8966d293c56df9a309fa6f9f1456697e12f99",
+ "domain": [
+  "software/cybersecurity/ai-agent-security",
+  "software/mcp-tooling"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Proxy for MCP servers that scans for security issues, profiles tool behavior and gates risky tool calls.",
+ "whenToUse": "Use when MCP tool calls should pass through security scanning and risk-based approval before execution.",
+ "tasks": [
+  "scan mcp servers",
+  "profile tool behavior",
+  "gate risky tool calls",
+  "proxy tool execution"
+ ],
+ "effects": {},
+ "flags": []
+}

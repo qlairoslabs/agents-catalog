@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "03759a2a51a7b462923caf1b0445cd88f236ecb7f34dd3a74e758d96cbe12fe5",
+ "domain": [
+  "health/biometrics",
+  "ai/affective-computing"
+ ],
+ "product": [
+  "nefesh"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Combines biometric signals into a 0-100 stress score that AI applications can use to adapt.",
+ "whenToUse": "Use when an AI app should adjust its behaviour based on a user's measured stress level.",
+ "tasks": [
+  "fuse biometric signals",
+  "compute stress score"
+ ],
+ "effects": {},
+ "flags": []
+}

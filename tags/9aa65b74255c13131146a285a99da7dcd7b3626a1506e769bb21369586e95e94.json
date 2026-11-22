@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9aa65b74255c13131146a285a99da7dcd7b3626a1506e769bb21369586e95e94",
+ "domain": [
+  "software/cloud-documentation",
+  "software/web-infrastructure"
+ ],
+ "product": [
+  "cloudflare",
+  "workers",
+  "pages"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Searches Cloudflare product documentation and provides a guide for migrating Pages projects to Workers.",
+ "whenToUse": "Use when answering questions about Cloudflare products or migrating a Pages project to Workers.",
+ "tasks": [
+  "search Cloudflare docs",
+  "read Pages to Workers migration guide"
+ ],
+ "effects": {
+  "36d204d5334dd872f1d5779b39f9a74b42636f273cea41f09d7558d58bd30b2f": "read",
+  "ac50928cbe399b5f822d3703fec0d15f769ff3ae68b4f195a067ab12c14a10e8": "read"
+ },
+ "flags": []
+}

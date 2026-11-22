@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "18e1b040f3e88ce8adf2cc293a7289ac352fbf711c73cf51062b6cd947fe9569",
+ "domain": [
+  "content/translation",
+  "publishing/ebooks"
+ ],
+ "product": [
+  "epub-translator",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Translates EPUB books, offering free samples and fixed-price quotes with per-book payment through Stripe.",
+ "whenToUse": "Use when someone needs an EPUB ebook translated into another language and wants a sample or quote.",
+ "tasks": [
+  "translate epub books",
+  "get free translation sample",
+  "get fixed-price quote",
+  "pay per book"
+ ],
+ "effects": {},
+ "flags": []
+}

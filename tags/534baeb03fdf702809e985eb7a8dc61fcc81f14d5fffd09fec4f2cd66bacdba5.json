@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "534baeb03fdf702809e985eb7a8dc61fcc81f14d5fffd09fec4f2cd66bacdba5",
+ "domain": [
+  "identity/agent-naming",
+  "blockchain/registry"
+ ],
+ "product": [
+  "agt-registry"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Resolve and verify .agt agent names, fetch signed manifests and endpoints, and check name availability.",
+ "whenToUse": "Use when an agent needs to look up or verify another agent's .agt name, manifest or endpoint.",
+ "tasks": [
+  "resolve .agt names",
+  "verify manifests",
+  "get agent endpoints",
+  "check name availability",
+  "compute namehash"
+ ],
+ "effects": {
+  "c2bd16c4a3c7742ae8c3f398a37bec1a90b3eaf9427664445e21cc46dea89b62": "read",
+  "bc951eaa73a7dd22e96503d6457d3d9fd28eac1a97e78718439ae0ea75ac64e8": "read",
+  "cf1e88c4bc411c781436332dda709a90671d6dfc38d09d3eecb5185e3e4375ba": "read",
+  "92f9ba463f83485cb4efc82eecd975a46e8c34deddb3b323308943c6db6f0e8b": "read",
+  "7ecb2661f773d5d184c9e9dc8f375cba403f42f5d0c4027d6921ec3d1552dba7": "read"
+ },
+ "flags": []
+}

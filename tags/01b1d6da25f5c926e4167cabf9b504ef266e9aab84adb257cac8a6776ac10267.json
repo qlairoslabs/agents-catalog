@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "01b1d6da25f5c926e4167cabf9b504ef266e9aab84adb257cac8a6776ac10267",
+ "domain": [
+  "ai/agent-discovery"
+ ],
+ "product": [
+  "a2a"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Directory for finding, searching, calling and rating agents that use the A2A protocol.",
+ "whenToUse": "Use when an agent needs to find and delegate work to another A2A-compatible agent.",
+ "tasks": [
+  "discover agents",
+  "search agents",
+  "invoke agent",
+  "rate agent"
+ ],
+ "effects": {},
+ "flags": []
+}

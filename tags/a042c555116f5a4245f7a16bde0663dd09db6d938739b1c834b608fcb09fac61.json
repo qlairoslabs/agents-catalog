@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a042c555116f5a4245f7a16bde0663dd09db6d938739b1c834b608fcb09fac61",
+ "domain": [
+  "software/monitoring",
+  "software/uptime"
+ ],
+ "product": [
+  "nocrash",
+  "n8n"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Monitors n8n workflows, URLs and AI apps and alerts when they fail.",
+ "whenToUse": "Use when setting up or checking monitoring for n8n workflows, websites or AI apps.",
+ "tasks": [
+  "monitor n8n workflows",
+  "monitor urls",
+  "monitor ai apps",
+  "view failure alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

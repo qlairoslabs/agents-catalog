@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "43d233c8c6dbe1f17e5ed76a7abcc65c8385dd9c1c73a37b533af493e1165cb2",
+ "domain": [
+  "ai/multi-model",
+  "software/developer-tools"
+ ],
+ "product": [
+  "openai",
+  "gemini",
+  "grok",
+  "openrouter",
+  "claude-code"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Gets second opinions from other AI models such as GPT, Gemini, Grok and OpenRouter models inside an MCP host.",
+ "whenToUse": "Use when an agent wants another model to review or weigh in on a decision or piece of work.",
+ "tasks": [
+  "ask other models for opinions",
+  "compare model answers",
+  "review plans or code"
+ ],
+ "effects": {},
+ "flags": []
+}

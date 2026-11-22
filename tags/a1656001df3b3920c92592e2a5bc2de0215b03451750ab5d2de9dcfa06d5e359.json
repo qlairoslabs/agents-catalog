@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "a1656001df3b3920c92592e2a5bc2de0215b03451750ab5d2de9dcfa06d5e359",
+ "domain": [
+  "finance/mortgage",
+  "finance/canada"
+ ],
+ "product": [],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Canadian mortgage calculators comparing renewal offers, prepayments, break-or-stay and debt consolidation, plus short Ontario-reviewed guides.",
+ "whenToUse": "Use when a user in Canada wants to compare mortgage renewal offers, model extra payments, decide to break a mortgage or consolidate debt.",
+ "tasks": [
+  "diagnose missing figures",
+  "compare renewal offers",
+  "plan prepayments",
+  "compare break or stay",
+  "compare debt consolidation",
+  "read mortgage guides"
+ ],
+ "effects": {
+  "81b732ffa983f70380cf459f73cda72118704390f18f38d323f0a4a2e41c42b2": "write",
+  "b5e6f12072db2ac1f2ba9218c5f0d535716dde0bc05c9781993e05e217a3f9c6": "write",
+  "b2c7a16f91e32fc6c4e731fa51d74b17174cb10447ab3252c5976b7a5cdfca83": "write",
+  "0b34e6cbd1c57ad41bd5bc745cd0351deace11a101dbd87f7e6daf5ab607daa9": "write",
+  "76fe808189047e0e2fae318517ef5d429fbc7c4f5206f3c93a99106ca7075941": "write",
+  "a72bbd91b43f3772a1040bf62913cf6ebaf4a778e821579345431c0c67f8b39f": "read"
+ },
+ "flags": []
+}

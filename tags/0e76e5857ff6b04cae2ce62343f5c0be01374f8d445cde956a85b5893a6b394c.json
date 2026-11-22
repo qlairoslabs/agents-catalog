@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "0e76e5857ff6b04cae2ce62343f5c0be01374f8d445cde956a85b5893a6b394c",
+ "domain": [
+  "productivity/presentations",
+  "reporting"
+ ],
+ "product": [
+  "powerpoint",
+  "jira",
+  "github",
+  "notion",
+  "asana",
+  "linear",
+  "clickup"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds weekly, quarterly and project status decks as PowerPoint from tools like Jira, GitHub or CSV data, or fills a template.",
+ "whenToUse": "Use when a user wants a status report deck generated from project tool data or a CSV.",
+ "tasks": [
+  "generate status report deck",
+  "fill PowerPoint template",
+  "list connectors"
+ ],
+ "effects": {
+  "21ec03cd6c0d506a9bc3d023d5e80cd502ce9dc5b372d94beeead6a42476002d": "write",
+  "9642ac83766de3fb05076ce98e869b3b0f6c115dd34f9de87cc2a0c6fd844028": "read",
+  "426abd04002984367b7c559afa1c68ae44be2754ce6889b0d353b3d05eca1439": "write"
+ },
+ "flags": []
+}

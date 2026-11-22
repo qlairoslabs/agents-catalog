@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "82eb926d768b5d60b6bcb32bdef7830c288afad3c7a34b5bd7f3dc0e6bf43344",
+ "domain": [
+  "travel/trip-planning"
+ ],
+ "product": [
+  "finding-horizons"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Accesses a user's saved places, trips and travel plans in Finding Horizons, with day planning and adding items.",
+ "whenToUse": "Use when a user wants to view, plan or add to their saved trips and places in Finding Horizons.",
+ "tasks": [
+  "view saved places",
+  "view trips",
+  "plan trip days",
+  "add places to trips"
+ ],
+ "effects": {},
+ "flags": []
+}

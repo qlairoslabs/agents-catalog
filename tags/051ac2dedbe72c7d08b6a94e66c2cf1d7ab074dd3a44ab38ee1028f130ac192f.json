@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "051ac2dedbe72c7d08b6a94e66c2cf1d7ab074dd3a44ab38ee1028f130ac192f",
+ "domain": [
+  "legal/e-signature",
+  "legal/templates"
+ ],
+ "product": [
+  "signsimple"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "stay-compliant"
+ ],
+ "summary": "Sends PDFs for e-signature, tracks signing status and offers free legal document templates.",
+ "whenToUse": "Use when a user needs a document signed electronically or wants a basic legal template.",
+ "tasks": [
+  "send pdf for signature",
+  "track signature status",
+  "get legal templates"
+ ],
+ "effects": {},
+ "flags": []
+}

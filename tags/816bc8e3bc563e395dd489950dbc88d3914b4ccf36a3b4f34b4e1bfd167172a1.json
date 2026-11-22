@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "816bc8e3bc563e395dd489950dbc88d3914b4ccf36a3b4f34b4e1bfd167172a1",
+ "domain": [
+  "marketing/ai-visibility",
+  "web/seo"
+ ],
+ "product": [
+  "chatgpt",
+  "claude",
+  "perplexity",
+  "gemini"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Checks whether a website is ready for AI assistants, and offers 2ds services, FAQs and a free diagnosis request (Spanish).",
+ "whenToUse": "Use when a user wants to audit a site's readiness for AI assistants or request 2ds's diagnosis.",
+ "tasks": [
+  "check AI visibility of a website",
+  "get business info",
+  "list services and prices",
+  "answer FAQs",
+  "request free diagnosis"
+ ],
+ "effects": {
+  "3aaf2b996a71189ac707644a4518d87d7d3adbdbe83db406cff4054e2266bc27": "read",
+  "808c39c7f04fa386e56d0b8a1493047733755d29eeecff27b03e294d28248838": "read",
+  "5cf5097b45f1ebd7eaa6255d74c71a1fab10f91a8a9c90bb551920d9b8f563fc": "read",
+  "36d80de71ed6e46be89e710f4cc4ab8b4602f9b7c2f834cc407dfa534f83bc47": "read",
+  "aca12ed70bf65236e2dc552b98d95da80427f1a47a59323becb55f6ad4769f22": "write"
+ },
+ "flags": []
+}

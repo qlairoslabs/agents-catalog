@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "df211270732c28b1571a4ef26d8fa00f400f7a2ace7a5c6a180a86e7775ec59f",
+ "domain": [
+  "finance/erp",
+  "finance/accounting"
+ ],
+ "product": [
+  "netsuite"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Beta connector to run SuiteQL, read and write NetSuite records, query SuiteAnalytics and run saved bookmarks.",
+ "whenToUse": "Use when someone needs to query or update data in their NetSuite account.",
+ "tasks": [
+  "run suiteql queries",
+  "read netsuite records",
+  "write netsuite records",
+  "query suiteanalytics",
+  "run saved bookmarks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c1eea9b71c7fed228fe59ffc60562e14c87f44afd400b01bb98efa52de84578f",
+ "domain": [
+  "software/cybersecurity/code-review"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Security review of agent-written code through edit warnings, diff review and a commit reviewer for common vulnerability classes.",
+ "whenToUse": "Use when writing or committing code and wanting automatic checks for injection, XSS, SSRF, secrets and similar flaws.",
+ "tasks": [
+  "warn on insecure edits",
+  "review diffs for vulnerabilities",
+  "review commits",
+  "detect hardcoded secrets",
+  "detect injection and xss",
+  "detect ssrf"
+ ],
+ "effects": {},
+ "flags": []
+}

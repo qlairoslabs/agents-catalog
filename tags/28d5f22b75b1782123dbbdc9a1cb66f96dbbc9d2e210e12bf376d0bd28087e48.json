@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "28d5f22b75b1782123dbbdc9a1cb66f96dbbc9d2e210e12bf376d0bd28087e48",
+ "domain": [
+  "productivity/spreadsheets"
+ ],
+ "product": [
+  "google-sheets"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads, writes and formats Google Sheets data, including batch operations, through the Sheets API.",
+ "whenToUse": "Use when an agent needs to read or update data in a Google Sheets spreadsheet.",
+ "tasks": [
+  "read sheet data",
+  "write cells",
+  "format cells",
+  "batch update sheets"
+ ],
+ "effects": {},
+ "flags": []
+}

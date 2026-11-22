@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "214e881fcef77a0b1ad079ba9747f36ee3ad35eb308c1242cc1d8efa1fa1f407",
+ "domain": [
+  "software/cybersecurity",
+  "software/launch-review"
+ ],
+ "product": [
+  "supabase",
+  "stripe",
+  "lovable",
+  "cal-com",
+  "continuum"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Scans a deployed app from outside for exposed secrets, open Supabase tables and missing security headers, with AI cost estimators and Continuum consulting booking.",
+ "whenToUse": "Use right after deploying an AI-built app to check launch readiness, or to book or message the Continuum consultant.",
+ "tasks": [
+  "scan deployed app for leaks",
+  "request human review",
+  "estimate Cursor Auto cost",
+  "estimate agent swarm cost",
+  "estimate agent task cost",
+  "list services",
+  "check call availability",
+  "book intro call",
+  "send message",
+  "request estimate",
+  "view AI recommendation panels"
+ ],
+ "effects": {
+  "b7558cca0a5bea1871d60218101e0310dbfa29848f34c76f2eb3768bce2c8810": "write",
+  "d99835a5ae07d7cbf121109bdcfdcf3efcf2e0c2d6dba84817e4aa960127ae23": "write",
+  "e2589fed74f408884e6d4d8f6a75fd8679a8f23a52823c2e5884b7f0cb722a09": "read",
+  "06be597c24f44aabea18dff396532bed7c9fb4c82db02b59c05b1673cc298b7d": "read",
+  "ea64be5f5bee330d31e4e78931a4fc168b41e10d96346549bbf272ed66ea9e84": "read",
+  "0fd86ad50f3dce2b909cbce97abc44b5b4a1d55a243ee32f7234a5d220c9cced": "read",
+  "5a4e921ec80fe193f896164254dbf6dac090ec7825439c98e68eadbe4f6cd199": "read",
+  "1f70b39f77ce1ea051dfdec73c6af8c2d6645c8eef1b21a46fea72a25f5b005a": "read",
+  "e68bb4ecc1dce905c4ecd81a5b0a646e821b32ff352f9f06b7ea3d67e20cba4b": "write",
+  "baca34522066fba717bdf0ff18fb5c4e3c4a69c2df67c999ebf25a118a23e075": "write",
+  "b6457a8d1aefa67dfef8452307ae269becc3498fc86bc13d8e8cc11b0a73ddef": "write",
+  "0f071966cadec1709a95234dfa8ac20f19f88857e2ed0434d5234ebe8c64f4eb": "write"
+ },
+ "flags": []
+}

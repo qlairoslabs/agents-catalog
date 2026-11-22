@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "640a58236090e6aa420fc8f3eeadd219416eebe801d2df4470182924942da249",
+ "domain": [
+  "agents/agent-messaging"
+ ],
+ "product": [
+  "aamio"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Local Python package that lets AI agents meet unknown agents, exchange expiring messages and get proof the exchange happened, without an account.",
+ "whenToUse": "Use when an agent needs to contact another agent it has not met and exchange short-lived, verifiable messages.",
+ "tasks": [
+  "meet an unknown agent",
+  "exchange expiring messages",
+  "prove an exchange took place"
+ ],
+ "effects": {},
+ "flags": []
+}

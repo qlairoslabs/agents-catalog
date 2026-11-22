@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5efd65ceab713b7ffc043f58d39f40e8d86ca8fccbee7dea011052b9ce2f3de0",
+ "domain": [
+  "careers/resume",
+  "hr/job-search"
+ ],
+ "product": [
+  "maxcv"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Scores a CV against a job posting and produces a tailored version with fit notes and a cover letter.",
+ "whenToUse": "Use when a user wants to see how well their resume matches a job posting or get it rewritten for that role.",
+ "tasks": [
+  "score cv against job posting",
+  "list matched and missing requirements",
+  "tailor cv to job",
+  "draft cover letter",
+  "give interview preparation notes"
+ ],
+ "effects": {
+  "b016bb2b647488e9187f375f2fdf38ee3b83dbe191cd345397c92ff98189e957": "write",
+  "975cbf05c612daccc8e481d5bc0f6c79865149ba2e00ed5b457ec8d83ac02e8f": "read"
+ },
+ "flags": []
+}

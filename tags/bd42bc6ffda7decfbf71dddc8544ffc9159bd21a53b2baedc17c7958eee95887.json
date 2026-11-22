@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "bd42bc6ffda7decfbf71dddc8544ffc9159bd21a53b2baedc17c7958eee95887",
+ "domain": [
+  "healthcare/market-intelligence",
+  "finance/equities"
+ ],
+ "product": [
+  "mfds",
+  "fda",
+  "krx",
+  "clinicaltrials-gov",
+  "pubmed"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Profiles Korean listed medical AI, biotech and device companies with MFDS and FDA regulatory records, trials, patents, disclosures and stock quotes.",
+ "whenToUse": "Use when researching Korean medical AI or biotech companies, their regulatory approvals or sector overview.",
+ "tasks": [
+  "search companies",
+  "get company profile",
+  "get stock quote",
+  "search regulatory approvals",
+  "get sector overview"
+ ],
+ "effects": {
+  "cd63c1f570a55e3dd0dc9ff97bd9c7f2be437316c12197a7437dd4016d95d8fa": "read",
+  "c919f63c289291843a62bd8894d1b9e8c0c3a4a66cde52816ba50800bf685d5e": "read",
+  "94569ff5d983214117eb93491e8024efc9403f324ae2306f8025f6b838e9739f": "read",
+  "76d3cbd7c479901be3d36bf95e366591067163c1c9977e5bb07359a83352cc56": "read",
+  "319e0b6a19bb31393cb92965e86774ab62d998ad79007fd8eb3fb898809c418c": "read"
+ },
+ "flags": []
+}

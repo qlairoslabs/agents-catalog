@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c3a0da3b844740dedf3cf5e7e40b12dbaaa06884fdf8939a23a2c9e9ee9b3f1d",
+ "domain": [
+  "home/energy/rebates",
+  "home/energy"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Estimates Australian heat pump hot water rebates, net cost and payback period versus gas by postcode.",
+ "whenToUse": "Use when someone in Australia asks whether switching to a heat pump hot water system is worth it or which rebates apply.",
+ "tasks": [
+  "check stackable rebates by postcode",
+  "calculate net outlay",
+  "estimate payback period",
+  "compare heat pump to gas"
+ ],
+ "effects": {
+  "408d5f98c867a3cc9bdb8d109630b349ed7b2a683ae3cbb63fbc677c0b0ca93c": "write"
+ },
+ "flags": []
+}

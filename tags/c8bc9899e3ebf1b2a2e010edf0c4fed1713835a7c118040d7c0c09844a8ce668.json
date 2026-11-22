@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "c8bc9899e3ebf1b2a2e010edf0c4fed1713835a7c118040d7c0c09844a8ce668",
+ "domain": [
+  "business/company-verification",
+  "data-quality"
+ ],
+ "product": [
+  "sirene",
+  "insee",
+  "bodacc",
+  "inpi",
+  "dataroia"
+ ],
+ "audience": [
+  "sales",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening",
+  "get-paid"
+ ],
+ "summary": "Verifies French companies by SIRET and SIREN, scores company health, lists directors, checks death registry and monitors a watch portfolio.",
+ "whenToUse": "Use when validating French B2B counterparties, cleaning CRM data or monitoring companies for closure or insolvency.",
+ "tasks": [
+  "verify SIRET",
+  "diagnose CRM CSV sample",
+  "resolve SIREN from name",
+  "company health score",
+  "list directors",
+  "check death registry",
+  "manage watch portfolio",
+  "read watch alerts"
+ ],
+ "effects": {
+  "656e222f0eeb9c68640cb45bf7babb4d5c32d1604d936ff61221902117823f20": "read",
+  "5a74a3c2fc16ae969ea987b6085d1e643faa4ee1cee01217bed19ea197a3a278": "read",
+  "9313b1eb05d1556115bbcc49d349a4252bae16ba704a32af754a815ce37e1651": "read",
+  "f104acb6f3547350460e0037d59ec6f74ef0d400e2eca5fffe36589301bac249": "read",
+  "97cb7adbef5584712a35bc6324fbc979374b3ac2f510d08bac7479e744e45c3e": "read",
+  "bee4b698c7e04fe255464150a25fb9b22642ac62629d52dc3623a33c164495c1": "read",
+  "679e40892a7c842ed45706603ca69769a9d691d4fd3da98639be94e51eb638cc": "write",
+  "bfa6a50f5b7309101e994658ffd1b971fc9b4dfd3a4c02a1ef2b39f7a02a6435": "write"
+ },
+ "flags": []
+}

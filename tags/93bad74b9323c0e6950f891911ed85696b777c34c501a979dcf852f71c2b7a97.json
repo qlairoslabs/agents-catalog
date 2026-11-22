@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "93bad74b9323c0e6950f891911ed85696b777c34c501a979dcf852f71c2b7a97",
+ "domain": [
+  "software/observability",
+  "operations/incident-management"
+ ],
+ "product": [
+  "superlog"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Open-source agent that monitors an application and fixes issues, with queries over logs, traces, metrics and incidents.",
+ "whenToUse": "Use when an agent needs to debug an application using its logs, traces, metrics or incidents.",
+ "tasks": [
+  "query logs",
+  "query traces",
+  "query metrics",
+  "review incidents",
+  "suggest fixes"
+ ],
+ "effects": {},
+ "flags": []
+}

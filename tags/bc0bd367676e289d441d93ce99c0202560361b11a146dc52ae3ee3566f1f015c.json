@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "bc0bd367676e289d441d93ce99c0202560361b11a146dc52ae3ee3566f1f015c",
+ "domain": [
+  "business/entity-records",
+  "seo"
+ ],
+ "product": [
+  "aitwire"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Look up business-published entity records on AITWIRE, page their feeds and check claims against them.",
+ "whenToUse": "Use when verifying facts about a business or retrieving its products, services, articles or locations.",
+ "tasks": [
+  "look up entity",
+  "page entity feeds",
+  "verify claims"
+ ],
+ "effects": {
+  "2477de6f4415deaed9f32d0caeba74fec23fda4261ae1cd7514cf262d6ad3259": "read",
+  "91ccd9cc19859014ab0ebfe5d291085659fa13d0f09c77f1832b9809ed8501b0": "read",
+  "815de7ff4fcee519845c9d900c2c414911f53b9e7f959ae7481c092b3368245d": "read"
+ },
+ "flags": []
+}

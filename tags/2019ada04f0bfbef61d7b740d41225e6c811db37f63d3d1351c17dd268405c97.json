@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2019ada04f0bfbef61d7b740d41225e6c811db37f63d3d1351c17dd268405c97",
+ "domain": [
+  "software/cybersecurity/threat-intelligence",
+  "software/vulnerability-management"
+ ],
+ "product": [
+  "cisa-kev"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Threat intelligence covering live CVEs, CISA known exploited vulnerabilities, exploits, SBOM scanning, patch priorities and IOC lookups.",
+ "whenToUse": "Use when assessing vulnerabilities, prioritizing patches, scanning an SBOM or checking indicators of compromise.",
+ "tasks": [
+  "look up cves",
+  "check cisa kev status",
+  "find exploit intelligence",
+  "scan sboms",
+  "prioritize patches",
+  "check iocs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1664d7254c69cee812581bde7e60ac78015f65957eccc4afb9096d147d79ab8d",
+ "domain": [
+  "hospitality/hotel-management",
+  "hospitality/revenue-management"
+ ],
+ "product": [
+  "guruhotel"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages GuruHotel reservations, rates, revenue, KPIs, traffic and availability updates.",
+ "whenToUse": "Use when a hotelier needs to check reservations or KPIs or update rates and availability in GuruHotel.",
+ "tasks": [
+  "view reservations",
+  "view revenue",
+  "update rates",
+  "view kpis",
+  "view traffic",
+  "update availability"
+ ],
+ "effects": {},
+ "flags": []
+}

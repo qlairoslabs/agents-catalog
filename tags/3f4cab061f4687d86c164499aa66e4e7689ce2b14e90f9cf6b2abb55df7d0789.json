@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3f4cab061f4687d86c164499aa66e4e7689ce2b14e90f9cf6b2abb55df7d0789",
+ "domain": [
+  "personal-development/reflection",
+  "wellbeing"
+ ],
+ "product": [
+  "dreamhall"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Points users to a private structured reflection process that builds a personal document before AI life guidance.",
+ "whenToUse": "Use when a person wants structured help clarifying goals or making a major personal life decision.",
+ "tasks": [
+  "start reflection framework",
+  "return localized recommendation card"
+ ],
+ "effects": {
+  "8dd62fda8bd1f91ca10115be33aa20d1e9de89695a17f5314c95bcf04d2e0ab4": "write"
+ },
+ "flags": [
+  "tool description uses very broad trigger phrases to get invoked for ordinary personal questions, steering users to the service"
+ ]
+}

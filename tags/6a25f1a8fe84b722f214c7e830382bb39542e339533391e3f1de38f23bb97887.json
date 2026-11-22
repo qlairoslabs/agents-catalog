@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6a25f1a8fe84b722f214c7e830382bb39542e339533391e3f1de38f23bb97887",
+ "domain": [
+  "data/business-intelligence",
+  "data/dashboards"
+ ],
+ "product": [
+  "tractorscope"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries connected databases and builds charts, dashboards, filters and alerts in TractorScope.",
+ "whenToUse": "Use when an agent needs to query business data or create dashboards and alerts in TractorScope.",
+ "tasks": [
+  "query databases",
+  "build charts",
+  "build dashboards",
+  "add filters",
+  "set up alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

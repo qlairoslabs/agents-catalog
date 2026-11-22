@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "b272d6ad31ff1e60c3f748293897ace8c3f0873f4c24f3023ef154f1ee0d9544",
+ "domain": [
+  "manufacturing/calculators",
+  "economics/trade-data"
+ ],
+ "product": [
+  "mfgcalcs",
+  "usitc",
+  "highs"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Thousands of manufacturing calculators plus U.S. tariff lookups, cost, wage, PMI and forecast data with citations, revisions, signed receipts and a sourcing optimizer.",
+ "whenToUse": "Use when a manufacturing calculation, tariff rate, cost index or sourcing decision needs a cited, deterministic answer.",
+ "tasks": [
+  "search and run calculators",
+  "look up tariffs",
+  "fetch indexes and forecasts",
+  "check data freshness",
+  "get change events and revisions",
+  "get vintages and citations",
+  "verify provenance",
+  "optimize supplier mix",
+  "answer questions",
+  "brief a situation"
+ ],
+ "effects": {
+  "59e292fa552a5f221ffb31da3131df09583ac1784abaed3a6b3bdd0dfcc2c2b6": "read",
+  "43955001fe4eb3d77b77507b06fdd8574d087fb6fcedf25bbe0cb5ea32c8935c": "read",
+  "81a4fe7c2e2a498324b52e3810487179a779b710a7adafae1f3f5f1b0697e21a": "read",
+  "71aea27466e7ff9f7eaead5d20f7b1756e789b82c4c4e241d463d9cd68d42358": "read",
+  "c51b07c80f28d6cc9af2de081fd254b5b9573189475e4f303b1c42b8f0907791": "write",
+  "d130bfb1d426b6f98267eb4e3a41d84784cfa310c01b258e0be05db370801bc5": "write",
+  "54515e6a117686999a8a009c0e8ea160d96e0ad378620fe58e4fde605d1f1212": "read",
+  "847c34f125b8ec52b0e6320632e096fe7bfa56ad0d764912f8545e76b497419f": "read",
+  "a9f86b5436fba12ac130b14880def729fd96cde7d41a4fafeba4e867c0db7844": "read",
+  "0b50becb02c77c89f6ee8d06beaf8bbb819045d1ab3f32119ac09317febd62d8": "read",
+  "8131325eb216cc4ce92174044225bac75b0822dc9abbe9f8219876f747838d3a": "read",
+  "860074b9bb30a79b3648ab59b550d45c23d9d1423a032f80717d742a8cc216b9": "read",
+  "c3f42e1ec749e18d382e1ffeb87f58b4e47f81c22c7192d9517a5aca0c03eb86": "read",
+  "66c6c1adb4879ac7c83e51ba4b8be3f5b6537a9cc759af01d6fd24b15a732587": "read",
+  "a7967fc4189184775ce8b534679d6f9d43447cb2008d7d492eefb531a2a7512e": "write",
+  "5b45d8052d85be4234f642aae3ced340bccda9a4f87dab6a9f71f1167aaba776": "read",
+  "c8aa4fc52215ca8275d3acf945bc92ec4fbec145b3571575e7108f92ecaf9e83": "read"
+ },
+ "flags": []
+}

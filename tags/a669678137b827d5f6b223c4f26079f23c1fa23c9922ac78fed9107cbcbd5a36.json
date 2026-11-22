@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a669678137b827d5f6b223c4f26079f23c1fa23c9922ac78fed9107cbcbd5a36",
+ "domain": [
+  "travel/esim",
+  "telecom"
+ ],
+ "product": [
+  "roam2go"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Searches Roam2Go travel eSIM data plans by destination with prices, validity and purchase links.",
+ "whenToUse": "Use when a traveller needs a mobile data eSIM for a destination.",
+ "tasks": [
+  "search plans by destination",
+  "filter by data and days",
+  "get plan details and links",
+  "list destinations"
+ ],
+ "effects": {
+  "231b75548e698b8dc7c0bb81797df7290f55886142810ece32be0f07413bfb8a": "write",
+  "38073ddd0f1f3c85fd5da466fa2c44557a834f75820eb4ddc794b16c6a52ce4a": "read",
+  "4a582e227c04e7ae3f2acd767e64060721e1a3de877a2b5a795e4863eee3a6f9": "read"
+ },
+ "flags": []
+}

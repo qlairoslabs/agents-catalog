@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "d6fcb384298970b6c453ddd1e5f3da94d4d16f98bb209086f21702f40d069521",
+ "domain": [
+  "software/status-pages",
+  "operations/incident-management",
+  "operations/monitoring"
+ ],
+ "product": [
+  "instatus"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "be-online",
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Instatus status pages, incidents, monitors, uptime, maintenance windows and on-call.",
+ "whenToUse": "Use when reporting incidents, scheduling maintenance or checking uptime on Instatus.",
+ "tasks": [
+  "manage status pages",
+  "report incidents",
+  "manage monitors",
+  "check uptime",
+  "schedule maintenance",
+  "manage on-call"
+ ],
+ "effects": {},
+ "flags": []
+}

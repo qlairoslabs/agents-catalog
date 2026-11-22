@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "2c296a45e51e8b43451e933c82c3e76a053ee8c8f9023d39a8340ba9dc90d4f5",
+ "domain": [
+  "travel/airlines/seating"
+ ],
+ "product": [
+  "rowhint"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Scores airline seats from 1 to 10 with notes for over 61 cabin layouts on 10 US airlines.",
+ "whenToUse": "Use when choosing a seat on a US airline flight and wanting quality ratings.",
+ "tasks": [
+  "get seat quality scores",
+  "read seat notes",
+  "look up aircraft configurations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "92314a6bba8f8281b90e56b324e7b9409e75d03706d70b027b703ab519f94a1a",
+ "domain": [
+  "product/ux-review",
+  "marketing/competitive-analysis"
+ ],
+ "product": [
+  "coexploro"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Reads product teardown scorecards with overall, UX and persona scores and top findings for sample and corpus websites.",
+ "whenToUse": "Use when you want UX or product critique scores and findings for a known website.",
+ "tasks": [
+  "list sample teardowns",
+  "get full teardown",
+  "get shared teardown",
+  "list corpus teardowns",
+  "get corpus scorecard"
+ ],
+ "effects": {
+  "f7d8b74b756955f4b9678256fc80dd595e700cb6719aeb8781b77b50a7e7ad03": "read",
+  "6d16a4bf316e8375d8ed21986834386e3fd376ce120907cb534cb7ed78167cdb": "read",
+  "b60efbe6792fe231811c6e5b81ecb491a28c576d0fab28730fd53eef4b787d9b": "write",
+  "264dbcb54786b72d50c6128d1ad26d1165116c0fd9035b73f679616d210c7e4d": "read",
+  "0422d28099165e975dc00079d0aabbba3a566da242573cad2b29140932b796b2": "read"
+ },
+ "flags": []
+}

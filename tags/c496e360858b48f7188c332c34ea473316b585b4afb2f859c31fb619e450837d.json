@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c496e360858b48f7188c332c34ea473316b585b4afb2f859c31fb619e450837d",
+ "domain": [
+  "finance/billing/subscriptions",
+  "finance/invoicing"
+ ],
+ "product": [
+  "subscriptionflow"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Reads and updates SubscriptionFlow customers, invoices, subscriptions and billing reports.",
+ "whenToUse": "Use when an agent needs to view or change subscription billing data in SubscriptionFlow.",
+ "tasks": [
+  "manage customers",
+  "view invoices",
+  "update subscriptions",
+  "run billing reports"
+ ],
+ "effects": {},
+ "flags": []
+}

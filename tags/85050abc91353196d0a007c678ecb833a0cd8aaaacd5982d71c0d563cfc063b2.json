@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "85050abc91353196d0a007c678ecb833a0cd8aaaacd5982d71c0d563cfc063b2",
+ "domain": [
+  "productivity/databases"
+ ],
+ "product": [
+  "airtable"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Gives users a clickable link to the most specific Airtable record, table, base or page an agent touched, using only returned IDs.",
+ "whenToUse": "Use after an agent creates, updates, lists or searches Airtable content and should hand the user a link to it.",
+ "tasks": [
+  "build airtable record links",
+  "build table and base links",
+  "build interface page links",
+  "format markdown links"
+ ],
+ "effects": {},
+ "flags": []
+}

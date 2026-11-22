@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "955c826bff50d889723d387ab49b689e893c0fd3683c85cd417a510c23a953da",
+ "domain": [
+  "software/naming",
+  "software/database-design"
+ ],
+ "product": [
+  "var-gg"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Multilingual dictionary suggesting code identifier names from concepts, plus read access to ERD diagrams, tables and changes.",
+ "whenToUse": "Use when naming variables, fields or types from a concept, or inspecting a project's ERD schema.",
+ "tasks": [
+  "suggest identifier names",
+  "search naming terms",
+  "list ERD diagrams",
+  "get ERD schema",
+  "get table",
+  "search tables",
+  "list schema changes"
+ ],
+ "effects": {
+  "fa72e59c0db8f6d75eabb84a55271b8ebfd1753635bfa71e475b75c413827c1e": "read",
+  "8ef52216ca5fc94430b7dd77136ce57f3dfbfe0b5503d293726964e27c6271f0": "read",
+  "1f9c2a1562dd131299cbc29f6ce7192631ca17597ca94265006f77f7b9d5f932": "read",
+  "da073ef85eb69460165e12906e46280ad760b9f12d9f68e640be43b5b6e44e00": "read",
+  "309e6407b953dabc593bec673ecd2e7d4b3302d74911cb5fd7c3249b0e7c3926": "read",
+  "f71618efaf51168122793addb77dd5cc2a75ba5dbf1dda2f5c0781223ec5ed97": "read",
+  "1577128caa3a24f716f92671a78d5f11fb44bfb49a636fbf95e744248dbfb390": "read"
+ },
+ "flags": []
+}

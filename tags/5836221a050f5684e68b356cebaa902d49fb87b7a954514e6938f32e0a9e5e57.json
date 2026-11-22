@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "5836221a050f5684e68b356cebaa902d49fb87b7a954514e6938f32e0a9e5e57",
+ "domain": [
+  "design/diagrams",
+  "productivity"
+ ],
+ "product": [
+  "excalidraw"
+ ],
+ "audience": [
+  "design",
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Renders hand-drawn style Excalidraw diagrams in chat with animation, saves checkpoints and exports to a shareable excalidraw.com link.",
+ "whenToUse": "Use when a user wants a sketch or diagram drawn, edited or shared as an Excalidraw link.",
+ "tasks": [
+  "read element format",
+  "create diagram",
+  "export shareable link",
+  "save checkpoint",
+  "read checkpoint"
+ ],
+ "effects": {
+  "bfb61f6eb7aa7987f461788bd4dc6a090a62ee6b870493e4072ad06f6979a1b6": "read",
+  "cafc613acd3ac823000c4dd0182158a07745ac84a93641c421da0de62b5754a2": "write",
+  "2994ee29a0e7cc6b249b594572a303ac6704f97839f36deccf17194e23cba9ad": "write",
+  "f16a6816fb74c053d3e937987c9f267097ceb3f180ce8cc015f299249fd2988a": "write",
+  "9ebdbb61c0a02a954e1e2112e06d7ef6c11d12122fc1159c76f8a2b55ce6b286": "read"
+ },
+ "flags": []
+}

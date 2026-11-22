@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "f287427b711996af0fc80dd6104d16bf4780d51d201af64add181700b5819ba9",
+ "domain": [
+  "telecom/virtual-numbers",
+  "telecom/voip"
+ ],
+ "product": [
+  "sendmycall"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "be-online",
+  "support-customers"
+ ],
+ "summary": "SendMyCall public data: virtual number coverage and pricing by country and area, calling and forwarding rates, and help articles.",
+ "whenToUse": "Use when checking where virtual phone numbers are available, what they cost, or how SendMyCall features work.",
+ "tasks": [
+  "list countries",
+  "search number areas",
+  "get area pricing",
+  "get calling rate",
+  "get forwarding rate",
+  "read support articles"
+ ],
+ "effects": {
+  "a03bbad0749549ef1c7da50ca7367c6abdfc7243367a0ecc7d3bba07f7c2e102": "read",
+  "cf1fb1ddc4454343bb32b27f6971a7ac4ec475f6a5078ed4aae4ba6ced7762bd": "read",
+  "d0dd88c5e83f0b1d606e3e6ba4ff3a38f552c9c855dac1d360afc9ff42df6222": "read",
+  "97e9f4deff56b1e236e6eb6bf087aa5fecccfd6a822a7cc7e484c99fb68bc06c": "read",
+  "645b0c78400938e18ea2df2a4c1d7c4bb54601bb129cf8904196952004f805c6": "read",
+  "011528bf2ed1fafe4e7049725c08666fdbab3026180b5fe3b86cfd5e550a021a": "read"
+ },
+ "flags": []
+}

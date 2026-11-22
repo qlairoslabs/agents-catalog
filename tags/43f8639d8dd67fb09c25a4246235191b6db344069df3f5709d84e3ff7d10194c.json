@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "43f8639d8dd67fb09c25a4246235191b6db344069df3f5709d84e3ff7d10194c",
+ "domain": [
+  "finance/crypto/trading"
+ ],
+ "product": [
+  "solana",
+  "pumpview"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Solana token swaps signed locally with confirmed receipts, plus trading volume and filtered live trade data.",
+ "whenToUse": "Use when a user wants to trade Solana tokens or watch live Solana trading activity and volume.",
+ "tasks": [
+  "execute solana swaps",
+  "sign transactions locally",
+  "get confirmed receipts",
+  "view trading volume",
+  "stream filtered live trades"
+ ],
+ "effects": {},
+ "flags": []
+}

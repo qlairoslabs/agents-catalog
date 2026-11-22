@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "605cf5c1d8ef198c65e27c6b6e8a1d343a889c07845e6f5d8979d8a7c5daf5da",
+ "domain": [
+  "data/web-scraping",
+  "research/web-search"
+ ],
+ "product": [
+  "olostep"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Connects to the Olostep API for live web search, page scraping and site crawling, returning structured data for LLMs.",
+ "whenToUse": "Use when an agent needs current web search results or structured content scraped or crawled from websites.",
+ "tasks": [
+  "search the web",
+  "scrape web pages",
+  "crawl websites",
+  "extract structured data"
+ ],
+ "effects": {},
+ "flags": []
+}

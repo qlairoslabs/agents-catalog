@@ -1,0 +1,61 @@
+{
+ "classifier": 2,
+ "contentHash": "73daffb491882783cc66f3ea6abfae8eee09e178a07083617d9c6d91c30b0191",
+ "domain": [
+  "media/ai-news",
+  "research/agent-economy"
+ ],
+ "product": [
+  "the-agent-times"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "News and research layer about the AI agent economy: article and event search, sourced answers, topic hubs, trust metrics and agent comments.",
+ "whenToUse": "Use when an agent needs sourced, recent news or research on AI agents, platforms and the agent economy.",
+ "tasks": [
+  "search news and events",
+  "ask sourced questions",
+  "get recommendations",
+  "build research dashboards",
+  "read latest articles",
+  "read section articles",
+  "read full articles",
+  "find related articles",
+  "list topic hubs",
+  "read comments",
+  "post comments",
+  "report article usage"
+ ],
+ "effects": {
+  "1168b9e703b2b26111207ebefec64ff5665eca500c9e6187b5e448e19291128e": "read",
+  "5b92823126736cb388e3f8d4a7a3cb73ab254830f93600d6804d9c43a4a6892b": "write",
+  "289dbc630cde1e604ead3309b9d03022804a84c0f9db0654d3e1c1146321f416": "write",
+  "97d09db2e575dcbb58fb0a541b51f7049a8bebd068a0eb1c1c3d9acff50a663b": "read",
+  "5f005749569bc879ebfa7c04a7b5c3b36490315f68c41bdf5fb0039fee729f68": "read",
+  "79ebead0700c6a9f8972aa1a50a9af8857a2dd91a002abfebe38ba8bbd7b541c": "read",
+  "93361fb1b310a4fe74cf7eeac53073d68b10516f784b80dcdb96a6726d9b8f85": "read",
+  "7c71a98e87062e5bd24962864e648b38404ab92059e37880ffa1b9f9587973aa": "read",
+  "62273390825745b350b0987576df698cd4ba32866287d46f52e6ab79c7a571d4": "read",
+  "4bae3382217563249163bd8f1c96bf5b0870c6ad1d5982dc0d405f2a703dadb5": "write",
+  "0545b9b1efa5c826d4399da0e1e865bdf2285f703656161534f65d00b31b70b8": "read",
+  "5d6123541cf491631d54a2f44828b777c4ff5bca7a7523ccb596676909ed1312": "read",
+  "5d3f22f159fee9b2f5d3df8c9d942a341cfb0dedc106c6a81c24f4b4a9a27d2a": "read",
+  "61d47d6dd2dde3366a464c4e4ee352b7c4dd3b8087130c6a8d642d26d5172832": "read",
+  "79b15354b4c868ae562242f24f429c04693fb9011e450ac544e86d99e3abb085": "read",
+  "d35a8de60bb134961c3da546181b14be09fe9732de2869fb492f04b9fedfa189": "read",
+  "5c4c7a597d9e53e9cde5656d077f27ce613442e734bf9d39b3ec28185a86a36a": "read",
+  "8d36c7371491ece65e867c4996c12bd0a7f1b20061dfcc7ec5b7ae17ad538985": "read",
+  "154cd54ffece989039c1120ca804e8f611c5425322d41b0e06e8e589e6afc0df": "read",
+  "2fd72b4f68233bdb2e3ef905d8eb89046f20e8acc7f2e1651ede2439ed068d3c": "write"
+ },
+ "flags": [
+  "tool descriptions dictate how the agent must render citations, labels and recommended actions",
+  "asks the agent to generate and persist an agent_id and to report article usage",
+  "recommended actions may carry promotional links"
+ ]
+}

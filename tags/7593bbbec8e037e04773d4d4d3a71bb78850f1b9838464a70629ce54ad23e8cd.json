@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7593bbbec8e037e04773d4d4d3a71bb78850f1b9838464a70629ce54ad23e8cd",
+ "domain": [
+  "business/account-management",
+  "web/hosting"
+ ],
+ "product": [
+  "atalay"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "run-the-money"
+ ],
+ "summary": "Accesses a customer's Atalay business data including sites, domains, mail, invoices, shop and project requests.",
+ "whenToUse": "Use when an Atalay customer wants to review their sites, domains, mail, invoices or service requests.",
+ "tasks": [
+  "view sites",
+  "manage domains",
+  "view mail accounts",
+  "view invoices",
+  "manage shop",
+  "submit project requests"
+ ],
+ "effects": {},
+ "flags": []
+}

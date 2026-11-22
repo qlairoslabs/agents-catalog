@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d7012256b6d945a89a5d31a55b5a6b1cd25890406c0faa0568aa92115a002f71",
+ "domain": [
+  "design/mockups",
+  "media/content-creation"
+ ],
+ "product": [
+  "mimicly",
+  "whatsapp",
+  "imessage",
+  "telegram",
+  "discord",
+  "chatgpt"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates fictional chat mockups in messaging and AI-chat templates, returning a watermarked preview and an editor link.",
+ "whenToUse": "Use when a user wants a fictional chat screenshot for a story, video, lesson or demo.",
+ "tasks": [
+  "list chat templates",
+  "create chat mockup",
+  "generate preview image",
+  "get editor link"
+ ],
+ "effects": {
+  "1b1c01b54fd9964eeac3e5576deae2bbe892cc108214a59f996016a5ab3c35a2": "read",
+  "a967d7e89854ab9f22fd587d7646b56542e187c9efdcc01a82f96e03f76e534e": "write"
+ },
+ "flags": []
+}

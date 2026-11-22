@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "87f0a9da7a16650aad01b8e40ae244858d54a83f57a2a85e9a68c086e8d6c231",
+ "domain": [
+  "hospitality/restaurant-operations",
+  "commerce/online-ordering"
+ ],
+ "product": [
+  "deliverect"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Answers questions about a restaurant's sales, orders, menus and opening hours from live Deliverect data.",
+ "whenToUse": "Use when a restaurant operator asks about their Deliverect orders, sales figures, menus or hours.",
+ "tasks": [
+  "report restaurant sales",
+  "look up orders",
+  "view menus",
+  "check opening hours"
+ ],
+ "effects": {},
+ "flags": []
+}

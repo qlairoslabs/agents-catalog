@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f671bf688949226a75824e087f14be73dc7e8712cd380d84f7aa8d5720b8bd36",
+ "domain": [
+  "food/supply-chain",
+  "business/company-information"
+ ],
+ "product": [
+  "shifuyuan"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Read-only access to Hainan Shifuyuan frozen hotpot supply-chain website data: search, profile, products, cases, FAQ and jobs.",
+ "whenToUse": "Use when a user asks about Shifuyuan's company, hotpot ingredient products, cases or job openings.",
+ "tasks": [
+  "search website",
+  "get company profile",
+  "list products",
+  "view success cases",
+  "read faq",
+  "view job openings"
+ ],
+ "effects": {},
+ "flags": []
+}

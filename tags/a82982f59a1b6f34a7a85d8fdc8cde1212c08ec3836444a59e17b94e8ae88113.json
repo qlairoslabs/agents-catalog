@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a82982f59a1b6f34a7a85d8fdc8cde1212c08ec3836444a59e17b94e8ae88113",
+ "domain": [
+  "ecommerce/ai-sales-assistant",
+  "support/analytics"
+ ],
+ "product": [
+  "shopify",
+  "rep-ai"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers",
+  "sell"
+ ],
+ "summary": "Answers questions about a Shopify store's AI sales and support agent: revenue, shopper issues and answer fixes.",
+ "whenToUse": "Use when a Shopify merchant asks how their REP AI assistant is performing or what shoppers struggle with.",
+ "tasks": [
+  "report ai-driven revenue",
+  "surface shopper problems",
+  "review assistant answers",
+  "fix answers"
+ ],
+ "effects": {},
+ "flags": []
+}

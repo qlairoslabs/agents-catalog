@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "c0dd59f92b4cfd59de510445126fa1e609efe5c04ce82798f0e42c364d0fa196",
+ "domain": [
+  "software/cybersecurity",
+  "it/email-security"
+ ],
+ "product": [
+  "secureit",
+  "have-i-been-pwned",
+  "bsi",
+  "cisa"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Free German-language security checks: email DNS protection, mail and link analysis, website headers, password leak hashes, lookalike domains, and consented spoofing or phishing self-tests.",
+ "whenToUse": "Use when a small business or user wants to check domain email protection, a suspicious mail or link, website hardening, or run a consented phishing or spoofing test.",
+ "tasks": [
+  "check SPF DKIM DMARC",
+  "test mail authentication",
+  "assess suspicious mail",
+  "follow link redirects",
+  "grade website security",
+  "check password leak hash",
+  "find lookalike domains",
+  "request spoofing test",
+  "request phishing self-test",
+  "get security situation report",
+  "verify certificate",
+  "search knowledge articles"
+ ],
+ "effects": {
+  "21e3247a98a6c253a9c7ca7d1742f709c061c20eb2b1009e83b13fc0f71c9c25": "read",
+  "417ccb8e6e91868ecea5941e755277570f1bb63678de98ff4e2b31bfc7a1fdc3": "write",
+  "4bc75a82978a45e6fa2129a490da9bbb05933d8a43e614f436d76b5d3386a62b": "read",
+  "18108365b8491d902fd3aa7105b33dc9c61ccd800f740f60247e54f52527b36e": "write",
+  "7c9d194a2c7910d3f8d0cd94e5ecfa75ed4b1879da38d310fbd0f9efc121e9db": "read",
+  "9401174219654ae4d7593d4fc227f46b2348f0b928a95f2fc9f28cef9c27afa8": "write",
+  "75d04e823f6f88357cb3c8e277c5e2a8583b43f2602ce9fed59835b446954b4b": "read",
+  "292f68e37bbdf09a4187a5ba442aaef961f325fe98b1832ec79cdd26d9f1ef0c": "read",
+  "ddbc9642540d3dc52718094e3e74b17566f26ef5fd544a6c8044640bbf7814b9": "read",
+  "a2fa0992d332bf7633d8f8ede55bc14eaccd783e703cb0682a9ee9c7fb36fdfc": "read",
+  "3897411ed3456c666f77b30c91f322631c544307c10e3a864ec971841371a1d2": "read",
+  "8343e2629aaaf6e2bae84f9103ab4664ecbbaa3b913651ec62e17e64120ee79f": "read",
+  "2d2749f3a889ed8d0110e31cc9962d470e28b111d5b424b7b9b2ed8bc5501fdc": "read",
+  "a7daeb5b454e29f961013085d4c75ac1de49659c4b083870c1cf8b2a025b01bb": "read",
+  "2c0afc592d9432b5fff4c472ea9bde0b2fe52e53802df53d294b7965a3739681": "read",
+  "45a5dea730a55c5cd6531e5b913b59bfa221939f403c1ec446feff19992d39cd": "read",
+  "18f8997effb706a9209fe305a574a91c83ac377607f33c54761d5c6eec4843db": "read"
+ },
+ "flags": [
+  "spoofing and phishing test tools can send simulated spoofed or phishing mail, gated by recipient confirmation click"
+ ]
+}

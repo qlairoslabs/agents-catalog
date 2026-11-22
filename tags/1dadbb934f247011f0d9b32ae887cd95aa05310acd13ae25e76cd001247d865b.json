@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "1dadbb934f247011f0d9b32ae887cd95aa05310acd13ae25e76cd001247d865b",
+ "domain": [
+  "communication/fax"
+ ],
+ "product": [
+  "promptfax"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Sends single paid faxes from an AI chat, charged per delivered fax.",
+ "whenToUse": "Use when the user needs to send a document by fax.",
+ "tasks": [
+  "send fax",
+  "pay per fax"
+ ],
+ "effects": {},
+ "flags": []
+}

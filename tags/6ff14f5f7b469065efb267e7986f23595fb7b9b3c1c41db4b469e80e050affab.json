@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "6ff14f5f7b469065efb267e7986f23595fb7b9b3c1c41db4b469e80e050affab",
+ "domain": [
+  "software/cybersecurity/osint"
+ ],
+ "product": [
+  "indicia"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs OSINT queries and investigations through the Indicia service.",
+ "whenToUse": "Use when performing authorized open-source intelligence research or investigations.",
+ "tasks": [
+  "run osint queries",
+  "conduct investigations"
+ ],
+ "effects": {},
+ "flags": []
+}

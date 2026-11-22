@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1ee69e0065dee85ea8a71d94a32af886da78617ac91d35e0731be455e581c569",
+ "domain": [
+  "data/web-scraping",
+  "data/search"
+ ],
+ "product": [
+  "geonode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets agents extract web page content, crawl sites, discover URLs and run web searches.",
+ "whenToUse": "Use when an agent needs to fetch, crawl or search live web content.",
+ "tasks": [
+  "extract web pages",
+  "crawl websites",
+  "discover urls",
+  "search the web"
+ ],
+ "effects": {},
+ "flags": []
+}

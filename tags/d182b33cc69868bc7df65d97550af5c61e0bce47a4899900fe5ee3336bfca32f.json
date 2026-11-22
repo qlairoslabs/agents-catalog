@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d182b33cc69868bc7df65d97550af5c61e0bce47a4899900fe5ee3336bfca32f",
+ "domain": [
+  "commerce/product-data",
+  "commerce/catalog-management"
+ ],
+ "product": [
+  "icecat"
+ ],
+ "audience": [
+  "operations",
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up product specifications and technical details from the Icecat product content database.",
+ "whenToUse": "Use when you need standardized specs or technical details for a manufactured product, e.g. to fill an e-commerce listing.",
+ "tasks": [
+  "retrieve product specifications",
+  "look up technical product details"
+ ],
+ "effects": {},
+ "flags": []
+}

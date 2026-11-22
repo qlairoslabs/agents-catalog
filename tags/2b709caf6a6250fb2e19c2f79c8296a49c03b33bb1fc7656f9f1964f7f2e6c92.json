@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2b709caf6a6250fb2e19c2f79c8296a49c03b33bb1fc7656f9f1964f7f2e6c92",
+ "domain": [
+  "commerce/price-data/video-games",
+  "commerce/market-data"
+ ],
+ "product": [
+  "ndex"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Read-only Swiss market prices for video games and consoles, with source provenance.",
+ "whenToUse": "Use when a user wants current Swiss market values for video games or consoles.",
+ "tasks": [
+  "look up game prices",
+  "look up console prices",
+  "show price provenance"
+ ],
+ "effects": {},
+ "flags": []
+}

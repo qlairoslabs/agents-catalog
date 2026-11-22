@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f799d6ac3a81fcae2cb1ee836cfbcda38af3dcafa428a3ff8c261fa402f6520b",
+ "domain": [
+  "sales/lead-generation",
+  "commerce/ecommerce-intelligence"
+ ],
+ "product": [
+  "storeinspect",
+  "shopify"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches Shopify stores, enriches domains and returns approved contact channels for prospecting.",
+ "whenToUse": "Use when an agent needs to find Shopify merchants and their contact details for outreach.",
+ "tasks": [
+  "search shopify stores",
+  "enrich domains",
+  "find contact channels"
+ ],
+ "effects": {},
+ "flags": []
+}

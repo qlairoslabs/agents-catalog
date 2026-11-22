@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "79d6b5581fef1fabc1a4c634da50c0ddd93ba1382c9749542483858fab44b248",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "software/ai-agents"
+ ],
+ "product": [
+  "mcp",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reports what published MCP servers do based on source-code reading, such as credential access, network egress and install-time execution.",
+ "whenToUse": "Use when evaluating whether a specific MCP server version is safe to install or connect to.",
+ "tasks": [
+  "inspect an mcp server's source behavior",
+  "report credential access and network egress",
+  "detect install-time code execution",
+  "show corpus-wide finding statistics"
+ ],
+ "effects": {
+  "6679bd9ec10726155aaa86a0e08fced5935a1e8f0dcde611e6a267ca8cc4bf79": "write",
+  "e00ea22e6946523e37799e643bec712ee1b10b6f4f82409a3a1849597484e345": "read"
+ },
+ "flags": [
+  "tool description tells agents to call it before connecting to, installing or invoking any mcp server",
+  "claims to be free but mentions x402 usdc payment when charged"
+ ]
+}

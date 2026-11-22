@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4090835b24fd11fe4477dd03d260c0fbd5acf3cf26ff0f40d6f80912a464838e",
+ "domain": [
+  "data/web-scraping",
+  "data/extraction"
+ ],
+ "product": [
+  "octoparse"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to Octoparse to find scraping templates, run cloud extraction tasks and export the structured data they collect.",
+ "whenToUse": "Use when an agent needs to scrape websites through Octoparse templates or cloud tasks and retrieve the results.",
+ "tasks": [
+  "discover scraping templates",
+  "run cloud scraping tasks",
+  "export structured data"
+ ],
+ "effects": {},
+ "flags": []
+}

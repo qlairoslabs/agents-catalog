@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1e70858623b84c0f2e5701e6bcf4d79150a6aca75cf004ce6f47662c7699e1fe",
+ "domain": [
+  "events/discovery"
+ ],
+ "product": [
+  "eventmatey"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Searches public UK events on EventMatey that organisers have enabled for AI discovery, with booking links.",
+ "whenToUse": "Use when a user wants to find UK events by keyword, place, date or price.",
+ "tasks": [
+  "search events by keyword",
+  "search events by location",
+  "get event details"
+ ],
+ "effects": {
+  "7fed30c6efd27a94f94ad35761b21119270830a2a2dd28053550326e92f1d174": "write",
+  "8887484f122495f3895d6f11673e00e8092520b86c9aaed42c1ccc827038e55e": "write",
+  "a71f21bfd908d489a1b8ec3b7a415c7ee8c44a34450269c16caadee64770017b": "write"
+ },
+ "flags": []
+}

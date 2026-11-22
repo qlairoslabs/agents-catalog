@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a0b60de33e93910dadcff4e91de02f8b4fbb130d4e5862aedf8aece2e1e426a5",
+ "domain": [
+  "research/systematic-reviews",
+  "science/academic-writing"
+ ],
+ "product": [
+  "autosearch"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Runs PRISMA 2020 systematic literature reviews with verified citations and produces IMRAD-format papers.",
+ "whenToUse": "Use when a user needs a structured systematic review or literature search with verified references.",
+ "tasks": [
+  "run systematic review",
+  "verify citations",
+  "draft imrad paper"
+ ],
+ "effects": {},
+ "flags": []
+}

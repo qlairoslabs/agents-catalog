@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "7274a31cba642be1d0c4eb4a9d9076c42b3230a34f6803dddd115861fa23b5eb",
+ "domain": [
+  "finance/investing",
+  "finance/halal-screening"
+ ],
+ "product": [
+  "sec-edgar",
+  "aaoifi",
+  "msci",
+  "ftse",
+  "sp"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Screens US-listed stocks and ETFs for Sharia compliance across five methodologies, with scores, purification percentage and SEC filing citations.",
+ "whenToUse": "Use when a user asks whether a US stock or ETF is halal or what its purification percentage is.",
+ "tasks": [
+  "screen ticker for halal compliance",
+  "compare five methodologies",
+  "get purification percentage",
+  "cite SEC filings",
+  "explain methodology",
+  "create API key"
+ ],
+ "effects": {
+  "a3c1cc5e1b2c5440ac01078fb0d5f8586d95411b48d3389646c49b94e3070d3e": "read",
+  "1e42a15f0597df411eb9f4fd266f59119f7aee3ea16f669b92dad54b548d3a71": "write",
+  "7ab8e3366b90e0b5523a408def8a4deee24db296a852e676f5991225e252f8e2": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "f31a793286eed712c925cc31f451fd72142c3cfc884796a9cbbf7dc961d1bc6b",
+ "domain": [
+  "ai/policy",
+  "legal/regulation"
+ ],
+ "product": [
+  "anthropic",
+  "openai",
+  "google",
+  "meta",
+  "xai"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks frontier AI vendor commercial commitments, safety framework versions, AI regulatory provisions and strategic partnership patterns.",
+ "whenToUse": "Use when comparing AI vendor terms, safety frameworks, AI regulation or partnership structures.",
+ "tasks": [
+  "get vendor commitments",
+  "get safety framework history",
+  "search regulatory corpus",
+  "get partnership pattern",
+  "list partnerships by pattern"
+ ],
+ "effects": {
+  "4958d62067ba8ff83b42b7f5cf24c4156b6868d35fdd3e5c6791d86ef5bb4915": "read",
+  "62077d32084a06df7f9c9ca7b81f44fd6e111fca6c0ff38421a7cad634c0adec": "read",
+  "166995a71b9b13f866d2ee5da9a0aa82a0a00012e3a43e371a4a40294da8ed66": "read",
+  "0654090dd2b767555dd976ca52f0286ab24649e1f8e5502e1695be7e5e4c0ed1": "read",
+  "b9d5afc09fabe0d4f7116c15e0671f4c7cc65596d2ac2a012e66f91ef46b91af": "read"
+ },
+ "flags": []
+}

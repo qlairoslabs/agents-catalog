@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "95f4f505fcc74821f08061934ec3df5151967371d181deaa5718e4c3b5808248",
+ "domain": [
+  "travel/food-and-drink/restaurants"
+ ],
+ "product": [
+  "dim-hour"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a catalogue of verified restaurants and bars across 24 cities, each with a quality score.",
+ "whenToUse": "Use when recommending places to eat or drink in a supported city.",
+ "tasks": [
+  "search restaurants",
+  "search bars",
+  "view quality scores"
+ ],
+ "effects": {},
+ "flags": []
+}

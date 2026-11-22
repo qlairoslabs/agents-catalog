@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "76c390ef7d167253fb16b0f326eb7de09f0bcef0608e0dbc2c0b546d1c94949f",
+ "domain": [
+  "business/customer-context",
+  "operations"
+ ],
+ "product": [
+  "pathbound"
+ ],
+ "audience": [
+  "support",
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Provides AI agents with a customer-context and operations layer.",
+ "whenToUse": "Use when an agent needs customer context or operational data before acting on customer-related work.",
+ "tasks": [
+  "look up customer context",
+  "support operational workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

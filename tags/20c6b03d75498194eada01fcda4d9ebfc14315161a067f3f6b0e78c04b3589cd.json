@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "20c6b03d75498194eada01fcda4d9ebfc14315161a067f3f6b0e78c04b3589cd",
+ "domain": [
+  "media/radio",
+  "entertainment"
+ ],
+ "product": [
+  "bizzy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Read-only lookup of Bizzy radio stations, station pages and public author contact information.",
+ "whenToUse": "Use when a user wants to find a Bizzy radio station or learn who runs Bizzy.",
+ "tasks": [
+  "search stations by name or location",
+  "get station details",
+  "read author info"
+ ],
+ "effects": {
+  "e24df27c6f6e3c8a02338fac48ffca3eccbc068ae6494d816ff0dabf844abc8e": "read",
+  "6e5155640caa1e5d0ada06c5e9528c61998badc29b2c5929defcae9d8f5d95be": "read",
+  "88fa833e770176d0b303708ec05b0242721d966bb76339dbaadfa78278810d69": "read"
+ },
+ "flags": []
+}

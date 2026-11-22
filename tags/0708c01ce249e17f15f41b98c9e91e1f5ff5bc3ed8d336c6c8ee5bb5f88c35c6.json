@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0708c01ce249e17f15f41b98c9e91e1f5ff5bc3ed8d336c6c8ee5bb5f88c35c6",
+ "domain": [
+  "commerce/product-search",
+  "shopping/price-comparison"
+ ],
+ "product": [
+  "buscazap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches products across more than 180 Brazilian online stores and returns purchase links.",
+ "whenToUse": "Use when a user in Brazil wants to find a product to buy and needs store links.",
+ "tasks": [
+  "search products in brazilian stores",
+  "return purchase links"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "53f8103ed0ed7fd861685a0db3112b061b4cdd2e34c4c9c0fc9b7327b5b0494d",
+ "domain": [
+  "software/embedded",
+  "hardware/firmware"
+ ],
+ "product": [
+  "platformio"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Builds, inspects, flashes and serial-monitors PlatformIO firmware projects, with policies controlling which actions are allowed.",
+ "whenToUse": "Use when an agent works on embedded firmware with PlatformIO and needs to compile, upload or monitor a device.",
+ "tasks": [
+  "build firmware",
+  "inspect project config",
+  "flash device",
+  "monitor serial output",
+  "list boards"
+ ],
+ "effects": {},
+ "flags": []
+}

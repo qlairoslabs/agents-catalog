@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e7519825f804d7b792b91699c2de60837b85a2ebc62fab5d242762cdb960f2d3",
+ "domain": [
+  "software/ai-agents",
+  "cloud/aws"
+ ],
+ "product": [
+  "aws",
+  "amazon-bedrock-agentcore"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for building, deploying and operating AI agents on AWS with Amazon Bedrock AgentCore, including tools, memory, policies and evaluation.",
+ "whenToUse": "Use when creating or running AI agents on AWS Bedrock AgentCore.",
+ "tasks": [
+  "scaffold agents",
+  "connect tools",
+  "configure memory",
+  "set policies",
+  "evaluate agents",
+  "debug agents",
+  "harden for production"
+ ],
+ "effects": {},
+ "flags": []
+}

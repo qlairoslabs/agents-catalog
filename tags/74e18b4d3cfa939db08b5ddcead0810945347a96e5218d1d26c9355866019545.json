@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "74e18b4d3cfa939db08b5ddcead0810945347a96e5218d1d26c9355866019545",
+ "domain": [
+  "software/cybersecurity",
+  "web/seo"
+ ],
+ "product": [
+  "simplyscan",
+  "supabase",
+  "lovable",
+  "bolt",
+  "cursor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Scans deployed web apps and domains for security, SEO and AI-visibility issues, including headers, SSL, email auth and exposed files.",
+ "whenToUse": "Use when auditing a deployed web app or domain you own for security, SEO or AI crawler visibility problems.",
+ "tasks": [
+  "scan website",
+  "scan local code",
+  "grade security headers",
+  "check AI visibility",
+  "audit SEO",
+  "inspect SSL certificate",
+  "check SPF/DKIM/DMARC",
+  "probe exposed files"
+ ],
+ "effects": {
+  "ca4abafa7c4e5bd3ad99c86a49af0887070987f951b0f3c82ea223195c2858c6": "write",
+  "992cbe2c41ac4a57a24de5945186f829fef256a1a22aae2260faa28baccbb898": "write",
+  "489f6b6fdbd08dd681309a9c5d2b72897a3d5d7a7bbb5cacacf9e3f58c544f0a": "read",
+  "27c9ad1e19fa0ffe8fa4e08e173a5219c1c5b62bc4356221383f87714104a8bc": "read",
+  "75cc6d9eecdc31bd25bb4cf93f106700b98561272ceab5169b4e9454e48a971e": "read",
+  "23da931dccc467e97a182ad9a6762f1ffe34cb8eba61f94ec7c8bbd0ab2702b3": "read",
+  "387a1c4a1d0815ae3f2d491190db679e6028f059c54264d3c5fe6a4fb23797ad": "read",
+  "94d8450cf7998c7a781e59f6fd83a8d00e4aed1da3571099ffae2a7ea202a2c6": "read"
+ },
+ "flags": []
+}

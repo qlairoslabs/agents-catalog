@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b70e52ad46e4eeac20b14d65ce09d90e31ce8dc5282239f06e84ed7f032faafa",
+ "domain": [
+  "finance/investing/equity-research"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Equity research data from primary sources including stock scores, screens, filings, insider trades and 13F holdings.",
+ "whenToUse": "Use when an agent needs to research public companies, screen stocks, or check filings, insider trades or institutional holdings.",
+ "tasks": [
+  "score stocks",
+  "screen equities",
+  "read company filings",
+  "track insider trades",
+  "look up 13f holdings"
+ ],
+ "effects": {},
+ "flags": []
+}

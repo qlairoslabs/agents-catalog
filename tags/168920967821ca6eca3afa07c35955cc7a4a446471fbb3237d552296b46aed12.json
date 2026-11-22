@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "168920967821ca6eca3afa07c35955cc7a4a446471fbb3237d552296b46aed12",
+ "domain": [
+  "marketing/intent-data",
+  "marketing/audience-targeting"
+ ],
+ "product": [
+  "delivr"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses person-level intent signals, audiences, website visitors and campaign results from a Delivr account.",
+ "whenToUse": "Use when reviewing buyer intent, identified website visitors or campaign performance in Delivr.",
+ "tasks": [
+  "view intent signals",
+  "manage audiences",
+  "see website visitors",
+  "review campaign results"
+ ],
+ "effects": {},
+ "flags": []
+}

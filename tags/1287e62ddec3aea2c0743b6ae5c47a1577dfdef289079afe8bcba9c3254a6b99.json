@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1287e62ddec3aea2c0743b6ae5c47a1577dfdef289079afe8bcba9c3254a6b99",
+ "domain": [
+  "finance/investing/equity-research"
+ ],
+ "product": [
+  "margin-of-insight"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Paid equity research API for US-listed companies offering primers, fundamentals and investment memos.",
+ "whenToUse": "Use when an agent needs fundamentals or research memos on a US-listed company and paying per request is acceptable.",
+ "tasks": [
+  "get company primer",
+  "get fundamentals",
+  "get investment memo"
+ ],
+ "effects": {},
+ "flags": []
+}

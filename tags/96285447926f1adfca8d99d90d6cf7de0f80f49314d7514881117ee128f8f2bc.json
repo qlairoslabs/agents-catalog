@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "96285447926f1adfca8d99d90d6cf7de0f80f49314d7514881117ee128f8f2bc",
+ "domain": [
+  "software/email-delivery",
+  "software/developer-docs"
+ ],
+ "product": [
+  "sendora"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "keep-in-touch"
+ ],
+ "summary": "Local npm MCP giving coding agents Sendora documentation and API access to send test emails, read logs and configure webhooks.",
+ "whenToUse": "Use when integrating Sendora email sending into an application or debugging email delivery.",
+ "tasks": [
+  "read sendora docs",
+  "send test email",
+  "read email log",
+  "set up webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

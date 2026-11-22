@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "8f1b544d05b2203b8b53531fa9c92ac01f8ce413659c79063485108af7e38ba4",
+ "domain": [
+  "software/observability",
+  "software/incident-response"
+ ],
+ "product": [
+  "dynatrace"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Dynatrace observability skills with DQL queries, monitoring, log analysis and incident workflows via its MCP server.",
+ "whenToUse": "Use when investigating problems, logs or incidents in systems monitored by Dynatrace.",
+ "tasks": [
+  "write dql queries",
+  "monitor applications",
+  "monitor infrastructure",
+  "analyze logs",
+  "investigate problems",
+  "run incident response"
+ ],
+ "effects": {},
+ "flags": []
+}

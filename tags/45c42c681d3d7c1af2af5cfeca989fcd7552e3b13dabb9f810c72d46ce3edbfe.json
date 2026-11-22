@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "45c42c681d3d7c1af2af5cfeca989fcd7552e3b13dabb9f810c72d46ce3edbfe",
+ "domain": [
+  "manufacturing/3d-printing",
+  "operations/device-management"
+ ],
+ "product": [
+  "simplyprint"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Monitor, queue and control 3D printers in a SimplyPrint print farm account.",
+ "whenToUse": "Use when managing print jobs or printer status on SimplyPrint.",
+ "tasks": [
+  "monitor printers",
+  "queue prints",
+  "control prints"
+ ],
+ "effects": {},
+ "flags": []
+}

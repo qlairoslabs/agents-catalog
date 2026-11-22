@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c35b348d17c76265f2c9e775f656adf9b339b027257d7733d0e192b0e5b2fc9b",
+ "domain": [
+  "software/devops/deployment",
+  "software/cloud-hosting"
+ ],
+ "product": [
+  "railway"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Lets agents develop, manage and debug projects, services and deployments on the Railway hosting platform.",
+ "whenToUse": "Use when an agent needs to deploy, inspect or troubleshoot apps and services hosted on Railway.",
+ "tasks": [
+  "manage railway projects",
+  "manage services",
+  "deploy applications",
+  "debug deployments"
+ ],
+ "effects": {},
+ "flags": []
+}

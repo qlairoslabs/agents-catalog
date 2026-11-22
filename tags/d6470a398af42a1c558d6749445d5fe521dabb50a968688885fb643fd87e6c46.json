@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d6470a398af42a1c558d6749445d5fe521dabb50a968688885fb643fd87e6c46",
+ "domain": [
+  "games/browser-games",
+  "software/publishing"
+ ],
+ "product": [
+  "playdrop"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Lets AI agents publish, test and share browser games on the PlayDrop platform.",
+ "whenToUse": "Use when an agent has built a browser game and needs to test, publish or share it on PlayDrop.",
+ "tasks": [
+  "publish browser games",
+  "test games",
+  "share game links"
+ ],
+ "effects": {},
+ "flags": []
+}

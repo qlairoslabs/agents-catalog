@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "8a99aa00833aa18ac84f3b9840fd9b966289ed7ab1435c510a6b860832bc0e25",
+ "domain": [
+  "real-estate/listings",
+  "real-estate/panama-dominican-republic"
+ ],
+ "product": [
+  "epk-properties"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Public property listings and multilingual buying, tax, residency and due diligence guides for Panama and the Dominican Republic.",
+ "whenToUse": "Use when the user is searching for property or needing buying and relocation guidance in Panama or the Dominican Republic.",
+ "tasks": [
+  "search listings and guides",
+  "fetch a document",
+  "filter property listings",
+  "get property details",
+  "search guides",
+  "read guide sections"
+ ],
+ "effects": {
+  "f21a9e2e7d10e10e299ef40725bc93bdbf80ec5486973b9a9234e360d43c6759": "read",
+  "33fcc386dc32c535c1515c8fb9c8fc16a03e895775010177137391949465022d": "read",
+  "9b0d2c7e40ccc42fc6a6593006421b99a7087932808ced16c26f423f10de1b39": "read",
+  "47be188ad1b4231ffa44289d79ee2e95074b6ab87855f77d3da414454924317f": "read",
+  "fbf455a50442bb818adccfbc7e36cfa0f119ec3492dce9f342753f894eb36a6f": "read",
+  "41d1b2f20ff95f1c84b552f407d269efeaf70b8b734631b2a45eb2cf623cfdd0": "read"
+ },
+ "flags": []
+}

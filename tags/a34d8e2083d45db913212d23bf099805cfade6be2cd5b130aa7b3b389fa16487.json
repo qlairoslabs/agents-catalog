@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "a34d8e2083d45db913212d23bf099805cfade6be2cd5b130aa7b3b389fa16487",
+ "domain": [
+  "marketing/ai-visibility",
+  "marketing/seo"
+ ],
+ "product": [
+  "engagemii",
+  "chatgpt",
+  "gemini",
+  "meta-ai",
+  "stripe"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Data on how visible companies are to AI assistants: AEO scores, live audits, AI crawler activity, brand-citation checks and a licensed company dataset.",
+ "whenToUse": "Use when checking a company's AI visibility, seeing which AI engines crawl the web, or pulling company records and prospect lists.",
+ "tasks": [
+  "get AEO score",
+  "run live AEO audit",
+  "get brand profile",
+  "sample dataset",
+  "watch AI citations",
+  "see AI crawler reads",
+  "request fix kit",
+  "connect crawler tracker",
+  "search companies",
+  "pull licensed records",
+  "list data orders"
+ ],
+ "effects": {
+  "00a82378492182d1073d62d8fdeabf32bff1fe63cb97810576290ddf8169f865": "read",
+  "4c9a9a8e7b7b61bf5d01a1f54b25214e7bd30bacdeaf0a995fea60554603be94": "read",
+  "b8089c377de1170e8dd94671cd8232af73ec9fc5b6f83bcbe3158915cc278482": "read",
+  "65182e94a53d86ca1492e4dcf11072a189efd41740e13b9555b105a1444666b8": "read",
+  "de57e6ed62e1761267bd8afddf73a54f5a57a3d95f7f9aa66a8721f00b7d8d4c": "write",
+  "89e2e459ed332e79b1c3a8130985b7d6eba673eaf7a1504adaf683907048d2a0": "read",
+  "26a0e4b8cf0869b1d5a5defc0d56729668049027603691549cb8e9b837859ef6": "write",
+  "821b903dd83d4baa902fd14a5be599fb7d27834d945080eafe38677b5e2066b3": "write",
+  "5e3023b4fe4057f4c4a3b421b3776f6475bbeedd4f007e69038909d36a1de2a8": "read",
+  "06f8f7e48bdb5a63a7b0ec5c732e51ea3b057e2aade3f97c0a536f7d996a5ed7": "write",
+  "ee0ab85ae71f30aebd01c3138db9f65d26a02e3ed9812854b66844f7035ab471": "write",
+  "2e0060729280f6a27dfbc2cdadd6d82d90083dda0a0e278e0c0b7cc41004b3a2": "read",
+  "5a530770fc098c08ad0a1079994d22caabcdeb9fda7b973ed9f6d31928dfd65a": "read"
+ },
+ "flags": []
+}

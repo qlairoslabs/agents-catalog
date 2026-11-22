@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e268b1d4ec0f0ea9a35967e38bf8a4386c710eb5d5f1043faab0cdf83875f145",
+ "domain": [
+  "cloud/deployment",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure-app-service",
+  "flask",
+  "django",
+  "fastapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Guides deploying Python web apps built with Flask, Django or FastAPI to Azure App Service on Linux.",
+ "whenToUse": "Use when a Python Flask, Django or FastAPI app needs to be deployed to Azure App Service Linux.",
+ "tasks": [
+  "deploy flask app to app service",
+  "deploy django app to app service",
+  "deploy fastapi app to app service",
+  "configure python app service linux startup"
+ ],
+ "effects": {},
+ "flags": []
+}

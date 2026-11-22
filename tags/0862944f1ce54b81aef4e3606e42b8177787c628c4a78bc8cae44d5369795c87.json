@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "0862944f1ce54b81aef4e3606e42b8177787c628c4a78bc8cae44d5369795c87",
+ "domain": [
+  "software/data-utilities",
+  "finance/payments"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Pay-per-call utilities (USDC on Base via x402) for JSON validation and canonicalization, CSV conversion, JSON diff/patch, PDF text and tables, and Mexican RFC/CURP/CLABE validation.",
+ "whenToUse": "Use when an agent needs small paid data tasks like JSON canonicalization, CSV-to-JSON, PDF extraction or validating Mexican tax and bank identifiers.",
+ "tasks": [
+  "validate and canonicalize JSON",
+  "convert CSV to JSON",
+  "diff JSON",
+  "patch JSON",
+  "extract PDF text",
+  "extract PDF tables",
+  "validate RFC",
+  "validate CURP",
+  "validate CLABE",
+  "get pricing"
+ ],
+ "effects": {
+  "3453be8c01b7f85d3f124f9d26b0490319a6f11603c147508977ac9ea746be47": "risky",
+  "553dbb9b66f01d3f95cfc584dfebba838c93cccc502f708d1c648ef8a41759a8": "risky",
+  "dedc686f44f2213f4b674d33b81f005fd54a835cfc8edba4d834691335decc11": "risky",
+  "a711518e4bbda25400fe48ffed87e5b545526516f053624fa17396b9df4af2ad": "risky",
+  "b0595b56ba4cdf4a0004893f139d83fb4eee7bed808a52cff834517b43332f04": "risky",
+  "52a06b666f998ae08e8f71e1bb853118a76621922a8c56ac1d64ba0faa1f10f9": "risky",
+  "24a3654a50356a3b2be446b5a4008dc01191dc6bac600249a9c717a598e8b76d": "risky",
+  "07bda48c996adb398abda015120226bd0774119c152b7c9ea73cc20d0e7dbb01": "risky",
+  "5199f7c2726fde6b812997068a250bccab9bdce0a3bb3cd0369723d2a3054bcb": "risky",
+  "748cc64c818c9021bfad74ca25592cd05b7c0233832b97bf9b80fb900cb4dd5b": "read"
+ },
+ "flags": []
+}

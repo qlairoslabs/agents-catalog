@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ecdc1b6727926dac49be6a072e2861e3dcc9f5cdde376e06a8eec08c6b7f7ccf",
+ "domain": [
+  "software/hosting",
+  "software/app-builder"
+ ],
+ "product": [
+  "hatchable"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds, deploys and hosts full-stack web apps with database, auth, storage and cron from an MCP client.",
+ "whenToUse": "Use when an agent needs to create and deploy a hosted web app with backend services.",
+ "tasks": [
+  "build web apps",
+  "deploy apps",
+  "host apps",
+  "provision database",
+  "set up auth",
+  "manage storage",
+  "schedule cron jobs"
+ ],
+ "effects": {},
+ "flags": []
+}

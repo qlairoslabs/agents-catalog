@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "239f5225bd3043f7627c0acd97ece360e4f0595be7f5d8c222c911ce7fd454d8",
+ "domain": [
+  "web/domain-registration",
+  "web/website-hosting"
+ ],
+ "product": [
+  "register-gy"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Checks, registers and manages .gy domains and connects AI-built websites with preview and undo.",
+ "whenToUse": "Use when registering or managing a .gy domain or pointing it to a website.",
+ "tasks": [
+  "check domain availability",
+  "register .gy domain",
+  "manage domain",
+  "connect website",
+  "preview site",
+  "undo changes"
+ ],
+ "effects": {},
+ "flags": []
+}

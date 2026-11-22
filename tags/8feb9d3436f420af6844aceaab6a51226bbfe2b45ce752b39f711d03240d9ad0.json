@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "8feb9d3436f420af6844aceaab6a51226bbfe2b45ce752b39f711d03240d9ad0",
+ "domain": [
+  "software/bug-reporting",
+  "support/screen-recording"
+ ],
+ "product": [
+  "birdie"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "build-software"
+ ],
+ "summary": "Searches Birdie screen recordings including transcripts, console logs, network requests, repro steps and frames.",
+ "whenToUse": "Use when debugging a reported issue and needing details from a Birdie screen recording.",
+ "tasks": [
+  "search recordings",
+  "read transcripts",
+  "view console logs",
+  "view network requests",
+  "get repro steps",
+  "view frames"
+ ],
+ "effects": {},
+ "flags": []
+}

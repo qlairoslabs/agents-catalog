@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "40e8a898e4a825187351f81989f1cfe77452a124f5f7f9e29e820138227f29ae",
+ "domain": [
+  "marketing/qr-codes",
+  "sales/lead-capture"
+ ],
+ "product": [
+  "linkbreakers"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local npm server for Linkbreakers that creates QR codes and links for lead capture and reads scan data.",
+ "whenToUse": "Use when creating trackable QR codes or links and reviewing who scanned them for lead qualification.",
+ "tasks": [
+  "create qr codes",
+  "create links",
+  "read scan data",
+  "qualify leads",
+  "route leads"
+ ],
+ "effects": {},
+ "flags": []
+}

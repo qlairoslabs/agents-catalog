@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "35dbb53f90d912cd867ccd95f77a060fb9678f7aed6a69755332ed8065cbb5d4",
+ "domain": [
+  "finance/trading",
+  "finance/portfolio-analysis"
+ ],
+ "product": [
+  "lona"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tools for developing trading strategies with backtesting, market data access and portfolio analysis.",
+ "whenToUse": "Use when designing or testing trading strategies against market data or analysing a portfolio.",
+ "tasks": [
+  "develop trading strategies",
+  "run backtests",
+  "fetch market data",
+  "analyse portfolios"
+ ],
+ "effects": {},
+ "flags": []
+}

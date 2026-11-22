@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fb101c2d12388eb83edd6fba1a36238d074b4a11a6bcd6ee82f3e4c87e4c6cd7",
+ "domain": [
+  "software/bug-tracking",
+  "software/quality"
+ ],
+ "product": [
+  "mushi-mushi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps improve AI-built apps by surfacing bugs, user journey issues and code cleanup work for agents to fix.",
+ "whenToUse": "Use when an agent maintains an app and needs reported bugs or user-experience issues to fix.",
+ "tasks": [
+  "list bug reports",
+  "inspect user journeys",
+  "suggest fixes",
+  "track code cleanup"
+ ],
+ "effects": {},
+ "flags": []
+}

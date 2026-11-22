@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "91ad5fe7beeb46f8f2e87366c0e79a1d514709d1144b2c7f70ee296413d9e6c6",
+ "domain": [
+  "software/cybersecurity/hardening",
+  "software/ai-agents"
+ ],
+ "product": [
+  "amazon-bedrock-agentcore",
+  "aws-iam"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Prepares AgentCore agents for production with IAM scoping, inbound auth, secrets, rate limits, input validation, session lifecycle and quota guidance.",
+ "whenToUse": "Use when taking an agent to production or locking down who can call it.",
+ "tasks": [
+  "scope iam permissions",
+  "configure inbound jwt or sigv4 auth",
+  "manage secrets",
+  "optimize cold starts",
+  "manage session lifecycle",
+  "set rate limits",
+  "validate input",
+  "review quotas"
+ ],
+ "effects": {},
+ "flags": []
+}

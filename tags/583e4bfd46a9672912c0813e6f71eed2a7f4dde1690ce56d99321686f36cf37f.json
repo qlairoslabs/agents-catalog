@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "583e4bfd46a9672912c0813e6f71eed2a7f4dde1690ce56d99321686f36cf37f",
+ "domain": [
+  "business/project-management",
+  "business/methodology"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Methodology knowledge graph that plans projects by context, evaluates stage-gate decisions against evidence, and checks practice mixes and plans.",
+ "whenToUse": "Use when planning a project route, deciding a gate outcome, or checking whether practices and plan steps fit a context.",
+ "tasks": [
+  "list context options",
+  "plan project route",
+  "check gate",
+  "check practice fit",
+  "check practice mix",
+  "validate plan",
+  "search graph",
+  "explain node"
+ ],
+ "effects": {
+  "e9966a0e735cd35dca09197a62d0c711055b1f33e1b173c5300d51f8350ec720": "read",
+  "e1f25dfa5f6611862987e189613e7c138d054bc5078f6de60249b5a5f577380a": "read",
+  "bc0c8ed0778e9a8e99016b37fd012342e6b67d6a8df641df50b066a78c225405": "write",
+  "d73fb5bd8a8157248c9fa4b75458b412cedd2101dc3f940864c8594a78c34493": "read",
+  "7fccc86bc2d3a09076ce08ff637cfc5938efc3afb849ef1f882d721eba3b9add": "read",
+  "833a844d80e8bc17ea27fb5cd245880e037305fe53ea655c59f27a323c63c988": "write",
+  "c86e48e7d58b474bc82852bb7dbfbe23861578dde5bca4ffce2111e704d89916": "read",
+  "0f6b0c2e1504d2be27b24860c23a21e627184871b8509dae54d978753bf8c3f3": "read"
+ },
+ "flags": []
+}

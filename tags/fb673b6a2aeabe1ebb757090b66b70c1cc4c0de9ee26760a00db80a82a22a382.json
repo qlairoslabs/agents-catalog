@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "fb673b6a2aeabe1ebb757090b66b70c1cc4c0de9ee26760a00db80a82a22a382",
+ "domain": [
+  "business/appointment-booking",
+  "business/crm"
+ ],
+ "product": [
+  "easyweek"
+ ],
+ "audience": [
+  "operations",
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "schedule",
+  "support-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Manages an EasyWeek business account, including bookings, availability, customers, services, orders and messages.",
+ "whenToUse": "Use when handling appointments, availability, customer records or client messages for a business on EasyWeek.",
+ "tasks": [
+  "manage bookings",
+  "check availability",
+  "manage customers",
+  "manage services",
+  "manage orders",
+  "send messages"
+ ],
+ "effects": {},
+ "flags": []
+}

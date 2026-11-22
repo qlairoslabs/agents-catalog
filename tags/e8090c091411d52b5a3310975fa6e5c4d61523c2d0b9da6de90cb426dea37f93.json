@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e8090c091411d52b5a3310975fa6e5c4d61523c2d0b9da6de90cb426dea37f93",
+ "domain": [
+  "software/testing/web",
+  "software/web-development"
+ ],
+ "product": [
+  "playwright"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Uses Playwright to interact with and test local web applications, capture screenshots and read browser logs.",
+ "whenToUse": "Use when verifying or debugging the frontend behavior of a locally running web app.",
+ "tasks": [
+  "test local web apps",
+  "verify frontend functionality",
+  "debug ui behavior",
+  "capture screenshots",
+  "view browser logs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "309f172b4fe587731d80908acd6d0d7b384961d3f92f8463da6f56e4af36f86b",
+ "domain": [
+  "travel/booking-search",
+  "travel/planning"
+ ],
+ "product": [
+  "12306"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Travel tools for China 12306 trains, flights, hotels, geocoding, trip planning and travel policy.",
+ "whenToUse": "Use when planning a trip, especially in China, and needing train, flight, hotel or location info.",
+ "tasks": [
+  "search 12306 trains",
+  "search flights",
+  "search hotels",
+  "geocode places",
+  "plan trips",
+  "check travel policy"
+ ],
+ "effects": {},
+ "flags": []
+}

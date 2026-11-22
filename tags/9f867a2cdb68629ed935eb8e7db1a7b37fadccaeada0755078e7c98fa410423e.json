@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9f867a2cdb68629ed935eb8e7db1a7b37fadccaeada0755078e7c98fa410423e",
+ "domain": [
+  "finance/prediction-markets",
+  "research/probability"
+ ],
+ "product": [
+  "xrp"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Probability research service for AI agents with a single preflight call and XRP-based activation that needs human approval.",
+ "whenToUse": "Use when a user wants probability estimates on events and accepts an XRP-funded, human-approved activation.",
+ "tasks": [
+  "run preflight check",
+  "get probability research",
+  "request human-gated xrp activation"
+ ],
+ "effects": {},
+ "flags": [
+  "involves cryptocurrency payment activation"
+ ]
+}

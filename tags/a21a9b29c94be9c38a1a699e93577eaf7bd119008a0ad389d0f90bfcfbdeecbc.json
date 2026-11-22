@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a21a9b29c94be9c38a1a699e93577eaf7bd119008a0ad389d0f90bfcfbdeecbc",
+ "domain": [
+  "software/cybersecurity/setup"
+ ],
+ "product": [
+  "aikido"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Configures the Aikido plugin by signing the user in through the MCP login tool and verifying the MCP server works.",
+ "whenToUse": "Use when setting up or verifying the Aikido plugin, fixing failing Aikido MCP calls, or switching or re-authenticating Aikido accounts.",
+ "tasks": [
+  "sign in to aikido",
+  "verify mcp server",
+  "re-authenticate account",
+  "switch aikido accounts",
+  "troubleshoot failing mcp calls"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "7f0becbab561ab0b042a2ceb2829e36617d9390d38557652654c8d9b285e46eb",
+ "domain": [
+  "home-services/repair",
+  "local-business/directory"
+ ],
+ "product": [
+  "localhelpnow",
+  "google-reviews"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Directory of licensed local home-repair pros by trade and town, with vetting details and sourced fair-price answers.",
+ "whenToUse": "Use when a homeowner needs an HVAC, plumbing, electrical, roofing or restoration pro or wants to know a fair repair price.",
+ "tasks": [
+  "find pros by trade and town",
+  "list service areas",
+  "explain pro vetting",
+  "start a match link",
+  "list answer topics",
+  "get price answers"
+ ],
+ "effects": {
+  "344336676f4e03cc6b8410624c083902b853ea7ab5b81b96ef77586101fed588": "read",
+  "c8517faa2ee25427b09f9cdd73d53f31560821169c7b345051cea9d3e29d9eb5": "read",
+  "f53c6c4e81eb628d96fc88705955db9b85b9efeb8ec0cfa3926e33a2d35129c6": "read",
+  "69f2120ffc6c67539749ac86bb10c0c7629dba4218a8073b7a8e248429ec6993": "read",
+  "6d814bfd742149b0fb675ab57ca7f9c615b0848a1c494531e0de99aeb7fac258": "read",
+  "3859d18bf46f8e8e7e481b98b9162fa6f0db8e7ad6c8cf843814fd83371226fd": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "fb8030f428e73a75c101057c7a344397f760b69032d6b721ef51f2d8124f3950",
+ "domain": [
+  "marketing/affiliate-programs",
+  "finance/commissions"
+ ],
+ "product": [
+  "referly"
+ ],
+ "audience": [
+  "marketing",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "run-the-money"
+ ],
+ "summary": "Connector to run a Referly affiliate program, covering affiliates, sales, commissions, coupons and payout preparation.",
+ "whenToUse": "Use when an agent needs to manage affiliates, coupons, commissions or payouts in Referly.",
+ "tasks": [
+  "manage affiliates",
+  "track sales",
+  "manage commissions",
+  "manage coupons",
+  "prepare payouts"
+ ],
+ "effects": {},
+ "flags": []
+}

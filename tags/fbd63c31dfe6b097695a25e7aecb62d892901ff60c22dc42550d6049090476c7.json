@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "fbd63c31dfe6b097695a25e7aecb62d892901ff60c22dc42550d6049090476c7",
+ "domain": [
+  "ecommerce/store-management",
+  "marketing/ads"
+ ],
+ "product": [
+  "platformdtc"
+ ],
+ "audience": [
+  "operations",
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an AI agent run an online store's products, orders, customers, ads, emails and reports.",
+ "whenToUse": "Use when managing a PlatformDTC online store's catalogue, orders, customers or marketing.",
+ "tasks": [
+  "manage products",
+  "manage orders",
+  "manage customers",
+  "run ads",
+  "send emails",
+  "view reports"
+ ],
+ "effects": {},
+ "flags": []
+}

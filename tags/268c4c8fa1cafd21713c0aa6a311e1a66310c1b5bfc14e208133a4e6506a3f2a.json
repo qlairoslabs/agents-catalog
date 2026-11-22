@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "268c4c8fa1cafd21713c0aa6a311e1a66310c1b5bfc14e208133a4e6506a3f2a",
+ "domain": [
+  "hr/job-search",
+  "data/salary"
+ ],
+ "product": [
+  "finder-work"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches live job vacancies and salary statistics across many countries on Finder sites.",
+ "whenToUse": "Use when a user wants current job openings or typical salaries for a profession and city.",
+ "tasks": [
+  "search vacancies",
+  "get vacancy details",
+  "salary statistics",
+  "list countries",
+  "search jobs and salaries",
+  "fetch result"
+ ],
+ "effects": {
+  "891f70c4159f92d25f3b97dbd98209710c3ee40bfdf34e1f023e38fded3d8a28": "write",
+  "066c06c4c61bc1aa2f9aa36a9cfffc63f3de9a38c4c90e8e5f8e8cd4e338ae05": "read",
+  "0d4a1d53ffa218022a3ae3f478c26b68d5018e78a94a0b05a433057980ae85dc": "read",
+  "7ab79e6ab37f9f6b658e20b8f8329f72f1505a1fa08ada031897cef1492c79af": "read",
+  "73c96776b874ce90225664fc0a2a173e6d16bd32ce3201a2655597a1450080b7": "read",
+  "b3527cec25a3a454df4d7801dd871ccfd2ec584bfc91838e621e459e3ff0dafc": "read"
+ },
+ "flags": []
+}

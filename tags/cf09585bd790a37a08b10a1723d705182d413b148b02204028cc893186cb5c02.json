@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "cf09585bd790a37a08b10a1723d705182d413b148b02204028cc893186cb5c02",
+ "domain": [
+  "software/code-review/python",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "python"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reviews Python code for security, bugs, performance and refactoring, returning a 0-10 score and Markdown report.",
+ "whenToUse": "Use when you want an automated quality and security review of Python code.",
+ "tasks": [
+  "audit python security",
+  "find bugs",
+  "review performance",
+  "suggest refactors",
+  "score code"
+ ],
+ "effects": {},
+ "flags": [
+  "hosted on a raw-ip dynamic dns domain; submitting source code sends it to an unverified third party"
+ ]
+}

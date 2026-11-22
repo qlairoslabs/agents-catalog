@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "74048cd82bec4f554ffcbac590d1ca3b05fc84d8e47beb03e2c6c140d92732af",
+ "domain": [
+  "software/browser-automation"
+ ],
+ "product": [
+  "chrome"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Lets an agent temporarily control a tab in the user's logged-in Chrome browser, leaving 2FA and CAPTCHA to the user.",
+ "whenToUse": "Use when an agent must act on websites in the user's authenticated Chrome session.",
+ "tasks": [
+  "borrow chrome tab",
+  "navigate pages",
+  "interact with page elements",
+  "return tab control to user"
+ ],
+ "effects": {},
+ "flags": []
+}

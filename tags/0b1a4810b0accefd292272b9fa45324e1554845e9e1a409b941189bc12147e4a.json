@@ -1,0 +1,58 @@
+{
+ "classifier": 2,
+ "contentHash": "0b1a4810b0accefd292272b9fa45324e1554845e9e1a409b941189bc12147e4a",
+ "domain": [
+  "automotive/used-cars",
+  "ecommerce/marketplace"
+ ],
+ "product": [
+  "rootz-cars",
+  "nhtsa"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Used and new car inventory search across US dealers, with vehicle history, buyer shopping sessions, trade-in profiles, dealer emails and visit scheduling.",
+ "whenToUse": "Use when helping a buyer search dealer car inventory, compare vehicles, contact a dealer, or schedule a visit.",
+ "tasks": [
+  "search vehicle inventory",
+  "get vehicle by VIN",
+  "find dealers",
+  "view vehicle price history",
+  "create buyer session",
+  "add cars to session",
+  "email dealer interest",
+  "compare vehicles",
+  "set trade-in details",
+  "schedule dealer visit"
+ ],
+ "effects": {
+  "b2d575ccf9fa213a668892edbb98a68c9044ff321ea2dc9bf875ca47295f3854": "read",
+  "c95173fbe80d3e09df3e6f796638dee67421d2540efe643bb53f9b3bc25c6cd8": "read",
+  "5ed53cda9c67753b9055795e36f96b1a2fe479e7eee4f1e977918a85935ea9c9": "read",
+  "46fe48aa3dae53502aed17a614ca94ca27fdb1b7b7c8f82d9de923488f2e3648": "read",
+  "0d63c508c72391622e52ab032ad138c5154b4b8a96cb6d0a8729fbcc5488a56f": "read",
+  "dba2a86eb99fd17a2c62932a706f824e385d97382e9da71338d3381acddf978b": "read",
+  "b92db3f87beda98ed5198213d44cd9dabba00ee636d583e0ee990a3074368223": "write",
+  "05f0d0c9c67f8366ba617c5811ba1e2d58afab3d5c829d2999f637ae6a6b94cf": "read",
+  "22eb498111dc4327b37e4f042eab44442bc66f8309ae02792794205abbebdf65": "write",
+  "3a8e6591bb27029b4881ccfe29e93f5afd8c0c23c06015b989901fe3e5c7afb6": "write",
+  "d2a0387169285fdc9491bd9a321af224e5ea2b607177abea80c4d858cb409bdb": "write",
+  "7ad71e4d5df05fa523c47afa339a4d3585cd7240a49ba98f05836caf0e4010b6": "read",
+  "341a2b90a27ea9f9ade5196693cc7059030a2b97dc59a805463f98ad2b1ab3fa": "read",
+  "5040c41abf1530c714d45bab58c0addf4264f1d23d7e99a41d504a056261cc73": "write",
+  "d8176d61bb24d5e65bc3f0e9cba51f6a3f1f9aac1dff8601c1372ebb6dfb2e2b": "write",
+  "c7ea143126e42ed7e51b7364f136984d0e6d9bc2f2af17c26eab0dcd7a69fe00": "write",
+  "b690a66d4554411a331881d6363f50033d9ec84f385a333d53b444c3798e1020": "read",
+  "1b86e15dd61e5dc116d2504b77260a0f7ffa50b4dcf6985d09dbdb8ec034d073": "write",
+  "f329e46a68dd43dd067cab6ba78032ae0eba75603a8b9691087b2fafd7cd9fb6": "write"
+ },
+ "flags": [
+  "tool descriptions nudge the agent to collect buyer payment, trade-in and timeline details 'naturally' without asking, and to save them for dealer leads"
+ ]
+}

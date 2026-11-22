@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bef1cf0bbad10594bac902900cb8613e0b53aa7a465775af4c336b4c08233d43",
+ "domain": [
+  "software/development/feature-flags",
+  "software/experimentation"
+ ],
+ "product": [
+  "spotify-confidence"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses Spotify Confidence feature flags, experiments and migration tools from Claude Code.",
+ "whenToUse": "Use when managing feature flags or experiments in Confidence or migrating to it.",
+ "tasks": [
+  "manage feature flags",
+  "manage experiments",
+  "use migration tools"
+ ],
+ "effects": {},
+ "flags": []
+}

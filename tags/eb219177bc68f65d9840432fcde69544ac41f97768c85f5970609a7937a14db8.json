@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "eb219177bc68f65d9840432fcde69544ac41f97768c85f5970609a7937a14db8",
+ "domain": [
+  "software/voice/speech",
+  "software/ai-agents"
+ ],
+ "product": [
+  "voicemode"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Locally installed Python package that adds speech-to-text and text-to-speech so you can talk with an AI assistant.",
+ "whenToUse": "Use when the user wants to speak to and hear replies from an AI assistant instead of typing.",
+ "tasks": [
+  "transcribe speech to text",
+  "speak responses aloud",
+  "hold voice conversations"
+ ],
+ "effects": {},
+ "flags": []
+}

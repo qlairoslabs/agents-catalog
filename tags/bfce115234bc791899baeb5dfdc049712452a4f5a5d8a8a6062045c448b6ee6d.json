@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "bfce115234bc791899baeb5dfdc049712452a4f5a5d8a8a6062045c448b6ee6d",
+ "domain": [
+  "retail/supplements",
+  "e-commerce"
+ ],
+ "product": [
+  "vide-vita"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Online supplement shop with product details, label amounts, reviews, checkout links and order status.",
+ "whenToUse": "Use when someone wants to browse, research or buy Vidé Vita supplements, or check the status of an order.",
+ "tasks": [
+  "get shop info",
+  "list and search products",
+  "get product details",
+  "read reviews",
+  "start a guest checkout",
+  "create a pending order payment link",
+  "check order status",
+  "view assistant usage report"
+ ],
+ "effects": {
+  "e6c9f7ce1fccd274a8d68e21dad71740230dd27c541a5f936ebfc80e98e503b1": "read",
+  "0ed2d87c12469446a4b8075673a44d843110e3b509092737d33d3402672b64cc": "read",
+  "18b2dd09d9221a00f78f6c2e7bf17695462b8d43992568e877d933e7a613618a": "read",
+  "b3dc556e336798d714f63034f244ae19d487121949ec20554da7afe14dae52d1": "read",
+  "59f350f0555196b7e0697cf612e9f9b7d608fe6f4752bf3c9f43ee76f02a1cc1": "read",
+  "5f07580e9d99a4282ee105ee1c495997e81c052f544073697f87addbfe616888": "write",
+  "906fd958bafb18fa61191615084674dfad1da067179ffe6c1c39b38ed8814a40": "write",
+  "db97e1307c5cb57594b53aafc333b22f842b8b476acd03b033619565ef91834e": "read",
+  "d7fac53c802331c8b9c88967c5438d11510f05c71869208faacb2027bb57e601": "read"
+ },
+ "flags": []
+}

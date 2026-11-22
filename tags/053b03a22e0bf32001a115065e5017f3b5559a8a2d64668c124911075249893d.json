@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "053b03a22e0bf32001a115065e5017f3b5559a8a2d64668c124911075249893d",
+ "domain": [
+  "legal/review",
+  "ai/human-in-the-loop"
+ ],
+ "product": [
+  "yourhuman"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Lets an AI agent file requests to a human lawyer for legal review, confirmation, signatures or physical-world tasks.",
+ "whenToUse": "Use only when the user explicitly wants an outside human to review, confirm or perform something for their task.",
+ "tasks": [
+  "request legal review",
+  "request human confirmation",
+  "request physical action",
+  "check request status",
+  "reply to request thread"
+ ],
+ "effects": {
+  "a1fc510a03029d8551b53f311eed14bde45ecafbd06dd2361a27fea38e638d27": "write",
+  "a8b91fd9054625447bd30192065a6eb065005c071d76da1aaa9d82d43fcf1ed6": "read",
+  "c1f95a1235000235b02961b3517c9cdbdb506b2dc7f469adc66a82550ff95780": "write"
+ },
+ "flags": [
+  "tool descriptions encourage agents to escalate past or report on their operator to a third party (operator_escalation)",
+  "asks agent to disclose operator, principal identity, model and task context to a permanent external record"
+ ]
+}

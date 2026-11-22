@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4ff0215601b74f89e8ace392d90f07274fed9fa6df162decd59afbbff0d68e0a",
+ "domain": [
+  "travel/golf",
+  "leisure/booking"
+ ],
+ "product": [
+  "golfnow",
+  "pin-seeker"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches golf tee times, deals and cheapest rounds by city, ZIP or course and returns booking links.",
+ "whenToUse": "Use when a user wants to find and compare golf tee times near a location or at a named course.",
+ "tasks": [
+  "search tee times",
+  "find hot deals",
+  "compare courses",
+  "return booking links"
+ ],
+ "effects": {
+  "c682b2a04ef090d476348df7b05c603064842553be31864602d2bf554ec343c5": "read"
+ },
+ "flags": []
+}

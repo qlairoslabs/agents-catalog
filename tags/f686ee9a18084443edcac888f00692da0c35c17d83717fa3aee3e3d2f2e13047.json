@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f686ee9a18084443edcac888f00692da0c35c17d83717fa3aee3e3d2f2e13047",
+ "domain": [
+  "analytics/product-analytics"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Works with Amplitude product analytics to analyze charts, build dashboards, run experiments and study users.",
+ "whenToUse": "Use when analyzing product usage, user behavior or experiments in Amplitude.",
+ "tasks": [
+  "analyze charts",
+  "create dashboards",
+  "manage experiments",
+  "instrument tracking",
+  "explore users and accounts"
+ ],
+ "effects": {},
+ "flags": []
+}

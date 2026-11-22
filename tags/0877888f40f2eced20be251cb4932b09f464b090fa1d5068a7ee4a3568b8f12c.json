@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0877888f40f2eced20be251cb4932b09f464b090fa1d5068a7ee4a3568b8f12c",
+ "domain": [
+  "finance/payables",
+  "finance/payments"
+ ],
+ "product": [
+  "airwallex"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Extracts bank details from supplier invoices or documents, validates country rules, and creates payee beneficiaries in Airwallex.",
+ "whenToUse": "Use when a user wants to onboard suppliers or add payees in Airwallex from invoices or documents with bank details.",
+ "tasks": [
+  "extract bank details from invoices",
+  "validate country bank requirements",
+  "create beneficiaries",
+  "onboard vendors"
+ ],
+ "effects": {},
+ "flags": []
+}

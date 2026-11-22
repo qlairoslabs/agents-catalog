@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5fec1b417cd01083938f7d03854806ec03c5943283482065526912cc3109b39d",
+ "domain": [
+  "software/project-estimation",
+  "project-management"
+ ],
+ "product": [
+  "estimate"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Software project estimation tool combining independent expert judgement from the team and an AI estimator.",
+ "whenToUse": "Use when an agent needs to help a team estimate effort for a software project.",
+ "tasks": [
+  "create estimates",
+  "collect team estimates",
+  "get ai estimates"
+ ],
+ "effects": {},
+ "flags": []
+}

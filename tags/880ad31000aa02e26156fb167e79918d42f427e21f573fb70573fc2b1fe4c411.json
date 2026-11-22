@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "880ad31000aa02e26156fb167e79918d42f427e21f573fb70573fc2b1fe4c411",
+ "domain": [
+  "media/transcription"
+ ],
+ "product": [
+  "tiktok",
+  "x",
+  "ted"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Turns a video URL into a text transcript using built-in speech recognition, without needing captions.",
+ "whenToUse": "Use when an agent needs a transcript of an online video from a URL.",
+ "tasks": [
+  "transcribe video from url"
+ ],
+ "effects": {},
+ "flags": []
+}

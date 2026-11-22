@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f8175bfbf72958a99eb0b64e3e70f84adc5406a1824b184d37ae8bb64a522312",
+ "domain": [
+  "media/image-optimization",
+  "web/performance"
+ ],
+ "product": [
+  "shortpixel"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Optimizes images at public URLs using the ShortPixel SPIO API.",
+ "whenToUse": "Use when an agent needs to compress or optimize a publicly hosted image.",
+ "tasks": [
+  "optimize image by url",
+  "compress image"
+ ],
+ "effects": {},
+ "flags": []
+}

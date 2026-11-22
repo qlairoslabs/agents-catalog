@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0b5be60e666e92cacec8273ddd2377ee5905726c2dc29181deac1a530bd38337",
+ "domain": [
+  "real-estate/property-management",
+  "finance/reporting"
+ ],
+ "product": [
+  "rent-manager"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Answers read-only questions about a Rent Manager property portfolio, including financials, rent roll and leasing.",
+ "whenToUse": "Use when a property manager asks about portfolio financials, rent roll or leasing in Rent Manager.",
+ "tasks": [
+  "query portfolio financials",
+  "read rent roll",
+  "review leasing data"
+ ],
+ "effects": {},
+ "flags": []
+}

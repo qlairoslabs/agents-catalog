@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a5b3e107358590dae2b05949600f99b43784755d82ecd61cb67dc4ee532981ed",
+ "domain": [
+  "marketing/qr-codes",
+  "operations/forms"
+ ],
+ "product": [
+  "caoliao"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an organization create and manage CaoLiao QR codes, forms and the records collected through them; requires OAuth.",
+ "whenToUse": "Use when an agent needs to create or manage CaoLiao QR codes, forms or submitted records for an organization.",
+ "tasks": [
+  "create qr codes",
+  "manage qr codes",
+  "manage forms",
+  "view form records"
+ ],
+ "effects": {},
+ "flags": []
+}

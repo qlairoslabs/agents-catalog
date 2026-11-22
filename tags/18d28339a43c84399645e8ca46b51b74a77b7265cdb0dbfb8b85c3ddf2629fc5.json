@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "18d28339a43c84399645e8ca46b51b74a77b7265cdb0dbfb8b85c3ddf2629fc5",
+ "domain": [
+  "marketing/lead-generation",
+  "marketing/social-listening"
+ ],
+ "product": [
+  "reddit",
+  "thread-otter"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds Reddit threads where potential buyers ask for products like yours, and shows weekly demand boards, subreddit promotion rules and competitor complaints.",
+ "whenToUse": "Use when looking for Reddit buyer conversations, demand trends, or complaints about a competitor.",
+ "tasks": [
+  "find buyer threads from a website",
+  "fetch demo report",
+  "view Reddit demand board",
+  "look up subreddit promotion rules",
+  "compare demand by category",
+  "scan competitor complaints"
+ ],
+ "effects": {
+  "21c41572b3ff001125269645cb6eef127f91b9f3066b9c7c023a62b89fcec0e2": "read",
+  "c16ad75883f5c9e0a7fb3b92f679dff1fc086cc55955bef079857c805b766a95": "write",
+  "adc5b496374ef6a0c0f60374d2f327b621f76f4da456a0edc85572ec910f226c": "read",
+  "ee4a7f44cf3cc89d5e71be8e80761448a9872e20cb72b270eca1b2a67bb68b8b": "read",
+  "4920c0fdf1b519f1da41e700c052c2033f57d2aa1cc0584f78b29a88df897f61": "read",
+  "460034d074c56fda643154fc3e82dda7ef8690261a5783b7358f279744b967fb": "read",
+  "5d071b8efc098c44fe592a9ce58f37b8b73d8b7c5bc419b90c0de73656ff2a62": "read"
+ },
+ "flags": []
+}

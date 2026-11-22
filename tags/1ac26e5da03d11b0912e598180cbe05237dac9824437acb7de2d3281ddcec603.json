@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "1ac26e5da03d11b0912e598180cbe05237dac9824437acb7de2d3281ddcec603",
+ "domain": [
+  "software/cybersecurity",
+  "software/supply-chain"
+ ],
+ "product": [
+  "cisa-kev",
+  "npm",
+  "pypi",
+  "cve"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Checks packages, lockfiles and MCP servers for known vulnerabilities, slopsquatting and KEV status before install, returning proceed or refuse guidance.",
+ "whenToUse": "Use before adding a dependency, merging a lockfile or recommending a community MCP server.",
+ "tasks": [
+  "check package",
+  "bulk check packages",
+  "scan lockfile",
+  "look up vulnerability",
+  "search vulnerabilities",
+  "check MCP server",
+  "list slopsquatting candidates"
+ ],
+ "effects": {
+  "a6dd972b70b00f879a57378d54109ea1c1c22ac7b44324debb734ded45235782": "read",
+  "7a5bee514b5605132906aa69e27d0dd4c861e3fe40507ea1504179002cdf66e4": "read",
+  "729264a36bb8a214687288647a0b02b97c378499cd38dafa532033bc1b9164ce": "read",
+  "6870b60e078a5592767be464afe3f7b0dfb03ea05fedb85b07daef0e0c2a6f72": "read",
+  "a702e616cf9c04cc8c42fe2087b45cc02e7507a1db3667aaba97a3b6db8ca6ce": "read",
+  "97a69f632f5f7d13052a1a5405f85a5f0b736578531fc1294ea9a9a0bd024a61": "read",
+  "6609d8f51e2b832a3778ea07ed8f47cea12c5ee0a3440474949d0d1895c42d45": "read"
+ },
+ "flags": []
+}

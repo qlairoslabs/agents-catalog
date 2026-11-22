@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4c4c92a08f28eb59d562c9a911f8a85c8a4ba41abca165238c6ac448386f397b",
+ "domain": [
+  "software/product-management/feedback",
+  "software/product-management/roadmap"
+ ],
+ "product": [
+  "suggix"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "build-software"
+ ],
+ "summary": "Manages Suggix customer feedback, roadmap items, changelogs and users.",
+ "whenToUse": "Use when an agent needs to handle product feedback, roadmap or changelog entries in Suggix.",
+ "tasks": [
+  "manage feedback",
+  "manage roadmap items",
+  "publish changelogs",
+  "manage users"
+ ],
+ "effects": {},
+ "flags": []
+}

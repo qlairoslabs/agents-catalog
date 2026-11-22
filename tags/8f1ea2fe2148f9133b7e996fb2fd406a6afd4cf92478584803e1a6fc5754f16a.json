@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8f1ea2fe2148f9133b7e996fb2fd406a6afd4cf92478584803e1a6fc5754f16a",
+ "domain": [
+  "content/fact-checking"
+ ],
+ "product": [
+  "rosey"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "stay-compliant"
+ ],
+ "summary": "Fact-checks written content against the user's reference sources and marks what to trust, change or verify.",
+ "whenToUse": "Use when generated or human-written content must be checked against trusted sources before publishing.",
+ "tasks": [
+  "fact-check content",
+  "compare against sources",
+  "flag claims to verify"
+ ],
+ "effects": {},
+ "flags": []
+}

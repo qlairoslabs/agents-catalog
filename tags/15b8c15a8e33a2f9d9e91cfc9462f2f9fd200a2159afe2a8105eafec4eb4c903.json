@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "15b8c15a8e33a2f9d9e91cfc9462f2f9fd200a2159afe2a8105eafec4eb4c903",
+ "domain": [
+  "data/web-scraping",
+  "software/integrations"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Onboarding guide for setting up Bright Data with an agent, covering CLI install, skills, authentication and choosing an integration path.",
+ "whenToUse": "Use when an agent first needs Bright Data for web search or scraping, or needs to install its CLI, skills or get an API key.",
+ "tasks": [
+  "install bright data cli and skills",
+  "set up authentication",
+  "get an api key",
+  "choose between cli, mcp, sdk or rest"
+ ],
+ "effects": {},
+ "flags": []
+}

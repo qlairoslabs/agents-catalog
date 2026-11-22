@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "33ad0978a353be7b0fa3db04803bd530d754dda07b71e1345e24dd0499ae0ade",
+ "domain": [
+  "travel/booking",
+  "accommodation"
+ ],
+ "product": [
+  "hotelscasa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Travel search across hotels, owner-listed homes, activities, flights links, taxi and car rental, with live availability checks and booking links.",
+ "whenToUse": "Use when a user is planning travel and wants accommodation, tours, rental cars or transport options with booking links.",
+ "tasks": [
+  "search hotels",
+  "get hotel details",
+  "search owner properties",
+  "check availability",
+  "search activities",
+  "search rental cars",
+  "check car availability",
+  "get flight page link",
+  "get taxi or shipment links",
+  "partner signup info"
+ ],
+ "effects": {
+  "147a0fae205d4f2b26e787e133a7de64000ff7380368c1f77d184d7c36744b08": "write",
+  "a217bf7a20dfee23472c600fcff1ca18dd9aacacdf2b3b642ef252e23387d5bf": "write",
+  "172a62cbc30b02055a61020ee151bc7a783474393460e17713065942934641d1": "write",
+  "a9c8f7de6cb23e3ea24abfdb461d3ac6c150c7af25a206ef99c93f9d409584f4": "read",
+  "35c2338836c861657103e7aeccb595d2c2ec7ce1164afbc3673185dd9bfa6de2": "read",
+  "65319242cdc4cefd3a5adb1c4c3443a56aa31ce5f904c74b5c056fdc4b200e27": "write",
+  "864cf266cd8056e859372b7bd903acd3ae8220d678a063d33e2080afa1da1da6": "write",
+  "17088fb33242f4ad53def5bc895fefb26b0215d456652d903613a96d00c0e180": "write",
+  "117823c854b44ef31b09e96755f8135b75930ee0503a6d35ecde619aaabc0cec": "write",
+  "f278fe8155cb878ebea5cae07f19f3afa65dcdb711a9aab4ed28a677310a7a25": "write",
+  "3ac6371031de66369db8c1fa1547e9dc101684f90ebc8eb61a072f0564941f12": "write",
+  "7a8091a73454c6a4baaf8aa46b2f17bd26cb24f0b45972ea2cffef38cb6a45f2": "write",
+  "f15d831280abd5ad2bc2a9edc28fe0a4093344dbc5a8f407170f5015fff28b28": "write"
+ },
+ "flags": [
+  "Tool descriptions steer the agent to always show the vendor's links and not search the web instead"
+ ]
+}
