@@ -1,13 +1,10 @@
 # RULES: what the catalogue offers
 
-Status: **reviewed** 2026-11-14 (drafted 2026-10-30). Not a specification: this says what gets offered
-to users and why; `10-30-SPEC-catalog-service.md` says how it is built.
-Sections marked **open** are not decided.
-
-Written from what exists today: `../9-12+/9-18-SPEC-tools.md` §C3, §F1 and part J, and
-`src/catalog/community-checks.ts`. Once this is reviewed it replaces J5's rules
-as the place they are defined, and moves to the catalogue repository as a public
-document.
+Status: **in force**, reviewed 2026-11-14, updated 2026-11-22 with what the build
+enforces (§2.2, §3.1, §10) and the status policy (§11). Address normalization in §10 and
+all of §11 apply from the first signed publication. This says what gets offered to
+users and why; `PROCESS.md` says how the catalogue is built, and `TAXONOMY.md` how it is
+organized. Sections marked **open** are not decided.
 
 Each rule carries its reason, so it can be judged later. Numbers are parameters
 and can change; the reasons are what matters. **A rule is not done until the
@@ -66,7 +63,15 @@ All of these, for the community tier:
 
 **When a server offers both a remote and a package,** the remote is preferred:
 no code in the Agent's environment, no cold start, sign-in through the proxy.
-The published feed lists both today, the package as a "Local" variant; to align.
+
+### 2.2 How a remote connects
+
+| Rule | Why |
+|---|---|
+| Streamable HTTP over HTTPS only. Servers offering only SSE, plain HTTP or a URL template are left out; one offering both SSE and streamable HTTP is listed by its streamable address | SSE is the protocol's older transport, being retired; plain HTTP exposes the traffic; a template is not one server |
+| A header value is a whole reference to a secret the listing declares (`$SECRET`), never a literal or part of one | the catalogue never carries a credential, and a hub must know which secret goes where |
+| A server known to need a key but declaring no header for it is left out | there is nowhere to put the key, so it would show as usable and fail. It can still be added by hand |
+| Its tools, when it lists them without sign-in, are published with it: names, descriptions and parameters only | so an Agent can know what it does before anything is connected |
 
 ### 2.1 When a check gets no answer
 
@@ -113,7 +118,16 @@ All of these, for the community tier:
   on its own domain.
 
 **Install scripts** never run: packages are installed with `--ignore-scripts`. A package
-that needs them would need a new rule, with its reason.
+that needs them is left out; allowing it would need a new rule, with its reason.
+
+### 3.1 How a package connects
+
+| Rule | Why |
+|---|---|
+| An exact version from npm or PyPI, or an MCPB bundle pinned by digest from a reviewed bundle | what runs is exactly what was checked |
+| No arbitrary command, and no environment value that is a path or expression evaluated at run time | the catalogue must not decide what runs on a machine beyond the package itself |
+| An environment value holding a credential is a whole reference to a declared secret | as for remotes (§2.2) |
+| The build never installs or runs a package | checking needs only its metadata |
 
 **Not offered:**
 
@@ -139,12 +153,12 @@ provider holds the accounts and sees all traffic, so trust belongs to the provid
 | All of a provider's listings take one tier, from reviewing the provider | a per-connector tier would say nothing about who holds the account |
 | To be offered: documented data handling, access a user can revoke, and a key that stays with the hub, or on hosted the control plane, and never reaches an Agent | it sits between the Agent and the service |
 | We add providers through the vendor list; operator-added providers come later, as each needs library code | the same path as any vendor |
-| Where a service has an open MCP server, our listing is offered instead (spec §5.1) | no cost, and we own the flow |
+| Where a service has an open MCP server, our listing is offered instead | no cost, and we own the flow |
 | The catalogue never lists a provider's tools: a hub fetches them, and the catalogue only publishes our notes on them | its list is its own, and stays current |
 
 End users need not know how the provider works, but they are told one is involved:
 a delegated connector carries a third-party badge in every client, the consumer one
-included (spec §10), and the technical webapp also names the provider. It must be
+included, and the technical webapp also names the provider. It must be
 named in the privacy terms of any service using it.
 
 ## 5. Skills and bundles
@@ -245,7 +259,7 @@ exception, stdio packages:
 | One entry becomes curated | a file in the repository records the reviewer, the date, the version and what was checked, changed by a reviewed pull request |
 | A vendor joins the list | by a reviewed change, with proof it is the official organization. A vendor can ask in an issue |
 | A vendor leaves | when compromised, abandoned, or under a new owner |
-| The vendors' MCP servers (the seed list of 1,181 servers from 1,082 vendors, `../10-1+/agent-tools/crawl/vendors/`) | join in batches, as verified publisher: an LLM drafts, a person confirms |
+| The vendors' MCP servers (a seed list of 1,181 servers from 1,082 vendors) | join in batches, as verified publisher: an LLM drafts, a person confirms |
 | An entry rejected by a rule gets an exception | a file with a reason, a reviewer and an expiry. An exception list is a rule too |
 
 There is one reviewer today, so public requests get no promise of time.
@@ -255,10 +269,10 @@ There is one reviewer today, so public requests get no promise of time.
 Today an entry leaves the community feed when it fails a check, and a hub that already
 added it keeps it, silently.
 
-**At launch, a block list only:** the signed index's `blocked` field (spec §8) names a
+**At launch, a block list only:** the signed index's `blocked` field names a
 package version, server address or skill hash, set by a reviewed change. Hubs refuse to
 start or connect anything on it, deleting nothing, and reach it through their daily
-refresh (`todos/10-31-TODO-hub-scheduling.md`, maintenance timer). A three- or
+refresh. A three- or
 seven-day update delay is not screening: until this list names something, a bad
 release that passed the checks runs. A `bundled` hub never fetches, so it never gets the
 list: it learns of a block only through a newer release, which is what `bundled` means
@@ -285,3 +299,36 @@ Hubs ignore fields they do not know, so adding the list later breaks nothing.
 A change states its reason and its measured effect: how many entries enter and
 leave, and which notable ones. Each published catalogue records the rules
 version it was built with.
+
+## 10. One tool, one listing
+
+| Rule | Why |
+|---|---|
+| Listings with the same connection (the same address after normalizing case, trailing `/`, `www.` and query, or the same package and version) are one listing with all their sources, at the highest tier | the same tool must not appear twice because two sources list it |
+| Skills with identical content are one listing (§5) | copies are common |
+| Different addresses of one publisher, different packaging of one service (a server and a bundle), and different builders for one service (an official and a community server) stay separate listings | they are different things to connect; a hub can show how they relate |
+| Two servers at different addresses with identical tool lists are flagged for review, never merged automatically | likely copies, but only a person can tell |
+
+## 11. Status, and what is not published
+
+Every listing has a status, set by classification and reviewed (`TAXONOMY.md`):
+
+| Status | Meaning | In the catalogue |
+|---|---|---|
+| `ok` | a normal listing | shown |
+| `junk` | a test, placeholder, example or deprecated tool | not published |
+| `profile` | one person's portfolio, blog or CV | published, hidden by default |
+| `brochure` | a company's own about, pricing or demo server with no real tool | published, hidden by default, found by name |
+| `adult` | explicit content | published, hidden unless the user opts in |
+| `excluded` | against our policy, for example identifying adult performers from photos of their face | not published |
+
+A server that is unreachable or not found across several runs leaves under §2.1. A
+package its publisher deprecated leaves under §3.
+
+## 12. Corrections and removal
+
+A publisher, or anyone, can ask for a listing to be corrected, re-classified or
+removed, by opening an issue in this repository. A request about one's own listing
+is handled first. A removal for safety goes through the block list (§8); any other
+change is a reviewed change, recorded with its reason. There is one reviewer today,
+so requests get no promise of time.
