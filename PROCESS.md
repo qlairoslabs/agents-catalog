@@ -5,11 +5,7 @@ runs at each step, what it reads and writes, who decides, and what checks it. It
 describes what we do, not the design reasons; those are in `RULES.md` (what gets
 in, and why) and `TAXONOMY.md` (how entries are organized).
 
-Each step is marked:
-
-- **now**: built and used.
-- **v1**: agreed for the first publication, being built.
-- **later**: planned, not started.
+Each step is marked **now** (built and used) or **later** (planned, not started).
 
 Everything the pipeline reads from outside is public: the official MCP registry,
 Docker's MCP catalogue, the reference servers, the marketplaces, npm, PyPI, and the
@@ -53,23 +49,23 @@ Each entry is checked against `RULES.md`: §2 for remote servers, §3 for packag
 §5 for skills and bundles. A rejected entry keeps its reason, so every difference
 from the previous catalogue can be explained.
 
-## 3. Fetch evidence (now in part; v1 in full)
+## 3. Fetch evidence (now)
 
 A catalogue description is often short, vague or written for a model. The tools
 publish better evidence of what they do, and it is fetched once per run:
 
 | Entry | Fetched | Status |
 |---|---|---|
-| Remote server, no sign-in | MCP `initialize` and `tools/list`: tool names, descriptions, parameters | now, up to a bound (`--probe-tools`) |
-| Remote server, sign-in needed | MCP `initialize` only, as a health check: 401/403 means alive but needs sign-in | v1 |
-| Skill | `SKILL.md`, at the pinned commit | v1 |
-| Bundle | `README.md` and the plugin file, at the pinned commit | v1 |
-| npm or PyPI package | README, latest version, deprecated or yanked flags | v1 |
+| Remote server, no sign-in | MCP `initialize` and `tools/list`: tool names, descriptions, parameters | now |
+| Remote server, sign-in needed | MCP `initialize` only, as a health check: 401/403 means alive but needs sign-in || now |
+| Skill | `SKILL.md`, at the pinned commit || now |
+| Bundle | `README.md` and the plugin file, at the pinned commit || now |
+| npm or PyPI package | README, latest version, deprecated or yanked flags || now |
 
 Tool lists are published (§6); the rest of the evidence is used for classification and
 is not published.
 
-**(v1)** Each entry gets a health result (`ok`, `auth-required`, `not-found`,
+Each entry gets a health result (`ok`, `auth-required`, `not-found`,
 `unreachable`, `deprecated`, `rate-limited`) with the time it was taken.
 
 How we contact servers: read-only requests, a generic client name, no personal
@@ -92,7 +88,7 @@ Each accepted entry becomes a listing in the catalogue format
 Facts that come from the data become filters here: kind, source, publisher, tier,
 sign-in, transport, bundle membership.
 
-**v1:** two listings merge only when their whole connection is the same: for a remote,
+Two listings merge only when their whole connection is the same: for a remote,
 the address with only scheme and host lowercased (path and query kept unless proven
 equivalent), with the same headers, sign-in and secret slots; for a package, the same
 registry, name, version, arguments, environment and, for MCPB, digest. That merges, for
@@ -145,10 +141,12 @@ instructions, so models never run with access to the maintainer's machine:
 
 - Each run is in a container with an empty working folder holding only its input,
   and one output folder. Nothing else from the machine is visible.
-- **Labeling over files** (v1): the model may only read and write files there. No
-  shell, no web access, no connectors.
-- **Batch classification** (now, `classify/`): no tools at all. Entries are sent as
-  data, and every session is given an empty tool set.
+- **Batch runs** (now, all of `classify/`): no tools at all. Entries are sent as data,
+  and every session is given an empty tool set. This covers the weekly labeling of new
+  listings (`classify/label.ts`) and the per-tool effects (`classify/run.ts`).
+- **Labeling over files** (allowed, used only for whole relabels when the structure
+  changes, §5.1): the model may only read and write files in its folder; no shell, no
+  web access, no connectors.
 - The credential is a short-lived access token. The maintainer's login stays
   outside the container.
 - Every output is checked outside the container before it is stored. Unknown
@@ -160,12 +158,20 @@ instructions, so models never run with access to the maintainer's machine:
 Commands: `bun classify/canary.ts`, `bun classify/run.ts <parts-dir>`. See the
 README for options.
 
-### 5.4 For v1
+### 5.4 What has run
 
-The first publication uses a taxonomy built with the loop above (`TAXONOMY.md`,
-version 1.1): 34 areas and 332 topics, with every entry labeled, adjudicated and
-spot-checked. Effects per tool are produced for every published tool list, in one
-batch run.
+- **v1, the first publication:** the taxonomy built with the loop above (`TAXONOMY.md`,
+  version 1.1, 34 areas and 332 topics), every entry labeled, adjudicated and
+  spot-checked (`facets/classification-v1.json`); effects for every published tool, in
+  one batch run (`tags/`).
+- **Each week (§11):** only listings without a row are labeled against the taxonomy,
+  by `classify/label.ts`: a small model (Haiku) labels, a stronger one (Sonnet)
+  re-checks entries placed under NEW or with a status other than `ok`, and every row is
+  checked with the build's own reader before it is stored in
+  `facets/classification-added.json`. Effects run on new or changed tools only
+  (Sonnet). A listing keeps its row by id; the reviewed v1 rows are never rewritten.
+- **Models:** Claude Code through acp-client, on the maintainer's subscription; which
+  model is a setting (§11), and so is the provider when the job moves.
 
 ## 6. Apply the classification and validate (now)
 
@@ -177,7 +183,7 @@ Tool lists are not inside the listings: each server's list is its own file,
 `tools/<sha256>.json`, named by its content, and `tools.json` (the manifest) gives each
 listing's file, size, tool count and its counts of `read`, `write` and `risky` tools.
 Hubs load the listings and the manifest, and fetch a tool list only when they need it.
-**(v1)**
+
 
 `bun build.ts validate <dir>` then checks every part against the schema and the
 same limits a hub applies (bytes, items, depth, text lengths). A part that fails,
@@ -202,12 +208,12 @@ safety stops in §11 instead.
 The `publish` workflow is started from `main`, naming the full commit of a build:
 by the weekly job (§11), on the owner's behalf, or by hand. It:
 
-1. Takes the build's files from that commit as git objects: the two parts, and (v1) the
+1. Takes the build's files from that commit as git objects: the two parts, the
    manifest and the tool-list files, refusing anything else in `out/`. Nothing from the
    build commit runs.
 2. Validates them with this repository's own code, from the workflow's commit.
 3. Commits the parts to `published`.
-4. Writes the index naming that commit, and checks it, and (v1) every tool-list file
+4. Writes the index naming that commit, and checks it and every tool-list file
    against the manifest, from the committed bytes (sizes and digests of what GitHub will
    serve).
 5. Signs the index with the current key (Ed25519), verifies the signature, and
@@ -218,7 +224,7 @@ on `main`, which is itself protected and changed only by review, can use it.
 The public keys are built into the hubs; a second key, held offline, can revoke the
 current one. Every publication has a higher sequence number than the last.
 
-## 10. Re-running (now in part; later in full)
+## 10. Re-running (now)
 
 A new build starts from the stored results:
 
@@ -228,17 +234,9 @@ A new build starts from the stored results:
 - Taxonomy values are only added after publication, never renamed or reused; a
   merge ships as a published remap (`TAXONOMY.md`).
 
-**Later:** services and capabilities,
+Every week this runs on its own (§11). **Later:** services and capabilities,
 with the same loop as §5.1; notes on other catalogues' listings (for example
 Composio's toolkits), published beside the index.
-
-## Open
-
-- Whether fetched tool lists and evidence are kept in the repository (versioned,
-  tens of MB) or outside it as a cache.
-- Servers that need sign-in stay described by their listing only, unless they
-  publish their tools elsewhere.
-- Geo-blocking is not detected: servers are only reached from one place.
 
 ## 11. Running the weekly build
 
@@ -368,3 +366,12 @@ OpenRouter as the model provider through acp-client. To move it:
 8. **Container:** Actions runners have Docker, not podman; the classifier's container
    command needs that switch.
 
+## Open
+
+- Whether fetched tool lists and evidence are kept in the repository (versioned,
+  tens of MB) or outside it as a cache.
+- Servers that need sign-in stay described by their listing only, unless they
+  publish their tools elsewhere.
+- Geo-blocking is not detected: servers are only reached from one place.
+- Signing the emergency "revoke the current key" index with the offline key is not
+  built yet (the signer accepts only the current key); see the signing runbook.
