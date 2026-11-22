@@ -5,6 +5,9 @@ import { parseCatalogJson } from "../ingestion";
 import { MAX_INDEX_BYTES, validateIndex, validateIndexBytes } from "../validate";
 import { SHIPPED_KEYS } from "./keys";
 
+// Match the library verifier in agents-core/src/catalog/adapters/agents-catalog.ts.
+const FUTURE_TOLERANCE_MS = 5 * 60_000;
+
 export async function writeRevocationIndex(args: string[]): Promise<void> {
     const { values } = parseArgs({
         args,
@@ -22,6 +25,9 @@ export async function writeRevocationIndex(args: string[]): Promise<void> {
     const now = Date.now();
     const sequence = Math.max(Math.floor(now / 1000), previous.sequence + 1);
     if (!Number.isSafeInteger(sequence)) throw new Error("revocation sequence exceeds the safe integer range");
+    if (sequence > Math.floor((now + FUTURE_TOLERANCE_MS) / 1000)) {
+        throw new Error("revocation sequence would be too far in the future; wait until the clock passes the previous sequence");
+    }
     const text = JSON.stringify({
         ...raw,
         revokes: [...new Set([...previous.revokes, revoke])],
