@@ -162,13 +162,33 @@ export function containerCommand(options: ModelOptions, settings: string, name =
 }
 
 /** Writes the credential to a memory-backed file only the user can read, for one run. */
-export function writeKeyFile(value: string): { file: string; remove: () => void } {
-    const dir = mkdtempSync(join(existsSync("/dev/shm") ? "/dev/shm" : tmpdir(), "classify-key-"));
-    chmodSync(dir, 0o700);
-    const file = join(dir, "key");
-    const fd = openSync(file, constants.O_WRONLY | constants.O_CREAT | constants.O_EXCL, 0o600);
-    try { writeSync(fd, value + "\n"); } finally { closeSync(fd); }
-    return { file, remove: () => rmSync(dir, { recursive: true, force: true }) };
+export function writeKeyFile(value: string, base = "/dev/shm"): { file: string; remove: () => void } {
+    // Memory-backed only: never fall back to a disk directory for a credential.
+    if (!isMemoryBacked(base)) throw new Error(`${base} is not a memory-backed directory; refusing to write the credential`);
+    const dir = mkdtempSync(join(base, "classify-key-"));
+    const remove = () => rmSync(dir, { recursive: true, force: true });
+    try {
+        chmodSync(dir, 0o700);
+        const file = join(dir, "key");
+        const fd = openSync(file, constants.O_WRONLY | constants.O_CREAT | constants.O_EXCL, 0o600);
+        try { writeSync(fd, value + "\n"); } finally { closeSync(fd); }
+        return { file, remove };
+    } catch (error) { remove(); throw error; }
+}
+
+/** True when `dir` is on tmpfs (or ramfs), from /proc/self/mountinfo. */
+export function isMemoryBacked(dir: string, mountinfo = (() => { try { return readFileSync("/proc/self/mountinfo", "utf8"); } catch { return ""; } })()): boolean {
+    let best = "", type = "";
+    for (const line of mountinfo.split("\n")) {
+        const parts = line.split(" ");
+        const dash = parts.indexOf("-");
+        if (dash < 0 || !parts[4]) continue;
+        const point = parts[4];
+        if ((dir === point || dir.startsWith(point.endsWith("/") ? point : point + "/")) && point.length >= best.length) {
+            best = point; type = parts[dash + 1] ?? "";
+        }
+    }
+    return type === "tmpfs" || type === "ramfs";
 }
 
 export interface BatchRun {
@@ -242,50 +262,55 @@ export async function runBatch(options: ModelOptions, prompt: string,
     if (!token) throw new Error("no access token to give the container");
     // The relay adds the explicit empty tool set to session/new on the wire.
     const name = `classify-${randomUUID()}`;
+    // The credential file is removed on every path from here on, including a
+    // failure while building the command or the controller.
     const key = writeKeyFile(token);
-    const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name, key.file)];
-    // Only what podman needs on the host; the credential goes through the key file.
-    const env = podmanEnv();
-    const spawnEnv: Record<string, string> = { ...env };
-    const agent: Controller = (deps.controller ?? (config => new AgentController(config)))({
-        adapter: { command, displayName: opencode ? "OpenCode (classify)" : "Claude (classify)" },
-        adapterId: opencode ? "opencode" : "claude",
-        // The launcher replaces the adapter command with the exact podman process;
-        // /work is the folder the harness sees inside the container.
-        launcher: { prepare: async () => ({ command, spawnCwd: tmpdir(), spawnEnv }) },
-        cwd: "/work",
-        mcpServers: [],
-        defaultPermission: "cancel",
-        clientHandlers: { terminal: false, filesystem: false },
-    });
-    const tools: string[] = [];
-    let permissions = 0;
-    const timer = setTimeout(() => { void agent.stop().catch(() => undefined); }, options.timeoutMs);
     try {
-        await agent.start(); // a failure here is hard: the session never started
-        let result: Awaited<ReturnType<Controller["prompt"]>>;
+        const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name, key.file)];
+        // Only what podman needs on the host; the credential goes through the key file.
+        const env = podmanEnv();
+        const spawnEnv: Record<string, string> = { ...env };
+        const agent: Controller = (deps.controller ?? (config => new AgentController(config)))({
+            adapter: { command, displayName: opencode ? "OpenCode (classify)" : "Claude (classify)" },
+            adapterId: opencode ? "opencode" : "claude",
+            // The launcher replaces the adapter command with the exact podman process;
+            // /work is the folder the harness sees inside the container.
+            launcher: { prepare: async () => ({ command, spawnCwd: tmpdir(), spawnEnv }) },
+            cwd: "/work",
+            mcpServers: [],
+            defaultPermission: "cancel",
+            clientHandlers: { terminal: false, filesystem: false },
+        });
+        const tools: string[] = [];
+        let permissions = 0;
+        const timer = setTimeout(() => { void agent.stop().catch(() => undefined); }, options.timeoutMs);
         try {
-            result = await agent.prompt(prompt, {
-            // Task and todo activity reaches ACP as plan updates, not tool calls: both count.
-            onActivity: (event: any) => {
-                if (["tool", "tool_update", "plan", "plan_update", "plan_removed"].includes(event?.kind)) tools.push(String(event.title ?? event.kind));
-            },
-            onPermissionRequest: () => { permissions++; return { outcome: "cancelled" } as const; },
-            });
-        } catch (error) {
-            // Activity seen before a failure is still an isolation breach: hard.
-            if (tools.length || permissions) throw new Error(`the harness tried to use tools (${tools.join(", ") || "permission request"}) before failing; stopping`);
-            throw new PromptFailure(error instanceof Error ? error.message : String(error));
+            await agent.start(); // a failure here is hard: the session never started
+            let result: Awaited<ReturnType<Controller["prompt"]>>;
+            try {
+                result = await agent.prompt(prompt, {
+                    // Task and todo activity reaches ACP as plan updates, not tool calls: both count.
+                    onActivity: (event: any) => {
+                        if (["tool", "tool_update", "plan", "plan_update", "plan_removed"].includes(event?.kind)) tools.push(String(event.title ?? event.kind));
+                    },
+                    onPermissionRequest: () => { permissions++; return { outcome: "cancelled" } as const; },
+                });
+            } catch (error) {
+                // Activity seen before a failure is still an isolation breach: hard.
+                if (tools.length || permissions) throw new Error(`the harness tried to use tools (${tools.join(", ") || "permission request"}) before failing; stopping`);
+                throw new PromptFailure(error instanceof Error ? error.message : String(error));
+            }
+            const text = result.messages.map((message: any) => message.text ?? "").join("\n");
+            return { text, tools, permissions, stopReason: String(result.stopReason) };
+        } finally {
+            clearTimeout(timer);
+            await agent.stop().catch(() => undefined);
+            // acp-client stops the relay with SIGTERM, then SIGKILL; the container
+            // is removed here either way, and its absence confirmed.
+            await (deps.removeContainer ?? removeContainer)(name, 20_000, env);
         }
-        const text = result.messages.map((message: any) => message.text ?? "").join("\n");
-        return { text, tools, permissions, stopReason: String(result.stopReason) };
     } finally {
-        clearTimeout(timer);
-        await agent.stop().catch(() => undefined);
-        // acp-client stops the relay with SIGTERM, then SIGKILL; the container
-        // is removed here either way, and its absence confirmed.
-        try { await (deps.removeContainer ?? removeContainer)(name, 20_000, env); }
-        finally { key.remove(); }
+        key.remove();
     }
 }
 

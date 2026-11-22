@@ -475,3 +475,21 @@ test("tool activity before a provider failure is hard; only prompt-time limits a
         expect(classifyFailure(await run({ start: async () => { throw new Error("rate limit while starting"); } }))).not.toBeInstanceOf(SoftModelError);
     } finally { if (prev === undefined) delete process.env.CLAUDE_CODE_OAUTH_TOKEN; else process.env.CLAUDE_CODE_OAUTH_TOKEN = prev; }
 });
+
+test("the key file never outlives a failed setup, and is refused outside memory", async () => {
+    const { runBatch, writeKeyFile, isMemoryBacked } = await import("./model");
+    const { readdirSync, existsSync } = await import("node:fs");
+    if (existsSync("/dev/shm") && isMemoryBacked("/dev/shm")) {
+        const before = readdirSync("/dev/shm").filter(n => n.startsWith("classify-key-")).length;
+        const prev = process.env.OPENCODE_API_KEY;
+        process.env.OPENCODE_API_KEY = "synthetic";
+        try {
+            // No opencodeBinary: containerCommand throws after the key is written.
+            await expect(runBatch({ ...DEFAULT_OPTIONS, harness: "opencode", opencodeBinary: undefined }, "p")).rejects.toThrow(/binary/);
+        } finally { if (prev === undefined) delete process.env.OPENCODE_API_KEY; else process.env.OPENCODE_API_KEY = prev; }
+        expect(readdirSync("/dev/shm").filter(n => n.startsWith("classify-key-")).length).toBe(before);
+    }
+    expect(isMemoryBacked("/x/y", "36 25 0:31 / /x rw - ext4 /dev/sda1 rw")).toBe(false);
+    expect(isMemoryBacked("/dev/shm/a", "36 25 0:31 / /dev/shm rw - tmpfs tmpfs rw\n37 25 0:32 / / rw - ext4 /dev/sda1 rw")).toBe(true);
+    expect(() => writeKeyFile("k", "/definitely/not/a/tmpfs")).toThrow(/memory-backed/);
+});
