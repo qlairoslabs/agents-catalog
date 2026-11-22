@@ -65,7 +65,7 @@ test("the index only names parts on the catalogue's own host and commit-pinned p
 test("annotations cannot touch display, origin or connect", async () => {
     const file = await read("./examples/annotations-composio.json");
     for (const field of ["display", "origin", "connect"]) {
-        expect(check("annotations.schema.json", { ...file, entries: { "composio:x": { [field]: {} } } })).not.toBeNull();
+        expect(check("annotations.schema.json", { ...file, gmail: { [field]: {} } })).not.toBeNull();
     }
 });
 

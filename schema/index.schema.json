@@ -197,9 +197,10 @@
     },
     "annotations": {
       "type": "array",
-      "maxItems": 16,
+      "maxItems": 1,
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": [
           "catalogue",
           "url",
@@ -209,22 +210,24 @@
         ],
         "properties": {
           "catalogue": {
-            "type": "string",
-            "pattern": "^[a-z][a-z0-9-]{0,31}$"
+            "const": "composio"
           },
           "url": {
-            "$ref": "#/$defs/rawUrl"
+            "$ref": "#/$defs/rawUrl",
+            "pattern": "/annotations/composio\\.json$"
           },
           "sha256": {
             "$ref": "#/$defs/sha256"
           },
           "bytes": {
             "type": "integer",
-            "minimum": 0
+            "minimum": 1,
+            "maximum": 2097152
           },
           "items": {
             "type": "integer",
-            "minimum": 0
+            "minimum": 0,
+            "maximum": 10000
           }
         }
       }

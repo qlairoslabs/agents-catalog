@@ -14,7 +14,7 @@
     { "id": "skills", "url": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/3333333333333333333333333333333333333333/skills.json", "sha256": "5555555555555555555555555555555555555555555555555555555555555555", "bytes": 2100, "items": 2 }
   ],
   "annotations": [
-    { "catalogue": "composio", "url": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/3333333333333333333333333333333333333333/annotations/composio.json", "sha256": "6666666666666666666666666666666666666666666666666666666666666666", "bytes": 600, "items": 2 }
+    { "catalogue": "composio", "url": "https://raw.githubusercontent.com/qlairoslabs/agents-catalog/3333333333333333333333333333333333333333/annotations/composio.json", "sha256": "cec1e598ca622823a1196636a3678f79f17a1ac03200f3befb40002ff6450410", "bytes": 287, "items": 3 }
   ],
   "blocked": {
     "packages": [{ "manager": "npm", "identifier": "@evil/mcp", "versions": ["*"], "reason": "Published credential stealer." }],

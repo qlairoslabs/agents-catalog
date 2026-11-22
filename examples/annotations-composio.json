@@ -1,15 +1,18 @@
 {
-  "catalogue": "composio",
-  "entries": {
-    "composio:vercel": {
-      "discovery": { "attributes": { "domain": ["software/hosting"] }, "tasks": ["deploy a website", "check a deployment", "manage domains"] }
+  "github": {
+    "effects": {
+      "sha256": "e5807c985381433d1beff51e24eade8e1cc491abaa372e4e2b46f2d2e80d2501",
+      "bytes": 88,
+      "tools": 1
     },
-    "composio:notion": {
-      "discovery": { "attributes": { "domain": ["productivity/notes"] } },
-      "replacedBy": ["docker:notion"]
-    },
-    "composio:tiktok": {
-      "effects": { "TIKTOK_UPLOAD_VIDEO": { "effect": "risky", "hash": "7777777777777777777777777777777777777777777777777777777777777777" } }
-    }
-  }
+    "topics": [
+      "01.01.01"
+    ]
+  },
+  "notion": {
+    "replacedBy": [
+      "docker:notion"
+    ]
+  },
+  "gmail": {}
 }

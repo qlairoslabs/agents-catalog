@@ -1,3 +1,4 @@
+import { ANNOTATIONS_PATH, MAX_ANNOTATIONS_BYTES, ANNOTATION_REPLACEMENT_REMOVED, stageWeeklyAnnotations } from "./annotation-parts";
 import { cp, mkdir, mkdtemp, readdir, rename, rm } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { tmpdir } from "node:os";
@@ -34,10 +35,14 @@ async function readSnapshot(dir: string) {
     if (connectors.length + skills.length + tools.length > MAX_SELECTED_BYTES) throw Error("selected parts exceed the byte limit");
     const items = validateSelectedParts({ connectors, skills });
     const manifest = decodeManifest(tools, items);
+    const notePath = join(dir, ANNOTATIONS_PATH);
+    const noteDigest = await Bun.file(notePath).exists() ? hash(await fileBytes(notePath, MAX_ANNOTATIONS_BYTES)) : null;
+    const digests = [connectors, skills, tools].map(hash);
+    if (noteDigest) digests.push(noteDigest);
     return {
         items, manifest,
         counts: { connectors:items.filter(x=>x.kind === "mcp").length, skills:items.filter(x=>x.kind !== "mcp").length, tools:manifest.size },
-        fingerprint:hash(new TextEncoder().encode(json([connectors,skills,tools].map(hash)))),
+        fingerprint:hash(new TextEncoder().encode(json(digests))),
     };
 }
 
@@ -175,6 +180,7 @@ const options = {
     "previous-index":{type:"string"}, "previous-unsigned":{type:"boolean"}, "verdict":{type:"string"}, "classification-added":{type:"string"},
     "tags":{type:"string"}, "max-drop-fraction":{type:"string"}, "min-part-fraction":{type:"string"},
     "parts":{type:"string"}, "remote":{type:"string"}, "branch":{type:"string"},
+    "annotations": { type: "string" },
 } as const;
 
 async function main() {
@@ -268,6 +274,8 @@ async function main() {
         for (const id of ["connectors","skills"] as const) await Bun.write(join(staging,id+".json"),json(wire(detached.listings,id)));
         await writeToolParts(staging,detached);
         failure = "validation-failure";
+        const annotationReplacements = await stageWeeklyAnnotations(
+            values.annotations ? path("annotations") : join(root, "annotations"), staging, detached.listings);
         await runBun("build.ts","validate",staging);
         const candidate = await readSnapshot(staging);
         failure = "build-failure";
@@ -278,7 +286,8 @@ async function main() {
         }
         for (const [id,reason] of staged.drops) reasons.set(id,reason);
         await reasonsForDrops(previous.items,checkpoint,rejections,reasons);
-        const comparison = { ...compareWeekly(previous,candidate,reasons,thresholds), previousUnsigned };
+        const comparison = { ...compareWeekly(previous,candidate,reasons,thresholds), previousUnsigned, annotationReplacements };
+        if (annotationReplacements.length) comparison.reasons.push(ANNOTATION_REPLACEMENT_REMOVED);
         if (!comparison.publish) {
             await writeJson(verdict,comparison);
             process.exitCode = 1;
@@ -308,7 +317,7 @@ async function release(dir: string, verdictPath: string, remote: string, branch:
     }
     if (branch !== "weekly-build") throw Error("release branch must be weekly-build");
     const verdict = await Bun.file(verdictPath).json();
-    if (verdict.previousUnsigned !== false || verdict.publish !== true || !Array.isArray(verdict.reasons) || verdict.reasons.length !== 0) throw Error("weekly verdict refuses release");
+    if (verdict.previousUnsigned !== false || verdict.publish !== true || !Array.isArray(verdict.reasons) || verdict.reasons.some((reason: unknown) => reason !== ANNOTATION_REPLACEMENT_REMOVED)) throw Error("weekly verdict refuses release");
     const ref = "refs/heads/" + branch;
     const existing = await git(root,"ls-remote","--heads",remote,ref);
     const base = existing.split(/\s/,1)[0] || await git(root,"rev-parse","HEAD");

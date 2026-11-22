@@ -47,7 +47,7 @@ for (const [name, extra] of [
     ["a workflow", { "out/.github/workflows/x.yml": "on: push" }],
     ["an unknown file", { "out/extra.json": "{}" }],
     ["a nested annotation", { "out/annotations/x/y.json": "{}" }],
-    ["an annotation (not yet signed by the index)", { "out/annotations/composio.json": "{}" }],
+    ["an annotation with prohibited content", { "out/annotations/composio.json": '{"gmail":{"tasks":["unpublished text"]}}' }],
     ["a link", { "out/annotations/link.json": null }],
 ] as const) {
     test(`a build carrying ${name} is refused whole`, async () => {
