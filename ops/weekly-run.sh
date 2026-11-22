@@ -107,5 +107,5 @@ if [ "$CATALOG_PUBLISH" = 1 ]; then
     step "dispatch publish for $SHA"
     gh workflow run publish --repo "$CATALOG_GITHUB_REPO" --ref main -f build="$SHA" || fail "could not dispatch publish"
 fi
-echo "published-requested $SHA" > "$RUN/result"
+if [ "$CATALOG_PUBLISH" = 1 ]; then echo "publish-dispatched $SHA" > "$RUN/result"; else echo "released $SHA (publish not dispatched)" > "$RUN/result"; fi
 step "done"
