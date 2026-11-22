@@ -8,10 +8,13 @@
 //       CATALOG_SIGNING_KEY (id CATALOG_SIGNING_KEY_ID). Refuses unless the id
 //       and the key's public half are the shipped current key (keys.ts), equal
 //       to CATALOG_PUBLIC_KEY too, and the signature verifies.
+//   bun sign/cli.ts sign --next <private-key-file> [dir]
+//       Signs with the shipped offline next key, using the current directory
+//       by default. Run on an offline machine with a clean environment.
 //   bun sign/cli.ts verify <dir>
 //       Verifies against the shipped key the signature names; any other id fails.
 
-import { closeSync, constants, openSync, writeSync } from "node:fs";
+import { closeSync, constants, fstatSync, openSync, readSync, writeSync } from "node:fs";
 import { join } from "node:path";
 import { generateKeyPair, publicKeyOf, signIndex, verifyIndex, type IndexSignature } from "./ed25519";
 import { SHIPPED_KEYS, shippedKey } from "./keys";
@@ -27,6 +30,31 @@ function required(name: string): string {
     return value.trim();
 }
 
+const MAX_PRIVATE_KEY_BYTES = 1024;
+
+function readOfflineKey(path: string): string {
+    const fd = openSync(path, constants.O_RDONLY | constants.O_NOFOLLOW | constants.O_NONBLOCK);
+    try {
+        const file = fstatSync(fd);
+        if (!file.isFile() || file.uid !== process.geteuid?.() || (file.mode & 0o077) !== 0
+            || file.size === 0 || file.size > MAX_PRIVATE_KEY_BYTES) {
+            throw new Error("offline key must be an owner-only regular file of at most 1024 bytes");
+        }
+        const bytes = Buffer.alloc(MAX_PRIVATE_KEY_BYTES + 1);
+        let length = 0;
+        while (length < bytes.length) {
+            const count = readSync(fd, bytes, length, bytes.length - length, null);
+            if (!count) break;
+            length += count;
+        }
+        if (length !== file.size) throw new Error("offline key file changed while reading");
+        return bytes.toString("utf8", 0, length).trim();
+    } finally { closeSync(fd); }
+}
+
+// A clean environment avoids chasing provider-specific credential names.
+const OFFLINE_ENV = new Set(["PATH", "LANG", "LC_ALL", "TZ"]);
+
 const [command, ...args] = process.argv.slice(2);
 
 if (command === "keygen") {
@@ -40,20 +68,32 @@ if (command === "keygen") {
         console.log(publicKey);
     } finally { closeSync(fd); }
 } else if (command === "sign") {
-    const dir = args[0];
-    if (!dir) throw new Error("usage: sign <dir>");
-    const privateKey = required("CATALOG_SIGNING_KEY");
-    const keyId = required("CATALOG_SIGNING_KEY_ID");
-    const expected = required("CATALOG_PUBLIC_KEY");
-    if (keyId !== SHIPPED_KEYS.current.kid || expected !== SHIPPED_KEYS.current.key) {
-        throw new Error("the configured key id or public key is not the shipped current key");
+    const offline = args[0] === "--next";
+    const dir = offline ? args[2] ?? "." : args[0];
+    if (offline ? !args[1] || args.length > 3 : !dir || args.length !== 1 || dir.startsWith("--")) {
+        throw new Error("usage: sign <dir> | sign --next <private-key-file> [dir]");
     }
-    if (await publicKeyOf(privateKey) !== expected) throw new Error("the signing key does not match the shipped current key");
+    const key = offline ? SHIPPED_KEYS.next : SHIPPED_KEYS.current;
+    let privateKey: string;
+    if (offline) {
+        if (Object.keys(process.env).some(name => !OFFLINE_ENV.has(name))) {
+            throw new Error("offline signing requires a clean environment; run with env -i and --no-env-file");
+        }
+        privateKey = readOfflineKey(args[1]!);
+    } else {
+        privateKey = required("CATALOG_SIGNING_KEY");
+        if (required("CATALOG_SIGNING_KEY_ID") !== key.kid || required("CATALOG_PUBLIC_KEY") !== key.key) {
+            throw new Error("the configured key id or public key is not the shipped current key");
+        }
+    }
+    if (await publicKeyOf(privateKey).catch(() => null) !== key.key) {
+        throw new Error(`the signing key does not match the shipped ${offline ? "next" : "current"} key`);
+    }
     const index = await readBytes(join(dir, "index.json"));
-    const sig = await signIndex(index, keyId, privateKey);
-    if (!await verifyIndex(index, sig, expected)) throw new Error("the new signature does not verify");
+    const sig = await signIndex(index, key.kid, privateKey);
+    if (!await verifyIndex(index, sig, key.key)) throw new Error("the new signature does not verify");
     await Bun.write(join(dir, "index.json.sig"), JSON.stringify(sig) + "\n");
-    console.log(`signed ${index.byteLength} bytes with ${keyId}`);
+    console.log(`signed ${index.byteLength} bytes with ${key.kid}`);
 } else if (command === "verify") {
     const [dir] = args;
     if (!dir) throw new Error("usage: verify <dir>");
@@ -65,6 +105,6 @@ if (command === "keygen") {
     }
     console.log(`verified, key ${sig.keyId}`);
 } else {
-    console.error("usage: bun sign/cli.ts keygen <file> | sign <dir> | verify <dir>");
+    console.error("usage: bun sign/cli.ts keygen <file> | sign <dir> | sign --next <private-key-file> [dir] | verify <dir>");
     process.exit(2);
 }
