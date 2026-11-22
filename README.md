@@ -80,6 +80,27 @@ committing those exact part bytes. For a full comparison, pass the registry
 checkpoint and `--require-explanations`. An unattributed drop is marked in the
 report and fails the build before it writes the parts.
 
+## Composio notes (A2)
+
+A release can include `annotations/composio.json` in its parts directory. It maps
+a toolkit ID to optional `topics`, `replacedBy` and a detached `effects` reference
+with `sha256`, `bytes` and `tools`. Topic codes must occur in the reviewed
+taxonomy. Replacement IDs must occur in that release's connectors.
+
+Each effect file lives at `annotations/composio/<sha256>.json` and contains only
+an `effects` map from canonical definition hash to `read`, `write` or `risky`.
+The manifest is at most 2 MiB and 10,000 toolkits. Each referenced file is at
+most 1 MiB and 2,000 effects. The build validates the whole graph and rejects
+extra files and public text fields. The signed index pins the manifest to the
+parts commit. The Hub retrieves the effect files only as needed.
+
+The weekly build reads the reviewed top-level `annotations/` directory
+(overridden by `weekly.ts build --annotations <dir>`). It stages those files
+with the native parts. If a replacement ID leaves the native catalogue, the
+weekly candidate drops just that reference and records an informational
+`annotation-replacement-removed` reason and the affected IDs in its verdict.
+The checked-in notes stay intact.
+
 ## Signing and publishing (R3)
 
 `sign/` signs `index.json` with Ed25519 (`bun sign/cli.ts keygen|sign|verify`).

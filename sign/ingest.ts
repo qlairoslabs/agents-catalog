@@ -1,3 +1,5 @@
+import { ANNOTATION_BLOB, ANNOTATIONS_PATH, MAX_ANNOTATIONS_BYTES, MAX_EFFECT_BLOB_BYTES, MAX_EFFECT_BLOBS_BYTES, MAX_ANNOTATED_TOOLKITS, checkAnnotationGraph } from "../annotation-parts";
+import { validatePartBytes } from "../validate";
 // sign/ingest.ts
 // Copies a reviewed build's parts out of git into the folder that will be
 // published, reading git objects only: nothing from the build commit runs.
@@ -25,8 +27,7 @@ export const MAX_TOOL_FILES = 50_000;
 export const MAX_TOOL_FILES_TOTAL = 256 * 1024 * 1024;
 const PARTS = new Set(["connectors.json", "skills.json", "tools.json"]);
 const TOOL_FILE = /^tools\/[0-9a-f]{64}\.json$/;
-// Annotations are not yet referenced by the index R1 writes, so they are refused
-// until the index signs their bytes too.
+
 
 export interface TreeEntry { mode: string; type: string; object: string; size: number; path: string }
 
@@ -47,8 +48,10 @@ export function checkTree(entries: readonly TreeEntry[]): string[] {
         const path = entry.path.slice(4);
         if (entry.type !== "blob" || entry.mode !== "100644") throw new Error(`not a regular file: ${entry.path} (${entry.mode} ${entry.type})`);
         const tool = TOOL_FILE.test(path);
-        if (!PARTS.has(path) && !tool) throw new Error(`not an allowed part: ${entry.path}`);
-        const max = tool ? MAX_TOOL_FILE_BYTES : path === "tools.json" ? MAX_MANIFEST_BYTES : MAX_PART_BYTES;
+        const effect = ANNOTATION_BLOB.test(path);
+        if (!PARTS.has(path) && !tool && !effect && path !== ANNOTATIONS_PATH) throw new Error(`not an allowed part: ${entry.path}`);
+        const max = tool ? MAX_TOOL_FILE_BYTES : effect ? MAX_EFFECT_BLOB_BYTES
+            : path === ANNOTATIONS_PATH ? MAX_ANNOTATIONS_BYTES : path === "tools.json" ? MAX_MANIFEST_BYTES : MAX_PART_BYTES;
         if (!(entry.size > 0 && entry.size <= max)) throw new Error(`size out of range: ${entry.path} (${entry.size})`);
         paths.push(path);
     }
@@ -56,7 +59,12 @@ export function checkTree(entries: readonly TreeEntry[]): string[] {
     const toolFiles = entries.filter(entry => TOOL_FILE.test(entry.path.slice(4)));
     if (toolFiles.length && !paths.includes("tools.json")) throw new Error("tool-list files without the manifest tools.json");
     if (toolFiles.length > MAX_TOOL_FILES) throw new Error(`too many tool-list files (${toolFiles.length})`);
-    const partBytes = entries.filter(entry => PARTS.has(entry.path.slice(4))).reduce((sum, entry) => sum + entry.size, 0);
+    const effectFiles = entries.filter(entry => ANNOTATION_BLOB.test(entry.path.slice(4)));
+    if (effectFiles.length && !paths.includes(ANNOTATIONS_PATH)) throw Error("Composio effect files without their manifest");
+    if (effectFiles.length > MAX_ANNOTATED_TOOLKITS || effectFiles.reduce((sum, entry) => sum + entry.size, 0) > MAX_EFFECT_BLOBS_BYTES) {
+        throw Error("Composio effects exceed their limits");
+    }
+    const partBytes = entries.filter(entry => PARTS.has(entry.path.slice(4)) || entry.path.slice(4) === ANNOTATIONS_PATH).reduce((sum, entry) => sum + entry.size, 0);
     if (partBytes > MAX_TOTAL_BYTES) throw new Error("the parts together exceed the library's limit");
     if (toolFiles.reduce((sum, entry) => sum + entry.size, 0) > MAX_TOOL_FILES_TOTAL) throw new Error("the tool-list files together exceed their limit");
     return paths;
@@ -91,6 +99,11 @@ export async function ingest(sha: string, dest: string, repo = process.cwd()): P
             if (!Array.isArray((parsed as any).tools)) throw new Error(`not a tool list: ${entry.path}`);
         }
         files.push({ path, bytes });
+    }
+    if (paths.includes(ANNOTATIONS_PATH)) {
+        const byPath = new Map(files.map(file => [file.path, file.bytes]));
+        const connectors = new Set(validatePartBytes("connectors", byPath.get("connectors.json")!).map(item => item.id));
+        checkAnnotationGraph(byPath.get(ANNOTATIONS_PATH)!, paths.filter(path => ANNOTATION_BLOB.test(path)), connectors, path => byPath.get(path) ?? null);
     }
     for (const { path, bytes } of files) {
         if (path.includes("/")) mkdirSync(join(dest, path.slice(0, path.lastIndexOf("/"))), { recursive: true });

@@ -1,3 +1,4 @@
+import { ANNOTATIONS_PATH, loadAnnotationParts } from "./annotation-parts";
 import { decodeManifest, detachTools, loadToolParts, writeToolParts } from "./tool-parts";
 import { stageV1, v1Report } from "./v1-build";
 import { readTaxonomy, taxonomyFacet } from "./facets/v1";
@@ -37,12 +38,13 @@ export function partWithFallback(id: Part, staged: unknown, previous: string | U
     }
 }
 
-export function makeIndex(commit: string, parts: Record<Part, string | Uint8Array>, now = Date.now(), previous?: ReturnType<typeof validateIndex>, manifest?: Uint8Array) {
+export function makeIndex(commit: string, parts: Record<Part, string | Uint8Array>, now = Date.now(), previous?: ReturnType<typeof validateIndex>, manifest?: Uint8Array, notes?: Awaited<ReturnType<typeof loadAnnotationParts>>) {
     const listings = validateSelectedParts(parts);
     const index = {
         schema: 1, sequence: Math.max(Math.floor(now / 1000), (previous?.sequence ?? 0) + 1), generatedAt: new Date(now).toISOString(),
         expires: new Date(now + 14 * DAY).toISOString(), rules: "1", commit,
-        facets: [...facets(listings), ...(listings.some(item=>item.discovery.attributes?.topic?.length) ? [taxonomyFacet(v1Taxonomy)] : [])], annotations: [], blocked: previous?.blocked ?? { packages: [], servers: [], skills: [] },
+        facets: [...facets(listings), ...((notes || listings.some(item=>item.discovery.attributes?.topic?.length)) ? [taxonomyFacet(v1Taxonomy)] : [])],
+        annotations: notes ? [{ catalogue: "composio", url: `https://raw.githubusercontent.com/qlairoslabs/agents-catalog/${commit}/${ANNOTATIONS_PATH}`, ...notes }] : [], blocked: previous?.blocked ?? { packages: [], servers: [], skills: [] },
         ...(previous?.revokes.length ? { revokes: previous.revokes } : {}),
         parts: [...partIds.map(id => ({ id, url: `https://raw.githubusercontent.com/qlairoslabs/agents-catalog/${commit}/${id}.json`,
             sha256: createHash("sha256").update(parts[id]).digest("hex"), bytes: encode(parts[id]).byteLength,
@@ -302,11 +304,11 @@ if (import.meta.main) {
     else if (command === "index" || command === "validate" || command === "apply-tags") {
         if (command === "validate") {
             const entries = await readdir(output, { withFileTypes: true });
-            const expected = new Set(["connectors.json", "skills.json", "tools.json", "tools"]);
+            const expected = new Set(["connectors.json", "skills.json", "tools.json", "tools", "annotations"]);
             const required = partIds.map(id => id + ".json").concat("tools.json");
             if (required.some(name => !entries.some(entry => entry.name === name && entry.isFile()))
-                || entries.some(entry => !expected.has(entry.name) || !(entry.name === "tools" ? entry.isDirectory() : entry.isFile()))) {
-                throw Error("release directory must contain only connectors.json, skills.json, tools.json and tools/");
+                || entries.some(entry => !expected.has(entry.name) || !(entry.name === "tools" || entry.name === "annotations" ? entry.isDirectory() : entry.isFile()))) {
+                throw Error("release directory must contain only connectors.json, skills.json, tools.json, tools/ and annotations/");
             }
         }
         const input = command === "apply-tags" ? need("input") : output;
@@ -319,12 +321,13 @@ if (import.meta.main) {
         if (file && file.size > MAX_INDEX_BYTES) throw Error("index exceeds the Hub byte limit");
         const listings = validateSelectedParts(bytes);
         const detached = await loadToolParts(input, listings);
-        if (detached.bytes.byteLength + files.reduce((sum, [, part]) => sum + part.size, 0) > MAX_SELECTED_BYTES) {
+        const notes = command === "apply-tags" ? null : await loadAnnotationParts(input, listings);
+        if ((notes?.bytes ?? 0) + detached.bytes.byteLength + files.reduce((sum, [, part]) => sum + part.size, 0) > MAX_SELECTED_BYTES) {
             throw Error("selected parts and manifest exceed the Hub byte limit");
         }
         if (command === "index") {
             await writeAtomic(join(output,"index.json"),json(makeIndex(need("commit"), bytes, Date.now(),
-                file ? validateIndexBytes(new Uint8Array(await file.arrayBuffer())) : undefined, detached.bytes)));
+                file ? validateIndexBytes(new Uint8Array(await file.arrayBuffer())) : undefined, detached.bytes, notes)));
         } else if (command === "apply-tags") {
             const withTools = listings.map(item => {
                 const ref = detached.refs.get(item.id);

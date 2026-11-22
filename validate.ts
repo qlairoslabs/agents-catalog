@@ -5,7 +5,7 @@ import { readIndex, readPart } from "./mcp/item";
 
 export const ajv = new Ajv2020({ allErrors: true, strict: false });
 addFormats(ajv);
-for (const name of ["item", "parts", "index"]) {
+for (const name of ["item", "parts", "index", "annotations"]) {
     ajv.addSchema(await Bun.file(new URL(`./schema/${name}.schema.json`, import.meta.url)).json(), `${name}.schema.json`);
 }
 

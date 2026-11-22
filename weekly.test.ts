@@ -89,10 +89,22 @@ test("a resumed cached crawl stages a valid candidate without fetching network i
             }));
         }
         const output=join(directory,"out"), verdict=join(directory,"verdict.json");
+        const annotations = join(directory, "reviewed-annotations");
+        await mkdir(annotations);
+        const example = await Bun.file(new URL("./examples/annotations-composio.json", import.meta.url)).json();
+        const github = example.github;
+        await cp(new URL("./examples/annotations/composio", import.meta.url).pathname, join(annotations, "composio"), { recursive: true });
+        const sourceNotes = JSON.stringify({ github, gmail: { topics: ["01.01.01"], replacedBy: [sample.id, "docker:withdrawn"] } });
+        await Bun.write(join(annotations, "composio.json"), sourceNotes);
         const launch=Bun.spawnSync([process.execPath,"weekly.ts","build","--cache",cache,"--run-id","fixture","--output",output,
-            "--previous-parts",mapped,"--previous-unsigned","--verdict",verdict],{cwd:import.meta.dir});
+            "--annotations",annotations,"--previous-parts",mapped,"--previous-unsigned","--verdict",verdict],{cwd:import.meta.dir});
         expect(launch.exitCode).toBe(0);
-        expect(await Bun.file(verdict).json()).toMatchObject({publish:true,reasons:[],dropped:[],added:[],previousUnsigned:true});
+        expect(await Bun.file(verdict).json()).toMatchObject({publish:true,reasons:["annotation-replacement-removed"],dropped:[],added:[],previousUnsigned:true,
+            annotationReplacements:[{toolkit:"gmail",listing:"docker:withdrawn"}]});
+        expect(await Bun.file(join(output,"annotations","composio.json")).json()).toEqual({ github, gmail: { topics: ["01.01.01"], replacedBy: [sample.id] } });
+        expect(await Bun.file(join(annotations,"composio.json")).text()).toBe(sourceNotes);
+        const blob = join("composio", github.effects.sha256 + ".json");
+        expect(await Bun.file(join(output,"annotations",blob)).text()).toBe(await Bun.file(join(annotations,blob)).text());
         expect(await Bun.file(join(output,"tools.json")).json()).toEqual({lists:{}});
         expect(await Bun.file(join(cache,"latest.json")).json()).toBe("fixture");
     } finally { await rm(directory,{recursive:true,force:true}); }

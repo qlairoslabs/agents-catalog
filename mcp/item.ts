@@ -138,13 +138,16 @@ export interface CatalogIndex {
  *  carries nothing else: revocations are in the signed index. */
 export interface CatalogSignature { algorithm: "ed25519"; keyId: string; signature: string }
 
+export const MAX_ANNOTATIONS_BYTES = 2 * 1024 * 1024;
+export const MAX_EFFECT_BLOB_BYTES = 1024 * 1024;
+export const MAX_ANNOTATED_TOOLKITS = 10_000;
+const MAX_TOOLKIT_EFFECTS = 2_000;
+
+export interface AnnotationEffectRef { sha256: string; bytes: number; tools: number }
+export interface ToolkitNote { topics?: string[]; replacedBy?: string[]; effects?: AnnotationEffectRef }
 export interface CatalogAnnotations {
-    catalogue: string;
-    entries: Record<string, {
-        discovery?: Pick<CatalogDiscovery, "attributes" | "tasks">;
-        replacedBy?: string[];
-        effects?: Record<string, ClassifiedEffect>;
-    }>;
+    catalogue: "composio";
+    entries: Record<string, ToolkitNote>;
 }
 
 // ── Validation ──────────────────────────────────────────────────────────────
@@ -494,6 +497,12 @@ function fileRef(value: unknown, path: string, commit: string): CatalogFileRef {
     return { url, sha256: match(raw.sha256, `${path}.sha256`, SHA256, 64), bytes: count("bytes"), items: count("items") };
 }
 
+const unique = <T>(list: T[], key: (entry: T) => string, path: string): T[] => {
+    const seen = new Set<string>();
+    for (const entry of list) { const k = key(entry); if (seen.has(k)) fail(path, "contains a duplicate"); seen.add(k); }
+    return list;
+};
+
 /** The signed index. `schema` must be one this library reads. */
 export function readIndex(value: unknown): CatalogIndex {
     const raw = obj(value, "index");
@@ -501,11 +510,6 @@ export function readIndex(value: unknown): CatalogIndex {
     if (!Number.isInteger(raw.sequence) || (raw.sequence as number) < 1) fail("index.sequence", "not a positive integer");
     const blocked = obj(raw.blocked, "index.blocked");
     const commit = match(raw.commit, "index.commit", SHA1, 40);
-    const unique = <T>(list: T[], key: (entry: T) => string, path: string): T[] => {
-        const seen = new Set<string>();
-        for (const entry of list) { const k = key(entry); if (seen.has(k)) fail(path, "lists one file twice"); seen.add(k); }
-        return list;
-    };
     return {
         schema: 1,
         sequence: raw.sequence as number,
@@ -535,10 +539,17 @@ export function readIndex(value: unknown): CatalogIndex {
             if (id === "tools" && !ref.url.endsWith(`/${commit}/tools.json`)) fail("index.parts.tools.url", "not the root manifest");
             return { id, ...ref };
         }), part => part.id, "index.parts"),
-        annotations: unique(arr(raw.annotations, "index.annotations", 16).map((entry, i) => ({
-            catalogue: match(obj(entry, `index.annotations[${i}]`).catalogue, `index.annotations[${i}].catalogue`, /^[a-z][a-z0-9-]{0,31}$/, 32),
-            ...fileRef(entry, `index.annotations[${i}]`, commit),
-        })), file => file.catalogue, "index.annotations"),
+        annotations: arr(raw.annotations, "index.annotations", 1).map(entry => {
+            const path = "index.annotations.composio";
+            const annotation = obj(entry, path);
+            only(annotation, path, ["catalogue", "url", "sha256", "bytes", "items"]);
+            const ref = fileRef(annotation, path, commit);
+            if (annotation.catalogue !== "composio" || !ref.url.endsWith(`/${commit}/annotations/composio.json`)
+                || ref.bytes < 1 || ref.bytes > MAX_ANNOTATIONS_BYTES || ref.items > MAX_ANNOTATED_TOOLKITS) {
+                fail(path, "not a bounded Composio annotation manifest");
+            }
+            return { catalogue: "composio", ...ref };
+        }),
         revokes: raw.revokes === undefined ? [] : arr(raw.revokes, "index.revokes", 8).map((k, i) => match(k, `index.revokes[${i}]`, /^[a-z0-9-]{1,64}$/, 64)),
         blocked: {
             packages: arr(blocked.packages, "index.blocked.packages", 10_000).map((entry, i) => {
@@ -568,34 +579,44 @@ export function readSignature(value: unknown): CatalogSignature {
         signature: match(raw.signature, "signature.signature", /^[A-Za-z0-9_-]{86}$/, 86) };
 }
 
-/** Annotations only add discovery, set replacedBy, and give tools effects. */
+/** A2 permits only toolkit identifiers and our own classification. */
 export function readAnnotations(value: unknown): CatalogAnnotations {
-    const raw = obj(value, "annotations");
-    const entries = obj(raw.entries, "annotations.entries");
-    if (Object.keys(entries).length > 20_000) fail("annotations.entries", "too many entries");
-    return {
-        catalogue: match(raw.catalogue, "annotations.catalogue", /^[a-z][a-z0-9-]{0,31}$/, 32),
-        entries: Object.fromEntries(Object.entries(entries).map(([id, entry]) => {
-            const path = `annotations.entries[${JSON.stringify(id).slice(0, 60)}]`;
-            match(id, path, ID, 220);
-            const e = obj(entry, path);
-            only(e, path, ["discovery", "replacedBy", "effects"]);
-            const out: CatalogAnnotations["entries"][string] = {};
-            if (e.discovery !== undefined) {
-                const d = obj(e.discovery, `${path}.discovery`);
-                only(d, `${path}.discovery`, ["attributes", "tasks"]);
-                const read = readDiscovery(d, `${path}.discovery`);
-                out.discovery = { ...(read.attributes ? { attributes: read.attributes } : {}), ...(read.tasks ? { tasks: read.tasks } : {}) };
+    const entries = obj(value, "annotations");
+    if (Object.keys(entries).length > MAX_ANNOTATED_TOOLKITS) fail("annotations", "too many toolkits");
+    return { catalogue: "composio", entries: Object.fromEntries(Object.entries(entries).map(([id, entry]) => {
+        const path = "annotations.toolkit";
+        match(id, path, /^[a-z0-9][a-z0-9_-]{0,127}$/, 128);
+        const e = obj(entry, path);
+        only(e, path, ["topics", "replacedBy", "effects"]);
+        const out: ToolkitNote = {};
+        if (e.topics !== undefined) out.topics = unique(arr(e.topics, path + ".topics", 3)
+            .map(topic => match(topic, path + ".topics", /^[0-9]{2}\.[0-9]{2}(?:\.[0-9]{2})?$/, 8)), topic => topic, path + ".topics");
+        if (e.replacedBy !== undefined) out.replacedBy = unique(arr(e.replacedBy, path + ".replacedBy", 8)
+            .map(id => match(id, path + ".replacedBy", ID, 220)), id => id, path + ".replacedBy");
+        if (e.effects !== undefined) {
+            const ref = obj(e.effects, path + ".effects");
+            only(ref, path + ".effects", ["sha256", "bytes", "tools"]);
+            const { bytes, tools } = ref;
+            if (typeof bytes !== "number" || !Number.isSafeInteger(bytes) || bytes < 1 || bytes > MAX_EFFECT_BLOB_BYTES
+                || typeof tools !== "number" || !Number.isSafeInteger(tools) || tools < 1 || tools > MAX_TOOLKIT_EFFECTS) {
+                return fail(path + ".effects", "effect size or count out of range");
             }
-            if (e.replacedBy !== undefined) out.replacedBy = arr(e.replacedBy, `${path}.replacedBy`, 8).map((r, i) => match(r, `${path}.replacedBy[${i}]`, ID, 220));
-            if (e.effects !== undefined) {
-                const effects = obj(e.effects, `${path}.effects`);
-                if (Object.keys(effects).length > 2000) fail(`${path}.effects`, "too many effects");
-                out.effects = Object.fromEntries(Object.entries(effects).map(([tool, effect]) => [str(tool, `${path}.effects[key]`, 128), readEffect(effect, `${path}.effects.${tool}`)]));
-            }
-            return [id, out];
-        })),
-    };
+            out.effects = { sha256: match(ref.sha256, path + ".effects.sha256", SHA256, 64), bytes, tools };
+        }
+        return [id, out];
+    })) };
+}
+
+export function readAnnotationEffects(value: unknown, ref: AnnotationEffectRef): Record<string, ToolEffect> {
+    const raw = obj(value, "annotation effect blob");
+    only(raw, "annotation effect blob", ["effects"]);
+    const effects = Object.entries(obj(raw.effects, "annotation effects"));
+    if (effects.length !== ref.tools || effects.length > MAX_TOOLKIT_EFFECTS) fail("annotation effects", "effect count mismatch");
+    return Object.fromEntries(effects.map(([hash, effect]) => {
+        match(hash, "annotation definition hash", SHA256, 64);
+        if (effect !== "read" && effect !== "write" && effect !== "risky") return fail("annotation effect", "unknown effect");
+        return [hash, effect];
+    }));
 }
 
 // ── Tool hash ───────────────────────────────────────────────────────────────

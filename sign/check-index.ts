@@ -9,7 +9,8 @@
 
 import { createHash } from "node:crypto";
 import { join } from "node:path";
-import { validateIndexBytes } from "../validate";
+import { ANNOTATIONS_PATH, checkAnnotationGraph } from "../annotation-parts";
+import { validatePartBytes, validateIndexBytes } from "../validate";
 
 export const PART_IDS = ["connectors", "skills"] as const;
 /** Present when the build publishes tool lists (spec §15, A1.1). */
@@ -68,10 +69,26 @@ export function checkToolFiles(blob: (path: string) => Uint8Array | null, files:
 }
 
 /** The files under tools/ in a commit. */
-export function committedToolFiles(repo: string, commit: string): string[] {
-    const result = Bun.spawnSync(["git", "-C", repo, "ls-tree", "-r", "--name-only", "-z", commit, "--", "tools/"], { stdout: "pipe", stderr: "pipe" });
+export function committedFiles(repo: string, commit: string, prefix: string): string[] {
+    const result = Bun.spawnSync(["git", "-C", repo, "ls-tree", "-r", "--name-only", "-z", commit, "--", prefix], { stdout: "pipe", stderr: "pipe" });
     if (result.exitCode !== 0) throw new Error(`git ls-tree failed: ${result.stderr.toString().trim()}`);
     return result.stdout.toString().split("\0").filter(Boolean);
+}
+
+export function committedToolFiles(repo: string, commit: string) { return committedFiles(repo, commit, "tools/"); }
+
+export function checkAnnotations(index: ReturnType<typeof validateIndexBytes>, blob: (path: string) => Uint8Array | null, files: string[]) {
+    const root = files.includes(ANNOTATIONS_PATH) ? blob(ANNOTATIONS_PATH) : null;
+    const connectors = root ? new Set(validatePartBytes("connectors", blob("connectors.json")!).map(item => item.id)) : new Set<string>();
+    const ref = checkAnnotationGraph(root, files.filter(file => file !== ANNOTATIONS_PATH), connectors, blob);
+    if (!ref && !index.annotations.length) return [];
+    const [entry] = index.annotations;
+    if (!ref || index.annotations.length !== 1 || entry?.catalogue !== "composio"
+        || entry.url !== `${RAW}/${index.commit}/${ANNOTATIONS_PATH}`
+        || entry.bytes !== ref.bytes || entry.sha256 !== ref.sha256 || entry.items !== ref.items) {
+        return ["Composio annotations do not match the committed bytes"];
+    }
+    return [];
 }
 
 export function committedBlob(repo: string, commit: string) {
@@ -86,7 +103,8 @@ if (import.meta.main) {
     if (!dir || !commit || !/^[0-9a-f]{40}$/.test(commit)) { console.error("usage: bun sign/check-index.ts <published-checkout> <parts-commit>"); process.exit(2); }
     const index = validateIndexBytes(new Uint8Array(await Bun.file(join(dir, "index.json")).arrayBuffer())) as any;
     const blob = committedBlob(dir, commit);
-    const problems = [...checkParts(index, commit, blob), ...checkToolFiles(blob, committedToolFiles(dir, commit))];
+    const problems = [...checkParts(index, commit, blob), ...checkToolFiles(blob, committedToolFiles(dir, commit)),
+        ...checkAnnotations(index, blob, committedFiles(dir, commit, "annotations/"))];
     if (problems.length) { console.error(`index refused:\n- ${problems.join("\n- ")}`); process.exit(1); }
     console.log(`index valid: sequence ${index.sequence}, parts match commit ${commit}`);
 }

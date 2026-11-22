@@ -89,6 +89,7 @@ jobs:
           cp ../staging/connectors.json ../staging/skills.json .
           if [ -f ../staging/tools.json ]; then cp ../staging/tools.json .; fi
           if [ -d ../staging/tools ]; then cp -R ../staging/tools tools; fi
+          if [ -d ../staging/annotations ]; then cp -R ../staging/annotations annotations; fi
           git add -A
           git commit -q --allow-empty -m "Parts from build ${BUILD}"
           echo "PARTS_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
