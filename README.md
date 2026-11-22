@@ -3,9 +3,9 @@
 How it is built: `PROCESS.md`. What gets in, and why: `RULES.md`. How it is organized:
 `TAXONOMY.md` (coming with the first publication).
 
-The catalogue of connectors, skills and bundles that `agents` hubs read. Spec:
-`10-30-SPEC-catalog-service.md` and `10-30-RULES-catalog.md` in `qlairoslabs/agents`
-(`.res/4docs/31-10+/`). Status: **L0 contracts, for review.** No build yet.
+The catalogue of connectors, skills and bundles that `agents` hubs read. Status: the build,
+classification, signing and publishing are in place; the first signed publication is being
+prepared.
 
 ## The contract
 
