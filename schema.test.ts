@@ -18,6 +18,14 @@ test("the examples validate", async () => {
     expect(check("annotations.schema.json", await read("./examples/annotations-composio.json"))).toBeNull();
 });
 
+test("the detached release example verifies with the production gate", async () => {
+    const { loadToolParts } = await import("./tool-parts");
+    const { validatePart } = await import("./validate");
+    const listings = validatePart("connectors",await read("./examples/detached/connectors.json"));
+    const release = await loadToolParts(new URL("./examples/detached",import.meta.url).pathname,listings);
+    expect(release.refs.size).toBeGreaterThan(0);
+});
+
 test("connect is strict: unknown fields, plain-text secrets, non-HTTPS URLs and delegated configs are refused", async () => {
     const base = (await read("./examples/connectors.json")).mcp[0];
     const cases = [
@@ -82,4 +90,20 @@ test("index times are real calendar times (the same cases as the library's suite
         expect(check("index.schema.json", { ...index, expires: time })).not.toBeNull();
     }
     expect(check("index.schema.json", { ...index, expires: "2028-02-29T00:00:00Z" })).toBeNull();
+});
+
+test("optional taxonomy facet has bounded strings and a strict metadata object", async () => {
+    const index = await read("./examples/index-taxonomy.json");
+    expect(check("index.schema.json",index)).toBeNull();
+    for (const mutate of [
+        (facet: any) => { facet.version = "x".repeat(17); },
+        (facet: any) => { facet.values[0].label = "x".repeat(121); },
+        (facet: any) => { facet.values[0].taxonomy.category = "x".repeat(121); },
+        (facet: any) => { facet.values[0].taxonomy.definition = "x".repeat(301); },
+        (facet: any) => { facet.values[0].taxonomy.unexpected = "x"; },
+    ]) {
+        const bad = structuredClone(index);
+        mutate(bad.facets[0]);
+        expect(check("index.schema.json",bad)).not.toBeNull();
+    }
 });

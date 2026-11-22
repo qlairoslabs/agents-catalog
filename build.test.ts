@@ -1,6 +1,6 @@
 import { expect, test } from "bun:test";
 import { createHash } from "node:crypto";
-import { mkdtempSync, rmSync, truncateSync } from "node:fs";
+import { mkdirSync, mkdtempSync, rmSync, truncateSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { makeIndex, partWithFallback, pickCommunity } from "./build";
@@ -119,11 +119,21 @@ function cli(args: string[]) {
     return Bun.spawnSync([process.execPath, new URL("./build.ts", import.meta.url).pathname, ...args], { stderr: "pipe", stdout: "pipe" });
 }
 
+async function emptyTools(dir: string) {
+    mkdirSync(join(dir,"tools"));
+    await Bun.write(join(dir,"tools.json"), '{"lists":{}}');
+}
+const lightConnectors = {...connectors,mcp:connectors.mcp.map(item=>{
+    const { tools, ...connect } = item.connect;
+    return {...item,connect};
+})};
+
 test("both CLI release checks refuse an invalid UTF-8 title byte and extras in out", async () => {
     const dir = mkdtempSync(join(tmpdir(),"catalog-release-bytes-"));
     try {
+        await emptyTools(dir);
         const path = join(dir, "connectors.json");
-        const bytes = Buffer.from(JSON.stringify(connectors));
+        const bytes = Buffer.from(JSON.stringify(lightConnectors));
         const title = bytes.indexOf("Notion");
         bytes[title] = 0xff;
         await Bun.write(path, bytes);
@@ -131,12 +141,12 @@ test("both CLI release checks refuse an invalid UTF-8 title byte and extras in o
         expect(cli(["validate",dir]).exitCode).not.toBe(0);
         expect(cli(["index","--commit",commit,"--dir",dir]).exitCode).not.toBe(0);
         expect(await Bun.file(join(dir,"index.json")).exists()).toBe(false);
-        await Bun.write(path, JSON.stringify(connectors));
+        await Bun.write(path, JSON.stringify(lightConnectors));
         expect(cli(["validate",dir]).exitCode).toBe(0);
         await Bun.write(join(dir,"report.md"), "Review notes");
         expect(cli(["validate",dir]).stderr.toString()).toContain("must contain only");
         rmSync(join(dir,"report.md"));
-        const original = Buffer.from(JSON.stringify(connectors).replace("Notion","Notión") + "\r\n ");
+        const original = Buffer.from(JSON.stringify(lightConnectors).replace("Notion","Notión") + "\r\n ");
         await Bun.write(path, original);
         expect(cli(["index","--commit",commit,"--dir",dir]).exitCode).toBe(0);
         const index = await Bun.file(join(dir,"index.json")).json();
@@ -148,8 +158,9 @@ test("release gates reject byte, aggregate, item, nesting and field oversize", a
     const mib = 1024 * 1024;
     const dir = mkdtempSync(join(tmpdir(),"catalog-release-limits-"));
     try {
+        await emptyTools(dir);
         const connectorPath = join(dir, "connectors.json"), skillsPath = join(dir, "skills.json"), old = join(dir, "old.json");
-        await Bun.write(connectorPath, JSON.stringify(connectors));
+        await Bun.write(connectorPath, JSON.stringify(lightConnectors));
         await Bun.write(skillsPath, JSON.stringify(skills));
         await Bun.write(old, "{}");
         truncateSync(old, 2 * mib + 1);
@@ -213,6 +224,14 @@ test.skipIf(!r4Available)("classification attaches matching tags and facets with
         const withoutReview = await applyClassification(listings,{tags:dir,vocabulary:join(dir,"missing.json"),required:true});
         expect(withoutReview.items[0]!.discovery.attributes).toMatchObject({goal:["automate-work"]});
         for (const field of ["domain","product","audience"]) expect(withoutReview.items[0]!.discovery.attributes).not.toHaveProperty(field);
+        item.discovery = { summary:"Reviewed summary",attributes:{topic:["01.03.02"],signin:["oauth"]} };
+        const v1 = await applyClassification(listings,{tags:dir,required:true,effectsOnly:true});
+        expect(v1.items[0]).toMatchObject({
+            discovery:{summary:"Reviewed summary",attributes:{topic:["01.03.02"],signin:["oauth"]},
+                whenToUse:"Workspace search",tasks:["Search notes"]},
+            connect:{tools:[{effect:{effect:"read",hash:toolHash(tool)}}]},
+        });
+        for (const field of ["domain","product","audience","goal"]) expect(v1.items[0]!.discovery.attributes).not.toHaveProperty(field);
         await Bun.write(vocabulary, "{}");
         await expect(applyClassification(listings,{tags:dir,vocabulary})).rejects.toThrow("vocabulary domain");
         await Bun.write(tagFile, JSON.stringify({ ...tag, classifier:0 }));

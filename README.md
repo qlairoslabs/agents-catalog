@@ -10,9 +10,11 @@ A build publishes, on the `published` branch:
 
 | File | Schema | What |
 |---|---|---|
-| `index.json` | `schema/index.schema.json` | the signed file: sequence, expiry, facets, parts, annotations, the block list |
+| `index.json` | `schema/index.schema.json` | the signed file: sequence, expiry, facets (including optional versioned topic taxonomy), parts, annotations, the block list |
 | `index.json.sig` | `schema/signature.schema.json` | a detached Ed25519 signature over the exact bytes of `index.json`, nothing else |
 | `connectors.json` | `schema/parts.schema.json#/$defs/connectors` | `{ "mcp": [item…] }` |
+| `tools.json` | `schema/parts.schema.json#/$defs/tools` | listing IDs mapped to tool-list references and optional effect counts |
+| `tools/<sha256>.json` | `schema/parts.schema.json#/$defs/toolList` | one content-addressed tool list, shared when identical |
 | `skills.json` | `schema/parts.schema.json#/$defs/skills` | `{ "skills": [item…], "bundles": [item…] }` |
 | `annotations/<catalogue>.json` | `schema/annotations.schema.json` | our notes on another catalogue's listings |
 
@@ -65,7 +67,7 @@ Readers, and the build before it publishes, also check:
 
 The standalone build and resume commands are in
 [CHANGES-FROM-LIBRARY.md](CHANGES-FROM-LIBRARY.md). The review branch's
-`out/` holds exactly `connectors.json` and `skills.json`. Keep crawl captures,
+`out/` holds `connectors.json`, `skills.json`, `tools.json` and the referenced files in `tools/`. Keep crawl captures,
 checkpoints and logs in `.r1-cache/`, and the comparison under `reports/`.
 Do not put an index, signature, annotations or review notes in `out/`.
 
@@ -150,3 +152,32 @@ is used instead when set.
   because the model API needs it; with no tools the model has no way to use it. The
   image's Claude Code and ACP adapter are trusted.
 - **Deferred:** `reliesOn` (§7), which matters for skills, comes with R2.
+
+## Preparing v1
+
+The reviewed entry labels are in `facets/classification-v1.json`. The build
+requires one row for every input ID and resolves topics through the reviewed
+v1.1 TSV and regions through `facets/regions.tsv`. The signed index's topic
+facet carries the labels, definitions and exclusions. Listing status uses
+ordinary discovery attributes. The report records every dropped or merged ID.
+
+Fetch evidence into an external cache with
+`bun evidence.ts <validated-parts-dir> <evidence-dir> [previous-evidence-dir]`.
+The fetch records per-entry health and time, and never executes downloaded
+content. Reusing the same evidence directory resumes the same run. Use a new
+directory for a new run, and pass the previous directory to carry the
+consecutive unavailable count and last tool list. Set
+`CATALOG_EVIDENCE_EXCLUDE` to a JSON array of IDs already excluded by review.
+Only sanitized tool definitions reach the published parts.
+
+Run `bun build.ts parts --input <validated-parts-dir> --evidence <evidence-dir>
+--untagged --comparison <report-path> --output <untagged-dir>` before
+classifying tools. Then use
+`bun build.ts apply-tags --input <untagged-dir> --tags <tag-dir> --output <out>`
+and validate `out`. The v1 tag path retains the reviewed summary and topics
+and applies only per-tool effects, when-to-use text and tasks.
+
+The v1 parts command takes historical R1 listings as input. Use separate
+output directories for it and apply-tags. See examples/detached/ for the
+release layout. The manifest is capped at 2 MiB. Each blob is capped at
+1 MiB and 1,000 tools, with JSON depth at most 48.

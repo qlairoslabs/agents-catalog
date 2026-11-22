@@ -5,7 +5,7 @@ const root = new URL("../", import.meta.url);
 const defaultTags = new URL("tags/", root).pathname;
 
 export async function applyClassification(items: CatalogListingItem[], options: {
-    tags?: string; vocabulary?: string; required?: boolean;
+    tags?: string; vocabulary?: string; required?: boolean; effectsOnly?: boolean;
 } = {}) {
     const directory = options.tags ?? defaultTags;
     const files = await readdir(directory, { withFileTypes: true }).catch(error => {
@@ -24,13 +24,17 @@ export async function applyClassification(items: CatalogListingItem[], options: 
     const [{ applyTags }, { readTag }, { readVocabulary }] = await Promise.all([
         load("apply"), load("run"), load("vocabulary"),
     ]);
-    const vocabulary = readVocabulary(options.vocabulary);
+    const vocabulary = options.effectsOnly ? null : readVocabulary(options.vocabulary);
     const lookup = (hash: string) => readTag(directory, hash);
     let applied = 0;
     const decorated = items.map(item => {
         const tagged = applyTags(item, item.kind === "mcp" ? "connector" : item.kind, lookup, vocabulary) as CatalogListingItem;
         if (tagged !== item) applied++;
-        return tagged;
+        if (!options.effectsOnly || tagged === item) return tagged;
+        const { whenToUse, tasks } = tagged.discovery;
+        const discovery = { ...item.discovery, ...(whenToUse ? {whenToUse} : {}), ...(tasks?.length ? {tasks} : {}) };
+        if (item.kind === "mcp" && tagged.kind === "mcp") return { ...item, discovery, connect:{ ...item.connect, tools:tagged.connect.tools } };
+        return { ...item, discovery };
     });
     if (options.required && !applied) throw Error("classification tags did not match any input listings");
     return { items: decorated, applied };

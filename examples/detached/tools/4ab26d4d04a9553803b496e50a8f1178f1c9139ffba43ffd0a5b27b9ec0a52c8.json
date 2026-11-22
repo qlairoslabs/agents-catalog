@@ -1,0 +1,1 @@
+{"tools":[{"name":"search","description":"Search pages.","inputSchema":{"type":"object","properties":{"query":{"type":"string"}},"required":["query"]},"effect":{"effect":"read","hash":"10f186514e6fafab9aafa2b5aca9ffe9636c0ac80fb59e73add54bb09c89b78d"}}]}
