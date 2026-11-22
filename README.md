@@ -100,18 +100,10 @@ to use the working directory. The environment may contain only `PATH`, `LANG`,
 `LC_ALL` and `TZ`. Use an offline machine even with a clean environment.
 Verify the detached signature before transferring the signed index for publication.
 
-The `publish` workflow is dispatched by hand, from `main`, **by the owner only**, with the
-full commit of a build the owner has reviewed (its output in `out/`, on a branch of this
-repository). It runs in the protected `catalog-signing` environment (secret
-`CATALOG_SIGNING_KEY`, variables `CATALOG_SIGNING_KEY_ID` and `CATALOG_PUBLIC_KEY`).
-Nothing from the build commit runs: the tools are this workflow's own commit, and
-`sign/ingest.ts` reads the build's files as git objects, taking only `connectors.json`
-and `skills.json` as regular files, within the library's limits (24 MiB each, 64 MiB
-together) and as strict UTF-8, and refusing the build if anything else is in `out/`.
-Annotations are refused until the index signs their bytes. Reports and captures stay
-outside `out/`. The parts and then the index are validated by the trusted
-build code before signing. It publishes to `published` in two commits: the parts, then
-the index and its signature naming the parts' commit; the push is never forced.
+The `publish` workflow runs from `main`, naming the full commit of a build whose output is
+in `out/` on a branch of this repository: dispatched every week by the weekly job
+(`PROCESS.md` §11), or by hand. It runs in the protected `catalog-signing` environment
+(secret `CATALOG_SIGNING_KEY`, variables `CATALOG_SIGNING_KEY_ID` and `CATALOG_PUBLIC_KEY`).
 
 Any workflow on `main` could ask for the `catalog-signing` environment, so adding or
 changing a workflow is a reviewed change to the protected `main`. It needs
