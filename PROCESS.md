@@ -190,16 +190,17 @@ the previous validated part instead. A first build with no previous part fails.
 and every entry added, changed, merged or dropped, each with the rule that caused
 it. **A drop that cannot be attributed to a rule fails the build.**
 
-## 8. Review (now)
+## 8. Review (when the structure changes)
 
-The build's output (`out/connectors.json`, `out/skills.json`) and the comparison
-are committed to a branch, `manual-build` today. A person reviews it. Only reviewed
-bytes are published.
+A person reviews a build when the structure changes: a new taxonomy version, new
+rules, a new source. That build is committed to a branch (`manual-build`) and
+published only after review. Weekly builds are not reviewed: they are guarded by the
+safety stops in §11 instead.
 
 ## 9. Sign and publish (now)
 
-The `publish` workflow is started by hand, from `main`, by the owner, naming the
-full commit of the reviewed build. It:
+The `publish` workflow is started from `main`, naming the full commit of a build:
+by the weekly job (§11), on the owner's behalf, or by hand. It:
 
 1. Takes the build's files from that commit as git objects: the two parts, and (v1) the
    manifest and the tool-list files, refusing anything else in `out/`. Nothing from the
@@ -227,8 +228,7 @@ A new build starts from the stored results:
 - Taxonomy values are only added after publication, never renamed or reused; a
   merge ships as a published remap (`TAXONOMY.md`).
 
-**Later:** a scheduled daily build, publishing without the manual review for
-entries that only changed in health or tool lists; services and capabilities,
+**Later:** services and capabilities,
 with the same loop as §5.1; notes on other catalogues' listings (for example
 Composio's toolkits), published beside the index.
 
@@ -239,3 +239,101 @@ Composio's toolkits), published beside the index.
 - Servers that need sign-in stay described by their listing only, unless they
   publish their tools elsewhere.
 - Geo-blocking is not detected: servers are only reached from one place.
+
+## 11. Running the weekly build
+
+Every Sunday at 00:00 UTC the catalogue is rebuilt and published, with no manual
+review. The catalogue expires 14 days after a publication, so one missed week is
+covered. Everything runs from one script, `ops/weekly-run.sh`, configured only by
+environment settings, so it can move to another machine or to CI without changes.
+
+### Steps
+
+| # | Step | Command | Stops the run when |
+|---|---|---|---|
+| 1 | Update the checkout of this repository (`main`) | `git fetch`, fast-forward | `main` has diverged |
+| 2 | Isolation canary | `bun classify/canary.ts` | the model used a tool, asked a permission, wrote a file, or gave no valid answer |
+| 3 | Build before labeling: incremental crawl, evidence, checks, merge, compare | `bun weekly.ts build ... --output <run>/untagged --verdict <run>/verdict-untagged.json` | the verdict is "do not publish" (below) |
+| 4 | Label new listings against the taxonomy | `bun weekly.ts needs-labels` then `bun classify/label.ts` | never: unlabeled listings publish as Unclassified and are tried again next week |
+| 5 | Classify new or changed tools (`read`, `write`, `risky`) | `bun classify/run.ts <run>/untagged` | never: unclassified tools count as able to change things until next week |
+| 6 | Build with the labels | `bun weekly.ts build ... --output <run>/tagged --verdict <run>/verdict.json`, then `bun build.ts validate` | the verdict, or validation fails |
+| 7 | Record the week's labels on `main` | commit `tags/` and `facets/classification-added.json` | the push fails |
+| 8 | Release the build | `bun weekly.ts release --parts <run>/tagged --branch weekly-build` prints its full commit | no commit is returned |
+| 9 | Publish | `gh workflow run publish -f build=<commit>` (§9) | the dispatch fails |
+
+The last good signed catalogue stays live whenever a run stops.
+
+**Safety verdict** (steps 3 and 6), written by the build as JSON with `publish: true` or
+`false` and its reasons. "Do not publish" when: a drop has no rule; more than
+`CATALOG_MAX_DROP_FRACTION` (5%) of the previous listings dropped; a part shrinks below
+the guard (§6); validation fails.
+
+### What is kept between runs
+
+| What | Where | Why |
+|---|---|---|
+| Crawl checkpoints, the signal cache (domain ages, downloads), fetched evidence | `CATALOG_CACHE` | the crawl only re-checks what changes (§1, `RULES.md` §2.1) |
+| Per-listing classification | `facets/classification-v1.json` (reviewed, fixed) and `facets/classification-added.json` (weekly additions), in this repository | a listing keeps its labels by id; only new listings are labeled |
+| Tool effects, `whenToUse`, `tasks` | `tags/<hash>.json`, in this repository | reused while what the model read is unchanged |
+| The previous publication | the `published` branch | compared against, and kept live if a run stops |
+| Each run's outputs and log | `CATALOG_WORK/<date>/` | to see what happened |
+
+### Settings
+
+All in the environment; `ops/systemd/weekly.env.example` lists them.
+
+| Setting | Meaning |
+|---|---|
+| `CATALOG_CHECKOUT` | a git checkout of this repository, on `main`, that the job may commit from |
+| `CATALOG_CACHE`, `CATALOG_WORK` | the kept cache, and the per-run outputs |
+| `CATALOG_GITHUB_REPO` | the repository to publish (`qlairoslabs/agents-catalog`) |
+| `CATALOG_PREVIOUS_INDEX` | the published index to compare with (default: the `published` branch) |
+| `CATALOG_PUBLISH` | `1` to dispatch `publish`, `0` to stop after releasing the build |
+| `CATALOG_MAX_DROP_FRACTION` | the drop limit (default `0.05`) |
+| `CLASSIFY_LABEL_MODEL`, `CLASSIFY_RECHECK_MODEL`, `CLASSIFY_EFFECTS_MODEL` | the models for labeling (default Haiku), its re-check (Sonnet) and tool effects (Sonnet) |
+| `CLASSIFY_IMAGE` | the container image the models run in (§5.3) |
+
+Credentials are not settings: the model login and GitHub access come from the machine
+the job runs on.
+
+### On a maintainer's machine (now)
+
+- Requirements: Bun, git, podman with the classification image, a Claude Code login,
+  and `gh` signed in with rights to push to this repository and run workflows.
+- Install the timer: copy `ops/systemd/agents-catalog-weekly.{service,timer}` to
+  `~/.config/systemd/user/`, write `~/.config/agents-catalog/weekly.env` from the
+  example, then `systemctl --user daemon-reload && systemctl --user enable --now
+  agents-catalog-weekly.timer`. For it to run while logged out:
+  `loginctl enable-linger $USER`.
+- Run by hand: `systemctl --user start agents-catalog-weekly.service`, or run
+  `ops/weekly-run.sh` with the settings exported. `CATALOG_PUBLISH=0` builds and
+  releases without publishing.
+- See runs: `journalctl --user -u agents-catalog-weekly` and `CATALOG_WORK/<date>/run.log`.
+
+### Moving it (checklist)
+
+The job is planned to move off the maintainer's machine, likely to GitHub Actions with
+OpenRouter as the model provider through acp-client. To move it:
+
+1. **Models:** choose a harness that acp-client drives with OpenRouter, and make it the
+   classifier's provider in `classify/model.ts` (today: Claude Code through
+   `claude-agent-acp`). Keep the container, the empty tool set and the canary. Use an
+   OpenRouter key with a spending limit and an expiry, held as a secret of a protected
+   environment that only the classification job can use. This reverses the earlier
+   rule that models never run in GitHub's builds; the owner accepted it on that basis.
+2. **Separate jobs:** build and classification in one job, signing and publishing in
+   the existing `publish` workflow, which must stay the only user of the signing key.
+3. **The cache:** keep `CATALOG_CACHE` between runs (an Actions cache, or a release
+   asset), or the crawl starts from nothing and takes hours.
+4. **Time:** a GitHub job may run at most 6 hours. The incremental crawl should fit;
+   a cold start may not, in which case it resumes from its checkpoint next run.
+5. **Rate limits:** npm, PyPI, OSV and RDAP see GitHub's shared addresses; the crawl
+   is paced and retries, but expect more "no answer" results (`RULES.md` §2.1).
+6. **Pushing:** the job needs a token that can push `main` (labels) and
+   `weekly-build`, and dispatch `publish`.
+7. **Schedule:** a `schedule:` trigger at `0 0 * * 0` (Sunday 00:00 UTC). GitHub
+   disables schedules in public repositories after 60 days without activity; the
+   weekly commits count as activity.
+8. **Container:** Actions runners have Docker, not podman; the classifier's container
+   command needs that switch.
+
