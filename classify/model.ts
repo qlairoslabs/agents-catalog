@@ -12,7 +12,7 @@
 // CLAUDE_CODE_OAUTH_TOKEN, if set); the refresh token never enters the container.
 
 import { randomUUID } from "node:crypto";
-import { existsSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
+import { chmodSync, closeSync, constants, existsSync, mkdtempSync, openSync, readFileSync, rmSync, writeFileSync, writeSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { AgentController } from "@qlairoslabs/acp-client";
@@ -31,6 +31,24 @@ export interface ModelOptions {
      *  host (under Claude Code's own lock) ever refreshes. Used unless
      *  CLAUDE_CODE_OAUTH_TOKEN is set. */
     credentials?: string;
+    /** Which harness: Claude Code through claude-agent-acp (default), or OpenCode
+     *  (`opencode acp`), whose model is `provider/model` (e.g.
+     *  `opencode-go/deepseek-v4.1-flash`) and whose key is OPENCODE_API_KEY, passed by
+     *  name. OpenCode's binary is mounted read-only from the host. */
+    harness?: "claude" | "opencode";
+    opencodeBinary?: string;
+}
+
+/** OpenCode's settings inside the container: no tools, every permission denied,
+ *  nothing fetched or updated on its own. Passed as OPENCODE_CONFIG_CONTENT. */
+export function opencodeConfig(model: string): string {
+    return JSON.stringify({
+        $schema: "https://opencode.ai/config.json",
+        model, autoupdate: false, share: "disabled",
+        tools: { "*": false },
+        permission: { "*": "deny", edit: "deny", bash: "deny", webfetch: "deny", external_directory: "deny" },
+        mcp: {},
+    });
 }
 
 export const DEFAULT_OPTIONS: ModelOptions = {
@@ -38,6 +56,8 @@ export const DEFAULT_OPTIONS: ModelOptions = {
     model: "sonnet",
     timeoutMs: 15 * 60_000,
     credentials: join(process.env.HOME ?? "", ".claude", ".credentials.json"),
+    harness: process.env.CLASSIFY_HARNESS === "opencode" ? "opencode" : "claude",
+    opencodeBinary: process.env.CLASSIFY_OPENCODE_BINARY,
 };
 
 /** The exact environment podman runs with on the host: the same for creating,
@@ -97,23 +117,78 @@ function settingsFile(): string {
     return file;
 }
 
-/** The ACP adapter's command: podman around claude-agent-acp. */
-export function containerCommand(options: ModelOptions, settings: string, name = `classify-${randomUUID()}`): string[] {
-    return [
-        "podman", "run", "--rm", "-i", "--pull=never", "--name", name,
+/** Where a run's credential is mounted inside the container. The value is never
+ *  passed as an environment option to podman, which would copy it into the
+ *  container's saved configuration on disk; it lives in a memory-backed file the
+ *  host deletes when the batch ends, and a shell reads it into the process. */
+export const KEY_PATH = "/run/classify/key";
+
+/** The ACP adapter's command: podman around claude-agent-acp or OpenCode. Output
+ *  is never logged by podman (`--log-driver=none`), so no answer stays in the host
+ *  journal. */
+export function containerCommand(options: ModelOptions, settings: string, name = `classify-${randomUUID()}`, keyFile = "/dev/null"): string[] {
+    const common = [
+        "podman", "run", "--rm", "-i", "--pull=never", "--name", name, "--log-driver=none",
         "--read-only", "--cap-drop=all", "--security-opt", "no-new-privileges",
-        "--tmpfs", "/home/classify:rw,size=128m", "--tmpfs", "/tmp:rw,size=128m",
+        "--tmpfs", "/tmp:rw,size=128m",
         ...(options.workMount ? ["-v", `${options.workMount}:/work:rw`] : ["--tmpfs", "/work:rw,size=1m"]),
+        "-v", `${keyFile}:${KEY_PATH}:ro`,
+        "--workdir", "/work", "-e", "HOME=/home/classify",
+    ];
+    const start = (variable: string, program: string) =>
+        `read -r k < ${KEY_PATH}; export ${variable}="$k"; unset k; exec ${program}`;
+    if (options.harness === "opencode") {
+        if (!options.opencodeBinary) throw new Error("OpenCode needs its binary (opencodeBinary)");
+        return [
+            ...common,
+            "--tmpfs", "/home/classify:rw,size=256m",
+            "-v", `${options.opencodeBinary}:/usr/local/bin/opencode-classify:ro`,
+            "-e", `OPENCODE_CONFIG_CONTENT=${opencodeConfig(options.model)}`,
+            "-e", "OPENCODE_DISABLE_AUTOUPDATE=1", "-e", "OPENCODE_DISABLE_CLAUDE_CODE=1",
+            "-e", "OPENCODE_DISABLE_PROJECT_CONFIG=1", "-e", "OPENCODE_DISABLE_FILEWATCHER=1",
+            "--entrypoint", "/bin/sh",
+            options.image, "-c", start("OPENCODE_API_KEY", "/usr/local/bin/opencode-classify acp"),
+        ];
+    }
+    return [
+        ...common,
+        "--tmpfs", "/home/classify:rw,size=128m",
         "-v", `${settings}:/etc/claude-code/managed-settings.json:ro`,
-        "--workdir", "/work",
-        // Only an access token, by name: never the login file or its refresh token.
-        "-e", "CLAUDE_CODE_OAUTH_TOKEN",
-        "-e", "HOME=/home/classify",
         "-e", `ANTHROPIC_MODEL=${options.model}`,
         "-e", "DISABLE_AUTOUPDATER=1", "-e", "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1",
-        "--entrypoint", "claude-agent-acp",
-        options.image,
+        "--entrypoint", "/bin/sh",
+        options.image, "-c", start("CLAUDE_CODE_OAUTH_TOKEN", "claude-agent-acp"),
     ];
+}
+
+/** Writes the credential to a memory-backed file only the user can read, for one run. */
+export function writeKeyFile(value: string, base = "/dev/shm"): { file: string; remove: () => void } {
+    // Memory-backed only: never fall back to a disk directory for a credential.
+    if (!isMemoryBacked(base)) throw new Error(`${base} is not a memory-backed directory; refusing to write the credential`);
+    const dir = mkdtempSync(join(base, "classify-key-"));
+    const remove = () => rmSync(dir, { recursive: true, force: true });
+    try {
+        chmodSync(dir, 0o700);
+        const file = join(dir, "key");
+        const fd = openSync(file, constants.O_WRONLY | constants.O_CREAT | constants.O_EXCL, 0o600);
+        try { writeSync(fd, value + "\n"); } finally { closeSync(fd); }
+        return { file, remove };
+    } catch (error) { remove(); throw error; }
+}
+
+/** True when `dir` is on tmpfs (or ramfs), from /proc/self/mountinfo. */
+export function isMemoryBacked(dir: string, mountinfo = (() => { try { return readFileSync("/proc/self/mountinfo", "utf8"); } catch { return ""; } })()): boolean {
+    let best = "", type = "";
+    for (const line of mountinfo.split("\n")) {
+        const parts = line.split(" ");
+        const dash = parts.indexOf("-");
+        if (dash < 0 || !parts[4]) continue;
+        const point = parts[4];
+        if ((dir === point || dir.startsWith(point.endsWith("/") ? point : point + "/")) && point.length >= best.length) {
+            best = point; type = parts[dash + 1] ?? "";
+        }
+    }
+    return type === "tmpfs" || type === "ramfs";
 }
 
 export interface BatchRun {
@@ -174,59 +249,68 @@ type Controller = Pick<AgentController, "start" | "prompt" | "stop">;
 
 export async function runBatch(options: ModelOptions, prompt: string,
     deps: { controller?: (config: ConstructorParameters<typeof AgentController>[0]) => Controller; removeContainer?: typeof removeContainer } = {}): Promise<BatchRun> {
-    if (!process.env.CLAUDE_CODE_OAUTH_TOKEN) {
+    const opencode = options.harness === "opencode";
+    if (opencode && !process.env.OPENCODE_API_KEY) throw new Error("OPENCODE_API_KEY is not set for the OpenCode harness");
+    if (!opencode && !process.env.CLAUDE_CODE_OAUTH_TOKEN) {
         if (!(options.credentials && existsSync(options.credentials))) {
             throw new Error("no Claude Code login: sign in with `claude` on this machine, or set CLAUDE_CODE_OAUTH_TOKEN");
         }
         await ensureFreshLogin(options.credentials, options.timeoutMs + 5 * 60_000);
     }
-    const token = process.env.CLAUDE_CODE_OAUTH_TOKEN || (options.credentials ? loginAccess(options.credentials)?.accessToken : undefined);
+    const token = opencode ? process.env.OPENCODE_API_KEY
+        : process.env.CLAUDE_CODE_OAUTH_TOKEN || (options.credentials ? loginAccess(options.credentials)?.accessToken : undefined);
     if (!token) throw new Error("no access token to give the container");
     // The relay adds the explicit empty tool set to session/new on the wire.
     const name = `classify-${randomUUID()}`;
-    const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name)];
-    // Only what podman needs on the host, and the token it passes on by name.
-    const env = podmanEnv();
-    const spawnEnv: Record<string, string> = { ...env };
-    spawnEnv.CLAUDE_CODE_OAUTH_TOKEN = token;
-    const agent: Controller = (deps.controller ?? (config => new AgentController(config)))({
-        adapter: { command, displayName: "Claude (classify)" },
-        adapterId: "claude",
-        // The launcher replaces the adapter command with the exact podman process;
-        // /work is the folder the harness sees inside the container.
-        launcher: { prepare: async () => ({ command, spawnCwd: tmpdir(), spawnEnv }) },
-        cwd: "/work",
-        mcpServers: [],
-        defaultPermission: "cancel",
-        clientHandlers: { terminal: false, filesystem: false },
-    });
-    const tools: string[] = [];
-    let permissions = 0;
-    const timer = setTimeout(() => { void agent.stop().catch(() => undefined); }, options.timeoutMs);
+    // The credential file is removed on every path from here on, including a
+    // failure while building the command or the controller.
+    const key = writeKeyFile(token);
     try {
-        await agent.start(); // a failure here is hard: the session never started
-        let result: Awaited<ReturnType<Controller["prompt"]>>;
+        const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name, key.file)];
+        // Only what podman needs on the host; the credential goes through the key file.
+        const env = podmanEnv();
+        const spawnEnv: Record<string, string> = { ...env };
+        const agent: Controller = (deps.controller ?? (config => new AgentController(config)))({
+            adapter: { command, displayName: opencode ? "OpenCode (classify)" : "Claude (classify)" },
+            adapterId: opencode ? "opencode" : "claude",
+            // The launcher replaces the adapter command with the exact podman process;
+            // /work is the folder the harness sees inside the container.
+            launcher: { prepare: async () => ({ command, spawnCwd: tmpdir(), spawnEnv }) },
+            cwd: "/work",
+            mcpServers: [],
+            defaultPermission: "cancel",
+            clientHandlers: { terminal: false, filesystem: false },
+        });
+        const tools: string[] = [];
+        let permissions = 0;
+        const timer = setTimeout(() => { void agent.stop().catch(() => undefined); }, options.timeoutMs);
         try {
-            result = await agent.prompt(prompt, {
-            // Task and todo activity reaches ACP as plan updates, not tool calls: both count.
-            onActivity: (event: any) => {
-                if (["tool", "tool_update", "plan", "plan_update", "plan_removed"].includes(event?.kind)) tools.push(String(event.title ?? event.kind));
-            },
-            onPermissionRequest: () => { permissions++; return { outcome: "cancelled" } as const; },
-            });
-        } catch (error) {
-            // Activity seen before a failure is still an isolation breach: hard.
-            if (tools.length || permissions) throw new Error(`the harness tried to use tools (${tools.join(", ") || "permission request"}) before failing; stopping`);
-            throw new PromptFailure(error instanceof Error ? error.message : String(error));
+            await agent.start(); // a failure here is hard: the session never started
+            let result: Awaited<ReturnType<Controller["prompt"]>>;
+            try {
+                result = await agent.prompt(prompt, {
+                    // Task and todo activity reaches ACP as plan updates, not tool calls: both count.
+                    onActivity: (event: any) => {
+                        if (["tool", "tool_update", "plan", "plan_update", "plan_removed"].includes(event?.kind)) tools.push(String(event.title ?? event.kind));
+                    },
+                    onPermissionRequest: () => { permissions++; return { outcome: "cancelled" } as const; },
+                });
+            } catch (error) {
+                // Activity seen before a failure is still an isolation breach: hard.
+                if (tools.length || permissions) throw new Error(`the harness tried to use tools (${tools.join(", ") || "permission request"}) before failing; stopping`);
+                throw new PromptFailure(error instanceof Error ? error.message : String(error));
+            }
+            const text = result.messages.map((message: any) => message.text ?? "").join("\n");
+            return { text, tools, permissions, stopReason: String(result.stopReason) };
+        } finally {
+            clearTimeout(timer);
+            await agent.stop().catch(() => undefined);
+            // acp-client stops the relay with SIGTERM, then SIGKILL; the container
+            // is removed here either way, and its absence confirmed.
+            await (deps.removeContainer ?? removeContainer)(name, 20_000, env);
         }
-        const text = result.messages.map((message: any) => message.text ?? "").join("\n");
-        return { text, tools, permissions, stopReason: String(result.stopReason) };
     } finally {
-        clearTimeout(timer);
-        await agent.stop().catch(() => undefined);
-        // acp-client stops the relay with SIGTERM, then SIGKILL; the container
-        // is removed here either way, and its absence confirmed.
-        await (deps.removeContainer ?? removeContainer)(name, 20_000, env);
+        key.remove();
     }
 }
 

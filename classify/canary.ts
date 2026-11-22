@@ -37,7 +37,7 @@ export function judge(run: Pick<BatchRun, "text" | "tools" | "permissions" | "st
 if (import.meta.main) {
     const work = mkdtempSync(join(tmpdir(), "classify-canary-"));
     try {
-        const run = await runBatch({ ...DEFAULT_OPTIONS, model: "haiku", workMount: work },
+        const run = await runBatch({ ...DEFAULT_OPTIONS, model: process.env.CLASSIFY_CANARY_MODEL ?? "haiku", workMount: work },
             `${systemPrompt(null)}\n\nAnswer with the JSON object only, no other text.\n\n${batchPrompt([CANARY])}`);
         const problems = judge(run, readdirSync(work));
         if (problems.length) { console.error(`CANARY FAILED:\n- ${problems.join("\n- ")}`); process.exit(1); }
