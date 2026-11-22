@@ -31,7 +31,8 @@ domain, not to AI.
   about 60 listings is split; one below about 5 is merged.
 - **Codes:** `AA.CC` for a category, `AA.CC.TT` for a topic (for example `01.03.02`,
   Software Development › Testing & QA › End-to-end & visual testing). A listing has
-  one primary code and up to two secondary codes, each a leaf of the tree.
+  one primary code and up to two secondary codes, each a leaf of the tree, or none when
+  its description is too vague to place; clients show those as **Unclassified**.
 - Every node has a **definition** and, where a boundary needs it, an **excludes**
   note naming where the excluded things go. The definitions and excludes do most of
   the work in labeling consistently.
