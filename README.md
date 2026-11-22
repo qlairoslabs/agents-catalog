@@ -1,7 +1,7 @@
 # agents-catalog
 
 How it is built: `PROCESS.md`. What gets in, and why: `RULES.md`. How it is organized:
-`TAXONOMY.md` (coming with the first publication).
+`TAXONOMY.md`.
 
 The catalogue of connectors, skills and bundles that `agents` hubs read. Status: the build,
 classification, signing and publishing are in place; the first signed publication is being

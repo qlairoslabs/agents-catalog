@@ -1,0 +1,333 @@
+code	area	category	topic	definition	excludes
+01.01.01	Software Development	Code hosting & repos	GitHub & GitLab	Repos, issues, PRs on GitHub/GitLab/Bitbucket	CI pipelines (01.05)
+01.01.02	Software Development	Code hosting & repos	Code search & repo intelligence	Search, navigate, explain or map codebases	
+01.02.01	Software Development	Docs & references	Library & framework docs	Up-to-date docs for libraries, frameworks, languages	
+01.02.02	Software Development	Docs & references	API references, OpenAPI & SDKs	API specs, OpenAPI, product API docs	
+01.03.01	Software Development	Testing & QA	Unit & integration testing	Writing and running automated tests	
+01.03.02	Software Development	Testing & QA	End-to-end & visual testing	Browser e2e tests, visual regression, QA agents	general browser automation (08.03)
+01.03.03	Software Development	Testing & QA	Mocking & load testing	Mock servers, API testing, load and performance tests	
+01.04.01	Software Development	Code quality	Linting & static analysis	Linters, type checks, code quality metrics	security scanning (09.03)
+01.04.02	Software Development	Code quality	Code review	Automated or AI code review, review standards	
+01.04.03	Software Development	Code quality	Refactoring & migration	Refactors, upgrades, language/framework migrations	
+01.05	Software Development	CI/CD & builds		Build pipelines, CI runners, release automation	
+01.06	Software Development	Local environment		Terminal, filesystem, SSH, local machine access	
+01.07	Software Development	Coding agent workflows		Methods/skills for how coding agents plan, work, commit	agent memory (07.01)
+01.08.01	Software Development	Frontend & UI	UI component libraries	Component libraries, design systems for code	
+01.08.02	Software Development	Frontend & UI	Design-to-code	Figma/design handoff to code, UI generation	
+01.09	Software Development	Mobile app development		iOS/Android dev, app builds, app store submission	app store marketing (10.10)
+01.10	Software Development	Game development		Game engines (Unity, Godot…), game assets for dev	video games for players (24.03)
+01.11	Software Development	Embedded & hardware dev		Firmware, microcontrollers, hardware debugging	PCB design (32.*)
+01.12	Software Development	Language & runtime tools		LSP servers, package managers, language-specific tooling	
+02.01.01	Cloud & Infrastructure	Cloud providers	AWS	Amazon Web Services — any tool for that provider's own services	
+02.01.02	Cloud & Infrastructure	Cloud providers	Azure	Microsoft Azure — any tool for that provider's own services	
+02.01.03	Cloud & Infrastructure	Cloud providers	Google Cloud	Google Cloud Platform — any tool for that provider's own services	
+02.01.04	Cloud & Infrastructure	Cloud providers	Cloudflare	Cloudflare developer platform — any tool for that provider's own services	
+02.01.05	Cloud & Infrastructure	Cloud providers	Other clouds	Other cloud providers (DigitalOcean, Hetzner, Oracle…) — any tool for that provider's own services	
+02.02	Cloud & Infrastructure	App deployment & PaaS		Deploy apps/services (Vercel, Render, Railway, Fly…)	a specific provider's own products (02.01.*); static sites (03.04)
+02.03	Cloud & Infrastructure	Backend-as-a-service		Supabase, Firebase-style backends	plain databases (05.01)
+02.04	Cloud & Infrastructure	Servers & VPS		Virtual servers, bare metal, server admin	
+02.05	Cloud & Infrastructure	Containers & Kubernetes		Docker, Kubernetes, container registries	
+02.06	Cloud & Infrastructure	Infrastructure as code		Terraform, Pulumi, CloudFormation	
+02.07	Cloud & Infrastructure	Sandboxes		Ephemeral environments to run code safely	
+02.08	Cloud & Infrastructure	Networking, proxies & tunnels		Proxy networks, tunnels, CDN, IP lookups	firewalls/VPN (09.05)
+02.09	Cloud & Infrastructure	File & object storage		Object storage, file hosting, media CDN	
+02.10	Cloud & Infrastructure	Cloud costs		Cloud billing, FinOps, cost optimization	AI token costs (06.07)
+03.01	Web Presence	Website builders		Build and edit websites/landing pages	ecommerce stores (22.01)
+03.02	Web Presence	CMS & WordPress		Content management systems, WordPress, headless CMS	
+03.03.01	Web Presence	Domains & DNS	Domain registration	Search, buy, renew domains	
+03.03.02	Web Presence	Domains & DNS	DNS & SSL	DNS records, certificates, custom domains	
+03.03.03	Web Presence	Domains & DNS	WHOIS & domain intelligence	Domain ownership, history, availability lookups	
+03.04	Web Presence	Web hosting		Static and shared web hosting	app platforms (02.02)
+03.05	Web Presence	Links		URL shortening, link-in-bio, QR links	
+03.06	Web Presence	Website audits		Performance, accessibility, broken links, tech stack	SEO audits (10.02)
+04.01	Observability & Operations	Logs & error monitoring		Error tracking, log search (Sentry, Datadog logs…)	
+04.02	Observability & Operations	Uptime & status pages		Uptime checks, status pages	
+04.03	Observability & Operations	Incidents & on-call		Incident management, on-call, postmortems	
+04.04	Observability & Operations	Metrics & APM		Infra metrics, tracing, APM	LLM tracing (06.04)
+05.01.01	Data	Databases	Relational databases	Postgres, MySQL, SQL Server, SQLite	
+05.01.02	Data	Databases	NoSQL, key-value & graph	MongoDB, Redis, DynamoDB	
+05.01.03	Data	Databases	Vector databases	Embeddings stores, vector search	
+05.02	Data	Warehouses & analytics DBs		Snowflake, BigQuery, ClickHouse, Databricks	
+05.03	Data	Pipelines & orchestration		ETL, replication, Airflow, dbt	
+05.04	Data	Spreadsheets & CSV		Spreadsheets, CSV/JSON processing, data cleaning	
+05.05	Data	No-code data tables		Airtable-like tables and simple data apps	
+05.06	Data	BI & dashboards		Dashboards, charts, BI tools, KPI reporting	
+05.07	Data	Natural-language querying		Ask data questions in plain language	
+05.08	Data	Data catalogs & governance		Data catalogs, lineage, quality, governance	
+05.09	Data	Open data & statistics		Public statistics, open government datasets	
+05.10	Data	Dataset discovery		Finding and downloading datasets	
+05.11.01	Data	Geospatial & maps	Geocoding & addresses	Geocode, normalize, validate addresses	
+05.11.02	Data	Geospatial & maps	Mapping, routing & imagery	Map data, routing, distance, GIS analysis	consumer place discovery (26.05)
+06.01	AI Engineering	Model gateways & catalogs		Access many models, routing, model catalogs	
+06.02	AI Engineering	GPU & inference hosting		Run/serve/fine-tune models on GPUs	
+06.03	AI Engineering	Agent frameworks & SDKs		Libraries/platforms to build agents	
+06.04	AI Engineering	Evaluation & tracing		LLM evals, tracing, prompt/agent observability	
+06.05	AI Engineering	Prompts & techniques		Prompt libraries, reasoning techniques, prompt management	
+06.06	AI Engineering	Voice agent platforms		Build voice/phone AI agents	using a phone agent (12.06)
+06.07	AI Engineering	AI cost & usage		Token cost, usage and ROI tracking	
+06.08	AI Engineering	AI governance		AI policy, EU AI Act, responsible AI	agent runtime guardrails (07.07)
+06.09	AI Engineering	ML & data science		Classic ML, model training, notebooks	
+07.01.01	Agent Infrastructure	Memory & context	Persistent agent memory	Memory that persists across sessions/clients	human notes/wikis (14.04)
+07.01.02	Agent Infrastructure	Memory & context	Coding-agent memory	Memory and context specific to coding agents	
+07.01.03	Agent Infrastructure	Memory & context	Shared team context	Context shared between people's agents/teams	
+07.01.04	Agent Infrastructure	Memory & context	Handoffs & decision records	Session handoffs, decision logs, chat history	
+07.02	Agent Infrastructure	Agent-to-agent		Agent messaging, agent social networks, agent task boards	
+07.03	Agent Infrastructure	Agent marketplaces		Agents buying/selling services, gigs, bounties	
+07.04	Agent Infrastructure	Humans for agents		Hiring humans, approvals, human input bridges	
+07.05.01	Agent Infrastructure	MCP ecosystem	MCP registries & directories	Find MCP servers and tools	
+07.05.02	Agent Infrastructure	MCP ecosystem	MCP gateways & routers	Aggregate, proxy, route MCP servers	
+07.05.03	Agent Infrastructure	MCP ecosystem	MCP & skill vetting	Security/quality checks of MCP servers and skills	
+07.06	Agent Infrastructure	Skills		Skill libraries, skill authoring and management	
+07.07.01	Agent Infrastructure	Agent trust & governance	Agent identity & verifiable records	Agent identity, attestations, audit trails	
+07.07.02	Agent Infrastructure	Agent trust & governance	Pre-action gates & policies	Policies/guardrails checked before agent actions	
+07.07.03	Agent Infrastructure	Agent trust & governance	Spend & permission limits	Budgets, payment and permission limits for agents	
+07.08	Agent Infrastructure	Agent payments		x402, pay-per-call, agent wallets and spend	crypto trading (20.*)
+08.01	Web Search & Automation	Search APIs		General web search for agents	news (24.11)
+08.02.01	Web Search & Automation	Scraping & extraction	Web scraping	Crawl and extract data from websites	
+08.02.02	Web Search & Automation	Scraping & extraction	Page to markdown	Read a page as clean text/markdown	
+08.02.03	Web Search & Automation	Scraping & extraction	Platform data scrapers	Scrape specific platforms (social, maps, app stores, marketplaces)	
+08.03	Web Search & Automation	Browser & computer automation		Control browsers or desktops	
+08.04	Web Search & Automation	Workflow automation		Zapier/Make/n8n-style integrations and automations	
+08.05	Web Search & Automation	Deep research		Multi-step research reports	
+08.06	Web Search & Automation	Software & AI tool directories		Directories, launch sites and reviews of software and AI tools	MCP registries (07.05.01)
+08.07	Web Search & Automation	Fact-checking & verification		Verify claims, sources, AI-generated content	
+09.01	Security & Identity	Auth & identity providers		Login, SSO, user identity, IAM	agent identity (07.07)
+09.02	Security & Identity	Secrets & credentials		Vaults, secrets, password managers	
+09.03.01	Security & Identity	App security scanning	Code & dependency scanning	SAST, dependencies, secrets in code	
+09.03.02	Security & Identity	App security scanning	Pentest & vulnerability scanning	Pentesting, DAST, infrastructure vulnerability scans	
+09.04	Security & Identity	Threat intel & OSINT		Threat intelligence, OSINT, investigations	
+09.05	Security & Identity	Network & device security		Firewalls, VPN, network scanning	
+09.06	Security & Identity	URL & email security		Phishing, link and email/domain checks	
+09.07	Security & Identity	Fraud, KYC & bot detection		Fraud detection, identity verification, KYC	
+09.08	Security & Identity	Privacy & PII		PII redaction, privacy tooling	
+10.01.01	Marketing	Advertising	Search ads	Google/Bing ads management	
+10.01.02	Marketing	Advertising	Social ads	Meta, TikTok, LinkedIn ads management	
+10.01.03	Marketing	Advertising	Ad intelligence	Ad libraries, competitor ads, ad creative research	
+10.01.04	Marketing	Advertising	Other advertising	Programmatic, out-of-home, niche ad networks	
+10.02.01	Marketing	SEO	Technical SEO audits	Site SEO audits and fixes	
+10.02.02	Marketing	SEO	Keywords & rank tracking	Keyword research, SERP and rank tracking	
+10.02.03	Marketing	SEO	Local SEO	Google Business profiles, local listings	
+10.02.04	Marketing	SEO	Content SEO & backlinks	SEO content, blog publishing, backlinks	
+10.03	Marketing	AI search visibility		Visibility in ChatGPT/AI answers (GEO)	
+10.04.01	Marketing	Social media	Scheduling & publishing	Plan and post to social platforms	
+10.04.02	Marketing	Social media	Social analytics & listening	Social metrics, brand monitoring, listening	
+10.04.03	Marketing	Social media	Platform data	Social platform data APIs (X, Instagram, TikTok, YouTube, Reddit)	
+10.04.04	Marketing	Social media	Growth services	Followers, engagement and growth services	
+10.05	Marketing	Influencers & creators		Find and manage creators/influencers	
+10.06	Marketing	Email marketing		Campaigns, newsletters, email marketing platforms	transactional email (12.01)
+10.07	Marketing	Affiliate & funnels		Affiliate programs, funnels	
+10.08.01	Marketing	Analytics	Web analytics	Website traffic analytics	
+10.08.02	Marketing	Analytics	Product analytics	Product/app usage, session replay	
+10.08.03	Marketing	Analytics	Attribution	Marketing attribution and campaign measurement	
+10.09	Marketing	Experiments & feature flags		A/B tests, feature flags	
+10.10	Marketing	App store optimization		App store listings, ASO, app store analytics	
+10.11	Marketing	PR & press		Press releases, media outreach, PR	
+10.12	Marketing	Marketing strategy		Marketing plans, positioning, AI marketing teams	
+11.01	Sales & CRM	CRM systems		HubSpot, Salesforce, Pipedrive and other CRMs	
+11.02.01	Sales & CRM	Prospecting data	Contact & email finder	Find emails/phones of people	
+11.02.02	Sales & CRM	Prospecting data	Enrichment	Enrich people and companies	
+11.02.03	Sales & CRM	Prospecting data	Local business leads	Lists of local businesses as leads	
+11.03	Sales & CRM	Outreach		Cold email, LinkedIn outreach, sequences	
+11.04	Sales & CRM	Sales intelligence		Buying signals, account briefs, call prep	
+11.05	Sales & CRM	Lead scoring		Qualify and prioritize leads	
+11.06	Sales & CRM	AI SDRs		Autonomous AI sales reps	
+11.07	Sales & CRM	Sales calls & coaching		Call analysis, coaching	
+11.08	Sales & CRM	Proposals & quotes		Sales proposals, RFPs, quotes	invoices (15.02)
+12.01	Communications	Transactional email		Send email from apps, deliverability	marketing email (10.06)
+12.02	Communications	Email verification		Validate email addresses	
+12.03	Communications	Inboxes		Business mailboxes, agent inboxes, personal inbox mgmt	
+12.04	Communications	SMS, phone numbers & push		SMS, virtual numbers, OTP numbers	
+12.05	Communications	Messaging apps		WhatsApp, Telegram, Slack, Discord, Teams	
+12.06	Communications	Voice & telephony		Phone calls, AI phone desks, fax, telephony	building voice agents (06.06)
+12.08	Communications	Physical mail		Send letters, postcards, physical mail	
+13.01	Customer Experience	Helpdesk & ticketing		Support tickets, helpdesk platforms	
+13.02	Customer Experience	AI support agents		AI agents that answer customers	
+13.03	Customer Experience	Feedback, reviews & NPS		Customer feedback, NPS, roadmaps	
+13.04	Customer Experience	Surveys & forms		Surveys, forms, polls	
+13.06	Customer Experience	Loyalty & rewards		Loyalty programs, points, rewards	
+13.07	Customer Experience	User research		Customer interviews, user research	
+13.08	Customer Experience	Retention & cancellations		Churn, cancellation flows, retention	
+14.01.01	Productivity & Collaboration	Tasks & projects	Task management	To-dos, personal tasks, habits	
+14.01.02	Productivity & Collaboration	Tasks & projects	Project management & OKRs	Team project boards (Asana, Linear, Monday, Trello)	
+14.01.03	Productivity & Collaboration	Tasks & projects	Jira & Confluence	Atlassian tools	
+14.02	Productivity & Collaboration	Calendar & scheduling		Calendars, booking links, meeting scheduling	local appointment booking (26.01)
+14.03	Productivity & Collaboration	Meetings		Transcripts, summaries, minutes, video calls	
+14.04.01	Productivity & Collaboration	Notes & knowledge bases	Notes & journals	Personal notes, journals	
+14.04.02	Productivity & Collaboration	Notes & knowledge bases	Wikis & knowledge bases	Team wikis, documentation, knowledge bases	agent memory (07.01)
+14.04.03	Productivity & Collaboration	Notes & knowledge bases	Bookmarks & read-later	Saved links, read-later, clippings	
+14.05.01	Productivity & Collaboration	Documents	PDF & OCR	Read, edit, OCR PDFs and scans	
+14.05.02	Productivity & Collaboration	Documents	File conversion	Convert between file formats	
+14.05.03	Productivity & Collaboration	Documents	E-signature	Sign documents	
+14.05.04	Productivity & Collaboration	Documents	Document generation	Generate documents, reports, templates	
+14.06	Productivity & Collaboration	Presentations		Slides and decks	
+14.07	Productivity & Collaboration	Diagrams & whiteboards		Diagrams, flowcharts, whiteboards	
+14.08	Productivity & Collaboration	Office suites		Microsoft 365, Google Workspace, Notion	
+14.09	Productivity & Collaboration	Time tracking		Track time on work	
+14.10	Productivity & Collaboration	Everyday utilities		Time zones, units, dates, QR, calculators, randomness	
+14.11	Productivity & Collaboration	Speech-to-text		Transcribe audio to text	
+15.01	Finance & Accounting	Accounting		Bookkeeping, ledgers, accounting software	
+15.02	Finance & Accounting	Invoicing		Invoices, estimates	
+15.03	Finance & Accounting	Payment processing		Stripe-like payments, payment links	agent payments (07.08)
+15.04	Finance & Accounting	Subscription billing		Recurring billing, SaaS metrics	
+15.05	Finance & Accounting	Business banking & formation		Business accounts, corporate cards	
+15.06	Finance & Accounting	Tax & VAT		Tax calculation, VAT, filings	
+15.08	Finance & Accounting	Expenses & receipts		Expense reports, receipt and statement extraction	
+15.10	Finance & Accounting	Financial reporting & planning		Financial statements, budgets, forecasts, cash flow	
+16.01	Business Operations	ERP & enterprise apps		SAP, ServiceNow, NetSuite, Dynamics	
+16.02	Business Operations	Procurement & suppliers		Buying, payables, supplier sourcing	
+16.03	Business Operations	Inventory & supply chain		Inventory, warehouses, supply chain	
+16.04.01	Business Operations	Company intelligence	Company registries	Official company registries and firmographics	
+16.04.02	Business Operations	Company intelligence	Competitor & market research	Competitors, markets, industry research	
+16.04.03	Business Operations	Company intelligence	Company risk & filings	Company risk, credit, reliability	
+16.05	Business Operations	Business strategy		Strategy frameworks, diagnostics, startup idea validation	
+16.06	Business Operations	Field service		Field service, resource and equipment scheduling	
+17.01	HR & Careers	Job search		Find jobs, job boards	
+17.02	HR & Careers	Applications & CVs		CVs, cover letters, auto-apply, interview prep	
+17.03	HR & Careers	Recruiting		Job posting, ATS, sourcing candidates	
+17.04	HR & Careers	Candidate assessment		Screening, tests, assessments	
+17.05	HR & Careers	Freelance, talent & networking		Freelance platforms, talent networks, professional networking	
+17.06	HR & Careers	People management & payroll		Engagement, people analytics, onboarding, HR policy	
+17.08	HR & Careers	Compensation data		Salaries, pay transparency	
+18.01	Legal & Compliance	Legal research		Case law, legal Q&A	
+18.02	Legal & Compliance	Statutes & regulations		Laws, regulations	
+18.03	Legal & Compliance	Courts & filings		Court records, dockets, judgments	
+18.04	Legal & Compliance	Contracts & legal documents		Draft and review contracts and legal docs	
+18.05	Legal & Compliance	Patents & trademarks		IP search and filings	
+18.06	Legal & Compliance	Compliance		GDPR, security certifications, industry compliance	AI governance (06.08)
+18.07	Legal & Compliance	Sanctions & screening		Sanctions, export control, AML screening	
+19.01.01	Investing & Markets	Stocks	Market data & quotes	Prices, quotes, market data	
+19.01.02	Investing & Markets	Stocks	Fundamentals & filings	Financials, SEC filings, insider trades	
+19.01.03	Investing & Markets	Stocks	Equity research	Valuation, analyst ratings, sentiment	
+19.02	Investing & Markets	Macro & economics		Economic indicators, central banks	
+19.03	Investing & Markets	Forex & commodities		FX, gold, commodities	
+19.04	Investing & Markets	Bonds, funds & ETFs		Bonds, yields	
+19.05	Investing & Markets	Trading & brokerage		Brokerage APIs, trading strategies, backtests	crypto trading (20.02)
+19.06	Investing & Markets	Private markets		VC, PE, startups, deals	
+19.07	Investing & Markets	Prediction markets		Polymarket, Kalshi-style markets	sports betting (29.03)
+19.08	Investing & Markets	Portfolio & advisor tools		Portfolio tracking, wealth advisor tools	
+20.01	Crypto & Web3	Crypto market data		Prices, signals, on-chain analytics	
+20.02	Crypto & Web3	Crypto trading		Trading bots, perps, backtesting	
+20.03	Crypto & Web3	DEX & swaps		Swaps, exchanges, DeFi	
+20.04	Crypto & Web3	Wallets & token risk		Wallets, token safety checks	
+20.05	Crypto & Web3	Stablecoins		Stablecoin infrastructure	agent payments (07.08)
+20.06	Crypto & Web3	Blockchain infrastructure		Nodes, RPC, chain tooling	
+20.07	Crypto & Web3	NFTs & tokenized assets		NFTs, RWA, token launches	
+21.01	Personal Finance	Budgeting		Personal budgets, spending	
+21.02	Personal Finance	Bank aggregation		Connect personal bank accounts	
+21.03	Personal Finance	Loans, cards & rewards		Personal loans, credit cards, rewards	
+21.04	Personal Finance	Insurance		Insurance quotes, policies, claims	health billing (28.05)
+21.06	Personal Finance	Mortgages		Mortgage rates and calculators	
+21.07	Personal Finance	Calculators & retirement		Personal finance calculators	
+22.01.01	Commerce & Shopping	Selling online	Store builders	Shopify, WooCommerce, storefronts	
+22.01.02	Commerce & Shopping	Selling online	Marketplace seller tools	Amazon, Etsy, eBay seller tools	
+22.01.03	Commerce & Shopping	Selling online	Orders & fulfillment	Orders, shipping, fulfillment	freight (33.05)
+22.01.04	Commerce & Shopping	Selling online	Ecommerce analytics	Store metrics, product analytics	
+22.02	Commerce & Shopping	Print on demand		POD merch, custom products	
+22.03.01	Commerce & Shopping	Product search & price comparison	Product search	Find products across stores	
+22.03.02	Commerce & Shopping	Product search & price comparison	Price tracking & comparison	Compare and track prices	
+22.03.03	Commerce & Shopping	Product search & price comparison	Product reviews	Product reviews and ratings	
+22.04	Commerce & Shopping	Deals & coupons		Coupons, discounts	
+22.05	Commerce & Shopping	Classifieds & second-hand		Classifieds, used goods	cars (25.08)
+22.06	Commerce & Shopping	Shopping agents & checkout		Agents that buy for you, checkout	
+22.07	Commerce & Shopping	Wholesale & B2B		Wholesale catalogs, B2B buying	
+22.08	Commerce & Shopping	Category shops		Specific product categories (fashion, electronics, beauty, gifts…)	
+23.01.01	Content & Media Creation	Images	AI image generation	Generate images with AI	
+23.01.02	Content & Media Creation	Images	Image editing	Edit, resize, remove background	
+23.01.03	Content & Media Creation	Images	Stock media & icons	Stock photos, icons, illustrations	
+23.02.01	Content & Media Creation	Video	AI video generation	Generate video with AI	
+23.02.02	Content & Media Creation	Video	Video editing	Edit, clip, subtitle videos	
+23.03.01	Content & Media Creation	Audio	Music generation	AI music	
+23.03.02	Content & Media Creation	Audio	Voice & TTS	Text to speech, voice cloning	
+23.03.03	Content & Media Creation	Audio	Audio editing	Mastering, sound effects	
+23.04.01	Content & Media Creation	Design	Templates & graphics	Templates, social graphics, Canva-like	
+23.04.02	Content & Media Creation	Design	Brand & logos	Brand kits, logos	
+23.04.03	Content & Media Creation	Design	3D & animation	3D models, animation, motion graphics	engineering CAD (32.*)
+23.05	Content & Media Creation	Writing		Copywriting, editing, storytelling	
+23.06	Content & Media Creation	Translation		Translation and localization	
+23.07	Content & Media Creation	Publishing		Blogs, books, ebooks	
+23.08	Content & Media Creation	Podcasts		Podcast production and hosting	
+23.09	Content & Media Creation	Digital signage		Manage screens and displays content	
+24.01	Entertainment & Culture	Movies & TV		Film, TV, streaming	
+24.02	Entertainment & Culture	Music & radio		Music catalogs, concerts, lyrics, radio stations, track ID	
+24.03	Entertainment & Culture	Video games		Games for players: catalogs, stats, guides	
+24.04	Entertainment & Culture	Tabletop, puzzles & trivia		Board games, RPGs, puzzles, chess	
+24.05	Entertainment & Culture	Books & reading		Books, libraries, reading	
+24.06	Entertainment & Culture	Art & museums		Art, artists, museums, art market	
+24.07	Entertainment & Culture	Collectibles		Trading cards, collectibles	
+24.08	Entertainment & Culture	Religion & spirituality		Scripture, prayer, religious texts	
+24.09	Entertainment & Culture	Astrology & divination		Astrology, tarot, I Ching	
+24.11	Entertainment & Culture	News		News search, briefings, archives	
+24.12	Entertainment & Culture	History & culture		History, heritage, culture	
+25.01	Travel & Mobility	Flights		Flight search, booking, awards, compensation	
+25.02	Travel & Mobility	Hotels & stays		Hotels, rentals, campsites	
+25.03	Travel & Mobility	Trip planning & tours		Itineraries, tours, guides	
+25.04	Travel & Mobility	Ground transport & car rental		Trains, transit, rides, transfers	
+25.06	Travel & Mobility	Visas & immigration		Visas, residency, citizenship	
+25.07	Travel & Mobility	Connectivity abroad		eSIM, roaming	
+25.08.01	Travel & Mobility	Vehicles	Vehicle data & VIN	VIN decoding, specs, recalls	
+25.08.02	Travel & Mobility	Vehicles	Buying, selling & valuation	Car listings, prices, auctions	
+25.08.03	Travel & Mobility	Vehicles	Parts & maintenance	Parts, fitment, repairs, diagnostics	
+25.08.04	Travel & Mobility	Vehicles	Parking & tolls	Parking, tolls, fines	EV charging (33.01)
+25.09	Travel & Mobility	Aviation & maritime		Flight and vessel tracking, aviation data	
+26.01	Local & Events	Local businesses		Local directories, appointments, local services	
+26.02	Local & Events	Restaurants		Restaurant search and booking	
+26.03	Local & Events	Events & ticketing		Events, conferences, tickets	
+26.04	Local & Events	Weddings & celebrations		Wedding and party planning	
+26.05	Local & Events	Places & maps		Place discovery, POIs	GIS (05.11)
+26.06	Local & Events	Weather		Forecasts, climate, natural hazards	
+27.01	Real Estate & Home	Property listings		Homes for sale	
+27.02	Real Estate & Home	Rentals		Rental listings	
+27.03	Real Estate & Home	Property records & valuation		Parcels, zoning, valuations	
+27.04	Real Estate & Home	Property management		Landlord and property management	
+27.05	Real Estate & Home	Home services		Trades, movers, repairs	
+27.06	Real Estate & Home	Construction & AEC		Building projects, estimating, takeoffs	
+27.07	Real Estate & Home	Smart home		Home automation, IoT at home	
+27.08	Real Estate & Home	Interior & decor		Interior design, decor	
+28.01	Health & Wellbeing	Clinical & senior care		Telehealth, providers, clinical tools	
+28.02	Health & Wellbeing	Medical records		Patient records, health data	
+28.03	Health & Wellbeing	Drugs & pharmacy		Medications, drug info, pharmacy prices	
+28.04	Health & Wellbeing	Medical references		Clinical evidence, guidelines, medical coding	
+28.05	Health & Wellbeing	Medical billing & insurance		Claims, prior auth, medical bills	
+28.06	Health & Wellbeing	Mental health		Therapy, mood, stress	
+28.07	Health & Wellbeing	Nutrition & diet		Calories, diets, nutrition	recipes (30.01)
+28.09	Health & Wellbeing	Sleep & wellbeing		Sleep, habits, general wellbeing	
+29.01	Sports & Outdoors	Training & fitness		Coaching, workouts, wearables (Garmin, Oura, Strava)	
+29.02	Sports & Outdoors	Scores & stats		Results, schedules, stats	
+29.03	Sports & Outdoors	Betting & odds		Sports predictions and odds	
+29.04	Sports & Outdoors	Amateur leagues		Clubs, leagues, tournaments	
+29.05	Sports & Outdoors	Outdoor activities		Trails, camping, surf, hiking	
+30.01	Food & Lifestyle	Recipes		Recipes, cooking	
+30.02	Food & Lifestyle	Groceries & food delivery		Grocery shopping, lists	
+30.04	Food & Lifestyle	Drinks & wine		Wine, beer, beverages	
+30.05	Food & Lifestyle	Beauty & salons		Beauty, hair, salon booking	
+30.06	Food & Lifestyle	Dating & relationships		Dating, relationships	
+30.07	Food & Lifestyle	Parenting & kids		Parenting, kids activities	
+30.08	Food & Lifestyle	Pets		Pet care, adoption	
+30.09	Food & Lifestyle	Hobbies & crafts		Gardening, crafts, sewing, other hobbies	
+31.01	Education & Research	Courses & certifications		Online courses, training	
+31.02	Education & Research	Language learning		Learn languages	
+31.03	Education & Research	Tutoring & exams		Tutoring, exam prep, flashcards	
+31.04	Education & Research	Scientific literature & academic writing		Paper search, citations, research graphs	
+31.06	Education & Research	Schools & education data		School data	
+32.01	Science & Engineering	Life sciences		Genomics, biology data, lab experiment tracking	clinical care (28.*)
+32.02	Science & Engineering	Chemistry, materials & drug discovery		Molecular/protein modelling, materials, drug discovery data	
+32.03	Science & Engineering	Mathematics, physics & quantum		Proofs, problem solving, statistics, econometrics	
+32.05	Science & Engineering	Research computing		HPC, scientific data formats, research pipelines	paper search (31.04)
+32.06	Science & Engineering	Earth, space & environment		Climate, air quality, oceans, geohazards, environmental data	daily weather (26.06)
+32.08	Science & Engineering	CAD & engineering design		CAD, parametric modelling, engineering drawings	3D for media (23.04.03)
+32.09	Science & Engineering	Engineering calculation, simulation & standards		Engineering calcs, simulation, systems modelling	
+32.11	Science & Engineering	Electronics		Components, datasheets, PCB, RF & optics	firmware dev (01.11)
+32.12	Science & Engineering	Robotics & computer vision		Robots, drones, vision	
+32.13	Science & Engineering	Telecom & IoT		Telecom networks, IoT devices, sensors	smart home (27.07)
+33.01	Industry & Energy	Energy & resources		Grid, electricity, solar, storage, EV charging, fuel, oil & gas, mining, carbon accounting	
+33.03	Industry & Energy	Manufacturing		Industrial automation, metals & fabrication, industrial supplies, product compliance	
+33.04	Industry & Energy	Agriculture		Farms, crops, livestock, food safety	
+33.05.01	Industry & Energy	Freight & logistics	Parcels & shipping	Parcel tracking, shipping labels, carriers	store fulfillment (22.01.03)
+33.05.02	Industry & Energy	Freight & logistics	Freight marketplaces	Freight rates, carriers, trucking	
+33.05.03	Industry & Energy	Freight & logistics	Customs & trade	Tariffs, customs, import duties, trade data	
+33.07	Industry & Energy	3D printing		Additive manufacturing, print services	
+34.01	Government & Society	Public records & demographics		Council, municipal and public records	
+34.02	Government & Society	Public procurement		Tenders, government contracts	
+34.03	Government & Society	Elections & politics		Elections, legislation, politicians	
+34.05	Government & Society	Nonprofits & charity		Charities, donations	
+34.07	Government & Society	Government & social services		Paperwork, public services, civic tech	

@@ -64,15 +64,6 @@ All of these, for the community tier:
 **When a server offers both a remote and a package,** the remote is preferred:
 no code in the Agent's environment, no cold start, sign-in through the proxy.
 
-### 2.2 How a remote connects
-
-| Rule | Why |
-|---|---|
-| Streamable HTTP over HTTPS only. Servers offering only SSE, plain HTTP or a URL template are left out; one offering both SSE and streamable HTTP is listed by its streamable address | SSE is the protocol's older transport, being retired; plain HTTP exposes the traffic; a template is not one server |
-| A header value is a whole reference to a secret the listing declares (`$SECRET`), never a literal or part of one | the catalogue never carries a credential, and a hub must know which secret goes where |
-| A server known to need a key but declaring no header for it is left out | there is nowhere to put the key, so it would show as usable and fail. It can still be added by hand |
-| Its tools, when it lists them without sign-in, are published with it: names, descriptions and parameters only | so an Agent can know what it does before anything is connected |
-
 ### 2.1 When a check gets no answer
 
 Applies to §2 and §3. "The check said no" and "we could not ask" are different
@@ -87,6 +78,15 @@ The limit matters: while there is no answer, a kept entry is not checked, so it
 could hide a dead server or a new advisory. An entry the registry has deprecated
 or deleted is never kept. Domain age is the exception: a registration date does
 not change, so a failed lookup uses the age from the last feed.
+
+### 2.2 How a remote connects
+
+| Rule | Why |
+|---|---|
+| Streamable HTTP over HTTPS only. Servers offering only SSE, plain HTTP or a URL template are left out; one offering both SSE and streamable HTTP is listed by its streamable address | SSE is the protocol's older transport, being retired; plain HTTP exposes the traffic; a template is not one server |
+| A header value is a whole reference to a secret the listing declares (`$SECRET`), never a literal or part of one | the catalogue never carries a credential, and a hub must know which secret goes where |
+| A server known to need a key but declaring no header for it is left out | there is nowhere to put the key, so it would show as usable and fail. It can still be added by hand |
+| Its tools, when it lists them without sign-in, are published with it: names, descriptions and parameters only | so an Agent can know what it does before anything is connected |
 
 ## 3. Stdio packages
 
