@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "ec394c675c3402f60d52806f3768ad43169f9a764aa8ee3135ee0862f7b839b5",
+ "domain": [
+  "software/app-builder",
+  "software/website-builder",
+  "software/game-development"
+ ],
+ "product": [
+  "2ools"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds, versions, reviews and exports websites, web apps and games through conversation.",
+ "whenToUse": "Use when a user wants to create a website, web app or simple game by describing it in chat.",
+ "tasks": [
+  "build websites",
+  "build web apps",
+  "build games",
+  "manage versions",
+  "review projects",
+  "export projects"
+ ],
+ "effects": {},
+ "flags": []
+}

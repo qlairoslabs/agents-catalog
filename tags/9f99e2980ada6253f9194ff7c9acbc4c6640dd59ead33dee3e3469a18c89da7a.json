@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9f99e2980ada6253f9194ff7c9acbc4c6640dd59ead33dee3e3469a18c89da7a",
+ "domain": [
+  "ai/computer-vision",
+  "data/datasets"
+ ],
+ "product": [
+  "fiftyone"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tools for building computer vision datasets and models: visualize data, find duplicates, run inference and evaluate predictions.",
+ "whenToUse": "Use when curating computer vision datasets or evaluating vision models with FiftyOne.",
+ "tasks": [
+  "visualize datasets",
+  "analyze models",
+  "find duplicates",
+  "run inference",
+  "evaluate predictions",
+  "develop custom plugins"
+ ],
+ "effects": {},
+ "flags": []
+}

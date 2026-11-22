@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "56d6843bd51770cd5e6dc4caae22744a7df5b0375f22a39379e4f4f21c7837d4",
+ "domain": [
+  "design/generative-media",
+  "marketing/brand-content"
+ ],
+ "product": [
+  "creative-claw"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates on-brand images, video, audio and 3D assets for AI agents.",
+ "whenToUse": "Use when an agent needs to produce brand-consistent visual, audio or 3D creative assets.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "generate audio",
+  "generate 3d assets"
+ ],
+ "effects": {},
+ "flags": []
+}

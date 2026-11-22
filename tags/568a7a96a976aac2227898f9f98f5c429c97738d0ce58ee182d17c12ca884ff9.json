@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "568a7a96a976aac2227898f9f98f5c429c97738d0ce58ee182d17c12ca884ff9",
+ "domain": [
+  "travel/flights-and-buses"
+ ],
+ "product": [
+  "paytm"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Search and compare live Paytm flights and buses, view fares, policies and fare calendars, and get booking handoff links.",
+ "whenToUse": "Use when finding flights or buses in India and abroad by fare, time or operator before booking on Paytm.",
+ "tasks": [
+  "search flights",
+  "get fare options",
+  "review fare",
+  "combine round-trip fare",
+  "fare calendar",
+  "search buses",
+  "get bus details",
+  "summarise buses"
+ ],
+ "effects": {
+  "179d3ba769a813b49395ca92abea152ff0d410514bb1319e43ca8d8096cd45e8": "write",
+  "dd90f4411470ec12265e7df4fb859f532455cb09943a6903ad24921c65a53375": "write",
+  "d122156ca195b5790aac8d6a8875192a5bf90d174bcc08fc46e4236d6db36b35": "write",
+  "01bf7f248dfddb6518233658da7cce14ba98fb611fcdb06bc4fc52d959438e0f": "read",
+  "6a0afd9bfb68f3af9f166ac1e1bef833c26a6c573ed740f94126fee0b079b5ff": "read",
+  "e0455f75fc5088099df885bda27abb1c52e61a2213a69affa383d36d753b0e0e": "write",
+  "2f6f138f3c3d5566385ffefe11ef55672ac5972f64b0c5e62843538bb243a91a": "write",
+  "8b90e88b66ed9b12efc627b55c23f1e0702a7c54c5d4140de52a05c33daec99e": "write",
+  "f253f25e4087ed9c9b6be22fd42b6f58cd8ac766367316b7e6509745b51e8922": "read",
+  "3d55dd20156587fa24280e2b761c9ab056fc732fd086bf7bc47548526c0660dd": "write"
+ },
+ "flags": [
+  "relay_pulse_batch-forwards-analytics-to-third-party"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "dda5e10545c95dfab509e6fb53ea60b937b60acca127fb996976bbc911914401",
+ "domain": [
+  "travel/boating",
+  "navigation"
+ ],
+ "product": [
+  "canal-and-river-trust"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Plans boat routes on Great Britain's inland waterways with lock timing, live closures, boat-fit checks and a directory of waterside businesses.",
+ "whenToUse": "Use when a user is planning a canal or river cruise in Britain, checking closures, or checking whether a boat fits a waterway.",
+ "tasks": [
+  "plan a route",
+  "plan a round trip",
+  "check closures",
+  "check boat fit",
+  "find waterside places",
+  "search marinas and services"
+ ],
+ "effects": {
+  "597003b2b01bca9ef2153f9e26f750fb7c107737f80bc1c6bb6b6a63b8bdd3a4": "write",
+  "25ff01417fb09ed0788eb8dc421e107a4a50136e14de6a94c0a44cafb4563b52": "read",
+  "89745cd4bca2039cc2152d38f712f9d348315311b42db1a9e8eb05337334e9f4": "write",
+  "9a9c8873cdba862598a49f4c8625c33aeb11fb0cab1b2d113be2bd5a6c8b935c": "read",
+  "2da4691563a2fb96019718c40894a457c5f94ad36eb049bd0c01ce2b78cccf9f": "read",
+  "aea84f940ec64b35b0c1d1bd5f214854b545d0f01679a788af385f058675d879": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "092822adf2a0d2bfeea614c8bc80e6e30d9d90ffe1aede1b4d6dcf861cde17cc",
+ "domain": [
+  "software/databases"
+ ],
+ "product": [
+  "postgres",
+  "docker",
+  "aws-rds",
+  "neon",
+  "supabase"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects agents to PostgreSQL databases locally, in Docker, on RDS, Neon, Supabase or through an SSH bastion.",
+ "whenToUse": "Use when an agent needs to query or inspect a PostgreSQL database.",
+ "tasks": [
+  "run sql queries",
+  "list tables",
+  "describe schema",
+  "connect via ssh bastion"
+ ],
+ "effects": {},
+ "flags": []
+}

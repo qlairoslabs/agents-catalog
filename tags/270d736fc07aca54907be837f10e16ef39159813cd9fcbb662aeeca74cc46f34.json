@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "270d736fc07aca54907be837f10e16ef39159813cd9fcbb662aeeca74cc46f34",
+ "domain": [
+  "construction/building-calculation",
+  "electrical"
+ ],
+ "product": [
+  "calculpro"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Calculates voltage drop of low-voltage cables per French NF C 15-100 and searches a catalogue of building calculation tools.",
+ "whenToUse": "Use when sizing or checking an electrical cable's voltage drop in France, or finding another building calculator.",
+ "tasks": [
+  "check voltage drop compliance",
+  "size cable section",
+  "check motor start voltage drop",
+  "search building calculation tools"
+ ],
+ "effects": {
+  "6c48ea6b0ba9ffe56f4a48c7c6a0f6bd17629e2664f702da8a116205eee053d8": "write",
+  "b51f462ebcf444b8bcf83577b2df09be214ae5ed779f677078317678ea301709": "read"
+ },
+ "flags": []
+}

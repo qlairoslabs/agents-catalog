@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3862e62baadb522036d1f1d462f11166183a64338f1b570af563e1123580be2f",
+ "domain": [
+  "software/tool-discovery",
+  "ai-agents"
+ ],
+ "product": [
+  "claudeers",
+  "claude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Searches the Claudeers registry of Claude skills, plugins and MCP servers with health, rating and verification signals.",
+ "whenToUse": "Use when looking for a Claude-ecosystem tool for a task and comparing candidates.",
+ "tasks": [
+  "search tools",
+  "get tool detail",
+  "list categories"
+ ],
+ "effects": {
+  "e8919f7277a849d51609e7878c488d14123e1b3233af204f5429f9eb93c128fa": "read",
+  "e574b531b350da8b911dd35fa532a6d0b2906ea49f814022d0566f8fd4f54af5": "read",
+  "9f619c43495748ea3185307c94c3c8053e75a0ee9869fedbd84223b2a3433a82": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "b711940007a2127b9e47caddc8a4df248d17d5a9ca67bef0503ae141df096a99",
+ "domain": [
+  "marketing/email-testing",
+  "software/rendering"
+ ],
+ "product": [
+  "gmail",
+  "outlook",
+  "yahoo-mail"
+ ],
+ "audience": [
+  "marketing",
+  "development",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Renders HTML or .eml emails in real Gmail, Outlook and Yahoo web clients and returns screenshots.",
+ "whenToUse": "Use when checking how an email looks across webmail clients, dark mode or with images blocked before sending.",
+ "tasks": [
+  "list available email clients",
+  "submit email for rendering",
+  "render light and dark modes",
+  "capture inbox and subject previews",
+  "poll render jobs",
+  "fetch screenshots"
+ ],
+ "effects": {
+  "95dfa7906284c77d2024c6cde21e909f7331a8a1f63cf67a19a43c84e1fbbe4d": "read",
+  "76669684ffda0f411ec04ed786df3d7dec12bb10e5501ffbbb07b4043c2a8d8b": "write",
+  "13bf11b055639bec8ecc71fdcf367bc00e7e795284e79b7ae7b6e2f9557e8d0a": "read",
+  "3b7d38b73a3b72865db6e925b6ffb7c6e22bd3dd8ff57ebc55a54b35e6c8a0b5": "read"
+ },
+ "flags": []
+}

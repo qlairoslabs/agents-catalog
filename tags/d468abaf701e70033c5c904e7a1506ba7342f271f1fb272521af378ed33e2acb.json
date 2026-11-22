@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d468abaf701e70033c5c904e7a1506ba7342f271f1fb272521af378ed33e2acb",
+ "domain": [
+  "ai/workflows",
+  "ai/evaluation",
+  "content/image-generation"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Designs, saves and runs AI workflows with verifiers that check outcomes, including image output.",
+ "whenToUse": "Use when an agent needs to define and run repeatable AI workflows with output verification or image generation.",
+ "tasks": [
+  "design ai workflows",
+  "save workflows",
+  "run workflows",
+  "define verifiers",
+  "generate images"
+ ],
+ "effects": {},
+ "flags": []
+}

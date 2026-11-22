@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "f7655d15c776d968c938d46f692151b82a1a536d4dab06a538c73b3920f2e7ed",
+ "domain": [
+  "media/video-clipping",
+  "marketing/social-video"
+ ],
+ "product": [
+  "ssemble",
+  "youtube",
+  "instagram",
+  "tiktok"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Create AI short-form video clips from YouTube or uploaded videos, track requests, and list scheduled social posts.",
+ "whenToUse": "Use when turning long videos into captioned short clips for social platforms.",
+ "tasks": [
+  "create short clips",
+  "check status",
+  "get generated shorts",
+  "list requests",
+  "delete request",
+  "list caption templates",
+  "list music",
+  "list game videos",
+  "list meme hooks",
+  "list social posts"
+ ],
+ "effects": {
+  "5af6b6933933b6f19c7cd4f11851644c7e6f3b3226a5fc68045b8e56326e0a75": "write",
+  "2eadec0b2e2c75adc9527914af6080465536fdda39661e631b9c04bc045635aa": "read",
+  "656fe35c37da6509086ea6c6bb720f9edcc870e810d134bf5242f0f167037a88": "read",
+  "0f24d5d0bdd143d9dd874c981b1334b46942cd09d50cedd6eae18f5b1870e924": "read",
+  "ebad07065da2f066deaabb53e4e1ac49ca9d4400f4054bb8635267589479b107": "write",
+  "948085f1675b4cb776ea2fdabac0ab8c8551ab2d5d7d6aa27bb8cb3c382fabb9": "read",
+  "3998b9435cf3fab02ba454e4d68642e12b26b2e7efc0866f5d9009f4330f9e07": "read",
+  "8336db0463c1a089d4bb6914cc198e919b8d7b68817bbd249aae33a2ebc42cbf": "read",
+  "01b061b7141da8410460fc4fcfcd9d641932039d3496ea460ddca0daeadb744d": "read",
+  "d4108273786e890947d1e1dd77ff2b8b92f78e940fd6a0f58ffb4e2d0b5fb48e": "read"
+ },
+ "flags": []
+}

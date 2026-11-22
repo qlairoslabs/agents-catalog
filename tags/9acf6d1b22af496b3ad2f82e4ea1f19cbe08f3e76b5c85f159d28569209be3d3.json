@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9acf6d1b22af496b3ad2f82e4ea1f19cbe08f3e76b5c85f159d28569209be3d3",
+ "domain": [
+  "marketing/link-in-bio",
+  "marketing/social-media"
+ ],
+ "product": [
+  "details.page",
+  "claude"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages a details.page link-in-bio profile: edit details, post updates and read analytics.",
+ "whenToUse": "Use when a user wants to update their details.page profile or check its analytics.",
+ "tasks": [
+  "edit profile details",
+  "post updates",
+  "read analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

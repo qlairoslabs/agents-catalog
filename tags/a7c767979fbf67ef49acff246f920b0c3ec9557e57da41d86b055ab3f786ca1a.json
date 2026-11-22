@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a7c767979fbf67ef49acff246f920b0c3ec9557e57da41d86b055ab3f786ca1a",
+ "domain": [
+  "engineering/optics",
+  "engineering/simulation"
+ ],
+ "product": [
+  "3doptix",
+  "zemax"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Optical system design and GPU ray-tracing simulation with import from Zemax and CAD files.",
+ "whenToUse": "Use when the user designs or analyzes optical systems and wants to simulate them in 3DOptix.",
+ "tasks": [
+  "design optical systems",
+  "run ray-tracing simulations",
+  "analyze optical performance",
+  "import zemax and cad files"
+ ],
+ "effects": {},
+ "flags": []
+}

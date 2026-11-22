@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4e8fcfa9a529bf951ca5a1ad78c92d7ea5515d96aab3871e9ced23feb5049679",
+ "domain": [
+  "software/observability",
+  "software/logging"
+ ],
+ "product": [
+  "shipbook"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Debug production apps using Shipbook logs and Loglytics error insights.",
+ "whenToUse": "Use when investigating production errors in an app that logs to Shipbook.",
+ "tasks": [
+  "search logs",
+  "view error insights",
+  "debug production issues"
+ ],
+ "effects": {},
+ "flags": []
+}

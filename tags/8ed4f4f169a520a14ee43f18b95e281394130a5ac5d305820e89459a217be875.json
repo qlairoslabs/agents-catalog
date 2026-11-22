@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "8ed4f4f169a520a14ee43f18b95e281394130a5ac5d305820e89459a217be875",
+ "domain": [
+  "ai/company-directory",
+  "hiring/ai-jobs"
+ ],
+ "product": [
+  "presentofai"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Free read-only directory of about 4,900 AI companies, open AI jobs and dated AI news with source links.",
+ "whenToUse": "Use when researching AI startups, finding AI roles, or checking recent AI news and trends.",
+ "tasks": [
+  "search AI companies",
+  "get a company profile",
+  "list sectors and countries",
+  "find AI jobs",
+  "get latest AI news",
+  "see trending topics"
+ ],
+ "effects": {
+  "a56f97cb0f37fff7a4fa6c16138c7530aa4bf845c7324a7aa3c6afb15baa2c8d": "read",
+  "58a30a56b3eab73b14c93490aa50501006d2f1ed200baf2851c6d85860b411b9": "read",
+  "fbdafa08fee4f3bbf52c8d6e0ccc1218f3365fd2c29417fb1ceb03d89f63070b": "read",
+  "425494e8be81babb7406b2cfc75d4284a4252aee1db975208d2105d7db9eaf67": "read",
+  "7fa6a20474b31db4b0148947b187154001225029175322795982af3875763690": "read",
+  "d0cf18f242843215c6903432c43669030f70e64e2d3b4863049af106c6d16dc4": "read"
+ },
+ "flags": []
+}

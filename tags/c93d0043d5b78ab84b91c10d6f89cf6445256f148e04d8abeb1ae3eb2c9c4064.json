@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "c93d0043d5b78ab84b91c10d6f89cf6445256f148e04d8abeb1ae3eb2c9c4064",
+ "domain": [
+  "education/virtual-assistant-training",
+  "hiring/jobs-platform"
+ ],
+ "product": [
+  "virtual-assistant-international",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Information on Virtual Assistant International courses, live prices, jobs platform, FAQ and support, with checkout links and account requests.",
+ "whenToUse": "Use when someone asks about virtual assistant training packages, prices or the jobs platform, or wants a checkout link.",
+ "tasks": [
+  "describe company and platform",
+  "list course packages and prices",
+  "get package details",
+  "answer FAQs",
+  "get support contacts",
+  "search site",
+  "get checkout link",
+  "request account"
+ ],
+ "effects": {
+  "25bf80adef5f18e40cd0ca39bd3610bdae261779adb6903542a9e26c0f02bdd2": "read",
+  "380f805ba9f91af50698c1540004e6e4618754b0fe4289b99d52d5115961c058": "read",
+  "38fda99e0f1f772b5f4e42d8a393cf712ec0eb63df2d16303563c51bf3220f4e": "read",
+  "769768028af1cecc137bdff0c3a900b21472cd4064bc7b21c73520e5e5958812": "read",
+  "8da83383fdadba36f6ca7e74b8681e1f5b9f030b2f8fd145dcbf2908c7b00a61": "read",
+  "264e36653791de3fd40c0b242d25915cf3b244e9a6caa31b2c2efd7fae80ba9d": "read",
+  "b699a83739c5045dca182900ee9c22fb94d651431b4d0dba5f9612d12e81cb9b": "read",
+  "ab2f991ad8f6553daf582416dfda7c65843b387b55744595ac261e917a087f40": "read",
+  "eaad54aaebd24ca457fe1774a1048676c95ab363e69ae1111e8f83f2c9c9a0f9": "write"
+ },
+ "flags": []
+}

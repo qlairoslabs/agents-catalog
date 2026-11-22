@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "149a2a43580eca9be4a032f1449394d73ce9082548cd437dd1e35153abd38155",
+ "domain": [
+  "software/code-review",
+  "software/developer-tools"
+ ],
+ "product": [
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Checks a coding agent's changes against team decisions recorded in tickets, chat, docs and git history.",
+ "whenToUse": "Use when an agent's code edits should be validated against prior team decisions and context.",
+ "tasks": [
+  "check edits against decisions",
+  "search tickets and chat",
+  "search docs and git history"
+ ],
+ "effects": {},
+ "flags": []
+}

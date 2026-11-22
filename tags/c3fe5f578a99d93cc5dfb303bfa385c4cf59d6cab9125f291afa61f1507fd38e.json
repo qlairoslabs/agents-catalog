@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "c3fe5f578a99d93cc5dfb303bfa385c4cf59d6cab9125f291afa61f1507fd38e",
+ "domain": [
+  "energy/oil-and-gas",
+  "data/analytics"
+ ],
+ "product": [
+  "duckdb"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries curated Argentine oil and gas data on production, wells, completions, reserves, investments, prices and trade.",
+ "whenToUse": "Use when analysing Argentine oil and gas production, wells, companies, prices or trade.",
+ "tasks": [
+  "describe data tables",
+  "resolve entity names",
+  "query production",
+  "query wells",
+  "get well details",
+  "get concession area summary",
+  "get company summary",
+  "rank entities",
+  "query fracture jobs",
+  "query reserves",
+  "query investments and prices",
+  "run read-only sql"
+ ],
+ "effects": {
+  "849cc543b6bf6a830677fcc6a43e4e4a47396eb7c0cca31b5319e7ce57ed744c": "read",
+  "567cc54e81ae976799b94b188c6892ce5b8e896177459eb45f4bc200009eb8b1": "read",
+  "1aab7947212fb05a2910b0107b99df417b82be90f64ad009e18f4278fbab0f25": "read",
+  "083001a8e953a3f3eacdac6ad7865633cd6025d2509c6097901f74e637556717": "read",
+  "6b59a34e448fea43ff364a23fbf6f6b2037dadb32282175f81f99cdd38ab6112": "read",
+  "a03015e98656aeb4e3b6bfbca1aaf5a7ff5079f98d52225da77cd0e0ccbb4e31": "read",
+  "a49d0b00c8012725c14aa61820bcb34137478b1872690a7d2a7b4b5693596d13": "read",
+  "2cbbaacc9dc5a8b2e83e358842e6ccb41da6a541f37297ceb7e513a897bdffad": "read",
+  "36d5e81488ad68d27965f8f06eb92a77349fff80d7e2eb8f884dd3b1f8600cea": "read",
+  "7edf507b3c23ea34061d6d10fa6f3a2c6151e35b7ad92ad851537317c7c01578": "read",
+  "eeb74de3843f631cab7d0ad0387d42f1a6afb2272da49c88c9b8bcf651672159": "read",
+  "332d8bff667cb708026c0320d0c3a9cbfff3e501572703c02d9209c7945bd0fb": "read",
+  "412239d444ab962ad0a2ff577662ec54ae12dc3d1ff86f0418f4966cb48bdbce": "read",
+  "c73990cf50d6c66bf65d09c5933550e8c97ecaebe6bd53758511002b43462a4b": "risky"
+ },
+ "flags": []
+}

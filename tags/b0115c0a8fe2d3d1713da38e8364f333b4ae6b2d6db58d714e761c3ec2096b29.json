@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b0115c0a8fe2d3d1713da38e8364f333b4ae6b2d6db58d714e761c3ec2096b29",
+ "domain": [
+  "productivity/integrations"
+ ],
+ "product": [
+  "waystation",
+  "notion",
+  "slack",
+  "asana",
+  "monday"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Gateway connecting an AI agent to many business productivity tools such as Notion, Slack, Asana and Monday.com.",
+ "whenToUse": "Use when an agent needs to act across several workplace apps through a single connector.",
+ "tasks": [
+  "access notion",
+  "post to slack",
+  "manage asana tasks",
+  "manage monday.com boards"
+ ],
+ "effects": {},
+ "flags": []
+}

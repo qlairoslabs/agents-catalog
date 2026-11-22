@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "ae128eec53cac9e6fc326a08776f4d25e9b3e5297febe114c0a843c8a762a02c",
+ "domain": [
+  "real-estate/hazard-risk",
+  "insurance/risk-assessment"
+ ],
+ "product": [
+  "fema",
+  "usgs",
+  "us-census-geocoder"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up flood, wildfire, earthquake and coastal-storm hazard exposure and a hazard score for a US address.",
+ "whenToUse": "Use when a user asks about natural hazard risk for a specific US property address.",
+ "tasks": [
+  "geocode us address",
+  "check fema flood zone",
+  "check wildfire hazard",
+  "check seismic risk",
+  "check fault proximity",
+  "check coastal proximity",
+  "score property hazard"
+ ],
+ "effects": {
+  "3cde412770e2aa446b891c1235e7c459b23142a0be73354d96ccf5d721059e0d": "read"
+ },
+ "flags": []
+}

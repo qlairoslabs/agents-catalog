@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "77458fccc609b0bb34656c9db93b4a3b2b3c09c84869dc9e7b05f4ff015a24a6",
+ "domain": [
+  "legal/case-law",
+  "legal/pakistan"
+ ],
+ "product": [
+  "pakistan-courts",
+  "pld",
+  "scmr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches over 230,000 Pakistani court judgments by keyword, citation or legal question, and traverses the citation graph.",
+ "whenToUse": "Use when researching Pakistani case law, looking up a law-report citation, or tracing precedents.",
+ "tasks": [
+  "full-text search judgments",
+  "search by legal question",
+  "look up citation",
+  "get judgment",
+  "list cited cases",
+  "list citing cases",
+  "find landmark cases"
+ ],
+ "effects": {
+  "72009f2528e691e85723f2a9148f0aed09816fdfe53b43bce39b334c36eb9402": "write",
+  "83e514a4a56628210bcb8b5eee7fe693b8f5def58f3277e659ea6700a1adfee6": "write",
+  "92d59cc0bbabd9d68791366093f7c89299c49838fb4747d0419bb033575f8963": "read",
+  "96b4b048a9383bffd0ca6bea79d678d4abf6a9b1b16f5270ffc1185bd140f599": "write",
+  "98cc1538895cc46afaac4856005c31debd159374911e4f9a35c1627da5f7cced": "read",
+  "2a141aec8f8876ce052463a55dadf48c77d4f866611fc0d2cf02bccfb9b12d08": "read",
+  "9d2ea00b876f34f7ef1be6aaa571c5ae0ea01240cc2d7083a6df7fe960db10b6": "read"
+ },
+ "flags": []
+}

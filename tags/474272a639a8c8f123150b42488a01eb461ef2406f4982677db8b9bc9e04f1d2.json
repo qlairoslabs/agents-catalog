@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "474272a639a8c8f123150b42488a01eb461ef2406f4982677db8b9bc9e04f1d2",
+ "domain": [
+  "finance/payments/subscriptions"
+ ],
+ "product": [
+  "recur"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Connects to Recur, a Taiwanese subscription payment platform, to manage products, customers and billing.",
+ "whenToUse": "Use when a business on Recur needs to manage subscription products, customers or billing in Taiwan.",
+ "tasks": [
+  "manage products",
+  "manage customers",
+  "manage subscription billing"
+ ],
+ "effects": {},
+ "flags": []
+}

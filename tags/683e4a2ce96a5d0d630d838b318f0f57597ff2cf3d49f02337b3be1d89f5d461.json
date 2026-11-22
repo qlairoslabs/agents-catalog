@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "683e4a2ce96a5d0d630d838b318f0f57597ff2cf3d49f02337b3be1d89f5d461",
+ "domain": [
+  "sports/data"
+ ],
+ "product": [
+  "big-balls-sports-data"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Unified sports data across eight sports with scores, stats, standings, Elo ratings and odds.",
+ "whenToUse": "Use when an agent needs scores, standings, ratings or betting odds across multiple sports.",
+ "tasks": [
+  "get scores",
+  "get stats",
+  "get standings",
+  "get elo ratings",
+  "get odds"
+ ],
+ "effects": {},
+ "flags": []
+}

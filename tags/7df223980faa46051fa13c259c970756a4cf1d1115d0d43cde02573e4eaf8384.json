@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7df223980faa46051fa13c259c970756a4cf1d1115d0d43cde02573e4eaf8384",
+ "domain": [
+  "marketing/email-marketing",
+  "communication/email"
+ ],
+ "product": [
+  "sentientmail"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Email platform for managing templates, audiences and journeys, able to send real email depending on key permissions.",
+ "whenToUse": "Use when an agent needs to manage email templates, audiences or automated journeys and send email.",
+ "tasks": [
+  "manage templates",
+  "manage audiences",
+  "build journeys",
+  "send email"
+ ],
+ "effects": {},
+ "flags": []
+}

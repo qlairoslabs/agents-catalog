@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a643d5bf8f53f3d420854a4d6505d56d72218c1a2ef9d61beddf21ad5113050e",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/development/swift"
+ ],
+ "product": [
+  "appwrite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite Swift SDK in Apple-platform apps and server-side Swift, covering auth, databases, storage, realtime and admin tasks.",
+ "whenToUse": "Use when building iOS, macOS, watchOS, tvOS or server-side Swift apps backed by Appwrite.",
+ "tasks": [
+  "set up email and oauth auth",
+  "query databases",
+  "upload files",
+  "subscribe to realtime events",
+  "manage users with api keys",
+  "administer databases",
+  "manage storage",
+  "run functions"
+ ],
+ "effects": {},
+ "flags": []
+}

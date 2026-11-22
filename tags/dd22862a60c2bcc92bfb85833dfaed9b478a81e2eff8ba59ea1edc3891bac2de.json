@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "dd22862a60c2bcc92bfb85833dfaed9b478a81e2eff8ba59ea1edc3891bac2de",
+ "domain": [
+  "lifestyle/astrology/western"
+ ],
+ "product": [
+  "divine-api"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Provides Western astrology charts including natal, synastry, transit, composite and progressions from Divine API.",
+ "whenToUse": "Use when generating Western astrology charts or compatibility readings.",
+ "tasks": [
+  "generate natal chart",
+  "compute synastry",
+  "compute transits",
+  "composite chart",
+  "progressions"
+ ],
+ "effects": {},
+ "flags": []
+}

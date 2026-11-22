@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c14bad786151b24a2f85acd4b7f8f37f8077c3eb4412c8e3687b235979a891bc",
+ "domain": [
+  "media/video/editing"
+ ],
+ "product": [
+  "makemyclip",
+  "final-cut-pro",
+  "adobe-premiere-pro"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Local video editor that cuts silence, edits by transcript, adds captions and exports to Final Cut or Premiere.",
+ "whenToUse": "Use when an agent needs to trim, caption or transcript-edit a video locally.",
+ "tasks": [
+  "cut silence",
+  "edit by transcript",
+  "add captions",
+  "export to final cut",
+  "export to premiere"
+ ],
+ "effects": {},
+ "flags": []
+}

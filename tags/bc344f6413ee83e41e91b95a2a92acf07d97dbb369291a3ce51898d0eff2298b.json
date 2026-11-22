@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "bc344f6413ee83e41e91b95a2a92acf07d97dbb369291a3ce51898d0eff2298b",
+ "domain": [
+  "software/it-support",
+  "reference/forums"
+ ],
+ "product": [
+  "windowsforum",
+  "microsoft-windows",
+  "microsoft-kb"
+ ],
+ "audience": [
+  "support",
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches WindowsForum.com threads, posts and Windows news, and fetches documents and Microsoft KB information.",
+ "whenToUse": "Use when troubleshooting Windows issues or looking up Microsoft KB articles and Windows news.",
+ "tasks": [
+  "search forum threads",
+  "search posts",
+  "get windows news",
+  "fetch documents",
+  "look up microsoft kb"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "fdd1662c73105b9a0b6c4f7477eb4d69be54fb6b6580d4ea76515743b5af923a",
+ "domain": [
+  "hr/job-search",
+  "robotics"
+ ],
+ "product": [
+  "physicalai-jobs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches robotics, humanoid and embodied AI job listings and company profiles from PhysicalAI.jobs.",
+ "whenToUse": "Use when a user wants to find or shortlist robotics and physical AI jobs or hiring companies.",
+ "tasks": [
+  "search jobs",
+  "get job details",
+  "list latest jobs",
+  "search companies"
+ ],
+ "effects": {
+  "1dbd803a6ae012bfd6b166fc36804669de72baf93add953278f565417458a89f": "read",
+  "44a38ae719609bb53c574af5b5d5b1ce1f86539aa34d7c46e642d511d12e433e": "read",
+  "c7306e3ce4583fd969904d2e15ee66b5be8cd2f219eacc24fcd9d478aa526f0e": "read",
+  "99dd9d4c6e9dcb23c12088458df69dcd0232968aa82bc00486aeebeb7a8938b8": "read"
+ },
+ "flags": []
+}

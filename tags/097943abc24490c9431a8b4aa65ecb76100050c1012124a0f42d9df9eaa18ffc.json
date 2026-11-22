@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "097943abc24490c9431a8b4aa65ecb76100050c1012124a0f42d9df9eaa18ffc",
+ "domain": [
+  "productivity/project-management",
+  "productivity/knowledge-base",
+  "software/development"
+ ],
+ "product": [
+  "atlassian",
+  "jira",
+  "confluence",
+  "loom"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Official Atlassian connector to search, create and manage Jira issues, Confluence pages, Loom videos and related work items.",
+ "whenToUse": "Use when the user needs to find or update Jira issues, Confluence pages or Loom content.",
+ "tasks": [
+  "search jira issues",
+  "create jira issues",
+  "update issues",
+  "search confluence",
+  "create confluence pages",
+  "find loom videos"
+ ],
+ "effects": {},
+ "flags": []
+}

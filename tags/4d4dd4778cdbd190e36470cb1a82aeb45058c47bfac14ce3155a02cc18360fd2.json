@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "4d4dd4778cdbd190e36470cb1a82aeb45058c47bfac14ce3155a02cc18360fd2",
+ "domain": [
+  "software/messaging/troubleshooting",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure-event-hubs",
+  "azure-service-bus"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Troubleshoots Azure Event Hubs and Service Bus SDK problems such as connection, auth, lock and processing errors.",
+ "whenToUse": "Use when a user hits errors with Event Hubs or Service Bus SDKs in any language.",
+ "tasks": [
+  "diagnose amqp connection failures",
+  "fix authentication errors",
+  "resolve message lock issues",
+  "handle dead letter messages",
+  "fix send and receive timeouts",
+  "enable sdk logging",
+  "troubleshoot checkpoints and offsets",
+  "fix session errors",
+  "handle duplicate events"
+ ],
+ "effects": {},
+ "flags": []
+}

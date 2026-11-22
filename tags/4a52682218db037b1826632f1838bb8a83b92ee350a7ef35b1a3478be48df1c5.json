@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4a52682218db037b1826632f1838bb8a83b92ee350a7ef35b1a3478be48df1c5",
+ "domain": [
+  "data/business-intelligence",
+  "data/analytics/dashboards"
+ ],
+ "product": [
+  "sisense"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Queries Sisense data in natural language and builds charts, dashboards and Pulse alert workflows.",
+ "whenToUse": "Use when a user wants to ask questions of their Sisense data or create charts and dashboards.",
+ "tasks": [
+  "query data in natural language",
+  "build charts",
+  "build dashboards",
+  "create pulse workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

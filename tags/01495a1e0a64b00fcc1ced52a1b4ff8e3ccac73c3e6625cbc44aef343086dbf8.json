@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "01495a1e0a64b00fcc1ced52a1b4ff8e3ccac73c3e6625cbc44aef343086dbf8",
+ "domain": [
+  "software/devops/version-control",
+  "software/project-management"
+ ],
+ "product": [
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Official GitLab MCP server connecting agents to GitLab projects and workflows.",
+ "whenToUse": "Use when an agent needs to work with GitLab projects, issues, merge requests or pipelines.",
+ "tasks": [
+  "access gitlab projects",
+  "work with issues",
+  "work with merge requests"
+ ],
+ "effects": {},
+ "flags": []
+}

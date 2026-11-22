@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "b94c8efda35ae59bde4ee06daa76e53924b15f62153da31762823bcba2409977",
+ "domain": [
+  "software/code-intelligence",
+  "software/security"
+ ],
+ "product": [
+  "github",
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Analyses, searches and reads code from any public git repository, including tech stack, quality findings and leaked-secret scanning.",
+ "whenToUse": "Use when you need to explore, search or audit a public repository without cloning it locally.",
+ "tasks": [
+  "analyze repository",
+  "scan for secrets",
+  "search code",
+  "get file or symbol",
+  "list file tree",
+  "get multiple files",
+  "get code findings",
+  "find technology usages"
+ ],
+ "effects": {
+  "3adc098ec153d52ddd066888ef8313df6ac3dc75edb45985685bc911b0eda05b": "write",
+  "ea887e518395b92394507ff5bf265d014ff7fb59ebf4089bc186254c1cd22b19": "write",
+  "e7872692208ec1ddb8b291c8b12f0f53336596c4b6e1ab1630e051f906255662": "write",
+  "38f55922e1ce02d4ee181e2a64a83c028b59b0d3de0e7dd646f7261c15986948": "read",
+  "212bcd0fd84242f18a89b8f543d85067a0eaf382e2314f5439ea213eb8ec1c7e": "read",
+  "1184cea046c3e9d588366123f9a9c7f131302eb4575086998b0182e3ae9be599": "write",
+  "db3555b87d5871eab6ab0a35cb6509111b4847760f1138a7fe6486e214e8e8ef": "write"
+ },
+ "flags": []
+}

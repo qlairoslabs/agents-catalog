@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0226ed0832d345c3e0ffbbe20123eb796fc0bb8f62f003a086a3cc5d0c180071",
+ "domain": [
+  "data/apis"
+ ],
+ "product": [
+  "api-ninjas"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Access to over 140 data APIs covering finance, bank validation, geography, weather and text under one key.",
+ "whenToUse": "Use when an agent needs quick factual data such as weather, geo, finance or bank validation lookups.",
+ "tasks": [
+  "look up finance data",
+  "validate bank details",
+  "get geo data",
+  "get weather",
+  "process text"
+ ],
+ "effects": {},
+ "flags": []
+}

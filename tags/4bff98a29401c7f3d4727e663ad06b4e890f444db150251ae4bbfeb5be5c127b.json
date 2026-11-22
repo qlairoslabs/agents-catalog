@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4bff98a29401c7f3d4727e663ad06b4e890f444db150251ae4bbfeb5be5c127b",
+ "domain": [
+  "media/music",
+  "data/web-scraping"
+ ],
+ "product": [
+  "spotify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads public Spotify metadata, lyrics and podcast information without an API key.",
+ "whenToUse": "Use when an agent needs track, album, artist, lyrics or podcast details from Spotify.",
+ "tasks": [
+  "get track metadata",
+  "get album and artist info",
+  "fetch lyrics",
+  "get podcast details"
+ ],
+ "effects": {},
+ "flags": []
+}

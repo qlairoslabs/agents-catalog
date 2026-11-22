@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6d476a2b3606b6eaf54b7b50e6a5a9328b7f20b55e6f7e7e2587e8248c6505fb",
+ "domain": [
+  "data/weather"
+ ],
+ "product": [
+  "xweather"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Hosted connector giving access to Xweather data such as current conditions, forecasts and weather alerts.",
+ "whenToUse": "Use when an agent needs current weather, forecasts or weather alerts for a location.",
+ "tasks": [
+  "get current conditions",
+  "get weather forecasts",
+  "get weather alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

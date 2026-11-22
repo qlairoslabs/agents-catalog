@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "518a536f42f76037491e202e39283dff953969bb0db6e5987074d18b25ac80c4",
+ "domain": [
+  "business/company-data",
+  "compliance/due-diligence"
+ ],
+ "product": [
+  "companies-house"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Dated facts about UK companies from public records, plus a signed credential verification check.",
+ "whenToUse": "Use when an agent needs to verify or look up facts about a UK registered company.",
+ "tasks": [
+  "look up uk company facts",
+  "verify signed credential"
+ ],
+ "effects": {},
+ "flags": []
+}

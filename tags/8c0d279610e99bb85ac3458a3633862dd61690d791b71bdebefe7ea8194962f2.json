@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "8c0d279610e99bb85ac3458a3633862dd61690d791b71bdebefe7ea8194962f2",
+ "domain": [
+  "marketing/seo",
+  "payments/crypto"
+ ],
+ "product": [
+  "freshsem",
+  "usdc",
+  "base",
+  "polygon",
+  "solana"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "get-paid"
+ ],
+ "summary": "Quote, pay in USDC and track orders for managed contextual backlinks sold by Fresh SEM.",
+ "whenToUse": "Use when a user wants to buy SEO backlinks paid in USDC and you need to quote the order and track payment and fulfilment.",
+ "tasks": [
+  "describe backlink offer",
+  "read payment requirements",
+  "create a quote",
+  "check payment",
+  "submit transaction proof",
+  "check order status",
+  "check service health"
+ ],
+ "effects": {
+  "9f9b97f781c5d8af1ff77fa53e8e2081c895939a7d80226ea300195b6de9634c": "read",
+  "2643c29f233f5d1e39d97f5ba8a19e621e0f77b315c8c7ec4efa9c38556cabbd": "read",
+  "81b7d2282d2e54847cf07ac83492be58e1433a00116c9892943f206f8d0ac5e8": "write",
+  "93d563cc6ee82e27f6d5cbff66dfa03ab99b1c441e649f2926a5c7b5702f26b9": "write",
+  "263accec956cd71316b731f639209d281a1478cbaebf6ba0c78556b4cd557989": "write",
+  "9f6dad07493b15c0d750e8a3a37f269e34b626b72829d19686522125d5cdfc97": "write",
+  "568960b37cd508cd3619bcf638ef12511864e4f835f37959bda747003f7a4284": "read"
+ },
+ "flags": []
+}

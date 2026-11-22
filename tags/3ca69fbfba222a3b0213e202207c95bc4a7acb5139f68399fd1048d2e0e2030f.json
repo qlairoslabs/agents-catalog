@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3ca69fbfba222a3b0213e202207c95bc4a7acb5139f68399fd1048d2e0e2030f",
+ "domain": [
+  "finance/personal-finance",
+  "finance/budgeting"
+ ],
+ "product": [
+  "bilance"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Accesses a user's Bilance spending, budgets and net worth, with optional switchable edits and no money movement.",
+ "whenToUse": "Use when a Bilance user wants to review spending, budgets or net worth, or adjust budget data.",
+ "tasks": [
+  "review spending",
+  "view budgets",
+  "track net worth",
+  "edit budget data"
+ ],
+ "effects": {},
+ "flags": []
+}

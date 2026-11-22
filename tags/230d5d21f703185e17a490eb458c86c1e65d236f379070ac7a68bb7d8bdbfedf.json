@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "230d5d21f703185e17a490eb458c86c1e65d236f379070ac7a68bb7d8bdbfedf",
+ "domain": [
+  "analytics/instrumentation",
+  "software/code-review"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads a pull request or branch diff and produces a structured YAML change brief to feed analytics instrumentation steps.",
+ "whenToUse": "Use as the first step when a user shares a PR, branch comparison or diff and wants to know what changed and what needs analytics tracking.",
+ "tasks": [
+  "read pr or branch diffs",
+  "summarize code changes",
+  "produce yaml change brief",
+  "identify features needing tracking",
+  "start analytics review workflow"
+ ],
+ "effects": {},
+ "flags": []
+}

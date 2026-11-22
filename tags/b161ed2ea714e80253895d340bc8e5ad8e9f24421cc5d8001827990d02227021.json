@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b161ed2ea714e80253895d340bc8e5ad8e9f24421cc5d8001827990d02227021",
+ "domain": [
+  "data/analysis"
+ ],
+ "product": [
+  "pandas"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Loads tabular data and cleans, filters, groups, merges and summarizes it with pandas.",
+ "whenToUse": "Use when an agent needs to process or analyze tabular data files.",
+ "tasks": [
+  "load tabular data",
+  "clean data",
+  "filter rows",
+  "group and aggregate",
+  "merge tables",
+  "summarize data"
+ ],
+ "effects": {},
+ "flags": []
+}

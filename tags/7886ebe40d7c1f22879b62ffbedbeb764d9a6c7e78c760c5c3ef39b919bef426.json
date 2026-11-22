@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7886ebe40d7c1f22879b62ffbedbeb764d9a6c7e78c760c5c3ef39b919bef426",
+ "domain": [
+  "software/file-storage",
+  "software/agent-infrastructure"
+ ],
+ "product": [
+  "uldl"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Persistent, versioned file storage for AI agents, reachable over MCP and curl.",
+ "whenToUse": "Use when an agent needs to save, retrieve or version files across sessions.",
+ "tasks": [
+  "upload files",
+  "download files",
+  "version files"
+ ],
+ "effects": {},
+ "flags": []
+}

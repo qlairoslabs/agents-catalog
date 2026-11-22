@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cd83618410a993a11fe713fe35eb61deb042c75a05c7955410a1dc78d604b13a",
+ "domain": [
+  "software/ai-governance",
+  "software/observability"
+ ],
+ "product": [
+  "agentic-control-plane"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Monitors and governs AI agent tool calls with policy checks, cost tracking and audit logs.",
+ "whenToUse": "Use when you need to apply policies to, cost out, or audit the tool calls your agents make.",
+ "tasks": [
+  "check tool calls against policy",
+  "track tool-call cost",
+  "review audit logs"
+ ],
+ "effects": {},
+ "flags": []
+}

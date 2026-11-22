@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4b066537215d77eff0ac9830c3b60713892b2b7af670929eb3838e8855152c11",
+ "domain": [
+  "finance/crypto/events-calendar"
+ ],
+ "product": [
+  "coinmarketcal"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Calendar of dated, sourced and impact-scored crypto events covering over 14,000 coins.",
+ "whenToUse": "Use when an agent needs upcoming or past events for specific cryptocurrencies.",
+ "tasks": [
+  "list crypto events",
+  "filter events by coin",
+  "get event impact scores"
+ ],
+ "effects": {},
+ "flags": []
+}

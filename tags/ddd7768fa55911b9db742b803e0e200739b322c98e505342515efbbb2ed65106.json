@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ddd7768fa55911b9db742b803e0e200739b322c98e505342515efbbb2ed65106",
+ "domain": [
+  "sales/lead-lists",
+  "marketing"
+ ],
+ "product": [
+  "listhub"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Counts Japanese companies by area and industry for sales lists and returns tax-included quotes and order page links.",
+ "whenToUse": "Use when a user wants a quote for a Japanese B2B sales list by region and industry.",
+ "tasks": [
+  "search areas",
+  "search industries",
+  "get list quote",
+  "get order URL"
+ ],
+ "effects": {
+  "bb3c28dd62ef00686621327647ec4d709db7a3679e8f4256c5ba3d266e8d2854": "read",
+  "a6928adb4f54426ef1674f01274e540c03f9bd76b0428d43a9d561eb1a73f650": "read",
+  "36ec65763e00d40b11e8d9e98e2dcdbece457f2b74dacec87cf502153fbe6d9a": "read",
+  "4422b04d41e439989e937944cbf447e1a7a01b0226a70889259e096deefcafd1": "read"
+ },
+ "flags": []
+}

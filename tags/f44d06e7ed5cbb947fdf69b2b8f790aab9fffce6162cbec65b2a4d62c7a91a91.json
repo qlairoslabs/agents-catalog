@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f44d06e7ed5cbb947fdf69b2b8f790aab9fffce6162cbec65b2a4d62c7a91a91",
+ "domain": [
+  "telecom/broadband",
+  "data/sql"
+ ],
+ "product": [
+  "point-topic",
+  "clickhouse"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only SQL access to Point Topic's public UK broadband reference data on ISPs, networks, links and standards.",
+ "whenToUse": "Use when researching UK ISPs, network operators and broadband link standards.",
+ "tasks": [
+  "run read-only SQL queries",
+  "list tables",
+  "describe table columns",
+  "query ISP and network relationships"
+ ],
+ "effects": {
+  "5797e5956971732145cafcf0f2a40da306ca5e41bbbe9131e1a1f5adfffc04c2": "write"
+ },
+ "flags": []
+}

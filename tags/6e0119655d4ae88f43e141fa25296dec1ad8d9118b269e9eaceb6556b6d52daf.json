@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6e0119655d4ae88f43e141fa25296dec1ad8d9118b269e9eaceb6556b6d52daf",
+ "domain": [
+  "software/ai-safety/human-approval",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "x-ego"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Requires human passkey approval, bound to the exact tool call, before an AI agent performs irreversible actions.",
+ "whenToUse": "Use when an agent is about to take an irreversible action that needs verified human approval.",
+ "tasks": [
+  "request human approval",
+  "bind approval to tool call",
+  "verify passkey approval"
+ ],
+ "effects": {},
+ "flags": []
+}

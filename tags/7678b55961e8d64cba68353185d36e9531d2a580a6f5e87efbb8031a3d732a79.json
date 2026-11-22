@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "7678b55961e8d64cba68353185d36e9531d2a580a6f5e87efbb8031a3d732a79",
+ "domain": [
+  "education/k-12",
+  "education/online-courses"
+ ],
+ "product": [
+  "superscoala",
+  "scoala-ro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Romanian K-12 lesson catalogue from scoala.ro: subjects, grades, lessons, teachers and subscription plans.",
+ "whenToUse": "Use when a Romanian student, parent or teacher wants lessons on a topic or plan prices.",
+ "tasks": [
+  "search lessons",
+  "list subjects",
+  "get course outline",
+  "get lesson details",
+  "list subscription packages",
+  "list teachers",
+  "get platform info"
+ ],
+ "effects": {
+  "0ab6b4d8c42336e04106f1361f746e846bc77c2677ea7aa440c578f74d6fd9d7": "read",
+  "ed97d25f61b747c51ba4ad3466831891f0ca18d8cb068bab4a2f94a76ca0032b": "read",
+  "1b953a5e66719843ce78705e5861bf2e542786e1dcf04abd3cd14ef1060105fe": "read",
+  "a270a6921ecbbb1ce3e4b519b8d465d73cd58d8bb181c47762995e010d9de643": "read",
+  "e6ec6d64f544a66cc4926089a2ff2241752731c5e440a3df235713eb3346b4b2": "read",
+  "b70fe7c8a7b5e64e890099d1f2ec3d4553f6fa8addc41a218b7acb17d9346b9f": "read",
+  "4ec794c5b482f5bc7923e943c36db87affa7d243df7122e11a7f05f0da265314": "read"
+ },
+ "flags": []
+}

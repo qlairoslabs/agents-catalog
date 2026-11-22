@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9131d86ad0580c5768b65567abb3212ac179fa61fd9389576c28f7acabf9c528",
+ "domain": [
+  "productivity/text-sharing"
+ ],
+ "product": [
+  "shorttext"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Reads shared short texts by slug and creates new shareable text pages with an API key.",
+ "whenToUse": "Use when a user wants to share a snippet via URL or read a shorttext link.",
+ "tasks": [
+  "read text by slug",
+  "create shareable text",
+  "set expiry and password",
+  "burn after read"
+ ],
+ "effects": {
+  "c17d3b71d28e2ed7063274b98765b807b637a4131ed48bb948c883014ac0fba9": "write",
+  "b1b2edba1cf5479dffd386cd547fd03173f87c77d6d0babc34c18e3b2935c0e8": "write"
+ },
+ "flags": []
+}

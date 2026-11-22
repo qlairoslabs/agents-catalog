@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "054da21cefa9185ada17d0ba4c7fe223581eb7d72d316580a4ddb14a184dbc25",
+ "domain": [
+  "utilities/text-conversion"
+ ],
+ "product": [
+  "morsecodetranslator"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Translates text to and from Morse code, generates Morse audio and returns the Morse alphabet chart.",
+ "whenToUse": "Use when you need to encode or decode Morse code or produce Morse audio.",
+ "tasks": [
+  "text to morse",
+  "morse to text",
+  "generate morse audio",
+  "get morse alphabet"
+ ],
+ "effects": {
+  "43137635509252a9363a48a59f22eb50bb707b75e82df6495055f5d437c06e11": "read",
+  "9ced212c323599834d094e4aff5525efada8db59805cce47318e2e7ffdbd3027": "read",
+  "04274828113a156a431a64114d7c6bb15f54ee17a5bb384d7191d0a3bc4345a8": "read",
+  "731d811799911671928db5bd8f3eb4cacb1fb85aa0799a32e0b30fcaa2247378": "read"
+ },
+ "flags": []
+}

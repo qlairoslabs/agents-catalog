@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "ad706ed5b8449ad124640b5d18391c7e73380dcc4ae74eb235980518ef79f721",
+ "domain": [
+  "finance/stock-research",
+  "finance/market-data"
+ ],
+ "product": [
+  "nse",
+  "bse",
+  "tapetide"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Research data for about 8,000 Indian NSE and BSE stocks, including quotes, screener, financials, filings, FII/DII flows and options.",
+ "whenToUse": "Use when a user wants data or analysis on Indian listed stocks.",
+ "tasks": [
+  "get stock quotes",
+  "screen stocks",
+  "read financials",
+  "view filings",
+  "track fii and dii flows",
+  "view options data"
+ ],
+ "effects": {},
+ "flags": []
+}

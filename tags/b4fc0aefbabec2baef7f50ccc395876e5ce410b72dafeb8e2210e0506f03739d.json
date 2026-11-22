@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b4fc0aefbabec2baef7f50ccc395876e5ce410b72dafeb8e2210e0506f03739d",
+ "domain": [
+  "travel/package-holidays",
+  "travel/flights"
+ ],
+ "product": [
+  "restplass"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches real-time package holidays and charter-only flights departing from Norway, with prices, hotel details and booking links.",
+ "whenToUse": "Use when a user wants to find package holidays or charter flights from Norway.",
+ "tasks": [
+  "search package holidays",
+  "search charter flights",
+  "filter by destination and dates",
+  "filter by hotel features",
+  "filter by board type",
+  "sort by price"
+ ],
+ "effects": {
+  "2d716318fbfc88ffe446dce4c729e4ce19de5fc1663b52104a29f286a15176d4": "write",
+  "5892a3526d4ee5d0ec61e1697d5c48d654c6b81d75d66c51220129212b0dfaa0": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "369106de66496c0c2235670d5e4816cadf1fe30b8707f7e0dc35c8da0470cb54",
+ "domain": [
+  "astrology",
+  "lifestyle"
+ ],
+ "product": [
+  "natal-compass"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Astronomical calculations for astrology: birth charts, transits, moon phases, retrogrades, synastry and solar returns.",
+ "whenToUse": "Use when a user asks for birth chart placements, planet positions, moon phase, retrogrades or chart comparisons.",
+ "tasks": [
+  "compute natal chart",
+  "get planet positions",
+  "transits to a chart",
+  "moon phase and void of course",
+  "list retrograde periods",
+  "compare two charts",
+  "compute solar return"
+ ],
+ "effects": {
+  "5c8a332938ccb8d8197b95d482963026086c691cc970b62ffe796051a6bb31a7": "write",
+  "06c70d65df122b2530a3b595a553b5a20c215ce2877a1cc3404bae3708beee75": "write",
+  "5f17df7ec48b4f9b692713a0c706a8005769e8000ddc9b664621d9fbc38ed734": "write",
+  "1ed096a3e008959a6c6e218e1c043a74b36dada6360f9b28227c97af4405238d": "write",
+  "20f5eaa4791c8d43b5d6d87f712daf30040424bf0bc260f3b1ae97e650aa88b0": "write",
+  "f06f1f2a0744c885c022770213dfe195da04609d840d46b434d1140d85b8cbb2": "write",
+  "6d38d86d5b9b6a49059457fab01a936b3443a44e925580ac073a08c1884bc6c0": "write"
+ },
+ "flags": []
+}

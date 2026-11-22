@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f5c5c1611feee6a1da9124702f9a7a50068cd4c8e204cddcac6b7acf0ca5af2b",
+ "domain": [
+  "finance/budgeting",
+  "finance/personal-finance"
+ ],
+ "product": [
+  "ynab",
+  "cloudflare-workers"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Hosted MCP server on Cloudflare Workers that connects AI agents to YNAB budgets via OAuth.",
+ "whenToUse": "Use when a user wants to review or manage their YNAB budget, accounts or transactions.",
+ "tasks": [
+  "access ynab budgets",
+  "review transactions",
+  "check account balances"
+ ],
+ "effects": {},
+ "flags": []
+}

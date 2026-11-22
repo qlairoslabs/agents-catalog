@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9cda1d31b7e6d9279948bbff09c8e48c816810178dfd66b4ed6501c36c135541",
+ "domain": [
+  "hr/recruiting/candidate-intelligence"
+ ],
+ "product": [
+  "stori"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Read-only access to candidate insights drawn from real interview transcripts to answer hiring questions.",
+ "whenToUse": "Use when evaluating job candidates and the agent needs evidence from their interview transcripts.",
+ "tasks": [
+  "answer hiring questions",
+  "search interview transcripts",
+  "summarize candidate insights"
+ ],
+ "effects": {},
+ "flags": []
+}

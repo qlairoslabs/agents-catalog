@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ae1d1808953d486376befd6478364a05b8730918d2eca37fc88e87321111a669",
+ "domain": [
+  "software/cloud-hosting",
+  "software/devops"
+ ],
+ "product": [
+  "render"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Skills, agent, commands and a render.yaml validation hook for deploying, debugging and monitoring apps on Render.",
+ "whenToUse": "Use when an agent needs to deploy, debug or monitor applications on Render or validate render.yaml.",
+ "tasks": [
+  "deploy applications",
+  "debug deployments",
+  "monitor services",
+  "validate render.yaml"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "295346871e3cd369f5cfa238b382900cd4ae7ba4d59fab3b872e3e8347656878",
+ "domain": [
+  "software/ai-api",
+  "finance/payments"
+ ],
+ "product": [
+  "omniprovider",
+  "x402",
+  "mpp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Pay-per-call LLM API for agents; lists models and prices, returns unpaid payment quotes and explains payment rails.",
+ "whenToUse": "Use when an agent needs to compare LLM prices, get a quote for a paid call, or learn how to pay via x402 or MPP.",
+ "tasks": [
+  "list model catalog",
+  "get pricing",
+  "estimate cost",
+  "get unpaid quote",
+  "explain payment flow"
+ ],
+ "effects": {
+  "52ca3165600d4f58e94f45741ff6d9a2c4e96aae79a00bd67efdbf3832de0fd3": "write",
+  "c7a4c7dbad0184b480333a721afc0700244e206dc965c8f743cf19142dc9e818": "write",
+  "da6c460921db50485ff2c73c92ff717e8aa18364d65f74a45b82b0ef3e5adb17": "write",
+  "4784c01998f050475b82944899b1e059873ac66496d2edce7af882f2c1775f0f": "write"
+ },
+ "flags": []
+}

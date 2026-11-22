@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d31e5933be653d6538efda39a477662e32b8a6f48567c42b8a954819bc6567c3",
+ "domain": [
+  "events/photobooth",
+  "business/analytics"
+ ],
+ "product": [
+  "dreambooth-studio"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about Dreambooth Studio photobooth sessions, revenue, credits, projects and device status.",
+ "whenToUse": "Use when a photobooth operator wants stats on sessions, revenue or device health.",
+ "tasks": [
+  "view sessions",
+  "view revenue",
+  "check credits",
+  "view projects",
+  "check device status"
+ ],
+ "effects": {},
+ "flags": []
+}

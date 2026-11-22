@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "89bb55723311f9bb67fc1713bc49dda49eeb46e7c7ee47c9297cc2ff53c8079d",
+ "domain": [
+  "productivity/family-calendar",
+  "productivity/scheduling"
+ ],
+ "product": [
+  "quieta"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Family calendar connector that reads the household's week and proposes changes for a parent to approve.",
+ "whenToUse": "Use when a parent wants an agent to review the family schedule or suggest calendar changes.",
+ "tasks": [
+  "read family weekly schedule",
+  "propose calendar changes for approval"
+ ],
+ "effects": {},
+ "flags": []
+}

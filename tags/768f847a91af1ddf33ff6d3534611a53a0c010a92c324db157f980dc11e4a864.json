@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "768f847a91af1ddf33ff6d3534611a53a0c010a92c324db157f980dc11e4a864",
+ "domain": [
+  "software/no-code-apps",
+  "commerce/online-shop",
+  "content/management"
+ ],
+ "product": [
+  "goodbarber"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "sell",
+  "create-content"
+ ],
+ "summary": "Manages a GoodBarber no-code app including its shop, community, bookings and content.",
+ "whenToUse": "Use when an agent needs to manage content, products, community or bookings in a GoodBarber app.",
+ "tasks": [
+  "manage app content",
+  "manage shop",
+  "manage community",
+  "manage bookings"
+ ],
+ "effects": {},
+ "flags": []
+}

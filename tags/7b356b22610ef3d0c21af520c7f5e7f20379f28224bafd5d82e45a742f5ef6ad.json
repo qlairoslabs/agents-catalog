@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7b356b22610ef3d0c21af520c7f5e7f20379f28224bafd5d82e45a742f5ef6ad",
+ "domain": [
+  "marketing/qr-codes-and-short-links"
+ ],
+ "product": [
+  "link-center"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates editable dynamic QR codes and short links with branded rendering and scan analytics.",
+ "whenToUse": "Use when an agent needs to create or update trackable QR codes or short links and review their scans.",
+ "tasks": [
+  "create dynamic qr codes",
+  "create short links",
+  "edit link destinations",
+  "render branded qr codes",
+  "view scan analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "041d442a2216f0280695695f659394457fdb120c09ea0249ede93ee2aadd11ae",
+ "domain": [
+  "ecommerce/price-comparison",
+  "energy/solar"
+ ],
+ "product": [
+  "wosolar",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Compares current German prices for solar systems and balcony power plants across shops and links to guides.",
+ "whenToUse": "Use when a user wants the cheapest price or buying advice for solar panels or a Balkonkraftwerk in Germany.",
+ "tasks": [
+  "search solar offers",
+  "filter by brand and price",
+  "find buying guides",
+  "re-check offer price"
+ ],
+ "effects": {
+  "04a4085390c159526868fcb0cb1f7ed9a0e84e98197c7e6c23cfe0870a479537": "write",
+  "3957d2678f61d46efce15e98a6646480e3d89ca12ed371b23b41aea3a2787d21": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

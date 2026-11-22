@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "e5609abb30266211ec775f2ebccd3786d704b33208a3662f55b4e0d05a5b540b",
+ "domain": [
+  "finance/venture-funding",
+  "research/market-data"
+ ],
+ "product": [
+  "tech-eu"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Search European tech funding rounds, companies, investors and exits with EUR-normalised, sourced figures and market aggregates.",
+ "whenToUse": "Use when researching European startup funding, investor portfolios, exits or market totals for a period.",
+ "tasks": [
+  "search funding rounds",
+  "find companies",
+  "get company profile",
+  "search investors",
+  "get investor profile",
+  "search exits",
+  "market map",
+  "sync changes"
+ ],
+ "effects": {
+  "2b65a694675030c42998a329ab5a2f15203defb60a68ef6428cf7193ed70e146": "read",
+  "e0b87d9e67da5f5475fba95594a89d2090143b250531d8d616f566e79bb3146a": "read",
+  "92575d4f41890d8b4cef90afb3bb82d8373358c31f2fb644c7a926b388b44729": "read",
+  "c9096c0774e9aafd5000475a5c64f344e724e3fd0a71914aa25084e0f257d8d3": "read",
+  "bdfbfa25bf8bea45b385b6021e06754530215c168bda8b6f13e44444dc7eba96": "read",
+  "5518f3e21970186005b2b2d3d76e1534f0ea959c87bffa815e70eebd7f3fe277": "read",
+  "6cfc221dc7914e0ad59614826992ebe7e6aa31446310bea92e80033ebeab7fb4": "read",
+  "d339d62b2eb49a1b62ffa08600a7e5ebcd8343fa18ae3c63dae5f9d7ee25157c": "read"
+ },
+ "flags": [
+  "tools ask the agent to send a free-text 'context' and its model identifier for the operator's analytics on every call"
+ ]
+}

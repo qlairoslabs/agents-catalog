@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "84e0ab7fe36224df4b36f841699ea5877f0431db9dfba308243a224fbf6e4a8e",
+ "domain": [
+  "automation/browser",
+  "software/testing"
+ ],
+ "product": [
+  "browser-use",
+  "chrome"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Gives an agent control of a local Chrome or cloud browser for browsing, scraping, form filling, testing and screenshots.",
+ "whenToUse": "Use when a task requires interacting with a website or web app through a real browser.",
+ "tasks": [
+  "browse websites",
+  "scrape data",
+  "fill forms",
+  "test sites",
+  "take screenshots",
+  "automate web workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

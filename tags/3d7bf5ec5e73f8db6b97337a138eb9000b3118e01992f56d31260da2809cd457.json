@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "3d7bf5ec5e73f8db6b97337a138eb9000b3118e01992f56d31260da2809cd457",
+ "domain": [
+  "finance/trading",
+  "finance/charting"
+ ],
+ "product": [
+  "traderwai",
+  "claude",
+  "chatgpt",
+  "grok",
+  "perplexity"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Lets AI assistants draw on live charts, backtest strategies and place trades through the user's own broker.",
+ "whenToUse": "Use when a trader wants an AI assistant to annotate charts, backtest ideas or execute trades on their broker account.",
+ "tasks": [
+  "draw on live charts",
+  "backtest strategies",
+  "place trades via broker"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ec20b956af0b877b38846b9d8a4ad97acd28b7f7ed11b097a3a976cee8f24f2d",
+ "domain": [
+  "food/recipes",
+  "lifestyle"
+ ],
+ "product": [
+  "halite"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Search, read and edit a personal Halite recipe collection and shopping lists.",
+ "whenToUse": "Use when a user wants to find, change or plan meals from their Halite recipes or update shopping lists.",
+ "tasks": [
+  "search recipes",
+  "read recipes",
+  "edit recipes",
+  "manage shopping lists"
+ ],
+ "effects": {},
+ "flags": []
+}

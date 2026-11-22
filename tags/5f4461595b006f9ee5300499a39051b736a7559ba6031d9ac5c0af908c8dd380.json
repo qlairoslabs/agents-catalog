@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "5f4461595b006f9ee5300499a39051b736a7559ba6031d9ac5c0af908c8dd380",
+ "domain": [
+  "design/design-systems",
+  "software/frontend"
+ ],
+ "product": [
+  "digitaltableteur",
+  "react",
+  "storybook",
+  "figma"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "get-customers"
+ ],
+ "summary": "Docs search and usage validation for the @dt design-system components, plus information on Digitaltableteur's consulting services, pricing and case studies.",
+ "whenToUse": "Use when writing code with @dt components or evaluating Digitaltableteur for design-system consulting.",
+ "tasks": [
+  "search component docs",
+  "get component props and examples",
+  "validate component usage",
+  "list case studies",
+  "list pricing packages",
+  "get hourly rates",
+  "list services",
+  "match problem to service"
+ ],
+ "effects": {
+  "f294e93d4db22a347b156dfbaad68647d3be24d22aa1747b3816f37ae655bbaa": "read",
+  "2b285988efac72d266232e3f5a43b6639da6a64221402ff2225515de49adab64": "read",
+  "795090a2dd18d434d6724d556cc6931894f6f269b6e09e660c807f0eb72bd9e5": "read",
+  "9e66571364d834a56698e023d0919598d525117b2da471f55c6b553d6a597dce": "read",
+  "8f6d883011a935e9ce1bf2155ecf9828598b0cfc84f33a9ef677442cd685e43c": "read",
+  "9895137cd949aec6ed67960c2d9216294bac9b8b4de61c5a54d1de5b054f89b0": "read",
+  "7ff38461455a8e8bc300ac3cf1d7feec10f6d7739189beda4ba796c8ee4375fc": "read",
+  "24a2c0a928c53df616aab12b972249847c7de38c8fa9efb505e9da4c0370637d": "read",
+  "c5f0ff91d9fb67ba6e73fd6a9678080ebc662cbc40c3e57d048478bc588ac511": "read",
+  "337d81dc5cddd09c5fc20ff9326c17b330f7402dcc09aa502376018c095a69c2": "read",
+  "ec55de3c7d7174006584ac6379eaa2d0a25d454f8b51f32457a7a53d9299030b": "read",
+  "0708a8ca678c15168471bc15a1bd424b1f7b7dadd295f3693a5708da3dbd40bf": "read"
+ },
+ "flags": []
+}

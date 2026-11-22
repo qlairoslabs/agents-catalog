@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b534839905c0d3db327cf0bfaa6c6f30e5875fa2b7ed8ff55964fe737dcf8e6f",
+ "domain": [
+  "research/technology-forecasting"
+ ],
+ "product": [
+  "pragma-vision"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides technology readiness signals, lens boards and prediction ledgers from the Pragma.Vision atlas.",
+ "whenToUse": "Use when an agent needs signals or predictions about the maturity of technologies.",
+ "tasks": [
+  "get readiness signals",
+  "view lens boards",
+  "read prediction ledgers"
+ ],
+ "effects": {},
+ "flags": []
+}

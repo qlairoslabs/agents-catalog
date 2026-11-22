@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fa80d9f257eaa5f33220d1bf9d445a7dfe72952ad30d298fd770837c0377d400",
+ "domain": [
+  "government/regulatory-intelligence/latin-america",
+  "legal/legislation"
+ ],
+ "product": [
+  "dapper"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks Latin American bills, regulations, legislative votes and political actors.",
+ "whenToUse": "Use when an agent needs to monitor legislation, regulation or political activity in Latin America.",
+ "tasks": [
+  "search bills",
+  "search regulations",
+  "view votes",
+  "look up political actors"
+ ],
+ "effects": {},
+ "flags": []
+}

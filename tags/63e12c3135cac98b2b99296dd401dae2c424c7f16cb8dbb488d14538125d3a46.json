@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "63e12c3135cac98b2b99296dd401dae2c424c7f16cb8dbb488d14538125d3a46",
+ "domain": [
+  "finance/market-data",
+  "finance/technical-analysis"
+ ],
+ "product": [
+  "finsight"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Market data service with signals, technical indicators, market regime and news for over 1,000 US and Turkish symbols.",
+ "whenToUse": "Use when the user wants technical signals, regime context or news for US or Turkish stocks.",
+ "tasks": [
+  "get trading signals",
+  "get technical indicators",
+  "detect market regime",
+  "get symbol news",
+  "cover us and turkish markets"
+ ],
+ "effects": {},
+ "flags": []
+}

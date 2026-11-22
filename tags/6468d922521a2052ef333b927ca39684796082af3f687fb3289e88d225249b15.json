@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6468d922521a2052ef333b927ca39684796082af3f687fb3289e88d225249b15",
+ "domain": [
+  "software/browser-automation",
+  "software/testing"
+ ],
+ "product": [
+  "chrome-devtools-protocol"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Browser automation over the raw Chrome DevTools Protocol with no npm dependencies.",
+ "whenToUse": "Use when an agent needs to drive a browser without Puppeteer, Playwright or Selenium.",
+ "tasks": [
+  "control browser via cdp",
+  "navigate pages",
+  "interact with web pages"
+ ],
+ "effects": {},
+ "flags": []
+}

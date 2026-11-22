@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "91a614a01d2037f35b48da533169feb94a72258b3eeb45415b789d8addbe2a95",
+ "domain": [
+  "software/api/chatbots",
+  "support/chatbots"
+ ],
+ "product": [
+  "chatfuel"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Exposes the full Chatfuel public API with schema search, queries, mutations and file uploads.",
+ "whenToUse": "Use when a developer needs programmatic access to Chatfuel data and actions through its API.",
+ "tasks": [
+  "search api schema",
+  "run queries",
+  "run mutations",
+  "upload files"
+ ],
+ "effects": {},
+ "flags": []
+}

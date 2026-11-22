@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "580b0d57f612f2ef2bf35f3bf961c9b306de6d49fe7c93171be8aba594d7a49d",
+ "domain": [
+  "software/testing/website-monitoring"
+ ],
+ "product": [
+  "pagecanary"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Walks through a site's signup or checkout flows and checks pages for broken links and errors.",
+ "whenToUse": "Use when the user wants to verify their website flows and pages work without errors.",
+ "tasks": [
+  "test signup flow",
+  "test checkout flow",
+  "find broken links",
+  "detect page errors"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "d70ba7c72b69d109a1bba83bcdaee40360cf84635b0d3954e8ac569da4ee61e9",
+ "domain": [
+  "lottery/results",
+  "entertainment"
+ ],
+ "product": [
+  "quiniela",
+  "telekino"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only Argentine quiniela and Telekino results: winning numbers, full draws, number checks, dream-number meanings and historical frequencies.",
+ "whenToUse": "Use when someone asks what came out in an Argentine quiniela or Telekino draw or whether a number was drawn.",
+ "tasks": [
+  "get reference and schedule",
+  "get winning numbers by day",
+  "get full 20-number draw",
+  "check if number came out",
+  "explain number meaning",
+  "show historical statistics",
+  "get Telekino draw",
+  "search results"
+ ],
+ "effects": {
+  "1b2e721d3c59c209893f0c50c55383213e995ae3f150559a1c6dda5b2b75ba34": "read",
+  "06d6a35bd1d40ffb5daa369def74fd8fac51ecb381b4b1e03066eae3cf30b304": "write",
+  "dc934de5fdfa1c39bc2ff800263268c20e4346c05b2f0d8808fedd4545d12bdf": "write",
+  "5d4cef7d08475944989befd6bdc2ab3056a34fcf52ac4a92907e9d611ca04ab1": "read",
+  "61dd13ced8a65849a7f3cf0331c938dc49ec80c672e2a27ba75a08dabeea2cde": "read",
+  "3df39af170251b7d6cf16c5a09d90f3b4465b6d85123c387ed94da799557420d": "read",
+  "b20e6d4aea58417c3e63343233ec65a88ed201994d0bf03f676420a7c88c8264": "read",
+  "1a62001f1313bc62bbc949df0f7636fd145fa58bbff89d198d41cf31b5a049ec": "read",
+  "ce57ae9d4f20563d4fdf52ddf3d54284fc541003a929e4ee06aab6669dc16e7f": "read"
+ },
+ "flags": []
+}

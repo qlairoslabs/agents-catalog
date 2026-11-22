@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3cf4184081d51ac9fdbfe2e4be62074d64ff13459520364389d43cc36fe425dc",
+ "domain": [
+  "software/cybersecurity/ai-agent-security",
+  "compliance/approvals"
+ ],
+ "product": [
+  "hol-guard"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Local MCP server that collects security evidence and runs approval workflows for AI agent actions.",
+ "whenToUse": "Use when agent actions need recorded security evidence and human approval.",
+ "tasks": [
+  "collect security evidence",
+  "request action approval",
+  "manage approval workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

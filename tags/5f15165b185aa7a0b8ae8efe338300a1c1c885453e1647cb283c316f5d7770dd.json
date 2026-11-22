@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "5f15165b185aa7a0b8ae8efe338300a1c1c885453e1647cb283c316f5d7770dd",
+ "domain": [
+  "finance/algorithmic-trading"
+ ],
+ "product": [
+  "algomaker",
+  "bybit"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Onboarding guide for the AlgoMaker local engine that mines, validates and paper-trades strategies, with install steps, Bybit account and licence info.",
+ "whenToUse": "Use when a user asks about AlgoMaker or needs to install it, open a Bybit account or activate a licence.",
+ "tasks": [
+  "explain AlgoMaker",
+  "give install steps",
+  "explain Bybit account opening",
+  "explain licence activation"
+ ],
+ "effects": {
+  "ac548df809965dfcacb7fac1f8aff2df0cf78cfb68e99ec2b8ea940e12bd5fb6": "write",
+  "42f14da2ea6ac3db59496539de6dabbb096a79809cba3f58de05f4b16d8372c8": "read",
+  "630b383747cb3bab17acf31b185c6f792d87729f9f65893bffa7a6bea383645f": "read",
+  "e964f8ea8d4f33c8b106e94b672b314021d79ce063d18013f6b9f2d3fa3ee2e4": "read"
+ },
+ "flags": [
+  "returns a paid-partner referral link for Bybit that the agent is told to relay",
+  "instructs the agent to run install commands on the user's machine"
+ ]
+}

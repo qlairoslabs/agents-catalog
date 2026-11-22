@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c591b029f61c455aa9d94031a6e1cbf8fb72f5ba12014ead8cd0b388412d9206",
+ "domain": [
+  "software/ai-agents/benchmarking"
+ ],
+ "product": [
+  "sigrank"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Benchmarks AI operators with cascade metrics, a leaderboard, operator profiles, simulations and diagnostics.",
+ "whenToUse": "Use when an agent needs to compare AI operator performance or view benchmark rankings.",
+ "tasks": [
+  "get cascade metrics",
+  "view leaderboard",
+  "view operator profiles",
+  "run simulation",
+  "run diagnostics"
+ ],
+ "effects": {},
+ "flags": []
+}

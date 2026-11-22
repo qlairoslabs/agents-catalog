@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "af0004f6cefa3d6078d4492c20a54c52b2947574d9cf93cffcada6a68fa4c46d",
+ "domain": [
+  "software/app-builder",
+  "software/no-code"
+ ],
+ "product": [
+  "bool"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds, edits and publishes web apps from a conversation.",
+ "whenToUse": "Use when a user wants to create, change or publish a simple web app or tool through chat.",
+ "tasks": [
+  "build web apps",
+  "edit apps",
+  "publish apps"
+ ],
+ "effects": {},
+ "flags": []
+}

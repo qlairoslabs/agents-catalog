@@ -1,0 +1,80 @@
+{
+ "classifier": 2,
+ "contentHash": "f3c7fe7b1702ff4b13fae16c2828c53340e38dd0f34ffccd7af046d91aad438c",
+ "domain": [
+  "productivity/roadmapping",
+  "planning/modeling"
+ ],
+ "product": [
+  "roadflow",
+  "mysql"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Create, edit, version and share visual roadmaps and artifact graphs, and maintain a parameter-based model project with scenarios and evaluation.",
+ "whenToUse": "Use when an agent should build or update a roadmap or dependency graph, share view or edit links, or maintain a structured parameter model.",
+ "tasks": [
+  "create roadmaps from markup or JSON",
+  "share edit and view links",
+  "export JSON, markup, CSV",
+  "browse version checkpoints",
+  "build artifact graphs",
+  "manage model parameters",
+  "record observations per scenario",
+  "manage lineage edges",
+  "evaluate model"
+ ],
+ "effects": {
+  "4c861b93b4272a5c38bcdf705691ca2427ff390387f731be0e6da8c9dd78f610": "write",
+  "d96d8ca9a57752a9ea145dc3dc5b764da62f59787bbe06be6fe3a21c3a7d4dc4": "read",
+  "d6190119e60698f3da37ffa0705ac924fc94f0fcfd34687f8844f058546e7ffc": "read",
+  "aa0d73cca2e38e60d586684df4660accad0eca4162e2a3c7bf508f5fbcaed7db": "write",
+  "b307558333fa18906760880a93fbf7c027ea7827d668a474363919c267cf3dbb": "write",
+  "049b6a7ab5b217c055346376c11268e181eea2708967e5c72ad7e2f8945ed179": "write",
+  "ca3518363bd2bd085826bb7282b7e4ea4a1eb6d20d1915ff82d1e942eb54333f": "write",
+  "6367c997efc4bbeb702c478525cb09cccfcb2b64a80bcc31821fb7303cc4f03b": "read",
+  "220151e4ca888a307848e1ff81bd52a8e2a46b7f522df0f405427087a4e87870": "read",
+  "3c65ea040366625b7dcb7e209ea21538db1a8e713d592fd6863ef9c9d9c65eb0": "read",
+  "3c5088a2c632fe11ccc09684c3ce005dc0e7cf2b6814a2ef37401fffec185677": "read",
+  "3d7dcc4030807afb81b99d76ae12361145675ff671356ea151fda246a4df393d": "write",
+  "4162e2dfebcfaaed5e3a38cb1f592ab208c568496cc2e5e01ee7ee597c04fcac": "write",
+  "c083b6e1aa501d82a05265247be1fe04892b41dde3cdbe65b6ebd480b8b45102": "write",
+  "b9f25ec142fa1e0401f033923968ff068586d7485ea17f62c767a586480b66eb": "read",
+  "b566f43cdbdd2cd6204b5db30694203c3039d1e7176a397659659288b136d31e": "read",
+  "44019358f26f8eb6aa99986d96485ec15eb3f622eb63e45f9250b0d62ba5ebd7": "write",
+  "ec954fcfef9088c7fb8eebf77d8d4b607e60c8e3a516578a8ea44e868321cb46": "write",
+  "83ddf37ecea35b3a82ac3a81a807babd6ea01aad3156612d4afd3de93e8b0d4a": "write",
+  "cfe942d38d0794a83d971088217bcf5a7c873ea375d6e3fda9db86656d678834": "read",
+  "f17db5ca8e23f4561e12ba4b660a918cc4959c4074bd3a553b6c474c0c0f2886": "read",
+  "74bde99e012e85abb6cf6af8e97ec96514e641f800a7bf3241f7c4fbd23af792": "write",
+  "e81cd173ebf98ec8d116b9d6b7dac3b2eec3401d5a9031a0f2d9889eeebcc84f": "write",
+  "b1f0a55ed8d985423603b66721f7831cf676f080ee172ebdb4c3c5394beabe79": "write",
+  "b63a3ff10090055d554959f57d9efba7021a9ca421a6cf2b31184b3ac6e3e721": "write",
+  "6bc48675d7b0cf26e6017c48accfc08c2cd1faf78172cb7fa35adab6aa14c26c": "read",
+  "eaf32257eea56bd4b7fdfe3f7acd7019a33844280f344f84e6f040dc14f69f14": "read",
+  "282f304a5913c444917ca7952760bf9497921c9ef99f9d52a4df3bfa12725c59": "write",
+  "0a364f20d4ffd45471c0643e052633ada592080111a21460d90ec52bf9ab3a33": "write",
+  "33b31589f7e6d1e9263a572312c1749be72f5261c0f56965f179eba97cdb459f": "read",
+  "4e2ff7bd96ab1c3e71a49a4eee4dd3e5353984428ddbd3043e8dd9efa9b39a2c": "read",
+  "1a6f7f09f7d1ecd012624228614f6f11422d930d68cf214775f3ce8b1d340054": "write",
+  "fb1073414f6015aaf927eb5bcc40edae7b6ea79bad8f0610a630c9859ef07afa": "write",
+  "fbe0889aaf1d316297c6701ef838d3ed66719d7def721a38d11cfab2b4a886cc": "write",
+  "ffda436001e8475ecf5074adfb00ef64f871c6e99cbec267cba585704d59be81": "read",
+  "a920ee0afe8d58b1eeff4281b4ee1da47adac1b441dbff9825e2cca2ef4d054d": "write",
+  "d4b206de9e5278f451810e5204fc64870c45132b52bbeb7d3860edaf892271d6": "write",
+  "cadc662dc4d557881aebdc3461f9f7492b59b897b34571a1b555f61498b9227d": "write",
+  "a4272cb41e8ad90b3d8a0ff5b9c1df0a0b3c4afd58de35b7c5fe66305c464ee1": "read",
+  "7894a0ccf5b5d3d6a83c2a21be505e60fe9f73fa27d0fb4263279aa8207ed218": "write",
+  "ede393433057afb3cc4d2d4a8edf422f861ddd4842963b4d2f0b0c2730ee7200": "write",
+  "e30c14d0682ac9cc8c432c692772102b039eb809663eda6a7a5cad72cc8a977c": "read",
+  "3cc29d2f4171ca4ee256d9b2ac9e4b1da156d678caf9669db73407a811c687d6": "read"
+ },
+ "flags": []
+}

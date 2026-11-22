@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "829f8413de3bb73aa6645e4cf05ef171567a1b94b078f78e903d9399ad962cbe",
+ "domain": [
+  "software/erp-development",
+  "business/erp"
+ ],
+ "product": [
+  "sap",
+  "abap"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server that connects agents to SAP ABAP systems.",
+ "whenToUse": "Use when an agent needs to read or work with ABAP code and objects in an SAP system.",
+ "tasks": [
+  "read abap source",
+  "search sap objects",
+  "edit abap code"
+ ],
+ "effects": {},
+ "flags": []
+}

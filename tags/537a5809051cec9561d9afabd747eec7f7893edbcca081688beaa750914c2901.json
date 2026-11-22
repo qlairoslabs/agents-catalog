@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "537a5809051cec9561d9afabd747eec7f7893edbcca081688beaa750914c2901",
+ "domain": [
+  "data/public-records",
+  "research/reference"
+ ],
+ "product": [
+  "sec-edgar",
+  "wikipedia",
+  "arxiv",
+  "us-census"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions from SEC filings, Wikipedia, arXiv, US Census and other public sources with source links.",
+ "whenToUse": "Use when an agent needs cited facts from SEC filings, census data, research papers or encyclopedic sources.",
+ "tasks": [
+  "search sec filings",
+  "search wikipedia",
+  "search arxiv papers",
+  "query us census data",
+  "return source-linked answers"
+ ],
+ "effects": {},
+ "flags": []
+}

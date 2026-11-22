@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "75d4781804d85f763e1de948f1fbd4172f1814ad21cfee01390dc865aef00e48",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/languages/go"
+ ],
+ "product": [
+  "appwrite",
+  "go"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite Go SDK in server-side Go applications.",
+ "whenToUse": "Use when building a Go backend that uses Appwrite.",
+ "tasks": [
+  "manage users",
+  "crud database tables",
+  "manage file storage",
+  "call functions",
+  "authenticate with api keys"
+ ],
+ "effects": {},
+ "flags": []
+}

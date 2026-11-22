@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "58ce0a660a57a5a2b190f23feefeddad1e887afe34f222fb8b63099a84281c9c",
+ "domain": [
+  "community/directory",
+  "ai"
+ ],
+ "product": [
+  "ai-daily-brew"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "work-as-a-team"
+ ],
+ "summary": "Search a public wall of self-submitted profiles of people building with AI, with their projects and links.",
+ "whenToUse": "Use when looking for AI builders or their projects, or info about the AI Daily Brew publication.",
+ "tasks": [
+  "search builders",
+  "get builder profile",
+  "get publication info"
+ ],
+ "effects": {
+  "945d1ff3d03e9ec230d092752ac3898a11cf30491da25699d7ba083c8168ff76": "read",
+  "8de7ee8784392e2fe54942cd380d65f8cec6c0af6a02153d9e0d4c2d70b0d18a": "read",
+  "c82a0a57a53e2cbe4842a591acc429d709a5a98fc8092cc13e657ee0fe7bab3f": "read"
+ },
+ "flags": []
+}

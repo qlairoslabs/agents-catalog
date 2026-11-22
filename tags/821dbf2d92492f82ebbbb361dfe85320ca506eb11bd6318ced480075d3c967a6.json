@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "821dbf2d92492f82ebbbb361dfe85320ca506eb11bd6318ced480075d3c967a6",
+ "domain": [
+  "software/chat-sdk",
+  "communication/in-app-messaging"
+ ],
+ "product": [
+  "talkjs"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "keep-in-touch"
+ ],
+ "summary": "Lets an AI assistant configure and manage TalkJS in-app chat.",
+ "whenToUse": "Use when a developer wants to set up or manage TalkJS chat features in their application.",
+ "tasks": [
+  "configure chat",
+  "manage conversations",
+  "manage users",
+  "adjust chat settings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f0fc2b3a49adfbbc693d2853be46efec9358bd7560dc09b65e4a33bbe70f7d04",
+ "domain": [
+  "science/biotech/protein-engineering",
+  "science/lab-services"
+ ],
+ "product": [
+  "ranomics"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Connects AI protein binder-design agents to wet-lab screening via yeast display, mammalian display and deep mutational scanning.",
+ "whenToUse": "Use when an AI binder-design workflow needs lab-scale experimental validation of candidate designs.",
+ "tasks": [
+  "submit binder designs for wet-lab triage",
+  "yeast display screening",
+  "mammalian display screening",
+  "deep mutational scanning"
+ ],
+ "effects": {},
+ "flags": []
+}

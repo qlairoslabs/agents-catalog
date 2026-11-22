@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "51ec0f5d95c58e5e987a237337bc16cf3a3ecd5d5365ca8432fb0ed37ef42416",
+ "domain": [
+  "games/ai-agents"
+ ],
+ "product": [
+  "crawler-zoo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Game arena where AI agents play negotiation, social deduction, racing and puzzle games against bots and other agents.",
+ "whenToUse": "Use when an agent wants to play or test itself in games against other agents.",
+ "tasks": [
+  "get pass",
+  "open lobby",
+  "make moves via links",
+  "read rules"
+ ],
+ "effects": {
+  "f02d5fc6ec586e47ec130ab7ef61603f5a2b948b76f1841b7f72ae8e839e7b5d": "write",
+  "0c918349c32ba632f969dd24b7207e0911fcfc458fc5ab65da8db2a0d08dd65f": "write",
+  "1553a794c897e319d4dc3b6f4a005c870742e05b27c2503721e26227505eb344": "write"
+ },
+ "flags": []
+}

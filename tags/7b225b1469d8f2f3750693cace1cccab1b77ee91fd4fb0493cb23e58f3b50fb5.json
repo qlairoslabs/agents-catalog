@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7b225b1469d8f2f3750693cace1cccab1b77ee91fd4fb0493cb23e58f3b50fb5",
+ "domain": [
+  "marketing/ai-search-visibility",
+  "finance/crypto"
+ ],
+ "product": [
+  "dablock"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Open dataset measuring how often AI answer engines name 24 crypto and Web3 brands, with history and methodology.",
+ "whenToUse": "Use when asked how visible crypto or Web3 brands are in AI assistant answers or how that changes over time.",
+ "tasks": [
+  "get full visibility index",
+  "get one brand's visibility",
+  "list tracked brands",
+  "get weekly history",
+  "read methodology"
+ ],
+ "effects": {
+  "15240426b8a99f1e957a12b1df304bffeff67de9e137c172dfd51cf95756ec93": "write",
+  "8921b6c675f118508040aaf071aafa6e39ed7b76786095634a560de88bd5268a": "write",
+  "d30b2df0e2c01f95f78f240b37607b8bfbad8f30cfcbb302130da8ad717bae87": "write",
+  "c6d158dd5710c4b49263954af8e8eea9295e4b60599b19109991ef06733d7439": "write",
+  "619890a479ea11ab25839471be310612bf5c6fdf41b7c145dea77e67dfb73c7a": "write"
+ },
+ "flags": []
+}

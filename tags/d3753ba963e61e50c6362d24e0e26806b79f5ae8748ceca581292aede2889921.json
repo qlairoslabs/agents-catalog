@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "d3753ba963e61e50c6362d24e0e26806b79f5ae8748ceca581292aede2889921",
+ "domain": [
+  "simulation/discrete-rate",
+  "education/operations-research"
+ ],
+ "product": [
+  "discreterate"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Run Discrete Rate Simulation demos (tanks, production lines, plants) on a real engine and read explainers of the paradigm.",
+ "whenToUse": "Use when demonstrating or explaining Discrete Rate Simulation versus DES, or running its example models.",
+ "tasks": [
+  "run Fast-Slow Drain",
+  "run Hamburger Duo",
+  "run Valdez Tanker",
+  "run Vegetable Plant",
+  "run Chocolate Processing",
+  "run bottling line SKU capacity",
+  "run tissue line",
+  "list demos",
+  "describe demo",
+  "explain DRS concepts",
+  "run custom showcase"
+ ],
+ "effects": {
+  "0706e8913cf4bc5db271fba8b91d4f010f131ff399eee3109321c1ce1e775d68": "read",
+  "f72dff9e0baa3f6d90d2beb67e559b4dcfb6c849a0e3d4a25be5040746806df6": "read",
+  "6b537f4f30fb98ea37966452da49353e2c688922e024b93f3d3d43dde289f130": "read",
+  "f0b41fad4b5b22ad4f96f054a2d48edc33fd45b7b220a308bc6c227cf418ea0f": "read",
+  "1560f38bd9f7a159b6770cebf6f228f010b36ad24d00e6d655152c898e22ce56": "read",
+  "598572b0840ee27b28f84218b8ae02f517199c8615c8e4767f7d01a66e4bced7": "read",
+  "f086e2b16f927b0ba1480bcc85ae272da4b42e90542b2fdfb225b68d365c4cac": "read",
+  "21b9625efc54daed2dcd2141d64e5298fdacb91605ab9dabc29cd7b3dc56e54c": "read",
+  "dc2cd201c598d9d59fa55c775bc6a84a1a243c3f9512ab0936c2955ed198caf0": "read",
+  "43edf886d884d69fdd66080568dcdc6d1da4d9ded5fe33b301883fe1e4e23901": "read",
+  "2bb2adb51fdf5247b82ffcd6441f20f00ec8aefb77333b7d53eec23e645458c7": "read",
+  "dbead7e17144ed383a2998bd506407e58ff205e1b3ffb3737fcaaa725d375fb1": "read",
+  "6daa7e076440da0b9bdffe538c0c3f00ffb3b06329ac81254d912e03faa74108": "read",
+  "d0a91c06b08927117a99b459b19ddf12a7312488c327af0d61e2dfa21b5de8ed": "write"
+ },
+ "flags": []
+}

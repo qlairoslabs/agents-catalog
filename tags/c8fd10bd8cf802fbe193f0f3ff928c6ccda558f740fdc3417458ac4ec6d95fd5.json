@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c8fd10bd8cf802fbe193f0f3ff928c6ccda558f740fdc3417458ac4ec6d95fd5",
+ "domain": [
+  "productivity/diagramming",
+  "software/documentation"
+ ],
+ "product": [
+  "product-pillars",
+  "mermaid"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Shared live canvas where people and agents co-edit flowcharts, exportable as Mermaid.",
+ "whenToUse": "Use when an agent needs to create or edit a flowchart collaboratively with people or export it as Mermaid.",
+ "tasks": [
+  "edit flowcharts",
+  "collaborate on canvas",
+  "export mermaid"
+ ],
+ "effects": {},
+ "flags": []
+}

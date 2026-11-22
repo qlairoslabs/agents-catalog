@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "2890fc4ed27ea4a9ebf19340020976fb93a07111725706a6ead3b00753545d5b",
+ "domain": [
+  "commerce/marketplace-listings"
+ ],
+ "product": [
+  "ebay",
+  "prelo"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Drafts eBay listings from item photos, including title, description, suggested price and condition.",
+ "whenToUse": "Use when someone wants to turn photos of an item into a ready-to-post eBay listing.",
+ "tasks": [
+  "analyze item photos",
+  "draft listing titles",
+  "write descriptions",
+  "suggest prices",
+  "assess condition"
+ ],
+ "effects": {},
+ "flags": []
+}

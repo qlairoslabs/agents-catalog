@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "38f704f7ce3b44546c0f2e8638a4077ba3cb99948d9f02bcebc524891ae65b62",
+ "domain": [
+  "productivity/notes/ai-memory"
+ ],
+ "product": [
+  "jade-note",
+  "chatgpt",
+  "claude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Notes and persistent memory store that AI assistants can read and write over MCP.",
+ "whenToUse": "Use when a user wants an AI assistant to save or recall notes and memories across sessions.",
+ "tasks": [
+  "save notes",
+  "search notes",
+  "recall memories"
+ ],
+ "effects": {},
+ "flags": []
+}

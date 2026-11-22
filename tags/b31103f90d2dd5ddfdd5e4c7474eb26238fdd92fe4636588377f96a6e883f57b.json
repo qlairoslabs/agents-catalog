@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b31103f90d2dd5ddfdd5e4c7474eb26238fdd92fe4636588377f96a6e883f57b",
+ "domain": [
+  "insurance/auto-claims",
+  "automotive/valuation"
+ ],
+ "product": [
+  "secondappraisal"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Submits a vehicle total-loss case to SecondAppraisal and returns a preliminary market estimate and state rules.",
+ "whenToUse": "Use when a vehicle owner disputes an insurer's total-loss valuation and wants an appraisal.",
+ "tasks": [
+  "submit total-loss claim",
+  "get preliminary market value",
+  "look up state rules"
+ ],
+ "effects": {},
+ "flags": []
+}

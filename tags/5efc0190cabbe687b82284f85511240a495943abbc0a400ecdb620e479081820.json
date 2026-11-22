@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5efc0190cabbe687b82284f85511240a495943abbc0a400ecdb620e479081820",
+ "domain": [
+  "analytics/configuration",
+  "ai/context"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Lists projects in an Amplitude organization and writes organization or project AI context settings.",
+ "whenToUse": "Use when you need to list Amplitude projects or update the AI context stored for an organization or project.",
+ "tasks": [
+  "list organization projects",
+  "write organization ai context",
+  "write project ai context"
+ ],
+ "effects": {},
+ "flags": []
+}

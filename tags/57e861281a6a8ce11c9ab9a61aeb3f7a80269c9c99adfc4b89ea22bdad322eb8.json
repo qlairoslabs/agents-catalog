@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "57e861281a6a8ce11c9ab9a61aeb3f7a80269c9c99adfc4b89ea22bdad322eb8",
+ "domain": [
+  "software/mobile-deployment",
+  "software/devops"
+ ],
+ "product": [
+  "capgo",
+  "capacitor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Manages shipping of Capacitor mobile apps, including live updates, channels, staged rollouts, devices, native builds and stats.",
+ "whenToUse": "Use when deploying or managing live updates and rollouts for a Capacitor app through Capgo.",
+ "tasks": [
+  "push live updates",
+  "manage channels",
+  "control rollouts",
+  "manage devices",
+  "run native builds",
+  "view update stats"
+ ],
+ "effects": {},
+ "flags": []
+}

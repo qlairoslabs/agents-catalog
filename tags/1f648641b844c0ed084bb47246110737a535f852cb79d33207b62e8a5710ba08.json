@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1f648641b844c0ed084bb47246110737a535f852cb79d33207b62e8a5710ba08",
+ "domain": [
+  "events/city-guide"
+ ],
+ "product": [
+  "bushdrum"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lists Bushdrum cities and searches events within a city by category, vibe, date, price and neighbourhood.",
+ "whenToUse": "Use when a user wants to find events happening in a specific city.",
+ "tasks": [
+  "list cities",
+  "search events by city",
+  "filter by date, price, vibe and category"
+ ],
+ "effects": {
+  "c7e653530186962e75f2ff96c83d611b6f9cb5609087f6464740a5325681137e": "read",
+  "bc35d0beb63790d035c07ffba0e22271725cbe03d43ae18ce6555a7227732e14": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "880c97513f80d3d717316cef297eadd5e74294684a932bc7d84123bd60020762",
+ "domain": [
+  "portfolio/personal-site",
+  "ai-engineering"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Read-only access to Krish Parekh's profile, projects, technical articles, services and hiring information.",
+ "whenToUse": "Use when you want background on this developer or their AI services, projects and articles.",
+ "tasks": [
+  "get profile",
+  "get hire info",
+  "list projects",
+  "list posts",
+  "read a post",
+  "get site pages"
+ ],
+ "effects": {
+  "d46fb34667b47c6794c260448f4f9de92f285c41748c82c6149fbf7cb2d8c5dd": "read",
+  "f8d182a07dfe4be1d1c6790dd0dcd28c4d4ca9a914e7196bfca285f0eb207b76": "read",
+  "9771c69d8a9cb9b0676ba0a42331ce1e3401e31aa6586cc457bb088a5980b0ab": "read",
+  "d034ee3499432d8555df28123488f4750fffdf4f881f4f521cc778570d264e23": "read",
+  "2a44d6483f3fbd5605e6996838d015a5764eed187d2e5cb23c924fa50abd1139": "read",
+  "fc4ea845923efa82b5b0f4d8ce72cab9da2051b907a962139587b3972ef4f9d4": "read"
+ },
+ "flags": []
+}

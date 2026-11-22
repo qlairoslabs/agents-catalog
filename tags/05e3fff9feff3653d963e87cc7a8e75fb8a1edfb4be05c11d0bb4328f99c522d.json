@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "05e3fff9feff3653d963e87cc7a8e75fb8a1edfb4be05c11d0bb4328f99c522d",
+ "domain": [
+  "software/frontend",
+  "software/themes"
+ ],
+ "product": [
+  "tailwindcss",
+  "react",
+  "tailthemes"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Searches Tailwind CSS and React themes, reads their tokens and source files, and returns download URLs, with license keys for paid themes.",
+ "whenToUse": "Use when building a Tailwind or React site and you want to find, inspect or download a theme.",
+ "tasks": [
+  "search themes",
+  "get theme manifest",
+  "read component source",
+  "get download URL"
+ ],
+ "effects": {
+  "ac17f9f3049b57d764e168e89e31bb65df68fffc31fd3ab934036403b9a7cf8a": "read",
+  "cacae2a5e53cea32f2ae8bf66440c86adde6fb5bf43fb8f0e654d2ef80918186": "read",
+  "861e254ca89d9b4f3ea8777b3e5f139a2eb7c9f8e88b6020ec780dea874d2737": "read",
+  "4280ee53650a5cea1219226e734b3781cd47ca6e700c412552abdf7ed03ddd88": "read"
+ },
+ "flags": []
+}

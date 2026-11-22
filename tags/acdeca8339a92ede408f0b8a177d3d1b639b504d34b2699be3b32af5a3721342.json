@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "acdeca8339a92ede408f0b8a177d3d1b639b504d34b2699be3b32af5a3721342",
+ "domain": [
+  "software/engineering-analytics"
+ ],
+ "product": [
+  "swarmia"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Queries engineering data in Swarmia including pull requests, issues, agent sessions, teams and DORA metrics.",
+ "whenToUse": "Use when analysing engineering team throughput, delivery or DORA metrics.",
+ "tasks": [
+  "query pull requests",
+  "query issues",
+  "review agent sessions",
+  "view teams",
+  "read dora metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

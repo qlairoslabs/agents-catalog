@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "c378610c4d673330e805c32541b030954204be0a9e57d80c2ec43e0f97c2b3ff",
+ "domain": [
+  "data/documentation",
+  "ai/guides"
+ ],
+ "product": [
+  "shipshape-data"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and fetches Shipshape Data's guides on data and AI, service pages and industry pages as markdown.",
+ "whenToUse": "Use when answering data architecture or AI questions that Shipshape Data guides cover.",
+ "tasks": [
+  "search guides",
+  "fetch page markdown",
+  "list sections and categories"
+ ],
+ "effects": {
+  "29661aaa9f3ab84cd50e67898c817829899761b2f093ea2bc37155a90a393d5c": "read",
+  "edc9d58845e0b7110ce6662ebc99e40645d0879e1412a9327d46740c0f0c4451": "read",
+  "ed2552093341bd73010544f95f5d867e018cd687b86ed7532060cc4f271fa851": "read"
+ },
+ "flags": []
+}

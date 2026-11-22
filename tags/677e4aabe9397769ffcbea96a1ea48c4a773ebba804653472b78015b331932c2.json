@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "677e4aabe9397769ffcbea96a1ea48c4a773ebba804653472b78015b331932c2",
+ "domain": [
+  "local-services/window-cleaning",
+  "home-services"
+ ],
+ "product": [
+  "sonlight-window-cleaning"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "support-customers"
+ ],
+ "summary": "Gets firm window and gutter cleaning quotes by address, checks dispatch availability and books a real appointment.",
+ "whenToUse": "Use when a homeowner in Colorado, New Mexico or Austin wants window or gutter cleaning priced and booked.",
+ "tasks": [
+  "get firm quote",
+  "check availability",
+  "book cleaning appointment"
+ ],
+ "effects": {
+  "5863ff0f7811c061895117676377757786646064b37647ebbb9ed7b510d57d6d": "write",
+  "46c6a4990a16ef9a1ec9b8ea91b7ddd04df3856bb066e1525df604fa18758a79": "read",
+  "3fc2f78f1a777e8b7de305e5a78e3e26aca80492fcbfd6db2e35fa5784ce8a65": "write"
+ },
+ "flags": []
+}

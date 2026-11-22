@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "793ee0aa61903dd404e328678aea99d57f1e0e8357043006cb899123de2071a4",
+ "domain": [
+  "web/publishing",
+  "web/page-hosting"
+ ],
+ "product": [
+  "anew"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Encodes self-contained HTML pages into shareable anew.page URLs and reads or edits them.",
+ "whenToUse": "Use when a user wants a quick shareable web page or link from HTML.",
+ "tasks": [
+  "publish page",
+  "read page",
+  "open editor",
+  "revise page"
+ ],
+ "effects": {
+  "3d417058aa9bedddfd942dbc7039de675b11bbf84af2c0a59ea48e88f8c549dd": "write",
+  "c14bfa9acfe5884f586ca1f0411235e8a39984a8e1a6bbb4a6fb1c817c086697": "write",
+  "0cbb9c676ad506d19870c659bdeb1e459836888092f5d4b9d3eb502ae562f556": "write",
+  "dc040ca5d860ae2f520a2f5fc3ec1c250a358ba58986150d1c6659f023d7ac08": "write"
+ },
+ "flags": [
+  "published pages become publicly accessible and screenshots are cached publicly"
+ ]
+}

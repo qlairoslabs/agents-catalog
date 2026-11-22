@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "38a0c5b345d042f6e8516d9f05f814861186ae30470e9e7720525e078195c141",
+ "domain": [
+  "documents/conversion",
+  "media/transcription"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local converter that turns PDFs, Office files, EPUB, HTML, images, audio and video into Markdown.",
+ "whenToUse": "Use when an agent needs file contents as clean Markdown for reading or processing.",
+ "tasks": [
+  "convert pdf to markdown",
+  "convert office documents",
+  "convert epub and html",
+  "extract text from images",
+  "transcribe audio and video"
+ ],
+ "effects": {},
+ "flags": []
+}

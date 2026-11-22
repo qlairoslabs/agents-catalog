@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "e24be6c12232a7b0f85f952dde2f3b6c68e38d6b2a94877ac1b0f108c139f767",
+ "domain": [
+  "retail/flowers"
+ ],
+ "product": [
+  "the-flowers-directory"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Searches US flower arrangements and same-day florist delivery by ZIP code, providing checkout links.",
+ "whenToUse": "Use when a user wants to send flowers to a US address.",
+ "tasks": [
+  "search arrangements",
+  "check delivery by zip",
+  "get checkout link"
+ ],
+ "effects": {},
+ "flags": []
+}

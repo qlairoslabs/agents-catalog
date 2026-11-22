@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "7bad908417de1bbe3e262c14fb6377a57d5761d0b52206a5bfede7cf7de23149",
+ "domain": [
+  "real-estate/property-valuation"
+ ],
+ "product": [
+  "wozapi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up official Dutch WOZ property valuations for single addresses or lists of addresses.",
+ "whenToUse": "Use when needing the official WOZ value of one or more Dutch properties.",
+ "tasks": [
+  "look up woz value",
+  "bulk lookup addresses"
+ ],
+ "effects": {},
+ "flags": []
+}

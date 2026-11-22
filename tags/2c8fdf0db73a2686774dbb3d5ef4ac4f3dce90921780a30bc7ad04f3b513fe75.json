@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "2c8fdf0db73a2686774dbb3d5ef4ac4f3dce90921780a30bc7ad04f3b513fe75",
+ "domain": [
+  "finance/trading/options",
+  "finance/market-data"
+ ],
+ "product": [
+  "convexvalue",
+  "financial-modeling-prep"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides live US options chains with Greeks and implied volatility, an options screener, SQL queries and FMP company fundamentals.",
+ "whenToUse": "Use when analysing US equity options, volatility or company fundamentals with live data.",
+ "tasks": [
+  "get options chains",
+  "view greeks and implied volatility",
+  "screen options",
+  "run sql queries on market data",
+  "get company fundamentals"
+ ],
+ "effects": {},
+ "flags": []
+}

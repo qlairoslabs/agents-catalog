@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "19576f7b6d643fbb36ff17ac2b1a09a8783ae058c85ba685dd5af7253396a7a9",
+ "domain": [
+  "engineering/electronics/pcb-design"
+ ],
+ "product": [
+  "easyeda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects agents to EasyEDA Pro for inspecting PCB designs, producing bills of materials, exporting files and reviewing hardware.",
+ "whenToUse": "Use when an agent needs to inspect or review a PCB project in EasyEDA Pro or export its BOM and manufacturing files.",
+ "tasks": [
+  "inspect pcb designs",
+  "generate bill of materials",
+  "export design files",
+  "review hardware designs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "82a839c3db72c00c7b018816d98b81577efa1fda4d1df0f40bd771582dd636a9",
+ "domain": [
+  "software/databases"
+ ],
+ "product": [
+  "firestore",
+  "google-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects to Firestore databases to work with collections and documents.",
+ "whenToUse": "Use when reading or modifying data in Firestore collections and documents.",
+ "tasks": [
+  "connect to firestore",
+  "browse collections",
+  "read documents",
+  "modify documents"
+ ],
+ "effects": {},
+ "flags": []
+}

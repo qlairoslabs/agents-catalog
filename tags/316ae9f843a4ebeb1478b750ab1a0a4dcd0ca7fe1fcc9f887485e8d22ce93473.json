@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "316ae9f843a4ebeb1478b750ab1a0a4dcd0ca7fe1fcc9f887485e8d22ce93473",
+ "domain": [
+  "media/steganography",
+  "media/conversion"
+ ],
+ "product": [
+  "snapwonders"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Hosted service to hide files inside images, extract hidden content, analyze media and convert file formats.",
+ "whenToUse": "Use when a user wants to embed or extract hidden data in images, inspect media or convert formats.",
+ "tasks": [
+  "hide files in images",
+  "reveal hidden content",
+  "analyze media",
+  "convert media formats"
+ ],
+ "effects": {},
+ "flags": [
+  "steganography can be used to conceal data exfiltration"
+ ]
+}

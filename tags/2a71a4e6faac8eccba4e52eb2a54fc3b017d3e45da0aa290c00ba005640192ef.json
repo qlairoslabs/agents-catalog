@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "2a71a4e6faac8eccba4e52eb2a54fc3b017d3e45da0aa290c00ba005640192ef",
+ "domain": [
+  "legal/intake-automation",
+  "sales/vendor-demo"
+ ],
+ "product": [
+  "infinivo"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Vendor connector for Infinivo's AI intake desk for law firms: pricing, proof, live text and email demos, and booking a call.",
+ "whenToUse": "Use when evaluating AI phone or intake automation for personal-injury, criminal or immigration law firms.",
+ "tasks": [
+  "get positioning",
+  "get pricing",
+  "get proof",
+  "book call with founder",
+  "start email demo",
+  "check email demo",
+  "start text intake demo",
+  "request demo access",
+  "continue demo",
+  "get transcript"
+ ],
+ "effects": {
+  "d4058c687670af243a558b7261e463a1c3041aab9c66571bf713e0bc714983e4": "read",
+  "869308c44fbd20191ebfc6145ca233bde44af7f78403a7131de3d65b8d62a295": "read",
+  "848843d21250593c633ac7cebadbb465f959c6ba1dbac4b4671e04a539435f15": "read",
+  "dbb4970f75d471fda0a1b8440d707c5fa3bc5d35612630e6301ff7e9a76b945c": "write",
+  "35de550bc6f7affed98317ec5444bcc04e4ab34b67d974f2d9bfdb5f80b1055f": "write",
+  "1888e0cfbdcbef92f1475f449f70a872bb0c91f195dd6041057cf14d5bd82345": "read",
+  "cfa4cbb853dd5a8844bb14348d58092cb5294ed5fd13869dae6d3c66658ba05d": "write",
+  "2c4892112eca6df15e70181b43f437284ca98596e17d37e8a8d0c356c6629631": "write",
+  "4a0fb9a7f0246f07985db4497e36cebf9ba0d5e178657f83a7605ca6f3253c06": "write",
+  "874ee7747f055f1da680bcd0ed4c28300d7ef0c88e510daa79619d8d20a9ce7d": "read"
+ },
+ "flags": [
+  "vendor sales funnel: tools steer agent to role-play as a caller and collect user email for follow-up"
+ ]
+}

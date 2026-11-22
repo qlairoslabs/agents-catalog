@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a33f1d5970026374034173b2ffa424166f6bab9e458f9d0483e2f83b8416e828",
+ "domain": [
+  "software/databases",
+  "software/caching"
+ ],
+ "product": [
+  "redis"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Redis best-practice guidance on data structures, query engine, vector search, caching and performance.",
+ "whenToUse": "Use when an agent is designing or optimizing an application that uses Redis.",
+ "tasks": [
+  "choose redis data structures",
+  "use redis query engine",
+  "implement vector search",
+  "design caching",
+  "optimize performance"
+ ],
+ "effects": {},
+ "flags": []
+}

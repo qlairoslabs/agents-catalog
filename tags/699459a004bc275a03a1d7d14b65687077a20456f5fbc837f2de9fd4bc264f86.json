@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "699459a004bc275a03a1d7d14b65687077a20456f5fbc837f2de9fd4bc264f86",
+ "domain": [
+  "software/storage/decentralized",
+  "software/cybersecurity/encryption"
+ ],
+ "product": [
+  "ipfs"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Stores, retrieves and pins encrypted files on IPFS for agents and workflows.",
+ "whenToUse": "Use when an agent needs to save or fetch encrypted files on the IPFS network.",
+ "tasks": [
+  "upload encrypted files",
+  "retrieve files",
+  "pin files"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "ace1e1689dc8153c8922d29050f89b1ac7b19c2f79059f8362b0f95ba3b84b13",
+ "domain": [
+  "local/food-trucks",
+  "ecommerce/food-ordering"
+ ],
+ "product": [
+  "shortlist-pass"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Finds local businesses and food trucks with live menus, stops and pickup times, and creates a cart link for ordering.",
+ "whenToUse": "Use when someone wants to find food trucks or local shops, see menus or stops, and start a pickup order.",
+ "tasks": [
+  "search businesses",
+  "get business profile",
+  "get menu",
+  "find trucks tonight",
+  "get upcoming stops",
+  "start an order cart"
+ ],
+ "effects": {
+  "528b60cf4109500d2af29438dfae36040f673ab343be3a42d84bce18f32479dd": "write",
+  "fe24c95190e21c686ff733035f578cd92c48f4e11ab096d947e47cfad1ecc924": "read",
+  "e7ea0e393290f3016732c1592f24de4252b19abe4ca3d690d8a1d319c173edf9": "write",
+  "c3a656221a41e8aac5a7f542bce85a02cec5146dbbd64404d4180bd8ecb56506": "write",
+  "d9a5c8646f781aab451ac0aa0650f5ad808a9a9a0c454a78291d8268d7bcedcf": "write",
+  "5badb5de0fb75f6570bd633b2190529a82554ffae757cdadf94de616dcb0ac0c": "write"
+ },
+ "flags": []
+}

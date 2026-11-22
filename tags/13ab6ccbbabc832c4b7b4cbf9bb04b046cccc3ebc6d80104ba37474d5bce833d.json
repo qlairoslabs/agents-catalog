@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "13ab6ccbbabc832c4b7b4cbf9bb04b046cccc3ebc6d80104ba37474d5bce833d",
+ "domain": [
+  "finance/accounting"
+ ],
+ "product": [
+  "e-arveldaja",
+  "rik-e-financials"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Connects to Estonia's e-arveldaja (RIK e-Financials) accounting for invoices, bank imports and reports.",
+ "whenToUse": "Use when an agent needs to manage invoices, import bank statements or pull reports in Estonian e-arveldaja.",
+ "tasks": [
+  "manage invoices",
+  "import bank transactions",
+  "generate financial reports"
+ ],
+ "effects": {},
+ "flags": []
+}

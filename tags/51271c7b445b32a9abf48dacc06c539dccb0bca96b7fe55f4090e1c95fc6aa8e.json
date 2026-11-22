@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "51271c7b445b32a9abf48dacc06c539dccb0bca96b7fe55f4090e1c95fc6aa8e",
+ "domain": [
+  "software/cloud/data-replication"
+ ],
+ "product": [
+  "google-cloud-datastream",
+  "google-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Google's connector for managing Datastream change-data-capture streams and related resources.",
+ "whenToUse": "Use when an agent needs to inspect or manage Google Cloud Datastream streams and connection profiles.",
+ "tasks": [
+  "manage datastream streams",
+  "inspect connection profiles"
+ ],
+ "effects": {},
+ "flags": []
+}

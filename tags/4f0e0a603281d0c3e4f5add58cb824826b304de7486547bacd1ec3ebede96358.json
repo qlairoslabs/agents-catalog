@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4f0e0a603281d0c3e4f5add58cb824826b304de7486547bacd1ec3ebede96358",
+ "domain": [
+  "software/developer-tools/language-server"
+ ],
+ "product": [
+  "eclipse-jdt-ls",
+  "java"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds the Eclipse JDT language server for Java code intelligence.",
+ "whenToUse": "Use when working on Java code and needing navigation, diagnostics or completion.",
+ "tasks": [
+  "java code intelligence",
+  "go to definition",
+  "diagnostics",
+  "code completion"
+ ],
+ "effects": {},
+ "flags": []
+}

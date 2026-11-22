@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f76b1dd3734ece1000420c82e605c3980e0145b211237380087e91a88aaec2fc",
+ "domain": [
+  "media/generative-ai",
+  "ai/models"
+ ],
+ "product": [
+  "krater"
+ ],
+ "audience": [
+  "everyone",
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Access to many AI models through one Krater account for generating video, music, voice and images, plus AI-content detection.",
+ "whenToUse": "Use when the user needs to generate media such as video, music, voice or images, or check whether content is AI-generated, via Krater.",
+ "tasks": [
+  "generate video",
+  "generate music",
+  "generate voice",
+  "generate images",
+  "detect ai-generated content",
+  "access multiple ai models"
+ ],
+ "effects": {},
+ "flags": []
+}

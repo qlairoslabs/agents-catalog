@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fa62f5ec3a41af9807bdcb7018e95542948d0068377744fd800d13e39cf5b97f",
+ "domain": [
+  "legal/case-law",
+  "legal/research"
+ ],
+ "product": [
+  "ezel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches U.S. case law, retrieves court opinions and answers legal questions in the context of your own documents.",
+ "whenToUse": "Use when an agent needs to research U.S. case law or answer legal questions about a specific matter.",
+ "tasks": [
+  "search us case law",
+  "fetch court opinions",
+  "ask legal questions over documents"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a3c00b0249f574088f55da9a66444b6bf716c88fd770ae7855173399766a31d1",
+ "domain": [
+  "retail/board-games",
+  "entertainment/events"
+ ],
+ "product": [
+  "zacatrus"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Search and buy Zacatrus board games, check store stock, book tables, see events and manage an account.",
+ "whenToUse": "Use when the user wants to find or buy board games at Zacatrus, book a table or check events.",
+ "tasks": [
+  "search board games",
+  "buy games",
+  "check store stock",
+  "book a table",
+  "view events",
+  "manage account"
+ ],
+ "effects": {},
+ "flags": []
+}

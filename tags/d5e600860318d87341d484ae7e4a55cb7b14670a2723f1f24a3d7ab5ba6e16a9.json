@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "d5e600860318d87341d484ae7e4a55cb7b14670a2723f1f24a3d7ab5ba6e16a9",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [
+  "nexus-catalyst"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Gives AI assistants persistent memory and shared context that carries across tools and sessions.",
+ "whenToUse": "Use when an agent needs to store and recall context across sessions or across different AI tools.",
+ "tasks": [
+  "store memories",
+  "recall context",
+  "share context across tools"
+ ],
+ "effects": {},
+ "flags": []
+}

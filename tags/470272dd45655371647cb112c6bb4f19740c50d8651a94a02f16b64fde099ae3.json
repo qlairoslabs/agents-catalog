@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "470272dd45655371647cb112c6bb4f19740c50d8651a94a02f16b64fde099ae3",
+ "domain": [
+  "marketing/advertising/paid-ads"
+ ],
+ "product": [
+  "meta",
+  "google-ads",
+  "linkedin"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Runs ad campaigns on Meta, Google Ads and LinkedIn from an assistant, requiring user approval before spending.",
+ "whenToUse": "Use when a user wants to create, manage or review paid ad campaigns across Meta, Google and LinkedIn.",
+ "tasks": [
+  "create ad campaigns",
+  "manage campaigns",
+  "approve spend",
+  "review campaign performance"
+ ],
+ "effects": {},
+ "flags": []
+}

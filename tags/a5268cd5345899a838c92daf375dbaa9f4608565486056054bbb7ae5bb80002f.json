@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a5268cd5345899a838c92daf375dbaa9f4608565486056054bbb7ae5bb80002f",
+ "domain": [
+  "security/video-surveillance",
+  "iot/cameras"
+ ],
+ "product": [
+  "agent-dvr"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Lets users query their Agent DVR security cameras in natural language and create alert rules from a sentence.",
+ "whenToUse": "Use when an agent needs to ask what security cameras saw or set up camera alert rules in Agent DVR.",
+ "tasks": [
+  "query camera footage",
+  "create alert rules",
+  "check camera events"
+ ],
+ "effects": {},
+ "flags": []
+}

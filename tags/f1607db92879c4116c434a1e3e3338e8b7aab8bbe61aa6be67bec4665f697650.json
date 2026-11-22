@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f1607db92879c4116c434a1e3e3338e8b7aab8bbe61aa6be67bec4665f697650",
+ "domain": [
+  "marketing/email-deliverability"
+ ],
+ "product": [
+  "glockapps",
+  "gmail",
+  "outlook",
+  "yahoo-mail"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs email inbox placement tests across Gmail, Outlook, Yahoo and over 30 other mailbox providers.",
+ "whenToUse": "Use when checking whether marketing or transactional emails land in the inbox or spam folder.",
+ "tasks": [
+  "run inbox placement tests",
+  "check spam folder placement",
+  "compare deliverability across providers"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "60ad8a908715624bfa419e742cc8ae3ad468a368aa13f23ac636f9af3eaa96e9",
+ "domain": [
+  "finance/tax",
+  "e-commerce"
+ ],
+ "product": [
+  "bol.com",
+  "vies"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant",
+  "sell"
+ ],
+ "summary": "Calculators for EU VAT on cross-border sales, IBAN validation and bol.com commission for marketplace sellers.",
+ "whenToUse": "Use when computing VAT, checking an IBAN or estimating bol.com seller fees.",
+ "tasks": [
+  "calculate EU VAT",
+  "validate IBAN",
+  "calculate bol.com commission"
+ ],
+ "effects": {
+  "5b930108339e4ac721fc3383e0885e3691887a1ccce19c934061e70614565fea": "read",
+  "4798cc69d0c31e7a4ad0ce5030b980f134608d15f28ff99bd06f010f78d399f2": "read",
+  "abf70a772e5992db468d99d520dedb2377cba974f697f4e072eacd659d3926d7": "read"
+ },
+ "flags": []
+}

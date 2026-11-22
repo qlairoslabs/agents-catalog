@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "17858f62987d2d15417745b831d5998d85399afd5fff883a08638b3043491864",
+ "domain": [
+  "ecommerce/greeting-cards"
+ ],
+ "product": [
+  "panda-greetings"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "sell"
+ ],
+ "summary": "Finds printed greeting card designs for an occasion with the user's message prefilled, linking to Panda Greetings to order.",
+ "whenToUse": "Use when a user wants a printed greeting card or a group-signed card.",
+ "tasks": [
+  "find card designs by occasion",
+  "prefill card message",
+  "support group signed cards"
+ ],
+ "effects": {
+  "082790b6d45fd9c0e3e7b2b17f62133a5eb3b5b724fa5eb160c9e6315632a011": "write"
+ },
+ "flags": []
+}

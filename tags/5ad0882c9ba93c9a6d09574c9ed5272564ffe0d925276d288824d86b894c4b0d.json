@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5ad0882c9ba93c9a6d09574c9ed5272564ffe0d925276d288824d86b894c4b0d",
+ "domain": [
+  "finance/invoicing",
+  "finance/payments"
+ ],
+ "product": [
+  "stripe",
+  "claude",
+  "chatgpt"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Creates and sends PDF invoices with Stripe payment links from a short natural-language description.",
+ "whenToUse": "Use when a user wants to bill a client and send an invoice with an online payment link.",
+ "tasks": [
+  "create invoice from description",
+  "generate invoice pdf",
+  "add stripe payment link",
+  "send invoice"
+ ],
+ "effects": {},
+ "flags": []
+}

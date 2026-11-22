@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "2928d9ef8d14966a34f564d7133b99fe8ff35b6ef99d1549d702ad822e8a6ae4",
+ "domain": [
+  "software/usability-testing"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Free human usability testing of agent-built websites, returning written findings as JSON.",
+ "whenToUse": "Use when a website built by an agent needs real human usability feedback.",
+ "tasks": [
+  "submit usability test tasks",
+  "get written findings as json"
+ ],
+ "effects": {},
+ "flags": []
+}

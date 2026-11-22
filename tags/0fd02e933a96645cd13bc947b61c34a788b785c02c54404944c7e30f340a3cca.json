@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0fd02e933a96645cd13bc947b61c34a788b785c02c54404944c7e30f340a3cca",
+ "domain": [
+  "productivity/reading",
+  "education"
+ ],
+ "product": [
+  "archerionlabs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Turns any text into a one-word-at-a-time RSVP speed-reading session and returns a link to the web reader.",
+ "whenToUse": "Use when a user wants to speed-read an article, document or long reply.",
+ "tasks": [
+  "create speed reading session from text"
+ ],
+ "effects": {
+  "c24ae500edbe3f1f245dfd84620e0df135cac792dec91ad94ea379d550f6429e": "write"
+ },
+ "flags": []
+}

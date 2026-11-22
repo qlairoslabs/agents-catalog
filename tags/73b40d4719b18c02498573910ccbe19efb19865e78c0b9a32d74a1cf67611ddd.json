@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "73b40d4719b18c02498573910ccbe19efb19865e78c0b9a32d74a1cf67611ddd",
+ "domain": [
+  "personal-data/aggregation",
+  "productivity"
+ ],
+ "product": [
+  "telegram",
+  "zoom"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Aggregates a user's personal data from sources such as Telegram, bank accounts, courses and Zoom for AI access.",
+ "whenToUse": "Use when an agent needs scoped access to a user's own messages, banking, course or meeting data.",
+ "tasks": [
+  "read telegram data",
+  "read bank data",
+  "read course data",
+  "read zoom data"
+ ],
+ "effects": {},
+ "flags": []
+}

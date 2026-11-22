@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "87ea4412f6170ddfd29244ad6040ade4e64132e08f91e183e11b4bd70cebc3d2",
+ "domain": [
+  "project-management/gantt-charts",
+  "productivity/planning"
+ ],
+ "product": [
+  "loopgantt"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Generates scheduled Gantt charts with critical path from a plain-language project plan, without an account or key.",
+ "whenToUse": "Use when the user wants to turn a project plan into a Gantt chart with dependencies and critical path.",
+ "tasks": [
+  "create gantt chart from plan",
+  "compute critical path",
+  "schedule tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

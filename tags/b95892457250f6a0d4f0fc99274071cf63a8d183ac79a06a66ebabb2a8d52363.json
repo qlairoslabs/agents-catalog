@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b95892457250f6a0d4f0fc99274071cf63a8d183ac79a06a66ebabb2a8d52363",
+ "domain": [
+  "industrial/automation",
+  "engineering/plc"
+ ],
+ "product": [
+  "allen-bradley",
+  "siemens"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Natural-language queries over Allen-Bradley and Siemens PLC projects, live tag values and analyses.",
+ "whenToUse": "Use when an engineer needs to inspect PLC project logic or live tag values in plain language.",
+ "tasks": [
+  "query plc projects",
+  "read live tag values",
+  "analyze plc logic"
+ ],
+ "effects": {},
+ "flags": []
+}

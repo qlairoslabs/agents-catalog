@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "39139f6dee2dd84c53c587998710a5586f6f90327907c4430d63c16d40e6c13a",
+ "domain": [
+  "procurement/industrial-supplies",
+  "commerce/wholesale"
+ ],
+ "product": [
+  "cintra-supply"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-paid",
+  "automate-work"
+ ],
+ "summary": "Lets an agent request wholesale quotes for industrial and operational supplies from a US distributor, then accept a quote and track the order.",
+ "whenToUse": "Use when a buyer needs a priced quote or purchase of industrial or operational supplies from a US distributor.",
+ "tasks": [
+  "see supported categories",
+  "submit request for quote",
+  "poll quote status",
+  "accept quote to place order",
+  "check order status"
+ ],
+ "effects": {
+  "8f1fa60479d993955776c3d4bd2e218fd952664f9bfd442341eb92ab0b20c1a7": "read",
+  "ce386314ae2a5c7d92ad54f09cd15a63fd31233ecf8c7d9507509a0302c69084": "write",
+  "c0d7b658035d7b20b3ea1526e4c52f542080b1e74fba778c318a792a49acfe87": "read",
+  "271d710a3e32d6e774059505a7ffabf619586067490ea5ca63c49b0696550bda": "risky",
+  "401c534683555358e3cafc4b53fa432278109e6aee9763fdfa6f6d095ed659a8": "read"
+ },
+ "flags": []
+}

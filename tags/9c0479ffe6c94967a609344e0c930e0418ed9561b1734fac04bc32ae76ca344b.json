@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "9c0479ffe6c94967a609344e0c930e0418ed9561b1734fac04bc32ae76ca344b",
+ "domain": [
+  "real-estate/rent-calculation",
+  "finance"
+ ],
+ "product": [
+  "normhyra"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Swedish normhyra calculator that converts between actual rent and normhyra, processes rent rolls, and exports PDF summaries.",
+ "whenToUse": "Use when working with Swedish residential rents and needing normhyra conversions or a rent roll summary.",
+ "tasks": [
+  "list apartment types and base points",
+  "convert actual rent to normhyra",
+  "convert normhyra to actual rent",
+  "process a full rent roll",
+  "export rent roll pdf report"
+ ],
+ "effects": {
+  "f128716e32cbe9050deea9460454e2bc64d4283021e29aba45f85dc5b9bf929c": "read",
+  "583069006725becc02de1f580bda43afe5506a5d9e56cf87132a95743f03d98a": "write",
+  "9d95e69536ed11f4588b16ece665057fc9fd5f7378ea63197c772e4161aa9977": "write",
+  "85eb64bd54b303a724e19ebe531dedd1cfd55cd1a5305b7d4db2c76cfae6e888": "write",
+  "0afdec5b92b432f601249b4aa20e587591da8e40a3ba7c13369707af75c8a8fa": "write"
+ },
+ "flags": []
+}

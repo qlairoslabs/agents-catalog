@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "53b7a8eb40e7b020ac4793a7131acfbe5bad22a370247759775eb91807bd65f3",
+ "domain": [
+  "music/concert-booking",
+  "events/promotion"
+ ],
+ "product": [
+  "callboard"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Runs and reads Promoter Briefs with booking intelligence for concerts.",
+ "whenToUse": "Use when evaluating artists or markets for booking concerts.",
+ "tasks": [
+  "run promoter briefs",
+  "read promoter briefs"
+ ],
+ "effects": {},
+ "flags": []
+}

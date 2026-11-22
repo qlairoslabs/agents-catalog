@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "be668bfa3dda8915269d99d6fc3d085b423b446ccce90b1f1f88cf373f44e275",
+ "domain": [
+  "market-research/app-reviews",
+  "software/developer-tools"
+ ],
+ "product": [
+  "apple-app-store",
+  "docker-hub"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Fetches public App Store customer reviews for an app and public metadata for Docker Hub repositories.",
+ "whenToUse": "Use when you need recent user reviews of an iOS/macOS app or stats about a Docker Hub image.",
+ "tasks": [
+  "fetch App Store reviews",
+  "get ratings and review text",
+  "get Docker Hub repo description",
+  "get pull counts and stars"
+ ],
+ "effects": {
+  "b065da1a8dd897acbd9128dab3dd993fc303a3d9583c9e0882d80f8cca9f9f1d": "read",
+  "c06cc0e0cfc3e94ad20e6014e7ef9762533f419eb1755979ccee310cf661b451": "read"
+ },
+ "flags": []
+}

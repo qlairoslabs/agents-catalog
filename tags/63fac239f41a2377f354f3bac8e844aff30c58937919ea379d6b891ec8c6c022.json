@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "63fac239f41a2377f354f3bac8e844aff30c58937919ea379d6b891ec8c6c022",
+ "domain": [
+  "software/databases",
+  "data/sql"
+ ],
+ "product": [
+  "postgres",
+  "mysql",
+  "mariadb",
+  "sql-server",
+  "oracle",
+  "clickhouse",
+  "sqlite"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects agents to several SQL databases for schema exploration and queries with compact output.",
+ "whenToUse": "Use when an agent needs to inspect schemas or run SQL against a relational database.",
+ "tasks": [
+  "connect to sql databases",
+  "explore schemas",
+  "run sql queries"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "b4ee71b926d18553113963ace3186cf7a5709872c08d101614c2f6edea924109",
+ "domain": [
+  "software/api-documentation",
+  "automotive/data"
+ ],
+ "product": [
+  "marketcheck"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Documentation for the MarketCheck automotive data API: search, endpoint reference, plans and limits.",
+ "whenToUse": "Use when coding against the MarketCheck API and you need endpoint parameters, examples or pricing.",
+ "tasks": [
+  "search docs",
+  "fetch doc page",
+  "list endpoints",
+  "get endpoint reference",
+  "get plans and limits"
+ ],
+ "effects": {
+  "9ba6f7fd436a9791fa4b9f7bce806b2118e744b9ee34aa3c1e75298b7b41226c": "read",
+  "d6bfec6cd2e0b7b124806ba42432e4bb79f403f453716a09b4320ae756dd85f6": "read",
+  "dab1a3426cda741aa924888b752f16281844cc44e239bc56ddaa50b622f739da": "read",
+  "91718a8005aa68673245e4ceb42a85192c772d9d914d251c12f4076ebc8ca0c5": "read",
+  "d6e276258c7572a83018f70f10365b7ac6926d80afb2adcdbd5734e002310fc0": "read"
+ },
+ "flags": []
+}

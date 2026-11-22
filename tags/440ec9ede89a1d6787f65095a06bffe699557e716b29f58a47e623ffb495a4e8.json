@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "440ec9ede89a1d6787f65095a06bffe699557e716b29f58a47e623ffb495a4e8",
+ "domain": [
+  "news/media-monitoring",
+  "research/foresight"
+ ],
+ "product": [
+  "aunoo"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "News coverage with citations, source trust signals, consensus views and foresight analysis for agents.",
+ "whenToUse": "Use when an agent needs cited news on a topic along with source reliability and consensus or trend analysis.",
+ "tasks": [
+  "search cited news coverage",
+  "assess source trust",
+  "summarize consensus",
+  "produce foresight analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

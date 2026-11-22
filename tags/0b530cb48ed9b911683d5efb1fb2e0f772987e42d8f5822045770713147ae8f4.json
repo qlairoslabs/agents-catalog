@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0b530cb48ed9b911683d5efb1fb2e0f772987e42d8f5822045770713147ae8f4",
+ "domain": [
+  "software/cybersecurity/identity",
+  "ai/agent-trust"
+ ],
+ "product": [
+  "apir"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks AI agent credentials and delegated human mandates using signed records and published public keys.",
+ "whenToUse": "Use before trusting or transacting with a third-party AI agent to verify its credential and authority.",
+ "tasks": [
+  "verify agent credentials",
+  "check delegated authority chain",
+  "check spending caps and expiry",
+  "fetch verification public keys"
+ ],
+ "effects": {
+  "70e016a4d50ddac1789e50197438958578f81db1541521c2bd4270c7584d02d6": "write",
+  "acf653dd06095f18b35b9f0ca95c1d9d333bdd2589bc034a825ccf2690c56c9d": "write",
+  "00fc47c1208e95fd124bbbb979856acb08eb08b587af6d6b1809495aad443aa7": "read"
+ },
+ "flags": []
+}

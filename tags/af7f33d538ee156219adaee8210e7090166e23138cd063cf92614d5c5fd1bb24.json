@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "af7f33d538ee156219adaee8210e7090166e23138cd063cf92614d5c5fd1bb24",
+ "domain": [
+  "media/photo-verification",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "lumethic",
+  "c2pa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether photos are genuine camera captures rather than AI-generated, using C2PA and RAW+JPEG forensics.",
+ "whenToUse": "Use when the authenticity of a photo needs to be verified against AI generation or manipulation.",
+ "tasks": [
+  "verify photo authenticity",
+  "check c2pa credentials",
+  "run raw-jpeg forensics"
+ ],
+ "effects": {},
+ "flags": []
+}

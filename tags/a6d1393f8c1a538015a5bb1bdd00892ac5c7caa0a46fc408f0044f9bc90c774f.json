@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "a6d1393f8c1a538015a5bb1bdd00892ac5c7caa0a46fc408f0044f9bc90c774f",
+ "domain": [
+  "software/devops/remote-access"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs SSH operations on remote hosts with built-in connection diagnostics.",
+ "whenToUse": "Use when an agent needs to run commands or diagnose connections on remote servers over SSH.",
+ "tasks": [
+  "run remote commands",
+  "diagnose ssh connections",
+  "manage remote hosts"
+ ],
+ "effects": {},
+ "flags": []
+}

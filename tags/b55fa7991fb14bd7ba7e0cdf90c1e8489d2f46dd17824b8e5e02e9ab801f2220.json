@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b55fa7991fb14bd7ba7e0cdf90c1e8489d2f46dd17824b8e5e02e9ab801f2220",
+ "domain": [
+  "knowledge-management/enterprise-search"
+ ],
+ "product": [
+  "remly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and retrieves knowledge from sources connected to Remly while respecting user permissions.",
+ "whenToUse": "Use when an agent needs to find internal company knowledge across connected sources with access controls applied.",
+ "tasks": [
+  "search connected knowledge sources",
+  "retrieve documents",
+  "respect user permissions"
+ ],
+ "effects": {},
+ "flags": []
+}

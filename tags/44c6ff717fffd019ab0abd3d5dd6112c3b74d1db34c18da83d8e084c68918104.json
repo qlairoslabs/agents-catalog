@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "44c6ff717fffd019ab0abd3d5dd6112c3b74d1db34c18da83d8e084c68918104",
+ "domain": [
+  "design/mobile-app-research",
+  "software/mobile-development"
+ ],
+ "product": [
+  "appllama",
+  "ios"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets you study screens, flows and paywalls from high-grossing iOS apps as reference for building apps.",
+ "whenToUse": "Use when an agent is designing an iOS app and wants examples of proven screens, onboarding or paywalls.",
+ "tasks": [
+  "browse app screens",
+  "study user flows",
+  "review paywalls"
+ ],
+ "effects": {},
+ "flags": []
+}

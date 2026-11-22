@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a6ca453b91aa3796019e6988a765895db06d88d763bfceab7cec805cdeeeb5b7",
+ "domain": [
+  "cloud/aws",
+  "software/infrastructure-as-code"
+ ],
+ "product": [
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for building, deploying and operating applications on AWS, including infrastructure-as-code and core services.",
+ "whenToUse": "Use for general AWS development, deployment and infrastructure-as-code tasks.",
+ "tasks": [
+  "author infrastructure as code",
+  "use core aws services",
+  "deploy applications",
+  "operate workloads"
+ ],
+ "effects": {},
+ "flags": []
+}

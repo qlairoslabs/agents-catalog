@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "fc1af1e41a025a066ebd5d5a0962c13a3b61f16de1d954bf17b34099dee8428f",
+ "domain": [
+  "marketing/social-media-analytics"
+ ],
+ "product": [
+  "instagram",
+  "google-sheets",
+  "excel"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Sorts Instagram posts by views, likes and outliers and exports results to Sheets, Excel, CSV or JSON.",
+ "whenToUse": "Use when analysing which Instagram posts perform best and exporting the data.",
+ "tasks": [
+  "sort posts by views",
+  "sort posts by likes",
+  "find outlier posts",
+  "export to google sheets",
+  "export to csv or json"
+ ],
+ "effects": {},
+ "flags": []
+}

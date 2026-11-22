@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ed162547082f9ece6c728ca67b7666aed8be6b9df74737f8453fdc8ce933d442",
+ "domain": [
+  "software/cloud/messaging",
+  "software/data-streaming"
+ ],
+ "product": [
+  "amazon-sqs",
+  "amazon-sns",
+  "amazon-eventbridge",
+  "amazon-mq",
+  "amazon-kinesis",
+  "amazon-data-firehose",
+  "amazon-msk",
+  "amazon-ses"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Overview guidance on AWS messaging and streaming services that routes channel-specific questions to specialized skills.",
+ "whenToUse": "Use when reasoning about messaging or streaming patterns on AWS or picking the service for a customer communication channel.",
+ "tasks": [
+  "compare messaging services",
+  "choose streaming services",
+  "identify the service for each communication channel",
+  "route to specialized skills"
+ ],
+ "effects": {},
+ "flags": []
+}

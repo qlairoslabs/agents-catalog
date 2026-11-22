@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "67abb790b4a91170cfe025a7ba47c33c94141438921bdb442a6205999945a0e0",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "google-flights"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Google Flights fares for one-way and round trips across date ranges with price assessments.",
+ "whenToUse": "Use when a user wants to compare flight fares over flexible dates.",
+ "tasks": [
+  "search one-way fares",
+  "search round-trip fares",
+  "compare date ranges",
+  "get price verdicts"
+ ],
+ "effects": {},
+ "flags": []
+}

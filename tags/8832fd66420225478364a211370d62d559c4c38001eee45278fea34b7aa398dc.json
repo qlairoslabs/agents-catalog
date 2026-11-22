@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "8832fd66420225478364a211370d62d559c4c38001eee45278fea34b7aa398dc",
+ "domain": [
+  "travel/hotels",
+  "hospitality/restaurants"
+ ],
+ "product": [
+  "les-voiles-toulon",
+  "best-western-la-corniche"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Lets an agent check availability and rates, open booking sessions and reserve rooftop restaurant tables at two Toulon hotels.",
+ "whenToUse": "Use when a guest wants to book a stay or a rooftop table at Hôtel-Rooftop Les Voiles or Best Western Plus La Corniche in Toulon.",
+ "tasks": [
+  "check availability and prices",
+  "open booking session",
+  "add booker details",
+  "suggest alternative dates",
+  "get hotel details",
+  "read stay details",
+  "get check-in codes",
+  "get folio",
+  "check rooftop availability",
+  "reserve rooftop table"
+ ],
+ "effects": {
+  "553dc9f3de2bb12a322cfdbf92f1d00ea5bdf160127814ca9d6dccd1716d45b9": "write",
+  "3afc912ff5a890a09a4e2291f8b073af31de13900f163245300cefb3d22ceca0": "read",
+  "87b6d3f733cc40c5b5271e9d0317094e04b95d3371cc875b1cb3db277263b227": "write",
+  "644ef7ca04ddf60c47c907f2b8e9da3ccba814ce6b60f146b9de9b3461fac441": "read",
+  "07ef7b73be2fd8cee6493d31e04f6a94578d6185b96b5932c95063f06a949f4b": "read",
+  "1f2c4ec690fb65ab0bdbab1c7eb47dbe2eb2aa2accfb5015e504293f7a687666": "read",
+  "dc8071b5cd27afd4f738cd47e6aa7fa0108f09cdec63e75a21cab38c04da7b6b": "read",
+  "9bb50145fc372bdd3b689e6b228de38ade6298208a04efbcb68dde0c256e7caa": "read",
+  "004c8ead4a45c2271916dcfe23d64ada6a0f2572252a628eac9c82a9cfb82199": "read",
+  "11f4565a505c1dc2ba3ebdd5cc3613de5005e8fa54b9cb7e9a44bab0d0bb84d6": "read",
+  "4e71f28365bf0959efdbd34513a79488ae6116e3e73e6bfe7409d0cd001a522e": "read",
+  "19e74c292bacbee791c9fc90230d2ef4ea5b22529de49246225d83de70fb815f": "read",
+  "1224dd9b66ad42cbca229acc0ce2d96196adccc42a81b3bf95ed2fe6284cfac3": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "33503688ae14149512aa02931b508a69c9bfa0c28c3234b2998a664028780442",
+ "domain": [
+  "sports/table-tennis",
+  "travel/local-guides"
+ ],
+ "product": [
+  "leagueofspin"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds outdoor ping pong tables near a location, gives spot details and current weather conditions for playing.",
+ "whenToUse": "Use when someone wants to find a nearby outdoor table tennis table or check if the weather suits play.",
+ "tasks": [
+  "find nearby spots",
+  "get spot details",
+  "check wind and weather conditions"
+ ],
+ "effects": {
+  "1addfe5f66cd0327907a38093c4f8b4ac92f08249c272168f92b0e69276579aa": "read",
+  "814569dbae334d18e102792d64ea11c94113da03f89302635601946fec9e2d52": "read",
+  "834a612a9e43037a9afd97d06eecb64fdce9a7f479e270174e2fce831d72059c": "read"
+ },
+ "flags": []
+}

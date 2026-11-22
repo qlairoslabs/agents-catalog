@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "48207da2670c7a6a61a7331eb3c487a2a7140b705d4b3053d0cc832b741ddbe4",
+ "domain": [
+  "healthcare/medical-devices",
+  "business-data/company-search"
+ ],
+ "product": [
+  "md-atlas"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers",
+  "stay-compliant"
+ ],
+ "summary": "Searches a database of international medical-device companies, people, devices, certificates, documents and UDI codes.",
+ "whenToUse": "Use when researching medical-device manufacturers, their products, certifications or UDI identifiers.",
+ "tasks": [
+  "search medical-device companies",
+  "search people in the industry",
+  "look up devices",
+  "find certificates",
+  "search documents",
+  "look up udi codes"
+ ],
+ "effects": {},
+ "flags": []
+}

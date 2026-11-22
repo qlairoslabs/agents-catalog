@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b7f7174e17ff94f6857d0a5859cfa717f97b20905f14b7bde82654cb36205c14",
+ "domain": [
+  "software/agent-memory",
+  "software/knowledge-management"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "MCP server that stores shared records for AI agents, such as engineering decisions, bug history, rules and work state.",
+ "whenToUse": "Use when an agent needs to record or recall project decisions, past bugs, rules or current work state shared across agents.",
+ "tasks": [
+  "record engineering decisions",
+  "track bug history",
+  "store project rules",
+  "share work state between agents"
+ ],
+ "effects": {},
+ "flags": []
+}

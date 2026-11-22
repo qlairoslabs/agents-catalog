@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "650635d1c1d37822457448f715022985222c1b02589e87963beedb60ce83271a",
+ "domain": [
+  "media/video-hosting",
+  "media"
+ ],
+ "product": [
+  "videostemporales"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Temporary video hosting where AI agents upload videos and get shareable links for people to view.",
+ "whenToUse": "Use when an agent needs to share a generated or processed video with a person through a temporary link.",
+ "tasks": [
+  "upload video",
+  "get shareable link"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e9a949a44b8cea5854d074c9ecf52b178d4ed635624107e58bb86f9eea3d9f8e",
+ "domain": [
+  "software/monitoring",
+  "operations/incident-management"
+ ],
+ "product": [
+  "uptimerobot"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages UptimeRobot monitors for websites, APIs and servers, including incidents and uptime statistics.",
+ "whenToUse": "Use when an agent needs to set up uptime monitoring, review outages or report availability stats.",
+ "tasks": [
+  "create monitors",
+  "triage incidents",
+  "query uptime stats"
+ ],
+ "effects": {},
+ "flags": []
+}

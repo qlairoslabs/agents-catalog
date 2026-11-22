@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "1a99741ac899b49decde34289fbff851b3f48f477e0ca557b5a504a503b28f57",
+ "domain": [
+  "construction/structural-steel",
+  "construction/estimating",
+  "construction/quality-control"
+ ],
+ "product": [
+  "bluebeam",
+  "aisc"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Structural steel calculators for weights, gauges, bolts and coatings, plus generators for RFQ spreadsheets, RFI and NCR PDFs and Bluebeam markups.",
+ "whenToUse": "Use when a steel estimator or fabricator needs nominal weights, takeoff totals, mill cert screening, or formatted RFQ, RFI, NCR or marked-up drawing documents.",
+ "tasks": [
+  "look up sheet gauge thickness",
+  "compute plate weight",
+  "look up aisc shape weight",
+  "describe connections and bolt grades",
+  "get bolt pretension",
+  "look up pipe schedules",
+  "compute bar and tube weight",
+  "screen mill certs",
+  "roll up steel takeoff",
+  "estimate coating area",
+  "generate rfq spreadsheet",
+  "generate rfi and ncr pdfs"
+ ],
+ "effects": {
+  "520157e84bea4ba376e800e6abe57823eb51cf94b314f5553158b2d52e803d9b": "read",
+  "e7e7bfb09aacd08e0ed6423b43d09f93b9ab3c5954fdfb2c6ac0038c3b88b4f0": "read",
+  "9957b20a4e7a8ce192b1bb365c9157e51c8da9c1adcccb40eac1681acca3fada": "read",
+  "c7234bca7d039f6657b46d3d335ea9b72b1f7cfd0481e8ee95611b55c613aeea": "read",
+  "f85faf4321d919c83f1185944f585106b40325c1aa3c7216224de721daaaae6a": "read",
+  "01133334f2701fee6f82d645d1b9ec0ec71a0a361849a1159d6cc524793dfd29": "read",
+  "63b58c4a5e92ea2b99d2a602c0bd5018672f070b7560503d9e44044fd29020ca": "read",
+  "78345ceeba9803de182df1c5d9a645e64fc250fb63e6791ad8e81e098959ec0a": "read",
+  "edbd95a1546ace7b3d75e70e35f40f009704c7cecd5e3421cf67c56c80923998": "read",
+  "d7745a6b3eb2621db76a0e17177d324f462a1845fe270faefe448f5797617b74": "read",
+  "a718aa4f80a14974ccf23f03bc0aa2aa823a04b13f44a5e4e76423451a6d97d0": "write",
+  "7123e61369f3a6a17abe1e377d8bf521de4c96a9106cd80817d84009040816ff": "write",
+  "beff77fa2fafab5fe82c1435c9bc48399c2bde8ba8064a95c6d4c8ce1b578cdb": "write",
+  "745eb3f95473665a3f9f94cb9ed06cf6799a06b5d7ec5dc4836afc9c0ed8518b": "write"
+ },
+ "flags": []
+}

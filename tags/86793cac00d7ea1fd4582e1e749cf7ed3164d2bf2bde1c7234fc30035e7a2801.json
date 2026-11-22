@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "86793cac00d7ea1fd4582e1e749cf7ed3164d2bf2bde1c7234fc30035e7a2801",
+ "domain": [
+  "software/performance-testing",
+  "software/load-testing"
+ ],
+ "product": [
+  "maxoperf"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Drives MaxoPerf load and browser performance tests from an AI agent using an API key.",
+ "whenToUse": "Use when running or reviewing load or browser performance tests on MaxoPerf.",
+ "tasks": [
+  "run load tests",
+  "run browser performance tests",
+  "review test results"
+ ],
+ "effects": {},
+ "flags": []
+}

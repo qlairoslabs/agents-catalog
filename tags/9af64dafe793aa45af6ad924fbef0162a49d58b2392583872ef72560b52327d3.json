@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "9af64dafe793aa45af6ad924fbef0162a49d58b2392583872ef72560b52327d3",
+ "domain": [
+  "government/us-capitol",
+  "travel/navigation"
+ ],
+ "product": [
+  "us-capitol"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Navigation help for the US Capitol complex: decode room codes, find member and committee offices, route between buildings, check access rules and plan a Hill day.",
+ "whenToUse": "Use when planning visits or meetings on Capitol Hill, finding an office, or checking access, accessibility and prohibited items.",
+ "tasks": [
+  "find room or member office",
+  "route between points",
+  "accessible route",
+  "check visitor access",
+  "find nearby restroom exit food",
+  "list prohibited items",
+  "plan multi-meeting day",
+  "check readiness"
+ ],
+ "effects": {
+  "a9f4c7932061bb7626585a0ffd0e2ac16b9d7e20f3553caf417e96d331d21ab2": "read",
+  "5fd22e129560222ec920469fa7b740a6198a921f5ec4c676eeb1edf9c8234632": "read",
+  "6c99ef111a21bb461a2e19ac6e1812af41ded0ed6cd3f5d34979930f8194a6db": "read",
+  "6606b7865d3560f11771439dd78a68221b49a454fcd9d4fda500751f51d16f8d": "read",
+  "0df11cead7d3fed6f41a827dcfe273b47dd4fd5b1a43e1decd73c1f021beba46": "read",
+  "a3aa99a046024ce825f5aea8f2ed928ed8b2cf1d46d5b8e2f4a09bb3b2fa4211": "read",
+  "05343d4647e3750de6ad3f1b4dd2f9418ef33e39dbc300ee547405544b076a26": "read",
+  "82bde775873ceed2646dfafec4978f0d28536c6b3b8c9228c9d30339e2beddfe": "read",
+  "b4d9c983da275e794474d1abc030de29ecd3e6f1e4ebde59604be5081730b28c": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c824e9f27e9f5bd5f09512bafe5649edb477ca762ec0565642c94e0ddfeae187",
+ "domain": [
+  "marketing/social-media/twitter",
+  "data/social-listening"
+ ],
+ "product": [
+  "twitter",
+  "twitterapi-io"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Hosted connector from twitterapi.io for searching tweets and reading users, followers and trends on Twitter/X.",
+ "whenToUse": "Use when an agent needs to search tweets or look up Twitter/X users, followers or trends.",
+ "tasks": [
+  "search tweets",
+  "look up users",
+  "list followers",
+  "get trends"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a488ce841b01e7a330e37ecd68c970f852a0a373d3e317c8ddb8a6a848733b9d",
+ "domain": [
+  "nonprofit/charity-data",
+  "research/due-diligence"
+ ],
+ "product": [
+  "giveradar"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches, verifies and compares nonprofits from charity registries worldwide, with integrity scores and financial ratios.",
+ "whenToUse": "Use when a user wants to find, verify by registration number, compare or find similar charities before donating or researching.",
+ "tasks": [
+  "search charities by name",
+  "compare charities",
+  "find similar charities",
+  "verify by registration number"
+ ],
+ "effects": {
+  "746ec5af166ecdb7df3fbf68246911c817fb6a98598b6dc78a5fab0b85c345fb": "read",
+  "7e22c9ec5c319658946364fa8b5ee548098f0231252b8796918fc0326cd30dcd": "read",
+  "d0afb499877e73dcab9752ea9655ebc76a7be442092ea9446c2c8c067dede5ef": "read",
+  "fb42b060c8034bcf98682d7cdeb0bd127e2989d0298bc6461466cdefefc04ffe": "read"
+ },
+ "flags": []
+}

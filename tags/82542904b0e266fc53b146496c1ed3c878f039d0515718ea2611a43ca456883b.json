@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "82542904b0e266fc53b146496c1ed3c878f039d0515718ea2611a43ca456883b",
+ "domain": [
+  "retail/grocery-prices"
+ ],
+ "product": [
+  "grocerypulse",
+  "loblaws",
+  "sobeys",
+  "metro",
+  "walmart",
+  "no-frills"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares grocery list prices across chains in supported Canadian cities, with dated prices and coverage notes.",
+ "whenToUse": "Use when a shopper in a covered Canadian city wants to know which grocery chain is cheapest for their list.",
+ "tasks": [
+  "plan a grocery order from a free-text list",
+  "list covered cities, items and chains",
+  "compare chain prices for catalogue items",
+  "get store product links"
+ ],
+ "effects": {
+  "18e15c8b89001a82100abed1d28c0d6c94f1cb5880cc8e6911ded9fb7154d1a1": "write",
+  "75dbfd837d5bcf584ae984e5d892548e67174ecae075fce775800e4eb9e909c9": "read",
+  "2bb619ee73080eff67eded74079029d037d3f365a3883ad98da9011eb77c8463": "write"
+ },
+ "flags": []
+}

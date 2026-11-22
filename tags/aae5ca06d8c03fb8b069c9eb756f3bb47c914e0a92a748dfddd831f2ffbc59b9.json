@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "aae5ca06d8c03fb8b069c9eb756f3bb47c914e0a92a748dfddd831f2ffbc59b9",
+ "domain": [
+  "travel/accommodation"
+ ],
+ "product": [
+  "la-truite"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Live availability, details and direct booking links for the La Truite d'Argent resort in the Belgian Ardennes.",
+ "whenToUse": "Use when a user wants to check stay, camper or restaurant availability at La Truite d'Argent.",
+ "tasks": [
+  "check accommodation availability",
+  "get accommodation details",
+  "check restaurant availability",
+  "check camper availability",
+  "build booking link"
+ ],
+ "effects": {
+  "895168427e613830e71e468c1c59bc1a258c18d3cfffd275fcd2d98c629e7bda": "read",
+  "9593f5b7c51bb4723ce4dad666a8127fe8849859592f6f35930b99747051fe48": "read",
+  "957f7d4894a782a01775f9672d40b72f37d444f51270b7cd061b3eeb2ba6c1af": "read",
+  "70e91e141a130f6222ca0997dcb78c9b6b6a6901df72fd776a48007efb3c5198": "read",
+  "dd39953180ef028fd8e2c3415af4bdccc8211419b0f955a58c490275c656f560": "read"
+ },
+ "flags": []
+}

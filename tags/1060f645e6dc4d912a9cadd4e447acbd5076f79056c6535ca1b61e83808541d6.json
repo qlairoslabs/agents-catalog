@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1060f645e6dc4d912a9cadd4e447acbd5076f79056c6535ca1b61e83808541d6",
+ "domain": [
+  "communication/messaging",
+  "communication"
+ ],
+ "product": [
+  "whatsapp",
+  "green-api"
+ ],
+ "audience": [
+  "support",
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Gateway to WhatsApp through Green API for sending messages and managing contacts, groups and instances.",
+ "whenToUse": "Use when an agent needs to send or read WhatsApp messages or manage WhatsApp groups and contacts via Green API.",
+ "tasks": [
+  "send whatsapp messages",
+  "manage contacts",
+  "manage groups",
+  "manage instances"
+ ],
+ "effects": {},
+ "flags": []
+}

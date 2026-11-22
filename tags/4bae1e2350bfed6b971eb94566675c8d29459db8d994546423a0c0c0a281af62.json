@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "4bae1e2350bfed6b971eb94566675c8d29459db8d994546423a0c0c0a281af62",
+ "domain": [
+  "website-content",
+  "software/products"
+ ],
+ "product": [
+  "vigil",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Searches and reads public Vigil pages and lets an agent list products and start a Stripe checkout.",
+ "whenToUse": "Use when you need Vigil site information or want to start a purchase of a Vigil product.",
+ "tasks": [
+  "get site info",
+  "search pages",
+  "read page",
+  "list products and prices",
+  "create checkout",
+  "read checkout"
+ ],
+ "effects": {
+  "15bbffd408afcd2b72f009d1b7d04b13738923bb59f77e66f7e3c39486419a73": "read",
+  "e9641f5d05298674b08861e5b1fe469aca65d329b835f9545f4f8cfb09c69cf7": "read",
+  "fa7a806c30e340073d16770bafa0eafc18dbb8eae1efdb54eeaf4a27c9d90375": "read",
+  "99e85d089b762450db3f600f3272a6413ced0c3a632f9cf40e3f67d3bb516c35": "read",
+  "9ff798e514813f8efc58511c30d707a8c372249cc94adc91bb817ab2eabb6161": "write",
+  "864b6b451f5ed392ccb41194d83d1109e15d44a4e8b89993a1457d802f81034a": "read"
+ },
+ "flags": []
+}

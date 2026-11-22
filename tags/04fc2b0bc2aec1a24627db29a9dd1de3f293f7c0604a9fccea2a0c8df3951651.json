@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "04fc2b0bc2aec1a24627db29a9dd1de3f293f7c0604a9fccea2a0c8df3951651",
+ "domain": [
+  "legal/e-signature"
+ ],
+ "product": [
+  "signdocs",
+  "icp-brasil"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "stay-compliant"
+ ],
+ "summary": "Sends, signs and verifies documents with ICP-Brasil electronic signatures through a SignDocs account.",
+ "whenToUse": "Use when a SignDocs user needs to send a document for signature or verify a signature.",
+ "tasks": [
+  "send document for signature",
+  "sign documents",
+  "verify signatures"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "eaa5cee74351a39189421f4202190295b046bd4e5eab97147bd615db7c5c9822",
+ "domain": [
+  "software/observability"
+ ],
+ "product": [
+  "nestjs"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Production telemetry for NestJS applications covering traces, errors, regressions, background jobs and alerts.",
+ "whenToUse": "Use when debugging or monitoring a production NestJS app's traces, errors or jobs.",
+ "tasks": [
+  "view traces",
+  "inspect errors",
+  "detect regressions",
+  "monitor jobs",
+  "view alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

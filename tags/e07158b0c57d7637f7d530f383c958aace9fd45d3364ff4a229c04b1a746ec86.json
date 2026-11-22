@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e07158b0c57d7637f7d530f383c958aace9fd45d3364ff4a229c04b1a746ec86",
+ "domain": [
+  "legal/ai-governance",
+  "legal/privacy-compliance"
+ ],
+ "product": [
+  "aiframework.com.au"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Builds an AI governance framework for an Australian organisation by mapping its profile to the Privacy Act and sector laws; collects contact details.",
+ "whenToUse": "Use when an Australian business asks which laws apply to its AI use and wants a governance framework draft.",
+ "tasks": [
+  "start a governance questionnaire session",
+  "submit organisation profile and contact details",
+  "identify applicable australian legislation",
+  "retrieve framework preview as markdown"
+ ],
+ "effects": {
+  "1191d6e4e88bfdb6ea6b80ba2de91aaaf1e365d3c465308f6eea11383a1fa899": "write",
+  "8482f0f9bb6c73dee61ec69f2a0dd7773be697d64d2df93ad46ac0a0c4aeb6b5": "write",
+  "df41e61c52d73942cba147934ddee9a076306854d02d29a76923069a6a5f245c": "write"
+ },
+ "flags": []
+}

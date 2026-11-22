@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "073e445cfbeb0b6474cf316f56cc43aa9d7ec5b0678983089c66b42ff20a0b37",
+ "domain": [
+  "marketing/social-media/scheduling"
+ ],
+ "product": [
+  "post-mesh",
+  "youtube",
+  "tiktok",
+  "instagram",
+  "x",
+  "threads",
+  "facebook"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Japanese-language service that schedules and publishes posts to YouTube, TikTok, Instagram, X, Threads and Facebook.",
+ "whenToUse": "Use when an agent needs to schedule or publish social media posts across several platforms via post mesh.",
+ "tasks": [
+  "schedule posts",
+  "publish to youtube",
+  "publish to tiktok",
+  "publish to instagram",
+  "publish to x",
+  "publish to threads",
+  "publish to facebook"
+ ],
+ "effects": {},
+ "flags": []
+}

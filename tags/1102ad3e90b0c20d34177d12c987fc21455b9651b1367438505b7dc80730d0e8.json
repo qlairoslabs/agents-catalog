@@ -1,0 +1,69 @@
+{
+ "classifier": 2,
+ "contentHash": "1102ad3e90b0c20d34177d12c987fc21455b9651b1367438505b7dc80730d0e8",
+ "domain": [
+  "data/datasets",
+  "robotics/motion-capture",
+  "insurance/risk-data"
+ ],
+ "product": [
+  "unitree",
+  "apptronik",
+  "usdc",
+  "base",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Paid datasets: BJJ motion-capture BVH, video and robot trajectories, rehab biomechanics reports, location threat intel and commercial-truck sighting data, bought in USDC.",
+ "whenToUse": "Use when an agent needs mocap or robot-retargeting training data, rehab biomechanics, threat assessments or truck imagery.",
+ "tasks": [
+  "browse dataset catalog",
+  "search datasets",
+  "buy BVH animation",
+  "buy multi-view video",
+  "buy robot trajectories",
+  "buy session bundles",
+  "get threat assessments",
+  "get rehab reports",
+  "get truck sighting bundles",
+  "get truck image corpus",
+  "pay negotiated quotes",
+  "get free samples"
+ ],
+ "effects": {
+  "ecba8dab010ddd68d6bac635b1fc1e3f6e49a436f419e3fb58f613cfa75ac637": "read",
+  "fa2f88c2b7fd55fbaa01fb39c53cf8b615fee859f571921f13b4efc890aad19f": "write",
+  "591ad9f378b42c2d851b7301df568187d6dbe8e4599a381c410f5f07a5bbd596": "write",
+  "8779243e38b8d2d04d0a38306b593c6539e3bb8e090917a6dcbfa7794f3a397b": "write",
+  "930ba6bca708be652358ec96e0342a27e83276837669e555e659826c7819e631": "write",
+  "c3b8b0bf37e74a7a40dc7bfe8cfdd7894b89ce08db52a64d96092cb7e5d38341": "risky",
+  "a471163b0831f379a085e74c5d645e7b2fae1fddacc36ce5fcd3541a9516cab8": "write",
+  "d8d94f578ba29ad032622f5d43e6b6a8ea08219c69124da2698c1ac7165a92ab": "write",
+  "07fc19a2e34b4661dac2c0709c8f1363e335c6f23641edc98bccc4805bf9cd63": "read",
+  "d8b1d918b73c06bb4d03b39ade23e9d43189ead5be6fa9daecaef4b59c4513ca": "write",
+  "398ddda2026a7536f1365a897d7e54f55236228eb2c4c7b7c538a99183f4e4df": "read",
+  "1aa7e99587d9cf6862c37f1f7d4b4f77c1f45280ffb7877d7f0cdc12a16f8630": "write",
+  "f8e30bc8ba543cff96b6ab794a92ab7e61db458307c170c7d939aa3a2b1791c9": "write",
+  "c41834038217862430b29c14554ec026c06d79de37539cc873b72a0f9fd3cfd8": "read",
+  "9aa88ffb4e7a4f6752e2f28a05440b2283a37f5326037d659bdcf307ad99cb9c": "read",
+  "6ac1840268cde0f37a54c69df7bccd9993406369fe65783917392af7e4804dc6": "read",
+  "4e3034d2bba35c2b676f0665abef5fbab7a5a1a2cb035ac6876caedd76c4650a": "read",
+  "e308426f949b4feeb4917237dd2b356eda1d93a55bd8cf30a82e6f7b5ab21af1": "read",
+  "d41dd4a412dc2de483b25b6e59d2b470bc5d4defda7646c7052e64edf32d1eb9": "read",
+  "78d294130153c1b6331b057e9121f037667fe8165d6ed2ddeeb19cac2e217cf9": "write",
+  "90fea3baafaad1985a513a5121b6a9e90e9887b9b5e3aa065725ae8f863147dd": "read",
+  "f4ae0fefa749dad28b02cdf3012802583dd7ef0da8f59f08068dfaac00e71c9d": "write",
+  "2189adff8b91d895deed3b08ad60d919bf34da9bf2f53e1b6814480591d2dd56": "write"
+ },
+ "flags": [
+  "sells vehicle sighting data and patient rehab data, a privacy-sensitive scope",
+  "pay_quote asks for USDC payments to a fixed wallet"
+ ]
+}

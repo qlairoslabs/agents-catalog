@@ -1,0 +1,74 @@
+{
+ "classifier": 2,
+ "contentHash": "13551c08393875af1a5c72f6eb70452823c32d6756f7d7e370e96ad17e1479d6",
+ "domain": [
+  "science/drug-discovery",
+  "science/biology",
+  "research"
+ ],
+ "product": [
+  "nullary",
+  "chembl",
+  "pubchem",
+  "uniprot"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only database of negative results in drug discovery: inactive compounds, failed modalities, safety and clinical failures by target or indication.",
+ "whenToUse": "Use when researching a drug target, compound or indication and needing what has already been tried and failed.",
+ "tasks": [
+  "search inactive compound-target pairs",
+  "find admet and safety failures",
+  "find failed crispr guides and screens",
+  "find failed antibodies, peptides, protacs, oligos, adcs, bispecifics, vaccines",
+  "get full failure history for a target, indication or pathogen",
+  "get compound negative profile",
+  "get finding provenance",
+  "get target exhaustion landscape",
+  "list most pursued targets",
+  "view inactivity model cards",
+  "view coverage stats"
+ ],
+ "effects": {
+  "ac3dec17915675daaf7e384c99c7f9a18a1baf9875cccac6367fb76e77a6040a": "read",
+  "e29054bd72ea4310af7cb5f3adef92eb1acb74c98c1f21c3112251dcf5206b67": "read",
+  "63396c8c6e4647d4e84c91bcd4ac65c2b679c7f7167c3af12f04852fce2d452a": "read",
+  "325e8e67bd240b866191aa44cad401f89872a090e5657d9473460f66f6cbbfaf": "read",
+  "70502d9e82a33d6f31892a95168cac008f63ae8a11f3dca1029dfabad39454ff": "read",
+  "9fafae57ab853cc7d1536216815421f540418bf6fbc1d42bdba85ea912fc3ce5": "read",
+  "b91ac98e035c19108560f5ec666d337fcecfade91057a7e961ac6bbe0f541c9c": "read",
+  "4ae2012fb8c78feb385de92e93075c71b4e3f9b8bafe65b47fcaf37d9e31aa2e": "read",
+  "871bcaa05718875c44247b76b489b50b099966e5a7fb1e4e4f226e3fb7f80e7b": "read",
+  "26a3dad1c722b6865278983a0fde588d05b299cf103300f490c2255cd9f3beba": "read",
+  "3d35a08c18efefd3c9bd72b936b7939967a4515b59864811930e40b27b90599f": "read",
+  "5a7c163af88dd7c8eeacf571675d8f7005e98a613d7328cd9703afeda51bd2a9": "read",
+  "d8972abfa1df8ededd82fb6a78edfb1b541d4c504736b6ecd3d6882c22c0fc1f": "read",
+  "f60881a565933e72262aede7859a8f9f8509916a47323b36e9a6443648dc2336": "read",
+  "45d64766433808f21007430b7cb8ca3190055f403d3bdfce300b492612317fc0": "read",
+  "7004d041addde4524a6e7ac3b9771aad3c74201432594d806df57690020d138f": "read",
+  "b086b90632cf2a0bc90ef6eb83dbf0dc088add9924f165b360b0cd59dd8a2607": "read",
+  "2b080197627a20f17bd79d65412f1165880216e2079d805c7d2214e213c942d8": "read",
+  "b1508e266e45f48d0051293160f9be76554e2daa3f57a9c43b862a539a7ce8fa": "read",
+  "b5f2057f932ec48538e1269906ccb370bb9589875ad4815d3fac2c8f621a834c": "read",
+  "f5a2b10831dc08b507964bd20bfb1d31ca878c952f6b881d4150b682db354764": "read",
+  "2233b68b9546a725a89e1dd51f840343776a1c3e59b777ad6dc6fed41b670f7c": "read",
+  "955b0f3db20b455e5bd8170609da0c09f632442615e983bfeab7f9203a6aef23": "read",
+  "dd77b1a4d8673a1471c6a9324b61250a6f0ed9fb25ef7e7928636cab14c6919b": "read",
+  "c21e57a2ec4c7dc6111286cdc65aff19f45d837afc025bafdea5ebd88e856c8f": "read",
+  "0c0faa551078526b1f260aa4dec1dda333964a08c331e552b7bdaafaadf462ad": "read",
+  "743bec9645dcf8b79fa3c57f52cf3d82b418f512a43999adf193a303f9be7a3a": "read",
+  "dba20b4540a18c9f6f4feb1bf3af1d99f3811251081d2ef9e1bc1e064456a153": "read",
+  "e5fd3f76c3c97e3f6ea53f0a6e033b4809d7875f5bbc55ab6108ec0bfbecf55f": "read",
+  "ccb8bb14d0b3b734447162a361244db5f00cf8b1ed2201aedfa5ed48ecae258d": "read",
+  "b6240f6533ca2443d660ed2e1a7539aaf8468c0a289ef97098355db5610369c5": "read",
+  "d7670b3f981113b8d508dae477bbf95f3c5748502a6e14616b00a7741dcaeba1": "read",
+  "6fd940b7e2d21688a7ab65072770f6b29b547ea2b0695c47024f53966adddc5e": "read",
+  "1bac8604c692d95c7d3573a1528af5a04bb1be6c1665ee06e770607973cb23b5": "read",
+  "1fe5cad0c1b66c1177b71e8a8b343ea51ee5ea589811106f79cdccc6de955e01": "read"
+ },
+ "flags": []
+}

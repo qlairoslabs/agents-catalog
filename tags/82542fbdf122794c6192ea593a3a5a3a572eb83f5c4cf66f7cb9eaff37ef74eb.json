@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "82542fbdf122794c6192ea593a3a5a3a572eb83f5c4cf66f7cb9eaff37ef74eb",
+ "domain": [
+  "ecommerce/price-comparison",
+  "home-garden/grills"
+ ],
+ "product": [
+  "wogrill",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Compares current German prices for grills across shops, finds buying guides and rechecks a single offer's price.",
+ "whenToUse": "Use when a user in Germany wants the best price or buying advice for a grill.",
+ "tasks": [
+  "search grill offers",
+  "filter by brand and price",
+  "find guides and comparisons",
+  "recheck offer price"
+ ],
+ "effects": {
+  "8d600d6152b634130301b3b619ddff4cce9ebdf7b7a9949497404325e1453789": "write",
+  "7bf28432dd1c68ac5850ac187c91c34e376e473d6d4220b90bfb790e4d4d4255": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

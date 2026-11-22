@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "92760ff3a58d939208b38c2b4ffe147d1fd963cb1dc8e722ab46d27043510312",
+ "domain": [
+  "real-estate/property-data/zoning",
+  "government/permits"
+ ],
+ "product": [
+  "placestack"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Provides US property data including parcels, owners, sales, zoning rules, building permits and zoning cases.",
+ "whenToUse": "Use when researching a US property's ownership, sales history, zoning or permits.",
+ "tasks": [
+  "look up parcels",
+  "find property owners",
+  "view sales history",
+  "check zoning rules",
+  "search building permits",
+  "search zoning cases"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3c537bbba83105b400bb55fe7160ce9c2ad9c03d250f480d12f7d4a3ad2aa799",
+ "domain": [
+  "content/document-generation",
+  "accessibility"
+ ],
+ "product": [
+  "blinkpdf"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "stay-compliant"
+ ],
+ "summary": "Converts Markdown or LLM output into accessible PDF/UA-1 compliant PDF files without a headless browser.",
+ "whenToUse": "Use when an agent must turn Markdown or generated text into an accessible PDF document.",
+ "tasks": [
+  "render markdown to pdf",
+  "create accessible pdf/ua-1 documents"
+ ],
+ "effects": {},
+ "flags": []
+}

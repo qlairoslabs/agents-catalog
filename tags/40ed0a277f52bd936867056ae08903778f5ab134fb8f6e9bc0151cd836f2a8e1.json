@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "40ed0a277f52bd936867056ae08903778f5ab134fb8f6e9bc0151cd836f2a8e1",
+ "domain": [
+  "business/erp",
+  "finance/calculators"
+ ],
+ "product": [
+  "odoo"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Calculators for Odoo ERP projects covering implementation cost, ROI, total cost of ownership, tax, payroll and inventory figures.",
+ "whenToUse": "Use when estimating the costs, returns, taxes, payroll or inventory figures of an Odoo ERP deployment.",
+ "tasks": [
+  "estimate implementation cost",
+  "calculate roi",
+  "calculate total cost of ownership",
+  "compute tax",
+  "compute payroll",
+  "calculate inventory figures"
+ ],
+ "effects": {},
+ "flags": []
+}

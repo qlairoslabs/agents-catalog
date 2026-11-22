@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "432befd5cec21e147300e43d382cd6c96352c20c31e534ad3fb4b88f2a85c419",
+ "domain": [
+  "software/backend",
+  "software/cloud"
+ ],
+ "product": [
+  "firebase"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Official Firebase server giving AI development tools Firebase-specific capabilities.",
+ "whenToUse": "Use when building or managing an app that uses Firebase services.",
+ "tasks": [
+  "manage firebase projects",
+  "work with firestore",
+  "manage auth",
+  "deploy resources"
+ ],
+ "effects": {},
+ "flags": []
+}

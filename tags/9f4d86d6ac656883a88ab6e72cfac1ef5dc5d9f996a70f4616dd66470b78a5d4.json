@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9f4d86d6ac656883a88ab6e72cfac1ef5dc5d9f996a70f4616dd66470b78a5d4",
+ "domain": [
+  "hospitality/restaurant-menus",
+  "commerce/qr-menus"
+ ],
+ "product": [
+  "duckhub"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Hosted server for managing a restaurant's DuckHub QR menu through the DuckHub API.",
+ "whenToUse": "Use when a restaurant operator wants an agent to update menu items, categories or settings in DuckHub.",
+ "tasks": [
+  "manage menu items",
+  "manage menu categories",
+  "update prices",
+  "manage restaurant menu settings"
+ ],
+ "effects": {},
+ "flags": []
+}

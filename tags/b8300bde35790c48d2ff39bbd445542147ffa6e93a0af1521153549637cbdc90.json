@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b8300bde35790c48d2ff39bbd445542147ffa6e93a0af1521153549637cbdc90",
+ "domain": [
+  "finance/trading",
+  "finance/market-data"
+ ],
+ "product": [
+  "exante"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses EXANTE brokerage market data, accounts, portfolios and orders through its HTTP API.",
+ "whenToUse": "Use when an agent needs quotes, portfolio details or to manage trading orders on an EXANTE account.",
+ "tasks": [
+  "get market data",
+  "view accounts",
+  "view portfolio",
+  "manage orders"
+ ],
+ "effects": {},
+ "flags": []
+}

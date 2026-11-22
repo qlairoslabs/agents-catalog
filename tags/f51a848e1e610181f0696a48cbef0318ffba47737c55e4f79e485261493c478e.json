@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f51a848e1e610181f0696a48cbef0318ffba47737c55e4f79e485261493c478e",
+ "domain": [
+  "software/hosting/deployment"
+ ],
+ "product": [
+  "jade-hosting"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Deploy and manage Jade Hosting projects from AI clients, requiring a Jade account and OAuth.",
+ "whenToUse": "Use when deploying or managing a project hosted on Jade Hosting.",
+ "tasks": [
+  "deploy projects",
+  "manage hosting projects"
+ ],
+ "effects": {},
+ "flags": []
+}

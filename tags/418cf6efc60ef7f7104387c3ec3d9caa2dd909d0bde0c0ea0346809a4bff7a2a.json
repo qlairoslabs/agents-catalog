@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "418cf6efc60ef7f7104387c3ec3d9caa2dd909d0bde0c0ea0346809a4bff7a2a",
+ "domain": [
+  "software/ai/machine-learning",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-sagemaker",
+  "amazon-bedrock",
+  "aws",
+  "mlflow",
+  "cloudwatch",
+  "amazon-s3"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for selecting, fine-tuning, evaluating and deploying AI models on Amazon SageMaker, including endpoint diagnostics.",
+ "whenToUse": "Use when fine-tuning, evaluating, deploying or debugging models and endpoints on Amazon SageMaker.",
+ "tasks": [
+  "choose base models",
+  "prepare training datasets",
+  "fine-tune models",
+  "evaluate model quality",
+  "deploy to sagemaker endpoints",
+  "deploy to bedrock",
+  "optimize inference",
+  "set up iam roles and s3 for training",
+  "manage mlflow apps",
+  "diagnose endpoint failures",
+  "view container logs and metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

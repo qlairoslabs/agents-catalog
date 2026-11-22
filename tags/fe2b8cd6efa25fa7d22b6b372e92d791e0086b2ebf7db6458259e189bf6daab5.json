@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "fe2b8cd6efa25fa7d22b6b372e92d791e0086b2ebf7db6458259e189bf6daab5",
+ "domain": [
+  "commerce/online-store",
+  "communication/messaging"
+ ],
+ "product": [
+  "ocapi",
+  "whatsapp"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Manages an Ocapi online store that takes orders through WhatsApp, covering products, categories, orders and images.",
+ "whenToUse": "Use when managing the catalogue or orders of an Ocapi store that sells via WhatsApp.",
+ "tasks": [
+  "manage products",
+  "manage categories",
+  "manage orders",
+  "upload product images"
+ ],
+ "effects": {},
+ "flags": []
+}

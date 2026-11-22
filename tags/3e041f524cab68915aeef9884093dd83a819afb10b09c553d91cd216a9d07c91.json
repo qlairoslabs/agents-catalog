@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3e041f524cab68915aeef9884093dd83a819afb10b09c553d91cd216a9d07c91",
+ "domain": [
+  "software/documentation",
+  "software/ui-components"
+ ],
+ "product": [
+  "devexpress"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and retrieves DevExpress documentation across its UI, reporting and office technologies.",
+ "whenToUse": "Use when a developer needs DevExpress API or control documentation.",
+ "tasks": [
+  "search documentation",
+  "get full documentation page"
+ ],
+ "effects": {
+  "92c06cfa1b76e427ec6e7af8861450b78aebb21df10c7cd850b0d874361e4454": "read",
+  "1603a8e776d4b6f139df75e7b9c39bc2f9e0664668be34d500b943c2d460711f": "read"
+ },
+ "flags": []
+}

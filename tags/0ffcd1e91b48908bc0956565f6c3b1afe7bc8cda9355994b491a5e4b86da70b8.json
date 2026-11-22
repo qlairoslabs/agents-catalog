@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0ffcd1e91b48908bc0956565f6c3b1afe7bc8cda9355994b491a5e4b86da70b8",
+ "domain": [
+  "productivity/presentations",
+  "content/design"
+ ],
+ "product": [
+  "powerpoint"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates editable PowerPoint decks from typed slide intents using 200+ layouts and brand templates.",
+ "whenToUse": "Use when an agent needs to produce a consistent, editable PowerPoint presentation.",
+ "tasks": [
+  "generate powerpoint slides",
+  "apply brand templates",
+  "choose slide layouts"
+ ],
+ "effects": {},
+ "flags": []
+}

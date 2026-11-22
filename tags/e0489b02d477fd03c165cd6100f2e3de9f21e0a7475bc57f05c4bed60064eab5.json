@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "e0489b02d477fd03c165cd6100f2e3de9f21e0a7475bc57f05c4bed60064eab5",
+ "domain": [
+  "business/company-data",
+  "compliance/kyc"
+ ],
+ "product": [
+  "origami-entreprises",
+  "bodacc",
+  "inpi"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Provides French company data such as financials, executives, BODACC notices, INPI filings, PEP checks and alerts.",
+ "whenToUse": "Use when researching or monitoring a French company, its leaders or legal filings, including PEP screening.",
+ "tasks": [
+  "get company financials",
+  "list executives",
+  "search bodacc notices",
+  "get inpi filings",
+  "run pep checks",
+  "set company alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

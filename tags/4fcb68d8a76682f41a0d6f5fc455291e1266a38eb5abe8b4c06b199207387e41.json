@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4fcb68d8a76682f41a0d6f5fc455291e1266a38eb5abe8b4c06b199207387e41",
+ "domain": [
+  "design/color",
+  "software/graphics"
+ ],
+ "product": [],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Converts colors across 221 color spaces, with CSS string parsing, gamut checks and LUTs.",
+ "whenToUse": "Use when an agent needs to convert or check colors between color spaces.",
+ "tasks": [
+  "convert color spaces",
+  "parse css colors",
+  "check gamut",
+  "generate luts"
+ ],
+ "effects": {},
+ "flags": []
+}

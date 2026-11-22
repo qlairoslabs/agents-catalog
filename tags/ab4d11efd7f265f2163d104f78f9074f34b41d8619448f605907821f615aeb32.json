@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ab4d11efd7f265f2163d104f78f9074f34b41d8619448f605907821f615aeb32",
+ "domain": [
+  "software/ci-cd",
+  "software/api-integration"
+ ],
+ "product": [
+  "buildkite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Reference for calling Buildkite's REST and GraphQL APIs and handling its webhooks programmatically.",
+ "whenToUse": "Use when the user writes code or scripts that call the Buildkite API, handle webhooks or authenticate with API tokens.",
+ "tasks": [
+  "call buildkite rest api",
+  "write graphql queries and mutations",
+  "set up webhooks",
+  "handle webhook payloads",
+  "paginate api results",
+  "authenticate with api tokens"
+ ],
+ "effects": {},
+ "flags": []
+}

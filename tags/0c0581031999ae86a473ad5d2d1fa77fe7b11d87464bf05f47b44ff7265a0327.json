@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0c0581031999ae86a473ad5d2d1fa77fe7b11d87464bf05f47b44ff7265a0327",
+ "domain": [
+  "finance/quant-research",
+  "finance/crypto"
+ ],
+ "product": [
+  "quant-research"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Computes crypto backtest statistics with a server-tracked trial count, so overfitting from repeated trials cannot be understated.",
+ "whenToUse": "Use when an agent is evaluating crypto trading strategy backtests and needs statistics that account for the number of trials.",
+ "tasks": [
+  "run crypto backtest statistics",
+  "track trial counts",
+  "assess overfitting risk"
+ ],
+ "effects": {},
+ "flags": []
+}

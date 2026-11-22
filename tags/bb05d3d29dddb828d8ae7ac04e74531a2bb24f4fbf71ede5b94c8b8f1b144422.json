@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bb05d3d29dddb828d8ae7ac04e74531a2bb24f4fbf71ede5b94c8b8f1b144422",
+ "domain": [
+  "health/fitness-training",
+  "sports/running"
+ ],
+ "product": [
+  "intervals-icu"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Running coach connector that reads Intervals.icu watch data to review workouts, track fitness and write training plans.",
+ "whenToUse": "Use when a user wants analysis of their running or training data from Intervals.icu or help planning workouts.",
+ "tasks": [
+  "review workouts",
+  "track fitness trends",
+  "write training plans",
+  "read watch activity data"
+ ],
+ "effects": {},
+ "flags": []
+}

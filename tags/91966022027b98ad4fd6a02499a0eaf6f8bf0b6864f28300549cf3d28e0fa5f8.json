@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "91966022027b98ad4fd6a02499a0eaf6f8bf0b6864f28300549cf3d28e0fa5f8",
+ "domain": [
+  "fitness/strength-training",
+  "health/fitness"
+ ],
+ "product": [
+  "coachsync"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Barbell training calculators for warmup sets, plate loading and a 4-week novice linear progression program.",
+ "whenToUse": "Use when a lifter needs warmup sets, plate math or a starter strength program.",
+ "tasks": [
+  "calculate warmup ramp",
+  "calculate plate loading",
+  "generate novice program",
+  "support custom plates"
+ ],
+ "effects": {
+  "c230a885dfc35a4380668deb5928e668490e1f6843ca17c1a7e1938d7247967d": "read",
+  "dd9f208d575649c7ab0fc93dcf34d6361a90de03adbbe1e94aa73418e8c4a376": "read",
+  "196eadeacde100d8aad7dfe15e4518a4b98a0d8ad8ca5a46da77a275ac6ef9f8": "read"
+ },
+ "flags": []
+}

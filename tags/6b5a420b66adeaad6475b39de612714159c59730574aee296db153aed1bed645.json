@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "6b5a420b66adeaad6475b39de612714159c59730574aee296db153aed1bed645",
+ "domain": [
+  "software/documentation",
+  "software/java"
+ ],
+ "product": [
+  "maven-central",
+  "javadocs-dev"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reads Javadoc, Scaladoc and source files for any Maven Central library, and resolves artifact versions and coordinates.",
+ "whenToUse": "Use when you need the API docs or source of a Java, Kotlin or Scala library, or its latest version or Maven coordinates.",
+ "tasks": [
+  "resolve latest version",
+  "read javadoc index",
+  "list documented symbols",
+  "read symbol docs",
+  "list source files",
+  "read source file",
+  "search artifacts",
+  "find artifact by class"
+ ],
+ "effects": {
+  "5d64dd259658ef161cc3f5ff9f5243a5e486ab8623f54bde4f9f630332644e1b": "write",
+  "1cf31f9b2cce6887b3f1ed61a49cdf6270ee3b9e2e32463d3c4df710af00a46d": "read",
+  "345eb5560a8a29365994f3ad82af37eb274ba2dec755d084d50fb287cebac13c": "write",
+  "0d135e6aa05a0f3774b125ff25a831fcf225f83ca817cdc545b1453d09a9ac12": "read",
+  "b9cf983e1b98e1ca5e5639fe79511441e38ccf548aa7b083fda1e3632fe3ebc8": "write",
+  "b1afa5f16ae98c29ecd6c552e689265117b9ae0ee2252264020d5321014edfe0": "write",
+  "ffb3c278658e53034d6634dc41d0c4e799af6889d40036d1f15a90bd30240631": "write",
+  "5013aea6228bc118c373cd2f71b1fda2014224b48fe2a0d8eb0ae1d4f86db2df": "write"
+ },
+ "flags": []
+}

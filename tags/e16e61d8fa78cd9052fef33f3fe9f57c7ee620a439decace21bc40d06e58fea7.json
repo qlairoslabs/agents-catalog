@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e16e61d8fa78cd9052fef33f3fe9f57c7ee620a439decace21bc40d06e58fea7",
+ "domain": [
+  "software/internationalization",
+  "content/translation"
+ ],
+ "product": [
+  "lingo-dev"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lingo.dev connector that helps implement internationalization in apps using ICU MessageFormat.",
+ "whenToUse": "Use when adding or fixing localization and translated strings in a software project.",
+ "tasks": [
+  "implement i18n",
+  "format icu messages",
+  "localize app strings"
+ ],
+ "effects": {},
+ "flags": []
+}

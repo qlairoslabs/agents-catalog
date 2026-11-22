@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1c8a42edebbcca9648616dfea5405ef2ff008e9d8b17ce68152ed96f8076e26f",
+ "domain": [
+  "finance/sec-filings",
+  "finance/investment-research"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses SEC filings including financials, insider trades, 13F holdings and fund data.",
+ "whenToUse": "Use when an agent needs data from SEC filings on public companies, insiders or funds.",
+ "tasks": [
+  "search sec filings",
+  "get company financials",
+  "view insider transactions",
+  "view 13f holdings",
+  "view fund data"
+ ],
+ "effects": {},
+ "flags": []
+}

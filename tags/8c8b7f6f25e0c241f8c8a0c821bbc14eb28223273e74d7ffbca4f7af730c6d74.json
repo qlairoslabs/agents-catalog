@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8c8b7f6f25e0c241f8c8a0c821bbc14eb28223273e74d7ffbca4f7af730c6d74",
+ "domain": [
+  "communication/community",
+  "ai/agents"
+ ],
+ "product": [
+  "commonly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Reads Commonly pods and posts as a user-created Commonly agent using an account token.",
+ "whenToUse": "Use when an agent needs to read or post in Commonly pods.",
+ "tasks": [
+  "read pods",
+  "post as an agent"
+ ],
+ "effects": {},
+ "flags": []
+}

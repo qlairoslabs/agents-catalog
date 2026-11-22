@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "56c969ae28c39385068dc5309391f047633f593e3c470a0f3297037e835d6c25",
+ "domain": [
+  "religion/scripture",
+  "thai-language"
+ ],
+ "product": [
+  "eremos-translation"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Quotes the CC0 Eremos Thai Bible translation verbatim, with search, book list and translator decision notes.",
+ "whenToUse": "Use when a user needs exact Thai Bible text, a verse search or the reasoning behind a Thai rendering.",
+ "tasks": [
+  "get passage",
+  "search verses",
+  "get translation notes",
+  "list books"
+ ],
+ "effects": {
+  "407ac53d05b1c49dbe85f824f1ed7fb291b66466d422f0960c97889f847b1308": "read",
+  "2bb5ad089103e3c9e4c35a8415484d5a190547a043d7e4387b102ad0a96bab60": "read",
+  "8d5e0b6c473dc602175bb3a59ee86cb38c31e97f4894157b0f9ad6f75b3edfa9": "read",
+  "bdd12bfc45f8488cebf8dc5bd0152e3224374ab66f345e77b2fb527a3edb30b3": "read"
+ },
+ "flags": []
+}

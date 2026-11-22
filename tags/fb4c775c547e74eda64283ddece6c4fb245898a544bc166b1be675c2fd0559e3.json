@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fb4c775c547e74eda64283ddece6c4fb245898a544bc166b1be675c2fd0559e3",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "software/dependency-management"
+ ],
+ "product": [
+  "sonatype"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Connects an agent to Sonatype's dependency intelligence to check packages for vulnerabilities, quality and safer versions.",
+ "whenToUse": "Use when evaluating or upgrading open-source dependencies and you need vulnerability data or secure version recommendations.",
+ "tasks": [
+  "analyze dependencies for vulnerabilities",
+  "recommend secure versions",
+  "check component quality metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

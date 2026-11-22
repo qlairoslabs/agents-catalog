@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "5254131377b0210e85497ad4ba143d2fde5882e798dc80ebc028edb8bce7a10e",
+ "domain": [
+  "pet-care/dog-services",
+  "scheduling"
+ ],
+ "product": [
+  "shesmydoglady",
+  "google-maps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "be-online"
+ ],
+ "summary": "Lets an agent view a dog care business's services, check addresses, find open times and request, check or cancel bookings.",
+ "whenToUse": "Use when a customer wants to book a dog visit such as a meet and greet with this business.",
+ "tasks": [
+  "read business card",
+  "find open times",
+  "check service address",
+  "book a visit request",
+  "check booking status",
+  "cancel a pending request"
+ ],
+ "effects": {
+  "694e6a65857b6cef5c78f708521abbeb072152fd5ce31a7bf075473398818513": "read",
+  "b11a3204cc5650211bfa64497d7d6b2127ea553cee4136ce3e0a9551d202becf": "read",
+  "81d0340b1248e3e61d79f38456968215f1e051c1ccab314b7fdc6b67bf12cd6a": "read",
+  "ce6c81b8ef4f47f6d8b779204815162a1582bdc5e22e3301a338e1870d7f7383": "write",
+  "7808a4a08f0e1363dd413375b36acc2b1afa0a6709880fd61e272921c31901a5": "read",
+  "66c09905bcb9220ff179f447a21d41f79a6e9e00337cb8a426341398376cb4e8": "write"
+ },
+ "flags": []
+}

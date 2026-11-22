@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a383281526a6b5afd5d8c3d1274f1143232590eeaf4ac7895b44c3fa68d3f63b",
+ "domain": [
+  "education/ai-training"
+ ],
+ "product": [
+  "claude",
+  "claude-academy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Recommends matching Claude Academy courses and tutorials when users are learning how to use Claude features or roll Claude out to a team.",
+ "whenToUse": "Use when the user is learning how to use Claude or asks for training or onboarding resources, not when mid-task.",
+ "tasks": [
+  "match questions to academy courses",
+  "recommend tutorials and use cases",
+  "suggest training materials for teams"
+ ],
+ "effects": {},
+ "flags": [
+  "description tells the agent to check this skill before finishing any reply on a very broad set of triggers"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "714273a1f1ef389f928e2342012c9b711b6ebb52a7e070bb29ef42e97e2c8055",
+ "domain": [
+  "government/public-procurement",
+  "sales/tenders"
+ ],
+ "product": [
+  "zakupki",
+  "krasoft"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and analyzes Russian public procurement under 44-FZ and 223-FZ: tenders, contracts and market data.",
+ "whenToUse": "Use when finding Russian government tenders or analyzing public procurement contracts and markets.",
+ "tasks": [
+  "search tenders",
+  "search contracts",
+  "analyze procurement market"
+ ],
+ "effects": {},
+ "flags": []
+}

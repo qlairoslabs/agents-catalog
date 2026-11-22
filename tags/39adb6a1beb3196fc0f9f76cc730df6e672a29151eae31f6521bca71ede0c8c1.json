@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "39adb6a1beb3196fc0f9f76cc730df6e672a29151eae31f6521bca71ede0c8c1",
+ "domain": [
+  "travel/attraction-tickets"
+ ],
+ "product": [
+  "attractiontickets"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Searches theme parks and attractions and returns ticket product details with live calendar pricing and availability.",
+ "whenToUse": "Use when a user wants attraction ticket options, prices or availability for specific dates.",
+ "tasks": [
+  "search attractions",
+  "get attraction details",
+  "get calendar pricing",
+  "check availability"
+ ],
+ "effects": {
+  "ae6b10f1b278c0f01c1dd5a3a08ff77452028e58324f3bc4d795f371cb4ec30a": "read",
+  "bac4458a8ce1809a28c1a80faaf9c1912bef3399661fdce02dd3552ce4b5ed9a": "read",
+  "5da21028d2271190be53ce8f2b11a9c136203fcad998db25b3637a03fecd8163": "read"
+ },
+ "flags": []
+}

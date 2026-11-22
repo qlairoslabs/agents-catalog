@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "bfbe61e20c10e0d1a12e7e780d86a8ac52afbbe9c476cc5e2449b23b90d65ab3",
+ "domain": [
+  "marketing/social-media/data",
+  "data/web-scraping"
+ ],
+ "product": [
+  "instagram",
+  "tiktok",
+  "konbiniapi"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Retrieves public Instagram and TikTok data such as profiles, posts, videos and comments.",
+ "whenToUse": "Use when you need social media profile or content data from Instagram or TikTok for research or analysis.",
+ "tasks": [
+  "get social profiles",
+  "get posts",
+  "get videos",
+  "get comments"
+ ],
+ "effects": {},
+ "flags": []
+}

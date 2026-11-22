@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "332f99b9a3c099fbda6c8f97882fd9f79a3bf36fe506d7e4acaca70c00f45454",
+ "domain": [
+  "software/app-builder",
+  "software/hosting"
+ ],
+ "product": [
+  "orbit",
+  "postgres"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Lets an agent build apps with screens, a Postgres database and a live hosted URL.",
+ "whenToUse": "Use when an agent should create and publish a working web app with a database.",
+ "tasks": [
+  "create app screens",
+  "create postgres database",
+  "deploy live url"
+ ],
+ "effects": {},
+ "flags": []
+}

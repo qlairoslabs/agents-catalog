@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "897fa184465386ba9dbc92c3be0b747271cd5cde5d5c5fb372546cc340e9204d",
+ "domain": [
+  "software/cybersecurity/ai-security",
+  "software/cybersecurity/auth"
+ ],
+ "product": [
+  "helixar"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Security checks for agent setups: scans MCP servers, validates and verifies HDP delegation chains, and audits MCP OAuth.",
+ "whenToUse": "Use when assessing the security of an MCP server or validating an agent delegation token.",
+ "tasks": [
+  "scan mcp servers",
+  "score mcp risk",
+  "validate delegation chains",
+  "verify hdp tokens",
+  "check mcp oauth setup"
+ ],
+ "effects": {
+  "2f791b11d4ed3b0b3179599a2e4b5f22428eec7a62c7d5258c0da4fecb29f8cd": "read",
+  "2d918b63dc897152963c65a42f62910f78833e428ce44c096a703f8f0ada03cc": "read",
+  "9666d5f42c6931eb05c810d254f3f324c4e77d427cd2c26f8c98431e31f6f100": "read",
+  "e020975938fe7f6a97e74d8acaa15246c56b1949b2b9676f3e6087fb45617219": "read"
+ },
+ "flags": []
+}

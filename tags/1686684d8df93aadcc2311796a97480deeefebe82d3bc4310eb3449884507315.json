@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1686684d8df93aadcc2311796a97480deeefebe82d3bc4310eb3449884507315",
+ "domain": [
+  "productivity/critical-thinking"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Adds two or three targeted follow-up questions after substantive advice or drafts so the user can check facts and assumptions.",
+ "whenToUse": "Use after giving advice, analysis, plans or drafts the user may act on, at most once per conversation.",
+ "tasks": [
+  "append follow-up questions",
+  "prompt fact checking",
+  "probe assumptions",
+  "surface missing context"
+ ],
+ "effects": {},
+ "flags": [
+  "description directs the agent to invoke it before finalizing many replies"
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "4c8ca6260a49338ca3c4d813d2cc6027ab4d671675dbd2152ae8490d7b108b79",
+ "domain": [
+  "business/sponsorship",
+  "marketing/community-partnerships"
+ ],
+ "product": [
+  "engineering-leaders-community",
+  "slack"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "hire-and-manage",
+  "create-content"
+ ],
+ "summary": "Matches a company to an Engineering Leaders Community partnership package, prices and customizes it, plans a 12-month journey and sends an offer.",
+ "whenToUse": "Use when a company wants to sponsor or partner with ELC for hiring or brand reach and needs pricing, a business case or an offer.",
+ "tasks": [
+  "match a package",
+  "customize package items",
+  "price one-off reach items",
+  "fit a package to budget",
+  "build business case memo",
+  "design month-by-month plan",
+  "book intro call",
+  "request offer"
+ ],
+ "effects": {
+  "0084d11e0f6cce6467d7a4148b9176d1f85b6ef0a6ea2628f981ad31cc14422e": "read",
+  "04466d90aa3febd37d07e38b52c5536a0d8cfb67cc8e48b7ebd846877ad5ae02": "read",
+  "ce723e363e46fd7cd84808ee6c0ac987d3b7f8475eef7e7339ce7f5354a1373f": "write",
+  "a8cd71125a3976eb0b3950f3b6797cf188f4205d8647ccfdf1b87b7a8cff467c": "read",
+  "15d1fc13c75c9d0d0bd24f8fff8b54f7bedee689c8b0bb47dd4ae1714e0766e7": "read",
+  "e26521c1b42cc3a0ac35a2ab25868960c8b14e0c9a056775a3ef2c86cc863702": "read",
+  "81088bafae71744b7654632500678620facc333d6c05022562853e4363a1dfb0": "read",
+  "a972e9f1386eff8925abd099aa95b219ab7d0380dd9df3de7ed19d13e1bbe810": "read",
+  "67f5326163540ad045636096b6de9750c28dbd770af04be10783c14718027477": "write",
+  "600c5bad48dce3cd1703c6bfd3018f4cf1b9dd679b6b49f2aa88784db8866995": "write",
+  "a465141307e25d51799775979e9d1f82d12a37d5119d1ef4486655c06722639e": "read",
+  "27fdfc2f272617e5f1107a9597abd0e1efc9b11d7f6784f61c0c42bfa4885fe2": "write"
+ },
+ "flags": [
+  "descriptions steer the agent's workflow and sales conduct",
+  "asks for optional public social post after offer",
+  "tools record agent-supplied context as intent"
+ ]
+}

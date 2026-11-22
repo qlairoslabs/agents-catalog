@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c49d1683178b5b1e7f6c112d5215b682ce3d73904e3843868eb4ff6d4aa14586",
+ "domain": [
+  "software/hosting",
+  "software/deployment"
+ ],
+ "product": [
+  "instapods"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Deploys and manages web apps on InstaPods by creating pods, pushing files, running commands and reading logs.",
+ "whenToUse": "Use when deploying or operating a web app hosted on InstaPods.",
+ "tasks": [
+  "create pods",
+  "push files",
+  "run commands",
+  "read logs",
+  "manage web apps"
+ ],
+ "effects": {},
+ "flags": []
+}

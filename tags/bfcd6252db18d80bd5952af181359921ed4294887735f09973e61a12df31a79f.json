@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bfcd6252db18d80bd5952af181359921ed4294887735f09973e61a12df31a79f",
+ "domain": [
+  "software/mcp-discovery"
+ ],
+ "product": [
+  "awesome-remote-mcp-servers",
+  "remote-mcp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Lists and searches remote MCP servers from public community directories.",
+ "whenToUse": "Use when looking for a remote MCP server for a particular service or capability.",
+ "tasks": [
+  "list remote MCP servers",
+  "search MCP server directories"
+ ],
+ "effects": {
+  "36a64ed24515d7af3cb6e82af89841df4ee2a1e1a9e7c5534e4111f45b73d45f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "68ab7dbfdf8402effca3d626b60a4b7bcd3be0adcb70774134f2940dbe922d1d",
+ "domain": [
+  "ecommerce/agentic-commerce",
+  "ecommerce/store-discovery"
+ ],
+ "product": [
+  "ucp",
+  "shopify",
+  "wix",
+  "woocommerce"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Checks whether domains support the Universal Commerce Protocol and searches products and policies across verified UCP storefronts.",
+ "whenToUse": "Use when testing a domain for UCP support, discovering UCP stores, or searching their catalogues and policies.",
+ "tasks": [
+  "list verified stores",
+  "list categories",
+  "check domain UCP support",
+  "discover store tools",
+  "search store catalogue",
+  "search across stores",
+  "search store policies",
+  "get product details"
+ ],
+ "effects": {
+  "4086d94a5c486fac026f45891f6c26fd2b52dd1e90e6c9fff9febc9eba052514": "write",
+  "b84eb68bac268994f7371e18b24a64fb00f3889d203f0c4e8c5b556e9886816c": "read",
+  "e9400b87aba0dc50d8722886349d7dd4ee8211f18e9ba96a1c5cc78122256858": "write",
+  "fd8f287f1612b395081c2eec05be2da16c8348c0766b91bb2bb6f5d9ca5b09ac": "read",
+  "8cb105e99f48691b4016466653c11b59cdb8fabcf29560f918312f7ff0201ca1": "read",
+  "7d49c9c5d7221e88542c548d01c97fbe461d31b13aab20ef2e893039550954e4": "write",
+  "dbea3b8c5a77a48c050ccc7abf76e3d77b8ebdea569b8939c2dbf76e76f2ea08": "read",
+  "014fd2d06d19d2d28159961bea180e744585aa3b6af8212c0cb0335cac195e39": "read"
+ },
+ "flags": []
+}

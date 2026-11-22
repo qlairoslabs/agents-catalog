@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "09e9fa18b492b280fe47ee0b08f1163b73c968186691c9069752d787d84e363d",
+ "domain": [
+  "sports/football",
+  "data/sports-statistics"
+ ],
+ "product": [
+  "live-football-api"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live football scores, fixtures, standings, lineups and player statistics across more than 1400 leagues.",
+ "whenToUse": "Use when an agent needs current or historical football match data, league tables or player stats.",
+ "tasks": [
+  "get live scores",
+  "list fixtures",
+  "get league standings",
+  "get match lineups",
+  "get player stats"
+ ],
+ "effects": {},
+ "flags": []
+}

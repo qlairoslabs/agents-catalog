@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "39bf57ce5d6d0c5aeaf92b4f3bcbf4e076a8f2acef2f1dd5e87c38a03b2cec76",
+ "domain": [
+  "media/podcast",
+  "education/futures"
+ ],
+ "product": [
+  "how-to-read-the-future",
+  "youtube"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Released podcast episodes with transcripts, citations, clips, reading trails and evidence-linked flashcards.",
+ "whenToUse": "Use when the user wants to read, quote or study content from the How to Read the Future podcast.",
+ "tasks": [
+  "get episode metadata",
+  "read transcript segments",
+  "list episode clips",
+  "get a clip",
+  "get reading trail",
+  "get flashcards"
+ ],
+ "effects": {
+  "9340a2f3944ef6998f8f09f4cd8c0801339fd6db99e0efc13fe9c050920759f5": "read",
+  "00e6880767da229354a01bf4ca91ccb7caec217abc707f184c0c378fb419fb6a": "read",
+  "3182eb53b15c7a9009682249f38b239fdbe0f9ad9ad917d792bc91594e7cd1cb": "read",
+  "89206f947838f1d4bae9203446290def1128bad5ddfa275fc1395249d4631958": "read",
+  "13e441330e0f57d48a593ed77fea60543ad005dc7ac82521fa90825ef7a5c132": "read",
+  "d7cd8db1e768ffdbf933230ab372e80b2e093965daa24ad5795bb017d3b6ecfd": "read"
+ },
+ "flags": []
+}

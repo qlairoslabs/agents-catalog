@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "606a83769956d628b51b2d13c0514219acaee8ad49ae096c8b9e68e7d7989043",
+ "domain": [
+  "finance/consumer-loans",
+  "finance/microfinance"
+ ],
+ "product": [
+  "zaimhub",
+  "bank-of-russia"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only catalogue of Russian microfinance lenders with loan terms, rankings, borrower reviews, curated lists and microloan regulation notes.",
+ "whenToUse": "Use when comparing Russian MFO loan offers by amount and term, reading reviews, or checking microloan rules.",
+ "tasks": [
+  "list MFOs",
+  "get lender details",
+  "search offers by amount and term",
+  "list categories",
+  "get category offers",
+  "read reviews",
+  "explain market rules"
+ ],
+ "effects": {
+  "d68282d291be433b1d75aa95a052d513df56cbc1fcf10b6231b84e4a2cbf0c88": "write",
+  "5984f1cfe2e23c294b8fdf9b5bc0592b28f3ee599f8a2773ffe2017af8f48087": "write",
+  "b86cdca4f89ecc2e4ec0c6a1fd0609630c55f47d1b1c321de784615c7821003d": "write",
+  "b6f297930d0f4667e52a6e0047efe8c1a796a20b36469ff68b6c80c43df287f4": "write",
+  "ab729d457f035d8944b42228e5c598eee72fc1134f7403837332d6510b8b833b": "write",
+  "2b538736fe431d22241cfbeab34a644e51203358440a3ef6fef6ac307ead42a6": "write",
+  "59f0d5986ac8c9d540febd45495525f604fa46ba3f1a0f7d4e0e7c7e91c54657": "write"
+ },
+ "flags": []
+}

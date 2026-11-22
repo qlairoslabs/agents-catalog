@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "abebbf2b38ab9fc6b28810a16825dd34f3fb9d6b0bb3c6cc7373a01884cac294",
+ "domain": [
+  "finance/fixed-income",
+  "finance/calculation"
+ ],
+ "product": [
+  "sscmfi"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Calculates bond price, yield, accrued interest and yield-to-worst for periodic bonds using SSCMFI standard methods.",
+ "whenToUse": "Use when you need to compute bond price from yield or yield from price, including callable bonds.",
+ "tasks": [
+  "calculate bond price",
+  "calculate bond yield",
+  "calculate accrued interest",
+  "calculate yield-to-worst"
+ ],
+ "effects": {
+  "57597366b3f0e24c8f78eb718cc535643768161d9adaa36d97b8f3752cb6c3f3": "read"
+ },
+ "flags": []
+}

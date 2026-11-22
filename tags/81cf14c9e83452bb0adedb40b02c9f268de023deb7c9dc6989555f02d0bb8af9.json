@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "81cf14c9e83452bb0adedb40b02c9f268de023deb7c9dc6989555f02d0bb8af9",
+ "domain": [
+  "travel/car-rental"
+ ],
+ "product": [
+  "canarias-com",
+  "tenerife"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Searches Canarias.com car hire in Tenerife with live prices and offer details, and creates a pre-filled booking link.",
+ "whenToUse": "Use when a user wants to rent a car in Tenerife and compare prices or start a booking.",
+ "tasks": [
+  "list pickup offices",
+  "search available cars",
+  "view offer details",
+  "create booking link"
+ ],
+ "effects": {
+  "7a0d613bfa09af413639303d7fc5517bf3ea1b8de31cfbb7f35e898cec7fb3a5": "read",
+  "b2704463bf818d00c3b273fb4912327e89ded52ae4235e5168ee50a623c63804": "write",
+  "f9a0765b8cdc7c5b82a1a8c1a88aa0cedd1c1178b789f82c64c464c49d460836": "write",
+  "126e7bfbeadc939e200fee1e4eff6bb7eb49eecb1e6e6a07cf8ccc0bc37079c4": "write"
+ },
+ "flags": []
+}

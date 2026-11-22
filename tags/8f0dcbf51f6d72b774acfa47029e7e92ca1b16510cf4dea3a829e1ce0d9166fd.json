@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8f0dcbf51f6d72b774acfa47029e7e92ca1b16510cf4dea3a829e1ce0d9166fd",
+ "domain": [
+  "productivity/project-management"
+ ],
+ "product": [
+  "withnettle"
+ ],
+ "audience": [
+  "everyone",
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Project management tool shared by people and AI agents that keeps persistent project state over MCP.",
+ "whenToUse": "Use when an agent needs to track or update shared project state alongside human teammates.",
+ "tasks": [
+  "read project state",
+  "update projects",
+  "manage tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

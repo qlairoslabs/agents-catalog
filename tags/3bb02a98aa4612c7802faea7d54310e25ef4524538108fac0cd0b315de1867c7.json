@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3bb02a98aa4612c7802faea7d54310e25ef4524538108fac0cd0b315de1867c7",
+ "domain": [
+  "prediction-markets",
+  "finance/betting"
+ ],
+ "product": [
+  "disputes-online"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads prediction disputes and the crowd's stake-based odds on real-world events from disputes.online.",
+ "whenToUse": "Use when you want to see what people are predicting about a topic or check how a past dispute resolved.",
+ "tasks": [
+  "get dispute",
+  "list categories",
+  "search disputes",
+  "search by tags"
+ ],
+ "effects": {
+  "9640e3a5d7c869e9bc8c89c4011c9fa3b374df6f2c3a20f426e84d19053aff70": "read",
+  "b5a7d036ada689a775d0ebe930b408be2febddb9004196b163bb864d9f7f862f": "read",
+  "9c101f010bd8d803923e834e3602f8f772152f8dea28cfcf255e02d42e972cb6": "read",
+  "1379367115dfc00ce8575da16d4b3c9635a0fa3304acc425f48101827057a301": "read"
+ },
+ "flags": []
+}

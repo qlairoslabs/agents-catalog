@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "a14442c714ae5c600c6c67e4cb285fbc2b276d3304068261ccd0a3ea0fe3aac7",
+ "domain": [
+  "ecommerce/classifieds",
+  "marketplace/listings"
+ ],
+ "product": [
+  "defici",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Search and browse global classified listings across 80 markets, with categories, regions, plan info and agent plan purchase and billing tools.",
+ "whenToUse": "Use when finding classified listings by category, city or price, or managing a Defici agent plan.",
+ "tasks": [
+  "search listings",
+  "get listing details",
+  "list categories",
+  "list regions",
+  "view subscription tiers",
+  "buy agent plan",
+  "check billing status",
+  "view billing history"
+ ],
+ "effects": {
+  "f845adf02a214417a5c7048c828465b6d164f6ff840a73141b3ac62cd4b824ae": "read",
+  "017dec5fcf12326071bd1ffdaf3a1100c60764f60c19b5f39c85f5738ac3ef53": "read",
+  "ddbd3e62432b0152e3790668b1df93857399714a8246114f8df2776268a4381c": "read",
+  "dad85b956d6e4a63a8a3dd9f3d264131bcc94c1bc3930574ea919366c67ef40d": "read",
+  "d938bd44d17256454b2bd56cf230776fe87781fa3b0d56d2d6a7aaaf4509588d": "read",
+  "5b17ab587728390a0078add5aa71c60e9f1c0e7e53a5840ceff6870070b7a737": "risky",
+  "17f304d95098ae0aaa8838cd3c78526ccdc2418b387ced75e6a0ae7ab027c178": "read",
+  "df9b008840c8887ab9b84a403728cc1676727826feef45246447050973e3a2d7": "read"
+ },
+ "flags": [
+  "buy_plan lets an agent pay autonomously with no human in the loop"
+ ]
+}

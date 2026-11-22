@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6a1a0f37adb2cd48c68eeba988c30c12cefff82ea08c441c52988eb2c68d865b",
+ "domain": [
+  "marketing/waitlists",
+  "product/launch"
+ ],
+ "product": [
+  "launchlist"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Manages a product waitlist: validate ideas, collect early sign-ups, send invites and updates.",
+ "whenToUse": "Use when the user wants to run or grow a pre-launch waitlist and contact early users.",
+ "tasks": [
+  "create waitlist",
+  "find early users",
+  "invite sign-ups",
+  "send updates",
+  "test product idea"
+ ],
+ "effects": {},
+ "flags": []
+}

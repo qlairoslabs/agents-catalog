@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4eda97c727f2e2efb6b9e6909e4b10aa2bf6fd5708d364ad8f1629ca95cfd221",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "pilot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches hotels worldwide, shows details and room rates with cancellation terms, and links to Pilot for booking.",
+ "whenToUse": "Use when the user is looking for hotels or comparing room rates for specific dates and a location.",
+ "tasks": [
+  "search hotels by location and dates",
+  "filter by rating and amenities",
+  "get hotel details",
+  "get room rates"
+ ],
+ "effects": {
+  "03f2a629aa2580e90dd32b2085fc56605b6006d02c00a36f4ffec48366cdb691": "read",
+  "0f55a62562727f9fe294c7d4f5ab49d0f86f45bf016dd0845997975e8193f1fc": "read",
+  "54bb8496122e9e48c540b72194f6f545d7539d453cdf66646f4d16fed56d0951": "read"
+ },
+ "flags": []
+}

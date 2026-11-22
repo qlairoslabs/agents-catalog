@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "df96211baa97d20578960c813e0a3642ee197c68f0fc1aaba1e057e20413ee93",
+ "domain": [
+  "real-estate/floating-homes",
+  "sales"
+ ],
+ "product": [
+  "ocean-builders"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Registers a prospective buyer's interest with the Ocean Builders sales team for floating homes.",
+ "whenToUse": "Use when a user wants to contact Ocean Builders about buying a floating home and has consented to be contacted.",
+ "tasks": [
+  "submit buyer inquiry",
+  "send contact details to sales"
+ ],
+ "effects": {
+  "4357e10ab3e74278da09c932a8b1c17726c3c861476d64ab10a09c1072beb917": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5f24c7cd05c28fecd2423e9fdc69246aff8f23369cd0fbc8d5fefa2bb136cda3",
+ "domain": [
+  "real-estate/crm",
+  "sales/crm"
+ ],
+ "product": [
+  "oria-crm"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Oria CRM data: properties, contacts, deals, viewings, agents and auctions.",
+ "whenToUse": "Use when looking up real estate listings, contacts, deals or viewings stored in Oria CRM.",
+ "tasks": [
+  "view properties",
+  "view contacts",
+  "view deals",
+  "view viewings",
+  "list agents",
+  "view auctions"
+ ],
+ "effects": {},
+ "flags": []
+}

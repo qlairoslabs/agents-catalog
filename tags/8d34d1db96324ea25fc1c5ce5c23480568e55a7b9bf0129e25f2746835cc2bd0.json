@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8d34d1db96324ea25fc1c5ce5c23480568e55a7b9bf0129e25f2746835cc2bd0",
+ "domain": [
+  "software/ai-evaluation",
+  "software/prompt-engineering"
+ ],
+ "product": [
+  "completionkit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs a prompt over a dataset and scores each output from 1 to 5 using an LLM judge.",
+ "whenToUse": "Use when evaluating or comparing prompt quality against a test dataset.",
+ "tasks": [
+  "run prompt on dataset",
+  "score outputs with llm judge",
+  "review eval results"
+ ],
+ "effects": {},
+ "flags": []
+}

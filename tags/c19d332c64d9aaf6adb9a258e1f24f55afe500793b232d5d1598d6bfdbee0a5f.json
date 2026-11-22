@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c19d332c64d9aaf6adb9a258e1f24f55afe500793b232d5d1598d6bfdbee0a5f",
+ "domain": [
+  "design/architecture",
+  "design/floor-plans"
+ ],
+ "product": [
+  "skopia"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates and validates floor plans in millimetres with doors, windows and fixtures, and renders elevations, sections and storeys.",
+ "whenToUse": "Use when designing or checking a building floor plan and producing renders, elevations or sections.",
+ "tasks": [
+  "create floor plans",
+  "place doors and windows",
+  "add fixtures",
+  "validate layouts",
+  "render plans",
+  "generate elevations and sections",
+  "manage storeys"
+ ],
+ "effects": {},
+ "flags": []
+}

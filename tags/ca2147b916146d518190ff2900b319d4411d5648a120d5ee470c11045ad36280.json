@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ca2147b916146d518190ff2900b319d4411d5648a120d5ee470c11045ad36280",
+ "domain": [
+  "local-business/directory",
+  "commerce/marketplace"
+ ],
+ "product": [
+  "53on"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Finds local businesses and independent professionals on 53ON by service, in Spanish or English, with business details and prices.",
+ "whenToUse": "Use when the user needs a local service provider listed on 53ON and wants details or a quote link.",
+ "tasks": [
+  "search providers by need",
+  "list covered services",
+  "get business details and catalog"
+ ],
+ "effects": {
+  "c6fbe2c6423f51032d13e4ff7b505f5e776037e597a3a6b7d515bc447d3a12cb": "read",
+  "2f72df459650359dead33f364bdc399d76997db6feb52a285f3cea3ee9b84507": "read"
+ },
+ "flags": []
+}

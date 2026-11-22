@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cb40039ee210bfadba6991dff1bc8a6afb3c2521fac152a024790b60aaf6e3b4",
+ "domain": [
+  "software/cloud/databases"
+ ],
+ "product": [
+  "google-cloud-memorystore",
+  "valkey",
+  "google-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Google's connector for managing Memorystore for Valkey instances and their backups.",
+ "whenToUse": "Use when an agent needs to inspect or manage Memorystore Valkey instances or backups.",
+ "tasks": [
+  "manage valkey instances",
+  "manage backups"
+ ],
+ "effects": {},
+ "flags": []
+}

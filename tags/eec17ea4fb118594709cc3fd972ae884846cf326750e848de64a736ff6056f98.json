@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "eec17ea4fb118594709cc3fd972ae884846cf326750e848de64a736ff6056f98",
+ "domain": [
+  "finance/exchange-rates",
+  "finance/payments/x402"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides indicative fiat and crypto exchange rates, paid per request via x402.",
+ "whenToUse": "Use when an agent needs current indicative currency or crypto rates and can pay micro-fees via x402.",
+ "tasks": [
+  "get fiat exchange rates",
+  "get crypto rates"
+ ],
+ "effects": {},
+ "flags": []
+}

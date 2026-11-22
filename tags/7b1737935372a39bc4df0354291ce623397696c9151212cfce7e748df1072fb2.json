@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7b1737935372a39bc4df0354291ce623397696c9151212cfce7e748df1072fb2",
+ "domain": [
+  "ai/agent-memory",
+  "knowledge-management"
+ ],
+ "product": [
+  "sqlite"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local AI memory stored in SQLite that organizes data into information and knowledge layers.",
+ "whenToUse": "Use when an agent needs persistent local memory the user fully owns.",
+ "tasks": [
+  "store memories",
+  "organize knowledge",
+  "recall facts"
+ ],
+ "effects": {},
+ "flags": []
+}

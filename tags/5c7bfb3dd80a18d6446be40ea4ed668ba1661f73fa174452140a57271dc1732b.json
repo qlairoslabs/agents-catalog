@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5c7bfb3dd80a18d6446be40ea4ed668ba1661f73fa174452140a57271dc1732b",
+ "domain": [
+  "product-management/roadmapping",
+  "product-management/customer-feedback"
+ ],
+ "product": [
+  "productboard"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Analyzes customer feedback, supports product roadmap planning and automates product operations in Productboard.",
+ "whenToUse": "Use when an agent needs to work with customer feedback, features or roadmaps in Productboard.",
+ "tasks": [
+  "analyze customer feedback",
+  "manage roadmap",
+  "manage features",
+  "automate product ops"
+ ],
+ "effects": {},
+ "flags": []
+}

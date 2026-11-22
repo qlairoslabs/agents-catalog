@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "459c4e0eb2fbde79e2e722395ceb80ecdf5dd24cdf7fe8956d9dac5cebcb23a8",
+ "domain": [
+  "software/documentation/docs-sites"
+ ],
+ "product": [
+  "mintlify"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Skills for building Mintlify documentation sites, converting files to MDX and updating content with correct components.",
+ "whenToUse": "Use when creating or maintaining a documentation site built with Mintlify.",
+ "tasks": [
+  "convert files to mdx",
+  "add docs pages",
+  "use mintlify components",
+  "automate doc updates"
+ ],
+ "effects": {},
+ "flags": []
+}

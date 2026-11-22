@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c7fa0f19894db00cf650d4a265aa8a3acda346c9b749e332be12151958afa8f4",
+ "domain": [
+  "automotive/used-cars",
+  "commerce/marketplace-search"
+ ],
+ "product": [
+  "leboncoin",
+  "lacentrale",
+  "largus"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches French used-car listings across several marketplaces and provides price estimates.",
+ "whenToUse": "Use when an agent needs to find used cars for sale in France or estimate a fair price.",
+ "tasks": [
+  "search used car listings",
+  "aggregate marketplaces",
+  "estimate car prices"
+ ],
+ "effects": {},
+ "flags": []
+}

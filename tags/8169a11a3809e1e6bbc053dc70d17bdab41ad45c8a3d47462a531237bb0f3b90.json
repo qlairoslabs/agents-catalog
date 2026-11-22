@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8169a11a3809e1e6bbc053dc70d17bdab41ad45c8a3d47462a531237bb0f3b90",
+ "domain": [
+  "sales/crm",
+  "marketing/campaigns"
+ ],
+ "product": [
+  "bnex"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Gives AI agents access to BNex workspace data such as contacts and campaigns.",
+ "whenToUse": "Use when an agent needs to look up contacts or campaign data in a BNex workspace.",
+ "tasks": [
+  "access contacts",
+  "access campaigns"
+ ],
+ "effects": {},
+ "flags": []
+}

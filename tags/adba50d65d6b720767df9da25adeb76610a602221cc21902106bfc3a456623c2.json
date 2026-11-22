@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "adba50d65d6b720767df9da25adeb76610a602221cc21902106bfc3a456623c2",
+ "domain": [
+  "ai/agent-memory",
+  "software/development"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Local-first memory shared across agents that records project decisions and detects drift.",
+ "whenToUse": "Use when handing a project between agents and keeping the reasons behind decisions.",
+ "tasks": [
+  "store project decisions",
+  "share memory across agents",
+  "detect drift"
+ ],
+ "effects": {},
+ "flags": []
+}

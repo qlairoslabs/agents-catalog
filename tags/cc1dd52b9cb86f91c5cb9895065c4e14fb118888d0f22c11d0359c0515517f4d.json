@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cc1dd52b9cb86f91c5cb9895065c4e14fb118888d0f22c11d0359c0515517f4d",
+ "domain": [
+  "software/cloud-infrastructure",
+  "software/devops"
+ ],
+ "product": [
+  "digitalocean"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds, deploys, manages and troubleshoots applications and infrastructure on DigitalOcean.",
+ "whenToUse": "Use when deploying or managing apps, servers or other resources on DigitalOcean.",
+ "tasks": [
+  "deploy applications",
+  "manage infrastructure",
+  "troubleshoot applications"
+ ],
+ "effects": {},
+ "flags": []
+}

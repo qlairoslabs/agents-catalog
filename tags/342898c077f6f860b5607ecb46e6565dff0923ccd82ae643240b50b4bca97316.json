@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "342898c077f6f860b5607ecb46e6565dff0923ccd82ae643240b50b4bca97316",
+ "domain": [
+  "software/ai-agents/scaffolding",
+  "software/development"
+ ],
+ "product": [
+  "atomic-agents"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Scaffolds a new Atomic Agents Python project with pyproject.toml, env file, a first agent and a runnable entry point.",
+ "whenToUse": "Use when the user wants to start a new Atomic Agents project from scratch.",
+ "tasks": [
+  "create project directory",
+  "generate pyproject.toml",
+  "create env file",
+  "write first agent",
+  "add runnable entry point"
+ ],
+ "effects": {},
+ "flags": []
+}

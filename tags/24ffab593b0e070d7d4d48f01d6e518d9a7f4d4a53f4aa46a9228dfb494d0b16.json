@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "24ffab593b0e070d7d4d48f01d6e518d9a7f4d4a53f4aa46a9228dfb494d0b16",
+ "domain": [
+  "communication/fax",
+  "government/eu"
+ ],
+ "product": [
+  "sendthisfax"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "stay-compliant"
+ ],
+ "summary": "Sends real faxes to EU institutions, paid per fax through a checkout link or prepaid API key.",
+ "whenToUse": "Use when an agent must send a fax to an EU institution on the user's behalf.",
+ "tasks": [
+  "send fax",
+  "create checkout link",
+  "use prepaid api key"
+ ],
+ "effects": {},
+ "flags": []
+}

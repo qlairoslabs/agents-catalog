@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "e294a3ecde819ea142c1b6d413bedf7970293cc0c09aa7ed72c8da9f3774fb37",
+ "domain": [
+  "hr/job-search",
+  "hr/staffing-agencies"
+ ],
+ "product": [
+  "actual-group"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches Actual group job offers in France, finds suitable agencies and prepares applications the candidate finishes themselves.",
+ "whenToUse": "Use when someone wants a job, training or recruiting help from Actual group in France.",
+ "tasks": [
+  "find agencies by town or region",
+  "recommend best agency",
+  "get job offer details",
+  "list filter values",
+  "search job offers",
+  "prepare job application link"
+ ],
+ "effects": {
+  "662229ee04d1ca675ab62c0ae0869b528cb52d2e98b41cf5d8e37020e798e2d0": "read",
+  "56291587e53658b1da64a260fceaab201abdf56765ff3d0ccd95a062115d903e": "write",
+  "db14a79f01ec2b9c5a756104703b23a93148998a07a32e5124cdd24519ef611e": "read",
+  "03a296dab0cedc461f28b45053faecc679376b81e29a92066394d8f49deabe8c": "read",
+  "53e2b3bc582088793890262b1ae8fb5a591f9db9505357b7304ebed90d738c50": "read",
+  "e5560a302b88013b417f73288bdff2248faa3688da7499c251e35ae8327ebdb1": "write"
+ },
+ "flags": []
+}

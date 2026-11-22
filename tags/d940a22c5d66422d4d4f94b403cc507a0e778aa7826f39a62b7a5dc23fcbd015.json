@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d940a22c5d66422d4d4f94b403cc507a0e778aa7826f39a62b7a5dc23fcbd015",
+ "domain": [
+  "social-media/twitter-data",
+  "developer/api-docs"
+ ],
+ "product": [
+  "twitter",
+  "x",
+  "tweetapi"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Read-only access to public Twitter data and TweetAPI documentation.",
+ "whenToUse": "Use when an agent needs public tweets or profile data or TweetAPI usage docs.",
+ "tasks": [
+  "read public tweets",
+  "read user profiles",
+  "search tweetapi docs"
+ ],
+ "effects": {},
+ "flags": []
+}

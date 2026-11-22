@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2929b9941187546ab8a5b898bdfe07f4e76c181ca453b5bbd66775639eccff18",
+ "domain": [
+  "logistics/warehouse-management"
+ ],
+ "product": [
+  "transipal"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Manages warehouses, missions, tasks, packs, products and shipments in the Transipal WMS.",
+ "whenToUse": "Use when the user needs to view or manage warehouse operations or shipments in Transipal.",
+ "tasks": [
+  "manage warehouses",
+  "manage missions",
+  "manage tasks",
+  "manage packs",
+  "manage products",
+  "manage shipments"
+ ],
+ "effects": {},
+ "flags": []
+}

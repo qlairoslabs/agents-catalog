@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5b6351f0ac8773d357cac66fdec62440ab9c0d2cad5525105e55523dfc3b5e5d",
+ "domain": [
+  "finance/market-data",
+  "finance/investment-research"
+ ],
+ "product": [
+  "wisesheets"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides financial statements, metrics, dividends and price data for public companies.",
+ "whenToUse": "Use when an agent needs fundamentals, dividend history or price data for a listed company.",
+ "tasks": [
+  "get financial statements",
+  "get financial metrics",
+  "get dividend data",
+  "get price data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "a61bfda12beab1f19d8e3c70592c8568ccd86b0b48a01ec7205f8d08e479a9e9",
+ "domain": [
+  "travel/fishing-holidays",
+  "booking"
+ ],
+ "product": [
+  "angling-lines"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Searches carp fishing lakes in France, checks weekly availability, quotes prices with Channel crossings and prepares a booking link.",
+ "whenToUse": "Use when a user is planning a carp fishing trip to France and wants venues, availability, prices or a booking.",
+ "tasks": [
+  "search venues",
+  "check availability",
+  "list swims",
+  "get week quote",
+  "list Channel crossings",
+  "browse categories",
+  "prepare booking"
+ ],
+ "effects": {
+  "28053f30f5fff4850c1a0dc9819ea259dba09d3503efbc48468dbd6fa6af86c1": "read",
+  "a55153f320f131e9f93e95b33b9911cf2e6386caee7c9bfb7e0905b9e60aec41": "read",
+  "86726efef0b7e1b47319b44658ace89fec3c39073ab7a58fb8a1e6eadaa69d9d": "read",
+  "96d87e312f9c78e5ef80ade65ef01e35bb8634a3e1200b195cdf8ef550bb1037": "read",
+  "d42a6904c2ca4566f7e56126f3caecbeb2032bc90104d6dcb70fc3bf016871fb": "write",
+  "dd69a8fab4d3d22f3d0c59e184602c6570587b0cff360aa72c1b2fde1d7f70dd": "read",
+  "fadea843c7e2c8d2d32a8047f57b09fca635bcaeff35c422f0eab6d32098e148": "write",
+  "58c1a30390a5610f0b4c5fdd244145ff63ac52fbd6286a9e044d8e34abc9f99b": "write"
+ },
+ "flags": []
+}

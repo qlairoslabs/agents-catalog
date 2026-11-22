@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "c5921293df2ffb52145e78e659f89337b701b31c67f5f1bea8d8308eb76dd99a",
+ "domain": [
+  "telecom/internet-service",
+  "consumer/ordering"
+ ],
+ "product": [
+  "hum"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "sell"
+ ],
+ "summary": "Checks internet providers, speeds and prices at a US address and can validate and place an internet service order.",
+ "whenToUse": "Use when a user wants to see internet plans at a US street address or order one; order only on explicit customer request.",
+ "tasks": [
+  "check availability at address",
+  "pick unit or candidate address",
+  "validate order",
+  "edit checkout details",
+  "create order",
+  "retrieve order status"
+ ],
+ "effects": {
+  "c8ef43f153c1d0711d843f4e85dfba12e8ca9462abf72426c68da0b1f87d1fc0": "write",
+  "a3acfbce1db88903338c6e612b97e9bfa0379758c57541d9d08d006abd9551a3": "write",
+  "6e445954992ac58ea59687fcbbb6d36b55874ab8bd1261ed48b3a825cabdbe74": "risky",
+  "cecb4fca0181f289a7acf46ca070ff31667d31672940652435b459dbe10fd1bc": "read"
+ },
+ "flags": []
+}

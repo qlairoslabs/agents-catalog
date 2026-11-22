@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "561dbc53bc8ce36475a294bfe43809cce83ea7995e6ff710dcc9be24140b1968",
+ "domain": [
+  "fitness/running",
+  "wearables"
+ ],
+ "product": [
+  "garmin"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Builds running training plans and structured workouts and syncs them to a Garmin watch.",
+ "whenToUse": "Use when a runner wants a training plan or workouts sent to their Garmin device.",
+ "tasks": [
+  "build training plan",
+  "create structured workout",
+  "sync workout to garmin"
+ ],
+ "effects": {},
+ "flags": []
+}

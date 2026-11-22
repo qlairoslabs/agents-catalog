@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "eea13c0580d72bc69dc3e3a07d8272cc01b26de74fed88c16ead70525bb0006b",
+ "domain": [
+  "ai/context-optimization"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Reduces agent context usage through caching, compression and token-efficient file tools.",
+ "whenToUse": "Use when an agent's context window is filling up and it needs cheaper ways to read files or reuse results.",
+ "tasks": [
+  "cache tool results",
+  "compress context",
+  "read files efficiently"
+ ],
+ "effects": {},
+ "flags": []
+}

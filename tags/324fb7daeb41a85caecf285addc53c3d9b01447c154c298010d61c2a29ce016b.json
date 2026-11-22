@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "324fb7daeb41a85caecf285addc53c3d9b01447c154c298010d61c2a29ce016b",
+ "domain": [
+  "shopping/price-comparison",
+  "watches"
+ ],
+ "product": [
+  "wouhr",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German price comparison for watches and smartwatches with best-price search, guides and offer re-checks.",
+ "whenToUse": "Use when the user wants current German prices or buying advice for watches.",
+ "tasks": [
+  "search best watch offers",
+  "find guides and comparisons",
+  "re-check offer price"
+ ],
+ "effects": {
+  "46ba706cdca90455b8cbc2d71be46ac8fd5e94b1ff8ebff74f154dedd0070a1c": "write",
+  "7d3d393ae7fea1e92be6d8a86f30489bed15ea5c0b45629602b023f6a30cac9b": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

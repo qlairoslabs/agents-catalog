@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "d08549b089112bb8a3f43fbe057c15b0c1d8dd0c5edcaebbf0b5e137c0ea4146",
+ "domain": [
+  "marketing/website-audit",
+  "web/seo"
+ ],
+ "product": [
+  "soofi-digital",
+  "google-pagespeed"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Grades a public website for speed, SEO, trust and lead capture with ranked fixes, and can send a help request to Soofi Digital.",
+ "whenToUse": "Use when a user wants a website audited or wants Soofi Digital to contact them about fixes.",
+ "tasks": [
+  "audit website",
+  "rank issues by impact",
+  "give plain-English fixes",
+  "send help request"
+ ],
+ "effects": {
+  "76267500d888f15e451d98e629b327a2e907d2910cc1a2c2c2856d0cf175799e": "read",
+  "a68d083878db1711dac25d65d9e370038f44972b6041d91978c70401b93ae656": "write"
+ },
+ "flags": []
+}

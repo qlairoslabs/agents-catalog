@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "64fb1c12a4379db502465f458277ddb325abeede0064ce6e6381885e3943e84f",
+ "domain": [
+  "finance/personal-finance",
+  "finance/investing"
+ ],
+ "product": [
+  "finvygo"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads net worth, holdings and income from a Finvygo account and can add listed assets after user confirmation.",
+ "whenToUse": "Use when a user wants to review or update their personal wealth tracked in Finvygo.",
+ "tasks": [
+  "read net worth",
+  "list holdings",
+  "read income",
+  "add listed assets"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "7ceaedbfe0857fb5c746d3280a120111c500da345fbeb6f555c8a70502e69c92",
+ "domain": [
+  "software/agent-infrastructure",
+  "reference/documentation"
+ ],
+ "product": [
+  "agenttool"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to agenttool's public canon registry of concepts and its platform self-description.",
+ "whenToUse": "Use when you need to resolve agenttool canon concepts or read its public platform identity.",
+ "tasks": [
+  "look up canon concept",
+  "list entries by type",
+  "list type vocabulary",
+  "get registry summary",
+  "get platform info"
+ ],
+ "effects": {
+  "57fd670e3e3712caff07e6d956020f6254f9fe39f20aaa43317ae5f4dd1086ac": "read",
+  "5a8a215a6c362395d65f1c0fa298e619dabdc162b650efbcab09022cd1f5b68b": "read",
+  "5ae2341cb4ad7369f32f8a113dab17af3b326d03cbbca736b43c86ce56abb581": "read",
+  "d7af86d971ac3759236bf3263552903ac00941759e7e346f0eb9c2bb75b60e70": "read",
+  "274771a2e94244ae4c274ba41aebc51cb22b933cdffa8ed147f5afbe2cb73a84": "read"
+ },
+ "flags": []
+}

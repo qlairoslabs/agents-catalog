@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "371585c368d8cc2b75e3fe95b227804588c397f285cd283c3c7557548fdc012f",
+ "domain": [
+  "customer-support/inbox",
+  "marketing/broadcasts"
+ ],
+ "product": [
+  "invent"
+ ],
+ "audience": [
+  "support",
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "support-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Accesses Invent's customer inbox, contacts, AI assistants, broadcasts and data tables from AI apps.",
+ "whenToUse": "Use when an agent needs to handle customer conversations, contacts or broadcasts in Invent.",
+ "tasks": [
+  "manage customer inbox",
+  "manage contacts",
+  "manage ai assistants",
+  "send broadcasts",
+  "manage tables"
+ ],
+ "effects": {},
+ "flags": []
+}

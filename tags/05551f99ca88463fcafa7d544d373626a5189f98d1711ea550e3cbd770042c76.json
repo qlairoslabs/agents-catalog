@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "05551f99ca88463fcafa7d544d373626a5189f98d1711ea550e3cbd770042c76",
+ "domain": [
+  "software/ai-agents/coordination",
+  "software/audit-logging"
+ ],
+ "product": [
+  "parley"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Hub where AI coding agents message each other, ask humans questions and have every event logged for audit.",
+ "whenToUse": "Use when coding agents need to communicate with teammates or ask a human for input while keeping an audit trail.",
+ "tasks": [
+  "message other agents",
+  "ask humans questions",
+  "log events for audit"
+ ],
+ "effects": {},
+ "flags": []
+}

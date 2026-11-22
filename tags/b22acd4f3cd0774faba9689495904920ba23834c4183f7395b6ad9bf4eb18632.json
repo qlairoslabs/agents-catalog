@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "b22acd4f3cd0774faba9689495904920ba23834c4183f7395b6ad9bf4eb18632",
+ "domain": [
+  "finance/tax-filing",
+  "finance/personal-finance"
+ ],
+ "product": [
+  "taxact"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "TaxAct tools for filing cost comparison, refund estimates, document checklists, tax Q&A, deadlines and form explanations.",
+ "whenToUse": "Use when a US filer wants to know TaxAct pricing, estimate a refund, gather documents or understand a tax form or deadline.",
+ "tasks": [
+  "compare filing costs",
+  "estimate refund",
+  "connect with expert",
+  "build document checklist",
+  "answer tax questions",
+  "find interview topic",
+  "list tax deadlines",
+  "explain tax forms"
+ ],
+ "effects": {
+  "d79d32b8a2d9378c566dbb64336cf2a470b3ee1bb12c0fd258009fe642044ea7": "write",
+  "046e0daec2c4f6e4b8e29be540e243896af80bb922e3f92701b53d8a0f29ed9b": "read",
+  "c2d65775304d699f644d8b91cc8c28ea423ab7b553d37c4498481d39025c9ddd": "read",
+  "2b3d1bed7714a88ecd5730e6ab9fc99758ec3ed56ceaed1ece4fcb65246a6f7e": "read",
+  "1bcfe3b94e1cce410ec0ee1427a090b2b0b18b54c44f86a067c6d83fc93327a4": "read",
+  "52632b518f45b26f5f92226518b68342b5c38ecf2f3d60073b53a25239e4c844": "read",
+  "84b2b9b582142a9714494efdd011df7541d87267ef0585152de91ab57f5e9642": "read",
+  "cdcadd7e50100c9f2a030c85af569b7d851c5eca3e1139b11f12577a5784da21": "read"
+ },
+ "flags": []
+}

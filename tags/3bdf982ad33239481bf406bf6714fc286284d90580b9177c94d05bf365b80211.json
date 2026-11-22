@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3bdf982ad33239481bf406bf6714fc286284d90580b9177c94d05bf365b80211",
+ "domain": [
+  "software/ai-coding-agents/orchestration"
+ ],
+ "product": [
+  "claude-code",
+  "codex",
+  "cursor",
+  "opencode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Routes coding tasks across several AI coding agents while sharing context between them.",
+ "whenToUse": "Use when coding work should be delegated across multiple AI coding tools.",
+ "tasks": [
+  "route coding tasks",
+  "share context between agents"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "935fbd79ee076b87eb78ec7165262bc89292617e7615aee01398f044583bf858",
+ "domain": [
+  "communication/team-chat",
+  "productivity/tasks"
+ ],
+ "product": [
+  "workchats"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch",
+  "schedule"
+ ],
+ "summary": "Reads and acts on Workchats messages, tasks, meetings and files, with user approval required for every send.",
+ "whenToUse": "Use when an agent needs to review or respond to Workchats messages, tasks, meetings or files.",
+ "tasks": [
+  "read messages",
+  "send messages",
+  "manage tasks",
+  "view meetings",
+  "access files"
+ ],
+ "effects": {},
+ "flags": []
+}

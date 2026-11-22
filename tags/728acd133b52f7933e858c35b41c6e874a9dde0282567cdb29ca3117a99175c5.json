@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "728acd133b52f7933e858c35b41c6e874a9dde0282567cdb29ca3117a99175c5",
+ "domain": [
+  "software/source-control",
+  "software/ci-cd"
+ ],
+ "product": [
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "GitLab connector for projects, merge requests, pipelines, CI/CD and issues, with optional read-only mode.",
+ "whenToUse": "Use when an agent needs to review or manage GitLab merge requests, issues or pipelines.",
+ "tasks": [
+  "manage projects",
+  "manage merge requests",
+  "run and inspect pipelines",
+  "manage ci/cd",
+  "manage issues"
+ ],
+ "effects": {},
+ "flags": []
+}

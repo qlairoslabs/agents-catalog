@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1b5e32db5a40f1a22ec50875ad24e683b9305bf1bbf1d87ecc6e6699e52cef1c",
+ "domain": [
+  "marketing/email-marketing",
+  "marketing/automation"
+ ],
+ "product": [
+  "sequenzy"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Connector for the Sequenzy email marketing automation platform.",
+ "whenToUse": "Use when an agent needs to manage email marketing campaigns or automations in Sequenzy.",
+ "tasks": [
+  "manage email campaigns",
+  "automate email marketing"
+ ],
+ "effects": {},
+ "flags": []
+}

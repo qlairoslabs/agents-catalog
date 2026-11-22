@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "19dcd8fd2690a06460f84ddb696ee329f161fbbdbb16f1e7701ae9ad9b8604d1",
+ "domain": [
+  "finance/structured-settlements",
+  "legal/us-state-rules"
+ ],
+ "product": [
+  "ezannuity"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Values structured settlement, annuity or lottery payment streams, evaluates lump-sum offers and gives US state transfer rules and benchmark rates.",
+ "whenToUse": "Use when someone is judging a buyout offer for settlement payments or needs state transfer rules.",
+ "tasks": [
+  "value payment stream",
+  "judge buyout offer",
+  "price partial sale",
+  "look up state rules",
+  "list states",
+  "get benchmark rates"
+ ],
+ "effects": {
+  "7852a8122c2898aae3cbc2ec8b294226c168b9cc71942c1000c49bffa46ee73e": "read",
+  "74a9257e67485145ca68ec38ca27da6fbe1a2e5c68fe44c3c2317631211d54c8": "read",
+  "a99c62c53e24f34a7d0b774320365ec2de4ad59ab4d711f87d1d6258f619fdaf": "read",
+  "dc325e2f475a6b821f5e04a682a742fb97e14d081077851a93916f94c219c270": "read"
+ },
+ "flags": []
+}

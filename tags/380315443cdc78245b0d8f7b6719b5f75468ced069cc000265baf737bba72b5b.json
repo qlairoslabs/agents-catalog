@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "380315443cdc78245b0d8f7b6719b5f75468ced069cc000265baf737bba72b5b",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "friday-flight-deals"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Shows the latest cheap flight deals from a newsletter, scores fares, checks route prices, assesses hidden-city ticket risk and gives booking tips.",
+ "whenToUse": "Use when a user asks whether a flight fare is good, what a route costs, or wants cheap flight deals and booking advice.",
+ "tasks": [
+  "open deals app",
+  "get latest deals",
+  "score a fare",
+  "find route fares",
+  "assess hidden-city risk",
+  "premium cabin guide",
+  "booking tips"
+ ],
+ "effects": {
+  "abe38aeff0263dc2f5a3868de90695bedecb6685d9e53dcb13389dfcc9a78edb": "read",
+  "f9eebc566e5341cc3639ade902c6431b556a885db2fc4e521db10fa81c6e2ffc": "read",
+  "d7d6f53152b239028bf1ceb6bd52d2a96dd1501b6c42475114aa8391f14e24bf": "read",
+  "b03227145e4bf443c4c68b25518cd298fbdcf476f64eba2ae2c32bccb9b26e74": "read",
+  "233c5918dbcce09fc922400ceba33e8eaf8d824375d8a3981616391f85cf44e5": "read",
+  "4fa295aeb495363e8c893c8159d21ca8533014b133c0489895df015ea3c769cb": "read",
+  "3e6152d453b5e9faf77a347b6257c9763e1595c4480a40702904aef7a2de5b65": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "86a7ea234cda705872ca66f9836046b3afb72e0ee89ef7bf71891eaf4aab256b",
+ "domain": [
+  "ai/industry-news"
+ ],
+ "product": [
+  "openai",
+  "google"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "A log of AI deployments that have shipped, with dates and the publisher's source URLs, searchable by company, week or keyword.",
+ "whenToUse": "Use when you need to know what AI models, products or funding events recently shipped.",
+ "tasks": [
+  "list recent deployments",
+  "browse by week",
+  "search deployments"
+ ],
+ "effects": {
+  "aa4d707b4680cbb2b22db7759d30845167620577f5b7d3165b29e65f63196dc8": "write",
+  "f59fb6a275d3aba6da40892c129cf1ec3959d03f99f25bdc6fa6f3cfc850abd9": "write",
+  "c4f4d3c370e5bdc641cb14ec2e5edb28a54842c9c4082fee37dba124c8c3e9c6": "write"
+ },
+ "flags": []
+}

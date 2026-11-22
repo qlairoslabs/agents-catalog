@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "afb35903e0314b0c930848df727275d8f3526bc9728354514dd2547f67c3472e",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/development"
+ ],
+ "product": [
+  "tasklite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Hosted backend with a REST API and admin panel for apps that AI agents build.",
+ "whenToUse": "Use when an agent building an app needs a hosted backend, data API and admin interface.",
+ "tasks": [
+  "provision app backend",
+  "manage data via rest api",
+  "administer app"
+ ],
+ "effects": {},
+ "flags": []
+}

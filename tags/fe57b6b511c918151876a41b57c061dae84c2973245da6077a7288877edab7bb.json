@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fe57b6b511c918151876a41b57c061dae84c2973245da6077a7288877edab7bb",
+ "domain": [
+  "software/ai-governance",
+  "security/access-control"
+ ],
+ "product": [
+  "penholder"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Human-approval gate that holds AI agent write actions until a person approves them.",
+ "whenToUse": "Use when agent write operations must be reviewed and approved by a human before they take effect.",
+ "tasks": [
+  "queue agent writes for approval",
+  "commit writes after human approval"
+ ],
+ "effects": {},
+ "flags": []
+}

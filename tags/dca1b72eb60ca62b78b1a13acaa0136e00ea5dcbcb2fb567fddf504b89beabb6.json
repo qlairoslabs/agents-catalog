@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "dca1b72eb60ca62b78b1a13acaa0136e00ea5dcbcb2fb567fddf504b89beabb6",
+ "domain": [
+  "software/chatbots",
+  "communication/telegram"
+ ],
+ "product": [
+  "flowcastle",
+  "telegram"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "support"
+ ],
+ "goal": [
+  "automate-work",
+  "support-customers",
+  "build-software"
+ ],
+ "summary": "Builds, edits and deploys Telegram bots on FlowCastle's hosted visual flow platform.",
+ "whenToUse": "Use when an agent needs to create or update a Telegram bot.",
+ "tasks": [
+  "build telegram bots",
+  "edit bot flows",
+  "deploy bots"
+ ],
+ "effects": {},
+ "flags": []
+}

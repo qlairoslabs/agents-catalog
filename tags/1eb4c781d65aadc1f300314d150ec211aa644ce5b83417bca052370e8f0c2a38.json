@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "1eb4c781d65aadc1f300314d150ec211aa644ce5b83417bca052370e8f0c2a38",
+ "domain": [
+  "software/devops/ci-cd",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-codepipeline",
+  "aws-codebuild",
+  "aws-codedeploy",
+  "aws-codeartifact",
+  "github",
+  "gitlab",
+  "bitbucket"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance for configuring CI/CD pipelines with AWS CodePipeline, CodeBuild, CodeDeploy, CodeConnections and CodeArtifact.",
+ "whenToUse": "Use when setting up or fixing AWS-native CI/CD pipelines, buildspec or appspec files.",
+ "tasks": [
+  "configure codepipeline v2",
+  "write buildspec files",
+  "set deployment strategies",
+  "set up private package registries",
+  "connect github gitlab or bitbucket sources",
+  "configure cross-account pipelines"
+ ],
+ "effects": {},
+ "flags": []
+}

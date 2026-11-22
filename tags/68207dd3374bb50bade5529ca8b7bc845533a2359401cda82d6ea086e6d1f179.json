@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "68207dd3374bb50bade5529ca8b7bc845533a2359401cda82d6ea086e6d1f179",
+ "domain": [
+  "finance/consumer-lending",
+  "finance/ukraine"
+ ],
+ "product": [
+  "mfoxa",
+  "nbu"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only catalogue of licensed Ukrainian microfinance companies with loan terms, ratings, reviews, regional pages and legal rules.",
+ "whenToUse": "Use when comparing Ukrainian micro-loans by amount, term or region, or checking a lender's terms and reviews.",
+ "tasks": [
+  "list lenders",
+  "get lender card",
+  "search offers by amount and term",
+  "list categories",
+  "get category",
+  "get reviews",
+  "get market rules",
+  "list regions",
+  "get city page"
+ ],
+ "effects": {
+  "fc0471204a25ba73f9768b96d69803e93febd2c17877d10018025b0c722479e6": "write",
+  "a3c8a9bb5831a45ada7c7637fbc9dc0ec8234bc06a0849f6754b70c09c887ac4": "write",
+  "6ce7d4be07ae615851876a4e7ec11f8607bbef7b14cdd728c26b0692a88e798d": "write",
+  "46615efb845bdf31a3fe583f69622294aa88deb9532cfbee2344e05af7b83adf": "write",
+  "6a3f69bfc837801f9dbd1facc910deb7e9394149184c5c462a8a5af215ce379c": "write",
+  "2f374c342eea2734c06adc463a68e46e4826fded4ce48cd67baed874dcf10eb4": "read",
+  "aff5bae0eccf542e2482a4e5587d5926370abf1d8da592e402420b138e8f5866": "write",
+  "d03d57edd7a8271c06c5643f4283e62a370d31ece3c5bbaa66515baaa34d014f": "write",
+  "d4b77ea65a65e650ca7063f7a1c6980bcfe2cdc880b5fc580d98bd0379482b82": "write"
+ },
+ "flags": []
+}

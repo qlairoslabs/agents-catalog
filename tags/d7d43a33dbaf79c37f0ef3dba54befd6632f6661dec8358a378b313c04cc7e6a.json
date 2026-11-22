@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d7d43a33dbaf79c37f0ef3dba54befd6632f6661dec8358a378b313c04cc7e6a",
+ "domain": [
+  "software/cybersecurity/osint"
+ ],
+ "product": [
+  "osintverse"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Paid-per-lookup OSINT searches across breach data, people, domains, crypto and images.",
+ "whenToUse": "Use for authorized investigations needing breach, person, domain, crypto or image intelligence.",
+ "tasks": [
+  "search breach data",
+  "look up people",
+  "look up domains",
+  "trace crypto",
+  "reverse image search"
+ ],
+ "effects": {},
+ "flags": [
+  "paid per lookup",
+  "people and breach lookups raise privacy concerns"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "0893fa600cdde3310a52cca3514c81703011a67a3b061957ab4ba0ee98a09038",
+ "domain": [
+  "health/wearables",
+  "health/sleep"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about sleep, heart rate and wellness trends from a user's smartwatch data.",
+ "whenToUse": "Use when the user asks about their own sleep, heart rate or wellness trends from a smartwatch.",
+ "tasks": [
+  "read sleep data",
+  "read heart rate data",
+  "analyze wellness trends"
+ ],
+ "effects": {},
+ "flags": []
+}

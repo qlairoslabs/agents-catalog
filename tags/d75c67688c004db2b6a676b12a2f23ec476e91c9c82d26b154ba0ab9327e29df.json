@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d75c67688c004db2b6a676b12a2f23ec476e91c9c82d26b154ba0ab9327e29df",
+ "domain": [
+  "real-estate/auctions/judicial",
+  "government/public-records"
+ ],
+ "product": [
+  "boe"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Spanish judicial property auctions from BOE data and analyzes each property.",
+ "whenToUse": "Use when an agent needs to find or evaluate court-ordered real estate auctions in Spain.",
+ "tasks": [
+  "search judicial auctions",
+  "analyze auctioned properties",
+  "query boe data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ea55f6953b968d8ee47f8aa4323dd9d22a3d6d23d44e2c4815eef09e5cd3648e",
+ "domain": [
+  "games/modding",
+  "software/development"
+ ],
+ "product": [
+  "hearts-of-iron-iv"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Local tools for building Hearts of Iron IV mods, covering focus trees, events, decisions, map data, GUI previews, docs and AI balance.",
+ "whenToUse": "Use when an agent is creating or editing a Hearts of Iron IV mod.",
+ "tasks": [
+  "build focus trees",
+  "write events",
+  "create decisions",
+  "edit world data",
+  "preview gui",
+  "generate mod docs",
+  "tune ai balance"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0b49e4b4d683d365510050360ad4c0992754e5a54973185c9860ee9d7d4429fa",
+ "domain": [
+  "marketing/app-store-optimization",
+  "design/screenshots"
+ ],
+ "product": [
+  "shotlingo",
+  "app-store",
+  "google-play"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Designs App Store and Google Play screenshots, localizes them into 41 languages, renders and uploads them.",
+ "whenToUse": "Use when an agent needs to produce or localize app store screenshots for a mobile app.",
+ "tasks": [
+  "design screenshots",
+  "localize screenshots",
+  "render screenshots",
+  "upload to app stores"
+ ],
+ "effects": {},
+ "flags": []
+}

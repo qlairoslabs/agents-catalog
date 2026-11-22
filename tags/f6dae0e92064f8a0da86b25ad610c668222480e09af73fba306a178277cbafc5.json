@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f6dae0e92064f8a0da86b25ad610c668222480e09af73fba306a178277cbafc5",
+ "domain": [
+  "software/devops/local-environment",
+  "software/development"
+ ],
+ "product": [
+  "flisk"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Builds, starts, checks and repairs a full application stack locally with a single command.",
+ "whenToUse": "Use when an agent needs to bring up, verify or fix a local development stack for an app.",
+ "tasks": [
+  "build local stack",
+  "start app locally",
+  "check stack health",
+  "fix local stack issues"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "be2fa4ea0d34a02354b14bcddbcbbf256b7a7552bdcb916fb594e277b9c35baf",
+ "domain": [
+  "web/website-hosting",
+  "web/publishing"
+ ],
+ "product": [
+  "tiiny-host"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Publishes web pages as live sites on Tiiny Host and lists, updates or deletes existing sites.",
+ "whenToUse": "Use when a user wants to host a simple web page on Tiiny Host or manage sites already there.",
+ "tasks": [
+  "publish web page",
+  "list sites",
+  "update site",
+  "delete site"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b5bdf038762d328c18e6a2e10dcc57836c95cdf4f631a90c991e3b3f73ef3d97",
+ "domain": [
+  "productivity/project-management",
+  "productivity/meetings"
+ ],
+ "product": [
+  "mochii",
+  "stiki"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Accesses the Mochii work graph of projects, tasks and meetings, signed in with Stiki OAuth.",
+ "whenToUse": "Use when working with projects, tasks or meetings stored in Mochii.",
+ "tasks": [
+  "manage projects",
+  "manage tasks",
+  "view meetings"
+ ],
+ "effects": {},
+ "flags": []
+}

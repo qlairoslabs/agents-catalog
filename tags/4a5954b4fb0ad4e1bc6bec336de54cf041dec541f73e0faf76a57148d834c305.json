@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4a5954b4fb0ad4e1bc6bec336de54cf041dec541f73e0faf76a57148d834c305",
+ "domain": [
+  "customer-experience/feedback-analytics"
+ ],
+ "product": [
+  "feedback-tools"
+ ],
+ "audience": [
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives access to customer feedback data including CSAT, NPS and CES scores, response search and AI themes.",
+ "whenToUse": "Use when an agent needs to analyse customer satisfaction scores or search feedback responses.",
+ "tasks": [
+  "view csat scores",
+  "view nps scores",
+  "view ces scores",
+  "search responses",
+  "view ai themes"
+ ],
+ "effects": {},
+ "flags": []
+}

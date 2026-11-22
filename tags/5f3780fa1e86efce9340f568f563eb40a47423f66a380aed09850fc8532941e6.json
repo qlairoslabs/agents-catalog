@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5f3780fa1e86efce9340f568f563eb40a47423f66a380aed09850fc8532941e6",
+ "domain": [
+  "software/web-development",
+  "security/human-verification"
+ ],
+ "product": [
+  "proof-of-type"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Provides integration code for a text box that proves a human typed the input, and verifies the resulting proof tokens.",
+ "whenToUse": "Use when a developer wants to embed human-typed-input proof in a form or verify a proof token on the server.",
+ "tasks": [
+  "get framework quickstart code",
+  "verify proof token",
+  "explain how proofs work"
+ ],
+ "effects": {
+  "57f634e69acbcfa9c3c559de39ec2bfdb09cb61dd665fed804aff4e0a3e5c93a": "read",
+  "95ae89b25f577505048104469b9e1e149672f171e10af0def78f11256083d8f6": "read",
+  "171ffa88aa62be9451660ba6fc4935fcd7985d8f6926b8a4bbb1aa0cd70389a0": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e2ea0e5b0a8cccd504928f409fcf3e14515a92628cb5cb954b8c3cd72563c966",
+ "domain": [
+  "data/data-platform",
+  "ai/data-preparation"
+ ],
+ "product": [
+  "syntitan"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Data platform intended to prepare and serve managed data for AI use; the listing gives few specifics.",
+ "whenToUse": "Use when an agent needs to access data managed in the Syntitan platform for AI tasks.",
+ "tasks": [
+  "access managed data",
+  "prepare data for ai"
+ ],
+ "effects": {},
+ "flags": []
+}

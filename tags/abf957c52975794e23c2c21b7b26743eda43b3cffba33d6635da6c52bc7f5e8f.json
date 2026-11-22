@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "abf957c52975794e23c2c21b7b26743eda43b3cffba33d6635da6c52bc7f5e8f",
+ "domain": [
+  "geospatial/location-services"
+ ],
+ "product": [
+  "mapbox"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Mapbox location services such as geocoding, points-of-interest search, directions and isochrones.",
+ "whenToUse": "Use when an agent needs to geocode addresses, find places, get routes or compute travel-time areas.",
+ "tasks": [
+  "geocode addresses",
+  "reverse geocode",
+  "search points of interest",
+  "get directions",
+  "compute isochrones"
+ ],
+ "effects": {},
+ "flags": []
+}

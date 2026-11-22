@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f8ff1a6169b05534d6f1d0563f75dc799395ce095b28524945955b2f3a32c044",
+ "domain": [
+  "religion/bible-study"
+ ],
+ "product": [
+  "mybiblecopilot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Looks up and verifies KJV Bible text and gives AI-generated, scripture-cited study answers and links to study pages.",
+ "whenToUse": "Use when you need exact Bible verse text, quote verification, or a cited study of a passage.",
+ "tasks": [
+  "verify bible quotes",
+  "normalize references",
+  "fetch verse text",
+  "study a passage",
+  "find study pages"
+ ],
+ "effects": {
+  "d6f8a0663ced25a9caed0fe01ec71928798bef0e139d847f1047cc08688b8514": "read",
+  "12085b742fd29f5016c914eaa6e8c7dad542f00364c8d812972139f849c78b8a": "read",
+  "b151a0c83bb492f6079fe80819c463507c119c91707ffd88daf4f9f8f741324b": "read",
+  "2693390848595579d344647bd94f65f1a165987fab055d1680003636748d97a5": "read",
+  "f07f82e443e5f25cfe16e770f060ec11b4a803f03f76254bca571a6b7be9dabf": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "9fd8ffd1c263451ef6148378a72c4fabca1d593e60ebc92e6eba73cbe74c63ac",
+ "domain": [
+  "software/documentation",
+  "software/real-time-video"
+ ],
+ "product": [
+  "openvidu",
+  "livekit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Versioned OpenVidu documentation with search, page retrieval, changelogs and a procedure to detect the deployment's version, edition and product.",
+ "whenToUse": "Use when building on OpenVidu or LiveKit and you need docs matching the deployment's version.",
+ "tasks": [
+  "detect version and edition",
+  "list doc versions",
+  "browse doc sections",
+  "read doc pages",
+  "search docs",
+  "read changelog",
+  "read pricing"
+ ],
+ "effects": {
+  "f36169c09a70d93bf187b3ef1e999e33c609c8330a3c8d08765861eb1cb04130": "write",
+  "b916ef5d11af5185befb8c36f04ee0bdcddc6ca401421a62a79b713d8929acf8": "read",
+  "1792a4dcdf9131912951a00b77ed89fc76bb98e31581b0ff5e6a3a27dcf46c9a": "write",
+  "4811f59e8ee66a0d866e9b31df434cf589ce4a372750a0cd94c220e24ddf6d3e": "write",
+  "fea6353e57d7aa897ff3eaec1e65c03bc5d0e4b0f18179a37a7b2fbd09a13f70": "write",
+  "2fb985ba78d3718fbdf3197e06662cb12d3a5ca2147147f77e2a8b8e7a3f164d": "write",
+  "059a1f5887a6d3a6412010fca0ac799675e4f6434bd2968d795d9e028b97dfcb": "read"
+ },
+ "flags": []
+}

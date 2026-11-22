@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ab263bda646c78f536afbd0087bed7963dd6de1b7d5e5b103ad28607e353c70e",
+ "domain": [
+  "real-estate/agent-crm",
+  "real-estate/transactions"
+ ],
+ "product": [
+  "actuallycare"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "Real estate agent platform covering escrows, listings, clients, leads and commissions, accessed via OAuth.",
+ "whenToUse": "Use when a real estate agent needs to manage listings, clients, leads, escrows or commissions.",
+ "tasks": [
+  "manage escrows",
+  "manage listings",
+  "manage clients",
+  "manage leads",
+  "track commissions"
+ ],
+ "effects": {},
+ "flags": []
+}

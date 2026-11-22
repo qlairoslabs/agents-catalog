@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "e658bb8be636b3bd60a8c8086fbccce503e51a5577c5f5b46c3a2ff6e6071d72",
+ "domain": [
+  "rental/camera-equipment",
+  "photography"
+ ],
+ "product": [
+  "fotorent",
+  "gearbooker"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Browse FotoRent camera, lens and drone rentals near Amsterdam, check availability and compatibility, get quotes and kit recommendations, and receive booking links.",
+ "whenToUse": "Use when someone wants to rent camera gear in the Amsterdam area and needs prices, availability or kit advice.",
+ "tasks": [
+  "list equipment",
+  "get equipment details",
+  "quote rental",
+  "check availability",
+  "check lens compatibility",
+  "quote kit",
+  "recommend kit",
+  "get booking link",
+  "get rental info"
+ ],
+ "effects": {
+  "95a9ba7a9f70f499dd766692ee26f8adc74f1b3ef06dc94a971f7bdc51008b16": "read",
+  "61de78895be8a246ae4a2cecccf5334e0ceeced010b30c1c554e140703004f2a": "read",
+  "d48a4ed615d9108ae6f814a34d2ba877754e6917303e4a7d130e840f4bcfd05f": "read",
+  "a1ff8a75f39c38c2981e051309d1e432906ae788c3c141ab5559d69b4d10bf7f": "read",
+  "aab97a553952f5f1063a317cbbd8cad4523b4d0ff8d2ed3c918a5c51af550616": "read",
+  "7093a66cda5a6698f9cb2e0594594245d4fd19a80cc464c58e19fc217d7e773b": "read",
+  "1aad12d9e34de659591b7f7f62dafa60e6f203d27da9061c6b0f9ff4a8b6a0b5": "read",
+  "7e6644c65c0edb1987c7c764a34fd37b24a7cb317cf5522ffc886282f1b3451a": "read",
+  "3e726057894bc863b5d35a646c2242dd6effe0250350449c5352d384b060a168": "read"
+ },
+ "flags": []
+}

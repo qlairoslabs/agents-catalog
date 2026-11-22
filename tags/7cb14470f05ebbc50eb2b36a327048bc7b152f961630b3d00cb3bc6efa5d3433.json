@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7cb14470f05ebbc50eb2b36a327048bc7b152f961630b3d00cb3bc6efa5d3433",
+ "domain": [
+  "finance/wealth-management",
+  "finance/investing"
+ ],
+ "product": [
+  "blackrock-advisor-center"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to BlackRock Advisor Center so financial advisors can review portfolios, check funds, pick benchmarks, build portfolios and project wealth.",
+ "whenToUse": "Use when a financial advisor with an Advisor Center account wants portfolio analysis, fund checks, benchmark selection or wealth projections.",
+ "tasks": [
+  "review portfolios",
+  "check fund health",
+  "find portfolio opportunities",
+  "select benchmarks",
+  "build portfolios",
+  "project wealth",
+  "route to advisor center web workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

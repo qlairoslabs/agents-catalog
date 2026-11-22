@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "36b62c7f44a927603c53298552e23a7d23d9fa2d560db89e18e60a7632622c1d",
+ "domain": [
+  "marketing/social-media",
+  "marketing/advertising",
+  "commerce/e-commerce"
+ ],
+ "product": [
+  "productbyte"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects an agent to ProductByte for managing social posts, ads and performance insights for e-commerce stores.",
+ "whenToUse": "Use when an agent needs to create social posts, manage ads or review marketing insights for an online store.",
+ "tasks": [
+  "create social posts",
+  "manage ads",
+  "view marketing insights"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "36cb0530d7bc5fd4b01145ecb10d20877aa38c6f0aaaa2a46c353e1ec30fb0a2",
+ "domain": [
+  "finance/cap-table",
+  "legal/equity-management"
+ ],
+ "product": [
+  "shareflo"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Reads and updates a UK company cap table, including instruments, stakeholders, holdings and account representatives.",
+ "whenToUse": "Use when a user needs to view or change their company's share ownership records in Shareflo.",
+ "tasks": [
+  "view cap table",
+  "manage instruments",
+  "manage stakeholders",
+  "update holdings",
+  "manage account representatives"
+ ],
+ "effects": {},
+ "flags": []
+}

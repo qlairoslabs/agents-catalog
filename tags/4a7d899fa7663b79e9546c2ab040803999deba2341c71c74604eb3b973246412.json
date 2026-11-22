@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "4a7d899fa7663b79e9546c2ab040803999deba2341c71c74604eb3b973246412",
+ "domain": [
+  "commerce/used-apple-devices",
+  "commerce/price-research"
+ ],
+ "product": [
+  "apple",
+  "mac",
+  "macfax",
+  "ebay",
+  "swappa",
+  "craigslist"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Identifies Apple devices by serial number and gives used-Mac values, live listings, listing checks, verified reports and email alerts.",
+ "whenToUse": "Use when identifying a Mac by serial, pricing a used Mac, or checking a marketplace listing before buying.",
+ "tasks": [
+  "lookup serial",
+  "used Mac price stats",
+  "market value by model",
+  "search listings",
+  "check listing",
+  "verified report",
+  "create listing alert",
+  "follow device value",
+  "check usage limits"
+ ],
+ "effects": {
+  "8223cc38591e9a5ea0f0bc86322f7eff4aeef927d627ca13fe81fe4a1eff2ddb": "write",
+  "fb566ca7fe5d034163bf9edc828aeff4cc96d49f15bf193d13e85196b414acb7": "write",
+  "1158f2ec24cc37aafeefe6c7e158f861f51e69d7431238c88d5355a831925a04": "read",
+  "ff1984d2827630c19a5690f8e30a3001ddf663eb79190072285c13baf094aa2c": "read",
+  "5191d0df0c4d03863298fe64ff3ec810d64c90d5900ae8e5eb5db93f8c2797e3": "read",
+  "a8328142c7cd2a33eae13706fbcd3902487011e0363235e07193aa581d563468": "read",
+  "a8f1c3599eea087855d68fa36b8b7e98296e3f899bed668805bff8788294dd3d": "write",
+  "3925d2ad36563b4559afdc9d72c9ecbbe282d011fdc2378928b2ccce592a206b": "write",
+  "b04dfcee6f178d79a5f644ebd2fe32af86b761423501e821fe0bf0f3796cef8c": "read"
+ },
+ "flags": []
+}

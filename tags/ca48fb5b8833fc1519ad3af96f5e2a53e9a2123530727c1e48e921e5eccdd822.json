@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ca48fb5b8833fc1519ad3af96f5e2a53e9a2123530727c1e48e921e5eccdd822",
+ "domain": [
+  "it/network-operations/scheduling"
+ ],
+ "product": [
+  "kasprdata"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "schedule",
+  "automate-work"
+ ],
+ "summary": "Ranks hours before a deadline by predicted network roughness to time batch jobs and data transfers.",
+ "whenToUse": "Use when choosing when to run a batch job or transfer before a deadline to avoid poor network conditions.",
+ "tasks": [
+  "rank time windows",
+  "predict network roughness",
+  "schedule batch jobs",
+  "schedule transfers"
+ ],
+ "effects": {},
+ "flags": []
+}

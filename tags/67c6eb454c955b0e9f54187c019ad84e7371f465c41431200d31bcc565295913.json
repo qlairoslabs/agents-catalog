@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "67c6eb454c955b0e9f54187c019ad84e7371f465c41431200d31bcc565295913",
+ "domain": [
+  "ai/agent-memory",
+  "productivity/knowledge-management"
+ ],
+ "product": [
+  "obsidian"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local Markdown and Obsidian knowledge store for agents with governed memory writes and hybrid search.",
+ "whenToUse": "Use when an agent needs searchable long-term memory kept in local Markdown files.",
+ "tasks": [
+  "hybrid search notes",
+  "store memories",
+  "read notes",
+  "govern memory changes"
+ ],
+ "effects": {},
+ "flags": []
+}

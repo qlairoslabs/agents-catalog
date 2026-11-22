@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f90e3859b565df5de967120f6e4a524fbca01ab173e2bbc7a993ee3ceff69bc3",
+ "domain": [
+  "ai/personal-context",
+  "productivity/personalization"
+ ],
+ "product": [
+  "project-fingerprint"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Provides an AI with user-approved personal profile sections, preferences and taste data via OAuth.",
+ "whenToUse": "Use when an agent needs the user's stated preferences or personal context to tailor its answers.",
+ "tasks": [
+  "read profile sections",
+  "read preferences",
+  "read taste data"
+ ],
+ "effects": {},
+ "flags": []
+}

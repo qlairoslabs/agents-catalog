@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d3df02ef6c940c5f4a27828996b830e3660ba11beb7388f9094bdb3498b6b8b6",
+ "domain": [
+  "media/video-hosting",
+  "software/api"
+ ],
+ "product": [
+  "mux"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Official MCP server giving agents access to the Mux video API for managing video assets and streaming.",
+ "whenToUse": "Use when an agent needs to upload, manage or inspect video assets, live streams or playback data in Mux.",
+ "tasks": [
+  "manage video assets",
+  "manage live streams",
+  "query playback data"
+ ],
+ "effects": {},
+ "flags": []
+}

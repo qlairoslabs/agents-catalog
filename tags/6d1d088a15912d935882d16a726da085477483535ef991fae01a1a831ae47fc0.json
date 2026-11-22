@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6d1d088a15912d935882d16a726da085477483535ef991fae01a1a831ae47fc0",
+ "domain": [
+  "insurance/health-insurance/actuarial",
+  "compliance/aca"
+ ],
+ "product": [
+  "visuary"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Calculates a health insurance plan's actuarial value and metal tier from a plan document.",
+ "whenToUse": "Use when evaluating a health plan's actuarial value or ACA metal tier from its documents.",
+ "tasks": [
+  "extract plan design from document",
+  "calculate actuarial value",
+  "determine metal tier"
+ ],
+ "effects": {},
+ "flags": []
+}

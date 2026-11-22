@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "94a1b8f83ffba6c6d1b9f1256623f2b0c4aee103ab25554aa1047cbc3be7b75a",
+ "domain": [
+  "government/contracting",
+  "sales/market-intelligence"
+ ],
+ "product": [
+  "fed-spend",
+  "sam-gov"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "US federal contract data covering awards, SAM.gov opportunities, win probability estimates, recompetes and protests.",
+ "whenToUse": "Use when an agent researches US federal contracting opportunities, past awards or competitive positioning for bids.",
+ "tasks": [
+  "search contract awards",
+  "find sam.gov opportunities",
+  "estimate win probability",
+  "track recompetes",
+  "review bid protests"
+ ],
+ "effects": {},
+ "flags": []
+}

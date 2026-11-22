@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "50018b1e08b0d475daee846f3f240801ad15e5d8e7a897dff4b809c16e909396",
+ "domain": [
+  "productivity/diagramming",
+  "software/documentation"
+ ],
+ "product": [
+  "diagramzu",
+  "mermaid"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Lets AI assistants create Mermaid diagrams that teams can view and share.",
+ "whenToUse": "Use when an agent needs to produce a shareable flowchart or other Mermaid diagram.",
+ "tasks": [
+  "create mermaid diagrams",
+  "share diagrams"
+ ],
+ "effects": {},
+ "flags": []
+}

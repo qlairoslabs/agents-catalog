@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "5a99833691483a4f1c91e4c6017e238f15f3c47824b0781d6e50ddbe3a3db14a",
+ "domain": [
+  "ai/mcp-directory"
+ ],
+ "product": [
+  "mcp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Read-only index of vetted MCP servers with trust scores, tiers, methodology, watchlist and changelog.",
+ "whenToUse": "Use when choosing or vetting an MCP server.",
+ "tasks": [
+  "search servers",
+  "get server record",
+  "read rubric",
+  "view watchlist",
+  "read changelog"
+ ],
+ "effects": {
+  "d76b98562813c313008c7bb195f69e59938072189a93088a601902ec6811d3f5": "read",
+  "a3b2741bd72234c8bed26b57a2409e3e8253ef4ae5851b3a1f3fe759cc5254fb": "read",
+  "b2ad180fc34edc5d349f63dcee41411d13979e1b96787bdba7da7c96bfd69ee9": "read",
+  "46858a141c6e7ba9b355a6c4d64d6cb2d4661dc643ba7099259ba63f9fa1b527": "read",
+  "c4a22bbe7cc6f2095191a107d7c3de37f1c6b0ca499a2c3b91d61d7291d9b05d": "read"
+ },
+ "flags": []
+}

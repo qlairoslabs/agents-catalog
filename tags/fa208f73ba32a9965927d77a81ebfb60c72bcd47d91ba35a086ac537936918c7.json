@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "fa208f73ba32a9965927d77a81ebfb60c72bcd47d91ba35a086ac537936918c7",
+ "domain": [
+  "religion/scripture-search",
+  "education/reference"
+ ],
+ "product": [
+  "listen-to-sadhu"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only semantic search over Vedic scripture verses, commentaries, letters and transcribed lecture recordings.",
+ "whenToUse": "Use when the user asks about Vedic texts such as Bhagavad-gita or Srimad-Bhagavatam, wants a verse shown, or wants to find or hear related lectures.",
+ "tasks": [
+  "search scripture and lectures",
+  "display verses with translation",
+  "get word-by-word synonyms",
+  "list books and verses",
+  "read commentaries",
+  "read lecture transcripts",
+  "play lecture audio excerpts",
+  "play video clips",
+  "resolve authors and locations"
+ ],
+ "effects": {
+  "e45b8991d9af0c04b4675ca34fa683981b185b0d32c8d6e6bcbc60d36a8877a3": "read",
+  "bd04657629fa56c8d3603caa7f915e04d51cfdc74a25a9b7af7fbbd4f1d9334a": "read",
+  "c0d0c49b7e9f9b20a93318875330ed83db1224a0938ec1938e4c64bcd8ae07d4": "read",
+  "eecb1ca6d4a1c27224830d4588b6edabecdc3bcfb7ce3ef81916ef119aef9785": "read",
+  "38579bb551cd57dadfa3b97b4b676075d1991a0fda7a200baf61231d84947b3f": "write",
+  "d70da2b129eaf00aa1289e8b0ea9cb9394cc4fcdeb90e54fe1e3ef9c36efe0d7": "read",
+  "294a06322153bd9226c94cbdaa3de098d37a2941866ed7ffccd3fb601e94e7a9": "read",
+  "db7a924511f29bff5a7d212d000238c43491d91b3df3257679f49454bc9aeec6": "read",
+  "6da2543d0ee690cd5a1eb31c652862085a4f0c65b554964fc9f50543baa2f970": "read",
+  "e27e086a3c92d85de324f97d87aa3be44b254cf259d1e095c4fb4b46aed76fd7": "read",
+  "c64ab57161fe9e849690bbb891d272158e04c78ba9b39319783b7a5d40120745": "read",
+  "cfe1a42f9c417882e4d167af68c366e080c4622d645aae824500663912c87eec": "read",
+  "dc679af056a22fe534db26a72635552b809b1722055d66a2a1a7724c03f7c465": "read",
+  "14a01ca6a14829983165475bd0fd439dac15143ca77c4c8f6ea97a6ee042cb84": "read",
+  "7a0371aa58c45bce80d9675394f9d592844659442d980d984d6069290a857442": "read",
+  "e86243fbc17e9c6aac30aa6c3d6e17490f656da6ba9af7386b8530890600f717": "read",
+  "44aa2b51cd90cdbe897c94dcc092a221fc3f350069a9071f1f61bb40782a34f8": "read",
+  "e02924f9b8b265fce34140aa1c135169a069878c3f9499947049e341ebb907e6": "read",
+  "86cb86ab0348629f206c01bdd07b7cadc273d37dc8c2c12ddc559f4f53dda1a1": "read",
+  "8b7280da581bd69ea45ece4d0127a5bce74534e163405d8a7a19e76908126b0f": "read",
+  "756396e7c139978ab04f400a91b66c000353af833dab363075a0934d16ad90e4": "read"
+ },
+ "flags": []
+}

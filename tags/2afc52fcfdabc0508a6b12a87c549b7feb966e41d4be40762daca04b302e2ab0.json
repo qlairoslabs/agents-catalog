@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2afc52fcfdabc0508a6b12a87c549b7feb966e41d4be40762daca04b302e2ab0",
+ "domain": [
+  "software/cloud/infrastructure-as-code"
+ ],
+ "product": [
+  "aws-cdk",
+  "aws-cloudformation",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for writing, deploying and troubleshooting AWS infrastructure with CDK in TypeScript or Python.",
+ "whenToUse": "Use when writing CDK constructs, running cdk deploy or synth, or fixing CDK and CloudFormation errors.",
+ "tasks": [
+  "write cdk constructs",
+  "plan stack structure",
+  "bootstrap environments",
+  "run deploy synth and diff",
+  "fix cdk errors",
+  "import existing resources",
+  "resolve drift",
+  "refactor stacks safely"
+ ],
+ "effects": {},
+ "flags": []
+}

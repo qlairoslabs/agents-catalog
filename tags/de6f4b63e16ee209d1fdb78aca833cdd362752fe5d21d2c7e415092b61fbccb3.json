@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "de6f4b63e16ee209d1fdb78aca833cdd362752fe5d21d2c7e415092b61fbccb3",
+ "domain": [
+  "media/news-monitoring",
+  "finance/market-intelligence"
+ ],
+ "product": [
+  "synoptic",
+  "twitter",
+  "telegram",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Follows live feeds from Twitter/X, Telegram, press releases, SEC filings and other sources, and lets users publish their own feeds.",
+ "whenToUse": "Use when an agent needs to monitor real-time news, social posts or filings, or publish a feed.",
+ "tasks": [
+  "follow live social feeds",
+  "track press releases",
+  "monitor sec filings",
+  "publish own feed"
+ ],
+ "effects": {},
+ "flags": []
+}

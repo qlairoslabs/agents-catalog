@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "763bdefec822be83f872447cb15134e1805500344985d8c1d88d53d97895a648",
+ "domain": [
+  "marketing/social-media",
+  "content/writing"
+ ],
+ "product": [
+  "ladderflow",
+  "linkedin",
+  "x"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Turns voice interviews about your ideas into LinkedIn posts and X threads, using a stored memory of your views.",
+ "whenToUse": "Use when the user wants to draft LinkedIn posts or X threads from their own ideas captured via LadderFlow.",
+ "tasks": [
+  "interview user by voice",
+  "draft linkedin posts",
+  "draft x threads",
+  "store personal idea memory"
+ ],
+ "effects": {},
+ "flags": []
+}

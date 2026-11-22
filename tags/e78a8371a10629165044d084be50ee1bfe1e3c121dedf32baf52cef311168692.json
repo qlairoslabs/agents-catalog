@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e78a8371a10629165044d084be50ee1bfe1e3c121dedf32baf52cef311168692",
+ "domain": [
+  "software/documentation",
+  "software/api"
+ ],
+ "product": [
+  "wikimedia-enterprise"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads Wikimedia Enterprise API documentation, endpoint listings and request and response schemas.",
+ "whenToUse": "Use when integrating with the Wikimedia Enterprise API and you need docs or endpoint details.",
+ "tasks": [
+  "search docs",
+  "fetch doc page",
+  "list endpoints",
+  "get endpoint schema"
+ ],
+ "effects": {
+  "a1e1fcb3fffc9b9b15cde7440efa2e82510a2d4d70ca4a9fa295feab6a48e71a": "read",
+  "b9cbceedb6c4a7e29131b590424f6803c9af1e4a3d72b6733972ba76b19c7a79": "read",
+  "f45127357bf1d64bacf94fb014115f59e4419fca5a979a8a4cefdae762fcd73e": "read",
+  "b3886b396d7fb6130e0b57b9cda96d42ced003ae9940c7da35b76e7723d83352": "read"
+ },
+ "flags": []
+}

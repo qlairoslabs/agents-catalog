@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "73f0480b1dba945331eb0da57c9bddf5068b3c58bf0255889676495b039e907b",
+ "domain": [
+  "calendar/japanese-calendar",
+  "reference/astronomy"
+ ],
+ "product": [
+  "bestcalendar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Japanese calendar data 1926-2080: rokuyo, lucky days, solar terms, holidays, moon phases, sunrise times, and business-day calculations.",
+ "whenToUse": "Use when you need Japanese calendar facts, auspicious dates, holidays, or business-day date arithmetic.",
+ "tasks": [
+  "get day calendar info",
+  "search lucky days",
+  "convert year to wareki",
+  "sun and moon times",
+  "list holidays",
+  "solar term times",
+  "moon phases and eclipses",
+  "look up named calendar events",
+  "rokuyo hourly luck",
+  "count days",
+  "add business days",
+  "check business day"
+ ],
+ "effects": {
+  "e90850cfd87b178b3b53d0f7ebc5d3977caa6278bdd7f9d34bfa516379f1a112": "read",
+  "0345a1a08329e8ad3329ee06eedec1d6c216640354af1973291d06bdde8d21ba": "read",
+  "fc802bf24ab5222068dec5e6f5d729ab8d38d1c63e8727586705e31b10716b66": "read",
+  "a606c1abed42446bc729802ba5bb2802eafce3932a8f95421d0f3b1642c8973b": "read",
+  "8bb93c14c44004808012d5cda470468b6dbfdd333e8175f49cf71fe2e0f92e32": "read",
+  "7c80f07f902484112032ec3d7cf2a563cdb6e6e2e4108ee379c769d4b08fb2ff": "read",
+  "35a16fcc396bc5151c1b43a9cea9d46edf87f49ea7959c8c7fe00b6425d47922": "read",
+  "3c719ce8e6cf386ebe8ef132be5fb5c38e78417a25ba4709547c28d669f49e6a": "read",
+  "3532927679b0b9a88fd3037e9c2a2ca1ca3ae6a83d2eeeb943ddb95bbc23ebad": "read",
+  "5ae1a093bf83b48daf43e52fd54dd9a4e3fd18b5ba88b1da483b63a93759204c": "read",
+  "22d337b3f1f29b741d4d065ed6b9f24ad37756a0cf8fe3fc618efbe18ff8a5b1": "read",
+  "94da30baa35f9e1af3a218e277aebc36591543586d190ba8281ae4ecfc6c9082": "read",
+  "d4c822f405dcc29ae65abd4104a34a6e9d1357cbdd682c9f937ed0613e916d76": "read",
+  "26693b35a4c41004f48852312cdeefe05788d76126bb8f98a899b1dc9372f5d6": "read",
+  "11a4bc5131525d5118111544619143b796b78609ce8782b1f215977dfaf81a29": "write",
+  "444b86513533d26d333b127065d05e0288096381c71b0cefa36ae532c6f37593": "read"
+ },
+ "flags": []
+}

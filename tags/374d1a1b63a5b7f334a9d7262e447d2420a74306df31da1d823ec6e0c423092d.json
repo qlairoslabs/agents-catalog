@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "374d1a1b63a5b7f334a9d7262e447d2420a74306df31da1d823ec6e0c423092d",
+ "domain": [
+  "data/geospatial",
+  "data/visualization"
+ ],
+ "product": [
+  "geojson"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Renders GeoJSON vector layers into map images over basemaps.",
+ "whenToUse": "Use when an agent needs to turn GeoJSON data into a map image.",
+ "tasks": [
+  "render geojson layers",
+  "add basemaps",
+  "export map images"
+ ],
+ "effects": {},
+ "flags": []
+}

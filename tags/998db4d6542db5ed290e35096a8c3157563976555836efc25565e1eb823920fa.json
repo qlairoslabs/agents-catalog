@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "998db4d6542db5ed290e35096a8c3157563976555836efc25565e1eb823920fa",
+ "domain": [
+  "software/file-conversion",
+  "content/media-processing"
+ ],
+ "product": [
+  "tweekit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Hosted service that normalizes and converts more than 400 file types.",
+ "whenToUse": "Use when an agent needs to convert a file from one format to another.",
+ "tasks": [
+  "convert file formats",
+  "normalize files"
+ ],
+ "effects": {},
+ "flags": []
+}

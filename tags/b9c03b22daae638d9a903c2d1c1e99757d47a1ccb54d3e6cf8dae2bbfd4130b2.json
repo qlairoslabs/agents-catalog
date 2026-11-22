@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b9c03b22daae638d9a903c2d1c1e99757d47a1ccb54d3e6cf8dae2bbfd4130b2",
+ "domain": [
+  "software/engineering-practices"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Collection of engineering skills covering spec and ticket flows, test-driven development, code review and domain modelling.",
+ "whenToUse": "Use when you want structured engineering workflows like TDD, specs or code review during development.",
+ "tasks": [
+  "grill requirements",
+  "write specs and tickets",
+  "test-driven development",
+  "code review",
+  "domain modelling"
+ ],
+ "effects": {},
+ "flags": []
+}

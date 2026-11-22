@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "786f1cd4dfe5cfc91b0e30158075eb6aa5cf8724a046c64342adeee3633b436c",
+ "domain": [
+  "software/embedded",
+  "hardware/testing"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets an agent work on firmware against real hardware via a debug probe: flashing, resetting, UART and CAN, with policy controls.",
+ "whenToUse": "Use when developing or testing embedded firmware on a physical board connected through a debug probe.",
+ "tasks": [
+  "flash firmware",
+  "reset board",
+  "read and write uart",
+  "send and receive can messages",
+  "enforce action policies"
+ ],
+ "effects": {},
+ "flags": []
+}

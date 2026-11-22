@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "abff883eebde4f01ce2c8caadf97bb10d9665492dd84c4431e039feb0f8586f8",
+ "domain": [
+  "design/3d-rendering"
+ ],
+ "product": [
+  "blender",
+  "janction"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Renders Blender and GLB, FBX, USD or STL models on cloud GPUs into product shots, turntables and MP4s.",
+ "whenToUse": "Use when an agent needs to render 3D models into images or videos without local GPU resources.",
+ "tasks": [
+  "render blender scenes",
+  "render 3d model files",
+  "create product shots",
+  "create turntable videos",
+  "export mp4"
+ ],
+ "effects": {},
+ "flags": []
+}

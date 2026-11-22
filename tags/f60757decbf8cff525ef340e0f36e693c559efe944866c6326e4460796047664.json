@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f60757decbf8cff525ef340e0f36e693c559efe944866c6326e4460796047664",
+ "domain": [
+  "finance/real-estate-lending",
+  "finance/mortgage"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Requests emailed indicative term sheets for business-purpose DSCR loans on non-owner-occupied 1-4 unit investment properties.",
+ "whenToUse": "Use when a real estate investor wants a loan term sheet for a rental property purchase or refinance.",
+ "tasks": [
+  "check term sheet requirements",
+  "request term sheet by email",
+  "price DSCR loan options"
+ ],
+ "effects": {
+  "60705e015e0afe6483eb18306cb1f69d1ba48f746a882a2b0b2966586496f2c5": "write",
+  "f6fdb619310ff9acdfa7c6b87693802b42ad63ae4834e9a90deddf09bee1a3ed": "write"
+ },
+ "flags": []
+}

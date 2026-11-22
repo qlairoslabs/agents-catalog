@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4cf7c704aa5e377882807bf0dfd92d26589c1c5f5ef2516462a5ed28eedbc98b",
+ "domain": [
+  "ai/agent-memory",
+  "software/developer-tools"
+ ],
+ "product": [
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Local npm MCP server providing agents with local-first memory, stored ground truths and a guard against repeated failures.",
+ "whenToUse": "When an agent needs persistent local memory or to record facts and past failures across sessions.",
+ "tasks": [
+  "store local memory",
+  "manage ground truths",
+  "record failures to avoid"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3ecfe1079b00e316ee90a4270935904e33d09b1d3b0164790f83ed7c83349186",
+ "domain": [
+  "finance/equity-management",
+  "finance/valuation"
+ ],
+ "product": [
+  "carta"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Carta skills and hooks for querying cap tables, grants, SAFEs, 409A valuations and waterfall scenarios.",
+ "whenToUse": "Use when answering questions about a company's equity, grants or valuations stored in Carta.",
+ "tasks": [
+  "query cap tables",
+  "query grants",
+  "query safes",
+  "review 409a valuations",
+  "model waterfall scenarios"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "002928aebc2df15a1b68f9322e90d180148940addac514219ce794b29180230e",
+ "domain": [
+  "sales-operations/lead-delivery",
+  "automation/reliability"
+ ],
+ "product": [
+  "leadproof",
+  "gohighlevel",
+  "make",
+  "zapier",
+  "n8n",
+  "stripe"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "get-customers",
+  "sell"
+ ],
+ "summary": "LeadProof's sales agent: scores lead-delivery workflow risk, recommends plans, starts a no-card trial, gives integration guides and provides checkout links.",
+ "whenToUse": "Use when evaluating whether lead handoffs from forms, ads or CRMs are reliable, or choosing and trialing LeadProof.",
+ "tasks": [
+  "audit lead workflow",
+  "evaluate fit and ROI",
+  "get integration guidance",
+  "compare with in-house build",
+  "start trial",
+  "test failed-lead replay",
+  "get plan decision",
+  "get checkout link",
+  "request human follow-up",
+  "verify evidence"
+ ],
+ "effects": {
+  "b240d70122b7b69f7ee5c3cbbca62cda9ed1a7f1b647366a561a30d908dd6f2a": "read",
+  "57e2ae777696785d35765364ca3318adf64bf0d5dd545e7bbff9c97da57220b8": "read",
+  "2268e9e2a86a8e8238c9542de92bed30f046cea82991a7e73ee7dd5919b6acdf": "write",
+  "c2eb651ba9dd771eec094a18ac94a222f62ddf683ff2c37d02a923355dfab103": "read",
+  "220ee5a313fe53348fc812cbf2e35eb80cfcb90597d3850ad3c461fce410152d": "read",
+  "96753f24ff421044ae118319437aef20ec5bc1a7185e6a15f10805703b97a196": "read",
+  "75c9da0bd6a15f42aa0b0927026dd765435cfd465667d3f3f11637284e94c98a": "write",
+  "2e6cfe49f0b47102509ef0a772ecc67960459f2621d1d0a0de109816eee49b11": "read",
+  "366986f73b965f2b8f6c961e5dc91cc4dfd4c4b534d5c13e23c0409a2e7f28bc": "read",
+  "ab53beba160112421e22c04c21c33d9596e815457f0b2285fe4cd008f2f3d503": "read",
+  "fb217de605fda2973ca61124b60408e4dc62d0f75ba7259a721d6008dd8b0948": "read"
+ },
+ "flags": []
+}

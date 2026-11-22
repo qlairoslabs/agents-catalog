@@ -1,0 +1,66 @@
+{
+ "classifier": 2,
+ "contentHash": "d6f28c45c9bd8a6031d7689f82d068cfeeae170512607ac138477fc840de8572",
+ "domain": [
+  "marketing/social-media",
+  "content/scheduling"
+ ],
+ "product": [
+  "viralcat",
+  "youtube",
+  "tiktok",
+  "instagram",
+  "x",
+  "linkedin",
+  "pinterest",
+  "facebook"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Social media scheduler that manages brands, drafts, scheduled posts across platforms, media uploads to Google Drive, failure diagnosis and engagement metrics.",
+ "whenToUse": "Use when an agent must draft, schedule, reschedule or diagnose social posts for a brand, or check post performance.",
+ "tasks": [
+  "list brands and details",
+  "create drafts",
+  "schedule posts",
+  "cancel or reschedule posts",
+  "retry failed posts",
+  "diagnose failures",
+  "preflight check posts",
+  "view pipeline and queue",
+  "view post performance",
+  "refresh engagement metrics",
+  "upload media to Drive",
+  "create and update brands"
+ ],
+ "effects": {
+  "f1d7a634df1d1c7abaed075077ffdd608fbf050244484d38f2416d3eedc9d6fe": "read",
+  "6f0259a2c310bbaad9ab41519a022d5885670270084f69b5194550d9d748b9d7": "read",
+  "c42d630ec35a0305ad3684651667958e7d2251da218978eae0bcbd64e4170cea": "read",
+  "4beba6ce4dec1893d8b7e0150d7b2d814c01f28a4f2a055a5b96eb5eff4a1986": "read",
+  "42aa7f6efe033324a579bb8730e4392a0e5e60ef8f11dd105fbb4e0ee0cdbaec": "read",
+  "427efa5e8a5705ebd166e38dfca146145389a74d3a901d4be58129d0e3c4aad0": "read",
+  "f0401068d4de2335283156578cf663fcf4a184dfe3041154bd3fb780992e5d97": "read",
+  "67d96e89832ee9087ea3d5fb347334e48d4d96607037d3c64fd9c8e10456556e": "read",
+  "ff23a9bc2b0a57cb155cd68cce0908553363f9801dd5756cdb15799615662632": "read",
+  "4d249feefd06c5a090fb7b124ec0b981e62f3e4529226b2412daf6948a7f82cc": "write",
+  "85ea1448266874a71fd996e2bd8ad2d11c48debf94246d419c33c70da9bc3260": "write",
+  "45e09eb5d86c0b02d8d59f0cc6c9959b112b3b41f80a42d7f51360164d4f18f6": "write",
+  "75387569330712cfaddd15035a8a3fa869dacfe44a12da6459c5f98c93708c95": "write",
+  "055cbad8a1f130c4deaf392809567bc297c13e460e306566c6eccb5757ade088": "write",
+  "d487017b79ea206dd55c64a66f282d62a70bbcf4fb831fdd1a1472892cb385a2": "write",
+  "9439c0ea67fcd467c8e6d63b48efc6b3ce9ef2deda0f72e6eb8fa0a7410d706a": "write",
+  "567caae104959d244946bd7926a614aeb044988ccf488786651761642665a7dd": "write",
+  "fe0186bd95396b61851df151b9cee97a65b70fa70681697bd47e97ae36ec2df8": "write",
+  "68073ff5ed7a080cf6854c50d1d3ea3f578028351af5eb101ffdac27ba2e96f2": "write",
+  "1fd055f4e81fc802c1f987a17809aad60ccc3a6459ffa3436d49f5282d99e568": "write",
+  "decd5f9ead786322e29597cd5ca3abac457988cbcee11d998f01eb5cc234afbf": "write"
+ },
+ "flags": []
+}

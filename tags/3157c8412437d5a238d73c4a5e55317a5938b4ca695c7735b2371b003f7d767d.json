@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3157c8412437d5a238d73c4a5e55317a5938b4ca695c7735b2371b003f7d767d",
+ "domain": [
+  "software/webhooks",
+  "software/devops"
+ ],
+ "product": [
+  "nahook"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Manages Nahook webhook endpoints, deliveries, retries and environments from an AI client.",
+ "whenToUse": "Use when a developer needs to configure webhook endpoints or inspect and retry deliveries in Nahook.",
+ "tasks": [
+  "manage endpoints",
+  "inspect deliveries",
+  "retry deliveries",
+  "manage environments"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8d16714200e9cea083ffbbe0aaaf07926c534dd78afd79996a04ae07ccea86ea",
+ "domain": [
+  "software/api-marketplace",
+  "finance/crypto-payments"
+ ],
+ "product": [
+  "minia2a",
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Local npm connector to the minia2a marketplace of pay-per-call APIs paid with USDC micropayments on Base via x402.",
+ "whenToUse": "Use when an agent needs to discover and pay for third-party APIs per call with crypto.",
+ "tasks": [
+  "browse paid apis",
+  "call pay-per-use apis",
+  "pay with usdc micropayments"
+ ],
+ "effects": {},
+ "flags": [
+  "moves money: makes USDC payments per API call"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "591024826c992441e999048c3f4fb40cd2f2f009b7fcb9b48b55c93856a9e972",
+ "domain": [
+  "software/cybersecurity/access-control",
+  "software/development/sharing"
+ ],
+ "product": [
+  "qurl"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Shares local apps with approved reviewers through identity-checked links, without opening public inbound ports.",
+ "whenToUse": "Use when an agent needs to let specific reviewers securely access an app running locally.",
+ "tasks": [
+  "share local app",
+  "approve reviewers",
+  "create access links",
+  "manage access"
+ ],
+ "effects": {},
+ "flags": []
+}

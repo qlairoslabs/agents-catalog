@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "cbc7609a2d7269f8ca5c29a0dd09ae2736eb2ee0b6f5e9b4afad1b118a288983",
+ "domain": [
+  "retail/promotional-products",
+  "printing"
+ ],
+ "product": [
+  "dinilu"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches Dinilu's Dutch catalogue of custom-printed promotional gifts and returns indicative prices, options and shipping quotes.",
+ "whenToUse": "Use when pricing printed corporate gifts in the Netherlands by product, quantity and options.",
+ "tasks": [
+  "search products",
+  "get product options",
+  "quote price by quantity",
+  "estimate shipping"
+ ],
+ "effects": {
+  "b2f84acb027c5e3764643825a7cce85c769c3cd7dcaee8888f521756649baf49": "read",
+  "2b0c6fed11cf2bb7947df826627ec7b94c971e91b21e59b9f1049c503829d2f3": "read",
+  "19e7aa1a6c5fee1b862368e5e974eacbfbfb705346231221f5b657b41f32b111": "read",
+  "e76e005347d6e8845bea686c73a1f93928e49906e9b9aad6c597266b74e42b2e": "read",
+  "6c0bd452667a814bd4957bc414c986d61332c9bda84f10eff5edd151a890fb0f": "read"
+ },
+ "flags": []
+}

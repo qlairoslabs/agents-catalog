@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "b1174e46c1091d7765ccc37c01570ce5225e0fbc6b6e492b945691f46d4aa643",
+ "domain": [
+  "dance/contact-improvisation",
+  "events"
+ ],
+ "product": [
+  "ci-treasure-hunt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only directory of Contact Improvisation events, teachers, venues and local communities worldwide.",
+ "whenToUse": "Use when someone wants to find CI festivals, workshops, jams, teachers, venues or local communities.",
+ "tasks": [
+  "search events",
+  "get event details",
+  "search teachers",
+  "get teacher profile",
+  "search venues",
+  "get venue details",
+  "search communities",
+  "get community details"
+ ],
+ "effects": {
+  "57ff2f76bc8a81153bd8d520ef40d9b5c658236b1e465c8002d081d06b126682": "read",
+  "1d34df42e5deefe7864bea7a5ce120e3097304a6df96e26dce5f97b9701e6217": "read",
+  "b47f04c99440247206b7afb03d00e1782cf95711e3df189e9592234ca570df1e": "read",
+  "25a5570557a20cd68b1a7a433c87c8695d8249be8cccacad82870c34937bac9e": "read",
+  "39e31a5f00ddbbba21fb46f732ff1182cb2f6b871535479bfc653d026c27872d": "read",
+  "543f32fcb0cf4097018581756a50e3aa1e294a7b35ca3686505e6df98de7d881": "read",
+  "32ffd48ad3589ea2f4e5ad118fda5391a99e2888fbe9487b3149df3b1594fc00": "read",
+  "c71fbf1ff106fec67e8be743c422ecbee21b6611451241e69989a1dc40d90aba": "read"
+ },
+ "flags": []
+}

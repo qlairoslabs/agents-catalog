@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "d4f1d6136bb0bca6b490e5daa87a8c76d59c07c66d677ed01f8bd5b7e6828364",
+ "domain": [
+  "media/news",
+  "media/bias-analysis"
+ ],
+ "product": [
+  "pure-report"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Neutral news summaries with source bias scores, trending events, cross-outlet framing comparison and feedback submission.",
+ "whenToUse": "Use when you need neutral coverage of a news story, how outlets across the spectrum framed it, or an article's bias score.",
+ "tasks": [
+  "search news",
+  "list trending events",
+  "get event writeup",
+  "compare outlet coverage",
+  "get article",
+  "explain methodology",
+  "submit feedback",
+  "check feedback reply"
+ ],
+ "effects": {
+  "bb9b11a3dba96ea81719f4002b9a1791746a6f27a787397fba40ab412b4b8918": "read",
+  "45227549c5e4b573d367fae6fa5e1161c317b2d397bd00e57f99fb24f284f571": "read",
+  "77a2241f97ee486378b5b8e423c06b1cbb61a17f95db8d47c86976b6777d7599": "read",
+  "2f44641206c476f597a3a4b3c8231892a0259d0da91b56431a255bb8d0cf7a52": "read",
+  "ea29e19387ade45109ce5aa971cc9966a0ab48359f8760197ecbaf0c6649357c": "read",
+  "015d9d5efd18c0619a3e173d5a0f40e7ccf79a42e20db2e0bae623c61d3634b6": "write",
+  "1a8571f099575b61c6ef2008524cf14ed7de60090ba272547e5b3567bfc4e297": "write",
+  "f874e71d50d821ab4d7330c683a9e1fcbd06811b7b19ee773701611079c9c9b0": "read"
+ },
+ "flags": []
+}

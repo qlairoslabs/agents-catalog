@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "75f29aed96457b470e8fc3550b4541bdf0964c90e5bea79b323b2851809eee47",
+ "domain": [
+  "software/hosting",
+  "gaming/game-servers"
+ ],
+ "product": [
+  "zap-hosting",
+  "teamspeak"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages ZAP-Hosting game servers, VPS, dedicated servers, TeamSpeak servers and domains from an AI client.",
+ "whenToUse": "Use when the user wants to control or configure their ZAP-Hosting servers, TeamSpeak or domains.",
+ "tasks": [
+  "manage game servers",
+  "manage vps",
+  "manage dedicated servers",
+  "manage teamspeak servers",
+  "manage domains"
+ ],
+ "effects": {},
+ "flags": []
+}

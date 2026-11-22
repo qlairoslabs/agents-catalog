@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "69c77ed1261cc4e42b07a13dfb5b7d09b8f07e238e86de41e04668c34a7a81a7",
+ "domain": [
+  "customer-feedback/analysis",
+  "research/user-research"
+ ],
+ "product": [
+  "magic-insights"
+ ],
+ "audience": [
+  "support",
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Queries customer feedback data including studies, themes, suggestions, tags and sentiment trends.",
+ "whenToUse": "Use when the user wants to analyze customer feedback themes or sentiment stored in Magic Insights.",
+ "tasks": [
+  "query feedback studies",
+  "view themes",
+  "view suggestions",
+  "filter by tags",
+  "track sentiment trends"
+ ],
+ "effects": {},
+ "flags": []
+}

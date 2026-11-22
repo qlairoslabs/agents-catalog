@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "b45aa6c21e0f8984012ea93dc53a4895cb09aac7aab2dfa587755b37641dcba6",
+ "domain": [
+  "sales/lead-data",
+  "construction/contractors"
+ ],
+ "product": [
+  "contractorroster"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Provides licensed US contractor records from state boards, charged per record, with free counts and cost previews.",
+ "whenToUse": "Use when building lead lists of licensed contractors by state, trade and location.",
+ "tasks": [
+  "list states",
+  "list trades",
+  "count contractors",
+  "search contractor records",
+  "preview cost",
+  "check balance and usage"
+ ],
+ "effects": {
+  "fed9cdb5b196f921f9f3ec585049b5426d1f7b1c6d7398d59b81ca96c8d02ccd": "read",
+  "37751a786511c29026b7f67b57ddb699b53e616afd12539ae07187b8c8b652ce": "read",
+  "d6c839cfff0ddeccd6274961abffc110e50d2cb615e9f787dd459e8d1adfe46a": "read",
+  "ff5e28c6a147ad9bc5911d3e625a9500d35b9bcd9d0e59c268170c6b4138ef72": "risky",
+  "c7079b514a67497f29381dd9955acdb4785e005ab6d799006a197433d88c29bf": "read"
+ },
+ "flags": []
+}

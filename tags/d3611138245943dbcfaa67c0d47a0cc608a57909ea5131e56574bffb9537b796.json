@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "d3611138245943dbcfaa67c0d47a0cc608a57909ea5131e56574bffb9537b796",
+ "domain": [
+  "crypto/erc-8004",
+  "crypto/x402-payments"
+ ],
+ "product": [
+  "erc-8004",
+  "x402",
+  "base",
+  "ethereum"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Free and paid intel on ERC-8004 agents and x402 endpoints: coverage stats, leaderboards, agent and address records, payable endpoints and a seller check.",
+ "whenToUse": "Use when evaluating ERC-8004 agents or x402 sellers, or testing whether an x402 endpoint can be paid.",
+ "tasks": [
+  "get coverage stats",
+  "view leaderboards",
+  "summarize an agent",
+  "look up pay-to address",
+  "preview operator wallet graph",
+  "get trust teaser",
+  "list payable x402 endpoints",
+  "check x402 endpoint",
+  "run paid seller check"
+ ],
+ "effects": {
+  "d51515fa45ebaaf823dba56ad37993966479bb5157a0d9701075e7dc1664361f": "write",
+  "d7419d71d09005fe4801333f73b901a96eb0a1c1c4747fe33c86326e8db2cd0f": "write",
+  "539000e79b877300302e5ad4ea62967e9e067364fe233e95cf0d7a9ee2bcefdb": "write",
+  "208ad21309ae15d68b027b0f915f51b012ecd5b8c9520f87dc57f0887e46fc5e": "write",
+  "923b75c24222393cc8ddafb87c76296118dfb54166c8401ce2604fe1defa2608": "write",
+  "dc201832f0649316dce41c1f0a5add1d210c9d13bd42f9e8542d2030e709e8bb": "write",
+  "322ef5395e103e5a1f9afa522bdf7acbd9c964da52e567313614f85127eec017": "write",
+  "8713735bb19336690d6e62d2578064adc50ef3ec0bde8cb4ceb07f3ea764a44c": "write",
+  "ee90343e8f90ee711508356aae6ace0c493205913cab66f0f6de0c1bb13a7bf6": "risky"
+ },
+ "flags": [
+  "seller_check makes a real USDC payment on Base"
+ ]
+}

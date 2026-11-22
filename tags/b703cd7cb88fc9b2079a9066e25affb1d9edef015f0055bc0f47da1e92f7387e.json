@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b703cd7cb88fc9b2079a9066e25affb1d9edef015f0055bc0f47da1e92f7387e",
+ "domain": [
+  "data/web-scraping",
+  "research/web-search"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Bright Data server for searching, extracting and navigating web pages.",
+ "whenToUse": "Use when an agent needs to search the web or scrape content from sites, including hard-to-access ones.",
+ "tasks": [
+  "web search",
+  "extract page content",
+  "navigate websites"
+ ],
+ "effects": {},
+ "flags": []
+}

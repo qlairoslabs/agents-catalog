@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "197a453772b2ef9a54eedd349540754c16580bcfe0c2d56ce47b9535b8fd52e3",
+ "domain": [
+  "finance/market-data",
+  "finance/research",
+  "economics"
+ ],
+ "product": [
+  "fincept"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides Fincept financial market data, economic data, research and analytics tools.",
+ "whenToUse": "Use when an agent needs financial market data, economic indicators or investment research through Fincept.",
+ "tasks": [
+  "get market data",
+  "get economic data",
+  "access research",
+  "run analytics tools"
+ ],
+ "effects": {},
+ "flags": []
+}

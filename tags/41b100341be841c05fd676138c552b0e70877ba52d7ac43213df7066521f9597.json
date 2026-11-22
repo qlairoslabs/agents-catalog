@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "41b100341be841c05fd676138c552b0e70877ba52d7ac43213df7066521f9597",
+ "domain": [
+  "finance/equity-research/valuation",
+  "finance/investing"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds bull, base and bear cases for a public company with probability weights, per-scenario values and expected return.",
+ "whenToUse": "Use when a user wants upside and downside scenarios or a probability-weighted value for a stock.",
+ "tasks": [
+  "define scenario line-item assumptions",
+  "assign probability weights",
+  "value each scenario",
+  "compute probability-weighted expected value",
+  "calculate risk-reward skew",
+  "identify triggers shifting probabilities"
+ ],
+ "effects": {},
+ "flags": []
+}

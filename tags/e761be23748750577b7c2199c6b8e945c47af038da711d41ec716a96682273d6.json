@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e761be23748750577b7c2199c6b8e945c47af038da711d41ec716a96682273d6",
+ "domain": [
+  "productivity/daily-reports",
+  "business/team-reporting"
+ ],
+ "product": [
+  "clubs-nippo"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets AI agents submit daily work reports (nippo) and check their status in CLUBS, with OAuth or fixed bearer token auth.",
+ "whenToUse": "Use when an agent needs to file or check a Japanese-style daily report in a CLUBS workspace.",
+ "tasks": [
+  "submit daily report",
+  "check report status"
+ ],
+ "effects": {},
+ "flags": []
+}

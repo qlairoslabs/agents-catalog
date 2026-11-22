@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "96df975e30863ce931d383254ee01d73fa047bb896dbc49e1a8ace00210df161",
+ "domain": [
+  "software/development/claude-plugins"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for creating and validating Claude Code plugins, covering hooks, MCP integration, commands and agents.",
+ "whenToUse": "Use when building or validating a Claude Code plugin.",
+ "tasks": [
+  "create plugins",
+  "write hooks",
+  "integrate mcp servers",
+  "define commands",
+  "define agents",
+  "validate plugins"
+ ],
+ "effects": {},
+ "flags": []
+}

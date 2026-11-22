@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "41afd6345bb74778d8c3714d9ef23e5e5670acb5f5a99d5db5782654b7870745",
+ "domain": [
+  "health/wearables",
+  "health/sleep-tracking"
+ ],
+ "product": [
+  "oura"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted read-only connector to Oura Ring data with per-user OAuth.",
+ "whenToUse": "Use when a user wants to review their Oura Ring sleep, activity or readiness data.",
+ "tasks": [
+  "read sleep data",
+  "read activity data",
+  "read readiness scores"
+ ],
+ "effects": {},
+ "flags": []
+}

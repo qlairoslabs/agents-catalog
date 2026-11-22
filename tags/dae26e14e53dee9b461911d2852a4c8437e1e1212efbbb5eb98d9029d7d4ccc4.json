@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "dae26e14e53dee9b461911d2852a4c8437e1e1212efbbb5eb98d9029d7d4ccc4",
+ "domain": [
+  "analytics/product-analytics/instrumentation",
+  "software/development"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads code from a PR, branch or feature, finds what events should be tracked, and produces an analytics instrumentation plan.",
+ "whenToUse": "Use when a user wants to add analytics tracking to a PR, branch, file or feature.",
+ "tasks": [
+  "read code changes",
+  "discover trackable events",
+  "produce instrumentation plan",
+  "instrument events"
+ ],
+ "effects": {},
+ "flags": []
+}

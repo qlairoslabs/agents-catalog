@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a7811172bdbfe08346ae97154a56d33d004eb693b2ca68aaac13b7e655d46b20",
+ "domain": [
+  "software/observability",
+  "software/devops"
+ ],
+ "product": [
+  "new-relic",
+  "kubernetes"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Connects an agent to New Relic telemetry to investigate application performance, cloud costs, Kubernetes issues and alerts.",
+ "whenToUse": "Use when diagnosing production performance, alerts or Kubernetes problems using New Relic data.",
+ "tasks": [
+  "investigate apm performance",
+  "analyze cloud costs",
+  "debug kubernetes",
+  "write nrql queries",
+  "respond to alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

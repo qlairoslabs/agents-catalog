@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "943187298b070db7bda4d2e8f3ee5254eb8e8d148a60c6a9807c1b8dae435200",
+ "domain": [
+  "media/generative-ai",
+  "adult-content"
+ ],
+ "product": [
+  "spicyapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Pay-per-use API for uncensored image, image-to-video and chat generation aimed at adult apps, OpenAI-compatible.",
+ "whenToUse": "Use when building an adult app that needs unfiltered image, video or chat generation.",
+ "tasks": [
+  "generate images",
+  "convert image to video",
+  "generate chat responses"
+ ],
+ "effects": {},
+ "flags": [
+  "adult-content"
+ ]
+}

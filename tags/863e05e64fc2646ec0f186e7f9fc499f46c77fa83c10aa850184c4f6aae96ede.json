@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "863e05e64fc2646ec0f186e7f9fc499f46c77fa83c10aa850184c4f6aae96ede",
+ "domain": [
+  "ai/agent-memory",
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local MCP memory store for coding agents that saves decisions with their reasoning and recalls them on request.",
+ "whenToUse": "Use when a coding agent should record or retrieve past project decisions across sessions.",
+ "tasks": [
+  "store decisions",
+  "record reasoning",
+  "recall memories"
+ ],
+ "effects": {},
+ "flags": []
+}

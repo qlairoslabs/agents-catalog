@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e9fd00102e7fe7569fdf15f799fec7d13711d835035aac97259d4690f63850f1",
+ "domain": [
+  "events/event-management",
+  "events/ticketing"
+ ],
+ "product": [
+  "eventship"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "schedule",
+  "sell",
+  "keep-in-touch"
+ ],
+ "summary": "Manages in-person events on Eventship: create events, handle tickets and attendees, send broadcasts.",
+ "whenToUse": "Use when organising an in-person event and managing its tickets, attendees or messages.",
+ "tasks": [
+  "create events",
+  "manage tickets",
+  "manage attendees",
+  "send broadcasts"
+ ],
+ "effects": {},
+ "flags": []
+}

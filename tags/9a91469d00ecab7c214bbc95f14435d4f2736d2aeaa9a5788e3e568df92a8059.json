@@ -1,0 +1,62 @@
+{
+ "classifier": 2,
+ "contentHash": "9a91469d00ecab7c214bbc95f14435d4f2736d2aeaa9a5788e3e568df92a8059",
+ "domain": [
+  "food/grocery",
+  "health/nutrition"
+ ],
+ "product": [
+  "kroger",
+  "usda",
+  "open-food-facts",
+  "fda",
+  "hellofresh",
+  "factor"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "US food data: product search with Kroger prices, nutrition, allergens, FDA recalls, commodity prices, diet-filtered products and meal-kit recommendations.",
+ "whenToUse": "Use when a user needs grocery product nutrition, allergen or price info, recall checks, or diet-compliant products and meals.",
+ "tasks": [
+  "search food products",
+  "get nutrition facts",
+  "compare products",
+  "search FDA recalls",
+  "check product recalls",
+  "get commodity and retail prices",
+  "filter by diet",
+  "find household-safe meals",
+  "analyze receipt UPCs",
+  "read food profile",
+  "recommend meal kits"
+ ],
+ "effects": {
+  "26801383275a79ca062ad108d426238c0673c41e5323c0fc653bc1b2ab25bc46": "read",
+  "a40628c3afa1a8efb3ee2172cdfd1af3823912e908728099c6a347a42063a301": "read",
+  "2ee0037bab2cfd3d2df079c406e47f399e2e4d43fadac3a1039253220fcbf72e": "read",
+  "cb45ab6e32588bd03ea63d5c0e27603a197de2c72b4ca26233b8737eaed545e1": "read",
+  "2f6c92aed630a0cb4cf06406e225e7a8664319b90a07ee59ed547e7bebd1ddbe": "read",
+  "2664ea5b37f4df2268d3b13422747ce4e0db548b3aec42e52b09c93412515375": "read",
+  "32577a5bdb3681d6958ca1b3aba35f48010a4ba14ddebd2194f4037cbfdd13ba": "read",
+  "a590569e694f0cf03cb834d64ac13e1081f8702991a6edf83d8e8c1be42b65c5": "read",
+  "544a76f8072a816058e08da80316e3b6a40e235695f0807799aff3049094fbab": "read",
+  "4ada8d4fbdb8c45b0d2e499ce7208471e558ada10868bd544c93d4629a1bf7e4": "read",
+  "41821c18cd4aa57fd1ed3933f7a69c99685a32217db303a4fcf29af3b875158c": "read",
+  "46c25bb8e9652d757acc054078f994ea2d73bd4e4ceb28d23bc3ad81563d4775": "read",
+  "b39df21a3a6295b5153f040c53f7edda14fce745f2e95ce7c4e6fa5427db5733": "read",
+  "cb5632d75f243adce8b4ff0ba68c4dc1fab3cc43acc273e5fd827ce8a14de876": "read",
+  "585f1ab0bc72cf9fa126d2da628cb89643c8baf89288438cee34588f30932351": "read",
+  "6029ed4f64d27eec590c582ee55835b5a160a97bf018fd06a388618a1a5f8273": "read",
+  "491860972b557e00ca027ae74f639e89c6d07cc8955a6b181c0f9fc077da0093": "read",
+  "1f5671e027eb1731fd4124ec60f68e09a4966092eb91c005e949090a8277e3a8": "write"
+ },
+ "flags": [
+  "food_meal_recommend openly steers shoppers to hellofresh.com purchase links",
+  "can write recommendations into cross-AI agent memory"
+ ]
+}

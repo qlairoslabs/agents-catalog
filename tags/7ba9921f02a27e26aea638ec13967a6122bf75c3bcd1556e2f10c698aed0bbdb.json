@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "7ba9921f02a27e26aea638ec13967a6122bf75c3bcd1556e2f10c698aed0bbdb",
+ "domain": [
+  "travel/ferry-and-charter",
+  "travel/indonesia"
+ ],
+ "product": [
+  "sailtix"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Indonesian ferry and fast-boat departures with seats and fares, plus private boat and fishing charters.",
+ "whenToUse": "Use when a user is planning sea travel or a boat or fishing charter in Indonesia.",
+ "tasks": [
+  "list harbors and regions",
+  "search ferry departures",
+  "search boat charters",
+  "search fishing trips"
+ ],
+ "effects": {
+  "eb6207f4295ceb2869ef9712dca63073c1725534839bc3e7ce28361ef8306407": "read",
+  "7f348d0abe0f30010eb0163374a9e3e575061c0f6eb2bb601b92d0790787dc84": "read",
+  "3d1afebd0c7dcd3186ee8a1491abc045686c501ebd852d5b8fea1b1181521e5c": "read",
+  "f177ce7b346d81be4e4c907f51b7298c3808cc23349b6dd3d11020f6b2beb86c": "read"
+ },
+ "flags": []
+}

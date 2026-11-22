@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7c9f5b8c7f07e5e72ef8b61dee5399c20258635ad4cfc09943392fd81fc93dc0",
+ "domain": [
+  "design/diagramming"
+ ],
+ "product": [
+  "draw-io"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "MCP server that lets an agent draw draw.io diagrams on a live browser canvas that users can also edit by hand.",
+ "whenToUse": "Use when an agent needs to create or edit a diagram such as a flowchart or architecture drawing in draw.io.",
+ "tasks": [
+  "create diagrams",
+  "edit diagrams on live canvas"
+ ],
+ "effects": {},
+ "flags": []
+}

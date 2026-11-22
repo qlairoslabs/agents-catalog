@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "721f1adbe84df956f5aa6c85edcc7c0e03906a48eb25c0bb899e55586901f25c",
+ "domain": [
+  "finance/trading",
+  "finance/trading-signals"
+ ],
+ "product": [
+  "ttmt",
+  "telegram",
+  "metatrader"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only access to a user's TTMT data on trades, Telegram signals, channels, performance and risk.",
+ "whenToUse": "Use when an agent needs to review a user's copied trades, signal channels or trading performance in TTMT.",
+ "tasks": [
+  "view trades",
+  "view signals",
+  "list signal channels",
+  "analyze performance",
+  "review risk"
+ ],
+ "effects": {},
+ "flags": []
+}

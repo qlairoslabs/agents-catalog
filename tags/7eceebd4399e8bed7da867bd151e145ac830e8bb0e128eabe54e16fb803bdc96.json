@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7eceebd4399e8bed7da867bd151e145ac830e8bb0e128eabe54e16fb803bdc96",
+ "domain": [
+  "software/api-marketplace"
+ ],
+ "product": [
+  "zyla-api-hub"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Lets agents discover and call thousands of third-party APIs through one server, billed per call.",
+ "whenToUse": "Use when an agent needs a third-party API that it can discover and call through a single marketplace.",
+ "tasks": [
+  "discover apis",
+  "call apis",
+  "pay per call"
+ ],
+ "effects": {},
+ "flags": [
+  "agent calls incur per-call charges"
+ ]
+}

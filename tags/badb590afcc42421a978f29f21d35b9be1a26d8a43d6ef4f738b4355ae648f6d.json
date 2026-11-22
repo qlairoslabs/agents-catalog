@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "badb590afcc42421a978f29f21d35b9be1a26d8a43d6ef4f738b4355ae648f6d",
+ "domain": [
+  "design/brand-design",
+  "business/freelance-services"
+ ],
+ "product": [
+  "whatsapp",
+  "calendly"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Profile, services and contact tools for a Swiss brand designer, including intro links, brief submission and a chat agent.",
+ "whenToUse": "Use when a funded tech or AI startup needs a brand designer or wants to send a brief to Goce Petrov.",
+ "tasks": [
+  "get profile",
+  "list services and prices",
+  "browse case studies",
+  "build intro message link",
+  "submit project brief",
+  "chat with his agent"
+ ],
+ "effects": {
+  "70b42aaf3d3a1592bd9ce2c94b4dab4a8c0d7a26074bff2451cf52128aa56259": "read",
+  "e9588227ab0d3dddff8b326ed9bc8246f2b3aaa2083893b3d9d481c992446acc": "read",
+  "f4c2d60e047ffe79970a22a9d4f82d576be2f3e0e54ac8d068323cf2d09e12aa": "read",
+  "9581efe3d15d597953bbc2e567216287bcc17a6a06554475794af2ccea4019b0": "read",
+  "51f3cb11080595994a2fdf8e9944c74b39afcbbdd3af6727d855b983f5d137fd": "write",
+  "61d977355d80d31cebbb68e2217e4ffb174d42ffb6930eb0355971ea1d6e765e": "write",
+  "95144cc9aec4b23c937a7e8778b157efd7e1d3f48a24c1c813b12065a3bee570": "write",
+  "238f392493c4e6ba1016385bd04e55c739ba5ede44cdd56caf899dbd45f2180d": "read"
+ },
+ "flags": []
+}

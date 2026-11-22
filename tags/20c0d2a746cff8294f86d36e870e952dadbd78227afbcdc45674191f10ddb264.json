@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "20c0d2a746cff8294f86d36e870e952dadbd78227afbcdc45674191f10ddb264",
+ "domain": [
+  "operations/field-service",
+  "finance/invoicing"
+ ],
+ "product": [
+  "trak"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid",
+  "hire-and-manage"
+ ],
+ "summary": "Manage trade jobs, schedules, quotes, invoices and timesheets in Trak.",
+ "whenToUse": "Use when a trades business needs to manage jobs, scheduling, quotes, invoices or staff time in Trak.",
+ "tasks": [
+  "manage jobs",
+  "manage schedules",
+  "create quotes",
+  "create invoices",
+  "manage timesheets"
+ ],
+ "effects": {},
+ "flags": []
+}

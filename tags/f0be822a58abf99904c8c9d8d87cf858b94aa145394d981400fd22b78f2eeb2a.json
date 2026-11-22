@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f0be822a58abf99904c8c9d8d87cf858b94aa145394d981400fd22b78f2eeb2a",
+ "domain": [
+  "productivity/project-management/backlog",
+  "software/agile"
+ ],
+ "product": [
+  "confluence",
+  "jira"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Turns Confluence specification pages into a Jira backlog of epics and linked implementation tickets.",
+ "whenToUse": "Use when a user wants to break down a spec or requirements on Confluence into Jira epics and tickets.",
+ "tasks": [
+  "read confluence page",
+  "analyze specification",
+  "create jira epics",
+  "create implementation tickets",
+  "link tickets to epic"
+ ],
+ "effects": {},
+ "flags": []
+}

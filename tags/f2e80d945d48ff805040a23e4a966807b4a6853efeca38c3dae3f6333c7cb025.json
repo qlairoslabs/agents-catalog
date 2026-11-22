@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "f2e80d945d48ff805040a23e4a966807b4a6853efeca38c3dae3f6333c7cb025",
+ "domain": [
+  "sports/esports-stats",
+  "sports/virtual-football"
+ ],
+ "product": [
+  "bettrails"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides eSoccer, esports and NBA 2K stats including player profiles, head-to-heads, today's matches and match alerts.",
+ "whenToUse": "Use when you need stats, form or head-to-head records for eSoccer or esports players and teams.",
+ "tasks": [
+  "search players and teams",
+  "read Bettrails pages",
+  "get eSoccer player profile",
+  "get head-to-head record",
+  "create match alert link"
+ ],
+ "effects": {
+  "8a10696f70f945390ef2f41e461078df31b199117101a162d2be4ee4b63505b1": "read",
+  "d6200de7a10532b976e3999449e06bcfd4c4e71b158a99c84235637f18230dde": "write",
+  "6db0055d571943d4acce94e12b1dfac2daf6ef6f5b9f8fe6ae9395483f6d489e": "write",
+  "de1d3295f5bcb8ad0415cad1274da358b03d213f19346c9277c3ef0dcbaf52ed": "write",
+  "3f71e36cf621027b5dab6c54aeb1cf7149eb628335032aaafb05c91acbbb860d": "write"
+ },
+ "flags": []
+}

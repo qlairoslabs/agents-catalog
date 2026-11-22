@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "bda8b685c8275f6755618834c42463789f16c20cd45780c31738084224e5f5c2",
+ "domain": [
+  "ai/llm-inference"
+ ],
+ "product": [
+  "lmx-cloud",
+  "brave-search",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Pay-per-call LLM inference, web search and PDF extraction over an OpenAI-compatible API, paid by API key balance or USDC.",
+ "whenToUse": "Use when an agent needs to call another hosted model, run web search or extract PDF text with LMX credit.",
+ "tasks": [
+  "get pricing",
+  "quote call price",
+  "list models",
+  "check provider status",
+  "check balance",
+  "check usage",
+  "search the web",
+  "extract PDF text",
+  "chat completion"
+ ],
+ "effects": {
+  "8929a932a0fd189f28b174d46a30965849f70cc52ad24568e97c6249ede6271c": "read",
+  "f1fdccdb56f0ba7f64fe4f675474a306be60b8f686e0900caace20a6101ef8b4": "read",
+  "fcf1a6a363405e26a0477e8c1f679fa0d0399ad45973558669d96ca42800059f": "read",
+  "28ebde7c1a8654e98713a66e9aab777c3e68e78fa36f89ef67522aaed0b98e76": "read",
+  "9a45394900350d4d0cac9af8d803471415da5ba989c7751711ffd7e46a83238c": "read",
+  "05c51d1c0d67d73475eaf4ea756afb08b74039bd4a18c0d9192bd1fdb9604f8c": "read",
+  "4c5e9e8cb4956ea608fdfb0d9d3db1e3c6338de09bd159dfa9b1010084b14dd8": "write",
+  "680c3cb560ef3dddda08ab03a6c5a095cae5f773347a812140edbdd9ebfd4730": "write",
+  "54198b463c1c8c42bc67f2ecdafbc0dae25ba573e51d9f6f75ad0f67faf014d9": "write"
+ },
+ "flags": [
+  "chat_completion can spend funds via x402 USDC payment when no API key is given"
+ ]
+}

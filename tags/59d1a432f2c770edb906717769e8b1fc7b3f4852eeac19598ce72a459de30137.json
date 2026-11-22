@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "59d1a432f2c770edb906717769e8b1fc7b3f4852eeac19598ce72a459de30137",
+ "domain": [
+  "media/image-hosting"
+ ],
+ "product": [
+  "beeimg"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Uploads, deletes and organizes images on BeeIMG with albums, folders and privacy settings.",
+ "whenToUse": "Use when an agent needs to host an image and get a shareable link, or manage BeeIMG albums.",
+ "tasks": [
+  "upload image from URL",
+  "upload image from base64",
+  "delete image",
+  "list albums",
+  "create album",
+  "get album",
+  "create folder",
+  "check premium limits"
+ ],
+ "effects": {
+  "ac6c08b5287cc0e136a72a4ed533aa330fc0b4a649d64d5505b2a9e74063913f": "write",
+  "1ba6d42a00e347397ee05dd9bffe564a5be4292204dbdf2b87a31b0ce986fed9": "write",
+  "70d63752f32019d4fc8052f189c4e621783b44aba0a9648c699de2a20f6bf23c": "write",
+  "033cd5c41ab1fba96b561cc2f34435b4f529b6a82442a26a757bb0e9d4df8363": "read",
+  "30acde6b8b76d0ab991f63aba6042ee7f062a0032a24cf838d2ee05b8555d07c": "read",
+  "cfaf57daa94071a0bb938ca328a863bada164a0b7100513c1978bc01585ea0eb": "write",
+  "91ef5a437c1c17328c1d15e0216dde2dc4953237bc5836f59bf4521068be9458": "read",
+  "40d55397bae916badf1ba9546ab4a1ba1f844869d2cd74fecc5317db58f6894d": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,69 @@
+{
+ "classifier": 2,
+ "contentHash": "fa1deea48d9bfa74f21dc7c2cea7681d2a494fca41f95e9ad898460599c81023",
+ "domain": [
+  "software/ai-agent-governance",
+  "security/evidence-verification"
+ ],
+ "product": [
+  "proofrelay",
+  "x402",
+  "stripe",
+  "erc-8004"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Read-only verifier and builder of hash-only evidence for agent workflows: bundle verification, payment proof adapters, receipts, risk scans, audit packs and title/closing evidence profiles.",
+ "whenToUse": "Use when you need to verify or assemble non-confidential, hash-based evidence for paid, material or audited agent actions, or to risk-scan an MCP server.",
+ "tasks": [
+  "verify evidence bundles",
+  "build bundle drafts",
+  "normalize payment proofs",
+  "adapt x402 proofs",
+  "plan replay rejection tests",
+  "wrap MCP tool evidence",
+  "scan MCP risk",
+  "build approval receipts",
+  "build audit pack manifests",
+  "review wire change metadata",
+  "build closing and title evidence",
+  "build registry entries and badge drafts"
+ ],
+ "effects": {
+  "49fe0e399876c7c41c8ea97df862f46786b7596695e44329b96145e4cff1bb25": "read",
+  "d99de360bf40c27934efe0da97c70c740ac725b22a813ce2cc15470653bebc53": "read",
+  "2ef66b4ad53b46128d55ef12bf48941ab55deb06ec65d1f6dd64767d25003ad8": "write",
+  "1db842977814e5837c98be3443887c266f1543e9e62388b0e5b5a3496ce56e45": "read",
+  "704c73abf1a5cda8b59fc799fd3705078e2aee44fc46e6e47163f44357b06948": "read",
+  "ca9361b6d13e6760db532b8810ee89c3730aaad23f6812c4d1a781cecbe48ba0": "read",
+  "f5a149a49f992e2abed8f5ce267494f88797bf2fc6311e240a7f6daaa413d799": "read",
+  "f7f52e7f86e860ed31b166ef69bfa1e5fd5133ad74834d1544001108094d56e8": "read",
+  "e0dfe0e80a5f1a6599bcc2899f52c0638155537fba65e02fcaf3fb9a1c4cb03c": "read",
+  "625831f9e5543ae4473ca9ec34ac6cceb6e9700de984abfe99a6a796fc24f603": "read",
+  "76e9985e98928d5a65e46b661f5c1ee703c4a4af70188dd8add09645171ea6b0": "read",
+  "99e6a861af4e2199ddc881de7537518f9aeee06ddaf1eaf49bd2c556552efc02": "read",
+  "61f0bf82cbe274017fcf2fc919e84c28119e36e569915693f58bfe23b5823cff": "read",
+  "8744cd2dbbf5b34f432666862334033aab059976c4e3d14ea6fbbfcbb6933881": "read",
+  "bb413c2c34efbf327abbea102cec0cf63e8cd60ad7c686aeeab4deaf9bcafd99": "read",
+  "3950a2450a5a0d892ee00d4e5182ead51873cc639ad1ede6cecf98af11dd8df8": "read",
+  "d03861b3bdc4efe66cc26d2ed2554d191cd1cffbb7a3cc44e5882081813c6bb8": "read",
+  "1a01b89e09b76d076f069f3d264fda113a4fd345db817c06f7bc835ef89788bb": "read",
+  "bda55cd9657cf6bc54adb595946e53f1d46bf0a064ac0627adc91576058e6a8d": "read",
+  "787568cd3b726f8752e68f573c8f84ff94f26546e9da2d510a116909ffa25057": "read",
+  "37494c1f263e9e59cd4c3e8026560164560d4b4e8b698e681d02b60f9b73ba7c": "read",
+  "7b1c45642c5b4990b499da8b7b312f0320f5f22299faa5d9e56999e3b0008671": "read",
+  "953af52d682bba76760e6f7faffc745b27b219cc9788bc2300a7a7842e2a8501": "read",
+  "c92c8198ff3486e84e389e7729f7ee2f0a3d392c64ce60072257fe2d8582b187": "read",
+  "24c0dc4ae2a3cee0da2154beb7b70a3495b3993654113107df6cf054d1d3b2f3": "read",
+  "5072ca224918241196748238207cb6d96bbb0d6eb00cd09b22eaefba47c2566a": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3e904cbd742986d2c5f03ba049a78adcfc28c2c54e7ed078d62b819a81114c76",
+ "domain": [
+  "legal/privacy/cookie-consent"
+ ],
+ "product": [
+  "katla",
+  "gdpr",
+  "ccpa"
+ ],
+ "audience": [
+  "marketing",
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "GDPR and CCPA cookie consent tooling: scan sites for cookies, track consent rates and generate privacy policies.",
+ "whenToUse": "Use when checking a website's cookie compliance or generating a privacy policy.",
+ "tasks": [
+  "scan site cookies",
+  "track consent rates",
+  "generate privacy policies"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2ceac9a23382f3d4496877c6c4d76c70d144e3105e35cf44090408629b096dc7",
+ "domain": [
+  "data/databases/sql-server",
+  "operations/cloud"
+ ],
+ "product": [
+  "google-cloud-sql",
+  "sql-server"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects Claude to a Google Cloud SQL for SQL Server database.",
+ "whenToUse": "Use when you need to work with a Cloud SQL for SQL Server database.",
+ "tasks": [
+  "connect to cloud sql sql server",
+  "query database data"
+ ],
+ "effects": {},
+ "flags": []
+}

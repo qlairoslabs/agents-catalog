@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b535ffb6cd9368922c8cedf0b39971e314a9a58a394ac6423d94863b2b31f4ee",
+ "domain": [
+  "design/whiteboarding",
+  "software/architecture-diagrams"
+ ],
+ "product": [
+  "irenictable"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Collaborative whiteboard server for creating objects, connectors and C4 diagrams and managing boards.",
+ "whenToUse": "Use when an agent needs to draw diagrams, C4 architecture views or manage shared whiteboard boards.",
+ "tasks": [
+  "create board objects",
+  "add connectors",
+  "create c4 diagrams",
+  "manage boards"
+ ],
+ "effects": {},
+ "flags": []
+}

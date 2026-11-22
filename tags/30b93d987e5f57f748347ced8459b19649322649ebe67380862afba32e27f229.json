@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "30b93d987e5f57f748347ced8459b19649322649ebe67380862afba32e27f229",
+ "domain": [
+  "real-estate/spatial-data",
+  "data/geospatial"
+ ],
+ "product": [
+  "htag",
+  "h3"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "H3 hexagon-based spatial data from HTAG for prices, rents, indicators, geometry and region concordance.",
+ "whenToUse": "Use when an agent needs property prices, rents or indicators aggregated by H3 cells or mapped between regions.",
+ "tasks": [
+  "get price by h3 cell",
+  "get rent by h3 cell",
+  "read spatial indicators",
+  "get cell geometry",
+  "map region concordance"
+ ],
+ "effects": {},
+ "flags": []
+}

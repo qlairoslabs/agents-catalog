@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "0fb45bcb81d1cbd6e4e4aed6d21c3a8c41fefa76d7d444b10e6eb77eee4758dd",
+ "domain": [
+  "finance/mortgage",
+  "real-estate"
+ ],
+ "product": [
+  "capcenter"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "CapCenter mortgage quotes, daily rates, savings and refinance comparisons, loan limits, home search and home value estimates, with links to apply.",
+ "whenToUse": "Use when a user wants US mortgage rates or quotes, affordability, refinance comparison, home listings or a home value estimate.",
+ "tasks": [
+  "get mortgage quote",
+  "get today's rates",
+  "estimate savings",
+  "explain loan options",
+  "estimate affordability",
+  "get loan limits",
+  "compare refinance options",
+  "search homes for sale",
+  "estimate home value",
+  "link to apply or book"
+ ],
+ "effects": {
+  "fa04550c8d5a51702602d400e1e1a3fc540365539a2ca651a3f5684feca660ac": "read",
+  "eef1538e9180e62313bf0d0b5f318fed6ad350d8de7ab0890d78f4e58fb58c26": "read",
+  "de0b58f2a03f83a7346f88f86184132582a974eefaa6f8783ed2936947283f4b": "read",
+  "575165191bc7bd69b2b718590eba1518e2939f792f96ad9a6c2c566e98d00485": "read",
+  "2622fcfc0c12dd2bb26b1a2de41285d52f6370d1ca67115912eff9db1577ef00": "read",
+  "494ae61742a37f1e333778753a55acde78d4bded336703574cc280d7a267911c": "read",
+  "6b3c5aef50d424b163c207d36557fc70723cbcf53961d3c14f9df46f85b0193e": "read",
+  "bb9888c10cf198d29b794942fa5c48654286268ccdff2bf408a1b8171b03e40d": "read",
+  "a873177c90c96fc34ef7094904f06f5b6630b1b663001d524da6159111485aef": "read",
+  "b6dc1e18e4883a96919cf15a2627546457b2670467fe5d649e1556ac450ddb1f": "read",
+  "f458f13ee62b850821e766793f99927b5f81b36dbd627ed952ba6623a8373979": "read",
+  "dd0a6d4f36ad641679bc255e59e6f8ba453a9d6a31939a2d464f09d66fb9f3ec": "read"
+ },
+ "flags": []
+}

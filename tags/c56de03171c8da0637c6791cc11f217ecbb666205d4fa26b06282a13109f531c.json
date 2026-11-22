@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c56de03171c8da0637c6791cc11f217ecbb666205d4fa26b06282a13109f531c",
+ "domain": [
+  "compliance/privacy/cookie-consent",
+  "web/site-audit"
+ ],
+ "product": [
+  "google-consent-mode"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Creates GDPR cookie banners with Consent Mode v2 and scans what a site loads before consent.",
+ "whenToUse": "Use when the user needs a GDPR-compliant cookie banner or wants to check which trackers load before consent.",
+ "tasks": [
+  "create cookie banners",
+  "configure consent mode v2",
+  "scan pre-consent loading"
+ ],
+ "effects": {},
+ "flags": []
+}

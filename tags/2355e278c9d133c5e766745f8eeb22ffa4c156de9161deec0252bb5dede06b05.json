@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2355e278c9d133c5e766745f8eeb22ffa4c156de9161deec0252bb5dede06b05",
+ "domain": [
+  "software/testing/email",
+  "communication/email"
+ ],
+ "product": [
+  "devinbox"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Provides real email inboxes for AI agents to receive messages, capture verification codes and reply.",
+ "whenToUse": "Use when an agent needs a working inbox to receive sign-up emails, one-time passwords or verification codes.",
+ "tasks": [
+  "create inboxes",
+  "receive emails",
+  "extract otp codes",
+  "catch verification codes",
+  "reply to emails"
+ ],
+ "effects": {},
+ "flags": []
+}

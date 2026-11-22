@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ac7fe47c7990e73a1077041100858a3258423f93dd345696d7d9d17f708a28c5",
+ "domain": [
+  "marketing/conversion-tracking",
+  "marketing/advertising"
+ ],
+ "product": [
+  "pixelflow",
+  "meta",
+  "tiktok"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Server-side conversion tracking connector for ad platforms like Meta and TikTok, with setup and event queries.",
+ "whenToUse": "Use when an agent needs to set up server-side ad conversion tracking or inspect tracked events.",
+ "tasks": [
+  "set up conversion tracking",
+  "query events"
+ ],
+ "effects": {},
+ "flags": []
+}

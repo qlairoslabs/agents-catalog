@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0506241d55d241d8afe696f6a1c775e758964670e3d77cc5f9e4e8f59d10be01",
+ "domain": [
+  "software/smart-contracts",
+  "software/blockchain"
+ ],
+ "product": [
+  "openzeppelin",
+  "stylus",
+  "ethereum"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates OpenZeppelin Stylus (Rust) smart contract source for ERC-20, ERC-721 and ERC-1155 tokens.",
+ "whenToUse": "Use when a developer needs starter Stylus token contract code with chosen features.",
+ "tasks": [
+  "generate ERC-20 contract",
+  "generate ERC-721 contract",
+  "generate ERC-1155 contract"
+ ],
+ "effects": {
+  "84eb8463142ff0e76e53cf661c8c03fbb497413ed101fd031685b4e07dc3935b": "read",
+  "d4e79cd3d29a9017b65a625fb118b2b913957bb84b4b0436683a74a8a3543b53": "read",
+  "27f61eedd5679af9776df1758ea4aa91a5f55d477ad34e71abdb7f936ed6fc9b": "read"
+ },
+ "flags": []
+}

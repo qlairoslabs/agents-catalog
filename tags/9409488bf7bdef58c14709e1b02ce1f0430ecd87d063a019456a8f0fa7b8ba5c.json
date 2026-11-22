@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "9409488bf7bdef58c14709e1b02ce1f0430ecd87d063a019456a8f0fa7b8ba5c",
+ "domain": [
+  "software/hosting",
+  "infrastructure"
+ ],
+ "product": [
+  "serversearcher"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Searches and compares dedicated, VPS, GPU and cloud server plans and hosting providers by specs, location and price.",
+ "whenToUse": "Use when choosing or comparing hosting plans or providers for given hardware, location or budget.",
+ "tasks": [
+  "search server plans",
+  "filter by specs and price",
+  "get provider info",
+  "compare two providers"
+ ],
+ "effects": {
+  "85be958f47dc5af2e475bd847c6ca7dcc8cb4d72d0a2d223cda7b8c5c038eb20": "read",
+  "592c1118fb76c7f5dfab60bafdc58d4f4be69ffba126c5b8134586cc6e6c21cd": "read",
+  "66af33c3d73847d55fd05bf2eb1a0e27408550c0531a942473f56aa4adb2bbdb": "read"
+ },
+ "flags": [
+  "results include affiliate checkout URLs"
+ ]
+}

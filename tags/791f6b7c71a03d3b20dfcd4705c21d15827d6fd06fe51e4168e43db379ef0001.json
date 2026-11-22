@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "791f6b7c71a03d3b20dfcd4705c21d15827d6fd06fe51e4168e43db379ef0001",
+ "domain": [
+  "ai/agent-simulation",
+  "games/simulation"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Simulated economy for AI agents built on Conway-style physics, with an energy currency, marketplace and reputation system.",
+ "whenToUse": "Use when an agent should take part in or experiment with a simulated multi-agent economy.",
+ "tasks": [
+  "join a simulated agent economy",
+  "trade on a marketplace",
+  "manage energy currency",
+  "track reputation"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ef76d3b0d679eab91476fe324f21435f6739eb803739bd814ce3a0ffba92d9d3",
+ "domain": [
+  "finance/crypto/otc-trading",
+  "finance/crypto"
+ ],
+ "product": [
+  "hashlock"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "sell"
+ ],
+ "summary": "Lets AI agents run non-custodial cross-chain OTC crypto trades using sealed RFQs, negotiation and HTLC atomic swaps.",
+ "whenToUse": "Use when an agent needs to request quotes, negotiate or settle cross-chain crypto swaps without a custodian.",
+ "tasks": [
+  "request sealed quotes",
+  "negotiate otc trades",
+  "execute htlc atomic swaps",
+  "trade across chains"
+ ],
+ "effects": {},
+ "flags": []
+}

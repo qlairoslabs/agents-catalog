@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "beca863c224f1f09ea9e1f85703a3bb1e19c3aaa91927c277099729fa8c88b38",
+ "domain": [
+  "finance/stock-research"
+ ],
+ "product": [
+  "returnolio"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only stock research with company scores, a monthly top 10 list, a screener and the user's portfolio.",
+ "whenToUse": "Use when researching stocks or reviewing a Returnolio portfolio.",
+ "tasks": [
+  "view company scores",
+  "get monthly top 10",
+  "run stock screener",
+  "view portfolio"
+ ],
+ "effects": {},
+ "flags": []
+}

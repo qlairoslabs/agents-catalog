@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4c9479a72eee0567f25cd07f3ccf464860c3e76a746cc93f3833180648288695",
+ "domain": [
+  "software/llm-observability",
+  "software/ai-evaluation"
+ ],
+ "product": [
+  "noveum"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Observability service to trace, evaluate and optimize LLM, RAG and agent applications.",
+ "whenToUse": "Use when debugging or evaluating an LLM or agent app and needing its traces and quality metrics.",
+ "tasks": [
+  "trace llm calls",
+  "evaluate rag and agent outputs",
+  "optimize ai app performance"
+ ],
+ "effects": {},
+ "flags": []
+}

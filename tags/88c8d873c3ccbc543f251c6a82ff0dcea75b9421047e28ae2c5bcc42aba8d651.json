@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "88c8d873c3ccbc543f251c6a82ff0dcea75b9421047e28ae2c5bcc42aba8d651",
+ "domain": [
+  "software/web-automation/browser"
+ ],
+ "product": [
+  "writ-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Reads, crawls and performs actions on websites using the user's signed-in sessions, and exposes sites as APIs.",
+ "whenToUse": "Use when an agent must read or act on a website that requires the user's login or has no API.",
+ "tasks": [
+  "read web pages",
+  "crawl websites",
+  "act on websites as the user",
+  "turn sites into apis"
+ ],
+ "effects": {},
+ "flags": []
+}

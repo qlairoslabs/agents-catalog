@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "b3cd2115ea53d843b1b7ddbee1dc4177769ecee189304c92047d16d7e259ad67",
+ "domain": [
+  "ecommerce/price-comparison",
+  "electronics/tablets"
+ ],
+ "product": [
+  "wotablet",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Compares current German prices for tablets across shops and links to buying guides and comparison pages.",
+ "whenToUse": "Use when a user wants the cheapest price or buying advice for a tablet in Germany.",
+ "tasks": [
+  "search tablet offers",
+  "filter by brand and price",
+  "find buying guides",
+  "re-check offer price"
+ ],
+ "effects": {
+  "ccfd605db66f6225332a447846c90f7944165592fedadbdf11faff53f1a5cb83": "write",
+  "0c1b0baa71b7d484913c060f8504f05ddce1144f19a3e961d11790fd543233df": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

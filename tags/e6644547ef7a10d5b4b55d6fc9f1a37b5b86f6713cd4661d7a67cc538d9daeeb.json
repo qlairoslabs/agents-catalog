@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e6644547ef7a10d5b4b55d6fc9f1a37b5b86f6713cd4661d7a67cc538d9daeeb",
+ "domain": [
+  "analytics/customer-feedback",
+  "product-management"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Groups customer feedback into themes such as feature requests, bugs, pain points and praise.",
+ "whenToUse": "Use when planning a roadmap, gauging user sentiment, or preparing voice-of-customer reports.",
+ "tasks": [
+  "identify feature requests",
+  "identify bugs",
+  "find pain points",
+  "collect praise",
+  "build voice-of-customer report"
+ ],
+ "effects": {},
+ "flags": []
+}

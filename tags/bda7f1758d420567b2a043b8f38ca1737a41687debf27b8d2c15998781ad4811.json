@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "bda7f1758d420567b2a043b8f38ca1737a41687debf27b8d2c15998781ad4811",
+ "domain": [
+  "software/ai-agents/mcp",
+  "software/api/graphql"
+ ],
+ "product": [
+  "apollo-mcp-server",
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance for setting up Apollo MCP Server to expose GraphQL operations as tools for AI agents.",
+ "whenToUse": "Use when configuring or troubleshooting Apollo MCP Server to connect agents to a GraphQL API.",
+ "tasks": [
+  "configure apollo mcp server",
+  "define mcp tools from graphql operations",
+  "use introspection tools",
+  "troubleshoot server connectivity",
+  "debug tool execution"
+ ],
+ "effects": {},
+ "flags": []
+}

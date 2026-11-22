@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "88ea824be8e6b2e0dcb78a60e15c5e187a1d85716861a23a139c50bff2d268c1",
+ "domain": [
+  "real-estate/community-associations",
+  "legal/regulations"
+ ],
+ "product": [
+  "common-elements"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Provides community association records, related statutes, licenses, RFPs and a change feed via OAuth or API key.",
+ "whenToUse": "Use when researching homeowner or community associations, their governing laws, licenses or open RFPs.",
+ "tasks": [
+  "look up association records",
+  "search statutes",
+  "check licenses",
+  "find rfps",
+  "follow change feed"
+ ],
+ "effects": {},
+ "flags": []
+}

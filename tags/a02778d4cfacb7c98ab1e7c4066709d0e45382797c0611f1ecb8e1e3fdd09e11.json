@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "a02778d4cfacb7c98ab1e7c4066709d0e45382797c0611f1ecb8e1e3fdd09e11",
+ "domain": [
+  "software/catalog-search",
+  "software/provenance"
+ ],
+ "product": [
+  "pulsegate",
+  "github",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a software catalogue with requirement checks and shows where a project's external identifiers came from and whether anyone has verified them.",
+ "whenToUse": "Use when an agent needs to find software matching requirements like having an API or MCP server, or check which repos and packages belong to a project.",
+ "tasks": [
+  "search software by name or task",
+  "filter by category, license, platform, pricing",
+  "assess met, unmet or unknown requirements",
+  "look up project identifiers",
+  "check identifier provenance and verification",
+  "list identifier platforms"
+ ],
+ "effects": {
+  "2fbb2d13f7816418ee67c25128ed94aa5003b6f2892f7d545e3c7b87abe82bcf": "read",
+  "50a353bffd0779edcd16c1dcf4f6fe70848464f53861753312e77d7e79752bed": "write",
+  "aa2b28777d93c202e149afdc806464f981a19a71912fd81d77e00f7e344149e5": "read"
+ },
+ "flags": []
+}

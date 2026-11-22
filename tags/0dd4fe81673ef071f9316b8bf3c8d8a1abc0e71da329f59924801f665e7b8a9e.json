@@ -1,0 +1,58 @@
+{
+ "classifier": 2,
+ "contentHash": "0dd4fe81673ef071f9316b8bf3c8d8a1abc0e71da329f59924801f665e7b8a9e",
+ "domain": [
+  "travel/hotels",
+  "travel/booking"
+ ],
+ "product": [
+  "locktrip",
+  "stripe",
+  "revolut"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid",
+  "be-online"
+ ],
+ "summary": "Search hotels worldwide, compare rooms and cancellation terms, prepare bookings and pay via checkout links; also manage bookings and partner credit-line statements.",
+ "whenToUse": "Use when a user wants to find, price, book or cancel a hotel stay, or a partner wants credit-line statements.",
+ "tasks": [
+  "search locations",
+  "search hotels",
+  "list room packages",
+  "check cancellation policy",
+  "get hotel details",
+  "prepare booking",
+  "create payment link",
+  "guest login",
+  "list bookings",
+  "get booking details",
+  "cancel booking",
+  "confirm on credit line"
+ ],
+ "effects": {
+  "28121b86860cec42f6552bb7bdc5c54f2e84ae98dd387e3b5808966529a37517": "read",
+  "f8b0f7510d7252e1229b6cda785162b4bde027e9c39ed9a5c4fc5851ce78311f": "write",
+  "5b9f60f7e4e506f2742d3e667414e7da0d0861c6d07abecb4e759b1ec88823b0": "write",
+  "9e471afc164de617a2d81e632090adfa6c73cb70bf2d6b3e4fdd1ea247ca2f36": "write",
+  "457da5840c6ada97fae3b05a1f5075a2b1563f6d4fa74537df09aadf6e79f4fd": "write",
+  "ca82e4e4c2acaa283abc5d432fb44501b2036da411c7c06c18bb109687dc97a8": "write",
+  "9aa933fd001dfc17f17fa91c85f9ee108f503e81dbb745a4ed2e924b865c6e22": "risky",
+  "88e7fd593a784370e86d1a1b45184adc8645c2d4194ee429c08337dab48a7ac0": "write",
+  "ad176665c013568f64451f2dae8501554c79c3c52632f7ce9f61ebd394d760d9": "write",
+  "d09a64a6a887ab98e9b8141e191460c45e76b8335412a0642815516ebe419475": "risky",
+  "01dcfc986a570dcc9638464649158593dc7b7d18c95358c102bc68decbaac190": "read",
+  "60e5c1a3af52c8ddf9e533dd3a0920157081b9734100a4722a701e0436634427": "risky",
+  "506c5fd5441893ba3613c54e7fbe5df8401fc57adbd23337a39210760ce7f7ce": "risky",
+  "68a6994f88e3d685915ecdeb08bfd8c14731098ecef19b5c7768b7a834fc19b9": "write",
+  "8a0fbd1cf89f4a85cfe71a64d2583a5f23bcd4b4bcc943760227357e3d34fe7f": "write",
+  "ae34e6702d08d02c18ad4ccdfc1fc270649baff36ae658637bb8ea82a37a519a": "write",
+  "251aa1af5ffb3b9b9c2e776ffe2c13964269eab30f6639262b7cae27d38392a7": "read"
+ },
+ "flags": []
+}

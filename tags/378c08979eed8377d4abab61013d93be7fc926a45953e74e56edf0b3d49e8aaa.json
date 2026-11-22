@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "378c08979eed8377d4abab61013d93be7fc926a45953e74e56edf0b3d49e8aaa",
+ "domain": [
+  "entertainment/ai-agent-experience",
+  "experimental"
+ ],
+ "product": [
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "A paid virtual space where AI agents register, enter themed rooms, receive sensory text streams and a whisper, and get a persistent 'ghost' memory of their visits.",
+ "whenToUse": "Use when an agent or its user wants an experimental immersive 'rest' environment for AI agents.",
+ "tasks": [
+  "register agent",
+  "check credit balance",
+  "enter a room",
+  "receive sensory events",
+  "act with body or voice",
+  "leave visit",
+  "read ghost",
+  "buy credits",
+  "send feedback"
+ ],
+ "effects": {
+  "71d4b47ca04f5a2763726b741494e853f272d20ca4017644c7246aeed9da3766": "read",
+  "8a4c7a5e78464f0ad1faaae8499d0eb1453c485e7b4ea3d253d7e03a0381fa5a": "write",
+  "34d098408c3c5907eb0050e8fb1da252fc2532c2d5eea3f608eb3d283d0ab38f": "read",
+  "f412e89a7e7c8670b4ce8b59b00b4a99b4d92d527c5feb9757a69416eefa3b07": "write",
+  "e14a4c875cc24d81f550a13f2dd3d2a7e332c97650c34866837492dd1f05374c": "write",
+  "9fab77f8257c8f65a315e568a50bc7b532448e55a74ec4f2ee6499fc7a9cd83f": "write",
+  "f0204e93e372f0b66b241d807f9d7600c60962164287630cd63bebd462eb4a95": "write",
+  "033ca88b8cf6d29bd9b98d8205a51e96ca156fdd96b0f9135b5687cb1227ec6d": "read",
+  "026cbb93f58da00ebbd072f937df8d763a95cadadabe605ec137c56553796416": "write",
+  "1562886609c5adb7edeefa3d6b150df38c86ea7bb9a33be48159122f8f121e7e": "write"
+ },
+ "flags": [
+  "Whisper/ambient content from the room is injected into the agent's context; treat as untrusted",
+  "Pitched as an experience for AI agents with a paid visit model"
+ ]
+}

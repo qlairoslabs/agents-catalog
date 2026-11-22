@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8d6e85871cee3bd5b7d067760bcb55176ea33d56cad15f60b7ac95fde416e3eb",
+ "domain": [
+  "software/testing",
+  "software/devtools"
+ ],
+ "product": [
+  "endform",
+  "playwright"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Finds failing, flaky and slow Playwright tests on Endform to keep test suites healthy.",
+ "whenToUse": "Use when investigating failing, flaky or slow Playwright tests run on Endform.",
+ "tasks": [
+  "find failing tests",
+  "find flaky tests",
+  "find slow tests"
+ ],
+ "effects": {},
+ "flags": []
+}

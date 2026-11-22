@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2e7f515354471d01ceb3c7304bb03a199faa099773a58d85e8484d0205571018",
+ "domain": [
+  "software/app-hosting",
+  "software/deployment"
+ ],
+ "product": [
+  "blitz-cloud",
+  "docker",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Deploys and hosts apps in the EU from an assistant, from an app store, Docker images, GitHub or raw code, with databases.",
+ "whenToUse": "Use when deploying or hosting an app or database in the EU via blitz.cloud.",
+ "tasks": [
+  "deploy apps from app store",
+  "deploy docker images",
+  "deploy from github",
+  "deploy code without github",
+  "create databases"
+ ],
+ "effects": {},
+ "flags": []
+}

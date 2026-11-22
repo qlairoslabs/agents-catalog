@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "435e345e8d9b35ed91d5d72ab02e056d285c336fc6eb9fbf332b53f88a7a9b22",
+ "domain": [
+  "design/diagramming"
+ ],
+ "product": [
+  "flowchartai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Creates, edits, saves and exports flowcharts in a FlowchartAI account via OAuth.",
+ "whenToUse": "Use when a user wants to build or modify a flowchart and save or export it to their FlowchartAI account.",
+ "tasks": [
+  "create flowcharts",
+  "edit flowcharts",
+  "save flowcharts",
+  "export flowcharts"
+ ],
+ "effects": {},
+ "flags": []
+}

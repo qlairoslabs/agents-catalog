@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "73985cc55fa81fdfc19b6bedae6a81e7dbec3c23c8f749d553a0751b7c30d70d",
+ "domain": [
+  "ai/mcp-gateway",
+  "software/workflow-orchestration"
+ ],
+ "product": [
+  "paichart"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Hub for discovering AI services, handling per-user OAuth and orchestrating workflows across multiple services.",
+ "whenToUse": "Use when an agent needs to discover and connect several services and run workflows across them.",
+ "tasks": [
+  "discover ai services",
+  "manage per-user oauth",
+  "orchestrate multi-service workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

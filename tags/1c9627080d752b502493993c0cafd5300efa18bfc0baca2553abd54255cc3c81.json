@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1c9627080d752b502493993c0cafd5300efa18bfc0baca2553abd54255cc3c81",
+ "domain": [
+  "it-services/on-site",
+  "freelance"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "get-customers"
+ ],
+ "summary": "Lets an agent request on-site human infrastructure help (logs, cabling, runbooks) from Ron Long near Irvine, CA.",
+ "whenToUse": "Use when delegated by a user to request physical or hands-on IT help in the Irvine area.",
+ "tasks": [
+  "list services",
+  "submit task request",
+  "check task status"
+ ],
+ "effects": {
+  "dc1c803d74a8b1b515c0a1212dcb66e58a40e9e129711188837501941980a9e3": "read",
+  "a080875f872c86cb06fbb5fa91d1584ea0f3d9a1284f47249f509f298066459c": "write",
+  "cd92376ca4d394985db4f38338f3f2de60be83d52729f8f0d81092a8bfe34e1d": "read"
+ },
+ "flags": []
+}

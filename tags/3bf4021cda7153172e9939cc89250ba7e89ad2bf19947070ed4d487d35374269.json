@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3bf4021cda7153172e9939cc89250ba7e89ad2bf19947070ed4d487d35374269",
+ "domain": [
+  "aviation/flight-tracking"
+ ],
+ "product": [
+  "flyitalyadsb"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live and historical aircraft tracking from an open ADS-B/MLAT network with an in-chat map.",
+ "whenToUse": "Use when a user wants to locate aircraft or review past flight tracks.",
+ "tasks": [
+  "track live aircraft",
+  "query historical flights",
+  "show live map"
+ ],
+ "effects": {},
+ "flags": []
+}

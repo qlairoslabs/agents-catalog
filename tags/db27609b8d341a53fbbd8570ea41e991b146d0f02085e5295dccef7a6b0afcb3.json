@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "db27609b8d341a53fbbd8570ea41e991b146d0f02085e5295dccef7a6b0afcb3",
+ "domain": [
+  "software/cloud/managed-databases",
+  "data/streaming"
+ ],
+ "product": [
+  "aiven",
+  "postgres",
+  "kafka",
+  "opensearch",
+  "clickhouse"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Deploys and manages Aiven-hosted databases and streaming services such as PostgreSQL, Kafka, OpenSearch and ClickHouse.",
+ "whenToUse": "Use when provisioning or managing a hosted database or streaming service on Aiven.",
+ "tasks": [
+  "deploy postgresql",
+  "deploy kafka",
+  "deploy opensearch",
+  "deploy clickhouse",
+  "manage services"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "1d69bda749a23d59503978158276d0a0b8b0bb1bbce7fccc0c4b8fdbf4cb9dbb",
+ "domain": [
+  "travel/pilgrimage",
+  "travel/camino-de-santiago"
+ ],
+ "product": [
+  "ourway"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Plan, price and request booking of Camino de Santiago trips: routes, stages, live hotel quotes, extras, transfers and a booking proposal link.",
+ "whenToUse": "Use when someone wants Camino de Santiago information, an itinerary, a package price or to start a booking.",
+ "tasks": [
+  "answer Camino questions",
+  "list routes",
+  "list towns along routes",
+  "plan itineraries",
+  "quote packages",
+  "find hotel alternatives",
+  "adjust package",
+  "swap hotels",
+  "change extras",
+  "list transfers",
+  "create booking proposal",
+  "check proposal status"
+ ],
+ "effects": {
+  "7d3f5d2dfd8c03e9d72224de6b63dc29a23205795fb0d6aa5a49c5abb516a50d": "write",
+  "58742fc03065e93668cedf6e96f2c570ea9e647c31707bc9a75ae1a13399377c": "write",
+  "46e66cb029a5a2258a7cfc8ce6f680d7570b83aa99a8b768e8644037a394f8d4": "read",
+  "9e823656c6ae0f975a5a3b3bd6e575193ac1a52e6ca962d2e86f61b00b6a5d4c": "write",
+  "b9a1360190fd099175ef0fbf1d00a33099439d732a3961042b643f8f9d2040b2": "write",
+  "3b9690468483f41c9df243c74876f6f5f47b58daff5f6f6ff57f8f743d57c79a": "write",
+  "44b75bc3eb7ec81b35af11c9771da9e966d43e3deb0e77bb70024a129f79336d": "write",
+  "5caa81ff7f359143ecdae4eb2c4d21b7a83228d852376724d936da8bf4a0e4fe": "write",
+  "f1596607a402354602bc2b009bb1963d4ca6ca05546589b73d1e2779f6728c99": "write",
+  "7eeac3be8a82db97c7aa0a29dda396acad85df4e51a387868601a88e70793a12": "write",
+  "04e90e10c53320d554d33ad56cf731413408c3967189a6cc63269a0a77d539e2": "write",
+  "13ca985065fee303e520f3e2ac68aab5ca2b603e9b46cc99743940e1ec1f2fad": "write",
+  "09838f23dbdf8823833522c891612d746d3ea656c5b555dfe668a98a2bb922d7": "write",
+  "8905db18c7f091243cabd0dfb0da9a01708d56b566b0761c07bb1c64b3a6c19a": "read"
+ },
+ "flags": []
+}

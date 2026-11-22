@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8409fc48b021cced36dd0d84e4c1b3e76aea13fd8b535d88e54d63bc850496e3",
+ "domain": [
+  "software/infrastructure-as-code",
+  "software/testing"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Tests AI-written infrastructure code on real virtual machines and iterates fixes until it runs successfully.",
+ "whenToUse": "Use when validating infrastructure or provisioning code against real VMs before deployment.",
+ "tasks": [
+  "run infra code on vms",
+  "validate deployments",
+  "auto-fix failing code"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0467cf76a019a4104fa5b3f0718075fce68abfd90d039cf76a657414ad1a546c",
+ "domain": [
+  "data/company-information",
+  "sales/lead-enrichment"
+ ],
+ "product": [
+  "companydata"
+ ],
+ "audience": [
+  "sales",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and enriches company data from official business registers across more than 200 countries.",
+ "whenToUse": "Use when verifying a company or enriching company records from official registries.",
+ "tasks": [
+  "search companies",
+  "enrich company records",
+  "look up registry data"
+ ],
+ "effects": {},
+ "flags": []
+}

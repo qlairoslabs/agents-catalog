@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2c8ca16ac7ad96b1906f593772b8302f8de7fd819094c299a0fb9a3964c982dd",
+ "domain": [
+  "travel/audio-guides"
+ ],
+ "product": [
+  "audiala"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Looks up Audiala audio guides for places and cities, with 45-second previews and trip planner links.",
+ "whenToUse": "Use when a user wants an audio guide for a landmark or what Audiala covers in a city.",
+ "tasks": [
+  "city overview",
+  "play guide preview",
+  "open trip planner link"
+ ],
+ "effects": {
+  "be58df7a433e2dc4c3a4f4b53bc58ec22fc545f1cee11389f8324abbb72333d1": "read",
+  "74af09aaa67a8722ca0f2f2d7adea62080224a5ddcdc15a43e65962e3301063c": "write",
+  "354855141c0631792ffcd2876f49147b9440b421e01fdd66d3b0ed82148e3782": "read"
+ },
+ "flags": []
+}

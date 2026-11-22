@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "671921a2e9eedc18c75bf6fc8327e989767a6d7704607196eb6d4338820d72ae",
+ "domain": [
+  "software/webhooks",
+  "software/developer-tools"
+ ],
+ "product": [
+  "webhook-studio"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Keyless webhook endpoints that capture, wait for, replay and forward requests and generate types from traffic.",
+ "whenToUse": "Use when testing or debugging webhook integrations and inspecting incoming payloads.",
+ "tasks": [
+  "create webhook endpoints",
+  "capture requests",
+  "wait for webhooks",
+  "replay requests",
+  "forward requests",
+  "generate types from payloads"
+ ],
+ "effects": {},
+ "flags": []
+}

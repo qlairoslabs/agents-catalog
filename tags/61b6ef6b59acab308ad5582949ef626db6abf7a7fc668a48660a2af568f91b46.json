@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "61b6ef6b59acab308ad5582949ef626db6abf7a7fc668a48660a2af568f91b46",
+ "domain": [
+  "analytics/product-analytics/charts"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Explains how to build Amplitude charts with the typed chart parameter of query_amplitude_data, covering events, filters, segments and chart kinds.",
+ "whenToUse": "Use when creating, modifying or forking an Amplitude chart, or when a query returns empty data.",
+ "tasks": [
+  "build segmentation charts",
+  "build funnel charts",
+  "build retention charts",
+  "build session charts",
+  "set filters and group-bys",
+  "fork saved charts",
+  "debug empty query results"
+ ],
+ "effects": {},
+ "flags": []
+}

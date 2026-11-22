@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "131b4d2b3d2d31a695bc7e05a6ab2d65c4ef654c1bac8d580906225dced020ab",
+ "domain": [
+  "travel/accommodation",
+  "travel/holiday-parks"
+ ],
+ "product": [
+  "total-parks"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Read-only search and assessment of Australian holiday parks, caravan parks and campgrounds, including availability, pet policies, rig fit and quotes.",
+ "whenToUse": "Use when planning a stay at an Australian caravan or holiday park and you need availability, pricing, pet or rig checks.",
+ "tasks": [
+  "resolve park names",
+  "search parks and stays",
+  "list filter options",
+  "assess a stay",
+  "get room details",
+  "view availability calendar",
+  "get park policies",
+  "check rig fit",
+  "check pet blockouts",
+  "render result cards"
+ ],
+ "effects": {
+  "ce15c8b8914b816f8990defb43733083bfb45e2dedf84c756e4536086bec0ccb": "read",
+  "15f5a81642016cacdbb3e239fdd8326e6bec66d12352fd3a8166827e966f63d0": "write",
+  "2132e6b76044c60ed20b1ae6e6d1df5368bd43f8e1073a51649ec0f29b4ce3b2": "write",
+  "68b08cf6ca0b02add76c1f471fa931ffc5efdf954a75a28d861bb696e45da263": "write",
+  "988d50db3abd9eccfa9234a795e680c75e65df7582fdc96bacb59c6eaad43704": "write",
+  "ab1cd89cebdcb4ba3f17cd4fcc3de3d46a0e929f155e05cd965139112139b513": "write",
+  "121d323f98c46af5965be5c1d702fbadb9f486ec289903dd8b84efafcbc296c2": "write",
+  "1e97127f84b59007a8733ad9b57bfc156db7a52b746622e8d25fe3944878162e": "write",
+  "837f092803199d49b64dfb4eee13832fa3c761ffeb7385bcf2af1e65da8ac773": "read",
+  "10eacd7553dfb43ab02741331a1afefe378e830720b7aca6ee678292aa92a0b4": "write",
+  "02310162a4ff2b630750dabe169fea32faa168966ed8b0e9c5b919995c8d0ebc": "write"
+ },
+ "flags": []
+}

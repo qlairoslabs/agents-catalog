@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "4f68fec55ff4ce16aeae78b315d1eb7f495efa725c9569faaf43785e810ee37c",
+ "domain": [
+  "manufacturing/3d-printing",
+  "repair/electronics"
+ ],
+ "product": [
+  "printables",
+  "thingiverse",
+  "bambu-studio"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "UK 3D printing quotes for catalogue models or user files, mail-in electronics repair prices, and order and repair status lookups.",
+ "whenToUse": "Use when someone in the UK wants a 3D print priced, a console or controller repair matched, or an order or repair status checked.",
+ "tasks": [
+  "search printable models",
+  "quote catalogue model",
+  "quote uploaded file",
+  "get upload page",
+  "get service info",
+  "match repair service",
+  "get repair policies",
+  "check print order status",
+  "check repair status"
+ ],
+ "effects": {
+  "aa7ace122906ff5cbcb13554437a1935154d16cceb1ba3cb4ab9df9129d6c85a": "write",
+  "85a7be9500f41fd7acdb73961e5c394336051796546c628cbbeb28e712e435a7": "write",
+  "feda3e16ff897f91c4643d3eef84114cd703a296f9dc91cfcd3dad548efcd150": "write",
+  "88bde680d62e0f83958ced2ec2a889cbb48f01da2a1b9321b7b8690d518de5b0": "read",
+  "909944670e57e6b22598ed22b0f7033831c2e564e0d81dc8b1e978d443517620": "read",
+  "30468a4190d0427af3a6f062091e7a18fb30d3de690b77acf34e38d95e20bd4e": "write",
+  "7a90268319823e6d9eab305346ce2414c3d6f757115d032e057a561ea6e3cb59": "read",
+  "f4c308bf40c8b7516261585eb67722705f4df03068b6851e3eff040c015920ff": "write",
+  "908904845c29dd58572cbf384db452036ed55a825611f54def15e011def13f87": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0a885cb4ec3181c43009ee3074330bcdf443fa94b27aec1f5146b83fa8b69060",
+ "domain": [
+  "marketing/ad-creative",
+  "media/image-generation"
+ ],
+ "product": [
+  "nativeads"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Generates ad creative images and videos based on stored brand profiles and uploaded assets.",
+ "whenToUse": "Use when a user needs advertising images or videos produced in their brand's style.",
+ "tasks": [
+  "manage brands",
+  "define brand dna",
+  "upload assets",
+  "generate ad images",
+  "generate ad videos"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,87 @@
+{
+ "classifier": 2,
+ "contentHash": "eb22cf1965b82b65c1194042c6e04803c1a019e6fdafc768c1f8b22d4521e8e2",
+ "domain": [
+  "finance/crypto",
+  "software/cybersecurity",
+  "compliance/aml"
+ ],
+ "product": [
+  "bitcoin",
+  "lightning-network",
+  "base",
+  "x402",
+  "ofac"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Bitcoin and Base intelligence service: free OFAC sanctions screen, plus paid address risk, AML patterns, whale flows, fee estimates, block and transaction data and address watches.",
+ "whenToUse": "Use when vetting a Bitcoin or EVM address against sanctions, checking transaction status or fees, or monitoring large flows and laundering patterns.",
+ "tasks": [
+  "screen address for sanctions",
+  "score address risk",
+  "batch screen addresses",
+  "estimate fees and plan CPFP",
+  "check transaction status and ETA",
+  "decode transactions, PSBTs, scripts, invoices",
+  "check outputs and Merkle proofs",
+  "track whales and AML cases",
+  "check Base tokens and wallets",
+  "watch an address",
+  "open prepaid budget"
+ ],
+ "effects": {
+  "b0fabeaf67a54d7b514b526a361827072d22f4f977681ef35dd2425bbeeb04c2": "read",
+  "437aea3af4ee5b36d2860ce68503c7226627e9b39e0a7988bc1d2e79af625f0b": "read",
+  "7447d74c20548b2fc738d5fe4d18c9413febc358ac6924ee9c75a5dfcb8275bf": "read",
+  "45b2721a17f1495520c10400608b0b17fc59c67241d02c90ef426f7c799619fe": "read",
+  "9c23dc8d382214e17c13141ad6b955d7fee887718647403fc1d83e2d36cc9ed2": "read",
+  "938d02187e4ca3760f62b1b9f5d424e345b77e6c454816c38d5c3934cc93cdf8": "write",
+  "f2042f3d80d15610504d81367dc7ecac69797a5809359f0542236f9e875b6e40": "read",
+  "7481df679295c14ab16dac8387d7365f2ccea54d09dcb0d8de026f1ef675e3f8": "read",
+  "e2478c2625bc084e310653ddd5daa8ed4d62beec1306a818303246dbbf6b1fbd": "read",
+  "54fac1e6c4136bcd0fe5fb404be6d4343777af4609e8002b48d4f49149b87e04": "read",
+  "c9d8fd392a2619629eaa4ed19c75ae381da85d12359cd1d90a263966ccbceb7f": "read",
+  "9c1e0382b4d17f622046411c95f7bbca2ba1d58436537daf8c8c3cee20bcb586": "read",
+  "4ca846c8e578916bcd4aeb4ed7dafe30ac1968b571ffb3a1af774ab7c97e4bd3": "read",
+  "418a0c80afd64d7150a493eb09712b27e73dc501b0281f35ea17dc2331f0a33a": "read",
+  "9081b471f89a303e6402f5ab9294798fd4205f41ad50c4612e7f5c4185c71334": "read",
+  "9f3f4aa97d72e222c8c423b5d726371391d25dff30956aa4ca9032a434db03bc": "read",
+  "4295d75f3b1d51ffa745f88f3e4284047a7c2cf27e5120be9e84725d151bddec": "read",
+  "b7bfea47c8929ade7e19011570a05651ece7c7bb05fb72c72e48de179508ca81": "read",
+  "748d5b91752a7a60ac4cc76f454d27363bee544aa5e4669439897041e3860e4a": "read",
+  "3938f6c1d081b7f689bd9737a1d80f5e7c38c6cccb34e3b2132cf571ac72ab63": "read",
+  "8f721cc9e13f69af9eeb08c3ced4d629541e7c82482cc204819d06d75bfd7abd": "read",
+  "7619b39981b50278692a24e4d5790676c0d2627182276065af0de58ca027a121": "read",
+  "c7f73f0f8e8d6188ae7a8af4ae7e8d78aaad4017193306fe6e2275fc5f281735": "read",
+  "a6674e6c1a8f60235c02142316955452e72b793dc4b8b162db54f5d8c9a87843": "read",
+  "5d6c21ecbb40298d970415c17cbeebe0483a472fb8bfb42ec090f01206c9b832": "read",
+  "2701a5c1fd860716ca5c891715862fb7f38a3272297b64e617356ad65d73d228": "read",
+  "bf37239ac37dc476fb34325645763995feb1edaa5b04b624753f103642ab8a23": "read",
+  "f5c9886ceb84c0a1f27baef1568f751fecc6ff281edf6fd938438b9e353fb99c": "read",
+  "d6d62b811bc12cd7a182c910ddd8b045101ffd8421ae86a4a453fc569dddb6a9": "read",
+  "8f44597497fbe4a742849c40e1702da1d00b3007404902cd9acafa8ae8797820": "read",
+  "549fae484e405fa0ae5595a50f16f1dd420e70b8141af75f7b6f1ca13443badd": "read",
+  "cf73d4e59cdefb599130c99721219b9894ede6cb49743e6565f26e1746ab61e4": "read",
+  "d12a453e86b61bdabccd322a050d40794eea1a06f980372e038a0194ae300fbb": "read",
+  "81be05174e47f868d2cd37877ee9250749c8e47aa546f2f41a6a8118440be037": "read",
+  "5f2544cf0e943c3d3c4c7aeaafcf03e73857e96c90b284041052c0081416ead0": "read",
+  "743e7fc203f427f8b7dbba9a9b5b02c08ea1da91743fd693357c6d98cb0f225e": "read",
+  "855f0be91051fe2ab80327de73a53e0bb65d4a6d59076c7561697fac12235407": "read",
+  "46a30e2c2aab0a25d3225be81c077c26e7d3972f009b438cc605031ddc2af67d": "read",
+  "86119e98c7268b969e16e54bed3c2604e63d9aef43dbb85b1cdacd05e5b6d895": "read",
+  "50d7f494537f293e3baf7bef1cf564e5ca8f2f14bd5c8b79d4ae01cd418d7581": "write"
+ },
+ "flags": [
+  "most tools charge per call (x402 USDC or Lightning); prepaid budget tokens involve payments",
+  "publisher is hosted on a Tailscale (ts.net) domain, unusual for a public service"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "2a53cbf1a8b7446ef091c571ec2effd67905d7cead03e6c52f529626b0089a9e",
+ "domain": [
+  "science/scientific-computing",
+  "science/quantum-simulation",
+  "science/chemistry"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "sympy",
+  "scipy",
+  "qiskit",
+  "cantera",
+  "coolprop"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Pay-per-call scientific compute: symbolic math, numerical methods, quantum circuit simulation, thermochemistry and ODE solving, paid in USDC via x402.",
+ "whenToUse": "Use when an agent needs exact symbolic math, numerical solving, small quantum simulations, chemistry properties or ODE solutions and accepts per-call USDC charges.",
+ "tasks": [
+  "list operations and prices",
+  "symbolic integration and solving",
+  "root-finding and optimization",
+  "eigenvalue computation",
+  "simulate quantum circuits",
+  "compute flame temperature and equilibrium",
+  "solve ode systems"
+ ],
+ "effects": {
+  "35d85de25a28b3ad7752a0df6b7b58abbce5c846617dd16e6c49504c676f3834": "read",
+  "297ae520732fd3dd19948285246279b41f12d849ff151e0850a3dc437237e006": "risky",
+  "3faab9ec6598a493febc34fc127f94c35fb6ad2a2e74c1083ed263f09f64c4cc": "risky",
+  "ae34e9289ac605e822f3da88f13bfcbbb92014d20a0f68277253b2ce43f39dac": "risky",
+  "22610726c4efe5f710ae5d39d1a7bdb0babbb676928b5d574e05213a8bb4db49": "risky",
+  "95f19a6f593e549b2a00c8039b2efb8ad4570af367b08969b0c1d3eee542220b": "risky"
+ },
+ "flags": []
+}

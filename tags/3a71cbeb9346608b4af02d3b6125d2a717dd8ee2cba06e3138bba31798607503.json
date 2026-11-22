@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "3a71cbeb9346608b4af02d3b6125d2a717dd8ee2cba06e3138bba31798607503",
+ "domain": [
+  "operations/field-verification",
+  "operations/crowdsourcing"
+ ],
+ "product": [
+  "huint"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Hosted connector for creating and managing real-world photo verification tasks on Huint.",
+ "whenToUse": "Use when an agent needs someone to verify a real-world location or item with photos.",
+ "tasks": [
+  "create photo verification tasks",
+  "manage tasks",
+  "view verification results"
+ ],
+ "effects": {},
+ "flags": []
+}

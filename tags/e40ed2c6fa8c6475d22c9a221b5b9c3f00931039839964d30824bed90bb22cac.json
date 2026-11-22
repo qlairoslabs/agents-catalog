@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "e40ed2c6fa8c6475d22c9a221b5b9c3f00931039839964d30824bed90bb22cac",
+ "domain": [
+  "data/elections",
+  "government/public-data"
+ ],
+ "product": [
+  "insee",
+  "duckdb"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Query French election results from 1999 to 2026 by polling station, with INSEE socio-demographics, elected officials, maps, charts and SQL.",
+ "whenToUse": "Use when analysing French electoral results, turnout, candidates or local demographics.",
+ "tasks": [
+  "query election results",
+  "compare elections",
+  "search candidates and elected officials",
+  "profile polling-station demographics",
+  "generate election maps",
+  "simulate list mergers",
+  "run read-only SQL",
+  "build charts",
+  "export data"
+ ],
+ "effects": {
+  "17f19d02e865e751dc74c81208b97fe80bbe1b526fd9bbb7602b4e21c03846ec": "write",
+  "655a598a5194cb9887ae7f88729e3580e08beec2abdb8d59ebaffeb957d9e544": "read",
+  "b158efe24dcd21f4a634225d7ffaff7e1d09c28dd2033ef65ee46da80bb56451": "read",
+  "7d11f73a7d6d6f9c89a1df14d994610c2f74de553c14c55608ba39bafdfef29b": "read",
+  "5049498ffbe2be10eaa8fa8c16d3b3bcd16b90131ce0507c25dae1eabad58132": "read",
+  "be80ef359aeb5490fdd67cb3e533d6f51768c9fc43ae179b93e767f73c567ef1": "write",
+  "bb40ad19031a7c38ff4f138321e1b1a60e44d657fbf08ae39f8029c0335c90f2": "read",
+  "16deb03870ec5a0fd1ad038a805a8c31de03731b127a304d25c318c4c151cb27": "write",
+  "74b2d3ae0523b37f83facd8f90506104307f0a44f3107ef644d7b132a44ba8f3": "write",
+  "d77fc8a49876ea4dcec65bea378fef80fca0dbc134685bfb32ee8ff562ccb9a5": "read",
+  "187217ede577dbd8edb58cd31048cc3b4b9bdb37bc3ff36bfe49e6d27e2e4dd6": "write"
+ },
+ "flags": []
+}

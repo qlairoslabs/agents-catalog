@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9e3dd8b49b2005c97b8ade0245895078e53488448b4c71509bf184bf268f072e",
+ "domain": [
+  "sales/conversational-sales",
+  "marketing/social-media"
+ ],
+ "product": [
+  "cloziq",
+  "instagram"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Create sales offers and launch AI agents that sell through Instagram direct messages, authenticated via OAuth.",
+ "whenToUse": "Use when an agent needs to set up offers or deploy automated Instagram DM sales agents in Cloziq.",
+ "tasks": [
+  "create offers",
+  "launch instagram dm sales agents"
+ ],
+ "effects": {},
+ "flags": []
+}

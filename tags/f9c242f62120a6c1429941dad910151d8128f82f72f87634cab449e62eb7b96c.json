@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "f9c242f62120a6c1429941dad910151d8128f82f72f87634cab449e62eb7b96c",
+ "domain": [
+  "energy/solar",
+  "energy/battery-storage"
+ ],
+ "product": [
+  "enerviapower"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Sizes backup and off-grid solar and LiFePO4 battery systems for Iran, suggests Enervia Power products and searches Persian guides.",
+ "whenToUse": "Use when a user needs to size a battery, inverter or solar setup or find Enervia products and articles.",
+ "tasks": [
+  "calculate battery and inverter size",
+  "count solar panels",
+  "suggest products",
+  "list load templates",
+  "list product catalog",
+  "search articles",
+  "get contact info"
+ ],
+ "effects": {
+  "5c07bbe009d63744822cd071f4f00486ac996c99d52de1c4b5bdda69b1973ae5": "read",
+  "e113e3d6a799411cb64543fa13c7ded7024f1e8d82496181ea08cde42cb44370": "read",
+  "ee166c36001328095237cbba9d95e7112948d0a0bc3cc43c13ec63771287ec92": "read",
+  "4485ef37d3f8377172f0e9ed4103c6311780050f48d62e2d4ddb19090c1c5b4e": "read",
+  "1ac4ad6c77abe99e944821bb91d81ed8037bfd7ca506b72035628485e5484609": "read",
+  "f8923ec732835d615e5116d3d5f5ddac6a84e248b23d4b2caf92ebcfceffdfc7": "read"
+ },
+ "flags": []
+}

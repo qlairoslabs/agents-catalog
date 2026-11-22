@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "fddc51d394e9f3d6dce3ffcab2cccd7f97c8918ba8456f47b563260b88c83887",
+ "domain": [
+  "software/testing/browser-automation"
+ ],
+ "product": [
+  "selenium"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "MCP server exposing Selenium WebDriver browser automation tools.",
+ "whenToUse": "Use when an agent needs to drive a real browser for testing or automation via Selenium.",
+ "tasks": [
+  "control browser",
+  "automate web ui tests"
+ ],
+ "effects": {},
+ "flags": []
+}

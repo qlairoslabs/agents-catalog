@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "154de8b816bd38fa960b2b35a5f26eace3b45ff25bbb82c344957f0e7dece57d",
+ "domain": [
+  "marketing/seo-geo",
+  "web/site-audit"
+ ],
+ "product": [
+  "chatgpt",
+  "perplexity",
+  "google"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Estimates how visible a brand is in AI assistant answers and audits whether a website is ready for AI agents.",
+ "whenToUse": "Use when assessing a brand's AI search visibility or a site's agent readiness.",
+ "tasks": [
+  "estimate brand AI visibility",
+  "list competitors",
+  "suggest fixes",
+  "audit agent readiness",
+  "check llms.txt and structured data"
+ ],
+ "effects": {
+  "1c5df26ac9e38b4fd2517ad871f4be0ffc47afffcac2f8a573c99d6d0823bd81": "read",
+  "e49c036efbd55cfd0b4769b342e0a80b91eb73b0c54e7b085b403007e0a11308": "read"
+ },
+ "flags": []
+}

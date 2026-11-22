@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "051d1bb082f557903bac7a2696a482f0126b7d6395960e02d4614f7786ca319b",
+ "domain": [
+  "telecom/business-internet",
+  "sales/fiber-ordering"
+ ],
+ "product": [
+  "stealth-communications"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "sell"
+ ],
+ "summary": "Check NYC building fiber availability, read pricing, prepare quotes and place customer-approved Dedicated Internet orders or manual availability inquiries.",
+ "whenToUse": "Use when a business needs dedicated fiber internet at a New York City address and wants pricing, a quote or an order.",
+ "tasks": [
+  "check building availability",
+  "read pricing",
+  "prepare signed quote",
+  "place order",
+  "prepare availability inquiry",
+  "submit availability inquiry"
+ ],
+ "effects": {
+  "a150d9dcd058360a235c09a063da54fe3ca0391945e4a7b2c21677cc7c82ee26": "write",
+  "38f845162a10c9991f42106c56221083dc5b80811c3aae4681394c3d2fc2dac0": "write",
+  "2ba2e1ba4dd8e84031ebe0ccb3740daf8ae595d719ad1aa13844754f1a66df4b": "write",
+  "b9fc954276920b4378e5a51971b889ec049b860f154126f77ba7c56d13bc027d": "risky",
+  "fae23aed1380ffbed2a296d97f827322208d39bc639d2b5c96a168373d090b44": "read",
+  "cca11fd05457f479e2459dc7be048f66a0c0f7253697d98b069d80fa261c9a24": "write"
+ },
+ "flags": []
+}

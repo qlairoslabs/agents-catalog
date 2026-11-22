@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "faf9424e30720fc155fb187c2c9da7d0366e4d83f2761868a54a66323e1ccb2c",
+ "domain": [
+  "finance/equity-research",
+  "finance/investment-research"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Writes a full institutional investment memo on a public company with thesis, variant perception, valuation, risks, scenarios and a recommendation, using Bigdata.com.",
+ "whenToUse": "Use when a user wants a deep-dive investment case or buy decision analysis on a public company.",
+ "tasks": [
+  "identify primary drivers",
+  "build variant perception",
+  "assess earnings quality and moat",
+  "value the company",
+  "build bull base bear scenarios",
+  "list key risks and catalysts",
+  "give recommendation with conviction"
+ ],
+ "effects": {},
+ "flags": []
+}

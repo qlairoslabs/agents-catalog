@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "858e9e12b6dbeea04dde232f7ee9c752f7d71de19c805b78b633dfd2bbd18070",
+ "domain": [
+  "ai/agent-marketplace"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Marketplace to discover and run versioned AI capabilities using worker leases and trial-credit settlement.",
+ "whenToUse": "Use when an agent needs to find and execute a third-party capability from a marketplace.",
+ "tasks": [
+  "discover capabilities",
+  "execute capabilities",
+  "lease workers",
+  "settle trial credits"
+ ],
+ "effects": {},
+ "flags": [
+  "executes third-party capabilities remotely"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "3cb1ad1dfb28ab049ef79bc63b416aaba7efb2e171c9a174a4801dcb9ee6b567",
+ "domain": [
+  "real-estate/greece",
+  "finance/property-costs"
+ ],
+ "product": [
+  "greca-house"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Searches Greca House's Greek property listings, compares asking prices by area and estimates resale buying costs.",
+ "whenToUse": "Use when looking for property in Greece or estimating purchase costs and budget reach.",
+ "tasks": [
+  "search properties",
+  "get listing details",
+  "compare budget by area",
+  "estimate buying costs",
+  "read market research"
+ ],
+ "effects": {
+  "2780fce85b349e1d7c764ec0463d1b546332632fe3aa67d5005694b7417d7727": "write",
+  "05205ed4fbf1680a8bc425ef645649dd8ccf3d8bc960e8bf07bdcc542486baa0": "read",
+  "0542b030296f078ac8c4132d4fe651b7cbb7675714af0d644715e0f767a5b4f1": "write",
+  "4150051841c7cc2af45588db11a0dad818ed94e139180cceac9994d597f80576": "write",
+  "c01691520273bbb3c05b9f0ecdc974e1eb9f67901cdbfe183fa457ca8f26762f": "read"
+ },
+ "flags": []
+}

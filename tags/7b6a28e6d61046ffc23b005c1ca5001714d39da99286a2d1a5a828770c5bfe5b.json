@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7b6a28e6d61046ffc23b005c1ca5001714d39da99286a2d1a5a828770c5bfe5b",
+ "domain": [
+  "data/orchestration/airflow",
+  "data/pipelines"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Workflow and best practices for writing new Apache Airflow DAGs or extending existing ones.",
+ "whenToUse": "Use when creating a DAG, writing pipeline code or adding downstream tasks to an existing DAG.",
+ "tasks": [
+  "create new dag",
+  "write pipeline code",
+  "apply dag patterns and conventions",
+  "add downstream tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a46b59f313b1741a9b6dd24b73392f313c9bdd411a556707ab38b2e77002569b",
+ "domain": [
+  "finance/bookkeeping",
+  "documents/conversion"
+ ],
+ "product": [
+  "mainbook"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Converts PDF bank statements into Excel, CSV or JSON with balance validation.",
+ "whenToUse": "Use when the user needs bank statement PDFs turned into structured, balance-checked data.",
+ "tasks": [
+  "convert pdf statements to excel",
+  "export csv",
+  "export json",
+  "validate balances"
+ ],
+ "effects": {},
+ "flags": []
+}

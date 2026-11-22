@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "f9fc6afd89f49e35ca8b126532ab1c33b76234eea0715bb46b0b723fd5865180",
+ "domain": [
+  "business/company-data",
+  "compliance/vat-verification"
+ ],
+ "product": [
+  "nipregon",
+  "krs",
+  "regon"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Looks up Polish companies via KRS and REGON data, checks the VAT white list and retrieves financial statements.",
+ "whenToUse": "Use when verifying a Polish business's registry details or VAT white list status.",
+ "tasks": [
+  "look up company",
+  "get krs data",
+  "get regon data",
+  "check vat white list",
+  "get financial statements"
+ ],
+ "effects": {},
+ "flags": []
+}

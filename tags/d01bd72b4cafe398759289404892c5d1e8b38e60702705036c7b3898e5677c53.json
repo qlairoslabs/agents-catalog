@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "d01bd72b4cafe398759289404892c5d1e8b38e60702705036c7b3898e5677c53",
+ "domain": [
+  "food/restaurant",
+  "travel"
+ ],
+ "product": [
+  "tablecheck"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Lists omakase courses at a Tokyo sushi restaurant, recommends one by budget and builds a pre-filled TableCheck booking link.",
+ "whenToUse": "Use when a guest wants course info, a recommendation or a booking link for Oku-Akasaka Sushi Tanji.",
+ "tasks": [
+  "list courses",
+  "recommend course",
+  "get booking link",
+  "answer restaurant FAQ"
+ ],
+ "effects": {
+  "4263126711f32de201664ab0528e9dd5232e25bb17f04d7a25b6bbeeb6f198a9": "read",
+  "e4230690a928d33255940b64861d3e7f696aecdfef25b27e952712061ad45923": "read",
+  "0db9588d7934b70e91e857300fb7f6c90d64305d65316caf61c166bfde8abe38": "read",
+  "97997d215df12f6315be62a3aaebd8119ee647a3c3ad822f4502a1bd50bef38d": "read"
+ },
+ "flags": []
+}

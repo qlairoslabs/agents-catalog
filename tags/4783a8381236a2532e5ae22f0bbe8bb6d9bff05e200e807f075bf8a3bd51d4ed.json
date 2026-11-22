@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4783a8381236a2532e5ae22f0bbe8bb6d9bff05e200e807f075bf8a3bd51d4ed",
+ "domain": [
+  "media/video-generation"
+ ],
+ "product": [
+  "growingupvideo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Explains the GrowingUpVideo service that morphs photos across the years into a video, gives photo tips and a link to start.",
+ "whenToUse": "Use when a user wants a tribute or birthday video from old photos.",
+ "tasks": [
+  "describe offer and prices",
+  "advise on photo selection",
+  "provide start link"
+ ],
+ "effects": {
+  "d449f41f3ff39ae4e48156d7bbe2c7a00d26965c8dfc477efbc16e56350fd0e9": "read",
+  "e20bc10446a0e8717c9c2f94ea628dab3aaf2df93857ba19490763244641b2ea": "read",
+  "6df6848b02318e974f232b73c5e44d7258c92ee2a07e42ee15dae9166951d190": "read"
+ },
+ "flags": []
+}

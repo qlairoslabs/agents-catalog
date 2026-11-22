@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a9c700e186c90dd59e75d1f605797fc9add1f47f8a622367d551f5355d3e3018",
+ "domain": [
+  "hr/job-search",
+  "data/job-listings"
+ ],
+ "product": [
+  "jobven"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches job postings and employers gathered from company career sites, returning the matching REST call for each result.",
+ "whenToUse": "Use when a user wants to search job postings or employers from company career sites.",
+ "tasks": [
+  "search job postings",
+  "search employers",
+  "get rest api call"
+ ],
+ "effects": {},
+ "flags": []
+}

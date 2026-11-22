@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b6460b4aacb2607ff08345ea46d1730c35dec846d63ffafb82ceb3c1990abeef",
+ "domain": [
+  "content/ai-media-generation",
+  "design/image-editing"
+ ],
+ "product": [
+  "made"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates and edits images and video through MADE, with a model catalogue and per-job pricing.",
+ "whenToUse": "Use when the user wants to create or edit images or videos with AI models and see job costs.",
+ "tasks": [
+  "generate images",
+  "edit images",
+  "generate video",
+  "edit video",
+  "browse model catalog",
+  "view job pricing"
+ ],
+ "effects": {},
+ "flags": []
+}

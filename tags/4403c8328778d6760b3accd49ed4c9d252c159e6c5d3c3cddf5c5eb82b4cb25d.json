@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "4403c8328778d6760b3accd49ed4c9d252c159e6c5d3c3cddf5c5eb82b4cb25d",
+ "domain": [
+  "data/databases",
+  "enterprise/erp"
+ ],
+ "product": [
+  "sap-hana",
+  "sap-hana-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Large toolset for querying and administering SAP HANA Cloud and on-premise databases.",
+ "whenToUse": "Use when querying, moving data in, comparing or administering a SAP HANA database.",
+ "tasks": [
+  "query tables",
+  "import data",
+  "export data",
+  "profile data quality",
+  "compare schemas",
+  "manage backups",
+  "monitor performance"
+ ],
+ "effects": {},
+ "flags": []
+}

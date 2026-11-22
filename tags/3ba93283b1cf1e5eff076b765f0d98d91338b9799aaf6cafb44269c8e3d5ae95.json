@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3ba93283b1cf1e5eff076b765f0d98d91338b9799aaf6cafb44269c8e3d5ae95",
+ "domain": [
+  "entertainment/trivia",
+  "education/quizzes"
+ ],
+ "product": [
+  "quizbase"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Trivia question database with over 1.4 million English and Polish questions across 24 categories.",
+ "whenToUse": "Use when building quizzes or games that need trivia questions in English or Polish.",
+ "tasks": [
+  "search trivia questions",
+  "get questions by category",
+  "get random questions",
+  "build quizzes"
+ ],
+ "effects": {},
+ "flags": []
+}

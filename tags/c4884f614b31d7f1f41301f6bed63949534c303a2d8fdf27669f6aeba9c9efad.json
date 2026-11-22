@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "c4884f614b31d7f1f41301f6bed63949534c303a2d8fdf27669f6aeba9c9efad",
+ "domain": [
+  "health/product-testing",
+  "consumer-products"
+ ],
+ "product": [
+  "laboratory-love",
+  "plasticlist",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Lab results for phthalates and bisphenols in consumer products, plus crowdfunded and paid testing via Stripe checkout links.",
+ "whenToUse": "Use when someone asks whether a product has been tested for plastic chemicals or wants to fund or order testing.",
+ "tasks": [
+  "search test results",
+  "get full result",
+  "list analytes",
+  "search crowdfunding",
+  "get funding status",
+  "create contribution checkout",
+  "list testing tiers",
+  "create testing checkout",
+  "check checkout status"
+ ],
+ "effects": {
+  "9c5cc77cebb2973c7dba6a2e2466f738db9afff9cafc5ce01ee15ac76ca0610f": "read",
+  "4dab886c0bc5dc6de9e2ab5a7c7367c2a41f420703b2ebc46b9d607055d41ace": "read",
+  "7662b340522fe379ac4d9b233f32f9fcb057fb2ffc73eb5f29a16def357b58c2": "read",
+  "d7823284f8f765a0a5f9e697b9456479b04aa054ce1227274b49d74a5761ffeb": "read",
+  "eadd18d107e9bbf75bd8e8553e6d942914b79e5b37be7a0e2aa75f5ad7a7e68a": "read",
+  "750c1a4fd176732f7ec2c59e02bfab46c74b2482810a8e643db4b6dfeec4ea9b": "write",
+  "fa93a86998d7431abb18dd04098d6bf14c32016a750b3cad8cc9e4d47c94ddc2": "read",
+  "99f9a4ff1a678c005a8ea8c70d425fdb6c15dc269fcba971b79aaf476a8f6030": "write",
+  "4201ef29a6ca47d3537271202cb687f78cdddfe1482af41f55862f8bb64fe937": "read"
+ },
+ "flags": []
+}

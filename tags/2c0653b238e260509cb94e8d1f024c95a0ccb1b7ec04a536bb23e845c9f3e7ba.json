@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2c0653b238e260509cb94e8d1f024c95a0ccb1b7ec04a536bb23e845c9f3e7ba",
+ "domain": [
+  "software/developer-docs",
+  "finance/payments"
+ ],
+ "product": [
+  "visa"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches Visa Developer documentation and fetches OpenAPI specifications for Visa product APIs.",
+ "whenToUse": "Use when building an integration with Visa APIs and needing docs or API specs.",
+ "tasks": [
+  "search visa developer docs",
+  "retrieve openapi specs",
+  "explore visa product apis"
+ ],
+ "effects": {},
+ "flags": []
+}

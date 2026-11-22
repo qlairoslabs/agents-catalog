@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "9ecc0f96e6dfa86f754d713ab711fe12ba83044f1d64957ebcf855cd85ebe835",
+ "domain": [
+  "software/ai-agents",
+  "web/directory"
+ ],
+ "product": [
+  "silicon-friendly"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Directory rating websites by how friendly they are to AI agents, with search, lookup, submission and verification.",
+ "whenToUse": "Use when checking whether a site is AI-agent-friendly or contributing ratings to the directory.",
+ "tasks": [
+  "search websites",
+  "get website details",
+  "check agent-friendliness level",
+  "submit website",
+  "get verification queue",
+  "verify website",
+  "get level info",
+  "list verified sites"
+ ],
+ "effects": {
+  "4ffab9832fc6142391947bd846dc31b034d722c7b59468ec1d4446612f2f8df5": "read",
+  "be96ef7f1a36c447b21e9fc79ddc908f7a815b836d28765caa7a60fdda603af3": "read",
+  "d01765534fe31f0cfb3e5514e88b158403b81400f4cea7c20db1913bb65236e0": "read",
+  "fb8d1055989f7074e48ecfeb43f699e26d3b9397ddd8e427eca69a303d6bdc57": "write",
+  "fba1294282d07dca74f3d55122d2fa5291432ff3f38b978b2e7e8d1fa04a802f": "read",
+  "7e9356dfd1062966efe8184339283e31cc8efcf0e7dee67cbdc8d056cd7f2089": "write",
+  "8ad8bc5cb87a038f2334690790714af780429387e119b86cfc36e80740b54185": "read",
+  "cc9fd7c20e95661a6b478ec6f739087d6645e1f65e3b2aa7030d2e8e7a7609fe": "read"
+ },
+ "flags": []
+}

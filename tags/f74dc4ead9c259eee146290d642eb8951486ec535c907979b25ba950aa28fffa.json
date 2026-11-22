@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f74dc4ead9c259eee146290d642eb8951486ec535c907979b25ba950aa28fffa",
+ "domain": [
+  "finance/invoicing",
+  "operations/time-tracking"
+ ],
+ "product": [
+  "imw-invoice"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Invoicing, time tracking and billing for freelancers and small firms through natural language.",
+ "whenToUse": "Use when a freelancer or small firm needs to log time, create invoices or manage billing.",
+ "tasks": [
+  "create invoices",
+  "track time",
+  "manage billing"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6f2addd5971b4ca20dfceb7790008cb8b55605cc5ea31a90a116104fcb07ec61",
+ "domain": [
+  "software/development/enterprise",
+  "software/documentation"
+ ],
+ "product": [
+  "sap-cap",
+  "sap"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps develop SAP CAP projects by searching CDS models and CAP documentation.",
+ "whenToUse": "Use when working on SAP Cloud Application Programming Model projects.",
+ "tasks": [
+  "search cds models",
+  "search cap documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

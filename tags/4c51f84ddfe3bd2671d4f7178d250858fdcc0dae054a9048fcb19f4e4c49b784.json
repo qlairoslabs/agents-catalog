@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "4c51f84ddfe3bd2671d4f7178d250858fdcc0dae054a9048fcb19f4e4c49b784",
+ "domain": [
+  "healthcare/disability-support",
+  "software/product-info"
+ ],
+ "product": [
+  "sparks-scribe",
+  "ndis"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "First-party information about Sparks Scribe, an NDIS shift-notes and invoicing app: features, pricing, trial, sample notes.",
+ "whenToUse": "Use when someone asks what Sparks Scribe does, what it costs or how its trial works.",
+ "tasks": [
+  "describe product",
+  "get pricing",
+  "get trial info",
+  "show example shift note"
+ ],
+ "effects": {
+  "ad05f1e6aabcf5081bda7af72a40adbd69c81745333a044e680204d9b25ff8d0": "read",
+  "3506e478bf7a45bd0f38af3672dbf24d16cb1fbaa66da84b2aec85aae396cc3c": "read",
+  "c805903af73a0fe6b13234b5d27f22716fc2d7acdd14b0f790ceceb392bf1280": "read",
+  "67cd9c5cd216ca97ef33c968f710a74637879b826f5fd673d657ed84f31de842": "read"
+ },
+ "flags": []
+}

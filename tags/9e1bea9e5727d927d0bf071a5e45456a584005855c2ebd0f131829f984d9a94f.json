@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9e1bea9e5727d927d0bf071a5e45456a584005855c2ebd0f131829f984d9a94f",
+ "domain": [
+  "software/monitoring",
+  "software/observability"
+ ],
+ "product": [
+  "fixter"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Monitoring for small teams covering logs, traces, metrics, live issue tracking and API and MCP uptime.",
+ "whenToUse": "Use when investigating application errors, logs, traces or uptime in Fixter.",
+ "tasks": [
+  "read logs",
+  "read traces",
+  "read metrics",
+  "track issues",
+  "monitor uptime"
+ ],
+ "effects": {},
+ "flags": []
+}

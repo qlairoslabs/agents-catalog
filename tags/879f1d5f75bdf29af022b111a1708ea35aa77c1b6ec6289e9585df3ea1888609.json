@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "879f1d5f75bdf29af022b111a1708ea35aa77c1b6ec6289e9585df3ea1888609",
+ "domain": [
+  "home/smart-speakers",
+  "media/audio-playback"
+ ],
+ "product": [
+  "sonos"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Controls Sonos speakers via OAuth without extra bridge hardware.",
+ "whenToUse": "Use when the user wants an agent to control playback, volume or grouping on their Sonos system.",
+ "tasks": [
+  "control sonos playback",
+  "adjust volume",
+  "manage speakers"
+ ],
+ "effects": {},
+ "flags": []
+}

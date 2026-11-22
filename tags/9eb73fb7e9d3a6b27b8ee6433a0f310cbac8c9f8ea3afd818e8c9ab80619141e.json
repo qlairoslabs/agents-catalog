@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9eb73fb7e9d3a6b27b8ee6433a0f310cbac8c9f8ea3afd818e8c9ab80619141e",
+ "domain": [
+  "finance/crypto/cross-chain-swap"
+ ],
+ "product": [
+  "bob-gateway",
+  "bitcoin",
+  "tron"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Swaps native bitcoin to and from tokens on EVM chains and Tron through BOB Gateway.",
+ "whenToUse": "Use when moving value between native BTC and EVM or Tron tokens.",
+ "tasks": [
+  "swap btc to tokens",
+  "swap tokens to btc"
+ ],
+ "effects": {},
+ "flags": []
+}

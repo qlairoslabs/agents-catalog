@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f8c3ab9d4c2766c4ed44b13810f4abcb37eb73d52c06e071bb61718b68aa4ca5",
+ "domain": [
+  "software/software-directory",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "fileion"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only directory of software listing official download sources, SHA-256 hashes, versions, formats and install commands.",
+ "whenToUse": "Use when an agent needs a trusted download source, checksum or install command for a piece of software.",
+ "tasks": [
+  "look up official download sources",
+  "get sha-256 hashes",
+  "check software versions",
+  "get install commands"
+ ],
+ "effects": {},
+ "flags": []
+}

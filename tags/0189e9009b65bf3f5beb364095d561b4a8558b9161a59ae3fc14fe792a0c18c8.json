@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "0189e9009b65bf3f5beb364095d561b4a8558b9161a59ae3fc14fe792a0c18c8",
+ "domain": [
+  "maritime/equipment-reference",
+  "engineering"
+ ],
+ "product": [
+  "oceansphere"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only library of marine equipment models, manufacturers and categories with source-labelled technical values.",
+ "whenToUse": "Use when you need specifications or identification details for ship engines, pumps, deck or navigation equipment.",
+ "tasks": [
+  "search equipment models",
+  "get model characteristics",
+  "find models by manufacturer",
+  "list ship areas",
+  "list categories"
+ ],
+ "effects": {
+  "b348e93189e5f1ae988de29dc613e01e80121af51d91b6ed5777edbb7982ca66": "write",
+  "af69e79904303717391c6809ed1783d1e6e89e5067363651f14c5af928c75115": "read",
+  "6588c2ca371c005ec0c900a5d1e490c651c8d6e9abab8099326950602aa3bafc": "read",
+  "d76f505a1eeeed24de43fba0da6f3dfce6138e69c276a4c476f4bb7cd5ffa723": "read",
+  "b1aa6d2303cddd3e3f0273ad0e0ff45e62f6f87e9f49d20afd924940e103be5b": "read"
+ },
+ "flags": []
+}

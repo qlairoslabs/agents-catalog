@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "89ef41f8adb852b63a94be5e042cfff5a7b73e7b92bfe7366e0199c6d4b2f87f",
+ "domain": [
+  "finance/investing/market-data"
+ ],
+ "product": [
+  "investmint",
+  "moex"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides Russian stock market data from MOEX: dividends, forecasts, bond coupons and corporate calendars.",
+ "whenToUse": "Use when a user asks about dividends, bond coupons or corporate events for Moscow Exchange securities.",
+ "tasks": [
+  "get dividend history",
+  "get dividend forecasts",
+  "get bond coupons",
+  "view corporate calendar"
+ ],
+ "effects": {},
+ "flags": []
+}

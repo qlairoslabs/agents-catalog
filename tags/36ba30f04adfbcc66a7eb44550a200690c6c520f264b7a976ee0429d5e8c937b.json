@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "36ba30f04adfbcc66a7eb44550a200690c6c520f264b7a976ee0429d5e8c937b",
+ "domain": [
+  "design/vector-graphics",
+  "content/image-generation"
+ ],
+ "product": [
+  "svg-ai"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates editable SVG graphics from text or images and converts raster images to vectors.",
+ "whenToUse": "Use when an agent needs to create SVG icons or illustrations or vectorize an image.",
+ "tasks": [
+  "generate svg from text",
+  "vectorize images",
+  "generate svg from image and text"
+ ],
+ "effects": {},
+ "flags": []
+}

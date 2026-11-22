@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "5f18f99522b37d8b617fb2a3d42eb002967091274f65931cd83e79079658ca9d",
+ "domain": [
+  "accessibility/braille",
+  "language/conversion"
+ ],
+ "product": [
+  "wia-braille",
+  "wia-talk"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Converts text to pronunciation-based WIA Braille, produces and verifies BRF files, converts Nemeth math, and maps text to WIA Talk gesture codes.",
+ "whenToUse": "Use when you need braille cells, embosser-ready BRF, math in Nemeth braille, or WIA Talk sound codes.",
+ "tasks": [
+  "convert text to braille",
+  "list supported languages",
+  "convert braille to BRF",
+  "verify BRF",
+  "convert math to Nemeth",
+  "get engine info",
+  "text to gesture codes",
+  "gesture codes to text"
+ ],
+ "effects": {
+  "915b47b0cd8da19d5171486bcdd3defb74d259be4a50229c260839e0ef1b932f": "read",
+  "79e5e415da1cb9c04c0c99200471c73abeca4df87a363c7db661efb658b98dd9": "read",
+  "581c064eadb17982e858b58dc196380c6d7f8f7f9ca36446c84893f494335002": "read",
+  "788c709fba4d5287f08a0a35f662eadb25a370506f3e8b5609f1280526ee9e63": "read",
+  "e500ef88c4c02d788e204f6411d2707a6389ac6b2a93b01d26157a952d570472": "read",
+  "3e164ef2c25a6710a27e3927394188298606057ea20ec25bcdb853295d87ee41": "read",
+  "03012b1b59bcab0a2726fb820d36163c5b700feade28a85150fd486ba9526a0b": "read",
+  "68f2c150c8a6bf13a9a50c94cecd04702aa11eea6a763d0a48fed5cfd8a09ec9": "read",
+  "67004ce3efb0d2cd1c3e66ddee9f413803a54f89d65cca65d441dd1c8efd79a5": "read"
+ },
+ "flags": []
+}

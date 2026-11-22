@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "0ae5077657d63d28ed8db452b6d1e1c74a92109e312450987a3a1b33444d3847",
+ "domain": [
+  "entertainment/pinball",
+  "media/news"
+ ],
+ "product": [
+  "kineticist",
+  "stern-pinball"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Pinball database and news: machines, editions and prices, designers, manuals, places to play and the Hype Index.",
+ "whenToUse": "Use for questions about pinball machines, prices, credits, manuals, venues or latest pinball news.",
+ "tasks": [
+  "search games",
+  "get game details and prices",
+  "get design credits",
+  "find manuals and schematics",
+  "find places to play",
+  "read news",
+  "get database stats",
+  "random game"
+ ],
+ "effects": {
+  "0e95980a5b70dc5b83da5e80081d2d7ba89b68cff97ae47d9e53dabb48785366": "write",
+  "546ebc6adeac193643b09585dfcb44e21a13ed9db652be23195aaa015ae62e53": "write",
+  "6d8b38d122e8fd44b087af6e3a0ffc6b59d063b22f1395fcdf5f45adf5ffd33b": "read",
+  "2cd10ef5eece8412d74c7dfd0421a799e7ed8392faeb131987d225ab07bb4f63": "read",
+  "9100e8eb66c5d3639ec4a8b597545b2f8fdad4ae36640a8635b9fc857c6bf254": "write",
+  "bc0700053df08de0a3f0674bcccbb30365bb93bef21f21522e7544c54fbcd4a2": "write",
+  "802ed62a7ebbd00093ad703a7948a14bdd9bf93a8ed8dd46042fd1de87a1cd90": "write",
+  "2e6c053e4590b3016d7d883420fc8916c5cf94820dabef78447ae9678f86c8f4": "read",
+  "04d510869fc8bd6ac592ab009d0ef0deb9029994a2a10ee971feca748ce981c9": "read",
+  "b2cdbe3fc0c34246a0c4b53759564334c722f1d3309c701d983d6d8c1b0bdcb8": "write"
+ },
+ "flags": [
+  "tools-ask-agent-to-send-model-name-and-conversation-id-for-analytics"
+ ]
+}

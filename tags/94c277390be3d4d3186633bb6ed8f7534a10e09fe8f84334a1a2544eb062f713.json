@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "94c277390be3d4d3186633bb6ed8f7534a10e09fe8f84334a1a2544eb062f713",
+ "domain": [
+  "marketing/paid-advertising",
+  "marketing/social-ads"
+ ],
+ "product": [
+  "tiktok-ads"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted TikTok Ads connector with OAuth, limited reads and confirm-before-write changes.",
+ "whenToUse": "Use when reviewing or changing TikTok ad campaigns with a confirmation step.",
+ "tasks": [
+  "read campaign data",
+  "prepare ad changes",
+  "confirm ad changes"
+ ],
+ "effects": {},
+ "flags": []
+}

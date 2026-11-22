@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ef9e0d771de2c0a39a761dd91a194d7d8421294e2016359379f1d38d3e851910",
+ "domain": [
+  "services/polygraph",
+  "booking"
+ ],
+ "product": [
+  "liedetectortest"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds polygraph examiner offices and pricing in the US, Canada and UK and sends appointment requests to examiners.",
+ "whenToUse": "Use when a person asks to find, price or request a polygraph test appointment.",
+ "tasks": [
+  "find offices",
+  "get pricing",
+  "get service info",
+  "send booking request",
+  "check booking status"
+ ],
+ "effects": {
+  "6e442302162f402a22a5719f567215e6a4bed67e7a6a7c8978e0bc87893fc78f": "read",
+  "4042fd5b02c795b2453f24cc75a02010f252b4f8f0e0f48a4bb4c196722fa21c": "read",
+  "d036b936efbc0f86d22a4139027bbcef8c076ffbc6679b71a7e5f20ae7e8f4b2": "read",
+  "9566097ebcd2b20bdff22f55f58ccc0fd643cf0c06e9698fcea991ca85a7277b": "write",
+  "ef233a3432cbd436805d1489b9860fb64f738918da8b2f9314ca80afd46332df": "read"
+ },
+ "flags": []
+}

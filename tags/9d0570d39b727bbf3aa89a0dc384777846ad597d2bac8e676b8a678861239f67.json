@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9d0570d39b727bbf3aa89a0dc384777846ad597d2bac8e676b8a678861239f67",
+ "domain": [
+  "data/social-media",
+  "marketing/social-listening"
+ ],
+ "product": [
+  "twitter",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Twitter/X data through 15 endpoints, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs tweets, profiles or search results from X and can pay per request in USDC.",
+ "tasks": [
+  "fetch tweets",
+  "fetch user profiles",
+  "search twitter",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

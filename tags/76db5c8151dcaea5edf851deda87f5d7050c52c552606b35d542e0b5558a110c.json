@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "76db5c8151dcaea5edf851deda87f5d7050c52c552606b35d542e0b5558a110c",
+ "domain": [
+  "software/deployment",
+  "software/hosting"
+ ],
+ "product": [
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Deploys and manages applications, databases, domains and git repositories.",
+ "whenToUse": "Use when an agent needs to deploy an app or manage its database, domain or repository.",
+ "tasks": [
+  "deploy applications",
+  "manage databases",
+  "manage domains",
+  "manage git repositories"
+ ],
+ "effects": {},
+ "flags": []
+}

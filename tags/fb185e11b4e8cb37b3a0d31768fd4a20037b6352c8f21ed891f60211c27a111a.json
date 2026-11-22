@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "fb185e11b4e8cb37b3a0d31768fd4a20037b6352c8f21ed891f60211c27a111a",
+ "domain": [
+  "retail/fragrance",
+  "consumer/product-research"
+ ],
+ "product": [
+  "scentverdict"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Fragrance catalogue with verdicts, notes, similar and cheaper alternatives, comparisons, recommendations and local prices.",
+ "whenToUse": "Use when choosing, comparing or finding alternatives to a perfume.",
+ "tasks": [
+  "search fragrances",
+  "get fragrance verdict and price",
+  "get scent development",
+  "find similar or cheaper fragrances",
+  "compare two fragrances",
+  "recommend by season, occasion or budget"
+ ],
+ "effects": {
+  "c131051062e496fcb6b27f051147ce5e544b6f91688ee456cf9b5897ff16f8e3": "read",
+  "690c8e65bb461261404cee748478be9941e2dbe2f2b98967aaedbb5a3047fb8e": "read",
+  "4a37f59816f58cef11e21644fb1a96bb5238ba16cbad699bbdc19121fb9a3ba6": "write",
+  "210dbc1c06f8d5042dc7443cafa66725bd1ab8205a392e8799ed165b8b88b718": "read",
+  "0e9a2656e81cc262f371553076ad4e911df27b4ccb857bbaa941a8af84cebc08": "write",
+  "be2bb3ffc80299bd62f79b5c8f119b035effb7eb07be485515a713b7de59149c": "read"
+ },
+ "flags": []
+}

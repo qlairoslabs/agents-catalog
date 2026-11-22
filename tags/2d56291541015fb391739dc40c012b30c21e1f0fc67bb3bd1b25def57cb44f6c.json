@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2d56291541015fb391739dc40c012b30c21e1f0fc67bb3bd1b25def57cb44f6c",
+ "domain": [
+  "finance/crypto/trading-signals"
+ ],
+ "product": [
+  "okx"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides trend and order-flow signals for OKX USDT perpetual swap markets, charged per call.",
+ "whenToUse": "Use when analysing OKX USDT perpetual swap markets and you need trend or order-flow signals, accepting per-call payment.",
+ "tasks": [
+  "get trend signals",
+  "get order-flow signals",
+  "analyse okx perpetual swaps"
+ ],
+ "effects": {},
+ "flags": [
+  "pay-per-call"
+ ]
+}

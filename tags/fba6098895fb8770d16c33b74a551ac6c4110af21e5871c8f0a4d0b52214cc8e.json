@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "fba6098895fb8770d16c33b74a551ac6c4110af21e5871c8f0a4d0b52214cc8e",
+ "domain": [
+  "real-estate/commercial",
+  "real-estate/peru"
+ ],
+ "product": [
+  "ecoplaza",
+  "whatsapp"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Read-only access to EcoPlaza's commercial real estate projects and available units in Peru, with a WhatsApp link to a human advisor.",
+ "whenToUse": "Use when someone asks about EcoPlaza projects or available stalls and wants to reach an advisor.",
+ "tasks": [
+  "list projects",
+  "get project info",
+  "search available units",
+  "get unit detail",
+  "refer pricing questions to advisor",
+  "generate WhatsApp contact link"
+ ],
+ "effects": {
+  "ee65d3271eca8a0bb556053750cae962af0a7a9e21b6aaf5ad4659e54fcae685": "read",
+  "46f2db2225eb8b0105871db9fd2e991da8eef9157a4bbd540cd05564ef07d0cd": "read",
+  "12a2b878160e8a71f80fc6cd0b0b8951220b290d6c3d255dc127031cbc2d65f6": "read",
+  "02f69833f40355dacc43ba46e46708f9772f85254f9336ce8ffca430f4207d1e": "read",
+  "ddca4e02e94820435fa83e9605601e4d90c8e24fe77f04880444c458d8ee1bcc": "read",
+  "3a4205e99fffac2a5b48611a2d6c13cab4ca983ccf09eb7f4d82cac6eb7f6764": "read"
+ },
+ "flags": []
+}

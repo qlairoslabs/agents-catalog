@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "5b3a01ebfef2528a8b1793470306c9128570e7cee07492885ce4ed7519a5e647",
+ "domain": [
+  "finance/e-invoicing",
+  "software/api-docs"
+ ],
+ "product": [
+  "ecuafact",
+  "sri-ecuador"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Documentation for Ecuafact's API for electronic invoicing with Ecuador's SRI, including guides, error codes, sample payloads and the OpenAPI reference.",
+ "whenToUse": "Use when integrating with Ecuafact to issue Ecuadorian electronic invoices or when decoding an API status code.",
+ "tasks": [
+  "list guides",
+  "search documentation",
+  "read a guide",
+  "explain status codes",
+  "get sample documents",
+  "browse OpenAPI reference"
+ ],
+ "effects": {
+  "2097db8fc210cbd27749bb05717b170e9a7c3a6e028219a6a7d590c36dec75fb": "read",
+  "7a08ecd4d7e6ded5240a245316d021f4b6b9f56994fa8ac25658d1ecf4749322": "read",
+  "a9727130fdcdf527ab275f3abd13099d5171a4d706fb8420bed98a3bdd2d6f99": "read",
+  "e7c8d0509e021a8ac9a277bdbd6867b2ace72f31c060e4302dc1130b15ce531b": "read",
+  "0afb73f5a7b680562c247a3156deebaf8f255bec63a1334f8c49c339d36a28d1": "read",
+  "b4c9a8c1f1c12430c0b331671ac7facf196fe5e20deb3ff7c28f672bc91650a8": "read"
+ },
+ "flags": []
+}

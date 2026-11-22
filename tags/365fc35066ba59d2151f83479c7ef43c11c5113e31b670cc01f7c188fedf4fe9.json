@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "365fc35066ba59d2151f83479c7ef43c11c5113e31b670cc01f7c188fedf4fe9",
+ "domain": [
+  "engineering/reverse-engineering",
+  "software/cad"
+ ],
+ "product": [
+  "dezignworks",
+  "solidworks",
+  "autodesk-inventor",
+  "faro"
+ ],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "support-customers",
+  "sell"
+ ],
+ "summary": "Answers questions about DezignWorks reverse engineering software, recommends a product tier and lists pricing and supported hardware.",
+ "whenToUse": "Use when a user asks about DezignWorks features, compatibility, pricing or which tier fits their scanner or probe.",
+ "tasks": [
+  "answer product questions",
+  "recommend product tier",
+  "get product data",
+  "list supported hardware"
+ ],
+ "effects": {
+  "0aa3f066899c152447c4b61e107bdd1bd206844b4ac88f988c04bcbcd0cb9b0c": "read",
+  "fc62496b8a361c129edc8bf8189e7572fe0964345f782e939a80ecaafe59ba79": "read",
+  "b3f47d7bfb78d447b1c2102c2830ba7998ee04b25b002e87ce02a7ba15e2b2b2": "read",
+  "9b5f81795c1f1d6bcbae3516870a68858cd38b818683ef10cfd0eca762a6e068": "read"
+ },
+ "flags": []
+}

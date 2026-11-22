@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0792330192c9554c2e6f0d2db8320d1e7fa9c5f0d8b5b3cddf75f6a98db7988c",
+ "domain": [
+  "design/diagramming",
+  "software/documentation"
+ ],
+ "product": [
+  "eraser"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Generates, edits and manages Eraser diagrams and technical documents with AI.",
+ "whenToUse": "Use when creating or updating architecture diagrams or technical docs in Eraser.",
+ "tasks": [
+  "generate diagrams",
+  "edit diagrams",
+  "manage documents"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "67a35f3221b84af7cf8a9f3fcbc141270d4a16de20bea876a2f859c3d2e44142",
+ "domain": [
+  "finance/prediction-markets"
+ ],
+ "product": [
+  "polymarket",
+  "kalshi",
+  "limitless",
+  "manifold"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to live odds from Polymarket, Kalshi and Limitless plus Manifold sentiment.",
+ "whenToUse": "Use when a user asks for current prediction market odds or sentiment on an event.",
+ "tasks": [
+  "get polymarket odds",
+  "get kalshi odds",
+  "get limitless odds",
+  "get manifold sentiment"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d07dfccc0e27da402bb8cf8fcd31d7efb2e1d05ac7d85ee25be15d286be5efda",
+ "domain": [
+  "social/anonymous-board",
+  "entertainment/novelty"
+ ],
+ "product": [
+  "nostr",
+  "blame-today"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Provides a recipe for posting to and reading the anonymous blame.today board on Nostr; the client runs the snippet itself.",
+ "whenToUse": "Use when the user wants to post or read an anonymous blame entry on blame.today via Nostr.",
+ "tasks": [
+  "get posting recipe",
+  "get relay list",
+  "get score recipe",
+  "get house rule"
+ ],
+ "effects": {
+  "8c8e1b0a7513611e2d33f5d1a46385358f2a93a429fb3cc87fffb3418614829b": "read"
+ },
+ "flags": []
+}

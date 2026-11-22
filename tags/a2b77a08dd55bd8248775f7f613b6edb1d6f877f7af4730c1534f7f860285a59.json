@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a2b77a08dd55bd8248775f7f613b6edb1d6f877f7af4730c1534f7f860285a59",
+ "domain": [
+  "commerce/product-customization",
+  "commerce/online-store"
+ ],
+ "product": [
+  "sign-customiser"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Reads and manages Sign Customiser stores, including customisers, options, pricing, products and orders.",
+ "whenToUse": "Use when managing a custom sign store built on Sign Customiser, such as updating pricing or reviewing orders.",
+ "tasks": [
+  "list customisers",
+  "manage customiser options",
+  "update pricing",
+  "manage products",
+  "view orders"
+ ],
+ "effects": {},
+ "flags": []
+}

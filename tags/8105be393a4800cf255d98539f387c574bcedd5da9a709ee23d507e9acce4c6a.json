@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8105be393a4800cf255d98539f387c574bcedd5da9a709ee23d507e9acce4c6a",
+ "domain": [
+  "sales/lead-generation/local-business-data"
+ ],
+ "product": [
+  "google-maps"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Retrieves local business data from Google Maps, including ratings, reviews and businesses lacking a website.",
+ "whenToUse": "Use when an agent needs local business listings or leads, such as businesses without websites.",
+ "tasks": [
+  "search local businesses",
+  "get ratings",
+  "get reviews",
+  "find businesses without website"
+ ],
+ "effects": {},
+ "flags": []
+}

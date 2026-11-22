@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "873f38598289479681f7fe0af4aa59229ca236c52bc0de92405f7f3472963b2d",
+ "domain": [
+  "travel/taxi",
+  "transport"
+ ],
+ "product": [
+  "ried-taxi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Quotes, checks availability, books, changes and cancels fixed-price airport and long-distance taxi rides in Upper Austria, Salzburg and Passau.",
+ "whenToUse": "Use when a user wants to price or book a taxi or airport transfer in the Ried, Salzburg or Passau region.",
+ "tasks": [
+  "get fixed-price quote",
+  "check availability",
+  "recheck availability",
+  "create booking",
+  "get booking",
+  "change booking",
+  "cancel booking"
+ ],
+ "effects": {
+  "0433f6a002d3676d124356125eb360dc8ac7f6de47c8cc954e08f980a41cb46a": "read",
+  "f610b55c61f025d3826c720f77566a7b23b85ff14cc1491afc27a4790ca57cf3": "read",
+  "c3906a4df5b5a8752830d527fbde00b629c7bb1c30b302f4f6fab5e936c7ed8a": "read",
+  "96539efee1be425a300743cc34e7e86519cf11ce496a83cf437ab72e7f1deb76": "write",
+  "4fce618b505dbb962690ab9f64daa8e24f144cb0cf442a0b8f523faa108eeffc": "read",
+  "5c2f93ef822e527630546a3eb7d0e1706e59dc7b4164f0c926890e39607bac31": "write",
+  "334b8e7a16c4de1a387b20468f5930730ff1c7765106ec9df707954ed94a334d": "write"
+ },
+ "flags": []
+}

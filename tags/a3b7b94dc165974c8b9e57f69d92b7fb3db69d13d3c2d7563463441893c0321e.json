@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a3b7b94dc165974c8b9e57f69d92b7fb3db69d13d3c2d7563463441893c0321e",
+ "domain": [
+  "ai/model-selection",
+  "ai/pricing"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Recommends AI models and reports their costs across many providers and local runtimes.",
+ "whenToUse": "Use when an agent needs to choose an AI model or compare model pricing.",
+ "tasks": [
+  "discover models",
+  "compare model costs",
+  "recommend a model"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0ad7074aa17c2b02b49ea39fdc240e775bc444da8ee45f278f6daa44de0b6208",
+ "domain": [
+  "software/ui-components",
+  "design/frontend"
+ ],
+ "product": [
+  "react",
+  "shadcn"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Catalog of interactive React components with unusual motion, installable via the shadcn CLI.",
+ "whenToUse": "Use when looking for a distinctive React UI component and its install command and source.",
+ "tasks": [
+  "search components",
+  "filter by style tags",
+  "get install command",
+  "read component source"
+ ],
+ "effects": {
+  "af0d78efb52285148396ae417e6e670f1f42a7ac77308ca083303c204aaea01d": "read",
+  "ca4d784c6db3b3e49aadc592b5ef1bb0f4daa6818cf581dc7f4185754624ad77": "read"
+ },
+ "flags": []
+}

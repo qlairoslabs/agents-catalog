@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4c88a159aef12eea6b7302d314b63f95e4b2fe01635a99105e29a59ddb66b7a8",
+ "domain": [
+  "marketing/analytics",
+  "data/marketing-data"
+ ],
+ "product": [
+  "supermetrics"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Queries marketing data through Supermetrics, discovering sources and fields, and manages campaigns.",
+ "whenToUse": "Use when analysing marketing performance data or managing ad campaigns via Supermetrics.",
+ "tasks": [
+  "discover data sources",
+  "list fields",
+  "run marketing data queries",
+  "manage campaigns"
+ ],
+ "effects": {},
+ "flags": []
+}

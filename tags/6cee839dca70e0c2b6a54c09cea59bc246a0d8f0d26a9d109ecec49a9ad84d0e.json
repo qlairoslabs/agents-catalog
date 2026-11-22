@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "6cee839dca70e0c2b6a54c09cea59bc246a0d8f0d26a9d109ecec49a9ad84d0e",
+ "domain": [
+  "logistics/freight"
+ ],
+ "product": [
+  "rixfreight"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides RixFreight logistics quotes and route information.",
+ "whenToUse": "Use when the user needs freight quotes or route details from RixFreight.",
+ "tasks": [
+  "get freight quotes",
+  "get route information"
+ ],
+ "effects": {},
+ "flags": []
+}

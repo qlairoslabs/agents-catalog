@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f3fe40e9950ef9c3aae9e19bb48bbe0d4986ca149b589a3843669dae906e1807",
+ "domain": [
+  "travel/budgeting"
+ ],
+ "product": [
+  "endless-travel-plans"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "schedule"
+ ],
+ "summary": "Estimates family trip costs by category with low-to-high ranges, sources, dates and confidence for city, resort, cruise and theme-park trips.",
+ "whenToUse": "Use when a family wants a budget estimate for a trip.",
+ "tasks": [
+  "estimate trip budget",
+  "break down costs by category",
+  "give low-high ranges",
+  "cite price sources"
+ ],
+ "effects": {
+  "4cce6fc9d824182bd65528eaaf7075b8f410349e67215c2056661e8d528e52d2": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bdfde8939bb1fa5fa979d4da72fc298853853d1914b12c2665662fca41314f44",
+ "domain": [
+  "media/video-analysis",
+  "ai/transcription"
+ ],
+ "product": [
+  "contendeo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Analyzes videos from a URL with transcription, visual analysis and on-screen text recognition.",
+ "whenToUse": "Use when a user wants the contents of a video transcribed or analyzed from its URL.",
+ "tasks": [
+  "transcribe video",
+  "analyze video frames",
+  "extract on-screen text"
+ ],
+ "effects": {},
+ "flags": []
+}

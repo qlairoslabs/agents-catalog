@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "400d112ae32bd402043c3f2afee0d0bc71c72229cb906b92700d463ae6614681",
+ "domain": [
+  "finance/accounting"
+ ],
+ "product": [
+  "sporo"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only OAuth access to a Sporo accounting account, showing balances, invoices, VAT and profit and loss.",
+ "whenToUse": "Use when a user wants to review their Sporo accounting data such as balances, invoices, VAT or P&L.",
+ "tasks": [
+  "view account balances",
+  "view invoices",
+  "view vat figures",
+  "view profit and loss"
+ ],
+ "effects": {},
+ "flags": []
+}

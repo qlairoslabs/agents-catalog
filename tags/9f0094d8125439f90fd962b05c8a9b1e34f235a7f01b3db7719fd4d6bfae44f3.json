@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9f0094d8125439f90fd962b05c8a9b1e34f235a7f01b3db7719fd4d6bfae44f3",
+ "domain": [
+  "infrastructure/kubernetes",
+  "software/devops"
+ ],
+ "product": [
+  "helm",
+  "kubernetes"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Exposes the Helm CLI as 46 MCP tools using the Helm v3 and v4 Go SDKs.",
+ "whenToUse": "Use when an agent needs to install, upgrade or inspect Helm releases on Kubernetes.",
+ "tasks": [
+  "install charts",
+  "upgrade releases",
+  "rollback releases",
+  "list releases",
+  "manage repositories"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "c56a220196623e6815b1a834d39a25eb382623d65aee52de16449d5eb432370a",
+ "domain": [
+  "aviation/safety",
+  "research"
+ ],
+ "product": [
+  "ntsb",
+  "faa"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Aviation accident corpus from many official authorities with narratives, aircraft-family safety stats, airport lookup and FAA wildlife, laser and drone data.",
+ "whenToUse": "Use when researching aviation accidents, aircraft safety statistics, or FAA wildlife strike, laser and drone incident data.",
+ "tasks": [
+  "search accidents",
+  "get accident",
+  "get investigation narrative",
+  "aircraft family statistics",
+  "list data sources",
+  "resolve airport",
+  "wildlife strike stats",
+  "laser incident stats",
+  "drone sighting stats"
+ ],
+ "effects": {
+  "8e115376b88d2b85b3193513b23bd9d2dc715b1bec480f21563a1c85fc7a97b5": "read",
+  "a47026594993f4aa27faf970bf706b4eeb1c2874e19dfdda9c2d503d3b02fe01": "read",
+  "fd690c4ea15075fc7aba12220a87ab7b7d78073d34f44c73dc1f7970941090f2": "read",
+  "88a14fb36c74e2cfbbc502d317d77a627107485d465ed615182b22b784f6a22c": "read",
+  "5f79ce099fe429104543210e574e55743cf0f72fdb1b4ef77033514e0a628798": "read",
+  "9df4c72211429f09e0d63a9e37feb0b2647a9cf1799bb25947c16dbf8090eaa8": "read",
+  "44a9f57d6d7ef43af28755b0afb1b237db963b72c557cadd5eadec07227e38ef": "read",
+  "53f2a558373d982cdaa3e1e8d9426230714c24041e6d9bb2d743949732b6ad8d": "read",
+  "c4e4455bbbb7c6d780cc395ef0a6e1140410d9223bcc85eb362e3b3874f3e68c": "read"
+ },
+ "flags": []
+}

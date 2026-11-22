@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "447e3d7d1a893545a739bd38387234109bfc1d51244b7a0aa1c2fdd7fec2cc4b",
+ "domain": [
+  "food-and-drink/cocktails"
+ ],
+ "product": [
+  "cocktail-glass"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Catalogue of 500 cocktail recipes searchable by name, ingredient, family or film appearance, with a what-can-I-make finder and random picks.",
+ "whenToUse": "Use when a user wants a cocktail recipe, drinks using certain ingredients, or a drink suggestion.",
+ "tasks": [
+  "search cocktails",
+  "list catalogue",
+  "get recipe",
+  "find by ingredient",
+  "find cocktails in films",
+  "find makeable cocktails",
+  "random cocktail"
+ ],
+ "effects": {
+  "c3f6d5250d4de8bb2b29d97ff96b5563fb79e3672fac2892ec7fef8d6af7ab44": "read",
+  "a2e3baf3be5d97cb2acc8d4324ea617887da4b339b4c434106a8cdf39a0fda98": "read",
+  "dfc4c5809d185c8469aff1820cfaf687067a9ee7c96f8c6b8a21ec4fe9c9ddf0": "read",
+  "73b152b4d7681452159568fc1c9631a879f10a332176a4665a9153388855ecde": "read",
+  "044156ee88946a2b25e00c69dc62c5c9d5c9e1e68fc784227d2ffaf1957a5359": "write",
+  "4539def5cea0d6bea80cbaa224bfed6b5039bbf03d0b74c0422fec302ef23366": "write",
+  "c9efd2ab0382e6ca57cdc990184f9fc1229fc2e790324ba9fd753648cf4cff17": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "918a898c7c5dde9f93b97e6e068544aa0f55bf5e349bd1d619c66ecaeb889680",
+ "domain": [
+  "data/web-scraping",
+  "software/developer-tools"
+ ],
+ "product": [
+  "zyte",
+  "scrapy-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Fetches web pages, extracts structured data, searches the web and manages Scrapy Cloud jobs with Zyte.",
+ "whenToUse": "Use when an agent needs to scrape web pages, extract structured data, search the web or run Scrapy Cloud jobs.",
+ "tasks": [
+  "fetch web pages",
+  "extract structured data",
+  "search the web",
+  "manage scrapy cloud jobs"
+ ],
+ "effects": {},
+ "flags": []
+}

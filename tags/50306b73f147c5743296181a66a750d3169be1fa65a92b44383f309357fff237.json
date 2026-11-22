@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "50306b73f147c5743296181a66a750d3169be1fa65a92b44383f309357fff237",
+ "domain": [
+  "software/web-hosting/deployment"
+ ],
+ "product": [
+  "netlify"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Skills for the Netlify platform covering functions, edge functions, blobs, database, forms, caching, config and deployment.",
+ "whenToUse": "Use when building or deploying a site or app on Netlify.",
+ "tasks": [
+  "write functions",
+  "write edge functions",
+  "use blobs",
+  "configure forms",
+  "set up caching",
+  "configure netlify",
+  "deploy sites",
+  "use ai gateway"
+ ],
+ "effects": {},
+ "flags": []
+}

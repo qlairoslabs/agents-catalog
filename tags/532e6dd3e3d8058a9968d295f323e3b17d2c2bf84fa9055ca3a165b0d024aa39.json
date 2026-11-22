@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "532e6dd3e3d8058a9968d295f323e3b17d2c2bf84fa9055ca3a165b0d024aa39",
+ "domain": [
+  "analytics/product-analytics"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reviews an Amplitude dashboard's key charts to surface concerns, anomalies and takeaways, linking changes to customer feedback.",
+ "whenToUse": "Use when a user wants a summary of what an Amplitude dashboard shows and what needs attention.",
+ "tasks": [
+  "analyze key dashboard charts",
+  "surface areas of concern",
+  "identify anomalies",
+  "explain changes with feedback trends"
+ ],
+ "effects": {},
+ "flags": []
+}

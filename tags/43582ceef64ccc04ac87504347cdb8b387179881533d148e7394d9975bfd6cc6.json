@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "43582ceef64ccc04ac87504347cdb8b387179881533d148e7394d9975bfd6cc6",
+ "domain": [
+  "automotive/used-cars"
+ ],
+ "product": [
+  "webuycars"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Searches WeBuyCars used-vehicle stock, condition reports and FAQs, and can start a lead to sell a car.",
+ "whenToUse": "Use when a user in South Africa wants to browse used cars at WeBuyCars or sell their car.",
+ "tasks": [
+  "search vehicle stock",
+  "view condition reports",
+  "read faqs",
+  "submit sell-my-car lead"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0205ba724bd9f71d06beafecb975246fcca6e481f7c4c129381fda7787479eb0",
+ "domain": [
+  "software/reporting",
+  "software/documentation"
+ ],
+ "product": [
+  "stimulsoft"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Semantic search over Stimulsoft Reports and Dashboards developer documentation across all platforms.",
+ "whenToUse": "Use when answering Stimulsoft questions about viewers, exports, data sources or platform APIs.",
+ "tasks": [
+  "list Stimulsoft platforms",
+  "search docs semantically",
+  "filter by platform and category"
+ ],
+ "effects": {
+  "dfc8691aba6a434549521991716b3ddfe40df7d75094ee3a704e4f86bf3869db": "write",
+  "5e239b3314a40bfdaf43966edf3b6a3d0b9abcb47989dbcb72512fb5f9b5c70c": "write"
+ },
+ "flags": []
+}

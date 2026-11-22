@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e48ee384407f78ef818d9d3de34a25355449a2cbf921756129271924e11291ad",
+ "domain": [
+  "travel/aviation",
+  "data/flight-tracking"
+ ],
+ "product": [
+  "planetrack"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live flight status, airport arrival and departure boards, aircraft lookups and overhead flights from PlaneTrack.",
+ "whenToUse": "Use when a user asks about a flight's status, airport boards, an aircraft, or planes overhead.",
+ "tasks": [
+  "check flight status",
+  "view airport boards",
+  "look up aircraft",
+  "find flights overhead"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "62e5211b9f813648b58bf24a3b6725b0a45c2aff5aafba6c44375277009c88b8",
+ "domain": [
+  "software/cybersecurity/access-management",
+  "ai/agent-governance"
+ ],
+ "product": [
+  "fullmakt"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Credential broker that gives AI agents scoped, revocable API access with policy enforcement and audit logs.",
+ "whenToUse": "Use when an agent needs controlled, auditable access to third-party APIs without holding raw credentials.",
+ "tasks": [
+  "broker api credentials",
+  "scope agent access",
+  "revoke access",
+  "enforce policies",
+  "audit agent api use"
+ ],
+ "effects": {},
+ "flags": []
+}

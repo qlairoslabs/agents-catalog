@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "d08d7dd9ee39e0db8abe9949f60b7c7c18899b9394d00cac65de0608f75525b3",
+ "domain": [
+  "energy/electricity-markets",
+  "energy/forecasting"
+ ],
+ "product": [
+  "voltcast",
+  "weim"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "European day-ahead electricity prices, forecasts, carbon intensity and renewables data, plus ranking of cheapest times to use power.",
+ "whenToUse": "Use when you need European power prices, forecasts or carbon data, or the cheapest time to run a load.",
+ "tasks": [
+  "list bidding zones",
+  "get day-ahead prices",
+  "get real-time prices",
+  "get price forecast",
+  "get carbon intensity",
+  "get renewables forecast",
+  "find cheapest window"
+ ],
+ "effects": {
+  "858fcdfb9f776ebbcde3fef8f4dc6a38b727dab42b7b6e32080696eba3ff0aa7": "read",
+  "d25ffa17d6aef7ef27bb925d2aebb97cc92ae2efffc2e90dd1e08db2368b4b51": "read",
+  "4ccaf84b18eb29cfd5727c0071861aefe55864ccea087a8022f9d9fcea84f3a3": "read",
+  "0c2d92e295da0b9b3b869a12692f941c4d149a06217f18470cdda183a63265ee": "read",
+  "e7af67895153ca6ce97aeb5db78fc0ebd9eb312d803203d2e8e9e80055585f87": "read",
+  "a406e507f87b346ebac179b8356112abebd69b0a918ee43e12718b05eb00ca13": "read",
+  "21276d318dfc0528b3e51800bb9fa928a8715a9a7b057496b76b8e50575d4839": "read"
+ },
+ "flags": []
+}

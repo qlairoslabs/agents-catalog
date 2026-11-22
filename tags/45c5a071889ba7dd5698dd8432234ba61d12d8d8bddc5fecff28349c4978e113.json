@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "45c5a071889ba7dd5698dd8432234ba61d12d8d8bddc5fecff28349c4978e113",
+ "domain": [
+  "3d-printing/generation",
+  "search/web"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Pay-per-call tools paid in USDC on Base for generating 3D-printable STL files from text, web search and search-with-page-reading.",
+ "whenToUse": "Use when you need a text-to-STL cookie cutter or jewelry model or web search and are able to pay per call.",
+ "tasks": [
+  "describe server pricing",
+  "generate STL from prompt",
+  "web search",
+  "search and read pages"
+ ],
+ "effects": {
+  "e284fc1bbfd2d6efef29500123a2dc3a402155a6be1179d58fe8f03bca35e7e4": "read",
+  "8ab09322d76268f4d9fda574eeeb8a359893a8e1c44135082c2990ec9437b0ed": "risky",
+  "fa3d8d7ab1a80a1c700f84f5a8755d5fd7f2d885268e14b749d08cb510268a17": "risky",
+  "5d540716ac13e247850c2df64dde8b03351e356020866192a9d93128507fa037": "risky"
+ },
+ "flags": [
+  "tools charge real money (USDC on Base) per call"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5870700eee997d554073152bf9e0c4f63e08c4ca84fdda53d5aa8019db16147e",
+ "domain": [
+  "software/testing/browser-automation"
+ ],
+ "product": [
+  "playwright"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Microsoft Playwright MCP server for driving a browser to navigate pages, click, fill forms, take screenshots and run tests.",
+ "whenToUse": "Use when an agent must interact with web pages or run end-to-end browser tests.",
+ "tasks": [
+  "navigate web pages",
+  "click elements",
+  "fill forms",
+  "take screenshots",
+  "run end-to-end tests"
+ ],
+ "effects": {},
+ "flags": []
+}

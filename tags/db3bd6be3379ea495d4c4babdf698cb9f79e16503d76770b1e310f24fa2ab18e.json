@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "db3bd6be3379ea495d4c4babdf698cb9f79e16503d76770b1e310f24fa2ab18e",
+ "domain": [
+  "travel/compliance",
+  "travel/booking"
+ ],
+ "product": [
+  "departi",
+  "duffel",
+  "travelpayouts"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "schedule"
+ ],
+ "summary": "Gives visa, Schengen 90/180 and tax-residency guidance for long-stay travellers, plus curated flight, accommodation and experience search with booking links.",
+ "whenToUse": "Use when a digital nomad needs visa options, Schengen day counts, tax-residence risk, or trip bookings.",
+ "tasks": [
+  "check visa options",
+  "track Schengen days",
+  "assess tax residency risk",
+  "search accommodation",
+  "search flights",
+  "search experiences",
+  "read user profile"
+ ],
+ "effects": {
+  "c6cf57120f9dc3e1b0e5673312313a1c8c4baa3180768d2f3c951f2b6f8a0619": "write",
+  "ad41cc97e45f2c51f3dc5b0b5a3c557b8a29c9b286ae19e68a1ef6b0e66797f8": "write",
+  "821387deaedc28b376b721bcf43599360c6b7b8cd22aa2a8abda53df7a1b1455": "write",
+  "657b612543405c295dc0e8bb092705a82deeaa177176610495f67938e2207229": "write",
+  "77192c10721751ea4a6984f9ebafb5b98016469a148153687e269af32cca6175": "write",
+  "b10731172d370f3dd7540d77f5b3039f4a00812a0c68dee9f6467761f1a11665": "read",
+  "95db3e5b5d19469ec251cc4ca3c879481be656182e086333855daa0377e1cd35": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "238a11e5f43373f25ebfa5dd69cfed878eca8656abfeca08bd7f516009273a59",
+ "domain": [
+  "design/brand-assets",
+  "data/company-data"
+ ],
+ "product": [
+  "logo-dev"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Logo.dev connector to look up brands and their logos, and manage brand subscriptions and webhooks.",
+ "whenToUse": "Use when an agent needs a company's logo or brandmark, or to manage Logo.dev brand subscriptions and webhooks.",
+ "tasks": [
+  "search brands",
+  "fetch logos",
+  "fetch brandmarks",
+  "manage brand subscriptions",
+  "manage webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

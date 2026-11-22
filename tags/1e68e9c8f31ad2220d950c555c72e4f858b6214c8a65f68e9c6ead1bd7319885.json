@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "1e68e9c8f31ad2220d950c555c72e4f858b6214c8a65f68e9c6ead1bd7319885",
+ "domain": [
+  "crypto/xrp-ledger",
+  "data/blockchain-analytics"
+ ],
+ "product": [
+  "xrp-ledger",
+  "rlusd",
+  "xrpldashboard"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only XRP Ledger data: ledger stats, amendments, UNL, whale events, RLUSD supply, AMM pools, tokens, RWA pools and signed daily snapshots with verification.",
+ "whenToUse": "Use when you need current XRPL network state, AMM or token data, whale activity, or to verify a signed snapshot.",
+ "tasks": [
+  "get ledger stats",
+  "check amendment status and votes",
+  "view UNL composition",
+  "track whale events",
+  "check RLUSD supply and flow",
+  "rank AMM pools by TVL",
+  "check token attestation",
+  "list RWA pools",
+  "get signed daily snapshot",
+  "verify snapshot signature"
+ ],
+ "effects": {
+  "8fe4aa97b07b334693ffc28a3df284c21ea7a7433b2dd6983adddd80da2ea744": "read",
+  "8078639c9f3e5f34835da770e92608d9f0302a8a59cd2aca040fd96a4f2339b3": "read",
+  "b6cad26d328a524adb688fe29269fc038c2061fe2ca5642a50c0c63b278a347e": "read",
+  "8cb5704e9cdb6201793a49fc8b03d579a45deba539b338fcdcdab24936e0174d": "read",
+  "f16488270ca8318882fbf8ec9c3ca7a09ad50c4246c3f6826695079e86ce59cb": "read",
+  "a2955f3cc6aa0ae3eb0c863dae58cafcf32f01dc18289dc8eb2b128cb802f709": "read",
+  "ee160218eff7f830ea7d3bdb331957ce2b005615673381a1aab9f74c185cdc8a": "read",
+  "53e59ca20be2b5a3dcbbbe22291822f8266a1a65b64d4d83afceb92850a37f9d": "read",
+  "154972e53ab01ae8c1f136197884c0180995b286065d8aa74af70a1134825d18": "read",
+  "fe9b519658e18b31439116eb58bc4743d16ed220ec9a4202472aaf0734e4c992": "read",
+  "ac611e3e8b927bf248900b355876a9c7fd63ecc8eddd2a7e9faf7608d775ad36": "read",
+  "7a5ce842546b19db5b1fedef3cc55f970f34a37d1c946067e01235d862e81620": "read",
+  "88a2e569eba41a759a1165ab305f6a16cd871673ee9ef8cc481df8646e67f4e3": "read",
+  "463a5f7d38eda5af61501f27eb5fbd10ec6743f34c76cf0d3a02b32d7a53114b": "read",
+  "8433f7f333cc66656cb2a57ce70e3e12c3318740df65d6411d0b9ef2ed6ad910": "read",
+  "dc23b3c116fda64c5b506af31959d57eccd7007cca92d7c3d72bedc6009bd91a": "read",
+  "45f7fc7f2293cebf475a601dc73099f804b0f7defee96e932b2089a1acc7a492": "read",
+  "da0cedf88d8622766d6e42c448b02503b015120a8aa2a73a798b8dc4118641d0": "read",
+  "d551c7d5a37980794b71a1af715ca906a84eaf90e7acbb9383e2894e710d6914": "read"
+ },
+ "flags": []
+}

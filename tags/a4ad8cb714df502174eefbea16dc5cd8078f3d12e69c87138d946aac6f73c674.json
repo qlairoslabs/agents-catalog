@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a4ad8cb714df502174eefbea16dc5cd8078f3d12e69c87138d946aac6f73c674",
+ "domain": [
+  "software/devops/configuration",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-devops-agent"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Sets up and diagnoses the AWS DevOps Agent MCP connection in .mcp.json.",
+ "whenToUse": "Use when the AWS DevOps Agent MCP is missing or broken.",
+ "tasks": [
+  "add mcp connection",
+  "diagnose broken connection"
+ ],
+ "effects": {},
+ "flags": []
+}

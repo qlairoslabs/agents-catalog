@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "23351f72fd81f754f7c73176542f043832dcfd94a0eb7ad4afa1322b6df0da93",
+ "domain": [
+  "software/mobile-development",
+  "enterprise/erp"
+ ],
+ "product": [
+  "sap-mobile-development-kit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server that helps build and modify SAP Mobile Development Kit apps with schema lookups and validation.",
+ "whenToUse": "Use when creating or editing SAP MDK mobile applications.",
+ "tasks": [
+  "look up mdk schemas",
+  "validate actions",
+  "edit rules",
+  "scaffold projects"
+ ],
+ "effects": {},
+ "flags": []
+}

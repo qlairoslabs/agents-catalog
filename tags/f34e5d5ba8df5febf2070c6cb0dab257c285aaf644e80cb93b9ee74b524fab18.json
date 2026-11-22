@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f34e5d5ba8df5febf2070c6cb0dab257c285aaf644e80cb93b9ee74b524fab18",
+ "domain": [
+  "legal/document-review",
+  "productivity/documents"
+ ],
+ "product": [
+  "microsoft-word"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local engine for automated redlining of DOCX documents with tracked changes.",
+ "whenToUse": "Use when you need to propose or apply tracked-change edits to a Word document, such as a contract.",
+ "tasks": [
+  "redline docx files",
+  "apply tracked changes"
+ ],
+ "effects": {},
+ "flags": []
+}

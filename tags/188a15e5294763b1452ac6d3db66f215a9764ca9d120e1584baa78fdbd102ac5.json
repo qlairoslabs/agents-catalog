@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "188a15e5294763b1452ac6d3db66f215a9764ca9d120e1584baa78fdbd102ac5",
+ "domain": [
+  "ai/prompt-management"
+ ],
+ "product": [
+  "dotprompts"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Stores and serves a user's AI prompts across tools.",
+ "whenToUse": "Use when an agent needs to retrieve or save prompts from the user's .prompts library.",
+ "tasks": [
+  "store prompts",
+  "retrieve prompts"
+ ],
+ "effects": {},
+ "flags": []
+}

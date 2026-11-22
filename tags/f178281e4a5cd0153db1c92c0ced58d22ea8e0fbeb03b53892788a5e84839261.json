@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f178281e4a5cd0153db1c92c0ced58d22ea8e0fbeb03b53892788a5e84839261",
+ "domain": [
+  "ecommerce/storefront/store-management"
+ ],
+ "product": [
+  "webcake",
+  "storecake"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Builds pages and manages products, orders and content on WebCake/StoreCake storefronts.",
+ "whenToUse": "Use when managing products, orders or pages of a WebCake or StoreCake shop.",
+ "tasks": [
+  "build storefront pages",
+  "manage products",
+  "manage orders",
+  "edit store content"
+ ],
+ "effects": {},
+ "flags": []
+}

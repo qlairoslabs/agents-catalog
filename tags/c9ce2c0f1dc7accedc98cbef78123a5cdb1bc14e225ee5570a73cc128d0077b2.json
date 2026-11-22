@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "c9ce2c0f1dc7accedc98cbef78123a5cdb1bc14e225ee5570a73cc128d0077b2",
+ "domain": [
+  "crypto/gas-prices",
+  "finance/blockchain"
+ ],
+ "product": [
+  "ethereum",
+  "base",
+  "arbitrum",
+  "optimism",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares live gas fees across EVM chains and names the cheapest one; free demo tiers plus paid x402 tiers on Base.",
+ "whenToUse": "Use before bridging, deploying or sending a transaction when choosing the cheapest EVM chain matters.",
+ "tasks": [
+  "compare gas prices",
+  "find cheapest chain",
+  "route transactions by fee"
+ ],
+ "effects": {
+  "bb74283ab9bdca8438448da422d8bfe9d7a75f132a088d31dfe4adf121755d31": "read",
+  "9bb7cee2b46cc409be8c1d4c195e895b529a578ce614cd407084f36b4e81a6c6": "read",
+  "cff79dedeaeff0b7d6ab8649c26c8576a2df2472a36c4f1d073e9087fde21784": "read",
+  "d0e730912a735f7fa1dbc521d5b2f5d8c12ff09cdb47f57d4fc5f86eee7b373b": "read"
+ },
+ "flags": [
+  "paid-calls-via-x402"
+ ]
+}

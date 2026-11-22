@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "90e5bfaf3ffdd1aa411ca76f2ab398f3c98d64f3ef634aca2fc72affeb98b7bd",
+ "domain": [
+  "finance/mortgage",
+  "real-estate"
+ ],
+ "product": [],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "schedule"
+ ],
+ "summary": "Calculates the last date to accept an offer so a Canadian mortgage still funds before a rate hold expires.",
+ "whenToUse": "Use when a user has a Canadian mortgage rate hold expiry and needs the real offer deadline.",
+ "tasks": [
+  "compute rate hold deadline"
+ ],
+ "effects": {
+  "f26a6f6235c787882f4b7a9378836a262e6ff36ae167c28c38f02d743650b47c": "read"
+ },
+ "flags": []
+}

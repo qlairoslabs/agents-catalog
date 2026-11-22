@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "cec54e2778f804949d911f72f3ceca3175cb3e462597993a1fb9c03ae84cf67f",
+ "domain": [
+  "research/elections",
+  "data/public-statistics"
+ ],
+ "product": [
+  "gerda"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only German federal election results at municipality level with harmonized geography.",
+ "whenToUse": "Use when analysing German election results by municipality, county or state over time.",
+ "tasks": [
+  "list datasets",
+  "describe dataset",
+  "find geographies",
+  "query results",
+  "get download link"
+ ],
+ "effects": {
+  "6204479d2e879be8927b73ab5165cc17768a97badfc9599788c9da82ef028ec3": "read",
+  "1a34060bc2be5c3b00ec0dfa494d90bc9446bf23ce2e463dddebd7a1101d95ad": "read",
+  "83e91e105c8481c1bf7ff8e3a01edd8bd0dc2e3fee2faf7c75804412d744281e": "read",
+  "30375b47f60e7e9fcecc95b84108cb7524c284c9155a65c9ee4b78bb6f137669": "read",
+  "ec9b724287b811f60d69f10c5bc81a494b0e8386f51f4ae28433eecaa7f8486c": "read"
+ },
+ "flags": []
+}

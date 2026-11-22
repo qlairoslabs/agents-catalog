@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c44e0b1b19b37fc0992f4fa0762a73a78f0fa6c149ca582ed503dac06bf17dc3",
+ "domain": [
+  "software/ai-agents",
+  "software/testing"
+ ],
+ "product": [
+  "agenticlens",
+  "agentic-chaos"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "MCP server combining AgenticLens and Agentic Chaos features for working with AI agent systems.",
+ "whenToUse": "Use when an agent needs AgenticLens observability or Agentic Chaos testing features through one server.",
+ "tasks": [
+  "inspect agent behavior",
+  "run chaos tests on agents"
+ ],
+ "effects": {},
+ "flags": []
+}

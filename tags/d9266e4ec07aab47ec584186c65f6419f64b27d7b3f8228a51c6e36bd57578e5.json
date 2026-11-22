@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "d9266e4ec07aab47ec584186c65f6419f64b27d7b3f8228a51c6e36bd57578e5",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "kiwi-com"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "be-online"
+ ],
+ "summary": "Finds cheap flights in Europe and multi-city round trips from cached airline prices and saves trips as shareable pages with Kiwi.com booking links.",
+ "whenToUse": "Use when someone wants cheap flights or a multi-city trip plan in Europe.",
+ "tasks": [
+  "plan multi-city trips",
+  "search cheapest flights",
+  "search cities",
+  "save trip and get booking link"
+ ],
+ "effects": {
+  "3c4ad4b0df2b45e60995101f301e081b14812a6702ab071535879491ca51aa92": "read",
+  "d6ade3be801ad3b5e2850654aeaf5b6f327c738a521c89def1124fbfa43e0217": "write",
+  "853c970f09e283e5b9dcbe8f0aa146b7b5e05fcd47d802b60010749910fe07ac": "read",
+  "4e5bb0050d421704a865d3a627d086e5bce58f062548a4c79de6a11fa79fb71f": "read"
+ },
+ "flags": []
+}

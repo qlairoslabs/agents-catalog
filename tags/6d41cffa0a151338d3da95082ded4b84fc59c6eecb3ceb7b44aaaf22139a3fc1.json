@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "6d41cffa0a151338d3da95082ded4b84fc59c6eecb3ceb7b44aaaf22139a3fc1",
+ "domain": [
+  "telecom/mobile-plans",
+  "commerce/mobile-plans"
+ ],
+ "product": [
+  "flytel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers",
+  "sell"
+ ],
+ "summary": "Flytel mobile plans for France–Switzerland cross-border workers: plan details, prices, country rates, eSIM compatibility, number transfer checks and data estimates.",
+ "whenToUse": "Use when someone wants to choose, price or check a Flytel plan, its inclusions across countries, eSIM support or number transfer.",
+ "tasks": [
+  "recommend plan",
+  "list plans",
+  "compare plans",
+  "find best plan for needs",
+  "country rates",
+  "check usage inclusion",
+  "eSIM compatibility",
+  "verify RIO code",
+  "transfer dates",
+  "estimate data use",
+  "calculate monthly price",
+  "get order link"
+ ],
+ "effects": {
+  "f8e9e1645749eb7e2814cbfe11e25d0fccb7346916fff5edba23ec090207d417": "read",
+  "da7e681648b38906250ce5244f3e25729f03b1adb2449272cd4444cbe80aa11d": "read",
+  "3df4031ad5d29d2b9a69cf8418c8745cd85686aef407df0eedbcae56f4b45b25": "read",
+  "4465594d4960fcdb1bb04981d919b87b80f9d99629e3b79c8063ada0f6ef0e06": "read",
+  "9eaddc62a6df70078d8fe0a8f4367d3c7cc69141b5e810ca2c5abfab54a4ca1d": "read",
+  "0e4e344b2acd77a026f160d5adf634dd361198307193c883b04e80aa02d8fd6a": "read",
+  "6cb7f422be4e828a6270f919a0656befaada727e675fda0701abe162ea477e6e": "read",
+  "153d42d9bfd1f32ce1bd009546e416a2b2646eb7e290d3154c7c81075f0f3548": "read",
+  "d1e1dd7265709d2868fd3e9757984c1a34015cb5411f086b008481ccbc7bf818": "read",
+  "6bc0e263e9504a4d19635ed99e78863b895ae1216cbdf57c0db16ff1d8fc34b0": "read",
+  "67baacc27da4dad467d18a838b2c7a4a20bc2d820e15f16ba79db800b0fc9496": "read",
+  "f32c0d4a1e1849633a727c218fb7f0921aaf5ccb61b394e0400e51ea6dd43c19": "read",
+  "dde93157ec9bfc5529ee340137f4edc44969633bebd119d34a4944bcee7f4242": "read",
+  "a77efeb1eb5a7714cbd54cb2b3047bc5a9333844d661e228ca4a52368e033c00": "read",
+  "a56189fc691c60ae0e1c1bcdf149597a6ba90a362e5f1dcf883ae74ea29fd7c9": "read"
+ },
+ "flags": []
+}

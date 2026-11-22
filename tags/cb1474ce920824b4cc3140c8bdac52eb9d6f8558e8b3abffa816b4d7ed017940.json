@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "cb1474ce920824b4cc3140c8bdac52eb9d6f8558e8b3abffa816b4d7ed017940",
+ "domain": [
+  "hiring/job-search",
+  "labor-market"
+ ],
+ "product": [
+  "metaintro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live job postings and gives employer profiles, hiring activity, local demand and market pay insights.",
+ "whenToUse": "Use when helping someone find jobs, read postings, research an employer or gauge pay and demand for a role and place.",
+ "tasks": [
+  "search jobs",
+  "read a job posting",
+  "get market insights",
+  "read employer profile",
+  "list employer jobs",
+  "find similar jobs",
+  "see local hiring demand"
+ ],
+ "effects": {
+  "14c032462caa30f35e26b52765c151528d46ab2c96f5e983b1a0ae8560594bc5": "write",
+  "e80bcc09aab4ee618fdaf37eff418adf701b48957b7575b15ff628e461483cd9": "read",
+  "b9cfa2671a79cc8c25e30804bdf42a4fc9b40e398ebd43c02795f391b6c7247a": "read",
+  "49748c08e3a00718b24e47981855c41cb922a2f3a2bebd9e566f919199cddd47": "read",
+  "5fa713b185f64113265dbc825b0466816f290b39748fdc333e6c0c236e8d4d97": "read",
+  "9e1e15323b9382676b917e77ce6d0b8e4cfb001d04929a052b23e230099bdc6b": "read",
+  "3826abac94a12606583c1ac5e2d4eb7b89951b94fb6e7d787e87770881eed221": "read"
+ },
+ "flags": []
+}

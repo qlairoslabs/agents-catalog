@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "7ff6989573b4532ba309e15800d94855aac62df37d0d7702ee5dba834d999beb",
+ "domain": [
+  "web/website-qa",
+  "marketing/seo/ai-visibility",
+  "web/utilities"
+ ],
+ "product": [
+  "superflow",
+  "google-analytics"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Free remote tools for website QA, AI crawler visibility, structured data, social previews, screenshots, UTM links and meeting times.",
+ "whenToUse": "Use when checking a public web page's SEO, AI-crawler access, metadata or uptime, or building UTM links and meeting times.",
+ "tasks": [
+  "check ai crawler visibility",
+  "test robots.txt for ai bots",
+  "generate llms.txt",
+  "convert page to markdown",
+  "generate and validate json-ld",
+  "check social previews",
+  "detect tech stack",
+  "check favicon and og video",
+  "check website uptime",
+  "capture full-page screenshot",
+  "draft image alt text",
+  "build utm urls and find meeting times"
+ ],
+ "effects": {
+  "c37be7459ebe61b8744e69561dba545e13dbcdcb4c7735c87472ece433f32f59": "write",
+  "6e2947ddf1ccff28fdb7712fe6b18dc88d62c8c99fe555bdca18b0641ec41171": "write",
+  "0916b6df56d1a16071477f0649ab338f02bf03f7d56a816632f12e4c147595a1": "write",
+  "7b5ee1511582ce7d1b4309e7154eead1ca5bf17cea052f66c8afcfcfddaa9a92": "write",
+  "8d3786f99787c7640e6506b88065c35cf516df88dcae09950f57e5a0459796e4": "write",
+  "f9bd497d37d4962c5fb9a38f671f50c1632290e056161a8b0b198b6f0784722e": "write",
+  "8febdb1b405be9b4e5d0b8d050fa1c950a6d6ace7c89193bfaaf5c18f733714d": "write",
+  "6812978977e6bbb686b244e9e8c3a91eed19834f48775ade9d34bb987c45e6d3": "write",
+  "e053104356d09d3c1a86b75ac80db95a8faf0656556b6eb3212fb170f0866a17": "read",
+  "a4d267ad719f79c9ee76973f929c8de67e6607b7d2d4bd1e5f12a3bdc70b5fc2": "write",
+  "684b318698a4461ffdd16ea89f9bf5f6772e723e766122f94fe163f2f355e532": "write",
+  "b1cc4ab1ebf03c975ab5c7bd314b6543a1994a1102073de257fc295f50d78ae8": "write",
+  "7b7cd7b1ecffb51e8cd856db606d34cf195dc352a7b6c751f1b7d5093fa4144e": "write",
+  "330907976bccb136e9493201e0e195b6e3185b4ec2679057fee259d6574d051e": "write",
+  "0be34abd759c553088f2214a4e81447e96fd234295d7f14a44c8e1ea34cb0922": "read",
+  "1523a7733d28a888a1d0038b15b6c88de6af4a203dcf5cdf46e75f234ddc4ed8": "read"
+ },
+ "flags": []
+}

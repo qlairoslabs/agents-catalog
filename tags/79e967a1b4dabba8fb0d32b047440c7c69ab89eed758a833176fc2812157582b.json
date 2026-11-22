@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "79e967a1b4dabba8fb0d32b047440c7c69ab89eed758a833176fc2812157582b",
+ "domain": [
+  "software/cybersecurity/threat-intelligence"
+ ],
+ "product": [
+  "phishdestroy"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Read-only phishing domain intelligence: check domains, get dated evidence reports and search by targeted brand.",
+ "whenToUse": "Use when checking whether a domain is a known phishing site or researching phishing against a brand.",
+ "tasks": [
+  "check domain",
+  "get evidence report",
+  "search by brand"
+ ],
+ "effects": {},
+ "flags": []
+}

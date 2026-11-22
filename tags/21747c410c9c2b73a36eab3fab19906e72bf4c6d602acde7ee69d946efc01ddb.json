@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "21747c410c9c2b73a36eab3fab19906e72bf4c6d602acde7ee69d946efc01ddb",
+ "domain": [
+  "software/cybersecurity/agent-policy-enforcement",
+  "software/ai-agents"
+ ],
+ "product": [
+  "cedar",
+  "npm",
+  "scopeblind"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Local npm gateway that checks agent tool calls against Cedar policies, denying on error and issuing Ed25519-signed receipts.",
+ "whenToUse": "Use when enforcing access policies and auditable records on an agent's tool calls.",
+ "tasks": [
+  "enforce cedar policies",
+  "block disallowed tool calls",
+  "issue signed receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

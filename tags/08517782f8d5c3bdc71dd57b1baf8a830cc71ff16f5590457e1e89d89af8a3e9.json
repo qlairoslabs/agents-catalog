@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "08517782f8d5c3bdc71dd57b1baf8a830cc71ff16f5590457e1e89d89af8a3e9",
+ "domain": [
+  "software/cybersecurity/api-security",
+  "software/api-design"
+ ],
+ "product": [
+  "42crunch",
+  "openapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs a 42Crunch static security audit of an OpenAPI file and fixes issues blocking the security quality gate.",
+ "whenToUse": "Use when the user wants to audit an OpenAPI spec for security issues and remediate findings without a live scan.",
+ "tasks": [
+  "audit openapi files",
+  "score api security",
+  "fix sqg-blocking issues",
+  "apply data dictionary enrichment",
+  "remediate audit findings"
+ ],
+ "effects": {},
+ "flags": []
+}

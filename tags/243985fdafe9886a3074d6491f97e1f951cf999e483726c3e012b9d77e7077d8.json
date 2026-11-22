@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "243985fdafe9886a3074d6491f97e1f951cf999e483726c3e012b9d77e7077d8",
+ "domain": [
+  "marketing/paid-advertising",
+  "marketing/ad-optimization"
+ ],
+ "product": [
+  "google-ads",
+  "meta-ads",
+  "chatgpt",
+  "claude"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Google Ads and Meta Ads from an AI assistant, including wasted-spend audits and campaign creation.",
+ "whenToUse": "Use when the user wants to audit, create or manage Google or Meta ad campaigns.",
+ "tasks": [
+  "audit wasted ad spend",
+  "create campaigns",
+  "manage campaigns",
+  "review ad performance"
+ ],
+ "effects": {},
+ "flags": []
+}

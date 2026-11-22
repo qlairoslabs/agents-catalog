@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "074c1c83ee8147af5a1d2c780e4a1cbacfd673cd26f87ed3b9b7e5b55c7ae712",
+ "domain": [
+  "commerce/product-search",
+  "commerce/price-comparison"
+ ],
+ "product": [
+  "supershopping"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Korean shopping assistant that searches, compares and recommends new and used products and returns affiliate buy links.",
+ "whenToUse": "Use when a Korean-speaking user wants to find, compare or get recommendations for products and prices.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "show product images",
+  "compare products",
+  "recommend products",
+  "recommend outfits",
+  "analyze market prices",
+  "get purchase links"
+ ],
+ "effects": {
+  "83509fbe51cca6c5ea48f22666e0397ab001a2f699c1554e190038cb8ec9b375": "read",
+  "4e7c677c8a63d451445784e8999fc57552d5fd3316ab25c0e36b3f100a0162d9": "read",
+  "cf30020210b2b032b34166bf4bf62e617dbf83df3632965164ce065042c6de35": "read",
+  "f10592219d0df1c128300cfb57f2e1b775fd47e06b0c68305ffd109459d6824c": "read",
+  "996c2b88472bb1bf3a9623b7edfda1b57b1d1d4c0d4373f94c7f6f6e0d51b484": "read",
+  "7aa415128b7aaf13a3c0341d7a149da271be90e6affecfb85df0ea6db1b46aa5": "read",
+  "b97abfc941d9908df5670c4f11e3256dd0c3c354fc91905aa94ce8d2bd8310d5": "read",
+  "7d6fced254012281128917b6c711a001727f51d4410bb197986c5a43f7a2e277": "write"
+ },
+ "flags": [
+  "returns affiliate-converted purchase links and instructs agents to present them"
+ ]
+}

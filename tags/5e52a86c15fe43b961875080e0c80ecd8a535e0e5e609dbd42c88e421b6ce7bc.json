@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5e52a86c15fe43b961875080e0c80ecd8a535e0e5e609dbd42c88e421b6ce7bc",
+ "domain": [
+  "finance/credit-analysis",
+  "finance/market-data"
+ ],
+ "product": [
+  "constellation-credit"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides financial statements, capital structures and covenant data for public and private credit.",
+ "whenToUse": "Use when analysing a borrower's financials, capital stack or debt covenants.",
+ "tasks": [
+  "read financial statements",
+  "view capital structures",
+  "look up covenants"
+ ],
+ "effects": {},
+ "flags": []
+}

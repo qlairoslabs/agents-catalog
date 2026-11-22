@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ba29111b82a672f922760af915aedbeffd96ad383cfe79e28e7da1d76beaecbd",
+ "domain": [
+  "software/observability"
+ ],
+ "product": [
+  "google-cloud-monitoring",
+  "google-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Google's connector for querying Cloud Monitoring metrics on app and infrastructure health.",
+ "whenToUse": "Use when an agent needs performance, availability or health metrics for Google Cloud workloads.",
+ "tasks": [
+  "query metrics",
+  "check service health"
+ ],
+ "effects": {},
+ "flags": []
+}

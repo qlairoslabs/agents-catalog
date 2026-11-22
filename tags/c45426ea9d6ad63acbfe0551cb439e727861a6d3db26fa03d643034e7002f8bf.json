@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c45426ea9d6ad63acbfe0551cb439e727861a6d3db26fa03d643034e7002f8bf",
+ "domain": [
+  "ai/cost-monitoring",
+  "finance/cost-optimization"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks AI agent spending, spots waste, suggests model choices and reports return on investment.",
+ "whenToUse": "Use when an agent needs to measure or reduce the cost of AI agent usage.",
+ "tasks": [
+  "track agent costs",
+  "detect waste",
+  "optimize model choice",
+  "report roi"
+ ],
+ "effects": {},
+ "flags": []
+}

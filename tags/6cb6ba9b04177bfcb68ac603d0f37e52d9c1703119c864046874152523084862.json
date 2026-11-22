@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6cb6ba9b04177bfcb68ac603d0f37e52d9c1703119c864046874152523084862",
+ "domain": [
+  "communication/telephony",
+  "support/virtual-receptionist"
+ ],
+ "product": [
+  "botphone"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Gives an AI agent a phone number that answers a business line and reports each call back.",
+ "whenToUse": "Use when a business wants an AI to answer phone calls and review call reports.",
+ "tasks": [
+  "provision phone number",
+  "answer business calls",
+  "report calls"
+ ],
+ "effects": {},
+ "flags": []
+}

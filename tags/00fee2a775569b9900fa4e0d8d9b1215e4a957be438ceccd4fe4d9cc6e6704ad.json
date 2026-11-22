@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "00fee2a775569b9900fa4e0d8d9b1215e4a957be438ceccd4fe4d9cc6e6704ad",
+ "domain": [
+  "software/api-gateway",
+  "commerce/korea"
+ ],
+ "product": [
+  "mcpweave"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "get-paid"
+ ],
+ "summary": "Gateway giving AI agents access to Korean commerce, payment, messaging, government and finance APIs.",
+ "whenToUse": "Use when an agent needs to call Korean commerce, payment, messaging or public-sector services.",
+ "tasks": [
+  "access korean commerce apis",
+  "process payments",
+  "send messages",
+  "query government apis",
+  "query finance apis"
+ ],
+ "effects": {},
+ "flags": []
+}

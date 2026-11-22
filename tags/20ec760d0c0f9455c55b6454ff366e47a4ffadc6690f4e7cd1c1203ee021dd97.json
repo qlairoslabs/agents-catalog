@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "20ec760d0c0f9455c55b6454ff366e47a4ffadc6690f4e7cd1c1203ee021dd97",
+ "domain": [
+  "software/ai/generative-ai",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-bedrock",
+  "aws",
+  "agentcore",
+  "coinbase",
+  "stripe"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance for building generative AI apps on Amazon Bedrock, covering model calls, knowledge bases, agents, guardrails, AgentCore and agent payments.",
+ "whenToUse": "Use when building, migrating or troubleshooting an application that calls models or agents through Amazon Bedrock or AgentCore.",
+ "tasks": [
+  "invoke models with converse or invokemodel",
+  "set up knowledge bases for rag",
+  "create bedrock agents",
+  "apply guardrails",
+  "deploy to agentcore harness",
+  "migrate bedrock agents to agentcore",
+  "diagnose throttling and access errors",
+  "choose models",
+  "configure prompt caching",
+  "track costs",
+  "set up agentcore payments"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "2d79ece3ca3a1ca2d6cd6779993a3107e5b7323c5857fa78c5814bc28825380c",
+ "domain": [
+  "software/api/graphql",
+  "software/development"
+ ],
+ "product": [
+  "apollo-federation",
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for writing Apollo Federation subgraph schemas, entities, federation directives and fixing composition errors.",
+ "whenToUse": "Use when designing or debugging subgraph schemas for a federated GraphQL supergraph.",
+ "tasks": [
+  "create subgraph schemas",
+  "define entities with @key",
+  "share types with @shareable",
+  "apply federation directives",
+  "troubleshoot composition errors",
+  "apply federation design patterns"
+ ],
+ "effects": {},
+ "flags": []
+}

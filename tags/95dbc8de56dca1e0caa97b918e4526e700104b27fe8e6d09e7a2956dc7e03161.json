@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "95dbc8de56dca1e0caa97b918e4526e700104b27fe8e6d09e7a2956dc7e03161",
+ "domain": [
+  "ai/voice",
+  "media/audio"
+ ],
+ "product": [
+  "pyai"
+ ],
+ "audience": [
+  "everyone",
+  "create-content"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Voice AI tools for speech synthesis, transcription, voice agents, recaps, dubbing and narration, with browser OAuth sign-in.",
+ "whenToUse": "Use when an agent needs to transcribe audio, generate speech, dub media or run a voice agent.",
+ "tasks": [
+  "text to speech",
+  "transcribe audio",
+  "run voice agents",
+  "create recaps",
+  "dub audio",
+  "generate narration"
+ ],
+ "effects": {},
+ "flags": []
+}

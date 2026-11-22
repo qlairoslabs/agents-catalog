@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ff68dd8e54f689775b8fe70e81dd1a367c8f054284c0fdf7821693a0edcd5fb9",
+ "domain": [
+  "media/video-editing"
+ ],
+ "product": [
+  "ffmpeg",
+  "hyperframes"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Local video editing toolkit for agents built on FFmpeg, with captions, effects, Hyperframes and edit receipts.",
+ "whenToUse": "Use when an agent needs to edit, caption or add effects to video files locally.",
+ "tasks": [
+  "edit video",
+  "add captions",
+  "apply effects",
+  "render hyperframes",
+  "produce edit receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

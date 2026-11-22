@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c0b9c88881b08ab95d622470745efec0f70e11f8474afd20e043ceb9f6c7124b",
+ "domain": [
+  "legal/colombian-public-law",
+  "legal/research"
+ ],
+ "product": [
+  "name-abogados",
+  "colombia-compra-eficiente"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches an archive of Colombian public-law documents (concepts, laws, Constitution) and returns detailed record cards with links to official texts.",
+ "whenToUse": "Use when researching Colombian public procurement or public law and you need relevant official documents and summaries.",
+ "tasks": [
+  "search legal documents",
+  "filter by authority, date or type",
+  "get document record card",
+  "find related norms"
+ ],
+ "effects": {
+  "31acae39384e6724824a8afc3870c5c281f4299feea930057417ee1ca204a9ca": "write",
+  "eb9c07796a0f98046b88152d15eb4432f9f470da5f57137b849e8ab51ab11812": "read"
+ },
+ "flags": []
+}

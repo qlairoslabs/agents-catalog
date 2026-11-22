@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "262617d737e2e609757471c40020a97b470a6e78faa9365be992545e2a6e092a",
+ "domain": [
+  "software/utilities",
+  "data/conversion"
+ ],
+ "product": [
+  "tinyfn"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Large collection of deterministic utility functions covering math, unit conversion, validation, hashing, encoding and date/time.",
+ "whenToUse": "Use when an agent needs exact calculations, conversions, hashing, encoding or date handling instead of estimating.",
+ "tasks": [
+  "perform math calculations",
+  "convert units",
+  "validate data formats",
+  "compute hashes",
+  "encode and decode data",
+  "handle dates and times"
+ ],
+ "effects": {},
+ "flags": []
+}

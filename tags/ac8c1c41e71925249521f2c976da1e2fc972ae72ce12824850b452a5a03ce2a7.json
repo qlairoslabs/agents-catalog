@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "ac8c1c41e71925249521f2c976da1e2fc972ae72ce12824850b452a5a03ce2a7",
+ "domain": [
+  "marketing/seo",
+  "marketing/analytics"
+ ],
+ "product": [
+  "google-search-console",
+  "google-analytics",
+  "pagespeed-insights",
+  "cloudflare",
+  "indexnow",
+  "crux"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local SEO server that tracks AI citations and pulls data from Search Console, GA4, PageSpeed, Cloudflare, IndexNow and CrUX.",
+ "whenToUse": "Use when analyzing a website's search performance, speed or AI citations, or submitting URLs for indexing.",
+ "tasks": [
+  "track ai citations",
+  "query search console",
+  "read ga4 analytics",
+  "run pagespeed checks",
+  "submit urls via indexnow",
+  "read crux data"
+ ],
+ "effects": {},
+ "flags": []
+}

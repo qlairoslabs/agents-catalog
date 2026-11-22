@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "9b54f2de7a21a67274ec9842d8595d6e3a750923cce3fff8b66e4bff8df9f20c",
+ "domain": [
+  "outdoor/ocean-conditions",
+  "travel/planning"
+ ],
+ "product": [
+  "kaicast"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Ocean forecasts with visibility, swell, wind and tide, plus ranked dive and snorkel spots, best days and best months.",
+ "whenToUse": "Use when planning snorkeling, diving or freediving and you need conditions, spot picks or seasonal guidance.",
+ "tasks": [
+  "get spot conditions",
+  "list coverage",
+  "recommend spots",
+  "find best day",
+  "get seasonality",
+  "rank best months"
+ ],
+ "effects": {
+  "01896d65c083a1336b09e80fe00b2a38a1ada8221cd8e1f97960a462d2f6153f": "read",
+  "091623f499dc1065becd54634bea7394d011cdc59c6c7a3b5799067025f2efd5": "read",
+  "825ce4f4f87ca0c62059cb7656dc29856dfa2337d44f55ec61b9628dbbca9b33": "read",
+  "6007ece859c8be0cac5a8abc9429c4de241a1a792923177302ddcd1fe062f5f4": "read",
+  "3b630b517d2b63eee06eab0875e9de5b269812fa2bc5baa71ec32a2b97f6b6e5": "read",
+  "33a31e91e7229989f30f0efce895e0035c1865b4ba710391d3a940aed0c47ab1": "read"
+ },
+ "flags": []
+}

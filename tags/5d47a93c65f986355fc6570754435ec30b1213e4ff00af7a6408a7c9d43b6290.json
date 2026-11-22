@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "5d47a93c65f986355fc6570754435ec30b1213e4ff00af7a6408a7c9d43b6290",
+ "domain": [
+  "software/databases",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-aurora",
+  "amazon-dsql",
+  "amazon-rds",
+  "amazon-dynamodb",
+  "amazon-keyspaces",
+  "amazon-documentdb",
+  "amazon-neptune",
+  "amazon-timestream"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Router skill that helps choose and operate AWS database services and hands off to service-specific skills.",
+ "whenToUse": "Use when building an AWS application that stores data or when choosing or operating an AWS database.",
+ "tasks": [
+  "compare aws database services",
+  "recommend a database for a workload",
+  "route to service-specific skills",
+  "explain service limitations"
+ ],
+ "effects": {},
+ "flags": [
+  "description claims to supersede the agent's training knowledge and to activate broadly"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e72d7fe4b16500714abbd2e36f404c897e3dfa006fb02f3d645363c6f93f25b6",
+ "domain": [
+  "ai/agent-memory",
+  "data/knowledge-graph"
+ ],
+ "product": [
+  "gomind"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Persistent knowledge graph that lets AI agents store, recall and delete facts.",
+ "whenToUse": "Use when an agent needs to remember facts across sessions or forget stored information.",
+ "tasks": [
+  "remember facts",
+  "recall facts",
+  "forget facts"
+ ],
+ "effects": {},
+ "flags": []
+}

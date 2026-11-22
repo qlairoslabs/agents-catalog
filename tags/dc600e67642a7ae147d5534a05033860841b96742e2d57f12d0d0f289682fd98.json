@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "dc600e67642a7ae147d5534a05033860841b96742e2d57f12d0d0f289682fd98",
+ "domain": [
+  "entertainment/games"
+ ],
+ "product": [
+  "remix"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Find and play free browser games made by creators on Remix, by name, genre or device.",
+ "whenToUse": "Use when a user wants to find or play a free browser game.",
+ "tasks": [
+  "search games",
+  "list top games",
+  "get game details",
+  "play a game"
+ ],
+ "effects": {
+  "57572eea9f308cc9fb217a090cba678ef586aa4a218572b47e4cf34ca66d77e7": "read",
+  "536e370ebc2cc2709083af70e337a68613db8ce6cefeef3a94d5cf03eec2e40f": "read",
+  "f4f28f7c1b068c293d5cc4cb0b89914d01535bef1f000f35ef72ec1a92a32e20": "read",
+  "cb8153761b4ad035f69461c9a634b4210016a8a8df917d22f78984affa5615cc": "read"
+ },
+ "flags": []
+}

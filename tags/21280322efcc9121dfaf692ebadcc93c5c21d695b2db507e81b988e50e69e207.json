@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "21280322efcc9121dfaf692ebadcc93c5c21d695b2db507e81b988e50e69e207",
+ "domain": [
+  "travel/vacation-rental"
+ ],
+ "product": [
+  "voya-homes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches Voya Homes vacation homes by destination, dates and guests with availability, prices and property details.",
+ "whenToUse": "Use when a user wants to find vacation homes, mostly in Orlando, with prices for given dates.",
+ "tasks": [
+  "list destinations",
+  "search homes by dates",
+  "get home details",
+  "find homes in catalog"
+ ],
+ "effects": {
+  "ee2ada42a6915340a1d7471ff126627f86ded949f877f05479b435ba48efe15f": "read",
+  "24a7c0b207c500a3bfc4333c85de4b98318d4c9b992093448df5b91748744189": "read",
+  "8a65984ec0a480addeae564049f05ced00b0d531cc19c0b3fd8a4b66f4180f99": "read",
+  "1d803e872aa6043055c4ec8407b7408162e9d893e9f7a9b18e5cf7c90ef07324": "read"
+ },
+ "flags": []
+}

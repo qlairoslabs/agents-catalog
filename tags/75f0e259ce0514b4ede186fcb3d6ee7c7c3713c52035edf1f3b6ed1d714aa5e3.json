@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "75f0e259ce0514b4ede186fcb3d6ee7c7c3713c52035edf1f3b6ed1d714aa5e3",
+ "domain": [
+  "data/company-enrichment",
+  "design/brand-assets"
+ ],
+ "product": [
+  "logokit"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "design",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up company and brand data by domain, ticker or ISIN, including industry, headcount, HQ, social links, colors and logos.",
+ "whenToUse": "Use when the user needs company profile details or brand logos and colors for a given domain or ticker.",
+ "tasks": [
+  "look up company by domain",
+  "look up company by ticker or isin",
+  "get logos",
+  "get brand colors",
+  "get headcount and hq"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a801f0ac3d3a2d375cfee06dbc4390f193d790c6e768b630ba581f0610872b4a",
+ "domain": [
+  "finance/trading"
+ ],
+ "product": [
+  "fensory"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Trading server giving agents live market data, account information and controlled order execution.",
+ "whenToUse": "Use when an agent needs market data or account details, or must place trades under user-approved controls.",
+ "tasks": [
+  "get live market data",
+  "read account positions",
+  "place trades"
+ ],
+ "effects": {},
+ "flags": []
+}

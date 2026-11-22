@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "0ab3ff987b1fd03c3bb8deedf58af049b124a242f73a363b4dc55d72b2fdfb14",
+ "domain": [
+  "software/cloud/networking"
+ ],
+ "product": [
+  "amazon-route-53",
+  "amazon-cloudfront",
+  "aws-transit-gateway",
+  "aws-direct-connect",
+  "aws-site-to-site-vpn",
+  "aws-waf",
+  "aws-shield"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Router skill for AWS networking services such as Route 53, CloudFront, Transit Gateway, VPN, WAF and Shield.",
+ "whenToUse": "Use when designing, configuring or troubleshooting DNS, CDN, hybrid connectivity or traffic filtering on AWS.",
+ "tasks": [
+  "configure dns and health checks",
+  "set up cloudfront caching",
+  "design transit gateway hubs",
+  "set up direct connect",
+  "configure site-to-site vpn",
+  "configure waf rules",
+  "set up ddos protection",
+  "diagnose connectivity issues"
+ ],
+ "effects": {},
+ "flags": []
+}

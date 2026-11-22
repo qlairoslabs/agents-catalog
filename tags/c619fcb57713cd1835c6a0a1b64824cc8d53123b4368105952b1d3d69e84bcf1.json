@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c619fcb57713cd1835c6a0a1b64824cc8d53123b4368105952b1d3d69e84bcf1",
+ "domain": [
+  "software/integration/mcp-aggregator",
+  "automation"
+ ],
+ "product": [
+  "lodestone"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Aggregator connector exposing 21 services and 51 tools through a single MCP URL.",
+ "whenToUse": "Use when an agent needs access to several third-party services through one connector.",
+ "tasks": [
+  "access multiple services",
+  "call aggregated tools"
+ ],
+ "effects": {},
+ "flags": []
+}

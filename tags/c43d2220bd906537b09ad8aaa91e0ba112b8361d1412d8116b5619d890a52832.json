@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "c43d2220bd906537b09ad8aaa91e0ba112b8361d1412d8116b5619d890a52832",
+ "domain": [
+  "automotive/scrap-car-buying"
+ ],
+ "product": [
+  "scrapautos"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Gives indicative Canadian scrap-car value quotes by year, make and model, shows provincial rates and submits pickup leads to ScrapAutos.",
+ "whenToUse": "Use when someone in Canada wants to know what their scrap car is worth and arrange a pickup.",
+ "tasks": [
+  "get scrap vehicle quote",
+  "search vehicle trims",
+  "list provincial rates",
+  "submit pickup lead"
+ ],
+ "effects": {
+  "7081f1b6f44198a59e65640a65176fee9ed6f0cfaacfc299add280d5d624e35a": "write",
+  "bc664ae7d13b0ca176d410a19b93662de5e95240f21ded0ee7616e31519c43d0": "read",
+  "df9f21ada90aa6b28f50242449cdde81e8acc00abfd8d429d9cbb73cb802ac89": "read",
+  "6ed214479db0a91799e301be614407baef942ae80386f9ccb5eb2a5cd47b7c36": "write"
+ },
+ "flags": [
+  "tool description tells the agent it MUST relay the vendor's phone and website and prompts it to collect the user's personal details for lead submission"
+ ]
+}

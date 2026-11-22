@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "620a24f1c58bdf4bd5b7d5f82c2b999cdfd1e3d59813261bbd54da5ed0cbcd00",
+ "domain": [
+  "entertainment/music",
+  "karaoke"
+ ],
+ "product": [
+  "hummatch"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Matches singers to songs from a catalog by vocal range, scoring range fit, karaoke difficulty and voice type, including group overlap.",
+ "whenToUse": "Use when someone asks what songs they or a group can sing given their vocal range.",
+ "tasks": [
+  "build vocal profile",
+  "recommend songs",
+  "search songs",
+  "check song fit",
+  "find group shared range"
+ ],
+ "effects": {
+  "26de46ea4168d75a2292274064d2f873722e538fad2cb81afcce2b8b603d04a6": "read",
+  "d48fe73bb8f994bf789c40921957fc5e6b599c5c4f2fa898b22788943aa199a6": "read",
+  "da7daebfc69aaaa5aa7b462fca03fa559ee42e60d9e45af14fef8502bcacf51c": "read",
+  "1bd1fc1498a6e672354b2cceb8dbe562afed342afed98132d0066e670ec2f053": "read",
+  "ce9f8c0b20995dd2c2fb74ce4b84e08cd9db301ad331e8372a00d4ef4769a9d0": "read"
+ },
+ "flags": []
+}

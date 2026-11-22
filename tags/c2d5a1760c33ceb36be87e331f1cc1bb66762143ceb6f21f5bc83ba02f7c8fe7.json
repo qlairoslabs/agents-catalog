@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c2d5a1760c33ceb36be87e331f1cc1bb66762143ceb6f21f5bc83ba02f7c8fe7",
+ "domain": [
+  "marketing/product-demos",
+  "sales/demo-automation"
+ ],
+ "product": [
+  "howdygo"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Finds, edits, publishes and exports interactive product demos stored in a HowdyGo library.",
+ "whenToUse": "Use when an agent needs to locate, modify or publish interactive product demos in HowdyGo.",
+ "tasks": [
+  "search demos",
+  "edit demos",
+  "publish demos",
+  "export demos"
+ ],
+ "effects": {},
+ "flags": []
+}

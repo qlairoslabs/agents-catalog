@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "7f58545ac3fbf4dfa9500feaf228f6926c2c8b25477a78b91e34e88065e2d7c5",
+ "domain": [
+  "communication/video-meetings"
+ ],
+ "product": [
+  "liqaa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Creates instant end-to-end encrypted LIQAA video meetings and reports plans, capacity and usage statistics.",
+ "whenToUse": "Use when a user needs a quick shareable video meeting link without accounts.",
+ "tasks": [
+  "create instant meeting room",
+  "list plans",
+  "read platform capacity",
+  "read usage stats"
+ ],
+ "effects": {
+  "78f78e04f33e7b019dd22cd585f1542fb41606c88ae894828bfb2561f61d99d9": "write",
+  "b18dff7288075e21eaae06c49fc8c7aacd76ed4b740a3d7dc7583bf9dd0ca904": "read",
+  "21274b74d2f3d022687e84df9cbb08bbd2b69358e76a763fb8b021cf0e74185a": "read",
+  "492f8ca38b7bcdf56eef687efe048400bdb5083641f10133f10f9c334cb96514": "read"
+ },
+ "flags": []
+}

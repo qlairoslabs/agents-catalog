@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "0c0fd7f7e3340916b68c422946af755a0500f3e5cde23611c638f38ff5e17ede",
+ "domain": [
+  "ecommerce/flower-delivery",
+  "shopping/price-comparison"
+ ],
+ "product": [
+  "blumee",
+  "plantnet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Compares flower and plant delivery offers from partner florists in Germany, searchable by text description or photo.",
+ "whenToUse": "Use when a user wants to find or compare flower bouquets for delivery in Germany by occasion, budget, deadline or a photo.",
+ "tasks": [
+  "search bouquets by description",
+  "match bouquet from photo",
+  "browse catalog by attributes",
+  "filter by price and delivery time",
+  "compare same bouquet across shops",
+  "get offer details"
+ ],
+ "effects": {
+  "c3bfe49cd36db8290ab436941c868da6b7df7be10e8ed714b0b058e3a30d8d4c": "read",
+  "0ac1218c09214778dc377f3a6f3539629c696ae38a56de92c2e32a220c4b4dec": "read",
+  "2dc9c142771c596dd1ee9e1ff5a9a239bf86c26266a811be5ec208c92e4ff2b7": "read",
+  "a48b91df34014becdf106f2f095520fa9591127cf8952300d53691f39d2737de": "read"
+ },
+ "flags": []
+}

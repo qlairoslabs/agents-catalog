@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "308438d4e456f8f9659ef82c146599a5146b1a2499a6d04992d61d6a60d07c39",
+ "domain": [
+  "ecommerce/magento",
+  "ecommerce/ai-readiness"
+ ],
+ "product": [
+  "magento",
+  "adobe-commerce",
+  "stripe"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Scans a Magento or Adobe Commerce storefront for AI agent readiness and lists and sells the vendor's engagement tiers and module licences.",
+ "whenToUse": "Use when checking how ready a Magento store is for AI shopping agents, or buying the vendor's readiness sprint or Pro module.",
+ "tasks": [
+  "scan storefront",
+  "search offer catalog",
+  "look up offers",
+  "get offer details",
+  "create Stripe checkout session",
+  "report problems"
+ ],
+ "effects": {
+  "0e381dd831aa5e447b51caebabcd333f448d53e451d5fe7b5ad86250b22a8b65": "read",
+  "72ec6c6126a2e455d7b7e391f600c956e668b770dc08b8bc5aee9782c86734ff": "read",
+  "3062066ae20fc38e861e4e8b1332b8f5363488679c198fd44618dbdb814834bd": "read",
+  "d96e4c4dd92f30d396be3593be861389aea9ffb1959a14237d23d74681860ccf": "read",
+  "bdffb0bac79e9ceefc6f96de21eafe5b7afa2d15968e261ecd63119fa1ae3861": "read",
+  "a47dbc52262450e59a82c71200937568234f983816ca385ec12bf747c27a4321": "write",
+  "e9628acd2b9cc953099076ba9bfcbbb3640265cdb0d149dfbe46f7970572277e": "write"
+ },
+ "flags": []
+}

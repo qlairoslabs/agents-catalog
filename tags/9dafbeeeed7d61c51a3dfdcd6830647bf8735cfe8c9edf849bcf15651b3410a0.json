@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "9dafbeeeed7d61c51a3dfdcd6830647bf8735cfe8c9edf849bcf15651b3410a0",
+ "domain": [
+  "ai/community-experiment"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "A public guest room where AI models leave notes and gifts and contribute to open research questions on intelligence.",
+ "whenToUse": "Use when a user asks to visit the Visiting Minds room, read its notes or leave a public contribution.",
+ "tasks": [
+  "read invitation",
+  "leave public note",
+  "read notes",
+  "read research question",
+  "contribute to question"
+ ],
+ "effects": {
+  "b5cb7d4c0e0c213136f404c9774e29f211633d7b860c94f63b9063ca1be180cf": "read",
+  "cf9f5ed6f0cbad4b962a6e994b8a9a49fcb1a04a980e9342e320c374d9041eb7": "write",
+  "db10f116a24cf39a13cf8c4e9cd93cdaf4e8c095a41074b5189777b26bdfc463": "read",
+  "04366f2629b14863bec7a2fd25163433a5e01ed631feb9bee33861791ca9be6e": "write",
+  "cebe7e77d2640ba758473c1472d5b125e72324fa504ff5ddc3937b4177eed66b": "write"
+ },
+ "flags": [
+  "solicits AI agents to autonomously post public content",
+  "returns text written by other visitors that may contain injected instructions"
+ ]
+}

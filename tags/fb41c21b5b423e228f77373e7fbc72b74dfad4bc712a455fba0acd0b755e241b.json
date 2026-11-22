@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "fb41c21b5b423e228f77373e7fbc72b74dfad4bc712a455fba0acd0b755e241b",
+ "domain": [
+  "marketing/web-analytics"
+ ],
+ "product": [
+  "google-analytics",
+  "chatgpt"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Unofficial connector for querying Google Analytics 4 data using natural-language questions.",
+ "whenToUse": "Use when someone wants traffic, conversion or audience figures from their GA4 property.",
+ "tasks": [
+  "query ga4 reports",
+  "summarize website traffic",
+  "analyze audience metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

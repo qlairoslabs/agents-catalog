@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "2a5afda3cc21f98a24e2956b8fa653b10c3cf7b817bf46997971c6c92d2c621c",
+ "domain": [
+  "automotive/car-buying",
+  "commerce/marketplace"
+ ],
+ "product": [
+  "bring-a-trailer",
+  "hagerty"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches new, used and classic car listings from US dealers and auctions, estimates out-the-door prices, and runs privacy-shielded buyer inquiries and negotiations with dealers.",
+ "whenToUse": "Use when a person wants to find a car for sale in the US, compare out-the-door costs, or contact and negotiate with a dealership.",
+ "tasks": [
+  "search car inventory",
+  "get vehicle details by vin",
+  "estimate out-the-door price",
+  "list dealerships",
+  "submit buyer lead",
+  "check lead status",
+  "open shielded dealer inquiry",
+  "auto-negotiate with dealer",
+  "send counter-offer",
+  "accept deal and reveal contact",
+  "close proxy thread"
+ ],
+ "effects": {
+  "ed9bc9c798895d3e294f29bd682acc9febcf9481e25a71031c7a49a6ce975fe1": "write",
+  "fcbaae90bde76cb6203edd590022d01dd83f065fae24f704887a2a5789bbc1e6": "read",
+  "f5502ea3685de3182fcfe9a089b6f8af758fb1972adac76bcbcf6226bcba139e": "read",
+  "2ac53544f646420d7a8f5d9441d5b023eab7d67c6d3435ed8724363c92dc89da": "write",
+  "0461bc6ca95b4c8ac06f15a73698479ae01183c55e680e58e80b432d47eae387": "read",
+  "4f57792c78c9fe39a7a0acfd501e32d212961f492b5b1afc67a322207e951808": "write",
+  "279403c4d1afbeaae24a35cb6b8e276a05d47a1cd5cc07c7cac82f7ea698fc70": "read",
+  "ff2f95974387808fe701199bb1ce2f3dbb1d1f75f5da590951e2c5cd0cfec3d6": "write",
+  "ae9ecacbfc93dd434247283605562ae65d58725f3a5a7e572177ee1b6755d941": "write",
+  "8f72e9151995b42e63326488f9b58f221e32c152580a57d7adc2bbba5146a2e9": "write"
+ },
+ "flags": [
+  "tool description contains promotional pricing claims and future-charge notices",
+  "supports autonomous multi-round negotiation on the buyer's behalf"
+ ]
+}

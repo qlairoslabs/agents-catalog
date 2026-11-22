@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "94a48963b486874557004aa0704f1461f400cedd3ceae0d80a2efef323a5f5d2",
+ "domain": [
+  "events/planning",
+  "commerce/booking"
+ ],
+ "product": [
+  "nimtin"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Helps book event venues and vendors, with drafted requests held in nimtin until the user sends them.",
+ "whenToUse": "Use when an agent helps plan an event and needs to find and draft bookings with venues or vendors.",
+ "tasks": [
+  "find venues",
+  "find vendors",
+  "draft booking requests"
+ ],
+ "effects": {},
+ "flags": []
+}

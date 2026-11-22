@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "d6ef5e887d6e42773bd725fba62fe6bfad554b9eea849c5d99728e2a7c2594c8",
+ "domain": [
+  "healthcare/dental",
+  "scheduling"
+ ],
+ "product": [
+  "xona"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "support-customers"
+ ],
+ "summary": "Search Canadian dental practices and book, request, reschedule or cancel appointments, with patient confirmation by text or email link.",
+ "whenToUse": "Use when a patient in Canada wants to find a dentist and book or manage an appointment.",
+ "tasks": [
+  "search dentists by place, service, language",
+  "get practice profiles",
+  "answer factual questions",
+  "list booking options",
+  "read open slots",
+  "hold a slot",
+  "send appointment request",
+  "confirm booking status",
+  "list appointments",
+  "reschedule or cancel"
+ ],
+ "effects": {
+  "fc038c01181ccf6396eb7f47c69fa148af6b6138fba9c51e107eb4f98c41a066": "write",
+  "3bc9f992e6892978f2f0db8c73381a17051e53aaf30fb0c82fe950373b547da2": "read",
+  "74c0eba6f13244bc1f1409c9e5179e84855d5d7192598c4cb895146e50751ac2": "read",
+  "fa4d322362973146d38f6142052c610433b479b232e5ae1c443a0b724a01bfb8": "read",
+  "34c5cfd68b6acbc59a5e858a3d6ade5793539e205c885a4e8ebe4a6fcddceaf5": "write",
+  "e150ae49c26020e6411cff424601b6918bb2ac9004ae1dc61a8eb2e61620a29e": "read",
+  "4d95075cd8231d7b4dc5a2f1994e33e28cdb6f394292695ebdf2be86172a5ef4": "read",
+  "f137d8dc108ab2f870440bc464ca2c4be1ef7b0805ded850c5933a41cc09e31a": "write",
+  "2eadaf3b2c1d03c71631b080eea03e412cc6d58bdc6ccd202ee2e702ec6c932f": "write",
+  "f1b1dde73e11db4e8da60af29980413ee36387e27a4977cd87c51dd280bcf750": "write",
+  "420f28eac34c23a7c0594c752493b39736e6306fd4c5938965db3f022d3bb3d0": "read",
+  "35e57d71b44af30053af0f57655d65d69ff3fe5962fde2d8f890cc872293942d": "read",
+  "6f0c2260022c3bd366e790c3223cb7820416bd52a36a34b04972f3f559e3f70f": "read",
+  "ec96b19cdbe8e133537d9cc9385b7f2e2efeabf94aca2e0d1b56c5656e53bf01": "write",
+  "7abe76f655d946356f832e09d001903456125bc2bb3f083b52d5e5d06014c9a6": "write",
+  "350aa47450f0c34a97bbe1fb48066353515c1c94e32fa435a28c9480a193b0ec": "write",
+  "c75160651539a031497541c1f94224664bf683597db4561a23afdfdfba684e30": "write",
+  "a6cf143116a3ea6d8acaafc5b62e063284a8bb26e3c998c1597ed80499c3f5d4": "read",
+  "8167d4d59883fe3f44364ffaa8a55ac771486c102acedf0cab68dab1aa344901": "read",
+  "14f45dd159cbfaf64702f4d914dfa75f8986f214df051ebefbbde833bf7d29e1": "write"
+ },
+ "flags": []
+}

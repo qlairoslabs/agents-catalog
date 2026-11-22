@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b6362b520a762cb0228c4f1e6c20d4215516980940548749fd96cf5730c0cd7c",
+ "domain": [
+  "marketing/youtube-analytics",
+  "media/video"
+ ],
+ "product": [
+  "youtube",
+  "tubegrade"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Provides YouTube channel and video statistics, transcripts, outlier video detection and viral title patterns.",
+ "whenToUse": "Use when researching YouTube channels or videos to plan content or analyse performance.",
+ "tasks": [
+  "get channel stats",
+  "get video stats",
+  "fetch transcripts",
+  "find outlier videos",
+  "analyse viral title formats"
+ ],
+ "effects": {},
+ "flags": []
+}

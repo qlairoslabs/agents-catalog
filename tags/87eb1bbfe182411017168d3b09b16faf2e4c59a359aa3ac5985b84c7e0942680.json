@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "87eb1bbfe182411017168d3b09b16faf2e4c59a359aa3ac5985b84c7e0942680",
+ "domain": [
+  "marketing/link-management",
+  "marketing/analytics"
+ ],
+ "product": [
+  "toui"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "URL shortening service that creates short links, tracks campaigns and reports click statistics.",
+ "whenToUse": "Use when an agent needs to shorten links or check campaign link statistics.",
+ "tasks": [
+  "shorten urls",
+  "track campaigns",
+  "read link statistics"
+ ],
+ "effects": {},
+ "flags": []
+}

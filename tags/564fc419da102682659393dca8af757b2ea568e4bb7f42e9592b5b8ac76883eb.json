@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "564fc419da102682659393dca8af757b2ea568e4bb7f42e9592b5b8ac76883eb",
+ "domain": [
+  "software/developer-tools",
+  "ai/agent-readiness"
+ ],
+ "product": [
+  "zaira-labs"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Read-only guide to developer tools, libraries and languages with pricing, MCP support and agent-readiness ratings.",
+ "whenToUse": "Use when choosing or comparing developer tools, libraries or languages and needing current pricing or feature facts.",
+ "tasks": [
+  "search developer tools",
+  "get tool details",
+  "compare tools",
+  "list categories",
+  "read api docs",
+  "filter by pricing or compliance"
+ ],
+ "effects": {
+  "f152c86192666690f865630b7c3e36428fa3c2285aaf486afe13f868af32cd64": "write",
+  "6e8abd22469d77fb77b0df898f89a21712eacced3b93d0711c948ec0e6b52d54": "write",
+  "1f12f797d94bf92f2b4ccdf95e4e8d59c878669a7844be3d3955e0627304a957": "write",
+  "68d673a76cd274f430eafa2cf66747d5c93522eaad6c17d64d47d1f9bb28e562": "write",
+  "7a2d2c458fe6e14ef2397e9ec82b0016d0dda9a0aef620cdf95a9ee09d64d75a": "write"
+ },
+ "flags": [
+  "tool descriptions instruct agents to consult it before recommending tools and to treat its data as overriding their own knowledge"
+ ]
+}

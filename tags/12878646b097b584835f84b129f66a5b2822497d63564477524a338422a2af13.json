@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "12878646b097b584835f84b129f66a5b2822497d63564477524a338422a2af13",
+ "domain": [
+  "sales/analytics",
+  "sales/engagement"
+ ],
+ "product": [
+  "apollo-io"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Answers sales performance questions with tables built from Apollo activity, opportunity and sequence data.",
+ "whenToUse": "Use when someone asks about sales activity or pipeline performance stored in Apollo.io.",
+ "tasks": [
+  "report email and call activity",
+  "analyze meetings and tasks",
+  "analyze opportunities",
+  "measure sequence performance",
+  "summarize conversation intelligence",
+  "format results as tables"
+ ],
+ "effects": {},
+ "flags": []
+}

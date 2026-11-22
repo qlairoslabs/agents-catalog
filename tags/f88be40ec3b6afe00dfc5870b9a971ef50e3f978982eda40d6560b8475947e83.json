@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f88be40ec3b6afe00dfc5870b9a971ef50e3f978982eda40d6560b8475947e83",
+ "domain": [
+  "software/ai-evaluation",
+  "software/ai-governance"
+ ],
+ "product": [
+  "openlayer"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Inspects AI projects, traces, tests and governance rules in Openlayer and helps debug failing evaluations.",
+ "whenToUse": "Use when investigating AI model test failures, traces or governance rules in Openlayer.",
+ "tasks": [
+  "inspect ai projects",
+  "view traces",
+  "review tests",
+  "check governance rules",
+  "debug failing evals"
+ ],
+ "effects": {},
+ "flags": []
+}

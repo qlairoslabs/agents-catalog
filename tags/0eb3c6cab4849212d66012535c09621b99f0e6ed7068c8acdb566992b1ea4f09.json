@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0eb3c6cab4849212d66012535c09621b99f0e6ed7068c8acdb566992b1ea4f09",
+ "domain": [
+  "software/cybersecurity/threat-intelligence"
+ ],
+ "product": [
+  "shodan"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Queries Shodan for internet-connected devices, IP details, DNS records and CVE/CPE data.",
+ "whenToUse": "Use when an agent needs exposure or vulnerability information about hosts, IPs or software.",
+ "tasks": [
+  "search devices",
+  "look up ip addresses",
+  "dns lookups",
+  "cve queries",
+  "cpe queries"
+ ],
+ "effects": {},
+ "flags": []
+}

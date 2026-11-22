@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "cee595e20f23dce4238bdea6582035811b98fd899cb273b165b79223343e6d0c",
+ "domain": [
+  "automotive/lubricants",
+  "commerce/affiliate-shopping"
+ ],
+ "product": [
+  "amsoil"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches the AMSOIL product catalog, suggests oils for a vehicle's specs, and returns shopping and account links from an independent dealer.",
+ "whenToUse": "Use when the user wants AMSOIL oil or fluid products matched to their vehicle's manual specs, or wants to compare AMSOIL account types.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "list categories",
+  "compare account types and offers",
+  "get shopping links",
+  "find distribution centers",
+  "contact dealer",
+  "suggest products for a vehicle"
+ ],
+ "effects": {
+  "9c8b6c0ca7d0e930ce6a5895ae06124b875ab6a35dfd7b8d67d155aef7d28bb1": "read",
+  "60db4cc8b93d89c068cba680bcbb0edece3a53e9593f3808833ad6aa4e8189c5": "read",
+  "058e1c18377d6323f2086bae90b82369e8f968394c7367aa0098bc0902a85f31": "read",
+  "8240fd6ccf9377512237c47c98d696027c3d1147ccd9f56919d84a0d52fc212d": "read",
+  "79e62e9337bb4b7dbc09f459edb71fcc4d6951d46e4f8f5008f452945f059f17": "read",
+  "942b0acdd08086fa0b4d5aa3a62bb73aab17b4409df66087fa4f6fede65f627e": "read",
+  "fc8bc3c578652c2632104798d3d4e92766cbd938aed025a460e4f3c473f12f96": "read",
+  "0b563eb67b1a9d6140bc751fb72249bedd46739f02bf093caebc78f006ac8def": "read"
+ },
+ "flags": [
+  "all shopping and enrollment links carry a fixed dealer referral code"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "6d6a0fb5748564c6217c06c892cff7d930a3c2b3dd67cdaf74ca3eb010725925",
+ "domain": [
+  "finance/accounting-software",
+  "compliance/tax-latam"
+ ],
+ "product": [
+  "siigo",
+  "dian",
+  "sat"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Siigo's public content by Latin American country: pricing plans, landing page data, blog articles, company facts and tax compliance items.",
+ "whenToUse": "Use when researching Siigo plans, accounting software features or Colombian and Mexican tax regulations.",
+ "tasks": [
+  "get page structured data",
+  "get plans and prices",
+  "search content",
+  "get organization info",
+  "get compliance articles",
+  "get blog articles"
+ ],
+ "effects": {
+  "2fc125893100573e615a2f7f268d59f902d07560db30de2e2624b12aead71db9": "read",
+  "6f5dbece98cb23a3dab02b0f8dee15d76631c1588d042f3a22acc893787dd587": "write",
+  "e9799e0b6aad4f0891ec0ca859a2ee7b8beaf265ea5b8e93fbcf105c6505367f": "read",
+  "b9936a697681baa8273953b86c92378139dca52cff278ca9e791478edb9825bf": "read",
+  "ccb39bede7d0c1f28937e1973b9497e0046e22f6b78acd33944722886d0afb6a": "read",
+  "bbb250a4320e0c4935de4530601bb42746065563440c24f4e29fe6aac54242d5": "read"
+ },
+ "flags": []
+}

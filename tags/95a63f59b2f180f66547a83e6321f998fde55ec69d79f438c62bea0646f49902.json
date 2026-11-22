@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "95a63f59b2f180f66547a83e6321f998fde55ec69d79f438c62bea0646f49902",
+ "domain": [
+  "cloud/azure"
+ ],
+ "product": [
+  "azure"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Azure MCP server and skills for listing resources, validating deployments, diagnosing infrastructure and optimizing costs.",
+ "whenToUse": "Use when inspecting, deploying or troubleshooting Azure resources.",
+ "tasks": [
+  "list azure resources",
+  "validate deployments",
+  "diagnose infrastructure issues",
+  "optimize costs"
+ ],
+ "effects": {},
+ "flags": []
+}

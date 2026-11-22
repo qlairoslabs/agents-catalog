@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "373b009289b1a46088016d4024cd246b840665bc48a349b36e7c580cc34dacf1",
+ "domain": [
+  "software/code-search",
+  "software/development"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Indexes local codebases for semantic search and builds code dependency graphs.",
+ "whenToUse": "Use when an agent needs to search a large local codebase or understand code dependencies.",
+ "tasks": [
+  "index codebase",
+  "semantic code search",
+  "build dependency graphs"
+ ],
+ "effects": {},
+ "flags": []
+}

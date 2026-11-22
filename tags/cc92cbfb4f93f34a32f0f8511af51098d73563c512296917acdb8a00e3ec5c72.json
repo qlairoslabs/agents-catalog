@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "cc92cbfb4f93f34a32f0f8511af51098d73563c512296917acdb8a00e3ec5c72",
+ "domain": [
+  "hr/hospitality-jobs",
+  "education/hospitality-training"
+ ],
+ "product": [
+  "hosco"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches live hospitality jobs in Spain, Italy, France, the UK and Switzerland, plus hospitality courses.",
+ "whenToUse": "Use when someone is looking for hospitality work or training courses.",
+ "tasks": [
+  "search jobs",
+  "list recent jobs",
+  "get job details",
+  "search courses",
+  "get course details",
+  "filter by language and department"
+ ],
+ "effects": {
+  "e75156d0e84a7d5cab92bcff9c55db8832c2bd476f2c6312a1684d8c5ac4eb89": "read",
+  "fb5557f93040b8b1b11bf372833091664013a784e5d3ce1936d07f446f97c7e3": "read",
+  "42444dd781a80ddfe35bce2e38a7a1a8de5b10f7866e9fd4c70674bb8cacf32d": "read",
+  "84588b67ec1631b0e7563dc209acad0c11583ad66669da7fe950f26be06e8364": "read",
+  "18a386707dc78fc14c6c521a6d0fc5f603528495a5170a95779006ce80ac2a57": "read"
+ },
+ "flags": []
+}

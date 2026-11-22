@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8f309b597e72dbb212e4aa61836983ec240eddf23ba14a8288ca151fa17a5eac",
+ "domain": [
+  "design/pixel-art",
+  "software/game-development"
+ ],
+ "product": [
+  "sprite-ai"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Generates pixel art sprites, animations, eight-direction rotations and colour palettes for games.",
+ "whenToUse": "Use when creating pixel art assets for a game.",
+ "tasks": [
+  "generate sprites",
+  "generate animations",
+  "create 8-direction rotations",
+  "create palettes"
+ ],
+ "effects": {},
+ "flags": []
+}

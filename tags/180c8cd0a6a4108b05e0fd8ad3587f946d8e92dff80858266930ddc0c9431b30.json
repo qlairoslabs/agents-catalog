@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "180c8cd0a6a4108b05e0fd8ad3587f946d8e92dff80858266930ddc0c9431b30",
+ "domain": [
+  "hosting/static-sites",
+  "software/web-publishing"
+ ],
+ "product": [
+  "cloudflare-workers",
+  "usdc",
+  "base",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Publish a static website from a zip with preview and paid go-live via x402 USDC or card, plus renewals, custom domains and edits.",
+ "whenToUse": "Use when a user wants to quickly host a static site and agrees to the small payments involved.",
+ "tasks": [
+  "get publishing plan",
+  "upload zip",
+  "scan for unsafe files",
+  "deploy preview",
+  "check preview time",
+  "claim live site",
+  "renew hosting",
+  "connect custom domain",
+  "edit site",
+  "render a page in browser"
+ ],
+ "effects": {
+  "b0535e7c5ecfffa34c6e160fc7c84619a7425d78ea086079b9c65da60bb3489d": "write",
+  "c954a92697a64e21b84fd2a36753976820cd09d50838364815a591db68aa946c": "write",
+  "1fc36012235da2f3578c70b26bca677980b3950ccc6d8cabef3f6aaa6058409d": "read",
+  "1622889fb46665537c9bcd0b9a2436077850003050bdc00c1a8bea78921881c6": "write",
+  "bfb8f2bb3483d99c3e436243314399df7e516718ef3dcf16d7813efa7dd8314e": "read",
+  "7df5e2411702e8718b44982ad3731d7c26f11928b1b5345ed623cc62f7dcacec": "risky",
+  "fa57ad63b79854012c955f6112e73ddf694d4e7527e766ecd555f490fa663942": "risky",
+  "5eddc852ed9cc8f5b75b99b92a2ce7e3c37fa4fa1c4477a07119f0f03761b5e9": "risky",
+  "118dd7216fdd9ecc6690c671b5cb9ccac951b9a13819204bf81841549d4e6783": "risky",
+  "c6ba4c784940117f34312fdec6617fbdda0c18ada01b589c93367bfc054c85d7": "write"
+ },
+ "flags": [
+  "payment-required-tools"
+ ]
+}

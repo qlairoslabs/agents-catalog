@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d6cd755358dfa8068c05006e50157a83c993cdecc367f2daed8fba2d1bcaee24",
+ "domain": [
+  "geospatial/earth-data",
+  "environment/natural-hazards"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides location-based earth data on water, natural hazards, ground stability and resources, with source evidence.",
+ "whenToUse": "Use when an agent needs sourced geospatial facts about water, hazards, ground stability or resources at a location.",
+ "tasks": [
+  "look up water data for a location",
+  "check natural hazard exposure",
+  "check ground stability",
+  "look up natural resources",
+  "return source evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

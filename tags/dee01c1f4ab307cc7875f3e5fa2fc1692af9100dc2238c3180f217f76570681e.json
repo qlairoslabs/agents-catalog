@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "dee01c1f4ab307cc7875f3e5fa2fc1692af9100dc2238c3180f217f76570681e",
+ "domain": [
+  "food/recipes",
+  "food/safety"
+ ],
+ "product": [
+  "guardian-engine"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "create-content"
+ ],
+ "summary": "Deterministically verifies and repairs AI-generated recipes against master recipes, and checks allergens and dietary claims under EU rules.",
+ "whenToUse": "Use when validating a generated recipe, fixing it, checking EU allergens or confirming a vegan, halal or gluten-free claim.",
+ "tasks": [
+  "verify recipe against master",
+  "repair recipe",
+  "list master dishes",
+  "get master recipe",
+  "check poultry safety",
+  "check EU allergens",
+  "verify dietary claims"
+ ],
+ "effects": {
+  "954f0a23cd057f03b00e75c0269d1210cb774df1547f9c8d2eacf022fe932a9e": "write",
+  "952eef8d3f89fa3f4887ae31b7ff8fe6dc5066b9f07e0aa3d85d0b0ff188097d": "write",
+  "7a05cdf72910a21772257656cf5fa0722975a2a98a4a8c0400fbe706cb973560": "read",
+  "303fb096f1dfb3720e941094eb289d5c2fe6bf92b5f65942238c0783014669f1": "write",
+  "46e7a1d459ef47c991cf3498c61ec5bbb5793bb87abeb58229a7851e64185566": "write",
+  "e4041722a3561e9fb8699f374b82c3ebffe4cf14c75b1794d0942d5fefb596f1": "write",
+  "2911efe3d09cbefdab156a90abd34c41be30489c5c3656e885a2bee7f8f4762d": "read"
+ },
+ "flags": []
+}

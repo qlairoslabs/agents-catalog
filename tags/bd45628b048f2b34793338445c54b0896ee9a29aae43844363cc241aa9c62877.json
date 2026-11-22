@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "bd45628b048f2b34793338445c54b0896ee9a29aae43844363cc241aa9c62877",
+ "domain": [
+  "media/ai-video",
+  "entertainment"
+ ],
+ "product": [
+  "cast",
+  "malfoid-tv"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Builds a shareable link that opens Cast with a described AI character video scene; the video itself is filmed by a pass holder on the Cast site.",
+ "whenToUse": "Use when a user wants a short vertical AI video or animation of a character and needs a link to create it.",
+ "tasks": [
+  "build video link",
+  "list premade characters",
+  "show prices",
+  "show example videos",
+  "design custom character"
+ ],
+ "effects": {
+  "f3883bc2c85f91fab9e00d7c4213d44b4d9a51c7f7a5661da96aee228941af82": "write",
+  "744c19d26417898278bec09c073bc5dedffea72991a92e604ddcbbe3ae56b877": "read",
+  "03c633904fac93db68c0291f280ea514a39dbb237c9567bb2df3170642f55ee2": "read",
+  "a089035f3ac4f0e6923d77a296ce3ca0930a5ca7a60d965823588a19eef09273": "read"
+ },
+ "flags": []
+}

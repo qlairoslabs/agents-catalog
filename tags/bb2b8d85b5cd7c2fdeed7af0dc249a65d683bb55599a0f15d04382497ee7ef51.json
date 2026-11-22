@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bb2b8d85b5cd7c2fdeed7af0dc249a65d683bb55599a0f15d04382497ee7ef51",
+ "domain": [
+  "software/developer-tools/language-server"
+ ],
+ "product": [
+  "gopls",
+  "go"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds the Go language server for code intelligence and refactoring.",
+ "whenToUse": "Use when navigating, analyzing or refactoring Go code.",
+ "tasks": [
+  "go code intelligence",
+  "go to definition",
+  "find references",
+  "refactor go code"
+ ],
+ "effects": {},
+ "flags": []
+}

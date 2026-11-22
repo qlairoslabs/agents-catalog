@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "3e2eed126730d8e8b899bd3ff1ee7a55f50dbd6053587acfbc4a8ea0c6280ff0",
+ "domain": [
+  "robotics/humanoid-robots",
+  "research/product-ratings"
+ ],
+ "product": [
+  "unitree"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Evidence-graded RadarScore dataset of humanoid and quadruped robots with prices, German availability, comparisons and import cost estimates.",
+ "whenToUse": "Use when researching, comparing or pricing humanoid or quadruped robots, especially for purchase in Germany.",
+ "tasks": [
+  "search robots",
+  "get robot record",
+  "compare robots",
+  "estimate import cost",
+  "get dataset info"
+ ],
+ "effects": {
+  "951cfa054bb7d196882987b007491736aef91ff52614562b6eae0aa5181a9319": "read",
+  "5f5fce2c918846040583dacac186a32c311724d60d466cc2003ab73131b7b7a2": "read",
+  "73d50a38830277610029dd3e92ca03e292849462789577cfb17e465ffe330d1f": "read",
+  "1aabc717e2e860c801cb36bc1659d11fb25442aa59bf8e6bea9725a230585e90": "read",
+  "093889b45cba7922a09645f5811e8116bacb7f16bdb43ce16c4bc11ec1867b1e": "read"
+ },
+ "flags": []
+}

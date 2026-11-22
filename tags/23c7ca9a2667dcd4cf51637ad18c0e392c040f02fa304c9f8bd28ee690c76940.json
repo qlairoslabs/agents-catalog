@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "23c7ca9a2667dcd4cf51637ad18c0e392c040f02fa304c9f8bd28ee690c76940",
+ "domain": [
+  "tourism/photo-studio",
+  "scheduling/booking"
+ ],
+ "product": [
+  "mink-viking-experience"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Checks availability, pricing and business info for a Viking portrait photo studio in Reykjavik and produces a prefilled booking link.",
+ "whenToUse": "Use when a visitor wants to book or learn about the Viking portrait session in Reykjavik.",
+ "tasks": [
+  "check availability",
+  "find next available date",
+  "get pricing",
+  "get business info",
+  "get booking URL"
+ ],
+ "effects": {
+  "3762a9b18cc879188749ba10d873dc5f994523b660515aa97942e0d72d07f5af": "read",
+  "8ac2ac86513d32d0494fd4f90f10e87a4dbe113acc0b8982cc89bade01165d0e": "read",
+  "43ecbf43afe35803372b5f22deaa4521285d60f1e4e9f9b8d6296f2239278508": "read",
+  "1989caea000d8c9d13bf6b54d138c0b1d6911c75d0a2483e4136c0e672c35834": "read",
+  "f5a8832bc22b10520f5e56354ac4a463d710cb22a8f7ee9f31fcdeae9749f848": "read"
+ },
+ "flags": []
+}

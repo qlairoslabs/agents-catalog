@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "cdc338a609e4269e2b86a3fbee088c2308bd58ef5444d88a6f20ea2f666f2ece",
+ "domain": [
+  "business/portfolio",
+  "scheduling/booking"
+ ],
+ "product": [
+  "in-context"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Interactive portfolio showing work and services, with tools to view available call slots and book a call.",
+ "whenToUse": "Use when a user wants to see the owner's portfolio or book a call with them.",
+ "tasks": [
+  "view portfolio sections",
+  "get booking slots",
+  "create booking"
+ ],
+ "effects": {
+  "1c86878872a6aadb5003eab33e7b94b703429f472a7ce2be17855bae1847e8b9": "read",
+  "92fef95930828c64af18dc17557323550605754f6e6b0dd4d59ab4a7bddd4114": "read",
+  "42928c86cadb48eafdf672524a92950fe0962c2cfb5b5c06a3a084a9cb68c72b": "write"
+ },
+ "flags": []
+}

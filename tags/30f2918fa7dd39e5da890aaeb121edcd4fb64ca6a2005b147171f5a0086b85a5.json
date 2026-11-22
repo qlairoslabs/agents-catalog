@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "30f2918fa7dd39e5da890aaeb121edcd4fb64ca6a2005b147171f5a0086b85a5",
+ "domain": [
+  "media/social-media-monitoring",
+  "news"
+ ],
+ "product": [
+  "x",
+  "twitter"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Scans X/Twitter accounts or keywords without an API key, ranks posts by engagement, removes duplicates and outputs a Chinese-language news digest.",
+ "whenToUse": "Use when an agent needs a digest of recent popular X posts from chosen accounts or topics, especially AI, tech or crypto news in Chinese.",
+ "tasks": [
+  "scan x accounts for recent posts",
+  "use preset account packs",
+  "search x posts by keyword",
+  "rank posts by engagement",
+  "read a single post's details",
+  "deduplicate already-seen posts",
+  "reset seen-post history",
+  "produce chinese daily digest"
+ ],
+ "effects": {
+  "068bbede91bc62a99fd0b1f8e89326d0c9155d88059347618d21d44c5db0da12": "write",
+  "eaba4e6b3c4f4b5fbe55727ce79e13ba842038ae4941796cd1b9a73a02f1aa8c": "read",
+  "4ca5338ed7e928ffa5e903ee7f62a71d28905d19f29088a62c31d20cb69337a7": "read",
+  "e2be5fa39a7f02fd38e891065eddaa404eba26e4bcf4b8081b657ac715a7736b": "read",
+  "0cee25a82664c719245ec9dd85283b465c4b1d9b53138f13ce8a32fc26b7590f": "write"
+ },
+ "flags": []
+}

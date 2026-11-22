@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "d9dc61c9998344e89fbac05650fa06e04baa976f80bed23b700595d26e0fb47d",
+ "domain": [
+  "software/release-monitoring"
+ ],
+ "product": [
+  "release-alert"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Connects AI assistants to the Release Alert service.",
+ "whenToUse": "Use when the user works with Release Alert to follow software releases.",
+ "tasks": [
+  "access release alert data"
+ ],
+ "effects": {},
+ "flags": []
+}

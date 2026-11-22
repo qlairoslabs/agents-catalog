@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c006e35ad634897abb91f1cfa1f5678ff5abb8d5cd4e736c9e1fb2363f6cfae8",
+ "domain": [
+  "hospitality/restaurant-management",
+  "finance/cost-accounting"
+ ],
+ "product": [
+  "menufresh"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Restaurant cost and pricing tool to read and edit menus, recipes and ingredient costs and see true profit.",
+ "whenToUse": "Use when a restaurant operator wants to analyze dish costs, set prices or update menus and recipes.",
+ "tasks": [
+  "read menu",
+  "edit menu",
+  "manage recipes",
+  "track ingredient costs",
+  "calculate profit",
+  "set pricing"
+ ],
+ "effects": {},
+ "flags": []
+}

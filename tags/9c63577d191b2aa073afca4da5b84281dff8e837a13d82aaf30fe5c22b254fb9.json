@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9c63577d191b2aa073afca4da5b84281dff8e837a13d82aaf30fe5c22b254fb9",
+ "domain": [
+  "communication/sms",
+  "marketing/sms"
+ ],
+ "product": [
+  "mobile-text-alerts"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Sends SMS messages and manages contacts through the Mobile Text Alerts service.",
+ "whenToUse": "Use when a user needs to send text messages or manage an SMS contact list with Mobile Text Alerts.",
+ "tasks": [
+  "send sms messages",
+  "manage contacts"
+ ],
+ "effects": {},
+ "flags": []
+}

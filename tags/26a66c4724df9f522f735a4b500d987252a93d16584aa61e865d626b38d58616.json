@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "26a66c4724df9f522f735a4b500d987252a93d16584aa61e865d626b38d58616",
+ "domain": [
+  "marketing/seo-content"
+ ],
+ "product": [
+  "organikpi"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search and retrieval of OrganiKPI blog posts, tools, datasets, review verdicts and article key facts as markdown.",
+ "whenToUse": "Use when a user wants OrganiKPI's reviews, studies or articles on SEO and AI search tools.",
+ "tasks": [
+  "search content",
+  "fetch page markdown",
+  "list datasets",
+  "get review verdict",
+  "get article key facts"
+ ],
+ "effects": {
+  "f8111b788038b2f5417fc995b766785e364fb269445b795cf494093e507479ff": "read",
+  "16fb084dc2f2239185a54588de84ffdfe45bce1e33fd08bcef3bb92aaebe1419": "read",
+  "5127741c5566b34735e6ba6c137fdd65ad1611836a9b7559e2865b2ceeb2cc50": "read",
+  "c224d3576c029e77635c4d50dead8542b8bc1d85f96e41765d90ce7cbc94eaec": "read",
+  "20369ae77fa59f7ed32427cb46374d6326f216690b8e29f11a537bcc1d508fd3": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "a3d8aae38728312082ee74a3652c7ec398725305910c98c3338eacb9eb8ff853",
+ "domain": [
+  "lifestyle/tarot",
+  "lifestyle/astrology"
+ ],
+ "product": [
+  "love-oracle"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Provides love-focused tarot card meanings, Venus sign lookups and answers to common love questions in 22 languages.",
+ "whenToUse": "Use when the user asks for tarot card meanings related to love or relationships, or their Venus sign.",
+ "tasks": [
+  "search tarot cards",
+  "get love meaning of a card",
+  "compute venus sign",
+  "answer common love questions"
+ ],
+ "effects": {
+  "43143c3d9c5204e586937c6823e785259cc6a0b5616649b721dce20fb401440e": "read",
+  "6e466270d7f9a96d703a7d0a3cf0520c17e862e1705fcfa76f0de4fa3086ca99": "read",
+  "64d737649da3b8766286dbf1625742140e150d1b877986543e25e0b870160cb1": "read",
+  "3053aeae6c126f868025adc81e7ed6341c479f29580ac297440374d37d3dcb39": "read"
+ },
+ "flags": []
+}

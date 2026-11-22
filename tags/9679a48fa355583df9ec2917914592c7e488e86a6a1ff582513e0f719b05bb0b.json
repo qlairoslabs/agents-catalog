@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9679a48fa355583df9ec2917914592c7e488e86a6a1ff582513e0f719b05bb0b",
+ "domain": [
+  "analytics/dashboards",
+  "operations/monitoring"
+ ],
+ "product": [
+  "infrapage"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Infrapage dashboards including pages, widgets, live values and weekly recaps.",
+ "whenToUse": "Use when an agent needs to read metrics or recaps from a user's Infrapage dashboards.",
+ "tasks": [
+  "read dashboards",
+  "read widgets",
+  "get live values",
+  "read weekly recaps"
+ ],
+ "effects": {},
+ "flags": []
+}

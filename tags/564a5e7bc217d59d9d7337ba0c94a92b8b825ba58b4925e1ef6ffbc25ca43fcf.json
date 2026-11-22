@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "564a5e7bc217d59d9d7337ba0c94a92b8b825ba58b4925e1ef6ffbc25ca43fcf",
+ "domain": [
+  "software/mobile-apps/android"
+ ],
+ "product": [
+  "apkcube",
+  "android"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search Android apps, check APK signatures and scan results, and get verified APK download links.",
+ "whenToUse": "Use when a user wants to find an Android app or verify an APK's signing and safety before downloading.",
+ "tasks": [
+  "search android apps",
+  "check apk signing",
+  "view security scans",
+  "get download links"
+ ],
+ "effects": {},
+ "flags": []
+}

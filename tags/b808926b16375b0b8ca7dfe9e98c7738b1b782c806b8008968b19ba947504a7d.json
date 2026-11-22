@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b808926b16375b0b8ca7dfe9e98c7738b1b782c806b8008968b19ba947504a7d",
+ "domain": [
+  "marketing/qr-codes",
+  "marketing/link-management"
+ ],
+ "product": [
+  "hovercode"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online"
+ ],
+ "summary": "Creates and manages QR codes, short links, landing pages and forms in a Hovercode workspace.",
+ "whenToUse": "Use when an agent needs to generate or update QR codes, short links or simple landing pages and forms.",
+ "tasks": [
+  "create qr codes",
+  "manage short links",
+  "build landing pages",
+  "create forms",
+  "manage workspace items"
+ ],
+ "effects": {},
+ "flags": []
+}

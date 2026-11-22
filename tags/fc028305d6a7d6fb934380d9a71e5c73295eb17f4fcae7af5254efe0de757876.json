@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "fc028305d6a7d6fb934380d9a71e5c73295eb17f4fcae7af5254efe0de757876",
+ "domain": [
+  "marketing/advertising/paid-ads",
+  "marketing/analytics"
+ ],
+ "product": [
+  "google-ads",
+  "meta-ads",
+  "google-analytics",
+  "google-search-console",
+  "shopify"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Combines Google Ads, Meta Ads, GA4, Search Console and Shopify data into insights, alerts, ROAS rules and ad actions.",
+ "whenToUse": "Use when analysing ad performance across channels or applying ROAS-based changes to campaigns.",
+ "tasks": [
+  "get ad insights",
+  "set alerts",
+  "define roas rules",
+  "take ad actions",
+  "read ga4 data",
+  "read search console data",
+  "read shopify data"
+ ],
+ "effects": {},
+ "flags": []
+}

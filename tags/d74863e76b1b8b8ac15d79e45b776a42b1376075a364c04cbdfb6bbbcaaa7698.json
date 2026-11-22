@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d74863e76b1b8b8ac15d79e45b776a42b1376075a364c04cbdfb6bbbcaaa7698",
+ "domain": [
+  "company-information",
+  "reference/documentation"
+ ],
+ "product": [
+  "quantlix"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and reads published Quantlix pages about services, company information and insights.",
+ "whenToUse": "Use when you need information about Quantlix's services or published content.",
+ "tasks": [
+  "search pages",
+  "read page as markdown"
+ ],
+ "effects": {
+  "6b20e22be64d930cd80d9cc87fc6983656bb1ab889edd3bae0e6a3bba4c860c9": "read",
+  "c6ee9b2e38ed4c9dd2b19b156f77f0180f8fc4117faf65e71f4f4a1d767f4bb6": "read"
+ },
+ "flags": []
+}

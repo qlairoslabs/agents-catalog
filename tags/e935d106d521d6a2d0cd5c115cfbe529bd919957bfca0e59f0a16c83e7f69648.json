@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e935d106d521d6a2d0cd5c115cfbe529bd919957bfca0e59f0a16c83e7f69648",
+ "domain": [
+  "software/documentation",
+  "crypto/blockchain-rpc"
+ ],
+ "product": [
+  "blockvectra",
+  "robinhood-chain",
+  "evm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads BlockVectra documentation for Robinhood Chain and EVM RPC and API usage in many languages.",
+ "whenToUse": "Use when building against Robinhood Chain or EVM RPC and you need the BlockVectra docs.",
+ "tasks": [
+  "search docs",
+  "read doc page as Markdown"
+ ],
+ "effects": {
+  "359af351cf2a0c45d90db5c05a6670183ee2210e3a57524f6c60f91901b9154d": "read",
+  "7ec4b214ca32b7745af2403fa7cb1ef1792fec796b5a344d5790c2c7e1c85de0": "read"
+ },
+ "flags": []
+}

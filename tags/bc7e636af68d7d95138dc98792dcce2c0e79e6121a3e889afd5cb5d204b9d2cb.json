@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bc7e636af68d7d95138dc98792dcce2c0e79e6121a3e889afd5cb5d204b9d2cb",
+ "domain": [
+  "productivity/project-management/reporting"
+ ],
+ "product": [
+  "jira",
+  "confluence"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Builds project status reports from Jira issues and publishes them to Confluence.",
+ "whenToUse": "Use when a user wants a project status, progress or blocker report from Jira, optionally published to Confluence.",
+ "tasks": [
+  "query jira issues",
+  "categorize by status and priority",
+  "summarize progress",
+  "identify blockers",
+  "publish report to confluence"
+ ],
+ "effects": {},
+ "flags": []
+}

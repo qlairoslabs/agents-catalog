@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "b5c1cb3195690adf473dd97c47de71d3002a7324e32350a2949cf921d333ceb6",
+ "domain": [
+  "local-business/directory",
+  "services/discovery"
+ ],
+ "product": [
+  "bezal"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Searches a directory of local US service businesses by category, location or service, with profiles, reviews, service catalogs and side-by-side comparison.",
+ "whenToUse": "Use when a user wants to find, compare or vet a local service provider such as a plumber or IT consultant and get its profile link.",
+ "tasks": [
+  "search businesses",
+  "search by city",
+  "search by service",
+  "get business profile",
+  "read reviews",
+  "view service catalog",
+  "check opening day",
+  "compare businesses",
+  "list categories"
+ ],
+ "effects": {
+  "3d9418586e5ec0bcbf1b4c50f8fca46ba350185ec393011a004af361c7590890": "write",
+  "4275c3ab772494adbc4968eb5a8fc43090592caaaccd7bbb59ab34104dc7df1d": "read",
+  "02867b17973f3a2b36547b58a74430523ea1243131a60e3704da2509a735497e": "read",
+  "42fba8704d56faf2c061f57d1557a5d287804efb808e42514fb97fa6293e233f": "read",
+  "1f73edd45c7ad2a298c105c0bc2c78033ed3c0b95822bc860838f3030184628a": "read",
+  "fd885a750405147df95735b42b4eb66967e02bbc2b9e3f66fef8880570c8273b": "read",
+  "4cfc29c24674b257b985b8f991bb1b6ec46500be2b9d8ccebc78bda72e6fef8f": "read",
+  "3b9788a4e9220c9220dc511ef332802624784ee9e6da04cb2d833291a0ee7ddb": "read",
+  "04762d2fe160d50b878c03b542df8921ccc21c9bc503f97f21a0ea91e5765aee": "write"
+ },
+ "flags": []
+}

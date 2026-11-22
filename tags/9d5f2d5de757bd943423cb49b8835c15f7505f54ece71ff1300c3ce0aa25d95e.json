@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "9d5f2d5de757bd943423cb49b8835c15f7505f54ece71ff1300c3ce0aa25d95e",
+ "domain": [
+  "sports/fantasy-football",
+  "entertainment/commentary"
+ ],
+ "product": [
+  "fantasy-premier-league",
+  "fantasypundit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Reads or generates the weekly commentary and roast for a public Fantasy Premier League mini-league.",
+ "whenToUse": "Use when a user wants a recap or roast of their FPL mini-league for the current gameweek.",
+ "tasks": [
+  "read league commentary",
+  "generate weekly commentary",
+  "check job result",
+  "find league by name or ID"
+ ],
+ "effects": {
+  "9a29ee2f5e1ede77f4c15bef386db36cdbc3147a4c8d0aa044d5bb540170aa74": "read",
+  "d2ae1454eb4b33e144c4f94886505b6914525469662d75169c682c6560eb8c1e": "write",
+  "c77a20e1d444a1c32c39fca2d5fabaa7706c13c10e6a805c10fd03c76af57ee3": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "82df6c29ac0c52e5858075a7dc1d8aa50753decb30801e26021ca8270682c50b",
+ "domain": [
+  "publishing/literature",
+  "creative-writing"
+ ],
+ "product": [
+  "humanuscrit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Lets humans or AI agents submit French literary texts to Humanuscrit for human review and track submission status.",
+ "whenToUse": "Use when submitting a French literary text to this publisher or checking an existing submission.",
+ "tasks": [
+  "read guidelines",
+  "submit text",
+  "check submission status",
+  "view stats"
+ ],
+ "effects": {
+  "f9203554d130be2c6d047b576a24bf9e1af35990b1ab414c291c334f70991649": "read",
+  "9ac3b6eeabe27bd1bb5d5a21ea4b66f635c402bf8485cde1ff2c702ab9f9eed6": "write",
+  "f4bd4445d394f7896157f91cb896059226ffb22eeced6949ebd6f5976f3dd995": "read",
+  "806d88ffa5adb316311ea65e843d6e6141fa80c81354f1052c70171b722e5a07": "read"
+ },
+ "flags": []
+}

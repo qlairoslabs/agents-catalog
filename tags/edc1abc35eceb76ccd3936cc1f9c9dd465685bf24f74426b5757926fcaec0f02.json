@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "edc1abc35eceb76ccd3936cc1f9c9dd465685bf24f74426b5757926fcaec0f02",
+ "domain": [
+  "media/crypto-news",
+  "finance/markets"
+ ],
+ "product": [
+  "mossland",
+  "bitcoin"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Korean crypto and macro media knowledge base offering entity, topic and event lookups, daily briefs, macro data, price pulses and a RAG question tool.",
+ "whenToUse": "Use when you need Korean-market crypto, macro or political context, daily briefs or sourced answers about them.",
+ "tasks": [
+  "search entities topics events",
+  "get entity detail",
+  "get daily market brief",
+  "get macro snapshot",
+  "get price pulses",
+  "get causal connections",
+  "ask RAG question",
+  "list topics and events",
+  "list AI personas"
+ ],
+ "effects": {
+  "7750b21a13f5cbb96f71f797a7738d7eb0d7109dc7dcfa18722b8e446c081538": "read",
+  "b6e1a221b0e4640215321df4654772850f550ef135b7d466cc675f848a12dd41": "read",
+  "a02b2b689bcdb2a8703d797550aa74696a82fd7e2a28e7e63e40dcf1d4528881": "read",
+  "0cdf38070b99dd9326b1f508db21c7667a2d71bef7fba4caf90dce97c44df700": "read",
+  "8ac6465c93bd2f71a3f3905e2e32119330b58d4aa1023c4146c22f19a907a76d": "read",
+  "3183efff2eddb982fd12c1ddd1cbeac942127c20f83a147eb8f21eaa266c5a4b": "read",
+  "088d04538d926ba07e6d84ebbeb9fe32d7fa1da4c8eee66cea27fc4d15c1ef4c": "read",
+  "5a83cd48bf66357e9251a2c5096f692a43860910eb54a4093b8e6691d58fd255": "read",
+  "40f748796b53629bb907d23ff510a406dc6e7c03bd86554a38792dd146983864": "read",
+  "612a4bce5d87f39adbc75def0add40c4c742e375f64b4dbff244e8977d5b111f": "read",
+  "1237927be6efa58fefb46546ba2741b21ca83c47295a1af41049dbc8d4f069f5": "read",
+  "826b741193a9adf259af5281b42a86d3a0f2f782a6738fa2bdffda50d887d6fc": "read"
+ },
+ "flags": []
+}

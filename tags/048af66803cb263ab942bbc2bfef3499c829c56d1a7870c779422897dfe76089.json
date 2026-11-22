@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "048af66803cb263ab942bbc2bfef3499c829c56d1a7870c779422897dfe76089",
+ "domain": [
+  "finance/stock-market",
+  "finance/japanese-equities"
+ ],
+ "product": [
+  "radikabunavi",
+  "edinet",
+  "tdnet"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Japanese stock analysis from EDINET and TDnet filings, including fair-value range, scores, DCF, earnings and screening.",
+ "whenToUse": "Use when analysing or screening Japanese listed companies based on regulatory filings.",
+ "tasks": [
+  "get fair value range",
+  "get six-axis score",
+  "run dcf valuation",
+  "get earnings data",
+  "screen japanese stocks"
+ ],
+ "effects": {},
+ "flags": []
+}

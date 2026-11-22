@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e1e9c3737626dfca2dc79fec3d707d5072439424c87f1b0652cfc9c8a32ea76c",
+ "domain": [
+  "events/dance",
+  "travel"
+ ],
+ "product": [
+  "salsa-vida"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds salsa and bachata events and city, region or country dance guides worldwide.",
+ "whenToUse": "Use when a user wants salsa or bachata events or dance scene guides for a location.",
+ "tasks": [
+  "search events",
+  "get event details",
+  "search locations",
+  "get destination guide"
+ ],
+ "effects": {
+  "1a682acbbf475431fc188d7c6b772a5b7c2467c8b0582e2abe979418da627d00": "read",
+  "1471e84ae8b31c8a7c9feaacb801c1ad9db24a56035bd727c17719a93e2ed368": "read",
+  "69a2d334d456b6e0c4651de2d4ff23afecabb3c2671cf8d90e02777119732d78": "read",
+  "81a1568c09babe105d37a912726062c653540f971280e50ce2b5a876090887d7": "read"
+ },
+ "flags": []
+}

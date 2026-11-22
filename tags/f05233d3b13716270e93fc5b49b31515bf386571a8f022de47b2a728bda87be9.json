@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f05233d3b13716270e93fc5b49b31515bf386571a8f022de47b2a728bda87be9",
+ "domain": [
+  "software/ai-agents/mcp-gateway",
+  "software/ai-agents/memory"
+ ],
+ "product": [
+  "onlymcp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Local npm package giving agents cloud-stored skills, agents and memory plus a gateway to other MCP servers.",
+ "whenToUse": "Use when an agent needs shared persistent memory and skills or a single entry point to several MCP servers.",
+ "tasks": [
+  "store agent memory",
+  "manage skills",
+  "manage agents",
+  "proxy other mcp servers"
+ ],
+ "effects": {},
+ "flags": []
+}

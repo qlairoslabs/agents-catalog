@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e7b8d0e899e4981cd1d1a11f35983ea32b9d7dbfab175ea9fd0114f315160014",
+ "domain": [
+  "finance/payments",
+  "finance/accounts-payable"
+ ],
+ "product": [
+  "airwallex"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Connects Claude to an Airwallex account to create invoices, onboard suppliers and check cash balances across currencies.",
+ "whenToUse": "Use when handling Airwallex finance tasks such as invoicing, supplier onboarding or checking multi-currency cash positions.",
+ "tasks": [
+  "create invoices from purchase orders",
+  "onboard suppliers",
+  "check cash position",
+  "view multi-currency balances",
+  "run finance skills"
+ ],
+ "effects": {},
+ "flags": []
+}

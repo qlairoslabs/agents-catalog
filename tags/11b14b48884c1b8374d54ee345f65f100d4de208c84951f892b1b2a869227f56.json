@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "11b14b48884c1b8374d54ee345f65f100d4de208c84951f892b1b2a869227f56",
+ "domain": [
+  "smart-home/automation",
+  "iot"
+ ],
+ "product": [
+  "home-assistant"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Lets AI assistants configure and automate a Home Assistant smart-home setup.",
+ "whenToUse": "Use when an agent needs to control devices or create automations in Home Assistant.",
+ "tasks": [
+  "control devices",
+  "configure home assistant",
+  "create automations"
+ ],
+ "effects": {},
+ "flags": []
+}

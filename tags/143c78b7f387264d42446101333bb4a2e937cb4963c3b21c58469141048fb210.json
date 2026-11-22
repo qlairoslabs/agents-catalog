@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "143c78b7f387264d42446101333bb4a2e937cb4963c3b21c58469141048fb210",
+ "domain": [
+  "ai/mcp-directory",
+  "software/developer-tools"
+ ],
+ "product": [
+  "stork",
+  "smithery"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Directory of MCP servers with health checks, context-cost estimates, install configs, comparisons, docs, and proxied tool calls.",
+ "whenToUse": "Use when an agent needs to find, compare, install or try an MCP server for a task, or locate a server formerly hosted on Smithery.",
+ "tasks": [
+  "find mcp servers for a task",
+  "find alternatives to a server",
+  "read server listing and check results",
+  "get client install config",
+  "compare servers",
+  "find smithery replacements",
+  "read server documentation",
+  "list a server's tool schemas",
+  "call a tool on another server"
+ ],
+ "effects": {
+  "318c32c0c9ebdad4d4ca4b203c78a1b3d4716bc71de8ef3f85731cd0fb8a9e32": "write",
+  "f8c309ea1fd1beb5a6caf34172e3ad4ef90a0f4e29b013257bfde8521c03c8e6": "read",
+  "218faf5082c8d6396afe74dcb9f055a4a5ced12c565acc7e24f53f6217455f23": "read",
+  "155c8a7deb81d9b1b31a9886f2d2edad194937585782a7f9e61b48e89a571fc3": "read",
+  "1350f41ff97d9d83ca54411257f0a781ae8238c40a71a6428c06dbd247671755": "read",
+  "e1c591a75bdb0a3593b00bfcf66306a00160d52e59515fe8439112e5aaaf736a": "read",
+  "ddb57c89cadda8680ea9aa9fa784bf2f679fe0ffc7260b81d1e665b9bd467cb5": "read",
+  "32841e5b8ce8fba7cd608b380fbeca8d5268e5d6053d3d5ac4028bb083dacbd1": "risky"
+ },
+ "flags": [
+  "stork_call proxies calls to arbitrary third-party MCP server tools that may act on the outside world"
+ ]
+}

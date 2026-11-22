@@ -1,0 +1,78 @@
+{
+ "classifier": 2,
+ "contentHash": "b806f6a5867cd5b4a0eb39cf495a073ddff0c4c79b6dffa39a5adce0d8ea10bf",
+ "domain": [
+  "software/agent-infrastructure",
+  "automation/scheduling"
+ ],
+ "product": [
+  "zenvault"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Infrastructure for agents: scheduled webhooks, dead-man switches, webhook inboxes, key-value vaults, checkpoints, queues, counters, watches, escalations and signed fetch receipts.",
+ "whenToUse": "Use when an agent needs to be woken later, persist state across runs, receive webhooks, watch a URL, DNS or certificate for changes, or guarantee a delivery happens.",
+ "tasks": [
+  "schedule one-shot and cron webhooks",
+  "dead-man switch",
+  "buffer inbound webhooks",
+  "store key-value data",
+  "save and load checkpoints",
+  "one-time secrets",
+  "work queues with leases",
+  "atomic counters",
+  "idempotency claims",
+  "watch URLs, DNS, ports, certs",
+  "escalation chains",
+  "signed fetch and notarization"
+ ],
+ "effects": {
+  "93666d55cfe6ef34bd912ab5b4345d741e92d2f25248fa02dfba2fffae7cc352": "write",
+  "d61a5e803f3b254a1425b43e641bb0eccbe16a109a4f75c983dcc86885249dd1": "write",
+  "d851b2a0033d168c0f402be43592cc8d8b61aeb1b0888e4d64b55652780e1d13": "write",
+  "ca05f933d1550e8b2e57762d1225f486b98c151f9ef84a474ace64223ec19933": "write",
+  "e6e0e561d7964a36231459364dc2d325f783174223186939a7bfb768b72e83c6": "write",
+  "121205d7446ab05cef8011d869d3733404bc9e637142821e0cf58fdc8a744f05": "write",
+  "fd5907062a0bc1e3936adfc9e7e1b4f62a40442eb72aa9dfd31480e94656f40e": "read",
+  "58a0079d2494cf58e7e4941ca5e166bcf1e62a75ec107f71ddbe2935ea07561b": "write",
+  "24bcdcdd69ac55254d69ee3f86b4ba8ed58db1a5df54485b75dec8de46bbbc2d": "write",
+  "1dbb006369b7ce9cfa138494a8548b99b58cdb0aadc235ce14b5d7fabf3e20cd": "write",
+  "0daf2184d038df548178c17e98289b4eca49f57bb99038c2baeae1a5dbb7a1a6": "write",
+  "694b02702b8816857d2cf25abe7d8d183e75bfb6041b698baa44c8813b61e681": "write",
+  "4a68727d1bfed6ab775d8b5227c5339011a304537f1f70ec3e1fc5c202b1e012": "write",
+  "ff20b4038eaa01fae505e7fa521f8700cb1e0f26b25a70c024828c6c6d75249c": "read",
+  "ac760781ca048f2cb411f274a8dd0190671a42a0d73c479ad97ef925419b216d": "read",
+  "2c2d573340029bb779b02264a553968cdb71bb98cb2aa6cd95585f9380aa1be2": "write",
+  "f86147faa8bb59f238ce3c6a372248ba695c614d744f968612c9f9d9d22ce7ce": "write",
+  "e943e319c2bc1186381928626291d893e8d5cef525e1cda360c8d0d7efc6bd29": "read",
+  "bb69c33388dce468f19f6b929473e2e83b0733b55148831eef9fdbb7a72be973": "write",
+  "9c3d4038e4bffd96d81526b5018dc5c756fb21b1e33f7df2c4658463c3c0d406": "write",
+  "a6d2a2d151ac667aec03a3c26f944302718a88f50f0be0ab2127a522a5730374": "write",
+  "0a6cb56ff26543a02928a7ebb4790626a32d100962ea53dce9f6f74716e4b865": "write",
+  "e2f350d2b2627f97671f1f4be493945dc87cda27a73141ef3114ee8849db6b7e": "write",
+  "812bf9ac10406adbde743f11c360a104730f532a231189307971c9fa56c95d80": "write",
+  "14f83e24f97221b6c36bf16267c40bf279d30de780d3ff422fa856ac26e968f9": "write",
+  "7a3d898a49b9c0ff9eb036b58a6585602d74dac0487ae4fe12837dfa96cbe9d4": "write",
+  "6af7a248614f1435e277089d554557fff94b240e94532d2c21f00e18ebc51b9a": "write",
+  "980fa32c1072d2850f02e24f500b2e410250118c8fedc80cf7ffd8db3ea0913f": "write",
+  "ba7dce6f2acf1e6a516979774be01628d1449d6dd0f5ae850f0b89459e6a122b": "read",
+  "8d9e68129ac2c8d979289d801dd5b37e1412d9d82a08a2c524f1312b7c2098db": "write",
+  "92a2e1056eebaa79741d44f97a78d88455a47a653350ba6cffea829c1e6a99ec": "read",
+  "9c98a7b009912edfc31fab0c178a0733c8ea52e31b4a39133a23998977ca3460": "write",
+  "53d71cc87ad271f1b9f3abf641c8fb57fcec062f89cf240ac0a94ee512267978": "write",
+  "0425eb2bedacabe481963b1dbc70c0ec9c55311ac638fdcc468e2849f6441875": "read",
+  "f7e1ad35e25651dca6a0e0e41cd3548ded4d92113596b7a2c358429b4c88f534": "read",
+  "bbb9ed35e28692091182392fac7fb7ac4c3c82f27ed6154c8409d5d7b33dc979": "write"
+ },
+ "flags": [
+  "sends payloads to arbitrary caller-supplied webhook URLs",
+  "described as paid per call"
+ ]
+}

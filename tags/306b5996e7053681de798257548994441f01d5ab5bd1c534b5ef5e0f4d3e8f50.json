@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "306b5996e7053681de798257548994441f01d5ab5bd1c534b5ef5e0f4d3e8f50",
+ "domain": [
+  "software/cybersecurity/intrusion-prevention",
+  "operations/infrastructure"
+ ],
+ "product": [
+  "crowdsec",
+  "docker",
+  "kubernetes"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Skill for installing, configuring, running and troubleshooting CrowdSec and its bouncers and WAF on servers, Docker and Kubernetes.",
+ "whenToUse": "Use when deploying or debugging CrowdSec security protection on infrastructure.",
+ "tasks": [
+  "install crowdsec",
+  "configure cscli",
+  "manage lapi and capi",
+  "manage hub collections",
+  "configure bouncers",
+  "set up waf appsec",
+  "debug crowdsec"
+ ],
+ "effects": {},
+ "flags": []
+}

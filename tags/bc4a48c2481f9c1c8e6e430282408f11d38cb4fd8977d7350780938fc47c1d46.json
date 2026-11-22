@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "bc4a48c2481f9c1c8e6e430282408f11d38cb4fd8977d7350780938fc47c1d46",
+ "domain": [
+  "data/databases"
+ ],
+ "product": [
+  "dbx"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets agents query databases through connections already set up in the DBX app.",
+ "whenToUse": "Use when an agent must query a database the user has configured in DBX.",
+ "tasks": [
+  "list configured connections",
+  "run database queries"
+ ],
+ "effects": {},
+ "flags": []
+}

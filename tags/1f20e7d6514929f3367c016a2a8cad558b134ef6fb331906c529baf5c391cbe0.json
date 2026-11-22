@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1f20e7d6514929f3367c016a2a8cad558b134ef6fb331906c529baf5c391cbe0",
+ "domain": [
+  "storage/file-sharing",
+  "email/inbound"
+ ],
+ "product": [
+  "revdoku"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Cloud file storage with buckets that can receive email, for sharing files with people and AI agents.",
+ "whenToUse": "Use when storing, sharing or receiving files by email for an agent workflow.",
+ "tasks": [
+  "store files",
+  "share files",
+  "receive files by email",
+  "manage buckets"
+ ],
+ "effects": {},
+ "flags": []
+}

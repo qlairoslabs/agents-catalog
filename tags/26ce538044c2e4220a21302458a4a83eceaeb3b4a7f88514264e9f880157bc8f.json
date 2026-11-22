@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "26ce538044c2e4220a21302458a4a83eceaeb3b4a7f88514264e9f880157bc8f",
+ "domain": [
+  "marketing/ai-visibility",
+  "software/recommendations"
+ ],
+ "product": [
+  "chatgpt",
+  "claude",
+  "gemini",
+  "perplexity",
+  "orbator"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides software recommendations, AI recommendation rankings, sourced product facts and side-by-side comparisons based on measured AI answers.",
+ "whenToUse": "Use when choosing software for a category, checking whether AI assistants recommend a product, or comparing two tools.",
+ "tasks": [
+  "find tools by category",
+  "get AI recommendation index",
+  "get product facts",
+  "compare products"
+ ],
+ "effects": {
+  "ac3ce4402666f34404eb3bfcd9d40ee75f3638f39dfff4e68cf359ec84e52f82": "write",
+  "aa10434e55b89408921f2efee95409e4e380ef14f07e84dea92dcf5bfdc301ea": "write",
+  "d67aa01141a309aad0396490b6a05e3603af7c9feacbd28733c5188a021eb8c3": "read",
+  "900f4df9f1d326d8a5325595e89d4b55ae1d52b5636a519be22e463ef20a5afb": "read"
+ },
+ "flags": []
+}

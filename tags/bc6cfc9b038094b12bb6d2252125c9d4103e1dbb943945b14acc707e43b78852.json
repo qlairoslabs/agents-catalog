@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "bc6cfc9b038094b12bb6d2252125c9d4103e1dbb943945b14acc707e43b78852",
+ "domain": [
+  "ecommerce/fashion-resale"
+ ],
+ "product": [
+  "besot",
+  "ebay",
+  "grailed",
+  "therealreal"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Finds live resale listings across marketplaces for clothing designed, worn or founded by musicians.",
+ "whenToUse": "Use when someone wants to buy a specific artist-linked garment and compare resale prices and sizes.",
+ "tasks": [
+  "search pieces",
+  "get listings for a piece",
+  "list collections",
+  "get filter facets"
+ ],
+ "effects": {
+  "adad83585107bd63a389d81c474406b189e5b8467db242e81c705eb3b1244902": "write",
+  "f99e1db2f03aea17d35da5c8a49b41b3293856092c9e0c0f0369f7b4aeab0df4": "read",
+  "561993e9e296b5459ce76d64700f4fa1e0814e055451ce3809c05b133d8f9ebb": "write",
+  "2581f68ca5785cec3f506c5af53b686cf1798318c625e794c33d8a7584ca0808": "read"
+ },
+ "flags": []
+}

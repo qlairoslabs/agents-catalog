@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "497d7890fe218bee4010618faff5d72a12eaed860071d03d4ed65154d8d191d1",
+ "domain": [
+  "health/fitness/cycling"
+ ],
+ "product": [
+  "joules"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Cycling coaching connector that plans weekly training, evaluates completed workouts and adjusts the plan.",
+ "whenToUse": "Use when a cyclist wants an agent to plan, review or adapt their training week.",
+ "tasks": [
+  "plan weekly cycling training",
+  "grade completed week",
+  "adapt training plan"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "8ea2d7d5a9be6d7ee3d3fd986e6da919aa4f126ca04dfb21fdfe3ca0322b40bc",
+ "domain": [
+  "software/it-services",
+  "corporate/company-information"
+ ],
+ "product": [
+  "issoh",
+  "aws",
+  "azure",
+  "gcp"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Search articles, services, case studies and company info of Japanese IT firm Issoh (system development, AI, cloud, web).",
+ "whenToUse": "Use when evaluating Issoh as a vendor or looking for its Japanese technical articles.",
+ "tasks": [
+  "search articles",
+  "read article",
+  "search services",
+  "search case studies",
+  "get company info"
+ ],
+ "effects": {
+  "3e02351013b7b536349a071312c355689db044f20aee1bc532c95a51dc1c717c": "read",
+  "0e173ef36a7e405babf2533213c2361840a7f287b5096163c83294d2ed513a61": "read",
+  "ff64817b4fcc588ed76b0239967df8475c4db8f1a73b14a04474126f064208d0": "read",
+  "086c070d56b99f9caedbd1d6cb13fbb5f3b584b04aa0ca62e5b6da33971f183f": "read",
+  "c9db357800d8708f17a6c642d6d1e91405252e098ca0c384b3b6f62fe5567baf": "read"
+ },
+ "flags": []
+}

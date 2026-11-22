@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "987d91fdd44ddd6cbfe8da6715bda6f65adceae69571e435d76851cfdab82dfb",
+ "domain": [
+  "communication/fax",
+  "documents/delivery"
+ ],
+ "product": [
+  "faxer",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-paid"
+ ],
+ "summary": "Sends real faxes worldwide with pay-per-fax pricing, via Stripe checkout or machine payment, and tracks delivery status.",
+ "whenToUse": "Use when a user needs to send a document or text by fax and track delivery.",
+ "tasks": [
+  "quote fax price",
+  "create payment link",
+  "send fax",
+  "check fax status"
+ ],
+ "effects": {
+  "3cd8646fee88cec61f26f08abf30c4417862d529b00258a3acd33539aa1416bc": "read",
+  "6ecd29a64f31b2eda2bd4835a788403a0673c4763920993f803d2fe936d9c440": "write",
+  "a81800417db85e264335245ea60d5cae517c5efa95457f313307fa088e99a1b1": "risky",
+  "0efd4c425a2cf26ae5b6e1af275f142ab43b599cbec91f3b271bdf0a9359756b": "read"
+ },
+ "flags": []
+}

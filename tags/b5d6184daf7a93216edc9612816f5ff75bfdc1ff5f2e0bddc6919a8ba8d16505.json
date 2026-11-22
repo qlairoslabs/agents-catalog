@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b5d6184daf7a93216edc9612816f5ff75bfdc1ff5f2e0bddc6919a8ba8d16505",
+ "domain": [
+  "ai/multi-agent",
+  "communication/messaging"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Communication mesh over TCP letting agents in different harnesses use rooms, direct messages and presence.",
+ "whenToUse": "Use when several AI agents need to coordinate or message each other across tools.",
+ "tasks": [
+  "join rooms",
+  "send direct messages",
+  "track presence",
+  "view agent visibility"
+ ],
+ "effects": {},
+ "flags": []
+}

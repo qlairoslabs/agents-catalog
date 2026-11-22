@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4dfe26161fa7a141fe0a06f7eb1191374903e629bfe231c503054cf8184b79f5",
+ "domain": [
+  "finance/payments/verification"
+ ],
+ "product": [
+  "banxico",
+  "spei",
+  "veriko"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Verifies Mexican SPEI bank transfers against Banxico CEP records and works with the Veriko API.",
+ "whenToUse": "Use when an agent needs to confirm that a SPEI payment in Mexico actually took place.",
+ "tasks": [
+  "verify spei transfer",
+  "fetch banxico cep",
+  "call veriko api"
+ ],
+ "effects": {},
+ "flags": []
+}

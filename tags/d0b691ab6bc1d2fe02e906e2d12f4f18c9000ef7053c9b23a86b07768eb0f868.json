@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d0b691ab6bc1d2fe02e906e2d12f4f18c9000ef7053c9b23a86b07768eb0f868",
+ "domain": [
+  "commerce/print-on-demand",
+  "commerce/ecommerce"
+ ],
+ "product": [
+  "apparelhub"
+ ],
+ "audience": [
+  "sales",
+  "design"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Lets an agent run a custom merchandise store: create designs, build products, list them across sales channels and fulfil orders.",
+ "whenToUse": "Use when an agent needs to design, list or fulfil custom apparel and merch products.",
+ "tasks": [
+  "create designs",
+  "build products",
+  "list products on channels",
+  "fulfil orders"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "f0aecc3f4e781b461f6b6b5da99229fdb4354d53433b6d78e281070d743a0807",
+ "domain": [
+  "entertainment/video-games",
+  "consumer/price-comparison"
+ ],
+ "product": [
+  "steam",
+  "epic-games",
+  "gog",
+  "microsoft-store",
+  "itch-io",
+  "soren"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "PC game prices across major stores with price history, plus current and upcoming free game giveaways; some calls are paid via x402.",
+ "whenToUse": "Use when asked what a game costs, whether to wait for a sale, or which games are free now or soon.",
+ "tasks": [
+  "list free games",
+  "list upcoming giveaways",
+  "look up games by name",
+  "compare store prices",
+  "see price history",
+  "check for changes",
+  "check service status"
+ ],
+ "effects": {
+  "4b0a48693d6cb8e2f1706ce423b57e4127a0e24c88f8818c11f5b30cd5f28683": "write",
+  "6932ac3d32a72bd9e36f1cd49213379c5d82702924f356fa5dfbda2c7e89e971": "write",
+  "43259e5e91d9418b681642ed6884f8ac058012ea86ba9cce922b545ef0413afa": "write",
+  "ebfcbf9c873cbbc9a757ec7dfe8fae3941d049ec29d0e4e912368174bf704ab4": "write",
+  "cfe851ca59864483cbeb1b4bf272b9c582277addb772016cb5b8e9ecf2c1120c": "read",
+  "fc8ab9aaa54998ff4de88a52e99af4228b021c709d92a110e031f0d6b5aa9fbe": "read"
+ },
+ "flags": [
+  "tool descriptions use forceful 'USE THIS' and 'do not answer from memory' directives",
+  "paid calls via x402 payment proof"
+ ]
+}

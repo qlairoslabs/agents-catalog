@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4b7955cc19bce4fcb8b86c4b69dff118a3d1d3bc3c3aeb981598cfd78a4ba94c",
+ "domain": [
+  "data/company-intelligence",
+  "finance/private-equity"
+ ],
+ "product": [
+  "magellan-data"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up parent companies, private equity backers, corporate families and sibling portfolio companies.",
+ "whenToUse": "Use when an agent needs ownership or corporate family information about a company.",
+ "tasks": [
+  "find parent companies",
+  "find pe backers",
+  "map corporate families",
+  "find portfolio siblings"
+ ],
+ "effects": {},
+ "flags": []
+}

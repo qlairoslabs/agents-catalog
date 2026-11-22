@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "8a80e260e33b03c5d94cedb5b215b808a64de102fb228e22c2126f7bda6553e3",
+ "domain": [
+  "software/documentation",
+  "iot/connectivity"
+ ],
+ "product": [
+  "soracom"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Searches SORACOM documentation, API references, CLI and SAM permission docs, and fetches full pages.",
+ "whenToUse": "Use when answering questions about SORACOM services, pricing, API endpoints or IoT setup.",
+ "tasks": [
+  "search service docs",
+  "search API docs",
+  "find CLI commands",
+  "look up SAM permissions",
+  "fetch documentation page"
+ ],
+ "effects": {
+  "7ba2671288fab220205048f681c9734be51c214f564bb603ae82ba2fb7c4f069": "read",
+  "1d18ec9f8a2a52cf68447f36486aed77c5251837f55b780bed04e8df4a82a8db": "read",
+  "bc9e60f10d5d66bc7cf966a6898d6a5eb19abe8df01c35e678f7cb9d27eaa260": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3133bec290460949db195bf89e2f333c0e73c91a7bde9390f60a2490d9d5ed8e",
+ "domain": [
+  "research/government-documents",
+  "politics/japan"
+ ],
+ "product": [
+  "japan-ministry-of-defense",
+  "meti"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Semantic search over Japan's Ministry of Defense and METI trade white papers, in English or Japanese.",
+ "whenToUse": "Use when answering questions about Japanese defense policy, security environment, trade strategy or economic security from official sources.",
+ "tasks": [
+  "search defense white paper",
+  "search trade white paper",
+  "query in English or Japanese"
+ ],
+ "effects": {
+  "ba4a44e30622d329bbb774bec4973af30fae7ab89b89f7a37c484e0d43dcca87": "write"
+ },
+ "flags": []
+}

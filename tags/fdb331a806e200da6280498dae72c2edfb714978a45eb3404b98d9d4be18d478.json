@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "fdb331a806e200da6280498dae72c2edfb714978a45eb3404b98d9d4be18d478",
+ "domain": [
+  "software/documentation/gpu-programming"
+ ],
+ "product": [
+  "nvidia-cuda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches NVIDIA CUDA documentation and code samples.",
+ "whenToUse": "Use when writing or debugging CUDA code and needing official docs or examples.",
+ "tasks": [
+  "search cuda docs",
+  "find code samples"
+ ],
+ "effects": {},
+ "flags": []
+}

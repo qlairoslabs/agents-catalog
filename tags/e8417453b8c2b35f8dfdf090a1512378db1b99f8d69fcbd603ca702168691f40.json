@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e8417453b8c2b35f8dfdf090a1512378db1b99f8d69fcbd603ca702168691f40",
+ "domain": [
+  "finance/personal-finance",
+  "finance/budgeting"
+ ],
+ "product": [
+  "pocketsmith"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to PocketSmith transactions, budgets, forecasts and insights.",
+ "whenToUse": "Use when an agent needs to review a user's PocketSmith spending, budgets or cash-flow forecasts without changing anything.",
+ "tasks": [
+  "read transactions",
+  "view budgets",
+  "view forecasts",
+  "get spending insights"
+ ],
+ "effects": {},
+ "flags": []
+}

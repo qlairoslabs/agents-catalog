@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "efc6fc9d8bfac4760a66cb8732e3ad0259bf79431b5ca8050d3a86e97c790347",
+ "domain": [
+  "technology/verification",
+  "finance/payments"
+ ],
+ "product": [
+  "ledgerproof",
+  "stripe",
+  "x402",
+  "usdc",
+  "base",
+  "bitcoin"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Sells hash-anchored receipts, evidence verification and public-record searches (FDA, SEC, sanctions) to agents, with proof-gated payment in USDC or Stripe.",
+ "whenToUse": "Use when an agent needs a tamper-evident receipt of its work or cited evidence on a company from FDA, SEC or sanctions records, and spending is authorised.",
+ "tasks": [
+  "list capabilities",
+  "buy anchored run receipt",
+  "verify evidence",
+  "search public record",
+  "resolve confidence gap",
+  "read subject evidence graph",
+  "discover open opportunities",
+  "fund opportunity",
+  "mint free sample receipt",
+  "verify receipt"
+ ],
+ "effects": {
+  "e951ddf03ec33014e3e678e6cfd43e4f93b2618d7bebfa6e63a382b1d4da075c": "read",
+  "58ef832c67a2d5427058b77ae49b73e9d9671b08d7d18e4db1160fdc4241040c": "risky",
+  "66c84b3963b388c699771754b872124982aebc757651620b65a18cd42e821cc2": "risky",
+  "2cf349d82d8f8db788228d7df4b45039e1fb37e0021a7855c8373804e9e34dea": "risky",
+  "068e6628f4fdf7baa58f32c36751d34790fe744de1375fefb389f0ec74fd39bb": "read",
+  "9112c46a823e11fc69ae4e94518147569e295afebcc3af05d948fa46cfcbfa30": "write",
+  "8fcc605f63d053d5cfd7ea048ff31787e9d53f31d3c6fe6b8f820c13f841337f": "risky",
+  "61ae0e90643e08228c8f834b499c740e80483a40433e040335f757831f2f00fa": "write",
+  "9e54ab380b532f0936f260e02025947e469fd5bfacf364d0804dc848a14860b3": "write"
+ },
+ "flags": [
+  "defaults-to-live-real-money-purchases",
+  "tool-descriptions-urge-agent-to-buy-evidence",
+  "polling-a-job-triggers-payment-capture"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "ad2bd3a5152f839f50053c118421b1f1064cb9a7f9127231efad85c2ec01c538",
+ "domain": [
+  "marketing/ai-visibility",
+  "marketing/seo"
+ ],
+ "product": [
+  "tofubofu",
+  "chatgpt",
+  "claude",
+  "perplexity",
+  "gemini"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs a free AI-visibility scan showing how often AI engines recommend a B2B company, with competitors and fixes.",
+ "whenToUse": "Use when a user wants to see whether ChatGPT, Claude, Perplexity or Gemini recommend their company.",
+ "tasks": [
+  "research company website",
+  "pre-fill scan form",
+  "run AI visibility scan",
+  "fetch visibility report",
+  "identify competitors named by AI",
+  "list top fixes"
+ ],
+ "effects": {
+  "c78c6706b54a77bc626fce8b6f7dfd682068e8daba53cdcd7492477c0c8077b5": "read",
+  "93ee93fff271533ecc2b9a45f0c5fe2d2fa4460b25680f00555dbb70265b488d": "write",
+  "559aa22872c8a2bd53c740ac09ccf9c9091d24bdc99099b7a28cde5d6b0ef511": "write"
+ },
+ "flags": []
+}

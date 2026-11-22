@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "b3d100a17959da20b85968417c14bb24addccd006630de86ab8b83858aadc79b",
+ "domain": [
+  "logistics/freight",
+  "logistics/moving"
+ ],
+ "product": [
+  "fromtocargo"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Quotes and price estimates for European road freight and household moving, with route tariffs, a freight price index, glossary, and a quote inquiry form.",
+ "whenToUse": "Use when a user needs a price estimate, route tariff or benchmark for cargo or a move within Europe, or wants to submit a quote request.",
+ "tasks": [
+  "search moving routes",
+  "get route tariffs",
+  "estimate moving price",
+  "estimate cargo price",
+  "estimate volume by rooms",
+  "estimate volume by items",
+  "get freight price index",
+  "look up glossary terms",
+  "read service terms and FAQ",
+  "submit quote inquiry"
+ ],
+ "effects": {
+  "1b75af624e65580189844a15b4988bc832eef9e242819777cb778291299118d6": "read",
+  "d9673e085783650734643cf14cc8252d763999a04c73345b5aefe76384a61c3f": "read",
+  "6164dffcfc859e7ceb913e6d98d663ea4ccb7e098b992a361bdad666337a5137": "read",
+  "150ca5f5e0614a55fb4a1dde02d1e96267934640b2bcf41e67982fbec42610b5": "read",
+  "f927dcece7f581f63baca090b9a0511ed830559d017aa598212c4fd1bbb33f0b": "read",
+  "54c39175815384b67bc4dcf781ae0c3028efcfd85e149b9ccb758b5bb9d500ba": "read",
+  "a7f6269fb08c48557ccac6dd98dc3d286ea28870a176d3ffdf25b35d652efed8": "read",
+  "6bddbf35462a75bbc0d5ffbf582ad9d4aa8b1f69b3be1052f67887cc543500c6": "read",
+  "4373b5afd42a8440a71ac5d0a19406aa5febfd568f251a923e75a7f7e1e7aafe": "read",
+  "8aeb5f5979cec50ec2fada7a6fb70c3a48b9e7abcc8f4aeb56e339b4f851a717": "read",
+  "02c055981c77688107da31f67b571621615ffb8b1247c705ce303638b3bc7457": "read",
+  "0a2041f0c5ecaa28c9400c2a7d56cd80659cb12ef5726c89e8b4dd9e5fbaf3d2": "read",
+  "8d1baf3bdc3fd756aba0f7c79d88e6576ce3907224e71ccb6b4d66db0b5dd3f1": "read",
+  "e7ce48e2270dd9b06011bcaf541b62373d00c9521b5072446ca885e2713c84f3": "read",
+  "b6c3c84d76e16845b2307ef1abc05567c39c5ac33c52276a97e0ff385beee938": "read",
+  "33f2c71cd8282e5d42674eeeb9c6e2ee40a9b3b5774ee935a032dba70a9c7291": "read",
+  "8f9d5798d6e030aa93fda8741426f924c6a0ff8f67970b74d1e025bb5e360086": "read",
+  "bb10a1cd2bcc2de060a0e7d1421f0ab048c71084c993eb6802ecc656b9228471": "read",
+  "d91999fd7e0a26e66da6b102e6fb0cc589b1f0c792cdb032ac7a0c68251d87ac": "write"
+ },
+ "flags": []
+}

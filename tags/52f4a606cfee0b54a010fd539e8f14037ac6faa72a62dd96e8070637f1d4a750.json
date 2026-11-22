@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "52f4a606cfee0b54a010fd539e8f14037ac6faa72a62dd96e8070637f1d4a750",
+ "domain": [
+  "design/user-research",
+  "software/testing/usability"
+ ],
+ "product": [
+  "usercase"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Local npm server for surveying real site users and running simulated users in a browser to find usability issues.",
+ "whenToUse": "Use when an agent wants user feedback or simulated browser testing to find and fix site problems.",
+ "tasks": [
+  "ask site users questions",
+  "run virtual users in browser",
+  "identify usability issues"
+ ],
+ "effects": {},
+ "flags": []
+}

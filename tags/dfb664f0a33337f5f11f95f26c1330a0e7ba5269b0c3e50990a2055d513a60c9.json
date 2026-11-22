@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "dfb664f0a33337f5f11f95f26c1330a0e7ba5269b0c3e50990a2055d513a60c9",
+ "domain": [
+  "legal/contract-management",
+  "productivity/file-storage"
+ ],
+ "product": [
+  "box"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Reviews and monitors contracts stored in Box, comparing them with firm templates, flagging variances and writing contract metadata back to Box.",
+ "whenToUse": "Use when a user needs contract, NDA or MSA review, tracking of expirations and renewals, or variance analysis against templates in Box.",
+ "tasks": [
+  "find new or expiring contracts",
+  "compare contracts against templates",
+  "flag material variances",
+  "write contract metadata to box",
+  "produce cited variance reports"
+ ],
+ "effects": {},
+ "flags": []
+}

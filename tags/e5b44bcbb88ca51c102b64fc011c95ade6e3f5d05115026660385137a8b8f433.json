@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e5b44bcbb88ca51c102b64fc011c95ade6e3f5d05115026660385137a8b8f433",
+ "domain": [
+  "software/embedded/firmware",
+  "hardware/simulation"
+ ],
+ "product": [
+  "chiplab",
+  "veecle"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Builds, runs and validates firmware on virtual hardware, with a hardware knowledge corpus.",
+ "whenToUse": "Use when an agent needs to compile and test embedded firmware without physical devices.",
+ "tasks": [
+  "build firmware",
+  "run firmware on virtual hardware",
+  "validate firmware behavior",
+  "search hardware documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

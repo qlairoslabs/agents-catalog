@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f4e77c43f7b946677fc083d60f80e200569440c26ade8f8695e84ab52636c978",
+ "domain": [
+  "web/cms",
+  "content/publishing"
+ ],
+ "product": [
+  "zerocms",
+  "astro",
+  "git"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Git-based CMS for Astro sites that lets users create and publish content in the browser.",
+ "whenToUse": "Use when creating or publishing content on an Astro website managed with ZeroCMS.",
+ "tasks": [
+  "create content",
+  "publish content",
+  "edit site pages"
+ ],
+ "effects": {},
+ "flags": []
+}

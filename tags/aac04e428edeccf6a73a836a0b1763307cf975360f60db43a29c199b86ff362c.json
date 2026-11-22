@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "aac04e428edeccf6a73a836a0b1763307cf975360f60db43a29c199b86ff362c",
+ "domain": [
+  "software/mobile/test-automation",
+  "software/testing"
+ ],
+ "product": [
+  "appium",
+  "ios",
+  "android"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Automates iOS and Android devices with Appium and helps create mobile tests.",
+ "whenToUse": "Use when an agent needs to drive a mobile app on a device or write Appium tests.",
+ "tasks": [
+  "automate mobile devices",
+  "interact with app ui",
+  "create mobile tests"
+ ],
+ "effects": {},
+ "flags": []
+}

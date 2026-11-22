@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "f4a1add6e63560864af4cb22c4c762cee1c5ce7711e69832ab8b7cad37b7b269",
+ "domain": [
+  "finance/crypto-security",
+  "blockchain/solana"
+ ],
+ "product": [
+  "solana",
+  "dexscreener"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Checks Solana tokens for coordinated wallet clusters, bundles, dumps, deployer links and honeypot signs, and screens a specific wallet against a token.",
+ "whenToUse": "Use before buying a Solana token, or when a user asks whether a given wallet is involved in a token.",
+ "tasks": [
+  "check token cabal risk",
+  "detect coordinated wallet clusters",
+  "screen wallet against token",
+  "review holder distribution",
+  "find on-chain evidence transactions"
+ ],
+ "effects": {
+  "dff1e2f9dccca766c6a10410eca1631a87e6ca2c234ef3a14005ba9e6bdc6c4a": "write",
+  "def4982ae96e6a0d7b55475e7765a43ca80e915e03d88c0e5f12f67857c58fdb": "write"
+ },
+ "flags": [
+  "tool description tells the agent to POST to /api/watch with an API key after a purchase, which is an instruction aimed at the agent"
+ ]
+}

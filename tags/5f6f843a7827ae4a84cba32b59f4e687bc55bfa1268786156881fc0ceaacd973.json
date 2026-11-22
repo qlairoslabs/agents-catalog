@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5f6f843a7827ae4a84cba32b59f4e687bc55bfa1268786156881fc0ceaacd973",
+ "domain": [
+  "product/feedback-management",
+  "product/roadmap"
+ ],
+ "product": [
+  "sleekplan"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages customer feedback, product roadmap, changelog and surveys in a Sleekplan workspace.",
+ "whenToUse": "Use when a product team wants to review feedback, update the roadmap or publish changelog entries in Sleekplan.",
+ "tasks": [
+  "manage feedback",
+  "update roadmap",
+  "publish changelog",
+  "manage surveys"
+ ],
+ "effects": {},
+ "flags": []
+}

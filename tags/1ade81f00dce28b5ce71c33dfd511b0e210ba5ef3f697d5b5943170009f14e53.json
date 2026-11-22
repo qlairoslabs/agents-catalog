@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1ade81f00dce28b5ce71c33dfd511b0e210ba5ef3f697d5b5943170009f14e53",
+ "domain": [
+  "design/image-generation"
+ ],
+ "product": [
+  "go-bananas"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates and edits AI images such as characters, product shots and posters, saving results to a gallery.",
+ "whenToUse": "Use when the user wants to create or edit images like posters, product visuals or characters.",
+ "tasks": [
+  "generate character images",
+  "generate product images",
+  "create posters",
+  "edit images",
+  "save images to gallery"
+ ],
+ "effects": {},
+ "flags": []
+}

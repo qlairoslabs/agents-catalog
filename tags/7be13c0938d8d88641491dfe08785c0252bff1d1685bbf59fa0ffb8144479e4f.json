@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7be13c0938d8d88641491dfe08785c0252bff1d1685bbf59fa0ffb8144479e4f",
+ "domain": [
+  "software/app-hosting",
+  "software/app-generation"
+ ],
+ "product": [
+  "appdeploy"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Turns app ideas described in chat into deployed full-stack web applications.",
+ "whenToUse": "Use when a user wants to build and deploy a live web app from a description.",
+ "tasks": [
+  "generate full-stack apps",
+  "deploy web apps"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ac6d11099222d5262aeb2df59130b56f49687c4a9b14c954a987f713390ab7c5",
+ "domain": [
+  "finance/trading",
+  "finance/forex"
+ ],
+ "product": [
+  "metatrader-4",
+  "metatrader-5"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to MetaTrader 4 and 5 accounts for balances, open positions, trade history, quotes and candles.",
+ "whenToUse": "Use when an agent needs to inspect a MetaTrader trading account or market price data without trading.",
+ "tasks": [
+  "read account balances",
+  "list open positions",
+  "view trade history",
+  "get quotes",
+  "get candles"
+ ],
+ "effects": {},
+ "flags": []
+}

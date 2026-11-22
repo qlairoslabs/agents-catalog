@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "453dce5f431e49735539845796ae7bd3d0933e416c7d4c4a5cac15b4bbf4e595",
+ "domain": [
+  "software/cybersecurity/agent-guardrails",
+  "finance/crypto-wallets"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Checks AI agent actions before they run and returns signed, explained allow, warn or block risk decisions.",
+ "whenToUse": "Use before an agent executes a sensitive action, such as a wallet transaction, to get a risk verdict.",
+ "tasks": [
+  "assess action risk",
+  "return allow warn block decisions",
+  "explain risk reasoning",
+  "sign decisions"
+ ],
+ "effects": {},
+ "flags": []
+}

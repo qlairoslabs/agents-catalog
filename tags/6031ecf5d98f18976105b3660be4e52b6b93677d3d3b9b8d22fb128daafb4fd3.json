@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6031ecf5d98f18976105b3660be4e52b6b93677d3d3b9b8d22fb128daafb4fd3",
+ "domain": [
+  "software/documentation",
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Tells a coding agent who owns documentation, where edits belong, which checks to run and when to hand off to a human.",
+ "whenToUse": "Use before an agent edits code or docs in a repository with ownership rules and required checks.",
+ "tasks": [
+  "resolve documentation ownership",
+  "find edit roots",
+  "list required checks",
+  "identify human handoffs"
+ ],
+ "effects": {},
+ "flags": []
+}

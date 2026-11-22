@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "07fd624738ba1616134019a0a1711ac370019e416202951ca69b240481aaf3b4",
+ "domain": [
+  "marketing/advertising",
+  "marketing/campaign-management"
+ ],
+ "product": [
+  "spotify-ads"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Spotify advertising campaigns, ad sets and ads and pulls performance reports through the Spotify Ads API.",
+ "whenToUse": "Use when creating, managing or reporting on ad campaigns on Spotify.",
+ "tasks": [
+  "create campaigns",
+  "create ad sets",
+  "create ads",
+  "pull performance reports",
+  "handle oauth authentication"
+ ],
+ "effects": {},
+ "flags": []
+}

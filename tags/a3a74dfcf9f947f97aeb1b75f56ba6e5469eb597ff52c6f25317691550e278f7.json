@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a3a74dfcf9f947f97aeb1b75f56ba6e5469eb597ff52c6f25317691550e278f7",
+ "domain": [
+  "software/observability",
+  "operations/monitoring"
+ ],
+ "product": [
+  "datadog"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Datadog API access covering monitors, logs, metrics, traces and dashboards.",
+ "whenToUse": "Use when investigating incidents or system health using Datadog data.",
+ "tasks": [
+  "query logs",
+  "query metrics",
+  "inspect traces",
+  "manage monitors",
+  "manage dashboards"
+ ],
+ "effects": {},
+ "flags": []
+}

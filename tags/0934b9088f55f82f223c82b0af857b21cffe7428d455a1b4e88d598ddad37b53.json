@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0934b9088f55f82f223c82b0af857b21cffe7428d455a1b4e88d598ddad37b53",
+ "domain": [
+  "security/identity-access-management"
+ ],
+ "product": [
+  "onelogin"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "hire-and-manage"
+ ],
+ "summary": "Connects to the OneLogin API to manage users, applications, roles and authentication settings.",
+ "whenToUse": "Use when an agent needs to administer users, app access or roles in a OneLogin identity tenant.",
+ "tasks": [
+  "manage users",
+  "manage applications",
+  "assign roles",
+  "manage authentication settings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2523f9bf33898950aba6b3edf33709364989314343ad3cfeb094e7fa7bf2d66d",
+ "domain": [
+  "data/analytics/sql",
+  "data/warehouse"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs SQL against a data warehouse to answer business questions such as counts, metrics, trends and lookups.",
+ "whenToUse": "Use when a question needs data from the warehouse, such as counts, aggregations or ad-hoc analysis.",
+ "tasks": [
+  "query data warehouse with sql",
+  "compute counts and metrics",
+  "analyze trends",
+  "join across tables",
+  "look up records"
+ ],
+ "effects": {},
+ "flags": []
+}

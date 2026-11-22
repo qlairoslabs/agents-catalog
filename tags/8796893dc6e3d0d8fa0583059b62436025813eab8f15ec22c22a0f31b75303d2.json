@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "8796893dc6e3d0d8fa0583059b62436025813eab8f15ec22c22a0f31b75303d2",
+ "domain": [
+  "documents/processing",
+  "documents/e-signature"
+ ],
+ "product": [
+  "nutrient"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Hosted document tools to extract, parse, classify, convert, OCR, sign and redact documents.",
+ "whenToUse": "Use when an agent needs to convert, OCR, extract from, sign or redact documents.",
+ "tasks": [
+  "extract text",
+  "parse documents",
+  "classify documents",
+  "convert formats",
+  "run ocr",
+  "sign documents",
+  "redact documents"
+ ],
+ "effects": {},
+ "flags": []
+}

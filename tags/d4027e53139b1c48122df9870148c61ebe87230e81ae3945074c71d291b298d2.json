@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d4027e53139b1c48122df9870148c61ebe87230e81ae3945074c71d291b298d2",
+ "domain": [
+  "finance/tax",
+  "legal/italian-tax"
+ ],
+ "product": [
+  "normattiva",
+  "agenzia-delle-entrate",
+  "inps"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Searches Italian tax primary sources and computes or compares tax outcomes across Italian regimes such as forfettario and ordinario.",
+ "whenToUse": "Use when answering Italian tax questions with citations or comparing tax regimes at a given revenue.",
+ "tasks": [
+  "search tax sources",
+  "list sources",
+  "calculate tax",
+  "compare regimes"
+ ],
+ "effects": {
+  "3a1a7cc5fd079b5fa7da91a95dec14c1acb241b0ffec206249c904879fa584c2": "write",
+  "4ce2a4bc776cbeba81da3fcf9a480a3d12eb64fbebe49c486c8e470a42ede217": "read",
+  "1fb5244a25ad33bab34eb7a1ddd4335a9acca6452f2ad4b40a95972d7d443155": "write",
+  "b7e73725b93be9575d439d5b1d8029019c0b4e38e8f31cd3e14046a2d14f1b49": "read"
+ },
+ "flags": []
+}

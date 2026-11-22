@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "da03c80a06af350aadcd4e5c0eaef22e96ee07c960094f5b15f39f244a8518d7",
+ "domain": [
+  "travel/tour-booking",
+  "business/booking-management"
+ ],
+ "product": [
+  "tripworks"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and manages tour and activity bookings, guests, manifests and sales reports in TripWorks.",
+ "whenToUse": "Use when a tour operator needs to look up or manage bookings, guest lists or sales reports in TripWorks.",
+ "tasks": [
+  "search bookings",
+  "manage bookings",
+  "manage guests",
+  "view manifests",
+  "get sales reports"
+ ],
+ "effects": {},
+ "flags": []
+}

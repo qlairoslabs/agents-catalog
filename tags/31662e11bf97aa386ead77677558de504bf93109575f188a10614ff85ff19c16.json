@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "31662e11bf97aa386ead77677558de504bf93109575f188a10614ff85ff19c16",
+ "domain": [
+  "analytics/product-analytics/charts"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates Amplitude charts from plain-language descriptions, choosing events, filters, groupings and visualization.",
+ "whenToUse": "Use when a user describes a metric to measure and wants an Amplitude chart built for it.",
+ "tasks": [
+  "create chart from description",
+  "select events",
+  "apply filters and groupings",
+  "choose visualization"
+ ],
+ "effects": {},
+ "flags": []
+}

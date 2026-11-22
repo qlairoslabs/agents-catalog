@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "02d7d5e0f27dcdd89817f11eecbee3463fc32a37b60a9d45a4f4c348c0032a2b",
+ "domain": [
+  "documents/pdf"
+ ],
+ "product": [
+  "kdan-pdf",
+  "chatgpt",
+  "claude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Hosted PDF toolkit to upload, view, compare, compress, delete pages from, password-protect and redact PDFs, creating new versions of each file.",
+ "whenToUse": "Use when a user wants to edit, protect, redact, shrink or compare PDF files.",
+ "tasks": [
+  "upload pdfs",
+  "compare two pdfs",
+  "compress pdf",
+  "delete pages",
+  "set password",
+  "change password",
+  "redact text",
+  "view pdf",
+  "read pdf text",
+  "render page images"
+ ],
+ "effects": {
+  "574d640585033548a4406775c258c9c37fd88a4c0a97be79b05029ccb5b999c9": "write",
+  "fe9dc4fe797f2b4a932c2ba4e4b1d745c565cfb7a49b3218d59e9689a691407a": "read",
+  "93868adb12ec4d32d13104e474a3b3cba9b10293376f80b0296d2c757220d7e2": "write",
+  "4ec77b6fde5b1e970e974854fc8ab7b7b7fe75a5aea58dc37e9451e0632accd8": "write",
+  "7984f169a4d978082e285b7e2275232784c973d92a1311c410276535482ec536": "write",
+  "16af9478b0a846b39ac4c89061c06acc4324dc31ca8a7d3aebd2f0d928efff70": "write",
+  "acbbb3c21d8f93fda086d7ebce820e5f30696aeaa1bcb83b740941288a326cf0": "read",
+  "eae56cfd9f7c97473195336032b464a039bc8997a3e8e1cfc81fb3d4f32c255f": "write",
+  "265b775d3bbd59aec8b3033110ffbef2fac089ed8fea73f55786b51782790403": "write",
+  "7bba576ce3d7c5695498989f41ad7cf0cfb9876ec08e403b7ea94de7518c1c0b": "write",
+  "08ac059dd471c3bc0a62aac55db0a99e5f5b19bce695b78a7974b328ea71e52a": "write",
+  "1f3d9dfcefb3cfdf80b30214f9c333e441428578e93cb53323838fda9e9ee9ad": "write",
+  "d537eb87460903487841ea1826945a6ec8ce0bfa5b82f7a5a4a7bbffa31e7178": "write",
+  "3a5c43bb3b0f8c22dc1a975732c705b85bfb7f4f0783100cf03e3aaaa120ba0a": "read",
+  "7174cfc24976063afa8557bc2d835d0d7cfac0d8b42c4c15d9b8ecd4bd2bf718": "read",
+  "e34901c4b5c85d4595c95a580ef4d6e763f0bbe4c7611954b037bc4eda88127a": "write"
+ },
+ "flags": [
+  "tool descriptions use forceful MANDATORY/FORBIDDEN workflow instructions aimed at the agent"
+ ]
+}

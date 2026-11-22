@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "eb84342865910ae4cb7597f83736534433064bcd0d6145cd62384a9050af309f",
+ "domain": [
+  "developer/service-directory",
+  "ai/agent-tooling"
+ ],
+ "product": [
+  "botfriendly",
+  "x402",
+  "mcp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Directory of APIs, merchants and tools usable by AI agents, with protocol stats, a site bot-friendliness scorer and service submission.",
+ "whenToUse": "Use when looking for agent-usable APIs or services, scoring a site's agent-readiness, or listing a service.",
+ "tasks": [
+  "search services",
+  "get service details",
+  "list categories",
+  "get featured services",
+  "get protocol stats",
+  "score website bot-friendliness",
+  "submit service"
+ ],
+ "effects": {
+  "6596f355f66f3fa368d044fe615b77f07d57d82699d0d96fb9368e0be6a18184": "read",
+  "298d283fac59f3a4ba3f102159514840077d8de159094148066f49949c00827a": "read",
+  "cfc45a2a58d85d201a7bfe4ea3c2e03aca0f420b4fd70cb87599a3be4620d72e": "read",
+  "03bb9cc2a3b7900490edda1086ad88e060848b2c643a9a18e173c71037cea45e": "read",
+  "96df975c0dd9818e77664e97391fe4a3e4b5b1d3d1dc4911c3021ef1a485a033": "read",
+  "2e847679168c3498f5e9af8fd71f97aa678f53d7f221d29996c525c53d4bfc66": "read",
+  "dac8d5965859f1464954607842b6fbe00b31876736e353a6e43d946c35c04d83": "write"
+ },
+ "flags": [
+  "search results may include paid promoted listings (disclosed as ads)"
+ ]
+}

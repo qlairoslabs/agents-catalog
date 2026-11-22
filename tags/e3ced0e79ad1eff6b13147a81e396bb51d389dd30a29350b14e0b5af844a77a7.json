@@ -1,0 +1,76 @@
+{
+ "classifier": 2,
+ "contentHash": "e3ced0e79ad1eff6b13147a81e396bb51d389dd30a29350b14e0b5af844a77a7",
+ "domain": [
+  "pets/aquariums",
+  "hobbies/aquascaping",
+  "reference/species-data"
+ ],
+ "product": [
+  "atlarium"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searchable data on aquarium and terrarium fish, plants, products, diseases and fertilizers, plus calculators for tank volume, water chemistry and dosing.",
+ "whenToUse": "Use when someone is planning, stocking or troubleshooting an aquarium, marine tank, terrarium or paludarium and needs species, compatibility, water or dosing guidance.",
+ "tasks": [
+  "search fish and plant profiles",
+  "check species compatibility",
+  "suggest species for a tank",
+  "get recommended water parameters",
+  "diagnose algae, diseases and plant problems",
+  "look up aquarium medicines",
+  "search equipment and fertilizers",
+  "calculate fertilizer doses and nutrient gaps",
+  "calculate tank volume and weight",
+  "calculate water changes and chemistry",
+  "convert aquarium units",
+  "suggest a full habitat plan"
+ ],
+ "effects": {
+  "538c876272e376ce8883e77985ab82267af987e758db77052765950d8ca1ddd4": "read",
+  "03a4daa60329c2fcf41b536c6cee3b0422612d362b96b89ecfb40ed632376ffa": "read",
+  "3da69a68b51aa0e35b31adb9dddfc416bffa838e833039769311a2d94155e327": "read",
+  "3ea8367def61b653c291013957708369cef9e008288fbd8cbbd700db8180e953": "read",
+  "5af9afa0732da33e85f9fcb59b89c38f45c55e839ab0d5f5ec6d5e9a22974df4": "read",
+  "e179cca8d6da6dbc4c2cb4139d22e4be4db73a6f590e72dc3c53c0abacd94d9b": "read",
+  "5b13db32987d9d96d4dade8824d30cf611cfcc460bf45f85f3aafea5a6fbfe46": "read",
+  "be7d5f4e303c47ce794beb2fa48436f8d2bbc08c55c81ac395683c2e5472214f": "read",
+  "34082f1c3c2714d295bf123143e308613e743e327dc657c3eb5a122c3410f173": "read",
+  "fd8f89c22bd6fe42d19ec0aed2852b8bdbf91d4e161d7824ff8ad2e1dd923ab2": "read",
+  "15a4faf08486b2c4ef1b87e9a6f206b4278eca144581b55f4361a4fe7adc1991": "read",
+  "aeba0af38c9254708aaf25d41883f5a137f73adf41a1d26d6603bd3b732bb72f": "read",
+  "751c5ad21062f7557071b11f4c659cdfac27c382b241063efacb5d4e25337a19": "read",
+  "d2c00750d65e750f1df4812b5e5a5edb7630820b68c3b64c91766ae1ef98eb5d": "read",
+  "cad162be5b2c00a81680c3c380e4a768f0d34f9b63ca63c803fa793292fa1d91": "read",
+  "787a249cdb7d5d7a89411617ad92049556e70cff004a5381c464d4b4899f734e": "read",
+  "2b3b964b7b8bf9de9ab2f2995ee432f0bd5e55cd14f7ceb9bcc0ef2f448360b5": "read",
+  "797a48f05ab05656ac3823e72eccedeb3b3c65431f148f6ae5967f27ef573e88": "read",
+  "26900d9c1c82d30f88bf5bf2222dd9e2033951a92d00b0fcd7453e2ae38e8c19": "read",
+  "9b8f913514d1de2f2d5e45f1fdd86bac21dedc9c66f515c3c2024ea4e9d9dda5": "read",
+  "e4ac6cd1527febae1ea09e48becee614a432f8653374e2d87ed9c2067eae8350": "read",
+  "5d43539ab238d7814a5ff9a4c6cc82a967331b1a37f9e9e1962597f3c92f164c": "read",
+  "290bcb6b98bc08c29c8796e8acdc151b7fe364e556c1155499570e7601270066": "read",
+  "a1ef555cb12b187e89db778029b579722cb298ff0d617dcc0a27b2e6d035b501": "read",
+  "f44f59cf8e620c1c8d5d25981a9e5c6efde5736b3aa61ed7ea83bfa78d495af6": "read",
+  "674cda8ce1fa7966c4f49294a3c1e7da0ffa8c5fa9fbd507cb51d34666331cd2": "read",
+  "9d331a67222a4c03aef68c9cdda411aa0308766a54b06317651d50c1a2083e4f": "read",
+  "831e38b026a35fcb8ee58859fd0aa180d7ae0449277c3f62f1c49a360b54692f": "read",
+  "58be1f034488e8d5d0012adcd12e9d07f1009a1784465723918e3dde41986e42": "read",
+  "270453ad24a251eb631bef9221f8a5219c0b17257f70b2091dad7324dea9d9de": "write",
+  "96f8d8eed56e5f7079e36f4335c36923ff485ffe412c2840fa60d33ac8b7cd9b": "write",
+  "c3bcbe57aa9ff322a4eee82b42a744b7d9cd04774822188549d0b844f994a71a": "write",
+  "01b9542850e303cb13e6856a0f27464380b2b5d205828bee67ea94ed1cb8cc52": "read",
+  "9853a1c96cf223496ec1fadf30b397ad08b789445c4ec2f3e6806869464560ea": "read",
+  "61e517554fa5fa399d63c81f833053045da58f1b8ffb2129b7dd69879fb3052e": "read",
+  "b2ec969cca4b8b11602a5fa7ebe8ff4e3db769df891fa4fbd6e9df1d8fed91a3": "read",
+  "e7f90216b3c252605efc64d5adb3e11990e5da7eae0e3d53fb2bc423fed2798c": "read",
+  "e6902d3f62a4f1084042a9e8168ad7d1a854d1954204348ca85227adcbb2cdc1": "read",
+  "c9e4ba5379ff576516133f2320b3d3e428e3355c660601a2c047b6cb060c7ef0": "read"
+ },
+ "flags": []
+}

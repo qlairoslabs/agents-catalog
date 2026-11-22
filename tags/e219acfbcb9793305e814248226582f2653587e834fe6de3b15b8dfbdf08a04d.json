@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e219acfbcb9793305e814248226582f2653587e834fe6de3b15b8dfbdf08a04d",
+ "domain": [
+  "support/help-center",
+  "support/knowledge-base"
+ ],
+ "product": [
+  "helpcenter-io"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "create-content"
+ ],
+ "summary": "Connector for writing, organizing, designing and migrating HelpCenter.io articles, categories and templates.",
+ "whenToUse": "Use when an agent needs to author or reorganize content in a HelpCenter.io help center.",
+ "tasks": [
+  "write articles",
+  "organize categories",
+  "edit template design",
+  "migrate help center"
+ ],
+ "effects": {},
+ "flags": []
+}

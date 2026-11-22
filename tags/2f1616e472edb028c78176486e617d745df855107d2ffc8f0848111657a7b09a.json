@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2f1616e472edb028c78176486e617d745df855107d2ffc8f0848111657a7b09a",
+ "domain": [
+  "retail/price-comparison"
+ ],
+ "product": [
+  "thebetterbuy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches a UK product catalogue and compares retailer prices and offers for products.",
+ "whenToUse": "Use when a user wants to find the best price or offers for a product from UK retailers.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "compare retailer offers",
+  "list categories"
+ ],
+ "effects": {
+  "6a259045a4c04467528eaa74c33e0342e8bf39e2c58e2dd47ce692c823691747": "write",
+  "b57471ff541b625c02b77112480f460d86076d2d186929e57681571ce3897ed4": "write",
+  "703e18d403b41f5366cc8a5836877eb142a7b4b20e6df4b5f66d74579649c9e5": "write",
+  "8379ccb7ac4675692ee71133871a6abd826fde0c6bbbeb453965f1922d3c1622": "write"
+ },
+ "flags": []
+}

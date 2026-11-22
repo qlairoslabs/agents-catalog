@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2ba0fe36f674477d581e7a3f4d756eee278d86be5a923e5884ddf1f3fabb8e84",
+ "domain": [
+  "software/supply-chain-security",
+  "software/package-review"
+ ],
+ "product": [
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Checks whether npm packages have been reviewed and approved, audits package.json files and lets users request package reviews.",
+ "whenToUse": "Use when an agent needs to verify npm dependencies are vetted before installing or to audit a package.json.",
+ "tasks": [
+  "check npm package review status",
+  "audit package.json",
+  "request package review"
+ ],
+ "effects": {},
+ "flags": []
+}

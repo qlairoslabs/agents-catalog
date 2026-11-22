@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "86878f02a118604c8c06f8eda34bae927deaa7fef23098e269521a8110a0ba1c",
+ "domain": [
+  "ai/agent-ecosystem-news",
+  "software/mcp"
+ ],
+ "product": [
+  "niubiagent"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Source-backed signals, briefings and MCP compatibility reports about the AI agent ecosystem, with source health checks.",
+ "whenToUse": "Use when tracking news in the AI agent ecosystem or checking known MCP compatibility failures.",
+ "tasks": [
+  "search compatibility reports",
+  "get report",
+  "search signals",
+  "latest signals",
+  "get signal",
+  "daily briefing",
+  "check source health"
+ ],
+ "effects": {
+  "cc02f8407820805d73b64114f128f2e648c810ad32c00cf0e6f8d6c520a2a19e": "read",
+  "14a9055899a4a0d1060966fb64cd4298742deae8f8cf4ba6e2c7d94aac3a3756": "read",
+  "4f833670a726ca93a84d0153ee33269a9c231fcec108a9a6106c5a0ea9d7d3e8": "read",
+  "dd16cd06072346a27e057dcfd5c19b3c7744cf780ca7d99dd15bc80a6182b392": "read",
+  "069f9d94808acbeff8507368ae45a88d70789541ceace1d576eac5f6e1de5d56": "read",
+  "a9eee1cc5fc6b84f05864e6e4ebebb49a7df0893b0a766c85d5af4b9bdb07389": "read",
+  "bea296c145d2592fdbf8b150db89c7fd7c0d15f313108456494b6e2312a42399": "read"
+ },
+ "flags": []
+}

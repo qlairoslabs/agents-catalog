@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bd5a18b0331cb27cc0fde9af5a854e27f17e9b489841480f95869d0a8c1a33ea",
+ "domain": [
+  "software/databases/migration"
+ ],
+ "product": [
+  "azure-sql-database",
+  "sql-server",
+  "sqlpackage"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Imports an existing database schema and data from bacpac or dacpac into the local Azure SQL container using SqlPackage.",
+ "whenToUse": "Use when a user wants to load an existing or production database into the local Azure SQL container.",
+ "tasks": [
+  "provision target database",
+  "import bacpac",
+  "deploy dacpac",
+  "run sqlpackage import"
+ ],
+ "effects": {},
+ "flags": []
+}

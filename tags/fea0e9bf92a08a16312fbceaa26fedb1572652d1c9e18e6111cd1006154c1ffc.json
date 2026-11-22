@@ -1,0 +1,62 @@
+{
+ "classifier": 2,
+ "contentHash": "fea0e9bf92a08a16312fbceaa26fedb1572652d1c9e18e6111cd1006154c1ffc",
+ "domain": [
+  "commerce/luxury-fashion",
+  "commerce/product-search"
+ ],
+ "product": [
+  "shopwithin"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches live stock at independent luxury boutiques with sizes, prices, fit, duty estimates, delivery and a boutique directory.",
+ "whenToUse": "Use when someone wants to find, price, size or buy designer fashion items from independent boutiques, or locate boutiques in a city.",
+ "tasks": [
+  "search in-stock luxury items",
+  "get item details and fit",
+  "visual search from photo",
+  "show trending and new arrivals",
+  "find items on sale and gifts",
+  "suggest outfits",
+  "convert sizes",
+  "estimate import duty and landed cost",
+  "list and look up boutiques",
+  "check delivery and returns",
+  "find where to buy a designer",
+  "compare items and prices"
+ ],
+ "effects": {
+  "052d0c94d037d0da1f62f535984c86582f29282a3b1c0ebcaa0e41d5d549834f": "write",
+  "0cb873cde6381ed7a09254be529b89efece0e77dba9b523c00e4358c0b5dda4d": "read",
+  "56105880b65ccc8b608b808bfb7a29a23696deb7f16f0b5c9376de439ef7b52c": "write",
+  "c995eea4aa79308f0cf27d8ffffe24de22ea58a70cfd35fa845fddfe40d2200f": "read",
+  "6cbfa2e6c9e162c29e19f78f850619a34c194929c34a6b8b791325eb0a7fe4c2": "write",
+  "393288ff3e3afc72d74811e6c26c9e039a918f65db9d350dc8ea0692d78b9982": "read",
+  "25a38a81a60dd29ceb230767a0ef54bddd779a3e9fdee76dc696d5883c4bc8ec": "read",
+  "107c9457c445fec0c2aa738463c6a4662cff1db04204c7b5dda962859b2a85be": "read",
+  "0742a0d22edea438fd302383f39030234201f478d56f820261028ebe184cce28": "write",
+  "409c8167cb2d8f719a05f2e2043caa0c00b5985831c1da8c5400c95b39216396": "write",
+  "b64e901a692e69b11832f66925c6189fd65892bc4ff48cecd8a426d75055784f": "write",
+  "47337942297c668535fe568d82ad1d8bed56fb2c13f29b8fd92019ad57fc5aac": "read",
+  "b1582478d22a4ed5db78ba9ff0033102da542d78bc53f1de43feda3ca7dd26d5": "write",
+  "29c308571f374acf61160e519480ef75a3abc9463aae5d6b541cff9dd905ad4c": "write",
+  "50d1c04307f3222ce0e6e8ad7fa8d4d28f89291cd76dea7ee62732f79d97d7ca": "write",
+  "67bed523142dd13895df25dddeab43e7d15d95f8232e1ad9a5cacf89b15ddaf1": "write",
+  "04566d46c80a673bcd949331b9b61e9da8680327f07643658471197f3443290c": "write",
+  "6588925316aeec764f6d78ddd882464fbaa8014176b60cd0ddb28db3c3f58730": "write",
+  "a0d1943d4b0cd3babc48c86e36ef25ad9a61ea161dd7455bb4a479871163b595": "write",
+  "370aced9d50957876a14cdb2b75de29529e534e7a6eadf9a027cab6a2a34fdcf": "write",
+  "83e1802c4da04f724f0772c9a96a41d1371c8603819b67b95d806030f7283e54": "read",
+  "ee0446e32873403b0383958c68ad8a92977b34f78d23fcbeb54a133628ea3a55": "write",
+  "7353141bb1b105c992673ba2b48c66ed13255203a03cf6d4e9783715bcd5577a": "write",
+  "13eb1ce65f894e8108af7136f620a3881ccb1680cf604171d08e29c201e1675f": "write",
+  "b70895fe8507145ef2a990d7e27b7553605e742127e221fa036f66ca549f21e2": "write",
+  "72453eebd0c0e39ed971e44c17c53ef48b983be75d24399096beb2c2fbbc8429": "write"
+ },
+ "flags": []
+}

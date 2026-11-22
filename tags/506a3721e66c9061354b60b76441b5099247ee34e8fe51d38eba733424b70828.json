@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "506a3721e66c9061354b60b76441b5099247ee34e8fe51d38eba733424b70828",
+ "domain": [
+  "language/han-nom",
+  "reference/dictionary"
+ ],
+ "product": [
+  "nom-na-viet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Vietnamese Chữ Nôm and Hán dictionary tools: character lookup, search, text conversion, historical dictionary entries and OCR.",
+ "whenToUse": "Use whenever you need accurate readings or meanings of Nôm or Hán characters, conversion between quốc ngữ and Nôm, or OCR of Hán Nôm pages.",
+ "tasks": [
+  "look up character",
+  "search by reading or meaning",
+  "look up historical dictionary entry",
+  "convert Vietnamese to Nôm",
+  "convert Nôm to Vietnamese",
+  "OCR Hán Nôm page"
+ ],
+ "effects": {
+  "3d8168d85de28ecfb6d5cb6f6c0040371c64fd5d6d3346cede972572df55ba80": "write",
+  "4dd14f0ccd595258a78c43906bb34e87af784497cc0e67ac25a8f8852758f64c": "write",
+  "7a8e75e92463afe0d7139898b38e52f086201cff90b0fb0c4885c1b0bfae12f5": "write",
+  "3e4f40523b7598e5c60cfabb937a92419e02a22aa3804d2a91d17ba6266f4420": "write",
+  "509891ca8f14902e32a4387f875284109ce179e92c5c57615e8b50ff9b93e24c": "write"
+ },
+ "flags": []
+}

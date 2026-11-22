@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ac71f8eea481b19ffa40bd813fd706be5ba9ab0bd22c0d7fe5aaba2a16638387",
+ "domain": [
+  "finance/invoicing"
+ ],
+ "product": [
+  "jupiter-invoice"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Creates and manages invoices and customers in Jupiter Invoice using an API key.",
+ "whenToUse": "Use when creating, updating or reviewing invoices or customer records in Jupiter Invoice.",
+ "tasks": [
+  "create invoices",
+  "manage invoices",
+  "manage customers"
+ ],
+ "effects": {},
+ "flags": []
+}

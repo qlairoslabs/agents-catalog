@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "58256b2ce0b8ca5fb374b0c825d1a6877265d5d06024c0f11d04506072e0e129",
+ "domain": [
+  "software/forms",
+  "web/backend"
+ ],
+ "product": [
+  "splitforms"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Form backend service to create forms, get embed code, read submissions and add webhooks.",
+ "whenToUse": "Use when an agent needs to set up a web form, retrieve its submissions or connect webhooks.",
+ "tasks": [
+  "create forms",
+  "get embed code",
+  "read submissions",
+  "add webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "4258457db06f8cbdb6ebf4f178f84cdee5c9ed731affca72edb4e856b8ac2dc9",
+ "domain": [
+  "software/modernization",
+  "software/cloud/migration",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "aws-transform",
+  "aws",
+  "dotnet",
+  "amazon-ec2",
+  "amazon-aurora",
+  "sql-server",
+  "vmware"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Analyzes repos for tech debt and vulnerabilities and modernizes code, such as .NET upgrades, COBOL to Java, VMware to EC2 and SQL Server to Aurora.",
+ "whenToUse": "Use when a user wants to assess repos for tech debt or CVEs, or upgrade and migrate codebases and workloads to AWS.",
+ "tasks": [
+  "analyze repos for tech debt",
+  "find security vulnerabilities",
+  "upgrade dotnet framework",
+  "convert cobol to java",
+  "migrate vmware vms to ec2",
+  "convert sql server to aurora",
+  "upgrade java python nodejs",
+  "migrate aws sdk versions",
+  "run continuous modernization"
+ ],
+ "effects": {},
+ "flags": []
+}

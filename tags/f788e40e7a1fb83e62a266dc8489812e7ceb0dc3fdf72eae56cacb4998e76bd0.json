@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "f788e40e7a1fb83e62a266dc8489812e7ceb0dc3fdf72eae56cacb4998e76bd0",
+ "domain": [
+  "design/3d-cad",
+  "data/file-analysis"
+ ],
+ "product": [
+  "stl",
+  "obj",
+  "ply",
+  "pcd",
+  "las",
+  "gltf",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Extract metadata and statistics from 3D geometry and point-cloud files (STL, OBJ, PLY, PCD, LAS, glTF), paid per call.",
+ "whenToUse": "Use when you need bounding boxes, triangle counts, manifold checks or point-cloud stats from 3D files.",
+ "tasks": [
+  "detect file format",
+  "auto-analyse geometry file",
+  "analyse STL",
+  "analyse OBJ",
+  "analyse PLY",
+  "analyse PCD",
+  "analyse LAS/LAZ",
+  "analyse glTF/GLB",
+  "batch analyse files",
+  "request features"
+ ],
+ "effects": {
+  "1eab9617ae85cd25bbde8e87efe14a0442c0e3782a99173878115c436f48e2d2": "read",
+  "7126d2107b584eb5077f05b47705e766d10e57493b8ac57f383a957a7079a4a6": "write",
+  "f375aa3506bc6388350bd467d62cb78d4780a073b840f8cf1c7d28a03a798592": "write",
+  "6f8c07a091b2139c12d906083fc48f60df065d250a2ae0e6b3ccfb598c27d3db": "write",
+  "d0864b1c36dd95132dfddd759281de9f6d040cde59bae8f506a421225598071c": "write",
+  "07311e492809b9eb625bb058d74900326a38147344eeae87173fd12da3fc0813": "write",
+  "b11ecf96551f72409e2c1a5f9e23fe570ffe835b1f7df50c691ea23e2f12ad77": "write",
+  "5b4765c936f17d273900e632e37b354b9ec9be5097047f2c776a87299bd19fbd": "write",
+  "5a8afb85c29efe864436532bd6733a8c048b5b20a13860fd1abb0138caacc672": "write",
+  "074ab2ad332f57ce79502e99321ed8b0fb924c606ce3a17b71a1230fa0baf66a": "write"
+ },
+ "flags": [
+  "payment-required-tools"
+ ]
+}

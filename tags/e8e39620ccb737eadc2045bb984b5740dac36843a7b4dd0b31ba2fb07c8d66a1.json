@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e8e39620ccb737eadc2045bb984b5740dac36843a7b4dd0b31ba2fb07c8d66a1",
+ "domain": [
+  "software/testing",
+  "software/webhooks"
+ ],
+ "product": [
+  "hooklistener"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Testing service for webhooks, email, WebSockets and tunnels that captures, waits for, verifies and replays traffic.",
+ "whenToUse": "Use when an agent needs to test or debug incoming webhooks, emails or WebSocket messages.",
+ "tasks": [
+  "capture webhooks",
+  "capture emails",
+  "test websockets",
+  "open tunnels",
+  "wait for requests",
+  "verify payloads",
+  "replay requests"
+ ],
+ "effects": {},
+ "flags": []
+}

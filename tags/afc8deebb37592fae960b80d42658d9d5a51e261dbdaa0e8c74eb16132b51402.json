@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "afc8deebb37592fae960b80d42658d9d5a51e261dbdaa0e8c74eb16132b51402",
+ "domain": [
+  "business/innovation-scoring",
+  "business/benchmarks"
+ ],
+ "product": [
+  "scoreinnov"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to ScoreInnov content, sector innovation benchmarks and a key-person exposure barometer based on Insee data.",
+ "whenToUse": "Use when a French company wants to compare innovation metrics to a sector or assess key-person dependency by sector.",
+ "tasks": [
+  "search site content",
+  "get operator identity",
+  "get sector benchmarks",
+  "get key-person barometer",
+  "get service status",
+  "inspect OAuth token claims"
+ ],
+ "effects": {
+  "9eebd24e93af10d401fddf65e2d411941a992a9d960a69e005cfcdbb6428b03f": "read",
+  "6da2b4a79930a2681d1443c815ae2912673f454dd3d557cec56885cf92a5a5a2": "read",
+  "d4ec59aa6017f8540aaec39da4414c2e003247cbee542fd2cea25f7a882b59d9": "read",
+  "4d91cecce2c09a28d4d22fbad581fe3b5545ec096284178525b1888cae5e92a5": "read",
+  "88fa2efda198b915e1002d8ea1d3d572dbd2eea6780beca02da670bda10dbed2": "read",
+  "6f52ceba72aa32248d052bed726c155fd12694a6f4a1862522b126d5678756ce": "read"
+ },
+ "flags": []
+}

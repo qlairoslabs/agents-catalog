@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "a8b026e19201891b896992e13073d27c8adcceeb2e6bb7b4329190a9548e1519",
+ "domain": [
+  "data/pipelines",
+  "software/devops/upgrades"
+ ],
+ "product": [
+  "amazon-mwaa",
+  "apache-airflow",
+  "docker",
+  "ruff"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Plans and runs Airflow version upgrades on MWAA environments, including 2.x to 3.x, via blue-green or in-place strategies.",
+ "whenToUse": "Use when a provisioned MWAA environment needs upgrading to a newer Airflow version.",
+ "tasks": [
+  "compute upgrade path",
+  "choose upgrade strategy",
+  "scan dags with ruff",
+  "scan deprecation warnings",
+  "validate with docker",
+  "run blue-green cutover",
+  "perform in-place upgrade",
+  "save resumable upgrade plan"
+ ],
+ "effects": {},
+ "flags": []
+}

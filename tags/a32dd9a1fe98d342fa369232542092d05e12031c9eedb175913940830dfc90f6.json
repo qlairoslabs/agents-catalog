@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "a32dd9a1fe98d342fa369232542092d05e12031c9eedb175913940830dfc90f6",
+ "domain": [
+  "hr/gig-marketplace",
+  "jobs"
+ ],
+ "product": [
+  "algora",
+  "bountyhub",
+  "agentbounties",
+  "rentahuman"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "hire-and-manage"
+ ],
+ "summary": "Indexes paid tasks and bounties that AI agents can do from public boards, plus a feed of open tech jobs.",
+ "whenToUse": "Use when an agent looks for paid work or a user wants to search open tech jobs.",
+ "tasks": [
+  "list agent gigs",
+  "get gig details",
+  "list sources",
+  "find tech jobs"
+ ],
+ "effects": {
+  "1d83491195db94fa5974fc12cab314ac339b75febd176c8c5200feacc656da92": "read",
+  "4068850fef2f298a5e4fb983813bb32b3d64bc7f928bbfe9ecdfa18e3a33e14a": "read",
+  "a115bf8b81a556683e2b64dfa8257a53dd1e3cd5ebf885fa7fd3f14f9b62300c": "read",
+  "0669dd4b0098535a7b8b94b2d2d508b588b505be661c677d612b430dc0b2a386": "read"
+ },
+ "flags": []
+}

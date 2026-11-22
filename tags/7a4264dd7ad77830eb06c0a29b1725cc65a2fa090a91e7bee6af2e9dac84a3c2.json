@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7a4264dd7ad77830eb06c0a29b1725cc65a2fa090a91e7bee6af2e9dac84a3c2",
+ "domain": [
+  "software/documentation"
+ ],
+ "product": [
+  "azure",
+  "dotnet",
+  "windows",
+  "microsoft-learn"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Access to official Microsoft documentation, API references and code samples for Azure, .NET and Windows.",
+ "whenToUse": "Use when you need authoritative Microsoft docs or samples for Azure, .NET or Windows development.",
+ "tasks": [
+  "search microsoft docs",
+  "read api references",
+  "find code samples"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "003729af02144c2e9671a1e0dd23d2350490c87232e5ef01dcc1c437667710f6",
+ "domain": [
+  "business/ai-agents",
+  "small-business"
+ ],
+ "product": [
+  "carragent",
+  "stripe",
+  "google-calendar",
+  "hubspot"
+ ],
+ "audience": [
+  "operations",
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "automate-work",
+  "get-paid"
+ ],
+ "summary": "Read-only catalogue of Carragent's AI agents for small businesses, with what each does, plus plans and prices.",
+ "whenToUse": "Use when a user asks what Carragent's agents do, which fits a task, or how much it costs.",
+ "tasks": [
+  "list agents",
+  "get agent details",
+  "list plans and prices",
+  "search agents and plans"
+ ],
+ "effects": {
+  "51a3a6263459eb0d3fa7f7697bc619467a9ad62c544f20fc518bd12954c5bcfd": "read",
+  "7e5a32a99e4dffd5448da11f6ece54db2221bb9c9a97c0794fb595f6fab82273": "read",
+  "fbb287df887779dd1a9739b016719788134775b2a608e8825adf7e5a07adabfa": "read",
+  "bd0b36452d47416a0964b414df1f1fe81baf1577847bfb7829f0a35f8d9428af": "read"
+ },
+ "flags": []
+}

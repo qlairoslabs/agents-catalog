@@ -1,0 +1,82 @@
+{
+ "classifier": 2,
+ "contentHash": "1bbc772ffb81d13bd33b5a60dcfaca70ec0187da1225393a327049593e47ad50",
+ "domain": [
+  "finance/crypto-payments",
+  "software/developer-tools"
+ ],
+ "product": [
+  "payram",
+  "shopify",
+  "woocommerce"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "get-paid",
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Guides and code generators for installing, operating and integrating a self-hosted PayRam crypto payment gateway, including payments, payouts, referrals and webhooks.",
+ "whenToUse": "Use when setting up or troubleshooting a PayRam server or generating backend code to take crypto payments, payouts and webhooks.",
+ "tasks": [
+  "plan PayRam installation",
+  "diagnose server health",
+  "troubleshoot errors",
+  "provide operations runbooks",
+  "generate payment route snippets",
+  "generate webhook handlers",
+  "generate payout and referral snippets",
+  "scaffold a payments app",
+  "read PayRam docs"
+ ],
+ "effects": {
+  "dae0537292ffcc67bf1e4daf05a857fa7b40797cef50dbf92b5f306ac03b3e11": "write",
+  "d8a69de49f295c07de4d262a2b0422a8c60ff4a9eb414c0d40cceb547624fe16": "read",
+  "8f8c514ca340e3d5b127e1352cb10481547d6e80d07e9606b1804f1fe96012c9": "read",
+  "8d82adf1d7da76eac664c258ba5c5912cafa04db74c85038787ac9d0dd74a5d0": "read",
+  "ed38b3baada91f01c5a81f547d53e0c41f81ff0c8573d9c8fc15b5bcea37d84f": "read",
+  "8b6ef4aed1ad4f2cd19e5b674e3bdb929a68253eb420125a9835a151b340928d": "read",
+  "32a403c09347318b024bab7493219434c4be4a837333f4d732ee122bd70e660a": "read",
+  "83957f5c8c9c12cf8aa06dac747ec0f4d1478f69ab444031b9e3cebcd7cf35c8": "read",
+  "825c19c16b14e39f645af06369f569f6186113bbe890120ff9456a549407a943": "read",
+  "0b0fd481dc1a42270353f6917593c22511f72bc463aff5d9474b68ad0edf61ee": "read",
+  "7c8de761eccfe37e08d1219891816f5ebe57739b3729fccd4f3259003215703f": "read",
+  "641f3b1534e2801319ad2c3e3e8978d8bfebfd6bdf36a242524a990ef3503ec6": "read",
+  "687c4048d253663342be6d62b75234fdd64f8e560e9935a6801cb34c0568f30a": "read",
+  "62222ffdfeae35e8567d0230286eb6bf0d0b2b8ca71b8cb5a95db4a30f7bea76": "read",
+  "e2d20fb4ead8347a0e31ddb8280bbb3528870c8dd0bb99149c13184c04fc091f": "read",
+  "2a8fb3ac9fe616c8b0c1732d62fb30cf5a4040bf329ad81b61cb4cdfce066403": "read",
+  "d6fac0db4e295e8618f4a44cf8113b802274477afe468a5bb5f3d306bc1d977f": "read",
+  "2300e1bd9acc51ce1e6d380ea8053f027186756622332d7bbeb87a9b5989e1da": "read",
+  "7b5f37160ea04d87f993996d714b2bd0602fde3ad1e8ad30d6218e90ef966577": "read",
+  "83381b08e73ea2d1cc4d97dc9188bf7c39de3b2e3e619016ba802e46a00fdfdd": "read",
+  "78d051a41b4ec72ba3e89d8e2e0aec52c1531faf5aeaa6dd761f96a68e1e5d13": "read",
+  "04d9a93c477c07414bd73765532053512f6539811e88d4c2b806e69a93542ea9": "read",
+  "d07197f78c529b9a8495ef9c9f0b2e9a141ec1e1534f8e4fe1c953af1247a1a4": "read",
+  "e4b725a0e243cac9ec7b9b9f8ed9e9e4c834a3aedff01012153bf160016c8262": "read",
+  "eab665b8b45533ab650575cae6e6a8618d9545e771d4987257a6a1168ed83d90": "read",
+  "34771bded4dae29c2713cf676c8ae754bf2d13049eb496bfe385f7b4a2dcd1c1": "read",
+  "a20b247a6af0e8127fa7cc8af64becdf4ad8e247dea19b5889a679eebae52611": "read",
+  "3c6ed688d4a3d57adbe6f8d992ef12ed0dc2b70491b26d70e190a3b40c9b2401": "read",
+  "0c9df3145fa5d7ac4387616b721b8c14c6912fa29e93f4a8a740bbff90f35b3c": "read",
+  "93ff5073d539bbd99bc46659a3f8b67f8e2ae6258a75a5f684a63cceabe62caa": "read",
+  "75d5c122b89bd242393ef07ea420d4597f92e21ce1409c46aad55d9fea4cadc2": "read",
+  "c754611bb5f4577ec1827b1644e4b075639ef6997941e1ac8e9aedbdfaef57ae": "read",
+  "a3582d4eaf96d76202c0efd444d935c378d635692e9eb6199824456f487140de": "read",
+  "3a6e6c2fa8abe91055a93326be66150d316c91cd90eaa74856d300e58c813629": "read",
+  "0a24954298fd72686a07662b3e9a96bb2d5a6704fba4d40f0a0f0d3f0dc22d71": "read",
+  "bdde4b3e239ede11bce06710acaa490d479e332f49fd0a0daec3da8fd338b67b": "read",
+  "001c93aa465678779e44da32628c04d6991d34ce14a79758bdf5391deb7f30ea": "read",
+  "2c2be1e414da25fd6f58b155e77ddbfe11c7b41b17eac99b9dd836a6ac54ace4": "read",
+  "d9f1722e6429269fd963832fc04098775af7e4edc9df722600c36724239eec06": "read",
+  "bb75ae44b0eacebe78ae19862e928c8a8d130a2240e17d88d8a0ef279756bb9e": "read",
+  "586e86fa677be639224b34bfeebf80ad817b6e5c2689860493ac4ae7c238f7f0": "read",
+  "79010d57eb25698a1646999ec73659f0365bf523e81f1fed4dae14bb1d7120fc": "read",
+  "c44a7813ab488be16e8a1856adcbf542159f60e4273b12b69a13a1a09c7bec5c": "read",
+  "2fbd5741f1f5b82b345be03504371057947d2e8e6b93ef6d820cc5a36fd4d6aa": "read"
+ },
+ "flags": []
+}

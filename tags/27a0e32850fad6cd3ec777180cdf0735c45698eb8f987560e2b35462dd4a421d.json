@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "27a0e32850fad6cd3ec777180cdf0735c45698eb8f987560e2b35462dd4a421d",
+ "domain": [
+  "software/cybersecurity/reconnaissance",
+  "software/dns"
+ ],
+ "product": [
+  "subdomain-api"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Lists or counts known subdomains of a domain from passive historic observations.",
+ "whenToUse": "Use for asset inventory, attack-surface mapping or host discovery on a domain the user is authorized to assess.",
+ "tasks": [
+  "list known subdomains",
+  "count subdomains"
+ ],
+ "effects": {
+  "538e80e146277b60a28172274f6232f2347ba64838d4ca594ef11d13c3d80e10": "write",
+  "3a0acb9a54a986dc1b37c59bfed9a79e13ee327f091c0fd7f9613ce892242e00": "read"
+ },
+ "flags": []
+}

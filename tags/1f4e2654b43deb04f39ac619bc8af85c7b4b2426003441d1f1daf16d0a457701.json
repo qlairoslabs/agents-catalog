@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "1f4e2654b43deb04f39ac619bc8af85c7b4b2426003441d1f1daf16d0a457701",
+ "domain": [
+  "healthcare/prescription-prices",
+  "consumer/savings"
+ ],
+ "product": [
+  "lowerscript",
+  "rxsense"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Finds cash prescription prices at nearby US pharmacies in eight states, provides the LowerScript discount card and compares Canadian prices.",
+ "whenToUse": "Use when a user wants cash drug prices near a US ZIP, the discount card details, or a Canada versus US price comparison; not for clinical advice.",
+ "tasks": [
+  "resolve drug name",
+  "get pharmacy prices",
+  "get discount card",
+  "compare Canadian prices"
+ ],
+ "effects": {
+  "f03ac36c0a40d94e3a12ea938d609a621e5e4bae220e3ea7891ad47494e9de2f": "read",
+  "645c0a6b7c5e2f9ccb0c8330c4329ec67e3df04aa15198c54395a5d5947c2315": "write",
+  "95f6b852ca03ec8bc89a45c9692d084facec0a7c811cf554906a4c59df29bd16": "read",
+  "3e78b688fb70bd71b365ce884fa28d077395e0769756d289c2a975d5ae0fcfde": "write"
+ },
+ "flags": []
+}

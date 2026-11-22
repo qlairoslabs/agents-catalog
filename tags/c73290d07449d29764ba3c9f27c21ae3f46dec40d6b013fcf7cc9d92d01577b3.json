@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c73290d07449d29764ba3c9f27c21ae3f46dec40d6b013fcf7cc9d92d01577b3",
+ "domain": [
+  "documents/templating",
+  "documents/generation"
+ ],
+ "product": [
+  "carbone"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Reference skill for the Carbone templating language for generating DOCX, XLSX, PPTX, ODT, HTML, Markdown and PDF.",
+ "whenToUse": "Use when writing Carbone templates to generate documents from data.",
+ "tasks": [
+  "write template tags",
+  "use loops and conditions",
+  "apply formatters",
+  "use aggregators",
+  "choose output formats"
+ ],
+ "effects": {},
+ "flags": []
+}

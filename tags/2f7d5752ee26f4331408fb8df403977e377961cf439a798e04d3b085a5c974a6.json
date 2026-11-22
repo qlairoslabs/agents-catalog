@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2f7d5752ee26f4331408fb8df403977e377961cf439a798e04d3b085a5c974a6",
+ "domain": [
+  "software/ai-usage-tracking",
+  "finance/cost-monitoring"
+ ],
+ "product": [
+  "claude-code",
+  "codex",
+  "cursor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks AI coding tool spending, token use and plan quotas across Claude Code, Codex, Cursor and other tools.",
+ "whenToUse": "Use when a user wants to see how much they spend or how much quota remains on AI coding tools.",
+ "tasks": [
+  "report ai coding spend",
+  "track token usage",
+  "check plan quotas"
+ ],
+ "effects": {},
+ "flags": []
+}

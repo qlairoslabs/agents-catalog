@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ae2896d8153052f7416fb45fc67ab3664735903137d3ffbb36476fbcccfad993",
+ "domain": [
+  "software/cybersecurity",
+  "software/code-review"
+ ],
+ "product": [
+  "strix"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "AI penetration testing service that runs scans, triages vulnerabilities, reviews pull requests and manages scan schedules and assets.",
+ "whenToUse": "Use when a user wants to run authorized security scans, triage found vulnerabilities, or security-review pull requests.",
+ "tasks": [
+  "run security scans",
+  "triage vulnerabilities",
+  "review pull requests",
+  "manage scan schedules",
+  "manage assets"
+ ],
+ "effects": {},
+ "flags": []
+}

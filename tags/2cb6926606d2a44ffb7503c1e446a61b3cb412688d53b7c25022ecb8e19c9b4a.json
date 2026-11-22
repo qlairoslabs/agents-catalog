@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "2cb6926606d2a44ffb7503c1e446a61b3cb412688d53b7c25022ecb8e19c9b4a",
+ "domain": [
+  "software/cybersecurity",
+  "software/web-security"
+ ],
+ "product": [
+  "scanlabsai",
+  "owasp",
+  "stripe",
+  "nvd"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Scans websites and AI agents for vulnerabilities, generates compliance reports, looks up CVEs and gives fix guidance; some features use paid credits.",
+ "whenToUse": "Use when you need to security-scan a site the user is authorised to test, red-team an agent or MCP server, or get remediation advice.",
+ "tasks": [
+  "scan website",
+  "red-team AI agent",
+  "compliance report",
+  "fix guidance",
+  "CVE lookup",
+  "view pricing",
+  "check credits",
+  "buy credits"
+ ],
+ "effects": {
+  "58108a5cfa6d66ad89ca394a6107475863ae24344dfdba0df42aab73be6df08e": "write",
+  "b5264c238dbd062292bd3867472a2e764d01cfc2bd8de1ff9eae9a603ab9ab16": "write",
+  "53c6db8a27e76f49bd0c764f2fd3c53c811c057787220f5e6852de10c5ea4749": "write",
+  "6413a00943eda23c2521ccf5bdf5c781a288995fa53623f9a7b7d5888ae66754": "read",
+  "e9074d3a3dd5c0607cfe872fa809c4b4c188d1c44496dc350211155991729c7e": "read",
+  "60fa34f85117c0b3a25ea5fcd229403c6562bcd20c63d764b2111992d35529ab": "read",
+  "f6b22240fc3057707f16e91080619ad13ab2d4364fa6d5a744e39af471af1bd8": "read",
+  "e0ac13a8b0790ee1d693608f2288f08782322d8c283617bd2a727b59835d4c13": "write"
+ },
+ "flags": []
+}

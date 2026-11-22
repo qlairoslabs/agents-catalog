@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "7f1ad91a1870eb6f7a047d8b391e4bed10bd79d98489df0cb1ca9aebbd751943",
+ "domain": [
+  "finance/insurance",
+  "france/borrower-insurance"
+ ],
+ "product": [
+  "scoreprotect",
+  "orias"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "French borrower-insurance information on the Lemoine law, cost and delegation simulators, product status and operator identity, plus a two-step callback request.",
+ "whenToUse": "Use when estimating or comparing French borrower insurance costs, learning Lemoine law rules, or requesting a callback.",
+ "tasks": [
+  "explain Lemoine law",
+  "simulate insurance cost",
+  "compare group vs delegated insurance",
+  "check product status",
+  "verify operator identity",
+  "search site content",
+  "prepare callback request",
+  "confirm prepared action",
+  "cancel prepared action",
+  "list prepared actions"
+ ],
+ "effects": {
+  "e43be70a6ce8a1628f59557ef1c2168ca352ef00b551ddddeaf44ef7851c8fbf": "write",
+  "5ee61f39168d71a1bb6b668cedd107a37c4d532243ad3d347b155fa3ae328474": "write",
+  "4698cf08b427d6117cf70322a7e72811ff800d72c7102f16e04e543ef4ffd75b": "write",
+  "11738f69f7ae0d4864b263f831b79d3213238b61b9bfae8bead3b36064a84130": "read",
+  "6f52ceba72aa32248d052bed726c155fd12694a6f4a1862522b126d5678756ce": "read",
+  "83e2dd7d08ef53acbcc46f76ad7b18b959b104aee904f159d734eae7a1705c78": "read",
+  "c1248cad7445389cf70de6ed834cc00b3e75ef16a865fad21a198d3313d79dee": "read",
+  "e96f615fcfaac198c439eec509f2b31da3644ab9a5e3f6c41f94296fb4af8428": "read",
+  "f88ca4a54d5752f1916d9c297d1b9a6e43830e4edec6d5205016462004bf614b": "read",
+  "13ad8e2141687aba41ee2dc1e2d492031434f71dbb34d6c3079c7e796478cb88": "read",
+  "4919fe64c3d64c6fa2726fbd9e6fc16d3c2600bbc07e01efc0cc5d9b50017727": "read"
+ },
+ "flags": []
+}

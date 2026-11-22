@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3e3880df695d0e69a1d0b1f81c4a5d518ca4f174e75f9375baf403c57c0b94a6",
+ "domain": [
+  "software/platform-administration"
+ ],
+ "product": [
+  "clutchcall"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Tenant-scoped control interface over the full ClutchCall platform API.",
+ "whenToUse": "Use when an agent needs to administer or automate a ClutchCall tenant.",
+ "tasks": [
+  "call clutchcall api",
+  "manage tenant resources"
+ ],
+ "effects": {},
+ "flags": []
+}

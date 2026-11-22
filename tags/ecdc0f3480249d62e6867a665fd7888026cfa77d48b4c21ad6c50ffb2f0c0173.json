@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ecdc0f3480249d62e6867a665fd7888026cfa77d48b4c21ad6c50ffb2f0c0173",
+ "domain": [
+  "sports/schedules"
+ ],
+ "product": [
+  "spocal"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives structured data on Japanese sports schedules, fixtures, broadcasts and live updates.",
+ "whenToUse": "Use when a user asks about upcoming or live sports events and broadcasts in Japan.",
+ "tasks": [
+  "get sports schedules",
+  "get fixtures",
+  "find broadcasts",
+  "get live updates"
+ ],
+ "effects": {},
+ "flags": []
+}

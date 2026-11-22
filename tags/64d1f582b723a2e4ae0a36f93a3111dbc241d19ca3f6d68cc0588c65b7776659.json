@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "64d1f582b723a2e4ae0a36f93a3111dbc241d19ca3f6d68cc0588c65b7776659",
+ "domain": [
+  "organization/ai-adoption",
+  "organization/training"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Helps internal Claude Code champions run hackathons and office hours, share patterns and report on AI maturity.",
+ "whenToUse": "Use when driving Claude Code adoption within a team or organization.",
+ "tasks": [
+  "plan hackathons",
+  "run office hours",
+  "find shareable patterns",
+  "guide adoption steps",
+  "write ai maturity report"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b56545cf59e1293f4b8f9b79a83671364ccc085d995c70732e252e76463da54b",
+ "domain": [
+  "finance/crypto-trading",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "solana",
+  "base",
+  "x402"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only token honeypot simulation and DEX trading signal oracle for Solana and Base.",
+ "whenToUse": "Use when an agent needs to check a token for honeypot risk or get DEX trading signals before a trade.",
+ "tasks": [
+  "simulate honeypot checks",
+  "analyse dex tokens",
+  "provide trading signals"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ae95628c74599c636bebd9f869185076812c6d01764ba26aa18392f549f87cd3",
+ "domain": [
+  "sales/outreach",
+  "marketing/social-media"
+ ],
+ "product": [
+  "linkedin"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Automates LinkedIn outreach: finds prospects, writes messages, follows up and replies.",
+ "whenToUse": "Use when running prospecting and message campaigns on LinkedIn.",
+ "tasks": [
+  "find prospects",
+  "write outreach messages",
+  "send follow-ups",
+  "reply to messages"
+ ],
+ "effects": {},
+ "flags": [
+  "automated-messaging-on-third-party-platform"
+ ]
+}

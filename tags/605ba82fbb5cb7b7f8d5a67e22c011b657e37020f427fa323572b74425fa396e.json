@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "605ba82fbb5cb7b7f8d5a67e22c011b657e37020f427fa323572b74425fa396e",
+ "domain": [
+  "business/project-management",
+  "finance/invoicing",
+  "business/time-tracking"
+ ],
+ "product": [
+  "moco"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid",
+  "work-as-a-team"
+ ],
+ "summary": "Connects to MOCO business software for time tracking, projects, budgets and invoicing.",
+ "whenToUse": "Use when a user needs to log time, manage projects or budgets, or handle invoices in MOCO.",
+ "tasks": [
+  "track time",
+  "manage projects",
+  "monitor budgets",
+  "manage invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

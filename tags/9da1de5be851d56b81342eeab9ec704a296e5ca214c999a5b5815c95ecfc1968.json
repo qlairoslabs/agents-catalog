@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9da1de5be851d56b81342eeab9ec704a296e5ca214c999a5b5815c95ecfc1968",
+ "domain": [
+  "commerce/checkout",
+  "finance/payments"
+ ],
+ "product": [
+  "cushy",
+  "stripe"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Checkout platform on the user's own Stripe account with order bumps, upsells, subscriptions, tax and affiliates.",
+ "whenToUse": "Use when setting up or managing a Stripe-based checkout with upsells, subscriptions or affiliate tracking.",
+ "tasks": [
+  "configure checkout",
+  "add order bumps",
+  "set up upsells",
+  "manage subscriptions",
+  "handle sales tax",
+  "manage affiliates"
+ ],
+ "effects": {},
+ "flags": []
+}

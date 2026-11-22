@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "959d474ef7f3bf4e42b6f86f4e5fa090358caf4a5a8aa6ed71914f79e4125479",
+ "domain": [
+  "software/cybersecurity",
+  "security/vulnerability-intelligence"
+ ],
+ "product": [
+  "echelongraph",
+  "shodan",
+  "nvd",
+  "cisa-kev",
+  "epss",
+  "github-advisories"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Keyless lookups of CVEs, CISA KEV, EPSS, CWE, vendor advisories, SBOM and lockfile checks, and aggregate internet-exposure counts per CVE.",
+ "whenToUse": "Use when you need to assess a CVE, check whether a package version or dependency list is affected, or find recently exploited vulnerabilities.",
+ "tasks": [
+  "summarize CVE feed",
+  "search CVEs",
+  "get CVE record",
+  "CVE internet exposure",
+  "exposure radar totals",
+  "recent KEV additions",
+  "EPSS history",
+  "check affected version",
+  "check SBOM",
+  "scan lockfiles",
+  "CVE exploit and weakness intel",
+  "CVE remediation"
+ ],
+ "effects": {
+  "edd1d81b4042e44084fe4a8262ac5b9454fe876690015c1ffada133c192db5cd": "write",
+  "6cfb4fdb883670bb42af1cbdbf44923f78a525abc64837768ec1ab7cc112cc02": "write",
+  "9dfc7a545a45b6455ad360d8c6ea56a6076de809711c6928ffcfd9a374e896f0": "write",
+  "887a9db147e1c19d0dca9d40b0581d1b39261f2a0e7d44723c8f0e6440d76205": "write",
+  "c3789dcf42fd4e1a2fbbef65dff98172dcc595a7c7fc1c359097c94eed600f93": "write",
+  "723e48ec02a9bb6053fa1b69ca046cfe23fbad4af0398d23b379e4654b4ee140": "write",
+  "3b5bf9e04486a6ebe3d91250689cbc671335fdcb6ab9458e3b9c1615fee5fa9e": "write",
+  "beddb97cfc536cacba311fc6392f793375bcbf89bc14e233b48f5edd2f3da1ae": "write",
+  "2fb9613fe8ecbb30ab5967fc205a2a64bcaab836bfe16de3fa7dcb9017cb386c": "write",
+  "10be046f2f45743ecaf18a399d5fec0d7d1c251f07259e37eae6f394cdfa3d3a": "write",
+  "86afd47c797051f2497b0dc425a066259628bd01813652bc837cd6a47dc1c74d": "write",
+  "21e2e9d7e53298ff7148a7a875eb467901bba8be6ab7e561cd4e6093e9a0672d": "write",
+  "eb9f964a7aff110b9948a124d831afbdf41410021a73c0eb07ce05243a5e39d6": "write",
+  "259e2ca6c2590a83d39a3b88b1a49ba7a6646fceea900f88b99216107668ed5d": "write",
+  "c80c6c2098874bf7dbb054b44bf28993e36da39281509ee098d7aabb1af9427b": "write",
+  "fbfc987a0826564a8e26b9d76ef560df3d99a21525d8b28a8670ffa21901a784": "write"
+ },
+ "flags": []
+}

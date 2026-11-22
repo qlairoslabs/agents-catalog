@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "90df0df5485dbe83229cf8475c84e3f4cb4116e39dd6d6008c59a6403ff3b52c",
+ "domain": [
+  "analytics/ai-agent-analytics"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes Amplitude Agent Analytics data to show what users ask an AI product about and where it performs poorly.",
+ "whenToUse": "Use when a project has Amplitude Agent Analytics and the user wants insight into AI conversation topics and gaps.",
+ "tasks": [
+  "list top ai topics",
+  "measure topic performance",
+  "find ai coverage gaps",
+  "suggest ai improvements"
+ ],
+ "effects": {},
+ "flags": []
+}

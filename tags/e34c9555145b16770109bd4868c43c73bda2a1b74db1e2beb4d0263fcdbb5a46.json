@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e34c9555145b16770109bd4868c43c73bda2a1b74db1e2beb4d0263fcdbb5a46",
+ "domain": [
+  "software/devops/incident-management",
+  "software/development"
+ ],
+ "product": [
+  "pagerduty"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scores code diffs for deployment risk using PagerDuty historical incident data before changes ship.",
+ "whenToUse": "Use before committing or deploying to assess change risk against past incidents.",
+ "tasks": [
+  "score pre-commit diffs",
+  "correlate changes with incidents",
+  "surface deployment risk"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f15109dd7c1b44f69a533f59aaabdc6de0fbf8d45dbd8d8962a5db047aa613cd",
+ "domain": [
+  "documents/pdf",
+  "marketing/analytics"
+ ],
+ "product": [
+  "apdf"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "PDF service offering tracking links, reader analytics and a set of PDF tools.",
+ "whenToUse": "Use when an agent needs to share PDFs with tracked links, see who read them, or process PDF files.",
+ "tasks": [
+  "create tracking links",
+  "view read analytics",
+  "process pdfs"
+ ],
+ "effects": {},
+ "flags": []
+}

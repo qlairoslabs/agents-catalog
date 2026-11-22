@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "3466861775b54d758bb8730a9eacdb2d52f6d161e1b6211fdfb6516023a04cc1",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "i-know-the-pilot",
+  "i-want-that-flight"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds curated cheap flight deals from Australia and cached cheapest fares by date for routes.",
+ "whenToUse": "Use when someone in Australia wants cheap flights or the cheapest dates to fly somewhere.",
+ "tasks": [
+  "search curated flight deals",
+  "list top deals from an airport",
+  "get deal details",
+  "find cheapest fares by date",
+  "compare cheapest origins to a destination"
+ ],
+ "effects": {
+  "e4e1194161e80c4cb4071525b1f0146a42a9875569ab64200a9aa1b81063c39f": "read",
+  "4d54ce11df951be934d19cc31103f4294ea0780d8e127ae274f07f6e45ddb749": "read",
+  "c9df97eac19bd3b4d0c65c3bb5045ee94ed791217b54ba28dd3f19667598d2a1": "read",
+  "a4e9ed91f242d257b033b561c48caa233c38e6ba3aeb6f7791e0b0f0c395325e": "read",
+  "4898038a34dba98a36c4ab07d099a48da2f6c81089932cc991015b0746fc19bc": "read"
+ },
+ "flags": []
+}

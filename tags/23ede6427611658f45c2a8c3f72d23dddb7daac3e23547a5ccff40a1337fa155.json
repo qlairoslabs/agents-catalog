@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "23ede6427611658f45c2a8c3f72d23dddb7daac3e23547a5ccff40a1337fa155",
+ "domain": [
+  "travel/lodging",
+  "travel/romania"
+ ],
+ "product": [
+  "tria"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds and ranks lodging in Romania by location and character such as calm or nature, with interactive maps, area rankings and property profiles.",
+ "whenToUse": "Use when planning a stay or trip in Romania and the user wants accommodation matched to a mood, place or facility.",
+ "tasks": [
+  "search accommodations by place and character",
+  "show lodging on a map",
+  "build itinerary maps",
+  "rank areas by character",
+  "get a property profile",
+  "get a concierge brief",
+  "list the search vocabulary"
+ ],
+ "effects": {
+  "6c1ee60dbf58602c680da23d4340a9507850f75eca527fe3b348b07ae03057a4": "write",
+  "d4cad7bd42475e90e002adcbca4e0f54cd4585a5a15b8e272c64c7f4ef7831cb": "read",
+  "13a872b42a81020d42f764c7a0568c97a363501620a8981199e17c0e7aac9fc6": "read",
+  "aee6c1b598a5d2b6103a84702aa08e3718cc1398a307adee6f826204feb942ab": "read",
+  "91e78a27bfb6408700607bd766fd4cceeb536ab2fbcea14e8d4fd115226e8e36": "read",
+  "3cbddee3cf447263896dd926bf29779680054897ac4d15b3b35ac63406a2c561": "read",
+  "6c339965a9d6ba5edf4094d099c72138dcaff467578fed65d50443ef854dad3d": "read"
+ },
+ "flags": []
+}

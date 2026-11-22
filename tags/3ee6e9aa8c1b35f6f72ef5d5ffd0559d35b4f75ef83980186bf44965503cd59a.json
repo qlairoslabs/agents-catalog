@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "3ee6e9aa8c1b35f6f72ef5d5ffd0559d35b4f75ef83980186bf44965503cd59a",
+ "domain": [
+  "ecommerce/price-comparison",
+  "games/trading-cards"
+ ],
+ "product": [
+  "magic-the-gathering",
+  "boostermage"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks UK retailer prices for sealed Magic: The Gathering products, with comparisons, history, deals, restocks and release dates.",
+ "whenToUse": "Use when a user wants the best UK price, price history, deals or stock for sealed MTG products.",
+ "tasks": [
+  "search products",
+  "compare retailer prices",
+  "find best price",
+  "view price history",
+  "find deals",
+  "find price drops",
+  "find restocks",
+  "list upcoming releases"
+ ],
+ "effects": {
+  "3afcdb18680950926fecc257879af17183b95ae2f00609c62915f2521a4de8f9": "read",
+  "aeac1c1948693d17acb5157784ffd22dfbc0c35bffa0c2bae6025b9923d29d9f": "read",
+  "8e780dbb81770db951132cb48238af46ac3864594b178dd6e14ae9830f44d905": "read",
+  "173d1302e97d564484873685dee1a94d7459b53ab122aed19e278785462211d9": "read",
+  "7df683a3e60b8ad436ea3d6d1d3dfb7838fd152934db36090e8b96179b89df7f": "read",
+  "82d3af0b664b1b4dea159b118ef726847400da7542b15a1a6df3bdb90201195f": "read",
+  "481347b18e9eebe47c2095daa9a6d92da40f7739c231385ab6000bcccb834996": "read",
+  "f7dd4ef52642cea6ea3d6057a74cd7be6e660db617bf45dc1efa78763bfb9b14": "read",
+  "4e4478003e3ada6b21e5198c9091f523054b43a5f1388df6be80d1787412bc28": "read",
+  "103aa1816bfcc6b5c0b9d8fdda21e239de3348f2d4041935ceba26b7cd340391": "read",
+  "f5d3c2d45243fb82c579d58c42272d019e4a52a929c1754c9cc6891d93fc0363": "read",
+  "f0817daf7d89eeea83448cb92a0799747a6fc24f25e78f6af7926b669b2a18c2": "read",
+  "62e117b93ad356a348ab746c2917bc1e7acd0179a8354d09ac58e33f5760c72d": "read",
+  "55ebedcdb580322019f4c4cb2f2efa79e15b54a0c23e697f395a34745f65bba3": "read",
+  "73911a667ffa7be351897b505f3432c4ae7b7a6c918dba06fe404270442ae356": "read"
+ },
+ "flags": []
+}

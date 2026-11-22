@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "36c2c58c44164208f2e3b5cee50b16571562f5eae1543f3344a7ab4a18554545",
+ "domain": [
+  "shopping/price-comparison",
+  "e-scooters"
+ ],
+ "product": [
+  "woroller",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German price comparison for electric scooters with best-price search, buying guides and offer re-checks.",
+ "whenToUse": "Use when the user wants current German prices or buying advice for e-scooters.",
+ "tasks": [
+  "search best e-scooter offers",
+  "find guides and comparisons",
+  "re-check offer price"
+ ],
+ "effects": {
+  "d909b99eb77e8ed307630a3b7f3e14d93ed614d58abde7f34798b123e703aa83": "write",
+  "a22e68e7ecfa16465d5f37f7fc62f7678a90c43a16ef73089f9ac0359c2864e6": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d5efde382bff6f43b71d06e4df38a93bcbba5e4fb9cf7a82ca74cfb2311a2d2d",
+ "domain": [
+  "finance/market-signals",
+  "finance/equities"
+ ],
+ "product": [
+  "zhiji-signal",
+  "signal-arena"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides phase-transition signals for the China A-share HS300 index and global markets using a Landau-Ginzburg framework.",
+ "whenToUse": "Use when you want the current market phase signal or daily brief for HS300 or CN/HK/US markets.",
+ "tasks": [
+  "get phase signal",
+  "get full signal payload",
+  "measure SoTI zone",
+  "get global arena signal",
+  "get daily brief"
+ ],
+ "effects": {
+  "5dbb0705e22335d294f4bc8f50845a569a0324d0abc405297432581e88fb9ef2": "read",
+  "6a3868ff2627e76b16058ed03a24ba8d88b5cbdf3885980f1ff9b828b5a8bfed": "read",
+  "1e7c2dc34d92351869ffa06b49ffc5a66d981e692d297a296f4a2d7add71ac1a": "read",
+  "4c62fd03c9dee0afb933adcb43367bb0569841090a18f14d23965a7c917cb9cc": "read",
+  "9d284126d00140e790ad44dba48c52126bdd65b5b0293c6707a16d527c9beeec": "read"
+ },
+ "flags": []
+}

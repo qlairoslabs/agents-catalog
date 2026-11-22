@@ -1,0 +1,79 @@
+{
+ "classifier": 2,
+ "contentHash": "ca21b2d74161af6f18a6a8a4c11def41e5f9b8fd8a72e40fc0c26fc628c2c6a9",
+ "domain": [
+  "health/telehealth",
+  "health/prescriptions",
+  "commerce/checkout"
+ ],
+ "product": [
+  "chia-health",
+  "stripe",
+  "glp-1",
+  "semaglutide",
+  "tirzepatide"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "sell"
+ ],
+ "summary": "Telehealth service for US patients covering compounded GLP-1 and peptide medications, from eligibility check and intake through consent, ordering, payment and follow-up care.",
+ "whenToUse": "Use when a patient wants to browse, qualify for, order or manage prescription weight-loss or longevity medication from this licensed US telehealth provider.",
+ "tasks": [
+  "list medications and pricing",
+  "check state availability",
+  "pre-screen eligibility",
+  "submit medical intake",
+  "collect consents",
+  "place orders",
+  "pay via Stripe ACP or payment link",
+  "upload ID documents",
+  "log weight and side effects",
+  "message provider",
+  "request refills",
+  "contact support"
+ ],
+ "effects": {
+  "d18ffd5d93d0e1cc38f367538cdabd55c9f11dd30cad72d81d22dba40916c507": "write",
+  "518d1c3992dd9d18c7fd82c7e417caf3afd82d138ca255b646b71fcddd06300e": "write",
+  "f534fa5e8b0a6535bfc18aa928ac8081b137a64fd4056f729d717596600f4574": "write",
+  "607217b5f3d749b9b486cf11640f62fada18b082c7a4908ce48a254b888cd8cd": "write",
+  "6a1f4b95e603ecbe267e9ab5cfb36c3f550c151792940b881be5470a6a92f2b9": "read",
+  "10dc988c59ab8453f88c61c39e130c9c78eaf06dc9d5357e57598e6f9af5ea2b": "write",
+  "e9a7d37e6f2c8b9f14b1cfea279d005546b34451b57fc837d8a0432aec8ff8ec": "read",
+  "74fa3159ad1d5088c7d5ccc78adb4e07d3f258206c329937ef7c9ce20cd4d619": "read",
+  "1d035c18398220fc987e294a2ddae390e98a887f6c405ec37c6a687b317d8733": "read",
+  "20efb81f8b288763b2b9c8fc76b7d92b5bda8cee721117314eecaffbb10f9ba4": "write",
+  "e1d749b753247a19aac67f1fb8a0bbc0b829b43e36987fdbb918975a0b4efd5d": "write",
+  "faf92d330ee65a783aba5014b11613776139d1bf5fba93fae1ae6dd92cd0e2f6": "write",
+  "d9addafcaec4367e7ae8fc81243c3f378270f86e7b7bcfaad1fd0535568c83a1": "read",
+  "642a2608726cd0a7468c59b6c78ef5ee89feab641297cbece750a969806e546f": "read",
+  "1c2173a4e5b412cb658d6edd181d80f1bbf601478ae3e370cf5eac8f6afe2fb2": "write",
+  "c1f5ac108d6bb3e714e1fc015931f3dbdbecf69f8f9a964e8ea77d2c68803332": "write",
+  "d4bf410273ebac322b66b2386812bf7d7e22c0ffe16d251b7a0ffdfd6778c9b6": "read",
+  "235b5d5ff1ec058aac2e039226ddb7edbd419d731b80a096bbc4ae0ccca1d816": "write",
+  "5e52ddf1aa36dd8f34ef2cdbe5212f1513cf362d441beb4b7680a4e121083824": "read",
+  "f8a6a8255d0024fa3f4caa09e863e421c9caa711f83b0010d2026d8c9e179477": "read",
+  "d756e58759274e02c26c6ba72c51edf499d8d8204e3b9dbe12d28a3445f7007d": "write",
+  "47051ce22b89ee494a97a079d204519b3230cd8045cd803a6860ce5793100bcf": "write",
+  "f751455636642cd024b8fa57c661138cbd9ffce82111d4fe6b6bc60d11a200a0": "write",
+  "d906c2f0499169546eac0dd3ff473d5dbc0e79dba7822255241483a5be2b8a92": "risky",
+  "341998b4ec51d9809ac13fd991b6aac46c76847504e73513e310303c8d888844": "write",
+  "0dd30d06202200e00ef5282737830c6cf69388c47564365bc9cfad932d3ac5cd": "write",
+  "d98c3cc5726abe7f733d175f82bf5bc774bb344684ab2b711bff89b07515b810": "write",
+  "3af26648ad16bfa0ca08bbdeacb4a53b3347f4c9df9f20880265524dee514451": "write",
+  "08416ae95a071fc5c1bab4363e169709dc0cfed54f90da248f06c857f20d1932": "write",
+  "34894e64c1acd1ddf027399886d37487515518ad527235f840a56ac6dee61ff6": "read",
+  "9bbe1babd051300534b2ffab292838d1599cf331c3e96d2df64d67b39618480b": "write",
+  "e197764a600cf8c844d5a2b1786a4421d4c958cf902641e6b84d9ebd8a3416b6": "write",
+  "e7b8d103524eae05fa7cfdd39a8d03ef382955d7c7bf68335814c2355c5294ee": "read",
+  "45a5307c9daed9196a738ee14dbb65e6d5e8d1ae1393553d5db32f108c438ad6": "write"
+ },
+ "flags": [
+  "auth_start suggests the agent search the patient's email (e.g. via a Gmail MCP) for the verification code, which would let the agent bypass the patient's own identity check",
+  "handles sensitive health data, ID documents and payments"
+ ]
+}

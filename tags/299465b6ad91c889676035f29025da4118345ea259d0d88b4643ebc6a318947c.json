@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "299465b6ad91c889676035f29025da4118345ea259d0d88b4643ebc6a318947c",
+ "domain": [
+  "software/frontend",
+  "software/graphql"
+ ],
+ "product": [
+  "apollo-client",
+  "react",
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guide to building React apps with Apollo Client 4, covering setup, GraphQL queries and mutations, caching and local state.",
+ "whenToUse": "Use when setting up or troubleshooting Apollo Client in a React project or writing GraphQL queries, mutations or cache policies.",
+ "tasks": [
+  "set up apollo client in react",
+  "write graphql queries with hooks",
+  "write graphql mutations",
+  "configure cache policies",
+  "manage local state with reactive variables",
+  "troubleshoot apollo client errors",
+  "fix performance issues"
+ ],
+ "effects": {},
+ "flags": []
+}

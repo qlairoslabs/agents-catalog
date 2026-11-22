@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "bcbf1955344858ee779af850f71c77f844bddc46615dd0ec4d4c38c2d069701f",
+ "domain": [
+  "marketing/ai-visibility",
+  "marketing/local-seo"
+ ],
+ "product": [
+  "chatgpt",
+  "perplexity",
+  "gemini",
+  "uxcontinuum"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs a live check of whether ChatGPT, Perplexity and Gemini recommend a local business, which competitors they name, and one suggested fix.",
+ "whenToUse": "Use when a business owner asks if AI tools recommend their business or why competitors are named instead.",
+ "tasks": [
+  "start AI recommendation check",
+  "read check result",
+  "identify competitors named",
+  "suggest a fix"
+ ],
+ "effects": {
+  "4230ead8ae283ef3a8abd096236e37b5eb5b6d8aef688a58e4f7b13d93adc2ab": "write",
+  "7b659cb3e4e82c13362817058be4f6e850b0a3e65aead18102bf2daf70707ca8": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "62039181b99656720022efd43c0891251b3b55e1c0f82ab273e82ba7ae944b7a",
+ "domain": [
+  "sales/lead-generation/b2b",
+  "data/contact-enrichment"
+ ],
+ "product": [
+  "scalelist"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches for B2B leads with verified work emails and mobile phone numbers.",
+ "whenToUse": "Use when building a B2B prospect list needing contact emails and phone numbers.",
+ "tasks": [
+  "search b2b leads",
+  "get verified work emails",
+  "get mobile numbers"
+ ],
+ "effects": {},
+ "flags": []
+}

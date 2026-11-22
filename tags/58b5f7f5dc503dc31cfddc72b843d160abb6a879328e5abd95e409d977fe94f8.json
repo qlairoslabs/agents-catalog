@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "58b5f7f5dc503dc31cfddc72b843d160abb6a879328e5abd95e409d977fe94f8",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/devops"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Entry-point skill for querying, operating and troubleshooting Apache Airflow through the af CLI, routing to more specific sibling skills.",
+ "whenToUse": "Use for general Airflow operations such as listing or triggering DAGs, retrying runs, reading logs or checking health.",
+ "tasks": [
+  "list and trigger dags",
+  "retry dag runs",
+  "read task logs",
+  "diagnose failures",
+  "debug import and parse errors",
+  "check connections, variables and pools",
+  "explore rest api",
+  "monitor airflow health"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "42d64f754739e6ea7b62f99703d94950fed0a3d1eed174b82cdf852cb55c374d",
+ "domain": [
+  "travel/hotel-booking",
+  "business/corporate-travel"
+ ],
+ "product": [
+  "engine"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches and books hotels, shortens or cancels stays, and checks support cases on the Engine travel platform.",
+ "whenToUse": "Use when the user needs to book, modify or cancel a hotel stay through Engine.",
+ "tasks": [
+  "search hotels",
+  "book hotels",
+  "shorten stays",
+  "cancel stays",
+  "check support cases"
+ ],
+ "effects": {},
+ "flags": []
+}

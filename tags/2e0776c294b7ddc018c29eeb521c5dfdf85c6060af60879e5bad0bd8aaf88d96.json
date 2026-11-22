@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "2e0776c294b7ddc018c29eeb521c5dfdf85c6060af60879e5bad0bd8aaf88d96",
+ "domain": [
+  "software/data-visualization",
+  "software/frontend/react"
+ ],
+ "product": [
+  "semiotic",
+  "react"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Generates React charts with Semiotic, with steps to select, validate, repair, render and inspect them.",
+ "whenToUse": "Use when an agent needs to produce or fix a React data visualization.",
+ "tasks": [
+  "select chart type",
+  "validate chart",
+  "repair chart",
+  "render chart",
+  "inspect chart"
+ ],
+ "effects": {},
+ "flags": []
+}

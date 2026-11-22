@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0159fd48c5905d0c0d082b9dbe68613bd604e89e3dc7654a0952c894a3777321",
+ "domain": [
+  "real-estate/location-data",
+  "government/open-data"
+ ],
+ "product": [
+  "madrid"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Catalogue of Madrid streets with counts of nearby pharmacies, schools, supermarkets and libraries within 500 m.",
+ "whenToUse": "Use when a user wants to look up a Madrid street or compare nearby services across streets.",
+ "tasks": [
+  "search Madrid streets",
+  "get coverage info",
+  "get service records within 500 m",
+  "compare 2 to 5 streets"
+ ],
+ "effects": {
+  "16e50311a58d1b04145cb5d46557b78d4e95796a496a3465695bb087a1181bb8": "read",
+  "ae6fa844a8ea1f28ec639f72e316f3521e660b6c26812ec61a38ffde6dfe35b7": "read",
+  "d45b339fae2206314544dcaf8fd768e0fa9b67dc71b7b12d818684202e6cddf8": "read",
+  "c6675ac241d706b3568fb4a5f405776b3c1d178c10f6ea8f967d3169387db046": "read"
+ },
+ "flags": []
+}

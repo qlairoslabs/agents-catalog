@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "8b53b08c28130fb09445f8af7d421a3649a14c339da8fa75cf65c1887f41045f",
+ "domain": [
+  "software/mcp-registry",
+  "ai/tool-discovery"
+ ],
+ "product": [
+  "arclan",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searchable registry of crawled MCP servers with validation status, reliability scores and usage reports.",
+ "whenToUse": "Use when an agent needs to find or vet an MCP server for a task before connecting to it.",
+ "tasks": [
+  "search mcp servers",
+  "get server details",
+  "recommend servers for a task",
+  "filter production-safe servers",
+  "filter read-only servers",
+  "submit usage reports",
+  "sign in with github",
+  "mint api key"
+ ],
+ "effects": {
+  "6baa05d494f50df0f9a0da2b1f8769d9bd16a8468a5d44b02904811bd1e2049c": "read",
+  "1f487ecfd9b442cb7f9005dd5f25d1cf41b96cfa3a5c745cc99b9b621b3fdfe2": "read",
+  "593cc8cfed5d17539ad31d00c8b95d1e974e1e37f78bcca49ff80fd68f58978b": "read",
+  "4ebbff306ab1f6f64989acdef99e346126b2b5203f8831f293c12dca99fe739b": "write",
+  "534deb7a53728778bef71d2547ed31dd8144ccdfbac037933870a2171d85c13e": "write",
+  "55bd0de3e5b617b33bcd7f6bc01a02afb2fae17993cce85deea4ee7673803f60": "risky"
+ },
+ "flags": [
+  "tool description tells agents to call report_server after using any server, sending usage data to the publisher"
+ ]
+}

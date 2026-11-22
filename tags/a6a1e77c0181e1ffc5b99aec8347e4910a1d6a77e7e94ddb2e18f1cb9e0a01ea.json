@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "a6a1e77c0181e1ffc5b99aec8347e4910a1d6a77e7e94ddb2e18f1cb9e0a01ea",
+ "domain": [
+  "travel/sri-lanka",
+  "travel/bookings"
+ ],
+ "product": [
+  "lakpura",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Searches Lakpura's Sri Lanka stays, tours, products and rentals, quotes private transfers, and starts bookings with a Stripe checkout link.",
+ "whenToUse": "Use when planning or booking tours, transfers or stays in Sri Lanka or buying Sri Lankan goods.",
+ "tasks": [
+  "search stays",
+  "search tours",
+  "search products and rentals",
+  "get tour options and prices",
+  "quote private transfer",
+  "start tour or transfer booking"
+ ],
+ "effects": {
+  "49da51cd8440ea97c1db019b1bc159ad51d38f997448f7904267e070b3506f24": "read",
+  "56b9dd18ada2a5b845a06e07c9d423d2104dab50d76c990cdd5b2725d0351d12": "read",
+  "a2e1098df2a1e5ebc44982a139d3b036d0798ab23ca4f8530e43ad13edd01d14": "read",
+  "df4953952ae2d4cc330bde0efa9ad722dee66c95c37f3ef071e703f4c8fbf57e": "read",
+  "7ffeb42e57a592cc205ba242f68626b3c5465a6f7485323e6849bcd954e26970": "read",
+  "e40e41900385a0ea33e02a2c2eb8f5e813bdbc5021df8f99b1f6465402a803b8": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "887e7d795d41b0aa6ef57726fe74d83365880f69cc215cd6c15431d02eb8a447",
+ "domain": [
+  "health/clinical-trials",
+  "research"
+ ],
+ "product": [
+  "clinicaltrials.gov"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches ClinicalTrials.gov for studies and results and matches patients to candidate trials.",
+ "whenToUse": "Use when looking up clinical trials, their results, or trials a patient may qualify for.",
+ "tasks": [
+  "search studies",
+  "retrieve trial results",
+  "match patients to trials"
+ ],
+ "effects": {},
+ "flags": []
+}

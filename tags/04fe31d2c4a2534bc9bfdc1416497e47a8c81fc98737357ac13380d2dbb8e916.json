@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "04fe31d2c4a2534bc9bfdc1416497e47a8c81fc98737357ac13380d2dbb8e916",
+ "domain": [
+  "education/college-admissions",
+  "education/financial-aid"
+ ],
+ "product": [
+  "ipeds"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Searches US colleges using public federal data to compare admissions statistics, costs, financial aid and application deadlines.",
+ "whenToUse": "Use when a student or parent wants to find US colleges and compare acceptance rates, costs, aid or deadlines.",
+ "tasks": [
+  "search colleges by name, state, major or acceptance rate",
+  "get admissions ranges and outcomes",
+  "get net price and aid statistics",
+  "list application deadlines",
+  "build an application prep schedule"
+ ],
+ "effects": {
+  "0c58d854f5625794cbb2851168ef3710b6bbe72bcab51143eb1b2747c06bb645": "read",
+  "79167b819c98b01e6575089f491715e3e2d6adbb9997e33dbb138b4affb1ac22": "read",
+  "7495e474c677f99ff0fd8e3b6dc2ddb56d4486ed0a9b49f118a850122426567d": "read",
+  "0d0fe9c3793376537f84ada795301ea16c35ae11b3726deeeafdc910853c4b49": "read"
+ },
+ "flags": []
+}

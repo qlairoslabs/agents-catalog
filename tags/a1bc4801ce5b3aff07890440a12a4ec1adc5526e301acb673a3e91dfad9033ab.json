@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a1bc4801ce5b3aff07890440a12a4ec1adc5526e301acb673a3e91dfad9033ab",
+ "domain": [
+  "sales/outreach",
+  "marketing/email"
+ ],
+ "product": [
+  "campaignstack",
+  "linkedin"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Runs B2B outreach campaigns, lead management, LinkedIn and email workflows from an AI agent.",
+ "whenToUse": "Use when an agent needs to manage B2B outreach campaigns, leads or LinkedIn and email sequences.",
+ "tasks": [
+  "manage campaigns",
+  "manage leads",
+  "run linkedin outreach",
+  "run email workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

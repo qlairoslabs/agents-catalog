@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "95548b6efd2283169429be54c10fa1b1e779b89338f6e5b0cf4611ec1a481503",
+ "domain": [
+  "media/music-licensing"
+ ],
+ "product": [
+  "artyfile",
+  "stripe"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "get-paid"
+ ],
+ "summary": "Searches licensable orchestral music and creates Stripe checkouts for licenses, with order status and WAV downloads.",
+ "whenToUse": "Use when a project needs licensed music and the user wants to find a track and start a purchase.",
+ "tasks": [
+  "search tracks",
+  "get track details",
+  "read license terms",
+  "create checkout",
+  "poll order status",
+  "get download link"
+ ],
+ "effects": {
+  "d72703db93cbf29051f5a34507ad5c2fb8b5789e10497ef1a3a846c13433fd78": "read",
+  "e2c17857431412eac634c2286413c75937511fa1e1dcd1c3ff6944cfbe1bca22": "read",
+  "18168d22d1d451338dc106962466bb561114a06d2e784359f74fbcf3aa202b0c": "read",
+  "699ded4e5ce791cdc71523117fae9885a9b82a6ae928258a95101a1fe171d86b": "write",
+  "83677b6143791938be86e7dc8826ee1b895bb5192879aa3caf339f35f8c6fe03": "read",
+  "3899a181eec588ef30bda27c115edddaf586b4f7e69fadbfb5085353c46cf24d": "read"
+ },
+ "flags": []
+}

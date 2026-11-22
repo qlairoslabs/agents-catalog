@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "26bc9657069e07128858a08c71817404c254903ad5a7d1fe293aec68d225cbad",
+ "domain": [
+  "marketing/seo",
+  "software/web-auditing"
+ ],
+ "product": [
+  "abby-seo",
+  "stripe"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Scans a web page for on-page, technical and content SEO issues, returns a 0-100 score, and sells a paid remediation runbook.",
+ "whenToUse": "Use when a user wants an SEO audit of a URL and concrete fixes for the issues found.",
+ "tasks": [
+  "queue seo scan of a url",
+  "poll scan status",
+  "get scan findings and score",
+  "start purchase of remediation guide",
+  "check purchase status",
+  "fetch remediation runbook",
+  "find past reports by email",
+  "show usage guide"
+ ],
+ "effects": {
+  "a755563a246a7ac71faf38049e21d64220f3383e4a28288f4a095a8f28f97a37": "write",
+  "6091d32a9c69ea0d129a8e4b2ff596da687d3bc3155ea73ed51527e10dbd9a23": "read",
+  "be6cf83cbd0ff88d7c3d1c5fa83f40ff8736dc0fd93ae808f6d240b4d9526a64": "write",
+  "c507b8cb48f6a209f65d19696c1149e4d34f9205369f8631c5219f79712a2b22": "write",
+  "78ab9eeb34521bb2136ef5750daa358d44ea24768657fa4b935fb257d3adf144": "write",
+  "e2501c25566a61dcf4c6f0f96f39bb7c7d98d7a66fdd283da5d5c6e404136767": "read",
+  "b4faf70a1bcb05716148ef3a7a53a779e23a039cf8b6e06a63e1056ee98feb07": "read",
+  "328a376fa6d4419000b4d8d956527557b8f210101000075823d13afb6842da60": "read"
+ },
+ "flags": [
+  "purchase_report tells the agent to run an autonomous flow and not wait for new user instructions",
+  "get_remediation_plan tells the agent to save server-supplied markdown into the user's project and execute it top to bottom",
+  "get_scan_results dictates how the agent must present results to the user",
+  "requires collecting the user's email for every scan"
+ ]
+}

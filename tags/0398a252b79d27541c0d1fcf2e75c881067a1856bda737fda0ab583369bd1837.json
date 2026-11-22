@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "0398a252b79d27541c0d1fcf2e75c881067a1856bda737fda0ab583369bd1837",
+ "domain": [
+  "consumer-services/companionship",
+  "booking"
+ ],
+ "product": [
+  "unclerental"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches Hong Kong companionship profiles, quotes prices and creates a checkout link for a booking, with post-payment messaging.",
+ "whenToUse": "Use when a user wants to browse and book a paid companionship session in Hong Kong.",
+ "tasks": [
+  "search profiles",
+  "read profile and reviews",
+  "get booking rules",
+  "quote booking",
+  "create checkout booking",
+  "check booking status",
+  "message after payment"
+ ],
+ "effects": {
+  "b8e346ac8d2e4c59c2c45341dd1799d7286d4d31f28974d6f07d2abc8f7cc7d4": "read",
+  "239501b1ef1e81f48be129509f47f9294f7cf76cd00bbb104ad02f52a65b290c": "read",
+  "d692f42260d7b517e2b8760cce40864cbf98c080e1cfd4d77a7263b65350f167": "read",
+  "d5a439207d100100373a2d2a6a0d13e987b67263880817bdb770acff25919c15": "read",
+  "2d079d9aa909f4e1c7daaaee3368fc7bbdc2ac308f59028d9591041551a0dc48": "write",
+  "1f7afd9c635877ba47dde363336462504167dfb3961e48a7ea0773d296f85c72": "read",
+  "6883d4c93dfeb769126acc849a2899693b419fa54463a2b34a9c7fb0d2df57b7": "write"
+ },
+ "flags": [
+  "create_booking notes the companion is not asked to accept before payment",
+  "profile and review text is flagged by publisher as untrusted"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5189deec67f06df9870c5867326890daededb5193357c5c606fb7bfcbee03b36",
+ "domain": [
+  "automotive/valuation",
+  "automotive/market-reports"
+ ],
+ "product": [
+  "marketcheck",
+  "claude",
+  "chatgpt"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Generates paid-per-report vehicle valuations and automotive market reports inside AI chat clients.",
+ "whenToUse": "Use when a user wants a vehicle valuation or car market report and accepts paying per report.",
+ "tasks": [
+  "get vehicle valuations",
+  "generate market reports",
+  "purchase reports"
+ ],
+ "effects": {},
+ "flags": []
+}

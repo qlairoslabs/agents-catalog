@@ -1,0 +1,66 @@
+{
+ "classifier": 2,
+ "contentHash": "c74207e600edfd9f1d6cb0feef37b94fd8322653cd8271c3ff3867a6f5b59b53",
+ "domain": [
+  "commerce/verified-spend-data",
+  "finance/receipts"
+ ],
+ "product": [
+  "crinkl",
+  "bitcoin",
+  "lightning",
+  "gmail"
+ ],
+ "audience": [
+  "finance",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-paid"
+ ],
+ "summary": "Verified consumer-spend data with signed GMV tokens and Merkle proofs, plus agent pairing and DKIM-verified receipt submission that earns sats.",
+ "whenToUse": "Use when an agent needs verified spend or GMV data, proof verification, or to submit billing emails as receipts for rewards.",
+ "tasks": [
+  "get cumulative and daily GMV",
+  "view spend signals",
+  "summarize merchants",
+  "view spend distribution",
+  "resolve CBSA codes",
+  "verify inclusion proofs",
+  "verify reward commitments",
+  "get reward policy",
+  "pair an agent",
+  "preview receipt verification",
+  "submit receipts",
+  "check earnings"
+ ],
+ "effects": {
+  "ecee3ceb6ecbfde03dd6ae79659f801188b636cc88c5440d828f7c69d434018b": "read",
+  "c5099cfda857aea44f3d23554b4e5f12586fb8fa653c9b6e2e9ac118fdfa6eb4": "read",
+  "c6bb72d6e60aded6f20bc126cd16397d2e3e0c8a9b4cfe243d09993cd2f199f1": "read",
+  "74fd90f54431f26d3ecd350ef2008d810f27b83297ac8fb34d385fdf53e2f127": "read",
+  "52436384399dbf740f83ee679ad32197231334f9d09a43eddc51c38c3e317306": "read",
+  "97f768650dd2e595699eb8023209a3ddc994e5f70e78c24b4b1138f984cee99d": "read",
+  "cded75f9fedd79938c96432ef00e4aa32b8b3ded3c651015fa4e2867eb61e6be": "read",
+  "001882541b86c92d0477fce49321de4bccabceb748f1303d7144032f133a7f73": "read",
+  "5b03142faa46cf359d1b6c954f73d5ab4004b05dc9753f814896f02acc0a478c": "read",
+  "6d2793602c841fa8273cc05c8882c8a81ae16f6c14a38b63a436dc84e7964489": "read",
+  "e483daae599871570ef24c25642a23ac183e17b139dc30ffdc2504773e54a5b0": "read",
+  "4cd023b68dc92635ef5475f33f187bc5b3f267343714c40a0d0d5f86f3d22778": "read",
+  "43c6dc95870a9c1b4923a020773cecad51b3b122e43caa3ff6f51e8f633bcb23": "read",
+  "29d256662101de56168c695b069c6e3b93cd3d787a2137a1e852e1065d4a0b5e": "read",
+  "28b546186fb964eb7822e213945a0550aa82d29c1c0779ffcc9b54a4d34bf9e3": "read",
+  "bdebffed494868dcd34d0a52402453ae5688721f92077bece1885c299012d44f": "read",
+  "9b48c806ee18b6e4e8a8637872beef14b90f350b1d2b6364ba6f5f347bcde9b6": "read",
+  "8a94a833cbff05abbb84de9e08d4ea7ef2e6d7849d606d1be9525a12d2b5efeb": "write",
+  "6389fcd60cca72fd5a36a318df48d5b3a4e124c78990c32cc8aa681f6663e2b7": "write",
+  "8d90db94a2847688d3e520b20d2e7e7a0e52740ed76005a3935f517838791119": "read",
+  "38d3c5a0d5d3ef7eda70040674283abe13aeff05635ad7ab79e2f9ffb3a44908": "write",
+  "140c5fca9b2f06d52fb07b5f2c7f376450ac7a5ede9e6da8ec99afd56c6e8ab7": "read"
+ },
+ "flags": [
+  "submit-receipt and verify-receipt send full raw billing emails, which contain personal data"
+ ]
+}

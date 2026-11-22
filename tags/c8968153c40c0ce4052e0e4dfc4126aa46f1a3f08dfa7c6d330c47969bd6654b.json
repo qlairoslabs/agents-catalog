@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c8968153c40c0ce4052e0e4dfc4126aa46f1a3f08dfa7c6d330c47969bd6654b",
+ "domain": [
+  "customer-support/helpdesk",
+  "customer-support/analytics"
+ ],
+ "product": [
+  "intercom"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Intercom integration for searching conversations, analysing support patterns, looking up contacts and companies, and installing Messenger.",
+ "whenToUse": "Use when an agent needs customer conversation data or contact details from an Intercom workspace.",
+ "tasks": [
+  "search conversations",
+  "analyze support patterns",
+  "look up contacts",
+  "look up companies",
+  "install intercom messenger"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "2d995d51dd5af99cd3532fbc0df381236c62ccc5023a86d3e47ea00c4f521646",
+ "domain": [
+  "startups/product-launches"
+ ],
+ "product": [
+  "shipstry"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Weekly product launch data from Shipstry: launches, medal winners, category benchmarks and URL listing checks.",
+ "whenToUse": "Use when researching product launches, judging how crowded a category is, or checking if a site is already listed.",
+ "tasks": [
+  "list categories",
+  "search launches",
+  "get launch",
+  "list ship week",
+  "get winners",
+  "benchmark category",
+  "check URL listed"
+ ],
+ "effects": {
+  "916ff80fb9528f36c64d7722ffef0c5fe79be297dca4ef92e73c408ab1714626": "read",
+  "a3d975278060bd5eec93a46004c53048589855aa3e8efbc8349d9f3b96a8638b": "read",
+  "53ab688dc6acdcba81d7b028799986827a0801f40124bb7759825e3268648e21": "read",
+  "2ec55bb8e58bf0e1628c7e1cf618ccfc2a4b813bfa5b2f0878f1ca03697fc7f0": "read",
+  "455cb1b4fbd60de80527ac43e51641bbf3da950383603de5e2dfca72e53f1901": "read",
+  "59bc3bb36dfa66619fd53f5de73786df415a72f1870dd191ec17f0de110298d3": "read",
+  "796cc3782b69df1c6f18aedef56e28b109b113d70bc02a4c4ece610ad1113397": "read"
+ },
+ "flags": []
+}

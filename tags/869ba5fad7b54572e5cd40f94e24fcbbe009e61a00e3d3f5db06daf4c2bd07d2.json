@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "869ba5fad7b54572e5cd40f94e24fcbbe009e61a00e3d3f5db06daf4c2bd07d2",
+ "domain": [
+  "telecom/esim",
+  "travel/connectivity"
+ ],
+ "product": [
+  "esimoa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares travel eSIM plans by country, trip length and data amount with live prices and purchase links.",
+ "whenToUse": "Use when a traveler wants to compare and buy an eSIM plan for a destination.",
+ "tasks": [
+  "compare esim plans",
+  "filter by country days and data",
+  "get purchase links"
+ ],
+ "effects": {},
+ "flags": []
+}

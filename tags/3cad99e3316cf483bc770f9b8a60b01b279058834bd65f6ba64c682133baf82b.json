@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3cad99e3316cf483bc770f9b8a60b01b279058834bd65f6ba64c682133baf82b",
+ "domain": [
+  "government/legislative-records"
+ ],
+ "product": [
+  "us-congress"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides transcripts of US congressional proceedings.",
+ "whenToUse": "Use when an agent needs what was said in congressional hearings or sessions.",
+ "tasks": [
+  "retrieve congressional transcripts",
+  "search congressional proceedings"
+ ],
+ "effects": {},
+ "flags": []
+}

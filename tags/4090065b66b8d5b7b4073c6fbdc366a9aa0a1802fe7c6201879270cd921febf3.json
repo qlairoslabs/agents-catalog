@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4090065b66b8d5b7b4073c6fbdc366a9aa0a1802fe7c6201879270cd921febf3",
+ "domain": [
+  "media/video-creation/animation"
+ ],
+ "product": [
+  "animation-machine"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Renders HTML animations into MP4 or GIF files with optional music, voiceover and captions.",
+ "whenToUse": "Use when an agent has written an HTML animation and needs it rendered as a video or GIF.",
+ "tasks": [
+  "render html to mp4",
+  "render html to gif",
+  "add music",
+  "add voiceover",
+  "add captions"
+ ],
+ "effects": {},
+ "flags": []
+}

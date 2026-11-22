@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "ef5401974a918dd12264686a51d80cbfdfd483a4da015ce895925114ba7a19b2",
+ "domain": [
+  "software/cybersecurity/agent-security"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Local security layer that guards actions taken by coding agents, with no account required.",
+ "whenToUse": "Use when a developer wants local guardrails over what a coding agent can do.",
+ "tasks": [
+  "gate agent actions",
+  "enforce local security policies"
+ ],
+ "effects": {},
+ "flags": []
+}

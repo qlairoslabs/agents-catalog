@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "8abf3ac0f4052ec58f6371ddea873b698f7a722e689c45de9289d873f7c0d962",
+ "domain": [
+  "finance/algorithmic-trading",
+  "finance/forex"
+ ],
+ "product": [
+  "quantifyme",
+  "telegram"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Turns plain-language forex trading strategies into trained ML signal models, backtests them and deploys them live, with a community strategy leaderboard.",
+ "whenToUse": "Use when the user wants to build, backtest or deploy a forex trading signal model from a strategy description or a community strategy.",
+ "tasks": [
+  "generate strategy code from plain english",
+  "train and deploy live signal models",
+  "check deploy status",
+  "list trained and deployed models",
+  "browse community strategy leaderboard",
+  "find matching community strategies",
+  "view strategy source code",
+  "get latest fx quotes",
+  "view backtest trades and stats",
+  "link an existing account"
+ ],
+ "effects": {
+  "6452469233900f3f6616068a2c29dd7a96f8c3e40327c1342a72b095d74aa162": "write",
+  "86a48611de94dee956e1171d61564d6a169df49f3f145cd3e26617f225e1ce6f": "write",
+  "2e75eb4c3ff594f12c07130ce2b841cba80f21d6f8f7abdb95964b0f210faa8d": "write",
+  "9f7b9d1ccf539b9b465fada1bd3c528f8ff89100afe8f2268a3cc2d82c7286b5": "read",
+  "b3e6c80b51f393c0149733f65a0a2ae50379636cf77cf37bc0c3ba83763ee113": "read",
+  "14072b81adf5d4433f37630db6e478c871ea33543150b2703a35bbf659d3ab11": "write",
+  "27c0c7d925e22d3584a83169e4152e2ce9979cc715ee343ab5d3f90f39e69a52": "write",
+  "48477628e9f188446d47c3aa4d3aaddc936b9fc3d9931857c9dede19622613c2": "write",
+  "e32c81ca6f601c733230019559d915f23019124201bab60c48fbb1fae6e1c482": "write",
+  "0125870f6b344a3cdac072d3f887da5867a7a108e98a622271fb9453e0dfd067": "write",
+  "c479036d7a676a86f9f554caacbc647166a851bf1f7dfa2a0ced08f9c7668ca2": "write"
+ },
+ "flags": []
+}

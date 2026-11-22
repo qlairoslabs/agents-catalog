@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "eba6e5aa78403119ea62594fdbb3cd5012cd6162bbac9e139c02c2a720e7bd42",
+ "domain": [
+  "crypto/blockchain-data"
+ ],
+ "product": [
+  "qie"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only QIE blockchain data: balances, transaction status, tokens, QIE ID name resolution and network facts on mainnet and testnet.",
+ "whenToUse": "Use when you need to inspect a QIE address, transaction, token list or resolve a .qie name.",
+ "tasks": [
+  "get balances",
+  "resolve QIE ID",
+  "reverse lookup address",
+  "get transaction status",
+  "list tokens",
+  "get network info"
+ ],
+ "effects": {
+  "66d0150ef9832e4fc1116342c7b5696e07ecd143752278e8fa91bef2ca44cacc": "read",
+  "aeaa49234740ae13e5faabb99ff22bebe544e810cf06c99f63fb88dfd5622cc7": "write",
+  "65d114da67c41cc92f79c5474053f38778162881b5043f71c5c0ad622bec389e": "write",
+  "afaddb68947072885608a895eb8174264e39a366e76040b594e95171e60100f0": "read",
+  "48e88ebe0bf837e5147b7d09bd38f82fefdd8a5bd1ef7c3727c3be8f183086b0": "write",
+  "aa1512ef904436f030dc4cee3229bd5dd2ad85b0d8cc7d34e79914a161c6fdcf": "read"
+ },
+ "flags": []
+}

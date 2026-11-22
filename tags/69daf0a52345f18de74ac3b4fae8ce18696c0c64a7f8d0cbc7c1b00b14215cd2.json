@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "69daf0a52345f18de74ac3b4fae8ce18696c0c64a7f8d0cbc7c1b00b14215cd2",
+ "domain": [
+  "software/identity-management",
+  "software/authentication"
+ ],
+ "product": [
+  "workos",
+  "authkit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Manages a WorkOS workspace, including organizations, users, SSO, Directory Sync and AuthKit settings.",
+ "whenToUse": "Use when administering WorkOS organizations, users, SSO connections or directory sync.",
+ "tasks": [
+  "manage organizations",
+  "manage users",
+  "configure sso",
+  "manage directory sync",
+  "configure authkit"
+ ],
+ "effects": {},
+ "flags": []
+}

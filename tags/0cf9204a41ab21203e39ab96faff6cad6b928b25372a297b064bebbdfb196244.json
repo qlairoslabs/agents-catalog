@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0cf9204a41ab21203e39ab96faff6cad6b928b25372a297b064bebbdfb196244",
+ "domain": [
+  "data/company-data",
+  "compliance/kyb"
+ ],
+ "product": [
+  "data-galactica"
+ ],
+ "audience": [
+  "sales",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "Database of organisations and people with permanent IDs, used for KYB checks, CRM enrichment and due diligence.",
+ "whenToUse": "Use when verifying a business, enriching CRM records or doing due diligence on organisations and people.",
+ "tasks": [
+  "look up organisations",
+  "look up people",
+  "know-your-business checks",
+  "enrich crm records",
+  "due diligence research"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "76145130c4791b8e91591c90b24fbe5e7dda31b7f59d9c857e8f209beb7462cc",
+ "domain": [
+  "sales/crm",
+  "operations/field-service"
+ ],
+ "product": [
+  "fikst"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "support-customers",
+  "schedule"
+ ],
+ "summary": "CRM and field service software for Dutch installation companies, configurable via the assistant.",
+ "whenToUse": "Use when a Dutch installation company manages customers, jobs or configuration in Fikst.",
+ "tasks": [
+  "manage customers",
+  "manage field service jobs",
+  "configure environment"
+ ],
+ "effects": {},
+ "flags": []
+}

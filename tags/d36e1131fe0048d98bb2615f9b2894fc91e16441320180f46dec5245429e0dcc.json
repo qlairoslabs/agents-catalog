@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d36e1131fe0048d98bb2615f9b2894fc91e16441320180f46dec5245429e0dcc",
+ "domain": [
+  "software/ai-agents/memory",
+  "productivity/knowledge-management"
+ ],
+ "product": [
+  "savantis"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "User-owned memory store shared across AI assistants, with recall, spaces and confirmed references.",
+ "whenToUse": "Use when an assistant should save or recall user facts that persist across tools and sessions.",
+ "tasks": [
+  "recall memories",
+  "save memories",
+  "organize spaces",
+  "manage confirmed references"
+ ],
+ "effects": {},
+ "flags": []
+}

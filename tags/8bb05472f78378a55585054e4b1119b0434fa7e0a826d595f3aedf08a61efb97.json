@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8bb05472f78378a55585054e4b1119b0434fa7e0a826d595f3aedf08a61efb97",
+ "domain": [
+  "business/supply-chain/research",
+  "finance/investment-research"
+ ],
+ "product": [
+  "forcedalpha"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Research tool for exploring company supply-chain relationships with evidence sources; requires OAuth or an API key.",
+ "whenToUse": "Use when researching a company's suppliers, customers or supply-chain exposure with cited evidence.",
+ "tasks": [
+  "explore supplier relationships",
+  "explore customer relationships",
+  "review supporting evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

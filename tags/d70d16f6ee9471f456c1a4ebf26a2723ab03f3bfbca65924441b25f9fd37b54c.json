@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d70d16f6ee9471f456c1a4ebf26a2723ab03f3bfbca65924441b25f9fd37b54c",
+ "domain": [
+  "marketing/analytics",
+  "commerce/ecommerce"
+ ],
+ "product": [
+  "google-analytics-4",
+  "google-search-console",
+  "google-ads",
+  "shopify",
+  "woocommerce",
+  "shopware"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Large set of read and write tools across GA4, Search Console, Google Ads and e-commerce platforms.",
+ "whenToUse": "Use when a user wants to query or update analytics, ads or online store data across these platforms.",
+ "tasks": [
+  "query ga4 data",
+  "query search console",
+  "manage google ads",
+  "manage shopify store",
+  "manage woocommerce store",
+  "manage shopware store"
+ ],
+ "effects": {},
+ "flags": []
+}

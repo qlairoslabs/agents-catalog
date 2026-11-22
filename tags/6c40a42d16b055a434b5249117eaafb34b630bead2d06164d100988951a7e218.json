@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6c40a42d16b055a434b5249117eaafb34b630bead2d06164d100988951a7e218",
+ "domain": [
+  "finance/bookkeeping",
+  "finance/accounting"
+ ],
+ "product": [
+  "finstat"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Turns statements, invoices and receipts into reconciled double-entry books by matching and posting entries.",
+ "whenToUse": "Use when an agent needs to do bookkeeping from financial documents.",
+ "tasks": [
+  "ingest financial documents",
+  "reconcile statements",
+  "match invoices and receipts",
+  "post journal entries"
+ ],
+ "effects": {},
+ "flags": []
+}

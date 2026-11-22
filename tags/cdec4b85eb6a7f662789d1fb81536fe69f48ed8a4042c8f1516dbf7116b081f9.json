@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "cdec4b85eb6a7f662789d1fb81536fe69f48ed8a4042c8f1516dbf7116b081f9",
+ "domain": [
+  "entertainment/games"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "A murder mystery game where the user interrogates LLM-driven suspects to find out who killed Claude.",
+ "whenToUse": "Use when a user wants to play a murder mystery or detective game.",
+ "tasks": [
+  "start murder mystery game",
+  "interrogate suspects"
+ ],
+ "effects": {
+  "263891d139419ba4e403d7889aeef21dbecd39fa98db59d99a351273adbcc939": "write"
+ },
+ "flags": []
+}

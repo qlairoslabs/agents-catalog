@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "006b0895bebef66b93c869c6ac9424708228da8b58b7f24223fd1a78599e6a1e",
+ "domain": [
+  "software/media-sdk",
+  "developer-docs"
+ ],
+ "product": [
+  "visioforge",
+  "net",
+  "nuget"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference for the VisioForge .NET media SDK: classes, media blocks, enums, code examples, pipeline templates and deployment guides.",
+ "whenToUse": "Use when writing .NET code for video capture, playback, editing or media pipelines with VisioForge.",
+ "tasks": [
+  "list media blocks",
+  "search API",
+  "get class info",
+  "get method signatures",
+  "get code examples",
+  "get pipeline templates",
+  "get NuGet snippets",
+  "read deployment guides"
+ ],
+ "effects": {
+  "fba664fa10aaa4ce94a194dedd8594332dfe6d362eba53c658a42e22fa5ea8ec": "read",
+  "f3fc65d08b66947c16275a428da60ff39235c6f9a1440965b0e0f3baaae8fab7": "read",
+  "9f6d2c6bf2f5aa7ba99e121b7906c92e171e71c1147b8ef2e54c836a9d6f4d09": "read",
+  "84c7d2114bc8253dbf99d54cb3a510621f6d972e1dc918ee35cd14b012a6af76": "read",
+  "40b418c86753d885d7abe6f1e52351df4b00864780db248b0f79c38ffe307daf": "read",
+  "6447fd60ed29d9917d3e33cdd7d8d74fbe20d4dcf93a05d62abce9fe9248666c": "read",
+  "e026509f265b79b67356779839f7252a4c86c358499658846e83a9f44f062b27": "read",
+  "25402448093513e5d0dd7c75844ab0c5fb14e4cd175ed13d72af0d5e984ab870": "read",
+  "19fc5596a79a59724a3759849fa08aae15caa9f68564503ce243c2132bfab8b5": "read",
+  "905e6097cdf2ecc15b4be3e32902aa3f9cafa80615631772b5f0d95d6a9d63a0": "read",
+  "c162a69543d734e8594a1799d4df09d54e7cd021f12c6235e693c33130c90b46": "read",
+  "53c971f5a5cf7bb3554b87b744ff0d1c4bae9720d490b8caf8800b0b1d65fa6c": "read",
+  "d8e194ef759fde6396c20894e792160f0723ab4bd3d5bfd566783305a735b988": "read",
+  "ac168bbb1466618893573cf1716857ab7f5ba398d33329848475ec7653363168": "read"
+ },
+ "flags": []
+}

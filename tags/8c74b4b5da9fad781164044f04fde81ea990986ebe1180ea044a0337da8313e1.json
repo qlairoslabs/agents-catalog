@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8c74b4b5da9fad781164044f04fde81ea990986ebe1180ea044a0337da8313e1",
+ "domain": [
+  "gaming/studio-management",
+  "project-management",
+  "finance/royalties"
+ ],
+ "product": [
+  "royaltea"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "run-the-money",
+  "hire-and-manage"
+ ],
+ "summary": "Manages a RoyalTea game studio's tasks, milestones, team members and royalty data via OAuth.",
+ "whenToUse": "Use when a user runs a game studio on RoyalTea and needs to manage work, team or royalty records.",
+ "tasks": [
+  "manage tasks",
+  "track milestones",
+  "manage team",
+  "view royalty data"
+ ],
+ "effects": {},
+ "flags": []
+}

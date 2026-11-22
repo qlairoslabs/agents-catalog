@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1a111ed3d81ae8a5445bedaedf959fcf1bafb9e49531b53f46044a8451ca4604",
+ "domain": [
+  "software/documentation",
+  "blockchain"
+ ],
+ "product": [
+  "goldsky"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads Goldsky documentation on RPC, data feeds, subgraphs and pipelines, and can submit docs feedback.",
+ "whenToUse": "Use when building with Goldsky and you need docs, API references or examples.",
+ "tasks": [
+  "search docs",
+  "read doc pages",
+  "grep docs filesystem",
+  "submit docs feedback"
+ ],
+ "effects": {
+  "12b53d031792a21ad5ddf52e6bdf7ccbff879a12774c51c68a6b866bf45c06c8": "write",
+  "935bb9dd7974eef4976c3dbc24d1ed68711691a11ac9d583b448be2f336e5094": "write",
+  "fcf9b7723e4121bf5d4f208c3731228c583078ec3029b854addd4aea8601eac9": "write"
+ },
+ "flags": []
+}

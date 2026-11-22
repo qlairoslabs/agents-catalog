@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "4793d694196f3f935ccda19c94080ec3481ab37fcaa5c81d4a680e84cd56d125",
+ "domain": [
+  "health/medical-device-regulation",
+  "legal/regulatory-data"
+ ],
+ "product": [
+  "fda",
+  "eudamed",
+  "gudid"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search of FDA 510(k), PMA, De Novo, GUDID, recall and EU EUDAMED device, manufacturer and certificate records.",
+ "whenToUse": "Use when you need regulatory status, identifiers, recalls or CE certificates of a medical device or manufacturer.",
+ "tasks": [
+  "search devices",
+  "find device by identifier",
+  "get device record",
+  "list device recalls",
+  "list EU certificates",
+  "search recalls",
+  "search certificates",
+  "search manufacturers",
+  "get manufacturer",
+  "search GUDID listings",
+  "search establishments",
+  "check data sources"
+ ],
+ "effects": {
+  "d29eb54433c49f25b18732be6f22d9ce6e78bb60e74cb6930b742adbab291534": "write",
+  "8745a37f4bf5bcd18cc46c73b7e3c82ddb0f723d6346761f48a8241b1a34da93": "write",
+  "91656706fb402f9d73a121b7bdae7a6e19c2191f5192705f79b2755e94487967": "write",
+  "e2e1832e31d50857872fa7f5960e2a9681a624a8d0a79579b416df2d9d6e2c71": "write",
+  "e59f13c4dbab9fd95f8dcdb1a358458a29d60d9acbfe2a6902b7bdf0b215b4d2": "write",
+  "b4f9d3dfcd328c87b6e8bd89d75050e7bb1aeb70be7866d1712ae2f3073a8999": "write",
+  "07527b837da06fcd69738d03ed4a98b42e1bd1de4169a78c884b8cb6f092ff95": "write",
+  "7541069bccf1725c95352cbafb6bde7d57c34a4365912b6f2c2703d6c52d8d2a": "read",
+  "9b40a04a76177d383acd58d8cd29ae87e4efd1c242a1f11662abd2db4f6d25f1": "write",
+  "fb93ac4b973661ef2a10791930eddf35fb7018b954f0b1c49b063d846eac313d": "write",
+  "228c3c98ff964410fcd6258d94bb310c7b7df9f3efda2d93058953cadd60ff57": "write",
+  "6d5ef974b6055eb8df93b74a26b53cbb2867f7b335e707cfaf637f86bf37e25f": "write",
+  "d8f896f978b2417289508617c9bc7057c06a0cf5d57109ec375bb441dc3309d1": "write",
+  "12a84587c4ed0a29d3178a3953e2421d5c6bb8c998825d884ae6045539c58e39": "read",
+  "b2152b7d274260cfe003d4c5aaa19487247d0ea3d2e6b152eeeed41bb81bf4c3": "write"
+ },
+ "flags": []
+}

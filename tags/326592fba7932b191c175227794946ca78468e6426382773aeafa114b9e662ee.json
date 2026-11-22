@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "326592fba7932b191c175227794946ca78468e6426382773aeafa114b9e662ee",
+ "domain": [
+  "software/code-analysis",
+  "software/code-review"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Builds a semantic code graph across many languages for callers, impact analysis, context, memory and PR review.",
+ "whenToUse": "Use when an agent needs to trace code relationships or assess change impact.",
+ "tasks": [
+  "find callers",
+  "analyze change impact",
+  "gather ai context",
+  "store memory",
+  "review pull requests"
+ ],
+ "effects": {},
+ "flags": []
+}

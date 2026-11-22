@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "aac7830a97a61be61f5a04db086505cc4ba61bb473d0f4e16aba7fe590895a0e",
+ "domain": [
+  "software/reliability",
+  "analytics/product"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Investigates network failures, JavaScript errors and error clicks in Amplitude data to find what is broken, where and why.",
+ "whenToUse": "Use when a user says errors are up, something is broken, or wants to triage product reliability issues.",
+ "tasks": [
+  "analyze network failures",
+  "analyze javascript errors",
+  "analyze error clicks",
+  "locate broken pages or features",
+  "triage 5xx spikes",
+  "explain root causes of errors"
+ ],
+ "effects": {},
+ "flags": []
+}

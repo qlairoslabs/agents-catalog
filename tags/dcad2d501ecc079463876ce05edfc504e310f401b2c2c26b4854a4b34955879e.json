@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "dcad2d501ecc079463876ce05edfc504e310f401b2c2c26b4854a4b34955879e",
+ "domain": [
+  "finance/stock-valuation",
+  "finance/investing"
+ ],
+ "product": [
+  "fair-value-calculator"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Fair value and quality ratings for over 40,000 stocks, with single-stock checks, screening and portfolio review.",
+ "whenToUse": "Use when an agent evaluates whether stocks are fairly priced or reviews a portfolio.",
+ "tasks": [
+  "check stock fair value",
+  "check stock quality",
+  "screen stocks",
+  "review portfolio"
+ ],
+ "effects": {},
+ "flags": []
+}

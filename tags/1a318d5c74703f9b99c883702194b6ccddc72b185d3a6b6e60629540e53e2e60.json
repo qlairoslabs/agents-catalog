@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1a318d5c74703f9b99c883702194b6ccddc72b185d3a6b6e60629540e53e2e60",
+ "domain": [
+  "software/developer-tools",
+  "ai/agent-tooling"
+ ],
+ "product": [
+  "vibenate"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Directory for discovering web services and retrieving MCP, CLI and API connection guides for agents.",
+ "whenToUse": "Use when an agent needs to find a service and learn how to connect to it via MCP, CLI or API.",
+ "tasks": [
+  "discover web services",
+  "get mcp connection guides",
+  "get api connection guides"
+ ],
+ "effects": {},
+ "flags": []
+}

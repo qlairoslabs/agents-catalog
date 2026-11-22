@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1780c227f3f08351a2fcd733c07e62adb44c064ef07e386465db932c78048308",
+ "domain": [
+  "design/design-systems",
+  "software/web-development"
+ ],
+ "product": [
+  "miromiro"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Extracts brand colors, fonts, design tokens, SVGs, Lottie animations and reusable code from a live website.",
+ "whenToUse": "Use when a user wants to capture a website's visual style or assets as tokens or code.",
+ "tasks": [
+  "extract brand colors",
+  "extract fonts",
+  "generate design tokens",
+  "extract svgs",
+  "extract lottie animations",
+  "produce paste-ready code"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2ca31c03b1e7704ebc2f585819b921d99ac56333cef3308a926fa3deae29ddb9",
+ "domain": [
+  "media/video/transcoding"
+ ],
+ "product": [
+  "transcodely"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Transcodes, hosts and captions video files through Transcodely.",
+ "whenToUse": "Use when the user needs to convert video formats, host videos or generate captions.",
+ "tasks": [
+  "transcode video",
+  "host video",
+  "generate captions"
+ ],
+ "effects": {},
+ "flags": []
+}

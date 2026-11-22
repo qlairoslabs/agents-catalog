@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c0d9306c7ba6a8d0d5dc282d04b43b2217b299b2368a7a8e80a3a3106f034421",
+ "domain": [
+  "software/media-delivery/administration",
+  "analytics/usage"
+ ],
+ "product": [
+  "imagekit"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Official ImageKit server for managing origins and URL endpoints and viewing account usage and analytics.",
+ "whenToUse": "Use when configuring ImageKit storage origins or URL endpoints, or checking ImageKit account usage.",
+ "tasks": [
+  "manage origins",
+  "manage url endpoints",
+  "view account usage",
+  "view usage analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

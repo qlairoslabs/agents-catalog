@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "35faacb6100f7f649192534a1691e57ed5cfb295748331d864b651a135e288c0",
+ "domain": [
+  "cloud/aws",
+  "software/devops/deployment"
+ ],
+ "product": [
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Helps deploy applications to AWS with architecture recommendations, cost estimates and infrastructure-as-code.",
+ "whenToUse": "Use when planning and deploying an application to AWS.",
+ "tasks": [
+  "recommend architecture",
+  "estimate costs",
+  "generate infrastructure as code",
+  "deploy to aws"
+ ],
+ "effects": {},
+ "flags": []
+}

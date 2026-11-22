@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "59779bbf2eaf74e192b28fb919c5d6de898e64693a1a3e117a9ad1ca66bc9619",
+ "domain": [
+  "legal/public-records",
+  "government/criminal-justice"
+ ],
+ "product": [
+  "california-post",
+  "cjp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches public records on California district attorneys, public defenders, judges and officers, including judicial discipline and POST decertifications.",
+ "whenToUse": "Use when researching misconduct or discipline records of California prosecutors, judges, defenders or law enforcement officers.",
+ "tasks": [
+  "search district attorneys",
+  "look up public defenders",
+  "search judges",
+  "search officers with misconduct",
+  "search judicial discipline decisions",
+  "search POST decertifications",
+  "rank by severity"
+ ],
+ "effects": {
+  "b1f5069add15dcba48b18fd098953c9ff50876d1106061456af411891b5b9300": "read",
+  "dff32fffef27a4a39474ebdb2f1d2ce2b4935248fdcdb266409bd4fcf5843119": "read",
+  "1357914144b4666c09674567ae16384b55b4b0a78c3291bbdc3c5a1c30d610f8": "read",
+  "4b3a2c2930bd6a153fc0cff35466ec299ae7ca24dd1dabe82aae4cf697cbeb5d": "read",
+  "1a4b731924725a712767c645d58c4ae76a89d5a1e77e6e625e35bd60c089a353": "read",
+  "8f161381c098054d5a1500f87c32819a672b8ab3eec80ed48e1c957dd4fd74d0": "read",
+  "3e4dc27313ae766d9678200a87d121da54533dcc0c20728b5056155160934a62": "read",
+  "d463e1e3348e727c75d8c11ebc62b286ff88618218ba6f54dab6e89f05047eda": "read",
+  "6a2b0b0d97c0e71790229143ff10326083b2272101726d7bc324e975f26d98cb": "read",
+  "856c56b87f9d32e44dad67428b854f17a239fa4406eef03f2b6ffcd344a3281e": "read",
+  "2479fd5438ea7720b4c837e6e71bb445f344bb86e5cc9ef8c6f470adddaeda6a": "read",
+  "b737e366a187d68f36b86fc21e3bf2775eb12e0d40a6c789909bf21cd995f43e": "read",
+  "81061763fc24b0060288c47ff27aa0ca79c1d42ec0e43ccfb054d5a1dc234ab2": "read",
+  "ee49948d23b8c48430e40458c4e3969b25805fa623763d6d2a64abd41353d61e": "read",
+  "98a37b38ec2a6165298d705793edcf022da6529230e50a2bebc54de5462611a4": "read"
+ },
+ "flags": []
+}

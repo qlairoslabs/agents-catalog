@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0a0dc0c10ad60a4ff66ce5ce7c078db8ba4423cc1f5c95a3d63eb7a3cf4be207",
+ "domain": [
+  "data/analytics/sql",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-athena",
+  "aws-glue",
+  "amazon-s3-tables",
+  "amazon-redshift"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs and manages Amazon Athena SQL queries across Glue, S3 Tables and Redshift federated catalogs.",
+ "whenToUse": "Use when data in the AWS data lake needs to be queried or profiled with SQL.",
+ "tasks": [
+  "run athena sql queries",
+  "query federated catalogs",
+  "profile tables",
+  "check workgroup status"
+ ],
+ "effects": {},
+ "flags": []
+}

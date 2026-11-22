@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d13b7b69ae3affaf649f62cd7ace3bd0d79191b7f34d2ef47e4f391bf0eacd51",
+ "domain": [
+  "creative-writing"
+ ],
+ "product": [
+  "writeflow"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Gives today's WriteFlow daily writing prompt and details of the weekly writing contest.",
+ "whenToUse": "Use when a user wants a writing prompt or information about the WriteFlow contest.",
+ "tasks": [
+  "get daily writing prompt",
+  "get weekly contest info"
+ ],
+ "effects": {
+  "f945b2bb028fbd3647e1d16754337957f6e7a374c20c3492de18f6b047e6dc51": "read",
+  "ce6e5c5539a2e4c5656672b100b5bb381cbd5ac592365be2be045499094feaad": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c6dd56232d165e13ba1d7b79883d38f832328ff201a81198a916a5e4049eb5bf",
+ "domain": [
+  "entertainment/gaming"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Picks one game from a short backlog and returns a time-boxed play session instruction.",
+ "whenToUse": "Use when a user cannot decide which game to play from a list of two to twelve titles.",
+ "tasks": [
+  "pick a game from backlog",
+  "set session length",
+  "set quest mood",
+  "generate instruction in English or Russian"
+ ],
+ "effects": {
+  "14fdea49235f45f2105a1621e18b90e7f4200fbf0b817ed2e4704d52e8e94727": "write"
+ },
+ "flags": []
+}

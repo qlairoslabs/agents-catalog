@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "18befe840f58ecec1a3241aac4ef7808600e9723dcb4e7e24ecb2be5ccbaee41",
+ "domain": [
+  "media/radio"
+ ],
+ "product": [
+  "emisoras-de-colombia"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches 264 Colombian live radio stations by city, genre or dial frequency and gives stable listening links.",
+ "whenToUse": "Use when a user wants to find or listen to a Colombian radio station.",
+ "tasks": [
+  "search stations",
+  "view station details",
+  "get live stream link"
+ ],
+ "effects": {
+  "1470b1ec5044913f3985143532a504a1328d93a40ba02856d5dfe5ba0c2654d2": "write",
+  "e94eebd05dba9214708096c2b5f2044097f949ab22129f956443be2ae4e30a7f": "write",
+  "b9e43bf06459d52d61ce53870df2455f101c33059ca8085f5b6671932731ab58": "write"
+ },
+ "flags": []
+}

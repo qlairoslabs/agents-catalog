@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fa7d3c87ab6189edb82c539dca0eabe23acb7eea41bd48ad1898cdfdfa2dbd25",
+ "domain": [
+  "finance/market-data",
+  "finance/stocks"
+ ],
+ "product": [
+  "intrinio"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides US stock prices, options data and company fundamentals from Intrinio.",
+ "whenToUse": "Use when an agent needs US stock, options or fundamentals data.",
+ "tasks": [
+  "get stock prices",
+  "get options data",
+  "get fundamentals"
+ ],
+ "effects": {},
+ "flags": []
+}

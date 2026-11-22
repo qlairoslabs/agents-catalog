@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "69dc21c4e4ee1d1ad1c415758a21a379ba23037f41420241e7483a8051dcc13b",
+ "domain": [
+  "productivity/scheduling"
+ ],
+ "product": [
+  "lucie-sync",
+  "google-calendar",
+  "google-meet"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Checks a host's open slots, books meetings, finds common group times and creates scheduling polls without exposing raw calendars.",
+ "whenToUse": "Use when booking a meeting with a Lucie host, finding a time for several people or creating a time or trip poll.",
+ "tasks": [
+  "check availability",
+  "book meeting",
+  "find group times",
+  "create scheduling poll",
+  "create trip poll",
+  "book group meeting"
+ ],
+ "effects": {
+  "79e5ff4744609b615573aa1da8071bebdbd470c2d5322fc8724fd558c06d146f": "read",
+  "19d4b8f5e7ff0b437f0bc4ef3b7fd8ff34388c27f8be2040955f29d9db64aaae": "write",
+  "0a5ab9c0dbea5b81573dfbc4ce85b3352312f6d8119422a5d5f68a45b753dab6": "write",
+  "140cd49ff8406187caeca1ec7d92b2649cd47162c1aaf2f85cbaabb2baba8929": "write",
+  "a889aff63bbeedd66f7474037a3ff503e7708aa4665623b1d867d9ff925ea370": "write",
+  "50132b193a0836691f09d70c8577821cb0fed4bd024be24fc88a0ca32095e9df": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "180180bd7e696747479a1b120155cd86400a017cc1944e5ab50209d1d7b54f9e",
+ "domain": [
+  "real-estate/neighbourhood-data",
+  "data/geospatial"
+ ],
+ "product": [
+  "yatmo"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides neighbourhood data for properties, including nearby schools, shops and transport with travel times, across 25 countries.",
+ "whenToUse": "Use when describing or evaluating a property's surroundings for a real estate listing or a buyer.",
+ "tasks": [
+  "find nearest schools",
+  "find nearby shops",
+  "find transport options",
+  "calculate travel times"
+ ],
+ "effects": {},
+ "flags": []
+}

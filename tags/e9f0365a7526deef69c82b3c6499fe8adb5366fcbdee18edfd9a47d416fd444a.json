@@ -1,0 +1,82 @@
+{
+ "classifier": 2,
+ "contentHash": "e9f0365a7526deef69c82b3c6499fe8adb5366fcbdee18edfd9a47d416fd444a",
+ "domain": [
+  "finance/crypto-defi",
+  "blockchain/rpc"
+ ],
+ "product": [
+  "solana",
+  "aex402",
+  "robinhood-chain",
+  "hyperliquid",
+  "li-fi",
+  "ethereum",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Cross-chain DeFi toolkit for Solana and EVM chains: RPC access, AMM pool quotes and swaps, bridge routing, token launches, market data and an AI router.",
+ "whenToUse": "Use when an agent needs on-chain data, swap or bridge quotes, or transaction building on Solana, Robinhood Chain, HyperEVM, Base or Ethereum.",
+ "tasks": [
+  "check Solana balances",
+  "list AMM pools",
+  "quote swaps",
+  "build swap transactions",
+  "bridge assets via LI.FI",
+  "query Hyperliquid data",
+  "call raw Solana/EVM RPC",
+  "launch memecoins",
+  "search tokens",
+  "discover programs",
+  "reconstruct contract ABIs",
+  "send AI chat requests"
+ ],
+ "effects": {
+  "58c8d3e047353241a0d368e1f1877c5681fbb667265bf51335c2e3886cf1c43a": "read",
+  "d6f6b6565d1bb967ce8c24ff41c22048ced0b7851033f39c30da406ee512cc27": "read",
+  "555a520d2b2f960ea69dd8d55f5caf720bd90258fedaf6fe936af68187c137f2": "read",
+  "5a91a009665322c7c6449d0266c75d050dd2c2f45958675571ccd88e8fca19ed": "read",
+  "7dc211a2c50fa704425f1252bd00eca5d92493838eb0b0083531010c4badb7e0": "read",
+  "59d92c240447c1dd75c95996667634ac15035d284b780400565b2b8971edb01f": "read",
+  "e6299764a47e4bff411777a4532027d71e2bd88f0a5cbcaaf18330feb2be8b5f": "risky",
+  "5de895810c9994d1c070205d48bec2ed5bcc3f7bf7ec3cea06825d4096f777dd": "read",
+  "76cc5cf0eadee30d39f0d93a06be60add1e808fcf8dff63c41a46f1bbd57d79e": "read",
+  "15d1ac64495354ec1126f479c102c16b4125b6a77a2c36e3e9ac52f89c993bff": "read",
+  "347b51303699cd3459539c71fde2c6f8158b27609ee8a1b75942ec83c58470cd": "read",
+  "e8c28e5a8fdcdc3eec0f3425f7317b84f1eb170543b6ac5fe442e3622d4fa8ed": "write",
+  "0df3195fa46855b01f89e89f84dd9af270de3905861414886c55a9c06f6c6684": "risky",
+  "de1f684465208c2af964e3a78ecf562954f822f01283e83208a256f913526342": "read",
+  "4bee6541895a5e826ec7e0803c89721ffe28ab67e818d9939b392d1475924857": "read",
+  "ad999e6172d493a6933f5600cd2abb5fe123034ab872d978c5c57d5a4816a1f7": "risky",
+  "5472fff6614d4507e553c9c4970015d845093395a1adc0010f61630b78951e00": "write",
+  "dec7c568354e27f8d12039d78297aeeec41a28b64138fbff7970708d87671120": "risky",
+  "86ad22f57aca628bc12be5d96e3f16dfed87f35f369a565a69353d04fa827d9d": "write",
+  "2a0c9dc468bebbeb932eec3d094877e0146da434b1fda270b270973db0d512f0": "risky",
+  "5f578ec5d7d00245830302c60eb4686f380ca9a405b3b9bad4160d908474be12": "write",
+  "c7c92fe1d3b1a45375ba290cfb78527a95cd2b0789a994a2fbd3a092c2dcd9d1": "read",
+  "3b00c0202d1023ff210027d6c5afd8f260fe883aa9935618253fa988316aa796": "read",
+  "ea862f5989070a32f209c8a15bf729237a79a5d78afc825b6e61718b90c7fdde": "write",
+  "b39e98f70043bbac8f7874f1fb0795ddbf84bd529b216b33188995dac7f496c4": "read",
+  "8fbf44b6562b43ce44a308cdada2a374d2bf98c4f6c6c164872f084d9dd54b4e": "read",
+  "5302a65b4edcce8415f6cae3a52929c442c47d476e185fbab7e1440e52e0b383": "read",
+  "0afe44eedc5e6bb60f0ea6187fd7278613926cbc08fa0aff2463121c5d721aa1": "read",
+  "e078f218366f861ab3a8aeb1d7445d455140375095025f8b408bef75cb026315": "read",
+  "18dc3a8263bb22664799cb0bc4f909f056f6263de57fad2f86f6dd76c3eb8d5b": "read",
+  "87fe21ce49e8853347e464d0f9e10b61db0b0816ba80f03c3b5ba7c61beadecd": "read",
+  "8186a1fab20fbdd7c932fa6a2f0c5a4388d86667bce48cfb484f8003ba75f5c6": "read",
+  "94742f7cdaa282ba588679e8de82a13c3a0bf034b1bc215419089abbcb82ab18": "read"
+ },
+ "flags": [
+  "custodial launch_token signs and submits on-chain transactions on the backend",
+  "agent_delegate spawns sub-agents with full tool access",
+  "raw RPC tools can broadcast transactions"
+ ]
+}

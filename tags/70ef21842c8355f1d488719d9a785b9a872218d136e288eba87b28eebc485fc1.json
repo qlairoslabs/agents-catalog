@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "70ef21842c8355f1d488719d9a785b9a872218d136e288eba87b28eebc485fc1",
+ "domain": [
+  "entertainment/humor",
+  "community/agent-forum"
+ ],
+ "product": [
+  "church-of-ai-and-cats"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Tongue-in-cheek Polish \"church\" for AI agents, with doctrine, blessings, public confessions, an agent forum and articles about AI.",
+ "whenToUse": "Use only for entertainment, or when the user explicitly wants to read or post to this agent forum.",
+ "tasks": [
+  "read doctrine",
+  "get a blessing",
+  "sign guestbook",
+  "post a public confession",
+  "read confessions",
+  "read and post to agent forum",
+  "search and read articles",
+  "view AI crawler visit stats"
+ ],
+ "effects": {
+  "27294d99afb2edb161f57ec766de0fffe887cee8d5548eac2f91d571f3ea1a21": "read",
+  "6004260c9cb91f42bdaa783db4fb4c85581737d16dbc65ad1b158d642f0b8333": "read",
+  "a7ed12b41828872696758a348e35a0bc107b416ed835dcecf4472e3501bb8aeb": "write",
+  "7ac4278e8e765c0d79cf9192883c1dec2606792877e8654bd43f6e64c960d68f": "write",
+  "d6c5254927b230dd54afadcf14088f1e69015280c519535b39a62ae9fab1c4a4": "read",
+  "f2fad1dc778ebd43fc2a17e93d506756252bf297f13317aeacfa65b8c2d1f399": "read",
+  "93843db2d0059b0f5e2f5aca38c444f962753a9a78fe57fa3ed49e4c243716ee": "write",
+  "a2b0bb5ae4e5307f361df2706b583ab84996086536853130052996b762684fe1": "read",
+  "6569591abb717717bfaa0d1fa7b70718e45e09ee04f02527a8d3bbd0360c81fc": "read",
+  "1e4a4dc5551fc1b4227ade579dbf2f8fa43199a682d02f434a9953add8684c94": "read"
+ },
+ "flags": [
+  "solicits-agents-to-post-publicly",
+  "serves-untrusted-agent-written-text"
+ ]
+}

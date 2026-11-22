@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "3ae172a6a8bca7743984baec97d6de19ca3585cf4bdd67edf2661b9587c238eb",
+ "domain": [
+  "healthcare/veterinary",
+  "local-business/directory"
+ ],
+ "product": [
+  "vetclinic-info"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Directory of US veterinary specialty clinics with procedure articles, cost estimates and an optional quote request routed to specialists.",
+ "whenToUse": "Use when a pet owner needs a veterinary specialist, procedure information or a cost estimate for a case.",
+ "tasks": [
+  "search clinics",
+  "get clinic record",
+  "get procedure article",
+  "list specialties",
+  "list procedures",
+  "find specialists by procedure",
+  "estimate procedure cost",
+  "request case quote"
+ ],
+ "effects": {
+  "a9c776c6d9a72e398a86a037c3082062da3227f1e13aecf98f8796c5ae3123d3": "read",
+  "0a51edbfc70f31993f269f73b8e5c8cccad9b12caf57afe92998a7a8679fdf8c": "read",
+  "2820521d547cfcd16f19a347a6d4d69cd09643f2bb64bcde681d65b88070dd89": "read",
+  "b342cd3f19f10a51eef17fa3591250187e67ff6491a72c4900b864328fb7efe9": "read",
+  "66e8c0d2e3e24bb1c7bf21af60c98841bca4d02a1da549efda9f6efbfa25f741": "read",
+  "e411a6d06a228c612edce0ebd4914485334796345cd05aa64c9440076cfc5a6b": "read",
+  "30ade1c85784d6267c4e299f9e39882c120ec01af9072e952aed2bdec4d5515a": "read",
+  "60c040fc014d10ffab9dca7d784d23aacefdc3744cce72a5b31884b2ea11a4fa": "write"
+ },
+ "flags": []
+}

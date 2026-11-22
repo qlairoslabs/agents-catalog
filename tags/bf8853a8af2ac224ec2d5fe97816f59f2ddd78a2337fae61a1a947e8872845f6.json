@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bf8853a8af2ac224ec2d5fe97816f59f2ddd78a2337fae61a1a947e8872845f6",
+ "domain": [
+  "marketing/social-media",
+  "devices/phone-rental"
+ ],
+ "product": [
+  "0bull",
+  "iphone"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Manages social media accounts, publishes videos and controls monthly-rented physical iPhones.",
+ "whenToUse": "Use when an agent needs to operate social accounts or post videos through real rented iPhones.",
+ "tasks": [
+  "manage social accounts",
+  "publish videos",
+  "control rented iphones"
+ ],
+ "effects": {},
+ "flags": [
+  "controls real phones to operate social accounts, which may enable platform-rule evasion or inauthentic activity"
+ ]
+}

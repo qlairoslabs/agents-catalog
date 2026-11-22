@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "49744a2c3e44df4bfc5cf0d18156e242a3ee23ec3f90a7d1b40e9c0d4017c92a",
+ "domain": [
+  "events/discovery"
+ ],
+ "product": [
+  "wullup"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds upcoming public events in Germany such as concerts, club nights, festivals and markets by city and date.",
+ "whenToUse": "Use when a user wants to find events in Germany for a day, weekend or date range.",
+ "tasks": [
+  "search events",
+  "filter by city",
+  "filter by category",
+  "filter by date",
+  "filter free events"
+ ],
+ "effects": {
+  "93ab525ae44757aaed04641cf7babb7c9658338c4b1eb2b86b8370e5ad493dd8": "read"
+ },
+ "flags": []
+}

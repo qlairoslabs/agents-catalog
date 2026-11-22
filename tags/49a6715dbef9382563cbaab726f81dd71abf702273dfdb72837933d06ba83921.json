@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "49a6715dbef9382563cbaab726f81dd71abf702273dfdb72837933d06ba83921",
+ "domain": [
+  "design/ui-design",
+  "software/web-development"
+ ],
+ "product": [
+  "figma"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Figma integration to access design files, extract components and design tokens, and turn designs into code.",
+ "whenToUse": "Use when implementing code from Figma designs or reading design details.",
+ "tasks": [
+  "access design files",
+  "extract component information",
+  "read design tokens",
+  "translate designs to code"
+ ],
+ "effects": {},
+ "flags": []
+}

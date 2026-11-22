@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c4b095ac1ae46ad5565d7a8177e150674ece8f1fcc52a93c19b939ba62fed748",
+ "domain": [
+  "lifestyle/astrology/vedic"
+ ],
+ "product": [
+  "divine-api"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Provides Indian Vedic astrology data such as Panchang, Kundli, Dasha, KP and Lal Kitab from Divine API.",
+ "whenToUse": "Use when producing Vedic astrology charts or readings like Kundli, Panchang or Dasha.",
+ "tasks": [
+  "get panchang",
+  "generate kundli",
+  "calculate dasha",
+  "kp astrology",
+  "lal kitab readings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3232db2636b0bc6a95fc54984e8c83d1c74a3b185e54ed06869ab00acb70056f",
+ "domain": [
+  "science/math-physics",
+  "research"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and retrieves a Japanese/English collection of math-physics preprints, including their separator statements and DOIs.",
+ "whenToUse": "Use when looking up Yamagishi Lab papers or their separator sentences by keyword or paper number.",
+ "tasks": [
+  "search papers",
+  "get paper by number",
+  "list separator papers"
+ ],
+ "effects": {
+  "6179e58307018581f650591f6854a815aaf3cc3f92a08cb4cd43c1800758514b": "read",
+  "f140fad82f8485998615146939149f0c3e905b5010efc610e174ebd442e4d479": "read",
+  "49992ba9117b2c27bc680c3428d2824c35ab93065fd7a3e95d706fea8f203ee6": "read"
+ },
+ "flags": []
+}

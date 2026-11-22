@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f0fcc853dcae6d2d27bc2f4918be0689214e8d8ed25fd8fcda9882e9fc5cf342",
+ "domain": [
+  "software/ai/observability",
+  "software/ai/evaluation"
+ ],
+ "product": [
+  "opik"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Lets an assistant read and score Opik traces, experiments, datasets and prompts for LLM application monitoring.",
+ "whenToUse": "Use when inspecting or evaluating LLM app traces, experiments or prompts stored in Opik.",
+ "tasks": [
+  "read traces",
+  "score traces",
+  "browse experiments",
+  "manage datasets",
+  "view prompts"
+ ],
+ "effects": {},
+ "flags": []
+}

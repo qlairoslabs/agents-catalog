@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0228db929fde539866e73026fcf741aa9d48efe79600635f26d9d20d0fd4481d",
+ "domain": [
+  "travel/hotels",
+  "hospitality/rate-monitoring"
+ ],
+ "product": [
+  "booking-com"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Fetches live Booking.com hotel prices, including per-country prices for rate-parity checks.",
+ "whenToUse": "Use when comparing hotel prices or monitoring rate parity across countries.",
+ "tasks": [
+  "search hotel prices",
+  "compare per-country prices",
+  "monitor rate parity"
+ ],
+ "effects": {},
+ "flags": []
+}

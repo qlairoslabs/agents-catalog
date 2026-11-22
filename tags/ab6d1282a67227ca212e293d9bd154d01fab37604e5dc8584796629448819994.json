@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ab6d1282a67227ca212e293d9bd154d01fab37604e5dc8584796629448819994",
+ "domain": [
+  "software/version-control",
+  "software/devops"
+ ],
+ "product": [
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "MCP server for GitLab covering projects, merge requests, issues, pipelines, wikis and releases.",
+ "whenToUse": "Use when an agent needs to read or manage GitLab projects, merge requests, issues or CI pipelines.",
+ "tasks": [
+  "manage projects",
+  "manage merge requests",
+  "manage issues",
+  "view and run pipelines",
+  "edit wiki pages",
+  "manage releases"
+ ],
+ "effects": {},
+ "flags": []
+}

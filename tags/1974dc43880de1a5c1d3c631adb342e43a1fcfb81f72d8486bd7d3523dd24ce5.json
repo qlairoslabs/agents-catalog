@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1974dc43880de1a5c1d3c631adb342e43a1fcfb81f72d8486bd7d3523dd24ce5",
+ "domain": [
+  "lifestyle/private-clubs",
+  "directory/membership"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search, look up and compare private membership clubs worldwide by type, location, amenities and waitlist status.",
+ "whenToUse": "Use when finding or comparing private clubs such as golf, yacht or city clubs.",
+ "tasks": [
+  "search clubs",
+  "get club details",
+  "list clubs by state",
+  "compare clubs",
+  "check waitlist status"
+ ],
+ "effects": {
+  "267e83705298a3496c7cc5c5fab8dc6a855d2ec652be39df0cb0a3469f8d64f0": "read",
+  "d72928a8a0f34d51d393d7754a6880ecc3b2b8319d4b9d712c53ddf26e8e9130": "read",
+  "96d3826fbc33e64e9934219e6a7e59064948dcdc3de7109f52376c9efbcf8414": "read",
+  "9a002529adabf7e81d42229d28efd386678983d9f711afe27ad4bf4050631bb5": "read",
+  "9d7e8c1f062b9ef95f0030ff9600d399eda21dfaf16d1b577009b910557f440b": "read"
+ },
+ "flags": []
+}

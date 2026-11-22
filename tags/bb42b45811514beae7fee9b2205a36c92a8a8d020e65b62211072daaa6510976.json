@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "bb42b45811514beae7fee9b2205a36c92a8a8d020e65b62211072daaa6510976",
+ "domain": [
+  "commerce/price-comparison"
+ ],
+ "product": [
+  "comparr",
+  "amazon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Compares product prices across merchants in France and the US, with price history and verified price drops.",
+ "whenToUse": "Use when a user wants the best price, price history or current deals on a product.",
+ "tasks": [
+  "compare prices",
+  "get product offers",
+  "view price history",
+  "find verified deals"
+ ],
+ "effects": {
+  "c4f148ed403c45863b1b0debb0031c7879a31caec43f6290f54a2aed49120a12": "write",
+  "1fa8517ef731ca392cb1eb31677dcd48fb727a4664002c7a30ec5d7d986453e1": "read",
+  "17a00179165e4409e0faafedc815b6caab5b1e0c9b07d9c45f5655f208e1e95f": "read",
+  "a33cab7189a63a30a6c3b9cec6a8728c5f5eb45fc7eb943bace80bb22e85521b": "read"
+ },
+ "flags": []
+}

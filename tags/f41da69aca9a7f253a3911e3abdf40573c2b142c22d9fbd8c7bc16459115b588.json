@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "f41da69aca9a7f253a3911e3abdf40573c2b142c22d9fbd8c7bc16459115b588",
+ "domain": [
+  "finance/blockchain",
+  "software/blockchain-explorer"
+ ],
+ "product": [
+  "etherscan",
+  "ethereum"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only access to Etherscan V2 multi-chain data: balances, transactions, token transfers, contract source and ABI, event logs, gas prices and ENS resolution.",
+ "whenToUse": "Use when you need to inspect an on-chain address, transaction, token transfer or verified contract on Ethereum or another EVM chain.",
+ "tasks": [
+  "get native balance",
+  "list transactions",
+  "list internal transactions",
+  "list token transfers",
+  "resolve ENS name",
+  "get contract source",
+  "get contract ABI",
+  "find contract creator",
+  "check transaction status",
+  "get gas prices",
+  "find block by timestamp",
+  "search event logs"
+ ],
+ "effects": {
+  "d16b7a82b812a33eb48bd7d8575f97aa2a3aa70fca0a509048e776e1667e3bdd": "read",
+  "951ea8ddcde88c7b36e5e3374e0cdca019de134d30c5a3fa04adfee9bacb6f77": "read",
+  "91dca956d661991d81b3e055ab7e29c491565ac4c09f77a55f77c55ae8e309c7": "read",
+  "27597cad18056f477788ff6c01bbcd877100e1019f25d2651b96773aa6207e67": "read",
+  "017b007b9816d2100cb1677a66b88595f4d926833b69a6fbfbc6eea0daa2a545": "read",
+  "6562f77c7010c65ec35a6c2235ea4187ff816683fc61f11d7f1fafcb31f19824": "read",
+  "0fad3e455a640fcbf0348114730df1d9d6724d370642f47e7d514fc7101877d8": "read",
+  "15fe21cd526620f2dc650857456cfa9d1e52ff61baf632d7f9b4f2721d858221": "read",
+  "7e6314744a0c31469ac9dbfa4fd4ce8a564ce403b551c3a5933f3effa45e3f35": "read",
+  "95061948050ef3f25ac59969d3d2370581e3df680d86968c40390f38b14b1372": "read",
+  "7eb53808c3b17049d5856b198e6509b0ec9052a1be6f2ae63aba16495a81d755": "read",
+  "dd680d2bd0937ddba7092ece7609e709f46180da171393871287ba3709022238": "read",
+  "f41bca5bce5f12134c475bf615bef5d9bced42c12a4d3f89f8946aef4ac6cfab": "read",
+  "3d92a26649b0db03903dc10072123af7bcd095908f0e346fdd569042c3775ce3": "read",
+  "766a2516eafc849e957e2c60742468400ceb76413f393c971cba31bebd0c09b2": "read",
+  "5e3091bd5d8d3fc56bda9727a5bbb399d2d1bf000b79e6e2af2345ae136c7537": "read",
+  "a49a7f502d879f1050ff6b8e27cfcc687e4b6292091963f25d0ea3a9cb5bf245": "read"
+ },
+ "flags": []
+}

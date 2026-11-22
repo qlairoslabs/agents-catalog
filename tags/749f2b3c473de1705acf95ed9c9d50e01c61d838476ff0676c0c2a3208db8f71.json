@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "749f2b3c473de1705acf95ed9c9d50e01c61d838476ff0676c0c2a3208db8f71",
+ "domain": [
+  "software/mobile-development/app-updates"
+ ],
+ "product": [
+  "otakit",
+  "capacitor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "CLI and server to inspect, upload, release, monitor and roll back over-the-air updates for Capacitor apps via OtaKit.",
+ "whenToUse": "Use when an agent needs to ship or roll back an over-the-air update for a Capacitor mobile app.",
+ "tasks": [
+  "inspect app updates",
+  "upload update bundles",
+  "release updates",
+  "monitor update rollout",
+  "revert updates"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1ed11f298037343d1c60a230d6e82d424a6bea1e04720932e1e666aefff4858a",
+ "domain": [
+  "software/devops/cloud-operations",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "aws-devops-agent",
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Routes and parallelizes AWS DevOps Agent queries across multiple AgentSpaces or accounts and synthesizes the results.",
+ "whenToUse": "Use when the user has several AgentSpaces or AWS accounts and wants to query or compare them.",
+ "tasks": [
+  "route questions to agentspaces",
+  "query spaces in parallel",
+  "compare findings across accounts",
+  "synthesize results"
+ ],
+ "effects": {},
+ "flags": []
+}

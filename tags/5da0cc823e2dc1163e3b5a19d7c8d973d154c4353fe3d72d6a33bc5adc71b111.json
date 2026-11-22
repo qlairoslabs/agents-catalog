@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5da0cc823e2dc1163e3b5a19d7c8d973d154c4353fe3d72d6a33bc5adc71b111",
+ "domain": [
+  "business/company-registry",
+  "business/due-diligence"
+ ],
+ "product": [
+  "acra",
+  "sgpbusiness"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Looks up Singapore registered entities by name or UEN using ACRA open data.",
+ "whenToUse": "Use when verifying or researching a Singapore company by name or UEN.",
+ "tasks": [
+  "search companies by name or UEN",
+  "get company registry record"
+ ],
+ "effects": {
+  "a0947a7ab37361678ec4c3965f8906301d08bb2118db5852709b0e2c2190e928": "read",
+  "2d4e00188b5533fad3eab08641983213457f8d3cece70ab312d7a794b855b296": "read"
+ },
+ "flags": []
+}

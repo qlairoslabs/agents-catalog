@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c33f6e03c839ec978c9aeaba71a1530bc90661ee433ddba8ef35e2e52dbfe25e",
+ "domain": [
+  "marketing/sponsorship",
+  "finance/payments"
+ ],
+ "product": [
+  "kannkidas.de",
+  "stripe"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Lists available sponsorship slots on kannkidas.de and creates Stripe checkouts the buyer confirms.",
+ "whenToUse": "Use when a user wants to book a sponsorship slot on the Kann KI das? site.",
+ "tasks": [
+  "list sponsorship slots",
+  "create stripe checkout"
+ ],
+ "effects": {},
+ "flags": []
+}

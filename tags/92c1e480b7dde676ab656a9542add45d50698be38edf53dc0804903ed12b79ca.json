@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "92c1e480b7dde676ab656a9542add45d50698be38edf53dc0804903ed12b79ca",
+ "domain": [
+  "religion/islamic-tools",
+  "travel/halal"
+ ],
+ "product": [
+  "halaltrip"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Prayer times, Ramadan timetables, Qibla, Hijri dates, halal restaurants, mosques and in-flight and airport prayer information.",
+ "whenToUse": "Use when a Muslim user needs prayer times, Qibla, halal food, mosques or prayer planning for travel.",
+ "tasks": [
+  "prayer times",
+  "Ramadan timetable",
+  "Qibla direction",
+  "Islamic calendar",
+  "find halal restaurants",
+  "find mosques",
+  "airport prayer rooms",
+  "in-flight prayer times",
+  "calculation methods"
+ ],
+ "effects": {
+  "0842007acae0dc50d55d1bd56e0fdf98dfae2091915fa137662400b91b2abc36": "read",
+  "8d168fb39e76002507b1485e7ec9b271bec7a74c53e6bce9a7d3b5d32ba514ae": "read",
+  "0cecacce2a3ba16508ceb0f154da27ce61de0406f58e0bd26bdc302767ed6b49": "read",
+  "4a0dc4683f0456e6b231c381a4b55ab94cfdeeb474faa6bca26141217a73296f": "read",
+  "ffda6f1129a5222354ef5d557577aea8d4a401774d2e65e464ebc95072aefe7f": "read",
+  "0484ffb2ef87d5a417f2c2a66808af752c19aec59c50a780db785eb8e891b465": "read",
+  "1685be4202c1b17e897d5c7e8d63a863b5e475be3fac994f7ad36900d8f4a866": "read",
+  "9b80d59ff8dd79e18b647b6353c6d6bc4fd06bd878851fdf7daf5c19308f4246": "read",
+  "c53e3e09ba559b24abca60dbb5fa31ebf4a0057c68e2d6bf75194ba8e104384a": "read"
+ },
+ "flags": []
+}

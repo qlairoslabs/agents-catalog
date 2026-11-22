@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ac59783cf6b19d6ce01a9ec4287e36e5cedd91dc58bd0d8daa2600c61442c64d",
+ "domain": [
+  "software/networking/proxies",
+  "finance/billing"
+ ],
+ "product": [
+  "webshare"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Manage Webshare proxies, usage, subscription plans and billing via OAuth sign-in.",
+ "whenToUse": "Use when an agent needs to check or change a user's Webshare proxies, usage or plan.",
+ "tasks": [
+  "manage proxies",
+  "view usage",
+  "manage plans",
+  "manage billing"
+ ],
+ "effects": {},
+ "flags": []
+}

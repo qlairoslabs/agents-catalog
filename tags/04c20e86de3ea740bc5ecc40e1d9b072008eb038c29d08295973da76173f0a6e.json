@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "04c20e86de3ea740bc5ecc40e1d9b072008eb038c29d08295973da76173f0a6e",
+ "domain": [
+  "software/web-development/feedback",
+  "design/website-review"
+ ],
+ "product": [
+  "pinappai"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Lets people pin visual change requests on a live website so a coding agent can read and apply them over MCP.",
+ "whenToUse": "Use when a coding agent needs to pick up and implement visual feedback left on a live website.",
+ "tasks": [
+  "read pinned change requests",
+  "apply website feedback",
+  "review live site comments"
+ ],
+ "effects": {},
+ "flags": []
+}

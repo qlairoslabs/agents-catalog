@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "7683717aadf4cc0924e311c3c5e8801ebfb8a6260ab961b51428b74d2f981a2b",
+ "domain": [
+  "culture/art-books",
+  "retail/books"
+ ],
+ "product": [
+  "artbook-society"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only search of the Artbook Society catalog of art books, artists, editors and upcoming events.",
+ "whenToUse": "Use when looking up art books, limited or signed editions, artists, editors or events on Artbook Society.",
+ "tasks": [
+  "search books",
+  "filter by price and edition",
+  "get product details",
+  "get artist details",
+  "get editor details",
+  "list events"
+ ],
+ "effects": {
+  "933b6476dbecafb37b53be089b683011b253fc95a01f8273be40a96f0ee02c33": "read",
+  "4043952aa341ddc8b4b12d3545c11a3591b84bc5a1433ee52f72fb6bab1a0293": "read",
+  "779e830295373153f5ee462b4eb14bea2c455d4e2e3bc8cba0894855b571160d": "read",
+  "61702f8e43e4215e5bbcd679c812926b52050526969ed4290a8eaf70f4801fc1": "read",
+  "a26262acf03768085b14fd3b1caf19cc13533403521c1dd845defef6aa47bd67": "read"
+ },
+ "flags": []
+}

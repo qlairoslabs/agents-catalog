@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5f2e810229b900a2a92c957b0dfbc47276d0ab0afb5524f9a3a98c6be48ec6a1",
+ "domain": [
+  "finance/crypto/trading-signals"
+ ],
+ "product": [
+  "pump.fun",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Pay-per-scan radar that tracks token graduations on pump.fun for trading bots, paid in USDC via x402.",
+ "whenToUse": "Use when a crypto trading agent needs signals about pump.fun tokens graduating.",
+ "tasks": [
+  "scan pump.fun graduations",
+  "pay per scan with usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "fae94670b5badba7d04c37881581c30116d0361202170e2bf7ffcabe3d4af5dc",
+ "domain": [
+  "finance/tax-invoicing",
+  "finance/brazil"
+ ],
+ "product": [
+  "sefaz",
+  "brasilnfe"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Issues Brazilian electronic fiscal documents such as NF-e, NFC-e, NFS-e, CT-e, MDF-e and DC-e through SEFAZ.",
+ "whenToUse": "Use when a Brazilian business needs to issue electronic invoices or transport fiscal documents.",
+ "tasks": [
+  "issue nf-e",
+  "issue nfc-e",
+  "issue nfs-e",
+  "issue ct-e and mdf-e",
+  "issue dc-e"
+ ],
+ "effects": {},
+ "flags": []
+}

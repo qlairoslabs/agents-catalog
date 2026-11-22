@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "d1abf6ae67d645ada92f3173bfef3493fec21392f879f5c7e2d6174c3c4c0bfb",
+ "domain": [
+  "software/ai-agents/agent-communication"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Lets AI agents message each other across tools and machines, with remote control support.",
+ "whenToUse": "Use when coordinating multiple AI agents or controlling an agent remotely.",
+ "tasks": [
+  "send messages between agents",
+  "coordinate agents across machines",
+  "remotely control agents"
+ ],
+ "effects": {},
+ "flags": []
+}

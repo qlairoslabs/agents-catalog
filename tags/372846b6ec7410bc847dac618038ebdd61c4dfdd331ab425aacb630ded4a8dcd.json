@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "372846b6ec7410bc847dac618038ebdd61c4dfdd331ab425aacb630ded4a8dcd",
+ "domain": [
+  "software/networking/dns",
+  "software/cybersecurity"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up WHOIS/RDAP, DNS, SSL certificates, live subdomains with IPs and email authentication records for domains.",
+ "whenToUse": "Use when investigating a domain's registration, DNS, certificates or email security setup.",
+ "tasks": [
+  "whois lookup",
+  "rdap lookup",
+  "query dns",
+  "check ssl",
+  "find subdomains",
+  "check spf",
+  "check dmarc",
+  "check dkim"
+ ],
+ "effects": {},
+ "flags": []
+}

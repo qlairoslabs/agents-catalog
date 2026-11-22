@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "67140820b2915908c40584f295e33efac47f4faef5c6694e138efb54458b493e",
+ "domain": [
+  "legal/citation-verification"
+ ],
+ "product": [
+  "legaion"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Verifies legal citations against their official source registers and keeps a record of each check.",
+ "whenToUse": "Use when checking that legal citations in a document are accurate and exist in official sources.",
+ "tasks": [
+  "verify legal citation",
+  "check official register",
+  "record verification"
+ ],
+ "effects": {},
+ "flags": []
+}

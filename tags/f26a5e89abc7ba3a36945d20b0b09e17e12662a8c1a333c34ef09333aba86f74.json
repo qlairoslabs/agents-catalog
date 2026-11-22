@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f26a5e89abc7ba3a36945d20b0b09e17e12662a8c1a333c34ef09333aba86f74",
+ "domain": [
+  "software/debugging",
+  "data/web-scraping"
+ ],
+ "product": [
+  "bright-data",
+  "puppeteer"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Debugs Bright Data Scraping Browser sessions through the Browser Sessions API to find network-side or client-side causes of failures.",
+ "whenToUse": "Use when a Bright Data scraper fails, returns empty results or shows session, captcha or bandwidth problems.",
+ "tasks": [
+  "inspect scraping browser sessions",
+  "check bandwidth and duration",
+  "diagnose captchas, blocks and timeouts",
+  "separate proxy issues from selector issues"
+ ],
+ "effects": {},
+ "flags": []
+}

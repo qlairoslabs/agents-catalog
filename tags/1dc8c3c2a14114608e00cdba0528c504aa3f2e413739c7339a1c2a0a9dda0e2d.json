@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1dc8c3c2a14114608e00cdba0528c504aa3f2e413739c7339a1c2a0a9dda0e2d",
+ "domain": [
+  "data/people-search",
+  "real-estate/property-records"
+ ],
+ "product": [
+  "skipshit"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Looks up people and properties, returning phone numbers, emails, addresses, relatives and property records.",
+ "whenToUse": "Use when a user with a lawful purpose needs to locate contact or property information for a person or address.",
+ "tasks": [
+  "search people",
+  "find phone numbers",
+  "find email addresses",
+  "find addresses",
+  "find relatives",
+  "search properties"
+ ],
+ "effects": {},
+ "flags": [
+  "returns-sensitive-personal-data-on-individuals"
+ ]
+}

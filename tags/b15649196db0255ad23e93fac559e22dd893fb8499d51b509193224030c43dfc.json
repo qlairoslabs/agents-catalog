@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b15649196db0255ad23e93fac559e22dd893fb8499d51b509193224030c43dfc",
+ "domain": [
+  "software/llm-observability",
+  "software/monitoring"
+ ],
+ "product": [
+  "langfuse"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "MCP server for querying and analyzing Langfuse telemetry such as traces and observations in natural language.",
+ "whenToUse": "Use when debugging or analyzing LLM application traces stored in Langfuse.",
+ "tasks": [
+  "fetch traces",
+  "analyze observations",
+  "query sessions",
+  "inspect errors"
+ ],
+ "effects": {},
+ "flags": []
+}

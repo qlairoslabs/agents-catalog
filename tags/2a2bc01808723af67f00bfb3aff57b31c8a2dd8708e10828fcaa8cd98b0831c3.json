@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "2a2bc01808723af67f00bfb3aff57b31c8a2dd8708e10828fcaa8cd98b0831c3",
+ "domain": [
+  "real-estate/london",
+  "data/open-data"
+ ],
+ "product": [
+  "land-registry",
+  "police-uk",
+  "ofsted",
+  "tfl"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "London postcode and district data from official open sources: house prices, crime, schools, rents, flood risk and commute times.",
+ "whenToUse": "Use when comparing or screening London areas to live in by price, safety, schools, rent or commute.",
+ "tasks": [
+  "resolve place to district",
+  "screen districts by criteria",
+  "check a postcode",
+  "profile a district",
+  "get commute times",
+  "rank districts",
+  "compare districts"
+ ],
+ "effects": {
+  "4d746894e5f3ee122d71f6b6583aa37dce136fa1a1d9a513a9f1f2be53538e70": "read",
+  "ee364874ad150f805c38f59436eaa8f318fbc15537ab553872cd7698e3c7715c": "write",
+  "40a7e4448a20733de421761cb55d0a83f6e55e15cad3e53f901d31faac9d22b6": "write",
+  "0acf7366488319d9f04633ea58404e59dd27f7dc4373b5fa025e4a9e11068233": "write",
+  "3da148f1945e7ba76e00a638eee6b90610167ae1c9f886f73c7fb1b02cc9e411": "read",
+  "f4c6eee02a0123fda54d8e48fd225c5ff327b5f83a8b5916546b4ce84289ad04": "read",
+  "44fc363ed84ae092c9fac7a410279a0235a5d89b9c54f06c7d31d6e2a15c4832": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f092d7a60456eed50a22027a5ea6bf504cb3066ba94213f644e6593c33bd5996",
+ "domain": [
+  "finance/investing/equity-research",
+  "finance/market-data"
+ ],
+ "product": [
+  "stockrow"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides financial statements, metrics, stock screens and insider trading data for US-listed companies.",
+ "whenToUse": "Use when an agent needs fundamentals, screening or insider-trade data on US public companies.",
+ "tasks": [
+  "get financial statements",
+  "look up company metrics",
+  "screen stocks",
+  "view insider trades"
+ ],
+ "effects": {},
+ "flags": []
+}

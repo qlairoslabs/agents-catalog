@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "ba44758b4ac58f9998778eeafdddfa851d1c257354170b71a6ad36ff5136d81c",
+ "domain": [
+  "real-estate/property-management"
+ ],
+ "product": [
+  "keilty"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Covers KEILTY's Eastern Ontario rental property management: services, fees, service areas, fit checks, booking link and rental evaluation requests.",
+ "whenToUse": "Use when a rental property owner in Ontario wants to know if KEILTY fits, see fees, or request an evaluation.",
+ "tasks": [
+  "list services",
+  "get fee schedule",
+  "get service areas",
+  "check property fit",
+  "get proof facts",
+  "get booking link",
+  "submit rental evaluation request"
+ ],
+ "effects": {
+  "367a7f26b701b5e7d632894edfb2283b7a75fd092b950b95aa87fcd40825bfd9": "read",
+  "bbeabb174421d60a623396e6c5c60687a6db4ef1103469530ecba054c04cb8f6": "read",
+  "627fb0334c1b7b8569593b791d641640ee0b7ea930db6e4419c0b22833045f80": "read",
+  "fb3d1be9793d8cf1b468b945df74650bb36e5e6ff96c1f4be1265b282fef667a": "read",
+  "8262928a568e53b3e852c2572d575417217a7c8879e6f68db1238eef974ea462": "read",
+  "796478dff399add67afb33771d698becbc8c24cb4932640a402d4a07890fde83": "read",
+  "dbee614051e1d65c45666e9e0e736f2c625a03883fc888cb2b27ecf9c7ff25eb": "write"
+ },
+ "flags": []
+}

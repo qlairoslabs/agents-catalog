@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "e665b79d41388368f820e1d4d98ad03d5024a78fc40a9976a359605006323453",
+ "domain": [
+  "retail/drugstore"
+ ],
+ "product": [
+  "dm-drogerie-markt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches dm drugstore products, product details, nearby stores and in-store availability in Germany.",
+ "whenToUse": "Use when a user asks about dm products, ingredients, nearby dm stores or stock.",
+ "tasks": [
+  "find nearby stores",
+  "get product details",
+  "render product tiles",
+  "search products",
+  "check store availability"
+ ],
+ "effects": {
+  "dcee109ecafb403682bf9d43c2f5650f78eb2fa0e6402a0e32b1301893458807": "write",
+  "9f9d28a0598d94187c5a5906e4045fd1f2841a5ac9529297e1d83c3c9ff780aa": "write",
+  "33dfec97ec1800021eabf18b696f0878de08a64ff86e2043c10100af6e741319": "write",
+  "3ee8f42bdfff52410fa999976d82dde22f8d69c66b875c9d5167077be5224a75": "write",
+  "73fedd941a5148c637d7d76e66bb26ebd2ce11735e587037157c2caf995bc114": "write"
+ },
+ "flags": []
+}

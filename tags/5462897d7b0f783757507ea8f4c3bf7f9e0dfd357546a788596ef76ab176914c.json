@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5462897d7b0f783757507ea8f4c3bf7f9e0dfd357546a788596ef76ab176914c",
+ "domain": [
+  "operations/risk-management",
+  "compliance/audits",
+  "finance/insurance"
+ ],
+ "product": [
+  "21risk"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads and updates 21RISK data such as sites, audits, compliance, actions, claims and insurance values.",
+ "whenToUse": "Use when the user manages property risk or compliance in 21RISK and needs to check or update sites, audits, actions or claims.",
+ "tasks": [
+  "read sites",
+  "review audits",
+  "track compliance",
+  "manage actions",
+  "view claims",
+  "update insurance values"
+ ],
+ "effects": {},
+ "flags": []
+}

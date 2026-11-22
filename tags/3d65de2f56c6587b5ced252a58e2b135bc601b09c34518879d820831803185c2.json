@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "3d65de2f56c6587b5ced252a58e2b135bc601b09c34518879d820831803185c2",
+ "domain": [
+  "finance/wealth-management/portfolio-analysis"
+ ],
+ "product": [
+  "blackrock-advisor-center"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Helps an advisor choose or confirm a benchmark such as a model, index or saved portfolio for portfolio comparison.",
+ "whenToUse": "Use when an advisor needs to pick or set a benchmark before comparing a portfolio.",
+ "tasks": [
+  "suggest fitting benchmark",
+  "compare portfolio to model or index",
+  "set benchmark",
+  "use saved portfolio as benchmark"
+ ],
+ "effects": {},
+ "flags": []
+}

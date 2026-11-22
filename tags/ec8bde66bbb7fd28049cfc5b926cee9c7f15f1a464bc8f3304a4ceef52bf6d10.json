@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "ec8bde66bbb7fd28049cfc5b926cee9c7f15f1a464bc8f3304a4ceef52bf6d10",
+ "domain": [
+  "ai/content-detection",
+  "media/image-verification"
+ ],
+ "product": [
+  "truthscan"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether an image is AI-generated, returning a probability score and confidence.",
+ "whenToUse": "Use when a user needs to verify if an image is real or AI-generated.",
+ "tasks": [
+  "detect ai-generated images",
+  "get probability score"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a92e51fec792c3d54933edf7c79c86c2ec1ce403ac2a93e065f9dfa77e51d264",
+ "domain": [
+  "scheduling/agent-to-agent",
+  "communication/messaging"
+ ],
+ "product": [
+  "inite-club"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Lets an agent contact another person's agent to arrange time when their calendar is not directly accessible.",
+ "whenToUse": "Use when a user wants to schedule with someone whose calendar the agent cannot read, by asking that person's agent.",
+ "tasks": [
+  "contact another person's agent",
+  "request availability",
+  "arrange meetings"
+ ],
+ "effects": {},
+ "flags": []
+}

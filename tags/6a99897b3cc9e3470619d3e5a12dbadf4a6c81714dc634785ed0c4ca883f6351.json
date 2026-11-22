@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6a99897b3cc9e3470619d3e5a12dbadf4a6c81714dc634785ed0c4ca883f6351",
+ "domain": [
+  "software/ai-agents/governance",
+  "software/ai-agents"
+ ],
+ "product": [
+  "skilder"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "A workspace to build, share and govern the skills and tools that a team's AI agents use.",
+ "whenToUse": "Use when a team needs to create, distribute or control access to agent skills and tools centrally.",
+ "tasks": [
+  "build agent skills",
+  "share skills with team",
+  "govern agent tools"
+ ],
+ "effects": {},
+ "flags": []
+}

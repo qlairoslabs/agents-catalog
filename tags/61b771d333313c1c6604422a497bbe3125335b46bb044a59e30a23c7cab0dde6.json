@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "61b771d333313c1c6604422a497bbe3125335b46bb044a59e30a23c7cab0dde6",
+ "domain": [
+  "communication/email/unified-inbox",
+  "productivity/messaging"
+ ],
+ "product": [
+  "mailopoly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Unified inbox that gathers incoming messages and lets an AI assistant read, interpret and act on them.",
+ "whenToUse": "Use when an agent needs to review or act on a user's incoming messages across channels in one place.",
+ "tasks": [
+  "read unified inbox",
+  "summarize messages",
+  "act on messages"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b81561d8ad7997e24147452bee6959898ef4127e3e6d5308ff9d3769189ed3e8",
+ "domain": [
+  "software/ai/agent-frameworks"
+ ],
+ "product": [
+  "atomic-agents"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference guide to the Atomic Agents Python framework covering schemas, agents, tools, context providers and orchestration.",
+ "whenToUse": "Use when working on code that imports atomic_agents or when asked about multi-agent orchestration or provider wiring in it.",
+ "tasks": [
+  "explain framework concepts",
+  "guide multi-agent orchestration",
+  "configure llm providers",
+  "explain schemas and tools"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "44eaddcafbf92f986e708bdcb3cf1753233990d63af243b1c6d5a04dd63764c9",
+ "domain": [
+  "ai/safety",
+  "compliance/audit"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Audits AI agent outputs against policies and logs them in a tamper-evident chain, paid per call in USDC via x402.",
+ "whenToUse": "Use when an agent needs its outputs checked against policy and recorded in an auditable log.",
+ "tasks": [
+  "evaluate output against policy",
+  "record tamper-evident audit chain",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": [
+  "involves agent-initiated crypto payments"
+ ]
+}

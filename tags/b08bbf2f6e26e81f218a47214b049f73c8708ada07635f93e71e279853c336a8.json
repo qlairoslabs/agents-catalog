@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "b08bbf2f6e26e81f218a47214b049f73c8708ada07635f93e71e279853c336a8",
+ "domain": [
+  "local-business/directory",
+  "commerce/ordering"
+ ],
+ "product": [
+  "tunnel"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Search verified local businesses, check their verification level, ask questions, get quotes, check availability, place binding orders and message them.",
+ "whenToUse": "Use when a user wants to find a local business, verify it, get a price or availability, order or book, or contact it.",
+ "tasks": [
+  "search businesses",
+  "read profiles",
+  "check verification",
+  "ask structured and freeform questions",
+  "check escalation answers",
+  "read rate card",
+  "request quote",
+  "check availability",
+  "place order",
+  "cancel or reschedule",
+  "request order change",
+  "message business"
+ ],
+ "effects": {
+  "25d62afc456b28d8f071aab15bfea0529c1179598f80cffa4f5f96ffe701b095": "write",
+  "666ef257cd76568f5c4dd684cad627813cd00807214488c6054ce2f3c932c8d1": "read",
+  "f603cdad97fcaf609b172eb5c09e236b06d6c4e5b93971bc385e1c52ce614fc8": "write",
+  "1bb497acfaecd8703fb4c383afa06e062f05df7e49d403bea0417f36cf081ff9": "write",
+  "50a939d4e58b8e11d9bd25b8720937a883e40b3b33785c333cc1d0e52f28f6b6": "write",
+  "61a21cc009ad8c3bac6108a39256b9cc9027218d1b4563781af510e8bd86c9e9": "write",
+  "104c58ba70d796e838848514ec724149350ac4e152c4a3b66ee8bd7f29d0ea66": "read",
+  "0ec6e24c3c229f1986a1a504ff86519a47e2a96a9873ce5c04df28729ca3b8ff": "write",
+  "0a17c5a38a676a0bbe2ca0dc4896eb5d35cc3f9f67594f0f2e5055235966f5da": "write",
+  "1579e2bb8c3da882d1ae3ece3ec130bf46a0f0b8ebfbba9b5304deb1f51b2794": "write",
+  "6a347b3b1e1d98f6863fb8f28875abd5cee8eb91bdaf2c52ad1a3d2d94195bad": "risky",
+  "0775134f31b8514c7235ce3213d3aa558350b861616a5118d7e40c7025a0ef0d": "write",
+  "bae4ab008991b187f22a310ddc0129e9c4f29ca100592ee8863c2a8676475903": "write",
+  "c03588e4b4238eef7114f979b58f439b9fa04080b533e4fc70518384dc291e66": "write",
+  "2e2fc9e16aa299e8751806ba28033f6d5b713a9e5d163935ef0044655e0bebb0": "write",
+  "bbf6dc66ee123a650c94c11c93b1f2588e27af49e2eed154edf149455cb01173": "read",
+  "ecee6f3b1d7b5be535070a8bfdd6c77b595ab1e2eb3b1922a952542a43557a90": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6ae462ab4363d1c9c83845098a6aa720cf1c79e4030600108029980ac7dbb984",
+ "domain": [
+  "project-management/product-planning",
+  "software/development"
+ ],
+ "product": [
+  "fulveo"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Lets coding agents read and update product boards, plans and tasks in Fulveo.",
+ "whenToUse": "Use when a coding agent needs to check or update product plans and tasks in Fulveo.",
+ "tasks": [
+  "read product boards",
+  "read plans",
+  "create tasks",
+  "update tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

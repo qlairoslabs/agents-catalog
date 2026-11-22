@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "49fd5b59dfc78a64f3237f04371070a0335b6681979eb02874e77980ce3ad89a",
+ "domain": [
+  "logistics/maritime",
+  "data/tracking"
+ ],
+ "product": [
+  "datalastic"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks ships worldwide with data on ownership, inspections, port calls and routes.",
+ "whenToUse": "Use when an agent needs vessel positions, ownership, inspection history or port records for ships.",
+ "tasks": [
+  "track vessel positions",
+  "look up vessel ownership",
+  "view inspection records",
+  "view port records",
+  "view vessel routes"
+ ],
+ "effects": {},
+ "flags": []
+}

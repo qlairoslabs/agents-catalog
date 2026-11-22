@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "487020139070f82fd91bb53470e8acdd5280866b9606960bc673c2c61a1824c2",
+ "domain": [
+  "business/ai-readiness",
+  "business/consulting"
+ ],
+ "product": [
+  "wizeb",
+  "webcastle",
+  "x402"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Score a company's AI-nativeness with a 30-question index, email or buy reports, validate startup ideas, and ask about WizeB.",
+ "whenToUse": "Use when assessing a company's AI maturity, scoring a startup idea, or learning about WizeB's services.",
+ "tasks": [
+  "get index questions",
+  "score AI-native index",
+  "email PDF report",
+  "buy enhanced report",
+  "check report status",
+  "get startup rubric",
+  "score startup idea",
+  "email scorecard",
+  "answer WizeB questions",
+  "list services"
+ ],
+ "effects": {
+  "36d245d03fe631bc7964ebf541a3f34f40179d9a76dd5aaec18db6b56e59db33": "read",
+  "82eb2609042297c0c55ea2002195b302a1e4bf08613d33e49d4a09a2049062c7": "write",
+  "09cbff789f7bb4306379334e115802b8b0f1e747b57e9ed5a7eec7321d2558b2": "write",
+  "3ebd8a4fe00d01e700eeb8f3f826c5543bbed5e244b18aa5aafa0520a102afea": "risky",
+  "20773646ac2c5b2d0eb643515751211ec64ed62c59e83da3f5ee5e4d5410202a": "read",
+  "881378ce4f0e28d97b21250ef8f6c706da7257a4d0559a4068edb1f9752308f8": "read",
+  "f2446068125f757d6b1c38629be093a3886977492dd78d400b22a887c79692d0": "write",
+  "1a7623d0ae9728c2577d02f6e864424e66b2f088942a1495195463acd75875e4": "write",
+  "2ccc7b5836537170ed96d73ff3eefcea9ee13a4da12fed88d62a57b1d865eec1": "write",
+  "8de9fe2caacb7d09f1fe08d8fbb2460ddce70f54a30aa1c249ee18f629eec474": "read"
+ },
+ "flags": [
+  "email-copy-to-vendor-sales-team"
+ ]
+}

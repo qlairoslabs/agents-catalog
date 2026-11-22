@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "211c6a0ca4512d1c041f683fb4046a0b730774e3e38ad8ef1f56d93b12185e04",
+ "domain": [
+  "legal/lawyer-directory"
+ ],
+ "product": [
+  "law-ai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a directory of US lawyer profiles by practice area, location and bar status, and verifies licensing.",
+ "whenToUse": "Use when the user needs to find a US lawyer or verify that a named attorney is licensed.",
+ "tasks": [
+  "search lawyers by practice area and location",
+  "get lawyer profile",
+  "verify lawyer by name",
+  "list practice areas",
+  "list jurisdictions with counts"
+ ],
+ "effects": {
+  "5a73f1372515d6e854a8f24bf55f2cb4ccf1e7b359b8247de7fb729ac13a5bbc": "read",
+  "7d0d031d0a904faf746687f2dff37419efd3c83c0bf4cd7066b6aa76cedb8a26": "read",
+  "02a416120d44876dbfea88e25ea6860e1ac54e658277c0fbffc52e6e2469045a": "read",
+  "7b03bc44a59bd211aa92fd518ca084a5fdd60c1d3c5774b57e7ff79ffdeed6e4": "read",
+  "786710ed3dd9db9d359e0a2b19b93fab51d8434ad702aabcc116e4a7e6fd6b5b": "read"
+ },
+ "flags": []
+}

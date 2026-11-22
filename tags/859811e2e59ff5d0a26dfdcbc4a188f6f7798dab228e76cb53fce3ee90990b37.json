@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "859811e2e59ff5d0a26dfdcbc4a188f6f7798dab228e76cb53fce3ee90990b37",
+ "domain": [
+  "utilities/media-tools",
+  "text-analysis"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Pay-per-call utilities for QR codes, image processing, LLM text analysis and fetching web pages, paid in USDC through x402.",
+ "whenToUse": "Use when you need a quick QR code, image resize or conversion, text summary or page text extraction.",
+ "tasks": [
+  "generate QR code",
+  "resize images",
+  "convert images",
+  "compress images",
+  "summarize text",
+  "analyze sentiment",
+  "translate text",
+  "fetch web page text"
+ ],
+ "effects": {
+  "d8a86aa604d304e910b4b31439b5bb937a4f401dc40f28b156ce86189afa29b6": "write",
+  "5cec2d9ca61a701a56124ce9eebe45367d6ee89111e67a693d4a2e206b14a416": "write",
+  "0446320808debfc71c26bd8a7a59f39f72be8ba74463b6a98a1f39d0a7d74ff3": "write",
+  "020db694641c8d05e7fb0583ff75569a29204b4068d7630988d3141df0ea9d61": "write"
+ },
+ "flags": [
+  "paid per call in crypto",
+  "unknown anonymous host on raw IP-based domain",
+  "fetches arbitrary URLs"
+ ]
+}

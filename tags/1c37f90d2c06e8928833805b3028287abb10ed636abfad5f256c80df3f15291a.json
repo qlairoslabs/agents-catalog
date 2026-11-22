@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1c37f90d2c06e8928833805b3028287abb10ed636abfad5f256c80df3f15291a",
+ "domain": [
+  "science/life-sciences",
+  "healthcare/pharma-research"
+ ],
+ "product": [
+  "amass",
+  "fda",
+  "ema"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Linked search across life-science papers, clinical trials, drugs, genes, FDA and EMA approvals, and patents.",
+ "whenToUse": "Use when researching biomedical literature, trials, drugs, genes, regulatory approvals or patents.",
+ "tasks": [
+  "search papers",
+  "search clinical trials",
+  "look up drugs",
+  "look up genes",
+  "search fda/ema approvals",
+  "search patents"
+ ],
+ "effects": {},
+ "flags": []
+}

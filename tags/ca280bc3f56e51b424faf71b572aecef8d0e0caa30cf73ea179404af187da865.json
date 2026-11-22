@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "ca280bc3f56e51b424faf71b572aecef8d0e0caa30cf73ea179404af187da865",
+ "domain": [
+  "health/nutrition"
+ ],
+ "product": [
+  "yazio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Unofficial server for reading Yazio user and nutrition tracking data.",
+ "whenToUse": "Use when a user wants to review their food diary or nutrition data from Yazio.",
+ "tasks": [
+  "read nutrition logs",
+  "read user profile",
+  "review food intake"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "fd4e425469e061736e68c8ce4dc3cea06dc4d0f488a3ca8294e9ce770d8fb123",
+ "domain": [
+  "travel/vacation-rentals",
+  "hospitality"
+ ],
+ "product": [
+  "chalet-montagne"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Search French mountain holiday rentals, check dates and prices, and prepare a prefilled contact form to the owner without commission.",
+ "whenToUse": "Use when a user is looking for a chalet or apartment in the French mountains and wants availability, price and owner contact.",
+ "tasks": [
+  "search rentals",
+  "get rental details",
+  "check availability and price",
+  "prepare owner inquiry link"
+ ],
+ "effects": {
+  "ae9d36f07747adcf7598517ebbbae6c652648e995186f71731ea638fa813293d": "read",
+  "af96b7899483d565fe1e7cef4d6bc8277d23a106252df1bbcf322a4cd89e71a2": "read",
+  "c342890345141cdeda771dc0bfca5e92ff4c6865044eb442bfbc6c08eea4d32c": "read",
+  "e8ac79c490b7b097c487afe261e678ac692b1fbcb839a3b31757758bcbd6f958": "read"
+ },
+ "flags": []
+}

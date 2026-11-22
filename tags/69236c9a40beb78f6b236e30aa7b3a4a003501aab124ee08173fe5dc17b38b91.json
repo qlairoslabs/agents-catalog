@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "69236c9a40beb78f6b236e30aa7b3a4a003501aab124ee08173fe5dc17b38b91",
+ "domain": [
+  "business/personal-site",
+  "software/ai-agents"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Read-only access to an AI engineer's services, case studies, blog posts, courses and contact details.",
+ "whenToUse": "Use when evaluating or contacting Fedor Chishchin for AI agent or MCP server development, or reading his AI explainers.",
+ "tasks": [
+  "list services",
+  "browse case studies",
+  "search blog posts",
+  "read courses",
+  "get contact info"
+ ],
+ "effects": {
+  "2176083a89cd696982a9dfdf844d9e4eef7e99045b5c4398faf6b2bdddc6640e": "read",
+  "e715508a147f378a5547843f1e0b81cf4b6b44412af74d32b4735bb5f7f6fec3": "read",
+  "fc81f12a46db0d3219a304235d82a1a8125b176195091ef61391e07e2e7c514f": "read",
+  "88e3495dc72619d4767810f186973abf61b876c8abb7ae5e5fb58b5b56768914": "read",
+  "7ab18cf95508e4346573673d18f1282e14ea1ca0d77996e56f35069d530d57ce": "read",
+  "54703b9f4416ff1a198b081d00cafb34136bdca08b88e7c5324c3da31a7a6adb": "read",
+  "b4a094163c9d5747ee869d91717bf2116ff8386775d71b9c6830210ed5169c96": "read",
+  "55429c54898694f025f87cf820d89a30a756fe88f58c84b8aa0ce1c219f47387": "read"
+ },
+ "flags": []
+}

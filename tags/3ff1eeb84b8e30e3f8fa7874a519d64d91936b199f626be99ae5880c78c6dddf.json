@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "3ff1eeb84b8e30e3f8fa7874a519d64d91936b199f626be99ae5880c78c6dddf",
+ "domain": [
+  "real-estate/property-search",
+  "real-estate"
+ ],
+ "product": [
+  "condo-com-my"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Search Malaysian property listings, articles, community Q&A and agents on condo.com.my.",
+ "whenToUse": "Use when a user wants to find or research property for sale or rent in Malaysia or locate an agent.",
+ "tasks": [
+  "search listings",
+  "get listing details",
+  "search articles",
+  "search property Q&A",
+  "find agents"
+ ],
+ "effects": {
+  "4d425180f53c68fa6d138e5f053572575d81be0a2f1b9dcdd66f3ac4f8fdfb39": "read",
+  "3bbd82d467d132641e489acdbbafbb263c34d0778be847818ffc3ab30714038d": "read",
+  "510063f06586479405c18271e26608d52c92a6959f7585a663da0c2cfbc1a71a": "read",
+  "9cbc974652de87f2793283e72eadc4421d24fd79414f5792671b9bbaaf03631b": "read",
+  "82e57c2f43a8ecdecba1e43360d4766c7076cb02d0338de05b015478b0bfc3d3": "read"
+ },
+ "flags": []
+}

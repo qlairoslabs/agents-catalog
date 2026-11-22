@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8c82837371ec4b54bff19098d35adf0fa7fca99ab9ef65420eb5a618f1752446",
+ "domain": [
+  "software/product-management/specifications",
+  "software/development"
+ ],
+ "product": [
+  "storiesonboard"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Converts PRDs and product ideas into structured specifications for coding agents to follow.",
+ "whenToUse": "Use when an agent must turn product requirements into structured specs before building software.",
+ "tasks": [
+  "convert prds to specs",
+  "structure product ideas",
+  "provide specs to coding agents"
+ ],
+ "effects": {},
+ "flags": []
+}

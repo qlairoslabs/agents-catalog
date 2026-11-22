@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ae9948a661ae5b57c92bf71a1e5cf0872f54038a8f96f02f7a31e164fe42de82",
+ "domain": [
+  "analytics/product-analytics",
+  "analytics/session-replay"
+ ],
+ "product": [
+  "fullstory"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "marketing",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an agent query Fullstory behavioral analytics, session replays and customer experience insights.",
+ "whenToUse": "Use when investigating user behavior, sessions or experience issues recorded in Fullstory.",
+ "tasks": [
+  "query behavioral analytics",
+  "review session replays",
+  "get customer experience insights"
+ ],
+ "effects": {},
+ "flags": []
+}

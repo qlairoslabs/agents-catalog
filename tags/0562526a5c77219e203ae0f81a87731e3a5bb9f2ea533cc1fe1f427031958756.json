@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0562526a5c77219e203ae0f81a87731e3a5bb9f2ea533cc1fe1f427031958756",
+ "domain": [
+  "software/ai-coding-agents",
+  "software/developer-tools"
+ ],
+ "product": [
+  "loki-mode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Autonomous coding-agent CLI that turns specifications into products, with an MCP server exposing 39 tools.",
+ "whenToUse": "Use when an agent should autonomously build a software product from a written specification.",
+ "tasks": [
+  "turn spec into product",
+  "run autonomous coding"
+ ],
+ "effects": {},
+ "flags": []
+}

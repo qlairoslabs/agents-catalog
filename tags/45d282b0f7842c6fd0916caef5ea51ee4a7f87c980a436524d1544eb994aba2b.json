@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "45d282b0f7842c6fd0916caef5ea51ee4a7f87c980a436524d1544eb994aba2b",
+ "domain": [
+  "finance/corporate-disclosure",
+  "finance/accounting"
+ ],
+ "product": [
+  "opendart",
+  "mydart"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Korean corporate disclosure tools built on the OpenDART API for accounting professionals.",
+ "whenToUse": "Use when an agent needs Korean company filings or financial disclosures from DART.",
+ "tasks": [
+  "search corporate disclosures",
+  "retrieve financial statements",
+  "look up company filings"
+ ],
+ "effects": {},
+ "flags": []
+}

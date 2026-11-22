@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b900a0a075217de61cc100f98b87f13ce20c80da08825b632780b8dd56b64df1",
+ "domain": [
+  "telecom/voip",
+  "analytics/call-analytics"
+ ],
+ "product": [
+  "nvoip"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Provides Nvoip telephony reports, call analytics and service quality metrics.",
+ "whenToUse": "Use when an Nvoip customer wants call reports or service quality insights.",
+ "tasks": [
+  "view call reports",
+  "analyse calls",
+  "check service quality"
+ ],
+ "effects": {},
+ "flags": []
+}

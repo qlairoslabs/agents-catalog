@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "045f87976ab221223c21455e627582a2fd4d91d334d16f9b77dd60edda5bc503",
+ "domain": [
+  "education/exam-prep",
+  "legal/notary"
+ ],
+ "product": [
+  "passvana"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Serves practice questions for US state licensing exams (notary, real estate, driver, CDL, boating) and grades answers with explanations.",
+ "whenToUse": "Use when a user wants to practice for a notary, real estate, driver or similar state licensing exam.",
+ "tasks": [
+  "list exam tracks",
+  "fetch practice question",
+  "grade answer",
+  "explain correct answer"
+ ],
+ "effects": {
+  "35552c5657cde179fd401824cb01f3bc336e84ba690ff3c47fb46d55f54a0e64": "read",
+  "63f019e61c5296eee7442725ddc9f87fcafae3f3137ae6b4d675d02edf6bf9e5": "read",
+  "50650023e5a639a10e63c10aa96fa493efb13d94f77e0528f1e7e3e3595d90bc": "read"
+ },
+ "flags": []
+}

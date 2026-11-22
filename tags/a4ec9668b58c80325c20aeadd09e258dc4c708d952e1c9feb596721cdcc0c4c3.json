@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a4ec9668b58c80325c20aeadd09e258dc4c708d952e1c9feb596721cdcc0c4c3",
+ "domain": [
+  "commerce/price-comparison",
+  "data/web-scraping"
+ ],
+ "product": [
+  "bright-data",
+  "amazon",
+  "walmart",
+  "ebay",
+  "best-buy",
+  "google-shopping"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares a product's price and stock across retailers, region-aware, and ranks the offers into a buying recommendation table.",
+ "whenToUse": "Use when a user wants to find where to buy a product cheapest or check its price across stores.",
+ "tasks": [
+  "find retailers selling a product",
+  "compare prices",
+  "check stock availability",
+  "handle asins and urls",
+  "rank offers by region"
+ ],
+ "effects": {},
+ "flags": []
+}

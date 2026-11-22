@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ea13c275470af914a6f2d1f96ad1470a34a3f5cf5a76c667ee3380eea490966b",
+ "domain": [
+  "finance/payments/agentic",
+  "finance/spend-management"
+ ],
+ "product": [
+  "pink-wallet"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money",
+  "build-software"
+ ],
+ "summary": "Sandbox payment service where AI agents make payments under spending rules such as budgets, caps and approvals.",
+ "whenToUse": "Use when testing how an AI agent makes payments within budgets, caps and approval rules in a sandbox.",
+ "tasks": [
+  "make sandbox payments",
+  "set spending budgets",
+  "apply spending caps",
+  "request payment approval"
+ ],
+ "effects": {},
+ "flags": []
+}

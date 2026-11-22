@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b4e8f9fce6bfded70ce9e76bd5b0f997bdb30999f92314ac0d9f4228d6cd5420",
+ "domain": [
+  "finance/accounting/reseller-margins",
+  "finance/tax"
+ ],
+ "product": [
+  "margeo"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Exposes a French reseller's stock, sales, net margin and micro-enterprise tax figures to an agent.",
+ "whenToUse": "Use when a French reseller asks about inventory, sales, margins or micro-enterprise taxes.",
+ "tasks": [
+  "view stock",
+  "view sales",
+  "calculate net margin",
+  "estimate micro-enterprise tax"
+ ],
+ "effects": {},
+ "flags": []
+}

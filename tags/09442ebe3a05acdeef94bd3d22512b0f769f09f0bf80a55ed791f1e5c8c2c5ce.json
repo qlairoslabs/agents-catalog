@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "09442ebe3a05acdeef94bd3d22512b0f769f09f0bf80a55ed791f1e5c8c2c5ce",
+ "domain": [
+  "software/hosting/serverless",
+  "software/development"
+ ],
+ "product": [
+  "val-town",
+  "sqlite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Bundles the Val Town MCP server and skills for building and deploying HTTP vals, cron jobs, SQLite storage, email and React UIs.",
+ "whenToUse": "Use when building or deploying small apps, APIs or scheduled scripts on Val Town.",
+ "tasks": [
+  "create http vals",
+  "schedule cron vals",
+  "use sqlite storage",
+  "send email",
+  "set up oauth",
+  "build react ui",
+  "use templates",
+  "integrate third-party apis",
+  "deploy vals"
+ ],
+ "effects": {},
+ "flags": []
+}

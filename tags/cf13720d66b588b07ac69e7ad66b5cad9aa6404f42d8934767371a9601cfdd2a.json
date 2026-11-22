@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "cf13720d66b588b07ac69e7ad66b5cad9aa6404f42d8934767371a9601cfdd2a",
+ "domain": [
+  "music/playlist-transfer"
+ ],
+ "product": [
+  "soundiiz",
+  "spotify",
+  "apple-music",
+  "youtube-music",
+  "deezer",
+  "tidal",
+  "soundcloud",
+  "qobuz"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Creates temporary Soundiiz import links from track lists or public playlist URLs and checks transfer compatibility between music platforms.",
+ "whenToUse": "Use when a user wants to move a playlist between music streaming services.",
+ "tasks": [
+  "create import link from tracks",
+  "create import link from playlist URL",
+  "list destinations",
+  "check transfer compatibility"
+ ],
+ "effects": {
+  "0dcc69d58617863225260582d63b2dfcca49a7394f4be684a0bb029602250baa": "write",
+  "7bf6957e87261c16cc4dc485610c03a4c884941e5a286dbeecec1d7f44683911": "read",
+  "44ea5ff6b22f8ece10309e6c58a87b100f93bd85c74fe423fb1bd2a2121169d3": "read",
+  "a32f6d5958406b536d3629b98f7c614b58dd1f2c66de97341b83af7156ee3afb": "write"
+ },
+ "flags": []
+}

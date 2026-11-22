@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "11d5ee98e0e6b13abdc5723824351fcbaf0c35b5963cbc03631840bd5c26ef23",
+ "domain": [
+  "media/generative-ai",
+  "media/video",
+  "media/audio"
+ ],
+ "product": [
+  "budgetpixel"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates AI images, video, music and sound effects, and upscales media.",
+ "whenToUse": "Use when an agent needs to generate or upscale images, video, music or sound effects.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "generate music",
+  "generate sound effects",
+  "upscale media"
+ ],
+ "effects": {},
+ "flags": []
+}

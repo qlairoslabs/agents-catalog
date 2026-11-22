@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "161c8361cbe822a0bee744bb26a1e080fa096d5d900bb9d93c2d3192e43230be",
+ "domain": [
+  "legal/document-generation"
+ ],
+ "product": [
+  "captain-legal"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Generate country-specific legal documents from interview answers, with free watermarked preview and paid final PDF.",
+ "whenToUse": "Use when a user needs a legal document template filled in for one of 15 countries.",
+ "tasks": [
+  "list document types",
+  "get requirements",
+  "generate draft",
+  "purchase final document",
+  "check order status"
+ ],
+ "effects": {
+  "f11cb3b46226bf9c27d5b229175751a5d35bc577ea31a13642737b7a13f2dc56": "read",
+  "29ab477d313a9d71ab18f5b0afd5df978d8dcf5e65860986cc129e4554efef04": "read",
+  "bcaacd7b120e22106a7357ae37cbf0d153e09b39b7b08dc2b239fa005b3d280c": "write",
+  "3972d0dacb9086dc46cabce699103aaadf84a6ea6020ba865d3ef64fb596bf8e": "risky",
+  "8bec351d8296507ff99c2701768cb1c36acf0c187a3a507ad3f7c4fbdd75f1fb": "read"
+ },
+ "flags": []
+}

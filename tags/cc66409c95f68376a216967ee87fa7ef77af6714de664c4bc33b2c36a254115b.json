@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "cc66409c95f68376a216967ee87fa7ef77af6714de664c4bc33b2c36a254115b",
+ "domain": [
+  "business/analytics",
+  "software/ai-agents"
+ ],
+ "product": [
+  "deepgent"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Reports workspace analytics for Deepgent, covering usage, conversations, quality metrics, billing and knowledge base status.",
+ "whenToUse": "Use when the user needs metrics or status about their Deepgent workspace such as usage, conversation quality or billing.",
+ "tasks": [
+  "view workspace usage",
+  "review conversations",
+  "check quality metrics",
+  "view billing",
+  "check knowledge base status"
+ ],
+ "effects": {},
+ "flags": []
+}

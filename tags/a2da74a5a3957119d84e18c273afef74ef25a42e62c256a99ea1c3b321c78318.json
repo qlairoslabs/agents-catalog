@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a2da74a5a3957119d84e18c273afef74ef25a42e62c256a99ea1c3b321c78318",
+ "domain": [
+  "marketing/advertising/automation"
+ ],
+ "product": [
+  "birch",
+  "meta",
+  "google-ads",
+  "tiktok"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Manages Birch ad automation rules across advertising platforms such as Meta, Google and TikTok.",
+ "whenToUse": "Use when an agent needs to create or adjust automated rules for ad campaigns across platforms.",
+ "tasks": [
+  "list automation rules",
+  "create automation rules",
+  "edit automation rules",
+  "manage rules across ad platforms"
+ ],
+ "effects": {},
+ "flags": []
+}

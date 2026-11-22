@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "6b92483bba7fbc025b5b840f7efa11823f2702f6ae4243b9697c9e7534971fc7",
+ "domain": [
+  "automotive/used-cars",
+  "retail/car-sales"
+ ],
+ "product": [
+  "vip-cars",
+  "uni-rent"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Search, view and compare used ex-rental cars in Croatia and send a purchase inquiry to the sales team.",
+ "whenToUse": "Use when looking for a used car from VIP Cars in Croatia or sending an inquiry about one.",
+ "tasks": [
+  "search vehicles",
+  "get vehicle details",
+  "compare vehicles",
+  "send inquiry",
+  "check inquiry status"
+ ],
+ "effects": {
+  "615164a5e35094f45eb852bf84277e833c48bd4c24e86229e13e00c4cb2cf3a1": "read",
+  "6766abdfc99ec4ba66acbfdb99fbab470cc4415eba026df6ab97f9ec520573b6": "read",
+  "4707388a9d70485a55773b59474352a03e1e9e9ed36b0d63d2816b1061ab6904": "read",
+  "f75aa993e8368305053fb2f5e59ff4bd78c8d398e999dc8da708994fe88d018c": "write",
+  "8d3adbe0b6d6b3fea52ae4881dfda6fb85ab5a6fbeb70699891f23c1e4612319": "read"
+ },
+ "flags": []
+}

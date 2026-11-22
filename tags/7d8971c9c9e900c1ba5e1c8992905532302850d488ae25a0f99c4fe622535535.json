@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7d8971c9c9e900c1ba5e1c8992905532302850d488ae25a0f99c4fe622535535",
+ "domain": [
+  "productivity/meeting-notes/transcripts"
+ ],
+ "product": [
+  "pithflow"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Provides read-only access to a user's Pithflow meeting notes, transcripts, custom dictionary and usage data.",
+ "whenToUse": "Use when an agent needs to look up past meeting notes or transcripts stored in Pithflow.",
+ "tasks": [
+  "read meeting notes",
+  "read transcripts",
+  "view dictionary",
+  "check usage"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "75ff1b0353c6578ec7ed99d3703897cebb991435582aa369627edb02f1e7d1de",
+ "domain": [
+  "research/paid-api",
+  "payments/x402"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Research API sold per request over the x402 protocol in USDC on Base, with free discovery and sample tools.",
+ "whenToUse": "Use to test x402 payment flows or buy a small paid research outline or brief.",
+ "tasks": [
+  "check service health and pricing",
+  "fetch x402 discovery document",
+  "get free sample outline",
+  "get free scrub sample",
+  "buy research outline",
+  "buy research brief"
+ ],
+ "effects": {
+  "79f2049eab957618715ffa55b7738fc12512aed6fd787c43fd6a91f79e523e91": "read",
+  "b7f482fad049115adda8e0d36f1a49ed3cfe94e17a4d698b233f717e5ae6a44b": "read",
+  "8a45f6d568fc2d0a14091a9648895b612ba1278e34bf6236417d9acaf739caf3": "read",
+  "9e1e4bcae7cd2f7ab47acaef8089a2b7e2c8a89f35cbd16f80e3b13d32e8783a": "read",
+  "81b58ca54c5c8225f233188559b7555da2610d23ca81876a2a7d08178175ff21": "risky",
+  "9c280bd42ca71aa5f81f5b43bc6cf2313f3ebc2d6a460b1422537ef690e7f619": "risky"
+ },
+ "flags": [
+  "Paid tools involve USDC payment proofs and push users up a paid 'convert ladder'"
+ ]
+}

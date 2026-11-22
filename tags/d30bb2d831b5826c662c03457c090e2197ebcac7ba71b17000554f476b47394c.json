@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d30bb2d831b5826c662c03457c090e2197ebcac7ba71b17000554f476b47394c",
+ "domain": [
+  "software/project-management/issue-tracking"
+ ],
+ "product": [
+  "jira"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Manages Jira Cloud issues, searches, comments, attachments and workflow transitions.",
+ "whenToUse": "Use when an agent needs to find, create or update Jira Cloud issues.",
+ "tasks": [
+  "search issues",
+  "create issues",
+  "update issues",
+  "add comments",
+  "manage attachments",
+  "transition issues"
+ ],
+ "effects": {},
+ "flags": []
+}

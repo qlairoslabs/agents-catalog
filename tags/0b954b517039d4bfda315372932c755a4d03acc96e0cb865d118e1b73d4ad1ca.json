@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0b954b517039d4bfda315372932c755a4d03acc96e0cb865d118e1b73d4ad1ca",
+ "domain": [
+  "commerce/e-commerce-platform",
+  "software/web-development"
+ ],
+ "product": [
+  "mashop",
+  "claude",
+  "cursor"
+ ],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Builds, deploys and manages MaShop e-commerce store projects from MCP clients.",
+ "whenToUse": "Use when the user wants to create, deploy or manage an online store built on MaShop.",
+ "tasks": [
+  "build store projects",
+  "deploy stores",
+  "manage store projects"
+ ],
+ "effects": {},
+ "flags": []
+}

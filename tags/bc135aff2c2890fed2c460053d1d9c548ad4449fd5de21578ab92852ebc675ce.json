@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "bc135aff2c2890fed2c460053d1d9c548ad4449fd5de21578ab92852ebc675ce",
+ "domain": [
+  "travel/hotels",
+  "media/travel-editorial"
+ ],
+ "product": [
+  "destaire"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "create-content"
+ ],
+ "summary": "Curated guide to exceptional hotels and private stays with destinations, travel articles and purchasable city guides.",
+ "whenToUse": "Use when finding distinctive hotels by place, amenity or budget, reading travel writing, or buying a city guide.",
+ "tasks": [
+  "search stays",
+  "get stay details",
+  "list destinations",
+  "get destination",
+  "list articles",
+  "read article",
+  "list city guides",
+  "get guide",
+  "buy city guide"
+ ],
+ "effects": {
+  "40421410e737633dc229f50904a298fc2fddb5bc15efa6f4be5ba2f5763ac946": "read",
+  "fcbaa38495ffba130e629912e410d2f0b442ffc42226aad6f19ee7cc08eb4db6": "read",
+  "82513c05e4a962d638d7b3dd089848e9c9a07c8e41b503d466855423bc4ceb27": "read",
+  "158e1ea991711277991917290c11865129e27821427e1b41b1dcab08e7f677dc": "read",
+  "3fe862192f05dd75711bb3ce7e3745b4a60a6df0eb164be528e30d471f2c292e": "read",
+  "46785ec2cfe05b02fd4a0a64a4c4132459bb65efc5923e4b316b225377e0adc5": "read",
+  "9b2fc7951f36a8e6e7993470deadca6f7ae4b6126bffc7bfeca5b4acdafc0505": "read",
+  "39101a5af5b2e4d6d58eafa2ea02b731d1581b45a5efe47db00a7ab7227483e1": "read",
+  "9d50e218a061472b04dd0361e06b0961001fa10d390470d5417abb48454fd788": "risky"
+ },
+ "flags": []
+}

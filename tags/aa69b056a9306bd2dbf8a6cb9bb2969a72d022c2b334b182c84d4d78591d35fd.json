@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "aa69b056a9306bd2dbf8a6cb9bb2969a72d022c2b334b182c84d4d78591d35fd",
+ "domain": [
+  "software/cybersecurity/llm-security",
+  "ai/safety"
+ ],
+ "product": [
+  "promptguardscan"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Paid remote MCP that scans LLM apps for security issues and jailbreak susceptibility, with analytics and checkout.",
+ "whenToUse": "Use when testing prompts or LLM applications for jailbreak and injection vulnerabilities.",
+ "tasks": [
+  "run llm security scans",
+  "check jailbreak resistance",
+  "view analytics",
+  "check readiness"
+ ],
+ "effects": {},
+ "flags": [
+  "templated-paid-mcp-series"
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "23a3eb795d6a0a33987fb360d8093141aca0d80dbe301607874e63f9954bd55c",
+ "domain": [
+  "health/nutrition",
+  "food/recipes"
+ ],
+ "product": [
+  "usda-myplate"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "USDA-based nutrition calculators (BMI, calories, macros, protein, DRI, body fat) and a searchable collection of about 1,000 MyPlate Kitchen recipes.",
+ "whenToUse": "Use when someone needs calorie, macro or nutrient targets, body-composition metrics or a USDA recipe.",
+ "tasks": [
+  "calculate BMI",
+  "estimate body fat",
+  "body metrics",
+  "MyPlate plan",
+  "calorie needs",
+  "BMR and TDEE",
+  "calorie deficit",
+  "macro split",
+  "protein target",
+  "ideal weight",
+  "GLP-1 protein target",
+  "DACH energy need"
+ ],
+ "effects": {
+  "75e12b0868dd46ab1e33ae390eb36aafe634a7279d1ba708e57730e55aa88c8b": "read",
+  "6d48d8da4ab863471d71c7538672088c213c6d2c6f7203f303329cc54f143a99": "read",
+  "e7d05d5cbc087a0fef975962b4db00435e7263fd59fe385d1ee75d6ea1dfa8dd": "read",
+  "c71d9b000bade78c1230ad4c912e92fed2e09315bafce8acde6028d162f90e9d": "read",
+  "4bbaa806ac2a076ed12a3f91300f64267ad58d7f57a3a326026819e5741e46c7": "write",
+  "5256586db6bf4b08331714dc30d8304691b51bdd4aaf8544017ab8564499dc0e": "read",
+  "426b93861c2ff367f955a28e64a30fd0e52ff54958a25e86a7d0923fc2c2aec2": "read",
+  "fb1a17214e1b72d71100f41a8e9ccf0b6ba37bc6f900868c695f631bdbc57b56": "write",
+  "1f24887146c8d52b9a78051ce2257573012d20c26a03a142577924a0dfa648ca": "write",
+  "25d4d967827ae7556973be321f045fb6c59f6d8bffeb115bf0f2c28122204cb8": "write",
+  "29ff5dd9729b73dd5c10155da36b9e77739c52e68229bb43dd5b854c3d864e46": "write",
+  "a0e00128e429333650d87c574404814f2b383882cf9d805daa701811312433a5": "write",
+  "c95799d12adfeb710ddc14d106f4b0bb7d6e1674f03cc23b70f35de00b141ada": "read",
+  "44424855976b67cc1afbea71f64a05808e8b146c62888ed171339d194734af68": "read",
+  "0d72858e3e645fe029a10109fde91ad461e07417cbdbba9538c06e9bc4168c93": "read",
+  "85fab9f463945605f369f570f69f1c82c4b818fa11e1dc96313435cfe8bca3ff": "read"
+ },
+ "flags": []
+}

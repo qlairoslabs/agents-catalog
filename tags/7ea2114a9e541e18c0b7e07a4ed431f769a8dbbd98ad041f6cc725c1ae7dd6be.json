@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7ea2114a9e541e18c0b7e07a4ed431f769a8dbbd98ad041f6cc725c1ae7dd6be",
+ "domain": [
+  "jobs/remote-work"
+ ],
+ "product": [
+  "remote-rocketship"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches remote jobs sourced from company career pages by title, location, seniority, salary and tech stack.",
+ "whenToUse": "Use when a user wants to find remote jobs matching specific role, pay or technology criteria.",
+ "tasks": [
+  "search remote jobs",
+  "filter by seniority",
+  "filter by salary",
+  "filter by tech stack",
+  "filter by location"
+ ],
+ "effects": {},
+ "flags": []
+}

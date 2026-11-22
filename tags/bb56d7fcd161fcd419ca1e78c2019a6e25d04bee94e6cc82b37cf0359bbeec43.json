@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "bb56d7fcd161fcd419ca1e78c2019a6e25d04bee94e6cc82b37cf0359bbeec43",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [
+  "viibe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Shared memory server that lets agents store and recall information across models, devices and apps.",
+ "whenToUse": "Use when an agent needs persistent memory shared with other agents or sessions.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "share memory across agents"
+ ],
+ "effects": {},
+ "flags": []
+}

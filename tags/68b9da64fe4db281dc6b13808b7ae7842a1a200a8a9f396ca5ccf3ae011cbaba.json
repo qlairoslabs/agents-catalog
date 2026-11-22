@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "68b9da64fe4db281dc6b13808b7ae7842a1a200a8a9f396ca5ccf3ae011cbaba",
+ "domain": [
+  "software/ai/llm-gateway"
+ ],
+ "product": [
+  "phase-router",
+  "openai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "OpenAI-compatible LLM gateway billed per request by API key, returning a signed receipt per call.",
+ "whenToUse": "Use when routing LLM requests through a pay-per-call gateway with verifiable receipts.",
+ "tasks": [
+  "route llm requests",
+  "issue signed receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

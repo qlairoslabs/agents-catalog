@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c5673caba33d36843b3b51be4438bc292e3ec4b66d665d6c7c57744accfa06ee",
+ "domain": [
+  "media/video-rendering",
+  "media/ai-generation"
+ ],
+ "product": [
+  "framelane"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Renders videos and runs AI media tasks from a single declarative JSON request.",
+ "whenToUse": "Use when an agent needs to produce a video or run AI media processing from a structured spec.",
+ "tasks": [
+  "render video",
+  "run ai media tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

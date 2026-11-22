@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "87151a42812a54aba881b3ce91fad11540102e482766d759c158a8083270bfed",
+ "domain": [
+  "entertainment/pro-wrestling",
+  "media/news"
+ ],
+ "product": [
+  "wwe",
+  "aew",
+  "nxt",
+  "njpw",
+  "tna",
+  "roh",
+  "stardom",
+  "mlw"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only pro-wrestling news, videos, podcasts, TV schedules and live event listings from The Daily Smark.",
+ "whenToUse": "Use when a user asks about wrestling news, what is on TV, or upcoming live events near them.",
+ "tasks": [
+  "list news",
+  "list videos",
+  "list podcasts",
+  "get TV schedule",
+  "list live events",
+  "get event detail"
+ ],
+ "effects": {
+  "359f4e923fff09558cbca614e446e577e0ecae140837670337e20afca2d2583c": "read",
+  "a023dcc4ce459e5b5cc74ba930d606790b851470cf2ca651298f2849d51ac7aa": "read",
+  "3fd46a03290c857761c2760a8a2bc886da87fa513aadecdfd4340b079b44e817": "read",
+  "169b39878cc7f0eedc208213d75c8a1bed0048b7850f3ce92d852233c1f130bd": "read",
+  "1bc72650804404487be6036385d3f66c54e7de9a84797a0e9834a3d269cac39a": "read",
+  "4c2b688b83b148d1605c08968b76c2474ec1dfc6c31333a09ff4f6755179a0ee": "read"
+ },
+ "flags": []
+}

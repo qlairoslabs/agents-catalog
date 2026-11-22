@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "537a2e02460ec5fa7ad2951c5d11c62c7661b79ba1b01c806a00e7f13d7d0916",
+ "domain": [
+  "travel/short-term-rentals",
+  "real-estate"
+ ],
+ "product": [
+  "arcasos"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Searches premium short-term rentals in Korea by natural language or filters, quotes stays and creates a booking request draft for the renter to claim.",
+ "whenToUse": "Use when a user wants to find, price or request a short-term rental in Korea, especially Seoul.",
+ "tasks": [
+  "natural language rental search",
+  "structured filter search",
+  "get rental details",
+  "quote a stay",
+  "create booking request draft",
+  "check booking status"
+ ],
+ "effects": {
+  "9df4e4210ae83250fd24bdc6062db5981148767fd2a571e63cc034a2a6387fbb": "write",
+  "0e83465e08347396d3eb00b523a47fcab9f1fd4fea8295b1593ec3f284395a7f": "read",
+  "f3cb0ef449bcf0275ad3f0740affd94c7fd436e9fc63d015fa6de0c9695c974b": "write",
+  "cb0eb2edee8be01debcf20463fc7bc4942352dfadb4fb691ded1624d35b476df": "write",
+  "697313606eb5ef2a71f301af4957bf923978a113ce261b0637e96526e0a3e267": "read"
+ },
+ "flags": []
+}

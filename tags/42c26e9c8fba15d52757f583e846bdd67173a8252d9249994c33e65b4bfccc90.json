@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "42c26e9c8fba15d52757f583e846bdd67173a8252d9249994c33e65b4bfccc90",
+ "domain": [
+  "content/document-sharing",
+  "collaboration/review"
+ ],
+ "product": [
+  "comma"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Publishes HTML reports to a shareable link, gathers comments anchored to content, and lets revisions keep the same URL.",
+ "whenToUse": "Use when an agent needs to share an HTML report with others and collect feedback on it.",
+ "tasks": [
+  "publish html report",
+  "create share link",
+  "collect anchored comments",
+  "revise report at same url"
+ ],
+ "effects": {},
+ "flags": []
+}

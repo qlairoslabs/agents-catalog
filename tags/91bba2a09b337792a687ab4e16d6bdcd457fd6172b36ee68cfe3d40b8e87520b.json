@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "91bba2a09b337792a687ab4e16d6bdcd457fd6172b36ee68cfe3d40b8e87520b",
+ "domain": [
+  "communication/email"
+ ],
+ "product": [
+  "gmail",
+  "microsoft-365"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Lets AI agents send email from a user's Gmail, Microsoft 365 or SMTP inbox with guardrails.",
+ "whenToUse": "Use when an agent needs to send email on the user's behalf from their own mailbox.",
+ "tasks": [
+  "send email",
+  "connect gmail",
+  "connect microsoft 365",
+  "connect smtp inbox"
+ ],
+ "effects": {},
+ "flags": []
+}

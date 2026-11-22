@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "448a35811ea2c89db7fa39b554a862d33d205cf91080e4057d01e0328664eb1d",
+ "domain": [
+  "web/link-shortening"
+ ],
+ "product": [
+  "uurl.at"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "keep-in-touch"
+ ],
+ "summary": "Bundles up to 12 URLs into one uurl.at short link with QR codes and lets you look up what a bundle contains.",
+ "whenToUse": "Use when several links need to be shared as one short URL or QR code, or to inspect a uurl.at link.",
+ "tasks": [
+  "bundle multiple urls into a short link",
+  "generate qr codes",
+  "look up urls behind a short link"
+ ],
+ "effects": {
+  "fbbc5950e8505250b844a2c4fc3cc5982a1de2422ed0eb3ec8a9cc7a0c297ebf": "write",
+  "a2708c26e4d9aaf2f7808773c57dff6fb703278e75c003fc89fe562942a78331": "read"
+ },
+ "flags": []
+}

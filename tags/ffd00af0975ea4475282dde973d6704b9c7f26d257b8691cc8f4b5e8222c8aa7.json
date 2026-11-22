@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "ffd00af0975ea4475282dde973d6704b9c7f26d257b8691cc8f4b5e8222c8aa7",
+ "domain": [
+  "software/databases/nosql"
+ ],
+ "product": [
+  "google-cloud-firestore",
+  "google-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Google's connector for working with Firestore databases, collections and documents.",
+ "whenToUse": "Use when an agent needs to read or manage data in Google Cloud Firestore.",
+ "tasks": [
+  "query firestore documents",
+  "manage collections"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bea0e2ba0dbb0d78224c7bdad844481ba1174347743d8eaba83f2df7978f0de6",
+ "domain": [
+  "finance/expense-tracking/mileage",
+  "transport/vehicle-logbook"
+ ],
+ "product": [
+  "knihajizd"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Keeps a Czech vehicle mileage logbook with AI-drafted journeys, statutory reimbursement calculation and XLSX export.",
+ "whenToUse": "Use when a user in Czechia needs to record business trips, compute mileage reimbursement or export a logbook.",
+ "tasks": [
+  "draft journey entries",
+  "calculate statutory reimbursement",
+  "export logbook to xlsx"
+ ],
+ "effects": {},
+ "flags": []
+}

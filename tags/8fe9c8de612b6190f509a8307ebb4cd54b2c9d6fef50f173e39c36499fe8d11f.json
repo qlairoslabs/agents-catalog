@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "8fe9c8de612b6190f509a8307ebb4cd54b2c9d6fef50f173e39c36499fe8d11f",
+ "domain": [
+  "real-estate/listings",
+  "real-estate/prague"
+ ],
+ "product": [
+  "groo-reality"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Read-only listings of apartments, houses and land in Prague and surroundings from GROO reality, with projects, wanted properties, news and contact.",
+ "whenToUse": "Use when a user in Czech wants to search real-estate offers around Prague, see developer projects or contact the agency.",
+ "tasks": [
+  "search properties",
+  "get listing detail",
+  "list filter values",
+  "list wanted properties",
+  "list projects",
+  "read news",
+  "read client references",
+  "read web pages",
+  "get project units",
+  "get contact"
+ ],
+ "effects": {
+  "8e659961d0113cd50008f297de5b92b5355107e5b59f68c73979f10304c5a77c": "read",
+  "9065e6dcb237885eba18093e89d3d745264dfacca19df99323fa466739916b22": "read",
+  "50248beee0b707e51d2381864d096edd665feeff94b1d5afd0409afa4f945da0": "read",
+  "2a7df2b72aec6add9f614a66bca330c33cbd84034a7c9e57a1964e44897bda04": "read",
+  "0f02740058e761532004c2a262c528d7dc6467223503d0305f97400c33fdada9": "read",
+  "f6ff0580630365e93a3e9ed5d3f9be590f60b23c99f7cd32f8f65876479e4a46": "read",
+  "6e4aab0b67d87f7583eb0f147c96197554304ee67987a6cc35a70ac7755c8159": "read",
+  "21ba8bac2c62281d0644d19aaee72b00b2bb9965fd2eac4a938be6327cbca5e8": "read",
+  "6c2e3e33eb8e8efb01ffa891958cddc3bb4068b8fe2e6749e4013bcf90379a90": "read",
+  "b5158b6c3778b3a2efe8741c3290a34e99e89d504cb39cd314886b687e745160": "read",
+  "e70e0f27c60ffc27285be59ebf095b351710588aa36939eee0bccb710393de7f": "read",
+  "f6911058821ed5d2f1b3271bfea734474c63b76e51b9f8ae385e443612f766e5": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b1fbb2829867643be2a507dd44e5e0cc23a027ec8061d3aaf9ac00f20871afc5",
+ "domain": [
+  "communication/email"
+ ],
+ "product": [
+  "conduit-mail"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Mailbox access for MCP clients to search, read, draft and send email, manage rules and notes, with sending disabled by default.",
+ "whenToUse": "Use when an agent needs to search, read or draft email, or manage mail rules, in a Conduit Mail mailbox.",
+ "tasks": [
+  "search email",
+  "read messages",
+  "draft replies",
+  "send email",
+  "manage mail rules",
+  "keep notes"
+ ],
+ "effects": {},
+ "flags": []
+}

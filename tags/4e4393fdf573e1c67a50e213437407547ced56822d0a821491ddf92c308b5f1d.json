@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "4e4393fdf573e1c67a50e213437407547ced56822d0a821491ddf92c308b5f1d",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/development/web"
+ ],
+ "product": [
+  "apache-airflow",
+  "fastapi",
+  "react"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for building Airflow 3.1+ plugins that add FastAPI endpoints, custom UI pages, React apps, middleware, macros and operator links.",
+ "whenToUse": "Use when creating custom UI or API extensions inside Airflow 3.1+ via plugins.",
+ "tasks": [
+  "create airflow plugin",
+  "add custom ui page or nav entry",
+  "build fastapi endpoints in airflow",
+  "serve static assets",
+  "embed react app",
+  "add api server middleware",
+  "create operator extra links",
+  "call airflow rest api from plugin"
+ ],
+ "effects": {},
+ "flags": []
+}

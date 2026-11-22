@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "c5810170a1718a8dd77d67bd77de45ce847b776d4f513f913d344b00616335cf",
+ "domain": [
+  "transportation/fuel-prices"
+ ],
+ "product": [
+  "gas-quebec",
+  "regie-essence-quebec"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Current gas and diesel prices in Quebec, with the cheapest nearby stations, city summaries and a fill-up-now-or-wait verdict based on recent history.",
+ "whenToUse": "Use when someone in Quebec wants to know where to buy fuel cheaply or whether the current price is fair.",
+ "tasks": [
+  "list tracked Quebec cities",
+  "search cities and stations",
+  "find cheapest stations near a point",
+  "get city price summary",
+  "get fill-up timing verdict"
+ ],
+ "effects": {
+  "a02cb391b67d1c9dae392b2d0ba2a913064634d7542ecba8b06092fabb83e178": "read",
+  "14dc7de135393aea5724bd6d83f6682710a7059fe5eeb0824473b6ce98ece17e": "read",
+  "9b6122755f7cf41fbdaaa8b2ee1f2456bdb23744b61e6418bfc5170ac653045d": "read",
+  "0573c713ca39fa6d77b8f13300d1b5f6c7705f2a8275fbfa022a97cabcfa4bff": "read",
+  "e6a83373db395c7934a415bf18af1ee122b3f398ba1ffa937a4623770f2ad105": "read"
+ },
+ "flags": []
+}

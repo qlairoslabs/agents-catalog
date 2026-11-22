@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0ca50b78ef0bf7000bb9d0f9d139000d65c3be0e7f950df9406b6bb36a5816cc",
+ "domain": [
+  "health/medication-dosing",
+  "health/articles"
+ ],
+ "product": [
+  "shotlee"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Calculates peptide and GLP-1 reconstitution dosing in syringe units and searches Shotlee's health articles.",
+ "whenToUse": "Use when someone needs peptide or GLP-1 reconstitution arithmetic or Shotlee articles on a drug or side effect.",
+ "tasks": [
+  "calculate reconstitution concentration",
+  "convert dose to syringe units",
+  "search articles",
+  "read article"
+ ],
+ "effects": {
+  "2b87322638c43fae359cd236ff34461c77b96b522149d7a701b55a2d9a751490": "read",
+  "3617d4e3e8c165f1c9d8afec02c5d0de2a27e2aa9db5bd7e035dacd08a99d33b": "read",
+  "939c06b89e8510d493aa4798249cc1694a36e03592d49313aea922f9071b0bb0": "read"
+ },
+ "flags": []
+}

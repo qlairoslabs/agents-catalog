@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5648b6d2a67da433e197f522c65acc5c198aa9827b1a4e8c1c57f557e53b6d92",
+ "domain": [
+  "media/music-distribution"
+ ],
+ "product": [
+  "once"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Uploads, checks, submits and tracks music releases for distribution through ONCE.",
+ "whenToUse": "Use when a user wants to distribute a music release or follow its submission status.",
+ "tasks": [
+  "upload music",
+  "run ai checks on releases",
+  "submit releases",
+  "track releases"
+ ],
+ "effects": {},
+ "flags": []
+}

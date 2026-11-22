@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c9d34536a650c9a8b5a7347b2309eefb29544dfe68b8ae36061232f7be9f9d28",
+ "domain": [
+  "media/news",
+  "research/current-events"
+ ],
+ "product": [
+  "skimnews"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides AI-curated news summaries across seven beats, an archive search, story details and dossiers on recurring entities.",
+ "whenToUse": "Use when a user asks for today's news, coverage of a topic, or the latest on a person, organisation or place.",
+ "tasks": [
+  "get top stories",
+  "search news archive",
+  "get story detail",
+  "get entity dossier"
+ ],
+ "effects": {
+  "75c51d599c9e521df1bd1f4c3b22c7ab5e80b058dd3925a184cfec3ed632ca4f": "read",
+  "c850abc940b92bf6c009ebbaedd841b7811553f9d9960886b226d4eb0fb6551a": "read",
+  "667ec2d5f276ed65a0fde6222d810485f3a4ba84b3fd4279e70cf71f29f0ae28": "read",
+  "4278848a1b555e56bcfa848ab8c25e330634ec005684b82fc00e398985d84239": "read"
+ },
+ "flags": []
+}

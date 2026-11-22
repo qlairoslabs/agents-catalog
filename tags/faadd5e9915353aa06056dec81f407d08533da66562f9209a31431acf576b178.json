@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "faadd5e9915353aa06056dec81f407d08533da66562f9209a31431acf576b178",
+ "domain": [
+  "finance/crypto",
+  "software/blockchain"
+ ],
+ "product": [
+  "uniswap"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Decodes and encodes Uniswap Universal Router calldata for V2, V3 and V4 without signing or sending transactions.",
+ "whenToUse": "Use when analyzing or constructing Uniswap Universal Router transaction data.",
+ "tasks": [
+  "decode router calldata",
+  "encode router calldata",
+  "inspect swap commands"
+ ],
+ "effects": {},
+ "flags": []
+}

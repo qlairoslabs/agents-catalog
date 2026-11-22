@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "26c13ffc5b5205d7956eb760427f734937d2d688ad797352cc2d31777abb71ef",
+ "domain": [
+  "commerce/marketplaces",
+  "collectibles/trading-cards"
+ ],
+ "product": [
+  "cardnexus"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches trading card prices, builds shopping carts and manages a seller store on the CardNexus marketplace; payment happens on the site.",
+ "whenToUse": "Use when buying trading cards on CardNexus or managing a CardNexus store's listings.",
+ "tasks": [
+  "search card prices",
+  "build shopping carts",
+  "manage store listings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "7a4f5fc84356e18bfa1880ee2c749d55bb17547074739120a42f2ff78ad07fd6",
+ "domain": [
+  "local-services/directory",
+  "home-services"
+ ],
+ "product": [
+  "assistant247",
+  "chatgpt"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online",
+  "support-customers"
+ ],
+ "summary": "US local-business directory across about 40 trades with repair cost and failure data, plus AI-visibility checks and listing claiming for owners.",
+ "whenToUse": "Use to find trusted local tradespeople or appliance repair info, or to help a business owner check and claim their listing.",
+ "tasks": [
+  "find local pros",
+  "look up business by name",
+  "get town summaries",
+  "see what breaks in appliances",
+  "get repair costs",
+  "check AI visibility score",
+  "send owner claim link",
+  "list trades and towns"
+ ],
+ "effects": {
+  "f99b08cd94fdeb547bd36a2211b47649a9d0596951cbad217f072d5ad76afeec": "write",
+  "85865ef535cc0980e09b2cb428ee815d62826ab86d24eb1dca59d8a45b1dd8b9": "read",
+  "1c73e0aaf441c58e789ea59cf779a35e5aa7fc77e2dbd15b2d9cb7e6b929028b": "write",
+  "f9e74040434b20a215f0571b66f7342bce74da170d481d57177aedcaa9c319cf": "read",
+  "b6f8c07fbc2d1f5da0bb8eac971ab8ff3a76746e43fa9150da654e4d282d402b": "write",
+  "8296f5873fff13010b683aefaead02ac46c59b9c83e8ff36edae158dc213549e": "read",
+  "aeb1bf7869cfb9a7bae9e44eca7c0205e92fd23f77461c1ab44a0b8c74528512": "write",
+  "6b517b63166f65e8fad751fab7c10f12ca1ea84a4ac952ac3002e039a3ab9915": "write",
+  "c785c20a43acf3284322a1fde1f8e995dbcd30f403e5fb2f6d1eb9f5a9e2782e": "read",
+  "ee2590838f44b815172f250d6147037ebb789831eb3813d955057e3fcb03fac4": "read",
+  "d28b1b3372f1d18544b087ef36d9a6e8ce1466174c701f523222147bd9a53f16": "read",
+  "f43264624bc5e0a9e4470dacb572fe20fc0dd0db06edebe909f0e3808560cdd5": "read"
+ },
+ "flags": []
+}

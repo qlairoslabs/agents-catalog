@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "57ee499224824e0d9436e418166171ee9ec1e6ae2d07ce3004584ea216de7348",
+ "domain": [
+  "sales/ai-sales-agents",
+  "sales/crm"
+ ],
+ "product": [
+  "elocuenti"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Elocuenti AI sales agents, CRM records, campaigns and analytics.",
+ "whenToUse": "Use when you need to configure Elocuenti sales agents, work with CRM contacts, run campaigns or review results.",
+ "tasks": [
+  "manage ai sales agents",
+  "manage crm records",
+  "manage campaigns",
+  "view analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

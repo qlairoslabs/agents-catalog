@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e14324ac00d5d43f5706bb756ac30811be9f7655f8aee106908ae07e4a1fb9a7",
+ "domain": [
+  "data/web-scraping",
+  "research/web-search"
+ ],
+ "product": [
+  "nimble"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Nimble toolkit for searching, extracting, mapping and crawling the web and producing structured data.",
+ "whenToUse": "Use when an agent needs to search the web or crawl and extract structured data from websites.",
+ "tasks": [
+  "search the web",
+  "extract page content",
+  "map websites",
+  "crawl sites",
+  "produce structured data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "dbc6e5593711dd80886712b0e3110289613eb11f56258a0100343f34c9bfa645",
+ "domain": [
+  "business-data/company-registry",
+  "finance/due-diligence"
+ ],
+ "product": [
+  "cnpj"
+ ],
+ "audience": [
+  "sales",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Look up Brazilian companies by CNPJ, including partners, ownership and corporate connections.",
+ "whenToUse": "Use when researching a Brazilian company, its owners or related companies via CNPJ.",
+ "tasks": [
+  "look up company by cnpj",
+  "list company partners",
+  "map corporate networks"
+ ],
+ "effects": {},
+ "flags": []
+}

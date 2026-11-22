@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "12a3a24f4d703a67fc0563675372e5e7a6e45cd8a861d6674fa006f4979e4d5c",
+ "domain": [
+  "finance/crypto-derivatives",
+  "data/market-data"
+ ],
+ "product": [
+  "coinfuty"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Free crypto futures market data: open interest, funding rates, long/short ratios, liquidations, volume and exchange breakdowns.",
+ "whenToUse": "Use when analysing crypto futures positioning, funding, liquidations or exchange-level derivatives activity.",
+ "tasks": [
+  "market overview",
+  "list coins with futures data",
+  "coin derivatives summary",
+  "price and OI history",
+  "funding rates by exchange",
+  "exchange breakdown",
+  "list exchanges"
+ ],
+ "effects": {
+  "d6229575b259d947c34bf4923555e73e83a1e44c0741a3d1dcdbea030a7302a1": "read",
+  "2c8acc6c6e17f07b48a0992b12d2db524f8956ed151ac2ed5d30a262aa4695a1": "read",
+  "e0a02284081cb6c5d0f4a07e468ec48b061dd138921297152062f5caf77b5fea": "read",
+  "e25b8e5a55dd81318ed89746d17338235f31c5f611f692e965e170ea815784a3": "read",
+  "8024dbd35b01536a91c77a7478a13757110e0ffcbe1ca56eedd43d4bc5c1ccbe": "read",
+  "f1347e5763d633d5d378edca3481e46df554db326c85983672f9dc7bc614332d": "read",
+  "fbd89ab8f33fb1db33bbb8281afa9965d9f050f8d6b85d1e4fc5aee3df193cf6": "read"
+ },
+ "flags": []
+}

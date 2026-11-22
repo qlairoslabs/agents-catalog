@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1aa0d56498557230a12c921655bd8a854c8f9b642f2be676a7324cb94c2669c6",
+ "domain": [
+  "productivity/document-editing",
+  "research/latex"
+ ],
+ "product": [
+  "overleaf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Works with Overleaf projects from an MCP client: files, compiling to PDF, diffs, comments and tracked changes.",
+ "whenToUse": "Use when an agent needs to edit, compile or review LaTeX documents on Overleaf.",
+ "tasks": [
+  "read and edit project files",
+  "compile to pdf",
+  "diff versions",
+  "manage comments",
+  "review tracked changes"
+ ],
+ "effects": {},
+ "flags": []
+}

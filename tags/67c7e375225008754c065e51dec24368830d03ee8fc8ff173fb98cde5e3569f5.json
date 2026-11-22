@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "67c7e375225008754c065e51dec24368830d03ee8fc8ff173fb98cde5e3569f5",
+ "domain": [
+  "home-garden/raised-beds",
+  "ecommerce/design-configurator"
+ ],
+ "product": [
+  "gridgarden",
+  "shopify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "build-software"
+ ],
+ "summary": "Designs modular raised beds and walls, returning bills of materials, EUR prices with VAT, plant data and links into GridGarden Studio.",
+ "whenToUse": "Use when a customer wants a raised bed or garden plan priced and opened in the editor.",
+ "tasks": [
+  "price a bed or wall",
+  "create design link",
+  "list design options",
+  "search plants",
+  "list delivery countries",
+  "AI designer links",
+  "catalog bricks",
+  "design rules",
+  "FAQ"
+ ],
+ "effects": {
+  "4886c06691eaeed484455071b925e0d1dbdfef6d4796299251b87de2c7bbb367": "write",
+  "134e9fa833739574b564a414f0fbffef0e7afaed1c982bf439e474070460ecc5": "write",
+  "5d1c8b900806bf559d6a6d8575734b0f1a3819a2fe0ad39882c34ecd4322458a": "read",
+  "aa1c9ed3df11979e1bcc42323f53ddc155cba62b0087aaabfc2ba677783fede8": "read",
+  "6b304dfa0f161313d34d614f62976fbd1346e86398ea2355341a9e0c018e2951": "read",
+  "0b4fec661328c677cf35857350dcf6445a87d848badcb9b36189d1babba27254": "read",
+  "dd65039f208f17cffadb116612be01b7f0fc7a9f8b49e0b06caaf1fb3af0e9df": "read",
+  "eb1646e30db31c65bda599ce8a2f48f78e4bb58aba31fb192af4d57fed63a9c7": "read",
+  "18a8268c885cf017b02e3d04c36c755767ef971169927a4a18cadeba5e6071ac": "read",
+  "ecbbf27d7af1375304b8ef5833542059194412f98781d295b4bfa23b25fca86d": "read",
+  "19c7148cc921bcc74f6bb2128eb9cd6c8fd75613f83e3aa3e84edbe4cc2c51bb": "read"
+ },
+ "flags": []
+}

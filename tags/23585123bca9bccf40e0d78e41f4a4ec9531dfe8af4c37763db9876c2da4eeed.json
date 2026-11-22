@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "23585123bca9bccf40e0d78e41f4a4ec9531dfe8af4c37763db9876c2da4eeed",
+ "domain": [
+  "collectibles/sports-cards"
+ ],
+ "product": [
+  "mycardfolio",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Sports card database for card search, set checklists, parallel lookup and identifying cards from free-text descriptions.",
+ "whenToUse": "Use when a user wants to look up or identify a sports card, see a set checklist, or find parallels.",
+ "tasks": [
+  "search cards",
+  "get card detail",
+  "get set checklist",
+  "browse hierarchy",
+  "find variants",
+  "identify card from listing",
+  "card of the day"
+ ],
+ "effects": {
+  "16e4a5ff83e1b728e46906ac2595fca1b04ab788eec4dda97ad80ad8e95a74dc": "read",
+  "d9d2e0b6c213f1360ec23245f1ff0f82b89e8aac1eb18946ec1f6ced6ef3a0b1": "read",
+  "eb264945b8bd5f5ea7c9a656c94d6f691ab6638795957f7e92bdf7cc42285e83": "read",
+  "6b52d423ac22df187ffa3d410c364c65ca5c0cc80258b0b54e7300084d662f9f": "read",
+  "7b9fa835b21154934cc8fc04f1ad7459159784eca56d08beb95a263b4035b1d9": "read",
+  "6726d47d3e9a934bde852c20e68f747aa1ee57b79a8e4cf63c4f2c3f142ee3c5": "read",
+  "7600386660122ad4eb30a5bc7dad1cf661c5a1b768b0a5627887f1a9f3addcba": "read"
+ },
+ "flags": []
+}

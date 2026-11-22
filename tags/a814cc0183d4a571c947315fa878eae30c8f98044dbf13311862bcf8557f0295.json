@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a814cc0183d4a571c947315fa878eae30c8f98044dbf13311862bcf8557f0295",
+ "domain": [
+  "design/ui-generation"
+ ],
+ "product": [
+  "google-stitch"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Google's connector to the Stitch API for working with Stitch UI design projects.",
+ "whenToUse": "Use when an agent needs to generate or work with UI designs in Google Stitch.",
+ "tasks": [
+  "interact with stitch projects",
+  "generate ui designs"
+ ],
+ "effects": {},
+ "flags": []
+}

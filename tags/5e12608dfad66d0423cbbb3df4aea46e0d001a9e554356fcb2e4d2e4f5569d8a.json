@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5e12608dfad66d0423cbbb3df4aea46e0d001a9e554356fcb2e4d2e4f5569d8a",
+ "domain": [
+  "software/version-control",
+  "software/development"
+ ],
+ "product": [
+  "bitbucket"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "MCP server for the Bitbucket Cloud and Server APIs.",
+ "whenToUse": "Use when an agent needs to work with Bitbucket repositories, pull requests or related data.",
+ "tasks": [
+  "access bitbucket repositories",
+  "work with pull requests",
+  "call bitbucket api"
+ ],
+ "effects": {},
+ "flags": []
+}

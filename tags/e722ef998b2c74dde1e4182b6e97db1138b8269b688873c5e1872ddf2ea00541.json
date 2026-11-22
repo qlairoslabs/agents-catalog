@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e722ef998b2c74dde1e4182b6e97db1138b8269b688873c5e1872ddf2ea00541",
+ "domain": [
+  "software/developer-tools/usage-analytics"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds an HTML report of Claude Code session usage such as tokens, cache efficiency and costly prompts from local transcripts.",
+ "whenToUse": "Use when the user wants to review Claude Code token usage and costs from local session history.",
+ "tasks": [
+  "generate html usage report",
+  "analyze token usage",
+  "measure cache efficiency",
+  "list expensive prompts",
+  "summarize subagent and skill use"
+ ],
+ "effects": {},
+ "flags": []
+}

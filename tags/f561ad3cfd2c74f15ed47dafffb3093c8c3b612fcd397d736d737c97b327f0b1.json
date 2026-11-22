@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "f561ad3cfd2c74f15ed47dafffb3093c8c3b612fcd397d736d737c97b327f0b1",
+ "domain": [
+  "software/mcp-registry",
+  "software/developer-tools"
+ ],
+ "product": [
+  "tracevero",
+  "gmail",
+  "google-drive",
+  "google-calendar",
+  "google-sheets",
+  "outlook",
+  "onedrive",
+  "dropbox"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Searches and compares public MCP servers, generates client connection config templates and plans workflows against common apps without executing anything.",
+ "whenToUse": "Use when choosing an MCP server, setting up its configuration for a client, or validating a config.",
+ "tasks": [
+  "search MCP servers",
+  "fetch entry details",
+  "compare entries",
+  "generate config templates",
+  "plan workflows across apps",
+  "inspect connection options",
+  "validate config JSON"
+ ],
+ "effects": {
+  "54cb8a4a051f05e22527ae83c621536aa5c4f0cee4ad40e14feb27d47b44498e": "read",
+  "c6170f03412d49b185d7dd4fd76822f2b4852469ac89ad3b33d909d568d139d6": "read",
+  "c6c739c701d8c50501f0bca8f5f263fd417b3a09a3655d6b30bd84f34ea66b96": "read",
+  "293a277f840ee5355d30c784057bfd3c8c7732594724eadc457e72dcda0f2958": "read",
+  "c8b6089b8b7767ad27f6877174364e5c12680f2f339787cdc06f0bf1fd364e54": "read",
+  "d9237d74feaf0f3c283266b6844e1831581e4c22e193308494ce77906d19a5cc": "read",
+  "7f99823a9a56ef311e264c52d57b6792f1e92820be2043927d14cdc1cd9c273a": "read"
+ },
+ "flags": []
+}

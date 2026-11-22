@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5881bbc1ac8e064fafb78829006122199c4268ba8777c852d6db3303af7d9d9a",
+ "domain": [
+  "education/first-aid-training",
+  "documentation"
+ ],
+ "product": [
+  "australia-wide-first-aid"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Search and read Australia Wide First Aid's developer docs, policies and first aid library articles.",
+ "whenToUse": "Use when integrating with the service or looking up its policies and first aid articles.",
+ "tasks": [
+  "search docs",
+  "fetch whole document"
+ ],
+ "effects": {
+  "7834fe1aa2d0c38407ae0c98ccc2da2005810362ab4761375fa59c674aa484ee": "read",
+  "1bf9a135ecfd870ff12922fdc401c8797b398ec37a829a87490f0c3a7abae32f": "read"
+ },
+ "flags": []
+}

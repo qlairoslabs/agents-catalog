@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6fec1a02c7ec2362fff8be4b82f90fba050178596489e453f9a66e4d9462eaa8",
+ "domain": [
+  "commerce/agentic-commerce",
+  "finance/payments/crypto"
+ ],
+ "product": [
+  "via-network",
+  "usdc",
+  "base",
+  "x402"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Agent commerce network to discover sellers and products, negotiate and pay in USDC on Base via x402.",
+ "whenToUse": "Use when an agent needs to find, negotiate for and buy products from sellers using crypto payments.",
+ "tasks": [
+  "discover sellers",
+  "search products",
+  "negotiate",
+  "pay in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

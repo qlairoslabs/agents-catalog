@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "39115e257bdd1b93c979424bfb9f0b33435f2075761741f8404e9f3880480044",
+ "domain": [
+  "data/company-information",
+  "sales/prospecting"
+ ],
+ "product": [
+  "propecto"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only data on European companies, their directors, accounts, public contracts, grants and trademarks.",
+ "whenToUse": "Use when an agent researches a European company, its leadership, finances or public tenders.",
+ "tasks": [
+  "search companies",
+  "view directors",
+  "view financial accounts",
+  "search public contracts",
+  "search grants",
+  "search trademarks"
+ ],
+ "effects": {},
+ "flags": []
+}

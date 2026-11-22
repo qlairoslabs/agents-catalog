@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6bc9e55c980169cc168899c2dc9b861aab4add36dce169d797bb9bb2ac01b434",
+ "domain": [
+  "marketing/paid-social",
+  "marketing/ad-analytics"
+ ],
+ "product": [
+  "meta-ads",
+  "facebook",
+  "instagram"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Queries Meta Ads performance data across accounts, campaigns, ad sets and ads, including metrics and settings.",
+ "whenToUse": "Use when analysing how Meta ad accounts, campaigns or ads are performing.",
+ "tasks": [
+  "list ad accounts",
+  "query campaigns",
+  "query ad sets and ads",
+  "read performance metrics",
+  "read ad settings"
+ ],
+ "effects": {},
+ "flags": []
+}

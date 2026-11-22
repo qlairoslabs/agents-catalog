@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "cac04769d15cbd643c85a05b83a0431166e15b00d805165deeffa94456ed8190",
+ "domain": [
+  "gaming/modding",
+  "gaming/gta"
+ ],
+ "product": [
+  "gta",
+  "lc-mod-installer",
+  "libertycity"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches a large catalogue of GTA mods and curated collections and provides install commands for the LC Mod Installer.",
+ "whenToUse": "Use when a user wants to find GTA mods and set up installation with LC Mod Installer.",
+ "tasks": [
+  "search mods",
+  "get mod info",
+  "browse collections",
+  "get install steps"
+ ],
+ "effects": {
+  "7c9147a3506fa4ca9818d9b6a08b3a130bb772bcf84f53e1d7867c0fc48a7fa7": "read",
+  "2022b0a5583a0babd59c4c600370d1c793ef16d8bb9ab704046e96e968c4e47b": "read",
+  "9b2697d5ac71cbf3e505b68d55c5af287a5872811bd2edda440e03852b482e84": "read",
+  "ba6e2a2a0a170eb0ef9c1878dece50820bf68067fb961cdae1d38bcf91995e4d": "read"
+ },
+ "flags": []
+}

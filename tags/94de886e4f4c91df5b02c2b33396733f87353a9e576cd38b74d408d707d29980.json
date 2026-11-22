@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "94de886e4f4c91df5b02c2b33396733f87353a9e576cd38b74d408d707d29980",
+ "domain": [
+  "software/ai/multimodal",
+  "data/databases"
+ ],
+ "product": [
+  "pixeltable"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for building multimodal AI apps with Pixeltable tables, computed columns, embedding search, UDFs and agents.",
+ "whenToUse": "Use when building a multimodal AI data pipeline or app with Pixeltable.",
+ "tasks": [
+  "create tables",
+  "define computed columns",
+  "run embedding search",
+  "write udfs",
+  "build tool-calling agents",
+  "integrate ai providers"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1e889732450dd967fdc725f9f2664177af42d773585dc85c182473832c795124",
+ "domain": [
+  "software/cybersecurity/post-quantum",
+  "software/code-analysis"
+ ],
+ "product": [
+  "cyclonedx",
+  "pypi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Offline scanner that finds cryptography in code for post-quantum readiness, producing a CycloneDX CBOM and coverage notes.",
+ "whenToUse": "Use when an agent must inventory cryptographic usage in a codebase for post-quantum migration.",
+ "tasks": [
+  "scan code for cryptography",
+  "generate cyclonedx cbom",
+  "flag rng calls near keys",
+  "report unread files"
+ ],
+ "effects": {},
+ "flags": []
+}

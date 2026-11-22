@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "cdadff9214ce488e2b926bdf06c4e84f1e616286932ca196693b5b1bf14908e8",
+ "domain": [
+  "health/genetics",
+  "science/bioinformatics"
+ ],
+ "product": [
+  "genebe",
+  "clinvar",
+  "gnomad"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Annotates and classifies human genetic variants with ACMG, gnomAD and ClinVar data, plus gene lookup, coordinate conversion and liftover. Research use only.",
+ "whenToUse": "Use when you need to interpret a human genetic variant, look up a gene or convert variant notation or genome build.",
+ "tasks": [
+  "annotate variant",
+  "explain ACMG decision",
+  "convert variant notation",
+  "list variant effects",
+  "look up gene",
+  "liftover coordinates"
+ ],
+ "effects": {
+  "649081dc9922c1a7178e239458bde51e9dc9a165cdc1647c303938c0548f099d": "read",
+  "88fad6836e4c17957dc8cf62de7d64e6608bc04011c7ecd1cee1d79be5c81a5a": "read",
+  "df7d2d4bd5b1d1ff9592422b6c643a783412de4585244e074b566088a2cd1a90": "read",
+  "2045930e9a5c044a46a0d81c7d69aaedb731c44ad0708f12515689994091f65e": "read",
+  "91561f996282529a129564ced239e26f4caa76956473a13f076241d9d0afb953": "read",
+  "cfae786e9602e77f056e05de2ee71ca2640f069657c9e1eaa65809b176f65aa8": "read"
+ },
+ "flags": []
+}

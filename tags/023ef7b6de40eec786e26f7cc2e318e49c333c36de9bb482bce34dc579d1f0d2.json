@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "023ef7b6de40eec786e26f7cc2e318e49c333c36de9bb482bce34dc579d1f0d2",
+ "domain": [
+  "security/video-surveillance"
+ ],
+ "product": [
+  "angelcam"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Angelcam security cameras, including live snapshots, recordings and camera health status.",
+ "whenToUse": "Use when a user wants to view snapshots, recordings or health of their Angelcam cameras.",
+ "tasks": [
+  "get live camera snapshots",
+  "browse recordings",
+  "check camera health"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f725c59f504523f76d3da4f225f5ce865bc32d8a8090ea731cabd76c13df2de8",
+ "domain": [
+  "marketing/seo",
+  "marketing"
+ ],
+ "product": [
+  "seoreport"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs technical SEO audits on websites and returns structured findings to an AI agent.",
+ "whenToUse": "Use when an agent needs to audit a website's technical SEO health and get a list of issues.",
+ "tasks": [
+  "run technical seo audit",
+  "get structured audit findings"
+ ],
+ "effects": {},
+ "flags": []
+}

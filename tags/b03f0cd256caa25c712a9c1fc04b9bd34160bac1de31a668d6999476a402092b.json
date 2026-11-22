@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "b03f0cd256caa25c712a9c1fc04b9bd34160bac1de31a668d6999476a402092b",
+ "domain": [
+  "services/valet-parking",
+  "local/directory"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Directory of 789 US valet parking operators across many cities, searchable by city, service or location, with a quote-request tool that needs email confirmation.",
+ "whenToUse": "Use when someone needs valet parking for an event, hotel or venue in the US and wants operators or a quote.",
+ "tasks": [
+  "list valet services",
+  "get operator profile",
+  "search cities",
+  "find operators in city",
+  "search by service and city",
+  "find nearest operators",
+  "find operators within radius",
+  "request quote"
+ ],
+ "effects": {
+  "521cace3fb53a882d5d76312b5329fe949465030edb1c104fd04027047a509ef": "read",
+  "9517bbdae77bf63c0327d4fef4fa31b10dce6b9849dd85dee8a2182150ccd49c": "read",
+  "ff1c2a86822425c38363b97e9a061fb7a1a2ae91f477b76d15b9edd305912797": "read",
+  "aa7c061d2522722f128fa6a5c8d6e4c054ec09801243d328eacd20697964abdd": "read",
+  "afdbd414842777e17bf7785e9437181e78d1d98a6f74b4cbda5ca82599d0c6af": "read",
+  "3e3c5af09379648db5395f98a7cf1a09eec5c23e322540a599efe56d822e7164": "read",
+  "39d7ef6bf61c3b162620508ef9f9917113939a23c4d6e52880cbd1f6e5294fbd": "read",
+  "694c3bd0cb0d2d48bea8d142f576086b44f9209b0a16b53a5325d9e2fd529171": "write"
+ },
+ "flags": []
+}

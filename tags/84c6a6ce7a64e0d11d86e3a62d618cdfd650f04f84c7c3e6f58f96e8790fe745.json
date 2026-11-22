@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "84c6a6ce7a64e0d11d86e3a62d618cdfd650f04f84c7c3e6f58f96e8790fe745",
+ "domain": [
+  "media/audio/text-to-speech",
+  "ai/voice-agents",
+  "media/generative"
+ ],
+ "product": [
+  "elevenlabs"
+ ],
+ "audience": [
+  "marketing",
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "support-customers"
+ ],
+ "summary": "Manages ElevenLabs voice agents and generates speech, music, sound effects, images and video.",
+ "whenToUse": "Use when you need synthetic speech or other generated media, or want to configure an ElevenLabs voice agent.",
+ "tasks": [
+  "generate speech",
+  "generate music",
+  "generate sound effects",
+  "generate images",
+  "generate video",
+  "manage voice agents"
+ ],
+ "effects": {},
+ "flags": []
+}

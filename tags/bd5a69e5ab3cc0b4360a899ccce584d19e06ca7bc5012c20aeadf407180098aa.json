@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "bd5a69e5ab3cc0b4360a899ccce584d19e06ca7bc5012c20aeadf407180098aa",
+ "domain": [
+  "real-estate/home-search",
+  "local-business"
+ ],
+ "product": [
+  "idx-broker",
+  "us-prime-realty"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "schedule"
+ ],
+ "summary": "Search Florida home listings and new construction, run mortgage and affordability calculators, save listings, send contact info and book appointments with U.S. Prime Realty.",
+ "whenToUse": "Use when a user is shopping for property in Florida and wants listings, payment estimates or to contact the brokerage.",
+ "tasks": [
+  "search listings",
+  "get listing details",
+  "calculate mortgage",
+  "calculate affordability",
+  "download guides",
+  "save listings",
+  "submit contact info",
+  "notify agent",
+  "check appointment slots",
+  "book appointment",
+  "reschedule appointment",
+  "cancel appointment"
+ ],
+ "effects": {
+  "c8ab4a696262d466458d05fb38bca31eebfa7d9afa46b3b39c8d7ce4fc552bb3": "read",
+  "d63fccb7223b76e4d2e3b02f1deb6d292cec3f9a02a859e8eb2aabdcf5f47243": "read",
+  "3ee2b2c64cf5a78dfc6449d2b8193e5c3398de4299394ee0654569c11985412c": "read",
+  "f5a3f3273fc124d98ff7e8d42f133041da82b194301229e9117ee676e2a29f1a": "read",
+  "a4a266f5cff5daf9bf8ef2b1f84d81e580939eadb07fa1295dfbc47b4ba3fca9": "read",
+  "7e3a84e20c9f5b42068ec012f25c51218a7fb0c40580f55ff4474d41b467066a": "read",
+  "8c67089f2c1cb6a5bcf5c060546f024a9d5a4611012ef4708244ee3605f95051": "write",
+  "33b7c55ca981166c810e89af0bae6dbf65f89c50bb2f0fa57c04503532ab07ec": "write",
+  "c4bde6302aa80328d7fc2b7b559902d84e9bc8c4984d1d48da0cb7a899533b04": "write",
+  "df4e7f041a4d00e865f4ed231044aac7f973c07d2c60174cc8588ae4a3861b46": "read",
+  "5aad7ff648747dce42931320f187ffe63daae82dbfc630eb14a8775040beda74": "write",
+  "9915e8f0038f688817d1a3875f36475545e077da998043e0b6a73cbdeeb95cde": "write",
+  "9689a000e1896df8aa80a45e851108baa8136d0799c23d74c93ade7b6aa5b2c6": "write"
+ },
+ "flags": []
+}

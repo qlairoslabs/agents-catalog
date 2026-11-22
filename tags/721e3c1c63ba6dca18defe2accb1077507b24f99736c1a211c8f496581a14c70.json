@@ -1,0 +1,69 @@
+{
+ "classifier": 2,
+ "contentHash": "721e3c1c63ba6dca18defe2accb1077507b24f99736c1a211c8f496581a14c70",
+ "domain": [
+  "finance/crypto",
+  "finance/market-intelligence",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "ethereum",
+  "solana",
+  "bitcoin",
+  "x402"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Crypto market signals, token rug-checks and wallet ownership verification, with premium data unlocked by wallet session or x402 payment.",
+ "whenToUse": "Use when a user wants crypto market recaps, token safety checks, trading signal screens, whale or smart-money flows, or to verify wallet ownership.",
+ "tasks": [
+  "verify wallet ownership",
+  "rug-check a token",
+  "get market recap",
+  "ask market questions",
+  "list trending tokens",
+  "screen trade setups",
+  "find long and short candidates",
+  "read market regime and breadth",
+  "track narratives and attention",
+  "see smart-money and whale flows",
+  "check token liquidity",
+  "get token momentum"
+ ],
+ "effects": {
+  "6a94cc03aa942809b6f7e634dc240e262b716e66fde1c981e2eb006e21624aba": "write",
+  "0f3f113606ad923b706e36746ce985194b84dd21a5b59271f2d50348bd4cd28f": "write",
+  "d68b2ff2f824ca7671394b282871d41d3859e87cf380ab8012be2689fc4b1e68": "read",
+  "6962182d1dd38d37fda626cdf79926a4d4e7e1ab12f2f8255b6b8241b10143ea": "risky",
+  "d04a3b2df931bbe69c2465af2bbf520941de44d70f8a5cf6dd26bc7846468c36": "risky",
+  "7f9c5b2f207626fae5010090d9655b742f180f9daf7f89f76b253ceef49a0d83": "risky",
+  "e31c753a1cdae23d008572f32c138a87fafdc88d834d647170c20f89b1c12d42": "risky",
+  "8e6b1047702ed0f197f38a73b09c5eecdf8e80445e72774015a4337220e6b505": "risky",
+  "885ce7d1e86518cc4116f38cc777edc13519ef629779915afe65c7abcb5542bb": "risky",
+  "2b0928105e9a5e768e3e3ba116ead132c5a00b9411742bbe43d4ad59ece1a33e": "risky",
+  "7cab478203a443262bc5ec9f2fe321561d440723f5c05ebf40a2ca02587ad3c9": "risky",
+  "025e0d4ea0babe99c723c547b221200d60102544415bb8124de3918e6ece55ea": "risky",
+  "6bb39a3a9a7df0dff767c9c4e082be3fe5d742a86f5c29ea2f96d998a9d0bb6b": "risky",
+  "3f4695c44ab9094944cb859d1616d918c14c8c36055b826d65102933b383b81f": "risky",
+  "7ebc9f5c901e64dd0a3bf6008dcc7e101b2c5a1149a5d1a0fd70217e4f82d9c4": "risky",
+  "460a256b7e0db0a762f0a667d84389761eb96d4ee44158b3d3e89f78c7e34e71": "risky",
+  "79b00791810c51a7bfcd7f5f9574b49a007e1a01fc5891d6caa449b54127edc8": "risky",
+  "48b1aac6b39847f70c274b5719739ca2e00e1acee4658fb43ee95f2ba1d349df": "risky",
+  "eecaa5317b7167c5375d367a955bbe6bffbbaab6f617285f53a7d9e081bdeab9": "risky",
+  "bf874887667a5cdc2d69dcf202fd5bb66be6ae164fefcc644f2abb5cd83c1d44": "risky",
+  "0601961e01fa9ad6f09c91e0f5a8bbcc587ae1659638cba467504b042ce6ea36": "risky",
+  "16b101b048242b3b3468d32e513d234694a14332650eaef2b9445597922563f0": "risky",
+  "1a9aea5dd0e4ef0b9c7852df7a164cb94fed96e2377501eea18e6d81e3b6121e": "risky",
+  "91064b0eee34a4af36c25abcce956809fb699843d6fa2fe71ef984e5e629b350": "risky"
+ },
+ "flags": [
+  "check_token_safety instructs the AI not to state, infer or speculate about how its data is produced or sourced",
+  "most tools accept an x402 payment proof, so calls can spend money",
+  "asks the agent to have users sign wallet challenges to link wallets to the agent's identity"
+ ]
+}

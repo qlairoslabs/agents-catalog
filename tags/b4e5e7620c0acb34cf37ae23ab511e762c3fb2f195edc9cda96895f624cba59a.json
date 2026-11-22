@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "b4e5e7620c0acb34cf37ae23ab511e762c3fb2f195edc9cda96895f624cba59a",
+ "domain": [
+  "software/cybersecurity",
+  "network/domain-security"
+ ],
+ "product": [
+  "fedlin"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs public FEDLIN scans on a domain for post-quantum TLS, DNS, certificates, email authentication and HTTP security headers.",
+ "whenToUse": "Use when auditing a public domain's TLS, email authentication or security header posture.",
+ "tasks": [
+  "scan post-quantum TLS",
+  "audit DNS and certificates",
+  "check SPF DKIM DMARC",
+  "grade security headers",
+  "get scanner status"
+ ],
+ "effects": {
+  "808d60a45847bf740f31e68de43b0c8b2fdb41284cf0cbdd0e4b6797bbe8383e": "read",
+  "6d434278234cfa219b46a98af700f149262417c18352a1c569a5257571e8d496": "read",
+  "9163dc394a80873e55727f56f54c2e4c0eb3422b8170ea9d3d5cc34d8ecd03b2": "read",
+  "2246f36631f5fb8590a03fff0d972678de4c9e53229c48977224421bab626ece": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "dffa9033abfa078488f924185ad841f1e6fab233d9ac1f325b328b504a219496",
+ "domain": [
+  "software/developer-activity",
+  "social/leaderboard"
+ ],
+ "product": [
+  "heard"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Shows monthly coding-agent usage hours, a friends leaderboard and pending invites to approve.",
+ "whenToUse": "Use when a user wants to see their coding agents' monthly hours, compare with friends or handle invites.",
+ "tasks": [
+  "view agent hours",
+  "view friends board",
+  "approve invites"
+ ],
+ "effects": {},
+ "flags": []
+}

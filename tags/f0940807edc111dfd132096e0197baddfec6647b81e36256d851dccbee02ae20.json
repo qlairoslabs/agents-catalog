@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f0940807edc111dfd132096e0197baddfec6647b81e36256d851dccbee02ae20",
+ "domain": [
+  "productivity/project-management",
+  "finance/invoicing",
+  "operations/time-tracking"
+ ],
+ "product": [
+  "avaza"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "get-paid",
+  "schedule"
+ ],
+ "summary": "Manages Avaza projects, tasks, timesheets, expenses, invoices and resource scheduling.",
+ "whenToUse": "Use when the user needs to update Avaza projects, log time, track expenses or handle invoices.",
+ "tasks": [
+  "manage projects",
+  "manage tasks",
+  "log timesheets",
+  "track expenses",
+  "create invoices",
+  "schedule resources"
+ ],
+ "effects": {},
+ "flags": []
+}

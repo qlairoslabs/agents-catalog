@@ -1,0 +1,22 @@
+{
+ "classifier": 2,
+ "contentHash": "af96faa1f72bcdf9011199b1bcdd8ff34a90a42be5be48de455280491c487f41",
+ "domain": [
+  "ai/mcp-infrastructure/proxy"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "MCP proxy that hides tools from upstream MCP servers using a regex deny list.",
+ "whenToUse": "Use when an agent setup needs to restrict which tools from another MCP server are exposed.",
+ "tasks": [
+  "proxy mcp servers",
+  "filter tools by regex"
+ ],
+ "effects": {},
+ "flags": []
+}

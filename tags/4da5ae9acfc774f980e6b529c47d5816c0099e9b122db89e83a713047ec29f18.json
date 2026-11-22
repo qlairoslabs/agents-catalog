@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4da5ae9acfc774f980e6b529c47d5816c0099e9b122db89e83a713047ec29f18",
+ "domain": [
+  "software/cybersecurity",
+  "ai/agent-security"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Security firewall for MCP that wraps stdio servers as a proxy or exposes tools to inspect MCP traffic.",
+ "whenToUse": "Use when you need to filter or inspect calls between an agent and other MCP servers.",
+ "tasks": [
+  "proxy mcp servers",
+  "inspect tool calls",
+  "block unsafe calls"
+ ],
+ "effects": {},
+ "flags": []
+}

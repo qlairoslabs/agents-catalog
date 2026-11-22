@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4155ec61a17306fea0d521cecad2710c6d33fc3c70e2df30266dfaa1c875b29c",
+ "domain": [
+  "software/data-import",
+  "hr/recruiting"
+ ],
+ "product": [
+  "calaf"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Provides the Calaf seed file format and validates draft seed documents against the app's importer.",
+ "whenToUse": "Use when creating a Calaf workspace seed file and checking it imports cleanly.",
+ "tasks": [
+  "get seed format spec",
+  "validate seed document"
+ ],
+ "effects": {
+  "a2b3c62a5f28c6210ecf7469b0902912e1e211403318407d7da695ba138641ad": "read",
+  "97370ddb1fbb1a89a08da118800cec90896f81d424692742104aedd6324c2cc3": "read"
+ },
+ "flags": []
+}

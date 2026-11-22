@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ad3fd5736c1e0a58823171d0203bd95e10b5c4db484c7af0a34ba56868a093b8",
+ "domain": [
+  "productivity/calendar"
+ ],
+ "product": [
+  "caldav"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Reads and writes CalDAV calendars, covering events, tasks and journal entries.",
+ "whenToUse": "Use when an agent needs to view or change events or tasks on a CalDAV calendar.",
+ "tasks": [
+  "list events",
+  "create events",
+  "update events",
+  "delete events",
+  "manage tasks",
+  "manage journal entries"
+ ],
+ "effects": {},
+ "flags": []
+}

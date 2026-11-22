@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "124b3607c9b03e8ad3c604952f0752cb5e07baaf1cd7ae8e8c92858c086c88e9",
+ "domain": [
+  "software/tool-directory"
+ ],
+ "product": [
+  "codetrendy"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search of the CodeTrendy directory of websites, SaaS and AI tools, with categories, alternatives and trending lists.",
+ "whenToUse": "Use when a user wants to find a tool for a task, compare alternatives or see what is trending.",
+ "tasks": [
+  "search tools",
+  "get listing details",
+  "find alternatives",
+  "browse category",
+  "list categories",
+  "see trending",
+  "get site of the day"
+ ],
+ "effects": {
+  "5af0cf5e44ab2b1cdb438c385529e47689724fde896d54ba315663ffb1eae642": "write",
+  "06e12c35102b599ab659fd1dc15ad20496275d70a13105a801b6a697a6aaaf09": "read",
+  "6829bbd8713485d7ed1769456b547890220cc04a176f5022fcb6d8234ff17c03": "write",
+  "ca94c0a98260bc466720ca2ff0d16dc7307791ae80918cfa5a002a3214c34b80": "read",
+  "f78899e1436ebaa3516ce17d38795467353b02bbf9f4d1d4d76000a6532b1d2e": "read",
+  "8d0518908d523e7546e84f7186f8c99fb0a66fe5a770b9845fe7216668af28e9": "read",
+  "7af134bf0287500808e8d9b61599bb26c8a8bde6fa63e10eb02561e672598d75": "read"
+ },
+ "flags": []
+}

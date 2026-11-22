@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "1409f00c159767cc25caf21fe1b0c034542abdb99143d4daccd507030521af13",
+ "domain": [
+  "healthcare/data",
+  "data/datasets"
+ ],
+ "product": [
+  "cms",
+  "fda-faers",
+  "cdc",
+  "nppes",
+  "snowflake",
+  "databricks"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Catalogue and free samples of Dataplex US healthcare datasets (CMS, FDA adverse events, CDC, NPI) with data dictionaries, pricing and access options.",
+ "whenToUse": "Use when evaluating US healthcare data products, inspecting schemas and sample rows, or finding how to subscribe via Snowflake or Databricks.",
+ "tasks": [
+  "list data products",
+  "search datasets",
+  "get product details",
+  "get data dictionary",
+  "get sample rows",
+  "get pricing",
+  "get Snowflake trial SQL",
+  "get access options"
+ ],
+ "effects": {
+  "126c09ec9c57fa37a22b8816da5cb92e2578d939abc26fc5f9171e42a358389a": "read",
+  "9defe8f76f7eb78038773223674df9cf61b3c67dc81807cc3b2c9d9c12f5acfb": "read",
+  "7fcb70897904b1a238bd093e358a31502acb7daf8e3372cdb418181b5721e1fb": "read",
+  "45223de1d9a7d73697f466ecac76a0129afa91c6249e38b9e57ac1b4d95c4671": "read",
+  "d740398896a10f5d3bd8a69b7688e066a8586eadae4d8bf7c3ccc861446ca57d": "read",
+  "fa31e19251de3c417cdb748928ce00ddcc667b1bc285bb0843bc0c6cfb6fadd1": "read",
+  "eddf040e94ca30f3880bad5b5247b31b6954f4a1f5c32a3b8bef22d167c6b1bb": "read",
+  "3e41c68b3becb13549b614b0fa147806d335d52c442f39238db69cc2a9a98cb5": "read"
+ },
+ "flags": []
+}

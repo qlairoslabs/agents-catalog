@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "f8acd97a8c35a6b0366dc03868b89583ca775e7fa8320511021f9a575793ed0f",
+ "domain": [
+  "ai/model-lifecycle",
+  "software/dependency-management"
+ ],
+ "product": [
+  "openai",
+  "anthropic",
+  "azure",
+  "bedrock",
+  "google",
+  "vertex",
+  "mistral",
+  "cohere"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Checks whether LLM model IDs are active, deprecated or retired and suggests replacement models.",
+ "whenToUse": "Use when writing or auditing code that hardcodes LLM model IDs, to check deprecation status and migration targets.",
+ "tasks": [
+  "check model deprecation status",
+  "list retiring models",
+  "suggest replacement models",
+  "search tracked models",
+  "view recent lifecycle changes"
+ ],
+ "effects": {
+  "837c3a910d8616554952583dcf0a8d99e7325ce7201dbea3de28d4a3c1f1ed1f": "read",
+  "8680601dabe87db0ecb68244b58941eb58cb8f311d1465ea823a9a3c43940c32": "read",
+  "d6f41e11fd41ece4c2c7f3899b2445c1b7f465221978f21e70a43ff69f028316": "read",
+  "d1b82300ca44b580ccf7c67e41dd36a9c76412db42663a333173faefab021220": "read",
+  "ce1e7958cd3868549f23e8afa41a36e579a772824f6a5ccf8c733b36e49e690a": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "b504747e65940e0984090b8d702c7686ffac1c74f95a892a77cadaaa9b6bcab1",
+ "domain": [
+  "travel/outdoor-recreation",
+  "travel/hiking"
+ ],
+ "product": [
+  "outdoors"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only US outdoor recreation data: trails, campgrounds, campsites and parks, plus weather, air quality and wildfire safety, with itinerary outlines.",
+ "whenToUse": "Use when planning a hike or camping trip in the US, finding trails or campsites, or checking weather, air quality and wildfires at a location.",
+ "tasks": [
+  "search trails",
+  "search parks",
+  "search campgrounds",
+  "list campsites",
+  "nearby adventure candidates",
+  "day-by-day itinerary outline",
+  "current weather and alerts",
+  "air quality",
+  "nearby wildfires",
+  "safety overview"
+ ],
+ "effects": {
+  "ce3996c35029e9e6efea0c7086aaec369161b97bbbdb43bc77336fb978082849": "read",
+  "0b548f60e2d69986bb25ecfb02286065866912cc81dd711483362789aa2f0e13": "read",
+  "72f13a0d3311b5f415c6357635ad04aaf805e22b1c4f6acc9360b8f6f236f0d2": "read",
+  "b39cb0334fd10bfae4e1b357d1b0a60352f02466e5134e5799d0ec51f2d55ee6": "read",
+  "e713f820353ba8d70b0aa0c2bf8822e80ca785a97a2949b6602149b63a5d798b": "read",
+  "23ab622019e94a2fefe786bef89990a9f3a8a936f73901e8a90c7d3b8ed92e51": "read",
+  "3f64e44cb8e871fbc195f0055b3b276b7911d7a28077319ba9e3d7c2618edc9b": "read",
+  "17518456b0a0910249aaee279a63af093b6c878e4ddd276844a6ae83694a83ca": "read",
+  "7c3a25ec01b6308f84e5176853f8edfcea20cdd2401bb84f7ddb2e222308b94f": "read",
+  "a095fa0c0e7ecce6588ba453ce747b084357ef074ef0f4453a07f20fe3d420f1": "read",
+  "deac40060dd589c5cf6b40eface36f7f3a4e9c3307c0be90a735e152f061663f": "read",
+  "ba7cf38b39fd9e149c76b4086d09c0895638393ea79f6c3d3c90e0cd1d7d65dc": "read",
+  "d662d78fb69aa0c153d2e490c1d6ecca72a09f029f69e9b17903d3a2f9c7ed6d": "read",
+  "dc865cd0a4d1d4fb87d13bb6f5745f22c1dfe0059683af645d3f50bd552d28b8": "read",
+  "bcd496da93297dcda2f2e6b9a389bd6e6eef7d8c54dd31bf0047e7ad4d5b3f4c": "read",
+  "5b4044e8fb2f6fe5fcd2604cc30efc37c011daa1c3682e0f693549378d964eb7": "read",
+  "29d68e77697f5261206e48b5ddf138bdbaf573737615e0caaaa5ec7118c404ea": "read",
+  "60ce13322709921cc67b0615a69b01f926288d0a8ce3455e51385f5580aca6a7": "read",
+  "fab20df011512aea49e4fb2cb52b97e229ed3f4f41e20ee35e95a95ced989e1d": "read",
+  "37c2cfa301bf165dd26a6bfefd97d3416c0a2b31646ed0331270ff295b7285d5": "read"
+ },
+ "flags": []
+}

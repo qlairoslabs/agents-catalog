@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "6ae943ff109a248b5eb2d3ca10d0721b0f573b225679eb18dac6243b10d5ba97",
+ "domain": [
+  "home-services/cleaning",
+  "home-services/upholstery-cleaning"
+ ],
+ "product": [
+  "szuruszuru"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule",
+  "support-customers"
+ ],
+ "summary": "Quote, check slots and book on-site upholstery, carpet and mattress cleaning in Pomorskie, Poland, with SMS-verified booking management.",
+ "whenToUse": "Use when a customer in Pomorskie wants a price, appointment, reschedule or cancellation for home upholstery or carpet cleaning.",
+ "tasks": [
+  "list services",
+  "get service requirements",
+  "check service area",
+  "calculate quote",
+  "check availability",
+  "prepare booking",
+  "create booking",
+  "resend SMS code",
+  "verify phone",
+  "view bookings",
+  "reschedule booking",
+  "cancel booking"
+ ],
+ "effects": {
+  "6fc20c0f550581612dd616824f8bcd5f2348aa60c75ca99605a9b96962597096": "write",
+  "9fd051b432fd61e7943415fbf0d81ba625b790e1535827b6a05d1417d89a8228": "read",
+  "4d1bf1768514db16812994b623ebd57642aac3e7f7e09aaa6706a457ebbe3a9d": "read",
+  "aa7e7dfcd90f1bffe9382b182979bbce6c94d3587f636718fc98703519b865a1": "write",
+  "a3433f1e778ed9f8c9cc1ac54bc961757346d9befc95f36ba2ca846a8d94228b": "write",
+  "76ca13d469a9c3f3a68ae42c59d50930f40c33482f041d51804b68c7051bd179": "write",
+  "7b6ef2777d80d8a3123cfaa794cb190747f848e11f9e8e9e191b56bc1fadd209": "write",
+  "c587a8a51e83e201d69265cf535335e15b83bc17a68ed1ffee5c93edfc854df0": "write",
+  "8341fa004b14283cf39becd8f437b18ab7eef83eac28deb7f22ed07889479f12": "write",
+  "7e658f5ee09d5ee9e4c6bb6d632d526d2f07508148a0d883c7cd65f976c57b0b": "write",
+  "31b55079d56ccecf6eceec714ffd290f4fde0e188efb358ce87d5e5b510e776b": "read",
+  "24f54ee8abe8ebfe03ae5f842e55bcd655ca8d0b673065fa31d8a9f64a6ebdaf": "write",
+  "25df4c6f21b691a264a80d1496d155f80d96530919495839acd82c63637ac046": "write"
+ },
+ "flags": []
+}

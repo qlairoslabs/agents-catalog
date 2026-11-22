@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "2b6f60e5a89b4bd87d885a39e9144947eafe884758d2afeb518ed641752cc696",
+ "domain": [
+  "software/cybersecurity",
+  "software/supply-chain"
+ ],
+ "product": [
+  "npm",
+  "pypi",
+  "cisa-kev",
+  "epss"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Security grades for npm and PyPI packages and MCP servers, with CVE details ranked by CISA KEV and EPSS.",
+ "whenToUse": "Use before installing a package or MCP server, or to check how urgent a CVE is.",
+ "tasks": [
+  "grade a package",
+  "list MCP servers by dependency count",
+  "look up a CVE",
+  "list latest vulnerabilities"
+ ],
+ "effects": {
+  "78dcd65208b33f71d2bc7a69617ab35b5c3eedde8f77e58c9f90c36baa36be3c": "read",
+  "054d87e59cd72516ac3585d1cfc4f5b0056c8ed6b7837d498fb9ab6d57b53893": "read",
+  "ea9518998e12b88bd08b1803211a17cc30d246e75fe55bd4f3fe0d89d00727bf": "read",
+  "8fcb1c61cb786c2a58e5481b35490112c04d61f4e95fccbc0c1757eb32a1acfd": "read"
+ },
+ "flags": []
+}

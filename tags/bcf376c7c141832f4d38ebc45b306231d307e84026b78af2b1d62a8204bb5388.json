@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bcf376c7c141832f4d38ebc45b306231d307e84026b78af2b1d62a8204bb5388",
+ "domain": [
+  "finance/billing",
+  "finance/invoicing"
+ ],
+ "product": [
+  "airwallex"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Extracts billing terms from POs, contracts or quotes and creates Airwallex invoices or subscriptions, reusing existing customers and prices.",
+ "whenToUse": "Use when a user wants to invoice a customer or set up a subscription from a purchase order, contract or quote.",
+ "tasks": [
+  "extract billing details from documents",
+  "match existing customers",
+  "match products and prices",
+  "create invoices",
+  "create subscriptions",
+  "set up one-time or recurring billing"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "56ae4533ee59c057ea6b3acdc331afe96b18fbaf5ec98913662a3164dc4b632c",
+ "domain": [
+  "software/ai-agents/memory"
+ ],
+ "product": [
+  "spm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Provides shared, governed project memory for agents with triage and composition of projects.",
+ "whenToUse": "Use when an agent needs persistent project memory that can be shared across sessions or teammates.",
+ "tasks": [
+  "store project memory",
+  "triage memories",
+  "compose projects",
+  "share memory"
+ ],
+ "effects": {},
+ "flags": []
+}

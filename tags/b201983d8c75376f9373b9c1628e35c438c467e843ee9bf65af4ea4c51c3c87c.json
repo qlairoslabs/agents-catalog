@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b201983d8c75376f9373b9c1628e35c438c467e843ee9bf65af4ea4c51c3c87c",
+ "domain": [
+  "ai/llm-deployment",
+  "infrastructure/capacity-planning"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Plans local LLM deployments by estimating GPU and VRAM needs, cost and latency with traceable sources.",
+ "whenToUse": "Use when deciding what hardware is needed to run a given LLM locally and at what cost and speed.",
+ "tasks": [
+  "size gpu and vram",
+  "estimate cost",
+  "estimate latency",
+  "report provenance"
+ ],
+ "effects": {},
+ "flags": []
+}

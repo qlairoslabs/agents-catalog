@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3781b541a8deef06a80193856aedb38c986fbdd3f026703c726a0dc198dda82e",
+ "domain": [
+  "finance/market-data"
+ ],
+ "product": [
+  "tickerlayer"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides live and historical prices for stocks, forex, crypto, indices, ETFs, commodities and bonds.",
+ "whenToUse": "Use when an agent needs current or historical financial market prices across asset classes.",
+ "tasks": [
+  "get live stock quotes",
+  "get historical prices",
+  "get forex rates",
+  "get crypto prices",
+  "get index, etf, commodity and bond data"
+ ],
+ "effects": {},
+ "flags": []
+}

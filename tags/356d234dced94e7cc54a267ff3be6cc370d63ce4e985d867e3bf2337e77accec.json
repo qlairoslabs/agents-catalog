@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "356d234dced94e7cc54a267ff3be6cc370d63ce4e985d867e3bf2337e77accec",
+ "domain": [
+  "software/cloud/migration",
+  "software/devops"
+ ],
+ "product": [
+  "heroku",
+  "aws",
+  "amazon-rds",
+  "amazon-elasticache",
+  "amazon-msk",
+  "aws-elastic-beanstalk",
+  "aws-fargate",
+  "amazon-ecs"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Guides migration of Heroku apps, databases and add-ons to AWS through discovery, design, cost estimation and artifact generation.",
+ "whenToUse": "Use when a user wants to move workloads, Postgres, Redis or Kafka from Heroku to AWS and needs a migration plan and cost estimate.",
+ "tasks": [
+  "discover heroku resources via cli",
+  "parse procfile and app.json",
+  "read billing exports",
+  "design aws target architecture",
+  "estimate aws costs",
+  "run what-if pricing scenarios",
+  "generate migration artifacts",
+  "map heroku postgres to rds",
+  "map dynos to fargate or beanstalk"
+ ],
+ "effects": {},
+ "flags": []
+}

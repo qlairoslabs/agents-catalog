@@ -1,0 +1,67 @@
+{
+ "classifier": 2,
+ "contentHash": "e4d6c399d7003c0852212886013e6ad97522ba583aa82ea9ac847710c9e5852f",
+ "domain": [
+  "architecture/bim",
+  "construction"
+ ],
+ "product": [
+  "bim.house",
+  "suumo",
+  "ykk-ap",
+  "lixil"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "create-content",
+  "run-the-money"
+ ],
+ "summary": "Japanese BIM service that generates houses from text or an address, runs building-code checks, estimates material costs, and manages a building-material catalogue, land listings and contractors.",
+ "whenToUse": "Use when an agent must create or edit a Japanese house design, check it against building regulations, price materials, or find land and contractors.",
+ "tasks": [
+  "generate BIM house models",
+  "update house design",
+  "check building code compliance",
+  "estimate material costs",
+  "search building material catalogue",
+  "register and retire products",
+  "list land for sale",
+  "score land sites",
+  "match contractors",
+  "register contractors",
+  "approve contractors as admin"
+ ],
+ "effects": {
+  "f1f20f5efbe08a26329b63a278c71cab271c0726d3f3b5138a222574f1b541fa": "read",
+  "22829ed4b45ca40d890ee81507aea37267fa3055b745894041dda920af38dc0d": "write",
+  "60f956a0da0f7ea7aadeff0ef395c61fb6d4756b37f6753dbf38c650eb69fdae": "read",
+  "558e9263edd168458285dde6e3f7c299d99b297108ebf8b812d8ac4ed2746693": "read",
+  "8704dbc972479f4fdb78f117bbac68ec8ebb503e44e4a935ba863b5245b843a4": "read",
+  "89bfcc607d566b12a763d7511cb13c6a81020a16aadfe907c7856711f70bcac7": "read",
+  "008e6f2fa5cd087b2ae50cabf92a9f24754094f89ca958b99bbee6aea8f6307e": "read",
+  "a1f5cbdf879c044d98de48a02ef4825bf4c25a73bbcab1bced276c1cd7b55915": "read",
+  "7fe99362d5f255c3072b48897982bb73d1c66754b6a1e9810bb97b0b9f4624f3": "write",
+  "79205591ec3b69e109b869784fb5241594454ca5813c882b8816551f8165472b": "write",
+  "7fdd9d78936dbe51abc0983419d177c94bc4a8bac92dc9f321127b1e79a9c031": "write",
+  "883c8f503a6af433f2ed45abd4571a788f1804c0de49e7d71c0039759b2a0951": "write",
+  "0687b2c3e8ed2bc00b64e93fa6c025c0f578afcb103846d25f3b5fa98753f4b2": "read",
+  "f9b963cc2de16fc8f84e53e46f7311476d4036fca84d0b4af7d512ffb7e760c6": "write",
+  "c6aadef2b40ef2899cf4c8b399f0eb736248286f9fa6daf3b5a27b6fbeb0c6eb": "write",
+  "3b7121cf56139bba02ed415679ab60839779e5b577785f0aff94d97773315045": "read",
+  "0eab0dd8418aea01e1a03802b36665deeed0e0c6857bbd3d8b690221b65f779c": "read",
+  "f0efabb58daf96881d2dff15e511d13b7c411b56b534837e8546235dded98106": "read",
+  "4b50dd67ebbee59740f9c66717ac1ad2f9d855f0c3919e4578fefc1af0f519db": "write",
+  "591079ac273779f2c0b56402378e0d75bf73a962a2733806b2f3bdc04a82e598": "read",
+  "1d0519f8cf684f9da8ab06974a68c5ea63b69d9ec328d4f3716b55b59e1c3fd8": "read",
+  "997abbeef346fa9582e217eb905245e2b5badaf0d248dfe107c104889825ea4a": "write",
+  "d935edb47eb96d7dc192fde7f9b7a36058cc5ad0e539f39815ea16db37ab3ecf": "write",
+  "39120ff7a46e885fb1b424cb657211f81c6498579b5ab80465613db80a43d0e5": "write",
+  "7fbc2a27a8003cceeeb74f4378c9acbc9bd03a56f0579a1fbc0fc61f50f0d744": "read"
+ },
+ "flags": []
+}

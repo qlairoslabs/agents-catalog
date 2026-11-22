@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9eac15887040020e1d3432622585d6408b8c1c1c4c30585e7b2570c35a549aa4",
+ "domain": [
+  "media/film-production",
+  "ai/image-video-generation"
+ ],
+ "product": [
+  "filmlab"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates and reviews images and video clips for filmmakers, tracking input provenance and estimating costs first.",
+ "whenToUse": "Use when a filmmaker needs AI-generated images or clips with cost estimates and provenance tracking.",
+ "tasks": [
+  "generate images",
+  "generate clips",
+  "review outputs",
+  "estimate cost",
+  "track provenance"
+ ],
+ "effects": {},
+ "flags": []
+}

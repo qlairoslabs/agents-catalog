@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fa8dd7f0874e7bc3cb88cec28c9c8ac1223f00749e0ca813bc2e80f43841ec04",
+ "domain": [
+  "data/collaborative-grids",
+  "ai/human-in-the-loop"
+ ],
+ "product": [
+  "instadash"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Live data grids where agents push structured data for humans to review, then read the results back.",
+ "whenToUse": "Use when an agent's structured output needs human review or editing before the agent continues.",
+ "tasks": [
+  "push data to grid",
+  "read reviewed grid data"
+ ],
+ "effects": {},
+ "flags": []
+}

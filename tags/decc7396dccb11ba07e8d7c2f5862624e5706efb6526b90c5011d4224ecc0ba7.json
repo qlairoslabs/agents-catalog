@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "decc7396dccb11ba07e8d7c2f5862624e5706efb6526b90c5011d4224ecc0ba7",
+ "domain": [
+  "ai/llm/gateway"
+ ],
+ "product": [
+  "gemini",
+  "codex",
+  "claude",
+  "grok",
+  "ollama",
+  "antigravity"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Single server that lets an agent query several AI models, including Gemini, Codex, Claude, Grok, Ollama and Antigravity.",
+ "whenToUse": "Use when an agent wants a second opinion or delegated answer from another language model.",
+ "tasks": [
+  "ask gemini",
+  "ask codex",
+  "ask claude",
+  "ask grok",
+  "ask local ollama model"
+ ],
+ "effects": {},
+ "flags": []
+}

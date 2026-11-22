@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "14e32a7f9cec54b6102d5d6b11edbb8d1e4e2a3467dd071afe83850d580d38e1",
+ "domain": [
+  "ai/fact-checking",
+  "research"
+ ],
+ "product": [
+  "fidenta"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Fact-checking service that returns a verdict and supporting sources for each claim in an AI-generated answer.",
+ "whenToUse": "Use when an agent needs to verify claims in a generated answer and cite sources for each one.",
+ "tasks": [
+  "check claims in ai answers",
+  "return verdict per claim",
+  "provide supporting sources"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9ec5cf4cfd32841ae3c0e799adf298dd57effdf808fb6b641ccaf5420fc10699",
+ "domain": [
+  "software/sdk",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-sdk-swift",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Development patterns for using the AWS SDK for Swift.",
+ "whenToUse": "Use when writing Swift code that calls AWS services through the aws-sdk-swift package.",
+ "tasks": [
+  "write aws sdk swift code"
+ ],
+ "effects": {},
+ "flags": []
+}

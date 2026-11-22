@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f50e268a1eb77e4f4180f642af9eadc1a8f6c5fd5fcdbdf596d3c9666c9f7f0e",
+ "domain": [
+  "sales/prospecting",
+  "data/b2b-contacts"
+ ],
+ "product": [
+  "sendburg"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches a large B2B contact and company database and reveals verified work emails and phone numbers.",
+ "whenToUse": "Use when an agent needs to find business contacts, company data, or verified emails and phone numbers for outreach.",
+ "tasks": [
+  "search b2b contacts",
+  "search companies",
+  "reveal work emails",
+  "reveal phone numbers"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "a50fad89e68231bf38ec118aa797d6c6467f61cb45c5d651d5130688d2724120",
+ "domain": [
+  "commerce/retail/store-directory",
+  "real-estate/shopping-centers"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searchable directory of about 6,900 stores in 49 malls in Romania, the US, the UK and Hungary.",
+ "whenToUse": "Use when someone wants to find which stores are in which malls, by brand, city, operator or category.",
+ "tasks": [
+  "search mall stores",
+  "list stores by city",
+  "list stores by mall operator",
+  "list stores by category",
+  "list malls",
+  "list all stores in a mall"
+ ],
+ "effects": {
+  "c523f6f8e38c2545781c1b4c1645e8668751fef7b6cf6f3cb0afab8e71d24ab5": "read",
+  "205050dad59c549ecc43af30a75e89fe3c3caf981659d92b9578a6d7cff49e86": "read",
+  "3926b78f58c6487a8e25f62d0fd22a777b3a99b9624d04e17227db194d034c98": "read",
+  "c1b4a3e97d2c7c351b55055c239f1804c49ee2ebef66609f2c2f1735ab61876d": "read",
+  "1e6ec48aa7ac26136a443cdaa4557668924c76403fc5a50882947981cca54090": "read",
+  "65a3f21b315bacdd6e0667a10b44343d22c0c3989283878ffe87524f66cc465f": "read"
+ },
+ "flags": []
+}

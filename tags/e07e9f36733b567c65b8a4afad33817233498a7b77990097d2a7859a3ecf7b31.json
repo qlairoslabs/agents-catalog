@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e07e9f36733b567c65b8a4afad33817233498a7b77990097d2a7859a3ecf7b31",
+ "domain": [
+  "finance/crypto/trading-research"
+ ],
+ "product": [
+  "hyperliquid"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Research assistant for Hyperliquid that ranks trade opportunities and writes theses, with user confirmation required for each trade.",
+ "whenToUse": "Use when the user wants ranked Hyperliquid trade ideas and theses before deciding to trade.",
+ "tasks": [
+  "rank trading opportunities",
+  "generate trade theses",
+  "execute confirmed trades"
+ ],
+ "effects": {},
+ "flags": []
+}

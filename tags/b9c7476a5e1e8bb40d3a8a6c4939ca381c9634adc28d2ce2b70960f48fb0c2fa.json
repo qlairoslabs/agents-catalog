@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "b9c7476a5e1e8bb40d3a8a6c4939ca381c9634adc28d2ce2b70960f48fb0c2fa",
+ "domain": [
+  "data/data-governance",
+  "data/data-catalog"
+ ],
+ "product": [
+  "informatica-idmc",
+  "informatica-cdgc"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches the Informatica enterprise data catalog for assets, ownership, sensitivity and policies to guide safe data use.",
+ "whenToUse": "Use before querying enterprise data to find the right assets and check their governance and policy status in Informatica.",
+ "tasks": [
+  "find tables and columns",
+  "find files",
+  "look up glossary terms",
+  "check data ownership",
+  "check certification and sensitivity",
+  "check applicable policies",
+  "get safe-usage guidance"
+ ],
+ "effects": {},
+ "flags": []
+}

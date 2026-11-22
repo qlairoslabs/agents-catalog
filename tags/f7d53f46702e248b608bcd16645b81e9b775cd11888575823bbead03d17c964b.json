@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "f7d53f46702e248b608bcd16645b81e9b775cd11888575823bbead03d17c964b",
+ "domain": [
+  "software/cloud-infrastructure",
+  "software/networking"
+ ],
+ "product": [
+  "netactuate",
+  "wowza",
+  "netint",
+  "broadpeak"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Read-only information on NetActuate data centers, compliance, internet exchanges, products, marketplace apps, docs and API endpoints.",
+ "whenToUse": "Use when evaluating NetActuate locations, certifications, products, marketplace apps, or finding its docs and API endpoints.",
+ "tasks": [
+  "list data centers",
+  "get facility details",
+  "find nearest sites",
+  "check compliance",
+  "list internet exchanges",
+  "list services",
+  "find marketplace apps",
+  "read app listings",
+  "read docs",
+  "find API endpoints",
+  "search site",
+  "read pages"
+ ],
+ "effects": {
+  "b160b43ad4bc71194030a9a02cdc3952cc2b0b63aa357ee06d82cfde1cdd9a09": "write",
+  "66ea7c9c9d80375ee55a7e2bb9637ef370ddbd3663981565b1cbbbc930c2dcbe": "write",
+  "5744a20749f64dd8e3b9f186b00a86c5cc7659e9b8d0956f9c4cdd721478b26e": "write",
+  "2e106891608be69b43a584fbed1ced054a1772d456428480a55df7985e1bc89b": "write",
+  "f12cd7f733428d23a123233149f5b08a64fa09cd8c337bb08ae667b3216647c6": "write",
+  "ce91506bafaa46c527be3b36de79248d848ee7f1af406bd6fcfc1972e7c9834b": "write",
+  "3df4e459ba471dab49539a5990c3df72df6706904b2fcb98cdb30d778c50be28": "write",
+  "fec68ad344633ce05feb8be7906f171df0d80df453a6f0d58f800a4da10a76ee": "write",
+  "3dfbdb45210c346cc6a458e1e31d372b01eecfcc93d9542036675bb4562e4e59": "read",
+  "fdb88f9239d264fd6b6322a5fbe70466da62fc8e5b4f8963b1ee932bb395e156": "write",
+  "d40fc4ab5ac79641b58e49495a90180c81be40246400090f8b235ae298f80311": "write",
+  "b4fa3612aafafcf728f615bd63746689ffe6fa895b43007ed45c4696c55c0bc7": "write",
+  "6ed716eb874ab5c957442146238c3c1b6ceff7936b8d0ef93ec55bba68c205a3": "write"
+ },
+ "flags": []
+}

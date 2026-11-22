@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "587c1fef0758184afc19ca2bb8939cc97457367f63b8f8ec38abff868a03a600",
+ "domain": [
+  "software/blockchain/rpc",
+  "software/infrastructure"
+ ],
+ "product": [
+  "swiftnodes"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Blockchain RPC access across 125+ chains with endpoint lookup, method support checks, probing and calls.",
+ "whenToUse": "Use when an agent needs a blockchain RPC endpoint or to make RPC calls on many chains.",
+ "tasks": [
+  "list rpc endpoints",
+  "check method support",
+  "probe endpoints",
+  "make rpc calls"
+ ],
+ "effects": {},
+ "flags": []
+}

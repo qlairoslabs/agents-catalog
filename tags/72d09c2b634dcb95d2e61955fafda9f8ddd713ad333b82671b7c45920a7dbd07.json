@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "72d09c2b634dcb95d2e61955fafda9f8ddd713ad333b82671b7c45920a7dbd07",
+ "domain": [
+  "finance/defi",
+  "crypto/leveraged-yield"
+ ],
+ "product": [
+  "morpho",
+  "spiral",
+  "pendle",
+  "robinhood-chain"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Lists leveraged-yield strategies on Morpho, simulates positions and builds unsigned transactions to open, adjust or close leveraged and equity-vault positions.",
+ "whenToUse": "Use when a user wants to explore, simulate, or construct transactions for leveraged yield loops on Morpho via Spiral.",
+ "tasks": [
+  "list strategies",
+  "get strategy",
+  "get token prices",
+  "simulate leverage",
+  "build open-position tx",
+  "read wallet positions",
+  "build manage/close tx",
+  "simulate equity deposit",
+  "build equity deposit tx",
+  "build equity exit tx"
+ ],
+ "effects": {
+  "7a0333de7577c017e6e8edab3d2b5bfef477e4964280a28c477aee8738210b7e": "read",
+  "9a013c3eea159abd4efd0f95f45a7b7aa1e00967242b174f8c385f95c8a21266": "read",
+  "329bdc14108dade80224ac3b41b5f88e2ff6c951b62988096840784dca9f88e9": "read",
+  "de763aac934c15d52afa4bf07f276cc0ced100efff198f77658112084d46f69a": "read",
+  "d019c13c52f02f762720ce7691850cef6e6215c801557116820f2a6a99a7fbb0": "risky",
+  "0bbd6a96c574d630ad3be655f290484e82a3db5406ec889b674ca3d8c67b9b78": "read",
+  "d42947e38d6db89873af1cd8efb1e034169e4aad9c9df68a94634d9c54de4430": "risky",
+  "e28c9dcca7f3bbf7d1d194adb5f9dc8909c13bb53178c19cbe1ae79872142478": "read",
+  "f5d8d21ed0e84868b181df3fc19f185b01327e7d3f79d832ad31bf825f650019": "risky",
+  "a20c98bc7450524d57d943bf754c2563ca614583c927f086c3ea427f22cea1fa": "risky"
+ },
+ "flags": []
+}

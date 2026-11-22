@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "904d3367a3be6b67735b71ba1990d77bf22cd0911da98fdb44255b1c4db243d4",
+ "domain": [
+  "operations/inventory-management",
+  "finance/invoices"
+ ],
+ "product": [
+  "foundry-ims"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Manages a Foundry IMS product catalog with variants and bills of materials, and reads invoices from supplier documents.",
+ "whenToUse": "Use when maintaining products, variants or BOMs in Foundry IMS or extracting invoices from supplier documents.",
+ "tasks": [
+  "manage products",
+  "manage variants",
+  "manage bills of materials",
+  "extract invoices from supplier documents"
+ ],
+ "effects": {},
+ "flags": []
+}

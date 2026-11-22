@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2da8ca8be6834e92e6d59aab1e1f90d43fdd9752ddf68c77d5f09ec1533cc758",
+ "domain": [
+  "software/accessibility",
+  "compliance/wcag"
+ ],
+ "product": [
+  "jeikin"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Runs WCAG 2.2 accessibility reviews from AI coding tools and keeps shared evidence of findings.",
+ "whenToUse": "Use when checking a website or app for WCAG accessibility compliance during development.",
+ "tasks": [
+  "run wcag 2.2 review",
+  "record accessibility evidence",
+  "share review findings"
+ ],
+ "effects": {},
+ "flags": []
+}

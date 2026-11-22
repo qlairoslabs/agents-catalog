@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ff0217fb7bdf9cc8d7f12309be5285a2671e3a65c6266d74a453801a0201801b",
+ "domain": [
+  "media/podcasts"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches indexed podcast episodes by keyword or topic and returns transcripts.",
+ "whenToUse": "Use when you need to find podcast episodes or read their transcripts.",
+ "tasks": [
+  "search episodes",
+  "semantic topic search",
+  "get latest episodes",
+  "read transcripts",
+  "send feedback"
+ ],
+ "effects": {
+  "f264952bb925fc59f6502c87a57d22f1a485ecb7c28b8af99b4b5e61c2dc1db1": "read",
+  "666a562bda6a6999531babb99f569c019c59bb15330696c862c3e8fd09a2722d": "read",
+  "b80679ffd8be332d5ee7479d354e430a24687be37b0cc38d47f629d8702432c2": "read",
+  "26e399473d9ff7c4de168a1586a581719ee7c7fe0db49a502d6380e62b628f05": "read",
+  "d6206bb51a87875a7b96a241ef3a5cb1dd5fbefa41c5a67d39d8b9ae976f5a43": "write"
+ },
+ "flags": []
+}

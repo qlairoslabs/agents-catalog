@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "693629c086b34b404978774687aa0048ee66b634f2575fff652eec5970da42fe",
+ "domain": [
+  "data/address-translation",
+  "geography"
+ ],
+ "product": [
+  "openstreetmap-nominatim",
+  "korean-road-name-address-api"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Translates or transliterates street addresses into other languages and normalizes Korean road-name addresses using geocoding services and government data.",
+ "whenToUse": "Use when you need an address rendered in another language or a Korean address normalized to road-name, lot-number, postal code and English forms.",
+ "tasks": [
+  "translate street address",
+  "transliterate address",
+  "normalize Korean address",
+  "look up postal code",
+  "get official English road-name address"
+ ],
+ "effects": {
+  "5f83b9eafb175a80f9fc3f49130f55ab37d0aa0141b70429e28a9d7662584f4c": "read",
+  "5bc3f31d3304111f2354ed5cc95d7dd834ef0ffe1a48e4d8149c6e30e0dd30c3": "read"
+ },
+ "flags": []
+}

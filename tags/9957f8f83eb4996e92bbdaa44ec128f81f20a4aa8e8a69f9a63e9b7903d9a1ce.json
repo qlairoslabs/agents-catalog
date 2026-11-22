@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9957f8f83eb4996e92bbdaa44ec128f81f20a4aa8e8a69f9a63e9b7903d9a1ce",
+ "domain": [
+  "marketing/link-in-bio",
+  "web/personal-pages"
+ ],
+ "product": [
+  "lnx"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Builds a free link-in-bio page on lnx.net from the user's links, social profiles and bio.",
+ "whenToUse": "Use when the user wants a simple public page gathering their links and social profiles.",
+ "tasks": [
+  "create link-in-bio page",
+  "add links",
+  "add social profiles",
+  "set bio"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "0638248d14c9c8103b9b9c941f20bd7d344009e0d1e3c984b841d8be4ead0d3c",
+ "domain": [
+  "startups/risk-assessment",
+  "ai/market-analysis"
+ ],
+ "product": [
+  "doomscore"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Assesses whether a product risks being absorbed into core LLM-platform features, with operator tools to maintain the signal knowledge base.",
+ "whenToUse": "Use when screening a startup or product for obsolescence risk from AI platform roadmaps.",
+ "tasks": [
+  "prep check",
+  "assess product",
+  "poll assessment",
+  "list assessments",
+  "overview",
+  "record outcome",
+  "review signal candidates",
+  "list KB signals",
+  "retire signal",
+  "supersede calibration case"
+ ],
+ "effects": {
+  "79da160bf0659a32e745a79e4d4ab51699ddfa58610d964bf639dc4d4335af1b": "read",
+  "0c4da25776c41c38366034a219551c42152907e73c8a4765a250d6cc204b4897": "write",
+  "b7f9f5b056ac35ae8c9e790c14390c80101fb85bdcb71b55e7d231bc95772822": "read",
+  "f9c2810faef15da93c29eb400c3e6aa718710b5b6b98dc156112411281892f77": "read",
+  "2a78e9a5f3dfb19580693efe913a724f02a7034978a8c9b689a0965288dbdcac": "read",
+  "1e676f5820fed73885a89a28a00a58c70c79d81cbc6389c25a106efb26be9c25": "write",
+  "8b6c31fc0d77d90351c15eae08ee8e3dfed35b822e54e6fb241f130e81141ef6": "read",
+  "b24d261e5cf155a3ebb7207df3d94d0ccf01fe67bc9e048e0f356693f16e87ff": "write",
+  "4860c316f0c3c5e5ce2a713f01fec436eb7dd85c327a1c2923934bcd59c5c7a1": "read",
+  "b9f04a74dee7dcfb2354fd6fd9884a7107b73f6089fc71926a81b0c60183ef4e": "write",
+  "e30d90676972ea746df9a14e31f32c6fb5b72b380cff334e48a6bf69af744e7e": "write"
+ },
+ "flags": []
+}

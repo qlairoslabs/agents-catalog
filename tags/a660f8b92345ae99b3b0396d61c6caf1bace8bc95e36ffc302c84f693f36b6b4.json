@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a660f8b92345ae99b3b0396d61c6caf1bace8bc95e36ffc302c84f693f36b6b4",
+ "domain": [
+  "productivity/documents",
+  "productivity/file-conversion"
+ ],
+ "product": [
+  "tensormaster"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Converts PDFs and images to Word, Excel or Markdown and splits, merges or watermarks PDF files.",
+ "whenToUse": "Use when an agent needs to convert, split, merge or watermark PDF documents.",
+ "tasks": [
+  "convert pdf to word",
+  "convert pdf to excel",
+  "convert pdf to markdown",
+  "convert images",
+  "split pdfs",
+  "merge pdfs",
+  "watermark pdfs"
+ ],
+ "effects": {},
+ "flags": []
+}

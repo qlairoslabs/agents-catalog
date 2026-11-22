@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0d0d5470bdbfa07587a4c78b5de20823f60a4f97be7ebe52d47ddf908d4b0bca",
+ "domain": [
+  "agriculture/farming",
+  "agriculture/market-prices"
+ ],
+ "product": [
+  "divisi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Farming assistant for planting advice, crop problem diagnosis, local crop prices and trading among farmers.",
+ "whenToUse": "Use when a farmer needs guidance on what and when to plant, help identifying crop diseases, or nearby market prices.",
+ "tasks": [
+  "advise what to plant and when",
+  "diagnose crop problems",
+  "look up local crop prices",
+  "connect for trading"
+ ],
+ "effects": {},
+ "flags": []
+}

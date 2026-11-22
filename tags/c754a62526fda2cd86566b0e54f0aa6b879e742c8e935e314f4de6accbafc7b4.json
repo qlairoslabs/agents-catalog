@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "c754a62526fda2cd86566b0e54f0aa6b879e742c8e935e314f4de6accbafc7b4",
+ "domain": [
+  "legal/tax",
+  "legal/french-tax-law"
+ ],
+ "product": [
+  "bofip",
+  "legifrance",
+  "openfisca",
+  "impots-gouv"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Searches and reads official French tax texts: tax treaties by article, BOFiP guidance, CGI and LPF articles, and OpenFisca parameters.",
+ "whenToUse": "Use when you need exact, sourced French tax law, treaty articles or administrative doctrine.",
+ "tasks": [
+  "search tax treaties",
+  "read full treaty text",
+  "read treaty article",
+  "search BOFiP",
+  "read BOFiP document",
+  "get OpenFisca parameter",
+  "read CGI or LPF article"
+ ],
+ "effects": {
+  "7135f95b317d7d5b0fc6a15fd106b8f77d08edd5a7b7c22941a55151f2173a61": "write",
+  "80b264b3b862961933f960172229d97e69720468a6ba27109b301552adff624e": "read",
+  "8c1f532049cff2ba690db6d525fd7d10934e6f34d37a3155ae75142f39a5b86b": "write",
+  "be857a7caa528b92dfe8190a7c1251580b0f1e1300fce8d6e6b8fd17d7ac7787": "write",
+  "cefaea7f3607fc29b196b7046b39919086d0ba5ba921284f287057871c671420": "read",
+  "4cb675f6185b9a22b33a6e45bc550831cbb4e6c8591e2c50abee6e9965d39dc2": "write",
+  "307764ab41b079adf9e12350cc3523628a702f7f8c7634d90d0233c1543daa6a": "read"
+ },
+ "flags": []
+}

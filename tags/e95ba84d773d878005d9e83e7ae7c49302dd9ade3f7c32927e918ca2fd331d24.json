@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "e95ba84d773d878005d9e83e7ae7c49302dd9ade3f7c32927e918ca2fd331d24",
+ "domain": [
+  "data/analytics/marketing",
+  "data/integration"
+ ],
+ "product": [
+  "windsor-ai",
+  "google-ads",
+  "meta",
+  "hubspot",
+  "salesforce",
+  "shopify",
+  "stripe"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries marketing, sales, CRM, ecommerce and finance data from hundreds of sources through Windsor.ai.",
+ "whenToUse": "Use when analyzing business performance data across ad, CRM, ecommerce or payment platforms.",
+ "tasks": [
+  "query ad performance",
+  "query crm data",
+  "query ecommerce data",
+  "query finance data",
+  "combine data sources"
+ ],
+ "effects": {},
+ "flags": []
+}

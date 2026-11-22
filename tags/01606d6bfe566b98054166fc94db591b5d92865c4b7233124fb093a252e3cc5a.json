@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "01606d6bfe566b98054166fc94db591b5d92865c4b7233124fb093a252e3cc5a",
+ "domain": [
+  "software/accessibility",
+  "be-online/website-quality"
+ ],
+ "product": [
+  "evolize",
+  "axe-core"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Runs browser-based accessibility scans on public websites and returns findings and public reports.",
+ "whenToUse": "Use when you need to check a public website for accessibility issues or verify fixes after deploying.",
+ "tasks": [
+  "get public report",
+  "scan website",
+  "re-scan after fix",
+  "read scan findings"
+ ],
+ "effects": {
+  "d7569820a9d069e1cf411fe7322cb80d12f8931a82e600ebfce38d0700cc728f": "read",
+  "c511b123a913410a49c7df1edb0b4fa9cff4e72541de3f2a4310fc7f4cb2cd5f": "write",
+  "47800fc920221d58268026aead9d7af97d109905350a7bd3d292fa324f3563ca": "read"
+ },
+ "flags": []
+}

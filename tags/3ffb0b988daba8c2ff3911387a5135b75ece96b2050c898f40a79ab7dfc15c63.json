@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3ffb0b988daba8c2ff3911387a5135b75ece96b2050c898f40a79ab7dfc15c63",
+ "domain": [
+  "ai/content-generation",
+  "media/image-generation",
+  "media/video-generation"
+ ],
+ "product": [
+  "writingmate"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Gives MCP hosts access to multiple AI models for chat, image and video generation via Writingmate.",
+ "whenToUse": "Use when a user wants to call other AI models for text, images or video from their MCP client.",
+ "tasks": [
+  "chat with ai models",
+  "generate images",
+  "generate videos"
+ ],
+ "effects": {},
+ "flags": []
+}

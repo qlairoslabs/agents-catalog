@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6ee8f055a2b0a05ae4887293a7d03fec57a5e709e56361c07c769c30699df7c6",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "telegram"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Unofficial MCP server that reads, searches, replies and reacts to messages in the user's own Telegram account.",
+ "whenToUse": "Use when an agent needs to read or answer messages in a personal Telegram account.",
+ "tasks": [
+  "read telegram messages",
+  "search chats",
+  "reply to messages",
+  "react to messages"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2be53ca28e719e186a3b6ec6f29a41eaaacb00616f03242ee4c14fe51fa8dda5",
+ "domain": [
+  "real-estate/property-management",
+  "finance/accounting"
+ ],
+ "product": [
+  "appfolio",
+  "skywalk-api"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to an AppFolio property portfolio for tenants, vacancies, reports, maintenance and financial data.",
+ "whenToUse": "Use when a property manager needs to query or manage their AppFolio portfolio data.",
+ "tasks": [
+  "view tenants",
+  "check vacancies",
+  "run reports",
+  "manage maintenance requests",
+  "view financials"
+ ],
+ "effects": {},
+ "flags": []
+}

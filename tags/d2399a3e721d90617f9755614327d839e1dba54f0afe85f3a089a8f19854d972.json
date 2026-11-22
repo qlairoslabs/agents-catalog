@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d2399a3e721d90617f9755614327d839e1dba54f0afe85f3a089a8f19854d972",
+ "domain": [
+  "marketing/knowledge-base"
+ ],
+ "product": [
+  "simulis"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Stores a business's marketing memory: campaigns, results, decisions, brand and audience knowledge.",
+ "whenToUse": "Use when an agent needs past marketing context or brand and audience knowledge for a business.",
+ "tasks": [
+  "recall campaigns",
+  "review campaign results",
+  "record decisions",
+  "access brand knowledge",
+  "access audience knowledge"
+ ],
+ "effects": {},
+ "flags": []
+}

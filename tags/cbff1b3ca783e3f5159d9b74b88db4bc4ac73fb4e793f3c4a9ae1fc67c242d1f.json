@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cbff1b3ca783e3f5159d9b74b88db4bc4ac73fb4e793f3c4a9ae1fc67c242d1f",
+ "domain": [
+  "finance/payments/x402",
+  "software/api-access"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "automate-work"
+ ],
+ "summary": "MCP server for calling x402-protected APIs, paying for requests automatically.",
+ "whenToUse": "Use when an agent must call paid APIs that use the x402 payment protocol.",
+ "tasks": [
+  "call x402 apis",
+  "pay for api requests automatically"
+ ],
+ "effects": {},
+ "flags": [
+  "moves money automatically"
+ ]
+}

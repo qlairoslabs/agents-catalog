@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9967ed9b230af8f72609ba924d340ea0d5352fc9d153b12a6e34b0dcbc8ff3ac",
+ "domain": [
+  "legal/e-signature",
+  "legal/contract-review",
+  "business/company-data"
+ ],
+ "product": [
+  "iipodpis"
+ ],
+ "audience": [
+  "everyone",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "sell"
+ ],
+ "summary": "Prepares PDFs for human signature, checks Russian counterparties by INN and scans contracts for risks.",
+ "whenToUse": "Use when a user needs to get a PDF signed by a person, vet a Russian counterparty, or review contract risks.",
+ "tasks": [
+  "request pdf signature",
+  "check counterparty by inn",
+  "scan contract for risks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "339c3d078a30ffbd78802ed547710995de9451e35aae5e8a8a6ffa43cffe7cc7",
+ "domain": [
+  "data/data-platform",
+  "data/etl"
+ ],
+ "product": [
+  "keboola"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Connects AI assistants to a Keboola project to work with its data, transformations and SQL queries.",
+ "whenToUse": "Use when querying or managing data, tables and transformations in a Keboola project.",
+ "tasks": [
+  "browse data tables",
+  "run sql queries",
+  "manage transformations",
+  "inspect components"
+ ],
+ "effects": {},
+ "flags": []
+}

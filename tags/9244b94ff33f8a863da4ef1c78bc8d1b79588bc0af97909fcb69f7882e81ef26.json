@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "9244b94ff33f8a863da4ef1c78bc8d1b79588bc0af97909fcb69f7882e81ef26",
+ "domain": [
+  "lottery/spain"
+ ],
+ "product": [
+  "tulotero",
+  "selae",
+  "euromillones",
+  "la-primitiva"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Spanish state lottery information: upcoming draws and jackpots, results, prize checking and official game rules.",
+ "whenToUse": "Use when someone asks about Spanish lottery draws, jackpots, results, whether a ticket won or how a game works.",
+ "tasks": [
+  "list upcoming draws",
+  "get draw results",
+  "check ticket prizes",
+  "explain game rules"
+ ],
+ "effects": {
+  "875b64365e8bddba00238c87b5e625799395a5e5298b66c197840eda122bafc0": "write",
+  "3fdedb260a2a8ddc078d9ccd6203493685f58f2e3dfc41a2fd3e0c70744a6534": "write",
+  "6765b54647cab600c79f2023f2ae8c5935309021f7d77ba48998024a441c5f0b": "write",
+  "2ff3693d9f665866de391ae18f0a73851f2bbf0a33c0c71c5b2b161bcee2d1a4": "read"
+ },
+ "flags": []
+}

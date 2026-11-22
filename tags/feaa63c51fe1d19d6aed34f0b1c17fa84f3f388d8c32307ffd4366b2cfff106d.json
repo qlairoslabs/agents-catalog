@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "feaa63c51fe1d19d6aed34f0b1c17fa84f3f388d8c32307ffd4366b2cfff106d",
+ "domain": [
+  "retail/fashion/virtual-try-on"
+ ],
+ "product": [
+  "youcam"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "YouCam API access for virtual try-on of clothing, jewelry and watches.",
+ "whenToUse": "Use when an agent needs to show how clothing, jewelry or watches look on a person.",
+ "tasks": [
+  "try on clothing",
+  "try on jewelry",
+  "try on watches"
+ ],
+ "effects": {},
+ "flags": []
+}

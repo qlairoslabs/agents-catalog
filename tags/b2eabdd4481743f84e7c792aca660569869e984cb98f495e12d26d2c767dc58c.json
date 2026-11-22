@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b2eabdd4481743f84e7c792aca660569869e984cb98f495e12d26d2c767dc58c",
+ "domain": [
+  "productivity/memory",
+  "software/ai-agents"
+ ],
+ "product": [
+  "brainbox"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Private persistent memory graph usable by AI assistants from any MCP client.",
+ "whenToUse": "Use when an assistant should remember or recall user facts across sessions and clients.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "query memory graph"
+ ],
+ "effects": {},
+ "flags": []
+}

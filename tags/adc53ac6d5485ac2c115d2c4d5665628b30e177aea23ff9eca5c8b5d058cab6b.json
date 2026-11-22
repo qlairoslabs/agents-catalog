@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "adc53ac6d5485ac2c115d2c4d5665628b30e177aea23ff9eca5c8b5d058cab6b",
+ "domain": [
+  "software/ai-agents/tool-marketplace",
+  "software/developer-tools"
+ ],
+ "product": [
+  "axiom"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "A marketplace where agents can find, build, publish and combine tools.",
+ "whenToUse": "Use when an agent needs to discover existing tools or create and publish new composed tools.",
+ "tasks": [
+  "discover tools",
+  "build new tools",
+  "publish tools",
+  "compose tools"
+ ],
+ "effects": {},
+ "flags": []
+}

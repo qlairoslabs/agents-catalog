@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "67eff04d5c230f0c2ae05adc2b3861513c56e06a6496fe7456db83d8f00eca6e",
+ "domain": [
+  "software/image-rendering",
+  "design/graphics"
+ ],
+ "product": [
+  "html2img"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Renders supplied HTML and CSS into a PNG image through an HTTP service.",
+ "whenToUse": "Use when an agent needs to turn HTML and CSS markup into a PNG image.",
+ "tasks": [
+  "render html to png",
+  "apply css styling"
+ ],
+ "effects": {},
+ "flags": []
+}

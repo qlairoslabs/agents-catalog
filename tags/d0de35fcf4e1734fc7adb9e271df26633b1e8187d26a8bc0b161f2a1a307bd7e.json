@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "d0de35fcf4e1734fc7adb9e271df26633b1e8187d26a8bc0b161f2a1a307bd7e",
+ "domain": [
+  "construction/subsurface-scanning",
+  "construction/estimating"
+ ],
+ "product": [
+  "groundtruth",
+  "gruntpay"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Gives a dual-model AI second opinion on GPR, locate and pipe scans, and drafts itemized bids for trade jobs.",
+ "whenToUse": "Use when reviewing a subsurface scan image before coring or digging, or drafting a trade job estimate.",
+ "tasks": [
+  "read subsurface scans",
+  "classify core hazards",
+  "flag model disagreement",
+  "draft itemized estimates",
+  "get pricing"
+ ],
+ "effects": {
+  "a6e33ed44bf8cc343ac794cbb469edaeefa2bb4d88599de1c1e90e7769864509": "read",
+  "5af0dacd5f5a145faecfb0dba7a17999d6e980c8670a7459e25804e2528df3d9": "write",
+  "42e063c5f34db68d1c2b33cb1ce9d8c06bfdd6cba3aeb92dbe50cf5d359ed4a4": "read"
+ },
+ "flags": []
+}

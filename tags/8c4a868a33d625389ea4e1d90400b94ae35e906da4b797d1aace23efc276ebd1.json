@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8c4a868a33d625389ea4e1d90400b94ae35e906da4b797d1aace23efc276ebd1",
+ "domain": [
+  "finance/payments/spend-control",
+  "software/ai-agents"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Controls AI agent spending with approved budgets, a decision before each payment and signed receipts.",
+ "whenToUse": "Use when an agent must get approval against a budget before paying and keep verifiable receipts.",
+ "tasks": [
+  "set agent budgets",
+  "approve or deny payments",
+  "issue signed receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

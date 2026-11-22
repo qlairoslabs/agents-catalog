@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6a4be486a237fac2483ac4868b10e5f6f3f558190301a31918ec8d78a9a4c93c",
+ "domain": [
+  "project-management/issue-tracking",
+  "knowledge-management/wiki",
+  "productivity/forms"
+ ],
+ "product": [
+  "yandex-360",
+  "yandex-tracker",
+  "yandex-wiki",
+  "yandex-forms"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Read and write access to Yandex 360 Tracker, Wiki and Forms.",
+ "whenToUse": "Use when an agent needs to work with Yandex Tracker issues, Wiki pages or Forms.",
+ "tasks": [
+  "manage tracker issues",
+  "read and edit wiki pages",
+  "work with forms"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ffa6c5af86226d994844767014eb4e844dedf94de0b694e910ee60252fb278cc",
+ "domain": [
+  "logistics/fleet-management"
+ ],
+ "product": [
+  "zoopit"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to a Zoopit logistics account, covering orders, routes, fleet and live vehicle positions.",
+ "whenToUse": "Use when a user wants to check orders, delivery routes or where their Zoopit vehicles are right now.",
+ "tasks": [
+  "view orders",
+  "view routes",
+  "view fleet",
+  "track live vehicle positions"
+ ],
+ "effects": {},
+ "flags": []
+}

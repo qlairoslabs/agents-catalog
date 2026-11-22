@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "32286fcbd4ea89e7e8ed8cd2f73f1775f73715caf5ac1c5e0c296673e84db252",
+ "domain": [
+  "development/testing",
+  "development/error-monitoring",
+  "development/api-design"
+ ],
+ "product": [
+  "smartbear",
+  "bugsnag",
+  "reflect",
+  "swagger",
+  "pactflow",
+  "qtm4j"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives AI access to SmartBear developer tools including BugSnag, Reflect, Swagger, PactFlow and QTM4J.",
+ "whenToUse": "Use when working with errors, tests, API specs or contract tests in SmartBear products.",
+ "tasks": [
+  "view bugsnag errors",
+  "run reflect tests",
+  "work with swagger api specs",
+  "manage pactflow contracts",
+  "manage qtm4j test cases"
+ ],
+ "effects": {},
+ "flags": []
+}

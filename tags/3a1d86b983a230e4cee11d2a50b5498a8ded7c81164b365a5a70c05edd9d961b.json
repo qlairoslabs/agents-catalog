@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3a1d86b983a230e4cee11d2a50b5498a8ded7c81164b365a5a70c05edd9d961b",
+ "domain": [
+  "productivity/task-management",
+  "productivity/planning"
+ ],
+ "product": [
+  "flowral"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Remote MCP server giving access to Flowral planner flows, tasks and squads.",
+ "whenToUse": "Use when an agent needs to read or manage tasks, flows or teams in a Flowral planner workspace.",
+ "tasks": [
+  "access planner flows",
+  "manage tasks",
+  "manage squads"
+ ],
+ "effects": {},
+ "flags": []
+}

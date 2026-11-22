@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "cffee3df644d467f7187368671bf0ac80d0af4cf3a71ccc2f8f6366ad484b38e",
+ "domain": [
+  "manufacturing/3d-printing"
+ ],
+ "product": [
+  "3d-print-everything"
+ ],
+ "audience": [
+  "design",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "build-software"
+ ],
+ "summary": "Request human-quoted 3D printing and manufacturing jobs: submit requests, upload files, check geometry, track quotes and escalate questions.",
+ "whenToUse": "Use when a user wants a 3D-printed part quoted and shipped in the US or wants a model file checked.",
+ "tasks": [
+  "get capabilities",
+  "submit print job",
+  "attach model files",
+  "check geometry",
+  "check order and quote",
+  "escalate question to human"
+ ],
+ "effects": {
+  "c4f650fa14b1d879e0a66e30919265c60c57265193cdcb2321cf67e63a3da88d": "read",
+  "3c0aa3bc19d3a4a4dad18edccd5972ce592d81a08f00c1a683cb2b0327a58ccb": "write",
+  "019da668cbc7901d193e706f389b6ab8786eb89c13c46ae76a7a14ff70c308b9": "write",
+  "23d52ad90163d4d67eb86cd3f58bf4c88268c4eac7bbbeb99a94b426f18ae47d": "read",
+  "2f63e1541da20a509831d0a82e6c3063b0db1f6ee138581e2231acdefe9948fa": "read",
+  "9774ed3d19d77a5225e9739d2a0d336b69d71fae172bcfcf470f3d9f9caeab17": "write"
+ },
+ "flags": []
+}

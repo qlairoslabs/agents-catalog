@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "3e7126391964e3f04927e5fe3e95d932c4603f4d290e82eb7be256b44ecd9d39",
+ "domain": [
+  "software/consulting",
+  "sales-enablement"
+ ],
+ "product": [
+  "dataart"
+ ],
+ "audience": [
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Searches and reads DataArt case studies by technology, industry, service or keyword.",
+ "whenToUse": "Use when you need examples of DataArt's past projects for a given industry or technology.",
+ "tasks": [
+  "search case studies",
+  "filter by tags",
+  "read full case",
+  "list tags"
+ ],
+ "effects": {
+  "c46e707c7c0155b58f7e25d1072ae20b28f61fa270a8de54b8d54276e456d8b5": "write",
+  "913005e7e80e5b9146b666ee971a54dde6f1c54db7c591cfacb746a982ac6d34": "read",
+  "d64e9405164e1df1f6a92ab1a8731bc2cb6c56e7b55251bbd49a3e35dcccc28b": "read"
+ },
+ "flags": []
+}

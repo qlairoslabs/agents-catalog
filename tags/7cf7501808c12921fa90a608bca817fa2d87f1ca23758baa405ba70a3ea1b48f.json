@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7cf7501808c12921fa90a608bca817fa2d87f1ca23758baa405ba70a3ea1b48f",
+ "domain": [
+  "software/dns",
+  "internet/domains"
+ ],
+ "product": [
+  "dns-lgbt"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Manages DNS records, DNSSEC and nameserver delegation for domains hosted on dns.lgbt.",
+ "whenToUse": "Use when you need to view or change DNS settings for a dns.lgbt domain.",
+ "tasks": [
+  "manage dns records",
+  "configure dnssec",
+  "set nameserver delegation"
+ ],
+ "effects": {},
+ "flags": []
+}

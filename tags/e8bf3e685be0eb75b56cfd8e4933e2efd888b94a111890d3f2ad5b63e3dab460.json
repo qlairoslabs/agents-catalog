@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e8bf3e685be0eb75b56cfd8e4933e2efd888b94a111890d3f2ad5b63e3dab460",
+ "domain": [
+  "media/monitoring",
+  "analytics/sentiment"
+ ],
+ "product": [
+  "drishti"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes Indian news media with bilingual sentiment scoring, source credibility tiers and story clustering.",
+ "whenToUse": "Use when an agent needs to track Indian media coverage, sentiment or credibility of news on a topic.",
+ "tasks": [
+  "analyze news sentiment",
+  "rate source credibility",
+  "cluster news stories",
+  "monitor indian media"
+ ],
+ "effects": {},
+ "flags": []
+}

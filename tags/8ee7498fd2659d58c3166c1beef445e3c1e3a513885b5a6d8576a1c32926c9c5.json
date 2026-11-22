@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8ee7498fd2659d58c3166c1beef445e3c1e3a513885b5a6d8576a1c32926c9c5",
+ "domain": [
+  "finance/invoicing",
+  "finance/accounting",
+  "finance/tax"
+ ],
+ "product": [
+  "mobilna-faktura",
+  "ksef"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Accesses invoices, costs, KPiR ledger, VAT and KSeF data from a Mobilna Faktura account in Poland.",
+ "whenToUse": "Use when reviewing a Polish business's invoicing, costs or VAT data in Mobilna Faktura.",
+ "tasks": [
+  "view invoices",
+  "view costs",
+  "view kpir ledger",
+  "view vat data",
+  "view ksef data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "14cbab50bc22e66461f4095a0618d38fa971a0f9e93a9b771ca5a2cbe7c44d40",
+ "domain": [
+  "finance/crypto-swaps"
+ ],
+ "product": [
+  "monero",
+  "usdc",
+  "arbitrum"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Quote and create swaps between Monero and native USDC on Arbitrum One without an account, with status tracking and support tickets.",
+ "whenToUse": "Use when a user wants to swap XMR for USDC or the reverse and will fund the order from their own wallet.",
+ "tasks": [
+  "get swap quote",
+  "create swap order",
+  "track swap status",
+  "check funding options",
+  "find lost orders",
+  "open support ticket",
+  "submit feedback",
+  "request agent key"
+ ],
+ "effects": {
+  "57cdd6e649a37b010065ddba69d20d21277008d584b2331761b239c8d49197e9": "read",
+  "d7069f96e8c34db5b81a0eb1d24db678e7c4deea814231e6f6b24af13dae06c5": "write",
+  "5b16021cdf959bba09ddef2ad4926724c687b79b4c4f03e2fce08b7439d8b420": "read",
+  "a6cc2eccd8a80c0f47e3116b4014b8c233969d5c9bbd6212c186d0fc82fc2923": "read",
+  "034f998c06c4ea22081eaa23595ac8d6ed8b4ab2bd582e475a8c9011d8ec16a7": "read",
+  "0af492f08c47189b49c99dfdf3aeeb25e9e09d683c1e3f55f43ef912ceadcf88": "read",
+  "b9558dbd2471d76b5aee8c4a6a8d86474e2792747ff19b16c53d1795c722940b": "read",
+  "4e2407bf7b913ecb6ddb1310a4f26420a0ed5d4c60bf2598fcdd3e5537aab72d": "write",
+  "ba20986036572a7f7f127905417a1ff3bb91d65db00d193c9173f42e07724ae6": "read",
+  "13b43c9866a6ddc91c3ee2b08614f77dc6ae22ad6720f31e3f138367d164dfff": "write",
+  "b61312b32a330562fdf7dc1191054de26790ae11743e495190b3b8cb40baaf0b": "write"
+ },
+ "flags": [
+  "crypto-payment-flow"
+ ]
+}

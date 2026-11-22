@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e400ca1e5af12d53bf803661ca10aa019cd29c9a0ce0b2c4ae3ef93e8634608a",
+ "domain": [
+  "software/app-builder",
+  "software/hosting"
+ ],
+ "product": [
+  "aurora"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Creates, edits, previews and deploys full-stack web apps to a live URL from an MCP client.",
+ "whenToUse": "Use when a user wants to build and publish a web app without managing their own hosting.",
+ "tasks": [
+  "create web app",
+  "edit app code",
+  "preview app",
+  "deploy to live url"
+ ],
+ "effects": {},
+ "flags": []
+}

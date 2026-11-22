@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0a61f637fcf253fac518923eba7a10c6642f38e0d97286062a723b44771cf9ce",
+ "domain": [
+  "software/file-storage/content-management"
+ ],
+ "product": [
+  "egnyte"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Remote MCP server for searching, uploading and managing files in an Egnyte account.",
+ "whenToUse": "Use when you need to find, read, upload or organize files stored in Egnyte.",
+ "tasks": [
+  "search files",
+  "upload files",
+  "manage files and folders",
+  "access file content"
+ ],
+ "effects": {},
+ "flags": []
+}

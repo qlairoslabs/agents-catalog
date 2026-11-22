@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "60f67b6cda25c519457021f78f1902cea0ba8db5278592c359927635c0c2fc16",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local-first persistent memory store for AI coding agents to keep context across sessions.",
+ "whenToUse": "Use when a coding agent needs to store and recall information across sessions.",
+ "tasks": [
+  "store memories",
+  "recall past context",
+  "search memories"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e7ff91d8568e4a3fbfaad06ab63b833a32659d9ec5f15215c5c1534c08c2f646",
+ "domain": [
+  "software/backend-hosting/database",
+  "software/devops"
+ ],
+ "product": [
+  "pocketbase-cloud",
+  "pocketbase"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Manages PocketBase Cloud projects, instances, deploys, domains, collections and records.",
+ "whenToUse": "Use when creating or managing PocketBase Cloud instances, deployments, domains or data.",
+ "tasks": [
+  "manage projects",
+  "manage instances",
+  "deploy",
+  "configure domains",
+  "manage collections",
+  "manage records"
+ ],
+ "effects": {},
+ "flags": []
+}

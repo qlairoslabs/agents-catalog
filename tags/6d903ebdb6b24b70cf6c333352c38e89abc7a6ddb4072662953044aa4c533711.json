@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6d903ebdb6b24b70cf6c333352c38e89abc7a6ddb4072662953044aa4c533711",
+ "domain": [
+  "communication/sms",
+  "security/otp-verification"
+ ],
+ "product": [
+  "envoisms",
+  "whatsapp"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "build-software"
+ ],
+ "summary": "Sends SMS and WhatsApp messages and verifies one-time codes, focused on Morocco with worldwide reach.",
+ "whenToUse": "Use when an agent must send SMS or WhatsApp messages or run OTP verification, especially for Moroccan numbers.",
+ "tasks": [
+  "send sms",
+  "send whatsapp messages",
+  "send otp codes",
+  "verify otp codes"
+ ],
+ "effects": {},
+ "flags": []
+}

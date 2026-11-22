@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3286620751f4432441f00e67f25709bc14bb4dd5aec87eaf25a820b6d444f483",
+ "domain": [
+  "software/backend",
+  "software/databases",
+  "software/cloud"
+ ],
+ "product": [
+  "firebase",
+  "firestore",
+  "google-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Connects an agent to Google Firebase to manage Firestore, authentication, cloud functions, hosting and storage.",
+ "whenToUse": "Use when building or managing a Firebase backend, such as Firestore data, auth users, functions or hosting.",
+ "tasks": [
+  "manage firestore databases",
+  "manage authentication",
+  "deploy cloud functions",
+  "manage hosting",
+  "manage storage"
+ ],
+ "effects": {},
+ "flags": []
+}

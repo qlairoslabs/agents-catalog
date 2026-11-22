@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4327ac2be3a69e461bec76a35a24ef3cac3fcc64dc8e5edee3ebff09bbb0337e",
+ "domain": [
+  "software/cybersecurity/application-security",
+  "ai/agents"
+ ],
+ "product": [
+  "haiec"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Local application security checks for AI applications and agents, producing evidence-backed findings.",
+ "whenToUse": "Use when assessing the security posture of an AI application or agent codebase.",
+ "tasks": [
+  "scan ai applications for security issues",
+  "produce security evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

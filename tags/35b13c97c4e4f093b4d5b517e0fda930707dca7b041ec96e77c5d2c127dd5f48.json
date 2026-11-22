@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "35b13c97c4e4f093b4d5b517e0fda930707dca7b041ec96e77c5d2c127dd5f48",
+ "domain": [
+  "documents/pdf",
+  "documents/templates"
+ ],
+ "product": [
+  "pdfzen",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "get-paid",
+  "automate-work"
+ ],
+ "summary": "Lists PDF starter templates and prepares paid render requests from templates or raw HTML, billed in USDC via x402 or by API key.",
+ "whenToUse": "Use when generating invoices, receipts, contracts or other PDFs from templates or HTML.",
+ "tasks": [
+  "list starter templates",
+  "get template data shape",
+  "prepare template render",
+  "prepare HTML render"
+ ],
+ "effects": {
+  "d13f0a56f56f8944693297c42946d17c11d4c3b2ce277ed6190524b6637c4a0b": "read",
+  "a50bc851dc56038861c34aa8c91d04114a5ea67c0d592f6e236e6f5c69044d41": "read",
+  "b762dd7ae10b99a108a485f9cde5e8e541d32e399534398e5b87393e8d1cacac": "write",
+  "96d2cd957e0c2cbd8a4ebfdaf8bd77796fcc176e8d26e8b52330e214f2d63eda": "write"
+ },
+ "flags": [
+  "paid renders in crypto"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d973f0f5ed5f2aafecdb8b197a09b373eaefe1a03f2c165adb17b8ed2f9af508",
+ "domain": [
+  "software/search",
+  "software/infrastructure"
+ ],
+ "product": [
+  "typesense",
+  "typesense-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Adds typo-tolerant search to sites and apps and manages the Typesense Cloud clusters that power it.",
+ "whenToUse": "Use when building or operating search for an app with Typesense Cloud, including cluster management.",
+ "tasks": [
+  "set up search",
+  "manage clusters",
+  "index content",
+  "run search queries"
+ ],
+ "effects": {},
+ "flags": []
+}

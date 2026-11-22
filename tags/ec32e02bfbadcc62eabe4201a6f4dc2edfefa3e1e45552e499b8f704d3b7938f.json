@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ec32e02bfbadcc62eabe4201a6f4dc2edfefa3e1e45552e499b8f704d3b7938f",
+ "domain": [
+  "automotive/motorcycle-buyback"
+ ],
+ "product": [
+  "usedbikecenter-zama"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Finds Japanese motorcycle model names, gives approximate buyback prices, and submits a free on-site appraisal request in the Kanto area.",
+ "whenToUse": "Use when a user in Japan wants to know what a used motorcycle or scooter would fetch or to book a buyback appraisal.",
+ "tasks": [
+  "search motorcycle models",
+  "get buyback price estimate",
+  "submit buyback request",
+  "schedule appraisal"
+ ],
+ "effects": {
+  "d021e0c0040f64b7b77e50c4b4bbf630770d1fb18165a1038b8fd4c716066438": "read",
+  "9d6f84dc55eee62d9bb05f7fb85939526e0e26f478995ce100fc2e0748c3a67f": "read",
+  "fa59cd3ab1740bee31b64987448dff2c13e4cc0e2aa00837c925618303e2883f": "write"
+ },
+ "flags": []
+}

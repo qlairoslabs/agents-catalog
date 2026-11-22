@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c043aaeb16267773bb4790ca4ffb674fe26066525b7483b326debe10cc1cb9f8",
+ "domain": [
+  "finance/credit-cards",
+  "personal-finance/rewards"
+ ],
+ "product": [
+  "koko-finance"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Searches credit cards, compares card portfolios and suggests ways to maximize rewards.",
+ "whenToUse": "Use when the user wants help choosing credit cards or optimizing card rewards.",
+ "tasks": [
+  "search credit cards",
+  "compare portfolios",
+  "optimize rewards"
+ ],
+ "effects": {},
+ "flags": []
+}

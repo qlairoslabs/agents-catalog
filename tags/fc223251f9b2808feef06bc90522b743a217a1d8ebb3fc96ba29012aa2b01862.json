@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fc223251f9b2808feef06bc90522b743a217a1d8ebb3fc96ba29012aa2b01862",
+ "domain": [
+  "software/ai/computer-vision"
+ ],
+ "product": [
+  "roboflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Roboflow computer vision tools covering datasets, annotation, versioning, workflows and inference.",
+ "whenToUse": "Use when the user is building or running computer vision models with Roboflow.",
+ "tasks": [
+  "manage datasets",
+  "annotate images",
+  "version datasets",
+  "run workflows",
+  "run inference"
+ ],
+ "effects": {},
+ "flags": []
+}

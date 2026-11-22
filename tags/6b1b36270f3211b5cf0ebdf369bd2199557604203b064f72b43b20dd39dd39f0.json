@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6b1b36270f3211b5cf0ebdf369bd2199557604203b064f72b43b20dd39dd39f0",
+ "domain": [
+  "software/cybersecurity/threat-intelligence"
+ ],
+ "product": [
+  "ismalicious"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Threat intelligence lookups for IPs, domains, URLs, file hashes, emails and phones, plus CVE data and injection and email scans.",
+ "whenToUse": "Use when an agent must check whether an indicator is malicious, look up a CVE, or scan text or email for injection or phishing.",
+ "tasks": [
+  "check ip reputation",
+  "check domain and url reputation",
+  "check file hash reputation",
+  "check email and phone reputation",
+  "look up cves",
+  "scan for prompt injection",
+  "scan emails"
+ ],
+ "effects": {},
+ "flags": []
+}

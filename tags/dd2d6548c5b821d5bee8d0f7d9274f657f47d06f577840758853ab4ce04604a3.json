@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "dd2d6548c5b821d5bee8d0f7d9274f657f47d06f577840758853ab4ce04604a3",
+ "domain": [
+  "business/ai-adoption",
+  "business/compliance"
+ ],
+ "product": [
+  "claude",
+  "microsoft-365-copilot",
+  "chatgpt",
+  "google-workspace"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Sourced guidance for adopting AI in business processes: readiness scoring, cost estimates, rollout plans and EU/national regulations for SI, AT, DE, HR.",
+ "whenToUse": "Use when a company in Slovenia, Austria, Germany or Croatia plans AI adoption and needs readiness, cost and compliance advice.",
+ "tasks": [
+  "ask readiness questions",
+  "score AI readiness",
+  "estimate AI costs and payback",
+  "plan phased rollout",
+  "list process types",
+  "find adoption patterns",
+  "get pattern details",
+  "look up regulations"
+ ],
+ "effects": {
+  "740beb6866335cd70d8bf7fd58d3e7ae692ea11790841d8c79f18523d3a049ea": "read",
+  "187b2cd2540a5b2117b43ec9a3bc93580a535afcc27a98549db1182dcf9d27cc": "read",
+  "56d94d0cefa4e65a0ee958a3e565f7541ecdbf754ab5be80725d0a152bfe509b": "write",
+  "2d2056a9cb58a3acaad404c6ff0e9666af181ea047d924eda3c19061fb5a1736": "read",
+  "99e23bb275a8991658bb6231f77698bfb401219eaecfd4bf818ef424292457b3": "read",
+  "52edab08d816dd35bae3f5c840a0b440a3d3176e8a39e3955e83897fdf034e2c": "write",
+  "ff1eec2b1702166a02463f192c03572264b61f274610425429282a92437d01fd": "read",
+  "bd87075f79d41856071bc385fb9bf6e20f473f48043ae086e3be59bcff5a3695": "read"
+ },
+ "flags": []
+}

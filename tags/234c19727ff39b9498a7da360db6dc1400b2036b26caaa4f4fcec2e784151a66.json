@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "234c19727ff39b9498a7da360db6dc1400b2036b26caaa4f4fcec2e784151a66",
+ "domain": [
+  "finance/trading/backtesting"
+ ],
+ "product": [
+  "backtest360"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Exposes the Backtest360 engine API so agents can run trading strategy backtests.",
+ "whenToUse": "Use when a user wants to test a trading strategy against historical data.",
+ "tasks": [
+  "run backtests",
+  "evaluate trading strategies"
+ ],
+ "effects": {},
+ "flags": []
+}

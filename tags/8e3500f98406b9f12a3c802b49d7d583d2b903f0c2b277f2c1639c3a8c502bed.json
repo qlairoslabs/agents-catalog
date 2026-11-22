@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8e3500f98406b9f12a3c802b49d7d583d2b903f0c2b277f2c1639c3a8c502bed",
+ "domain": [
+  "web/screenshots",
+  "web/auditing"
+ ],
+ "product": [
+  "screenshotink"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Captures, compares and audits web page screenshots, including capture across a sitemap.",
+ "whenToUse": "Use when capturing or visually comparing web pages.",
+ "tasks": [
+  "take screenshot",
+  "diff screenshots",
+  "audit page",
+  "capture sitemap"
+ ],
+ "effects": {},
+ "flags": []
+}

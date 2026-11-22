@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d894dfd6ba9bfe5d62741c020dc99f2225a656b16011423e71cd1c0f2c830a96",
+ "domain": [
+  "business/news",
+  "finance/grants"
+ ],
+ "product": [
+  "giornale-delle-pmi",
+  "incentivi-gov"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Searches and reads Italian SME news articles and lists open grants and incentives with deadlines.",
+ "whenToUse": "Use when an Italian business needs news on tax, financing or labour, or open grants for SMEs.",
+ "tasks": [
+  "search articles",
+  "list latest articles",
+  "read full article",
+  "find open grants"
+ ],
+ "effects": {
+  "ac0b60d411fa388011a023a803b24ecfe4097a8cba291eec45c35cc37f9fde9e": "read",
+  "9f4f34e3a11d881e9fddf45c44abb6c7b61e0c9db652e5e2e13d557bffb608e5": "read",
+  "f3d59108feb6ba17ef241100481e6a1615eecccaf5bf2ede6b6606abdf619dea": "read",
+  "333fa2460d1ec2448eb41f373fee79d9a1665ca495e947a36904026d6b565ff2": "read"
+ },
+ "flags": []
+}

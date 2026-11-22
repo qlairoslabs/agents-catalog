@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "d0b94a921e7298c787222f13452c7e778f8321bd6eaa0a8f6765ee9bcbbe8019",
+ "domain": [
+  "crypto/x402-verification",
+  "web3/security"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "usdc",
+  "erc-20"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Pay-per-call x402 tools on Base: signed attestations, bounty packet preflight, approval checks, DNS and wallet lookups and x402 endpoint checks.",
+ "whenToUse": "Use before paying an x402 endpoint, signing a token approval, or claiming a bounty, or to inspect a Base wallet or domain DNS.",
+ "tasks": [
+  "attest delivery packet",
+  "preflight bounty packet",
+  "check token approval",
+  "check DNS and email deliverability",
+  "read Base wallet balances",
+  "check x402 endpoint"
+ ],
+ "effects": {
+  "90546f03d9bf23cccd1c92b0dbb31cf73cc4dcc0f1947d88b07b6f6c39601fa8": "write",
+  "1a179da57b4861e08e1a29822157e52c4dcecd4ce9b3b3797c10ae744bef14fc": "write",
+  "cb876b7809a1cf50ec9e32fe3256eb78fa8bbd9b0d1dc44909bd4e992a60eb9d": "read",
+  "f24685f3ede4a4d9ecaf3ec852c48be85f74e9e6b236e0df3c491c4c9749a218": "read",
+  "a997cfeab75c12c75a244641049aa94725ac0622dd25a37ee88c5823418bff87": "read",
+  "05abbff1bd17c3d952155b56bd29d509b8ad2b16a14e7f88779776a5c2b859be": "read"
+ },
+ "flags": [
+  "paid per call in USDC",
+  "fetches arbitrary supplied URLs"
+ ]
+}

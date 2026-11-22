@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "54f4372cc6ac37657b2aa67936b614d1b6398d04461131b39aa8c98c78db3487",
+ "domain": [
+  "data/databases/mysql",
+  "operations/cloud"
+ ],
+ "product": [
+  "google-cloud-sql",
+  "mysql"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects Claude to a Google Cloud SQL for MySQL database to work with its data.",
+ "whenToUse": "Use when you need to query or manage data in a Cloud SQL for MySQL instance.",
+ "tasks": [
+  "connect to cloud sql mysql",
+  "query database data",
+  "inspect database"
+ ],
+ "effects": {},
+ "flags": []
+}

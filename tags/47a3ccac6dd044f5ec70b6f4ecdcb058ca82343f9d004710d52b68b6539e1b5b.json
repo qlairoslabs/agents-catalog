@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "47a3ccac6dd044f5ec70b6f4ecdcb058ca82343f9d004710d52b68b6539e1b5b",
+ "domain": [
+  "software/documentation",
+  "software/web-frameworks"
+ ],
+ "product": [
+  "astro"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches the official Astro web framework documentation, guides and API references.",
+ "whenToUse": "Use when answering questions or writing code that depends on Astro framework features or APIs.",
+ "tasks": [
+  "search Astro docs",
+  "look up API references",
+  "find guides"
+ ],
+ "effects": {
+  "66acec14e9e9db5e44d50557243d34ef1654129480542488903f21dd55e1d2bc": "read"
+ },
+ "flags": []
+}

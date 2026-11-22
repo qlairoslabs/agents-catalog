@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "dffb190743969b825b435e9d1ec3c6484dcfc4ec49aab400d87fc31adfb53126",
+ "domain": [
+  "software/cloud/deployment"
+ ],
+ "product": [
+  "google-cloud-run",
+  "google-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Google's connector for deploying and managing applications on Cloud Run.",
+ "whenToUse": "Use when an agent needs to deploy or manage a service on Google Cloud Run.",
+ "tasks": [
+  "deploy applications",
+  "manage cloud run services"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "49f1ff242b22f48519738a070ec75032de8993bec1565afa84dfb20b736ff504",
+ "domain": [
+  "manufacturing/cutting-optimization",
+  "manufacturing/woodworking"
+ ],
+ "product": [
+  "smartcut"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Optimizes cutlists for sheet, linear and roll stock with grain, kerf, nesting and saw export support.",
+ "whenToUse": "Use when an agent must plan material cuts to minimize waste and export saw-ready layouts.",
+ "tasks": [
+  "optimize sheet cutlists",
+  "optimize linear stock",
+  "optimize roll stock",
+  "account for grain and kerf",
+  "nest parts",
+  "export saw files"
+ ],
+ "effects": {},
+ "flags": []
+}

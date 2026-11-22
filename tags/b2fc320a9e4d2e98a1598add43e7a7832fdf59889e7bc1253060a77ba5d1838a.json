@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b2fc320a9e4d2e98a1598add43e7a7832fdf59889e7bc1253060a77ba5d1838a",
+ "domain": [
+  "productivity/meeting-notes",
+  "knowledge/memory-search"
+ ],
+ "product": [
+  "vocci"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Read-only access to authorized Vocci sessions, notes, files and memory search.",
+ "whenToUse": "Use when an agent needs to look up content from a user's Vocci sessions or notes.",
+ "tasks": [
+  "read sessions",
+  "read notes",
+  "read files",
+  "search memory"
+ ],
+ "effects": {},
+ "flags": []
+}

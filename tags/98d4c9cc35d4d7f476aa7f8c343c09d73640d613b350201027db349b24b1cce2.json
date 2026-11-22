@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "98d4c9cc35d4d7f476aa7f8c343c09d73640d613b350201027db349b24b1cce2",
+ "domain": [
+  "beauty/virtual-try-on",
+  "media/image-analysis"
+ ],
+ "product": [
+  "youcam"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "YouCam API access for skin, face and body analysis, makeup try-on, and hair and beard styling.",
+ "whenToUse": "Use when an agent needs skin or face analysis or virtual makeup and hairstyle try-on.",
+ "tasks": [
+  "analyze skin",
+  "analyze face and body",
+  "try on makeup",
+  "style hair",
+  "style beard"
+ ],
+ "effects": {},
+ "flags": []
+}

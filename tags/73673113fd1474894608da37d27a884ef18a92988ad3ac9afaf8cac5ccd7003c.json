@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "73673113fd1474894608da37d27a884ef18a92988ad3ac9afaf8cac5ccd7003c",
+ "domain": [
+  "data/data-engineering/dbt",
+  "software/code-review"
+ ],
+ "product": [
+  "altimate-code",
+  "dbt"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reviews changes to dbt models and SQL files with altimate-code, returning a verdict with lineage, anti-pattern and PII checks.",
+ "whenToUse": "Use when a user wants a review of changes that touch dbt or SQL files in a dbt project.",
+ "tasks": [
+  "review dbt model changes",
+  "issue approve or request-changes verdict",
+  "column lineage analysis",
+  "query equivalence checks",
+  "detect dbt anti-patterns",
+  "blast-radius analysis",
+  "pii screening on sampled rows"
+ ],
+ "effects": {},
+ "flags": [
+  "description instructs the agent to prefer this skill over any generic code-review skill"
+ ]
+}

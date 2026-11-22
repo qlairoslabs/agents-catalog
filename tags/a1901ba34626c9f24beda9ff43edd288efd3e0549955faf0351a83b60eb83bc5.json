@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a1901ba34626c9f24beda9ff43edd288efd3e0549955faf0351a83b60eb83bc5",
+ "domain": [
+  "analytics/product-analytics/dashboards"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds Amplitude dashboards from goals or requirements, organizing new or existing charts into sections.",
+ "whenToUse": "Use when a user wants a complete Amplitude dashboard created or existing charts assembled into one view.",
+ "tasks": [
+  "create dashboard",
+  "organize charts into sections",
+  "choose layouts",
+  "assemble existing charts"
+ ],
+ "effects": {},
+ "flags": []
+}

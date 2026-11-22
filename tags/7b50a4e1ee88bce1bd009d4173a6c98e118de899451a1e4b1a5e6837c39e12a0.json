@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7b50a4e1ee88bce1bd009d4173a6c98e118de899451a1e4b1a5e6837c39e12a0",
+ "domain": [
+  "communication/whatsapp-business",
+  "messaging/api"
+ ],
+ "product": [
+  "360dialog",
+  "whatsapp"
+ ],
+ "audience": [
+  "support",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Manages WhatsApp Business accounts through 360dialog, including channels, message templates, sandbox and inbox.",
+ "whenToUse": "Use when the user runs WhatsApp Business messaging through 360dialog and needs to manage channels, templates or conversations.",
+ "tasks": [
+  "manage whatsapp channels",
+  "manage message templates",
+  "use sandbox",
+  "read inbox"
+ ],
+ "effects": {},
+ "flags": []
+}

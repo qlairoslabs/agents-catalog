@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2752dec87301b3d80f7b14ee5f56b4a3ddbdc9269b4ef3e375ec3a8919a92c1e",
+ "domain": [
+  "data/web-scraping"
+ ],
+ "product": [
+  "alterlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local MCP server that scrapes web pages, extracts structured data and takes screenshots, with anti-bot bypass.",
+ "whenToUse": "Use when an agent needs content or structured data from websites that may block automated access.",
+ "tasks": [
+  "scrape web pages",
+  "extract structured data",
+  "take screenshots"
+ ],
+ "effects": {},
+ "flags": [
+  "advertises anti-bot bypass"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "fe982d4b8ff63d27c101411f604fe7490f2ee11ad731f3c2ec1492221417946d",
+ "domain": [
+  "data/catalog",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-glue",
+  "amazon-s3",
+  "amazon-s3-tables",
+  "amazon-redshift"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Locates specific tables and datasets across Glue Data Catalog, S3, S3 Tables and Redshift, including reverse lookup from S3 paths.",
+ "whenToUse": "Use when someone needs to find which table or dataset holds particular data.",
+ "tasks": [
+  "find tables by name",
+  "locate datasets",
+  "search catalog",
+  "reverse lookup s3 paths",
+  "find redshift tables"
+ ],
+ "effects": {},
+ "flags": []
+}

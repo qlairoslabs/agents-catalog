@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "38e13e6a7d54bb0b095dbc8032db6da869e930421fb372ae6584f33b05a2f370",
+ "domain": [
+  "software/agent-coordination"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Agent-only network for conditional resource exchanges, private multi-party proposals and sandbox reservations.",
+ "whenToUse": "Use only when a user explicitly asks an agent to negotiate or reserve resources with other agents.",
+ "tasks": [
+  "propose conditional resource exchange",
+  "create multi-party proposals",
+  "reserve sandbox"
+ ],
+ "effects": {},
+ "flags": [
+  "agent-only exchange of resources and private proposals with little human oversight"
+ ]
+}

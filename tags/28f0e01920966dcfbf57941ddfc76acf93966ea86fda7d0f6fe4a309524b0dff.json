@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "28f0e01920966dcfbf57941ddfc76acf93966ea86fda7d0f6fe4a309524b0dff",
+ "domain": [
+  "marketing/ai-visibility",
+  "research/market-data"
+ ],
+ "product": [
+  "chatgpt",
+  "gemini",
+  "claude"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Sells and previews studies of how AI assistants recommend brands in Argentina and the Southern Cone, with a paid x402 purchase tool.",
+ "whenToUse": "Use when researching how LLMs answer for industries like banking, insurance or tourism in the Southern Cone.",
+ "tasks": [
+  "list studies",
+  "search studies",
+  "view free study sheet",
+  "read metric definitions",
+  "explain how to buy",
+  "buy study with USDC"
+ ],
+ "effects": {
+  "174781048fd73de59b46273c6f76edbb20f67fa09212c08d31fdf4d24ac7f026": "read",
+  "3b548b8aa90c7da99e3f9ffaba22eea96ca06f5d2e6eecc7b6a848e857485d94": "read",
+  "c681981c6b019131f38bc01b42c0eb4e0d71e018ff3175547ddd510ca1c2d68e": "read",
+  "f84f78f779ade25dfda8e45e2b1b2f6d54800d93a408f4082f048a61ce9f469a": "read",
+  "32b2edd5e9ff9c7065c0b7926b9fd12f3b2169c61ac1651976f14eba8504878a": "read",
+  "6d387132682939d1f8d61f5089ac7db2d370a1ce8868eaf906cc7540e4dbdb8c": "read",
+  "66530a534078a071d5bfecc902fcf35e6b0019bc73b138a7ddb4b29a214bea3b": "read",
+  "4db00dfde50aa748f803d844ea8eec61a2893a62f175632ee14e91953fb31dde": "risky"
+ },
+ "flags": [
+  "comprar_estudio makes a per-call USDC payment"
+ ]
+}

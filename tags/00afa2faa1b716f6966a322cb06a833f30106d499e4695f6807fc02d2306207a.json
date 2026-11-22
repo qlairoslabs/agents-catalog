@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "00afa2faa1b716f6966a322cb06a833f30106d499e4695f6807fc02d2306207a",
+ "domain": [
+  "finance/agent-payments",
+  "finance/virtual-cards"
+ ],
+ "product": [
+  "allowance"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Lets agents make purchases with human-approved virtual cards, with receipts and audit trails.",
+ "whenToUse": "Use when an agent needs to buy something online under human approval and keep spending records.",
+ "tasks": [
+  "request purchase approval",
+  "issue virtual cards",
+  "make purchases",
+  "store receipts",
+  "keep audit trail"
+ ],
+ "effects": {},
+ "flags": []
+}

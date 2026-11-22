@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8cdb6b0c4431bb27fe1bb035a48c1d27dc4c875ccabe6b6e888b1f25b65fd81b",
+ "domain": [
+  "maps/geolocation",
+  "travel/navigation"
+ ],
+ "product": [
+  "google-maps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Google Maps tools for geocoding, place search, directions, weather and related lookups.",
+ "whenToUse": "Use when an agent needs locations, places, routes or local weather.",
+ "tasks": [
+  "geocode addresses",
+  "reverse geocode",
+  "search places",
+  "get directions",
+  "get weather"
+ ],
+ "effects": {},
+ "flags": []
+}

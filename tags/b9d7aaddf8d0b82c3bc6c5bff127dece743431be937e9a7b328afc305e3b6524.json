@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b9d7aaddf8d0b82c3bc6c5bff127dece743431be937e9a7b328afc305e3b6524",
+ "domain": [
+  "legal/nonprofit-compliance",
+  "government/regulation"
+ ],
+ "product": [
+  "501c3-help"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Sourced US state nonprofit compliance rules with citations, state comparisons and filing deadlines.",
+ "whenToUse": "Use when answering questions about nonprofit formation, registration, reporting or filing deadlines in US states.",
+ "tasks": [
+  "get state requirements",
+  "compare states by topic",
+  "list filing deadlines"
+ ],
+ "effects": {
+  "ef894a0538c0355e3814719567bfd64981cd86e0ec6390f85dea1233c4500868": "read",
+  "95744060d6b4a5b00f63ac37caf1ff1d5cea9509cc159cbaae75918a15477998": "read",
+  "aa6ca20ee0dfee3df94154b480e3e693858b6b66d42d320dc9f0eea925f084fa": "read"
+ },
+ "flags": []
+}

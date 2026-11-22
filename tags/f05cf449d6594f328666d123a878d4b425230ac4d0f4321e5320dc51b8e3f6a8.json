@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f05cf449d6594f328666d123a878d4b425230ac4d0f4321e5320dc51b8e3f6a8",
+ "domain": [
+  "software/developer-tools/knowledge-base",
+  "software/debugging"
+ ],
+ "product": [
+  "misakanet"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searchable store of evidence-rated failure lessons that coding agents can query by error text.",
+ "whenToUse": "Use when a coding agent hits an error and wants known fixes or lessons for it.",
+ "tasks": [
+  "search failure lessons by error",
+  "record failure lessons"
+ ],
+ "effects": {},
+ "flags": []
+}

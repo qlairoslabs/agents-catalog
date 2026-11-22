@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "22e68be362c2e63ce052aadf1f46cda4342dd33e5f05a8882944897ff2f9c843",
+ "domain": [
+  "finance/accounting"
+ ],
+ "product": [
+  "beancount"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Queries, edits and reconciles a hosted Beancount ledger with BQL, reports, files and bank imports.",
+ "whenToUse": "Use when an agent needs to query, update or reconcile plain-text accounting records in Beancount.",
+ "tasks": [
+  "run bql queries",
+  "generate reports",
+  "edit ledger files",
+  "import bank data",
+  "reconcile accounts"
+ ],
+ "effects": {},
+ "flags": []
+}

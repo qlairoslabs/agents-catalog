@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "80662c9d87d6c14b08e814f5aebdc0813cf0d4c2031a6602257bb0051cb64d26",
+ "domain": [
+  "ai/voice-agents",
+  "support/call-analysis"
+ ],
+ "product": [
+  "synthflow"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Connects to the Synthflow voice-agent platform with skills for reviewing calls, auditing agent prompts and searching docs.",
+ "whenToUse": "Use when managing or improving Synthflow AI voice agents and reviewing their calls.",
+ "tasks": [
+  "review calls",
+  "audit agent prompts",
+  "search synthflow docs",
+  "access synthflow platform"
+ ],
+ "effects": {},
+ "flags": []
+}

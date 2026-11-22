@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "de9b49a1b579952d07785a94405d9a174d1d2b29896aea8072f25a83b8a05969",
+ "domain": [
+  "software/cloud/storage"
+ ],
+ "product": [
+  "amazon-s3",
+  "amazon-ebs",
+  "amazon-efs",
+  "amazon-fsx",
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for choosing, comparing and troubleshooting AWS object, file and block storage services.",
+ "whenToUse": "Use when deciding where to store, archive, migrate or protect data on AWS storage services.",
+ "tasks": [
+  "choose storage services",
+  "compare storage options",
+  "plan data migration",
+  "set up replication and recovery",
+  "optimize storage costs",
+  "choose shared file systems",
+  "answer storage performance questions",
+  "troubleshoot storage configuration"
+ ],
+ "effects": {},
+ "flags": []
+}

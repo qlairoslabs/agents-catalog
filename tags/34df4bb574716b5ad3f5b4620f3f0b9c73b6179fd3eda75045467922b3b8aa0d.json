@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "34df4bb574716b5ad3f5b4620f3f0b9c73b6179fd3eda75045467922b3b8aa0d",
+ "domain": [
+  "software/ai-tool-reviews"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only catalogue of tested AI tool reviews, rankings, comparisons, use cases and toolkits, backed by evidence artifacts.",
+ "whenToUse": "Use when choosing between AI tools and needing evidence-backed rankings or comparisons.",
+ "tasks": [
+  "answer buyer questions",
+  "list rankings",
+  "list tools",
+  "list comparisons",
+  "list toolkits",
+  "search catalogue",
+  "get tool details",
+  "get rankings",
+  "get use cases",
+  "query evidence",
+  "compare tools",
+  "browse personas"
+ ],
+ "effects": {
+  "c6f255d5d6406d391e27391dcbc699b9edc01b367bd721be447137d7ea691877": "write",
+  "0be02c937fc8e6d65db248cc0561d27893dedc582ef95baf28967f8ef47514f4": "read",
+  "5a0f16f069a85ac031ebbab493625848e3871e32e0f9ea6ef8e1af27b7322815": "read",
+  "992858c2ca479e77019432dd330b36690494fa4b066df60bb0a2f67a23e67e2d": "read",
+  "d63a2da17db5abea8720df1afc9ac58375662e9dc6c688b2419a88d5aae60b85": "read",
+  "1f6c6a2f60c85d081519ac2c4de6352f34358dc3f25b42802efe83111e90f14f": "read",
+  "9c509e5ed8cbefb53f7a921baef31094490be7633fd69a49b584397d714a0a53": "read",
+  "0641907a9889988c34d151855542e0ac61b39cd4ba8616a9555869f8bbc8602e": "read",
+  "385ba1ac9ab5eee2f99921d3367d82f9dc280f2ebed2eb2a7fdffc4efbd98174": "read",
+  "367ed7773e9f80298d303e7066f438f2687994df8caea819b455af06162c529e": "read",
+  "53d435e0ecf4c6c1fa59de212c6f1693f89d18d9f06c07e49c081fbb4d61da1e": "read",
+  "fa723801b48a6daf1d562e0d789172d5fbbd9f0fdf6cf8f78f572c871bd8bac1": "read",
+  "5163459ad38898534a210b2178c429392ab27d659c53b7835844bd36c8fbb206": "read",
+  "f275140cadf85dc25d834172b2eecb6e2abb0540c7e9b190faa9179693500e45": "read",
+  "7c637ca4a9bb637a2fa6514bcad8e913a74c27caae2529617ab21dcbf052d18c": "read",
+  "0990362be5b2ce456dcca6be8f3dc88e64e4ba6ec3366816f023d8f59b8aaa50": "read",
+  "4e24711b81ccd9eeebb39c653eb6174fc7da4072d2738fe6d6bf4eb05d62c25d": "read"
+ },
+ "flags": []
+}

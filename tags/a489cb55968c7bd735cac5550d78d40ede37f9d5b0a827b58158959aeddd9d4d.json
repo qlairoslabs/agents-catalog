@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a489cb55968c7bd735cac5550d78d40ede37f9d5b0a827b58158959aeddd9d4d",
+ "domain": [
+  "finance/payments",
+  "crypto/solana"
+ ],
+ "product": [
+  "hilt-pay",
+  "solana",
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "sell",
+  "build-software"
+ ],
+ "summary": "Payment-gated access using x402 V2 with Solana USDC, including receipts, entitlements, metering and webhooks.",
+ "whenToUse": "Use when an agent needs to charge for or pay for access via x402 using Solana USDC.",
+ "tasks": [
+  "accept x402 payments",
+  "issue receipts",
+  "manage entitlements",
+  "meter usage",
+  "send webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

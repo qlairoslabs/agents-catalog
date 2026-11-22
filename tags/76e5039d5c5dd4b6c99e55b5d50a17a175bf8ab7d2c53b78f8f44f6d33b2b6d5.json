@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "76e5039d5c5dd4b6c99e55b5d50a17a175bf8ab7d2c53b78f8f44f6d33b2b6d5",
+ "domain": [
+  "software/browser-automation",
+  "software/web-scraping"
+ ],
+ "product": [
+  "browser-use"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs browser agents in cloud browsers to perform web tasks, fill forms and extract data.",
+ "whenToUse": "Use when an agent needs to operate a real web browser to complete tasks or collect data.",
+ "tasks": [
+  "run web tasks",
+  "fill forms",
+  "extract web data",
+  "launch cloud browsers"
+ ],
+ "effects": {},
+ "flags": [
+  "advertises stealth browsers that may evade bot detection"
+ ]
+}

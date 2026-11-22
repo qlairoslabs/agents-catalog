@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "81adde5f7b75ffd9d31f1bb0f75f07a9e7c9194db16a3c67681a584a244e2eb2",
+ "domain": [
+  "cloud/azure/modernization",
+  "software/dependency-management"
+ ],
+ "product": [
+  "azure-functions",
+  "azure-app-service",
+  "azure-container-apps",
+  "azure-cache-for-redis",
+  "azure-managed-redis",
+  "azure-sdk"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Assesses and performs Azure plan, tier or SKU upgrades and modernizes legacy Azure SDK dependencies.",
+ "whenToUse": "Use when a user wants to change Azure hosting plans or SKUs or upgrade old Azure SDKs.",
+ "tasks": [
+  "upgrade functions to flex consumption",
+  "change hosting plan",
+  "change function app sku",
+  "migrate app service to container apps",
+  "modernize legacy java sdks",
+  "migrate azure cache for redis to managed redis"
+ ],
+ "effects": {},
+ "flags": []
+}

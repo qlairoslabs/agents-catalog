@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0eb17b0b560590cc613be63bff7c834cf15805850a79a07eb936076247b2b099",
+ "domain": [
+  "aviation/data",
+  "ai/use-cases"
+ ],
+ "product": [
+  "airside-labs"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Resolves aviation identities and provides an atlas of AI use cases, with provenance and validity dates.",
+ "whenToUse": "Use when an agent needs to identify aviation entities reliably or look up AI applications in aviation.",
+ "tasks": [
+  "resolve aviation identifiers",
+  "look up ai use cases",
+  "check data provenance",
+  "check temporal validity"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "c8d190401c4c97dbac3f894a53647e4cc7223b71feff05d9d40e0d5092907f78",
+ "domain": [
+  "cloud/azure/deployment",
+  "software/infrastructure-as-code"
+ ],
+ "product": [
+  "azure-developer-cli",
+  "bicep",
+  "terraform",
+  "docker",
+  "azure-functions"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Prepares projects for azd-based Azure deployment by generating azure.yaml, Bicep or Terraform infrastructure and Dockerfiles.",
+ "whenToUse": "Use when a user wants to deploy with azd or the project already contains azure.yaml.",
+ "tasks": [
+  "create azure.yaml",
+  "generate bicep",
+  "generate terraform",
+  "create dockerfiles",
+  "set up function app triggers",
+  "configure managed identity",
+  "modernize app for azd"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "7bfcbd2a08c703ff420b6a28008c43d64769106f80be4a1b05306ddec571fa77",
+ "domain": [
+  "finance/crypto-news",
+  "media"
+ ],
+ "product": [
+  "zipp",
+  "coingecko",
+  "coinmarketcap"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Multi-language crypto news with sentiment and importance scoring, token snapshots, trending coins, guides, daily digests and market rankings.",
+ "whenToUse": "Use when a user wants current crypto news, breaking stories, token context or market rankings.",
+ "tasks": [
+  "search news",
+  "get latest news",
+  "get breaking news",
+  "get featured stories",
+  "get token snapshot",
+  "get trending tokens",
+  "read guides",
+  "read daily digests",
+  "get market rankings"
+ ],
+ "effects": {
+  "5488eb01f18aeb0fffd303ed438158d10626aaf86a939e55a12a49fc2564ea40": "read",
+  "889e1cc4fb004bd2fcc72236a97f9c67a1709472037bf517e6e253a5660ab80a": "read",
+  "1de40d1745e3306c6dff59c1ebbdbf4803f1131fbac925c955fb1a8ef9e56b01": "read",
+  "89f69d0459e2ac9cf46b0ebddc175bab811553779d37a98a1adcb14e785881c1": "read",
+  "67d5af60d19a9b60d0a9d703c407e176b8ec660d6d36b1a28624776676e188b8": "read",
+  "9b35b5c3c6d5ee6cb8e572991a718e62e58dfe0e7fbd009fab26b56fd5006d02": "read",
+  "5e09852d9a342b24be71ed5d359e04ce1d88ee590b74b90ba031c65d4c501fce": "read",
+  "1a15e4f88be310fe761080d8cc38ea7fe1656ec72bd5178171af38d044d779ed": "read",
+  "0e866d2c6939696bf4761fc0e26b0a8d5493bedc86a85f1b638853271a3949c8": "read",
+  "64502db2a348bfbdef03c405edab5f335633f9c0a6ab20cbadd08bd718290d74": "read",
+  "2d1545c90e4c64b993a6d0903bd46c4454eb6e6188e5b2abfa65085d223aa6c6": "read",
+  "e5870d484cb56f558fb5a59401648c56ef328763bf4168d88e1d0067f0596690": "read",
+  "54624072ab0573151c60dfce5209b8822a8eb70bf3a1302e933f4964d88be024": "read"
+ },
+ "flags": []
+}

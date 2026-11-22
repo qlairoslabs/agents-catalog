@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0b4fa26aed7a799ff4194de2c8f92f39a42f213f198a93f68c4e94ccdf547a91",
+ "domain": [
+  "software/cloud-hosting/deployment"
+ ],
+ "product": [
+  "nyxory"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Cloud service that deploys and runs apps and services for agents, with domains, logs and status.",
+ "whenToUse": "Use when an agent needs to deploy, run or monitor an application or service.",
+ "tasks": [
+  "deploy apps",
+  "run services",
+  "manage domains",
+  "view logs",
+  "check service status"
+ ],
+ "effects": {},
+ "flags": []
+}

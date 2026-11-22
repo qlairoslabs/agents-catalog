@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "4834fe4a1d9e6ae8df2e0d98e81f0663d6b115ce1b50c871967b170035167251",
+ "domain": [
+  "data/web-scraping",
+  "search/serp"
+ ],
+ "product": [
+  "ujeebu",
+  "google",
+  "chatgpt",
+  "gemini"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Provides web scraping, Google search results, page-to-Markdown conversion and ChatGPT or Gemini answers as agent tools.",
+ "whenToUse": "Use when an agent needs to fetch web page content, convert pages to Markdown, or get Google search results.",
+ "tasks": [
+  "scrape web pages",
+  "get google serp results",
+  "convert pages to markdown",
+  "fetch chatgpt answers",
+  "fetch gemini answers"
+ ],
+ "effects": {},
+ "flags": []
+}

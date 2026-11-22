@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "47e7d33b9ca57403a23f71bc6fe12e5a27ca062f16e26be378e945195907ae7d",
+ "domain": [
+  "finance/trading",
+  "software/api-documentation"
+ ],
+ "product": [
+  "exness"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "build-software"
+ ],
+ "summary": "Searches Exness API documentation and provides account tools under OAuth-scoped permissions.",
+ "whenToUse": "Use when an agent needs Exness API documentation or access to an Exness trading account.",
+ "tasks": [
+  "search api documentation",
+  "access account tools"
+ ],
+ "effects": {},
+ "flags": []
+}

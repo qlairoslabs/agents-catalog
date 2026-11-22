@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "16ced239d048189b6053b5dc517b9f1124c822771067450829696eaf827d1c31",
+ "domain": [
+  "shopping/cashback",
+  "e-commerce"
+ ],
+ "product": [
+  "tenmomo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Searches a catalogue of 2,700+ US retailers for cashback rates, coupons and deals, and generates cashback activation links.",
+ "whenToUse": "Use when a user wants to find cashback rates or coupon codes for a US store before shopping.",
+ "tasks": [
+  "search cashback stores",
+  "get store details",
+  "find coupon deals",
+  "list shopping categories",
+  "browse stores by category",
+  "get activation URL",
+  "generate personalized activation link"
+ ],
+ "effects": {
+  "4119ff06a2e45e1a656e1f36ef6405603ab610e8f66b5193d86fc0614f35379b": "read",
+  "24c7a4ebbe3be8636c0cb2cecf5896e85ae761decd8eb7e6ce08ae7b6b3b3e2d": "read",
+  "4db29446c22437807455da242e3842354e709ee86fc1e6c0550d5bc5e312bdfa": "read",
+  "4d9c406d6dc12236b9e8958ad7e3c8f09923fef9101bb013f0e6ab8d6e6eb838": "read",
+  "341759f8af3fcbe7f5803c31911e4412191bcae2a7f046d7785501a8d419d614": "read",
+  "d967145ea4593233c7980d5fef9d98fe2589222136f757b02ab45d740a79b68e": "read",
+  "23ce742beb7a0d1980cd293412c823034f0deb64ecd1f87994cb05274411b2d9": "write"
+ },
+ "flags": []
+}

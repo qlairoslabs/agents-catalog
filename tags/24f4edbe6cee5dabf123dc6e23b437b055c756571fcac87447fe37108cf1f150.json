@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "24f4edbe6cee5dabf123dc6e23b437b055c756571fcac87447fe37108cf1f150",
+ "domain": [
+  "real-estate/public-auctions",
+  "finance/investment"
+ ],
+ "product": [
+  "boe",
+  "aeat",
+  "seguridad-social"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Searches active Spanish public property auctions with risk flags, total acquisition cost estimates and comparisons.",
+ "whenToUse": "Use when evaluating Spanish judicial, tax agency or Social Security property auctions.",
+ "tasks": [
+  "search auctions",
+  "get property details",
+  "check risk summary",
+  "estimate total costs",
+  "compare properties",
+  "find similar auctions",
+  "view inventory stats"
+ ],
+ "effects": {
+  "f6190b4be15ea7bcd1f2ef4ffbe6e784194ae29eb27fbb3b32deec9c48f7c1db": "write",
+  "a6d3b196d426e2e9d31f177fedbc96eba5e2e8cfd062d2977ec7371ed18f0575": "read",
+  "740131ce08e9413200c987ce649b3b79035ee2b02d008a17d8ccefde8cff0b8e": "read",
+  "02ac6d386c81a4a6e7ea8e1023c05287354c63ac014da1676791a72b9540d9c2": "read",
+  "f1bac83b6481155b5615a89a3ec68be945e40d7b1ed81bf2581bca4a5fcb3cee": "read",
+  "9a77d035e8127db919fb114a713d8a2079e575c591d3952c332e5a0466d9586c": "read",
+  "1da5a0caa426010a0067d401b043f8b48f1cf4710e75a97121872ea1ff2e4b6f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fb8d1f245c28fdf06b406884bad9156c7e45b31ee153bea906714f2c5e7cc129",
+ "domain": [
+  "real-estate/property-management",
+  "finance/rent-collection"
+ ],
+ "product": [
+  "payrent"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Connects AI assistants to PayRent for managing landlord rental portfolios, with confirmation before changes.",
+ "whenToUse": "Use when a landlord wants to view or manage properties, tenants or rent payments in PayRent.",
+ "tasks": [
+  "manage properties",
+  "manage tenants",
+  "review rent payments",
+  "confirm changes before applying"
+ ],
+ "effects": {},
+ "flags": []
+}

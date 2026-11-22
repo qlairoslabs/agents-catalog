@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "796b7a96ad0a18741b8b5d62d8232d3c5c1c7462a9caf842b519d96cb02cb85d",
+ "domain": [
+  "it/telecom-advisory",
+  "business/it-procurement"
+ ],
+ "product": [
+  "chnlsync",
+  "fcc"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Looks up US copper line retirement status by carrier and state, and offers an IT advisor chat with optional human broker callback.",
+ "whenToUse": "Use when a business needs copper/POTS retirement status or advice on IT and telecom problems.",
+ "tasks": [
+  "check copper retirement status",
+  "ask IT advisor",
+  "create advisor workspace",
+  "request broker callback"
+ ],
+ "effects": {
+  "443e6ae45488b4baf65c3bd9c1069a7f130c71d1c16f86faeff1d14b8f96b5ca": "read",
+  "b0f0da4f464558b27b5e8b949d1f4f9de1b3ff8f9b3c358b6e3c6d9fd4bfaa37": "write",
+  "35c91b9b7b1ede94260e02036c7fe2b4592404adb372063592810925fa70807b": "write"
+ },
+ "flags": []
+}

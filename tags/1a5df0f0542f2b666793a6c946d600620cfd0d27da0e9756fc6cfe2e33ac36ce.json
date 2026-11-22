@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1a5df0f0542f2b666793a6c946d600620cfd0d27da0e9756fc6cfe2e33ac36ce",
+ "domain": [
+  "engineering/cad/mechanical",
+  "engineering/cad"
+ ],
+ "product": [
+  "solidworks"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Controls a running SolidWorks instance on Windows to model, measure and verify parametric parts and assemblies.",
+ "whenToUse": "Use when an agent needs to build or inspect parametric CAD parts or assemblies in SolidWorks.",
+ "tasks": [
+  "model parametric parts",
+  "build assemblies",
+  "measure geometry",
+  "verify designs"
+ ],
+ "effects": {},
+ "flags": []
+}

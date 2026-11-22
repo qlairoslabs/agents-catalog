@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a9e0e709bc1f9b4e7a5adeea37dd0c77d465260392800db315236a47791aaae9",
+ "domain": [
+  "software/privacy",
+  "software/data-protection"
+ ],
+ "product": [
+  "secureai"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Removes personal details from text before it reaches a model and restores them in the response.",
+ "whenToUse": "Use when text containing personal data must be processed by a model without exposing that data.",
+ "tasks": [
+  "redact personal data",
+  "restore redacted data in replies"
+ ],
+ "effects": {},
+ "flags": []
+}

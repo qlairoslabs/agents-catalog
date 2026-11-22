@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "0b2077e57088c6a560869136b62ee5dbcb9f80abdbc1ba22f98c2cfc79b2238e",
+ "domain": [
+  "shopping/price-comparison",
+  "consumer/personal-electric-vehicles"
+ ],
+ "product": [
+  "onewheel",
+  "meepo",
+  "exway"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares live prices across about 480 shops for e-skateboards, onewheels, scooters and e-bikes, flags fake sales, shows price history and local riding laws.",
+ "whenToUse": "Use when deciding whether to buy an electric skateboard, scooter or e-bike now, where to buy it, or whether it is legal to ride.",
+ "tasks": [
+  "search products",
+  "compare shop prices",
+  "list current deals",
+  "detect fake sales",
+  "view price history",
+  "find shops by brand",
+  "check riding laws"
+ ],
+ "effects": {
+  "6f3c3b299ebef5b96993db97e6187c7e80f6e6b1eb9b04ded0562644b3a221fe": "read",
+  "20a96672f501b0076c9a312e37ed0e35dc36048a1896d04b9144916a10124cc2": "read",
+  "424eeae2357b2e908be210b4528b948ec054d86da88ba22307254450259a0347": "read",
+  "427cb0796153d7183d387ea4390564988cbdea75602b1dcf9a08253fdc7ab019": "read",
+  "b97e43cbd038fbd32a0f12ba14396890a2bb4f2bb3ccd9286b65e4ab893da069": "read",
+  "848218b51aaea136ca0daea78ea7e5472e04951f36d0afd62654df57e44fb92e": "read",
+  "390cf33b17f79de720d19e27b48474b959c1ff957366e5ccc865e3b42005a13f": "write"
+ },
+ "flags": []
+}

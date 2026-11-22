@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "8552879a23a94d7756a47dcb068c0e36d61cc23815daa74e6b53379c5b933b5d",
+ "domain": [
+  "software/uptime-monitoring",
+  "operations/incident-management"
+ ],
+ "product": [
+  "vantaj"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manage Vantaj uptime monitors, heartbeats, incidents, maintenance windows, domains and status pages.",
+ "whenToUse": "Use when checking site uptime, reviewing outages or setting up and adjusting monitors in Vantaj.",
+ "tasks": [
+  "list projects",
+  "list and get monitors",
+  "create monitors",
+  "update monitors",
+  "pause and resume monitors",
+  "schedule maintenance windows",
+  "list heartbeats",
+  "list and get incidents",
+  "list tracked domains",
+  "list status pages"
+ ],
+ "effects": {
+  "7497665d0ca32be8be5e26089ecbd84f3b1524781527ea8d62ca1789835afad2": "read",
+  "99d658e113712f4751ca4bca5c78058abcf50efd4e78d6f44502cbdf59cf2a2a": "read",
+  "e2ce414951cc14032a4686e7c65b9525974a49ddd48f556f5a6bc5fc9ed6bfb3": "read",
+  "bdcf19abec4051c296d0d6102b3f6769f21ac0f1e83b184fe957d34337679435": "write",
+  "a8582d07a8829d7bad4d6fcad07d33e280250d0c9a8f6a63bd7ff7242f78f68b": "write",
+  "6f30cce7a20028dc5027d24297021e569b031777afcee68d5852eeabfb8909d2": "write",
+  "f652e7e1c8e4012c0d814cc64f3e1be3a12138f4675091757ad753009ab8c7d8": "write",
+  "9ec3c0511a583f3d0ccf40cb8c229c4f1596ae1ac802c457ad8ff0494e46ceae": "write",
+  "ee79d95507284c9488635e7fbc818e127513bee4ebcbbb4edc67c20d1756ca76": "read",
+  "c2aa834b37114140f27c58dd205eec5ca6093ac468e6ba22c13ba883b5fd7f6d": "read",
+  "9cbd84b01345b8183035cd9db6e88dc9d52bb0c02a3884fb38992c55755bab40": "read",
+  "f1ccd7a9d2b408489c966617f1b36fc8e2f3277ef54311e0b2bc5ea3923c1403": "read",
+  "81ccdb6cd773240cfe7e75ceca502eed6c3e9f77e7cec96784c808e4dceb81be": "read"
+ },
+ "flags": []
+}

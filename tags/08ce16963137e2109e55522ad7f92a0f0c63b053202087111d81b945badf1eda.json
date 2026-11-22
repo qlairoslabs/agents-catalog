@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "08ce16963137e2109e55522ad7f92a0f0c63b053202087111d81b945badf1eda",
+ "domain": [
+  "legal/immigration",
+  "finance/relocation"
+ ],
+ "product": [
+  "goodbyematrix"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Index of residency, golden visa and citizenship-by-investment programmes in 80+ countries with comparisons, country tax overviews, glossary and indicative cost quotes.",
+ "whenToUse": "Use when comparing residency or second-passport programmes, costs and tax systems, or finding a consultation link.",
+ "tasks": [
+  "search programmes",
+  "get programme details",
+  "compare programmes",
+  "country overview",
+  "explain term",
+  "quote citizenship by investment cost",
+  "list CBI programmes",
+  "get cost breakdown link",
+  "get consultation link"
+ ],
+ "effects": {
+  "dc8958dd2eb329499d89e247722fcd19a6e40d4ae79c66d7628867373c20d009": "write",
+  "5b4e84e5ec53acc3dcc2cc2d253ccde3c1474a7ae71652084342668b83df5ff8": "write",
+  "be7e6ccaa01b8f8bb8798c858df2d1baa8d123b600adbd501a4c8ed19143cb7d": "read",
+  "95410670bf950cf0ef237cc8b47f7f6251bd1030e1e2f3bf2e7b2eb7e0859bf8": "read",
+  "15e9453a45aa024f4766ea69c4311dfabae902bac55bc246f4f4a3427fc4e161": "write",
+  "970f6f9076e6d3347e2f455c1211bda1a68947cd726d3c4899ef9684769b9538": "write",
+  "1a30189233c2f1184ea742c624637dc12eab9d553b8e0206297e9e0e62f4f223": "write",
+  "638a31fa23862dd9dff8269c1d3db77b0740583de96b1ffca59e74c82af3e2fc": "read",
+  "144e5f324ec0e634f9a97458a2fab976f6c2abf79af0084245208409d571f029": "read"
+ },
+ "flags": []
+}

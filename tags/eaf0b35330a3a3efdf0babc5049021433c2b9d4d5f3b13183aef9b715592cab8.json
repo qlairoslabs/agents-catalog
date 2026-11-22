@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "eaf0b35330a3a3efdf0babc5049021433c2b9d4d5f3b13183aef9b715592cab8",
+ "domain": [
+  "data/orchestration/setup",
+  "software/development"
+ ],
+ "product": [
+  "astronomer",
+  "astro-cli",
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps initialize and configure Astro/Airflow projects, including dependencies, connections and variables.",
+ "whenToUse": "Use when a user wants to create a new Astro project or configure its dependencies, connections or variables.",
+ "tasks": [
+  "initialize astro project",
+  "manage dependencies",
+  "configure connections",
+  "configure variables",
+  "explain project structure"
+ ],
+ "effects": {},
+ "flags": []
+}

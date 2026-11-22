@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "368e66669228e6b43fa7de6e42234c903ea2562e1afbd61e673bb1d58eb6438e",
+ "domain": [
+  "communication/email",
+  "productivity/calendar",
+  "productivity/file-storage"
+ ],
+ "product": [
+  "simafri"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Accesses Simafri Suite email, calendar, contacts and files hosted on the user's own domain.",
+ "whenToUse": "Use when a user with a Simafri account needs to work with their email, calendar, contacts or files.",
+ "tasks": [
+  "manage email",
+  "manage calendar events",
+  "manage contacts",
+  "access files"
+ ],
+ "effects": {},
+ "flags": []
+}

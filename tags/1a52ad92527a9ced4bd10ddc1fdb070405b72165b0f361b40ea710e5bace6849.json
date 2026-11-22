@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1a52ad92527a9ced4bd10ddc1fdb070405b72165b0f361b40ea710e5bace6849",
+ "domain": [
+  "ai/memory"
+ ],
+ "product": [
+  "leapmemory"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Stores and recalls long-term memories for AI assistants with isolated storage per user.",
+ "whenToUse": "Use when an assistant needs to remember information about a user across conversations.",
+ "tasks": [
+  "store memory",
+  "recall memories",
+  "isolate per-user storage"
+ ],
+ "effects": {},
+ "flags": []
+}

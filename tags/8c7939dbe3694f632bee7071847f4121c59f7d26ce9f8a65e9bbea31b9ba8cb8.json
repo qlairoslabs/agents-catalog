@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8c7939dbe3694f632bee7071847f4121c59f7d26ce9f8a65e9bbea31b9ba8cb8",
+ "domain": [
+  "media/podcasting/websites",
+  "web/site-management"
+ ],
+ "product": [
+  "podpage"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Reads and manages Podpage podcast websites, including episodes and pages.",
+ "whenToUse": "Use when an agent needs to view or update episodes or pages on a Podpage podcast website.",
+ "tasks": [
+  "list podcast sites",
+  "read episodes",
+  "manage episodes",
+  "manage pages"
+ ],
+ "effects": {},
+ "flags": []
+}

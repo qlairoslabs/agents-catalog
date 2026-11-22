@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d1a8bd4d02d2af19b784ad605678646092a2ca2f4024267e3999e0bbe389482e",
+ "domain": [
+  "media/video/transcription"
+ ],
+ "product": [
+  "transcript-magic",
+  "youtube",
+  "tiktok",
+  "instagram",
+  "facebook"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates transcripts from YouTube, TikTok, Instagram and Facebook videos.",
+ "whenToUse": "Use when the user needs a text transcript of a social media video.",
+ "tasks": [
+  "transcribe youtube video",
+  "transcribe tiktok video",
+  "transcribe instagram video",
+  "transcribe facebook video"
+ ],
+ "effects": {},
+ "flags": []
+}

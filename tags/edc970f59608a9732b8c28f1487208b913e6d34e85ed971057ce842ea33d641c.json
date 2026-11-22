@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "edc970f59608a9732b8c28f1487208b913e6d34e85ed971057ce842ea33d641c",
+ "domain": [
+  "web/seo",
+  "software/web-crawling"
+ ],
+ "product": [
+  "chatgpt",
+  "claude",
+  "perplexity",
+  "google",
+  "copilot"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether AI crawlers can reach and read a website, verifies crawler visits and signed requests, and lists AI crawler tokens.",
+ "whenToUse": "Use when diagnosing why a site is missing from AI answers or verifying that a bot visit is genuine.",
+ "tasks": [
+  "check site crawlability",
+  "verify crawler IP",
+  "verify Web Bot Auth signature",
+  "list AI crawlers"
+ ],
+ "effects": {
+  "6b1961df51e6422df01ad14ae4b102f98f601feed2aac02484a6ed58def60fb9": "read",
+  "1342e6d7ff56268f1fb8dc1a8bb901d641fd267ef0f59a7ffaa9f0cb2f80e401": "read",
+  "ac508353b98664abb5961692d18f3d767db7726abb06853a8f6235cb1d5ab346": "read",
+  "0752bd004efb9e0e1b007b32baec0172e0c351a987111da6075a1c40add3efed": "read"
+ },
+ "flags": []
+}

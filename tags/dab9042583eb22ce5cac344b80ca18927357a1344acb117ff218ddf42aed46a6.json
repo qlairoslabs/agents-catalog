@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "dab9042583eb22ce5cac344b80ca18927357a1344acb117ff218ddf42aed46a6",
+ "domain": [
+  "software/webhook-testing",
+  "software/development-tools"
+ ],
+ "product": [
+  "webhooktest"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Creates anonymous webhook capture buckets, configures their HTTP responses, and lists, waits for and inspects captured requests.",
+ "whenToUse": "Use when you need to test or debug a webhook sender by capturing and inspecting incoming requests.",
+ "tasks": [
+  "create bucket",
+  "configure response",
+  "get bucket settings",
+  "list captures",
+  "wait for webhook",
+  "read capture",
+  "clear captures",
+  "delete bucket"
+ ],
+ "effects": {
+  "940c89551b30ff0f6778e33be0644b1b8c05875709915d17a04dee57527989b1": "risky",
+  "1810b3971be920bdc0127db920c534b7c466e32d93a2d06b5cd9012de6b39c33": "write",
+  "15b803cd08bb39d0bf69116f8fde5741f894ef96dc20ba6a819e5b47ab0623df": "write",
+  "238ec3dbdea7e6bfba377a4519e614cd9afe76f57040fa933d0796863348237a": "risky",
+  "0733aa62f96a4e724a89b0c13d698c9f19e141a38255f5eeac7bff002b814b9c": "read",
+  "7e5f3b38d9203e14e879cb084fb14db2066cc0174b14592644b24c0feeb59ff7": "read",
+  "bdff0b828457c32414e4c70b7c51ac988f66931d1cf38efc0e82c523a0fc03c7": "read",
+  "0da436439f7101a7c0358b15fa31cff5bdd63ada3a7f46891c148de0707e7a05": "read"
+ },
+ "flags": []
+}

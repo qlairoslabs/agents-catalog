@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "cebbe73b4990a308dbf9b61d6a4ac9da72490a803fa69b6e02158b17e30e21a4",
+ "domain": [
+  "security/fraud-prevention",
+  "telecom/phone-lookup"
+ ],
+ "product": [
+  "numertel",
+  "uke",
+  "cert-polska"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks Polish phone numbers, links and messages for spam, spoofing and phishing using UKE and CERT Polska lists, and finds official hotlines.",
+ "whenToUse": "Use when a user in Poland doubts a call, SMS or link, or needs a verified institution phone number.",
+ "tasks": [
+  "check phone number",
+  "check scam message or domain",
+  "find official number",
+  "view spam stats",
+  "list recent scam domains",
+  "search records",
+  "fetch number card"
+ ],
+ "effects": {
+  "d8fed0ba07d2252ee662e813cb3f071199d890a1afddfc045f112f1eb03bef50": "read",
+  "8e7f07a6a4a851d8a9bce984a9600b46cf8dff28120b67c4d61c76ce46bb03e5": "read",
+  "c13d87c4b28542eabe3bf5d26a7eb60f9c03ab891dccfaed274ff16a07aad08c": "read",
+  "5771f495bef3e6ce32aeacdd0c17278472cff67a8b75b067f17a607950ea8436": "read",
+  "edfff1cd8f45e1bc6269321e3b21e3fed7d3291eec3f7f24d3f86cd1d8468b35": "read",
+  "4f304c57472a4b105ef418ce57a966c0f2ebf504bca73565e073e878b360e89c": "read",
+  "f8322c2db6291438f47c65c0d0d019ac2f8f78f449f4f661f70512e8c7346bf3": "read"
+ },
+ "flags": []
+}

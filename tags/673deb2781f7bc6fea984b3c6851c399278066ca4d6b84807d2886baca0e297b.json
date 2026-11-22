@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "673deb2781f7bc6fea984b3c6851c399278066ca4d6b84807d2886baca0e297b",
+ "domain": [
+  "security/file-proof",
+  "blockchain"
+ ],
+ "product": [
+  "verifyum",
+  "solana"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Anchors locally computed file commitments on Solana and checks proof status and validity.",
+ "whenToUse": "Use when a user wants a timestamped public proof that a file existed, or wants to verify an existing proof.",
+ "tasks": [
+  "anchor commitment on Solana",
+  "get proof status",
+  "verify public proof"
+ ],
+ "effects": {
+  "8fd523c661c21394a33e0b320f99a02603967a2af705e721109636f789166ef6": "read",
+  "f936fb325c3486bc475e481053013a63981557efb619fa9217670254a727ce70": "write",
+  "7da87ae218b234ca469494703e0f3e7fb17957d1b95a2a53190d9f286bd83ee3": "write"
+ },
+ "flags": []
+}

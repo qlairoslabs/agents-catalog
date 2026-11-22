@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5cb7e6dd7dec090c564976daba3e796ad5247773f63bcdfa6b0126bb5e7700d6",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "ai/agents"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds a software bill of materials for AI setups, listing agents, MCP servers, packages and their reach, with scanning and investigation.",
+ "whenToUse": "Use when an agent needs to inventory or audit the AI agents, MCP servers and packages in an environment for supply-chain risk.",
+ "tasks": [
+  "inventory ai agents",
+  "list mcp servers",
+  "list packages",
+  "generate bom",
+  "scan for risks",
+  "investigate findings"
+ ],
+ "effects": {},
+ "flags": []
+}

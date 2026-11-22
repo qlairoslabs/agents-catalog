@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "92743d9a4c5c054af35863abaa0d4c59edeb22976e40d51efc454e17e197b48d",
+ "domain": [
+  "telecom/broadband",
+  "price-comparison"
+ ],
+ "product": [
+  "findbroadband"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Finds and compares UK broadband deals by postcode or address, with whole-contract costs and a check on whether a user is overpaying.",
+ "whenToUse": "Use when a UK user wants cheaper broadband or to judge a renewal offer.",
+ "tasks": [
+  "list addresses at postcode",
+  "find broadband deals",
+  "check if overpaying",
+  "get deal details"
+ ],
+ "effects": {
+  "f2b48e45576a468003f5953f07582f12e87f9edd9d3a6d664f73e596ef709881": "read",
+  "beea664e8b509671c7699f914fb9a639ea2a200b3a45750f59a0d99b28ef9d2a": "read",
+  "7a291a51faa9d011b4600f8d6991faf6e202f87a256f533cad9a2de7cc15823a": "read",
+  "a784d45aafdf10171ab80b501c95a2286155033ee7511fc3b0aaef1bd1dc1042": "read"
+ },
+ "flags": []
+}

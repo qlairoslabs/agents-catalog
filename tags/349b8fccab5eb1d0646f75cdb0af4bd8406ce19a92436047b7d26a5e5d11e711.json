@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "349b8fccab5eb1d0646f75cdb0af4bd8406ce19a92436047b7d26a5e5d11e711",
+ "domain": [
+  "language/translation/documents"
+ ],
+ "product": [
+  "polytranslator"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Translates PDFs, scans, Office files and EPUBs into many languages while keeping the original layout.",
+ "whenToUse": "Use when an agent needs to translate a whole document file and preserve its formatting.",
+ "tasks": [
+  "translate pdfs",
+  "translate scanned documents",
+  "translate office files",
+  "translate epub books",
+  "choose translation style"
+ ],
+ "effects": {},
+ "flags": []
+}

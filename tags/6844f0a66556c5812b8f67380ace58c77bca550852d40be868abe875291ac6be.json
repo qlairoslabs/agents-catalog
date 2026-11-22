@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6844f0a66556c5812b8f67380ace58c77bca550852d40be868abe875291ac6be",
+ "domain": [
+  "healthcare/billing",
+  "finance/reimbursement"
+ ],
+ "product": [
+  "medicare",
+  "cms"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Looks up Medicare Physician Fee Schedule allowed amounts by CPT/HCPCS code, date and locality, with CMS source checksums.",
+ "whenToUse": "Use when pricing medical service codes under Medicare for a date of service and location.",
+ "tasks": [
+  "get physician fee by code",
+  "price up to 25 lines",
+  "list fee schedule releases",
+  "verify source checksums"
+ ],
+ "effects": {
+  "74d654cd721dc6645d0bee1dd9d7b494e7c0294ce337296b03f44b5b7776e21f": "write",
+  "596ae4230a94a08ea085ae1b0b84f5555598fb36ce5d7f86a30dcd024f7f93c1": "write"
+ },
+ "flags": []
+}

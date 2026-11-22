@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a15728cd5208de3c86fe0df3d8696dbd19132eb15ae7fd1322795666c3464618",
+ "domain": [
+  "software/documentation",
+  "software/web-frameworks"
+ ],
+ "product": [
+  "svelte",
+  "sveltekit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives access to Svelte 5 and SvelteKit documentation, listing sections and returning full content for chosen sections.",
+ "whenToUse": "Use when writing or debugging Svelte 5 or SvelteKit code and you need current documentation.",
+ "tasks": [
+  "list documentation sections",
+  "retrieve documentation by title or path"
+ ],
+ "effects": {
+  "b3b22f7ce9686e391d50ac7eefb89b2d6adec678811777bbfaa5684858955efe": "read",
+  "34846baf97b91c0cb1dc9a72509a46da88090c67c2c9426a97d53f6ac53be6a6": "read"
+ },
+ "flags": []
+}

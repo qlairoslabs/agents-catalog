@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6d5e3163e5792448b41bee22f9de4c313b9b52368795d0463658548281c864be",
+ "domain": [
+  "analytics/product-analytics/reporting"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Produces a daily briefing of the most important recent metric changes, experiments and user feedback in Amplitude.",
+ "whenToUse": "Use when a user asks for a morning briefing or a summary of what changed recently in their Amplitude data.",
+ "tasks": [
+  "summarize metric changes",
+  "report experiment updates",
+  "summarize user feedback",
+  "produce daily briefing"
+ ],
+ "effects": {},
+ "flags": []
+}

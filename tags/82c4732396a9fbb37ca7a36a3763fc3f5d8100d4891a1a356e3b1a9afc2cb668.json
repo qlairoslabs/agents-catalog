@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "82c4732396a9fbb37ca7a36a3763fc3f5d8100d4891a1a356e3b1a9afc2cb668",
+ "domain": [
+  "personal/life-logging"
+ ],
+ "product": [
+  "recalo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Accesses a user's Recalo account of saved recipes, movies, books, places and people; requires an account.",
+ "whenToUse": "Use when a user wants to save or recall personal items like recipes, books or places in Recalo.",
+ "tasks": [
+  "manage recipes",
+  "track movies",
+  "track books",
+  "save places",
+  "keep notes on people"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5261704043abb0a7d6530808273bda3b3792b61db972f2c69bf9e3c3f444c4df",
+ "domain": [
+  "software/databases/migration",
+  "software/containers"
+ ],
+ "product": [
+  "sql-server",
+  "azure-sql-database",
+  "docker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Converts a local SQL Server docker setup to the Azure SQL Database container and flags SQL Server-only features.",
+ "whenToUse": "Use when a project uses the mssql/server image and should move to the Azure SQL Database container for local development.",
+ "tasks": [
+  "detect sql server image",
+  "rewrite image to azure sql container",
+  "add platform flag on non-x64",
+  "flag unsupported sql server features",
+  "repoint connection strings to user database"
+ ],
+ "effects": {},
+ "flags": []
+}

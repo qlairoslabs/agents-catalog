@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0cc726257d1faf8a6ca1df5bb5f39d9622dd9fb83ac71754a8caed3bf6061ec5",
+ "domain": [
+  "data/data-lake",
+  "data/etl",
+  "cloud/aws"
+ ],
+ "product": [
+  "aws",
+  "amazon-s3-tables",
+  "aws-glue",
+  "amazon-athena"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Skills for data lake, analytics and ETL workflows using S3 Tables, AWS Glue and Athena.",
+ "whenToUse": "Use when building data lakes, ETL jobs or SQL analytics on AWS.",
+ "tasks": [
+  "set up s3 tables",
+  "build glue etl jobs",
+  "query data with athena"
+ ],
+ "effects": {},
+ "flags": []
+}

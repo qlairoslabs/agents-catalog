@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6e180e2e17299f81830c82ade86e344117977cc1b10f854c29ce4573b19e6a57",
+ "domain": [
+  "education/quizzes",
+  "education/worksheets"
+ ],
+ "product": [
+  "quizoffice"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates and edits QuizOffice worksheets and quizzes as drafts.",
+ "whenToUse": "Use when a teacher or trainer wants an AI to draft quizzes or worksheets in QuizOffice.",
+ "tasks": [
+  "create quiz drafts",
+  "edit quizzes",
+  "create worksheet drafts",
+  "edit worksheets"
+ ],
+ "effects": {},
+ "flags": []
+}

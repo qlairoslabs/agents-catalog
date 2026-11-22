@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "365d12f58098e8a73b16e6f59e5ec00ef79d934ee085c9964b0fd759a2ee5fab",
+ "domain": [
+  "sales/customer-intelligence",
+  "support/customer-context"
+ ],
+ "product": [
+  "slack",
+  "backengine"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "sell",
+  "support-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Gathers customer and prospect context from Slack, email, call transcripts and tickets for use in MCP clients.",
+ "whenToUse": "Use when an agent needs background on a customer or prospect drawn from team conversations, emails, calls and tickets.",
+ "tasks": [
+  "surface customer context",
+  "surface prospect context",
+  "search slack, email, transcripts and tickets"
+ ],
+ "effects": {},
+ "flags": []
+}

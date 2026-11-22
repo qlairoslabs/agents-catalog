@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "571f7bdceae7e8324bdc67069a7026882135aa2990bd123b468405660564e115",
+ "domain": [
+  "ai/handwriting-recognition",
+  "documents/ocr",
+  "education/note-taking"
+ ],
+ "product": [
+  "fluxink"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Converts handwriting and images to text, LaTeX math, chemistry formulas or molecular structures, and creates handwriting-style renders and note layouts.",
+ "whenToUse": "Use when a user wants to handwrite input, extract text or math from an image, or render text in their own handwriting.",
+ "tasks": [
+  "open handwriting canvas",
+  "recognize handwriting",
+  "extract text from images",
+  "convert math to latex",
+  "recognize molecular structures",
+  "capture handwriting style",
+  "synthesize handwriting",
+  "create pdf note layouts"
+ ],
+ "effects": {
+  "b7248a674f85c518d5dabc1a17703d6a2ce02c1671ac94d7400a5cc58706a795": "write",
+  "18bc069372a8707a277c75ca64e648afc4796e01fb326e3908c5df1c054ff1d3": "write",
+  "ba2c5f4f65329b6402e79ac892f2a7f02b39fde640f3d1d31eec8f7f94554448": "read",
+  "08fc07741a232ed035a4a9175531ab5f388b94cdd9e0fc11a1ede406dcc0968c": "write",
+  "932fd6c5741384770fa8a33176766c1bb4b7d3b1eea9aaf80fbd3083f7b01cc8": "write",
+  "cb884d4fc5a4a3d74be0a8edc96b24110ad5626de7617b0f011e1bbdc6935761": "write"
+ },
+ "flags": []
+}

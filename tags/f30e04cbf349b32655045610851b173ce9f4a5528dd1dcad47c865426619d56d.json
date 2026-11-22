@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f30e04cbf349b32655045610851b173ce9f4a5528dd1dcad47c865426619d56d",
+ "domain": [
+  "software/data-streaming",
+  "software/development"
+ ],
+ "product": [
+  "confluent",
+  "kafka",
+  "flink",
+  "schema-registry"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills guiding developers of streaming applications using Kafka and Flink client libraries and Schema Registry.",
+ "whenToUse": "Use when writing or debugging applications that use Kafka, Flink or Confluent Schema Registry.",
+ "tasks": [
+  "guide kafka client usage",
+  "guide flink client usage",
+  "work with schema registry"
+ ],
+ "effects": {},
+ "flags": []
+}

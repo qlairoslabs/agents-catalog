@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "30ee3ff5cd921f25c5e285795d7c21f7994ac2d54f29cf96660619d01f49c190",
+ "domain": [
+  "crypto/agent-reputation",
+  "payments/x402"
+ ],
+ "product": [
+  "base",
+  "erc-8004",
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Returns payment-backed trust scores for AI agents on Base from ERC-8004 reviews, charging $0.01 USDC per check.",
+ "whenToUse": "Use before paying an on-chain AI agent to check its reputation on Base.",
+ "tasks": [
+  "check agent trust score",
+  "view erc-8004 reputation overview"
+ ],
+ "effects": {
+  "a790edf0c637eb88eb72c41dc6f10565220c5aff0c2d6b67cc64c19feade31cc": "risky",
+  "e56ef14b1ac60b215eb1cafb79c5b897936079d4ce5127c68903d785903380a6": "read"
+ },
+ "flags": []
+}

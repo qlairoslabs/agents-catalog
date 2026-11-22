@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b877b7a259720e53c81d2a60a328d8494a51b92c27b996017a6cabc4c65b58a7",
+ "domain": [
+  "legal/e-signature",
+  "documents/verification"
+ ],
+ "product": [
+  "attest"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Tracks agreements sent for signature, reminds signers, verifies signed documents and shares proofs of signing.",
+ "whenToUse": "Use when following up on agreements out for signature or verifying and sharing proof of a signed document.",
+ "tasks": [
+  "track agreements sent for signature",
+  "send signer reminders",
+  "verify signed documents",
+  "share signing proofs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "effab7877d35734594bb628cb56881d5cdc83633d888d117b900e237506a7ede",
+ "domain": [
+  "design/generative-art",
+  "software/creative-coding"
+ ],
+ "product": [
+  "p5js"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates original generative art with p5.js using seeded randomness and interactive parameters, such as flow fields and particle systems.",
+ "whenToUse": "Use when the user wants art made with code, such as generative art, flow fields or particle systems.",
+ "tasks": [
+  "create generative art in p5js",
+  "use seeded randomness",
+  "build interactive parameter controls",
+  "create flow fields",
+  "create particle systems"
+ ],
+ "effects": {},
+ "flags": []
+}

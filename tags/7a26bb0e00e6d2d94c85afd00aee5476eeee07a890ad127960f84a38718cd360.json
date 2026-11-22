@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7a26bb0e00e6d2d94c85afd00aee5476eeee07a890ad127960f84a38718cd360",
+ "domain": [
+  "software/experimentation",
+  "marketing/ab-testing"
+ ],
+ "product": [
+  "abmeter"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Runs and manages A/B experiments from an AI assistant, with SDKs for several languages and platforms.",
+ "whenToUse": "Use when setting up, running or reviewing A/B tests for a product or website.",
+ "tasks": [
+  "create experiments",
+  "run a/b tests",
+  "review experiment results",
+  "integrate via sdks"
+ ],
+ "effects": {},
+ "flags": []
+}

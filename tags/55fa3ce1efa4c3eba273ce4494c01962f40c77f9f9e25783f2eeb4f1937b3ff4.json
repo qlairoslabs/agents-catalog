@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "55fa3ce1efa4c3eba273ce4494c01962f40c77f9f9e25783f2eeb4f1937b3ff4",
+ "domain": [
+  "collaboration/whiteboarding"
+ ],
+ "product": [
+  "miro"
+ ],
+ "audience": [
+  "everyone",
+  "design",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Miro board integration that lets the agent read board content, create diagrams and generate code from boards.",
+ "whenToUse": "Use when you need to read or add to a Miro board, such as creating diagrams or turning board content into code.",
+ "tasks": [
+  "read board context",
+  "create diagrams",
+  "generate code from boards"
+ ],
+ "effects": {},
+ "flags": []
+}

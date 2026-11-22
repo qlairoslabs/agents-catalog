@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5bea9f9e99f5aebef751fc25bbdda7193d6c5193dbe56295d4d9f31efdc43a76",
+ "domain": [
+  "finance/personal-bookkeeping",
+  "finance/budgeting"
+ ],
+ "product": [
+  "whooing"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Manages a Whooing household ledger in Korean: record and view transactions, accounts, budgets and reports.",
+ "whenToUse": "Use when someone wants to log or review transactions, budgets or financial reports in Whooing.",
+ "tasks": [
+  "add transactions",
+  "view transactions",
+  "manage accounts",
+  "manage budgets",
+  "generate profit and loss reports",
+  "generate financial reports"
+ ],
+ "effects": {},
+ "flags": []
+}

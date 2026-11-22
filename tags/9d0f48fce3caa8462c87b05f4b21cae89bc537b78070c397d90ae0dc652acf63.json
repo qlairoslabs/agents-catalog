@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9d0f48fce3caa8462c87b05f4b21cae89bc537b78070c397d90ae0dc652acf63",
+ "domain": [
+  "sales/lead-enrichment",
+  "sales/crm"
+ ],
+ "product": [
+  "cargo"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Finds and verifies work emails, enriches company and contact data, scores leads and syncs them to a CRM.",
+ "whenToUse": "Use when building or enriching a prospect list and pushing qualified leads into a CRM.",
+ "tasks": [
+  "find work emails",
+  "verify emails",
+  "enrich companies",
+  "enrich contacts",
+  "score leads",
+  "sync to crm"
+ ],
+ "effects": {},
+ "flags": []
+}

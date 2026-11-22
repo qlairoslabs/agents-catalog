@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b233e64f1007b7b4decf942e3caaa5f66cf4c44c9106eefe51c07a30e3a0797f",
+ "domain": [
+  "ai/agent-orchestration"
+ ],
+ "product": [
+  "webassembly"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Orchestrates swarms of neural-network agents with WebAssembly acceleration, available over MCP.",
+ "whenToUse": "Use when an agent wants to run a swarm of coordinated sub-agents locally.",
+ "tasks": [
+  "spawn agent swarms",
+  "orchestrate tasks",
+  "run neural models"
+ ],
+ "effects": {},
+ "flags": []
+}

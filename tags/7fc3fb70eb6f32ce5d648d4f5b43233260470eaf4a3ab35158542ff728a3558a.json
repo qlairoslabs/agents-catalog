@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7fc3fb70eb6f32ce5d648d4f5b43233260470eaf4a3ab35158542ff728a3558a",
+ "domain": [
+  "hardware/device-setup",
+  "software/development"
+ ],
+ "product": [
+  "m5stack-cardputer",
+  "uiflow",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "One command to set up a Code-with-Claude Makers Cardputer: clone the repo, flash UIFlow firmware and install the Claude Buddy app.",
+ "whenToUse": "Use when onboarding a Code-with-Claude Makers Cardputer device.",
+ "tasks": [
+  "clone build-with-claude repo",
+  "flash uiflow firmware",
+  "install claude buddy app"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6ef100ae52034069231f2edad98e4a28d11b15fa8be1d56a6a57703acd87114a",
+ "domain": [
+  "documents/conversion",
+  "documents/korean"
+ ],
+ "product": [
+  "hwp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Converts Korean documents such as HWP, HWPX, PDF and Office files to Markdown, and fills forms, diffs and renders them.",
+ "whenToUse": "Use when handling Korean documents, especially HWP files, that need parsing or form filling.",
+ "tasks": [
+  "parse hwp and hwpx",
+  "convert documents to markdown",
+  "fill forms",
+  "diff documents",
+  "render documents"
+ ],
+ "effects": {},
+ "flags": []
+}

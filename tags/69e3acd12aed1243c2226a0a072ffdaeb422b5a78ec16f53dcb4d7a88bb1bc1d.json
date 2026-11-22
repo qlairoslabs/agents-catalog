@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "69e3acd12aed1243c2226a0a072ffdaeb422b5a78ec16f53dcb4d7a88bb1bc1d",
+ "domain": [
+  "media/video"
+ ],
+ "product": [
+  "lovethenorth"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search and retrieval of public LoveTheNorth videos, short clips and their transcripts.",
+ "whenToUse": "Use when someone wants to find LoveTheNorth videos about a company or topic, or read their transcripts.",
+ "tasks": [
+  "search public videos",
+  "get a video record",
+  "get a video transcript",
+  "list recently updated videos"
+ ],
+ "effects": {
+  "44ba1e0452940163210c6d49ec38a6508b6090c0157ed7987875736ba7a98b55": "read",
+  "0cbbab66f25a99e74a38959f3a0005b2071d6921ec0149337f38dee087858e7f": "read",
+  "5276e3687d8dc226335da3a98a2e2fdbc8ac5b0efcf223a7c968288d276bed82": "read",
+  "3754f4a444d4a32a12d7612b694cdc2e4e8909f70ced3232fae13aac3833f904": "read"
+ },
+ "flags": []
+}

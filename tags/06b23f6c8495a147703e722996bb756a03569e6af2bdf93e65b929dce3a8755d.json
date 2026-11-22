@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "06b23f6c8495a147703e722996bb756a03569e6af2bdf93e65b929dce3a8755d",
+ "domain": [
+  "finance/biotech-valuation",
+  "life-sciences/drug-pipeline"
+ ],
+ "product": [
+  "phasefolio"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Biotech valuation engine computing rNPV and probability of success, with signed exports, an evidence register and asset landscape.",
+ "whenToUse": "Use when an agent needs to value biotech drug assets or review a pipeline landscape with supporting evidence.",
+ "tasks": [
+  "calculate rnpv",
+  "estimate probability of success",
+  "export signed reports",
+  "manage evidence register",
+  "view asset landscape"
+ ],
+ "effects": {},
+ "flags": []
+}

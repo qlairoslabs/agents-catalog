@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f058a758b1b431a7d7f9c7c20c2983fce5d267432e4e35a355c08346e95c879c",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "world-airfares"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches live flight prices and availability, pages through results and returns itinerary details including baggage and fare rules.",
+ "whenToUse": "Use when a user wants to search, compare or get details on flights.",
+ "tasks": [
+  "search flights",
+  "filter by airline and stops",
+  "page through results",
+  "get itinerary details",
+  "check baggage and fare rules"
+ ],
+ "effects": {
+  "c3cc6ae3e3a307da1acdea0bca76c33a0edca60565a0c3806bc172e83dc1460b": "write",
+  "83627a310ee28988aa899cef81443d39bdb7d67bb71954ad6b939b4e2a9addbe": "write",
+  "5eb13ef77e60be560185b684191a9139307f5f15241358a372ca234e7989d7ba": "write"
+ },
+ "flags": [
+  "tool description tells the agent to always use it and not web search"
+ ]
+}

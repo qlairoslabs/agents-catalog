@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "b153e45635b54e4bcea46a8acfc98f948bd03a5ac6a525f32eb272b71983115b",
+ "domain": [
+  "finance/mortgage",
+  "real-estate"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "US mortgage calculators covering payments, amortization, PMI, property tax by state, affordability, refinance, closing costs and rent vs buy.",
+ "whenToUse": "Use when estimating US home loan costs, affordability or comparing loan options.",
+ "tasks": [
+  "monthly housing cost",
+  "amortization schedule",
+  "PMI and MIP",
+  "property tax",
+  "affordability",
+  "refinance break-even",
+  "closing costs",
+  "rent vs buy",
+  "compare loans",
+  "state tax rules"
+ ],
+ "effects": {
+  "fc609c13033ea1c2e1b0704613a62358757142ab347c03e586d4ac6b8d1f5193": "read",
+  "6af4458a235fdae215bcc1b7ae6e8e87e6beda18938d28fbab367419a8d0de48": "read",
+  "848cd7aacf5efcf35cf161eca1b8ba295b5152e3b5389f998413cb3b3eb99eb5": "read",
+  "96c5bc007afa9206d030079e30b1e71a7fb06772a182e4f166a73ef8ba408613": "read",
+  "086d3d905049d215d04a0e43f69709e828fd9efa83e3693a49bdb75c3aaa737b": "read",
+  "e2ea9abbe132e7909eaef60db2098ad24f69096382be6c79175c0695b8d47d98": "read",
+  "0e79bddeb234eede2d8c5c353f3a6e5e62fc2ec1b0cd069b38c68f1de53323f1": "read",
+  "c7fd73dbe7082ed75c01d8cc404bffb6fd4ec131851cc0cbb043e9a84af02c8b": "read",
+  "edeceff256077529fbeb3857e5f0a865ed5dfbfa6ba7d01f48e72b8a5cde73ce": "read",
+  "f7678d0acf75013edf0f0910dfaacd967e0fd7f9ddfe0eeba4f0d24f0d0df77d": "read",
+  "dbf923d1b27866aca853ac6885d5d3856976631c0cca1411f9041229e471f676": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f1f761f1db7497cd450170d3c7898c4a073a2e2100a15b63a12978f0459ffb3e",
+ "domain": [
+  "digital-signage/screen-management"
+ ],
+ "product": [
+  "brix"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Brix digital signage screens: device health, content, casts, emergency messages and proof of play.",
+ "whenToUse": "Use when monitoring signage screens or changing what they display, including emergency alerts.",
+ "tasks": [
+  "check screen health",
+  "manage content",
+  "cast to screens",
+  "send emergency messages",
+  "get proof of play"
+ ],
+ "effects": {},
+ "flags": []
+}

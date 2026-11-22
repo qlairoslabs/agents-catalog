@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5f34683ba83639f5429fcecc9d5eb8ebbb67c02330d31f3bb58636369083dd41",
+ "domain": [
+  "software/cybersecurity/domain-vetting",
+  "software/web-scraping"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Vets a domain via WHOIS age, DNS, SPF/DMARC and TLS checks, or fetches a web page as Markdown.",
+ "whenToUse": "Use when assessing whether a domain is legitimate or when reading a web page as Markdown.",
+ "tasks": [
+  "check whois age",
+  "inspect dns records",
+  "check spf and dmarc",
+  "check tls",
+  "fetch page as markdown"
+ ],
+ "effects": {},
+ "flags": [
+  "hosted on raw ip-based sslip.io domain"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "aa2668634414aeb5825411e76e0abd0173079dc6c0c2389e13e45db368f7dc13",
+ "domain": [
+  "software/developer-tools/code-context"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Packs local or remote code repositories into single files that LLMs can read or search.",
+ "whenToUse": "Use when giving an AI a whole codebase as context.",
+ "tasks": [
+  "pack local repository",
+  "pack remote repository",
+  "search packed output"
+ ],
+ "effects": {},
+ "flags": []
+}

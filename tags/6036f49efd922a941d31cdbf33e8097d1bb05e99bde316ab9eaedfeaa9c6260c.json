@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6036f49efd922a941d31cdbf33e8097d1bb05e99bde316ab9eaedfeaa9c6260c",
+ "domain": [
+  "logistics/shipping",
+  "logistics/customs"
+ ],
+ "product": [
+  "eurocollis"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only shipping data for Morocco–Europe parcels: quotes, couriers, tracking and customs info.",
+ "whenToUse": "Use when shipping parcels between Morocco and Europe and needing quotes, tracking or customs details.",
+ "tasks": [
+  "get shipping quotes",
+  "compare couriers",
+  "track parcels",
+  "look up customs rules"
+ ],
+ "effects": {},
+ "flags": []
+}

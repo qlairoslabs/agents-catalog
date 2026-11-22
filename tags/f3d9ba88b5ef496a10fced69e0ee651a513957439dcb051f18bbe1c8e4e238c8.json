@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "f3d9ba88b5ef496a10fced69e0ee651a513957439dcb051f18bbe1c8e4e238c8",
+ "domain": [
+  "media/film-tv-production",
+  "business-data/directory"
+ ],
+ "product": [
+  "productionlist"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search film and TV productions by stage, location and date, and look up production companies and the people attached to them.",
+ "whenToUse": "Use when you need to find active film or TV productions or production companies, for example for prospecting or industry research.",
+ "tasks": [
+  "search productions",
+  "filter by stage and location",
+  "get production details",
+  "search companies",
+  "get company with its productions",
+  "list taxonomy slugs"
+ ],
+ "effects": {
+  "69f3b13b6544152b684b344354305a4865e50de7f6279c36deea9ef4ed3a5b61": "read",
+  "572836eeb23c1c2cac85604e073d76276eb256e142bf65f9892f42a75cbcbf60": "read",
+  "0d566d208a573e1d93de81a4ef032a11f497f332b3aa4d8cf3c1e7df775a8d13": "read",
+  "2042183dbb05cba81b3f3f0db916539a8998546443cd03775fde1062f1c60a19": "read",
+  "19d605a615e70b40b7a41051541fecc2ae31e0053f8e84ff07ff85b66dc03292": "read"
+ },
+ "flags": []
+}

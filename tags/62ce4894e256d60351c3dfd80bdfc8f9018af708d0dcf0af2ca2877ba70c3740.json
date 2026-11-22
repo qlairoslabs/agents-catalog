@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "62ce4894e256d60351c3dfd80bdfc8f9018af708d0dcf0af2ca2877ba70c3740",
+ "domain": [
+  "software/code-intelligence",
+  "software/code-review"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Builds a code graph across many languages and frameworks to help agents understand code and review PRs with fewer tokens.",
+ "whenToUse": "Use when an agent needs structural understanding of a codebase or efficient PR review.",
+ "tasks": [
+  "build code graph",
+  "navigate code relationships",
+  "support pr review"
+ ],
+ "effects": {},
+ "flags": []
+}

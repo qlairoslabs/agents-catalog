@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "3a515b88f66792f26bde19ebd4af28d371684cdfcd99f3006fcf1c9274f50fb6",
+ "domain": [
+  "analytics/product-analytics"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search, access and analyze product analytics data in Amplitude.",
+ "whenToUse": "Use when an agent needs to query or get insights from Amplitude analytics data.",
+ "tasks": [
+  "search amplitude data",
+  "query charts and metrics",
+  "get analytics insights"
+ ],
+ "effects": {},
+ "flags": []
+}

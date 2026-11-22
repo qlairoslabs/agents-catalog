@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "ec208669d8f772d60281d954e6d48f90bcdd04d1938d575d7e8dc6655ac6a006",
+ "domain": [
+  "shopping/price-comparison",
+  "e-bikes"
+ ],
+ "product": [
+  "woebike",
+  "amazon",
+  "ebay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German price comparison for e-bikes with best-price search, buying guides and offer re-checks.",
+ "whenToUse": "Use when the user wants current German prices or buying advice for e-bikes.",
+ "tasks": [
+  "search best e-bike offers",
+  "find guides and comparisons",
+  "re-check offer price"
+ ],
+ "effects": {
+  "94c59cb2bce31885cb6f7309aae8ebf6ec1488f33137eb9a2ce5bed861275734": "write",
+  "15ccd23ae0e06b52c71905122adeaaa9c9703522bf06360def36c011ad348c5e": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

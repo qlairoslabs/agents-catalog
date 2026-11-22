@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d7c165069b7439768fef3c9f39b8987a393ecfb6ce372841f2fd443cd810dc87",
+ "domain": [
+  "software/code-quality",
+  "software/coding-standards"
+ ],
+ "product": [
+  "qodo"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Optional Qodo workflows for discovering coding rules and administering coding standards.",
+ "whenToUse": "Use when an agent needs to discover or administer coding standards rules in Qodo.",
+ "tasks": [
+  "discover coding rules",
+  "administer coding standards"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "50c6e1dee3d4333d43f4a43727f3c77d0698bac94aac9ba607f52096d254e6f0",
+ "domain": [
+  "commerce/agent-marketplace",
+  "payments/agent-spending"
+ ],
+ "product": [
+  "bitroad"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Marketplace where AI agents buy goods and services within spending limits, with returns and dispute handling.",
+ "whenToUse": "Use when an agent needs to purchase goods or services on a user's behalf under a spending cap.",
+ "tasks": [
+  "buy goods and services",
+  "set spending caps",
+  "handle returns",
+  "open disputes"
+ ],
+ "effects": {},
+ "flags": []
+}

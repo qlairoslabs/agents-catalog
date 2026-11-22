@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b5054b885337576b7e2d678aad61af9de4ca256449a465e47a65e2e9abfee415",
+ "domain": [
+  "marketing/seo",
+  "software/web-scraping"
+ ],
+ "product": [
+  "google-search",
+  "google-news"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Scrapes AI answer engines and Google Search and News results with country- and state-level geo-targeting.",
+ "whenToUse": "Use when tracking how search engines or AI assistants answer queries in specific locations.",
+ "tasks": [
+  "scrape ai answer engines",
+  "scrape google search",
+  "scrape google news",
+  "geo-target by country",
+  "geo-target by state"
+ ],
+ "effects": {},
+ "flags": []
+}

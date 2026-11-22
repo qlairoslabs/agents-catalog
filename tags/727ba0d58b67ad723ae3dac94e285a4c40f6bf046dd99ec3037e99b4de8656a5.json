@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "727ba0d58b67ad723ae3dac94e285a4c40f6bf046dd99ec3037e99b4de8656a5",
+ "domain": [
+  "software/scaffolding",
+  "software/databases"
+ ],
+ "product": [
+  "azure-sql-database",
+  "dotnet-aspire",
+  "fastapi",
+  "nextjs",
+  "nestjs",
+  "docker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Scaffolds a new app in .NET Aspire, FastAPI, Next.js or NestJS wired to the local Azure SQL container as its dev database.",
+ "whenToUse": "Use when starting a new project that needs a local SQL Server or Azure SQL database.",
+ "tasks": [
+  "scaffold new app",
+  "add compose database service",
+  "create local database",
+  "write env connection string",
+  "create first migration",
+  "wire orm to sql"
+ ],
+ "effects": {},
+ "flags": []
+}

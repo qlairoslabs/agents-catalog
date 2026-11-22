@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "677e2475f20c63f73425679cba0161773ee0f000502f7b8b785f047d590f4dac",
+ "domain": [
+  "design/animation",
+  "games/assets"
+ ],
+ "product": [
+  "spine"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Renders Spine 3.8 skeletal animations into PNG frames or GIFs, paid per call with points.",
+ "whenToUse": "Use when the user needs image or GIF output from a Spine 3.8 skeleton animation.",
+ "tasks": [
+  "render animation to png frames",
+  "render animation to gif"
+ ],
+ "effects": {},
+ "flags": []
+}

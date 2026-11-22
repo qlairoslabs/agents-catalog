@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3abddd67ea6950adb2e86fefd849a093d57db047dc0ee2363aa48a77c20a581e",
+ "domain": [
+  "software/ci-cd",
+  "software/devops"
+ ],
+ "product": [
+  "teamcity"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Skill for operating TeamCity CI/CD through its CLI: builds, logs, jobs, queues and agents.",
+ "whenToUse": "Use when you need to inspect or trigger TeamCity builds or manage its queues and agents.",
+ "tasks": [
+  "explore builds",
+  "view build logs",
+  "start jobs",
+  "manage build queues",
+  "manage build agents"
+ ],
+ "effects": {},
+ "flags": []
+}

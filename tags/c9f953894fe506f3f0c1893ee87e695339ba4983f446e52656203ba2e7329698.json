@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c9f953894fe506f3f0c1893ee87e695339ba4983f446e52656203ba2e7329698",
+ "domain": [
+  "ai/observability",
+  "software/debugging"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Investigates specific AI agent sessions or failure patterns in Amplitude Agent Analytics to find the root cause of problems.",
+ "whenToUse": "Use when Amplitude Agent Analytics is set up and you need to debug a specific agent session, tool errors or low quality.",
+ "tasks": [
+  "inspect ai agent session by id",
+  "trace tool errors",
+  "analyze agent failure patterns",
+  "explain low quality responses",
+  "root cause analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

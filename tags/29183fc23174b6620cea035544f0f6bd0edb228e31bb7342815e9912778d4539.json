@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "29183fc23174b6620cea035544f0f6bd0edb228e31bb7342815e9912778d4539",
+ "domain": [
+  "wellbeing/mindfulness",
+  "education/child-development"
+ ],
+ "product": [
+  "the-holistic-care"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search of mindfulness games, guided practices, research summaries, glossary, PanchaVikas resources and podcast episodes.",
+ "whenToUse": "Use when looking for mindfulness activities, meditation practices or research for children, teens or adults.",
+ "tasks": [
+  "search resources",
+  "get resource detail",
+  "find mindfulness games",
+  "find guided practices",
+  "search research summaries",
+  "look up glossary terms",
+  "find PanchaVikas resources",
+  "find podcast episodes"
+ ],
+ "effects": {
+  "b26d7a287eb89838b82c8a1a7812f00c8efc94baa73e7697294c0e18819ec70b": "write",
+  "1c68eacb2c20e566248940269fc37ce26dc9b135338cb8f61467c02b5444a518": "write",
+  "f10bac7cacf7209ba0b053acbc2e6a13f2b872da240ae13cffca9c6a37c9fbdd": "read",
+  "333307fc960ffb472958db24a324ba63bc5c3ecc192adc9c511559f181899d7a": "read",
+  "54e663f10025d8653be6d7407467d15fba76334417b57ec8a9131b08d7ed504b": "read",
+  "c99dfc4d458e06945cec853034db9ea227b6524f10f805ada963fe3aa2fa87a0": "read",
+  "bcf378a95848078c198752b5a630a3279244978558f05256537f577afaf9c387": "write",
+  "19f3b0ed1217475fd0af108263ef436f6f484ed4567d42e4b3728cbe807df88e": "write"
+ },
+ "flags": []
+}

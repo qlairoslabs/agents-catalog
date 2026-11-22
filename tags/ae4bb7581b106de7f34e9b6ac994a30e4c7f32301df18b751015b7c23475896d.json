@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ae4bb7581b106de7f34e9b6ac994a30e4c7f32301df18b751015b7c23475896d",
+ "domain": [
+  "finance/currency-exchange"
+ ],
+ "product": [
+  "allratestoday"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up real-time and historical currency exchange rates, including multi-currency queries.",
+ "whenToUse": "Use when an agent needs exchange rates or currency conversions.",
+ "tasks": [
+  "get live exchange rates",
+  "get historical rates",
+  "compare multiple currencies"
+ ],
+ "effects": {},
+ "flags": []
+}

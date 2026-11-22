@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3b73b70b45ef213be8154869809369af4bed268106b0db929b9bef6029bdfd04",
+ "domain": [
+  "operations/shipping-logistics",
+  "finance/invoicing"
+ ],
+ "product": [
+  "zineps"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "get-paid"
+ ],
+ "summary": "Manages Zineps shipments, labels, orders, invoices and partner operations.",
+ "whenToUse": "Use when an agent needs to create or track shipments, print labels, or handle orders and invoices in Zineps.",
+ "tasks": [
+  "manage shipments",
+  "create labels",
+  "manage orders",
+  "manage invoices",
+  "manage partner operations"
+ ],
+ "effects": {},
+ "flags": []
+}

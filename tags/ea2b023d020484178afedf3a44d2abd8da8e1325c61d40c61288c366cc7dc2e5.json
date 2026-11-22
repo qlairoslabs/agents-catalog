@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ea2b023d020484178afedf3a44d2abd8da8e1325c61d40c61288c366cc7dc2e5",
+ "domain": [
+  "analytics/experimentation/ab-testing"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Consolidated variant of the experiment skill for designing A/B tests and analyzing Amplitude experiment results.",
+ "whenToUse": "Use when setting up an experiment, checking its status, or interpreting results to decide whether to ship.",
+ "tasks": [
+  "design a/b tests",
+  "choose metrics and variants",
+  "check experiment status",
+  "analyze experiment results",
+  "recommend ship decisions"
+ ],
+ "effects": {},
+ "flags": []
+}

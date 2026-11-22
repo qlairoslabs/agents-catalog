@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "01936a555bababbcff006f4995a6516aee57055049b988596422baba53c3dfbd",
+ "domain": [
+  "software/cloud-containers",
+  "software/devops"
+ ],
+ "product": [
+  "amazon-ecs",
+  "aws"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local proxy package for the Amazon ECS MCP server to manage container workloads on AWS.",
+ "whenToUse": "Use when deploying, inspecting or troubleshooting containerized workloads on Amazon ECS.",
+ "tasks": [
+  "manage ecs workloads",
+  "inspect clusters and services",
+  "troubleshoot deployments"
+ ],
+ "effects": {},
+ "flags": []
+}

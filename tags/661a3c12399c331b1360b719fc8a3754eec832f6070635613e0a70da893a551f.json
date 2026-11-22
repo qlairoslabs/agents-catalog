@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "661a3c12399c331b1360b719fc8a3754eec832f6070635613e0a70da893a551f",
+ "domain": [
+  "hiring/job-search"
+ ],
+ "product": [
+  "jobyap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches job postings aggregated from company careers sites, matches them to a candidate profile and shows each job's discussion thread.",
+ "whenToUse": "Use when someone is looking for jobs, wants postings ranked against their resume, or wants details and community comments on a posting.",
+ "tasks": [
+  "search jobs with filters",
+  "match jobs to a candidate",
+  "get job details",
+  "read job comments",
+  "resolve locations",
+  "list companies",
+  "get job stats"
+ ],
+ "effects": {
+  "21d0a8ac6e83c3aeb38cc100163cebcc3408102d35a7eaf53cb512496dd46580": "write",
+  "51969ae046152f00a50874a51fe8c8e21e9592fb4f9120272d59ed1fcc5f6987": "write",
+  "0ebece486c1191a3ba1d93a249835f992328154c4ca33595160d42e8f2e3cda7": "read",
+  "7afb34bb8f240366a9548eed61b457e66e34d55c5d131772f3d929e6654a3306": "read",
+  "cfde77e762087870a73953132a5cde437c6d3c4f4721df27c3374ab07ee5c9e5": "read",
+  "3ff07bcd940825d9c46da25add1b0eda0cad0fb7d21f6c584cd12c40aeeefa36": "read",
+  "4d6ea5ee96f131bc7413aad884088d1a82828e89adf410d99d062c8239c601bb": "read",
+  "50e2a7147a3bc203f68f73a2c3a0e9261443025516282899741936c82bd7ab96": "read",
+  "49f6a08273cf9ee7ce64033a1d2d7fa913478ba9818118ad5b093b9c2caf1017": "read"
+ },
+ "flags": []
+}

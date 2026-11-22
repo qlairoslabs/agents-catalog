@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "624222d7889d5735deda7f764f1bcf955213e7b90b9e7cae989b3400eb346c44",
+ "domain": [
+  "shopping/price-comparison",
+  "e-commerce"
+ ],
+ "product": [
+  "primini",
+  "mytek"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Read-only price comparison for Tunisia: products, store offers, price history, deals, coupons and buy-or-wait analysis in TND.",
+ "whenToUse": "Use when a user in Tunisia wants to find, compare or time the purchase of a product or find deals and coupons.",
+ "tasks": [
+  "search products",
+  "compare store offers",
+  "view price history",
+  "compare products",
+  "analyze buy timing",
+  "browse categories",
+  "find deals",
+  "find promo codes",
+  "get store profile"
+ ],
+ "effects": {
+  "e3168a3d2e3ed04089910590bb6dfbcd48ed681b40e42ad53e85ef591bfd3aec": "read",
+  "c0023f47f085de892d5f452798b17aaa13dbf346deb765beee68f62327226111": "read",
+  "71d87132e77a7e16dc12d3056dda7c8fc5a488537e626c8d9c7f913c0e3776bc": "read",
+  "3b2cf3d5e0196332385691c67f809c6759c89793abb359a2be755bbe775d6b68": "read",
+  "edf7fb3a5f9ed490dd7cfc3298f3f84205d766e3e44f9c338480cd775634f2b1": "read",
+  "d14d5e32edb81049474281a98d9bc49900f5b99fc6b26f4c04271116d08f6f1e": "read",
+  "8a232a12e3cf07736ebf487e8422edec127f1f7f4f7ca3602f666363dcb291b8": "read",
+  "e21f8f441ab138b3aede0f62b5bfb41612ed8eec248ecdbb277b0e7c2b06f41b": "read",
+  "1c32db306f06f5ba83c20db6fe389957bc5e9733075a998d2661d5a724d43ea7": "read",
+  "9d83466b722c620c350354238658fed549287704ea79832ae61047ada7f506a7": "read",
+  "16160aefd132d7ff9f99798be34d51a569b9b174792a423e9d25da1812944bad": "read",
+  "7d9e2aedfda3efd13e5d461c284cf257f640b0b8c9c9b5b36b730694c15dbb13": "read",
+  "7d7d1f5f65af0c7335741f17b6eb5552b3675497ab7ee4ce2ae90a5065186721": "read",
+  "fac9cdea217ca4146480fa8e71c8d25217454435444e4ba0c6a75b706ca5a16c": "read"
+ },
+ "flags": []
+}

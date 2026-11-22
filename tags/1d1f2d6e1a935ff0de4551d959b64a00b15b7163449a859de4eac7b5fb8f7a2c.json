@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1d1f2d6e1a935ff0de4551d959b64a00b15b7163449a859de4eac7b5fb8f7a2c",
+ "domain": [
+  "health/dentistry",
+  "education/clinical-reference"
+ ],
+ "product": [
+  "bonebenders"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searchable dental knowledge base on implantology, periodontology and oral surgery with articles, glossary, drug sheets and cases, quoted with sources.",
+ "whenToUse": "Use when you need sourced dental or oral-surgery information in Italian or English.",
+ "tasks": [
+  "search clinical articles",
+  "read full documents",
+  "look up glossary terms",
+  "find drug sheets",
+  "find clinical cases"
+ ],
+ "effects": {
+  "0df38ad03af14bc61bb38be1727babaacf20c99a1a69f53e3d2bd2ea92d8cf61": "read",
+  "1d40f30ab1ca98f8c0633ab428a9942866a0ca7ca43100ea1144a94f393e8067": "read",
+  "49f28d220bc22580590fb01e84898e5183b250a170576e8412079dcca2a15dfb": "read"
+ },
+ "flags": []
+}

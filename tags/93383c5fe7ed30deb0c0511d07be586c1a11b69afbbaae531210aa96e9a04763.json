@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "93383c5fe7ed30deb0c0511d07be586c1a11b69afbbaae531210aa96e9a04763",
+ "domain": [
+  "communication/messaging-apis",
+  "software/development"
+ ],
+ "product": [
+  "twilio",
+  "sendgrid",
+  "whatsapp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "keep-in-touch"
+ ],
+ "summary": "Procedural skills telling coding agents which Twilio APIs to use and how, across SMS, voice, WhatsApp, Verify and more.",
+ "whenToUse": "Use when building integrations with Twilio messaging, voice, verification or SendGrid email.",
+ "tasks": [
+  "guide sms integration",
+  "guide voice integration",
+  "guide whatsapp integration",
+  "guide verify setup",
+  "guide sendgrid email",
+  "guide compliance setup"
+ ],
+ "effects": {},
+ "flags": []
+}

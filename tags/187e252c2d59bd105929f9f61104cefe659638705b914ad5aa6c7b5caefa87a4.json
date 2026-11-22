@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "187e252c2d59bd105929f9f61104cefe659638705b914ad5aa6c7b5caefa87a4",
+ "domain": [
+  "software/mobile-testing",
+  "automation/device-control"
+ ],
+ "product": [
+  "android",
+  "ios"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local npm MCP server that automates interaction with mobile devices.",
+ "whenToUse": "Use when an agent needs to drive a mobile device or emulator for testing or automation.",
+ "tasks": [
+  "automate mobile device interaction"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8b303acda8df15db1a21e7844758952a87d9c14e4d39085d6c6fd8ad8cbbdda0",
+ "domain": [
+  "software/frontend",
+  "software/developer-tools"
+ ],
+ "product": [
+  "tailwind-css",
+  "lunarwerx"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Rewrites Tailwind classes into canonical short forms and searches LunarWerx's catalogue of free developer tools.",
+ "whenToUse": "Use when cleaning up Tailwind arbitrary-value classes or looking for a free dev utility.",
+ "tasks": [
+  "canonicalize Tailwind classes",
+  "search free developer tools"
+ ],
+ "effects": {
+  "db5ebb1b176644545bcce8631f6453c86a7e5f0ddd45da4472739916f56de52b": "read",
+  "9130be2d6ccd16ea906675b43f789ceacbbd0fb0dfa04002bc971100d9c7761f": "read"
+ },
+ "flags": []
+}

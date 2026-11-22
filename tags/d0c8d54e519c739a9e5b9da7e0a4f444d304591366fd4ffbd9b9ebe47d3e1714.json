@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d0c8d54e519c739a9e5b9da7e0a4f444d304591366fd4ffbd9b9ebe47d3e1714",
+ "domain": [
+  "software/code-analysis",
+  "education/academic-integrity"
+ ],
+ "product": [
+  "codequiry"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Detects source code plagiarism, similarity between submissions and AI-generated code.",
+ "whenToUse": "Use when an agent needs to check code for plagiarism, peer similarity or AI generation.",
+ "tasks": [
+  "check code plagiarism",
+  "compare peer submissions",
+  "detect ai-generated code"
+ ],
+ "effects": {},
+ "flags": []
+}

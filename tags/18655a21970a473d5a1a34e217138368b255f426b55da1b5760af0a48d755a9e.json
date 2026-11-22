@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "18655a21970a473d5a1a34e217138368b255f426b55da1b5760af0a48d755a9e",
+ "domain": [
+  "content/documentation",
+  "support/help-center"
+ ],
+ "product": [
+  "opendocs"
+ ],
+ "audience": [
+  "support",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "support-customers",
+  "be-online"
+ ],
+ "summary": "Connector for writing, organizing and publishing documentation sites, help centers and SOPs on OpenDocs.",
+ "whenToUse": "Use when an agent needs to create or update documentation, help center articles or procedures hosted on OpenDocs.",
+ "tasks": [
+  "write documentation pages",
+  "organize documentation",
+  "publish help centers",
+  "maintain sops"
+ ],
+ "effects": {},
+ "flags": []
+}

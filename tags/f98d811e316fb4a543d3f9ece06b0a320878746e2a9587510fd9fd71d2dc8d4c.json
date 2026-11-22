@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f98d811e316fb4a543d3f9ece06b0a320878746e2a9587510fd9fd71d2dc8d4c",
+ "domain": [
+  "sports/tennis",
+  "local-guide"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Directory of places to play tennis in New York and about 50 other cities, with access rules, booking route, price and surfaces.",
+ "whenToUse": "Use when someone wants to find tennis courts and learn whether to walk on, book or join.",
+ "tasks": [
+  "list cities",
+  "find courts by city and area",
+  "filter by access and indoor",
+  "get venue details",
+  "explain NYC court access"
+ ],
+ "effects": {
+  "974a8fdff8eaf7d8573bc199625899e09b995ae421b6bd8c71201536e561eaf7": "write",
+  "ab72478cffbb1c92acef85e3d3499c24187e16ebd964dab01b410c9ca39bb3a3": "read",
+  "96a45598a9c0e001631b700f20dcee3e9871721947115c3839cb175bc50ce244": "write",
+  "4eaa3bdce94d688f81d07cb3b3a94be15013cab8a59435ab9da92d203e1eba74": "read"
+ },
+ "flags": []
+}

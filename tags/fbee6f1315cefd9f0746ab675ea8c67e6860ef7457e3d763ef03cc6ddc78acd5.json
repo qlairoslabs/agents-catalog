@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "fbee6f1315cefd9f0746ab675ea8c67e6860ef7457e3d763ef03cc6ddc78acd5",
+ "domain": [
+  "travel/holiday-rentals"
+ ],
+ "product": [
+  "ferienhausmiete"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Search private holiday homes on Ferienhausmiete.de by region, dates and features, with details and per-day availability and prices.",
+ "whenToUse": "Use when a user wants to find and check availability and prices of holiday homes or apartments.",
+ "tasks": [
+  "autocomplete regions",
+  "search accommodations",
+  "get accommodation details",
+  "check availability and prices"
+ ],
+ "effects": {
+  "66f80b96993b9f6af9e45e694a0653198f03213d4cbae3e278f4f64e5fcfc969": "read",
+  "092c7f3ac17d0a27ee6635d3e75f5d361ab2fb51c7fffc94cedc475bc8f738db": "write",
+  "7ad03f101c1d030ce72e14015d609c9a365b9b162b64e9fa45dd7646c7057f82": "read",
+  "8aa0e5ec251348c82a654bfb22cdb1434a41dd95bbf194910460142f3f458bf6": "read"
+ },
+ "flags": []
+}

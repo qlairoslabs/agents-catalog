@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f324b58724170cc33943141bc5e4e0c4d408c1c9a21f57596ee57c90127a0c6e",
+ "domain": [
+  "software/developer-tools"
+ ],
+ "product": [
+  "faf",
+  "claude",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm server that keeps persistent project context for Claude using the .faf file format.",
+ "whenToUse": "Use when a developer wants Claude to keep and reuse project context across sessions.",
+ "tasks": [
+  "store project context",
+  "load project context",
+  "manage .faf files"
+ ],
+ "effects": {},
+ "flags": []
+}

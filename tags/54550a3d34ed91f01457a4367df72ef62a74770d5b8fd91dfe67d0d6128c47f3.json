@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "54550a3d34ed91f01457a4367df72ef62a74770d5b8fd91dfe67d0d6128c47f3",
+ "domain": [
+  "research/scholarly-metadata"
+ ],
+ "product": [
+  "crossref"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Resolves DOIs, searches scholarly works and fetches references using the Crossref API.",
+ "whenToUse": "Use when resolving a DOI or finding metadata and references for academic works.",
+ "tasks": [
+  "resolve dois",
+  "search scholarly works",
+  "fetch references"
+ ],
+ "effects": {},
+ "flags": []
+}

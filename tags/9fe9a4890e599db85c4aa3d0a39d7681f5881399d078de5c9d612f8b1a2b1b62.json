@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9fe9a4890e599db85c4aa3d0a39d7681f5881399d078de5c9d612f8b1a2b1b62",
+ "domain": [
+  "storage/file-transfer",
+  "storage"
+ ],
+ "product": [
+  "files.com"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Local Python server for working with the Files.com file storage and transfer API.",
+ "whenToUse": "Use when an agent needs to manage files, folders or transfers in a Files.com account.",
+ "tasks": [
+  "manage files and folders",
+  "transfer files",
+  "access files.com api"
+ ],
+ "effects": {},
+ "flags": []
+}

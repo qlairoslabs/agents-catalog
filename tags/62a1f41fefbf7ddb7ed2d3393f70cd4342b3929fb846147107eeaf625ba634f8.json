@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "62a1f41fefbf7ddb7ed2d3393f70cd4342b3929fb846147107eeaf625ba634f8",
+ "domain": [
+  "ai/evaluation",
+  "software/testing"
+ ],
+ "product": [
+  "whetstone"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Evaluation tools for AI systems: leakage audits, paired baseline-versus-candidate promotion gates with signed receipts, item-bank diagnostics, safe Markdown patching and benchmark sessions.",
+ "whenToUse": "Use when deciding whether a candidate model or agent should replace a baseline, or when checking an exam set for contamination.",
+ "tasks": [
+  "audit exam leakage",
+  "gate promotion with McNemar test",
+  "diagnose item bank health",
+  "apply section-scoped Markdown patch",
+  "search graph counterexamples",
+  "rank memories by relevance",
+  "replay reasoning traces",
+  "run report card",
+  "run open promotion bench",
+  "read leaderboard"
+ ],
+ "effects": {
+  "270eae0b08517a0cfb8f98ad39703bd9d67c2c3de31a1e6909f251b82f7cc57c": "read",
+  "c264be2287c103da2c41251f9f59ff3c0102e8e3984c30a8f7f2c1ab0f9461f3": "read",
+  "d682a55db2789ae92e03671e60f4a2d6cdd3dbe9de00302218a9731adcfd03ac": "read",
+  "d70a1d53949cb492fbd144555611cb30c82ae784bcdcff16c1b44e6e02dd3e28": "read",
+  "2f3f1f5d9e021156ae226a0f83a5cc388a5af49455a8a1c42b1c3f07e05cc6df": "read",
+  "aff3ca89ebde50afbf1030a0ff555a65e36be5275d9e5b118105e9dce09aedf6": "read",
+  "7fada1989207f917f45cb75de2d70078ea0fb6eb9c9d4a20fd5ee2eb79e5c7b2": "read",
+  "b76c5e9faa75f90b7ccde41307095bf7013cc30f33d09b98aeb39aca53d84248": "read",
+  "844c7097cada49946be933264c15452a0184dfcb8dc687f6de74f67fd02eee4b": "write",
+  "a7769c2c77c89b1d7d2acc4a9ba7488631ee6de45ef9cc584c14e66bfad64351": "write",
+  "28d3a2aa7af380893e26f0324fc927af956cb162e0d8f74e1d3b74f269908240": "write",
+  "15583e570302b00ff4082e044fa01139d457b4055fef16f84cc83b03f1971461": "write",
+  "a00a13146d75a44b95fc22398fcc8908fba7198a528cbe6a409e4546a06b9d79": "read",
+  "3a550d618660d2cab9be76fca50f61d623d0e5fee3e4348cf7ecdf51b98af0e2": "read"
+ },
+ "flags": []
+}

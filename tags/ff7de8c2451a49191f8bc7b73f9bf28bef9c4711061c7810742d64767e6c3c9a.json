@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ff7de8c2451a49191f8bc7b73f9bf28bef9c4711061c7810742d64767e6c3c9a",
+ "domain": [
+  "lifestyle/astrology/horoscope"
+ ],
+ "product": [
+  "divine-api"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Provides horoscope, tarot and numerology readings plus PDF reports from Divine API.",
+ "whenToUse": "Use when generating horoscopes, tarot readings, numerology or astrology PDF reports.",
+ "tasks": [
+  "get horoscopes",
+  "draw tarot readings",
+  "calculate numerology",
+  "generate pdf reports"
+ ],
+ "effects": {},
+ "flags": []
+}

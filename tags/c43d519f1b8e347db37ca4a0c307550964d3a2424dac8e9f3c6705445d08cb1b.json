@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c43d519f1b8e347db37ca4a0c307550964d3a2424dac8e9f3c6705445d08cb1b",
+ "domain": [
+  "software/cybersecurity/ai-security",
+  "software/code-scanning"
+ ],
+ "product": [
+  "github",
+  "securityscan"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Scans AI skills hosted on GitHub for prompt injection, malware and OWASP LLM Top 10 vulnerabilities.",
+ "whenToUse": "Use before installing or publishing a GitHub-hosted AI skill to check it for security issues.",
+ "tasks": [
+  "scan github skill repo",
+  "detect prompt injection",
+  "detect malware",
+  "check owasp llm top 10"
+ ],
+ "effects": {},
+ "flags": []
+}

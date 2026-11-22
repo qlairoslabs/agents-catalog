@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "9bdd139344cc1e4b0284618ad859481b9bb517ba3fbf5e9502c556a3dafc55b3",
+ "domain": [
+  "gaming/price-comparison"
+ ],
+ "product": [
+  "gocdkeys"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Compares game key prices across verified stores with price history, deals, upcoming releases and buy-or-wait context.",
+ "whenToUse": "Use when a user wants the best price or a deal on a video game, or wants to know if it is a good time to buy.",
+ "tasks": [
+  "search game",
+  "get best price",
+  "get price history",
+  "list deals",
+  "list upcoming releases"
+ ],
+ "effects": {
+  "c9b73159dc89a732f3b13be102dbb042a599ce17cef8f49f1c5aab049f7328b3": "read",
+  "b20e9449efc0d187854a23a2bb8fbdc0e169b200b5629903069044cf1165fba3": "write",
+  "38ffabd482a40eeb35eed81c2a39d47d6d3300c28d6e4a454356b14998312e03": "read",
+  "a526c29a3cffbb787efba5aadf0a0d3be5a12c0c2261fec957850bf43d80ba46": "read",
+  "e7cec0827b35e84452c1b36e750008bc372eb42243c48167a1cf9dbe4deb4d4d": "read"
+ },
+ "flags": []
+}

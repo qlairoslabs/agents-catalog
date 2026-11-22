@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4292c450e941286f14d5ff8cf499d00f8112c8d1667f28ca9c4e0e8714d9b744",
+ "domain": [
+  "design/fashion-design",
+  "design/generative-ai"
+ ],
+ "product": [
+  "stytrix"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates fashion concepts, models, fabrics and looks on a StyTrix design canvas.",
+ "whenToUse": "Use when an agent needs to create fashion design concepts or looks in StyTrix.",
+ "tasks": [
+  "generate fashion concepts",
+  "generate models",
+  "create fabrics",
+  "create looks"
+ ],
+ "effects": {},
+ "flags": []
+}

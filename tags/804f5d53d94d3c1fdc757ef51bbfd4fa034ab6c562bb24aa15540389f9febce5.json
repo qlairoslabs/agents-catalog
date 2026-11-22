@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "804f5d53d94d3c1fdc757ef51bbfd4fa034ab6c562bb24aa15540389f9febce5",
+ "domain": [
+  "marketing/email/campaigns",
+  "communication/email/smtp"
+ ],
+ "product": [
+  "mailsenpai",
+  "smtp-senpai"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Email marketing connector for lists, campaigns, DNS and spam checks, plus SMTP and API sending via SMTP Senpai.",
+ "whenToUse": "Use when an agent manages email lists and campaigns or checks deliverability with MailSenpai.",
+ "tasks": [
+  "manage lists",
+  "manage campaigns",
+  "check dns records",
+  "run spam checks",
+  "send via smtp or api"
+ ],
+ "effects": {},
+ "flags": []
+}

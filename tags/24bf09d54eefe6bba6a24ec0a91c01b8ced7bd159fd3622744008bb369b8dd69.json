@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "24bf09d54eefe6bba6a24ec0a91c01b8ced7bd159fd3622744008bb369b8dd69",
+ "domain": [
+  "software/bug-tracking",
+  "software/debugging"
+ ],
+ "product": [
+  "snagrelay"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Captures bug reports with the affected element, console errors and failing network requests for coding agents to fix.",
+ "whenToUse": "Use when a coding agent needs detailed web bug reports to reproduce and fix issues.",
+ "tasks": [
+  "read bug reports",
+  "view console errors",
+  "inspect failing requests",
+  "identify affected elements"
+ ],
+ "effects": {},
+ "flags": []
+}

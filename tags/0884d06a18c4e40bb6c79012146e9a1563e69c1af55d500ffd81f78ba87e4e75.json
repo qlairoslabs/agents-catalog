@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0884d06a18c4e40bb6c79012146e9a1563e69c1af55d500ffd81f78ba87e4e75",
+ "domain": [
+  "health/self-tracking",
+  "health/fitness"
+ ],
+ "product": [
+  "oura",
+  "rescuetime"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs personal N-of-1 health experiments using Oura and RescueTime data, with protocols and workout tracking.",
+ "whenToUse": "Use when a user wants to design or review personal health experiments based on their sleep, activity or productivity data.",
+ "tasks": [
+  "read oura data",
+  "read rescuetime data",
+  "manage health protocols",
+  "track workouts",
+  "run n-of-1 experiments"
+ ],
+ "effects": {},
+ "flags": []
+}

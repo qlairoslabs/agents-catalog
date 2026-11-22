@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0f3abf571223d8b05e4d45a7d19c6386dfdbce98e244cf1824e8e003dcbb4066",
+ "domain": [
+  "software/databases",
+  "software/devops"
+ ],
+ "product": [
+  "supabase",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Compares, syncs and clones Supabase and Postgres projects including schema, data, RLS, grants, storage and auth.",
+ "whenToUse": "Use when an agent needs to diff or migrate database setup between Supabase or Postgres environments.",
+ "tasks": [
+  "diff schemas",
+  "sync data",
+  "clone projects",
+  "compare rls policies",
+  "compare grants",
+  "sync storage and auth config"
+ ],
+ "effects": {},
+ "flags": []
+}

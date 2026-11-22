@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "8265e7001c5cf4f5146b0dc3384fc5756b7f309e5757fc1163e7fe94b702e86c",
+ "domain": [
+  "marketing/sms",
+  "communication/messaging"
+ ],
+ "product": [
+  "sms-vert-pro"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "French SMS platform for sending bulk and scheduled SMS, OTPs, tracking delivery and handling replies and opt-outs.",
+ "whenToUse": "Use when an agent needs to send or schedule SMS campaigns or one-time codes to French recipients.",
+ "tasks": [
+  "send bulk sms",
+  "schedule sms",
+  "send otp codes",
+  "get delivery reports",
+  "read replies",
+  "manage stop list"
+ ],
+ "effects": {},
+ "flags": []
+}

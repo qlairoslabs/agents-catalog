@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c0b3d74b7352881021e509fe734d2ef0e52cf80ac00e3c6a72652b1c7291e262",
+ "domain": [
+  "software/code-quality/repository-audit",
+  "software/devops"
+ ],
+ "product": [
+  "shpbl",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Audits public GitHub repositories for free and sells repaired source, unified diffs and pull requests.",
+ "whenToUse": "Use when an agent wants an automated audit of a public GitHub repo or proposed fixes as a pull request.",
+ "tasks": [
+  "survey repository",
+  "audit public repo",
+  "generate diffs",
+  "open pull request",
+  "purchase repair"
+ ],
+ "effects": {},
+ "flags": []
+}

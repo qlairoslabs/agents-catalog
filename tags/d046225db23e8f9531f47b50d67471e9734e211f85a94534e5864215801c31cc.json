@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d046225db23e8f9531f47b50d67471e9734e211f85a94534e5864215801c31cc",
+ "domain": [
+  "data/data-catalog",
+  "data/governance"
+ ],
+ "product": [
+  "atlan"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Atlan data catalog integration for searching assets, traversing lineage, managing glossaries and data quality rules, and governing data.",
+ "whenToUse": "Use when discovering, documenting or governing data assets in an Atlan catalog.",
+ "tasks": [
+  "semantic search of data assets",
+  "traverse lineage",
+  "manage glossary terms",
+  "define data quality rules",
+  "govern data assets"
+ ],
+ "effects": {},
+ "flags": []
+}

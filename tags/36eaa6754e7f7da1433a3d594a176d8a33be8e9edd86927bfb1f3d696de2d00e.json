@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "36eaa6754e7f7da1433a3d594a176d8a33be8e9edd86927bfb1f3d696de2d00e",
+ "domain": [
+  "software/identity-and-access",
+  "cloud/azure"
+ ],
+ "product": [
+  "microsoft-entra",
+  "microsoft-graph",
+  "azure"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Guides setting up Microsoft Entra Agent Identity blueprints and agent identities through Microsoft Graph, plus OAuth token exchange flows for AI agents.",
+ "whenToUse": "Use when an AI agent needs its own Entra Agent Identity or agent-specific OAuth flows such as fmi_path, on-behalf-of or cross-tenant token exchange.",
+ "tasks": [
+  "provision agent identity blueprints",
+  "create blueprint principals",
+  "create per-instance agent identities",
+  "configure fmi_path token exchange",
+  "set up on-behalf-of flows for agents",
+  "configure cross-tenant agent auth",
+  "set up workload identity federation for agents",
+  "configure entra sdk agentid sidecar"
+ ],
+ "effects": {},
+ "flags": []
+}

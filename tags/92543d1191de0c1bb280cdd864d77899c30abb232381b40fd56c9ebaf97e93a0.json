@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "92543d1191de0c1bb280cdd864d77899c30abb232381b40fd56c9ebaf97e93a0",
+ "domain": [
+  "software/cybersecurity/threat-modeling"
+ ],
+ "product": [
+  "aws-security-agent"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Runs an AWS Security Agent threat model review on spec and design documents, including STRIDE analysis.",
+ "whenToUse": "Use when the user wants a security review of a design or requirements document.",
+ "tasks": [
+  "review design docs for security",
+  "run threat model",
+  "perform stride analysis"
+ ],
+ "effects": {},
+ "flags": []
+}

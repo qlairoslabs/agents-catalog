@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "838fb6d141b5a8367d1822cd69cc10467b6991fc6a15853f33cf691117e8818e",
+ "domain": [
+  "data/analytics",
+  "data/dashboards"
+ ],
+ "product": [
+  "omniscope"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Builds and runs Omniscope data workflows, analyses, reports and dashboards with step-by-step inspection.",
+ "whenToUse": "Use when a user needs to build, run or check data pipelines, reports or dashboards in Omniscope.",
+ "tasks": [
+  "build data workflows",
+  "run analyses",
+  "create reports",
+  "create dashboards",
+  "inspect workflow steps"
+ ],
+ "effects": {},
+ "flags": []
+}

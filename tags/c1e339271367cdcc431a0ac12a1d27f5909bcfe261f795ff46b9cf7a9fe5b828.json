@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "c1e339271367cdcc431a0ac12a1d27f5909bcfe261f795ff46b9cf7a9fe5b828",
+ "domain": [
+  "finance/tax/spain",
+  "finance/bookkeeping"
+ ],
+ "product": [
+  "aeat"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Bookkeeping and preparation of Spanish AEAT tax forms 303, 130, 390 and 100 for self-employed workers, using documents read by the model.",
+ "whenToUse": "Use when a Spanish autónomo needs help keeping books or preparing quarterly or annual AEAT tax returns.",
+ "tasks": [
+  "record income and expenses",
+  "prepare form 303 vat return",
+  "prepare form 130 income tax prepayment",
+  "prepare form 390 annual vat summary",
+  "prepare form 100 income tax return",
+  "read invoices and receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

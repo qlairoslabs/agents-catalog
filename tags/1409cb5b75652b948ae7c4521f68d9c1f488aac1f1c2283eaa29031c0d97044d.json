@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "1409cb5b75652b948ae7c4521f68d9c1f488aac1f1c2283eaa29031c0d97044d",
+ "domain": [
+  "music/publishing",
+  "music/classical"
+ ],
+ "product": [
+  "ravel-edition"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Browse the Ravel Edition catalogue of revised Ravel scores, work pages, news, orchestras and ordering information.",
+ "whenToUse": "Use when a user asks about Ravel editions, scores, orchestras performing them, or how to buy or rent materials.",
+ "tasks": [
+  "search the catalogue",
+  "get work details",
+  "read latest news",
+  "list orchestras",
+  "get ordering information"
+ ],
+ "effects": {
+  "209dca93de9c7125ca6b32afaeb310d4ed97b87dc13ad953bc07eb138327a87b": "read",
+  "0df8e4847f48c481973763a49cfb57e59afb7b20188bc983ca94492fefbb739c": "read",
+  "c0c962513a76a347bdef47af6249dbe2cb1bd34ab3094b22b9c6b69afeeb31c9": "read",
+  "cd49cbc92e248824b02d815c6aa75e1f71fb48b1b7689eeb5bd2479f03bbee10": "read",
+  "5a8dc8ee0fb22e23983df23c9d06d830f7cd99b69a679f3a2cb445abbf05db1f": "read"
+ },
+ "flags": []
+}

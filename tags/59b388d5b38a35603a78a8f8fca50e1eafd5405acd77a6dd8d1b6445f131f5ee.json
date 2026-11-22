@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "59b388d5b38a35603a78a8f8fca50e1eafd5405acd77a6dd8d1b6445f131f5ee",
+ "domain": [
+  "productivity/project-management/tasks",
+  "productivity/meetings"
+ ],
+ "product": [
+  "jira",
+  "confluence"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Extracts action items from meeting notes and creates assigned Jira tasks for them.",
+ "whenToUse": "Use when meeting notes or Confluence pages need to be turned into Jira tasks with assignees.",
+ "tasks": [
+  "parse meeting notes",
+  "extract action items",
+  "identify assignees",
+  "look up account ids",
+  "create jira tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

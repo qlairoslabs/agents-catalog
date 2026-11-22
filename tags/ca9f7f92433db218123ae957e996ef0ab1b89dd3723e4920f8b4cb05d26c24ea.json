@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "ca9f7f92433db218123ae957e996ef0ab1b89dd3723e4920f8b4cb05d26c24ea",
+ "domain": [
+  "education/coding",
+  "software/developer-tools"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Interactive mode that asks the user to write meaningful pieces of code at key decision points.",
+ "whenToUse": "Use when a developer wants to learn by contributing code during an agent session.",
+ "tasks": [
+  "prompt user code contributions",
+  "explain decision points"
+ ],
+ "effects": {},
+ "flags": []
+}

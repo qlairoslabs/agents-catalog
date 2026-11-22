@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8834cb59eb592648a194065f723a657a5270748662fe9368a7d2628be53e48d5",
+ "domain": [
+  "news/geopolitics",
+  "finance/markets"
+ ],
+ "product": [
+  "themonexus"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searchable wire of geopolitical and market news items, event threads and articles.",
+ "whenToUse": "Use when an agent needs current geopolitical or market news and event context.",
+ "tasks": [
+  "search wire items",
+  "follow event threads",
+  "read news articles"
+ ],
+ "effects": {},
+ "flags": []
+}

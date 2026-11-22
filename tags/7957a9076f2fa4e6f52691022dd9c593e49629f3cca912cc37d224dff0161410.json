@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "7957a9076f2fa4e6f52691022dd9c593e49629f3cca912cc37d224dff0161410",
+ "domain": [
+  "retail/fragrance",
+  "lifestyle/beauty"
+ ],
+ "product": [
+  "10ml"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Fragrance database of about 6,000 perfumes with notes, accords, comparisons, similar scents, dupes, layering, gift picks and guides.",
+ "whenToUse": "Use when someone asks about a perfume, wants scent recommendations, alternatives, gift ideas, or explanations of fragrance notes and terms.",
+ "tasks": [
+  "search perfumes by notes or style",
+  "get perfume profile",
+  "compare perfumes",
+  "find similar perfumes",
+  "find perfume dupes",
+  "personal recommendations",
+  "list perfumes by note",
+  "explain notes and terms",
+  "profile perfume houses",
+  "suggest layering",
+  "pick perfume for occasion or gift",
+  "search fragrance guides"
+ ],
+ "effects": {
+  "9de1cb1215c6d43a9114ee485dae2410c223b9b876f0a2e1db693b2a55dace5c": "write",
+  "4796cee7f7ec5ca0ea081b2c72f1e9fe3827cfc60d02e5f8268c5f04419d6a37": "write",
+  "9d5f8ecd385ee043eb2fc21e5f6986647ad45f4012a5e9418fb45ac835aaa195": "read",
+  "240d9b6b13fd5499689ad89e71114d228205d8e152a2ece06cfd6ae04c3bd9d9": "write",
+  "9df0c6a3db654f53b6b4a13f7ff79167677cbdd26154d8aaa43329b2201ee3be": "write",
+  "ea6dc2d8ab7b727d1c2acd68168832ded8420852fec7824e3b200c992242edf0": "read",
+  "31c8074443013a16c5386ca2f553c92de31640d74ec61d0c9b7e325c41598b54": "write",
+  "0055e4c4d732ed1370a7ee9986dc59830f4e2ef8cbbc4d42e6177e7d9f762bfe": "read",
+  "21680ff345fffdb2dc157b0508e3e08fea57afc63671888a9583696087c410e7": "read",
+  "044a19834fee97d6271e38ec6dac52423341a9a4b1ffd93d983c44620760921b": "read",
+  "eb3b73b2d6e5b8e85eabedcbb92409c9f161309319c0315ff1ffb6a832dde43a": "read",
+  "b50040bb0a2a79d25e0ec9c3f164b14f05fe7a1b4125bcbff944a7eec0505da7": "read",
+  "7128e392a1da136eb8709a3b0b0f9721498fcda80dab6aadaac81479445ab26d": "read",
+  "b29527a543357577446bb5839f93fed28b64d9a294280c9393af064e73a05798": "read",
+  "668c51d67fb3072005e09ecf5777612b34a05cff8257b12f22fddc4d5a6817cf": "read"
+ },
+ "flags": []
+}

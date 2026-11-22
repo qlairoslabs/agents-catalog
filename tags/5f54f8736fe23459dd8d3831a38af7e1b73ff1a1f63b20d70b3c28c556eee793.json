@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5f54f8736fe23459dd8d3831a38af7e1b73ff1a1f63b20d70b3c28c556eee793",
+ "domain": [
+  "energy/solar",
+  "services/scheduling"
+ ],
+ "product": [
+  "otovo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "support-customers"
+ ],
+ "summary": "Checks an Otovo home solar system and books, moves or cancels service visits with user approval.",
+ "whenToUse": "Use when an Otovo customer wants system status or to manage visit appointments.",
+ "tasks": [
+  "check solar system",
+  "book visits",
+  "reschedule visits",
+  "cancel visits"
+ ],
+ "effects": {},
+ "flags": []
+}

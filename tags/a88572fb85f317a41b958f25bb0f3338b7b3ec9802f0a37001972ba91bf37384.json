@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a88572fb85f317a41b958f25bb0f3338b7b3ec9802f0a37001972ba91bf37384",
+ "domain": [
+  "support/customer-feedback",
+  "analytics/csat-nps"
+ ],
+ "product": [
+  "simplesat"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search of Simplesat customer feedback with CSAT and NPS scores and trends.",
+ "whenToUse": "Use when reviewing customer satisfaction feedback or score trends in Simplesat.",
+ "tasks": [
+  "search feedback",
+  "view csat scores",
+  "view nps scores",
+  "track trends"
+ ],
+ "effects": {},
+ "flags": []
+}

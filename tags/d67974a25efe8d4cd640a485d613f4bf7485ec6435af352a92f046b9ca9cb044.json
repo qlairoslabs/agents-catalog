@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "d67974a25efe8d4cd640a485d613f4bf7485ec6435af352a92f046b9ca9cb044",
+ "domain": [
+  "telecom/cloud-telephony",
+  "telecom/pbx"
+ ],
+ "product": [
+  "clickphone",
+  "clickpbx",
+  "3cx",
+  "asterisk"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Romanian cloud telephony provider tools: search site content, call and SMS rates, ClickPBX packages, recommendations, setup guides, contacts and quote requests.",
+ "whenToUse": "Use when a user in Romania needs business telephony pricing, a package recommendation or phone setup help.",
+ "tasks": [
+  "search site",
+  "read page",
+  "look up call and SMS rates",
+  "list PBX packages",
+  "recommend package",
+  "read setup guides",
+  "get contact details",
+  "request a quote callback"
+ ],
+ "effects": {
+  "19bce0a3b29422d2a232ed7164282123bba52fa1812eeeff0c801438f504654f": "read",
+  "ba88d33d27aa8dacb35c027c7bd764b9a81b886b728733e3b6792b168c364d81": "read",
+  "006dd91cc4e8fb2a9e966cd1fe777e105b766f0cba1dad34cdecfe7f51a5193a": "read",
+  "e7fedfe93058396e88394415d1fdbf835b5ed488273ac1a84f663be70c78c5eb": "read",
+  "4d1a064c6463b52e76920f8765daa53441c3db44322339f136a96f7db26fd97f": "read",
+  "8f241346e494c76b25e2f237c552556ee9e362f9abfdbb3bade7482af1d36f72": "read",
+  "1f08086e7a55add74509ef8cbbc49460d42b23664afa416d93dc72868510f8ca": "read",
+  "1091f724cc0f46389c3037f45c9c9a096bfe9bf8415a38856258a5fe9dcdba66": "write"
+ },
+ "flags": []
+}

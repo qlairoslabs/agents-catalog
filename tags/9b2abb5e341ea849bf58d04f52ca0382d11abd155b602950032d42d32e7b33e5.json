@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9b2abb5e341ea849bf58d04f52ca0382d11abd155b602950032d42d32e7b33e5",
+ "domain": [
+  "software/monitoring",
+  "business/service-offers"
+ ],
+ "product": [
+  "pulsewatch"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Reads PulseWatch's public service packages, pricing and monitoring guides in English or Croatian.",
+ "whenToUse": "Use when a user wants PulseWatch's public offers, pricing or monitoring guidance.",
+ "tasks": [
+  "list service packages",
+  "search knowledge base",
+  "read guide documents"
+ ],
+ "effects": {
+  "7d7018fce84a7623b54ffd7edebc05fce1bd24d8adec25fabd10a509f19cddd6": "read",
+  "32d49e64b00ae43bfd9c48613ec86cea8e9aab72159bf4aa28a07ea3b66a65b7": "read",
+  "27f3b037b3cf0156dd458414299f41c76325aadb8bfdd2f17add6a2d666c03ec": "read"
+ },
+ "flags": []
+}

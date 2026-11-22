@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3e12857bfd0f1121486aeb6b6b82d86a6d2bd2bffadb1fc08847f688493d7bc4",
+ "domain": [
+  "services/personal-assistant",
+  "family/household"
+ ],
+ "product": [
+  "sherah"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "schedule"
+ ],
+ "summary": "Lists task types Sherah's assistants handle for US families and submits a help request that triggers an invitation email.",
+ "whenToUse": "Use when a US parent wants outsourced help with a home, kids or admin task.",
+ "tasks": [
+  "list task categories",
+  "submit task request",
+  "trigger sign-up invitation"
+ ],
+ "effects": {
+  "600de563940b76ff8864d22111fc06744385348628fe667a8fe18e20f451d5b7": "read",
+  "850e060f9301ab45fc6c408613c990f68f924dc28de1cd2c87d9dc34126e388e": "write"
+ },
+ "flags": []
+}

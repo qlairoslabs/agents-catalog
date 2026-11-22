@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a68c0437a73732cf814e66e0e20092df6ad9ad469b6c94ee013c0ee6a6897d7d",
+ "domain": [
+  "software/developer-tools/language-server"
+ ],
+ "product": [
+  "kotlin"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds a Kotlin language server for code intelligence.",
+ "whenToUse": "Use when working on Kotlin code and needing navigation, diagnostics or completion.",
+ "tasks": [
+  "kotlin code intelligence",
+  "go to definition",
+  "diagnostics",
+  "code completion"
+ ],
+ "effects": {},
+ "flags": []
+}

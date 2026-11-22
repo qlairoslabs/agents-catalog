@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "d0cb165af190dfd46878cbc61e9926fdf8e1ac7fb50538ac81d486a631768293",
+ "domain": [
+  "finance/mergers-and-acquisitions",
+  "business/business-for-sale"
+ ],
+ "product": [
+  "manda"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches public business-for-sale listings on MANDA, a Japanese M&A and succession marketplace.",
+ "whenToUse": "Use when looking for Japanese businesses for sale by keyword, region, revenue or asking price.",
+ "tasks": [
+  "search sale listings",
+  "get listing details",
+  "list regions",
+  "list industries"
+ ],
+ "effects": {
+  "49ce8fc93a54ec55d0f38bdd6bcb52688b0ed0e21dde65c20665efc8daf8f690": "read",
+  "ba582c416fdfff73a2d9d78c37ea5d3f7457c083e47f51a22e5364681500f557": "read",
+  "145f4aaf6115635fb62fce2d4ad866852551a61ea59d4a50c3a528b683769049": "read",
+  "3814bbce6e5d5b26288c4d40e7b7366e48b2db862152bc718840b276b8f9d8e4": "read"
+ },
+ "flags": []
+}

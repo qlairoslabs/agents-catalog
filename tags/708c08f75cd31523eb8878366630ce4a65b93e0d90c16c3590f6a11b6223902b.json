@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "708c08f75cd31523eb8878366630ce4a65b93e0d90c16c3590f6a11b6223902b",
+ "domain": [
+  "web/cms",
+  "marketing/content"
+ ],
+ "product": [
+  "caelo-cms"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Edits a self-hosted Caelo CMS site, saving changes as drafts for a human to publish.",
+ "whenToUse": "Use when an agent should draft content or page changes on a Caelo CMS site.",
+ "tasks": [
+  "edit site content",
+  "create drafts",
+  "review pages"
+ ],
+ "effects": {},
+ "flags": []
+}

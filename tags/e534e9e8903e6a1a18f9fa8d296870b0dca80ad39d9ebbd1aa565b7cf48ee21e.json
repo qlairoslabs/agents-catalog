@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e534e9e8903e6a1a18f9fa8d296870b0dca80ad39d9ebbd1aa565b7cf48ee21e",
+ "domain": [
+  "communication/temporary-email",
+  "software/testing"
+ ],
+ "product": [
+  "dropmail"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Creates disposable email inboxes and reads incoming messages without an account.",
+ "whenToUse": "Use when an agent needs a throwaway inbox, such as receiving a verification email during testing.",
+ "tasks": [
+  "create inbox",
+  "wait for mail",
+  "read incoming mail"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "9d3965d6af774e8b6b47e3cc27774cde9e515ca3f27652a8297894cced76c76e",
+ "domain": [
+  "logistics/shipping-containers",
+  "sales"
+ ],
+ "product": [
+  "western-container-sales"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Provides shipping container sale and rental offers, market lookup and delivery checks by US ZIP code.",
+ "whenToUse": "Use when a user wants container sale or rental prices and delivery availability for a US ZIP.",
+ "tasks": [
+  "find market by ZIP",
+  "get sale offers",
+  "check delivery",
+  "get rental offers"
+ ],
+ "effects": {
+  "39add9a24804c48063309f084b794dd7143c41d0e77221e6e1de4712270b50a9": "read",
+  "f95fa67f39fa65fe37e6182bba16b3e6b24d81eace042e8de44a8e143e2d1215": "read",
+  "4b6ad48ac47919814c9a55c5ea3e4847400413e69907fb759d2cfe782278eaae": "read",
+  "c158acfb9e5a2b1f12ce435de6cc9937be0ad761b8d963967249f3fa21da6998": "read"
+ },
+ "flags": []
+}

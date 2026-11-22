@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "4f52b2eaca920a2c25bcc8a907eba65ed301d1daa12cf8dba64346e95bd71c11",
+ "domain": [
+  "finance/personal-tax",
+  "finance/payroll"
+ ],
+ "product": [
+  "paycalculator",
+  "ato"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Australian pay calculators: take-home pay, income tax, super, student loans, child care subsidy, inflation and income comparisons using ATO rates.",
+ "whenToUse": "Use when someone asks about Australian take-home pay, tax brackets, HECS repayment, child care subsidy or how their income compares.",
+ "tasks": [
+  "calculate take-home pay and tax",
+  "list tax brackets by year",
+  "adjust income for inflation",
+  "project student loan repayment",
+  "estimate child care subsidy",
+  "show where income tax is spent",
+  "rank income against australians",
+  "list supported tax years"
+ ],
+ "effects": {
+  "61d6566cce21ed3d6314c1c28de9c6e8ca9361ba12506423fd84834a382ee127": "read",
+  "e5aa348c27eb5b9263345fdc0aeea4d1edae21d011ae2fb3ecdc798ddef94c81": "read",
+  "ffa813522336a7cdb5a0305cc2806d0fdba5f769e943e867d62781a34dd6796a": "read",
+  "224fca72038ed33bb92f71ca59372f8b570b0cd235d9856e8c67ffc2d6c124e7": "write",
+  "1782d3aec6c18ad2cf7200593f89e65a716186d4fe93702911b7040d02715a59": "read",
+  "c0cacca512909b27c1dcb7dfe3f37b119ce612ed0d5ccefb5b4224b0e99bba17": "read",
+  "ee62d2c4054bd1127e21b951eb0bbd12eaf06940bd44b1ad442f4803bff231d5": "read",
+  "6ceb5b3861d7f777e2efc06bb723347fcabfe9f9dfa293b7bcce48c15c34643c": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,67 @@
+{
+ "classifier": 2,
+ "contentHash": "124966a95ac22c363c5345e0a3edc6aeee9fd2739b3318201f6eed9284061027",
+ "domain": [
+  "finance/defi-lending",
+  "crypto/morpho"
+ ],
+ "product": [
+  "morpho",
+  "ethereum",
+  "base",
+  "arbitrum",
+  "optimism",
+  "polygon"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads Morpho vaults, Blue markets, Midnight markets, order books and user positions, searches the docs, and simulates transactions before signing.",
+ "whenToUse": "Use when you need Morpho vault or market data, a user's lending positions, order book quotes, or a simulation of a Morpho transaction.",
+ "tasks": [
+  "list vaults and markets",
+  "get vault and market details",
+  "get user vault positions",
+  "get user market positions",
+  "list Midnight markets",
+  "read order books and quotes",
+  "list offer groups",
+  "get token balance and allowances",
+  "simulate transactions",
+  "search Morpho docs"
+ ],
+ "effects": {
+  "ace008bb2204cb9f8c63b873e01705f615a81564fce56fd2f97e3ba73fd6e92a": "read",
+  "26d200f37de1fc2338eefac696582ca969a94ee20a13aa2200301c717318cd96": "read",
+  "9b42aa5419825e7c79c233e1f47e9be36880f271bf627e660cfa9d7fe48fe184": "read",
+  "7cae5e1d97d9da3672356ffc3285f5c29b7522002939effaaf7087d70eca470e": "write",
+  "42aeed4240139e91500d903ee7b215c81df4d6c56cba70e345d1f3b3d7257599": "read",
+  "b09128f1c786ef83ce1758f490ae8e9397ab8f5429f33bfced607b8804e7ce72": "read",
+  "339c766274e4b7ae6ea812f99927a69b94d3159ff62962bd21122d43bca06e1a": "write",
+  "56747d62ec379bdf2051975c4162907f7c7ffe3c3ac55b6fa99eb09d39389abf": "read",
+  "2e93d0d4759947c5390279a566e34788f926902ef7a3d6c379ad4510c6c506a0": "read",
+  "56f56e9d22815d59ae51f6faab22af382e366833ad6237708204cb9bf55fd407": "read",
+  "75aa1a8802896414e32ebeba22ea10dd06f0a66f4bd1726b9eb899b02dce34e5": "read",
+  "fb31f1d3081f73e4119c2543517aa4f6ca458ac1f7490d9e72ac4d0a05a2ca9e": "write",
+  "ca8deb25c140e46be9c4d3997c81e8fd20c7ae16899486b5959c027c7f185a31": "read",
+  "110bbcaa5c32c465308a53149c637ecf01f20d2ff6a74ec2c69daac4f432be79": "read",
+  "0b55c61c7acf720fb2d55822a4ee595268bcd35d5b29865568e20b6f36fe9338": "write",
+  "0f6df5df9aad330871b2117e20ca24ab9c1ec57ee1232ce9b83bbdb5288a5b55": "write",
+  "32ad9c764b73c09ee1e227346719d3212744fa09d6c0506011e081e623861789": "read",
+  "a78a631716cbb92b7075b7920a3fdcea9d17575e88db3c260aefb602f482e7e7": "read",
+  "f3179b65a8c167aae86e08666cc866a5cae306f28dd1b68e54a8e4e9d5c3a988": "write",
+  "4685cf4e7a9ab5235150d71e0e7d7849512190c9863247ec5e1ee071362766c8": "write",
+  "11f8126166b6f50230b9196f8a8a27e759fd9b34d51933df4b5cfec7ecfd2b5c": "read",
+  "064f4cac406fabd90a9be67f3c8266dba78a1dd2281632b0ef57b7754ade2826": "read",
+  "14b28d1f142804cd2499ee9c923dcb994ce0c235c1aa64ae844ba7771ca0c12a": "read",
+  "ed2c7a082c4649a0f4968dd3d086d15695c69c76e1f4ba9e2d5e779f9f19dbb5": "read",
+  "83d3da744cb7dad91631e2583f80326738dda851e6b5e626e86a43eb0884fc90": "write",
+  "52b767bee459ea3a0f6cac8c795b2225eaf9776267b584a5a136494492ce3f0d": "read"
+ },
+ "flags": []
+}

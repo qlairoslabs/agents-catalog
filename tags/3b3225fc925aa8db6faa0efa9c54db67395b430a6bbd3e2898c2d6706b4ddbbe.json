@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3b3225fc925aa8db6faa0efa9c54db67395b430a6bbd3e2898c2d6706b4ddbbe",
+ "domain": [
+  "software/networking/router-management"
+ ],
+ "product": [
+  "mikrotik",
+  "wireguard"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Manages MikroTik routers over SSH including firewall, NAT, routing, DHCP, DNS and WireGuard.",
+ "whenToUse": "Use when configuring or inspecting a MikroTik router.",
+ "tasks": [
+  "manage firewall rules",
+  "configure nat",
+  "configure routing",
+  "manage dhcp",
+  "manage dns",
+  "configure wireguard"
+ ],
+ "effects": {},
+ "flags": []
+}

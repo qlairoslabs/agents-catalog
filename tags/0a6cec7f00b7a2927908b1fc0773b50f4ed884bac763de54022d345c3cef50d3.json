@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0a6cec7f00b7a2927908b1fc0773b50f4ed884bac763de54022d345c3cef50d3",
+ "domain": [
+  "finance/sector-analysis",
+  "finance/macroeconomics"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes a specific sector within a specific country or region, combining macro backdrop, sector leaders, policy and valuation versus global peers, using Bigdata.com.",
+ "whenToUse": "Use when a request names both a sector and a country or region, such as China EV or European financials.",
+ "tasks": [
+  "summarize macro backdrop",
+  "analyze country sector trends",
+  "review sector leader fundamentals",
+  "check geographic revenue exposure",
+  "assess policy and regulation",
+  "compare valuation with global peers"
+ ],
+ "effects": {},
+ "flags": []
+}

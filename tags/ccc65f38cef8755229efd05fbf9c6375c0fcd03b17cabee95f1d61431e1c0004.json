@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "ccc65f38cef8755229efd05fbf9c6375c0fcd03b17cabee95f1d61431e1c0004",
+ "domain": [
+  "software/networking/diagnostics",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "maclookup",
+  "ieee-oui"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only lookup of MAC addresses and OUI prefixes to identify registered vendors, singly or in batches.",
+ "whenToUse": "Use when the user needs to identify the vendor behind one or more MAC addresses or OUI prefixes.",
+ "tasks": [
+  "look up mac vendor",
+  "batch look up mac addresses",
+  "show address formats",
+  "derive ipv6 link-local",
+  "show address range",
+  "show registrant details",
+  "classify address bits"
+ ],
+ "effects": {
+  "c0525a91ebeaf335d9a02d5316c335da6789c9dccb190146e3f347a17d0af627": "write",
+  "6be41de368a40e84918f03ae96499d6f8c4ad57cb8fa89a1666572dbfa9d19b6": "write"
+ },
+ "flags": []
+}

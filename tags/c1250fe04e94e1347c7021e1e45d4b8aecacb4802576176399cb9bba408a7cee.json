@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "c1250fe04e94e1347c7021e1e45d4b8aecacb4802576176399cb9bba408a7cee",
+ "domain": [
+  "media/music/discovery"
+ ],
+ "product": [
+  "diggercamp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds independent music that sounds similar to a given track and builds playlists from a track link.",
+ "whenToUse": "Use when a user wants independent music recommendations similar to a specific track.",
+ "tasks": [
+  "find similar tracks",
+  "build playlist from track link"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3e4f4e1ae6f4638e46eec4d51683b1db41fc9edd6c31feaaefdc82c644dcae18",
+ "domain": [
+  "product/user-feedback/surveys"
+ ],
+ "product": [
+  "getuserfeedback"
+ ],
+ "audience": [
+  "support",
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates and edits feedback flows, reads responses and replies to users on getuserfeedback.com.",
+ "whenToUse": "Use when the user wants to manage feedback surveys or review and answer user responses.",
+ "tasks": [
+  "create feedback flow",
+  "edit flow",
+  "read responses",
+  "reply to users"
+ ],
+ "effects": {},
+ "flags": []
+}

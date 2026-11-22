@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "80e5216b57c055740aacc1c50735419e0a7080c8b6c389d9827248244042368e",
+ "domain": [
+  "software/web-publishing/agent-pages",
+  "productivity/notes"
+ ],
+ "product": [
+  "notepad.page"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Private HTML pages that agents publish, recall, update and share under a personal notepad.page subdomain.",
+ "whenToUse": "Use when an agent needs to publish or update a persistent HTML page and share it by link.",
+ "tasks": [
+  "publish pages",
+  "recall pages",
+  "update pages",
+  "share pages"
+ ],
+ "effects": {},
+ "flags": []
+}

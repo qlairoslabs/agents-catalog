@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9b1fb772170a2a602b1251e817dab9b9e1c9bfdd2515fc4c718759877c51d589",
+ "domain": [
+  "legal/compliance-certificates",
+  "business/due-diligence"
+ ],
+ "product": [
+  "cnpj"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Requests clearance certificates for a Brazilian company from government agencies, reads each PDF and summarises the results.",
+ "whenToUse": "Use when checking a Brazilian company's clearance certificates (certidões negativas) for due diligence or compliance.",
+ "tasks": [
+  "request clearance certificates by cnpj",
+  "read certificate pdfs",
+  "summarise certificate results"
+ ],
+ "effects": {},
+ "flags": []
+}

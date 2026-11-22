@@ -1,0 +1,65 @@
+{
+ "classifier": 2,
+ "contentHash": "58ca44937d4675fe3e5e91f1f18e1090a415a9e4873c79f439bf85035381d997",
+ "domain": [
+  "sports/running",
+  "data/course-analysis"
+ ],
+ "product": [
+  "courseprofiler",
+  "strava"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Profiles race courses from GPX/FIT files, builds runner profiles, and creates personalized race pacing plans and PDFs, with catalog search and course submission.",
+ "whenToUse": "Use when a runner wants a pacing plan for a race, analysis of a GPX/FIT activity, or to submit a course to the catalog.",
+ "tasks": [
+  "search race catalog",
+  "import course files",
+  "enrich waypoints",
+  "generate segments",
+  "build runner profile",
+  "create race plan",
+  "export plan PDF",
+  "analyze activity",
+  "compare plan and execution",
+  "assess finish-time goal",
+  "compare pacing strategies",
+  "submit course for catalog review"
+ ],
+ "effects": {
+  "29075af6c74525062be6db95c41deeafd4151a98fb8edde7a0151effc2fa07e9": "write",
+  "f89366d7a6196a7fa6d1c4dac19438d791f5da716ed59825fa19e8ba80055679": "write",
+  "f986fd36299e6a3809fd225c24b985ebcb97b925f1af72a20cb5e03e0f1cbd2d": "write",
+  "304083007cc631977151c0a36711de3cee69c07e22238aa16fb8332e989249d5": "write",
+  "158213937cdc85f45413d84776a90f2606d8723962818cbe2c20d1cf7c64ab9a": "write",
+  "3f4cc4907ef1e331fa286527e4abdd600fd12f191d17f9e50018efdcda935ba3": "write",
+  "6de3ddcc7cd8a36716b4093aff4caa99f7e8a5e222c688458fb1a906c6f5ac62": "write",
+  "da89dfc0243fa4f79ee91a8dc4fda3c6882329ebc743cb7a0d645434743eaf34": "write",
+  "f646a5b66d66a7b9403ff9bb7dc89a68a06b8edeaa14d41a4e7ec98bc8e78df4": "write",
+  "bdd3ed076e4faf52429650cb7de45c2a6ecdacfe7c64325e564b196a783757d5": "write",
+  "d705061d13e8e76d707bac412b528e04e14e648afe0070177c8dac1036a19d92": "write",
+  "5d4dd3b7ee9c801934c89752c7feb754a9e06b709af28a6dcbc514b95a292dbf": "write",
+  "c98645650c30463ef0e9d36880948137df42e4348388e2fc3e4e92ae5ca50efb": "write",
+  "ba33bef49635bac46cf830703b7745f52ed88be8d7afedac5a124f1d263fa9ee": "write",
+  "d12935dcc7974196a1b926bde6ea16be7d21d9e04ded6a80cc00ec2c047c988b": "write",
+  "a5fdc619a0f536fa94daacb3bda966fb725ef04451dde429dcc3d572be380760": "write",
+  "af1c98c7252bb4ac378240f48212d801a11f6e120f8853fecd334a8f96963320": "write",
+  "3b41f18ea4af7deaa3157a4a6123a6e9156aed04f0357d8eb42378dd0da4da81": "write",
+  "9288b9942594fbdc149fcab0ba234b2b594a572530c3bdc20f64874f8292866c": "write",
+  "3e1ee7fa61fdada592094aa56c6ddc89e5c46d21637bd2746ec951c535ef089e": "write",
+  "ac40b70b09adb90a62ec58034a499cba18b2890b6e0ee9a5436dbae2055b5cfb": "write",
+  "2a648897c5ce152b50976be5a4f2d905b169a46bb28b7e382f8908dd76ebd94f": "write",
+  "704810ccf05e82e50fdcaab173565018292eff425a27e6775dd561405aaa214a": "write",
+  "881f5666b35cfff39e93ece7a47ffcc29dced867f6e12d692faa7c7029b314bf": "write",
+  "c41a2fd7312d13b26b89f6bdf5a4ce6f3d5842d289e1c703f5773f4849a969aa": "write",
+  "3f02ff5a3e6440bb4c56e18f14ec32ccf563bab6c710f848e3c829c997965733": "write",
+  "e784185567d5666b0d31a629294416f77ea9939dbdec9aa4d8e8cde4e71c4060": "write"
+ },
+ "flags": []
+}

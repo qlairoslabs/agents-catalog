@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "5e536bf20211767d29a8b0bc47a95e8ff8210dc7e7e0ef5d3e3a4309f0364357",
+ "domain": [
+  "education/broadcasting",
+  "media/podcasts"
+ ],
+ "product": [
+  "escola-de-radio",
+  "supabase",
+  "sanity"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Read-only access to Escola de Rádio courses, classes, seats, teachers, podcasts, blog posts and web radio.",
+ "whenToUse": "Use when someone asks about Escola de Rádio courses, upcoming classes, prices, teachers or its podcast and blog content.",
+ "tasks": [
+  "get school info",
+  "list and detail courses",
+  "check class seats",
+  "list upcoming classes",
+  "list teachers",
+  "browse podcast episodes",
+  "read blog posts",
+  "search content",
+  "list extra services",
+  "see web radio now playing"
+ ],
+ "effects": {
+  "1be1e64d61d4de06a7f552275b8b9a7c5a36541bd290c217989689aa6fb481b4": "read",
+  "3826a68a4a3cd89dc9ff3e18fde9d655322af0bfd2733b1db9f84054c5eaf8b0": "read",
+  "2c43db8db4757e104bc27d09c3fdf3f79835673df1b0b1b9f05cef77367f4e45": "read",
+  "380e46fa139d1cbbc35d12136f5446e363045f5efd2ec640fe6ff63799e23957": "read",
+  "4e1a4465cf0193a6e0a5479ce42374147180c945e1c742801aeb2f41473a22b0": "read",
+  "09d928106205d52a0fdc439f8fc2a7ecddc3b23238fd8e03e2ae0e04d364c73b": "read",
+  "845875e0d879f305c91622778bb9e383523a7f0f4cdab7ffb6829f420734db1c": "read",
+  "23914c072612b865677fb757d1b6f9c501950bce134873d2b83ea8fe4491c930": "read",
+  "7db8a5ef2488bc8c175a234a585a95b4ef07eb8c740deefe3e55ad277ef19c81": "read",
+  "9ba0a82c6d7037ba2cbdfbf2ada97863d618ae5cf9e3ea5c465cf560b9434b92": "read",
+  "234d559546c6e806667e21353f575f900dd280a791a2c28a2bb6d180855b2206": "read",
+  "6853acef72e945ee3c9ebf037d6983c01a6b743f3d3a6d59b71d9f24db49069a": "read",
+  "92c687ddad04490744f35f1a4a988381461788cd6035b77ef4dc377035070879": "read",
+  "6235fe2a9ea0ebec5f16eaec3882ee5619146cdda2643d8204865c7aa684c0f3": "read",
+  "518b9d93d559ae19300838dcc440f47dd3bcb70f2fff7cedf9429badb4259dd2": "read"
+ },
+ "flags": [
+  "check_availability says seat counts are blended with a marketing curve, so availability may be presented to drive urgency"
+ ]
+}

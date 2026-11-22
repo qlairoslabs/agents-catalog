@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "aec510dac19c09510e915b62c13d68bbf72853e3832284a818b0950329d38d3f",
+ "domain": [
+  "software/devops/artifact-management",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "jfrog",
+  "artifactory"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Accesses the JFrog Platform for Artifactory repositories, security findings, package safety checks, SDLC workflows and admin.",
+ "whenToUse": "Use when managing artifacts, checking package security or administering a JFrog Platform instance.",
+ "tasks": [
+  "manage artifactory repos",
+  "browse artifacts",
+  "review security findings",
+  "check package safety",
+  "download packages",
+  "run sdlc workflows",
+  "platform administration"
+ ],
+ "effects": {},
+ "flags": []
+}

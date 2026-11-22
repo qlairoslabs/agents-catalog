@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f44bc0ffed3e794bd9a5e4b2714ef37d2bddf48e33049d2d6aa093e0283d98c2",
+ "domain": [
+  "software/api-development",
+  "software/api-testing"
+ ],
+ "product": [
+  "postman"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Postman workflows for setting up repos, mocking APIs, running collection and governance checks in CI, monitoring endpoints and publishing API docs.",
+ "whenToUse": "Use when an agent is building, testing, mocking, monitoring or documenting APIs with Postman.",
+ "tasks": [
+  "bootstrap postman setup for a repo",
+  "mock an api",
+  "run collection tests in ci",
+  "run governance checks",
+  "monitor live endpoints",
+  "deploy and debug postman flows",
+  "publish api documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

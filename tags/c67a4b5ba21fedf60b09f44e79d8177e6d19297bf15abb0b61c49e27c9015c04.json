@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c67a4b5ba21fedf60b09f44e79d8177e6d19297bf15abb0b61c49e27c9015c04",
+ "domain": [
+  "finance/investing/portfolio-compliance",
+  "finance/investing"
+ ],
+ "product": [
+  "kova"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Stores a declared investment strategy so agents can check a portfolio against it.",
+ "whenToUse": "Use when saving an investment strategy or checking whether a portfolio matches it.",
+ "tasks": [
+  "save investment strategy",
+  "check portfolio against strategy"
+ ],
+ "effects": {},
+ "flags": []
+}

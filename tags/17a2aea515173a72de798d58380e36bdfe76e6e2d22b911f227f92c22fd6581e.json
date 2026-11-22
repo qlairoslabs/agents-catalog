@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "17a2aea515173a72de798d58380e36bdfe76e6e2d22b911f227f92c22fd6581e",
+ "domain": [
+  "productivity/documents",
+  "productivity/pdf"
+ ],
+ "product": [
+  "pdf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Stateless PDF utilities that merge, split, extract, remove, rotate, watermark, number, flatten and edit metadata of base64-encoded PDFs.",
+ "whenToUse": "Use when an agent needs to manipulate a PDF file (combine, split, stamp, clean metadata, flatten forms).",
+ "tasks": [
+  "merge PDFs",
+  "split PDF",
+  "extract pages",
+  "remove pages",
+  "rotate pages",
+  "add watermark",
+  "add page numbers",
+  "read metadata",
+  "edit metadata",
+  "flatten forms"
+ ],
+ "effects": {
+  "9063396c95e1c1cd622cf2339046afd8113d2de1d7739958322e5755aa69ddad": "read",
+  "876909428a2e417bd2d00d7bac45e7357c2a876f9cb2dbc3f2d591cef68cee30": "read",
+  "13ea54525f4ba88d2cc58a9c6847080a0cd6316291d120003aa270491b338b24": "read",
+  "b65b8a07c96e510f996eafe8c8bccc22c49583c305c9e3ebaa2bde708225d2a8": "read",
+  "c523737745378e03277add88e9c216a1d9f1399a3e7b34a0b272b8aaf3814ca8": "read",
+  "c4d6f2de9b590d74f5ca5fa7a7786c19d10304ad9ce4ce9f62300f1e173b29d4": "read",
+  "75defd8a3702e31009833822fcc1fc95043867fc1e76957589bf9c325c05e167": "read",
+  "76f6ad25a11259e6c24fb9562da593e3c2923caf4075cd02f5228ec2dec6596b": "read",
+  "d8a3749ecb09c61792f373109de69610230aed663c4acdfdcd3a1c278c1ca803": "read",
+  "24d80fb1bfaae974b07b1d7250e980e9cfa5232abe9decbbe6a882bf9d2b9740": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "21b34f809a6dbd07c051c2ed73f2d69d58486146686437630e8f65c0313f2d07",
+ "domain": [
+  "software/mobile-development",
+  "enterprise/sap"
+ ],
+ "product": [
+  "sap-mobile-development-kit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server supporting AI-assisted development of SAP Mobile Development Kit applications.",
+ "whenToUse": "Use when building or editing SAP MDK mobile apps with an AI assistant.",
+ "tasks": [
+  "scaffold mdk apps",
+  "edit mdk metadata",
+  "look up mdk documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

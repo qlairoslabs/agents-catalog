@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5172d89237c8a788cd68e48ab340d4e7b593b386705cf4a0554498e5e30192d0",
+ "domain": [
+  "ai/agent-governance",
+  "compliance/audit"
+ ],
+ "product": [
+  "phronesis-hermes"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Checks agent actions against an auditable decision boundary and issues a receipt before the agent acts.",
+ "whenToUse": "Use when an agent must get an auditable approval or record before taking a consequential action.",
+ "tasks": [
+  "evaluate proposed actions",
+  "enforce action boundary",
+  "issue decision receipts",
+  "keep audit trail"
+ ],
+ "effects": {},
+ "flags": []
+}

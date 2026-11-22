@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b64972fd8fb3f87e0743016537b96b960b55cf55def0025d70ce8facc0e512b8",
+ "domain": [
+  "software/code-search",
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Indexes codebases so agents can retrieve individual functions or symbols instead of whole files; commercial use requires a licence.",
+ "whenToUse": "Use when an agent needs a specific function or symbol from a large codebase while saving context tokens.",
+ "tasks": [
+  "index a code repository",
+  "search symbols",
+  "retrieve a single function",
+  "outline files"
+ ],
+ "effects": {},
+ "flags": []
+}

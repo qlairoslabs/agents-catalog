@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b4e56a37d8970da20186569bf13be5fd3719c4b9a2aa5921bf76baa59d4feb83",
+ "domain": [
+  "software/monitoring/uptime",
+  "operations/incident-management"
+ ],
+ "product": [
+  "fettle"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Local npm MCP server for Fettle uptime monitoring covering monitors, incidents, heartbeats, maintenance windows and status pages.",
+ "whenToUse": "Use when an agent needs to check or manage uptime monitors, incidents or status page updates in Fettle.",
+ "tasks": [
+  "manage monitors",
+  "track incidents",
+  "manage heartbeats",
+  "schedule maintenance windows",
+  "post status page incidents"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "059e2c7a293b36b218004671f00a328e6d31ea3ed329d162f23cd110bf0c766b",
+ "domain": [
+  "legal/privacy-policy",
+  "compliance/data-privacy"
+ ],
+ "product": [
+  "privacy-policy-url"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Creates hosted privacy policy pages for apps, websites, stores and lead forms in a single call.",
+ "whenToUse": "Use when an agent needs a hosted privacy policy URL for an app, site, store listing or form.",
+ "tasks": [
+  "generate privacy policy",
+  "host privacy policy url"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "507b47956f223792e55e1d8449efbef554fe82f7f45fe9ba29e0aa6a22c67ee6",
+ "domain": [
+  "real-estate/open-house",
+  "sales/lead-follow-up"
+ ],
+ "product": [
+  "open-house-copilot"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Open-house tool for real estate agents with a visitor sign-in kiosk and consent-aware automatic follow-ups.",
+ "whenToUse": "Use when a real estate agent wants to capture open-house visitors and follow up with them.",
+ "tasks": [
+  "run sign-in kiosk",
+  "capture visitor leads",
+  "send follow-ups",
+  "track consent"
+ ],
+ "effects": {},
+ "flags": []
+}

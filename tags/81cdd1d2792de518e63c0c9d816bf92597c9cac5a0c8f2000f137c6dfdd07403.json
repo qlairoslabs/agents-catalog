@@ -1,0 +1,64 @@
+{
+ "classifier": 2,
+ "contentHash": "81cdd1d2792de518e63c0c9d816bf92597c9cac5a0c8f2000f137c6dfdd07403",
+ "domain": [
+  "travel/accommodation",
+  "booking"
+ ],
+ "product": [
+  "ata-travel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Searches ATA Travel properties and availability, verifies travelers, creates quotes and provisional bookings, and reads booking status.",
+ "whenToUse": "Use when a traveler wants to find, quote or book a hotel or vacation rental through ATA Travel.",
+ "tasks": [
+  "search property availability",
+  "browse property catalog",
+  "get property and room details",
+  "search buildings",
+  "list property extras",
+  "verify traveler email",
+  "save traveler preferences",
+  "create quotes",
+  "create provisional bookings",
+  "read booking and reservation status",
+  "get support contacts"
+ ],
+ "effects": {
+  "870bec01976b24fb9db2e735b9801559331331eff7852bee854e1f6e0678b036": "read",
+  "dc19546b4a39bf9666961ca58398073807ccfaaecddd83fa4c60e6034ca6d52e": "read",
+  "f412460ac3c6b0947818bc9e1f19b22334f8563b9845acc97200a1f239ef4da5": "read",
+  "4b9d01322b0c0fa151e5bd66f92ef4873cbd2f1d964bdb64ba17474f7f0950a5": "read",
+  "0597242f8750fd0603f47758522f6d73ac11e928241a0b01bdcf760a5f5ecbc2": "read",
+  "9a900e9a89f27ce0f80e8535802220b091a49465a87ac5a3298cb4bf7b02f73a": "write",
+  "fad6af618ab3c09abee5487dfa4eb8fd030a1184780a47fc0c638c8a81bcddeb": "read",
+  "7cb1c91cdf8d2b5503c93688db3a9ceea6d4860b43ad6df1afd2f67cef348a6c": "write",
+  "236da73ffa292b99c56c3f9bd3b8c26769167054b35c8c2ebcd5f432c48c44e8": "read",
+  "e7c178a890f4e64434e130b557859c790761c8d297d01583e09629c1c4d50855": "read",
+  "7caadab6276a60f4c10bfb189bf59dd0d3d6810ce100d5b238b184aafb284163": "read",
+  "a65ad63378fc782b7ddd15439de29fa6cadc04e6a5948d1b0d067719d35f884c": "read",
+  "7e3fa39ad3e5f8b5047a264f949d0a76085952e9181eabb86e20133c49d24e78": "read",
+  "c1359a6c2bace579202fec82f26cc68468982735892cfc973de290583dbd23fc": "read",
+  "2cba7350d30817b20dd260cd1c986c8be9ff981fa8e62b4031807bb42589d7cc": "read",
+  "e183ac8e4706b2cb970af38965f6f0fb23367be11aad682ed1227f981ae5f6dc": "write",
+  "ff6dac2e4d9f645193e1bdf1bdf28f77f56993884a0a2e97f3ef6629ce929807": "write",
+  "2026f3256463c822a7b045bbf579ef17e4f75b4ef6479a906bd7b0298123c9a0": "read",
+  "570ab86ea6672f341ab1782128c1c5b72226060825f7ae4fce363e92afc4894e": "write",
+  "38377c10b69c236a7165274f2733254588704a2b62a3337943d0da17fd713269": "read",
+  "6f1f3098ec1265d74fa0834c1c7477630ad5c6ebf676b3d6bf071767b37401b0": "read",
+  "5bb739c98916dfece6c70b2e8e6c0f2b733511cbf6546d32ca4729c11c6b522d": "write",
+  "4568aeebe02d79a9ce19dbfb9480ece42d421a17cc48b50c9760510e90be66b3": "read",
+  "329bfd70d0ac07590c15bdbf6ea3c286cbc5ee7c2a4d47ad99ecce25e03c1c4d": "risky",
+  "b252ce857bd991043b6450b5c2b2530d332c039de4820f6be77fa6ad56a0eb6e": "write"
+ },
+ "flags": [
+  "start_traveler_handoff instructs the agent to hide handoff and tool details from the traveler",
+  "tools expose an undocumented internalAgentKey parameter"
+ ]
+}

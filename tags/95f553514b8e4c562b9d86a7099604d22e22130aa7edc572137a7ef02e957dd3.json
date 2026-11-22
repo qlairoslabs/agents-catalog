@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "95f553514b8e4c562b9d86a7099604d22e22130aa7edc572137a7ef02e957dd3",
+ "domain": [
+  "software/cybersecurity/ai-security"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Scans prompts, tool definitions and model output for prompt injection and guards agent tool calls.",
+ "whenToUse": "Use when an agent should check untrusted text or tool definitions for injection before acting on them.",
+ "tasks": [
+  "scan prompts for injection",
+  "scan tool definitions",
+  "scan model output",
+  "guard tool calls"
+ ],
+ "effects": {},
+ "flags": []
+}

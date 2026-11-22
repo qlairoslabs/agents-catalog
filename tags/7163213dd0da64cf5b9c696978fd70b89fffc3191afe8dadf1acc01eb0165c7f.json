@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "7163213dd0da64cf5b9c696978fd70b89fffc3191afe8dadf1acc01eb0165c7f",
+ "domain": [
+  "sports/football-analytics",
+  "betting"
+ ],
+ "product": [
+  "docteur-bet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Free Dixon-Coles football match probabilities, season projections, team strengths and a public value-bet track record.",
+ "whenToUse": "Use when a user asks for football match odds, title or relegation chances or team strength rankings.",
+ "tasks": [
+  "list competitions",
+  "find matches",
+  "get match probabilities",
+  "list upcoming matches",
+  "project season",
+  "rank team strengths",
+  "get track record"
+ ],
+ "effects": {
+  "c494b1425ac6bd7f3ad533f3d3b6f07dc9498a4f8d6502f1c0415dba16d0b854": "read",
+  "868bf0a92537daf71d8683b3ba70c59c9e8cab43b59c18dcaae330d435d64d27": "read",
+  "4eda20edabef991294ff86c79fecafe82774540672ca3d9d6d6d80f3441ce572": "read",
+  "868f13393f5470273854aab92695c85e42ea692d94c66fb78708ad9876cb0583": "read",
+  "40d3131c75986faaae3f6998280e78945a606c2e739c442fc0559b6ddaefc033": "read",
+  "3dc4d634b1b0f22d05ca66105c168b1ff415dcb47e47906214db50b0b90b5234": "read",
+  "abe46d3242052dda49565f41242dff4400fe4de88b0058ad1408702b04b98543": "read"
+ },
+ "flags": []
+}

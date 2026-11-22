@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "db4880a1b6b0fded273c3edb74864db16f2ea11843b02646a9214bbf90a97945",
+ "domain": [
+  "software/api-discovery",
+  "crypto/payments"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "solana",
+  "ethereum"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Registry for discovering pay-per-request x402 APIs ranked by reliability, latency and price, and calling them.",
+ "whenToUse": "Use when an agent needs to find a paid or free API for a capability and call it.",
+ "tasks": [
+  "discover paid APIs",
+  "list capabilities",
+  "call endpoint",
+  "compare price and reliability"
+ ],
+ "effects": {
+  "10ac1945fc9cd5ab5263a95c9e168573e221d3ea80c09019dd0533962409c925": "write",
+  "c9a0cc126dea5139a3e664815bc4c03d971b1f909be907c43e133c7222038889": "read",
+  "d4ce237a21423e179ae3ca57bbdf43173d24f30debd52ee727653be180f451be": "risky"
+ },
+ "flags": [
+  "calls-arbitrary-third-party-endpoints",
+  "payment-related"
+ ]
+}

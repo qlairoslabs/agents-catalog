@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c57289258a18f48db91b6848a41c2c8bdc2e644a314c987ce8d8ad2e7c7dd4cc",
+ "domain": [
+  "finance/payments/global-accounts",
+  "software/api-development"
+ ],
+ "product": [
+  "airwallex"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Developer-oriented Airwallex server for building against Airwallex financial APIs.",
+ "whenToUse": "Use when developing or testing integrations with Airwallex financial services.",
+ "tasks": [
+  "access airwallex apis",
+  "build payment integrations",
+  "create invoices",
+  "check balances"
+ ],
+ "effects": {},
+ "flags": []
+}

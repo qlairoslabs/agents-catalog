@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "9472f1ab7761dc055dbd50142bed2dd137001e8747207edff240e73a08802c43",
+ "domain": [
+  "finance/investment-simulation",
+  "crypto"
+ ],
+ "product": [
+  "bitcoin",
+  "ethereum"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Simulates dollar-cost-averaging plans on historical prices of Bitcoin and other assets and compares plans side by side.",
+ "whenToUse": "Use when a user wants to backtest a recurring-buy strategy on Bitcoin or other assets.",
+ "tasks": [
+  "list supported assets",
+  "check data vintage",
+  "simulate DCA plan",
+  "compare up to five plans",
+  "generate share link"
+ ],
+ "effects": {
+  "526833e5f8fa76453f9404d75eea2abf4a4dc0279b05749ee429e26a6bb33931": "read",
+  "5eda428f681b3e740b43cc5938cf69aa54f50c815fd9a377cf113bb3ecbb69d0": "read",
+  "b8e2953dc5ec7440f32d91e66aaddc5ed1b0428707fe9e596cc7d52f0d19a337": "write",
+  "3b7c560c6040dbf2b41cc66a15d77db4e28ba522d2f70f25aa5ee7a3240e133a": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e9e3dd9c7392b0f744511175c5f297fdc1c45e7a335af3cc48ec45624754471e",
+ "domain": [
+  "software/secrets-management",
+  "finance/payments"
+ ],
+ "product": [
+  "trusty-squire"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Local vault that lets a coding agent provision services, deploy and make payments without exposing keys or card details.",
+ "whenToUse": "Use when a coding agent needs to use stored credentials or payment cards to provision or pay for services.",
+ "tasks": [
+  "provision services",
+  "deploy code",
+  "make payments",
+  "use vaulted api keys"
+ ],
+ "effects": {},
+ "flags": [
+  "enables agent-initiated payments and credential use"
+ ]
+}

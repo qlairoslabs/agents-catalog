@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8f6137b822fa51fcd32fcd4bce5ce209648df0ed3a6046ded639d4b76c3b6197",
+ "domain": [
+  "commerce/product-data/pricing"
+ ],
+ "product": [
+  "product-source"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up products by UPC across 450+ retailers for prices, images and margin data.",
+ "whenToUse": "Use when comparing retail prices or margins for a product by UPC.",
+ "tasks": [
+  "look up upc",
+  "compare retailer prices",
+  "get product images",
+  "get margin data"
+ ],
+ "effects": {},
+ "flags": []
+}

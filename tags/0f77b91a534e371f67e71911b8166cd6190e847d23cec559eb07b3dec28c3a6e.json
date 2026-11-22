@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "0f77b91a534e371f67e71911b8166cd6190e847d23cec559eb07b3dec28c3a6e",
+ "domain": [
+  "web/page-reading",
+  "monitoring"
+ ],
+ "product": [
+  "captureoneai"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Reads web pages into structured context with interactive elements, and sets up scheduled monitors that explain page changes.",
+ "whenToUse": "Use when an agent must read or ground actions on a web page, or watch a page such as pricing or a changelog for meaningful changes.",
+ "tasks": [
+  "capture page context",
+  "find clickable elements",
+  "create semantic monitor",
+  "list monitors",
+  "run monitor check",
+  "get change history"
+ ],
+ "effects": {
+  "e0680c00785d77bcaef7df7c4033ab414bf7ff1c0d31c8c9333dc29e42dea3f3": "read",
+  "6db55e1e6d3ac7530b206aa5f6438b25d606c6e443e5284bea44e491900b2ef5": "read",
+  "3d79591ad1f100f27dfd3b31d05353252adebb6d73c40964d87d7a00da39e9f9": "write",
+  "60e46ce778772cd8f79ab8f86d4d7df50baef13597f5e00d8524b25c692222a0": "read",
+  "b3074ef484c454c8ba0b56c721a73234b87aeb153bf10b78aaf602f494ce4204": "write",
+  "9b0b8b53c7ea3f31322e8e86f0e0074fa37e9a2b30ffc5ebd2c2760c64dd3ce0": "read"
+ },
+ "flags": []
+}

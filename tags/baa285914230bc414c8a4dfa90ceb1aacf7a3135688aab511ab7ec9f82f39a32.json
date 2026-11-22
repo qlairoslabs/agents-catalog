@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "baa285914230bc414c8a4dfa90ceb1aacf7a3135688aab511ab7ec9f82f39a32",
+ "domain": [
+  "ai/agent-orchestration",
+  "software/development"
+ ],
+ "product": [
+  "claude-code",
+  "opencode",
+  "deepseek"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Runs Claude Code subagents on cheaper opencode-hosted models such as DeepSeek.",
+ "whenToUse": "Use when delegating Claude Code subagent work to lower-cost models.",
+ "tasks": [
+  "run subagents on opencode models",
+  "delegate tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

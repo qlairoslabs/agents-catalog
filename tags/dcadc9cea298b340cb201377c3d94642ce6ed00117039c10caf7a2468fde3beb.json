@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "dcadc9cea298b340cb201377c3d94642ce6ed00117039c10caf7a2468fde3beb",
+ "domain": [
+  "finance/crypto",
+  "market-data"
+ ],
+ "product": [
+  "bitcoin"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only Bitcoin market gauge giving a 0-100 heat score, BTC price changes, ten indicators and daily score history.",
+ "whenToUse": "Use when the user asks how overheated or cold the Bitcoin market is, or wants indicator explanations and score history.",
+ "tasks": [
+  "get current heat score",
+  "view BTC price and changes",
+  "explain an indicator",
+  "fetch score history"
+ ],
+ "effects": {
+  "fa77927e8d959660ec183681ad9fd28d9bb1193b87ea716f3621f3e731499e2a": "read",
+  "08b807ed39d7e9c5962dd3d6ea4a870cfaec80b301d95f0575af375ea55e4c7c": "read",
+  "8924f8b1b01359388a1acba3be204be577a4d1e2245328e2908fb826f28d4c87": "read"
+ },
+ "flags": []
+}

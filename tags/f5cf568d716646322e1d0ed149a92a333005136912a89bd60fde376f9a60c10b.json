@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f5cf568d716646322e1d0ed149a92a333005136912a89bd60fde376f9a60c10b",
+ "domain": [
+  "software/observability/logging",
+  "finance/cost-optimization"
+ ],
+ "product": [
+  "log10x"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Ranks log patterns by volume and cost, and compacts, tiers down or offloads logs that exceed set caps.",
+ "whenToUse": "Use when an agent needs to find costly log patterns and reduce logging volume or spend.",
+ "tasks": [
+  "rank log patterns",
+  "estimate log cost",
+  "compact logs",
+  "tier down logs",
+  "offload excess logs"
+ ],
+ "effects": {},
+ "flags": []
+}

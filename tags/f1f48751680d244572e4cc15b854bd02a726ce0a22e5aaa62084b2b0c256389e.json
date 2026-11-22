@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "f1f48751680d244572e4cc15b854bd02a726ce0a22e5aaa62084b2b0c256389e",
+ "domain": [
+  "finance/cryptocurrency/blockchain-data"
+ ],
+ "product": [
+  "sochain",
+  "bitcoin",
+  "litecoin",
+  "dogecoin",
+  "zcash"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live blockchain data for Bitcoin, Litecoin, Dogecoin and Zcash including balances, transactions, blocks, fees and prices.",
+ "whenToUse": "Use when an agent needs current on-chain data or prices for these cryptocurrencies.",
+ "tasks": [
+  "check address balances",
+  "look up transactions",
+  "view blocks",
+  "get network fees",
+  "get prices"
+ ],
+ "effects": {},
+ "flags": []
+}

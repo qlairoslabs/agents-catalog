@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "85e1fc7eb2ae3bb9d55ae6e2c084bc315977456c4d96f545890573247c504549",
+ "domain": [
+  "software/developer-tools",
+  "productivity/knowledge-management"
+ ],
+ "product": [
+  "bilg"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Shared memory for coding agents and teams holding docs, epics, tasks and decisions.",
+ "whenToUse": "Use when coding agents or a dev team need to store and retrieve shared project docs, tasks and decisions.",
+ "tasks": [
+  "store project docs",
+  "manage epics",
+  "manage tasks",
+  "record decisions",
+  "retrieve shared context"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "0acc1a33d0ea25058833c36fbac2bc695aef16df67e7757639f98eb6fb010cc7",
+ "domain": [
+  "software/api-directory",
+  "sports/odds-data"
+ ],
+ "product": [
+  "sportsapis",
+  "bet365",
+  "pinnacle"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Directory of sports odds and data API providers with filtering, side-by-side comparison and detailed reviews.",
+ "whenToUse": "Use when a developer needs to choose or compare a sports odds or sports data API.",
+ "tasks": [
+  "find sports APIs",
+  "filter by features and price",
+  "compare providers",
+  "read provider reviews",
+  "check free tiers"
+ ],
+ "effects": {
+  "79be20d496113be13d7d56049cbec258b394efbae0cfdda74d46ae1833635f55": "write",
+  "9585f291225ba036dfacda14c29191303a762d430b8b9850205b6ee97f1596eb": "write",
+  "06e5da80bc843700c3deaded19a8f26435ba1d821b12656b2bc490c3762f1ddb": "read"
+ },
+ "flags": []
+}

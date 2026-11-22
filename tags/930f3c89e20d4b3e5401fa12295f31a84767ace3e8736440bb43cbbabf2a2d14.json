@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "930f3c89e20d4b3e5401fa12295f31a84767ace3e8736440bb43cbbabf2a2d14",
+ "domain": [
+  "customer-service/chatbots",
+  "marketing/messaging"
+ ],
+ "product": [
+  "tbit",
+  "whatsapp",
+  "instagram",
+  "chatgpt",
+  "claude"
+ ],
+ "audience": [
+  "support",
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Configures and trains TBit AI agents that answer customers on WhatsApp and Instagram from an AI assistant.",
+ "whenToUse": "Use when a business wants to set up or adjust its TBit WhatsApp or Instagram AI agent from chat.",
+ "tasks": [
+  "configure ai agents",
+  "train ai agents",
+  "manage whatsapp bot",
+  "manage instagram bot"
+ ],
+ "effects": {},
+ "flags": []
+}

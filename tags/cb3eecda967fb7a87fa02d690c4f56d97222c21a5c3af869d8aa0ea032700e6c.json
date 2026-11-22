@@ -1,0 +1,65 @@
+{
+ "classifier": 2,
+ "contentHash": "cb3eecda967fb7a87fa02d690c4f56d97222c21a5c3af869d8aa0ea032700e6c",
+ "domain": [
+  "government/criminal-justice",
+  "research/public-data"
+ ],
+ "product": [
+  "georgia-department-of-corrections",
+  "gps-press"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only public data on Georgia prisons: population, facilities, staffing, deaths, contraband, parole, sentencing history, statutes, open records and advocacy content from GPS.",
+ "whenToUse": "Use when researching Georgia's prison system, its statistics, facility records, parole and sentencing history, or open-records documents.",
+ "tasks": [
+  "get population snapshot",
+  "list facilities",
+  "get facility staff rosters",
+  "get parole statistics",
+  "read statutes",
+  "get mortality data",
+  "get settlements data",
+  "search contraband incidents",
+  "get health staffing",
+  "search public records",
+  "browse historical series",
+  "search site content"
+ ],
+ "effects": {
+  "f66123823fbca6b3ce422cf44b836cac8535182c0eea41110324889bc09e7c6a": "write",
+  "fcc4dcc52c68617dbc89bc5673923d1fe8287a358cef1bd4a5e0c1a3c147c19e": "write",
+  "53980a42c6600b25559417f09752b3315038989900a1ba0951f28f5e79332b91": "write",
+  "78925c063a737988179c2e420c3b61740069257e7ce102b4098ced7669d0d6f3": "write",
+  "15a4f2a02a067ddb76835f4b83c70e79be556958b40fa6f37026eaada536e7e3": "write",
+  "7015086fc4e02e1f6add2719c06e4602ca60d3b05fe0fc2a43a0c474ffc39d22": "write",
+  "d1da4bf72ae41b56f4eb76c5d03745cfcb160637867325fec14a25685965cf58": "write",
+  "80ac03f97d5b68183b0cf9630affb3bf7ea829a4e0a96c24b057a924affed005": "write",
+  "c1b5f9cd5779f546d607ad41241acb0e0d8a9c1620f87c5829ed00268340c01f": "write",
+  "87430cd4a1b1da85e95a3b9ec1b03458fafe1ceccf7949ecb897d74849ad48d5": "write",
+  "4d8c095bf3bb6ec7f55d7af0fdbe8e598886e7f9f95f51eb3eab86da42d74be9": "write",
+  "9a45992ac812d11c194264b5aa7a3ecb306271b4e6de8d4a0f95aa65b14cd42c": "write",
+  "629a7de87d273d192a8ca5562ef5c6d4e7991773f8bdd77a1b195bd5d7591ce0": "write",
+  "626185a2e6e258d368c1a3619242051f1e8d5c040492248640a3307abedfd722": "write",
+  "d39c8c0251154c4022492bd4853e738d15451746efdfaae8542ea5c280289248": "write",
+  "a5d4734147b769d35adcd29d6ac4bc7d23bcadf1bc2eca7b99d28f5ee050030f": "write",
+  "c7696255f9f4226e48e0fb8aa214d160f22b46f3c2fea2002504bf42dec7047c": "write",
+  "975f970248a42d5a531d15a65796536eb04c71c3b2536a97127c2efba9ab227d": "write",
+  "a0a25b54a30948fb5fb7d00e4d4c5b41bd0fa811c077179aa1d658bc4fc02530": "write",
+  "4396ff73469290984d932f03c504cc4e7d38f42b656e4af66d6123118fae3b2d": "write",
+  "cd6322c9852eead04163a18183c2f10ee6979cc6de8379aa643527d9d668025d": "write",
+  "45265ecd76064a073a1dc1d48c0aa8c62a065da612899db321f346f3fdbcd4ec": "write",
+  "5131f16e2dee504b3c81485eb14285dd4e26ee1c892c258e0ee1ef5f5fcaf3ee": "write",
+  "72f8e95883b3c4a690cff003cfec3e0f1ec85192e40f4de267222564af939c9f": "write",
+  "9d14c407b2a9533d6879fdcb6e3c80eb2c8efc0aa8bf5d46e33a8cdbdb0db1b2": "write",
+  "ac4680a740f12b2ed2943bd685aa5230180cb241660f98ffb1b254ffafa3986f": "write"
+ },
+ "flags": [
+  "get_gps_guide is labelled 'READ THIS FIRST' and tells AI clients which figures to lead with and which claims not to repeat, steering model output"
+ ]
+}

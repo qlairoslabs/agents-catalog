@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "20416d2e9cb857cf50cbf707aca438cbcc940784ad09647930d323a2f280c54d",
+ "domain": [
+  "marketing/link-shortening",
+  "marketing/analytics"
+ ],
+ "product": [
+  "l1nk"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates, edits and deletes short links with QR codes and custom domains, and reports click analytics.",
+ "whenToUse": "Use when the user wants to create or manage short links or check their click stats.",
+ "tasks": [
+  "create short link",
+  "edit link",
+  "delete link",
+  "generate qr code",
+  "use custom domain",
+  "analyze clicks"
+ ],
+ "effects": {},
+ "flags": []
+}

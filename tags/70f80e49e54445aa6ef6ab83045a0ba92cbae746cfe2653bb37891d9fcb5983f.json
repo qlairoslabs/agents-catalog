@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "70f80e49e54445aa6ef6ab83045a0ba92cbae746cfe2653bb37891d9fcb5983f",
+ "domain": [
+  "finance/accounting"
+ ],
+ "product": [
+  "xero"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Connects Xero to AI agents with read or write access across multiple organisations.",
+ "whenToUse": "Use when an agent needs to read or update accounting data in one or more Xero organisations.",
+ "tasks": [
+  "read accounting data",
+  "write accounting records",
+  "switch between organisations"
+ ],
+ "effects": {},
+ "flags": []
+}

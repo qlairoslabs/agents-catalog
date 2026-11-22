@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "64ad74115bc154c154af2f8ca5ae1826f68f245c6729b998398a3312fa537659",
+ "domain": [
+  "finance/crypto/token-analysis",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "cryptocoinstat"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes crypto tokens for contract code, source gaps, real market cap, owner powers, unlocks and signals.",
+ "whenToUse": "Use when a user wants a risk or due-diligence check on a crypto token.",
+ "tasks": [
+  "inspect token contract code",
+  "check source verification gaps",
+  "estimate real market cap",
+  "check owner privileges",
+  "view token unlocks",
+  "get token signals"
+ ],
+ "effects": {},
+ "flags": []
+}

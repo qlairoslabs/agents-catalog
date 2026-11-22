@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ae0ace28feab1d2669b3e9d066757c5ab3a90c60e96b0c2701a0f76bbf23568f",
+ "domain": [
+  "travel/accommodation",
+  "legal/licensing"
+ ],
+ "product": [
+  "airbnb",
+  "selectbnbs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Checks whether short-term rentals in South Korea and parts of Japan are registered, using official government permit records.",
+ "whenToUse": "Use when a traveler wants to confirm a Korean or Japanese Airbnb or guesthouse is licensed.",
+ "tasks": [
+  "verify listing registration",
+  "fetch permit record",
+  "look up by management number",
+  "look up by name and region"
+ ],
+ "effects": {
+  "16ff225d147b9cfbbc592f1511a0d2d18fe107ceb776041df72b8a618b8040e4": "write",
+  "c7b5b28587777a6083a3295730735a4992e1abca6114411fe34a229640849fd6": "write"
+ },
+ "flags": []
+}

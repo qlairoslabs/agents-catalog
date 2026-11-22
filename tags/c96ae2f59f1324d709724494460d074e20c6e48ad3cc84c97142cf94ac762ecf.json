@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "c96ae2f59f1324d709724494460d074e20c6e48ad3cc84c97142cf94ac762ecf",
+ "domain": [
+  "moving-services",
+  "logistics/pricing"
+ ],
+ "product": [
+  "wievielkostetmeinumzug"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "run-the-money"
+ ],
+ "summary": "German moving cost estimator with a route database, item volume catalog, versioned methodology and a quote inquiry form, in four languages.",
+ "whenToUse": "Use when estimating the cost or volume of a move in Germany or Europe, or sending a moving quote inquiry.",
+ "tasks": [
+  "search moving routes",
+  "get route data",
+  "estimate price",
+  "list item categories",
+  "get item volume",
+  "estimate total volume",
+  "list countries",
+  "explain methodology",
+  "submit quote inquiry",
+  "read FAQ"
+ ],
+ "effects": {
+  "408ac936f329163bc6408fa10e49f2f05008672ad0e1e4c3cb41d12d75da9654": "read",
+  "1f390b27299307ea71aa1a4a53f172d5d3fbe62b887b25492178d764e2fd829c": "read",
+  "d1796bc473532ff63fb8b3ac0c5f2a5acd8871ba12759c0c331c72df1d1ccc83": "read",
+  "032efe43b4c2a3f2402b929a5a793a63c891ee317459d78c6b3dcd7616266f57": "read",
+  "f2eac940cfc5339bffeb8abc29bbc86dc5ae628589fbfc2765f9db0b09460c0e": "read",
+  "92acac3238c8ab991ae56430bcee2cd509501541ec717e4a9a36bef45cf90bf6": "read",
+  "7e764542a786ca6fc2d7ab371ca88f2c79da68b186c53b136264ce5a5c842fc9": "read",
+  "0e2c17c9c34846284c69cad3e43cd780977ed2e0223362ec7cd9168c4ec5b655": "read",
+  "aee14acb7cee53d7ffd7ae20e86ed5aca7fb05c279b28f1fc7d37d2e6ccaadf9": "write",
+  "6335629ab114a689381c629db21f027f9a25e2379e2ef32545b49b25211553e9": "read",
+  "388886a49d36eb3c8aed2255ce1fd0a4a3e92c1c7ef9815070fe46ff8d754b9d": "read"
+ },
+ "flags": []
+}

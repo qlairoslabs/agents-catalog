@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "a1df2ab2cb190af7041bbaca14d9dd5dd1e6c345cd6d47f144abeabf03b613a5",
+ "domain": [
+  "ai/service-directory",
+  "finance/payments"
+ ],
+ "product": [
+  "aislabs",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Directory for AIS Labs MCP services, listing their tools, prices and how to pay with keys or x402.",
+ "whenToUse": "Use when an agent wants to know which AIS Labs services exist, what they cost and how to pay for them.",
+ "tasks": [
+  "list AIS services",
+  "explain payment options",
+  "describe AIS offerings"
+ ],
+ "effects": {
+  "f9702af805a0975f88933acddfa06ecf6c972df845ca509f1af59832e1011c87": "read",
+  "52cbe8825ee5a9d00c5dda444a3189dc1e38e3c7de84877e1c593a9761abfc83": "read",
+  "3a483e61a62cc598134a258f99cf3a9778d62a836e5ca705c513183fe170a830": "read"
+ },
+ "flags": []
+}

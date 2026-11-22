@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "84ebd1bdd8bc478b0bb9ffe4379a4de7fa1f750b4d37032322443cd58d9b6e9c",
+ "domain": [
+  "ecommerce/product-data",
+  "ecommerce/price-tracking"
+ ],
+ "product": [
+  "amazon",
+  "walmart"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Provides Amazon and Walmart US product data including search, prices, stock, price history and seller details.",
+ "whenToUse": "Use when the user needs product, price or seller data from Amazon or Walmart marketplaces.",
+ "tasks": [
+  "search products",
+  "get current prices",
+  "check stock",
+  "view price history",
+  "list sellers"
+ ],
+ "effects": {},
+ "flags": []
+}

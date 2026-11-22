@@ -1,0 +1,58 @@
+{
+ "classifier": 2,
+ "contentHash": "9345525238031b626ad760930ffd6837c209a2f9ee07ac2ea3603223de2aee04",
+ "domain": [
+  "health/lab-testing",
+  "ecommerce/healthcare"
+ ],
+ "product": [
+  "testwell",
+  "quest-diagnostics",
+  "labcorp",
+  "bioreference",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Cash-pay lab test catalogue with state-based quotes, checkout, draw site lookup, reference ranges, result interpretation, unit conversion and price comparisons.",
+ "whenToUse": "Use when a user wants to find and price blood tests, locate a draw site, order tests, or understand lab values.",
+ "tasks": [
+  "search lab tests",
+  "recommend tests for goals",
+  "quote order total",
+  "create and update checkout",
+  "complete payment",
+  "find draw sites by ZIP",
+  "look up reference ranges",
+  "interpret lab results",
+  "convert units",
+  "compare prices and providers",
+  "calculate free testosterone"
+ ],
+ "effects": {
+  "1a873867700dceac32ed5d20181189da9b688f6cdf9031d6db676a8e2a06b002": "read",
+  "8ea1d97df9a39ca1a09d259a83170b254f7a774a22cea998e71b60d3c3d5fb34": "read",
+  "7824935f4bd1c23ef9f846fb2ef849bc00ef08734a5838b1a68932be3022d39c": "read",
+  "6b5669abb2367b5d80c13efdb44584ecd01fd2d3f4cbf3c9f9491baf576cbf12": "read",
+  "489b6f90806939916f98d97fce33dec561f940102c0dda64a81bb7397cb93e3b": "read",
+  "7ba859c3b1d910b2c369123b39a38eac4f1262972948dca6a664ad18703b958a": "write",
+  "e785b5415b18b940a5c99c4f05c1a6d2efbd116584025d150775e9d25fb51c84": "write",
+  "fa6f6f0e99ca0f23c06d03c838eb6a299201230b8b3170cba35de1680f033e60": "read",
+  "334ae7e7cde41fc97e817100eddf4d4c16b46bd563c8f2a4e4779fdad1fd8f25": "write",
+  "c4d40a2a37c1cc2bb491b50aeb9899e6c27dfd8b3469395b735bd55018c2d372": "risky",
+  "1f240e6377f889dfadd61a46352b08e7ebb200d00727b98480e28500bc080fbe": "read",
+  "1954cdb782d4571cf6ad5cdb85357e930c666c93122bd4520f064e2eb5ba03f0": "read",
+  "3ff34a9f556605fffe403606c4b15ee2501e50a647990b734f93e3d437ce82b8": "read",
+  "e378e2b33aaacb81b3b0257512f3b2e3d172ec73c1ba6250d3d1c1de54905e1c": "read",
+  "a1b5a911d4029f409eafda67ea0d062a2c5b2206585db47d80708d10594820a6": "read",
+  "11e17fe76f75989de1757368754f8ba405efce4df306effae93392ef9753b4fa": "read",
+  "389e1b61c7adda9d4ed2191044245d5306c316aa001f94da74504140f126f334": "read",
+  "962dff02639d5bf9985b5a23f97e35ade7a7695c4269527ca44cc758219f421f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "72cedc06a3cd95140a38de21bca52725147caa411428ba11b1dcb85fd8a24842",
+ "domain": [
+  "business-directory",
+  "local-services"
+ ],
+ "product": [
+  "laspi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Search a small directory of owner-confirmed European small businesses and read their public cards.",
+ "whenToUse": "Use when a user needs a local or online small business service in Europe.",
+ "tasks": [
+  "search businesses",
+  "get business card",
+  "ask directory a question"
+ ],
+ "effects": {
+  "869774121f761ae3076203523b43f4451ac572b8f723fddd520831948e53e268": "read",
+  "5a542d4518449b269a3cfcb9851c1fb3a6bd1f980eabef12551e324b31194f51": "read",
+  "25e82b0151b2a9956486d5a9b37655085382feee639c6a8a96b9474dc40b7599": "read"
+ },
+ "flags": []
+}

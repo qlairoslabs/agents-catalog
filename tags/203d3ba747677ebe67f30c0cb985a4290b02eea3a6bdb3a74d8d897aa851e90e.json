@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "203d3ba747677ebe67f30c0cb985a4290b02eea3a6bdb3a74d8d897aa851e90e",
+ "domain": [
+  "travel/hotels",
+  "travel/accommodation"
+ ],
+ "product": [
+  "best-western"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Searches Best Western hotels worldwide and returns details, amenities and photos; no availability or booking.",
+ "whenToUse": "Use when a user wants to find Best Western hotels by location, stars or amenities and see their details.",
+ "tasks": [
+  "search hotels",
+  "get hotel details",
+  "list amenities",
+  "get hotel photos"
+ ],
+ "effects": {
+  "eea1bf7eb28ced199fa299497a3e8d692fa2d8530a5e4aec36a68c4c5a4ce9c2": "write",
+  "fa8b13b4b2612e98e4309c4155466ddee386bb2180262844019058d72563b5fc": "read",
+  "59513da44414e78b287ab6e7fe7dfee6f8bf8f3bc3f78d08cc14c4077ed32b12": "read",
+  "4f36ca33c0c1530243f48fd94bece5c0a146fcfd1047f7888c3501d88c50bcdd": "read"
+ },
+ "flags": []
+}

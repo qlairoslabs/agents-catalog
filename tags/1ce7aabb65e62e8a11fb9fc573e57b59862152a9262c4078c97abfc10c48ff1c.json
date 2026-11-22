@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1ce7aabb65e62e8a11fb9fc573e57b59862152a9262c4078c97abfc10c48ff1c",
+ "domain": [
+  "health/remote-monitoring",
+  "health/maternal"
+ ],
+ "product": [
+  "jumper-health"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads shared JUMPER Health measurements including blood pressure, oxygen, weight, temperature and fetal monitoring.",
+ "whenToUse": "Use when reviewing health readings someone has shared from JUMPER Health devices.",
+ "tasks": [
+  "read blood pressure",
+  "read oxygen saturation",
+  "read weight",
+  "read temperature",
+  "read fetal monitoring"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "06c589f84bacfc5ffec6819b5b57fdc15f0f396087db095483335cab0848af55",
+ "domain": [
+  "software/consulting",
+  "software/engineering-services"
+ ],
+ "product": [
+  "sigmajunction"
+ ],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Information about SigmaJunction, a Serbian software engineering firm: services, engagement models, articles, plus sending an inquiry and requesting a checklist.",
+ "whenToUse": "Use when a user is evaluating SigmaJunction or wants to contact them about a software project.",
+ "tasks": [
+  "get company profile",
+  "list services",
+  "get engagement models",
+  "read site page",
+  "list articles",
+  "send inquiry",
+  "email partner checklist"
+ ],
+ "effects": {
+  "8cb679e817946c28d7afc8690478d14ccb1a364b59b36cc68ef865db04ccec84": "read",
+  "4b26e85c77bd10bc5d1b1a948f7acda9ba3ba520bb2835977088dfeae7c70dfc": "read",
+  "7c101b4c63a95a81af2554ec45a9d00e4b69be8607bc4a4270053a7f518166cd": "read",
+  "677a9991402550f65294ce0b6404b7ff90531aaf145d54903f08a93a676eb551": "read",
+  "768a4e2934c786ec2c70ca41c04bec7c5a4942598562ab155204e58c95a5c69b": "read",
+  "bed8ac43af17ff89613a1afcc6d993b65d7ca24a61aa251d705d05023e7f5657": "write",
+  "c4ec74cbbb9baf72759d26119a8e5a86dddf8c609feffd3d796c5c31a91d918a": "write"
+ },
+ "flags": []
+}

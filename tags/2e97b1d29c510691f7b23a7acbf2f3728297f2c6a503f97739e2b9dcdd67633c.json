@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2e97b1d29c510691f7b23a7acbf2f3728297f2c6a503f97739e2b9dcdd67633c",
+ "domain": [
+  "software/version-control",
+  "software/code-review"
+ ],
+ "product": [
+  "bitbucket",
+  "atlassian"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Connects agents to self-hosted Bitbucket Data Center to work with repositories and code.",
+ "whenToUse": "Use when an agent must browse or act on repositories, code or pull requests in Bitbucket Data Center.",
+ "tasks": [
+  "browse repositories",
+  "read code",
+  "work with pull requests"
+ ],
+ "effects": {},
+ "flags": []
+}

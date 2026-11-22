@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b1f70cdf61f65337c91ae1c115c691c8392368c658078acb0f3ac752e38550a2",
+ "domain": [
+  "software/mobile-testing",
+  "software/emulators"
+ ],
+ "product": [
+  "ramus",
+  "android"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Disposable cloud Android emulators where coding agents can install APKs or PR builds, tap, type and take screenshots.",
+ "whenToUse": "Use when an agent needs to run and visually test an Android app build.",
+ "tasks": [
+  "start android emulator",
+  "install apk",
+  "run pr build",
+  "tap screen",
+  "type text",
+  "take screenshot"
+ ],
+ "effects": {},
+ "flags": []
+}

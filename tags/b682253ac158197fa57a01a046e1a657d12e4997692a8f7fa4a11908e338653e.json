@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b682253ac158197fa57a01a046e1a657d12e4997692a8f7fa4a11908e338653e",
+ "domain": [
+  "finance/crypto",
+  "software/cybersecurity/forensics"
+ ],
+ "product": [
+  "solana",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Python SDK and MCP server for Solana wallet forensics, billed per call via the x402 payment protocol.",
+ "whenToUse": "Use when an agent needs to analyse the history or risk of a Solana wallet and per-call payment is acceptable.",
+ "tasks": [
+  "analyse solana wallets",
+  "inspect wallet transactions",
+  "assess wallet risk",
+  "pay per call via x402"
+ ],
+ "effects": {},
+ "flags": [
+  "uses pay-per-call crypto payments"
+ ]
+}

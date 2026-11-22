@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "eb3e6284b4352b20d4a772e074c93dde4f9a87aedbb7262d0ffe52a93e5c6223",
+ "domain": [
+  "telecom/prepaid-services",
+  "utilities/electricity"
+ ],
+ "product": [
+  "simcloud"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "keep-in-touch"
+ ],
+ "summary": "South African service for buying airtime, data, electricity and VAS, sending SMS, checking balance and looking up networks.",
+ "whenToUse": "Use when a user in South Africa needs to buy prepaid airtime, data or electricity, or send SMS.",
+ "tasks": [
+  "buy airtime",
+  "buy data bundles",
+  "send sms",
+  "buy electricity",
+  "purchase vas",
+  "check balance",
+  "look up network"
+ ],
+ "effects": {},
+ "flags": []
+}

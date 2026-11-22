@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "7a2c88e2d4d206f89a53572f5aaf470798dcd068dc84b3fcdc01cfee5f9a39a0",
+ "domain": [
+  "local-services/hair-salon",
+  "scheduling/booking"
+ ],
+ "product": [
+  "studio-natali"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Lists services, hairdressers and free times at Studio Natali in Říčany and books haircuts with SMS verification.",
+ "whenToUse": "Use when a customer wants to book a haircut at Studio Natali.",
+ "tasks": [
+  "list services",
+  "list hairdressers",
+  "find free times",
+  "request booking",
+  "confirm booking by SMS code"
+ ],
+ "effects": {
+  "725d621992e0066dfb6f0a07e6f5039cb5623c8fe5302e83456adce9a3e8e7fe": "read",
+  "e45ff1dfbd366261c8631afdd6e94df87521ce100730148ea19798a6246640af": "read",
+  "b5d935db3e4989b5d4d02deaa2a07cb3a2cca5a0d24dcf9ecf8304bbc0ac7a88": "read",
+  "ee0e00de335f989833c07578ec3ad075a9d4419d0dcfdce306d35cc31e30cc7c": "write",
+  "50941b2a4d1acb1ef1b0ba01c27a278039f0a30a4ee71aff0fc3474031a406ed": "write"
+ },
+ "flags": []
+}

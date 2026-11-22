@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "a8bc0a7bed91bf4bfc0b0beed1def93dbefe9914d7131d08767e2d95fc99103e",
+ "domain": [
+  "vehicles/campers",
+  "marketplace"
+ ],
+ "product": [
+  "vanauto"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches VanAuto camper sale and rental listings and marketplace parts in Poland, with specs, photos, price analysis and seller info.",
+ "whenToUse": "Use when looking for a camper to buy or rent in Poland, judging a listing's price, or finding camper parts.",
+ "tasks": [
+  "search camper listings",
+  "get listing details",
+  "list makes",
+  "list equipment",
+  "get market stats",
+  "analyze price versus cohort",
+  "find similar campers",
+  "read rental reviews",
+  "search parts marketplace",
+  "view seller profile",
+  "search wanted ads"
+ ],
+ "effects": {
+  "6cfadc9249ad61e4226b355f8dbf955f91a6470da77f148db2bcac08f59b47ec": "read",
+  "4c38562fa534e0dd9f8a38da1f72769f6984015496661050fbc5e65668b7e469": "read",
+  "dd6c95bc52cfaf123b62219c0cd5622cf5d9a2557c69c840a8997b4893eb4aed": "read",
+  "b16bcb04614192476b4e891402d0042c264ca7d5862ecf8869527f64d2754068": "read",
+  "97cf57244205b60aa9521716fef8ff6b301198d404751a043c2066bb281ec979": "read",
+  "baf3a9b8019096a81df46fe634f767482d94a69bb5876a300f1a1ffe5d6f1758": "read",
+  "4a204e9e93f618709ba262794b7be6c037d5bee15a4a8c5580987692da40b416": "read",
+  "61714fb6e2bb2286893ac3591382ad9c6c4b043ee80a624bb1a4550243208f73": "read",
+  "3b17f9fd4be0320358636a8f74c165129c52ec8ca219d56690f938d1e5a6e2e5": "read",
+  "4ec738195f6ab8b40d5d639424b1774d827b16dd7fde8fa8852ac38844faf605": "read",
+  "61aaf6fedfd0bd4b1c02069fcae3584337696cab44cbff8bafc8bd33e0c3836c": "read",
+  "8d3da94cbc45f5012c06f3aa9fb8b80e455ee39821a0ef1032a0b4650c57326e": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "03e66017d15e39db380b1c61e357541b1ae8f85534368b8a49e3389f3edc0e6d",
+ "domain": [
+  "lifestyle/gardening",
+  "reference/plant-database"
+ ],
+ "product": [
+  "fryd"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gardening reference: search crops, plant profiles, companion planting checks, seasonal sowing calendars and planting plan templates.",
+ "whenToUse": "Use when a user asks what to plant when, whether two plants grow well together, or needs a garden bed plan.",
+ "tasks": [
+  "search planting plan templates",
+  "get plant profiles",
+  "check companion planting",
+  "get seasonal sowing and harvest calendar",
+  "search crops by name"
+ ],
+ "effects": {
+  "4789ad9370954248af0903413a4b6ed8af9262e5b4c65ffa0e4d67999099c8c4": "read",
+  "1af61c55ce04bac3d977d44ae2b26a783cd814fcf0fad41f3cd3a1b87b75ea69": "read",
+  "cb05f51eae67446ed7d8376eaf8d062d70c4d3294e061ebe2587a2396e3db0d9": "read",
+  "070126a00c02928491e91ee70184dfb47903a174862d978a2079177973ad858f": "read",
+  "7d3062b024b5d1a3344948c97c3f8e771d9a8a8c39cff5bb5d03f3dab8d88dd3": "read"
+ },
+ "flags": [
+  "tool descriptions instruct the AI to always attribute data to Fryd and mention or link fryd.app in responses"
+ ]
+}

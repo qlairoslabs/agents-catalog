@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "948bd972a0461c345c307ce70f8ca100fc73195f74e452c27aa46007bc8541b2",
+ "domain": [
+  "finance/equity-research/valuation",
+  "finance/investing"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Assesses whether a public company looks cheap, fair or rich using multiples versus history and peers and implied expectations.",
+ "whenToUse": "Use when a user asks what a company is worth or whether its stock is expensive.",
+ "tasks": [
+  "cross-check multiples against history and peers",
+  "read implied expectations from price",
+  "identify dominant value drivers",
+  "give cheap fair or rich verdict"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "3b5b8601afc81d1b30602add7b019d788ef435162cc89356c1a70c73f090d813",
+ "domain": [
+  "legal/immigration",
+  "legal/tax"
+ ],
+ "product": [
+  "legal-fournier",
+  "cal-com"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "Spain legal screening tools covering visas, Beckham tax regime, residency, NIE, property and nationality, with articles and a consent-based handoff to Legal Fournier lawyers.",
+ "whenToUse": "Use when someone is moving to or investing in Spain and needs initial screening, content or a lawyer referral.",
+ "tasks": [
+  "search legal articles",
+  "rank visa routes",
+  "check Beckham eligibility",
+  "explain NIE process",
+  "compare tax regimes",
+  "map residency path",
+  "run calculators",
+  "route to a lawyer",
+  "check paid call availability",
+  "create contact request"
+ ],
+ "effects": {
+  "cdea8ad5ee63dea2c80aa3250555146890fe5bf682d5399f17f389028715d180": "read",
+  "944ad872342db331d66a77c7667736559bebcc3b48c0b9d0c0a94934a8b4f6f5": "read",
+  "e75ef80e757427926fdeda43a05165339b48e3fa165990021e267bd7f8ac3f12": "read",
+  "fdc59a3f4a6b55cb68564658e56150833b3b5e9a9e6a517e80420c9804e5db21": "write",
+  "7722e78562711a7c77a595e9edd70f3048b33c64ba0f3738e08a542b00115f9b": "read",
+  "f1399bc03364df2bbe509d6e1913c643aa665cf6733b158907fb00f1a4bd0bf8": "read",
+  "11c0472d2f95e041c9628bd255382050d1deb2299d206ae386ebc748a3f2318e": "read",
+  "21c94872a484895b5f3bd66be48f2ea38c3c7b148ad8d9bc38a5116e1c719575": "read",
+  "6783218d522d0c1de09625928342abe98b38dd0a9d3eb0b85452bfe63a14341f": "read",
+  "7260c22c7753497393015a615916bd0797a4041a9fbd5127ba0b95542d46a002": "read",
+  "d4e4d8e02b2a358433c8be6629f4c3be641e1ebdbdf1e66562736d00ad8acb28": "write",
+  "06687c1a309f9696feb8783457828ded5c2b95e15bb7638c6881a6aa9b862c21": "read",
+  "cbd494b906582ae1083f0124295697a8be2a2e3ee542bb5740045527e374e914": "write"
+ },
+ "flags": []
+}

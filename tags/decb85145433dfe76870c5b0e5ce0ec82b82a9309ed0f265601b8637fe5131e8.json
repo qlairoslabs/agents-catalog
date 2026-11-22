@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "decb85145433dfe76870c5b0e5ce0ec82b82a9309ed0f265601b8637fe5131e8",
+ "domain": [
+  "legal/business-formation",
+  "finance/compliance"
+ ],
+ "product": [
+  "filingdesk",
+  "sunbiz"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "US LLC fees, annual-report deadlines, state comparisons and naming-rule checks, plus order preview and submission for formation through FilingDesk.",
+ "whenToUse": "Use when choosing a state to form an LLC, estimating costs and deadlines, or ordering formation from FilingDesk.",
+ "tasks": [
+  "get state LLC fees",
+  "compare LLC costs",
+  "calculate annual report deadline",
+  "screen LLC names",
+  "list filing coverage",
+  "compare formation options",
+  "preview order",
+  "submit order"
+ ],
+ "effects": {
+  "9fa2ceeda5f84bc896d5bf97a2b70e91ee2f5cdcc8798ba017a843a43b697fc2": "read",
+  "eaa5f9723436bf9882fc667040077cd63fbc715ef3ce3960a62d216ee0656e3a": "read",
+  "6f7a351d5bd7802fe770a99bd2ce6ed77ce60d7d24f697c6021fca80c930a95b": "read",
+  "e1497b0215da4774d4a51e286d845c02e6519c4056a67a6a9665c8b99aa022f9": "write",
+  "798b02066d2455371fd68ed14f7cdd1493c08fb1f3d59e2fddb82bd0c76a8b05": "read",
+  "8b3006e860106d8fbbdcd2d4bcf5b765086d5777902f95aa6bd9d4bfb3222597": "read",
+  "eef7b4cec1750061cc4c900a9ebdd347e4eb50a19ed07e87900e87916f5b966b": "read",
+  "09b7eb0e088766e12fe3077209e872d2f90c92fee6c8676ee224344585823ed9": "write"
+ },
+ "flags": []
+}

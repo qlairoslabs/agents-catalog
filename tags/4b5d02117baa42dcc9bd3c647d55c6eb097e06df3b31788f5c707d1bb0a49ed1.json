@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4b5d02117baa42dcc9bd3c647d55c6eb097e06df3b31788f5c707d1bb0a49ed1",
+ "domain": [
+  "marketing/video-ads",
+  "content/ai-video"
+ ],
+ "product": [
+  "prizmad"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Generates AI user-generated-content style video ads from a product URL with avatars and voiceover.",
+ "whenToUse": "Use when an agent needs to create a UGC-style video ad for a product page.",
+ "tasks": [
+  "generate video ads from url",
+  "choose avatars",
+  "add voiceover"
+ ],
+ "effects": {},
+ "flags": []
+}

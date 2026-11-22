@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bc557e0b0e3eaf2686cf621ab247362558449da3d91a4f150f3875da15ea8f70",
+ "domain": [
+  "health/fitness-tracking"
+ ],
+ "product": [
+  "rirlift"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses a RIRLift strength training log covering workouts, progress, volume, recovery and program drafts.",
+ "whenToUse": "Use when the user asks about their strength training history or wants a training program drafted in RIRLift.",
+ "tasks": [
+  "view workouts",
+  "track progress",
+  "review training volume",
+  "check recovery",
+  "draft programs"
+ ],
+ "effects": {},
+ "flags": []
+}

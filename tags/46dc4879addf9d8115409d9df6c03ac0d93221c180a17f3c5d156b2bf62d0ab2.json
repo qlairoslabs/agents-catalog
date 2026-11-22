@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "46dc4879addf9d8115409d9df6c03ac0d93221c180a17f3c5d156b2bf62d0ab2",
+ "domain": [
+  "supply-chain/traceability",
+  "compliance/product-passport"
+ ],
+ "product": [
+  "gs1-epcis",
+  "eu-digital-product-passport"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Local npm server for managing products, EU Digital Product Passports, operator parties and GS1 EPCIS supply-chain events.",
+ "whenToUse": "Use when creating or maintaining EU Digital Product Passports or recording supply-chain traceability events.",
+ "tasks": [
+  "manage products",
+  "manage digital product passports",
+  "manage operator parties",
+  "record epcis supply-chain events"
+ ],
+ "effects": {},
+ "flags": []
+}

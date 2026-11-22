@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d66c97040cedb7313a37ac5b169b0f54c12382b982d671d9305c8935d57caf24",
+ "domain": [
+  "software/cybersecurity",
+  "software/vulnerability-management"
+ ],
+ "product": [
+  "zen-secdb"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides CVE intelligence including CVSS and EPSS scores, security advisories, SSVC decisions and package vulnerability audits.",
+ "whenToUse": "Use when you need to look up vulnerability details, assess severity or exploit likelihood, or audit packages for known CVEs.",
+ "tasks": [
+  "look up CVEs",
+  "get CVSS scores",
+  "get EPSS scores",
+  "read security advisories",
+  "evaluate SSVC",
+  "audit packages"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "73937d3df0f242ee591ac80a0d5c120a60b882a868d81b265989dd81f62ccb80",
+ "domain": [
+  "sales/crm"
+ ],
+ "product": [
+  "attio"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Connects agents to Attio CRM to manage contacts, companies, deals, tasks, notes and workflows.",
+ "whenToUse": "Use when an agent needs to look up or update records, deals or tasks in Attio CRM.",
+ "tasks": [
+  "search contacts",
+  "manage companies",
+  "manage deals",
+  "create tasks",
+  "add notes",
+  "manage lists"
+ ],
+ "effects": {},
+ "flags": []
+}

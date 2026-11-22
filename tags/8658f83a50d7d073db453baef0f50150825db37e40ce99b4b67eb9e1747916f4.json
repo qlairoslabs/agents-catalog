@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "8658f83a50d7d073db453baef0f50150825db37e40ce99b4b67eb9e1747916f4",
+ "domain": [
+  "ecommerce/retail",
+  "ecommerce/product-discovery"
+ ],
+ "product": [
+  "svv-schatzoekers"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Read-only public facade for the SVV-Schatzoekers store: product search, merchant trust, shipping and returns policy, plus operational status snapshots.",
+ "whenToUse": "Use when a shopper asks about SVV products, stock, shipping or return policy, or merchant trustworthiness.",
+ "tasks": [
+  "search context documents",
+  "fetch documents",
+  "search products",
+  "explain merchant policy",
+  "show merchant trust",
+  "get memory snapshot",
+  "get ops status",
+  "self-check facade"
+ ],
+ "effects": {
+  "fc3e17a11f2812cb25734125eeba6a49489a02016a91bf812adadaa6fcf7be2d": "read",
+  "881ebc04a138084005eb7b5e79be9d5745c58a8ace7ff2721fa615e03d0a2a03": "read",
+  "db45ff750ca43dc36a1f5ed43cd7f06d0aa37f7c18ec71e8fa41329eaed5b890": "read",
+  "06e2def64b20fd82d11232c8c7b7c926552877be6d7d22a8b13836d6efd9d690": "read",
+  "99caee74a30b88a599a506dcb5b1fd7f8a082de663a284427c07ff5d119b029e": "read",
+  "c918ea86b98d4fc73bf15153e98059673f45f0362f7138da478182f45523611e": "read",
+  "44f46e8d37cb09084e9dea9ce40265c19621630338ced02102f9adb88e01776f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "1c449c7e059fe601116cfd44f82968c91ce48a2868cef6c23af3b733cf5f468a",
+ "domain": [
+  "software/cybersecurity/vulnerability-intelligence",
+  "software/cybersecurity/breach-tracking"
+ ],
+ "product": [
+  "acidpeak",
+  "cisa-kev",
+  "rhel",
+  "debian",
+  "ubuntu",
+  "proxmox"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Read-only vulnerability intelligence: CVE records, exploitation evidence, fixes, product matches, Linux package checks and breach notices.",
+ "whenToUse": "Use when assessing whether a CVE or product is exploited or patched, checking Linux packages, or tracking breach notices.",
+ "tasks": [
+  "look up a cve",
+  "look up cves in batch",
+  "list recent threats",
+  "find tracked products",
+  "find vulnerabilities for products",
+  "full-text search",
+  "list breach notices",
+  "check linux package versions",
+  "get changes since last sync",
+  "check data freshness"
+ ],
+ "effects": {
+  "8cc0a8ca6b5c56eeaae737ec2b15e3c0283d141a29ce6a7f16822f53f5051581": "write",
+  "4ff59990d990cc09d0909774932540a1c9f58748668b00d0ce431c61a9da4dbd": "read",
+  "549797848ae3f63a513e2aa4d0378a423270369aa8a56530524d49aafe263e7f": "write",
+  "68a94a17e6b7eff2c07ad27a29adb5551c830a193dfa55ab965537c4b9ce9727": "read",
+  "ca805099ac822696799431eb209dd0c338f5962311db737c293110ebc36ee603": "write",
+  "1a4548834f96bfd06e73d4889c924ec836c4e7f9379b0065ae21a7b41135d970": "read",
+  "93f6b14623efd336a9cc3be055dabbb2b09e0f4ae2d15ad6a18b3d632d0915b2": "write",
+  "66ae6f502f9721a1dd7a65b7bb4a8b2f479cc204123dff1762297e6c1a9db91c": "write",
+  "ad448e70b1c48eacbef8ece807e535c1cc4c04d45416db4bfc0d8501968b86e7": "write",
+  "c4505352b7d7f646f1081ad9b08cfe8733d98d025c1282e3ee24a9a36f368429": "read"
+ },
+ "flags": []
+}

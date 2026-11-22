@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3b22ed56b63f380e1cac292654c2eec005ba9c283838dda07c1a4353ff6a1ff8",
+ "domain": [
+  "data/enrichment",
+  "ai/llm"
+ ],
+ "product": [
+  "entity-enricher"
+ ],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Enriches entities with data using multiple LLMs, with schemas, batch runs, result fusion and model benchmarks.",
+ "whenToUse": "Use when an agent needs to fill in structured attributes for companies, people or other entities using several language models.",
+ "tasks": [
+  "define enrichment schemas",
+  "enrich single entities",
+  "batch enrich entities",
+  "fuse results across models",
+  "benchmark models"
+ ],
+ "effects": {},
+ "flags": []
+}

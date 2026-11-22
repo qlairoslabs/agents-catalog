@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a36e737c0204031a9cb574da4fdc4a860c72fe6309257aab32e17d0370d43d0b",
+ "domain": [
+  "finance/personal-budgeting"
+ ],
+ "product": [
+  "actual-budget"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Actual Budget accounts, transactions, budgets, rules and reports from an AI assistant.",
+ "whenToUse": "Use when an agent needs to read or update budgets and transactions in Actual Budget.",
+ "tasks": [
+  "list accounts",
+  "add and edit transactions",
+  "manage budgets",
+  "manage rules",
+  "generate reports"
+ ],
+ "effects": {},
+ "flags": []
+}

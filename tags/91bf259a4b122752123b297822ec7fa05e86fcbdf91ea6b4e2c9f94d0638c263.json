@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "91bf259a4b122752123b297822ec7fa05e86fcbdf91ea6b4e2c9f94d0638c263",
+ "domain": [
+  "software/developer-tools/setup",
+  "productivity/work-context"
+ ],
+ "product": [
+  "twg",
+  "jira",
+  "confluence",
+  "bitbucket",
+  "jira-service-management",
+  "slack",
+  "google-drive"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Installs, upgrades, authenticates and repairs the Atlassian twg CLI that gives coding agents work context across Atlassian and other tools.",
+ "whenToUse": "Use when twg is missing, outdated, unauthenticated or broken for a coding agent.",
+ "tasks": [
+  "install twg",
+  "upgrade twg",
+  "authenticate twg",
+  "run doctor checks",
+  "repair missing skills"
+ ],
+ "effects": {},
+ "flags": []
+}

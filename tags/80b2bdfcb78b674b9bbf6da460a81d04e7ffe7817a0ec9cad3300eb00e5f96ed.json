@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "80b2bdfcb78b674b9bbf6da460a81d04e7ffe7817a0ec9cad3300eb00e5f96ed",
+ "domain": [
+  "sales/data-enrichment",
+  "finance/corporate-data"
+ ],
+ "product": [
+  "datamerge"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Enriches company records with legal entity details, corporate hierarchies and contacts across a large global database.",
+ "whenToUse": "Use when you need legal entity, ownership hierarchy or contact data for a company.",
+ "tasks": [
+  "enrich company data",
+  "look up legal entities",
+  "map corporate hierarchies",
+  "find company contacts"
+ ],
+ "effects": {},
+ "flags": []
+}

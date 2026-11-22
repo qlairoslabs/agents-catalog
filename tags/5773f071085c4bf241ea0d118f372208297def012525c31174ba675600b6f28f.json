@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "5773f071085c4bf241ea0d118f372208297def012525c31174ba675600b6f28f",
+ "domain": [
+  "web/scraping",
+  "research/web-content"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Fetches web pages and converts their content to Markdown.",
+ "whenToUse": "Use when the agent needs to read the content of a web page by URL.",
+ "tasks": [
+  "fetch web pages",
+  "convert html to markdown"
+ ],
+ "effects": {},
+ "flags": []
+}

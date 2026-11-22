@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bde0d191f84f263505e0941da695619f88af87f500cb47ab22ff1f38426f0b03",
+ "domain": [
+  "marketing/seo",
+  "marketing/competitor-research"
+ ],
+ "product": [
+  "ahrefs"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Official Ahrefs connector providing SEO data including backlinks, keywords and competitor research.",
+ "whenToUse": "Use when an agent needs SEO metrics such as backlinks, keyword data or competitor analysis.",
+ "tasks": [
+  "look up backlinks",
+  "research keywords",
+  "analyze competitors"
+ ],
+ "effects": {},
+ "flags": []
+}

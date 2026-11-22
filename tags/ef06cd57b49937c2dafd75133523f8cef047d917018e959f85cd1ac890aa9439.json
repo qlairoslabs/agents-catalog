@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "ef06cd57b49937c2dafd75133523f8cef047d917018e959f85cd1ac890aa9439",
+ "domain": [
+  "legal/statutes",
+  "government/us-law"
+ ],
+ "product": [
+  "uscode.ecfr.io",
+  "olrc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Searches and reads United States Code sections with citations linking to uscode.ecfr.io.",
+ "whenToUse": "Use when you need exact U.S. federal statute text or citations.",
+ "tasks": [
+  "search statutes",
+  "read section text",
+  "list code titles",
+  "cite sections"
+ ],
+ "effects": {
+  "3e93707aeabf37fef18fa1b6affbd4cbf55ca01e800a5d2f5a8fcec0f6356511": "write",
+  "2300ea05a298bbb7be0636ccc34adb98d778e2a1e5ed48dab807d83cc1a4c406": "write",
+  "e0da53f2df5b8fd5e6dfcb367a267c694aa13686cdb09f1895864da41f03eb15": "read"
+ },
+ "flags": []
+}

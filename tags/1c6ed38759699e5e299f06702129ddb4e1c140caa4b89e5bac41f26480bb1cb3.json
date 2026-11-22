@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "1c6ed38759699e5e299f06702129ddb4e1c140caa4b89e5bac41f26480bb1cb3",
+ "domain": [
+  "engineering/electronics",
+  "engineering/rf"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Offers a large set of RF and electronics calculators plus simulation tools for AI agents.",
+ "whenToUse": "Use when an agent needs to compute RF, antenna or circuit values or run simple electronics simulations.",
+ "tasks": [
+  "calculate rf parameters",
+  "compute circuit values",
+  "run simulations"
+ ],
+ "effects": {},
+ "flags": []
+}

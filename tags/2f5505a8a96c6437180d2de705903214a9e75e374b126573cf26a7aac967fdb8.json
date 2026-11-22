@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2f5505a8a96c6437180d2de705903214a9e75e374b126573cf26a7aac967fdb8",
+ "domain": [
+  "productivity/personal-crm",
+  "communication/messaging"
+ ],
+ "product": [
+  "wirecat-memo"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local tool that gathers context about people from messengers, notes and email into a store agents can query.",
+ "whenToUse": "Use when you need background on a person drawn from the user's messages, notes and mail, after the memo CLI is set up.",
+ "tasks": [
+  "look up context about people",
+  "search messages notes and mail locally"
+ ],
+ "effects": {},
+ "flags": []
+}

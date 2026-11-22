@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ffa46ce3ed8cb5ee34afb04c231665be2c78241c31bd879bcab042506ee2ebc3",
+ "domain": [
+  "support/ai-chatbot",
+  "sales/lead-capture"
+ ],
+ "product": [
+  "asyntai"
+ ],
+ "audience": [
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "support-customers",
+  "get-customers"
+ ],
+ "summary": "Manages a website AI support agent, including its knowledge, conversations, captured leads and live replies.",
+ "whenToUse": "Use when reviewing or managing a website support chatbot's knowledge, chats, leads or replies.",
+ "tasks": [
+  "manage knowledge",
+  "read conversations",
+  "view leads",
+  "send live replies"
+ ],
+ "effects": {},
+ "flags": []
+}

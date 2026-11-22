@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "df333f59bf8ffccf111f3e0477c81972ee51f5a56311cc90f1dd859a8e6b2fa5",
+ "domain": [
+  "data/web-scraping",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "google-maps"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Fetches live Google Maps business listings, reviews and photos for use by AI agents.",
+ "whenToUse": "Use when gathering local business data, reviews or leads from Google Maps.",
+ "tasks": [
+  "search businesses on google maps",
+  "get business reviews",
+  "get business photos",
+  "collect local leads"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d2d7b8c2ae74c77d08555eac3f829333d8252fd1f3cdbb0bb8e0c737117eaca1",
+ "domain": [
+  "finance/personal",
+  "shopping/deals"
+ ],
+ "product": [
+  "amex",
+  "chase",
+  "citi",
+  "paypal",
+  "rakuten",
+  "capital-one"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches current credit card merchant offers from several card issuers and cashback services.",
+ "whenToUse": "Use when someone wants to know which card offers apply to a merchant.",
+ "tasks": [
+  "search merchant offers",
+  "compare card offers"
+ ],
+ "effects": {},
+ "flags": []
+}

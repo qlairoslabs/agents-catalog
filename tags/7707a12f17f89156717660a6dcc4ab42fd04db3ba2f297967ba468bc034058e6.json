@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "7707a12f17f89156717660a6dcc4ab42fd04db3ba2f297967ba468bc034058e6",
+ "domain": [
+  "software/seo",
+  "software/web-development"
+ ],
+ "product": [
+  "nuxt",
+  "nuxt-seo",
+  "schema-org"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "build-software",
+  "get-customers"
+ ],
+ "summary": "Free SEO checks for any URL (meta, robots, schema, sitemap, social cards, overall audit) plus Nuxt SEO module docs and setup.",
+ "whenToUse": "Use when auditing a page's SEO or structured data, or when setting up Nuxt SEO modules.",
+ "tasks": [
+  "read site pages",
+  "list pages",
+  "analyze robots.txt",
+  "check meta tags",
+  "convert HTML to markdown",
+  "debug social share cards",
+  "diagnose URL SEO",
+  "get module setup",
+  "list modules",
+  "search docs",
+  "validate schema",
+  "validate sitemap"
+ ],
+ "effects": {
+  "8b8eed92df10f247f9eff4af009526603b5524a02874e3b0e3c1caf5f8f15b89": "read",
+  "e79d887c4ebf2d48ca79ae33c4837880f4b6c16b8a48dcdd1e9796221853f658": "read",
+  "7df291f93570f1e05f2cbed561b9f19e57b996126dea4ac7cc6fda829275959b": "read",
+  "5f08842d87a383bb9d49fd6294ce133bfb595e5f5bd302ff9b31fff57bb847a3": "read",
+  "0a79f1d4c96020abc9b02440e5ad8a9222ff81d9a7279d72e4e874b8826243dd": "read",
+  "193d1966b18197e6d760364ae1c264655ce61bc3fc4e3237ba641438bd846456": "read",
+  "75f04ae10d7c2b4e24002574b1df2b6ba77d805f30dd6fdee938c090388d531d": "read",
+  "933f22a2fa6807261d22ff9bdc0ca575551eb1805330ddf76e372edf081d08af": "read",
+  "c7ed250a789d841b8d4db0580d211665f2b409de502a75b43a7e878008eb7192": "read",
+  "c62aaf7c3b9bbe12c1c4869f7a0be0547082b4d23762eee1fa238eb9578029d0": "read",
+  "2f4d571361b08bc48db47a5987db85b53b35c22fa9e5aabd2cb4fee5b2252ea2": "read",
+  "ce14cf22666669a0557c031c07007139969b2ea55f06f2a2561a3ada95264804": "read"
+ },
+ "flags": []
+}

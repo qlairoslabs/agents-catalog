@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "765096a8f652f3e3487023f256f52a01876b2b4fb428b1e0f08b74010f4632b5",
+ "domain": [
+  "finance/deal-sourcing",
+  "sales/prospecting"
+ ],
+ "product": [
+  "fintent"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Predictive signals, company search, sector trends and contacts for private equity, investment banking and M&A teams.",
+ "whenToUse": "Use when an agent needs to find acquisition targets or deal leads and track sector trends.",
+ "tasks": [
+  "get predictive company signals",
+  "search companies",
+  "view sector trends",
+  "find contacts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "33d351f9ee36675687de21f447396909704d967a76c741ffc11012f46699e5e1",
+ "domain": [
+  "finance/crypto/blockchain-analytics",
+  "security/compliance/risk"
+ ],
+ "product": [
+  "satoshidata",
+  "bitcoin"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Bitcoin address entity attribution and risk-exposure evidence for agents, without a single risk score or verdict.",
+ "whenToUse": "Use when an agent needs to know which entity a Bitcoin address belongs to or what risky counterparties it is exposed to.",
+ "tasks": [
+  "identify entities behind bitcoin addresses",
+  "review risk exposure evidence",
+  "support compliance checks"
+ ],
+ "effects": {},
+ "flags": []
+}

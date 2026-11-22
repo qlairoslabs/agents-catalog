@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "2cbce61f0b747db9c901c66ab187bb77731a69eacf388e3b830d838ca54d1378",
+ "domain": [
+  "web/publishing",
+  "web/hosting"
+ ],
+ "product": [
+  "brewpage"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Publishes HTML, Markdown, sites, JSON, key-value data, files and answer-saving forms or polls to BrewPage, keeping an owner token.",
+ "whenToUse": "Use when an agent needs to quickly publish a page, file, data or a form online and get a shareable link.",
+ "tasks": [
+  "publish html page",
+  "publish markdown",
+  "host static site",
+  "store key-value data",
+  "host json",
+  "upload files",
+  "create forms",
+  "create polls",
+  "collect responses"
+ ],
+ "effects": {},
+ "flags": []
+}

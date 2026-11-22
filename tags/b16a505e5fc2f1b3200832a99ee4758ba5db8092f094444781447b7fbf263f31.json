@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b16a505e5fc2f1b3200832a99ee4758ba5db8092f094444781447b7fbf263f31",
+ "domain": [
+  "data/statistics"
+ ],
+ "product": [
+  "stata"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lightweight server that lets agents work with Stata for statistical analysis.",
+ "whenToUse": "Use when an agent needs to run Stata commands or analyses.",
+ "tasks": [
+  "run stata commands",
+  "analyse datasets"
+ ],
+ "effects": {},
+ "flags": []
+}

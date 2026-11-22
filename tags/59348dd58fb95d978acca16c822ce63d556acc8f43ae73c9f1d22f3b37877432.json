@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "59348dd58fb95d978acca16c822ce63d556acc8f43ae73c9f1d22f3b37877432",
+ "domain": [
+  "software/cybersecurity/network-security",
+  "software/cybersecurity/zero-trust"
+ ],
+ "product": [
+  "zscaler",
+  "zpa",
+  "zia",
+  "zdx"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages the Zscaler security platform: access policies, connectivity troubleshooting, configuration audits and incident investigation.",
+ "whenToUse": "Use when administering Zscaler policies, troubleshooting user connectivity or investigating security incidents.",
+ "tasks": [
+  "manage private access policies",
+  "manage internet access policies",
+  "monitor digital experience",
+  "manage client connector",
+  "review attack surface",
+  "audit security configuration",
+  "troubleshoot connectivity",
+  "investigate incidents",
+  "view analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

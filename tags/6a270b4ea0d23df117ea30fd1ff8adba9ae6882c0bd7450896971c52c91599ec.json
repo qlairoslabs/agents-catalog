@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6a270b4ea0d23df117ea30fd1ff8adba9ae6882c0bd7450896971c52c91599ec",
+ "domain": [
+  "data/public-data-apis",
+  "developer-tools/mcp-hosting"
+ ],
+ "product": [
+  "unifapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Hosted MCP server giving agents access to live public-data APIs and skills.",
+ "whenToUse": "Use when an agent needs live public data through a single hosted API gateway.",
+ "tasks": [
+  "query public-data apis",
+  "use hosted skills"
+ ],
+ "effects": {},
+ "flags": []
+}

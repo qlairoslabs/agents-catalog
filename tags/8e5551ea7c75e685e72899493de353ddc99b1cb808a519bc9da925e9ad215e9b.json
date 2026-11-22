@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8e5551ea7c75e685e72899493de353ddc99b1cb808a519bc9da925e9ad215e9b",
+ "domain": [
+  "retail/product-rankings"
+ ],
+ "product": [
+  "lunoo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides consensus rankings for products across thousands of niches, with niche lookup and item details.",
+ "whenToUse": "Use when a user asks for the best products or items in a category.",
+ "tasks": [
+  "resolve niche",
+  "get rankings",
+  "get item details"
+ ],
+ "effects": {
+  "e78378ccca4fe3159e55636d188acb1c683fd335a405850c5a51ef0e59d66b9d": "write",
+  "8827c64aff2f0545b9891bc7cd4af93a663bdb3bd185c442d7ef652fa78a7232": "write",
+  "035e4f5a95b18b1b2471c8473d2cac4bf8ad8ba3fbb3f70b790bc0aaf7af00f4": "write"
+ },
+ "flags": []
+}

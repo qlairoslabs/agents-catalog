@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2638adcb077e6d9985ba2b3860d6757908aa128444c58fd82a7bf39c4c19d787",
+ "domain": [
+  "sales/b2b-data",
+  "sales/email-verification"
+ ],
+ "product": [
+  "revenuebase"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Finds B2B contacts, checks audience coverage, enriches emails and verifies deliverability.",
+ "whenToUse": "Use when the user needs B2B prospect contacts or wants to enrich and verify email addresses.",
+ "tasks": [
+  "find b2b contacts",
+  "inspect audience coverage",
+  "enrich emails",
+  "verify email deliverability"
+ ],
+ "effects": {},
+ "flags": []
+}

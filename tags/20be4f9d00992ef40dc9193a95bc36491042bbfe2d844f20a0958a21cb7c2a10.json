@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "20be4f9d00992ef40dc9193a95bc36491042bbfe2d844f20a0958a21cb7c2a10",
+ "domain": [
+  "software/monitoring",
+  "operations/uptime"
+ ],
+ "product": [
+  "exit1"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Sets up uptime monitoring checks and alerts and queries uptime data, including account sign-up.",
+ "whenToUse": "Use when creating uptime checks or alerts or checking a site's uptime history.",
+ "tasks": [
+  "create uptime checks",
+  "configure alerts",
+  "query uptime",
+  "sign up for account"
+ ],
+ "effects": {},
+ "flags": []
+}

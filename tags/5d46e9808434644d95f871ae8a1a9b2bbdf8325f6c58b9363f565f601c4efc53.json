@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "5d46e9808434644d95f871ae8a1a9b2bbdf8325f6c58b9363f565f601c4efc53",
+ "domain": [
+  "marketing/local-seo",
+  "web/agency-services"
+ ],
+ "product": [
+  "involve-media",
+  "google-business-profile",
+  "gohighlevel",
+  "hubspot"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online"
+ ],
+ "summary": "Run a free local business checkup on Google presence, reviews and AI answers, and browse a Canadian web and SEO agency's services and prices.",
+ "whenToUse": "Use when a Canadian local business wants to see how it shows up online or wants web, SEO or automation services.",
+ "tasks": [
+  "run local business checkup",
+  "get checkup result",
+  "list services",
+  "get pricing",
+  "get agency info",
+  "get booking link"
+ ],
+ "effects": {
+  "2b00dde2fe895ca626226a4580e18a9650e7778698ba9a36bfee771305206eb1": "read",
+  "82b6deb1d035ab765882d10bfbeacb26e219f24c2f4ead19e8cf9ba49877c878": "write",
+  "57f541635febff4de5465613d66b5a740e73f4b34b9169e8269f794bdc677f45": "read",
+  "b7c45127d9c8b71b49b8980143d1bf879768adb35149a8a1a0e018b26cff1680": "read",
+  "29fb139d07c2e52646f6874a697bb69e5ed49d84e9166667ac89fca815e0600f": "write",
+  "343c17e8240c5334b183f33a2ee84d9d824d53a15437d76c36e40f816ac37e36": "read"
+ },
+ "flags": []
+}

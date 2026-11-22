@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "cea7de7674b6870ad2d8ce37809e3063cb7d583afac5c3a99ebfa7658a6c0cde",
+ "domain": [
+  "software/cybersecurity/identity"
+ ],
+ "product": [
+  "auth0"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Framework-aware guidance for adding Auth0 login, SSO, MFA and access control to applications.",
+ "whenToUse": "Use when adding authentication or authorization to an app with Auth0.",
+ "tasks": [
+  "add login",
+  "configure sso",
+  "enable mfa",
+  "set up access control"
+ ],
+ "effects": {},
+ "flags": []
+}

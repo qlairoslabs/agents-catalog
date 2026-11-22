@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5373456b06aa8ee05876818cee574cbfa66c96eb30681c6754bcda8cb8a52efc",
+ "domain": [
+  "finance/personal-finance",
+  "finance/open-banking"
+ ],
+ "product": [
+  "earmarkiq"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives read-only access to a user's own UK bank data, including spending, subscriptions, payday planning and net worth.",
+ "whenToUse": "Use when a UK user wants to analyze their own spending, subscriptions, budget until payday or net worth.",
+ "tasks": [
+  "analyze spending",
+  "list subscriptions",
+  "plan until payday",
+  "calculate net worth"
+ ],
+ "effects": {},
+ "flags": []
+}

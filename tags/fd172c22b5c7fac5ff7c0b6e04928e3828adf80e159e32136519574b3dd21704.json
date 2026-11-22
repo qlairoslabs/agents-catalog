@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "fd172c22b5c7fac5ff7c0b6e04928e3828adf80e159e32136519574b3dd21704",
+ "domain": [
+  "real-estate/market-data"
+ ],
+ "product": [
+  "realistimo"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Bulgarian property price statistics, estimates, purchase and sale costs, rental yields and neighbourhood profiles.",
+ "whenToUse": "Use when a user asks about Bulgarian property prices, deal costs, rents or neighbourhoods.",
+ "tasks": [
+  "calculate deal costs",
+  "get market statistics",
+  "get monthly price index",
+  "estimate property price",
+  "profile neighbourhoods"
+ ],
+ "effects": {
+  "c889fe53547023d3eacf04d4e72e8e3a58b4f89970ddd33a69cf6ee7f9b32277": "read",
+  "699da79ff85d80b60ac6805770ee7993dc3bc9674d80f225bd81a21f385c19d7": "read",
+  "6581627db48ae58af90979c4be6ec46389cac73dcbf77c1770b546accac66de5": "read",
+  "f28aa644f670d07e76005c1e6ee71fe6b33262dbb6247152d97d6b0546100b4a": "read",
+  "8ac7176eaa0d99e680cec2788eccf029560b7365bff6afd02f5e71689bf6c301": "read"
+ },
+ "flags": []
+}

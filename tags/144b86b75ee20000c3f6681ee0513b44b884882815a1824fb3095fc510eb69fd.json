@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "144b86b75ee20000c3f6681ee0513b44b884882815a1824fb3095fc510eb69fd",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "compliance/software"
+ ],
+ "product": [
+  "safeguard"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Software supply chain security data: SBOMs, vulnerabilities, fixes, policies and compliance information.",
+ "whenToUse": "Use when an agent needs to check dependencies for vulnerabilities, review SBOMs or verify policy compliance.",
+ "tasks": [
+  "view sboms",
+  "find vulnerabilities",
+  "get fix suggestions",
+  "check policies",
+  "get compliance data"
+ ],
+ "effects": {},
+ "flags": []
+}

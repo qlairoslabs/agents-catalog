@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "06583549526edacf12a98d8d36f27322bc5b7d6b0af95f967a3463eee8b7514d",
+ "domain": [
+  "software/ai-agents/mcp"
+ ],
+ "product": [
+  "claude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance skills for designing, building and deploying MCP servers, covering deployment models, tool design and auth.",
+ "whenToUse": "Use when designing or building an MCP server and choosing deployment, auth and tool patterns.",
+ "tasks": [
+  "choose deployment model",
+  "design mcp tools",
+  "set up auth",
+  "build mcp apps",
+  "package mcpb"
+ ],
+ "effects": {},
+ "flags": []
+}

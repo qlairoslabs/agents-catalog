@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c44df94481b724272180799ca069dec1df1b90ebb0511fbc45b786d3831c9539",
+ "domain": [
+  "software/observability/error-monitoring"
+ ],
+ "product": [
+  "sentry"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Sentry integration to read error reports, analyze stack traces and search issues for debugging production errors.",
+ "whenToUse": "Use when investigating production errors or issues tracked in Sentry.",
+ "tasks": [
+  "access error reports",
+  "analyze stack traces",
+  "search issues by fingerprint",
+  "debug production errors"
+ ],
+ "effects": {},
+ "flags": []
+}

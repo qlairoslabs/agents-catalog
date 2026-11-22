@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "4557acb2d68a520e3463119575175b4f73e31ee3b0bc1f5474d708201b548a27",
+ "domain": [
+  "finance/currency-exchange"
+ ],
+ "product": [
+  "comparadolar",
+  "sbs",
+  "sunat"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Ranks live USD/PEN rates of SBS-supervised online exchange houses in Peru and gives reference rates.",
+ "whenToUse": "Use when someone in Peru wants the best place or rate to buy or sell dollars.",
+ "tasks": [
+  "rank exchange houses",
+  "calculate amount received",
+  "compare best and worst rate",
+  "get official and parallel rates",
+  "get USDT P2P rate"
+ ],
+ "effects": {
+  "d104aa2aaaa50a4d701cb6e69e5fe82ab35770f2dbc18243339c10000a33acbf": "read",
+  "c13cb15b9d5bc5484add8fbf29479eb1981c04bc37d16db665cce0bdda36074c": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c6baebc0ce0172d64fee7d0e3ab21fb16891fdea7ed69f2e8f4e449aefce6d06",
+ "domain": [
+  "ai/agent-infrastructure/context-management",
+  "software/developer-tools"
+ ],
+ "product": [
+  "mcploadbudgeter"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Paid remote MCP for planning context budgets, progressive tool loading, slimming tool schemas and checking readiness.",
+ "whenToUse": "Use when optimizing how much context an MCP setup consumes or slimming tool schemas for agents.",
+ "tasks": [
+  "plan context budgets",
+  "configure progressive loading",
+  "slim tool schemas",
+  "check readiness"
+ ],
+ "effects": {},
+ "flags": [
+  "templated-paid-mcp-series"
+ ]
+}

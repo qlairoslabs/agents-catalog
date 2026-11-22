@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f398c8d5f9df9fbd016240dbe0194b3c7389e0b5cbc3acaa23ec0a43853553f8",
+ "domain": [
+  "media/audio-hosting",
+  "software/cdn"
+ ],
+ "product": [
+  "audio-delivery-network"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Audio CDN that uploads, transcodes, normalizes, streams and delivers audio files, with documentation lookup.",
+ "whenToUse": "Use when an agent needs to host, process or stream audio files or consult the service's docs.",
+ "tasks": [
+  "upload audio",
+  "transcode audio",
+  "normalize loudness",
+  "stream audio",
+  "deliver audio",
+  "search docs"
+ ],
+ "effects": {},
+ "flags": []
+}

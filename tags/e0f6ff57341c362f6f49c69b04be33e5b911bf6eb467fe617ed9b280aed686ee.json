@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e0f6ff57341c362f6f49c69b04be33e5b911bf6eb467fe617ed9b280aed686ee",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "octotrip"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches live flight offers for one-way and round trips with prices, stops and booking links.",
+ "whenToUse": "Use when a user wants to compare flights and prices between two places on given dates.",
+ "tasks": [
+  "search flights",
+  "compare prices and layovers",
+  "get booking links"
+ ],
+ "effects": {
+  "cfa848160b6e9976cfabbcf99b44d7ca6235859238c2825fe1197f62157d7fc9": "write"
+ },
+ "flags": []
+}

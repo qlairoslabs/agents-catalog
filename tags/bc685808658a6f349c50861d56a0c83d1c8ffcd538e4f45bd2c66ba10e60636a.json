@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bc685808658a6f349c50861d56a0c83d1c8ffcd538e4f45bd2c66ba10e60636a",
+ "domain": [
+  "ai/generative-media",
+  "ai/model-access"
+ ],
+ "product": [
+  "tokenlab"
+ ],
+ "audience": [
+  "everyone",
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Connects agents to TokenLab to generate images and video and call AI models through a large tool set.",
+ "whenToUse": "Use when an agent needs to generate images or video or call hosted AI models via TokenLab.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "call ai models"
+ ],
+ "effects": {},
+ "flags": []
+}

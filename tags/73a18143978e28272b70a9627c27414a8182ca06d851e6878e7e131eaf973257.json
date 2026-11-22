@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "73a18143978e28272b70a9627c27414a8182ca06d851e6878e7e131eaf973257",
+ "domain": [
+  "engineering/cad",
+  "engineering/simulation"
+ ],
+ "product": [
+  "freecad"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Controls FreeCAD to create and edit 3D models, run Python code and perform FEM analyses.",
+ "whenToUse": "Use when an agent needs to build or modify CAD models or run FEM simulations in FreeCAD.",
+ "tasks": [
+  "create models",
+  "edit models",
+  "run python in freecad",
+  "run fem analyses"
+ ],
+ "effects": {},
+ "flags": []
+}

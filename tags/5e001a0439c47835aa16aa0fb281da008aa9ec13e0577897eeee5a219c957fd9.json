@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5e001a0439c47835aa16aa0fb281da008aa9ec13e0577897eeee5a219c957fd9",
+ "domain": [
+  "software/observability/error-monitoring",
+  "software/debugging"
+ ],
+ "product": [
+  "sentry"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives AI assistants access to Sentry errors and issues for monitoring and debugging.",
+ "whenToUse": "Use when investigating application errors or issues recorded in Sentry.",
+ "tasks": [
+  "view errors",
+  "search issues",
+  "inspect issue details",
+  "debug with error context"
+ ],
+ "effects": {},
+ "flags": []
+}

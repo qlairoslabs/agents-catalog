@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "56c013763de4781b2eab400ba6f24f7563ded95b30b1495ecff67ae03abc5713",
+ "domain": [
+  "software/open-source",
+  "company/information"
+ ],
+ "product": [
+  "raintree-technology"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Public read-only information about Raintree Technology's projects, open-source repositories, research, capabilities and contact options.",
+ "whenToUse": "Use when you need information about Raintree Technology's projects, research or how to contact them.",
+ "tasks": [
+  "search projects",
+  "get project",
+  "list products",
+  "list open-source projects",
+  "search research",
+  "get company capabilities",
+  "get contact options"
+ ],
+ "effects": {
+  "cf7553d09365b2d1c1df533a7f6d73e3f7831422240bb49156c696de7082f3c3": "read",
+  "9f3a1eb2c6f1fca2d3765674cf23a0ba2742f86fb45edf3c9b17695259b1b61c": "read",
+  "ae9f53bb1cbd4f7b3d6974bd4aadbb8e00ba6d31beeea06fd10de0c9bf5d6d16": "read",
+  "c468de62834894db8b0b8fcc3ca54b6e83f7f2d117e21bd53b69f29cb492ec44": "read",
+  "c444ec37f1180ecd7fca0cf8b1118b2a90f3492c2fa1bf311ee8b8eaffed9aba": "read",
+  "1bf139705cda33d8372cdf716e899d31f41b5f12ad471a73266f96b1011af859": "read",
+  "70248ba5e3cc3d5833cd2dc98d392a106578957728199e83956225bc46abcd49": "read"
+ },
+ "flags": []
+}

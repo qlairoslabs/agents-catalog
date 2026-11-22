@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "34458954c1e54b16cb30cde8870c8c417faec0760ef9c9c8c1ebf52da6e913aa",
+ "domain": [
+  "finance/payments",
+  "software/ai-agents"
+ ],
+ "product": [
+  "inflow"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "automate-work"
+ ],
+ "summary": "Lets agents onboard, pay for and provision services on their own through InFlow.",
+ "whenToUse": "Use when an agent needs to sign up for, pay for or provision a service autonomously via InFlow.",
+ "tasks": [
+  "onboard to services",
+  "make payments",
+  "provision services"
+ ],
+ "effects": {},
+ "flags": []
+}

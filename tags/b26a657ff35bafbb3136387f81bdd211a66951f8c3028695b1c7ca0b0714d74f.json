@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b26a657ff35bafbb3136387f81bdd211a66951f8c3028695b1c7ca0b0714d74f",
+ "domain": [
+  "data/business-intelligence",
+  "data/analytics"
+ ],
+ "product": [
+  "metabase"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries and manages Metabase dashboards, cards and data.",
+ "whenToUse": "Use when an agent needs to query data or manage dashboards and questions in Metabase.",
+ "tasks": [
+  "query data",
+  "manage dashboards",
+  "manage cards"
+ ],
+ "effects": {},
+ "flags": []
+}

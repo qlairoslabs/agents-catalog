@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "26a48b42442d130aaed2cc718ce808cb09f2826ce9dcb7d50bf266fc18c126a1",
+ "domain": [
+  "real-estate/rental-investing"
+ ],
+ "product": [
+  "hud",
+  "census-acs"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only rental property tools: HUD fair market rent lookup, rent estimates, cap rate, cash flow, DSCR, amortization, 1031 and cost segregation illustrations, and market data.",
+ "whenToUse": "Use when analysing a rental property's rent, returns, financing or local market and rules.",
+ "tasks": [
+  "look up hud rent",
+  "estimate rent",
+  "calculate cap rate",
+  "analyze cash flow",
+  "calculate dscr",
+  "amortization schedule",
+  "compare short vs long term rental",
+  "advise lease renewal",
+  "look up market data",
+  "1031 exchange illustration",
+  "cost segregation worksheet",
+  "city landlord rules"
+ ],
+ "effects": {
+  "eff8ef4d9ce6596e972c46c1a2d474563ce812a14596540b62200908163f0719": "read",
+  "6bd8e558f4e8505fcc30da070c902f572ec42ff40448971757961302e2bfdfc1": "read",
+  "88ac191139a7bf841e1069fd575fcaa15aa132ab4b915f923c23d5d55fd6ec43": "read",
+  "c4872f161a2f619976b60d8ae2db20bbb70836a7bca38afa8a9bc18b2c045e43": "read",
+  "83bcc7ad01bfbbd5fe1d1236b44a0fb98cbe8847f02364e22b5c19d1c1e7a50f": "read",
+  "9870a80663e07b910c3b5757c45ad7348fd094b387a251ff8e83a591562cf2c2": "read",
+  "45b7dc64968633717b5d3aced5fdc8e0a0c12381b2a819102ce3399bb178844f": "read",
+  "09731aaa126d0482fcdc2578b65b6a9ef9c3d397faecf504628fbc1a0732ab34": "read",
+  "4934e2c4c667687ebb0448262e893f05668ec5583802641ef19ef4c186d75481": "read",
+  "353720697e0d8f46ffa56c5beb83aac430d95713dcfdc8ae110e6d36d7010603": "read",
+  "e2127ce903ce5eb2c142ffd0d54068bf95ad9cf25d1cb998d41427da1de816bd": "read",
+  "65833dfbcdee181e51740e258b08d9692f47962b60bf1f230c016c8a567d76d3": "read",
+  "45a4420c777c724e425f119f1fa47318044d2bda466d886a88fe89203beff28c": "read",
+  "e435060fd355219ffc75551953e45db08dc2fc9db668a2a31e8aacbb9e3add61": "read",
+  "362f446a79f823985df3eec65f13df181422538baa87102a6a4e8c58c52543fe": "read",
+  "30f24fc8eb11dc740e999b166ba3a780a01f6476e599b461aa54ad9a2593467b": "read"
+ },
+ "flags": []
+}

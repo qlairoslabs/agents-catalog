@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2da89099ec33e38c51daffdc3efd4c1a650774c0fcd47bb18ec359cf2640859f",
+ "domain": [
+  "data/statistics/analysis",
+  "data/engineering"
+ ],
+ "product": [
+  "scientific-microservices"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Offers data engineering and statistical analysis services intended to give computed rather than generated results.",
+ "whenToUse": "Use when an agent needs dependable statistical calculations or data transformations.",
+ "tasks": [
+  "run statistical analysis",
+  "transform data"
+ ],
+ "effects": {},
+ "flags": []
+}

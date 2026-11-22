@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "523e8507c27737759299f6740c8eb76fe20c2dc58ad9be2627a94a42c99ba004",
+ "domain": [
+  "health/wellness-booking",
+  "scheduling"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Shows free slots and books a free 15-minute discovery call with a sophrologist in Clichy or by video.",
+ "whenToUse": "Use when a user wants to book a discovery call for stress, sleep, burn-out or similar support, with their consent.",
+ "tasks": [
+  "list available slots",
+  "book discovery call",
+  "send email confirmation"
+ ],
+ "effects": {
+  "7a507241874224b94f55289ffcaa71fd17944ecf2db0ea3bb062e5efa5a348d3": "read",
+  "e1ebd19602f224bcbc4a0b779581bf6563df6a42c6704fa9095bd77b2bfd212b": "write"
+ },
+ "flags": []
+}

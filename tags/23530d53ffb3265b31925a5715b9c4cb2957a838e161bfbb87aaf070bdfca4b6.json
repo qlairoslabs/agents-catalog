@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "23530d53ffb3265b31925a5715b9c4cb2957a838e161bfbb87aaf070bdfca4b6",
+ "domain": [
+  "knowledge/enterprise-data"
+ ],
+ "product": [
+  "gve"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to public governed enterprise knowledge objects published by GVE, with provenance and validation views.",
+ "whenToUse": "Use when you need verified public facts about organizations published through GVE.",
+ "tasks": [
+  "list tenants",
+  "list objects",
+  "get object with governance view",
+  "search objects",
+  "fetch object"
+ ],
+ "effects": {
+  "43f552d2b3a535f82e2c613126ad36200809f486074196329a8ba4eb869d76ca": "read",
+  "b5da17e02af97db8944fdc6770fd42c5e348075cf670406c9ef0aa37534eadda": "read",
+  "79c31a3c7d9bc309a0db11b8e974e391d51dbd79188502dced106ccaf173d4e3": "read",
+  "c7ec91ba6a20e4b5a9bdd0f46aef4ceae24676328dc59592e46e4e2a22a3e5f8": "read",
+  "8b2686320210ebee631a81ea9b03af5f5ca7528e8c705d2159b9522a9749d773": "read"
+ },
+ "flags": []
+}

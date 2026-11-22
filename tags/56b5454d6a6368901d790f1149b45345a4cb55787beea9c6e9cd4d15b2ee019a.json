@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "56b5454d6a6368901d790f1149b45345a4cb55787beea9c6e9cd4d15b2ee019a",
+ "domain": [
+  "sales/pipeline-analytics",
+  "sales/forecasting"
+ ],
+ "product": [
+  "stratyfix"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Stratyfix deal data, pace to target and team win odds.",
+ "whenToUse": "Use when an agent needs to answer questions about sales deals, quota pacing or forecast odds.",
+ "tasks": [
+  "query deals",
+  "check pace to target",
+  "view team odds"
+ ],
+ "effects": {},
+ "flags": []
+}

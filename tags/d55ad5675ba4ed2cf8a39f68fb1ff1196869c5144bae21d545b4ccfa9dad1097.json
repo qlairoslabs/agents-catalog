@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d55ad5675ba4ed2cf8a39f68fb1ff1196869c5144bae21d545b4ccfa9dad1097",
+ "domain": [
+  "ai-agents/directory",
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Searches a directory of tools, hosted agents and frameworks by task, returning documentation and connection requirements.",
+ "whenToUse": "Use when looking for a tool or agent to handle a task such as web search, browser automation or code execution.",
+ "tasks": [
+  "search capabilities",
+  "filter by category",
+  "filter by protocol",
+  "get listing details"
+ ],
+ "effects": {
+  "3f7ceff953382475bff85f4ad7935ee20541c268d4d3226be1d1fbff3e2cd634": "read",
+  "cdb83e391165899335de1f99f7bc7c1c499a6dfadf8246256e5a8da5768bae64": "read"
+ },
+ "flags": []
+}

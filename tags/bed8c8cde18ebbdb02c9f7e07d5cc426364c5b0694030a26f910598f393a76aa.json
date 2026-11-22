@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bed8c8cde18ebbdb02c9f7e07d5cc426364c5b0694030a26f910598f393a76aa",
+ "domain": [
+  "data/databases",
+  "productivity/no-code"
+ ],
+ "product": [
+  "airtable"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Official Airtable server that lets agents read and work with Airtable bases as a database.",
+ "whenToUse": "Use when an agent needs to read or modify records, tables or bases in Airtable.",
+ "tasks": [
+  "read airtable records",
+  "create records",
+  "update records",
+  "manage tables",
+  "query bases"
+ ],
+ "effects": {},
+ "flags": []
+}

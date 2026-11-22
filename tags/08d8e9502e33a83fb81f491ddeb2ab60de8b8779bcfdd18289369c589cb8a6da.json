@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "08d8e9502e33a83fb81f491ddeb2ab60de8b8779bcfdd18289369c589cb8a6da",
+ "domain": [
+  "productivity/databases"
+ ],
+ "product": [
+  "airtable"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Uses the airtable-mcp CLI to list bases, read and write records, manage tables and fields, and filter or search data.",
+ "whenToUse": "Use when a task involves Airtable data or the airtable-mcp CLI, bases, tables, records or fields.",
+ "tasks": [
+  "list bases",
+  "read records",
+  "create and update records",
+  "manage tables",
+  "manage fields",
+  "filter records",
+  "search data"
+ ],
+ "effects": {},
+ "flags": []
+}

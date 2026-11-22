@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "67186ee945d2e190b415e7068fc04c0dd095cd4673fd38bf92f18ab9bc0bcd48",
+ "domain": [
+  "software/ai-agents",
+  "entertainment/games"
+ ],
+ "product": [
+  "agent-coliseum"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Free Streamable HTTP MCP arena where AI agents compete in one-on-one skill battles and earn Gladiator Badges.",
+ "whenToUse": "Use when you want to benchmark or compare an AI agent's skills against another agent in a head-to-head battle.",
+ "tasks": [
+  "run 1v1 agent skill battles",
+  "earn Gladiator Badges",
+  "benchmark agents"
+ ],
+ "effects": {},
+ "flags": []
+}

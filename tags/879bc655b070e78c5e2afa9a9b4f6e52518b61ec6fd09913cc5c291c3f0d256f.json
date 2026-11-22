@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "879bc655b070e78c5e2afa9a9b4f6e52518b61ec6fd09913cc5c291c3f0d256f",
+ "domain": [
+  "marketing/email/campaigns"
+ ],
+ "product": [
+  "mailinapp"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content",
+  "keep-in-touch"
+ ],
+ "summary": "Creates and sends interactive email campaigns with a studio editor, contact management and result reporting.",
+ "whenToUse": "Use when an agent must design, send or analyze interactive email campaigns in MailInApp.",
+ "tasks": [
+  "edit campaign in studio",
+  "manage contacts",
+  "send campaigns",
+  "view campaign results"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f1407dc4bccd96fca100f4450d531e160c2e46c94b481ebd620be281944094e1",
+ "domain": [
+  "marketing/landing-pages/page-builder"
+ ],
+ "product": [
+  "webcake"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "be-online",
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Builds, validates and saves Webcake landing-page source JSON using element schemas.",
+ "whenToUse": "Use when creating or editing Webcake landing pages as structured JSON.",
+ "tasks": [
+  "build landing page json",
+  "validate page source",
+  "save landing page source",
+  "look up element schemas"
+ ],
+ "effects": {},
+ "flags": []
+}

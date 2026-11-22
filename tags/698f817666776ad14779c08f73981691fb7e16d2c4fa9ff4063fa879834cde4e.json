@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "698f817666776ad14779c08f73981691fb7e16d2c4fa9ff4063fa879834cde4e",
+ "domain": [
+  "ai/image-generation"
+ ],
+ "product": [
+  "stylica",
+  "bubblio",
+  "stripe"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Agent gateway for the Stylica AI image platform: ask about it, list actions, quote and confirm paid actions.",
+ "whenToUse": "Use when generating images through Stylica via the Bubblio agent door.",
+ "tasks": [
+  "learn about platform",
+  "ask questions",
+  "list actions",
+  "quote action",
+  "confirm action"
+ ],
+ "effects": {
+  "756250c9a017b82ac85bd3587a8f4b4557760921011c3a84ef4e6d5a3cded8f0": "read",
+  "a4cffc279cf2a13d9a7cfa5438ea5c1c6fd8f1b5ed3420266ce09261e2ddcf72": "read",
+  "afa53209da0559e47ce93efbddca4317ef5c92c5f28eacf7c65951eac8335505": "read",
+  "81e1f5cca4a8bb7e880cef492792529f12e5d3042ded85fc7b4dce2322af89c6": "write",
+  "c9aa890ea3d63144df9216e392e0d48f5e8d0a2a11e484bcd1c874172f22ff1d": "risky"
+ },
+ "flags": [
+  "confirm can execute paid actions with payment credentials"
+ ]
+}

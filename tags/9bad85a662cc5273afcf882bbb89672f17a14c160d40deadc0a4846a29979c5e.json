@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9bad85a662cc5273afcf882bbb89672f17a14c160d40deadc0a4846a29979c5e",
+ "domain": [
+  "real-estate/hospitality/valuation",
+  "finance/investment-analysis"
+ ],
+ "product": [
+  "hotelvalora"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Produces hotel valuations with NOI, cap rate, USALI P&L, IRR/MOIC returns, market data and competitive sets.",
+ "whenToUse": "Use when an agent needs to estimate the value or investment returns of a hotel property.",
+ "tasks": [
+  "value a hotel",
+  "calculate noi and cap rate",
+  "build usali p&l",
+  "compute irr and moic",
+  "review hotel markets",
+  "compare compsets"
+ ],
+ "effects": {},
+ "flags": []
+}

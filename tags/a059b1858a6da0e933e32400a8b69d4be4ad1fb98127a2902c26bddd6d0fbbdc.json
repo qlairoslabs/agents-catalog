@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a059b1858a6da0e933e32400a8b69d4be4ad1fb98127a2902c26bddd6d0fbbdc",
+ "domain": [
+  "software/documentation",
+  "software/macos-utilities"
+ ],
+ "product": [
+  "droppy",
+  "droppykit"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "support-customers",
+  "build-software"
+ ],
+ "summary": "Search and read the Droppy for Mac handbook, droplet extension pages, DroppyKit SDK docs and blog.",
+ "whenToUse": "Use when answering questions about how Droppy for Mac works, its settings, droplets, pricing or the DroppyKit SDK.",
+ "tasks": [
+  "search droppy documentation",
+  "read a documentation page as markdown",
+  "list built-in and store droplets"
+ ],
+ "effects": {
+  "a8d9a2c4b19bb55231a11efcf32245149e8b0b8e5394172a70678d5cfb2412f0": "read",
+  "d1cc433416e3ca894c000f824a7b1c00b6a4409a54d4173346509233d8207633": "read",
+  "2f932410cfa5ffa1be265b5e278e945a1ac5f5812b06ae4e80f59ef4da9a6679": "read"
+ },
+ "flags": []
+}

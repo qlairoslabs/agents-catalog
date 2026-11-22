@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "034d91c1379eab7b0967769bb6aab8b60e58bb79ba28344ec24ee5691600b3d2",
+ "domain": [
+  "research/web-research",
+  "ai/retrieval"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Produces a cited multi-source research brief on a topic using live web results from Bright Data's Discover API.",
+ "whenToUse": "Use when a user wants a deep, synthesized, source-grounded report or briefing on a topic rather than a list of links.",
+ "tasks": [
+  "decompose research questions",
+  "run intent-ranked searches",
+  "pull page content",
+  "deduplicate and rank sources",
+  "write cited research brief"
+ ],
+ "effects": {},
+ "flags": []
+}

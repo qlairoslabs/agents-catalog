@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "af9c53081e15018c8d174fbc83a4386925ee107881a6da60577b2b3cea802471",
+ "domain": [
+  "software/api-development",
+  "software/testing"
+ ],
+ "product": [
+  "postman"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Connects agents to the Postman platform for working with API collections, environments, workspaces and related resources.",
+ "whenToUse": "Use when an agent needs to read or manage Postman collections, environments or API definitions.",
+ "tasks": [
+  "access postman workspaces",
+  "manage api collections",
+  "manage environments",
+  "work with api definitions"
+ ],
+ "effects": {},
+ "flags": []
+}

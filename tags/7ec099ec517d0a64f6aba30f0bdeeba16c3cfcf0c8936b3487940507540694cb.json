@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "7ec099ec517d0a64f6aba30f0bdeeba16c3cfcf0c8936b3487940507540694cb",
+ "domain": [
+  "media/video-platforms",
+  "marketing/analytics"
+ ],
+ "product": [
+  "youtube",
+  "youtube-data-api"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Returns compact structured YouTube data such as videos, channels and statistics via the YouTube Data API v3.",
+ "whenToUse": "Use when an agent needs YouTube video, channel or trend information.",
+ "tasks": [
+  "search videos",
+  "get video details",
+  "get channel statistics",
+  "read transcripts",
+  "find trending videos"
+ ],
+ "effects": {},
+ "flags": []
+}

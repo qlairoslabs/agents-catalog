@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "b54726f0d7295a258c391e6101c164f705ed276138ca92ac4ae2ec0cb6d0be39",
+ "domain": [
+  "automotive/car-subscription",
+  "commerce/retail"
+ ],
+ "product": [
+  "finn"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Searches FINN's all-inclusive car subscription fleet with filters, specs, exact monthly pricing and checkout links.",
+ "whenToUse": "Use when someone wants to browse or price a car subscription on FINN in Germany.",
+ "tasks": [
+  "search vehicles",
+  "get vehicle details",
+  "list available filters",
+  "calculate subscription price",
+  "get checkout link",
+  "get internal links for brand pages"
+ ],
+ "effects": {
+  "57b77f31400726562eb48432aae08a49387b0d0ba77152dc07ba6903d74e676a": "read",
+  "aa09ed29ff1e3cf069df92129078a8a7cfb0826ecaf00cfa0be5285814ac109e": "read",
+  "62b89b6f0edd0cdde5be5abcc846659ddf773c1a4498b23016e59fb6dc8f466b": "read",
+  "ad0ca49bd992f156c35ed07ea40e653f3ecbc9de2115139592f2f3f579ddff3d": "write",
+  "dffb7dcc6a3e9f0db394005808a257c0f905b0249a2c15475da5d66db302a1ed": "read"
+ },
+ "flags": []
+}

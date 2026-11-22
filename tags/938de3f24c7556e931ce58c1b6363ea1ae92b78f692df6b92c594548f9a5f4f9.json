@@ -1,0 +1,65 @@
+{
+ "classifier": 2,
+ "contentHash": "938de3f24c7556e931ce58c1b6363ea1ae92b78f692df6b92c594548f9a5f4f9",
+ "domain": [
+  "finance/sec-filings",
+  "finance/research"
+ ],
+ "product": [
+  "sec-edgar",
+  "beatandraise"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches and reads SEC EDGAR filings, insider trades, 13F holdings and financial statements, with tools to verify quotes and figures.",
+ "whenToUse": "Use when you need sourced facts from SEC filings, ownership data or company financials.",
+ "tasks": [
+  "full-text search filings",
+  "look up companies and SIC codes",
+  "read filing items",
+  "get financial statements",
+  "get 13F holdings",
+  "get insider transactions",
+  "search Form D offerings",
+  "verify quotes and figures",
+  "compare filing items year over year",
+  "run SQL over filings"
+ ],
+ "effects": {
+  "68cb2f8492532bb2fa630971b6d63c989fe5531afd7c50b9d2338c961e656ce0": "write",
+  "0500742517381718349ceb02a5703a12e8eae08079f91fcfd6ddc5f296bab9e9": "write",
+  "e356ff441253751eb5c4b39f25610b2cbea36c3768d1753b1160718d2f2fe23d": "write",
+  "b6f3e8759f3274289333ba629bf2aeed17a34ddd14190bfda710fa39efd23af6": "write",
+  "526454688d26785a2f70befaa3c88b0971ed2ede46b0c577e6ce12e3fede15a2": "write",
+  "9b75fdb3639eb9ac86a1a8411fb2234cfbfad39fcb92452ec980d4133158ebd2": "write",
+  "6eaa1df1b4ab1447e718b6a0eb81ca6a754c6003c7fd39b4df537465e35e7190": "read",
+  "5d9a6c0e3417636fbf7508bb8792853dc8469e27c119ba4d4787d5305a1bf38a": "write",
+  "20992dcf39a13400c144eed52748fcce80ad53d39e3bf6149972b29d5ffecb65": "write",
+  "6b5c316e2e5601043828e99711af57a410c820cd49e3b33becad1a47da9a3859": "write",
+  "45da5d342e5c33b5aaf88f949ce6b7646f63453026de0fca28dcc26ff17c1174": "write",
+  "5d253a5045ef53b2473780a2026f4934594007ee3c6a3fe280fe3f361dc7cef8": "write",
+  "437f6157ac684f8dfae568a04f92dde565dba1c0d9276c377d10d4cee9f5f8b1": "write",
+  "ec686bf40f9b8115f52f42c648199a897d510fa2c8e7a41dff4cd31b67dc39b4": "write",
+  "f7ea4786c107d601dd63aa4e7e12cf6f9b65e0f24fa7b7dc47f34cf8d09996da": "write",
+  "f6cdf8748e13393d9851e97f39a61a3b7667ba16e72cf2e3dcd91c9f2a1203e1": "write",
+  "2c0938c3c4d0f98ad6e3e98678bceb67a026668422376ced29109d0e5039745c": "write",
+  "4e2fa55a81999cd2e1b8bc4dae5bf3f758ded11500aca15520ec8b6f31c914bc": "write",
+  "c9d93806a72b6ec80ceb2feb5036b9149784291745ebfbf49004610eefabf8fc": "write",
+  "6de2be1be6c4eb83324494ff16e34a7d8fa38aa1d5d95087458795d3fc34c438": "write",
+  "cfcfb2563cd4fe95ae394ec9309a0417d928cba43577c81c9b1b8dc9b673d5c3": "write",
+  "290d4de209e61be382ff59ccf2c20a6506007b11a6537c185bc3e75975168c65": "write",
+  "8ba7e8849438ceffaa060ac93449ceca0d194efb7ff8277ea4b6529d5c6111eb": "write",
+  "e88cdc8426f4fc08fa8a9dc5f64414b168a83c6d0736211a796af5a4a432ed20": "write",
+  "97350cbc1c347e00efb7d74eb5795663b957f8c06757b02e40152ccb9e330e6e": "write",
+  "4a75c7f1591f450a39a1fd129624320da579c82eb913aff10102f49346f029f5": "write",
+  "2d2ddb913f15c6ceabff05f742567bf7a27f08052bf993dd69bae50b6f00fafa": "write",
+  "5e9a4b4f021eac02543301117289397560aae10ce7f8dcd270b40b8a3367d526": "write",
+  "eceb9946356ebf6a51fd81fcd2038a6353f8e3a22953bfde7f3de2b98bf1e168": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bd45477d654ee832c1c8227e7e316d0f577c753c349a67062603d047fac2f89f",
+ "domain": [
+  "software/ai-models/discovery",
+  "software/benchmarking"
+ ],
+ "product": [
+  "xf-model-source"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Discovers and ranks AI models for a task for free, with optional testing using your own API key.",
+ "whenToUse": "Use when you need to choose which AI model fits a particular job and compare candidates.",
+ "tasks": [
+  "discover ai models",
+  "rank models for a task",
+  "test models with your own key"
+ ],
+ "effects": {},
+ "flags": []
+}

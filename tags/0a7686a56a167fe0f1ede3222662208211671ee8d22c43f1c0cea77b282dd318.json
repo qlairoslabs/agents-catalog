@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0a7686a56a167fe0f1ede3222662208211671ee8d22c43f1c0cea77b282dd318",
+ "domain": [
+  "real-estate/property-data"
+ ],
+ "product": [
+  "zillow",
+  "zillapi"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Third-party API providing Zillow property data, Zestimates and listings with hundreds of fields per home.",
+ "whenToUse": "Use when an agent needs US property details, home value estimates or listing data.",
+ "tasks": [
+  "look up property data",
+  "get zestimates",
+  "search listings"
+ ],
+ "effects": {},
+ "flags": [
+  "third-party publisher using zillow brand name"
+ ]
+}

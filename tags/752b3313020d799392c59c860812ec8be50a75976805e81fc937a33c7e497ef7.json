@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "752b3313020d799392c59c860812ec8be50a75976805e81fc937a33c7e497ef7",
+ "domain": [
+  "communication/email/aliases",
+  "privacy"
+ ],
+ "product": [
+  "po6"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Gives AI agents access to email through private aliases backed by dedicated mailbox storage.",
+ "whenToUse": "Use when an agent needs to read or handle email received via PO6 private aliases.",
+ "tasks": [
+  "read emails",
+  "manage aliases",
+  "access mailbox"
+ ],
+ "effects": {},
+ "flags": []
+}

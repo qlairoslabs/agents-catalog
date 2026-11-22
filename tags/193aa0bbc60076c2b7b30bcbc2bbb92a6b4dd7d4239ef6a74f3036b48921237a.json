@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "193aa0bbc60076c2b7b30bcbc2bbb92a6b4dd7d4239ef6a74f3036b48921237a",
+ "domain": [
+  "software/release-management/changelogs",
+  "software/developer-tools"
+ ],
+ "product": [
+  "logpulse",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "keep-in-touch"
+ ],
+ "summary": "Changelog service for coding agents: look up releases and breaking changes, generate release notes, validate changelogs, publish updates.",
+ "whenToUse": "Use when upgrading a dependency and needing breaking changes or migrations, or when writing, validating or publishing release notes and roadmap items.",
+ "tasks": [
+  "search changelogs",
+  "list releases",
+  "compare versions for migration",
+  "view public roadmap",
+  "generate release notes from github",
+  "convert commits to changelog",
+  "validate changelog format",
+  "convert changelog to json",
+  "publish release notes",
+  "update roadmap items"
+ ],
+ "effects": {
+  "f3ea12bfa12249972d75ccd4856e1ea1968f6fb8de78351a9e2ff41118518813": "read",
+  "f5caef7cf281935101e647f6b060f18a9671e4abfa7ef4c42d0d01129ce1a5de": "read",
+  "ea9a8835732fd89e26ec72bed9460483050bc2547db1d3ac9b72390534d6103e": "read",
+  "b389ad22ca397bad3ebd2881e44d2e26b177695565d91c0dca8c924809667353": "read",
+  "df8c41316ecd554cf4804539ecc4465911864eb7f67c2c648de2deb781bf028d": "read",
+  "c81ff52254fff76f720697a79449122d727125084072685e8e80e3ebd7ac9688": "read",
+  "75d58a2ff9b59d3e04f81e86f6faf04b24c817c081ae37144ba7d73b90d6b951": "write",
+  "d3f7d2824846786080703e0e26101ae6f6e077361f4fb6b88e840180003176a6": "read",
+  "ed669a13e4b699f87f3717136c77761f3466dbe544adc298911624b6de9f1aea": "read",
+  "810ecaf0e342a86b78f8589b155292f8fc593a8a4b96d61295b9a4e853f9afbf": "read",
+  "8310aed2f6e14c1f404d9f5d56e86f09bc1ad6165247901e80af492c7900b361": "read",
+  "7b64724a18191a61f5ca77f6e0b59afd315b783b0e5d579c553039681afee7db": "write",
+  "45b7f60d301ef2ca642042a12f4b7a92e5a9f365b4b0aa2dc128f7fd676a582e": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "33554d7c6e9e6bdf952df21e4b1b6c6f46106bbb5ac333f2d044034804d8504d",
+ "domain": [
+  "software/devops/ci-cd"
+ ],
+ "product": [
+  "mergify",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Skills for the Mergify CLI to manage merge queues, stacked pull requests, flaky test insights and merge protections.",
+ "whenToUse": "Use when managing merge queues, stacked PRs or flaky tests with Mergify from the terminal.",
+ "tasks": [
+  "manage merge queues",
+  "stacked pull requests",
+  "detect flaky tests",
+  "quarantine tests",
+  "configure merge protections",
+  "edit mergify config"
+ ],
+ "effects": {},
+ "flags": []
+}

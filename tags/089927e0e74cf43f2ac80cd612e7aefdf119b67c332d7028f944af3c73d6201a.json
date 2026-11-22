@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "089927e0e74cf43f2ac80cd612e7aefdf119b67c332d7028f944af3c73d6201a",
+ "domain": [
+  "software/cybersecurity/app-development",
+  "software/development"
+ ],
+ "product": [
+  "crowdstrike-falcon",
+  "falcon-foundry"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for building security applications on CrowdStrike Falcon Foundry, covering UI, collections, functions, workflows and APIs.",
+ "whenToUse": "Use when developing or debugging an app on the CrowdStrike Falcon Foundry platform.",
+ "tasks": [
+  "build foundry ui",
+  "manage collections",
+  "write functions",
+  "build workflows",
+  "integrate apis",
+  "apply security patterns",
+  "debug foundry apps"
+ ],
+ "effects": {},
+ "flags": []
+}

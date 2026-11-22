@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a8c261445f389f5b8f7681848ddd75d4a8f47d807e411ef66031a252bbadfc0c",
+ "domain": [
+  "software/version-control",
+  "software/code-review"
+ ],
+ "product": [
+  "gluecron",
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Git hosting service exposing repositories, pull requests, issues, CI gates and AI code review through about 60 MCP tools.",
+ "whenToUse": "Use when an agent needs to manage repositories, pull requests, issues or CI checks hosted on Gluecron.",
+ "tasks": [
+  "manage repositories",
+  "open and review pull requests",
+  "track issues",
+  "run ci gates",
+  "request ai code review"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "9794e3974b5075b28c205cdba0b00e84ebe1160302c852a7e384ffa1913d2cea",
+ "domain": [
+  "education/childrens-content",
+  "entertainment/books"
+ ],
+ "product": [
+  "vooks"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches the Vooks children's read-along library by age, topic and language, recommends titles, shows subscription prices and can export the catalogue.",
+ "whenToUse": "Use when a parent or teacher wants age-appropriate storybooks, recommendations, or Vooks pricing.",
+ "tasks": [
+  "search titles",
+  "get title details",
+  "list topics",
+  "recommend titles for a child",
+  "get pricing plans",
+  "export catalogue",
+  "check export job"
+ ],
+ "effects": {
+  "817c7f7e14bac21793328fd253df029f7cdd7d60f4cae1e617fa9d5576dbd97d": "read",
+  "d5d22ee4f928e6c2ccb4aaa330908adc2a2dc51effdb5e7434ea7c270e556e51": "read",
+  "c0952315350875ce835d868f0e3e9aca2089776d0ed458a5109bbc30480ba0d2": "read",
+  "5e2a4d473934a99b10c3c00091839722e0cb957b8e240240022319020dc0a395": "read",
+  "138cb9b6477987adf9f3ad4ea8c89dbc46a6a402e91bb89bd52ead80e628727d": "read",
+  "92da1ad86516e38f58bcf33d147206904873f4a1b29be81c9e6961d69e4a90c3": "write",
+  "233c645db5966ae40392d0da0c9ee4d9887208060aae687dd2e840bfa862bdaf": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2714a7e1de8f1e8281fe58b908b75faf1a1703dc06cf5da7d99518669a8d929b",
+ "domain": [
+  "productivity/file-conversion"
+ ],
+ "product": [
+  "convert-to-it"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Checks which file formats can be converted and gives links that open the browser-based converter with formats preselected.",
+ "whenToUse": "Use when a user asks whether a file format can be converted to another and wants a link.",
+ "tasks": [
+  "check conversion",
+  "list conversion targets",
+  "search formats"
+ ],
+ "effects": {
+  "026f668353a63ac48660a6cfb743c44e0147f4dcc595b21d83fc4beabeb7f1f7": "read",
+  "9713de34caae42546ac7d23f231da0c6c85e1cb53207b1ead6f9ed6d1f704210": "read",
+  "0b62880f2382877d60c56f70db408303e4c5624d4c1523d03f250c35a469b6f0": "read"
+ },
+ "flags": []
+}

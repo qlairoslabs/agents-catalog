@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "2a09be6f065c3ecdab316136174d3dced146cf4a3d8b1325480875f2baf712ac",
+ "domain": [
+  "software/code-formatting",
+  "automation/low-code"
+ ],
+ "product": [
+  "zapier",
+  "n8n",
+  "pipedream",
+  "make",
+  "hubspot"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Formats and lints JavaScript, Python and HubL code for automation platform code steps, and pretty-prints JSON.",
+ "whenToUse": "Use when writing or cleaning code snippets for Zapier, n8n, Pipedream, Make or HubSpot workflows.",
+ "tasks": [
+  "format JavaScript",
+  "format Python",
+  "format HubL",
+  "lint code",
+  "pretty-print JSON",
+  "minify JSON",
+  "sort JSON keys",
+  "answer codefmt questions"
+ ],
+ "effects": {
+  "d115fced5bd81d41d38ac259ddf787d0de980326bf7d9241a56f0e63e4bf0237": "read",
+  "1868f51070afa6ac7384888d2d5399d7a95d01054b2530202c2f6c28c394013d": "read",
+  "7ef7de023f474b60c0fc7449a151e7b476c08c7f276d54ccd676a2e54eaa9f4b": "read"
+ },
+ "flags": []
+}

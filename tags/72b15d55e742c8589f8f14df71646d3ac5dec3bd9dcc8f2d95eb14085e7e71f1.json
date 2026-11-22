@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "72b15d55e742c8589f8f14df71646d3ac5dec3bd9dcc8f2d95eb14085e7e71f1",
+ "domain": [
+  "software/hosting",
+  "software/devops"
+ ],
+ "product": [
+  "hodi",
+  "odoo",
+  "git",
+  "php"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages hosting on Hodi: Git deploys, Odoo instances, domains, DNS, email, databases, PHP settings, logs and invoices.",
+ "whenToUse": "Use when a user hosts on Hodi and wants to deploy, configure domains or DNS, manage databases or email, or check logs and invoices.",
+ "tasks": [
+  "deploy from git",
+  "run odoo",
+  "manage domains",
+  "edit dns records",
+  "manage email accounts",
+  "manage databases",
+  "configure php",
+  "view logs",
+  "view invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

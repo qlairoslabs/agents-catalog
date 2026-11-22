@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cdcdef2f59cacf708c9159aea626832b9ca5d089d6c45bc8729a3dcc1bcd340b",
+ "domain": [
+  "finance/equity-research",
+  "finance/investing"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives a short one-page view on a stock covering current drivers, key risks and the next catalyst.",
+ "whenToUse": "Use when a user wants a fast, brief opinion on a stock rather than a full thesis.",
+ "tasks": [
+  "state one-line current view",
+  "identify key drivers",
+  "list key risks",
+  "note what would change the view",
+  "identify next catalyst"
+ ],
+ "effects": {},
+ "flags": []
+}

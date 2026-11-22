@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "58eb248bd40c8a5ee70097c8875883ccf070b4c2622c7d0f077d934096cef9a5",
+ "domain": [
+  "marketing/messaging",
+  "sales/crm"
+ ],
+ "product": [
+  "spoki",
+  "whatsapp"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Manages contacts, campaigns, automations and message templates in the Spoki WhatsApp CRM.",
+ "whenToUse": "Use when an agent needs to manage WhatsApp contacts, campaigns or automations in Spoki.",
+ "tasks": [
+  "manage contacts",
+  "run campaigns",
+  "configure automations",
+  "manage message templates"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ce460670ff689a17f130f1cd5d6d65d360c515d3a008f454f5819ff8caa1f384",
+ "domain": [
+  "design/icons",
+  "software/frontend"
+ ],
+ "product": [
+  "supericons"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Semantic, multilingual search over 20,000+ SVG icons with previews for coding agents.",
+ "whenToUse": "Use when an agent needs to find a suitable SVG icon for a UI.",
+ "tasks": [
+  "search icons",
+  "preview icons",
+  "fetch svg code"
+ ],
+ "effects": {},
+ "flags": []
+}

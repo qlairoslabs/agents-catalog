@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "e4411b5336153e1455c231303d91a28066455eefc951bd36177385fe2dd4ff88",
+ "domain": [
+  "ai/governance",
+  "software/cybersecurity/attestation"
+ ],
+ "product": [
+  "seal",
+  "aqta"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Verifies and decodes signed Seal receipts that record AI model-call and agent-action decisions.",
+ "whenToUse": "Use when a user needs to check that an AI decision receipt or evidence pack is authentic and unaltered.",
+ "tasks": [
+  "verify signed receipts",
+  "decode receipts",
+  "fetch signing keys",
+  "get sample receipts",
+  "verify evidence packs",
+  "explain receipt format",
+  "list workspace receipts",
+  "get transparency proofs",
+  "summarize workspace outcomes"
+ ],
+ "effects": {
+  "dd7f65583c5a9023562d8b1704836bb936e768d5deace3395ab89e1625887206": "read",
+  "9402244dd80de0ea0a62cf560c91f8ce5be72b1660b0be50c899a05b5d2143e1": "read",
+  "742c4315c4553375ab354a7d632a8b61bb6b8e9b9e234240dfcce2c6bca53abe": "read",
+  "cacc1aee415f3f4dc13d339bd814e130e796da0bfbadb462ff3d992aa6fc2804": "read",
+  "8bce873409a8e16b092a0da56f0a4f7dd6142807d841bca9c1522c2e66792e5a": "read",
+  "60d76f02bc314548a8da5a62574900bc2f2d9efdab7ef0834a51a1b7039c4ca6": "read",
+  "95bd2f680f7a030c455e22127130135400ce64058beb9b9b8b209e803b3f00de": "read",
+  "840cdfa53effca195caa7a6da7889a1bed59b24e6e55ecf4c706ccacbed2809e": "read",
+  "1ceb8a4b0199465b13f6f7e4f25132209236ca4831ee729604b4d61adb379667": "read",
+  "4c6061c8da58bf7fe3b7973d324802906ec5a2333b8c49e22b6fcdcc748dbfd3": "read"
+ },
+ "flags": []
+}

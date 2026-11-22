@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "8a31eaa3dfe51e1ab94521507222a1edc11681e4668ce486274c49aa3a9bd33b",
+ "domain": [
+  "software/secure-coding-training",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "secdim"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Personalised secure coding learning from SecDim: player profiles, hands-on vulnerability labs and Learn courses and topics.",
+ "whenToUse": "Use when a developer wants labs or courses on a vulnerability class or a learning path based on their SecDim progress.",
+ "tasks": [
+  "get player profile",
+  "search Play labs",
+  "fetch lab",
+  "search Learn courses",
+  "get course syllabus",
+  "read course topic"
+ ],
+ "effects": {
+  "448d2811870594a92724c99c31c70464c2a47105c22aac0d6981b513105a4daa": "write",
+  "fa81c38278939d7421a05799991cae098944525cf3fd43a951b088473d645b07": "write",
+  "3d5795d19d7b409156dd9ba4a03970c8e9d2038c5ebe21795ac7d748ba0f4c8c": "write",
+  "cfe23e13e75136b6cf23c4b21b980731b493959488d07e731e7086f4b42b2668": "read",
+  "615c038766917f60f98fc806157ee5a0e455830bdf1b362e5fe190bb751840c6": "write",
+  "662a42c2c709caebb9ea5e941c5e3b948f2bc7d1a5b47031d252e32a49afc18b": "read",
+  "2bbd45fdf94e12d2ea909772a99c6dabf5b4bcc3924d58609febeb1bdbc54b5e": "write"
+ },
+ "flags": []
+}

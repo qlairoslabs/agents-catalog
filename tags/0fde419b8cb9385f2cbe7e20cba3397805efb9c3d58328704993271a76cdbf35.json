@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0fde419b8cb9385f2cbe7e20cba3397805efb9c3d58328704993271a76cdbf35",
+ "domain": [
+  "gaming/asset-generation",
+  "media/generative-ai"
+ ],
+ "product": [
+  "ludo-ai"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Generates game assets with AI, including sprites, animations, rigged 3D models, video, music, sound effects and voices.",
+ "whenToUse": "Use when a game developer needs AI-generated art, 3D, audio or voice assets.",
+ "tasks": [
+  "generate sprites",
+  "generate animations",
+  "generate rigged 3d models",
+  "generate video",
+  "generate music",
+  "generate sound effects",
+  "generate voices"
+ ],
+ "effects": {},
+ "flags": []
+}

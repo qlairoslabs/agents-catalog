@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "e717a9a31a1fd96042a54bd42ccf2d1c0ac9426fed8898fb268859c3a28cd55c",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "travellers-group"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Facts, room details, local guides and booking links for five Travellers Group hotels in regional Australia, plus enquiry submission.",
+ "whenToUse": "Use when someone is considering a stay in Bundaberg, Rockhampton, Emerald, Orange or Dubbo, or needs a group or corporate booking.",
+ "tasks": [
+  "search hotel guides and faqs",
+  "get property details",
+  "list room types",
+  "get distances to local places",
+  "list town events",
+  "get town guides",
+  "get indicative rates",
+  "recommend a property",
+  "get pre-filled booking link",
+  "send booking enquiry",
+  "get corporate account info",
+  "send corporate enquiry"
+ ],
+ "effects": {
+  "739b648c00ba76101c412a2be067f64d928f588ffa7fbfc30232a6c030f4c787": "read",
+  "eeaa619d874d12c68eb7712893821a17d26d0591b2ef7314045000e0f8574a88": "read",
+  "9906d6266deba95f81caca85e147d8554eccdbed7745ad9bb13cdeff2a97789c": "read",
+  "f2e123c539e3629b7ca695b5bd838fdd379aeec7f6f495855f3706cb16fd3d2f": "read",
+  "3d33b6ce25a505b1b3c8137c6d231ef0e9f5345766826ca20757ccd138cb25db": "read",
+  "0cfc727f6d8ae8ab851344a2e3d8ab3f498520d4364a445da52ae10cb567a853": "read",
+  "b960b8fbd21935aaa18abd26e838eb571c0e3a751823a443c44fec9215e4cd14": "read",
+  "8be7a6936a625a26ee63d69587620299c219662a65d4ad000daaa2d7385cfc1b": "read",
+  "16700cce37cbfdbcbd5949df7138b1e0ebeb2d248b837b212d7058d83181c512": "read",
+  "6b75077aa995671aedf14e0b8288d0670b4222a6efde58c7592702d0709b5988": "write",
+  "2990ebde8fe58a954b02031014fa6525cbe0de3950b08bc5a6b52441b6ef0c7b": "read",
+  "5658c404cc7e7c8024ace7414256842b0dd814d7ba4e8ff2b5f1e74fff606801": "write"
+ },
+ "flags": []
+}

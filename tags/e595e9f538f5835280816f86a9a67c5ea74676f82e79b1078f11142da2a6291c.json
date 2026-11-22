@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "e595e9f538f5835280816f86a9a67c5ea74676f82e79b1078f11142da2a6291c",
+ "domain": [
+  "research/academic/visualization",
+  "design/diagrams"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates academic diagrams and statistical plots from text descriptions using several cooperating AI agents.",
+ "whenToUse": "Use when an agent needs to produce a figure, diagram or plot for a research paper from a description.",
+ "tasks": [
+  "generate diagrams",
+  "generate statistical plots",
+  "create paper figures"
+ ],
+ "effects": {},
+ "flags": []
+}

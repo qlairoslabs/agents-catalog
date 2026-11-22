@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0d6854073a34be71486d9631ed2ab6a0cd5a01b819a2eda3b84315cb7147a123",
+ "domain": [
+  "knowledge-management",
+  "data/integration"
+ ],
+ "product": [
+  "lenshub"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Aggregates team knowledge from about 20 source connectors and serves it to agents with classification, scoring and access control.",
+ "whenToUse": "Use when an agent needs access-controlled team knowledge pulled from multiple workplace tools.",
+ "tasks": [
+  "search team knowledge",
+  "aggregate sources",
+  "enforce access control"
+ ],
+ "effects": {},
+ "flags": []
+}

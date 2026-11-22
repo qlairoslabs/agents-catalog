@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "effd2d7e3ca410a7c36fa8d929eb27cc8031d8468fc68f278c74ac91b39bc34f",
+ "domain": [
+  "software/databases/deployment",
+  "software/cloud"
+ ],
+ "product": [
+  "azure-sql-database",
+  "microsoft-entra",
+  "nodejs",
+  "dotnet",
+  "python"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Shows how code tested on the local Azure SQL container runs unchanged on cloud Azure SQL by switching only the connection string.",
+ "whenToUse": "Use when a user moves an app from the local container to Azure SQL in the cloud or needs dev/prod parity.",
+ "tasks": [
+  "configure connection string per environment",
+  "switch sa auth to entra auth",
+  "verify dev prod parity",
+  "cover node dotnet python drivers"
+ ],
+ "effects": {},
+ "flags": []
+}

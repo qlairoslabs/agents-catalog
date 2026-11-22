@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "baf5d2f4126a4087ec5fd0617d89a940be99eebab0ea87c32adc32daa61a2c31",
+ "domain": [
+  "software/ai-agents",
+  "software/orchestration"
+ ],
+ "product": [
+  "keepstate"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local CLI connector to start, monitor, message and pause durable KeepState agent sessions with human approvals.",
+ "whenToUse": "Use when the user runs long-lived KeepState agents and wants to control or check on them.",
+ "tasks": [
+  "start agent sessions",
+  "watch sessions",
+  "message agents",
+  "pause agents",
+  "request human approval"
+ ],
+ "effects": {},
+ "flags": []
+}

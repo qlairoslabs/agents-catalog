@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2c2bf0a4b3673881a0418b749f7e9ccb165bee51a1f35dbd723b03cf3efa54c4",
+ "domain": [
+  "productivity/presentations"
+ ],
+ "product": [
+  "presio",
+  "github"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Uploads a PDF to start a Presio slideshow, validates Presio sidecar attachments and provides a plugin-building guide.",
+ "whenToUse": "Use when a user wants to present a PDF as a slideshow or check Presio notes/media in a PDF.",
+ "tasks": [
+  "upload PDF to present",
+  "replace deck in existing presentation",
+  "validate sidecar attachments",
+  "read plugin guide"
+ ],
+ "effects": {
+  "222cc6a037eed2da361d5572188e1fe5757fa7659eddb9314977b9ee8f1d645f": "write",
+  "415091b68fff1b8898a0c0a2e8a8a77ae9db7adc424b5742f53f20e33b9608b9": "read",
+  "9342429c4b0a06d12fae7819331bcc4e34d4e879930c28b59cbca787311d6645": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "fa8ab4705f4a18d9649e0abdfbb16f69bd7916e5fd72788f0abfcfc5c74c6481",
+ "domain": [
+  "marketing/app-marketing",
+  "marketing/social-media"
+ ],
+ "product": [
+  "sprid",
+  "app-store",
+  "google-play"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Marketing tool for app-store developers to plan and publish campaigns and review results.",
+ "whenToUse": "Use when a developer wants to plan, publish or analyze marketing for their mobile app.",
+ "tasks": [
+  "plan marketing",
+  "publish marketing content",
+  "read campaign results"
+ ],
+ "effects": {},
+ "flags": []
+}

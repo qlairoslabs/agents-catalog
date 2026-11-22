@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2a83f341b96ac23bf562a3838926eaffdda0b415d35d38a455ae74176a080aeb",
+ "domain": [
+  "software/monitoring/uptime"
+ ],
+ "product": [
+  "onlineornot"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Monitors websites, APIs, browser flows and scheduled jobs, and manages status pages in OnlineOrNot.",
+ "whenToUse": "Use when setting up or checking uptime monitors, cron job checks or status pages in OnlineOrNot.",
+ "tasks": [
+  "monitor websites",
+  "monitor apis",
+  "check browser flows",
+  "monitor scheduled jobs",
+  "manage status pages"
+ ],
+ "effects": {},
+ "flags": []
+}

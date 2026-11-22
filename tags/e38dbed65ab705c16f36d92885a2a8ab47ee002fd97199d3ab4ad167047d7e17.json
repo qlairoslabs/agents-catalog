@@ -1,0 +1,85 @@
+{
+ "classifier": 2,
+ "contentHash": "e38dbed65ab705c16f36d92885a2a8ab47ee002fd97199d3ab4ad167047d7e17",
+ "domain": [
+  "legal/case-law/switzerland",
+  "legal/legislation",
+  "legal/scholarship"
+ ],
+ "product": [
+  "opencaselaw",
+  "fedlex",
+  "lexfind",
+  "onlinekommentar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Large open Swiss legal research corpus: court decisions with citation graph, federal and cantonal statutes, legislative materials, commentary and agency practice.",
+ "whenToUse": "Use when an agent researches Swiss law and needs decisions, statutes, legislative intent, doctrine or verified citations.",
+ "tasks": [
+  "search court decisions",
+  "fetch decision full text",
+  "trace citations and appeal chains",
+  "find leading cases",
+  "get case briefs and erwägungen",
+  "verify claims and citations",
+  "look up federal and cantonal laws",
+  "search legislative materials",
+  "search legal commentary and scholarship",
+  "search administrative practice",
+  "draft mock decisions",
+  "generate exam questions"
+ ],
+ "effects": {
+  "5f4372a2c2a8a0dedb4201fde36c6f1cb6d929f78911906b41a224f43d362809": "write",
+  "1df3620d179ff0cb7d18739581297a8b79230b37dbb25d9344821108c9dd9627": "read",
+  "fafe8fef8ff05eaa295c4e6f4603fd068438498ede8516d3407348ed45b16da0": "write",
+  "d3732af97a47b2d3c03886e1cf4ed7878692f6ee23c5974f984afa338cf5f333": "read",
+  "35cb1aee804f4bcaad2f13f1565c3b1dfd980e7f4d1b1dd3469a06f1d3c87230": "write",
+  "e5720aca720e7d6e70bb58a51d8cccc8c6acad513a09fd4665e92a6a68e4e0bd": "read",
+  "05424efe902f1ccf95d4d22eef16b439300ace2e1d5f5fafea4c05ac40b5a64c": "read",
+  "08d22a975608cb07e9161c54d15d822bc81d3848447c40c2b29820c5ae51d561": "read",
+  "a4d10e3957f3f8c18cbbeb6b657a44583c0a92482dff88cfeb4cb3df03b8ec0a": "read",
+  "76f2633ce939855ed05435caec55349db4447a61d32cc47abebff8b431c759f9": "write",
+  "113b30f81dc9c10e61052ad266e5b52faa95548fe2fdc2d861de08953ae6afb4": "read",
+  "4df23c1da2dcc8007cc7ba0086c172ca943589be4287ee7644ae4ddd7281684f": "read",
+  "4fd1c013d93f2465991337dcdca23d4f051c735008b09c08e74c1fa09ac04ebf": "read",
+  "8f1a41d4bac52198d098a392cf574d978bfe581553c0760f0a8fb5f1a74f6138": "read",
+  "0e088d8d729baed236b865d3dfd569f95b810c7fd2aa54576b5043b84ae96dbb": "read",
+  "d2943de944f08e1ddea3323cd95e2d8e5e9dab59ebc090081ae8b77902b55cfa": "read",
+  "946968992f9931f640bfc52a4b69b7125e112e6efc57a8f55d4ed2df966a8fea": "write",
+  "22b2a6546a723b98062b675eca85c1a2e51ac632d59c23625c7e110fe0b6cf2c": "write",
+  "66695d2175935a6eb49c2331d53756581c9dec7bc8576b84cf313c93be8246a2": "read",
+  "a49f7284ce4457ddcfa34af66c1eac5aa7a4cdf672693652b8ed2a62c31fae91": "read",
+  "917c5b80354639a0172ec53a304ed6e07e17f7df6e75f04c5fbad2f05c9f83d4": "write",
+  "c12f16b1e744aeaa626b82b8189bb3d1e071a4a59324823884386e8f85e25cd2": "write",
+  "ce380217d17e523290acde5503b7f4c3371fd1f748b28780271336755df06bb8": "write",
+  "3a1f878a7c58ce41b8361519aaf016209e9a44370d465b90642dc721d9cb11f4": "write",
+  "227f68f6256b92a855dba79f7d4ed2767166dd01cd8b2b667a12ccea4f96e91b": "read",
+  "0edf6850ba40c8b36e04306e71648de51c2d5457625d5f88fc185ff9d542daaf": "write",
+  "238381a6b17f496920ad0da08673e4c302814975410324e2ecceda5588608db5": "write",
+  "b4ef40eda7548484a61a75180768911cbfa8434a21c730395e65d106a25f64a6": "write",
+  "5df126f497486d50464b6f4f753110d2ff5234d7ff3c8c30e34378a6c41610a2": "read",
+  "6161cf24b7e9d84d4ac60dbd966859a6fdd888f92c6c170420d418577f373e0f": "read",
+  "6d03fe4252de4496508476191c3588003bd867d90ea511a9be13d547639b75be": "read",
+  "7190272ca3e2c151e2dc1c2204c9a0e7b16cdb38dc78ec2db00b713c32cb6a6b": "read",
+  "fa827bf6bccd08aabfecb41a3dd5495908efb36f396dbde39e80e352d4959fc8": "read",
+  "32809ca617db86f4918071ab1b410b09b2f6aca67246cdb1f29aa62ae2af9d0e": "read",
+  "a7714dffa25ce5060b293185869f941e0bea1fab3ca508510f704813fb5d4e2e": "read",
+  "2ca01d6d804ab3212a02597df8719d668bcd0b653d03939540c63a16b66eb11c": "write",
+  "4c62ae9f1da9f46c6d832c68e526fccb75eea81e6e50d6a0f7ecbd7410b8e35e": "write",
+  "b73ba6d7e8c1eb2d4c05e96bc37a2fc59d6bb84b3970e248aeb67f981bcec94c": "write",
+  "3d10f19aa65f2fb27619d77a4cf9336c898e39f46370408bface9a7c4a44d605": "read",
+  "7193881401a9836490ef606483b16b2ed1ca7e8fb1fcfd6e42a704437eb9c9a3": "read",
+  "9656d8bc734836127dfaf20f3429d18bfebfd842d54cd7cb9fa5b6d56f1ac3e0": "write",
+  "bd3230b33964856ca6b5f0ec4a0330ff649518016a92697374bb53b55f9ae69d": "read"
+ },
+ "flags": [
+  "attest_response labels itself a MANDATORY final step and asks the agent to submit its full draft answer to the server, which forwards it to an external LLM judge"
+ ]
+}

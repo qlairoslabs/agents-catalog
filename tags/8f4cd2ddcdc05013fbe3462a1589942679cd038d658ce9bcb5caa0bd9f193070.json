@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8f4cd2ddcdc05013fbe3462a1589942679cd038d658ce9bcb5caa0bd9f193070",
+ "domain": [
+  "marketing/email-validation",
+  "marketing/email-deliverability"
+ ],
+ "product": [
+  "inboxtrue"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Validates email addresses on demand.",
+ "whenToUse": "Use when a user needs to check whether email addresses are valid before sending.",
+ "tasks": [
+  "validate email addresses"
+ ],
+ "effects": {},
+ "flags": []
+}

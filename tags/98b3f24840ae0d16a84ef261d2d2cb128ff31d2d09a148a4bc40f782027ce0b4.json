@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "98b3f24840ae0d16a84ef261d2d2cb128ff31d2d09a148a4bc40f782027ce0b4",
+ "domain": [
+  "software/ai/agent-frameworks"
+ ],
+ "product": [
+  "atomic-agents"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps write an Atomic Agents context provider that injects dynamic content such as time, user data or RAG results into the system prompt.",
+ "whenToUse": "Use when a user wants to inject dynamic context or RAG results into an Atomic Agents agent's prompt.",
+ "tasks": [
+  "create context provider",
+  "inject dynamic prompt context",
+  "wire rag retrieval",
+  "add session state to prompt"
+ ],
+ "effects": {},
+ "flags": []
+}

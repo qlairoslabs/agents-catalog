@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "7850a50d2f51fba8a8126a213405e4bcde0bef9a3255239756a7c5692c8801a3",
+ "domain": [
+  "advertising/adtech",
+  "web-publishing"
+ ],
+ "product": [
+  "ezoic"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Assistant that answers Ezoic ad integration questions with documentation, SDK guidance and copyable setup code, using async jobs.",
+ "whenToUse": "Use when setting up or troubleshooting Ezoic ads on a website.",
+ "tasks": [
+  "ask setup questions",
+  "get orientation help",
+  "read async response",
+  "check job status"
+ ],
+ "effects": {
+  "1633cd4c48b596acf30791b0a68656b31d10f0ff862f46747b4c23f37d208c87": "write",
+  "50a408f49682ec58ebc3253938d67a39850f9849ae77b2c7416fdc32c43eeec0": "read",
+  "1cfeac601a4ee348a279d22e4c20ad42acf3e969112ac2450382279458aa3d96": "read",
+  "db871fdf9f639e2bc61bc570b33626a000b70d7c0f7d8e2720ae5ec82058f112": "read"
+ },
+ "flags": [
+  "ask accepts a role override defaulting to admin and a publisher_id parameter, which is unusual"
+ ]
+}

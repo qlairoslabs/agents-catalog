@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "5115f17b0d8710ede62873624e9278bb713adf361289bf563e5115cac318a355",
+ "domain": [
+  "travel/vacation-rental",
+  "hospitality"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Information, FAQ, seasonal prices, last-minute offers, availability checks and price calculation for one holiday apartment in Garmisch-Partenkirchen.",
+ "whenToUse": "Use when a guest asks about this apartment's details, availability or total price for given dates, or how to send an enquiry.",
+ "tasks": [
+  "get property info",
+  "search FAQ",
+  "show seasonal prices",
+  "list offers",
+  "check availability",
+  "list booked periods",
+  "calculate total price",
+  "get enquiry link",
+  "show guest reviews"
+ ],
+ "effects": {
+  "3b6a0d3e4b2b3a55006bf0132998608ba49d9e709d16177b308102624ee7cb39": "read",
+  "746d9e3e0c4e102ee636f4345d1c7eb0cc9d204792a2be9bbc44e2f09feabe6e": "read",
+  "13ab2f007acbefa09b3b3b681eb3debee511942e4761aa951c66b38d0920ccda": "read",
+  "12dbabece808d74e46845ec87ebf062495694b3779bd1f8af933981298319868": "read",
+  "53d4d40727064152658cb751b8030a984a8642cee82079decdeb6773a4f8237f": "read",
+  "4fbeb86079bd005d46244dd24894ab9e2449e71bdf5860b9daf5d0043f1c90aa": "read",
+  "421e4813db7d7ac852e9d21996effb950bf6bc0480ce1946d579fc443587d4d1": "read",
+  "a7bc6fe7dc42a14e601131c6db47d1af3181ea630f62d507a58ee1a9ee150903": "read",
+  "1512aa82e65ec9283e41ed26b15e09f8d3d63cf835ce9de9b4751fec34c6a91c": "read"
+ },
+ "flags": []
+}

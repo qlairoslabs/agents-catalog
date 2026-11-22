@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "cc3539b47e7f7a2058ec76364454adcc1bff0543d09ad03a915110d76ed6fd7d",
+ "domain": [
+  "productivity/scheduling"
+ ],
+ "product": [
+  "astrocal"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Scheduling service that checks availability and books, cancels and reschedules meetings.",
+ "whenToUse": "Use when an agent needs to find free time or book, cancel or move a meeting.",
+ "tasks": [
+  "check availability",
+  "book meetings",
+  "cancel meetings",
+  "reschedule meetings"
+ ],
+ "effects": {},
+ "flags": []
+}

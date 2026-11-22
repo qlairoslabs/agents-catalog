@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "5199f06261ef8dc0473bc473bece30d81e77e501f980fd6ef3fe44e5e79cf70a",
+ "domain": [
+  "ecommerce/industrial-supplies"
+ ],
+ "product": [
+  "okun-koneosa"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Finnish industrial supplies shop: catalog search, product details with stock, cart link creation, policies and online auction lots.",
+ "whenToUse": "Use when finding or ordering bearings, belts, seals, fasteners and similar parts from Okun Koneosa, or checking its policies and auction.",
+ "tasks": [
+  "search catalog",
+  "get product details",
+  "create cart link",
+  "search policies",
+  "search auction lots"
+ ],
+ "effects": {
+  "18f5ebb3f5217514ca6c625fb207f23721c4cfdbc406188beec1f6e6824a4d70": "write",
+  "c654b5a8a495b6941cf4fe457cd4b933d2728bb09b6c8f4eb2b445533e4a60f6": "write",
+  "a2cf2eed6c838ba4813a54a481695708f05e61dd502deb000d94c522c000065d": "write",
+  "4f9ee05f5cc6cce12858f666e9471f1ab75053426c4d8c27b22a923901e30821": "write",
+  "c937fc92b5edf7f5726ffcfcd1ff3c722d7a1022e6cbb4a3a98fda7183dc53a0": "write",
+  "a94851bbe42b14d0ee4f92d0622927fbdae2446233c2a65192339f02a9895098": "write"
+ },
+ "flags": []
+}

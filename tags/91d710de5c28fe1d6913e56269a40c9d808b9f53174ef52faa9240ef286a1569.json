@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "91d710de5c28fe1d6913e56269a40c9d808b9f53174ef52faa9240ef286a1569",
+ "domain": [
+  "sales/conversation-intelligence"
+ ],
+ "product": [
+  "gong"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives agents access to Gong.io call records, transcripts and user data.",
+ "whenToUse": "Use when an agent needs to review sales calls, read transcripts or look up Gong users.",
+ "tasks": [
+  "list calls",
+  "get call details",
+  "read transcripts",
+  "list users"
+ ],
+ "effects": {},
+ "flags": []
+}

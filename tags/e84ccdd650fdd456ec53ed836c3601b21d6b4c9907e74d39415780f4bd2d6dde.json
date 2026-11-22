@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e84ccdd650fdd456ec53ed836c3601b21d6b4c9907e74d39415780f4bd2d6dde",
+ "domain": [
+  "legal/contract-review"
+ ],
+ "product": [
+  "clment",
+  "microsoft-word"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Contract review service that stores contracts, answers questions with citations, produces Word redlines and alerts on key dates.",
+ "whenToUse": "Use when an agent needs to review contracts, answer cited questions about contract terms, draft redlines or track contract deadlines.",
+ "tasks": [
+  "review contracts",
+  "answer questions with citations",
+  "generate word redlines",
+  "alert on key contract dates",
+  "store contracts"
+ ],
+ "effects": {},
+ "flags": []
+}

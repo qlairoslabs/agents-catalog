@@ -1,0 +1,63 @@
+{
+ "classifier": 2,
+ "contentHash": "e21aadc6aea805d12cf5b26df96b24319249b24dd9c7c65aa285196033e5af7d",
+ "domain": [
+  "productivity/whiteboard",
+  "productivity/task-management"
+ ],
+ "product": [
+  "cnvs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Real-time collaborative whiteboard and kanban board that agents and people edit together live.",
+ "whenToUse": "Use when an agent should sketch, diagram or manage kanban tasks on a shared board that humans watch and edit.",
+ "tasks": [
+  "create and open boards",
+  "add text, links and images",
+  "draw strokes and diagrams",
+  "move and erase items",
+  "preview board layout",
+  "wait for human edits",
+  "manage kanban columns and lanes",
+  "create, update and move tasks",
+  "bulk-create tasks",
+  "query overdue or assigned tasks",
+  "export tasks as markdown or csv",
+  "rename board"
+ ],
+ "effects": {
+  "f40f1aaa2e388615f0712368f68736e068ed3558d12a9af1aedb5d939d2b0c19": "write",
+  "bf03412872d30a593f4781934e223aa12752419ba0b136bcc4ea89af7e950552": "write",
+  "b714035c6249d6eb0caf29ba809ec3da8d07ba74b2bfd49597078ad86329bcd5": "read",
+  "ab6846dd9f8879842c0caa814cab613a704acca78505b02e55ff48ddc2dabade": "read",
+  "4933899da5783afb76c8019065a9837938e096d5324f11eb2cf4c920e9c3869b": "write",
+  "974a166cad661f1ed443d36c2182bd981abc5537afbd1994ea2539ca2f0587da": "write",
+  "296fd45bba89e8455f6fcb606092f55d2b4b4998cd852de40c3d497a452b1dc9": "write",
+  "cb6951e4ed62258f206b12e40db7fe26cd9614fbb8f1cf64e14f566c2e7d1af7": "write",
+  "560e32215ca89817113db0864883c5db7820238b5464aa054463b903481b6f52": "write",
+  "f40ce027ff1c99c4826006393632ca6d30b939e447bb7dcc6ed8ea2625594114": "write",
+  "c460c2635e0f9b447d3f1315a68b4c925aeab314a4d5046d7230c880bcfbe85a": "write",
+  "a8bc8ace0e4627d271e5bcad3580046615d4d017a74299f3ccfb9f38779e8355": "write",
+  "a06ece5e13bd7e102b6c867dca3bb001d002db683607ee8d9a8680e29d864c2e": "write",
+  "938797ee5640c237f0abb1c62a3ee1f6c43cb3ea6ae375f924cd87bcf62c747f": "write",
+  "b2c76d8a2abe7d19188bd5e0817be439eca7ca112ab6e4934ec3d9c8f56b927b": "risky",
+  "fcea0976cde4efdd47c2dcbc76edb6026dc9bead6c42b2091368afdd06991a68": "write",
+  "3ddeae648c1425832f54a51d50b1a5a1a16a4c9f55c1e9d6c1247eee45766d80": "write",
+  "16f01c7a3fbd200e42cb7ca40f178614c2e9dfa85791145aee349e6d6be03768": "write",
+  "ac354a7ab3c94dd061cbcfd8fd3f119c01445b27d8c7cdc65efe4b77126f3d06": "write",
+  "a53b189090c7602ce181183c12f1a15073ea7fe148de7fd66657a07dae510b54": "read",
+  "ef9a09c33179051bdb1cb92970f04234ba20ba2051ed44759626da3a3a6e7b34": "write",
+  "8c4d006452a0daf92740b85dbb662b44a41c76fc3b0f5dd0e0a58d1eb81e6b2f": "write",
+  "c3910fae75bc76bd868a9e94515c6327ae8b32a54593ffe3d04bda3c958ce8c5": "write",
+  "e8bfc53dcd99cb93220a2192418d7163abfa301a8519026ba0af62aba7f2edfb": "write",
+  "b49aa1a12857c6d17093f131acd3c26e965f37abd77dbddd0dd08e0cd7ea64c3": "read",
+  "e6d03d5fab27522f57836d4d4d7a15111953c664a8c8918802a7aec3a77ea007": "read"
+ },
+ "flags": []
+}

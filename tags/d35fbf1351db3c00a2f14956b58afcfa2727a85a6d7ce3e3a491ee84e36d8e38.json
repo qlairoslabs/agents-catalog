@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "d35fbf1351db3c00a2f14956b58afcfa2727a85a6d7ce3e3a491ee84e36d8e38",
+ "domain": [
+  "communication/messaging",
+  "communication/sms"
+ ],
+ "product": [
+  "telerivet",
+  "whatsapp",
+  "viber"
+ ],
+ "audience": [
+  "marketing",
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work",
+  "support-customers"
+ ],
+ "summary": "Sends and automates SMS, WhatsApp, Viber, IVR and USSD messaging across many countries via Telerivet.",
+ "whenToUse": "Use when an agent needs to send or automate mobile messages or voice/USSD flows to contacts through Telerivet.",
+ "tasks": [
+  "send sms",
+  "send whatsapp messages",
+  "send viber messages",
+  "run ivr flows",
+  "run ussd services",
+  "automate messaging"
+ ],
+ "effects": {},
+ "flags": []
+}

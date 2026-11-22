@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "161f26c08b9f7267ede587e1714e14a26019c40595d33a87e68f5172459f5766",
+ "domain": [
+  "ai/agent-coordination",
+  "productivity/work-tracking"
+ ],
+ "product": [
+  "orgx"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Tracks AI agent work so it can be resumed, reviewed and verified across agents.",
+ "whenToUse": "Use when several agents or sessions need shared, reviewable records of work in progress.",
+ "tasks": [
+  "record agent work",
+  "resume work",
+  "review agent output"
+ ],
+ "effects": {},
+ "flags": []
+}

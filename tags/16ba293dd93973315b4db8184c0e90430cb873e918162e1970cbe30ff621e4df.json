@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "16ba293dd93973315b4db8184c0e90430cb873e918162e1970cbe30ff621e4df",
+ "domain": [
+  "commerce/agent-commerce"
+ ],
+ "product": [
+  "lucerna-noetica"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Commerce service for agents offering quotes, reversible holds on purchases and tools to run an owned business.",
+ "whenToUse": "Use when an agent needs to get quotes or place reversible holds as part of a purchase flow.",
+ "tasks": [
+  "get quotes",
+  "place reversible holds",
+  "manage business commerce"
+ ],
+ "effects": {},
+ "flags": []
+}

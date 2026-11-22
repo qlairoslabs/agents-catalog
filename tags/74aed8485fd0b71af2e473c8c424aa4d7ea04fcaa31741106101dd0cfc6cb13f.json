@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "74aed8485fd0b71af2e473c8c424aa4d7ea04fcaa31741106101dd0cfc6cb13f",
+ "domain": [
+  "research/market-intelligence",
+  "defense/drones"
+ ],
+ "product": [
+  "drone-intelligence"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides drone and counter-drone market briefings, company profiles and a licensed contract and vendor tracker.",
+ "whenToUse": "Use when researching drone or counter-UAS companies, markets, contracts or funding.",
+ "tasks": [
+  "search content",
+  "read briefings",
+  "read market pages",
+  "get company profiles",
+  "compare companies",
+  "list catalogue",
+  "view products and prices",
+  "query counter-uas awards",
+  "query vendor matrix",
+  "view capital ledger",
+  "aggregate award counts"
+ ],
+ "effects": {
+  "c15d2532aaf54c093ec9fe32f661b73b1d035a8484f259ead7530a69d720428e": "read",
+  "0440fa535109d2bbf4ddd2622b61fc065843c24aef612b4fbd394181b03ffcdc": "read",
+  "19b2f081414e0eea5491b80ad624b85cde3c2308b90d25240eea83f95e902492": "read",
+  "11bc63d22ca83a4163db7308753acd1d2107abe8dbb0d370900152a9b9b582ea": "read",
+  "485aa926460a31f625f3c14223a9a100be1de5654e36cbb41d1a8be2a57d20d6": "read",
+  "89cacf32ffe9fa85b28c0c20af01b012d6341913d6c6298cfbb128ecb3e484b9": "read",
+  "88faee2d86d47d809d106d673a52c79ebf53878817c194ebb026de23845874c9": "read",
+  "82957b51e325a27be376118f832ad562782091f598b328d80181198c84148903": "read",
+  "12dc0643c15499ffade8d54ebfd06addf449e18c054f8500ee729e69b6408f6a": "read",
+  "f3391da3823f59cf8b7ba478c418c394f45f0b0ea8d5a5966834ba056324f0fa": "read",
+  "747c76414500d570de94629890aeb098dfba5ae3c1e391a64b50586abf0a7902": "read",
+  "4a4539d4df6cd1677a7927629d2b79437dafdd391a469c78441918ee3a44491d": "read"
+ },
+ "flags": []
+}

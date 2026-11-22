@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "561673c1be12431324ebd6f4b76616bbdfe5438e5db35a1158bc49966a965643",
+ "domain": [
+  "marketing/seo",
+  "business/ecommerce"
+ ],
+ "product": [
+  "advisors-ai"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Checks ten machine-readable signals on one public web page and reports the top issue with a verifiable receipt.",
+ "whenToUse": "Use when someone supplies a public store page and wants a quick read-only check of its machine-readability signals.",
+ "tasks": [
+  "check page readiness signals",
+  "report top missing signal",
+  "return source receipt"
+ ],
+ "effects": {
+  "204827afca86fec336d12a0b22db8192db15039d00f96da713d61867c4ff40b9": "read"
+ },
+ "flags": []
+}

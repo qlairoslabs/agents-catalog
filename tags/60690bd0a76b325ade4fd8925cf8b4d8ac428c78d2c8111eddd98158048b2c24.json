@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "60690bd0a76b325ade4fd8925cf8b4d8ac428c78d2c8111eddd98158048b2c24",
+ "domain": [
+  "productivity/meetings",
+  "productivity/notes"
+ ],
+ "product": [
+  "granola"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Gives access to Granola meeting notes and conversations for use as task context.",
+ "whenToUse": "Use when an agent needs past meeting notes to draft summaries, tickets or plans.",
+ "tasks": [
+  "read meeting notes",
+  "search conversations",
+  "use notes as context for tickets"
+ ],
+ "effects": {},
+ "flags": []
+}

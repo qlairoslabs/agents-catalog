@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0533f369e4414a8396b30aa33613995f2a5fe6a58a16bdb7026250d6f2da15db",
+ "domain": [
+  "real-estate/rentals",
+  "housing/czech-republic"
+ ],
+ "product": [
+  "bydleno"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches Czech apartment rental listings aggregated from 27 portals and merged into one offer per flat.",
+ "whenToUse": "Use when a user wants to find apartments to rent in the Czech Republic by location, layout, price or amenities.",
+ "tasks": [
+  "search rental listings",
+  "filter by location and layout",
+  "filter by price and area",
+  "filter by amenities and condition",
+  "filter by commission or availability"
+ ],
+ "effects": {
+  "a3342e9fe5c7c88339a808112c2dfb9dff14534af30c343c422fbf012d3aa136": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "047962ffdac17e9991320e5f9a29545e8eb967a9edadb747349146e7828554ef",
+ "domain": [
+  "development/ai-agents",
+  "development/package-registry"
+ ],
+ "product": [
+  "skillmd"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Searches, fetches, lints and installs Agent Skills defined as SKILL.md files from the SkillMD registry.",
+ "whenToUse": "Use when an agent needs to find, validate or install agent skills from the SkillMD registry.",
+ "tasks": [
+  "search skills",
+  "fetch skill files",
+  "lint skill.md",
+  "install skills"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "22f9be9403e343b6dac3bec307e3828aa76015eebd89f655a1916ee7dfdbc376",
+ "domain": [
+  "marketing/technographics",
+  "data/web-analysis"
+ ],
+ "product": [
+  "builtwith"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scores how much AI technology a website uses, based on BuiltWith data.",
+ "whenToUse": "Use when assessing a company's AI adoption from its website domain, e.g. for prospecting.",
+ "tasks": [
+  "score website ai adoption"
+ ],
+ "effects": {
+  "e8eb32ad25d798788f2685231f7d33d901c1ca8bf9acae092361169a2c7a071c": "read"
+ },
+ "flags": []
+}

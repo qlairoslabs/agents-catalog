@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0816e77b8ef179c0843fcb23ef2a89c4f9c7a91048fc2d5206f4f3ee70e49a8f",
+ "domain": [
+  "cloud/azure/inventory"
+ ],
+ "product": [
+  "azure-resource-graph"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lists and finds Azure resources across subscriptions and resource groups, including tag analysis and orphaned resources.",
+ "whenToUse": "Use when a user asks what Azure resources they have or wants to find resources by type or tag.",
+ "tasks": [
+  "list web apps",
+  "list virtual machines",
+  "list storage accounts",
+  "find container apps",
+  "find resources by tag",
+  "count resources by type",
+  "find unattached disks",
+  "discover orphaned resources",
+  "run resource graph queries"
+ ],
+ "effects": {},
+ "flags": []
+}

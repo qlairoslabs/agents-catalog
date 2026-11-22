@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "1c775de8cd4af99ee206d88b2ed0d67e36549c87f32ab7a297def183fda9208a",
+ "domain": [
+  "data/pipelines/etl",
+  "data/data-lake"
+ ],
+ "product": [
+  "amazon-s3-tables",
+  "apache-iceberg",
+  "aws-glue",
+  "amazon-redshift",
+  "snowflake",
+  "bigquery",
+  "amazon-dynamodb",
+  "amazon-rds"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Imports data into an AWS data lake from files, databases, warehouses or DynamoDB as one-time loads, recurring pipelines or migrations.",
+ "whenToUse": "Use when data must be loaded, synced or migrated into S3 Tables or Iceberg on AWS.",
+ "tasks": [
+  "load s3 or local files",
+  "ingest from jdbc databases",
+  "pull from snowflake or bigquery",
+  "export dynamodb",
+  "migrate glue tables",
+  "set up recurring etl pipelines",
+  "convert to iceberg",
+  "run ctas"
+ ],
+ "effects": {},
+ "flags": []
+}

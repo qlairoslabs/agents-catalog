@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2fb86a0385b60f1b7e859d1205d7d81a40c4bec48616b3e468a0306e480dd860",
+ "domain": [
+  "marketing/qr-codes",
+  "design/print"
+ ],
+ "product": [
+  "lnx"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates styled, print-ready QR codes for links, text, email or phone with frames and custom colors.",
+ "whenToUse": "Use when the user needs a customized QR code for print or sharing.",
+ "tasks": [
+  "generate qr code",
+  "style with colors",
+  "add frames",
+  "encode links text email or phone"
+ ],
+ "effects": {},
+ "flags": []
+}

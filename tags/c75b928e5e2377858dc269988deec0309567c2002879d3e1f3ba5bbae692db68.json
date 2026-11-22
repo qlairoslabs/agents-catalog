@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c75b928e5e2377858dc269988deec0309567c2002879d3e1f3ba5bbae692db68",
+ "domain": [
+  "hiring/job-search"
+ ],
+ "product": [
+  "stellenonline"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Read-only search and counting of job listings on the German portal stellenonline.de, with salary, location and type filters.",
+ "whenToUse": "Use when a user wants to find or count jobs in Germany.",
+ "tasks": [
+  "search jobs",
+  "count jobs",
+  "filter by salary",
+  "filter by location and radius",
+  "filter by employment type",
+  "get total job count"
+ ],
+ "effects": {
+  "499eb62439c5d1e2fadf4d3579360f7eff426f6832f619ec9058177a1b5ab44c": "write",
+  "798d9ad125557a3467096b08912704849b6c4adca3009c87f7673a84e23025da": "read",
+  "67d8cef58f4bc297b3372d685f56a0223b54a8f8cdab9f7c8043fcc819a27ba2": "read"
+ },
+ "flags": []
+}

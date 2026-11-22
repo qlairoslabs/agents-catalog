@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "53df22e3ed4a4f4415ddff985cfb327b91058abc2afd20375338d7901f83632c",
+ "domain": [
+  "consumer/smart-home",
+  "product-reviews"
+ ],
+ "product": [
+  "smarthomeexplorer",
+  "google-home",
+  "alexa",
+  "homekit",
+  "smartthings",
+  "matter",
+  "home-assistant"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Smart home product database with consensus review scores, compatibility checks, comparisons and buying guides.",
+ "whenToUse": "Use when choosing smart home devices or checking whether a device fits an existing ecosystem.",
+ "tasks": [
+  "search products",
+  "get product verdict",
+  "check compatibility",
+  "compare products",
+  "get buying guides"
+ ],
+ "effects": {
+  "f66a3c9014efeae0b8b2808d1b9d3739a9d90d2e17b711e4800182c6d56adebd": "read",
+  "2ccec080f6e0fe9652c8a8cd5111bfd39281d8a430f5db9c0f6b0265230b2ddd": "read",
+  "1bda191811e5895b41938993e7435ee9aed2c6919b4a886f97a03ee3bac62935": "read",
+  "0aae3839881e0e61abaaab98bfaa737aa9338bd474d3856b88f09c409c12fe6f": "read",
+  "a09e2607ef2b402929c8a758d3caefe889ad1b5e45202c6ba6960e2e55e14514": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "083504cc73fdb6614125283e5afa8dc8526c19790dffab78948982992e2348e1",
+ "domain": [
+  "sales/quoting",
+  "construction/contractors"
+ ],
+ "product": [
+  "sendquotenow",
+  "stripe"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Creates branded contractor quotes with a hosted approval page, PDF, QR code and Stripe payment link.",
+ "whenToUse": "Use when an agent needs to produce a contractor quote that a client can approve and pay online.",
+ "tasks": [
+  "generate quotes",
+  "create pdf quotes",
+  "create approval page",
+  "generate qr code",
+  "create stripe payment link"
+ ],
+ "effects": {},
+ "flags": []
+}

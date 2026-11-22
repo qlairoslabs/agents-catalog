@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6e3f5da877a14f11a01121756a62e6fd996f4fc287859f5d48857da0a0ae7786",
+ "domain": [
+  "software/ci-cd",
+  "software/devops"
+ ],
+ "product": [
+  "circleci"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Official CircleCI server for inspecting projects, pipeline runs, workflows, jobs, logs, tests and artifacts.",
+ "whenToUse": "Use when diagnosing CircleCI build failures or reviewing pipeline, test and artifact details.",
+ "tasks": [
+  "inspect projects",
+  "view pipeline runs",
+  "inspect workflows",
+  "view jobs",
+  "read build logs",
+  "review test results",
+  "fetch artifacts"
+ ],
+ "effects": {},
+ "flags": []
+}

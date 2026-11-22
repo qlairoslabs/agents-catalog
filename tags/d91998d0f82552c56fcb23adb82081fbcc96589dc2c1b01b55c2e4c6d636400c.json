@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d91998d0f82552c56fcb23adb82081fbcc96589dc2c1b01b55c2e4c6d636400c",
+ "domain": [
+  "software/crm-development",
+  "crm"
+ ],
+ "product": [
+  "salesforce",
+  "apex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Tools and skills for building Salesforce apps and agents covering metadata, Apex, deployment, security and reporting.",
+ "whenToUse": "Use when developing, deploying or retrieving Salesforce metadata, Apex code or agents.",
+ "tasks": [
+  "work with salesforce metadata",
+  "write apex",
+  "deploy and retrieve metadata",
+  "configure security",
+  "build reports",
+  "discover installed capabilities"
+ ],
+ "effects": {},
+ "flags": []
+}

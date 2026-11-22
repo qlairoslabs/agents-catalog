@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9fabbca82adc980f522bb91586100250c65c7fe160b2c0841ea514b5c11d6217",
+ "domain": [
+  "communication/email"
+ ],
+ "product": [
+  "gmail",
+  "outlook",
+  "imap",
+  "smtp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Reads, searches, drafts, sends and organizes email across Gmail, Outlook and IMAP/SMTP accounts.",
+ "whenToUse": "Use when an agent needs to handle a user's email in Gmail, Outlook or a generic IMAP mailbox.",
+ "tasks": [
+  "read email",
+  "search mailbox",
+  "draft email",
+  "send email",
+  "organize messages"
+ ],
+ "effects": {},
+ "flags": []
+}

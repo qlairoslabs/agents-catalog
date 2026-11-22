@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "588398496bb0cc656f9bd53414e0f28836885c866ab69705678e01f169252679",
+ "domain": [
+  "software/networking/bgp",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "pwhois"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up live BGP routing and registry data: IP origin, ASN prefixes, transit paths and organizations.",
+ "whenToUse": "Use when investigating who owns an IP address, which ASN announces it, or network routing.",
+ "tasks": [
+  "look up ip origin asn",
+  "list asn prefixes",
+  "view transit relationships",
+  "search organizations"
+ ],
+ "effects": {},
+ "flags": []
+}

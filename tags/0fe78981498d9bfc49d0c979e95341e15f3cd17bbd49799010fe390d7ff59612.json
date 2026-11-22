@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0fe78981498d9bfc49d0c979e95341e15f3cd17bbd49799010fe390d7ff59612",
+ "domain": [
+  "software/mobile/react-native",
+  "software/debugging"
+ ],
+ "product": [
+  "react-native"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets agents inspect and drive running React Native apps via logs, a REPL, taps and screenshots.",
+ "whenToUse": "Use when an agent needs to debug or interact with a running React Native app.",
+ "tasks": [
+  "read app logs",
+  "run code in repl",
+  "tap ui elements",
+  "take screenshots"
+ ],
+ "effects": {},
+ "flags": []
+}

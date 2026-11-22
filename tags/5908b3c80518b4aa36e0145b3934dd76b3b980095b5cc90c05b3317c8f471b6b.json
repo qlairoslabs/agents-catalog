@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5908b3c80518b4aa36e0145b3934dd76b3b980095b5cc90c05b3317c8f471b6b",
+ "domain": [
+  "software/cloud/infrastructure"
+ ],
+ "product": [
+  "google-compute-engine",
+  "google-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Google's connector for managing Compute Engine infrastructure such as virtual machines from an agent.",
+ "whenToUse": "Use when an agent needs to inspect or manage Google Compute Engine resources like VMs and disks.",
+ "tasks": [
+  "manage virtual machines",
+  "inspect compute resources"
+ ],
+ "effects": {},
+ "flags": []
+}

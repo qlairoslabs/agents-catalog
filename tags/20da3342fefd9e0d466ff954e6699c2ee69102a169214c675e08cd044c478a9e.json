@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "20da3342fefd9e0d466ff954e6699c2ee69102a169214c675e08cd044c478a9e",
+ "domain": [
+  "legal/lawyer-directory",
+  "germany"
+ ],
+ "product": [
+  "bundesrechtsanwaltskammer"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches the official German Federal Bar register for lawyers by city, name, practice area and language, and returns full lawyer profiles.",
+ "whenToUse": "Use when someone needs to find a lawyer in Germany or look up a lawyer's register entry and contact details.",
+ "tasks": [
+  "search lawyers by city",
+  "search by name or firm",
+  "filter by Fachanwalt area",
+  "filter by language",
+  "view lawyer profile",
+  "get contact data and ratings"
+ ],
+ "effects": {
+  "25488f3266bbf7d705347f27dc1afcb0a062c59cebb47e258ac56fd3d4713b9c": "write",
+  "4c18aff5adf4cd392e4a9febd98393ccdd88862b6c4eaa1d4967a113cb9483f2": "read"
+ },
+ "flags": []
+}

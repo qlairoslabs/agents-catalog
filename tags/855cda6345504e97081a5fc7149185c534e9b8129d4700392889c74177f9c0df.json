@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "855cda6345504e97081a5fc7149185c534e9b8129d4700392889c74177f9c0df",
+ "domain": [
+  "productivity/note-taking"
+ ],
+ "product": [
+  "hjarni"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Hosted markdown note-taking service with an MCP server so an AI can read and work with your notes.",
+ "whenToUse": "Use when a user wants an agent to search, read or write their markdown notes in hjarni.",
+ "tasks": [
+  "search notes",
+  "read notes",
+  "create notes",
+  "edit notes"
+ ],
+ "effects": {},
+ "flags": []
+}

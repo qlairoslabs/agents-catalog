@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ed8fb35f0bae6e8d43e250ed64006cf8773255d8b3844536a00261297ab58f7d",
+ "domain": [
+  "productivity/planner",
+  "productivity/tasks"
+ ],
+ "product": [
+  "tweek"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Connector to read and manage tasks and calendars in the Tweek weekly planner.",
+ "whenToUse": "Use when an agent needs to view or update tasks and calendars in Tweek.",
+ "tasks": [
+  "read tasks",
+  "manage tasks",
+  "read calendars",
+  "manage calendars"
+ ],
+ "effects": {},
+ "flags": []
+}

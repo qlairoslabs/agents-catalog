@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "9010913a106cafdee140eeaa35295bf8c8dade877f19a0d7712c157f224aec64",
+ "domain": [
+  "software/documentation",
+  "hardware/embedded"
+ ],
+ "product": [
+  "medius",
+  "rust"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Documentation for Medius: its binary control protocol, device behavior and Rust library.",
+ "whenToUse": "Use when integrating with Medius devices or its Rust library and you need protocol or API docs.",
+ "tasks": [
+  "list doc pages",
+  "read doc page",
+  "search docs",
+  "search",
+  "fetch page"
+ ],
+ "effects": {
+  "7e55d5c70f11fc46fc474e6aff22112a622d5dfe808eca545ac2bafb29ed7780": "read",
+  "188d6d29db8b298a601cde793de05f46a6424bd4743199fd37458ee659e42158": "read",
+  "3f93860d2bd2b839344f2228d09a3a8a67ec1b7592587f03983290d8406d0072": "read",
+  "13d68d0c5eaebd3092cfff9a44b365c809f8a4b12981f634be1705d994241f4d": "read",
+  "e64c211dffe25ccd0431cc6f773b24c14cf790ca24e889017457c1b6af055d8a": "read"
+ },
+ "flags": []
+}

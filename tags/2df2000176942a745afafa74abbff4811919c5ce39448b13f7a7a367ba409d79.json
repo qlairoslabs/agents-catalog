@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2df2000176942a745afafa74abbff4811919c5ce39448b13f7a7a367ba409d79",
+ "domain": [
+  "data/big-data",
+  "cloud/google-cloud"
+ ],
+ "product": [
+  "google-cloud",
+  "dataproc"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Manages Google Cloud Dataproc clusters and jobs.",
+ "whenToUse": "Use when creating, running or managing Dataproc clusters and Spark/Hadoop jobs.",
+ "tasks": [
+  "manage dataproc clusters",
+  "submit jobs",
+  "monitor jobs"
+ ],
+ "effects": {},
+ "flags": []
+}

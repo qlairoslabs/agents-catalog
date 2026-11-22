@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "20d45e072da12d7d257266cb0b93669145c990359c14b877f081bf4adb18da67",
+ "domain": [
+  "media/ai-generation"
+ ],
+ "product": [
+  "eachlabs"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Orchestrates AI models to generate images, video and audio from within AI apps.",
+ "whenToUse": "Use when an agent needs to generate or chain image, video or audio models.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "generate audio",
+  "orchestrate media models"
+ ],
+ "effects": {},
+ "flags": []
+}

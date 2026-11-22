@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "f1e3a4265e02a3e50daf95fa03f38f81e285caf743cbb8a82a162db6a6161362",
+ "domain": [
+  "software/ai-agents/testing",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "salesforce",
+  "agentforce",
+  "salesforce-cli"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Writes, runs and analyzes functional and security test suites for Agentforce agents, including red-teaming and prompt-injection tests.",
+ "whenToUse": "Use when creating or running Agentforce test specs, interpreting test results, or assessing an agent's security against LLM threats.",
+ "tasks": [
+  "write test spec yaml",
+  "run agent test suites",
+  "analyze test results",
+  "diagnose test failures",
+  "plan test coverage and metrics",
+  "set up ci/cd test integration",
+  "run prompt-injection and red-team tests",
+  "grade agent security"
+ ],
+ "effects": {},
+ "flags": []
+}

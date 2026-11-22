@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "10edd539e5f00b9364cccf8180e8e15106111304fa9ca72fcd592b0df66a057e",
+ "domain": [
+  "government/news-releases"
+ ],
+ "product": [
+  "government-of-canada"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searchable feed of Canadian federal, provincial and territorial government news releases from the past seven days.",
+ "whenToUse": "Use when someone needs recent official Canadian government announcements, filtered by jurisdiction or policy topic.",
+ "tasks": [
+  "get latest government releases",
+  "search releases by keyword",
+  "filter by jurisdiction and topic",
+  "list jurisdictions and topics"
+ ],
+ "effects": {
+  "8c6609755c1be1449f6145bad3943987dd664e4daa68bd5dce7ab624ae28362b": "read",
+  "081ff7c844b8e553cf4d6caa6ab46abfaad89bdfceae827f6ec8b54b0e5046b2": "read",
+  "0466e4968d38a7d8e20b91a66380cab3a95c021414e77bc4b8a14a61a7957797": "read"
+ },
+ "flags": []
+}

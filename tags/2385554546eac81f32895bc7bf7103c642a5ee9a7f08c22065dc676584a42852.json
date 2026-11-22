@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "2385554546eac81f32895bc7bf7103c642a5ee9a7f08c22065dc676584a42852",
+ "domain": [
+  "hosting/self-hosted-apps",
+  "media/streaming"
+ ],
+ "product": [
+  "elfhosted",
+  "immich",
+  "plex",
+  "stremio",
+  "aiostreams",
+  "openclaw",
+  "hermes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Browse ElfHosted's hosted open-source apps with live prices, trial details, savings options, docs and status; no account needed.",
+ "whenToUse": "Use when helping someone choose, price or learn about hosted apps like Immich, Plex or AIOStreams on ElfHosted.",
+ "tasks": [
+  "browse apps",
+  "compare apps",
+  "explain trial",
+  "find savings",
+  "search docs",
+  "read docs",
+  "check platform status",
+  "suggest setup",
+  "suggest companion apps"
+ ],
+ "effects": {
+  "5df6bb6d779c8a1c427d232c579932b46cf622d482b63a476bcffd318d222e25": "read",
+  "4490a1f27cda6ed3892313c0883c06645c80437fa58f6e12ffcf7135653c26cc": "read",
+  "a1a18a689680c8f4fac39cf858006d3fb1995acfa3903ebe536c17feecf22f50": "read",
+  "6aa5dd086b5857d125f36af31390b6f476821636aba46297a47953624b8d31c3": "read",
+  "c529296cf2454c3396ad04417e4ffb11592d5e39d2fffdfdea991d21c4e82ad8": "read",
+  "76dfc58273dc8e9beb89003d3e31bd7f97901ac6f01ecaea1940b55016140bcb": "read",
+  "3e7062c75bf93bd61cd4a82433fbb2db0337a8e852d88ae0d02c21e02f87ecc9": "read",
+  "c1102e3f3b5930374ee3af8fb3a8a2a1c1aa09562decb840a8a9f7af98ccd13c": "read",
+  "dad900fdd98e7e22164b5ef1f553421423eb53cd632a6175ffb37957a55d6269": "read",
+  "0fae0260b9605a070a816cfffa1fdb7a80bca52c0f958a97278fdd516889886d": "read"
+ },
+ "flags": []
+}

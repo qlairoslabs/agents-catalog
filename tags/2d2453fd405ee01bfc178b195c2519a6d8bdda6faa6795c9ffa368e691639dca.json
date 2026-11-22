@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2d2453fd405ee01bfc178b195c2519a6d8bdda6faa6795c9ffa368e691639dca",
+ "domain": [
+  "entertainment/books/recommendations"
+ ],
+ "product": [
+  "siftivo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Recommends books based on reading history and gives access to the user's shelves, ratings and series order.",
+ "whenToUse": "Use when a user wants book suggestions or details about their reading shelves and series.",
+ "tasks": [
+  "recommend books",
+  "view shelves",
+  "view ratings",
+  "get series order"
+ ],
+ "effects": {},
+ "flags": []
+}

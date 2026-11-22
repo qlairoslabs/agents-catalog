@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "5832c8fd5514423e58b2427b555ffb0ba1bbee40da04d5553aebfe7754523339",
+ "domain": [
+  "sports/data",
+  "sports/football"
+ ],
+ "product": [
+  "betrend"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live scores, fixtures, results, standings, team overviews and head-to-head records for football and other sports.",
+ "whenToUse": "Use when someone asks about current scores, match results, league tables or team history.",
+ "tasks": [
+  "search teams and competitions",
+  "get live scores",
+  "list matches by date",
+  "get match details",
+  "view standings",
+  "get team overview",
+  "compare head-to-head"
+ ],
+ "effects": {
+  "43218dd7103dc6937bf518e6b598c5d2fa7c13cd8554fcc4cb727bc9a9578e77": "read",
+  "8de44a77374611ae97d5ba614cfb97b1f81c9b2f3cd61ef72f45e1e9bdde82c3": "read",
+  "02de8709a7da9a82495265154bbb66cb63e947e12abb24e7231e02a7db0aacc1": "read",
+  "6597fc6efd7b601261c7b656dec6cf3f0b49ff9a3669cda09625ad63de4d140e": "read",
+  "fa546c81fef3a3528e1930a85513169bd97f200e78afa043d53dcd5a9f62e0c6": "read",
+  "49a957696c2fdc48fce0c60fafd91d9d93c270b214129209bef70b9626fb203b": "read",
+  "d60f2c9f55d698265d4556092adbfff50ea982f1ce52edb298421ea1050dd9c7": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d1e77490f744ca5ea291613939793e66b87a13f3fa26e848ec57676645f980bb",
+ "domain": [
+  "software/documentation",
+  "design/cad"
+ ],
+ "product": [
+  "autodesk"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads official Autodesk product documentation for over 110 products without requiring an API key.",
+ "whenToUse": "Use when the user has questions about using an Autodesk product.",
+ "tasks": [
+  "search autodesk docs",
+  "read product help"
+ ],
+ "effects": {},
+ "flags": []
+}

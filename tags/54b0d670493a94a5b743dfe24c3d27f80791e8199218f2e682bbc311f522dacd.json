@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "54b0d670493a94a5b743dfe24c3d27f80791e8199218f2e682bbc311f522dacd",
+ "domain": [
+  "health/physiotherapy-booking",
+  "healthcare/appointments"
+ ],
+ "product": [
+  "medimo",
+  "nhs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "be-online"
+ ],
+ "summary": "Finds UK private physiotherapy, osteopathy and chiropractic clinics with live availability, and builds a checkout link for the chosen slot.",
+ "whenToUse": "Use when someone in the UK wants to find and book a private physio, osteopath or chiropractor, or compare it with NHS waiting times.",
+ "tasks": [
+  "search clinics by postcode",
+  "check live availability",
+  "view clinic profile and prices",
+  "view practitioner profile",
+  "filter by insurer",
+  "build booking checkout link",
+  "look up NHS waiting times"
+ ],
+ "effects": {
+  "feff55f444ac022180811549de8dfabd5db0deee9272e27c086e03ae1fd81098": "write",
+  "0f5aa2fdd4e0e1ab9413d9c6ca84e4541bffb2ea7d30cfdf60defcea9a8fccc0": "write",
+  "36864f64e799a0402c42b4473a3ceca3fffeaf76681654479acebecb9c9a8151": "write",
+  "720328366817bc099bbb5276d3c72490cce3dee943a398a6dc3a6a2aae174e76": "read",
+  "8c61d90675c4b64de108b247a3b1f14f82505331977423c7b592201b12417ea9": "read",
+  "d0cd95dced5be40244ef355743ea43c007935755999ddc2207d71e9be7d86f16": "read"
+ },
+ "flags": []
+}

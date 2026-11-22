@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "fa3e86d23f0a735e605ceb8766a9fa8385f00ad0a8166a97158d3faa7a6f97d2",
+ "domain": [
+  "compliance/regulatory",
+  "software/ai-governance"
+ ],
+ "product": [
+  "eu-ai-act",
+  "quebec-law-25"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Regulatory obligation lookups, compliance roadmaps and rule-based allow, deny or escalate advice on AI agent actions across many jurisdictions.",
+ "whenToUse": "Use when a company needs to know which regulations apply to it, or an agent needs an advisory policy decision before taking a sensitive action.",
+ "tasks": [
+  "check regulatory obligations",
+  "map frameworks by jurisdiction",
+  "generate compliance roadmap",
+  "assess AI algorithmic compliance",
+  "decide whether an agent action is allowed"
+ ],
+ "effects": {
+  "61b876c3566127e5c05e5886c6c7a86a6fb1c55c672dab5cc224ffe591ecdf16": "read",
+  "7e00707080157e97bddeadcd25cf953841f0c40096ff19988d74620daa0c0358": "read",
+  "456a48d1e3acae157592e96c7f526296b7d3ba01a101af8b21ddb5572faaf737": "read",
+  "5b69731a35e27fb4ee9a53c23f492f8ac98bd74ed1c4467af18ce30dbf4aac1d": "read",
+  "4f24c687ca776e78ef209c1918e3b8a06ce8abbc01588adfb1d0c2184c519fc8": "write"
+ },
+ "flags": []
+}

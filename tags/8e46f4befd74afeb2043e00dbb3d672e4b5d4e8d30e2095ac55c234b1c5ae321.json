@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8e46f4befd74afeb2043e00dbb3d672e4b5d4e8d30e2095ac55c234b1c5ae321",
+ "domain": [
+  "software/specification",
+  "ai/multi-model"
+ ],
+ "product": [
+  "sparkvibeai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Has several AI models review and score a software spec against a rubric to produce a build-ready specification.",
+ "whenToUse": "Use when an agent needs a reviewed, scored software specification before starting implementation.",
+ "tasks": [
+  "commission spec committee",
+  "get rubric-scored specs",
+  "produce build-ready specs"
+ ],
+ "effects": {},
+ "flags": []
+}

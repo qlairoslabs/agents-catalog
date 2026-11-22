@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "aada3217bf05a583d9de14a74cf21df20e4cb941fea3134a71aeca4481937701",
+ "domain": [
+  "data/web-scraping"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Fetches web pages as markdown, HTML or JSON through the Bright Data CLI, including URL lists and paginated listings.",
+ "whenToUse": "Use when a user wants the content of specific pages or wants to crawl paginated listings.",
+ "tasks": [
+  "fetch page content",
+  "scrape lists of urls",
+  "crawl paginated listings",
+  "output markdown, html or json"
+ ],
+ "effects": {},
+ "flags": []
+}

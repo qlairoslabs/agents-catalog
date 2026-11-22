@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "07bfd218198af23719e4ba099528b9f43f21a1029e48e5d477d5520b76286f70",
+ "domain": [
+  "data/social-media",
+  "marketing/social-listening"
+ ],
+ "product": [
+  "reddit",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Reddit data through 15 endpoints, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs Reddit posts, comments or subreddit data and can pay per request in USDC.",
+ "tasks": [
+  "fetch reddit posts",
+  "fetch reddit comments",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

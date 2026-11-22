@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bbfc1e6648ea7104636761b0cc71bdeecbb4007d09afb6851adb7624e55231dc",
+ "domain": [
+  "software/api-discovery"
+ ],
+ "product": [
+  "apis-io"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Discover, rate and compare APIs and providers in the APIs.io catalog and manage your own listing.",
+ "whenToUse": "Use when an agent is looking for an API for a task or maintaining an APIs.io listing.",
+ "tasks": [
+  "search apis",
+  "compare apis",
+  "rate apis",
+  "manage own listing"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "ec7d43c12377699750075cc38464e5153944fe1fb1ed03139ed68b0cd1dc17f0",
+ "domain": [
+  "legal/case-law/switzerland"
+ ],
+ "product": [
+  "entscheidsuche.ch"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Full-text search of Swiss federal and cantonal court decisions in German, French and Italian.",
+ "whenToUse": "Use when an agent needs to find or read Swiss court judgments by topic or case number.",
+ "tasks": [
+  "search court decisions",
+  "search by case number",
+  "fetch full decision text",
+  "list courts and chambers",
+  "get facet tree",
+  "get server info"
+ ],
+ "effects": {
+  "91b9800942873d4e6a02a8dfd483c045dacae70659935c4aa1f88521102f613f": "write",
+  "39700cfb59e15900e73a1e4ec9dec88a7d80e801b6d9e200979e89563c6651a4": "read",
+  "de7a5f4c996a9ed189f7dee58556261135c5a429773af33177abaa9d90db2d5f": "read",
+  "1f04a839239bea0041cd295eae8f3cb1794340fd4aaac6df8bb2e5097f090088": "read",
+  "0c4bf300aefccf1c132b96e849189a92e20bc331fa954c5d126b17eaf16d6a0f": "read",
+  "037ca6bbecf3f47acd8ac50b7f48d7f56a39400d5260f69076645f9f6b1d2c9c": "read"
+ },
+ "flags": []
+}

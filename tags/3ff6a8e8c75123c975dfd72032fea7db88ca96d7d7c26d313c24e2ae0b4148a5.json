@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "3ff6a8e8c75123c975dfd72032fea7db88ca96d7d7c26d313c24e2ae0b4148a5",
+ "domain": [
+  "commerce/price-comparison"
+ ],
+ "product": [
+  "ironscout"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only ammunition price lookup with retailer offers, caliber price statistics and a retailer list.",
+ "whenToUse": "Use when the user wants current ammunition prices, offers by caliber or market price ranges.",
+ "tasks": [
+  "search ammo offers",
+  "get product offers",
+  "get caliber price snapshot",
+  "list calibers",
+  "list retailers"
+ ],
+ "effects": {
+  "7106420c80741cf304fe668b9b575c91935a1df2d23f91fccbcd9c16fe48bac0": "read",
+  "103feeaeacd4edfb405feb4744b0f76ff00deb005383ceffbd521137881f6c6d": "read",
+  "4817ac07ddd527e761859f157dfb0472571a9339593fd2d9b1155b072a266643": "write",
+  "19c0224b074f8f0d258014cf796ca409c36b65db4da58ccdaef1372673f6eb40": "read",
+  "386c6c71caa9b31207350bab338b3e750178d86e979b3cb8573cf3d5ae579dff": "read"
+ },
+ "flags": []
+}

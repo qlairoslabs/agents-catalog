@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "89278ed6fc49e1a3f2e2080ddaee1868955a0e03977b907046a86cdad003f124",
+ "domain": [
+  "sales/crm",
+  "support/customer-portal"
+ ],
+ "product": [
+  "formaportal"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets users query their FormaPortal customer portal and CRM data in natural language.",
+ "whenToUse": "Use when a user wants answers from data held in their FormaPortal customer portal or CRM.",
+ "tasks": [
+  "query crm records",
+  "query customer portal data"
+ ],
+ "effects": {},
+ "flags": []
+}

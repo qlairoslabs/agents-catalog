@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a04a248e123769ed531998009316d1517ce09a9105a0981dc012941058cdd094",
+ "domain": [
+  "ai/model-platform",
+  "software/ai-development"
+ ],
+ "product": [
+  "together-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for using Together AI for inference, fine-tuning, embeddings, media generation, batch jobs and GPU infrastructure.",
+ "whenToUse": "Use when building on Together AI models or infrastructure.",
+ "tasks": [
+  "run chat completions",
+  "generate images and video",
+  "process audio",
+  "create embeddings",
+  "fine-tune models",
+  "run batch inference",
+  "run evaluations",
+  "use sandboxes",
+  "manage dedicated endpoints",
+  "manage gpu clusters",
+  "use function calling"
+ ],
+ "effects": {},
+ "flags": []
+}

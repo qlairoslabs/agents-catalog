@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "5d6b92daf39c88b1b82c9f1e00bb9aaa555cf5c25cc980c33a3109319b7b46e1",
+ "domain": [
+  "software/build-tools/monorepo"
+ ],
+ "product": [
+  "nx"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server that gives agents access to Nx workspaces and tooling.",
+ "whenToUse": "Use when working in an Nx monorepo and the agent needs workspace or project information.",
+ "tasks": [
+  "inspect nx workspace",
+  "work with nx projects"
+ ],
+ "effects": {},
+ "flags": []
+}

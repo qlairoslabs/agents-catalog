@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0a862920dbf3510f8b314550a9a7169a8477529ddd7798c93030fb466c20a92b",
+ "domain": [
+  "data/catalog/search",
+  "data/governance"
+ ],
+ "product": [
+  "atlan",
+  "snowflake"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Explains which Atlan MCP tools and filters to use to find assets, lineage, glossary terms and metadata in the Atlan catalog.",
+ "whenToUse": "Use for discovery questions over Atlan catalog metadata such as finding tables, owners, tags, lineage or asset counts.",
+ "tasks": [
+  "semantic search assets",
+  "filter assets by metadata",
+  "traverse lineage",
+  "resolve custom metadata",
+  "look up glossary terms",
+  "count assets by domain",
+  "find users and owners"
+ ],
+ "effects": {},
+ "flags": []
+}

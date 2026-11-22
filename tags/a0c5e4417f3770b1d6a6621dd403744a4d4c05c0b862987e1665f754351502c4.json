@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "a0c5e4417f3770b1d6a6621dd403744a4d4c05c0b862987e1665f754351502c4",
+ "domain": [
+  "software/cloud",
+  "documentation"
+ ],
+ "product": [
+  "aws",
+  "amazon-bedrock",
+  "agentcore"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads AWS documentation, checks regional availability of services and APIs, and retrieves AWS skills for building agents on AWS.",
+ "whenToUse": "Use when you need authoritative AWS documentation, regional availability or AWS skills while building on AWS.",
+ "tasks": [
+  "search documentation",
+  "read doc pages",
+  "list regions",
+  "check regional availability",
+  "retrieve skills"
+ ],
+ "effects": {
+  "e309fd80c75baf7f4877fdfc63ba5164665e86c7d3efba40b09336971c1dc6da": "write",
+  "1bcdcef4828a7c51c55f5cb9b8cd9fbbd333a49df8958952f3cf510f7b1e2606": "write",
+  "c8eb73a55548dc7697b17284c793fda38fe89b26e9d968d9fdde1d51f0f9d65c": "read",
+  "290177bbb7afcc059d1231e47d409d8fe2d6805ffde438e0323a22b3abcec7a3": "write",
+  "53239a04d6cad9d9eb84ffe75bf17a0c0c6a77fcd18c2e35fc81082e67b1be5b": "read"
+ },
+ "flags": []
+}

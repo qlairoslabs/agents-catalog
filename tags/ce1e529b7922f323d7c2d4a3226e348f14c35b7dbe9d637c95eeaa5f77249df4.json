@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ce1e529b7922f323d7c2d4a3226e348f14c35b7dbe9d637c95eeaa5f77249df4",
+ "domain": [
+  "data/statistics",
+  "research/econometrics"
+ ],
+ "product": [
+  "stata",
+  "r"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Econometrics and causal inference methods such as DiD, IV, RD, synthetic control and DML, graded against Stata and R.",
+ "whenToUse": "Use when an agent must run causal inference or econometric analysis on data.",
+ "tasks": [
+  "difference-in-differences",
+  "instrumental variables",
+  "regression discontinuity",
+  "synthetic control",
+  "double machine learning"
+ ],
+ "effects": {},
+ "flags": []
+}

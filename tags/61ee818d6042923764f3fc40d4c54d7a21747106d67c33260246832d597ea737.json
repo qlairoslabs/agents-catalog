@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "61ee818d6042923764f3fc40d4c54d7a21747106d67c33260246832d597ea737",
+ "domain": [
+  "software/documentation",
+  "software/web-framework"
+ ],
+ "product": [
+  "farmjs"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Search and read the Farm.js documentation: pages, sections, code examples, config options and change feeds.",
+ "whenToUse": "Use when you need accurate Farm.js docs, config options or code examples while building a project.",
+ "tasks": [
+  "search docs",
+  "read pages and sections",
+  "get code examples",
+  "get config schema",
+  "build budgeted context",
+  "list navigation",
+  "track content changes",
+  "list agent tasks",
+  "submit doc feedback"
+ ],
+ "effects": {
+  "0f3fa0f9ded6ee074f131bd1f692474fc150f642e063bbee3b25b72237e55166": "read",
+  "0bf7c0479ac236f008226c973262340017fa8e945c82ee789a3ec62be7053301": "read",
+  "733c21e9956773a90d715b8f8fcacd5bf86ba994bd2dfb480731ed30f997160e": "read",
+  "d934dd6133a27154512436c61e4e7e4dde17437af7a40ea4924d1eb583bca12f": "read",
+  "8b63bb1ef5fc17b4965eaa3ced02c7ac17de5c5f38e76942fac61d158a484bd8": "read",
+  "92a43457f433365d742405d432cf7105f86a288dcd8c807000a6f56e1c41d558": "read",
+  "e0dc59068e5c1be39d819cb5f7332d75b88ef38e5e62c7fee0aa02a6ec373379": "read",
+  "0e17b532660021f35d5b177a2ad3b11d4e6961ed13b7c9b1fc9fba185be655c9": "read",
+  "91d1b7655df1219cf4d6dddb31e99eb73e2bb453b925b1e72d7ec72805cf9600": "read",
+  "25653a268b67362d203aec6b64ef9e64c01f759d88a387715718fb382d0f878e": "read",
+  "42081a8980d0a1d1e671074d7099505f44f91d55950fae08f4838e6ffa46635c": "read",
+  "070d3250336f96bfe283821ea71f8b9a8c7e00ebef98b51828220ab1927d43e6": "read",
+  "729e2b4fd9662f3cc69cc6e6745647a4e34f952a00b30d6666798826db713e58": "read",
+  "7937def7da975168448be592d60a8314808e482dd1f6b7440063e80349bbbb8c": "read",
+  "2ba018f1b5d21cac02b6e1a46a257b88eb16fe48623f27e1689ff7583135aaee": "read",
+  "ac88ae237324ab1ad4dbd2e93d69e9c8b63363f01899c481674bf7b3c93d2af3": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d6ed60069b37fa5e2ef43abc1af0494a86f64ce83f1b9ef31ea0f061ab74d573",
+ "domain": [
+  "ecommerce/custom-products",
+  "design/custom-merchandise"
+ ],
+ "product": [
+  "skateboardpersonalizado"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Places artwork on a custom skateboard deck, returns a 3D preview and a link to order it.",
+ "whenToUse": "Use when a user wants to turn artwork or a simple composition into a custom skateboard deck.",
+ "tasks": [
+  "get deck artwork spec",
+  "create deck from image",
+  "create deck from shapes and text",
+  "get 3D preview and order link"
+ ],
+ "effects": {
+  "a3d779ac4bc481bf54ecde9b8a335d47e28125470cc8db02309e4074558bd22e": "read",
+  "ed206e3e8c23b3af5f35a8a4a049c4c03e346c9c0bbcbfce80be9eed7b774994": "write"
+ },
+ "flags": []
+}

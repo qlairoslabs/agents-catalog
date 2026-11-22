@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8f32e46d92da808a95ab2cedbd54e878d9156318cb619fd5d4a60138d6a03f28",
+ "domain": [
+  "web/domains",
+  "web/dns"
+ ],
+ "product": [
+  "namefi"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Searches, buys and manages domains, DNS records, orders and NFSC balance on Namefi.",
+ "whenToUse": "Use when registering domains or editing DNS records through Namefi.",
+ "tasks": [
+  "search domains",
+  "buy domains",
+  "manage dns records",
+  "view orders",
+  "check nfsc balance"
+ ],
+ "effects": {},
+ "flags": []
+}

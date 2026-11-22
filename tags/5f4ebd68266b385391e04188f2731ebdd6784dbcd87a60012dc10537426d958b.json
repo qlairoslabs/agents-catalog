@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5f4ebd68266b385391e04188f2731ebdd6784dbcd87a60012dc10537426d958b",
+ "domain": [
+  "data/analytics/machine-learning",
+  "data/sql"
+ ],
+ "product": [
+  "bigquery",
+  "google-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Guides writing BigQuery AI and machine learning queries with standard SQL and AI functions.",
+ "whenToUse": "Use when an agent needs to run AI or ML operations inside BigQuery via SQL.",
+ "tasks": [
+  "write bigquery ml sql",
+  "use bigquery ai functions"
+ ],
+ "effects": {},
+ "flags": []
+}

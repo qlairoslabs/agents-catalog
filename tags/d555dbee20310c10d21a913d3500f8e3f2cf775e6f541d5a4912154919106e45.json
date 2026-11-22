@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d555dbee20310c10d21a913d3500f8e3f2cf775e6f541d5a4912154919106e45",
+ "domain": [
+  "legal/document-explanation"
+ ],
+ "product": [
+  "klaro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Explains contracts, official letters and tax notices clause by clause in plain language from text, PDF or photos.",
+ "whenToUse": "Use when a user needs a plain-language explanation of a contract, letter or tax assessment.",
+ "tasks": [
+  "explain contract clauses",
+  "explain tax notices",
+  "read photos with OCR",
+  "summarize documents",
+  "fetch pending analysis"
+ ],
+ "effects": {
+  "1a14756e40bc1c3e4338583b48a87ef26f6441760612c1bedde174aae48fa794": "write",
+  "f69d82f368d28c8c483efec833a3943a1e635df28311b2bb8e8214b6fab36a19": "read"
+ },
+ "flags": []
+}

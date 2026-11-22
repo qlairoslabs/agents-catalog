@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "72727f2c8154b708bd49994a5983642d20256ac597eefb311b3d3ec4f2045522",
+ "domain": [
+  "finance/fixed-income",
+  "finance/macroeconomics"
+ ],
+ "product": [
+  "helious"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Market data on US Treasury auction tails, yield curve regime, scored macro releases and explanations of rate moves.",
+ "whenToUse": "Use when an agent needs analysis of US Treasury auctions, yield curves or macro data affecting rates.",
+ "tasks": [
+  "view treasury auction tails",
+  "check yield curve regime",
+  "review scored macro releases",
+  "explain rate moves"
+ ],
+ "effects": {},
+ "flags": []
+}

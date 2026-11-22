@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "30798f6cdec2c74997fd00ca52b54983a74786620a47cba3f92b206223b08e3f",
+ "domain": [
+  "software/authentication",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-cognito",
+  "aws-amplify",
+  "api-gateway",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for adding user sign-up and sign-in to web and mobile apps with Amazon Cognito and Amplify auth libraries.",
+ "whenToUse": "Use when adding login, MFA, OAuth or federation to an app with Cognito, or debugging token and redirect errors.",
+ "tasks": [
+  "build sign-up and sign-in flows",
+  "configure user pools and app clients",
+  "set up mfa and password policies",
+  "configure oauth and oidc flows",
+  "wire social and saml federation",
+  "manage tokens",
+  "configure cognito lambda triggers",
+  "protect api gateway routes",
+  "debug auth errors"
+ ],
+ "effects": {},
+ "flags": []
+}

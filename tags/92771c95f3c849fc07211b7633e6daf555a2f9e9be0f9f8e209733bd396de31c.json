@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "92771c95f3c849fc07211b7633e6daf555a2f9e9be0f9f8e209733bd396de31c",
+ "domain": [
+  "real-estate/market-data",
+  "real-estate/rental-management"
+ ],
+ "product": [
+  "morya"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides French real-estate prices, rents, listings and yield estimates, plus rental property management.",
+ "whenToUse": "Use when a user asks about property prices, rents or rental yield in France or manages a rental there.",
+ "tasks": [
+  "look up property prices",
+  "look up rents",
+  "search listings",
+  "estimate rental yield",
+  "manage rentals"
+ ],
+ "effects": {},
+ "flags": []
+}

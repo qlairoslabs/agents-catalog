@@ -1,0 +1,65 @@
+{
+ "classifier": 2,
+ "contentHash": "7761e5ca9130133bf138f08e67c4aa6bdb6c1d3ab71a2ca48ac90c49c9a68464",
+ "domain": [
+  "sports/betting-analytics",
+  "data/analytics"
+ ],
+ "product": [
+  "olympus-bets",
+  "polymarket",
+  "kalshi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only sports betting analytics: model projections, player props, track record, methodology and market fair value across many leagues, with premium tiers behind a bearer token.",
+ "whenToUse": "Use when an agent needs sports game projections, betting edges, pick history or model-versus-market metrics.",
+ "tasks": [
+  "get daily projections",
+  "view performance record",
+  "browse pick history",
+  "read methodology",
+  "get league schedules",
+  "get game recommendations",
+  "fetch premium slate",
+  "query player props",
+  "view oracle board",
+  "compare model to market",
+  "look up team and player profiles",
+  "see subscription plans"
+ ],
+ "effects": {
+  "abd8bf188daac68eb5d0910b060a5cd76adf5309b827c59f821d85e5befe0999": "write",
+  "f4b7962785146115ecb1c627d3b0617ec0cab77490e8186074dd5b8c346e7795": "write",
+  "58a986f5356df6d1e7ad0f6b851e410d503ab3951f95a702ac6414fa8b5f105a": "write",
+  "a95e3540201231611b41bc26ed0be570165c5403c6bab03da0cf565f42da5818": "write",
+  "edd0debc2551c66b240af3ea1aba79ce5e313302ef6feff9aeb9d30f7bb8487f": "read",
+  "5602d5f271ea2b413a247baa9d36fffbaf0426ef949c4b900a36f9923c0b3f71": "write",
+  "0e51a6027eba74c5a2d8ed013dd91d3fcac942273bbdfb194ac7e6fb83bfe6e1": "write",
+  "2f378aa3af5253b6e4285140952e587a352f1dfebe22e0a156c44c9d0315d43a": "write",
+  "1c915eba0e55836312225c1ca1910409f671a1abdf231099017a06fc546ab99d": "write",
+  "3e8442fc8089365c2eb1d407d8a2c4ae88ec0199d418409c6e43761789c153ab": "write",
+  "802da027d7ea1e75acc94a046633a3a0dba1f96fd924f9e8162c9609b8339c17": "read",
+  "7ede96a85024b742c38be54b81e28fb55fb2242e1103a70d1d3d203b55e61d68": "read",
+  "e1b2ea1d728ab0dedf55e2bf6c599d70d1d564df2ef3d18463dca00c6e920de8": "read",
+  "bc9192b7c81bbe93a5a834d1cda67ca875ddd11ae6c985d5c54810e4413e87a9": "write",
+  "18856631d35ed4a13766d560acf542f97a963bcb5993396f45a1f30d4dbb4172": "write",
+  "1935a9e5f40aa348ad3151ff3aee1e751e02f1d0d947fb2c168ed20b1615be1a": "write",
+  "43956b7b5eba4f441f0895da7bb6f4aeb943a472b22b9098dac5375e4c905933": "write",
+  "650e09f0481d8d8969068d18ec5d6bca7dd8faf2f30e03df449846682c53e7c0": "write",
+  "ca072fbd2c214ba1ec208e9ded57d2b85f1350250e7d1e59ea843157055759a5": "read",
+  "b44ea92d7239aab621e1e10341a80c4fd57d1f4ccb4722dc7a12f49adc79e098": "write",
+  "b0fb85999a4dc719609a369cdf620e1c44d24b770e26105434c562a28b679e47": "read",
+  "2da999cb5cb05d2f592edd1a9d951d7176fdae63f201e929003992c5546bbfab": "read",
+  "fce485460dfb04979d57fbf27390973881d51c62c737ac4bf3af6ef0f535e0d1": "read",
+  "e625638b5e06e9e4528fddc8d972cb299d4853f899064a973767ff0f11eb7762": "read"
+ },
+ "flags": [
+  "tool descriptions tell the agent to echo fields verbatim",
+  "get_subscription_options nudges the agent to complete a Stripe checkout if authorized"
+ ]
+}

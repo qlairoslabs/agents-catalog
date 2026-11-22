@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d00e88ff4bd02dc282df75f6b8dc02e3f2922d86a33dc0bb4cbaf70b1d53db0f",
+ "domain": [
+  "software/code-intelligence",
+  "software/development"
+ ],
+ "product": [
+  "spiderbrain"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides a deterministic context layer for a codebase, showing change impact and blast radius with cited answers.",
+ "whenToUse": "Use when assessing what a code change affects or answering codebase questions with sources.",
+ "tasks": [
+  "analyze change impact",
+  "find blast radius",
+  "answer codebase questions with sources"
+ ],
+ "effects": {},
+ "flags": []
+}

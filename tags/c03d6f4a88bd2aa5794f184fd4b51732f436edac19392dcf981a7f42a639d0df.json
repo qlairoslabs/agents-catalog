@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "c03d6f4a88bd2aa5794f184fd4b51732f436edac19392dcf981a7f42a639d0df",
+ "domain": [
+  "software/cloud/storage",
+  "software/infrastructure"
+ ],
+ "product": [
+  "google-cloud-storage",
+  "google-cloud",
+  "terraform"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Manages Google Cloud Storage buckets and objects, data transfer, IAM, lifecycle rules, signed URLs and related tooling.",
+ "whenToUse": "Use when managing GCS buckets, objects, permissions or storage configuration.",
+ "tasks": [
+  "manage buckets",
+  "manage objects",
+  "transfer data",
+  "configure iam",
+  "set lifecycle rules",
+  "create signed urls",
+  "configure fuse",
+  "use terraform",
+  "use gcloud cli"
+ ],
+ "effects": {},
+ "flags": []
+}

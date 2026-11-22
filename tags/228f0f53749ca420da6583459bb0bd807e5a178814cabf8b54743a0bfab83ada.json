@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "228f0f53749ca420da6583459bb0bd807e5a178814cabf8b54743a0bfab83ada",
+ "domain": [
+  "analytics/customer-success",
+  "sales/account-management"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Summarizes B2B account health from usage, engagement and risk signals, plus expansion opportunities.",
+ "whenToUse": "Use when preparing customer success reviews, renewals, QBRs or deciding which accounts to prioritize.",
+ "tasks": [
+  "analyze account usage patterns",
+  "spot engagement trends",
+  "flag churn risk signals",
+  "find expansion opportunities",
+  "prepare qbr summaries"
+ ],
+ "effects": {},
+ "flags": []
+}

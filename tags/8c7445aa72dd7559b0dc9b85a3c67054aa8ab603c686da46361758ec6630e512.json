@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "8c7445aa72dd7559b0dc9b85a3c67054aa8ab603c686da46361758ec6630e512",
+ "domain": [
+  "travel/connectivity",
+  "telecom/esim"
+ ],
+ "product": [
+  "portugal-internet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "sell"
+ ],
+ "summary": "Shows Portugal Internet eSIM plans and gives a live price and booking link for given travel dates.",
+ "whenToUse": "Use when a traveller to Portugal, Madeira or the Azores needs mobile data.",
+ "tasks": [
+  "list eSIM plans",
+  "quote price for dates",
+  "get booking link"
+ ],
+ "effects": {
+  "63674351d54113142383250c6a119edc64446f389fee21322b617f0411beb82c": "read",
+  "ddd930b789092f509bdc5b110c66daeb7dc771aca54fd138ca26e376605992ab": "read"
+ },
+ "flags": []
+}

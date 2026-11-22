@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "efbb87884ce1a8d1dc0ef8369f4af46df1359bcf32e976f9b2d5c12690cb0a10",
+ "domain": [
+  "publishing/web-pages",
+  "ai/chat-sharing"
+ ],
+ "product": [
+  "superfact"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Turns an AI chat or agent run into a public, shareable web page.",
+ "whenToUse": "Use when a user wants to publish the results of an AI conversation or agent run as a public page.",
+ "tasks": [
+  "publish chat as page",
+  "publish agent run as page",
+  "share public link"
+ ],
+ "effects": {},
+ "flags": [
+  "publishes content publicly"
+ ]
+}

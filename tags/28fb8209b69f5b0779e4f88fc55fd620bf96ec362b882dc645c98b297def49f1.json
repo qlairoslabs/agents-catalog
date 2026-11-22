@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "28fb8209b69f5b0779e4f88fc55fd620bf96ec362b882dc645c98b297def49f1",
+ "domain": [
+  "design/landscape",
+  "design/3d"
+ ],
+ "product": [
+  "garden-editor"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Connector for designing gardens in 3D in Garden Editor, including plots, zones, plants and buildings.",
+ "whenToUse": "Use when a user wants to plan or lay out a garden design with an AI assistant.",
+ "tasks": [
+  "define garden plot",
+  "create zones",
+  "place plants",
+  "add buildings",
+  "edit 3d garden design"
+ ],
+ "effects": {},
+ "flags": []
+}

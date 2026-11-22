@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e2cb4552236ded30595dc3d093058ace870a13407d0eaba4d2821c964b4923d8",
+ "domain": [
+  "software/blockchain",
+  "reference/documentation"
+ ],
+ "product": [
+  "blockrazor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Search and read official BlockRazor documentation and API references, ask questions and report doc issues.",
+ "whenToUse": "Use when building with BlockRazor transaction services and you need documentation answers.",
+ "tasks": [
+  "search docs",
+  "fetch doc page",
+  "ask documentation question",
+  "send docs feedback"
+ ],
+ "effects": {
+  "a157b22ac2009c85afdf891f77889cadb0ecbea336b09b661b58aafd215252dd": "read",
+  "f7a7b380e73ebab52221ecb46cd2e1f959f918bdc84b05c2edf91912f9df80c7": "read",
+  "ffa314e58eb16baf69b9323ca1fdb68ea97c14da574e819877929f3a3ef7ec04": "read",
+  "3c8cd9d2a9bcdd86740ba99226078236406760c7108f3dc86b37525921f9035d": "write"
+ },
+ "flags": []
+}

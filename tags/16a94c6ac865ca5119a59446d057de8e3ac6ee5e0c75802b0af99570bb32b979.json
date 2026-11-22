@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "16a94c6ac865ca5119a59446d057de8e3ac6ee5e0c75802b0af99570bb32b979",
+ "domain": [
+  "marketing/advertising",
+  "marketing/ad-creative"
+ ],
+ "product": [
+  "imagefactory",
+  "meta",
+  "google-ads",
+  "naver",
+  "kakao",
+  "tiktok"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Creates ad banners and runs ad campaigns on Meta, Google, Naver, Kakao and TikTok from chat.",
+ "whenToUse": "Use when a marketer wants to produce ad creatives and launch or manage campaigns across ad platforms.",
+ "tasks": [
+  "create ad banners",
+  "launch campaigns",
+  "manage campaigns across platforms"
+ ],
+ "effects": {},
+ "flags": [
+  "can spend advertising budget"
+ ]
+}

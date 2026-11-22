@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f6fa82a013d26de510d6d394e3ae57c7f870f0377dc71fe321e78383212b261c",
+ "domain": [
+  "automotive/media",
+  "media/images"
+ ],
+ "product": [
+  "car-image-api"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Studio-style images and 3D models of real cars from 1990 to 2027, looked up by make, model, year or VIN.",
+ "whenToUse": "Use when an agent needs a picture or 3D model of a specific car model or VIN.",
+ "tasks": [
+  "get car images",
+  "get 3d car models",
+  "look up by vin",
+  "look up by make model year"
+ ],
+ "effects": {},
+ "flags": []
+}

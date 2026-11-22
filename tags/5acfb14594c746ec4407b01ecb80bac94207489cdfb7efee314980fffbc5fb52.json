@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "5acfb14594c746ec4407b01ecb80bac94207489cdfb7efee314980fffbc5fb52",
+ "domain": [
+  "travel/boat-charter",
+  "marine/booking"
+ ],
+ "product": [
+  "charter-captain",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid"
+ ],
+ "summary": "Finds Lake Michigan charter captains, boats and harbors, checks availability, gives quotes and books charters or bareboat rentals via Stripe checkout or request.",
+ "whenToUse": "Use when someone wants to find, price and book a Lake Michigan boat charter or rental.",
+ "tasks": [
+  "search captains",
+  "search boats",
+  "get captain profile",
+  "get boat profile",
+  "list harbors",
+  "check availability",
+  "get quote",
+  "book charter",
+  "book boat rental"
+ ],
+ "effects": {
+  "c0d61244473ae08c7b6039f2f6c11d7bd38acbabac70c11a85c859365620e264": "read",
+  "4da85c39256b28df47b349d85bfc41b257b9380795e4a17c8b51b2c525025521": "read",
+  "bde25fe15e03c9d73cbfd8763f94fcdaf1124dc564414a0243e53838e34edec7": "read",
+  "4b6ec2eb22b7a41923516d612cd1b9ab2e8de619a1e2978eb6fcac9908ef9b9c": "read",
+  "b0cabef3156ebfee55b24fff2134e4f27d8a266c8cef698499425c29490b15f4": "read",
+  "7d0704f0dda651eb8bb0963f8008d798b62c189e7b8dd1ba6a896701c272d6e5": "read",
+  "9427a53ab45cf63ee54658b250634d11e375b92568a2fcb9227fca2bf4fc2a6d": "write",
+  "27a97854ee8fd40fafb1b4c0b2b23c0a1c4711d5446ecf13bbbd1ad0754e4b0e": "write",
+  "f2e792963aa1d68d3f9c0fac4eaa0947bc2a7237420f710361d717a338aff219": "write",
+  "812e4b3456f474c2229dfd28478efecf54bc8da1fce452f2dcfb759080af90bc": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5f9c6ad5afdf5e2034c865d70d2e7dfa5cb6d993aae6faf8d889c1e0060c0757",
+ "domain": [
+  "finance/trading",
+  "finance/crypto",
+  "finance/prediction-markets"
+ ],
+ "product": [
+  "felix"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Local npm package giving AI agents non-custodial trading access across prediction markets, crypto and options.",
+ "whenToUse": "Use when the user wants an agent to research or execute trades on prediction markets, crypto or options from their own wallet.",
+ "tasks": [
+  "trade prediction markets",
+  "trade crypto",
+  "trade options"
+ ],
+ "effects": {},
+ "flags": []
+}

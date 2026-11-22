@@ -1,0 +1,66 @@
+{
+ "classifier": 2,
+ "contentHash": "1e5fc5d020a698e6535bd712b385638d97657c471904034da8a51c065385f75b",
+ "domain": [
+  "finance/crypto-analytics",
+  "finance/trading"
+ ],
+ "product": [
+  "coinlobster",
+  "hyperliquid",
+  "ethereum",
+  "base",
+  "arbitrum"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Crypto market intelligence: whale trades, unusual-flow radar, proven smart-money wallets, liquidations, funding, options, news sentiment, signal outcomes, backtests and personal alerts.",
+ "whenToUse": "Use when you need whale flow, smart-money positioning, liquidation or funding context for a coin, or to backtest a rule or manage CoinLobster alerts and tracked positions.",
+ "tasks": [
+  "brief a single coin",
+  "scan market changes",
+  "track whale activity",
+  "find unusual coins",
+  "screen funding and open interest",
+  "view liquidations",
+  "follow smart-money traders",
+  "inspect a wallet",
+  "review signal record",
+  "backtest trading rules",
+  "read options and order book",
+  "create alerts"
+ ],
+ "effects": {
+  "b79e8b51a4b12452013d6c7f9bda5b929944dc06ece547e449ff5436152185eb": "write",
+  "0eb5e25b1915d00371ad1ad7c364f59293f5ce683596e5e0c80604daf75c6847": "read",
+  "5308e52955d1375ac555e76c7f168ceed0614e6f5d83b5b5894044627683a5b2": "read",
+  "e9dd6e42a926160ab7ca81d168620bbd3e2d4fcda5286dc53120b15d99364773": "read",
+  "c925b52b2db1cc6df2997f4729980a637d8de9b1eec8ce8c6494219a9a950849": "read",
+  "39d0261181660ec61f403e050b4c13ae64d3e588ec8a2c284eef2b69f38424a3": "read",
+  "64815a24742c687d6d677f6615dc579af8fe4e53dcc462f9dc219dba7462726e": "read",
+  "15382b46bed805054537f61be80b30937d39d200e2eda833f502196b58c6c8ef": "read",
+  "0c4514cd206f9b18a429b7861bc5e856a4b94d0717f83eadc8c869644ae53441": "read",
+  "ee78d2acf1ccfba5829b32463abb8efa68936fc88b5cb76f216faae7766e67af": "read",
+  "bb906c18da18c645a29d07c3b4208b28561d6011c96b65bc7a39d0adf25b2553": "read",
+  "5daf9bb9881e62fd7926adcfe358475232281a46efd05a59f908f15c0a65bc53": "read",
+  "60060e7c36f5c14530248cd68bf90a61d3880d4c6680293041ada2432e31e77b": "read",
+  "1d455d4b0cc8031788754f7786da27cd8d1bb24ea32a8d55d124f7f16e99d3a2": "read",
+  "ef732cee67fc251c89a21c6d1e8fd284358d4d1ace355df950ea7fa26d02618b": "read",
+  "f69bd489c093f92cd2d7e84c0c9b9bdc901032c087c1cbf75c326ad1f8f176ad": "read",
+  "7b11fa984220bc3702f2cc8fcb82805717b3a0cabdfb96c684e6a9344ca2891c": "read",
+  "9f820af1bcd9b44f7ee82742a33c1cc893ff39f271912ad67dae7f623be837fb": "write",
+  "117517e9a599cc6ce8fd5301d5b33cd8676f0a4294397b9f38959982ab869b79": "read",
+  "457c5989aedeb37834f04e7a39e73c00f4eb66de0b61329278ee99af05c8b8e0": "read",
+  "2efa24872e323190442aa43d199adcb11a2f2588beaa01daff04cc7d61260110": "read",
+  "0fe5ef2d17690d678d03a6a94dc586496bae7b63c60d92faa3e4812db4c17685": "write",
+  "cee2910343eaa39f0f4a4fcaae5a6fd9e0d5043cf3e5c2d5438d385c579c9176": "read",
+  "bb12d41f21e7840a7c7c5046635c0cf7ee8df9e0ae6e8261f70582e711bb3ff9": "read",
+  "f0720deb279e673db4359aa0b8d185ac0c92df3387e61622b3d2a521746bf612": "read"
+ },
+ "flags": []
+}

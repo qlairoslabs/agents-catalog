@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f0691c0e0bb25ed842781c8638bde9d0174feab1670db4a602c5b5309f764f6d",
+ "domain": [
+  "marketing/seo",
+  "software/web"
+ ],
+ "product": [],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs hosted technical SEO and AI-search visibility audits of websites, with prioritized fixes and report comparisons.",
+ "whenToUse": "Use when an agent needs to audit a website's technical SEO or AI-search readiness and track changes between audits.",
+ "tasks": [
+  "run hosted site crawls",
+  "audit technical seo",
+  "audit ai-search visibility",
+  "prioritize fixes",
+  "compare audit reports"
+ ],
+ "effects": {},
+ "flags": []
+}

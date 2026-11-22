@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "57657d7d90e4dde791c06200b795493a724ec836cb4e0d6b8620f883c424d9ab",
+ "domain": [
+  "software/ai-agents/skills",
+  "software/api/graphql"
+ ],
+ "product": [
+  "claude",
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Guidance for creating and updating agent skills and SKILL.md files for Apollo and GraphQL development.",
+ "whenToUse": "Use when creating or updating a skill or writing a SKILL.md file.",
+ "tasks": [
+  "create new skill",
+  "update existing skill",
+  "explain skill structure",
+  "write skill.md files"
+ ],
+ "effects": {},
+ "flags": []
+}

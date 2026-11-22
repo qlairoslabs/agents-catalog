@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "7112396b0d50c327cda6d0e8b20a4d3827a2b256b2fcc123f4677f7ee22db385",
+ "domain": [
+  "food/restaurant-discovery",
+  "health/allergy-safety"
+ ],
+ "product": [
+  "foodnear-me",
+  "morpho-menu-protocol"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Restaurant discovery with trust tiers, dietary menu data, ADO scores and signed allergy-safety attestations for curated places.",
+ "whenToUse": "Use when a user needs restaurants nearby or along a route filtered by dietary needs or allergies, with trust level shown.",
+ "tasks": [
+  "search restaurants",
+  "get restaurant profile",
+  "get menu",
+  "get ADO score breakdown",
+  "get safety attestation",
+  "validate menu payload",
+  "explore area by diet",
+  "compare restaurants by diet",
+  "find restaurants along route",
+  "find allergy-safe places"
+ ],
+ "effects": {
+  "fa3cfe21cca788392d4b1e1f011afc0eaba3d62981ded544441a713c49419297": "write",
+  "cd4dbd42ff7b320f6d2791b415b1018fd9a23c6c6ba26706d9647cdd74360024": "write",
+  "63821e48d7a5687f07e9eb0b93d22d44d3bd9c46db384db6fcb1da81b03bf001": "write",
+  "85445774d90cdd0c4859a1bd660cfd95e6e2d50a65d55462dca0d097ad7b3842": "read",
+  "311fe25559d16f6046a57e4ed6cf18e7a934a54fbd2deec586100eb3d9c79b1f": "write",
+  "25dcad5cd2de0847cf0f8858aedfa7a174908f38de3d6d942e3adb736e247852": "write",
+  "9d56f2f24cebd4c2aee6499967a76d067618405c02abcc803d773a79a4bfcd9b": "write",
+  "cc62fda17ac373615b94d63be7940e5217e76e8b8a447701c76c89b71da8214c": "write",
+  "862cd15768b7b6ff121f9c4f1c197e8ec7d3b172a754d5f75b924e84736fe571": "write",
+  "3cdaa0fdffe606a3a254a8add9efcf3b578df2422ccb9c4cecd70b6c58793392": "write"
+ },
+ "flags": []
+}

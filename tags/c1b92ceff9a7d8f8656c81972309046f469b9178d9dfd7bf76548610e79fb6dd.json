@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c1b92ceff9a7d8f8656c81972309046f469b9178d9dfd7bf76548610e79fb6dd",
+ "domain": [
+  "ai/memory",
+  "ai/context-management"
+ ],
+ "product": [
+  "thinqos"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Memory layer that decides which stored context is provided to each task, scoped per identity.",
+ "whenToUse": "Use when an agent needs persistent memory with per-identity context selection.",
+ "tasks": [
+  "store memory",
+  "select context for tasks",
+  "manage identities"
+ ],
+ "effects": {},
+ "flags": []
+}

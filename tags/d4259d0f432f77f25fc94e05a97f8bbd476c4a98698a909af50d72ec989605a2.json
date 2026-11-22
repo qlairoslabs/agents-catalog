@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d4259d0f432f77f25fc94e05a97f8bbd476c4a98698a909af50d72ec989605a2",
+ "domain": [
+  "events/conferences/schedules",
+  "software/programming-languages/elixir"
+ ],
+ "product": [
+  "elixirconf"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Gives access to ElixirConf conference schedules and a member's starred talks.",
+ "whenToUse": "Use when someone wants to browse ElixirConf talks or check the talks they have starred.",
+ "tasks": [
+  "view conference schedule",
+  "list starred talks",
+  "search talks"
+ ],
+ "effects": {},
+ "flags": []
+}

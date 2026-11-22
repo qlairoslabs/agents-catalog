@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "e3db944fc996937907ca9c6241766a0496dbf2c93758446ad7d877a8af57884a",
+ "domain": [
+  "hr/compensation",
+  "legal/wage-compliance"
+ ],
+ "product": [
+  "compensation-professional"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "stay-compliant"
+ ],
+ "summary": "Read-only compensation book library, authored pay-practice answers, and US minimum-wage rates by jurisdiction.",
+ "whenToUse": "Use when you need pay-range guidance, compensation references, or the binding minimum wage for US locations.",
+ "tasks": [
+  "search compensation library",
+  "read library work records",
+  "get authored answers",
+  "look up minimum wage by jurisdiction",
+  "check wage for many locations",
+  "list data feeds"
+ ],
+ "effects": {
+  "ea7d663edb8923939324f1b4af8a00222d61047973a06afeed834bd80eeadf9d": "read",
+  "a793229ccc7b738b550f11a137eb2f0103deccc54996e7e157a8c412ad038ae8": "read",
+  "27f771f2777887a500b3c999dcefaa657dd4e82e034ea11024b04a0746ed6ed6": "read",
+  "9f664fbcb42cdeac1b87ac2ae7b8979be2fe882f39420904e524e686ec020888": "read",
+  "08c69e3bd209550d147317d9a57932287b7de015e9e67fc52b98ad320d85480c": "read",
+  "d52d03b307de14b7d6bc71b642d2bb2168f596adb5e18e52b14b5b9ddee49a91": "read"
+ },
+ "flags": []
+}

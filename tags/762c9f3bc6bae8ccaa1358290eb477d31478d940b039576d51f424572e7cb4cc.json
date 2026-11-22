@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "762c9f3bc6bae8ccaa1358290eb477d31478d940b039576d51f424572e7cb4cc",
+ "domain": [
+  "communication/video-conferencing",
+  "communication/telephony"
+ ],
+ "product": [
+  "confcall"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Operates confcall.app video and phone rooms, the notetaker and recordings using the user's own API key.",
+ "whenToUse": "Use when managing confcall.app meeting rooms, recordings or meeting notes.",
+ "tasks": [
+  "manage video rooms",
+  "manage phone rooms",
+  "use notetaker",
+  "access recordings"
+ ],
+ "effects": {},
+ "flags": []
+}

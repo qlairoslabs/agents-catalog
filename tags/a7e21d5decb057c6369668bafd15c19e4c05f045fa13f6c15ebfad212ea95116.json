@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a7e21d5decb057c6369668bafd15c19e4c05f045fa13f6c15ebfad212ea95116",
+ "domain": [
+  "finance/market-data/fundamentals",
+  "finance/investing"
+ ],
+ "product": [
+  "rockmoon"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Structured company financials, segments, ownership and metrics for US, Japanese and Korean listed companies, traceable to filings.",
+ "whenToUse": "Use when an agent needs filing-backed fundamentals or ownership data for public companies in the US, Japan or Korea.",
+ "tasks": [
+  "look up company financial statements",
+  "view business segment data",
+  "view ownership data",
+  "compare metrics across markets",
+  "trace figures to source filings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d49db9a9292a3d99f8daa19b34a7c41335f5df50e3bd3634b1e83dc10e7fd1e1",
+ "domain": [
+  "science/hpc",
+  "software/workflow-automation"
+ ],
+ "product": [
+  "jarvis-cd"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Manages JARVIS-CD deployment pipelines for HPC experiments with user and admin profiles.",
+ "whenToUse": "Use when an agent needs to build or run JARVIS-CD pipelines on HPC systems.",
+ "tasks": [
+  "create pipelines",
+  "configure pipeline packages",
+  "run pipelines"
+ ],
+ "effects": {},
+ "flags": []
+}

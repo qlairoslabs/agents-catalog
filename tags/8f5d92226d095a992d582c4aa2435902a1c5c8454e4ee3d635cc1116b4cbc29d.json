@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8f5d92226d095a992d582c4aa2435902a1c5c8454e4ee3d635cc1116b4cbc29d",
+ "domain": [
+  "media/news"
+ ],
+ "product": [
+  "compamir"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches deduplicated, AI-processed news events in Japanese and English with source links and flagged reporting conflicts.",
+ "whenToUse": "Use when you need news events with source links or want to see where reports disagree.",
+ "tasks": [
+  "search news events",
+  "get event details",
+  "list reporting conflicts"
+ ],
+ "effects": {
+  "4a12f08d5427ded2c42f6647b51e5ed57eeaf678fa520aa44e899f4846191fd6": "write",
+  "0c8a63947384c641317495bed620092b83150b3c965b7bb20008f642dda8e18e": "write",
+  "1db3cf34d190e53cd760151092f09406c0ad1a5f0e1ba2f517591469b5fcd101": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a67a16df75a0483dac51038493e7a715369d5ff2348c4f3efa4371400e1378e4",
+ "domain": [
+  "data/integration",
+  "software/enterprise-data"
+ ],
+ "product": [
+  "cdata-connect-ai"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted MCP server giving AI assistants access to enterprise data sources through CData Connect AI.",
+ "whenToUse": "Use when an AI needs to query business systems connected through CData Connect AI.",
+ "tasks": [
+  "query enterprise data sources",
+  "access connected systems"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,60 @@
+{
+ "classifier": 2,
+ "contentHash": "5f27611613e5ea467a5574bab3c0af03bb8251266d6ba2f4dce9f19d220b47d9",
+ "domain": [
+  "it/network-operations",
+  "it/knowledge-base"
+ ],
+ "product": [
+  "cisco",
+  "ios-xe",
+  "cdp",
+  "lldp"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Version-scoped network knowledge for AI agents: commands, workflows, change reviews, upgrade advice and path analysis, with research requests for unknown topics. Executes no device commands.",
+ "whenToUse": "Use when an agent needs vendor and version-specific network commands, a pre-change review, upgrade prerequisites or topology analysis from CLI output.",
+ "tasks": [
+  "query network knowledge",
+  "resolve device context",
+  "get step-by-step workflows",
+  "review network changes",
+  "verify before/after outputs",
+  "upgrade advice",
+  "analyze device snapshots",
+  "analyze network path",
+  "request expert answers",
+  "report knowledge gaps",
+  "submit feedback"
+ ],
+ "effects": {
+  "b1c72c66735d868bdfdb206db81a1b3181d86ff037d9fdb2b6b3fca82359ba98": "write",
+  "9c204cd5a86b0ba5adc56e67785f1315fc1fbe2537bf4c9b547b74ba35edd308": "write",
+  "c2170c18cafe34c3881352c069f239d5e69f8bc0796fd0d30e5214bd1c208fd0": "read",
+  "71fc87501992a88085e02c440c1c81ee0d6cbfcf36b9608b5545a644f421fac7": "read",
+  "962acbbbd90133bc5015ba31fbb073b6c0f5e913292ae2c0c12a0474a81ecec1": "read",
+  "28c8b86b7d913a07f6e6c174606f403d1ddc215cfda4d0041fd242711faf366e": "write",
+  "f227edb6f1ec61ffabd31caa6170c40a3ab117c66f8b0b7d8780b07ca1fe8a89": "read",
+  "e13ae0bfc4c478fe0f2170722e42f5df1a924b9fa4f6dbbc71dea02aefc8981e": "write",
+  "45e326b0e471ed37011a3ed37fe1cda8a096a6cb2319d5b304e44e6d37120c4c": "read",
+  "dea6d0b7d22b9a95fdf2a6b03b0d6912a406080a20349788fe575bce95804881": "write",
+  "9e9008567281f2934480db84a38e5f12539fbb6e6e5c7ce51c60d6a045eba9c7": "write",
+  "785a649e41f8352c8f9c650429b3c9e14b352052bd697e977eee9fb71e4e9e5b": "read",
+  "6209f74223a0faaabb07785f54aa9609d66bc7bb243c8c639103024fd42dd6c3": "write",
+  "e27c0f7b2f3546c61486030ff026fdda3866939724c012c6c4b86e9c1560bae6": "write",
+  "643cc38d6c1374aa98a1f1a866aeaef56753bd1f9fd8c299622898101c6e0a8c": "write",
+  "a085667573a27c89f3239337854ae381654586cd799a2851ecdbe293e4eac29a": "read",
+  "8db6f74af727ea7f7ec03e2d04890d021b192c727e18951a9725648534b03e16": "write",
+  "85c1d2e6c626425302038922c7764fdf6a257bfb122b81e69b41bc95c3ac7d61": "read",
+  "97b323b92e56ab035674a40039235371d52dfc1891d1d8ea650731c98210f7f7": "write",
+  "98d0ce149b705e9db0f0d6b1184cc2e0f6b695760ce7fc1658b284c5057882b5": "read"
+ },
+ "flags": []
+}

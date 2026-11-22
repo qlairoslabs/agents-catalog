@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "035ad591b20b9f39fa938776a1b194f51f270fa5665e808b3c6a704af6151d3f",
+ "domain": [
+  "business/public-procurement",
+  "sales/tender-search"
+ ],
+ "product": [
+  "zephior",
+  "ted-europa"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches published public tender notices across portals with filters, history and sources, plus Zephior resources.",
+ "whenToUse": "Use when looking for public procurement opportunities by country, sector, CPV code, deadline or value.",
+ "tasks": [
+  "search tenders",
+  "read tender notice",
+  "list facets",
+  "list notice changes",
+  "list procurement sources",
+  "get Zephior overview",
+  "search resources",
+  "get pricing and developer docs"
+ ],
+ "effects": {
+  "e064513f1af3cbd35d36b2deca9704dea66354fc7f2bada39172088032370674": "write",
+  "c6f1058c8fba8304bd7eb1685d470e827e8b57421bdbfdf43c8c12dbe40a5125": "write",
+  "44fda6e51e94100a9fb460d940f3735dd3599d63769790ceecf0b6d566032271": "read",
+  "006f7ae150d07190438cbbf9c4e3590494bedcdd88f13b28442e5786ec8de5a4": "read",
+  "3a33f7b3560f7a852109df7e493c665379fa885583c8a8e7980c708e478cd560": "read",
+  "dc029d3b71899d6ac493f1a550f06659a8e81d0da295451d17ef94c9512ccb9c": "read",
+  "6d19de26d42b61ee1d55f5c6091fd31d6ae4404edb0518a3ee25f2aefc79d614": "read",
+  "a3db0c4980ff80ccd31ab7a1f02b63b4269ad0d82b2b6ce7e5913688b38d9bbf": "read"
+ },
+ "flags": []
+}

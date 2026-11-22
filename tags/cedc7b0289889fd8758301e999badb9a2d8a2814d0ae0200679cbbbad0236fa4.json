@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "cedc7b0289889fd8758301e999badb9a2d8a2814d0ae0200679cbbbad0236fa4",
+ "domain": [
+  "healthcare/operations",
+  "simulation"
+ ],
+ "product": [
+  "qsimhealth"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Discrete-event simulation demos and explanations for staffing emergency departments, walk-in clinics and appointment offices.",
+ "whenToUse": "Use when estimating healthcare staffing needs or explaining queueing behaviour for ED, urgent care or clinic settings.",
+ "tasks": [
+  "explain ED queueing",
+  "explain walk-in clinics",
+  "explain appointment scheduling",
+  "list facility types",
+  "describe a facility type",
+  "simulate staffing demo",
+  "recommend MD count"
+ ],
+ "effects": {
+  "b1e717d91e0b69814091675861e54e69705b60953b302d9bd7bb616c93b78f63": "read",
+  "6c00c4424ae2dc5a8ddb94b61c92e7b6f3f5e82146d3b69a5f7516f32a2eee4a": "read",
+  "7285ebb771807f49a3b2515aedc58b6e02187450915ce7922207798de95136cd": "read",
+  "290d8340f357e87525601d276ed373fb350118191e52ad65db4f2f4491608744": "read",
+  "10ed5e669e941ca159ab135386e74b00e7e3d00aa3cb3fd08d873a3f413e705c": "read",
+  "08273fb1a9de26789b194dec2ef50ab92675954eb29eba4b2c18189857b99e61": "write",
+  "4a6ec297d2e941ba4ea355b2b7b8f69d6e596c38f8361bf11ed70183bc061dbc": "write"
+ },
+ "flags": []
+}

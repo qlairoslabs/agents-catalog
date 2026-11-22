@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "2049306914d105b51c97d3d05936bd8ff9f53ac37980cedf69a51334a50e7692",
+ "domain": [
+  "marketplace/classifieds",
+  "e-commerce"
+ ],
+ "product": [
+  "jacars"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches classified listings on JaCars, a Jamaican marketplace, with category filters, and opens listing details and seller contacts on request.",
+ "whenToUse": "Use when a user wants to find vehicles or other items for sale in Jamaica on JaCars.",
+ "tasks": [
+  "search listings",
+  "filter by category and price",
+  "view listing details",
+  "list categories",
+  "get category filters",
+  "reveal seller contact"
+ ],
+ "effects": {
+  "84cd0d8d4a63b9550a5ccf52d174cc3d83708d2a429640277aa7c054c3832871": "read",
+  "e7ec1062567b547e683dc9a872c64292e8798a281fe1497d01c8bd3e87c13c49": "read",
+  "26dbf22dfc74665dabdcbb8bcf41bec672689e89c74dccd0f8b8d73de8d8b325": "read",
+  "9b465730bc46094870b29f15ffa9be72397e2449c1e6711b6831f5f9fb2e4a2b": "read",
+  "3de8ff14a8c851551eccab35ef63db8ff9a447457e877fe6568ebd1a5b0ede7b": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e19178cfaffb8f6a97f8308fd4d6f27aa657a624b36704f3575f78e07decc41f",
+ "domain": [
+  "software/devops/sre",
+  "ai/coding-agents"
+ ],
+ "product": [
+  "tares",
+  "claude-code"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local Python package for always-on AI agents: a software-building pipeline for Claude Code or an AI SRE monitoring systems.",
+ "whenToUse": "Use when setting up long-running agents to build software with Claude Code or watch production systems.",
+ "tasks": [
+  "run always-on agents",
+  "automate software building",
+  "monitor systems",
+  "respond to incidents"
+ ],
+ "effects": {},
+ "flags": []
+}

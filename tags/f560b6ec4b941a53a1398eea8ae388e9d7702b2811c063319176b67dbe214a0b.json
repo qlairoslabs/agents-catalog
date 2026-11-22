@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f560b6ec4b941a53a1398eea8ae388e9d7702b2811c063319176b67dbe214a0b",
+ "domain": [
+  "software/utility-apis"
+ ],
+ "product": [
+  "apyhub"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Provides ApyHub utility APIs hosted in the EU for GDPR-sensitive use, requiring an EU API key.",
+ "whenToUse": "Use when an agent needs general utility API operations with data kept in the EU.",
+ "tasks": [
+  "call utility apis",
+  "process data in eu region"
+ ],
+ "effects": {},
+ "flags": []
+}

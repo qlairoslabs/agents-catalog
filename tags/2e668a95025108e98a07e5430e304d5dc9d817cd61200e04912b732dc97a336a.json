@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "2e668a95025108e98a07e5430e304d5dc9d817cd61200e04912b732dc97a336a",
+ "domain": [
+  "software/cybersecurity",
+  "web/domain-health"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scores public web domains on TLS, DNS, security headers and speed, and scans or cleans text of hidden Unicode characters; some calls cost $0.01.",
+ "whenToUse": "Use to audit a domain's resilience or to detect and remove invisible characters and homoglyphs in text.",
+ "tasks": [
+  "score a domain",
+  "run full domain report",
+  "batch check up to 100 domains",
+  "scan text for hidden characters",
+  "purge hidden characters",
+  "triage domain scores"
+ ],
+ "effects": {
+  "3a8b05de9c5af07775a51433e5644dc01c3b5fe719e2dcdd1d551f972d6ccb23": "risky",
+  "f7fa9c554c462227ed982adf87a7cefc4c767b7acc1747cdde51c06713945ad0": "risky",
+  "477d1beb87bdb408a8e2080b6efcae467d938f24339f70e446082c9ff77ae123": "risky",
+  "6faa9c649166b606bcbd4ad5f463c737eedb9d9b776f2ae0cad06bbdb8066a62": "read",
+  "61b9a628ed39b652827fdc013e064b1f9655b7bb67469a78c0834b001524c000": "read",
+  "6618fe6d5e393fa9a98fafac74e6ea4b6c102b8e439897f06128ce9f5565fe2e": "write"
+ },
+ "flags": [
+  "paid tools charge USDC per call via x402"
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a55564ff7a5bb9d7f8bfa7cec095cb64518298cf40d1a7ac67ce6adbc3eb0567",
+ "domain": [
+  "software/logging/agent-interactions",
+  "data/storage"
+ ],
+ "product": [
+  "chronolog"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Records and retrieves agent interactions in a ChronoLog log store.",
+ "whenToUse": "Use when an agent needs to log its interactions or retrieve past logged ones from ChronoLog.",
+ "tasks": [
+  "record interactions",
+  "retrieve logs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "aded5a294f007b883c2ca3107e5abe428308e744c620c8fd7ed01dfe06362a6b",
+ "domain": [
+  "supply-chain/compliance",
+  "agriculture/organic-certification"
+ ],
+ "product": [
+  "atlasverified",
+  "ofac",
+  "fda"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Verifies organic supply chains through certification, OFAC sanctions and FDA import checks.",
+ "whenToUse": "Use when a user needs to vet organic suppliers or imports for certification, sanctions or FDA compliance.",
+ "tasks": [
+  "verify organic certifications",
+  "screen ofac sanctions",
+  "check fda import status"
+ ],
+ "effects": {},
+ "flags": []
+}

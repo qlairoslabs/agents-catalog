@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "325b1a815f7790c48383c5abb8cba5fb1b312066b8f67a59d5348f35b9918974",
+ "domain": [
+  "sales/crm"
+ ],
+ "product": [
+  "close"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Connector to the Close CRM for managing leads, contacts and the sales pipeline.",
+ "whenToUse": "Use when an agent needs to read or update leads, contacts, opportunities or pipeline data in Close CRM.",
+ "tasks": [
+  "manage sales pipeline",
+  "manage leads and contacts",
+  "track opportunities"
+ ],
+ "effects": {},
+ "flags": []
+}

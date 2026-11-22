@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "ea9555ed53d7fb3556bb3c496938562aef7d4b95361c52fe4032911fc95c450b",
+ "domain": [
+  "media/visualization",
+  "design"
+ ],
+ "product": [
+  "word-cloud-net",
+  "google-fonts"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates word clouds from text as SVG, WebP image or embeddable URL, with fonts, colours, gradients and shape masks.",
+ "whenToUse": "Use when a user wants a word cloud image from text.",
+ "tasks": [
+  "generate SVG word cloud",
+  "generate WebP image",
+  "generate embeddable URL",
+  "apply masks and gradients",
+  "custom fonts"
+ ],
+ "effects": {
+  "0d7e1c184ac2befea38566dc1be7f933923fae60e475b9e2fa370e699def745d": "write",
+  "e171972205e9681be7b95cba81fdd84b91c08d28f53a8fcbc97590e71d58a9d6": "write",
+  "5cdc77886524f6a03f7a7d15a629d802e6346affcd308cc4a470a57012e11618": "write"
+ },
+ "flags": []
+}

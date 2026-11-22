@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e953a8b4e58df8382337df228dc3afb1e540203ba25dfd81d29c2c57f973cd3d",
+ "domain": [
+  "automotive/vehicle-control",
+  "home/iot"
+ ],
+ "product": [
+  "tesla"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Controls a Tesla vehicle's climate, charging, access and security features from an AI assistant.",
+ "whenToUse": "Use when the user wants to check or change their Tesla's climate, charging, locks or security settings.",
+ "tasks": [
+  "control climate",
+  "manage charging",
+  "lock or unlock vehicle",
+  "manage security settings",
+  "check vehicle status"
+ ],
+ "effects": {},
+ "flags": []
+}

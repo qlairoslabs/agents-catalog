@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "94b1c44ae4ea5ad1f332dff9660abec6bec21f5de8b8572b9a9622447445ecde",
+ "domain": [
+  "software/testing/end-to-end",
+  "software/devops"
+ ],
+ "product": [
+  "aws-devops-agent"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs automated UI or API release tests through the AWS DevOps Agent using a preconfigured test profile.",
+ "whenToUse": "Use when the user wants to run regression, UAT or end-to-end tests on their app.",
+ "tasks": [
+  "run ui tests",
+  "run api tests",
+  "check for regressions",
+  "validate multi-step workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

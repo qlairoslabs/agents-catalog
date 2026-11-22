@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "aae4ac7b8ea8936e18e9a009c70f9b97bd77ddd6742c2319c21a488e7e86cf06",
+ "domain": [
+  "crypto/onchain-data",
+  "blockchain/evm"
+ ],
+ "product": [
+  "base",
+  "polygon",
+  "x402",
+  "usdc",
+  "dexscreener"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Pay-per-call onchain data for Base and Polygon (blocks, balances, tokens, transactions, gas, trending pairs), paid in USDC over x402.",
+ "whenToUse": "Use when an agent needs Base or Polygon chain data and can pay small per-call USDC fees.",
+ "tasks": [
+  "network health",
+  "block lookup",
+  "native balance",
+  "stablecoin balances",
+  "token price and liquidity",
+  "transaction status",
+  "contract check",
+  "gas price",
+  "trending DEX pairs"
+ ],
+ "effects": {
+  "f46ed6507cfb44409585ef0c7dc74d8b56cf41f50a0494bf28765ac062124791": "risky",
+  "11210465243449a69928c32457c081803dd727c43f2edab6b5c3836fd7caa4e1": "risky",
+  "08894c13d9c6351632ec896ce9e827f05f1bc15485666b239c018b611e8a9469": "risky",
+  "edc13d7428460d1359455cfbb556ad3cfbb4fcd4110a17928ec3369a399875e1": "risky",
+  "27498f8802d78799497a77dff20dec3ce9d6a96e36a2316238bb68b66a4fe52c": "risky",
+  "28beb4a48840702effe9db0c13c52a6905db43651cea8c10e02bad2a7fb0847c": "risky",
+  "4306c202216e58482c176913b650a5914f5c6d4a56912856c4114bd616e527c5": "risky",
+  "92cc949cd33f7feeb4274cb51dd3cf507312c3a25c16c3f8a3de4e5fa47c6e30": "risky",
+  "0249b81ba52fd20bed78be70940d07cc932c26b140f471656342506cea99b516": "risky",
+  "caafb7cbfc51f3c2b0d9c64cabc2bf601889168e121196029d2c7758de212326": "risky",
+  "03e69e89b1422eaee6a3228afeb4a93875157e22a0629852a7b19b80fa66b562": "risky",
+  "eceb1869818bf855bf63d88133924949457f4497a298a28d6c635f036b812ffa": "risky",
+  "9233665339489c8b17934747a6b474ec1feef642e3bb9b3a5e19c582346fd258": "risky",
+  "3db31afb36dcde3910093a44edb7cafdc52dbf70feaa658d9a73086877cd5d36": "risky",
+  "2c5d3fa8f034a5f0aed984c26388ba44b3cb727822c8cea5a00adc1d180a0249": "risky",
+  "73659e8b0603b7e2e212f3f0f8b6f26508d778134e4082543ea61fdaed1b522f": "risky",
+  "6f2b21a469998e6d2739ff7a4d090608230d384ec0166e22eab7092ace2d7339": "risky",
+  "eaf73a8b1671a92217273253b648bab9c332834005045ba848cddb5131170104": "risky"
+ },
+ "flags": []
+}

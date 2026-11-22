@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "4043aaceb6a8207503d4452abc06e1dfa311a29cf72ace6c2aa65394f8c97e37",
+ "domain": [
+  "data/quality",
+  "data/warehouse"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Quick check of whether warehouse data is current and when tables were last updated.",
+ "whenToUse": "Use when asked whether data is stale or up to date before relying on it.",
+ "tasks": [
+  "check table last update time",
+  "detect stale data",
+  "verify data currency"
+ ],
+ "effects": {},
+ "flags": []
+}

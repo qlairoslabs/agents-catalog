@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e920e3f7cb8349a832597eee94ae8f40a52e32722d299b09f5c3009da3934477",
+ "domain": [
+  "automotive/workshop-management"
+ ],
+ "product": [
+  "officina.it"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Reads car workshop data from officina.it, including customers, vehicles, worksheets, invoices and calendar.",
+ "whenToUse": "Use when looking up customers, vehicles, jobs, invoices or appointments in an officina.it workshop account.",
+ "tasks": [
+  "read customers",
+  "read vehicles",
+  "read worksheets",
+  "read invoices",
+  "view calendar"
+ ],
+ "effects": {},
+ "flags": []
+}

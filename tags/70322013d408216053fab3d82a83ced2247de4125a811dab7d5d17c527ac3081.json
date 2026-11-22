@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "70322013d408216053fab3d82a83ced2247de4125a811dab7d5d17c527ac3081",
+ "domain": [
+  "software/cloud-infrastructure",
+  "software/devops"
+ ],
+ "product": [
+  "azure"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Microsoft's local server exposing Azure service tools to AI agents.",
+ "whenToUse": "Use when an agent needs to inspect or manage Azure resources and services.",
+ "tasks": [
+  "access azure services",
+  "manage azure resources"
+ ],
+ "effects": {},
+ "flags": []
+}

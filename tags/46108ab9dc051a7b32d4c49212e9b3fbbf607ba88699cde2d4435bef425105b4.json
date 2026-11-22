@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "46108ab9dc051a7b32d4c49212e9b3fbbf607ba88699cde2d4435bef425105b4",
+ "domain": [
+  "software/development/language-tooling"
+ ],
+ "product": [
+  "csharp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds a C# language server for code navigation and diagnostics.",
+ "whenToUse": "Use when working in C# code and you need definitions, references or diagnostics.",
+ "tasks": [
+  "provide code intelligence",
+  "go to definition",
+  "find references",
+  "report diagnostics"
+ ],
+ "effects": {},
+ "flags": []
+}

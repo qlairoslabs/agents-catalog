@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "a5ad998fff3ed8e85d746ea10ec8ec16a83e278583acfaf87f2497781779da61",
+ "domain": [
+  "health/mental-health",
+  "healthcare/telehealth"
+ ],
+ "product": [
+  "enmente"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "schedule"
+ ],
+ "summary": "Searches a Chilean online mental-health clinic's Spanish articles, professionals, availability and self-assessment tests.",
+ "whenToUse": "Use when someone in Chile seeks Spanish mental-health information, an online psychologist or psychiatrist, or a screening questionnaire.",
+ "tasks": [
+  "search clinical blog articles",
+  "list mental-health professionals",
+  "find professionals by need",
+  "check consultation availability",
+  "list self-assessment tests",
+  "get info on joining as a professional"
+ ],
+ "effects": {
+  "55d2bfb525830d161109e7bdfa0e98088c701796e2ec9e26a78329c969ece593": "read",
+  "9aebd1207edcb2750ce2c7f7a73f9bf1962b3ca1d03e6ee587ddc5769dac1939": "write",
+  "aad61ca8cef3c9e72e82c23885c53bed6d30240eec1594ec43e6010e6bd431e8": "read",
+  "e56eb9d7d6701b5047cb87c4bc71eb7ace491f3028092a4f0e6ccf86181c08ec": "write",
+  "a3186eb7aaf7c9bde2e55514852de869a98c4c01af7379bfe0ef915b4832b7a0": "write",
+  "0e06df3b9dc88b7692ff30277c91d280692c3636cc761c82486f602a79227e96": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "21ca2ec3547942acec69b631a67185d4e2a75d53e18842761e233253f91802d4",
+ "domain": [
+  "software/cybersecurity/access-control",
+  "ai/agent-governance"
+ ],
+ "product": [
+  "identark"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "MCP gateway that proxies agent tool calls without exposing secrets, scoring risk, auditing calls and requiring human approval.",
+ "whenToUse": "Use when an agent needs to call external tools through a governed gateway with audit logs and human sign-off for risky actions.",
+ "tasks": [
+  "proxy agent tool calls",
+  "risk-score requests",
+  "log calls for audit",
+  "request human approval"
+ ],
+ "effects": {},
+ "flags": []
+}

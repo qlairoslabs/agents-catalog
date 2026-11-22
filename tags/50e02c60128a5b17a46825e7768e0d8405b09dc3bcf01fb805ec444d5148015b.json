@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "50e02c60128a5b17a46825e7768e0d8405b09dc3bcf01fb805ec444d5148015b",
+ "domain": [
+  "education/vocational-training"
+ ],
+ "product": [
+  "rtopacks",
+  "training.gov.au"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches Australia's national VET register of training organisations, qualifications and units; some tools need a subscription.",
+ "whenToUse": "Use when someone needs details on Australian qualifications, units or a registered training organisation.",
+ "tasks": [
+  "search the national training register",
+  "get rto profile by code",
+  "get facts about rtopacks",
+  "list published topics"
+ ],
+ "effects": {
+  "279415d872b86aca18ab51025ee9724d4059dccbe80731b8355a024a961465f8": "read",
+  "75c4b0ad43c4e5bd3bbe50e41f2871bd69c0cd6672ea80a64acaf53693eaf84e": "read",
+  "3d471fffbf71110b591881114a02a49e5a811337c9c376c2dba193f293edea81": "read",
+  "335033b9f9f97a013cf5bd93ff3379f158394b7ab3e2cbd99393bed53054ec26": "read"
+ },
+ "flags": []
+}

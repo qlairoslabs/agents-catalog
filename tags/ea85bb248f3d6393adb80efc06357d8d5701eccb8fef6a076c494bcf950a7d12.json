@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ea85bb248f3d6393adb80efc06357d8d5701eccb8fef6a076c494bcf950a7d12",
+ "domain": [
+  "events/local-events",
+  "events/event-management"
+ ],
+ "product": [
+  "mink"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Finds local events, handles RSVPs and supports organizer workflows on Mink.",
+ "whenToUse": "Use when discovering local events, RSVPing, or managing events as an organizer on Mink.",
+ "tasks": [
+  "discover local events",
+  "rsvp to events",
+  "manage organizer workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

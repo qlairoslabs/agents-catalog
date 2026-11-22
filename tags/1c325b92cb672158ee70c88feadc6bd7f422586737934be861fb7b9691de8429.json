@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1c325b92cb672158ee70c88feadc6bd7f422586737934be861fb7b9691de8429",
+ "domain": [
+  "software/no-code-apps",
+  "data/databases"
+ ],
+ "product": [
+  "agentui"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Builds AgentUI data apps by defining tables, reading and writing records and running programs on the data.",
+ "whenToUse": "Use when the user wants an agent to create or manage a simple data app with tables and records.",
+ "tasks": [
+  "define tables",
+  "read records",
+  "write records",
+  "run programs on data"
+ ],
+ "effects": {},
+ "flags": []
+}

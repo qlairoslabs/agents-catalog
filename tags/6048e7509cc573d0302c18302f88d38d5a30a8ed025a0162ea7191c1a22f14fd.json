@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6048e7509cc573d0302c18302f88d38d5a30a8ed025a0162ea7191c1a22f14fd",
+ "domain": [
+  "software/api-management/deployment",
+  "software/devops"
+ ],
+ "product": [
+  "pipefork"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Manages Pipefork API projects, drafts, connections, secrets and deployments through MCP.",
+ "whenToUse": "Use when creating, configuring or deploying Pipefork API projects and their secrets or connections.",
+ "tasks": [
+  "manage api projects",
+  "edit drafts",
+  "manage connections",
+  "manage secrets",
+  "deploy projects"
+ ],
+ "effects": {},
+ "flags": []
+}

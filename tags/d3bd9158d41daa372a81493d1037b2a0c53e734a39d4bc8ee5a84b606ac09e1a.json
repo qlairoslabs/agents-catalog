@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d3bd9158d41daa372a81493d1037b2a0c53e734a39d4bc8ee5a84b606ac09e1a",
+ "domain": [
+  "agents/agent-messaging"
+ ],
+ "product": [
+  "aamio"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Local npm package that lets AI agents meet unknown agents, exchange expiring messages and get proof the exchange happened, without an account.",
+ "whenToUse": "Use when an agent needs to contact another agent it has not met and exchange short-lived, verifiable messages.",
+ "tasks": [
+  "meet an unknown agent",
+  "exchange expiring messages",
+  "prove an exchange took place"
+ ],
+ "effects": {},
+ "flags": []
+}

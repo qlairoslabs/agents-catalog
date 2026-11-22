@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "9b2fcdf5df47b2d9d27be946680b5a80b0bb50b517050289831a0f53dc00fde7",
+ "domain": [
+  "software/audio-mixing",
+  "commerce/product-site"
+ ],
+ "product": [
+  "sunset",
+  "stripe"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Search and read Sunset's public website pages, list its products and start a Stripe-hosted checkout for the Mac app.",
+ "whenToUse": "Use when a user wants information about Sunset or wants to start a purchase of its Mac product.",
+ "tasks": [
+  "get site info",
+  "search pages",
+  "read a page",
+  "list products",
+  "create checkout link",
+  "read checkout"
+ ],
+ "effects": {
+  "8ab321f4eb9caa6622cadd32ee6d57ef5bb56612cf6551c0889dc9805331b33d": "read",
+  "241c0c261441d9998e7ba6b3be10219b5304f16bd6f5d5e27b08627fce4797a3": "read",
+  "daf42be3a10c7240503064fe608a0058606dc52ba4ec9d952f7edbd7f929b4d9": "read",
+  "400e938cf2374d5e0ba9917a7e02da004c41d100deb3d2967f6f3e5fc8d2d01e": "read",
+  "be50279ed52a7c1bfb1ceace68c69611472a55f1e10cd169a9b74868257ef173": "write",
+  "864b6b451f5ed392ccb41194d83d1109e15d44a4e8b89993a1457d802f81034a": "read"
+ },
+ "flags": []
+}

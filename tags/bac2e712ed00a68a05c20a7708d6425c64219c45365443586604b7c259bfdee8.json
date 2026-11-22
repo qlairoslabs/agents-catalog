@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bac2e712ed00a68a05c20a7708d6425c64219c45365443586604b7c259bfdee8",
+ "domain": [
+  "finance/financial-analysis",
+  "finance/investing"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local toolkit that computes hundreds of financial ratios, models and indicators directly from raw company financial statements.",
+ "whenToUse": "Use when an agent needs to calculate financial ratios, valuation models or performance metrics for companies.",
+ "tasks": [
+  "calculate financial ratios",
+  "compute valuation models",
+  "analyse financial statements",
+  "compute risk metrics",
+  "compute technical indicators"
+ ],
+ "effects": {},
+ "flags": []
+}

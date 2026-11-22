@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6cba04a7b6fbfc0c58523e7ca4a13d5993128c5e2705669c71a8b2753cfa489a",
+ "domain": [
+  "design/brand-assets",
+  "data/company-data"
+ ],
+ "product": [
+  "brandfetch"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches brands and retrieves their logos, colors and company data from Brandfetch.",
+ "whenToUse": "Use when an agent needs a company's logo, brand colors or basic company information.",
+ "tasks": [
+  "search brands",
+  "get logos",
+  "get brand colors",
+  "get company data"
+ ],
+ "effects": {},
+ "flags": []
+}

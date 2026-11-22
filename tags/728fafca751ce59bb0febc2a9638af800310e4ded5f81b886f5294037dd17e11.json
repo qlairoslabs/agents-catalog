@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "728fafca751ce59bb0febc2a9638af800310e4ded5f81b886f5294037dd17e11",
+ "domain": [
+  "software/debugging",
+  "software/development-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server providing step-through debugging with breakpoints, stepping and variable inspection across ten languages.",
+ "whenToUse": "Use when an agent needs to debug a running program by setting breakpoints and inspecting live variables.",
+ "tasks": [
+  "set breakpoints",
+  "step through code",
+  "inspect variables",
+  "run programs under debugger"
+ ],
+ "effects": {},
+ "flags": []
+}

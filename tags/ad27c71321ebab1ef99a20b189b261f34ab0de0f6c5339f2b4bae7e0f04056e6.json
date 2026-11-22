@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ad27c71321ebab1ef99a20b189b261f34ab0de0f6c5339f2b4bae7e0f04056e6",
+ "domain": [
+  "finance/stock-trading",
+  "finance/market-data"
+ ],
+ "product": [
+  "longbridge"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Brokerage connector for US and Hong Kong markets covering quotes, options, orders, fundamentals, screening, IPOs, alerts and automated strategies.",
+ "whenToUse": "Use when the user wants market data or to place and manage trades on US or HK markets through Longbridge.",
+ "tasks": [
+  "get stock quotes",
+  "view options chains",
+  "place orders",
+  "read fundamentals",
+  "screen stocks",
+  "track ipos",
+  "set price alerts",
+  "set up dca plans",
+  "run grid strategies"
+ ],
+ "effects": {},
+ "flags": []
+}

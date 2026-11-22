@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "370295e1bb8866d99efd0ec9a2d3f991f2c1771065008aaf84675cf64ee2d478",
+ "domain": [
+  "commerce/purchase-safety",
+  "consumer-protection"
+ ],
+ "product": [
+  "purchaseiq"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks a product, seller or purchase URL for recalls and scam signals and returns a proceed, caution or avoid verdict with a trust score.",
+ "whenToUse": "Use before recommending or completing an online purchase to assess whether a product or seller is trustworthy.",
+ "tasks": [
+  "assess product trust",
+  "check seller reputation",
+  "look up by barcode",
+  "check purchase URL",
+  "return risk flags",
+  "give trust score and verdict"
+ ],
+ "effects": {
+  "4f24286d48f9cf6c99e2815958576497d5dea60674c0f5603b3a53dab724d4da": "read"
+ },
+ "flags": []
+}

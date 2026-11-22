@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0c751b06ae918214619e82d235818a9b6f0bce8154751e72426f41107ac1aadc",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/billing"
+ ],
+ "product": [
+  "trustycap"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "get-paid"
+ ],
+ "summary": "Backend platform for AI-built apps providing storage, data, jobs, webhooks, email, metering and billing.",
+ "whenToUse": "Use when an app built by an agent needs hosted storage, background jobs, email or billing.",
+ "tasks": [
+  "store files",
+  "manage data",
+  "run jobs",
+  "configure webhooks",
+  "send email",
+  "meter usage",
+  "bill customers"
+ ],
+ "effects": {},
+ "flags": []
+}

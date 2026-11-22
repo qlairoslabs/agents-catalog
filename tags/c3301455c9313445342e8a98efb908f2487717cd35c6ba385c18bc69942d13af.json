@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "c3301455c9313445342e8a98efb908f2487717cd35c6ba385c18bc69942d13af",
+ "domain": [
+  "media/tv-broadcast"
+ ],
+ "product": [
+  "fcc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Shows which US TV transmitters reach a location with terrain grading, what is airing now, closed channels and signed, dated programme claims.",
+ "whenToUse": "Use when someone asks what TV they can receive at an address, what is on now, or whether a channel still exists.",
+ "tasks": [
+  "find receivable transmitters",
+  "see what is on now",
+  "check if claim is current",
+  "search stations and networks",
+  "list closed channels",
+  "verify signed record",
+  "check station AI readiness",
+  "check data freshness",
+  "list data sources"
+ ],
+ "effects": {
+  "4bbdd6140e8ccaf6b44d99094ac52c953b49602ed871b1bc82fc5c06ca66c879": "read",
+  "bd0982fedd255765f56131cb2c2e213057747ae2484f5ce4bf1a9b83d237d8f9": "read",
+  "cd00144dd1c820dc8958f93bdb492d0eb387caa4c104cd162f9e0ee3a8639fe7": "read",
+  "47a6d7f372a6982b17ff22b9284a085e1e0da1da6efedeea4a253f0325c94183": "read",
+  "285e682188e9cfc5d4f8380a3b39415b34c007b797bd9777872049ab528b9385": "read",
+  "4693eac1d5f12bffd8239af076c4d5a82ca4dd3b802dc166a946a910bf2ba201": "read",
+  "3c4bf5c64b737bb31cfbf342fec8670b7bdff153a983954d2f307e15d49ec4ec": "read",
+  "318130e29fb71fe3df390806dbe1dabc13bbd0d23af8e62131842df8a8be13df": "read",
+  "73e307121a943ba872f9f1a126e37c6e1f9b2d879ad2af96eaadd034b0a6ed4c": "read"
+ },
+ "flags": []
+}

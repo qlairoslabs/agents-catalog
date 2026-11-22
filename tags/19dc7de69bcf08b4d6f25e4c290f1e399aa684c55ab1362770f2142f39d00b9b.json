@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "19dc7de69bcf08b4d6f25e4c290f1e399aa684c55ab1362770f2142f39d00b9b",
+ "domain": [
+  "events/ticketing"
+ ],
+ "product": [
+  "ticket-fairy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches public events listed on Ticket Fairy and returns links for completing ticket checkout in a browser.",
+ "whenToUse": "Use when a user wants to find public events and get a link to buy tickets.",
+ "tasks": [
+  "search public events",
+  "get event links",
+  "hand off to browser checkout"
+ ],
+ "effects": {},
+ "flags": []
+}

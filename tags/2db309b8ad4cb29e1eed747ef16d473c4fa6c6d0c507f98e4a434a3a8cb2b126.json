@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "2db309b8ad4cb29e1eed747ef16d473c4fa6c6d0c507f98e4a434a3a8cb2b126",
+ "domain": [
+  "productivity/personal-assistant",
+  "information/search"
+ ],
+ "product": [
+  "mu"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "keep-in-touch",
+  "schedule"
+ ],
+ "summary": "Single endpoint bundling news, web search, mail, markets, weather, places, files, calendar and contacts tools.",
+ "whenToUse": "Use when a user wants one connector for everyday lookups plus mail, calendar, files and contacts.",
+ "tasks": [
+  "read news",
+  "search the web",
+  "manage mail",
+  "check markets",
+  "get weather",
+  "find places",
+  "manage files",
+  "manage calendar",
+  "manage contacts"
+ ],
+ "effects": {},
+ "flags": []
+}

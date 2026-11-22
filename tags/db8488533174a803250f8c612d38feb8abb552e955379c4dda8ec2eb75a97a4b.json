@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "db8488533174a803250f8c612d38feb8abb552e955379c4dda8ec2eb75a97a4b",
+ "domain": [
+  "geospatial/maps",
+  "data/visualization"
+ ],
+ "product": [
+  "showmeonmap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Turns plain-English requests into rendered, shareable maps built from live public data using geospatial tools.",
+ "whenToUse": "Use when an agent needs to visualize location-based public data on a map.",
+ "tasks": [
+  "render map from query",
+  "query public geospatial data",
+  "share map"
+ ],
+ "effects": {},
+ "flags": []
+}

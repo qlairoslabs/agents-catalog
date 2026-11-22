@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1de74e6a60955188ceb0846391e8ea4122715587fc686bf56a27d03cfa63546f",
+ "domain": [
+  "business/idea-validation",
+  "startups/mentoring"
+ ],
+ "product": [
+  "gonogo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs a live voice interview with an AI mentor to stress-test a startup idea and give a go or no-go verdict.",
+ "whenToUse": "Use when the user wants feedback on whether to pursue a startup idea.",
+ "tasks": [
+  "start voice interview",
+  "evaluate startup idea",
+  "get go/no-go verdict"
+ ],
+ "effects": {},
+ "flags": []
+}

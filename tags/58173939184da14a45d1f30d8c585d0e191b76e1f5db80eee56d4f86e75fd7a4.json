@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "58173939184da14a45d1f30d8c585d0e191b76e1f5db80eee56d4f86e75fd7a4",
+ "domain": [
+  "media/tech-news"
+ ],
+ "product": [
+  "techsnif"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read access to TechSnif tech news: ranked story clusters, coverage and discussion links, editorial articles, trends, events and leaderboards.",
+ "whenToUse": "Use when you need current tech news, who covered a story, social discussion links or upcoming tech events.",
+ "tasks": [
+  "get top stories",
+  "search stories",
+  "get story details",
+  "get trending stories",
+  "list tech events",
+  "read editorial articles",
+  "track story ranking history",
+  "poll changes",
+  "list tracked entities",
+  "view source leaderboards"
+ ],
+ "effects": {
+  "0f03c8ce43ce4f7f0d751a8cd7f4a234c60ba0ec2972c49648e95eb82ac7c891": "read",
+  "a1c764c8163cb7e2df4cc671bd7ef6b9bfb613898b71acbc105554b0da6e941c": "read",
+  "578c2422fbfe2d38e25b2c0af326d3ccabe2f9b73f33178937d5fa95b6f7ab5f": "read",
+  "0828f1930e02c8a12b8628ed874c8ad3c26d47065d5f8a0f49021791726511cb": "read",
+  "d64a9d197ff3518c703b35eb5f3e5a875cd22de530d461df951f06fe7a10948b": "read",
+  "e4a3cad6c7ce486d2fba075cb04ab3a02567b7a269dd6a6426a9cb636d011361": "read",
+  "37f8ebd6ca9857ee981109bcef5a79d7a1f026bf3a1b27bdf012e14d5af1166d": "read",
+  "1a3fa7c7fd801ec11cda2d50b46a99e4b7eb52d76e25f7b04d3126b78c9b3ccd": "read",
+  "8a869e62c694fb1f64a50d270746772512335f676b34d7bdbedf73fac82a0906": "read",
+  "e59147ed913b36824ef0dfd7bcc8b0d2db17e282c91851fc53afc05bd5f392dc": "read",
+  "c268a307fcaf5cf2c234e64bd2f65d0e0c91833abc43b6e5166b2d6dadfc5ebc": "read",
+  "f2e51d3501f74ec9ed52c93583c3b695e64562a1ac74cede9030007e253fc44e": "read",
+  "d2adb449b03f8cf50c65cba86c7e1c0ae0d06e18b56fe113cd6687b94fec0691": "read"
+ },
+ "flags": []
+}

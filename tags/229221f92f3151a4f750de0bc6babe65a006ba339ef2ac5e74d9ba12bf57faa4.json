@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "229221f92f3151a4f750de0bc6babe65a006ba339ef2ac5e74d9ba12bf57faa4",
+ "domain": [
+  "education/student-life",
+  "reference/documentation"
+ ],
+ "product": [
+  "the-student-life"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Searches and reads The Student Life's city guides, student blog posts, FAQ, pricing and policy pages.",
+ "whenToUse": "Use when answering questions about studying abroad, student city guides, or The Student Life's pricing and policies.",
+ "tasks": [
+  "search guides",
+  "read city guide",
+  "read blog guide",
+  "read FAQ and policies"
+ ],
+ "effects": {
+  "acfd4a2a3635647b732daa82eb388ec8250a25310f89f209b7845c6b448e542a": "read",
+  "e28398b9f945312d8dce76fea3ab438fee49ffe6eeb2010ae0a8b87f6a21f11c": "read"
+ },
+ "flags": []
+}

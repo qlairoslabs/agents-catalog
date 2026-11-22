@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "e3f43029d6303e549e24ef1eb33810af4fa04aa94528ec36aeeb3ece25f5a96a",
+ "domain": [
+  "finance/crypto",
+  "finance/tokenized-stocks",
+  "data/ai-progress"
+ ],
+ "product": [
+  "st0x",
+  "coinbase",
+  "base",
+  "solana",
+  "raindex",
+  "polymarket",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Pay-per-call x402 data for tokenized stocks on Base, Solana token safety verdicts and a dataset of AI-progress indicators.",
+ "whenToUse": "Use when checking tokenized stock premiums or genuine contracts, grading a Solana token, or reading current AI progress metrics.",
+ "tasks": [
+  "compare a stock across issuers",
+  "get ST0x premium",
+  "get ST0x trading pulse",
+  "resolve ST0x registry",
+  "grade a Solana token",
+  "read latest AI progress",
+  "read AI progress as of a date",
+  "diff AI progress between dates"
+ ],
+ "effects": {
+  "aac484c24441cd361a0a84f871c0fea23c0b3b1c78e721a2d7988898697d504b": "read",
+  "1315b3826bd502306fdc6e5f994284a79867cef0abf14ba901c5221a45c4775c": "read",
+  "6a62ca2714dabdf31c2576e434d7c4b4c66b04a0081136d78424b9eda2c952b5": "read",
+  "68d8cbe828d9bf3e24aa54010e926c9e1ccd20155510847195e542d262c769e6": "read",
+  "c86ed08ad342049a19a2aabbfeca060ad2f1af56b9bdc2b2a9849c92b02e4ace": "risky",
+  "a0103bdb84f744080aefe0fcb7c571d1512188e4cee600134bba7c7404506d86": "risky",
+  "5a13b6cb20f3fc0cf36f1421e9bf4ffcfbdfa0a65aa88f5a8b38e524919dd136": "risky",
+  "ae1c3e980b7556cfb113e53f065ba8d42acac00cf8c9df82986ebb30fa09ce3d": "risky",
+  "054ef9481825977319d9efa5be16ab0daa3aca121cc756025259e3e3b28e3208": "risky",
+  "3ca3c40537bf8a819eeba4062a0c38f61af29528a61e321e3e2cc64d7a082fc2": "risky",
+  "103795d8bc3082ba23f0af0a63f3296e4a34e3ebc6d1cfea675e83800f4ff949": "risky",
+  "eeecb4ed2a21e144280332d54f3aba02b7514326e4b27e4677aa5e113914d0eb": "risky"
+ },
+ "flags": [
+  "paid tools spend USDC via x402 per call"
+ ]
+}

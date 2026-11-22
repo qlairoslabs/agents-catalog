@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a25032845a272fc1bb8ab0ad881b5ef0a7dad30294ea68e8a2cc25cfcdf3f443",
+ "domain": [
+  "software/cybersecurity/pki",
+  "software/infrastructure"
+ ],
+ "product": [
+  "certman"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Creates and manages a private certificate authority for issuing internal HTTPS certificates.",
+ "whenToUse": "Use when setting up or managing an internal certificate authority and TLS certificates for internal services.",
+ "tasks": [
+  "create certificate authority",
+  "issue certificates",
+  "manage certificates"
+ ],
+ "effects": {},
+ "flags": []
+}

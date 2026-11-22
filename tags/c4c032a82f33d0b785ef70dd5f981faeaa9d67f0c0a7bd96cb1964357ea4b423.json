@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c4c032a82f33d0b785ef70dd5f981faeaa9d67f0c0a7bd96cb1964357ea4b423",
+ "domain": [
+  "research/scholarly-literature",
+  "education"
+ ],
+ "product": [
+  "openalex"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches the OpenAlex index of research papers, citations and author profiles, using OAuth sign-in to a free account.",
+ "whenToUse": "Use when an agent needs to find academic papers, follow citations or look up researcher profiles.",
+ "tasks": [
+  "search research papers",
+  "look up citations",
+  "view author profiles"
+ ],
+ "effects": {},
+ "flags": []
+}

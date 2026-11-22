@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "106a71440ab20bd82f27dd89b5c5bd3c8c2adbc0521b5469a221547919b2cbc2",
+ "domain": [
+  "marketing/social-media/link-previews",
+  "software/web"
+ ],
+ "product": [
+  "x",
+  "linkedin",
+  "slack"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Checks how page links preview on X, LinkedIn and Slack using Open Graph and Twitter card data, and provides OG images per page.",
+ "whenToUse": "Use when verifying or debugging how a URL will look when shared on social or chat platforms.",
+ "tasks": [
+  "check open graph tags",
+  "preview twitter cards",
+  "preview links on linkedin",
+  "preview links on slack",
+  "get og images per page"
+ ],
+ "effects": {},
+ "flags": []
+}

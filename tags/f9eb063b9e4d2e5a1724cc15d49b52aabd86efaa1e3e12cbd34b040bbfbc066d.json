@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f9eb063b9e4d2e5a1724cc15d49b52aabd86efaa1e3e12cbd34b040bbfbc066d",
+ "domain": [
+  "finance/sector-analysis",
+  "finance/portfolio-allocation"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Compares two or more sectors on valuation, earnings growth, sentiment and cycle position to make a rotation call, using Bigdata.com data.",
+ "whenToUse": "Use when a user wants to compare sectors or decide on sector rotation or over- and underweights.",
+ "tasks": [
+  "compare sector valuations",
+  "compare earnings growth",
+  "assess analyst sentiment",
+  "place sectors in economic cycle",
+  "review bellwether fundamentals",
+  "compare roic versus history",
+  "make overweight underweight calls"
+ ],
+ "effects": {},
+ "flags": []
+}

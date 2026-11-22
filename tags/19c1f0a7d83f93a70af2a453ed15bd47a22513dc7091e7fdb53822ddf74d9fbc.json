@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "19c1f0a7d83f93a70af2a453ed15bd47a22513dc7091e7fdb53822ddf74d9fbc",
+ "domain": [
+  "travel/connectivity",
+  "telecom/esim"
+ ],
+ "product": [
+  "skyalo",
+  "esim"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Estimates trip mobile-data needs, checks phone eSIM compatibility, searches Skyalo eSIM plans and prepares a purchase link.",
+ "whenToUse": "Use when planning travel connectivity, checking eSIM support or finding a Skyalo eSIM plan.",
+ "tasks": [
+  "estimate trip data",
+  "build connectivity checklist",
+  "check eSIM compatibility",
+  "search eSIM plans",
+  "prepare purchase link"
+ ],
+ "effects": {
+  "09ded1c7ed344503e70024c426ce4970b84360222fae80ec2c0313873b8a8f2d": "read",
+  "3ce24dc03b1655cd09d10b1c42601c7c92a029b6abae0a1625f7600dd13f022c": "read",
+  "eaea423ad789957aadc89c1326ce2c9799563c91648f431bbda6cf73c7e86ab0": "read",
+  "a0957c652e3f3c3ab611421b43ce10513952dcbda59e086e829aa77654e978b4": "read"
+ },
+ "flags": []
+}

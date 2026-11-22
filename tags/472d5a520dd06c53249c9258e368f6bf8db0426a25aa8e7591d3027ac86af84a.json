@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "472d5a520dd06c53249c9258e368f6bf8db0426a25aa8e7591d3027ac86af84a",
+ "domain": [
+  "hobby/3d-printing",
+  "design/gridfinity"
+ ],
+ "product": [
+  "extrabold-tools",
+  "gridfinity",
+  "bambu-lab"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Configures Gridfinity baseplates for 3D printing from drawer presets, exact dimensions or grid counts, with printer fit checks and shareable links.",
+ "whenToUse": "Use when the user wants a Gridfinity baseplate sized to a drawer or grid and fitted to their printer's build volume.",
+ "tasks": [
+  "look up 3D printers",
+  "find drawer presets",
+  "generate baseplate from dimensions",
+  "generate baseplate for a drawer",
+  "generate grid by rows and columns",
+  "ask configuration questions",
+  "create shareable URLs"
+ ],
+ "effects": {
+  "583c39208bfd4bda309432caf78903a1391c1aabc026b517b557b672d0671b75": "read",
+  "3518ee476227416c9673bdf8464d65211e28d546e3420ea6e095d977b6e5ac27": "read",
+  "f4a37f60429085069914261005d178c9db97c3d06d3917d111dcaf2af2dfe015": "write",
+  "740febaff456aa1ef244d7af5b9f7e35569859d2fcb4e7b57b9e7c8d1a5c7fb2": "write",
+  "a2c833d776514599d7670b145454031baa383c678edeed42871d6f75f589db0d": "read",
+  "256190ae9b78da0339ac010cb783fb1a0b5e3581858fe4ffb3f1bb2f3b242528": "write",
+  "2051b74eb46bc657d25bc97b5a7359d7edd1a322a6d193b6fcff47c422569724": "write"
+ },
+ "flags": []
+}

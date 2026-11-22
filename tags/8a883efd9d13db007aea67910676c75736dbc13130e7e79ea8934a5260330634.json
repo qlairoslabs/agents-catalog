@@ -1,0 +1,66 @@
+{
+ "classifier": 2,
+ "contentHash": "8a883efd9d13db007aea67910676c75736dbc13130e7e79ea8934a5260330634",
+ "domain": [
+  "finance/market-data",
+  "government/sec-filings",
+  "finance/crypto"
+ ],
+ "product": [
+  "sec-edgar",
+  "bls",
+  "bea",
+  "eia",
+  "chainlink",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Paid x402 tools for US macro indicators, SEC EDGAR filings and on-chain EVM reads, plus JSON repair and table conversion utilities.",
+ "whenToUse": "Use when an agent needs US economic data, insider trades, financials or 13F holdings, multi-chain balances and oracle prices, or to repair malformed JSON.",
+ "tasks": [
+  "repair malformed JSON",
+  "CSV to JSON",
+  "Treasury yield curve",
+  "CPI, PCE, GDP, jobs",
+  "retail sales and housing",
+  "energy data",
+  "release calendar",
+  "insider transactions",
+  "company financials",
+  "13F holdings",
+  "filings search",
+  "on-chain balances, prices and gas"
+ ],
+ "effects": {
+  "ca4108ee3ef59cf45e1b64050fff4991edc160bcc15e98f7ef43947af7ccbd55": "risky",
+  "c186cb317964ccc96bab229e80817e593174f6dd493d1f46dceae4c9e4d291f7": "risky",
+  "a3521693baca4cfa14d4c0b347132b5105987de9b9d0dfdc0f1902379156a174": "risky",
+  "191370b5f5a6bc4ab1123116e5205d897b6f01e4c764f5973ba71383a8b080bc": "risky",
+  "a893136c45571ac25c5705d146e67d66a125baeab0af534d8ea3c057dbd318a1": "risky",
+  "4ddcb9ed054b6171e11feb476ec84dc21fb98aa5c1e409a3624d7871d0f69ff0": "risky",
+  "da48b5a9d707c1eac4f43a217b45a9512212007ad072d0c1d8b6dca22c3c112d": "risky",
+  "3f5f0b6e079ff49375e8b36a01d1609d08da1a962afa65b7aa0a53f501b0cd39": "risky",
+  "1e4c7101394f4f1831b9750470db264d88e450b3442019e9880bb7c3f40a4853": "risky",
+  "f0884430b9399320c11f125b81c6ae1c3869dd53e83076978a681bef5d41db31": "risky",
+  "098620e48b424ba53f68705b8a2ee10afe07616c385289c5f3934b55f64ed67e": "risky",
+  "0e0d6e532a24ec337a177e79c1323086b06328ad527d7e4e8c8168fb9746bae3": "risky",
+  "dd0ad08caddb5c0bdf2ddc1b0a97669a7bfcb34f86638b60c205c0e8698eb0ae": "risky",
+  "c2d5a81291191b598ccd1c473a60aaddb975558428b98e84d6bd8171508c9c7c": "risky",
+  "a1774db5a2db2d06ffc2f6e445cc9835a5718dd4d5611ee59f7b7c54949e8310": "risky",
+  "7fccea99efaf932c9b1e61714cfb914c988c3edd62f9d2e781ac9a31d1dc8800": "risky",
+  "24eadd304b4b77efc9fe7eee21f5a7554cb1670bf779405f567be39df31d3aa6": "risky",
+  "86c794cb989bd2644bd99e2723e0987c94f3e7b9b548cf95cc24fc8151e2e4e2": "risky",
+  "e942fb01f75e7cbbde729574449144442b7e567a95d36dabd0302d3815ef1f45": "risky",
+  "d01ded42e3baaa0bfd8de1d4b196a69a0042b44f516e3ad0fd4612ee7b9e5eb8": "risky",
+  "b3d3401fd3fc16f41713c3395c1861522e9c5124ec00a700177ee0b43d08348f": "risky"
+ },
+ "flags": []
+}

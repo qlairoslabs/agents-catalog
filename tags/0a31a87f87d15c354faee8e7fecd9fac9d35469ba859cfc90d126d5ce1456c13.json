@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0a31a87f87d15c354faee8e7fecd9fac9d35469ba859cfc90d126d5ce1456c13",
+ "domain": [
+  "software/development/language-servers"
+ ],
+ "product": [
+  "php",
+  "intelephense"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds the Intelephense PHP language server for code intelligence.",
+ "whenToUse": "Use when working in a PHP codebase and needing definitions, references or diagnostics.",
+ "tasks": [
+  "provide php code intelligence",
+  "go to definition",
+  "find references",
+  "report diagnostics"
+ ],
+ "effects": {},
+ "flags": []
+}

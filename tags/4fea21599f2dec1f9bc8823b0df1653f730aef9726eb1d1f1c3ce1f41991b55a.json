@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4fea21599f2dec1f9bc8823b0df1653f730aef9726eb1d1f1c3ce1f41991b55a",
+ "domain": [
+  "productivity/polls"
+ ],
+ "product": [
+  "onetapvote"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates one-tap polls that can be shared by link or QR code and returns their results.",
+ "whenToUse": "Use when a user wants to quickly collect votes or opinions from a group and check the results.",
+ "tasks": [
+  "create polls",
+  "share poll links",
+  "generate qr codes",
+  "read poll results"
+ ],
+ "effects": {},
+ "flags": []
+}

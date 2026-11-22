@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "620c78264d317363171ebf1b729e77a07626f27ca1001184da968ddd34ac6f39",
+ "domain": [
+  "healthcare/nursing-homes",
+  "data/public-records"
+ ],
+ "product": [
+  "cms",
+  "care-compare"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and compares US certified nursing facilities using CMS monthly data, including ratings, staffing, fines, inspection scores and ownership.",
+ "whenToUse": "Use when comparing nursing homes, checking who owns a facility, or tracking changes in a facility's CMS ratings.",
+ "tasks": [
+  "search facilities by location",
+  "filter by ownership",
+  "compare facilities",
+  "summarize aggregate stats",
+  "track monthly changes",
+  "look up facility ownership",
+  "search owners",
+  "view owner portfolios"
+ ],
+ "effects": {
+  "9de3ebea431ac1342f960f885ce211bb29bdf1fe8b5faa1acaf3f414646c8577": "read",
+  "7104fddec33f89f0cabe123c8b4cf03b7f05f9b6cc05208650794e7058436d68": "read",
+  "4242e439f39e714654177b07955bbd0c0cdeb6d17b3423e89d71a8c4d915b53b": "read",
+  "2113ddc4abfcbe2f6599d54369939dce8b89688310604c5d87c309af2328b8c8": "read",
+  "2bc79e8cb00f5f9eba90ed4cafe4fcfcfa77659c721959be343f1f7d5a2b9c87": "read",
+  "0eff8eec73ec8b14ecf33eaa3447a6b16f1b728ee9d8cf4ae83f7365aa1b286d": "read",
+  "1f9cca8bb34b037249dcecb9b83a5027d6e87973ebdcbdc2ed307976a44878be": "read",
+  "c9d78cf3fc19cc9e1e34349faacab21d411cd90afb03a2726ead81f37ef86204": "read",
+  "9d4d4a71a51e3c70341b439447aa44526d9eabdc065bbf2ef884f74b9a9e2dc0": "read",
+  "37ab3ade386ea217da481d26db07013e5cf0eb926d360798be6fbcf440331375": "read",
+  "388c5f26da1b511ad21d75291f6838978c4c916f0c6cdb12add2da95a71757da": "read",
+  "8d7d7e8db9358b3f19e84bb344c525d8acada0f2322a15d3645dadebe22e9bba": "read"
+ },
+ "flags": []
+}

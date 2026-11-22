@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "7bbd94be1ab9a94863bcafe52b24ab27b2c5c6f138bb01db3926e8c3778a3795",
+ "domain": [
+  "software/file-storage"
+ ],
+ "product": [
+  "artifacta"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Artifact storage for AI agents, available as a hosted OAuth server or a local stdio package.",
+ "whenToUse": "Use when an agent needs to save and retrieve files or outputs across sessions.",
+ "tasks": [
+  "store artifacts",
+  "retrieve artifacts"
+ ],
+ "effects": {},
+ "flags": []
+}

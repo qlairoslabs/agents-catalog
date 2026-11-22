@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "da5a785b6a638ecaa20be75d6af0a990a486e46ca051b34c5b05573a4a35003c",
+ "domain": [
+  "software/email-deliverability",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "hostsherlock"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Checks SPF, DKIM, DMARC and MX records for any domain and reads DMARC reports for monitored domains.",
+ "whenToUse": "Use when diagnosing email authentication or deliverability issues for a domain.",
+ "tasks": [
+  "check spf",
+  "check dkim",
+  "check dmarc",
+  "check mx records",
+  "read dmarc reports"
+ ],
+ "effects": {},
+ "flags": []
+}

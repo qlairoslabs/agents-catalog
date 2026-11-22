@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "53659bde4026f557f117d24520b7b8897fdbb2c91384c0c792ac5c5a271140af",
+ "domain": [
+  "software/mobile",
+  "software/app-distribution"
+ ],
+ "product": [
+  "app-store-connect",
+  "testflight",
+  "storekit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online",
+  "sell"
+ ],
+ "summary": "Large tool set for App Store Connect, TestFlight and StoreKit 2, grouped into selectable profiles.",
+ "whenToUse": "Use when managing iOS app releases, TestFlight builds, metadata or in-app purchases in App Store Connect.",
+ "tasks": [
+  "manage app store listings",
+  "distribute testflight builds",
+  "manage testers",
+  "handle in-app purchases",
+  "read app analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

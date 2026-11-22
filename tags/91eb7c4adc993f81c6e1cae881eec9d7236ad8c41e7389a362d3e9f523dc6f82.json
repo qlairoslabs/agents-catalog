@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "91eb7c4adc993f81c6e1cae881eec9d7236ad8c41e7389a362d3e9f523dc6f82",
+ "domain": [
+  "software/game-development/no-code",
+  "education"
+ ],
+ "product": [
+  "gamesalad"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Lets a coding agent read GameSalad projects and edit them live in GameSalad Creator on Pro and Edu plans.",
+ "whenToUse": "Use when building or modifying a game in GameSalad with an AI agent.",
+ "tasks": [
+  "read gamesalad projects",
+  "edit projects live in creator"
+ ],
+ "effects": {},
+ "flags": []
+}

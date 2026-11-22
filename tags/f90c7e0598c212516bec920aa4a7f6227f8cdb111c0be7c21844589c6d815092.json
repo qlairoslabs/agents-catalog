@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f90c7e0598c212516bec920aa4a7f6227f8cdb111c0be7c21844589c6d815092",
+ "domain": [
+  "data/business-intelligence",
+  "data/analytics"
+ ],
+ "product": [
+  "basedash"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Governed business intelligence server for asking questions of live company data and listing workspace data sources.",
+ "whenToUse": "Use when an agent needs answers from company data connected to a Basedash workspace.",
+ "tasks": [
+  "query company data",
+  "list data sources"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ebb3bd903acaa51e08cae1e6985b91e80cfa7a97d7e8c57b602307f10d50969e",
+ "domain": [
+  "software/observability/error-monitoring",
+  "software/developer-tools/cli"
+ ],
+ "product": [
+  "sentry"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Skills for using the Sentry command-line tool to interact with Sentry.",
+ "whenToUse": "Use when the agent needs to work with Sentry from the terminal via sentry-cli.",
+ "tasks": [
+  "run sentry cli commands",
+  "interact with sentry projects"
+ ],
+ "effects": {},
+ "flags": []
+}

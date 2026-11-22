@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "f974af7cfb8cd8de939eef20bbc29492ba7e74e1e2117ccc6214d95f6c8a7005",
+ "domain": [
+  "finance/fundraising",
+  "startups"
+ ],
+ "product": [
+  "investormatch"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "Searches a public directory of venture capital firms by stage, sector and location, and fundraising guides for startups.",
+ "whenToUse": "Use when a founder needs to find suitable VC investors or read fundraising advice.",
+ "tasks": [
+  "search VC firms",
+  "filter by stage sector location",
+  "view investor profile",
+  "list filter values",
+  "search fundraising guides"
+ ],
+ "effects": {
+  "aa0854eca844c2141b4949847be441222955aa7ef78646d48179014a473fd32b": "read",
+  "a58e18d8b4b8b86816bd659d8242f1d746f46222d08506af310be381c47e2388": "read",
+  "d9ed55a37e0000e7085d847566f246749560010b7f5a9804de98c071a5f4be17": "read",
+  "6e2b7ef90b181b8ae27e48677b9d98df7e4af9b6347df82271a96968355abcf6": "read"
+ },
+ "flags": []
+}

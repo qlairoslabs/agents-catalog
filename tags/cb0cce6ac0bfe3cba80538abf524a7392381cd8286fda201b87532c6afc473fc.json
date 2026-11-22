@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cb0cce6ac0bfe3cba80538abf524a7392381cd8286fda201b87532c6afc473fc",
+ "domain": [
+  "ai/prompt-library",
+  "ai/agent-skills"
+ ],
+ "product": [
+  "amo-ng"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Finds and fetches prompts, workflows and skills published on the Amo.ng platform.",
+ "whenToUse": "Use when an agent needs a ready-made prompt, workflow or skill published on Amo.ng.",
+ "tasks": [
+  "search published prompts",
+  "retrieve workflows",
+  "retrieve skills"
+ ],
+ "effects": {},
+ "flags": []
+}

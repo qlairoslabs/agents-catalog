@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "87d84842d2bd9e0c98a151fe4a7f6dc3a9d00d5cfe719f8c1bb04b2999ded5e7",
+ "domain": [
+  "productivity/notes/search",
+  "knowledge-management"
+ ],
+ "product": [
+  "obsidian"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Obsidian vaults using combined full-text, fuzzy, semantic and link-graph retrieval.",
+ "whenToUse": "Use when an agent needs to find notes or information inside a user's Obsidian vault.",
+ "tasks": [
+  "full-text search notes",
+  "fuzzy search notes",
+  "semantic search notes",
+  "graph-based note retrieval"
+ ],
+ "effects": {},
+ "flags": []
+}

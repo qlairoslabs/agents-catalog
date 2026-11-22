@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "77bc5a5652eb57acb0be9e56148a0a70d8c1230e60cda62f7a328406baa47ed9",
+ "domain": [
+  "it/asset-management",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "ambiscribe"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Read-only access to a documented IT fleet's state, change history and security posture.",
+ "whenToUse": "Use when an agent needs to answer questions about IT devices, recent changes or security posture.",
+ "tasks": [
+  "view fleet state",
+  "review changes",
+  "check security posture"
+ ],
+ "effects": {},
+ "flags": []
+}

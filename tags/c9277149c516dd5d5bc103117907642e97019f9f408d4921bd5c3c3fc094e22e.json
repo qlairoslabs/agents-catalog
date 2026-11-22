@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "c9277149c516dd5d5bc103117907642e97019f9f408d4921bd5c3c3fc094e22e",
+ "domain": [
+  "science/seismology"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes SAC seismic waveform files and TAR archives, inspecting members and computing metrics.",
+ "whenToUse": "Use when an agent needs to read or analyze seismic waveform data in SAC format.",
+ "tasks": [
+  "inspect sac files",
+  "list tar archive members",
+  "compute waveform statistics"
+ ],
+ "effects": {},
+ "flags": []
+}

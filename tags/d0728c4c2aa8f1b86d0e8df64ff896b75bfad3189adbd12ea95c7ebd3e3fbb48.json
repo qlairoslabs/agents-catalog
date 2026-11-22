@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d0728c4c2aa8f1b86d0e8df64ff896b75bfad3189adbd12ea95c7ebd3e3fbb48",
+ "domain": [
+  "marketing/advertising/publisher-monetization",
+  "marketing/ad-tech"
+ ],
+ "product": [
+  "sulvo"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Audits publisher ad revenue via ads.txt and ad-stack checks, with Sulvo onboarding and ad-block recovery.",
+ "whenToUse": "Use when an agent needs to check a website's ads.txt or ad stack for revenue issues.",
+ "tasks": [
+  "check ads.txt",
+  "audit ad stack",
+  "onboard to sulvo",
+  "recover ad-block revenue"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9c2fbbb0a3802ff22d150c168106fc8b5634cb6a528c93bba422e4eaa4e1e057",
+ "domain": [
+  "science/weather-forecasting"
+ ],
+ "product": [
+  "windborne",
+  "weathermesh"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides weather forecasts and insights from WindBorne's WeatherMesh model and balloon observations.",
+ "whenToUse": "Use when you need weather forecasts or weather insights for a location.",
+ "tasks": [
+  "get weather forecast",
+  "get weather insights"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "d5d05dfcc4ab7a8992900287ae40b5a842385e98bdba4cbb7afb7b3d4bf53cf7",
+ "domain": [
+  "content/creative-writing",
+  "content/image-generation"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates complete stories, chapters, characters and cover art from a premise using a planner-writer pipeline.",
+ "whenToUse": "Use when someone wants a full piece of fiction drafted from a premise, including characters and cover art.",
+ "tasks": [
+  "generate stories",
+  "write chapters",
+  "create characters",
+  "generate cover art"
+ ],
+ "effects": {},
+ "flags": []
+}

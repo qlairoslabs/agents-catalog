@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "81636ee5e555d1be5037b4b9d434987bdf93838b5f8b4377b5330ac92b8a6662",
+ "domain": [
+  "software/search/web-search",
+  "software/ai-agents"
+ ],
+ "product": [
+  "you-com",
+  "vercel-ai-sdk",
+  "claude-agent-sdk",
+  "openai-agents-sdk",
+  "crewai",
+  "langchain",
+  "microsoft-teams"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "You.com skills for web search, cited research and content extraction, with integration guides for agent frameworks.",
+ "whenToUse": "Use when an agent needs web search or research with citations, or when integrating You.com into an agent framework.",
+ "tasks": [
+  "search the web",
+  "research with citations",
+  "extract page content",
+  "integrate with agent sdks",
+  "call rest api",
+  "use bash cli"
+ ],
+ "effects": {},
+ "flags": []
+}

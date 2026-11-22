@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "78d3ccfbcccad636e2ec798862ad9b9ed59802e8a65bbfc6195b0b9d54570461",
+ "domain": [
+  "marketing/intelligence",
+  "marketing/seo"
+ ],
+ "product": [
+  "earlywire",
+  "google-ads",
+  "ga4",
+  "meta"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Curated, scored marketing and growth news from over 120 practitioner sources with search, trends and topic summaries.",
+ "whenToUse": "Use for current marketing, SEO, analytics or paid ads questions and catching up on recent developments.",
+ "tasks": [
+  "see newest items",
+  "search wire",
+  "topic pulse",
+  "trending topics",
+  "get item",
+  "check coverage"
+ ],
+ "effects": {
+  "78b5fddbda8c5632424cb53e347a3450fb1d2beff8b1c89729b38edc86c54a90": "read",
+  "4ed6840a9ef1a5d3bbc95a6486fd5a3918dab32cdc71db97f6c1769d43232893": "write",
+  "95d27c955e466bf8a00c3d0846dbe02ef878957d0f7ef72dd718df7d93903f6c": "read",
+  "93108be6dc45e3fd369251e052746ddaf80b0d9a763b18a71b5a24df86d66ae9": "read",
+  "ea025788277c644533b7224c4ff5e119293e9c1ccd56c1d53e9a7f256e60fe36": "read",
+  "7b637fa4d566f6d9680501c43f37932ccb1f59156e74e0e4946c1a85813ed0f1": "read"
+ },
+ "flags": []
+}

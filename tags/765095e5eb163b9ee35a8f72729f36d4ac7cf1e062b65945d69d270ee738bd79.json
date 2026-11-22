@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "765095e5eb163b9ee35a8f72729f36d4ac7cf1e062b65945d69d270ee738bd79",
+ "domain": [
+  "knowledge/reference",
+  "ai"
+ ],
+ "product": [
+  "canonicai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to CanonicAI's cited answers and domain canons, with search over answers and constructs.",
+ "whenToUse": "Use when a user wants a cited answer or canon definition from CanonicAI's published corpus.",
+ "tasks": [
+  "list answers",
+  "get answer with citations",
+  "search answers",
+  "list canons",
+  "get canon",
+  "search constructs"
+ ],
+ "effects": {
+  "165cfd92a351646e90837bd6f7e806ef92d403a44640478ffd3a9a00f01fe360": "read",
+  "ea4fac38e8a1a9377c32e8fef0ce4c3b867919aa8d355dc203ad6f36510a8450": "read",
+  "d91751a06e1da3a6a7eec2451176712e22a4b16ed98aec1e19a5e16a0f99879d": "read",
+  "92eea7fff118e904c3886fd62a87c160097098eec3e4c6dd096749b36e3318a0": "read",
+  "9556f0857c50ace3a4a41f0b240d8d5bfdbeab9ac662a50273761b4850b0dd77": "read",
+  "2de91059789b15b8117860560f5f57777dfba77f897854b66735cbaf5d22564c": "read"
+ },
+ "flags": []
+}

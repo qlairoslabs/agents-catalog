@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "e89de084923ba319a181bff1033ef8826ad27a86f933b4d493239bd425571308",
+ "domain": [
+  "marketing/operations"
+ ],
+ "product": [
+  "digitalpublic"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Project-scoped marketing operations for agents on DigitalPublic with read access and supervised write actions.",
+ "whenToUse": "Use when an agent needs to read or make supervised changes to DigitalPublic marketing projects.",
+ "tasks": [
+  "read marketing projects",
+  "make supervised changes"
+ ],
+ "effects": {},
+ "flags": []
+}

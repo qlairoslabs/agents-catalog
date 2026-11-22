@@ -1,0 +1,64 @@
+{
+ "classifier": 2,
+ "contentHash": "9772642a738391cbc1f2889073efc1c28c30d867c0abd9f73c0845c979aea542",
+ "domain": [
+  "software/hosting",
+  "software/cloud-infrastructure"
+ ],
+ "product": [
+  "conexcol",
+  "cpanel",
+  "cloudlinux",
+  "plesk",
+  "imunify360",
+  "litespeed",
+  "microsoft-sql-server",
+  "sitejet"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Catalogue of Conexcol hosting and cloud server plans in Colombia, with prices in pesos, quotes, draft orders, help articles and a site diagnostic.",
+ "whenToUse": "Use when someone wants to compare, price or order hosting or cloud servers from Conexcol in Colombia, or troubleshoot a site hosted there.",
+ "tasks": [
+  "search hosting plans by budget and resources",
+  "get full plan details",
+  "list licenses and add-ons",
+  "compare plans",
+  "quote a plan by period",
+  "create a draft order cart link",
+  "check catalogue freshness",
+  "get infrastructure facts",
+  "get sla and legal policies",
+  "search help articles",
+  "get customer tool guides",
+  "diagnose a domain's dns, http and ssl"
+ ],
+ "effects": {
+  "4a8232951c8d7158f9c69018853c3848024b5a123e85e3354dac744226bc535e": "write",
+  "e960addaea0e9b0975c62132e23989241ab16ec5676f2f84561e031d8c1883f4": "write",
+  "1264305c0787aa072cf660afdd74eb90106b4b3ec60b787e33271a8bf57faf3b": "read",
+  "259a88e223cce7d31543a9ee522de4e1760cd3b40cfb78c2f34e946addfd124f": "read",
+  "33271b8205e027c4326cc62caa75387e41b39c27840ffe3adc124c16ea171f34": "read",
+  "ff9e2cac1c36fcaaab5bbfb5c5d3b043a81628c153eb43de38616b1f3de9aafe": "write",
+  "5445a1375671e0175120b6a7b8f97a2fa9fe829a30b31e5dc9d423052490f355": "read",
+  "a1ce8da0bc42fd7dbbb6522d092ead5cee4be57a29d5b2dd88b725b6df1e5040": "read",
+  "d6ee169d267fbf7b9e65dc2a02ea8a06be324e6004b10b0198cbc62092ef186e": "read",
+  "2cad95c670396b396af69c758202fc45194931aedbb87034abed01a149f679b2": "read",
+  "628675233352fd520aaf102fadbef7fa99ed0cac9fbf2885373128f417133c38": "read",
+  "96cc13937cb6e0d649582dfb795d3f41841735439098d47badebfde46fa0753e": "read",
+  "24fd4be8f10462ce0170f1822067806d72a56bacf8e53df1210f8a34558e6fa8": "read",
+  "86c4a28a3b219201346fd08fa4028466fc4b9b2a36b84d6fcdf613d3087834d5": "read",
+  "1171ac73144bbfce1ab7f374b0cb28dfab8d5f429d70f400fa0062dcdf45730b": "read"
+ },
+ "flags": [
+  "tool descriptions tell the agent which tools to call first and how to phrase claims about the vendor's products and infrastructure"
+ ]
+}

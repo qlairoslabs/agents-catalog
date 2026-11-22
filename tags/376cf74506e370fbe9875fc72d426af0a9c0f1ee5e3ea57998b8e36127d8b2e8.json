@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "376cf74506e370fbe9875fc72d426af0a9c0f1ee5e3ea57998b8e36127d8b2e8",
+ "domain": [
+  "ai/agent-memory",
+  "ai/agent-infrastructure"
+ ],
+ "product": [
+  "agentmemory"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Paid remote MCP server offering persistent memory storage for AI agents, plus analytics, checkout and search-readiness features.",
+ "whenToUse": "Use when an agent needs to store and recall information across sessions through a hosted memory service.",
+ "tasks": [
+  "store agent memories",
+  "retrieve agent memories",
+  "view usage analytics",
+  "check search readiness",
+  "handle checkout"
+ ],
+ "effects": {},
+ "flags": []
+}

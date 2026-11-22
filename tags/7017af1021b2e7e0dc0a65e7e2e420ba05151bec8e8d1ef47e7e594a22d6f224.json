@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "7017af1021b2e7e0dc0a65e7e2e420ba05151bec8e8d1ef47e7e594a22d6f224",
+ "domain": [
+  "ai/agent-discovery",
+  "web/search"
+ ],
+ "product": [
+  "not-human-search"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Index of agent-ready websites and APIs scored on llms.txt, OpenAPI and MCP signals, with live checks and provider referral flows.",
+ "whenToUse": "Use when an agent needs to discover APIs or MCP servers for a task, or check whether a site or endpoint is agent-usable.",
+ "tasks": [
+  "search agent-ready sites",
+  "get site readiness report",
+  "check a url live",
+  "verify an mcp endpoint",
+  "submit a site for indexing",
+  "monitor a domain's score by email",
+  "list categories and top sites",
+  "list recent additions",
+  "find mcp servers",
+  "record action interest",
+  "prepare and hand off provider offers"
+ ],
+ "effects": {
+  "f8e5b513548ca2ad95a26faa78c7f53ca2c8100546da4f64d120f9a632b96c91": "read",
+  "167b4abe62666b9b7ca56c16bb74dff3691a090349ea55566e2e5081bc22547a": "write",
+  "3b7d30f337056c3047d62f767bac50aaea301ac8dffa4736b4b587609d813e6d": "read",
+  "b09731b5270d826c3f18ea7ca2ffad34da78de3211ecefb49fe9fab5e6d994ad": "write",
+  "d661594f30e70e7f31976f545669c93b0f0b6b45ccad801482a33d61838684ea": "read",
+  "34037986898b8254259b5c2299e5c875f93e1842963dea4c8c173bc5ae1930a9": "read",
+  "0b136cffdc3ca52f05ffe65675e6402d2c8c8d28e2767fe346e99e49debad4ff": "write",
+  "debb91115d2130abab71bcd7e79a6589a2b3966b638977a4d8c635030a560d99": "read",
+  "c12a7b2281d996d4d4ec11c8ba49605851b0e15355d559eadaf0c49998967d89": "write",
+  "451e61a37e0457351a383f60ad09416a410e595bf3c3ad7b4dcaa5480c9ab311": "write",
+  "8dd3eaf2a0ed3087d81c72ba7eae38015a20004b9bea79f49adbeb89ea86fae2": "write",
+  "14fe8c3050b1919c74aa8ca18e8741a7b5a73b974efb35ec200d4d75016f60bf": "write",
+  "ea864b7568568fd2aeeb73e24be8900d85a1cedb576ae764782aa5c694e86cb4": "write",
+  "2c207a0157e40918986db03fc1797ce76a8e67e42bb0b85cbc58ba96475989bd": "write"
+ },
+ "flags": [
+  "tools ask the calling agent to self-attest human principal consent for commercial provider handoffs"
+ ]
+}

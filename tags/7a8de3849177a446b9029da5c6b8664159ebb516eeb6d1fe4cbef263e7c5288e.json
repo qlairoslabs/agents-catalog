@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "7a8de3849177a446b9029da5c6b8664159ebb516eeb6d1fe4cbef263e7c5288e",
+ "domain": [
+  "construction/windows-and-doors",
+  "retail/quotes"
+ ],
+ "product": [
+  "ablakarajanlat",
+  "rehau",
+  "aluplast"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Estimates prices for custom-size plastic windows and doors, lists stock, and submits email-confirmed quote requests.",
+ "whenToUse": "Use when a user in Hungary wants a window or door price estimate, stock check or a site-survey quote request.",
+ "tasks": [
+  "estimate custom window price",
+  "list ready-stock items",
+  "request quote",
+  "confirm quote by email code"
+ ],
+ "effects": {
+  "60e34fe95c14cf0e94b9ff70d48b8b4de4ec43f9d8312e722050767b173feac2": "read",
+  "0e7c9d35d32564ddc62768d013daf974dad646b017bb71de6a4e7e2c01d39d2d": "read",
+  "f1ca2edb8b598c166fa6314b33908d59b562ec5e7efeeb1fbfce78f92713553a": "write",
+  "74dc9d2a33bcfaec447826ef20e956977c4372d79147b248422e354d469490e3": "write"
+ },
+ "flags": []
+}

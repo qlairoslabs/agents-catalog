@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1cf14dec3e8134b1b6b7fa679b525e17ff6a3941ae6c5ca8c66d7b001b8150ee",
+ "domain": [
+  "knowledge/research-notebooks",
+  "ai/assistants"
+ ],
+ "product": [
+  "notebooklm",
+  "gemini"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Gives agents access to Google's NotebookLM notebooks over MCP and a local REST API, with cited answers, Studio and history.",
+ "whenToUse": "Use when an agent needs source-cited answers from NotebookLM notebooks or wants to use its Studio features.",
+ "tasks": [
+  "ask notebooks questions",
+  "get cited answers",
+  "use studio outputs",
+  "browse history",
+  "call via local rest api"
+ ],
+ "effects": {},
+ "flags": []
+}

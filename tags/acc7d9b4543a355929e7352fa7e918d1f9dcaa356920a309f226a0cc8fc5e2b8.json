@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "acc7d9b4543a355929e7352fa7e918d1f9dcaa356920a309f226a0cc8fc5e2b8",
+ "domain": [
+  "media/video-production/ai-animation"
+ ],
+ "product": [],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates AI-drawn videos where the language model draws frames in code, with narration, music and sound effects added.",
+ "whenToUse": "Use when a user wants to produce a short animated video from chat with voiceover, music or sound effects.",
+ "tasks": [
+  "generate video frames",
+  "add narration",
+  "add music",
+  "add sound effects",
+  "render video"
+ ],
+ "effects": {},
+ "flags": []
+}

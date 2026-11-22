@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "923e40390e9af7b1e658e97072745e279bcc171f6fa1108b4679936f831ae4f8",
+ "domain": [
+  "finance/personal-finance",
+  "finance/portfolio-tracking"
+ ],
+ "product": [
+  "fillfolio"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Fillfolio portfolios, holdings, cash, liabilities, transactions, spending and budgets.",
+ "whenToUse": "Use when an agent needs to review a user's investments, net worth, spending or budgets in Fillfolio.",
+ "tasks": [
+  "view portfolios",
+  "list holdings",
+  "check cash and liabilities",
+  "review activity",
+  "analyze spending",
+  "view budgets"
+ ],
+ "effects": {},
+ "flags": []
+}

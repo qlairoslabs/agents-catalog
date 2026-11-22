@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d4ed9de3036675c5c0165f665f27e66910626299286d64f4045fbd79ddba732c",
+ "domain": [
+  "finance/market-data"
+ ],
+ "product": [
+  "twelve-data"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides real-time and historical prices for stocks, forex, crypto and ETFs plus fundamentals and technical indicators.",
+ "whenToUse": "Use when an agent needs financial market prices, fundamentals or technical indicators.",
+ "tasks": [
+  "get real-time quotes",
+  "get historical prices",
+  "get forex rates",
+  "get crypto prices",
+  "get fundamentals",
+  "compute technical indicators"
+ ],
+ "effects": {},
+ "flags": []
+}

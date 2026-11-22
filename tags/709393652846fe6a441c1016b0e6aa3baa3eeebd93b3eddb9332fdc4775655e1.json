@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "709393652846fe6a441c1016b0e6aa3baa3eeebd93b3eddb9332fdc4775655e1",
+ "domain": [
+  "it/network-monitoring",
+  "operations/observability"
+ ],
+ "product": [
+  "thousandeyes"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Access ThousandEyes network intelligence including outages, anomalies, alerts, events and tests.",
+ "whenToUse": "Use when investigating network outages, alerts or performance tests in ThousandEyes.",
+ "tasks": [
+  "view outages",
+  "view anomalies",
+  "list alerts",
+  "list events",
+  "view tests"
+ ],
+ "effects": {},
+ "flags": []
+}

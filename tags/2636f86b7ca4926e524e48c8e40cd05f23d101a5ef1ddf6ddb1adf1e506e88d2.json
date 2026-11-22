@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2636f86b7ca4926e524e48c8e40cd05f23d101a5ef1ddf6ddb1adf1e506e88d2",
+ "domain": [
+  "software/web-quality",
+  "software/cybersecurity"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Scans a public HTTPS site for security headers, SEO, accessibility and performance issues and explains fixes.",
+ "whenToUse": "Use when a user wants to audit a deployed public web app and get remediation guidance.",
+ "tasks": [
+  "start website scan",
+  "get scan results",
+  "explain finding and fix"
+ ],
+ "effects": {
+  "9049ef93827874170716b02977dd0b2531b16088eeeecb17a4555370a8c587eb": "write",
+  "ca45672fb265f9eb697ee01cc6d4a3991dca19b7d26b47bb900bc96710b8635b": "read",
+  "147d6e3c61960b7bbf0105069c895d179b63e2787c6787835bf631049d66f74d": "read"
+ },
+ "flags": []
+}

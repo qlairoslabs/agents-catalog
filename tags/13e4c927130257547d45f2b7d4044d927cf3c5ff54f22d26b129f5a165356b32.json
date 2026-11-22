@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "13e4c927130257547d45f2b7d4044d927cf3c5ff54f22d26b129f5a165356b32",
+ "domain": [
+  "ecommerce/store-management",
+  "ecommerce"
+ ],
+ "product": [
+  "woocommerce"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries WooCommerce sales, stock and orders and makes store edits with undo support.",
+ "whenToUse": "Use when a WooCommerce store owner wants to check sales, inventory or orders, or edit store data.",
+ "tasks": [
+  "report sales",
+  "check stock",
+  "view orders",
+  "edit store data",
+  "undo edits"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d6b31dc4b3830f33886ecf61bd056708147bbdd1cd3e82e2d5f648760cc8a137",
+ "domain": [
+  "government/public-auctions",
+  "real-estate/auctions"
+ ],
+ "product": [
+  "boe",
+  "alertasubastas"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Spanish public auctions from BOE, Social Security, tax agency and notaries with full asset records.",
+ "whenToUse": "Use when a user is looking for public auctions of assets in Spain.",
+ "tasks": [
+  "search public auctions",
+  "view asset records",
+  "filter by auction source"
+ ],
+ "effects": {},
+ "flags": []
+}

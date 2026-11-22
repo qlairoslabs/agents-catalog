@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "653199a6e4a8f2bbb2ffd2e924491913e3642c0a86c0853bf0ab4effa8fb47c1",
+ "domain": [
+  "software/automation/workflow"
+ ],
+ "product": [
+  "make"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Lets an agent build, run and debug automation scenarios on the Make platform.",
+ "whenToUse": "Use when an agent needs to create, execute or troubleshoot Make automation scenarios.",
+ "tasks": [
+  "build scenarios",
+  "run scenarios",
+  "debug scenarios"
+ ],
+ "effects": {},
+ "flags": []
+}

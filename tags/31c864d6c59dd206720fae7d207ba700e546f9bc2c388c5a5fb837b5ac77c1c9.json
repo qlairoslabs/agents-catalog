@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "31c864d6c59dd206720fae7d207ba700e546f9bc2c388c5a5fb837b5ac77c1c9",
+ "domain": [
+  "hr/recruiting/candidate-screening"
+ ],
+ "product": [
+  "figlime"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Reads Figlime jobs, screening questions and candidate responses, and drafts new screening questions.",
+ "whenToUse": "Use when the user is reviewing job candidates or preparing screening questions in Figlime.",
+ "tasks": [
+  "read jobs",
+  "read screening questions",
+  "read candidate responses",
+  "draft screening questions"
+ ],
+ "effects": {},
+ "flags": []
+}

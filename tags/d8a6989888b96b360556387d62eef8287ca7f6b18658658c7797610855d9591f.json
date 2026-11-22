@@ -1,0 +1,67 @@
+{
+ "classifier": 2,
+ "contentHash": "d8a6989888b96b360556387d62eef8287ca7f6b18658658c7797610855d9591f",
+ "domain": [
+  "finance/crypto-market-data"
+ ],
+ "product": [
+  "coinpaprika"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only cryptocurrency market data from CoinPaprika: coins, prices, tickers, exchanges, OHLCV candles, contracts, tags and people.",
+ "whenToUse": "Use when you need current or historical crypto prices, market caps, exchange or contract data, or to resolve a coin name to its CoinPaprika id.",
+ "tasks": [
+  "list coins",
+  "get current prices",
+  "get historical prices",
+  "get OHLCV candles",
+  "list exchanges and markets",
+  "look up token by contract",
+  "search entities",
+  "resolve ids",
+  "convert prices",
+  "get global market overview",
+  "list tags and platforms"
+ ],
+ "effects": {
+  "ea214cec15d69a6276b09a908be3dd9dbbc89be4dcfd7e4cb509a2095a0c2352": "read",
+  "36fa2c20ad71f03fd5858fd61426529ab5624e71f39d7cde2f72b53f5ba3b84c": "read",
+  "25aad4da97bcd4adf11fb0c1d916bb3f508f7596fc1c9674208c463eed222686": "read",
+  "11d7b6b16c4594705b75dda0642e4de2988bd761c18b34f201f2254587e1a138": "read",
+  "b4d75138a770e1880419c8be1c9f21f521448502f4f7467a5e21583fd6e3ac7f": "read",
+  "d363b32b0a15b55412d92c54a45961c06c1fc6c5d1c4af92b23f9c26b5ae1fdd": "read",
+  "7ae3dad16a308b19daf7b4da461d09eb4a07a76a098027d125a3b5d6ce96ac4c": "read",
+  "066a1e315414dbaf823f9322a1fcb2d03cd899e52eda0a2cded88b002b97e6b7": "write",
+  "4f462b735acad760d81041bd1e8c038ad1fd416afac1060eef08c8b3100cff9e": "read",
+  "b05c200b31cb29d6100149130972f5d43b8c17aed10884bb9e51f2a5469f656a": "read",
+  "1c6020a614b8dc7906c2f7842c4bb8b699e17efc6344c69195683b1803281a9e": "write",
+  "f92a071ac2f5c2876de37e9e88f627afbb82f357385ceb464c7d45c4ba62611b": "read",
+  "013c392fe9c105f36d265954da0fd5ce2129d3f4467eac50553155f1efb8761e": "read",
+  "c6d38ba9aeed43e09a7e4b0035fd89c27cf6a91dd8124960c401e1959fce664f": "write",
+  "e2f9722451a535802f1f981f97ea7d167443d8e1752cb22b5c69e3ae885217e9": "read",
+  "92d228c9436e22688299402ed4aa51a64081703f39261231a0e4682897b74f15": "write",
+  "6df5df4a14dc9960bf67ea6cbbe8f111e708b33c86ed5dc6feb4c3191fa32684": "write",
+  "597bace93c3c34887d9db0af0545998c41be6b57a825e10f7c63c905acae25b9": "read",
+  "9c13d2b6e5665f9d4ae9092d80771ba29ef6ca1c782e579bd28c6d3805d1ad4b": "write",
+  "44c1489c6c7c8035c512ad6f1af01e2cded2ef583fb4e9e37908000758984753": "read",
+  "ef0f3fc5652b542f1ca4776e5f87a0c46160f4dfb3ffc771375ab6392f58cab2": "write",
+  "1cac7d84ab813084490aafc0f07e166dc084022ff860c4029a04f3bcc6b141be": "read",
+  "12ae56ecc6cc380d2633abf6496f0d4d9f65c6ebd2d2ae2abf18cc509e12c092": "read",
+  "ea89b01318cc16d6b401ba7353bc3d831366ab921602f5ed95a1026b13311ec2": "read",
+  "885609c821e5308086e5a0e4050cde8530aa2e929660e737a9df2b21558f29b7": "write",
+  "4d202d4aabbc377873af8881809344fc13c87dfc95946bdc2ed5d69acf8c0c4a": "read",
+  "679db97544b1fe093950b6d6cc3eb2219ee1b823b90e1326eb2b99a07a183b3a": "read",
+  "946fbb37aae5da67a05bc681d57accc3aab17231dc5f1e1bab91bd6a46a1e510": "read",
+  "e25d26d6c7484559e40170d96a00153a037b497d900483c0b04136f39857dfab": "read",
+  "288c8204200bfb0caf050325c287f278c69f33e29157166417dec9655219d8bd": "read",
+  "e410532d3170f94dabac4e30b936bf6fe37dbf87ff1ef2a92fe2dd30fae7c5c6": "write"
+ },
+ "flags": []
+}

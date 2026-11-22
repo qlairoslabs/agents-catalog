@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "be9d82ee792f61b955011c64b60cd0d8e0489b6374c2a791a274d3d5e4075180",
+ "domain": [
+  "science/space-weather"
+ ],
+ "product": [
+  "noaa",
+  "goes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reports current Kp index, NOAA 3-day geomagnetic forecast, recent solar flare activity and aurora visibility by latitude.",
+ "whenToUse": "Use when asked about geomagnetic storms, solar flares or whether aurora is likely visible at a location.",
+ "tasks": [
+  "get current Kp",
+  "get 3-day forecast",
+  "check solar flares",
+  "check aurora visibility"
+ ],
+ "effects": {
+  "f9bcdfa7fc8492ccdc286de408d09a388a0ed3800247516a4628297ab68e2c53": "write",
+  "be76f1fff84c00449acb137e377b43d9f9391bbdca015c2178472d8e11823907": "write",
+  "5b86d9b482495aab99ccb96f8672517663655e3f2f5bb196e3bf4b5e20a098bb": "write",
+  "cf863d911b600a970e527110bc91c58b683e600ec643d87851dcc61e6beb522a": "write"
+ },
+ "flags": []
+}

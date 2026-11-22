@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "bc6194c4bfc009acafd4774bdf1ba55b7a9e2b8cab25a062c17b0e48ead302c2",
+ "domain": [
+  "software/ai-cost-management"
+ ],
+ "product": [
+  "trazum"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "MCP server that lets an agent estimate the cost of prompts and stay within a budget before sending them.",
+ "whenToUse": "Use when an agent should estimate token cost or check a budget before sending a prompt to a model.",
+ "tasks": [
+  "estimate prompt cost",
+  "check prompt budget"
+ ],
+ "effects": {},
+ "flags": []
+}

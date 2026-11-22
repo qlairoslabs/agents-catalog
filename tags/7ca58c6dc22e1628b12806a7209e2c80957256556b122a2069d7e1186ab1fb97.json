@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "7ca58c6dc22e1628b12806a7209e2c80957256556b122a2069d7e1186ab1fb97",
+ "domain": [
+  "real-estate/listings"
+ ],
+ "product": [
+  "trazimstan"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search Croatian property listings for sale or rent on trazimstan.hr, view listing details and price statistics.",
+ "whenToUse": "Use when a user is looking to buy or rent property in Croatia or wants local price levels.",
+ "tasks": [
+  "search listings",
+  "get listing details",
+  "get price statistics",
+  "natural-language search",
+  "fetch listing text"
+ ],
+ "effects": {
+  "266d60a5bcf6de70a820e3af0871893e5eff148083ef5e1dc6ac6d7197234905": "read",
+  "61e8259b2633dd9d42702582825afea2644984e0514df279d9532072712faa4a": "read",
+  "6dc271a9ed2cf1a6060c24f8cc2fcc948c90c2c057afcb5c8ef469cc8e630c2c": "read",
+  "13142e469d179c1f5aaabc8ffa9bdfdfd9668991c9addef5234d6fd14b5d0f4f": "read",
+  "86a25daf30fba5ba30942b0cde6ed21cfccd9ef3cd4e832a60efb824753b3658": "read"
+ },
+ "flags": []
+}

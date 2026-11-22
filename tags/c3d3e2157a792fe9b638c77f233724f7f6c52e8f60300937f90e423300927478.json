@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c3d3e2157a792fe9b638c77f233724f7f6c52e8f60300937f90e423300927478",
+ "domain": [
+  "communication/email",
+  "software/agent-infrastructure"
+ ],
+ "product": [
+  "pidgeon"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Local npm MCP server giving AI agents email inboxes on pidgeon.email or a custom domain, including per-user inboxes for platforms.",
+ "whenToUse": "Use when an agent or each user of a platform needs its own email inbox to send and receive mail.",
+ "tasks": [
+  "create agent inboxes",
+  "use custom domains",
+  "provision inboxes per platform user",
+  "send and receive email"
+ ],
+ "effects": {},
+ "flags": []
+}

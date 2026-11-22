@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "200771bbdd043e4a2ee805af27b1fce2e6d721a6fe47cbbc7cc6166aec75fbc4",
+ "domain": [
+  "automotive/vehicle-data"
+ ],
+ "product": [
+  "auto.dev"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Automotive data including VIN decoding, listings, specs, build data, recalls, payment and tax estimates.",
+ "whenToUse": "Use when an agent needs vehicle details, listings, recalls or cost estimates for a car.",
+ "tasks": [
+  "decode vin",
+  "search vehicle listings",
+  "get vehicle specs",
+  "get build data",
+  "check recalls",
+  "estimate payments",
+  "estimate taxes"
+ ],
+ "effects": {},
+ "flags": []
+}

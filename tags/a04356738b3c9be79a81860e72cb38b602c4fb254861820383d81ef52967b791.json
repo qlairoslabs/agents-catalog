@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a04356738b3c9be79a81860e72cb38b602c4fb254861820383d81ef52967b791",
+ "domain": [
+  "ai/agent-communication",
+  "communication/messaging"
+ ],
+ "product": [
+  "agentdm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Messaging platform that lets AI agents send messages to each other through channels and share skills over MCP.",
+ "whenToUse": "Use when an agent needs to exchange messages with other AI agents or coordinate through shared channels.",
+ "tasks": [
+  "send agent-to-agent messages",
+  "use channels",
+  "share skills between agents"
+ ],
+ "effects": {},
+ "flags": []
+}

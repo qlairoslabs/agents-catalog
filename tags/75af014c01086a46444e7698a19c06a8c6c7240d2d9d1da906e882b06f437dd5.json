@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "75af014c01086a46444e7698a19c06a8c6c7240d2d9d1da906e882b06f437dd5",
+ "domain": [
+  "software/data-engineering",
+  "software/troubleshooting"
+ ],
+ "product": [
+  "snowflake",
+  "dbt",
+  "airflow",
+  "spark"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches a library of verified fixes and guides for data engineering tools such as Snowflake, dbt, Airflow and Spark.",
+ "whenToUse": "Use when debugging an error from a data tool like Snowflake, dbt, Airflow or Spark and you want a known fix.",
+ "tasks": [
+  "search fixes by error message",
+  "find guides for data tools",
+  "troubleshoot data pipeline errors"
+ ],
+ "effects": {},
+ "flags": []
+}

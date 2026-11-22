@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "63b57b662f99addebd7c0003dbf67373b1606aadc49e4b0dfb0c5906afac9e39",
+ "domain": [
+  "ecommerce/custom-apparel",
+  "printing"
+ ],
+ "product": [
+  "suorigo",
+  "stripe",
+  "ares",
+  "zasilkovna",
+  "ppl",
+  "dpd"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Czech custom T-shirt and textile printing shop: catalog, quotes, design preview, pickup points, company lookup, and ordering with payment and cancellation.",
+ "whenToUse": "Use when a user wants to design, price and order printed T-shirts or hoodies from Suorigo in the Czech Republic.",
+ "tasks": [
+  "list products",
+  "quote a product",
+  "create design",
+  "quote full order",
+  "find pickup points",
+  "look up company by ICO",
+  "create binding order",
+  "get card payment link",
+  "check order status",
+  "cancel unpaid order"
+ ],
+ "effects": {
+  "51cc8e2ea6ec95c92d5cf760cf8b20f8b22ed5db9e4c06b3341c14b0aeb52945": "read",
+  "62d8dd2677e960f2ed8f954aabda8389763e99bbf2d216ccc7131156282cb337": "read",
+  "b48246b0b8942d73bc253a1c455081b5e07bde3a40a01494ba552f46fcf844e6": "write",
+  "48789cd08786068801febc0991351cf7840ca118c68b7551f4c0a3e3dd902b70": "read",
+  "07252d086e8fc462d7ed19345a79926aac98a42151e9533b80ca3466c374539f": "read",
+  "3a37da26ba247b1ec434bc271c60d02ac98f6a69f9a1f4e0ae2847f6fd596bc3": "read",
+  "098b440a1ce23a2e2cdb6d8449ab60c3a37a8800dc553ccaa403e0236700d437": "write",
+  "d666d905ca25a99d5a0e78b3422493ab600f94ea26906038a799170edf1de8a0": "write",
+  "13d15d214fa121a6ce890ed5cc242e7cd010f8ccca02255ca5eeae5077526e8f": "read",
+  "b2916db9eb32c2ab137684ab6b7f66550e31152e5d9b9be0f33ce260c781c773": "write"
+ },
+ "flags": []
+}

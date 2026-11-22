@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7d7323203668e614840e8014fe5777cb791fcc79c86c70190cbf332dfcf1fb2d",
+ "domain": [
+  "marketplace/data-services",
+  "blockchain/payments"
+ ],
+ "product": [
+  "pocket-network",
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Marketplace of pay-per-request data services; agents search, inspect and call them, paying in USDC on Base via x402.",
+ "whenToUse": "Use when an agent needs a paid data service and the user approves the price.",
+ "tasks": [
+  "search services",
+  "describe service",
+  "call paid service"
+ ],
+ "effects": {
+  "705deec271d41231c67d23922763cb3cccf907a2209bc0c5a108d757cba77ede": "read",
+  "b1e9e8fa8d1cf56f5064e63189ef13472328d4b13c9b513be5eaedb2f4701929": "read",
+  "bde137bcd514cdc607532283b3f72e9943abb1ad5f1254dc07522cad59fe275e": "risky"
+ },
+ "flags": []
+}

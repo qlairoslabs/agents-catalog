@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "9d969b6649e5e696f7f09b8d0568fe72b2876186a30c0dfdab30d3e99aaa9e59",
+ "domain": [
+  "legal/vendor-compliance",
+  "ai/vendor-management"
+ ],
+ "product": [
+  "xither"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only record of AI vendors' sub-processor lists, DPA notice windows and published model retirement dates.",
+ "whenToUse": "Use when checking a vendor's sub-processor notice terms, DPA location or upcoming model retirements.",
+ "tasks": [
+  "look up vendor record",
+  "search vendors",
+  "list sub-processor notice windows",
+  "list upcoming model retirements"
+ ],
+ "effects": {
+  "ba4f297fd95193e3976495b89497baab276f887ae13f3c5344aac185b474e046": "write",
+  "821eaab8bdb9bf352dd15fefe40a570813c38cc9059add80bd0e880dd2c91a1a": "read",
+  "b04ee4092c22700011c34ad0f2caff1b79ba3f07b052a471111f38b0fa15e18a": "read",
+  "8ea6e1663dae0ce3ffafd71a3b91704285c6b9fbea5b1576dd5fe96df3649d49": "read"
+ },
+ "flags": []
+}

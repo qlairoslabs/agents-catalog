@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0ee8846b0c0d41ecc68d63c076f7ba2ea9c503345223fa7b46112a7f102aa0ef",
+ "domain": [
+  "software/browser-automation",
+  "software/testing"
+ ],
+ "product": [
+  "playwright",
+  "node-js"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Playwright-based browser and Node.js tooling with accessibility-tree references, screenshots and interactions.",
+ "whenToUse": "Use when an agent needs to drive a browser, take screenshots or debug a web or Node.js app.",
+ "tasks": [
+  "navigate web pages",
+  "take screenshots",
+  "interact with page elements",
+  "debug node-js"
+ ],
+ "effects": {},
+ "flags": []
+}

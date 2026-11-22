@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "28488c3e19a8d8009430982bdfcab27d9f99ab7801efc2166e62c3b100243339",
+ "domain": [
+  "documents/pdf",
+  "productivity"
+ ],
+ "product": [
+  "pdf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Reads, creates and manipulates PDF files, including text and table extraction, merging, splitting, forms, encryption and OCR.",
+ "whenToUse": "Use whenever a task involves reading, editing, filling or producing a PDF file.",
+ "tasks": [
+  "extract text and tables",
+  "merge pdfs",
+  "split pdfs",
+  "rotate pages",
+  "add watermarks",
+  "create pdfs",
+  "fill pdf forms",
+  "encrypt and decrypt pdfs",
+  "extract images",
+  "ocr scanned pdfs"
+ ],
+ "effects": {},
+ "flags": []
+}

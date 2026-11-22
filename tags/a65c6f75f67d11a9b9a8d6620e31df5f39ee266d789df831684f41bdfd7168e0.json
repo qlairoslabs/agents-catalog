@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a65c6f75f67d11a9b9a8d6620e31df5f39ee266d789df831684f41bdfd7168e0",
+ "domain": [
+  "support/help-center",
+  "support/knowledge-base"
+ ],
+ "product": [
+  "helpcenter-io"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "be-online"
+ ],
+ "summary": "Lets an AI agent create or migrate a HelpCenter.io help center without an account and give the user a claim link.",
+ "whenToUse": "Use when a user wants a new help center set up or migrated without first creating an account.",
+ "tasks": [
+  "create help center",
+  "migrate help center content",
+  "generate claim link"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6d63ff6dd7659170e40ead5a4e58c506cc70186da1ad22a6eff8803cc85ce636",
+ "domain": [
+  "entertainment/games/publishing",
+  "software/game-development"
+ ],
+ "product": [
+  "sekai"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Build a playable game with a coding agent and publish it on the Sekai platform.",
+ "whenToUse": "Use when a user wants to create a game with their coding agent and publish it on Sekai.",
+ "tasks": [
+  "build a playable game",
+  "publish a game on sekai"
+ ],
+ "effects": {},
+ "flags": []
+}

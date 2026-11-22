@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "84da7612695e14888b9b02853cce6abbe6c67f74c0a86d800dda437ee949a2a3",
+ "domain": [
+  "marketing/social-media",
+  "content/generation"
+ ],
+ "product": [
+  "x",
+  "linkedin",
+  "instagram",
+  "threads",
+  "youtube"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Generates, schedules and publishes social posts to X, LinkedIn, Instagram, Threads and YouTube.",
+ "whenToUse": "Use when an agent needs to draft social media posts and schedule or publish them across several networks.",
+ "tasks": [
+  "generate social posts",
+  "schedule posts",
+  "publish to x",
+  "publish to linkedin",
+  "publish to instagram",
+  "publish to threads",
+  "publish to youtube"
+ ],
+ "effects": {},
+ "flags": []
+}

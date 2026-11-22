@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b9d0a27c0e13bffe3bc8fa2d209eb90bf01110ac12eb74437a65bcbf89b7bea5",
+ "domain": [
+  "food/restaurant/food-safety",
+  "business/compliance"
+ ],
+ "product": [
+  "backresto"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to a restaurant's HACCP records such as deliveries, temperatures, cleaning and traceability.",
+ "whenToUse": "Use when reviewing a restaurant's food safety records for audits or inspections.",
+ "tasks": [
+  "read delivery records",
+  "read temperature logs",
+  "read cleaning records",
+  "trace food items"
+ ],
+ "effects": {},
+ "flags": []
+}

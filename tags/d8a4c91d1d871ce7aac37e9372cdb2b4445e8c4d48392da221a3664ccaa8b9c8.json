@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "d8a4c91d1d871ce7aac37e9372cdb2b4445e8c4d48392da221a3664ccaa8b9c8",
+ "domain": [
+  "software/cybersecurity",
+  "security/breach-intelligence"
+ ],
+ "product": [
+  "xposedornot"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Look up public data breaches for email addresses and domains, with breach analytics, catalog listings, recent breaches and system-wide statistics.",
+ "whenToUse": "Use when checking whether an email or domain appears in known data breaches or reviewing recent breach activity.",
+ "tasks": [
+  "check email breaches",
+  "get breach analytics",
+  "list breaches",
+  "summarize domain breaches",
+  "get breach metrics",
+  "get recent breaches"
+ ],
+ "effects": {
+  "bf1c8ac6bd95e0a69e5a6c4889f16c9a9f251527fabc9874ade4130dbb2293b0": "read",
+  "5240bdd7e4907c2008adbffda6ac089bd5e5fbf2ff3b4dece7fd70ba815af820": "read",
+  "3a9bc54f97681bd52c7deeb204a16c22ccca3173b83d17f94fb0cf0eb7dee124": "read",
+  "bf86a9c74f2c0b62a36a8589689ce2a822243d0c0e76269e0c94b7dc26f72d99": "read",
+  "a167f04575a8f0484381e1c71002bc4a402ec816015c774cae4bc52bc4abd28b": "read",
+  "769045a3af3dd31f6c9315e925bfdbf6753bf1be16f27fd4692c00222bfe9207": "read"
+ },
+ "flags": []
+}

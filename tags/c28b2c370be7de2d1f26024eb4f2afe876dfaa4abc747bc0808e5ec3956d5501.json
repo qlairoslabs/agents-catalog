@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c28b2c370be7de2d1f26024eb4f2afe876dfaa4abc747bc0808e5ec3956d5501",
+ "domain": [
+  "software/frontend/design-process",
+  "design/ui-ux"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guides user-led frontend design decisions from the project brief through to reviewing the implementation.",
+ "whenToUse": "Use when building a frontend and the user wants structured guidance on design decisions from brief to review.",
+ "tasks": [
+  "capture project brief",
+  "guide design decisions",
+  "review frontend implementation"
+ ],
+ "effects": {},
+ "flags": []
+}

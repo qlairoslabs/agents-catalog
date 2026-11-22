@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "93150669218f9b24144fd5bf8bb40507fac47b3800401ce443e46dd53950d4d2",
+ "domain": [
+  "data/web-search",
+  "data/web-scraping"
+ ],
+ "product": [
+  "packetstream"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live web search results and fetches pages as Markdown via a residential proxy network.",
+ "whenToUse": "Use when an agent needs current web search results or page contents as Markdown.",
+ "tasks": [
+  "web search",
+  "fetch page as markdown"
+ ],
+ "effects": {},
+ "flags": []
+}

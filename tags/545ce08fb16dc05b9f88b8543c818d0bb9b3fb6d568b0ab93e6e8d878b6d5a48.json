@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "545ce08fb16dc05b9f88b8543c818d0bb9b3fb6d568b0ab93e6e8d878b6d5a48",
+ "domain": [
+  "information/web-search",
+  "documents/reading"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Local web search across several engines plus page fetching and document reading, without API keys.",
+ "whenToUse": "Use when an agent needs web search or page and document content without paid search APIs.",
+ "tasks": [
+  "search the web across engines",
+  "fetch web pages",
+  "read documents"
+ ],
+ "effects": {},
+ "flags": []
+}

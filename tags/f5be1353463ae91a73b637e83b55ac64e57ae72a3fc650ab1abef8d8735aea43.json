@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f5be1353463ae91a73b637e83b55ac64e57ae72a3fc650ab1abef8d8735aea43",
+ "domain": [
+  "software/version-control",
+  "software/devops"
+ ],
+ "product": [
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Extensive GitLab connector with many typed actions grouped into toolsets.",
+ "whenToUse": "Use when an agent needs to work with GitLab projects, merge requests, issues or pipelines.",
+ "tasks": [
+  "manage projects",
+  "manage merge requests",
+  "manage issues",
+  "manage pipelines"
+ ],
+ "effects": {},
+ "flags": []
+}

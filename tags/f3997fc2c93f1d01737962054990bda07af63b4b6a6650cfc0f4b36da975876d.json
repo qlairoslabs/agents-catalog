@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f3997fc2c93f1d01737962054990bda07af63b4b6a6650cfc0f4b36da975876d",
+ "domain": [
+  "finance/payments",
+  "finance/direct-debit"
+ ],
+ "product": [
+  "gocardless"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Manages GoCardless direct debit payments, mandates, subscriptions, refunds and payouts.",
+ "whenToUse": "Use when handling recurring or one-off direct debit collections, refunds or payouts in GoCardless.",
+ "tasks": [
+  "manage payments",
+  "manage mandates",
+  "manage subscriptions",
+  "issue refunds",
+  "view payouts"
+ ],
+ "effects": {},
+ "flags": []
+}

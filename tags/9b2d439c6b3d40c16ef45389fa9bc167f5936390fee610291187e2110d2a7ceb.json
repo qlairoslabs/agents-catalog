@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9b2d439c6b3d40c16ef45389fa9bc167f5936390fee610291187e2110d2a7ceb",
+ "domain": [
+  "software/desktop-apps/tauri",
+  "software/development"
+ ],
+ "product": [
+  "tauri"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server for working with and inspecting Tauri v2 desktop applications.",
+ "whenToUse": "Use when an agent is developing or debugging a Tauri v2 application.",
+ "tasks": [
+  "interact with tauri apps",
+  "debug tauri apps"
+ ],
+ "effects": {},
+ "flags": []
+}

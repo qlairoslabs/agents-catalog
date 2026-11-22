@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "39f5304cc428984772bec440a85b89e310e5c55d25aaf793259a586a183499d8",
+ "domain": [
+  "sports/brazilian-jiu-jitsu",
+  "local-directory"
+ ],
+ "product": [
+  "bjj-square",
+  "ibjjf",
+  "smoothcomp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Finds BJJ and grappling gyms worldwide and upcoming competitions from a public calendar.",
+ "whenToUse": "Use when someone wants a BJJ gym near a place or upcoming grappling tournaments.",
+ "tasks": [
+  "find gyms by city or location",
+  "get gym details and schedule",
+  "list covered places",
+  "find upcoming competitions"
+ ],
+ "effects": {
+  "1eb9d07b8adaacff11c32bf9a7c636ef069d49158db83ffe9f08528b3ef44867": "read",
+  "ee1c5d87dc8d4de8b302f5d728c45dbf92426595d4e47fc6a21e491597b55f51": "read",
+  "091ba5444721bc2223e3b74316696a306d94f7bc716398904605790bd4239ad1": "read",
+  "cfd4300c49e4d9bc36118d1cc6ed5c683a1b361d4910d388eda900f5bf6df7e9": "read"
+ },
+ "flags": []
+}

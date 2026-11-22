@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "780cfe3bebf133c356c80e3cb01d0bcc1cf95821ae6be775761bd5b1591de12c",
+ "domain": [
+  "local-services/electricians",
+  "marketplace"
+ ],
+ "product": [
+  "bozfix"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Finds verified tradespeople in Antalya, Turkey, estimates prices from real jobs and opens service requests that need user confirmation.",
+ "whenToUse": "Use when a user in Antalya needs an electrician or similar tradesperson and wants prices or a service request.",
+ "tasks": [
+  "list categories",
+  "search tradespeople",
+  "estimate price",
+  "create service request",
+  "create request draft",
+  "check request status",
+  "check area coverage",
+  "check busy hours"
+ ],
+ "effects": {
+  "923fa9f1a2dd162058d7a23c93951badd2e15efcb6de6800a0605dba2ad44084": "read",
+  "0092d232acdfe4c2249b4443a093ec4177b51b279beccc6cc0e62bd3f7db30c4": "read",
+  "5148e733d1cb789709e4e9d58ef4b9d556a6353fb8223f966b24108e07c47cc4": "read",
+  "02d988d25b7780d661be35f95573594fdd878cf6169cc8332cc70bd657098f6e": "write",
+  "5adbf1c398d7292de1db7ee008bf4dc95e11527f3ee3bf87ce363d22bfb0ca53": "write",
+  "8d7e6769cffe487b1260372b8b7812779857e7e97684e0b4f6eba552de3af012": "read",
+  "4cd30e3250e374cd2a2d5b81f87ebeba694a1529dfd78493462573da73170d9a": "read",
+  "bc94b0eae6ca39880ea3b2956dcda8d2783a656cc631e4503dd572a14aa458f5": "read"
+ },
+ "flags": []
+}

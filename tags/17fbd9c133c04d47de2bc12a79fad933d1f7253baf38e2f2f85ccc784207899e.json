@@ -1,0 +1,22 @@
+{
+ "classifier": 2,
+ "contentHash": "17fbd9c133c04d47de2bc12a79fad933d1f7253baf38e2f2f85ccc784207899e",
+ "domain": [
+  "software/documentation"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Read-only tools that detect documentation drifting from code and navigate docs precisely.",
+ "whenToUse": "Use when an agent needs to check whether project documentation is out of date with the code.",
+ "tasks": [
+  "detect doc drift",
+  "navigate documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

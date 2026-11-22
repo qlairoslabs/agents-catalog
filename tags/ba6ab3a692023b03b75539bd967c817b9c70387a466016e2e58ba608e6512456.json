@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ba6ab3a692023b03b75539bd967c817b9c70387a466016e2e58ba608e6512456",
+ "domain": [
+  "software/development/documentation"
+ ],
+ "product": [
+  "context7",
+  "upstash"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects to Context7's hosted MCP server to fetch current, version-specific library documentation and code examples.",
+ "whenToUse": "Use when you need up-to-date docs or examples for a specific library version.",
+ "tasks": [
+  "look up library documentation",
+  "fetch version-specific docs",
+  "retrieve code examples"
+ ],
+ "effects": {},
+ "flags": []
+}

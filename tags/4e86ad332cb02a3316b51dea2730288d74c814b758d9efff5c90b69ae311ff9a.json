@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4e86ad332cb02a3316b51dea2730288d74c814b758d9efff5c90b69ae311ff9a",
+ "domain": [
+  "software/game-backend/baas",
+  "software/development-tools"
+ ],
+ "product": [
+  "braincloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Manages brainCloud backend apps, cloud code, hooks and servers, and looks up its API to help write client code.",
+ "whenToUse": "Use when building or administering a game or app backend on brainCloud.",
+ "tasks": [
+  "manage apps",
+  "edit cloud code",
+  "manage hooks",
+  "manage servers",
+  "look up api",
+  "generate client code"
+ ],
+ "effects": {},
+ "flags": []
+}

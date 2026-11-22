@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a051ed385adc8aa520b70e4f07e05a43bdabfa7ade2d5a608d804915935c51c3",
+ "domain": [
+  "data/architecture/diagrams",
+  "software/databases"
+ ],
+ "product": [
+  "datadef"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates, edits and exports data-architecture diagrams with column lineage, rendered as PNG.",
+ "whenToUse": "Use when a user wants a diagram of their data model or column lineage.",
+ "tasks": [
+  "generate data diagrams",
+  "edit diagrams",
+  "export diagrams",
+  "show column lineage"
+ ],
+ "effects": {},
+ "flags": []
+}

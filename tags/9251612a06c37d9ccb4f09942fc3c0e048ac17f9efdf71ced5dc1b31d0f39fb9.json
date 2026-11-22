@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9251612a06c37d9ccb4f09942fc3c0e048ac17f9efdf71ced5dc1b31d0f39fb9",
+ "domain": [
+  "content/publishing",
+  "security/access-control"
+ ],
+ "product": [
+  "publishwith"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team",
+  "stay-compliant"
+ ],
+ "summary": "Publishes AI-generated reports as managed links with versioning, access control, revocation and audit logs.",
+ "whenToUse": "Use when an agent needs to share a report via a controlled, revocable link.",
+ "tasks": [
+  "publish reports as links",
+  "version reports",
+  "control access",
+  "revoke links",
+  "audit views"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4ca0b6bd2006f1a0941d3770c004f342bcd3588aade86a63edb0058d9f022f24",
+ "domain": [
+  "design/graphic-design",
+  "creative/content-creation"
+ ],
+ "product": [
+  "img-ly",
+  "npm"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Local design engine package that lets AI agents create, edit and export editable designs.",
+ "whenToUse": "Use when an agent needs to produce or modify editable graphic designs locally and export them.",
+ "tasks": [
+  "create designs",
+  "edit designs",
+  "export designs"
+ ],
+ "effects": {},
+ "flags": []
+}

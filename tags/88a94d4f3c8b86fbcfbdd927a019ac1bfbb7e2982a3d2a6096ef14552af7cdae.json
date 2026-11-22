@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "88a94d4f3c8b86fbcfbdd927a019ac1bfbb7e2982a3d2a6096ef14552af7cdae",
+ "domain": [
+  "marketing/qr-codes",
+  "marketing/analytics"
+ ],
+ "product": [
+  "qrlia"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates and manages dynamic QR codes and reports their scan analytics.",
+ "whenToUse": "Use when an agent needs to create or update dynamic QR codes or check how often they are scanned.",
+ "tasks": [
+  "create dynamic qr codes",
+  "update qr code destinations",
+  "view scan analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

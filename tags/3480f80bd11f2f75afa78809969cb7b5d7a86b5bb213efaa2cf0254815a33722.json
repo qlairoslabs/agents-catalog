@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3480f80bd11f2f75afa78809969cb7b5d7a86b5bb213efaa2cf0254815a33722",
+ "domain": [
+  "marketing/qr-codes",
+  "marketing/url-shortening"
+ ],
+ "product": [
+  "qrcodly"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Creates, manages and shares QR codes and short URLs.",
+ "whenToUse": "Use when a user needs a QR code or short link created or managed.",
+ "tasks": [
+  "create qr code",
+  "manage qr codes",
+  "create short url",
+  "share qr code"
+ ],
+ "effects": {},
+ "flags": []
+}

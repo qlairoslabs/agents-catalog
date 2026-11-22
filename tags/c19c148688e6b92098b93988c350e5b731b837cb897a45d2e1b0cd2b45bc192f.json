@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c19c148688e6b92098b93988c350e5b731b837cb897a45d2e1b0cd2b45bc192f",
+ "domain": [
+  "lifestyle/cooking",
+  "lifestyle/meal-planning"
+ ],
+ "product": [
+  "stemma"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Accesses recipes, meal plans, shopping lists and pantry data from the Stemma iOS app with per-area OAuth scopes.",
+ "whenToUse": "Use when a Stemma user wants help with recipes, meal planning, groceries or pantry stock.",
+ "tasks": [
+  "browse recipes",
+  "manage meal plan",
+  "manage shopping list",
+  "track pantry"
+ ],
+ "effects": {},
+ "flags": []
+}

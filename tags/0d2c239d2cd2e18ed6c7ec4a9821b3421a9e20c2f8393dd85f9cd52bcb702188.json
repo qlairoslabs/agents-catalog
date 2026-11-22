@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "0d2c239d2cd2e18ed6c7ec4a9821b3421a9e20c2f8393dd85f9cd52bcb702188",
+ "domain": [
+  "science/climate",
+  "science/greenhouse-gas-data"
+ ],
+ "product": [
+  "icos",
+  "zarr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Query ICOS atmosphere, ocean and ecosystem greenhouse-gas observations with filtering, aggregation, station lookup and citations.",
+ "whenToUse": "Use when you need measured CO2, methane or flux data, station details, statistics, or the proper citation and DOI.",
+ "tasks": [
+  "list datasets",
+  "search variables",
+  "describe variable",
+  "estimate selection size",
+  "get observations",
+  "get citation",
+  "aggregate statistics",
+  "find stations"
+ ],
+ "effects": {
+  "dd5e8cf87b3252a047827080205b9647da54beb0251acbcbc9361182cc1e8e71": "read",
+  "48c120ea13e1674465117e8602d076d131044397621804ff92392d33c4cf157d": "read",
+  "d1dbdc0b8a452072ba15a529e1f3733ae40cd1057f61f7539280c6497d19eb7c": "read",
+  "b3ad18f06e3780a1314e2354bf561d73790e5e729e2adb11bc58c83f850fb044": "read",
+  "43373b8b931a1df1c9510c9ee800e01abbed9d74c188a9939bebfb6170be9001": "read",
+  "6cac781a5eb4c8383ee0525c3e1a4cb9aee1e0a3676e2b3c1fc61f94c3eb058c": "read",
+  "8d6c8867826ed7255a8ade313d7c31964b5bdedf377eb4bdacfbaa97865e38a2": "write",
+  "f733b8b810545540355b2bb55d1b53a0d4fc0e644dd1fda163c7938ce4ee0f96": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "1840e8bd1bd5c0f322639f33a1eede549f3ec5f04f40feb54a48cee582338ba3",
+ "domain": [
+  "finance/trading",
+  "finance/technical-analysis"
+ ],
+ "product": [
+  "maatsii"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Serves live linear-regression fan charts across 200 charts and a 64-setup playbook, with guides for multi-timeframe technical analysis.",
+ "whenToUse": "Use when an agent needs Maatsii LinReg chart images and setup playbooks to produce a multi-timeframe technical analysis of futures, crypto or equities.",
+ "tasks": [
+  "fetch chart image",
+  "fetch chart group",
+  "map charts",
+  "list setups",
+  "match setup from chart features",
+  "get setup playbook",
+  "read chart guide",
+  "get analysis framework",
+  "explain fan geometry",
+  "explain concepts"
+ ],
+ "effects": {
+  "9c37d656f23324a69c1cdef5b9978ad4c296cb1cf59bf3ce78b2eb0720e43d09": "read",
+  "7797b7719909e6bdcc2984a2cf598d63468bb3b950b5d5b22d10d8ea16d63d6a": "write",
+  "3c2f9b048fcc8c557bf576415bcb0360ea3d6ac1f47aa1c5e200785e2345763b": "read",
+  "13ba5646add806af43858f111c967469ee8848a2bbe0497eb3064c000bac90f6": "read",
+  "39644f653aab4c6ff0921879bcec11495546eb2b1c88fa634642d87b1afac2d3": "write",
+  "4eb40feac8c8883ec1f62e81268a8e9cf4b4e1884dff639a04dc8b553c265fb1": "read",
+  "0794da2e9884a789486029e599d70783c1ba7a9f6378b2bed690cfe28467349e": "read",
+  "9d9d463ebd79137963a7dd28372eba7102185d60cc06a16a7818a674762b5769": "read",
+  "90bf6a56d090f8d228183fc198bad3089dce7fccb5c31eecdd474ca01cf8c791": "read",
+  "192f7694f08f95651c5155cb6981f87e1fb3dbf27e5960fc9ef50b3be0c8ecc8": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "74e59e930496b72516f6c8bc51eb5777793312ec8965b8ec69276a964d57ac4a",
+ "domain": [
+  "productivity/voice-notes",
+  "productivity/meeting-notes"
+ ],
+ "product": [
+  "letterly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Brings Letterly voice notes and meeting recordings into an AI chat for searching, rewriting and translating.",
+ "whenToUse": "Use when the user wants to search, rewrite or translate their Letterly voice notes or meeting transcripts.",
+ "tasks": [
+  "search voice notes",
+  "search meetings",
+  "rewrite notes",
+  "translate notes"
+ ],
+ "effects": {},
+ "flags": []
+}

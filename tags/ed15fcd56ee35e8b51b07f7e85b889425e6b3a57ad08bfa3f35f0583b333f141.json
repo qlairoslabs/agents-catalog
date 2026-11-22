@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ed15fcd56ee35e8b51b07f7e85b889425e6b3a57ad08bfa3f35f0583b333f141",
+ "domain": [
+  "software/web-analytics",
+  "business/revenue-analytics"
+ ],
+ "product": [
+  "clamp"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives AI agents access to Clamp Analytics data on traffic, revenue, funnels, cohorts, errors and search.",
+ "whenToUse": "Use when a user wants to analyze website or product metrics stored in Clamp Analytics.",
+ "tasks": [
+  "view traffic stats",
+  "view revenue",
+  "analyze funnels",
+  "analyze cohorts",
+  "review errors",
+  "review search data"
+ ],
+ "effects": {},
+ "flags": []
+}

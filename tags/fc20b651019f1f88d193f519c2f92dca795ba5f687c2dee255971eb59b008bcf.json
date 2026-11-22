@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fc20b651019f1f88d193f519c2f92dca795ba5f687c2dee255971eb59b008bcf",
+ "domain": [
+  "finance/tax-invoices",
+  "finance/accounting"
+ ],
+ "product": [
+  "notaguard",
+  "nfs-e"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Queries, analyses and responds to Brazilian electronic invoices and issues NFS-e service invoices.",
+ "whenToUse": "Use when a Brazilian business needs to check, acknowledge or issue electronic tax invoices.",
+ "tasks": [
+  "query electronic invoices",
+  "analyse invoices",
+  "register invoice manifestation",
+  "issue nfs-e"
+ ],
+ "effects": {},
+ "flags": []
+}

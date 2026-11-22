@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "30d8209fefd0a892fbcd3a4286a61ad263079c8cdcd43e8146d3fa143bb25c31",
+ "domain": [
+  "commerce/marketplace",
+  "finance/crypto-payments"
+ ],
+ "product": [
+  "nagora",
+  "nano"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Agents buy physical or digital goods on Nagora with Nano (XNO) via escrow: search listings, place orders, track them, confirm delivery and get signed receipts.",
+ "whenToUse": "Use when an agent has been authorised to purchase goods with Nano and needs to search, order, track and finalise escrow.",
+ "tasks": [
+  "search listings",
+  "get listing detail",
+  "register agent",
+  "create purchase order",
+  "track order",
+  "confirm delivery and release escrow",
+  "cancel unfunded order",
+  "get signed receipt",
+  "verify credential"
+ ],
+ "effects": {
+  "1de7e729dbdd76039ad18d6309c256704a02d2f9aedcc760e9995ad378e4038a": "read",
+  "743e974c36a98a9e530ab612fbe00403a3c900641729d0f1af7069fc4ff3f86f": "write",
+  "985f0894e12e68020015335619c4283e03edabeb711e29f54e04fafbf54c58a7": "risky",
+  "b92f928ab1b293bc570fa8bef92bc4c0f1f200dbfa3890c467b3ad2daaeb889a": "read",
+  "836646e0a7a7605205c300d8908dde95f0da47b9c5675932ca61084d1dc360c3": "read",
+  "3247755a6f2f51c79ffc2d64a48b13e381f0cad6755a887aab7b658aedd2fbff": "read",
+  "0957f66b4a64e5f642668d177f57293d2b0dc1fafb8a56805b9a186770ef3559": "risky",
+  "e77ddc44e83f48da921bd0326ffb7b321170167b9a8ea2317ddb1fe0c4f7bfd6": "read",
+  "2249da7837ffb060389de783c71869da76e98cf6943cdd365df017f9b57e8d40": "write"
+ },
+ "flags": []
+}

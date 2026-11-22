@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "a2f1bb6e4f9169e62329a87e75dd6f4d69e5ab86c8c4d2e2f04467ff456f639f",
+ "domain": [
+  "finance/trading-strategies",
+  "finance/backtesting"
+ ],
+ "product": [
+  "benawf"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Edits trading strategy rules in the BenAwf Strategy Lab, runs backtests and inspects trades and market context.",
+ "whenToUse": "Use when iterating on a trading strategy's entry gates, position sizing and exits and backtesting the changes.",
+ "tasks": [
+  "list strategy iterations",
+  "view lineage",
+  "select iteration",
+  "add or patch entry gates",
+  "patch position sizing",
+  "patch exits",
+  "set cooldown",
+  "run backtests",
+  "list trades",
+  "diff iterations",
+  "get market context"
+ ],
+ "effects": {
+  "660fba8751b9fa8bd716e0a850206fc650bd3d17fa00eefad0bcec006ba47821": "read",
+  "67bafa4853238d229084f366fb0ad0298df9a2e4c934d62450fad09dab8ffcf0": "read",
+  "28d961a7fecd1795a644de55776caa6bf14ef93121efa19bba4cfb50e218aef4": "write",
+  "82e20a7ad580525eca0a430284a18c32269a0b2691984d5e9073e9ea5f9c788c": "write",
+  "d75385a8542cf757236a74d48b1e9682b2b5390287c58707162ebc17d6942562": "write",
+  "9c92ce55acc6d820c68c70774a0ad031f67f6e0e3d5d10a960bc22554efbde22": "write",
+  "535693eb2d59272f237de135069db7d944d8a366d04ff9b4faba3fe3d25078fd": "write",
+  "cd395296f0fb097dcf5225adddd5f0e447df1db1827e705e98ccc5d0cacb411c": "write",
+  "2bdf7ea6c4c92a448fdee95c3300fae1dac65a9ab502ed2e00f0730fb0f26bd5": "write",
+  "50267a0e75f21c9f3d90719a87c04e032dacccee8e7d3c393dba6fe5bbc5c28e": "read",
+  "e239e74a1bd6e72ed51b85df657b7e7f7917d889217b31ee1a5f30f0fddb3ee9": "read",
+  "5b5bdb5cc968b4551ff07c07fbc8e92177feb1ba7ce2e1af5e033f26460b4514": "write",
+  "00375e60b31ce6497739b14b8e215e8fef696f4f3e42048b43013f127c64a159": "read",
+  "a73540ec247dc39cad2a362abb40a1979206de2f641ea49998526da2a2819348": "read",
+  "1297af131fd7ea6139145056edc487db381b9c6622d9ac5e44f57cf6e1cabb16": "read",
+  "68473d69e35805f95ce9f986bb72d10ac027ae881cb7a0b3ae1ae2149131429d": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "a87eaf9b67a95c4bcc4d14684a31fdbb183548f245141116bf3b64bf119f4ee3",
+ "domain": [
+  "data/web-scraping",
+  "automation"
+ ],
+ "product": [
+  "x1-baas",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scraping API that renders pages and returns Markdown, HTML, PDF, screenshots or CSV, with anti-bot bypass and crypto payments.",
+ "whenToUse": "Use when an agent needs page content from a site that is JavaScript-heavy or bot-protected.",
+ "tasks": [
+  "scrape URL to markdown",
+  "capture screenshot or pdf",
+  "extract tables as csv",
+  "run custom javascript on page",
+  "check pricing",
+  "check server status"
+ ],
+ "effects": {
+  "155c7f1b808ee19dc94abf709999486352e2f83a5e5f67f4fb21af0a9a03b824": "write",
+  "92221ff291918423baad36ad6d58c6ebfdc1b5bf25e21a76961341adf8d5b567": "read",
+  "e70be95ad1bc8dba1141f4f65fd9b0c8f70195115a6f35ae575baf9b8f88bb3d": "read"
+ },
+ "flags": [
+  "anti-bot bypass (Cloudflare, Datadome) stealth scraping",
+  "accepts arbitrary javascript to run on pages",
+  "paid via crypto x402"
+ ]
+}

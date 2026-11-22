@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "deb41e298787f2e5749327e7261103496579fa7675701e22636d57d096a093ce",
+ "domain": [
+  "web/screenshots",
+  "software/web-capture"
+ ],
+ "product": [
+  "snap-screenshots"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Takes screenshots of public web pages, free without signup or with an API key.",
+ "whenToUse": "Use when an agent needs a screenshot of a public web page.",
+ "tasks": [
+  "capture web page screenshot"
+ ],
+ "effects": {},
+ "flags": []
+}

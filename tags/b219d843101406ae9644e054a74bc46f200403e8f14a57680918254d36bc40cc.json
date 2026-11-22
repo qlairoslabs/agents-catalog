@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b219d843101406ae9644e054a74bc46f200403e8f14a57680918254d36bc40cc",
+ "domain": [
+  "design/design-systems",
+  "software/frontend"
+ ],
+ "product": [
+  "zaklad",
+  "figma"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Builds and manages a design system including tokens, themes, components and icons, linked to Figma and code.",
+ "whenToUse": "Use when creating or updating design tokens, themes or components across Figma and code.",
+ "tasks": [
+  "manage design tokens",
+  "manage themes",
+  "manage components",
+  "manage icons",
+  "sync with figma",
+  "export to code"
+ ],
+ "effects": {},
+ "flags": []
+}

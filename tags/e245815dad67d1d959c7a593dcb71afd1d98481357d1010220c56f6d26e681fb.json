@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e245815dad67d1d959c7a593dcb71afd1d98481357d1010220c56f6d26e681fb",
+ "domain": [
+  "productivity/calendar",
+  "productivity/contacts"
+ ],
+ "product": [
+  "caldav",
+  "carddav"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Manages calendars, contacts and tasks on any CalDAV or CardDAV server.",
+ "whenToUse": "Use when an agent needs to read or change events, contacts or tasks on a DAV-based service.",
+ "tasks": [
+  "manage calendar events",
+  "manage contacts",
+  "manage tasks",
+  "search calendars"
+ ],
+ "effects": {},
+ "flags": []
+}

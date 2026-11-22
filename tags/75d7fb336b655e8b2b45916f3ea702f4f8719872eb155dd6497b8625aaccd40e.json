@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "75d7fb336b655e8b2b45916f3ea702f4f8719872eb155dd6497b8625aaccd40e",
+ "domain": [
+  "business/company-data",
+  "finance/risk"
+ ],
+ "product": [
+  "nogogo"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up a French company by name or SIREN and returns its indicative Nogogo A-E reliability grade with basic legal and administrative information.",
+ "whenToUse": "Use when you need to check the reliability or basic registry details of a single French company.",
+ "tasks": [
+  "find company SIREN by name",
+  "get reliability grade",
+  "get company legal info",
+  "identify main executive"
+ ],
+ "effects": {
+  "bd0bbeb28867370a32e60470b8fd50cdcbe48a5f489001d7710a86ab11b0983d": "read",
+  "9c2f4234620311190e2e74b069cfa28eb3ee91f6bc72040b88cb1c5ae7dbba56": "read"
+ },
+ "flags": []
+}

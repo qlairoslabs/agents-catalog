@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d3c11a3a04a9d36f9b2c3d4bdd87839e7f69fd0599d276970e98f21b86dd456b",
+ "domain": [
+  "productivity/scheduling",
+  "productivity/meetings"
+ ],
+ "product": [
+  "42min"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Scheduling service for AI assistants covering bookings, availability, meeting polls and routing forms.",
+ "whenToUse": "Use when an agent needs to book meetings, check availability or run a meeting poll.",
+ "tasks": [
+  "create bookings",
+  "check availability",
+  "run meeting polls",
+  "manage routing forms"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "fdc77d5727e02f451d73788b0126d33bc27217311ac41919a492ff20d3cc9af1",
+ "domain": [
+  "research/deep-research",
+  "software/ai-agents"
+ ],
+ "product": [
+  "parallel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "MCP server from Parallel for running deep web research tasks and batches of task groups.",
+ "whenToUse": "Use when an agent needs multi-source deep research or many research tasks run in parallel.",
+ "tasks": [
+  "run deep research tasks",
+  "run task groups in batch"
+ ],
+ "effects": {},
+ "flags": []
+}

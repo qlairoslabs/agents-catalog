@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "56dbf55dcf1977e701a1422b0ab10b5bc30b87e9c2e6e20275d743a3d0a1cf4c",
+ "domain": [
+  "legal/billing-review",
+  "finance/accounts-payable"
+ ],
+ "product": [
+  "counselaudit"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Reviews law firm invoices for in-house legal teams, letting users resolve flagged items and draft letters to firms.",
+ "whenToUse": "Use when an in-house legal team needs to audit outside counsel bills.",
+ "tasks": [
+  "audit law firm invoices",
+  "review billing flags",
+  "decide on flags",
+  "draft letters to firms"
+ ],
+ "effects": {},
+ "flags": []
+}

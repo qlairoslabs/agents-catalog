@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "96a2b38aa4817169ab0e1f1a99d3d9fafe229f519f5010a88daa30ab6e0a8986",
+ "domain": [
+  "finance/e-invoicing",
+  "compliance/tax"
+ ],
+ "product": [
+  "inkvoice",
+  "xrechnung",
+  "zugferd"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Creates and validates XRechnung and ZUGFeRD e-invoices under EN 16931, checks Leitweg-IDs and German VAT.",
+ "whenToUse": "Use when the user needs to create or validate German-compliant e-invoices.",
+ "tasks": [
+  "create e-invoices",
+  "validate xrechnung",
+  "validate zugferd",
+  "check leitweg-ids",
+  "check german vat"
+ ],
+ "effects": {},
+ "flags": []
+}

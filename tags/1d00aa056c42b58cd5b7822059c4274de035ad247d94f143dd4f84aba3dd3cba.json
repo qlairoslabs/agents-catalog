@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "1d00aa056c42b58cd5b7822059c4274de035ad247d94f143dd4f84aba3dd3cba",
+ "domain": [
+  "travel/uk-holiday-stays",
+  "travel/booking"
+ ],
+ "product": [
+  "holidayfox",
+  "airbnb",
+  "booking.com",
+  "pitchup"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Search independent UK holiday stays, check availability and exact prices, get quotes and open checkout; also host feature info.",
+ "whenToUse": "Use when finding and pricing a UK farm stay, glamping or cottage, or learning what HolidayFox offers hosts.",
+ "tasks": [
+  "search stays",
+  "listing details",
+  "check availability",
+  "guest reviews",
+  "list add-ons",
+  "get quote",
+  "begin checkout link",
+  "message owner",
+  "host features"
+ ],
+ "effects": {
+  "61f8925ed86f01cb53468bc67274bbcbfdc242b3efe6141808df35a0bd05a757": "read",
+  "f4e46924d0f035ebad555a7f9a8f1f47e5afa10a765045fa0732a7a58cf39c20": "read",
+  "a130186ba58c053fa0b05876b21a0e2771ffae8faf630224835d64df5191da61": "read",
+  "1334b0ff39d1ebef30efd5950dd4ca6ce39ea9db8c85d4dc157275ca6f62b59e": "read",
+  "9d0c4f103e04f8c04f815e6a221c5cd09c0c90d23ad21f511c8d4e749deb62ce": "read",
+  "4c29ad71ad9e6a17621db17eb0be50186ca5c3fc63cf3693adfbcff7c91dcb94": "read",
+  "d40c03704a033ef018205c08767f3d60af9f81d17bcf37c0b8633ade55f96f44": "write",
+  "80aadfce8d926826ffaac1c2626201f9134c71f065d90bd1e08498ce040eda62": "write",
+  "e4ae1cd685a54cf20590a37c36f724824ccb6906406dcce838cfbbe934ac8be9": "read"
+ },
+ "flags": []
+}

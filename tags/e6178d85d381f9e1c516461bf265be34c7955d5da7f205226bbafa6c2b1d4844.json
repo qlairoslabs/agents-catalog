@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e6178d85d381f9e1c516461bf265be34c7955d5da7f205226bbafa6c2b1d4844",
+ "domain": [
+  "agriculture/equine-management",
+  "animal-care"
+ ],
+ "product": [
+  "horsepower"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an AI answer questions about a horse yard's horses, treatments, visits, calendar, exercise and weights.",
+ "whenToUse": "Use when a horse yard owner or manager asks about their horses' care, schedule or records.",
+ "tasks": [
+  "list horses",
+  "view treatments",
+  "view visits",
+  "check calendar",
+  "track exercise",
+  "track weights"
+ ],
+ "effects": {},
+ "flags": []
+}

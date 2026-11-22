@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "29af77dade19008750bb0f3e206cd70aca545eb29b97e0d934d6ec8ddacec458",
+ "domain": [
+  "finance/insurance"
+ ],
+ "product": [
+  "insurance-city"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "stay-compliant"
+ ],
+ "summary": "California insurance agency tools for browsing products, collecting quote answers, requesting agent callbacks and checking quote status.",
+ "whenToUse": "Use when someone in California wants commercial or personal insurance information or to start a quote with a licensed agent.",
+ "tasks": [
+  "get agency info",
+  "list offices",
+  "list products",
+  "get quote link",
+  "search guides",
+  "request callback",
+  "get quote questions",
+  "submit quote request",
+  "check quote status"
+ ],
+ "effects": {
+  "1be1e16ea8340d9fb4e37f44fd436d69738350fcb03618efde498680bd6ad3fd": "read",
+  "836be5f8ea739e8137652be6dbea0085817c3540bfe52da04c6613d5d99a13c7": "read",
+  "c3032ebf6f065c3380c0f5a05a83457ee727d850581f6132f5b54dc2df8b33a9": "read",
+  "a89c315c098e9179517c93ecd69d28475940852212667eeae76ae7d7a623a138": "read",
+  "b044bc5183bad8fe42488388398d5f7aebebe332e97f534e0e7ba2c004069e34": "read",
+  "56ba66b07da0e0ea41735d5f0801c5cd5d97f10cc6a5bdf8447de27ad1d23f6c": "write",
+  "040a1c85e062f142feeba10e93075322fdd7b318401bf7b9ac5c5b25b540ca95": "read",
+  "3b2687550167c5520f3e931e23914d22bf12bb570ff26fd8649b4b95d661bb27": "write",
+  "a21a8808f6b887076fc213b9c0e11b48e3fabfb6685aa76da01c22012285d21c": "read"
+ },
+ "flags": []
+}

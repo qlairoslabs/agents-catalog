@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8cde2cfb53bba368b2708fdc5dd036b2d0404f0bb360e7f9efda6c5ae79eb172",
+ "domain": [
+  "data/orchestration/migration",
+  "software/development"
+ ],
+ "product": [
+  "dagster",
+  "apache-airflow",
+  "astronomer",
+  "dbt"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guide for porting Dagster projects to Airflow 3 on Astro, mapping assets, schedules, sensors, resources and other constructs.",
+ "whenToUse": "Use when a user wants to plan, assess or perform a migration from Dagster to Airflow or Astro.",
+ "tasks": [
+  "assess dagster migration",
+  "map dagster constructs to airflow",
+  "convert assets and partitions",
+  "convert schedules and sensors",
+  "migrate resources and io managers",
+  "migrate dbt integrations"
+ ],
+ "effects": {},
+ "flags": []
+}

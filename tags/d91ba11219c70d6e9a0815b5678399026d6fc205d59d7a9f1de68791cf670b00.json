@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d91ba11219c70d6e9a0815b5678399026d6fc205d59d7a9f1de68791cf670b00",
+ "domain": [
+  "events/photo-sharing",
+  "media/photos"
+ ],
+ "product": [
+  "insta-pola"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "keep-in-touch"
+ ],
+ "summary": "Creates shared event photo galleries with a QR code, a live photo wall and AI caption ideas.",
+ "whenToUse": "Use when setting up a shared photo gallery for an event.",
+ "tasks": [
+  "create event galleries",
+  "generate qr codes",
+  "show live photo wall",
+  "suggest captions"
+ ],
+ "effects": {},
+ "flags": []
+}

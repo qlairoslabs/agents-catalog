@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "42403580cdff1e95c1816868ce60a542ccc9a907cf6d27bd8c6b5e9bac3481f8",
+ "domain": [
+  "finance/crypto/risk-analysis"
+ ],
+ "product": [
+  "solana",
+  "base",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Pre-trade safety checks for tokens on Solana and Base, paid per call in USDC through x402.",
+ "whenToUse": "Use before an agent trades a Solana or Base token to check it for risk.",
+ "tasks": [
+  "check token safety",
+  "assess pre-trade risk"
+ ],
+ "effects": {},
+ "flags": []
+}

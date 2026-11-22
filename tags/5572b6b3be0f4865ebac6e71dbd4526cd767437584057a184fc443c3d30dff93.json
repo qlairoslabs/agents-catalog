@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5572b6b3be0f4865ebac6e71dbd4526cd767437584057a184fc443c3d30dff93",
+ "domain": [
+  "travel/flights/loyalty-points",
+  "travel/booking"
+ ],
+ "product": [
+  "pointify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "schedule"
+ ],
+ "summary": "Searches award and cash flight fares, helps optimise loyalty points and predicts fare changes.",
+ "whenToUse": "Use when an agent is planning flights and wants to compare award availability with cash prices or time a purchase.",
+ "tasks": [
+  "search award flights",
+  "search cash fares",
+  "optimize points usage",
+  "predict fares"
+ ],
+ "effects": {},
+ "flags": []
+}

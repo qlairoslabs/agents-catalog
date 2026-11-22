@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "c2948150d030b1b298781c149e47eb9f351036242b1a13aeac5e4c5a03acd5ea",
+ "domain": [
+  "work/gig-marketplace",
+  "work/task-outsourcing"
+ ],
+ "product": [
+  "invoke"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "automate-work"
+ ],
+ "summary": "Lets an AI agent post paid real-world tasks such as calls, photos or checks for human workers to complete.",
+ "whenToUse": "Use when a user explicitly wants to pay a human to do a task software cannot, such as a phone call or physical check.",
+ "tasks": [
+  "post paid human task",
+  "set worker reward",
+  "get public task link",
+  "get payment checkout link"
+ ],
+ "effects": {
+  "a72b42d6148d4c5c8ecd0c0f03b9a503aa24aef73523fa4f2b3249ce9eb627ce": "risky",
+  "7cc7a4dc248344f2b634650a1c283ac3f52ebf83940876ae985549b302f57ffd": "risky",
+  "b79b557c2edad6ebf4f262973b8ace6267571e803d13d082c864826f92285c18": "risky"
+ },
+ "flags": [
+  "descriptions instruct the agent to call it whenever it is stuck, encouraging use without user request",
+  "asks the agent to submit the user's real email address",
+  "three duplicate alias tools for the same paid action"
+ ]
+}

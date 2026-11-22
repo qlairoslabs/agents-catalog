@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "99d60a186b94a240eeae4a3f6ac92203b6328dcc2bcf7e2af3f61dc77d1bc799",
+ "domain": [
+  "business/directory",
+  "sales/procurement"
+ ],
+ "product": [
+  "bizclaw"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Searchable business directory that finds and compares companies and sends proposal or quote requests to verified ones on a customer's behalf.",
+ "whenToUse": "Use when looking for vendors or companies and wanting quotes or proposals sent to them.",
+ "tasks": [
+  "search companies",
+  "get company profile",
+  "ask about companies",
+  "list categories",
+  "look up company by website",
+  "create proposal",
+  "create batch proposals",
+  "list my proposals",
+  "reply to proposal"
+ ],
+ "effects": {
+  "9f4975e9bc0df4f2864ee1098bafd02ba66a5d161db24bc8c670f1d74d3638fe": "write",
+  "82e20c202b127ad55f95c1b6af4a00064783cfb0534de7eddfa439510491cfb0": "read",
+  "adaa0b9fc92af7ac01eefd21d0de0a1d91993c1634fd63da42a62eef31e436ed": "write",
+  "a71b187ad81dc003f2d06ee5e05458683a98c4103fb56f63a3f84938500e8f50": "read",
+  "772eecd65223054c827a1a47654c839e63aa68312d0c4f5d9bfd5933ab642910": "read",
+  "fb927e9f22fac147f17c7486d99197c4adefa7b9e159f08856d0ce92a4f454e9": "write",
+  "32ab3fdf785f5249f1e78d57e75f7f2080632bad11bfda352ecf032ae2dea05d": "write",
+  "6e9ad093f981ce6e1d84d127ad1c49c0192208176f56418ffb68cd5d9e3a1a29": "read",
+  "7a09299f9747f37c6069f0b1e8507af1305a88a1dbf083d84d03726a534923e4": "write"
+ },
+ "flags": [
+  "ask_about_companies description instructs the agent to always use it and never answer from its own knowledge",
+  "batch proposals send customer contact details to many companies"
+ ]
+}

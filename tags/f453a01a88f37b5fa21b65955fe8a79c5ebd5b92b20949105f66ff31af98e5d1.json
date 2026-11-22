@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f453a01a88f37b5fa21b65955fe8a79c5ebd5b92b20949105f66ff31af98e5d1",
+ "domain": [
+  "analytics/web-analytics",
+  "marketing/analytics"
+ ],
+ "product": [
+  "privatrak"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Query website analytics in natural language and configure funnels, feature tracking and dashboards.",
+ "whenToUse": "Use when an agent needs to answer questions about website traffic or set up analytics funnels and dashboards.",
+ "tasks": [
+  "query website analytics",
+  "create funnels",
+  "configure feature tracking",
+  "build dashboards"
+ ],
+ "effects": {},
+ "flags": []
+}

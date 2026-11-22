@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "69cb8ebc66d6c4bd51515c1f87a1e17e9de749024a43447954c9532bd549c482",
+ "domain": [
+  "software/observability",
+  "ai-agents/mcp"
+ ],
+ "product": [
+  "agentcat"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Analytics and debugging for MCP servers, letting you explore usage and sessions and investigate errors.",
+ "whenToUse": "Use when analysing how an MCP server is used or diagnosing its errors.",
+ "tasks": [
+  "explore usage analytics",
+  "inspect sessions",
+  "root-cause errors"
+ ],
+ "effects": {},
+ "flags": []
+}

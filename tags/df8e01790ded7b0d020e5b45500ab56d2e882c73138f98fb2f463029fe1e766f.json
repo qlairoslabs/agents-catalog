@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "df8e01790ded7b0d020e5b45500ab56d2e882c73138f98fb2f463029fe1e766f",
+ "domain": [
+  "customer-support/ai-agents"
+ ],
+ "product": [
+  "recursive",
+  "claude"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Answers questions about the Recursive AI support agent platform, its pricing and capabilities, and logs feature requests.",
+ "whenToUse": "Use when evaluating Recursive as a support agent platform for a small business.",
+ "tasks": [
+  "ask product questions",
+  "get pricing",
+  "get capabilities",
+  "submit feature request"
+ ],
+ "effects": {
+  "bbe857db8d7ee40314b3fda65610ba5230d766c1796b264a02bcbcdd00459214": "read",
+  "c49d14380cc6c8d7ebd63d93ad66c79f84325f29f77f039b607daea214ac0c0e": "read",
+  "f618ddd770daee033361335ce59057450aaa6de5536892fb094e84c6374e3ebb": "read",
+  "af89daf12968626ca992f662f4ebe32bde54c0e772dc2c06a404aa362bebfe5e": "write"
+ },
+ "flags": []
+}

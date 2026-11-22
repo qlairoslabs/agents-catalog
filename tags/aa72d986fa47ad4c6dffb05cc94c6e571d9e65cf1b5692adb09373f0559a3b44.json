@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "aa72d986fa47ad4c6dffb05cc94c6e571d9e65cf1b5692adb09373f0559a3b44",
+ "domain": [
+  "software/ai-agent-orchestration",
+  "documentation"
+ ],
+ "product": [
+  "devplane"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Read-only access to DevPlane's public pages, FAQs, comparisons and documentation about multi-agent orchestration.",
+ "whenToUse": "Use when answering questions about DevPlane or multi-agent orchestration from its published materials.",
+ "tasks": [
+  "list pages",
+  "list FAQs",
+  "get FAQ",
+  "list comparisons",
+  "list docs",
+  "get doc"
+ ],
+ "effects": {
+  "146b398c30c75ad2716dc54d735b0221d953829d367db134fee638d7ba016395": "read",
+  "c878bfa009fff8b20ee5243ac97d1ac39487e6d70482cddda073397e298289d3": "read",
+  "7b3c8293602d2b4d0dfbcd56878e7cd9a9ec18ecc919a9ab6e03b6791a9de079": "read",
+  "0d664b2387d254fd4fda26df75bd7d2c39b55fb2df760b7ce3f58079d7b6d233": "read",
+  "4848a0e2f9bbd07551a190ee180af3fde42de340fb459ed32789a6456d48c77f": "read",
+  "1e10abb8532509383e62ed75ed45113f9b4e0e43d079394f2b7f0927a2ec9a11": "read"
+ },
+ "flags": []
+}

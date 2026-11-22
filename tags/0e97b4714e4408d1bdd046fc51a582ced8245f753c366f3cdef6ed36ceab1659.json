@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "0e97b4714e4408d1bdd046fc51a582ced8245f753c366f3cdef6ed36ceab1659",
+ "domain": [
+  "travel/parking",
+  "energy/ev-charging"
+ ],
+ "product": [
+  "parkinzi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only live data on Saudi smart-parking spots, EV chargers, covered cities, platform stats and blog articles, searchable in Arabic or English.",
+ "whenToUse": "Use when someone needs parking or EV charging locations in Saudi Arabia or information about the Parkinzi app.",
+ "tasks": [
+  "search parking spots",
+  "find EV chargers",
+  "get spot details",
+  "get platform stats",
+  "list supported cities",
+  "search blog posts",
+  "get app info"
+ ],
+ "effects": {
+  "553c5eb024ab107a3c2078e1b941594703d96624476f1f1daec6c126f5942440": "read",
+  "feb943d4a866c7f62fb2212a5a3e610daea6b0847a9ebeb9977a6ddfb35ef606": "read",
+  "3ab72792e979293183051c3e91321533b06fe724922828d900d30e1416466bd3": "read",
+  "71abd54c48aad4d894d01ef858bd65064f3d8b8b35c6ae4bc597cfd027546c6b": "read",
+  "01acb406e51c165c7209c2750b6923688876995349f35d894b6344ca22359374": "read",
+  "4e0d28fad0fad7f51bf76c52b223b3351f20aeff7f9a8fe1190b269b874ab612": "read",
+  "5a891bd3a00780d5d0f398f9c7339401d21c161f17ece4d8983450e876ab9a95": "read",
+  "825c8cdf679a411235619ced96544eeb1e275f6c71890c3f0ac07b81af572b5c": "read",
+  "1359ecc21a8cba5112634f378292add53d003b934288c7864fffe6d626a51cde": "read"
+ },
+ "flags": []
+}

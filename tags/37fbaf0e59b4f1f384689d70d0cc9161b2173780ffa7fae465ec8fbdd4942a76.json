@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "37fbaf0e59b4f1f384689d70d0cc9161b2173780ffa7fae465ec8fbdd4942a76",
+ "domain": [
+  "software/mobile-app-publishing",
+  "software/app-store"
+ ],
+ "product": [
+  "app-store-connect",
+  "testflight"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Operates App Store Connect for agents: app icons, TestFlight builds, store listings, in-app purchases and rejection fixes.",
+ "whenToUse": "Use when the user needs to manage an iOS app's App Store Connect setup, builds, listings or review rejections.",
+ "tasks": [
+  "manage app icons",
+  "manage testflight builds",
+  "edit store listings",
+  "configure in-app purchases",
+  "address review rejections"
+ ],
+ "effects": {},
+ "flags": []
+}

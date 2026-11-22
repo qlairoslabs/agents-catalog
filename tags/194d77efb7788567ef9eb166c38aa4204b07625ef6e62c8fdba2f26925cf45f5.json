@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "194d77efb7788567ef9eb166c38aa4204b07625ef6e62c8fdba2f26925cf45f5",
+ "domain": [
+  "commerce/product-search",
+  "commerce"
+ ],
+ "product": [
+  "vviinn"
+ ],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Provides semantic and visual product search and discovery for AI agents doing commerce tasks.",
+ "whenToUse": "Use when an agent needs to find or recommend products from a catalogue by meaning or by image.",
+ "tasks": [
+  "semantic product search",
+  "visual product search",
+  "product discovery"
+ ],
+ "effects": {},
+ "flags": []
+}

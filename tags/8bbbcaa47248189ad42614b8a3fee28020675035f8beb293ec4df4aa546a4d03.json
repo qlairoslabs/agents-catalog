@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "8bbbcaa47248189ad42614b8a3fee28020675035f8beb293ec4df4aa546a4d03",
+ "domain": [
+  "software/cybersecurity/security-automation",
+  "operations/workflow-automation"
+ ],
+ "product": [
+  "crowdstrike-falcon",
+  "falcon-fusion",
+  "falcon-next-gen-siem"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Skills for writing, deploying, running and monitoring CrowdStrike Falcon Fusion workflows and managing SIEM lookup files.",
+ "whenToUse": "Use when automating security operations with Falcon Fusion workflows.",
+ "tasks": [
+  "discover available actions",
+  "author workflow yaml",
+  "validate against schema",
+  "import and release workflows",
+  "execute workflows",
+  "monitor executions",
+  "manage siem lookup files"
+ ],
+ "effects": {},
+ "flags": []
+}

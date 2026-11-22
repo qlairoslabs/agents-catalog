@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "559a2a42c30814bdc7daeea502335b5a6e4eb5caad64fcb47c5e1f5918d08595",
+ "domain": [
+  "software/backend-hosting",
+  "software/database"
+ ],
+ "product": [
+  "reqres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Creates hosted REST backends with persistent collections, records, app users and request logs, without signup.",
+ "whenToUse": "Use when a prototype or app needs a quick persistent API and database.",
+ "tasks": [
+  "create project",
+  "create collection",
+  "create record",
+  "read records",
+  "patch record",
+  "replace record",
+  "delete record",
+  "create app user",
+  "create user session",
+  "view request logs"
+ ],
+ "effects": {
+  "1e2eb9ae8ea6a46b3b5a266a11634756b3a03cd6212b76a80f5a435481d4add0": "write",
+  "077a1f10de8b891d4f88d0bdc326685351b2b5de6b6e8589914895b51c90efac": "read",
+  "b9a9dc678e8027b6b5e4aa50307bb8f322fdd0e96721fb5abda603b17fa1da72": "write",
+  "ffa7ab1795ff1c658c9eb6f648e9eee9b83abc203106dc3618b07a3739f43d7f": "read",
+  "b3cfc75507c8f2f9dae5a972e424db66195dad7b399e11b02fbc1f15dd0d7132": "write",
+  "abcdf02bcb5f5c38ebfd5ce87d2096e3b7bb962d3a7ecaf99dd028f3f60201fd": "read",
+  "1952e3fb30349a3a26028b49e1ec171b97ee6da7c7ade346e2349e23a1491a5d": "write",
+  "2a2053fa187a82057f6f8599bf785acc5ce76eec798e58e91922a9e433fd7c6d": "write",
+  "9b2f1b79fc00358caee43d916835e10f3fd6eaa7484a4713dcf6570aa433e374": "write",
+  "b07377f32b75c54d9976585ac30c29024a6c586f6dc7e424439187b57c70193d": "read",
+  "95a25c0357227999a1ba13528253c1f48bf9c13e2a79bfcf523cae1a2206838c": "write",
+  "e39cf311a845147c39df14ad9731a31e094db8f4f5f9215216748a19bec30b4b": "write"
+ },
+ "flags": []
+}

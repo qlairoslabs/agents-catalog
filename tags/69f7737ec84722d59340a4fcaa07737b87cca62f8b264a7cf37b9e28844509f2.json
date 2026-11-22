@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "69f7737ec84722d59340a4fcaa07737b87cca62f8b264a7cf37b9e28844509f2",
+ "domain": [
+  "business/project-management",
+  "business/work-management"
+ ],
+ "product": [
+  "monday.com"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Integration with monday.com work management.",
+ "whenToUse": "Use when a user wants to view or manage boards, items or tasks in monday.com.",
+ "tasks": [
+  "access monday.com boards",
+  "manage items"
+ ],
+ "effects": {},
+ "flags": []
+}

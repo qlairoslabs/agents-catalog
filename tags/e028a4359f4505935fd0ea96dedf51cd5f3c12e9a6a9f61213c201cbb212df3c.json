@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "e028a4359f4505935fd0ea96dedf51cd5f3c12e9a6a9f61213c201cbb212df3c",
+ "domain": [
+  "finance/reference",
+  "finance/calculation"
+ ],
+ "product": [
+  "sec-edgar",
+  "kalshi",
+  "polymarket"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Finance reference lookups and 30 deterministic formulas (options, bonds, PE, VC, M&A, calendars) with verifiable hash receipts, plus regulatory thresholds and entity mapping.",
+ "whenToUse": "Use when you need a citable finance definition, a reproducible calculation, a regulatory threshold or a ticker-to-issuer mapping.",
+ "tasks": [
+  "search finance terms",
+  "compute formulas with receipt",
+  "verify receipts",
+  "batch scenario grids",
+  "look up regulatory thresholds",
+  "map ticker to issuer",
+  "fetch prediction-market contracts",
+  "generate citations",
+  "track canon changes"
+ ],
+ "effects": {
+  "017cc043d330620a6937a1af768707e0f8f855a9675a375cb90d159d06e7df1b": "read",
+  "d5e4dfc3bdd1e9f9b7ea43906b4e3c2e29115148eb6a10c8ea4fc7eaae58e7a0": "read",
+  "21eee37809bbf784b7a214a9d8067c694f5193a40e9333ee156653b093e0ba24": "read",
+  "75f2a04195944097822076a73e3ac3d37727ebb7899dd58e4e0c33118c970797": "read",
+  "f9e2d2c519578938bb9b5c153cb23252098e668a7600abc1ae5b8acfabedc942": "read",
+  "7352e0130efe5c460a57ca35798baafb30357824fcc9ec6f4455b96414962649": "read",
+  "2afb7d53454ec157292e24884106593b27250e9e1eb467c0855fa04bade43635": "read",
+  "0c7670f69a5a9421523b100446e68a25c41e0274e6f2ff7baff6a1e5070cd745": "read",
+  "984dc1cab1e7ec769e6ba5e4f2eeb3c91b0c387b3d1ecdf28da722e7de55d3d1": "read",
+  "1f5b710d6be559dba6144544f366bcfea6fa9acd3cc09031927140186636124f": "read",
+  "fbaa8aec26a808552e928805520ee9920ab1e9a2875a2d5026ae8268de0e4954": "read",
+  "43b7f06edb6b86b4290d741f7ee300c84953aef7a4b466a74cd02dc78beac9d7": "read",
+  "957f32de4ee32e7e36fa35d47cfa33900531e410372437e0dcad120a5d497c27": "read"
+ },
+ "flags": []
+}

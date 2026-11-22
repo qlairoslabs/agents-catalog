@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "62064b95bdbab4e146e3e00d101e9bf9969322e439572155b19fa2ba0b40211b",
+ "domain": [
+  "health/catalog",
+  "reference/catalog"
+ ],
+ "product": [
+  "homeoceutics"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only public catalog search of Homeoceutics infoceutics and information cards, in French and English.",
+ "whenToUse": "Use when looking up titles of Homeoceutics infoceutics or information cards by keyword or category.",
+ "tasks": [
+  "search infoceutics",
+  "search information cards",
+  "filter by category",
+  "filter by visibility status"
+ ],
+ "effects": {
+  "1d834049dca3ac0d9cf3433a041447e45694c1a3bf3ae1fa0dc41cef0a7e47e3": "read",
+  "5641be0815bf035350e0a82c24c5cfb2e50842c6ab5fb914564dc02fcfa5731d": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4e2462d9717f0d1285aecc3da3f73284ee388a03cb394b4ded54d28b12021d84",
+ "domain": [
+  "product-management/knowledge-base"
+ ],
+ "product": [
+  "revelica"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Queries a Revelica workspace's product ideas, specifications and research.",
+ "whenToUse": "Use when an agent needs product ideas, specs or research stored in Revelica.",
+ "tasks": [
+  "query ideas",
+  "read specs",
+  "read product research"
+ ],
+ "effects": {},
+ "flags": []
+}

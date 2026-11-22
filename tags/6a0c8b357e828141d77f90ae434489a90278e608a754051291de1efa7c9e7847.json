@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6a0c8b357e828141d77f90ae434489a90278e608a754051291de1efa7c9e7847",
+ "domain": [
+  "ai/multi-agent-coordination",
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Local server that lets multiple AI agents coordinate through messages, resource leases, shared plans and status updates.",
+ "whenToUse": "Use when several AI agents on one machine need to share plans, claim resources or message each other.",
+ "tasks": [
+  "send messages between agents",
+  "acquire and release leases",
+  "share plans",
+  "report status",
+  "manage shared resources"
+ ],
+ "effects": {},
+ "flags": []
+}

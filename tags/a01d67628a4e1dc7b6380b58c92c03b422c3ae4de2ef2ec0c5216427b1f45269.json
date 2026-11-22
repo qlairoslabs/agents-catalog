@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a01d67628a4e1dc7b6380b58c92c03b422c3ae4de2ef2ec0c5216427b1f45269",
+ "domain": [
+  "ai/model-gateway",
+  "ai/generation"
+ ],
+ "product": [
+  "aimlapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Gateway to many AI models for chat, image, video, audio, search and data tasks through one API.",
+ "whenToUse": "Use when an agent needs to call a variety of third-party AI models for generation or search through a single provider.",
+ "tasks": [
+  "chat with ai models",
+  "generate images",
+  "generate video",
+  "generate audio",
+  "run search",
+  "access data models"
+ ],
+ "effects": {},
+ "flags": []
+}

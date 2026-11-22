@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1d56d2620ae5300fef8e09c7bcfc6689bc77de147d9f2b78487e3bac5d239319",
+ "domain": [
+  "finance/quant-research",
+  "finance/backtesting"
+ ],
+ "product": [
+  "texttoquant"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Backtests trading strategies written in plain English on market data and grades the results.",
+ "whenToUse": "Use when a user wants to test a described trading strategy against historical market data.",
+ "tasks": [
+  "backtest strategies",
+  "grade results",
+  "flag unreliable results"
+ ],
+ "effects": {},
+ "flags": []
+}

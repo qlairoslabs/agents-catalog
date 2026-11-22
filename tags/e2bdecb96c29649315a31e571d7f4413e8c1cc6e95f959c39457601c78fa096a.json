@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e2bdecb96c29649315a31e571d7f4413e8c1cc6e95f959c39457601c78fa096a",
+ "domain": [
+  "finance/accounts-receivable",
+  "finance/order-to-cash"
+ ],
+ "product": [
+  "tesorio"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Queries Tesorio order-to-cash data such as customers, invoices, receivables and payments.",
+ "whenToUse": "Use when an agent needs to look up invoices, receivables or payment status in Tesorio.",
+ "tasks": [
+  "query customers",
+  "query invoices",
+  "review receivables",
+  "check payments"
+ ],
+ "effects": {},
+ "flags": []
+}

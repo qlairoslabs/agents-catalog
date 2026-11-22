@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "174d939047d21f4c66ab3b23e56acb3ff4fa4089f9ee65b0d2135385b9a57fd1",
+ "domain": [
+  "lifestyle/astrology"
+ ],
+ "product": [
+  "asterwise"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates Vedic and Western astrology charts, dasha periods, matchmaking, panchanga, numerology and tarot readings.",
+ "whenToUse": "Use when a user asks for astrology charts, horoscope matching, panchanga, numerology or tarot.",
+ "tasks": [
+  "generate birth charts",
+  "calculate dasha",
+  "astrology matchmaking",
+  "get panchanga",
+  "numerology readings",
+  "tarot readings"
+ ],
+ "effects": {},
+ "flags": []
+}

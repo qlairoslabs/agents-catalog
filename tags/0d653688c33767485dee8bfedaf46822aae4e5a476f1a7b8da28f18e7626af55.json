@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0d653688c33767485dee8bfedaf46822aae4e5a476f1a7b8da28f18e7626af55",
+ "domain": [
+  "work/crowdsourcing/microtasks",
+  "data/data-collection"
+ ],
+ "product": [
+  "rapidworkers"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "hire-and-manage"
+ ],
+ "summary": "Lets agents hire people for microtasks such as collecting photo, audio and video data or testing apps.",
+ "whenToUse": "Use when a task needs real human workers, such as gathering training data or manual app testing.",
+ "tasks": [
+  "post microtasks",
+  "hire workers",
+  "collect photo audio video data",
+  "run app testing"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0679e378f853010c9fbb8ed66264bd161478b06f2a357db07279e862bb52b826",
+ "domain": [
+  "careers/job-search"
+ ],
+ "product": [
+  "applybolt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches a large pool of live jobs and internships with filters for remote, salary and visa sponsorship, and explains ApplyBolt's auto-apply service.",
+ "whenToUse": "Use when a user is looking for jobs or internships and wants filtered listings with apply links.",
+ "tasks": [
+  "search jobs by keyword",
+  "filter by company, location, salary",
+  "filter remote and visa sponsorship",
+  "explain auto-apply features"
+ ],
+ "effects": {
+  "4bade8c98994ad9144b59d4f02e49325d9650cae1d7d7d846683451d6864d25c": "read",
+  "ed5e98d54255dd11b7ed87e932fa65489f97af35e7675c2fea8d91166d82301d": "read"
+ },
+ "flags": []
+}

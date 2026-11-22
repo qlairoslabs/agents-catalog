@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "36320afb04a9691bdf1bcf800cfee65c00b087b7355aa9d37eeca0e84302605f",
+ "domain": [
+  "finance/tax/crypto",
+  "finance/accounting/reconciliation"
+ ],
+ "product": [
+  "summ"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Crypto tax tool that reconciles wallet and exchange transactions and shows tax position.",
+ "whenToUse": "Use when an agent needs to reconcile crypto transactions or estimate crypto tax liability.",
+ "tasks": [
+  "reconcile transactions",
+  "view tax position",
+  "connect wallets and exchanges"
+ ],
+ "effects": {},
+ "flags": []
+}

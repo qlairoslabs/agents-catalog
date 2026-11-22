@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6c29fef67dd1d8cdb753a06c7aae8f340e707a8c08339ba84eb10fadc32005ae",
+ "domain": [
+  "finance/equity-research",
+  "finance/earnings-analysis"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Writes a short decision-focused note reacting to a company's earnings, with beat/miss, guidance changes, thesis check and valuation update, using Bigdata.com.",
+ "whenToUse": "Use when a user wants a quick take on whether a company's latest results change their investment thesis or estimates.",
+ "tasks": [
+  "compare headline numbers to consensus",
+  "build guidance change table",
+  "check investment thesis",
+  "revise estimates and price targets",
+  "update valuation",
+  "recommend next action"
+ ],
+ "effects": {},
+ "flags": []
+}

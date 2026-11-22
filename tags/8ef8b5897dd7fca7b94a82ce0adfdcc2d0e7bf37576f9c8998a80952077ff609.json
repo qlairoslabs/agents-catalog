@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8ef8b5897dd7fca7b94a82ce0adfdcc2d0e7bf37576f9c8998a80952077ff609",
+ "domain": [
+  "software/cloud/backend-as-a-service",
+  "software/hosting"
+ ],
+ "product": [
+  "tencent-cloudbase"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Manages Tencent CloudBase databases, cloud functions, storage and static hosting.",
+ "whenToUse": "Use when building or deploying an app backend on Tencent CloudBase.",
+ "tasks": [
+  "manage databases",
+  "deploy cloud functions",
+  "manage storage",
+  "deploy static hosting"
+ ],
+ "effects": {},
+ "flags": []
+}

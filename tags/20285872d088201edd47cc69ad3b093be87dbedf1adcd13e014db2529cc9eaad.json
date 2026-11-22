@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "20285872d088201edd47cc69ad3b093be87dbedf1adcd13e014db2529cc9eaad",
+ "domain": [
+  "software/documentation",
+  "product-support"
+ ],
+ "product": [
+  "multilo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Multilo's product documentation, fetches public site pages as Markdown, and lists recent changelog entries.",
+ "whenToUse": "Use when asked how a Multilo feature works, what it costs, or whether a feature has shipped.",
+ "tasks": [
+  "search documentation",
+  "fetch page as markdown",
+  "read pricing page",
+  "list changelog updates"
+ ],
+ "effects": {
+  "8a764823e38be3cd171666b1214a4d4a851d4507350ee0b89ae132e3f95cbac3": "read",
+  "de032f3ef5a259df17065ce35e39412e97c93ff8dca74ba43558921b4f76afbf": "read",
+  "87176e9aa18485a691572c4132dfd643324ad49fdc3e46fd3ecf314773d81b78": "read"
+ },
+ "flags": []
+}

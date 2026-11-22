@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "6386c62da9e6e11082be499a8787264cf07e58acbd21c7b3c7610c44a179f48a",
+ "domain": [
+  "beauty/makeup",
+  "local-business/directory"
+ ],
+ "product": [
+  "pro-makeup"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Directory of makeup artists, salons, schools, shops and brands searchable by location, service and certification.",
+ "whenToUse": "Use when someone wants to find a makeup professional, school or shop in a place, or look up a specific listing.",
+ "tasks": [
+  "search pros",
+  "get listing by slug",
+  "get listing by phone",
+  "get listing by id",
+  "find services nearby",
+  "list schools",
+  "discovery summary",
+  "report listing event"
+ ],
+ "effects": {
+  "8433dc10d00e08141a124b420c550b01147bf5d490b77218b94d03ff3545f5bc": "read",
+  "db88d44f1383ef81670ba119d619f887028ad0a39c175c6454b5423f3b372ab9": "read",
+  "126b010423ed5bf57ca992071de59f34fabac6c99d51ea42ef0882ab0c3cc78a": "read",
+  "5dad07f6ee7633219ff19f77cbf4fce13a7ff97fb6ed4ab16858cc6543da374d": "read",
+  "ca3bdb8effdc80a08de0f40879432cfa0423e3a284a27dfff527e17ccf5ec286": "read",
+  "eb44ffb1181a208af547e2e7758ce7f9ee2d0fa71be133c8b7ed021354597597": "read",
+  "f34e130efe323211d2bbf525c065c251494f3967184a7a130ade3e61733f9a26": "read",
+  "38f2661ad5986c6216523615d4a72a235fab82194c144e4a09534307634577a9": "write"
+ },
+ "flags": []
+}

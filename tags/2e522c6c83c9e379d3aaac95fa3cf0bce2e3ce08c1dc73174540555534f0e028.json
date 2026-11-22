@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "2e522c6c83c9e379d3aaac95fa3cf0bce2e3ce08c1dc73174540555534f0e028",
+ "domain": [
+  "marketplace/classifieds"
+ ],
+ "product": [
+  "pin-tt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches classified listings on PIN, a Trinidad and Tobago marketplace, and shows listing details and seller contacts.",
+ "whenToUse": "Use when a user wants to find items for sale in Trinidad and Tobago.",
+ "tasks": [
+  "search listings",
+  "get listing details",
+  "reveal seller contact",
+  "list categories",
+  "get category filters"
+ ],
+ "effects": {
+  "84cd0d8d4a63b9550a5ccf52d174cc3d83708d2a429640277aa7c054c3832871": "read",
+  "e7ec1062567b547e683dc9a872c64292e8798a281fe1497d01c8bd3e87c13c49": "read",
+  "26dbf22dfc74665dabdcbb8bcf41bec672689e89c74dccd0f8b8d73de8d8b325": "read",
+  "9b465730bc46094870b29f15ffa9be72397e2449c1e6711b6831f5f9fb2e4a2b": "read",
+  "3de8ff14a8c851551eccab35ef63db8ff9a447457e877fe6568ebd1a5b0ede7b": "read"
+ },
+ "flags": []
+}

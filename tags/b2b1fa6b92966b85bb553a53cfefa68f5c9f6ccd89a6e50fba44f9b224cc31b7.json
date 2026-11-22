@@ -1,0 +1,69 @@
+{
+ "classifier": 2,
+ "contentHash": "b2b1fa6b92966b85bb553a53cfefa68f5c9f6ccd89a6e50fba44f9b224cc31b7",
+ "domain": [
+  "sports/tournament-management/racket-sports"
+ ],
+ "product": [
+  "turnale"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Runs racket-sport tournaments: rosters, formats, draws, schedules, scores, standings, PDFs and change history.",
+ "whenToUse": "Use when someone is organising a tennis, padel or similar tournament and needs draws, schedules, scoring or standings.",
+ "tasks": [
+  "suggest tournament formats",
+  "create tournaments",
+  "add and edit players",
+  "set doubles pairs",
+  "generate draws and schedules",
+  "record results",
+  "view standings and results",
+  "substitute or withdraw players",
+  "reschedule matches",
+  "export data and pdfs",
+  "undo changes",
+  "end or delete tournaments"
+ ],
+ "effects": {
+  "4b7866bf85e827ec06d1d0940965841862feec62bdcc7df18566c2aa4c53f5f1": "read",
+  "915380f138c1c2d432cb19997f9c0b5e85aed08ee6804a33c968b0ba6d34da60": "write",
+  "50bdce44e4f793f3ed0f78c88a03c908638fc88dcdf077d3f89428fa48841b19": "write",
+  "197947b93ac6ec00973b2520040ae1f3b051bb4692266a01fa4d1edae032ff49": "write",
+  "ee67ee81210904c6b60ee0501403a17c25b15619f4d0294a365683cd7fc79514": "write",
+  "4cedb024a79b3d3ec84c0c5b39a8bf389bd4c56b681a3baf88f0e261b81d2e0d": "write",
+  "6fefecd67996c845537e38f15aebb000c8ab8c9ec93f2508323789f6e76c080a": "risky",
+  "5dbe6d6797e9d105ad30118b99cb7d44844c48af8dde213b07171962e6d7f5c6": "write",
+  "b10144487b7032c739b391850f8c3ec625a2ae0bc55ee860efe3ad0df5249571": "risky",
+  "6ae0b98fb720b05bc9d00cbc962fb70822f5422742fd7f5027aba989f4c2fb15": "read",
+  "d114649646f6e7fe5adcf736ed9ea4708e830955a520ee57ef74733e4482f5d5": "read",
+  "e66dedb1d6178ca336db906941434994a57b231fbd5d967507bc3cd7e9a59c3a": "read",
+  "ff686f1c514cfe6045a75d0ffa82cbbb6d5017c0bd75220fc19fd2687b46de24": "read",
+  "ecc4aa037883f2ed2128746c5e9f513b9485a10a0ece3d3aaaf4314328663951": "read",
+  "0ceaabac11a09078b8df04f0db458c34c72f6bfe30cd4eddcb05e42881b9b40d": "read",
+  "e5b00f892b1089dca3abb6c16fd523b141cc558208a6a0ca179210763ac095cc": "read",
+  "438978b506e545cb5824383b62d5210afabfa090be43c753b8cab2f1f6bdb8f8": "read",
+  "d3d3066415a3edb6bc9cf33ad79c284d016bb7f4ccf02e6a554c42f64cde6f84": "read",
+  "164075c51d989f8eab3a0b68f55eda23b92a387035d834e20926e79b890767ce": "read",
+  "800bb3552eae6f20d65e10f50ec2e914dff1c6a92adf3024cbbc7c63d2a6263a": "write",
+  "8d8cc792b358e1a2a4bb11ac4ea6138a0e5b646100ea23373af0449d9cbd62fb": "write",
+  "adddf875996a6b2287ce73604203c9cc24d9c72d0a611bcb9fdbb34244957555": "write",
+  "4181553e7e33cbfba4636f739f76010dc7a05d713f8797e0b08f9927d110eeea": "write",
+  "0f4ba519d32040d707f7d9095ae1d8413cb9c7c6fe17094029aa407ffc604753": "write",
+  "636e62b119111c68a51fb0eb65045efad9c42b4b6ca1abfbcba23611e2eb0a65": "write",
+  "740b258c8c1dbe7efdc9144f689577af9c263f96f8d6f2d08350c64ac260231c": "write",
+  "be90784a05e3e42dfdd3eff45290fd8f78a6242b8f313d94bc310a0f27c69d75": "risky",
+  "85641bb4feae6d5464c497aa2e356678aa66cc0578ee1cc145a86b22c811dfa9": "risky",
+  "ffcaacfdaad74807b3b88fba1dd68af7864294fb976cb73e924becb19bc33796": "write",
+  "5d97059155dee941e31291f7a381e6f2a9cc222215a75bce41d7bd2d163414e5": "read",
+  "ddb729e775b9fd807a2d1cb29556c17617e58fb984ef6a4a2a76f2e6991aa922": "read"
+ },
+ "flags": [
+  "record_feedback invites the assistant to submit feedback to the vendor on its own initiative without being asked"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3479a5153ec90f008502bf2a2ec08732b2dc08c607b03db288e6686fd16e58f8",
+ "domain": [
+  "software/frontend/animation",
+  "design/ui-components"
+ ],
+ "product": [
+  "subframe",
+  "react",
+  "motion"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides open-source React animations, Motion components and WebGL shaders.",
+ "whenToUse": "Use when an agent needs ready-made animation components or shaders for a React app.",
+ "tasks": [
+  "find react animations",
+  "get motion components",
+  "get webgl shaders"
+ ],
+ "effects": {},
+ "flags": []
+}

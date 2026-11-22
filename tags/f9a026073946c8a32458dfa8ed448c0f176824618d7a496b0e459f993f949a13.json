@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "f9a026073946c8a32458dfa8ed448c0f176824618d7a496b0e459f993f949a13",
+ "domain": [
+  "software/specification",
+  "software/ai-coding"
+ ],
+ "product": [
+  "specpilot",
+  "claude-code",
+  "cursor",
+  "copilot",
+  "codex",
+  "windsurf"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guides onboarding questions and generates a .specs/ bundle plus IDE rules and commands for a repository to hand to an AI coding agent.",
+ "whenToUse": "Use when starting or documenting a project and you want a structured spec set for your AI coding agent.",
+ "tasks": [
+  "ask onboarding questions",
+  "infer answers from repo",
+  "generate .specs files",
+  "generate IDE rules",
+  "generate slash commands"
+ ],
+ "effects": {
+  "77b6390c42abfd29b738accbf13f4ca160490055d9d6e6b7af16b8ef5c6e2435": "write",
+  "c526f68f73c198ca6925c94f548659d3f32894baf93b9f90bcc3ecda19c20de8": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a0d75976afca0555e7ee229049ce21dd9b15442ef7210b48ec0577ff9c017488",
+ "domain": [
+  "finance/tax",
+  "finance/investments"
+ ],
+ "product": [
+  "divestme"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Stages a documented sale of worthless private investments such as startup stock, SAFEs or notes to support a capital loss claim under IRC §1001.",
+ "whenToUse": "Use when a taxpayer wants to document a disposition of defunct private investments to claim a capital loss.",
+ "tasks": [
+  "stage sale of defunct stock",
+  "document SAFE or note disposition",
+  "submit candidate assets for seller review"
+ ],
+ "effects": {
+  "64be4ff107c58a7ecd15df9858633b3371ddd6c8251efd00278d69dbfe21b026": "write"
+ },
+ "flags": [
+  "tax-position service with a paid fee; tool description pushes agents toward using it for write-offs"
+ ]
+}

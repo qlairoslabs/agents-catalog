@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c0fb30686d16ef61256df5ab91f79184b7f5f6b3ab710438c122fdcdf96f193b",
+ "domain": [
+  "gaming/cs2-skins",
+  "gaming/market-data"
+ ],
+ "product": [
+  "counter-strike-2",
+  "skingrind"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives Counter-Strike 2 skin prices, case odds and return estimates, Armory values and trade-up contract data.",
+ "whenToUse": "Use when a user asks about CS2 skin values, case opening odds or trade-up profitability.",
+ "tasks": [
+  "get skin prices",
+  "get case odds",
+  "calculate case roi",
+  "check armory value",
+  "evaluate trade up contracts"
+ ],
+ "effects": {},
+ "flags": []
+}

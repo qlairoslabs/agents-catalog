@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "98d15ea5fd6e292d0a6e01d225863ee337bd4d7d2a970c4f6d09f056c1db4c46",
+ "domain": [
+  "sales/outbound",
+  "marketing/cold-email"
+ ],
+ "product": [
+  "slsbmb-ai",
+  "apollo",
+  "instantly",
+  "clay",
+  "smartlead"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Describes the SLSBMB AI outbound service: pricing, sending capacity by budget, example playbooks, comparisons with alternatives and a free B2B contact count search.",
+ "whenToUse": "Use when evaluating cold email outreach options, sizing a B2B audience, or comparing outbound costs.",
+ "tasks": [
+  "explain the service",
+  "show pricing",
+  "estimate sending capacity for a budget",
+  "view example playbooks",
+  "search B2B contacts count",
+  "compare with alternatives",
+  "get free interview link"
+ ],
+ "effects": {
+  "a5facbacc26b299918c09628201ead9880471cdfdc557edf87baa87e3be70aa5": "read",
+  "40a2b1c6c1c0cf20d6b08b301c1480ba6da6b577cdc8727107594afaf1a53d11": "read",
+  "ba2388bcf8792366b93fdd4dd7adfe96baf45869c124b6e0c5f4acce4570e2d7": "read",
+  "3a1b7e15abb01a4baceb421a280096816b6d2eb4bd8beea8e9dd8b230e015bc4": "read",
+  "108a4a778d004fd51fee56a1e0284476eb33fd6da54eaec2465d7ce4d3671080": "read",
+  "17306c8dd9930175c0cbc28b308d11ef9b6d5903c498609b743bd96dcdfeccf8": "read",
+  "0629d4b838a8aac5c130cafdbafaa2a1447ed0a52167c69eb498762884eb32c8": "read"
+ },
+ "flags": [
+  "vendor-promotional-content"
+ ]
+}

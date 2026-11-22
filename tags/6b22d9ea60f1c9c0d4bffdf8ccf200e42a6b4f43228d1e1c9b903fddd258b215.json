@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6b22d9ea60f1c9c0d4bffdf8ccf200e42a6b4f43228d1e1c9b903fddd258b215",
+ "domain": [
+  "software/web-hosting",
+  "web/static-sites"
+ ],
+ "product": [
+  "harvis"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Deploys a static website from supplied files to harvis.dev and returns a live URL, without needing an account.",
+ "whenToUse": "Use when you need to quickly publish or update a static site and get a public URL.",
+ "tasks": [
+  "deploy static site",
+  "update existing site by token",
+  "get claim URL"
+ ],
+ "effects": {
+  "23aeaf560d09e62df84d324ba28a6d9e3925217a2078639373bfbcf2cb86bbb1": "write"
+ },
+ "flags": []
+}

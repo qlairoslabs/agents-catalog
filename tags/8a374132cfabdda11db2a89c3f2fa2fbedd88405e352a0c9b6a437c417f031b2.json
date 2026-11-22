@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8a374132cfabdda11db2a89c3f2fa2fbedd88405e352a0c9b6a437c417f031b2",
+ "domain": [
+  "data/warehouse/discovery",
+  "data/catalog"
+ ],
+ "product": [
+  "astronomer"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Discovers warehouse schemas and writes table metadata to .astro/warehouse.md for quick lookups.",
+ "whenToUse": "Use when setting up or refreshing data discovery for a project's warehouse.",
+ "tasks": [
+  "discover warehouse schema",
+  "generate table metadata file",
+  "refresh schema metadata"
+ ],
+ "effects": {},
+ "flags": []
+}

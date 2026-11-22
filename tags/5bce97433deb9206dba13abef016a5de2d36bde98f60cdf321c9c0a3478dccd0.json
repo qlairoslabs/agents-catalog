@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5bce97433deb9206dba13abef016a5de2d36bde98f60cdf321c9c0a3478dccd0",
+ "domain": [
+  "finance/investment-research"
+ ],
+ "product": [
+  "morningstar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides Morningstar analyst research, market analysis and investment data.",
+ "whenToUse": "Use when an agent needs trusted investment data or analyst research on securities.",
+ "tasks": [
+  "read analyst research",
+  "get market analysis",
+  "look up investment data"
+ ],
+ "effects": {},
+ "flags": []
+}

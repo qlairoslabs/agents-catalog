@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "afdc523898046b41799c9e0769aed3b8ad61652248022c71d2820bda21cbf7bf",
+ "domain": [
+  "ecommerce/shipping"
+ ],
+ "product": [
+  "samos",
+  "ups"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Tracks SAMOS parcels, estimates UK shipping, return and import duty costs, and searches the SAMOS help centre.",
+ "whenToUse": "Use when tracking a SAMOS parcel or estimating shipping, returns or duties from the UK.",
+ "tasks": [
+  "track parcel",
+  "estimate shipping price",
+  "list destinations",
+  "search help",
+  "estimate duties"
+ ],
+ "effects": {
+  "6c44d8af38e9aa85bf200fd908ba8ebd98bb8562f96ae8dbc1cf5f37820514fa": "read",
+  "3416bdbd3655b216e03b0b510b085bee41f4eeb44cfa8eac8b8a8c1a60482c1f": "read",
+  "487debd08b8216b1907183db7bf9e53b5ac0f76d2547ccbb78be04da50543a33": "read",
+  "f547ba52fca8c0bf87bd9554acdb3666e0e0984f529fce4b51ce41b4148538a5": "read",
+  "6755e78d10dd3b6d53faed39e4d5fc2898b7ad1e3964b4503e209de87b0a2bfe": "read"
+ },
+ "flags": []
+}

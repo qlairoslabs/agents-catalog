@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2253786e2aebe0f01aa39d1184da9bcff9651e42d1ef0beb7ea7645feb9c5d90",
+ "domain": [
+  "health/fitness",
+  "consumer/workouts"
+ ],
+ "product": [
+  "upfit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Builds bodyweight home workout sessions and gives exercise coach cues and difficulty ratings from the Upfit iPhone app.",
+ "whenToUse": "Use when a user wants a no-equipment workout or form cues for a bodyweight exercise.",
+ "tasks": [
+  "build home workout",
+  "get form cues",
+  "list exercises",
+  "describe Upfit"
+ ],
+ "effects": {
+  "d5b4e006cc6336f23b5fe81ba63a709c3a48fecd22e08452ae63697a4f115133": "read",
+  "38c08d2af1c9f5baa455170788dc539adad1a0be7627488578d1b1ef69981fe1": "read",
+  "11e356174a156be336c0def6bfefccecfee8a80f19c70df25035d255ffe84344": "read",
+  "d889d69dde0cd0215ac99a00e797d40afdc520ae77e86071edb080ae35dd7c81": "read"
+ },
+ "flags": []
+}

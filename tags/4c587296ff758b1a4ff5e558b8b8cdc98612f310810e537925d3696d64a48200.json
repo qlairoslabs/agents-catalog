@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "4c587296ff758b1a4ff5e558b8b8cdc98612f310810e537925d3696d64a48200",
+ "domain": [
+  "software/development/language-server"
+ ],
+ "product": [
+  "clangd"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides C and C++ code intelligence through the clangd language server.",
+ "whenToUse": "Use when working in C or C++ codebases that benefit from navigation and diagnostics.",
+ "tasks": [
+  "code navigation",
+  "diagnostics",
+  "symbol lookup"
+ ],
+ "effects": {},
+ "flags": []
+}

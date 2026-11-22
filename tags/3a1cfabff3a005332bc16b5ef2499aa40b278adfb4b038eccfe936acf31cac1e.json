@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3a1cfabff3a005332bc16b5ef2499aa40b278adfb4b038eccfe936acf31cac1e",
+ "domain": [
+  "software/web-performance",
+  "software/monitoring"
+ ],
+ "product": [
+  "gtmetrix"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs GTmetrix web performance analyses and returns optimization insights.",
+ "whenToUse": "Use when testing a web page's load performance and finding optimizations.",
+ "tasks": [
+  "run performance tests",
+  "view optimization insights"
+ ],
+ "effects": {},
+ "flags": []
+}

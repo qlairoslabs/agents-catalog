@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f7a18176f9eb7e2523a5d124350e615199afe11bf22edf85326524184ef5b927",
+ "domain": [
+  "software/cybersecurity/child-safety",
+  "trust-and-safety/content-moderation"
+ ],
+ "product": [
+  "tuteliq"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "support-customers"
+ ],
+ "summary": "Local npm connector that detects grooming, bullying, fraud and other online threats in text, voice, image and video content.",
+ "whenToUse": "Use when an agent must screen user messages or media for child-safety, harassment or fraud risks.",
+ "tasks": [
+  "detect grooming",
+  "detect bullying",
+  "detect fraud",
+  "analyze text for threats",
+  "analyze voice for threats",
+  "analyze images and video for threats"
+ ],
+ "effects": {},
+ "flags": []
+}

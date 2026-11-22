@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "e5a8344f8095b933b752001de151370aba3035b03782610c14482b70245d92d4",
+ "domain": [
+  "health/gastroenterology",
+  "health/clinical-reference"
+ ],
+ "product": [
+  "the-gastrologer"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Physician-governed gastroenterology teaching content, claim fact-checking with Merkle proofs, instrument scoring (IBS-SSS, GERD-Q) and a clinical relationship graph.",
+ "whenToUse": "Use when you need to fact-check a GI health claim, retrieve GI teaching modules, or score IBS-SSS or GERD-Q responses.",
+ "tasks": [
+  "list teaching modules",
+  "search teaching",
+  "read module",
+  "get claim ledger",
+  "verify claim hash",
+  "fact-check GI claim",
+  "resolve GI claim",
+  "search verifications",
+  "build evidence bundle",
+  "score clinical instrument",
+  "query relation graph",
+  "route GI question"
+ ],
+ "effects": {
+  "51e221141d2c88bded15d02484ef7557875dad79358cf252c8116c0af9b47458": "read",
+  "40dc5709af170c319d07e92c17c97034a978a462a6631a1ee7970e1f3a666977": "read",
+  "7e93e0a1061f378e92390ba5c91d9bf10feb9dde6df777a1f990b0e897b5e7e7": "read",
+  "c3587b8bf74985a8e7b3c65a32823ccf42bda24ad596310f62c77f2d877ca44c": "read",
+  "b374d9916df0af29795e7186c0092e6e377546f2d3d1ea91843dda7ccc0f5128": "read",
+  "4fa9c8c9591527ddf16a824f3d388e0fa6ff232774d1b556fd34990b3da6d2aa": "read",
+  "bad610e5a672b8595bfcd67aa2fdc10513fb9a72c200c875b2ccb67df210653c": "read",
+  "65cda0cb71224269a428396d252c33841faae3fdaaabf34deb8a0e3643735e07": "read",
+  "9d36c7b6f01e882dc5549bb351ac4a2c652392438f3f305bf01be69b817eb411": "read",
+  "1ec213a418debb3d32310cbb2320e0ac0ae339c478722b630907be423d8670ee": "read",
+  "dc54b5f905f148e0669f6672a9357dbad9aa61e0319527d836882f0f0372a0ee": "read",
+  "0cf13b50e96be2742c7c96acce9e1a4d6ff4858a435779bbf68430704e94ac31": "read",
+  "6b5e9335492a92ca8f8794365c4960e5555ac1e06d187692366fa834d03485ea": "read",
+  "4f65018d51e4c986125d5139cb89b615e79509f657f62e0aac1c480d0ed40c35": "read",
+  "54b15966f5b56ee006b345d7ae02fe62e5c7b0f5b39795c2013b876e92dc0943": "read",
+  "e864c32491fe50e93c578eb3a326d2a17194e76099271eaf0028c7488de1d7e8": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e4fb6c35e717465d4586e7c92714cd52cb3a82719f90306bce9fb824ff59b774",
+ "domain": [
+  "commerce/store-locator",
+  "marketing/local"
+ ],
+ "product": [
+  "storerocket"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Manages a StoreRocket store locator: add locations, get the embed code and view visitor search data.",
+ "whenToUse": "Use when setting up or updating a website store locator with StoreRocket.",
+ "tasks": [
+  "add store locations",
+  "get install code",
+  "view visitor searches"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "288aab5eb73fa7479812c6ada068ee6249559ff969055abc74cd8d0351c1afec",
+ "domain": [
+  "real-estate/listings",
+  "marketplace/property"
+ ],
+ "product": [
+  "city24"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live City24.lv real estate listings in Latvia for sale or rent, with filters for price, area, floor, lot size, rooms, building type and location.",
+ "whenToUse": "Use when the user wants to find apartments, houses, land, commercial property or garages for sale or rent in Latvia.",
+ "tasks": [
+  "search property listings",
+  "filter by price",
+  "filter by area",
+  "filter by location",
+  "filter by room count",
+  "filter by building series",
+  "filter by floor",
+  "filter by lot size"
+ ],
+ "effects": {
+  "ab3b2caab59446a8f171ec3377ed13d2e859f6c4a6a5f5f72594099f31e45189": "read"
+ },
+ "flags": []
+}

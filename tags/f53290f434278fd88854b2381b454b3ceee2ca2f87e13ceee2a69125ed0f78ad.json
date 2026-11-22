@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f53290f434278fd88854b2381b454b3ceee2ca2f87e13ceee2a69125ed0f78ad",
+ "domain": [
+  "marketing/documentation",
+  "automation"
+ ],
+ "product": [
+  "gohighlevel"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "get-customers"
+ ],
+ "summary": "Searches anthonyhunts.com and returns any page as Markdown, covering GoHighLevel and AI automation guides.",
+ "whenToUse": "Use when you need content from the SHAART agency site, such as guides, services or pricing pages.",
+ "tasks": [
+  "search site docs",
+  "read page as Markdown"
+ ],
+ "effects": {
+  "93167b0da7076b4856266f7839d94d35b1a6bfe96056fe347d672017b3d65308": "read",
+  "dce111160c8111e2644d71173a5f4d9e60c0bae54026a068a809df0043671cda": "read"
+ },
+ "flags": []
+}

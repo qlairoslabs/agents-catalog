@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "6c92f90628aa08487b9c977ca64014562ce0f84dd1736c382ced8f1fd12e62cc",
+ "domain": [
+  "books/recommendations",
+  "education/reading"
+ ],
+ "product": [
+  "most-recommended-books"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Curated book recommendations from named people, consensus best-book lists, series reading orders and book summaries.",
+ "whenToUse": "Use when someone wants book suggestions, who recommends a book, series order or a book summary.",
+ "tasks": [
+  "search books",
+  "get a person's recommendations",
+  "get book recommenders",
+  "get series reading order",
+  "get consensus lists",
+  "get book summaries"
+ ],
+ "effects": {
+  "fb3f62f1f761b3c43560e1d4c93d091d24eba79f76e5f57cf97004d6aa72c978": "read",
+  "9d9060fc0629c082ba445ae0e1aeba111142862bf2ebcaadd982ea8beccc93ed": "read",
+  "a604cf9f78429c325ca8c4e54d119c0df1c8cf533e2ca1a3639a13253b194ee4": "read",
+  "beb6beacbe30e4e4b474b24cc729b0704922dcdc7d0b68105f677ce1e6521bf2": "read",
+  "be30370250c62e6fe8658da875ce1ff5324c4e34b4c7cda5404c0a8427c31d9b": "read",
+  "a2424c0638f40be35ccd625dea54557ad5138219d4d91b2aab1cd30ae97eec0f": "read"
+ },
+ "flags": []
+}

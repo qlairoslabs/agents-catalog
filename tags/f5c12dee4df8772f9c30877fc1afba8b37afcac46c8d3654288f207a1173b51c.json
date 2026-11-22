@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f5c12dee4df8772f9c30877fc1afba8b37afcac46c8d3654288f207a1173b51c",
+ "domain": [
+  "software/devops/deployment",
+  "software/ai-agents"
+ ],
+ "product": [
+  "amazon-bedrock-agentcore",
+  "aws-cdk",
+  "aws-iam"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Deploys AgentCore agents to AWS with pre-flight checks, CDK/IAM/quota error diagnosis, versioning, rollback and canary releases.",
+ "whenToUse": "Use when deploying an agent to AWS or when a deploy has failed.",
+ "tasks": [
+  "validate before deploy",
+  "deploy agent",
+  "diagnose cdk errors",
+  "manage versions",
+  "roll back deployment",
+  "run canary deploy"
+ ],
+ "effects": {},
+ "flags": []
+}

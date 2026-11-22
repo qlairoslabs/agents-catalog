@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "368af5b7e0dabf9bb673f98d05790582640ff82c6ed8a1d7a936aa738ac40a4c",
+ "domain": [
+  "research/archives",
+  "religion/ecumenical-dialogue"
+ ],
+ "product": [
+  "iarccum"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to public records of the IARCCUM archive on Anglican-Roman Catholic dialogue: documents, names, organisations and events.",
+ "whenToUse": "Use when researching Anglican-Roman Catholic dialogue documents, people, bodies or events, or finding records by protocol number.",
+ "tasks": [
+  "search documents",
+  "get document",
+  "search names",
+  "get name authority",
+  "search organisations",
+  "find by protocol number",
+  "get related documents",
+  "search events"
+ ],
+ "effects": {
+  "fc141f136fb1f2a733bd6874e7ffccbdc28eee1c5448b9f1adab08698cf5f157": "read",
+  "bc551190730b04a8b55a67f417845a8bbf67a6707656eafdbfd9ed25c4f709f1": "read",
+  "618f4eee64d10931f6203ec97d36193b69c7dadbdadbce1b1abc7f6773cd79ac": "read",
+  "1deab631b1287dbfcf8d1dbbf199b9c869c1ccb738692ceddd51c4b8987b262f": "read",
+  "2f50643e730b31aef459b7545f3dd0a42dfe3c99f7f3f4b3cf409ac6cd66b00b": "read",
+  "24a1ee44aa7c79db4c048d24d630f9281e01ddaf10c10a25f280896b0817e58f": "read",
+  "f6c48a2786d58267ee118b28d1042b41d08c6ce387ba7b59b6092d872cbc626e": "read",
+  "751fe0faf6404554e413eab9173439540a25ffbb731aac60d47d8694157b147b": "read"
+ },
+ "flags": []
+}

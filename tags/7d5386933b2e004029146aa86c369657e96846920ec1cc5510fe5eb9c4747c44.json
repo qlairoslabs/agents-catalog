@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "7d5386933b2e004029146aa86c369657e96846920ec1cc5510fe5eb9c4747c44",
+ "domain": [
+  "travel/guidance",
+  "finance/travel-insurance"
+ ],
+ "product": [
+  "ukraineborder"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Travel guidance for visiting Ukraine (borders, customs, safety) with war-risk insurance facts, quote estimates and a pre-filled checkout link.",
+ "whenToUse": "Use when a foreign traveller needs entry rules, border or safety information for Ukraine, or a war-risk insurance estimate.",
+ "tasks": [
+  "search travel guides",
+  "read guide documents",
+  "get topic summaries",
+  "get insurance regulatory facts",
+  "estimate insurance quote",
+  "build checkout link"
+ ],
+ "effects": {
+  "0e3d8023f51ffc41e4bd6d8a07c5016fd508dc2413116791c27f2c19c7219eef": "read",
+  "d2cc7ab9edebccd82a5e6005078a6709df88d52930e3999b4bf83f4a356d142f": "read",
+  "b71026983ec7ed5439390ba9d5092975982b978f394e658b5292a7f09eebdffc": "read",
+  "02af137ce7a49c324daced214ab48f4e80985f5e6e71a78807a4e47f13f7926f": "read",
+  "9d3b1ae3a305204c81a5081dbaf9179d16ffc50e1860509cd5120957874230aa": "read",
+  "9e9a5f3010c42bd488cc8850a37ce4de9ce3fa8a019d23ebf29f5de5c915ab1e": "read",
+  "7bd94338f2ba65017a3f4fba697c42eaeda97379db6b69d68a87e75305b5b2c3": "read"
+ },
+ "flags": []
+}

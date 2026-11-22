@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "197612c2690487fb595308eebb9967667dea02c331587e630666dd5e4665fea5",
+ "domain": [
+  "software/documentation"
+ ],
+ "product": [
+  "swift",
+  "javascript",
+  "css",
+  "html",
+  "python"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Search and read tested developer documentation articles for Swift, JavaScript, CSS, HTML and Python.",
+ "whenToUse": "Use when you need reference documentation or examples for Swift, web or Python development.",
+ "tasks": [
+  "search docs",
+  "read article as markdown",
+  "list articles by topic"
+ ],
+ "effects": {
+  "d0f146e3bc35a66fdb024cefdb42eb6c21033057e98c6e44dfb05e75f4b4d10d": "read",
+  "041b5f8bfc44d3ab5380cb92ab9e493e1275613ff6fc30fb160721f1568fff1a": "read",
+  "7fb409294dfcb9586775da8865c84b7a95809123b59de085ab821f677d0b1286": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "123b4767e403ddcc9fe59f79b812efe41b8a5679dd43865bfaff97f271fef958",
+ "domain": [
+  "luxury/watches",
+  "market-data"
+ ],
+ "product": [
+  "mostexpensivewatches"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Luxury watch market data: live inventory, auction comps and records, upcoming auctions, market estimates, brand profiles and a daily price-guessing game.",
+ "whenToUse": "Use when researching luxury watch prices, auction results, references or brands.",
+ "tasks": [
+  "search inventory",
+  "look up reference",
+  "search auction comps",
+  "list upcoming auctions",
+  "get market estimate",
+  "get brand info",
+  "search answers",
+  "get daily game",
+  "guess price",
+  "get site stats"
+ ],
+ "effects": {
+  "3895263d922d892336f715e5ec6cd71ab996e39174a4c5dde2b358615f9c314e": "read",
+  "f03399989769523ff7df6be4dae66022cbc07df2c0b6b26e234f536fd27df047": "read",
+  "459e4f15fd748c8a56753a32ee45aead32e501ce777c834bb172e3ffbbb77272": "read",
+  "42f7b1fb7d7ad9caaafa5b0f86c05fc622f037b60458be7f534141c4ce146042": "read",
+  "ec48e82afe35384ad3274f3befe575bdc18e154e222b94e2dcc2aec37369b06b": "read",
+  "7955d939ecbfbdeb3244d291e78984013e44ade2c2272a88f57b8b8adcd5ea4c": "read",
+  "d2b7187c2f1b1f6ece79f1a4ac6a38789529bd45d3fc225ba8f2fbb5ef2bf5f1": "read",
+  "170b2ea588ae3ca22ac6d2fbe580b20bee6a802dd947f8b2806138d096a2942c": "read",
+  "e65de2cec2a67ec65612826dee73afb6004ed26e08c4d9ba4a0442bfd25a1a72": "write",
+  "a62f5fe289f8ca55458d7f95159c06eba4298a6544ec8ca6a3029f9f41048ff8": "read"
+ },
+ "flags": []
+}

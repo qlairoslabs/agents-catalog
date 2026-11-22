@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8ec94ca68178d1c316366369e2a6e36803beabb3448b194a4b33067fb13d844c",
+ "domain": [
+  "operations/workforce-scheduling",
+  "operations/field-service"
+ ],
+ "product": [
+  "zensched"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "hire-and-manage",
+  "automate-work"
+ ],
+ "summary": "Field workforce scheduling service with GPS clock-ins, forms and timesheets, operated through an AI agent instead of a dashboard.",
+ "whenToUse": "Use when an agent needs to schedule field workers, record GPS punches, handle forms or review timesheets.",
+ "tasks": [
+  "schedule field workers",
+  "record gps punches",
+  "manage forms",
+  "review timesheets"
+ ],
+ "effects": {},
+ "flags": []
+}

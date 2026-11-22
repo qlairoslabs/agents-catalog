@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d9e878dcd98d8d5d6306d6fe6e116909b9d02eb6004b76bda77d1731b2baab14",
+ "domain": [
+  "retail/inventory",
+  "shopping/local"
+ ],
+ "product": [
+  "aisles"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks store-level stock and prices at nearby grocery stores and malls, with when they were last checked.",
+ "whenToUse": "Use when a user wants to know if a product is in stock nearby and at what price.",
+ "tasks": [
+  "check local stock",
+  "compare store prices",
+  "see last check times"
+ ],
+ "effects": {},
+ "flags": []
+}

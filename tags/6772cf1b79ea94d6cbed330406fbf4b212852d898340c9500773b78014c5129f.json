@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6772cf1b79ea94d6cbed330406fbf4b212852d898340c9500773b78014c5129f",
+ "domain": [
+  "data/space-industry"
+ ],
+ "product": [
+  "spacenexus"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only space industry data covering launches, delays, funding, companies, space weather and jobs.",
+ "whenToUse": "Use when an agent needs facts about space launches, space companies, funding or space weather.",
+ "tasks": [
+  "list launches",
+  "track launch slips",
+  "look up space companies",
+  "get funding data",
+  "get space weather",
+  "find space jobs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "063867cdb9937f63914e252d16b949bc4277a6b53d1a9095651c0068f04b813e",
+ "domain": [
+  "education/study-tools",
+  "productivity/notes"
+ ],
+ "product": [
+  "backrow"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Converts recordings and documents into notes, flashcards and quizzes that an agent can read.",
+ "whenToUse": "Use when an agent needs to turn a lecture, recording or document into study notes, flashcards or quizzes.",
+ "tasks": [
+  "generate notes from recordings",
+  "generate notes from documents",
+  "create flashcards",
+  "create quizzes"
+ ],
+ "effects": {},
+ "flags": []
+}

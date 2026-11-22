@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "c00019d1f2a71f7366808e3913f253fd77a256feb16b0a2ee3bc36013811c3f7",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "roomexpert",
+  "hyatt",
+  "hilton",
+  "marriott"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hotel scores on eight axes with cited review quotes, live rates with booking links and award-points redemption suggestions.",
+ "whenToUse": "Use when comparing hotels, checking what guests say, finding rates, or choosing where to spend loyalty points.",
+ "tasks": [
+  "search hotels",
+  "get hotel verdict",
+  "read cited evidence",
+  "get live rates",
+  "find award stays"
+ ],
+ "effects": {
+  "4f049fc3342a0ca0d174335a9d0e1adedfc96092a29af9f933a760ca46d246b9": "read",
+  "25e16a048bbfc9835aa0dadc81690892805adb2a9f8da1fa8ff83630aded6956": "read",
+  "16a1b7f1781867f0bf435857340e091efbbc6bb4e61d258ebaae25e3fbbcb78f": "read",
+  "83dea48a66180a0a5b5c970434e9142dd0c95c944c47c66e405c6243cedeef7a": "write",
+  "6cf12a6fdce85c22619c0346357ec56270eabf4e141ff5069d6a673ac0d1f950": "read"
+ },
+ "flags": []
+}

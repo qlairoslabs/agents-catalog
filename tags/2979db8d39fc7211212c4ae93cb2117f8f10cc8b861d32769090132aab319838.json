@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "2979db8d39fc7211212c4ae93cb2117f8f10cc8b861d32769090132aab319838",
+ "domain": [
+  "software/ai-agents/mcp",
+  "software/api-integration"
+ ],
+ "product": [
+  "mcp",
+  "fastmcp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guide for designing and building MCP servers in Python or TypeScript that expose external APIs and services as tools for LLMs.",
+ "whenToUse": "Use when building an MCP server to integrate an external API or service with an AI agent.",
+ "tasks": [
+  "design mcp tools",
+  "build mcp servers in python",
+  "build mcp servers in typescript",
+  "integrate external apis",
+  "follow mcp best practices"
+ ],
+ "effects": {},
+ "flags": []
+}

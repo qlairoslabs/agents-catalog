@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "380d85dd9fd0f22ceb7f33a5b12771f0e7124597367434a0100e9d108db210b0",
+ "domain": [
+  "motorsport/telemetry"
+ ],
+ "product": [
+  "aim-racestudio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes AiM RaceStudio CSV exports to report lap times, compare laps and sessions, and find where time is lost.",
+ "whenToUse": "Use when a driver wants to analyze racing telemetry, compare laps or find time loss.",
+ "tasks": [
+  "analyze session",
+  "compare two laps",
+  "find time loss by sector",
+  "compare two sessions"
+ ],
+ "effects": {
+  "8f4a24ce4a17236fca8e55c48748a0c2c3311b7361a1f00580045cff8f29772b": "read",
+  "f152359e36b62d9f765876e4730eda64b1c1381d8daef63e7f018196d8015605": "read",
+  "e9c01fc88bf7b5c939ec3286c56f4df5d14a924fb3368baca35fbaf00e3f2b49": "read",
+  "2626e6511e59e2af9ceb24d1b393bd435cd3db7490d5a94140f08a6dad625101": "read"
+ },
+ "flags": []
+}

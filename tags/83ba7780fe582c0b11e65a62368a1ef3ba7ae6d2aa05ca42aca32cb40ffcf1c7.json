@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "83ba7780fe582c0b11e65a62368a1ef3ba7ae6d2aa05ca42aca32cb40ffcf1c7",
+ "domain": [
+  "software/project-management/issue-tracking"
+ ],
+ "product": [
+  "linear"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Linear integration for creating and updating issues, managing projects and searching workspaces.",
+ "whenToUse": "Use when tracking or updating software work items in Linear.",
+ "tasks": [
+  "create issues",
+  "update issue status",
+  "manage projects",
+  "search workspaces"
+ ],
+ "effects": {},
+ "flags": []
+}

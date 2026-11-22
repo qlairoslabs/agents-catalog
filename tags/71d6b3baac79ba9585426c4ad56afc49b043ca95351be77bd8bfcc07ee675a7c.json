@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "71d6b3baac79ba9585426c4ad56afc49b043ca95351be77bd8bfcc07ee675a7c",
+ "domain": [
+  "sales/conversation-intelligence",
+  "sales/crm"
+ ],
+ "product": [
+  "callsync"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening",
+  "keep-in-touch"
+ ],
+ "summary": "Searches recorded business calls, surfaces conversation insights and manages CRM follow-ups in CallSync.",
+ "whenToUse": "Use when reviewing sales or business calls and acting on follow-ups recorded in CallSync.",
+ "tasks": [
+  "search calls",
+  "review conversation insights",
+  "manage crm follow-ups"
+ ],
+ "effects": {},
+ "flags": []
+}

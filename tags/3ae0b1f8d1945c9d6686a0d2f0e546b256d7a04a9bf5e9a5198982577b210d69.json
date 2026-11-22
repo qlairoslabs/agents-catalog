@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "3ae0b1f8d1945c9d6686a0d2f0e546b256d7a04a9bf5e9a5198982577b210d69",
+ "domain": [
+  "data/analysis/pattern-discovery"
+ ],
+ "product": [
+  "disco"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds statistically validated patterns in tabular data without needing a starting hypothesis.",
+ "whenToUse": "Use when exploring a tabular dataset to uncover non-obvious, validated patterns.",
+ "tasks": [
+  "analyze tabular data",
+  "discover patterns",
+  "validate findings statistically"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0d94d06eed21bfcabf9c9eecbc6841a0f261e6006d6ae639a9cdee98f4ebf59d",
+ "domain": [
+  "web/headless-cms",
+  "content/localization"
+ ],
+ "product": [
+  "uxbert-cms"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Headless CMS connector to model, write and publish bilingual content and media, with delivery checks.",
+ "whenToUse": "Use when an agent must create or publish bilingual content in the UXBERT Labs headless CMS.",
+ "tasks": [
+  "define content models",
+  "write content",
+  "publish content",
+  "manage media",
+  "run delivery checks",
+  "handle bilingual content"
+ ],
+ "effects": {},
+ "flags": []
+}

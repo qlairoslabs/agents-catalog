@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9a2924fd99dae04fb252b6ddb2fcb82ac441f80d6ffeb0948bb1e0ef656ca60b",
+ "domain": [
+  "software/cybersecurity/supply-chain",
+  "software/package-management"
+ ],
+ "product": [
+  "chainsaw",
+  "npm",
+  "pip",
+  "docker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Routes npm, pip and Docker package installs made by agents through the Chainsaw package firewall.",
+ "whenToUse": "Use when an agent needs to install packages and should have them screened by a package firewall first.",
+ "tasks": [
+  "route npm installs through firewall",
+  "route pip installs through firewall",
+  "route docker pulls through firewall",
+  "screen packages before install"
+ ],
+ "effects": {},
+ "flags": []
+}

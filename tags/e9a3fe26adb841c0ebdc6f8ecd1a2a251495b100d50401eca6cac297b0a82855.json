@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e9a3fe26adb841c0ebdc6f8ecd1a2a251495b100d50401eca6cac297b0a82855",
+ "domain": [
+  "documents/e-signature"
+ ],
+ "product": [
+  "smoothsign"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "stay-compliant"
+ ],
+ "summary": "Sends PDFs for e-signature with email and SMS-code verification and reports signing status, without storing documents.",
+ "whenToUse": "Use when an agent needs to send a PDF to someone for signature or check whether it was signed.",
+ "tasks": [
+  "send pdf for signature",
+  "verify signer by sms code",
+  "check signing status"
+ ],
+ "effects": {},
+ "flags": []
+}

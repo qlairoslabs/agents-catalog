@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "091444c46b408c4e6431f8347b8aaba889acc683b8106b12008bc5fd66f61ab5",
+ "domain": [
+  "software/hosting/infrastructure",
+  "networking/dns"
+ ],
+ "product": [
+  "veriteknik"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "support-customers"
+ ],
+ "summary": "Manages VeriTeknik hosted servers, DNS records, backups and support tickets.",
+ "whenToUse": "Use when administering VeriTeknik servers, DNS or backups, or filing support tickets.",
+ "tasks": [
+  "manage servers",
+  "manage dns records",
+  "manage backups",
+  "manage support tickets"
+ ],
+ "effects": {},
+ "flags": []
+}

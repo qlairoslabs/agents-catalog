@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b445bf8037592f809ae0b4dc178bbca5c2eac52f249c7a426f4e6eadf7b95fdb",
+ "domain": [
+  "media/audio",
+  "media/transcription"
+ ],
+ "product": [
+  "audexum",
+  "youtube"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Converts text to speech as MP3 voiceovers and transcribes audio files and YouTube videos to text.",
+ "whenToUse": "Use when the user needs a voiceover generated or audio or video transcribed.",
+ "tasks": [
+  "generate voiceovers",
+  "text to speech",
+  "transcribe audio",
+  "transcribe youtube videos"
+ ],
+ "effects": {},
+ "flags": []
+}

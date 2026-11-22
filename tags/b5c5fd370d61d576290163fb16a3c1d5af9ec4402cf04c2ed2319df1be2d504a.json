@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b5c5fd370d61d576290163fb16a3c1d5af9ec4402cf04c2ed2319df1be2d504a",
+ "domain": [
+  "software/testing",
+  "email/test-mailboxes"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides disposable mailboxes on a real domain to send, receive and assert on email in tests.",
+ "whenToUse": "Use when testing software flows that send or receive real email, such as signups or password resets.",
+ "tasks": [
+  "create disposable mailboxes",
+  "send test email",
+  "receive email",
+  "assert on email content"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "25bc57ccadb58f865ef24464368638b279338117098df8f82d2a7312ed104904",
+ "domain": [
+  "hr/workforce-planning",
+  "hr/scheduling"
+ ],
+ "product": [
+  "vigotime"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "schedule"
+ ],
+ "summary": "Free German workforce calculators for bridge days, net working time, shift staffing and care-home PeBeM staffing limits.",
+ "whenToUse": "Use when planning German holiday bridge days, net working hours, or staffing needs for shift operations or care facilities.",
+ "tasks": [
+  "calculate bridge days",
+  "compare bridge-day years",
+  "calculate net working time",
+  "calculate shift staffing",
+  "calculate care staffing PeBeM",
+  "get product info"
+ ],
+ "effects": {
+  "ff3db048ee0d369a6d29dce37149b423d97940e84bd13e53af829917c600af32": "read",
+  "1b88257ad99839f7204d18ece4afd4ad789c91298d87fbb82388016b0771a516": "read",
+  "714e776f3e2e19ae9e18abeeafd1d1de2027b01b1002d2cb125a2d8a3bd7730c": "read",
+  "b6df23b377e7e7d0510521f5a722956eb4dc2835bf5ce0d48262b7df07933b58": "read",
+  "2d31af23eb163c9278b982ddfb109a49aaaf38cdae329415b0cc2afc17fd9d83": "read",
+  "ff0cbc71c9e12cd6056a0e2701b527403dfa849d5c93796ed54a47525499fa13": "read"
+ },
+ "flags": []
+}

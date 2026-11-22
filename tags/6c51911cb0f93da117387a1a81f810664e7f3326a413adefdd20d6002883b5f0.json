@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "6c51911cb0f93da117387a1a81f810664e7f3326a413adefdd20d6002883b5f0",
+ "domain": [
+  "retail/jewellery",
+  "reference/calculators"
+ ],
+ "product": [
+  "fitiny"
+ ],
+ "audience": [
+  "sales",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Jewellery calculators for carat and millimetre conversion, GIA grades, ring size conversion, necklace length and stud appearance.",
+ "whenToUse": "Use when answering questions about moissanite or diamond sizing, grading or ring and necklace sizes.",
+ "tasks": [
+  "convert carat to mm",
+  "convert mm to carat",
+  "look up grading scales",
+  "convert ring sizes",
+  "describe necklace length",
+  "describe stud appearance"
+ ],
+ "effects": {
+  "082eab591a112f9001bcf4acc6e59b2bdf369b141c16398529fd2811f3229008": "read",
+  "70246a25d1ad6ef88939316e4859fa95890afd66c5cdf72c099b00e12832abc1": "read",
+  "e01e928ca17a8e8fc1e75a5f44dd1deecf1e671cba1845104e0521238bad61ad": "read",
+  "650ee06470054a238358c1ffc0b510c7da917570cf8d4b1d210a6a372e8a69ee": "read",
+  "e2ba650a548621a7997274e08674a9d139c3bdb7e39bb2f386bd41869145a168": "read",
+  "4cf9c5baf74a4e59302c562e16efd280042db5fb7677d97d77f58fe59ad3c4f3": "read"
+ },
+ "flags": []
+}

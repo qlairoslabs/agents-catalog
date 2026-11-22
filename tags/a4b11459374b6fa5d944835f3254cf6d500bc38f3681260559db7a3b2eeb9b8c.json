@@ -1,0 +1,63 @@
+{
+ "classifier": 2,
+ "contentHash": "a4b11459374b6fa5d944835f3254cf6d500bc38f3681260559db7a3b2eeb9b8c",
+ "domain": [
+  "government/politics",
+  "research/public-data"
+ ],
+ "product": [
+  "politikdata",
+  "folketinget",
+  "retsinformation"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Danish parliamentary cases, votes, questions, politicians, parties, election results, legislation and court verdicts, with comparison tools.",
+ "whenToUse": "Use when answering questions about Danish politics, how politicians or parties voted, election results, legislation or published verdicts.",
+ "tasks": [
+  "compare politicians or parties",
+  "search cases and votes",
+  "look up persons and parties",
+  "read debates",
+  "get election results and history",
+  "search legislation",
+  "search verdicts",
+  "search parliamentary questions"
+ ],
+ "effects": {
+  "67d0cb0adc9782d50edce2d02559494ccc2957f3c589812174eb61d3f775fad5": "write",
+  "11556ca1c9ad951131ecded2d63465c38d3adfc60998f3131aacb2ecc700b799": "write",
+  "26042f91cfa0d3ae5c09e7d14e084bced11ac97454c51e8e1c8e3339aa56d12f": "write",
+  "f589d9ecf8909451b5e76b7b9eaed0518ddaa124d4e713988ea9e9aecc86b6cb": "write",
+  "2e280f2d8ba1a377028fd7c8549588cb4502e271da78b4c412d6f490d366babd": "write",
+  "4070191f492beaab16d5978367dbd8a3e5186784d77da850707be18796b1e737": "write",
+  "d841b6286516028e963ad0757d59abe91c54515c1c4ac9879c52a7a1ad28a526": "write",
+  "b63508ea7ed5ec9e5a30447dcb3c6cf378a69388ee3d54d81298757fa84377b2": "write",
+  "721b992ea334ce34698524b947363320bbaa5cbb9d83c314c8939ca46ecf3ff1": "write",
+  "b9a6792973b1e5542b5f0984ec13a454ba97fc3b7869f7ec98d44e264bd7f803": "write",
+  "dcf505443903a4ebb0e12d01bf5dc3d05b147869646783d3bfd17b09146148b7": "write",
+  "289d3416a5955fb8ea62a9594eff4311014b729ca18d5965f048240f2f5f0847": "write",
+  "bd7da7fa685686da034bdab518b9ce351c6457721b7bc1d659962c078532a159": "write",
+  "3241214a234327c84713643321bd7af9854d2b3188baeb8d838065463a9a473b": "write",
+  "ef3a96d1072c08ad3da634bcb50da131bc3e9d658674f978d58211323270d586": "write",
+  "59f426755ff640ebbda4de596efb3f65c1d450dec5898ac9fbbe4ee8eb85100c": "write",
+  "ab0b67840af4a03a42a91ba799f51e9f96fc5cc2164357af943437c82617f435": "write",
+  "edf093ae33c9cb90d6409c6677ab1e961c3e576919987cada467e9f2d22c2693": "write",
+  "fc5b454a7585f4ac0de0f747ff6a8679aa51b54f9ad74b4e90b56c413167f3cc": "write",
+  "3ada6d98497f617ebeb541a70f1237a4bd6d8794e46eb649cdf6ec63bb0cfecc": "write",
+  "56ddaf94801cfba4ddb1d1f4ae90e998b521695304949db1fd6930f6fc3dbad6": "write",
+  "7fae195dc237814a3c9a76acb6c150ada89ecf766566073e48fff965d3ce1800": "write",
+  "46193ba36074a98e8da46c2359dcfebc03deaef66af0e8b42d08e5079f57f079": "write",
+  "4ba4f8c6826ce7003a9768dc9b54ed21d12c367d410d0182b181558ec1505902": "write",
+  "8674b129ef9eacd08c9ce2c4951c8ccecce004f14ba2034565adb32cc6d7a12d": "write",
+  "d19bc8309ec243d54a072cc04e2984d5970315c28911d5b671ae42d6570d928c": "write",
+  "c4c1688226c0e005638c73816d5ce4d1267a6345db5001b0e5fae6a33788b532": "write",
+  "ce7bc14dd0e8ccfdf0b874f9885d27c1850cd280b93a18272c3203e9247609ab": "write",
+  "833abb962f27848222b8f4f4c6cd0decfdfc19854d80ff38411ea1dfd78c9420": "write"
+ },
+ "flags": []
+}

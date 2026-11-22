@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "9f91719d0e482c82a0d9fe0890eeb1a63e3ec20a55f911debde8ee459ac7e2cb",
+ "domain": [
+  "travel/flights",
+  "travel/trip-planning"
+ ],
+ "product": [
+  "faredice"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds cheap multi-country trips from non-stop fares in Europe and Southeast Asia and shows daily fares and routes, with links to book.",
+ "whenToUse": "Use when planning a budget multi-stop trip or checking cheap flights between cities in Europe or Southeast Asia.",
+ "tasks": [
+  "find multi-city trips",
+  "load a trip link",
+  "swap a stop",
+  "edit nights and stops",
+  "daily non-stop fares",
+  "list destinations from a city"
+ ],
+ "effects": {
+  "65a57ff9599c0b492e6dea2844f7bbe2875619134b22115170edd0981c9dfb0d": "write",
+  "dd56b6b13a6cda6736b36bdad1cde0ce7273d4bdc6e4a3593ea3dd2f75a1c867": "write",
+  "055100af92610b2763a064e452b3a3f903fc831ac50b07e00ceb7da7c2b7308d": "read",
+  "d6aa1bfe4bf354c991cdf535269362938e1657e9ba5ed1804ca65984117a2717": "write",
+  "badc8e1e3105054e585880be8703a5978c80dab2f5d03d20d967863bdc2539ac": "read",
+  "3bbee926aa639714a8f3c71ad9de02c8c2462c304fa02bb5e510c9ff180d04de": "read"
+ },
+ "flags": []
+}

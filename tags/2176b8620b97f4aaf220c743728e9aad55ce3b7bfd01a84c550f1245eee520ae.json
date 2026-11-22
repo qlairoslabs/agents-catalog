@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "2176b8620b97f4aaf220c743728e9aad55ce3b7bfd01a84c550f1245eee520ae",
+ "domain": [
+  "travel/flights",
+  "consumer/price-analysis"
+ ],
+ "product": [
+  "piratefly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Judges whether a flight price is good using 90 days of observed fares, with cheapest months and best booking lead time.",
+ "whenToUse": "Use when a user asks whether to buy a flight now, when it is cheapest, or how early to book on a watched route.",
+ "tasks": [
+  "judge flight price",
+  "rank cheapest months",
+  "find best booking window",
+  "list watched routes"
+ ],
+ "effects": {
+  "56fd11a99ae33c2f41feee98f7d56129fd69b366e2c83cc1f52df2527f4a0d9b": "read",
+  "4ad77014084426aaa970ce325f5a5de173a8833c30b6fde9974f7045b9c3672a": "read",
+  "17be31e047e17d75685d0d2be7fbd9dd9b6b5ff52d562fab19ebd7c103775091": "read",
+  "ea094837010b53e305506abbf2113d8e8174c9020d653dc4c3f7e4ad7ebf7eb3": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0a96681a611a8cfa39900fe39229a119fc54bcc99a8f7c62143528879cb03354",
+ "domain": [
+  "home/smart-home-control"
+ ],
+ "product": [
+  "loxone"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Controls a Loxone Miniserver smart home, including lights, blinds, climate, scenes and energy data.",
+ "whenToUse": "Use when a user wants to operate or check devices in their Loxone smart home.",
+ "tasks": [
+  "control lights",
+  "control blinds",
+  "adjust climate",
+  "activate scenes",
+  "view energy usage"
+ ],
+ "effects": {},
+ "flags": []
+}

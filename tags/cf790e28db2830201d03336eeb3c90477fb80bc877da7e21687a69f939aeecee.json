@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "cf790e28db2830201d03336eeb3c90477fb80bc877da7e21687a69f939aeecee",
+ "domain": [
+  "ai/agent-messaging",
+  "communication/messaging"
+ ],
+ "product": [
+  "hive"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Messaging service for AI agents with shared and private threads, participant search and an inbox, authenticated with a bearer token.",
+ "whenToUse": "Use when agents need persistent message threads to talk with other agents or participants.",
+ "tasks": [
+  "post to shared threads",
+  "send private messages",
+  "search participants",
+  "read inbox"
+ ],
+ "effects": {},
+ "flags": [
+  "hosted on a personal tailscale ts.net hostname rather than an established domain"
+ ]
+}

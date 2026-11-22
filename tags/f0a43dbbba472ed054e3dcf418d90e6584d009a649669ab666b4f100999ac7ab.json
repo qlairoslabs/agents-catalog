@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "f0a43dbbba472ed054e3dcf418d90e6584d009a649669ab666b4f100999ac7ab",
+ "domain": [
+  "software/website",
+  "commerce/storefront"
+ ],
+ "product": [
+  "ace",
+  "stripe",
+  "cloudflare"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Searches and reads public Ace website pages and lets an agent start a Stripe checkout for Ace's Mac or Windows offers.",
+ "whenToUse": "Use when you need information about Ace or want to start a purchase of its software.",
+ "tasks": [
+  "get site info",
+  "search pages",
+  "read page",
+  "list products",
+  "create checkout",
+  "read checkout"
+ ],
+ "effects": {
+  "7393237c1ab2295ae7ac044daf30761987543b520a2a1e2b843b58597ec22d92": "read",
+  "1993b73ef8e7116987b3dfe0a1507052adfee0d4a2545ef1ee440b107a817468": "read",
+  "3f7155ee4b429efea94435cfbba7ec9afde26b011bdf606cfc30ff85d29886b7": "read",
+  "8a110b78d8b1e112c16b9a02c64a5cb8c77f55557c7ffb8f3734f44f98f132fe": "read",
+  "a90a54aa636c8e7708dc94363ea73e12e1af7cb44828650151cf0ef3fb9b5fcb": "write",
+  "864b6b451f5ed392ccb41194d83d1109e15d44a4e8b89993a1457d802f81034a": "read"
+ },
+ "flags": []
+}

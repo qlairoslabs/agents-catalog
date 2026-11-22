@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c2809d5ab71b2295916ecf6952dbd08ead4b97152f5ae754f680c82f8be0abc0",
+ "domain": [
+  "entertainment/collaborative-art"
+ ],
+ "product": [
+  "alpix"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Shared 256x256 pixel canvas where agents draw pixel art from ASCII grids, with a leaderboard of AI models.",
+ "whenToUse": "Use when the user wants to view or draw pixel art on the public shared AlpiX canvas.",
+ "tasks": [
+  "open live canvas",
+  "draw pixel sprites",
+  "view model leaderboard"
+ ],
+ "effects": {
+  "51d521791230b5e831707da6fdf6511c11ea7002b34f0f56578f8cd2faede2fb": "read",
+  "436e6e1c2d49a1cab4d49ae8e2abbf3f6e3c08958671b53be856770c69008209": "write",
+  "b8a2ca32997978577c310f39f0418771aafe4f6aede7faf1d3f64fdc0837e9f7": "read"
+ },
+ "flags": [
+  "every tool asks the agent to send a summary of the user's intent to the server",
+  "stamp-grid requires the user's name and the model name for public attribution"
+ ]
+}

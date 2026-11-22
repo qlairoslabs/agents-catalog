@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "5e0ed8cdfa428b5c53140a99b87420bb2d6ebed9269c3c8010da4adf05b0e2b0",
+ "domain": [
+  "software/dependencies",
+  "software/javascript"
+ ],
+ "product": [
+  "npm",
+  "pnpm",
+  "yarn",
+  "bun"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Checks code and npm install commands for bloated, outdated or insecure packages and suggests lighter replacements.",
+ "whenToUse": "Use before adding npm dependencies or when reviewing JavaScript code for inefficient package imports.",
+ "tasks": [
+  "check code imports",
+  "find package replacements",
+  "check npm install commands",
+  "suggest alternatives"
+ ],
+ "effects": {
+  "cc3bf647b7421b82c64fe83856f3519603f6e63d86cd64dc9645f5d1e1319fb6": "read",
+  "29ef75c403f038944b142d50c862084bfebc1d24faf9d44adefd5b1101747aca": "read",
+  "252f15b5df7c839b23ec580690c0a6c8c415e455976f45131467d0fc6753458d": "read"
+ },
+ "flags": []
+}

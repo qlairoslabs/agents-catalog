@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "217da05a0a51f207e6dc70e66e6ef01e25e01d6d5049d4d9c3368c72ecce164a",
+ "domain": [
+  "marketing/social-media-agency",
+  "marketing/paid-ads"
+ ],
+ "product": [
+  "meta-ads",
+  "tiktok-ads",
+  "social-cooks"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Information, services, case studies and knowledge search from a Munich social media agency, plus a request form for a free Meta Ads account check.",
+ "whenToUse": "Use when researching this agency's services and methods or when a user wants to request a free Meta Ads account check.",
+ "tasks": [
+  "get agency info",
+  "list services",
+  "get case studies",
+  "search knowledge base",
+  "request Meta Ads account check"
+ ],
+ "effects": {
+  "9c17b25ca9da4f2d666ee9c5990ac48a5da535b5ff27df6cd5db4db2eeb7b031": "read",
+  "f6498a2ca941f081f1db6c6214a943936972aeb3b6a0c4be0496f72858642eaa": "read",
+  "76e981da60b86eb3067ab9894d928a13059fa60ac9f68a1c32ab916ded548d61": "read",
+  "ac4d5c99804b875cc74d17ebad260767c7ee397671ec57e0a5d995b910bebe74": "read",
+  "57ac40f3be4e7b740fbee14d76e59228e2a5b0fb7469d574e58f76f8f5278316": "write"
+ },
+ "flags": []
+}

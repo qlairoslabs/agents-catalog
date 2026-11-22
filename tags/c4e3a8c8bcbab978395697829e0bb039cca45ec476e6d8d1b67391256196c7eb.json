@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c4e3a8c8bcbab978395697829e0bb039cca45ec476e6d8d1b67391256196c7eb",
+ "domain": [
+  "software/integration-platform"
+ ],
+ "product": [
+  "unified-to"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Unified.to server giving one API across hundreds of B2B SaaS integrations in many categories.",
+ "whenToUse": "Use when an agent needs to reach many SaaS apps such as CRM, HR or ticketing through one unified interface.",
+ "tasks": [
+  "access crm data",
+  "access hr data",
+  "access ticketing data",
+  "access other saas categories through one api"
+ ],
+ "effects": {},
+ "flags": []
+}

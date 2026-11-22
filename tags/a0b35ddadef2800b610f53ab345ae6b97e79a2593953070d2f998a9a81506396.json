@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a0b35ddadef2800b610f53ab345ae6b97e79a2593953070d2f998a9a81506396",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/languages/dotnet"
+ ],
+ "product": [
+  "appwrite",
+  "dotnet",
+  "asp-net",
+  "blazor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite .NET SDK in server-side C# apps, including ASP.NET and Blazor.",
+ "whenToUse": "Use when building a C# or .NET backend that uses Appwrite.",
+ "tasks": [
+  "manage users",
+  "crud database tables",
+  "manage file storage",
+  "call functions",
+  "authenticate with api keys"
+ ],
+ "effects": {},
+ "flags": []
+}

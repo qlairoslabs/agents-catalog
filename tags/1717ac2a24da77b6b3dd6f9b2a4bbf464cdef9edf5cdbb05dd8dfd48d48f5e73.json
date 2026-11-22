@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1717ac2a24da77b6b3dd6f9b2a4bbf464cdef9edf5cdbb05dd8dfd48d48f5e73",
+ "domain": [
+  "software/project-management",
+  "ai/agents"
+ ],
+ "product": [
+  "korey"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Connector to Korey, an AI agent that coordinates work and tasks for software teams.",
+ "whenToUse": "Use when a software team wants an AI agent to help plan, coordinate or track development work in Korey.",
+ "tasks": [
+  "coordinate software team work",
+  "manage development tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "484246af573cfa0792c917aa5eda4235c3b4a8d40945cb6c92b5dac4e655ab7e",
+ "domain": [
+  "shopping/price-comparison",
+  "ecommerce/india"
+ ],
+ "product": [
+  "amazon",
+  "flipkart",
+  "croma",
+  "reliance-digital",
+  "myntra",
+  "nykaa",
+  "ajio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Indian shopping search and price tracker with live prices, price history, price drops, sale events and product comparison across major retailers.",
+ "whenToUse": "Use when shopping in India and needing prices, whether a price is good, recent deals or a comparison of products.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "look up product by retailer URL",
+  "browse categories",
+  "check price history",
+  "find top price drops",
+  "find brand price drops",
+  "list sale events",
+  "get market price snapshot",
+  "compare products",
+  "render product cards"
+ ],
+ "effects": {
+  "ebd396b8fe4638bfa9db8183ecff79899c113c6880e8cc9ea4df24e6204ee6dd": "write",
+  "2aa53c5f4825b911a10e4a23936afa229c0767b57db890dcbf5b31e4eb54dd1e": "read",
+  "b4055e1a9bbb690cf2c348687907102f1ba9916aac3f155df28f288321f17b21": "read",
+  "9eb3c604057c40371d771ce5d98dc1e3fe12d80fac190dc52dc3ec41bc9726bb": "read",
+  "46d8216c263c840d913756b51d3d9bf5aca3fa0b6056ea740108c9a0421c5fff": "write",
+  "abf0bcadb93ebf92669f029535cd45d0aa187e717f7c9c10599167ca7c01812a": "read",
+  "5325ef498963309d6b3125f87a84c2b4ae3ede293ab85b6a92c2586131259b38": "read",
+  "e266c170dc1c0819ec5f1ae6de0a6fd8c4bfbc7946fe8f9c0c911b19c93fa9e2": "read",
+  "8bc99ed0bc3f0c60a9a58d3a78bd69db569bfb85c61ce57e1c5e2ea03088594f": "write",
+  "8e0a8abdcf3ea34c36dc00e64501c66f2ff976d7de7f7de6557a0ac333318823": "read",
+  "9fe408e49c79de8913dadddac8d99a0dce1c52c03dc0b8c2844d8930cfabaaf3": "read"
+ },
+ "flags": []
+}

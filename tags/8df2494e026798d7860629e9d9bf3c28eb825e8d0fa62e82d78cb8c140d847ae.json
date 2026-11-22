@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8df2494e026798d7860629e9d9bf3c28eb825e8d0fa62e82d78cb8c140d847ae",
+ "domain": [
+  "software/agent-coordination",
+  "software/messaging"
+ ],
+ "product": [
+  "alfanest"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Hosted coordination bus for AI agents providing locks, events and rejections, with publishing done locally.",
+ "whenToUse": "Use when multiple agents need to coordinate through shared locks and events.",
+ "tasks": [
+  "acquire locks",
+  "publish events",
+  "reject changes"
+ ],
+ "effects": {},
+ "flags": []
+}

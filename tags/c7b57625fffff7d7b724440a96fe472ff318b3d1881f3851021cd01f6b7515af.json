@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "c7b57625fffff7d7b724440a96fe472ff318b3d1881f3851021cd01f6b7515af",
+ "domain": [
+  "logistics/maritime",
+  "commodities/energy"
+ ],
+ "product": [
+  "ofac",
+  "eia",
+  "eurostat",
+  "eu-mrv"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Signed maritime and commodity data: oil trade flows and prices, tanker fleet, sanctions screening, emissions, chokepoints and port calls.",
+ "whenToUse": "Use when researching oil and shipping flows, vessel sanctions exposure, chokepoint traffic, port activity or vessel emissions.",
+ "tasks": [
+  "query oil trade flows",
+  "check OFAC sanctions",
+  "search tanker fleet",
+  "get oil prices",
+  "check data freshness",
+  "rank top exporters",
+  "get country trade partners",
+  "query vessel emissions",
+  "find sanctioned vessels at EU ports",
+  "chokepoint status",
+  "port info and calls",
+  "shipping document digitization stats"
+ ],
+ "effects": {
+  "30831c94873c4a2855b01169b01bfb788732e465200b29011415a3697e9dfab3": "read",
+  "9a60ab5e95e3738f11ff8a444d1aede7129bd1a2e3cb81c12cf5142e8523c0a1": "read",
+  "d7f883171c50fc2a57c65201b48cf8e16e7c5dc893d4d186c63ba8377daf7d88": "read",
+  "c45285ebeea23dc4c2520fec7b3ee6d334ee1e43b5994322675c9e138995394d": "read",
+  "c81b220f7c941f5c363ce7b7f7a0da0812262dbe31a2dcdaaffa6706057178e0": "read",
+  "c9d93b4ed626cbe3611320bd5fbe2f10d330b64b6da5cc0faba624ec0f797005": "read",
+  "06bd99419b486052af80bd77e636e057438d9ca7c30f558334a35e138d1e52b5": "read",
+  "4585a7b6cf43bf0d2db0ac43cb9c5730de4624a1169bd74c9c2f7d23a8ce7594": "read",
+  "585cfc07d6d76dfaedd16036d79ac5f33c395779b433ac19855b8e04a8977b55": "read",
+  "f836f5ea078793d932b7a09603467b8fc38be606313d29fff14c151fb7d84d3e": "read",
+  "76cfac7bafc9d1ab50067c36db6d6c178ee5b810c4de02361923108a4be9a660": "read",
+  "0ff4f8ccabe0f86bef7b5c14f460fe9111a222c6ef321bd14e31cdb68110c3d9": "read",
+  "de24c3c9f2c1297e9573deffd8d0842e6ca5f25d86588e55ce6de320da2ecced": "read",
+  "1d7d551761520a27d255f370d984c13b0802c060e4d3cb8e6fe5185e6786180b": "read",
+  "9d758d1721440427916d18596e623f58e4dd73453cbffb730d61e4a677a46282": "read",
+  "3d957bae05f5603709fa1d2187bb58fb42a636fe91b0cdec99b0955e70d410ee": "read"
+ },
+ "flags": []
+}

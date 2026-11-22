@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e791f9fcb530552dc50c0a846f12153397df89dcc5c7849dd216b168f1025438",
+ "domain": [
+  "music/streaming-analytics"
+ ],
+ "product": [
+  "spotify"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Spotify statistics such as play counts, monthly listeners, charts, artist, album and playlist data, plus ISRC lookup.",
+ "whenToUse": "Use when an agent needs streaming numbers or chart data for artists, tracks, albums or playlists on Spotify.",
+ "tasks": [
+  "get track play counts",
+  "get artist monthly listeners",
+  "view charts",
+  "look up albums and playlists",
+  "look up tracks by isrc"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a9cdb70f57369cb69206bbb9c66679b6822efc4457d46fc54ac0294022656ce9",
+ "domain": [
+  "finance/tax/uk-corporation-tax",
+  "business/company-lookup"
+ ],
+ "product": [
+  "companies-house"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Public UK company lookup with filing deadlines, late filing penalties and Corporation Tax calculations, no account needed.",
+ "whenToUse": "Use when the user asks about a UK company's filing deadlines, possible penalties or Corporation Tax amounts.",
+ "tasks": [
+  "look up uk company",
+  "check filing deadlines",
+  "calculate late penalties",
+  "calculate corporation tax"
+ ],
+ "effects": {},
+ "flags": []
+}

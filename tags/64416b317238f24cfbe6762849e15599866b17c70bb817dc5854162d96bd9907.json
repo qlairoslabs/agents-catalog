@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "64416b317238f24cfbe6762849e15599866b17c70bb817dc5854162d96bd9907",
+ "domain": [
+  "travel/market-data"
+ ],
+ "product": [
+  "naver",
+  "myrealtrip",
+  "agoda",
+  "trip-com",
+  "hanatour"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Daily archive of Korean outbound travel demand from Naver package buyers, plus flight, hotel and tour prices by city.",
+ "whenToUse": "Use when analysing which destinations Koreans are booking and comparing flight, hotel or package prices.",
+ "tasks": [
+  "get demand index",
+  "list popular packages",
+  "get direct flight prices",
+  "get hotel prices",
+  "get top tours",
+  "get Hanatour ranking",
+  "list cities",
+  "search time series",
+  "get series history"
+ ],
+ "effects": {
+  "bb6e3e3ada807fe0f0fb207792db0584f73645d763196516295a5549d8d9c90b": "read",
+  "bb35fb18c5fae7710a849d68b353f3bae1de380c3025d42b9bbdb08795154700": "read",
+  "98e36ece8d63965af04f23929def5ba644004bddb4a94c41f812341ba1b5fe0b": "read",
+  "8cf43f746f57d7ec32f584dcbc5267f93c36ed83c4b08ba101d0dad697c2c1f9": "write",
+  "73b7ac383879d2d4d34f97e2c699ad4221f16abd33bd2b2e06b9ad13a7f540d9": "read",
+  "94ef6d3c64fc665df6bff6adbd2a903bd87ad655584d5769945b56f39287aa34": "write",
+  "ccf735c8e0b49d5401c7eed0f1937c6d6f4c53f2403727f409bd599189054f24": "read",
+  "4be2f91625629c9e3fd0de1e497eabefb4630beed37bafc6b237901980812b77": "read",
+  "27fac0a2635e2821384f42e25e221b758c493e9ac5b788d02891ec2a9f1da6cf": "read"
+ },
+ "flags": []
+}

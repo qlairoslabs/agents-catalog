@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4115e782dd68a71ae318a7b82f53f5f814adf882ab2c39704a59550c344ea98a",
+ "domain": [
+  "communication/email/transactional"
+ ],
+ "product": [
+  "sendgrid"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Works with SendGrid transactional email, including preflight checks, sending, templates and delivery diagnostics.",
+ "whenToUse": "Use when an agent needs to send or troubleshoot transactional email through SendGrid.",
+ "tasks": [
+  "preflight check emails",
+  "send transactional email",
+  "manage templates",
+  "diagnose delivery"
+ ],
+ "effects": {},
+ "flags": []
+}

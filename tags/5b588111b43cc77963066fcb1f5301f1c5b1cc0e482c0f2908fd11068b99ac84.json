@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5b588111b43cc77963066fcb1f5301f1c5b1cc0e482c0f2908fd11068b99ac84",
+ "domain": [
+  "documents/pdf-extraction",
+  "software/rag"
+ ],
+ "product": [
+  "doc.page"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Converts PDFs into Markdown, RAG chunks and cited tables, and publishes tracked document links with read statistics.",
+ "whenToUse": "Use when an agent needs to extract structured content from PDFs or share a document with read tracking.",
+ "tasks": [
+  "extract PDF to Markdown",
+  "create RAG chunks",
+  "extract cited tables",
+  "publish doc links",
+  "view read stats"
+ ],
+ "effects": {},
+ "flags": []
+}

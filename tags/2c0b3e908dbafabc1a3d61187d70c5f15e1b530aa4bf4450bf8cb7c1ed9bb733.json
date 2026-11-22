@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "2c0b3e908dbafabc1a3d61187d70c5f15e1b530aa4bf4450bf8cb7c1ed9bb733",
+ "domain": [
+  "travel/accommodation",
+  "hospitality"
+ ],
+ "product": [
+  "noclegowo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches accommodation offers in Poland on noclegowo.pl and checks availability and whole-stay prices for given dates and party.",
+ "whenToUse": "Use when a user wants to find or compare places to stay in Poland and see availability and total price.",
+ "tasks": [
+  "search accommodation in Poland",
+  "filter by amenities and budget",
+  "check availability for dates",
+  "get whole-stay price",
+  "read offer details",
+  "exclude already seen offers"
+ ],
+ "effects": {
+  "4db8ee27e5b9574f6087c8078f863897e9f7c06f956347b18529eb6d7b63f816": "write",
+  "73bddcf7e43c86c70ad79af9e6ca4e9fce7f564808c0ec5aeae78539d9e049d8": "read",
+  "4ecb3d438b385a14c0d8ceb639ab488cbfc530b7b8f3e08511bdc741fa59ebd9": "read",
+  "e9bef53f52aff5f4970336188c8e1575fa2fa62f908e5f04af282c07edaa18bb": "read"
+ },
+ "flags": []
+}

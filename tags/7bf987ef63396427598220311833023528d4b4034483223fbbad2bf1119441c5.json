@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "7bf987ef63396427598220311833023528d4b4034483223fbbad2bf1119441c5",
+ "domain": [
+  "automotive/car-buying"
+ ],
+ "product": [
+  "ridekick"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds nearby cars and collects written out-the-door price offers from dealerships.",
+ "whenToUse": "Use when someone is shopping for a car and wants written dealer offers.",
+ "tasks": [
+  "search nearby cars",
+  "request dealer offers",
+  "compare out-the-door prices"
+ ],
+ "effects": {},
+ "flags": []
+}

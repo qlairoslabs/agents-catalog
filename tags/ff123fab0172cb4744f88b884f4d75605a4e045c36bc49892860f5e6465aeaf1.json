@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ff123fab0172cb4744f88b884f4d75605a4e045c36bc49892860f5e6465aeaf1",
+ "domain": [
+  "finance/accounting"
+ ],
+ "product": [
+  "puzzle"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses startup accounting data in Puzzle: cash, burn, runway, financial statements, transactions, bills and invoices.",
+ "whenToUse": "Use when reviewing a startup's cash position, burn, runway, statements, transactions, bills or invoices in Puzzle.",
+ "tasks": [
+  "view cash balance",
+  "calculate burn and runway",
+  "get financial statements",
+  "review transactions",
+  "manage bills",
+  "manage invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

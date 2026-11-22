@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "823f2efe1802c6e87044c2f9df200b218273186b5ee6f37435d907494bfed4b3",
+ "domain": [
+  "finance/mortgage-lending"
+ ],
+ "product": [
+  "lenderprice"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Exposes features of the Lenderprice mortgage pricing and lending platform to AI models.",
+ "whenToUse": "Use when working with mortgage pricing or lending workflows on the Lenderprice platform.",
+ "tasks": [
+  "access lenderprice platform features"
+ ],
+ "effects": {},
+ "flags": []
+}

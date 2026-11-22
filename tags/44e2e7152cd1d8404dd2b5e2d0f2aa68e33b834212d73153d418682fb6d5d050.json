@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "44e2e7152cd1d8404dd2b5e2d0f2aa68e33b834212d73153d418682fb6d5d050",
+ "domain": [
+  "finance/sec-filings",
+  "finance/investment-research"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Exposes SEC filings including 13F portfolios, Form 4 insider trades, XBRL financial data and filing text.",
+ "whenToUse": "Use when an agent needs institutional holdings, insider trading data or financial statements from SEC filings.",
+ "tasks": [
+  "view 13f portfolios",
+  "track form 4 insider trades",
+  "read xbrl financials",
+  "search filing text"
+ ],
+ "effects": {},
+ "flags": []
+}

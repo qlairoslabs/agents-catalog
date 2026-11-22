@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "dd0ceab5cc567cd18e95c2c672651f1ee8f0bbb2dba609afa8f2ec32487297aa",
+ "domain": [
+  "ai/inference",
+  "payments"
+ ],
+ "product": [
+  "usdc",
+  "base",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Lists unlimited LLM inference pools, quotes USDC subscriptions on Base, confirms payment to issue an API key, and shows key status and connection info.",
+ "whenToUse": "Use when you want to buy or check a subscription to a flat-rate LLM inference pool, or get its OpenAI- or Anthropic-compatible endpoints.",
+ "tasks": [
+  "list inference pools",
+  "get pool details",
+  "quote USDC subscription",
+  "confirm crypto payment",
+  "get card checkout link",
+  "check subscription status",
+  "get connection snippets"
+ ],
+ "effects": {
+  "5d12f17da74df4dc4078e201202691ef9606ac39c2b3bcacdf3ed91af4025db5": "read",
+  "8a45c359abd4959781e01bb74e804a3abbb161b7eebb68b4705be8e8ef90ed9f": "read",
+  "542211bad0cc3d273bac6caaaca49930a8ff843f6ce3878360d30a9531eb373c": "read",
+  "50ef33f6560bf25273771e9cd9b2a97c8265d83bccecf6cc3b5e8ec9838aac8f": "write",
+  "f542b4e2b8bc621716ec63031f36349a4389e9c420ddf1453eece7dd9001e542": "read",
+  "4c4523885dbf33d8c1a82e859e38a12c55680dc13db5869379acb1595deb208d": "read",
+  "32ef959e21b3c20f8b60a51fa10f9349e4855dbba34bbbdefcb5402dbf91c98c": "read"
+ },
+ "flags": []
+}

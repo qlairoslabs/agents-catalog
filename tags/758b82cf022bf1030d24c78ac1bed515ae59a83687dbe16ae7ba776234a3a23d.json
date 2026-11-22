@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "758b82cf022bf1030d24c78ac1bed515ae59a83687dbe16ae7ba776234a3a23d",
+ "domain": [
+  "finance/stock-signals",
+  "investing"
+ ],
+ "product": [
+  "sec",
+  "tradier",
+  "catalyst-edge"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Ranked SEC-filing catalyst signals for stocks, with per-ticker breakdowns, theses, price forecasts, options context and a public track record.",
+ "whenToUse": "Use when a user wants scored stock catalyst picks, a ticker's signal breakdown or the historical performance of the signals.",
+ "tasks": [
+  "get top catalyst picks",
+  "get ticker signal breakdown",
+  "get ticker thesis",
+  "get price forecast",
+  "get sector lean",
+  "get options context",
+  "get track record"
+ ],
+ "effects": {
+  "d9a35d487417ca0b72ea3d2ae368a04c15cd9fa22d9b6d42a6dc75b9e38ebbe4": "read",
+  "57f217eb7f22a4c2225186c1f189856ddc3b95cb919040d9d6a42d5962c8ae84": "read",
+  "dc134208f19aca71c3226aed0a9db69d447b5a714fa3513776234e4ffe9bc783": "read",
+  "157d50c418b8731e1fefd001c01cabed72350a2965ab0828b64199e43e7f0869": "read",
+  "8e70c2d863572072783af06d6083cb1b988ab031c33ab3dea44837b21464e357": "read",
+  "9ad4623077e22e8c81404259fdbd7fdcbb412c1e3f56a85adc4b987043405789": "read",
+  "a5ddaa9bb4ca5c0c77e5703acfdd21c365407c5a81c77d6d6d26853fd34e4667": "read"
+ },
+ "flags": []
+}

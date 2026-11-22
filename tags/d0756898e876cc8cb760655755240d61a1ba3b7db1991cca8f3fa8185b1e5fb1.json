@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d0756898e876cc8cb760655755240d61a1ba3b7db1991cca8f3fa8185b1e5fb1",
+ "domain": [
+  "software/browser-automation",
+  "ai/agents"
+ ],
+ "product": [
+  "browser-lol"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Cloud browser for AI agents with human-like input and a live view that humans can watch and take over.",
+ "whenToUse": "When an agent needs to operate a real web browser remotely with optional human oversight.",
+ "tasks": [
+  "control cloud browser",
+  "simulate human input",
+  "share live view",
+  "hand over control to human"
+ ],
+ "effects": {},
+ "flags": []
+}

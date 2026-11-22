@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e867f5e779594c1a785945f3438483089fb4c903ae1797827df395b0941979d6",
+ "domain": [
+  "productivity/project-management",
+  "collaboration/team-workspace"
+ ],
+ "product": [
+  "huly",
+  "claude-code"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Connects agents to self-hosted or cloud Huly workspaces with a large set of project and collaboration tools.",
+ "whenToUse": "Use when an agent needs to read or update issues, projects, documents or messages in a Huly workspace.",
+ "tasks": [
+  "manage issues",
+  "manage projects",
+  "manage documents",
+  "send messages",
+  "track tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "3bda7708e04bb7414dd2dd14bbf14f98cbf119b75886870d934e6555ce3a99a0",
+ "domain": [
+  "data/data-lake",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-s3-tables",
+  "apache-iceberg",
+  "aws-glue",
+  "amazon-athena",
+  "aws-iam"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Creates managed Iceberg tables on Amazon S3 Tables, including buckets, namespaces, schema, partitioning, Glue registration and IAM access.",
+ "whenToUse": "Use when a new data lake table needs to be created on S3 Tables.",
+ "tasks": [
+  "create table bucket",
+  "create namespace",
+  "define table schema",
+  "choose partitioning",
+  "register in glue catalog",
+  "configure iam access"
+ ],
+ "effects": {},
+ "flags": []
+}

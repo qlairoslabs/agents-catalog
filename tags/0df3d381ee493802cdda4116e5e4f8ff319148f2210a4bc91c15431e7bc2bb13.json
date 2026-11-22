@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0df3d381ee493802cdda4116e5e4f8ff319148f2210a4bc91c15431e7bc2bb13",
+ "domain": [
+  "software/devops/containers"
+ ],
+ "product": [
+  "podman",
+  "docker"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Manages containers and images on Podman or Docker runtimes.",
+ "whenToUse": "Use when an agent needs to list, run, stop or inspect containers and images locally.",
+ "tasks": [
+  "list containers",
+  "run containers",
+  "stop containers",
+  "remove containers",
+  "list images",
+  "pull images",
+  "view logs"
+ ],
+ "effects": {},
+ "flags": []
+}

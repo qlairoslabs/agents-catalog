@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "87b19f5a48d0855a8ce2ec28217da9ae7daed43deeee9ef7bf0ceb3c558a4dca",
+ "domain": [
+  "retail/deals"
+ ],
+ "product": [
+  "dealerific",
+  "amazon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Lists current retail deals by category and store with affiliate links, plus buying guides.",
+ "whenToUse": "Use when a user wants current product deals or buying guides.",
+ "tasks": [
+  "search deals",
+  "list categories",
+  "list buying guides"
+ ],
+ "effects": {
+  "38450f8e22fc12f1b0f4bd110359cce466b1d7bf1a81eb892b0a1c5edb6c1e12": "write",
+  "cfbff98298a93e49faa8e7a059e21efab2983c0adcd5bfab3fa242e88c77eb8e": "write",
+  "4b3cd25738996e30191e99896fc1ae0bed16d687a650d1b265ff86ee999a8eba": "write"
+ },
+ "flags": []
+}

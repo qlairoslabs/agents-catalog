@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e75f4da3b5d0c1c13676ffaadcefd28c3f8a88fd552407240801bba6de3e11b8",
+ "domain": [
+  "communication/push-notifications",
+  "automation/human-in-the-loop"
+ ],
+ "product": [
+  "iotpush"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "keep-in-touch"
+ ],
+ "summary": "Sends push notifications from agents to a phone and waits for the person to approve or reply.",
+ "whenToUse": "Use when an agent needs a human's approval or answer via phone before continuing a task.",
+ "tasks": [
+  "send push notifications",
+  "request approval",
+  "wait for user reply"
+ ],
+ "effects": {},
+ "flags": []
+}

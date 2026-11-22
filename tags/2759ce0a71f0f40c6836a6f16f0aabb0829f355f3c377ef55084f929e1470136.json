@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "2759ce0a71f0f40c6836a6f16f0aabb0829f355f3c377ef55084f929e1470136",
+ "domain": [
+  "data/open-data/india-districts",
+  "research/demographics"
+ ],
+ "product": [
+  "census",
+  "nfhs-5",
+  "ncrb",
+  "rbi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Look up, compare and rank Indian districts on open indicators from Census, NFHS-5, NCRB and RBI, with methodology notes and map links.",
+ "whenToUse": "Use when a question is about a district in India or about ranking or comparing districts on a social, economic or health indicator.",
+ "tasks": [
+  "find indicator ids",
+  "get district profile",
+  "compare districts",
+  "rank districts",
+  "read methodology and citation",
+  "build map link"
+ ],
+ "effects": {
+  "bcb39fd7bec035b807e3946fc3ad9b6527ad9dd8ddfb431d03e97b5952a417a8": "read",
+  "251dd28e8ec2edd9a906c1349982bfbb458637e2a885c91641aa6c680b9ba6ec": "read",
+  "6113650d6f818de5acf74620bc030d94659e68a4e96ee8845da2df8345709375": "read",
+  "1ed3e8313bd52cd0acbf2f114383447fe964204d3ce15dacbf4dc1ee78292102": "read",
+  "46ff46e3af7741f0bcb96d9d3f59828403ff2d965a9708c4fc5227af76f84249": "read",
+  "d9edd4ac96dc03d8304125ecb098b9b9de2a8bbfe3aaa8ba165bc1f60b8faaa1": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "938bd2ff28559b89b2b73ce6803e9706bbf29d9984d0d367a5c61213683be5ce",
+ "domain": [
+  "finance/personal-finance",
+  "finance/account-aggregation"
+ ],
+ "product": [
+  "synci"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to linked bank, investment and crypto accounts for balances, transactions and holdings.",
+ "whenToUse": "Use when reviewing a user's account balances, transactions or investment holdings.",
+ "tasks": [
+  "get balances",
+  "list transactions",
+  "list holdings"
+ ],
+ "effects": {},
+ "flags": []
+}

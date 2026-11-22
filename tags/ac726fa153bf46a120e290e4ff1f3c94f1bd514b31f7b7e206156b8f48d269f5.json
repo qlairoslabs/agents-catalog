@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ac726fa153bf46a120e290e4ff1f3c94f1bd514b31f7b7e206156b8f48d269f5",
+ "domain": [
+  "ai/machine-learning",
+  "ai/model-training"
+ ],
+ "product": [
+  "hugging-face"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for building, training, evaluating and using open source models, datasets and Spaces on Hugging Face.",
+ "whenToUse": "Use when working with Hugging Face models, datasets or Spaces, including training and evaluation.",
+ "tasks": [
+  "train models",
+  "evaluate models",
+  "use datasets",
+  "build spaces",
+  "run models"
+ ],
+ "effects": {},
+ "flags": []
+}

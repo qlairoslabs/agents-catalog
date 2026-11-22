@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "749403e5c60f986badb17abb9f67bd3843dd3540223a73228a14fded74188991",
+ "domain": [
+  "data/analytics",
+  "data/sql"
+ ],
+ "product": [
+  "oleander"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Hosted data stack for agents to upload files, query with SQL, change table schemas and render charts.",
+ "whenToUse": "Use when an agent needs to load data, query it with SQL and visualize results.",
+ "tasks": [
+  "upload files",
+  "run sql queries",
+  "evolve table schemas",
+  "render charts"
+ ],
+ "effects": {},
+ "flags": []
+}

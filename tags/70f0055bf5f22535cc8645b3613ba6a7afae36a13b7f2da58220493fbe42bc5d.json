@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "70f0055bf5f22535cc8645b3613ba6a7afae36a13b7f2da58220493fbe42bc5d",
+ "domain": [
+  "software/developer-tools",
+  "software/documentation"
+ ],
+ "product": [
+  "vibgrate",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local MCP server providing version-matched library docs, a code map and offline dependency drift for a repo.",
+ "whenToUse": "Use when coding in a repository and the agent needs accurate library docs or dependency drift info.",
+ "tasks": [
+  "look up library docs",
+  "map codebase",
+  "detect dependency drift"
+ ],
+ "effects": {},
+ "flags": []
+}

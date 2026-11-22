@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "fb1a28e8232984e8a8829d9e6495b58fcdfbf844567d5e98ead3bc9d665465a1",
+ "domain": [
+  "data/web-scraping",
+  "research/web-search"
+ ],
+ "product": [
+  "firecrawl"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Scrapes and crawls websites with Firecrawl, turning pages into markdown or structured data, with web search and an autonomous extraction agent.",
+ "whenToUse": "Use when an agent needs to fetch, crawl or extract structured content from websites or search the web.",
+ "tasks": [
+  "scrape single pages",
+  "crawl entire sites",
+  "search the web",
+  "extract structured data",
+  "convert pages to markdown",
+  "gather data from multiple sources"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "cd96c25aabb4c30b9d59f495a0c342858a9454217b31a261799daf46b62c25ab",
+ "domain": [
+  "legal/chinese-law",
+  "legal/research"
+ ],
+ "product": [
+  "lawbotter"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Chinese legal service with a database of laws and cases, offering regulation search, article text, AI legal Q&A, consultation and follow-ups.",
+ "whenToUse": "Use when you need Chinese statutes or regulations, or an AI-generated answer citing them.",
+ "tasks": [
+  "search regulations",
+  "get regulation text",
+  "AI law query",
+  "AI legal consultation",
+  "follow-up questions"
+ ],
+ "effects": {
+  "f7e9055e3c29b2c8fbfea4ccd7cecc86ae0bb14df05990de7878af02962b0b5c": "read",
+  "295f83556654d441a2585718f42c87a45a994716194a1c9617ac22a2b07534d2": "read",
+  "47972fca05ed3f932f6a2f149f4bb5a499e15cf238a2c4d14c26d3df626ca6bb": "write",
+  "7c2ca6a8096312b52666477e4adf73b67965ebbbf3348e284164c91fed3fc301": "write",
+  "d0f6348700bfe2a47857ea568f84d0e45a27978ad24e6467febbf25541ea3325": "write"
+ },
+ "flags": []
+}

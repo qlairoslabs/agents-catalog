@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "225bbd1bc295ddcfc9d386cbfa8ecb0dd830978be94554ad698dab2c103c7636",
+ "domain": [
+  "marketing/growth",
+  "marketing/seo",
+  "marketing/analytics"
+ ],
+ "product": [
+  "distributionos"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives coding agents stored marketing context covering SEO, content, media and analytics for product distribution.",
+ "whenToUse": "Use when a coding agent needs marketing, SEO or distribution context for a product it is building.",
+ "tasks": [
+  "store distribution context",
+  "plan seo",
+  "plan content",
+  "review analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "003ec852f67880c43488b1fa54e7f463e00817543b2b7df92fa62f9aa4025044",
+ "domain": [
+  "legal/e-signature"
+ ],
+ "product": [
+  "inkfree"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "E-signature service to send, track, remind, void and download envelopes, plus templates and reports.",
+ "whenToUse": "Use when a document needs to be sent for signature or the status of signature requests must be checked.",
+ "tasks": [
+  "send envelopes",
+  "track envelope status",
+  "send reminders",
+  "void envelopes",
+  "download signed documents",
+  "manage templates",
+  "view reports"
+ ],
+ "effects": {},
+ "flags": []
+}

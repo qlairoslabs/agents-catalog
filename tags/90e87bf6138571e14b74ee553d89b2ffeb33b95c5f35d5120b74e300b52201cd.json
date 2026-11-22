@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "90e87bf6138571e14b74ee553d89b2ffeb33b95c5f35d5120b74e300b52201cd",
+ "domain": [
+  "ai/observability",
+  "analytics/product"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reports on AI agent health across quality, cost, performance and errors using Amplitude Agent Analytics.",
+ "whenToUse": "Use when Amplitude Agent Analytics is set up and the user asks how their AI agents are doing or wants an LLM health or cost report.",
+ "tasks": [
+  "check ai agent quality",
+  "track llm cost",
+  "measure agent performance",
+  "report ai errors",
+  "produce agent health report"
+ ],
+ "effects": {},
+ "flags": []
+}

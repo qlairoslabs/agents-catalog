@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "06d658bdf15107c28b620c787d83883b37ecf19c5b2ad8bbb4f270bfe175e440",
+ "domain": [
+  "design/prototype-review",
+  "software/collaboration"
+ ],
+ "product": [
+  "protonote"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Publishes HTML prototypes for team review where reviewers pin notes, then pulls feedback back for changes.",
+ "whenToUse": "Use when sharing an HTML prototype for review and collecting reviewer feedback.",
+ "tasks": [
+  "publish html prototype",
+  "collect pinned notes",
+  "pull feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

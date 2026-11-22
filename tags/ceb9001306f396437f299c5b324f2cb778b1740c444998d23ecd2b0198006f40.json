@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ceb9001306f396437f299c5b324f2cb778b1740c444998d23ecd2b0198006f40",
+ "domain": [
+  "software/debugging/network",
+  "software/mobile"
+ ],
+ "product": [
+  "busymate"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Captures, inspects and debugs HTTPS traffic from iOS, Android, browsers and backends.",
+ "whenToUse": "Use when debugging network requests of a mobile app, browser or backend service.",
+ "tasks": [
+  "capture https traffic",
+  "inspect requests",
+  "debug ios traffic",
+  "debug android traffic",
+  "debug browser traffic"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "1424d1bd97dcb6ac16fc0999011e1d275ac15286a7eba91a8461a187ea34fa9c",
+ "domain": [
+  "software/cloud-storage",
+  "research/product-comparison"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Dated, source-cited facts on cloud storage plans: prices, storage, encryption and compliance flags, with filtering, comparison and price history.",
+ "whenToUse": "Use when choosing or comparing cloud storage providers by price, storage size or security features.",
+ "tasks": [
+  "list plans",
+  "filter providers",
+  "get provider facts",
+  "compare providers",
+  "view price history"
+ ],
+ "effects": {
+  "58b6b354c245d5bbda40480cc878a2adf542aeb790d35dda711f17ec89325e5d": "read",
+  "1d5acb552b951c18b73cf209def4df6e2412b7331c7c6eafb380dd9d34adc586": "read",
+  "864efb8fb69a261074ee960d6e446ed8e9c2a5eb37a803b14f0dbf7d5628f464": "read",
+  "b7893e4f4c8c49e5b03280b439066b623aebf33ac750d9f436abd1f52715bc09": "read",
+  "e09817d0b89be6e383febd413df8b279f9436b5b02adc6a528e14dede2d527d0": "read"
+ },
+ "flags": []
+}

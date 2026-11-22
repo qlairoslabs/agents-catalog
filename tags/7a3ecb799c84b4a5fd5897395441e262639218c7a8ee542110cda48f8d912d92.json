@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7a3ecb799c84b4a5fd5897395441e262639218c7a8ee542110cda48f8d912d92",
+ "domain": [
+  "software/databases/nosql",
+  "software/cloud"
+ ],
+ "product": [
+  "mongodb-atlas"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects to MongoDB Atlas through its managed MCP server to explore data and manage clusters, projects, users and network access.",
+ "whenToUse": "Use when working with MongoDB Atlas data or administering Atlas clusters, users and network access.",
+ "tasks": [
+  "explore data",
+  "manage collections",
+  "optimise queries",
+  "manage clusters",
+  "manage projects",
+  "manage database users",
+  "manage network access"
+ ],
+ "effects": {},
+ "flags": []
+}

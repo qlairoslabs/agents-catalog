@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ebdb87048fa711977de9371619095dc3a05168e07deb7da26e112c05302c2a85",
+ "domain": [
+  "software/ai-agents/scaffolding",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "amazon-bedrock-agentcore",
+  "strands",
+  "langgraph"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps start a new AgentCore agent or MCP server project, from framework choice and scaffolding to first deploy and invocation.",
+ "whenToUse": "Use when a developer wants to create a first agent or host a new MCP server on AgentCore.",
+ "tasks": [
+  "choose agent framework",
+  "scaffold project",
+  "create mcp server",
+  "run local dev server",
+  "first deploy",
+  "first invocation"
+ ],
+ "effects": {},
+ "flags": []
+}

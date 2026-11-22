@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "cf86da9de72802b8f4cb9c46095e5cbf4123ab493c400f66e636ab55edfcebe9",
+ "domain": [
+  "data-science/symbolic-regression",
+  "science/modeling"
+ ],
+ "product": [
+  "sindy",
+  "pysr",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Finds simple equations from data using SINDy for time series and PySR symbolic regression, with a free tier and paid larger runs.",
+ "whenToUse": "Use when you need to discover a differential or algebraic equation from numeric data or get confidence intervals on one.",
+ "tasks": [
+  "recover differential equations",
+  "run symbolic regression",
+  "bootstrap constant confidence intervals",
+  "request features"
+ ],
+ "effects": {
+  "c1e20f72723a3d6b7b4af32dbe3618e775e054c4186d27621524e18e41b66621": "write",
+  "c6e94c5ae573ac5bb2e6ccb6d54c468d0a4e4a66e030c6cbbf8ee13f6ba3d93b": "write",
+  "05f3e97541371bdc711069fa9ea1b8e7baed92b304b8010a14b4e5f31de989ec": "write",
+  "574919c903db0af06e8a2aaa3271ad975cda62912a814155fdd9aec865c063b5": "write"
+ },
+ "flags": [
+  "paid calls via crypto payment credentials"
+ ]
+}

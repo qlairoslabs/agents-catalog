@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e7f1fa529c20b0f4f40a369cae90adb1af0d433481274970ab79c8cfc942efff",
+ "domain": [
+  "marketing/sms-marketing",
+  "compliance/number-registration"
+ ],
+ "product": [
+  "trackly-sms"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "stay-compliant"
+ ],
+ "summary": "Manages SMS offers and creatives, prepares US number registration, and holds outgoing SMS for human approval.",
+ "whenToUse": "Use when running SMS marketing campaigns that need US number registration and human sign-off before sending.",
+ "tasks": [
+  "manage offers",
+  "manage creatives",
+  "prepare us number registration",
+  "queue sms for approval"
+ ],
+ "effects": {},
+ "flags": []
+}

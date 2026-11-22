@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d82cd8b59d8a2347a6c17b6fab5158301606033704cb47dd52fba3e02dafecfa",
+ "domain": [
+  "legal/research/japan",
+  "government/records"
+ ],
+ "product": [
+  "e-gov"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Researches Japanese law: searches e-Gov statutes, case law, Diet records, amendment history and government documents.",
+ "whenToUse": "Use when an agent needs Japanese statutes, delegated regulations, court cases or official sources.",
+ "tasks": [
+  "search japanese laws",
+  "get statute text",
+  "resolve delegated regulations",
+  "search court cases",
+  "search diet records",
+  "view amendment history",
+  "read government documents"
+ ],
+ "effects": {},
+ "flags": []
+}

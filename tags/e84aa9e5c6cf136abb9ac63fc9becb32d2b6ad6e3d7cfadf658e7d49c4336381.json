@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e84aa9e5c6cf136abb9ac63fc9becb32d2b6ad6e3d7cfadf658e7d49c4336381",
+ "domain": [
+  "logistics/shipping",
+  "commerce/fulfilment"
+ ],
+ "product": [
+  "easyship"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Compares shipping rates, creates shipments, buys labels and tracks packages through Easyship.",
+ "whenToUse": "Use when someone needs to quote, ship or track parcels via Easyship.",
+ "tasks": [
+  "compare shipping rates",
+  "create shipments",
+  "buy labels",
+  "track packages"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "d8c0416bebe314738bf374b49eca60a8ccdcc05bffbd2bbe51eff15c2b95ab16",
+ "domain": [
+  "productivity/knowledge-management",
+  "software/documentation"
+ ],
+ "product": [
+  "ainecto"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Local npm server giving people and agents shared project memory: documents, ERDs, diagrams, boards and mockups.",
+ "whenToUse": "Use when an agent needs to read or update shared project documents, diagrams, boards or design mockups in AiNecto.",
+ "tasks": [
+  "manage project documents",
+  "edit erd diagrams",
+  "create diagrams",
+  "manage boards",
+  "store design mockups",
+  "share project memory"
+ ],
+ "effects": {},
+ "flags": []
+}

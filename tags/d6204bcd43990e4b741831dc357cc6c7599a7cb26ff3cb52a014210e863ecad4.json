@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d6204bcd43990e4b741831dc357cc6c7599a7cb26ff3cb52a014210e863ecad4",
+ "domain": [
+  "travel/yacht-charter"
+ ],
+ "product": [
+  "dream-on",
+  "bvicrewed"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches a catalog of crewed British Virgin Islands charter yachts by budget, size, activities and style, and reads one yacht's unavailable dates.",
+ "whenToUse": "Use when a user is exploring crewed yacht charters in the BVI and wants options or Dream On availability.",
+ "tasks": [
+  "search yachts",
+  "read yacht details",
+  "check Dream On availability"
+ ],
+ "effects": {
+  "9b078ccfdd41b888152f09556c6a35c049030217b1a5813064d1db169b1535a1": "read",
+  "ab1402a7f249c32d7134a719336be54c828cdc58fd689bda5e0ce8dcf55b716f": "read",
+  "a8c246b497dba5882ab8537dadf22b6e54fa11043e00bc4f4b8ab53cad11408e": "read"
+ },
+ "flags": []
+}

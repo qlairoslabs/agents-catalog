@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "05c398090f233fc5f072ede08b597dfc3d504e6fecc77911ae49b6f19a580b5c",
+ "domain": [
+  "research/deep-research",
+  "data/dataset-building"
+ ],
+ "product": [
+  "webhound",
+  "deepseek",
+  "openai"
+ ],
+ "audience": [
+  "everyone",
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Produces budget-capped research reports and datasets using Webhound's multi-model research agent.",
+ "whenToUse": "Use when a task needs an in-depth web research report or compiled dataset within a set budget.",
+ "tasks": [
+  "run deep research",
+  "build datasets",
+  "generate reports",
+  "set research budget"
+ ],
+ "effects": {},
+ "flags": []
+}

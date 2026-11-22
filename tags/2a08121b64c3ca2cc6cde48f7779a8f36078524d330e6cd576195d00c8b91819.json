@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2a08121b64c3ca2cc6cde48f7779a8f36078524d330e6cd576195d00c8b91819",
+ "domain": [
+  "finance/economics",
+  "finance/forecasting"
+ ],
+ "product": [
+  "moneychoice"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Provides macroeconomic forecasts for inflation, rates, labor, GDP, housing, commodities, currencies and equities.",
+ "whenToUse": "Use when an agent needs macroeconomic forecast data for analysis or planning.",
+ "tasks": [
+  "get inflation forecasts",
+  "get interest rate forecasts",
+  "get gdp and labor forecasts",
+  "get housing and commodity forecasts",
+  "get currency and equity forecasts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "2f05732136d34ce3953ffde8797ee9e68735ef8726fb88734b67984afabee49f",
+ "domain": [
+  "cloud/infrastructure",
+  "software/infrastructure-as-code"
+ ],
+ "product": [
+  "aws",
+  "gcp",
+  "azure",
+  "terraform"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "One API to query AWS, GCP and Azure resources and generate Terraform or CLI execution kits.",
+ "whenToUse": "Use when an agent needs to inspect multi-cloud resources or produce Terraform or CLI commands to change them.",
+ "tasks": [
+  "query aws resources",
+  "query gcp resources",
+  "query azure resources",
+  "generate terraform",
+  "generate cli commands"
+ ],
+ "effects": {},
+ "flags": []
+}

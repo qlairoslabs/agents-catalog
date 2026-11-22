@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "16769cf03533025cd67eddc4091d9c5ebb949add4fba8312078870736b97e17f",
+ "domain": [
+  "marketing/link-shortening",
+  "marketing/analytics"
+ ],
+ "product": [
+  "picsee"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates and manages PicSee short links and reports click analytics.",
+ "whenToUse": "Use when creating short links or checking their click statistics in PicSee.",
+ "tasks": [
+  "create short link",
+  "manage links",
+  "view click analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "232329fc2434b19dbf3dcfd31cb1a340619c827f75643597c15aae6075d2a76b",
+ "domain": [
+  "finance/news",
+  "legal/regulatory-intelligence"
+ ],
+ "product": [
+  "fintech-studios"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Real-time financial news and regulatory intelligence with cited search, article fetch, summaries and saved collections.",
+ "whenToUse": "Use when an agent needs current, cited financial news or regulatory updates.",
+ "tasks": [
+  "search financial news",
+  "fetch articles",
+  "summarize news",
+  "track regulatory updates",
+  "manage collections"
+ ],
+ "effects": {},
+ "flags": []
+}

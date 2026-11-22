@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e6c345e8f4ee622b0735d0b970f60dfc499e783990e6cad16f4ea77c0716c476",
+ "domain": [
+  "media/generative-ai",
+  "media/image-generation",
+  "media/video-generation"
+ ],
+ "product": [
+  "fotohub"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Single API for generating images, video, music, voice and 3D assets across many AI models.",
+ "whenToUse": "Use when an agent needs to generate images, video, music, speech or 3D models from prompts.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "generate music",
+  "generate voice",
+  "generate 3d models"
+ ],
+ "effects": {},
+ "flags": []
+}

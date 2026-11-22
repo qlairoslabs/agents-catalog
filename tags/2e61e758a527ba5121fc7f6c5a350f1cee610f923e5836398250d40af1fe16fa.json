@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2e61e758a527ba5121fc7f6c5a350f1cee610f923e5836398250d40af1fe16fa",
+ "domain": [
+  "commerce/agent-checkout",
+  "commerce/shopping"
+ ],
+ "product": [
+  "facet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Agent-commerce protocol that lets AI agents check out purchases on online stores.",
+ "whenToUse": "When an agent needs to buy products or complete checkout on an online store for a user.",
+ "tasks": [
+  "browse store products",
+  "complete agent checkout"
+ ],
+ "effects": {},
+ "flags": []
+}

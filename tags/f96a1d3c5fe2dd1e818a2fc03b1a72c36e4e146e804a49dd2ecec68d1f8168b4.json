@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "f96a1d3c5fe2dd1e818a2fc03b1a72c36e4e146e804a49dd2ecec68d1f8168b4",
+ "domain": [
+  "travel/tours",
+  "travel/trip-planning"
+ ],
+ "product": [
+  "sparkling-tracks",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Search Sparkling Tracks European coach tours, dated prices, itineraries and terms, plan multi-city trips, and send booking requests or WhatsApp messages to the team.",
+ "whenToUse": "Use when a traveller wants European group tours found, priced and compared, or wants to submit a booking or custom itinerary request.",
+ "tasks": [
+  "search trips by place and date",
+  "list packages",
+  "get itineraries",
+  "check departure availability",
+  "get trip prices",
+  "plan multi-city journeys",
+  "read terms and reviews",
+  "get contact info",
+  "request booking",
+  "request custom itinerary",
+  "send WhatsApp message"
+ ],
+ "effects": {
+  "f44da6718423d89bb39b5d8aacb85bf8bc1a5001b9366e32d604835f63184074": "write",
+  "46b91031328c330cf57256144b20ce48038fc804ae473bf3b16cab96e4bf3a44": "write",
+  "021300a82f7d774530c8260674a450c439ed3a300397d2303e025f9e9a09c99a": "write",
+  "3e16ff19f1e9e91202650232b027b74f61386ac26a2c52a9bb79506919df132c": "write",
+  "29318763d3e771bb3bd36db4e619146ff65bc884814123b6f552e11fa8f22db6": "write",
+  "7b90a6adb94d269bdd6c6ceba0f5b4057d6f50acae49df98193680c9cc1d82da": "write",
+  "1647dd517ed2f5717f57b544034aba0b9960fe71e3f435534a7ce4e2c9a87baa": "read",
+  "52c935f4d22b7cdad94751575d92d0b20029ce017c18f015b8b0cbc9214df62e": "write",
+  "ebd2c7ae79b05703acc98a33b1c564b2787908b90754907acaa575144e5b17ca": "read",
+  "f7112948dd439dbb45b2dff634dd0b128cfe0298a95f1c1fedcbae4719b49cc5": "read",
+  "2a32af489b909a42d011c810899f4e87c300760fbf7c23d327f058c7b2032f0c": "read",
+  "fff4d61920274e2a3e656cfa711fd5e45cb64e828f4d865b024c665ab5ab1fbd": "write",
+  "a1dd0a61eac2d0b23dddceb2600e58942b85bdc6753219f16e21e4a33a6fbee0": "write",
+  "a3479431352f4feafa5a7a78736db0fab0e3a642e95a23246982da488fd4ced7": "read",
+  "fcc2d557ecc5a0d755bbe778245bbc704ead065d4cbd6dade1a09f068f374fa9": "write",
+  "acc48f7a8f2f35f3e65103db887a491c3b734719ba3d76c64e2055ffb621693d": "write",
+  "2ff385bf1f5ec779872b5d43d9611f246940461bc2063ef0c3d8913100bc8261": "write",
+  "374808c21a113da68fce4c12375b470845bdf72463b1d274cd194893b30f71ba": "write",
+  "42aae5003404b894d36a0bb601fcd8b135619114dec9487b88e0fc855fa8eafb": "write"
+ },
+ "flags": []
+}

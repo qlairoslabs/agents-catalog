@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7179c511db443bd170e171cb4460db8e86394fe499b987b1b44b5075d415daf5",
+ "domain": [
+  "automotive/vehicle-data/license-plates",
+  "data/surveillance"
+ ],
+ "product": [
+  "platequery"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up US license plates and vehicle information, including plate messages and ALPR sighting history.",
+ "whenToUse": "Use when looking up vehicle details for a US license plate, with care for privacy and lawful use.",
+ "tasks": [
+  "look up license plate",
+  "get vehicle information",
+  "read plate messages",
+  "view alpr history"
+ ],
+ "effects": {},
+ "flags": [
+  "exposes automatic license plate reader location history, which raises privacy and tracking concerns"
+ ]
+}

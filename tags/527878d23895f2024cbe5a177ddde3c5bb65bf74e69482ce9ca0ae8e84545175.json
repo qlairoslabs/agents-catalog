@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "527878d23895f2024cbe5a177ddde3c5bb65bf74e69482ce9ca0ae8e84545175",
+ "domain": [
+  "automation/agent-orchestration"
+ ],
+ "product": [
+  "golemry"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "schedule"
+ ],
+ "summary": "Creates and manages scheduled AI agent jobs with guardrails and quality checks, connected to many integrations.",
+ "whenToUse": "Use when the user wants to set up recurring AI agent jobs with oversight across connected apps.",
+ "tasks": [
+  "create scheduled agent jobs",
+  "manage agent jobs",
+  "set guardrails",
+  "review job quality"
+ ],
+ "effects": {},
+ "flags": []
+}

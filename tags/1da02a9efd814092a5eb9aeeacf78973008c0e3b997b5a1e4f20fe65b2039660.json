@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1da02a9efd814092a5eb9aeeacf78973008c0e3b997b5a1e4f20fe65b2039660",
+ "domain": [
+  "software/analytics/instrumentation",
+  "ai/mcp"
+ ],
+ "product": [
+  "pendo"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Detects an MCP server's language and adds the matching Pendo SDK so tool calls are tracked in Pendo Agent Analytics.",
+ "whenToUse": "Use when instrumenting a Python, TypeScript or Go MCP server with Pendo analytics.",
+ "tasks": [
+  "detect mcp server language",
+  "install pendo sdk",
+  "instrument mcp tool calls"
+ ],
+ "effects": {},
+ "flags": []
+}

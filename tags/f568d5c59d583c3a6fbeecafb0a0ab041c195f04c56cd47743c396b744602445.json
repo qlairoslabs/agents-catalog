@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f568d5c59d583c3a6fbeecafb0a0ab041c195f04c56cd47743c396b744602445",
+ "domain": [
+  "media/video-production",
+  "content/scriptwriting"
+ ],
+ "product": [
+  "teleprompter-com"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Reads and writes scripts and folders in a Teleprompter.com account.",
+ "whenToUse": "Use when an agent needs to draft, update or organize teleprompter scripts for recording.",
+ "tasks": [
+  "list scripts",
+  "create scripts",
+  "update scripts",
+  "organize folders"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "9e7f5dd205b3d3ec7421e55ca6d6a20f223032e154ce2e7f1b34ce5020452e33",
+ "domain": [
+  "real-estate/listings-search",
+  "real-estate"
+ ],
+ "product": [
+  "city24"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches live Estonian real estate listings for sale or rent, filtered by property type, price, area, floor, lot size and location.",
+ "whenToUse": "Use when a user wants to find apartments, houses, land, commercial properties or garages for sale or rent in Estonia.",
+ "tasks": [
+  "search property listings",
+  "filter by price range",
+  "filter by area",
+  "filter by location",
+  "filter by floor",
+  "filter by lot size",
+  "filter by room count",
+  "filter by building series"
+ ],
+ "effects": {
+  "ab3b2caab59446a8f171ec3377ed13d2e859f6c4a6a5f5f72594099f31e45189": "read"
+ },
+ "flags": []
+}

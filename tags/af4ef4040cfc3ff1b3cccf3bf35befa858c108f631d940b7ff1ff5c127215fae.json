@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "af4ef4040cfc3ff1b3cccf3bf35befa858c108f631d940b7ff1ff5c127215fae",
+ "domain": [
+  "analytics/e-commerce",
+  "marketing/advertising-analytics"
+ ],
+ "product": [
+  "sourcemedium",
+  "shopify"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries a SourceMedium commerce data warehouse covering Shopify stores and ad accounts.",
+ "whenToUse": "Use when analysing e-commerce sales and ad performance data held in SourceMedium.",
+ "tasks": [
+  "query commerce warehouse",
+  "analyse shopify data",
+  "analyse ad account data"
+ ],
+ "effects": {},
+ "flags": []
+}

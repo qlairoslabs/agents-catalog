@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "e774bceaf3d0c00f979f11c3311d28a0f85e8471b3a9e1b86ff655c06c59707f",
+ "domain": [
+  "security/fraud-prevention",
+  "consumer/payments"
+ ],
+ "product": [
+  "skimguard"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether a location has recent credit-card skimmer detections from a consumer sensor network.",
+ "whenToUse": "Use when a user asks if a gas pump, ATM or store location has known card skimmers.",
+ "tasks": [
+  "check skimmer detections by location"
+ ],
+ "effects": {},
+ "flags": []
+}

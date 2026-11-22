@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f50c8d964ceb81d1989affa71aa3a3cd22cca0a704bdd6ccbe46d4a23a960919",
+ "domain": [
+  "ai/agent-memory",
+  "productivity/context-management"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Stores a persistent briefing that an AI assistant reads at the start of each session to retain context.",
+ "whenToUse": "Use when an agent should load or update saved context so a new session continues where earlier ones left off.",
+ "tasks": [
+  "read session brief",
+  "update session memory",
+  "persist context across sessions"
+ ],
+ "effects": {},
+ "flags": []
+}

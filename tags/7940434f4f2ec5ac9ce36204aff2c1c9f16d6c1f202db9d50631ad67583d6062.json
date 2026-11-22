@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7940434f4f2ec5ac9ce36204aff2c1c9f16d6c1f202db9d50631ad67583d6062",
+ "domain": [
+  "software/monitoring/heartbeat",
+  "software/devops"
+ ],
+ "product": [
+  "vivere"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Heartbeat monitoring that alerts when cron jobs or AI agents stop checking in.",
+ "whenToUse": "Use when you need to create a monitor for a scheduled job or agent, or send a check-in from an agent run.",
+ "tasks": [
+  "create monitors",
+  "send check-ins",
+  "detect stopped cron jobs",
+  "detect stopped agents"
+ ],
+ "effects": {},
+ "flags": []
+}

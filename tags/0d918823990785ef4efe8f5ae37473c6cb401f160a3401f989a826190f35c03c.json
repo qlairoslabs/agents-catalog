@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0d918823990785ef4efe8f5ae37473c6cb401f160a3401f989a826190f35c03c",
+ "domain": [
+  "marketing/content-templates",
+  "text/spintax"
+ ],
+ "product": [
+  "spintax"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Validates, renders and analyzes spintax text templates and provides an authoring guide.",
+ "whenToUse": "Use when writing or checking spintax templates and generating text variants.",
+ "tasks": [
+  "validate template",
+  "render variants",
+  "analyze template",
+  "read authoring guide"
+ ],
+ "effects": {
+  "da3b3d305f7e4fb85c352c1fde42a51ce29573b95b397bfe6914e89f47088c8c": "read",
+  "b58d04b7db3e9c939f7876288e5b825ef7ae435b064bae04285685f66613e7a3": "read",
+  "22da9bd6c54d7b6410ef022b0a5f761a11e6f031832bc5f8c7d977f8e1d22c81": "read",
+  "27554f6e5d270c1d0c42930a1dd9332bf0c3b759c76d8847b974277533089fa6": "read"
+ },
+ "flags": []
+}

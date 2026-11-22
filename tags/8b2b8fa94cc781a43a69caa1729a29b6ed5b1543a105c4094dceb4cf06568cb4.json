@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8b2b8fa94cc781a43a69caa1729a29b6ed5b1543a105c4094dceb4cf06568cb4",
+ "domain": [
+  "media/dubbing",
+  "media/video"
+ ],
+ "product": [
+  "voxdub"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates rythmo bands for dubbing by uploading video, transcribing, editing lines, styling and exporting.",
+ "whenToUse": "Use when preparing dubbing scripts or rythmo bands for a video.",
+ "tasks": [
+  "upload video",
+  "transcribe dialogue",
+  "edit lines",
+  "style rythmo band",
+  "export rythmo band"
+ ],
+ "effects": {},
+ "flags": []
+}

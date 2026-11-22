@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "b8fd640d316580c987cff25be2eb773774789353dc77c85df4c13c7c1f15de93",
+ "domain": [
+  "data/geospatial"
+ ],
+ "product": [
+  "geojson"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Inspects, validates and summarizes GeoJSON documents using only the Python standard library.",
+ "whenToUse": "Use when an agent needs to check or summarize the contents of a GeoJSON file.",
+ "tasks": [
+  "inspect geojson",
+  "validate geojson",
+  "summarize features"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "a20950c6b5b9658b232da08a79eda344e176078a7ff9b6a9e323373eae4489af",
+ "domain": [
+  "finance/tax",
+  "government/public-data"
+ ],
+ "product": [],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Verified German municipal tax data: dog tax, second-home tax and wage-garnishment calculation, cited to sources.",
+ "whenToUse": "Use for German Hundesteuer, Zweitwohnungsteuer rates by city or §850c ZPO attachable income.",
+ "tasks": [
+  "list datasets",
+  "look up dog tax by city",
+  "rank cities by dog tax",
+  "state averages",
+  "recent rate changes",
+  "look up second-home tax",
+  "calculate garnishment"
+ ],
+ "effects": {
+  "878f4342dcd0b7799784e43aaf470db2781ee42659d48e6b4bb1a43f46d175e7": "read",
+  "e0e113ef2ce5d2bb97c69e9f4dda7c11335451d0819637f7834845cde9846c80": "read",
+  "3164f4ded7076915e8dd5f1ad336d62940bd348d241cd918a7fd7eabebf4015c": "read",
+  "68c3ca755af458b708f99f6e75e183b54ffe2ff1ba4f89a2d63c6a53507980d9": "read",
+  "4b9a9832f43455612a04b9060e7b9da17e78997c2ca84918aee947279490bb3e": "read",
+  "b164898ba796c86f4d81d9e31c61dd54a53debe6e39c7a2252c94688135f422a": "read",
+  "eec89bf06878dffb20ace74fa20c556fd9ff1e9ce39cc2e69377fcd51fcb7393": "read",
+  "35adc7f89676c700d8d09463a881cf7b0e80f9b2589fa65367c79a116fa95645": "read",
+  "bab754d8d3251bdcee92522d5172629e72f6cb0a3729ff2803930c4b3ac7696d": "read",
+  "968df5c1cc72063b1f5190f8667c021d0e899a7faa80fc384ccdb9a00afbfb29": "read"
+ },
+ "flags": []
+}

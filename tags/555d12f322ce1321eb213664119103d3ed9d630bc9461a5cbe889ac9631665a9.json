@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "555d12f322ce1321eb213664119103d3ed9d630bc9461a5cbe889ac9631665a9",
+ "domain": [
+  "data/analytics",
+  "data/dashboards"
+ ],
+ "product": [
+  "fastero",
+  "streamlit"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Queries connected databases and builds dashboards, Streamlit apps and reports that team members can log in to.",
+ "whenToUse": "Use when an agent needs to query company databases or publish dashboards, data apps or reports for a team.",
+ "tasks": [
+  "query databases",
+  "build dashboards",
+  "create streamlit apps",
+  "create reports",
+  "share with team"
+ ],
+ "effects": {},
+ "flags": []
+}

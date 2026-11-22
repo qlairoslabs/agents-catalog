@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "57880a4d7ac093ed2bbad906f0d096e4ed30d1b94abb13a260b0cce360021eae",
+ "domain": [
+  "gaming/item-prices",
+  "commerce/marketplace-data"
+ ],
+ "product": [
+  "counter-strike-2",
+  "buff163",
+  "youpin",
+  "skinport",
+  "csfloat",
+  "steam"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live Counter-Strike 2 skin prices aggregated from BUFF163, Steam, Skinport, CSFloat and other markets, including Doppler phases.",
+ "whenToUse": "Use when an agent needs to compare or look up current CS2 skin prices across trading markets.",
+ "tasks": [
+  "get skin prices",
+  "compare marketplace prices",
+  "check doppler phase prices"
+ ],
+ "effects": {},
+ "flags": []
+}

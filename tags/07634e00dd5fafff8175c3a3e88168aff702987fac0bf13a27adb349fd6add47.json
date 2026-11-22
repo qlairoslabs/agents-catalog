@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "07634e00dd5fafff8175c3a3e88168aff702987fac0bf13a27adb349fd6add47",
+ "domain": [
+  "communication/email"
+ ],
+ "product": [
+  "gmail"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Lightweight Gmail MCP server with automatic authentication.",
+ "whenToUse": "Use when an agent needs to read, search or send email in a Gmail account.",
+ "tasks": [
+  "search emails",
+  "read emails",
+  "send emails",
+  "manage labels"
+ ],
+ "effects": {},
+ "flags": []
+}

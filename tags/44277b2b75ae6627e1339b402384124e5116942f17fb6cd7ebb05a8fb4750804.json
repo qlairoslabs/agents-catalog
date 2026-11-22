@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "44277b2b75ae6627e1339b402384124e5116942f17fb6cd7ebb05a8fb4750804",
+ "domain": [
+  "sports/betting/odds",
+  "data/sports"
+ ],
+ "product": [
+  "pinnodds",
+  "pinnacle"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Pinnacle live and prematch betting odds, odds drops and API account usage via an API key.",
+ "whenToUse": "Use when an agent needs current or prematch Pinnacle betting odds or odds movement data.",
+ "tasks": [
+  "get live odds",
+  "get prematch odds",
+  "track odds drops",
+  "check account usage"
+ ],
+ "effects": {},
+ "flags": []
+}

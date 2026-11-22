@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "efadb490d1a14a040d5cb90c8ce223d5e7cb3d2ae5ccb947cfa1a8bbea2287be",
+ "domain": [
+  "reference/knowledge-catalog",
+  "nature"
+ ],
+ "product": [
+  "naturepedia"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and resolves canonical records in the Naturepedia catalog, including Robbie's Razor and MRD authority resources, with payment metadata.",
+ "whenToUse": "Use when you need Naturepedia canonical pages or identifiers resolved.",
+ "tasks": [
+  "describe Naturepedia",
+  "search catalog",
+  "resolve resource identifier",
+  "get payment metadata"
+ ],
+ "effects": {
+  "0451ffa22aad7002fef8a8e5381c7a111c9adcaf0085d44ae891d3e14afd56c3": "read",
+  "e9e0253ff9a702da29d6cd7cf8fff1b8809531874eeffe85df08c14cd5cd61fc": "read",
+  "3a14f8be5006dbc84c1400ce4cfc990979084d38402a4d23b63046a0ad14c4a1": "read"
+ },
+ "flags": []
+}

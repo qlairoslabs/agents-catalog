@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9e5a1bac3936cf91848ba8312eb0e8dcc659a71da5cd286688366eee91377759",
+ "domain": [
+  "events/entertainment"
+ ],
+ "product": [
+  "hebert-magic"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Lets users submit booking requests to Houston magician Rick Hebert and view formats and contact details.",
+ "whenToUse": "Use when a user wants to hire a magician or mentalist for an event in the Houston area.",
+ "tasks": [
+  "submit booking request",
+  "list packages",
+  "get contact details"
+ ],
+ "effects": {
+  "4b0b742f1561ac21acf5cafd07db6ac8ca7c999fa899daa7f6ddfa5a79f778da": "write",
+  "bacd3c0a65045329952a4265732a6e69137bb8f1a53bee9e02ca15b3f881aede": "write",
+  "ff2aaae1b40f183f8a1364b6b1468bdb63f5ecb671135982812a02f176ed0145": "write"
+ },
+ "flags": []
+}

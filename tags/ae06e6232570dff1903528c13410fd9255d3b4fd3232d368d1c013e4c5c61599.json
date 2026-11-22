@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ae06e6232570dff1903528c13410fd9255d3b4fd3232d368d1c013e4c5c61599",
+ "domain": [
+  "software/developer-tools/code-search"
+ ],
+ "product": [
+  "ollama",
+  "lm-studio"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local semantic code search that indexes a codebase with Go AST parsing and local embeddings, exposed through an MCP server.",
+ "whenToUse": "Use when you need to find relevant code in a large local codebase by meaning without sending code to the cloud.",
+ "tasks": [
+  "index codebase",
+  "parse go ast",
+  "embed code locally",
+  "semantic vector search"
+ ],
+ "effects": {},
+ "flags": []
+}

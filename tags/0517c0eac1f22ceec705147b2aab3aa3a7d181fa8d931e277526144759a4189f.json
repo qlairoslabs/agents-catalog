@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0517c0eac1f22ceec705147b2aab3aa3a7d181fa8d931e277526144759a4189f",
+ "domain": [
+  "design/graphic-design",
+  "marketing/content-production"
+ ],
+ "product": [
+  "canva"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Generates many Canva designs from tabular data by autofilling a brand template, one design per row.",
+ "whenToUse": "Use when the user wants to batch-generate Canva designs from a CSV, spreadsheet, JSON or table.",
+ "tasks": [
+  "read tabular data",
+  "map columns to template fields",
+  "autofill brand templates",
+  "create one design per row"
+ ],
+ "effects": {},
+ "flags": []
+}

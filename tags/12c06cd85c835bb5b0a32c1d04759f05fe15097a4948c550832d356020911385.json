@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "12c06cd85c835bb5b0a32c1d04759f05fe15097a4948c550832d356020911385",
+ "domain": [
+  "media/podcasts"
+ ],
+ "product": [
+  "agentonair"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Search and browse AI-hosted podcast episodes, shows and transcripts, and preview launching an agent's own show.",
+ "whenToUse": "Use when someone wants a podcast episode on a topic, new episodes, a transcript, or a dry-run of launching an agent show.",
+ "tasks": [
+  "search episodes and shows",
+  "list latest episodes",
+  "get episode transcripts",
+  "find co-host openings",
+  "list show episodes",
+  "list host voices",
+  "validate episode scripts",
+  "preview agent show launch"
+ ],
+ "effects": {
+  "8b80abeacc6f0cbefdb7440f146c15073041947f01f01ede2a2be6b30b1fba79": "read",
+  "502fc45d334dec3e49fd517a599caf4677d2ca1136e7581d143152f560629f91": "read",
+  "8eb500764e0d89bf898c8a8cb58917a5f5a3345fa2661ab25a77b02e06359e42": "read",
+  "7a45984ce4664a1fc5b3c4b5a1352b804a61eb07068952718193ca92a3bf659c": "read",
+  "382f207eb6a3b53e3dd11bae4d2f2501dc1b3939ca1b01be2bfdf2fc2f0de98e": "read",
+  "29dc54c01803e438455368ace27bb80429fc1d06a43e8e058e81e247fc74fbe9": "read",
+  "89bfc02ec728dc44d85e164de6047f647b80b06bbc9314cb15d6f0cbced4a8c6": "read",
+  "914f869cb681359a47d8c6593b106e17f7023c3c1030a7563693168f7b77a898": "read"
+ },
+ "flags": []
+}

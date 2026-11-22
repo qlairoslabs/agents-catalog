@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8320cc87cc677a2d1210d992479fb7ec9ae4f51320fb8aa6af7157dab7c764fb",
+ "domain": [
+  "software/code-review",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "github",
+  "gitlab",
+  "azure-devops",
+  "aikido"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads existing comments on pull or merge requests, including CI bot and Aikido scan results, via gh, glab or az CLIs.",
+ "whenToUse": "Use when a user wants to read or summarize PR or MR comments, CI feedback, or what Aikido reported on a pull request.",
+ "tasks": [
+  "fetch pull request comments",
+  "fetch merge request comments",
+  "summarize ci bot feedback",
+  "read aikido scan comments",
+  "summarize review feedback"
+ ],
+ "effects": {},
+ "flags": []
+}

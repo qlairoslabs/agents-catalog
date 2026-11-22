@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "53c69a9c2607fa66d177062df15114348313f3f8a9a6ef71190a250d68ecd1a1",
+ "domain": [
+  "media/video",
+  "content/documentation"
+ ],
+ "product": [
+  "clueso"
+ ],
+ "audience": [
+  "marketing",
+  "support",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Connector for Clueso that generates editable videos and documents from a text description.",
+ "whenToUse": "Use when a user wants to produce product videos or documentation from a description using Clueso.",
+ "tasks": [
+  "generate videos",
+  "generate docs",
+  "edit outputs"
+ ],
+ "effects": {},
+ "flags": []
+}

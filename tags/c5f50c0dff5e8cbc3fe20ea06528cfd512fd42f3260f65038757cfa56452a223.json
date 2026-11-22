@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "c5f50c0dff5e8cbc3fe20ea06528cfd512fd42f3260f65038757cfa56452a223",
+ "domain": [
+  "finance/invoicing",
+  "compliance/e-invoicing"
+ ],
+ "product": [
+  "factureaza",
+  "ro-e-factura",
+  "anaf-spv",
+  "ro-e-transport"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Romanian invoicing service connected to RO e-Factura for managing invoices, clients, payments, SPV and e-Transport.",
+ "whenToUse": "Use when a Romanian business needs to issue invoices, record payments or submit to e-Factura or e-Transport.",
+ "tasks": [
+  "create invoices",
+  "manage clients",
+  "record payments",
+  "submit to e-factura",
+  "access spv messages",
+  "file e-transport declarations"
+ ],
+ "effects": {},
+ "flags": []
+}

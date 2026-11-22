@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "61e0f7df964513be04f6f34ae4bc6862c00d41d7222fb59904b81f6e27011bc8",
+ "domain": [
+  "photography/booking"
+ ],
+ "product": [
+  "opus-lumiere"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Read-only information on Opus Lumière London photography services, prices, hours and live availability, with a link to book on the website.",
+ "whenToUse": "Use when someone wants prices or open slots for a London photoshoot with Opus Lumière.",
+ "tasks": [
+  "list services and prices",
+  "get business hours",
+  "check availability",
+  "get booking link"
+ ],
+ "effects": {
+  "fce2a61d864f6f85db5814895ef747f2132d66f1d039ad814a0c90266205c749": "read",
+  "d748512dc9fb72740ff6d5a6a1caca1f340c9f1d5e4c9b83050f5ef0e3a7509d": "read",
+  "cf6a0b9e528d92737e46a32b17cf71f3428822d824d5836c067b22d1c2dd97a4": "read",
+  "2294925d8f2ce1117f192ea2a37fe2123d3e9eb5b23e4aa4c3436c9156079910": "read"
+ },
+ "flags": []
+}

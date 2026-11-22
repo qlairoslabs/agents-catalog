@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f0e7186efc33f9b93a9ba73ee9807833a5fe70c9bc09c53a50296dd5c4781c15",
+ "domain": [
+  "web/website-builder",
+  "infrastructure/web-hosting"
+ ],
+ "product": [
+  "cactal"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Platform for agents to build, host and run websites through a single API.",
+ "whenToUse": "Use when an agent needs to create and host a website.",
+ "tasks": [
+  "build websites",
+  "host websites",
+  "operate websites"
+ ],
+ "effects": {},
+ "flags": []
+}

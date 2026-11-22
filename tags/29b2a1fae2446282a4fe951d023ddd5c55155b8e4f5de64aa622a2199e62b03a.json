@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "29b2a1fae2446282a4fe951d023ddd5c55155b8e4f5de64aa622a2199e62b03a",
+ "domain": [
+  "logistics/shipment-tracking"
+ ],
+ "product": [
+  "furgonetka"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks shipments and lists ordered parcels and carriers from a Furgonetka.pl account.",
+ "whenToUse": "Use when checking the status of parcels sent through Furgonetka.pl.",
+ "tasks": [
+  "track shipment",
+  "list ordered parcels",
+  "list carriers"
+ ],
+ "effects": {},
+ "flags": []
+}

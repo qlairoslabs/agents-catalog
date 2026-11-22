@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a426422dbe0d81d3c568fc01be58c63062f778b3aa78bf6713c026c91856fc52",
+ "domain": [
+  "marketing/email-marketing"
+ ],
+ "product": [
+  "mailcoach"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Reads Mailcoach email lists, campaigns and templates, and can optionally draft campaigns and templates.",
+ "whenToUse": "Use when the user wants to review Mailcoach lists or campaigns, or draft a new email campaign or template.",
+ "tasks": [
+  "read email lists",
+  "read campaigns",
+  "read templates",
+  "draft campaigns",
+  "draft templates"
+ ],
+ "effects": {},
+ "flags": []
+}

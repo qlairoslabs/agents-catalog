@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a308191709a034d0a5b9a26ba8cd6f2f3b8d03f19b97c13eb8b26867a9c14004",
+ "domain": [
+  "retail/building-materials"
+ ],
+ "product": [
+  "steelprofil"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only SteelProfil building materials catalogue with product search, specifications and PLN net and gross prices.",
+ "whenToUse": "Use when a user looks for building material specs or prices from SteelProfil.",
+ "tasks": [
+  "search products",
+  "view specifications",
+  "view prices in pln"
+ ],
+ "effects": {},
+ "flags": []
+}

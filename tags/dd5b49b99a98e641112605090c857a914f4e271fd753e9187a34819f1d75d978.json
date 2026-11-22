@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "dd5b49b99a98e641112605090c857a914f4e271fd753e9187a34819f1d75d978",
+ "domain": [
+  "cloud/azure/api-management",
+  "software/ai/governance"
+ ],
+ "product": [
+  "azure-api-management",
+  "azure-openai",
+  "azure-ai-foundry"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Configures Azure API Management as an AI gateway with policies for caching, token limits, content safety, load balancing and MCP.",
+ "whenToUse": "Use when a user wants to govern, rate-limit or route AI model and MCP traffic through Azure API Management.",
+ "tasks": [
+  "configure semantic caching",
+  "set token limits",
+  "add content safety and jailbreak detection",
+  "load balance ai backends",
+  "add azure openai or foundry backends",
+  "rate limit mcp tools",
+  "track token metrics",
+  "convert apis to mcp",
+  "import openapi to gateway",
+  "test ai gateway"
+ ],
+ "effects": {},
+ "flags": []
+}

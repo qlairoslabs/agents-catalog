@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "86da9b1b711669c59317926f7c469cbcf128ac8a487468c31834fe159a162ee8",
+ "domain": [
+  "design/ui-design",
+  "software/frontend"
+ ],
+ "product": [
+  "material-design",
+  "google-fonts"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Google design helpers: generate Material color schemes, find Material icons and Google Fonts, and get usage guidance.",
+ "whenToUse": "Use when building a UI and you need a color scheme, icons or fonts that follow Material Design.",
+ "tasks": [
+  "generate color scheme",
+  "search icons",
+  "get icon usage instructions",
+  "search fonts",
+  "describe a font"
+ ],
+ "effects": {
+  "eff443e3b5ceb50c83ca6eecd378b40937b3a7f71883cd0aa0bc0d39ee4a0051": "read",
+  "82a6703a160c361badb619f83bb760f786025f2e1de6a58ae10cf45ef7b68027": "read",
+  "a9735b49de698135f9123fb75680ec37c9bd64df60534571319a4faf5c331658": "read",
+  "4d2588093bcf45e326ac70105485d7d2b9c2b4c0e36a3b768f29d8011bf3ce5a": "read",
+  "4abae2963344b029f7bc6df093e5836bea80779e59a3d1dbc1c8576e63b23dad": "read"
+ },
+ "flags": []
+}

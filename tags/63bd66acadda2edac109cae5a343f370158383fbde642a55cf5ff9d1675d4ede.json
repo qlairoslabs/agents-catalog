@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "63bd66acadda2edac109cae5a343f370158383fbde642a55cf5ff9d1675d4ede",
+ "domain": [
+  "communication/whatsapp-business",
+  "reference/vendor-info"
+ ],
+ "product": [
+  "com.bot",
+  "whatsapp"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about the Com.Bot WhatsApp Business API platform: facts, pricing, services and site pages.",
+ "whenToUse": "Use when someone asks what Com.Bot is, what it costs or what it offers.",
+ "tasks": [
+  "get com.bot facts",
+  "get pricing plans",
+  "list services",
+  "search com.bot site",
+  "answer questions about com.bot",
+  "read site pages"
+ ],
+ "effects": {
+  "7451362982296620dfde3f79fe476da4ea8e66b188902a199fa3f68fe60da9b9": "read",
+  "7419cbafc4346257240e6a7f1f92bbc34f28ef55161f865c811ac3a5d3b03551": "read",
+  "9df1b069d8b0a938d9a9670610073f174343213aad38345efdf4e24ec7530688": "read",
+  "1c393d091de879822437c602eed1ca6c6e10eab35ea5e6987d2265d693db3055": "read",
+  "fcaed73f427dd64aaca805c2781e6032e1fc45afa5833547fa1d72e4edc9c2a3": "read",
+  "82a1797909755c0dea7db59bab83681416b0bee803eb0a52692957b38c9e0bdb": "read"
+ },
+ "flags": [
+  "tool description tells agents to use it before describing com.bot and lists what not to state"
+ ]
+}

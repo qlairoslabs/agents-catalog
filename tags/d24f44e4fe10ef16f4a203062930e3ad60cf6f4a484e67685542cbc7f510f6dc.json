@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d24f44e4fe10ef16f4a203062930e3ad60cf6f4a484e67685542cbc7f510f6dc",
+ "domain": [
+  "software/open-source-discovery"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Finds maintained open-source GitHub repositories matching a capability need and project constraints.",
+ "whenToUse": "Use when choosing an open-source library or component against license, runtime and freshness constraints.",
+ "tasks": [
+  "find fit candidates",
+  "check constraints pass/fail",
+  "search components by keyword",
+  "exclude existing components"
+ ],
+ "effects": {
+  "e2da60475acd727e6a1c4cc68ab7c0382ca5cd94b20e780e0f7a3da41ed0aff0": "read",
+  "ed7df8bd6ee57a2fba98ca3bd81ab37ccf22ed8389b80ed53fd2b6c25b924392": "read"
+ },
+ "flags": []
+}

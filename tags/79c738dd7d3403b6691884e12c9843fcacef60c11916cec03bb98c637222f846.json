@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "79c738dd7d3403b6691884e12c9843fcacef60c11916cec03bb98c637222f846",
+ "domain": [
+  "email/signatures",
+  "marketing/branding"
+ ],
+ "product": [
+  "gmail",
+  "outlook",
+  "apple-mail",
+  "thunderbird",
+  "signamail"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "keep-in-touch",
+  "stay-compliant"
+ ],
+ "summary": "Generate HTML email signatures for French businesses, list required legal mentions per profession, check SPF/DKIM/DMARC and give install steps.",
+ "whenToUse": "Use when creating an email signature for a French professional or checking an email domain's deliverability records.",
+ "tasks": [
+  "generate HTML signature",
+  "list professions",
+  "get legal mention rules",
+  "check SPF DKIM DMARC",
+  "get install instructions",
+  "view plans"
+ ],
+ "effects": {
+  "b606c9e9163eb04cb30f6ce2b9c76e1f51bd534a4f908c5efa8ceca8ae0aa8f0": "read",
+  "2d23bd4e71d3143ce7a1529b05c2c67962308e8d6d3f4caf668319587c2f30a5": "read",
+  "ed904bbbda0155ba67031b8b8b26b4d96f446c15890b4923cdfe8aeac8c2e08b": "read",
+  "c795c906c69a8222446e27af42b2866d100e1d4d0f403a9bf912e9121c2b43f4": "read",
+  "77bc090576a3c8cbd38228e6a471ac489fc6b65531e5909e609e7cd312dd55b0": "read",
+  "b11d676a836e3a7e25335e5da3880a6eccc416a7cb4d7ad1c510cc60d1f1af29": "read"
+ },
+ "flags": []
+}

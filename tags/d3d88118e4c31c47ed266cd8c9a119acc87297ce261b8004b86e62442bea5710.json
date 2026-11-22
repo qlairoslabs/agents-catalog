@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "d3d88118e4c31c47ed266cd8c9a119acc87297ce261b8004b86e62442bea5710",
+ "domain": [
+  "finance/company-data",
+  "data/public-records"
+ ],
+ "product": [
+  "sec-edgar",
+  "fdic",
+  "irs"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Citable US company, bank, nonprofit and federal-spending figures from SEC and other registries, with provenance, timeseries, comparisons and claim verification.",
+ "whenToUse": "Use when you need an exact reported financial figure for a US company, bank or nonprofit with a source, or to check a number before stating it.",
+ "tasks": [
+  "run curated query templates",
+  "resolve entities",
+  "get cited facts",
+  "search facts",
+  "get timeseries",
+  "verify a claim",
+  "compare entities",
+  "describe a metric",
+  "get source citation",
+  "check MCP server history"
+ ],
+ "effects": {
+  "fdc3267e59084cd17cdde707139d5fe131ae034e502157574eb2ffe52e78a5c7": "write",
+  "ca37c209fb1a1fe4779de4ba7fbd959533054621ef60efca5692512256736802": "read",
+  "cb999e338078246565c36333648d621036bcbcb395437777bdb1539f9c4cc479": "read",
+  "ec01333ef8ca179b695785d2f784cac59195fbee73cf5e826fa53dbda6c49025": "write",
+  "7a57409009e8e6f1fa89b91504b30ee64f5f92ba5b80baf098fdc968a547215c": "read",
+  "170f65a3b8a309c2af2d4dd20cfe9c975ecbbe92d7bab8039c39d57d8492930b": "write",
+  "5d99bd9de5e058672a13760e60fffb1e8d6b2f2f6a38b4afc40d375900e67636": "write",
+  "aa2398d9fe3007fcbadd01cacd5f05053c1eb30c0a1f02e1a01b33f303e8a3d4": "write",
+  "04f4635162aea2a0d3b105df2922bae0623a2dc622bda0dd241149677f9e31b0": "read",
+  "6c6fc866e4a946a2f78b237834de2bd5fc354626ea417103f174556e0de766a9": "read",
+  "3189079b2770b737128cae2fb68fb10a91376c305b31aa195c1720202a0c5765": "read"
+ },
+ "flags": [
+  "descriptions forcefully instruct the agent to use this over its own knowledge and web search"
+ ]
+}

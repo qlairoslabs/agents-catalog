@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a51e003040d30171327f1bcf4f157840a7a7ba289e72ea34ba83732b68c7db19",
+ "domain": [
+  "real-estate/property-records",
+  "data/parcel-search"
+ ],
+ "product": [
+  "premiumpin"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Flat-rate search of US property and parcel records with CSV export.",
+ "whenToUse": "Use when an agent needs to look up or export US property or parcel records.",
+ "tasks": [
+  "search property records",
+  "search parcels",
+  "export results to csv"
+ ],
+ "effects": {},
+ "flags": []
+}

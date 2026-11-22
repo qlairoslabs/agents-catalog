@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "24159988756d9ee73c0971dd76dbfbd581eda4a5086e030885e7bf16b4684c65",
+ "domain": [
+  "ai/agent-memory",
+  "data/vector-search"
+ ],
+ "product": [
+  "gnosis-memory",
+  "google"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Hosted persistent memory with vector search for AI agents, secured with Google sign-in over OAuth.",
+ "whenToUse": "Use when an agent needs to store and later retrieve information across sessions by semantic search.",
+ "tasks": [
+  "store memories",
+  "search memories by meaning",
+  "recall past context"
+ ],
+ "effects": {},
+ "flags": []
+}

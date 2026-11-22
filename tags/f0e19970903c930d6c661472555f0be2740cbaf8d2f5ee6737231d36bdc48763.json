@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f0e19970903c930d6c661472555f0be2740cbaf8d2f5ee6737231d36bdc48763",
+ "domain": [
+  "marketing/reputation-management",
+  "reviews"
+ ],
+ "product": [
+  "google",
+  "trustpilot",
+  "tripadvisor",
+  "g2"
+ ],
+ "audience": [
+  "marketing",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Fetches customer reviews from Google, Trustpilot, TripAdvisor, G2 and dozens of other platforms.",
+ "whenToUse": "Use when collecting or monitoring online reviews of a business across platforms.",
+ "tasks": [
+  "fetch google reviews",
+  "fetch trustpilot reviews",
+  "fetch tripadvisor reviews",
+  "fetch g2 reviews",
+  "monitor reviews across platforms"
+ ],
+ "effects": {},
+ "flags": []
+}

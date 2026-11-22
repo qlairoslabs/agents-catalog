@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "50080196309b10ad46379cf17ef0a28f75733309d904d8a748d7354d4e5d9caf",
+ "domain": [
+  "legal/litigation-research",
+  "data/public-records"
+ ],
+ "product": [
+  "docket-nexus"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches public US federal court cases, company litigation profiles, docket entries and document metadata.",
+ "whenToUse": "Use when researching federal lawsuits involving a company or looking up a case or docket.",
+ "tasks": [
+  "search cases",
+  "get company profile",
+  "list company cases",
+  "get case details",
+  "list docket entries",
+  "get document metadata"
+ ],
+ "effects": {
+  "4d4e8bb894b7105675575174a9007f508435cd26f222edd174c3fde28c3086d3": "read",
+  "811932b9be4ee3af3f365f6f198c85f3d10631b68343515f40c8cf616cdd855a": "read",
+  "75b915eceb802af434eb6b9dbd988625b5e93e44d302ee5fdfd23aad457b25e8": "read",
+  "3401ce0d6e808cb2a77a4ce9e2dee82bd6ffda33ecda28c55ebea99d1d8eca2d": "read",
+  "a1c5c20c42eb14450ba1b1238925e367b05f6e73079bb13a990f84ab648e29d7": "read",
+  "5812cf4c1b40e6ad90b4bccff6e64c7b6c4944033717868a4893f5542fb498a8": "read"
+ },
+ "flags": []
+}

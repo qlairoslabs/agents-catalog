@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "b0a385f1c8ee3e7b924fbba505f372e66d7ffb80f5b6e122b161cca9895a9f77",
+ "domain": [
+  "finance/stock-market",
+  "finance/analytics"
+ ],
+ "product": [
+  "quantape",
+  "x402"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Stock screens, per-stock earnings and guidance insights, market mood and sector rotation, and correlation-based portfolio diversification analysis.",
+ "whenToUse": "Use when researching US stocks, screens, earnings expectations, market conditions or portfolio concentration.",
+ "tasks": [
+  "browse stock screens",
+  "list screen members",
+  "get earnings analytics",
+  "get market overview",
+  "get single-stock insights",
+  "track screen changes",
+  "find correlated peers",
+  "analyze portfolio diversification",
+  "read watchlist analytics"
+ ],
+ "effects": {
+  "69b3a3abb1edcbd4b8690d640ad26cc4408a1b2b54d5e2500ad7966ea9b2e387": "read",
+  "e00b85dbd3ab9db5e5657e5f606e054c79bc57cf614b3be7913aab965f0c81bb": "read",
+  "565c11971ff2539f345d007a63c8dc0cd86351b335a7c9d016d5ecf55b4056b3": "write",
+  "5caaa12484036b9dd7f6a2f519fe36fac3f1d1dc546d361719c42a1d45e0d9c0": "write",
+  "02a9122f89832d4adb32d68f3063daca8da5c38923ec4785eb64362979b4c7e2": "write",
+  "0abe9488c7ec9f02bf3349750000f3cada68296f39dd8503c0da2568a8a3c2c6": "write",
+  "270ea7d0aae22da61a5bbe6eed5f0dd783f3b6a28030af8ef79e56a73c9f1d6f": "write",
+  "b9c6bd21c8f4c99e8bf06e29ba1523c2da920805e62d18e179f6ba90a3bd08db": "write",
+  "8091ced4be4256524160887b82142e0ebc71f71b26d1ad5ebf15a4e6b2ce9bf5": "write",
+  "eb916d06704c7077454e5a3e41dfedb5a1d0ee998806ef4ab457d103826fc9ae": "write",
+  "739430c0b90f6da4b5c8d8711b5380886f1a81e73eda3ccafda6033d473f08eb": "write",
+  "d70ce84c047585e11bc45b00fdf0705672b8f1fe77b440c866b1c49cd9283c43": "write"
+ },
+ "flags": [
+  "metered tools can charge per call via x402 crypto payments beyond free allowance"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4f093a145ad50160fe96fd03cf36093cfa2eef9f5c931f5038fb940bfc889b69",
+ "domain": [
+  "finance/payments",
+  "software/development"
+ ],
+ "product": [
+  "paypal"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "build-software"
+ ],
+ "summary": "Helps integrate PayPal payments, subscriptions, invoices and disputes using PayPal APIs and its MCP server.",
+ "whenToUse": "Use when building or managing PayPal payment, subscription, invoice or dispute flows.",
+ "tasks": [
+  "integrate payments",
+  "set up subscriptions",
+  "create invoices",
+  "handle disputes",
+  "use paypal apis"
+ ],
+ "effects": {},
+ "flags": []
+}

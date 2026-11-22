@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "91cfd6e7572c01df61a6e01ad1cd499675f8669ca2dafaf30536297f739f1e4d",
+ "domain": [
+  "marketplace/government-surplus-auctions"
+ ],
+ "product": [
+  "bidprowl"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live US government surplus auctions and gives sold-price comps and deal scores.",
+ "whenToUse": "Use when finding or valuing government surplus auction lots for buying or resale.",
+ "tasks": [
+  "search listings by ZIP radius",
+  "get listing",
+  "sold price comps",
+  "flip score",
+  "batch comps",
+  "sold history",
+  "check API usage"
+ ],
+ "effects": {
+  "7406f8210d3fd74a0a3a4fce8842d1832b44da14066b109c876be2a2e1c744b4": "read",
+  "e0ce56ce8f9389b5e265a7ae466fe663ba7dd5ec57bcbfcf2ab3a34038181c96": "read",
+  "b259a4a83752bea5f34f65cf68740e2e43a1734f363d5e95fbb12ca512758bd8": "read",
+  "47818b01cdcbcff343d2f8af5add4b2080b742a5b3f10035c8da8982cff49a8f": "read",
+  "a565cbfedcacb4606c39169462ab6ef03f3ef8778ccfaac5c1bcde0ece3e4d84": "read",
+  "c79d42eaea0605dc1e1c76c84a6ec9252d3df5dda669b99c35bd46f3a2fd0368": "read",
+  "926bd240094230a3047bc3d8cc2fcb11282cfa4912b986403db91ccc5d539342": "read"
+ },
+ "flags": []
+}

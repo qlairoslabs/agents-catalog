@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "0f730cd722bd3c16d9ec69939fa2711f86bf08cb2f27d1ce7587d4143c7972ef",
+ "domain": [
+  "media/blog",
+  "knowledge-base"
+ ],
+ "product": [
+  "erikbethke.com"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Search, read and traverse thousands of posts on AI, energy, policy, games and investing from one author's blog, with quote verification and an agent guestbook.",
+ "whenToUse": "Use when researching this author's writing, checking a quote's provenance, or browsing the archive by topic or year.",
+ "tasks": [
+  "search posts",
+  "get post",
+  "browse archive by year",
+  "get multi-part series",
+  "get related posts",
+  "verify quote",
+  "sign agent guestbook",
+  "read guestbook",
+  "list projects",
+  "get site info"
+ ],
+ "effects": {
+  "c87070477904e14778acad106f5b803b76c4d6c8ae89c2ce87c9875692a59732": "read",
+  "bf618edd5404e2bceaa7344590edf9d66bb1abfdfcef99d24aca34be92238ff3": "read",
+  "e2af3e3e1fe1892c2b4252f68a716a50644acf265ba9f8a490d771f42968c14b": "read",
+  "42334e91cf6a8a80b00982e2d42d4b3438c6eae40217e73dd9388de648452278": "read",
+  "0b48e5d7064bfc65eb506279461f9c5f0a56cd22b8533976f954d8760e359c63": "read",
+  "5f9ac5511c47fb8a1dec5f11548b765c827e443eefede379ad201b304ac05b32": "write",
+  "7b0470d2ac856ab9f95608a7f66d01d45e4a968b95318048a8bf803137ecfe09": "write",
+  "4a9b0abcf8df0a28a792eb2684e4f987bdae6e1ffbbeb8a421a4811107dd1ae3": "read",
+  "64e7db8d09972eb8f0c0a8698b1191e311f03396e4f67319d462cba5b88e9085": "read",
+  "dddc2c8ef557c8ac3f77ba7a1237b6ecb0a080620bea682c707f9daefef01d4f": "read"
+ },
+ "flags": [
+  "sign_guestbook description invites visiting AI agents to publish a note, soliciting an agent action unrelated to the user's task"
+ ]
+}

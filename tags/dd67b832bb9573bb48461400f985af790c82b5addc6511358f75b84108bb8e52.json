@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "dd67b832bb9573bb48461400f985af790c82b5addc6511358f75b84108bb8e52",
+ "domain": [
+  "software/cybersecurity/secrets-management"
+ ],
+ "product": [
+  "vaultwarden"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Secret manager for agents that injects secrets from a local vault or Vaultwarden into commands and masks them in output.",
+ "whenToUse": "Use when an agent must run commands that need credentials without seeing the secret values.",
+ "tasks": [
+  "store secrets in encrypted vault",
+  "inject secrets into commands",
+  "mask secrets in output"
+ ],
+ "effects": {},
+ "flags": []
+}

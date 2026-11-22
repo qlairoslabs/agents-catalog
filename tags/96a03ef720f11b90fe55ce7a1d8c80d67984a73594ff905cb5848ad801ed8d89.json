@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "96a03ef720f11b90fe55ce7a1d8c80d67984a73594ff905cb5848ad801ed8d89",
+ "domain": [
+  "media/podcasts",
+  "marketing/media-monitoring"
+ ],
+ "product": [
+  "particle"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Podcast data for agents: transcripts, clips, speaker diarization and tracking of mentions.",
+ "whenToUse": "Use when searching podcast content, getting transcripts or tracking where a topic or name is mentioned.",
+ "tasks": [
+  "get transcripts",
+  "create clips",
+  "identify speakers",
+  "track mentions"
+ ],
+ "effects": {},
+ "flags": []
+}

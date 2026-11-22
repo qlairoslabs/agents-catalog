@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bc8a53e7cc57c3ad8f9aa463d8a9a7f593e7495df0f76cecfb64bc5e7837de2e",
+ "domain": [
+  "support/quality-assurance",
+  "support/analytics"
+ ],
+ "product": [
+  "rulebase",
+  "zendesk",
+  "freshdesk",
+  "five9"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read customer support conversations, calls and QA evaluations gathered from Zendesk, Freshdesk, Five9 and other tools.",
+ "whenToUse": "Use when analysing support conversation quality or reviewing QA evaluations across helpdesk and call platforms.",
+ "tasks": [
+  "read support conversations",
+  "read call records",
+  "read qa evaluations"
+ ],
+ "effects": {},
+ "flags": []
+}

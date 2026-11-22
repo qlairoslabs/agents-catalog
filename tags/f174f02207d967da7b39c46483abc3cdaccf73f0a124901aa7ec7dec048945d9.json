@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f174f02207d967da7b39c46483abc3cdaccf73f0a124901aa7ec7dec048945d9",
+ "domain": [
+  "operations/field-service/scheduling",
+  "operations/fleet-management"
+ ],
+ "product": [
+  "crisphive",
+  "claude",
+  "chatgpt"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Runs field-service jobs, crews and fleet scheduling on a deterministic solver from AI assistants.",
+ "whenToUse": "Use when the user needs to plan or adjust field jobs, crew assignments or fleet routing.",
+ "tasks": [
+  "schedule jobs",
+  "assign crews",
+  "manage fleet",
+  "run solver"
+ ],
+ "effects": {},
+ "flags": []
+}

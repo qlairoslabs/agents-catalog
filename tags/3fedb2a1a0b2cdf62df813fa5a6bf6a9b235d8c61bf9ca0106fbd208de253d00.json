@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "3fedb2a1a0b2cdf62df813fa5a6bf6a9b235d8c61bf9ca0106fbd208de253d00",
+ "domain": [
+  "communication/email"
+ ],
+ "product": [
+  "busymail"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Reads, organizes and sends email from existing accounts, with sending gated by user approval.",
+ "whenToUse": "Use when a user wants an agent to triage, organize or draft and send email from their existing mailboxes.",
+ "tasks": [
+  "read email",
+  "organize mailbox",
+  "send email with approval"
+ ],
+ "effects": {},
+ "flags": []
+}

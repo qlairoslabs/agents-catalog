@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "0204b26f3d1cd9a671d33f6b6aaccbf28e49f2f129d3534ad5d688d49ad9541f",
+ "domain": [
+  "aviation/regulations",
+  "legal/compliance"
+ ],
+ "product": [
+  "casa",
+  "faa",
+  "easa",
+  "icao"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Searches CASA, FAA, EASA and ICAO aviation regulations and returns verbatim clause text with citations.",
+ "whenToUse": "Use when an aviation regulatory question needs the exact rule text and citation.",
+ "tasks": [
+  "search aviation regulations",
+  "fetch full regulation clause",
+  "cite section references"
+ ],
+ "effects": {
+  "9e850e0cbbe5561ca858017278ca521861dcb87ad5f815dfa806f54f94bf8adc": "write",
+  "7e640955d4b4ce90e477ebe2d856766466faabcd370c00604d9324aa90590d47": "write"
+ },
+ "flags": []
+}

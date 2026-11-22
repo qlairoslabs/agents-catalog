@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c95d0bb58f1e6ebe815d9044b329722b879218d726edb9d402f03fafda773955",
+ "domain": [
+  "software/backend",
+  "software/testing"
+ ],
+ "product": [
+  "firebase",
+  "firestore"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs local Firebase emulators for Firestore, Auth, Storage and Functions with logs and rules checks.",
+ "whenToUse": "Use when developing or testing Firebase code locally without touching production.",
+ "tasks": [
+  "run firestore emulator",
+  "emulate auth",
+  "emulate storage",
+  "run functions locally",
+  "read logs",
+  "check security rules"
+ ],
+ "effects": {},
+ "flags": []
+}

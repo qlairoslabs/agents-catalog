@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "c149d94063be9b0b9b651084442253a26587406ef6514277fce728715c52e500",
+ "domain": [
+  "social-services/food-assistance",
+  "nonprofit"
+ ],
+ "product": [
+  "feed-america",
+  "snap",
+  "wic",
+  "fema"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds US food pantries, meal programs, SNAP and WIC resources and active D-SNAP disasters, with official state portal links.",
+ "whenToUse": "Use when someone in the US needs food assistance nearby or help applying for SNAP or WIC.",
+ "tasks": [
+  "find food resources",
+  "get resource details",
+  "get state SNAP portal",
+  "get state WIC portal",
+  "list active disasters",
+  "get organization info"
+ ],
+ "effects": {
+  "527bff58c01d14b2c946e83cda61042a9675e7616484f40ffc9a408feeee4808": "read",
+  "d6f66cab7e484f29350f6257213e7cbd8e86512df22b717e7195c2c938bec036": "read",
+  "a29c634bab0bace41bac2bb1963882412610bb61f701fc2b0a5b544d133659ea": "read",
+  "13bba635c5b80d0ab53fe94598422012fb401b2e376ef81c3b78525f7c5035ce": "read",
+  "57775433e3808d995394e6faf19045c0db6c089fd56cf87c25979643c9377e58": "read",
+  "3066eaf369a08b614201fe4b813be52dc37b4e20ad43d31bdb1a6ac0c69703bf": "read",
+  "f139c64847e851d994bb64abfa9c327d469b16f68da3a68c861a9bc9d7031c6f": "read"
+ },
+ "flags": []
+}

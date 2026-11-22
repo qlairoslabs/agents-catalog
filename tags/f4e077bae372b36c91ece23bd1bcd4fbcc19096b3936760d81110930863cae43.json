@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f4e077bae372b36c91ece23bd1bcd4fbcc19096b3936760d81110930863cae43",
+ "domain": [
+  "health/fitness/running"
+ ],
+ "product": [
+  "pb-runner"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Running coach integration that reads a user's runs and recovery data and writes training sessions to their watch or phone.",
+ "whenToUse": "Use when a runner wants training analysis or new workouts pushed to their device.",
+ "tasks": [
+  "read run history",
+  "read recovery data",
+  "create training sessions",
+  "sync sessions to watch or phone"
+ ],
+ "effects": {},
+ "flags": []
+}

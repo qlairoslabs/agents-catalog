@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c689a1f7ebbf1b3a4be1f4d8cd3d1668e9e82b8e12f7b3338cad8649443ec858",
+ "domain": [
+  "media/video-analysis",
+  "ai/video-understanding"
+ ],
+ "product": [
+  "valossa"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes videos to produce transcripts, summaries, scene and shot detection, clips and answers to questions.",
+ "whenToUse": "Use when an agent needs to understand, summarize or clip video content.",
+ "tasks": [
+  "transcribe video",
+  "summarize video",
+  "detect scenes and shots",
+  "create clips",
+  "answer questions about video"
+ ],
+ "effects": {},
+ "flags": []
+}

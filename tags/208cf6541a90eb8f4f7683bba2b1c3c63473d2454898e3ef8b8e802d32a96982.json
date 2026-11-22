@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "208cf6541a90eb8f4f7683bba2b1c3c63473d2454898e3ef8b8e802d32a96982",
+ "domain": [
+  "software/api-design",
+  "software/documentation"
+ ],
+ "product": [
+  "swagger",
+  "smartbear"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives AI agents access to SmartBear's Swagger tools for working with API definitions.",
+ "whenToUse": "Use when an agent needs to read, design or manage OpenAPI/Swagger API definitions in SmartBear Swagger.",
+ "tasks": [
+  "access swagger api definitions",
+  "work with openapi specs"
+ ],
+ "effects": {},
+ "flags": []
+}

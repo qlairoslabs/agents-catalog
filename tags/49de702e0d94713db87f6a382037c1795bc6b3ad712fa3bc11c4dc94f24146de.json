@@ -1,0 +1,65 @@
+{
+ "classifier": 2,
+ "contentHash": "49de702e0d94713db87f6a382037c1795bc6b3ad712fa3bc11c4dc94f24146de",
+ "domain": [
+  "finance/crypto-market-data",
+  "finance/trading-analytics"
+ ],
+ "product": [
+  "ensotrade",
+  "binance",
+  "bybit",
+  "bitget",
+  "hyperliquid",
+  "okx",
+  "gate"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Live crypto perpetuals data and analytics: funding, open interest, order flow, options, execution cost and exit liquidity, plus formula backtesting.",
+ "whenToUse": "Use when a user asks why a crypto coin is moving, what funding or positioning looks like, how to route or size an order, or wants to test a trading formula.",
+ "tasks": [
+  "explain price moves",
+  "funding rates",
+  "order flow and open interest",
+  "market snapshot",
+  "top movers",
+  "options chain",
+  "multi-venue order routing",
+  "exit capacity and position limits",
+  "maker vs taker value",
+  "stablecoin conversion cost",
+  "fetch time series",
+  "test and save strategy formulas"
+ ],
+ "effects": {
+  "5efa9a1639c077119df8e4273425fe4245fe7230aa7510e33a2d7cba6ce2ecf3": "read",
+  "8aec9ab6ea8f16481cda4df94b6f7bc3838a87ab3eb133b90238c7e5e0c73dc5": "read",
+  "b0b708a65ec2f34b9d4237796dd051073fca68f5c835359b3110851b8a730234": "read",
+  "1fb5d3f92cf9d5fca8a967edee715d05bee87a6875a44f13a697d1d0c4cd9c8c": "read",
+  "1364099eb445ad49a81e6e531bb61a4557343854d349877939719bd235f6ad2f": "read",
+  "d4c43546847f09e5c9c01e8f3aab644cc9c1b995d11394fff2ec472928e6d3e9": "read",
+  "cc6c4154e80d87475107e18aa358e0d9d968cb7a4c34a15f282c5dd95ff91eeb": "read",
+  "b5e947becef9f78cccf96e590d5e3541dbddc175edc5ffd7326333d2e9f83731": "read",
+  "01246868131dfce6e43f0d74a18f4ed8d95daf829bc80523bea4740896109dc8": "read",
+  "c1f1ba51adffb37df536b241db8540dab5c85ad4f752eef444cde8e2cf8809a7": "write",
+  "3ebbbe5dce0f10ef0d4288bdc4b36e5f7392323b6be8048ee467d8ae730087fb": "write",
+  "3c7d5d0abcbde3ba265f85fdab41d99d5588f19de5cc628c32121161a934e4b0": "write",
+  "31259faf911ddd3b507041f4ef2aa1306b794e1ff159d42f87a58bc87fe97a6e": "write",
+  "6e3e9e1c0b24fa415b77e66675c15d2d60a2a2feb0747950472c53d329f66ad8": "read",
+  "660edacb2ee234e48859d9773113e81c58d78bec3cf74051fcc36413d2b5af56": "read",
+  "c5d14934dbc6463bd6a3d5ee7c2066e839118df58224ee2e133072f73d50308f": "write",
+  "a718f4110868a122f19fee07b509e3cdfb9993de345bcaa2c3d15627257fc00c": "write",
+  "89eddc105350346c13c441cbf0c321f21fedf8a7911f577e410e391ecbb86479": "write",
+  "a38de28560ac0a00d15fd1708ec481f149abd721f3cd79fabfbd0c0a9ccc0c99": "write",
+  "ae9d07e55c94cd7ca43d32d5e4c28357a040bed24e0cd613d016acd801a0acb5": "write",
+  "a847857dc27d8c34b7ad1f0903623eff7d8fce0e49e96dda29fa5b7c6a2b4f43": "write",
+  "eb4d6750de4ff4172d5bf344fe5abb2e4988fdf73d1d62d94a6cbe32faea10e4": "write"
+ },
+ "flags": []
+}

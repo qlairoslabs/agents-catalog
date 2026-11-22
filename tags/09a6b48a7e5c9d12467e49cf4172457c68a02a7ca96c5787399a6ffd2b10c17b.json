@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "09a6b48a7e5c9d12467e49cf4172457c68a02a7ca96c5787399a6ffd2b10c17b",
+ "domain": [
+  "software/ai-app-builder/deployment"
+ ],
+ "product": [
+  "genmb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Lists, reads, edits and deploys AI-generated apps built on GenMB.",
+ "whenToUse": "Use when modifying or deploying an app created with GenMB.",
+ "tasks": [
+  "list apps",
+  "read app code",
+  "edit apps",
+  "deploy apps"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "16111160375ed62adde2ba4bb8c77e807a773b87da019ee843e669a80cefcd1c",
+ "domain": [
+  "finance/wealth-management",
+  "ai/shared-memory"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "run-the-money"
+ ],
+ "summary": "Shared memory server supporting product classification in wealth management.",
+ "whenToUse": "Use when agents or teams need shared context for classifying wealth management products.",
+ "tasks": [
+  "store shared memory",
+  "recall shared memory",
+  "classify financial products"
+ ],
+ "effects": {},
+ "flags": []
+}

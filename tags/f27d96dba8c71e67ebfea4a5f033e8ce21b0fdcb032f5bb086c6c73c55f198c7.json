@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "f27d96dba8c71e67ebfea4a5f033e8ce21b0fdcb032f5bb086c6c73c55f198c7",
+ "domain": [
+  "research/literature-search",
+  "research/citation-analysis"
+ ],
+ "product": [
+  "openalex",
+  "pubmed-central",
+  "inciteful"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Searches scholarly literature on OpenAlex and analyses citation graphs for similar papers, paths, full text and BibTeX/RIS export.",
+ "whenToUse": "Use when doing literature review, finding related papers from seed DOIs, or exporting citations.",
+ "tasks": [
+  "keyword search papers",
+  "fetch paper records",
+  "find similar papers",
+  "explore citation network",
+  "connect two papers",
+  "query citation graph with SQL",
+  "read open-access full text",
+  "export BibTeX or RIS"
+ ],
+ "effects": {
+  "e8ed01c07f683b214213e8ae423822ca47fb54758b834bcd8991c6518d88d426": "read",
+  "338024519315039f77eb095696a6c5873580d0e5406439cb95e14df26840b8c6": "read",
+  "7cf6debc7036ea38868eaaa8bb5b82c6ba6c3308ac92730bbc4c78fccdb438e2": "write",
+  "0fc23a5107cc3405497f61b36708520eea352277acbfcfd5a169a55531165250": "write",
+  "ceb203ffd804c6c6cb45fe277e9f689786c23151445d41247b1a25f221d14efa": "read",
+  "7de2d337a0a7d40647b243d02d03e0cf5d61fbbaa9dd9f9afa33793109c3a454": "write",
+  "c5502c3ff18eb57cc852e9ee3c968c52ff9ce69c6dd6b498a27fa0c37bd1bfba": "read",
+  "ff8723a02045e4542b1c779e14182a8c1d2916d992b2b1eebc05c55f320280a4": "read"
+ },
+ "flags": []
+}

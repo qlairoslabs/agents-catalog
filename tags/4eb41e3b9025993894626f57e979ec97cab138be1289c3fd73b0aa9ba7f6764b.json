@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4eb41e3b9025993894626f57e979ec97cab138be1289c3fd73b0aa9ba7f6764b",
+ "domain": [
+  "data/business-intelligence"
+ ],
+ "product": [
+  "preset",
+  "apache-superset"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects assistants to Preset workspaces to explore datasets, charts and dashboards.",
+ "whenToUse": "Use when querying or exploring data, charts or dashboards in Preset.",
+ "tasks": [
+  "explore datasets",
+  "view charts",
+  "view dashboards"
+ ],
+ "effects": {},
+ "flags": []
+}

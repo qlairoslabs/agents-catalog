@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cfa524560580a1af7e0e34f7672f99b3025d1badd3e52ccfd1a001239aa38aad",
+ "domain": [
+  "data/brand-logos",
+  "automotive"
+ ],
+ "product": [
+  "motomarks"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Car logo API and image CDN for searching automotive brands, fetching brand data and building logo URLs.",
+ "whenToUse": "Use when an app or document needs car brand logos or automotive brand data.",
+ "tasks": [
+  "search car brands",
+  "fetch brand data",
+  "build logo cdn urls"
+ ],
+ "effects": {},
+ "flags": []
+}

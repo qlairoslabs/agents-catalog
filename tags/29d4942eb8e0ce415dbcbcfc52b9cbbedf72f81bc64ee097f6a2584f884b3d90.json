@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "29d4942eb8e0ce415dbcbcfc52b9cbbedf72f81bc64ee097f6a2584f884b3d90",
+ "domain": [
+  "commerce/wine-retail"
+ ],
+ "product": [
+  "arvi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches the catalogue of Swiss fine-wine merchant ARVI, with prices in CHF, vintages, availability and purchase links.",
+ "whenToUse": "Use when a user wants to find, compare or buy fine wines deliverable in Switzerland from ARVI.",
+ "tasks": [
+  "search wine catalogue",
+  "get catalogue facets",
+  "list all vintages of a wine",
+  "find similar wines",
+  "get product details and buy link",
+  "get shop and delivery info"
+ ],
+ "effects": {
+  "103d72715263d8e40c35a5746654d585d5235bcf74bc2892e19563914fd4e7e6": "write",
+  "9b244437e53ea948543f91255e6716cb7aec191bbd544b2e4aae66e63527336b": "read",
+  "c72d27d35dbe36fde43c175a1089daa5b8c3ad4f3f4e03f91299da76a8ea3222": "write",
+  "478775a26015f8d831258f1bc4598d60e6c9f961487527d9a8a512a3ba546d59": "read",
+  "259187127e842e3bde41080df0c1ea04a57e456d45dc0993d2c562d3763336f9": "read",
+  "cd5a5476eb7594707df681a8a9c5e0d13d4b414f380c6687e1b7494a552a500c": "read"
+ },
+ "flags": [
+  "tool description tells the agent to use it instead of a web search for wine questions"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "classifier": 2,
+ "contentHash": "1978b9dc4a9e2d3aa49cc1d4f34462ce17a4a7ac014fb5402d81138148e13f5f",
+ "domain": [
+  "finance/tax-reference",
+  "legal/compliance",
+  "hr/payroll"
+ ],
+ "product": [
+  "asiaref",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Cited government reference data for Asian and other countries: tax rates, VAT, minimum wage, holidays and filing deadlines, plus VAT, tax and employment-cost calculators, mostly pay-per-call.",
+ "whenToUse": "Use when you need sourced statutory figures, business-day calculations, VAT or late-interest computations, or filing deadlines for a specific country.",
+ "tasks": [
+  "list data series",
+  "get public holidays",
+  "check business days",
+  "get statutory rates",
+  "compute VAT",
+  "compute income tax",
+  "check minimum wage",
+  "compute statutory interest",
+  "cost a hire",
+  "check invoices",
+  "list filing deadlines",
+  "validate tax IDs"
+ ],
+ "effects": {
+  "9fa17e4b88d9cc44b52d853b753b476bf4824a4a734df95d90e2de503b9b916a": "write",
+  "cf93cd9a3666b17b1839cc22a6a31e207aff1575349b9bf2ee7520c517198a85": "read",
+  "f42f5f045d00dead47d6dfecafcb1696ed1d513fc4380e269166d9f3484b0b2f": "read",
+  "fd3ca5c06eb44002062a1eb961fc719eb9baa1256b653e67a5d23b0b5c95582a": "read",
+  "a58b77f22841e8170cf3a0683e0a44cf73348eb2ae93d6c0f6402d1f5a179a53": "write",
+  "90e3491196df7fb0a14386ef1d9702057775bee0ce39428f2e3e6c79fa317534": "write",
+  "53c625d5a14a3cb32aab949306d31bf0ca61da311f5463b960fc6998f060a14c": "write",
+  "4a770e813b7a802acc0b8ba36e52ecb7556f4a5f73a307eb881a07c33faa1ec5": "read",
+  "bd12eb8d1049f70c3482eae872f703a7865d63bf706ba55265863d2d3dd629b0": "read",
+  "9cd0b24b91b17d42c3a37552b83ccca28c74f2a2129806e8abca003f59b90630": "write",
+  "254b004b07a8943af12822a23469e955a971cf5b22eadd9a2dd52c55a34039d1": "write",
+  "6598026a285bb328afb5b38c93b0715890eebb75025b3516512ac421a08c52c7": "write",
+  "e5e047c1a6c7c500b88233dc71c04db417b8f20d593f5a55a05d9943c131d60d": "write",
+  "afc3df723fc78ac48c28047c4cd56ae9b947753cad8e19c13a6a29176bdf387e": "write",
+  "9235a5bec8d4333997e22d3ab7351def1946404d1ba2773d71cb93e2bc68e188": "write",
+  "b0212b4898d553435976aba2476f850d2d4626c89c96fd3a0b57e81692022abc": "write",
+  "3225b3c46d77be042a15e6cb448301c7378ef5d02354c097e002c4a471279d3a": "write",
+  "b63490dddd20ec2a0f4c7b47cd0956dd09509b05a302d9d563616e809773632f": "write",
+  "dc98f89793ed78a6f34233c129002b84931808b73106aec5b6583f3dbfb838f4": "write",
+  "8f82f5858badb90799b9cf50950871c7035b06cd8c6186479620d06b32c6f5bc": "write",
+  "cc00e79ef24335f9fb7b0b2b71f12dea0e5c92874e47bb5af90a6ddd1064a21c": "write",
+  "74eeffd5dfb67b7717cb748ea475f9a227954695c6c2ed73f08cdf455e1e3c7d": "write",
+  "c117126ea7dd786434876e172c818fc22648ccdc4d707b6774ffbc005c316511": "write",
+  "7c4e45d1cc806db78ec564e2525f6bf47b171663d30e3eac638da85eb5ac7266": "write",
+  "ba8f1d816ce730c93339e07c51e38bfc11d814a45f234d1b5c4589fc3c6b2d1f": "write",
+  "d4b5f13fb9ec685fbb360a7731262661b61709e6b9ccd461dc6825d1fafa4454": "write",
+  "b6b0006dddc15aa6d512b717670516e1e004cd932591b45034e7939580fa9a86": "read",
+  "926e5eefc68c43aa9d5f0470219d1e19b929a7cc204dffab25169410813ad7e3": "read",
+  "65da08b355cfeb0e43f67ca780ffa1ef16cd04a9ea4bbab29bb7a7b4e81b642d": "read",
+  "81c7a61b92497ee59871c09d604142e27d5e2ae03648f3e4c64618aabb7c7427": "write",
+  "3cc75623868ccad7139cf09d64e5353401502a1e3c1b1ecf2220098792d73486": "write",
+  "2634c4f2ea01fa4e7e02f6232705a915a85565a01c029ad61160f61ccf987117": "read",
+  "ab893bcda41a71dc85440cf50c4897a3cb2d2e10032b82b270ca36722eda3b3c": "write"
+ },
+ "flags": [
+  "most tools are paid per call via x402 or API key"
+ ]
+}

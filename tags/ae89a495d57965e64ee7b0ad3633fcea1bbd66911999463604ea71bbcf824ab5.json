@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ae89a495d57965e64ee7b0ad3633fcea1bbd66911999463604ea71bbcf824ab5",
+ "domain": [
+  "commerce/product-data/barcodes"
+ ],
+ "product": [
+  "barcode-report"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up products by UPC, EAN, GTIN or ISBN across over 500 million barcodes, or by product name.",
+ "whenToUse": "Use when identifying a product from its barcode or finding a product's barcode by name.",
+ "tasks": [
+  "look up barcode",
+  "search products by name",
+  "identify isbn"
+ ],
+ "effects": {},
+ "flags": []
+}

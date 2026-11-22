@@ -1,0 +1,72 @@
+{
+ "classifier": 2,
+ "contentHash": "5f9a68a61bc79c052e635ea839ab74bb2c70a36019eaecefcaf46998dbf9c3c2",
+ "domain": [
+  "healthcare/dental/treatment-planning"
+ ],
+ "product": [
+  "toofi",
+  "stripe",
+  "x402"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Dental treatment planning service that drafts plans, price estimates and patient-facing PDF presentations, with clinic patient data and paid credits.",
+ "whenToUse": "Use when a dental clinic wants to turn clinical findings into a treatment plan, estimate or patient presentation.",
+ "tasks": [
+  "generate treatment plan drafts",
+  "generate treatment plan pdf",
+  "poll plan generation status",
+  "look up dental procedures and prices",
+  "generate patient presentations",
+  "generate price estimates",
+  "start panoramic x-ray markup",
+  "import clinic price csv",
+  "list patients and plans",
+  "view demo data and example pdfs",
+  "check credit balance",
+  "buy credits via stripe checkout"
+ ],
+ "effects": {
+  "d47bfd0697a2cb51dc3536018da6fec3d13cc19d2e681ea792d69c00fdd671cb": "write",
+  "0cea00e3c3270e9490b4d23b75404d6fc3978e40d81ff39965e05c10d2d242f7": "read",
+  "2e411d3fedd8b059e6ba573d7ef7df833db71b5a16cb9969f1fe83a99bd2a33d": "read",
+  "0bac6c3b669c067155d6cc7f17d907914147d2556ecc7e3d58cc7ddfe9fe81ea": "read",
+  "c236fcfc4fdc17ee8e71dcda92d065c6f9fdda0f86cd52917241c9a6c693b14f": "read",
+  "2dbece0ae98c133c64a0e74125b056d07dc40269721441a9e064600f094d92e6": "write",
+  "f6f86ac318c6845b74d91435cd0331dba23045f1b6e5a219e887158cdd7de198": "read",
+  "24da86aa38e15edfd6fe38448e27abc4b906b5d4195f13bf57e5f91b34f33ee8": "read",
+  "4f873473707d573f48e15ead9165d55c5c98ad21ea82cb668c89a38d8ced72a6": "read",
+  "3549cb3f38345f4a3e311d522e8da33d346dffa684d7af856eda4707c01cc24f": "read",
+  "7ce83f6a851e7113bdc3e8bb2149804c810af304b89568c9877b2fd8b726e427": "read",
+  "95113c9b2bad57dee829cafdaebb4e7a9a75fbb7946dfc5b1599f4bf5c5348cc": "read",
+  "4603d145a1461a4037343e5eba63a5f831371a36e0ee8126f56adb8308818e0c": "read",
+  "068540c99e0f3ad82950bd9908f115776e076ebfb91ac6ab3edbe251d5dd0a42": "read",
+  "56f091aecfec522ac8cbe250c174c7c13f474b9c9861ccb54e93ec7ddee2b03f": "read",
+  "4a2079c78387b1204c23bbf439378553bf2773c1e3961d7cc8f1ee124f81b8b3": "read",
+  "482442f4a272b81ed2131ea4de0dfd5cd2933402682214f35402eaa45d66e5a6": "read",
+  "d267e94484e0853cbb873bfb4e4856a3395806c84cd614a97fbebd004c504fc5": "read",
+  "ffba0d8384aca0da2b5f02b722b6168ae0d825523a5c15e0ae70a23a57ecd503": "write",
+  "68c2a713ae5311cdac95aeacbd6a493306027a215bf6e6fc87c83cbde6eea22c": "write",
+  "d3422bbca0e76e10adcb5a4b5bd7d99c2e8cafbd80ff69d20ecbd1a7658f5c61": "write",
+  "03a793a19de235bdfdc1bc7e9c0cf44e05f7032a09eae7c96134178bc62ed701": "write",
+  "8759ab7a8ad92e983358b7a7b6cafa8af3ea94bb25ad5ad36542cecb42fc3338": "read",
+  "fdb70a0aaaaabba4a5ec174f28f11caa122a670212d8897fa4bc43bef9c117ce": "read",
+  "27fc68bc55606326c11a4bc9473d342e0c3dd0dbd17f4d5aaaedf541fee3d588": "read",
+  "357b4a2a16e809e52833cd5d1b71caa698840cb27e80cb421c1c8744837accde": "read",
+  "f81bc01fa88cf028a6c790b26f6b28da059491b17e069723e73f86228fc3f48f": "read",
+  "90ba9ae8889f85310a19060b6dfdb120e8b3383644e88de8f174ed6712bc0aaf": "read",
+  "db42dab2f800ea12aac0a713fc7d63d031c92ca64829a29e4413ff85482c4c70": "read",
+  "45cc46a044e08286f6832e0c9099e43eba1e534d147c7e93c676c4a55bf684a2": "read",
+  "fd5064785849a4a6f90e8fb40766d610aebb47992806abc261b18ca078ccd216": "risky",
+  "49a715e293bcf09c08080b87b5c4034fa244003a4d92ea08f4510ab7a907623f": "risky"
+ },
+ "flags": []
+}

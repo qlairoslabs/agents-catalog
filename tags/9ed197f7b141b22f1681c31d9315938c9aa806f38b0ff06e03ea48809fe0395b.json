@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "9ed197f7b141b22f1681c31d9315938c9aa806f38b0ff06e03ea48809fe0395b",
+ "domain": [
+  "software/feature-flags",
+  "software/release-management"
+ ],
+ "product": [
+  "devcycle"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "DevCycle MCP server for managing feature flags.",
+ "whenToUse": "Use when an agent needs to create, inspect or change feature flags in DevCycle.",
+ "tasks": [
+  "manage feature flags"
+ ],
+ "effects": {},
+ "flags": []
+}

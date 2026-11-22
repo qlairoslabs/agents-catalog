@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "f6594e09545fabbaefa5f45a8f51771b4e88b6e57b762097c459d89d04261e70",
+ "domain": [
+  "education/mathematics",
+  "data/number-theory"
+ ],
+ "product": [
+  "math-tools"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Number theory and number utilities: pi digits, number facts, spelling numbers, numeral systems, GCF/LCM, base conversion and equation images.",
+ "whenToUse": "Use when you need exact number-theory checks, numeral conversion, number spelling or an equation rendered as an image.",
+ "tasks": [
+  "get pi digits",
+  "number facts",
+  "spell numbers",
+  "convert numerals",
+  "compute GCF/LCM",
+  "list primes",
+  "convert base",
+  "check primality and shape",
+  "divisor properties",
+  "render equation image"
+ ],
+ "effects": {
+  "61fe4f3471a1b4959d268d4f2e0215996122d8e89b95c753cb4ca6032a8e46f7": "read",
+  "f9d189502ba78a3c07ae7d3a13525fb8ff0842d9798a02a9a8cae676083b3ee5": "read",
+  "f3e82df0130e00c1706479fb710921b292da3f2e6a72f31a51f5484f5e9fa304": "read",
+  "a5e50d1baf6956c3a8fb3d3cfb3b2ed08ac9e5dd6fdca70688be742fdb29cc0f": "read",
+  "7da82cfc466de25f7bbf6c11d7ceee016bb0a63bc6967169db3c15109b2ccc3d": "read",
+  "fc3b72779d7b278b9d3f6765b9147ee184317b637a06c5e411954cf594c17169": "read",
+  "06772177f77fb54872d2f2ffb31304573746b82a4610651a69ea919ceca4b9b6": "read",
+  "3c2608e48b7e2d5d38a83878ca94252b96f4c4ba0cde3b5b9b5426d47f23b09a": "read",
+  "ca4b90bd7ef410d0007b953d7d2fd0c15b0e5630610e7ea7fb8c66620ed4e05c": "read",
+  "3d3b8049cfa8dd11ea8e7bebd53ec8bff13f0026fd3dfc0c36c91b3d38b63a7a": "read"
+ },
+ "flags": []
+}

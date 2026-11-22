@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3e6a51f6a2f1de76fbee93021a5839000bd94c57c3fdd63c1431ff33ad72269e",
+ "domain": [
+  "legal/case-intake",
+  "compliance/regulated-workflows"
+ ],
+ "product": [
+  "klarefi"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Completes regulated intake workflows and retrieves case files with citations, leaving decisions to humans.",
+ "whenToUse": "Use when gathering intake information for a regulated case or retrieving its cited case file.",
+ "tasks": [
+  "complete intake",
+  "retrieve case files",
+  "cite sources"
+ ],
+ "effects": {},
+ "flags": []
+}

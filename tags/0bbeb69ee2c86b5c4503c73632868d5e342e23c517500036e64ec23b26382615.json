@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0bbeb69ee2c86b5c4503c73632868d5e342e23c517500036e64ec23b26382615",
+ "domain": [
+  "finance/prediction-markets",
+  "crypto"
+ ],
+ "product": [
+  "kalshi",
+  "bitcoin"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only data on Kalshi's 15-minute Bitcoin markets, a graded record of DegenHedge alerts, and a taker fee calculator.",
+ "whenToUse": "Use when you need the current Kalshi BTC 15-minute window, alert track record, or contract fee math.",
+ "tasks": [
+  "get live BTC window",
+  "get graded alert record",
+  "calculate Kalshi fee",
+  "compute breakeven win rate"
+ ],
+ "effects": {
+  "79019977cc12171453a09941cf0125c16870d982b311351c50a945e50329ad17": "read",
+  "c25dc01ecc63dc9cb49b806e24c9240e079134e76e29ce037543e969194da792": "read",
+  "bc3cecf066f8e97efd56ced7915402f960b5e04bf90a20a246b1874ba7c88364": "read"
+ },
+ "flags": []
+}

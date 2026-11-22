@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "8c78fe8b67c1ecbe1694c364e48917a0b6b4d5abd9c6f3dddaa262ed8ca299db",
+ "domain": [
+  "software/webhooks",
+  "development/testing"
+ ],
+ "product": [
+  "hookjar"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Creates public webhook inboxes that capture HTTP requests so agents can receive OAuth redirects, payment callbacks and CI notifications.",
+ "whenToUse": "Use when an external service needs to call back to you and you must inspect the incoming request.",
+ "tasks": [
+  "create inbox",
+  "list inboxes",
+  "wait for request",
+  "list requests",
+  "read request",
+  "delete inbox"
+ ],
+ "effects": {
+  "27a045eb953e555506c5d27a269dbccf063a1ada24c26ec84e3ea4af9318da06": "write",
+  "b33b391bd66cfd3fc13c2c1234249788e4af07d8db744a652d57b86e5537c8d3": "read",
+  "b42bf9ac698f04b9dc44d7fb5b50cf138ebb15ac2a4115d7f54901b83f4f4598": "read",
+  "e3cd42a02562db0f8f81d874df6eed5e13b090c23d6a58eacc38c4b63889e41c": "read",
+  "cc73bf0a352e15322327351bc5c80a662a6526fd49663bb042a34edbae5c59e2": "read",
+  "0f74cd3081ed2679848e552e04c7eafd50c77a3419dc2c08860d33a1b5faa521": "write"
+ },
+ "flags": []
+}

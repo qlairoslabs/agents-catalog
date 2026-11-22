@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2f87089adf1c095f3049072de9c7d3d7fd13f881b956200260f14efea4cf5071",
+ "domain": [
+  "hr/job-search"
+ ],
+ "product": [
+  "alleskralle"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Search over 500k job listings in Austria, Germany and Switzerland and fetch full details with an apply link.",
+ "whenToUse": "Use when someone is looking for jobs in DE, AT or CH.",
+ "tasks": [
+  "search jobs by keyword, location and country",
+  "filter by age and remote",
+  "fetch job details and apply link"
+ ],
+ "effects": {
+  "895c7426966df6089cf61cae764e60fce791015f6e18eba568942fe76d9410c8": "write",
+  "60aaea882d3278bedcd69458ed27aa2d66c050fcf35f2d230ed0dadc5e67ae9c": "read"
+ },
+ "flags": []
+}

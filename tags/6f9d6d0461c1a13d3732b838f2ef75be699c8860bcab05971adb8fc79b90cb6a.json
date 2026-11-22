@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6f9d6d0461c1a13d3732b838f2ef75be699c8860bcab05971adb8fc79b90cb6a",
+ "domain": [
+  "productivity/personal-assistant",
+  "productivity/memory"
+ ],
+ "product": [
+  "cornelius",
+  "claude",
+  "chatgpt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "schedule"
+ ],
+ "summary": "Adds a personal agent with persistent memory and a daily morning briefing to Claude or ChatGPT.",
+ "whenToUse": "Use when someone wants their assistant to remember things across sessions or deliver a morning brief.",
+ "tasks": [
+  "store lasting memories",
+  "generate a morning brief"
+ ],
+ "effects": {},
+ "flags": []
+}

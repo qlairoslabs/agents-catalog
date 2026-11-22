@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "972045842ce4e6f5661291be57f25ab71aacbcc6da6ee54e6f6f86f663ea624e",
+ "domain": [
+  "software/erp/sap",
+  "software/development"
+ ],
+ "product": [
+  "sap",
+  "abap"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server that connects AI agents to SAP ABAP systems.",
+ "whenToUse": "Use when an agent needs to work with code or objects in an SAP ABAP system.",
+ "tasks": [
+  "access sap abap systems",
+  "work with abap code"
+ ],
+ "effects": {},
+ "flags": []
+}

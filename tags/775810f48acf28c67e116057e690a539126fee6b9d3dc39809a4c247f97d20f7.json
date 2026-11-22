@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "775810f48acf28c67e116057e690a539126fee6b9d3dc39809a4c247f97d20f7",
+ "domain": [
+  "software/observability/troubleshooting",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure",
+  "azure-monitor",
+  "applens",
+  "azure-app-service",
+  "azure-container-apps",
+  "azure-functions",
+  "azure-kubernetes-service",
+  "azure-event-hubs"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Troubleshoots Azure production issues using AppLens, Azure Monitor, resource health and KQL log analysis.",
+ "whenToUse": "Use when a user needs to debug failures, outages or performance problems in Azure apps, VMs, AKS or messaging.",
+ "tasks": [
+  "troubleshoot app service issues",
+  "debug container apps and functions",
+  "troubleshoot aks pods and nodes",
+  "fix vm connectivity",
+  "reset vm password",
+  "check nsg and firewall rules",
+  "analyze logs with kql",
+  "check resource health",
+  "find root cause",
+  "troubleshoot event hubs and service bus"
+ ],
+ "effects": {},
+ "flags": []
+}

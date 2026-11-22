@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "08188896528bb97aea321e48b9ef17e95db4f75889bf5d9c43c4888a22db9891",
+ "domain": [
+  "software/remote-access",
+  "operations/device-management"
+ ],
+ "product": [
+  "remote.it"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Hosted connector for Remote.It to list devices, open remote connections, manage services and run scripts.",
+ "whenToUse": "Use when an agent needs to inventory or remotely connect to networked devices and manage their services via Remote.It.",
+ "tasks": [
+  "list devices",
+  "open remote connections",
+  "manage services",
+  "run scripts on devices"
+ ],
+ "effects": {},
+ "flags": []
+}

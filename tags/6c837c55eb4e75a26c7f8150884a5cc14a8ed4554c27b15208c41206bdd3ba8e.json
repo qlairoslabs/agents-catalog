@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6c837c55eb4e75a26c7f8150884a5cc14a8ed4554c27b15208c41206bdd3ba8e",
+ "domain": [
+  "software/ai-datasets",
+  "research"
+ ],
+ "product": [
+  "mozilla-data-collective"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches Mozilla Data Collective's catalog of ethically sourced AI training datasets with filters and dataset details.",
+ "whenToUse": "Use when looking for AI training datasets by task, language, license or format.",
+ "tasks": [
+  "search datasets",
+  "fetch dataset details",
+  "list filter values",
+  "filter by license and language"
+ ],
+ "effects": {
+  "540d70e36b7afcd27f55e4c9882060e183ad5e8de155cf9370942c8f55a60400": "read",
+  "9742d96830fe1868cda81ffca6628137e854c669bc7343d3041a1f57d6830899": "read",
+  "835f99d15b6033a42f96c71877cc02ba1289d05ce1a0e2f0521297c182842126": "read"
+ },
+ "flags": []
+}

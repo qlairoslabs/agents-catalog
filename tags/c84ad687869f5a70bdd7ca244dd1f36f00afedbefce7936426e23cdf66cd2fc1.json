@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "c84ad687869f5a70bdd7ca244dd1f36f00afedbefce7936426e23cdf66cd2fc1",
+ "domain": [
+  "real-estate",
+  "finance/property"
+ ],
+ "product": [
+  "scoreimmobilier",
+  "dvf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "French real-estate tools: content search, rental yield and notary fee simulators, operator identity, and a two-step callback request.",
+ "whenToUse": "Use when a user in France wants to estimate notary fees or rental yield, or request a callback from ScoreImmobilier.",
+ "tasks": [
+  "search site content",
+  "simulate rental yield",
+  "simulate notary fees",
+  "show operator identity",
+  "show service status",
+  "inspect OAuth token",
+  "propose callback request",
+  "confirm action",
+  "cancel action",
+  "list prepared actions"
+ ],
+ "effects": {
+  "f12160a1edaa267562caf1bf20af075b388b21acaefea388ff45eb9dcc2ccf9a": "read",
+  "6da2b4a79930a2681d1443c815ae2912673f454dd3d557cec56885cf92a5a5a2": "read",
+  "db096568b9351ba5fcb1ea20521d979edfb2a2471200826e689762e94db013ac": "read",
+  "bacd1d1df6beb2e1c496e2978aa708ddbada80f63c9607f4e1562f5ef9ec614e": "read",
+  "7a6b4e493b8a1029b56f39a17f8838edb73b8d1fc1d8bf72894d64111b67c633": "read",
+  "6f52ceba72aa32248d052bed726c155fd12694a6f4a1862522b126d5678756ce": "read",
+  "293518ca6b02394a5bae9e424c29118edf5e5f9cd0e3c3ba8b70a5b66e91df28": "write",
+  "c6d0f1ee6b083ebaeaf4c195637cd54a5f03fcec5ba12c833b18bc942e7f999f": "write",
+  "4698cf08b427d6117cf70322a7e72811ff800d72c7102f16e04e543ef4ffd75b": "write",
+  "11738f69f7ae0d4864b263f831b79d3213238b61b9bfae8bead3b36064a84130": "read"
+ },
+ "flags": []
+}

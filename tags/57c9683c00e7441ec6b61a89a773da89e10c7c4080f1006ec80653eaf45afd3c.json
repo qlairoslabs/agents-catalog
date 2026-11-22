@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "57c9683c00e7441ec6b61a89a773da89e10c7c4080f1006ec80653eaf45afd3c",
+ "domain": [
+  "business/vendor-discovery",
+  "business/reviews"
+ ],
+ "product": [
+  "clutch"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up B2B service providers listed on Clutch along with their verified client reviews.",
+ "whenToUse": "Use when someone is searching for an agency or B2B service provider and wants reviewed options.",
+ "tasks": [
+  "find b2b service providers",
+  "read verified client reviews"
+ ],
+ "effects": {},
+ "flags": []
+}

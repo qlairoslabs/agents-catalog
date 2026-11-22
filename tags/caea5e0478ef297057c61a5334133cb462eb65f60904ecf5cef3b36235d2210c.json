@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "caea5e0478ef297057c61a5334133cb462eb65f60904ecf5cef3b36235d2210c",
+ "domain": [
+  "commerce/loyalty-programs",
+  "commerce/point-of-sale"
+ ],
+ "product": [
+  "qruuk"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "sell"
+ ],
+ "summary": "Manages a small business's loyalty cards, digital passes and till integrations, with owner approval for costs.",
+ "whenToUse": "Use when a small business wants to run loyalty cards, wallet passes or till connections through an agent.",
+ "tasks": [
+  "manage loyalty cards",
+  "issue passes",
+  "connect tills",
+  "request owner approval for costs"
+ ],
+ "effects": {},
+ "flags": []
+}

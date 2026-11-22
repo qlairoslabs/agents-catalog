@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "356b9a172cdf2c3421b106ee37f66b6cde64d98ec55679d9c1b214617bff8fe3",
+ "domain": [
+  "hiring/portfolio",
+  "career"
+ ],
+ "product": [
+  "x402",
+  "base"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Portfolio of Anto Joel with profile, work history, case studies, skill evidence, role-fit evaluation, call booking and a paid priority message.",
+ "whenToUse": "Use when assessing Anto's fit for a role, or when a user wants to contact or book a call with them.",
+ "tasks": [
+  "get profile",
+  "get work history",
+  "list case studies",
+  "check skills evidence",
+  "evaluate role fit",
+  "get booking link",
+  "send priority message"
+ ],
+ "effects": {
+  "2c2671418d77ebf9c38f01c32ec6a3e289c9daacd941d91cce1d9eb4114799c7": "read",
+  "8a5add17b22d7110a6588f9e085b4c9d919177f2c5afa2b753919abee26bf083": "read",
+  "01bfdd6cd3598396247b9aa70d46c56738fb6a45bdcd80ec4dbaf7e7117e1a45": "read",
+  "df078fd4c5d658f7b6c88fea10d23c77980aca3c83c0a7493d39c38ac60afd68": "read",
+  "487311b97a5e5a681735da1fd88c56dffcde330e28a57a6ea2365aca31164e74": "read",
+  "196909c70c277f1813da058f570691b562443a7956d3a6ec97e484eb84bee045": "read",
+  "920b292f6d260844b37b4d2562a724cbad7f93ad6c86bcecdc7ec432b47d0168": "risky"
+ },
+ "flags": []
+}

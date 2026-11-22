@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "372933ddcbe90cd7e7b74fd97335546091b548ce4054d0b1c076944a91f69a62",
+ "domain": [
+  "software/release-management",
+  "software/version-control"
+ ],
+ "product": [
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Configuration-driven helpers for managing branches and releases in Git repositories.",
+ "whenToUse": "Use when an agent needs to create branches, bump versions or prepare releases in a Git repo.",
+ "tasks": [
+  "create branches",
+  "bump versions",
+  "prepare releases",
+  "update changelogs"
+ ],
+ "effects": {},
+ "flags": []
+}

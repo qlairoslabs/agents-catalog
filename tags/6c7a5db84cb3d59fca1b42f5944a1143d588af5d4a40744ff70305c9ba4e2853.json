@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6c7a5db84cb3d59fca1b42f5944a1143d588af5d4a40744ff70305c9ba4e2853",
+ "domain": [
+  "software/dependency-management",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "vibgrate"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Query a team's dependency drift, vulnerability and upgrade data from Vibgrate.",
+ "whenToUse": "Use when assessing outdated dependencies, vulnerabilities or upgrade plans across a team's repos.",
+ "tasks": [
+  "query dependency drift",
+  "list vulnerabilities",
+  "review upgrade data"
+ ],
+ "effects": {},
+ "flags": []
+}

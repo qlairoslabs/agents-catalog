@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "a12807e665bf6812f1f8624682d60df88a27d4c471c311dbfd7ea0c76f0363f1",
+ "domain": [
+  "supply-chain/authenticity",
+  "blockchain/verification"
+ ],
+ "product": [
+  "tagit",
+  "base-sepolia",
+  "nfc"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Checks on-chain lifecycle state, history and flagged status of NFC-tagged physical products from TAG IT.",
+ "whenToUse": "Use when verifying a TAG IT product's provenance, lifecycle state or whether it is flagged lost or stolen.",
+ "tasks": [
+  "verify asset state",
+  "get lifecycle history",
+  "check flagged status",
+  "trace provenance"
+ ],
+ "effects": {
+  "96885e2c762d05ade86cb4ca5129b6e459ccf475bd51d2ad619176db1600b854": "write",
+  "17c70058e6f1efbd40400321401bb5a3202f4c2826aaa2992a804bf41a3a0abc": "write",
+  "3f07317627a86e6a06f6674d352e1e473b298502357056f22087669d5689ded6": "read"
+ },
+ "flags": []
+}

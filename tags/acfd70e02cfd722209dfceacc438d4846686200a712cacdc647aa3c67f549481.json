@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "acfd70e02cfd722209dfceacc438d4846686200a712cacdc647aa3c67f549481",
+ "domain": [
+  "media/ai-video-direction",
+  "creative/acting-prompts"
+ ],
+ "product": [
+  "kling",
+  "seedance",
+  "elevenlabs",
+  "qwen-tts",
+  "x402"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Acting-direction kits, drafts and a free linter for AI video and voice prompts, based on character state, shot size and target model rules.",
+ "whenToUse": "Use when writing performance direction for AI-generated video or voice and you want behaviour-based prompts checked.",
+ "tasks": [
+  "build behaviour kit",
+  "draft acting paragraph",
+  "lint prompt",
+  "search atlas records",
+  "show record",
+  "list target models",
+  "check character arc continuity",
+  "buy credit pack"
+ ],
+ "effects": {
+  "d5264f17468d66fd87b37d31194acae4fa26813217fe0a331b56fa446119a57a": "write",
+  "fb293ffc35ffc086d8a4d5d66f94c6808bba591a51905ed44d6355f92c8f1c15": "write",
+  "6517457721d62901c6e3533c0109d2aec8b89adf75729c3070862cda8294ace3": "read",
+  "55b947a70db27252a2627b510b072f28c0d185ef23aaa0a06b5bc1f32d7f1584": "read",
+  "b5a02181238b3b9d56cd62206fe612b9eaea2f63ec77d2c68fca97dda37e3c7d": "read",
+  "9a78321c42abc217e912e9744c2a23459965a0e125dc28b0c40bf8f4cfb74f0d": "read",
+  "45edec7ec78e1d322b00fc282608934b10ff6f0cca398c572c842b94c0f3a98a": "read",
+  "3dc5dcdafb164921fb5701486851023031e1fb8997a2d9e7a2d7fc24309696aa": "risky"
+ },
+ "flags": [
+  "kit/draft calls cost money via x402 per call; atlas_buy_pack makes a USDC payment"
+ ]
+}

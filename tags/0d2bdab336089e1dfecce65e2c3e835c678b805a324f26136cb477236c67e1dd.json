@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0d2bdab336089e1dfecce65e2c3e835c678b805a324f26136cb477236c67e1dd",
+ "domain": [
+  "software/agent-orchestration",
+  "software/terminal"
+ ],
+ "product": [
+  "claude-code",
+  "codex-cli",
+  "tmux"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Lets Claude Code drive Codex CLI's interactive interface and persistent tmux terminal sessions.",
+ "whenToUse": "Use when an agent needs to delegate work to Codex CLI or keep long-running terminal sessions.",
+ "tasks": [
+  "start terminal sessions",
+  "send keystrokes",
+  "read terminal output",
+  "drive codex cli"
+ ],
+ "effects": {},
+ "flags": []
+}

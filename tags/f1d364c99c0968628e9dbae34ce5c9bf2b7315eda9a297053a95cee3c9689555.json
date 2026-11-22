@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f1d364c99c0968628e9dbae34ce5c9bf2b7315eda9a297053a95cee3c9689555",
+ "domain": [
+  "media/music-video",
+  "media/visual-generation"
+ ],
+ "product": [
+  "compeller"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates and tracks AI-generated music videos and audio-reactive visuals from songs.",
+ "whenToUse": "Use when a user wants to generate a music video or visuals for a song and follow its progress.",
+ "tasks": [
+  "create music videos",
+  "generate audio-reactive visuals",
+  "track render jobs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b2e1ea8d1bbcc964f610c603d0ec6a08ef50eea827e7c9ec60fbc1d7da7ae88e",
+ "domain": [
+  "sports/football/predictions"
+ ],
+ "product": [
+  "footdigest"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides sourced football match predictions, odds, tournament simulations, standings and brackets with a published model card.",
+ "whenToUse": "Use when a user asks for football match probabilities, tournament outlooks, standings or brackets.",
+ "tasks": [
+  "get match predictions",
+  "get odds",
+  "run tournament simulations",
+  "show standings",
+  "show brackets",
+  "view model card"
+ ],
+ "effects": {},
+ "flags": []
+}

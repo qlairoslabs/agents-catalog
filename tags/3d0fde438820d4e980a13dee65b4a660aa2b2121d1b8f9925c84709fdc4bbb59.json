@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "3d0fde438820d4e980a13dee65b4a660aa2b2121d1b8f9925c84709fdc4bbb59",
+ "domain": [
+  "education/higher-education",
+  "india"
+ ],
+ "product": [
+  "careerbhavan"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Indian courses, colleges and online universities for fees, approvals, syllabus and side-by-side comparisons.",
+ "whenToUse": "Use when a user is choosing an Indian degree, online course or college and needs fees, approvals or comparisons.",
+ "tasks": [
+  "search courses",
+  "search colleges",
+  "get course details",
+  "get college profile",
+  "get college course fees",
+  "compare colleges",
+  "search guides"
+ ],
+ "effects": {
+  "fd9dde3e7cf79fb786b7c0fc25be1c0039943aa1303e285f6f675784bf155379": "read",
+  "c72b9e94c0788ade95b4ce78396b627facd5be64e65a5fd51e8fe18b3a8e0ed6": "read",
+  "c073340374be07ca5540f57f90e34c55fd34ef67d4ae093bbb87bbd4d525778b": "read",
+  "71736308446b0f05b28be5f674a49a3f310694939e44ecb1c940ef5158f59a90": "read",
+  "988716de9dc61afa91cba257766cd7f49d9db7a7cccec603739ff96e144233d1": "read",
+  "7256db2f3800bf6adfd6ed37a651beecc77cc6fd5c3efe4e06b7729f570a07b6": "read",
+  "de4c94009ce9a4a37ae32a2d48312a4f202374b90a66c1b5bf9a65996f9d507d": "read"
+ },
+ "flags": []
+}

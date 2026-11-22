@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "75ead54d28ee9e6ddc9f9bf63f30a3cf20c65b56d04e8dfac63315d6f3577488",
+ "domain": [
+  "web/wordpress-hosting",
+  "software/devops"
+ ],
+ "product": [
+  "pressable",
+  "wordpress"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages Pressable WordPress hosting including sites, backups, plugins, caching, domains and logs.",
+ "whenToUse": "Use when an agent needs to administer WordPress sites hosted on Pressable.",
+ "tasks": [
+  "manage sites",
+  "manage backups",
+  "manage plugins",
+  "clear caching",
+  "manage domains",
+  "view logs"
+ ],
+ "effects": {},
+ "flags": []
+}

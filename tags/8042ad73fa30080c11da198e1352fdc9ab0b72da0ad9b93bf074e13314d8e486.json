@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8042ad73fa30080c11da198e1352fdc9ab0b72da0ad9b93bf074e13314d8e486",
+ "domain": [
+  "legal/privacy/cookie-consent",
+  "web/websites"
+ ],
+ "product": [
+  "cookiepal"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Manages CookiePal cookie banners, including domains, banner tag and style, and cookie scan reports.",
+ "whenToUse": "Use when a user wants to configure their CookiePal banner or review cookie scan reports.",
+ "tasks": [
+  "manage domains",
+  "get banner tag",
+  "edit banner style",
+  "view cookie scan reports"
+ ],
+ "effects": {},
+ "flags": []
+}

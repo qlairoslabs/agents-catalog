@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "21008c90745c772ee9766f1c3750842ca7d0f77afc5a8bb3cd362e11ad1f1409",
+ "domain": [
+  "commerce/checkout",
+  "finance/cash-on-delivery"
+ ],
+ "product": [
+  "dropi"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Cash-on-delivery checkout for Latin America that creates orders and collects payment through Dropi.",
+ "whenToUse": "Use when creating cash-on-delivery orders for Latin American customers via Dropi.",
+ "tasks": [
+  "create cod orders",
+  "collect payment via dropi"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cf85fa0b4273ccb9aa2b2a8b2dd443c32a82653a392e8f5cec03a35915201287",
+ "domain": [
+  "marketing/social-media",
+  "content/publishing"
+ ],
+ "product": [
+  "posterly"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Validates, schedules, publishes and analyzes social media posts across 18 platforms through Posterly.",
+ "whenToUse": "Use when an agent needs to prepare, schedule or publish social posts on many networks and review their performance.",
+ "tasks": [
+  "validate social posts",
+  "schedule posts",
+  "publish to social platforms",
+  "analyze post performance"
+ ],
+ "effects": {},
+ "flags": []
+}

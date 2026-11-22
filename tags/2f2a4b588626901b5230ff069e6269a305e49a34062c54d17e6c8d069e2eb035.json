@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2f2a4b588626901b5230ff069e6269a305e49a34062c54d17e6c8d069e2eb035",
+ "domain": [
+  "software/browser-automation"
+ ],
+ "product": [
+  "chrome"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Browser automation over Chrome DevTools Protocol with failover between providers.",
+ "whenToUse": "Use when an agent needs to open pages, take screenshots or interact with websites in a browser.",
+ "tasks": [
+  "navigate pages",
+  "take screenshots",
+  "click and type",
+  "fail over between browser providers"
+ ],
+ "effects": {},
+ "flags": []
+}

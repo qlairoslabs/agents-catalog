@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "05302399ca609a568f0a31fda3c35958bdd5156192e5f2e09b57ae466a89b644",
+ "domain": [
+  "design/logos",
+  "web/branding"
+ ],
+ "product": [
+  "icon-horse"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Finds logos and favicons for domains or product names, builds matched logo sets, and detects a company's software stack from its website.",
+ "whenToUse": "Use when you need logo images for slides or pages, or want to learn which tools a company uses.",
+ "tasks": [
+  "find logos",
+  "preview logo image",
+  "build matched logo set",
+  "detect company tech stack"
+ ],
+ "effects": {
+  "411f75e757417623761cdbc97fbd3dd4b6a4478187039a769b967470ae27e981": "read",
+  "5d4da88839083de51d6bc40a73acd35159efa7883e4fceece03f042153988ab0": "read",
+  "2c07d20f1a33842395ee867b1091fb926b3ba8ea7e52b5e656e5c207608ab8e4": "read",
+  "454bed1e3bbaba905d5d7f12b7874daeb3a1e9d405dcb2e37e438cf135f6dfc8": "read"
+ },
+ "flags": []
+}

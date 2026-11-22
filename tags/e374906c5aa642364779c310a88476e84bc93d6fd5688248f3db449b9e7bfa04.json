@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e374906c5aa642364779c310a88476e84bc93d6fd5688248f3db449b9e7bfa04",
+ "domain": [
+  "finance/macroeconomics",
+  "finance/investment-research"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Writes an in-depth economic analysis of a country covering growth, inflation, policy, labor, debt and market implications, using Bigdata.com data.",
+ "whenToUse": "Use when a user asks for an economic outlook or macro analysis of a single country.",
+ "tasks": [
+  "analyze gdp and inflation",
+  "assess monetary policy",
+  "analyze labor markets",
+  "review debt composition and servicing",
+  "assess fiscal position",
+  "derive market implications",
+  "write policy recommendations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2b9ce5b204f249819c0f1f26789def0d07f1fe546cd07401e81a61560ad05d32",
+ "domain": [
+  "marketing/advertising",
+  "ecommerce/amazon"
+ ],
+ "product": [
+  "amazon-ads",
+  "autron"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Reads and manages Amazon Ads accounts that are connected to Autron.",
+ "whenToUse": "Use when an agent needs to review or adjust Amazon Ads campaigns through Autron.",
+ "tasks": [
+  "read amazon ads account data",
+  "manage amazon ads campaigns"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9121fbf004eb260c603b178a2b87125f1aa60122cd4c3a975820d99a0cbe78d6",
+ "domain": [
+  "analytics/instrumentation",
+  "software/codebase-analysis"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Finds how analytics tracking calls are written in a codebase, listing SDK calls, import patterns, file locations and event naming conventions.",
+ "whenToUse": "Use before adding new analytics tracking code, to learn the codebase's existing instrumentation style and naming conventions.",
+ "tasks": [
+  "find analytics sdk calls in code",
+  "list tracking function signatures",
+  "identify import patterns",
+  "list file paths per pattern",
+  "infer event naming conventions",
+  "infer property naming conventions"
+ ],
+ "effects": {},
+ "flags": []
+}

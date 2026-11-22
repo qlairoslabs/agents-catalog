@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b3627e48bd8d83bc81861df4866656bf4926460de8ec3cdb065387aabc726478",
+ "domain": [
+  "ecommerce/outdoor-gear",
+  "retail/catalogue"
+ ],
+ "product": [
+  "ridgerunner"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and compares hunting, fishing, camping and outdoor gear products on Ridgerunner with prices and availability.",
+ "whenToUse": "Use when a user is shopping for outdoor, hunting, fishing or camping gear and wants options or comparisons.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "compare products",
+  "list categories"
+ ],
+ "effects": {
+  "1564f2283c389cc7ef8d380ce407628f8ca30d118a4e139739bc67afec29c3bd": "read",
+  "517b1fb09daaa0c667f3295f5baad3ec250cd01e9e7da872c8988a3bc35b5b2a": "read",
+  "033d03e03bff6fc6188523bfbedc82dd8b1ffd217c091b3b25275ddbd7aaafb4": "read",
+  "62e0048c71de6c1a781402d06c7da79ad8f81110dd18c422499d22ff03110645": "read"
+ },
+ "flags": []
+}

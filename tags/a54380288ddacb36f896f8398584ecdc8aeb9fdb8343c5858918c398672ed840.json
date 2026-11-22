@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "a54380288ddacb36f896f8398584ecdc8aeb9fdb8343c5858918c398672ed840",
+ "domain": [
+  "health/child-psychiatry",
+  "education/parenting"
+ ],
+ "product": [
+  "psychiatry-for-kids",
+  "emora-health"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search and read plain-English child psychiatry articles and guides for parents, with citations and crisis resources.",
+ "whenToUse": "Use when a parent asks about a child's mental health and needs sourced explainers, or when crisis resources must be surfaced.",
+ "tasks": [
+  "search articles",
+  "list articles",
+  "read an article",
+  "format citations",
+  "get site info",
+  "get crisis resources"
+ ],
+ "effects": {
+  "518a88cd293e8de122b6a08ca20325bd303137898ca7798db0a6973e92e5c956": "read",
+  "a34008f49293ad76df6a766dd7b01e2b87528cabf7d9b451ccc0d5c6300ee11e": "read",
+  "8be17fcf48092c69513344e34d21a5832302e986aeb9faeb966ee483e1641a94": "read",
+  "89d40827e173576095f2bcd5ab687d164e9bed3fd0f8458982244d6653391774": "read",
+  "8b224456f10bc653e2164e14415f2c249f2d9c4496ac89e89fe96958efe66e4b": "read",
+  "82e94c183d082a7b740c5ea5d739621c9c0c772eafe646489972c65086eee4e3": "read"
+ },
+ "flags": []
+}

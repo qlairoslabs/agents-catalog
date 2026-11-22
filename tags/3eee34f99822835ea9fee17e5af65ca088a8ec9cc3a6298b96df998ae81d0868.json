@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "3eee34f99822835ea9fee17e5af65ca088a8ec9cc3a6298b96df998ae81d0868",
+ "domain": [
+  "sports/data",
+  "sports/football"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live scores, fixtures, standings, team profiles and news for many football and basketball leagues.",
+ "whenToUse": "Use when the user asks about football or basketball scores, schedules, league tables or team news.",
+ "tasks": [
+  "get live scores",
+  "list fixtures",
+  "get standings",
+  "view team profiles",
+  "read sports news"
+ ],
+ "effects": {},
+ "flags": []
+}

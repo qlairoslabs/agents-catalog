@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fce7b2914fe3ccea7e36507c084c3df717dfe8491bbf216d1ede4a81c2882480",
+ "domain": [
+  "transport/aviation/flight-tracking"
+ ],
+ "product": [
+  "adsbiq"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only live ADS-B aircraft positions and network statistics from the ADSBiq feed.",
+ "whenToUse": "Use when an agent needs the current state of a specific aircraft or aircraft near a location.",
+ "tasks": [
+  "get aircraft by icao hex",
+  "find nearby aircraft",
+  "get network statistics"
+ ],
+ "effects": {
+  "eea925561dac879beb66877e82294ad2cd7e97d1078acd67134a1a3333fb582e": "read",
+  "c99877c19960935b33b8b126c6fa623b1e7c3b30ae682592bc37ee34a106bcb4": "read",
+  "b98413bb6e073661a1d7a068d847f5d9fe0cf02df32639d23f0317e2b9ef3679": "read"
+ },
+ "flags": []
+}

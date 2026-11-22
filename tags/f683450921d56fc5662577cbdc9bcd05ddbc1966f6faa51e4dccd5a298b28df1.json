@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f683450921d56fc5662577cbdc9bcd05ddbc1966f6faa51e4dccd5a298b28df1",
+ "domain": [
+  "home/kitchen",
+  "home/grocery"
+ ],
+ "product": [
+  "pantry-buddy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Tracks pantry stock, shopping lists, recipes and scanned grocery receipts.",
+ "whenToUse": "Use when a user wants to manage pantry inventory, shopping lists or recipes, or log grocery receipts.",
+ "tasks": [
+  "track pantry stock",
+  "manage shopping lists",
+  "find recipes",
+  "scan grocery receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

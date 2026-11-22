@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6f350d37c22b2cac804a706b5ef2f5012a5646536c1025241ff8ac521e1b2f25",
+ "domain": [
+  "software/sandboxed-compute",
+  "software/infrastructure"
+ ],
+ "product": [
+  "sprites"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Manages Sprites sandboxed compute environments including command execution, services and checkpoints.",
+ "whenToUse": "Use when an agent needs an isolated environment to run code or services with checkpoints.",
+ "tasks": [
+  "create sandboxes",
+  "execute commands",
+  "manage services",
+  "create checkpoints",
+  "restore checkpoints"
+ ],
+ "effects": {},
+ "flags": []
+}

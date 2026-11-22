@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1c349a514ebc040d47726887e74f2b4bbeac3b7b3c84b2897d127da1441dbcbe",
+ "domain": [
+  "logistics/shipping",
+  "commerce/fulfillment"
+ ],
+ "product": [
+  "skydropx"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Quotes, buys, tracks and cancels shipments with Mexican carriers through a Skydropx account.",
+ "whenToUse": "Use when a business needs to ship parcels in Mexico and compare carrier rates or track packages.",
+ "tasks": [
+  "quote shipments",
+  "buy shipping labels",
+  "track shipments",
+  "cancel shipments"
+ ],
+ "effects": {},
+ "flags": []
+}

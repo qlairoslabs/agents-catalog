@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "8f33396147c45ec0a849affdba62e151815520502ca20e860ae243a456a898fb",
+ "domain": [
+  "social/telegram-directory",
+  "research/discovery"
+ ],
+ "product": [
+  "telegram",
+  "tgboard"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a directory of Telegram channels, bots, groups and stickers with full-text search, top rankings and categories.",
+ "whenToUse": "Use when a user wants to find Telegram channels, bots or groups on a topic or see the top ones in a category.",
+ "tasks": [
+  "search Telegram resources",
+  "get top resources",
+  "get resource details",
+  "list categories"
+ ],
+ "effects": {
+  "cf6306941488c39712ff2ec0d4e3ff4d065b96daced7f05ec2c626bd10745083": "read",
+  "0f6fe63223f194cb81e8ef6aa39d3a373686f71f8b81340ae1a0a2be34bdd899": "read",
+  "955c38713e2dd0fc6623800590efa421b06b79699f158bfc9734c1f6875bb4ed": "read",
+  "6aaacd92336346ef19cc43880a31eeba582e32f62625e170a95bd35435805435": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "73926dba2717c438c26e61f7c6a1a9744c8c107fcbe3a0f59f0493476c53ce70",
+ "domain": [
+  "hr/job-search",
+  "business/startups"
+ ],
+ "product": [
+  "rocketlist"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search over RocketList's public startup job listings and hiring companies, with aggregate hiring and pay statistics.",
+ "whenToUse": "Use when an agent needs to find startup jobs or hiring companies by skills, location, investor or stage, or answer questions about startup hiring trends.",
+ "tasks": [
+  "search startup jobs",
+  "filter jobs by skills, city, remote or experience",
+  "get job details",
+  "search hiring companies",
+  "filter companies by investor, stage or yc batch",
+  "get company details and open roles",
+  "count jobs by city, company or domain",
+  "summarize published pay"
+ ],
+ "effects": {
+  "40f9b197db1a291b1daeb93734e437c7984a256755b0048f244c37385fe5a72e": "write",
+  "200fae0209ee54c377f54ae0cb1392dd01a264921d2bb03f38c1e4c2dece33a4": "read",
+  "f5c26a1d38ee77856de12e5aa786a9042262715610552b3328250afcbb9069d4": "write",
+  "c5ad8afd81dabeb911e6928f3b482a66eb1f1d5134b8c5be1c866fe88892196d": "read",
+  "e19fe5d766c077dff73b2d8029e2ca4c6ba4848969aa9483f1adb5903a6a9200": "write"
+ },
+ "flags": []
+}

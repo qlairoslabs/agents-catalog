@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "210d1f7a496640124e58f2be1763a2664c11aa6b6f94260c0a18f3f801058950",
+ "domain": [
+  "documents/pdf-forms",
+  "documents/e-signature"
+ ],
+ "product": [
+  "ifillpdf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Detects fillable fields in PDFs, including scanned ones, then fills them in and adds signatures.",
+ "whenToUse": "Use when a user needs to fill out or sign a PDF form.",
+ "tasks": [
+  "detect pdf form fields",
+  "handle scanned pdfs",
+  "fill pdf forms",
+  "sign pdfs"
+ ],
+ "effects": {},
+ "flags": []
+}

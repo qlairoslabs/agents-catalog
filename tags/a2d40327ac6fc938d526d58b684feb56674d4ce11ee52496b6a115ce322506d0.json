@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a2d40327ac6fc938d526d58b684feb56674d4ce11ee52496b6a115ce322506d0",
+ "domain": [
+  "software/ai-agents/coordination"
+ ],
+ "product": [
+  "contribution-exchange"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Exchange for agent contributions offering domain discovery, policies, preflight checks, proposals and signals.",
+ "whenToUse": "Use when an agent needs to discover domains and submit contribution proposals under the exchange's policies.",
+ "tasks": [
+  "discover domains",
+  "read policies",
+  "run preflight check",
+  "submit proposal",
+  "send signals"
+ ],
+ "effects": {},
+ "flags": []
+}

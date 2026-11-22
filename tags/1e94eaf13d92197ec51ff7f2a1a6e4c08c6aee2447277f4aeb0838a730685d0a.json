@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1e94eaf13d92197ec51ff7f2a1a6e4c08c6aee2447277f4aeb0838a730685d0a",
+ "domain": [
+  "productivity/office-suite",
+  "communication/email"
+ ],
+ "product": [
+  "outlook",
+  "onedrive",
+  "microsoft-teams"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Permissioned access to Outlook, OneDrive and Teams through the user's own Microsoft account.",
+ "whenToUse": "Use when an agent needs to work with the user's Outlook mail, OneDrive files or Teams.",
+ "tasks": [
+  "access email",
+  "access onedrive files",
+  "access teams"
+ ],
+ "effects": {},
+ "flags": []
+}

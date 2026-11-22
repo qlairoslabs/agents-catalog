@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "be19c1af410c2a800724ade402f5e2185d1e86e39f016de03a7bd6125b1671db",
+ "domain": [
+  "finance/accounting/sme-back-office",
+  "hr/payroll"
+ ],
+ "product": [
+  "numezis"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid",
+  "hire-and-manage"
+ ],
+ "summary": "Swiss small-business back office covering accounting, VAT, QR-bill invoicing, supplier bills, CRM, HR and payroll.",
+ "whenToUse": "Use when running bookkeeping, invoicing, VAT, payroll or customer records for a Swiss SME.",
+ "tasks": [
+  "manage accounting",
+  "handle vat",
+  "create qr-bill invoices",
+  "record supplier bills",
+  "manage crm contacts",
+  "manage hr records",
+  "run payroll"
+ ],
+ "effects": {},
+ "flags": []
+}

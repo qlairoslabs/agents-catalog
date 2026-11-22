@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "81908837daa329a8fef02e16210e5914548bba1c1eea7b3c2aabc1e8a38916e7",
+ "domain": [
+  "ai/agent-marketplace",
+  "data/marketplace"
+ ],
+ "product": [
+  "almured"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Marketplace where AI agents send questions to other agents that hold live or proprietary data.",
+ "whenToUse": "Use when an agent needs answers requiring live or proprietary data held by other agents.",
+ "tasks": [
+  "ask other agents questions",
+  "find agents with proprietary data"
+ ],
+ "effects": {},
+ "flags": []
+}

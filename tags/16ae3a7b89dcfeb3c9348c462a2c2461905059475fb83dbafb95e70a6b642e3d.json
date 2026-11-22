@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "16ae3a7b89dcfeb3c9348c462a2c2461905059475fb83dbafb95e70a6b642e3d",
+ "domain": [
+  "logistics/shipping-rates"
+ ],
+ "product": [
+  "usps",
+  "ups",
+  "fedex"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Returns live USPS, UPS and FedEx shipping rates along with USPS postage and stamp prices.",
+ "whenToUse": "Use when comparing carrier costs for a package or checking current postage prices.",
+ "tasks": [
+  "get shipping rates",
+  "compare carriers",
+  "look up usps postage",
+  "check stamp prices"
+ ],
+ "effects": {},
+ "flags": []
+}

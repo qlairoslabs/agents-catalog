@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "a79408bd631e6022773753cbfec100b6aeaddccd6000ac1aea07f7a9b62995f0",
+ "domain": [
+  "software/mobile-development",
+  "software/documentation"
+ ],
+ "product": [
+  "capawesome",
+  "capacitor",
+  "cordova"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Search and read Capawesome documentation, guides and blog posts covering its plugins, Cloud and CLI.",
+ "whenToUse": "Use when writing or debugging code with Capawesome plugins, Capawesome Cloud or its CLI.",
+ "tasks": [
+  "search documentation",
+  "read doc pages",
+  "list recent blog posts"
+ ],
+ "effects": {
+  "f18e52dc7b88b3c51f2b12e305e866bae5ee5839478e535ec4ba55d773787ed7": "write",
+  "f13cf079fc155fb066ce34171592672f01c82ddfa936efc38cad7075bf5aecaa": "write",
+  "d0b2479cca1c2209aa872852e212cc0206a1ca1732cbc83e29a44404a2bc2ee3": "read"
+ },
+ "flags": []
+}

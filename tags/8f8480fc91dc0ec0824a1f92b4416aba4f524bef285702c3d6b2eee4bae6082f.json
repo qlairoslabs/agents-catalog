@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8f8480fc91dc0ec0824a1f92b4416aba4f524bef285702c3d6b2eee4bae6082f",
+ "domain": [
+  "finance/personal-finance",
+  "finance/budgeting"
+ ],
+ "product": [
+  "wimm"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Personal finance service for agents that imports bank statements, categorizes transactions and manages budgets.",
+ "whenToUse": "Use when a user wants an agent to import statements, categorize spending or track a personal budget.",
+ "tasks": [
+  "onboard user",
+  "import bank statements",
+  "categorize transactions",
+  "manage budgets"
+ ],
+ "effects": {},
+ "flags": []
+}

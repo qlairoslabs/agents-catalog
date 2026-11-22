@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "94501f3eb587119c944c0efbaa85c525bd2a599ddab17623c9adb824b017d006",
+ "domain": [
+  "hardware/e-ink-displays",
+  "smart-home"
+ ],
+ "product": [
+  "trmnl"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Controls TRMNL e-ink displays, including devices, playlists and new screens.",
+ "whenToUse": "Use when a user wants to manage TRMNL e-paper devices or change what they display.",
+ "tasks": [
+  "manage devices",
+  "manage playlists",
+  "create screens"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f6b64eab06ee27bebe3dde6a1e25f812fed9076eb6f965ba5e1a0d5304073a73",
+ "domain": [
+  "ai/agent-memory",
+  "search/semantic"
+ ],
+ "product": [
+  "creo-memories"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Memory store for AI agents that saves memories and recalls them with semantic search.",
+ "whenToUse": "Use when an agent needs to store information persistently and recall it later by meaning.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "semantic search memories"
+ ],
+ "effects": {},
+ "flags": []
+}

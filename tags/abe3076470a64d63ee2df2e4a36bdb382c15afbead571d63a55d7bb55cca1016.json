@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "abe3076470a64d63ee2df2e4a36bdb382c15afbead571d63a55d7bb55cca1016",
+ "domain": [
+  "operations/project-management",
+  "development/agency-delivery"
+ ],
+ "product": [
+  "sketchxflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Lets the SketchXFlow delivery team read client requirements, post updates, log time and move project milestones.",
+ "whenToUse": "Use when working as part of the SketchXFlow delivery team and needing to track client project work.",
+ "tasks": [
+  "pull client requirements",
+  "post project updates",
+  "log time",
+  "move milestones"
+ ],
+ "effects": {},
+ "flags": []
+}

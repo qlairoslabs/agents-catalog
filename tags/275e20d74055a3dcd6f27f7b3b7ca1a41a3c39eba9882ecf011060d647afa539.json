@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "275e20d74055a3dcd6f27f7b3b7ca1a41a3c39eba9882ecf011060d647afa539",
+ "domain": [
+  "software/developer-tools/human-in-the-loop",
+  "communication/chat"
+ ],
+ "product": [
+  "lassare",
+  "slack"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Lets AI coding agents ask humans questions and request approvals through Slack.",
+ "whenToUse": "Use when a coding agent needs a human decision, clarification or approval before continuing.",
+ "tasks": [
+  "ask human a question",
+  "request approval",
+  "receive answers via slack"
+ ],
+ "effects": {},
+ "flags": []
+}

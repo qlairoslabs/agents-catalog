@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "fb08fe39f2d9cc5d45792c08e8bda29e2f58c6cd971f730b0ee8759f35cbd4d0",
+ "domain": [
+  "design/codes",
+  "tools/geolocation"
+ ],
+ "product": [
+  "wia-code",
+  "wia-pin-code"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates shape-free 2D codes (WiFi, contact card, calendar event, text) and converts coordinates to and from WIA Pin Codes.",
+ "whenToUse": "Use when making a custom-shaped scannable code or converting between coordinates and a WIA Pin Code.",
+ "tasks": [
+  "explain WIA Code",
+  "generate WiFi code",
+  "generate contact card code",
+  "generate event code",
+  "generate text or link code",
+  "encode pin code",
+  "decode pin code",
+  "list nearby pin cells"
+ ],
+ "effects": {
+  "91a397a1bccaa094dcd45413a10a6c9f1d0d750bcd6efd1c299d38314b1e0736": "read",
+  "ed5ffd38f951ce9fb991946483eef9eca2c09d740d240ac8e6c6f46b6b62fda9": "write",
+  "cf8c603f7c5fb80106533f7b96be8e8a5558f9f30e81fabe4d79266afb42f368": "write",
+  "a9714b8e0a21264e29ae3cbc5350b72f2fc8f7fbf5def3ccb5adfdf014180584": "write",
+  "e0776726f2992893b0e25c82e43edec73720b990175f3fed787c7df35dd08675": "write",
+  "5525cc4129a8e843fa99ac4dcf3b6995d138c2d8ac265918f3c973cbfca29403": "read",
+  "c63a530137f6752c1bcb6bf7bf53247da88f5a694259a43b562f12299225bad3": "read",
+  "885b371e043c4b8830066f749e24b75384b6b2040fe60c40bd72b99fdefee5f8": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3d16fc8d60f7501bf81fcc4c213a620078cc8e14fc2b64c6ea6bc72087fd82fa",
+ "domain": [
+  "software/ai-agents/integrations",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "amazon-bedrock-agentcore",
+  "aws-lambda",
+  "cedar"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects AgentCore agents to external APIs and tools via Gateway, configures outbound auth and credentials, and writes Cedar tool policies.",
+ "whenToUse": "Use when giving an agent external tools or APIs, storing outbound credentials, or restricting tool access.",
+ "tasks": [
+  "set up gateway",
+  "add gateway targets",
+  "connect mcp servers",
+  "configure outbound oauth or api keys",
+  "store credentials",
+  "write cedar policies",
+  "fix gateway auth errors"
+ ],
+ "effects": {},
+ "flags": []
+}

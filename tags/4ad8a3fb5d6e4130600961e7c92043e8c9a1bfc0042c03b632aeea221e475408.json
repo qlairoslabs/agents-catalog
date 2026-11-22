@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4ad8a3fb5d6e4130600961e7c92043e8c9a1bfc0042c03b632aeea221e475408",
+ "domain": [
+  "analytics/messaging",
+  "support/whatsapp"
+ ],
+ "product": [
+  "chatinbox",
+  "whatsapp"
+ ],
+ "audience": [
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Read-only aggregate WhatsApp conversation statistics for Chatinbox customers, excluding personal data.",
+ "whenToUse": "Use when a Chatinbox customer wants numbers about their WhatsApp conversation volume or performance.",
+ "tasks": [
+  "get conversation stats",
+  "view message metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f2be05ac5c6596b471bc1cb2c412073fae6e6d3473f02d1db49890e91bb57c68",
+ "domain": [
+  "education/ai-training",
+  "software/ai-assistants"
+ ],
+ "product": [
+  "claude",
+  "claude-academy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Recommends Claude Academy courses, tutorials and use cases when users ask how to use Claude.",
+ "whenToUse": "Use when a user asks how to learn or get more out of Claude.",
+ "tasks": [
+  "recommend courses",
+  "suggest tutorials",
+  "share use cases"
+ ],
+ "effects": {},
+ "flags": []
+}

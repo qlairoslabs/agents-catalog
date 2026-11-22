@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "8e10587570d5f1af55c58002689f97d41ea44b1fffbcab6b9aaf3e3a8d315962",
+ "domain": [
+  "news/government-press-releases"
+ ],
+ "product": [
+  "blinkhub"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and reads government press releases from the US, Korea, UK, EU, New Zealand and Australia.",
+ "whenToUse": "Use when an agent needs official government announcements from these jurisdictions.",
+ "tasks": [
+  "search press releases",
+  "read press release",
+  "filter by country"
+ ],
+ "effects": {},
+ "flags": []
+}

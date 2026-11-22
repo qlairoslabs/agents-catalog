@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "df46c34388c1b4203513cd96b4be5351700492d7b5d5844b777c7705a8d32384",
+ "domain": [
+  "geospatial/maps",
+  "geospatial/routing"
+ ],
+ "product": [
+  "rijwind"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Maps, geocoding and routing for Europe, including places, routes, travel times and reachable areas.",
+ "whenToUse": "Use when you need geocoding, routes, travel times or maps for locations in Europe.",
+ "tasks": [
+  "geocode addresses",
+  "search places",
+  "plan routes",
+  "compute travel times",
+  "compute reachable areas",
+  "render maps"
+ ],
+ "effects": {},
+ "flags": []
+}

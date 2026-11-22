@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "53b1d200bbc1128e69760355bfe3f904280d8bee9b8b8b5d7deaaaa2d5a2d73e",
+ "domain": [
+  "media/video-analytics",
+  "software/observability"
+ ],
+ "product": [
+  "bitmovin"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries and analyses video playback data from Bitmovin Observability.",
+ "whenToUse": "Use when a team wants to investigate video streaming performance or viewer metrics in Bitmovin.",
+ "tasks": [
+  "query playback analytics",
+  "analyse video metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

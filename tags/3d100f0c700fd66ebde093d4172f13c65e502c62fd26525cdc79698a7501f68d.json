@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3d100f0c700fd66ebde093d4172f13c65e502c62fd26525cdc79698a7501f68d",
+ "domain": [
+  "energy/solar-monitoring",
+  "energy/battery-storage"
+ ],
+ "product": [
+  "energyincloud"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about a solar and storage plant's production, consumption, battery state, savings and reports.",
+ "whenToUse": "Use when the user wants data about their own solar or battery installation monitored in EnergyInCloud.",
+ "tasks": [
+  "check solar production",
+  "check energy consumption",
+  "check battery status",
+  "view savings",
+  "get plant reports"
+ ],
+ "effects": {},
+ "flags": []
+}

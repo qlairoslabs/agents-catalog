@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0a097ecefc970df48e140140c9dbdfcbf0ce4b817b5b495771f4da9c83c9406a",
+ "domain": [
+  "data/transformation/dbt",
+  "data/orchestration/airflow"
+ ],
+ "product": [
+  "dbt-core",
+  "astronomer-cosmos",
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance for turning a dbt Core project into an Airflow DAG or TaskGroup with Astronomer Cosmos.",
+ "whenToUse": "Use when orchestrating a dbt Core project in Airflow via Cosmos.",
+ "tasks": [
+  "convert dbt project to dag or taskgroup",
+  "verify warehouse and airflow version",
+  "choose execution environment",
+  "use dbt manifest"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "06b044dcac04e049ad2e12ff016233dacd38b2316e3de2c24334669d7bd5711f",
+ "domain": [
+  "travel/boat-charter",
+  "travel/sailing"
+ ],
+ "product": [
+  "charter.boats"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches charter boats with live prices along with marinas, anchorages, routes and itineraries.",
+ "whenToUse": "Use when someone is planning a boat charter or sailing trip and needs boats, prices, marinas or routes.",
+ "tasks": [
+  "search charter boats",
+  "get live charter prices",
+  "find marinas and anchorages",
+  "plan routes and itineraries"
+ ],
+ "effects": {},
+ "flags": []
+}

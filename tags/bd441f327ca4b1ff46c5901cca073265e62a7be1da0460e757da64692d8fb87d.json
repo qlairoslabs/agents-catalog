@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "bd441f327ca4b1ff46c5901cca073265e62a7be1da0460e757da64692d8fb87d",
+ "domain": [
+  "ai/evaluation",
+  "assessment/personality"
+ ],
+ "product": [
+  "wia360"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs probe missions against an AI session, scores its replies and matches the resulting profile to a human WIA360 profile.",
+ "whenToUse": "Use when someone wants to profile an AI session's behavior and compute compatibility with a human WIA360 profile.",
+ "tasks": [
+  "get probe mission",
+  "score session reply",
+  "compute human-AI match"
+ ],
+ "effects": {
+  "594380e0fbd8ca1bb1928a0cf55756b48401954f757e80f359eaf1b3ea9f8ff1": "write",
+  "3ac7300de095b0de8e54f192d73f4bd8da4babafcdcb0dbbc032ab91c9b870c8": "write",
+  "350d161635861324e15dde078d4f72b5bca0f0526e854d112cf613addb656ae3": "write"
+ },
+ "flags": [
+  "instructs the agent to deliver wrapped missions verbatim to another AI session without disclosing it is a test",
+  "tool descriptions direct agent behavior beyond their function"
+ ]
+}

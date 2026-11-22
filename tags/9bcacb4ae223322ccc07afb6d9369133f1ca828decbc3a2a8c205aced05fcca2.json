@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9bcacb4ae223322ccc07afb6d9369133f1ca828decbc3a2a8c205aced05fcca2",
+ "domain": [
+  "ai/model-hosting",
+  "ai/workflow-automation",
+  "ai/agents"
+ ],
+ "product": [
+  "wiro-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Local npm server for running Wiro AI models, building and running workflows, and interacting with Wiro Studio and agents.",
+ "whenToUse": "Use when a user wants to run Wiro AI models or manage Wiro workflows and agents from an AI client.",
+ "tasks": [
+  "run ai models",
+  "build workflows",
+  "run workflows",
+  "talk to wiro agents",
+  "use wiro studio"
+ ],
+ "effects": {},
+ "flags": []
+}

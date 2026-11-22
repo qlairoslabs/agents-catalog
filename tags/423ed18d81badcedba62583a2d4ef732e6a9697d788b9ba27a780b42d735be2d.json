@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "423ed18d81badcedba62583a2d4ef732e6a9697d788b9ba27a780b42d735be2d",
+ "domain": [
+  "data/visualization"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Draws line, bar, scatter, histogram, heatmap and time-series plots from tabular data.",
+ "whenToUse": "Use when an agent needs to make a chart from tabular data.",
+ "tasks": [
+  "draw line plots",
+  "draw bar charts",
+  "draw scatter plots",
+  "draw histograms",
+  "draw heatmaps",
+  "draw time-series plots"
+ ],
+ "effects": {},
+ "flags": []
+}

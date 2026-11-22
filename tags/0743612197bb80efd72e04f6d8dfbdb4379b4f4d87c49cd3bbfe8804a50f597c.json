@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "0743612197bb80efd72e04f6d8dfbdb4379b4f4d87c49cd3bbfe8804a50f597c",
+ "domain": [
+  "automotive/vehicle-data",
+  "finance/dealer-research"
+ ],
+ "product": [
+  "tradebasis"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Decodes US VINs and offers TradeBasis information, pricing and published research on dealers and buy-here-pay-here economics.",
+ "whenToUse": "Use when you need vehicle identity from a VIN or US used-car dealer research.",
+ "tasks": [
+  "decode VIN",
+  "read about TradeBasis",
+  "view pricing tiers",
+  "search dealer research"
+ ],
+ "effects": {
+  "0966e2620b403a7cb15ee07cb0667d5cdef5a83a4a9ea64eeab604d586bdbdf1": "read",
+  "c50d9a6668580ee085c173b6434a39118fac28d3dfbca4cb59ab3952a576d865": "read",
+  "6d3e4bfcad5c392a024e3eb0c91b61f70cc2787fba7790fdb2619c6d89df0329": "write",
+  "952cb64d2cc87017b5e78d0a7148e94c70164b23a8926c033df393a1bbc71992": "read"
+ },
+ "flags": []
+}

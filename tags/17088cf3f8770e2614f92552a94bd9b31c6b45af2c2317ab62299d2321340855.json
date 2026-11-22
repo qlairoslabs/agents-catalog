@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "17088cf3f8770e2614f92552a94bd9b31c6b45af2c2317ab62299d2321340855",
+ "domain": [
+  "software/ai-agents",
+  "software/integration"
+ ],
+ "product": [
+  "openwork"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Single OAuth MCP endpoint exposing an OpenWork organization's skills, plugins, workflows and connections.",
+ "whenToUse": "Use when an agent needs access to an OpenWork org's shared skills, workflows or connected services.",
+ "tasks": [
+  "access org skills",
+  "access plugins",
+  "run workflows",
+  "use org connections"
+ ],
+ "effects": {},
+ "flags": []
+}

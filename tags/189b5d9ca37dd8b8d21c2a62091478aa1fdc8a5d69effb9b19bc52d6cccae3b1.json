@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "189b5d9ca37dd8b8d21c2a62091478aa1fdc8a5d69effb9b19bc52d6cccae3b1",
+ "domain": [
+  "productivity/personal-information",
+  "communication/email"
+ ],
+ "product": [
+  "icloud",
+  "apple-mail",
+  "apple-calendar",
+  "apple-contacts",
+  "apple-reminders",
+  "apple-notes",
+  "apple-messages",
+  "safari"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "schedule"
+ ],
+ "summary": "Accesses Apple Mail, Calendar, Contacts, Reminders, Notes, Messages and Safari through AppleScript or iCloud.",
+ "whenToUse": "Use when an agent needs to read or manage a user's Apple mail, calendar, contacts, reminders, notes or messages.",
+ "tasks": [
+  "read and send mail",
+  "manage calendar events",
+  "look up contacts",
+  "manage reminders",
+  "read and write notes",
+  "send messages",
+  "access safari"
+ ],
+ "effects": {},
+ "flags": []
+}

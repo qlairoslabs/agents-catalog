@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6878e174d26bc27096ad4c6273a65c92a147d3998295429a81525c7914c0a397",
+ "domain": [
+  "ai/agent-marketplace",
+  "finance/pay-per-use"
+ ],
+ "product": [
+  "qumge"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Capability marketplace where agents find, call and pay per call for tools and skills using one key or OAuth.",
+ "whenToUse": "Use when an agent needs to discover and invoke paid third-party capabilities or skills.",
+ "tasks": [
+  "find capabilities",
+  "call capabilities",
+  "pay per call",
+  "find skills"
+ ],
+ "effects": {},
+ "flags": []
+}

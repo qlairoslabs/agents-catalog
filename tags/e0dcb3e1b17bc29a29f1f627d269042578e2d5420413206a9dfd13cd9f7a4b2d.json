@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e0dcb3e1b17bc29a29f1f627d269042578e2d5420413206a9dfd13cd9f7a4b2d",
+ "domain": [
+  "manufacturing/3d-printing",
+  "hardware/slicing"
+ ],
+ "product": [
+  "orcaslicer"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Controls a running OrcaSlicer instance to slice models, tune settings and explain their trade-offs.",
+ "whenToUse": "Use when preparing 3D prints in OrcaSlicer and needing to slice or tune print settings.",
+ "tasks": [
+  "slice 3d models",
+  "tune print settings",
+  "explain setting trade-offs"
+ ],
+ "effects": {},
+ "flags": []
+}

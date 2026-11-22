@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "8dee6ddfc6dc7a1f856dc58e741186d5fa2f9ae049bbde381ec0e063215429aa",
+ "domain": [
+  "collectibles/currency"
+ ],
+ "product": [
+  "serialhunt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks US bill serial numbers for fancy patterns and star note print runs with exact odds.",
+ "whenToUse": "Use when someone wants to know if a US note's serial number is collectible.",
+ "tasks": [
+  "check a serial number",
+  "find smallest star note runs",
+  "list fancy serial patterns",
+  "get data coverage"
+ ],
+ "effects": {
+  "9a9efb63b00fae05581e00bd72a7969275a065263e20f1c378a1616dca40c07a": "read",
+  "1ed053c259a0a699f7029cec79bf3095d6e4f9e6a8e5d171250f97c2db2e76aa": "read",
+  "b38d9c04907fe4f7a8ae039616960fb3255391b72a1bb51fd81b36ca2b2aed92": "read",
+  "9024196a7ce764d6003044cdac7634e413cd9ff59a1a9d3f70d26efc7eb656f5": "read"
+ },
+ "flags": []
+}

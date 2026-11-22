@@ -1,0 +1,66 @@
+{
+ "classifier": 2,
+ "contentHash": "e9488569c3fef1e825117eb68fe93ebedea2ebb1fdf323e38afc527c22e57048",
+ "domain": [
+  "crypto/xrpl",
+  "finance/blockchain"
+ ],
+ "product": [
+  "xrpl",
+  "bitcoin",
+  "bnb-chain",
+  "base",
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "XRP Ledger gateway with read tools for accounts, ledgers, DEX, NFTs and AMMs, unsigned transaction preparation, signed-transaction submission, and a cross-chain XRP bridge.",
+ "whenToUse": "Use when an agent must read XRPL state, prepare or submit XRPL transactions, or bridge XRP to and from BTC, BNB, USDC or ETH.",
+ "tasks": [
+  "get account info",
+  "list account transactions",
+  "look up transactions",
+  "read ledger data",
+  "get DEX order books",
+  "find payment paths",
+  "list trust lines and NFTs",
+  "get AMM pool info",
+  "subscribe to live events",
+  "prepare unsigned transactions",
+  "submit signed transactions",
+  "quote and track cross-chain bridges"
+ ],
+ "effects": {
+  "05dcbcff4f3ffc712ce73e3c1642bf386245429d1dc761eddba881f7cf25a266": "read",
+  "84495134a17274b4a71e85cdb05caa2e2b41dba4f1a77dcca722f58c60c20b57": "read",
+  "256a768b2397b9cb001cf78988763ed238be2bd52cb330263fef2cb4af93129d": "read",
+  "235c977b372c7f92fd09c7257195eb3a3085488d931c04d0ac9ba5e44ec4ad98": "write",
+  "117e4de81ffca88822ddb01768cd24e1d26b5576f0d5bdcf6d271b84bf0cb807": "read",
+  "27003368c4259d692bcea53c87a412604586242dd8d0e0336e0c309c8dd62a8e": "read",
+  "6c551f9c1f1a5647b8e9b7b89b955e3132cf18c2e1dfd6e3c3ff232446d982fe": "write",
+  "6fc8c44d08981c9335135e193c2d9f02d55a7e29ed754ca1fce70eb514216cbf": "write",
+  "7e2363512bb01b69bb769379556f4940ca129c57aaaad9feb1ef77efab672d85": "read",
+  "9af45c3c9477a41b7c92bef1c919c06af773711db194ecd2fac3b5bd8ae9658c": "read",
+  "046a9340a4370c14a7f29e922dfe5ac419f40f0c5ed6d896ee1e3574e050f61d": "write",
+  "e35a6f741049ba12dc66573f1a9644cb426c08b43302a0d011e4bbd4854c7658": "read",
+  "3681c23c7e5dd3fe296783cf60f4daabc5867678b75d5384f81c9f14ac31b72b": "write",
+  "32a02d4cc194c8f3c84d2ccf9863b1f0d69046bb7eb12beab22fc2b09fbeb485": "write",
+  "148b02a8cb5354bc35c2d4ec51efd751274fb721c53f6542f1cc60f0cfd0848e": "write",
+  "4cf6085e012da436a16202b4fb1e0b22a4e60d039947a2267667d1b5b9a70af2": "risky",
+  "95353a94fa8082133912c77809566ed12990e555c6c325f5b58d3ed233ffcaae": "write",
+  "fc5ce29a76ab1bcd06159ba072d255f2b5c50cce5cf09236d784b173a5bf2cf2": "write",
+  "2545650498e7c195583442c54ab25ceadf8032cf14eecd363705b1caf6de8d12": "read",
+  "78931f7b88f71b782e10d095064eac5d926d26124f63738be8a04f7714623d8c": "write",
+  "ac52ef740c9fb55d9c6eca1e760a08f90b41c7c5d0e979273c78e96242c8a332": "risky",
+  "842756fcfc0b76f7d68fe3555d51f858d2f254ee6f5dce3deb9db8173b3cbca0": "read"
+ },
+ "flags": []
+}

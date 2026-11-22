@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "eda2e782cd62585cad3eb7fd0fc207e5324a9b8e959790b995f045d41a232616",
+ "domain": [
+  "government/federal-funding",
+  "data/provenance"
+ ],
+ "product": [
+  "verisgov"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Provides US federal funding data with provenance records, and lets users verify figures for free.",
+ "whenToUse": "Use when researching federal grants or contracts and needing verifiable figures.",
+ "tasks": [
+  "query federal funding data",
+  "verify funding figures",
+  "view provenance"
+ ],
+ "effects": {},
+ "flags": []
+}

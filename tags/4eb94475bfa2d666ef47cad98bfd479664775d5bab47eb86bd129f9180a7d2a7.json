@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4eb94475bfa2d666ef47cad98bfd479664775d5bab47eb86bd129f9180a7d2a7",
+ "domain": [
+  "it/virtualization",
+  "operations/infrastructure"
+ ],
+ "product": [
+  "proxmox-ve"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "MCP server for Proxmox VE covering VMs, containers, snapshots, backups, storage and clusters.",
+ "whenToUse": "Use when an agent needs to inspect or manage Proxmox virtual machines and infrastructure.",
+ "tasks": [
+  "manage vms",
+  "manage lxc containers",
+  "create snapshots",
+  "run backups",
+  "manage storage",
+  "cluster operations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "342516e8a9c8727da89c144cbf974e6f81fb6e4e491c7b23106e6c0bb5a5dfb7",
+ "domain": [
+  "home-services/pool-service",
+  "scheduling"
+ ],
+ "product": [
+  "cal.com",
+  "pool-founder",
+  "caldav",
+  "carddav"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Pool Pro Florida tools for booking appointments, capturing leads, reading site content and syncing customer contacts and route calendars.",
+ "whenToUse": "Use when a customer wants pool service in St. Lucie County, or the owner needs to sync routes and contacts.",
+ "tasks": [
+  "create lead",
+  "check available times",
+  "book appointment",
+  "browse sitemap",
+  "read site page",
+  "upload media",
+  "upsert customer contact",
+  "upsert route stop event",
+  "sync route calendar",
+  "sync customer contacts"
+ ],
+ "effects": {
+  "ec09dde40ee0ba1dd8eadd33c857f981e33a1a51472d0d6cb440e77dffa1693b": "write",
+  "b2ef575b84d4f52bf0da38e41296326bf1d669e2d946b5a04fc836e0583bf3fd": "read",
+  "a345bb4aa1be3764e2103200d69801e7cf8317619021e952394c922bcb7527e6": "write",
+  "4ea5a704288ca80055e0af3e749e22853a7156fd726cfff715f3a3a3ade02193": "read",
+  "469f69e2b28227043d1934e4b1f5ff05ac7cd44f521eb4e4fd2d7282d0396bab": "read",
+  "82bb03e1430a09aaa0a4c4f5a41154159508f873d2df7e73a2144d4d31bc004d": "write",
+  "fdff8bd9a6e4876e2578b65b4424ace1c0d40f2591ec6db4ecf2c3f7e357a71d": "write",
+  "8409c398256e74ff5da16f99e1874926bbbbe9727ce23b1ba3b50a1ccbbd2971": "write",
+  "dd319ec1a012a75d0a1131f054a3396e4801ddf8f9a33b6ad558b6ab869e4af2": "write",
+  "a333953dbe09250ad38866d543e08148a53e4cd73e94381e1c3811cb30f5e79f": "risky"
+ },
+ "flags": [
+  "public connector exposes owner-only admin sync tools that can replace the whole contact book"
+ ]
+}

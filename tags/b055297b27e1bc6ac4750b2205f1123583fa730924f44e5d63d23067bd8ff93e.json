@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "b055297b27e1bc6ac4750b2205f1123583fa730924f44e5d63d23067bd8ff93e",
+ "domain": [
+  "media/transcription",
+  "video"
+ ],
+ "product": [
+  "youtube",
+  "tiktok"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gets YouTube captions as text and transcribes TikTok video speech from a link.",
+ "whenToUse": "Use when the user needs the text of a YouTube or TikTok video.",
+ "tasks": [
+  "get YouTube transcript",
+  "transcribe TikTok video",
+  "fetch transcription job result"
+ ],
+ "effects": {
+  "1cba56d44d741accb26c232a948a15f5b937c73e7d2374470017a3335c5b57e5": "read",
+  "3980a683fc713f15a75228a8f0540d034bd27a975bf4b3efe20e830239d09032": "write",
+  "ca378df2c3dd96d85974db4443eaca7cbc86cdef6368c8f82b0e9fa7683998bd": "read"
+ },
+ "flags": []
+}

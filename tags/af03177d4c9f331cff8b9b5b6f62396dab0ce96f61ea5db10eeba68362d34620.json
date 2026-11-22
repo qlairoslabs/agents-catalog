@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "af03177d4c9f331cff8b9b5b6f62396dab0ce96f61ea5db10eeba68362d34620",
+ "domain": [
+  "software/agent-registry",
+  "automation"
+ ],
+ "product": [
+  "meshkore",
+  "a2a"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Finds live agents by task description using probe-verified availability and invokes their skills.",
+ "whenToUse": "Use when you need another agent to perform a task and want to discover and call one.",
+ "tasks": [
+  "search agents",
+  "call agent skill",
+  "list skill vocabulary",
+  "check operational status"
+ ],
+ "effects": {
+  "eca79d76467e91c7c2508b013e0e66f42c12fa7640180248dc5bee023b119405": "write",
+  "395448faa13dc190a39f29e00e081135e415e3999200df56876466f8d9db3e54": "write",
+  "3dc8ff82fa4a1924f0fb6c1e0a64701c615a2297082e7fe09b26e0db5293caaf": "read"
+ },
+ "flags": [
+  "calls-third-party-agents"
+ ]
+}

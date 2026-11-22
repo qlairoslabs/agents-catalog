@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "3ae608dab0c98c04cdc6bc3a630f9a33b2da7d20f92ea5ed29e17e2667e254f9",
+ "domain": [
+  "media/home-media-server",
+  "media/library-management"
+ ],
+ "product": [
+  "sonarr",
+  "radarr",
+  "lidarr",
+  "prowlarr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "MCP server for managing the *arr media automation suite: Sonarr, Radarr, Lidarr and Prowlarr.",
+ "whenToUse": "Use when a user wants to search, add or check status of shows, movies or music in their *arr setup.",
+ "tasks": [
+  "search series and movies",
+  "add media to library",
+  "check download queue",
+  "manage indexers",
+  "view calendar"
+ ],
+ "effects": {},
+ "flags": []
+}

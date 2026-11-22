@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f1e9156901973d46e01cc649af7abb25e1bf508899b5097b79b6bffff6f4ab10",
+ "domain": [
+  "marketing/link-management",
+  "marketing/analytics"
+ ],
+ "product": [
+  "snipzr"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates short links on branded domains with cookie-less click analytics and QR codes.",
+ "whenToUse": "Use when an agent needs to create or track short links or QR codes.",
+ "tasks": [
+  "create short links",
+  "use branded domains",
+  "view link analytics",
+  "generate qr codes"
+ ],
+ "effects": {},
+ "flags": []
+}

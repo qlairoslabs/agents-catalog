@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "284848db90bc730fe47d6667c6503c4f7f27f3f8f62bdfd41eb6553272e87edb",
+ "domain": [
+  "retail/deals",
+  "travel"
+ ],
+ "product": [
+  "dajsve"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches current offers, products, services and travel deals from Croatian merchants.",
+ "whenToUse": "Use when a user wants deals or offers from Croatian merchants, searched in Croatian.",
+ "tasks": [
+  "search offers",
+  "get offer details",
+  "find similar offers"
+ ],
+ "effects": {
+  "e845f18d31e45b52a8d90f7553704e6b9b00a7509cf24e4b164b38e5471a7a17": "write",
+  "76bed132349962bae7f6462d052b4309af638d2f185c9081b9781840c8d1bfb6": "write",
+  "c2bd78b0c6d49e68e669b078b84788879090f47f9dd63e8b4ea930eab2fb1a2e": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "8d9fcf5775966383484cfb5c9f887f26830c8a89510b82aac7231bae9da0d40b",
+ "domain": [
+  "telecom/broadband",
+  "comparison"
+ ],
+ "product": [
+  "fibrecompare"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Checks fibre and broadband deals available at a UK postcode or address, with speeds, prices, contracts and sign-up links.",
+ "whenToUse": "Use when a UK user wants broadband options and prices for a specific address.",
+ "tasks": [
+  "check availability by postcode",
+  "check by exact address",
+  "filter by speed price provider",
+  "compare deals",
+  "fetch deal details"
+ ],
+ "effects": {
+  "d9267b9fc21e49ae5a5daca9b86db096a23e3dc1416df05781f99f8510602a2d": "read",
+  "cee4b1dee7bd1c7eb8b38e39a729e83bd8dd1114b3a58bf4f0ef08de550d3c21": "read",
+  "ee72bab5cbd9be3df413ab9f618713f1c028084122102d7309649b2a37d7c634": "read"
+ },
+ "flags": []
+}

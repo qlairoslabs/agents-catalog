@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3fb596e8d89b5e770eb4796ab22fa3e358b286af50b3a94e903191151464088b",
+ "domain": [
+  "media/animation/gif",
+  "communication/chat"
+ ],
+ "product": [
+  "slack"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Guidance and utilities for making animated GIFs that meet Slack's size and format constraints.",
+ "whenToUse": "Use when a user asks for an animated GIF to post in Slack.",
+ "tasks": [
+  "create animated gifs",
+  "validate gifs for slack",
+  "apply animation concepts",
+  "optimize gif size"
+ ],
+ "effects": {},
+ "flags": []
+}

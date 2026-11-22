@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "27e2785f79955bfdb0e0556219027b389f22801053e9fa8b824550df84957bcf",
+ "domain": [
+  "finance/market-data",
+  "finance/sec-filings"
+ ],
+ "product": [
+  "cabrini",
+  "sec-edgar",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "US equity intraday and daily price history plus SEC filings, paid per request in USDC.",
+ "whenToUse": "Use when an agent needs historical US stock prices or SEC filings and can pay via x402.",
+ "tasks": [
+  "get intraday stock data",
+  "get daily stock data",
+  "get sec filings"
+ ],
+ "effects": {},
+ "flags": []
+}

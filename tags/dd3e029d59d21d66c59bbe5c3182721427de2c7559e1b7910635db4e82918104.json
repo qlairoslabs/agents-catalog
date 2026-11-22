@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "dd3e029d59d21d66c59bbe5c3182721427de2c7559e1b7910635db4e82918104",
+ "domain": [
+  "finance/accounting",
+  "finance/invoicing"
+ ],
+ "product": [
+  "fortnox"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Hosted MCP server connecting AI clients to a live Fortnox accounting account via OAuth.",
+ "whenToUse": "Use when a user needs to read or work with their Fortnox accounting data from an AI assistant.",
+ "tasks": [
+  "connect to fortnox",
+  "access accounting data",
+  "work with invoices",
+  "read customer records"
+ ],
+ "effects": {},
+ "flags": []
+}

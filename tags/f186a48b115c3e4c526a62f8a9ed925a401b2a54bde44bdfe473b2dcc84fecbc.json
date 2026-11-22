@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f186a48b115c3e4c526a62f8a9ed925a401b2a54bde44bdfe473b2dcc84fecbc",
+ "domain": [
+  "software/documentation",
+  "software/api"
+ ],
+ "product": [
+  "memorysync"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads MemorySync documentation pages for use while writing integration code.",
+ "whenToUse": "Use when writing code that integrates with MemorySync and you need current API docs.",
+ "tasks": [
+  "search docs",
+  "read doc pages",
+  "list doc sections"
+ ],
+ "effects": {
+  "77c39fb92051ce510b64a95990095ff795c519f2b857f1d54ae37718350f52bd": "read",
+  "ac626a3610957da7f7bcdf2a90b7aee498839341ee8e5fd93e2ea120479fb951": "read",
+  "2d467c3edb200749d88384c186f82ec88d2c4fa34f5eb09031d91b1480dda465": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8b1ddbccab3576b1c502dc99364cf8136d4799deb87e128072e7f676bb798466",
+ "domain": [
+  "healthcare/medical-devices/regulatory",
+  "regulatory-compliance"
+ ],
+ "product": [
+  "fda-510k"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up medical device registrations across 25 markets, including coverage gaps, 510(k) predicates and device classification.",
+ "whenToUse": "Use when researching where a medical device is registered, finding 510(k) predicates, or checking device classification across markets.",
+ "tasks": [
+  "search device registrations",
+  "find market coverage gaps",
+  "look up 510(k) predicates",
+  "check device classification"
+ ],
+ "effects": {},
+ "flags": []
+}

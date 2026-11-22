@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "69fb1558666a6331213cf63a852ec318254c53f4bf5b2875234e7bf06cda85fd",
+ "domain": [
+  "software/cloud/gpu-compute"
+ ],
+ "product": [
+  "lium",
+  "nvidia"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Rents NVIDIA GPU pods on Lium with per-second billing, runs commands on them and removes them.",
+ "whenToUse": "Use when an agent needs to provision GPU compute, run jobs and tear pods down.",
+ "tasks": [
+  "rent gpu pods",
+  "run remote commands",
+  "remove pods"
+ ],
+ "effects": {},
+ "flags": [
+  "spends-money-and-runs-commands"
+ ]
+}

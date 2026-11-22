@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7bb628f72e4cd535cd377c98cf79959638b8f141786a58c040f663af8ae8e880",
+ "domain": [
+  "software/devops/deployment",
+  "software/ai-agents"
+ ],
+ "product": [
+  "arlet",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Creates, deploys and operates MCP servers built from GitHub repositories.",
+ "whenToUse": "Use when turning a GitHub repository into a hosted MCP server or managing such deployments.",
+ "tasks": [
+  "create mcp server from repo",
+  "deploy mcp server",
+  "operate deployed servers"
+ ],
+ "effects": {},
+ "flags": []
+}

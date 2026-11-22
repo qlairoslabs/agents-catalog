@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "c423b3367df0efe1ed2b5ce8377382612c3a8446cabecb717e93c26eaa256fbf",
+ "domain": [
+  "finance/regulatory-data",
+  "business/company-intelligence"
+ ],
+ "product": [
+  "fca",
+  "sec"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and enriches data on FCA- and SEC-regulated firms, their relationships, and supports saved workflows.",
+ "whenToUse": "Use when an agent needs to look up or enrich information about firms regulated by the UK FCA or US SEC.",
+ "tasks": [
+  "search regulated firms",
+  "enrich firm records",
+  "map firm relationships",
+  "run saved workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

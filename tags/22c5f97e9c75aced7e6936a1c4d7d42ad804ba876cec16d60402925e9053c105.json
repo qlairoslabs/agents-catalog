@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "22c5f97e9c75aced7e6936a1c4d7d42ad804ba876cec16d60402925e9053c105",
+ "domain": [
+  "monitoring/reservations/japan",
+  "scheduling"
+ ],
+ "product": [
+  "schedulesensor"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about monitored Japanese reservation pages, including openings, change history and status.",
+ "whenToUse": "Use when checking availability or changes on Japanese booking pages the user monitors.",
+ "tasks": [
+  "check reservation openings",
+  "view change history",
+  "check monitor status"
+ ],
+ "effects": {},
+ "flags": []
+}

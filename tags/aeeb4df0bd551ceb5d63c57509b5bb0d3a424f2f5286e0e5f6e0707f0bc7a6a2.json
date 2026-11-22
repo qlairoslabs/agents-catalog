@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "aeeb4df0bd551ceb5d63c57509b5bb0d3a424f2f5286e0e5f6e0707f0bc7a6a2",
+ "domain": [
+  "finance/trading/options",
+  "finance/market-data"
+ ],
+ "product": [
+  "options-analysis-suite"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Options analytics with pricing models, Greeks, gamma exposure, implied volatility, screeners, unusual activity and dark pool data.",
+ "whenToUse": "Use when analyzing options pricing, Greeks, volatility or unusual market activity.",
+ "tasks": [
+  "price options",
+  "compute greeks",
+  "analyze gamma exposure",
+  "check implied volatility",
+  "run screeners",
+  "find unusual activity",
+  "view dark pool data",
+  "calculate max pain"
+ ],
+ "effects": {},
+ "flags": []
+}

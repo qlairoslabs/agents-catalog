@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "ba4ce9f2144a88638fb61630d770f294f74d1a4c6e596c290b5a3c4076218bc3",
+ "domain": [
+  "education/executive-programs",
+  "commerce/offers"
+ ],
+ "product": [
+  "masterminds-hq",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Lists Masterminds HQ programs, events, case studies and FAQs, recommends an offer and creates Stripe checkout links.",
+ "whenToUse": "Use when someone is exploring or buying a Masterminds HQ program or event.",
+ "tasks": [
+  "list offers",
+  "get offer details",
+  "recommend an offer",
+  "search case studies and testimonials",
+  "list events",
+  "search faqs",
+  "create stripe checkout link",
+  "prepare purchase intent"
+ ],
+ "effects": {
+  "d3c486e536b26b3a9d3ab86ff6670e7c8d51d40704160fe5eebe90b425539555": "read",
+  "0950f3bd5e2a82fa01d6ab4b1da73ac569a2f7890c79c95e505b61e4c7db449d": "read",
+  "f128c6c50fcfda91c596104c6871f40bf65dd26345b4f88a03aa8e3c82c0f8d1": "read",
+  "322c5309bd0ff9ef1365691dc5edd78399167a4a594c2db7293452a80fbbea0b": "read",
+  "b4ce2cf9237882fa7408b335cd1048241c8da6de9df0f47850e4f79c0d85662f": "read",
+  "3c770a5987e4fe11424255061e34e04a6ccef5fa7290686ee257b65030a5ff3d": "read",
+  "2aeb7b804ae65e3db31ac368cb25314de5f6e26a3d129380c482a0b44e79d773": "read",
+  "7793d6b6b1d5559a39309e6320e2426a6ea127cd5723b8011a60b745eb195a67": "read",
+  "a62e73681b2c3900e136ddad5de5c8d59e99f4d1ec2b91166f8a548689281d03": "write",
+  "d31bc9331075f8bffa4fd5efd6c7ee4c6f96869b9c1618e60c20d97d650a7a72": "write"
+ },
+ "flags": []
+}

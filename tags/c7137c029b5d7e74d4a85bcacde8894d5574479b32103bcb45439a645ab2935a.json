@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c7137c029b5d7e74d4a85bcacde8894d5574479b32103bcb45439a645ab2935a",
+ "domain": [
+  "finance/invoicing",
+  "finance/payments"
+ ],
+ "product": [
+  "holdings"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid"
+ ],
+ "summary": "Lets an agent send invoices and collect card or ACH payments through Holdings.",
+ "whenToUse": "Use when a user needs to bill a client and take payment.",
+ "tasks": [
+  "send invoices",
+  "collect card payments",
+  "collect ach payments"
+ ],
+ "effects": {},
+ "flags": []
+}

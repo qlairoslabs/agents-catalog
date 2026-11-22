@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "113444de8c9364ae5c63431a8e030ea290200bc35cd9aebe78dd6be121a14ead",
+ "domain": [
+  "marketing/agency-directory"
+ ],
+ "product": [
+  "marketingin"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Directory of a UK marketing agency's services and company details, with a way to submit a contact inquiry.",
+ "whenToUse": "Use when a user wants to learn about Marketingin's services or send them an inquiry.",
+ "tasks": [
+  "list services",
+  "get service details",
+  "get company info",
+  "submit inquiry"
+ ],
+ "effects": {
+  "3cf683db10bf6fb7198b0ab8851816b97b15f79d23c60af6f3921e98ce1c70e5": "read",
+  "9277f797955148d3fd4c0a6c6ea9d6db53bb392c3f1ea3e93db6aae87b12df74": "read",
+  "91fdbadc2f590ba651787c674d403cfc5e5bdfae8e5a5f749ff0018c6d1b0531": "read",
+  "c5a921e1f8a4a01b43ee667c020c034908ca4fe70b818e19ed66ef90200aa0c5": "write"
+ },
+ "flags": []
+}

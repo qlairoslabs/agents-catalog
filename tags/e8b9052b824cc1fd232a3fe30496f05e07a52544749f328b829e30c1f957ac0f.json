@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e8b9052b824cc1fd232a3fe30496f05e07a52544749f328b829e30c1f957ac0f",
+ "domain": [
+  "sales/prospecting",
+  "sales/lead-enrichment"
+ ],
+ "product": [
+  "apollo-io"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Converts a plain-language ideal customer profile into a ranked list of enriched decision-maker leads.",
+ "whenToUse": "Use when someone describes their ideal customer and wants a list of leads with contact details.",
+ "tasks": [
+  "define icp from description",
+  "search matching companies and people",
+  "enrich leads with email and phone",
+  "rank leads"
+ ],
+ "effects": {},
+ "flags": []
+}

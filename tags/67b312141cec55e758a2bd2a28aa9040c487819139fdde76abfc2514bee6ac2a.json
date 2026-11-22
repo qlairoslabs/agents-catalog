@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "67b312141cec55e758a2bd2a28aa9040c487819139fdde76abfc2514bee6ac2a",
+ "domain": [
+  "software/hosting/deployment",
+  "software/devops"
+ ],
+ "product": [
+  "vercel"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "MCP server for working with the Vercel hosting and deployment platform.",
+ "whenToUse": "Use when inspecting or managing Vercel projects and deployments.",
+ "tasks": [
+  "access vercel projects",
+  "work with deployments"
+ ],
+ "effects": {},
+ "flags": []
+}

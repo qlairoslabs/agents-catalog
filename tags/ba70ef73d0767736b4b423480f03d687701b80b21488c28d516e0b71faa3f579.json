@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ba70ef73d0767736b4b423480f03d687701b80b21488c28d516e0b71faa3f579",
+ "domain": [
+  "media/video-production",
+  "media/generative-ai"
+ ],
+ "product": [
+  "starreel"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Turns a script into a finished, downloadable short drama video episode via MCP or REST.",
+ "whenToUse": "Use when someone wants to produce a short drama video episode from a written script.",
+ "tasks": [
+  "generate video episode from script",
+  "download finished episode"
+ ],
+ "effects": {},
+ "flags": []
+}

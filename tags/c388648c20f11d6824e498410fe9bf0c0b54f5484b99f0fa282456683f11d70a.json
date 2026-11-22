@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c388648c20f11d6824e498410fe9bf0c0b54f5484b99f0fa282456683f11d70a",
+ "domain": [
+  "software/observability/logs",
+  "analytics/querying"
+ ],
+ "product": [
+  "axiom"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lists Axiom datasets and schemas and runs APL queries for exploration, anomaly detection and monitoring.",
+ "whenToUse": "Use when an agent needs to query logs or event data stored in Axiom.",
+ "tasks": [
+  "list datasets",
+  "view schemas",
+  "run apl queries",
+  "explore data",
+  "detect anomalies"
+ ],
+ "effects": {},
+ "flags": []
+}

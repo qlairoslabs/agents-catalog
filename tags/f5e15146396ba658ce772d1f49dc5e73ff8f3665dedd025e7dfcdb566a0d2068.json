@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f5e15146396ba658ce772d1f49dc5e73ff8f3665dedd025e7dfcdb566a0d2068",
+ "domain": [
+  "software/developer-utilities"
+ ],
+ "product": [
+  "cloudflare"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Small developer utilities for getting the current time, generating UUIDs, Base64 encoding and decoding, and formatting JSON.",
+ "whenToUse": "Use when a developer needs a quick timestamp, a UUID, a Base64 conversion or pretty-printed JSON.",
+ "tasks": [
+  "get current time in a timezone",
+  "generate uuids",
+  "base64 encode or decode",
+  "format json"
+ ],
+ "effects": {
+  "f0794198e856f79a3fb7eab9e1b3c25d178278ad4168f1ecf0deb5ebdf47ee2d": "read",
+  "bf5c8277a72c208380b48793ed4bb8678ff39891b7493f52bbe5e4e5f9cd0847": "read",
+  "f025bcfc38ba0371298603f31965b4aa824d830ce6f080fae40b774c8779d143": "read",
+  "d9efe4b22ce0391c43a3353674e1332cec21cab3e7d3929784e23633f1ddc4a7": "read"
+ },
+ "flags": []
+}

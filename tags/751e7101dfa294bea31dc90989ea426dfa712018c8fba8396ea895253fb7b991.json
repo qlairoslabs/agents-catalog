@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "751e7101dfa294bea31dc90989ea426dfa712018c8fba8396ea895253fb7b991",
+ "domain": [
+  "ecommerce/product-photography",
+  "ai/image-generation"
+ ],
+ "product": [
+  "shopify",
+  "tintin-x"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Audits Shopify store photos and generates AI on-model try-on images for fashion listings, with a free preview and paid credits.",
+ "whenToUse": "Use when a fashion seller wants to find stale or off-season product photos and generate on-model images.",
+ "tasks": [
+  "audit Shopify store photos",
+  "get seasonal shoot calendar",
+  "create free preview",
+  "check preview status",
+  "generate try-on photo",
+  "check job status",
+  "check credit balance"
+ ],
+ "effects": {
+  "f3e860defbc5517bfbb02213e6ca9c0887df78ec77f57c0dc638c2651a412056": "read",
+  "f85c25d1f78a7857f9f4c4158b0769df13ebce765cc33b722a2755f629451e73": "read",
+  "be225c9476303d0a2422985c6d955f64be67104a58159dfe7a6030edd5285ae6": "write",
+  "1b85c90e187de603cb9a2cf3cc800a0179438a9e7ae54dd7fefa8b21098796c1": "read",
+  "fd0d12270277183cee649bb51deb32a51554a3dc702ed60a1970a707952ecc2e": "write",
+  "4002f99c404fb32d47223bff2ca4979ab3e267831d005a4da3dccaae9af77e42": "read",
+  "0761a13881f15e0d5929f5d24509d463a890117fba8ce9c88ef84d5692c5acd1": "read"
+ },
+ "flags": []
+}

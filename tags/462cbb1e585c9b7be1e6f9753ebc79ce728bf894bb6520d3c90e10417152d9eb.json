@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "462cbb1e585c9b7be1e6f9753ebc79ce728bf894bb6520d3c90e10417152d9eb",
+ "domain": [
+  "automotive/used-cars"
+ ],
+ "product": [
+  "autoisto"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches used cars for sale in Czechia, shows details with price verdicts and typical asking prices by model and year.",
+ "whenToUse": "Use when a user wants to find a used car in the Czech Republic or judge whether a price is reasonable.",
+ "tasks": [
+  "search used cars",
+  "get car details",
+  "get median model price",
+  "check price verdict"
+ ],
+ "effects": {
+  "03066f33cd09b322331088ff9a4975e3c08c4955d7702622b3e859027f3717e0": "write",
+  "9eae935d741739917ec6c04810f848de8366d85cb5f197e0c4a29eacc618541b": "read",
+  "73d5a6d8121b0f80ba14b1e21854cc7ee7cbd1d074db3f2e6260daa28ce55e45": "write"
+ },
+ "flags": []
+}

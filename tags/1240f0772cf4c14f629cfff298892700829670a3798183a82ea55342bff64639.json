@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "1240f0772cf4c14f629cfff298892700829670a3798183a82ea55342bff64639",
+ "domain": [
+  "software/parsing",
+  "developer-tools"
+ ],
+ "product": [
+  "tabnas"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Tools for the tabnas parsing engine: parse input, validate grammars, explain parse errors, run fixtures, compare grammars and browse plugins.",
+ "whenToUse": "Use when developing or debugging tabnas grammars and plugins.",
+ "tasks": [
+  "parse input",
+  "validate grammar",
+  "explain parse error",
+  "run TSV fixtures",
+  "list plugins",
+  "describe plugin",
+  "compare grammars"
+ ],
+ "effects": {
+  "9db476afd57d8ef3359555e45b7fe8559ff1d803afb39e73f45dfc65433dc1e6": "read",
+  "9135a463c1cee91b38fb12ca7a282f51127446fd41a4d70d6a0c2c0e13f28439": "read",
+  "8b348216873b8b4a533f59a54c44892ad4824a8cc456886491738798dd2f4f02": "read",
+  "22596034a6915496c91585ede94408d55adeec088dda87ee52c0caf3fc46c0f4": "read",
+  "0fddefa7f901f16b30438fab67930fba000bc7ecd0431e50077f89665c65db15": "read",
+  "8bf2925f7dd407096493b9d12c0ae5169990e4107b5d871e0bb0974221a1a0af": "read",
+  "325be72239c2c1104857b6a1941d95f88a3d4de34f0f88df784832eeb17d4a30": "read"
+ },
+ "flags": []
+}

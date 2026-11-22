@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c8a31b33c1f9f5f10fecf61101d274a8ef76567d48de438273f8e4e9d6b16d1a",
+ "domain": [
+  "data/visualization"
+ ],
+ "product": [
+  "antv"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Generates charts from data using the AntV visualization library.",
+ "whenToUse": "Use when an agent needs to turn data into a chart image or visualization.",
+ "tasks": [
+  "generate charts",
+  "create graphs from data"
+ ],
+ "effects": {},
+ "flags": []
+}

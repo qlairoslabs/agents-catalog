@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "a515ab5a00f3a9dbd55282850942c692a3aa60d9464e9ac85f4af38ecd6a4811",
+ "domain": [
+  "business/company-registry",
+  "compliance/due-diligence"
+ ],
+ "product": [
+  "krs",
+  "ceidg",
+  "firmy-ai"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "Looks up Polish companies and people in the KRS and CEIDG registers, including financials, boards, VAT status and sanctions.",
+ "whenToUse": "Use when an agent needs to verify or research a Polish company or a person linked to one.",
+ "tasks": [
+  "search companies",
+  "search persons",
+  "get company profile",
+  "get person profile",
+  "list companies by city or industry",
+  "rank companies by financial metric",
+  "refresh company data",
+  "check account mode"
+ ],
+ "effects": {
+  "9b5c56f4d4d71de1f69d89d1b1846cac909eff24aa6b5470268c43b1b4332a22": "read",
+  "8a7757b2b5a84b6a101a172187d33177571ae58d88afdfbf73b1442b7efb535c": "read",
+  "9c0da25d824ac27520acbae40b17dd64fd640ab396f0597b75297fbeb5813f2e": "write",
+  "ebe7e5431f17e51eab09216e4030e241ed8b165a9aa96e486d80ba90219bbed8": "write",
+  "0dcbb6fe1b45233dd0bbe0a4b6bb885d26c2cb54d172b788aaec8b06ea5c995b": "read",
+  "e2aa9493dcb81f4cb78efd7400f9734f9a757b23efaf1f5a46aa4c5883ab6712": "read",
+  "56304459634c43f95a59ba7f0068b921cde511b2835600f46aeabbd03cb6d024": "write",
+  "948ccc791faa95307a434af7068a29945c0c325fc5c45bfa4419270ae47a64f4": "read"
+ },
+ "flags": []
+}

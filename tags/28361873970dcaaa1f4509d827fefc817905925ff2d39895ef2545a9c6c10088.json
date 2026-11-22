@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "28361873970dcaaa1f4509d827fefc817905925ff2d39895ef2545a9c6c10088",
+ "domain": [
+  "software/developer-tools/agent-configuration"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Creates custom Claude Code hooks from markdown rules to block unwanted agent behaviors.",
+ "whenToUse": "Use when you want to add guardrail hooks that stop specific agent behaviors.",
+ "tasks": [
+  "create custom hooks",
+  "analyze conversation patterns",
+  "define rules in markdown"
+ ],
+ "effects": {},
+ "flags": []
+}

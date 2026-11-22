@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "328b349968af3505766c890270c0209b43c4df6eef53d12318505c5cc66a4a86",
+ "domain": [
+  "marketing/email/campaigns",
+  "marketing/sms"
+ ],
+ "product": [
+  "mailpro"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Email and SMS marketing tools for managing contacts and campaigns, viewing stats, and sending after approval.",
+ "whenToUse": "Use when an agent must run email or SMS campaigns or check their statistics in Mailpro.",
+ "tasks": [
+  "manage contacts",
+  "create campaigns",
+  "view campaign stats",
+  "send email or sms with approval"
+ ],
+ "effects": {},
+ "flags": []
+}

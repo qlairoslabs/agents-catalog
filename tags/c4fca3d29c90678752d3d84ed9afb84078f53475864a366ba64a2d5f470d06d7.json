@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "c4fca3d29c90678752d3d84ed9afb84078f53475864a366ba64a2d5f470d06d7",
+ "domain": [
+  "hospitality/restaurant-booking",
+  "travel/dubai"
+ ],
+ "product": [
+  "dubai-table",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Check live availability and request tables at Dubai restaurants, beach clubs and nightlife venues, with booking status, cancellation and checkout.",
+ "whenToUse": "Use when a user wants to find, request or cancel a table at a Dubai venue.",
+ "tasks": [
+  "list venues",
+  "see nightly programme",
+  "check table availability",
+  "show table picker",
+  "request a table",
+  "check booking status",
+  "cancel booking",
+  "create checkout",
+  "complete checkout",
+  "contact concierge"
+ ],
+ "effects": {
+  "52c0692f370f087998db0235b3b6934f3cdf59e8c6e179a43ac7c795b2a9f83d": "read",
+  "74a0f57386cbb51f2f8624d09a1c9e7f0abbad47669c3007f0f3127fb9b49d37": "read",
+  "07ce341c82c74dff6c4d0c62ae260a8ca7dc192dd4825378a39b2741af02a70e": "read",
+  "a0bc2e432416ea651ed5e9a316e144083be4bfd02dac7ead46faf6b79b47ec2d": "read",
+  "2a8c36d749e8b9b544229381e5ba3fccc2ba9300d00ac28c35172928018d0b5b": "write",
+  "070149ce584236210e23373e649758e89288f87fe3e74200ffd5bf03c2d4ac66": "read",
+  "0b1212bb1c4add74ec371ff09929dc21f6fa59a2db005cb17a76322a3e07d32e": "write",
+  "60f35938f482201a200e2afcf6683ae608ebaea9aebae4f59a3c1b9344c25c53": "write",
+  "e5df6792ac2aeb0ac5962d70e3453b46886c52c784defb69e29f738b7dee2baf": "read",
+  "534a24941ae748d71c95574fe95545d89936279dd4dfc829a7e26ad6143005d7": "write",
+  "96687c6dce9a81367f3220aa3f806fc5c82b0dfd0a7bc8eb827189f4caf19b63": "write",
+  "e4e032af580a366badc292917ec5a78870ff27f58dc78b723d7e9fb49a60a620": "write",
+  "5b50459d8e2dd7f4cf110977558ad2c81e3fb7de6dbbe416e911ead7e5b88cc9": "read"
+ },
+ "flags": []
+}

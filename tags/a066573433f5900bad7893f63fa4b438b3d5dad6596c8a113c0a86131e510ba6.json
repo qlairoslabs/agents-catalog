@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a066573433f5900bad7893f63fa4b438b3d5dad6596c8a113c0a86131e510ba6",
+ "domain": [
+  "ai/agent-orchestration",
+  "finance/crypto/payments"
+ ],
+ "product": [
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "automate-work"
+ ],
+ "summary": "Agent platform MCP for governed task routing, receipts and USDC settlement on the Base network.",
+ "whenToUse": "Use when an agent needs governed routing of work with receipts and USDC payments on Base.",
+ "tasks": [
+  "route agent tasks",
+  "issue receipts",
+  "settle payments in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5cb91503e09c54c1a872fb052a78e8059f384af696e8d35c1c12e11d7322470a",
+ "domain": [
+  "research/web-search",
+  "search"
+ ],
+ "product": [
+  "searxng"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Web search through a SearXNG instance with pagination and URL content reading.",
+ "whenToUse": "Use when an agent needs private web search or to read a web page's content.",
+ "tasks": [
+  "search the web",
+  "paginate results",
+  "read urls"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3c8010a34ca19ba59d8f4693492c3455fe8aeef5109a46e13129c0bcd0fb3125",
+ "domain": [
+  "marketing/testimonials",
+  "marketing/social-proof"
+ ],
+ "product": [
+  "testimonials-ltd"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Import, approve, tag and feature customer testimonials in a testimonials.ltd workspace.",
+ "whenToUse": "When a user needs to manage or curate customer testimonials for their website.",
+ "tasks": [
+  "import testimonials",
+  "approve testimonials",
+  "tag testimonials",
+  "feature testimonials"
+ ],
+ "effects": {},
+ "flags": []
+}

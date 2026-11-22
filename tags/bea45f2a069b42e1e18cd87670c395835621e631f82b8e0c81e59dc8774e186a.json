@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "bea45f2a069b42e1e18cd87670c395835621e631f82b8e0c81e59dc8774e186a",
+ "domain": [
+  "finance/business-metrics",
+  "marketing/analytics"
+ ],
+ "product": [
+  "pulse"
+ ],
+ "audience": [
+  "finance",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only queries over business metrics such as revenue, MRR, ad spend, LTV and CAC, plus Pulse SDK install guidance.",
+ "whenToUse": "Use when the user asks about revenue, MRR, ad spend or unit economics tracked in Pulse.",
+ "tasks": [
+  "query revenue",
+  "query mrr",
+  "query ad spend",
+  "query ltv and cac",
+  "install pulse sdk"
+ ],
+ "effects": {},
+ "flags": []
+}

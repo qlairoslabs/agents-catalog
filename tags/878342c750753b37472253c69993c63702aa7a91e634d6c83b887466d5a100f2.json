@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "878342c750753b37472253c69993c63702aa7a91e634d6c83b887466d5a100f2",
+ "domain": [
+  "media/podcasts",
+  "media/podcast-hosting"
+ ],
+ "product": [
+  "podhome"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Podhome podcasts including episodes, chapters, transcripts, clips, people and analytics.",
+ "whenToUse": "Use when publishing or editing podcast episodes or reviewing podcast analytics in Podhome.",
+ "tasks": [
+  "manage episodes",
+  "manage chapters",
+  "manage transcripts",
+  "create clips",
+  "manage people",
+  "view analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

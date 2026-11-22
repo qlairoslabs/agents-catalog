@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1448d519e863e319f979fd25ebc76ffddf5753380b162000b38eb9579d40bb25",
+ "domain": [
+  "customer-service/ai-agents",
+  "communication/voice"
+ ],
+ "product": [
+  "anyreach"
+ ],
+ "audience": [
+  "support",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work",
+  "keep-in-touch"
+ ],
+ "summary": "Builds AI agents that handle phone calls, web chat and email, plus automations around them.",
+ "whenToUse": "Use when a user wants to set up or manage AI agents for customer calls, chats or email on Anyreach.",
+ "tasks": [
+  "build voice agents",
+  "build chat agents",
+  "handle email with ai",
+  "automate follow-up workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

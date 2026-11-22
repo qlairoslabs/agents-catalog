@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "aa552778f4de57c121dab3ecdc8fb366fd8fd4e10c6639406b8130d45322f4a3",
+ "domain": [
+  "ecommerce/bathroom",
+  "ecommerce/storefront"
+ ],
+ "product": [
+  "cerano",
+  "shoptet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Read-only catalogue of the Czech cerano.cz shower and bathroom shop with search, compatibility checks, space-based finder, shop answers and order status.",
+ "whenToUse": "Use when helping a shopper find shower enclosures or trays, check they fit together, ask about shop policies, or look up an order.",
+ "tasks": [
+  "search catalogue",
+  "look up products",
+  "get product detail",
+  "find compatible products",
+  "check compatibility",
+  "find enclosure by space",
+  "answer shop questions",
+  "get order status"
+ ],
+ "effects": {
+  "e26be0099ff540b11151f76d40f28a5a30e2f1a7f124d4fa884d02e53fdc406e": "read",
+  "fd41a7afcaac5d98ebc74ed28a26d62a86484e5d17b23e8825a39f2aa4e7c05e": "read",
+  "5b99f3443403e020b474aef5cc86f8699c31bc0c29fb1dc51cc3d7279250d2fb": "write",
+  "f5cbab499d4a6dbda86e3e52b67b25845e467fb8b7c5902e1dcf22fca47bd344": "write",
+  "ba97be1e1fe088e5f40794cf6bf7c06579528a57de4901b896de79b3a191fb16": "read",
+  "0d5c7377c162762c9630237d36e1b890c4af7e4c47ef2df9a6958393715b8cf6": "write",
+  "b58fbfe1060b39fdf7039e88cb54bc16cc96b10f8dffd58cb8eb44282310618b": "read",
+  "589e4b9084421c5a8474babd1920c30618ccbb67f9a2147fd9b35b95d2912c54": "read"
+ },
+ "flags": []
+}

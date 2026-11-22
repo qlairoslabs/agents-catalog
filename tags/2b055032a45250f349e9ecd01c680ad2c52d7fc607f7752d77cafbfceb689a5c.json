@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2b055032a45250f349e9ecd01c680ad2c52d7fc607f7752d77cafbfceb689a5c",
+ "domain": [
+  "ecommerce/virtual-try-on",
+  "media/image-generation"
+ ],
+ "product": [
+  "genlook"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Virtual try-on that renders clothing, eyewear or accessories onto a photo of a person.",
+ "whenToUse": "Use when a shopper or retailer wants to see how a garment or accessory looks on a person's photo.",
+ "tasks": [
+  "render clothing on a person photo",
+  "render eyewear try-on",
+  "render accessory try-on"
+ ],
+ "effects": {},
+ "flags": []
+}

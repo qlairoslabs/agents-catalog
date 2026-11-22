@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "272a3d57d65ee175b5f9942e8e522a09554f7e02c51a23a1a09c85070e59ae95",
+ "domain": [
+  "food/recipes"
+ ],
+ "product": [
+  "recipes-daily"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches recipes and cooking guides on recipes-daily.com and ranks recipes by the ingredients on hand.",
+ "whenToUse": "Use when someone asks what to cook, wants recipes from ingredients they have, or needs a cooking technique guide.",
+ "tasks": [
+  "search recipes",
+  "find recipes by ingredients",
+  "show recipe cards",
+  "read cooking guides"
+ ],
+ "effects": {
+  "ac367b500730d80470ba7d5b1756eb4bd7b26084f2e4c131d7134da2e03474fa": "write",
+  "7e0c37df7c863efa3bb28001d3de12705a3c2f04a4ad31cb8736828efd81c48e": "read",
+  "4428871eafc6cf1f6235ff59b2eb988e6989d9bc49c2988347360c19d5d74711": "read",
+  "752cb6f80007d762b575d5485adcf29ca3f47a28634dcd4a90306ee43eba64ed": "read"
+ },
+ "flags": []
+}

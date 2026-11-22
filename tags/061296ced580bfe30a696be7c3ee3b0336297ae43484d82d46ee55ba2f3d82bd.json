@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "061296ced580bfe30a696be7c3ee3b0336297ae43484d82d46ee55ba2f3d82bd",
+ "domain": [
+  "health/addiction-treatment",
+  "health/mental-health"
+ ],
+ "product": [
+  "choosehelp",
+  "samhsa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Independent directory of addiction and mental-health treatment facilities and therapists, searchable by location, insurance and approach.",
+ "whenToUse": "Use when helping someone find rehab, detox, outpatient programs or a therapist.",
+ "tasks": [
+  "search facilities",
+  "facility details",
+  "list states",
+  "levels of care",
+  "list insurers",
+  "browse categories",
+  "search experts",
+  "expert profile",
+  "list facility types"
+ ],
+ "effects": {
+  "93c35ac93d3ebef8043cd1bb8ac0726e58be881aea080c5add30225c175f5879": "read",
+  "f52414d33d056956b2b611128f1f45e0f273ff89390862ea6a28fc8cca88d19f": "read",
+  "ba67739776794aa23f31133ac988e7e9b657323d7415800e72e919dd4baa67a1": "read",
+  "5d615de12c4ea9c8b45639c64f6e616813a47c7c17f3dc6dfd65fc78cd1b8476": "read",
+  "42838b5b378026963d4260f9b32917ce8a5aa630f4c289999d23d2923b20ef1e": "read",
+  "617ad0ed1576f6266afbcecb6c5c36273e8d19f2f8905337717f5aa1d99295ab": "read",
+  "696f66debfcc3fa3a609aacfd29b1a74eb050565a7c84de508d92e0390dbca71": "read",
+  "c5050771a5b8b7604259f1d751bf1db496f3a79bfde1934702962901cb5f9112": "read",
+  "52c7b6539cbba47f988b43ad1164220f896998f12cde4a43747be1439c35de6c": "read"
+ },
+ "flags": []
+}

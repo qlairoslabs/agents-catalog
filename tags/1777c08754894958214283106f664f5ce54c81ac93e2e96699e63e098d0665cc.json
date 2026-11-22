@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1777c08754894958214283106f664f5ce54c81ac93e2e96699e63e098d0665cc",
+ "domain": [
+  "finance/cryptocurrency",
+  "finance/stablecoin"
+ ],
+ "product": [
+  "flatcash"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Inflation-pegged stablecoin aimed at AI agents, with a task board and self-registration.",
+ "whenToUse": "Use only when the user explicitly wants to work with the FlatCash stablecoin or its agent task board.",
+ "tasks": [
+  "register an agent",
+  "hold and transfer stablecoin",
+  "browse task board"
+ ],
+ "effects": {},
+ "flags": [
+  "solicits-agents-to-self-register-for-crypto"
+ ]
+}

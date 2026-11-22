@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "225d52e063eefcaadd6c0d65cf98355a9c0eeaa8e2ab783b21ce47401f824d27",
+ "domain": [
+  "productivity/diagramming",
+  "visualization/graphs"
+ ],
+ "product": [
+  "vgraph"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Renders concept maps, IBIS, causal loop diagrams and timelines as images locally using WebAssembly.",
+ "whenToUse": "Use when a user wants a concept map, argument map, causal loop diagram or timeline drawn as an image.",
+ "tasks": [
+  "draw concept maps",
+  "draw ibis diagrams",
+  "draw causal loop diagrams",
+  "draw timelines"
+ ],
+ "effects": {},
+ "flags": []
+}

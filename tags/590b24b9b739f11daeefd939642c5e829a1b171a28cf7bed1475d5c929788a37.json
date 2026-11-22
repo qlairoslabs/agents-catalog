@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "590b24b9b739f11daeefd939642c5e829a1b171a28cf7bed1475d5c929788a37",
+ "domain": [
+  "shopping/price-comparison",
+  "consumer"
+ ],
+ "product": [
+  "nhtsa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Finds best delivered prices, used or refurbished alternatives, official cancel/refund steps and product compatibility.",
+ "whenToUse": "Use when a user wants the cheapest total price, a used option, how to cancel or return something, or compatibility checks.",
+ "tasks": [
+  "find best total deal",
+  "find fastest official completion path",
+  "find used or refurbished options",
+  "check product compatibility"
+ ],
+ "effects": {
+  "f2d50fcff06bd4cc89593d45ad85d792f326a89ade6cf5e93d5b8631528e04b7": "read",
+  "83ddd725d8d19fb1c545a3dc7c7f585e84778fd05e04d19db3ba23afa2853479": "read",
+  "85faee0dde2008e3cc2cbd0635d9182c1e31973cde54b8bf4aa34d01d429961b": "read",
+  "8288214a306bd17f0341e711e6a6c6431924b74fbeaed9ddda52c8a972997a21": "read"
+ },
+ "flags": []
+}

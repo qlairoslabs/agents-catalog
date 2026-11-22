@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "f2eb10a51f5f01897912aaae4cd7f61372236082960b2076d9146361b9d49994",
+ "domain": [
+  "media/news",
+  "media/european-news"
+ ],
+ "product": [
+  "pollar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Pollar's independent European news: search, top headlines, local news, explainers, threads, live stories, audio, films and market quotes.",
+ "whenToUse": "Use when a user wants current news, background on a story, local events near a city, or market quotes, in English, Polish, German or French.",
+ "tasks": [
+  "search news",
+  "list top headlines",
+  "news near a city",
+  "fetch event coverage",
+  "daily brief",
+  "track evergreen threads",
+  "entity profiles",
+  "live breaking stories",
+  "explainers",
+  "audio and film transcripts",
+  "market data"
+ ],
+ "effects": {
+  "930fe9f61e6579ca0388b77d2e08ff7983aa3108639cfa11739bf5e9cd0eb576": "read",
+  "9bc24a214523255d43917fb5c088cbbc138063698f5b2def65e88382641ecce6": "read",
+  "9b985c77ea6626918b573255420ff6dad68e0cdd02c97c233cb9d6b95a40fb15": "read",
+  "4ef69a15a1ca8fd1dd2ab3535e89bdea1b2f2cab447ff3f06253476685894caf": "read",
+  "ff2ae9c8ea443ad0effba31be2ee63d2e6de89d41ad414cdda72abfd2f465c2a": "read",
+  "b4149b2f651e11d2b96a514e079a87ef2cc679e5c658f4e58dc33923af7c60fe": "read",
+  "6e68abac73920c5d60eb0834e85ccb5d6327fee67e1956976bf91280605f5e3d": "read",
+  "d558146d3234732ee1320d84f63fd32abbb66d93ac366eeee6ecd8e2c132a20f": "read",
+  "f5e49eafbde29d2c4ef77a2fe1d5f588e4b5e1161a934655dc9da42b50d02e7f": "read",
+  "91524c619c03716519fd00498c996f2368373552e413537fc971bce2330f3c6f": "read",
+  "94ace2d06f007b34e833b32d6de053705cd1f9c92da7b073a1c0e37a65a83aa3": "read",
+  "d12772c2df75133c9eb20a89ce09edcb3f41525a3963fd80e92250bf0ac03a41": "read",
+  "bcdd73bb7a8bb2c1377600728ea7a9bfeac28e0b57bfeb19973f4d3d759dd691": "read",
+  "df1a0beff537e309396adc74072c2df7eb4542db307e6f714767e09ddb01dbfa": "read",
+  "f0178888c967db8272fc638a23e6428f46686931266dee3ea8c289c69f8d355a": "read",
+  "4993242220f87dd3418607f755db05a5a166556a08a77fee099ee02648d158b8": "read",
+  "1dfef8d683ec2662b7ff9488316e67217314eb956b4c225186a602d567c44ff7": "read",
+  "9e10b87193ae9b867e442ca24001ed6a7a79b1bde7dce01cc6729d1681d3bb2a": "read",
+  "d3e23f2e03455db2518e4f154ed73c1ac2b61a6104e5c884b3c22814ecf06ec4": "read",
+  "9068cff8e006ae1f771dc077426ad872cccd741fd999efa9962da412fbce9daa": "read",
+  "0b42c548f8d85e49ab55f0bb02cd50e0b022f03f6c83049c71ede4f91e103598": "read",
+  "f079653c10d512ead9e5a0ac31962ca487e43ce1c2e4758116fa57bb0cba471b": "read",
+  "c17cf0e54dace272a8754ab63517b0c752e36e170fada41bb6237cd45443b0a5": "read",
+  "53db91079b30958b41f28683ef7d03cd165f96ac4b9806c15e57b182bf18ae29": "read"
+ },
+ "flags": []
+}

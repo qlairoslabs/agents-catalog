@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "fece0528f3fe9d7f3c9ae21f9ee8bad2c2d61770c0b8e8a0bc883f207b78255e",
+ "domain": [
+  "retail/apparel",
+  "ecommerce/shopping"
+ ],
+ "product": [
+  "trailberg",
+  "shopify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "be-online"
+ ],
+ "summary": "Shop Trailberg activewear, tracksuits and footwear: search products, view details and size guides, get pairing suggestions, manage a cart and reach checkout.",
+ "whenToUse": "Use when a shopper wants to browse Trailberg clothing, find matching items, build a cart and get a checkout link.",
+ "tasks": [
+  "search products",
+  "view product details",
+  "show size guide",
+  "suggest matching items",
+  "add to cart",
+  "update cart",
+  "change variant",
+  "view cart",
+  "get checkout link"
+ ],
+ "effects": {
+  "48fe5d3c7d97a02d006d0d68f55adb4d40d0862ac3f3a064547a88a8813b43fe": "write",
+  "33369c6fbc73b1677253c2a695b30af153c4b3d7c9a0417fc7c1599926ebecce": "read",
+  "c8ed747e95e83001fa7532bcb5df916cbbb9e85241b60bfee4c2245bd481706b": "write",
+  "7031b39e380f6697c633739e5d830e08a966f373bfdd1421c09a6d4489b55c2b": "write",
+  "04b893ed96963c78611fa7d0ac0fc5bf9c848f343a5acba9155f4b868c3243c0": "write",
+  "9be742e359461ff021de3ae7dacc606b79fc1fce0cfdf7a494e6561842ba538f": "write",
+  "059655a7b34c065d0252e599b52f2b45ba47cd7dba1b08088938e0013dd4ffa3": "write",
+  "6cb52deb53821df20230fc9fb1e10121cfb2bf4fdc3ca759ba35067d27850c50": "write",
+  "05fbef73dd8a2701f1d8d8a8c7e7e5400223e46e14652aa0c50a51a0f921b903": "read",
+  "b8273fb24e55abd8accbc33d8fabf3434d509355ff266b86de614998c6a53e1a": "write",
+  "6f37786de4e2b59ee74312256b2418c341a42cbd88adb5f742a8a26b14f929c3": "write",
+  "e5d48e8785177d0ec3abdd1dc7008b542db0d1aaf859a436a0402ff901395c0a": "write",
+  "c7b08dfa0d2fc8a7c6019f442db64d4470838ff2437849cf1511303e8673a32d": "write",
+  "640a669e5ef9634ea97f0ef65b783a2c2a6775eb14b2eb9b8821b5397b83b2c0": "write",
+  "8f11e8421dee0104a6addb791984a3fd580fdfa76e48168632e98bc37ff5fb8d": "write",
+  "887f6a5d9bdaf01fa96d279e8130277b3d9afe2ac1a263aad5be984bc912bb5d": "write",
+  "31c709d35d6b9b8a8e0b1bb4b59597df39d518ebd73b6bff47e462c77a11548c": "write",
+  "c54dfdd06246398bc947f5aeba5e23565209d06185d0231bd668328d49b411df": "read",
+  "212d2e18973319a4911c5195e4b087b9cca1372774338152684ef9564b204d10": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f6971493d0ec3547b40c5eed65026fc8e1441ac1979c0150130c34d9e7bd8675",
+ "domain": [
+  "software/cybersecurity/osint"
+ ],
+ "product": [
+  "shodan",
+  "github"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "OSINT agent and server with tools for email, breach, IP, WHOIS, DNS, Shodan and GitHub lookups.",
+ "whenToUse": "Use when an agent needs to gather open-source intelligence on a domain, IP or email for security research.",
+ "tasks": [
+  "look up email addresses",
+  "check data breaches",
+  "look up ip addresses",
+  "run whois queries",
+  "query dns",
+  "search shodan",
+  "search github"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "28db4d3fc975edd0ae71709121ce458f9169ac4db3c636cfe4736245d84a9cd0",
+ "domain": [
+  "content/video-generation",
+  "marketing/ads"
+ ],
+ "product": [
+  "clipwright"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates talking-actor ad videos and faceless videos for agents, with pricing shown before each render.",
+ "whenToUse": "Use when an agent needs to produce marketing or faceless videos.",
+ "tasks": [
+  "create talking-actor ads",
+  "create faceless videos",
+  "get render price"
+ ],
+ "effects": {},
+ "flags": []
+}

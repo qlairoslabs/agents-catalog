@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "409643a309243db95146da06ea7d7bef6d1100336f31f65f446830883f634363",
+ "domain": [
+  "location/geocoding",
+  "utilities/qr-codes"
+ ],
+ "product": [
+  "loc8id"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Converts GPS coordinates into shareable short links and QR codes under the user's signed-in account.",
+ "whenToUse": "Use when the user wants to share a precise location as a short link or QR code.",
+ "tasks": [
+  "create location short link",
+  "generate location qr code",
+  "manage saved locations"
+ ],
+ "effects": {},
+ "flags": []
+}

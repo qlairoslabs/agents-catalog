@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fafc766adee5d0c0c29e5b8adb819bbf382c4dc767536fe7618ce90d0ab9bebb",
+ "domain": [
+  "media/podcasting",
+  "content/audio"
+ ],
+ "product": [
+  "jellypod"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates, imports and publishes podcast episodes in Jellypod from an AI assistant.",
+ "whenToUse": "Use when a user wants to produce or publish a podcast episode on Jellypod.",
+ "tasks": [
+  "create podcast episode",
+  "import content",
+  "publish episode"
+ ],
+ "effects": {},
+ "flags": []
+}

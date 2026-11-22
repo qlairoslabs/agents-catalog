@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "e3fb7a682388310d21229b1404507162f49a5e62f97de1bd709b2db4a6041e4d",
+ "domain": [
+  "information/web-search"
+ ],
+ "product": [
+  "tavily"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Web search server using the Tavily search API.",
+ "whenToUse": "Use when an agent needs current web search results.",
+ "tasks": [
+  "search the web",
+  "retrieve search results"
+ ],
+ "effects": {},
+ "flags": []
+}

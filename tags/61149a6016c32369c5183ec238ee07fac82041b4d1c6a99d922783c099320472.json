@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "61149a6016c32369c5183ec238ee07fac82041b4d1c6a99d922783c099320472",
+ "domain": [
+  "software/web-development/feedback",
+  "software/development"
+ ],
+ "product": [
+  "revisionme"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Turns visual feedback that website visitors leave into tasks a coding agent can work on.",
+ "whenToUse": "Use when a coding agent should pick up and act on visual feedback collected from a website's visitors.",
+ "tasks": [
+  "read visitor feedback",
+  "turn feedback into coding tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

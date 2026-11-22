@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5c8bc5ccd155298780df0414ea2fa62bbc9cd844765d9e70663eaf12f1922d13",
+ "domain": [
+  "crypto/solana",
+  "crypto/defi",
+  "payments/x402"
+ ],
+ "product": [
+  "solana",
+  "sns",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "get-paid"
+ ],
+ "summary": "Solana MCP gateway for the SAP protocol, DeFi tools, SNS identity and x402 payments.",
+ "whenToUse": "Use when an agent needs Solana DeFi actions, SNS name identity or x402 payments.",
+ "tasks": [
+  "access sap protocol",
+  "use solana defi tools",
+  "resolve sns identities",
+  "make x402 payments"
+ ],
+ "effects": {},
+ "flags": []
+}

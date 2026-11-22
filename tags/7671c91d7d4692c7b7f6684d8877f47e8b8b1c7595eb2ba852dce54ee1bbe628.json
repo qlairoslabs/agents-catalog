@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7671c91d7d4692c7b7f6684d8877f47e8b8b1c7595eb2ba852dce54ee1bbe628",
+ "domain": [
+  "software/cloud-hosting/php"
+ ],
+ "product": [
+  "fortrabbit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Lists and creates apps and environments on the fortrabbit PHP hosting platform.",
+ "whenToUse": "Use when a developer wants to inspect or create apps and environments on fortrabbit.",
+ "tasks": [
+  "list apps",
+  "list environments",
+  "create apps",
+  "create environments"
+ ],
+ "effects": {},
+ "flags": []
+}

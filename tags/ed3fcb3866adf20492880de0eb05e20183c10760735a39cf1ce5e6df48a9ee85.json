@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ed3fcb3866adf20492880de0eb05e20183c10760735a39cf1ce5e6df48a9ee85",
+ "domain": [
+  "geospatial/satellite-imagery",
+  "data/analytics"
+ ],
+ "product": [
+  "skyfi"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches, tasks and orders satellite imagery and geospatial analytics from SkyFi.",
+ "whenToUse": "Use when a user needs satellite images of a location or wants to order new imagery captures.",
+ "tasks": [
+  "search satellite imagery",
+  "task new captures",
+  "order imagery",
+  "order geospatial analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

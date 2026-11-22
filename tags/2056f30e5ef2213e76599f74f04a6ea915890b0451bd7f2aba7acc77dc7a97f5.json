@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2056f30e5ef2213e76599f74f04a6ea915890b0451bd7f2aba7acc77dc7a97f5",
+ "domain": [
+  "software/graphql",
+  "software/api-integration"
+ ],
+ "product": [
+  "apollo-connectors",
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guide to integrating REST APIs into GraphQL supergraphs using Apollo Connectors and the @source and @connect directives.",
+ "whenToUse": "Use when a user wants to expose a REST API through GraphQL with Apollo Connectors or works with @source or @connect directives.",
+ "tasks": [
+  "integrate rest apis into graphql",
+  "write @source directives",
+  "write @connect directives",
+  "edit apollo connectors schemas",
+  "design supergraph connectors"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d907621e76840a9665c50af84ca2f1486603cda950bb89cde216b61e1fb10c08",
+ "domain": [
+  "data/official-statistics",
+  "research/public-data"
+ ],
+ "product": [
+  "aard"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds official statistics from over 170 publishers from natural-language questions, with provenance details.",
+ "whenToUse": "Use when you need sourced official statistics answering a factual question about economies, populations or similar.",
+ "tasks": [
+  "query official statistics",
+  "resolve natural-language data questions",
+  "return data provenance"
+ ],
+ "effects": {},
+ "flags": []
+}

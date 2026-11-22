@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "3c4794be37df81d73847c93818743c14642b99ebf5da836816f48bd10dae86c5",
+ "domain": [
+  "marketing/seo",
+  "consulting/digital-media"
+ ],
+ "product": [
+  "sequel",
+  "google"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online"
+ ],
+ "summary": "Tools from Sequel Consulting to request a quote, run a quick AI-readiness site check, search SEO/GEO articles and see Google ranking update status.",
+ "whenToUse": "Use when a user wants SEO/GEO guidance, a quick AI-agent readiness check of a site, or a consulting quote.",
+ "tasks": [
+  "request a quote",
+  "check site AI readiness",
+  "search SEO insights",
+  "check Google update status"
+ ],
+ "effects": {
+  "ec243d839f29af7f05b7676b515116890a8d01107e4a16ce03ed2a7f8726c537": "write",
+  "443954a8de4adb84c08dfdcfa6590b1fe36c55d0e9d0675b03787e8e49ef0456": "read",
+  "1ac39b476055083852422607ca38d0468e4e408b325395886d5b91118559548a": "read",
+  "a3769b86e446d76aa8fb6ed815b6c15c63a599d92b676c12db64743c2fd22817": "read"
+ },
+ "flags": []
+}

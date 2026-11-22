@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "76be745c105f8941a8002ff6d9e394127136d3a4982e23468bbbe8ac04a620ee",
+ "domain": [
+  "software/knowledge-management",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "claude-code",
+  "oneda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Persistent, governed memory store for Claude Code holding project specs, decisions and learnings.",
+ "whenToUse": "Use when a coding agent needs to recall or record project specifications, decisions and lessons across sessions.",
+ "tasks": [
+  "store specs",
+  "record decisions",
+  "save learnings",
+  "recall project memory"
+ ],
+ "effects": {},
+ "flags": []
+}

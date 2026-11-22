@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9d51395aff18d5ceeefebe2f7e12eb67fac4f45212e2fdfc7fe0b8c0fc7d4e56",
+ "domain": [
+  "commerce/appraisal",
+  "collectibles"
+ ],
+ "product": [
+  "appraisily",
+  "chatgpt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "sell"
+ ],
+ "summary": "Looks up historical auction prices and helps prepare items for professional appraisal, with sample reports.",
+ "whenToUse": "Use when a user wants to estimate the value of an item from past auction results or prepare for an appraisal.",
+ "tasks": [
+  "check past auction prices",
+  "prepare appraisal",
+  "view sample reports"
+ ],
+ "effects": {},
+ "flags": []
+}

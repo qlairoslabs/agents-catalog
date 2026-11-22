@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "4c420d16b78cc80b7b3cec5cb803058f8073c603c07693bb72371ed81741e67d",
+ "domain": [
+  "crypto/blockchain-explorer",
+  "crypto/dogecoin"
+ ],
+ "product": [
+  "dogecoin",
+  "dogechain"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Dogecoin blockchain lookups: transactions in plain English, addresses, blocks, network status, fees, supply, rich list and charts.",
+ "whenToUse": "Use when inspecting a Dogecoin transaction, address or block, or checking network fees, supply and trends.",
+ "tasks": [
+  "identify query type",
+  "explain transaction",
+  "look up address",
+  "read block",
+  "check network status",
+  "check fees",
+  "get supply",
+  "get rich list",
+  "get chart series"
+ ],
+ "effects": {
+  "7d07cfe0d27072208db45d9932f4485e7506fb26b1f8501f1bd7cab28115f375": "read",
+  "6a6bfcce9a032b6123f5fbd69f9c5318938c0a1af608d000139f66328aa3942b": "read",
+  "c20098120d277087864d14b97d43ca2c5c49c9dfc37a422234fc75990b2ce5cf": "read",
+  "9d0bfe0006a00c8170963a089c067dfb50ddb85275f632f63a9be6567ee6a658": "read",
+  "95aa35ae4f6960bb20e3246976941fbe0650735ad31f845773bf888e17cecf2c": "read",
+  "228442b9813691e17b2716d9788765f96bd85464364c016f329a67cbadda5d25": "read",
+  "30494827afc7d208db14e4b3fc2bfb2c9a6aa785a0214813b63a87088911c7c2": "read",
+  "0e475e8c6f90bc06c350a005ffb95c6e415f80952a1e111ac6cba1c131bc01f5": "read",
+  "052814150bbabca149cdc05f2ba9f835fa038b9679e8bc3b4f60a68bf6bfa6a5": "read"
+ },
+ "flags": []
+}

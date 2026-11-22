@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "8bfb83ee709ad14e72950fd7caca0ad1c36bcb1126cc89e86cbecfe80a4ee221",
+ "domain": [
+  "research/grant-data",
+  "science-funding"
+ ],
+ "product": [
+  "nih",
+  "nih-reporter"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only entity-resolved NIH grant corpus (FY1985-2026) for searching grants, PIs and institutions, and analysing funding trends.",
+ "whenToUse": "Use when analysing NIH funding by topic, researcher, institution, institute or mechanism, or looking up a specific grant.",
+ "tasks": [
+  "search grants",
+  "rank institutions",
+  "get PI profile",
+  "get institution profile",
+  "funding trends",
+  "topic trends",
+  "mechanism mix",
+  "funding concentration",
+  "fetch grant record"
+ ],
+ "effects": {
+  "8217ad5e4a390bf7f38346ac2d7f414a37074bd5277dd07f7168d66b4b7fcf69": "read",
+  "0144c34fc09fcf1a1c01de83fbf542840a141e6725b70338b8c3995ba06e0069": "write",
+  "1b2fdb8a53096854297e4f98934bccb047c58d55a910e744bb255152e17c78ab": "write",
+  "11beea9c8365f65214f2127faf094d665c056560b0a1efab54a5038f743171ef": "write",
+  "bc5d91e02a33002b37bd47f71c504f5b832dfab6e23c6e44ef16babd9c0889ec": "write",
+  "3a884a459439d3186a8a3e16597412a1c786fabedaf592547a76e0a336d1ece6": "write",
+  "654572d87ed1fa03ca3918139723f7392d620df3e4f15d93613b4f41507a059d": "read",
+  "bbacff3e7cde10ee5848aaa5615e5cb6cdef6533c94013f693726479aef3e33c": "write",
+  "425ef3965f9b935f7989410fdc5d1ff7dde8f6a207a2cd9b7671de3759a84d0f": "write",
+  "6d72c6d86abfb8a69622abcd3eab6ac26c255bb142b9ffd95db62876ef810f8f": "write",
+  "df77afa12ce0713d68be47e3499de51f39da0e613d6fc2df4fad60b8375ab717": "write",
+  "c00d1faf93460b21da6e04ac4a47b355d2b0094298b0b7ac19b26bdf98f955cf": "write",
+  "812eae63a5dd65732eada8885d72d599c4a528aac3c264fc38f4b3e99e0ade5c": "write",
+  "0541cb01a40c7e787e1ebcadde6ca1f12c88821c01d826164cc6ce06f77e56cc": "write"
+ },
+ "flags": []
+}

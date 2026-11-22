@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6cde684fa382821c75ee664a25737c3d526ec7349d3e40ad8e52df7d200284dd",
+ "domain": [
+  "media/video/transcripts"
+ ],
+ "product": [
+  "youtube",
+  "kliptools"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Downloads YouTube subtitles and transcripts as SRT, VTT or plain text, paid per download with credits.",
+ "whenToUse": "Use when a user needs the transcript or subtitle file of a YouTube video.",
+ "tasks": [
+  "download srt subtitles",
+  "download vtt subtitles",
+  "get plain text transcript"
+ ],
+ "effects": {},
+ "flags": []
+}

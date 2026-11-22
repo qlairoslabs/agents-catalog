@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e08f22ace320e4e57dbc5ff0b9d7135734809acd39069983ada7fb34ffd5d5fe",
+ "domain": [
+  "telecom/directory"
+ ],
+ "product": [
+  "losali"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Directory of French special phone numbers with service, number type, call cost from France and Losali price.",
+ "whenToUse": "Use when someone asks what a French special number (08xx, short numbers) belongs to or costs to call.",
+ "tasks": [
+  "search special numbers",
+  "look up a number",
+  "list services",
+  "get a service's numbers"
+ ],
+ "effects": {
+  "32aaac8a71d3362209eb47dc4ecd08ba98c9252114a8f541ebc3ed4358b25192": "read",
+  "ec2816ad511cc7a1ab0f3237550e379490ec946ddbfdc767fb192b22d48ca065": "read",
+  "7762d6d77f1a38dc20c48e559f68574fcacc798f6ed1dd8ea17acc95f5c864f1": "read",
+  "0dddb217c3b9de534ebdaa7a36a37078227a4a908f70fc9de805ecec0c7b8f1c": "read"
+ },
+ "flags": []
+}

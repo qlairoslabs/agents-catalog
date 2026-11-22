@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "7de03769ba6c861706bbe36eae95996cd99978c9796638feae2913d592072b96",
+ "domain": [
+  "crypto/cross-chain-swaps",
+  "finance/trading"
+ ],
+ "product": [
+  "chainflip",
+  "bitcoin",
+  "ethereum",
+  "solana",
+  "polkadot",
+  "tron",
+  "arbitrum"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Quote, start and track native cross-chain crypto swaps, including DCA swaps, through the Chainflip broker.",
+ "whenToUse": "Use when a user wants to swap crypto assets across chains and track the swap.",
+ "tasks": [
+  "get swap quotes",
+  "get native-unit quotes",
+  "start swap",
+  "start DCA swap",
+  "check swap status",
+  "list assets"
+ ],
+ "effects": {
+  "5259068e88f72d90fc00f1686fb2528561174d8c434eae06529f293a6a87e6d7": "read",
+  "f8cb34c13e16e792461adbb5d74843bda5be534d8dcfc064fbb3e05b3b66130b": "risky",
+  "c6311a0ae932dbdf45984eba7a4930526f24113fbb144e3d169d7bc4d1abe7f2": "read",
+  "d10238d05b5e28c0bf5e6a108ad22866c32e5190bbc0ecc76f07ea4aee26eab6": "read",
+  "714b7a19fea965ab91f1c64510aa1d1d5ee7e9b39008b83f31fe5f9d79b03dc6": "risky",
+  "17154d9b5575ab2db25d3ec5e5e5fd4af2258c3ae242e72ed88c8b15bc681afd": "read"
+ },
+ "flags": []
+}

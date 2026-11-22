@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "571b05538c6d26c2c485fc2a121e4ff8060d32a74753c45fddfbc3148408ee30",
+ "domain": [
+  "web/domains",
+  "web/dns"
+ ],
+ "product": [
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Searches and registers domain names and manages DNS records, with payment in USDC via x402.",
+ "whenToUse": "Use when an agent needs to find, buy or configure a domain name and its DNS.",
+ "tasks": [
+  "search domain availability",
+  "register domains",
+  "manage DNS records",
+  "pay with USDC"
+ ],
+ "effects": {},
+ "flags": []
+}

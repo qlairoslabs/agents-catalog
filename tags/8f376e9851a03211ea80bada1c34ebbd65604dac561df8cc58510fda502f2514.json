@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8f376e9851a03211ea80bada1c34ebbd65604dac561df8cc58510fda502f2514",
+ "domain": [
+  "agriculture/market-data",
+  "agriculture/sensors"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "East African agriculture data covering fertiliser and crop prices, satellite-based demand, news and farm sensor readings.",
+ "whenToUse": "Use when analysing East African agricultural markets, prices or farm conditions.",
+ "tasks": [
+  "get fertilizer prices",
+  "get crop prices",
+  "view satellite demand data",
+  "read agriculture news",
+  "read farm sensor data"
+ ],
+ "effects": {},
+ "flags": []
+}

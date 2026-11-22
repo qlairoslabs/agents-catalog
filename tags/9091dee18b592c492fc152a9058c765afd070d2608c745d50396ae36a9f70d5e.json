@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "9091dee18b592c492fc152a9058c765afd070d2608c745d50396ae36a9f70d5e",
+ "domain": [
+  "design/diagramming",
+  "software/documentation"
+ ],
+ "product": [
+  "draw-io",
+  "mermaid"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Creates interactive draw.io diagrams from Mermaid or XML, searches shape libraries and provides generation references.",
+ "whenToUse": "Use when a user wants a diagram such as a flowchart, architecture or UML rendered in chat.",
+ "tasks": [
+  "create diagram from Mermaid or XML",
+  "create quick semantic diagram",
+  "search shapes",
+  "get draw.io reference"
+ ],
+ "effects": {
+  "8e569a706295783799755fd6d4dda8048d3ed0d6861dd0aaddc0451e8833a372": "write",
+  "dc99b9bba3b003366431beefd992cce743fc85be3ae62f4f5b493cf7f649fd34": "write",
+  "622cedac68044be49397a68392b26d780aea572a29db8a201f08401bd5e28f7c": "write",
+  "274389d4da493395fdc3637a1a9588299c3d41e82f719dfbdc9151d9d0929747": "read"
+ },
+ "flags": []
+}

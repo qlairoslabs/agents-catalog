@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5b191183284795ab0bd982babc152e34f2bc7cb7ea2f56044439cc42a4738636",
+ "domain": [
+  "business/client-portals",
+  "project-management/agency"
+ ],
+ "product": [
+  "ahsuite"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "work-as-a-team"
+ ],
+ "summary": "Builds and runs agency client portals with pages, tasks, forms, file requests and messages.",
+ "whenToUse": "Use when an agency needs to create or manage client portal content, tasks, forms or messages.",
+ "tasks": [
+  "build client portals",
+  "manage pages",
+  "manage tasks",
+  "create forms",
+  "request files",
+  "send messages"
+ ],
+ "effects": {},
+ "flags": []
+}

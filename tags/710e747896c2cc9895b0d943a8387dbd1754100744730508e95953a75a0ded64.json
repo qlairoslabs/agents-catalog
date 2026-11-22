@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "710e747896c2cc9895b0d943a8387dbd1754100744730508e95953a75a0ded64",
+ "domain": [
+  "telecom/cloud-phone",
+  "sales/pricing-estimates"
+ ],
+ "product": [
+  "accent"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches Accent's public website content and computes non-binding monthly estimates for its cloud phone and messaging plans.",
+ "whenToUse": "Use when a user asks about Accent's cloud phone products or wants a rough monthly cost for a number of users.",
+ "tasks": [
+  "search website content",
+  "read a page or product",
+  "check content version",
+  "estimate monthly plan cost",
+  "price add-ons"
+ ],
+ "effects": {
+  "d2ae3ee68a7e85408062fce49da10bbe5075f4c3971100c00124767ff5257616": "read",
+  "6d230d104c70e4abc24aca36c0d519f4f23bbeceeb4c4f35958fd4eff7d371a9": "read",
+  "552f5a296cf248dac5c75dcb33cfe25f7360a16ad95bfa01b8c1b11151ef5966": "read",
+  "d5182358e70eca7efe473de71e4f5d6fd709bd3667de0ca5ac750c592942fe6a": "write"
+ },
+ "flags": []
+}

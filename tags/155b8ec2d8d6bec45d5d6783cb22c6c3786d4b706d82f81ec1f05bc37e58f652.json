@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "155b8ec2d8d6bec45d5d6783cb22c6c3786d4b706d82f81ec1f05bc37e58f652",
+ "domain": [
+  "research/surveys",
+  "education/academic"
+ ],
+ "product": [
+  "domandata"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Builds, previews, deploys and exports academic surveys, with blocks, flow logic, experiments, quotas and response data.",
+ "whenToUse": "Use when a researcher wants to design, launch or export an academic survey in Domandata.",
+ "tasks": [
+  "build surveys",
+  "configure flow logic",
+  "set up experiments",
+  "set quotas",
+  "preview surveys",
+  "deploy surveys",
+  "export data"
+ ],
+ "effects": {},
+ "flags": []
+}

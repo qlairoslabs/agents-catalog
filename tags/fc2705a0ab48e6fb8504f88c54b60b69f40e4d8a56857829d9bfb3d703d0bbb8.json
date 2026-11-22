@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fc2705a0ab48e6fb8504f88c54b60b69f40e4d8a56857829d9bfb3d703d0bbb8",
+ "domain": [
+  "finance/capital-markets/ipo",
+  "finance/investing"
+ ],
+ "product": [
+  "ipogrid",
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Research tool for upcoming and past IPOs, covering the calendar, SEC filings, deal terms and related news.",
+ "whenToUse": "Use when an agent needs IPO dates, deal terms, SEC filings or news about a company going public.",
+ "tasks": [
+  "view ipo calendar",
+  "search sec filings",
+  "look up deal terms",
+  "read ipo news"
+ ],
+ "effects": {},
+ "flags": []
+}

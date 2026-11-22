@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3a9817f55cca0ef87fd3398f227911ab86618279a81c279e98d23be9441f001e",
+ "domain": [
+  "commerce/e-commerce/store-admin"
+ ],
+ "product": [
+  "jumpseller"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Admin connector for Jumpseller online stores covering products, orders and customers.",
+ "whenToUse": "Use when managing a Jumpseller store's catalogue, orders or customer records.",
+ "tasks": [
+  "manage products",
+  "manage orders",
+  "manage customers"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d97800f67c72ee19966dcae06ac91762935fb2baa7c9ce076816f17eef9c4485",
+ "domain": [
+  "software/ai-governance/mcp-gateway",
+  "compliance/ai-regulation"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "MCP gateway offering 64 governed tools with a Merkle-based transparency log, aimed at EU AI Act compliance.",
+ "whenToUse": "Use when agent tool calls must be routed through an audited, logged gateway for compliance.",
+ "tasks": [
+  "route governed tool calls",
+  "record transparency log entries",
+  "support ai act compliance"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f69880ce2c7af7ef513dd8d8f625819634c00ec1c207be56be3fb7381595b9e3",
+ "domain": [
+  "sales/data-enrichment",
+  "sales/prospecting"
+ ],
+ "product": [],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "B2B data enrichment returning work emails, phone numbers, company details, tech stack and hiring signals.",
+ "whenToUse": "Use when an agent needs to enrich leads or companies with contact and firmographic data for outreach.",
+ "tasks": [
+  "find work email",
+  "find phone number",
+  "get firmographics",
+  "detect tech stack",
+  "get hiring signals"
+ ],
+ "effects": {},
+ "flags": []
+}

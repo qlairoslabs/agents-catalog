@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f1d82cd8b0210dd7912619518c221d505bf1b23aa9091b14a3a9dd9abb0e7fa4",
+ "domain": [
+  "cloud/reliability",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure-functions",
+  "azure-app-service",
+  "azure-storage"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Scans Azure Functions and App Service apps for reliability gaps and drives confirmed staged remediation via CLI or IaC.",
+ "whenToUse": "Use when a user wants to assess or improve high availability, zone redundancy or failover for Azure PaaS apps.",
+ "tasks": [
+  "assess reliability posture",
+  "check zone redundancy",
+  "check zrs storage",
+  "check health probes",
+  "review multi-region failover",
+  "find single points of failure",
+  "apply staged remediation"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fc961438f8f583dc083399d86400d87a4d66d87014c0d5a7addd45cb96b14407",
+ "domain": [
+  "ai/multi-model"
+ ],
+ "product": [
+  "roundtable",
+  "gpt-4o",
+  "claude",
+  "gemini"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Has several AI models debate a question and then combines their answers into a synthesis.",
+ "whenToUse": "Use when a question benefits from multiple AI models' perspectives before reaching a conclusion.",
+ "tasks": [
+  "run multi-model debates",
+  "compare answers across models",
+  "synthesize model responses"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d29b42b7ef00c94510295b7a8b22f2ae67f8174079e46d203281927908b578f6",
+ "domain": [
+  "software/developer-tools"
+ ],
+ "product": [
+  "utilix"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Collection of offline developer utilities for JSON, JWT, regex, cron and SQL, plus optional AI tools via an API key.",
+ "whenToUse": "Use when an agent needs quick utilities such as formatting JSON, decoding JWTs, testing regex or parsing cron.",
+ "tasks": [
+  "format and validate json",
+  "decode jwt",
+  "test regex",
+  "parse cron expressions",
+  "format sql"
+ ],
+ "effects": {},
+ "flags": []
+}

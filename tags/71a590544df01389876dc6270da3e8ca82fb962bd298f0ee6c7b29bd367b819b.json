@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "71a590544df01389876dc6270da3e8ca82fb962bd298f0ee6c7b29bd367b819b",
+ "domain": [
+  "nonprofit/donations",
+  "advocacy/petitions"
+ ],
+ "product": [
+  "attentio",
+  "stripe",
+  "blik"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "work-as-a-team"
+ ],
+ "summary": "Lists petitions and donation options of a Polish ADHD adults association and prepares a donation payment link.",
+ "whenToUse": "Use when a donor wants to support the association or a specific petition and needs a payment link.",
+ "tasks": [
+  "list petitions",
+  "list donation amounts",
+  "read donation rules",
+  "prepare donation session"
+ ],
+ "effects": {
+  "63888f43b99c030e3c8963e4d455a6de456d224186a802cb54f5c5697838f039": "read",
+  "ecae73784cca1866675963b1f417b6cbbb3de3f1d4cab9350a654c9e4daa8aed": "read",
+  "e68a042997e2713701d35db78b31d87b40c96ad6e20e3bada24ec6cf72ed80cf": "read",
+  "049e1657e5a2be525dd6b7668a6febf027c1153712fc7af896e346ca65b0d0a7": "write"
+ },
+ "flags": [
+  "tool description embeds an API key to pass in calls"
+ ]
+}

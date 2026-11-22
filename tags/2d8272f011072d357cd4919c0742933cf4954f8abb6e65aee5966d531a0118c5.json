@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "2d8272f011072d357cd4919c0742933cf4954f8abb6e65aee5966d531a0118c5",
+ "domain": [
+  "software/testing/chaos-testing",
+  "software/ai/agents"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Chaos-testing toolkit for MCP agents with a simulated demo mode and a proxy mode for real agents.",
+ "whenToUse": "Use when testing how an AI agent copes with failing or misbehaving MCP tools.",
+ "tasks": [
+  "run simulated chaos demo",
+  "proxy real agent traffic",
+  "inject tool failures"
+ ],
+ "effects": {},
+ "flags": []
+}

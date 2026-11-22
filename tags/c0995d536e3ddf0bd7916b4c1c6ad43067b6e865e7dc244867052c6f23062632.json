@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c0995d536e3ddf0bd7916b4c1c6ad43067b6e865e7dc244867052c6f23062632",
+ "domain": [
+  "design/brand-compliance",
+  "design/graphic-design"
+ ],
+ "product": [
+  "canva"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Reviews a Canva design against a brand kit and reports off-brand colors, fonts, logo use and copy tone without changing it.",
+ "whenToUse": "Use when the user asks whether a Canva design is on brand or matches brand guidelines.",
+ "tasks": [
+  "compare design to brand kit",
+  "find off-palette colors",
+  "find non-brand fonts",
+  "detect logo misuse",
+  "check copy tone",
+  "report divergences"
+ ],
+ "effects": {},
+ "flags": []
+}

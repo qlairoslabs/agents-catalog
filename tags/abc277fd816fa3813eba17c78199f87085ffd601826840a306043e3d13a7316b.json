@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "abc277fd816fa3813eba17c78199f87085ffd601826840a306043e3d13a7316b",
+ "domain": [
+  "software/ai-agents/multi-agent-coordination",
+  "collaboration"
+ ],
+ "product": [
+  "schelling-add-forward"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Coordination layer for multiple AI agents with shared spaces, tasks, search, mailboxes and persistent state.",
+ "whenToUse": "Use when several AI agents need to share tasks, messages or state.",
+ "tasks": [
+  "create shared spaces",
+  "manage tasks",
+  "search shared content",
+  "send agent messages",
+  "store persistent state"
+ ],
+ "effects": {},
+ "flags": []
+}

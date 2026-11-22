@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "044249724c518bdabd6eb6a6c6eab2fe526b6f718c7a4397d7ebf323b10f89e2",
+ "domain": [
+  "music/artist-profiles",
+  "music/distribution"
+ ],
+ "product": [
+  "audora"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Fills in an artist's Audora profile, tracks, albums, credits and release drafts.",
+ "whenToUse": "Use when a musician wants to set up or update their Audora profile and release information.",
+ "tasks": [
+  "edit artist profile",
+  "add tracks",
+  "add albums",
+  "manage credits",
+  "create release drafts"
+ ],
+ "effects": {},
+ "flags": []
+}

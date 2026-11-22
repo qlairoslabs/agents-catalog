@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "522a5ad7fdbc448afffbb4ba383492f56ce940c9595418c447ba35d6a2c66609",
+ "domain": [
+  "analytics/product-analytics"
+ ],
+ "product": [
+  "oxvo"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to OXVO Insights analytics for one authorized app: list events and run queries.",
+ "whenToUse": "Use when the user wants to query event analytics for their app tracked in OXVO.",
+ "tasks": [
+  "list tracked events",
+  "run analytics queries"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0dfa9ab0859c7b6503e9553408fff0d4309af55f54b49e9dc6a907e3d5095cbb",
+ "domain": [
+  "software/api-integration",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "corsproxy-dev"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Proxy that lets agents call third-party APIs without exposing secrets, with SSRF blocking and per-key quotas.",
+ "whenToUse": "Use when an agent needs to call external APIs while keeping API keys hidden.",
+ "tasks": [
+  "proxy third-party api calls",
+  "inject stored secrets",
+  "enforce per-key quotas",
+  "block ssrf requests"
+ ],
+ "effects": {},
+ "flags": []
+}

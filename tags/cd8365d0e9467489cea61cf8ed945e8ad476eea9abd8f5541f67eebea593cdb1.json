@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "cd8365d0e9467489cea61cf8ed945e8ad476eea9abd8f5541f67eebea593cdb1",
+ "domain": [
+  "productivity/sharing",
+  "developer-tools"
+ ],
+ "product": [
+  "ctxt-io"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Publishes text, markdown, code or HTML as auto-expiring public links, and reads or deletes them.",
+ "whenToUse": "Use when you need to share content from the conversation as a short-lived link or read an existing ctxt.io link.",
+ "tasks": [
+  "create shareable link",
+  "read shared link",
+  "delete link",
+  "render HTML or markdown",
+  "set expiry"
+ ],
+ "effects": {
+  "6586dd81e5d933038aadaa2191e27cd302fa75d669f347963b794be5ede13667": "write",
+  "c99d0bb45e135f142c178c33191e624b7dea3bdf025fa360823e2cd5e76a1092": "read",
+  "dddad4c01cf2b36d4f8a5b13cd8e3de92193e3b36713dfabb5b7706e7f5917b8": "write"
+ },
+ "flags": []
+}

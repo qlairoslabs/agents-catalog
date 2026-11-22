@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3aeb115a79852b0c1fa67aa27fd96509ed75690692dad1c0e7a477c084901048",
+ "domain": [
+  "commerce/local-shopping",
+  "commerce/marketplace"
+ ],
+ "product": [
+  "partle"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches products available in nearby stores and lets agents list items for sale for a user.",
+ "whenToUse": "Use when a user wants to find a product in local shops or post an item for sale.",
+ "tasks": [
+  "search nearby store products",
+  "list item for sale"
+ ],
+ "effects": {},
+ "flags": []
+}

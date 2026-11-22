@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "68c177a93da95e40453ffffcc14d7ccb6bc7ed68ece2b9555172c9188771dd0a",
+ "domain": [
+  "software/smart-contracts",
+  "blockchain"
+ ],
+ "product": [
+  "openzeppelin",
+  "solidity",
+  "ethereum",
+  "chainlink"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates Solidity smart contract source code from OpenZeppelin templates for tokens, accounts, governance, stablecoins and custom contracts.",
+ "whenToUse": "Use when a developer needs a starter Solidity contract such as an ERC-20, ERC-721, governor or ERC-4337 account.",
+ "tasks": [
+  "generate ERC-20 token",
+  "generate ERC-721 NFT",
+  "generate ERC-1155 token",
+  "generate stablecoin",
+  "generate RWA token",
+  "generate ERC-4337 account",
+  "generate governor contract",
+  "generate custom contract"
+ ],
+ "effects": {
+  "90a8495bed3af0e43d20a5d6b618a2a83bf6c387be21a8b01469da2888049e2c": "write",
+  "346ddb2ac475d80c0249d07f36b1378eafa14f26fbd258ad21728ca49a4cce0e": "write",
+  "8917f0516e0fce00263aa55aeda35c4594f4634abfbc4603c9d780074e62202a": "read",
+  "ec9c7e3164c3d2652a027796848e65e8b70d7dc6fafefbcb934c5b7f33ec811e": "write",
+  "0b3bc5a295ef01fec0fade94bd1648df35ac1ae744111fb2f0a01818d0b6d67d": "write",
+  "3539e600e525656f64922f00265f3bead4c887b20788452cb3c707b4160102b6": "write",
+  "1255380ccc8f20b5e06aeac7f0d8d0cd3b0aeb79ff8fb1f401e939d953ec9f3e": "write",
+  "b42371c6ed13de47f57db8a4014e9e17960ef33033d908994947756a2a555fd7": "read"
+ },
+ "flags": []
+}

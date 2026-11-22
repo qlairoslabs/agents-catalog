@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "c849bfa12b11c34a102b41d1186d586a2e1000e85d4910fe5f2ac2f43c81ae87",
+ "domain": [
+  "crypto/dex-aggregator",
+  "finance/trading"
+ ],
+ "product": [
+  "blazephoenix",
+  "ethereum",
+  "base",
+  "optimism",
+  "arbitrum"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "On-chain DEX aggregator that prepares quote calls for your own RPC and decodes results into verified unsigned swap calldata.",
+ "whenToUse": "Use when preparing or checking token swap quotes and calldata on supported EVM chains, or looking up deployments and ABIs.",
+ "tasks": [
+  "prepare quote call",
+  "decode quote result",
+  "produce unsigned swap calldata",
+  "decode USD value",
+  "get deployments",
+  "get contract ABI"
+ ],
+ "effects": {
+  "b4dffec2a40ac808727ea29b5b42b8776adeb7618643a109bc9494d747dbe4d9": "read",
+  "49198c8ce74d1619f8d34a6441e8b7eb3eb3126a0394a8db68beb0627ddeef1d": "write",
+  "eb3e5ebda03296b75cea037d9016eca49b0c0fe863ccd5d8887dac332a032637": "write",
+  "3038aa4de3cf686a1d927cb92689e44ab9e49e409b54e590f4c191ae7f3d8081": "read",
+  "a23a977fc35cce3e5271be7b26cbb38a87bf558be2bf775f8878876346ba6280": "read"
+ },
+ "flags": []
+}

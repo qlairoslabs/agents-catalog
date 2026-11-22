@@ -1,0 +1,22 @@
+{
+ "classifier": 2,
+ "contentHash": "e242fba46790531937a904d51b13382996d396b306d7cdcbb6fc67a07af6a0bf",
+ "domain": [
+  "software/developer-tools/specifications"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Repo-based layer for recording and using development intent in AI-assisted software engineering.",
+ "whenToUse": "Use when a coding agent should follow or record project intent stored in the repository.",
+ "tasks": [
+  "record development intent",
+  "read repo intent for agents"
+ ],
+ "effects": {},
+ "flags": []
+}

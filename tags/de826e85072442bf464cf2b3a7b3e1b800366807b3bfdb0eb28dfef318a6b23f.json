@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "de826e85072442bf464cf2b3a7b3e1b800366807b3bfdb0eb28dfef318a6b23f",
+ "domain": [
+  "education/student-guides",
+  "travel/relocation"
+ ],
+ "product": [
+  "germandex"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Read-only guides for students in Germany covering ten cities, housing, banking, jobs and daily life in many languages.",
+ "whenToUse": "Use when a student asks about moving to or living in a German city.",
+ "tasks": [
+  "list cities",
+  "list sections",
+  "fetch guide"
+ ],
+ "effects": {
+  "8e3b4048769a2b5460dd63e8ab106ff932bbb5d118edfb8b78c105ed409b0cc1": "write",
+  "33e4a6c6458f7953e3b55f76285cd3ce4b018ca7b66be11fb3e8d8c6704e9dfb": "write",
+  "b62459df7703c8765956a57c84a9c0f7fabc16a6c11cc1053850af400f13c368": "write"
+ },
+ "flags": []
+}

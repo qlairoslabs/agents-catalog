@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "945af44f4eb40c4b0962d33b9d510887cf4b74214308ca721880ad7113b54947",
+ "domain": [
+  "marketing/advertising/website-monetization",
+  "finance/payouts"
+ ],
+ "product": [
+  "rocketsloth",
+  "google-ad-manager"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "be-online"
+ ],
+ "summary": "Lets an agent apply a website to the Rocket Sloth ad network, install ad tags, adjust ad and video settings, and view revenue and payouts.",
+ "whenToUse": "Use when a site owner wants to monetize a website with ads, subscriptions or video and manage that account through an agent.",
+ "tasks": [
+  "apply a site for ad monetization",
+  "get ad script tag and unit markup",
+  "verify tag installation",
+  "check application status and onboarding checklist",
+  "adjust ad formats and placements",
+  "manage video players",
+  "manage reader subscriptions and donations",
+  "view revenue reports",
+  "view payout history",
+  "rotate or recover api tokens",
+  "reclaim a previously registered site"
+ ],
+ "effects": {
+  "735ef4c9a75aecc0ea3ad336a4e427c7b4659f2b7e5ffc8164a5db4a3b1353b6": "read",
+  "cba4812cccdd338e165154e9db4312fe44ff9214da31ff3f3ecb28ec1512b02f": "risky",
+  "a980bb6b9f08ad23ed3bce3a23a723a61cf12a4747ea04732f1f39a625df96e1": "write",
+  "800e4a77518fc7cc67e2e9db706b808ec57a5e61cfa80b8d8608ac1a3dc58e69": "write",
+  "193c4baa0eecff3341e930e48ca87344b5d1bd65e0333414bdc8bb40992e74bf": "write",
+  "4a84419a85c7b8deba449ffb3725c6484f3e5cef8b8e9f92e03d2a5a6da2656f": "write",
+  "2c21ab97af630fce93298b90dff3b4e478b302f09d3336c4fd93bb387aa81362": "read",
+  "59b680ea4cfa5be902e974a839c234eed3f279ab738659db5c6f5c4f765d49e9": "read",
+  "d390cb5e1033b3261a35d2f5ecf95de7d85392bbbac254c5bf16862afaa230a2": "read",
+  "b23768613aecc537d8cd824991b81106540c9d4344ae4bf6688684dcdba6b462": "risky",
+  "0d1257704e42d36aa2703dfed83d21f014d8ccf0293a617f42376895f5ac3078": "risky",
+  "94a84c9ea0a5cfa0a9c48cf0f4c7e920b63e2d508b38b9a8d16858951e7a6d52": "read",
+  "e36c9f3942199754ee5603f6efc13f519a8f724096b6a4be2866a9580440a52e": "write",
+  "8a4b34d90c2786469f0b3d7a783f4f3e63a68ffdcd41a39ff6a1ee9916464e23": "write"
+ },
+ "flags": [
+  "tool descriptions direct the agent's workflow (e.g. 'call this first', 'call integration immediately') and tell it how to handle tokens",
+  "apply collects the site owner's personal name and email on their behalf"
+ ]
+}

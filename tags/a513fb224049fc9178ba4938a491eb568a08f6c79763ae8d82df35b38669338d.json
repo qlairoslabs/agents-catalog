@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a513fb224049fc9178ba4938a491eb568a08f6c79763ae8d82df35b38669338d",
+ "domain": [
+  "data/app-store",
+  "marketing/app-intelligence"
+ ],
+ "product": [
+  "apple-app-store",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides App Store data through 9 endpoints, paid per call in USDC using the x402 protocol.",
+ "whenToUse": "Use when an agent needs App Store app listings, reviews or metadata and can pay per request in USDC.",
+ "tasks": [
+  "fetch app store data",
+  "look up app details",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

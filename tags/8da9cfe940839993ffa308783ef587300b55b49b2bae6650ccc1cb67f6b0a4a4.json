@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8da9cfe940839993ffa308783ef587300b55b49b2bae6650ccc1cb67f6b0a4a4",
+ "domain": [
+  "software/mobile-development/ios",
+  "software/testing/ui-automation"
+ ],
+ "product": [
+  "ios-simulator",
+  "xcode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm server that lets coding agents build Xcode projects and drive the iOS Simulator by reading screen text and tapping labels.",
+ "whenToUse": "Use when an agent needs to build an iOS app and interact with it in the Simulator.",
+ "tasks": [
+  "build xcode projects",
+  "run apps in ios simulator",
+  "read screen as text",
+  "tap elements by label"
+ ],
+ "effects": {},
+ "flags": []
+}

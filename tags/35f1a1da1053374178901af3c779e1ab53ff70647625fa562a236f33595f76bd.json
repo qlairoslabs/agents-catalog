@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "35f1a1da1053374178901af3c779e1ab53ff70647625fa562a236f33595f76bd",
+ "domain": [
+  "finance/crypto-trading",
+  "finance/derivatives"
+ ],
+ "product": [
+  "hyperliquid",
+  "mrtrades"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Hosted trading desk for Hyperliquid with paper trading on recorded market data, without exposing private keys to the assistant.",
+ "whenToUse": "Use when a user wants to paper trade or manage Hyperliquid positions through a hosted desk.",
+ "tasks": [
+  "paper trade",
+  "replay stored market data",
+  "manage hyperliquid orders"
+ ],
+ "effects": {},
+ "flags": []
+}

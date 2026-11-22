@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "de02d0f31ffdc574681abdd039f2ce9b2682ad18344c91a11a7c4aabe35f6637",
+ "domain": [
+  "design/design-systems"
+ ],
+ "product": [
+  "oods-foundry"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm package for an object-oriented design system that extends an existing design system.",
+ "whenToUse": "Use when building UI that should follow or extend a team's design system with OODS Foundry.",
+ "tasks": [
+  "extend design system",
+  "access design components"
+ ],
+ "effects": {},
+ "flags": []
+}

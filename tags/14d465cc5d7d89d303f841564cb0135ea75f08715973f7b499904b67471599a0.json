@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "14d465cc5d7d89d303f841564cb0135ea75f08715973f7b499904b67471599a0",
+ "domain": [
+  "finance/currency-exchange"
+ ],
+ "product": [
+  "allratestoday"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Returns current and historical exchange rates for over 160 currencies.",
+ "whenToUse": "Use when an agent needs currency conversion or exchange rate history.",
+ "tasks": [
+  "get live exchange rates",
+  "get historical rates",
+  "convert currencies"
+ ],
+ "effects": {},
+ "flags": []
+}

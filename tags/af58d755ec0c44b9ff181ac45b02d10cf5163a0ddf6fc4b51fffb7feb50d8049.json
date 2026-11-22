@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "af58d755ec0c44b9ff181ac45b02d10cf5163a0ddf6fc4b51fffb7feb50d8049",
+ "domain": [
+  "software/developer-documentation"
+ ],
+ "product": [
+  "lovefengis"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Read-only access to lovefengis developer documentation covering its REST API, MCP server, CLI and authentication.",
+ "whenToUse": "Use when an agent needs reference details on integrating with lovefengis via its API, MCP or CLI.",
+ "tasks": [
+  "search developer docs",
+  "read api reference",
+  "look up cli usage",
+  "look up auth setup"
+ ],
+ "effects": {},
+ "flags": []
+}

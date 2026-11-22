@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "041b3d70612458a41c77983ececa73d62f9e1a3d9d3573dde608dce5ef6bd0de",
+ "domain": [
+  "community/management/token-gating",
+  "marketing/community"
+ ],
+ "product": [
+  "guild-xyz",
+  "discord",
+  "telegram"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "work-as-a-team"
+ ],
+ "summary": "Manages a Guild.xyz community including roles, token gating, Discord and Telegram rewards, points and pages.",
+ "whenToUse": "Use when administering community roles, access requirements or rewards on Guild.xyz.",
+ "tasks": [
+  "manage roles",
+  "set token gating",
+  "grant discord rewards",
+  "grant telegram rewards",
+  "manage points",
+  "edit pages"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cb186bac04a227eea74ab315ad590f7b8286976b9a3ca2fc9e4f712279ceb071",
+ "domain": [
+  "productivity/knowledge-management",
+  "productivity/notes"
+ ],
+ "product": [
+  "anytype"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Official MCP server for the Anytype API, giving agents access to an encrypted, local-first collaborative wiki.",
+ "whenToUse": "Use when an agent needs to read or edit spaces, objects or pages in a user's Anytype workspace.",
+ "tasks": [
+  "search objects",
+  "read pages",
+  "create objects",
+  "update objects",
+  "list spaces"
+ ],
+ "effects": {},
+ "flags": []
+}

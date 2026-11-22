@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "036e35d32d07581f3174de134e7068795c5af95c70c0087ed669b66b4519502d",
+ "domain": [
+  "legal/compliance/gdpr",
+  "software/privacy"
+ ],
+ "product": [
+  "rulemesh",
+  "gdpr"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Supplies GDPR rules for engineers and agents to implement and lets them submit compliance evidence.",
+ "whenToUse": "Use when building software that must meet GDPR and you need concrete rules or must record evidence.",
+ "tasks": [
+  "pull gdpr rules",
+  "get implementation guidance",
+  "submit compliance evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

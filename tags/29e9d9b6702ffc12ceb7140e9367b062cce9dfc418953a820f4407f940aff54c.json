@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "29e9d9b6702ffc12ceb7140e9367b062cce9dfc418953a820f4407f940aff54c",
+ "domain": [
+  "health/telemedicine",
+  "health/medical-reference"
+ ],
+ "product": [
+  "appendix"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Lets an agent search medical literature and submit a clinical letter for physician review and possible prescription.",
+ "whenToUse": "Use when a user wants physician-reviewed medical guidance or a prescription and has described their condition.",
+ "tasks": [
+  "search medical knowledge base",
+  "submit clinical encounter",
+  "attach images",
+  "list available conditions and medications"
+ ],
+ "effects": {
+  "7fa8ce54ae090bc522a324e6141a5cca0b1cc642be069429b67b2f521a62f510": "read",
+  "7058b30515562f94364d947144b31dbabeb21b17abf84d074ebfe2a0934555da": "write",
+  "eb7abee110b4a2b60f2db5a8fb6e467b09b3fee8cdee9409395478a6f046aab0": "read"
+ },
+ "flags": []
+}

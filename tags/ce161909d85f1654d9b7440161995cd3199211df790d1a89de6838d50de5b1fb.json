@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ce161909d85f1654d9b7440161995cd3199211df790d1a89de6838d50de5b1fb",
+ "domain": [
+  "software/version-control",
+  "software/code-review"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "GitHub MCP server for managing repositories, issues, pull requests and code review through the GitHub API.",
+ "whenToUse": "Use when working with GitHub repositories, issues or pull requests.",
+ "tasks": [
+  "create issues",
+  "manage pull requests",
+  "review code",
+  "search repositories",
+  "call github api"
+ ],
+ "effects": {},
+ "flags": []
+}

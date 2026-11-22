@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d4022abe37db50240bf097450eb981d7ccec64b6926d24d31f922208eaee956d",
+ "domain": [
+  "finance/personal-finance"
+ ],
+ "product": [
+  "wise-penny"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an AI read connected bank data such as balances, transactions, budgets and bills without moving money.",
+ "whenToUse": "Use when a person asks about their bank balances, spending, budgets or upcoming bills.",
+ "tasks": [
+  "view balances",
+  "review transactions",
+  "check budgets",
+  "list bills"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c50eea04cbdc9996733324764367d646b6cc689e5fa813032e31c2fd7641775f",
+ "domain": [
+  "automation/integration-platform"
+ ],
+ "product": [
+  "apiant"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Builds, runs and manages APIANT automations that connect hundreds of apps.",
+ "whenToUse": "Use when a user wants to create or manage cross-app automations in APIANT.",
+ "tasks": [
+  "build automations",
+  "run automations",
+  "manage automations",
+  "connect apps"
+ ],
+ "effects": {},
+ "flags": []
+}

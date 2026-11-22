@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "846e5f3bd54483f40593b5e33d331593aeca8ed0f15f2860d02f2eec8f6dbe90",
+ "domain": [
+  "hr/job-search",
+  "hr/resume-analysis"
+ ],
+ "product": [
+  "calibrd"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Compares a job posting with a CV to score fit, identify gaps, estimate ATS score and predict interview questions.",
+ "whenToUse": "Use when a job seeker wants to know how well their CV matches a specific job and how to prepare.",
+ "tasks": [
+  "score cv against job",
+  "identify skill gaps",
+  "estimate ats score",
+  "suggest likely interview questions"
+ ],
+ "effects": {},
+ "flags": []
+}

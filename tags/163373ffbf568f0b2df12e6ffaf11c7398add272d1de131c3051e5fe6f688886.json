@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "163373ffbf568f0b2df12e6ffaf11c7398add272d1de131c3051e5fe6f688886",
+ "domain": [
+  "software/project-management",
+  "ai/agent-orchestration"
+ ],
+ "product": [
+  "anyforge"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Local npm server for AnyForge to approve plans, track initiatives and work items, and direct AI engineering crews.",
+ "whenToUse": "Use when a user manages AI engineering crews in AnyForge and needs to review plans or track work items.",
+ "tasks": [
+  "approve plans",
+  "track initiatives",
+  "manage work items",
+  "steer ai engineering crews"
+ ],
+ "effects": {},
+ "flags": []
+}

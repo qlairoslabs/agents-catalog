@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1d3839a4d3832594fd3a3a9e95472c59fd922c3dcc701c210b2fa5794eb34fa4",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/mobile/flutter"
+ ],
+ "product": [
+  "appwrite",
+  "flutter",
+  "dart"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for using the Appwrite Dart SDK in Flutter apps and server-side Dart code.",
+ "whenToUse": "Use when building a Flutter or Dart application backed by Appwrite.",
+ "tasks": [
+  "implement email and oauth auth",
+  "query databases",
+  "upload files",
+  "subscribe to real-time events",
+  "manage users server-side",
+  "administer databases and storage",
+  "call functions"
+ ],
+ "effects": {},
+ "flags": []
+}

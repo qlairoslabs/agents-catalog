@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "1febaf98361cf27bf0b96362e7bd9758bd10c4b597a3a4be3f1c1a9d46f58e8b",
+ "domain": [
+  "software/monitoring/uptime",
+  "software/monitoring/ssl-dns"
+ ],
+ "product": [
+  "oh-dear"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Monitors websites for uptime, SSL certificates, broken links, DNS, cron jobs and provides status pages.",
+ "whenToUse": "Use when a user wants to check or manage website monitoring, certificates, scheduled jobs or status pages.",
+ "tasks": [
+  "check uptime",
+  "monitor ssl certificates",
+  "find broken links",
+  "monitor dns",
+  "monitor cron jobs",
+  "manage status pages"
+ ],
+ "effects": {},
+ "flags": []
+}

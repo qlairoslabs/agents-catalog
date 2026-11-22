@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0331e829ea061bc4a850225f3e3df9064be4ce806e7b3aee92aa4e617411de08",
+ "domain": [
+  "science/mathematics/formal-verification",
+  "software/programming-languages"
+ ],
+ "product": [
+  "lean",
+  "mathlib"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lean 4 server that compiles code, proves theorems and helps formalize mathematics using Mathlib.",
+ "whenToUse": "Use when a user needs to write, check or prove mathematical statements in Lean 4.",
+ "tasks": [
+  "compile lean 4 code",
+  "prove theorems",
+  "formalize math statements",
+  "use mathlib"
+ ],
+ "effects": {},
+ "flags": []
+}

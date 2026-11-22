@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2dae23cf891e12d24d8fdd17c23f0c3a0c2201fa3054a3f816b3d4b9f2789d3e",
+ "domain": [
+  "legal/immigration/spain",
+  "legal/housing-rental"
+ ],
+ "product": [
+  "lity"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Information about Lity, a legal assistant for foreigners in Spain on immigration and rentals, plus early-access waitlist signup.",
+ "whenToUse": "Use when someone asks about Lity's coverage for Spanish immigration or rental law, or explicitly wants to join its waitlist.",
+ "tasks": [
+  "describe lity coverage and languages",
+  "join early access waitlist"
+ ],
+ "effects": {
+  "f6aa623303238143ae2ee81f8b34f8f8cd3a32990d95997676b1e4fe8d64ee44": "read",
+  "6d8eb1f9952db5fdd5cefe5cfddb19e9f93f3865b5538c0fa2f3cf9909946768": "write"
+ },
+ "flags": []
+}

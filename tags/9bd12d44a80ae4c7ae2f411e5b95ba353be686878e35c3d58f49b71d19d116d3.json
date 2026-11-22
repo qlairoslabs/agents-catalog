@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "9bd12d44a80ae4c7ae2f411e5b95ba353be686878e35c3d58f49b71d19d116d3",
+ "domain": [
+  "crypto/prize-draw",
+  "crypto/nft"
+ ],
+ "product": [
+  "luckdrop",
+  "base"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads LuckDrop's weekly on-chain prize draw on Base and prepares unsigned entry and claim transactions.",
+ "whenToUse": "Use when the user wants to check the LuckDrop draw status, entry eligibility, ticket market or unclaimed prizes for a wallet.",
+ "tasks": [
+  "read live draw state",
+  "check wallet entry eligibility",
+  "get unsigned entry transaction",
+  "read draw results",
+  "list ticket market",
+  "check unclaimed prizes"
+ ],
+ "effects": {
+  "38a29505fca0bab1474ef88f0e1b00e03a9d4747681d585de292768f9bd0535b": "write",
+  "434c17869a589ddef8974a739e65e86dddc459d59fc672002734a2baa9356269": "write",
+  "7ce8696d16e669ff29e64bfa94da1cb066ed2a9aabec908312d2ca91c513a8a0": "read",
+  "32df6f59fb1501bace7946d085d9a48893578380207245d75c75dc5618b08767": "write",
+  "326b121c7926971fae420221be60a27b8ac6e6a53dedd1276f9a13cf3c361ca3": "write"
+ },
+ "flags": [
+  "on-chain lottery-style prize draw with tradable NFT tickets and admin-adjustable fees"
+ ]
+}

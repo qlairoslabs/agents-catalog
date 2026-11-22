@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9104bbe45748964bb6206fbed8623769dcfb92981e408c98140dd5a65f5c0659",
+ "domain": [
+  "software/api/graphql",
+  "software/backend"
+ ],
+ "product": [
+  "apollo-server",
+  "graphql"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for building GraphQL servers with Apollo Server 5, including resolvers, auth, plugins and data sources.",
+ "whenToUse": "Use when building or debugging a GraphQL server on Apollo Server.",
+ "tasks": [
+  "set up apollo server project",
+  "write resolvers",
+  "define schemas",
+  "implement authentication and authorization",
+  "create plugins and data sources",
+  "troubleshoot errors and performance"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0ffeae1a2d767468968365e66e82dae6283059feef9d7340a8a485bb6a635ecb",
+ "domain": [
+  "software/integrations"
+ ],
+ "product": [
+  "gmail",
+  "slack",
+  "notion",
+  "github"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Connects AI agents to more than 100 apps such as Gmail, Slack, Notion and GitHub through OAuth.",
+ "whenToUse": "Use when an agent needs to act in common SaaS apps without setting up each integration separately.",
+ "tasks": [
+  "connect apps via oauth",
+  "use gmail",
+  "use slack",
+  "use notion",
+  "use github"
+ ],
+ "effects": {},
+ "flags": []
+}

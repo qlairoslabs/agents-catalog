@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "30aeaefeb75d754bbce1d0ff8c9555ae3652cbbafe053d37051f686b1d118d8f",
+ "domain": [
+  "content/newsletter",
+  "automation/daily-briefing"
+ ],
+ "product": [
+  "4bots"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Subscription service supplying daily human-written content modules that an agent can embed into a morning brief email.",
+ "whenToUse": "Use when an agent assembles a daily brief for its user and wants curated content modules added.",
+ "tasks": [
+  "preview sample content",
+  "list channels",
+  "start subscription",
+  "get daily bundle",
+  "check account status",
+  "create setup link",
+  "vote on channels",
+  "get email template"
+ ],
+ "effects": {
+  "1a9e92b8966f24e5164f978bb6799e3e9e69ca8357e719b2e8d0f180a8f83b04": "read",
+  "b34e00a5c190db183de74d9c91551eab516a80e38013e4b84e2e594b0cc13ab9": "read",
+  "31549b00663b967b1b0a4a66667b06ad213462ca09b53cf8e8dd063b02268eb3": "write",
+  "5512d94c42953fa035283377df7b8fbb27c32da4a0617803a9c80cda4499455a": "write",
+  "fac55990306b90923df2ab2b0a67e7e4888e0123f419d4784c60f6cce05e5b56": "read",
+  "a751c32a9f7b20413475c9f9852d1f231209febcdfad0222abb75f51ebb20730": "write",
+  "be2cd32f74de065ad3b5be3de320672926374758fa90bb0d4e3974427cdbf61e": "write",
+  "e48e851173001034849f757e63ca4b3c189b7b110ec4255f36b5648deb6b5beb": "read",
+  "3b6bb25fa885a8e69eee199a49eef58a0cbb89e44e0182ba755f1fadec9eb966": "read"
+ },
+ "flags": [
+  "Encourages agent to subscribe a human by email without human action ('no human action needed')",
+  "Tool descriptions steer the agent to call try_sample first and activate"
+ ]
+}

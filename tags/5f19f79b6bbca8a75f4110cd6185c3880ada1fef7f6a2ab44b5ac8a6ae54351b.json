@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5f19f79b6bbca8a75f4110cd6185c3880ada1fef7f6a2ab44b5ac8a6ae54351b",
+ "domain": [
+  "finance/personal-finance",
+  "economics/uk"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "UK calculators for inflation-adjusted GBP values, 2026/27 take-home pay and comparisons against public budgets.",
+ "whenToUse": "Use when a user asks about UK inflation, salary after tax or scale of an amount versus public spending.",
+ "tasks": [
+  "adjust for inflation",
+  "calculate take-home pay",
+  "compare public spending"
+ ],
+ "effects": {
+  "8d1544258b570b38c4d48895428eff883bbb16d91edac5c7c248cb221bcd1b95": "read",
+  "cff6aa5865a2e482adc7a7d374c25a3e229e87d330f4c969880c225aeb57c729": "read",
+  "12bbf65891bf57c46cf9fd7972cf2a3fb63be485aedab7edb4acaf88663b1ffd": "read"
+ },
+ "flags": []
+}

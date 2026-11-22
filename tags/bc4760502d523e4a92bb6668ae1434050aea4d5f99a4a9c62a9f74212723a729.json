@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bc4760502d523e4a92bb6668ae1434050aea4d5f99a4a9c62a9f74212723a729",
+ "domain": [
+  "software/serverless/sandboxing",
+  "software/cloud"
+ ],
+ "product": [
+  "aws-lambda",
+  "firecracker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guides building and operating applications on AWS Lambda MicroVMs, snapshot-resumable isolated compute for sandboxes and long sessions.",
+ "whenToUse": "Use when running untrusted code, agent sandboxes, notebooks, long-lived sessions or port-listening servers on Lambda MicroVMs.",
+ "tasks": [
+  "build microvm applications",
+  "run sandboxed code execution",
+  "suspend and resume via snapshots",
+  "host notebooks and repls",
+  "run ci executors",
+  "host session servers",
+  "debug microvms"
+ ],
+ "effects": {},
+ "flags": []
+}

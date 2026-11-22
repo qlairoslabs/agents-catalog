@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "d8cca83cae54738cde8cc2f17cf98150e00b956fc8c4bd21d29fec0062ebe982",
+ "domain": [
+  "events/discovery",
+  "travel/local-activities"
+ ],
+ "product": [
+  "whataplan"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Finds events and activities in Spain filtered by text, category, location, price and date.",
+ "whenToUse": "Use when a user asks what to do or which events are on in a Spanish city.",
+ "tasks": [
+  "search events",
+  "filter by location",
+  "filter by price",
+  "filter by date",
+  "list categories",
+  "get event details"
+ ],
+ "effects": {
+  "dec6c96c454fc095ce167fe231ad7bee80fee0a080e76da267255a5f156c680c": "read",
+  "7cc81c83b4242fcc670b53be832506e76411bc4c2b9c7d8681386a1b1e9b67ed": "read",
+  "637df43c2d5a5b53a82b220bad99a5b6e76a1beaa67eac47e56fb77e329276b7": "read"
+ },
+ "flags": []
+}

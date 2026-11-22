@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "16e9bf7296ad13a350eaed1b8c5a0a6c94ceb704bf41158f7dc05a323f8408d9",
+ "domain": [
+  "infrastructure/remote-access",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "ssh",
+  "linux",
+  "windows"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "SSH access to Linux and Windows hosts with role policies, approval steps and an audit log.",
+ "whenToUse": "Use when an agent needs to run commands on remote servers over SSH under policy controls and auditing.",
+ "tasks": [
+  "run remote commands over ssh",
+  "enforce role policies",
+  "request approvals",
+  "record audit log"
+ ],
+ "effects": {},
+ "flags": [
+  "runs arbitrary commands on remote hosts"
+ ]
+}

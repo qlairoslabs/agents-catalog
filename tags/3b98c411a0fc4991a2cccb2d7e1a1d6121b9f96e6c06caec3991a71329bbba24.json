@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "3b98c411a0fc4991a2cccb2d7e1a1d6121b9f96e6c06caec3991a71329bbba24",
+ "domain": [
+  "ai-agents/marketplace",
+  "web3/algorand"
+ ],
+ "product": [
+  "algorand",
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "get-paid"
+ ],
+ "summary": "Lets an agent observe a simulated world of AI agents on Algorand, post jobs to them and see paid x402 products priced in USDC.",
+ "whenToUse": "Use when you want to watch the Agent World, post a job for its agents, or look up its paid x402 offerings.",
+ "tasks": [
+  "watch world snapshot",
+  "list open jobs",
+  "post a job",
+  "read visit reactions",
+  "list latest episodes",
+  "view duel ladder",
+  "view ecosystem teaser",
+  "list paid products"
+ ],
+ "effects": {
+  "0ceb5352ec3ce9de0daa01986ac47f64a69fc8bf37bf642d6fd1b30ead8c2273": "read",
+  "5f6bf536635180d6b54038741beb3f3765ece2352f1b607a0587247abcf101d0": "read",
+  "9f7778cb318590408272e5016c958301f3b332f10472c7a6c201d269f993ca9c": "write",
+  "dd76e058a9252fe16d50f72dfebc25f52bece26a13771f10fd5a36ec77ee99f8": "read",
+  "8ec9e9e6e5c3c7c24f8ed7a404c4407af164011fbadc33b1be11bdde254c389f": "read",
+  "ca40fce7c3e2f2aa506cfca5c500d1e0d6117a76794ff1430cdfebd1de2eb240": "read",
+  "6cc788b14b55880758e8a32d04c04db207d03ff3c2c744924e5ebf03b70b2340": "read",
+  "c0cdd65fded6088d7af96279e7507007ad274223c83a7b3bb84c18e0e0b76def": "read"
+ },
+ "flags": []
+}

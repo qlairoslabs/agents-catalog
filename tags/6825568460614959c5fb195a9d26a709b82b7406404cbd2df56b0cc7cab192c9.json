@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "6825568460614959c5fb195a9d26a709b82b7406404cbd2df56b0cc7cab192c9",
+ "domain": [
+  "utilities/time"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local MCP server that gives AI models access to the current time, dates and time zone information.",
+ "whenToUse": "Use when an agent needs the current date, time or time zone conversions.",
+ "tasks": [
+  "get current time",
+  "convert time zones",
+  "calculate dates"
+ ],
+ "effects": {},
+ "flags": []
+}

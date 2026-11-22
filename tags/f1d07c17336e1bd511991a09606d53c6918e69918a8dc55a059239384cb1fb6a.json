@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "f1d07c17336e1bd511991a09606d53c6918e69918a8dc55a059239384cb1fb6a",
+ "domain": [
+  "education/programming",
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local tool that gives a short technical lesson to the developer alongside each task an AI agent performs.",
+ "whenToUse": "Use when a developer wants to learn the concepts behind the coding work their agent is doing.",
+ "tasks": [
+  "deliver per-task technical lessons",
+  "track learning progress"
+ ],
+ "effects": {},
+ "flags": []
+}

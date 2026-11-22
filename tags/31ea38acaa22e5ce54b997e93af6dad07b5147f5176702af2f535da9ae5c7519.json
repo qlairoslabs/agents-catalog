@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "31ea38acaa22e5ce54b997e93af6dad07b5147f5176702af2f535da9ae5c7519",
+ "domain": [
+  "software/ai-agents/observability",
+  "software/crm-development"
+ ],
+ "product": [
+  "salesforce",
+  "agentforce",
+  "salesforce-data-cloud"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Analyzes production Agentforce agent behavior via session traces and Data Cloud, and manages Agent Health Monitoring alerts.",
+ "whenToUse": "Use when investigating production Agentforce agent failures, regressions or metrics, or creating and checking agent health alerts.",
+ "tasks": [
+  "query session trace data",
+  "investigate production agent failures",
+  "analyze agent metrics",
+  "reproduce production issues in preview",
+  "create update or delete health alerts",
+  "check alert firing history"
+ ],
+ "effects": {},
+ "flags": []
+}

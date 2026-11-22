@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "744fbfc4671773ee8f05ef95105821bbefd692921f0e44ee7cf9c91716ac0a3a",
+ "domain": [
+  "software/documentation",
+  "ai/agents"
+ ],
+ "product": [
+  "ghosty-studio"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Public Ghosty Studio documentation for agents, with search, markdown pages, an index and the OpenAPI spec, no auth needed.",
+ "whenToUse": "Use when an agent needs to look up how Ghosty Studio or its API works.",
+ "tasks": [
+  "search documentation",
+  "read docs pages as markdown",
+  "browse docs index",
+  "get openapi spec"
+ ],
+ "effects": {},
+ "flags": []
+}

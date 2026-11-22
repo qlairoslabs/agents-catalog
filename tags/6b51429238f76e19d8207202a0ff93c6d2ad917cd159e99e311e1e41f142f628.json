@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "6b51429238f76e19d8207202a0ff93c6d2ad917cd159e99e311e1e41f142f628",
+ "domain": [
+  "design/color",
+  "web/accessibility"
+ ],
+ "product": [
+  "tailwind",
+  "shadcn-ui"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Color tools: parse and convert colors, check and fix WCAG/APCA contrast, build palettes, gradients, scales and design tokens, simulate color blindness.",
+ "whenToUse": "Use when working on UI colors, accessibility contrast, palettes or exporting design tokens.",
+ "tasks": [
+  "parse and convert colors",
+  "find colors by name",
+  "check contrast",
+  "fix contrast",
+  "audit palettes",
+  "check gamut",
+  "generate scales and harmonies",
+  "mix colors",
+  "make gradients",
+  "simulate color blindness",
+  "export tokens",
+  "build color system"
+ ],
+ "effects": {
+  "a06d4ebb560bccee63fd08e1da92ae8e844c9ffb841e9d4ceb1eb9b34492668c": "read",
+  "6a15734c567cd980b7f793801f4580210736389316a80d9cac82dce4f6b86390": "read",
+  "93a7ff55bc43ed7bdfc386e068ac9cafb759c9513525baf8971ae4d175980182": "read",
+  "b0e1442899ab23c092ed54a9daa217e0db99cefe79f1ca26910b8554f38c188e": "read",
+  "a84236bae753060de28bc0843d208219ad87370d5989489e939651bde5a46f39": "read",
+  "0a2766bd90fb33f5d8944a3e06a01cebaf375b42e11e775c39553cd3193538be": "read",
+  "af8469b04387a5fdb2748f65f3f95146ca46b356a207706c3af0b36b4d759bd2": "read",
+  "5f8c4f2195f79df8b03a1662b762d34ceae4c54a0384bdbe7098926aba1d8cd5": "read",
+  "f5ecc2d245237d740c3b9b22d6787a85e4d81f98920493e2468cb50228eff360": "read",
+  "0c64f332cec25fcbd6acaacfee7be24479a17e69a44c0ab8974e42b7bad05932": "read",
+  "ac1b751d24a5521af19f24b5ca23b8a7d1ce0e1be33f096a05117af3a6623799": "read",
+  "901b46e00d40ae3b5d62d0a615705df9413df5435755197f60ccb4eba5a23303": "read",
+  "3438df5643970ecfe8e8bc2e58867081b64cbb46bc09500bf12d755262621edd": "read",
+  "be8efb1780a1ba6679d8ddf4e33716ed69d1d3f1dcc06ffc8831c22fc91ebbd8": "read",
+  "c6744762020c535e05cc69a6d767539c328459f3988d95bd11cd78aecb94d525": "read",
+  "a24dbefcca2725a4056348ff91bc0c83914da440cf3d062259ef401949d2a5a4": "read",
+  "f10cdb6a4069cd3ec8ae10794694bcef8bc79320dc4e0d783039ead5638270ed": "read",
+  "c63a99643ca767a91ede89d986fa9ca84ee99951c10116c3819983f9790d358d": "read"
+ },
+ "flags": []
+}

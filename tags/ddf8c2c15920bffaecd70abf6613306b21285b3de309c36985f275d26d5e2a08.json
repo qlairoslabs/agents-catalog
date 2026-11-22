@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "ddf8c2c15920bffaecd70abf6613306b21285b3de309c36985f275d26d5e2a08",
+ "domain": [
+  "crypto/x402-payments",
+  "software/api-catalogue"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "solana"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Read-only catalogue of x402 payable endpoints with payability verdicts, prices, drift, host status, reports and signature verification.",
+ "whenToUse": "Use when checking whether an x402 endpoint can be paid, finding endpoints, or verifying a signed nsgoods response.",
+ "tasks": [
+  "check payability verdict",
+  "find endpoints",
+  "view catalogue stats",
+  "summarize host",
+  "check x401 adoption",
+  "view verdict drift",
+  "verify signature",
+  "list reports"
+ ],
+ "effects": {
+  "7d7460f6930739b3617df6d13de7782b485e9df45c01e7a2d96385ffa7b2098c": "write",
+  "a7940ab70d498bc5e9b28095b9b2276d8cc0f3efb423d4b7451fe25ef3418106": "write",
+  "594a59500e06f6030282be01251329b2b0d240e9a02a8dd7cd5d0d2f852105a3": "read",
+  "f7a999c64a8599e5b930de04a64635e3a7906e606a40b9a661433ccb7d0b79ee": "write",
+  "3ea5508b3d8bf47a370a662fe57665c45f21ce1d309e98427411c32dd527f058": "read",
+  "a9aeb7688057626107a09de0f4c02ebd34e616757c7cc89b9149e2b4e52e9c86": "read",
+  "43760068b6df67474a67dca33981d251d16dad3f069844cdf8dddf22207375be": "write",
+  "6c22e61e59324d44524feab1d2f0524d67ac2d76c817dde5a09e89aae39ca919": "read"
+ },
+ "flags": []
+}

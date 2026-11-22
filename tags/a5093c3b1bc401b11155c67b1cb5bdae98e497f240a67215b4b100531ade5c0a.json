@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "a5093c3b1bc401b11155c67b1cb5bdae98e497f240a67215b4b100531ade5c0a",
+ "domain": [
+  "ecommerce/home-improvement",
+  "retail/cabinet-hardware"
+ ],
+ "product": [
+  "knobs-co",
+  "shopify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Cabinet-hardware shopping assistant for Knobs.co: sizing advice, product search, project plans, cart links and samples.",
+ "whenToUse": "Use when someone is choosing knobs or pulls for cabinets and wants sizing help, product picks or a shopping cart.",
+ "tasks": [
+  "ask a hardware advisor",
+  "search the catalog",
+  "get product variants",
+  "read sizing guide",
+  "get store info",
+  "build a whole-kitchen hardware plan",
+  "create a pre-filled cart link",
+  "start a samples cart",
+  "request a trade consultation"
+ ],
+ "effects": {
+  "4492218a192c16f87c7e90e5e5d1665adb7ab1dc039dc16f6f3cd6118f58f071": "read",
+  "ddd6900cbdb1b2c4439fc61f5fd522aad46817737e2b1733bbee851295c54f27": "read",
+  "65d1603b85aa7c8a43d040a300735143757312bd3c4829cd3818adf14c32db42": "read",
+  "930e98fce8b2cb7b27ed3d2b249ee0b35d294700e61fca97142602dcf1ede7d7": "read",
+  "a4280efbee15fa7584b954f93c6a2692dcfcb675b723a2cca5aa634a300185be": "read",
+  "86550c6bb0a680528505ba5d09dc7bf8ddc92874b9cbfce22f76508529fb53e9": "read",
+  "f4c7da11b511d4b4aac25431260c90871f83fea4289be74b187cbca8d58d10ab": "read",
+  "1b2ef296117be4092bfe03a6d2b40a2f63c77060d91af9f93ac5f83636c9f1e1": "write",
+  "f8a243f65c6776ede097df588370e5bf35e3f9a3a840e65622492f167f11f9e5": "write",
+  "6c2b8964bebe51e0b9db9ab8c64e70e678fd4ade1da5def7f2e2b6443c2021ce": "write",
+  "05d5d480405d1166fcfd359d4073a4afb9b623cb8ea90c7676c20957ffbefcae": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "7bfe3d5db79b54b894a4c57214aaad2205762cf5707f1a80b6235dd295505977",
+ "domain": [
+  "software/ai/cloud-ai-services",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure-ai-search",
+  "azure-speech",
+  "azure-openai",
+  "azure-document-intelligence"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps use Azure AI services for search, vector and hybrid search, speech-to-text, text-to-speech and OCR.",
+ "whenToUse": "Use when a user works with Azure AI Search, Speech, OpenAI or Document Intelligence features.",
+ "tasks": [
+  "query azure ai search",
+  "set up vector or hybrid search",
+  "configure semantic search",
+  "transcribe speech to text",
+  "convert text to speech",
+  "extract text with ocr"
+ ],
+ "effects": {},
+ "flags": []
+}

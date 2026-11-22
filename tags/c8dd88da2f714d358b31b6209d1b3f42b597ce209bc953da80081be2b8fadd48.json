@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c8dd88da2f714d358b31b6209d1b3f42b597ce209bc953da80081be2b8fadd48",
+ "domain": [
+  "business/company-data",
+  "finance/credit-risk"
+ ],
+ "product": [
+  "analizafirm",
+  "krs"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Provides Polish KRS company data including financial statements, credit ratings, insolvency, VAT status and owners.",
+ "whenToUse": "Use when vetting a Polish company's financial health, ownership or VAT status.",
+ "tasks": [
+  "look up polish company",
+  "get financial statements",
+  "get credit rating",
+  "check insolvency",
+  "check vat status",
+  "list owners"
+ ],
+ "effects": {},
+ "flags": []
+}

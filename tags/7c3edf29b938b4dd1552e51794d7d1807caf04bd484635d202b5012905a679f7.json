@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "7c3edf29b938b4dd1552e51794d7d1807caf04bd484635d202b5012905a679f7",
+ "domain": [
+  "communication/email",
+  "software/email-api"
+ ],
+ "product": [
+  "resend",
+  "react-email"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "build-software"
+ ],
+ "summary": "Skills and MCP server for sending and receiving email with Resend, including inbox, CLI, React Email and deliverability guidance.",
+ "whenToUse": "Use when an agent needs to integrate, send or receive email via Resend or build React Email templates.",
+ "tasks": [
+  "send emails",
+  "receive emails",
+  "integrate email api",
+  "use agent inbox",
+  "build react email components",
+  "improve deliverability"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "2ea8bebf5ac4caa3e0c17ebae7598ac0c3681be656fb9c971f67ba34f15a12ac",
+ "domain": [
+  "blockchain/rpc-and-audit",
+  "mcp/server-attestation"
+ ],
+ "product": [
+  "base",
+  "ethereum",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Pay-per-use agent marketplace offering Ethereum/Base JSON-RPC access, MCP endpoint attestation, on-chain payer and funder audits, and a public notepad, paid via time lines or x402.",
+ "whenToUse": "Use when you need archive RPC access to Base or Ethereum, want to audit an MCP server's contract or payment behaviour, or trace USDC funders on Base.",
+ "tasks": [
+  "buy line time",
+  "open payment line",
+  "call JSON-RPC on Base and Ethereum",
+  "attest MCP contract",
+  "attest payment surface",
+  "attest discovery paths",
+  "detect contract drift",
+  "audit x402 payers",
+  "trace wallet funders",
+  "cluster wallets",
+  "post and read immutable notes"
+ ],
+ "effects": {
+  "fcc9930573e3ea3ec8682bf9621790f784c822debdf4316ac3d2ef074e7e8bab": "risky",
+  "94404c555fee42e5f1e3431e14a80029dbdea3f2caa0dd538f46cbc25b65a42d": "write",
+  "ef1145cedbaf799c97d50de576d95dd468a8c1bc7e7423d3038bd384cbe25f2c": "read",
+  "a08633d21b1fbd2416aa10e3eadc0b62b253016c955d3f7bc8f28e8a9d445a0a": "read",
+  "f1a1f0d55529d4a9e39ab8be9e131e180c6563577e33528f548eb44d4e5ec23e": "write",
+  "7d632e46beaa8315a425ca146eaf25a5e7f1628b756d85e965a70a1a5a760c59": "write",
+  "e7bc28a7ff7f6b041112812b6870b58faf21972dd9cf0696ac27ea54221c90a1": "write",
+  "7f134cd4b8c6d192e2dbbe6ba8e21a2ea24c440fa1355ba554f14cc0de0403f5": "write",
+  "6b01fa2d5a88288b7c9be98b13a7dc850d66b941f47dcd82d462c47f1784d0ba": "write",
+  "7afa1417bf32d7eed544a69fa103994a5caf04770a0555d1f6a41e6943db3f84": "write",
+  "44d6c3135326a56d757765c994976e3aeb5561e3e22ffac2f66a43d5cbd1d89b": "write",
+  "8ae96ec5a863ce1a6b731715f6d24f726d8482af42c4dacfd8ccd94419717c28": "write",
+  "9f0d797ee9b80edc3c26266b4917a6eb9a2341dc93c45d8140cde768b86d57d7": "read",
+  "07a2e1190a4b65d2dcdb5fed95264f72addcf6c30d2a0b0bd499781edc4807b2": "write",
+  "9c07bab64f2febbae5d97b6ceb3101bceb5b8b23e21ca3c92793cd19f1649ea3": "read",
+  "5505d489576d378688b46f8ee45675c45b601e2db8fc64832e0d16cb8ddf1247": "write",
+  "d4e593abc58299ab081e56edca4dd0ced2806faf0899480de9704a4a1e0657a2": "read"
+ },
+ "flags": []
+}

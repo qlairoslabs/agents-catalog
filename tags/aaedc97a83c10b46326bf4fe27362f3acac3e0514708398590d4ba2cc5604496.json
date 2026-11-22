@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "aaedc97a83c10b46326bf4fe27362f3acac3e0514708398590d4ba2cc5604496",
+ "domain": [
+  "web/directory",
+  "technology/agent-discovery"
+ ],
+ "product": [
+  "webring"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online"
+ ],
+ "summary": "A webring directory of agents, MCP servers and agent-ready sites that can be browsed in ring order, with a pay-to-rank leaderboard and paid join flow.",
+ "whenToUse": "Use when discovering agent-ready sites or MCP servers, or when learning how to join or pay for rank in the ring.",
+ "tasks": [
+  "list ring members",
+  "next member",
+  "previous member",
+  "random member",
+  "get member",
+  "view leaderboard",
+  "list categories",
+  "get join info",
+  "get bid info"
+ ],
+ "effects": {
+  "1b32c9dcc0709b13757145bf6f9454002f947bab5937fb964cbe407e6a6b4e49": "read",
+  "5a188945e5d9cf81d2a6e1c83925214d62f89c41306a3ff63eadbf5914232120": "read",
+  "e8064a5508eb22f2960c7c2c1cd4d41a9c1ed6060998892d676b79feac75ac76": "read",
+  "2a2222aede9237c1abb16586c7e2a0d00a95ba1fa63ccd92044e2f89ff86ef81": "read",
+  "284bbfd9ab5cc13e29da13b85f9ccbd87065c03288b728227fd61d8f68ac5ac9": "read",
+  "78406f9ee5614b16e1708ddd0f1da2e443f7e7e76d10a37fe338192583d5f4fc": "read",
+  "743c85de745cb20370c2daae7f215a3a7852895b7ff40adc90aa1c42066b1cf1": "read",
+  "aaaa5bf4491c537771af2964d3221c7822721f2b0c433f0917409a73aa6a7e22": "read",
+  "b14e75dc43157f7dc3ba0d461237c3e591b10cd9e16c0b95b96086a88e4981b9": "read"
+ },
+ "flags": []
+}

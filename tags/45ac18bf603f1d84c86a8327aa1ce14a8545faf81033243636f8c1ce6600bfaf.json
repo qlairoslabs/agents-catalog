@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "45ac18bf603f1d84c86a8327aa1ce14a8545faf81033243636f8c1ce6600bfaf",
+ "domain": [
+  "software/language-servers",
+  "software/development"
+ ],
+ "product": [
+  "sourcekit-lsp",
+  "swift"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds the SourceKit-LSP Swift language server for code intelligence.",
+ "whenToUse": "Use when editing or navigating Swift code and you need diagnostics, definitions or references.",
+ "tasks": [
+  "provide swift diagnostics",
+  "go to definition",
+  "find references"
+ ],
+ "effects": {},
+ "flags": []
+}

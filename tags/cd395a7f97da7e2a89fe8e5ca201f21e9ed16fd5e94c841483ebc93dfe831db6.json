@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cd395a7f97da7e2a89fe8e5ca201f21e9ed16fd5e94c841483ebc93dfe831db6",
+ "domain": [
+  "software/ai/memory",
+  "compliance/kyc"
+ ],
+ "product": [
+  "nexus"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Gives access to an owner's Nexus memory store with search, facts, captures and KYC data.",
+ "whenToUse": "Use when an agent needs to search or store personal memory facts in Nexus.",
+ "tasks": [
+  "search memory",
+  "store facts",
+  "save captures",
+  "access kyc data"
+ ],
+ "effects": {},
+ "flags": []
+}

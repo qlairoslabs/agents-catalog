@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "4c014c8bdd82b6fe4eae504bf54b0d8ed031ea09ebe3e4a1f53b4335f2590b67",
+ "domain": [
+  "collaboration/knowledge-sharing",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "handover"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Shared versioned context workspace where humans and agents publish handovers, review artifacts, annotate, comment, assign work and export or import knowledge bundles.",
+ "whenToUse": "Use when passing work context between people or agents, reading prior handovers, or publishing and reviewing shared reports.",
+ "tasks": [
+  "search handovers",
+  "read snapshots and artifacts",
+  "read threads and annotations",
+  "create handover",
+  "append revision",
+  "comment and annotate",
+  "resolve feedback",
+  "assign collaborators",
+  "publish stable report",
+  "pull published files",
+  "export OKF bundle",
+  "import OKF bundle"
+ ],
+ "effects": {
+  "a0013cdb04de69421fd8daca8e1bb8415c3c0d091fc2baf8fc67133c2e5d7995": "read",
+  "ade83d2fb69b8ff274fd5067922172a42872dcc8287e040857656698098c8bfa": "read",
+  "308fe3528db9f2057885530cf0d2dcf73c3bb72ca3c332fb42fb4bb621e33132": "read",
+  "fa73f305270c28ecb0aca841b0fdec9f967688cdb47327db877c9689ca09f5c7": "read",
+  "f61924f474855ab3e173ac4d9c5e55a2e665f5f3e6c9afb49229417a2b43a3e4": "read",
+  "ee3993fffeb4c7f1ad0a56f9643510d076f179d4732c1846ebcb8ee9698a9b69": "read",
+  "2827dcb41641033894f162213c899946cd385221551f10be4d63a3d3b07ab659": "write",
+  "3b15236e52535afb38908a96ffd6ec9ce899d2288afd310ddfd3dabe820316f5": "write",
+  "67cd7fde31a35dad66e7f52e8452ce366289dad69d5bc64b4f8c13b93c3c3166": "write",
+  "755bf2d68388130b2186aa490757e8c9ae5b829a1cf78b959917071ddce944ec": "write",
+  "03c5ee541ee092aa61439160a0d7d736e884a4d66a2c91f57ca668fc769c789e": "write",
+  "a0a5eab9f200d713c1985eaa6a665cc0760c6daf0013d8b1d7a7612084d6ed0c": "write",
+  "8be134705ad3e23179819652cb88a642324e56871b4b49f2007c869d1db32785": "write",
+  "cf87cffa43144b65f3d2a1d04beca108eba4b066a688d92bde411d6e4edb9a5c": "read",
+  "67b5888fe94ca7bc803e65bcf29fecae1e4d34047d85d0c82acb79966035b6ce": "read",
+  "3ad4c368ebea81b676bb1e76ca8ec988b5af638aeb6624050af8c165bf46c8da": "read",
+  "8cbb854fb7eb36a52afe21b3f75a27795cb0f3b90a3ef5f1fcbedcdbedf4c112": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "88740e591cf241403a26cc83f2c2866622a7445c20ec392c4372be88b246197e",
+ "domain": [
+  "marketing/ai-visibility",
+  "software/consulting"
+ ],
+ "product": [
+  "holston-ai",
+  "nextjs",
+  "prisma",
+  "postgresql"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Holston AI tools for AI-visibility audits, llms.txt and schema generation, quotes, systems maps, missed-call and ROI calculators, receptionist design and consultation requests.",
+ "whenToUse": "Use when assessing a business site's AI discoverability, estimating automation or missed-call costs, or getting a Holston AI quote or consultation.",
+ "tasks": [
+  "audit AI visibility",
+  "generate llms.txt",
+  "generate business schema",
+  "build quote",
+  "map systems",
+  "calculate manual work cost",
+  "calculate missed call cost",
+  "calculate MVP ROI",
+  "design AI receptionist",
+  "generate app boilerplate",
+  "request consultation"
+ ],
+ "effects": {
+  "e3f0ee57c7de9689ff48849e9cf0b05c4ede698ebfa011f54f3a8bcfef5ba4cb": "read",
+  "cfedb014fa8c684d259075aa83b6f4f5a8be1c561f7477fe67f1b7ad41521c64": "read",
+  "32e257d8fad3997b0bffb0f714bbc61ed533fd55f472e4a38214f218aab8382c": "write",
+  "da659627640632d413c289136f4545867d860f284960af79136e7e8f3a81b738": "write",
+  "c2481b09230e1462b2c5f0ed7ff455fffcabd2497a87c0c441349cdf8138f400": "read",
+  "381ed35ca21ab97b6a67aea6a3bcdd80480fbe4d002474de52fb778f069be66d": "read",
+  "1601ad696250057c631731e16024de1eec961686b0930aba553320022366deb9": "read",
+  "a3b68b835151a2deee53152207d46bf2c2e982db94a662e3214787f945cb6ad1": "read",
+  "b4e72d5d82bd39a1c67402c65eef6f66aef0c0ed546ecf73e54e4c1ee18631c2": "read",
+  "47659aa468202b95ddb8642593204cbbb42ece447cc02ec99ffc637de804eac0": "read",
+  "91adb9af511558c7122ab10528e6675bed21e8b5dd6f0aa5aec4fd3bf18b6eaf": "write",
+  "3d23b363f0bc68b2b0aeb02a3588ddf04990815536e68740f5bfb2d44292aa5b": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "5a688f047a4d5b421825d417012856a965bedb3980ecaca768b0f8ce9e83355a",
+ "domain": [
+  "software/cybersecurity/cloud-security"
+ ],
+ "product": [
+  "aws-security-hub",
+  "amazon-guardduty",
+  "amazon-inspector",
+  "amazon-macie",
+  "amazon-detective",
+  "amazon-security-lake"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Guidance for working with AWS security services such as Security Hub, GuardDuty, Inspector, Macie and Security Lake.",
+ "whenToUse": "Use when reviewing AWS security posture, findings, failed compliance controls or security service configuration.",
+ "tasks": [
+  "review security hub findings",
+  "check cspm controls and standards",
+  "review guardduty threats",
+  "review inspector vulnerabilities",
+  "review macie sensitive data findings",
+  "investigate with detective",
+  "configure security lake",
+  "set automation rules"
+ ],
+ "effects": {},
+ "flags": []
+}

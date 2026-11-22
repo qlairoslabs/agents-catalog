@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "672a99e4ff8659ef3cbe169a22667aab7871921949093a4e290229b4344e72b7",
+ "domain": [
+  "software/ai-safety",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "boundaryai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Runtime safety checks for AI agents, including PII scanning, tool-action gating and output verification.",
+ "whenToUse": "Use when an agent needs to detect PII, gate risky tool calls or verify model output before acting.",
+ "tasks": [
+  "scan for pii",
+  "gate tool actions",
+  "verify llm output"
+ ],
+ "effects": {},
+ "flags": []
+}

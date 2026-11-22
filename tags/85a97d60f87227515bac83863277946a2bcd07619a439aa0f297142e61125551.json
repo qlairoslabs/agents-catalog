@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "85a97d60f87227515bac83863277946a2bcd07619a439aa0f297142e61125551",
+ "domain": [
+  "software/localization",
+  "content/translation"
+ ],
+ "product": [
+  "locize"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Reads and updates translations in the Locize translation management system using glossary, style guide, translation memory and screenshots.",
+ "whenToUse": "Use when the user needs to read or update app translations managed in Locize.",
+ "tasks": [
+  "read translations",
+  "update translations",
+  "use glossary context",
+  "use style guide",
+  "use translation memory",
+  "use screenshot context"
+ ],
+ "effects": {},
+ "flags": []
+}

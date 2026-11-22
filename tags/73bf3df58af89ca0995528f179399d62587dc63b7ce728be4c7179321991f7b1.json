@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "73bf3df58af89ca0995528f179399d62587dc63b7ce728be4c7179321991f7b1",
+ "domain": [
+  "marketing/seo",
+  "software/cybersecurity",
+  "software/release-management"
+ ],
+ "product": [
+  "toolyour"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "build-software",
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Remote MCP server that plans, runs and verifies SEO, security and release-readiness checks using a ToolYour API key.",
+ "whenToUse": "Use when an agent needs to audit a website or project for SEO, security or ship-readiness before release.",
+ "tasks": [
+  "plan seo checks",
+  "run security checks",
+  "verify release gates",
+  "report check results"
+ ],
+ "effects": {},
+ "flags": []
+}

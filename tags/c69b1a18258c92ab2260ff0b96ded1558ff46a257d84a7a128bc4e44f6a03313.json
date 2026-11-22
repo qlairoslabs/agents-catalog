@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c69b1a18258c92ab2260ff0b96ded1558ff46a257d84a7a128bc4e44f6a03313",
+ "domain": [
+  "science/simulation/petri-nets"
+ ],
+ "product": [
+  "pflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds, diagnoses and compares Petri-net simulation models conversationally, with a CC0 model catalog.",
+ "whenToUse": "Use when exploring what-if scenarios for processes or systems with Petri-net models.",
+ "tasks": [
+  "build petri-net models",
+  "diagnose models",
+  "compare scenarios",
+  "browse model catalog"
+ ],
+ "effects": {},
+ "flags": []
+}

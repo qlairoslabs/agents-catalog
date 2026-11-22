@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "2f7bbcd77147998997213b8b14f70cbfb4503c77488e671a02b73ad896597577",
+ "domain": [
+  "software/ai-development",
+  "software/api-integration"
+ ],
+ "product": [
+  "claude",
+  "anthropic-api"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference for building with the Claude API and Anthropic SDKs, covering models, pricing, parameters, streaming, tool use, MCP, agents and caching.",
+ "whenToUse": "Use when writing or debugging code that calls Claude or the Anthropic SDK, or choosing models, pricing or limits for an LLM app.",
+ "tasks": [
+  "look up model ids",
+  "check pricing and limits",
+  "configure request parameters",
+  "implement streaming",
+  "implement tool use",
+  "build agents and mcp integrations",
+  "use prompt caching",
+  "count tokens",
+  "migrate between models"
+ ],
+ "effects": {},
+ "flags": [
+  "description instructs the agent to run a grep over the project before reading files and to always read the skill first"
+ ]
+}

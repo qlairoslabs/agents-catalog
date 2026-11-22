@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6aa215dff6af9c7ef9da6b7380f551c992b8667a208cbe13302347b82d505882",
+ "domain": [
+  "web/content-extraction"
+ ],
+ "product": [
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Extracts bounded context from HTML for free or from public static pages for 0.01 USDC per read via x402.",
+ "whenToUse": "Use when an agent needs clean text from supplied HTML or a paid fetch of a static public page.",
+ "tasks": [
+  "parse HTML",
+  "fetch static web page",
+  "show example output"
+ ],
+ "effects": {
+  "328a87e38c54ca9e46a4310949f44b50fbdffe89ceae74db9237281721145242": "read",
+  "289f5b3e37f3e3fb0055f734cf35978edb82d617ad4f80ca1c1fa87567b92306": "read",
+  "9e3975894581c9e8eb2819ff71b12229af393c054e04f09770de8bd9c6a75da8": "risky"
+ },
+ "flags": []
+}

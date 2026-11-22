@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "b41b6abc63ce79211ec9001708d40d6fed4495e9a08a742e81603d101680bfbb",
+ "domain": [
+  "finance/advisor-compliance",
+  "finance/wealth-management"
+ ],
+ "product": [
+  "advisoriq",
+  "nasaa",
+  "finra",
+  "cfp"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Continuing-education rules by designation and state for US advisors, compliance deadlines, webinars and research, plus Form ADV data on independent RIA firms.",
+ "whenToUse": "Use when an advisor needs CE requirements or deadlines, or when researching RIA firms and market statistics.",
+ "tasks": [
+  "look up CE requirements",
+  "calculate CE owed",
+  "check state IAR CE rules",
+  "list compliance deadlines",
+  "list webinars and replays",
+  "search research",
+  "search RIA firms",
+  "get RIA profile",
+  "get RIA rankings",
+  "get RIA market stats"
+ ],
+ "effects": {
+  "cc611ef019844572d4c71cb84cd789d20ca75db2ff0b41973f76fe28c046801e": "write",
+  "e92996494b6e41f602864e4beb18e9aa84bb1c6ce5660e223c30c5f8beda70d1": "write",
+  "59d027f2875332b4f98ec39df8922f240ddf12b7804f9e6b993613174f45d010": "read",
+  "606474ca6b2c9504b59161d58530c45a6341568edd9338a5de2697c126aa339d": "read",
+  "8942d2f61465bd1f34b74fc5c930dcfd429104dde6e83df5d9c9525c4d4f5395": "read",
+  "0808e564651bd8bef66694123430a1c7817f9aedad3ed054c73a549bf74892d4": "read",
+  "439db92da8c389aa397ad421937f2ec7439af05995922389736ea28de96513d9": "read",
+  "65264f86b4c3471ba99e406812f711c7baf76895628bce82ce44e2c6792df6ab": "read",
+  "c3dcaac5c78eed5f2e69cc64dc8ccd55da5fb73e8e7fd183bf32c2fce30b87c1": "read",
+  "8f2f1c247f25a9e16d7841fb8d26796372f13becb72ae52f3c7cd118c615ccc7": "write",
+  "2a7d230de3465db50080a564f5362e4865279c4d8639ad105aee0971171a2d64": "write",
+  "7ce4e75edca38e862ab0062b40c5417a2238527da9f11e7928d6d0e15c309b9c": "read",
+  "1c404b0179ad43e26d807c398208196fc9bf4d5b6f03b0ea4ad2fbeb213a4e07": "read"
+ },
+ "flags": []
+}

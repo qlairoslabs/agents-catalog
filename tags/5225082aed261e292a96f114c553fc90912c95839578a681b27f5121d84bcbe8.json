@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "5225082aed261e292a96f114c553fc90912c95839578a681b27f5121d84bcbe8",
+ "domain": [
+  "home-services/cleaning",
+  "booking"
+ ],
+ "product": [
+  "menage-parfait",
+  "stripe"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Quotes and books home cleaning in Paris and Île-de-France, estimates post-construction cleaning, and handles office quote requests, rescheduling and cancellation.",
+ "whenToUse": "Use when a customer in Île-de-France wants a cleaning price, a booking, a change to a booking, or an office cleaning quote.",
+ "tasks": [
+  "check service area",
+  "get price grid",
+  "quote a cleaning",
+  "list time slots",
+  "create booking",
+  "estimate post-construction cleaning",
+  "request office quote",
+  "send message to team",
+  "reschedule booking",
+  "cancel booking",
+  "read policies"
+ ],
+ "effects": {
+  "6656f334680b9c3a95420982fd757f50a48f71022b161c42a83a6fb235061625": "read",
+  "98d322ebbcfcb10f762c5c34dbca1b8f92ca66e366aaf7165d451094ca3bc650": "read",
+  "8e7ff284010ae033751ed1095603eb2cf013e05086329d9d70f9b70d91867ded": "read",
+  "acad751073500f9adee184ff2d278377d074d06aebad8236ad168590e9afa0f8": "read",
+  "f08d6961565ff7e629d7933a318fc19d5cd9e48f4f90723ca4242db635f49ee7": "write",
+  "473a7c28bfd30c07a3743cb7b4b490389245804c0f8368680eb6caab7354b492": "read",
+  "d2d1f168d9a309e73a6bbaf0925c90e52964a83cd862f50ece4ce341b559afd6": "write",
+  "65adb9d9b68d5e1c908e4288514a0ad556527073b404519ad876996bf841145c": "write",
+  "77d3f2cb1d45e17e3f3cdb665aa198bba596559841501a5e8853ddc29b85ea83": "write",
+  "99268d1b30170c28240db2bc347a057ad340d8430087428d5870f1116b3e311a": "write",
+  "72c193ef4a360e2e4458a454a64d3e0e6fc52bb4eea7d1dc6c14ae16a6c0be0f": "read"
+ },
+ "flags": []
+}

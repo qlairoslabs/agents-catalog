@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b7af53bd068475cf7f742a6cb3d5e94d4d9c3bd98a8f63e0ca85197ba04d9a85",
+ "domain": [
+  "finance/commodity-prices",
+  "manufacturing/procurement"
+ ],
+ "product": [
+  "metalminer"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Licensed price indices, history and forecasts for metals, minerals and commodities by form, grade and region.",
+ "whenToUse": "Use when needing metal or commodity prices, historical trends or forecasts for purchasing or analysis.",
+ "tasks": [
+  "get metal price indices",
+  "get price history",
+  "get price forecasts",
+  "filter by form grade and region"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2e1bda31d924c190ccb37d3d92a6c09113a17e361a2a254ca8c2dca0dbcd4c80",
+ "domain": [
+  "software/cybersecurity",
+  "ai/safety"
+ ],
+ "product": [
+  "patronus-security"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Scans text, documents, websites and MCP metadata for prompt injection and sensitive-data exposure.",
+ "whenToUse": "Use when content or MCP server metadata should be checked for prompt injection or data-leak risks before use.",
+ "tasks": [
+  "scan text for prompt injection",
+  "scan documents",
+  "scan websites",
+  "check mcp metadata",
+  "detect sensitive data"
+ ],
+ "effects": {},
+ "flags": []
+}

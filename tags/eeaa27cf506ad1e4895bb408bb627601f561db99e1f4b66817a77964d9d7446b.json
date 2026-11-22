@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "eeaa27cf506ad1e4895bb408bb627601f561db99e1f4b66817a77964d9d7446b",
+ "domain": [
+  "finance/investment-research",
+  "finance/market-data"
+ ],
+ "product": [
+  "just-signal",
+  "ou-reports"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Just Signal tools for live stock quotes, publishing investment briefings to a public library, a scorecard of past signals and panel grades per ticker.",
+ "whenToUse": "Use when researching tickers, auditing past projections, or publishing an investment briefing to the Just Signal library.",
+ "tasks": [
+  "get stock quote",
+  "publish briefing report",
+  "list reports",
+  "get scorecard",
+  "get panel grade for ticker"
+ ],
+ "effects": {
+  "45c2656550c68afc2d8c17ba5dae2ffd5868702b8c760c49e0e7ae0f93af4668": "read",
+  "926cf8760a8099ce8e9dacb6695134fd1449f34eeb529f43f34caf017d9d357d": "write",
+  "a0fac5d1a008ced49cae1eb67e6135ca788a7efaf4573da1d5847c58ed402b53": "read",
+  "b1e8c6045bc345d00bbcb2e6be1463fa5b7f5f0b0ae6ce23ff6227d7720ab07b": "read",
+  "58388f63dd5a81bfaccd036de8d72dcc0fe775b40ff5a0bf9cab83feec83b9ae": "read"
+ },
+ "flags": []
+}

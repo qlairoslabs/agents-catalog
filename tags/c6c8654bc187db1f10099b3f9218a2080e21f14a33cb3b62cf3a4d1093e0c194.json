@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c6c8654bc187db1f10099b3f9218a2080e21f14a33cb3b62cf3a4d1093e0c194",
+ "domain": [
+  "health/fitness/workout-tracking",
+  "health/fitness"
+ ],
+ "product": [
+  "joti"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads workouts, history and stats from Joti and lets users create and schedule new workouts without altering existing ones.",
+ "whenToUse": "Use when a user wants to review their training history or plan new workouts in Joti.",
+ "tasks": [
+  "read workouts",
+  "view workout history",
+  "view stats",
+  "create workouts",
+  "schedule workouts"
+ ],
+ "effects": {},
+ "flags": []
+}

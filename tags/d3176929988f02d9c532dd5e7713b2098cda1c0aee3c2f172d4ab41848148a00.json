@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d3176929988f02d9c532dd5e7713b2098cda1c0aee3c2f172d4ab41848148a00",
+ "domain": [
+  "software/ci-cd"
+ ],
+ "product": [
+  "buildkite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Helps write and optimize Buildkite pipeline YAML, including step types, caching, retries, parallelism, dynamic pipelines and plugins.",
+ "whenToUse": "Use when the user writes or edits Buildkite pipeline.yml or asks about Buildkite CI configuration.",
+ "tasks": [
+  "write pipeline yaml",
+  "add caching and retries",
+  "configure parallel and matrix builds",
+  "set up dynamic pipelines",
+  "run steps only on code changes",
+  "add annotations for test failures",
+  "add plugins",
+  "configure notifications and concurrency"
+ ],
+ "effects": {},
+ "flags": []
+}

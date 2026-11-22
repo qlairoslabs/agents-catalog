@@ -1,0 +1,70 @@
+{
+ "classifier": 2,
+ "contentHash": "a566d3a10965c6901c9a5a35e25e56b6dca527032fd47524b6ef7586045032b3",
+ "domain": [
+  "telecom/voip",
+  "telecom/sip-debugging",
+  "software/networking"
+ ],
+ "product": [
+  "asterisk",
+  "freeswitch",
+  "kamailio",
+  "opensips",
+  "twilio",
+  "stir-shaken",
+  "webrtc",
+  "sipflow"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "SIP/VoIP troubleshooting toolkit: documentation search, response code and header lookup, trace and SDP parsing, config review, STIR/SHAKEN validation and DNS diagnosis.",
+ "whenToUse": "Use when debugging SIP calls, traces, SDP negotiation, PBX or SBC configs, STIR/SHAKEN identity headers or SIP DNS resolution.",
+ "tasks": [
+  "search VoIP docs",
+  "look up SIP codes and headers",
+  "detect SIP stack",
+  "minimize traces",
+  "render call ladders",
+  "lint and parse SIP messages",
+  "diff SIP messages",
+  "review configs",
+  "parse and compare SDP",
+  "validate STIR/SHAKEN",
+  "validate E.164 numbers",
+  "diagnose SIP DNS"
+ ],
+ "effects": {
+  "6972d44e5578be53909e82d9846c8ddb50fea6b1f94ac10c15317f8ea4770155": "write",
+  "7a7ec6415bd321396266eda8c72164272c8a76e57710036da4473673a14a901b": "write",
+  "45bae7488cedb0c5bf1e9cb30ca5dc049d3bc545e743c760d37056599870e229": "write",
+  "9def6f5ae0cef3c4684f28200ffe72d6305d323df23c3b87d2ed97a83468e012": "write",
+  "9f85e5eea1983ac6c7b950863c710ee7bfc624992404a4b310747286fc489a1d": "read",
+  "3b400dec166cc63566c044ce1042b817336e577626388f171f93fc86cf29cb14": "write",
+  "53f0e0f0097496c5f9cf3d79237e0cf027ddd724ac8f9e6013e6054848e0b2c8": "write",
+  "6910a573a4fb517a56eef1fe4df58a6fadc4534049c338ca2ece95df841f65a7": "read",
+  "b4d252273fce8fd0a276ae9fce5cc90fc140bc137a35b0c883b070b9844e1352": "write",
+  "602bd9e61c3b1ed562f10e1823b6d0e18a6995f4cceea12718be604a51c61f56": "write",
+  "143516116909fc3d34c884e713dc6284d318234dca8d3b9f3cff68ba0c7b7863": "write",
+  "6708c575da4809dcbbb41462e21f40566034c9b109a01e6d37a44c9be9772d84": "write",
+  "4e189a456dce837d6e30fc355a32c255b9bb1595902e9d5a6510c2265b3937c9": "write",
+  "c296d54d78f7eea54992100c739da12672c8eb852abe00d9bdffb1ea3bb63fc7": "write",
+  "359d5dc0c2cf322b1ceb1a1f909e3b441e55ae7e8fb3c5ae27a7cfb60e8350ab": "write",
+  "a3d02d17d0fef794b08da939aa1a35608e093de87dffd0b5f01939f7a94e7385": "write",
+  "0ef16951b7fc67cb696fc66f85ee9695c312bb145b4e3a3702b17f90dfcb423a": "write",
+  "acc76e9a6030a7b3abd7b1eda5061f83881a4e33748094da97630473f008e1c5": "write",
+  "c787572a9b1ec4e89ca8abe6028efa74de9bbd33bc1b54094af4d5938b03dd9b": "write",
+  "31e2d05d51cfc6ca45bb54dd1cf69bb32d8b05dada5bd6b5ac5857f54e1e7244": "write",
+  "7347bc8d08d59aedb602a68413e3e21a3162fbf07ec769047ea2cecf81a75a57": "write",
+  "71e81f6f958e5f5cb1142f087ab236e61a7f4d3d5eaaf4e11734eeb85e1c975a": "write"
+ },
+ "flags": []
+}

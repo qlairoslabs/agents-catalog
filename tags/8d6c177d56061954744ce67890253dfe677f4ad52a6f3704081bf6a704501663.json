@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8d6c177d56061954744ce67890253dfe677f4ad52a6f3704081bf6a704501663",
+ "domain": [
+  "collaboration/whiteboards",
+  "design/visual-thinking"
+ ],
+ "product": [
+  "mural"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content"
+ ],
+ "summary": "Reads and writes content on shared Mural boards to visualize ideas.",
+ "whenToUse": "Use when an agent needs to read from or add content to a team's Mural whiteboard.",
+ "tasks": [
+  "read mural boards",
+  "add content to boards",
+  "visualize ideas"
+ ],
+ "effects": {},
+ "flags": []
+}

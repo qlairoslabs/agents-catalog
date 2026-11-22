@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "90d2eb842b24c2040df3a9bf3754918b97fa34ebfe7878f80000ec3e288dac4c",
+ "domain": [
+  "ai/agent-platform",
+  "ai/memory"
+ ],
+ "product": [
+  "6ducklearn"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Connects agents to 6DuckLearn for memory, approvals and runtime control.",
+ "whenToUse": "Use when the user runs agents on 6DuckLearn and needs shared memory, approval steps or runtime control.",
+ "tasks": [
+  "store and recall memory",
+  "request approvals",
+  "control agent runtime"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c9950bc194337e0b5258e988a70d0f3c8798b7222bc4f1d324c81c256dcf903b",
+ "domain": [
+  "software/cybersecurity/osint",
+  "networking/dns"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gathers public DNS, certificate transparency and identity information about domains.",
+ "whenToUse": "Use when an agent needs passive reconnaissance on a domain from public DNS and certificate data.",
+ "tasks": [
+  "look up dns records",
+  "search certificate transparency logs",
+  "collect identity observations"
+ ],
+ "effects": {},
+ "flags": []
+}

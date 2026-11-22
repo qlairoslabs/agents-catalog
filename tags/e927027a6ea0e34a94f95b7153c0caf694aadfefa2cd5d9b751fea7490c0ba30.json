@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e927027a6ea0e34a94f95b7153c0caf694aadfefa2cd5d9b751fea7490c0ba30",
+ "domain": [
+  "design/design-systems",
+  "software/frontend"
+ ],
+ "product": [
+  "tesserai",
+  "npm"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm tool giving coding agents a project's design tokens, components, contrast checks and guidelines.",
+ "whenToUse": "Use when a coding agent should follow a project's design system while building UI.",
+ "tasks": [
+  "read design tokens",
+  "look up components",
+  "check color contrast",
+  "read design guidelines"
+ ],
+ "effects": {},
+ "flags": []
+}

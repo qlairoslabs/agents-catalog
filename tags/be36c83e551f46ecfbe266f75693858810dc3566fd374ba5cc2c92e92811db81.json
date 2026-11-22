@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "be36c83e551f46ecfbe266f75693858810dc3566fd374ba5cc2c92e92811db81",
+ "domain": [
+  "software/code-search",
+  "software/development-tools"
+ ],
+ "product": [
+  "sourcegraph"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and reads code across many repositories, tracing references, commits and diffs via Sourcegraph.",
+ "whenToUse": "Use when you need to find code, trace references or assess change impact across multiple repositories.",
+ "tasks": [
+  "search code across repositories",
+  "read files",
+  "trace references",
+  "analyze refactor impact",
+  "search commits and diffs",
+  "run security sweeps"
+ ],
+ "effects": {},
+ "flags": []
+}

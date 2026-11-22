@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "46d3fdc1c8cdf5ed0e7835a92ca130761c4a944f4c48de8a4d6e9cb5295e413d",
+ "domain": [
+  "events/ticketing",
+  "events/entertainment"
+ ],
+ "product": [
+  "livespot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Read-only search of upcoming concerts, theatre, sport and festivals in Swedish cities, with event details and related events.",
+ "whenToUse": "Use when a user asks what events are on in Sweden or wants details on a concert, show or match.",
+ "tasks": [
+  "search events",
+  "get event details",
+  "list cities",
+  "list categories",
+  "browse city events",
+  "find related events",
+  "search",
+  "fetch event"
+ ],
+ "effects": {
+  "a9aded122b0e205199c1c38a736a5162ac4bad1926eff0c8dbcfce136bcbeae7": "write",
+  "9a45d43e1dfa10bd0bc38676fbcb6af48d4d8de1b2755c7c0242438724b1933a": "read",
+  "c9378c1b95f5e1650bb80eea1d7497e0bf46c6686622465096f5d64dd6e20686": "read",
+  "3f58de777fe09ba4ac33449cb8a4d17a4ef3a70e842f8f6d78917f981454f39d": "read",
+  "333dba1460f6ed61f98b6095368479e26fd7f7a49dd2897f89b37f5a5d825830": "read",
+  "2cbb42d7b80dca08052d95a65899e1b021175d27618dd30b478f70a6c5703291": "read",
+  "e411454e62b1bf8357bf7f27472bdf65894b22e26ddd064660e43856195e9946": "read",
+  "fe17aafcb41deafb87b2ab70488a31ed048da03875c8e064f3a6869bed174d8d": "read"
+ },
+ "flags": []
+}

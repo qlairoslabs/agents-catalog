@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cfde589db17d597b7ab9d75b50f5630af44084e38ce47774f35a906687a049dd",
+ "domain": [
+  "ai/agent-frameworks",
+  "software/development"
+ ],
+ "product": [
+  "praisonai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Framework for building AI agents with self-reflection and MCP support.",
+ "whenToUse": "Use when building or running multi-agent workflows with the PraisonAI framework.",
+ "tasks": [
+  "build ai agents",
+  "run agent workflows",
+  "use mcp tools"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "fefbc20f2553330152bc0e2a4407b69c496592f3a10f1616bbf91fd34f8917c6",
+ "domain": [
+  "software/monitoring"
+ ],
+ "product": [
+  "merlonix"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Website monitoring for agencies: SSL, DNS, domain expiry, blocklists, broken links, vendor status and MCP health checks, plus management of monitored assets and alerts.",
+ "whenToUse": "Use when checking a site's health, certificate, DNS or blacklist status, or managing monitored assets and alerts in a Merlonix account.",
+ "tasks": [
+  "check ssl and dns",
+  "check domain expiry",
+  "check email blocklists",
+  "scan broken links",
+  "check mcp server health",
+  "score agent readiness",
+  "view vendor status",
+  "list assets",
+  "view alerts",
+  "create asset",
+  "acknowledge alert",
+  "resolve alert"
+ ],
+ "effects": {
+  "3911b7e2ad51693b55a53139511e0a8b5a059e3afbf98850c61dfd6b60945121": "read",
+  "140b4641801a9874dfa06248258eb9fecebb2eca13f0a1630c8af30563a28c07": "read",
+  "78b8bcd9a9aab79ddf37a0a12a4ed382207173af77471752237d96ed647713b3": "read",
+  "51129dfae577b4a02ae81427f3055efcfce547bf66690b8d8aec69c6f22dc3a4": "read",
+  "0e74e53d7052edde49f505964032313ce97c712a88ae0e4e3156b7551e847bec": "read",
+  "2c3c9db94d54588408fd3248e4297e287be9abfaee68a1947a37fbaa98e08dfc": "read",
+  "35f9b122da8507ea3992dfb1bc0c8e6ffaf66ebdb27deabff3adefe5840465ff": "read",
+  "9911946c2ce5407a2481f11fa9657430cdbfe4d6433d06dbcb097ef33b7cd628": "read",
+  "cda3ad2346d5c495d87d533deca12de0f771145831d3e7220df4d4538c821291": "read",
+  "91f626db8c52734db0c74348319dc9f3cc23d843f409a735e69ead1672ac9af8": "read",
+  "4806fcaa7a5b3e571ce6eb9d9bec7340551ef8d2f77e59de822aed508232bcee": "read",
+  "c4d22672e6f24e86d777905dc6f5cbb3bca4bba7ab859cbe91b9a63c2ccef8c4": "write",
+  "74fc4f254f7ca94b724c3886c584ef5a6d77af8caba958b3efac57311780a38d": "write",
+  "1a557bcbfdbfba37353baac6278d430ac5d2bfb0e6ad39f8db8d0394efc6c443": "write",
+  "de8029be644215678901f335974f3a4e99670bdc136955e557a9364db171e2be": "write",
+  "bb86aa316a1dfa6a0e9c6319969ea26270e62314e063cd85c05b81ca1816807d": "write"
+ },
+ "flags": []
+}

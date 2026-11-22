@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0a76bd3132a8e6c6b70a448815f2d92c284a74294f93334e4c9fe64d5f171ef2",
+ "domain": [
+  "commerce/ecommerce-platform",
+  "software/development"
+ ],
+ "product": [
+  "medusa",
+  "medusa-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "sell"
+ ],
+ "summary": "Works with Medusa Cloud project data and APIs and searches the Medusa documentation.",
+ "whenToUse": "Use when building or managing a commerce store on Medusa Cloud.",
+ "tasks": [
+  "access medusa cloud projects",
+  "query project data",
+  "call medusa apis",
+  "search medusa documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

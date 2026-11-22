@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "46ade61ca629c26b59daa9515859ebe91692e0d02d34e5ccb1f0430c178da4b5",
+ "domain": [
+  "software/developer-tools/ai-history",
+  "productivity/task-management"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Combines chat history from multiple AI coding tools into one searchable store, with secret scanning and a shared task board.",
+ "whenToUse": "Use when an agent needs to recall past AI coding conversations or coordinate tasks across tools.",
+ "tasks": [
+  "search past ai chat history",
+  "scan history for secrets",
+  "manage shared task board"
+ ],
+ "effects": {},
+ "flags": []
+}

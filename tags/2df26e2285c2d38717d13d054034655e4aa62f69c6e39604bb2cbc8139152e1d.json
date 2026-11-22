@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "2df26e2285c2d38717d13d054034655e4aa62f69c6e39604bb2cbc8139152e1d",
+ "domain": [
+  "finance/grants-and-funding"
+ ],
+ "product": [
+  "netgrant"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Searchable database of Canadian grants, tax credits, accelerators and loans, with eligibility checks and an optional weekly email digest.",
+ "whenToUse": "Use when a Canadian business or startup is looking for funding opportunities or wants to check whether it qualifies for one.",
+ "tasks": [
+  "search funding opportunities",
+  "get opportunity details",
+  "compare opportunities",
+  "check applicant eligibility",
+  "subscribe to weekly email digest"
+ ],
+ "effects": {
+  "e151ef636b90d02a9ef4636dd33e452c747b124f6e5d6b06a1d5fc75f2570051": "write",
+  "7b3b97835f383b0686a629a06941bbe5a3349c35ef34a54a7700cb0daa4b5296": "read",
+  "c0e287d2322d0b420b08c86e5d5c9c4ba493cb80eb575277b29bd5e1c6389c40": "read",
+  "b202d4ed434b39bb6098757b0ee72628dbaf8fe4649565e3ad4499d9c35d8600": "read",
+  "d71738e642d2402946f297be3f67816856371aa3f04f2a9c6c6102a5ac46011c": "write"
+ },
+ "flags": []
+}

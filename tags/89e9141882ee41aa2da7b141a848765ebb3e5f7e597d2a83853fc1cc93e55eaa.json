@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "89e9141882ee41aa2da7b141a848765ebb3e5f7e597d2a83853fc1cc93e55eaa",
+ "domain": [
+  "data/property-records",
+  "data/geodata",
+  "real-estate"
+ ],
+ "product": [
+  "bbr",
+  "matriklen",
+  "dar",
+  "cvr",
+  "dawa",
+  "datafordeler"
+ ],
+ "audience": [
+  "operations",
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Danish addresses and property data from BBR, Matriklen, DAR and CVR, compatible with DAWA and Datafordeler.",
+ "whenToUse": "Use when you need building, cadastral or address data for a property in Denmark.",
+ "tasks": [
+  "look up addresses",
+  "get building data",
+  "get cadastral data",
+  "link companies to addresses"
+ ],
+ "effects": {},
+ "flags": []
+}

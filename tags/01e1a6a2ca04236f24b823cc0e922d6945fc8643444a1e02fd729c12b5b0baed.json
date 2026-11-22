@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "01e1a6a2ca04236f24b823cc0e922d6945fc8643444a1e02fd729c12b5b0baed",
+ "domain": [
+  "government/federal-data",
+  "government/contracting"
+ ],
+ "product": [
+  "harbor"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Single endpoint bundling many hosted MCP servers that expose US federal government data.",
+ "whenToUse": "Use when an agent needs US federal data such as government contracting or agency information.",
+ "tasks": [
+  "query us federal data",
+  "access multiple federal data servers"
+ ],
+ "effects": {},
+ "flags": []
+}

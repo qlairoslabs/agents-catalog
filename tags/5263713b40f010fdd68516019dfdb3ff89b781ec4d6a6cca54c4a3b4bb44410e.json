@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5263713b40f010fdd68516019dfdb3ff89b781ec4d6a6cca54c4a3b4bb44410e",
+ "domain": [
+  "language/translation/hebrew",
+  "healthcare/clinical-language"
+ ],
+ "product": [
+  "hebrewcore"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "create-content",
+  "support-customers"
+ ],
+ "summary": "Hebrew translation that preserves prices, names and dates, with right-to-left display, nikud vowel marks and clinical Hebrew.",
+ "whenToUse": "Use when an agent must translate into or out of Hebrew accurately, add nikud, format RTL text, or handle clinical Hebrew.",
+ "tasks": [
+  "translate to hebrew",
+  "preserve prices names and dates",
+  "format rtl text",
+  "add nikud",
+  "translate clinical hebrew"
+ ],
+ "effects": {},
+ "flags": []
+}

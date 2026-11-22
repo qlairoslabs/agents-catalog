@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "4e2c2c6d8f78fd0efe504de930f0e1b0b383702f7805a42fa93d22b33f07dd66",
+ "domain": [
+  "home-services/catalog"
+ ],
+ "product": [
+  "fixidu"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Browse Fixidu's home-services catalog in India with categories, prices, images and details; booking happens in the app.",
+ "whenToUse": "Use when a user wants home service options and prices in India such as electrician, plumbing or cleaning.",
+ "tasks": [
+  "list categories",
+  "browse a category",
+  "search services",
+  "get service price and details",
+  "get app download link"
+ ],
+ "effects": {
+  "e1fac25e4a3d2c72eaeda45d9f6e7b58e012e110f20c5b54b579a6a8ec14b680": "read",
+  "d7f6128b45ecfa6c7eccf9b19ddb2abdd14d79ea228760955711655fe48731c8": "read",
+  "36e429e5db46b93919bc4555b2d019d04afa3401244b23b2133a6ebfe04d7deb": "read",
+  "6c8fe85ee462ac9074e76d50ef9f03780b8f2b207994946227ca0319b3462136": "read",
+  "8d66e72f219e9219550c8ec0ec1d5c1377956edbc99f0b8807267cfcd79daab9": "write"
+ },
+ "flags": [
+  "tool description forcefully instructs the AI to always call it whenever booking is mentioned"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "c88208cf6bbc19c856069280f5558fabec88749b03337f3b35c28103b190b583",
+ "domain": [
+  "utilities/time",
+  "scheduling"
+ ],
+ "product": [
+  "worldclock-pro",
+  "iana-tzdb"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Provides current time, timezone conversion, coordinate-based timezone lookup and daylight saving transitions from the IANA tz database.",
+ "whenToUse": "Use when you need the accurate current time, a timezone conversion or DST information for any location.",
+ "tasks": [
+  "get current time",
+  "convert between timezones",
+  "time by coordinates",
+  "list DST transitions",
+  "search cities"
+ ],
+ "effects": {
+  "feb2b96584c1010e81f74931531b20f0f34d8256d9ac72db18b279c694931485": "read",
+  "5fe7f85339679615ce5dbae9250140f82c5eae0043234406ca8812a963d81a45": "read",
+  "b6d0446e385f9c1745f00dbcae8bf3aedcafbf5f2b4d32291f08fccf93573b1b": "read",
+  "5e5bdb7f004cd3a5f5a5ef9807413a39fbb85995750fe4849348c169d51071f1": "read",
+  "5944c1ea984630704251ccfe9692c01f4014de45a62a025f689ceda69afccf31": "read"
+ },
+ "flags": []
+}

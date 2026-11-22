@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "04c1962d3452ea80a8159b84e8a32f75e8973716b36df6fef42561631e5e7849",
+ "domain": [
+  "business/collaboration",
+  "legal/contracts"
+ ],
+ "product": [
+  "worqen"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Lets an assistant review Worqen contracts and chats, find decisions and post updates.",
+ "whenToUse": "Use when reviewing contracts or conversations in Worqen, or sending updates there.",
+ "tasks": [
+  "review contracts",
+  "read chats",
+  "find decisions",
+  "send updates"
+ ],
+ "effects": {},
+ "flags": []
+}

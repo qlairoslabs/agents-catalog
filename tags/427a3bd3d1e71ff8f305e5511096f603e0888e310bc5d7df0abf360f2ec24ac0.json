@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "427a3bd3d1e71ff8f305e5511096f603e0888e310bc5d7df0abf360f2ec24ac0",
+ "domain": [
+  "business/startup-research"
+ ],
+ "product": [
+  "venture-insights"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Requests Venture Insights' free concept diagnostic for a founder's venture idea, delivered by email after confirmation, and tracks its progress.",
+ "whenToUse": "Use when a founder wants a viability study of a business idea, especially in Saudi Arabia or the GCC.",
+ "tasks": [
+  "show intake form",
+  "describe services and prices",
+  "request free diagnostic",
+  "check diagnostic status"
+ ],
+ "effects": {
+  "935175ada16e73206f48f76be6b9048be1dcfb063cc850bf2e9bd6489d239d92": "write",
+  "8eabb8fdb23e6886700ef0ed9cb5d3adddae9b92e325c353345cae5b2d576d7c": "read",
+  "425fa885b297c3dd60f499fe9c72524429d08f2b0ebc0f6e339d45149f75a356": "write",
+  "339d65093f83a1964c6fcab921e313f40a049797157ca37363d657edebf8380c": "write"
+ },
+ "flags": [
+  "sends the founder's personal details to a third party and triggers an email"
+ ]
+}

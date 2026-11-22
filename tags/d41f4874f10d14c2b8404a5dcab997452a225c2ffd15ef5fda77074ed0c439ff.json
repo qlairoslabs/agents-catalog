@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d41f4874f10d14c2b8404a5dcab997452a225c2ffd15ef5fda77074ed0c439ff",
+ "domain": [
+  "software/hosting",
+  "software/devops"
+ ],
+ "product": [
+  "appwizzy",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Creates and monitors AppWizzy app environments from a GitHub repository or ZIP upload.",
+ "whenToUse": "Use when an agent needs to spin up or check the status of an AppWizzy app environment.",
+ "tasks": [
+  "create environment from github",
+  "create environment from zip",
+  "monitor environments"
+ ],
+ "effects": {},
+ "flags": []
+}

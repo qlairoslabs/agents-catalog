@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f7ff6354ed2a2c69c71a48f5e23811a89e05e0d6efcb50f9d3cf85fd984df216",
+ "domain": [
+  "data/analytics",
+  "data/databases"
+ ],
+ "product": [
+  "duckdb",
+  "ducklake"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "DuckDB skills to read data files, query DuckDB databases, search DuckDB docs and past session logs, and manage extensions.",
+ "whenToUse": "Use when exploring local data files or querying DuckDB databases.",
+ "tasks": [
+  "read data files",
+  "attach duckdb databases",
+  "query databases",
+  "search duckdb docs",
+  "search session logs",
+  "install duckdb extensions"
+ ],
+ "effects": {},
+ "flags": []
+}

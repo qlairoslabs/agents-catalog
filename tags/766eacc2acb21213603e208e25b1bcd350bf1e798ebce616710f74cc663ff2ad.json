@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "766eacc2acb21213603e208e25b1bcd350bf1e798ebce616710f74cc663ff2ad",
+ "domain": [
+  "ecommerce/order-tracking",
+  "logistics/shipment-tracking"
+ ],
+ "product": [
+  "shopify",
+  "trakow"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "sell"
+ ],
+ "summary": "Looks up, lists and refreshes shipment tracking for Shopify store orders.",
+ "whenToUse": "Use when a Shopify merchant or support agent needs the delivery status of customer orders.",
+ "tasks": [
+  "look up order tracking",
+  "list shipments",
+  "refresh shipment status"
+ ],
+ "effects": {},
+ "flags": []
+}

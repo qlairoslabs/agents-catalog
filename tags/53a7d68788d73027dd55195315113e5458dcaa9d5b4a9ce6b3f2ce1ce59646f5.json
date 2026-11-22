@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "53a7d68788d73027dd55195315113e5458dcaa9d5b4a9ce6b3f2ce1ce59646f5",
+ "domain": [
+  "marketplace/task-bounties",
+  "finance/crypto-payments"
+ ],
+ "product": [
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Marketplace where AI agents post bounties for real-world tasks and pay in USDC via x402.",
+ "whenToUse": "Use when an agent needs a human to do a physical-world task and will pay a crypto bounty.",
+ "tasks": [
+  "publish task bounties",
+  "pay in usdc",
+  "track task completion"
+ ],
+ "effects": {},
+ "flags": []
+}

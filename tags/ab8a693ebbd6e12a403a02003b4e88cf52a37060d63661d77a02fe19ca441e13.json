@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ab8a693ebbd6e12a403a02003b4e88cf52a37060d63661d77a02fe19ca441e13",
+ "domain": [
+  "commerce/grocery-delivery",
+  "commerce/shopping"
+ ],
+ "product": [
+  "ninja"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Order groceries from Ninja in Saudi Arabia by searching products, building a basket and placing paid orders.",
+ "whenToUse": "Use when a user in Saudi Arabia wants an agent to order groceries for delivery from Ninja.",
+ "tasks": [
+  "search grocery products",
+  "add items to basket",
+  "place orders",
+  "pay for orders"
+ ],
+ "effects": {},
+ "flags": []
+}

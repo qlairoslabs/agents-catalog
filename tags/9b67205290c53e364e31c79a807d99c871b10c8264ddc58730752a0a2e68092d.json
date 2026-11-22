@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9b67205290c53e364e31c79a807d99c871b10c8264ddc58730752a0a2e68092d",
+ "domain": [
+  "web/seo",
+  "software/ai"
+ ],
+ "product": [
+  "mudko"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Scores how ready a website is for AI agents and generates robots.txt and llms.txt files.",
+ "whenToUse": "Use when a user wants to check or improve how well their website works with AI agents and crawlers.",
+ "tasks": [
+  "scan agent readiness",
+  "generate robots.txt",
+  "generate llms.txt",
+  "manage agent enablement"
+ ],
+ "effects": {},
+ "flags": []
+}

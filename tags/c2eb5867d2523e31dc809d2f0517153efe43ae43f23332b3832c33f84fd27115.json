@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c2eb5867d2523e31dc809d2f0517153efe43ae43f23332b3832c33f84fd27115",
+ "domain": [
+  "software/code-search",
+  "legal/licensing"
+ ],
+ "product": [
+  "justclaw-it"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Search of license-cleared code with attribution for coding agents, plus MCP prompts and a skill pack.",
+ "whenToUse": "Use when a coding agent wants reusable code snippets whose licenses are cleared and attribution is provided.",
+ "tasks": [
+  "search licensed code",
+  "get attribution details",
+  "use mcp prompts",
+  "install skill pack"
+ ],
+ "effects": {},
+ "flags": []
+}

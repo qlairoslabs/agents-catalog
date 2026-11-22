@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "4516b2593421db66664c791259e327f082192e0299c2de2d9625fd3e91b3400d",
+ "domain": [
+  "procurement/public-tenders",
+  "business/bid-analysis"
+ ],
+ "product": [
+  "ted",
+  "tendfeed"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Bid/no-bid verdicts for EU public tenders based on TED award history, plus ranking of sectors by competition density.",
+ "whenToUse": "Use when evaluating whether to bid on EU tenders or finding sectors with low competition.",
+ "tasks": [
+  "rank low-competition sectors",
+  "search open tenders",
+  "get tender verdict",
+  "filter by country and sector"
+ ],
+ "effects": {
+  "98c0540567df0dd1c5c165e92bbd510830356adf4fbed7996e767be463a5c068": "read",
+  "25d8054e1ad62f2624af0711e815ded058f77aa6ae7709fb51d51b2433caecf5": "read",
+  "040dba4f9bf8d7bc8fafe91d3e9c628075cc78bbcc0e9d5c2465cf0f17aedfb6": "read",
+  "cd078e5e4b4d6dddedbb00d0db59284ec8694484aa825594a7cf1172a4af3b2b": "read"
+ },
+ "flags": []
+}

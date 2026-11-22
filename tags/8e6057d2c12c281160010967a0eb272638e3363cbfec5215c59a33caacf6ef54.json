@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "8e6057d2c12c281160010967a0eb272638e3363cbfec5215c59a33caacf6ef54",
+ "domain": [
+  "social/nostr",
+  "communication/messaging",
+  "identity/trust"
+ ],
+ "product": [
+  "nostr"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "create-content"
+ ],
+ "summary": "Local npm MCP server giving agents about 235 Nostr tools for social posting, DMs, zaps, trust scoring and identity.",
+ "whenToUse": "Use when an agent needs to post, message, send zaps or manage identity and trust on the Nostr network.",
+ "tasks": [
+  "post to nostr",
+  "send direct messages",
+  "send zaps",
+  "evaluate trust",
+  "manage nostr identity"
+ ],
+ "effects": {},
+ "flags": []
+}

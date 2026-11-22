@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c2d06794edbed9b566c6f9729526533b52966d670cceaa15771051757b0a6cc0",
+ "domain": [
+  "gaming/game-servers",
+  "software/infrastructure"
+ ],
+ "product": [
+  "edgegap"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Deploys and operates multiplayer game servers on Edgegap's edge network, run locally via npm.",
+ "whenToUse": "Use when deploying or managing multiplayer game server instances on Edgegap.",
+ "tasks": [
+  "deploy game servers",
+  "manage deployments",
+  "operate edge servers"
+ ],
+ "effects": {},
+ "flags": []
+}

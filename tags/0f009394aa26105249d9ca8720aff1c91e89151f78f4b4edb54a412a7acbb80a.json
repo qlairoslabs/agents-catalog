@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0f009394aa26105249d9ca8720aff1c91e89151f78f4b4edb54a412a7acbb80a",
+ "domain": [
+  "software/web-hosting/custom-domains",
+  "software/dns"
+ ],
+ "product": [
+  "saas-custom-domains"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages custom domains with automatic SSL for SaaS customers, including DNS checks and traffic views.",
+ "whenToUse": "Use when setting up or troubleshooting a customer's custom domain on a SaaS product.",
+ "tasks": [
+  "add custom domain",
+  "provision ssl",
+  "check dns records",
+  "view domain traffic"
+ ],
+ "effects": {},
+ "flags": []
+}

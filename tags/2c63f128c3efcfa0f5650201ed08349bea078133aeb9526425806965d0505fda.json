@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2c63f128c3efcfa0f5650201ed08349bea078133aeb9526425806965d0505fda",
+ "domain": [
+  "finance/retirement-planning",
+  "government/social-security"
+ ],
+ "product": [
+  "social-security"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Estimates U.S. Social Security benefits by claiming age using a deterministic calculation engine.",
+ "whenToUse": "Use when a user wants to compare Social Security benefits at different claiming ages.",
+ "tasks": [
+  "estimate benefits by age",
+  "recommend claiming age"
+ ],
+ "effects": {},
+ "flags": []
+}

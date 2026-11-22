@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8b6a31bfa675630534cb31e74eb0af7b7005ee95c180c563137cebc6d11508e5",
+ "domain": [
+  "telecom/esim",
+  "operations/device-fleet"
+ ],
+ "product": [
+  "carrier",
+  "npm"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local npm MCP server for managing eSIM connectivity, including device fleets, data plans and orders.",
+ "whenToUse": "When an agent must provision or manage eSIMs, mobile plans or connectivity orders for devices.",
+ "tasks": [
+  "manage esim fleets",
+  "manage data plans",
+  "place connectivity orders"
+ ],
+ "effects": {},
+ "flags": []
+}

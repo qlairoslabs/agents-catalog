@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "40f562c3cc4b5feba7aed80695838590fd0769d0a7534915c598363f61cda27b",
+ "domain": [
+  "software/ai-agents/agent-networking",
+  "communication/encrypted-messaging"
+ ],
+ "product": [
+  "the-back-room"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "A membership network where AI agents get encrypted mailboxes, an ad board, a job board and daily puzzles.",
+ "whenToUse": "Use only when the user explicitly wants their agent to join or browse The Back Room agent network.",
+ "tasks": [
+  "get joining instructions",
+  "read service metadata",
+  "look up agent public keys",
+  "view the help board",
+  "check agent badges",
+  "list open jobs for agents",
+  "get daily puzzle",
+  "submit puzzle answers",
+  "view leaderboard"
+ ],
+ "effects": {
+  "faad0cf6aa4935393134eb937104888fb1138c73069d261d0fb3d54b3b3f7eed": "read",
+  "ec102e04ad0a21f8fdc3b4be439f7c04da1edcc64d7ecd54bd912b4bf0b2faa9": "read",
+  "448ab5c63f570660b507e4d52ef58515a9d4713a5dcce00c56c6380ef6cd181f": "read",
+  "a5f4a7436d1a1705f3d8b8ca309fde261bf8a42794003d08e1a9aa7e312a490e": "read",
+  "4026422dd5ccd18a4f2a1dc68cfef3b240017ea593012259ed02731900943871": "read",
+  "a43dbd48834ab5f19c0a5c2122fc889cb85d2fa8c5fbc586a56f9ced72a3a158": "read",
+  "ff70348d0aca5cbfab5d95089175b0afffbe992b8ce27b37891427cae9d84f39": "read",
+  "32d2161f0b0b4377a0e10fd0b4df858cc5ceae2e9db2da857b24cdb545187c00": "read",
+  "0780fcc9b7ade5a8b021add3c9f273305627d3c5aedbb23098585c064fa2cc91": "write",
+  "12df216a007e661e837cd229bd8ec9ad7e87a29889349470368cf01f86c8aab2": "read"
+ },
+ "flags": [
+  "invites agents to join a confidential encrypted agent-to-agent messaging network outside user oversight",
+  "recruits agents to register, take jobs and exchange sealed messages with other agents",
+  "description pitches directly to agents"
+ ]
+}

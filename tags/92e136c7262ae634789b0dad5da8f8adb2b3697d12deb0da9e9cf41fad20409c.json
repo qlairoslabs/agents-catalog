@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "92e136c7262ae634789b0dad5da8f8adb2b3697d12deb0da9e9cf41fad20409c",
+ "domain": [
+  "media/image-processing",
+  "software/developer-tools"
+ ],
+ "product": [
+  "pictomancer"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Paid image processing API to resize, compress, convert, crop, remove backgrounds and optimize images for the web or vision models.",
+ "whenToUse": "Use when an agent must prepare images for web delivery or vision model input, or estimate processing cost first.",
+ "tasks": [
+  "list supported formats",
+  "estimate operation cost",
+  "analyze image metadata and token cost",
+  "resize images",
+  "compress images",
+  "convert image formats",
+  "crop or trim images",
+  "optimize images for vision models",
+  "optimize ai-generated images for web",
+  "remove image backgrounds",
+  "run multi-step image pipelines",
+  "deliver results to presigned or callback urls"
+ ],
+ "effects": {
+  "bf2414d32c6625921b6976c9cf2e531d30e17fcba655f2115e86f1658a62172a": "read",
+  "ae54398af6fb316624f1ba264a2e40c25686c03cbf61ef7b2f5a14f40c1f3187": "write",
+  "cec6362f99e2e5c4bbf4ca6944e17263750131dbafb190d870f09a501ca5f19b": "read",
+  "1c7baad68a5b6c94b41f1fec7eb612b760adb30835d775ff1d27c5fa7e3c43f3": "write",
+  "f71162874a7bdfc52bad8f8ff82c340105310b020872d8554ee5f1889731e4cd": "write",
+  "da3da4912439ef0008c6b42b3fac1c90d4a0f7937662b194f2f9c70c5021da31": "write",
+  "f7b0e0caaa4585360cec8b33a6e5436b3568f0de03be256607520028066586fd": "write",
+  "6c322624f8210d1d4bc556a6dee02c9805b7ee5de9c51f3d33c9988ceda4c360": "write",
+  "765dbfa75c8c5afa6f481e95428e4d2ca2de44c3d181314e761c6990434dc273": "write",
+  "946f6fbe897de09ff2774b33684c606a4e2d5454f5cf0f8003b97bf47320a6c8": "write",
+  "87db35cf0a4ad45a00782567bfd06ede62bb656e99efb0bf5e9b2684a8921b68": "write"
+ },
+ "flags": []
+}

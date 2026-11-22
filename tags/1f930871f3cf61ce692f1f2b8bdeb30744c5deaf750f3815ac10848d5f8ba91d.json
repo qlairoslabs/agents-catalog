@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1f930871f3cf61ce692f1f2b8bdeb30744c5deaf750f3815ac10848d5f8ba91d",
+ "domain": [
+  "software/code-exploration"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Browses the Claude Code CLI source, including its tools and commands, with code search.",
+ "whenToUse": "Use when an agent needs to look into how the Claude Code CLI is implemented.",
+ "tasks": [
+  "browse tools",
+  "browse commands",
+  "search source code"
+ ],
+ "effects": {},
+ "flags": []
+}

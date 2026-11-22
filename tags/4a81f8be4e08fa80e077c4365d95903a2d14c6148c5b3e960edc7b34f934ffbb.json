@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4a81f8be4e08fa80e077c4365d95903a2d14c6148c5b3e960edc7b34f934ffbb",
+ "domain": [
+  "beauty/hairstyle"
+ ],
+ "product": [
+  "style-look-lab"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Recommends up to four hairstyles suited to a face shape with links to try them virtually on a photo.",
+ "whenToUse": "Use when a user wants hairstyle suggestions for their face shape.",
+ "tasks": [
+  "recommend hairstyles by face shape",
+  "filter by length",
+  "link to virtual try-on"
+ ],
+ "effects": {
+  "413572a086e059b6e158bfde040b7b3d9a75ff9cef3da4178c0884825d161bcd": "read"
+ },
+ "flags": []
+}

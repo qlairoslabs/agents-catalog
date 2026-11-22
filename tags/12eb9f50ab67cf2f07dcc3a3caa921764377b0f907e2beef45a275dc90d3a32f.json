@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "12eb9f50ab67cf2f07dcc3a3caa921764377b0f907e2beef45a275dc90d3a32f",
+ "domain": [
+  "productivity/task-management",
+  "automation/workflows"
+ ],
+ "product": [
+  "bleep"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Creates tasks and runs workflows in Bleep from AI assistants.",
+ "whenToUse": "Use when an agent needs to add tasks or trigger workflows in Bleep.",
+ "tasks": [
+  "create tasks",
+  "run workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

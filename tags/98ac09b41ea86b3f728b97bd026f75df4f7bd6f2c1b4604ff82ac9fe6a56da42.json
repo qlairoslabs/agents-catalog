@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "98ac09b41ea86b3f728b97bd026f75df4f7bd6f2c1b4604ff82ac9fe6a56da42",
+ "domain": [
+  "marketing/video-ads",
+  "media/video-generation"
+ ],
+ "product": [
+  "creatify"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Generates finished video ads from a prompt, product link or reference ad using Creatify's Ad Agent.",
+ "whenToUse": "Use when a user wants to produce a video advertisement for a product quickly.",
+ "tasks": [
+  "generate video ads from prompts",
+  "create ads from product links",
+  "remake reference ads"
+ ],
+ "effects": {},
+ "flags": []
+}

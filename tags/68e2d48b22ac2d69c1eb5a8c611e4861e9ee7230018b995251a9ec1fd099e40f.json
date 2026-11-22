@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "68e2d48b22ac2d69c1eb5a8c611e4861e9ee7230018b995251a9ec1fd099e40f",
+ "domain": [
+  "software/mobile-app-publishing"
+ ],
+ "product": [
+  "app-store-connect",
+  "apple-app-store"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "MCP server for App Store Connect covering iOS app setup through submission for review.",
+ "whenToUse": "Use when an agent needs to manage an iOS app in App Store Connect, from bundle id to review submission.",
+ "tasks": [
+  "register bundle ids",
+  "manage app store listings",
+  "submit app for review"
+ ],
+ "effects": {},
+ "flags": []
+}

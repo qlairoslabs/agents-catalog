@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6e36a9c1d9c25f6e8cb0882d6d40ae2561ce6ab8488c9e77d433268db5e224bc",
+ "domain": [
+  "design/generative-ai",
+  "media/content-creation"
+ ],
+ "product": [
+  "gemus"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Node-based canvas for AI design workflows that generate images, video, 3D assets and presentations.",
+ "whenToUse": "Use when the user wants to build or run an AI generation workflow for images, video, 3D or slides on Gemus.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "generate 3d models",
+  "generate presentations",
+  "build node workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

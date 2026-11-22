@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "aac3de5e5fe6fac7c18bccd86d506577b8a2b647a0fa6cc6d846848458c2de13",
+ "domain": [
+  "ai/speech",
+  "hardware/voice-assistants"
+ ],
+ "product": [
+  "openwakeword",
+  "microwakeword",
+  "esphome",
+  "stripe",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "get-paid"
+ ],
+ "summary": "Estimates, searches, buys and trains custom wake-word models for openWakeWord and microWakeWord, with card, crypto or x402 payment and commercial licensing.",
+ "whenToUse": "Use when a developer needs a custom wake word model for a Raspberry Pi, desktop or ESP32 voice project.",
+ "tasks": [
+  "estimate wake word quality",
+  "search model library",
+  "live mic test",
+  "buy library model",
+  "quote training job",
+  "pay for job",
+  "poll job status",
+  "send feedback",
+  "buy commercial license"
+ ],
+ "effects": {
+  "6b96c1167b4b956ecc731f5bfd8da698f59baa292ed9e5897b1acd05c828d3eb": "read",
+  "2847ff8cbb947d9773714727d482f355fbc095797f1cbb346db9f305d3de5675": "write",
+  "4685cc839febfa2765e1770bd8c40a4c7b8a49dfa1e29296a8a84500fd93e1cf": "read",
+  "ee74e3b8b02893254c901ead1e3dd497b36f2e1d51ce14fbbfee3cd2eba6147e": "write",
+  "7ba4b502e26c04109362b08a1dafeb3ae874cbd582a27ae199d2e2c0342b1e0c": "read",
+  "b49cbd4de33223a15ce58a5a1e18221f225becfe7b181ffa79d748dd8b86ba5c": "write",
+  "b7e3800d4da0e3333c2dddc42d8161e447c8771778c764b09c7c6ce58479a4f7": "risky",
+  "c592b53bf62b987bfd32bfe2352a28522b3499a4ce163c7b014e26967f2fd818": "write",
+  "bdc84c5575834f80467c7d69aa2259e4017ce3bc864af6e11c69510bddf9ddab": "write",
+  "ba0034b8381a7158940ae962bff44adee21d949992d8e02a7a0650eba2ddd670": "risky",
+  "de88ea5e7193a26667902029fa800d8b80cd33ee90d1d31d50d6bfccca8901dc": "write",
+  "2793a3bf2edaee31728df56a4181dc43ddca9d2d5cf052123666551d1c982c26": "risky",
+  "bec1c5670e0e4244243e98bf2cc40478e157c91e62aa7d1f4c64c09769b811dd": "read"
+ },
+ "flags": []
+}

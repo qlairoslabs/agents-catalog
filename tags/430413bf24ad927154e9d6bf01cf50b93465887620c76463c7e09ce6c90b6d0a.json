@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "430413bf24ad927154e9d6bf01cf50b93465887620c76463c7e09ce6c90b6d0a",
+ "domain": [
+  "software/saas-planning",
+  "software/development"
+ ],
+ "product": [
+  "mantlekit"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Recommends MantleKit tiers, themes and features and generates SaaS project blueprints from an app idea.",
+ "whenToUse": "Use when planning a new SaaS app with MantleKit or comparing it against building from scratch.",
+ "tasks": [
+  "recommend setup",
+  "generate project blueprint",
+  "match theme",
+  "compare build vs custom"
+ ],
+ "effects": {
+  "9bfd8fb6c8625bc0584d426371d784563b93d0979a6af7e49cfc5c8d74e78d8c": "read",
+  "6a87787c8792883c83419b179d4c53bc42c5b56fb2f3aa893017f120519375e7": "read",
+  "be8e50cf402a3cb66c8851419a250777595aab652a12dc39ccb18dce496c711c": "read",
+  "8c4e86810f6bfbe59d2b72c5188aa77803273450a13a9e2e1d1e263c6d29a5e5": "read"
+ },
+ "flags": []
+}

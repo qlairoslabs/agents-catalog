@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2c6cc17ae0ad6092bf5c874cabdf587171a6646d3dc985d7d8633f5fd5f1774c",
+ "domain": [
+  "software/ai/llm-observability",
+  "software/ai/prompt-management"
+ ],
+ "product": [
+  "langfuse"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Skills for using Langfuse to trace LLM apps, manage prompts and run evaluations.",
+ "whenToUse": "Use when building or debugging LLM applications that use Langfuse.",
+ "tasks": [
+  "trace llm calls",
+  "manage prompts",
+  "run evaluations"
+ ],
+ "effects": {},
+ "flags": []
+}

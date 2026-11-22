@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1f2f4bbdadfb6c61f70e20f4bba9739c723934ed42ce3ab58eb78ac5fb356a8a",
+ "domain": [
+  "data/orchestration/migration",
+  "software/development"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guide for upgrading Apache Airflow 2.x projects to Airflow 3.x and resolving breaking changes.",
+ "whenToUse": "Use when a user is migrating or modernizing Airflow 2.x code to Airflow 3.",
+ "tasks": [
+  "assess airflow 2 code",
+  "identify breaking changes",
+  "update code for airflow 3",
+  "fix compatibility issues"
+ ],
+ "effects": {},
+ "flags": []
+}

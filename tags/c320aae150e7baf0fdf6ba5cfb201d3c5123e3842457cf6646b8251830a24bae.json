@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c320aae150e7baf0fdf6ba5cfb201d3c5123e3842457cf6646b8251830a24bae",
+ "domain": [
+  "robotics/data-management",
+  "software/data"
+ ],
+ "product": [
+  "alloy"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Connects AI coding and chat tools to robotics mission data stored in Alloy.",
+ "whenToUse": "Use when an agent must query or analyze robotics mission logs and data.",
+ "tasks": [
+  "access robotics mission data",
+  "search mission logs",
+  "analyze robot runs"
+ ],
+ "effects": {},
+ "flags": []
+}

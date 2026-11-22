@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "1a307afad7ca6eb969e5b4923a32770aa7ca320bc6100c4c0446d8bad7c522a2",
+ "domain": [
+  "software/modernization",
+  "cloud/migration"
+ ],
+ "product": [
+  "aws",
+  "aws-transform",
+  "amazon-ec2",
+  "amazon-aurora",
+  "dotnet",
+  "vmware",
+  "sql-server"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Migrates and modernizes codebases to AWS, covering .NET, COBOL to Java, VMware to EC2, SQL Server to Aurora and language or SDK upgrades.",
+ "whenToUse": "Use when upgrading legacy code or migrating workloads and databases to AWS.",
+ "tasks": [
+  "upgrade .net framework to .net 8 or 10",
+  "convert cobol to java",
+  "migrate vmware vms to ec2",
+  "migrate sql server to aurora",
+  "upgrade java python and node.js",
+  "upgrade aws sdks",
+  "analyze tech debt",
+  "remediate security issues"
+ ],
+ "effects": {},
+ "flags": []
+}

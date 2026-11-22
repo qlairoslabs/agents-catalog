@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6fb49cbe9f9278f6d8336dace6d5e8028873408bde08d5596be76db5be9b06f2",
+ "domain": [
+  "finance/market-data",
+  "finance/investing"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local database of categorised equities, ETFs, funds, indices, currencies and cryptocurrencies for lookup and screening.",
+ "whenToUse": "Use when an agent needs to find or filter financial instruments by sector, country, industry or category.",
+ "tasks": [
+  "search equities",
+  "search etfs and funds",
+  "look up indices",
+  "list currencies",
+  "list cryptocurrencies",
+  "filter instruments by category"
+ ],
+ "effects": {},
+ "flags": []
+}

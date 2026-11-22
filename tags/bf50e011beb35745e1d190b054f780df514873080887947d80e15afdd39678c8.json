@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bf50e011beb35745e1d190b054f780df514873080887947d80e15afdd39678c8",
+ "domain": [
+  "finance/market-data",
+  "finance/trading"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Quality-checked trading data such as candles, funding, open interest and order flow, paid via x402.",
+ "whenToUse": "Use when a trading agent needs verified crypto or market data and can pay per request.",
+ "tasks": [
+  "get price candles",
+  "get funding rates",
+  "get open interest",
+  "get order flow"
+ ],
+ "effects": {},
+ "flags": []
+}

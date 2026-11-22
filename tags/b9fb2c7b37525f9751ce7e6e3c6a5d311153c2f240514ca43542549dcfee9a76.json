@@ -1,0 +1,22 @@
+{
+ "classifier": 2,
+ "contentHash": "b9fb2c7b37525f9751ce7e6e3c6a5d311153c2f240514ca43542549dcfee9a76",
+ "domain": [
+  "science/data-discovery"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets remote agents discover scientific datasets from a catalog run by the operator.",
+ "whenToUse": "Use when an agent needs to search an operator-managed catalog of scientific datasets.",
+ "tasks": [
+  "search datasets",
+  "browse catalog entries"
+ ],
+ "effects": {},
+ "flags": []
+}

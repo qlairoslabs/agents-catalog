@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "d57b106a7b0db6bc9dbb28400c2f9200cc42414ab099f45f7f8d0301f214f36f",
+ "domain": [
+  "maritime/ais-tracking",
+  "geospatial/vessel-positions"
+ ],
+ "product": [
+  "open-waters-ais",
+  "wikidata"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live AIS vessel positions and tracks by MMSI, name, area or radius, plus network coverage information.",
+ "whenToUse": "Use when you need to locate a ship, see vessels in an area or near a point, or review a vessel's recent track.",
+ "tasks": [
+  "find vessels in area",
+  "find vessels near a point",
+  "get coverage",
+  "get vessel track",
+  "get vessel details",
+  "search vessels by name"
+ ],
+ "effects": {
+  "f1d8d2f63b08427d765d77da14ba6a4891b0adcf9c9c1256b3a317b87384b701": "read",
+  "12a150270cc5985dddcde99a55383531f1042683c31038ad6703922d4fe06449": "read",
+  "920b3a843bc5e1081ececd7b03ce040fbb26929de2cef84b6789a1c3d53783c4": "read",
+  "0380aa5e428af35c34ee56282bed9641957907bf9b530c676788d0ed8b9a6fad": "read",
+  "d3320da6d02630ac65dbf68e29862786d64d9325d5f5e532e4d30c60dfe919dc": "write",
+  "f752dec67a11ce6f8362246f41482f0df201dd6610c4ba36ff4e51a890986eac": "read"
+ },
+ "flags": []
+}

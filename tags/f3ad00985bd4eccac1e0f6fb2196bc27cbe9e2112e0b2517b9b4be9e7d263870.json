@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "f3ad00985bd4eccac1e0f6fb2196bc27cbe9e2112e0b2517b9b4be9e7d263870",
+ "domain": [
+  "software/cloud",
+  "business/startups"
+ ],
+ "product": [
+  "aws",
+  "aws-activate"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Bundled AWS Startups reference content covering Activate credits, programs, sample architectures and learning articles.",
+ "whenToUse": "Use when a user asks factual questions about AWS Activate, credits or programs, or wants an AWS sample architecture or startup learn article.",
+ "tasks": [
+  "answer aws activate faq",
+  "explain credits and programs",
+  "list partner offers",
+  "provide sample architectures",
+  "find startup learn articles",
+  "share case studies"
+ ],
+ "effects": {},
+ "flags": []
+}

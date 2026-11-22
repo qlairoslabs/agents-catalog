@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "127d92a91273a3fbe6178f96b029b94a56a8d7e33f626f825a5895bc3def8148",
+ "domain": [
+  "health/fitness-training",
+  "health/nutrition"
+ ],
+ "product": [
+  "coach-watts"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Remote OAuth MCP server exposing training, nutrition, wellness and performance data.",
+ "whenToUse": "Use when an agent needs an athlete's training, nutrition or wellness data from Coach Watts.",
+ "tasks": [
+  "read training data",
+  "read nutrition data",
+  "read wellness metrics",
+  "analyze performance"
+ ],
+ "effects": {},
+ "flags": []
+}

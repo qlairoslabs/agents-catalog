@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "77b32da7156e7658878ae62719020a452a59cf79700097e9d127e4b8a542989d",
+ "domain": [
+  "software/cybersecurity/threat-modeling",
+  "software/cybersecurity/cloud-security",
+  "business/compliance"
+ ],
+ "product": [
+  "aribot"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Security platform covering threat modeling, code, API and cloud security, shadow-AI detection and compliance governance.",
+ "whenToUse": "Use when assessing the security of code, APIs or cloud setups, or checking compliance and unsanctioned AI use.",
+ "tasks": [
+  "create threat models",
+  "scan code security",
+  "assess api security",
+  "review cloud security",
+  "detect shadow ai",
+  "track compliance"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "d6b3e7c6ae686e6c3d0b50b713db43e4fa644545c126c5a046b9f44c46be7480",
+ "domain": [
+  "construction/estimating"
+ ],
+ "product": [],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Performs construction quantity takeoff from plans: load drawings, set scale, measure, count items and export with provenance.",
+ "whenToUse": "Use when an agent needs to measure or count items on construction drawings to estimate quantities.",
+ "tasks": [
+  "load plans",
+  "set scale",
+  "measure lengths and areas",
+  "count items",
+  "export takeoff"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "241970370118816edca378481fa32363c6ab88c1e8cd756e8381dfca4156277a",
+ "domain": [
+  "software/networking/agent-identity"
+ ],
+ "product": [
+  "whisper"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Assigns each AI agent a routable IPv6 address verifiable via DNS, with some tools usable without signup.",
+ "whenToUse": "Use when an agent needs its own verifiable network identity or IPv6 address.",
+ "tasks": [
+  "assign agent ipv6 address",
+  "verify agent identity via dns"
+ ],
+ "effects": {},
+ "flags": []
+}

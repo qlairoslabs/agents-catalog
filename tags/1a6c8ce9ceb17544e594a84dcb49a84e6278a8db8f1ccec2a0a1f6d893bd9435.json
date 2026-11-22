@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1a6c8ce9ceb17544e594a84dcb49a84e6278a8db8f1ccec2a0a1f6d893bd9435",
+ "domain": [
+  "media/tv-listings"
+ ],
+ "product": [
+  "tf1",
+  "m6"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Christmas TV movies and their French TV broadcast schedules, read-only, in Europe/Paris time.",
+ "whenToUse": "Use when someone wants to find a Christmas TV film or when and on which channel it airs in France.",
+ "tasks": [
+  "search films by title or plot",
+  "get film and upcoming broadcasts",
+  "search broadcasts by date and time",
+  "list channels"
+ ],
+ "effects": {
+  "18c9ef9692ed12d69c8f3dfd14e68fe48975b8a0dd087ab928060d308208b478": "read",
+  "3595b83bab203daa94068740b57571241d5e7b3e3481c19173c4c477e9e6dafe": "read",
+  "9dd1027db839dba0d41696250762ebfd99bae811d0e696dad6e3f66e04abf853": "read",
+  "baea2392b33ec3bdb9ba2058a4a33118f50130a5f88bacc7f2c0b3accfe34df2": "read"
+ },
+ "flags": []
+}

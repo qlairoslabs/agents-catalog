@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "78c9f45f3c8241dc40e157ba6681eefe4691e3373f860ae273337e9858410948",
+ "domain": [
+  "media/video-generation",
+  "marketing/social-media"
+ ],
+ "product": [
+  "shortgenius",
+  "tiktok",
+  "youtube",
+  "instagram",
+  "facebook",
+  "x"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Generates AI short-form videos and publishes them automatically to TikTok, YouTube, Instagram, Facebook and X.",
+ "whenToUse": "Use when an agent needs to create short videos and post them to social platforms.",
+ "tasks": [
+  "generate short video",
+  "publish to tiktok",
+  "publish to youtube",
+  "publish to instagram",
+  "publish to facebook",
+  "publish to x"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "94c81624bd2e8a2dc49c7c3085c4efed440d0be3fd259cf8317f85bb7d205c73",
+ "domain": [
+  "software/server-hosting",
+  "gaming/game-servers"
+ ],
+ "product": [
+  "fadehost",
+  "discord"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Manages FadeHost game servers, Discord bots and VPS: console, stats, backups, logs and lifecycle.",
+ "whenToUse": "Use when an agent needs to operate or monitor game servers, Discord bots or VPS hosted on FadeHost.",
+ "tasks": [
+  "run console commands",
+  "view stats",
+  "manage backups",
+  "read logs",
+  "start stop restart servers"
+ ],
+ "effects": {},
+ "flags": []
+}

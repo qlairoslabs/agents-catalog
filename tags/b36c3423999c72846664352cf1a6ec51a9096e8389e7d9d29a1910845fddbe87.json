@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b36c3423999c72846664352cf1a6ec51a9096e8389e7d9d29a1910845fddbe87",
+ "domain": [
+  "search/web-search",
+  "research"
+ ],
+ "product": [
+  "exa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Official Exa server for web search, fetching page contents and running multi-step research.",
+ "whenToUse": "Use when an agent needs current information from the web or to research a topic across multiple sources.",
+ "tasks": [
+  "search the web",
+  "fetch page content",
+  "run multi-step research"
+ ],
+ "effects": {},
+ "flags": []
+}

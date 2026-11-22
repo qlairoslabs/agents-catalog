@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "40286baf73ad749eff0c2f949fd63315e3dbc27ee9a2ec37680768d29e9ef714",
+ "domain": [
+  "home-improvement/outdoor-kitchen",
+  "retail"
+ ],
+ "product": [
+  "casabella",
+  "alfresco",
+  "dcs",
+  "lynx",
+  "hestan"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Guides planning of built-in grills and outdoor kitchens with MSRP pricing, layouts, 3D render access and dealer quote requests.",
+ "whenToUse": "Use when a user is shopping for a built-in grill or outdoor kitchen and wants prices, a layout, a render or a dealer quote.",
+ "tasks": [
+  "start guided planning",
+  "list grill brands",
+  "search built-in grills",
+  "list cabinets",
+  "explain layouts",
+  "price a straight design",
+  "get suggestions",
+  "open 3D designer for render",
+  "request dealer quote"
+ ],
+ "effects": {
+  "cf3ee1d0c98b17fe12af115bb410c9b4aae3bd3b5e9a79d1979777227949a061": "write",
+  "b8705827de0f9693ff017acd1b3e3b7e94b25891c419c4ff9fa0225e9606d4f6": "read",
+  "2646fc7f02d194b476bd7141210846da52bc0aa41c7611a5b71907bdf8987e64": "write",
+  "4ce63ed8c1d31261352428239c5ae8ca16a0ff1cd7003c64b64c0f95e1dc548d": "read",
+  "f443aff3b32285db84adf27152689a717b9324bb07b510dad80e18726b815b64": "write",
+  "b8169ec681138dc8fc0364cb811115fc45ccd829f946cfa505a1d5b20ed7805e": "write",
+  "26290d30533668d7a07f9316d9520738deb39a6060646bd8e2be91a4bab53308": "write",
+  "1a51db060b263d548bb392db74df431f15f1e446acea51655b994ecbbd0d06f8": "write",
+  "1aa49ee547986bd0169ab3173acb5884816352ddb9c6dd4e98e45ba761acb138": "write"
+ },
+ "flags": []
+}

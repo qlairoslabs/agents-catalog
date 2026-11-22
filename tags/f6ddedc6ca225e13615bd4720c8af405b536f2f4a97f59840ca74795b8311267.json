@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f6ddedc6ca225e13615bd4720c8af405b536f2f4a97f59840ca74795b8311267",
+ "domain": [
+  "software/integration-platform",
+  "productivity/office-suite",
+  "health/wearables"
+ ],
+ "product": [
+  "toolforest",
+  "google-workspace",
+  "fitbit",
+  "oura",
+  "kalshi"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Hosted MCP server bundling over 15 toolkits such as Google Workspace, Fitbit, Oura and Kalshi with managed OAuth.",
+ "whenToUse": "Use when an agent needs access to several third-party services like Google Workspace or wearables through one hosted connection.",
+ "tasks": [
+  "connect google workspace",
+  "read fitbit data",
+  "read oura data",
+  "access kalshi",
+  "manage oauth connections"
+ ],
+ "effects": {},
+ "flags": []
+}

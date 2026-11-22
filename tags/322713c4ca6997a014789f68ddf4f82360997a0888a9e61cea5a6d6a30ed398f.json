@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "322713c4ca6997a014789f68ddf4f82360997a0888a9e61cea5a6d6a30ed398f",
+ "domain": [
+  "software/ai-tool-directory"
+ ],
+ "product": [
+  "one-ai-guide"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only catalogue of approved AI tools, public stacks and guides with evidence-aware comparison of tools.",
+ "whenToUse": "Use when a user is choosing AI tools and wants profiles, stacks, guides or a side-by-side comparison.",
+ "tasks": [
+  "search tools",
+  "get tool",
+  "list stacks",
+  "get stack",
+  "list guides",
+  "get guide",
+  "compare tools"
+ ],
+ "effects": {
+  "224dba5ad2687f01e4c264255a42c1f8b940a4b6ab52459e74841f4fe1a57482": "read",
+  "d02a3ac560f4ab9129a63fbf41ff35b45ca82fb62d52f4310f8cfabd01747a9f": "read",
+  "e4bd2deecf59699c73a474475cb3ab66ef89739457044c75d625d5d889eb018c": "read",
+  "49b9239056602b9ee089fbfd8eb8cf51fccd5ab79502d9ce619bf3c0a563ce41": "read",
+  "2fef76feaeec3822629fb865967a2b063ba5620f5010a6fc8128df5a603ae15f": "read",
+  "92d7e751f74df882195e462e7978206adc0475fdc6d8b1ffe8542c34670bd1db": "read",
+  "92b8a23f66643726bf8bf9e83b3496e4b5457134996691d0d8365d454051afb9": "read"
+ },
+ "flags": []
+}

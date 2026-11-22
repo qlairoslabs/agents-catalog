@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "afac93a683a572dfcde459b0c2d532d1a87072054fbc1a7dc94f7160927cb52b",
+ "domain": [
+  "software/low-code-database",
+  "data/querying"
+ ],
+ "product": [
+  "quickbase"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Lets users query Quickbase apps in natural language, read-only by default with human-approved writes.",
+ "whenToUse": "Use when an agent needs to look up or, with approval, update records in Quickbase apps.",
+ "tasks": [
+  "query quickbase apps",
+  "read records",
+  "update records with approval"
+ ],
+ "effects": {},
+ "flags": []
+}

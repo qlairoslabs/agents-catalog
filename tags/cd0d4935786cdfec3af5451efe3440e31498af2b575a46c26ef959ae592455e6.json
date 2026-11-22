@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cd0d4935786cdfec3af5451efe3440e31498af2b575a46c26ef959ae592455e6",
+ "domain": [
+  "finance/crypto/derivatives-research",
+  "finance/trading/backtesting"
+ ],
+ "product": [
+  "edgedepth"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Tests claims about crypto perpetual futures against recorded event counts, baselines and historical replay.",
+ "whenToUse": "Use when you need to check whether a crypto perpetuals trading claim or pattern holds up against recorded data.",
+ "tasks": [
+  "test crypto perpetual claims",
+  "compare against baselines",
+  "replay recorded market data",
+  "count historical occurrences"
+ ],
+ "effects": {},
+ "flags": []
+}

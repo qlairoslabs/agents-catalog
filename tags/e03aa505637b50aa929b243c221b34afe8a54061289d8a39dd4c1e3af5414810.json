@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e03aa505637b50aa929b243c221b34afe8a54061289d8a39dd4c1e3af5414810",
+ "domain": [
+  "software/cybersecurity/api-security",
+  "software/developer-tools/setup"
+ ],
+ "product": [
+  "42crunch"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Sets up the 42Crunch environment, installing the 42c-ast binary and configuring API keys for audits and scans.",
+ "whenToUse": "Use when the user needs to install or configure 42Crunch or troubleshoot missing binaries or credentials.",
+ "tasks": [
+  "install 42c-ast binary",
+  "update 42c-ast",
+  "configure api key",
+  "troubleshoot credentials",
+  "troubleshoot binary errors"
+ ],
+ "effects": {},
+ "flags": []
+}

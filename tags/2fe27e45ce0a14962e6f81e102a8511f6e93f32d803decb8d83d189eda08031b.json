@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2fe27e45ce0a14962e6f81e102a8511f6e93f32d803decb8d83d189eda08031b",
+ "domain": [
+  "health/mental-health",
+  "health/self-assessment"
+ ],
+ "product": [
+  "freudly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a catalogue of psychological self-assessment tests in English, Spanish and Russian and returns details and links.",
+ "whenToUse": "Use when a person wants to find a psychological self-test such as for anxiety, burnout or personality.",
+ "tasks": [
+  "search psychological tests",
+  "filter by topic",
+  "filter by language",
+  "filter by duration",
+  "get test details",
+  "get test link"
+ ],
+ "effects": {
+  "b589c35cf3c6114eaf952cfc3a2ea647bd88f4371dbc4f54844bbcfd56a1c287": "read",
+  "7c24f5f9a0159f85684152a4ea8fd0d575bec8950b6f5e0359cfcb4780f211ae": "read"
+ },
+ "flags": []
+}

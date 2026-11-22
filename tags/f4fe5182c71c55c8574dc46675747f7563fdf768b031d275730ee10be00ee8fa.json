@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f4fe5182c71c55c8574dc46675747f7563fdf768b031d275730ee10be00ee8fa",
+ "domain": [
+  "software/ai-agents/memory",
+  "software/project-management"
+ ],
+ "product": [
+  "stele"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Shared project memory graph for coding agents holding decisions, lessons, risks and tasks.",
+ "whenToUse": "Use when coding agents need to record or recall project decisions, lessons, risks and tasks.",
+ "tasks": [
+  "record decisions",
+  "record lessons",
+  "track risks",
+  "track tasks",
+  "query project memory"
+ ],
+ "effects": {},
+ "flags": []
+}

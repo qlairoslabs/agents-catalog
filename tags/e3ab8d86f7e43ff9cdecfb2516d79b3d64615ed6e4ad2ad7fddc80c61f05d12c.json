@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "e3ab8d86f7e43ff9cdecfb2516d79b3d64615ed6e4ad2ad7fddc80c61f05d12c",
+ "domain": [
+  "finance/tokenized-assets",
+  "crypto"
+ ],
+ "product": [
+  "xrade",
+  "dinari",
+  "xstocks",
+  "robinhood"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Looks up what legal rights a tokenised asset gives holders, by token address, stock ticker or issuing wrapper.",
+ "whenToUse": "Use before trading a tokenised stock to check its legal wrapper and holder entitlements.",
+ "tasks": [
+  "look up token by contract",
+  "look up stock tokens",
+  "read wrapper legal record",
+  "check coverage"
+ ],
+ "effects": {
+  "2730f74cc24cfb8531db8d2597365ec927cc70a7a2ef2e537671abc81c71af28": "read",
+  "d974e9c06db73faada23df4f8b2eb0ec73848c6cec811807f1a2b170d69810ac": "read",
+  "9a6f3e9d96372254cedf3e96265d32e1ab4adcfe2168f6b1c9ed2dd3fa866ac2": "read",
+  "0d3f33798a4194e262317d2774990783b70f58c88cadc5df4c614d1ac00dfb8c": "read"
+ },
+ "flags": []
+}

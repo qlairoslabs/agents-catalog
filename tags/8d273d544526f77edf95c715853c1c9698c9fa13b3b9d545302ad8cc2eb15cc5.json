@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8d273d544526f77edf95c715853c1c9698c9fa13b3b9d545302ad8cc2eb15cc5",
+ "domain": [
+  "software/testing",
+  "software/resilience"
+ ],
+ "product": [
+  "electron"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Injects read failures into web and Electron test apps and compares recovery behavior before and after.",
+ "whenToUse": "Use when testing how a web or Electron app recovers from failed data reads.",
+ "tasks": [
+  "inject read failures",
+  "inspect app recovery",
+  "compare before and after evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

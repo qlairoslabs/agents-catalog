@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "910df7353528a12e1d32db96a61d42bfbf7286aa8b7516e99877fc74bfdb3ec2",
+ "domain": [
+  "travel/esim",
+  "telecom"
+ ],
+ "product": [
+  "simoptions"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Finds and compares SimOptions travel eSIM plans by destination, and checks whether a phone supports eSIM.",
+ "whenToUse": "Use when a traveller needs an eSIM plan or wants to verify device eSIM compatibility.",
+ "tasks": [
+  "search destinations",
+  "find plans with filters",
+  "check device eSIM compatibility"
+ ],
+ "effects": {
+  "cd458b3ca2ea3a7472c4c82315a824d64303ecc9cf7a7679796a2bd708a775a4": "read",
+  "d4492389095b025b89ea872192faa411b5f36645dd677e4015698aa82ca8ffca": "write",
+  "cf5e9c2acbbc3db21e82cf0e7589c9df0de490080abd4faed874020ef2fbf358": "read"
+ },
+ "flags": []
+}

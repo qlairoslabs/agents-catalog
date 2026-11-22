@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6250792f22d6aef309e0cfa109b8e2bd7de8ca4a72307a780f40a4a4ae769986",
+ "domain": [
+  "documents/pdf-generation"
+ ],
+ "product": [
+  "pdfbroker"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Generates PDFs in the cloud from HTML, CSS or XSL-FO, including PDF/A and PDF/UA output.",
+ "whenToUse": "Use when an agent needs to render documents to PDF, including archival or accessible formats.",
+ "tasks": [
+  "html to pdf",
+  "xsl-fo to pdf",
+  "create pdf/a",
+  "create pdf/ua"
+ ],
+ "effects": {},
+ "flags": []
+}

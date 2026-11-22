@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "c269e159a6e8f414f5c717a0d94a63887c132380a970fae67ce9b97543e9e8d6",
+ "domain": [
+  "travel/tourism/south-korea"
+ ],
+ "product": [
+  "stamptour"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds Korean GPS stamp-tour travel events by region, place or coordinates, with stamp spots, gift tiers and notices.",
+ "whenToUse": "Use when a user is travelling in Korea and wants to find stamp-tour events near a place or location.",
+ "tasks": [
+  "search stamp tours by name or region",
+  "get tour spots and gift tiers",
+  "find tours near coordinates",
+  "get app install info"
+ ],
+ "effects": {
+  "bb69bca3f8f8043b418f094755fab2d065c61ed00f7491a40aa7f6f4867f69ec": "read",
+  "e74fc16e4802bc5379cfc165ceab81e7240052a3468086658f9b2a2900455de1": "read",
+  "a731f4c5e85b9ac122b2b73ebe9ba5d40fc0d0b3db4d7d2ef42bed8422da6ab1": "read",
+  "be9f089e1f09cb58bc3bfc44d4116b48cb8f36849eeb3429ba1b81eee2cb7995": "read"
+ },
+ "flags": []
+}

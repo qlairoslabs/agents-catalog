@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "dfa994e3b7d4e6f93b838dfd4c19553ff2c879cd07228c56140684f1f1d3ee67",
+ "domain": [
+  "field-service/scheduling",
+  "sales/lead-management"
+ ],
+ "product": [
+  "speed-to-lead"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Field-service tools for checking slot feasibility, drive time and service area, parsing leads and booking jobs.",
+ "whenToUse": "Use when a field-service business agent must qualify a lead and book a feasible appointment.",
+ "tasks": [
+  "check slot feasibility",
+  "calculate drive time",
+  "check service area",
+  "parse lead",
+  "book appointment"
+ ],
+ "effects": {},
+ "flags": []
+}

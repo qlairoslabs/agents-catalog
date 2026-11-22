@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "78a00a0beb9a2a9f37f9f28dd61f0743f248d62a399c99a715a29ed1096685d3",
+ "domain": [
+  "data/data-warehouses",
+  "data/analytics"
+ ],
+ "product": [
+  "bigquery",
+  "snowflake",
+  "redshift",
+  "azure-synapse"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries BigQuery, Snowflake, Redshift and Azure Synapse data warehouses using natural language.",
+ "whenToUse": "Use when answering data questions from a cloud data warehouse without writing SQL by hand.",
+ "tasks": [
+  "query bigquery",
+  "query snowflake",
+  "query redshift",
+  "query azure synapse",
+  "translate questions to sql"
+ ],
+ "effects": {},
+ "flags": []
+}

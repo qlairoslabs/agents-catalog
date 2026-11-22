@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "28f7411d632053fdc2daf0bc06a5a2153afb4160569ea4499b27c04baa36f748",
+ "domain": [
+  "documents/presentations"
+ ],
+ "product": [
+  "microsoft-powerpoint"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates, edits, merges, translates and converts PowerPoint files to PDF.",
+ "whenToUse": "Use when an agent needs to create or manipulate .pptx presentations.",
+ "tasks": [
+  "generate pptx",
+  "edit pptx",
+  "merge decks",
+  "translate deck",
+  "convert to pdf"
+ ],
+ "effects": {},
+ "flags": []
+}

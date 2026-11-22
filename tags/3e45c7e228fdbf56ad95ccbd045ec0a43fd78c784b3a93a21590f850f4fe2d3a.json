@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3e45c7e228fdbf56ad95ccbd045ec0a43fd78c784b3a93a21590f850f4fe2d3a",
+ "domain": [
+  "personal/context",
+  "ai/agent-memory"
+ ],
+ "product": [
+  "dayze",
+  "x402"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Supplies agents with a user's personal life context pack and public notable packs, accessed via OAuth or x402 payments.",
+ "whenToUse": "Use when an agent needs background context about a user's life to personalize its help.",
+ "tasks": [
+  "get personal context pack",
+  "browse public notable packs"
+ ],
+ "effects": {},
+ "flags": [
+  "uses x402 payments for access"
+ ]
+}

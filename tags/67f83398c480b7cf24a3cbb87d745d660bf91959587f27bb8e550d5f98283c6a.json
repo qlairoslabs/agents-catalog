@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "67f83398c480b7cf24a3cbb87d745d660bf91959587f27bb8e550d5f98283c6a",
+ "domain": [
+  "finance/market-data"
+ ],
+ "product": [
+  "twmd"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only Taiwan stock market datasets from official sources with point-in-time accuracy.",
+ "whenToUse": "Use when analysing or backtesting with Taiwan stock market data.",
+ "tasks": [
+  "get taiwan stock prices",
+  "get point-in-time datasets",
+  "query official market data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3c4cef38a44d1a54e1d0120bb5922be0c116f6ef4e0081699492dbf2c49caa2f",
+ "domain": [
+  "fitness/personal-training",
+  "business/client-management"
+ ],
+ "product": [
+  "trainer-connect"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid",
+  "support-customers"
+ ],
+ "summary": "Manages a personal trainer's students, workouts, appointments and payments in Trainer Connect.",
+ "whenToUse": "Use when a personal trainer using Trainer Connect wants to manage clients, workouts or bookings.",
+ "tasks": [
+  "manage students",
+  "manage workouts",
+  "manage appointments",
+  "track payments"
+ ],
+ "effects": {},
+ "flags": []
+}

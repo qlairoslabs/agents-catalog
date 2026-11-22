@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4bd16bf95b207496d246f185d4d9f3705adae6519c0202bd006c416ab4a7316f",
+ "domain": [
+  "commerce/price-comparison",
+  "commerce/shopping"
+ ],
+ "product": [
+  "deal-ai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Shopping assistant that compares prices across US stores, checks deals and tracks price changes.",
+ "whenToUse": "Use when a user wants to compare product prices, judge whether a deal is good or watch a price.",
+ "tasks": [
+  "ask shopping agent",
+  "compare store prices",
+  "check a deal",
+  "watch prices"
+ ],
+ "effects": {},
+ "flags": []
+}

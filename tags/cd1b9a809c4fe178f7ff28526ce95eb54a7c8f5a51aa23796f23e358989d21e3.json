@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cd1b9a809c4fe178f7ff28526ce95eb54a7c8f5a51aa23796f23e358989d21e3",
+ "domain": [
+  "infrastructure/iac/visualization",
+  "software/devops"
+ ],
+ "product": [
+  "terraform"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Builds a graph of an infrastructure repository from its files, drawing Terraform roots without needing state.",
+ "whenToUse": "Use when an agent needs to understand how a Terraform repo's roots and modules relate.",
+ "tasks": [
+  "graph infrastructure repo",
+  "draw terraform roots"
+ ],
+ "effects": {},
+ "flags": []
+}

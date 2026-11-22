@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "977c54b626914821069fd29adca8493a77bc04113f44b161cfb459c3a0646c21",
+ "domain": [
+  "transportation/trucking/fuel",
+  "logistics"
+ ],
+ "product": [
+  "valverideflow"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides live US diesel prices and plans fuel stops along trucking routes to reduce fuel cost.",
+ "whenToUse": "Use when planning truck routes and deciding where to buy diesel at the best price.",
+ "tasks": [
+  "get live diesel prices",
+  "plan fuel stops along a route",
+  "get free price snapshot"
+ ],
+ "effects": {},
+ "flags": []
+}

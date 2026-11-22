@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ec48fb5d71e7ffdb6e7c97c37133e209001d8f723dbfd9b856c8681aa64a71dc",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local-first agent memory with sourced recall, answer checking, document storage and governance.",
+ "whenToUse": "Use when an agent needs persistent local memory with source-backed recall.",
+ "tasks": [
+  "store memories",
+  "recall with sources",
+  "check answers",
+  "store documents",
+  "govern memory"
+ ],
+ "effects": {},
+ "flags": []
+}

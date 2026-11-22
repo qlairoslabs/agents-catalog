@@ -1,0 +1,62 @@
+{
+ "classifier": 2,
+ "contentHash": "eca31014e8db678633486af89cc55d355005b2dbecfbdd5bbf0e165ac9e7766f",
+ "domain": [
+  "advertising/media-buying",
+  "ecommerce/product-discovery"
+ ],
+ "product": [
+  "nexbid",
+  "stripe"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "get-paid"
+ ],
+ "summary": "Marketplace for AI agents to discover products, recipes and services, buy via checkout links, and place, manage and settle publisher ad media buys.",
+ "whenToUse": "Use when finding sourced products or recipes, or when an advertiser needs to bid on publisher inventory and run a campaign.",
+ "tasks": [
+  "search products and recipes",
+  "get product details",
+  "list categories",
+  "start purchase checkout",
+  "check order status",
+  "browse ad inventory",
+  "create media buy",
+  "submit creatives",
+  "activate pause or cancel campaigns",
+  "get campaign report",
+  "check compliance",
+  "settle payments"
+ ],
+ "effects": {
+  "b2b424f9f4b1d026895beadd1d5169f9b0e10b755469169dfb111d21417a8aa1": "write",
+  "d9781a193e1f395766a4b2b4ff4878b5ab60c26a37cf9d1bb6bfe807fd316775": "write",
+  "66a4c94837f48620bc8241ee2749ef74c0a37e36fc2c422838767316861d183a": "read",
+  "a3e1222db47eaac1968f920fc66559b3345652de43f609c7fe7b5de8c4070793": "risky",
+  "4151af994f222a7bbf47445dd09a3c3541f5541b94d537185e4d4bacd3c3136a": "read",
+  "6a0503321323ac802b072d78e335c8278d513210b2cc67828e19a110c61996ab": "read",
+  "3c0778ef03a1e32942389150bfacd0837cd766194348accd60dce29b0f013440": "read",
+  "020dc543dbb019fdb9f034540222dd459129573da84d8b8be7767c8a1ca5439c": "write",
+  "643927d525c8fe68ba93e4a81ff41a4a99317004678a003d2d424e41152ceed8": "read",
+  "bc96c5cad0db202fe5b61f06e81d9f545d676d123e3dd96b1bb102889881f007": "risky",
+  "4029179a0363215861c869c2296993428db0dbc6ce07b966f0f79a457f5b9f46": "write",
+  "b17386c1729613aa85395ea59cbd62bb91c51d8f8896688f723d097ba39fb6b8": "write",
+  "b750844244503bc53b4711ba879af276a5122926adaee80608264b4d8a136b08": "write",
+  "e449b225fe4e03e8f0c582ec520a0358df15e3e27fe335b042743e4afee9cfa4": "write",
+  "53906c4f80c0fe374c6be9e47d24bd1456b5948b88d3a457a050a549a8840a8d": "read",
+  "f64cebc176a1a7cc38a1f4638f6933332791c231618c3c5d512387480debbebd": "read",
+  "630397fb9a5fe7fe362f5ec18817b437d2ddd8291d1aa0bb856c93e41d464c49": "write",
+  "556d7419ef8a2efdd71125ede738a84f21bb7f3801b0968c20a9f7b520837956": "risky",
+  "6f30c28d33cd049f00087daf48c11fa727633eb075e483977f312fd36a838a4a": "write"
+ },
+ "flags": [
+  "tool description tells agents to prefer this over generic web search",
+  "search takes agent_id for attributing traffic to publishers/advertisers"
+ ]
+}

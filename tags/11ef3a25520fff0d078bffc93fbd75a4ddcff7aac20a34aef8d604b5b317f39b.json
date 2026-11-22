@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "11ef3a25520fff0d078bffc93fbd75a4ddcff7aac20a34aef8d604b5b317f39b",
+ "domain": [
+  "communication/email/transactional",
+  "marketing/email"
+ ],
+ "product": [
+  "sendgrid"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Unofficial MCP server wrapping the SendGrid v3 API for email sending and management.",
+ "whenToUse": "Use when an agent needs to send email or manage SendGrid resources through its v3 API.",
+ "tasks": [
+  "send email",
+  "call sendgrid v3 api"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "48d6907fd721f5743ef3c314082f8c1ede1aee2b7f9282a184360f3f3291bbf9",
+ "domain": [
+  "media/video/knowledge-base",
+  "search/semantic-search"
+ ],
+ "product": [
+  "seendb"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Searchable knowledge base over a video library's transcripts, keyframes and on-screen text.",
+ "whenToUse": "Use when an agent needs to find what was said or shown inside a user's videos.",
+ "tasks": [
+  "search video transcripts",
+  "search keyframes",
+  "search on-screen text"
+ ],
+ "effects": {},
+ "flags": []
+}

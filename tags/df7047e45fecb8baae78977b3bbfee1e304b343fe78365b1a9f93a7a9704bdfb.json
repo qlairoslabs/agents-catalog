@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "df7047e45fecb8baae78977b3bbfee1e304b343fe78365b1a9f93a7a9704bdfb",
+ "domain": [
+  "finance/stock-market",
+  "data/sql"
+ ],
+ "product": [
+  "shibui",
+  "sec-edgar",
+  "nyse",
+  "nasdaq"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "SQL access to 64 years of US equity prices, financials, technical indicators, earnings and SEC filing data, with workflow guides and Excel export.",
+ "whenToUse": "Use when analysing US-listed stocks: screening, valuation, technicals, earnings surprises, insider filings or backtests.",
+ "tasks": [
+  "query stock data with SQL",
+  "load database schema",
+  "load query patterns",
+  "fundamental analysis",
+  "technical analysis",
+  "screen stocks",
+  "compare companies",
+  "earnings analysis",
+  "backtest strategies",
+  "SEC filing and insider lookups",
+  "export to Excel"
+ ],
+ "effects": {
+  "081e56d5cb60cbe5061e69d5df06abf943e9151788299302f92634d17768d2d5": "read",
+  "5e71c4402507a4fdfc36631aea10280283fac3b996781b63491d29dea312ff89": "write",
+  "23d471f50780ea3a0d1013d1b2696016cfddb962c44d79e1a0beddcd7ee45545": "read",
+  "14c7b57f4c4cf0278bece0a3c4dbcb1aea0dca19a1ba503ab1e1b04b75f064af": "read",
+  "e9720e08703b3b8c7448e4ffd4e8bb9cea2a897ef61c1a3052fc1da676d0da60": "read",
+  "127459cc03add5293bcd9dfe41ee1c19f49e627cbda9088d27dcad934e311c79": "read",
+  "a47f9b8f4a23675ab76227d948aa186046bb7e16d039b95509221f1c83318059": "read",
+  "f4c15623934648e314272cb72910920a4d19fb6e0207fa2b50477fc06f6ae0f2": "read",
+  "b1edf87179f56f9dc1ac60ccb0e421f18ec3651eac671c8508af691a9f8ff414": "read",
+  "b19a7a125f8f056d4bf25f36095dea21372904a9246da0a086466ca43bde8292": "write",
+  "e853b736b6a0222dc92598c32fd75803ce0f460a56272cde64d6ef42eec27389": "read",
+  "a7f8574ad6b85c6d36ac737c61898a9b11e1dc8efbd739916b7a79471ce8d3f6": "write"
+ },
+ "flags": [
+  "requires sending the user's verbatim prompt to the service on each query"
+ ]
+}

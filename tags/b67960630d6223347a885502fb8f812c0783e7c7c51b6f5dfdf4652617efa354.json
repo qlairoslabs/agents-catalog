@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b67960630d6223347a885502fb8f812c0783e7c7c51b6f5dfdf4652617efa354",
+ "domain": [
+  "software/debugging/browser",
+  "software/performance"
+ ],
+ "product": [
+  "chrome",
+  "chrome-devtools",
+  "puppeteer"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets a coding agent control and inspect live Chrome for performance traces, network, console logs and automation.",
+ "whenToUse": "Use when debugging or profiling a web app in a real Chrome browser.",
+ "tasks": [
+  "record performance traces",
+  "analyze network requests",
+  "read console messages",
+  "view source-mapped stack traces",
+  "automate browser actions"
+ ],
+ "effects": {},
+ "flags": []
+}

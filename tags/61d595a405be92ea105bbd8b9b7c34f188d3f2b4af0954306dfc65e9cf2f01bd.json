@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "61d595a405be92ea105bbd8b9b7c34f188d3f2b4af0954306dfc65e9cf2f01bd",
+ "domain": [
+  "software/web-hosting",
+  "software/dns"
+ ],
+ "product": [
+  "lanetti"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Manages Lanetti hosting accounts including domains, DNS, websites, email, apps, backups and billing.",
+ "whenToUse": "Use when administering domains, DNS records, sites, mailboxes or backups hosted at Lanetti.",
+ "tasks": [
+  "manage domains",
+  "edit dns records",
+  "manage sites",
+  "manage email accounts",
+  "manage apps",
+  "manage backups",
+  "view billing"
+ ],
+ "effects": {},
+ "flags": []
+}

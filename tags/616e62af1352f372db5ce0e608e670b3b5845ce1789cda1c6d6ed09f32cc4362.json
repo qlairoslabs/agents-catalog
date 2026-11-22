@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "616e62af1352f372db5ce0e608e670b3b5845ce1789cda1c6d6ed09f32cc4362",
+ "domain": [
+  "software/browser-automation",
+  "software/testing",
+  "data/web-scraping"
+ ],
+ "product": [
+  "selenium",
+  "chrome-devtools-protocol"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Browser automation, testing and scraping through SeleniumBase, including a stealth CDP mode.",
+ "whenToUse": "Use when an agent needs to drive a real browser for testing or extracting web content.",
+ "tasks": [
+  "automate browser",
+  "run web tests",
+  "scrape pages",
+  "use cdp mode"
+ ],
+ "effects": {},
+ "flags": [
+  "advertises stealth automation intended to evade bot detection"
+ ]
+}

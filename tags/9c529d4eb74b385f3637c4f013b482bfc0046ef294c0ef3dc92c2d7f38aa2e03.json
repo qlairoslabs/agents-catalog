@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9c529d4eb74b385f3637c4f013b482bfc0046ef294c0ef3dc92c2d7f38aa2e03",
+ "domain": [
+  "software/cybersecurity/ai-governance"
+ ],
+ "product": [
+  "mcp-hangar"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Local policy layer for MCP that pins tools, holds risky calls for review and enforces egress rules.",
+ "whenToUse": "Use when governing which MCP tool calls agents may make and controlling outbound network access.",
+ "tasks": [
+  "pin tools",
+  "hold risky calls",
+  "enforce egress policy"
+ ],
+ "effects": {},
+ "flags": []
+}

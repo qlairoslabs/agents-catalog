@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "5409fc509c215022ee1ed80865b27d0944d01ac5ebb30d75a8b09809a752e677",
+ "domain": [
+  "hr/job-search",
+  "labor-market/norway"
+ ],
+ "product": [
+  "kollegia",
+  "nav",
+  "ssb"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Search active Norwegian job listings, view ads, employer openings and SSB-based salary statistics by occupation.",
+ "whenToUse": "Use when a user wants jobs, employers or salary levels in Norway.",
+ "tasks": [
+  "search jobs",
+  "get job details",
+  "look up occupation salary",
+  "list employer jobs",
+  "free-text job search",
+  "fetch full ad"
+ ],
+ "effects": {
+  "10f3bace3f17e101966bbbb95b8d30870fd631a58aa45522e9bcfdaa0d6ca64f": "read",
+  "6d2f0ee1283b3ec466ea9e3ea7e3ff7f0e9cafc8da6638679028dca894150959": "read",
+  "ecefd0f2fda131f6e52825e7b289d89acb35749576cd0f170c062b3329465ae4": "read",
+  "3d7175380fface356342c818e8afdc8b2382d3b6791b8bc6427df9c0934f8648": "read",
+  "e6a5fddad06c6262dc4fb664297629abd1fd8ce9d5d18aed1b9e59c6e034aac5": "read",
+  "4c8621e6a452cc13ad3e6f8f1a98f735c768ecc3f9bc9e9348cf1efb2be242b7": "read"
+ },
+ "flags": []
+}

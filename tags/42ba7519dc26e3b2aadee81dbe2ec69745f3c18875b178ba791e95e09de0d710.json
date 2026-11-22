@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "42ba7519dc26e3b2aadee81dbe2ec69745f3c18875b178ba791e95e09de0d710",
+ "domain": [
+  "sales/lead-enrichment",
+  "sales/prospecting"
+ ],
+ "product": [
+  "apollo-io",
+  "linkedin"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Looks up a person from a name, company, LinkedIn URL or email and returns contact and company details.",
+ "whenToUse": "Use when you need contact details and company info for a single lead.",
+ "tasks": [
+  "enrich lead from name or email",
+  "enrich from linkedin url",
+  "find email and phone",
+  "get title and company info",
+  "suggest next actions"
+ ],
+ "effects": {},
+ "flags": []
+}

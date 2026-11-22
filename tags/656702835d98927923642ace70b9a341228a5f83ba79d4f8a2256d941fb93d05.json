@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "656702835d98927923642ace70b9a341228a5f83ba79d4f8a2256d941fb93d05",
+ "domain": [
+  "events/ticketing"
+ ],
+ "product": [
+  "simpleticket"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Merchant backoffice for SimpleTicket covering events, ticket sales, transactions, email and reporting.",
+ "whenToUse": "Use when a SimpleTicket merchant needs to manage events, review sales or transactions, send mail or pull reports.",
+ "tasks": [
+  "manage events",
+  "review ticket sales",
+  "view transactions",
+  "send mail",
+  "run reports"
+ ],
+ "effects": {},
+ "flags": []
+}

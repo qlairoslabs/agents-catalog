@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "1fd45a1caa0c31b368f307a83250c0f632587060e6f0957753ab11a8579670d7",
+ "domain": [
+  "software/cybersecurity",
+  "be-online/seo"
+ ],
+ "product": [
+  "astraverify"
+ ],
+ "audience": [
+  "operations",
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scores a domain's email security (SPF, DKIM, DMARC) and search/AI discoverability, listing ranked fixes.",
+ "whenToUse": "Use when checking a domain's email authentication, crawlability or AI-readiness and what to fix.",
+ "tasks": [
+  "check email security",
+  "check discoverability",
+  "get combined report",
+  "fetch as crawler",
+  "verify fix"
+ ],
+ "effects": {
+  "5675c227fdaa7ab117cb3b8d540ddf2dbbeff9de3a12977132ed2a259216a3bb": "write",
+  "738e9318f6778a4dd160834a0e59ddf5c7e6144e6f81797abdd4c909ec2221ed": "write",
+  "78ccd24aa5d6ef573282354af0e01cb463c13726bfdac66a2609ec41d135b572": "write",
+  "b744cf3adb9cb9c49df078bce6e8e5eb07b67e5a6850b5f5baa045431252788a": "write",
+  "80d31c923449107688e6ef1adeedd92a4eccdbc14da71696b7dd9489d677c14f": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f6b9e65ec546bb6073ce34c87c51cf5f25c39e9340729df021bfdea121096847",
+ "domain": [
+  "travel/trip-tracking",
+  "finance/tax-residency"
+ ],
+ "product": [
+  "tripledger"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Travel log of journeys, stays and expenses that counts tax-residency days and Schengen 90/180 limits.",
+ "whenToUse": "Use when a traveller needs to record trips and expenses or check residency day counts and Schengen allowance.",
+ "tasks": [
+  "log journeys",
+  "log stays",
+  "track travel expenses",
+  "count tax-residency days",
+  "check schengen 90/180 rule"
+ ],
+ "effects": {},
+ "flags": []
+}

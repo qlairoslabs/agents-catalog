@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "2fcd668dcae817abe865a705e10bef2723280459911071c4d0b21ae77d04d435",
+ "domain": [
+  "business/market-research",
+  "technology/frontier-industries"
+ ],
+ "product": [
+  "venture-atlas",
+  "epoch-ai"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Sourced data on 95+ frontier-industry companies: profiles, milestones, funding, daily news, robotaxi and data-center trackers.",
+ "whenToUse": "Use when researching companies in space, AI, robotics, EV, energy or similar sectors and their commitments and track records.",
+ "tasks": [
+  "search companies",
+  "get company profile",
+  "list upcoming milestones",
+  "read latest news",
+  "get robotaxi tracker",
+  "get datacenter tracker"
+ ],
+ "effects": {
+  "6c1b2e4448fd06e614c13070aa75cfd6322943f6a795a2ad775ce07b74c5913a": "read",
+  "10056048468d3b5174c0197f73d0ac69bdd5265e738286d8763da8ffd2b57c66": "read",
+  "a3b52f59cb5a79cfb1f1adc73a891369e66374f80517208148048e2448623340": "read",
+  "3700fc49625e8b8d664fa9682c059bdbfcb3cc05353ec5f2d0329b0d199e3686": "read",
+  "91643e49261085362d8cffb206d72ea023481bd6b85bc4e365cba8b5717eb9a0": "read",
+  "37b6b83ceee2d43b4e87e82291179c9704dbfab97045c5e6c129c6642869ca41": "read"
+ },
+ "flags": []
+}

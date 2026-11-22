@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8ebf76a8348274f0b049db361e258966d95cfca63770a3a69a6d83d6ddc28e0e",
+ "domain": [
+  "finance/personal-finance",
+  "finance/investments"
+ ],
+ "product": [
+  "truthifi"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives an AI read access to a verified household financial record of accounts, holdings, fees and a score.",
+ "whenToUse": "Use when a user wants to review their household accounts, investment holdings or fees.",
+ "tasks": [
+  "view accounts",
+  "view holdings",
+  "review fees",
+  "view financial score"
+ ],
+ "effects": {},
+ "flags": []
+}

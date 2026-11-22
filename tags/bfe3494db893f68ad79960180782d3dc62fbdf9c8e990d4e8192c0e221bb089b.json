@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "bfe3494db893f68ad79960180782d3dc62fbdf9c8e990d4e8192c0e221bb089b",
+ "domain": [
+  "productivity/diagrams",
+  "software/file-formats"
+ ],
+ "product": [
+  "json-canvas",
+  "mermaid"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates, validates, edits, searches and exports JSON Canvas files to markdown, SVG, PNG or Mermaid.",
+ "whenToUse": "Use when an agent needs to build or modify a JSON Canvas board or convert it to another format.",
+ "tasks": [
+  "create canvas files",
+  "validate canvas files",
+  "edit canvas nodes and edges",
+  "export to markdown",
+  "export to svg or png",
+  "export to mermaid",
+  "search canvas content"
+ ],
+ "effects": {},
+ "flags": []
+}

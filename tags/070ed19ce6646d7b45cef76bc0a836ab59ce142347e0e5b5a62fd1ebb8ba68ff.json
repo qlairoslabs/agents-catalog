@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "070ed19ce6646d7b45cef76bc0a836ab59ce142347e0e5b5a62fd1ebb8ba68ff",
+ "domain": [
+  "finance/lending-rates",
+  "finance/consumer-banking"
+ ],
+ "product": [
+  "rateapi"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Live US mortgage, auto, HELOC, personal loan and deposit rates with sources and lender eligibility.",
+ "whenToUse": "Use when comparing current US loan or savings rates and who qualifies for each lender.",
+ "tasks": [
+  "get mortgage rates",
+  "get auto loan rates",
+  "get heloc rates",
+  "get personal loan rates",
+  "get deposit rates",
+  "check lender membership eligibility"
+ ],
+ "effects": {},
+ "flags": []
+}

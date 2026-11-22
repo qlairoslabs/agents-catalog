@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "50eb80a157f9814471566c244e2e27d26a703b8598ce23171f8059767bfc11b9",
+ "domain": [
+  "data/business-intelligence",
+  "data/sql"
+ ],
+ "product": [
+  "apache-superset"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Apache Superset dashboards, charts, datasets, SQL Lab queries and security settings.",
+ "whenToUse": "Use when an agent must build or query Superset dashboards, charts, datasets or run SQL Lab queries.",
+ "tasks": [
+  "manage dashboards",
+  "manage charts",
+  "manage datasets",
+  "run sql lab queries",
+  "manage security settings"
+ ],
+ "effects": {},
+ "flags": []
+}

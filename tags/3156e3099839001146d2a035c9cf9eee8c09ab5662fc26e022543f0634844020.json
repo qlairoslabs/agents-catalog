@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3156e3099839001146d2a035c9cf9eee8c09ab5662fc26e022543f0634844020",
+ "domain": [
+  "finance/accounting",
+  "finance/reporting"
+ ],
+ "product": [
+  "median"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only OAuth access to a Median customer's ledger, financial reports and transactions.",
+ "whenToUse": "Use when a Median customer wants to review their books, transactions or financial reports.",
+ "tasks": [
+  "read ledger",
+  "view financial reports",
+  "list transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

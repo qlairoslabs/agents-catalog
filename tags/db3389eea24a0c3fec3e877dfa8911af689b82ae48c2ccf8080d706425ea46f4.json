@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "db3389eea24a0c3fec3e877dfa8911af689b82ae48c2ccf8080d706425ea46f4",
+ "domain": [
+  "marketing/content/seo",
+  "software/wordpress"
+ ],
+ "product": [
+  "wpwriter",
+  "wordpress",
+  "woocommerce"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Generates SEO blog posts and AI images, runs autoblogging and manages WooCommerce on self-hosted WordPress sites.",
+ "whenToUse": "Use when creating or publishing SEO content or managing WooCommerce on a self-hosted WordPress site.",
+ "tasks": [
+  "generate seo posts",
+  "generate ai images",
+  "run autoblog",
+  "publish posts",
+  "manage woocommerce"
+ ],
+ "effects": {},
+ "flags": []
+}

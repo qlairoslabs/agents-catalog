@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "710866e916a1a613100d3c47a8048d789be55b20dca9db658c88cf550fbf5ac4",
+ "domain": [
+  "sports/cycling",
+  "health/fitness-tracking"
+ ],
+ "product": [
+  "flamap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives AI assistants read-only access to a user's cycling rides, power data, climbs and routes.",
+ "whenToUse": "Use when a cyclist wants to analyze their rides, power output, climbs or routes.",
+ "tasks": [
+  "read rides",
+  "analyze power data",
+  "review climbs",
+  "view routes"
+ ],
+ "effects": {},
+ "flags": []
+}

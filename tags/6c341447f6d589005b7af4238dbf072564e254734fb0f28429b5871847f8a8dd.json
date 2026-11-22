@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6c341447f6d589005b7af4238dbf072564e254734fb0f28429b5871847f8a8dd",
+ "domain": [
+  "software/utilities/documents",
+  "software/utilities/images"
+ ],
+ "product": [
+  "corenexis"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Utility API for HTML or Markdown to PDF, OCR, email validation, image conversion and hosting, and QR and barcode generation.",
+ "whenToUse": "Use when a task needs a quick document, image, OCR, email-check or barcode utility.",
+ "tasks": [
+  "convert html to pdf",
+  "convert markdown to pdf",
+  "run ocr",
+  "validate email addresses",
+  "convert images",
+  "host images",
+  "generate qr codes",
+  "generate barcodes"
+ ],
+ "effects": {},
+ "flags": []
+}

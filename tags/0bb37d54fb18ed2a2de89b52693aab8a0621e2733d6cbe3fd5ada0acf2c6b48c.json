@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0bb37d54fb18ed2a2de89b52693aab8a0621e2733d6cbe3fd5ada0acf2c6b48c",
+ "domain": [
+  "communication/email/transactional",
+  "marketing/email"
+ ],
+ "product": [
+  "unione"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Sends transactional email and manages domains, templates and webhooks in UniOne.",
+ "whenToUse": "Use when an agent needs to send transactional emails or configure UniOne domains, templates or webhooks.",
+ "tasks": [
+  "send transactional email",
+  "manage sending domains",
+  "manage email templates",
+  "manage webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1735e22008bf3c60591416506c8931979504de4a285715fd3b15f8de323f88ca",
+ "domain": [
+  "software/cloud-infrastructure",
+  "software/dns"
+ ],
+ "product": [
+  "edge-network"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Deploys and manages Edge Network cloud resources such as sites, virtual machines, storage, DNS and security features.",
+ "whenToUse": "Use when deploying or managing hosting, VMs, storage or DNS on Edge Network.",
+ "tasks": [
+  "deploy sites",
+  "manage virtual machines",
+  "manage storage",
+  "manage dns records",
+  "configure shield protection",
+  "use assist",
+  "sign up an account"
+ ],
+ "effects": {},
+ "flags": []
+}

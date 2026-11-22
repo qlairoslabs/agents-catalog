@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6ce4efec5a6e7c81cbd73ed3faba7b7329ab6d189ebcf9afbe0d4f74195a2953",
+ "domain": [
+  "documents/presentation-download",
+  "sales/investor-decks"
+ ],
+ "product": [
+  "docsend",
+  "papermark"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Downloads presentation decks shared through DocSend or Papermark links and saves them as PDF or PPTX files.",
+ "whenToUse": "Use when an agent needs an offline PDF or PPTX copy of a deck shared via a DocSend or Papermark link.",
+ "tasks": [
+  "download docsend deck",
+  "download papermark deck",
+  "export deck as pdf",
+  "export deck as pptx"
+ ],
+ "effects": {},
+ "flags": [
+  "claims to download email-gated and protected links, which may bypass the sharer's access controls"
+ ]
+}

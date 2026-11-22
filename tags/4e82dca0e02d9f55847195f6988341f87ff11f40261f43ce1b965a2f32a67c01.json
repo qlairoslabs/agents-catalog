@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4e82dca0e02d9f55847195f6988341f87ff11f40261f43ce1b965a2f32a67c01",
+ "domain": [
+  "collaboration/workspace",
+  "ai/agents"
+ ],
+ "product": [
+  "ziggs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Connector for Ziggs workspaces letting an assistant handle inbox, chats and tasks with people and agents.",
+ "whenToUse": "Use when an agent needs to read or act on a user's Ziggs inbox, chats or tasks.",
+ "tasks": [
+  "read inbox",
+  "send chat messages",
+  "manage tasks",
+  "collaborate with workspace agents"
+ ],
+ "effects": {},
+ "flags": []
+}

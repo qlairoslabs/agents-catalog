@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2780a268e80c70af483f38d00bda59b00ee0e6b0d61cd9176656bd9331d37168",
+ "domain": [
+  "customer-support/helpdesk",
+  "knowledge/help-center"
+ ],
+ "product": [
+  "weav"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Connects agents to Weav customer service to triage conversations, reply and manage the help center.",
+ "whenToUse": "Use when the user handles support conversations or help-center articles in Weav.",
+ "tasks": [
+  "triage conversations",
+  "reply to customers",
+  "manage help center articles"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2bd171aaaf2dfe0fd5cde7958188632c0e9d1383486910ab20809eaf3deadd50",
+ "domain": [
+  "travel/sailing/marine-weather",
+  "travel/navigation"
+ ],
+ "product": [
+  "nausika"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Mediterranean marine forecasts, tides, sea routes, anchorages and points of interest for sailors.",
+ "whenToUse": "Use when a user plans sailing or boating in the Mediterranean and needs weather, tides, routes or anchorages.",
+ "tasks": [
+  "get marine forecasts",
+  "get tides",
+  "plan sea routes",
+  "find anchorages",
+  "find nautical points of interest"
+ ],
+ "effects": {},
+ "flags": []
+}

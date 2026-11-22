@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "4dca5ff9f4fb9c306d47a2579d00cd19fb960412ce8fcd472940172d32ae5028",
+ "domain": [
+  "travel/sports-tickets",
+  "sports/football"
+ ],
+ "product": [
+  "weekend-goals"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Find upcoming football matches by city, country or location, with cheapest ticket prices, venues and team fixtures.",
+ "whenToUse": "Use when planning a trip around football matches or looking for cheap tickets and fixtures.",
+ "tasks": [
+  "find matches by city or country",
+  "find matches near a point",
+  "get match details",
+  "get team fixtures",
+  "get venue matches",
+  "filter by budget"
+ ],
+ "effects": {
+  "5fcad0e439b6fa24ed2ad2ae61b7250a6ffce64133aaae47fa496230162344e9": "read",
+  "68820053b18ac7837ff433f653f82471397143fd122f8b7fbc6a6ed20419cf77": "read",
+  "3961bb38f3eb94319209f8412bfa45b796e7633d4aa0274c729a1fce0124048f": "read",
+  "460a4c8ca33f2ee8976af948ad2021b9fff5f58b6f9ae8480021f1e7ef26c4e0": "read",
+  "bed54e749fea9d86dad3e5bd559b05e3b3e9fb1bd27a9310d8ea693675d6b719": "read"
+ },
+ "flags": []
+}

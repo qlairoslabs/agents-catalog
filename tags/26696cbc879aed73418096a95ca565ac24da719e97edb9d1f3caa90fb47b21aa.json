@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "26696cbc879aed73418096a95ca565ac24da719e97edb9d1f3caa90fb47b21aa",
+ "domain": [
+  "finance/insurance"
+ ],
+ "product": [
+  "my-insure-bank",
+  "nsia",
+  "heirs",
+  "paystack"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "Compares live Nigerian insurance quotes for auto, health, travel and gadget cover, offers a policy check-up and builds hosted checkout links.",
+ "whenToUse": "Use when a user in Nigeria wants insurance quotes, a second opinion on a current policy or a purchase link.",
+ "tasks": [
+  "get quote requirements",
+  "compare insurer quotes",
+  "list insurer products",
+  "check up existing policy",
+  "get purchase requirements",
+  "build checkout link"
+ ],
+ "effects": {
+  "d08b48bcc08f21723f1a2feddc1b3c74675e266e577e22c6fc3868276c70bd26": "read",
+  "a158a9127e2a8ba92040e454317a79af60adbd89e886e3f6695b1d60545211f3": "write",
+  "bcfd797a73fe055ffcd49326bc3e469f067c99cc0d3ed2b10599f06268824c34": "read",
+  "c9904360f8183827bd038188ca9aec10d0c7cc5fcd384febfaef4198bb3e5756": "write",
+  "3cb44f07ccb19a80fa85422f74d0179423caf9ac942a1c23a87851c5c95a77b3": "read",
+  "c006654159fd6e9b022b74410b6780052bffa183feea79f81f1f457572918d1d": "read",
+  "ec0cc929bb406068a36cf95713650b71d71e1750c19cd70fb5c4e0d3e02b9ff6": "read"
+ },
+ "flags": []
+}

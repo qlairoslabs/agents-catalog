@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "41523f5e4dbb323ef41d8324b42a9bfd3820e684bc7c18f41f23fffb5180b574",
+ "domain": [
+  "software/backend-as-a-service"
+ ],
+ "product": [
+  "typestate"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Managed backend that an AI agent builds with database, authentication, file storage and endpoints, with user approval per step.",
+ "whenToUse": "Use when an agent needs to set up a backend with database, sign-in, files or APIs for an app.",
+ "tasks": [
+  "create database",
+  "set up authentication",
+  "manage file storage",
+  "create endpoints",
+  "request step approval"
+ ],
+ "effects": {},
+ "flags": []
+}

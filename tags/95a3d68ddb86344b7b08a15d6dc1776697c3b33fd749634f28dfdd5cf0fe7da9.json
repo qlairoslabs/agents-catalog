@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "95a3d68ddb86344b7b08a15d6dc1776697c3b33fd749634f28dfdd5cf0fe7da9",
+ "domain": [
+  "media/music",
+  "ai-audio"
+ ],
+ "product": [
+  "songup-ai"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Finds ready-made AI songs in many languages, builds a prefilled link to make a custom song, and points to browser audio tools.",
+ "whenToUse": "Use when the user wants example AI songs, a custom song started from an idea, or a tool for audio tasks like vocal removal.",
+ "tasks": [
+  "find AI songs by language and mood",
+  "prepare custom song link",
+  "find audio tool for a task"
+ ],
+ "effects": {
+  "ee6830c7a566fd0d7ac624f5ab8598d0ec56b27daae3443502025b932a94f8cd": "read",
+  "8dfa33de52f24dbcd65413cc3166259c3a72626c1a7652d1d7d97ca9b9b28ec3": "read",
+  "cf87cfe491a9f7ff41f6d1d29ea503154eb21efc4f637bfd30f19dcab5a32b39": "read"
+ },
+ "flags": []
+}

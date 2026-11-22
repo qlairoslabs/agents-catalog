@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "a025473a7f3333c11e22f04b0ed12e542bc8f9ad00910d46ba15c231c7730eba",
+ "domain": [
+  "hr/recruiting",
+  "career"
+ ],
+ "product": [
+  "resumeai",
+  "workday",
+  "greenhouse"
+ ],
+ "audience": [
+  "everyone",
+  "hiring"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Look up which applicant tracking system large employers use, view ATS market stats, and score a resume against ATS parsing.",
+ "whenToUse": "Use when a job seeker wants to know a company's ATS or to check and improve a resume for ATS parsing.",
+ "tasks": [
+  "look up company ATS",
+  "get ATS market share",
+  "list companies by ATS",
+  "list ATS changes",
+  "score resume",
+  "fetch consented JSON resume"
+ ],
+ "effects": {
+  "de84189f6c86288eb161013526494d9c508db10419b4d4df7e76593e530372f4": "read",
+  "3afeb71b72ebd3888b3b89685deabb5e3ae351be85cce5648f13b89ea8f3f20c": "read",
+  "27041dfb95803c83dd96abd0d51824c87c379d57853f713988328ae8d1c1154e": "read",
+  "b4af085ca3dff756bce004eb80366c197610831690fb764011c8f9830eb9ce99": "write",
+  "3c7b0f30ee086c47c79d1c96ae5cd3002b1d306766f449bd5eb88c5dee2b4ed6": "write",
+  "8d9dc0b35d2eaae1904e0d2d94c94e3563663f6ed139b248f71b6fc7ed109b67": "write"
+ },
+ "flags": []
+}

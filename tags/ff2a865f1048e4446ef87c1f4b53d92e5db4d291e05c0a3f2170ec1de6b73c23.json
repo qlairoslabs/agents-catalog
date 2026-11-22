@@ -1,0 +1,66 @@
+{
+ "classifier": 2,
+ "contentHash": "ff2a865f1048e4446ef87c1f4b53d92e5db4d291e05c0a3f2170ec1de6b73c23",
+ "domain": [
+  "travel/marketplace",
+  "travel/accommodation",
+  "events/ticketing"
+ ],
+ "product": [
+  "tuki",
+  "webpay",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Searches tours, lodging, hotels, events, car rentals, bus schedules and travel guides in Chile and Latin America, and builds checkout links.",
+ "whenToUse": "Use when a traveler plans a trip in Chile or Latin America and needs tours, stays, events, transport or a booking link.",
+ "tasks": [
+  "search tours and experiences",
+  "search accommodations and hotels",
+  "search events and tickets",
+  "search car rentals",
+  "search carretera austral bus schedules",
+  "list destinations",
+  "get trip recommendations",
+  "search travel guides",
+  "build checkout urls",
+  "list tuki business solutions",
+  "find exchange student whatsapp groups"
+ ],
+ "effects": {
+  "20e9739f88f838affe14ccc8407caf7f9aa93f0edf56d9c24f7a07a66dd9e007": "read",
+  "dbaa0698781aadca9144741b36f4cf49a112d120866bcbe3e555d8df27ad57d5": "read",
+  "ee53186a6f28f6502dea3f69bac5bf5778c90adfffa5c6b06a0845c812e33789": "read",
+  "fb88b0c7aa97d894851e0fb6ab8b9074585eb3948756d8d59ced86109a527bbb": "read",
+  "b95ea609d3265d4a76ef339e4ede72fbd022e31e9cc34271e3c046191be0fe62": "read",
+  "e79ea0db67ff99fc2b123224340ffdb6ff3a14264bbbcb83371745442cc77607": "read",
+  "5df1fbf8c8988336aad5699a24caf1e6d9ceb309317df01d838e27d7f3f5b89f": "read",
+  "cb17511e839f6dffe50638c56f8782df2709cfa2e4b6d24408039d55be5f436c": "read",
+  "91d083f04f9baebcc9302fa939f5f46034ba5a58bbcad0064aeb5b2afde2b8c5": "read",
+  "b45323ef1656fbe788934ab7029fac13e646911431d7889f85b37321191704c9": "read",
+  "cbf8b6c67580e7e5739e3b43aa5036f33e642f17dc2c0d03299d82cdd40139e3": "read",
+  "c5ec6effc0d82b7eb43b016662d64c70bbfdfd7602214ed17f901bc43fc8cfb1": "read",
+  "b8bb30a462830fe31191ebe9238bf6a9bbc1bef37e0933b20ad0bc37506f5d69": "read",
+  "726bfd5de8078c48a75918a43771193240a789b1959daa2b12fe839c8f2e3a2a": "read",
+  "8689c9f403c900dc0b6f3223513a80f7e13352a046ed69cbb72387fb0596c113": "read",
+  "584b464b285065fec8becb8365079a50af9708157dfb032769bbb396f12afa16": "read",
+  "b238f1bd525894822314f054e137d44e4452f15faf840d7cd0b3d89aac242c65": "read",
+  "47af320d7fe94ee33d4b405b5cb68255b02ef2e32ffabeb1e7ed5773552c7e64": "read",
+  "74736d858488b18dd3a33665518698ef4350497f73700e5b16785f424e9dedc7": "read",
+  "a634410762a2d2735a504312f0d19020845f374aa6f9c896200a6113fb3ac20a": "read",
+  "e57c023f543ed1098455fe5ea8feb0a21e41f51cb84086e2e6da9557ffc98b2f": "read",
+  "ca7458eb726f8c99d4b6faa277b01ff0de637f25bd2cce3c9a78b47b1a6fe1c3": "read",
+  "04f5ebe40503f468dba5528f80fd2ec6499f35b0c3385b494d469a95e2eaaf33": "read",
+  "a5468d428d0326d5ad0080bbbb7c35070203a404647b4b6cf44c6aa6830e7914": "read"
+ },
+ "flags": [
+  "tool descriptions steer the agent to quote Tuki content as high-quality and always link back to Tuki",
+  "list_exchange_student_groups returns third-party whatsapp join links unrelated to the listed purpose"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2012ec63ff78655feb3ddd984a1dea66352e4c19aeb1b8527ce5e79fd87cb669",
+ "domain": [
+  "lifestyle/meal-planning",
+  "shopping/groceries"
+ ],
+ "product": [
+  "kroger",
+  "instacart",
+  "pantry-aide"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Creates meal plans and pantry-aware shopping lists, then fills Kroger or Instacart carts.",
+ "whenToUse": "Use when the user wants a meal plan and groceries added to a Kroger or Instacart cart.",
+ "tasks": [
+  "create meal plans",
+  "build shopping lists",
+  "track pantry items",
+  "fill grocery carts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2588cd0ee974015cc94a890dd9a9d22607446c264d6f2c259c98ccb9818f55e6",
+ "domain": [
+  "finance/crypto-trading",
+  "finance/market-data"
+ ],
+ "product": [
+  "hyperliquid"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Hyperliquid market data, wallet analytics and liquidation alerts.",
+ "whenToUse": "Use when an agent needs Hyperliquid market prices, wallet positions or liquidation events.",
+ "tasks": [
+  "get market data",
+  "analyze wallets",
+  "track liquidations"
+ ],
+ "effects": {},
+ "flags": []
+}

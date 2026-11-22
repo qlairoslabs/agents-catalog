@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "673b5473926c0500871e4e1fe9844e219c021d0c78c29516c393b73baf4f3002",
+ "domain": [
+  "publishing/books",
+  "education/academic-bibliography"
+ ],
+ "product": [
+  "editora-blucher"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Editora Blucher's technical and academic books, with prices, editions and syllabus-based bibliography suggestions.",
+ "whenToUse": "Use when someone looks for Blucher books on a topic, needs a book's price or edition, or wants a bibliography for a syllabus.",
+ "tasks": [
+  "search books by topic, title or author",
+  "get full book record by isbn",
+  "check price and availability",
+  "recommend books for a syllabus",
+  "list catalog areas and formats"
+ ],
+ "effects": {
+  "0f6f5f4e419acaa2ab440f09b9859dba2d647e3bbd198c6dda6d84f143480c02": "write",
+  "4cc2aac0f272e30cd58466b5d45c06b1fd1b1c49e62b78965bf1901d46d8c082": "write",
+  "1bbe2ad23a3c381c60bb1409e7e85ededcfc13b453aaa7e50cebe9c071589332": "write",
+  "b83e9514ed62de6ac0b2b577af52af3f66d4ef2d0e2a5b071027e1827423f3f1": "read",
+  "b863d76a8b426c32c87c89c638fef20554cc6b23e6d382a8879a691691369e59": "read",
+  "4ecc631ea01418ddbf7b06afba948471634ecf2602e86174caed64d6cd7f4de7": "read"
+ },
+ "flags": []
+}

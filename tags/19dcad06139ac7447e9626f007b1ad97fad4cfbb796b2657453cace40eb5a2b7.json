@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "19dcad06139ac7447e9626f007b1ad97fad4cfbb796b2657453cace40eb5a2b7",
+ "domain": [
+  "games/art-assets",
+  "media/generative-ai"
+ ],
+ "product": [
+  "sprite-fusion"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates, edits, style-matches, rotates and animates pixel art for games at exact sizes.",
+ "whenToUse": "Use when an agent needs game-ready pixel art sprites or animations.",
+ "tasks": [
+  "generate pixel art",
+  "edit pixel art",
+  "match art style",
+  "create sprite turnarounds",
+  "animate sprites"
+ ],
+ "effects": {},
+ "flags": []
+}

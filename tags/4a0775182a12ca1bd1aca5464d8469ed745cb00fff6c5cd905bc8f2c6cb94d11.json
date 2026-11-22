@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "4a0775182a12ca1bd1aca5464d8469ed745cb00fff6c5cd905bc8f2c6cb94d11",
+ "domain": [
+  "finance/insurance",
+  "life-insurance"
+ ],
+ "product": [
+  "backnine"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Gets anonymous US life insurance quotes across term, final expense and other products and starts an electronic application link.",
+ "whenToUse": "Use when a US user wants to compare life insurance quotes and begin an application.",
+ "tasks": [
+  "get quote requirements",
+  "quote term life",
+  "quote final expense",
+  "quote all life products",
+  "create eApp",
+  "requote eApp",
+  "select eApp quote",
+  "update insured details"
+ ],
+ "effects": {
+  "6eb3875c26910ceacaffc4028231202570736746f4ec71ba498f88c74d7ea82b": "read",
+  "7dfba8d67f4bec35edb00d3841b15bc76a21b87769cc3a1249eb13401f8118af": "read",
+  "9cba4fdc29555286b7aed2472d1e246d17824837272e1ec8979bec38854c859d": "read",
+  "4b64a14dce590b725c2f246e69a762050845899c5d39365d1a1296c6445835d5": "write",
+  "c6f675903c23b827f42a448b35e6881f7b77300c3d3f83f9960fd6bf277dbb10": "write",
+  "04389a91ef937ea38d985cd96383ea5153022bb894844fd01527f8b8fbde27cc": "write",
+  "1bc2edce7c240399a2295895361e1e0d8503e4c2057af30198631fcbda55f010": "write",
+  "f32f995e93032ce857eb79b284498e8744747e4dde46581fe221ec6c914849ad": "write"
+ },
+ "flags": []
+}

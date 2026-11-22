@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "c7914d6c7f01dda3aa3c475eede378ba976ddb6ec25bb6ce93cabe239eb6fb8e",
+ "domain": [
+  "local-services/office-cleaning",
+  "scheduling/booking"
+ ],
+ "product": [
+  "riverview-office-cleaning"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Answers questions about Riverview Office Cleaning in NE Ohio and books free on-site walkthroughs.",
+ "whenToUse": "Use when someone wants office cleaning information in NE Ohio or wants to book a free walkthrough.",
+ "tasks": [
+  "get business info",
+  "search FAQ",
+  "check service area",
+  "list walkthrough slots",
+  "book walkthrough"
+ ],
+ "effects": {
+  "912590f32db9a35c56bd6f3d6885a5204025ba834c5f752ae7bbd5488a902145": "read",
+  "ff4f8acfd0e06a6180fe47887d7b30621be9a5c17dd8b18185c4d2ffb6be31e7": "read",
+  "9a6be1b0eac1a8d82a0d9814111b2b00538376a5abdcbd1c018354c1022ebfc1": "read",
+  "8d50246679dff8187bd434e072ad539d0ed449accf94e23e01681fc9dea7593f": "read",
+  "15f467acd1b9fa18ff6b212b0d29dd06f358819651b3349e825e27630a66c95b": "write"
+ },
+ "flags": []
+}

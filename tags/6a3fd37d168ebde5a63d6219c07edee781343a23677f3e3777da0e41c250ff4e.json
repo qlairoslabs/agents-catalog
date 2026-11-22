@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6a3fd37d168ebde5a63d6219c07edee781343a23677f3e3777da0e41c250ff4e",
+ "domain": [
+  "software/code-review",
+  "ai/agent-verification"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Deterministically checks a coding agent's reported work against the actual GitHub pull request record.",
+ "whenToUse": "Use when verifying that a coding agent's claims about a pull request match what GitHub shows.",
+ "tasks": [
+  "compare agent handback to pull request",
+  "check pull request record",
+  "report mismatches"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "42ebc35b98fbd9dbfa3f29cb425d83df2b18087b0f52aaa4ef8ef1ee47d8e402",
+ "domain": [
+  "scheduling/appointment-booking"
+ ],
+ "product": [
+  "supersaas"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds open slots and manages bookings, users and forms in the SuperSaaS scheduling service.",
+ "whenToUse": "Use when checking availability or creating and managing appointments in SuperSaaS.",
+ "tasks": [
+  "find available slots",
+  "manage bookings",
+  "manage users",
+  "manage forms"
+ ],
+ "effects": {},
+ "flags": []
+}

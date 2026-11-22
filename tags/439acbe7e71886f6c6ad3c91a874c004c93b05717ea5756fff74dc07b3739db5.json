@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "439acbe7e71886f6c6ad3c91a874c004c93b05717ea5756fff74dc07b3739db5",
+ "domain": [
+  "ai/agent-orchestration",
+  "cloud/sandboxes"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Cloud platform for running multi-agent swarms, code sandboxes and automated workflows.",
+ "whenToUse": "Use when an agent needs cloud sandboxes or multi-agent workflows run on a hosted platform.",
+ "tasks": [
+  "create agent swarms",
+  "run cloud sandboxes",
+  "automate workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

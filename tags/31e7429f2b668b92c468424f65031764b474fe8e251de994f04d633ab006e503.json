@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "31e7429f2b668b92c468424f65031764b474fe8e251de994f04d633ab006e503",
+ "domain": [
+  "procurement/office-supplies",
+  "singapore/local-services"
+ ],
+ "product": [
+  "connective-labs"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Gives all-in SGD quotes and delivery dates for office and IT supplies and event print in Singapore, with firm-quote requests and Singapore address, holiday and how-to lookups.",
+ "whenToUse": "Use when pricing or ordering office, IT or event print items in Singapore, or checking Singapore addresses, working days or errands.",
+ "tasks": [
+  "quote office supplies",
+  "price a shopping list",
+  "quote event print",
+  "request firm quote",
+  "check quote status",
+  "list categories",
+  "resolve Singapore address",
+  "explain Singapore errands",
+  "count working days",
+  "get weather and PSI"
+ ],
+ "effects": {
+  "6b63fd4166e2767da62502d89aed153ffd142e2ae91f6bd51a7b8db8c7d62b85": "write",
+  "7ed8bce66528e8ac92e4662a8a5e5414b4270134c256bd446d254d9caa46b695": "write",
+  "e4ce16b5ee7837ce803d3c8d7bb53b5fe049f77dcc28e0bfbd9204490d7576d4": "write",
+  "416dd92a78423abff3fcbad1950ea1fdaf22739b6255b4873949b0a1427f57e0": "read",
+  "99888667aec1850a25dc77bae5a10c824efe0f3eb57c9e58ff32ff4281771a76": "read",
+  "1a4d39769b6b64663a62a2e43c4a2c0d511702c6c1aec2e81c317de43bb8ec70": "read",
+  "5940c924e2f8f274d070dbdd94302f8d58d5c54d7428655920390ba404388e05": "write",
+  "b0f2bdb958fe1708c6e112f3c9dadb0f75cceee971c38544e1839ce2a15b6740": "write",
+  "c9fe05d8b867c9f48b7af9d7b0a9ae2f16e87feb3410cd4d9c16e5dd2b5bf4f5": "write",
+  "617e227b37c80cdaff45cbdc2e09f0690bcfa952a05bf7004d919394adff4f9e": "read",
+  "f047267a01a063692b20a2148933e06e02ed2483ca97aa8a46c335a3b5c3fe12": "read"
+ },
+ "flags": []
+}

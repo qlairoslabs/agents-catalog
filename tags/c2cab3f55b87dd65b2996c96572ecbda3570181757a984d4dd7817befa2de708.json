@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c2cab3f55b87dd65b2996c96572ecbda3570181757a984d4dd7817befa2de708",
+ "domain": [
+  "software/code-review",
+  "software/code-quality"
+ ],
+ "product": [
+  "qodo"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Adds Qodo codebase intelligence, coding standards and code review to a coding agent.",
+ "whenToUse": "Use when an agent should review code or apply organizational coding standards using Qodo.",
+ "tasks": [
+  "review code",
+  "apply coding standards",
+  "query codebase context"
+ ],
+ "effects": {},
+ "flags": []
+}

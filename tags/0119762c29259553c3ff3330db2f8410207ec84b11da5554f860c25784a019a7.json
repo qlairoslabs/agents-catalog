@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0119762c29259553c3ff3330db2f8410207ec84b11da5554f860c25784a019a7",
+ "domain": [
+  "software/cybersecurity/code-scanning"
+ ],
+ "product": [
+  "semgrep"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Runs Semgrep static analysis to find security vulnerabilities in source code.",
+ "whenToUse": "Use when code needs to be scanned for security issues or insecure patterns.",
+ "tasks": [
+  "scan code for vulnerabilities",
+  "run static analysis rules"
+ ],
+ "effects": {},
+ "flags": []
+}

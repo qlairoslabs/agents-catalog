@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cb64fce343c805afcdcc56241d8a4d631e3694171ade25f0435554c67bf61b4a",
+ "domain": [
+  "data/social-media",
+  "marketing/social-listening"
+ ],
+ "product": [
+  "instagram",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Instagram data through 16 endpoints, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs Instagram profiles, posts or engagement data and can pay per request in USDC.",
+ "tasks": [
+  "fetch instagram profiles",
+  "fetch instagram posts",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

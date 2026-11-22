@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a66d17233adf13a5f8c3cf381b664dd1fc405bd422df1772ee1d0be93b610fe5",
+ "domain": [
+  "finance/ai-cost-tracking",
+  "finance/runway"
+ ],
+ "product": [
+  "atlasburn"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers read-only questions on AI spending, runway and cost guardrails from AtlasBurn data.",
+ "whenToUse": "Use when a user asks about AI costs, runway or spending guardrails tracked in AtlasBurn.",
+ "tasks": [
+  "check ai costs",
+  "estimate runway",
+  "review guardrails"
+ ],
+ "effects": {},
+ "flags": []
+}

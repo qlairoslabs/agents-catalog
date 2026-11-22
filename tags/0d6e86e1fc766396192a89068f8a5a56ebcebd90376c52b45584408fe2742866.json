@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0d6e86e1fc766396192a89068f8a5a56ebcebd90376c52b45584408fe2742866",
+ "domain": [
+  "sales/lead-response",
+  "telecom/calling"
+ ],
+ "product": [
+  "callingly"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "keep-in-touch"
+ ],
+ "summary": "Lets agents call leads, send SMS messages and schedule callbacks for sales teams through Callingly.",
+ "whenToUse": "Use when a sales team wants an agent to contact leads by phone or SMS or book callbacks.",
+ "tasks": [
+  "call leads",
+  "send sms",
+  "schedule callbacks"
+ ],
+ "effects": {},
+ "flags": []
+}

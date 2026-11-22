@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "cdfae0a4a015e20782d487ca93f6e9e3135ddb0d29d425ceaa8b87cd7d64a29c",
+ "domain": [
+  "reference/calendar",
+  "content/editorial"
+ ],
+ "product": [
+  "giornatamondiale"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule"
+ ],
+ "summary": "Search Italian world and international days by date, topic or keyword, with sources and verification status.",
+ "whenToUse": "Use when planning content or looking up which world day falls on a date or relates to a topic.",
+ "tasks": [
+  "search world days",
+  "fetch day details",
+  "list days by date range",
+  "list topics"
+ ],
+ "effects": {
+  "5c858e96021dcb809f82842dd6c212221f72ea94434c8255e048ed62274968e7": "read",
+  "e34c2a0fb60c43233e420da648ea6c826e916a73ddedfad15a169a2aa2aaf61d": "read",
+  "0c8ff0bb81e8c53b2bb4f126c209270eeb8d3dba528d7fd663aa8ecdd835dcca": "read",
+  "8157dce44216ca94b81064172ea252af1aa8fba834538eabb7cf780085b66ed8": "read"
+ },
+ "flags": []
+}

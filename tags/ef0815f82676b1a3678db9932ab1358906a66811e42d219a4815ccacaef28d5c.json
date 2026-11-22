@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ef0815f82676b1a3678db9932ab1358906a66811e42d219a4815ccacaef28d5c",
+ "domain": [
+  "research/multi-model-analysis",
+  "ai/llm"
+ ],
+ "product": [
+  "seneca"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Sends one prompt to about 100 AI models and returns a report on consensus, disagreement and minority views.",
+ "whenToUse": "Use when a question benefits from comparing many AI models' answers and seeing where they agree or differ.",
+ "tasks": [
+  "run multi-model research",
+  "generate consensus report",
+  "surface disagreements"
+ ],
+ "effects": {},
+ "flags": []
+}

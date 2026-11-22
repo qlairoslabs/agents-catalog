@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6a31b59a38d564ff5e30077800b9a7bdafbd94415ca251262984b7933f51982e",
+ "domain": [
+  "language/korean",
+  "content/proofreading"
+ ],
+ "product": [
+  "the-korean-today"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Checks Korean text for spelling and spacing errors and returns positions, suggestions and optionally corrected text.",
+ "whenToUse": "Use when proofreading or correcting Korean text up to 10000 characters.",
+ "tasks": [
+  "check Korean spelling",
+  "check spacing",
+  "return corrections with positions",
+  "apply certain fixes"
+ ],
+ "effects": {
+  "61736c78213a2a91e1a81b96b26ad54dd0004d59117f121d3f3da00bae4283ed": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8ed8b74a52ddbbff1b4619c04f8bda9e920298fe3eca2052530d2af83b346b0a",
+ "domain": [
+  "software/machine-learning",
+  "ai/model-hub"
+ ],
+ "product": [
+  "hugging-face",
+  "gradio"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects to the Hugging Face Hub and to Gradio AI applications hosted there.",
+ "whenToUse": "Use when an agent needs to find models, datasets or Spaces on Hugging Face, or call a Gradio app.",
+ "tasks": [
+  "search models",
+  "search datasets",
+  "browse spaces",
+  "call gradio apps"
+ ],
+ "effects": {},
+ "flags": []
+}

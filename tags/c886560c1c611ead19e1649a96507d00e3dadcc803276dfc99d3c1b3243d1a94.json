@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c886560c1c611ead19e1649a96507d00e3dadcc803276dfc99d3c1b3243d1a94",
+ "domain": [
+  "software/observability/webrtc"
+ ],
+ "product": [
+  "rtcstats",
+  "webrtc"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries analysed WebRTC sessions including observations, deductions, experience scores and summaries.",
+ "whenToUse": "Use when troubleshooting call quality or reviewing WebRTC session analytics.",
+ "tasks": [
+  "query webrtc sessions",
+  "view observations and deductions",
+  "get experience scores",
+  "read session summaries"
+ ],
+ "effects": {},
+ "flags": []
+}

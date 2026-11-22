@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "02ac8f65b19cbb4b3440eef3514f3d35efa8540570f80db214b6a5749ed4c24a",
+ "domain": [
+  "productivity/ambient-display",
+  "communication/notifications"
+ ],
+ "product": [
+  "blipboard"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates split-flap style display boards that agents push text scenes to and people view on any screen.",
+ "whenToUse": "Use when an agent should show status messages or ambient text on a shared screen-based display board.",
+ "tasks": [
+  "create display board",
+  "push text scenes",
+  "read current board content",
+  "change board style",
+  "rename board",
+  "delete board"
+ ],
+ "effects": {
+  "45bfe5fa1a62b2e321b6bdc0a0011b9a9e779f10891c94753056116a79014616": "write",
+  "15d229263cf7c27d6a51f3102bfff668d8cfedecd929ba43bbbec7c188ee6b23": "write",
+  "a21fd0457823d03d58f138583f1d6f4b54193bda3763b54e7e8897f9000cff4d": "read",
+  "0f0fab77dc8b2d263ef89c31e90ebbf3c3763e2923336347016a931e774276f8": "write",
+  "532d9c31dd55a6c8f9e0903c92e6c462bea4fd6e21d533ffb16bbf5a79006360": "write"
+ },
+ "flags": []
+}

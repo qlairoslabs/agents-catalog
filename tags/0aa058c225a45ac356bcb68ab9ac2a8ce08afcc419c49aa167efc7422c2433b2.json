@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "0aa058c225a45ac356bcb68ab9ac2a8ce08afcc419c49aa167efc7422c2433b2",
+ "domain": [
+  "web/website-builder",
+  "design/landing-pages"
+ ],
+ "product": [
+  "8b",
+  "unsplash",
+  "google-fonts"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Builds an animated website or landing page from an 8B design with custom texts, colors, fonts and photos, with preview and HTML download.",
+ "whenToUse": "Use when the user wants a quick website or landing page for a business and a live preview or downloadable HTML.",
+ "tasks": [
+  "browse site designs",
+  "get design brief",
+  "generate site preview",
+  "edit an existing site",
+  "download site html"
+ ],
+ "effects": {
+  "f9fc961454968b132097e3de873987f4dc7eed13e22afa0bb64f27dfe49bbfa1": "read",
+  "d19db99929831357873970c813dc11512855574de87ae3db0766f95d415e8f40": "read",
+  "30d528dcc3ebff2367863f786f26d775fffa7ed9c8200b31323577e3a23ae003": "write"
+ },
+ "flags": []
+}

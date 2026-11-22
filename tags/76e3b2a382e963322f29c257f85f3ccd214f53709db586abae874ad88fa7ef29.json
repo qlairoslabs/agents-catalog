@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "76e3b2a382e963322f29c257f85f3ccd214f53709db586abae874ad88fa7ef29",
+ "domain": [
+  "marketing/qr-codes",
+  "marketing/analytics"
+ ],
+ "product": [
+  "getdynamicqr"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates dynamic QR codes, changes their destinations after printing and reports bot-filtered scan stats.",
+ "whenToUse": "Use when creating or redirecting QR codes or checking their scans.",
+ "tasks": [
+  "create qr codes",
+  "change qr destination",
+  "view scan analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

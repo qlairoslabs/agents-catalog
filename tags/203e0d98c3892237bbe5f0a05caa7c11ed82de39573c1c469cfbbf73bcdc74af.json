@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "203e0d98c3892237bbe5f0a05caa7c11ed82de39573c1c469cfbbf73bcdc74af",
+ "domain": [
+  "ecommerce/gift-cards",
+  "telecom/esim"
+ ],
+ "product": [
+  "kodshop"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only catalog of KodShop gift cards, mobile top-ups and travel eSIM plans with prices and availability.",
+ "whenToUse": "Use when someone wants to look up gift cards, top-ups or eSIM plans and prices on KodShop.",
+ "tasks": [
+  "search gift cards and top-ups",
+  "search esim plans",
+  "get product denominations and prices"
+ ],
+ "effects": {
+  "98404a08cacbf3e998510de31844c444637bec181bf7fcbfbf6592d300363ca0": "read",
+  "4d8f64b08b71f31bcc2c75ce5e7e2489e23dd30fb212e48fb36305d63f8aa909": "read"
+ },
+ "flags": []
+}

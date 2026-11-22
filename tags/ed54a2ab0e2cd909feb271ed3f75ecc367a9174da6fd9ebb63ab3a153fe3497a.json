@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "ed54a2ab0e2cd909feb271ed3f75ecc367a9174da6fd9ebb63ab3a153fe3497a",
+ "domain": [
+  "software/api-access"
+ ],
+ "product": [
+  "cartena"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Remote connector exposing the Cartena API tools with OAuth sign-in.",
+ "whenToUse": "Use when a user with a Cartena account wants an agent to call Cartena API functions.",
+ "tasks": [
+  "access cartena api tools"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "d5a057aceaa577106f9c8ae9e98a547c65fc6d6ae9ee33535bfc050ece6f3e74",
+ "domain": [
+  "religion/buddhism",
+  "education/texts"
+ ],
+ "product": [
+  "dhamma-gift"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and reads the Pali Canon with Russian and English translations, edition comparison, a dictionary and an uposatha calendar.",
+ "whenToUse": "Use when studying Buddhist suttas, looking up Pali terms, comparing editions or finding uposatha days.",
+ "tasks": [
+  "search the canon",
+  "fetch sutta text",
+  "compare editions",
+  "compare translations",
+  "list texts",
+  "find uposatha days",
+  "look up Pali words"
+ ],
+ "effects": {
+  "2f82dee51cdb60735ac72640596d0638a9c3b04f0503f3611c71583d038f548e": "write",
+  "43c2d095631531d25ce650b92a4dd933d64b1775749771313f6052af6514e059": "read",
+  "28db2bc43db708c61e84d65c6e08ae0fa36336d4e3c4617012a293edf02dddee": "write",
+  "2244d07f6c004cb3fceaf3ea85d413f2f0d4c9e86ff8be4a10e901b6beb3885f": "read",
+  "ef0a94610989527fd2567acd51eb3b9c81c310b8019ec6ccd91bf0f0e31b6f53": "read",
+  "e74fa67694ab5a7b71a4055557a585c0563417dc8827caeb3ba9dc98e2a1deb1": "read",
+  "a296735ba30bade8ebdcf267c01a9aacfd36bdd89ed0fc5d8ad9129119595e53": "write"
+ },
+ "flags": []
+}

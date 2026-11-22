@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "fcfe264ac86f3a873996dabfed0a032d886048e6dbfec730a6cf5db0d6babec5",
+ "domain": [
+  "software/app-automation",
+  "software/testing"
+ ],
+ "product": [
+  "ios",
+  "android",
+  "harmonyos",
+  "electron"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets a coding agent drive and interact with mobile, TV, desktop and web apps.",
+ "whenToUse": "Use when a coding agent needs to operate or test an app on iOS, Android, HarmonyOS, TV, Mac or Electron.",
+ "tasks": [
+  "control mobile apps",
+  "control desktop apps",
+  "interact with web apps",
+  "test app behavior"
+ ],
+ "effects": {},
+ "flags": []
+}

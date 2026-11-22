@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "2f0cfd0830a62743bce14959f887c1d7b7737b11113f8b2cd7dce0fa024fe1db",
+ "domain": [
+  "finance/crypto",
+  "software/agent-safety"
+ ],
+ "product": [
+  "actiongate",
+  "stripe",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Safety layer that scores risk, simulates and applies treasury policy to proposed actions of autonomous agent wallets before they run.",
+ "whenToUse": "Use before an agent executes a wallet transfer, swap or approval, to check risk and policy.",
+ "tasks": [
+  "provision API key",
+  "check credit balance",
+  "create top-up checkout link",
+  "score action risk",
+  "simulate action",
+  "apply treasury policy"
+ ],
+ "effects": {
+  "ef96024c960a34e8a1574a47cda1323a9ad944ca419d9b2912df325c9a334c07": "write",
+  "ec1e06a776b3406eb8e23ccc657f79739e528e10a96e598a536fd7305539464b": "read",
+  "0a560d5fd4eacadc0e59de23dc67c805530a5d7e9a436f642438270642a7050a": "write",
+  "ce99fe60e85502febe14abd260ffa6b83069723e26929cdc1aec3d5dd0a74ec4": "write",
+  "2d2fd6474ec602dc78923d991596cf6f40566ec80b0d32d4dad352983f7881a5": "write",
+  "37d7b5191bcbcc6b638e70afe0168c1f56ac65a33fba29e36cccbbfec81e9501": "write"
+ },
+ "flags": []
+}

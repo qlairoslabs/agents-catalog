@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3b69f9b8205aa5b873affd0d74813c1eb1ae405968f47ae178a535d40c7bb164",
+ "domain": [
+  "software/cloud/infrastructure-as-code"
+ ],
+ "product": [
+  "aws-cloudformation",
+  "cloudtrail",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Guidance for authoring, validating and troubleshooting AWS CloudFormation templates with security and compliance checks.",
+ "whenToUse": "Use when writing or validating CloudFormation templates or diagnosing a failed stack.",
+ "tasks": [
+  "author templates with secure defaults",
+  "validate templates with cfn-lint",
+  "run cfn-guard compliance checks",
+  "run pre-deployment validation",
+  "use express mode deployments",
+  "diagnose failed stacks",
+  "correlate events with cloudtrail"
+ ],
+ "effects": {},
+ "flags": []
+}

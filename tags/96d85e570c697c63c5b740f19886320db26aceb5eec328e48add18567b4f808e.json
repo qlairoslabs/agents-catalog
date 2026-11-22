@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "96d85e570c697c63c5b740f19886320db26aceb5eec328e48add18567b4f808e",
+ "domain": [
+  "finance/ipo-analysis",
+  "finance/index-inclusion"
+ ],
+ "product": [
+  "bigdata-com",
+  "nasdaq"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Writes a day-14 post-IPO note assessing possible Nasdaq-100 fast-track inclusion, eligibility, index weight and passive demand for a new listing.",
+ "whenToUse": "Use when a user asks whether a recent large IPO could be fast-tracked into the Nasdaq-100 and what passive flows would follow.",
+ "tasks": [
+  "review two-week trading",
+  "check nasdaq-100 eligibility",
+  "estimate index weight",
+  "estimate passive demand",
+  "compare days-to-cover with adv",
+  "review historical index effect",
+  "list dated watch points"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "39e7136b6932434f8593a3bbd1bf15362d31dd2741a715236674bb85914e780c",
+ "domain": [
+  "healthcare/pharma",
+  "company-info"
+ ],
+ "product": [
+  "almirall",
+  "almax",
+  "hidroxil",
+  "calmatel",
+  "ciclopoli"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search Almirall's indexed brand and product content, retrieve pages and leaflets, and calculate Almax label dose limits.",
+ "whenToUse": "Use when answering questions about Almirall products such as ingredients, usage, leaflets or Almax dosing limits.",
+ "tasks": [
+  "search indexed content",
+  "retrieve pages and chunks",
+  "list sources and pages",
+  "find pages by title",
+  "compare products",
+  "find product mentions",
+  "find media assets",
+  "classify Almax prompts",
+  "calculate Almax dose limits",
+  "get official leaflet"
+ ],
+ "effects": {
+  "9a89e7af5d76211b44ca8dd3ed881e2be23b939003c9454d4bd330ed595ed1b0": "read",
+  "80555ca180d10a50231037f1833bb92731ea5a0fd4947e850b493f6616940ddc": "write",
+  "69a824a264abc972f1ec25f1ffa0ad8eac58d49b5d1f5e2b3d9b043a66c96783": "read",
+  "26db7c9691bcd4d8b749fe3e5d8d427dcfddc9f6956c1cb2b2c58d078b3fd108": "read",
+  "ce77ea7583a02ef908862822ba271e611938fa4341ecd7196977bfcf70764358": "read",
+  "46e4d0e02282366881a0d13bf6d6c0f41b417b9a0772dcf584123c5b683d2fa1": "read",
+  "9da0a139b6a8cc2539421616c37aa05773127e77fa4420153b0d5af84c56d66b": "read",
+  "f2c1e43d305f72dccf97eaf52d73018f63703a8b7969c808a6f35a7b4c045c5b": "read",
+  "539172e775817dbf8d7e13475fa31fef761b6fb16c60f60d70c9613039698330": "read",
+  "50eeb6786a41f6a30e6333e94fc62e0c5616497984e0af3d83258304c173b251": "read",
+  "ffedd75c1bcca7935396824acd4742e16dec33775aa3b1ffa8a3a5a6ff83fb02": "read",
+  "dd29e5dfd5a46519bd8fdb53a2e000ee564755971c2b38b6619c848d3f5ffd17": "read",
+  "314d3068e90e5dc29e52793e5977ddc9ebbd90f5bc39f7312a200d41ae7a907c": "read",
+  "d63e32eaaba865281bb812e1af9abeea08c6c1079997037f1b1778d80f0c8e70": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,68 @@
+{
+ "classifier": 2,
+ "contentHash": "a1bddd27b53fd7116685dd83dd7fb4d95dca684fb25bdf1ded765962c0e920b9",
+ "domain": [
+  "software/database-safety",
+  "software/ai-agent-guardrails"
+ ],
+ "product": [
+  "sqlguard",
+  "postgres",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Paid gate that issues signed certificates authorizing AI agents' production SQL writes, with a free risk probe, verification and affiliate tools.",
+ "whenToUse": "Use when an agent wants a signed, verifiable authorization or risk check before running mutating SQL against a production database.",
+ "tasks": [
+  "probe SQL risk",
+  "mint DENY challenge",
+  "unlock PASS window",
+  "issue execution certificate",
+  "verify certificate",
+  "gate execution",
+  "bind intent mandate",
+  "prepaid credits",
+  "list denials",
+  "affiliate referral"
+ ],
+ "effects": {
+  "c0290050564bb135dbc8a75a9d2ef684f80d5b6117f0a1fb254de510a8084d6b": "read",
+  "e585b91771fb3f736af9201208eba72ed7ac15fa7b497a1eac26fb527650e93c": "read",
+  "770078876078e923226771b40e05fa6f85d5d35c0d5a7dd2a9f694425e6393a4": "write",
+  "2f860ddeee3e6fc2a49b26e9f6e9444d3fa58f66787b8d6fc85b9155aa14f040": "risky",
+  "05f8dfefe9b74255c418d2c701dcd97a5cf6a834b457b99b45af1ee7d52516b1": "read",
+  "3bf451416aa6c56454d4250ea2dbab579147f0d9af5b43e69789a15ae33e0e10": "read",
+  "d3ffaec12eb84a95f1517dc5ec65d5bbe68a697144cfa57bbae5f9f3b59fbbef": "read",
+  "afa7da615256b731df9132e6a9ef59f1749650a54b96576a96e23cdaa483cb8b": "read",
+  "9eac83fff3d421ba698ef40468ef2388590673a0b93bb8d380bf8d25dcdcfbfb": "risky",
+  "34cbf5b6825238cd2b11de1b3eee4fa27043ddca086bf32b968d23361580d714": "risky",
+  "0fd640bfb51d3df6fefcd880620a7610580021d252ff16b3fbc21b7848152948": "risky",
+  "6e71e26cf8ceb2cd71d79f68c2a20f07c980c0275671ac5da8ffae4342249196": "read",
+  "bfa5fd990fe30577b7319bbaf3a5090459654738544758386352547fb6730713": "read",
+  "0cc8dcdf317b12ea46597832f4483e39e63dbb492543111ff4585dde57c32d76": "risky",
+  "6d4e95618f1f01c3b2ad8922388786bc7ab288949b4f4e7606471445dec12e41": "write",
+  "5e44599e2cf5ca6b01bf9d12934282488988ac005a1089fc25705a8fb3b40ed5": "risky",
+  "c5f6447ba659e0436a603cd9e1dca64c5f8c604e2f4396862520d6824da7f327": "read",
+  "ba1f679c8783550d911c072d2bee2e576f2c2f02d2c4760f97e529831f1cd4fc": "risky",
+  "c094b917f74bc30bef0dec33407b1269b76c4fbfe695e0b5981259b2b959811e": "write",
+  "7d8df26bc3ee90ecb0e6d61b1189b4b831a900d794b4784373a252c691535b09": "read",
+  "136aab51a0932c926d67c4e1d55606178d4dd3d79b60c027912d82841fbff821": "read",
+  "d6781c9d79c848411415107ec572a161b74e6e46dd507b0a822213939d6e361b": "read",
+  "73e088c9204fb471b5cd09fecae12007bd9fb11ee3607b9cdbf67d275a77d748": "read",
+  "035d0561703528f4eacc389209f3be14036c3175d84067f0e16e3809fce10715": "read"
+ },
+ "flags": [
+  "tool descriptions repeatedly steer agents to a $100 USDC purchase",
+  "sqlguard_require tells agent runtimes they MUST block SQL writes until paid",
+  "aggressive upsell wording in tool descriptions"
+ ]
+}

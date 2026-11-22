@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "afed4b726e1048f0ee63bd72c4d4ed167c53fb05047c27a4c1f54625bf445961",
+ "domain": [
+  "data/geospatial",
+  "software/workflow-orchestration"
+ ],
+ "product": [
+  "tilebox"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Queries Tilebox geospatial datasets, manages workflow jobs, deploys releases and searches Tilebox documentation.",
+ "whenToUse": "Use when working with Tilebox geospatial data or managing and deploying Tilebox workflows.",
+ "tasks": [
+  "query geospatial datasets",
+  "manage workflow jobs",
+  "deploy releases",
+  "search documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

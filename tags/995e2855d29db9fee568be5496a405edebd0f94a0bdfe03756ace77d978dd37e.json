@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "995e2855d29db9fee568be5496a405edebd0f94a0bdfe03756ace77d978dd37e",
+ "domain": [
+  "sourcing/suppliers",
+  "trade"
+ ],
+ "product": [
+  "reevol"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Search and compare a global supplier database by brief, name, HS code or country, with due-diligence signals, RFQ drafting and introduction requests.",
+ "whenToUse": "Use when a buyer needs to find, vet or contact manufacturers and trading companies, or a supplier wants to be listed.",
+ "tasks": [
+  "search suppliers",
+  "find by HS code",
+  "find by country",
+  "match by brief",
+  "get supplier profile",
+  "compare suppliers",
+  "draft RFQ",
+  "request introduction",
+  "request supplier listing"
+ ],
+ "effects": {
+  "f554005f9d29555707ab28f592242637b3bbdf7068ed2f9e5c8549351e93a40d": "read",
+  "60061e3e2722c2622c5ef15142bf89e9b9891d9d337041f7b312cf3a1ebc0090": "read",
+  "da82dbcf684d8abd7b4c182b96f83c948923f3048ce856e8891b63238f19bc4a": "read",
+  "8e1ef1ad1eb241c248876f4031a48b76d4b177a321a677978e53f8be4cda2ee8": "write",
+  "e2ee886e68994f4145bbd6f3bf4a3912010fc1cbf5882ca304a110eeb4068de5": "write",
+  "d78a61ebc63a4c664fad363abe2c3d668af0c2d8ef4a7b0e352de8e407788a2a": "read",
+  "82bc801d95c508fd902097ad2665b1446388464ead7fef043ea91ac04f7d0e96": "read",
+  "9bf39af2479c7f35ac63f5895650c105f9d27bbd7527f74bcfec7f8302864933": "read",
+  "a51b35ba1fd1f1a677754d1c9342fbc0bdf4d96072f582504e5ab472233e1b8a": "read",
+  "4928e2cced3dd8aa9ac6e1c1ed4d32dd44e2b33da234703b247e38ad03e9a3c4": "write",
+  "998cdb8057a6967bd270878b2d879553a226121d6bb341e856c0a460ce0065d3": "read",
+  "3caef02e636cec3d83967d326845962a8f7c8ffb9b7652c17672cebec1533fee": "write",
+  "938ea6a927d247282464163621009bc5c1138f1db141d57584472021c3734045": "write",
+  "0c86b1972ea62190488d95148172a5dc351eedcbb79588f6a5b469cd0a1bf4a7": "write"
+ },
+ "flags": [
+  "Search ranking favours paid suppliers among equally relevant results (disclosed in descriptions)"
+ ]
+}

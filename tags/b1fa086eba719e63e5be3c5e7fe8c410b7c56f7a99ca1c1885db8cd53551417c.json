@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b1fa086eba719e63e5be3c5e7fe8c410b7c56f7a99ca1c1885db8cd53551417c",
+ "domain": [
+  "shopping/price-comparison",
+  "ecommerce"
+ ],
+ "product": [
+  "amazon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Finds the cheapest Amazon US listings per unit and compares them with category medians and bigger pack sizes.",
+ "whenToUse": "Use when the user asks whether an Amazon price is good or wants the lowest cost per unit for a product.",
+ "tasks": [
+  "find cheapest per-unit listings",
+  "check category median price",
+  "find cheaper bigger pack"
+ ],
+ "effects": {
+  "3d8ddf4704b1f12f65f9af4a31f2ac7138d93bae0bea4901536fbb95d5f2dba4": "read",
+  "2f60432d740592fb9bc8796a8009d7a286d68671f7746507a34bfbaae063df4a": "read",
+  "a84f003a2cbd2a3973b9a160ea19664eb3713d3a805599e0b4f5acfbad6c30b4": "read"
+ },
+ "flags": []
+}

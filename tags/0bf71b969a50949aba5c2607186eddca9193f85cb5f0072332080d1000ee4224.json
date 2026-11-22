@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0bf71b969a50949aba5c2607186eddca9193f85cb5f0072332080d1000ee4224",
+ "domain": [
+  "ecommerce/product-data",
+  "ecommerce/taxonomy-mapping"
+ ],
+ "product": [
+  "google-merchant-center",
+  "shopify",
+  "amazon"
+ ],
+ "audience": [
+  "operations",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Normalizes product attributes and maps catalog items to Google, Shopify and Amazon category taxonomies in batches.",
+ "whenToUse": "Use when cleaning product feed attributes or assigning marketplace categories to many products.",
+ "tasks": [
+  "normalize product attributes",
+  "map products to google taxonomy",
+  "map products to shopify taxonomy",
+  "map products to amazon taxonomy"
+ ],
+ "effects": {
+  "8140668087bad6edd3a7905d348e2577d0dceff80c6d50c7678279b50445bdb9": "write"
+ },
+ "flags": []
+}

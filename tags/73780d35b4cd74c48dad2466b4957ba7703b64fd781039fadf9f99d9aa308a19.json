@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "73780d35b4cd74c48dad2466b4957ba7703b64fd781039fadf9f99d9aa308a19",
+ "domain": [
+  "automotive/car-wash",
+  "local-services/booking"
+ ],
+ "product": [
+  "washlib"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds car wash centres in France, shows live slots and exact prices, and prepares a pre-filled booking link.",
+ "whenToUse": "Use when someone wants to find, price and start booking a car wash in France.",
+ "tasks": [
+  "find centres",
+  "search available slots",
+  "list services",
+  "get centre details",
+  "quote booking price",
+  "start booking link",
+  "recommend wash formula",
+  "retrieve booking"
+ ],
+ "effects": {
+  "be1db65349e1111f7e01f2ca7add63c530c216a21019ca6a8f5473e9474ddfdd": "read",
+  "20c04b5e625d693f61b59ae50b23903615ed2aadf16b757ebda8aef03a11c1d6": "read",
+  "f073c23e94eeec68ca9bd122f847845c76a415f7726b2a70305298d6e19be092": "read",
+  "397fea1d82015a613cf7eded7f2b6985bb2615d6686dd34f39a5f8da702b7047": "read",
+  "37ad871d3556d40c883db1b30722c953baa5b5f0a0820af940d4199ed48057b9": "write",
+  "9f53dcb20bc5e4f40e573c1384ab5a17802de637fff3a9d9b24ea98adf47f4d9": "read",
+  "e1a3cc0ded20ca09cfcac61a011800444cb03688e5e7ad744039314b18130862": "read",
+  "0486dedba4beb6df25326930220b3169d77e1caaca14a21454c821ce0253b283": "read"
+ },
+ "flags": []
+}

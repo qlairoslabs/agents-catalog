@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1ddc9b251678b843ca0e3f6c9acd74cfa6358eb9cc273284876be67ce4b28571",
+ "domain": [
+  "sales/email-verification",
+  "sales/lead-enrichment"
+ ],
+ "product": [
+  "verifox"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Verifies email deliverability and finds business email addresses, singly or in bulk, via the Verifox API.",
+ "whenToUse": "Use when cleaning a contact list or finding a prospect's business email before outreach.",
+ "tasks": [
+  "verify single email",
+  "verify emails in bulk",
+  "find business emails"
+ ],
+ "effects": {},
+ "flags": []
+}

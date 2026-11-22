@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "e0c73c1feebf996d48b0f88e3d59f57555737f8685fbd878a3b1e1181ccc4ea6",
+ "domain": [
+  "automotive/repair-pricing"
+ ],
+ "product": [
+  "servicebuddy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Audits auto repair quotes against labor price benchmarks and finds service deals by US ZIP code.",
+ "whenToUse": "Use when checking whether a car repair quote is fair or finding repair deals nearby.",
+ "tasks": [
+  "audit repair quote",
+  "check labor price benchmarks",
+  "find service deals by zip"
+ ],
+ "effects": {},
+ "flags": []
+}

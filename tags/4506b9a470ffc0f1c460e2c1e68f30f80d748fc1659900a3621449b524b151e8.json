@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4506b9a470ffc0f1c460e2c1e68f30f80d748fc1659900a3621449b524b151e8",
+ "domain": [
+  "software/payments-monitoring",
+  "software/api-marketplace"
+ ],
+ "product": [
+  "x402-bazaar"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether a seller's x402 Bazaar resources are still listed in the public discovery catalog and flags missing ones.",
+ "whenToUse": "Use when an x402 seller wants to verify their paid resources are still discoverable.",
+ "tasks": [
+  "check listing status of resources",
+  "flag missing listings"
+ ],
+ "effects": {
+  "6de18d52585a8bd6df13623f8d7c6e91b01e80263e4bc81dc390681e23d47315": "read"
+ },
+ "flags": []
+}

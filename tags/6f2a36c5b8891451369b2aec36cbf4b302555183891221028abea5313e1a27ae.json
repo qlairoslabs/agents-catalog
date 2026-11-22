@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "6f2a36c5b8891451369b2aec36cbf4b302555183891221028abea5313e1a27ae",
+ "domain": [
+  "fashion/swimwear",
+  "wholesale/manufacturing"
+ ],
+ "product": [
+  "brazilian-bikinis",
+  "mar-egeu"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Swimwear manufacturer's catalogue, buying options and FAQ, with wholesale price list access and inquiry submission.",
+ "whenToUse": "Use when a retailer or brand wants wholesale, private label or custom swimwear from this manufacturer.",
+ "tasks": [
+  "company info",
+  "buying options",
+  "production facts",
+  "FAQ",
+  "commercial routes",
+  "success stories",
+  "search styles",
+  "get style",
+  "list categories",
+  "request price list",
+  "submit inquiry"
+ ],
+ "effects": {
+  "b05fbbd01383f352bab9768b78004aacf64c7cb2e712083e8b9648a153b2992f": "read",
+  "8a374be85a9238b1c0d9b41debbcc2b4f88c7a95d343316eb48cf7100f0942c1": "read",
+  "7c798fe43c51cb8696ff7cd551afa618b509de9c987f588080a02a93ee3ba574": "read",
+  "d7de799a725dbe534088f97ce2765f64109f53523bf3c2ca123e6ee2e2478aa8": "read",
+  "efa010ab9c822d809bc53642a3c0444f5c2bc9edef05f90b8acd0301d3ee7a59": "read",
+  "ae659bbe84f21335b6f602130c0ed8a5fcfb09ef47584261e787933f014f507b": "read",
+  "4d265a677f4cf93a3f10ce0e85386c40255b1cc07d00d617b3bfd8985a626bbe": "read",
+  "4b952eb2d40c35e18fae22c606ef0a8ac95c8d45876e368da9875e1abb852b49": "read",
+  "fa63f72efc967f6cec00f1beb7fabebd1136fb6b66c57f8af1179e815593b230": "read",
+  "b1278c21f4d780d6377a9a18d22ee300a5bae065dc535bcc6df235f2c0ce9109": "write",
+  "428e62efa443b0b2d58029dfc555b65e7a606a7c6c9f1bcb8712d77f15c70a57": "write"
+ },
+ "flags": []
+}

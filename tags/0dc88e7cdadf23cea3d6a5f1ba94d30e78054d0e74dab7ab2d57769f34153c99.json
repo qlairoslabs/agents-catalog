@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "0dc88e7cdadf23cea3d6a5f1ba94d30e78054d0e74dab7ab2d57769f34153c99",
+ "domain": [
+  "marketing/seo",
+  "data/web-scraping"
+ ],
+ "product": [
+  "bright-data",
+  "google"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Audits a website's technical and on-page SEO using live web data, including schema, hreflang, canonicals and search ranking checks.",
+ "whenToUse": "Use when the user wants to diagnose SEO problems, ranking or traffic drops, or review a site's technical SEO health.",
+ "tasks": [
+  "technical seo audit",
+  "detect js-injected schema",
+  "check hreflang and canonicals",
+  "review meta tags",
+  "check live serp rankings",
+  "diagnose indexing and crawl issues",
+  "review page speed and core web vitals"
+ ],
+ "effects": {},
+ "flags": []
+}

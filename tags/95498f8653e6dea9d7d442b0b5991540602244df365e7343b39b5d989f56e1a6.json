@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "95498f8653e6dea9d7d442b0b5991540602244df365e7343b39b5d989f56e1a6",
+ "domain": [
+  "software/website-monitoring"
+ ],
+ "product": [
+  "omniwatchguard"
+ ],
+ "audience": [
+  "operations",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Manages website change monitors and their alerts through the OmniWatchGuard service.",
+ "whenToUse": "Use when setting up or reviewing monitors that detect changes on web pages.",
+ "tasks": [
+  "create website monitors",
+  "manage monitors",
+  "manage alerts",
+  "review detected changes"
+ ],
+ "effects": {},
+ "flags": []
+}

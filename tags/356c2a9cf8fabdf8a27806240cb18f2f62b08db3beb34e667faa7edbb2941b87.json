@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "356c2a9cf8fabdf8a27806240cb18f2f62b08db3beb34e667faa7edbb2941b87",
+ "domain": [
+  "software/cybersecurity",
+  "education/reference"
+ ],
+ "product": [
+  "cyber-library"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Searchable free cybersecurity knowledge base with page reading, topic browsing and a planned-topic taxonomy.",
+ "whenToUse": "Use when you need reference material on security topics such as attack techniques or container escapes.",
+ "tasks": [
+  "search pages",
+  "read pages as markdown",
+  "list topics",
+  "get library outline",
+  "search planned topics",
+  "explore planned taxonomy"
+ ],
+ "effects": {
+  "20b73609c58626f8c5a4ca0b34668d677762c4d36e828938be48a4ecf2b241fd": "read",
+  "2d15f6d1b3ae531a96460b74a66a2733d1ee68fd14c024f20fb4899b59495c69": "read",
+  "cb7e2980ace7b60fceeb88289ba920fa2c72e31c7e9f352fc5f0ec9eaaf423b4": "read",
+  "620a798092a020ae517ee07ae23900d697f22a5a33142c66217f7ba7e3f232ad": "read",
+  "2bd217a63d0996b0c476f120844f0ad67fcfac7ba33a0ec0c87974bca93c17cf": "read",
+  "d7d9067fa6e135ba1d7a822c86596a3b8f1c3fcea3215c25fdf1154e7c6788a1": "read"
+ },
+ "flags": []
+}

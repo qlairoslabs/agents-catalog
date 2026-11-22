@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "8b6f65203a1acd22dc22b108a7a051ca7686773259e2858901b298c348d74fac",
+ "domain": [
+  "health/pharmacokinetics",
+  "health/peptides"
+ ],
+ "product": [
+  "doseplot",
+  "x402"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compound reference data, pharmacokinetic serum simulation and vial reconstitution calculators, with paid calls at $0.01 via x402.",
+ "whenToUse": "Use when a person wants compound half-life data, a simulated serum curve, or reconstitution math to relay to a human decision-maker.",
+ "tasks": [
+  "list compounds",
+  "get compound record",
+  "simulate serum curve",
+  "calculate reconstitution",
+  "suggest reconstitution presets"
+ ],
+ "effects": {
+  "b9bdce23998274a2a95505ebd3c3a1d7a7d774f54d4b64580b5d1f61ca6578fa": "read",
+  "7b857f31d33234f5a08c60fdea8254def14409200c45f84ac4d658a2ab3eaf5d": "read",
+  "49820504cc7c9476498692c9ff6fa34a12ec6f15d90ebb7dd6945ac17cfa9a79": "write",
+  "4eb98eab3aba8f131b320d5e11bc70f7411f6d23fe0f01c26a4f864b9f28540d": "write",
+  "23b9ef95e6b158fa30dfb4278ae7ce71ac8ea1e8f701e10a5965f4db52a21723": "write"
+ },
+ "flags": [
+  "medical dosing content involving injectables; outputs are stated as not for autonomous administration"
+ ]
+}

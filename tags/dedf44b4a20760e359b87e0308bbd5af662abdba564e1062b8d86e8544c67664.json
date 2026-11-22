@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "dedf44b4a20760e359b87e0308bbd5af662abdba564e1062b8d86e8544c67664",
+ "domain": [
+  "ai/cost-control",
+  "finance/spend-management"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Enforces per-agent spending caps and rate limits on AI agent calls before they run.",
+ "whenToUse": "Use when an agent's calls need budget checks or rate limiting before execution.",
+ "tasks": [
+  "set per-agent spend caps",
+  "check budget before calls",
+  "enforce rate limits"
+ ],
+ "effects": {},
+ "flags": []
+}

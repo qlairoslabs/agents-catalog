@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5bb72ab0e7fa6a167957300917ccd3c177610433204b30f556dabace209ccdcd",
+ "domain": [
+  "data/business-intelligence"
+ ],
+ "product": [
+  "looker",
+  "lookml"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to Looker to explore and query data through LookML.",
+ "whenToUse": "Use when answering data questions or working with LookML models in Looker.",
+ "tasks": [
+  "query looker data",
+  "work with lookml models"
+ ],
+ "effects": {},
+ "flags": []
+}

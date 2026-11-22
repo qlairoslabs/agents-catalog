@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8fe365730b96b117cc7e48971ae80f0637c4ed8b3cf5d5d69ae7623f64d4af7c",
+ "domain": [
+  "business/project-management",
+  "business/client-services"
+ ],
+ "product": [
+  "teamwork-com"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Official Teamwork.com connector for managing client projects, tasks and team work through an AI assistant.",
+ "whenToUse": "Use when an agent needs to view or manage projects, tasks or time in a Teamwork.com account.",
+ "tasks": [
+  "manage client projects",
+  "track tasks",
+  "coordinate team work"
+ ],
+ "effects": {},
+ "flags": []
+}

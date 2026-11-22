@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ea6e3313a91b826f94f0743454bd0dced3f297ae83e76f6ac06618930ee7b20b",
+ "domain": [
+  "software/system-administration",
+  "security/access-control"
+ ],
+ "product": [
+  "sentinelx",
+  "linux",
+  "macos",
+  "windows"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Lets an LLM operate Linux, macOS and Windows machines, with every action checked against an auditable allowlist.",
+ "whenToUse": "Use when an agent needs to run administrative actions on a computer under an allowlist with audit logging.",
+ "tasks": [
+  "run system commands",
+  "operate remote machines",
+  "audit actions"
+ ],
+ "effects": {},
+ "flags": []
+}

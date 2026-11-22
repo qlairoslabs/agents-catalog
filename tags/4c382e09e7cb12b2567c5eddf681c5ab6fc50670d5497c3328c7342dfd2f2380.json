@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4c382e09e7cb12b2567c5eddf681c5ab6fc50670d5497c3328c7342dfd2f2380",
+ "domain": [
+  "finance/crypto-payments",
+  "software/api-discovery"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Rates x402 paid APIs as pay, caution or avoid and helps discover x402 APIs ranked by actual paid usage.",
+ "whenToUse": "Use before paying an x402 API to check its trustworthiness, or to find x402 APIs.",
+ "tasks": [
+  "rate x402 api safety",
+  "discover x402 apis",
+  "rank apis by paid usage"
+ ],
+ "effects": {},
+ "flags": [
+  "hosted on raw ip-based sslip.io domain"
+ ]
+}

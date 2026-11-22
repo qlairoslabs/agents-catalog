@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d4473dbb06408837c5759d979c03abd8a5a0bc6dd40768feda4ade2cd74b15a0",
+ "domain": [
+  "media/transcription"
+ ],
+ "product": [
+  "convertaudiototext"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Transcribes audio and video from links, and reads and summarizes transcripts through a signed-in account.",
+ "whenToUse": "Use when a user needs a transcript or summary of an audio or video link.",
+ "tasks": [
+  "transcribe audio links",
+  "transcribe video links",
+  "read transcripts",
+  "summarize transcripts"
+ ],
+ "effects": {},
+ "flags": []
+}

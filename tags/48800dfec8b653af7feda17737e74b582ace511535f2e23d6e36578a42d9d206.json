@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "48800dfec8b653af7feda17737e74b582ace511535f2e23d6e36578a42d9d206",
+ "domain": [
+  "hr/job-search",
+  "hr/recruiting/market-intelligence"
+ ],
+ "product": [
+  "veritahire"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live US jobs sourced from employer career sites, checks if postings are still open, and offers hiring reports.",
+ "whenToUse": "Use when searching current US job openings or confirming a posting is still open.",
+ "tasks": [
+  "search live jobs",
+  "check if job is still open",
+  "generate competitive hiring reports"
+ ],
+ "effects": {},
+ "flags": []
+}

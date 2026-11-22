@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "167fc41053a50d6ebb7e08efa201fd054ae190265e48502692cdb550733adfe9",
+ "domain": [
+  "finance/crypto-payments",
+  "software/verification"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant"
+ ],
+ "summary": "Free x402 payment preflight check plus paid on-chain verification services for agents.",
+ "whenToUse": "Use before an agent makes an x402 payment or needs on-chain facts verified.",
+ "tasks": [
+  "preflight x402 payments",
+  "verify on-chain data"
+ ],
+ "effects": {},
+ "flags": []
+}

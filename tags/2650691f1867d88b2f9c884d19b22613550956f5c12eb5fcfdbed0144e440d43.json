@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2650691f1867d88b2f9c884d19b22613550956f5c12eb5fcfdbed0144e440d43",
+ "domain": [
+  "software/ci-cd"
+ ],
+ "product": [
+  "buildkite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps configure Buildkite Cache to save and restore dependencies between builds via cache.yml and cache keys.",
+ "whenToUse": "Use when the user wants to speed up Buildkite builds by caching dependencies or configure .buildkite/cache.yml.",
+ "tasks": [
+  "write cache.yml",
+  "configure cache keys",
+  "add cache fallbacks",
+  "save and restore caches",
+  "use checksum cache keys",
+  "configure cache store"
+ ],
+ "effects": {},
+ "flags": []
+}

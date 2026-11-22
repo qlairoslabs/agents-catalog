@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "105689414b26830c2e9e87ca56eeb6670e2f532684ca36053bed206fca1a4cd3",
+ "domain": [
+  "marketing/advertising",
+  "marketing/ad-optimization"
+ ],
+ "product": [
+  "adwhiz"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to a DEXUN AdWhiz account's ad accounts, AI recommendations and savings data.",
+ "whenToUse": "Use when the user wants to review their AdWhiz ad accounts, recommendations or savings.",
+ "tasks": [
+  "list ad accounts",
+  "view ai recommendations",
+  "view savings"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "55047c3ec45b8a761979a18731cfeb53d2add69c58851605cfbf619517345178",
+ "domain": [
+  "software/cybersecurity/compliance",
+  "software/development"
+ ],
+ "product": [
+  "vanta"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Connects Claude Code to Vanta to fix compliance test failures using remediation guidance and local repository context.",
+ "whenToUse": "Use when a codebase is failing Vanta compliance tests and needs remediation.",
+ "tasks": [
+  "view failing compliance tests",
+  "get remediation guidance",
+  "fix compliance issues in code"
+ ],
+ "effects": {},
+ "flags": []
+}

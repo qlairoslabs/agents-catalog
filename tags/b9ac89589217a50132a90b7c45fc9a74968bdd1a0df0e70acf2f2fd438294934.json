@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "b9ac89589217a50132a90b7c45fc9a74968bdd1a0df0e70acf2f2fd438294934",
+ "domain": [
+  "ai/retrieval",
+  "knowledge-management/search"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Local retrieval-augmented generation server for indexing and searching documents.",
+ "whenToUse": "Use when an agent needs to search local documents semantically without a cloud service.",
+ "tasks": [
+  "index documents",
+  "semantic search"
+ ],
+ "effects": {},
+ "flags": []
+}

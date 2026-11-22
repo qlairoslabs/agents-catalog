@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "6d86e26e126acbf6b7891f9e2264db09d287c578e66b69575de015b9301c0301",
+ "domain": [
+  "software/game-development"
+ ],
+ "product": [
+  "godot"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets agents edit, run and play-test Godot 4.5+ projects without installing an editor addon.",
+ "whenToUse": "Use when developing or testing a game in the Godot engine.",
+ "tasks": [
+  "edit game project",
+  "run game",
+  "play-test scenes"
+ ],
+ "effects": {},
+ "flags": []
+}

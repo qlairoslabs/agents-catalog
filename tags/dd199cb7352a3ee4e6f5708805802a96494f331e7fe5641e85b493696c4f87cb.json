@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "dd199cb7352a3ee4e6f5708805802a96494f331e7fe5641e85b493696c4f87cb",
+ "domain": [
+  "software/serverless",
+  "software/cloud/cost-optimization"
+ ],
+ "product": [
+  "aws-lambda",
+  "amazon-ec2"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Helps evaluate, configure and migrate workloads to AWS Lambda Managed Instances, including capacity providers and cost planning.",
+ "whenToUse": "Use when considering EC2-backed Lambda Managed Instances for steady high-volume workloads or cost savings.",
+ "tasks": [
+  "evaluate lmi fit",
+  "configure capacity providers",
+  "choose instance types",
+  "set multi-concurrency",
+  "schedule capacity scaling",
+  "compare lambda and ec2 costs",
+  "plan reserved instances or savings plans"
+ ],
+ "effects": {},
+ "flags": []
+}

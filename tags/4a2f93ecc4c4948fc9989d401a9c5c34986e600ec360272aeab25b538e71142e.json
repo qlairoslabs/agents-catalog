@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4a2f93ecc4c4948fc9989d401a9c5c34986e600ec360272aeab25b538e71142e",
+ "domain": [
+  "software/devops/uptime-monitoring",
+  "software/incident-management"
+ ],
+ "product": [
+  "phare"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "support-customers"
+ ],
+ "summary": "Manages uptime monitors, incidents and status pages in a Phare organization.",
+ "whenToUse": "Use when configuring uptime monitoring, handling incidents or updating status pages in Phare.",
+ "tasks": [
+  "manage monitors",
+  "manage incidents",
+  "manage status pages"
+ ],
+ "effects": {},
+ "flags": []
+}

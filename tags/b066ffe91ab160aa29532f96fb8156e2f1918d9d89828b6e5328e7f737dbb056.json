@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "b066ffe91ab160aa29532f96fb8156e2f1918d9d89828b6e5328e7f737dbb056",
+ "domain": [
+  "commerce/marketplace/amazon",
+  "analytics/profitability"
+ ],
+ "product": [
+  "amazon-seller-central",
+  "amazon-ads",
+  "seller-labs"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Exposes Amazon Seller Central and Ads data, including SKU profit with COGS, inventory, ads and orders.",
+ "whenToUse": "Use when analyzing an Amazon seller's profit, inventory, ads or orders.",
+ "tasks": [
+  "calculate sku profit",
+  "view inventory",
+  "view ad performance",
+  "view orders"
+ ],
+ "effects": {},
+ "flags": []
+}

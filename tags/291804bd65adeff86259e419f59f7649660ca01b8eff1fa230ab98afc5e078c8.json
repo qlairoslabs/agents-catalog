@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "291804bd65adeff86259e419f59f7649660ca01b8eff1fa230ab98afc5e078c8",
+ "domain": [
+  "community/discord",
+  "search/directory"
+ ],
+ "product": [
+  "discord",
+  "disdex"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Find public Discord servers by topic, language and size, check invite status and view member growth.",
+ "whenToUse": "Use when a user wants to find a Discord community or verify an invite link.",
+ "tasks": [
+  "search servers",
+  "get server details",
+  "get member activity",
+  "check invite",
+  "get index stats"
+ ],
+ "effects": {
+  "e80c1bc8185fbc4cb1918d6cd45837bf69252cfb65b77ae9c29236db68970901": "write",
+  "a27281ce34b4dd61d2684ba10abb308c3dc73653164bcf3c87e5082a2d70e1fd": "read",
+  "9162ef3ee5303d1f5247fc2d64ec9508ce7cc0b5e346a2b505f93603a1fbe82e": "read",
+  "fb7d15904916e32b4c1abd28e043aeef50dd03363e36ae4c6be330b9a9709743": "read",
+  "00c0e076058b4a75f838c66b1d95d18c6693d0cc7bb587bbf6fcf236e263d09d": "read"
+ },
+ "flags": []
+}

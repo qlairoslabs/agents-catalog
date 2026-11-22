@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "d924a526c6f97764743ffa0615ed6834b5d4243d684a7863cab86cec0b54aa55",
+ "domain": [
+  "education/exam-prep",
+  "education/upsc"
+ ],
+ "product": [
+  "sambodh-ias",
+  "upsc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "UPSC exam preparation: daily current affairs cards, practice quizzes with grading, previous-year questions and cited search over study material.",
+ "whenToUse": "Use when a UPSC aspirant wants current affairs, practice MCQs, past-year questions or syllabus explanations.",
+ "tasks": [
+  "get current affairs",
+  "read news card detail",
+  "start practice quiz",
+  "grade quiz answers",
+  "get previous-year questions",
+  "list study topics",
+  "search study corpus"
+ ],
+ "effects": {
+  "bace8d9b5f0ec08bd6fe17009a7294148b86ac6d42f1059bb5024782d95866fd": "read",
+  "7108f22cd4d6c9e8fa7492e89fe900189a917779a2b379f5683472b6d7724458": "read",
+  "4bd4bbe41ed055f929e00b138b2060973193f84eb70e8d0a61eee045658f086d": "write",
+  "32ca135c4e2910f3c22751755923494da7f28cbf43bd2201ddbf46da0e5944e4": "write",
+  "9ee29c7ae2256b34d75fb159863e0a18b2f4e10461fa2a80ba15af2855c38440": "read",
+  "a48ba5b3e14c19cba122b493cfcafbc4d2ffa8735351f93034ea4979f36692a3": "read",
+  "aa42eee74ba989fb02cdc40e4b47059190dcb3456ffa75ce670a55c46a4a405b": "read"
+ },
+ "flags": []
+}

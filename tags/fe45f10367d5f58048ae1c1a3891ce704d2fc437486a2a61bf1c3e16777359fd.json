@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "fe45f10367d5f58048ae1c1a3891ce704d2fc437486a2a61bf1c3e16777359fd",
+ "domain": [
+  "government/statistics"
+ ],
+ "product": [
+  "idescat"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Access to official Catalan statistics from Idescat, including the statistics list, tables, metadata, JSON-stat data and rendered Markdown tables.",
+ "whenToUse": "Use when someone needs official statistical data about Catalonia, such as population, economy or labour figures by territory.",
+ "tasks": [
+  "list available statistics",
+  "get statistic info",
+  "list tables for a statistic",
+  "get table metadata",
+  "retrieve filtered table data",
+  "list territorial divisions",
+  "render a markdown table",
+  "compute derived changes and shares"
+ ],
+ "effects": {
+  "a3b3166bb76fcc71d32ffce17f7850b9305c14f1fd13348d73a74e49bf67eb8f": "write",
+  "28318486f4ea989d762e0abd547a3e9b6d4bdccf90eb10de674a2fb31ed1e9d2": "write",
+  "ea6c29510f7dda4f1826c34f146fee112024b060df6e546f41138bbfffc47300": "read",
+  "8d2da12bfa77907a4bb55374bd8e481745f5d9b369cc97290aac8486f7f5dd16": "write",
+  "a15fdce89f05b5b7db4c1374ff842e4b1941993c85b97a0f7b53dd4110d64276": "write",
+  "34738bdd543be85a11c767a667a21152bc1fac2ec16d188ade235432176ef260": "write",
+  "337e8722d2a942712f7b8cff378777163dd7e7168536bf5b92db03f542d9f7c3": "write"
+ },
+ "flags": []
+}

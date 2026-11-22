@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "bc51af1e3c7afb2bc49821655eb003b9004dfc047136bb8732d97e12355535c0",
+ "domain": [
+  "home/smart-home",
+  "iot"
+ ],
+ "product": [
+  "chirp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Checks, adds and controls smart home sensors and automations in a user's Chirp home.",
+ "whenToUse": "Use when an agent needs to read sensor states or manage automations in a Chirp smart home.",
+ "tasks": [
+  "check sensors",
+  "add sensors",
+  "control automations"
+ ],
+ "effects": {},
+ "flags": []
+}

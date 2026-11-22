@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d1e67584131b4c155ee1daf2fd43d4808b2b69b0f941f3dd8c015e246fd71251",
+ "domain": [
+  "legal/court-rules",
+  "legal"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "schedule"
+ ],
+ "summary": "Provides judge-level filing rules, court holidays and enforcement data for US federal and state courts.",
+ "whenToUse": "Use when an agent needs filing requirements, judge-specific rules or court holiday calendars for a US court.",
+ "tasks": [
+  "look up judge-level filing rules",
+  "check court holidays",
+  "review enforcement data for courts"
+ ],
+ "effects": {},
+ "flags": []
+}

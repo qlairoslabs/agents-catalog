@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "745245f986ab55da6b676e8a95eedcdcddb379b3b5d26cad4d105ed1d0b2e357",
+ "domain": [
+  "software/test-automation"
+ ],
+ "product": [
+  "mabl"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs mabl automated tests, analyzes failures and queries results across mabl workspaces.",
+ "whenToUse": "Use when running or investigating automated tests managed in mabl.",
+ "tasks": [
+  "run tests",
+  "analyze test failures",
+  "query test results"
+ ],
+ "effects": {},
+ "flags": []
+}

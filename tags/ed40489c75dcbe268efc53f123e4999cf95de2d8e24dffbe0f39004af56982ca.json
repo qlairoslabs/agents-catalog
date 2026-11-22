@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "ed40489c75dcbe268efc53f123e4999cf95de2d8e24dffbe0f39004af56982ca",
+ "domain": [
+  "commerce/shopping",
+  "commerce/price-comparison"
+ ],
+ "product": [
+  "lmk"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Cross-merchant product search with price history, price comparison, deals, gift ideas and wishlist-based popularity signals.",
+ "whenToUse": "Use when helping someone find a product, compare prices across merchants or check whether a deal is real.",
+ "tasks": [
+  "search products",
+  "get product detail",
+  "compare merchant prices",
+  "get price history",
+  "find deals",
+  "get popular products",
+  "get trending products",
+  "suggest gifts",
+  "browse collections"
+ ],
+ "effects": {
+  "1e22466a6b162ced923036675cd95dbf0e59210fdb1eb518ebfbe1d40d840c1d": "read",
+  "e435d52a15bd53a70f68b352b9dc3d6980fb7214f0e74172c89b117592bbf508": "read",
+  "6b6223f923ed75ecd07142f7788d6dad53a4f7153e6bd2508a2000ac941d2dbc": "read",
+  "a0396d4f839d8a4ea13f880cd7411d5ca5634508b39650164f25ef4811988826": "read",
+  "63264c7e34770755f147bb1410245c6f6f55056a0528ad1773a93ca41d6a66a3": "read",
+  "70948b282a065e6015db95cb914877a0762f9da3d93e2fb6779b5de3957a281d": "read",
+  "01d10555962aff8716a8ef35b1e3e5c6e555ec9282c38ba372605e7d0ccf53dc": "read",
+  "9146e560b316750bd0772cf3405dced4b8031cabdd92ceff30aeb67e34cb61a9": "read",
+  "5fc9d9d9ad36ee3a4b55feaf731519793a3d62febb0e073d9ac37e3cfb6cc014": "read",
+  "3cf4c95d1c2c7c11b521785464a853af9d96e878440852c26a6ebd862ab4ef4d": "read",
+  "da784906c6331124297053f27a11ae22984bd54ee76b6fef8fca6bea5d56970f": "read",
+  "97c11004247f5a8f185521e0e883b4ca76c5ee6d623ec0874ab6820088263fff": "read",
+  "d41b9e63303718d79a186ddc4e068128d510a04d355811dc1c0d51344447c839": "read"
+ },
+ "flags": []
+}

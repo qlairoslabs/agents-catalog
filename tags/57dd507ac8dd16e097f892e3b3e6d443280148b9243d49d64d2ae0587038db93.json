@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "57dd507ac8dd16e097f892e3b3e6d443280148b9243d49d64d2ae0587038db93",
+ "domain": [
+  "software/databases/nosql"
+ ],
+ "product": [
+  "mongodb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MongoDB MCP server and skills for connecting to databases, exploring data, managing collections and optimising queries.",
+ "whenToUse": "Use when working with a MongoDB database, from querying data to writing application code.",
+ "tasks": [
+  "connect to databases",
+  "explore data",
+  "manage collections",
+  "optimise queries",
+  "generate mongodb code"
+ ],
+ "effects": {},
+ "flags": []
+}

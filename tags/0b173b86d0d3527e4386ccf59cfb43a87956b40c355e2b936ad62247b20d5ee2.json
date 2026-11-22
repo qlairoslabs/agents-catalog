@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0b173b86d0d3527e4386ccf59cfb43a87956b40c355e2b936ad62247b20d5ee2",
+ "domain": [
+  "commerce/shopping"
+ ],
+ "product": [
+  "vesremont"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Search the Vesremont product catalog and perform shopping operations authorized by the buyer.",
+ "whenToUse": "Use when a user wants to find or buy products from the Vesremont store.",
+ "tasks": [
+  "search products",
+  "browse catalog",
+  "place buyer-authorized orders"
+ ],
+ "effects": {},
+ "flags": []
+}

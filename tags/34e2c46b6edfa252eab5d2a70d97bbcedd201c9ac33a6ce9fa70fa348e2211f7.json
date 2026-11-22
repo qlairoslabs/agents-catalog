@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "34e2c46b6edfa252eab5d2a70d97bbcedd201c9ac33a6ce9fa70fa348e2211f7",
+ "domain": [
+  "software/cybersecurity",
+  "compliance/cryptography-certification"
+ ],
+ "product": [
+  "nist-cmvp"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Looks up NIST FIPS 140 module certificates, vendors, sunset dates, related CVEs and the modules-in-process queue.",
+ "whenToUse": "Use when checking whether a product or vendor has a current FIPS 140 validation, when it expires, or whether one is in process.",
+ "tasks": [
+  "look up certificate",
+  "search validations",
+  "search modules in process",
+  "list vendor certificates",
+  "find cves for modules",
+  "list upcoming sunsets"
+ ],
+ "effects": {
+  "fd046dc69279cc900bb01c8e8be256cbe03234addbbd3f8c4a256807230248b7": "read",
+  "6dd05c15421d3276f590851fe5b5499e2007015c0de7b6e8e508129aee13e5fa": "read",
+  "4480dc3b80111a0f55377d5ed9b9412193e2faf13f99eb6d36ff8f50f1fe8829": "read",
+  "44a27d1540513a74375dfa6c373d097094f23dd2c281e87bcd4e98696f5ad9cf": "read",
+  "ed2ee4ba4c0b2060e1e18242d175224759b15a0aadadb97391bacc199aad2dea": "read",
+  "79b864694cfc5f60c3441a30ad28b4a3269dd3b4cd7ddf8228f5459a69d686cb": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a208e5399c6393239279c65fa12f07520d741fa3c8c2ed25385ac32db3afb63d",
+ "domain": [
+  "weather/marine",
+  "travel/outdoors"
+ ],
+ "product": [
+  "tidesatlas"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives tide times and heights, marine weather, sea temperature and sun and moon data for over 13,000 ports.",
+ "whenToUse": "Use when a user asks about tides, marine conditions or sun and moon times at a coastal location.",
+ "tasks": [
+  "get tide times",
+  "get tide heights",
+  "get marine weather",
+  "get sea temperature",
+  "get sun and moon times"
+ ],
+ "effects": {},
+ "flags": []
+}

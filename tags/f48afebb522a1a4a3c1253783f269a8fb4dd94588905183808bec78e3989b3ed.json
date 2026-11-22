@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f48afebb522a1a4a3c1253783f269a8fb4dd94588905183808bec78e3989b3ed",
+ "domain": [
+  "ai/machine-learning",
+  "cloud/aws"
+ ],
+ "product": [
+  "amazon-sagemaker",
+  "aws"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "AWS machine learning expertise for building, training and deploying models on Amazon SageMaker AI.",
+ "whenToUse": "Use when building, training or deploying machine learning models on Amazon SageMaker.",
+ "tasks": [
+  "build ml models",
+  "train models",
+  "deploy models",
+  "sagemaker guidance"
+ ],
+ "effects": {},
+ "flags": []
+}

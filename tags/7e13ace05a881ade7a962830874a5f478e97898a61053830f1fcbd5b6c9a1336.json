@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7e13ace05a881ade7a962830874a5f478e97898a61053830f1fcbd5b6c9a1336",
+ "domain": [
+  "data/databases",
+  "enterprise/sap"
+ ],
+ "product": [
+  "sap-hana"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Exposes over 150 SAP HANA database utilities from the hana-cli as MCP tools.",
+ "whenToUse": "Use when an agent needs to inspect or manage an SAP HANA database.",
+ "tasks": [
+  "inspect database objects",
+  "run database queries",
+  "manage hana schemas"
+ ],
+ "effects": {},
+ "flags": []
+}

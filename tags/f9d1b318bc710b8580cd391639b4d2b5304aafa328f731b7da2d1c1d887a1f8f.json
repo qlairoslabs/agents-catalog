@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "f9d1b318bc710b8580cd391639b4d2b5304aafa328f731b7da2d1c1d887a1f8f",
+ "domain": [
+  "travel/disruption-monitoring",
+  "travel/tourism-statistics"
+ ],
+ "product": [
+  "eurostat",
+  "tfl",
+  "sbb",
+  "entur"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Assesses European trips for strikes, weather and transport disruption, monitors watched trips for changes, and provides Eurostat tourism profiles.",
+ "whenToUse": "Use when checking whether a European trip is affected by disruptions or needing tourism statistics for an EU country.",
+ "tasks": [
+  "assess trip risk",
+  "watch a trip",
+  "report changes",
+  "explain silence",
+  "get trip updates",
+  "get daily briefing",
+  "list disruption events",
+  "get country tourism profile"
+ ],
+ "effects": {
+  "8e0532d995b5d76ee19afd74c681eef8e9f3add2297acf8d3b971e9dc1b9aebf": "write",
+  "c415c7e6556a0158627ad12a3d09a6584fd598d75c39fb16fd44af4610dbf854": "write",
+  "48c4f8de6bfadc410098b77001a453baf7612b6a236a536a55ae46a137d7d2dd": "write",
+  "c39b3fb90765e9a4a5ff9cd825f2d6acc67809e67978d6a68eb53f12534802e5": "write",
+  "252bbd0d68c15e59540b219baf347e8118846b3f8334439c4c3f3d5217b89003": "read",
+  "49897be30b29da1bb524e7e88f3ca2b7b2c4fefaa4bcadbfae691cdb770c1acc": "write",
+  "c13f19125b76f0650bb84abb976fa8de99ef3f6b00197ec506e2f8f8cef46157": "write",
+  "c7dbbefd55bb61a3b85e84cb570578d4a82ececb5694aeb033d2d2b745220726": "write"
+ },
+ "flags": []
+}

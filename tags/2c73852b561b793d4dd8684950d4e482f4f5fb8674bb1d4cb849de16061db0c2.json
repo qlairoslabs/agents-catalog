@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2c73852b561b793d4dd8684950d4e482f4f5fb8674bb1d4cb849de16061db0c2",
+ "domain": [
+  "sales/lead-generation",
+  "sales/company-intelligence"
+ ],
+ "product": [
+  "evolc"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches companies by fit, hiring activity and recent events with date windows, exclusions and supporting evidence.",
+ "whenToUse": "Use when an agent needs to find target companies or buying signals such as hiring or recent events for prospecting.",
+ "tasks": [
+  "search companies by fit",
+  "filter by hiring signals",
+  "filter by recent events",
+  "apply date windows",
+  "exclude companies",
+  "return evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

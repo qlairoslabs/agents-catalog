@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "621034ee02c44b664a9249b89b056983c2fd7287de63bf1cb56658055bf9c70f",
+ "domain": [
+  "ai/knowledge-bases",
+  "compliance/regulatory-knowledge"
+ ],
+ "product": [
+  "agent-module"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Supplies deterministic compliance and industry-specific knowledge bases to autonomous agents.",
+ "whenToUse": "Use when an agent needs reliable compliance or vertical domain knowledge to ground its answers.",
+ "tasks": [
+  "query compliance knowledge",
+  "query vertical knowledge bases"
+ ],
+ "effects": {},
+ "flags": []
+}

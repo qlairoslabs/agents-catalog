@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a2e9fb104d2cfef3c17b837844cbe65364a388c838931d894cc5a5ca4a11e5f3",
+ "domain": [
+  "travel/ground-transport",
+  "travel/booking"
+ ],
+ "product": [
+  "daytrip"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches, quotes and books private door-to-door car transfers through Daytrip in many countries.",
+ "whenToUse": "Use when planning or booking a private car transfer between cities.",
+ "tasks": [
+  "search transfers",
+  "get price quotes",
+  "book car transfers"
+ ],
+ "effects": {},
+ "flags": []
+}

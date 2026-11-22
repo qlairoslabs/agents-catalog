@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "837e1a0dc54e047a3ab160e592ca391c76d543232dcd4985b4a5f9d6be546724",
+ "domain": [
+  "hr/resumes",
+  "documents/pdf"
+ ],
+ "product": [
+  "resumemd"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "create-content"
+ ],
+ "summary": "Gives Markdown resume conventions, scores a resume, lists 32 templates and renders a Markdown resume to PDF without storing it.",
+ "whenToUse": "Use when drafting, reviewing or exporting a resume as a PDF.",
+ "tasks": [
+  "get Markdown guide",
+  "list templates",
+  "analyze resume",
+  "render PDF"
+ ],
+ "effects": {
+  "3da2b35bbafb6f3db8bafeb6060d2ea4278d9d0c447ae97579a9033ddbaf4092": "read",
+  "1065c3bb0081c8b075705288ab8048213a4cf591e3d78b747726dd65536f85cb": "read",
+  "8b223c42bdb33d2ec06c40bb9d90941862b1b0054c4e1d43f2c86be514f725be": "read",
+  "d84cbb522ba87f631194efbc141f872a275159425636650418a429e52c836d8a": "read"
+ },
+ "flags": []
+}

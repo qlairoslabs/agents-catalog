@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9b6567c6e913ae3310c2a37fdf6382bc4f4a7a8614940bb163b327e594f04358",
+ "domain": [
+  "data/news",
+  "research/media-monitoring"
+ ],
+ "product": [
+  "newsflash"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Real-time corroborated news events plus a five-year archive, with a free keyless tier.",
+ "whenToUse": "Use when an agent needs current or historical news events verified across sources.",
+ "tasks": [
+  "get real-time news events",
+  "search news archive",
+  "check corroborated events"
+ ],
+ "effects": {},
+ "flags": []
+}

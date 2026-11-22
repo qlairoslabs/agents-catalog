@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7cea2ec46b3bc03381169cf930a3a63651617aa5c60b236510654cd42ba84269",
+ "domain": [
+  "entertainment/music",
+  "entertainment/anime"
+ ],
+ "product": [
+  "anisongs",
+  "spotify",
+  "apple-music",
+  "youtube-music"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Anime song database for building playlists, with export to Spotify, Apple Music and YouTube Music.",
+ "whenToUse": "Use when a user wants accurate anime song information or to build an anime music playlist.",
+ "tasks": [
+  "search anime songs",
+  "build playlists",
+  "export playlists to streaming services"
+ ],
+ "effects": {},
+ "flags": []
+}

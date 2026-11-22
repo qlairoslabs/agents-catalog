@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c22674c5640435fe2b21c8b1a554e8a92ed4328d637467aa97916bdc1af75307",
+ "domain": [
+  "data/analytics",
+  "data/governance"
+ ],
+ "product": [
+  "matih"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Gives AI models governed SQL access, metrics, lineage and catalog information over an organisation's data.",
+ "whenToUse": "Use when an agent needs to query company data or look up metric definitions and data lineage under governance controls.",
+ "tasks": [
+  "run governed sql queries",
+  "look up metrics",
+  "explore data lineage",
+  "browse data catalog"
+ ],
+ "effects": {},
+ "flags": []
+}

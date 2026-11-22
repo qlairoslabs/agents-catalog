@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "482956fe6dbb94e6d431acf15b5e198bfbaaf1ea9816a82b1f25095f53e49474",
+ "domain": [
+  "business/trades-management",
+  "finance/invoicing"
+ ],
+ "product": [
+  "meistron"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid",
+  "schedule"
+ ],
+ "summary": "Queries and maintains a trades business's jobs, invoices, materials and time records in Meistron.",
+ "whenToUse": "Use when a craft or trades business needs to look up or update orders, invoices, materials or time entries.",
+ "tasks": [
+  "query jobs",
+  "manage invoices",
+  "track materials",
+  "record working time"
+ ],
+ "effects": {},
+ "flags": []
+}

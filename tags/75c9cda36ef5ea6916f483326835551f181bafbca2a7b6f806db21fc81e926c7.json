@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "75c9cda36ef5ea6916f483326835551f181bafbca2a7b6f806db21fc81e926c7",
+ "domain": [
+  "research/academic-papers"
+ ],
+ "product": [
+  "arxiv"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches arXiv, downloads paper text, explores citations and sets up paper alerts.",
+ "whenToUse": "Use when an agent needs to find, read or track scientific papers on arXiv.",
+ "tasks": [
+  "search papers",
+  "download full text",
+  "semantic search",
+  "explore citation graphs",
+  "set paper alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "301818f7eb3b50a699f42fc00d5d41b974650ee4cb38eb6f46be416cf93d771f",
+ "domain": [
+  "marketing/video",
+  "media/content-planning"
+ ],
+ "product": [
+  "youtube",
+  "runsheet"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "automate-work"
+ ],
+ "summary": "Plans, scripts and schedules YouTube videos and uploads them from the local machine.",
+ "whenToUse": "Use when an agent needs to plan, write, schedule or upload YouTube videos.",
+ "tasks": [
+  "plan videos",
+  "write video scripts",
+  "schedule videos",
+  "upload videos"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7db35654e302b28c0c1169834c9ad30dfc40daae8ed883d21f515878fdf1189c",
+ "domain": [
+  "telecom/caller-id",
+  "security/fraud-detection"
+ ],
+ "product": [
+  "callerkit"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up phone numbers to return caller names, spam reports and a fraud risk score, with name and email search.",
+ "whenToUse": "Use when identifying an unknown phone number or assessing whether a caller is spam or fraudulent.",
+ "tasks": [
+  "look up caller id",
+  "check spam reports",
+  "get fraud risk score",
+  "search by name",
+  "search by email"
+ ],
+ "effects": {},
+ "flags": []
+}

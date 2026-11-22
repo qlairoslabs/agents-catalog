@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "47a1fe7b5e0c485d481fcb28a5b64909108b4eb8563328d1097f637865db9f38",
+ "domain": [
+  "ai/retrieval-augmented-generation",
+  "knowledge-management/document-search"
+ ],
+ "product": [
+  "ragcreator"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Builds a RAG pipeline step by step and searches the user's own documents with cited answers.",
+ "whenToUse": "Use when setting up retrieval over private documents or searching them for cited answers.",
+ "tasks": [
+  "build rag pipeline",
+  "ingest documents",
+  "search documents",
+  "get cited answers"
+ ],
+ "effects": {},
+ "flags": []
+}

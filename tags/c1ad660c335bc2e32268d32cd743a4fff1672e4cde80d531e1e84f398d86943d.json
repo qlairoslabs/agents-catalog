@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "c1ad660c335bc2e32268d32cd743a4fff1672e4cde80d531e1e84f398d86943d",
+ "domain": [
+  "sports/recreation",
+  "events"
+ ],
+ "product": [
+  "jogo-team",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Finds pickup soccer, pickleball and other sports games across 70+ cities, with venue details, RSVP links and hosting guidance.",
+ "whenToUse": "Use when a user wants to find or host a local pickup game.",
+ "tasks": [
+  "list cities",
+  "list upcoming games",
+  "get venue details",
+  "platform overview",
+  "guide game hosting"
+ ],
+ "effects": {
+  "a1a382cadcf768e1c2d0bce941c9dceebeec52bbc1a0e938ac339cd654568edf": "read",
+  "20352f11efac4e09d0fdeab5a595769438a6e8a3040b49c708ce72b21ffe1620": "write",
+  "07585a0bce79d1f4ec6b9b69be5dcd9a4958e23668e23103f2989602d4a2bac3": "read",
+  "ffdceb702dc3e75f09a95dc2ae8c5e240e4209330caafcd5621e0136ed3c2c41": "read",
+  "fccf89c00936096b79c629e9be60610556749a52887dce825cba5768a4302dde": "read"
+ },
+ "flags": []
+}

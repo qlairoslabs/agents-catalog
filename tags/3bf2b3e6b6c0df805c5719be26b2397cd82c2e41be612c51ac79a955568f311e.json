@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "3bf2b3e6b6c0df805c5719be26b2397cd82c2e41be612c51ac79a955568f311e",
+ "domain": [
+  "sales/crm"
+ ],
+ "product": [
+  "capable"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "keep-in-touch"
+ ],
+ "summary": "CRM where the assistant proposes record updates and the user approves each field change.",
+ "whenToUse": "Use when updating customer records in Capable CRM with human approval of changes.",
+ "tasks": [
+  "propose crm updates",
+  "review contact records",
+  "approve field changes"
+ ],
+ "effects": {},
+ "flags": []
+}

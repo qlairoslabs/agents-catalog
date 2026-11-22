@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "b117c0ef24a4b909032ce108598c74fd060842533159c2f96a012008dc4a2c5c",
+ "domain": [
+  "finance/payments",
+  "ai-agents/security"
+ ],
+ "product": [
+  "foxify",
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Paid preflight checks that compare agent payments and consequential actions against mandates, destinations, expiry and replay risk before execution.",
+ "whenToUse": "Use before an agent makes an autonomous payment or a consequential action, to check it is authorized.",
+ "tasks": [
+  "read preflight info",
+  "verify payment intent",
+  "verify x402 payment request",
+  "verify agent action intent"
+ ],
+ "effects": {
+  "ca131fe0b0deb7ca1bdc63bd4a738d783e573adb2a6045cb7ce3ee727e9d2a4f": "read",
+  "60893c5104d81934416687e8613d0347f5d186c58d37ece7bd08980b831bccf6": "risky",
+  "50ad2d71dced94cffb38e9ac1bbeb078b5207aeb190a6136f8ab231baeb415fe": "risky",
+  "dc05d3c5c017d7f86ac703ee952642b3a08a61585127b38f25b5c31b8cefeea2": "risky"
+ },
+ "flags": [
+  "tools charge USDC per call (paid via x402)"
+ ]
+}

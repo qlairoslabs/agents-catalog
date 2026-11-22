@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "df336fd1414a6592075ded47db8c39003cb735f57a039e9e338fe01e5411ea71",
+ "domain": [
+  "software/frontend/ui5",
+  "software/development"
+ ],
+ "product": [
+  "sapui5",
+  "openui5"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps coding agents convert JavaScript-based SAPUI5 or OpenUI5 projects to TypeScript.",
+ "whenToUse": "Use when migrating a UI5 application from JavaScript to TypeScript.",
+ "tasks": [
+  "convert ui5 javascript to typescript",
+  "migrate ui5 project setup"
+ ],
+ "effects": {},
+ "flags": []
+}

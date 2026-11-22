@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0d095b9e58e05a07755cb91ffd175e00c59f893482e204bb986311ddd7ce3cd2",
+ "domain": [
+  "data/observability",
+  "data/quality"
+ ],
+ "product": [
+  "anomalyarmor"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Data observability tools covering alerts, freshness, schema drift, lineage and data quality checks.",
+ "whenToUse": "Use when an engineer needs to investigate data pipeline health, schema changes, lineage or quality alerts.",
+ "tasks": [
+  "view data alerts",
+  "check data freshness",
+  "detect schema drift",
+  "explore lineage",
+  "review data quality"
+ ],
+ "effects": {},
+ "flags": []
+}

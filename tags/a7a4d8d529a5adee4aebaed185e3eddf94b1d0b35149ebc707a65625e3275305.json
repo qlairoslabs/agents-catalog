@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a7a4d8d529a5adee4aebaed185e3eddf94b1d0b35149ebc707a65625e3275305",
+ "domain": [
+  "health/fitness/workouts"
+ ],
+ "product": [
+  "pacelab-intervals"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Creates and schedules interval workouts like Tabata, AMRAP and EMOM based on training history.",
+ "whenToUse": "Use when the user wants an interval workout planned or scheduled from their training history.",
+ "tasks": [
+  "create interval workouts",
+  "schedule workouts",
+  "read training history"
+ ],
+ "effects": {},
+ "flags": []
+}

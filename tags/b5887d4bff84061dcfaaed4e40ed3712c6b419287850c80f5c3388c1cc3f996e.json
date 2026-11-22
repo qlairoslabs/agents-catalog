@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b5887d4bff84061dcfaaed4e40ed3712c6b419287850c80f5c3388c1cc3f996e",
+ "domain": [
+  "software/devops/hosting",
+  "software/infrastructure"
+ ],
+ "product": [
+  "coolify"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Manages Coolify self-hosted infrastructure, runs diagnostics and searches its documentation.",
+ "whenToUse": "Use when an agent needs to manage or troubleshoot apps and servers on Coolify.",
+ "tasks": [
+  "manage applications",
+  "manage servers",
+  "run diagnostics",
+  "search documentation"
+ ],
+ "effects": {},
+ "flags": []
+}

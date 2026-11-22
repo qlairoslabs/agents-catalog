@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "71e8108788837b3c202ec0b0888dbc6ef5c826edcd6bf0d85e063006f807ff57",
+ "domain": [
+  "energy/solar"
+ ],
+ "product": [
+  "csolar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "run-the-money"
+ ],
+ "summary": "Estimates a home solar system, cost and payback from the electricity bill and checks whether a municipality is in CSolar's São Paulo service area.",
+ "whenToUse": "Use when a user in São Paulo state wants a quick solar sizing and savings estimate from their power bill.",
+ "tasks": [
+  "check service area",
+  "estimate system size",
+  "estimate monthly savings",
+  "estimate installed price and payback"
+ ],
+ "effects": {
+  "1e9ddbedd6c4dd4abf67fe09e606278f2e2315433d99dbfe02aedefe98e38129": "read",
+  "a4df384e8542ef56d9ebba6ae3fc017b64995e235bd23337b199a38870a8b086": "write"
+ },
+ "flags": []
+}

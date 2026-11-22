@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "bf27906ffda5bce54f4cea70f587975a554a6502fdabcdcfba80018b3d6c35b7",
+ "domain": [
+  "design/interior",
+  "design/paint-colors"
+ ],
+ "product": [
+  "muro",
+  "sherwin-williams",
+  "benjamin-moore",
+  "farrow-and-ball",
+  "dulux",
+  "behr"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches paint colours from 35 brands, finds cross-brand equivalents, and with credits repaints room photos in chosen colours.",
+ "whenToUse": "Use when choosing or matching paint colours or previewing colours on a room, facade or roof photo.",
+ "tasks": [
+  "search paint colours",
+  "look up a colour",
+  "find equivalent colours",
+  "list brands",
+  "check credits",
+  "visualize room in colours",
+  "fetch visualization",
+  "relight room"
+ ],
+ "effects": {
+  "213b9b514fd392d861bffe7c8d2e62b6ecdc193a35cf0a9db0b1a73fec40caeb": "read",
+  "43ac98b7c8c4535bba9eacc74f16fa33d157d900fe804cb1432763d8f9ab1d89": "read",
+  "dd51c6345098d32bce28da8636cf5fef5cde1b673cb0d3aba08bee16c32010bb": "write",
+  "77ab238a0e14525dbcdb26b56e397a4e2918309dd79e19f57a0e7bc2cbe5aeeb": "read",
+  "ef79fe04c95e16a14c6d996a5a664de4b94fe048081a451fcea825900adbb1b4": "read",
+  "26872048af650ec99018e2581883ef763e202255300c39cfa3f87f2ffd441de9": "write",
+  "6740b6e741b1592115480427af19fb92f9f27bcfec285922d468b5f901de8ca7": "read",
+  "522ac67e6daa6be22bc98f8698f5fecaa2a5ecfe561e22b97dd64e4eb0d4077c": "write"
+ },
+ "flags": []
+}

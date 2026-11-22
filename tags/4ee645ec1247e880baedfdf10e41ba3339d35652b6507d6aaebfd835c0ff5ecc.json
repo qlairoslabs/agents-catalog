@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4ee645ec1247e880baedfdf10e41ba3339d35652b6507d6aaebfd835c0ff5ecc",
+ "domain": [
+  "media/audio-editing"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Audio editing and analysis tools for loudness, spec checks, denoising, EQ, cutting, BPM and key detection without ffmpeg.",
+ "whenToUse": "Use when an agent needs to edit, convert or analyze audio files.",
+ "tasks": [
+  "measure loudness",
+  "check audio specs",
+  "denoise",
+  "apply eq",
+  "cut audio",
+  "detect bpm",
+  "detect key",
+  "convert formats"
+ ],
+ "effects": {},
+ "flags": []
+}

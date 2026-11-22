@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "bd3e726a9457425ee1196bfccf3c32b8289f3ecd6a2e31c6767925cd9e4de2e6",
+ "domain": [
+  "real-estate/commercial",
+  "business/office-space"
+ ],
+ "product": [
+  "matchoffice"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "work-as-a-team"
+ ],
+ "summary": "Searches commercial real estate listings such as offices and warehouses, shows location details and submits inquiries to providers.",
+ "whenToUse": "Use when a user is looking for office or commercial space and wants to contact a provider.",
+ "tasks": [
+  "search locations by area, type, facilities",
+  "get location details",
+  "submit inquiry"
+ ],
+ "effects": {
+  "b4ada907e6c0fe49dfe28392633986d24527b112fcfcd0f3e2ef5eeca9046d90": "write",
+  "4107d5996d40add39d071761c36409a74de7dfeb9b63be4132e3ee56e4c368d8": "read",
+  "770e1dcd8c7f7eaa88c37d64f0e848f4a96dc34af3155edb1a721c7a88fa0928": "write"
+ },
+ "flags": []
+}

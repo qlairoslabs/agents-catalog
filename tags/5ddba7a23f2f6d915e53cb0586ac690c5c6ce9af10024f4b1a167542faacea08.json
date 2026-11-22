@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "5ddba7a23f2f6d915e53cb0586ac690c5c6ce9af10024f4b1a167542faacea08",
+ "domain": [
+  "postal/letter-sending",
+  "logistics"
+ ],
+ "product": [
+  "briefverzenden"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Send physical letters from a PDF to 22 countries: get prices, upload the document, create a paid order and track status.",
+ "whenToUse": "Use when a user wants a PDF printed and mailed as a real letter, including registered post.",
+ "tasks": [
+  "list countries",
+  "quote price",
+  "upload PDF",
+  "create order with payment link",
+  "check status"
+ ],
+ "effects": {
+  "8587cbec5c7211f10523a227dcacaf2b97b595abd702996b745789207fb81c0e": "read",
+  "9bc3fc0d5ba8b893c6bdf66efd8ef996086bd99f55dd24a8181c6ccc7fd116d6": "read",
+  "baac9cc0de796103a9856001fcdf8580b332906d189760562974c6e794c9180e": "write",
+  "e5c23bc9e6cddecb9b09b99c384e028f7a4122a1627b616b1f61a4342d335b8d": "write",
+  "61c0320f1dfb871c79794df0e1ea62561f65f344d36e88da3c52627c1e3bbfac": "read"
+ },
+ "flags": []
+}

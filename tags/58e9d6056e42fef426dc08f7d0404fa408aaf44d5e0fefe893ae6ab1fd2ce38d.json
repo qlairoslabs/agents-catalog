@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "58e9d6056e42fef426dc08f7d0404fa408aaf44d5e0fefe893ae6ab1fd2ce38d",
+ "domain": [
+  "security/fraud-detection",
+  "documents/verification"
+ ],
+ "product": [
+  "bynn"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Detects manipulated, fake or AI-generated PDF and image documents.",
+ "whenToUse": "Use when an agent needs to check whether a submitted document or image may be forged or altered.",
+ "tasks": [
+  "analyze pdf for tampering",
+  "analyze image documents",
+  "detect ai-generated documents"
+ ],
+ "effects": {},
+ "flags": []
+}

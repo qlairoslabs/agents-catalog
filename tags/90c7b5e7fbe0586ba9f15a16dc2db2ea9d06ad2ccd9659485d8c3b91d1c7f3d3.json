@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "90c7b5e7fbe0586ba9f15a16dc2db2ea9d06ad2ccd9659485d8c3b91d1c7f3d3",
+ "domain": [
+  "content/documentation/screenshots",
+  "support/help-center"
+ ],
+ "product": [
+  "screenshotagent"
+ ],
+ "audience": [
+  "support",
+  "development"
+ ],
+ "goal": [
+  "support-customers",
+  "create-content"
+ ],
+ "summary": "Finds outdated screenshots in docs and help centers, recaptures, annotates and embeds updated ones.",
+ "whenToUse": "Use when documentation screenshots need refreshing after a product UI change.",
+ "tasks": [
+  "find screenshots",
+  "recapture screenshots",
+  "annotate screenshots",
+  "embed screenshots"
+ ],
+ "effects": {},
+ "flags": []
+}

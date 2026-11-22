@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "6aabb0e687a5e3970536a0b091620ec0400a7f1774f114a18980ad35cbeebc4d",
+ "domain": [
+  "finance/real-estate-lending"
+ ],
+ "product": [
+  "hmda",
+  "national-loan-provider"
+ ],
+ "audience": [
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides 2025 HMDA investor-lender rankings by state, a DSCR loan glossary, loan program details and indicative starting rates.",
+ "whenToUse": "Use when researching investment-property lenders, DSCR loan terms or indicative investor loan rates.",
+ "tasks": [
+  "rank lenders by state",
+  "aggregate lenders nationally",
+  "read HMDA methodology",
+  "look up glossary terms",
+  "list loan programs",
+  "get indicative rates",
+  "get company info"
+ ],
+ "effects": {
+  "8eded7116eb7375952fbb6ef3434688f44f972c8a0a9663ba984909fccc89458": "read",
+  "abc0a0385d21203cb028736c8965972535259c4505053a5edc801aa237137679": "read",
+  "63fbec54b464ad97c805855aa18e1b06bacf4486c000b29541e94a3bf113dedf": "read",
+  "4dfd3e257c869f16ad9245258b0d941ec63db445afb9de96e8438b2dee1b5be2": "read",
+  "0f98d73b70d22011ee04253092884708554276d609a4494b84e7a7dc090894b4": "read",
+  "8790594b87c495769ba605d5562645dac231c61667c9edef1f8dcb2f73656e2e": "read",
+  "cfbd7a9913eaaa35d3e0dce1cd44be1fa15df47b3f3ca260b5b267f61637a709": "read"
+ },
+ "flags": []
+}

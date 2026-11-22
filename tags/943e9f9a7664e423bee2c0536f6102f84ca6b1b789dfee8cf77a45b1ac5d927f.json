@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "943e9f9a7664e423bee2c0536f6102f84ca6b1b789dfee8cf77a45b1ac5d927f",
+ "domain": [
+  "logistics/freight",
+  "logistics/customs"
+ ],
+ "product": [],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Freight reference and validation tools covering ADR dangerous goods, HS codes, UN/LOCODE and freight math.",
+ "whenToUse": "Use when an agent needs to look up or validate freight codes, dangerous goods rules or shipping calculations.",
+ "tasks": [
+  "look up adr rules",
+  "look up hs codes",
+  "validate un-locode",
+  "calculate freight metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

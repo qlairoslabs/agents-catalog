@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "56056e8c19e9b09a3cea6f6fd330a3acf48c3300cb18396110ff5104283f7888",
+ "domain": [
+  "software/accessibility",
+  "software/testing"
+ ],
+ "product": [
+  "playwright",
+  "axe-core"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Scans web pages for accessibility issues using Playwright and Axe-core and reports violations.",
+ "whenToUse": "Use when an agent needs to audit a website for accessibility problems such as WCAG violations.",
+ "tasks": [
+  "scan page accessibility",
+  "report wcag violations",
+  "navigate pages",
+  "take screenshots"
+ ],
+ "effects": {},
+ "flags": []
+}

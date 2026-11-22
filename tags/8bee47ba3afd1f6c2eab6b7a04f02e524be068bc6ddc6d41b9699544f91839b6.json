@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "8bee47ba3afd1f6c2eab6b7a04f02e524be068bc6ddc6d41b9699544f91839b6",
+ "domain": [
+  "healthcare/practice-software"
+ ],
+ "product": [
+  "cloudmedico"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to CloudMedico's public product pages: overview, features, pricing, FAQ and AI assistant connections, with source links.",
+ "whenToUse": "Use when answering questions about what CloudMedico offers, its features or pricing.",
+ "tasks": [
+  "get product overview",
+  "search public pages",
+  "get features",
+  "get pricing",
+  "get FAQ",
+  "get AI assistant connection info"
+ ],
+ "effects": {
+  "c244c42e57eb5593f2dbd68a4670ba106fb38c39ddf821134b94c0e2c71a798b": "read",
+  "9fd44bfcd6ac2321c8dd239654c39468f43bbdbf30d935b977c6bb7d2e42a6fd": "read",
+  "b614f3534c601b9e7d598da5311e0eda9f84e92616539acd95c43170ed3b6e7b": "read",
+  "9bd573a38b3a8925ea7ef4a9b0bb6d7254927ad3984db46fa0988c5d7d05cd76": "read",
+  "357c05b3c16d18e9c2b5f517d01fa5f5739d1dc9da63c50fb6bab02dde249b4b": "read",
+  "094bfd8863583362cd45e82f6dc3b02509a6b7e2096ea53225bf47a6a803f705": "read"
+ },
+ "flags": []
+}

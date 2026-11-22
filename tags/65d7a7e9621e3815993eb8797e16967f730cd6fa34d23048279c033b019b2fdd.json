@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "65d7a7e9621e3815993eb8797e16967f730cd6fa34d23048279c033b019b2fdd",
+ "domain": [
+  "travel/beauty-wellness/booking"
+ ],
+ "product": [
+  "timeplex"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Finds Korean beauty and wellness shops, shows services and real-time availability, and builds booking links or requests.",
+ "whenToUse": "Use when a traveller wants to find or book a massage, head spa, salon or similar service in Korea.",
+ "tasks": [
+  "search beauty and wellness shops",
+  "get shop services and prices",
+  "check appointment availability",
+  "create booking link",
+  "submit concierge booking request"
+ ],
+ "effects": {
+  "a5ee4638cefae3767d897a760b3678a3533bc653d62930b3eb121179c455991f": "write",
+  "d158fe091068e778081b44264af9d8213f3bdcaad0b2dc46e6d294c78b5b384f": "write",
+  "f49e37a2854fdb12a811067192a7ea28c3d01c4f7e1358749826ab8b46352eb2": "write",
+  "38cd56b17fa4c3f81cf48dd6644567bc9fc1249ce53b95a5ec274706f42c9b8e": "write",
+  "93375806586b4d28402021efe8dc16259d9cc48fb4d38b82c0bb4e334756d2f2": "write"
+ },
+ "flags": []
+}

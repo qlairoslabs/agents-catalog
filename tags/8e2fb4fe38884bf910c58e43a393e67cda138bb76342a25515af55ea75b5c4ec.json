@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "8e2fb4fe38884bf910c58e43a393e67cda138bb76342a25515af55ea75b5c4ec",
+ "domain": [
+  "software/web-extraction",
+  "ai/context-optimization"
+ ],
+ "product": [
+  "stringer"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Converts a public URL or raw HTML into compact Markdown, with a free outline tool and paid per-call extraction after three free uses.",
+ "whenToUse": "Use when an agent needs the readable text of a documentation page or article with less token overhead than raw HTML.",
+ "tasks": [
+  "outline page sections",
+  "extract page as clean markdown",
+  "extract selected sections only"
+ ],
+ "effects": {
+  "fcfcd63ab917726669d273aaeb05fb73c9d6acb7d9feb52f4db3a61eb2a3f766": "risky",
+  "676c30ebc66e68d3b4065d407e997f2e60b88e754ba73f1765a482ea0dcca9e9": "read"
+ },
+ "flags": []
+}

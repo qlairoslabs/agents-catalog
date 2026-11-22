@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "b673582fe976ad1ac297b13e034e937f1d3ce07c61e52e2f6ebc9cbab7aaf747",
+ "domain": [
+  "research/ai-agents-news",
+  "media/news"
+ ],
+ "product": [
+  "openclaw",
+  "hermes",
+  "muse",
+  "cue",
+  "grok-bot",
+  "instinct",
+  "dot"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only feed of news, guides, weekly editions and source-backed comparisons for seven tracked AI agent products.",
+ "whenToUse": "Use when you need current, sourced information or comparisons about OpenClaw, Hermes and similar agent products.",
+ "tasks": [
+  "read latest agent news",
+  "search guides and reviews",
+  "read daily items",
+  "compare products",
+  "choose a product by constraints",
+  "list sources",
+  "sync change stream",
+  "read workflows"
+ ],
+ "effects": {
+  "67de30c38de8040edf668eb737256b033e419ecb93a5d944b85b79812eda1d80": "read",
+  "16a564ed7ff98404e9d6cb98a84171817a769b847a36bb0fba836373a596326d": "read",
+  "ee983a42f00feec14b273c12954586eab8e8de54fe40284c52fcd2c5f35f8a6c": "read",
+  "875faadb5f23f5ae48d7f28b1cb49b09094ba11ecb5276e102c5ae70f442c1d2": "read",
+  "b64970853b733aed93083b1cc2b59d70b294c0e9cc949b60af44ea47918fd040": "read",
+  "d043e91030443b33cfe09831dc657ec1b584a38afe04cb319ee678d7d5728b42": "read",
+  "02332cd7320f26025485fe81c9822f537d58e3227d2ee07c9fe72ffb33f5a385": "read",
+  "c593d140b4d46f292fac33daa0d8f4e16588385dfcdde66fe4e5ed02c0410493": "read",
+  "59c819ad23e0c7bcbef34d579d370d1c600e33a8615f4c91bde04a44ce467b37": "read",
+  "c340a957c37c8ef28408f3cd6971a1a0db5275a73e6077f8a739b1b3c32734b3": "read",
+  "832c741d7db2f12d2261c71280a49d6fef9aa48f2f7545b07c5237c57b8e2ca7": "read"
+ },
+ "flags": []
+}

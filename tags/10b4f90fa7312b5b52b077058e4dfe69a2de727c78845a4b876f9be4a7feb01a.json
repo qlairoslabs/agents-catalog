@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "10b4f90fa7312b5b52b077058e4dfe69a2de727c78845a4b876f9be4a7feb01a",
+ "domain": [
+  "software/testing/ai-testing"
+ ],
+ "product": [
+  "wopee"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Dispatches Wopee.io AI testing analyses and runs, and fetches their artifacts and results.",
+ "whenToUse": "Use when starting Wopee.io test runs or retrieving their results.",
+ "tasks": [
+  "dispatch test analyses",
+  "start test runs",
+  "fetch test artifacts",
+  "get test results"
+ ],
+ "effects": {},
+ "flags": []
+}

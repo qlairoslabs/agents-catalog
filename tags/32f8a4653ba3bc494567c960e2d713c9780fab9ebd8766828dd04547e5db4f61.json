@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "32f8a4653ba3bc494567c960e2d713c9780fab9ebd8766828dd04547e5db4f61",
+ "domain": [
+  "insurance/business-insurance",
+  "finance/quotes"
+ ],
+ "product": [
+  "kinro"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Talks to Kinro, a licensed broker's AI advisor, for US small-business insurance advice and carrier quotes, with document uploads.",
+ "whenToUse": "Use when a US small business owner needs insurance coverage advice or quotes.",
+ "tasks": [
+  "ask coverage questions",
+  "request carrier quotes",
+  "upload policy documents",
+  "read broker replies"
+ ],
+ "effects": {
+  "3442738dd9f9df8c6edb3c132665fdb1831b83a983eee3bf457e0b146c946d87": "write",
+  "f8a8a0f46690c869eb36d3cd505ee7445d80b56c57b02e65077715ac1e835391": "write"
+ },
+ "flags": []
+}

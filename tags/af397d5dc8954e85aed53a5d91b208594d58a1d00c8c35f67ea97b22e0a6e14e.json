@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "af397d5dc8954e85aed53a5d91b208594d58a1d00c8c35f67ea97b22e0a6e14e",
+ "domain": [
+  "compliance/privacy",
+  "web/cookie-consent"
+ ],
+ "product": [
+  "consentlayer"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Scans websites for trackers, configures GDPR/CCPA cookie consent banners and provides installation code.",
+ "whenToUse": "Use when making a website's cookie consent compliant with GDPR or CCPA.",
+ "tasks": [
+  "scan site for trackers",
+  "configure consent banner",
+  "get install code"
+ ],
+ "effects": {},
+ "flags": []
+}

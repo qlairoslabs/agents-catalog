@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "546705825a3d0bad37a56e22cb27cc495b6eb29d61a14c76bab36eabb6c008aa",
+ "domain": [
+  "software/monitoring",
+  "operations/uptime"
+ ],
+ "product": [
+  "yopingme"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Reports website uptime monitoring data including live status, incidents, response times and failed checks.",
+ "whenToUse": "Use when a user wants to check whether their monitored websites are up or review uptime history and incidents.",
+ "tasks": [
+  "get live site status",
+  "view uptime reports",
+  "list incidents",
+  "check response times",
+  "list failed checks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "595812edc484dfcf73d5caedc9023e5b28b3938759f8989807d3624b5334f24d",
+ "domain": [
+  "business/company-data/due-diligence",
+  "finance/risk"
+ ],
+ "product": [
+  "clickfile",
+  "egrul",
+  "fssp"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks Russian companies and sole proprietors by INN or OGRN using registry, financial, tax and bailiff data.",
+ "whenToUse": "Use when vetting a Russian counterparty by INN or OGRN for legal, financial or risk signals.",
+ "tasks": [
+  "look up company by inn",
+  "look up company by ogrn",
+  "get egrul registry data",
+  "get financial statements",
+  "check tax data",
+  "check bailiff proceedings",
+  "assess counterparty risk"
+ ],
+ "effects": {},
+ "flags": []
+}

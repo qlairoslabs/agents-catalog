@@ -1,0 +1,55 @@
+{
+ "classifier": 2,
+ "contentHash": "01ed40ac474d0d9f7d32aa0a71e38adc0cea62d39365249d3e2b67b9ab0e64a0",
+ "domain": [
+  "ai/tool-discovery",
+  "software/mcp-catalog"
+ ],
+ "product": [
+  "thedailyworkflow"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Catalogue search for AI tools, MCP servers, free open-source alternatives, workflow pipelines, tutorials, troubleshooting cases and prompts, plus a user's saved tool stack.",
+ "whenToUse": "Use when looking for an AI tool or MCP server, install configs, a free alternative to a paid product, a step-by-step AI workflow, or a fix for an MCP error.",
+ "tasks": [
+  "find free alternatives",
+  "search MCP servers",
+  "get install configs",
+  "search AI tools",
+  "find workflow pipelines",
+  "build pipeline link",
+  "search MCP tutorials",
+  "search Q&A fixes",
+  "search prompts",
+  "check saved stack health"
+ ],
+ "effects": {
+  "13d0b838df6b55b11f8367878374f62686bc074542b4193f2e6840629f15576b": "write",
+  "3611f5db4cf6d809262b84dae496ac1b246bc7127d12d92acc0f3aab1b6b8ced": "write",
+  "1e9174302706ca91128428159eff5e74adbd461fa46d49db5556945454ec4010": "write",
+  "1ee6c573a023d573b31b22d7d72f81667da2cc20bff912481b8fa7cc9e06fe9d": "read",
+  "a9235f8382811412323831e22ded6c35a6a48c7bb28edf631705cc254677c33e": "read",
+  "8c175b120554b66363f548b4bd7c2cabbad91874b14a7e03ff3d294f00bf9b81": "read",
+  "0b7b945e137a31eabed533d25c2490f5db0d3b13a71f577baead0d540c5d4ba1": "write",
+  "d3d1cfcc2681ec514dd0b4911a6897ff847846a471661dbbddc039040dcfd93a": "read",
+  "47488d8df18eddcad5f3f9af22d64dc93635334fda0be4d36443893784eaae29": "read",
+  "4acb4981c71e8ed72e964b565275b4440ccd7b5be6386271e5104dda01270a78": "write",
+  "abf44b73bd6c02f7e0cd3b859e5abf4384bc8ca7740d6a175ec98ead7d42b7b5": "read",
+  "af195b358b52b224740eaab11d334a886f0ffb59b724c4ec0592e9a976cd157a": "read",
+  "42dbf23149ad359d5ce8a95c69059a3ff4989e8e858da2b37f35f2a2c797f927": "write",
+  "4deffa5e15e04e779adbb96445630772e868880ae592c00d967e4832817f2c2b": "write",
+  "e1c57228d99f22cd8d4a3eeb53a8c7c049fe693daa68a6607b2f8568ccb41050": "write",
+  "4b1c14def7f6de6eed21ee83386125b43f74ccf96a2fe1248409a1f7671d0dfe": "write",
+  "c74ffb5d756b7fdbbe37dc7fb749cfd9304a81497b9db0eca59b2aa857c33b0f": "write",
+  "d7be829fc89f4e6daa68a34c64e48eda6d2de84d62c57fe4afc13a950decf548": "write",
+  "a97fc89f1eeb46f29fb442f1faf4ce0fa8a5aab2f451cee2047d544e3d9e4faa": "read"
+ },
+ "flags": []
+}

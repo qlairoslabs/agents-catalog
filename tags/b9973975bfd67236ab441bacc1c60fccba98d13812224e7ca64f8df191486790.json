@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "b9973975bfd67236ab441bacc1c60fccba98d13812224e7ca64f8df191486790",
+ "domain": [
+  "productivity/spreadsheets",
+  "data/analysis"
+ ],
+ "product": [
+  "microsoft-excel",
+  "power-query",
+  "vba"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Automates Microsoft Excel on Windows, including sheets, Power Query, DAX, VBA, tables and ranges.",
+ "whenToUse": "Use when an agent needs to build or edit Excel workbooks on a Windows machine.",
+ "tasks": [
+  "edit worksheets",
+  "manage power query",
+  "write dax measures",
+  "run vba",
+  "manage tables",
+  "edit ranges"
+ ],
+ "effects": {},
+ "flags": []
+}

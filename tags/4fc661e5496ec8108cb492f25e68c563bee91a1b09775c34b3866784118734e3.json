@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4fc661e5496ec8108cb492f25e68c563bee91a1b09775c34b3866784118734e3",
+ "domain": [
+  "software/hosting/static-sites",
+  "documents/api"
+ ],
+ "product": [
+  "demo.st"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Reserve a subdomain, upload a zip file and get a shareable hosted link, with an optional document API.",
+ "whenToUse": "Use when an agent needs to quickly publish a static site or demo to a public URL.",
+ "tasks": [
+  "reserve subdomain",
+  "upload zip site",
+  "get shareable link",
+  "use document api"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,64 @@
+{
+ "classifier": 2,
+ "contentHash": "d8c4c6be1fb9430d4c740c51be8125a0d047d592b68d8a78c435ba5e3b29ee4d",
+ "domain": [
+  "software/developer-utilities",
+  "software/web3"
+ ],
+ "product": [
+  "ethereum",
+  "uniswap"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Self-hosted set of deterministic developer utilities: JSON, base64, URL, hashing, JWT decoding, regex tests, and EVM helpers like keccak, selectors, CREATE2 and ERC-4626 math.",
+ "whenToUse": "Use when you need exact, side-effect-free data formatting, hashing, encoding or Ethereum computations instead of estimating them.",
+ "tasks": [
+  "format and validate JSON",
+  "base64 and hex encode/decode",
+  "URL encode/decode",
+  "generate slugs",
+  "hash text",
+  "generate UUIDs and random strings",
+  "decode JWTs",
+  "compute keccak256",
+  "compute function selectors",
+  "compute CREATE2 addresses",
+  "compute storage slots",
+  "decode calldata"
+ ],
+ "effects": {
+  "926885e4fcc130fbf8736657462a53acea16cda2701fed8e7f4bd1991ee825da": "read",
+  "f985cd5e110dc64c186e07a3e44be1a317454eeff0e88abe888c23f5791e7f56": "read",
+  "4133e93a2ce4aa1e351e3541a2c867e4e1887b1dfae1281beb9ec9e710c4114a": "read",
+  "207a67ccffa88fe4b2287b97917314a15076c54fbf8080950c9b5c09370db7ba": "read",
+  "b81fae96cf8f2c0930c2b5bfd98f6396c1f7ff9a706f503d352b89d95a8c4a7c": "read",
+  "9d706693e5848e4e207d4c40bb015997f13091e9754e114f9e1b965f14dcdbf6": "read",
+  "e4b0b297ea4a216f39e508268bf7d8ddd24e636952ade3bfd9fadddcf3efcc98": "read",
+  "fd7953216a61fea36e41079fdab9a5908be67e9046cb77556c8c115330bb9561": "read",
+  "08c64e6bc42463054ca6b4ca1432340bfb42537d847c6c21f63c6401810b8eac": "read",
+  "d8a11e08dd846f572e37709a154e8cca3bc75642948895a57b899e4bd1102529": "read",
+  "75f7c1a8fe5f96bbad919adbf248e5330249cb418baefbd641bcd17cc5b66f3a": "read",
+  "9d9c0e91e3b5cd9b8f0ed43fb55b42ca27e1703c4fd4ce1c38c502ca706d801d": "read",
+  "51bcde3e14ad2ebe216918f5da82f22f02ef92bfa96bdbf9f5cb3b24e00e0c94": "read",
+  "cfb6dd8b36373fadc137335536d61bbfba895ef00c1082a0862a9b3c2d73d598": "read",
+  "d09954dac3d9c540266ebfaadc7389540abc69cef1b6a7b17d3fef0a20eb0221": "read",
+  "136a29f3bd2c0d5c5e0960cdd775991af2087199e4b4a352287da063921a94cf": "read",
+  "d7a608580f8ad5fa75835cae74aea7a562dc328a5dbb7dd0a4e906271620696e": "read",
+  "9b1de9f54f47ca20a76fa7a9a1354826f6fb9f1fc6d23fec93cda0c07289368b": "read",
+  "7ef42ff10ff92dcad0da23a2651ac039654b59162d2fa36c5c70fb05f1078546": "read",
+  "4ceec7d0665f67cab9f293e000fdb5c23e8357650e0156066a6ae5bc13905d57": "read",
+  "22c38997cf47380633dcab0f9d65590603319ef8346997ca4b55a1818094ac9c": "read",
+  "ccfff8ac32003fe5b73f93451b23de3d2d1ffd4cb642d1966ccc5d36ce7feb89": "read",
+  "5e5c5e821e9751289c7ba7d82fa202852283e10a73bf17eff3d1e686d064356d": "read",
+  "25e53def90e3268537f8f36fac12e8aab35a46e529412012ba8f6f2f237bd739": "read",
+  "46884069b1c2a706eb900833e5011ab2289fd4ecdb04ce009090cf93003b8f99": "read",
+  "e794c5a6f4f08055aef661305e613c90cccf25c7dda0e7fc931ca554b0413352": "read"
+ },
+ "flags": []
+}

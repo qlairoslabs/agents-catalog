@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "20d0e80bd4e619daa6160a5af5fe253aacf7fc6171d2c26c2cab14de6c72974b",
+ "domain": [
+  "finance/ipo-analysis",
+  "finance/equity-research"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Writes a balanced note ahead of a 180-day IPO lock-up expiry covering terms, float and overhang, insider selling signals, positioning and historical effects.",
+ "whenToUse": "Use when a user asks about the impact of an upcoming IPO lock-up expiry on a stock.",
+ "tasks": [
+  "extract lock-up terms from prospectus",
+  "compute float and overhang",
+  "compare days-to-trade with adv",
+  "assess insider and vc selling signals",
+  "review short interest and options positioning",
+  "compare historical lock-up effects"
+ ],
+ "effects": {},
+ "flags": []
+}

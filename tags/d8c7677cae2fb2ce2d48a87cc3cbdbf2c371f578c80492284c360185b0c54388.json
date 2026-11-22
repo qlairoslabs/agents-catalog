@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "d8c7677cae2fb2ce2d48a87cc3cbdbf2c371f578c80492284c360185b0c54388",
+ "domain": [
+  "field-service/well-drilling",
+  "business/operations-management"
+ ],
+ "product": [
+  "drillerdb"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid",
+  "hire-and-manage"
+ ],
+ "summary": "Manages drilling jobs, customers, invoices, crews, schedules and well logs for well contractors.",
+ "whenToUse": "Use when a well drilling contractor needs to manage jobs, crews, invoices or well logs.",
+ "tasks": [
+  "manage jobs",
+  "manage customers",
+  "manage invoices",
+  "manage crews",
+  "manage schedules",
+  "view well logs"
+ ],
+ "effects": {},
+ "flags": []
+}

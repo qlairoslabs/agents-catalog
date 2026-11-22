@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "117bfb2c86eb45f3f062218dcc4a76be0073cc69026670e6fb55465c546e508d",
+ "domain": [
+  "software/networking/proxies"
+ ],
+ "product": [
+  "proxyempire"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Manages ProxyEmpire proxy accounts: balance checks, geo-targeted proxy list generation, 407 error diagnosis and sub-user management.",
+ "whenToUse": "Use when an agent needs to check or configure ProxyEmpire proxies, troubleshoot proxy authentication, or manage sub-users.",
+ "tasks": [
+  "check proxy balance",
+  "generate geo-targeted proxy lists",
+  "diagnose 407 errors",
+  "manage sub-users"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "b995d00f49cf6171025ef70298d0925ef88e85e1ba2d878eddc2719f9e59f7bf",
+ "domain": [
+  "finance/mortgage"
+ ],
+ "product": [],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Read-only mortgage calculators and published rate snapshots: payment, affordability, refinance break-even, PMI, closing costs and tax worksheets.",
+ "whenToUse": "Use when estimating mortgage payments, affordability, refinancing or related costs and tax effects.",
+ "tasks": [
+  "monthly payment",
+  "affordability",
+  "refinance break-even",
+  "amortization schedule",
+  "pmi estimate",
+  "closing costs",
+  "loan path note",
+  "published rates",
+  "rate outlook",
+  "state rate context",
+  "mortgage tax worksheets"
+ ],
+ "effects": {
+  "17462a91c9edf3209951b02a78ad80b5d89f128bf9956bc644094debdbb9a769": "read",
+  "559692ce2e5bf2ac6da79ccfcf1d63cbc71b3634fc6f62d88da0b965f66923a5": "read",
+  "5d991eeaf45085d74b09b59445b7d82b2a551d8446ff56aded7d3fe065317110": "read",
+  "261ff7e8705bc1ef29c2a615954ec9f0859a95812c1732eddbdc8497669ce2f3": "read",
+  "6c7472f17a11ad13db7ecb3f0186a6280ed953dfd45daf775e91df4747bad48a": "read",
+  "0e87117e5ccecf99fc200acf38981bcd6dfb601e28615c19cff9cb7776f483d0": "read",
+  "5be160b5351e534c491cba6389fda593ab1ae21a62214cf0de726482a67a841e": "read",
+  "d1a90462c6ac8ae839693f41e366aa1cbec3ac9374e9e3906079069ff14d1a41": "read",
+  "a8596b87ad7265b10198c50ca62c8f06df42e11d7d728533ee2193be60155f22": "read",
+  "2c2a6f8cbcf0574d061f20db19a8dd79341e9f96882187b897639a740cdb558f": "read",
+  "cceb4e493f705af8aa6823554fc0ec1a0cb2b755ab253bd307ef0436aa0af409": "read",
+  "099728c26a7723f1ee6d96ac434d6c1d16c7cd47953267d222724c791e18f16a": "read",
+  "97326d2ba1eea6608c2fd581a94d1eacee20b1d9bb8f4f31aa4ca514ea01b053": "read",
+  "d2087424ac1e7cb045a8cea8049adb6c23b9adb4b03a1556cf3d082498661723": "read",
+  "1dc0da4b43771dcd821d20bff2c72caa95d8ec34a953757f21b4915931dc850d": "read"
+ },
+ "flags": []
+}

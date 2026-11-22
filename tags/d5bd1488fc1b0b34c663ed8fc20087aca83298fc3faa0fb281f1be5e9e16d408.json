@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d5bd1488fc1b0b34c663ed8fc20087aca83298fc3faa0fb281f1be5e9e16d408",
+ "domain": [
+  "blockchain/evm",
+  "blockchain/defi-data"
+ ],
+ "product": [
+  "blockreq"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to BlockReq documentation, EVM JSON-RPC calls and on-chain DEX and wallet data.",
+ "whenToUse": "Use when an agent needs to query EVM chain state, DEX data or wallet data, or look up BlockReq docs.",
+ "tasks": [
+  "search blockreq docs",
+  "make evm json-rpc calls",
+  "get dex data",
+  "get wallet data"
+ ],
+ "effects": {},
+ "flags": []
+}

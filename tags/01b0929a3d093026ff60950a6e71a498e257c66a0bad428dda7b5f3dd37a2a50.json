@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "01b0929a3d093026ff60950a6e71a498e257c66a0bad428dda7b5f3dd37a2a50",
+ "domain": [
+  "software/development/edge-computing",
+  "operations/cloud"
+ ],
+ "product": [
+  "cloudflare",
+  "cloudflare-workers",
+  "wrangler"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Skills for building on Cloudflare's developer platform, including Workers, Durable Objects, Agents SDK, MCP servers, Wrangler and web performance.",
+ "whenToUse": "Use when building or deploying apps on Cloudflare Workers or related Cloudflare developer services.",
+ "tasks": [
+  "build cloudflare workers",
+  "use durable objects",
+  "build agents with agents sdk",
+  "build mcp servers",
+  "use wrangler cli",
+  "improve web performance"
+ ],
+ "effects": {},
+ "flags": []
+}

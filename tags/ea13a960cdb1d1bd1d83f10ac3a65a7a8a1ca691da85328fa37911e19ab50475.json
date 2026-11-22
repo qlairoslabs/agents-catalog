@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "ea13a960cdb1d1bd1d83f10ac3a65a7a8a1ca691da85328fa37911e19ab50475",
+ "domain": [
+  "hiring/job-board",
+  "company-info"
+ ],
+ "product": [
+  "va-jobs"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Read-only facts about the VA Jobs platform and Virtual Assistant International, including employer and assistant information, FAQs and support contacts.",
+ "whenToUse": "Use when a user asks how VA Jobs works for employers or virtual assistants or how to contact the company.",
+ "tasks": [
+  "get company overview",
+  "get platform overview",
+  "get employer posting info",
+  "get assistant info",
+  "read FAQs",
+  "get support contacts",
+  "get legal links"
+ ],
+ "effects": {
+  "526a62c077d0c3522f2f29a7663b163a3e1255bfc488bf8d214ebffde6d3df4e": "read",
+  "5792a3487be3eff96f54c7bff61ead326c0a04b843e8c7d56b77d5f7d187f8af": "read",
+  "e9a16ffe8a3cfaa374baa640e4235ed1dbe964ee0bd5041f04656dc70c130310": "read",
+  "d5be96cef2105787132816f8949209c84cf0b3f30af2a3808e10e595bae18314": "read",
+  "62e4ca1da3835acd60bac9022e299eb45d11fe0f8fe939eba330e1231b666711": "read",
+  "5b352123e81cb6b7644de0633298ce17c573a3201b49962e7a01729573235826": "read",
+  "36a6a69699c6ac5bbd787691d66ddea87b02157a6b4364b6da58a63827c925fc": "read"
+ },
+ "flags": []
+}

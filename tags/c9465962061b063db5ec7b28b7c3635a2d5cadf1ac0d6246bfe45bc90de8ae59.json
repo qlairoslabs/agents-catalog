@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c9465962061b063db5ec7b28b7c3635a2d5cadf1ac0d6246bfe45bc90de8ae59",
+ "domain": [
+  "productivity/workspace",
+  "productivity/workflow-automation"
+ ],
+ "product": [
+  "elasticflow"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to a team workspace with tables, documents, workflow automation and dashboards.",
+ "whenToUse": "Use when an agent needs to work with a team's Elasticflow tables, docs, automations or dashboards.",
+ "tasks": [
+  "manage tables",
+  "manage documents",
+  "run workflow automations",
+  "view dashboards and analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

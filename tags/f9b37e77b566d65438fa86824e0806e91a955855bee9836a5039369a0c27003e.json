@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f9b37e77b566d65438fa86824e0806e91a955855bee9836a5039369a0c27003e",
+ "domain": [
+  "design/ux-research",
+  "software/testing"
+ ],
+ "product": [
+  "syntheticuserlab"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Paid remote MCP for UX validation using simulated synthetic users, with analytics and checkout.",
+ "whenToUse": "Use when a user wants quick UX feedback on a design or flow from simulated users.",
+ "tasks": [
+  "run synthetic user tests",
+  "validate ux",
+  "view analytics",
+  "check readiness"
+ ],
+ "effects": {},
+ "flags": [
+  "templated-paid-mcp-series"
+ ]
+}

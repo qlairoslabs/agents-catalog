@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f814441e24aac5a57a4d805aff495e046fba2b4b1f5aeb0cbeb4e4aad9b5912d",
+ "domain": [
+  "data/data-catalog/lineage",
+  "analytics/business-intelligence"
+ ],
+ "product": [
+  "sidecar"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides search, lineage and impact analysis across data warehouse and BI tools.",
+ "whenToUse": "Use when an agent needs to find data assets or assess downstream impact of changes in a data stack.",
+ "tasks": [
+  "search data assets",
+  "trace lineage",
+  "analyze change impact"
+ ],
+ "effects": {},
+ "flags": []
+}

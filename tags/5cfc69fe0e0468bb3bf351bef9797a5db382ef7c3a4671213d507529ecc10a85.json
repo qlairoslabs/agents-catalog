@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "5cfc69fe0e0468bb3bf351bef9797a5db382ef7c3a4671213d507529ecc10a85",
+ "domain": [
+  "local-business/commercial-doors",
+  "facilities/maintenance"
+ ],
+ "product": [
+  "commercial-garage-doorman"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Business facts, site search and quote requests for a commercial garage door service in the Hamilton, Ontario area.",
+ "whenToUse": "Use when someone asks about commercial door repair or installation near Hamilton or wants to be contacted for a quote.",
+ "tasks": [
+  "get business facts",
+  "search website pages",
+  "read a website page",
+  "send quote request"
+ ],
+ "effects": {
+  "f4b2498379ab8cd6ca5a83d8994be0baa94528b94080c0e34eb9d3620800edf6": "read",
+  "46c9444e5f7cd86bf23ae41c5d3d59231faf520a89acf313d43d59ecbb605d74": "read",
+  "4a5f7492bbbb2f7eb4ed9eefbed7aa2e0bc509b27fdec330e37d928d2682cbbc": "read",
+  "d10ee6fd7db7d3e0fa8de015666fad314776c0821a2c59ae09d3c6d9a602cbd0": "write"
+ },
+ "flags": []
+}

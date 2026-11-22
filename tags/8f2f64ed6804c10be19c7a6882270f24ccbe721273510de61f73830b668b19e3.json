@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "8f2f64ed6804c10be19c7a6882270f24ccbe721273510de61f73830b668b19e3",
+ "domain": [
+  "web/data-extraction",
+  "monitoring"
+ ],
+ "product": [
+  "fetchdelta",
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Fetches public web pages as Markdown, diffs them against snapshots, extracts pricing text and runs 30-day page watches, paid per call in USDC via x402.",
+ "whenToUse": "Use when an agent needs current page text, change detection or pricing evidence and can pay small x402 fees.",
+ "tasks": [
+  "list catalogue",
+  "preview page",
+  "fetch page as Markdown",
+  "diff page snapshot",
+  "snapshot pricing pages",
+  "watch pages for 30 days",
+  "poll watch"
+ ],
+ "effects": {
+  "bd0cc3f150147f595d21d9e68362e1473fa479f18caa7b03aca4d3ec307851ca": "read",
+  "8614f8bf390918cfa2d784876bcdc310f047b9377358f9c25b873eda7884533b": "read",
+  "3d1129b98137fd7d9b9e8f0df1394ecef15b5a599161437c89d21d2a9d0901ad": "risky",
+  "d773998889c36361fedddfbe472c70c6c2f01a646cf5a8640fdf3e4b78e514c3": "risky",
+  "d294cca8acb4d4db24be87f316cfbeb6b667e1a621b490874b678dca1d033fda": "risky",
+  "0479556e08d269d436689021edad49f5f7f76f1cec5e89a1dfc5c38cc74196f0": "risky",
+  "d341816f67089dd184f6d0998c458c27dc9a48eb88e95acfa7030fd374bb6685": "read"
+ },
+ "flags": []
+}

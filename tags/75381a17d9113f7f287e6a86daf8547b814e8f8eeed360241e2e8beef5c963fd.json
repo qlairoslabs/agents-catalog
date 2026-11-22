@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "75381a17d9113f7f287e6a86daf8547b814e8f8eeed360241e2e8beef5c963fd",
+ "domain": [
+  "web/cms",
+  "software/developer-tools"
+ ],
+ "product": [
+  "umbraco"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Developer-oriented MCP server for working with an Umbraco CMS instance.",
+ "whenToUse": "Use when an agent needs to inspect or configure content types, content or settings in Umbraco CMS during development.",
+ "tasks": [
+  "manage umbraco content",
+  "manage document types",
+  "configure cms settings"
+ ],
+ "effects": {},
+ "flags": []
+}

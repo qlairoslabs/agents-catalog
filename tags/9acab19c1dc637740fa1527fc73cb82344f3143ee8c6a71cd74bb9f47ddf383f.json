@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9acab19c1dc637740fa1527fc73cb82344f3143ee8c6a71cd74bb9f47ddf383f",
+ "domain": [
+  "software/cybersecurity/privacy",
+  "identity-verification"
+ ],
+ "product": [
+  "affixio"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Generates and verifies zero-knowledge proofs with post-quantum attestations so agents can prove facts without revealing personal data.",
+ "whenToUse": "Use when an agent must prove a claim about a person or data without exposing the underlying personal information.",
+ "tasks": [
+  "create zero-knowledge proofs",
+  "verify proofs",
+  "issue post-quantum attestations"
+ ],
+ "effects": {},
+ "flags": []
+}

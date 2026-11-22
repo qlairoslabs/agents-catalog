@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "f78a27abf926a45037762a6039646ff19b0eca2aa090e79746d1c1c800bf36f9",
+ "domain": [
+  "communication/file-transfer",
+  "software/cybersecurity/encryption"
+ ],
+ "product": [
+  "srift"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "End-to-end encrypted peer-to-peer file transfer and chat sessions between people and AI agents, without accounts.",
+ "whenToUse": "Use when files or messages need to be exchanged securely between humans or agents through a host-approved encrypted session.",
+ "tasks": [
+  "start encrypted session",
+  "join session",
+  "approve or reject join requests",
+  "remove participants",
+  "check session status",
+  "list transfers",
+  "close session",
+  "diagnose network connectivity"
+ ],
+ "effects": {
+  "7118e1943060281b4af0f5f993b9c353897e1a8a53dfd07acc16636e4e5d4787": "write",
+  "c64ef246d80b1eab5940d6e52cff1628aaeaf03403321cdd3204271a0fc48360": "write",
+  "5a6bae7673b0e3ddf9dbe08ab6d68cd522b4e74cac0089bd73302cfaa7c534ef": "read",
+  "d4b74db69b90e404c88666afd55a1b0c63006c86e3343d59aeedac039fa59df6": "write",
+  "3fce974376d85def80d1df8797f102b516dbc5caf7bcfcf1850ec69ff7298989": "risky",
+  "8ae6a53e6d8ff6c4ea8be763b93060b867a452e7f13766be717efddaa418d321": "write",
+  "bbba305a570e02d7a4c91df886d822b54ebaf0306211df4b60f148390a6a1d63": "risky",
+  "031bb980dae532fa3f26126105bc4e00ca935f74eb3527ef1f87fa580edc2f22": "read",
+  "8468a8a4cf373b618c6f85eeb389d611e4c1bc3df5b32b7a5e6e9bfcf72b485d": "write"
+ },
+ "flags": []
+}

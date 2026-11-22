@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "a5bd37337bb00d4c9aa0cc4d0061a0c520d861acf0427f43e0b3968c2579e166",
+ "domain": [
+  "ai/expert-bots",
+  "education"
+ ],
+ "product": [
+  "urbot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Catalogue of 150+ vertical expert AI bots that can be browsed, chatted with, or exported as SKILL.md files.",
+ "whenToUse": "Use when you need a specialist persona or domain expert bot for a topic, or want a ready-made skill file.",
+ "tasks": [
+  "list bots",
+  "get bot card",
+  "chat with a bot",
+  "generate SKILL.md",
+  "search bots"
+ ],
+ "effects": {
+  "279355f599da93d2778744a6bd1ab8857d287017d4473dba77f50f4172710c15": "read",
+  "32707bf725202ae845d5570559c4e91886bc59581576414d550b2539fc60d327": "read",
+  "2c29b5835c98f0fc66472c2be79d41e9c34ca616a05fd1d2b6967e32c0f209bb": "write",
+  "7e4d2bc5cefa8bcc873a7ed6e81d16da662e91cac4e28bc8ade348d5270b0420": "read",
+  "85e7334ebb3603ac05e3a11ba80e98616586166e3f7abf7e4d5c1f64f92abfed": "read"
+ },
+ "flags": []
+}

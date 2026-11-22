@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "26a9e166ec636c0144265c15c6206b5862b8252133d822a9db1876525f76ea68",
+ "domain": [
+  "manufacturing/precision-machining",
+  "oil-and-gas"
+ ],
+ "product": [
+  "nov-grant-prideco",
+  "api"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "FEODE's precision machining and testing services and oilfield product lines, with drill-pipe reference specs and an RFQ submission tool.",
+ "whenToUse": "Use when sourcing machined oilfield components, subsea wellhead or abandonment equipment, or looking up drill string specs.",
+ "tasks": [
+  "get machining services",
+  "read intake terms",
+  "submit RFQ",
+  "get company profile",
+  "list products",
+  "get product specs",
+  "get certifications",
+  "search capabilities",
+  "look up drill pipe specs",
+  "get drill string guidance"
+ ],
+ "effects": {
+  "fdea2fa49801cffb96b21438aa8c4931dd10a7c20fb163ee2254f7215d4dbd2e": "read",
+  "2e85c182a1341c07ec3916fda6c8766ed8554d346c17057cc2f7577e4fe1a8b8": "read",
+  "4ae608754d23f4fa0f4d5114e9308ea26844fe69d0c1ea6d0b3706d79450dc64": "write",
+  "bdf9fbb4a29c2f2249e6858e3e8d829e4b754b62ef47fa56adcec75976c6a4af": "read",
+  "644c647c77f662baee3bcd999c4b7f8a37efcf1e869d7a51522668c348c13848": "read",
+  "73542a57ecdd7a93b6d890aebfe73971afc87c515697fbb6652b82447d24e497": "read",
+  "e7b5ead740057fca5f33bb183f89ab5f1f91f6b35037b2c2f1a1ced138ea585e": "read",
+  "d589cf255dab1f85315612d9fbb145bcac0b9d12f541a5fb420d12ff9a4a444f": "read",
+  "eb7f1b8ca368f6e1f562e50494a44bc1da2e25af161345778fd358bb20114429": "read",
+  "be854d68a217d6c6517352835fe5ea1bdbba36d70c74fd4c90896bf82682b694": "read",
+  "7f70d8b5475d83f0b28b393ce4157ccc139331ef221fcacab05a480e668edf36": "read",
+  "21d03da4c734378401da5ad7aa691eb80afadc22477b3129a843521947838ec0": "write"
+ },
+ "flags": []
+}

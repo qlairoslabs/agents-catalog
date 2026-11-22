@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a42ac2b343d3b26f2f7bf8f6af0416c2776b4d9420ff4ad703e185abc30906e4",
+ "domain": [
+  "data/web-search",
+  "research"
+ ],
+ "product": [
+  "google-search",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Google Search results through a single endpoint, paid per call in USDC using x402.",
+ "whenToUse": "Use when an agent needs Google search results and can pay per request in USDC.",
+ "tasks": [
+  "run google searches",
+  "pay per call in usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

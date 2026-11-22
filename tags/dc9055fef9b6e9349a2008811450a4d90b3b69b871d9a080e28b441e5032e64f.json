@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "dc9055fef9b6e9349a2008811450a4d90b3b69b871d9a080e28b441e5032e64f",
+ "domain": [
+  "software/testing/database",
+  "data/databases"
+ ],
+ "product": [
+  "azure-sql-database",
+  "testcontainers",
+  "xunit",
+  "jest",
+  "pytest"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Writes code-level integration tests that start an ephemeral Azure SQL Database container per test or suite using Testcontainers.",
+ "whenToUse": "Use when a user wants integration tests running against a real, disposable Azure SQL database inside test code.",
+ "tasks": [
+  "write integration tests against azure sql",
+  "set up testcontainers fixtures",
+  "create per-test or per-suite databases",
+  "tear down test databases",
+  "configure xunit, jest or pytest database fixtures"
+ ],
+ "effects": {},
+ "flags": []
+}

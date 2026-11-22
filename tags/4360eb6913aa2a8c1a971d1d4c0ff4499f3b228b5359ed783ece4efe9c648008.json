@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4360eb6913aa2a8c1a971d1d4c0ff4499f3b228b5359ed783ece4efe9c648008",
+ "domain": [
+  "productivity/meeting-notes",
+  "productivity/task-management"
+ ],
+ "product": [
+  "wizideo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches meeting transcripts, summaries and topics in Wizideo and creates follow-up tasks.",
+ "whenToUse": "Use when a user needs to find what was said in past meetings or create follow-up tasks from them.",
+ "tasks": [
+  "search meeting transcripts",
+  "read meeting summaries",
+  "browse meeting topics",
+  "create follow-up tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

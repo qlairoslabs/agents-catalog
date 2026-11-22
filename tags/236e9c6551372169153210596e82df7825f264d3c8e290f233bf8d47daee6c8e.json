@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "236e9c6551372169153210596e82df7825f264d3c8e290f233bf8d47daee6c8e",
+ "domain": [
+  "entertainment/movies",
+  "media/news"
+ ],
+ "product": [
+  "flickdirect",
+  "youtube",
+  "apple-podcasts"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Searches FlickDirect movie and TV content: facts, news, reviews, trivia, videos, podcasts and streaming links.",
+ "whenToUse": "Use when a user asks about a movie or TV title, entertainment news, trivia or podcasts.",
+ "tasks": [
+  "search movies and TV",
+  "read articles and reviews",
+  "find trivia and quotes",
+  "find videos and podcasts",
+  "get title details and streaming links",
+  "list upcoming releases"
+ ],
+ "effects": {
+  "c552e3854a700056814d83372a880eb000afea7a0c25525254d05cf2e0dda88e": "write",
+  "08ab32c5f01a709443d3b20e1dcce5cadce2bc7df8c4e27736c60c0b270ca69d": "write"
+ },
+ "flags": []
+}

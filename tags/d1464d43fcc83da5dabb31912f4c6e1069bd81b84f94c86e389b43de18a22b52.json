@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d1464d43fcc83da5dabb31912f4c6e1069bd81b84f94c86e389b43de18a22b52",
+ "domain": [
+  "media/transcription"
+ ],
+ "product": [
+  "riverscript"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Fetches the full text of a publicly shared RiverScript transcript or translation from its share link.",
+ "whenToUse": "Use when the user gives a riverscript.com share link and wants to summarise, quote or translate it.",
+ "tasks": [
+  "fetch shared transcript",
+  "fetch translation"
+ ],
+ "effects": {
+  "8f7e9874f9a1f40645b941977703447d51379f10d77dd3434fe6ca911184308f": "read"
+ },
+ "flags": []
+}

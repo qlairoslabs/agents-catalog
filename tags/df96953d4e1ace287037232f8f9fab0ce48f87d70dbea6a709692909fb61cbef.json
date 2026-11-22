@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "df96953d4e1ace287037232f8f9fab0ce48f87d70dbea6a709692909fb61cbef",
+ "domain": [
+  "business/erp/marine",
+  "finance/invoicing"
+ ],
+ "product": [
+  "yachtmaster"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid",
+  "automate-work"
+ ],
+ "summary": "Operates a YachtMaster ERP tenant covering boats, offers, projects, time tracking and invoicing.",
+ "whenToUse": "Use when a marine or yacht business needs to work with boats, quotes, projects, hours or invoices in YachtMaster.",
+ "tasks": [
+  "manage boats",
+  "create offers",
+  "manage projects",
+  "log hours",
+  "create invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

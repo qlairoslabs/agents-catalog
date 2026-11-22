@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "86637b2594f49de6fe9fbe7f155c0a080b88e1b0ffee55203cbb56944e01fa32",
+ "domain": [
+  "sales/outreach",
+  "sales/lead-enrichment"
+ ],
+ "product": [
+  "getsales"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Operates a GetSales workspace including tables, people, companies, enrichment, workflows, inbox, tasks and signals.",
+ "whenToUse": "Use when running sales prospecting, enrichment or outreach workflows in GetSales.",
+ "tasks": [
+  "manage tables",
+  "manage people",
+  "manage companies",
+  "enrich contacts",
+  "run workflows",
+  "read inbox",
+  "manage tasks",
+  "track signals"
+ ],
+ "effects": {},
+ "flags": []
+}

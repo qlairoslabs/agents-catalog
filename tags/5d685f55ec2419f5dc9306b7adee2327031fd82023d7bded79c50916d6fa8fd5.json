@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5d685f55ec2419f5dc9306b7adee2327031fd82023d7bded79c50916d6fa8fd5",
+ "domain": [
+  "design/design-systems",
+  "software/documentation"
+ ],
+ "product": [
+  "zeroheight"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Gives AI assistants access to zeroheight design system styleguides.",
+ "whenToUse": "Use when an agent needs design system guidelines, components or tokens documented in zeroheight.",
+ "tasks": [
+  "read styleguides",
+  "look up design components",
+  "look up design tokens"
+ ],
+ "effects": {},
+ "flags": []
+}

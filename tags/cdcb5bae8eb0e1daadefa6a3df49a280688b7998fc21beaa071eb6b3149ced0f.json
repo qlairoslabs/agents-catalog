@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cdcb5bae8eb0e1daadefa6a3df49a280688b7998fc21beaa071eb6b3149ced0f",
+ "domain": [
+  "marketing/training",
+  "marketing/tools"
+ ],
+ "product": [
+  "monetize-marketing"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Exposes the Monetize Marketing app's brain, mission, training, skills, library and software features via OAuth.",
+ "whenToUse": "Use when a Monetize Marketing member wants to access their app content and tools from an assistant.",
+ "tasks": [
+  "access brain",
+  "view mission",
+  "access training",
+  "use skills",
+  "browse library"
+ ],
+ "effects": {},
+ "flags": []
+}

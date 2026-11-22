@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9c8f28dd403464f3e132c914e0a29ba0996086c658d51b57850a4bd15f60b074",
+ "domain": [
+  "data/orchestration/migration",
+  "software/ai"
+ ],
+ "product": [
+  "apache-airflow",
+  "airflow-ai-sdk",
+  "apache-airflow-providers-common-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guides migration of Airflow projects from airflow-ai-sdk to the official common-ai provider 0.4+, including decorators, imports and LLM connections.",
+ "whenToUse": "Use when replacing airflow-ai-sdk with the common-ai provider or upgrading common-ai 0.1.x to 0.4.x.",
+ "tasks": [
+  "migrate llm decorators",
+  "update imports to common-ai",
+  "switch to connection-based llm config",
+  "upgrade common-ai versions",
+  "configure embedding operators and toolsets"
+ ],
+ "effects": {},
+ "flags": []
+}

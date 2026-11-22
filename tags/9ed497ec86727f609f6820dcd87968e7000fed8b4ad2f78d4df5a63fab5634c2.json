@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "9ed497ec86727f609f6820dcd87968e7000fed8b4ad2f78d4df5a63fab5634c2",
+ "domain": [
+  "hr/domestic-worker-recruitment",
+  "directory/agencies"
+ ],
+ "product": [
+  "gccdomestic",
+  "mohre",
+  "musaned"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "stay-compliant"
+ ],
+ "summary": "Searches and verifies GCC domestic-worker recruitment agencies, browses available workers, salary benchmarks and guides.",
+ "whenToUse": "Use when hiring a maid, nanny or driver in the Gulf and checking an agency's licence.",
+ "tasks": [
+  "search agencies",
+  "verify agency licence",
+  "browse available workers",
+  "get salary benchmarks",
+  "search guides",
+  "get platform guide"
+ ],
+ "effects": {
+  "7ed0870d2e6763da003d024c4c2e2073facf6f122b383d9a33a00d59b65091b3": "read",
+  "13848448fed91193de564828784b6e641310a8f56726be8ff859c9735bb6e472": "read",
+  "22cdba641c2ce01f202a7386ad2a6896dd9eb86cd5686a21e34b75aad7e3fc49": "read",
+  "ddbd85509202258a064959f132a348d792a18f2d7627e17b1b82bd2f7a17c424": "read",
+  "e0e4692664b12adacb299057c834fe1298c2c79d5b0590bbed208b50edb393b0": "read",
+  "e57b3003df07791d70454a3341f3f8d9483f31a8fb92dcd3bca6d176d99bc1a6": "read"
+ },
+ "flags": []
+}

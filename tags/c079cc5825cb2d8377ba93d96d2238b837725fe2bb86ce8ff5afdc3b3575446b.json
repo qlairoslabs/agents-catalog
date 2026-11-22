@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c079cc5825cb2d8377ba93d96d2238b837725fe2bb86ce8ff5afdc3b3575446b",
+ "domain": [
+  "software/databases/nosql",
+  "software/development"
+ ],
+ "product": [
+  "azure-cosmos-db"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Best-practice guidance for Azure Cosmos DB data modeling, partitioning, queries, SDK usage and vector search.",
+ "whenToUse": "Use when writing, reviewing or optimizing code or data models that use Azure Cosmos DB.",
+ "tasks": [
+  "advise on partitioning",
+  "optimize queries",
+  "review sdk usage",
+  "design data models",
+  "guide vector search"
+ ],
+ "effects": {},
+ "flags": []
+}

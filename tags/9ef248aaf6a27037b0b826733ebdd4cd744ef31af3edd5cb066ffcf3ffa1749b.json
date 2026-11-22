@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9ef248aaf6a27037b0b826733ebdd4cd744ef31af3edd5cb066ffcf3ffa1749b",
+ "domain": [
+  "software/cloud-cost-estimation",
+  "finance/budgeting"
+ ],
+ "product": [
+  "aws",
+  "aws-pricing-calculator"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "build-software"
+ ],
+ "summary": "Creates AWS cost estimates and produces shareable AWS Pricing Calculator links.",
+ "whenToUse": "Use when estimating the cost of an AWS architecture or sharing an estimate.",
+ "tasks": [
+  "create aws cost estimates",
+  "generate shareable calculator urls"
+ ],
+ "effects": {},
+ "flags": []
+}

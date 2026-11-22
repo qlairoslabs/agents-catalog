@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "dee62695cfd7d38f8e1afca92409c39c052f1b1541e4dade858a4e9b24813dd7",
+ "domain": [
+  "science/chemistry/drug-discovery"
+ ],
+ "product": [
+  "covasyn"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Deterministic chemistry tools for drug discovery: ADMET prediction, docking, lipid nanoparticles, DoE, retrosynthesis and ICH M7.",
+ "whenToUse": "Use when a task involves computational chemistry or drug discovery analysis.",
+ "tasks": [
+  "predict admet properties",
+  "run molecular docking",
+  "design lipid nanoparticles",
+  "plan design of experiments",
+  "plan retrosynthesis",
+  "assess ich m7 impurities"
+ ],
+ "effects": {},
+ "flags": []
+}

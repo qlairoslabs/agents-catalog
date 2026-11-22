@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "bcdc09666badd9a6e46801cb81799aa0ac0b06b3e89a41c264bc65336e2ffe0c",
+ "domain": [
+  "software/mobile-development",
+  "software/documentation"
+ ],
+ "product": [
+  "capacitor",
+  "ionic",
+  "capawesome"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Unofficial server for searching Capacitor docs, listing plugins and reading recent Ionic blog posts about Capacitor.",
+ "whenToUse": "Use when writing or upgrading Capacitor apps and you need accurate docs or plugin info.",
+ "tasks": [
+  "search docs",
+  "read doc page",
+  "list plugins",
+  "list blog posts"
+ ],
+ "effects": {
+  "c16ac4532d9f73d6be0b2e25d4bb3c9a76e85127d15407b46e8ab6b2f6199a2f": "write",
+  "9c379a1767d7650e2469c94bd3b450eb1228f7bd5b2a4ce6a51628b6c5321007": "write",
+  "b0d1337d7be09d8b4af45b456984431341d1a10dcb70860bc188e881300afddd": "write",
+  "6f8ec77f75951fa495753cc2e11ca3077d23396c5a5a1d9813da686ba55e9fb8": "read"
+ },
+ "flags": []
+}

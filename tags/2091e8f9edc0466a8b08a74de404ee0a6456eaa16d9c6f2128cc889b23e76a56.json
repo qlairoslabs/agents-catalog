@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2091e8f9edc0466a8b08a74de404ee0a6456eaa16d9c6f2128cc889b23e76a56",
+ "domain": [
+  "finance/fundamental-data",
+  "finance/sec-filings"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides detailed fundamental data, operating KPIs and SEC filings for public companies.",
+ "whenToUse": "Use when analysing public company operating KPIs or SEC filing data.",
+ "tasks": [
+  "get operating kpis",
+  "read sec filings",
+  "get fundamental data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "00072dce57eaa3d7ce7bd91ed6196708024e078b4036cd8706c20edc2c0cf187",
+ "domain": [
+  "sports/nfl-stats",
+  "sports/fantasy-football"
+ ],
+ "product": [
+  "muffed",
+  "sleeper",
+  "nflverse"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides sourced NFL player and team statistics, claim checking and Sleeper fantasy league context.",
+ "whenToUse": "Use when a user asks about NFL statistics, wants a stat claim verified, or needs info on their Sleeper fantasy league.",
+ "tasks": [
+  "get nfl editorial insights",
+  "list stat leaders",
+  "get player or team metrics",
+  "compare two players or teams",
+  "define a metric",
+  "search available metrics",
+  "verify stat claims",
+  "view team backfield depth chart",
+  "compute custom stat queries",
+  "find sleeper leagues by username",
+  "preview fantasy matchups",
+  "get league standings"
+ ],
+ "effects": {
+  "2ee99826416300fe59cc97c4f8fdf1875f2bd7419002e881b5ddd8c9ed3f4e9e": "read",
+  "03520bed133687c7997ceeaeddcc57bbe5885a4f3c2ea36c85ebce4a1924e568": "read",
+  "94083609f63ac21a39a155d143d2fe5833f36335f7822c026a18369f012472ab": "read",
+  "ed19226a0ffed9763fa8f773d231df614f0a4526246229d0d482009cb476e62a": "read",
+  "96e878923030060b31976162fdb5a511473001603aed98caf85ac293b88d43e6": "read",
+  "634ceaabb900d534457426ec3436022ed171eb5cb60004d83628c144b51ef7df": "read",
+  "78935d8e045a2cabd62d7e89ddd0cec39af6fc7c4457c0a94bbd4bd74b6520a1": "read",
+  "9e86fee094e66c7be89a352ee55891694631bca892c96f6ad259e6bdb3c6aee5": "read",
+  "db0ac6c0fe6b092a19febc8b4b8bc92a7be84096a2e77f3e4aabc7c14d45c5d3": "read",
+  "2122b57040c726a8b8a53c39b6a8966d618f9441b473dc6c2e14798a5c48efb6": "write",
+  "93c97e888c12a4a65c3a9201589ae9182e4fafc6174f1ffa92086bd93fcae824": "read",
+  "668a827964374d0988d48969eb571eb8542516dcc3d2cb970da5b36f3b68daa3": "read",
+  "0a6d6def16abcc36af83ab4ec65024e78bbae38aec6f7d360221b4aac4c108cb": "read",
+  "60039ffc37a21a0b6c35f632b96e89a05d6bb921186ea19e608f2eb0280b08d2": "read",
+  "91f1f600012bb3f23a0e635a63fc041a62e15ef82114933ef157cbabb47a4209": "read"
+ },
+ "flags": []
+}

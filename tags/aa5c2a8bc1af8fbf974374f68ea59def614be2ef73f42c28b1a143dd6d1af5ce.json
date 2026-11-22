@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "aa5c2a8bc1af8fbf974374f68ea59def614be2ef73f42c28b1a143dd6d1af5ce",
+ "domain": [
+  "gig-work/task-marketplace",
+  "operations/outsourcing"
+ ],
+ "product": [
+  "4bl1ty"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "hire-and-manage"
+ ],
+ "summary": "Lets an agent hire people for physical-world tasks, track missions and claims, review proof and check KYC status.",
+ "whenToUse": "Use when an agent needs a human to do a real-world task and the user uses 4bl1ty.",
+ "tasks": [
+  "post missions",
+  "review claims",
+  "check proof of completion",
+  "check kyc status"
+ ],
+ "effects": {},
+ "flags": []
+}

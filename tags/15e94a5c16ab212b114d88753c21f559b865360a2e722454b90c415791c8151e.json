@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "15e94a5c16ab212b114d88753c21f559b865360a2e722454b90c415791c8151e",
+ "domain": [
+  "software/project-showcase",
+  "marketing/community-promotion"
+ ],
+ "product": [
+  "shipyard"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Publish, browse and upvote AI-built app listings on Shipyard, plus a board of discussion threads suggested for promoting a listing.",
+ "whenToUse": "Use when a developer wants to list an AI-built app publicly, update it, browse other projects or review promotion opportunities.",
+ "tasks": [
+  "browse project listings",
+  "get a project's details",
+  "list own projects",
+  "publish a project listing",
+  "update a listing",
+  "upvote or remove upvote",
+  "view promotion opportunity threads",
+  "mark opportunities posted or dismissed"
+ ],
+ "effects": {
+  "c082c2f8558ba611fa8202312284ace9a2d01787f6f80cbd6da3fbe21f2b2a3d": "read",
+  "152cfadd51f1b06e5118eb997fb9530ada59235c7406da7630b37d60f9ed23db": "read",
+  "203bf6ac2c0eb06b7162976f20f665afb1c850172bbe7264e0cbd21237548ba3": "read",
+  "4b2f16270690905dc3cfdb1b4169f582fde1fc81d8add2af51f761c4b4cb6b5c": "write",
+  "fbd6c1c7af7bc7f340f794b0b2628fd4874a22645306422b27caa596326bfee6": "write",
+  "3508ce20fed09b89d5db2c14904a0d36881354a1df4d040439f226802b3c8266": "write",
+  "0f032b7c53b06c322cf7f9b4542a95384c5306cd72cbfaaf7da5effc16a8076c": "write",
+  "99b88c6ae2135af313bc6d4344a8eab1458f94cb7c082637b2ab9ac9cf5847fd": "read",
+  "202a4e592cf5dd8bacca691c6fa08316b4d5a886fcf39bf50a2e819bf98bb287": "write"
+ },
+ "flags": [
+  "list_opportunities supplies suggested forum replies designed to help without naming the app, which encourages undisclosed promotion"
+ ]
+}

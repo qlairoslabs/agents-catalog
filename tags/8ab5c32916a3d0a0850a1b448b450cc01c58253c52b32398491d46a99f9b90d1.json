@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "8ab5c32916a3d0a0850a1b448b450cc01c58253c52b32398491d46a99f9b90d1",
+ "domain": [
+  "software/consulting",
+  "software/development-services"
+ ],
+ "product": [
+  "corazor"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Information about Corazor Technology's AI product engineering services and case studies, with a fit check, booking link and inquiry submission.",
+ "whenToUse": "Use when evaluating a software or AI development partner or sending a project inquiry to Corazor.",
+ "tasks": [
+  "get company profile",
+  "list services",
+  "browse case studies",
+  "check project fit",
+  "get booking link",
+  "submit project inquiry"
+ ],
+ "effects": {
+  "8ad5222c31d190e67bf2784a60d0e41f565280df656f48c4425c78e8799893a0": "read",
+  "952c7a164ebf6764f17ecabbb30d3f81d4273fb4d23df1d9ff11b3b65c52e342": "read",
+  "d40e96a8c78cee9040780b95eb50cdd34b6574a67b2b9898fb0baadc8e486b2d": "read",
+  "9a3070be2cb81337231987a9419657f1dd1f7d6971d9d922796dd3a8862d0615": "read",
+  "797d63323b55deb4b23e609f395c2de48ca91e3024017ff98e2d9e908cb092cf": "read",
+  "cdd1dae307ee83bdad9cb2c0183215a88623da4441f3179d2ba8e44b27d77944": "write"
+ },
+ "flags": []
+}

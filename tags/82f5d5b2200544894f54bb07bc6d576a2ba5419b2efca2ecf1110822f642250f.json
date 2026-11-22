@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "82f5d5b2200544894f54bb07bc6d576a2ba5419b2efca2ecf1110822f642250f",
+ "domain": [
+  "electronics/component-sourcing",
+  "procurement"
+ ],
+ "product": [
+  "onlinecomponents"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Searches stock levels, prices and specifications of electronic components on OnlineComponents.com.",
+ "whenToUse": "Use when sourcing electronic parts and the agent needs current availability, pricing or specs.",
+ "tasks": [
+  "search electronic components",
+  "check stock levels",
+  "compare pricing",
+  "read part specifications"
+ ],
+ "effects": {},
+ "flags": []
+}

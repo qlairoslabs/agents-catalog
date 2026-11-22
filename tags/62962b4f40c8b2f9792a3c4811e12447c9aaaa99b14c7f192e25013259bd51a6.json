@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "62962b4f40c8b2f9792a3c4811e12447c9aaaa99b14c7f192e25013259bd51a6",
+ "domain": [
+  "ai/llm-evaluation",
+  "software/testing"
+ ],
+ "product": [
+  "deepeval",
+  "confident-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Skills for adding DeepEval evaluations, tracing, datasets and Confident AI reports to AI applications and iterating on results.",
+ "whenToUse": "Use when adding evaluations or tracing to an LLM application and improving it based on results.",
+ "tasks": [
+  "add llm evaluations",
+  "set up tracing",
+  "build evaluation datasets",
+  "generate confident ai reports",
+  "run improvement loops"
+ ],
+ "effects": {},
+ "flags": []
+}

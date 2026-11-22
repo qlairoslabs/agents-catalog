@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "34f0c5b4a0492cd38870cc3085c9d689289b105ef4ada228cd607d681b010158",
+ "domain": [
+  "software/backend-as-a-service",
+  "software/developer-tools/cli",
+  "software/devops"
+ ],
+ "product": [
+  "appwrite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Guidance for managing Appwrite projects via the CLI, including config, deployments, CI/CD mode and SDK generation.",
+ "whenToUse": "Use when managing or deploying an Appwrite project from the command line or CI.",
+ "tasks": [
+  "install and log in",
+  "initialize project",
+  "configure multi-file project",
+  "deploy functions and sites",
+  "deploy tables buckets teams",
+  "configure webhooks and topics",
+  "run list queries",
+  "use non-interactive ci mode",
+  "generate type-safe sdks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "20e89efbb7b56c60fb80fc3441a2986eeae90ffd8f6a9d6b5fe9020463b1f075",
+ "domain": [
+  "software/process-memory",
+  "software/debugging"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reads, writes and scans the memory of running processes on Windows, Linux and macOS.",
+ "whenToUse": "Use when an agent needs to inspect or modify the memory of a running process, such as for debugging.",
+ "tasks": [
+  "read process memory",
+  "write process memory",
+  "scan memory for values"
+ ],
+ "effects": {},
+ "flags": [
+  "can modify memory of running processes"
+ ]
+}

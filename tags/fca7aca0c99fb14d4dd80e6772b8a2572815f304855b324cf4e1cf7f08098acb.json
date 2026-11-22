@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "fca7aca0c99fb14d4dd80e6772b8a2572815f304855b324cf4e1cf7f08098acb",
+ "domain": [
+  "ecommerce/shopping",
+  "cashback"
+ ],
+ "product": [
+  "aliexpress",
+  "cashbackpro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Search AliExpress products, view promo codes and compute cashback, returning CashbackPro affiliate purchase links.",
+ "whenToUse": "Use when comparing AliExpress prices or finding promo codes and the real cost after cashback.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "calculate cashback",
+  "list promo codes",
+  "get cashback link"
+ ],
+ "effects": {
+  "ee118bd6b4c078b3086215537be311c7c1d1614707f29e1df09d17df0fb39982": "read",
+  "754c7f65d72b4977718d9100ec63c9a053c8954ff41d31da490e84ccb503d43b": "read",
+  "b19e864f6a99e8ef8981aeb1b02ae5b45c58b714198ee0ae75d339edd4e735bf": "read",
+  "48d3040de59facd5c86aec5a491ae6e598729ce771eba4f926539207e4fafe22": "read",
+  "3ff2db24c5969d6aa30e0062b32203e675f48c5227a5f2035e95612bc9973727": "read"
+ },
+ "flags": [
+  "returns affiliate links that earn the operator commission"
+ ]
+}

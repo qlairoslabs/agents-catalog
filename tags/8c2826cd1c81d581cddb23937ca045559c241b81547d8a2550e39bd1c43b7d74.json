@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8c2826cd1c81d581cddb23937ca045559c241b81547d8a2550e39bd1c43b7d74",
+ "domain": [
+  "food/baking",
+  "food/recipes"
+ ],
+ "product": [
+  "pandough"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "schedule"
+ ],
+ "summary": "Builds bread dough plans with yeast amount, hydration and timing based on the flour a person already has.",
+ "whenToUse": "Use when someone wants a bread or pizza dough recipe and schedule tailored to their available flour.",
+ "tasks": [
+  "plan dough from available flour",
+  "calculate yeast amount",
+  "set hydration",
+  "build fermentation schedule"
+ ],
+ "effects": {},
+ "flags": []
+}

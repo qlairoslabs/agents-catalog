@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "8a295414ebb68c9228602a8afce770aaacfb775c48cf16f73f1165323b11e6b3",
+ "domain": [
+  "documents/pdf-generation",
+  "content/publishing"
+ ],
+ "product": [
+  "prince"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Converts Markdown, HTML or a web page URL into a PDF using the Prince formatter, with page size, margins, CSS and PDF profiles.",
+ "whenToUse": "Use when an agent needs to produce a well-formatted PDF from Markdown, HTML or a web page.",
+ "tasks": [
+  "convert url to pdf",
+  "convert markdown to pdf",
+  "convert html to pdf",
+  "apply custom css",
+  "set page size and margins",
+  "produce pdf/a or pdf/ua output"
+ ],
+ "effects": {
+  "f3b9e625614c43fb954402710a68b64df4de28aceafab04190d9b9b30d9681d5": "write",
+  "58b16a2bb6770b2b5fe447f39ee5cabd6b6e2929b8d42459c78bd7cd33db9df1": "write",
+  "93805438627cc16c8c1c0719a54115d597fb0040573a8acb00d9a7839b2651ec": "write"
+ },
+ "flags": []
+}

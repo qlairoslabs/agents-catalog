@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e4cfea94582e637664d37d136cc12dba8c3c8070550589c4e190f5f2cb6a7057",
+ "domain": [
+  "finance/trading-journal",
+  "finance/market-data"
+ ],
+ "product": [
+  "tradezella"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Accesses TradeZella trades, reports, journal entries and market data for reviewing trading activity.",
+ "whenToUse": "Use when a trader wants to review their trades, reports or journal in TradeZella.",
+ "tasks": [
+  "view trades",
+  "view reports",
+  "write journal entries",
+  "get market data"
+ ],
+ "effects": {},
+ "flags": []
+}

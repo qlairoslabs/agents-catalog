@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3ae8837c37728aeeb9c727fc4efe3f5cec2ac91becc23cada02f244a67287214",
+ "domain": [
+  "data/analytics/etl"
+ ],
+ "product": [
+  "aws",
+  "s3-tables",
+  "aws-glue",
+  "athena"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Supports data lake, analytics and ETL work on AWS with S3 Tables, Glue and Athena.",
+ "whenToUse": "Use when building data pipelines or querying data lakes on AWS.",
+ "tasks": [
+  "build etl jobs",
+  "manage s3 tables",
+  "run athena queries"
+ ],
+ "effects": {},
+ "flags": []
+}

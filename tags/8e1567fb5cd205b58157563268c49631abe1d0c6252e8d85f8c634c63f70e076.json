@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8e1567fb5cd205b58157563268c49631abe1d0c6252e8d85f8c634c63f70e076",
+ "domain": [
+  "software/computer-use",
+  "operations/desktop-automation"
+ ],
+ "product": [
+  "windows"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Lets an AI agent operate a Windows desktop: apps, mouse, keyboard and system actions.",
+ "whenToUse": "Use when an agent must control Windows applications or the desktop directly.",
+ "tasks": [
+  "control mouse and keyboard",
+  "launch apps",
+  "read screen state",
+  "run shell commands"
+ ],
+ "effects": {},
+ "flags": []
+}

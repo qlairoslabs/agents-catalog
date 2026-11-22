@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "00930ea1f5845a4ed39afcaa699b1e481280b66d19fad1be239ad94c073b43cd",
+ "domain": [
+  "entertainment/tv"
+ ],
+ "product": [
+  "family-guy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up episodes, seasons, characters, cast, crew and facts in an unofficial Family Guy database.",
+ "whenToUse": "Use when a user asks about a Family Guy episode, character, season or credit, or wants to find an episode from a plot moment.",
+ "tasks": [
+  "search episodes",
+  "get episode details",
+  "find episode by plot moment",
+  "look up characters",
+  "list a season",
+  "look up person credits",
+  "look up facts",
+  "check database stats"
+ ],
+ "effects": {
+  "f196e1bc99873c8a5b4ef0d1e46b63a98f81b4c0bc2ee0fe0f6b11f8d1c7aa9b": "read",
+  "38b8c2fdd2074918bba34132f9a5e78bc1160f9df523169245513d8621df9e49": "read",
+  "3021e22479ee1aaeba93d0840ed29c4cebf91399357c2cb2b563c6f71df4eac6": "read",
+  "835b0338fb73b841abf2811bb37f2c9251fd46fc1be5a3b5f1c3916580345283": "read",
+  "1d1611d6aaf85f58912e19d6cd8c6de569f71c1006c2c8d582e927a869ae9e35": "read",
+  "3b3f58936c93c2a7648e96ecb6327bcf30494c26093ea020eb66e00128550666": "read",
+  "532db362ad9f45934acdfc5bdf00bf5f8149cf5f9b7639c09e28572a193d8bdb": "read",
+  "717d38c3aa10a4a89be2ea3798edfce2f288d77e9d74b4de01f5545aed101988": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "421969a5ef1ad880fad7136f56706407d7f66692c780bdc3710df4b5bd9f5fc6",
+ "domain": [
+  "ai/robotics",
+  "cloud/gpu-compute"
+ ],
+ "product": [
+  "zhijiangyun"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Cloud platform for embodied AI and robotics offering GPU training, inference, benchmarks and robot data collection.",
+ "whenToUse": "Use when training or evaluating robot AI models or collecting robot data on Zhijiangyun Cloud.",
+ "tasks": [
+  "run gpu training",
+  "run inference",
+  "run benchmarks",
+  "collect robot data"
+ ],
+ "effects": {},
+ "flags": []
+}

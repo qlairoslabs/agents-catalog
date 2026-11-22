@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "5c28be36f6863ecb0ee116248e617fad01f2dfa039f557f668734623eef58f63",
+ "domain": [
+  "software/ai-agents/evaluation",
+  "software/observability"
+ ],
+ "product": [
+  "amazon-bedrock-agentcore",
+  "amazon-cloudwatch"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Measures and improves AgentCore agent quality, latency and cost with evaluators, monitoring, CI quality gates and observability.",
+ "whenToUse": "Use when evaluating agent quality, setting up observability, or reducing latency or cost.",
+ "tasks": [
+  "add evaluators",
+  "run evals",
+  "set up online monitoring",
+  "add ci quality gates",
+  "set up cloudwatch dashboards",
+  "send traces to cloudwatch",
+  "reduce latency",
+  "estimate agent cost"
+ ],
+ "effects": {},
+ "flags": []
+}

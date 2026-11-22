@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "562afb48a49bd1953c73cef0bac8f9f6ba4678aec7d9bbaa09b4c5c42ba8ee8b",
+ "domain": [
+  "commerce/marketplaces",
+  "commerce/ecommerce"
+ ],
+ "product": [
+  "ebay"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Community MCP server exposing eBay Sell, Commerce and Developer APIs for managing seller listings, orders and account data.",
+ "whenToUse": "Use when an agent needs to manage an eBay seller account, listings, inventory or orders.",
+ "tasks": [
+  "manage listings",
+  "manage inventory",
+  "handle orders",
+  "access seller account data",
+  "use ebay commerce apis"
+ ],
+ "effects": {},
+ "flags": []
+}

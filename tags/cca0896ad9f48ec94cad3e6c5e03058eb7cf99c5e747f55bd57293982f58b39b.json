@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cca0896ad9f48ec94cad3e6c5e03058eb7cf99c5e747f55bd57293982f58b39b",
+ "domain": [
+  "software/deployment",
+  "software/cloud"
+ ],
+ "product": [
+  "cloudflare",
+  "microservices-sh"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Helps AI agents plan, verify and deploy apps built on Cloudflare services.",
+ "whenToUse": "Use when an agent is building and deploying an application on Cloudflare's platform.",
+ "tasks": [
+  "plan cloudflare apps",
+  "verify app setup",
+  "deploy apps"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "8bc1d609f30284355bc90669e8340a95c34be9870df63185952aeac9a5e60218",
+ "domain": [
+  "software/ai-agents",
+  "software/crm-development"
+ ],
+ "product": [
+  "salesforce",
+  "agentforce",
+  "salesforce-cli"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guides building, auditing, repairing, previewing, testing and deploying Salesforce Agentforce agents written in Agent Script.",
+ "whenToUse": "Use when working on .agent files or aiAuthoringBundle metadata, or running sf agent generate, preview, publish or test commands.",
+ "tasks": [
+  "create agentforce agents",
+  "edit agent script files",
+  "audit existing agents",
+  "fix agent script errors",
+  "run agent health checks",
+  "preview and debug agents",
+  "deploy and publish agents",
+  "manage agentforce mcp servers and tools"
+ ],
+ "effects": {},
+ "flags": []
+}

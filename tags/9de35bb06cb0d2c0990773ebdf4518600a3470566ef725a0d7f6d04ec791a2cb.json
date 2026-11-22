@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "9de35bb06cb0d2c0990773ebdf4518600a3470566ef725a0d7f6d04ec791a2cb",
+ "domain": [
+  "writing/documentation"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Guides a structured, iterative workflow for co-writing documents such as proposals, technical specs and decision docs.",
+ "whenToUse": "Use when the user wants to write a proposal, spec, decision doc or other structured document.",
+ "tasks": [
+  "gather context for a document",
+  "draft structured documents",
+  "refine content iteratively",
+  "check doc works for readers"
+ ],
+ "effects": {},
+ "flags": []
+}

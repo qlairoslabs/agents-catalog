@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "51531d6fa0a8699fc4e287d52f811eb18233807a6221d2d4d576079b7034f506",
+ "domain": [
+  "hiring/healthcare-jobs"
+ ],
+ "product": [
+  "waypoint"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches US hospital jobs, travel nursing contracts and published hospital hourly pay ranges.",
+ "whenToUse": "Use when a user is looking for healthcare jobs, travel nurse contracts or hospital pay information in the US.",
+ "tasks": [
+  "search hospital jobs",
+  "search travel contracts",
+  "filter by state and specialty",
+  "get hospital wage ranges"
+ ],
+ "effects": {
+  "35d253daa4c5c9284ae55f63c6969e7968b7b175c8ce2a27f867f8186cb48e24": "read",
+  "4796cf9e4197e5d6990d230cadefa31c3026ef253706d0d47d853a8367b7d56d": "read",
+  "67741d784f1e5fbbd4fec40f60a296f0d5e13c895f6487ca012d648348bb763c": "read"
+ },
+ "flags": []
+}

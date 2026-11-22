@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8eae09fa16531d5ace6dba3678936a97457bdc17572ab59598cc8008bfd55980",
+ "domain": [
+  "software/hosting/deployment",
+  "software/ai-models"
+ ],
+ "product": [
+  "roar-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Deploys AI-built apps with databases and domains, and gives access to over 200 AI models through one key.",
+ "whenToUse": "Use when the user wants to host an app with a database and domain, or call many AI models through one API key.",
+ "tasks": [
+  "deploy apps",
+  "provision databases",
+  "configure domains",
+  "call ai models"
+ ],
+ "effects": {},
+ "flags": []
+}

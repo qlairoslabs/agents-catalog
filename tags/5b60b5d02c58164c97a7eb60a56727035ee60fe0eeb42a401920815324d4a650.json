@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "5b60b5d02c58164c97a7eb60a56727035ee60fe0eeb42a401920815324d4a650",
+ "domain": [
+  "media/news-aggregation",
+  "media/rss"
+ ],
+ "product": [
+  "hamir"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search news articles and sources from hamir's RSS catalogue, see top stories, browse curated packs and create a save-to-library link.",
+ "whenToUse": "Use when a user wants recent news on a topic, articles from a specific outlet, today's widely covered stories, or to save articles to hamir.",
+ "tasks": [
+  "search news articles",
+  "fetch article details",
+  "find news sources",
+  "get latest articles from a source",
+  "see today's top covered stories",
+  "list editorial source packs",
+  "get a pack's sources",
+  "create a link to save articles"
+ ],
+ "effects": {
+  "3b42008429988b3062fcfc4353282c1a6da9fe501269e6375c35b92405a335f5": "read",
+  "b06eae09497fefb278280d8ed03e4b1679bdb3b853e1539ec2ec2e478506043a": "read",
+  "1802aff55a115da18abd701a51175f67b56924ab37e0a8e221c24a0106ba2ac3": "read",
+  "ba102e35311d278d31c721b9b20129688a92d91c01a52d89f8534ddb92d8a1a3": "read",
+  "a91d9d0ad0c6269f8246713f3ed2b95327e2d7e1b740899764726c525aa98425": "read",
+  "63c905df98b0d4f170ec7028ff710408a8052d843102b7a05a5d397df48ac9b5": "read",
+  "e7b31e4028fd26bd0ad8f782bc016a31106759fb4efa0bff6c6e744b73b1f8a6": "read",
+  "0b590a3766e8a6c513d0cc931293359c1a0cd86ef9b95c2e56b935505cd50dec": "write"
+ },
+ "flags": []
+}

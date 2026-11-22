@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4a77f46a39b9b7598b24a53e233d76e95bcd1ceab44425ccd9bf330349d447cd",
+ "domain": [
+  "data/pipelines",
+  "software/analytics"
+ ],
+ "product": [
+  "jitsu"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Jitsu data pipelines including destinations, streams, connections, functions and live events.",
+ "whenToUse": "Use when configuring or monitoring Jitsu data collection and pipeline settings.",
+ "tasks": [
+  "manage destinations",
+  "manage streams",
+  "manage connections",
+  "manage functions",
+  "view live events"
+ ],
+ "effects": {},
+ "flags": []
+}

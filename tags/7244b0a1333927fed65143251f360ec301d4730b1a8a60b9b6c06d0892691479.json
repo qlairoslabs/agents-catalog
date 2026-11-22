@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7244b0a1333927fed65143251f360ec301d4730b1a8a60b9b6c06d0892691479",
+ "domain": [
+  "data/databases/best-practices",
+  "software/development"
+ ],
+ "product": [
+  "clickhouse"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "A set of 28 prioritized ClickHouse guidelines covering schema design, query optimization and data ingestion.",
+ "whenToUse": "Use when designing ClickHouse schemas, tuning queries or planning data ingestion.",
+ "tasks": [
+  "advise on schema design",
+  "optimize queries",
+  "guide data ingestion",
+  "prioritize fixes by impact"
+ ],
+ "effects": {},
+ "flags": []
+}

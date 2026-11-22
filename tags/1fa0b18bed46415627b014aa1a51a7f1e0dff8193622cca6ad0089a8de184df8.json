@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "1fa0b18bed46415627b014aa1a51a7f1e0dff8193622cca6ad0089a8de184df8",
+ "domain": [
+  "finance/crypto-payments",
+  "security/fraud-checks"
+ ],
+ "product": [
+  "x402",
+  "merona",
+  "base",
+  "polygon",
+  "solana"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Index of x402 settlements offering payout-address checks, mismatch feed, wash-adjusted volume and seller trust scores.",
+ "whenToUse": "Use before an agent pays an x402 endpoint or wallet, to verify payout address and seller reputation.",
+ "tasks": [
+  "check payTo address",
+  "list payout mismatches",
+  "get clean settlement stats",
+  "score seller wallet"
+ ],
+ "effects": {
+  "0548b0630f1d3d0b19b3e0864652473860cd3dd63762c5e5bb4b6b5756aaf764": "read",
+  "c460451d0deb7f690971bea4a3fc298ae9a76b37be93033f87581a201f473ad0": "read",
+  "89156719902aef031b3a117853830499de9597576a8703ce15e125f6a6ea9cd9": "read",
+  "b2152e623b48ce9c3924f277e275d9fc019129e97bef6ecc2ca38387670970bf": "read"
+ },
+ "flags": []
+}

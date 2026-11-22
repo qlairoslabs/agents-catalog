@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c7d424474cf651bb740b57a987ed9da8260753c447853ccde3513e50afcd07b1",
+ "domain": [
+  "cloud/azure/architecture",
+  "software/documentation/diagrams"
+ ],
+ "product": [
+  "azure",
+  "mermaid"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes Azure resource groups and produces Mermaid architecture diagrams of resource relationships.",
+ "whenToUse": "Use when a user wants a diagram or map of their Azure resources and how they connect.",
+ "tasks": [
+  "analyze resource groups",
+  "map resource relationships",
+  "generate mermaid diagrams",
+  "visualize architecture"
+ ],
+ "effects": {},
+ "flags": []
+}

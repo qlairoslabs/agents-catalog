@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "2d58d036c2ab5e0e1a728dfc61e2609fa6e48558f0ea6c6f5bf6c2ea48d6e9b7",
+ "domain": [
+  "blockchain/infrastructure",
+  "software/developer-tools"
+ ],
+ "product": [
+  "chain-love"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Hosted MCP gateway to discover Web3 infrastructure providers across more than 20 blockchain networks.",
+ "whenToUse": "When a developer needs to find RPC, indexing or other Web3 infrastructure for a blockchain network.",
+ "tasks": [
+  "discover web3 infrastructure",
+  "compare providers across networks"
+ ],
+ "effects": {},
+ "flags": []
+}

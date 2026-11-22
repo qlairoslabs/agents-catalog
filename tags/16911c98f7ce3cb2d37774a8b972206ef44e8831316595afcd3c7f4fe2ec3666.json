@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "16911c98f7ce3cb2d37774a8b972206ef44e8831316595afcd3c7f4fe2ec3666",
+ "domain": [
+  "travel/car-rental",
+  "marketplace/peer-to-peer"
+ ],
+ "product": [
+  "pocket-drives"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Searches the Pocket Drives peer-to-peer marketplace for luxury, exotic and EV rentals with US delivery, quotes and reviews.",
+ "whenToUse": "Use when a user wants to find, compare or price a rental car in the US, including airport or venue delivery.",
+ "tasks": [
+  "search rental vehicles",
+  "get vehicle details",
+  "check availability calendar",
+  "calculate rental quotes",
+  "autocomplete locations",
+  "search airports for delivery",
+  "search venues for delivery",
+  "view host profiles",
+  "read vehicle reviews"
+ ],
+ "effects": {
+  "1b6027db673a8f2105de06a83adfbb950d13e4268e8da0b4e0c3c57a84f18b37": "read",
+  "bfb143b279e2677daf43c90ab43ab3d9bef2c6db9048a4a01c86113426bf6f19": "read",
+  "7f182bdb41460f45865cad23bf87983fdb693ce6c24385225a66c19fcf463311": "read",
+  "b34505ff47f56a8039b0db4aadc9bde45bfdc6160ea81c29bbe712c1cb9f91a5": "read",
+  "48559df0c414e7f1cb95daa3bb592ec2c57504335036d8f38254151e8c5687c5": "read",
+  "1ecbf882dec954039a91ffec5bc686132ca8e0d8b9f660ebc350d76bad1b76dd": "read",
+  "32d35f4220294aaa1585d7e96d234fe40483fac05b6d51854de0f153f51df16d": "read",
+  "29b0fe6833de395df5ca5b55e355aa45b2cf635315ee2a9db1a4af1bfc863daf": "read",
+  "57ab52fcb6e8c94142d994e0e6b19c82d28340282dbdecfd7724565bef853cf3": "read"
+ },
+ "flags": []
+}

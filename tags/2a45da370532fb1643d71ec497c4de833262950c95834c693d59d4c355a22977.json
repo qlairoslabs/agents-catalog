@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2a45da370532fb1643d71ec497c4de833262950c95834c693d59d4c355a22977",
+ "domain": [
+  "data/business-intelligence",
+  "data/analytics"
+ ],
+ "product": [
+  "metabase"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Headless Metabase connector using API-key auth with a large set of grouped tools over stdio or HTTP.",
+ "whenToUse": "Use when an agent needs to query, explore or manage content in a Metabase instance.",
+ "tasks": [
+  "query metabase data",
+  "manage questions and dashboards",
+  "select toolsets"
+ ],
+ "effects": {},
+ "flags": []
+}

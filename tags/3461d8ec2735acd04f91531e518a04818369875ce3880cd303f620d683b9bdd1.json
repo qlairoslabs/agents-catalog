@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "3461d8ec2735acd04f91531e518a04818369875ce3880cd303f620d683b9bdd1",
+ "domain": [
+  "commerce/apparel"
+ ],
+ "product": [
+  "allover"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Lets an agent browse and buy all-over print cotton t-shirts, with cart, promotions and checkout that the person pays for.",
+ "whenToUse": "Use when someone wants to shop for all-over print t-shirts.",
+ "tasks": [
+  "search t-shirts",
+  "manage cart",
+  "apply promotions",
+  "start checkout"
+ ],
+ "effects": {},
+ "flags": []
+}

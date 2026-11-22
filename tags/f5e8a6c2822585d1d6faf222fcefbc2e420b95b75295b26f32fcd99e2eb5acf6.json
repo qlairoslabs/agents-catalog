@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "f5e8a6c2822585d1d6faf222fcefbc2e420b95b75295b26f32fcd99e2eb5acf6",
+ "domain": [
+  "web/hosting",
+  "web/domains",
+  "software/deployment"
+ ],
+ "product": [
+  "hostinger",
+  "wordpress"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Connects to Hostinger to deploy sites and apps, manage domains, DNS, WordPress, mailboxes, stores and VPS servers.",
+ "whenToUse": "Use when deploying or managing websites, domains, DNS or VPS servers hosted on Hostinger.",
+ "tasks": [
+  "deploy static sites",
+  "deploy node.js apps",
+  "import wordpress sites",
+  "search and register domains",
+  "edit dns records",
+  "check build logs",
+  "manage mailboxes",
+  "manage online stores",
+  "manage email marketing contacts",
+  "manage subscriptions and orders",
+  "control vps firewalls",
+  "view vps metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

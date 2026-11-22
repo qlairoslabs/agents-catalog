@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "88184b7f2fa9a2e93e35d77212e004fbcc499e6d98b7cc04213f1bb6cce90b3b",
+ "domain": [
+  "finance/us-tax",
+  "compliance/tax"
+ ],
+ "product": [
+  "irs"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Read-only US tax reference for IRS notices, deadlines, penalty and quarterly estimates, FBAR/FATCA, treaty withholding, ITIN, Form 5472 and rental income.",
+ "whenToUse": "Use when a user needs general, non-identifying US tax explanations or estimates, especially for foreign-owned entities or IRS notices.",
+ "tasks": [
+  "decode IRS notices",
+  "screen payment options",
+  "estimate penalties",
+  "explain tax forms",
+  "list deadlines",
+  "screen FBAR and FATCA",
+  "check treaty withholding",
+  "screen ITIN eligibility",
+  "check Form 5472",
+  "estimate quarterly taxes",
+  "estimate accountable plan and Augusta rule",
+  "estimate rental income"
+ ],
+ "effects": {
+  "ca0724596b05602a25d84ed49adf810eb3f48db19bfa44a64baf08e1864cf0ac": "read",
+  "0d691d0186afb80a60f3552200f0a673d2f17de5805cc5e7c83cd9497b46eed2": "read",
+  "aa1d670c72973fed1a6429f52960f69b9b2d1658c441ee2f8ccc6e501c307c8f": "read",
+  "7a20a10d313d699f590b3ea1c7fcc7b2d0fa29eccd3925b2bb029ddff5ed7e27": "read",
+  "969579c904128dab67c901f78779c14ef51586729aad5a9875df3357fad94d93": "read",
+  "9959117ad7eea2a2cdda69195675d04d44db44c0299281b4339d53d0b0931838": "read",
+  "6f304a4299630df5bcb97f7d7ba28646b5b95c77184d7123e74f1dc4bbb6de61": "read",
+  "705423c34c3776c13782c52e52a09b1609e4f9264e50ee07cf7131128e94bbf9": "read",
+  "f9ed9ec3f5ee2590dd2e93a368c5b7cb3e8cf7cbe3889082e3e44da587e82f59": "read",
+  "89321461da290e0a038b3756f8b1df8f8123c024c0922dc1f4027d1786711d10": "read",
+  "4525fc3425f0fb9d2c4173ac43469ff07434c98f6c246797ba3f37d29d81bcec": "read",
+  "e96e324aaf518489b64a7ea87aa040e0901fc15bb6972fc8672b0bf1e90fd360": "read",
+  "d7cbe3a0f6f7957ea9e3fcaf48dcfcee77e1efb062dc60d97b6fbe40ea56b5c0": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d29fd33ad57bd576c9091cd03b0b1f12cf3344691e2bf2987f0b57434b086857",
+ "domain": [
+  "software/integration-platform",
+  "software/access-governance"
+ ],
+ "product": [
+  "weavz"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Gateway giving agents governed access to over 1,000 apps and 12,000 tools through a code-mode MCP interface.",
+ "whenToUse": "Use when an agent needs controlled access to many third-party apps through one connector.",
+ "tasks": [
+  "access third-party apps",
+  "run app tools via code",
+  "govern agent access"
+ ],
+ "effects": {},
+ "flags": []
+}

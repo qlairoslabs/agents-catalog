@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4b6e391a99f66e4dab8391e39130adb0e24ff5bfdb22311ecf451643bcf61ea8",
+ "domain": [
+  "software/ai-gateway",
+  "software/llm-ops"
+ ],
+ "product": [
+  "opper"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "EU-based AI gateway to browse models, manage projects, API keys and rules, and view usage and traces.",
+ "whenToUse": "Use when configuring an Opper AI gateway project, choosing models or reviewing usage and traces.",
+ "tasks": [
+  "search ai models",
+  "create projects",
+  "create api keys",
+  "manage rules",
+  "view usage",
+  "view traces"
+ ],
+ "effects": {},
+ "flags": []
+}

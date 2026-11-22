@@ -1,0 +1,68 @@
+{
+ "classifier": 2,
+ "contentHash": "0ca93474e582dbdeaf1bbbf0d5fcac89e1aa3c2c5a6adfa764f1459643862aff",
+ "domain": [
+  "commerce/print-signage",
+  "marketing/signage"
+ ],
+ "product": [
+  "vivid-ads",
+  "shopify",
+  "starshipit"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Vivid Ads Australia signage shop: product search, live pricing, delivery quotes, quotations, draft orders, artwork uploads and order tracking.",
+ "whenToUse": "Use when someone wants to buy printed signage in Australia, get a price or quote, or check an existing Vivid Ads order.",
+ "tasks": [
+  "search signage products",
+  "recommend signage for a goal",
+  "get product options and live price",
+  "quote delivery cost and timing",
+  "email a formal quotation",
+  "create a draft order",
+  "upload and check artwork",
+  "track order, proof and shipping status",
+  "reorder a past job",
+  "verify customer email",
+  "open a support case"
+ ],
+ "effects": {
+  "2551c4fd399c42e68a15262388d89d0e83eb5c4f7ebaf9d86e1422c8f4cf02c9": "write",
+  "4f18935bd933270c39f24370e67534787cb3fb814bb027e6634cc9864d87b741": "read",
+  "287e6cd9786c4da909142b51cf7edf55412522bc7089febf2dfdac1a0c1f28fc": "read",
+  "b20089a2166cf2e31867b0bbeed73cdbb408a9c93097ad5219acb6373e3fdea3": "write",
+  "19d1c7aeec3648286d138b16edd7b08cb1358853a2ff716de8c652da08dc80a9": "write",
+  "83847ab22df34eeefcf7634da859df807aa072ba513864e17033229919aa5521": "read",
+  "0133bfcd55ed9e3459a4afe1c945ae488b27a61b82423d5647f9c495fccf0883": "read",
+  "033c61ad085bf1a9702eff1ea1262f5321e769edd2323429b9202255d68a6765": "write",
+  "e22e51d703e78b9950004b6f0e249231edbebc56a21012fadee9e9dfe6cd4ed4": "write",
+  "4f63afddcf212b1aa00c98f6843609b345650e6f8ccfbd1988b7a5292034e82e": "write",
+  "3bcf6249f3625349a576cf947394ad0c09d504faee5fbbd20afebfd392056fa7": "write",
+  "3987ebd8b6691f67190a6d52e56d4a7e3338b94aa39da30e2a9303e7f9c050dc": "read",
+  "bd1ca782a7ce0aa309e964e5e6d9225ca514ef02c3e15e9e96c1cbf4a1157ee7": "write",
+  "b4e9e053d584980d831df0bcf32b07ab21943c2e0eb33d202708ee7835bbc45f": "write",
+  "251be8eb8b65d40bb300d4949c321d1ecb05f949d3f3fc92712635087bbfa6b7": "read",
+  "e673f341922747b877cf56ce7557b27ec8ebca4712e5ee41e66b10cf95b55f03": "write",
+  "d863d3e8d8b6074e0941398f2961b703770cbd92466ea9bce8b66626eced9ebf": "write",
+  "19239d14c6ac4e35baae5d3f135677bb497984cc75dcad472450ad1c244df4b1": "write",
+  "62ee3669514448356e6d6d2cb5dbf76d7ab1552c239e711208dca2ba028e51c2": "write",
+  "e3a46766ce6424e60381afb18f87e6778c9dc22358df63519d0211ba3e63233e": "write",
+  "ee4ff87113fcde6658758cb10093d5c68a4149422abe2391c1e9792c105bd651": "write",
+  "34abf64a3c26e5389397ea496fb71b2eabd68023ae3316bcb135c9bdc717c104": "read",
+  "423ecbaaf23f744c17d83b60ba55bce2da75b958c9fb1e375ed96c974c3e2f1b": "write",
+  "0ddee7b0a1fe623e56d47c48631b7332b6d037c2cbe5d4dba92594ffdd70c9bd": "write",
+  "243ac6bea97768added6a83d511e7154bf843fe0d74b027dec0a900feaf6c99c": "write",
+  "773b3ddbf53cbff52bf9d90e467c3c82ab7ab3ae121c74984c13687c9c7d7fd3": "write",
+  "dd8b9aa17a079ed7babc8ccc9e481d6550a0f471069756842bbcf42557e3a4b1": "write"
+ },
+ "flags": [
+  "tool description instructs the agent to always mention alternative products to the customer"
+ ]
+}

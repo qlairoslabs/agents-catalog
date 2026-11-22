@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cc2e3857a21c43325455d6c670860c8355066de0386d28e74d525282b2fb81ea",
+ "domain": [
+  "software/project-management",
+  "software/error-monitoring"
+ ],
+ "product": [
+  "bfocus"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Accesses errors, tickets, tasks, projects and release notes in bFocus.",
+ "whenToUse": "Use when a team using bFocus needs to check errors, tickets, tasks or release notes.",
+ "tasks": [
+  "monitor errors",
+  "manage tickets",
+  "manage tasks and projects",
+  "read release notes"
+ ],
+ "effects": {},
+ "flags": []
+}

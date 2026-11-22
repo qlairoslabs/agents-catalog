@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "96f5526ea653e3ec2ce7e1714dd86afe7f5221d0ac5840cd756ce305d81c5f2e",
+ "domain": [
+  "sports/tennis-analytics"
+ ],
+ "product": [
+  "rallyiq"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Tennis scouting reports, match game plans and match breakdowns from shot-by-shot charted ATP and WTA matches.",
+ "whenToUse": "Use when you need tactical analysis, matchup plans or leaderboards for professional tennis players.",
+ "tasks": [
+  "build game plan vs opponent",
+  "get player scouting report",
+  "explain a charted match",
+  "get tactical leaderboards"
+ ],
+ "effects": {
+  "904243fc8526acd735f1e1d0baf805c12e5074c95d60d2d7bc66f2bd46ddc0b5": "read",
+  "b982578eddd1183163af1b20d6e5158e54fb7c2539aa562c16be807eb0ca2db4": "write",
+  "27ab0c7d66c47ba2e7414189b157082f8585b7f0de30f30fd04c567cf52087cb": "read",
+  "a60e2f2b08e5d01079d02efeec7043e2561768e163d478680e670a5f1fcaf585": "write"
+ },
+ "flags": []
+}

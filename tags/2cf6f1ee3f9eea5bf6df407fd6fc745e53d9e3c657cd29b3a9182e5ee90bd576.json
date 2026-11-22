@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2cf6f1ee3f9eea5bf6df407fd6fc745e53d9e3c657cd29b3a9182e5ee90bd576",
+ "domain": [
+  "infrastructure/hosting",
+  "sales/quotes"
+ ],
+ "product": [
+  "eurovps"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Lists EuroVPS hosting products (VPS, dedicated, private cloud, GPU) and sends a quote request to their sales engineers.",
+ "whenToUse": "Use when a user wants managed European hosting and asks you to request a quote with their permission.",
+ "tasks": [
+  "list hosting services",
+  "request quote",
+  "send requirements to sales"
+ ],
+ "effects": {
+  "5dc142a534226b1c3e303ea5489f001ac61d2c8cfa9133e61608089981170343": "read",
+  "d9c45aaf8b7e659a3083257d31a4058fbd9a311d259588e442f96a19d4c5c746": "write"
+ },
+ "flags": []
+}

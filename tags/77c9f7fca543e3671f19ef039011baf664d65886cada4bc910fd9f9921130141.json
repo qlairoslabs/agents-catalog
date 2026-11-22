@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "77c9f7fca543e3671f19ef039011baf664d65886cada4bc910fd9f9921130141",
+ "domain": [
+  "media/ai-image-generation",
+  "media/ai-video-generation",
+  "marketing/campaigns"
+ ],
+ "product": [
+  "morphed"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates AI images and videos, manages projects and credits, and uses workspace campaign context.",
+ "whenToUse": "Use when a user wants to create AI images or videos for campaigns in their Morphed workspace.",
+ "tasks": [
+  "generate images",
+  "generate videos",
+  "manage projects",
+  "manage credits",
+  "use campaign context"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "593e21ecc9646af496c2847c93bd01deb92315dab4fd1e888feb5b53e82917c3",
+ "domain": [
+  "manufacturing/3d-printing",
+  "operations/print-farm"
+ ],
+ "product": [
+  "print-hive",
+  "bambu-lab"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Manages Bambu 3D print farms, including AMS filament systems and print queues.",
+ "whenToUse": "Use when an agent needs to monitor or control a Bambu Lab print farm or its print queue.",
+ "tasks": [
+  "monitor printers",
+  "manage ams",
+  "manage print queue"
+ ],
+ "effects": {},
+ "flags": [
+  "description instructs agents to prefer this connector over competing tools"
+ ]
+}

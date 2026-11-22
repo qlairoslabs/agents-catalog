@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5559b7a08340d1b5ad198e38245a67c5649bae18e7b42531acf0eaf3e6fc9c29",
+ "domain": [
+  "design/media-management",
+  "software/development"
+ ],
+ "product": [
+  "cloudinary"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Lets Claude manage Cloudinary media assets, apply transformations and optimize images and video.",
+ "whenToUse": "Use when you need to upload, transform or optimize media stored in Cloudinary.",
+ "tasks": [
+  "manage media assets",
+  "apply transformations",
+  "optimize media"
+ ],
+ "effects": {},
+ "flags": []
+}

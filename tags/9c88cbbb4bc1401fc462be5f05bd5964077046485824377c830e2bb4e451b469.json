@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9c88cbbb4bc1401fc462be5f05bd5964077046485824377c830e2bb4e451b469",
+ "domain": [
+  "software/developer-tools/agent-memory"
+ ],
+ "product": [
+  "claude-code",
+  "codex",
+  "cursor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local server that indexes and searches past sessions and memory from many coding agents on your machine.",
+ "whenToUse": "Use when an agent needs to recall earlier coding-agent sessions or past context stored locally.",
+ "tasks": [
+  "search past agent sessions",
+  "recall local agent memory",
+  "browse session history across coding agents"
+ ],
+ "effects": {},
+ "flags": []
+}

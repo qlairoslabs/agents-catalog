@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "991faab81e4ab7c49aae0cbc44d68caf066956f9941e5af1208fd50cfb0eb806",
+ "domain": [
+  "software/ai-coding-agents",
+  "software/developer-tools"
+ ],
+ "product": [
+  "codeman",
+  "claude-code",
+  "codex",
+  "gemini-cli"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Starts, prompts and reads sessions of AI coding agents such as Claude Code, Codex and Gemini CLI through Codeman.",
+ "whenToUse": "Use when an agent needs to launch or orchestrate other coding-agent sessions managed by Codeman.",
+ "tasks": [
+  "start agent session",
+  "send prompt to session",
+  "read session output"
+ ],
+ "effects": {},
+ "flags": []
+}

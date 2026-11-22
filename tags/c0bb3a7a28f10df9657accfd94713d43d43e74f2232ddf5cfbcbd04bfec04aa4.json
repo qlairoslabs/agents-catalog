@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c0bb3a7a28f10df9657accfd94713d43d43e74f2232ddf5cfbcbd04bfec04aa4",
+ "domain": [
+  "software/app-development",
+  "software/mobile"
+ ],
+ "product": [
+  "vibecode",
+  "ios"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Chat-driven builder whose agent writes, builds and tests native iPhone and web apps.",
+ "whenToUse": "Use when a user wants to create an iPhone or web app by describing it in conversation.",
+ "tasks": [
+  "generate app code",
+  "build iphone apps",
+  "build web apps",
+  "test apps"
+ ],
+ "effects": {},
+ "flags": []
+}

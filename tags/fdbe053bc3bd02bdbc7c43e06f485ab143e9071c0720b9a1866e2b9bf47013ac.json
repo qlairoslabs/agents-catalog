@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "fdbe053bc3bd02bdbc7c43e06f485ab143e9071c0720b9a1866e2b9bf47013ac",
+ "domain": [
+  "data/web-scraping",
+  "software/sdk"
+ ],
+ "product": [
+  "bright-data"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guide to the Bright Data JavaScript/TypeScript SDK for scraping, search, discovery, datasets and browser automation.",
+ "whenToUse": "Use when a user in Node.js or TypeScript wants to scrape or search websites or fetch platform datasets.",
+ "tasks": [
+  "scrape websites from js",
+  "run serp searches",
+  "use ai discovery",
+  "access datasets",
+  "automate browsers",
+  "use scraper studio"
+ ],
+ "effects": {},
+ "flags": []
+}

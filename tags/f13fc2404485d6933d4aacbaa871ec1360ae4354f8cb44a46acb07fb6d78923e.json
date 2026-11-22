@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f13fc2404485d6933d4aacbaa871ec1360ae4354f8cb44a46acb07fb6d78923e",
+ "domain": [
+  "data/lineage",
+  "data/governance"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Traces upstream data lineage to show where a table's data comes from.",
+ "whenToUse": "Use when a user asks about the sources or upstream dependencies feeding a table.",
+ "tasks": [
+  "trace upstream dependencies",
+  "identify data sources",
+  "explain data origins"
+ ],
+ "effects": {},
+ "flags": []
+}

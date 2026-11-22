@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b036c0cb270af07dfa4fc96770a2046fbdd92f18dfcf13d7e13f99b70486dce8",
+ "domain": [
+  "privacy/metadata-removal",
+  "media/files"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "create-content"
+ ],
+ "summary": "Strips GPS, device, date and AI-generation metadata from photos, RAW images, videos and PDFs.",
+ "whenToUse": "Use when a user wants to remove location, device or AI labels from media or PDF files before sharing.",
+ "tasks": [
+  "remove gps data from files",
+  "strip device details",
+  "remove dates from metadata",
+  "remove ai labels",
+  "clean video metadata",
+  "clean pdf metadata",
+  "clean raw photo metadata"
+ ],
+ "effects": {},
+ "flags": []
+}

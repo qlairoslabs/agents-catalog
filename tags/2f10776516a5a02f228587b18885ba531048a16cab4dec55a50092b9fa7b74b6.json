@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2f10776516a5a02f228587b18885ba531048a16cab4dec55a50092b9fa7b74b6",
+ "domain": [
+  "content/fact-checking",
+  "ai/grounding"
+ ],
+ "product": [
+  "portmem"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "stay-compliant"
+ ],
+ "summary": "Checks AI-written drafts against source documents and cites the passage supporting each verdict.",
+ "whenToUse": "Use when an agent needs to verify that a draft's claims are supported by provided source documents.",
+ "tasks": [
+  "check draft against sources",
+  "return supporting passages",
+  "flag unsupported claims"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6bd8aa63ca3e79979603b6202c46cf7ba5f2893a26bc3d49fbfd85c3d77238ae",
+ "domain": [
+  "business/crm/contact-data",
+  "sales/relationship-intelligence"
+ ],
+ "product": [
+  "sigparser"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "keep-in-touch"
+ ],
+ "summary": "Queries contacts, companies, relationships and communication metrics extracted by SigParser.",
+ "whenToUse": "Use when an agent needs contact or company details or relationship strength data from SigParser.",
+ "tasks": [
+  "query contacts",
+  "query companies",
+  "view relationships",
+  "get communication metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

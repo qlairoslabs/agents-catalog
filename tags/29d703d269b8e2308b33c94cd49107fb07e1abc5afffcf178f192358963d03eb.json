@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "29d703d269b8e2308b33c94cd49107fb07e1abc5afffcf178f192358963d03eb",
+ "domain": [
+  "security/scam-detection",
+  "fraud-prevention"
+ ],
+ "product": [
+  "cautellus"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Scans URLs and messages for phishing and scam risk, returning a safe, warn or danger verdict with a score and findings.",
+ "whenToUse": "Use before visiting a suspicious link or acting on a message asking for payment, codes or urgent action.",
+ "tasks": [
+  "scan a URL for phishing",
+  "scan a message for scam signs",
+  "check remaining scan credits"
+ ],
+ "effects": {
+  "f2c0abe10cfb4808efcec8e50e38ffd52cebc0e0f44a44a014dba217b32982c6": "read",
+  "5b151997b41586fce7f42470c0838021dff5b376ca612fc8d272076c789df26f": "read",
+  "fc26c2080d9d5025144b0018d38df4233acf4a9bf4bbf4654b6816106f2a3749": "read"
+ },
+ "flags": []
+}

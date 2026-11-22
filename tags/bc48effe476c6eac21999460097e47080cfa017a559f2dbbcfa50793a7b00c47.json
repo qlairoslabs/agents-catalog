@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bc48effe476c6eac21999460097e47080cfa017a559f2dbbcfa50793a7b00c47",
+ "domain": [
+  "media/ai-generation",
+  "software/ai-pipelines"
+ ],
+ "product": [
+  "pipe2"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Runs multi-step AI pipelines over video, image, audio and text with media upload and result polling.",
+ "whenToUse": "Use when an agent needs to chain AI media processing steps and retrieve the outputs.",
+ "tasks": [
+  "upload media",
+  "run multi-step ai pipelines",
+  "poll pipeline results"
+ ],
+ "effects": {},
+ "flags": []
+}

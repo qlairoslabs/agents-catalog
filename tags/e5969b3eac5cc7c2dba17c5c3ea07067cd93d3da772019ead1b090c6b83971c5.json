@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "e5969b3eac5cc7c2dba17c5c3ea07067cd93d3da772019ead1b090c6b83971c5",
+ "domain": [
+  "education/learning-management"
+ ],
+ "product": [
+  "d2l-brightspace"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connects to D2L Brightspace to read grades, due dates, assignments, announcements and course files.",
+ "whenToUse": "Use when a student or teacher wants to check Brightspace grades, deadlines, assignments or announcements.",
+ "tasks": [
+  "view grades",
+  "list due dates",
+  "list assignments",
+  "read announcements",
+  "access course files"
+ ],
+ "effects": {},
+ "flags": []
+}

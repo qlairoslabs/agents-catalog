@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3bbcec675b486f83c5fa9997c7a5c647a49cc098c4fc2b9f46a1d2b09359f34f",
+ "domain": [
+  "software/cloud-hosting",
+  "software/devops"
+ ],
+ "product": [
+  "fly-io",
+  "postgres"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Manages Fly.io apps, Machines, volumes, secrets, Managed Postgres and Sprites using OAuth.",
+ "whenToUse": "Use when deploying or administering applications and infrastructure hosted on Fly.io.",
+ "tasks": [
+  "manage apps",
+  "manage machines",
+  "manage volumes",
+  "manage secrets",
+  "manage postgres databases",
+  "manage sprites"
+ ],
+ "effects": {},
+ "flags": []
+}

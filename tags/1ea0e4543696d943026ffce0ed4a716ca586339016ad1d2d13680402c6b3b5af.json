@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1ea0e4543696d943026ffce0ed4a716ca586339016ad1d2d13680402c6b3b5af",
+ "domain": [
+  "software/chatbots",
+  "support/website-chat"
+ ],
+ "product": [
+  "causerie"
+ ],
+ "audience": [
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "be-online"
+ ],
+ "summary": "Creates, trains and publishes AI chatbots for websites through an MCP client.",
+ "whenToUse": "Use when a user wants to build or update a website chatbot with Causerie.",
+ "tasks": [
+  "create chatbots",
+  "train chatbots",
+  "publish chatbots"
+ ],
+ "effects": {},
+ "flags": []
+}

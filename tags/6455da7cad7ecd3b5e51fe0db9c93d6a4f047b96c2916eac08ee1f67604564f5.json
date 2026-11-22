@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6455da7cad7ecd3b5e51fe0db9c93d6a4f047b96c2916eac08ee1f67604564f5",
+ "domain": [
+  "hr/cv-review",
+  "career"
+ ],
+ "product": [
+  "werkcv"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Grades a CV against Dutch hiring norms, compares it with a vacancy and opens it in the WerkCV editor.",
+ "whenToUse": "Use when a user wants feedback on a CV for the Dutch job market or to match it to a vacancy.",
+ "tasks": [
+  "score CV",
+  "check ATS readability",
+  "match CV to vacancy",
+  "find missing keywords",
+  "open in editor"
+ ],
+ "effects": {
+  "1a1a4b4d050b55c89bca27b4bcd0d16b4b95a149133fccef9a25c223b0c58b0f": "read",
+  "152f51d16ddd3ae010f2b4ca56bc9497845bbeb72f5a1220836445c7ff6f2df1": "read",
+  "8ec3bc5404bfede51855c2fa2793098dce3ddc39882e0a2321391c142a6c12b8": "write"
+ },
+ "flags": []
+}

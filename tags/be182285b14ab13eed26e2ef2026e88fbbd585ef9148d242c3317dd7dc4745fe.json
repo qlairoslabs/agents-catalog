@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "be182285b14ab13eed26e2ef2026e88fbbd585ef9148d242c3317dd7dc4745fe",
+ "domain": [
+  "marketing/email-marketing",
+  "sales/crm",
+  "communication/chatbots"
+ ],
+ "product": [
+  "sendpulse"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Connects agents to SendPulse email campaigns, CRM, chatbots, SMTP and online course tools.",
+ "whenToUse": "Use when an agent needs to manage SendPulse email campaigns, CRM deals, chatbots, SMTP sending or courses.",
+ "tasks": [
+  "manage email campaigns",
+  "send smtp email",
+  "manage crm",
+  "manage chatbots",
+  "manage courses"
+ ],
+ "effects": {},
+ "flags": []
+}

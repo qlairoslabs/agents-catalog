@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "bc368f66709faff27801d984df89a08297e3b88e7ac891d29a5ea745b87e245e",
+ "domain": [
+  "finance/personal-finance/expense-tracking"
+ ],
+ "product": [
+  "yomio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads Yomio expense, income, account, budget and recurring payment data for summaries and analysis.",
+ "whenToUse": "Use when a Yomio user asks about their spending, income, budgets, accounts or subscriptions.",
+ "tasks": [
+  "summarize spending by category or merchant",
+  "compare spending periods",
+  "search expenses",
+  "rank top merchants",
+  "show spending trends",
+  "summarize income",
+  "list income",
+  "view balance overview",
+  "list recurring payments",
+  "view accounts and balances",
+  "check budget status",
+  "find most purchased products"
+ ],
+ "effects": {
+  "46f9cd9af3a74660d0b1a940562c59d401f78967f8d0f24bffea130ea6fdc1ae": "read",
+  "fa3b7de9c4ce2ef063890523e1e031b1d1bf4e11712d54db157ada2df0e1b9ab": "read",
+  "0859925285674e838f682b97ef1c4c1d40e15053a48e693e97e74a1514fdfa22": "read",
+  "099bad4c9766af8b01f0a785c6e9b9815ecaef247b76edc5d8b86dbebdcba8f5": "read",
+  "4b8791ac51dd8caa3bf2f5e39388572207c610bea567a073c43e02c68d64d1a6": "read",
+  "c9cefd810dc0a2407676bfd021488a18863131fef8caee09e4e4bc323c3ca310": "read",
+  "361345a90aa9536a88e222cadd863c3fad1351dbb79037ddddaac9150deeaf2d": "read",
+  "22ff07f9bf6edae3554ccf26441628c88150b6c4c8a5b75efb9cd6f0086853d5": "read",
+  "29ec6ce48079c447252d077741d45d6b02d423b8b9dcaad1e75988e153770889": "read",
+  "20a8e03f62eb9a282a360680217f98ac96d10d7c1eca40d5a8d77a59cd27f31f": "read",
+  "4d7780edfe7788d0f4486668e4dc4f0fc6c4d93c023c750fb85e6b83ef3fe717": "read",
+  "aabc3c81abca0dbdf49f8f0148c0267a97789cd512e056af3db10fc5096a40f6": "read",
+  "c6fdfae07933b5e281f3a94d091792443a43c3f8504f0a6660a35b0538a35bcb": "read",
+  "c3037177b408233b0aa26309d6328942465716acf16cb2e48f2385d568bfc097": "read",
+  "faa42c869af5a9b0969a29c1efcee78edd0620aa29902e88fe21286aeecbaa4b": "read"
+ },
+ "flags": []
+}

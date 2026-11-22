@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "8b6b889dc4a53c2dc5f34f1aac8ac73d0a0ac3a69e3ac56ff59de15e2ea7c753",
+ "domain": [
+  "software/cybersecurity/access-control",
+  "software/ai-governance"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Controls AI agent and MCP tool calls by allowing, holding for approval or blocking each one.",
+ "whenToUse": "Use when tool calls made by agents need policy checks or human approval.",
+ "tasks": [
+  "allow tool calls",
+  "hold tool calls for approval",
+  "block tool calls",
+  "set access policies"
+ ],
+ "effects": {},
+ "flags": []
+}

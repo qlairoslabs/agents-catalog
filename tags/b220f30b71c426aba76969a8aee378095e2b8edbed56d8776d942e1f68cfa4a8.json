@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b220f30b71c426aba76969a8aee378095e2b8edbed56d8776d942e1f68cfa4a8",
+ "domain": [
+  "commerce/ecommerce-integration"
+ ],
+ "product": [
+  "api2cart"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Unified access to more than 70 ecommerce platforms for products, orders, customers and related data.",
+ "whenToUse": "Use when an agent needs to work with store data across multiple ecommerce platforms through one interface.",
+ "tasks": [
+  "manage products",
+  "manage orders",
+  "manage customers",
+  "connect ecommerce stores"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9223aaf848f6ae090c2872872175f99b2a151e444f97d12585f75d70cb600fcb",
+ "domain": [
+  "marketing/social-media",
+  "marketing/pinterest"
+ ],
+ "product": [
+  "tailwind",
+  "pinterest"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Lists Pinterest accounts and creates, schedules and manages Pinterest posts through Tailwind.",
+ "whenToUse": "Use when a user wants to create, schedule or manage Pinterest pins via their Tailwind account.",
+ "tasks": [
+  "list pinterest accounts",
+  "create pinterest posts",
+  "schedule pinterest posts",
+  "manage pinterest posts"
+ ],
+ "effects": {},
+ "flags": []
+}

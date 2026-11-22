@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "75aa2095b1fc99536473a412e0b572f8a86d83f073c490596e1cb88c2bd473a2",
+ "domain": [
+  "software/web-automation",
+  "data/web-scraping"
+ ],
+ "product": [
+  "tinyfish"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs AI browsing agents that navigate websites and complete tasks on one or many pages.",
+ "whenToUse": "Use when a task needs automated navigation or data extraction across websites.",
+ "tasks": [
+  "navigate websites",
+  "automate web tasks",
+  "extract web data",
+  "run tasks across many pages"
+ ],
+ "effects": {},
+ "flags": []
+}

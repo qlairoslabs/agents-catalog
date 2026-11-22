@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a835fd3bad3a26adb38c4fc9484b12d2b3e13d8744a18cbe84d8a3d11bfa33d1",
+ "domain": [
+  "software/bug-tracking",
+  "software/session-replay"
+ ],
+ "product": [
+  "session-replay"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Reads and triages bug reports captured by Session Replay on verified domains.",
+ "whenToUse": "Use when an agent needs to review or triage user-reported bugs captured with Session Replay.",
+ "tasks": [
+  "list bug reports",
+  "read bug reports",
+  "triage bugs"
+ ],
+ "effects": {},
+ "flags": []
+}

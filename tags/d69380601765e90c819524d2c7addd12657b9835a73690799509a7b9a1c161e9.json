@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d69380601765e90c819524d2c7addd12657b9835a73690799509a7b9a1c161e9",
+ "domain": [
+  "ai/agent-observability",
+  "software/development-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Queries recorded AI agent sessions for events, summaries, diffs, health and PR reviewability.",
+ "whenToUse": "Use when an agent needs to review or analyze past recorded AI agent sessions.",
+ "tasks": [
+  "query session events",
+  "summarize sessions",
+  "show session diffs",
+  "check session health",
+  "assess pr reviewability"
+ ],
+ "effects": {},
+ "flags": []
+}

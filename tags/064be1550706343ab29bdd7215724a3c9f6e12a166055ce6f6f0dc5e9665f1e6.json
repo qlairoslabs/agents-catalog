@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "064be1550706343ab29bdd7215724a3c9f6e12a166055ce6f6f0dc5e9665f1e6",
+ "domain": [
+  "media/video-understanding"
+ ],
+ "product": [
+  "reka"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Uses Reka AI to search videos, answer questions about them and extract insights.",
+ "whenToUse": "Use when the user wants to search inside videos or ask questions about their content.",
+ "tasks": [
+  "search videos",
+  "ask questions about videos",
+  "extract video insights"
+ ],
+ "effects": {},
+ "flags": []
+}

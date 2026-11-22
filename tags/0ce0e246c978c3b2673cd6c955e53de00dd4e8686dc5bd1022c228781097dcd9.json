@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0ce0e246c978c3b2673cd6c955e53de00dd4e8686dc5bd1022c228781097dcd9",
+ "domain": [
+  "ai/prompt-engineering"
+ ],
+ "product": [
+  "illumora-craft"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Compiles prompts for agents enriched with supporting evidence, available as remote OAuth MCP or local stdio server.",
+ "whenToUse": "Use when an agent needs to build or refine a prompt backed by gathered evidence.",
+ "tasks": [
+  "compile prompts",
+  "augment prompts with evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

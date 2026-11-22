@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "6a386539d03a44dc1ac66e79966a358e2601d884f7d1310e9f1b260f6020a991",
+ "domain": [
+  "media/blog",
+  "technology/content-search"
+ ],
+ "product": [
+  "mojalab"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Read-only access to the MojaLab blog: list, search and read posts, pages and tags as Markdown, with related-post suggestions.",
+ "whenToUse": "Use when you need to find or quote articles, pages or companion repos published on mojalab.com.",
+ "tasks": [
+  "list posts",
+  "search posts",
+  "search posts pages and repos",
+  "read full post",
+  "read static page",
+  "list tags",
+  "get related posts",
+  "get site summary"
+ ],
+ "effects": {
+  "3b9d06d2980dea730fa1399454f25a34cff2310d1af8f6034312c70498622949": "read",
+  "bae06175d28451c094d0c81d84a7b7fb46ac96f8a2bc1cad4812fe5eddf4dacb": "read",
+  "a3fe85df64a5860b369e88066e09df8058ed2bb1951f49ebae5fc9b9607d040e": "read",
+  "cabbdc6ad9e292da241a6aaf83fa509f798625b8acf20cbb0ba3384e73b15c93": "read",
+  "343b510666746b4b2fdd856bd3cd42fdda9ce9301e42416f64a4bbe76f47c98a": "read",
+  "63841ccaecdfadf74b9de45dc8ea883da9dbf54cfc3360cd212f72b8b77d70e8": "read",
+  "ce56830dcc08393d5ccd3db88f9ad0330f58861286f2eade78b4b21cb41c83f7": "read",
+  "2aae1c20e80c2843863cf11a38aea5b0ba905e29bd5e19c5921ad412f721c53a": "read",
+  "58e8bc18dde6812e43cd8ad2f444c2eac88138f8b5107fdfeed28726499d35f9": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "32cce60f2d29a549e57a027e0b28e1ab859a7ec154d2ab2029041670a4e591d0",
+ "domain": [
+  "marketing/social-listening",
+  "data/social-media"
+ ],
+ "product": [
+  "reddit",
+  "x"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Hosted service offering semantic search over Reddit and X content without using the Reddit API.",
+ "whenToUse": "Use when an agent needs to search or analyze Reddit or X discussions on a topic.",
+ "tasks": [
+  "semantic search of reddit posts",
+  "search x posts",
+  "retrieve social discussion data"
+ ],
+ "effects": {},
+ "flags": []
+}

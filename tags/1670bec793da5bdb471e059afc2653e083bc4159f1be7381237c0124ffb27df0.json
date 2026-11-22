@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1670bec793da5bdb471e059afc2653e083bc4159f1be7381237c0124ffb27df0",
+ "domain": [
+  "logistics/shipment-tracking",
+  "agriculture/fresh-produce"
+ ],
+ "product": [
+  "trackberry"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Tracks fresh produce shipments with ETAs, free time, documents, pre-allocations and notes in Trackberry.",
+ "whenToUse": "Use when checking the status, documents or arrival times of fresh produce shipments managed in Trackberry.",
+ "tasks": [
+  "track shipments",
+  "get etas",
+  "check free time",
+  "view shipment documents",
+  "manage pre-allocations",
+  "add notes"
+ ],
+ "effects": {},
+ "flags": []
+}

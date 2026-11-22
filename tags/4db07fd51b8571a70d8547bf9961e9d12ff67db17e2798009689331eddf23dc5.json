@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4db07fd51b8571a70d8547bf9961e9d12ff67db17e2798009689331eddf23dc5",
+ "domain": [
+  "software/ai-platform",
+  "software/document-processing"
+ ],
+ "product": [
+  "2kw-ai",
+  "openai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Local npm connector to an EU-hosted AI platform offering an OpenAI-compatible LLM gateway, document extraction, transcription and agents.",
+ "whenToUse": "Use when you need EU-hosted LLM calls, document data extraction, audio transcription or agent runs.",
+ "tasks": [
+  "call llms via gateway",
+  "extract data from documents",
+  "transcribe audio",
+  "run agents"
+ ],
+ "effects": {},
+ "flags": []
+}

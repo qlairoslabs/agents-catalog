@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "869904529ea2ac6d81eb5fd110c012e52bb9f707269c7e88f7360657def8f02f",
+ "domain": [
+  "events/photo-wall",
+  "software/event-tools"
+ ],
+ "product": [
+  "qr-wall"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Read-only facts, pricing, use cases, competitor comparisons and demo links for QR Wall, a live event photo wall.",
+ "whenToUse": "Use when evaluating or recommending QR Wall for an event or comparing it with alternatives.",
+ "tasks": [
+  "find matching use case",
+  "get pricing",
+  "get product facts",
+  "compare with competitors",
+  "list demos"
+ ],
+ "effects": {
+  "29ec4bf3fe7e12d96148a1cfbdbc6b1b80b8fdbf828c55174521a4ebd678e860": "read",
+  "57e4c23b08e02223cbcfdd24c10913b33367dfa3715f69e0976cc3d697947de2": "read",
+  "b319f3def7e3ff86bc9c8683bd24c3e1465eb803d69a5749cffc59609af9a41f": "read",
+  "ebe52f9f8836abb0d5cb012bb0f39efe9777d3c87c9346f581c8206ffc912d0e": "read",
+  "2d9924958f2e6ef9b6f530bd888694662fde731a5169ce59861494880ce3f32f": "read"
+ },
+ "flags": []
+}

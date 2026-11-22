@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "ce766b57518e1b81e731b847a2c53bf5a9490e6272f1679590ac7ab9682b6e4d",
+ "domain": [
+  "finance/payments/agent-payments",
+  "software/ai-agents"
+ ],
+ "product": [
+  "amazon-bedrock-agentcore",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Lets an agent pay for x402-protected content at runtime through AgentCore Payments with operator spend limits and session budgets.",
+ "whenToUse": "Use when the agent hits a 402 Payment Required response or needs runtime payment limits configured.",
+ "tasks": [
+  "handle 402 payment required",
+  "settle x402 payments",
+  "set spend limits",
+  "configure session budgets",
+  "troubleshoot failed payments"
+ ],
+ "effects": {},
+ "flags": [
+  "enables autonomous agent spending of money"
+ ]
+}

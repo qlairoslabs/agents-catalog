@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f37159422db99825014a39575492a15a62bcdec5c2803098930370bfa93e18ea",
+ "domain": [
+  "software/version-control",
+  "software/project-management"
+ ],
+ "product": [
+  "gitkraken",
+  "github",
+  "gitlab",
+  "bitbucket"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "GitKraken CLI MCP server for managing repositories, pull requests and issues across GitHub, GitLab, Bitbucket and others.",
+ "whenToUse": "Use when an agent needs to work with repos, PRs or issues across multiple git hosting providers.",
+ "tasks": [
+  "manage repositories",
+  "manage pull requests",
+  "manage issues",
+  "work across git hosts"
+ ],
+ "effects": {},
+ "flags": []
+}

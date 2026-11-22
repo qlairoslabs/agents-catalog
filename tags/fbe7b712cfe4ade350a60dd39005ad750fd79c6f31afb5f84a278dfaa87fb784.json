@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fbe7b712cfe4ade350a60dd39005ad750fd79c6f31afb5f84a278dfaa87fb784",
+ "domain": [
+  "finance/venture-capital",
+  "sales/deal-pipeline"
+ ],
+ "product": [
+  "seeder"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "work-as-a-team"
+ ],
+ "summary": "Connector to search and update a VC firm's deal pipeline, including deals, notes, tasks and analyst assignments.",
+ "whenToUse": "Use when an agent needs to search or update deals, notes or tasks in a VC firm's Seeder pipeline.",
+ "tasks": [
+  "search deals",
+  "manage notes",
+  "manage tasks",
+  "assign analysts"
+ ],
+ "effects": {},
+ "flags": []
+}

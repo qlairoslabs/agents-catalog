@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f8a67ba2fff1f286a4a4f0a0f5e33e1d5569624c3ac662269bfc25d6d94cb61d",
+ "domain": [
+  "media/podcasting/transcription",
+  "content/audio"
+ ],
+ "product": [
+  "podcaststotext",
+  "youtube"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Transcribes podcasts, YouTube videos and audio and generates show notes, chapters and translations.",
+ "whenToUse": "Use when an agent needs a transcript, show notes, chapters or a translation from podcast or video audio.",
+ "tasks": [
+  "transcribe podcasts",
+  "transcribe youtube videos",
+  "transcribe audio files",
+  "generate show notes",
+  "generate chapters",
+  "translate transcripts"
+ ],
+ "effects": {},
+ "flags": []
+}

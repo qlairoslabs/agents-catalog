@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "c6523c1529380d51aa7d6d649f553d44dd08ce3c6dbe7cc0c70defd1d21cb0d5",
+ "domain": [
+  "business/pitch-analysis",
+  "communication"
+ ],
+ "product": [
+  "founderbrain"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Analyses a speaker in a pitch or investor call transcript against founder interviews, returning style, similar people and takeaways.",
+ "whenToUse": "Use when a user wants feedback on how a founder came across in a meeting transcript.",
+ "tasks": [
+  "analyse speaker style",
+  "list speakers and word counts",
+  "build transcript upload command"
+ ],
+ "effects": {
+  "5de83a634b8f0c7dfb029f3f3fd4ddc6bd1c1ebfd5380d78299c0cc00debd3a4": "write",
+  "4973d44653ca7d54483acef32d4b871206589cf9c07ef4a1d5e2a9d1cf94901d": "write",
+  "0cc44351e8ce7b09ffb07cfcdead8f6345f8aa1ec175513cca461f25001fee7a": "write"
+ },
+ "flags": [
+  "sends meeting transcripts to an external service",
+  "upload command is run in user's terminal"
+ ]
+}

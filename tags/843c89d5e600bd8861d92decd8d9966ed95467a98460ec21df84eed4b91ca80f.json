@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "843c89d5e600bd8861d92decd8d9966ed95467a98460ec21df84eed4b91ca80f",
+ "domain": [
+  "media/image-generation",
+  "media/video-generation"
+ ],
+ "product": [
+  "switch"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates AI images and videos and manages the user's Switch media library.",
+ "whenToUse": "Use when a user wants to generate images or videos or browse and organize their Switch library.",
+ "tasks": [
+  "generate images",
+  "generate videos",
+  "manage media library",
+  "browse library"
+ ],
+ "effects": {},
+ "flags": []
+}

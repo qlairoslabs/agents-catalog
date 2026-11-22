@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "65446f9af7b415d903929cdc6febebe2906b6fc2c1848729a6d524b75d3a2526",
+ "domain": [
+  "ecommerce/electronics",
+  "shopping/pc-parts"
+ ],
+ "product": [
+  "ipon"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches iPon's electronics and PC parts, manages the shopping cart, and tracks or places orders after sign-in.",
+ "whenToUse": "Use when a user wants to find, buy or track electronics and PC components from the Hungarian shop iPon.",
+ "tasks": [
+  "search products",
+  "manage cart",
+  "place order",
+  "track orders"
+ ],
+ "effects": {},
+ "flags": []
+}

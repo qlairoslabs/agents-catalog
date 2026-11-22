@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cb5545ca5422382e74dd56ea8953c4fa381331f797ca9ab07a30f16b051a423a",
+ "domain": [
+  "sales/outbound",
+  "sales/linkedin-automation"
+ ],
+ "product": [
+  "gtm-bud",
+  "linkedin"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Builds, launches and monitors LinkedIn outbound campaigns in GTM Bud and handles lead replies.",
+ "whenToUse": "Use when running LinkedIn outreach campaigns or replying to leads through GTM Bud.",
+ "tasks": [
+  "build campaigns",
+  "launch campaigns",
+  "monitor campaigns",
+  "reply to leads"
+ ],
+ "effects": {},
+ "flags": []
+}

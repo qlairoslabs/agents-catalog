@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c694c38ec47efd23d566ad5abdd5b3e5fcba75ab9568c96ba81869db461506d3",
+ "domain": [
+  "software/ai-memory"
+ ],
+ "product": [
+  "justonce"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Persistent memory vault shared across MCP clients, secured with OAuth.",
+ "whenToUse": "Use when an assistant should remember facts across sessions or share memory between clients.",
+ "tasks": [
+  "store memories",
+  "recall memories",
+  "share memory across clients"
+ ],
+ "effects": {},
+ "flags": []
+}

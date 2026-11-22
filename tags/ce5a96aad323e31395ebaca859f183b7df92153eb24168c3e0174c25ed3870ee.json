@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ce5a96aad323e31395ebaca859f183b7df92153eb24168c3e0174c25ed3870ee",
+ "domain": [
+  "software/code-documentation",
+  "software/code-search"
+ ],
+ "product": [
+  "repofold",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates a cited wiki for a GitHub repository with search, page reading, symbol lookup and Q&A with line citations.",
+ "whenToUse": "Use when understanding an unfamiliar GitHub codebase with cited answers.",
+ "tasks": [
+  "search repo wiki",
+  "read wiki pages",
+  "find symbols",
+  "ask questions about code",
+  "get line citations"
+ ],
+ "effects": {},
+ "flags": []
+}

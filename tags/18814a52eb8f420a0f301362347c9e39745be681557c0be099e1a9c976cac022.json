@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "18814a52eb8f420a0f301362347c9e39745be681557c0be099e1a9c976cac022",
+ "domain": [
+  "software/product-directory"
+ ],
+ "product": [
+  "uneed"
+ ],
+ "audience": [
+  "everyone",
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches uneed.best's directory of software products with profiles, reviews, alternatives, rankings, deals and businesses for sale.",
+ "whenToUse": "Use when someone looks for a software tool, alternatives to one, deals, trending launches or a micro SaaS to buy.",
+ "tasks": [
+  "search products",
+  "get product profile",
+  "find alternatives",
+  "read reviews",
+  "get trending rankings",
+  "list recent launches",
+  "list deals",
+  "list products for sale",
+  "list categories",
+  "get launch statistics"
+ ],
+ "effects": {
+  "7fdd1e868dfd7eb0f6383286924008716033daae676300f4e7aa648985518b7e": "read",
+  "40eccdf51a18cd371bdbc431afcc1cea8867320056c87123de9f8e8b642b0299": "write",
+  "86a8e23570fdda7bcb65c5c4b2f5b202894cc495ce1d05c3381d83fd0dae3554": "read",
+  "a1c7571141620a905db7a783b06f0cccf311b182363e4dd765a19791e2bb0250": "write",
+  "ff153092d482b6af949ace7f10e72a41b80aaf00f96ba87ad70866c425262878": "read",
+  "d535cd33f1bb22954b5773d776e40a55f688ac257d87badab3e48f6ce310fbea": "read",
+  "0448ecb1a63bfac24bb6c5ac209f556401dd812a0236100ab5090f49c39bcb5c": "read",
+  "cb950f5578bdba1036cda6cb752020b7e563d611d52c11f393e7991b6972b808": "read",
+  "05a422c57ee15dc436a5a264646a266845820bace536ebac35005afccf513da9": "read",
+  "d6170fe7fa3d2f7f94143ea1bf1c24c1a96d3f96f46559477b2a9fff9a277cd5": "write",
+  "19ec8997bbd9b2e38037ff3c434649227fdd81c8c62edbce02fe503177ac61cc": "read",
+  "0009753dbbad23d1909e41c6baaed0b0aa8fe14e6388ab2607a9f965d887d780": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3b3c2f64d7798fe5a612b708b46ead01bc08d74087f17f7d1409f0a2f129d8e6",
+ "domain": [
+  "health/fitness-tracking"
+ ],
+ "product": [
+  "garmin",
+  "oura",
+  "whoop",
+  "hevy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Makes data from Garmin, Oura, WHOOP, Hevy and other fitness apps queryable by an AI assistant.",
+ "whenToUse": "Use when analyzing a person's own fitness, sleep or workout data from connected apps.",
+ "tasks": [
+  "query fitness data",
+  "read sleep data",
+  "read workout logs",
+  "combine data across apps"
+ ],
+ "effects": {},
+ "flags": []
+}

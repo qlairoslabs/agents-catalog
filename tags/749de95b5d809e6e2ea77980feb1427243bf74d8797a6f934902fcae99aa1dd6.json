@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "749de95b5d809e6e2ea77980feb1427243bf74d8797a6f934902fcae99aa1dd6",
+ "domain": [
+  "sustainability/carbon-accounting",
+  "compliance/cbam"
+ ],
+ "product": [
+  "myco2suite"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Calculates CO2e emissions for transactions, activities, flights, shipments and CBAM imports across 200+ countries.",
+ "whenToUse": "Use when estimating carbon emissions or preparing CBAM import reporting.",
+ "tasks": [
+  "calculate transaction emissions",
+  "calculate flight emissions",
+  "calculate shipment emissions",
+  "calculate activity emissions",
+  "estimate cbam import emissions"
+ ],
+ "effects": {},
+ "flags": []
+}

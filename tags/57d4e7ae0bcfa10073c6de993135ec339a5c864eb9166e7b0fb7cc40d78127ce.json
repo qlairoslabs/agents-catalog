@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "57d4e7ae0bcfa10073c6de993135ec339a5c864eb9166e7b0fb7cc40d78127ce",
+ "domain": [
+  "travel/award-flights"
+ ],
+ "product": [
+  "bonussok",
+  "skyteam",
+  "eurobonus"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches SkyTeam EuroBonus award seat availability and manages alerts; requires a Bonussøk subscription.",
+ "whenToUse": "Use when looking for EuroBonus award flights or setting availability alerts.",
+ "tasks": [
+  "search award flights",
+  "manage alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "94217ff1fbf09625eca234f81396bac96d13f1e353e5d2ff56389cc9c8210593",
+ "domain": [
+  "software/development/mapping",
+  "geospatial"
+ ],
+ "product": [
+  "mapbox"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives agents access to Mapbox developer APIs and documentation for building map applications.",
+ "whenToUse": "Use when an agent is building with Mapbox and needs its developer APIs or docs.",
+ "tasks": [
+  "read mapbox docs",
+  "manage styles",
+  "manage tokens",
+  "call developer apis"
+ ],
+ "effects": {},
+ "flags": []
+}

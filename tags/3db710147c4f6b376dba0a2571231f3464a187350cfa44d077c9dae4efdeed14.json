@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3db710147c4f6b376dba0a2571231f3464a187350cfa44d077c9dae4efdeed14",
+ "domain": [
+  "software/browser-automation"
+ ],
+ "product": [
+  "anchor-browser"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Cloud browsers for AI agents that handle sign-ins with MFA and run web tasks at scale, including past bot detection.",
+ "whenToUse": "Use when an agent must complete tasks on websites that need a real browser session or login.",
+ "tasks": [
+  "launch cloud browsers",
+  "sign in with mfa",
+  "run web tasks",
+  "run tasks at scale"
+ ],
+ "effects": {},
+ "flags": [
+  "advertises bot-detection evasion"
+ ]
+}

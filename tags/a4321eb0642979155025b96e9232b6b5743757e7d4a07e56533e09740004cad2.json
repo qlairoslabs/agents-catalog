@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a4321eb0642979155025b96e9232b6b5743757e7d4a07e56533e09740004cad2",
+ "domain": [
+  "operations/incident-management",
+  "software/devops"
+ ],
+ "product": [
+  "rootly"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Rootly incident management covering deploy safety, incident response, on-call and retrospectives.",
+ "whenToUse": "Use when an agent needs to respond to incidents, check on-call, assess deploy risk or write retrospectives with Rootly.",
+ "tasks": [
+  "check deploy safety",
+  "respond to incidents",
+  "manage on-call",
+  "write retrospectives"
+ ],
+ "effects": {},
+ "flags": []
+}

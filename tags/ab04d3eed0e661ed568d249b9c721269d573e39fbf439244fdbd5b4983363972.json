@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "ab04d3eed0e661ed568d249b9c721269d573e39fbf439244fdbd5b4983363972",
+ "domain": [
+  "consulting/ai-services",
+  "business/quotes"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Lists an AI consultant's services and price ranges, estimates costs, and submits an email-verified quote request.",
+ "whenToUse": "Use when a company wants to explore AI automation or assistant services, get an indicative PLN price, or request a quote.",
+ "tasks": [
+  "list services",
+  "match need to service",
+  "get quote questions",
+  "estimate price",
+  "request quote",
+  "confirm quote",
+  "list blog posts",
+  "get contact"
+ ],
+ "effects": {
+  "e10d039d5fa5718b8c082ba42db9a69c60d0427eaaa147254ea982149656be4b": "read",
+  "d172e403f6729bbee39effd268dbed5d4f158f8497760cc522e0fdffc1459e10": "read",
+  "8e9bfd6faf94777a26fc1e01a6159d4389a47e3e7af1f316a122843a78ef3362": "read",
+  "b0c2e437a09b55b2d45115c654b7b292068712a35fd44defab590056c47f70c3": "read",
+  "d0c794ad3ab656505927da95ae5e7f9335e57be00c1f659687ad356887d7a01f": "write",
+  "7096d83ce6d556ff9966fec257f68162dfaab828cacadecef5e3e6c045d0e8e8": "write",
+  "12956279869d651c7f438ae1c658e2571252247ef132d4697e66275ea9349571": "read",
+  "87115e76983ab40046c4b519d5c0565609db7c57ffdfa5ca9c14f89c39739754": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "b8af9cf8e7af5dd00dd9e10fbada7c0413600dd9232a5318eb375ca3ad871494",
+ "domain": [
+  "finance/mortgage",
+  "legal/lending-guidelines"
+ ],
+ "product": [
+  "fannie-mae",
+  "freddie-mac",
+  "fha",
+  "va",
+  "usda"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Verbatim US agency mortgage guideline passages with citations, plus DTI and FHA mortgage insurance premium calculators.",
+ "whenToUse": "Use when answering mortgage underwriting questions that need cited Fannie Mae, Freddie Mac, FHA, VA or USDA guidelines.",
+ "tasks": [
+  "search guidelines",
+  "read document pages",
+  "list agency documents",
+  "calculate DTI",
+  "calculate FHA MIP"
+ ],
+ "effects": {
+  "147dc062246cb1111f3dc5c07e430053cfa4ddd54ad090d9863f92e846493ce3": "read",
+  "27369b1a7f275e99d9d3e0ab7a4c7b59facfa3b125b1feed797a9fa6995948da": "read",
+  "0ede80606ebb673cf5ade26d57faabede06b5f122256869475ac7d3e8e6ae7c5": "read",
+  "454d2fe0be42b803ee6423a97ec78f1363490ce43654882bb5ed2e1c65c75fab": "read",
+  "e3d39f0819d92147fdb274dc80ac19d21d3795a621fb4f5338d5f7fa1183170a": "read"
+ },
+ "flags": []
+}

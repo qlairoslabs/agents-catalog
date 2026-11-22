@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a5e8470ce2e8d8462ef8620481efaedfd7d0d928c17e74477b59ba19cc3d674d",
+ "domain": [
+  "music/rights-data",
+  "entertainment/music-industry"
+ ],
+ "product": [
+  "songlinks",
+  "ipi"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Identifies songwriters across name spellings and IPI name numbers, returning person records and registered works.",
+ "whenToUse": "Use when resolving who a songwriter is or which IPI numbers belong to the same person.",
+ "tasks": [
+  "find songwriter by name",
+  "get songwriter details",
+  "look up by IPI number",
+  "check many IPI numbers"
+ ],
+ "effects": {
+  "b8f78828d2eb1f1596f9256a4c8331c706c2800222e8e30df2b3af5622698686": "write",
+  "4bad11c257b1b6d2ad39924b6a431f682ab01f462fede5a91a5b6640a5dfa965": "write",
+  "e0b9b48f75b7475f5ace9d3fe0ad8c83ba97c4a8e73d5aa73818649dab57716d": "read",
+  "930050edc0834e2e6ebdb6ae2577b759b8cdab02dae901b5a3ec47e0f370f4bb": "read"
+ },
+ "flags": []
+}

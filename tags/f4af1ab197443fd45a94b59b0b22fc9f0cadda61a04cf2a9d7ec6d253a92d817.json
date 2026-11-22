@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f4af1ab197443fd45a94b59b0b22fc9f0cadda61a04cf2a9d7ec6d253a92d817",
+ "domain": [
+  "travel/hotel-booking",
+  "finance/crypto-payments"
+ ],
+ "product": [
+  "trip1",
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Books hotels worldwide with payment in USDC on Base through the x402 protocol.",
+ "whenToUse": "Use when the user wants to book a hotel and pay with cryptocurrency.",
+ "tasks": [
+  "search hotels",
+  "book hotel",
+  "pay with usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

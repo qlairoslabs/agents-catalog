@@ -1,0 +1,76 @@
+{
+ "classifier": 2,
+ "contentHash": "f5aa18e647c8c5f7f5578a79d9d09cbf77e4fad2f9473c9f472937de3160cff7",
+ "domain": [
+  "agent-infrastructure/pay-per-call",
+  "crypto/safety-checks"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base",
+  "solana",
+  "met-norway",
+  "adsb-lol"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Pay-per-call utilities for agents paid in USDC via x402: address and URL risk checks, sandboxed code execution, scraping, PDF text, storage, inbox, DNS, RPC and gasless USDC relays.",
+ "whenToUse": "Use when an agent needs a metered utility such as screening a wallet or URL before paying, running code, scraping a page or relaying a USDC transfer.",
+ "tasks": [
+  "check wallet address risk",
+  "check URL risk",
+  "check x402 quote",
+  "run sandboxed code",
+  "scrape page",
+  "extract PDF text",
+  "store files",
+  "create disposable inbox",
+  "rent DNS name",
+  "make blockchain RPC call",
+  "relay USDC transfer",
+  "watch a URL"
+ ],
+ "effects": {
+  "746582c8dd9b0a19599dd71efb9367f87e41ff6d577740213f3b95330ac31dde": "read",
+  "aff38ed0fd193e34d85348ed7ab7b4667ba8e5c3c4886a55a3c14fa71ebf8933": "risky",
+  "8a79293483fa77e4c9248d03f6d25cfcca73d62c2fe18aeb72b81eb17d31bbfc": "read",
+  "b8c1eed0c4bb5c7f92b0e320b62abdf9371c0d52f379c7869460ba31fb9b9b54": "risky",
+  "0045c8ee0c21a4135bf2ddbaf80212ab29856f8133f8826188c47cd59a2d7f14": "read",
+  "f07dbecf4c8fbaad2578738c5e6d1a0d1d66d3b8e18e75a2ab7f9f438eaec314": "read",
+  "54b4fc88af830de4077db195d77e34e689d64d329512454fdad66e232db1764f": "read",
+  "9fd503102ac2f7aacd05c0051a35b2bb99dd64a94ff894a329e2ac51824b3c14": "read",
+  "c27d72c3a156aa85f079fbb3a5fcfd2a514de26eefaae22141c70e4ab3a69c0d": "write",
+  "86c92da8855b8bbc74d2d5987d7d083617b48475d1d552e2afe9aac101ad8052": "write",
+  "246971f794924077b0eb9fba49ddbb1cdb0b4ff849db9d8046852f6d339828a5": "write",
+  "eb25a3aa6903a1729316e7e1de52947acf20b5fa2a5e813ac958460866526137": "write",
+  "3d4259369a82bc428df84e58465ea6439716b09a44d0353999cd64e8f529a4ad": "write",
+  "8e86a554a1312e93a3d420dfc97768837415bf8179edcef54de418feca420aec": "write",
+  "740956cc560408173d987c1f276414283c42c290fddb21ed486abbfbfdd7471e": "read",
+  "5dc78b2f389d20db2738f46d5cb61eba270e18af43bdf511d85fa9eb1a54e241": "read",
+  "d977f3f1b803d6c370c611a588abfefd8182b9d81548b4e7e8d3e67d71e1a4cc": "read",
+  "2ef196f54490c9292e062dcc42e3169879acfac0bc1b6ded1901eb3a41656a98": "write",
+  "a0f33c6fa5d90e3b23ae93d19f0918cb07b8dde3af4e7b83a8e5777de9cc5c84": "risky",
+  "b7da7b13c8f2a4510d4fe738600193bae13941ab120301674300ea2f8a6a8c92": "risky",
+  "ba5034acac60569a599d60202923e82c82761373988dfa66ca41850aa4bd939e": "read",
+  "120c0114f16ae5a47e1561ce1488f6fe51787ce90ec3fce17cf77723845c985f": "write",
+  "dd330e293f6512ef8ab3dcf49ed63d2927628633240f75a54c8b2971fdc5247d": "read",
+  "fbf895049f4bf414f8dd769fcd566e996627d8f24646640bf4640bee2610a453": "write",
+  "0c3efc16a341f9e8d97cbaabbe26907ea54a1e253e9b4c3365ecdf7fe9110ae0": "write",
+  "24e1aac12347c65d9bd8d7017c94fbab9c24d9f987c0328cacf6bfc4f636d839": "write",
+  "f2bfd6353203781e4cb9b07f2f1c7bf232c439889e2a9950156d12008b9173f2": "write",
+  "e39fc8b92b070c5f8bf0391323b8903c176b38cb6bab77925bf9f6b79ee86fe0": "write",
+  "9728637cc3f3033fd5adff2845dfe7df3842edbbf465c37a6211bd417284622a": "write",
+  "cd25827724b728ce9d182b7896c049910214975b96236fec96ec9da1d5a785ed": "risky",
+  "c93cb799b5c5c5407aada9b87aa2432634234d98979cb89d5354240e7ab3ec45": "write"
+ },
+ "flags": [
+  "title and description say safety checks but it exposes unrelated tools that move money, run code and relay USDC",
+  "every tool is paid per call"
+ ]
+}

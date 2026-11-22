@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5d8528debb6e4f0b84fa36a633fcac7db02d9464a5d3d1a80e894e314d81298c",
+ "domain": [
+  "logistics/delivery-management",
+  "operations/fleet"
+ ],
+ "product": [
+  "shipday"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages Shipday delivery orders, drivers, driver earnings and reports from an AI assistant.",
+ "whenToUse": "Use when an agent needs to handle local delivery orders or driver data in Shipday.",
+ "tasks": [
+  "manage delivery orders",
+  "manage drivers",
+  "view driver earnings",
+  "get delivery reports"
+ ],
+ "effects": {},
+ "flags": []
+}

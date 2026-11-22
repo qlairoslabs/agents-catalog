@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "fa339ca19064454d3983a3050a21c45b55fcb427a5c0f795ab765962632f36f0",
+ "domain": [
+  "finance/payments/crypto",
+  "commerce/checkout"
+ ],
+ "product": [
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "sell"
+ ],
+ "summary": "x402-based checkout for merchants that issues payment terms and verifies payments, charging $0.01 per call.",
+ "whenToUse": "Use when a merchant or agent needs to request and verify x402 payments for a sale.",
+ "tasks": [
+  "issue payment terms",
+  "verify payments"
+ ],
+ "effects": {},
+ "flags": []
+}

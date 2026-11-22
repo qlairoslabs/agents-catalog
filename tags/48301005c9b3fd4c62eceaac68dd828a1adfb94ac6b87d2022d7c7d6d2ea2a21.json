@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "48301005c9b3fd4c62eceaac68dd828a1adfb94ac6b87d2022d7c7d6d2ea2a21",
+ "domain": [
+  "web/site-builder",
+  "content-management"
+ ],
+ "product": [
+  "markerloop"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Builds and publishes pages and manages collections, records and files in a Markerloop workspace.",
+ "whenToUse": "Use when an agent needs to create or update web pages or structured content in a Markerloop workspace.",
+ "tasks": [
+  "build pages",
+  "publish pages",
+  "manage collections",
+  "manage records",
+  "manage files"
+ ],
+ "effects": {},
+ "flags": []
+}

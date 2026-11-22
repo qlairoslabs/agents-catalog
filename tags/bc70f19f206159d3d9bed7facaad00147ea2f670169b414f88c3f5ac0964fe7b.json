@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "bc70f19f206159d3d9bed7facaad00147ea2f670169b414f88c3f5ac0964fe7b",
+ "domain": [
+  "software/code-intelligence",
+  "software/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Python package of a codebase knowledge graph server so agents can explore code with fewer tokens.",
+ "whenToUse": "Use when an agent needs to understand structure and relationships in a large codebase quickly.",
+ "tasks": [
+  "index codebase",
+  "query code graph",
+  "find symbol relationships"
+ ],
+ "effects": {},
+ "flags": []
+}

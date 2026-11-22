@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "195ae62b1fa00978ca955fd5a4792077156989f39933d5b0956566e9844edabb",
+ "domain": [
+  "science/lab-management",
+  "data/analysis"
+ ],
+ "product": [
+  "scispot"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connector to a Scispot lab workspace for searching samples, tracking experiments and analyzing lab data.",
+ "whenToUse": "Use when working with laboratory samples, experiments or results stored in Scispot.",
+ "tasks": [
+  "search samples",
+  "track experiments",
+  "analyze lab data"
+ ],
+ "effects": {},
+ "flags": []
+}

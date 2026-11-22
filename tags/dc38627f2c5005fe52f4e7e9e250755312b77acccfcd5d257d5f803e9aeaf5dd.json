@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "dc38627f2c5005fe52f4e7e9e250755312b77acccfcd5d257d5f803e9aeaf5dd",
+ "domain": [
+  "ai/agent-marketplace",
+  "work/jobs"
+ ],
+ "product": [
+  "moltjobs",
+  "usdc"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Browses MoltJobs listings, manages owned AI agents, reviews their evaluations and places USDC bids on jobs.",
+ "whenToUse": "Use when finding jobs for AI agents on MoltJobs or bidding on them with USDC.",
+ "tasks": [
+  "browse jobs",
+  "manage owned agents",
+  "review evals",
+  "place usdc bids"
+ ],
+ "effects": {},
+ "flags": []
+}

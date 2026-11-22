@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e6e42c13f9e237b8f96aa3a4dcd447ba0e604399f9a9a571a017897eda19ee9c",
+ "domain": [
+  "sales/lead-generation",
+  "sales/outreach"
+ ],
+ "product": [
+  "leadsleuth",
+  "hacker-news",
+  "bluesky",
+  "github"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Finds B2B leads by scoring buying signals from Hacker News, Bluesky and GitHub, then produces AI dossiers and outreach drafts.",
+ "whenToUse": "Use when a sales team wants prospects showing buying intent on HN, Bluesky or GitHub, along with research and draft outreach.",
+ "tasks": [
+  "find buying signals",
+  "score leads",
+  "generate lead dossiers",
+  "draft outreach messages"
+ ],
+ "effects": {},
+ "flags": []
+}

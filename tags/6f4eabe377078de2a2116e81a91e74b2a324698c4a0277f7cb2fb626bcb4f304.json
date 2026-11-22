@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "6f4eabe377078de2a2116e81a91e74b2a324698c4a0277f7cb2fb626bcb4f304",
+ "domain": [
+  "marketing/ppc-reporting",
+  "advertising"
+ ],
+ "product": [
+  "google-ads",
+  "meta-ads",
+  "ga4"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Compares PPC report periods from supplied Google Ads, Meta Ads and GA4 rows with row-level provenance, and generates editable SVG campaign assets.",
+ "whenToUse": "Use when you need a period-over-period ad performance comparison or quick campaign graphics.",
+ "tasks": [
+  "compare report periods",
+  "compute CPA and ROAS",
+  "trace to source rows",
+  "generate SVG ad assets",
+  "look up weekly report pilot"
+ ],
+ "effects": {
+  "268f7906e3b814cbf1be4e7a8f89e251cd29251d23d162fdb6c9a5324170bbb5": "read",
+  "40b80fedf3924a5567b3feee5315a3f25c85168706e31abe93d5254d42835bc4": "read",
+  "953b88e835ecccc3c83d11815a61537853611b327cf30004bcf07f314d682d1b": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "42e1979bb15ab8da3cdfdb6684cb2001092880b7e7f45e054e77f4d2a62a671d",
+ "domain": [
+  "commerce/electronics-distributor",
+  "retail/components"
+ ],
+ "product": [
+  "puhy.cz"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Searches the puhy.cz catalogue of electronic components and tools for prices, stock and delivery, and builds a pre-filled cart link for parts lists.",
+ "whenToUse": "Use when sourcing electronic components or tools from a Czech distributor or checking a bill of materials for price and stock.",
+ "tasks": [
+  "search products",
+  "get product detail",
+  "check BOM availability",
+  "build cart link",
+  "look up shipping and payment terms"
+ ],
+ "effects": {
+  "428afbe4e757762a73ec168d61b27be7a0ecd2b0fb0a332da7f47114b60a1115": "read",
+  "8d0f26b76221b77f69b43ed3bbfdc5835309c93e5907e79318c69f05ddf926ce": "read",
+  "c6656bc0ac17a9d66e3cc81f5650190fdd5cdee29b4b744124af4ceab5e661a6": "read",
+  "f54d8e091f5adca45b1da1c8e4bd751bcdae20c6cbc808decf8161f1e329516c": "read"
+ },
+ "flags": []
+}

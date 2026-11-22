@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3d1aa9c5b337d4e7019ac1f55ee63ea02b7eaea15e819d692b7607f0f4f578b6",
+ "domain": [
+  "software/documentation"
+ ],
+ "product": [
+  "life-ayushrai-site"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lists and finds public documentation pages on life.ayushrai.site, such as developer, auth, OpenAPI and sandbox pages.",
+ "whenToUse": "Use when you need documentation pages from life.ayushrai.site.",
+ "tasks": [
+  "list doc pages",
+  "filter by section",
+  "find pages by topic"
+ ],
+ "effects": {
+  "1f6cdee1470c21d2cc68c0a29faaed2ee843abc95f70244918a9f45173b16061": "read",
+  "48d989c5455d25ea7dc3bf9c5531147e24344fdd667605701d12847833523172": "read"
+ },
+ "flags": []
+}

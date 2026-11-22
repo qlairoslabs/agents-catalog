@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5560863ed5cb6a3e22c973b5857df4b1db9d8df91a51d49906b22ab69312d0e9",
+ "domain": [
+  "finance/payments",
+  "commerce/checkout"
+ ],
+ "product": [
+  "sprintcheckout"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "get-paid"
+ ],
+ "summary": "Reads payment settings, orders and receipts and creates payment links and API keys in SprintCheckout.",
+ "whenToUse": "Use when an agent needs to check SprintCheckout orders or create payment links or API keys.",
+ "tasks": [
+  "read payment settings",
+  "read orders",
+  "read receipts",
+  "create payment links",
+  "create api keys"
+ ],
+ "effects": {},
+ "flags": []
+}

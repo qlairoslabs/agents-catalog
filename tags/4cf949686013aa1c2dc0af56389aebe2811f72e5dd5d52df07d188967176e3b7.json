@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "4cf949686013aa1c2dc0af56389aebe2811f72e5dd5d52df07d188967176e3b7",
+ "domain": [
+  "jobs/public-sector",
+  "jobs/morocco"
+ ],
+ "product": [
+  "wadifa-info"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches Moroccan public-sector recruitment exams, past exam papers, civil-service salaries and public and school holidays.",
+ "whenToUse": "Use when someone seeks Moroccan public-sector jobs, exam preparation material or salary and holiday information.",
+ "tasks": [
+  "search recruitment exams",
+  "get exam details",
+  "search past papers",
+  "get exam paper",
+  "view civil-service salaries",
+  "list public holidays",
+  "list school holidays",
+  "list filters"
+ ],
+ "effects": {
+  "ed04b358fb95fa830a64e0341dfa54d7c27d36b8e2ab4292a8e541e3d1643980": "read",
+  "4c26f5efaa2b7c16cff664022e2f4d5c90e3432406d845438d2dba0e33d1f252": "read",
+  "731b9fbd740c2e0be42dc1bfeceec05417bbba810a2cff3cf57dc78793fa8ebf": "read",
+  "b65049de46393041d9f61a1f90baad347694111a7639e6613ccd0309e4b4b3b8": "read",
+  "20869b072d8600acc8f725ffc73a15f4a18f60acb47537eb6922d6f0c7918508": "read",
+  "9b0671c861ce8738ebd65e089301148537175718e347384f725cf25a21634ae5": "read",
+  "6c6db2c641a22105ac1460d5306271483485c346d18f538673b7d099efa43380": "read",
+  "a316fd6f00b23361278b80900155addc329a14a3e85ada32cd1c71bea28317dd": "read"
+ },
+ "flags": []
+}

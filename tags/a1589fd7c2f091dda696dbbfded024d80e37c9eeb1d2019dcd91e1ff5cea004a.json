@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a1589fd7c2f091dda696dbbfded024d80e37c9eeb1d2019dcd91e1ff5cea004a",
+ "domain": [
+  "automotive/used-cars"
+ ],
+ "product": [
+  "carscout",
+  "nhtsa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Searches used car listings, checks NHTSA recalls, decodes VINs and manages saved search alerts.",
+ "whenToUse": "Use when a user is shopping for a used car or checking a vehicle's VIN and recall history.",
+ "tasks": [
+  "search used car inventory",
+  "check nhtsa recalls",
+  "decode vin",
+  "manage search scouts"
+ ],
+ "effects": {},
+ "flags": []
+}

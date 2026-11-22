@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d80b48825e775bc8b1e4409aa57f77204710800fb8961a202288c546c439dc65",
+ "domain": [
+  "software/cloud/data-pipelines"
+ ],
+ "product": [
+  "google-cloud-composer",
+  "google-cloud",
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Google's connector for managing Cloud Composer (managed Airflow) environments and workflows through an agent.",
+ "whenToUse": "Use when an agent needs to inspect or manage Google Cloud Composer environments or Airflow workflows.",
+ "tasks": [
+  "manage composer environments",
+  "inspect airflow workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

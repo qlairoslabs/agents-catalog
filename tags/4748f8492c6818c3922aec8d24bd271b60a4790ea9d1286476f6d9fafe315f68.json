@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4748f8492c6818c3922aec8d24bd271b60a4790ea9d1286476f6d9fafe315f68",
+ "domain": [
+  "productivity/file-storage",
+  "productivity/documents"
+ ],
+ "product": [
+  "google-drive",
+  "google-docs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Local CLI connector to search, read and write a local copy of Google Drive files and Docs.",
+ "whenToUse": "Use when you need to find, read or edit the user's Google Drive files or Docs after they have signed in with the drive CLI.",
+ "tasks": [
+  "search drive files",
+  "read google docs",
+  "write documents",
+  "sync a local copy"
+ ],
+ "effects": {},
+ "flags": []
+}

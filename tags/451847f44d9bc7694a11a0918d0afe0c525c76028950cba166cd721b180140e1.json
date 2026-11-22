@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "451847f44d9bc7694a11a0918d0afe0c525c76028950cba166cd721b180140e1",
+ "domain": [
+  "software/developer-tools/code-context"
+ ],
+ "product": [
+  "mikie",
+  "claude-code",
+  "codex",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm tool giving coding agents focused repository context and per-session token usage reports.",
+ "whenToUse": "Use when a coding agent needs targeted repo context or the user wants to track token usage per session.",
+ "tasks": [
+  "provide repository context",
+  "report token usage per session"
+ ],
+ "effects": {},
+ "flags": []
+}

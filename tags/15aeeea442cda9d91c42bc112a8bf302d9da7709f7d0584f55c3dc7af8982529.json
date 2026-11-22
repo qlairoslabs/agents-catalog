@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "15aeeea442cda9d91c42bc112a8bf302d9da7709f7d0584f55c3dc7af8982529",
+ "domain": [
+  "business/executive-coaching",
+  "business/leadership"
+ ],
+ "product": [
+  "stan",
+  "calendly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Sales agent for an executive coach that assesses fit and recommends workbooks, coaching or a free intro call.",
+ "whenToUse": "Use when a founder or leader explicitly wants this coach's offerings, workbooks or an intro call for scaling and delegation challenges.",
+ "tasks": [
+  "assess coaching fit",
+  "forward questions to coach's agent",
+  "list workbooks",
+  "match workbooks to problems",
+  "describe coaching offer",
+  "suggest next step with booking link"
+ ],
+ "effects": {
+  "4bc06a9630351e01c5d45a0bdabd2fac54f4241f9231cb8302705c4522fe70cd": "read",
+  "91142c5a2e8bfd48d0d4423f8a6eea3d7ccd20f1b4f5b02369f80851aa43a99d": "write",
+  "2ebdea2221f324300991c75678b1588bb1deca3b63c6580be01f8e7b6bdde845": "read",
+  "cab4d450f28f22ef45016ef1495161796e3e5d8f2fd78a1ee95f86325eceddd4": "read",
+  "c477c6e939b54ce27f1c54d102850ad7f48a869d21dd35ad4a579e0071b0b35e": "read",
+  "aca7dd6a7fe6e77c79fa459a8ec81d7c4e4bdc9ea89d6e71ea595d58c153a6bf": "read"
+ },
+ "flags": [
+  "ask_jessicas_agent tells the AI to route leadership questions to a third-party sales agent instead of answering itself"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "287241dc5ef5d49402cb21aedf0ac49e0f78aba8cb65e6279a020522e7a3aedb",
+ "domain": [
+  "finance/blockchain",
+  "data/crypto"
+ ],
+ "product": [
+  "ethereum"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Provides live Ethereum data such as gas prices and account balances on Mainnet and the Sepolia testnet.",
+ "whenToUse": "Use when an agent needs current Ethereum gas prices, balances or other on-chain data.",
+ "tasks": [
+  "get gas prices",
+  "check account balances",
+  "query mainnet data",
+  "query sepolia testnet data"
+ ],
+ "effects": {},
+ "flags": []
+}

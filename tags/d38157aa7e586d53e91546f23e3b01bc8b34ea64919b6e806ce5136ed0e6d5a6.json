@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "d38157aa7e586d53e91546f23e3b01bc8b34ea64919b6e806ce5136ed0e6d5a6",
+ "domain": [
+  "printing/print-shop",
+  "commerce/quotes"
+ ],
+ "product": [
+  "barwa"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Browse a Polish online print shop's products, get real-price quotes, shipping thresholds and print-file specifications.",
+ "whenToUse": "Use when a user needs printed materials like flyers or business cards priced, or needs file preparation specs.",
+ "tasks": [
+  "list products",
+  "get pricing options",
+  "recommend product",
+  "get quote",
+  "get shipping info",
+  "get file specs"
+ ],
+ "effects": {
+  "84b4cc7c579b8692bbe9bdcfcdb7e710e3f3e30b99c415c1c46491f3e4a6fd46": "read",
+  "c724a038a066b3fc9106617f1e735e32a6185803b045edba77c07162c65cc07c": "read",
+  "fd43fbc8132f8a49ec0c5c1d623dcacd66ea4b7122143d9244d0845205474ac1": "read",
+  "efb09bf537cedf16c39bf8c6473fa617926b6fa21f9e3cee786f8cd25f599870": "write",
+  "6806d4a72dae27aba88de6662271bcf6ddc6696562413b1f78a062d0f2546bf0": "read",
+  "c9f3e749b3ad44d22c24a4ac67fe5cb282db10884ebc125a4e0533bb11de70be": "read"
+ },
+ "flags": []
+}

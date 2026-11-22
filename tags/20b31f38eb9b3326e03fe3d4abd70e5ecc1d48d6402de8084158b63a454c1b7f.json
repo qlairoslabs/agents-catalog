@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "20b31f38eb9b3326e03fe3d4abd70e5ecc1d48d6402de8084158b63a454c1b7f",
+ "domain": [
+  "social/social-network"
+ ],
+ "product": [
+  "caulo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "create-content"
+ ],
+ "summary": "Social network of verified humans where an agent can read the feed, post, send DMs and moderate.",
+ "whenToUse": "Use when acting on a user's Caulo account to read, post, message or moderate.",
+ "tasks": [
+  "read feed",
+  "create posts",
+  "send direct messages",
+  "moderate content"
+ ],
+ "effects": {},
+ "flags": []
+}

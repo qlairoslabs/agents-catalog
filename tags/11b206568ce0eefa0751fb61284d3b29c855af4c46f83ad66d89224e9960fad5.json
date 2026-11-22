@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "11b206568ce0eefa0751fb61284d3b29c855af4c46f83ad66d89224e9960fad5",
+ "domain": [
+  "software/databases/nosql"
+ ],
+ "product": [
+  "mongodb"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Official MCP server for working with MongoDB databases.",
+ "whenToUse": "Use when an agent needs to query or manage MongoDB data.",
+ "tasks": [
+  "query collections",
+  "inspect schemas",
+  "insert and update documents",
+  "manage databases"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a201a07e611ea3b2198fea5a08982ef75093e234d128931083b286e856e3a441",
+ "domain": [
+  "media/motion-graphics",
+  "media/video"
+ ],
+ "product": [
+  "mographr"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Renders customizable animated overlays such as lower thirds, titles and callouts to watermarked MP4 video.",
+ "whenToUse": "Use when a user needs a quick animated lower third, title or callout video clip.",
+ "tasks": [
+  "list motion templates",
+  "get template schema",
+  "render MP4",
+  "poll render status"
+ ],
+ "effects": {
+  "e5ee474be753ba9a35ae36a1a8595159b5c02970b50504122033339410d0373a": "read",
+  "1adf15b454673d45460313bda3ee96ac6a6ae956455472a4a37866d5ea23f1aa": "read",
+  "ebb06968fdd0be42e0ef70bf2464703de4b340a844fff1f1daa45dd0e881d47a": "write",
+  "ecbfcfdf4ee689b0a480583fe7222d7a5309d65907c523717a83eaca8b070613": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "36f9b0446ad1d9babc358100033fdd53f07145a13a4ad02d3d721c2331baac67",
+ "domain": [
+  "finance/investing/shareholder-benefits"
+ ],
+ "product": [
+  "sbi-securities",
+  "rakuten-securities",
+  "gmo-click",
+  "au-kabucom",
+  "smbc-nikko"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Japanese shareholder benefit (yutai) stocks and estimates cross-trading fees, key trading dates and reverse daily interest (gyakuhibu).",
+ "whenToUse": "Use when someone wants to find Japanese shareholder perks or plan and cost a yutai cross trade.",
+ "tasks": [
+  "search shareholder benefits",
+  "get benefit details by stock code",
+  "view reverse interest history",
+  "estimate cross-trade fees",
+  "calculate rights and ex-rights dates",
+  "calculate maximum gyakuhibu",
+  "predict gyakuhibu"
+ ],
+ "effects": {
+  "2c80a0733b18c03ac428551ab80730fb0064397521724cc6d4eda0b1f66554f3": "write",
+  "c5d8e686cbfd1fc3c1cd0205257683b3289e783627df9be3e1c494f4b9c183c4": "write",
+  "e5fa1d11fef28e9c5ef78563d56b77c2da16bdf9aaceb63a6137fef414d52d42": "write",
+  "5bab4f0089c49696fcbbc433f00b18c4401a058925748e5817b5d48fac673a47": "write",
+  "0d0e82a1b2979afecd1e1db9ba6028f2e3b245152d4539de5bb9c6d59c837e03": "read",
+  "228b3b490c280c9a1e017026c7bcb7a6d8de5303a0a99ced2b325bb8a828192e": "read"
+ },
+ "flags": []
+}

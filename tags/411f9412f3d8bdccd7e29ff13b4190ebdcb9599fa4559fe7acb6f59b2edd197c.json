@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "411f9412f3d8bdccd7e29ff13b4190ebdcb9599fa4559fe7acb6f59b2edd197c",
+ "domain": [
+  "software/devops/incident-response",
+  "software/observability"
+ ],
+ "product": [
+  "resolve"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Investigates production alerts, performs root-cause analysis and answers questions about production systems.",
+ "whenToUse": "Use when the user is handling a production alert or incident and needs root-cause analysis.",
+ "tasks": [
+  "investigate alerts",
+  "run root-cause analysis",
+  "answer production questions"
+ ],
+ "effects": {},
+ "flags": []
+}

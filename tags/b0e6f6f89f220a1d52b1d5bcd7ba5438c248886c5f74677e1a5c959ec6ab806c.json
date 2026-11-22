@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b0e6f6f89f220a1d52b1d5bcd7ba5438c248886c5f74677e1a5c959ec6ab806c",
+ "domain": [
+  "finance/macroeconomics",
+  "finance/portfolio-allocation"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Benchmarks the G7 economies side by side on growth, inflation, rates and fiscal position, with central bank divergence and an allocation view, using Bigdata.com.",
+ "whenToUse": "Use when a user asks to compare G7 economies or central bank paths across the G7.",
+ "tasks": [
+  "build g7 indicator table",
+  "compare central bank stances",
+  "assess rate path divergence",
+  "compare market positioning",
+  "identify divergence themes",
+  "rank allocation view"
+ ],
+ "effects": {},
+ "flags": []
+}

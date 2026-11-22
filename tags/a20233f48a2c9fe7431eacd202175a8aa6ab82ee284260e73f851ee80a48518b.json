@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "a20233f48a2c9fe7431eacd202175a8aa6ab82ee284260e73f851ee80a48518b",
+ "domain": [
+  "software/ci-cd",
+  "software/command-line"
+ ],
+ "product": [
+  "buildkite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guides use of the Buildkite bk CLI to manage builds, jobs, pipelines, artifacts, secrets and agents from the terminal.",
+ "whenToUse": "Use when the user wants to operate Buildkite from the command line with bk commands.",
+ "tasks": [
+  "trigger builds",
+  "check and watch build status",
+  "view build logs",
+  "rebuild or cancel builds",
+  "unblock jobs",
+  "download artifacts",
+  "manage secrets",
+  "create validate and copy pipelines",
+  "run a local agent",
+  "manage clusters and queues",
+  "authenticate and configure cli"
+ ],
+ "effects": {},
+ "flags": []
+}

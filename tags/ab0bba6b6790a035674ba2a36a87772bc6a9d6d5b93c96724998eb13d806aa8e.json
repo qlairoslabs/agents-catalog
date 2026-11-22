@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "ab0bba6b6790a035674ba2a36a87772bc6a9d6d5b93c96724998eb13d806aa8e",
+ "domain": [
+  "finance/crypto/wallets",
+  "finance/payments"
+ ],
+ "product": [
+  "keyban",
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid",
+  "automate-work"
+ ],
+ "summary": "Local npm tool giving an AI agent its own blockchain wallet for balances, USDC transfers and policy-limited x402 payments.",
+ "whenToUse": "Use when an agent must hold crypto funds, check balances or make USDC or x402 payments within set policies.",
+ "tasks": [
+  "check wallet balances",
+  "transfer usdc",
+  "make x402 payments",
+  "apply spending policies"
+ ],
+ "effects": {},
+ "flags": []
+}

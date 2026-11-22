@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "73cecb4cf0a7501e52ef4995f9ee95f923e3845b62df2b0290aa17ec56e89a8b",
+ "domain": [
+  "finance/wealth-management",
+  "finance/financial-advisory"
+ ],
+ "product": [
+  "blackrock-advisor-center"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Routes Advisor Center requests that cannot be done in chat, such as tax evaluation or account imports, to the web experience.",
+ "whenToUse": "Use when an advisor asks for an Advisor Center workflow no other loaded skill or tool can complete directly.",
+ "tasks": [
+  "route to tax evaluator",
+  "route income projections",
+  "route book of business imports",
+  "route sma and mma enrollment",
+  "provide documentation links",
+  "continue web-only workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b84eb4dfff01a2175a4da0711cdf7c4ea9bee7dda2af04f8b40661bca1499fc4",
+ "domain": [
+  "legal/practice-management",
+  "legal/brazil"
+ ],
+ "product": [
+  "advplan"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "schedule",
+  "get-paid",
+  "work-as-a-team"
+ ],
+ "summary": "Accesses a Brazilian law firm's cases, deadlines, documents and billing in AdvPlan via OAuth.",
+ "whenToUse": "Use when a Brazilian law firm using AdvPlan needs to check cases, deadlines, documents or billing.",
+ "tasks": [
+  "view cases",
+  "track deadlines",
+  "access documents",
+  "review billing"
+ ],
+ "effects": {},
+ "flags": []
+}

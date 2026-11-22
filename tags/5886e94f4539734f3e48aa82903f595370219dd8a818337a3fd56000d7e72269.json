@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5886e94f4539734f3e48aa82903f595370219dd8a818337a3fd56000d7e72269",
+ "domain": [
+  "gaming"
+ ],
+ "product": [
+  "whiteout-survival"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Reports the current or next Whiteout Survival State Transfer event dates, active status and remaining Transfer Pass purchase chances.",
+ "whenToUse": "Use when a Whiteout Survival player asks about state transfer timing.",
+ "tasks": [
+  "get transfer phase dates",
+  "check if transfer is active",
+  "count remaining pass chances"
+ ],
+ "effects": {
+  "0a252c345f7c18423534100490a5b87271d4e4269f03f32255a5b753c1335638": "read"
+ },
+ "flags": []
+}

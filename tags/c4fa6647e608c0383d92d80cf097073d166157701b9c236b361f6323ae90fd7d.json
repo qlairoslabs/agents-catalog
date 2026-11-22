@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "c4fa6647e608c0383d92d80cf097073d166157701b9c236b361f6323ae90fd7d",
+ "domain": [
+  "education/it-training"
+ ],
+ "product": [
+  "it-schulungen"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches the IT-Schulungen.com catalogue of over 3,400 IT seminars with descriptions, prices, dates, locations and difficulty levels.",
+ "whenToUse": "Use when finding an IT training course, its schedule, price or location in Germany or online.",
+ "tasks": [
+  "search seminars",
+  "get seminar details",
+  "list seminar dates",
+  "search topics",
+  "list locations",
+  "list difficulty levels",
+  "check server"
+ ],
+ "effects": {
+  "f7ad7e84d381838bb195de98be3e2fafafa2ec2231ee3e2c5ad5cef1e40254ff": "read",
+  "3f12be0df842dbef3449c5a6e22c99b0b50cd1fa34ef07718133c991bf54c0e1": "write",
+  "8822f370b96bdb54d1f1521f18c1d59df73d7ac0bc40f7c789d588b5bc09a679": "write",
+  "31853a5ae01ec32161512586b33c2128f25e587f6fe1c0759109b30fe06ce484": "write",
+  "cc3aa40c256ea3fd472ed4fb09f9bb4721b7bf4ead1597d4aa29a97897c1ba58": "read",
+  "543d64e3e8b8788986857628e8a69c1fecc00d551b467fa7ca916013f269e1a2": "read",
+  "1389ba7053bea409818067952b5f8247116b1f00921da62d22ad13add016a479": "read"
+ },
+ "flags": []
+}

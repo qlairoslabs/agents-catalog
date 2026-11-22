@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "ac52bcc42d99f75e867521e904a8ac750c32ead0a2c09a894b8645f8070e7c30",
+ "domain": [
+  "media/news-analysis"
+ ],
+ "product": [
+  "bedrocknews"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Browse BedrockNews stories scored by the GRIN framework, with full analysis and extraction graphs.",
+ "whenToUse": "Use when you need news with extractive-versus-generative scoring or who-extracts-from-whom graphs.",
+ "tasks": [
+  "list stories by verdict",
+  "fetch article analysis",
+  "get extraction graph",
+  "find related stories",
+  "list categories",
+  "get site info"
+ ],
+ "effects": {
+  "ac3edd5e8a76efef46b8a317567e007ecb146656b3563670d6d0c7127c4158a5": "read",
+  "d49b1a00240f47ce7825af71bd530f348b2b5f3e200faa1dcf18254585d99c0c": "read",
+  "adb556a7b1b180ade7c3d0205550a5bb43639039e4b3dea08a20e2b8bf633549": "read",
+  "f25296e716e86eee28f91d64fc02a387fe175dc1fe9e1fccf6c10920e7069eed": "read",
+  "5298656ce65f5562cf3a42be1387641cb0cf901bdff40bf39973670c6b952d6c": "read",
+  "536f337ac7698262d3cbe815c667a2af005c8b432728197afcc98802bd443d0b": "read"
+ },
+ "flags": []
+}

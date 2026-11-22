@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9276e3a50a0baf74a480d6fcf4c84c288ab7b561d34b5e66409907d046aaee43",
+ "domain": [
+  "entertainment/tabletop-rpg/virtual-tabletop"
+ ],
+ "product": [
+  "foundry-vtt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Connects AI agents to a Foundry VTT world to work with actors, combat, dice, journals, tokens and compendiums.",
+ "whenToUse": "Use when a game master wants an agent to read or manage content and gameplay in their Foundry VTT world.",
+ "tasks": [
+  "manage actors",
+  "run combat",
+  "roll dice",
+  "edit journals",
+  "manage tokens",
+  "browse compendiums"
+ ],
+ "effects": {},
+ "flags": []
+}

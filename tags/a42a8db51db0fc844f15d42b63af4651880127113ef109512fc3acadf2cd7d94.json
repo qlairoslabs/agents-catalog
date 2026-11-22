@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a42a8db51db0fc844f15d42b63af4651880127113ef109512fc3acadf2cd7d94",
+ "domain": [
+  "software/databases/vector",
+  "ai/retrieval"
+ ],
+ "product": [
+  "vector-panda"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Operates Vector Panda vector database collections, including search, upserts, schema, indexes and exports.",
+ "whenToUse": "Use when storing, searching or managing vectors in a Vector Panda collection.",
+ "tasks": [
+  "search vectors",
+  "upsert vectors",
+  "manage collection schema",
+  "manage indexes",
+  "export data"
+ ],
+ "effects": {},
+ "flags": []
+}

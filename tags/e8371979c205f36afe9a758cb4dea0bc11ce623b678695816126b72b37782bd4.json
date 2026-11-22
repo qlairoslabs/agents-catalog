@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e8371979c205f36afe9a758cb4dea0bc11ce623b678695816126b72b37782bd4",
+ "domain": [
+  "education/printables",
+  "hobbies/coloring"
+ ],
+ "product": [
+  "huebloom"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches Huebloom printable coloring pages and collections, returning previews and PDF download links.",
+ "whenToUse": "Use when someone wants printable coloring pages on a topic.",
+ "tasks": [
+  "search coloring pages",
+  "get coloring page pdf link",
+  "browse collections"
+ ],
+ "effects": {
+  "b0d187d3add5076b2a29a93166e2470f4f6e6cad8643671145619af070a3d879": "read",
+  "788c083f53659d6d952c08f28fa98c203afc643768060663c14285b1669ce4ad": "read",
+  "e0fd8038fb59fda179d3049294d973032a869ad3af35d0080741d69f2b1653f4": "read"
+ },
+ "flags": []
+}

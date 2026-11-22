@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6cf51c275bf625593b12fe811ca8852a9726bfaff68150870d9b10f8794be9fa",
+ "domain": [
+  "retail/collectibles",
+  "ecommerce/product-catalog"
+ ],
+ "product": [
+  "acero-y-magia"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only search of the Acero y Magia collectibles shop catalogue with public euro prices and availability.",
+ "whenToUse": "Use when a user looks for collectibles or figures sold by Acero y Magia and wants price or stock.",
+ "tasks": [
+  "search products",
+  "look up product by id",
+  "check price and availability"
+ ],
+ "effects": {
+  "17c492dc174c03af29414649ba63f9fcde01bf6189e2c3c72e65ab94d7cbd5a6": "read",
+  "24eee76d76969e8305a9b63e5ca1d5f74e8743428da3c567aaa78545e7fe5742": "read"
+ },
+ "flags": []
+}

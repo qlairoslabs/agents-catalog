@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d260ef54c30b96de9b6b564356717186458c68303e4cc5a3d70a38eeedf0310f",
+ "domain": [
+  "design/ux-research",
+  "software/testing"
+ ],
+ "product": [
+  "flock-synthetics"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides synthetic UX reviews with findings, evidence images and prompts for fixing issues.",
+ "whenToUse": "Use when evaluating a product's usability and getting fix suggestions.",
+ "tasks": [
+  "get ux reviews",
+  "read findings",
+  "view evidence images",
+  "get repair prompts"
+ ],
+ "effects": {},
+ "flags": []
+}

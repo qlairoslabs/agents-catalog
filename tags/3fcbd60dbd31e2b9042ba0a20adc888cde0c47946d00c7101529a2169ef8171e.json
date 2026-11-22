@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3fcbd60dbd31e2b9042ba0a20adc888cde0c47946d00c7101529a2169ef8171e",
+ "domain": [
+  "legal/case-law/india",
+  "legal/research"
+ ],
+ "product": [
+  "roopslaw"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search over Indian court judgments and statutes to ground legal answers in source documents.",
+ "whenToUse": "Use when an agent needs to find or cite Indian judgments or statutes for a legal question.",
+ "tasks": [
+  "search indian judgments",
+  "search indian statutes",
+  "ground answers in legal sources"
+ ],
+ "effects": {},
+ "flags": []
+}

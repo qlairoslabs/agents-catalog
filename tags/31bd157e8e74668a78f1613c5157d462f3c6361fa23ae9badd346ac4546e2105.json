@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "31bd157e8e74668a78f1613c5157d462f3c6361fa23ae9badd346ac4546e2105",
+ "domain": [
+  "software/developer-tools",
+  "software/tool-reviews"
+ ],
+ "product": [
+  "stack-gems"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Read-only catalogue of reviewed developer tools with verdicts, caveats, shortlists and open-source alternatives.",
+ "whenToUse": "Use when choosing a developer tool or looking for free and open-source alternatives.",
+ "tasks": [
+  "search tools",
+  "get a tool review",
+  "get best tools for a use case",
+  "find alternatives",
+  "list categories"
+ ],
+ "effects": {
+  "4cb884a9c100887f2212c8fc4984de803aa0e6d4f8859265be7ca0438b7157d8": "read",
+  "7c50d9127598cc8e31a0c782a73e84a4d9362be95a32778d22ad1893fa77c1a0": "read",
+  "886ed8aa34db831302a954387e4787ee85865e22d750b4b8f2dc4b1dab1e25a9": "read",
+  "1bf82c1f451957fbf6a4776191400f83b6c8057fad14a2c7f74c72a63634d0e5": "read",
+  "2b6e3f6dda391e9ed7bb78c012bec63d7bb37c12848e08fcce7869e88ff1d438": "read"
+ },
+ "flags": []
+}

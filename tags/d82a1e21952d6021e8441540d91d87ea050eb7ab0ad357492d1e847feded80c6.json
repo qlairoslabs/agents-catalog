@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d82a1e21952d6021e8441540d91d87ea050eb7ab0ad357492d1e847feded80c6",
+ "domain": [
+  "software/ci-cd"
+ ],
+ "product": [
+  "circleci"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Hosted CircleCI server that helps diagnose pipeline failures, fetch build and test logs and find flaky tests.",
+ "whenToUse": "Use when a CircleCI build fails or a developer has questions about their CI/CD pipelines.",
+ "tasks": [
+  "diagnose pipeline failures",
+  "get build logs",
+  "get test logs",
+  "detect flaky tests",
+  "answer ci questions"
+ ],
+ "effects": {},
+ "flags": []
+}

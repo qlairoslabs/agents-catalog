@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e252ac4f09716aa03ee65822b17157fb4edae13dd417b9b9072d5b043b22e85b",
+ "domain": [
+  "communication/email",
+  "ai/agent-infrastructure"
+ ],
+ "product": [
+  "cooper-email"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Gives AI agents their own email inboxes to send, receive and search mail, with owner-approved drafts and webhooks.",
+ "whenToUse": "Use when an agent needs a dedicated email inbox to send or receive messages under owner oversight.",
+ "tasks": [
+  "send email",
+  "receive email",
+  "search inbox",
+  "create drafts for approval",
+  "configure webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

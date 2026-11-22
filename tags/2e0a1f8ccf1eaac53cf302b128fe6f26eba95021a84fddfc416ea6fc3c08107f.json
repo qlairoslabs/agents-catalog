@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "2e0a1f8ccf1eaac53cf302b128fe6f26eba95021a84fddfc416ea6fc3c08107f",
+ "domain": [
+  "software/cybersecurity",
+  "security/credential-exposure"
+ ],
+ "product": [
+  "alertsbar"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Reports credential-exposure counts and sample records for a domain from breaches, infostealer logs, ULP dumps and stolen cookies.",
+ "whenToUse": "Use when assessing whether a domain's users or staff have credentials exposed in breaches or infostealer data.",
+ "tasks": [
+  "count credential exposures for a domain",
+  "sample exposure records with metadata"
+ ],
+ "effects": {
+  "5bf4108426dcfd50eb14fd0be1999b8921e54ff170a351a21370b697c43d8490": "write",
+  "fd1a14241a4022133d4d3e6f37c4b1b01999dba669ea18c20ca8cb390b4ffbb5": "write"
+ },
+ "flags": [
+  "returns leaked-credential record samples for any domain without ownership verification"
+ ]
+}

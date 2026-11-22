@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "53421a084ade243399aef2087fb5c164b2c15c8c9f41be5052e98edded420e0a",
+ "domain": [
+  "engineering/aerospace/drones"
+ ],
+ "product": [
+  "thrustlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Simulates electric UAV powertrains and searches a public database of motors, propellers and batteries.",
+ "whenToUse": "Use when designing or evaluating a drone powertrain or choosing motors, propellers or batteries.",
+ "tasks": [
+  "simulate uav powertrains",
+  "search motor database",
+  "search propeller database",
+  "search battery database"
+ ],
+ "effects": {},
+ "flags": []
+}

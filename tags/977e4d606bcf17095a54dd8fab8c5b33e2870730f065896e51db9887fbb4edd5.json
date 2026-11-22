@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "977e4d606bcf17095a54dd8fab8c5b33e2870730f065896e51db9887fbb4edd5",
+ "domain": [
+  "education/online-learning"
+ ],
+ "product": [
+  "coursera"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Asks about a learning goal and recommends Coursera courses, projects, videos or roleplay with a follow-on path.",
+ "whenToUse": "Use when someone wants to learn a topic and needs a matching Coursera recommendation.",
+ "tasks": [
+  "ask learning preferences",
+  "search coursera catalog",
+  "recommend courses",
+  "recommend projects",
+  "map a learning path"
+ ],
+ "effects": {},
+ "flags": []
+}

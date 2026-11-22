@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d7562fff8a00720f9771f3b65f019c3a58dde5fc4506ec2f64b2d5e3059f6076",
+ "domain": [
+  "science/hpc",
+  "software/job-scheduling"
+ ],
+ "product": [
+  "slurm"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Submits, lists, inspects and cancels Slurm jobs and describes the cluster.",
+ "whenToUse": "Use when an agent needs to run or manage batch jobs on a Slurm cluster.",
+ "tasks": [
+  "submit jobs",
+  "list jobs",
+  "inspect jobs",
+  "cancel jobs",
+  "describe cluster"
+ ],
+ "effects": {},
+ "flags": []
+}

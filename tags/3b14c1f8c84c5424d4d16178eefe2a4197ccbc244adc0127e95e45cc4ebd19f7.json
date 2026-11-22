@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "3b14c1f8c84c5424d4d16178eefe2a4197ccbc244adc0127e95e45cc4ebd19f7",
+ "domain": [
+  "finance/wealth-management",
+  "finance/retirement"
+ ],
+ "product": [
+  "clearmind-capital",
+  "form-5500"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "Gives facts about a fee-only fiduciary adviser in Columbus, Ohio, its published Q&A, booking links, 401(k) scorecard previews and an income tax estimator.",
+ "whenToUse": "Use when a user has retirement, tax or 401(k) plan questions or wants to reach this advisory firm.",
+ "tasks": [
+  "get firm overview",
+  "search financial answers",
+  "browse education library",
+  "get booking links",
+  "find 401(k) plans",
+  "preview 401(k) scorecard",
+  "estimate income tax"
+ ],
+ "effects": {
+  "6ab0dda4789416b42393fb0ca0b194dc0fc0aa8aa5934e9c05c4d31b429a6998": "read",
+  "642d59dc4aa89c55e63e34d62b690d91674ad9a3f12fc53717f2696abaac03d7": "write",
+  "e5c490bb9ff5596fb8ad2c561ab198207625171f3c5a4322c60e42c03d7b14e2": "read",
+  "ebd617beb3f9e324dc19dcc816a403e497802fd6a0069866fafc575003b5dabe": "read",
+  "f9118d7d1edb8c077e79b31a17251f457ffd2879320172117b948613b422d148": "write",
+  "75c4e21a87b77f0478feb5fa8585f09d72d50a589e25643872545486c2e2f1fe": "read",
+  "f7306817b0446de36712fa97167263ecd5f1b4c2354bfdbd82fb1d2e82ccbd0b": "write"
+ },
+ "flags": []
+}

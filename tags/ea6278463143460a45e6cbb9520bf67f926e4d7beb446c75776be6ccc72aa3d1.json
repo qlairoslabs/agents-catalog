@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ea6278463143460a45e6cbb9520bf67f926e4d7beb446c75776be6ccc72aa3d1",
+ "domain": [
+  "research/scientific-literature",
+  "publishing"
+ ],
+ "product": [
+  "openarx"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Open scientific and engineering knowledge base for agents, with search, evidence retrieval and document publishing.",
+ "whenToUse": "Use when an agent needs scientific or engineering sources as evidence, or wants to publish a document.",
+ "tasks": [
+  "search scientific documents",
+  "retrieve evidence",
+  "publish documents"
+ ],
+ "effects": {},
+ "flags": []
+}

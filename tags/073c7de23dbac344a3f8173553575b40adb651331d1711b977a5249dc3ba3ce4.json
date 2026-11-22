@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "073c7de23dbac344a3f8173553575b40adb651331d1711b977a5249dc3ba3ce4",
+ "domain": [
+  "travel/accommodation"
+ ],
+ "product": [
+  "wehome"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches homestays in South Korea by area, dates, guests and budget, returning Wehome listings with prices, ratings and links.",
+ "whenToUse": "Use when a user wants a homestay or short stay in South Korea.",
+ "tasks": [
+  "search homestays",
+  "filter by dates and price",
+  "suggest area names",
+  "sort by price"
+ ],
+ "effects": {
+  "c44ae55229d922ced7bbfd0a06d12b903f8a37f90a10b900489e0e9edbad8da9": "read",
+  "3b629ae887ca78d56b607d831af1a3ad351b11f023b1f3772230dfca4ebe9488": "read"
+ },
+ "flags": []
+}

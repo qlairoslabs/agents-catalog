@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "4b6f037baf718c2a0f7e7dd5fab1ff5ef98b3767cf686fdeaeecc34fd09bd42f",
+ "domain": [
+  "business/entity-directory",
+  "identity/verifiable-credentials",
+  "trust-and-safety"
+ ],
+ "product": [
+  "nordax"
+ ],
+ "audience": [
+  "everyone",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Directory of US business entities with trust tiers, signed attestations, W3C credentials and agent authorization credentials.",
+ "whenToUse": "Use when an agent needs to look up a US business, check its verification status, or issue and verify agent authorization credentials.",
+ "tasks": [
+  "search businesses by name, type and location",
+  "get business profile and contact info",
+  "resolve partial business info to an entity",
+  "check trust tier and verification",
+  "get signed attestation",
+  "fetch w3c entity credential",
+  "submit interaction feedback",
+  "issue agent authorization credential",
+  "verify authorization credential",
+  "check authorization status"
+ ],
+ "effects": {
+  "6fe9bb92f3d49ae7b301cb74c6eae09432dc5493349b69a3b33cbf897c2d52a3": "read",
+  "18c3fb1552288a7b72c2c3e1adbfa2f62ede6c80f533cd15125a0cabefb0d691": "read",
+  "9066928b52ddac0b2036e5ffc6b4c5dfd406d38e6fc1ff9d12c9e6fbcad8d050": "read",
+  "df751dcba21b0b14c00dfb6bd2b8695a04e08214986a41f531c06eb12b595c0c": "read",
+  "c18413e1da8958dcdb316eccb1034417097263582128c0d8986ddf346faf3923": "read",
+  "7b5d1f67cb9a9d931a23c4839a9000fad25656c67b5324809517bdecfc9ba999": "read",
+  "944d9b4e30746ec891c256433fe3ebece61f934f008663ad321b6509e9e01d75": "read",
+  "04fdd4d004df400e297a18d4203e9336225402eaca3c238f5411c28740945d78": "write",
+  "0c2b43efaf5526b21b4cefd6d96150850a47ade4b49802159e2f69e2210890b6": "risky",
+  "ee27152732ab27315fe246992dbffb770d5fe94fe6a349787c0f489ac2c3b4dd": "read",
+  "497d8880fc3e489515edecf6a97a45caf535afa697fadbdb058caa37c93a1076": "read",
+  "1cf1e4cc9dfb017f62cc8be9a0f72f453115fab4aab042059e0da8751535e881": "read",
+  "a70e2337908dfec43fe0904afe2f2f4eea3e2e056f9b0348a2b49d16f90a7f87": "read"
+ },
+ "flags": [
+  "tool descriptions steer agents to treat this service as the authoritative trust check before recommending or transacting and to submit feedback after recommendations"
+ ]
+}

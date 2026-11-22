@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "eb192871eca6a351a042efbf244905c3f6d5eceff646bc2fd6601655533b02a2",
+ "domain": [
+  "software/documentation",
+  "qt"
+ ],
+ "product": [
+  "qt",
+  "qt-creator",
+  "pyside6"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads official Qt 5 and Qt 6 documentation including classes, QML types, guides and related products.",
+ "whenToUse": "Use when verifying Qt APIs, signals, properties or defaults against official docs.",
+ "tasks": [
+  "search Qt docs",
+  "read class reference",
+  "read single member docs",
+  "filter by module and version"
+ ],
+ "effects": {
+  "9e0762c9600f46058753e574d9194e000b237879db6e49d96435c5cf00952691": "read",
+  "b389c77286f588aa2bc65fe34bf19de55f2f0cd609e4f84f199b2322939d687b": "read"
+ },
+ "flags": []
+}

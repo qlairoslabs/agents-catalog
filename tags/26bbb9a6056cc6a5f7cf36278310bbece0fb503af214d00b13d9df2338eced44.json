@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "26bbb9a6056cc6a5f7cf36278310bbece0fb503af214d00b13d9df2338eced44",
+ "domain": [
+  "ecommerce/digital-goods",
+  "marketplace/product-search"
+ ],
+ "product": [
+  "plati-market",
+  "digiseller"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches the Plati.Market (Digiseller) catalogue and returns product details with seller information.",
+ "whenToUse": "Use when looking up digital goods and sellers on Plati.Market.",
+ "tasks": [
+  "search catalogue",
+  "get product details",
+  "get seller info"
+ ],
+ "effects": {},
+ "flags": []
+}

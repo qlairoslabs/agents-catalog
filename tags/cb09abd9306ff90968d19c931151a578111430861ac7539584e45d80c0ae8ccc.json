@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cb09abd9306ff90968d19c931151a578111430861ac7539584e45d80c0ae8ccc",
+ "domain": [
+  "content/timelines",
+  "education/visualization"
+ ],
+ "product": [
+  "time-graphics"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates and manages interactive timelines on a Time.Graphics account, including sharing and export.",
+ "whenToUse": "Use when building or editing a timeline of events or periods, including BC dates.",
+ "tasks": [
+  "create timeline",
+  "add events",
+  "add periods",
+  "use bc dates",
+  "share timeline",
+  "export timeline"
+ ],
+ "effects": {},
+ "flags": []
+}

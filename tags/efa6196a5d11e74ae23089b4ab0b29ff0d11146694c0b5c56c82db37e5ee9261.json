@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "efa6196a5d11e74ae23089b4ab0b29ff0d11146694c0b5c56c82db37e5ee9261",
+ "domain": [
+  "data/databases/sql",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure-sql-database"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for running the Azure SQL Database engine locally in a container, connecting, migrating, scaffolding, RAG, CI and moving to the cloud.",
+ "whenToUse": "Use when developing locally against the containerized Azure SQL Developer engine.",
+ "tasks": [
+  "run local azure sql engine",
+  "connect to database",
+  "run migrations",
+  "scaffold apps",
+  "build rag",
+  "set up ci",
+  "move from local to cloud"
+ ],
+ "effects": {},
+ "flags": []
+}

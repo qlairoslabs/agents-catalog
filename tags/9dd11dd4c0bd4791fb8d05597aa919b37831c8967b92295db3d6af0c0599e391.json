@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9dd11dd4c0bd4791fb8d05597aa919b37831c8967b92295db3d6af0c0599e391",
+ "domain": [
+  "travel/package-holidays",
+  "travel/flights"
+ ],
+ "product": [
+  "afbudsrejser"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches live package holiday and charter flight offers departing from Denmark, with prices, availability and booking links.",
+ "whenToUse": "Use when a user wants package holidays or charter-only flights from Denmark.",
+ "tasks": [
+  "search package holidays",
+  "filter by destination, dates, board type",
+  "search charter flights",
+  "sort by price or date"
+ ],
+ "effects": {
+  "d8739702ad0648acfedd7d6c2a624cfa0dbfa7d392c400a857810c0b24ea3715": "write",
+  "3775b51a296d3cdfb2b8a1475ba681879bd9494a99192a8e05d1a817d7749a85": "read"
+ },
+ "flags": []
+}

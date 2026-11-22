@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5080bb1aa823dfabd9bf700fa32535d8583e683a113a8ddc867475bff9e9709f",
+ "domain": [
+  "web/cms",
+  "web/static-sites"
+ ],
+ "product": [
+  "typeroll"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "create-content"
+ ],
+ "summary": "Connector for building, editing and publishing static websites in Typeroll CMS, including pages, blocks, media, forms and deploys.",
+ "whenToUse": "Use when an agent needs to create or update pages and publish a static website hosted with Typeroll CMS.",
+ "tasks": [
+  "create and edit pages",
+  "manage content blocks",
+  "upload media",
+  "manage forms",
+  "deploy site"
+ ],
+ "effects": {},
+ "flags": []
+}

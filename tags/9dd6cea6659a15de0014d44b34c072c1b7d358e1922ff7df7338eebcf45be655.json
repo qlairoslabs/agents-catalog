@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9dd6cea6659a15de0014d44b34c072c1b7d358e1922ff7df7338eebcf45be655",
+ "domain": [
+  "travel/car-rental/search"
+ ],
+ "product": [
+  "octotrip"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Free rental car search returning live, price-ranked offers and booking links, without booking.",
+ "whenToUse": "Use when a user wants to compare rental car offers for a pickup location and dates.",
+ "tasks": [
+  "search rental cars",
+  "compare prices by category",
+  "set different dropoff location",
+  "get booking links"
+ ],
+ "effects": {
+  "a09da217087c0787930218502d3c33503c1859a0904e939049ea28b844d9050d": "write"
+ },
+ "flags": []
+}

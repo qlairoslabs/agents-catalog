@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "dac14b59051f3b30ead37c2a47d3eec6bd27d4c32e935d6f0400b808709fa91b",
+ "domain": [
+  "software/code-review"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Set of specialized agents that review pull requests for comments, tests, error handling, type design, quality and simplification.",
+ "whenToUse": "Use when an agent needs to perform a thorough multi-aspect review of a pull request.",
+ "tasks": [
+  "review code comments",
+  "review test coverage",
+  "check error handling",
+  "review type design",
+  "assess code quality",
+  "suggest code simplification"
+ ],
+ "effects": {},
+ "flags": []
+}

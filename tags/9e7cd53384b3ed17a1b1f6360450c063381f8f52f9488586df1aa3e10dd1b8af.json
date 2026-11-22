@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "9e7cd53384b3ed17a1b1f6360450c063381f8f52f9488586df1aa3e10dd1b8af",
+ "domain": [
+  "data/statistics",
+  "economics"
+ ],
+ "product": [
+  "fred",
+  "eurostat",
+  "ecb",
+  "world-bank",
+  "oecd",
+  "statcan",
+  "bls",
+  "ons"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Verified official statistics from many agencies with cited observations, computed answers with charts, deep multi-section analysis and webhook monitors.",
+ "whenToUse": "Use when you need official economic or statistical figures with citations, cross-country comparisons or update alerts.",
+ "tasks": [
+  "list sources",
+  "search series catalog",
+  "list datasets",
+  "get series metadata",
+  "get observations",
+  "get series stats",
+  "create update monitors",
+  "list monitors",
+  "delete monitors",
+  "answer questions with computed analysis",
+  "run deep analysis"
+ ],
+ "effects": {
+  "41a51df8825232e7fc68daf3be1944909a14bdc97cde9aa0f8b3aa0dfe877be0": "read",
+  "43b3778c4c377c8d6a5cc51effe66ab496cbcda2c6f3512f265f72797b8aadf3": "read",
+  "54fa63022ca992a0beb0373a4839daaa886256ddc81d8b069159f54db2303870": "read",
+  "4baf0baed5bbd74aa1a4095b7364372d3526fcb1099232629103bb5fa086b4d5": "read",
+  "55fb09cfd3f6fe4cb84df953b4010e2e8a484ccb4521447f97899aaeedcccbd9": "read",
+  "22a6dd46a900564758a8d316f4a09b2f4da2cb04ba16f6c3654ae7cb783c76b7": "read",
+  "626542c7b718f0f048f7a1bc13597e86acc9f108178967845764dee26578a40f": "write",
+  "013d860fb85f4ce59ea46ced46887c18e9d46243a01daf5bf80c7131c4c52164": "read",
+  "6ae638000ea4e9cf25abdcee5fcc595f3f7bdbd3b33234cf3c7a0d3407ca20bf": "write",
+  "7976477e47b4263e6345e7f8088f3483f49811ebeb6789c733b5398680c5f7a2": "write",
+  "f96ec5f74ea40e063fe6c4f34d1750bc4630b675ef1468db43e2ee48e14baf03": "write"
+ },
+ "flags": [
+  "delete_monitor has an empty description"
+ ]
+}

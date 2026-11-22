@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "97bdbc0e1cacee41e97cf55136ba0a8e1a282681fa0f3317c5f58dfbbd0bddf2",
+ "domain": [
+  "culture/chinese-astrology",
+  "calculation"
+ ],
+ "product": [
+  "zhijipaipan"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Computes a BaZi (Four Pillars) chart from a birth datetime, returning structured chart data without predictions.",
+ "whenToUse": "Use when a user wants a BaZi chart calculated from solar, lunar or pillar input.",
+ "tasks": [
+  "compute BaZi chart",
+  "accept solar, lunar or pillar input",
+  "apply true solar time"
+ ],
+ "effects": {
+  "505cc51ddaf89b4c92103b471a364be27469c73dd354079d65a5d1f85d016451": "read"
+ },
+ "flags": []
+}

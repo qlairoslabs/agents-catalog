@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "988dfdacf0d71a63df67eb86b5e6ba4c337075767a1643bbb200a9b278d0e10a",
+ "domain": [
+  "research/scholarly-metadata"
+ ],
+ "product": [
+  "openalex"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries the OpenAlex catalogue of academic publications, authors and institutions.",
+ "whenToUse": "Use when searching academic literature or research metadata in OpenAlex.",
+ "tasks": [
+  "search publications",
+  "look up authors",
+  "look up institutions"
+ ],
+ "effects": {},
+ "flags": []
+}

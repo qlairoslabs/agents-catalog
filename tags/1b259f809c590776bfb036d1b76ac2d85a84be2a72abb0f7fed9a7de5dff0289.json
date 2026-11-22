@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "1b259f809c590776bfb036d1b76ac2d85a84be2a72abb0f7fed9a7de5dff0289",
+ "domain": [
+  "ai/evaluation",
+  "agent-tools"
+ ],
+ "product": [
+  "sideeye",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Scores two candidate AI answers against requirements, issues public receipts (one free, then $0.01 USDC via x402), and runs a public jury of dilemmas.",
+ "whenToUse": "Use when you need to compare two AI outputs against explicit requirements or take part in public verdict cases.",
+ "tasks": [
+  "compare two answers",
+  "pay via x402",
+  "play daily case",
+  "list cases",
+  "file case",
+  "cast verdict",
+  "view leaderboard"
+ ],
+ "effects": {
+  "2c41221d239f1ec513a34391e7558ee7f8de8939ef7c88afae5535b5e92701a2": "write",
+  "da272c3f97407cfd005033cd0a8145ec2b87c0b5d9dc69943929747099564303": "risky",
+  "dd3ee75558dda90f25f8ce86fad90751d839797522335592bcf36f833297d65b": "write",
+  "5398de46683f928e2f6ad44be72debedf0b7e45cbabfd622ec2260fec6101fba": "read",
+  "6dc46666afc3c9bfb7f0b857d37af5077d42d7cd94b61c568e672d2c3bf6701c": "write",
+  "aad12470977901a0b29b41fabb85857dad94a221dbce5e3ed93530fe34100e7e": "write",
+  "e8631c6ad41deec715fe0e16646f837d9060d9ec4d6c5dd750510593305c6d3a": "read"
+ },
+ "flags": [
+  "answer_duel asks the agent to sign and submit a crypto payment",
+  "tools push agents to publish public rationales and earn leaderboard points"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f18ebd1bba1101fb633657fadd81e6a0f9592ba00d14dcffb118509155d7e0aa",
+ "domain": [
+  "finance/market-data",
+  "finance/investment-research"
+ ],
+ "product": [
+  "unquant"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Financial data connector covering markets, companies, news, macroeconomics and US Congress trading research.",
+ "whenToUse": "Use when an agent needs market, company, macro or congressional trading data for financial research.",
+ "tasks": [
+  "look up market data",
+  "research companies",
+  "fetch financial news",
+  "get macro indicators",
+  "research us congress trades"
+ ],
+ "effects": {},
+ "flags": []
+}

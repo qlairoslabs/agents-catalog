@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "74ee6730960ce0f9a59ee4b8e03fbfcd1e981d1ef8f09558d3c0805600815a50",
+ "domain": [
+  "software/agency",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "dribba"
+ ],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Gives information on Dribba's app development services, case studies and budget estimates, and can submit a contact inquiry.",
+ "whenToUse": "Use when evaluating Dribba for an app project or sending them an inquiry.",
+ "tasks": [
+  "list services",
+  "estimate project budget",
+  "list case studies",
+  "get company facts",
+  "submit contact request"
+ ],
+ "effects": {
+  "70660166d91ba930f0b9b4f4da3774585dab1c907bdea6392cdae97c18b82406": "read",
+  "a9ced9e3f871e516e19c97a6de5678b6e213196c131a2474aea62abe9076a2fa": "read",
+  "7c04238d8b0e693d42b62cfdce9cc5a952c73349564894f55cfd1ac7833970c3": "read",
+  "744962d3f92240040ef2c99a89cf9832748a2ca8a645cd9a36539e428e2386ed": "read",
+  "a284b2050a42003c082169774d09f4da8e04aed05130bc7c5eda8e53a9756126": "write"
+ },
+ "flags": []
+}

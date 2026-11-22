@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7544dccf4f2a4958a7719de7ffcc1fe51fe58419b39e04af6ff7d69bce8607ea",
+ "domain": [
+  "finance/trading/journal",
+  "finance/analytics"
+ ],
+ "product": [
+  "tradeonyx"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Trading journal that records trades, including by voice, detects patterns and lets users query their history.",
+ "whenToUse": "Use when an agent needs to log a trade or analyze a user's past trading activity.",
+ "tasks": [
+  "log trades",
+  "log trades by voice",
+  "query trade history",
+  "detect trading patterns"
+ ],
+ "effects": {},
+ "flags": []
+}

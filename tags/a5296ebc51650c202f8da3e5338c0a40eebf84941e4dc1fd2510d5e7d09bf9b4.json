@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a5296ebc51650c202f8da3e5338c0a40eebf84941e4dc1fd2510d5e7d09bf9b4",
+ "domain": [
+  "finance/e-invoicing",
+  "finance/accounting"
+ ],
+ "product": [
+  "ubl",
+  "factur-x",
+  "zugferd",
+  "xrechnung"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Creates, validates, converts and extracts data from standards-compliant electronic invoices in UBL, Factur-X, ZUGFeRD and XRechnung formats.",
+ "whenToUse": "Use when an agent must produce, check or convert an e-invoice that has to meet European e-invoicing standards.",
+ "tasks": [
+  "create e-invoices",
+  "validate e-invoices",
+  "convert between e-invoice formats",
+  "extract invoice data"
+ ],
+ "effects": {},
+ "flags": []
+}

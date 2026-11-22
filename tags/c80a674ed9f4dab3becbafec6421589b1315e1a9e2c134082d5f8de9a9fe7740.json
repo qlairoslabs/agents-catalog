@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c80a674ed9f4dab3becbafec6421589b1315e1a9e2c134082d5f8de9a9fe7740",
+ "domain": [
+  "operations/booking",
+  "scheduling/reservations"
+ ],
+ "product": [
+  "tehprof-booking"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Remote connector for TehProf Booking to browse resources and availability and to create or cancel reservations.",
+ "whenToUse": "Use when a user wants to find availability or book or cancel a resource on TehProf Booking.",
+ "tasks": [
+  "browse resources",
+  "check availability",
+  "create reservation",
+  "cancel reservation"
+ ],
+ "effects": {},
+ "flags": []
+}

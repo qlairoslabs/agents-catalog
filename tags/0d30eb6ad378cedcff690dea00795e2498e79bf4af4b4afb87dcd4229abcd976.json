@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0d30eb6ad378cedcff690dea00795e2498e79bf4af4b4afb87dcd4229abcd976",
+ "domain": [
+  "software/cybersecurity/static-analysis"
+ ],
+ "product": [
+  "semgrep"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Semgrep static analysis that flags security vulnerabilities while the agent writes code.",
+ "whenToUse": "Use when writing code and wanting real-time security scanning with Semgrep.",
+ "tasks": [
+  "scan code for vulnerabilities",
+  "guide secure coding"
+ ],
+ "effects": {},
+ "flags": []
+}

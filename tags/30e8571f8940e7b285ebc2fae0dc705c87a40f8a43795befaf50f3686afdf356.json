@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "30e8571f8940e7b285ebc2fae0dc705c87a40f8a43795befaf50f3686afdf356",
+ "domain": [
+  "health/nutrition-tracking"
+ ],
+ "product": [
+  "calories-club"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Calorie tracker that logs food by photo, barcode or voice.",
+ "whenToUse": "Use when the user wants to log meals or check calorie intake.",
+ "tasks": [
+  "log food by photo",
+  "scan barcodes",
+  "log food by voice",
+  "track calories"
+ ],
+ "effects": {},
+ "flags": []
+}

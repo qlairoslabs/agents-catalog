@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "3ea8b8ad0fe2477e25f8ec8e9742207950fb2e17455553319caea1414cab1570",
+ "domain": [
+  "software/developer-tools/filesystem"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Provides file operations restricted to the agent's working directory.",
+ "whenToUse": "Use when the agent needs to read, write or manage local files within an allowed directory.",
+ "tasks": [
+  "read files",
+  "write files",
+  "list directories",
+  "move and manage files"
+ ],
+ "effects": {},
+ "flags": []
+}

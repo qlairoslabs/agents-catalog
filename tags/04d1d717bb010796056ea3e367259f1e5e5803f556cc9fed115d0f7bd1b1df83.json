@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "04d1d717bb010796056ea3e367259f1e5e5803f556cc9fed115d0f7bd1b1df83",
+ "domain": [
+  "real-estate/land-records",
+  "geospatial"
+ ],
+ "product": [
+  "1acre"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Indian land parcels by survey number or coordinates and returns their boundaries.",
+ "whenToUse": "Use when an agent needs the boundaries of an Indian land parcel from a survey number or latitude and longitude.",
+ "tasks": [
+  "look up parcel by survey number",
+  "look up parcel by coordinates",
+  "get parcel boundaries"
+ ],
+ "effects": {},
+ "flags": []
+}

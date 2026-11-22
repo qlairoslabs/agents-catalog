@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c4a40dde3a464cf7c62c21384fad1ea9f61151e1fc27aedbdef1cc669216f42b",
+ "domain": [
+  "software/databases/mysql",
+  "software/development"
+ ],
+ "product": [
+  "villagesql",
+  "mysql",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guides building a VillageSQL extension for MySQL through a staged workflow, often porting PostgreSQL extensions.",
+ "whenToUse": "Use when writing a MySQL extension with VillageSQL or porting a PostgreSQL extension to MySQL.",
+ "tasks": [
+  "build mysql extensions",
+  "port postgres extensions"
+ ],
+ "effects": {},
+ "flags": []
+}

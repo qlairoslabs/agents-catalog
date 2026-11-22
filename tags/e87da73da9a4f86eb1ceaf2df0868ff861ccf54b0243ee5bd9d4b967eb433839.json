@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e87da73da9a4f86eb1ceaf2df0868ff861ccf54b0243ee5bd9d4b967eb433839",
+ "domain": [
+  "software/web-hosting/deployment"
+ ],
+ "product": [
+  "gearhost"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Publishes a website to a live HTTPS URL without an account, hosted on GearHost.",
+ "whenToUse": "Use when an agent needs to quickly put a website online at a public URL.",
+ "tasks": [
+  "publish website",
+  "get https url"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b3ffbc91b85b75dfe329deca492a924434c5de53272ed285f14520ca54b91975",
+ "domain": [
+  "web/chat-widget",
+  "support/chatbot"
+ ],
+ "product": [
+  "syntheticbrew"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "be-online"
+ ],
+ "summary": "Provisions and configures an AI chat widget for a website and returns the embed snippet, from a coding agent.",
+ "whenToUse": "Use when a developer wants to add an AI chat widget to their website through their coding agent.",
+ "tasks": [
+  "provision chat widget",
+  "configure chat widget",
+  "get embed snippet"
+ ],
+ "effects": {},
+ "flags": []
+}

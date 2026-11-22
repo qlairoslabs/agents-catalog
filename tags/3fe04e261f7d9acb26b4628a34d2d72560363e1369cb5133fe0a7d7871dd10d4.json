@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "3fe04e261f7d9acb26b4628a34d2d72560363e1369cb5133fe0a7d7871dd10d4",
+ "domain": [
+  "documents/e-signature"
+ ],
+ "product": [
+  "freesign",
+  "opentimestamps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Free e-signature service that creates signing drafts from PDF hashes and provides receipts, timestamp proofs and audit-chain checks.",
+ "whenToUse": "Use when a user wants to sign a PDF or verify a FreeSign signing record without uploading the document.",
+ "tasks": [
+  "create signing draft from hash",
+  "verify document hash",
+  "get receipt",
+  "get OpenTimestamps proof",
+  "verify audit chain"
+ ],
+ "effects": {
+  "d05f196a8980f3a299e3d212cc10527b33b8d0b31e6605ed5b8595304eabb575": "write",
+  "5504e70e388ef62af9c8de4a96f0a1f20e37fecaba19624d7b488d636f27ab07": "read",
+  "a0ce87b7a0ef1250bc3293a5dcd6ccbeed0b32d3d14b9b06eb23342374a13a34": "read",
+  "059bc7aee4164570e02e5c3536c7e3db24b696fcbb26da3015b67ab88ac2b701": "read",
+  "0e2c2a8d4b77580be324498e092dd67875596808685682f1f54e531c186f4b3f": "read"
+ },
+ "flags": []
+}

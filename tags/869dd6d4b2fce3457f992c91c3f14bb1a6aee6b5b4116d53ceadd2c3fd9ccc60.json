@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "869dd6d4b2fce3457f992c91c3f14bb1a6aee6b5b4116d53ceadd2c3fd9ccc60",
+ "domain": [
+  "communication/phone",
+  "automation/human-in-the-loop"
+ ],
+ "product": [
+  "call-me",
+  "ios",
+  "android"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Lets an AI agent ring the user's phone, speak a message, get the spoken reply back as text, and send push texts or play audio.",
+ "whenToUse": "Use when an agent needs a quick spoken answer or an urgent notification from its human away from the keyboard.",
+ "tasks": [
+  "place phone call",
+  "read question aloud",
+  "transcribe spoken reply",
+  "continue open call",
+  "send push text",
+  "play audio recording",
+  "wait for reply",
+  "hang up",
+  "name thread",
+  "get setup links"
+ ],
+ "effects": {
+  "ceec474ecd16fea49b37ff54f2cff1dba529cbe67125beb4be7c1da2bb63ed18": "read",
+  "0fb368c97490cb213fab057603e3eba78200699afcb39a165077506a539a6023": "write",
+  "9970cab7c54cc981f2b73abfbbd5c3eb04abdd596ddae6006765b16b4bc2029c": "read",
+  "f38906a8bc0ed9a02041db9adb5d12c177c697261bc553c4ad33fdfdeb357c3f": "write",
+  "1ad2f662d089345078cabe59e1927462fd465635afa7bcbb5197687ea6eb1c6c": "write",
+  "0b0c09f5ad81f95380de9acc67cab33df271d04f898ac94e714c88609f16d552": "write",
+  "5726fa85e3092dbed2d1046a1f0f5a160598544f1b6ff4b96e629832a2a10b08": "write",
+  "f41d34451831f63c4a895430e7de28351a8d4258fe98ebfb24d4c5d64df3aec0": "read",
+  "686fb24acdfad63c502003028e51b273561c7d3b0a851b11e7dbc77b7f381f0c": "write"
+ },
+ "flags": []
+}

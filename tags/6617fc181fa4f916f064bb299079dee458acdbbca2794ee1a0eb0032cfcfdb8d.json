@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "6617fc181fa4f916f064bb299079dee458acdbbca2794ee1a0eb0032cfcfdb8d",
+ "domain": [
+  "media/audiobooks",
+  "retail/price-comparison"
+ ],
+ "product": [
+  "audioknihy-cz",
+  "databazeknih"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Czech audiobook catalogue with search, filters, author and narrator profiles, and price comparison and history across retail partners.",
+ "whenToUse": "Use when someone wants to find a Czech audiobook, compare its price across stores or see rankings and price trends.",
+ "tasks": [
+  "search audiobooks",
+  "get audiobook detail",
+  "find cheapest offer",
+  "compare offers",
+  "browse genres",
+  "filter search",
+  "get author profile",
+  "get narrator profile",
+  "list partners",
+  "view rankings",
+  "view price trend",
+  "get publisher"
+ ],
+ "effects": {
+  "45eef00a0b2ea4a226e36eb3b8433264f330765dc637d2ec4bc1be84eda75e36": "read",
+  "3b5ea70680ba892ed1c203e173035eb606dc5b4a190eabffe346f0f751606c48": "read",
+  "0643d0a0b1507bd1a174430b7877e1f38a35350d1536dd3ef53e17b4dcd1ca7b": "read",
+  "c83b8e62ccb94261c7c15340d4cc9662cf0bcb7dfd40178ef38939779d971e1f": "read",
+  "f29e1d1fddc05a814b89108452c7c54aef53b4cd3e3e343e857a14e390c4a9cf": "read",
+  "e4469af5388c0ab8ea48a37c3aca7544b1fb4f45782e328f9bb14506f052301b": "read",
+  "89ed28c196a99e002195d5ebb8072e781a43a467fb637d5a0287f7d8b4028418": "read",
+  "270c635c9a001d51ba455a63005704009ff68d424df8e702b63a60be3ebcbdb5": "read",
+  "6a4c1e767a64a9d0fad93188b53d0db462a35158e1425bf2c31df903b2278953": "read",
+  "cafae7f1ffea71a133f5c0a7fd631971c69d7eea80ffd802834f3b2205064526": "read",
+  "8784f7960d89a3e993f0b1dbf4a121d493092e0d6f3a8f1be4483b5bdf78e021": "read",
+  "fc60fe799a3cf6c8fdd8a2c3bb781ee8295757ea3b8b02d05463de6b9d7ea535": "read",
+  "88e5b2c22f90226f9b2ecced20a0ba346fdd113a5b13b0908389ba96640b70bd": "read"
+ },
+ "flags": []
+}

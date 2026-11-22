@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2fa9ce3138569e99b0f6873c95a5b2e9bf2c66acfd57c99dad905e64994bb53c",
+ "domain": [
+  "scheduling/polls"
+ ],
+ "product": [
+  "doodates"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Creates group date polls that participants vote on without an account, then shows results and closes or reopens them.",
+ "whenToUse": "Use when a group needs to pick a date or time for a meeting or event.",
+ "tasks": [
+  "create date poll",
+  "get poll results",
+  "close poll",
+  "reopen poll"
+ ],
+ "effects": {
+  "a19e171ad0b7a3dade7c4f683b00e06b7dce0546f27f6238a4b2844509a58370": "write",
+  "49dd16749caf5348c420f22bc3d06aee07d4108501d2a83f2f5760ab8a61c242": "read",
+  "39515648e2519d1c38239d755607ccfb53893fbac9aada88a4cec39b6e8d6f39": "write"
+ },
+ "flags": []
+}

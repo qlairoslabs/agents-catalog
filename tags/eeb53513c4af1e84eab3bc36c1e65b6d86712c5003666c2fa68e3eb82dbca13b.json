@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "eeb53513c4af1e84eab3bc36c1e65b6d86712c5003666c2fa68e3eb82dbca13b",
+ "domain": [
+  "productivity/bookmarks"
+ ],
+ "product": [
+  "agentmash"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search over a user's saved bookmarks library for use by AI agents.",
+ "whenToUse": "Use when the user wants to find something in their saved bookmarks.",
+ "tasks": [
+  "search saved bookmarks"
+ ],
+ "effects": {},
+ "flags": []
+}

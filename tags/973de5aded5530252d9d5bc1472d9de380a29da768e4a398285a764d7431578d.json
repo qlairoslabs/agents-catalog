@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "973de5aded5530252d9d5bc1472d9de380a29da768e4a398285a764d7431578d",
+ "domain": [
+  "web/wordpress-services",
+  "marketing/agency"
+ ],
+ "product": [
+  "seahawk-media",
+  "wordpress",
+  "google-pagespeed"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Seahawk Media's site, services, prices and contacts, and runs free website SEO and page-speed checks.",
+ "whenToUse": "Use when you need WordPress agency service info or want to check a public site's SEO, security headers or speed.",
+ "tasks": [
+  "search site",
+  "read pages",
+  "get company overview",
+  "get contact options",
+  "check website",
+  "test page speed"
+ ],
+ "effects": {
+  "4d1854853de65a6c11f3f2504892bc864b5f1e4a2ed22f83edd57d413b9f3014": "read",
+  "8721c6250e6d4980f1b3daf3d42ba5a6cda6ce5f17c63572cd7413b88a1096b2": "read",
+  "d9a3bb8a487850c08608e94e8f0403bf12670c1f58f26f5fcb19df8f35797933": "read",
+  "79fa090a8954334258fad40a39ee5e469ede4e72f54db91db37039924fd07953": "read",
+  "8b42475589dbe5e08d0bb7d5a490f267370125ffbe91204ba6aa5ed79bd2347f": "read",
+  "4010d17762063b15206356a6de6d1195bd802164ccc798ba7e30fb12fe6be246": "read"
+ },
+ "flags": []
+}

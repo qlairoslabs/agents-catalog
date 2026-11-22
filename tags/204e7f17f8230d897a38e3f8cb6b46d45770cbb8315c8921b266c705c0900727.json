@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "204e7f17f8230d897a38e3f8cb6b46d45770cbb8315c8921b266c705c0900727",
+ "domain": [
+  "communication/postal-mail",
+  "compliance/data-protection"
+ ],
+ "product": [
+  "frankki"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Service for sending printed physical letters worldwide, with German-focused compliance; tools listed cover setup checks, address validation and pricing.",
+ "whenToUse": "Use when an agent needs to check readiness, validate a postal address or quote the price of sending a printed letter via FrankKi.",
+ "tasks": [
+  "check account setup and connection",
+  "validate postal addresses",
+  "quote letter shipping price",
+  "get volume pricing tiers",
+  "send printed letters"
+ ],
+ "effects": {
+  "da630a7555c16c8eb9706aef69f7a41a21a0da401bc8c51c484765bd652e7127": "write",
+  "39bc2e16ca0576a34df4eeaa972e2c97d15133f75c749549a1d6e11b457018e3": "read",
+  "f8ed7bb5e74b8da6526a6ce83ac52aa5396e2413a1f081aa25daa23756b1e1a6": "write",
+  "8e6c9d1b115f2f239b948b80c8a9424cdaba07c648b8591945760140b3ebdfc5": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "e9c5e41b00f225a03be40b43f91d086655040bed9bde77048747e4aed7471aa0",
+ "domain": [
+  "energy/market-data",
+  "weather/data"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only electricity, gas and weather data returned with source provenance and units.",
+ "whenToUse": "Use when analyzing electricity or gas data alongside weather with traceable sources.",
+ "tasks": [
+  "read electricity data",
+  "read gas data",
+  "read weather data"
+ ],
+ "effects": {},
+ "flags": []
+}

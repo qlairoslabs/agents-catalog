@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "63da89a6408ee1ee4c4ed17b059282bb9dc4903a50f3eaa1b64bfbf067091974",
+ "domain": [
+  "government/civic-data",
+  "legal/transparency"
+ ],
+ "product": [
+  "ungovr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Open civic data on government entities worldwide, open-records and transparency laws, grand jury reports, and submission of government service requests.",
+ "whenToUse": "Use when identifying which government entity or law applies somewhere, or filing a service request such as reporting a pothole.",
+ "tasks": [
+  "list countries",
+  "search government entities",
+  "get entity details",
+  "get open records law",
+  "search transparency laws",
+  "search grand jury reports",
+  "list service types",
+  "submit service request",
+  "resolve domain jurisdiction",
+  "resolve ISO jurisdiction"
+ ],
+ "effects": {
+  "db84c9631b485a28921570138b69ac3971177451ee709139f623b301117ac8e9": "read",
+  "67f39b082da2618ae269446e0927d3b88af2e8fa9e59024382c0ae4a0eeef6ef": "read",
+  "c8803cd83ebe5d91b18e58db23bdc08727604faa172c38e0cd78ab932157f045": "read",
+  "eefdfabf1c3cd5919c62a07afc5380a7d6e97934b6da0d3ea90c17be3d718ec0": "read",
+  "1e3af844734c43e8d86521138d6afd953cae0ff610c012cc8e47469681b62f67": "read",
+  "1b50699623b45b34dc58fc919d20ebe214a3009638a7b59ee44f4ae5817fe4b2": "read",
+  "8c0e7a88bb9a5a20d873600fd139ab358f4678dc8c6c54478310956e32634547": "read",
+  "f8d06837a06086e4d762adb9f0de0fa3cad63aa8113df3292f574e2aab27152d": "read",
+  "44abae22ceeb0b8a4e1ae2dc6805470c60f48ce4f9ab507d273fd15023a28435": "read",
+  "50b181c6a473b6bd68ec766697d9593cc9293faf811648969272effedb4e5888": "write",
+  "f2ce0898062a7ee5a7e1ba08578b3ed6837dbf65dfef3593feb4f062434bb508": "read",
+  "d829364d58186081ffa2f91304c4378a378f3c4fef3c7054ddffd2571909b623": "write"
+ },
+ "flags": []
+}

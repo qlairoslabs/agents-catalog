@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "ea050015e6ebeeff4cafc39acf36405d5b9826215f72cb11a3268eb5721a5ad5",
+ "domain": [
+  "sales/ai-agents",
+  "marketing/lead-generation"
+ ],
+ "product": [
+  "lead-friendly"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Provides Lead Friendly pricing, industry templates and capability checks, and hands prospects to its sales team via demo or lead requests.",
+ "whenToUse": "Use when evaluating Lead Friendly or passing an interested prospect to its sales team.",
+ "tasks": [
+  "get pricing",
+  "list industries",
+  "check capability",
+  "book demo",
+  "create lead"
+ ],
+ "effects": {
+  "1a4b7f3d2cd006e2cfefc0d6151412becf8af9b8e01f7927dbed857c43b9e031": "read",
+  "9b3dd555634cda6de03833bf84244ae6686ad57cf7a8c5cda0a6bd2ce9af21d7": "read",
+  "f9d39eced3d086ccfd6ff2fa0d1e26fd7c29adc9b596e590fc342b1e2d86060b": "read",
+  "6dd260deed0c2bc2647993126950d6270aa8a8d28d8b88234ab9128080f94948": "write",
+  "99876ffceaee6d7e49a501ff8078b44f3225717fc3590256950c7cf0644cd575": "write"
+ },
+ "flags": []
+}

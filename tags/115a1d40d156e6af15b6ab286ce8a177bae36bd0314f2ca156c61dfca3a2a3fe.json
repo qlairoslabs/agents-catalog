@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "115a1d40d156e6af15b6ab286ce8a177bae36bd0314f2ca156c61dfca3a2a3fe",
+ "domain": [
+  "data/lineage",
+  "data/governance"
+ ],
+ "product": [
+  "apache-airflow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Traces downstream data lineage to show what depends on a table or DAG and assess change impact.",
+ "whenToUse": "Use when a user wants to know what breaks or depends on data before changing a table or DAG.",
+ "tasks": [
+  "trace downstream dependencies",
+  "impact analysis",
+  "assess change risk"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d23a5cbf4be19d12af849221df82c7a3a68df6126e004c6055497aa871a9854f",
+ "domain": [
+  "productivity/personal-data",
+  "finance/banking"
+ ],
+ "product": [
+  "thoughtbox"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Gives an agent read access to the user's connected cloud storage, bank accounts and other personal data sources.",
+ "whenToUse": "Use when the user wants an agent to look at files in their cloud storage or their bank account data.",
+ "tasks": [
+  "read cloud storage files",
+  "read bank account data",
+  "access connected personal accounts"
+ ],
+ "effects": {},
+ "flags": [
+  "very broad access to sensitive personal and financial data with vague description and unnamed publisher identity"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "b6680e86a49b513a59991fea88419011f523ff85ce7794ff58db7b1dcd312368",
+ "domain": [
+  "finance/trading",
+  "finance/calculators"
+ ],
+ "product": [
+  "riskreward"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Calculators for fee-aware position sizing, net risk/reward and trade performance statistics for linear futures trades.",
+ "whenToUse": "Use when a trader needs position size, fee-adjusted R ratio or performance metrics from closed trades.",
+ "tasks": [
+  "calculate position size",
+  "compute net risk/reward",
+  "find breakeven win rate",
+  "analyze trade performance",
+  "compute expectancy and drawdown"
+ ],
+ "effects": {
+  "edc8939a739ee6019a6adf1c8a8dcd5961d356e10e74f295e5ed92fe2d2c0df4": "read",
+  "78e18a64cabc7c0e4fa46eb223c6814ae5fed4f0fdd8415fcd17ddccbc579208": "read",
+  "70ed792c658bf98c70fe8c00779765b51e4adcb589c00d23190e88e0957a914a": "read"
+ },
+ "flags": []
+}

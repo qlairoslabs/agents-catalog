@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "1c2d3134b117fc2a02d71db09e6f88d7efbb053403d49d76f9e22d19dcbbd4a2",
+ "domain": [
+  "media/generative-ai",
+  "media/video",
+  "media/audio"
+ ],
+ "product": [
+  "aitopia"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates and edits images, video and audio using many AI models, with voice cloning and transcription.",
+ "whenToUse": "Use when the user wants to generate or edit images, video or audio, clone a voice or transcribe media.",
+ "tasks": [
+  "generate images",
+  "edit images",
+  "generate video",
+  "edit video",
+  "generate audio",
+  "clone voices",
+  "transcribe audio"
+ ],
+ "effects": {},
+ "flags": []
+}

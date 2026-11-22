@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "2508dc8d96a526db922358040f8e3a74ad59cb4eebbc5b80243159490d5dda7d",
+ "domain": [
+  "web-hosting",
+  "software/cms"
+ ],
+ "product": [
+  "umbraco",
+  "umbhost",
+  "umbcheckout",
+  "ecologi",
+  "trustpilot"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Storefront for UmbHost Umbraco hosting, email, licences and domains: browse plans, quote, check domains, and start a checkout a human pays.",
+ "whenToUse": "Use when choosing or pricing Umbraco hosting, an UmbCheckout licence or a domain, or checking Umbraco support dates.",
+ "tasks": [
+  "list hosting plans",
+  "get plan details",
+  "check domain availability",
+  "quote an order",
+  "begin checkout",
+  "check order status",
+  "read reviews",
+  "read site pages",
+  "get Umbraco support dates"
+ ],
+ "effects": {
+  "036b1b2dba6590f9a71ec17eb07f619aa0bed053db08602446910710f1fa9cea": "read",
+  "29a11bea77f7c582bdc3cae67e021993ebb99fc331144957489914680287287b": "read",
+  "8d08629b529f5b041ba0912686584e257abab5afddde01580d86ce1a170637cc": "read",
+  "77c102ce154e0d43079dfdb85b1a5f22b2dbe42909f2274cfcd5c11dcfee9cde": "read",
+  "1e95c72c052576f7426f600b5825eb87c31573c21ce03d7a2793e556ed58ac12": "read",
+  "dd4aeb9528468a862a54bde2cdba8389f5ac31ea04f20e331ac4e31c97ead597": "write",
+  "87eeaf5ef1395d7e562e575c8e6b578d760dae630301490bdadd43399426b5e5": "read",
+  "93be5068360396132e6c7854ebe495bc5edb107219a73417fc5acab4348cf265": "read",
+  "b2cd2d95ffb76d662a83fefce75bcdbde2d121696e5d8cd6b9ba3d3468efc806": "read",
+  "9e9a5d46c872a226a89dff486aa73449a507bd2e211ee1b20b1bbe821a853210": "read",
+  "5b86ec8fac80f35de2db05b4a244a15c4f77610543b9c4e124a4c65402089307": "read",
+  "4d744721b0aa4b06c370819daa664bc4d64c2677727e65efe6fddf18da39dffd": "read"
+ },
+ "flags": []
+}

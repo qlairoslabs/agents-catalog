@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7e9461c7484ec3ea347ab0807835a3ae560abb931b1a278dd5b88d48cfad3a76",
+ "domain": [
+  "marketing/email/email-verification"
+ ],
+ "product": [
+  "mailtester"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "automate-work"
+ ],
+ "summary": "Checks email addresses as valid, invalid, risky or unknown using MX, SMTP, catch-all and disposable checks.",
+ "whenToUse": "Use when an agent needs to verify whether an email address is deliverable.",
+ "tasks": [
+  "verify email address",
+  "check mx records",
+  "detect catch-all domains",
+  "detect disposable addresses"
+ ],
+ "effects": {},
+ "flags": []
+}

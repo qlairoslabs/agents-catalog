@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "dc49681f097a349f496de58ca7a1e4dea672f724eb784273573133bd34574fcd",
+ "domain": [
+  "productivity/office-suite",
+  "communication/email",
+  "productivity/calendar"
+ ],
+ "product": [
+  "google-workspace",
+  "gmail",
+  "google-drive",
+  "google-calendar",
+  "google-docs",
+  "google-sheets",
+  "google-slides",
+  "google-forms"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch",
+  "schedule"
+ ],
+ "summary": "Google Workspace server covering Gmail, Drive, Calendar, Docs, Sheets, Slides, Forms, Tasks and Chat.",
+ "whenToUse": "Use when an agent needs to read or act on a user's Google Workspace email, files, calendar or documents.",
+ "tasks": [
+  "read and send gmail",
+  "manage drive files",
+  "manage calendar events",
+  "edit docs",
+  "edit sheets",
+  "edit slides",
+  "manage forms",
+  "manage tasks",
+  "send chat messages"
+ ],
+ "effects": {},
+ "flags": []
+}

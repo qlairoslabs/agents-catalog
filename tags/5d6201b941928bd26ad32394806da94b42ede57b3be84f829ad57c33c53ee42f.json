@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "5d6201b941928bd26ad32394806da94b42ede57b3be84f829ad57c33c53ee42f",
+ "domain": [
+  "finance/personal-budgeting"
+ ],
+ "product": [
+  "budgey"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Shows remaining budget for the period, logs spending and manages a Budgey budget.",
+ "whenToUse": "Use when a Budgey user wants to check what is left to spend, record an expense or adjust their budget.",
+ "tasks": [
+  "check remaining budget",
+  "log spending",
+  "manage budget"
+ ],
+ "effects": {},
+ "flags": []
+}

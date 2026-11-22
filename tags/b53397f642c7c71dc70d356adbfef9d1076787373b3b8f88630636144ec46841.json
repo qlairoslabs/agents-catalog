@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b53397f642c7c71dc70d356adbfef9d1076787373b3b8f88630636144ec46841",
+ "domain": [
+  "software/testing/browser",
+  "software/qa"
+ ],
+ "product": [
+  "monito"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs web app tests in a real browser from plain-language descriptions and reports pass, fail or unverifiable with evidence.",
+ "whenToUse": "Use when an agent needs to check that a web app flow works end to end in a real browser.",
+ "tasks": [
+  "run browser tests from plain english",
+  "report test results",
+  "collect test evidence"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "80f78ce78e20e07647ba094a73089836ba3314525e88652409b15fd7cd455a3f",
+ "domain": [
+  "ai/agent-memory",
+  "knowledge/knowledge-graph",
+  "marketplace/agent-market"
+ ],
+ "product": [
+  "awareness"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Agent memory store plus a public knowledge graph of sourced papers, with a deal board and agent marketplace.",
+ "whenToUse": "Use when an agent needs persistent memory, sourced research knowledge, or access to an agent marketplace.",
+ "tasks": [
+  "store agent memory",
+  "query knowledge graph",
+  "browse research papers",
+  "view deal board",
+  "use agent market"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,72 @@
+{
+ "classifier": 2,
+ "contentHash": "64e8ffe75c74a5f25dde83c8349ea89e1d27147c27c3086cf0c4a2c4854aecc3",
+ "domain": [
+  "crypto/swaps",
+  "finance/trading"
+ ],
+ "product": [
+  "solana",
+  "ethereum",
+  "monero",
+  "hyperliquid",
+  "kyberswap",
+  "changenow",
+  "simpleswap",
+  "jupiter"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Non-custodial crypto swap toolkit with quotes, cross-chain orders, Solana and EVM unsigned swap transactions, Hyperliquid orders, Monero-routed private swaps, rug checks and price alerts.",
+ "whenToUse": "Use when an agent must quote or prepare crypto swaps across chains, or check token risk and wallet balances.",
+ "tasks": [
+  "get crypto prices",
+  "quote swaps",
+  "compare swap routes",
+  "build unsigned Solana swaps",
+  "build unsigned EVM swaps",
+  "create cross-chain swap orders",
+  "create Monero-routed private swaps",
+  "check swap status",
+  "build Hyperliquid orders",
+  "check wallet balance",
+  "rug check tokens",
+  "set Telegram price alerts"
+ ],
+ "effects": {
+  "e41f8ff42d1940028aac608d7f87d27201c1762c98b16a34bbae18f4066ab8bb": "read",
+  "8e8471fb2931ee97263b83773ae6621bcbc557c9519497e3e28dc16035c1c5f7": "read",
+  "e6f096056c41b6961a60fd5cdcf65944ad670316108cc659baeb15f81ff5d248": "read",
+  "9e0135072333c116543efcbe3d64d3f82c2ef60f2ed9936415c7484f9d4e9d6f": "read",
+  "e64695749a2925798df0b983414c33b996f98bc2ed984739909da5d07794503a": "risky",
+  "b22a963f52ead0ed3da7aa3047d959bc61bc5a893e92aa4bf352487bb9ea124c": "read",
+  "76a4f3b00d8c3e4da5fbdcf65a310a2320411d71ca7960546b4c3f1658cebd3f": "read",
+  "0142c5e0e9f96bd80e0eb0c674b7f68b960b8263b3859dd64d3ed0b97a1eef89": "read",
+  "7fdfb8ed51c0f4319374878a6952fb44355bfd485b21625bd5bb53780a17510b": "risky",
+  "5d4998daa11db84781eb71f24cef9d87aedd9467e734b74fb0824d0cdda2b0e6": "risky",
+  "467f7721d7ef5df1041fe40b930934dea40902492aabbbbd6e43c1ed2f83f14a": "risky",
+  "1a1ec6ae8401cd50e7ceb7a5928321cd24faad6c41061e70cbae3b5eff6fa63e": "risky",
+  "c53ba7a2599c1ec5f2f803285275240afa6186217c9d964f5c90c4a50f2dac24": "read",
+  "a69fe486b856c0405812793ec4ced72bffd89107910c14cce719d7a87fa574a8": "risky",
+  "f859335ddc3183f986022204ecdb0a928c93c3af8c7b2b22bf016578a4c61ec1": "read",
+  "221eafe22198e9201c92b7b7d901e535bfe9ee37aba6283cb9da51e555694bd8": "read",
+  "7f22d9ef5a5fee58c4cf18ebeef78bb325e43666050d774e8471655afb21f29b": "read",
+  "6ed39f7a2af1823ccf8ffcddfd0b7041cf64b6f34946af04151f3cfd91a04464": "read",
+  "17c1c0b5306a55a133593c1c3b8d9fbc4f7396dabd8d575b9237928575c67b52": "write",
+  "5c1b4a299ba28df5e3c4941eeaa5f8286383ac1d8c15bc1740c940446dd91252": "write",
+  "88a9e85eee6b7219e9591eb465fddf37b6e0901274ed97751bbcada2d43f0e6a": "read",
+  "0440945ad3c1db287c2b6061d794bc82ad6312af23490f929f4c4e7b295dcfd7": "read",
+  "e78f7c19693553a6437e6c5558af658739dd35b9becdacf4610ed4e4d9a68083": "read",
+  "5b0500e9c76c56a55ae913afe9008ef22cc486c441fa9d8794dbcb9bfe5ebfe4": "read"
+ },
+ "flags": [
+  "private_swap routes funds via Monero to break the on-chain link (mixing, no-KYC)",
+  "charges routing fees on swaps"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "15a30e86e8aad429b856d1fd469d98615a2577c24c3a75f8792c7e24583f3659",
+ "domain": [
+  "software/observability/session-replay",
+  "product-analytics"
+ ],
+ "product": [
+  "logrocket"
+ ],
+ "audience": [
+  "development",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries LogRocket session replays, metrics, issues and user behaviour in natural language.",
+ "whenToUse": "Use when investigating frontend issues or user behaviour recorded in LogRocket.",
+ "tasks": [
+  "query session replays",
+  "query metrics",
+  "review issues",
+  "analyze user behavior"
+ ],
+ "effects": {},
+ "flags": []
+}

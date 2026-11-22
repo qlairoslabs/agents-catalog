@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3b080197110e888991ffc64a9216fe08fd90cc367a82237029f7f5303fcf395a",
+ "domain": [
+  "productivity/project-management"
+ ],
+ "product": [
+  "asana"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Connects to Asana's MCP server to create and manage tasks, search projects, change assignments and track progress.",
+ "whenToUse": "Use when creating, updating or tracking tasks and projects in Asana.",
+ "tasks": [
+  "create tasks",
+  "update tasks",
+  "search projects",
+  "change assignees",
+  "track progress"
+ ],
+ "effects": {},
+ "flags": []
+}

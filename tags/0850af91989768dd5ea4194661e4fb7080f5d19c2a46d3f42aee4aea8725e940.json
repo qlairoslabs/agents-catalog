@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0850af91989768dd5ea4194661e4fb7080f5d19c2a46d3f42aee4aea8725e940",
+ "domain": [
+  "data/orchestration/airflow",
+  "software/configuration"
+ ],
+ "product": [
+  "apache-airflow",
+  "pydantic"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guidance for defining reusable, validated Airflow task group templates and composing DAGs from YAML.",
+ "whenToUse": "Use when building reusable DAG templates or enabling YAML-based DAG authoring.",
+ "tasks": [
+  "create blueprint templates",
+  "compose dags from yaml",
+  "declare shared variables",
+  "set per-environment profiles",
+  "validate configurations",
+  "package templates for sharing"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "caa7cc860529ee160e1863ec337b8d37960ca08badc1cda7d07bfcf0b5a1aae5",
+ "domain": [
+  "real-estate/timeshare",
+  "consumer/research"
+ ],
+ "product": [
+  "cfpb",
+  "fl-dbpr"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches timeshare resale listings and resorts, with Florida DBPR registration, payment history and CFPB complaint data, plus shareable buyer research pages.",
+ "whenToUse": "Use when researching timeshare listings, resorts or brand complaint history before a purchase.",
+ "tasks": [
+  "search timeshare listings",
+  "get resort details",
+  "get listing details",
+  "list brands",
+  "search FL DBPR projects",
+  "get payment history",
+  "search CFPB complaints",
+  "create buyer bridge page",
+  "add listing to bridge"
+ ],
+ "effects": {
+  "42407d14cd4a07546b02fad2e06bc4268b02dcb14e20219d15d8512f5e4d0f5c": "read",
+  "05ee66f7c2413c43691bd1652d484f89112e1e13d57e76b678573c4a2803e280": "read",
+  "4b408adcdeb11b877006ecbded26a4493cde8d21538800b57b9603b7d37ffa09": "read",
+  "ad24f0d9fb3946221db58a09d99425c4946feaa5230eb2d51021c14928f16dad": "read",
+  "c203744a7f19db4ff3da829dc3b988ea0eafede4718eea68087a1f376109fb1c": "read",
+  "b767c21f397cd15e2d13ddad4cb62ed4f716a35fdc717560f63051695372f8e8": "read",
+  "9d4d7e06a4c95d221145e77713ac3fc0f096212308df6ed8b688a4d47ef650b3": "read",
+  "442032a222918bcebf957a6678d96b5948695bf48b0d912878a8bad8080518c0": "read",
+  "158661194b189a0caf8694f640c28c227c33e309a48774d616e86d379cd9310f": "read",
+  "e3a1002a57f96ed8a86ef408004d9e530fa275bb41d01bbc9b90254b072e47ef": "read",
+  "7a5f076f9f7b1cb2c0b34d262da2c18bce024005c469cdb6cb8846e5985875a1": "write",
+  "49d4b1be4adb94aaf45b3de1d543063a230bba3532aed11614d1994c835364d1": "write"
+ },
+ "flags": []
+}

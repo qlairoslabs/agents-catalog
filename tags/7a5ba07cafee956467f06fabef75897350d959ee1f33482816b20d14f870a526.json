@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "7a5ba07cafee956467f06fabef75897350d959ee1f33482816b20d14f870a526",
+ "domain": [
+  "software/ai-agents",
+  "data/orchestration/airflow"
+ ],
+ "product": [
+  "astronomer-otto",
+  "astro-cli",
+  "apache-airflow",
+  "dbt"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Explains how to run Astronomer's Otto agent through the astro CLI as a delegated sub-agent for Airflow and dbt work.",
+ "whenToUse": "Use when the user asks to delegate work to Otto, or for Airflow 2 to 3 migration planning.",
+ "tasks": [
+  "invoke otto headlessly",
+  "continue or fork sessions",
+  "set permission modes",
+  "configure tool allowlists",
+  "select model",
+  "get structured output",
+  "configure mcp"
+ ],
+ "effects": {},
+ "flags": [
+  "description steers the agent to make a proprietary agent the default path for airflow tasks and to prefer it over local skills"
+ ]
+}

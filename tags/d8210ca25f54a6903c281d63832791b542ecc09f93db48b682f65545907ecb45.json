@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "d8210ca25f54a6903c281d63832791b542ecc09f93db48b682f65545907ecb45",
+ "domain": [
+  "commerce/appointments",
+  "commerce/art-certificates"
+ ],
+ "product": [
+  "microsoft-teams"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule",
+  "get-paid"
+ ],
+ "summary": "Agent-only shop to book a 15-minute session with its owner or buy an AI Repellent art certificate, with payment links, rescheduling, cancellation and transfer.",
+ "whenToUse": "Use when a user wants to book time with the seller or buy, transfer or renounce the AI Repellent certificate.",
+ "tasks": [
+  "get shop info",
+  "list products",
+  "check availability",
+  "create booking order",
+  "check payment status",
+  "get meeting details",
+  "cancel and refund order",
+  "order certificate",
+  "transfer certificate",
+  "renounce certificate",
+  "update booking brief",
+  "reschedule session"
+ ],
+ "effects": {
+  "f567e912ef9aa2015a9e890398519da16225bbb10f417694fa8922ff8094e152": "read",
+  "7f1a8fbceb3984288503352df7b0f514767388c3ce5f5e91bba7061c85e9c1f0": "read",
+  "dc6302ca7eda22473e6961e6cc79f8aeaac3e2f8e833ff0d7930a22b1f9a7161": "read",
+  "c1ac779bea6a8e6afcae29e719d0f61a4a76d62be6c04fb6ce8f73d936253f15": "write",
+  "e2277401ab763f4aab18cd4ba52c9341d65adcee5e4d827565e69104f6297a04": "read",
+  "b6d9c7b50810da8219ecf3c148492999318cfd055db057e56091b4cffd0dbe37": "read",
+  "29f05cad7925d35bf8d80179459570fe2266a62e278c93b852de6cc184633104": "read",
+  "3136429cb8604134fbe86f0cb2326acaf9282514b2a2eb96c03dc1ecf9aff92e": "risky",
+  "18c5d3982b159e9a9b2768a2923602a0f2c23842823f27c73b3f86b09c2c0cfa": "risky",
+  "08cb9c34304f45fadad36ef522646b4c660e4f3342d56a5e7295975790bdb194": "write",
+  "f7182b847e56675f3aec830322ae5a131e6a6a2e6b24f349e9cc1fbac6539b65": "write",
+  "d3bae59f2d4c7dba04f22386f069909d1ebaba51deacc63a097de229baafa0a8": "risky",
+  "39b181c5bdaf2c8fc7b5721a3d6c79b3c9dcd75fb720edbc2ffa35a1d2b13f17": "write",
+  "bbc9b57d7232556895f565488bcf2697750d8c00282887bf52d1388dfcff596d": "write",
+  "fbb6c01ef988a25fdeb45938b634579c1f070ae6326f15ed7b3363bad2f2817b": "write",
+  "ee0451394ae62d91c308c782330715ce8073855eb4b477fb1c0265d97e37a300": "write"
+ },
+ "flags": []
+}

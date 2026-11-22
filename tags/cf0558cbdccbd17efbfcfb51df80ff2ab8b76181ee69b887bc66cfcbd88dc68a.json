@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cf0558cbdccbd17efbfcfb51df80ff2ab8b76181ee69b887bc66cfcbd88dc68a",
+ "domain": [
+  "software/ai-testing/regression",
+  "software/testing"
+ ],
+ "product": [
+  "langgraph",
+  "crewai",
+  "openai",
+  "claude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Regression testing for AI agents using golden baselines, with CI/CD integration across common agent frameworks.",
+ "whenToUse": "Use when checking whether changes to an AI agent alter its behavior against saved baselines.",
+ "tasks": [
+  "create golden baselines",
+  "run agent regression tests",
+  "integrate with ci/cd"
+ ],
+ "effects": {},
+ "flags": []
+}

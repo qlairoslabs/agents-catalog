@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9ff3c7194c5dbdc1f97e150e6413118b894f670eee800fb9bd144d13fe858cfa",
+ "domain": [
+  "jobs/job-search",
+  "jobs/resumes"
+ ],
+ "product": [
+  "web-remote-jobs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "create-content"
+ ],
+ "summary": "Finds US remote jobs, matches them to a user's experience and drafts tailored resumes and cover letters.",
+ "whenToUse": "Use when someone is looking for US remote work or needs a resume or cover letter tailored to a role.",
+ "tasks": [
+  "search remote jobs",
+  "match experience to roles",
+  "write tailored resumes",
+  "write cover letters"
+ ],
+ "effects": {},
+ "flags": []
+}

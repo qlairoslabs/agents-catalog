@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "cba8b1149086409ac1335392cbe023445443a10a72cdc23c2508e4804cf50875",
+ "domain": [
+  "software/web-scraping/http-fetch"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Fetches URLs with SSRF protection, converting HTML to markdown and extracting metadata.",
+ "whenToUse": "Use when an agent needs to retrieve and read a web page safely.",
+ "tasks": [
+  "fetch urls",
+  "convert html to markdown",
+  "reader mode extraction",
+  "extract page metadata"
+ ],
+ "effects": {},
+ "flags": []
+}

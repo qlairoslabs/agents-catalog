@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "63f8d2ff46012c8d39c8af140aa8eb2bd0e92d3fe0fddc7d9a8bd1d6cd089f8d",
+ "domain": [
+  "communication/fax"
+ ],
+ "product": [
+  "singlefax"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Sends a fax from an uploaded PDF after payment and reports delivery status.",
+ "whenToUse": "Use when a user needs to send a document by fax and track delivery.",
+ "tasks": [
+  "upload pdf",
+  "pay for fax",
+  "send fax",
+  "check delivery status"
+ ],
+ "effects": {},
+ "flags": []
+}

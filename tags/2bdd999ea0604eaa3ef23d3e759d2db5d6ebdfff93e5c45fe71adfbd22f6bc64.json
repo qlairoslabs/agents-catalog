@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "2bdd999ea0604eaa3ef23d3e759d2db5d6ebdfff93e5c45fe71adfbd22f6bc64",
+ "domain": [
+  "entertainment/games"
+ ],
+ "product": [
+  "foolfish-games"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Finds free browser games, recommends titles by preference and reads gameplay guides from FoolFish Games.",
+ "whenToUse": "Use when a user wants a free browser game or help with a FoolFish game guide.",
+ "tasks": [
+  "search games",
+  "get game details",
+  "recommend games",
+  "search guides",
+  "read guide"
+ ],
+ "effects": {
+  "1e6007e848d46758789aaac5143b73df009dcbba66f16f4a3c3d8fae9c8b0bd7": "read",
+  "7342e0015631eeb7431ec8e7e4e7def380980c978be2243730ed0e6dbc70d3f1": "read",
+  "e8c2cd308050315b7320d8ab421d8508d3906ad43d191c63ff6f3b9ce31d8b4d": "read",
+  "957c713c3ffa5a0420895a198206cd324f283a0f51d688c42bbe517dbc126ca9": "read",
+  "a8a5eb8539175e59993a3435c9614bdc0132b9f8e534ac666024522b2fff50c3": "read"
+ },
+ "flags": []
+}

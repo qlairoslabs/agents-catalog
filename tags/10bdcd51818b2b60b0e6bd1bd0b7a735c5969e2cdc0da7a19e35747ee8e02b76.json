@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "10bdcd51818b2b60b0e6bd1bd0b7a735c5969e2cdc0da7a19e35747ee8e02b76",
+ "domain": [
+  "documents/pdf-analysis",
+  "legal/contracts"
+ ],
+ "product": [],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about long PDFs such as contracts, leases and bid packets, citing the page number for each point.",
+ "whenToUse": "Use when an agent needs cited answers from a long PDF document like a contract or lease.",
+ "tasks": [
+  "answer questions from long pdfs",
+  "cite page numbers",
+  "review contracts",
+  "review leases",
+  "review bid packets"
+ ],
+ "effects": {},
+ "flags": []
+}

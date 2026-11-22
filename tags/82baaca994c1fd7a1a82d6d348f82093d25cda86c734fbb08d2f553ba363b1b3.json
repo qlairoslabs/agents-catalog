@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "82baaca994c1fd7a1a82d6d348f82093d25cda86c734fbb08d2f553ba363b1b3",
+ "domain": [
+  "software/incident-management",
+  "software/monitoring"
+ ],
+ "product": [
+  "mttrly"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Incident management and server monitoring service accessible through MCP.",
+ "whenToUse": "Use when a user needs to check server health or handle an ongoing incident.",
+ "tasks": [
+  "monitor servers",
+  "manage incidents",
+  "review alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

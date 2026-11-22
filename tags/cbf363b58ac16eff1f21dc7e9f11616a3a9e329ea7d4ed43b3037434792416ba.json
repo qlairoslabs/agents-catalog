@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "cbf363b58ac16eff1f21dc7e9f11616a3a9e329ea7d4ed43b3037434792416ba",
+ "domain": [
+  "software/ai/migration",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-bedrock",
+  "openai",
+  "google-gemini",
+  "anthropic-api",
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Rewrites code that calls OpenAI, Gemini or Anthropic APIs to use Amazon Bedrock, evaluates output quality, and can check or enable Bedrock model access.",
+ "whenToUse": "Use when a user wants to port LLM SDK calls to Amazon Bedrock or needs to check or request access to specific Bedrock models.",
+ "tasks": [
+  "assess codebase for llm sdk calls",
+  "rewrite sdk calls to bedrock",
+  "evaluate output quality on bedrock",
+  "deliver migration git branch",
+  "check bedrock model access",
+  "walk through enabling model access"
+ ],
+ "effects": {},
+ "flags": []
+}

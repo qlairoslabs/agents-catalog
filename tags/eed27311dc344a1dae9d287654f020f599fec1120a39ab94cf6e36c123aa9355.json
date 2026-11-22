@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "eed27311dc344a1dae9d287654f020f599fec1120a39ab94cf6e36c123aa9355",
+ "domain": [
+  "software/llm-ops",
+  "software/ai-gateway"
+ ],
+ "product": [
+  "orq-ai"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Platform to build and monitor LLM apps with an AI gateway, agents, prompts, evaluations and traces.",
+ "whenToUse": "Use when building or monitoring LLM apps on Orq.ai and managing prompts, agents or evals.",
+ "tasks": [
+  "route via ai gateway",
+  "manage agents",
+  "manage prompts",
+  "run evaluations",
+  "view traces"
+ ],
+ "effects": {},
+ "flags": []
+}

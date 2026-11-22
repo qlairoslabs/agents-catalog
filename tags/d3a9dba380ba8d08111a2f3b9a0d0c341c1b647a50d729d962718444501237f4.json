@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d3a9dba380ba8d08111a2f3b9a0d0c341c1b647a50d729d962718444501237f4",
+ "domain": [
+  "marketing/seo/local-seo",
+  "web/structured-data"
+ ],
+ "product": [
+  "schema-org"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Generates and validates LocalBusiness JSON-LD structured data for local search optimisation.",
+ "whenToUse": "Use when the user needs LocalBusiness schema markup for a website or wants to validate existing markup.",
+ "tasks": [
+  "generate localbusiness json-ld",
+  "validate json-ld"
+ ],
+ "effects": {},
+ "flags": []
+}

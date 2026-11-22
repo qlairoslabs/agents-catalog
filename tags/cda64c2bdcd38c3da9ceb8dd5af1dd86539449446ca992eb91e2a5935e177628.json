@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cda64c2bdcd38c3da9ceb8dd5af1dd86539449446ca992eb91e2a5935e177628",
+ "domain": [
+  "marketing/email/campaigns"
+ ],
+ "product": [
+  "mailzzy"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Email marketing connector for campaigns, audiences, contacts, segments, templates and reports.",
+ "whenToUse": "Use when an agent manages email marketing campaigns, audiences or reports in Mailzzy.",
+ "tasks": [
+  "manage campaigns",
+  "manage audiences",
+  "manage contacts",
+  "build segments",
+  "manage templates",
+  "view reports"
+ ],
+ "effects": {},
+ "flags": []
+}

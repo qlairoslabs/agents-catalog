@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "289bdeb0892c18f1339baa9e454420aaf73ce90973bfe571cad0e53d64ddf992",
+ "domain": [
+  "sales/document-tracking",
+  "productivity/file-sharing"
+ ],
+ "product": [
+  "linkdrop"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Shares PDFs as trackable links and reports who opened them, which pages were read and for how long.",
+ "whenToUse": "Use when the user wants to send a PDF as a tracked link or check engagement on shared documents.",
+ "tasks": [
+  "create trackable pdf link",
+  "see who opened document",
+  "view page-level read time"
+ ],
+ "effects": {},
+ "flags": []
+}

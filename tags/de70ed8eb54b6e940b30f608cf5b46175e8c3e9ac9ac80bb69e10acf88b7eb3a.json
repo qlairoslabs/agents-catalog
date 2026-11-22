@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "de70ed8eb54b6e940b30f608cf5b46175e8c3e9ac9ac80bb69e10acf88b7eb3a",
+ "domain": [
+  "finance/prediction-markets",
+  "sports/betting"
+ ],
+ "product": [
+  "magicmarkets"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connector for sports prediction markets offering live prices, quotes, order placement and position tracking.",
+ "whenToUse": "Use when an agent needs sports prediction market prices or must place or review orders and positions on MagicMarkets.",
+ "tasks": [
+  "get live market prices",
+  "request quotes",
+  "place orders",
+  "view positions"
+ ],
+ "effects": {},
+ "flags": []
+}

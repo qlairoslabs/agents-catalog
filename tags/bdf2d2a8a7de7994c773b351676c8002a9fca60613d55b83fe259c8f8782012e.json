@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "bdf2d2a8a7de7994c773b351676c8002a9fca60613d55b83fe259c8f8782012e",
+ "domain": [
+  "travel/scuba-diving",
+  "weather/marine-forecast"
+ ],
+ "product": [
+  "pickadive",
+  "gbif"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scuba dive planning with forecast windows, seasonal climatology, species sighting seasons and facts for thousands of dive sites.",
+ "whenToUse": "Use when a user wants to plan a dive trip, find good diving conditions near a place, or know when to see marine species.",
+ "tasks": [
+  "find dive windows by place and day",
+  "check species seasonality",
+  "rank top dive regions",
+  "look up dive site facts",
+  "find best time to dive a destination"
+ ],
+ "effects": {
+  "753d03718fb11fce78dae98486c21ee07070db28716678a4bbd022f383fc9363": "write",
+  "e558423a70cde56f67f0924c4099463c5c8e7e03f93f7764e7be389e579ad960": "read",
+  "ae56a80a851066055822135326a103628c7a1b4938a8cc5842bab66a4ccb275d": "read",
+  "c3e8523c2abd9e40b1f0e90166c0828ebde2e1f91b8b175f84dc4fd8dfe992bf": "read",
+  "412e6339a568c09d37e1d79e3ed5ecf0d5d5da703ed67e304baf60d3d68225ef": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "988d288b0c4d14f678bc8853d9995d8bc05e83096cab54138f15125aec6e4c05",
+ "domain": [
+  "support/helpdesk"
+ ],
+ "product": [
+  "canhelpto"
+ ],
+ "audience": [
+  "support",
+  "development"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Customer support inbox for MCP server makers, letting them handle tickets from an MCP client using a service key.",
+ "whenToUse": "Use when the user runs an MCP server and wants to read and answer support tickets from their agent.",
+ "tasks": [
+  "list tickets",
+  "read tickets",
+  "reply to tickets",
+  "update ticket status"
+ ],
+ "effects": {},
+ "flags": []
+}

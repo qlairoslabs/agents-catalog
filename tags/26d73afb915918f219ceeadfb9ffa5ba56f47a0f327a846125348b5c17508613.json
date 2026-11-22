@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "26d73afb915918f219ceeadfb9ffa5ba56f47a0f327a846125348b5c17508613",
+ "domain": [
+  "software/devops/incident-response",
+  "software/cloud"
+ ],
+ "product": [
+  "aws",
+  "aws-devops-agent",
+  "amazon-cloudwatch"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Uses AWS DevOps Agent to investigate incidents, find root causes, write postmortems and review releases for live AWS workloads.",
+ "whenToUse": "Use when a live AWS workload is failing or slow, an alarm fired, a postmortem is needed, or a PR needs a blast-radius review.",
+ "tasks": [
+  "investigate production incidents",
+  "run root-cause analysis",
+  "write postmortems",
+  "review pr release readiness",
+  "assess blast radius",
+  "set up aws devops agent",
+  "pause or stop devops agent",
+  "check devops agent cost"
+ ],
+ "effects": {},
+ "flags": []
+}

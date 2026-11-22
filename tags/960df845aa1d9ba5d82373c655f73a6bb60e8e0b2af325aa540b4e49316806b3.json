@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "960df845aa1d9ba5d82373c655f73a6bb60e8e0b2af325aa540b4e49316806b3",
+ "domain": [
+  "data/databases/mongodb",
+  "data/natural-language-query"
+ ],
+ "product": [
+  "florentine-ai",
+  "mongodb"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Turns natural language questions into MongoDB aggregation queries via Florentine.ai.",
+ "whenToUse": "Use when a user wants to query MongoDB data in plain language without writing aggregation pipelines.",
+ "tasks": [
+  "translate questions to mongodb aggregations",
+  "query mongodb collections"
+ ],
+ "effects": {},
+ "flags": []
+}

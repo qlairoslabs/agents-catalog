@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0485eea53f76a9d96bf4f588aef243a4b5ddbb2ee06d948b38cf8dd24cd7cff0",
+ "domain": [
+  "documents/markdown-conversion",
+  "content/publishing"
+ ],
+ "product": [
+  "mdtidy"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Cleans and repairs AI-generated Markdown and converts it to HTML, PDF, DOCX or PNG, with saving and sharing of documents.",
+ "whenToUse": "Use when Markdown output needs fixing or exporting into a shareable document format.",
+ "tasks": [
+  "clean markdown",
+  "repair markdown",
+  "convert markdown to html",
+  "convert markdown to pdf",
+  "convert markdown to docx",
+  "render markdown to png",
+  "save documents",
+  "share documents"
+ ],
+ "effects": {},
+ "flags": []
+}

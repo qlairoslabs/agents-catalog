@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c7624333900b2998b8a2b20842be7edb05c641065d20477c9bb41d4c1e918f4b",
+ "domain": [
+  "software/mobile/testing",
+  "software/automation"
+ ],
+ "product": [
+  "ios",
+  "android"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "MCP server for automating and testing iOS and Android devices and apps.",
+ "whenToUse": "Use when an agent must drive or test a mobile app on a device or emulator.",
+ "tasks": [
+  "control mobile devices",
+  "tap and swipe",
+  "take screenshots",
+  "test mobile apps"
+ ],
+ "effects": {},
+ "flags": []
+}

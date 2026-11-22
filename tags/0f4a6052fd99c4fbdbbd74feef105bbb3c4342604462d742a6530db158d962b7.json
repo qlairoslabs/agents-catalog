@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "0f4a6052fd99c4fbdbbd74feef105bbb3c4342604462d742a6530db158d962b7",
+ "domain": [
+  "product-management/operations",
+  "productivity/databases"
+ ],
+ "product": [
+  "airtable",
+  "jira",
+  "linear",
+  "productboard",
+  "aha",
+  "salesforce",
+  "zendesk",
+  "gong"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software",
+  "schedule"
+ ],
+ "summary": "Sets up and runs Airtable-based product operations such as roadmaps, feedback synthesis, launches, OKRs, sprints and release tracking.",
+ "whenToUse": "Use when a user wants to track product work, feature requests, roadmaps, feedback intake, launches or OKRs in Airtable.",
+ "tasks": [
+  "build product roadmap",
+  "manage feature requests",
+  "synthesize customer feedback",
+  "set up feedback intake portal",
+  "prioritize initiatives",
+  "run launch checklists",
+  "cascade okrs",
+  "plan sprints",
+  "track releases"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "414c188a5a09b30e72628848d62abc42afa17591bb8cc5a77572ca77a3fbe706",
+ "domain": [
+  "analytics/data-governance",
+  "analytics/instrumentation"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Reference for creating, auditing and scoring Amplitude event taxonomies, naming conventions, property standards and deprecation workflows.",
+ "whenToUse": "Use when creating, validating or auditing event tracking plans, naming conventions, property standards or deprecations in Amplitude.",
+ "tasks": [
+  "generate event taxonomy",
+  "audit tracking plans",
+  "score data quality",
+  "check naming conventions",
+  "apply property standards",
+  "plan event deprecation",
+  "check plan against customer standards",
+  "assess ai readiness"
+ ],
+ "effects": {},
+ "flags": []
+}

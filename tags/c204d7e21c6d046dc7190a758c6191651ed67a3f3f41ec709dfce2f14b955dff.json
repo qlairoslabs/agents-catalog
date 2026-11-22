@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c204d7e21c6d046dc7190a758c6191651ed67a3f3f41ec709dfce2f14b955dff",
+ "domain": [
+  "science/protein-design",
+  "science/drug-discovery"
+ ],
+ "product": [
+  "boltz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Screens and ranks a supplied library of protein, peptide or antibody binders against a target with Boltz.",
+ "whenToUse": "Use when a user has existing protein binders and wants them ranked against a target.",
+ "tasks": [
+  "screen protein binder library",
+  "rank binders against target"
+ ],
+ "effects": {},
+ "flags": []
+}

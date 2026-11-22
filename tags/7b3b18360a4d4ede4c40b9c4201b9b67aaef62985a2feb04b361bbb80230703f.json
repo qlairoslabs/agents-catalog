@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "7b3b18360a4d4ede4c40b9c4201b9b67aaef62985a2feb04b361bbb80230703f",
+ "domain": [
+  "data/geospatial"
+ ],
+ "product": [
+  "google-maps"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Google Maps geospatial data such as places, routes and locations to AI applications.",
+ "whenToUse": "Use when an agent needs accurate place, location or routing data from Google Maps.",
+ "tasks": [
+  "look up places",
+  "get geospatial data",
+  "find routes"
+ ],
+ "effects": {},
+ "flags": []
+}

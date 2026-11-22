@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a12a3d58241980baa9d490bcfb1b06b066e1bc477eee75ffa918d018dc884bd7",
+ "domain": [
+  "software/geolocation/maps",
+  "software/cloud"
+ ],
+ "product": [
+  "amazon-location-service",
+  "aws",
+  "maplibre"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guides integration of Amazon Location Service into AWS apps for maps, geocoding, routing, place search, geofencing and device tracking.",
+ "whenToUse": "Use when building an app that needs maps, geocoding, routes, place search, geofences or location tracking on AWS.",
+ "tasks": [
+  "add interactive or static maps",
+  "geocode and reverse geocode",
+  "calculate routes and travel times",
+  "compute service areas",
+  "search places and autocomplete",
+  "get place details",
+  "set up geofences",
+  "track device locations",
+  "configure authentication and sdk"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b092c427d91e276c0c9c22f997759d71a048c1a9c3cab0791ca5a603a5a9bc24",
+ "domain": [
+  "software/code-review",
+  "developer-tools/ci"
+ ],
+ "product": [
+  "rami",
+  "github",
+  "claude-code",
+  "cursor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "AI code review for GitHub pull requests with a loop that feeds findings back to Claude Code or Cursor for fixes.",
+ "whenToUse": "Use when a developer wants automated review of a GitHub PR and to apply suggested fixes from their coding agent.",
+ "tasks": [
+  "review github pull requests",
+  "fetch review findings",
+  "apply autofixes"
+ ],
+ "effects": {},
+ "flags": []
+}

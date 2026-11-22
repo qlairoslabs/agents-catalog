@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "ee503e02cfa42ee9836e9cccac8bd122b2f27da645ce2b34931ad08575d6794a",
+ "domain": [
+  "data/open-government-data",
+  "data/statistics"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Swedish open statistical data to AI assistants with verified figures and source references.",
+ "whenToUse": "Use when answering questions that need official Swedish statistics with citations.",
+ "tasks": [
+  "query swedish statistics",
+  "retrieve open data",
+  "cite data sources"
+ ],
+ "effects": {},
+ "flags": []
+}

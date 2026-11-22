@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b78941e88e34eb4ac7b6d174a80bf31a0c8313dceb865972781d0256839548ed",
+ "domain": [
+  "software/ui-theming",
+  "design/ui"
+ ],
+ "product": [
+  "ignite-ui",
+  "sass"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Generates Sass palettes, typography, elevations and themes for Ignite UI components.",
+ "whenToUse": "Use when an agent needs to create or adjust a theme for an Ignite UI app.",
+ "tasks": [
+  "generate color palettes",
+  "generate typography",
+  "generate elevations",
+  "build themes"
+ ],
+ "effects": {},
+ "flags": []
+}

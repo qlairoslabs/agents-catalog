@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a389bbb9a6f16992492d2c269e4cecffbf25872c257c600f231940b6ad4b58e7",
+ "domain": [
+  "media/video-publishing",
+  "marketing/analytics"
+ ],
+ "product": [
+  "youtube",
+  "youtube-studio"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted connector for YouTube Studio that handles uploads, metadata, playlists, comments, analytics and captions.",
+ "whenToUse": "Use when the user wants to upload or edit YouTube videos, manage playlists, comments or captions, or check channel analytics.",
+ "tasks": [
+  "upload videos",
+  "edit video metadata",
+  "manage playlists",
+  "manage comments",
+  "view analytics",
+  "manage captions"
+ ],
+ "effects": {},
+ "flags": []
+}

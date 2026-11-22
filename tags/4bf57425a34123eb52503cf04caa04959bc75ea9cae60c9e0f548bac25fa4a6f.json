@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4bf57425a34123eb52503cf04caa04959bc75ea9cae60c9e0f548bac25fa4a6f",
+ "domain": [
+  "software/code-intelligence",
+  "software/architecture"
+ ],
+ "product": [
+  "pharaoh",
+  "npm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm MCP server that builds a codebase knowledge graph to give coding agents architectural context.",
+ "whenToUse": "Use when a coding agent needs to understand a codebase's structure, dependencies and architecture.",
+ "tasks": [
+  "build codebase knowledge graph",
+  "query architecture",
+  "explore dependencies"
+ ],
+ "effects": {},
+ "flags": []
+}

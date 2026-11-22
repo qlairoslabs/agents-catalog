@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ae5d05dded4f0901697acd9e2df2ce7dac985a12564279a78cd9147ba26e5dd9",
+ "domain": [
+  "finance/trading/brokerage"
+ ],
+ "product": [
+  "webull"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Gives AI assistants access to Webull OpenAPI for market data and placing trades.",
+ "whenToUse": "Use when retrieving market data or managing trades on a Webull account.",
+ "tasks": [
+  "get market data",
+  "place trades",
+  "view account positions",
+  "manage orders"
+ ],
+ "effects": {},
+ "flags": []
+}

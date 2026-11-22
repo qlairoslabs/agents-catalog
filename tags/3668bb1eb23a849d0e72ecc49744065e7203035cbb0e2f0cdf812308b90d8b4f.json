@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3668bb1eb23a849d0e72ecc49744065e7203035cbb0e2f0cdf812308b90d8b4f",
+ "domain": [
+  "media/video-generation",
+  "marketing/content"
+ ],
+ "product": [
+  "mockclip",
+  "whatsapp",
+  "imessage",
+  "chatgpt"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates mock chat conversation videos styled like WhatsApp, iMessage or ChatGPT, exported as MP4, GIF, WebM or MOV.",
+ "whenToUse": "Use when a user wants a simulated chat video for social media, ads or demos.",
+ "tasks": [
+  "create fake chat videos",
+  "export mp4",
+  "export gif",
+  "export transparent webm or mov"
+ ],
+ "effects": {},
+ "flags": [
+  "generates realistic fake chat conversations that could be misused for deception"
+ ]
+}

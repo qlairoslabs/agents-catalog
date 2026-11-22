@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a0ba6111744397e8d4dfcd59a329464f215c15ddb79965d9915d48a1c38950f0",
+ "domain": [
+  "religion/bible",
+  "reference/text"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only Bible access in Thai and English: versions, books, verses, scripture search and a daily verse.",
+ "whenToUse": "Use when you need Thai or English Bible text, verse search or the daily verse.",
+ "tasks": [
+  "list versions",
+  "list books",
+  "get verses",
+  "search scripture",
+  "get daily verse"
+ ],
+ "effects": {
+  "53e1651d688dd069a7dd21c87556e7f64bf7e68e389e2986d8c2539499495139": "read",
+  "c3d2b87c230bd61a6f0ba9c2c59d465d402b966a0b11ac1f9f4c42a845663d61": "read",
+  "3db05078441ee68c26078fe91467ebf1269a0538f64345c0dc96a549d8903216": "read",
+  "a2ebe6d56e01ba5320c6510d5ca3858e3bf75f93619c892d7430e63e4f7f0612": "read",
+  "79ae774aa250ff2300181fdfc86056fb6c20124dcdf662ffb9f1d4aee44b8b77": "read"
+ },
+ "flags": []
+}

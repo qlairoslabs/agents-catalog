@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3c50623dbaad792cc8051ed974ffa0c42a033713672ec00c93210246f6f78110",
+ "domain": [
+  "software/agent-orchestration",
+  "software/terminal"
+ ],
+ "product": [
+  "claude-code",
+  "codex-cli",
+  "grok",
+  "cursor",
+  "antigravity"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Provides persistent terminals and a single launcher for several AI coding agent harnesses.",
+ "whenToUse": "Use when an agent needs to launch other coding agents or keep persistent terminal sessions.",
+ "tasks": [
+  "start persistent terminals",
+  "launch agent harnesses",
+  "send input",
+  "read output"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "ec346da49c22ede1d44fec9b62cb20fca5d48894214e6700cb74656d07f6fd71",
+ "domain": [
+  "software/accessibility",
+  "web/testing"
+ ],
+ "product": [
+  "wcag"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Audits live web pages or pasted HTML for WCAG 2.1/2.2 accessibility violations and returns a score, findings and a shareable report.",
+ "whenToUse": "Use when checking a website or HTML snippet for accessibility problems.",
+ "tasks": [
+  "scan a URL for WCAG violations",
+  "audit pasted HTML",
+  "fetch a stored report",
+  "list supported WCAG criteria"
+ ],
+ "effects": {
+  "1d60aebf248f44204bd7fbb8a2aee8dc501e6a3b5416224e28b4399dd58ea0ab": "write",
+  "2c96f912890c45f1c646f117081e132396e15a69e2bc94a7bd4633f8c182751d": "write",
+  "8bb0dc4fc0aac5a57506fa7d9113a021b6c562c90ba4423fd2cf4fa6c6885b33": "read",
+  "176110613f55a76b7b9f2558bb790c9f8328e85b9bf4877458a2a4d8eec235ee": "read"
+ },
+ "flags": []
+}

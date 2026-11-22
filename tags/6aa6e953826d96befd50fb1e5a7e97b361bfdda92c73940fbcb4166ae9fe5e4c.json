@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "6aa6e953826d96befd50fb1e5a7e97b361bfdda92c73940fbcb4166ae9fe5e4c",
+ "domain": [
+  "construction/building-products",
+  "architecture"
+ ],
+ "product": [
+  "arcat"
+ ],
+ "audience": [
+  "design",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches building products and manufacturers on ARCAT by keyword or CSI MasterFormat section, with links to CAD, BIM and spec files.",
+ "whenToUse": "Use when an architect or specifier needs building products, manufacturers or CAD/BIM/spec documents by CSI category.",
+ "tasks": [
+  "search products",
+  "search manufacturers",
+  "get manufacturer profile",
+  "browse CSI sections",
+  "filter by CAD, BIM or spec"
+ ],
+ "effects": {
+  "623cfbdbe7b4e9483beb4f661f525e5485e624078fd52488223c6656a238b4d2": "read",
+  "1d4c2296d83cf98d1288b34c5f4acafc906f939c7497450bd4fbb434fc938e3b": "read",
+  "2f625c6aac607db833ed45cd235a5648735b416dfc7fdaf122b7f96bd537fe57": "read",
+  "58c7c443cfb1b708c611ebc50acddb9bdb55e4d5ddbe0d0b0029adfb9845030f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5cb373c1cf5b9b7fd57064c33ec117d18be3b558cd9e498234f07f9fc51fe130",
+ "domain": [
+  "research/source-synthesis",
+  "software/web-search"
+ ],
+ "product": [
+  "stringer",
+  "x402"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Returns cited extractive quotations from verified public sources on a topic; three free calls, then paid via x402.",
+ "whenToUse": "Use when an agent needs sourced, quoted evidence on a topic from public web sources.",
+ "tasks": [
+  "synthesize cited quotes on a topic",
+  "discover public sources",
+  "filter sources by domain"
+ ],
+ "effects": {
+  "5db307014cbf7fffea0166898c63a13a57a6cccad0ec821c21dbd1619fa55bf2": "risky"
+ },
+ "flags": []
+}

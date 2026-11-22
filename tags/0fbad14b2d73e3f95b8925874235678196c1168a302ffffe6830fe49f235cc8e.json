@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "0fbad14b2d73e3f95b8925874235678196c1168a302ffffe6830fe49f235cc8e",
+ "domain": [
+  "legal/regulations",
+  "government"
+ ],
+ "product": [
+  "ecfr"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Search and read current US Code of Federal Regulations text with citations linking to ecfr.io.",
+ "whenToUse": "Use when you need to find or quote US federal regulations with proper citations.",
+ "tasks": [
+  "search regulations",
+  "retrieve regulation text",
+  "list CFR titles"
+ ],
+ "effects": {
+  "a3a4f4ef31ed40d677160d5620f70e5a52d8d7e8a4923493eeb8a95c36278e9d": "write",
+  "625c85adb5a704619bbb81fe1278d57beecf1323afe1358140fdfb68b70cc601": "write",
+  "cc1889689045297e317738d15c546b9d04013bdc5c9b70d6fee485612337732f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "1a3199970ca89b561cef4b4144be833ca84ffb81d680dbb024ecb61b8c41c1f7",
+ "domain": [
+  "home-services/plumbing"
+ ],
+ "product": [
+  "johnson-bros-plumbing"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Johnson Bros. Plumbing assistant for quotes, service-area checks, availability, callbacks and SMS-verified booking in Massachusetts.",
+ "whenToUse": "Use when a customer needs a plumbing estimate, emergency guidance, availability, or wants to book or request a callback.",
+ "tasks": [
+  "get quote",
+  "emergency guidance",
+  "check service area",
+  "check availability",
+  "browse services and pricing",
+  "register new customer",
+  "verify returning customer",
+  "request callback",
+  "request booking",
+  "confirm booking by sms code",
+  "search service history"
+ ],
+ "effects": {
+  "884022479578251a8a3478696a7cdafc7774d0148dad519f875ecb441286cb32": "write",
+  "03c79edf9652741b1e9654aa2c00f9c8c244073cd1bf42efa1aa59e73aed68e9": "write",
+  "845accb98040466b54d76f5dc32b2508394b4fa72b8b46d13c80e860f7483c1b": "read",
+  "9e06c60603741ea99b3639b43806edb2492c2d489baa9f2b70f974e23b468f58": "read",
+  "281ccdca0ff58723070ffa6de5f510dca992c3dedea373a142588ea58d4210b9": "write",
+  "d0ba11c63d993526f8251dbdea6bbe396017d6ed13e6f297863e80867558e68d": "write",
+  "7789530769e21fd3de0e1ec5685126aa7fbbf896600a6e4fcdceef6b23af2ca8": "write",
+  "041511698f92b2ad9a0d78f22c76f1f0a8919f973ae5751c831627e0e12a9d78": "read",
+  "b2aa0423c5f89b1539b88d8d49f8364f21bd1a6f84d6164f1796eac7948c410a": "write",
+  "abfd03d84ce2addd3660d332984f515e3e164390876425879132ba3f61b5d79a": "read",
+  "3d34dd80218f37be4e08dbd330308fe4b210a61390b881f341c5bebeba584f98": "read",
+  "16cbd60ed456098301ed6902151b848b8b4bfa8d8fbc896584838da5f9d54abe": "write",
+  "a01dbd54dd138dc140752543d874fa673f81b76308305d59a71c79a4947ab2a0": "write",
+  "17232cb009fb944f6b4e174bd70bb4c2c484d9eed7f0f2719e1989de4642100c": "write",
+  "e675e7b42b6ead5176e4dc1194d4d4fb4ae559d8f37cc466ad746fc0a5e9c70e": "read",
+  "86629410c0d3935c4f3764241355baee103b036442e312e7b26379e456a9924f": "read"
+ },
+ "flags": []
+}

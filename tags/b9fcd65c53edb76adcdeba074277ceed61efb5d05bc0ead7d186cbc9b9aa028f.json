@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "b9fcd65c53edb76adcdeba074277ceed61efb5d05bc0ead7d186cbc9b9aa028f",
+ "domain": [
+  "travel/hotels",
+  "finance/credit-cards"
+ ],
+ "product": [
+  "chase-sapphire-reserve",
+  "chase-travel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "schedule"
+ ],
+ "summary": "Lookup of hotels in Chase Travel's The Edit collection, typical rates, double-credit eligibility, dining-credit restaurants and Sapphire Reserve credits.",
+ "whenToUse": "Use when a Chase Sapphire Reserve holder is choosing Edit hotels or wants to use dining and travel credits.",
+ "tasks": [
+  "search Edit hotels",
+  "get hotel details and monthly rates",
+  "compare city rates by month",
+  "find dining credit restaurants",
+  "explain Sapphire Reserve credits"
+ ],
+ "effects": {
+  "ed178ccfa1a4da45ef3fe248d08ce1595d47ec8146a0989febcec1722700e110": "read",
+  "5365602f81730fc7a18df3c9095f1c45f6ad1cea7308e2fca8ecfb049381a22a": "read",
+  "05e9d1ff5c0643c02971f1bf92a4b2560e38f0371ec6a40cfa173b23847aa46e": "read",
+  "cf1399b5df133999e5a822957c2790170741695cac2c23893cc3eb8b382500a4": "read",
+  "cc5dce71849b202446fc7fcd2a50970e5aa52344d60d8972878cb9c31e1d6150": "read"
+ },
+ "flags": []
+}

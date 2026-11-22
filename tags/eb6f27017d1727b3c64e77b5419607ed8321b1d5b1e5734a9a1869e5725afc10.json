@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "eb6f27017d1727b3c64e77b5419607ed8321b1d5b1e5734a9a1869e5725afc10",
+ "domain": [
+  "personal-finance/relocation",
+  "data/cost-of-living"
+ ],
+ "product": [
+  "cityparity"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares cities on take-home pay, living costs, equivalent salary and safety-net benefits, and ranks cities by a quality-of-life score.",
+ "whenToUse": "Use when someone is weighing a move between cities and wants salary, cost and benefits comparisons.",
+ "tasks": [
+  "compare two cities",
+  "list supported cities",
+  "summarize one city",
+  "rank cities",
+  "look up safety-net values",
+  "look up inbound tax regimes"
+ ],
+ "effects": {
+  "773a8b39eb08370c5f4b1110601f0d752f84755536be78a10285d7655bb8f8f3": "write",
+  "8f3bbeb29eca2129ee6e2847b1abefa42c027cde0e43f29229443fd40301d6bc": "read",
+  "cce33da5b7200f0aaf1ef6903bdb7937a75ea195a4d34ca621e2be60b6254088": "write",
+  "140b1a5febb69c54e90fa1127f6bd4f88b089a8a366bd57cbb3d459a3af35645": "write",
+  "8f82994832671206e9243a12af35c268032df6c738060c703676d3ddc3823964": "write",
+  "8a85cef17f5c241cfc98f85322cbafbacdb28d080b645d133bd81587b87e02ff": "write"
+ },
+ "flags": []
+}

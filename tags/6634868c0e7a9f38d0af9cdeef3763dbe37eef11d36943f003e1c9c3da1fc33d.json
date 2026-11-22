@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "6634868c0e7a9f38d0af9cdeef3763dbe37eef11d36943f003e1c9c3da1fc33d",
+ "domain": [
+  "photography/gallery",
+  "discovery"
+ ],
+ "product": [
+  "framekeep"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Read-only overview of Framekeep, its privacy boundaries, public resources and links to start a gallery.",
+ "whenToUse": "Use when a user asks what Framekeep is or how to start a photo gallery with it.",
+ "tasks": [
+  "get overview",
+  "list public resources",
+  "get start links"
+ ],
+ "effects": {
+  "7bf04a508928a66f6e8c1776b44d7ac76c0240657d782d999e64c5701bc5467a": "read",
+  "2e28696da50820c4dc8926f6ae33397bad6e7b500c430351586d03dce37be8b9": "read",
+  "70e901da048015c385d374693e6ad13f5b03c34cdfa5e8d9f412078b0c8484ad": "read"
+ },
+ "flags": []
+}

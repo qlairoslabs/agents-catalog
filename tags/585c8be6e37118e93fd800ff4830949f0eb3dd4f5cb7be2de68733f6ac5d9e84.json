@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "585c8be6e37118e93fd800ff4830949f0eb3dd4f5cb7be2de68733f6ac5d9e84",
+ "domain": [
+  "software/ai-agents",
+  "linting"
+ ],
+ "product": [
+  "claude-md"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Lints CLAUDE.md-style agent constitution files with 10 heuristic checks for operational guardrails.",
+ "whenToUse": "Use when reviewing a CLAUDE.md or agent constitution file for missing guardrails.",
+ "tasks": [
+  "lint constitution file",
+  "check injection defense",
+  "check secrets handling",
+  "check escalation rules"
+ ],
+ "effects": {
+  "1e76c9cddc26c0c8ac01d97598be273c0d058d70381527a41989aa6651314ce5": "read"
+ },
+ "flags": []
+}

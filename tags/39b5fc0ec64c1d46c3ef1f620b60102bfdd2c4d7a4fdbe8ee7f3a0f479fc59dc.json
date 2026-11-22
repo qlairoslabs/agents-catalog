@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "39b5fc0ec64c1d46c3ef1f620b60102bfdd2c4d7a4fdbe8ee7f3a0f479fc59dc",
+ "domain": [
+  "software/web-research",
+  "marketing/competitive-intelligence"
+ ],
+ "product": [
+  "publicwww"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search engine over the HTML, JavaScript and CSS source code of public web pages.",
+ "whenToUse": "Use when an agent needs to find websites using a given code snippet, script or technology.",
+ "tasks": [
+  "search web page source code",
+  "find sites using a script",
+  "find sites by css or html pattern"
+ ],
+ "effects": {},
+ "flags": []
+}

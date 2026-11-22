@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3c70506f9ac687e6c0da32fc68622c8385bae5ceb1a4155e7c6bdc8a0e1273ef",
+ "domain": [
+  "software/development/prototyping",
+  "software/testing"
+ ],
+ "product": [
+  "parallelsandbox"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm server that queues AI-generated test builds so a user can try each one, annotate problems and move to the next.",
+ "whenToUse": "Use when reviewing several AI-generated builds or prototypes one after another and giving visual feedback on each.",
+ "tasks": [
+  "queue test builds",
+  "open a build for review",
+  "annotate issues on a build",
+  "advance to next build"
+ ],
+ "effects": {},
+ "flags": []
+}

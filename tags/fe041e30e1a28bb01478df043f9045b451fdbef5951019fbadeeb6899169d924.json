@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fe041e30e1a28bb01478df043f9045b451fdbef5951019fbadeeb6899169d924",
+ "domain": [
+  "software/mcp-registry",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "sentinel-signal"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Checks trust, freshness and policy status of public MCP servers and helps discover them.",
+ "whenToUse": "Use when deciding whether a public MCP server is trustworthy or finding servers to use.",
+ "tasks": [
+  "verify mcp server trust",
+  "check server freshness",
+  "evaluate policy",
+  "discover mcp servers"
+ ],
+ "effects": {},
+ "flags": []
+}

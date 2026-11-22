@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6a3998d22b67126719464b2a44670ff8806d4422a57be536b00662a71da91d07",
+ "domain": [
+  "software/web-accessibility",
+  "compliance/wcag"
+ ],
+ "product": [
+  "inclusify"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Accessibility and WCAG data for a user's own websites, with fix lists, live checks and fix validation.",
+ "whenToUse": "Use when a user wants to find and verify fixes for accessibility issues on their website.",
+ "tasks": [
+  "list accessibility fixes",
+  "run live accessibility checks",
+  "validate fixes",
+  "view wcag data"
+ ],
+ "effects": {},
+ "flags": []
+}

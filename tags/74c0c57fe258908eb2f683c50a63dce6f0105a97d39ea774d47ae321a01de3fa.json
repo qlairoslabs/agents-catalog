@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "74c0c57fe258908eb2f683c50a63dce6f0105a97d39ea774d47ae321a01de3fa",
+ "domain": [
+  "software/documentation",
+  "gaming/analytics"
+ ],
+ "product": [
+  "gameanalytics",
+  "unity",
+  "unreal",
+  "ios",
+  "android"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and fetches GameAnalytics documentation covering SDKs for Unity, Unreal, iOS and Android and API guides.",
+ "whenToUse": "Use when integrating GameAnalytics SDKs or APIs into a mobile game and you need documentation.",
+ "tasks": [
+  "search docs",
+  "fetch full doc page"
+ ],
+ "effects": {
+  "05dc530bedf4d415e6ddb1950f9ffb6df3fac8aed0b97d18dbebdf2847047cdd": "read",
+  "a4cbcb7ee35a6a634d5aae4f97160e2b94d0eb53df60b282703bb69bae6c51c5": "read"
+ },
+ "flags": []
+}

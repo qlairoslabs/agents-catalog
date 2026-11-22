@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "185a4720a624f84b4dbe7604fcfd6a91b9a6076f49f9d5a42506483fa512a55b",
+ "domain": [
+  "sports/padel",
+  "ecommerce/product-reviews"
+ ],
+ "product": [
+  "padel-how",
+  "amazon",
+  "padel-market",
+  "paddogs",
+  "tennis-point",
+  "racketshop",
+  "sportlet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to the padel.how catalogue of padel rackets, with search, reviews, side-by-side comparisons, brand listings and retailer offers.",
+ "whenToUse": "Use when a user wants to find, evaluate or compare padel rackets or check published retailer prices for them.",
+ "tasks": [
+  "search rackets by brand, score, level or year",
+  "get a racket review",
+  "compare two to four rackets",
+  "list racket brands",
+  "list retailer offers",
+  "filter offers by retailer"
+ ],
+ "effects": {
+  "df333da3258e336aed36dbb5310f727a28f9f11aec7120954da1a4e2c79926b1": "read",
+  "ab097934ef6dc1b85de142ef3b304c1810b35868b4e3e0018e2d1a8fcea9558b": "read",
+  "e19d10b5f99ed1fa4b5157b421b01f9550d59da6ea7cfcd6fc8851920d21dcf9": "read",
+  "f290fdf7270bebcd00d6f98951525031c031ac9e492dcdac89cd61b170cd50a9": "read",
+  "4bda4fa129a57468107b6bd1318e467bba1e742e31ddc076c82bc20cea3f5bbe": "read"
+ },
+ "flags": []
+}

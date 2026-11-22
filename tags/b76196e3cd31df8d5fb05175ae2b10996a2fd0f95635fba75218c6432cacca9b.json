@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b76196e3cd31df8d5fb05175ae2b10996a2fd0f95635fba75218c6432cacca9b",
+ "domain": [
+  "communication/email/disposable",
+  "software/testing"
+ ],
+ "product": [
+  "temp-mail"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Provides disposable email inboxes so agents can receive messages and verification codes.",
+ "whenToUse": "Use when an agent needs a throwaway email address to receive a message or verification code.",
+ "tasks": [
+  "create disposable inbox",
+  "read messages",
+  "get verification codes"
+ ],
+ "effects": {},
+ "flags": [
+  "could be used to bypass sign-up verification at scale"
+ ]
+}

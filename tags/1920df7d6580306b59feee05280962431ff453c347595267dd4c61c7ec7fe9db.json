@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1920df7d6580306b59feee05280962431ff453c347595267dd4c61c7ec7fe9db",
+ "domain": [
+  "software/code-quality"
+ ],
+ "product": [
+  "codescene"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local npm MCP server providing CodeScene Code Health analysis of source code.",
+ "whenToUse": "Use when an agent needs to assess code health or maintainability with CodeScene.",
+ "tasks": [
+  "analyze code health",
+  "identify code smells",
+  "assess maintainability"
+ ],
+ "effects": {},
+ "flags": []
+}

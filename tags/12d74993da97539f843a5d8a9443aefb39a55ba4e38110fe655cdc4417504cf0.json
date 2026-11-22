@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "12d74993da97539f843a5d8a9443aefb39a55ba4e38110fe655cdc4417504cf0",
+ "domain": [
+  "marketing/lead-attribution",
+  "analytics/web"
+ ],
+ "product": [
+  "lead-recorder"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Answers questions about where website leads came from, covering phone taps, form fills and bookings with sources.",
+ "whenToUse": "Use when a user wants to know the sources of their website leads such as calls, forms or bookings.",
+ "tasks": [
+  "query lead sources",
+  "view phone tap leads",
+  "view form submissions",
+  "view bookings"
+ ],
+ "effects": {},
+ "flags": []
+}

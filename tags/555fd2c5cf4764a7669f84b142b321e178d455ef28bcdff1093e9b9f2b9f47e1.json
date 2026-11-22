@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "555fd2c5cf4764a7669f84b142b321e178d455ef28bcdff1093e9b9f2b9f47e1",
+ "domain": [
+  "travel/flights",
+  "travel/route-data"
+ ],
+ "product": [
+  "wikipedia",
+  "kiwi-com"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Worldwide nonstop flight route data from Wikipedia: airport lookup, destinations, airlines per route, multi-stop connections and meet-up airport ranking.",
+ "whenToUse": "Use when exploring where one can fly nonstop from an airport, which airlines serve a route, or where several travellers should meet.",
+ "tasks": [
+  "find airport",
+  "list nonstop destinations",
+  "airlines on a route",
+  "most connected airports",
+  "find multi-stop connections",
+  "reachable airports within stops",
+  "airline network",
+  "find meetup airports"
+ ],
+ "effects": {
+  "e36a64d120b1153eefbdaa7e864be85ea72107dc4d3c8fbe9d6ee22a8a0514d9": "read",
+  "456429842ad504f6c2be6d3e911966a9af8c03e8487bf3c358da575f0298de45": "read",
+  "11bc3458c62fd931a1c5c238bbe27d8be8b279dfeec4fc6954ffb9617b79bfc4": "read",
+  "46614931ea17a6c365c0d0d12268d8dd04a64c0939affa562baadf1ffe751bcf": "read",
+  "33782cf9d3dcc183995521ead97b69cccdfe522b24601b3500a0bf1fe4b16a1c": "write",
+  "03f5c1095f01df35477a2dce5f44c2ddb6a6955839703e06c7b5becba1a70ef5": "read",
+  "419f729edbace47335ddf70c25efe37f3a83981dfda17b12dbd366fbdd7f80a3": "read",
+  "245a3fb452fb29e79d621c463859c5adb115e7e7961909e928cb34de7c85a9de": "write"
+ },
+ "flags": [
+  "responses-include-affiliate-referral-booking-links"
+ ]
+}

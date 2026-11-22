@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "64e519c981d35d7737536e462875470c671f2dc321d355b22ce726e2a7dba176",
+ "domain": [
+  "real-estate/property-search"
+ ],
+ "product": [
+  "myporta"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches UK homes for sale or rent ranked by the user's wishes, with property details, local schools and area guides.",
+ "whenToUse": "Use when a user is looking for a home to buy or rent in the UK or wants to know what an area is like.",
+ "tasks": [
+  "search homes for sale or rent",
+  "rank homes by wishes",
+  "get home details",
+  "compare homes side by side",
+  "get area guide"
+ ],
+ "effects": {
+  "4c1e30c73c8738a0039a12d4f3f15fb4f5205a89de5c8a1201c681cffd1e999f": "write",
+  "decb4203a6b3eac1a732207187a29069adb61afd0b378bcdbe187d77d1f20c59": "read",
+  "e97b7b8a09139e74f80934d8a4be064c290b7b00450119bbd0a5c13873671a29": "read",
+  "aac6aa3cbd225234ef9561d85945e731811468d800afedffdd3d96865f9cc6c2": "read"
+ },
+ "flags": []
+}

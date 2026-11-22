@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "60ca75b9b3675a9eda0d57eca651c940e8a8faa54acdcd6ff839e04db594228f",
+ "domain": [
+  "culture/art",
+  "media/public-domain-images"
+ ],
+ "product": [
+  "artnap"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches about 497,000 public domain artworks from museum open-access collections, returning images, license and museum records.",
+ "whenToUse": "Use when you need public domain paintings, prints or drawings with license info and high-resolution images.",
+ "tasks": [
+  "search artworks",
+  "filter by artist, color or museum",
+  "get artwork details",
+  "list artists",
+  "list museums",
+  "check license"
+ ],
+ "effects": {
+  "39659c034b7fcf8f6d66d788c23866e7472b4676b94ba8b3aa72290d62ecbfb2": "read",
+  "7f506525db45f194368148000377174de4f6d23dc4907dbc5bb50debd519370a": "read",
+  "05317813aee9f97a1deaf8f7aef549472acf8e213a5cf4d5cbd8c7623332160d": "read",
+  "303b6ad873f7053cdbce6bb1e9b9c72c514a53601ae93f36769effc983851280": "read",
+  "9b6aa3237743e70598a57ab29653984356d3d984f1e0cdf246eff94bd932800e": "read"
+ },
+ "flags": []
+}

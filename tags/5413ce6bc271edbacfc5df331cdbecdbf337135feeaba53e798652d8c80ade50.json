@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5413ce6bc271edbacfc5df331cdbecdbf337135feeaba53e798652d8c80ade50",
+ "domain": [
+  "media/transcription"
+ ],
+ "product": [
+  "voibe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Transcribes recordings into timestamped, speaker-labelled transcripts with a summary.",
+ "whenToUse": "Use when the user needs a transcript or summary of an audio or video recording.",
+ "tasks": [
+  "transcribe audio",
+  "label speakers",
+  "add timestamps",
+  "summarize recording"
+ ],
+ "effects": {},
+ "flags": []
+}

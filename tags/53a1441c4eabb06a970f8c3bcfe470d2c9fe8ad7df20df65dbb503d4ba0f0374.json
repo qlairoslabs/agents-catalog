@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "53a1441c4eabb06a970f8c3bcfe470d2c9fe8ad7df20df65dbb503d4ba0f0374",
+ "domain": [
+  "software/gym-management"
+ ],
+ "product": [
+  "matflow",
+  "gymdesk",
+  "zen-planner",
+  "mindbody",
+  "wodify",
+  "kicksite",
+  "glofox"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Read-only MatFlow product information: pricing, features, FAQs and competitor comparisons for combat-sports gym software.",
+ "whenToUse": "Use when comparing gym management software or asking about MatFlow pricing and features.",
+ "tasks": [
+  "get pricing",
+  "list competitors",
+  "compare competitor",
+  "list features",
+  "get FAQs"
+ ],
+ "effects": {
+  "6f9b14a409335bc926b07af0df1ebc9f713ad19553949b197da2fb32fa7ba9a5": "read",
+  "a625e9f89868932749767a3a5f4885a11402e4e58bf04bed7c048b71c05fa0a7": "read",
+  "e80906151f4180866e50270f7ad8db8d9fca3aad7ecb6ec47afdbdfd581d8e1d": "read",
+  "c07156c53d72fd3b0ac0032c2aff93b97d1171d8b4951f43511518724bd0d32c": "read",
+  "279aab664ce9bb0d3405607d3d97a8b227de584ce4a1de7454832de9ba0c6801": "read"
+ },
+ "flags": []
+}

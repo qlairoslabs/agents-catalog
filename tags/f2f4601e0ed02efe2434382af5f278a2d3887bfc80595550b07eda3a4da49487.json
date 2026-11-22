@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f2f4601e0ed02efe2434382af5f278a2d3887bfc80595550b07eda3a4da49487",
+ "domain": [
+  "finance/sovereign-risk",
+  "data/macro"
+ ],
+ "product": [
+  "quantamentry"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides daily sovereign credibility scores for emerging-market countries and a weekly briefing on score moves.",
+ "whenToUse": "Use when assessing emerging-market country credit credibility or reading the weekly macro briefing.",
+ "tasks": [
+  "list scored countries",
+  "get country score",
+  "read weekly briefing"
+ ],
+ "effects": {
+  "1a9b6986ff83a3ed2db7cfdbb866df31e2828d1c2c79149e8c03547fa3964c06": "read",
+  "21dca3bf9e3013a7ab111c4233d026601af78ddd8347c36fa9870813f9680f49": "read",
+  "c299ea1bcbe308f851044378e19fee5983eef99a3f0836ec2e9a0085dcb6a6ee": "read"
+ },
+ "flags": []
+}

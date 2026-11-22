@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3f80e19e05d52fe75da7169637b6a9cbc1a31e10a1a2870e68fd5dca68041fd2",
+ "domain": [
+  "finance/bookkeeping",
+  "finance/accounting"
+ ],
+ "product": [
+  "helloledger"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Bookkeeping connector for owner-operated businesses to query transactions, invoices and financial reports.",
+ "whenToUse": "Use when a small business owner wants to look up transactions, invoices or financial reports.",
+ "tasks": [
+  "query transactions",
+  "view invoices",
+  "run financial reports"
+ ],
+ "effects": {},
+ "flags": []
+}

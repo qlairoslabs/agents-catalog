@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "76c553bec63509528dd622215aacd2f9650d329de25f919e4b5c2a81d94c3db4",
+ "domain": [
+  "games/video-games/save-data"
+ ],
+ "product": [
+  "savecraft"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives AI assistants a player's actual save game data along with game knowledge for advice.",
+ "whenToUse": "Use when a user wants game advice grounded in their own save file progress.",
+ "tasks": [
+  "read save game data",
+  "provide game knowledge"
+ ],
+ "effects": {},
+ "flags": []
+}

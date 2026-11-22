@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fb3b04580c83ab9d566eb3981b1742e49bab1aeb37725e9f0f2d70cf95ad174b",
+ "domain": [
+  "media/video/transcription"
+ ],
+ "product": [
+  "transcriptmax",
+  "youtube",
+  "whisper"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Transcribes YouTube videos with Whisper and offers summaries, chapters and semantic search over saved transcripts.",
+ "whenToUse": "Use when the user wants to transcribe, summarise or search across YouTube video content.",
+ "tasks": [
+  "transcribe youtube video",
+  "summarise transcript",
+  "generate chapters",
+  "search transcripts semantically"
+ ],
+ "effects": {},
+ "flags": []
+}

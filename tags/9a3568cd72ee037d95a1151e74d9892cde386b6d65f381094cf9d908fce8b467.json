@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9a3568cd72ee037d95a1151e74d9892cde386b6d65f381094cf9d908fce8b467",
+ "domain": [
+  "marketing/link-management",
+  "analytics/click-tracking"
+ ],
+ "product": [
+  "zebra"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Creates, schedules and organizes Zebra short links and queries their click analytics.",
+ "whenToUse": "Use when creating or managing short links and checking click statistics in Zebra.",
+ "tasks": [
+  "create short links",
+  "schedule links",
+  "organize links",
+  "query click analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

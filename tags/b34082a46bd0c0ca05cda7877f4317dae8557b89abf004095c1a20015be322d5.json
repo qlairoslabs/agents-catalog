@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b34082a46bd0c0ca05cda7877f4317dae8557b89abf004095c1a20015be322d5",
+ "domain": [
+  "search/web-search",
+  "research"
+ ],
+ "product": [
+  "ryxell"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search tool for agents that returns relevant excerpts from web pages, news, papers and podcasts.",
+ "whenToUse": "Use when an agent needs targeted excerpts from web, news, academic or podcast sources instead of full pages.",
+ "tasks": [
+  "search the web",
+  "search news",
+  "search papers",
+  "search podcasts",
+  "return relevant excerpts"
+ ],
+ "effects": {},
+ "flags": []
+}

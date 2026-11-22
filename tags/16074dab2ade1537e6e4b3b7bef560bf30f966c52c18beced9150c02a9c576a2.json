@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "16074dab2ade1537e6e4b3b7bef560bf30f966c52c18beced9150c02a9c576a2",
+ "domain": [
+  "ai/agents/context-optimization",
+  "software/development"
+ ],
+ "product": [
+  "claude-code",
+  "cursor",
+  "codex",
+  "gemini-cli"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Local tool that reduces token use of coding agents such as Claude Code, Cursor, Codex and Gemini CLI, without an API key.",
+ "whenToUse": "Use when an agent's context or token usage is high and needs to be analyzed and trimmed.",
+ "tasks": [
+  "analyze token usage",
+  "reduce context size",
+  "optimize agent configuration"
+ ],
+ "effects": {},
+ "flags": []
+}

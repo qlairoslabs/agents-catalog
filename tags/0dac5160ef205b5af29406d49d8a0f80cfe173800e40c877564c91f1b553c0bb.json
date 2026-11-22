@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0dac5160ef205b5af29406d49d8a0f80cfe173800e40c877564c91f1b553c0bb",
+ "domain": [
+  "software/cybersecurity/reverse-engineering",
+  "software/javascript"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Large toolset for reverse engineering JavaScript, with search-based discovery across hundreds of tools.",
+ "whenToUse": "Use when an agent needs to analyze, deobfuscate or hook JavaScript code during authorized research.",
+ "tasks": [
+  "search tools",
+  "deobfuscate javascript",
+  "hook javascript functions",
+  "analyze scripts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "06035b89df7aa4d831707fa9e0a0a61025073aecd306742d8fab69f1ff70b07a",
+ "domain": [
+  "software/file-storage",
+  "software/access-control"
+ ],
+ "product": [
+  "filelayer"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Manages a SaaS user's files under that user's authority: listing, sharing with expiry and revoking access.",
+ "whenToUse": "Use when listing a user's files or creating or revoking time-limited share links.",
+ "tasks": [
+  "list files",
+  "share file with expiry",
+  "revoke share"
+ ],
+ "effects": {},
+ "flags": []
+}

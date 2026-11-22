@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c3ecdd7e232d52d07df61a2c1731b2c0d7420844f75f914ae579bd2bb5eaee74",
+ "domain": [
+  "finance/equity-research",
+  "finance/valuation"
+ ],
+ "product": [
+  "bigdata-com"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares a public company to a reasoned peer set on valuation multiples, growth, profitability and leverage to judge relative value, using Bigdata.com.",
+ "whenToUse": "Use when a user wants a comps table or to know if a company is cheap or expensive versus its peers.",
+ "tasks": [
+  "build peer set with rationale",
+  "tabulate valuation multiples",
+  "compare growth and profitability",
+  "compute peer median and quartiles",
+  "decompose premium or discount",
+  "give relative verdict"
+ ],
+ "effects": {},
+ "flags": []
+}

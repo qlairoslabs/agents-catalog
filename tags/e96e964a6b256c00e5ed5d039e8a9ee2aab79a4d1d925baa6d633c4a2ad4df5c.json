@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "e96e964a6b256c00e5ed5d039e8a9ee2aab79a4d1d925baa6d633c4a2ad4df5c",
+ "domain": [
+  "hosting/price-comparison",
+  "e-commerce"
+ ],
+ "product": [
+  "accsly",
+  "telegram",
+  "tiktok",
+  "gmail",
+  "steam",
+  "chatgpt"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "run-the-money"
+ ],
+ "summary": "Compares VPS, hosting and dedicated server plans across 2,000+ hosts, and lists offers for ready-made accounts on many platforms.",
+ "whenToUse": "Use when a user wants the cheapest or best-rated VPS or hosting plan, or compares shop offers for ready-made accounts.",
+ "tasks": [
+  "search VPS plans",
+  "get host details",
+  "compare two hosts",
+  "find host promotions",
+  "rank hosts",
+  "search accounts catalog",
+  "list account offers"
+ ],
+ "effects": {
+  "cd70fbbfc1d12ace4cff6faeb638445e2cf6fcdc50824c2c1a9c2550ad87fa56": "write",
+  "f58272d4a4fe7bc2c569674b3bc6dfa19679edfd6e7cb2984e0272f55a7c6e69": "read",
+  "d4fab7f6516f5e4e6a856401d62aedec0f4ed9ca55249922762fcfa471a4efd1": "read",
+  "775ed7f06cd8a790837ca23e467ef6a03ddeae8d05d32a28a653dd5ee84a4bd8": "read",
+  "b74d99e44b6eee705f243026e6809b1a6ea897d0da1d26ca65a020ed968fdc47": "read",
+  "56f1039bc80978b920068e3aefee7a5030213109e4cc8bc8997f4df9d7f2b8fd": "read",
+  "1dd0d11c3c911bfdc38fd5b95d5fd9c27bb70a1b01bee7bb12baceb0ca4dd532": "read"
+ },
+ "flags": [
+  "catalogue of bought/sold ready-made social and service accounts, which may violate platform terms"
+ ]
+}

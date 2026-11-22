@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fbd855c8bf610524e80b21b4a5f6d36e58fe8d2c1980d8e7745150ce522cb5c7",
+ "domain": [
+  "operations/workforce-scheduling"
+ ],
+ "product": [
+  "shiftyasan"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "hire-and-manage"
+ ],
+ "summary": "Generates optimized work shift schedules from staffing demand, availability and fairness rules.",
+ "whenToUse": "Use when an agent needs to build a staff shift schedule that meets demand and fairness constraints.",
+ "tasks": [
+  "generate shift schedules",
+  "apply availability",
+  "apply fairness rules",
+  "match staffing demand"
+ ],
+ "effects": {},
+ "flags": []
+}

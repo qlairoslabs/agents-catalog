@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "c492d055bee284b0e925723850d5aca791fd6c5d4aced6678334ceb6f1b1d06e",
+ "domain": [
+  "real-estate",
+  "property-listings"
+ ],
+ "product": [
+  "bezbaseina"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Browse Latvian property listings for rent, sale and nightly stays and get city market statistics.",
+ "whenToUse": "Use when a user is searching for property in Latvia or wants local market medians.",
+ "tasks": [
+  "list public listings",
+  "get listing",
+  "city market summary"
+ ],
+ "effects": {
+  "01bc26ffebec273ace90f2e1ec230245464c71a1f8a872d9407ee030540257f6": "read",
+  "b5ac558a05d7ecabec36463fbeafc4d9ec2092fbebda5502958256f15942c839": "read",
+  "a9f2be21fc7a1e8725bbc8d92d151ca58a50627c1d222ed677978dba30652f93": "read"
+ },
+ "flags": []
+}

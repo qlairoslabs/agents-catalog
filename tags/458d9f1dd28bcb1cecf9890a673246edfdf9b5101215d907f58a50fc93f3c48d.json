@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "458d9f1dd28bcb1cecf9890a673246edfdf9b5101215d907f58a50fc93f3c48d",
+ "domain": [
+  "hr/time-tracking"
+ ],
+ "product": [
+  "klokin"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "run-the-money"
+ ],
+ "summary": "Exposes Klokin time-tracking data such as employees, time entries and stores to AI clients.",
+ "whenToUse": "Use when an agent needs to look up or manage employee time entries and store data in Klokin.",
+ "tasks": [
+  "manage employees",
+  "manage time entries",
+  "manage stores"
+ ],
+ "effects": {},
+ "flags": []
+}

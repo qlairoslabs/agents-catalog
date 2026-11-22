@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2a96855c4ced949ce110b6016efe842d86df0779b05c202598b38b4c74021dc3",
+ "domain": [
+  "analytics/reporting"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Refreshes recurring reports such as daily briefings and weekly business reviews from saved Amplitude dashboards and summarizes changes.",
+ "whenToUse": "Use when asked to run a daily or weekly report, refresh dashboard numbers, or run a scheduled report.",
+ "tasks": [
+  "fetch saved dashboards",
+  "re-pull chart data",
+  "run ad hoc queries",
+  "summarize metric deltas",
+  "produce recurring briefings"
+ ],
+ "effects": {},
+ "flags": []
+}

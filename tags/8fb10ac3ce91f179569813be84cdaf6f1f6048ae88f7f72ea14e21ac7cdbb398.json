@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "8fb10ac3ce91f179569813be84cdaf6f1f6048ae88f7f72ea14e21ac7cdbb398",
+ "domain": [
+  "communication/email/validation"
+ ],
+ "product": [
+  "dilli-email-validation"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Validates email addresses using the Dilli Email Validation API.",
+ "whenToUse": "Use when checking whether an email address is valid before sending or storing it.",
+ "tasks": [
+  "validate email address"
+ ],
+ "effects": {},
+ "flags": []
+}

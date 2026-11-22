@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6ca9025042026c2208007a1d833c094b0d1a23dd5216e3ea2865abb3c12e9e25",
+ "domain": [
+  "productivity/meeting-notes",
+  "productivity/note-taking"
+ ],
+ "product": [
+  "parrotnotes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Lets an agent search, summarize and save insights from ParrotNotes recordings of in-person meetings.",
+ "whenToUse": "Use when the user needs to find or summarize what was said in in-person meetings captured with ParrotNotes.",
+ "tasks": [
+  "search meeting notes",
+  "summarize meetings",
+  "save insights"
+ ],
+ "effects": {},
+ "flags": []
+}

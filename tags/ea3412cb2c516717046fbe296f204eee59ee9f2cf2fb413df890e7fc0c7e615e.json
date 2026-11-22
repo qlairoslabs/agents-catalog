@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ea3412cb2c516717046fbe296f204eee59ee9f2cf2fb413df890e7fc0c7e615e",
+ "domain": [
+  "data/blockchain/depin",
+  "data/telemetry"
+ ],
+ "product": [
+  "kairos-signal"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Serves DePIN network telemetry with source, timestamp and verification URL attached to each value.",
+ "whenToUse": "Use when needing verifiable metrics about decentralized physical infrastructure networks.",
+ "tasks": [
+  "query depin telemetry",
+  "get data provenance",
+  "verify upstream values"
+ ],
+ "effects": {},
+ "flags": []
+}

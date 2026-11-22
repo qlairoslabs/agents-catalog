@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a723dbefa6e172758652bef2a5794e5464fedc3a1ba695861cf0ac78a2eea5d8",
+ "domain": [
+  "software/backend-platform",
+  "data/databases"
+ ],
+ "product": [
+  "rebase"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Tools for managing schema, database, documents, users and the dev server of a Rebase backend project.",
+ "whenToUse": "Use when an agent is building or managing a Rebase backend project.",
+ "tasks": [
+  "manage schema",
+  "query database",
+  "manage documents",
+  "manage users",
+  "control dev server"
+ ],
+ "effects": {},
+ "flags": []
+}

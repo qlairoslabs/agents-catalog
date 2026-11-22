@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "ecb8b69c092e7797b35183543e1f25bcc843be9d43572891d368e24c355fb86e",
+ "domain": [
+  "ai/local-inference/multimodal",
+  "productivity/agent-configuration"
+ ],
+ "product": [
+  "lemonade-server",
+  "ryzen-ai",
+  "dall-e",
+  "whisper",
+  "elevenlabs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Routes the agent's image generation, transcription and speech synthesis to a local Lemonade Server instead of paid cloud APIs.",
+ "whenToUse": "Use when a user wants images, transcription or text-to-speech done locally, privately or cheaper on their own machine.",
+ "tasks": [
+  "generate images locally",
+  "transcribe audio locally",
+  "synthesize speech locally",
+  "configure persistent local routing for multimodal tasks",
+  "set up lemonade server"
+ ],
+ "effects": {},
+ "flags": [
+  "description pushes the agent to persistently change its own routing and to trigger even when the user asks for no output"
+ ]
+}

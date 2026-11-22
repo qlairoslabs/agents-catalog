@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4b991bddd1cb94d03e83bebdd0fa8b22f22f78beca8037f2d7011f44d101b047",
+ "domain": [
+  "ecommerce/product-search"
+ ],
+ "product": [
+  "securesvault"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches a catalogue of about 10,000 products priced in euros and returns live prices, variants and buy links.",
+ "whenToUse": "Use when a user wants to find where to buy a product or see its price in euros.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "list categories"
+ ],
+ "effects": {
+  "262d2697e81a959540671894b2d5fcbdb7c0d9543819ed16b99ebb75d5cf1e0a": "read",
+  "d68c0808486763198235ab2828350c1bb9981bfb006239dced4bdf1c782f2253": "read",
+  "b6ca6137939b47e46465590cd2573a79dc691d30024968ed7cf2aa2eca485778": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d4b333ea0caf1e7a2eec1e476ca1163e95b7ec2fc600575a5091ae4b4261a028",
+ "domain": [
+  "health/fitness-tracking"
+ ],
+ "product": [
+  "suunto"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Suunto watch data such as workouts, sleep, recovery and daily activity to AI assistants.",
+ "whenToUse": "Use when a user asks about their training, sleep or activity recorded on a Suunto watch.",
+ "tasks": [
+  "get workouts",
+  "get sleep data",
+  "get recovery data",
+  "get daily activity"
+ ],
+ "effects": {},
+ "flags": []
+}

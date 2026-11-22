@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "197a8788e20d48836695d928e2a502f299b18c8f39971c0ef58828b9484132c0",
+ "domain": [
+  "home-services/electrical",
+  "trades/uk"
+ ],
+ "product": [
+  "energy-north"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "stay-compliant",
+  "support-customers"
+ ],
+ "summary": "Plain-English guides on electrical safety, EICRs and EV chargers in the UK, plus a way to find tradespeople and prepare a job post.",
+ "whenToUse": "Use when a UK homeowner or landlord needs electrical safety guidance or wants to find a local tradesperson.",
+ "tasks": [
+  "search guides",
+  "read a guide",
+  "list latest guides",
+  "find local tradespeople",
+  "prepare a job post link",
+  "list trades",
+  "get booking info"
+ ],
+ "effects": {
+  "0f465cb5d556e7f86f83a08755bcdc29db73c8538c78f11df053ac5fce187931": "read",
+  "000bf54c1ea03b6cad4625b9b0e099fa4286c0efadda54b5d948f26dd88fa9b8": "read",
+  "d0debb585034ed4842cd655a142e72989ce9ac770aa4462a192c9ac095b0f10c": "read",
+  "5c890c13ed632000e02bc8b83ef2b50e302b1b8eadd54938b2291fdf1fb00a2e": "read",
+  "0de73e169d78f6c633c6ad3d4771ca07e58523996d93ad005aaaca44cc76fc19": "read",
+  "9771311beb9932c618bb1e8ae7d2587db699fc55af0a37a34f5aad29c784fe3f": "read",
+  "b5f18aa64f9020338de03f9e9fe417d437e4b3d8c56531176523590b56006c68": "read"
+ },
+ "flags": []
+}

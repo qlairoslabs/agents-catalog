@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a853875830a64353c0af4bb6f1ea1f8ac18f1c6f6af1a87f9f113c1fddae0402",
+ "domain": [
+  "productivity/knowledge-management",
+  "productivity/calendar"
+ ],
+ "product": [
+  "rocsite"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Searches a private RocSite document corpus with sourced answers and edits the RocSite Agenda.",
+ "whenToUse": "Use when a RocSite user needs answers grounded in their own documents or wants to update their Agenda.",
+ "tasks": [
+  "search private corpus",
+  "answer questions with sources",
+  "edit agenda items"
+ ],
+ "effects": {},
+ "flags": []
+}

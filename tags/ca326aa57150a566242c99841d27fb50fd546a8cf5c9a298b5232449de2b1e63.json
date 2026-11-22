@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "ca326aa57150a566242c99841d27fb50fd546a8cf5c9a298b5232449de2b1e63",
+ "domain": [
+  "finance/accounts-receivable",
+  "finance/billing"
+ ],
+ "product": [
+  "revexos",
+  "stripe"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Quote-to-cash helpers: parse invoices and POs, match them, draft collection emails and calculate proration, revenue recognition, late interest and due dates.",
+ "whenToUse": "Use when handling invoices or purchase orders, chasing overdue payments, or doing billing calculations.",
+ "tasks": [
+  "parse invoices",
+  "parse purchase orders",
+  "match PO to invoice",
+  "draft collection emails",
+  "calculate proration",
+  "build revenue recognition schedule",
+  "calculate late payment interest",
+  "calculate due dates"
+ ],
+ "effects": {
+  "6417c4b50f3697e0932ddd075513bd78e4bff909f5b3f12c57c2690dcb890cb5": "write",
+  "c9e6ea170f6c31cd43e4e95ddb2505562a288d1a359a7fe263c073a027ee6407": "write",
+  "2d7492866b98e53ab4d425a3303a841e4444423320177e3e5513023cebd677de": "write",
+  "33cd7ca26046322cdd665f6cb2732d161031700d5a9342d6ac600e7adfd3f70c": "write",
+  "31e88a4bc72e740effa7cc294ee7e4e9ca5e1ca4dc0a298c6689e021104e9775": "read",
+  "8991cbf754e621cb305b7fd34c920c57e38c57a0825010e187c996426680a5f1": "write",
+  "31e38bc73ac18fb0c982c198ec09e8616501f9ea75521b664e80a895928cbf47": "read",
+  "e6649c16f8950bd5b06b15a82c0a3c9918c1e73bafa33418f02a4d5463c71727": "read"
+ },
+ "flags": [
+  "requires the user's email, which is used for marketing updates"
+ ]
+}

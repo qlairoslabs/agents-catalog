@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "2777161813d67ff6e371cbbd506715bee073651cbabd83c78efcbad556c72e4b",
+ "domain": [
+  "finance/securities-filings",
+  "finance/market-data"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Searches recent SEC filings (8-K, 13D/13G, ATM offerings) with classification of body text, activist tagging and ATM detection.",
+ "whenToUse": "Use when you need recent SEC filings, activist stake disclosures, or at-the-market equity offerings, or a specific filing by accession number.",
+ "tasks": [
+  "search 8-K filings",
+  "find suspected misclassified 8-Ks",
+  "search 13D/13G filings",
+  "filter by activist investor",
+  "search ATM offerings",
+  "get filing by accession number"
+ ],
+ "effects": {
+  "6ce9e8f8166363df943b5856ed4a3fdc06773687539b9bd585512dd5a5712c12": "write",
+  "ff2b1bda6f0a9dba0558ddc89916b52d561a47fd8c79eb7b8860de1b0b587ce4": "write",
+  "c8c5198f803902f97f25d4c219cfad3e710ca4f32b2a054890e9c1a244ebbf6f": "write",
+  "48cb63878f40011eabd2664b9adc376a0b304fd38b03f86259934f54716907bd": "read"
+ },
+ "flags": []
+}

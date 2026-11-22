@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "fc06f93c63c1af065692a454699ac0af70b299a5bcfb62547071dd125bfe36b0",
+ "domain": [
+  "software/observability",
+  "software/monitoring"
+ ],
+ "product": [
+  "datadog"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Preview plugin that connects Claude Code to a Datadog MCP server for querying logs, metrics, traces and dashboards.",
+ "whenToUse": "Use when investigating application or infrastructure behaviour using Datadog data.",
+ "tasks": [
+  "query logs",
+  "query metrics",
+  "inspect traces",
+  "view dashboards"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "103433cd87f6e799fea563e00e0e8251e009327bb0ec51047371e8da25da62a8",
+ "domain": [
+  "documents/ocr",
+  "language/translation"
+ ],
+ "product": [
+  "scribetools",
+  "microsoft-word"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs OCR, table and data extraction, Word conversion and translation on Arabic-script documents.",
+ "whenToUse": "Use when an agent must extract text or data from or translate scanned Arabic-script documents.",
+ "tasks": [
+  "ocr arabic-script documents",
+  "convert to editable word",
+  "extract tables",
+  "extract data",
+  "translate documents"
+ ],
+ "effects": {},
+ "flags": []
+}

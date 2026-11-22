@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "364fd0cd8d9d8c35922ec8d008930808b4042b6058916b2ecf82e9fd272bfdef",
+ "domain": [
+  "software/code-intelligence",
+  "software/code-quality"
+ ],
+ "product": [
+  "repowise",
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Codebase intelligence for coding agents covering code graph, git history, docs, design decisions and code health.",
+ "whenToUse": "Use when a coding agent needs deep context about a codebase's structure, history or health.",
+ "tasks": [
+  "explore code graph",
+  "review git history",
+  "read docs",
+  "look up design decisions",
+  "check code health"
+ ],
+ "effects": {},
+ "flags": []
+}

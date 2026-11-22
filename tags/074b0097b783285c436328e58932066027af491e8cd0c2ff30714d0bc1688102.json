@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "074b0097b783285c436328e58932066027af491e8cd0c2ff30714d0bc1688102",
+ "domain": [
+  "creative/3d-modeling",
+  "manufacturing/3d-printing"
+ ],
+ "product": [
+  "ai3d-studio"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates 3D models from images or text, with retexturing and export to STL, 3MF or OBJ.",
+ "whenToUse": "Use when a user wants to create a 3D model from a prompt or image or convert it for 3D printing.",
+ "tasks": [
+  "generate 3d model from text",
+  "generate 3d model from image",
+  "retexture models",
+  "convert to stl",
+  "convert to 3mf",
+  "convert to obj"
+ ],
+ "effects": {},
+ "flags": []
+}

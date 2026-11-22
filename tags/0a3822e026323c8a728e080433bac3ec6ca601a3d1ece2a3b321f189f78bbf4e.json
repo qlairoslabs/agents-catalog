@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0a3822e026323c8a728e080433bac3ec6ca601a3d1ece2a3b321f189f78bbf4e",
+ "domain": [
+  "data/file-formats",
+  "data/conversion"
+ ],
+ "product": [
+  "iterabledata"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Streams, converts and inspects data files in over 100 formats.",
+ "whenToUse": "Use when reading, converting or inspecting data files in varied formats.",
+ "tasks": [
+  "read data files",
+  "convert formats",
+  "inspect schemas"
+ ],
+ "effects": {},
+ "flags": []
+}

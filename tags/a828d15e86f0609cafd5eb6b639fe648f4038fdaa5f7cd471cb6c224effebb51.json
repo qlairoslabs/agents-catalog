@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a828d15e86f0609cafd5eb6b639fe648f4038fdaa5f7cd471cb6c224effebb51",
+ "domain": [
+  "commerce/agentic-shopping",
+  "finance/payments"
+ ],
+ "product": [
+  "stripe",
+  "x402",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Hosted multi-seller shopping for agents, with payment through Stripe or USDC on Base.",
+ "whenToUse": "Use when an agent needs to find and buy products from multiple sellers and pay on the user's behalf.",
+ "tasks": [
+  "shop across sellers",
+  "pay with stripe",
+  "pay with usdc"
+ ],
+ "effects": {},
+ "flags": []
+}

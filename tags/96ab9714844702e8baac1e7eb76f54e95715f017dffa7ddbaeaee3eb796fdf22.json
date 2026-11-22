@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "96ab9714844702e8baac1e7eb76f54e95715f017dffa7ddbaeaee3eb796fdf22",
+ "domain": [
+  "ai/agent-directory"
+ ],
+ "product": [
+  "wellknown",
+  "mcp",
+  "a2a"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Index of AI agents and MCP servers with observed liveness, capability search, and ownership claim and submission flows.",
+ "whenToUse": "Use when looking for a live agent or MCP server for a task, or to submit and claim an agent record.",
+ "tasks": [
+  "search agents",
+  "resolve agent for task",
+  "get agent record",
+  "check status",
+  "list capabilities",
+  "submit agent",
+  "claim agent",
+  "verify claim",
+  "get index stats"
+ ],
+ "effects": {
+  "0a1942bbaf441da05b5be4c6eea2a46a693917f840d60f8e3911d8d6053b1b98": "read",
+  "1befd4175c941b24ad23daef5740acba4369cf309911f15e239c53798a5cd592": "read",
+  "1ee8e80abbcd8f7dcdfa6cfdafcc782593800fae4ae309be12d24f5ceb2ee44a": "read",
+  "99dcac85788e2d906aef5dd37b73aa904ae2fd1c0c6bd72dc6235b81637c7d31": "read",
+  "78c63c8db5e75ed367c8c5ec0352f2b1dd789c3266e9b06882363ed678598af8": "read",
+  "34de92e561cfa8010f521abe0a3cc6d95634add140d153fbb69835f9d2400ef2": "write",
+  "67b8523c0ea8611517ef94329c6a0ddd2011b808a3dcf6bf6c55b0a5f85026af": "write",
+  "2e6c53d4ea3957450562b97ad7c98647ba436724128a98421feb6f3876694e97": "write",
+  "665e825af43c07f88c9277acf3156940ec2c31046645483bdb6c3c7e02688350": "read"
+ },
+ "flags": []
+}

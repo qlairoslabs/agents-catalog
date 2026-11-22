@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "ea7325205e2a8e9a2bf7df90a5632fb3a6551d197e7b500b9de7def9a9e3d3ac",
+ "domain": [
+  "business/events-data",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "conferencedatabase"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a database of conferences and trade shows to find events, their sponsors and exhibitors, sponsorship packages, and which events a company attends.",
+ "whenToUse": "Use when researching which companies sponsor or exhibit at conferences, finding events by topic or place, or finding sponsor prospects for an event.",
+ "tasks": [
+  "search conferences by topic, place, date",
+  "get conference details",
+  "list sponsors and exhibitors",
+  "see sponsorship package prices",
+  "find a company's conferences",
+  "find sponsor prospects for an event"
+ ],
+ "effects": {
+  "ed0078f1fc2a905a8ff662ada55833331a63f77e1af52194be01937861fa7806": "read",
+  "530947e5cf8b01228fa6e9473a474ab4018fef32908054d7d37ade7fc00dab06": "read",
+  "c65f649eb48c7775e9a376f6216c289812e3f5332c5bec0cf355810366a2e503": "read",
+  "bff12cf1446df8405485f001c696a326438af7f537bdce8784238a4bb70c27d2": "read",
+  "40502f84745d80afc56cedd0fd16fc047035fbcc6f8733e92a6474ad849934b3": "read"
+ },
+ "flags": []
+}

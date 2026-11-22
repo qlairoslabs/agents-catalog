@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "f9387b63d35d2a75ef6466810d7c3b9dbadcb2719c223ccebf9209edcab5f4df",
+ "domain": [
+  "data/web-scraping",
+  "web/browser-automation"
+ ],
+ "product": [
+  "scrapingant"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Fetches web pages through cloud-hosted real browsers with JavaScript rendering.",
+ "whenToUse": "Use when an agent needs page content that requires JavaScript rendering.",
+ "tasks": [
+  "fetch web pages",
+  "render javascript"
+ ],
+ "effects": {},
+ "flags": []
+}

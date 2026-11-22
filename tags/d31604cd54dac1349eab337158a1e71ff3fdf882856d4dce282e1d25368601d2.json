@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d31604cd54dac1349eab337158a1e71ff3fdf882856d4dce282e1d25368601d2",
+ "domain": [
+  "software/databases",
+  "software/hosting"
+ ],
+ "product": [
+  "prisma",
+  "prisma-postgres",
+  "prisma-compute",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Manages Prisma Postgres databases and existing Prisma Compute apps after sign-in, without uploading code.",
+ "whenToUse": "Use when provisioning or managing Prisma Postgres databases or Prisma Compute apps.",
+ "tasks": [
+  "manage postgres databases",
+  "manage compute apps"
+ ],
+ "effects": {},
+ "flags": []
+}

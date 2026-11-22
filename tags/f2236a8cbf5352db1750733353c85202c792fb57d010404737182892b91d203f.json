@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f2236a8cbf5352db1750733353c85202c792fb57d010404737182892b91d203f",
+ "domain": [
+  "software/networking/ip-intelligence"
+ ],
+ "product": [
+  "internetdata"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up IP addresses, autonomous systems and domains, and lists available InternetData databases and licenses.",
+ "whenToUse": "Use when needing ownership, network or location details about an IP, AS number or domain.",
+ "tasks": [
+  "look up ip address",
+  "look up autonomous system",
+  "look up domain",
+  "list databases",
+  "check license"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "011b4af660b3ab95f3fd6f639812d3272b15ef1bda1c067b7e1812ba16a5c585",
+ "domain": [
+  "data/verification",
+  "security/fraud-prevention"
+ ],
+ "product": [
+  "1lookup"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "stay-compliant"
+ ],
+ "summary": "Verifies phone numbers, email addresses and IP addresses and reports remaining plan credits.",
+ "whenToUse": "Use when validating contact details or IPs before outreach or signup.",
+ "tasks": [
+  "verify phone numbers",
+  "verify emails",
+  "check ip addresses",
+  "check remaining credits"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "bd42f3b0052c0f64a917c04748efa6881a86235757113ff3d7d277354840ecdb",
+ "domain": [
+  "data/weather",
+  "science/meteorology"
+ ],
+ "product": [
+  "gribstream",
+  "noaa",
+  "ecmwf"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries NOAA and ECMWF weather forecast data through GribStream, with dataset discovery and validation.",
+ "whenToUse": "Use when an agent needs weather forecast data from NOAA or ECMWF models.",
+ "tasks": [
+  "discover forecast datasets",
+  "validate queries",
+  "query weather forecasts"
+ ],
+ "effects": {},
+ "flags": []
+}

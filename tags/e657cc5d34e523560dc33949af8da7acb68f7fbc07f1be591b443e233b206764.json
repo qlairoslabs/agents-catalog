@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e657cc5d34e523560dc33949af8da7acb68f7fbc07f1be591b443e233b206764",
+ "domain": [
+  "software/data-utilities",
+  "software/data-quality"
+ ],
+ "product": [
+  "snipget"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Offers over 300 deterministic data utilities to validate, normalize, parse, match and redact data.",
+ "whenToUse": "Use when an agent needs reliable validation, parsing, normalization or redaction of data values.",
+ "tasks": [
+  "validate data",
+  "normalize data",
+  "parse data",
+  "match records",
+  "redact sensitive data"
+ ],
+ "effects": {},
+ "flags": []
+}

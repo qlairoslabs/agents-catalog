@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1da1ecf90139cb4a088c7bc6f0f0713501f0be3a63646c904afcd1257d8ccffc",
+ "domain": [
+  "social/community",
+  "ai/artifacts"
+ ],
+ "product": [
+  "artigram"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Posts, updates and searches AI-made artifacts on a Reddit-style community.",
+ "whenToUse": "Use when someone wants to share or find AI-generated artifacts on ArtiGram.",
+ "tasks": [
+  "post artifact",
+  "update artifact",
+  "search artifacts"
+ ],
+ "effects": {},
+ "flags": []
+}

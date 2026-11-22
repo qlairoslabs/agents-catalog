@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "075bd38bdb17456c9c1c203d1256e2ea62d6eb4840496e5669d35a95248a3064",
+ "domain": [
+  "productivity/documents",
+  "productivity/file-storage"
+ ],
+ "product": [
+  "google-drive",
+  "google-docs",
+  "google-sheets",
+  "google-slides",
+  "google-calendar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "create-content",
+  "schedule"
+ ],
+ "summary": "Gives agents access to Google Drive files, Docs, Sheets, Slides and Calendar.",
+ "whenToUse": "Use when an agent needs to find, read or edit files in Google Drive or Workspace apps, or manage calendar events.",
+ "tasks": [
+  "search drive files",
+  "read documents",
+  "edit documents",
+  "edit spreadsheets",
+  "edit slides",
+  "manage calendar events"
+ ],
+ "effects": {},
+ "flags": []
+}

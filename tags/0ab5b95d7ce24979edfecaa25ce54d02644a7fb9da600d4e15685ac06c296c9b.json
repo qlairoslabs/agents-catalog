@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0ab5b95d7ce24979edfecaa25ce54d02644a7fb9da600d4e15685ac06c296c9b",
+ "domain": [
+  "science/remote-sensing",
+  "data/geospatial"
+ ],
+ "product": [
+  "sateais"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes satellite SAR imagery to detect ships, oil slicks, building changes and changes over time.",
+ "whenToUse": "Use when an agent needs to detect ships, oil spills or ground changes from satellite radar imagery.",
+ "tasks": [
+  "detect ships",
+  "detect oil slicks",
+  "detect building changes",
+  "run time-series change detection"
+ ],
+ "effects": {},
+ "flags": []
+}

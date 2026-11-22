@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "779f9e19d0f5bd80e7a4b84a48910b60ece0c81da04c5d22719517ced2eeeb9d",
+ "domain": [
+  "ecommerce/skincare",
+  "retail"
+ ],
+ "product": [
+  "beautifiedyou",
+  "bigcommerce"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Lets an agent search BeautifiedYou skincare and supplements, manage a cart and get a checkout URL.",
+ "whenToUse": "Use when a shopper wants to find professional skincare or supplements and build a cart for checkout.",
+ "tasks": [
+  "search products",
+  "get product variants and options",
+  "add items to cart",
+  "update cart items",
+  "remove cart items",
+  "create checkout URL"
+ ],
+ "effects": {
+  "dd5bb5d0b9654ed584352b5b0a96428389d514800d6ad6ebc08d2f2054212695": "write",
+  "f69366718da9e8d2346cccff23c0caace12acba44e18e3ade25936d6dd3d90a7": "write",
+  "b169aa75025f4331d08d5965da93cebd0f51ec6becc66720eabc99318eeb1ea4": "write",
+  "932ad646919776bd8abb03626c2cb72080ce5c82457d1e9a764465408ecc5913": "write",
+  "26321cc40ce33aad4eabc50ab33bf3dad80a57c3894f660885a1c44b2d524e86": "write",
+  "449002b52bfc943dda14b990eafea837a0e06bd5bcd8a4afc01954ea7ee244c0": "write"
+ },
+ "flags": []
+}

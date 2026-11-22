@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "5859a32591086ad195cfd1b7e8c30c97e62d0147bf9e605220cb5b03b1eecac6",
+ "domain": [
+  "business/company-data",
+  "legal/due-diligence"
+ ],
+ "product": [
+  "state-business-registries",
+  "sam-gov"
+ ],
+ "audience": [
+  "sales",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search and verify US companies from state registries: status, officers, registered agents, change history, owner-operated lists and coverage stats.",
+ "whenToUse": "Use when verifying a US company or person, finding who runs it, tracking registry changes or building prospect lists.",
+ "tasks": [
+  "search companies by name",
+  "resolve messy names",
+  "get official record",
+  "search officers",
+  "find executives",
+  "browse by criteria",
+  "find owner-operated firms",
+  "check coverage",
+  "age distribution",
+  "geographic distribution",
+  "entity types",
+  "track changes"
+ ],
+ "effects": {
+  "523ea24144c1e71e9b14952d958743c351a8ff9eff031602c517ce3b947bf07c": "read",
+  "b3298b2ad87126eba0896ee72c8e96357c97ea151ad64a605b0ec5808a8404b6": "read",
+  "1bf5a424115f2f1a913b5558d1e6d8229f55b8880ab0c5752cfe93e275c18c66": "read",
+  "ba4919f4acfd4cf9acbfda77fa609b24f26e3d3309a9dd7af7b03a09f4a4c6f3": "read",
+  "bea826b3b278cf9a17d25ca65df710d4e747ce922dbfd47a58e502ce99793954": "read",
+  "c8cdb97dd5b26e949e46cf488106b0adc372648b09d319a3cdbc4cfad1dd5217": "read",
+  "76a4fcb3d7aced4d51a25af01d95d58f50671988a8e9cbc0b69eaeb62781638e": "read",
+  "64459280d5d6d861ef19211701bebba08b5c95b93a90f9a475b97cc5c0dfe3ee": "read",
+  "d25b9ce5ac5b0016086c70f8de0ded3cd4cfcc6073ebfa633d83e64d39f9af00": "read",
+  "f9dafaef6a44731de79bf7eac8faa361686e30981b3e5c8ba917b3bab46dd692": "read",
+  "82c6947418739635739e452e3ccb0fc51ffd5a0dd99ec1316c56fb542b3fcd8f": "read",
+  "cbd481c8a7b787b2ef8442c6cac95c8e8c2752072d22f91b6872ed23c3642765": "read",
+  "4c370bd9d08a0cc702348821ccfc2cdc00f734c94388e24364764dd97261c3d2": "read"
+ },
+ "flags": []
+}

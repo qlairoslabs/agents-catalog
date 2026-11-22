@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a5558d3aa8ef79b4dfb69d7136b8abbe9e8cb32b0a0e4746f441733775f2be86",
+ "domain": [
+  "data/weather"
+ ],
+ "product": [
+  "meteoswiss"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides Swiss weather forecasts, station measurements and pollen data from MeteoSwiss.",
+ "whenToUse": "Use when a user needs weather forecasts, measurements or pollen levels for locations in Switzerland.",
+ "tasks": [
+  "get weather forecast",
+  "read station measurements",
+  "list weather stations",
+  "get pollen data"
+ ],
+ "effects": {},
+ "flags": []
+}

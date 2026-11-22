@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b9b4971765c78fc2581bb5f3d9a94e76fa5193d833aa3c78073ef39bc14ee1b4",
+ "domain": [
+  "marketing/app-review-analysis",
+  "software/mobile-apps"
+ ],
+ "product": [
+  "app-store",
+  "google-play"
+ ],
+ "audience": [
+  "marketing",
+  "development",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyses App Store and Google Play reviews for any app, returning counts, trends and quoted reviews.",
+ "whenToUse": "Use when someone wants to understand what users say about a mobile app in store reviews.",
+ "tasks": [
+  "count app reviews",
+  "show review trends",
+  "pull review quotes",
+  "compare apps by reviews"
+ ],
+ "effects": {},
+ "flags": []
+}

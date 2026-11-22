@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "4e5428630a247d0b98416e357da073815db57c7f1c68c0cbb037aa05174c213f",
+ "domain": [
+  "calendar/lunar",
+  "culture"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Convert between Vietnamese lunar and Gregorian dates, get Can Chi, lunar month days and vegetarian days.",
+ "whenToUse": "Use when a date needs lunar or solar conversion or Vietnamese calendar details.",
+ "tasks": [
+  "convert lunar to solar",
+  "convert solar to lunar",
+  "get Can Chi",
+  "get lunar days for a month",
+  "get vegetarian days"
+ ],
+ "effects": {
+  "0e03546f97590a60c8965ff7df6b47605b1c934027ff0602e3cca67941f3d84a": "read",
+  "735db6dd4fc57a606ceca9346f7d6e67ceebdeb03e6fb1f2e8c8acbbd5efe87b": "read",
+  "5ad82529227096295022509122fa05624033473a99a8452cfe84a08c2b9b04b6": "read",
+  "d860ca9ac9e1112e96a451fd3ba37475f8eae99c1a8a2e7e8c96e13bb25b6573": "read",
+  "dd4a10073931e688d8a72738ccb206c430fc2b7e843267756dedc87609704d74": "read"
+ },
+ "flags": []
+}

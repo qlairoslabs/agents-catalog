@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "d3dc582a6cbde2a565f0e152b3780217bc17fb1aafe2da9672af57bbb4267ce3",
+ "domain": [
+  "software/cybersecurity/compliance",
+  "cloud/azure"
+ ],
+ "product": [
+  "azure",
+  "azqr",
+  "azure-key-vault"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Runs Azure compliance and security audits using azqr, plus checks for expiring Key Vault secrets and certificates.",
+ "whenToUse": "Use when a user wants a security or compliance review of Azure resources or Key Vault expiry checks.",
+ "tasks": [
+  "run azqr compliance scan",
+  "assess best practices",
+  "validate policy compliance",
+  "check security posture",
+  "find expiring secrets and certificates",
+  "find orphaned resources"
+ ],
+ "effects": {},
+ "flags": []
+}

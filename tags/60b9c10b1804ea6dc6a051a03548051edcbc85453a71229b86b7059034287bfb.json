@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "60b9c10b1804ea6dc6a051a03548051edcbc85453a71229b86b7059034287bfb",
+ "domain": [
+  "media/video",
+  "maps"
+ ],
+ "product": [
+  "animatemytravel",
+  "openstreetmap"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates and edits animated map videos (trips, wars, data stories) in Studio projects, with templates, place lookup and export.",
+ "whenToUse": "Use when a user wants an animated map video or short built and exported from a story or data.",
+ "tasks": [
+  "create project",
+  "apply edit actions",
+  "use templates and examples",
+  "find place coordinates",
+  "validate project",
+  "request preview",
+  "request export",
+  "export project JSON"
+ ],
+ "effects": {
+  "cca77054ca6268b048a27475b99d86308c39c696a76af8846041e2c84b9b04bf": "write",
+  "935e55d1b2641035eede6deda018e3c27a8cc0fce2b2e851c1f53c76bab0f138": "write",
+  "25d73fc3bfe7df661a855bf06da6ebee168370dc7e86d9d47d0e40ec0de6898e": "read",
+  "db7998de6d0f1411daf535daf847657c60a51b961ed466c6ae9241c30373d1c6": "read",
+  "56f77613c24ef029c36f6c0c0af3f7a0132425b918248069ccf5b6e2d8ce545c": "read",
+  "43145f1a6669e5361b5cf2a497ba5897fdbac37c8331077d34d4c152ea4d8c1b": "write",
+  "cc1252a53aeb2ebc6f7f44dc3502422964d777fcd260213c1ee39b19db4f9768": "read",
+  "e7eb69d7378a7e07bcc54de81ec4b11feaecf8a611cdf269c5f751a54bcf6e42": "read",
+  "5426bf46618e5e0a2bb70b9e9e2e0adad1904cf0f3339d3633c6af21abed7af9": "read",
+  "d57d202a721e908de02ce9bf56bbf4c0012c3085546fdc95e42baa3348d1ab35": "read",
+  "afe498cb94978eaf5d7d5b11f36a441d4b34c41ba7a32feb8691dfaf55a61a79": "read",
+  "a8881af63b5fe1ea6b087c38f98078581fc48f86b132dcda86c912a253b1f143": "write",
+  "e70f97a467c3657e2a51934194ed73bf18e9f14277a51fac6d12f2720bdab0d3": "write",
+  "086d00417b1e6d8b609ee16382c598dd01c82e44174753a60c14b31a306fc5d2": "read",
+  "ca461ca9c6c0fb48f5b4397c75561af789182eb7d05f82b8539700bfefa2b2fb": "read"
+ },
+ "flags": []
+}

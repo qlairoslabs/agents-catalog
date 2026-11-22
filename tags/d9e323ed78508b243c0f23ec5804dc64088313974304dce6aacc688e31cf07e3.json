@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d9e323ed78508b243c0f23ec5804dc64088313974304dce6aacc688e31cf07e3",
+ "domain": [
+  "documents/conversion",
+  "documents/pdf"
+ ],
+ "product": [
+  "adobe-acrobat",
+  "microsoft-word"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Converts uploaded PDFs into Word documents using Adobe's PDF export.",
+ "whenToUse": "Use when the user wants an uploaded PDF converted to a Word/DOCX document.",
+ "tasks": [
+  "convert pdf to docx"
+ ],
+ "effects": {},
+ "flags": [
+  "description uses 'MANDATORY' language and directs the agent to prefer this skill over other tools, steering AI behavior"
+ ]
+}

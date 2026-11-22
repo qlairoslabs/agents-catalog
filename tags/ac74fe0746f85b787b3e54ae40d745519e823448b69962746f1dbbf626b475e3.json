@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ac74fe0746f85b787b3e54ae40d745519e823448b69962746f1dbbf626b475e3",
+ "domain": [
+  "software/development/apis",
+  "data/graph"
+ ],
+ "product": [
+  "github",
+  "neo4j"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "GraphQL gateway that lets models explore and query large schemas such as GitHub's and Neo4j GraphQL.",
+ "whenToUse": "Use when an agent needs to introspect or query a large GraphQL API.",
+ "tasks": [
+  "introspect schema",
+  "run queries",
+  "run mutations",
+  "navigate large schemas"
+ ],
+ "effects": {},
+ "flags": []
+}

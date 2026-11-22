@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "c4a1d14b31d0d6d7249afe39850c00661f0dbf48fdc4e2ff704cef3ab85224a8",
+ "domain": [
+  "design/portfolio",
+  "marketing"
+ ],
+ "product": [
+  "kwnva-design"
+ ],
+ "audience": [
+  "design",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Portfolio of a design studio: browse case studies, read the studio profile, mint a free API key and submit project inquiries.",
+ "whenToUse": "Use when evaluating the kwnva.design studio's work or sending them a project inquiry.",
+ "tasks": [
+  "list projects",
+  "search work",
+  "fetch case study",
+  "fetch studio profile",
+  "submit project inquiry",
+  "mint free API key"
+ ],
+ "effects": {
+  "ff68c0b8df43828ec1e9e6a68b6470d3802fb2daa13397856cc2cd0270c66f1c": "write",
+  "80f3d2a74d2a5b20320702fffa2607dc656bf323991c51be3db8d5b657ef4d31": "write",
+  "966d60e1c21f408e81bfd3f64b82d8b975bf2f77c158de858a27eb77d5142645": "read",
+  "f11f292368ec34021fdd436f20aa1f36e81077fd6c58cb1321446b39d454d30b": "read",
+  "175f759d6b44edb73484c49ef99cc8e80f6f206740e75ac35f4dbf28cb399a8d": "read",
+  "b78c4c3b4604fed7342e8ddf8a0e08f20303f56a3ce9d1f61dddc991da1c9984": "read"
+ },
+ "flags": []
+}

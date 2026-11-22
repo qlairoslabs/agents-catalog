@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9a933779366aa6ab4a4d9bf2ee4cb35e968bb1e1d483ece3fbd8230b90d67a00",
+ "domain": [
+  "software/development/low-code"
+ ],
+ "product": [
+  "genexus"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reads, edits and analyzes objects in GeneXus 18 knowledge bases.",
+ "whenToUse": "Use when an agent is working on a GeneXus 18 knowledge base and needs to read or change its objects.",
+ "tasks": [
+  "read kb objects",
+  "edit kb objects",
+  "analyze kb objects"
+ ],
+ "effects": {},
+ "flags": []
+}

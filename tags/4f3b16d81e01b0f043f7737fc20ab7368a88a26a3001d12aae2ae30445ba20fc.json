@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "4f3b16d81e01b0f043f7737fc20ab7368a88a26a3001d12aae2ae30445ba20fc",
+ "domain": [
+  "productivity/email-and-calendar",
+  "productivity/file-storage"
+ ],
+ "product": [
+  "gmail",
+  "outlook",
+  "google-drive",
+  "onedrive",
+  "google-calendar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Single endpoint giving agents access to multiple Gmail, Outlook, Drive, OneDrive and calendar accounts with an audit log.",
+ "whenToUse": "Use when an agent needs to work across several email, file storage or calendar accounts at once.",
+ "tasks": [
+  "read and send email",
+  "manage files",
+  "manage calendar events",
+  "use multiple accounts",
+  "view audit log"
+ ],
+ "effects": {},
+ "flags": []
+}

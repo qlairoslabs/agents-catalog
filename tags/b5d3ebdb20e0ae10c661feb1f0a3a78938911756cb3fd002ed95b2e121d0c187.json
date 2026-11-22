@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "b5d3ebdb20e0ae10c661feb1f0a3a78938911756cb3fd002ed95b2e121d0c187",
+ "domain": [
+  "culture/divination-texts",
+  "reference"
+ ],
+ "product": [
+  "iching"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Read-only lookup of the full 64-hexagram I Ching corpus: hexagrams, trigrams, orderings, search and reading context.",
+ "whenToUse": "Use when you need I Ching hexagram or trigram text, or the context for a hexagram with changing lines.",
+ "tasks": [
+  "search hexagrams",
+  "get hexagrams by number",
+  "list all hexagrams",
+  "get reading context",
+  "get trigram",
+  "list trigrams",
+  "list sequences",
+  "get server info"
+ ],
+ "effects": {
+  "80b2b7f730caa9c40a33dabac1ed5dafe49f04231c0ffee2ac9e83cef6a07ed9": "read",
+  "5939868939b727a71f69e66482bfb551062a6fdc35fe761d40e9420fbbce32bd": "read",
+  "f1dc32b3389bf5abadb5abc00e46fda920c5fe45d0ad5eb92a34ca9012a4f08e": "read",
+  "48c386a342398553eae42b43e7cfe100e1f51486fb76622c02831eb3559663b0": "read",
+  "1b7a1db96b7c5d044f150bbbf0eb535654f2ea9ba70658c3c06cc55615114e7e": "read",
+  "04fa8f6387949085a154d571ff4b83331b42f9daa8bee26a4f84864c35c12c88": "read",
+  "ab4dd71ad44a6071e3ea0feaad0472ad2dd63fe16c838906646f5d3c651a722b": "read",
+  "17cc7ab4a232c2d1f32c51f00825c406e32bb9928356fa90a993bf305e9ffeef": "read",
+  "8b1a6d5036490b0b251fc90946d5a886f7f412aa7b6a7ad20be85c3b643848fa": "read",
+  "533b9104b9dd9c8b4f5921fbdf00083d683856ba1c50e79f42d35f5bb3d2c755": "read"
+ },
+ "flags": []
+}

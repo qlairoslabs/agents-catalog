@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f5b99b47d5da4bd1fca28fdf7a56f04646c6fc6a018c3fb6c82fb202227c0056",
+ "domain": [
+  "social-media/x",
+  "marketing/social-scheduling"
+ ],
+ "product": [
+  "x"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Lets an agent post, schedule, queue and thread posts on X, with a human approval queue.",
+ "whenToUse": "Use when an agent should draft or schedule posts on X subject to human approval.",
+ "tasks": [
+  "publish posts",
+  "schedule posts",
+  "queue posts",
+  "create threads",
+  "submit posts for approval"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a34ef79bc12259e87fa09a3702445cf0b2dc9d5f4bfbb966482ea7c9dd22a53f",
+ "domain": [
+  "finance/wealth-management/tax",
+  "finance/investing"
+ ],
+ "product": [
+  "blackrock-advisor-center",
+  "ishares"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Analyzes upcoming fund capital gains distributions for a portfolio, their cut-off dates and estimated tax cost.",
+ "whenToUse": "Use when an advisor asks about capital gains distributions or tax cost of holding funds in a portfolio.",
+ "tasks": [
+  "show distribution estimate status",
+  "list distribution cut-off dates",
+  "estimate tax cost of distributions",
+  "suggest ishares ideas",
+  "suggest follow-ups"
+ ],
+ "effects": {},
+ "flags": []
+}

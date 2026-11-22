@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "00383a40581c1e7816681c7a7f220562e268ad8067be70de5e6e5cda51252290",
+ "domain": [
+  "software/testing/ui-testing"
+ ],
+ "product": [
+  "aiva"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "No-code UI testing service that records new tests, runs existing ones and monitors results.",
+ "whenToUse": "Use when creating, running or reviewing automated UI tests for a web application.",
+ "tasks": [
+  "record ui tests",
+  "run ui tests",
+  "monitor test results"
+ ],
+ "effects": {},
+ "flags": []
+}

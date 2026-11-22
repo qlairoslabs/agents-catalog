@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "7fccb45f327903300b790aa09d5291a32171f9b532a0e7fcc3160d54f752483b",
+ "domain": [
+  "marketing/ai-visibility",
+  "marketing/seo"
+ ],
+ "product": [
+  "seekinweb",
+  "llms-txt"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether AI assistants recommend a business, scores a site's AI readability, and drafts an llms.txt file.",
+ "whenToUse": "Use when a user wants to know if AI recommends their business or how to make their site readable by AI agents.",
+ "tasks": [
+  "check AI recommendations",
+  "find competing brands named",
+  "scan website AI visibility score",
+  "generate llms.txt"
+ ],
+ "effects": {
+  "bd99d17e25b98150fa386ee0370c23be936f6294773ca2023466a01e280c3c7b": "read",
+  "d49809772b2d9b4d5ab66e9a056ffb2d4e6a0e173dc638131ac444d6b397de6b": "read",
+  "5b73101e266eaad618613887de36e88d9c65a2af6657adb6beffc44c65f70c27": "read"
+ },
+ "flags": []
+}

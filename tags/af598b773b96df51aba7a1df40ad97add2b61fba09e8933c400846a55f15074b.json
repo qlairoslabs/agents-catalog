@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "af598b773b96df51aba7a1df40ad97add2b61fba09e8933c400846a55f15074b",
+ "domain": [
+  "content/publishing/document-design",
+  "content/ebooks"
+ ],
+ "product": [
+  "unplain"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Takes agent-written ebook or report text and returns a designed, publication-ready PDF.",
+ "whenToUse": "Use when an agent has written long-form content and needs it laid out as a polished PDF.",
+ "tasks": [
+  "design ebooks",
+  "design reports",
+  "generate pdf"
+ ],
+ "effects": {},
+ "flags": []
+}

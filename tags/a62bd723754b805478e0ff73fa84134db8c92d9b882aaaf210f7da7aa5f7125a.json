@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a62bd723754b805478e0ff73fa84134db8c92d9b882aaaf210f7da7aa5f7125a",
+ "domain": [
+  "books/recommendations",
+  "libraries"
+ ],
+ "product": [
+  "leafle"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Recommends books tailored to the user and filters them by current availability at their public library.",
+ "whenToUse": "Use when a user wants book suggestions they can borrow now from their local library.",
+ "tasks": [
+  "recommend books",
+  "check library availability"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "d26a750a257ea803c29fe3a6208fd1743731792bba23f917a729958b6f5870e9",
+ "domain": [
+  "finance/trading-risk",
+  "crypto/agent-trust"
+ ],
+ "product": [
+  "djzs",
+  "base",
+  "irys"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Audits trading theses for agents before execution, returning pass/wait/fail verdicts and on-chain trust scores.",
+ "whenToUse": "Use before an agent opens a trade or prediction-market position, or before trusting another agent's track record.",
+ "tasks": [
+  "query audit certificates",
+  "get agent trust score",
+  "audit prediction-market trade",
+  "audit perpetual or spot trade",
+  "compute break-even hit rate"
+ ],
+ "effects": {
+  "7b759293a9412162f61e76e84c712d6c61fc01d3cf84567b6da6cc3d49268b2a": "read",
+  "8fefadef9b53ade959377f0fd15969c5040164a51fb8b7f66ca64c97851fbd29": "write",
+  "6cbce22cc20255cb9e5a647e27cc08875455bff6302e96fa1934f00b56a0415c": "write",
+  "24ae0b76196dfa5cb607f1e5c53d9eac498615d623e92d33033095b5ed87225e": "risky"
+ },
+ "flags": []
+}

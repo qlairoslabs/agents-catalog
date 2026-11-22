@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e0887a4fe8b01649453772e80eb30b801ca4b7ab6a22f01951bbe4b9d30a98ac",
+ "domain": [
+  "web/domain-names"
+ ],
+ "product": [
+  "dns",
+  "rdap",
+  "whois"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Checks whether a domain name is available via DNS, RDAP and WHOIS and lists available TLDs.",
+ "whenToUse": "Use when choosing a domain name and you need to know if it is registered.",
+ "tasks": [
+  "check domain availability",
+  "list TLDs"
+ ],
+ "effects": {
+  "e265378497c991c98c979d05a32938a57cbacd95b1c8525860305ddf2f88502d": "read",
+  "a4e3ba1f2373a8ead8748429dcfa3a2ca5dc0cfce01012a441991fb77d30fda9": "read"
+ },
+ "flags": []
+}

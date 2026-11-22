@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "4fb4a1321b8bd042134edc3e170208b84aab1007382035a57e6d32874ddcb76e",
+ "domain": [
+  "finance/market-intelligence",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "fundz",
+  "sec-edgar"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "SEC-sourced data on funding rounds, acquisitions, executive moves, hiring and investor activity.",
+ "whenToUse": "Use when the user wants company signals like funding, acquisitions or executive changes for sales or investment research.",
+ "tasks": [
+  "search funding rounds",
+  "track acquisitions",
+  "track executive moves",
+  "view hiring signals",
+  "view investor signals"
+ ],
+ "effects": {},
+ "flags": []
+}

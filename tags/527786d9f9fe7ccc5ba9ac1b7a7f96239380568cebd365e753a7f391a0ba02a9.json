@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "527786d9f9fe7ccc5ba9ac1b7a7f96239380568cebd365e753a7f391a0ba02a9",
+ "domain": [
+  "sales/lead-generation/email-verification"
+ ],
+ "product": [
+  "nvoke"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Finds companies and verified business email addresses and exports them as leads.",
+ "whenToUse": "Use when building a B2B prospect list with verified email addresses.",
+ "tasks": [
+  "search companies",
+  "find business emails",
+  "verify emails",
+  "export leads"
+ ],
+ "effects": {},
+ "flags": []
+}

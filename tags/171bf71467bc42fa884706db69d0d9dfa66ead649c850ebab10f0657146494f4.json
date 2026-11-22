@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "171bf71467bc42fa884706db69d0d9dfa66ead649c850ebab10f0657146494f4",
+ "domain": [
+  "ecommerce/marketplace"
+ ],
+ "product": [
+  "correkt"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches Correkt's catalogue of over 10 million physical products with price, brand and category filters.",
+ "whenToUse": "Use when a user wants to find physical products to buy on Correkt.",
+ "tasks": [
+  "search products",
+  "filter by price",
+  "filter by brand",
+  "sort results"
+ ],
+ "effects": {
+  "42205ad3330ad9de71dbb5ceacec7c0d7d0392089dd71b862c473d8fa118fe80": "read"
+ },
+ "flags": []
+}

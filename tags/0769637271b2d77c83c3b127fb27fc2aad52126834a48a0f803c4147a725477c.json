@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0769637271b2d77c83c3b127fb27fc2aad52126834a48a0f803c4147a725477c",
+ "domain": [
+  "software/documentation",
+  "software/ai-agents"
+ ],
+ "product": [
+  "agent-surface"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Search, browse and read the Agent Surface guide on making websites, APIs and CLIs work well with AI agents.",
+ "whenToUse": "Use when you need guidance on making a site, API or CLI discoverable and usable by AI agents.",
+ "tasks": [
+  "search docs",
+  "list pages",
+  "read page as markdown"
+ ],
+ "effects": {
+  "6d5999b156bee6bccb321dafeb6dc931ad72108638ff2be597fbeff6dc830ca6": "read",
+  "225e7644f2ec23d2c40d73504860cdd3a77e6fccc675f9d536a07ea398db356f": "read",
+  "a893a9e7530443ccd71edbd96ab8c6de87af0ec0a93233df9f448e60744f0745": "read"
+ },
+ "flags": []
+}

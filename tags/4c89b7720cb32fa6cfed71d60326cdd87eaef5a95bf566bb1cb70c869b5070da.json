@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4c89b7720cb32fa6cfed71d60326cdd87eaef5a95bf566bb1cb70c869b5070da",
+ "domain": [
+  "web/domain-lookup"
+ ],
+ "product": [
+  "website-launches"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up the public launch record of one domain, including launch timing, owner verification and trust context.",
+ "whenToUse": "Use when checking when a website launched and whether its owner is verified.",
+ "tasks": [
+  "look up domain launch record",
+  "check owner verification",
+  "get milestone summary"
+ ],
+ "effects": {
+  "8867d1195edbae89149bab773cdbec8677945e95bcd2a48eb5041e6b1becd885": "read"
+ },
+ "flags": []
+}

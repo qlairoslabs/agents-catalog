@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ba46da7b4ee6d491dc73a0e74fff9314a7647ac5bcd5f1ce172fd2cde1a6b9d6",
+ "domain": [
+  "travel/camping",
+  "turkey"
+ ],
+ "product": [
+  "kampyeri"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches verified campsites in Turkey and fetches details and booking links on kampyeri.org.",
+ "whenToUse": "Use when a user asks about camping, glamping or caravan sites in Turkey.",
+ "tasks": [
+  "search campsites",
+  "get campsite details",
+  "get booking URL"
+ ],
+ "effects": {
+  "2d7400bc78d8f446839d26eecb8fa4a31413d020d3bf4348fc0aec98cb20b86d": "read",
+  "d82a45d83e783c4db52848ed1bce605f41f767002148a3df2beab215260cfe32": "read"
+ },
+ "flags": []
+}

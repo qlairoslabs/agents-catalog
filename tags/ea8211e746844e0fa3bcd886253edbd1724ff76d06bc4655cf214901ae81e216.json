@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ea8211e746844e0fa3bcd886253edbd1724ff76d06bc4655cf214901ae81e216",
+ "domain": [
+  "software/ci-cd"
+ ],
+ "product": [
+  "buildkite"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Guides use of buildkite-agent subcommands inside running CI job steps, such as annotations, artifacts, metadata, secrets and locks.",
+ "whenToUse": "Use when writing or debugging commands that run inside a Buildkite job step using the buildkite-agent binary.",
+ "tasks": [
+  "add build annotations",
+  "upload and download artifacts",
+  "share metadata between steps",
+  "upload pipelines dynamically",
+  "request oidc tokens",
+  "acquire distributed locks",
+  "get or update step attributes",
+  "redact secrets from logs",
+  "retrieve cluster secrets",
+  "debug hook environment variables",
+  "sign pipelines"
+ ],
+ "effects": {},
+ "flags": []
+}

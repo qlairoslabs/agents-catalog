@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a4035ebb47b30ce20006ff4d8bb1e0ab6e206077b7555e6b98aaef718fd592ae",
+ "domain": [
+  "business/erp"
+ ],
+ "product": [
+  "odoo"
+ ],
+ "audience": [
+  "operations",
+  "finance",
+  "sales"
+ ],
+ "goal": [
+  "automate-work",
+  "run-the-money"
+ ],
+ "summary": "Hosted OAuth gateway that lets agents read and write Odoo ERP data, with writes gated, across many Odoo instances.",
+ "whenToUse": "Use when an agent needs to query or update records in one or more Odoo ERP instances.",
+ "tasks": [
+  "connect to odoo instances",
+  "read erp records",
+  "perform gated write operations"
+ ],
+ "effects": {},
+ "flags": []
+}

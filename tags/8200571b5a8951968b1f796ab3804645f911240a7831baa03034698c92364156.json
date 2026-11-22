@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8200571b5a8951968b1f796ab3804645f911240a7831baa03034698c92364156",
+ "domain": [
+  "productivity/task-management",
+  "productivity/kanban"
+ ],
+ "product": [
+  "easykanban"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Reads and manages EasyKanban boards, including to-do summaries and creating, updating and moving cards.",
+ "whenToUse": "Use when an agent needs to review or update tasks on a user's EasyKanban boards.",
+ "tasks": [
+  "summarize to-dos",
+  "create cards",
+  "update cards",
+  "move cards"
+ ],
+ "effects": {},
+ "flags": []
+}

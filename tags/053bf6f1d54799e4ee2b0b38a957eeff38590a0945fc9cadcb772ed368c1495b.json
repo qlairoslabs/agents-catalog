@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "053bf6f1d54799e4ee2b0b38a957eeff38590a0945fc9cadcb772ed368c1495b",
+ "domain": [
+  "web/domains",
+  "web/dns",
+  "web/hosting"
+ ],
+ "product": [
+  "regfish"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Manages domains, DNS, DNSSEC and hosting at regfish and diagnoses any domain.",
+ "whenToUse": "Use when a user needs to manage regfish domains or DNS records, or troubleshoot a domain.",
+ "tasks": [
+  "manage domains",
+  "manage dns records",
+  "configure dnssec",
+  "manage hosting",
+  "diagnose domains"
+ ],
+ "effects": {},
+ "flags": []
+}

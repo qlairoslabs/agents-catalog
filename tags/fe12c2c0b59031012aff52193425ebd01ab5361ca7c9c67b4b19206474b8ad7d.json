@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "fe12c2c0b59031012aff52193425ebd01ab5361ca7c9c67b4b19206474b8ad7d",
+ "domain": [
+  "media/gifs",
+  "communication/chat"
+ ],
+ "product": [
+  "gifsnap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "create-content"
+ ],
+ "summary": "Searches GIFs and shows reaction GIFs in conversation for clients supporting MCP Apps.",
+ "whenToUse": "Use when the user wants a GIF reaction or to browse GIF options.",
+ "tasks": [
+  "react with a GIF",
+  "search GIFs",
+  "browse GIF choices"
+ ],
+ "effects": {
+  "566dee6a28637490dd52ff0a95718e2b74e096dee6c9fb75259be7223e41c46a": "write",
+  "60b9706bf15199fd90d4201099532aa8f0c7ac1d432603abc8b588baf430b661": "read"
+ },
+ "flags": [
+  "tool description tells the agent to reply with a GIF to every casual message and to use text only alongside it, steering agent behavior"
+ ]
+}

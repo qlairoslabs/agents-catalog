@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d7b5c5c65859c6f3c1445a9c5c71494b0d6585e02eac280fdfb2cbf3bc440030",
+ "domain": [
+  "productivity/project-management"
+ ],
+ "product": [
+  "dart"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Connects to Dart project management to work with tasks, docs and team collaboration.",
+ "whenToUse": "Use when an agent needs to create, update or look up tasks and docs in a Dart workspace.",
+ "tasks": [
+  "manage tasks",
+  "manage docs",
+  "collaborate with team"
+ ],
+ "effects": {},
+ "flags": []
+}

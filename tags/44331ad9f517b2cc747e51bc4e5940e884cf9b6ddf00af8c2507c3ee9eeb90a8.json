@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "44331ad9f517b2cc747e51bc4e5940e884cf9b6ddf00af8c2507c3ee9eeb90a8",
+ "domain": [
+  "finance/crypto-data",
+  "finance/prediction-markets"
+ ],
+ "product": [
+  "polymarket",
+  "defillama",
+  "coingecko",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Pay-per-call crypto prices, gas costs, DeFi TVL and Polymarket odds via x402 micropayments.",
+ "whenToUse": "Use when an agent needs live crypto prices, chain gas costs, protocol TVL or prediction market odds.",
+ "tasks": [
+  "get crypto prices",
+  "compare gas prices",
+  "get DeFi TVL",
+  "search Polymarket odds",
+  "find market movers",
+  "list resolving markets",
+  "get service info"
+ ],
+ "effects": {
+  "db5cfc31ac9a8abac6d7e269387a8986425b7b11eff9419932551b3ea67e4b12": "write",
+  "0e260b6b7856db39f93d7491a85ac89b62396e7508f945ac263714a4c5e429b5": "write",
+  "e08e80e466049b287f34947adf68849507276d2ad8992369dac81173a88318ed": "write",
+  "6f1687fdd456fc7e49be0fd24ea751e1face26d3fc8a231d54c3b3a5e643ad46": "write",
+  "e176474ff0fedbfc0776676b9ff89d9361a3529292867d687444b7f9a75ec1bc": "write",
+  "271f95e871e125b147c4fbd322120771ed9ee82ce15e69bf1b0404912928a031": "write",
+  "97506f38331c1f0bb0e68573b3c005829741375a4b213f1cb7451e2621a5444f": "read"
+ },
+ "flags": []
+}

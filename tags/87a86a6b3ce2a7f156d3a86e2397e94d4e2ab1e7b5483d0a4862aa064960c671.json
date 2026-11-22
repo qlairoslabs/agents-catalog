@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "87a86a6b3ce2a7f156d3a86e2397e94d4e2ab1e7b5483d0a4862aa064960c671",
+ "domain": [
+  "software/domains-dns"
+ ],
+ "product": [
+  "fairverra"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Registers, transfers and manages domain names and DNS records.",
+ "whenToUse": "Use when an agent needs to register or transfer a domain or edit its DNS.",
+ "tasks": [
+  "register domains",
+  "transfer domains",
+  "manage domains",
+  "manage dns records"
+ ],
+ "effects": {},
+ "flags": []
+}

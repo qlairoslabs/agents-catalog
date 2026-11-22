@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a04cef156d5d879530bc79f552e4e94a68b9a1e7e462f7285f890487a52a7fae",
+ "domain": [
+  "software/ai-agents/lifecycle",
+  "sales/crm"
+ ],
+ "product": [
+  "salesforce-agentforce"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Supports the Salesforce Agentforce agent lifecycle: authoring, scaffolding, deploying, testing and optimizing .agent files.",
+ "whenToUse": "Use when building, deploying or testing Agentforce agents defined in .agent files.",
+ "tasks": [
+  "author agent files",
+  "discover agents",
+  "scaffold agents",
+  "deploy agents",
+  "test agents",
+  "optimize agents"
+ ],
+ "effects": {},
+ "flags": []
+}

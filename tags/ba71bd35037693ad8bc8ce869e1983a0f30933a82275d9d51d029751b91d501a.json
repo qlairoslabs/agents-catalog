@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ba71bd35037693ad8bc8ce869e1983a0f30933a82275d9d51d029751b91d501a",
+ "domain": [
+  "data/location-intelligence",
+  "marketing/market-research"
+ ],
+ "product": [
+  "factori"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Location data service covering foot traffic, trade areas, demographics and site scoring.",
+ "whenToUse": "Use when an agent needs to evaluate physical locations, foot traffic or local demographics.",
+ "tasks": [
+  "analyze foot traffic",
+  "map trade areas",
+  "get demographics",
+  "score sites"
+ ],
+ "effects": {},
+ "flags": []
+}

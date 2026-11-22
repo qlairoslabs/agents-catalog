@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1cd92ddab3b32fbf813197bc7b7be99b63630b560bb6c55771b6463eaab8a4d0",
+ "domain": [
+  "finance/crypto-trading",
+  "blockchain/solana"
+ ],
+ "product": [
+  "solana"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Locally installed Solana trading bot exposing 331 tools for meme, spot, perpetual and copy trading.",
+ "whenToUse": "Use when a user wants an agent to trade on Solana including meme tokens, spot, perpetuals or copy trading.",
+ "tasks": [
+  "trade meme tokens",
+  "spot trading",
+  "perpetuals trading",
+  "mirror other wallets"
+ ],
+ "effects": {},
+ "flags": [
+  "moves-money"
+ ]
+}

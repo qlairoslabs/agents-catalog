@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "a4b62be1531c4e5538e1e2e05659cbaf0ea951258f69ae451b43c359b7e4362f",
+ "domain": [
+  "health/counselling",
+  "services/booking"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "support-customers"
+ ],
+ "summary": "Published details, pricing, FAQ and live free slots for Russian-language consultation sessions, with a booking-form handoff.",
+ "whenToUse": "Use when someone wants to know about, check availability for or prepare to book these consultations.",
+ "tasks": [
+  "get practice overview",
+  "get pricing and rules",
+  "read FAQ",
+  "list inquiry topics",
+  "get contact options",
+  "check available slots",
+  "prepare booking handoff",
+  "search FAQ",
+  "preparation checklist"
+ ],
+ "effects": {
+  "b82365721e84871c195ab07987b0701f838a365042bf03f1da5d2486659e46c9": "read",
+  "68aeea71958c4d8f716b204946e3f1623d9763ca49123c8b47875472f00dacc7": "read",
+  "1776ba281f27b4a6ad189fdfeea3abfed5957fccd4821b1cdf654bf9b2ddda8d": "read",
+  "c9005e9819221a636b60528dd8f70e26d8a7247c2541242eb95372db683de66e": "read",
+  "75443c6be953db1d1e85e8d6eda83627b5e8fa838512abf24b7eac00d394f009": "read",
+  "743ee06b75e48c17da14756a538821445ef103bed875e3b6462b8472b00f526b": "read",
+  "11229744ae082feec66fc8066c2af5d9bc5d29a19682859e54e77dde7588cb2f": "read",
+  "7c4b47c20eee495cc7d723cb85229d57d5cbba5f1c317353341650bef7f7cb97": "read",
+  "43871d0a4d75e578f3893402819d22bb0a0fcae342437ae411b0e3ae49522756": "read",
+  "d44cc026c38da1bb04a5154700645c51fb24535baae23e5abec4c1b73fe95e34": "read"
+ },
+ "flags": []
+}

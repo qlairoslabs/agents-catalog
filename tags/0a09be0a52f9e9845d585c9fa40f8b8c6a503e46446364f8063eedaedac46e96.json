@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0a09be0a52f9e9845d585c9fa40f8b8c6a503e46446364f8063eedaedac46e96",
+ "domain": [
+  "web/redirects",
+  "web/ssl",
+  "analytics/web-traffic"
+ ],
+ "product": [
+  "redirectboss"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Manages hosts, URL redirects and SSL in RedirectBoss and reports traffic analytics.",
+ "whenToUse": "Use when a user needs to set up or change domain redirects, SSL, or check redirect traffic in RedirectBoss.",
+ "tasks": [
+  "manage hosts",
+  "create redirects",
+  "manage ssl",
+  "view traffic analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

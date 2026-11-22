@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1fb6bb2932063dac09db9396537b56ac93498d0ba6f961e61d3df99c5d1ab789",
+ "domain": [
+  "engineering/electronics/power-design"
+ ],
+ "product": [
+  "electronics-architect"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Calculates DC/DC power trees, including per-stage current, efficiency, dissipation, thermals and tolerance corners.",
+ "whenToUse": "Use when designing or checking a board's power supply chain and you need per-stage electrical and thermal numbers.",
+ "tasks": [
+  "solve dc/dc power tree",
+  "calculate per-stage current",
+  "estimate efficiency and dissipation",
+  "analyze thermals",
+  "check tolerance corners"
+ ],
+ "effects": {},
+ "flags": []
+}

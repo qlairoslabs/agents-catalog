@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a36f1cdb22778a1a888fce9c0b17da821d083b93538cd5f2c1cf3bbea894fae8",
+ "domain": [
+  "productivity/journaling",
+  "productivity/task-management"
+ ],
+ "product": [
+  "penlog",
+  "ipad"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "automate-work"
+ ],
+ "summary": "Gives an agent read access to a handwritten iPad journal in Penlog and lets it write tasks back.",
+ "whenToUse": "Use when the user keeps a handwritten Penlog journal and wants an agent to read entries or add tasks.",
+ "tasks": [
+  "read journal entries",
+  "write tasks to journal"
+ ],
+ "effects": {},
+ "flags": []
+}

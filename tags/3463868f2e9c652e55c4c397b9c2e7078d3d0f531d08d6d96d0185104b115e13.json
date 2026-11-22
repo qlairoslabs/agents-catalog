@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3463868f2e9c652e55c4c397b9c2e7078d3d0f531d08d6d96d0185104b115e13",
+ "domain": [
+  "software/testing",
+  "software/accessibility"
+ ],
+ "product": [
+  "cypress-cloud"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives access to Cypress Cloud test results and accessibility reports.",
+ "whenToUse": "Use when a user wants to investigate Cypress test runs, failures or accessibility findings.",
+ "tasks": [
+  "view test results",
+  "view accessibility reports"
+ ],
+ "effects": {},
+ "flags": []
+}

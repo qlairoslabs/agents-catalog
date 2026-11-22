@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "742bb4eda6ade829475a3ef82bb47988bab077630c3157854cb45f4e813d77b3",
+ "domain": [
+  "research/citation-verification",
+  "content/quality"
+ ],
+ "product": [
+  "batchloom"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Audits report citations and checks quoted passages against supported public sources, with paid evidence reports and free SVG product-card previews.",
+ "whenToUse": "Use when verifying that citations and quotes in a report match their sources, or generating simple SVG product cards.",
+ "tasks": [
+  "audit report citations",
+  "trial quote check on source",
+  "compare evidence snapshots",
+  "prepare evidence request",
+  "validate evidence request",
+  "read evidence contract",
+  "read manifest",
+  "preview SVG assets",
+  "validate render batch"
+ ],
+ "effects": {
+  "3532432468a2e3eac9419cdf895294d39a1698b63c258090dc822858b69c8213": "read",
+  "fe452ed5741bb2ae0a54b15064ef1924ff71d211cfb6d6bc9151a939f7fe83fd": "write",
+  "8a7b099ce2b1966a03e4f127d983231cefc0693a5517b193703aa36a39ee9c41": "read",
+  "5e53bf38b4e3564a92e365cd2f6a6c1eef4caf9cc88e4536425804a690984fdd": "read",
+  "612e80210c5e02dda8e4099c2dab99030fcfeb4ebebb6a558718886951a1ea0f": "read",
+  "9787c90f316f9be6718413c6de0f1fec4ba8714050897f63c347642787610b3b": "read",
+  "4fc62ae5bfec550506d42da0dcdbde29c261c99954f1bf8b09cfc9e3a6db0107": "read",
+  "52ef2c591a2c18e4364e0269bd5ecdb4478161d80148b06a9286c5eef0b7bc2b": "read",
+  "c73fab08816152789c3ab0f0d0e1bdfc4825a17ae505882211bc93699b0e5b8e": "read",
+  "fd69dcc2f7ceb306540ab1a8fac7e77d55dcd294a1a11b8c2b5ad309a3a69c43": "write",
+  "621bcc217e201f882416d5630c315fc298466cb07c21325fe858f0e17811c47c": "write"
+ },
+ "flags": []
+}

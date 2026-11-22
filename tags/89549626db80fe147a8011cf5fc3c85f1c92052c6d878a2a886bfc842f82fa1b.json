@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "89549626db80fe147a8011cf5fc3c85f1c92052c6d878a2a886bfc842f82fa1b",
+ "domain": [
+  "data/pipelines",
+  "data/databases"
+ ],
+ "product": [
+  "sling"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Local Sling CLI MCP server for querying databases, running data pipelines and managing replications.",
+ "whenToUse": "Use when moving data between databases or files, or querying a database through Sling.",
+ "tasks": [
+  "query databases",
+  "run data pipelines",
+  "manage replications"
+ ],
+ "effects": {},
+ "flags": []
+}

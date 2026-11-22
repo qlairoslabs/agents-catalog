@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "a6a72cf22325df328c4b7c096b576cb21a1e5107551ab57851f07315a9b4c8e2",
+ "domain": [
+  "science/astronomy",
+  "science/geophysics",
+  "weather"
+ ],
+ "product": [
+  "usgs",
+  "open-meteo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Live earthquakes from USGS, ISS position, weather, moon phase and stargazing usability scores, with server-side earthquake watch subscriptions.",
+ "whenToUse": "Use when asked about recent earthquakes, tonight's sky, moon phase, ISS location or whether conditions suit stargazing.",
+ "tasks": [
+  "list recent earthquakes",
+  "subscribe to quake feed",
+  "get weather",
+  "get ISS position",
+  "summarize Earth now",
+  "get sky tonight",
+  "get moon phase",
+  "score stargazing night"
+ ],
+ "effects": {
+  "e89803b2bec2d17ca9e975cdfa81e38202d8cfbe9d805953ea8f2e823d0c87ff": "read",
+  "f949a5c54d37f7b4fbef1cd6aabea7055e5e8aee25f329dc848fedf7784d3597": "write",
+  "17cd3cf58de51ae0ffc140db1b84fa7524c33bb2f9b3b67df683e9b1ada37abd": "read",
+  "05953d23cd3bf6aa02c7024feb65431ea6af3225578ce4ab1888e7da185e2bc9": "read",
+  "fb3c8755ff0fe1d12027722ff48a5d867cf50bedc9a274c60b266c2d44c5239f": "read",
+  "42a82c580d38cf9ba6ca88bb7b9d94c03ae6e14eedcc33f952be3995fcc4ecc7": "read",
+  "b29daf561654a42b5434aa4a48b649d29b5f3135a263654e84d5138060492767": "read",
+  "b8593537cecadd5f393fd80f2f14c05def402238a028dd947989e8365ebde4b1": "read",
+  "7beeb351848bd3687f6020a083997a7762b9056f10694d1245c8dd6a33e1b264": "read"
+ },
+ "flags": [
+  "hosted-on-bare-ip-sslip-domain-unverified-publisher"
+ ]
+}

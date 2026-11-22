@@ -1,0 +1,51 @@
+{
+ "classifier": 2,
+ "contentHash": "7e8a52db168ce953b456012ccf120d1a3c00530ed7c16f12d2feec7beb7a084f",
+ "domain": [
+  "finance/tax",
+  "legal/czech-tax"
+ ],
+ "product": [
+  "freelax",
+  "cnb"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Deterministic calculators for Czech self-employed (OSVČ) 2026 taxes, insurance, flat-tax regime, filing deadlines, penalties, VAT thresholds and CNB exchange rates.",
+ "whenToUse": "Use when a Czech freelancer needs tax or insurance figures, flat-tax eligibility, filing deadlines or EUR to CZK conversion.",
+ "tasks": [
+  "compute yearly tax",
+  "set aside monthly income",
+  "compare tax regimes",
+  "settle flat tax",
+  "estimate late penalties",
+  "convert EUR to CZK",
+  "find filing deadlines",
+  "check flat-tax eligibility",
+  "check VAT thresholds",
+  "look up tax rules"
+ ],
+ "effects": {
+  "9a46fbd0845f6cd9bea08387775df458332accfbdbcc8fade42a2f533227f2dd": "read",
+  "b500fb4c2a4e4b611b0b23af69b40fc6a463f0da59d10165bfff9c38907bf7ca": "read",
+  "6539a0edc358f0b14b93f989cc17040c196c2ff45994fa518da1170658355e7a": "read",
+  "14523c761d00800e1e81b65407bf630d6622df9b8de1ef5e829a2088c07327db": "read",
+  "6a81681ddc02a6b22fb2de110f80900ef20a92900470e59e391f19e6987bcf73": "read",
+  "b67189cfd8e8112b68535ffff4a407f59fdb1a1313fb2eca5f5a0fd54a47b95f": "read",
+  "9fcb657545ee796ee46b171ae17078b31d63b880dafce0470229ce5a274518ba": "read",
+  "230576a01d63618824cf065663b3bb21271eaa09c8186f87f2c1617d5b45dd19": "read",
+  "73aef8f27ea54ff4fd43f530a1baae16db90cb4b4d4f181a3bb49fede5772666": "read",
+  "6d3bf8c576a6adff628479e7092a5aa2d847be91f70605e61037e007d858da5c": "read",
+  "7b235cc4496c3837830b57b52b22b490662b3c87d254eb4467cd93f2afce1b73": "read",
+  "8e0aa67a625f75ba33a65843314485035e58f4b84847a6ce167919397c268e27": "read",
+  "b405b072bcce6abf56dbc4b52d9a7e6db0640feae77da8331280767f02c33458": "read",
+  "ba07111a71fc7444fe7196376e475817ea6783f32cdf69bc6ea34eac4dd29e70": "read"
+ },
+ "flags": []
+}

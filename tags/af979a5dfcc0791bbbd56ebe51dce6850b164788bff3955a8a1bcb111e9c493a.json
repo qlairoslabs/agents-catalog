@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "af979a5dfcc0791bbbd56ebe51dce6850b164788bff3955a8a1bcb111e9c493a",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "aviasurf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches cached indicative flight fares, price calendars, airport comparisons, destination profiles and builds live-search links.",
+ "whenToUse": "Use when comparing flight prices, finding cheap destinations or choosing dates and airports.",
+ "tasks": [
+  "cheapest destinations",
+  "compare airports",
+  "destination profile",
+  "flight prices",
+  "filtered fare search",
+  "open live search",
+  "price calendar",
+  "resolve place",
+  "route facts"
+ ],
+ "effects": {
+  "bd6f0d008d8cd34e216bd11eebca978914d184733e42e6fc498fba5488476f20": "write",
+  "5e784d4acdff87f8fd653cbe9f2c60545a42756d5b9b18ecdecb7288f095da81": "read",
+  "31ab0c32327a557eb9782b79dee25b6fdfe5653de6fadf742e2b781579d013cd": "write",
+  "0d67f4e0a951f0a1fc5f0f81686857582f27fa33919c4c91db38bd6881b5fe33": "read",
+  "1f7671891cd732c42f185302c0483944d6fccee72f41f7c01d476f57d9995c74": "write",
+  "cafcedb80f6529dd9d0f67264aae39b2d0d3356275e5162dfeca16e128fb1206": "read",
+  "c9a7a6ae6feaf534c42a6db733b0464817ced9dd725f8403eeea8d77d3b305f3": "write",
+  "c8284bbd0289e795eaa3c9477b64b51da3150e861fb04a9ca68665aaf96bedb3": "read",
+  "a3da853cf09f28f4cf95b563cd20a62373bdb09e47ad5f5ebbcd794d6f645099": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "af2e7c543e2c5cd455de4e9ecff4aae58777e8c2fe0d851f1c8559e643ef328e",
+ "domain": [
+  "finance/personal-credit",
+  "education/financial-literacy"
+ ],
+ "product": [
+  "credit-gps",
+  "equifax",
+  "transunion"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Calculates Canadian credit card utilization, payment timing and payoff scenarios and explains Canadian credit reporting rules.",
+ "whenToUse": "Use when a person in Canada asks how to lower utilization, what to pay first, or how Canadian credit reporting works.",
+ "tasks": [
+  "pick next payment action",
+  "snapshot reported utilization",
+  "build statement calendar",
+  "simulate a paydown",
+  "compare cards for a purchase",
+  "build a credit plan",
+  "calculate payoff timeline",
+  "estimate card closure impact",
+  "explain canadian credit mechanics",
+  "newcomer credit path",
+  "list credit-building products",
+  "explain missed payments and retention"
+ ],
+ "effects": {
+  "e06279c126cb1d2a69b029fb6ac7cd5a7954d13f3256fde4761c7e0bcc5df0ba": "read",
+  "46b623cd639f97336caab74ab812d697ce37f03f4ac3de7a07d82100a30eebfb": "read",
+  "7eb2a2c6aaf0ac4a815f84cec1f7b6072700b36a015a9d730a282eb2827f50a9": "read",
+  "20fe6f0d98ce5694521e51c01e96df1b7305117800772ae5a0de1b76f077c791": "read",
+  "d29a0f816719acccbcc0da97cc8f3f2d353d9675fd3421f06e1daede1beed5c2": "read",
+  "40502b6381b33bc2df6ca88bb623b4a6893bf53921e78d5ad376570467ec1cda": "read",
+  "fbed0653ddc7878a7d7cca8733199f600e72e637cd1915fd56eb60368326c5f7": "read",
+  "307b37649ae54017511577f73067896886bf247756e3c1a55342c3b3d023bc1d": "write",
+  "d00b8e3ae1eb8dfc90e6aef5a9016abb76bbe028e54262673e7058f093603efd": "write",
+  "2ae411b87e71915786fb9f652cb42cf06bd7b41d8bb31f791a56fc9984b9569f": "write",
+  "73493762c92e29a144e95628ad48aefcbacabce7e017afc69505e32ff2007e9f": "write",
+  "f081831dd55a507d0cbdbfc44b4f6829b7472e29f1af6b0f038769869cf1d23a": "read",
+  "2c3c791752bdca94dddbc90d49cb1d873c53776f42e8a38a2d4103c478d8cdbd": "write",
+  "c81b2753d3065f63754f84acb831587da03d36b7eeb5ff233a456e80feabb838": "read",
+  "3b290b0f90b2dcd9ece2d6f0b3095041d367dc4920132ab8b6a8cc71123cb851": "write",
+  "852b61c72d0ef64bcb324a34150c3b98d9d875452486fa1e9ae010b415f5c5a9": "read"
+ },
+ "flags": []
+}

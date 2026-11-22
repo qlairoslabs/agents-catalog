@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "83a2ebfb3f1babcd74cf514ed59faa18dc2395cb533c1ad7d6051e32c4b6bb14",
+ "domain": [
+  "research/people-search",
+  "security/osint"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Researches a person's public online footprint from a name, phone number, email or username, with sources.",
+ "whenToUse": "Use when there is a legitimate need to research public information about a specific person.",
+ "tasks": [
+  "search a person by name",
+  "search by phone number",
+  "search by email",
+  "search by username",
+  "return sourced findings"
+ ],
+ "effects": {},
+ "flags": [
+  "people lookup from phone or email is privacy-sensitive and could enable doxxing"
+ ]
+}

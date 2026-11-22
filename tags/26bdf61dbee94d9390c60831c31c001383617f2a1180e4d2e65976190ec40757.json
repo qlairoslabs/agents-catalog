@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "26bdf61dbee94d9390c60831c31c001383617f2a1180e4d2e65976190ec40757",
+ "domain": [
+  "web/seo",
+  "ai/agent-readiness"
+ ],
+ "product": [
+  "agenticplug"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scans a public website against 35 checks for AI agent and AI search readiness and explains each result.",
+ "whenToUse": "Use when the user wants to know how well a website supports AI crawlers, agent protocols, agentic commerce and AI search.",
+ "tasks": [
+  "scan website for agent readiness",
+  "check robots.txt and AI crawler rules",
+  "check agentic commerce protocols",
+  "check AI search foundations",
+  "explain individual checks"
+ ],
+ "effects": {
+  "b2ca7fb60ee714a708ce7972354a25ade3f2f364bdfe1e40139c6fad7d8ddf56": "write",
+  "072248d50f7f118e694a9bfcdb95c124528e280a5ee0090440f28cc19f6f3068": "read"
+ },
+ "flags": []
+}

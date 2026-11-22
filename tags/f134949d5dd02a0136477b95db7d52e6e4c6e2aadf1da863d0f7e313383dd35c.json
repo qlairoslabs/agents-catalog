@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f134949d5dd02a0136477b95db7d52e6e4c6e2aadf1da863d0f7e313383dd35c",
+ "domain": [
+  "commerce/e-commerce-analytics",
+  "finance/accounting"
+ ],
+ "product": [
+  "zobrx"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only access to zobrx e-commerce data including P&L, orders, inventory, marketplace, tax and shelf insights.",
+ "whenToUse": "Use when an agent needs to report on e-commerce profit, orders, inventory or marketplace performance from zobrx.",
+ "tasks": [
+  "view profit and loss",
+  "view orders",
+  "view inventory",
+  "view marketplace data",
+  "view tax data",
+  "view shelf insights"
+ ],
+ "effects": {},
+ "flags": []
+}

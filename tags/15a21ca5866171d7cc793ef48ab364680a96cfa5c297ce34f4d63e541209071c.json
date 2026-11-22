@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "15a21ca5866171d7cc793ef48ab364680a96cfa5c297ce34f4d63e541209071c",
+ "domain": [
+  "productivity/file-conversion",
+  "documents"
+ ],
+ "product": [
+  "changethisfile",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Converts files between many formats, compresses files to a target size, and offers paid document translation and table extraction.",
+ "whenToUse": "Use when you need to convert, compress, translate or extract tables from a document, image or video file.",
+ "tasks": [
+  "convert file format",
+  "list conversion routes",
+  "translate documents",
+  "extract tables to Excel",
+  "compress to target size",
+  "run plain-language file jobs",
+  "check job status"
+ ],
+ "effects": {
+  "5e3e07cba89989711682fbc1f93a830e3cb26ceb323fcfda5829a1bd3502428e": "write",
+  "df3da3b7060cfd24bc7f277c7960a7a5411171601e0d2361d60512c3f432f78f": "read",
+  "4150ab1e5283da6f69b9f19a9a5d8d74ffe9e3727435e789b376c1027991ff4e": "write",
+  "a58eae38244e9c03ab266700979bdad6f37f10a6d4292225126c209b214d163c": "write",
+  "f4151c33abbb1f474a78c8e87868d1173e66502af34dde6bb8463f3d504c47f8": "write",
+  "f538606df25e6d3a60a93f693433024b85266d519895bf8d1f2ce8400eb7ed14": "write",
+  "7c1a8de491455c19a78ee1a35d2e0047cfa3845a750c9d76f8025c197bfbc2a2": "read"
+ },
+ "flags": []
+}

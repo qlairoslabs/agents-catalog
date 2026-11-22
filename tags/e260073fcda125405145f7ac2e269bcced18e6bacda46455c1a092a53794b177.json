@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "e260073fcda125405145f7ac2e269bcced18e6bacda46455c1a092a53794b177",
+ "domain": [
+  "services/human-in-the-loop",
+  "automation"
+ ],
+ "product": [
+  "human-for-ai"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Lets an agent hire a human operator for real-world verification, product testing, AI output review and errands, with task and message tracking.",
+ "whenToUse": "Use when a task needs a real person, such as physical verification, human judgment or testing an app.",
+ "tasks": [
+  "view services",
+  "submit human task",
+  "check task status",
+  "message operator",
+  "read message thread",
+  "reply in thread"
+ ],
+ "effects": {
+  "a7b174d6ea5602b8b9345497913c68aec43564763488766e2cb75ad791ea7943": "read",
+  "1c0a6631c5620a16ac73d602bf97cb134c701a50457ef3d06347b02108b932f4": "write",
+  "82a2ebd0de3891f7da1c0da6c89426a2c1dcbbb3bd3fa12954d0939001e723b6": "write",
+  "c7212b85ae93e37ede55903a5712f8f9fe952da071803c4ded31767f0cf4284b": "write",
+  "ac16dea5756309ce07a14781a5344c69ec6d2cca9c57b150874713f6fdc478a0": "read",
+  "2c65f34af2a04df2d574c910be21019e6c1ac84995b320f4f80ce43a8f749d26": "write"
+ },
+ "flags": []
+}

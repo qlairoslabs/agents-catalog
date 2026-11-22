@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "676cfe42461992eee0f327980f3f98abea2d407d2dbf0ca4a2ff69c1c1852470",
+ "domain": [
+  "ai/model-benchmarks",
+  "research/market-data"
+ ],
+ "product": [
+  "benchlm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Current AI model rankings, API prices, benchmark results and their history from BenchLM.",
+ "whenToUse": "Use when an agent needs to compare AI models by benchmark scores or API pricing.",
+ "tasks": [
+  "get model rankings",
+  "get api prices",
+  "get benchmark results",
+  "view ranking history"
+ ],
+ "effects": {},
+ "flags": []
+}

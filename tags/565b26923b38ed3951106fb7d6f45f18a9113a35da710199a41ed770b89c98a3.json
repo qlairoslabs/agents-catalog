@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "565b26923b38ed3951106fb7d6f45f18a9113a35da710199a41ed770b89c98a3",
+ "domain": [
+  "legal/real-estate",
+  "legal/landlord-tenant"
+ ],
+ "product": [
+  "abdilla-and-associates",
+  "chicago-title"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "sell"
+ ],
+ "summary": "Drafts Illinois eviction notices and seller net sheets, and can forward them and contact details to a law firm for review or closing.",
+ "whenToUse": "Use when an Illinois landlord needs an eviction notice draft or a seller wants a closing cost estimate.",
+ "tasks": [
+  "draft eviction notice",
+  "send notice for attorney review",
+  "estimate seller net sheet",
+  "open closing file",
+  "get flat fees",
+  "request form document pack",
+  "submit identity protection intake",
+  "list agent resources"
+ ],
+ "effects": {
+  "86092e48ca6df10d90a98be99f61295c4579145c4f42ff2e54b92dc0b76989ec": "write",
+  "29a50e324f2c767b74c94c59793361b0ac62c101fdaa79b0f8f2bbd4b1931360": "write",
+  "219b7e82f0cf8bcde1345c856c135cfc3a04a56f402146cc942fb2c313f5d0e9": "write",
+  "d2474c00f9e78379bf6fb865e48d0b076f467951fe9812fb617f9a88d771de20": "write",
+  "213a7d17410023eed5a513f962e0a42f5b487a2c040d47b5a01fc3ca06db7448": "read",
+  "881acae2ebbaa17b603ebdca8738f80ffba1281c6125b5f677e711464666a914": "write",
+  "3765f860ac842a3cd080f6c49c8a5215c4d14fa1b55e5cc5ed8c441ca3c184c9": "write",
+  "d0f3ba1aa97fdc7bcb20d069bb66810b00e2a406e0bb16a969fb9c5348398eb9": "read"
+ },
+ "flags": []
+}

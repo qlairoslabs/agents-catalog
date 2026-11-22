@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ed9cbf7564488e88a837daebb323586033fdaa969386778bbeff2e66004c8fd9",
+ "domain": [
+  "knowledge/business-context",
+  "productivity/notes"
+ ],
+ "product": [
+  "lotsnotes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Shared notes holding business context such as positioning, customers, decisions and rules for AI agents to read.",
+ "whenToUse": "Use when an agent needs the team's documented business context, decisions or rules before acting.",
+ "tasks": [
+  "read business notes",
+  "write business notes",
+  "look up decisions",
+  "look up rules"
+ ],
+ "effects": {},
+ "flags": []
+}

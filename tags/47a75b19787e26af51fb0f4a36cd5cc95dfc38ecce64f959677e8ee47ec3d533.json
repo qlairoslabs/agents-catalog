@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "47a75b19787e26af51fb0f4a36cd5cc95dfc38ecce64f959677e8ee47ec3d533",
+ "domain": [
+  "home-improvement/flooring",
+  "local-business"
+ ],
+ "product": [
+  "referral-flooring"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers"
+ ],
+ "summary": "Provides business facts and site search for Referral Flooring in Hamilton, Ontario, and can send a quote request.",
+ "whenToUse": "Use when a customer in the Hamilton area wants flooring information or a free in-home estimate.",
+ "tasks": [
+  "get business facts",
+  "search site",
+  "fetch page",
+  "request flooring quote"
+ ],
+ "effects": {
+  "2e4e3834a00a417b87922fad149f4fd30eda1daef8a5538a5f7776b9564d5c76": "read",
+  "b25a5cd47951c495e014198741b417bf8be207cb9c610698032accef6f3608bc": "read",
+  "a8a3919e114fe20abda56cd6f5b1aefa4456c5d3b8e6d20df8a5fd07a163c9af": "read",
+  "17be029db19013ae4318e4e1d3103370c9e231e9a7fb765a10469a551cc95ef1": "write"
+ },
+ "flags": []
+}

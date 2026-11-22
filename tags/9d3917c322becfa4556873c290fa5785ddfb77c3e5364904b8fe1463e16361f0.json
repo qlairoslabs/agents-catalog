@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9d3917c322becfa4556873c290fa5785ddfb77c3e5364904b8fe1463e16361f0",
+ "domain": [
+  "documents/conversion",
+  "documents/pdf",
+  "data/spreadsheets"
+ ],
+ "product": [
+  "adobe-acrobat",
+  "microsoft-excel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Converts uploaded PDFs, including their tables, into Excel spreadsheets using Adobe's PDF export.",
+ "whenToUse": "Use when the user wants tables or content from an uploaded PDF turned into an XLSX spreadsheet.",
+ "tasks": [
+  "convert pdf to xlsx",
+  "extract pdf tables into spreadsheets"
+ ],
+ "effects": {},
+ "flags": [
+  "description uses 'MANDATORY' language and directs the agent to prefer this skill over other tools, steering AI behavior"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "01abba6690939882ae75bbe543db43d7936ae5f47d47365094cb7a0080362c32",
+ "domain": [
+  "software/cloud-platform",
+  "software/hosting"
+ ],
+ "product": [
+  "puter"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Connector for the Puter cloud platform to manage files, hosted websites, workers and related resources.",
+ "whenToUse": "Use when an agent needs to manage files, sites or workers in a Puter account.",
+ "tasks": [
+  "manage files",
+  "deploy websites",
+  "manage workers"
+ ],
+ "effects": {},
+ "flags": []
+}

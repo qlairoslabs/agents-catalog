@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d5551ff70d08d707a7a945caa6e30d3d2ca1212447cda10b889422f2963f5536",
+ "domain": [
+  "media/live-streaming",
+  "media/broadcasting"
+ ],
+ "product": [
+  "upstream"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "create-content",
+  "schedule"
+ ],
+ "summary": "Connector to manage 24/7 live streams, media, playback queues, schedules and multistreaming.",
+ "whenToUse": "Use when an agent needs to manage live streams, media libraries, playback queues or stream schedules in Upstream.",
+ "tasks": [
+  "manage live streams",
+  "manage media",
+  "manage playback queues",
+  "manage schedules",
+  "configure multistreaming"
+ ],
+ "effects": {},
+ "flags": []
+}

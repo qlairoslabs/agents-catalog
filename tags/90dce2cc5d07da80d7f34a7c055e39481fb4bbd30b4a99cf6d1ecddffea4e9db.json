@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "90dce2cc5d07da80d7f34a7c055e39481fb4bbd30b4a99cf6d1ecddffea4e9db",
+ "domain": [
+  "design/design-systems",
+  "software/frontend"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives coding agents a design system to check UI code against, returning design tokens and specific fixes.",
+ "whenToUse": "Use when an agent builds or reviews UI and should conform to a team's design system.",
+ "tasks": [
+  "look up design tokens",
+  "check ui against design system",
+  "suggest ui fixes"
+ ],
+ "effects": {},
+ "flags": []
+}

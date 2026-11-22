@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "d2697264c6123280221cc370bf56978b2eab701acc61eddaedde3f1e6fc7102d",
+ "domain": [
+  "ai/image-generation",
+  "design/creative"
+ ],
+ "product": [
+  "promptfrenzy"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Finds tested AI image and video prompts and renders them on the user's PromptFrenzy account using credits.",
+ "whenToUse": "Use when a user wants to make a stylised image or video such as a toy or poster version of a photo.",
+ "tasks": [
+  "search prompts",
+  "read prompt details",
+  "generate images",
+  "animate images to video",
+  "check generation status"
+ ],
+ "effects": {
+  "7cca8be41c968e3a19c6f7b06333e27e470e59ff1c31c7ed72ffd44c357043be": "read",
+  "a28bee42a5772f869e117cef6d72b3b4e502c8feafdcd9909e8dcc1df00ad827": "read",
+  "770d2fb6da22a36c183c9a051b57289d2ce1caae39bcce78c17429f4b160ffa9": "write",
+  "7ce5bde637f7cc3c6a17a3f6cf8afe761b8586f180ffb30e9324e3589396aae3": "write",
+  "1f4ab3e3efab49f1fabe63206d43a442fcd16c98fc80824f99e2e8f4006d042e": "read"
+ },
+ "flags": []
+}

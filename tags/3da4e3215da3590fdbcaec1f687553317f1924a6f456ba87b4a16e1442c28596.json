@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3da4e3215da3590fdbcaec1f687553317f1924a6f456ba87b4a16e1442c28596",
+ "domain": [
+  "data/email-classification"
+ ],
+ "product": [
+  "emailkind"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Classifies email addresses and domains by provider and type, such as business, personal or disposable.",
+ "whenToUse": "Use when you need to tell whether an email address or domain is business, personal or disposable.",
+ "tasks": [
+  "classify email address",
+  "classify domain",
+  "identify email provider",
+  "detect disposable emails"
+ ],
+ "effects": {},
+ "flags": []
+}

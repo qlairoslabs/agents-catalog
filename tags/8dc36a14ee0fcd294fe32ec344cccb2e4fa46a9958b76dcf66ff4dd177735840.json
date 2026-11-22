@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "8dc36a14ee0fcd294fe32ec344cccb2e4fa46a9958b76dcf66ff4dd177735840",
+ "domain": [
+  "hr/job-search",
+  "ai"
+ ],
+ "product": [
+  "ai-dev-board"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Search and match AI/ML jobs, view salaries and companies, build job-specific resumes and submit candidate-approved applications.",
+ "whenToUse": "Use when a candidate looks for AI/ML roles, salary data or wants a tailored resume and application.",
+ "tasks": [
+  "search jobs",
+  "match jobs to skills",
+  "get salary benchmarks",
+  "get company profiles",
+  "analyze application readiness",
+  "compile tailored resume",
+  "approve compiled application",
+  "apply to job",
+  "record outcomes",
+  "list interview outcomes",
+  "quote employer pilot"
+ ],
+ "effects": {
+  "7b8690f863bc5784b428d59c5bca4811b454b19516ffe3f3dc470e7f7a41be99": "read",
+  "bfdd396bbc17afa303a2182f59f77f3ea842da3785b76d247b778f73c3a18cfe": "read",
+  "0bf68d76bda59358af6ae03e0f687c18649e9c2b8155f8cf332df4b4358c1200": "read",
+  "bedc1952d72c88b94c078a86b027875783f1a879ce87c5debcb03c3e4e50307d": "read",
+  "0b6e4ba1dd08bfb43851f98271e20bdfd728b23f85ec5d342922d302db6c7310": "read",
+  "2f6649818b86f93c22e2b4acaf390b6b2f6855e1f4c10bd682bad8ba11768043": "read",
+  "5474c44806b67285d757cb89113c906b1dcb8601ff33321ec85d6a92add8e406": "read",
+  "b95ad86162a22035ed8eea91526e5a28e4798847e2b51f2197eafe0eb4adf519": "read",
+  "25628df09cb5f2e2c0beed413e5b8addd86a324686faafde67f918b474876bdb": "read",
+  "7f44db63af026af95cebb2e0637e77daa710981e546ebc7d0f70ad706bb12b52": "read",
+  "61a3fd681fd628ddf282e3af68879c5c606a3ba841bbf0ea1828eecd687b079e": "read",
+  "9b08af95147d8d9d6f1308a7b8889c774345bfa47c69faacfc7f485f63424308": "write",
+  "393a7e8a0d597ef9be9a6247809b404dd92463b382d047886074f3be511eeb50": "write",
+  "515671530f8e614db5643ae4412feec3dd45968b50e335e92169c9d16a2f0a64": "write",
+  "337d053ad65cfcec7798417b3b2c3e05bc8aaacae759b3e44990da98c966ce6d": "write",
+  "94e0c12846e229ab4150ba3e450efdd3ae7e8123ae348eab2919df53d94ae86a": "read",
+  "c54b3d844f98319e3562b325d157b1071226b0679004442f4e34c7355dfbc91e": "write",
+  "0b503fafc5ab4c2d7ed4e93d5361b44592754bc7d2c9eca85ec16429be57867f": "read",
+  "d58ab6982065b66f76d0d39f5628f28314899ef0ddacd20e7294e0b4e5cb4bdd": "read",
+  "7f9224847d91af4b9d94a15e24e0e8f51966b696dfed48e0472dd0f1f050233d": "read"
+ },
+ "flags": []
+}

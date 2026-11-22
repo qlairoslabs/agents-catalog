@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "f113438608aa3e59332793eb550e46baab4646c6dd1a95baf6b16ce44f3a9d89",
+ "domain": [
+  "finance/fx-macro"
+ ],
+ "product": [
+  "eurusd",
+  "gbpusd",
+  "usdjpy",
+  "federal-reserve",
+  "ecb",
+  "bank-of-england",
+  "bank-of-japan"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Macro context for FX trading: US data releases versus consensus, central bank statement changes, historical analogs and market reactions.",
+ "whenToUse": "Use when the user asks what a US macro release printed, how central bank language changed, or what could move EURUSD, GBPUSD or USDJPY.",
+ "tasks": [
+  "compare central bank statements",
+  "get release actuals and surprise",
+  "find historical analogs",
+  "summarize historical reactions",
+  "get market reaction metrics",
+  "list upcoming macro risks"
+ ],
+ "effects": {
+  "53bc4d46d2ec4fe8176fe7cefa5140a3839ec12cbb0a76573f69ee10bc9eea46": "write",
+  "0a0e0adf7109e260b1491c8e1ee8b908080247e6111b3eaa63e95eec2b4f6b06": "write",
+  "abea7b37f1eda6239beeb592fefec6de9178a74a99e2aa6b1291d838afba5186": "write",
+  "9742c9e017d614e85ef97492c6d318fc3480c8c99141a7f0089a8b3f4f9b7f4d": "write",
+  "e7d9dd27b599ecf435e0a7c974d0f65c9ca4442d94954c468f615b847c81bef6": "write",
+  "4de2fee607a1c4a87564130155dbe7ebef85e6bd7e51c7665372f088bc50214b": "write"
+ },
+ "flags": []
+}

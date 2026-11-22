@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "a9dba33fb203f9f35e801aac31d90132b5fbf3fc7abab467f9e981f3d02303ce",
+ "domain": [
+  "software/documentation",
+  "software/developer-tools"
+ ],
+ "product": [
+  "liteship",
+  "batpak",
+  "free-battery-factory"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searchable documentation for Free Battery Factory products such as LiteShip and batpak, readable as Markdown pages.",
+ "whenToUse": "Use when writing code against LiteShip or batpak and you need their docs or API reference.",
+ "tasks": [
+  "list products",
+  "search docs",
+  "fetch doc page",
+  "get full agent reference link",
+  "describe page layout dimensions"
+ ],
+ "effects": {
+  "e6fee3b4cb34948f8a896efe02b403e7dac6a9174a135e8b41e649909184e0ae": "read",
+  "bc5afc65d92b8fce7641a54db9bdcd1825ef9df275426eb7a40ed25d2912785b": "read",
+  "e3467c229cabce83b17249a9f869f8ccbcfe0663dd147bfe31754f89d0e1254e": "read",
+  "ac62371b812cd8d2f676ddb20cc37038ac25d116ab82c6bc96bae0c259114f53": "read",
+  "43428454a8bc0cd12375f341c44acfcb393bb2712744116f0b8d19049c53edb5": "write"
+ },
+ "flags": []
+}

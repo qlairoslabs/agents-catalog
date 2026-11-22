@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5b5bf2e434ade392b37cc946072bd9308615929c0df294ccbae735131b7a570d",
+ "domain": [
+  "web/page-hosting",
+  "collaboration/sharing"
+ ],
+ "product": [
+  "sharemypage"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "work-as-a-team"
+ ],
+ "summary": "Hosts AI-generated HTML or Markdown pages and shares each as a link with comments and access control.",
+ "whenToUse": "Use when an agent has produced an HTML or Markdown page that the user wants to publish and share.",
+ "tasks": [
+  "host html pages",
+  "host markdown pages",
+  "share page links",
+  "manage comments",
+  "manage access"
+ ],
+ "effects": {},
+ "flags": []
+}

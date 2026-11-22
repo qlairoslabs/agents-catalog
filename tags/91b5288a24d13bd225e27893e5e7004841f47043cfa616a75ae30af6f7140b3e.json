@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "91b5288a24d13bd225e27893e5e7004841f47043cfa616a75ae30af6f7140b3e",
+ "domain": [
+  "software/devops",
+  "software/version-control",
+  "software/ci-cd"
+ ],
+ "product": [
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "GitLab integration for repositories, merge requests, CI/CD pipelines, issues and wikis.",
+ "whenToUse": "Use when working with GitLab projects, merge requests, pipelines or issues.",
+ "tasks": [
+  "manage repositories",
+  "manage merge requests",
+  "run ci/cd pipelines",
+  "manage issues",
+  "edit wikis"
+ ],
+ "effects": {},
+ "flags": []
+}

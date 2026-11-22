@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "88b128ca4ccfa58fd96aee98251b79b391ab1db3a9cb677e67794a20e6af182b",
+ "domain": [
+  "software/ai/agent-frameworks"
+ ],
+ "product": [
+  "atomic-agents"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps design BaseIOSchema input and output schemas for Atomic Agents agents and tools.",
+ "whenToUse": "Use when a user needs to define or design input/output schemas in an Atomic Agents project.",
+ "tasks": [
+  "design input schema",
+  "design output schema",
+  "write field descriptions",
+  "add validators",
+  "define error variants"
+ ],
+ "effects": {},
+ "flags": []
+}

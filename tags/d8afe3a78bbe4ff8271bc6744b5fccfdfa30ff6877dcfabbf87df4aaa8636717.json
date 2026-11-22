@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d8afe3a78bbe4ff8271bc6744b5fccfdfa30ff6877dcfabbf87df4aaa8636717",
+ "domain": [
+  "social-media/reddit",
+  "research/social-listening"
+ ],
+ "product": [
+  "reddit"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches, browses and analyses Reddit with optional posting; requires already-approved Reddit API access.",
+ "whenToUse": "Use when an agent needs to research Reddit discussions or trends, and occasionally post.",
+ "tasks": [
+  "search reddit",
+  "browse subreddits",
+  "read posts and comments",
+  "analyse users",
+  "create posts"
+ ],
+ "effects": {},
+ "flags": []
+}

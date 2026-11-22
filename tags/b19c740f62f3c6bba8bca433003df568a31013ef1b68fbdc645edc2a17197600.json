@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b19c740f62f3c6bba8bca433003df568a31013ef1b68fbdc645edc2a17197600",
+ "domain": [
+  "software/ai-infrastructure",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "speakeasy"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Lets an agent secure and manage MCP servers through Speakeasy's AI control plane.",
+ "whenToUse": "Use when an agent needs to administer or secure MCP servers managed in Speakeasy.",
+ "tasks": [
+  "manage mcp servers",
+  "secure mcp servers",
+  "configure control plane"
+ ],
+ "effects": {},
+ "flags": []
+}

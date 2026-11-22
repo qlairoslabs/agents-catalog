@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "36f9fd9624cc68f21176361f0f592d43586bdeb15642b521085085f9633ba013",
+ "domain": [
+  "ai/tool-directory",
+  "marketing/listings"
+ ],
+ "product": [
+  "agentsindex",
+  "stripe"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Editorial index of AI software with search, comparisons and rankings, plus listing submission, leads and paid listing upgrades.",
+ "whenToUse": "Use when the user wants to research or compare AI tools, or manage and promote their own listing on AgentsIndex.",
+ "tasks": [
+  "search AI tool listings",
+  "get listing details",
+  "compare two tools",
+  "get best-of category rankings",
+  "submit a listing",
+  "send a buyer enquiry",
+  "list paid offers",
+  "get a price quote",
+  "create an order",
+  "view owned listings"
+ ],
+ "effects": {
+  "01f2c487eea16746f61c80412de671e54cf3f73335a29febbf94fedef519c5d3": "read",
+  "2d8c3a6131947c6e5c527b5afb158d7bf6b6e7cc035a31c83c91c0857e9b238c": "read",
+  "84ba4d7b723313ae1e637be1f66e35007d3de8a477bb2bad418d7624939bb6b9": "read",
+  "11b560e5118550a88081aea5807ab4fe2927d41d0a69d98f15f834501af48d4d": "read",
+  "e101c025033085eb7523e3618a3a31bbc3a5f0f61353f82aef2c91a095c2b180": "read",
+  "18fa0d4ae683c3bce3b4df2e29af516c038c571f38bb7c7af490294b660fe078": "write",
+  "792e155a37e6885f9f5ae913cf9b880831bba0b609e16794062f0caab6dbf80f": "write",
+  "b35e9e4f105b9a5421fa5d4c0104f2fc0a9c972014f52a482d2194b8f8546257": "read",
+  "e698153207aa7011bad391bbdadc8f69ff6a1e5d19d91c0a669259a7f15e473e": "read",
+  "8806331f313cfd5e1a8e6c11c884831421df546577d3e19570aee5ba48ed9e57": "write",
+  "211afb5ce908f8f9fe0d6ae5513070b27fbfe7371c08114c66f721cec6de075d": "write"
+ },
+ "flags": []
+}

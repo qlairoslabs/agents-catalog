@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c131c4bd38fe170b06ebddc2d6a3d856237de80095c2b54fd51635c4d100cb1e",
+ "domain": [
+  "data/addresses/vietnam",
+  "government/administrative-divisions"
+ ],
+ "product": [
+  "dorabot"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Converts pre-2025 Vietnamese addresses to the post-merger administrative format and validates new addresses.",
+ "whenToUse": "Use when you need to update or validate Vietnamese addresses after the 2025 administrative unit merger.",
+ "tasks": [
+  "convert old addresses",
+  "validate new addresses",
+  "map administrative units"
+ ],
+ "effects": {},
+ "flags": []
+}

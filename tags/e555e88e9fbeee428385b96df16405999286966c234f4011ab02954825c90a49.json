@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e555e88e9fbeee428385b96df16405999286966c234f4011ab02954825c90a49",
+ "domain": [
+  "supply-chain/supplier-sourcing",
+  "logistics"
+ ],
+ "product": [
+  "mati-logistics"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds and ranks suppliers by fit using customs records, catalogues and business directories.",
+ "whenToUse": "Use when a user needs to identify and compare potential suppliers for a product.",
+ "tasks": [
+  "search suppliers",
+  "rank suppliers by fit",
+  "review customs records"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b7e7f124314885d2380792e8e3d4bf70a0fc704577b8b9ad6fffc47d26e5793c",
+ "domain": [
+  "finance/payments/crypto",
+  "finance/invoicing"
+ ],
+ "product": [
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Creates and sends USDC invoices on the Base network, shares payment links and tracks payments and customers.",
+ "whenToUse": "Use when an agent needs to bill someone in USDC on Base or check whether crypto invoices have been paid.",
+ "tasks": [
+  "send invoices",
+  "share pay links",
+  "track payments",
+  "manage customers"
+ ],
+ "effects": {},
+ "flags": []
+}

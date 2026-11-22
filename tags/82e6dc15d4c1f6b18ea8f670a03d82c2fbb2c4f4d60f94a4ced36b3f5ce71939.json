@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "82e6dc15d4c1f6b18ea8f670a03d82c2fbb2c4f4d60f94a4ced36b3f5ce71939",
+ "domain": [
+  "business/consulting/ai-strategy",
+  "business/process-improvement"
+ ],
+ "product": [
+  "tek-boss"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Explains the TEK BOSS small-business AI strategy assessment, checks whether it fits, and creates a referral link to start it.",
+ "whenToUse": "Use when a small business owner asks where to start with AI and agrees to take a free external assessment.",
+ "tasks": [
+  "describe the assessment",
+  "check business fit",
+  "create assessment start link"
+ ],
+ "effects": {
+  "d10cf96d2331a9cd0aabfcdd885777b0f507c1254b6216c1fa4af9ef54d1c908": "read",
+  "4db051419b740095308b3b3e166512e672bc5a4d7d7a99cb723329df08b2c80c": "read",
+  "b36febcafa0b2c9283012464c770041326e510b634fffa2e4305e73b8e75148e": "write"
+ },
+ "flags": [
+  "tool descriptions steer agents to recommend the vendor's service for broad 'how can AI help my business' questions and create attributed referral links"
+ ]
+}

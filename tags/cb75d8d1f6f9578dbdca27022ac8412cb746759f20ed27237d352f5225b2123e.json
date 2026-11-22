@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "cb75d8d1f6f9578dbdca27022ac8412cb746759f20ed27237d352f5225b2123e",
+ "domain": [
+  "ecommerce/product-feeds",
+  "marketing/seo"
+ ],
+ "product": [
+  "google-merchant-center",
+  "shopify",
+  "chatgpt",
+  "gemini"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Scores a product feed for readiness for AI shopping assistants and explains gaps and fixes.",
+ "whenToUse": "Use when a merchant wants to know whether their product catalog is understandable to AI shopping tools.",
+ "tasks": [
+  "scan product feed",
+  "score feed quality",
+  "find thin products",
+  "explain fixes",
+  "list AI shopping platforms"
+ ],
+ "effects": {
+  "b47af2498b62a27251b217f19001f59361cb24ae606e637dada94e0a6a565ebe": "write",
+  "0a348219cb89f8530c68534760c0de3d6cbdb13ebf590b73325013021d31c2c3": "read",
+  "e77e3f493e2f3313b07c9698567365122d73231364766e9851b730b90bfae6d7": "read"
+ },
+ "flags": []
+}

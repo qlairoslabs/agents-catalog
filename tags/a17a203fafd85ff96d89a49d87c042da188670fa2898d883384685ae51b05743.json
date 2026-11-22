@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "a17a203fafd85ff96d89a49d87c042da188670fa2898d883384685ae51b05743",
+ "domain": [
+  "retail/coffee"
+ ],
+ "product": [
+  "nimcoffee",
+  "wechat-pay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Order specialty roasted coffee from NiMCoffee in Fuzhou: browse products, verify by SMS, place and pay orders, and check membership and stores.",
+ "whenToUse": "Use when a customer wants to browse, order or reorder NiMCoffee products or check an order.",
+ "tasks": [
+  "send sms code",
+  "search products",
+  "get recommendations",
+  "create order",
+  "pay with wechat qr",
+  "pay with balance",
+  "track order",
+  "cancel order",
+  "reorder",
+  "view membership and coupons",
+  "list stores"
+ ],
+ "effects": {
+  "62f7ba4422e791165b3548ac753c0d50893810ab26b2db5238fd907719c6c62c": "write",
+  "45569ae8216c9b6d06bf4f069cb11ffc3fcd537daa613e66fb2b046eb86959cb": "write",
+  "83a14bf45cf1e05bfcd29725195cc2f80780d1bcaabd5fa1055818f57945f007": "read",
+  "0e6803ffe0dd41a6a08ea2cf1c44e81d5c960977afb07694cb880743e976aace": "read",
+  "2251c95ba8fa79153e2866c0e57e3be5c3a5b8aa1de2fa9d3fdc79be5184c315": "read",
+  "24af5e1642c518611ffae5c862e76ab3ad10b24cee7482e890285cf79870f7e3": "write",
+  "9f9fe64f64de5ef49b0d2b20bfd2c9a9147fd8ec34faa3d83c4e7d157a37e7f2": "read",
+  "512336542decda3598d68cd5685493d36ae17bf4f1de2ed3e677b875add5b21b": "risky",
+  "fa3a96a6e49f2c6d3053d2ed12cbf00ad847052d1ae23f45528898558d09ac4d": "read",
+  "77f845221ffae3c0266e59ea0012ee0e4437b56ad6431b179d656f67bf9d7ce3": "read",
+  "744447224dcfc05f546c09dca21d2ed8caf6708b85f9e20ffa9cf9d1fc1fcd91": "write",
+  "a32dad3619ac023afaa3392e23fce0016e21a70a36b95febc81c02d14dad8bd1": "read",
+  "75e8f9baa13949e53d8bd6a2cf0fa2aa575cd6c318e635c897057e887b3ded4d": "write",
+  "44629c8a326c31661695466f5beb11987ebe6668bc4b3b95a268a827ab0d9069": "read",
+  "a80d2bac4ef8e6d57368fdb68d79120a5bd665f85dd7442dccdab4297285de90": "read",
+  "c455bac1850ea25b655af44c55e1d328c2f31a757d732d0095fae096804ee15d": "read"
+ },
+ "flags": []
+}

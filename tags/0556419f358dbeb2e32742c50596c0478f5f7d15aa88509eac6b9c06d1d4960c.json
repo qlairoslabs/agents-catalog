@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "0556419f358dbeb2e32742c50596c0478f5f7d15aa88509eac6b9c06d1d4960c",
+ "domain": [
+  "printing/online-print",
+  "ecommerce"
+ ],
+ "product": [
+  "fulfiller"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Searches Fulfiller's French online print catalogue, validates product configurations, returns real quotes by quantity and manages anonymous carts.",
+ "whenToUse": "Use when pricing print products such as business cards or banners in the EU and building a cart.",
+ "tasks": [
+  "search print products",
+  "resolve product by SKU or URL",
+  "get product details",
+  "get configuration options",
+  "validate selection",
+  "quote product",
+  "quote by quantity tiers",
+  "create cart",
+  "update cart",
+  "delete cart"
+ ],
+ "effects": {
+  "d50cb98496433da3b2efe30267f56145f44054fe01bc435467f0daf2c60160c7": "write",
+  "78bae61de499731cd2d22dd807299161c53b83c9cd18181603b76bdc48779d07": "read",
+  "47fb27cc0abf3b7c520de6fbb99e3ad4385a85d549dca371a749d4552c74bdea": "write",
+  "76dd557f527ceb3088d0fdbbf7b17600c3323f35ac60756db9fdfd9373904fed": "read",
+  "bc1fff0b73279c4be903b3fca53d98b6e2c637e532f437b6ab8f7d5283800ece": "read",
+  "99da973065622593e4bb92652f557d7b4f2c593da265df17843e5f4c3b34e271": "write",
+  "aa30c92bce8df1fe86dce0f28657013d576860b73b76a9db496d924de570e86c": "read",
+  "8b8140b7cb5f525844d76a6a0d9f058e8e23263e5380d3129085fd243f66b206": "write",
+  "aa5ce86b44994b0c5515dcf73ca478496759bc49660f6e141013cda8c4cfbd48": "read",
+  "0476b76276536a50a2e5092b6b8a0186b52bf6a7f9d402ef9e44cd6c0070a4d3": "write",
+  "7e8a30a25dc8bbefecdb2b77aff8725887ec75382a700a4049ff5c6a5c1e2f5d": "write"
+ },
+ "flags": []
+}

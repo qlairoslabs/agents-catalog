@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "9d9f9150e2d019106a7998c971952737afc51ba261e6b0531cc88db2a53bd625",
+ "domain": [
+  "finance/in-app-purchases",
+  "software/mobile-development"
+ ],
+ "product": [
+  "revenuecat",
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "sell",
+  "get-paid",
+  "build-software"
+ ],
+ "summary": "Configure RevenueCat projects, apps, products, entitlements and offerings from Claude Code.",
+ "whenToUse": "Use when an agent needs to set up or change in-app purchase products, entitlements or offerings in RevenueCat.",
+ "tasks": [
+  "configure projects",
+  "manage apps",
+  "manage products",
+  "manage entitlements",
+  "manage offerings"
+ ],
+ "effects": {},
+ "flags": []
+}

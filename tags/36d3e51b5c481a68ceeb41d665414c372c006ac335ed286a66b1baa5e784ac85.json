@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "36d3e51b5c481a68ceeb41d665414c372c006ac335ed286a66b1baa5e784ac85",
+ "domain": [
+  "beauty/salon-booking"
+ ],
+ "product": [
+  "lacquer"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds US nail salons with menus, prices and hours, checks open times and books confirmed appointments.",
+ "whenToUse": "Use when someone wants to find a nail salon in the US or book a nail appointment.",
+ "tasks": [
+  "find salons by city or zip",
+  "get salon menu and hours",
+  "check open appointment times",
+  "book an appointment"
+ ],
+ "effects": {
+  "e7f27f4ff8eb2ab29844775ea6802c750acae9d28851dce9f5c069103a226f8e": "read",
+  "f275582b147fff068114922d1c3ce8fcaa8b3f7b181ddf388ed272025bc0800a": "read",
+  "19830231fcf308f44ef9921ac854a4fa25383c19e19006f7910ccfc96d25edb6": "read",
+  "06bb5e38e1155d991b21eb8c57de676c34c584f932f521567d5f6882e64fa9cb": "write"
+ },
+ "flags": []
+}

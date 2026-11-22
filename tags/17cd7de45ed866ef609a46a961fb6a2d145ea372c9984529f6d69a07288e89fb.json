@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "17cd7de45ed866ef609a46a961fb6a2d145ea372c9984529f6d69a07288e89fb",
+ "domain": [
+  "business/company-registry",
+  "compliance/signing-authority"
+ ],
+ "product": [
+  "apier"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides verifiable Norwegian company status, roles and coded signing authority data.",
+ "whenToUse": "Use when verifying a Norwegian company's status or who may sign on its behalf.",
+ "tasks": [
+  "check company status",
+  "list company roles",
+  "verify signing authority"
+ ],
+ "effects": {},
+ "flags": []
+}

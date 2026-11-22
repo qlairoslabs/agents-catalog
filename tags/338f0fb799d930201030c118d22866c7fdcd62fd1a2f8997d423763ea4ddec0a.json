@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "338f0fb799d930201030c118d22866c7fdcd62fd1a2f8997d423763ea4ddec0a",
+ "domain": [
+  "media/video",
+  "communication/q-and-a"
+ ],
+ "product": [
+  "splark"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "keep-in-touch"
+ ],
+ "summary": "Sends a question and returns a short, captioned single-take video answer.",
+ "whenToUse": "Use when an agent should request or deliver a short captioned video answer to a question.",
+ "tasks": [
+  "send questions",
+  "receive video answers",
+  "caption videos"
+ ],
+ "effects": {},
+ "flags": []
+}

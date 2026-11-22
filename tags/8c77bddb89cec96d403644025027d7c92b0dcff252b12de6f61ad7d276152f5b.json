@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "8c77bddb89cec96d403644025027d7c92b0dcff252b12de6f61ad7d276152f5b",
+ "domain": [
+  "hr/public-sector-recruiting",
+  "education/exam-prep"
+ ],
+ "product": [
+  "alio",
+  "ibtcc",
+  "toeic",
+  "opic",
+  "g-telp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Korean public institution hiring competition ratios, schedules and postings, converts exam scores to TOEIC, and reads a user's roadmap summary.",
+ "whenToUse": "Use when researching Korean public-sector job competition, schedules or postings, or converting G-TELP, OPIc or TOSS scores.",
+ "tasks": [
+  "look up competition ratio",
+  "look up hiring schedule",
+  "look up job postings",
+  "convert exam scores",
+  "get personal roadmap summary"
+ ],
+ "effects": {
+  "114cfa30d9f8b49a201508f92204511388f2b548ba0133f72dcb7d44f6adf50c": "read",
+  "aa0d4a0eb791faf1373980d78c4f8c83b7e1be1c6391e4d91c3534e8aa9a04d1": "read",
+  "160928cb77a1dd03f70b58a91ba56ef8cde0ad40b014d074826d5777494732c0": "read",
+  "42b8187914a9b458eca58330ff5d2873d21a504fd05ce943e4ddb2d2ade7bed2": "read",
+  "4b486e2d184bd366436e52230cc34511fa27a7ef52b27353c2258a09322ebb35": "read"
+ },
+ "flags": []
+}

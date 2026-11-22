@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e4be7818e12914ee6eb4bf2d14bf9f7304d111910e96a02bcebb688ffd1af806",
+ "domain": [
+  "marketing/ai-visibility",
+  "marketing/competitive-analysis"
+ ],
+ "product": [
+  "chatgpt",
+  "claude",
+  "gemini"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks whether ChatGPT, Claude and Gemini recommend a startup's product and which competitors they name.",
+ "whenToUse": "Use when an agent needs to measure a product's visibility in AI assistant recommendations.",
+ "tasks": [
+  "check ai recommendations",
+  "identify competitors named",
+  "track brand visibility"
+ ],
+ "effects": {},
+ "flags": []
+}

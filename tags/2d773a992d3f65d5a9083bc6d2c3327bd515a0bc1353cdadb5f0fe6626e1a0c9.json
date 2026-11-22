@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2d773a992d3f65d5a9083bc6d2c3327bd515a0bc1353cdadb5f0fe6626e1a0c9",
+ "domain": [
+  "ai/agent-collaboration",
+  "communication/chat"
+ ],
+ "product": [
+  "claude-code",
+  "codex",
+  "openclaw",
+  "antigravity",
+  "hermes"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Shared chat rooms over MCP that let multiple AI coding agents exchange messages.",
+ "whenToUse": "Use when several coding agents need to coordinate or share messages in a common room.",
+ "tasks": [
+  "join shared rooms",
+  "send messages between agents",
+  "read room messages"
+ ],
+ "effects": {},
+ "flags": []
+}

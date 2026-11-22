@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7ca8f5d91b265b10a072309d418fe9a19c16edc135e3361ec84c3dbffe3b7cc0",
+ "domain": [
+  "operations/service-monitoring",
+  "software/incident-management"
+ ],
+ "product": [
+  "status-is-down"
+ ],
+ "audience": [
+  "operations",
+  "development",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only outage data: live service status, report history, geographic distribution and report spikes.",
+ "whenToUse": "Use when checking whether a third-party service is down or has recent outages.",
+ "tasks": [
+  "check live service status",
+  "view outage history",
+  "view outage geography",
+  "detect report spikes"
+ ],
+ "effects": {},
+ "flags": []
+}

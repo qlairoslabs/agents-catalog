@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "43fa5d123841cca176c398789c6ea4abcb9b35d7352c3f9262c8ece369af13b7",
+ "domain": [
+  "web/content-extraction",
+  "ai/data-prep"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "create-content"
+ ],
+ "summary": "Converts web pages or raw HTML into clean Markdown or structured JSON, paid per call through x402 micropayments.",
+ "whenToUse": "Use when an agent needs readable Markdown or structured data from a web page, including JS-rendered sites.",
+ "tasks": [
+  "convert page to Markdown",
+  "render JS pages",
+  "extract article text",
+  "extract links and images",
+  "read meta tags",
+  "view pricing info"
+ ],
+ "effects": {
+  "3bf4108386ac1d23d9651cae80f8c1b25642046fbea66df21f6045b41f585265": "risky",
+  "b46797fb8d03dbfebdfa9dfb38ca204f9f27dbce17301ccf09cc201caa8583fa": "risky",
+  "7b15556bbdc4ac5ffb51d27d7463fcd907b850b27c1623c39ac873d7176116cf": "read"
+ },
+ "flags": [
+  "paid tools charge $0.005 per call in USDC via x402"
+ ]
+}

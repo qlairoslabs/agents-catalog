@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "b6f5a7a95df616e3c610a4e232a7db9b8dfb6d205c07b47c24e2c588e643d55f",
+ "domain": [
+  "software/networking/ip-lookup"
+ ],
+ "product": [
+  "cloudflare"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Returns the caller's public IP, ASN, approximate location, timezone, user agent, headers and TLS details.",
+ "whenToUse": "Use when an agent needs to know its own public IP, network or approximate location.",
+ "tasks": [
+  "get public ip",
+  "get asn",
+  "echo request headers",
+  "get ip geolocation",
+  "get connection security info",
+  "get timezone",
+  "get user agent",
+  "get coordinates"
+ ],
+ "effects": {
+  "351ab134f7d3054e29589bdde82b0290296d94aa5d7f55462a3864552e8a342f": "read",
+  "854ade606663da716b415617796f5445a6a00b45e9104c7a88a07ae6dce059b9": "read",
+  "245d3380dc13276cb8d79ac8ed2aadb445b498a44bd8bb5011f07f56ccbc9a77": "read",
+  "fd8f47d880f55544dcb6c208950ce66a6ec546196c9732296e2e5cbce9e4c220": "read",
+  "ce822106cd7106899b05017f5ef61d0535d81d63456d56deebcb25d35520b18a": "read",
+  "9c7cc765abd197aac4f9174e28a9afd4e7bc8bce840c206be83361ef32dfac20": "read",
+  "313ab317e0c2e92cc1f45abdf7b261a6887017d395d021e2acf1aeb619a5b230": "read",
+  "b8951c5f1da4c71d20416f02b83d533da518a8972af3011f16eb47f759b6f192": "read"
+ },
+ "flags": []
+}

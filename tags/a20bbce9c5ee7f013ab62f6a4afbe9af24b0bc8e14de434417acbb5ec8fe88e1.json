@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a20bbce9c5ee7f013ab62f6a4afbe9af24b0bc8e14de434417acbb5ec8fe88e1",
+ "domain": [
+  "software/cybersecurity/malware-analysis"
+ ],
+ "product": [
+  "virustotal"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Queries VirusTotal for security reports on files, URLs, domains and IP addresses.",
+ "whenToUse": "Use when checking whether a file hash, URL, domain or IP is malicious.",
+ "tasks": [
+  "get file reports",
+  "get url reports",
+  "get domain reports",
+  "get ip reports"
+ ],
+ "effects": {},
+ "flags": []
+}

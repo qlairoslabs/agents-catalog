@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6e59cd1c3b4f4c26c39b13ddb4ecc068afe636a54d21d9ca96e22367ab08e98f",
+ "domain": [
+  "software/communications/video-integration",
+  "software/development"
+ ],
+ "product": [
+  "zoom"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps plan, build and debug Zoom integrations using its REST APIs, SDKs, webhooks, bots and MCP.",
+ "whenToUse": "Use when developing or debugging an application that integrates with Zoom.",
+ "tasks": [
+  "plan zoom integrations",
+  "use zoom rest apis",
+  "use zoom sdks",
+  "handle webhooks",
+  "build meeting bots",
+  "debug integrations"
+ ],
+ "effects": {},
+ "flags": []
+}

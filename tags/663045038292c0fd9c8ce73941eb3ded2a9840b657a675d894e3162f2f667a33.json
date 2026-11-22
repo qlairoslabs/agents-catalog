@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "663045038292c0fd9c8ce73941eb3ded2a9840b657a675d894e3162f2f667a33",
+ "domain": [
+  "software/specification",
+  "software/documentation"
+ ],
+ "product": [
+  "squire-docs"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Stores durable, attributed specifications for agent-driven software development.",
+ "whenToUse": "Use when an agent needs to read or record project specs that persist across development sessions.",
+ "tasks": [
+  "store specs",
+  "read specs",
+  "track spec attribution"
+ ],
+ "effects": {},
+ "flags": []
+}

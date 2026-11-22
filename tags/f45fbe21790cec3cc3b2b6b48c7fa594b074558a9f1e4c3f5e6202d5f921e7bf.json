@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f45fbe21790cec3cc3b2b6b48c7fa594b074558a9f1e4c3f5e6202d5f921e7bf",
+ "domain": [
+  "travel/public-facilities",
+  "maps/local-search"
+ ],
+ "product": [
+  "wcway"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Finds the nearest public toilets worldwide with distance, fees, opening hours and accessibility details.",
+ "whenToUse": "Use when a user needs the nearest public toilet near a place or coordinates.",
+ "tasks": [
+  "find toilets near a place",
+  "filter by free, wheelchair, changing table",
+  "check open now",
+  "get toilet details"
+ ],
+ "effects": {
+  "9c41a886dfbb29b9d1d69ff353fdeaef03666244569bd3e55d9d13d989055689": "read",
+  "6bcc35c68eee1acd32e6bb0e6eeddec8ab3cae7c2122fb118807e9b5d7f51a25": "read"
+ },
+ "flags": []
+}

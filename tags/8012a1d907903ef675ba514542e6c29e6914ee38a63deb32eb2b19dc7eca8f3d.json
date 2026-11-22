@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "8012a1d907903ef675ba514542e6c29e6914ee38a63deb32eb2b19dc7eca8f3d",
+ "domain": [
+  "finance/crypto-exchange",
+  "finance"
+ ],
+ "product": [
+  "hiddenswap",
+  "bitcoin",
+  "monero"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Searches coins, checks pairs, quotes no-KYC crypto swaps and checks order status on HiddenSwap; swaps are finished by the user on the site.",
+ "whenToUse": "Use when a user wants a crypto-to-crypto swap quote, pair check or order status from HiddenSwap.",
+ "tasks": [
+  "search coins",
+  "get swap quote",
+  "check pair availability",
+  "check order status"
+ ],
+ "effects": {
+  "f5ce0b7dae88881843ad15411d0fabbc7f28261995c29b08969c95d31dbf770d": "read",
+  "7beea41e98b8cc27b760f76b54a32acbe2e9f50f1213777066d380c213e6f9df": "read",
+  "e7061c60b850538d00d75461535322a478e2cd3af925e1b5d07f14b17d379025": "read",
+  "604953004574d236c9fddc40d3ccc79f6da261b444ddedf4e08b8895518bf002": "write"
+ },
+ "flags": []
+}

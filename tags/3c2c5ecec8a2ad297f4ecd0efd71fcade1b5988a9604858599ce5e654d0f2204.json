@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3c2c5ecec8a2ad297f4ecd0efd71fcade1b5988a9604858599ce5e654d0f2204",
+ "domain": [
+  "media/audio",
+  "ai/speech"
+ ],
+ "product": [
+  "audiopod"
+ ],
+ "audience": [
+  "design",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Audio AI service for transcription with speaker labels, stem splitting, noise removal, MIDI conversion, speech synthesis, voices and music.",
+ "whenToUse": "Use when an agent needs to transcribe, clean up, separate, convert or generate audio, voice or music.",
+ "tasks": [
+  "transcribe audio with speaker labels",
+  "split audio into stems",
+  "remove noise",
+  "convert audio to midi",
+  "generate speech",
+  "clone or create voices",
+  "generate music"
+ ],
+ "effects": {},
+ "flags": []
+}

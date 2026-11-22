@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c313dfdce44fd8db755e8b9ae827bb1e058346753227c8b615fb1bbe9cd7c980",
+ "domain": [
+  "software/development/performance-testing"
+ ],
+ "product": [
+  "codspeed"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives Claude CodSpeed benchmark results, flamegraphs and comparisons to locate and fix performance bottlenecks.",
+ "whenToUse": "Use when investigating benchmark regressions or optimizing code performance with CodSpeed data.",
+ "tasks": [
+  "read benchmark results",
+  "inspect flamegraphs",
+  "compare performance runs",
+  "find bottlenecks",
+  "iterate on optimizations"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "10d01b647d8591de01459c30f4aab6c919c7d626267c068c6f0b49d6d9b375fe",
+ "domain": [
+  "software/web-hosting",
+  "domains"
+ ],
+ "product": [
+  "cyon"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Builds and publishes websites on cyon hosting, covering sites, domains, databases, HTTPS and deployment.",
+ "whenToUse": "Use when an agent needs to set up, deploy or manage a website, domain or database hosted at cyon.",
+ "tasks": [
+  "create websites",
+  "manage domains",
+  "manage databases",
+  "configure https",
+  "deploy sites"
+ ],
+ "effects": {},
+ "flags": []
+}

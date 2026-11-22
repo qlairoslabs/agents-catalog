@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "01940cfb31e016d935a9c589a9975339d351e1025a4c27b30814a21308d74dc3",
+ "domain": [
+  "software/web-frameworks",
+  "software/developer-tools"
+ ],
+ "product": [
+  "pracht"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Development server for pracht apps that inspects, verifies, diffs and scaffolds routes, APIs and capabilities from the app graph.",
+ "whenToUse": "Use when an agent is building a pracht application and needs to understand or scaffold its routes and APIs.",
+ "tasks": [
+  "inspect app graph",
+  "list routes",
+  "verify app",
+  "diff changes",
+  "scaffold routes and api"
+ ],
+ "effects": {},
+ "flags": []
+}

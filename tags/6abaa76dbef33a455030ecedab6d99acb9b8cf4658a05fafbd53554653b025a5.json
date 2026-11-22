@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6abaa76dbef33a455030ecedab6d99acb9b8cf4658a05fafbd53554653b025a5",
+ "domain": [
+  "software/reliability-engineering",
+  "software/risk-management"
+ ],
+ "product": [
+  "revelara"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Reliability data service covering production incidents, a risk register, a controls catalogue and a knowledge graph.",
+ "whenToUse": "Use when the user wants to review incidents, reliability risks or controls for their systems.",
+ "tasks": [
+  "review production incidents",
+  "browse risk register",
+  "browse controls catalog",
+  "query reliability knowledge graph"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "92c3939405942e96aaeedf542f6411806e6b06c122ea2470e59f335a1a1d1a65",
+ "domain": [
+  "sales/crm-administration",
+  "software/saas-administration"
+ ],
+ "product": [
+  "salesforce"
+ ],
+ "audience": [
+  "operations",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "sell"
+ ],
+ "summary": "Server for administering and managing a Salesforce org, such as configuration, metadata and users.",
+ "whenToUse": "Use when a user needs to perform Salesforce admin work like configuring objects, fields, users or permissions.",
+ "tasks": [
+  "manage salesforce configuration",
+  "manage objects and fields",
+  "manage users and permissions",
+  "query salesforce data"
+ ],
+ "effects": {},
+ "flags": []
+}

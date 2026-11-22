@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "ff5e41eed6cfda3dabc74eaf74a5bb8d17a4f50c455ab7862f97866494fb5e87",
+ "domain": [
+  "software/web-hosting",
+  "software/dns-management"
+ ],
+ "product": [
+  "nameocean"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Manages domains, DNS records, SSL certificates, app servers, email, uptime monitors and webhooks on NameOcean.",
+ "whenToUse": "Use when an agent needs to administer domains, DNS, hosting or monitoring on a NameOcean account.",
+ "tasks": [
+  "manage domains",
+  "edit dns records",
+  "manage ssl certificates",
+  "manage app servers",
+  "configure email",
+  "set up uptime monitors",
+  "manage webhooks"
+ ],
+ "effects": {},
+ "flags": []
+}

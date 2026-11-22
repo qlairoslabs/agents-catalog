@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "bb339629c72df304343bb2a455f4b336d30e4d1b60fa19247e1cb8fbc9e6673d",
+ "domain": [
+  "software/databases/schema-migration"
+ ],
+ "product": [
+  "azure-sql-database",
+  "ef-core",
+  "prisma",
+  "alembic",
+  "sqlpackage"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Runs schema migrations from EF Core, Prisma, Alembic or DACPAC against the local Azure SQL container so they match the cloud.",
+ "whenToUse": "Use when a user wants to apply schema migrations to the local Azure SQL Database container.",
+ "tasks": [
+  "provision appdb",
+  "run ef core migrations",
+  "run prisma migrate",
+  "run alembic upgrade",
+  "deploy dacpac",
+  "manage connection strings"
+ ],
+ "effects": {},
+ "flags": []
+}

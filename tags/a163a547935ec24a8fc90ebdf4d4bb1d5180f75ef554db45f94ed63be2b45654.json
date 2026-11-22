@@ -1,0 +1,58 @@
+{
+ "classifier": 2,
+ "contentHash": "a163a547935ec24a8fc90ebdf4d4bb1d5180f75ef554db45f94ed63be2b45654",
+ "domain": [
+  "archives/catalogue",
+  "library/records-management"
+ ],
+ "product": [
+  "atom",
+  "heratio",
+  "iiif"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search and read AtoM archival catalogues, and let staff submit proposed descriptions, access points, relationships, translations, transcriptions and condition flags for archivist review.",
+ "whenToUse": "Use when researching archival records or helping an archivist enrich catalogue descriptions through reviewable proposals.",
+ "tasks": [
+  "search records",
+  "read record details",
+  "browse children",
+  "read authority records",
+  "search authorities",
+  "get IIIF manifest",
+  "read extracted text",
+  "view record images",
+  "propose description changes",
+  "propose access points and dates",
+  "propose relationships",
+  "propose condition flags"
+ ],
+ "effects": {
+  "fead1ab77abee540e7ee32638800e2df45422850100863594d78c8190b2e9a2a": "read",
+  "ded1988782f8a66702a724e49eb659a2418d3764812ea551bf6ab957068546b0": "read",
+  "46c9cc82ae28155520d0c85a05541068aa50192e3b0caa3fd419afdaacb90dd9": "read",
+  "02a3c263cf3a35029a81e921793c40d80f7e263e7f660636994b8043c7e85435": "read",
+  "504288427bf72afb087e0bb46c5747ef0c620eb2c83cad079769efaa8615f97d": "write",
+  "27333f83f709a48afbae408688380c889492408aa68785e5c474ef4ace3c88c7": "read",
+  "78712c5f9d24c5f5630dc3c3a08900ab6bb25aeaa80f69551ed4c70c7cfc9a48": "read",
+  "272818ba90177dad818452ff626d0156a58f52db9b85348fe6872da36b24a57c": "read",
+  "de964f57ad48f27c1b1d6695431aff5c1898e2fbd2ebfc286ba280709606b7da": "write",
+  "2a3cdb43ccbf9ef28c53c53a91f163eba5347c8ef73cbc6080d56d259d5644ce": "write",
+  "4469370415efb052748107029e3624deb527435f3b93c13b4010302d23ab0f9e": "write",
+  "343ac0481202bc0b2f00167106d74d5b830fc3e9d46ed930998e7ee8387dcb0d": "read",
+  "889b8a83a673021d144857a963d71ff7160c5613066471132c28393abde94f3a": "write",
+  "5c14aa9245506d913ba405f5ff968575062f1786f019db42e95bd2cd0cc7af60": "write",
+  "3acc430fa21447a32a665c266f06c365c183e6be5f8e8a5ab58251b18b2cd531": "write",
+  "d4b565c3d324bcd487b2d7dce382b740c50f89122e9c9eb1a0b5dcedd8994a0a": "write",
+  "1d4d8d5e63c5a5765cc23dd99aad73ba39017a65a66f6cb61d5098272eebf1bb": "write",
+  "7c303ce671eac5eb465817cd564f8f9a7f35ba2c60a2303f1ec0f1ebfc5d129c": "write"
+ },
+ "flags": []
+}

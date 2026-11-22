@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "aa0e58ddf3712f3bf35c7b1a5aebcd9a84c37550cc8840103a0d40f35c2615e3",
+ "domain": [
+  "marketing/ai-visibility",
+  "marketing/seo"
+ ],
+ "product": [
+  "surfacedby",
+  "chatgpt",
+  "perplexity",
+  "gemini"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Audits how AI platforms see a website: page evidence, crawler access in robots.txt, pasted answer citations and source landscape.",
+ "whenToUse": "Use when checking whether a site is readable and citable by AI search platforms.",
+ "tasks": [
+  "inspect page evidence",
+  "analyze AI answer citations",
+  "check AI crawler access",
+  "get source landscape",
+  "plan visibility audit"
+ ],
+ "effects": {
+  "614285ddaeddf316a6411a76030d21276e23f78a8d7c8853919932cabcd941ae": "read",
+  "eb5efeff06a9d47c35709a5b33642fb7615314ed4adfca4263ee0409e0eb2ce8": "read",
+  "70503da614a45bfc0a1052df067aee63854b5facd0be69da6ee58c0a9c101ed2": "read",
+  "01775b03046dea344b83a655534bb03714eaaf4a8d13130b4c8ee98121371910": "read",
+  "697a73e9709e8654363aff3fdf0b5fc8def914e673631bed48e34077ec10401d": "read"
+ },
+ "flags": []
+}

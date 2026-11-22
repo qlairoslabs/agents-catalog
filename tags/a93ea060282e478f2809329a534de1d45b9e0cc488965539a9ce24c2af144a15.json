@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "a93ea060282e478f2809329a534de1d45b9e0cc488965539a9ce24c2af144a15",
+ "domain": [
+  "marketing/seo",
+  "web/ai-visibility"
+ ],
+ "product": [
+  "chatgpt",
+  "claude",
+  "perplexity",
+  "google-ai-overviews",
+  "schema-org"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Audits whether a website is readable and citable by AI systems and checks LocalBusiness structured data, with fixes.",
+ "whenToUse": "Use when auditing a website's AI visibility or local business Schema.org markup.",
+ "tasks": [
+  "score AI readability",
+  "check llms.txt",
+  "check robots.txt AI bots",
+  "validate LocalBusiness schema",
+  "suggest fixes"
+ ],
+ "effects": {
+  "f2b8775b3434052a6e4852459bd8db8fa166d9b2b614639f8d684dc0849abb8c": "read",
+  "5f0c79787acd70ec3e638ce990eae759406b697e4f884b10c1eccd58d05b201e": "read"
+ },
+ "flags": []
+}

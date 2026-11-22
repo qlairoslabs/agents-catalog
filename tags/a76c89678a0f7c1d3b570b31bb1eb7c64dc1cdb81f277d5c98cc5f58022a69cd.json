@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "a76c89678a0f7c1d3b570b31bb1eb7c64dc1cdb81f277d5c98cc5f58022a69cd",
+ "domain": [
+  "data/geospatial",
+  "operations/routing"
+ ],
+ "product": [
+  "instamaps"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Geocodes spreadsheet address lists, measures distances, plans driver routes, checks flood and crime risk, and maps results.",
+ "whenToUse": "Use when working with location lists from spreadsheets that need geocoding, routing, risk checks or maps.",
+ "tasks": [
+  "geocode address lists",
+  "measure distances",
+  "plan driver routes",
+  "check flood risk",
+  "check crime risk",
+  "create maps"
+ ],
+ "effects": {},
+ "flags": []
+}

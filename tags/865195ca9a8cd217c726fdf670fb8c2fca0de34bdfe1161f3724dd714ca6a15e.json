@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "865195ca9a8cd217c726fdf670fb8c2fca0de34bdfe1161f3724dd714ca6a15e",
+ "domain": [
+  "education/flashcards",
+  "productivity/knowledge-cards"
+ ],
+ "product": [
+  "manthan"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Lists and creates Manthan concept-card decks from an AI agent.",
+ "whenToUse": "Use when a user wants to create or view study concept-card decks in Manthan.",
+ "tasks": [
+  "list decks",
+  "create deck",
+  "import cards"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9532e05226597375d16aa838aeb8abdb26195382e46c8798426f80bd94fd7353",
+ "domain": [
+  "data/databases/key-value"
+ ],
+ "product": [
+  "redis"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Official Redis MCP server for managing and searching data stored in Redis.",
+ "whenToUse": "Use when an agent needs to read, write or search data in a Redis instance.",
+ "tasks": [
+  "read redis keys",
+  "write redis data",
+  "search redis data"
+ ],
+ "effects": {},
+ "flags": []
+}

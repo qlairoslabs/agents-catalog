@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "743a94bf20b0b04c9dc1b2182f85be43ce15a001bad1378e0f2b0e6184b149d8",
+ "domain": [
+  "finance/document-extraction",
+  "finance/invoices"
+ ],
+ "product": [
+  "invoiceparser-pro",
+  "excel"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Converts invoice PDFs, scans and photos to Excel with fields, line items and checked totals.",
+ "whenToUse": "Use when converting invoices into spreadsheets with verified totals.",
+ "tasks": [
+  "parse invoice pdfs",
+  "read scans and photos",
+  "extract line items",
+  "check totals",
+  "export to excel"
+ ],
+ "effects": {},
+ "flags": []
+}

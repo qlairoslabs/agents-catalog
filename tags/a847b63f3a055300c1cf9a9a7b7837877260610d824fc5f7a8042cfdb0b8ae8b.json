@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a847b63f3a055300c1cf9a9a7b7837877260610d824fc5f7a8042cfdb0b8ae8b",
+ "domain": [
+  "design/design-systems",
+  "software/frontend"
+ ],
+ "product": [
+  "tailwind"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Extracts design tokens such as colors, typography and spacing from live websites, exporting DTCG or Tailwind and checking drift.",
+ "whenToUse": "Use when an agent needs to pull a site's design tokens or check whether a design has drifted from its tokens.",
+ "tasks": [
+  "extract colors",
+  "extract typography",
+  "extract spacing",
+  "export dtcg tokens",
+  "export tailwind config",
+  "check design drift"
+ ],
+ "effects": {},
+ "flags": []
+}

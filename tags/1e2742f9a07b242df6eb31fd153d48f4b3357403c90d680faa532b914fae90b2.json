@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "1e2742f9a07b242df6eb31fd153d48f4b3357403c90d680faa532b914fae90b2",
+ "domain": [
+  "finance/accounting/bookkeeping"
+ ],
+ "product": [
+  "triplebooks"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Connects AI assistants to TripleBooks accounting for books, invoices, bills, payroll and period closes.",
+ "whenToUse": "Use when the user needs to work with their accounting records, invoices, bills or payroll in TripleBooks.",
+ "tasks": [
+  "view books",
+  "manage invoices",
+  "manage bills",
+  "run payroll",
+  "close periods"
+ ],
+ "effects": {},
+ "flags": []
+}

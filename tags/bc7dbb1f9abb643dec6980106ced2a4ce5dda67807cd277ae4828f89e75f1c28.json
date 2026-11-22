@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "bc7dbb1f9abb643dec6980106ced2a4ce5dda67807cd277ae4828f89e75f1c28",
+ "domain": [
+  "productivity/scheduling",
+  "productivity/calendar"
+ ],
+ "product": [
+  "busyboard"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Merges free/busy calendar data to find mutual availability and propose bookings that require human approval, without exposing event details.",
+ "whenToUse": "Use when finding a shared meeting time across calendars and proposing a booking.",
+ "tasks": [
+  "view merged free/busy",
+  "find mutual availability",
+  "propose bookings for approval"
+ ],
+ "effects": {},
+ "flags": []
+}

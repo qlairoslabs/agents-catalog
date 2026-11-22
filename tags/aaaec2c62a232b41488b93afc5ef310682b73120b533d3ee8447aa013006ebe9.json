@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "aaaec2c62a232b41488b93afc5ef310682b73120b533d3ee8447aa013006ebe9",
+ "domain": [
+  "construction/cost-journal",
+  "reference/public-records"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search of a public journal of construction costs and day-wise work records, with exact INR values and source precision.",
+ "whenToUse": "Use when looking up construction cost or work-progress records from this public journal.",
+ "tasks": [
+  "search journal records",
+  "retrieve record by ID",
+  "view exact INR costs",
+  "check source and freshness"
+ ],
+ "effects": {
+  "48dfbf4981f2f22ae044c23e541d2987605420ffe2d3c44db03f1bcf3ae4291f": "read",
+  "ff31200a2c4faa7fac6363ed971b0a8cb180205a44f38bccb23d798a6318715d": "read"
+ },
+ "flags": []
+}

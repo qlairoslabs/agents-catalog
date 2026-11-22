@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "c95f64e2334da15d08c281a401fd76c9c589c3620a4e310a61070f710b23cc7d",
+ "domain": [
+  "research/market-research",
+  "marketing/surveys"
+ ],
+ "product": [
+  "attest"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds Attest consumer research studies and reads their survey results, boards and key findings.",
+ "whenToUse": "Use when a user wants results or findings from their Attest survey studies.",
+ "tasks": [
+  "find attest studies",
+  "read survey results",
+  "read boards",
+  "read key findings"
+ ],
+ "effects": {},
+ "flags": []
+}

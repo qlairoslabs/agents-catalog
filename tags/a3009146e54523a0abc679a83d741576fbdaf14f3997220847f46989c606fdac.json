@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a3009146e54523a0abc679a83d741576fbdaf14f3997220847f46989c606fdac",
+ "domain": [
+  "software/databases",
+  "software/orm"
+ ],
+ "product": [
+  "prisma",
+  "postgres",
+  "prisma-postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Prisma integration for provisioning Postgres databases, running schema migrations, executing SQL and managing connection strings.",
+ "whenToUse": "Use when an agent needs to provision or manage a Prisma Postgres database, migrate schemas or query data.",
+ "tasks": [
+  "provision postgres databases",
+  "run schema migrations",
+  "execute sql queries",
+  "manage connection strings"
+ ],
+ "effects": {},
+ "flags": []
+}

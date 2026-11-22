@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "60f7c8fea40625e6727220aa983a7c51acc0291541a544fc5e86d55606191cf2",
+ "domain": [
+  "security/web3",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "base",
+  "ethereum",
+  "x402",
+  "usdc",
+  "solana"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Security verification services for crypto tokens, wallets, Solidity code, websites, AI agent configs and media, mostly paid $1 per call in USDC.",
+ "whenToUse": "Use before buying a token, transacting with a wallet or deploying a contract, to screen for scams, sanctions and vulnerabilities.",
+ "tasks": [
+  "check token for honeypot",
+  "screen wallet for sanctions",
+  "audit Solidity code",
+  "scan web app",
+  "audit agent config",
+  "verify media authenticity",
+  "screen token launches",
+  "ask security questions",
+  "encrypt text post-quantum",
+  "list recent exploits"
+ ],
+ "effects": {
+  "27f5a7138afc71f42e80fecc63ed54a0fffa2bac30099fadc0c31122fe0cfd2a": "read",
+  "19d1e7755fa9c8773a4b3b6fb9b2e41dc3c25b2a321f5b75b48ec8c49cad3ebb": "read",
+  "b6416a5c6d375795c9b189ff48d14255f70554a3e8d8def31ab78161ebf4f47d": "risky",
+  "e2d44b3695e17a36cc9a747c0d935bcbc02097c2cea29fcdd2c7c4f9fc5ab076": "risky",
+  "669a885edd823dfe3c3447414afa541243e77ed56917a95a224928f446e90797": "risky",
+  "d9d4bf5b8115492b146dea48b5668ebc3fe728f6a3a9a402314afacd6d5b198f": "risky",
+  "e5c813d303e1ed0f01437f7c9ecd1e89f4935180461c8c7d355fe1e264efbff4": "risky",
+  "9fa500dd77864e6f7a0ad26fd1ddd1147be7f00e030e426294133d28bbe6e04b": "risky",
+  "309ce354be6334b93248826785f07967ce7e9b6de2651eaa214804e139a77ef1": "risky",
+  "13cf0274787dcaf0a45acc74e3f949b8cd133076d00335305098f8ec8a66532a": "risky",
+  "6a2295c24ad357d99d8aa9b90d75fc8c913a7e43f8375c733cf25767d799e4a3": "risky",
+  "91311b4d78ce9f6fa67c2d620adb6605171e399693e1e2663274850f5e0056a7": "risky",
+  "8cc32efdffbf9470af9f4cd0e83349102a0f9db410f24ee46fa738a684338191": "risky",
+  "0bab27ce53bef775d848afb713f05ea419feb22b502cbf589d87b02368baf8c4": "risky"
+ },
+ "flags": []
+}

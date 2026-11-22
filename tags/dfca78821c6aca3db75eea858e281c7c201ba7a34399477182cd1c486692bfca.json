@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "dfca78821c6aca3db75eea858e281c7c201ba7a34399477182cd1c486692bfca",
+ "domain": [
+  "software/identity",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "auth0"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Local npm server for managing Auth0 applications, APIs, actions, logs and forms through natural language.",
+ "whenToUse": "Use when a developer needs to configure or inspect an Auth0 tenant's applications, APIs, actions or logs.",
+ "tasks": [
+  "manage applications",
+  "manage apis",
+  "manage actions",
+  "read logs",
+  "manage forms"
+ ],
+ "effects": {},
+ "flags": []
+}

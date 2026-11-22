@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "410f21b49d72923e3b3da18e12bca96a26b3f03d79888d329eb602f70bf69b93",
+ "domain": [
+  "web/domains",
+  "web3/blockchain-domains"
+ ],
+ "product": [
+  "unstoppable-domains"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Searches, registers and buys domains, manages DNS and uses the domain marketplace via Unstoppable Domains.",
+ "whenToUse": "Use when a user wants to find, buy or configure a domain through Unstoppable Domains.",
+ "tasks": [
+  "search domains",
+  "register domains",
+  "manage dns",
+  "browse marketplace",
+  "checkout purchase"
+ ],
+ "effects": {},
+ "flags": []
+}

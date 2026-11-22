@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "f93da6422342a2a9019f529e554310d402a5444f6792b2c3d2f3eb8aae3bd937",
+ "domain": [
+  "design/interior-design/project-management"
+ ],
+ "product": [
+  "studiohaus"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Read-only access to an interior design studio's projects, overviews and weekly activity in Studiohaus.",
+ "whenToUse": "Use when an interior design studio wants to review project status or recent activity without changing anything.",
+ "tasks": [
+  "list projects",
+  "read project overviews",
+  "review weekly activity"
+ ],
+ "effects": {},
+ "flags": []
+}

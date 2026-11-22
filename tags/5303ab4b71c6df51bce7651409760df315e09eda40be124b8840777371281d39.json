@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5303ab4b71c6df51bce7651409760df315e09eda40be124b8840777371281d39",
+ "domain": [
+  "software/backend-as-a-service",
+  "data/databases"
+ ],
+ "product": [
+  "supabase",
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Connects an agent to Supabase to manage projects, run SQL, and handle auth, storage and realtime features.",
+ "whenToUse": "Use when working on a Supabase-backed app and you need to query or change its database or backend.",
+ "tasks": [
+  "manage supabase projects",
+  "run sql queries",
+  "manage authentication",
+  "manage storage",
+  "work with realtime subscriptions"
+ ],
+ "effects": {},
+ "flags": []
+}

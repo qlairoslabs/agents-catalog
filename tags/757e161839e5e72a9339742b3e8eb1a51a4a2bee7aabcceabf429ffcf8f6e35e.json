@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "757e161839e5e72a9339742b3e8eb1a51a4a2bee7aabcceabf429ffcf8f6e35e",
+ "domain": [
+  "finance/personal-finance",
+  "finance/calculators"
+ ],
+ "product": [
+  "finfam"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds and runs financial calculators such as rent versus buy, mortgage and retirement, and serves the FinFam Pulse money-news digest.",
+ "whenToUse": "Use when a user needs a personal finance calculation or a current summary of money and market news.",
+ "tasks": [
+  "search calculators",
+  "get calculator inputs",
+  "run calculations",
+  "view calculator formulas",
+  "get latest money digest",
+  "search past digests"
+ ],
+ "effects": {
+  "adf0b7e392a611b43c1fd679088bdd169137f52ac3e9a18b4f2e3bdd9bdb2cf1": "read",
+  "8c901b2fc75368d7cdf0abd9ad2390206d60ced97c94b831c59ba59759e256d3": "read",
+  "5dc581679ab1aa0e12aec1fc10022d445bdbe92c14cb7b021a99fcba6383465d": "read",
+  "f2f83fc800231676f9827b3dca3e0d823be6cb2a814b8172227abdfc2788701b": "read",
+  "1ca681f00a34e09a4b0485a35fbe306c0cb88545c61c930627e35b5f5784b53f": "write",
+  "2ee981a27996c9a2447f25ed968f98815c5334f8ad78a71fba19e8dd647fc872": "write"
+ },
+ "flags": []
+}

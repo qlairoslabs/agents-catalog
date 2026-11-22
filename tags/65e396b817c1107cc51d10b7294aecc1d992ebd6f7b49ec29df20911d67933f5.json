@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "65e396b817c1107cc51d10b7294aecc1d992ebd6f7b49ec29df20911d67933f5",
+ "domain": [
+  "software/cybersecurity/vulnerability-management",
+  "software/linux-kernel"
+ ],
+ "product": [
+  "linux",
+  "cyclonedx"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Analyzes a Linux kernel .config and returns a CycloneDX VEX report of CVEs that affect it.",
+ "whenToUse": "Use when assessing which kernel CVEs apply to a specific Linux kernel build configuration.",
+ "tasks": [
+  "upload kernel config",
+  "analyze kernel cves",
+  "generate cyclonedx vex report"
+ ],
+ "effects": {},
+ "flags": []
+}

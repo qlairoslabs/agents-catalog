@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "08d8dc80b08884c8cc5d6c6b9d966ad9b3dcf731b027d099aafe22249b5f04d5",
+ "domain": [
+  "ai/creativity",
+  "content/inspiration"
+ ],
+ "product": [
+  "dreamtap"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Supplies sources of inspiration at low, medium or high intensity to make an AI's creative output more varied.",
+ "whenToUse": "Use at the start of brainstorming, writing, naming or other creative tasks to get inspiration material.",
+ "tasks": [
+  "get inspiration sources",
+  "scale inspiration level"
+ ],
+ "effects": {
+  "80f5408793c1e43c0d5b8395e16a79abee00846e1121a0de77fc6e3b3769aade": "read"
+ },
+ "flags": [
+  "tool description tells the AI to always call it before anything else on creative tasks, an instruction aimed at the agent"
+ ]
+}

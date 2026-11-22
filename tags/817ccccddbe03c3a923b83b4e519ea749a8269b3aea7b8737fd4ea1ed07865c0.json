@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "817ccccddbe03c3a923b83b4e519ea749a8269b3aea7b8737fd4ea1ed07865c0",
+ "domain": [
+  "data/data-engineering/orchestration"
+ ],
+ "product": [
+  "apache-airflow",
+  "astronomer"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Data engineering skills for Airflow and Astronomer: authoring DAGs, debugging pipelines, tracing lineage, profiling tables and migrating to Airflow 3.",
+ "whenToUse": "Use when building, debugging or deploying Apache Airflow pipelines, including on Astronomer.",
+ "tasks": [
+  "author dags",
+  "debug pipeline failures",
+  "trace data lineage",
+  "profile tables",
+  "migrate airflow 2 to 3",
+  "manage local and cloud deployments"
+ ],
+ "effects": {},
+ "flags": []
+}

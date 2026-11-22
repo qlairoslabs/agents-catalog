@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "2a869636ebd5c8ed527b681d435f1bf9b2eb837da07ab04cc2036a0f3c46d258",
+ "domain": [
+  "developer-docs",
+  "ai-tooling"
+ ],
+ "product": [
+  "claude-code",
+  "codex",
+  "grok-build"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Source-checked manuals and CLI reference for Claude Code, Codex and Grok Build, with cross-CLI comparison and model-aware work planning.",
+ "whenToUse": "Use when you need accurate commands, flags, config or workflows for coding-agent CLIs, or want a plan routing work across them.",
+ "tasks": [
+  "search CLI manuals",
+  "read documents",
+  "compare CLI workflows",
+  "look up commands",
+  "look up config keys",
+  "list CLI versions",
+  "list models",
+  "plan multi-CLI work",
+  "advise on hard problems"
+ ],
+ "effects": {
+  "ab5fc1e490919e8f8fce454cabf66e9736d9c7ea882a31431651b9de73e21dbf": "read",
+  "103c9114a41947ee06b3e01c4a20bfeeacd8204579432014ada890326a544228": "read",
+  "10de8f61fc9297db07ca84ffce6292fe7916a7670a76c81976389be1cc65ad25": "read",
+  "9459576517cde6ea82ff3ae066f1a28f92b93e755f680071d795629331a0bf68": "read",
+  "103cf6da632538414dc64ab0150f056133ce506076141434c1827e638e9de0a2": "read",
+  "78e4b2f91dc2325a1d57d919e4e4c21230e090db605afc837b7dd6eaf3e31379": "read",
+  "4ac72f077d72f34f97d2af33d5296307c6ca608be5cfdb94f2937e7df7b1db73": "read",
+  "ff3c8d4da4eabdc9003281da4c275b938a54ef9745c2ff087edc1bc8cb2112ac": "read",
+  "95231bc017e0f161d8a78c48e6d044d66f7f082d642df00135d7872eaf455bef": "read",
+  "4e13a9fb97f4110cc047c21bfbddef4f866415e911369cf6c204bc7d22d7b472": "read",
+  "7abeb997f2033bb7c8080ff3275e1d2586541a18d7c45704efdc0020fcde6d09": "read",
+  "3e2728616e396dc011d5efee733e5d986f76e00fc76eccdbfae10fcc231a64c4": "read"
+ },
+ "flags": []
+}

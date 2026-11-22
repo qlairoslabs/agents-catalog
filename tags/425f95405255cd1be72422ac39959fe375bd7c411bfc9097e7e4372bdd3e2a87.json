@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "425f95405255cd1be72422ac39959fe375bd7c411bfc9097e7e4372bdd3e2a87",
+ "domain": [
+  "software/ai-agents/debugging",
+  "software/cloud/aws"
+ ],
+ "product": [
+  "amazon-bedrock-agentcore"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Diagnoses broken AgentCore agents and CLI issues by reading traces and logs and checking prerequisites.",
+ "whenToUse": "Use when an agent gives wrong answers, errors, times out, or the AgentCore CLI fails.",
+ "tasks": [
+  "read traces",
+  "check logs",
+  "diagnose tool call failures",
+  "check cli prerequisites",
+  "diagnose cold starts",
+  "fix local dev errors"
+ ],
+ "effects": {},
+ "flags": []
+}

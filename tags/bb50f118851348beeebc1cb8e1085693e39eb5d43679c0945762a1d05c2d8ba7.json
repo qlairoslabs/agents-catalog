@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bb50f118851348beeebc1cb8e1085693e39eb5d43679c0945762a1d05c2d8ba7",
+ "domain": [
+  "social-media/reddit",
+  "marketing/community"
+ ],
+ "product": [
+  "reddit"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads and writes Reddit content, including searching, browsing posts and comments, and creating posts and replies.",
+ "whenToUse": "Use when an agent needs to search Reddit, read threads or post and comment on Reddit.",
+ "tasks": [
+  "search reddit",
+  "read posts",
+  "read comments",
+  "create posts",
+  "reply to comments",
+  "browse subreddits"
+ ],
+ "effects": {},
+ "flags": []
+}

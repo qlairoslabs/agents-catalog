@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "78547b5d9ea5ed33c2b4bed22d3da30d0c7d0eff8c7f18025f291f14f3f2f914",
+ "domain": [
+  "software/testing/test-management"
+ ],
+ "product": [
+  "testrail"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Connector for TestRail to manage test cases, suites, runs, results and attachments.",
+ "whenToUse": "Use when an agent needs to read or update QA test cases, runs or results stored in TestRail.",
+ "tasks": [
+  "manage test cases",
+  "manage test suites",
+  "create test runs",
+  "record test results",
+  "manage attachments"
+ ],
+ "effects": {},
+ "flags": []
+}

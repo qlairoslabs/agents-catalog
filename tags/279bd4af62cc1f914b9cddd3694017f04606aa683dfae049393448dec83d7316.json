@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "279bd4af62cc1f914b9cddd3694017f04606aa683dfae049393448dec83d7316",
+ "domain": [
+  "software/system-monitoring",
+  "science/hpc"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reports CPU, memory, disk, network, GPU and process information for local or remote nodes.",
+ "whenToUse": "Use when an agent needs hardware or resource usage details for a machine or cluster node.",
+ "tasks": [
+  "report cpu info",
+  "report memory usage",
+  "report disk usage",
+  "report network info",
+  "report gpu info",
+  "list processes"
+ ],
+ "effects": {},
+ "flags": []
+}

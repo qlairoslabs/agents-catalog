@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b82f7116de0d81a2b8e8c90bbd07e21391d77ad7e18fd685f08a8f2aa939b0cc",
+ "domain": [
+  "communication/telephony",
+  "ai/voice-agents"
+ ],
+ "product": [
+  "erzycall"
+ ],
+ "audience": [
+  "everyone",
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers",
+  "automate-work"
+ ],
+ "summary": "Lets an agent or app place and receive real phone calls via MCP or API.",
+ "whenToUse": "Use when an agent needs to make or answer real telephone calls.",
+ "tasks": [
+  "make phone calls",
+  "receive phone calls"
+ ],
+ "effects": {},
+ "flags": []
+}

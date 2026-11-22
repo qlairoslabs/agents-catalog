@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "582a92bab3809a6f9ce7d68a02353e28bc2777aba2e102b6cc34387e577772f0",
+ "domain": [
+  "education/online-courses",
+  "commerce/ecommerce",
+  "community/memberships"
+ ],
+ "product": [
+  "tevello",
+  "shopify"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "create-content"
+ ],
+ "summary": "Creates and runs online courses, memberships and communities inside a Shopify store with Tevello.",
+ "whenToUse": "Use when an agent needs to manage courses, memberships or communities sold through a Shopify store.",
+ "tasks": [
+  "build courses",
+  "manage memberships",
+  "run communities"
+ ],
+ "effects": {},
+ "flags": []
+}

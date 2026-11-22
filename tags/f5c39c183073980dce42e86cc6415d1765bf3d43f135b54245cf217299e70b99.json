@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "f5c39c183073980dce42e86cc6415d1765bf3d43f135b54245cf217299e70b99",
+ "domain": [
+  "software/mobile-development"
+ ],
+ "product": [
+  "expo",
+  "react-native",
+  "app-store",
+  "google-play",
+  "tailwind-css"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Expo skills for building, deploying, upgrading and debugging React Native apps, including routing, native UI and store releases.",
+ "whenToUse": "Use when building, upgrading or releasing a React Native app with Expo.",
+ "tasks": [
+  "build ui with expo router",
+  "use swiftui and jetpack compose components",
+  "set up tailwind css",
+  "create api routes",
+  "fetch data",
+  "configure ci/cd",
+  "deploy to app store and play store",
+  "upgrade sdk",
+  "use dom components",
+  "distribute dev clients",
+  "debug apps"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f12323cc0abc2e374b74dd82a2fd4e2b34feb9c940676c66ea279236e825aaa8",
+ "domain": [
+  "sales/prospecting/data-enrichment",
+  "sales/lead-generation"
+ ],
+ "product": [
+  "zoominfo"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches ZoomInfo companies and contacts, enriches leads, finds lookalikes and recommends contacts for B2B sales.",
+ "whenToUse": "Use when researching target accounts, enriching leads or finding contacts for B2B outreach.",
+ "tasks": [
+  "search companies",
+  "search contacts",
+  "enrich leads",
+  "find lookalike companies",
+  "recommend contacts",
+  "run sales workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

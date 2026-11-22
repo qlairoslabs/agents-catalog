@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "1191239ead725302fea12cd9712f9e01ce70df07320477ed20fe0ff8739a44c3",
+ "domain": [
+  "web/deployment",
+  "software/client-review"
+ ],
+ "product": [
+  "previewsend"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "be-online",
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Deploys a built website from a coding agent and produces a shareable link for client review.",
+ "whenToUse": "Use when an agent has built a website and needs to publish a preview link for a client.",
+ "tasks": [
+  "deploy built website",
+  "create review link",
+  "share preview with client"
+ ],
+ "effects": {},
+ "flags": []
+}

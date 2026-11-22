@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "145c5ca0e6da75e082c91be27b0248f559e4b51fa883f6ae5879e0e54b80a10f",
+ "domain": [
+  "commerce/ecommerce",
+  "marketing/upselling"
+ ],
+ "product": [
+  "sternify",
+  "shopify"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Manages a Shopify store's Sternify bundles, gifts, upsells, banners and reviews through OAuth.",
+ "whenToUse": "Use when configuring bundles, upsell offers, banners or reviews on a Shopify store using Sternify.",
+ "tasks": [
+  "manage bundles",
+  "manage gifts",
+  "manage upsells",
+  "manage banners",
+  "manage reviews"
+ ],
+ "effects": {},
+ "flags": []
+}

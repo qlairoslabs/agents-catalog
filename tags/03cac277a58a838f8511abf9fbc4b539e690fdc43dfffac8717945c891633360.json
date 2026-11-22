@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "03cac277a58a838f8511abf9fbc4b539e690fdc43dfffac8717945c891633360",
+ "domain": [
+  "software/app-development",
+  "software/developer-tools"
+ ],
+ "product": [
+  "atlassian-forge",
+  "rovo",
+  "atlassian-design-system"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills and MCP setup for building, debugging and deploying Atlassian Forge apps, including Teamwork Graph connectors and docs lookups.",
+ "whenToUse": "Use when developing, reviewing or deploying an Atlassian Forge app or Rovo connector.",
+ "tasks": [
+  "scaffold forge apps",
+  "deploy forge apps",
+  "use dev spaces",
+  "build teamwork graph connectors",
+  "pre-deploy review",
+  "debug forge apps",
+  "look up forge docs",
+  "look up atlassian design system"
+ ],
+ "effects": {},
+ "flags": []
+}

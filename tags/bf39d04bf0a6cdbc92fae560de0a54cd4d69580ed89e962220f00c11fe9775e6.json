@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "bf39d04bf0a6cdbc92fae560de0a54cd4d69580ed89e962220f00c11fe9775e6",
+ "domain": [
+  "real-estate/building-data",
+  "geodata"
+ ],
+ "product": [
+  "baseray"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Building data lookup covering address, use, size, height, age, roof, solar panels and registered businesses.",
+ "whenToUse": "Use when an agent needs property or building attributes or the businesses registered at an address.",
+ "tasks": [
+  "look up building by address",
+  "get building use and size",
+  "get height and age",
+  "get roof and solar panel data",
+  "list registered businesses"
+ ],
+ "effects": {},
+ "flags": []
+}

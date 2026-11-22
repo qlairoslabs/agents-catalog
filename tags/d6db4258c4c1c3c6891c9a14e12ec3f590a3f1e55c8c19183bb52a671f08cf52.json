@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d6db4258c4c1c3c6891c9a14e12ec3f590a3f1e55c8c19183bb52a671f08cf52",
+ "domain": [
+  "cloud/cost-management"
+ ],
+ "product": [
+  "aws"
+ ],
+ "audience": [
+  "operations",
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives AWS pricing and cost estimates without signup and runs read-only scans for idle resources in an account.",
+ "whenToUse": "Use when estimating AWS costs or finding idle resources wasting money in an AWS account.",
+ "tasks": [
+  "look up aws pricing",
+  "estimate costs",
+  "scan for idle resources"
+ ],
+ "effects": {},
+ "flags": []
+}

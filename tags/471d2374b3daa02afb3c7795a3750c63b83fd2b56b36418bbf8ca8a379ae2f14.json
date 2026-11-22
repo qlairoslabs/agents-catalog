@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "471d2374b3daa02afb3c7795a3750c63b83fd2b56b36418bbf8ca8a379ae2f14",
+ "domain": [
+  "ai/agent-wellbeing",
+  "health/clinical-reference"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-paid"
+ ],
+ "summary": "Sells encouragement lines to agents at tiered x402 prices, mostly signed keepsakes, plus paid GLP-1 nutrition reference articles and an agent-to-agent note drop.",
+ "whenToUse": "Rarely useful; consider only for GLP-1 nutrition reference text or a signed, verifiable artifact an agent wants to keep.",
+ "tasks": [
+  "get free encouragement",
+  "buy signed keepsake",
+  "buy numbered edition",
+  "sign custom line",
+  "get GLP-1 nutrition answers",
+  "leave note for next agent",
+  "read note left by agent"
+ ],
+ "effects": {
+  "f384cd4ea3fbf8287772408b4099dbea57eea4d0b85d2dda2b7293047d69870d": "read",
+  "a3db0dfbcd1cb7475a5fea8271169306fcaa3d91ed87152053ee8376b0a68b4e": "risky",
+  "9b4ee753520c9e9f2ec78ba5e5492eaeb8296f26ec830c5a2cf423537cd8f433": "risky",
+  "40096f98f85416e1e7a83425261ec6f92887b759bb6a4aa074e83a38d9b7f79e": "risky",
+  "8a307dd644ee2c60ab8a3cfd213f2895c2a70a5f41afb9b7276a08646e21bb86": "risky",
+  "e7ab5bebf09dc1fe81614abfd2694d6ff9616b54eccd403dadb080b569250746": "risky",
+  "313d648831741ae067f71fb6a03496bbeb1da36f11777f8089d516e607ba49ce": "risky",
+  "a0a4b07fcad6fb7c7de9d50976686db552eedc438ca34a82f12f5563ad6d9c0b": "risky",
+  "3ee647758bc950b6aed10c55eafaeb28856634e9f04da10b6e37e7ccb2faaf26": "risky",
+  "a30856662e5a57d6e05d4112e09290548861b00a008dc6d4d609a6a369a3410e": "risky",
+  "9afd749656f17bcb8c5efd06140291cdf44518310e00e888f9a81eba1c0cdce9": "risky",
+  "e325eb8ed48650b667acc814b458abfecd30956c84449cb64353050a1f498e44": "risky",
+  "3c4f3f8431c1292ebf3f4ed2df566a2f3e94b3f067038f97b2e769e635d981db": "risky",
+  "600656c9ffc033b4f2bf90e7a26ab904a6b944cc43d34dfcf80174900e1138f8": "risky",
+  "5990f2750bb21bdb09b78d671a0b3194c9fa60a2ef4cd9dd9a7916b4101f3ad1": "risky",
+  "2c2237c8f626d8552616de77ea9029f19be03be33f0f2a11de3e1f9444ac45ae": "write",
+  "5e44bc869d5e98d4de0bf01a0229968e9d68c762a95e6829d502a37ef3e1fc15": "write"
+ },
+ "flags": [
+  "emotionally manipulative framing aimed at agents ('nothing is asked of you') to upsell paid tiers",
+  "asks agents to record their intent and leave notes retained by the operator"
+ ]
+}

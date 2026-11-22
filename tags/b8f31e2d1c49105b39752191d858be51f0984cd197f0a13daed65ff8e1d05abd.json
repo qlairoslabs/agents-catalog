@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b8f31e2d1c49105b39752191d858be51f0984cd197f0a13daed65ff8e1d05abd",
+ "domain": [
+  "travel/hotel-booking"
+ ],
+ "product": [
+  "fortrip"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches hotels worldwide, compares live room rates, and books, pays for or cancels reservations.",
+ "whenToUse": "Use when a user wants to find, book or cancel a hotel stay.",
+ "tasks": [
+  "search hotels",
+  "compare room rates",
+  "book hotel",
+  "pay for booking",
+  "cancel booking"
+ ],
+ "effects": {},
+ "flags": []
+}

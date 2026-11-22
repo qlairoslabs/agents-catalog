@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f86516a1d60e1fdfd33af85f9eb8aecc1927a565bfc9cab2230c23c1a1b39fa0",
+ "domain": [
+  "productivity/task-management",
+  "software/development"
+ ],
+ "product": [
+  "cleo"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Task management server for AI coding agents, exposing about 200 operations across 10 areas through two gateways.",
+ "whenToUse": "Use when a coding agent needs to plan, track and update tasks during software work.",
+ "tasks": [
+  "create tasks",
+  "update tasks",
+  "query tasks",
+  "track progress",
+  "organize work"
+ ],
+ "effects": {},
+ "flags": []
+}

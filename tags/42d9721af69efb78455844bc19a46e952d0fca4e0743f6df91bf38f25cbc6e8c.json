@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "42d9721af69efb78455844bc19a46e952d0fca4e0743f6df91bf38f25cbc6e8c",
+ "domain": [
+  "media/culture",
+  "entertainment"
+ ],
+ "product": [
+  "kulturbase"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches Nordic cultural recordings such as theatre, opera, dance and concerts that are currently playable, and picks one by category and length.",
+ "whenToUse": "Use when a user wants to find a Nordic cultural recording to watch or listen to.",
+ "tasks": [
+  "search catalogue",
+  "pick recording by category and duration",
+  "filter by language and subtitles",
+  "filter by format"
+ ],
+ "effects": {
+  "541bd98a53c8d4b9a915b37f2f0f670da8ab0f87a6c46913b223f3a5fc2d0544": "read",
+  "d2214c8ab8e389986d53de699ab166e69920624d7dfe1838a6f769b8cf2ffb7f": "read"
+ },
+ "flags": []
+}

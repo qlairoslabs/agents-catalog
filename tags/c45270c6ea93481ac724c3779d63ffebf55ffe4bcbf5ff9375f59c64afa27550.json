@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "c45270c6ea93481ac724c3779d63ffebf55ffe4bcbf5ff9375f59c64afa27550",
+ "domain": [
+  "insurance/ai-regulation",
+  "compliance"
+ ],
+ "product": [
+  "naic"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Dataset of US state adoption of the NAIC AI model bulletin and related insurance-AI rules, with citations and provenance.",
+ "whenToUse": "Use when checking what a US state requires for AI use in insurance or which states adopted the NAIC bulletin.",
+ "tasks": [
+  "look up a state's posture",
+  "list states by posture",
+  "check dataset provenance"
+ ],
+ "effects": {
+  "de3b4b509df353335fe6dc6f7ec1ff1aaf866802b8758273e83d173198b69a51": "read",
+  "860c0872ce1021be0a5f989454f8a441ac5ecc5f6ffff921063c942afd75e4e0": "read",
+  "44d42703ade30318492e2fb55d3b5e829c0abbf08b46a1824a6daed4c6599318": "read"
+ },
+ "flags": []
+}

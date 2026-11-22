@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "cafc0f7bc9255f133d10bda41a6bd0ce4004fdfabf7655a10427dd641325cfe2",
+ "domain": [
+  "travel/hotel-booking",
+  "travel/reservations"
+ ],
+ "product": [
+  "1stay",
+  "stayker"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches hotels, shows room rates, starts a one-room booking via secure checkout, and looks up, resends or prepares cancellation of reservations.",
+ "whenToUse": "Use when a user wants to find, book or manage a single-room hotel stay.",
+ "tasks": [
+  "search hotels",
+  "get room rates",
+  "start booking checkout",
+  "look up booking",
+  "resend confirmation",
+  "get booking details",
+  "prepare cancellation",
+  "list tools"
+ ],
+ "effects": {
+  "21cdf400f70891fc833079152268a1be5d0af43a913a91b61ff997968c58470f": "read",
+  "c235c1937f2748c29413a23fae9fef9a91a1340291034e17aeea69cade8fe9dd": "read",
+  "0067d3b508126219608ddc78b0774a19ea1d73ab7b9353f6b51144291f754802": "write",
+  "0a9e7600772f41bbfb2923dbe8f0cbb3aed6e66f68a0e4f7c26085047f00c2c8": "read",
+  "669d42c4d1cd6f06655ca8226fbe26a98c9005bc2183979c95ab8c60d5926a4c": "write",
+  "05ca4fe79d209e92b485afb51ca235d12d9df542cdcaae7452232876ab66efe3": "read",
+  "d6a7a9ccb6d4ce5016665346e14a30939bcf41284e691186d4873048bdd190d5": "write",
+  "ea47eb35f7729dd73680a57b571aa9b0a7a499e8b94c54c78cb716557991dda2": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "c14f31f5b0fdba77b47869a08b0a39a633564240291fd1cd8d968cfdf3f1a7da",
+ "domain": [
+  "data/elections",
+  "government/brazil"
+ ],
+ "product": [
+  "tse"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Brazil 2026 election data from TSE: votes by candidate, party, city and office, declared assets and voting-machine timing, with pivot queries.",
+ "whenToUse": "Use when analysing Brazilian 2026 election results, candidates or ballot-box timing.",
+ "tasks": [
+  "pivot votes by dimension",
+  "search candidates",
+  "get candidate details",
+  "list dimension values",
+  "analyse ballot box hours",
+  "check credit balance"
+ ],
+ "effects": {
+  "e69b46d5102e80febb0545fb6830454fc52d76434c8d18de45ca059e79fc9236": "read",
+  "621fb089dbe952e5e6da5e6611071fc937220802737ce4a286ad2ca4d2f2d366": "read",
+  "43447e6337bac508590cc710b10c1aa786b8be498914b33ddf39d9f598d8b40c": "read",
+  "acedadad6362b68085e0000c59e17465508567ed8cd0fa17d8383405e4a680e5": "read",
+  "f353201a386a728501875c981164b59d35351b538356eaa824a6879a71b10829": "write",
+  "a12468fe381f06baa3d57dbc3dc24adff42826b599ad7d43e6c023be851eb59a": "read"
+ },
+ "flags": []
+}

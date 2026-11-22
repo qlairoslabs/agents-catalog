@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "ef3a2bfbf279622ffaddccf52c4899bd3fe9a0c747ba60801dce93740e48bbb9",
+ "domain": [
+  "design/web-design",
+  "software/web-development"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Gives coding agents design references from real websites, including color palettes, fonts, above-the-fold breakdowns and sample JSX.",
+ "whenToUse": "Use when an agent building a website or UI needs real-world design inspiration and reference code.",
+ "tasks": [
+  "find website design references",
+  "get color palettes",
+  "get font pairings",
+  "analyze above-the-fold layouts",
+  "get reference jsx"
+ ],
+ "effects": {},
+ "flags": []
+}

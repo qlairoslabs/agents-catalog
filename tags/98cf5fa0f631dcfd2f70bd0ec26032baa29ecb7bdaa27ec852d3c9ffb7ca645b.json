@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "98cf5fa0f631dcfd2f70bd0ec26032baa29ecb7bdaa27ec852d3c9ffb7ca645b",
+ "domain": [
+  "software/devops/remote-access",
+  "operations/system-administration"
+ ],
+ "product": [
+  "ssh"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "SSH automation server that lets agents run commands on remote hosts under configurable policy controls, over stdio or HTTP.",
+ "whenToUse": "Use when an agent needs to run commands or manage files on remote servers over SSH with policy restrictions.",
+ "tasks": [
+  "run remote commands over ssh",
+  "manage remote servers",
+  "apply command policies",
+  "transfer files"
+ ],
+ "effects": {},
+ "flags": []
+}

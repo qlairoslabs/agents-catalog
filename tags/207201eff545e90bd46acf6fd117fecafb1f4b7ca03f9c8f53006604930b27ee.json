@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "207201eff545e90bd46acf6fd117fecafb1f4b7ca03f9c8f53006604930b27ee",
+ "domain": [
+  "professional/consulting"
+ ],
+ "product": [
+  "infoaddict"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "hire-and-manage"
+ ],
+ "summary": "Read-only public information about InfoAddict, its owner's services, role-fit evidence and contact options.",
+ "whenToUse": "Use when you need background on InfoAddict or its services before contacting them.",
+ "tasks": [
+  "get site guide",
+  "get services",
+  "get contact options",
+  "get role-fit evidence",
+  "get engagement-fit evidence"
+ ],
+ "effects": {
+  "0b76fc1b9cd62e13bab6be48720ad41162c60bf1f3eca9d3bc4494b3509ed2e4": "read",
+  "139b1eb9cc2749da515fb27b91cebe4cc2ebfc72bd27436a39e8c6ed9a9e452d": "read",
+  "c0e51bec7d91486cff538fc505901725236fb995519fc73acaa2831e17f941bf": "read",
+  "8d6a27390bf5005054eca2179476af22a425c1fe2211d1b1b81b95af445da0bf": "read",
+  "f9cda3edce657f2d2b7f43a5fae2169f8122775e154a96b096b018a8f461ff9e": "read"
+ },
+ "flags": []
+}

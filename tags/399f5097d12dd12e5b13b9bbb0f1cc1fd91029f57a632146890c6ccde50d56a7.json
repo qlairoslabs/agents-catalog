@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "399f5097d12dd12e5b13b9bbb0f1cc1fd91029f57a632146890c6ccde50d56a7",
+ "domain": [
+  "media/video-production",
+  "design/animation"
+ ],
+ "product": [
+  "hyperframes",
+  "heygen",
+  "gsap"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "HeyGen HyperFrames tooling to write HTML compositions and render them as videos with animation, captions and voiceovers.",
+ "whenToUse": "Use when producing videos from HTML compositions or turning websites into video with HyperFrames.",
+ "tasks": [
+  "write html compositions",
+  "render video",
+  "add gsap animations",
+  "add captions",
+  "add voiceovers",
+  "create audio-reactive visuals",
+  "capture website to video"
+ ],
+ "effects": {},
+ "flags": []
+}

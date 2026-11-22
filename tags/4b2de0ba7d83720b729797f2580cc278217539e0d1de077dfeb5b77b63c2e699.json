@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "4b2de0ba7d83720b729797f2580cc278217539e0d1de077dfeb5b77b63c2e699",
+ "domain": [
+  "relocation/international-moving",
+  "travel/expat"
+ ],
+ "product": [
+  "relocation123"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Country relocation guides, customs rules, residence and tax facts, mover and immigration provider directories, volume estimates and moving quote requests.",
+ "whenToUse": "Use when planning an international move and needing country rules, local providers or a moving quote.",
+ "tasks": [
+  "list countries",
+  "get country guide",
+  "get customs rules",
+  "find local help",
+  "estimate moving volume",
+  "get residence tax cost facts",
+  "compare countries",
+  "search countries",
+  "get movers",
+  "request moving quote",
+  "get immigration help"
+ ],
+ "effects": {
+  "78f241f61b2a192f4eb7c5b24f3686f48e0bb3f18c402e17f9be78b9ce0f59f2": "read",
+  "84792e45bf0fcf73643a1c9826ff4c57aeab4e3815d8cf5eaab00ad2754cc5cb": "read",
+  "e87bbde72b28a2f00e1bd89215dd0db3dce1f4193d3846d83236231a111452bd": "read",
+  "b3ca7aa80f8c28f866ba3ba03b3ccc7f3e37ad315fa2f1789115c33768b313ad": "read",
+  "8ece85f967fa18f4301bb48be2bc7875ebdf7e166501f483c7e6a2c94457cff2": "read",
+  "b9ccab7886f7cc9f76d4ee7a2a8a898c1be430a8296df9bdb917b4b8a751e71e": "read",
+  "27be51e8c31240f884d4dc9440652bdcafb4837ec4dbd52c9c1f20eaf5f5c209": "read",
+  "c256cf25f44d63d1afd85793017f07a52c9acfbd1b710aab93bdd4a17f069359": "read",
+  "9776bfaa719bc9fabb9372297e81b50568205ba3ce59c712bea98e2c56b71807": "read",
+  "d9885997b33f82329ab819171b41cbc26bc153b4851794307880a41a3f9c1bde": "write",
+  "1b3fcaf6d9a5d3127c6be78eb39fea9211bd5a92fcd6542a4dfb7ad35ef54d35": "read"
+ },
+ "flags": []
+}

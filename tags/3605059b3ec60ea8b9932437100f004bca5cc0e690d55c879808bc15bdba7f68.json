@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "3605059b3ec60ea8b9932437100f004bca5cc0e690d55c879808bc15bdba7f68",
+ "domain": [
+  "finance/insurance",
+  "automotive/vehicle-warranty"
+ ],
+ "product": [
+  "chaiz"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Looks up vehicle service contract (extended warranty) plans and prices by VIN, license plate, or make/model/year on Chaiz.",
+ "whenToUse": "Use when a user wants to compare extended warranty quotes for a specific car.",
+ "tasks": [
+  "search plans by VIN",
+  "search plans by license plate",
+  "search plans by make/model/year",
+  "list vehicle makes",
+  "list vehicle models",
+  "fuzzy-match a vehicle",
+  "sort plans by price or rating"
+ ],
+ "effects": {
+  "77fcf9cd945bc247898b7351fe2238341b37270bed1b40a995a2a947c9f92bea": "read",
+  "78bebe9b99d542694b3ff4deea215089bedd8138b2906fe3b629e56783ec58c1": "read",
+  "a7f87f5750fee253009a03c0032003d20c389d573f446ebc25962af8b1a7f481": "read",
+  "83a1d4532e2dcd9b2b842bde2f50efd730cfeeac00dc92b5dee3e5d93ecfa186": "read",
+  "9a295e9cde83da726f8d541aa0e25a4011c86a15e7b5fc09a8a032f1eeb86298": "read",
+  "1f207d6ce5d080f76aa4f95774e1332528d0254957825cb3de691db3f0481455": "read"
+ },
+ "flags": []
+}

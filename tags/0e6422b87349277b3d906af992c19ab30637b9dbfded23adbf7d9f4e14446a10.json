@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0e6422b87349277b3d906af992c19ab30637b9dbfded23adbf7d9f4e14446a10",
+ "domain": [
+  "software/mobile-development/ios",
+  "software/build-tools"
+ ],
+ "product": [
+  "xcode",
+  "ios-simulator"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local tools for managing Xcode projects, building apps, controlling simulators and app utilities.",
+ "whenToUse": "Use when building, running or testing Apple platform apps with Xcode and simulators.",
+ "tasks": [
+  "build xcode projects",
+  "manage simulators",
+  "run apps in simulator",
+  "manage app utilities"
+ ],
+ "effects": {},
+ "flags": []
+}

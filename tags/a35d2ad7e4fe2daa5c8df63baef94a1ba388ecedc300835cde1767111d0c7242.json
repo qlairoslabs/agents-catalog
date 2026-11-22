@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a35d2ad7e4fe2daa5c8df63baef94a1ba388ecedc300835cde1767111d0c7242",
+ "domain": [
+  "software/cybersecurity/detection-engineering"
+ ],
+ "product": [
+  "sigma",
+  "splunk",
+  "elastic",
+  "kql",
+  "sublime",
+  "crowdstrike",
+  "jamf",
+  "mitre-attack"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches security detection rules across Sigma, Splunk, Elastic, KQL, Sublime, CQL and Jamf, mapped to ATT&CK.",
+ "whenToUse": "Use when looking up or comparing threat detection rules or ATT&CK coverage.",
+ "tasks": [
+  "search detection rules",
+  "map to att&ck techniques",
+  "compare detection formats"
+ ],
+ "effects": {},
+ "flags": []
+}

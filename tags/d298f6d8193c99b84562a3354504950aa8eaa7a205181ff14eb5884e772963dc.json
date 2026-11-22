@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d298f6d8193c99b84562a3354504950aa8eaa7a205181ff14eb5884e772963dc",
+ "domain": [
+  "communication/email/test-inboxes",
+  "software/testing"
+ ],
+ "product": [
+  "mailslurp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Provides programmable email and SMS inboxes for agents, along with email rendering, inbox placement tests and warmup.",
+ "whenToUse": "Use when an agent needs disposable inboxes or phone numbers, or must test email rendering and deliverability.",
+ "tasks": [
+  "create email inboxes",
+  "receive sms",
+  "render emails",
+  "test inbox placement",
+  "warm up senders"
+ ],
+ "effects": {},
+ "flags": []
+}

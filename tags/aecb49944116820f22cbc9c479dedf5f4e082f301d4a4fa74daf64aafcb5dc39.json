@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "aecb49944116820f22cbc9c479dedf5f4e082f301d4a4fa74daf64aafcb5dc39",
+ "domain": [
+  "sales/crm",
+  "data/company-registry"
+ ],
+ "product": [
+  "oportunidados"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches Brazilian companies by CNPJ and manages accounts and pipeline in the Oportunidados CRM.",
+ "whenToUse": "Use when prospecting Brazilian companies or updating the Oportunidados sales funnel.",
+ "tasks": [
+  "search companies by cnpj",
+  "view company profile",
+  "manage crm accounts",
+  "manage sales funnel"
+ ],
+ "effects": {},
+ "flags": []
+}

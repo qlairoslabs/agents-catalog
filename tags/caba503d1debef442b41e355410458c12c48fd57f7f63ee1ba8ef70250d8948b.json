@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "caba503d1debef442b41e355410458c12c48fd57f7f63ee1ba8ef70250d8948b",
+ "domain": [
+  "media/generative-ai",
+  "marketing/creative"
+ ],
+ "product": [
+  "neurall"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates images, videos and audio for agents, including banners, reveal videos, avatars and voice clones.",
+ "whenToUse": "Use when an agent needs to generate marketing images, short videos, avatars or synthetic voice.",
+ "tasks": [
+  "generate images",
+  "generate banners",
+  "generate reveal videos",
+  "create avatars",
+  "generate audio",
+  "clone voices"
+ ],
+ "effects": {},
+ "flags": []
+}

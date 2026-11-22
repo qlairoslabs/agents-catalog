@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b31a1865a4430cc9544811339c824849fec8d410d99f459a0cc7275d67f8be91",
+ "domain": [
+  "travel/award-flights",
+  "finance/loyalty-points"
+ ],
+ "product": [
+  "awardclaw"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches business and first class award seat availability, sets alerts and trip watches, and shares points news.",
+ "whenToUse": "Use when the user wants to find or monitor premium award flight availability using points.",
+ "tasks": [
+  "search award availability",
+  "set seat alerts",
+  "watch trips",
+  "read points news"
+ ],
+ "effects": {},
+ "flags": []
+}

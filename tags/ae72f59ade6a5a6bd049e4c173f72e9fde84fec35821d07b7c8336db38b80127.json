@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "ae72f59ade6a5a6bd049e4c173f72e9fde84fec35821d07b7c8336db38b80127",
+ "domain": [
+  "software/frameworks/mcp"
+ ],
+ "product": [
+  "typescript"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "TypeScript framework for building MCP servers.",
+ "whenToUse": "Use when developing a new MCP server in TypeScript.",
+ "tasks": [
+  "scaffold mcp servers",
+  "define tools"
+ ],
+ "effects": {},
+ "flags": []
+}

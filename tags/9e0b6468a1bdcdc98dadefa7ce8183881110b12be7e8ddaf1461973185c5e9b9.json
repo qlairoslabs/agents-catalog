@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9e0b6468a1bdcdc98dadefa7ce8183881110b12be7e8ddaf1461973185c5e9b9",
+ "domain": [
+  "data/social-media",
+  "marketing/social-listening"
+ ],
+ "product": [
+  "reddit",
+  "tiktok",
+  "instagram",
+  "x",
+  "youtube",
+  "xiaohongshu",
+  "douyin"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Retrieves social media data from Reddit, TikTok, Instagram, X, YouTube, Xiaohongshu and Douyin.",
+ "whenToUse": "Use when an agent needs posts, profiles or trends from major social platforms.",
+ "tasks": [
+  "fetch social posts",
+  "fetch profiles",
+  "research trends"
+ ],
+ "effects": {},
+ "flags": []
+}

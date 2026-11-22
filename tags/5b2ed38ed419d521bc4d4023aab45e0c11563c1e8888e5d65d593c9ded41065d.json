@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "5b2ed38ed419d521bc4d4023aab45e0c11563c1e8888e5d65d593c9ded41065d",
+ "domain": [
+  "software/databases/migrations"
+ ],
+ "product": [
+  "postgres"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Checks PostgreSQL migrations against 112 safety rules and provides a pass/fail gate before DDL runs.",
+ "whenToUse": "Use before running any PostgreSQL schema migration to catch dangerous changes.",
+ "tasks": [
+  "lint postgres migrations",
+  "detect dangerous ddl",
+  "pass/fail migration gate"
+ ],
+ "effects": {},
+ "flags": []
+}

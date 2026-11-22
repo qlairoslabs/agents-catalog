@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "0513499d406d399f584fb477c9bf6e3e0d96b2106d549eafc131907ee5aca744",
+ "domain": [
+  "software/agent-orchestration",
+  "software/project-management"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Coordination service where AI agents claim software work objectives over MCP, with an audit trail of their activity.",
+ "whenToUse": "Use when multiple autonomous coding agents need to pick up, track and report on assigned work objectives.",
+ "tasks": [
+  "claim objectives",
+  "track agent work",
+  "record audit trail",
+  "coordinate agents"
+ ],
+ "effects": {},
+ "flags": []
+}

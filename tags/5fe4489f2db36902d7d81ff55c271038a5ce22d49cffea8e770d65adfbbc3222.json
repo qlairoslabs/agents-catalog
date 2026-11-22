@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "5fe4489f2db36902d7d81ff55c271038a5ce22d49cffea8e770d65adfbbc3222",
+ "domain": [
+  "marketing/surveys",
+  "marketing/customer-feedback"
+ ],
+ "product": [
+  "zigpoll"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Analyzes Zigpoll survey responses, tracks trends and summarizes insights.",
+ "whenToUse": "Use when an agent needs to analyze survey responses or customer feedback collected with Zigpoll.",
+ "tasks": [
+  "analyze survey responses",
+  "track response trends",
+  "summarize insights"
+ ],
+ "effects": {},
+ "flags": []
+}

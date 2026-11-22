@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "43bee66a72be61c37b565f7c8882247da3ea2ef3150e405903c63ac3837f86f3",
+ "domain": [
+  "education/investing",
+  "finance/market-data"
+ ],
+ "product": [
+  "nse",
+  "paisatrade"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Teaches the Indian stock market with delayed NSE quotes, a screener, IPO info, courses and paper trading.",
+ "whenToUse": "Use when an agent helps someone learn Indian stock investing or practice with paper trades.",
+ "tasks": [
+  "get delayed quotes",
+  "screen stocks",
+  "view ipos",
+  "take courses",
+  "paper trade"
+ ],
+ "effects": {},
+ "flags": []
+}

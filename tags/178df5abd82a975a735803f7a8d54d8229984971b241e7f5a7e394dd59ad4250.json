@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "178df5abd82a975a735803f7a8d54d8229984971b241e7f5a7e394dd59ad4250",
+ "domain": [
+  "software/ai-ml",
+  "research"
+ ],
+ "product": [
+  "hugging-face"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search and inspect Hugging Face models, datasets, Spaces and papers, and read repository files and cards.",
+ "whenToUse": "Use when you need to find or examine ML models, datasets, Spaces or papers on the Hugging Face Hub.",
+ "tasks": [
+  "check account identity",
+  "search models and datasets",
+  "get repo details",
+  "preview dataset rows",
+  "browse trending papers",
+  "read model cards",
+  "list repo files"
+ ],
+ "effects": {
+  "33cab493b541330869e9da64a733be57b8ea3b4628425a557c36c20c37e46326": "read",
+  "bc6e65a302e39b09a143a0b8d7daafdbb9bb8607216e21c93eadd8992c8c6434": "read",
+  "6227a73823fe763b612172ba98d3f229e68b02b90e3d2bffd5b3709a4a7c8007": "read",
+  "c1a2798e9ac2a904359bb7ed1c3c6abc84535aa29428483bb305260b5b36baef": "write"
+ },
+ "flags": []
+}

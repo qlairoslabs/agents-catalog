@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "db340d9dc51de393e6d34395e8d728aa1b605b06f4b624d5a218b2792f98ad01",
+ "domain": [
+  "government/procurement",
+  "sales/market-intelligence"
+ ],
+ "product": [
+  "awardcast",
+  "sam-gov",
+  "usaspending",
+  "fpds"
+ ],
+ "audience": [
+  "sales",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "US federal contracting data covering open solicitations, upcoming recompetes, agency buying profiles, contractor histories and historical price bands.",
+ "whenToUse": "Use when an agent needs to research US federal procurement opportunities, competitors, agencies or typical contract prices.",
+ "tasks": [
+  "search agencies, contractors and solicitations",
+  "fetch full procurement records",
+  "list open solicitations",
+  "list upcoming recompetes",
+  "view agency buying profile",
+  "view contractor award history",
+  "get historical price bands",
+  "check forecast accuracy"
+ ],
+ "effects": {
+  "2be5a9cbd0ccacc67644419ce9186c941260ce2dadfad91a31410c8d44826125": "read",
+  "fd256e0847a88e1ccfe6d51dbe2df768eb6e3218874a9d71430f7b37485b13e0": "read",
+  "3bb157c67325eb642c36b793990941059efd8927a9336333fd8b736725d18701": "read",
+  "bd68e161356df6f7c41061e4b1e5ee1965a69ab826753248803fb0e9da761267": "read",
+  "4fae596e8ab39e416f49500ff40120bdb0b00761de6c01f0001b048f1f1f39cf": "read",
+  "079a80803d002ccc54e70eb34f120b77ba0cdb945cc66b86ce7e02626cf5b7a6": "read",
+  "befcaa2096f5209afb8e6e4c8b83bd3a9e3a539b0341a9ecf2fe525acc9b48e1": "read",
+  "40037e9097cc44751c612a0fd406f6f25caea0e465d33f1c7d398534eb605d22": "read"
+ },
+ "flags": [
+  "Tool descriptions tell the agent to point users to a paid pricing page (mild upsell)."
+ ]
+}

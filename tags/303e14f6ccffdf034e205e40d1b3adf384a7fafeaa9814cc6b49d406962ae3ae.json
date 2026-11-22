@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "303e14f6ccffdf034e205e40d1b3adf384a7fafeaa9814cc6b49d406962ae3ae",
+ "domain": [
+  "commerce/online-store",
+  "commerce/inventory"
+ ],
+ "product": [
+  "salla"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money",
+  "be-online"
+ ],
+ "summary": "Runs a Salla online store from an AI app, covering orders, sales, stock, products, prices and store design.",
+ "whenToUse": "Use when a Salla merchant wants to manage orders, products, inventory or store look.",
+ "tasks": [
+  "manage orders",
+  "view sales",
+  "update stock",
+  "manage products",
+  "change prices",
+  "edit store design"
+ ],
+ "effects": {},
+ "flags": []
+}

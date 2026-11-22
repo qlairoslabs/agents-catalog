@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "92d9fea3b540f1d947ebe8fc1b8fffc50f3de34ee6f36af429a610ea844ce748",
+ "domain": [
+  "shopping/price-comparison",
+  "fashion/sneakers"
+ ],
+ "product": [
+  "wosneaker",
+  "amazon",
+  "ebay",
+  "nike"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "German-market price comparison for sneakers, returning current best offers, buying guides and offer re-checks from many shops.",
+ "whenToUse": "Use when a user wants the cheapest price, a deal or buying advice for sneakers in Germany.",
+ "tasks": [
+  "search sneaker offers",
+  "filter by brand and price",
+  "find buying guides",
+  "compare sneaker models",
+  "re-check an offer price"
+ ],
+ "effects": {
+  "69cf9b07e910a1acf66b15eb6fa25a29652f8faf7887cf40f4f8666081bf7a3e": "write",
+  "badce73772e8106cd8b330d9e6f7798d4d828372682871b183195acde0d514c4": "write",
+  "e5784b816472c8c8ae5078fac8b16626b97032770aec54b558a89fd2065b53d3": "read"
+ },
+ "flags": []
+}

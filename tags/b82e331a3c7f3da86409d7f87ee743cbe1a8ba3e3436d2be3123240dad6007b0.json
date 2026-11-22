@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b82e331a3c7f3da86409d7f87ee743cbe1a8ba3e3436d2be3123240dad6007b0",
+ "domain": [
+  "engineering/requirements-management",
+  "compliance/document-control"
+ ],
+ "product": [
+  "traceable-docs"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant",
+  "work-as-a-team"
+ ],
+ "summary": "Reads and drafts requirements, controlled documents and trace links in Traceable Docs.",
+ "whenToUse": "Use when working on requirements traceability or controlled documentation stored in Traceable Docs.",
+ "tasks": [
+  "read requirements",
+  "draft requirements",
+  "read controlled documents",
+  "draft controlled documents",
+  "manage trace links"
+ ],
+ "effects": {},
+ "flags": []
+}

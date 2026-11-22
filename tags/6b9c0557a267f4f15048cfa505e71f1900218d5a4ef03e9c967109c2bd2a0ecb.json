@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6b9c0557a267f4f15048cfa505e71f1900218d5a4ef03e9c967109c2bd2a0ecb",
+ "domain": [
+  "marketing/brand-management",
+  "marketing/content-creation"
+ ],
+ "product": [
+  "branddock"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Supplies brand context to agents, validates content against brand guidelines and generates on-brand content.",
+ "whenToUse": "Use when creating or checking marketing content that must follow a defined brand identity.",
+ "tasks": [
+  "load brand context",
+  "validate content against brand",
+  "generate on-brand content"
+ ],
+ "effects": {},
+ "flags": []
+}

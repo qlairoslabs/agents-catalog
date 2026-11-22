@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "3468dfe1dd75a48f8cf2f37eca2610de35f8dc3fe722a16db365ebbf8ece8065",
+ "domain": [
+  "legal/germany",
+  "legal/research"
+ ],
+ "product": [
+  "nulegal",
+  "bundesrechtsanwaltskammer"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "German federal and state statutes and court decisions with citation checking, version history and citation graph, plus a lawyer register search.",
+ "whenToUse": "Use when researching German law, verifying a citation or Aktenzeichen, reading statute text on a date, or finding a German lawyer.",
+ "tasks": [
+  "resolve legal citations",
+  "search statutes and decisions",
+  "read a provision",
+  "list norm versions",
+  "find citing decisions",
+  "list cited authorities",
+  "read decision passages",
+  "track changes",
+  "check corpus coverage",
+  "search lawyers",
+  "get lawyer profile"
+ ],
+ "effects": {
+  "440162c3ee01cfc6f12c851ab8c1b241a16a26af9cf044116a72eb9f9b8f97b1": "write",
+  "09677ac6d436e1067a1b32fd83627e420cb7ecf416b3e75ed8de25fe1237f1f3": "write",
+  "da7546b2926dd47f136387c0011146499ce389e05fe02fcd0152eceb551213b7": "write",
+  "458b7921327589f1543e7c668fa584381cfcd49e6bb850f6b080f403ed5982e6": "write",
+  "4fceb77d31f1102308f89885c167ee65cf63a3c6319be8bca0593fbdea14262d": "write",
+  "46a05780314589b0d382f8c4b994d02548392184c3f0f142a9c020f6575083d4": "read",
+  "79b9f9640aee5026f24f848ee9375709fd3d1761f9fc1c097e2d597740250c1e": "read",
+  "f71feaed71d0792e83b46f5be53389e8de30fab5024824c1cb9761f7e2049248": "write",
+  "10de04c150f65cdb25267b3ff05556fc6ec0ca0f1a96504c20c9ae1985d7b4f6": "read",
+  "25488f3266bbf7d705347f27dc1afcb0a062c59cebb47e258ac56fd3d4713b9c": "write",
+  "4c18aff5adf4cd392e4a9febd98393ccdd88862b6c4eaa1d4967a113cb9483f2": "read"
+ },
+ "flags": []
+}

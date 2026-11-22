@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d2511d5a62c714b821099099e8bdbae2dfc4c370081ba01452fc193bb1e0d226",
+ "domain": [
+  "science/materials-simulation",
+  "science/computational-chemistry"
+ ],
+ "product": [
+  "materialscodegraph"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Runs materials science simulations for agents, issuing a binding cost quote before each run and a record afterwards.",
+ "whenToUse": "Use when an agent needs to run paid materials simulations with quoted costs and run records.",
+ "tasks": [
+  "quote simulation cost",
+  "run materials simulations",
+  "retrieve run records"
+ ],
+ "effects": {},
+ "flags": []
+}

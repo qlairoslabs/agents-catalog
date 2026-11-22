@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "bb3667869b81273b35a65fd48eff5202f7d2784faf48ea646de034d10ca6264f",
+ "domain": [
+  "sales/crm"
+ ],
+ "product": [
+  "anvil-crm"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "keep-in-touch"
+ ],
+ "summary": "A lightweight CRM that lets AI assistants read and keep customer accounts up to date.",
+ "whenToUse": "Use when a user wants an agent to look up or update accounts and contacts in Anvil CRM.",
+ "tasks": [
+  "view accounts",
+  "update account records",
+  "track customer activity"
+ ],
+ "effects": {},
+ "flags": []
+}

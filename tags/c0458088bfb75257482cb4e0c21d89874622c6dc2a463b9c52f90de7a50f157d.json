@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c0458088bfb75257482cb4e0c21d89874622c6dc2a463b9c52f90de7a50f157d",
+ "domain": [
+  "software/hosting",
+  "infrastructure/dns"
+ ],
+ "product": [
+  "oxalisheberg",
+  "oxadash"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Manages OxalisHeberg hosting services: websites, game servers, VPS, DNS and email.",
+ "whenToUse": "Use when managing sites, servers, DNS or mail hosted at OxalisHeberg.",
+ "tasks": [
+  "manage websites",
+  "manage game servers",
+  "manage vps",
+  "manage dns records",
+  "manage email accounts"
+ ],
+ "effects": {},
+ "flags": []
+}

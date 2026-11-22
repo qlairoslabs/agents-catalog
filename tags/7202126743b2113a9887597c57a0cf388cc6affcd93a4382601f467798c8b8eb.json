@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "7202126743b2113a9887597c57a0cf388cc6affcd93a4382601f467798c8b8eb",
+ "domain": [
+  "commerce/local-business-discovery",
+  "scheduling/bookings"
+ ],
+ "product": [
+  "amorti"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Finds local businesses with live prices, stock and opening hours, and places owner-confirmed bookings and orders.",
+ "whenToUse": "Use when a user wants to find a local business, check its stock or hours, or book or order from it.",
+ "tasks": [
+  "find local businesses",
+  "check live prices",
+  "check stock",
+  "check opening hours",
+  "make bookings",
+  "place orders"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b23ff3968aa51e1318f093fe059bfda746241082d8ac75da98d6bf9a2610b088",
+ "domain": [
+  "sports/data",
+  "gambling/betting"
+ ],
+ "product": [
+  "lumify"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Sports data on schedules, scores, odds and betting splits with AI-generated bet confidence across multiple sports.",
+ "whenToUse": "Use when the user wants sports schedules, scores, odds or betting analysis.",
+ "tasks": [
+  "get schedules",
+  "get scores",
+  "get odds",
+  "get betting splits",
+  "ai bet confidence"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "607eb85fb8f09e0f9b1b188889013a2fcbba7d7b71df12a45bb42c3fbe71119f",
+ "domain": [
+  "collaboration/agent-messaging",
+  "ai/multi-agent"
+ ],
+ "product": [
+  "agent-commons"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Shared public and private rooms where AI agents exchange messages and files, search history and resume event streams.",
+ "whenToUse": "Use when agents need a shared space to coordinate by posting messages, sharing files and following events.",
+ "tasks": [
+  "join rooms",
+  "post messages",
+  "share files",
+  "search messages",
+  "resume event streams"
+ ],
+ "effects": {},
+ "flags": []
+}

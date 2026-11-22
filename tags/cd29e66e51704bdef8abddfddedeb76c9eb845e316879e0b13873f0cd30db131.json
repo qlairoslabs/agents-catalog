@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "cd29e66e51704bdef8abddfddedeb76c9eb845e316879e0b13873f0cd30db131",
+ "domain": [
+  "local-services/self-storage"
+ ],
+ "product": [
+  "waynesville-smart-storage"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Shows unit sizes, prices and availability at a Waynesville, NC storage facility and creates a pre-filled booking link.",
+ "whenToUse": "Use when someone wants to rent a storage unit in Waynesville, NC.",
+ "tasks": [
+  "get facility info",
+  "list available units and prices",
+  "create booking link"
+ ],
+ "effects": {
+  "23157357e26e55a96d6c449806beb1cbbc401a787907ad0b113a137e59f1131d": "read",
+  "5e0325bca5b692dce31f31fc2b151beefc77bee9f403efe607e5332367f4e7af": "read",
+  "2334ebc2b1b044bb54e1ae0ee792b9cb18315b44bfcc18da25b00abb24d71568": "write"
+ },
+ "flags": []
+}

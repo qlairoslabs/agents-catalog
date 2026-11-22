@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d47cf3cb122e4e2b81df1c22188ee21fae9876a1fd3b8218e64aa3cec0074574",
+ "domain": [
+  "travel/trip-planning"
+ ],
+ "product": [
+  "breckenwander"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches flights, hotels and experiences with all-in prices and combines chosen items into one trip link on breckenwander.com.",
+ "whenToUse": "Use when a user is planning or pricing a trip and wants flights, hotels and activities in one booking link.",
+ "tasks": [
+  "search round-trip flights",
+  "search hotels",
+  "search experiences",
+  "build combined trip link"
+ ],
+ "effects": {
+  "915e49a0272261add2739750a39c3fa3c99ca88453155cbe3edba6f7c93a17fc": "read",
+  "8e21d822b58668562f13166ea7d3b015fa6db55a4f84e7cbcba24fe951acd361": "read",
+  "d758f702919f2f38fedd6523b115febf10c48fb74b32fa99160a64bbb4c3d813": "read",
+  "6dfe9df293d534307eca0ae961836496bf46bd41f4cf9b0a9577b9f60408fa6a": "write"
+ },
+ "flags": []
+}

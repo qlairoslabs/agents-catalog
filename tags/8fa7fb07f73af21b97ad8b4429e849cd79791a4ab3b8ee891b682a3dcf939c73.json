@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "8fa7fb07f73af21b97ad8b4429e849cd79791a4ab3b8ee891b682a3dcf939c73",
+ "domain": [
+  "marketing/video-content",
+  "media/ai-video"
+ ],
+ "product": [
+  "faceless",
+  "youtube",
+  "tiktok",
+  "instagram"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Connector to generate, render and automatically post AI faceless videos to YouTube, TikTok and Instagram.",
+ "whenToUse": "Use when an agent needs to create short AI videos and publish them to YouTube, TikTok or Instagram.",
+ "tasks": [
+  "generate videos",
+  "render videos",
+  "auto-post videos"
+ ],
+ "effects": {},
+ "flags": []
+}

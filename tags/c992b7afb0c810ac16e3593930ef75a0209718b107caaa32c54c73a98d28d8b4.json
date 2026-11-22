@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "c992b7afb0c810ac16e3593930ef75a0209718b107caaa32c54c73a98d28d8b4",
+ "domain": [
+  "gaming/flight-simulation",
+  "shopping/price-comparison"
+ ],
+ "product": [
+  "microsoft-flight-simulator",
+  "fsaircraft"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Price comparison catalogue for payware Microsoft Flight Simulator add-ons, with deals, per-store prices, price history and aircraft or airport lookups.",
+ "whenToUse": "Use when finding or comparing prices of MSFS aircraft, scenery or utility add-ons.",
+ "tasks": [
+  "search add-ons",
+  "get add-on details",
+  "list current deals",
+  "compare store prices",
+  "get price history",
+  "list stores",
+  "list developers",
+  "find aircraft type",
+  "list add-ons for aircraft",
+  "list sceneries for airport"
+ ],
+ "effects": {
+  "0fb47bfb3c6ad0a5e669958f52fbf581a208522279d35e145e3708ab13bf813f": "read",
+  "2f2399e9edbe61fdef4ce6f64f74ea14d702cb3f5bb908f870dd8fb7238de372": "read",
+  "99609bf52f53a95992b9e5be83dde9ad1fd6464a8aed11039d32d310c902d057": "read",
+  "62d221b2d9a96cad02cec33532f96fb4c8777eda9dd911c303e1b4c282072581": "read",
+  "68e31eb0291bfd9bc9a0f04365a95bb541c90946b497c02c7c4a7767402fc5a9": "read",
+  "6dc01864d8cdc836bce39b5c4f8f858e8bff66547df46d2aeac815cc2ebb85dc": "read",
+  "7ffc97c947a2d22f421272600521e91fc76850771217bc8484faacb12b7c683c": "read",
+  "5996b9d13acd12646e2b3c936acf164db895055f68a42cd059e3a19ab3f85525": "read",
+  "d66cf801b58f17c244987ff915e2839294554e3f52eb811d4411e575c4321ded": "read",
+  "5b08b957a20d580f3dc23cde6ccda2a5c8f568adc974815afadd4e2285a1d622": "read",
+  "ab623c5793bf838915f8b45b3714a861f77420baab78277061fb4f9760afe732": "read",
+  "ea34357d12e3725c0e8469f8771543aba6da82031cf5604d7c5e86d7aa81c4d0": "read"
+ },
+ "flags": []
+}

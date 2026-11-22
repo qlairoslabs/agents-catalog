@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "8e5f1fb0c624b0d58e168925fe7836ebc5ed66f4b77a17a342009dd90e7e55de",
+ "domain": [
+  "software/developer-tools/linting"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Checks AI agent context files like CLAUDE.md and AGENTS.md against the actual codebase for errors.",
+ "whenToUse": "Use when verifying agent instruction files are accurate and up to date.",
+ "tasks": [
+  "lint claude.md",
+  "lint agents.md",
+  "detect stale references"
+ ],
+ "effects": {},
+ "flags": []
+}

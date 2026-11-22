@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "0bec17da5705b90098711b89b31738494e616a3ed5e8b2c609e85d97cfc3d783",
+ "domain": [
+  "software/cybersecurity",
+  "ai-agents/credential-management"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Keeps real credentials away from AI agents using placeholder secrets, policy checks and optional human approval.",
+ "whenToUse": "Use when an agent must call services needing secrets without seeing the actual credentials.",
+ "tasks": [
+  "use placeholder secrets",
+  "enforce policy checks",
+  "request human approval"
+ ],
+ "effects": {},
+ "flags": []
+}

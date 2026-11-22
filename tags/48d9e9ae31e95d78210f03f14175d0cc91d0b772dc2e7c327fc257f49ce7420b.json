@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "48d9e9ae31e95d78210f03f14175d0cc91d0b772dc2e7c327fc257f49ce7420b",
+ "domain": [
+  "finance/inheritance-tax",
+  "legal/french-tax"
+ ],
+ "product": [
+  "suxession"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Simulates French inheritance tax, compares transmission scenarios, estimates optimisation savings, and unlocks a paid optimiser with an access code.",
+ "whenToUse": "Use when estimating French succession duties or comparing inheritance scenarios for a simple family situation.",
+ "tasks": [
+  "simulate inheritance tax",
+  "compare scenarios",
+  "estimate optimisation savings",
+  "unlock premium access",
+  "explore optimisation strategies"
+ ],
+ "effects": {
+  "9922398778d1e35164b88d4f935fb9b772b4294b975297c47294bb561353d713": "write",
+  "58184310fe0b11272fee75fde48af678e91b64f6863733a00bc2dc3c473c6bef": "read",
+  "0f347dfe2118681b409a5468dbbecbf5bebf56b2fc708e3cde6548c1365663f4": "write",
+  "0257a86d66873ff0e0705b1d95923cd6b395a2de263280029cb57ee0cb0ecace": "write",
+  "b0983d120df6627df197ad49206d514bd352883b620addfdba2054e34890d929": "write"
+ },
+ "flags": []
+}

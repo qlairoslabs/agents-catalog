@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "397bf0d62c225b7c8eb66778e107f704af737dea81a88731ecfa5a7a0427bd02",
+ "domain": [
+  "legal/employment-law",
+  "legal/research"
+ ],
+ "product": [
+  "eeoc",
+  "courtlistener"
+ ],
+ "audience": [
+  "everyone",
+  "hire-and-manage"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only US employment-law research: court rulings, similar-case outcomes, employer and attorney track records, rights guides, EEOC process and attorney finder.",
+ "whenToUse": "Use when someone asks about workplace rights, how similar cases were decided, an employer's litigation history, or needs an employment attorney.",
+ "tasks": [
+  "search rulings",
+  "analyze similar cases",
+  "get employer track record",
+  "get attorney track record",
+  "explain worker rights",
+  "explain EEOC process",
+  "evidence preservation checklist",
+  "find employment attorney",
+  "get corpus stats"
+ ],
+ "effects": {
+  "b9069a2af20225e131bd18b987c921b6f5aaa34f024fe840c77c6e2bc549d2c4": "read",
+  "ac303e3a0b81b9f35a7fa4039426457f1402a1234dd6ba45257fee1daa0bb5ca": "write",
+  "44718c882af7fb030588665050ca718970c0dcf55db862bb59bc9a1246157d67": "read",
+  "1f7d1c6006d388a2da7b6f23e14c374a43bf87d06cf1fa7509d1a8eecf429c11": "read",
+  "da1783341c497c571fee86b52254b7843deaa4c90f40822da7e9e5267bd71569": "write",
+  "d9b15f5c449c6cda68ee55cc30af7bd1f3126840140151b2639f4dc39b2d307f": "write",
+  "973bbf65d50c25ed1d5c6b373c5cf85251ca70b8611fdcd86166046180707038": "write",
+  "2666092fdb9f5f29e7c5eb7117221dfd7afb83c794617c319868639b6c3f6269": "read",
+  "e11027bd54b520807aa17e1c3435fc0aa431ab2fffac1ecaea45bd51e4ad8d44": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "1b0399fd0a47b360f919fcc23d2b0010600390cfdf674306169540422292a20b",
+ "domain": [
+  "quantum-computing",
+  "jobs/research"
+ ],
+ "product": [
+  "qubitsok",
+  "arxiv"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches quantum computing jobs, arXiv papers and researcher profiles, and gives a market overview.",
+ "whenToUse": "Use when looking for quantum computing jobs, recent papers, collaborators or hiring trends.",
+ "tasks": [
+  "search jobs",
+  "get job details",
+  "search papers",
+  "latest papers",
+  "get paper details",
+  "find researchers",
+  "market overview"
+ ],
+ "effects": {
+  "36ed4d556c9c7339417e3dfa281600006ad33e4e645c0f5d9bf9b8235d559142": "write",
+  "b2941a44ff61a4f44951d90fcd3853ee84952227f2c7a246fd1b3e301492526b": "read",
+  "245d2cb7e0bd24c60ee7276a948740e1452992cc0fac95c4cec5eb726610b983": "write",
+  "fa0fe32495af94c90b125d205aa79869a13600d0dedd4ff51a4e936a1bc88ce0": "read",
+  "42732e196f63ee49aa73344dc45f518ffc096d0552796bf02981167ca614ac2d": "read",
+  "a0f98334d5713856583a77d8e2e7cb9185d4befdb208168552feeda56bbcb9b1": "write",
+  "fa14de3a5e69e420d1f70d1168f2b1018f3c02d9c6eb2460b8b9a6e2c8acbee1": "read"
+ },
+ "flags": []
+}

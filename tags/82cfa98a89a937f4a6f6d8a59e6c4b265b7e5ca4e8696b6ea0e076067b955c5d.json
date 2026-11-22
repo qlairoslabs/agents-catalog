@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "82cfa98a89a937f4a6f6d8a59e6c4b265b7e5ca4e8696b6ea0e076067b955c5d",
+ "domain": [
+  "media/subtitles",
+  "video"
+ ],
+ "product": [
+  "srt",
+  "webvtt",
+  "ass",
+  "ttml"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Converts, cleans, retimes, merges, splits and audits subtitle files in SRT, WebVTT, ASS, SBV and TTML, and repairs garbled text encoding.",
+ "whenToUse": "Use when a user has subtitle text that needs format conversion, timing fixes, cleanup or readability checks.",
+ "tasks": [
+  "convert subtitle formats",
+  "clean auto-generated captions",
+  "shift or rescale timing",
+  "check reading speed",
+  "merge tracks",
+  "split tracks",
+  "fix mojibake",
+  "build SRT from plain text"
+ ],
+ "effects": {
+  "28525fca619c4d001a3bc005b82e2ff4fd78be3ab51c5e67a45df59cb03049b4": "read",
+  "44d4bbce6f747cefc42a1c8a40ff88263a82f13fd2f9f24676551526fa259457": "read",
+  "ee695d68d9cadd14912ee0f2bb2095da7f7c7affaf4dc5f748de5fa1a9de4da1": "read",
+  "b2396adba1e34f77333e6fe5951be506f8552e276734c7fdd9d1d7549555c109": "read",
+  "ffaa300355094d15349cf91e2ee63192a3ce13a545a17a1e6bfc7daaa0a4a32e": "read",
+  "581010c7fb6556a54a41ede89dfe6204d650d092bbaa5c7c6fbad2c0e9a681c0": "read",
+  "78f1798aef95a92650b8b61c6d97d442402a573c946c51cc9d59302cd20bc069": "read",
+  "ba5f9f162fa7659877a99838b74b7ed83555586ac2bcbce8ed33bdf47698b537": "read"
+ },
+ "flags": []
+}

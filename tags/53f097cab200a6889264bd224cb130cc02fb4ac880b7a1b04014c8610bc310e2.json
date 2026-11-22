@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "53f097cab200a6889264bd224cb130cc02fb4ac880b7a1b04014c8610bc310e2",
+ "domain": [
+  "automotive/pricing",
+  "automotive/vehicle-data"
+ ],
+ "product": [
+  "fipex",
+  "fipe"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches Brazilian FIPE vehicle reference prices with current values, monthly history and side-by-side comparison.",
+ "whenToUse": "Use when someone needs the FIPE reference price of a car, motorcycle or truck in Brazil.",
+ "tasks": [
+  "search vehicles",
+  "get current fipe price",
+  "get price history",
+  "compare vehicle prices"
+ ],
+ "effects": {
+  "38698970073cfc8f83f9b253230f2107625408b8c3d9f56f84499d0240305c09": "read",
+  "16b5e666292bdbdc842a55a85fd5619530aa19bca9e523dbc5ac298b48268977": "read",
+  "95fde0c0c6738f6ecd4ea4183338f6cbf5d21f25c46f296b0baec57cec33a4b1": "read",
+  "ad672ae6adebf264efe2e48dde1e38cc62a7a3d3d7860820f8a0a264cc128b85": "read"
+ },
+ "flags": []
+}

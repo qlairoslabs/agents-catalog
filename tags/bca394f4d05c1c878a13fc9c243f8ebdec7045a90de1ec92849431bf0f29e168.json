@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "bca394f4d05c1c878a13fc9c243f8ebdec7045a90de1ec92849431bf0f29e168",
+ "domain": [
+  "ai-agents/platform-policy",
+  "social-media/rules"
+ ],
+ "product": [
+  "reddit",
+  "hacker-news",
+  "bluesky",
+  "github",
+  "x",
+  "mastodon"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Gives cited, dated answers on whether AI agents may post, sign up or automate on Reddit, Hacker News, Bluesky, Mastodon, GitHub and X.",
+ "whenToUse": "Use before an agent signs up, posts or comments on one of these platforms, to check automation and disclosure rules.",
+ "tasks": [
+  "list verified platforms",
+  "get automation rules",
+  "check disclosure requirements",
+  "read rule quotes and sources"
+ ],
+ "effects": {
+  "914197049268ddbd88bb2ba380d98ce1dba170cceb17d394d47a4bb4630ac981": "read",
+  "0fdb5f8768168431fb60bf9a05c645529698d100c48cd32dce5a847222615842": "read"
+ },
+ "flags": []
+}

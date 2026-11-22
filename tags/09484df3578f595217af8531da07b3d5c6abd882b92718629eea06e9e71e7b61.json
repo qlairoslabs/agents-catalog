@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "09484df3578f595217af8531da07b3d5c6abd882b92718629eea06e9e71e7b61",
+ "domain": [
+  "travel/trip-planning",
+  "travel/packing"
+ ],
+ "product": [
+  "claimyapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Reads, creates and edits trips, packing lists and luggage records in ClaimyApp, with undo support.",
+ "whenToUse": "Use when a user wants to organise trips or packing lists stored in ClaimyApp.",
+ "tasks": [
+  "view trips",
+  "create trips",
+  "edit packing lists",
+  "manage luggage",
+  "undo changes"
+ ],
+ "effects": {},
+ "flags": []
+}

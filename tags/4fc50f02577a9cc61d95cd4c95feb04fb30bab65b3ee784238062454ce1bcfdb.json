@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4fc50f02577a9cc61d95cd4c95feb04fb30bab65b3ee784238062454ce1bcfdb",
+ "domain": [
+  "software/browser-automation",
+  "software/ai-agents"
+ ],
+ "product": [
+  "e2llm"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Gives an agent structured page perception and control of a real browser.",
+ "whenToUse": "Use when an agent needs to read and interact with web pages in a real browser.",
+ "tasks": [
+  "capture structured page perception",
+  "click elements",
+  "fill forms",
+  "navigate pages"
+ ],
+ "effects": {},
+ "flags": []
+}

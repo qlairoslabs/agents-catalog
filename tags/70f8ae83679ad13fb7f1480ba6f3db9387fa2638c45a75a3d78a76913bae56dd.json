@@ -1,0 +1,69 @@
+{
+ "classifier": 2,
+ "contentHash": "70f8ae83679ad13fb7f1480ba6f3db9387fa2638c45a75a3d78a76913bae56dd",
+ "domain": [
+  "finance/german-tax",
+  "business/company-formation",
+  "legal/german-documents"
+ ],
+ "product": [
+  "firma.de",
+  "gmbh",
+  "ug",
+  "xrechnung",
+  "zugferd"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "German founder calculators and document generators: GmbH/UG formation costs, notary fees, taxes, cap tables, annual accounts deadlines, contracts, receipts and e-invoices.",
+ "whenToUse": "Use when a user asks about German company formation, taxes, notary or adviser costs, VAT rules, record-keeping duties, or needs a loan, gift or receipt document or an e-invoice.",
+ "tasks": [
+  "cap table and exit waterfall",
+  "loan and gift contracts",
+  "receipts",
+  "XRechnung and ZUGFeRD e-invoices",
+  "notary and court fees",
+  "income tax",
+  "GmbH tax",
+  "holding comparison",
+  "managing director salary",
+  "tax adviser fees",
+  "annual accounts deadlines",
+  "find notaries"
+ ],
+ "effects": {
+  "fb6e7b1146b145365c13d37d3f69ec6c3a2b478da465b88fb34bffa9d6c1af9e": "write",
+  "342fd3bffd2c8966f45f31b3372ae29f2a6d4687e47566387f385a7a95f2f583": "write",
+  "1b3a7555c2a3138b45e3d0b365ef1f583f991b0edbf13b9c8eb484c5d51c2089": "write",
+  "e2abf111776ed814a94d279d16a084d852910fbe049fdc3901fb7a5a541df3d1": "write",
+  "fe9fa798a878bc211d30bdb6b10e62e1e9d964061fdb6efc83c532c3f274ec6f": "write",
+  "e41b49d8f15c48e3e9a277ce74c029b5df067d76a029d7af91ae09cb3ece1721": "write",
+  "8618d280f3eb3a467e4185b34fe1fa94402847d619a0b0d76a88883c3daf866b": "read",
+  "e02a4e16b978842f56a280f54fa3d7d605fcc356e08472467cf01c4214ecb1f4": "write",
+  "faa74476e66d09ac1bcadf7610acc33e0351b5aebe71b089caf12d35b66025b6": "write",
+  "71c8e5526ce3d0601d697140c8f04f261e1761c2e733134150f6644c193530cd": "write",
+  "18733eab9b82882154911dbb90db50fc902e6dea1d815fc5c454092fcfca486d": "write",
+  "f00091c4fb0540b1e9eab92199aa1e718349238382667f4f16cabca94ed2bc6a": "write",
+  "e54b0addf8c619f02d35c3c75f2364058b20049f23140e8c3a3bfde8021c1043": "write",
+  "d48d71f11e06f2ccae5d834b6f88251b7331444e75b6636a65e839977ecb28b5": "write",
+  "6dd44e18bbd1af1699658c166a69be2ddf55c80bc131629ee2067028dc6dd61d": "read",
+  "714b0e6bd4c47b527c4616776f19dc4ddc0418567c17317d0f14761f14ca9f5a": "write",
+  "063c5f39f2c0b804e41350bece0d0ae47cc9f2cb3d2a30be36f8b23d0b2220a9": "read",
+  "c5781e01f809a1218e07244b0f4d1acbe84295f8f18f0e9a452e3e975b7ff360": "write",
+  "3f94dc877a98f53fccd8a11ae122180b848759ba859cbd287110ed1db2bf65fb": "write",
+  "988bc4fd68d144789f119e2863b3d62e1e72e5cea8fdb021fe7157f4d33e44ed": "write",
+  "b2280b818d4783456826be18066f9e1d5842fc1c9d5d1399ae17a1f0132091b5": "write",
+  "c1e36a42aafd6008b734ed389f8d24f793062bc699037662240f0bf0a56c83cb": "write",
+  "550f99345b10119160e993499f194b971bee8e857960fd52a9364437035e2b2d": "write",
+  "3d9c16af0dfb3280a051536d2b866281b20063fbcb72a98c5b2f894da6eb246c": "read"
+ },
+ "flags": []
+}

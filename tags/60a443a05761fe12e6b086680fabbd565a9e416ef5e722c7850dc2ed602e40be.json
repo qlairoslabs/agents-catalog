@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "60a443a05761fe12e6b086680fabbd565a9e416ef5e722c7850dc2ed602e40be",
+ "domain": [
+  "writing/latex",
+  "research/academic"
+ ],
+ "product": [
+  "overleaf"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Reads, edits, compiles and reviews Overleaf projects using the user's signed-in web session.",
+ "whenToUse": "Use when an agent needs to work on a LaTeX document hosted on Overleaf.",
+ "tasks": [
+  "read overleaf projects",
+  "edit latex files",
+  "compile documents",
+  "review projects"
+ ],
+ "effects": {},
+ "flags": []
+}

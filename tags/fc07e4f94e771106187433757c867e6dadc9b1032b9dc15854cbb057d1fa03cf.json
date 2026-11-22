@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "fc07e4f94e771106187433757c867e6dadc9b1032b9dc15854cbb057d1fa03cf",
+ "domain": [
+  "software/code-intelligence",
+  "software/development"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "AST-based code analysis for AI agents across JS/TS, Python, Go, Rust, Java, C/C++ and C#.",
+ "whenToUse": "Use when an agent needs precise structural understanding of a codebase.",
+ "tasks": [
+  "parse code into ast",
+  "find symbols",
+  "trace references",
+  "analyze code structure"
+ ],
+ "effects": {},
+ "flags": []
+}

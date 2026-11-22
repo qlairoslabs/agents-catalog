@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e7d88d7a4606dee82ff23578d9e52a10473f76dc1c361814c7de84d165ad017f",
+ "domain": [
+  "marketing/customer-retention"
+ ],
+ "product": [
+  "openserve"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Retention and marketing tools for a single workspace, where write actions wait for human approval.",
+ "whenToUse": "Use when running customer retention or marketing tasks that should be reviewed by a person before going out.",
+ "tasks": [
+  "run retention campaigns",
+  "manage marketing actions",
+  "submit changes for approval"
+ ],
+ "effects": {},
+ "flags": []
+}

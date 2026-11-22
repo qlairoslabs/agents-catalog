@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "bf617abc4e5553ef0c04ce18583da5ae432a771a443dc3e4b26e525936088b9e",
+ "domain": [
+  "energy/solar",
+  "home-improvement"
+ ],
+ "product": [
+  "google-solar",
+  "pvgis",
+  "pv-solaire-energie"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Estimates rooftop solar potential in France, finds RGE installers and submits SMS-confirmed quote requests.",
+ "whenToUse": "Use when a homeowner in France wants a solar estimate, nearby installers or a quote request.",
+ "tasks": [
+  "estimate solar production",
+  "request quote",
+  "confirm request with SMS code",
+  "search RGE installers"
+ ],
+ "effects": {
+  "c86d262c26039de38d8144252a7c845f31cc6648f9d0f7014dca4d2e91f85e0b": "write",
+  "c76217809c2577775fc2975d5dd66b0d218adf95a6bd4ac5bd72bfe306733d82": "write",
+  "10d904397cae71f39c9d3541fa3d472784ac03d324233847c0a1b41a5f0299cb": "write",
+  "f3e0cb92c49e59945d1f7458086c294b916f3dfb105ada6ad0d4a1bade2e6d5e": "write"
+ },
+ "flags": []
+}

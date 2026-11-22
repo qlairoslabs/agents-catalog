@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "06e4c808f477b49aa0e7c23c04ce4d27414f0d105043f3527de4cb7be0428fb2",
+ "domain": [
+  "software/developer-tools",
+  "marketing/advertising"
+ ],
+ "product": [
+  "adcritter"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Developer connector for the AdCritter ads platform, with docs, API reference, app scaffolding and white-label integration help.",
+ "whenToUse": "Use when building software or white-label integrations on top of the AdCritter advertising API.",
+ "tasks": [
+  "search api docs",
+  "read api reference",
+  "scaffold apps",
+  "guide white-label integration"
+ ],
+ "effects": {},
+ "flags": []
+}

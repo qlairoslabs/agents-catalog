@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "715b06da56596cbcef3f431848e1a5769be1014efd874a1e734e6ce4f7eabb0b",
+ "domain": [
+  "printing/commercial-print",
+  "ecommerce"
+ ],
+ "product": [
+  "smartpress"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Find, configure and price custom print products at Smartpress, upload and proof artwork, and add the configured item to a cart.",
+ "whenToUse": "Use when a user wants to order printed materials such as business cards or booklets and needs pricing, file checks and a proof.",
+ "tasks": [
+  "find print products",
+  "configure options and price",
+  "get design templates",
+  "upload artwork",
+  "analyze file size",
+  "recommend products for a file",
+  "generate proofs and file checks",
+  "approve proof",
+  "add to cart",
+  "send feedback"
+ ],
+ "effects": {
+  "ba22e06b227881039f59fa6c4dca61fb5e58eac89a28af0c64b8925a32e092b4": "write",
+  "600fb8117bd962e79550d050eb70604233758109741f0768b0b19791f659006a": "write",
+  "339b16a8b86076eb130d4e5fa69402d797e6b08c5dacdf4e8d601c258b229333": "write",
+  "327c6a82f31e813593db91765faa34a68cccde2bde9e9fc600085554881a5658": "write",
+  "a21b8005d5ecc46a0e3a7c2284f0b8a96f18f40109bba64e44f495729351078a": "write",
+  "f5fbd2aac313c7144e9cda4ecca7717dee35319600cafa3e568c3d52c609dce8": "read",
+  "7b55dc5ea0a30568f8ff71e09b40d7a0724e7dafb791fd34bd98682ff548dd1e": "write",
+  "62cc0607594d22de69618afe31347cba9d662a1d1ecf26f28546ddfcd0490251": "write",
+  "2968a69c7f8274ace68b2aa2e0861ab3a7d097a868ba1708b59af300db5a9ac9": "write",
+  "c68cd7ef9e60c60d0df216c38fdc5009c15f0a2b766926a0497951cb382f1dd0": "read",
+  "b4e4c50ba15059043e96ee50b2ccba8c73ef79d095e09fb9f2673db245514901": "write",
+  "307af19d85f624a67c43c544266d3bf2f544f91c423f1a385f967704e9052f5b": "write",
+  "a7f5b594a782ce85c650233c34e8bbcf1498cc9468d3088a91eaf4865b4c2c76": "write",
+  "b73e2edf3370cfb92acc524e22c7fa0468c111dc24b4bcf333eba212567d5754": "read",
+  "9a0a19c1c74466dcb57bbfa12a9c894b9c3ba66c849debb1c96c7582026c1f87": "write",
+  "0cc17ef656af6c328f8833b32fb96ecb956eb0b593dd74187fbb392d1057c38a": "write",
+  "a800188033d78c36836a414c1776b14d7ff532158152929797f07e292e88a7dd": "write",
+  "fe00e393437f0a372a167a18a8de27becc9ebb5f18398db58e6e2df8df18a997": "write",
+  "83ab0d84f344fd19281cf6f11ea52ae29f5f805fbc7bde181650d5bf7cea313f": "write",
+  "8ff4e22113e1f5aeeefa563e4a3ed152ac9d5faa79c12ad31e4821989006c903": "write"
+ },
+ "flags": []
+}

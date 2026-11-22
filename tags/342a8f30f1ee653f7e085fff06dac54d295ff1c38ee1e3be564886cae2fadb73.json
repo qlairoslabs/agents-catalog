@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "342a8f30f1ee653f7e085fff06dac54d295ff1c38ee1e3be564886cae2fadb73",
+ "domain": [
+  "media/photography"
+ ],
+ "product": [
+  "jenriks"
+ ],
+ "audience": [
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Read-only access to the JENRIKS daily photoblog archive, one photo per day since 2006.",
+ "whenToUse": "Use when you want to browse or find photos from the JENRIKS archive.",
+ "tasks": [
+  "search photos",
+  "get photo by date",
+  "get latest photo",
+  "get random photo",
+  "get site overview"
+ ],
+ "effects": {
+  "d2587126f6afedbd9cbdfd46097421e5c03bac09a57c88e44e0e40b4d444b6db": "read",
+  "6936259a831b9b0d3dd8dd485dfcc93e6abe761fcef2d2ee2d42fed0b38ff648": "read",
+  "b5e13a84c7de3b2733fbb7b981a4fe44dcc20b8399c47d2cbdfac651e43fcb3d": "read",
+  "b0001a8b0853a5479d8b47b107e87b706cdeb1656cf45e5b2ceccd5230ae63ff": "read",
+  "d85ead16ac3f910bff629c577277d90e065f31ab666188475d704e062090fc6e": "read"
+ },
+ "flags": []
+}

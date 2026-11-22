@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ed750984bd67354d0ab703bf4102ffc624bb6131dc3126dd52e71fa2da303395",
+ "domain": [
+  "software/hosting",
+  "software/server-management"
+ ],
+ "product": [
+  "prostack-cito"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Deploys and manages sites, databases, files and other resources on Prostack Cito servers.",
+ "whenToUse": "Use when a user wants an agent to deploy or administer sites and databases on Prostack Cito.",
+ "tasks": [
+  "deploy sites",
+  "manage databases",
+  "manage files",
+  "manage servers"
+ ],
+ "effects": {},
+ "flags": []
+}

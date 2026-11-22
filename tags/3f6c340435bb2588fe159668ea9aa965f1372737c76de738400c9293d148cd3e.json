@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3f6c340435bb2588fe159668ea9aa965f1372737c76de738400c9293d148cd3e",
+ "domain": [
+  "operations/event-management",
+  "operations/project-management"
+ ],
+ "product": [
+  "evntdsh"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team",
+  "run-the-money"
+ ],
+ "summary": "Event management for Dutch event organisations covering events, tasks, documents, budgets and teams.",
+ "whenToUse": "Use when an agent helps a Dutch event organiser manage events, tasks, documents, budget or team in evntdsh.",
+ "tasks": [
+  "manage events",
+  "manage tasks",
+  "manage documents",
+  "track budget",
+  "manage team"
+ ],
+ "effects": {},
+ "flags": []
+}

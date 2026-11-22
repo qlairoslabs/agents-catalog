@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f26a076326898e8f8afce41541033f8804cfd5399e849e51eab5d0f0b75c4924",
+ "domain": [
+  "productivity/calendar",
+  "productivity/scheduling"
+ ],
+ "product": [
+  "chronary",
+  "google-calendar",
+  "microsoft-outlook",
+  "ical"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "schedule",
+  "automate-work"
+ ],
+ "summary": "Local npm server exposing a calendar API for agents covering events, availability, scheduling and iCal, with Google and Microsoft setup.",
+ "whenToUse": "Use when an agent needs to read or manage calendar events, check availability or schedule meetings.",
+ "tasks": [
+  "manage calendar events",
+  "check availability",
+  "schedule meetings",
+  "connect google or microsoft calendars",
+  "work with ical feeds"
+ ],
+ "effects": {},
+ "flags": []
+}

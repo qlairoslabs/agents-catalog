@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "97af94e9b14be5021ed1cb9cbbaa3f6458951deaa91975549fe271750d95a6e2",
+ "domain": [
+  "software/cloud/containers"
+ ],
+ "product": [
+  "amazon-eks",
+  "amazon-ecs",
+  "aws-fargate",
+  "amazon-ecr",
+  "aws-elastic-beanstalk",
+  "karpenter",
+  "kubernetes"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Guidance for building, deploying and troubleshooting container workloads on EKS, ECS, Fargate, ECR and Elastic Beanstalk.",
+ "whenToUse": "Use when deploying, debugging or optimizing containers on AWS.",
+ "tasks": [
+  "deploy to eks",
+  "configure karpenter and load balancer controller",
+  "write ecs task definitions",
+  "run fargate services",
+  "use ecs exec",
+  "set up ecr repositories and lifecycle policies",
+  "configure elastic beanstalk",
+  "read ecs action logs",
+  "troubleshoot deployment failures"
+ ],
+ "effects": {},
+ "flags": [
+  "description tells the agent to use it instead of its own knowledge"
+ ]
+}

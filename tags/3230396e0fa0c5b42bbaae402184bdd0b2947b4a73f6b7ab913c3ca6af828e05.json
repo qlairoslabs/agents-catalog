@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "3230396e0fa0c5b42bbaae402184bdd0b2947b4a73f6b7ab913c3ca6af828e05",
+ "domain": [
+  "ai/mlops",
+  "data/data-science"
+ ],
+ "product": [
+  "domino-data-lab",
+  "spark",
+  "ray",
+  "dask"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Domino Data Lab support for workspaces, jobs, model deployment, experiment tracking, GenAI tracing, distributed compute and apps.",
+ "whenToUse": "Use when running data science work, experiments or model and app deployments on Domino Data Lab.",
+ "tasks": [
+  "manage workspaces",
+  "run jobs",
+  "deploy models",
+  "track experiments",
+  "trace genai apps",
+  "use spark ray dask clusters",
+  "deploy apps"
+ ],
+ "effects": {},
+ "flags": []
+}

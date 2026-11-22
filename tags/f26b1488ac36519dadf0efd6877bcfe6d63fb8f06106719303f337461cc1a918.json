@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f26b1488ac36519dadf0efd6877bcfe6d63fb8f06106719303f337461cc1a918",
+ "domain": [
+  "software/game-development",
+  "software/testing"
+ ],
+ "product": [
+  "godot"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets agents control the Godot editor, inject input, step game time and read live state for playtesting.",
+ "whenToUse": "Use when an agent should playtest or debug a Godot game by driving it directly.",
+ "tasks": [
+  "control godot editor",
+  "inject input",
+  "step game time",
+  "read live game state"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d98a1d0127cafbc0e218ba320bc54403705325fb3e7ca0cc49be1e6624e151c4",
+ "domain": [
+  "productivity/workspaces",
+  "ai/workflows"
+ ],
+ "product": [
+  "vtc-spaces"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Searches public VTC Spaces and people and, after sign-in, queries Space data and runs AI actions and workflows.",
+ "whenToUse": "Use when finding VTC Spaces or people, or running workflows on a user's Space data.",
+ "tasks": [
+  "search public spaces",
+  "search people",
+  "query space data",
+  "run ai actions",
+  "run workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

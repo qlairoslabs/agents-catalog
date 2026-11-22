@@ -1,0 +1,65 @@
+{
+ "classifier": 2,
+ "contentHash": "67c90ea606b36f7449bde8c3d7984590b35bee7b447c07ae997dba96c48a4fbf",
+ "domain": [
+  "media/news",
+  "news/conflict-monitoring",
+  "research/evidence-archive"
+ ],
+ "product": [
+  "asha-news"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "News archive with source-cited feeds, search, briefs, breaking alerts, a Middle East conflict monitor and a Palestine evidence archive with an openly pro-Palestine editorial stance.",
+ "whenToUse": "Use when an agent needs cited recent news, daily briefs, conflict events, Palestine claim checks or share-ready social posts from Asha News.",
+ "tasks": [
+  "fetch latest news",
+  "search articles and clusters",
+  "read daily brief and digest",
+  "poll breaking news",
+  "check Palestine claims",
+  "search evidence archive",
+  "view conflict events",
+  "get market prices",
+  "generate share payloads",
+  "mint short links",
+  "subscribe to newsletter"
+ ],
+ "effects": {
+  "1ecb1f8838b42d38a4d0bb8838634661d187c566876b91f55780d68b61d51d0f": "read",
+  "6c3ed923b7bbddaa12f93c51fa8133aa57e4c05f077d5dddd21e18da760c8a05": "read",
+  "47b45164cb083df9adf5ad99171c122124fe2c2a787b2b14eabfedfe4b33c944": "read",
+  "0a581621b7d38ccaa84cecbf83f4468b820610e98f9fc3449721973c95db7fe1": "read",
+  "ca485061a9f463ce87bae896d58d41c6bc5f517d2fc47167caae813dcaa56dc5": "read",
+  "f34af6893bd60277d0e2b6ffe51853b531a8c63399bb1c263f46a0888e6158fd": "read",
+  "a6e6572b6c1b0828bc2d0b2a394319887d3060f97981361ceb893783e17dd8a7": "read",
+  "707c2fee1e6148a8e711fd5ca3adf06ce66c46a1b2fad447735224849b12fa93": "read",
+  "e60e2de3b5adc880e34b1a5dea7179eac5ed6fc451694de7f3d7de6fbf2dfd50": "read",
+  "cdc343874329043261299f41b8d1e452fbda80cb644cd5d6193262bdf03d5124": "read",
+  "eca24c9d346a3c2ac4a4293056fa5e404d26db8a88f46a9ba83192a24a7b73bf": "write",
+  "660d511676a00bde461835b0e06439bff13b2c99fe4a1c6c31ab3cf0fea4a7db": "read",
+  "175ff1ecaa4464a68f8e831f2f10a463d9a193be6c10650cf58b1b07513b74b9": "read",
+  "bef3a9a20daed562d6a707661b25ed966010af28f4a2afca334f390257f7a291": "read",
+  "e9d77c9f86fdfbad9e294538395f0e844fab8aafa4c8391beaa06fc983e5488a": "read",
+  "29a7426b034409463a6fc5f71b2a0f60c9e5c1a19f416029e8b8cdca1ece17ef": "read",
+  "3dc3bd862e4663e1f4e613195435d0056477a99d0fa7ef91f4c812af4aecdc5a": "read",
+  "d981a8771c1f1b8849f59c271e61804631f0b279f1c04228e33393b4b28dc9a7": "read",
+  "c83255eef03a5b632df4b7e3b0627596eac36d9bb7137568f85bc87068a4311e": "read",
+  "332ffc42cc2d5d5ab163e5060bfea33034370cbedee3e188b9d12cc1bf8d18d5": "read",
+  "7c8a542fadecfe37c04d83e586f82cc426dbd482a55eb3e13144b4f2e9ff9ce5": "read",
+  "e40a747b47326e400282ba42b01ac796ae7ba196c9944253b6089b207f9e61e8": "read",
+  "e89eec65a1473e6fa62e3b70cd67ad4f4edacb2d72116b6d64101ef15880d3bd": "read",
+  "2313f25e903c4891e488982d89ae21ca7ec5fd3345dc404a09c65577bc3a3679": "write",
+  "2024cf0b6c90aa7b68b81c7b6cc7ea8897fab8970af1c5f1ee3ea2452beadf87": "write"
+ },
+ "flags": [
+  "tool descriptions tell the agent to relay content as-is or post verbatim",
+  "openly partisan editorial stance"
+ ]
+}

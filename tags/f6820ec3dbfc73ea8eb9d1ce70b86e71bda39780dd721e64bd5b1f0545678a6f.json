@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "f6820ec3dbfc73ea8eb9d1ce70b86e71bda39780dd721e64bd5b1f0545678a6f",
+ "domain": [
+  "travel/car-rental",
+  "scheduling/bookings"
+ ],
+ "product": [
+  "bota"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "support-customers"
+ ],
+ "summary": "Lets an agent check real car rental availability and prices at Bota-connected companies and complete, check or cancel bookings.",
+ "whenToUse": "Use when a user wants to rent a car, compare offers, or manage a rental booking.",
+ "tasks": [
+  "list rental companies",
+  "list offices",
+  "search availability",
+  "ask company questions",
+  "select offer",
+  "add extras",
+  "submit driver details",
+  "confirm booking",
+  "check status",
+  "cancel booking"
+ ],
+ "effects": {
+  "bd0f31498cd69af081576c0090a3f4aee2252d8fb7c70ae54924baaaaa071be4": "read",
+  "e0e53573a791ad9b0b8abc0602d9496d41452ce9c5aa3dff5efb22b9bcb31632": "read",
+  "c0a471189b18b9a3842022fdfc7b416913b38a5abd952281da31c57147bba9a2": "write",
+  "714051c5206e5b5aebe06967f47a9f25428678531ef712035f4e3a9c997e552e": "read",
+  "44532bd81cae6595367a5dbb73b2a0d3d32236f0b818edd99d39735cc891e034": "write",
+  "9dcd94995fb4718a11a079e4cb10ebbbbe8c4ef37377b3c476c3586b860ee709": "write",
+  "49b4dd8c92fc53416e74d49714bc0c667f1bda85eaca007ed75d9a23894ddadb": "write",
+  "41a6e2a86b7e09d587c03855b14fbdebe7df3771ece42987dc55984ad4c3ce75": "write",
+  "65eac2d876d61fa9a5fc710ec8aeededb3bbfc9e6aa36228f3c2b8a07e25c2d3": "read",
+  "028bfabb25fe19b40188dedd7c66b335cf7c23f10235343049eab508e017e915": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "d9a826a9afd497e9f2b315549c7f30b4e36c74148463b479ebb9dfb83e55ec38",
+ "domain": [
+  "software/enterprise-development",
+  "it-service-management"
+ ],
+ "product": [
+  "servicenow"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Helps create, edit and deploy ServiceNow applications using the Fluent SDK.",
+ "whenToUse": "Use when building or deploying ServiceNow applications with the Fluent SDK.",
+ "tasks": [
+  "create servicenow apps",
+  "edit servicenow apps",
+  "deploy servicenow apps"
+ ],
+ "effects": {},
+ "flags": []
+}

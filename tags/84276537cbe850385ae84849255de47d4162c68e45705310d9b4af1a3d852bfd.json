@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "84276537cbe850385ae84849255de47d4162c68e45705310d9b4af1a3d852bfd",
+ "domain": [
+  "automotive/towing",
+  "automotive/compliance"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Checks whether an Australian vehicle can legally tow a given caravan and which weight limit binds.",
+ "whenToUse": "Use when someone in Australia asks if their vehicle can legally tow a specific caravan or trailer.",
+ "tasks": [
+  "check towing legality",
+  "identify binding weight limit",
+  "find maximum legal caravan atm",
+  "calculate remaining payload"
+ ],
+ "effects": {
+  "c350fb3ad60af0d71f0d798b46ad2d8930b0eb331595008d405d5f1a23605a72": "write"
+ },
+ "flags": []
+}

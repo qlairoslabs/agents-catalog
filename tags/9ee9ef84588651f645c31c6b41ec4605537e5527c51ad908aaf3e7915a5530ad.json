@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9ee9ef84588651f645c31c6b41ec4605537e5527c51ad908aaf3e7915a5530ad",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "flightclaw"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Search flights across about 300 airlines and get checkout links to book, with email-code sign-in.",
+ "whenToUse": "Use when a user wants to find and book a flight.",
+ "tasks": [
+  "search flights",
+  "create booking checkout links",
+  "sign in by email code"
+ ],
+ "effects": {},
+ "flags": []
+}

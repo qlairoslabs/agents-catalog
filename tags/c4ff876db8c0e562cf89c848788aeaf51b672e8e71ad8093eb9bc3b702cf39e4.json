@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "c4ff876db8c0e562cf89c848788aeaf51b672e8e71ad8093eb9bc3b702cf39e4",
+ "domain": [
+  "software/printing",
+  "software/development-tools"
+ ],
+ "product": [
+  "ezeep"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Helps developers integrate ezeep cloud printing into their applications.",
+ "whenToUse": "Use when an agent is building an app that needs cloud printing through ezeep.",
+ "tasks": [
+  "integrate cloud printing",
+  "access ezeep printing features"
+ ],
+ "effects": {},
+ "flags": []
+}

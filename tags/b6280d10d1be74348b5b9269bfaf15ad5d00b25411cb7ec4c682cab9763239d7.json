@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b6280d10d1be74348b5b9269bfaf15ad5d00b25411cb7ec4c682cab9763239d7",
+ "domain": [
+  "compliance/grc",
+  "security/risk-management"
+ ],
+ "product": [
+  "scf-controls-platform"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Local npm MCP server for the SCF Controls Platform covering controls, evidence, risk and third-party risk management.",
+ "whenToUse": "Use when working on compliance controls, audit evidence, risk registers or vendor risk in the SCF platform.",
+ "tasks": [
+  "manage controls",
+  "manage evidence",
+  "track risks",
+  "run third-party risk management"
+ ],
+ "effects": {},
+ "flags": []
+}

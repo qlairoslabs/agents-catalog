@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0ae59bd6da35db76e29665242a444153495d2cfb579baad08f6a9413d5c01c0c",
+ "domain": [
+  "ai/output-verification",
+  "software/cybersecurity"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Local server that checks LLM outputs for risk signals, prompt injection and personal data.",
+ "whenToUse": "Use when model output must be checked for injection attempts, PII or other risks before use.",
+ "tasks": [
+  "verify llm output",
+  "detect prompt injection",
+  "detect pii",
+  "report risk signals"
+ ],
+ "effects": {},
+ "flags": []
+}

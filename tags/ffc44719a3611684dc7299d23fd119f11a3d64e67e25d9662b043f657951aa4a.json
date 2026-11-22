@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ffc44719a3611684dc7299d23fd119f11a3d64e67e25d9662b043f657951aa4a",
+ "domain": [
+  "health/self-tracking"
+ ],
+ "product": [
+  "apple-health"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Apple Health data synced from an iPhone, including sleep, heart rate, HRV, workouts and trends.",
+ "whenToUse": "Use when a user asks about their own Apple Health metrics such as sleep, heart rate or workouts.",
+ "tasks": [
+  "read sleep data",
+  "read heart rate",
+  "read hrv",
+  "read workouts",
+  "view health trends"
+ ],
+ "effects": {},
+ "flags": []
+}

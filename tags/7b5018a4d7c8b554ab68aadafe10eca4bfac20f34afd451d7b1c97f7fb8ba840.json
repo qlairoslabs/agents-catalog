@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "7b5018a4d7c8b554ab68aadafe10eca4bfac20f34afd451d7b1c97f7fb8ba840",
+ "domain": [
+  "sales/scheduling",
+  "sales/lead-routing"
+ ],
+ "product": [
+  "chili-piper"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Lets admins manage Chili Piper scheduling links, meetings, routing rules and teams; marked experimental.",
+ "whenToUse": "Use when a Chili Piper admin needs to change scheduling links, meetings, routing rules or teams.",
+ "tasks": [
+  "manage scheduling links",
+  "manage meetings",
+  "manage routing rules",
+  "manage teams"
+ ],
+ "effects": {},
+ "flags": []
+}

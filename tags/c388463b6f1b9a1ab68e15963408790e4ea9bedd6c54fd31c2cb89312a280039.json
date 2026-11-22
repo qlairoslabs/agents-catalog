@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c388463b6f1b9a1ab68e15963408790e4ea9bedd6c54fd31c2cb89312a280039",
+ "domain": [
+  "legal/privacy/cookie-consent"
+ ],
+ "product": [
+  "cookieyes"
+ ],
+ "audience": [
+  "operations",
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "stay-compliant",
+  "be-online"
+ ],
+ "summary": "Manages CookieYes cookie banners, runs cookie scans and checks GDPR and CCPA compliance.",
+ "whenToUse": "Use when a user needs to configure a CookieYes banner or check a site's cookie compliance.",
+ "tasks": [
+  "manage cookie banners",
+  "run cookie scans",
+  "check gdpr compliance",
+  "check ccpa compliance"
+ ],
+ "effects": {},
+ "flags": []
+}

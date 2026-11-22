@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "5f03654ae40e3cbf4f18fc9d4410dbe3949171de7b677c13ade8722e8b97a099",
+ "domain": [
+  "gaming/eco-wiki",
+  "game-reference"
+ ],
+ "product": [
+  "eco-game"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only lookup of the Eco game wiki: items, recipes, skills and species, with crafting chain calculators, rankings, aggregates and chat command help.",
+ "whenToUse": "Use when answering Eco game questions about recipes, material costs, skills or server commands.",
+ "tasks": [
+  "search wiki",
+  "fetch wiki page",
+  "get item recipe skill facts",
+  "total raw materials",
+  "bill of materials",
+  "calculate recipe or food numbers",
+  "look up chat commands",
+  "rank entities by field",
+  "aggregate wiki data",
+  "explain contracts"
+ ],
+ "effects": {
+  "8c0e92f49a2dfdf32bc94989818f4f49fab25f3eabf53422aad1395ef49dce05": "read",
+  "e3dae3b3806760630f679099f568416208c07de9c473bbb56018089b519f3811": "read",
+  "f3696c2c3c0e399dd4464a7bb884e367dd320bb460661deaa0b5f14de30c36b2": "read",
+  "fdaa4287c10f28d8505265ea5ef2b29a2257b5b03658a04e7f16ec2a1d1d75e2": "write",
+  "d8ac5652b0e1d5d75627d63e4f4df33dc141852115abb856969b2eff75c6467c": "read",
+  "4905df35ad3c31a65f20a1b297691b3d2e1151e06d9047c48cef472d9023c72f": "write",
+  "d7137ddd50898d798d05fa94ca2bec8b5a3725756b36a2250de4e820595d405e": "write",
+  "e616d2a5a704b20b94b5c2938c81c8fac8462417a9e5b61172aebf096485af52": "read",
+  "a2d256429d654ed36e8cae3cb871e77db2d32d94ec1000b5d1853f659f8c7309": "write",
+  "83fee5cb7b27bc1c085f13160af5ce7b6819df7ebb7df9ba4f807573cc9b128c": "write",
+  "7f7cdc014c4e89296896a30c41d39dfb35da3dea50db9fb51c1d3ee634f10922": "write"
+ },
+ "flags": []
+}

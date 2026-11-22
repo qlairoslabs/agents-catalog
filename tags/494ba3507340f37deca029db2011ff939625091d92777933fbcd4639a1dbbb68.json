@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "494ba3507340f37deca029db2011ff939625091d92777933fbcd4639a1dbbb68",
+ "domain": [
+  "software/devops/deployment",
+  "software/hosting"
+ ],
+ "product": [
+  "crescendo-agent-lab",
+  "claude-code",
+  "codex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Deploys websites, apps, agents and MCP servers from coding agents, with hosting in Taiwan.",
+ "whenToUse": "Use when a coding agent needs to deploy a website, app, agent or MCP server to hosting.",
+ "tasks": [
+  "deploy websites",
+  "deploy apps",
+  "deploy agents",
+  "deploy mcp servers"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3922bb1dcf4eaecf6dfd5e0d1f547253c3672e5d03cb340cb7898cdd4eb4bec2",
+ "domain": [
+  "software/cloud-hosting",
+  "software/devops"
+ ],
+ "product": [
+  "railway"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Deploy and manage apps, databases and infrastructure on Railway, including configuration, networking, troubleshooting and monitoring.",
+ "whenToUse": "Use when an agent needs to deploy, configure or troubleshoot services hosted on Railway.",
+ "tasks": [
+  "set up projects",
+  "deploy apps",
+  "provision databases",
+  "configure environments",
+  "manage networking",
+  "troubleshoot deploys",
+  "monitor services"
+ ],
+ "effects": {},
+ "flags": []
+}

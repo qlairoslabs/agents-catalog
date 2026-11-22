@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b31ce87ff151fda9f593fb59a6c0e61f9e3f412e9fc5c5ee966deac9a402ab0b",
+ "domain": [
+  "finance/payroll/contractor-payments",
+  "hr/contractor-management"
+ ],
+ "product": [
+  "wingspan"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "run-the-money",
+  "hire-and-manage"
+ ],
+ "summary": "Answers questions about contractors paid through Wingspan and drafts contractor onboarding and payments with previews.",
+ "whenToUse": "Use when checking contractor balances or payment blockers, or drafting contractor onboarding and payments in Wingspan.",
+ "tasks": [
+  "list contractors",
+  "check amounts owed",
+  "find payment blockers",
+  "onboard contractors",
+  "draft payments"
+ ],
+ "effects": {},
+ "flags": []
+}

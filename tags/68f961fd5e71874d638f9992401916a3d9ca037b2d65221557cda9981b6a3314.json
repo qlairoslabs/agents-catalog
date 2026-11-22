@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "68f961fd5e71874d638f9992401916a3d9ca037b2d65221557cda9981b6a3314",
+ "domain": [
+  "legal/immigration",
+  "government/public-records"
+ ],
+ "product": [
+  "us-department-of-labor",
+  "perm-tracker"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up US PERM, prevailing wage and H-1B case status, DOL processing queues and the visa bulletin from federal data.",
+ "whenToUse": "Use when someone needs the status of a US labor certification or H-1B case or current visa bulletin dates.",
+ "tasks": [
+  "check perm case status",
+  "check prevailing wage status",
+  "check h-1b case status",
+  "view dol processing queue",
+  "read visa bulletin"
+ ],
+ "effects": {},
+ "flags": []
+}

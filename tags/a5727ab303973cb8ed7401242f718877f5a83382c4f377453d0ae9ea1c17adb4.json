@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a5727ab303973cb8ed7401242f718877f5a83382c4f377453d0ae9ea1c17adb4",
+ "domain": [
+  "software/integration-platform",
+  "business/enterprise-systems",
+  "hr/hris"
+ ],
+ "product": [
+  "stackone",
+  "workday",
+  "sap",
+  "oracle"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "hire-and-manage"
+ ],
+ "summary": "Unified integration layer exposing many actions across enterprise SaaS systems such as Workday, SAP and Oracle.",
+ "whenToUse": "Use when an agent must read or act on data in enterprise HR, ERP or other SaaS systems through one connector.",
+ "tasks": [
+  "run actions in workday",
+  "run actions in sap",
+  "run actions in oracle",
+  "access enterprise saas data"
+ ],
+ "effects": {},
+ "flags": []
+}

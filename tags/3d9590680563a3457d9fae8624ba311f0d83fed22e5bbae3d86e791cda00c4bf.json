@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "3d9590680563a3457d9fae8624ba311f0d83fed22e5bbae3d86e791cda00c4bf",
+ "domain": [
+  "science/lab-management"
+ ],
+ "product": [
+  "vara"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Reads and updates lab experiments, runs, daily plans, references and materials in Vara.",
+ "whenToUse": "Use when a researcher wants to check or update experiments, plans or materials tracked in Vara.",
+ "tasks": [
+  "read experiments",
+  "update experiments",
+  "log runs",
+  "manage daily plans",
+  "manage references",
+  "manage materials"
+ ],
+ "effects": {},
+ "flags": []
+}

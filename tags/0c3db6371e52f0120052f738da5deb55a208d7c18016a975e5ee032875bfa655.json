@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "0c3db6371e52f0120052f738da5deb55a208d7c18016a975e5ee032875bfa655",
+ "domain": [
+  "software/documentation-search",
+  "knowledge/search"
+ ],
+ "product": [
+  "openapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Indexes documentation files and returns matching sections from Markdown, reStructuredText, notebooks, HTML, YAML, JSON and OpenAPI specs.",
+ "whenToUse": "Use when an agent needs a precise section of project documentation without loading entire files.",
+ "tasks": [
+  "index documentation",
+  "search doc sections",
+  "retrieve a section",
+  "search openapi specs"
+ ],
+ "effects": {},
+ "flags": []
+}

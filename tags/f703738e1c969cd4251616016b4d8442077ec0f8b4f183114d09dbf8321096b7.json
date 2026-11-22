@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f703738e1c969cd4251616016b4d8442077ec0f8b4f183114d09dbf8321096b7",
+ "domain": [
+  "ai/agent-orchestration",
+  "software/development"
+ ],
+ "product": [
+  "claude-code"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Orchestrates swarms of AI agents for software development, with a large set of MCP tools for coordination and memory.",
+ "whenToUse": "Use when coordinating many AI agents on a software development task.",
+ "tasks": [
+  "spawn agent swarms",
+  "coordinate agent tasks",
+  "manage shared memory",
+  "run development workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

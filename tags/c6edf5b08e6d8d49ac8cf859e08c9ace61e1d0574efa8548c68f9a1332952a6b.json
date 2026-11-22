@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c6edf5b08e6d8d49ac8cf859e08c9ace61e1d0574efa8548c68f9a1332952a6b",
+ "domain": [
+  "lifestyle/meal-planning"
+ ],
+ "product": [
+  "meal-planner-online",
+  "instacart"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Member beta for saved family dinner plans and grocery lists, with optional Instacart handoff and no checkout.",
+ "whenToUse": "Use when a Plus member wants to view dinner plans, manage groceries or send a list to Instacart.",
+ "tasks": [
+  "read saved dinner plans",
+  "manage grocery lists",
+  "hand off groceries to instacart"
+ ],
+ "effects": {},
+ "flags": []
+}

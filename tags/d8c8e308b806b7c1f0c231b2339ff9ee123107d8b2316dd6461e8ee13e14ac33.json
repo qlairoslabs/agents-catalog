@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "d8c8e308b806b7c1f0c231b2339ff9ee123107d8b2316dd6461e8ee13e14ac33",
+ "domain": [
+  "sales/lead-generation",
+  "marketing/website-visitor-identification"
+ ],
+ "product": [
+  "snitcher"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Identifies companies visiting a website and manages their contacts, segments, tags and CRM sync.",
+ "whenToUse": "Use when a sales team wants to see which organisations visit their website and follow up.",
+ "tasks": [
+  "identify visiting companies",
+  "view contacts",
+  "manage segments",
+  "tag organisations",
+  "sync to crm"
+ ],
+ "effects": {},
+ "flags": []
+}

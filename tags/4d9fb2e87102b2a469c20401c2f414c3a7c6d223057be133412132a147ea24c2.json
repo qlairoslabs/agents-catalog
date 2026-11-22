@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "4d9fb2e87102b2a469c20401c2f414c3a7c6d223057be133412132a147ea24c2",
+ "domain": [
+  "real-estate/buy-to-let",
+  "finance/property-investment"
+ ],
+ "product": [
+  "realyield"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Calculates UK buy-to-let net yield, cashflow, Section 24 tax effects, stamp duty and area rental yields.",
+ "whenToUse": "Use when evaluating the returns or tax impact of a UK buy-to-let property.",
+ "tasks": [
+  "calculate net yield",
+  "model cashflow",
+  "estimate section 24 impact",
+  "calculate stamp duty",
+  "get area rental yields"
+ ],
+ "effects": {},
+ "flags": []
+}

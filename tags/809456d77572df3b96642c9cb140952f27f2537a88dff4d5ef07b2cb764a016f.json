@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "809456d77572df3b96642c9cb140952f27f2537a88dff4d5ef07b2cb764a016f",
+ "domain": [
+  "social/community-analytics"
+ ],
+ "product": [
+  "telegram",
+  "limzo"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "work-as-a-team"
+ ],
+ "summary": "Read-only activity statistics and directory for public Telegram groups tracked by Limzo.",
+ "whenToUse": "Use when you need activity, leaderboard or trend data for a public Telegram group tracked by Limzo.",
+ "tasks": [
+  "get group stats",
+  "list tracked groups",
+  "filter by language",
+  "get network-wide stats"
+ ],
+ "effects": {
+  "55b3726a8860591e15ddfeff6a528b9093b996fc3e00890bf52a6d4d238003ca": "write",
+  "96f8e5db6cafc7ecec8feee889e6f505a64b721128fc7aa1ce11353b8d97a72f": "write",
+  "64b34929f1761c12c6e3e8eb6efe302b229c446ceb546315ec2d02c9785c0711": "read"
+ },
+ "flags": []
+}

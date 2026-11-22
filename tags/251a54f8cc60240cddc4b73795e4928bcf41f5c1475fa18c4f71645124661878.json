@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "251a54f8cc60240cddc4b73795e4928bcf41f5c1475fa18c4f71645124661878",
+ "domain": [
+  "ai/memory",
+  "data/personal-data-store"
+ ],
+ "product": [
+  "arca"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Private data vault where an AI assistant stores structured data, semantic memory and skills.",
+ "whenToUse": "Use when an agent needs to save or recall a user's structured data, memories or skills across sessions.",
+ "tasks": [
+  "store structured data",
+  "store and search semantic memory",
+  "store skills"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1cd8cfd7de098e9d10324238c918634792e3c7ee9dd6b7405ec8c724b3faf13f",
+ "domain": [
+  "communication/video-calls"
+ ],
+ "product": [
+  "pondchat"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "work-as-a-team"
+ ],
+ "summary": "Creates temporary peer-to-peer WebRTC video rooms that can be joined by sharing a link.",
+ "whenToUse": "Use when an agent needs to set up a quick video call room and share its link.",
+ "tasks": [
+  "create video room",
+  "share room link"
+ ],
+ "effects": {},
+ "flags": []
+}

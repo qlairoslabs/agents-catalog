@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "e9d062eb59a4a5c2b17dd16a3763126c542698a6c70c2d366659838f167edbff",
+ "domain": [
+  "marketplace/freelancers"
+ ],
+ "product": [
+  "furrsati"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches Lebanese freelancers on Furrsati by skill, category, rate and rating and shows public profiles and reviews.",
+ "whenToUse": "Use when you need to find and evaluate Lebanese freelancers for a task.",
+ "tasks": [
+  "search freelancers",
+  "view profile",
+  "view reviews",
+  "health check"
+ ],
+ "effects": {
+  "ef1ae594355da295da4f0c41edda9915acddb351fcf24d1d23718eda222531de": "write",
+  "a5f8adcc0b9ba94d10596de718b88e55b1a48783075c818f3701ca7e12626b57": "write",
+  "7f28044252a3b3a7c1e8286f43772ca4d215a8253ef9eaee658eee233082fc8c": "write"
+ },
+ "flags": []
+}

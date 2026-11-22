@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "b93b1f2242d8d4b6d7095dc759316595f4ef8a017c635bfc66ce92cea8e47e06",
+ "domain": [
+  "healthcare/facility-quality",
+  "health-data"
+ ],
+ "product": [
+  "cms",
+  "medicare"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "CMS quality ratings, negotiated prices and clinician data for over 41,000 US hospitals, nursing homes, home-health agencies and dialysis centers.",
+ "whenToUse": "Use when comparing US healthcare facilities, checking hospital negotiated prices, or looking up clinicians at a hospital.",
+ "tasks": [
+  "search facilities",
+  "get facility record",
+  "get hospital negotiated prices",
+  "list hospital clinicians",
+  "get quality profile"
+ ],
+ "effects": {
+  "c88729ce0c2fde65dfde3a70b530a18749a8b3e7954823356ec89bb84a421cfe": "read",
+  "619d8e9c2385f6cac39700ad2ce900ae81496e872832a70737e7970b8067e726": "read",
+  "3518db19d622e03ea030858f8b2007bce8b92ae6f64994ce4d6c0dd7c0051a47": "read",
+  "86f0f26c3281ec677cc03acd03306a88587d826e41f458da0b0e162ad30a6131": "read",
+  "bf489ce7f0dba4559e3ffde9fc2647267233cde1d9f17c2be6f99bd3a2c27957": "read"
+ },
+ "flags": []
+}

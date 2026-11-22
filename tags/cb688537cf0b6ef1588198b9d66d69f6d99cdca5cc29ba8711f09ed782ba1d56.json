@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "cb688537cf0b6ef1588198b9d66d69f6d99cdca5cc29ba8711f09ed782ba1d56",
+ "domain": [
+  "ai/agent-building",
+  "ai/knowledge-bases"
+ ],
+ "product": [
+  "agent4"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Builds and runs business agents grounded in knowledge bases, with skills and Storylines, over MCP.",
+ "whenToUse": "Use when creating or running agent4 business agents and their knowledge bases.",
+ "tasks": [
+  "create agents",
+  "run agents",
+  "manage knowledge bases",
+  "manage skills",
+  "manage storylines"
+ ],
+ "effects": {},
+ "flags": []
+}

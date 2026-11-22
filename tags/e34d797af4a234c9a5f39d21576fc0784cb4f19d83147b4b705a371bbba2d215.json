@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "e34d797af4a234c9a5f39d21576fc0784cb4f19d83147b4b705a371bbba2d215",
+ "domain": [
+  "design/assets",
+  "marketplace"
+ ],
+ "product": [
+  "creative-market"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Read-only search and browsing of Creative Market fonts, templates, graphics and other design assets, including font identification from images.",
+ "whenToUse": "Use when looking for fonts, templates, graphics or similar design assets, or identifying a font from an image.",
+ "tasks": [
+  "search products",
+  "get product record",
+  "browse category",
+  "browse shop",
+  "find similar products",
+  "autocomplete search",
+  "suggest related searches",
+  "get product details",
+  "identify font from image"
+ ],
+ "effects": {
+  "09e36819fd5886c00e10247cd3f6773753fea58699bc4596249cdb75b93218ab": "write",
+  "c707cd561027a2adebdc1bd1a59c5f6fb70e93cf98f06703d4802f981ec6faae": "read",
+  "a25937d4f139a2c19a086ad5a0431967c17a5214286d9abdd737efdb55a2aef3": "write",
+  "6cff0ded2251b7ef96d79ba0f74bae141d02190fb82ff91239e9fb07f1a162f8": "read",
+  "d22515501b5729d3bfd113aa1568ff7bd9f60454328bae5811116c29f749256b": "read",
+  "0fa77df8c14f19323f8088145d0e503c00aa11d77da2342f08a9cfca94102458": "read",
+  "015fe36d76c28e28765dc5993632814f6168156a78a8539bcc43b89aa022feaf": "read",
+  "b40bbe1fc42ef5ce4fd5d2b367536de7de9c4c16bf01a9775c80a66d4a142a6a": "read",
+  "4e651fbe4a9a764461b97b76edc61f39633af295abd025ec1f3a477484863a61": "write"
+ },
+ "flags": []
+}

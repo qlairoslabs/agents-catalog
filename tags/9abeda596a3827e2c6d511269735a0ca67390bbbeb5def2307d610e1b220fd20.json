@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "9abeda596a3827e2c6d511269735a0ca67390bbbeb5def2307d610e1b220fd20",
+ "domain": [
+  "events/hackathons"
+ ],
+ "product": [
+  "clusterhack"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "schedule"
+ ],
+ "summary": "Manages hackathons from start to finish: events, teams, submissions, judging and winners.",
+ "whenToUse": "Use when organizing or running a hackathon.",
+ "tasks": [
+  "create events",
+  "manage teams",
+  "collect submissions",
+  "run judging",
+  "announce winners"
+ ],
+ "effects": {},
+ "flags": []
+}

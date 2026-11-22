@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2a3105de4fc7d92f183cda199ccef6729949c2c015fee3a93d1f70ad05a92025",
+ "domain": [
+  "real-estate/property-records",
+  "data/geospatial"
+ ],
+ "product": [
+  "arcgis"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Looks up property owners and parcel numbers (APN) across 546 US counties using public ArcGIS endpoints.",
+ "whenToUse": "Use when an agent needs owner or parcel information for a US property address.",
+ "tasks": [
+  "look up property owner",
+  "look up apn",
+  "query county parcel data"
+ ],
+ "effects": {},
+ "flags": []
+}

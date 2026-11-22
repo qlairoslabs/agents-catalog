@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "230839b611267b1cd51f17fe49c8c16583def36db4a790d3cd41f560ef96bf6a",
+ "domain": [
+  "finance/news",
+  "markets/stocks"
+ ],
+ "product": [
+  "newtimespace"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches NewTimeSpace financial, stock, ETF and tech news in Chinese or English and retrieves full articles.",
+ "whenToUse": "Use when a user wants recent financial or market news from NewTimeSpace.",
+ "tasks": [
+  "search news articles",
+  "filter by category and date",
+  "get full article text"
+ ],
+ "effects": {
+  "712f77843cf0a8df48af217082d8ba61b39b54a3d49128997da1254d491eed67": "write",
+  "87cece96b71f683857414316560c4284cad8b3daabe0bf4292b1722cc4a2fd73": "read"
+ },
+ "flags": []
+}

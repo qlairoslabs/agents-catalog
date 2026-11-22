@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "a223837c71c365041e9e8076fcdee60a2333c052e2d8a047dcecda7b460db3e7",
+ "domain": [
+  "software/developer-tools",
+  "ai/prompting"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides prompts and an agent skill guiding coding agents through test-driven development, debugging, verification and task routing.",
+ "whenToUse": "Use when a coding agent wants structured workflows for TDD, debugging or verifying its work.",
+ "tasks": [
+  "guide tdd workflow",
+  "support debugging",
+  "verify work",
+  "route tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b1f61446110e124e91c0011e6e72f0007c336abc30ab42d5cab9507f297c60aa",
+ "domain": [
+  "communication/team-chat"
+ ],
+ "product": [
+  "slack"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "keep-in-touch"
+ ],
+ "summary": "Slack integration for searching messages and reading channels and threads from the coding environment.",
+ "whenToUse": "Use when the agent needs context from Slack discussions, channels or threads.",
+ "tasks": [
+  "search messages",
+  "access channels",
+  "read threads"
+ ],
+ "effects": {},
+ "flags": []
+}

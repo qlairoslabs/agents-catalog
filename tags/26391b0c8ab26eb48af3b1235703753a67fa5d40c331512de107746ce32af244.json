@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "26391b0c8ab26eb48af3b1235703753a67fa5d40c331512de107746ce32af244",
+ "domain": [
+  "retail/inventory-counting",
+  "operations/reporting"
+ ],
+ "product": [
+  "snapcount"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides SnapCount live counts, daily per-store and per-worker reports, and live counting links.",
+ "whenToUse": "Use when someone needs current counts or daily store and worker reports from SnapCount.",
+ "tasks": [
+  "view live counts",
+  "get daily store reports",
+  "get per-worker reports",
+  "get live counting links"
+ ],
+ "effects": {},
+ "flags": []
+}

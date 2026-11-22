@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c1e4b3cac3659d5476fdf3e29d53f1a548ac0ca557ed6badfffd17bc63a841e3",
+ "domain": [
+  "logistics/shipment-tracking",
+  "ecommerce/returns"
+ ],
+ "product": [
+  "aftership"
+ ],
+ "audience": [
+  "support",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tracks packages across more than 1,300 carriers, returning current status and estimated delivery dates, plus returns information.",
+ "whenToUse": "Use when you need the status or expected delivery date of a shipment from a tracking number.",
+ "tasks": [
+  "track packages",
+  "get delivery status",
+  "estimate delivery dates",
+  "look up returns"
+ ],
+ "effects": {},
+ "flags": []
+}

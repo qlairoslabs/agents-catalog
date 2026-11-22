@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "dddb6f7e09a8e53502e205802c65c72b79dc1e62c6e629b7791c9033f9b5623f",
+ "domain": [
+  "software/workflow-automation",
+  "software/api-development"
+ ],
+ "product": [
+  "cloudgate"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Builds and manages Cloudgate workflow APIs, including controllers, actions, workflow graphs and databases.",
+ "whenToUse": "Use when creating or changing workflow-based APIs on Cloudgate.",
+ "tasks": [
+  "manage controllers",
+  "manage actions",
+  "edit workflow graphs",
+  "manage databases"
+ ],
+ "effects": {},
+ "flags": []
+}

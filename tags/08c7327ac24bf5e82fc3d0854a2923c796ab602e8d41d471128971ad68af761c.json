@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "08c7327ac24bf5e82fc3d0854a2923c796ab602e8d41d471128971ad68af761c",
+ "domain": [
+  "documents/pdf/redaction",
+  "compliance/privacy"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Detects and redacts personally identifiable information in PDF documents.",
+ "whenToUse": "Use when a PDF must have personal data found and removed before sharing.",
+ "tasks": [
+  "detect pii in pdfs",
+  "redact pii"
+ ],
+ "effects": {},
+ "flags": []
+}

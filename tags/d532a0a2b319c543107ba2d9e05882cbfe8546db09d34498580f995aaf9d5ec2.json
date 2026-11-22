@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "d532a0a2b319c543107ba2d9e05882cbfe8546db09d34498580f995aaf9d5ec2",
+ "domain": [
+  "real-estate/korea",
+  "real-estate/market-data"
+ ],
+ "product": [
+  "richgo",
+  "molit"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Korean apartment data: prices, trades, forecasts, holding tax, school districts, redevelopment sites and court auctions.",
+ "whenToUse": "Use when the user asks about Korean apartment prices, market trends, schools, redevelopment or court auction listings.",
+ "tasks": [
+  "search apartment complexes",
+  "forecast prices",
+  "view recent trades",
+  "get complex overview",
+  "estimate fair asking price",
+  "calculate holding tax",
+  "view price history",
+  "analyze regional market",
+  "check school districts",
+  "find redevelopment sites",
+  "search court auctions",
+  "view auction statistics"
+ ],
+ "effects": {
+  "e58aef358dac47e531b60a0c3f4cac66abbd9ebec5e9fdc87f197cee057da315": "read",
+  "6583cb3efcda0b14b61a88e6fb5b5644e9f6eaab5c2f07511f36cc14f1aa47a9": "read",
+  "44d528bef78c6ac1bd64f867ee3cf0ed1508df9cf30d9c934ab7886018fbe09b": "read",
+  "f626bf4e6c12d716e7a787a9103a6089d8505fb5a07a478b71f157b7488de07a": "read",
+  "9542320568cd03d1efb744c8b51db054b15d407a8c6e0977a121ac41183a8be0": "read",
+  "b14c0453b8956835ef385769d97b8318b55a17b85d7de8f40959225783860bc8": "read",
+  "0f23a852de1129560e6b8d8ce122df2ab367026c28c9360ec3ffa9b95a3a31d3": "read",
+  "d755ec6451bb6610417f3162f736b9368c3f63b06d188b89fbca194f86ee14ae": "read",
+  "ad6c6e9d34115e259cdf030eea051db9a5e4bcb834649619e0dfa8df8e361fab": "read",
+  "2d89e0f50c1b8f889f353dbff94773a4eb1a47a64d58ba4daa031acfebc68233": "read",
+  "4370483e4e04b50b41e860b962474b87404fb0381a48f02dba2236e9ca7e9242": "read",
+  "8a3b317e33b2e467e6dd4289188329678f28092b5e436dc37f23c1f33873e9e0": "read",
+  "553e1726a16f721545c8003843db196cc274e397e147143e379dd1a4b3362fa0": "read",
+  "8fac084ecd12348cbd2497d39ac5681ffeb6588d32b888edefd501417b359079": "read",
+  "6010f2e3d6e76eabeda6833dfc880737ce9fab90a7dcb4ba25eea2660a6db75c": "read"
+ },
+ "flags": []
+}

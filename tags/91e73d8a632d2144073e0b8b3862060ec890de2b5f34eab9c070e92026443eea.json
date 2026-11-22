@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "91e73d8a632d2144073e0b8b3862060ec890de2b5f34eab9c070e92026443eea",
+ "domain": [
+  "healthcare/drug-information",
+  "regulatory/fda"
+ ],
+ "product": [
+  "fda",
+  "medrecpro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Searches and exports FDA drug labels by brand name, generic ingredient or UNII code.",
+ "whenToUse": "Use when official FDA drug label information is needed for a medication or ingredient.",
+ "tasks": [
+  "search drug labels by brand",
+  "search by generic ingredient",
+  "search by unii code",
+  "export drug labels"
+ ],
+ "effects": {},
+ "flags": []
+}

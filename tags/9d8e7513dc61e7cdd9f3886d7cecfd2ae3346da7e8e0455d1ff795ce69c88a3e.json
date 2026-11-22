@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9d8e7513dc61e7cdd9f3886d7cecfd2ae3346da7e8e0455d1ff795ce69c88a3e",
+ "domain": [
+  "analytics/product-analytics/session-replay"
+ ],
+ "product": [
+  "amplitude"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compares two user groups using Amplitude session replays and metrics to show how their behavior differs.",
+ "whenToUse": "Use when a user wants to know what converters, power users or churned users do differently from another cohort.",
+ "tasks": [
+  "compare two cohorts",
+  "analyze session replays",
+  "produce behavioral diff",
+  "explain churn behavior"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "7900d9160494dc75ab92b9b86b483550fe36b663919a4a4bc743c8d89d50fc6e",
+ "domain": [
+  "finance/compliance-screening",
+  "logistics/freight",
+  "finance/foreign-exchange"
+ ],
+ "product": [
+  "ofac",
+  "x402"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Paid checks covering African currency rates, US carrier and broker vetting, and OFAC sanctions screening of names and crypto wallets.",
+ "whenToUse": "Use when vetting a US freight carrier or broker, screening a person or wallet against OFAC lists, or checking African FX rates, with per-call x402 payment.",
+ "tasks": [
+  "get african fx rates",
+  "check us carriers and brokers",
+  "screen names against ofac",
+  "screen crypto wallets against ofac",
+  "run load vetting packs"
+ ],
+ "effects": {},
+ "flags": []
+}

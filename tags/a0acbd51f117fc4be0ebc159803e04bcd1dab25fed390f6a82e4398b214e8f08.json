@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a0acbd51f117fc4be0ebc159803e04bcd1dab25fed390f6a82e4398b214e8f08",
+ "domain": [
+  "entertainment/ticketing",
+  "events"
+ ],
+ "product": [
+  "webtic"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Look up films, theatre, concerts and events on sale in Italy via Webtic, with venues and links to ticket pages.",
+ "whenToUse": "Use when a user asks what is showing or where an event is on sale in Italian cinemas and theatres.",
+ "tasks": [
+  "search events",
+  "get event details",
+  "find venues for an event",
+  "search venues",
+  "get venue program"
+ ],
+ "effects": {
+  "c1351db9220640125f77ddb87f592711b808df88278dbafa9a309454ec7da3ac": "write",
+  "42de15f6481b19b928c8a72c9becb2d4f3b32c3dc72ce0630a23f0a918caaf03": "read",
+  "10dad4f8d24df30b33bc673b7aa113d3489dc563f17a86f8b3e42c043bc51b2a": "read",
+  "9469e2b6796f8c1c04d61298b40fe0d60adfc4e55295954da1844db53a2d87db": "read",
+  "e83e4ce7de72d828844c77f7577e78d58180abd30faf01ff03d758c32d5b8c3b": "read"
+ },
+ "flags": []
+}

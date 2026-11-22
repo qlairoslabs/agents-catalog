@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "52706c49067c8f58ec2713314348f483cc2b209bbc75ffa46c12cbff3b1df23e",
+ "domain": [
+  "software/browser-automation"
+ ],
+ "product": [
+  "browsa"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Provides cloud browsers for AI agents with compact page views, real input, referenced secrets and session replays.",
+ "whenToUse": "Use when an agent must navigate and interact with websites in a remote browser.",
+ "tasks": [
+  "browse web pages",
+  "send real input to pages",
+  "use stored secrets by reference",
+  "replay sessions"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "94e79449c36c7d483000769e2fd2870c561f08938affd3ce8022eda09da9f6c2",
+ "domain": [
+  "media/podcasts",
+  "data/research"
+ ],
+ "product": [
+  "podlex"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about 4.8 million podcasts, including their creators, purpose and degree of AI generation.",
+ "whenToUse": "Use when an agent needs information about a podcast's creators, background or AI involvement.",
+ "tasks": [
+  "search podcasts",
+  "get podcast creator info",
+  "assess ai-generated content share"
+ ],
+ "effects": {},
+ "flags": []
+}

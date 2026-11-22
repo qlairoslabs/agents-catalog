@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "cab5d51e40476cc11cd17f31205453c71f38ae37b0e10b7462c1df6fb54ed1b7",
+ "domain": [
+  "legal/immigration",
+  "government/uk"
+ ],
+ "product": [
+  "home-office",
+  "gov-uk"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "hire-and-manage"
+ ],
+ "summary": "UK immigration data tools: Skilled Worker going rates, sponsor licence register lookup, visa fee estimates and employer right-to-work assessment.",
+ "whenToUse": "Use when checking UK visa salary thresholds, sponsor status, government visa costs or employer right-to-work obligations.",
+ "tasks": [
+  "look up going rate by SOC",
+  "check sponsor licence",
+  "estimate visa fees",
+  "list right to work questions",
+  "assess right to work answers"
+ ],
+ "effects": {
+  "73fc11e4b6d04d12b8453836616749227d0563ee2662e19f1634990d0f502921": "read",
+  "9b58f221012e91bd520123fe881099cd05d05396498cad1cede9042ba27a874e": "read",
+  "073db63bf9097e33e6e7b2eb1306955f7da1f96da039c3d93e4ac3f32eb3d688": "read",
+  "5ff9469239dc6d53c26a82f95a28936194c11a358dcae2aaed32a15fc9439d5b": "read",
+  "ce91622e881984c6c640d14613cb748db5b5fc5ee67d3365b75b2a2cf136f9cc": "write"
+ },
+ "flags": []
+}

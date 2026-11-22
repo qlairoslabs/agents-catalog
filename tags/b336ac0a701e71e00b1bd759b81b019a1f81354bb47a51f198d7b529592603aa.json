@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b336ac0a701e71e00b1bd759b81b019a1f81354bb47a51f198d7b529592603aa",
+ "domain": [
+  "logistics/carrier-vetting",
+  "compliance/risk"
+ ],
+ "product": [
+  "fmcsa",
+  "carrierscore"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides FMCSA motor-carrier risk scores, monitoring and evidence reports to support carrier selection.",
+ "whenToUse": "Use when an agent must assess or monitor the risk of a US motor carrier before hiring it.",
+ "tasks": [
+  "get carrier risk scores",
+  "monitor carriers",
+  "generate carrier-selection reports"
+ ],
+ "effects": {},
+ "flags": []
+}

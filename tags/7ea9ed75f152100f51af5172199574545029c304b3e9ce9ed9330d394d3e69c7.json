@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7ea9ed75f152100f51af5172199574545029c304b3e9ce9ed9330d394d3e69c7",
+ "domain": [
+  "logistics/transport-management"
+ ],
+ "product": [
+  "transportial"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "get-paid"
+ ],
+ "summary": "Plans trips, manages transport orders, tracks vehicles and handles quotes and invoices in Transportial.",
+ "whenToUse": "Use when the user runs freight operations in Transportial and needs to plan, track or bill transport.",
+ "tasks": [
+  "plan trips",
+  "manage transport orders",
+  "track vehicles",
+  "create quotes",
+  "manage invoices"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "7f6fa163e3eef0f8f7c1d60ee3d385a1f8eabe30ee7c1d5682099b52baf614af",
+ "domain": [
+  "software/computer-use",
+  "software/virtual-desktop"
+ ],
+ "product": [
+  "simular"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Gives an AI agent a cloud Linux desktop where it can browse, click, type, read the screen and run commands.",
+ "whenToUse": "Use when an agent needs a remote desktop to operate graphical apps, browse the web, or run shell commands.",
+ "tasks": [
+  "browse the web",
+  "click and type on a desktop",
+  "read the screen",
+  "run shell commands"
+ ],
+ "effects": {},
+ "flags": []
+}

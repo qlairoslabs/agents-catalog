@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "955c40be8753deca228c7864240c060b5d2b40451a095cc68a7d390cbc92784d",
+ "domain": [
+  "media/news-aggregation",
+  "hr/job-listings"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Aggregates news from over 70 sites, community posts, and job openings from company career pages.",
+ "whenToUse": "Use when an agent needs current news, community discussion, or job openings gathered from many sources.",
+ "tasks": [
+  "read news articles",
+  "browse community posts",
+  "search job openings"
+ ],
+ "effects": {},
+ "flags": []
+}

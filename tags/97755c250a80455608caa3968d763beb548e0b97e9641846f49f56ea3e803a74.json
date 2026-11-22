@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "97755c250a80455608caa3968d763beb548e0b97e9641846f49f56ea3e803a74",
+ "domain": [
+  "sales/prospecting",
+  "sales/lead-enrichment"
+ ],
+ "product": [
+  "apollo-io"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Apollo.io connector for prospecting, enriching leads, loading contacts into outreach sequences and querying sales analytics.",
+ "whenToUse": "Use when finding or enriching sales leads or managing outreach sequences in Apollo.io.",
+ "tasks": [
+  "prospect contacts and companies",
+  "enrich leads",
+  "add contacts to outreach sequences",
+  "query sales analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

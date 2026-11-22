@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "5015e561025c92ad5e59bfcbaffee19201e11f5f1c7645818dcb137592f5ec0c",
+ "domain": [
+  "data/agriculture/commodities",
+  "data/trade/brazil"
+ ],
+ "product": [
+  "comexstat",
+  "kyrodata"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Brazilian trade data by HS code from ComexStat plus soybean, coffee, supply-demand, climate and forecast data.",
+ "whenToUse": "Use when analyzing Brazilian exports, imports or agricultural commodity markets.",
+ "tasks": [
+  "query exports by hs code",
+  "query imports by hs code",
+  "get soybean data",
+  "get coffee data",
+  "get supply-demand data",
+  "get climate data",
+  "get forecasts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "6d64542ce3361bfeb17edae5a13b8943e212e25875686b9842232b3e598cec91",
+ "domain": [
+  "professional/portfolio",
+  "software/web-development"
+ ],
+ "product": [],
+ "audience": [
+  "hiring",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Read-only portfolio of Mark Siazon: projects, FAQ, proof links and current availability.",
+ "whenToUse": "Use when evaluating Mark Siazon for hire or looking at their projects and availability.",
+ "tasks": [
+  "get profile summary",
+  "list projects",
+  "get project detail",
+  "search FAQ",
+  "get proof",
+  "get availability"
+ ],
+ "effects": {
+  "b2b630ea9de0caedc0dceca203d0a23e3fc008209e184318c43c28646a0805d3": "read",
+  "c80d6186a07406b6d2740ece1e49495ae848365153948a2ca6d42467ae03068c": "read",
+  "813dc726f20de80158eff90a027e6b6089a922e0a934d778edb21871a0789529": "read",
+  "53cd65f470fc256e7c3ee96b39372fbd5e4fe112e5523a1f3be36cdc8c934722": "read",
+  "5e1b3cdb8fbed0199a9355ade10aba10431753b490a82044d9894a00f1cf158f": "read",
+  "0060fca921c09f5abab7c146b41a39a6d730327b896f57cd773a8e0873a84653": "read"
+ },
+ "flags": []
+}

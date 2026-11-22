@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "e7cacf2a47c8149eeb66b8e7786d2841c5511fd63d1a6b2e80fc2c847eec0e25",
+ "domain": [
+  "ai/agent-evaluation",
+  "security/trust"
+ ],
+ "product": [
+  "hlido"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Independent reviews of AI agents and MCP servers: trust scores, claim verification, incidents, EU AI Act transparency checks, safety scans and recommendations.",
+ "whenToUse": "Use before installing or delegating to an AI agent or MCP server, to check its trust score, incidents and safety posture.",
+ "tasks": [
+  "trust check an agent",
+  "find trusted agents",
+  "verify a claim",
+  "compare agents",
+  "get scorecards",
+  "list incidents",
+  "check Article 50 transparency",
+  "scan an MCP server",
+  "request audits",
+  "market pulse",
+  "commerce readiness"
+ ],
+ "effects": {
+  "16f31713f08dddd6ff4b9e9c6ea3a00124a489971013ae9dcd83ee3fe976c80b": "read",
+  "9d1a96c188fdf72a8ca86829c34b38056e86f0e4798433d40522ea81284636c9": "read",
+  "79225e034bacab6bb39cc088ad3c26ae2cfccddf8b14877d5e60fde026abcef0": "read",
+  "e5c6f20a656d1a668f549a8d1678e32e327d94f140990985b5504662296705e3": "read",
+  "cfb2185ceb8975fff6bd4d45c7c0ed41d079d2a7a783600a5d6f6465a63fffc5": "write",
+  "9856a8d8e1ff664c5da7d38a1ec91e9e2ce6fb803d336d84cd3439fb52797ef8": "write",
+  "5ea295b09389d7763021ad418a4b1c5ef9898d4e3b07bd42f9f05fb2fdd601f4": "read",
+  "7616a21d4a748fda588dfcc12e6bd526ceaf691e3a612e182a8df4593d1cdf59": "read",
+  "bb214ca371b351ba5e1448d3df2325a3acf99231d84b7181cfc2026ed42731f4": "write",
+  "791fe081345a772c5d2c885885d007aefd97447e7be35b7314113238926e1f68": "write",
+  "658b0d4f1e5792ac36f92ad0135eea8b079543527628b2a1301bcafa023f88c4": "read",
+  "f8184f8df1384dded1d42c8c8dfcb0fdb0cf7b75a4ef4e16278b4b064533ecc7": "read",
+  "91e284d4261e4311636768bc837d51cc5af08d284650d597e0b5c6f8f90621ac": "read",
+  "e5815da0ac4655dc407c1cb1b4c87b5ff26a1c3a1d492aded4f3ff09b14840e6": "read",
+  "e3917b95dcc9629a60b3142526f1c6a6cbc2f6cf81dd0fff14c0e73fa1c27339": "read",
+  "853908a65154689462d048fd501b1463691d859352b0c1ff1dc600baba53410f": "read",
+  "f8977bb1c8a640d82566877685d6b010131032043d3be69028641d7c70974c8d": "write",
+  "2d5d3de014886ffbe81ed27e7e48ac3b3fcc1ed7b3832932d81f2f7dca5e54a5": "write",
+  "baedcd5f5165854b0924ae09296da304e0c6afd3739ab5a48b4c4fb5f0372d45": "write"
+ },
+ "flags": []
+}

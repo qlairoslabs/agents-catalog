@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d5b5db01e414f97b86ad8418af8238a630d87bd7342f9706c21185664a722a22",
+ "domain": [
+  "software/documentation",
+  "infrastructure/serverless-ml"
+ ],
+ "product": [
+  "cerebrium"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads Cerebrium documentation and lets users report problems with doc pages.",
+ "whenToUse": "Use when answering questions about deploying on Cerebrium or its configuration and APIs.",
+ "tasks": [
+  "search cerebrium docs",
+  "read doc pages",
+  "grep docs filesystem",
+  "submit docs feedback"
+ ],
+ "effects": {
+  "7ffa3faec5f5964c037e74a8b0c7a13df32244e6cabc95e6180ec61def708b59": "write",
+  "dead06af41c38f51321093a50e8147f08d1ac890c26ee829d2c88ee4972a3599": "write",
+  "fcf9b7723e4121bf5d4f208c3731228c583078ec3029b854addd4aea8601eac9": "write"
+ },
+ "flags": []
+}

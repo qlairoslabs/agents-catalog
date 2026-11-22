@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b953b8cd497b65db51179d2b2b12b9be9ffc34b07934e7bbc4d8db1bda470650",
+ "domain": [
+  "automation/agent-workflows",
+  "software/development"
+ ],
+ "product": [
+  "neonloops"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Builds, tests and publishes agentic workflows, with step approvals, table access and run history.",
+ "whenToUse": "Use when creating or managing Neonloops agent workflows from an AI client.",
+ "tasks": [
+  "build workflows",
+  "test workflows",
+  "publish workflows",
+  "approve steps",
+  "read tables",
+  "view runs"
+ ],
+ "effects": {},
+ "flags": []
+}

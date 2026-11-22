@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f8f8d74d012cacf81910c9774a6c3bb60776cd21b72f7df398991a4e64b00b60",
+ "domain": [
+  "security/spam-detection",
+  "telecom"
+ ],
+ "product": [
+  "calmido"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up Dutch, Belgian and Luxembourg phone numbers for spam reports, a trust verdict and the registered business.",
+ "whenToUse": "Use when a user asks who called them or whether a NL, BE or LU number is spam or a scam.",
+ "tasks": [
+  "look up a phone number",
+  "check spam reports",
+  "identify registered business",
+  "search directory",
+  "fetch verdict"
+ ],
+ "effects": {
+  "586f9f99dc95dc4559288a7b7820ca183d4701f2562f8d56d84b872d38b6536b": "write",
+  "c9940e8b333db90cd6eeb717a66787c5ee54f6f67544e8cf7391fafe9dd6fda2": "read",
+  "51d610e3d8ba030811779a18cf8fe23eb6f4578a31f22d07b7a350c07378546d": "read"
+ },
+ "flags": []
+}

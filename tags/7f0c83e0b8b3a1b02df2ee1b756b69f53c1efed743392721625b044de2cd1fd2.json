@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "7f0c83e0b8b3a1b02df2ee1b756b69f53c1efed743392721625b044de2cd1fd2",
+ "domain": [
+  "travel/transport",
+  "travel/airport-transfers"
+ ],
+ "product": [
+  "belgrade-airport"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Novi Sad and Belgrade Airport transfers: list routes, fixed prices, estimate a trip and start a booking confirmed by email.",
+ "whenToUse": "Use when a traveller needs a priced airport transfer between Novi Sad and Belgrade Airport and wants to book it.",
+ "tasks": [
+  "list routes",
+  "get fixed pricing",
+  "estimate price",
+  "get service info",
+  "create booking request",
+  "check booking status"
+ ],
+ "effects": {
+  "ddb46bbcd811042eb3256cac0b031cc607394d9db81c9f256202411a8b9e0dd2": "read",
+  "0b286f43f0a55da197dd1150f535ae4c44e09a696e99d7312f43b554f27e59bf": "read",
+  "6ca88846276e20a082c8cd555d1f647064a328f3a7dc0fa86b75dbd14fb5d761": "read",
+  "1f241410250529a6a0c53f66b6b354ab4211abe754729c0058f89ff726764821": "read",
+  "a0e5427e07a141396d44e0bef3d396f8f6899b6f21a33725fb8104161ed43f8b": "write",
+  "da5248c4b247ae137be1a67859ddc5d12a00a9b44c973c58b5d7a58fbf4cf63e": "read"
+ },
+ "flags": []
+}

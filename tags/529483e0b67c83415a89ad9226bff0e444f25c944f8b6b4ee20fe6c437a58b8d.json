@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "529483e0b67c83415a89ad9226bff0e444f25c944f8b6b4ee20fe6c437a58b8d",
+ "domain": [
+  "software/app-builder",
+  "software/hosting"
+ ],
+ "product": [
+  "fine-structure",
+  "whatsapp"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Builds and hosts full-stack apps from a prompt, with agents that can contact users over WhatsApp and email.",
+ "whenToUse": "Use when a user wants to create and host a web app from a description.",
+ "tasks": [
+  "generate full-stack apps",
+  "host apps",
+  "notify via whatsapp",
+  "notify via email"
+ ],
+ "effects": {},
+ "flags": []
+}

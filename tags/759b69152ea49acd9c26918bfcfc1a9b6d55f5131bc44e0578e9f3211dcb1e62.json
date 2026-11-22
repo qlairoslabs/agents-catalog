@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "759b69152ea49acd9c26918bfcfc1a9b6d55f5131bc44e0578e9f3211dcb1e62",
+ "domain": [
+  "data/databases",
+  "software/devops"
+ ],
+ "product": [
+  "planetscale"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hosted MCP server for PlanetScale organizations, databases, branches, schema and Insights, including running queries.",
+ "whenToUse": "Use when inspecting PlanetScale databases, schemas or slow queries.",
+ "tasks": [
+  "list organizations",
+  "browse databases and branches",
+  "inspect schema",
+  "run queries",
+  "find slow queries",
+  "get account info"
+ ],
+ "effects": {},
+ "flags": []
+}

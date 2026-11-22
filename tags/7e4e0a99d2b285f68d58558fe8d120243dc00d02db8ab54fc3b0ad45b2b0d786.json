@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "7e4e0a99d2b285f68d58558fe8d120243dc00d02db8ab54fc3b0ad45b2b0d786",
+ "domain": [
+  "legal/trademark",
+  "branding"
+ ],
+ "product": [
+  "trademarkmind",
+  "wipo-madrid",
+  "uspto"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "Checks brand names and logos against U.S. and international trademark registers and maps a business description to Nice classes.",
+ "whenToUse": "Use when a user wants to know whether a brand name or logo is likely free to use or register.",
+ "tasks": [
+  "check brand name",
+  "check logo",
+  "suggest Nice classes",
+  "search international registrations",
+  "fetch job result"
+ ],
+ "effects": {
+  "24c28a9c85919cf86f31ba089808722abe164390c5f50b7e3fc19b10356bc2d5": "write",
+  "c18c6514c0f2663f361a8ab279f23bd465ac498aa026b3c0e8d2e162fca6ecfb": "read",
+  "f8d4805ae5104323e7f01a64cbd3fd6d7eafc64130eda81d3fd7d670bb37eb82": "write",
+  "ac3336e6291a3cf7928b2bb1f276e15e2de4d265156d4f81eac25c8e09414b42": "read",
+  "c567387c06953cbfce046be972d8f3db6e0bf64bc945afd0c61e7b33e74c7cb0": "read",
+  "30e11df0d8dfd7307df71f36ad1f677d77302bfd5351699f8beb3bc1cdc3e4d8": "read"
+ },
+ "flags": []
+}

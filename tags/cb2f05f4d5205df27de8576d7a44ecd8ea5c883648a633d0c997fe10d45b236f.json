@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "cb2f05f4d5205df27de8576d7a44ecd8ea5c883648a633d0c997fe10d45b236f",
+ "domain": [
+  "messaging/whatsapp",
+  "marketing"
+ ],
+ "product": [
+  "whatsapp"
+ ],
+ "audience": [
+  "marketing",
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Builds WhatsApp click-to-chat links, QR codes and share widgets, validates phone numbers, and looks up WhatsApp API pricing and limits. Nothing is sent.",
+ "whenToUse": "Use when you need wa.me links, bulk personalized links, a QR code, a phone number check, or WhatsApp Business API costs and limits.",
+ "tasks": [
+  "generate wa.me links",
+  "generate bulk personalized links",
+  "validate phone numbers",
+  "create WhatsApp QR codes",
+  "build share widgets",
+  "estimate API cost",
+  "look up API rates",
+  "look up WhatsApp limits"
+ ],
+ "effects": {
+  "ef293a848b3fe4c430d3304d441971d1d57385a56172c2a9026743f78693d051": "read",
+  "5b4eff5161485db66464892413c2d394c221fd8850427c7563310bfda201ebba": "write",
+  "f0449ec44fb89d67d930c0ea0c51f8b454360f362632c0899d959498d3e2eb7c": "read",
+  "2146e4160b0b6bda6689ede189ec5788a55ab7f6b9ac6ba7d1fd68805039d5be": "read",
+  "aaf3883e4caa9215679173cb1dbcf3a74a90939016497f89895790369305c6e4": "read",
+  "1396e65aae0f58afea3e89bb26b55ea4934523f677384f801db5d087c87347c2": "write",
+  "737af678eaa690ee2c30bdb535a9a41c292aadae87b7bf4dd4c273e44a5d52f2": "write",
+  "0550a739c9e7a1d81d5b893dab62c864b72f47fd547de05bc0d5cb19c60ccd71": "read"
+ },
+ "flags": []
+}

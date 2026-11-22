@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a37ef5b7c1539c82f1fe6395298557e0548d95c774304a145bd0ab1049dffb11",
+ "domain": [
+  "finance/crypto",
+  "finance/payments"
+ ],
+ "product": [
+  "bitcoin",
+  "stacks",
+  "sbtc",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Bitcoin and Stacks tools for agents covering wallets, DeFi yield, sBTC peg operations, NFTs and x402 payments.",
+ "whenToUse": "Use when an agent needs to hold, move or earn yield on BTC/STX assets or pay via x402.",
+ "tasks": [
+  "manage btc and stx wallets",
+  "transfer funds",
+  "use defi yield",
+  "peg in and out sbtc",
+  "manage nfts",
+  "make x402 payments"
+ ],
+ "effects": {},
+ "flags": []
+}

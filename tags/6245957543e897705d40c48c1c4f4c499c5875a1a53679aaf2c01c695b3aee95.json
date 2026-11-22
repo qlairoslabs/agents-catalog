@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6245957543e897705d40c48c1c4f4c499c5875a1a53679aaf2c01c695b3aee95",
+ "domain": [
+  "finance/investing",
+  "finance/market-data"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Source-backed US market signals covering insider filings, congressional trades, institutional holdings and analyst consensus.",
+ "whenToUse": "Use when an agent needs sourced US stock signals like insider or Congress trades.",
+ "tasks": [
+  "look up insider filings",
+  "track congress trades",
+  "view institutional holdings",
+  "get analyst consensus"
+ ],
+ "effects": {},
+ "flags": []
+}

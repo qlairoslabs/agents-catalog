@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "a3ec3e32986fb4660f195f1b6c6bbd303ea6952113f09dc0c66258f25712ed2d",
+ "domain": [
+  "software/mobile-testing",
+  "software/cloud-emulators"
+ ],
+ "product": [
+  "limrun",
+  "ios",
+  "android"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides cloud iOS simulators and Android emulators that an agent can create, control and discard.",
+ "whenToUse": "Use when an agent needs to run, test or interact with a mobile app on a disposable iOS or Android device.",
+ "tasks": [
+  "create ios simulators",
+  "create android emulators",
+  "control devices",
+  "delete devices"
+ ],
+ "effects": {},
+ "flags": []
+}

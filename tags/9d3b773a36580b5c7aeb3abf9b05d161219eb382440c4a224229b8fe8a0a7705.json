@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "9d3b773a36580b5c7aeb3abf9b05d161219eb382440c4a224229b8fe8a0a7705",
+ "domain": [
+  "software/cybersecurity/static-analysis",
+  "software/saas"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Static analysis scanner that looks for tenant isolation problems in MCP servers and multi-tenant SaaS code.",
+ "whenToUse": "Use when reviewing MCP server or multi-tenant SaaS code for data isolation flaws.",
+ "tasks": [
+  "scan mcp server code",
+  "check multi-tenant isolation",
+  "report static analysis findings"
+ ],
+ "effects": {},
+ "flags": []
+}

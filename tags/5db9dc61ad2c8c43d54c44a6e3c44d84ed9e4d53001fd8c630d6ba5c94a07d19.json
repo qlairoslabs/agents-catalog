@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5db9dc61ad2c8c43d54c44a6e3c44d84ed9e4d53001fd8c630d6ba5c94a07d19",
+ "domain": [
+  "marketing/seo",
+  "marketing/content"
+ ],
+ "product": [
+  "outrank",
+  "google-search-console"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content",
+  "be-online"
+ ],
+ "summary": "SEO connector to plan keywords, write and publish articles, and read Search Console and backlink data.",
+ "whenToUse": "Use when an agent needs to plan SEO keywords, publish articles or review search and backlink performance.",
+ "tasks": [
+  "plan keywords",
+  "write articles",
+  "publish articles",
+  "read search console data",
+  "read backlink data"
+ ],
+ "effects": {},
+ "flags": []
+}

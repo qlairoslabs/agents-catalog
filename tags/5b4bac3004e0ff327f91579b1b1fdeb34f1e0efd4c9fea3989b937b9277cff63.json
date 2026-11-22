@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5b4bac3004e0ff327f91579b1b1fdeb34f1e0efd4c9fea3989b937b9277cff63",
+ "domain": [
+  "software/product-documentation"
+ ],
+ "product": [
+  "cannon-studio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Public server that answers questions about Cannon Studio's product, pricing, workflows, models and API.",
+ "whenToUse": "Use when a user asks about Cannon Studio features, pricing or API usage.",
+ "tasks": [
+  "answer product questions",
+  "explain pricing",
+  "describe workflows",
+  "explain models",
+  "answer API questions"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c9bd4ca8cd46f86290d94a4dc4e45420c340b80899dd09a9bc11dda015055138",
+ "domain": [
+  "automotive/valuation",
+  "finance/pricing"
+ ],
+ "product": [
+  "tradebasis"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Gives a US asking-price market average for a used vehicle from VIN or year, make, model and trim, plus mileage.",
+ "whenToUse": "Use when a user wants an estimate of a US vehicle's market asking price.",
+ "tasks": [
+  "appraise vehicle by VIN",
+  "appraise by year make model trim",
+  "filter by US state market"
+ ],
+ "effects": {
+  "0cf7c1bdd587787f27f03b11980c4de82913cafeb00764dddfb3f1e87db0798c": "read"
+ },
+ "flags": []
+}

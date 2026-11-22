@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f3fda3544a47f8423cb4be4c2d8ebf21077e0d08a62ece29da6fd4044e28d0ac",
+ "domain": [
+  "software/cybersecurity/vulnerability-management"
+ ],
+ "product": [
+  "aikido"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Lists, counts, summarizes and triages security findings from the Aikido security feed, such as vulnerabilities, leaked secrets and malware alerts.",
+ "whenToUse": "Use when a user asks about Aikido findings, vulnerabilities, leaked secrets, or code, cloud or container security issues.",
+ "tasks": [
+  "list security issues",
+  "count findings",
+  "summarize vulnerabilities",
+  "triage issues",
+  "review leaked secrets",
+  "review sast iac and sca results",
+  "check eol license and malware alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

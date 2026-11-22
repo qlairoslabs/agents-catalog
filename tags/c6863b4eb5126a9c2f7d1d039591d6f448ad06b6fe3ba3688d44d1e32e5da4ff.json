@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "c6863b4eb5126a9c2f7d1d039591d6f448ad06b6fe3ba3688d44d1e32e5da4ff",
+ "domain": [
+  "software/testing/visual-regression",
+  "web/screenshots"
+ ],
+ "product": [
+  "snapshot-site"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Takes website screenshots, compares page versions for visual changes and analyzes them with AI.",
+ "whenToUse": "Use when an agent needs page screenshots or to detect visual differences between site versions.",
+ "tasks": [
+  "capture screenshots",
+  "detect visual regressions",
+  "analyze screenshots with ai"
+ ],
+ "effects": {},
+ "flags": []
+}

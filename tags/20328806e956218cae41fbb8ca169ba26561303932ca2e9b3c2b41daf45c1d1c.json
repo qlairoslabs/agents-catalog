@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "20328806e956218cae41fbb8ca169ba26561303932ca2e9b3c2b41daf45c1d1c",
+ "domain": [
+  "crypto/solana",
+  "crypto/monitoring"
+ ],
+ "product": [
+  "solana"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Looks up Solana wallet balances and recent transactions and sets up polling or webhook alerts for new activity.",
+ "whenToUse": "Use when you need to inspect or monitor a Solana wallet's on-chain activity.",
+ "tasks": [
+  "check wallet balance",
+  "list recent transactions",
+  "watch wallet",
+  "send webhook alerts",
+  "poll alerts"
+ ],
+ "effects": {
+  "3aafb222bafc11a617a2eeb0a7d5ba64f9b841a1d4e62ff1123f05a70a6503da": "read",
+  "aae1d58af5ebeceba440f4eabc80cd027590685eed3ebe40b9e7f8e84d922353": "write",
+  "4475e84d8e272e9ae230a65c440284d73c9b3a3caafbf1ddb629f5cd212fb19d": "read"
+ },
+ "flags": []
+}

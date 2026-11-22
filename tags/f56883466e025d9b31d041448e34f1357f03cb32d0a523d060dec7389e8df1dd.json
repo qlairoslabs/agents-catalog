@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "f56883466e025d9b31d041448e34f1357f03cb32d0a523d060dec7389e8df1dd",
+ "domain": [
+  "business/client-management/meeting-notes",
+  "productivity"
+ ],
+ "product": [
+  "saybriefly"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "work-as-a-team",
+  "understand-what-is-happening"
+ ],
+ "summary": "Retrieves client meeting records, decisions, to-dos and briefs stored in SayBriefly.",
+ "whenToUse": "Use when an agent needs to recall what was agreed with a client in past meetings.",
+ "tasks": [
+  "look up client meetings",
+  "review decisions",
+  "list to-dos",
+  "read client briefs"
+ ],
+ "effects": {},
+ "flags": []
+}

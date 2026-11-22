@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "6ac16bc24fa7e4f8deca6f48c1ed72a274d2b872a48e1d0a687915bca6cb4551",
+ "domain": [
+  "jobs/search",
+  "finance/tax"
+ ],
+ "product": [
+  "jobcrawls",
+  "job-market-finland"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches job listings in Finland with filters and calculates net salary from gross for Finnish taxation, in English, Finnish and Swedish.",
+ "whenToUse": "Use when someone wants to find jobs in Finland or know how much a gross salary leaves after Finnish taxes.",
+ "tasks": [
+  "search job listings",
+  "list job filters",
+  "get job details",
+  "calculate net salary",
+  "solve gross from target net"
+ ],
+ "effects": {
+  "9f08d4baf87923fc8be4983da837223585099525859c1da003e8cd13814db641": "write",
+  "fdd4e0bf9c1ebf61bcf261f8ddd7aab9b30ab4c0b299dc5f2c14c9be24ec0993": "write",
+  "f89cf48208dea5f8bb142085bc855e46620a982d9c769efd88267772c829a87b": "write",
+  "e757115960d0c77d226acb28f1de23a984336773092a914ae2a5dc434d52080e": "write"
+ },
+ "flags": []
+}

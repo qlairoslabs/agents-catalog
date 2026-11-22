@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "00a01807ba10d11b1cb95ce1919fc7185a0b46fccf76a0865d0199662fa38940",
+ "domain": [
+  "fitness/pilates-studio",
+  "scheduling"
+ ],
+ "product": [
+  "karve"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Shows the live KARVE Pilates class schedule in Jeddah with availability, trainers, studio facts and booking links.",
+ "whenToUse": "Use when someone asks about Pilates classes, open spots or studio pricing and policies at KARVE in Jeddah.",
+ "tasks": [
+  "search class schedule",
+  "find next available class",
+  "get class detail",
+  "get studio info and pricing"
+ ],
+ "effects": {
+  "7222aca76800958b043728874b1fb1f439fb0f35e48b12bea6078f3e218d73f8": "read",
+  "91e738ebee77378fc69d7f759a1be56782a6bbee569b6fc32b7d081b0cd1f0e1": "read",
+  "8f88f6f804afcb73512c5168b4738ea2ef4585ac246fe2509bf5a3e0a8cb6c8c": "read",
+  "258aa8fe726d10b4c7c54c49755291b7204af041f6e3ef0aa862f081a3b36bd8": "read"
+ },
+ "flags": []
+}

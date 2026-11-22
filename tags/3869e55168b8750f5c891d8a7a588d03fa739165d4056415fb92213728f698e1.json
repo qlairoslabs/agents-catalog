@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3869e55168b8750f5c891d8a7a588d03fa739165d4056415fb92213728f698e1",
+ "domain": [
+  "software/databases/vector",
+  "software/devops"
+ ],
+ "product": [
+  "zilliz-cloud",
+  "milvus"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Skills for managing Zilliz Cloud clusters, collections, vector search, indexes, imports, access control, backups and monitoring.",
+ "whenToUse": "Use when operating or querying a Zilliz Cloud vector database.",
+ "tasks": [
+  "manage clusters",
+  "define collection schemas",
+  "run vector search",
+  "tune indexes",
+  "bulk import data",
+  "manage rbac",
+  "manage backups",
+  "monitor clusters"
+ ],
+ "effects": {},
+ "flags": []
+}

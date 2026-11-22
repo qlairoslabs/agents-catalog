@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "49e0aec5c2fd2ac17243b2405a24a8137d2d2c64434e098271274f7bf535e1f3",
+ "domain": [
+  "media/transcription",
+  "productivity/meetings"
+ ],
+ "product": [
+  "speak-ai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content"
+ ],
+ "summary": "Connector for Speak AI to search recordings, summarize meetings and create clips.",
+ "whenToUse": "Use when an agent needs to search or summarize recorded meetings or media in Speak AI.",
+ "tasks": [
+  "search recordings",
+  "summarize meetings",
+  "create clips",
+  "automate workflows"
+ ],
+ "effects": {},
+ "flags": []
+}

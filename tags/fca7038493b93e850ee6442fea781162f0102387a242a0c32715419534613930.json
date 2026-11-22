@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "fca7038493b93e850ee6442fea781162f0102387a242a0c32715419534613930",
+ "domain": [
+  "ai/agent-memory"
+ ],
+ "product": [
+  "synap"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Stores and recalls conversation context so AI agents keep memory across sessions.",
+ "whenToUse": "Use when an agent needs to save context from a conversation and retrieve it later.",
+ "tasks": [
+  "log conversation context",
+  "recall stored memories"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "3b378a34dd01a2b3b65614083d8c693705595c48332150725df2d6789092e4fa",
+ "domain": [
+  "nonprofit/fundraising",
+  "personality-assessment"
+ ],
+ "product": [
+  "makechoice",
+  "changing-our-futures",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-paid",
+  "understand-what-is-happening"
+ ],
+ "summary": "Log in to MakeChoice, take and save a 70-question personality test, start a donation checkout and view the donor list.",
+ "whenToUse": "Use when a user wants to take the MakeChoice personality test or donate to Changing Our Futures.",
+ "tasks": [
+  "log in",
+  "fetch questions",
+  "score and save test",
+  "start donation checkout",
+  "list donors"
+ ],
+ "effects": {
+  "f8dda535e7083ba18c23fa8da14f7be1b3708506874806bd1d2673f2af495794": "write",
+  "5c58ebc41fd41c128b0f4040d22b3108837be2935264872d7e49b9b676aa6e7c": "read",
+  "456cec63e3fa5d691c25cf454e9f22d14e1cf449b39c29ffe2198472cb8c5442": "write",
+  "124b2fcba2be7f6212e1cfa8843c75afa3c9acd29af67a716d12ed1f5755bd18": "write",
+  "7879642a66d5869f31b76f019bf2712af84fc37092513764175217bb62ef1894": "read"
+ },
+ "flags": []
+}

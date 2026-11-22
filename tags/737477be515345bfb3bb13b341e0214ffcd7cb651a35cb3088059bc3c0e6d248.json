@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "737477be515345bfb3bb13b341e0214ffcd7cb651a35cb3088059bc3c0e6d248",
+ "domain": [
+  "software/databases/test-data"
+ ],
+ "product": [
+  "azure-sql-database"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Fills the local Azure SQL container database with realistic sample or test data via seed scripts, fixtures or CSV loads.",
+ "whenToUse": "Use when a user wants test data, fixtures or sample rows in an existing local Azure SQL database.",
+ "tasks": [
+  "generate sample data",
+  "write seed script",
+  "load fixtures",
+  "insert test rows",
+  "bulk load csv"
+ ],
+ "effects": {},
+ "flags": []
+}

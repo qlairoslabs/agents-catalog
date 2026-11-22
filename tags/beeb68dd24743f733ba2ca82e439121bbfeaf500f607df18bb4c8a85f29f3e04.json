@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "beeb68dd24743f733ba2ca82e439121bbfeaf500f607df18bb4c8a85f29f3e04",
+ "domain": [
+  "energy/ev-charging",
+  "operations/device-management"
+ ],
+ "product": [
+  "askacharge",
+  "ocpp"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "get-paid"
+ ],
+ "summary": "Operates an EV charge point network over OCPP, covering status, sessions, tariffs, prices and remote commands.",
+ "whenToUse": "Use when managing EV chargers: checking status, reviewing sessions, setting tariffs or sending remote commands.",
+ "tasks": [
+  "check charger status",
+  "list charging sessions",
+  "manage tariffs",
+  "set prices",
+  "send remote commands"
+ ],
+ "effects": {},
+ "flags": []
+}

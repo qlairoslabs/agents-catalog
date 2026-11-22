@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5dcb7ad22e472d57ad9ab7e96cea06715b0e5290d8a32c44e8f260cab167bc2f",
+ "domain": [
+  "ai/model-access",
+  "media/generation"
+ ],
+ "product": [
+  "gemini"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Exposes Google Gemini 3 capabilities such as image and video generation, research, text-to-speech and code execution as MCP tools.",
+ "whenToUse": "Use when an agent needs Gemini to generate images, video or speech, do research, or run code.",
+ "tasks": [
+  "generate images",
+  "generate video",
+  "run research queries",
+  "text to speech",
+  "execute code",
+  "use gemini cli"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "adfe01b587918b479033399845542ce98b6203187ea2e75f3f466c0eb4fb9b55",
+ "domain": [
+  "telecom/corporate-mobile",
+  "finance/billing"
+ ],
+ "product": [
+  "salvy"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "hire-and-manage"
+ ],
+ "summary": "Queries and manages Salvy corporate phone lines, invoices and employees.",
+ "whenToUse": "Use when a company using Salvy needs to check or manage lines, bills or assigned employees.",
+ "tasks": [
+  "view phone lines",
+  "manage lines",
+  "view invoices",
+  "manage employees"
+ ],
+ "effects": {},
+ "flags": []
+}

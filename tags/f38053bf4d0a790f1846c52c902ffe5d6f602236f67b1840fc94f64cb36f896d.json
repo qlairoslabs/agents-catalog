@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "f38053bf4d0a790f1846c52c902ffe5d6f602236f67b1840fc94f64cb36f896d",
+ "domain": [
+  "marketing/reddit-research",
+  "marketing/ai-visibility"
+ ],
+ "product": [
+  "reddit",
+  "chatgpt",
+  "perplexity",
+  "gemini"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds subreddits that AI answers cite for a product or niche and shows citation counts and most-cited threads per subreddit.",
+ "whenToUse": "Use when choosing which Reddit communities matter for being recommended by AI assistants.",
+ "tasks": [
+  "find subreddits matching a product",
+  "get AI citation stats for a subreddit",
+  "see most-cited threads"
+ ],
+ "effects": {
+  "19dbc0fdbce2e5650ca44144e22e176e5c4571bd0e94d995af79e8a6333a08cb": "read",
+  "252b1f6b0397ad6cd568faebda1b7be9117c08acc77ffa3eae2c6b4ce0dca08c": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "7ac16c4a12e2adcf6d756691fab345333dd60629db0a7417beef8c3a7f76c3f3",
+ "domain": [
+  "travel/private-aviation"
+ ],
+ "product": [
+  "skyaccess"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Searches live private-jet empty leg flights, gives charter estimates and booking links, and submits booking requests to SkyAccess.",
+ "whenToUse": "Use when a user wants discounted private jet empty legs, a charter price estimate or to start a booking enquiry.",
+ "tasks": [
+  "search empty legs",
+  "get flight",
+  "get booking link",
+  "estimate charter price",
+  "list popular routes",
+  "request booking",
+  "send feedback"
+ ],
+ "effects": {
+  "577ca84f5aeeb62ab4163613aae03e31e008bb7d8587297b05e0fabd7b21a04b": "read",
+  "4fe402a5226e711bfaf069695976b62394bb75989c9872373d6e00c06093662f": "read",
+  "c355428f293543beec8d53f28871557fb759a97f6d394babe49e3eae602d5b0e": "write",
+  "a1c2b9314083c06f9f7e68b7d7ddf6640128d39ee078cc324e75a37d1b6805a2": "read",
+  "66111fd38b525d6d0d4a643bdac246cfb889d05ee399690d7195f9f8fa96727a": "read",
+  "34a1ab8886e9e153b94ed8be1e2a28e1d2c686821ceaf7be9f358a2829af0344": "write",
+  "edf4c040f464938950a5013629427a1b68b83dec791aa520ff70adc58f528987": "write"
+ },
+ "flags": [
+  "submit_feedback is described as something the agent should send on its own without the user reporting it"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "deddde7dc61e6eda2e1647209d0ebb44632293968e3111ec7993219f35ccf18d",
+ "domain": [
+  "software/attestation",
+  "finance/settlement"
+ ],
+ "product": [
+  "settlementwitness"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Adapter that forwards a task spec and output to SettlementWitness and returns a Settlement Attestation Receipt.",
+ "whenToUse": "Use when an agent workflow needs a settlement attestation receipt for a completed task.",
+ "tasks": [
+  "emit settlement attestation receipt"
+ ],
+ "effects": {
+  "f5da3d4475487465f9b8f7af7839c4fdb7498f9c7c2e022c52269eb5fc1f7ed7": "write"
+ },
+ "flags": []
+}

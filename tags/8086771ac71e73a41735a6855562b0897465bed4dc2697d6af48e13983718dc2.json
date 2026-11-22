@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8086771ac71e73a41735a6855562b0897465bed4dc2697d6af48e13983718dc2",
+ "domain": [
+  "healthcare/dental",
+  "manufacturing/3d-printing"
+ ],
+ "product": [
+  "sprintray"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Orders dental appliance designs, manages patients and scans, and sends jobs to SprintRay 3D printers.",
+ "whenToUse": "Use when a dental practice agent needs to order designs, manage patient scans or print on SprintRay printers.",
+ "tasks": [
+  "order dental appliance designs",
+  "manage patients",
+  "manage scans",
+  "print on sprintray printers"
+ ],
+ "effects": {},
+ "flags": []
+}

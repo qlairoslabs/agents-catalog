@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "5f5c6fab6923236ba8b2ae6db5e3aa8d21f17557d57366a247174f8ca31f57a7",
+ "domain": [
+  "data/database",
+  "productivity"
+ ],
+ "product": [
+  "easydata"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Lets agents define schemas and read, write and organize structured records in EasyData.",
+ "whenToUse": "Use when an agent needs to store or manage structured records in an EasyData workspace.",
+ "tasks": [
+  "create schemas",
+  "read records",
+  "write records",
+  "organize records"
+ ],
+ "effects": {},
+ "flags": []
+}

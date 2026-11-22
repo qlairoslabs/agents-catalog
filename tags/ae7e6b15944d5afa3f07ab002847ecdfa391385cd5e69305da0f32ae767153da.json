@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ae7e6b15944d5afa3f07ab002847ecdfa391385cd5e69305da0f32ae767153da",
+ "domain": [
+  "software/ai-agents",
+  "software/governance"
+ ],
+ "product": [
+  "skillrepo"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Central governed library of agent skills distributed to developers and served to remote agents via MCP.",
+ "whenToUse": "Use when an organization's agents need approved skills from a shared, governed library.",
+ "tasks": [
+  "list governed skills",
+  "fetch skills for agents",
+  "distribute skills to developers"
+ ],
+ "effects": {},
+ "flags": []
+}

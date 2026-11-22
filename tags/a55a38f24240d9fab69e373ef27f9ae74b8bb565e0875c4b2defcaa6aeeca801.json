@@ -1,0 +1,62 @@
+{
+ "classifier": 2,
+ "contentHash": "a55a38f24240d9fab69e373ef27f9ae74b8bb565e0875c4b2defcaa6aeeca801",
+ "domain": [
+  "gaming/roblox-market",
+  "finance/market-data"
+ ],
+ "product": [
+  "roblox",
+  "rbx-invest"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only Roblox Limiteds market data: RAP, resale prices, deals below RAP, new UGC releases, creators, portfolios, market stats and guides.",
+ "whenToUse": "Use when an agent needs Roblox Limited item prices, underpriced listings, creator ratings or market trends.",
+ "tasks": [
+  "search and screen limiteds",
+  "get item details",
+  "find deals below RAP",
+  "list new UGC releases",
+  "rank creators",
+  "rank player portfolios",
+  "view community holdings",
+  "get market cap and activity",
+  "analyze release cohorts",
+  "read guides and glossary",
+  "browse collections",
+  "check membership"
+ ],
+ "effects": {
+  "9cf96e8dc57ff070f8607273b0eb318c840292f259f45d94ec7c03a5a0ae0a24": "write",
+  "5f961a6b1dbbeb6702c8309dc6a23dfeb21c35f9c96d8e26722a7ba4db9f3c9f": "write",
+  "f8f697496e72987b800578956a5c997759fcc12193bc8d5708abdd8ecc53c99d": "read",
+  "d8281efb9fb7e369e886b8b01f746ae449b26c6b4975d1012634267826e0b44e": "read",
+  "b89a34116edc4af2991db56e5c7e79a521ffdb691031f2ccf27dee7e7dd28c49": "read",
+  "66396708701f036575ce5ae1c3006f98a911b5f79bd5604a26e8f5e1fdc25c46": "read",
+  "f23e4c56890b9f24e11e2dbb1931f10479504e7f47f564a545b0ee8cbbc1b7b4": "read",
+  "7bbc553b258c50e5105da899c3924baa811167f10abb5682e25d5fa8832fd183": "read",
+  "5699dafb87f445b3d16439b85819518c54d5efb9121b4013f5e8450260546851": "read",
+  "8db97bad181b0ed9265da5e4f9a7eaa8685a06f4a2809a15e32b03c239a71278": "read",
+  "113a9552b2d41d67ac19cb292a90203d99fa25975b5a26999946178b056c534b": "write",
+  "690f278906d9cc105ac567b8a831fda74b635c6d3ae53e02f892be2e34ddc09c": "read",
+  "2bb45d6fb2e9caa30bc5b34daf29417fc4e63638525a403d84c0bb5a62439a7d": "read",
+  "1cc83cc04e35e3e76ca4b0113bfbd1578a0e2583ba1aa00f5a274797a3816e6a": "read",
+  "cccb9463b4934a8d804dee19245995b7dece104323508452ea80602cb5e62fc5": "read",
+  "81d5b22bfa8d26bda2d9bd0de9819092b8d923a6030b0cedefdad4e985742f47": "read",
+  "00296d2fdb9cc72b061417033792e63ebb6768ab7a2ca74cfe52942b2fcae63d": "read",
+  "98ed38c3d5cb94eb435f401fa51ca53b273f1dddfa801a67223309a03ea59a58": "read",
+  "b07a131a5d4635c74c43a85ef64c230bf52c423ef3f22470644d34ab09042f88": "write",
+  "bb1e2a069825c02f94cacdad9931958fab75b0fbe24f8158fd9e1e508b81ff07": "write",
+  "b084a3b131d866ee55ec79734a1df53470e20bf5191c8e2614aa716616a29dfa": "read",
+  "7452eeec382e0217f789f10e94a17290f0f6c4131a3c9c6c581d3dfd06b4d1df": "read",
+  "c3916c64efaaa2adba3ca02c740f9b8359cba27b29a38608ccbab7cb756c450a": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "8fa368c905da5b1e3a80bf6c5366f5108463d625d86c32c106d34b3875a61dc3",
+ "domain": [
+  "finance/payments"
+ ],
+ "product": [
+  "stripe"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Connects to the Stripe API to work with payments, customers and billing data.",
+ "whenToUse": "Use when an agent needs to read or manage Stripe payments, customers, invoices or subscriptions.",
+ "tasks": [
+  "manage payments",
+  "manage customers",
+  "manage invoices",
+  "manage subscriptions"
+ ],
+ "effects": {},
+ "flags": []
+}

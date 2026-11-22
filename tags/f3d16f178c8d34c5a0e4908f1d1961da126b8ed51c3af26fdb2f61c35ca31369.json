@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f3d16f178c8d34c5a0e4908f1d1961da126b8ed51c3af26fdb2f61c35ca31369",
+ "domain": [
+  "legal/e-signature",
+  "business/contracts"
+ ],
+ "product": [
+  "econtract"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "stay-compliant"
+ ],
+ "summary": "Sends contracts for electronic signature, tracks signing status, and retrieves signed PDFs, audit trails and PDF verification.",
+ "whenToUse": "Use when a contract has to be sent for e-signature, its signing tracked, or a signed PDF verified.",
+ "tasks": [
+  "send contracts for signature",
+  "track signing status",
+  "download signed pdfs",
+  "get audit trails",
+  "verify pdfs"
+ ],
+ "effects": {},
+ "flags": []
+}

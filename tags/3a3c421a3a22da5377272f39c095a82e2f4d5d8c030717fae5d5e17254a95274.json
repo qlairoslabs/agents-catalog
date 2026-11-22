@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3a3c421a3a22da5377272f39c095a82e2f4d5d8c030717fae5d5e17254a95274",
+ "domain": [
+  "software/ai-agents/deployment"
+ ],
+ "product": [
+  "omnara"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Deploys and manages long-running AI agents on Omnara, an open-source managed agent platform.",
+ "whenToUse": "Use when deploying or managing durable AI agents on the Omnara platform.",
+ "tasks": [
+  "deploy ai agents",
+  "manage running agents"
+ ],
+ "effects": {},
+ "flags": []
+}

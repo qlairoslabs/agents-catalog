@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e2b8ab24b271ac368938fb117fbd4f68dc435c3fed2e508e28d44d965ce9f5f8",
+ "domain": [
+  "data/open-data",
+  "science/clinical-trials",
+  "government/procurement"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Official open data as JSON covering clinical trials, EU tenders, papers, apps, French companies, fuel prices and domains.",
+ "whenToUse": "Use when you need open public data like clinical trials, EU tenders, French company records or fuel prices.",
+ "tasks": [
+  "search clinical trials",
+  "search eu tenders",
+  "search papers",
+  "look up french companies",
+  "get fuel prices",
+  "look up domains",
+  "search apps"
+ ],
+ "effects": {},
+ "flags": []
+}

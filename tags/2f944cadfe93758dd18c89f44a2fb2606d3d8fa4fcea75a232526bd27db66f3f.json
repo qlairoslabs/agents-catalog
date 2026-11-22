@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2f944cadfe93758dd18c89f44a2fb2606d3d8fa4fcea75a232526bd27db66f3f",
+ "domain": [
+  "legal/document-review",
+  "legal/knowledge-base"
+ ],
+ "product": [
+  "gc-ai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Works with a GC AI legal knowledge base to upload documents, run review playbooks and answer questions from your files.",
+ "whenToUse": "Use when reviewing legal documents or answering legal questions grounded in a GC AI knowledge base.",
+ "tasks": [
+  "upload documents",
+  "run review playbooks",
+  "ask questions over legal files"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,61 @@
+{
+ "classifier": 2,
+ "contentHash": "690307b38027e671bddf54b30eabdba2c648ee1d19ad749f3cb5535aa21385e1",
+ "domain": [
+  "crypto/payments",
+  "crypto/defi-vault"
+ ],
+ "product": [
+  "base",
+  "usdc",
+  "jic"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money",
+  "create-content"
+ ],
+ "summary": "Base-chain payment routing and a USDC vault with referrer revenue sharing, plus JIC tools for publishing reading notes, fleet task claiming and on-chain fees.",
+ "whenToUse": "Use when building signed-ready payment or vault calldata on Base, binding a referrer, or publishing and managing JIC notes and agent tasks.",
+ "tasks": [
+  "query vault NAV",
+  "build routed payment calldata",
+  "deposit and withdraw vault",
+  "bind referrer",
+  "get JIC login challenge",
+  "publish reading notes",
+  "verify quotes",
+  "register fleet agent",
+  "claim and report tasks",
+  "settle publishing fee",
+  "send daily heartbeat"
+ ],
+ "effects": {
+  "07362f98fe515dacd1069facddf129ee8732b2a3997864ac257005020d09b0e7": "read",
+  "eaaea587c846b504fcb5485747a31a62d68dd8bc6976a11726d257e911b9d6d9": "risky",
+  "d9cae248c6889ddc8267e54a00a74ead7f054fb60770d61ee5d2da60f0af2a81": "risky",
+  "8d3506a988fd5779a0985b97e2333f37d978e00f406716bd06bad2df5562a466": "risky",
+  "4193a7bb9e7b560a86d43c55fa493e74efeec64cc8fdd60e845bf9bfb6359d21": "write",
+  "a802038b2c0387081846c53d4b1f295190221cb4f6f4cfdd7695f715037988d6": "read",
+  "ccd87e373d18207ff6b54ee4bec9f940e8af36dec8e5d7b1bc258372f13a905a": "read",
+  "5b74bcd3e6ca234c02512fc593aefbe9a80d85612354adfea36e595091089531": "risky",
+  "2a6e5e53cd7916210143e2afd0c0e40312f7acc64294dcb735f1ed1778844f8e": "read",
+  "5fc199d7e404ee7b6271494b5b88378016bab5e28084487ddf2ade5c4d87e46c": "read",
+  "3f5c1ee3f866b703192b768f513a1b21b1626293dedfd7100e0abb50093b18f4": "write",
+  "7e09ff9a687ba6818560640f26e66e296b69b366769eb75472ed8a70a091fc8e": "write",
+  "9d7859a471c35153366adbfe11628a21abeedfa90879012e5a72ec745f815b58": "write",
+  "a2c5ac87cb86001151b02b82a7d62448a813146e57938a5b4349b745ffdcc265": "write",
+  "52f096cfc122be0c49bd24fb0e1afaac2c78e44f08b291ff51bfba02647e66e2": "read",
+  "255ac74ddde335bd88790c5b54718af72f339178ef6d518ea7823047d1f40335": "risky",
+  "7307991127261268b1475ddd16456b37a1834c083652aa3e7173d54d7d201e22": "risky",
+  "fd091bec43c94f147c28850301cf9d67877cbe233cea1d25a3b568d4875336de": "write"
+ },
+ "flags": [
+  "promotes recruiting agents as referrers for permanent revenue share",
+  "tools return transaction calldata for the caller to sign and move money"
+ ]
+}

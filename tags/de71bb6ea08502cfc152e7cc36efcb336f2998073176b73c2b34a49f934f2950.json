@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "de71bb6ea08502cfc152e7cc36efcb336f2998073176b73c2b34a49f934f2950",
+ "domain": [
+  "commerce/post-purchase/returns",
+  "logistics/shipment-tracking"
+ ],
+ "product": [
+  "parcellab"
+ ],
+ "audience": [
+  "support",
+  "everyone"
+ ],
+ "goal": [
+  "support-customers"
+ ],
+ "summary": "Looks up order status in parcelLab, walks shoppers through registering returns and manages shipment claims.",
+ "whenToUse": "Use when a shopper or support agent needs order tracking status, a return started, or a shipping claim filed via parcelLab.",
+ "tasks": [
+  "look up order status",
+  "track shipment",
+  "register a return",
+  "file shipment claim",
+  "manage claims"
+ ],
+ "effects": {},
+ "flags": []
+}

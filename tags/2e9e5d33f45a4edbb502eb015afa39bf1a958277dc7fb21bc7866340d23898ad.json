@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "2e9e5d33f45a4edbb502eb015afa39bf1a958277dc7fb21bc7866340d23898ad",
+ "domain": [
+  "ai/agent-marketplace",
+  "ai/governed-procurement"
+ ],
+ "product": [
+  "gatecore"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Marketplace for governed AI capabilities with machine-readable price, scope and trust terms, procurement decisions, signed access and lead submission.",
+ "whenToUse": "Use when an agent needs to discover and procure paid AI capabilities under policy and trust constraints.",
+ "tasks": [
+  "discover listings",
+  "get listing terms",
+  "request procurement",
+  "authorize signed access",
+  "complete access with receipt",
+  "list procurements",
+  "request listing access",
+  "submit consumer lead"
+ ],
+ "effects": {
+  "805526e4a794e3025bcfe74d3c6cda77f3e8bc5a6e31718286a4dfda859f3921": "read",
+  "f323b8267bee676688b2f354775ccd48edaa929fd2b18c9632eab01a4cd8439f": "read",
+  "bdfc7d06ffb11b5e9bc2bb436abe4d300264e126d2f4dab8a5106b51f665f90d": "risky",
+  "da66e7d0d8ab0efdadb1a078573ee037345abb45627c39057d6c0d68778ff229": "write",
+  "22ad565353c8abc0b4a5f12ef328aa16ab61eaf466855f2f4d848905aaf6f88d": "write",
+  "ea8a806afdf9aa0e98e02cb1add97946ed01ffb9e6adc91f29168d9ac7c84718": "read",
+  "101ac31617deea2d980f437411d71538f9d7ed716150a4bd799bc6d554dbeac6": "write",
+  "ffd5103755d599dc0559e40016b858b59d0b8d8ed259a423209603201ae1b8a9": "write"
+ },
+ "flags": []
+}

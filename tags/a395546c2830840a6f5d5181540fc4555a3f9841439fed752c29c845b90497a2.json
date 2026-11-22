@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a395546c2830840a6f5d5181540fc4555a3f9841439fed752c29c845b90497a2",
+ "domain": [
+  "finance/document-extraction",
+  "finance/invoices"
+ ],
+ "product": [
+  "invoice-data-extraction"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Turns invoices and other financial documents into structured rows based on what you ask to extract.",
+ "whenToUse": "Use when pulling structured data out of invoices or financial documents.",
+ "tasks": [
+  "upload documents",
+  "define fields to extract",
+  "read extracted rows"
+ ],
+ "effects": {},
+ "flags": []
+}

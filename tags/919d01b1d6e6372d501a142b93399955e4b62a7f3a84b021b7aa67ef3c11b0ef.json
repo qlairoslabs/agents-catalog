@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "919d01b1d6e6372d501a142b93399955e4b62a7f3a84b021b7aa67ef3c11b0ef",
+ "domain": [
+  "finance/payments",
+  "ecommerce/checkout"
+ ],
+ "product": [
+  "ifthenpay",
+  "multibanco",
+  "mb-way",
+  "payshop",
+  "pix",
+  "apple-pay",
+  "google-pay"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Create Multibanco, MB WAY, Payshop, card, PIX and pay-by-link payments with ifthenpay, check MB WAY status and list completed payments.",
+ "whenToUse": "Use when a merchant in Portugal or Brazil needs to collect a payment or review received payments through ifthenpay.",
+ "tasks": [
+  "create Multibanco reference",
+  "request MB WAY payment",
+  "check MB WAY status",
+  "create Payshop reference",
+  "create card payment session",
+  "create pay-by-link",
+  "create PIX payment",
+  "list payments"
+ ],
+ "effects": {
+  "4b851a0773314927c2fbef15802be8695d90edb61d6090a31ddf345739d6478c": "write",
+  "75e6b510582da569245b0adcdb2308240f886b2feee6f136753fcaecef9e6f22": "write",
+  "02de61ecfed1c0cb95902fbabc65e3462fe44e4c8d6613d1a79c7a2a2bb8abe6": "read",
+  "1c3eb40b2dbb4348a597efa38d8ab23fa44acc9b53ed095c0784b0859a331feb": "write",
+  "5f8c965842b6fdb1df5c704c84c0b7e2fb3018a5ff49345d8c4e68aa824beda9": "write",
+  "cf55d8cbd49e75a945be231ce64c51da9a5e02524d8fa9641211648c65ae1b3d": "write",
+  "bada368ff25719b74f967e302dce5cf39c7a40dd634f0294cfbeeb10a541823f": "write",
+  "cd5fec402c5a9f3cbb0ff256a59993da965b39ae13c0fea3b927571b16bc9fc7": "read"
+ },
+ "flags": []
+}

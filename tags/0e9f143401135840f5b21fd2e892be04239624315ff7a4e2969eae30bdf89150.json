@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "0e9f143401135840f5b21fd2e892be04239624315ff7a4e2969eae30bdf89150",
+ "domain": [
+  "automotive/vehicle-inspection",
+  "consumer/booking"
+ ],
+ "product": [
+  "revisamos-el-coche"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "schedule"
+ ],
+ "summary": "Book an inspection of a used car in Spain: find the service, check price and inspectors, and create a booking request.",
+ "whenToUse": "Use when someone buying a used car in Spain wants an independent inspection priced and requested.",
+ "tasks": [
+  "find inspection service",
+  "check price",
+  "list inspectors by province",
+  "check inspector availability",
+  "check booking status",
+  "create booking request"
+ ],
+ "effects": {
+  "eed9d76e5f18f3990276025cc75a3bc8c2545543256ddcd36256a26cdde74c59": "read",
+  "4ca33953b8f65a974f1df5433c5290e335faada784244691d6b8e32175b09ca3": "read",
+  "f6aa03f402d1653646b61f6324356d4de8765c03780770335eaabf0adaa27fcb": "read",
+  "ebefbc7f7469d64600bb76d02d4af520215be9c00caf31e0f772ae0106b9806b": "read",
+  "0d656339f9a4ec0bbcd9328f3bd774a3fb795dd82b4afecc5f3690e27ac3857b": "read",
+  "8d7bf3aa2dd511d993383eb898e3ce1287cb711bac5467508e9a1d1f3c1646f9": "write"
+ },
+ "flags": []
+}

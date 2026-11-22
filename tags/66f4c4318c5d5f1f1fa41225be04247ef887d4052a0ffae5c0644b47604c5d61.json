@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "66f4c4318c5d5f1f1fa41225be04247ef887d4052a0ffae5c0644b47604c5d61",
+ "domain": [
+  "finance/invoicing"
+ ],
+ "product": [
+  "invoice-mama"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Looks up invoices, estimates and customers in Invoice Mama and saves draft invoices without sending them.",
+ "whenToUse": "Use when checking invoices or estimates or drafting a new invoice in Invoice Mama.",
+ "tasks": [
+  "look up invoices",
+  "look up estimates",
+  "look up customers",
+  "save draft invoice"
+ ],
+ "effects": {},
+ "flags": []
+}

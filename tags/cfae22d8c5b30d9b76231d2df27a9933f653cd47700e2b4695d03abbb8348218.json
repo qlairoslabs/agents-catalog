@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "cfae22d8c5b30d9b76231d2df27a9933f653cd47700e2b4695d03abbb8348218",
+ "domain": [
+  "marketing/ab-testing",
+  "marketing/personalization"
+ ],
+ "product": [
+  "mida"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Connector to create, run and analyze website A/B tests and personalizations in Mida.",
+ "whenToUse": "Use when an agent needs to set up or analyze A/B tests or personalization on a website using Mida.",
+ "tasks": [
+  "create a/b tests",
+  "run experiments",
+  "analyze test results",
+  "manage personalizations"
+ ],
+ "effects": {},
+ "flags": []
+}

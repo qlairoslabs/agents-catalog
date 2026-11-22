@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1dd65ee22c243415f7d0f8f9847d4ccb69adfcfaae5d4deedbd89387383e26b2",
+ "domain": [
+  "scheduling/meeting-booking",
+  "sales/contact-management"
+ ],
+ "product": [
+  "meetergo"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Books and reschedules meetings, manages contacts and configures the meetergo website assistant.",
+ "whenToUse": "Use when scheduling meetings or managing contacts in meetergo.",
+ "tasks": [
+  "book meetings",
+  "reschedule meetings",
+  "manage contacts",
+  "set up website assistant"
+ ],
+ "effects": {},
+ "flags": []
+}

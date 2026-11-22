@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "a1e9ff463868b4cc68d908ccb29eeaba29aea5437f5a908e9d3294f8d521b872",
+ "domain": [
+  "events/tickets",
+  "travel"
+ ],
+ "product": [
+  "ticketsea",
+  "tickpick"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds live events, seller ticket links, trip-planning links and ticket price trends from cached listings; nothing is purchased.",
+ "whenToUse": "Use when a user wants upcoming concerts or sports events, ticket links or price movement.",
+ "tasks": [
+  "search artists venues events",
+  "search upcoming events",
+  "get event details",
+  "get ticket seller links",
+  "plan event trip",
+  "track ticket price trends",
+  "check data freshness"
+ ],
+ "effects": {
+  "ef0a9f3c9531e7cb2a97adf78d3193542c6e3041ee7129c0ece5e1431b17e2de": "read",
+  "f22aaf2fe19514d2ecf14cb39a7470d95361aa12fe93be26793f5455b8215b0c": "read",
+  "f3133e260a06ad2fa83bed84128bba14c566d71cc26a1c6b6f85d3f31d59f4a4": "read",
+  "99fb04033941de25f4975841498329c61b94dd21924bed7bf8bbba70f6ee0a47": "read",
+  "933f2eb358ace31470d9e30fb6ee5587708eba34c6986f3d1760ed39209aa091": "read",
+  "e6f324609f39b8c338fa8c1dff99a05789146feec4fc7198ceec4b8b4a67f8ff": "write",
+  "803defce7b8646b1b4bd35373eb673e81226627350474249bae0b33064cc3169": "read"
+ },
+ "flags": []
+}

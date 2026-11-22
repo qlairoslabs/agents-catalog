@@ -1,0 +1,61 @@
+{
+ "classifier": 2,
+ "contentHash": "34989e52b9ec12dd9ac4165a398bcb97a4a1a72b67f4845b50338bc9005d8ee3",
+ "domain": [
+  "telecom/esim",
+  "privacy/vpn"
+ ],
+ "product": [
+  "buyukesim"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Sells travel data eSIMs, UK +44 number eSIMs and VPN access for crypto, with a prepaid agent wallet and no KYC.",
+ "whenToUse": "Use when a user wants a travel eSIM, a UK number or VPN and agrees to pay from a crypto-funded wallet.",
+ "tasks": [
+  "search eSIM plans",
+  "list covered countries",
+  "get UK number info",
+  "list VPN plans",
+  "create wallet",
+  "top up wallet",
+  "buy eSIM",
+  "buy eSIM top-up",
+  "buy UK number",
+  "buy VPN",
+  "fetch VPN config",
+  "check order status"
+ ],
+ "effects": {
+  "d834a3df2d38f36677c36af5fcb767f9c7146893f921b2d96f2d60ddf44b3124": "write",
+  "dc2edeb12f6d0348f69ff8be2589950120b611ab9fac904d8b0a45a6482cf651": "read",
+  "ae6aaf19306a810cb19d067b6365a239ba4b190fd2fe8f70182976883f0cd8be": "read",
+  "94529bef10f298c5e1973a3db3d21317dc8c18d6586364193af7d62cd959a461": "read",
+  "d2684886e20c1edca355f123e5a28d44cd9c5f74047b26c476b9fbae94a30315": "read",
+  "57bed19e1a5322b6514da246dc95ea1d917ae370d52062f187b3b42af5e06497": "write",
+  "6f492bfcd0fa745fc8531a4257948b48ed1f4f185fb161f4e82d7788295a3245": "read",
+  "1289384b00581e8f094859172380aa1619f798c4dd746de7ca832c5fed88df62": "read",
+  "8db8a693821b048aa583f7b41e04b5e5fb71596d0a444650fe9387b7580f1c7a": "read",
+  "8a452b56d7beba73092c26143233bc469731ab6120db5ee2aee45e9a798678bd": "read",
+  "1e72ac71b3e80c3de12637ef59038638e650d66b1f466c32df49d74daa37ad8f": "read",
+  "79348a4edb59340d8a4db06140c5ec1601f5584c5b4235f28e21edcba1219d32": "write",
+  "8f812bc2d10dcaed1b634ea6e8d42c4d7614283ca7433c93cb96c5a8f865b7ff": "read",
+  "68324cc77704d12b63090cd724214babbc79520a8c3c9fef40febe6b90ff076a": "risky",
+  "111f4414e47c12abb2decf68c6a71fc9b01b8d2c5c8df9ae75913c8dde1acb31": "read",
+  "2e7391eb2d22898a91e62a6062a32233f7be9fd43a91a320cd823e084f2a5cac": "risky",
+  "eb8fbd898c7e41b1f6b4a386009ee2ff0e246bb0ac7dd15972ee8ece90804db8": "read",
+  "872640b1580a029e04fbfd51a7ef40558250770dd7475a1c39171bd0f3fca43b": "risky",
+  "53090e6d9ff20f395fec7b43da6b9e8165b71a3b44fdbe81ef1b77ceacbf0d56": "risky",
+  "c4da19aa06967b991ed85bda0bdf479e0eb76f7bb0d82c473ed675d10410fc51": "risky",
+  "b8f1fb63c16f0300c2259863a51f001e7f826163477b58ab1d760096c4320989": "read"
+ },
+ "flags": [
+  "anonymous-no-kyc-sms-verification-numbers",
+  "crypto-only-payments"
+ ]
+}

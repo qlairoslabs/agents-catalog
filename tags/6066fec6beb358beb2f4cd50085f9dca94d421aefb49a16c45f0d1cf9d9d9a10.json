@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6066fec6beb358beb2f4cd50085f9dca94d421aefb49a16c45f0d1cf9d9d9a10",
+ "domain": [
+  "finance/real-estate-lending",
+  "finance/loans"
+ ],
+ "product": [],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Explains requirements for and submits requests for fix-and-flip loan term sheets for 1-4 unit investment properties, emailed to the investor.",
+ "whenToUse": "Use when a real estate investor wants an indicative term sheet for a business-purpose fix-and-flip loan.",
+ "tasks": [
+  "list term sheet requirements",
+  "request term sheet by email",
+  "collect borrower and property details",
+  "record investor attestations"
+ ],
+ "effects": {
+  "13a131f3e6a2981d2f80ef2ea2146ed4fcd1d443b60c56e2c85a29ecf8a903d3": "write",
+  "91dfb8c7bb483e615bd2143562405a1fe9221251c1070ef7cd04b3e2e6d96fda": "write"
+ },
+ "flags": [
+  "Tool description contains a 'Reviewer mode' note about example.com/example.org email addresses, which reads like instructions aimed at automated reviewers"
+ ]
+}

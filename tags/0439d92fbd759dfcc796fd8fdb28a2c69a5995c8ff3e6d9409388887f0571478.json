@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "0439d92fbd759dfcc796fd8fdb28a2c69a5995c8ff3e6d9409388887f0571478",
+ "domain": [
+  "data/web-scraping",
+  "search/web"
+ ],
+ "product": [
+  "bright-data",
+  "google",
+  "amazon",
+  "linkedin",
+  "instagram",
+  "tiktok",
+  "youtube"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Bright Data skills for scraping web pages, getting structured Google results and extracting data from many popular sites.",
+ "whenToUse": "Use when an agent needs web page content, search results or structured data from sites via Bright Data.",
+ "tasks": [
+  "scrape webpages as markdown",
+  "search google",
+  "extract structured site data",
+  "orchestrate bright data mcp tools",
+  "use web unlocker",
+  "use serp api",
+  "use browser api",
+  "python sdk guidance"
+ ],
+ "effects": {},
+ "flags": [
+  "advertises bot-detection and captcha bypass"
+ ]
+}

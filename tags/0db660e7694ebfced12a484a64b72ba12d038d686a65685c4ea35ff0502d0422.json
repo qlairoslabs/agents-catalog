@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "0db660e7694ebfced12a484a64b72ba12d038d686a65685c4ea35ff0502d0422",
+ "domain": [
+  "commerce/ecommerce-development",
+  "software/web-development"
+ ],
+ "product": [
+  "shopify",
+  "hydrogen",
+  "polaris",
+  "liquid"
+ ],
+ "audience": [
+  "development",
+  "sales"
+ ],
+ "goal": [
+  "build-software",
+  "sell",
+  "be-online"
+ ],
+ "summary": "Set of Shopify development skills for docs, API schemas, GraphQL and Liquid validation, Hydrogen, Polaris and store CLI.",
+ "whenToUse": "Use when building apps, themes or storefronts on Shopify or managing a store via the Shopify CLI.",
+ "tasks": [
+  "search shopify docs",
+  "access api schemas",
+  "validate graphql",
+  "validate liquid",
+  "build hydrogen storefronts",
+  "build polaris ui extensions",
+  "manage store via cli",
+  "onboard developers and merchants"
+ ],
+ "effects": {},
+ "flags": []
+}

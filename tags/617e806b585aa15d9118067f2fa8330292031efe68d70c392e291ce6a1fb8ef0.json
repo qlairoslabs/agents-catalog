@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "617e806b585aa15d9118067f2fa8330292031efe68d70c392e291ce6a1fb8ef0",
+ "domain": [
+  "software/mcp-gateway",
+  "software/api-marketplace"
+ ],
+ "product": [
+  "siglume"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Gateway giving access to tools in the Siglume API Store and to external MCP Router servers.",
+ "whenToUse": "Use when an agent needs to reach tools offered through the Siglume API Store or an MCP router.",
+ "tasks": [
+  "access api store tools",
+  "connect to mcp router servers"
+ ],
+ "effects": {},
+ "flags": []
+}

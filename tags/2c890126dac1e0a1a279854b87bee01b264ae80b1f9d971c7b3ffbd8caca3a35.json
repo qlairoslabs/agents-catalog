@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2c890126dac1e0a1a279854b87bee01b264ae80b1f9d971c7b3ffbd8caca3a35",
+ "domain": [
+  "automotive/customization",
+  "media/generative-design"
+ ],
+ "product": [
+  "tesla",
+  "frunklab"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates AI-generated Tesla Paint Shop wraps and lock chimes in a FrunkLab account, with gallery and sound search.",
+ "whenToUse": "Use when an agent needs to design or find custom Tesla wraps or lock sounds.",
+ "tasks": [
+  "generate wraps",
+  "create lock chimes",
+  "search gallery",
+  "search sounds",
+  "manage account items"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "3b47f233a270587b8490f4ce9fd44fcbfc57e1cf5f5248243d7d31ece4fc2a6d",
+ "domain": [
+  "software/documentation",
+  "software/mobile-development"
+ ],
+ "product": [
+  "ionic-framework",
+  "angular",
+  "react",
+  "vue"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Unofficial read-only access to Ionic Framework docs, component references, usage examples and blog posts.",
+ "whenToUse": "Use when writing or debugging Ionic UI code and you need accurate component APIs, theming variables or version-specific docs.",
+ "tasks": [
+  "search docs",
+  "read doc pages",
+  "list components",
+  "get component usage examples",
+  "list blog posts"
+ ],
+ "effects": {
+  "9d4092e5b96f7b5efeef172d8917b8315ef9385bd53606b8c17cb676d4418faa": "write",
+  "973f2b90681fb43e64db1a54e1b576111b1d23acdd8577b8338a73d5a78c84a2": "write",
+  "5adf0e3656a09a20e46961b090759cfd0de63b991966947728d70852eb01927f": "write",
+  "8babcaf4d831cedc917d470aac8e3463167ce2acbd3a888c10772d7a7050b3ec": "write",
+  "8a81d073aa22e17e0037f9591f436a52fff00cd24db8af476f048bcad964b3e2": "read"
+ },
+ "flags": []
+}
