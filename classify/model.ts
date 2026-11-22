@@ -12,7 +12,7 @@
 // CLAUDE_CODE_OAUTH_TOKEN, if set); the refresh token never enters the container.
 
 import { randomUUID } from "node:crypto";
-import { existsSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
+import { chmodSync, closeSync, constants, existsSync, mkdtempSync, openSync, readFileSync, rmSync, writeFileSync, writeSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { AgentController } from "@qlairoslabs/acp-client";
@@ -117,42 +117,58 @@ function settingsFile(): string {
     return file;
 }
 
-/** The ACP adapter's command: podman around claude-agent-acp. */
-export function containerCommand(options: ModelOptions, settings: string, name = `classify-${randomUUID()}`): string[] {
+/** Where a run's credential is mounted inside the container. The value is never
+ *  passed as an environment option to podman, which would copy it into the
+ *  container's saved configuration on disk; it lives in a memory-backed file the
+ *  host deletes when the batch ends, and a shell reads it into the process. */
+export const KEY_PATH = "/run/classify/key";
+
+/** The ACP adapter's command: podman around claude-agent-acp or OpenCode. Output
+ *  is never logged by podman (`--log-driver=none`), so no answer stays in the host
+ *  journal. */
+export function containerCommand(options: ModelOptions, settings: string, name = `classify-${randomUUID()}`, keyFile = "/dev/null"): string[] {
+    const common = [
+        "podman", "run", "--rm", "-i", "--pull=never", "--name", name, "--log-driver=none",
+        "--read-only", "--cap-drop=all", "--security-opt", "no-new-privileges",
+        "--tmpfs", "/tmp:rw,size=128m",
+        ...(options.workMount ? ["-v", `${options.workMount}:/work:rw`] : ["--tmpfs", "/work:rw,size=1m"]),
+        "-v", `${keyFile}:${KEY_PATH}:ro`,
+        "--workdir", "/work", "-e", "HOME=/home/classify",
+    ];
+    const start = (variable: string, program: string) =>
+        `read -r k < ${KEY_PATH}; export ${variable}="$k"; unset k; exec ${program}`;
     if (options.harness === "opencode") {
         if (!options.opencodeBinary) throw new Error("OpenCode needs its binary (opencodeBinary)");
         return [
-            "podman", "run", "--rm", "-i", "--pull=never", "--name", name,
-            "--read-only", "--cap-drop=all", "--security-opt", "no-new-privileges",
-            "--tmpfs", "/home/classify:rw,size=256m", "--tmpfs", "/tmp:rw,size=128m",
-            ...(options.workMount ? ["-v", `${options.workMount}:/work:rw`] : ["--tmpfs", "/work:rw,size=1m"]),
+            ...common,
+            "--tmpfs", "/home/classify:rw,size=256m",
             "-v", `${options.opencodeBinary}:/usr/local/bin/opencode-classify:ro`,
-            "--workdir", "/work",
-            // Only the provider key, by name.
-            "-e", "OPENCODE_API_KEY",
-            "-e", "HOME=/home/classify",
             "-e", `OPENCODE_CONFIG_CONTENT=${opencodeConfig(options.model)}`,
             "-e", "OPENCODE_DISABLE_AUTOUPDATE=1", "-e", "OPENCODE_DISABLE_CLAUDE_CODE=1",
             "-e", "OPENCODE_DISABLE_PROJECT_CONFIG=1", "-e", "OPENCODE_DISABLE_FILEWATCHER=1",
-            "--entrypoint", "/usr/local/bin/opencode-classify",
-            options.image, "acp",
+            "--entrypoint", "/bin/sh",
+            options.image, "-c", start("OPENCODE_API_KEY", "/usr/local/bin/opencode-classify acp"),
         ];
     }
     return [
-        "podman", "run", "--rm", "-i", "--pull=never", "--name", name,
-        "--read-only", "--cap-drop=all", "--security-opt", "no-new-privileges",
-        "--tmpfs", "/home/classify:rw,size=128m", "--tmpfs", "/tmp:rw,size=128m",
-        ...(options.workMount ? ["-v", `${options.workMount}:/work:rw`] : ["--tmpfs", "/work:rw,size=1m"]),
+        ...common,
+        "--tmpfs", "/home/classify:rw,size=128m",
         "-v", `${settings}:/etc/claude-code/managed-settings.json:ro`,
-        "--workdir", "/work",
-        // Only an access token, by name: never the login file or its refresh token.
-        "-e", "CLAUDE_CODE_OAUTH_TOKEN",
-        "-e", "HOME=/home/classify",
         "-e", `ANTHROPIC_MODEL=${options.model}`,
         "-e", "DISABLE_AUTOUPDATER=1", "-e", "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1",
-        "--entrypoint", "claude-agent-acp",
-        options.image,
+        "--entrypoint", "/bin/sh",
+        options.image, "-c", start("CLAUDE_CODE_OAUTH_TOKEN", "claude-agent-acp"),
     ];
+}
+
+/** Writes the credential to a memory-backed file only the user can read, for one run. */
+export function writeKeyFile(value: string): { file: string; remove: () => void } {
+    const dir = mkdtempSync(join(existsSync("/dev/shm") ? "/dev/shm" : tmpdir(), "classify-key-"));
+    chmodSync(dir, 0o700);
+    const file = join(dir, "key");
+    const fd = openSync(file, constants.O_WRONLY | constants.O_CREAT | constants.O_EXCL, 0o600);
+    try { writeSync(fd, value + "\n"); } finally { closeSync(fd); }
+    return { file, remove: () => rmSync(dir, { recursive: true, force: true }) };
 }
 
 export interface BatchRun {
@@ -226,11 +242,11 @@ export async function runBatch(options: ModelOptions, prompt: string,
     if (!token) throw new Error("no access token to give the container");
     // The relay adds the explicit empty tool set to session/new on the wire.
     const name = `classify-${randomUUID()}`;
-    const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name)];
-    // Only what podman needs on the host, and the token it passes on by name.
+    const key = writeKeyFile(token);
+    const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name, key.file)];
+    // Only what podman needs on the host; the credential goes through the key file.
     const env = podmanEnv();
     const spawnEnv: Record<string, string> = { ...env };
-    spawnEnv[opencode ? "OPENCODE_API_KEY" : "CLAUDE_CODE_OAUTH_TOKEN"] = token;
     const agent: Controller = (deps.controller ?? (config => new AgentController(config)))({
         adapter: { command, displayName: opencode ? "OpenCode (classify)" : "Claude (classify)" },
         adapterId: opencode ? "opencode" : "claude",
@@ -268,7 +284,8 @@ export async function runBatch(options: ModelOptions, prompt: string,
         await agent.stop().catch(() => undefined);
         // acp-client stops the relay with SIGTERM, then SIGKILL; the container
         // is removed here either way, and its absence confirmed.
-        await (deps.removeContainer ?? removeContainer)(name, 20_000, env);
+        try { await (deps.removeContainer ?? removeContainer)(name, 20_000, env); }
+        finally { key.remove(); }
     }
 }
 

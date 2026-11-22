@@ -6,7 +6,7 @@ import Ajv2020 from "ajv/dist/2020";
 import addFormats from "ajv-formats";
 import { applyTags } from "./apply";
 import { contentHash, inputOf, toolHash } from "./hash";
-import { containerCommand, DEFAULT_OPTIONS, extractJson, MANAGED_SETTINGS, SoftModelError } from "./model";
+import { containerCommand, DEFAULT_OPTIONS, extractJson, KEY_PATH, MANAGED_SETTINGS, opencodeConfig, SoftModelError } from "./model";
 import { sanitize, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
 import { classify } from "./run";
@@ -54,26 +54,41 @@ test("item text reaches the model only as JSON data", () => {
     expect(systemPrompt(null)).toContain("untrusted");
 });
 
-test("the harness runs in a locked container with every tool denied and only the settings file mounted", () => {
+test("the harness runs in a locked container: no podman logs, the key only through a memory file, every tool denied", () => {
     const prev = process.env.CLAUDE_CODE_OAUTH_TOKEN;
     process.env.CLAUDE_CODE_OAUTH_TOKEN = "secret-token-value";
     try {
-        const command = containerCommand(DEFAULT_OPTIONS, "/tmp/managed.json");
-        const joined = command.join(" ");
-        expect(command.slice(0, 3)).toEqual(["podman", "run", "--rm"]);
-        expect(command).toContain("--read-only");
-        expect(command).toContain("--cap-drop=all");
-        expect(command).toContain("--pull=never");
-        expect(joined).not.toContain("secret-token-value");
-        const mounts = command.flatMap((arg, i) => arg === "-v" ? [command[i + 1]!] : []);
-        expect(mounts).toEqual(["/tmp/managed.json:/etc/claude-code/managed-settings.json:ro"]); // a token: no login mounted
-        const login = containerCommand({ ...DEFAULT_OPTIONS, credentials: "/h/.claude/.credentials.json" }, "/tmp/managed.json");
-        expect(login.join(" ")).not.toContain(".credentials.json"); // the login file is never mounted
-
-        expect(command[command.indexOf("--entrypoint") + 1]).toBe("claude-agent-acp");
+        for (const options of [DEFAULT_OPTIONS, { ...DEFAULT_OPTIONS, harness: "opencode" as const, opencodeBinary: "/h/opencode", model: "opencode-go/x" }]) {
+            const command = containerCommand(options, "/tmp/managed.json", "n", "/dev/shm/classify-key-x/key");
+            const joined = command.join(" ");
+            expect(command.slice(0, 3)).toEqual(["podman", "run", "--rm"]);
+            for (const flag of ["--read-only", "--cap-drop=all", "--pull=never", "--log-driver=none"]) expect(command).toContain(flag);
+            expect(joined).not.toContain("secret-token-value");
+            // No credential is ever passed as an environment option (podman would store it).
+            const envs = command.flatMap((arg, i) => arg === "-e" ? [command[i + 1]!] : []);
+            expect(envs.some(e => /^(CLAUDE_CODE_OAUTH_TOKEN|OPENCODE_API_KEY)(=|$)/.test(e))).toBe(false);
+            const mounts = command.flatMap((arg, i) => arg === "-v" ? [command[i + 1]!] : []);
+            expect(mounts).toContain(`/dev/shm/classify-key-x/key:${KEY_PATH}:ro`);
+            expect(joined).not.toContain(".credentials.json");
+            expect(command[command.indexOf("--entrypoint") + 1]).toBe("/bin/sh");
+        }
         for (const tool of ["Bash", "Read", "Write", "Edit", "WebFetch", "WebSearch", "Task", "mcp__*"]) expect(MANAGED_SETTINGS.permissions.deny).toContain(tool);
         expect(MANAGED_SETTINGS.permissions.disableBypassPermissionsMode).toBe("disable");
+        const cfg = JSON.parse(opencodeConfig("opencode-go/x"));
+        expect(cfg.tools).toEqual({ "*": false });
+        expect(cfg.permission["*"]).toBe("deny");
     } finally { if (prev === undefined) delete process.env.CLAUDE_CODE_OAUTH_TOKEN; else process.env.CLAUDE_CODE_OAUTH_TOKEN = prev; }
+});
+
+test("the key file is memory-backed, owner-only, and removed", async () => {
+    const { writeKeyFile } = await import("./model");
+    const { statSync, existsSync, readFileSync } = await import("node:fs");
+    const k = writeKeyFile("abc");
+    expect(statSync(k.file).mode & 0o777).toBe(0o600);
+    if (existsSync("/dev/shm")) expect(k.file.startsWith("/dev/shm/")).toBe(true);
+    expect(readFileSync(k.file, "utf8")).toBe("abc\n");
+    k.remove();
+    expect(existsSync(k.file)).toBe(false);
 });
 
 test("the answer's JSON object is read from the text, and no object refuses", () => {
