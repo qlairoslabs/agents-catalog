@@ -5,15 +5,15 @@ import { loadReviewed, attachReviewed } from "./facets/v1";
 import { readEvidence } from "./evidence";
 import type { CatalogTool } from "./mcp/item";
 
-export async function stageV1(items: CatalogListingItem[], evidenceDir: string, classification?: string) {
-    const reviews = await loadReviewed(new Set(items.map(item=>item.id)),classification);
+export async function stageV1(items: CatalogListingItem[], evidenceDir: string, classification?: string, reviewsOverride?: Awaited<ReturnType<typeof loadReviewed>>) {
+    const reviews = reviewsOverride ?? await loadReviewed(new Set(items.map(item=>item.id)),classification);
     const drops = new Map<string,string>();
     const staged: CatalogListingItem[] = [];
     const health = new Map<string,number>();
     const candidates = new Map<string, CatalogTool[]>();
     for (const item of items) {
-        const row = reviews.get(item.id)!;
-        if (row.status === "junk" || row.status === "excluded") {
+        const row = reviews.get(item.id);
+        if (row?.status === "junk" || row?.status === "excluded") {
             drops.set(item.id,"Reviewed status: " + row.status);
             continue;
         }

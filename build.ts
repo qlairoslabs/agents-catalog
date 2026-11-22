@@ -54,7 +54,7 @@ export function makeIndex(commit: string, parts: Record<Part, string | Uint8Arra
     return index;
 }
 
-function wire(items: CatalogListingItem[], part: Part): unknown {
+export function wire(items: CatalogListingItem[], part: Part): unknown {
     const select = (kind: CatalogListingItem["kind"]) => items.filter(item => item.kind === kind)
         .map(({ kind: _kind, ...item }) => item);
     return part === "connectors" ? { mcp: select("mcp") } : { skills: select("skill"), bundles: select("bundle") };
@@ -183,6 +183,8 @@ async function parts(output: string) {
         });
     }
     const {items, aliases} = mergeItems(selected);
+    const decisions = arg("decisions");
+    if (decisions) await writeAtomic(decisions,json({ reasons, aliases:[...aliases], sourceErrors:sourceCapture.errors }));
     const probing = Math.min(Number(arg("probe-tools") ?? 0), 5000);
     if (!Number.isInteger(probing) || probing < 0) throw Error("invalid --probe-tools");
     const candidates = items.filter(item => item.kind === "mcp" && item.connect.auth === "none"
