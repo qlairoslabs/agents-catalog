@@ -25,8 +25,8 @@ test("answers are checked: unknown codes, statuses and regions never pass", () =
     expect(checkAnswer({ id: "x:a", code: "25.01", status: "fine", summary: "s" }, listing, tax)).toBeNull();
     expect(checkAnswer({ id: "x:b", code: "25.01", status: "ok", summary: "s" }, listing, tax)).toBeNull();
     expect(checkAnswer({ id: "x:a", code: "25.01", status: "ok", summary: "" }, listing, tax)).toBeNull();
-    expect(checkAnswer({ id: "x:a", code: "NEW", status: "ok", summary: "s", regions: [] }, listing, tax)?.regions).toBe("unknown");
-    expect(checkAnswer({ id: "x:a", code: "", status: "junk", summary: "test server" }, listing, tax)?.code).toBe("");
+    expect(checkAnswer({ id: "x:a", code: "NEW", status: "ok", summary: "s", language: "en", regions: [] }, listing, tax)?.regions).toBe("unknown");
+    expect(checkAnswer({ id: "x:a", code: "", status: "junk", summary: "test server", language: "en", regions: ["global"] }, listing, tax)?.code).toBe("");
 });
 
 test("entry text is sent only as JSON data", () => {
@@ -49,4 +49,26 @@ test("doubtful rows go to the stronger model; the run resumes and skips classifi
     expect(doubtful(rows[1])).toBe(false);
     const again = await label(items, { first: answer("NEW"), recheck }, { file, skip: new Set(["x:old"]), batch: 10, tax });
     expect(again.added).toBe(0);
+});
+
+test("a doubtful row is kept only through a valid re-check; otherwise it stays pending", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "label-")); dirs.push(dir);
+    const file = join(dir, "added.json");
+    const haiku = async (_s: string, p: string) => ({ items: JSON.parse(p.slice(p.indexOf("["))).map((l: any) => ({ id: l.id, code: "", secondary: [], status: "excluded", summary: "S.", language: "en", regions: ["global"] })) });
+    for (const sonnet of [
+        async () => { throw new Error("outage"); },
+        async () => ({ items: [] }),
+        async (_s: string, p: string) => ({ items: JSON.parse(p.slice(p.indexOf("["))).map((l: any) => ({ id: l.id, code: "99.99", status: "ok", summary: "S." })) }),
+    ]) {
+        const r = await label([listing], { first: haiku, recheck: sonnet }, { file, skip: new Set(), batch: 10, tax });
+        expect(r.added).toBe(0);
+        expect(r.retry).toEqual(["x:a"]);
+    }
+});
+
+test("rows the release reader would refuse are never stored", () => {
+    expect(checkAnswer({ id: "x:a", code: "25.01", status: "ok", summary: "S.", language: "xx", regions: ["global"] }, listing, tax)).toBeNull();
+    const many = tax.regions.filter(r => r !== "global" && r !== "unknown").slice(0, 30);
+    expect(checkAnswer({ id: "x:a", code: "25.01", status: "ok", summary: "S.", language: "en", regions: many }, listing, tax)).toBeNull();
+    expect(checkAnswer({ id: "x:a", code: "25.01", status: "ok", summary: "S.", language: "en", regions: ["global"] }, listing, tax)).not.toBeNull();
 });

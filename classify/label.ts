@@ -16,6 +16,7 @@
 import { existsSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { acpModel, DEFAULT_OPTIONS, type Ask } from "./model";
+import { readClassification, readRegionTable, readTaxonomy as readReleaseTaxonomy, type Topic } from "../facets/v1";
 
 const FACETS = join(import.meta.dir, "..", "facets");
 export const ADDED_FILE = join(FACETS, "classification-added.json");
@@ -23,7 +24,12 @@ export const STATUSES = ["ok", "junk", "profile", "brochure", "adult", "excluded
 
 export interface NewListing { id: string; name: string; description: string; tools?: { name: string; description?: string }[] }
 export interface ClassificationRow { id: string; status: string; code: string; secondary_codes: string; summary: string; language: string; regions: string }
-export interface Taxonomy { codes: Map<string, { path: string; definition: string; excludes: string }>; regions: string[] }
+export interface Taxonomy {
+    codes: Map<string, { path: string; definition: string; excludes: string }>;
+    regions: string[];
+    /** The release reader's own tables: a row is kept only if the build will accept it. */
+    release: { topics: ReadonlyMap<string, Topic>; regions: ReadonlyMap<string, string[]> };
+}
 
 export function readTaxonomy(dir = FACETS): Taxonomy {
     const codes = new Map<string, { path: string; definition: string; excludes: string }>();
@@ -35,7 +41,11 @@ export function readTaxonomy(dir = FACETS): Taxonomy {
     }
     const regions = readFileSync(join(dir, "regions.tsv"), "utf8").split("\n")
         .filter(line => line && !line.startsWith("#")).map(line => line.split("\t")[0]!).filter(Boolean);
-    return { codes, regions };
+    const release = {
+        topics: readReleaseTaxonomy(readFileSync(join(dir, "taxonomy-v1.1.tsv"), "utf8")),
+        regions: readRegionTable(readFileSync(join(dir, "regions.tsv"), "utf8")),
+    };
+    return { codes, regions, release };
 }
 
 export function systemPrompt(tax: Taxonomy): string {
@@ -76,11 +86,16 @@ export function checkAnswer(answer: any, listing: NewListing, tax: Taxonomy): Cl
         .filter((c: unknown): c is string => typeof c === "string" && tax.codes.has(c) && c !== code);
     const summary = oneLine(answer.summary, 200);
     if (!summary) return null;
-    const language = typeof answer.language === "string" && /^[a-z]{2}$/.test(answer.language) ? answer.language : "en";
+    const language = typeof answer.language === "string" && /^[a-z]{2}$/.test(answer.language) ? answer.language : "";
     const known = new Set(tax.regions);
     const regions = [...new Set((Array.isArray(answer.regions) ? answer.regions : []).filter((r: unknown): r is string => typeof r === "string" && known.has(r)))];
-    return { id: listing.id, status, code: code ?? "", secondary_codes: [...new Set(secondary)].slice(0, 2).join(";"),
+    const row: ClassificationRow = { id: listing.id, status, code: code ?? "", secondary_codes: [...new Set(secondary)].slice(0, 2).join(";"),
         summary, language, regions: (regions.length ? regions : ["unknown"]).join(";") };
+    // The same validation and region normalization the build applies: a row the
+    // release reader would refuse is never stored (it would block the ID forever).
+    try { readClassification([row], new Set([row.id]), tax.release.topics, tax.release.regions); }
+    catch { return null; }
+    return row;
 }
 
 /** Doubtful rows are re-checked by the stronger model. */
@@ -132,7 +147,10 @@ export async function label(listings: readonly NewListing[], models: { first: As
         const second = unsure.length ? await askBatch(models.recheck, system, unsure, options.tax, log) : new Map();
         rechecked += unsure.length;
         for (const listing of batch) {
-            const row = second.get(listing.id) ?? first.get(listing.id);
+            // A doubtful first answer is kept only through a valid re-check; if the
+            // re-check fails or is missing, the listing stays pending.
+            const firstRow = first.get(listing.id);
+            const row = firstRow && !doubtful(firstRow) ? firstRow : second.get(listing.id);
             if (row) { rows.push(row); added++; } else retry.push(listing.id);
         }
         writeRows(options.file, rows);
