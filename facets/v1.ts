@@ -54,27 +54,28 @@ export function normalizeRegions(input:string, table: ReadonlyMap<string,string[
 }
 
 const languages = new Set("en es fr pt de zh ja ko ru nl pl hu cs da ca hr it no sv".split(" "));
-export function readClassification(input: unknown, ids: ReadonlySet<string>, topics: ReadonlyMap<string,Topic>, regions: ReadonlyMap<string,string[]>) {
+export function readClassification(input: unknown, ids: ReadonlySet<string> | null, topics: ReadonlyMap<string,Topic>, regions: ReadonlyMap<string,string[]>) {
     if (!Array.isArray(input)) throw Error("classification must be an array");
     const records = new Map<string,Classification>();
     const keys = ["id","status","code","secondary_codes","summary","language","regions"];
     for (const raw of input) {
         if (!raw || typeof raw !== "object" || Object.keys(raw).length !== keys.length || keys.some(key=>typeof raw[key] !== "string")) throw Error("invalid classification row");
         const {id,status,code,secondary_codes,summary,language} = raw;
-        if (!ids.has(id) || records.has(id)) throw Error("unknown or duplicate classification ID " + id);
+        if (!id || (ids && !ids.has(id)) || records.has(id)) throw Error("unknown or duplicate classification ID " + id);
         if (!statuses.includes(status) || !languages.has(language) || !summary.trim() || summary.length > 300) throw Error("invalid classification for " + id);
         const secondary = secondary_codes ? secondary_codes.split(";") : [];
         const codes = [code, ...secondary].filter(value => value && value !== "NEW");
         if (secondary.length > 2 || codes.some(value => !topics.has(value)) || (!code && status !== "junk" && status !== "excluded")) throw Error("invalid topic code for " + id);
         records.set(id,{ id,status,topic:[...new Set(codes)],summary,language,region:normalizeRegions(raw.regions,regions) });
     }
-    if (records.size !== ids.size) throw Error(`reviewed classification covers ${records.size} of ${ids.size} listings`);
+    if (ids && records.size !== ids.size) throw Error(`reviewed classification covers ${records.size} of ${ids.size} listings`);
     return records;
 }
 
-export function attachReviewed(item: CatalogListingItem, row: Classification): CatalogListingItem {
+export function attachReviewed(item: CatalogListingItem, row?: Classification): CatalogListingItem {
     const attributes = { ...item.discovery.attributes };
     for (const field of ["domain","product","audience","goal","topic","region","language","status"]) delete attributes[field];
+    if (!row) return { ...item, discovery: { ...item.discovery, attributes } };
     if (row.topic.length) attributes.topic = row.topic;
     if (row.region.length) attributes.region = row.region;
     attributes.language = [row.language];
@@ -82,11 +83,21 @@ export function attachReviewed(item: CatalogListingItem, row: Classification): C
     return { ...item, discovery: { ...item.discovery, attributes, summary:row.summary } };
 }
 
-export async function loadReviewed(ids: ReadonlySet<string>, file?:string) {
+export async function loadReviewed(ids: ReadonlySet<string> | null, file?:string, added?: string) {
     const [input,taxonomy,regions] = await Promise.all([
         Bun.file(file ?? new URL("classification-v1.json",root)).json(),
         Bun.file(new URL("taxonomy-v1.1.tsv",root)).text(),
         Bun.file(new URL("regions.tsv",root)).text(),
     ]);
-    return readClassification(input,ids,readTaxonomy(taxonomy),readRegionTable(regions));
+    const codes = readTaxonomy(taxonomy), regionTable = readRegionTable(regions);
+    const original = readClassification(input, ids, codes, regionTable);
+    if (ids) return original;
+    const additions = Bun.file(added ?? new URL("classification-added.json", root));
+    if (await additions.exists()) {
+        for (const [id, row] of readClassification(await additions.json(), null, codes, regionTable)) {
+            if (original.has(id)) throw Error("duplicate classification ID " + id);
+            original.set(id, row);
+        }
+    }
+    return original;
 }

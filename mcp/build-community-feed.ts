@@ -330,7 +330,7 @@ async function main(): Promise<void> {
     const limit = limitFlag ? Number(limitFlag.slice(8)) : Infinity;
     if (!(limit > 0) || (Number.isFinite(limit) && !outFlag)) throw new Error("--limit requires a positive count and --out=path");
     const out = outFlag?.slice(6) || OUT;
-    mkdirSync(".r1-cache", { recursive: true });
+    if (!outFlag || !process.argv.some(arg => arg.startsWith("--signals="))) mkdirSync(".r1-cache", { recursive: true });
     const checkpoint = new Checkpoint(process.argv.find(arg => arg.startsWith("--checkpoint="))?.slice(13) ?? ":memory:");
     history = new Checkpoint(process.argv.find(arg => arg.startsWith("--signals="))?.slice(10) ?? ".r1-cache/signals.sqlite");
     const remember = checkpoint.remember.bind(checkpoint);
