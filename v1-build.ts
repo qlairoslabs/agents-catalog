@@ -17,7 +17,7 @@ export async function stageV1(items: CatalogListingItem[], evidenceDir: string, 
             drops.set(item.id,"Reviewed status: " + row.status);
             continue;
         }
-        const evidence = await readEvidence(evidenceDir,item.id);
+        const evidence = await readEvidence(evidenceDir,item);
         if (!evidence) throw Error("missing evidence for " + item.id);
         health.set(evidence.health,(health.get(evidence.health) ?? 0)+1);
         if (evidence.health === "deprecated") {
@@ -31,9 +31,9 @@ export async function stageV1(items: CatalogListingItem[], evidenceDir: string, 
         const classified = attachReviewed(item,row);
         if (classified.kind === "mcp" && item.kind === "mcp" && classified.connect.config.type === "http"
             && classified.connect.auth === "none" && !Object.keys(classified.connect.config.headers ?? {}).length) {
-            const { tools: oldTools, ...connection } = classified.connect;
+            const { tools: _inline, ...connection } = classified.connect;
             classified.connect = connection;
-            const tools = evidence.tools ?? (["unreachable","rate-limited","not-found"].includes(evidence.health) ? oldTools : undefined);
+            const tools = evidence.tools;
             if (tools?.length) candidates.set(item.id, tools);
         }
         staged.push(classified);

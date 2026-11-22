@@ -138,3 +138,32 @@ test("detached parts verify shared blobs, exact bytes, links and effect counts",
         await expect(loadToolParts(dir,detached.listings)).rejects.toThrow("orphan");
     } finally { await rm(dir,{recursive:true,force:true}); }
 });
+
+test("changing address under the same listing ID resets failures and never carries tools", async () => {
+    const {mkdtemp,rm}=await import("node:fs/promises");
+    const {join}=await import("node:path");
+    const {collectEvidence,readEvidence}=await import("./evidence");
+    const root=await mkdtemp("/tmp/catalog-evidence-");
+    try {
+        const original={...connector,connect:{...connector.connect,auth:"none" as const}};
+        const changed={...original,connect:{...original.connect,config:{type:"http" as const,url:"https://new.example/mcp"}}};
+        const available=io(async (_url, init)=>{
+            const {method}=JSON.parse(String(init?.body));
+            if (method==="initialize") return Response.json({result:{protocolVersion:"2025-06-18",capabilities:{tools:{}}}});
+            if (method==="notifications/initialized") return new Response(null,{status:202});
+            return Response.json({result:{tools:[{name:"old",inputSchema:{type:"object"}}]}});
+        });
+        const failure=io(async()=>new Response(null,{status:503}));
+        const first=join(root,"first"), second=join(root,"second"), third=join(root,"third");
+        await collectEvidence([original],first,undefined,available);
+        await collectEvidence([original],second,first,failure);
+        expect(await readEvidence(second,original)).toMatchObject({unavailableRuns:1,tools:[{name:"old"}]});
+        expect(await readEvidence(second,changed)).toBeUndefined();
+        await collectEvidence([changed],third,second,failure);
+        expect(await readEvidence(third,changed)).toMatchObject({unavailableRuns:1});
+        expect((await readEvidence(third,changed))?.tools).toBeUndefined();
+        await collectEvidence([changed],second,first,failure);
+        expect((await readEvidence(second,changed))?.tools).toBeUndefined();
+        expect(await readEvidence(second,original)).toBeUndefined();
+    } finally { await rm(root,{recursive:true,force:true}); }
+});

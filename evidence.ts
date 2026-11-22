@@ -3,11 +3,13 @@ import { createHash } from "node:crypto";
 import { join } from "node:path";
 import { guardedFetch, type OAuthIo } from "./mcp/network";
 import { responseHealth, remoteEvidence, type Health } from "./mcp/tools";
+import { listingIdentity } from "./mcp/map";
 import { validatePartBytes } from "./validate";
 import type { CatalogListingItem, CatalogTool, GitSource } from "./mcp/item";
 
 export interface Evidence {
     id: string;
+    target: string;
     fetched_at: string;
     health: Health;
     tools?: CatalogTool[];
@@ -18,13 +20,22 @@ export interface Evidence {
 }
 const digest = (id: string) => createHash("sha256").update(id).digest("hex");
 const pathOf = (dir: string, id: string) => join(dir, digest(id) + ".json");
-export async function readEvidence(dir: string, id: string): Promise<Evidence | undefined> {
-    const file = Bun.file(pathOf(dir, id));
+export function evidenceTarget(item: CatalogListingItem): string {
+    const source = item.kind === "skill" ? item.skill.source : item.kind === "bundle" ? item.bundle.source : null;
+    return digest(source
+        ? JSON.stringify([item.kind, source.owner, source.repo, source.commit, source.path])
+        : listingIdentity(item));
+}
+
+export async function readEvidence(dir: string, listing: CatalogListingItem): Promise<Evidence | undefined> {
+    const file = Bun.file(pathOf(dir, listing.id));
     if (!await file.exists()) return;
     const item = await file.json() as Evidence;
-    if (item.id !== id || !Number.isFinite(Date.parse(item.fetched_at))
-        || !["ok","auth-required","not-found","unreachable","deprecated","rate-limited"].includes(item.health)) throw Error("invalid cached evidence for " + id);
-    return item;
+    if (item.id !== listing.id || !Number.isFinite(Date.parse(item.fetched_at))
+        || !["ok","auth-required","not-found","unreachable","deprecated","rate-limited"].includes(item.health)) {
+        throw Error("invalid cached evidence for " + listing.id);
+    }
+    return item.target === evidenceTarget(listing) ? item : undefined;
 }
 
 async function get(url: string, io: OAuthIo, cap: number, signal: AbortSignal) {
@@ -63,7 +74,7 @@ export function evidenceHost(item: CatalogListingItem) {
 }
 
 export async function fetchEvidence(item: CatalogListingItem, io: OAuthIo = {}): Promise<Evidence> {
-    const base = { id:item.id, fetched_at:new Date().toISOString() };
+    const base = { id:item.id, target:evidenceTarget(item), fetched_at:new Date().toISOString() };
     const signal = AbortSignal.timeout(12_000);
     try {
         if (item.kind !== "mcp") {
@@ -99,7 +110,7 @@ export async function fetchEvidence(item: CatalogListingItem, io: OAuthIo = {}):
     } catch { return { ...base, health:"unreachable" }; }
 }
 
-export async function collectEvidence(items: readonly CatalogListingItem[], dir: string, previous?: string) {
+export async function collectEvidence(items: readonly CatalogListingItem[], dir: string, previous?: string, io: OAuthIo = {}) {
     await mkdir(dir,{recursive:true});
     const queues = Map.groupBy(items,evidenceHost);
     const ready = [...queues.values()];
@@ -107,10 +118,10 @@ export async function collectEvidence(items: readonly CatalogListingItem[], dir:
     async function worker() {
         for (let queue = ready.shift(); queue; queue = ready.shift()) {
             const item = queue.shift()!;
-            if (!await readEvidence(dir,item.id)) {
-                const result = await fetchEvidence(item);
+            if (!await readEvidence(dir,item)) {
+                const result = await fetchEvidence(item,io);
                 if (["unreachable","rate-limited","not-found"].includes(result.health)) {
-                    const prior = previous ? await readEvidence(previous,item.id) : undefined;
+                    const prior = previous ? await readEvidence(previous,item) : undefined;
                     result.unavailableRuns = (prior?.unavailableRuns ?? 0) + 1;
                     if (prior?.tools && result.unavailableRuns < 3) result.tools = prior.tools;
                 }

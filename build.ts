@@ -272,6 +272,10 @@ async function parts(output: string) {
 if (import.meta.main) {
     const command = process.argv[2];
     const output = arg("output") ?? arg("dir") ?? (command === "validate" ? process.argv[3] : undefined) ?? ".r1-cache/candidate";
+    if (command === "parts" || command === "apply-tags") {
+        await mkdir(output, {recursive:true});
+        if ((await readdir(output)).length) throw Error("release output directory must be empty: " + output);
+    }
     if (command === "parts" && arg("input")) {
         const input = need("input");
         const before = validateSelectedParts({

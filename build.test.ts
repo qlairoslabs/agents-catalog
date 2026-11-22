@@ -263,3 +263,25 @@ test("secret labels fit the schema without changing secret names or references",
         {env:"EMPTY_KEY",label:"EMPTY_KEY"},
     ]);
 });
+
+test("rebuild and apply-tags refuse an existing release before replacing any bytes", async () => {
+    const {cp,readdir}=await import("node:fs/promises");
+    const dir=mkdtempSync(join(tmpdir(),"catalog-existing-release-"));
+    try {
+        const release=join(dir,"release");
+        await cp(new URL("./examples/detached",import.meta.url).pathname,release,{recursive:true});
+        const oldManifest=await Bun.file(join(release,"tools.json")).text();
+        const oldBlobs=await readdir(join(release,"tools"));
+        const changedInput=join(dir,"changed");
+        await cp(release,changedInput,{recursive:true});
+        await Bun.write(join(changedInput,"tools.json"),'{"lists":{}}');
+        rmSync(join(changedInput,"tools"),{recursive:true});
+        for (const command of ["parts","apply-tags"]) {
+            const run=cli([command,"--input",changedInput,"--output",release]);
+            expect(run.stderr.toString()).toContain("release output directory must be empty");
+        }
+        expect(await Bun.file(join(release,"tools.json")).text()).toBe(oldManifest);
+        expect(await readdir(join(release,"tools"))).toEqual(oldBlobs);
+        expect(cli(["validate",release]).exitCode).toBe(0);
+    } finally { rmSync(dir,{recursive:true,force:true}); }
+});

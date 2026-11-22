@@ -83,7 +83,7 @@ export function normalizeAddress(address: string): string {
         scheme.toLowerCase() + "://" + host.toLowerCase());
 }
 
-function identity(item: CatalogListingItem): string {
+export function listingIdentity(item: CatalogListingItem): string {
     if (item.kind === "skill") return JSON.stringify(["skill", item.skill.treeSha]);
     if (item.kind === "bundle") return JSON.stringify(["bundle", item.bundle.source.owner, item.bundle.source.repo, item.bundle.source.path]);
     const config = item.connect.config;
@@ -99,7 +99,7 @@ export function mergeItems(items: readonly CatalogListingItem[]) {
     const aliases = new Map<string, string>();
     const sorted = [...items].sort((a, b) => trust[a.origin.trust] - trust[b.origin.trust] || a.id.localeCompare(b.id));
     for (const item of sorted) {
-        const key = identity(item);
+        const key = listingIdentity(item);
         const winner = merged.get(key);
         if (!winner) { merged.set(key, item); continue; }
         if (winner.id === item.id) continue;

@@ -73,3 +73,15 @@ To apply tags directly to an already validated candidate without replaying
 the capture and comparison stages, use
 `bun build.ts apply-tags --input <untagged-dir> --tags <tag-directory> --output <dir>`.
 That command validates again before writing parts.
+
+## V1 evidence and release output
+
+Evidence reuse is scoped to the full connection for MCP listings and the
+pinned Git source for skills and bundles. Cached rows from a different
+target or without a target fingerprint are cache misses. A changed target
+starts a new failure streak and carries no prior tool definitions.
+
+The release builder and apply-tags require a new or empty output directory.
+A nonempty destination is refused before any output is written. This keeps
+the earlier release intact and prevents obsolete content-addressed tool files
+from becoming orphans.
