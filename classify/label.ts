@@ -15,7 +15,7 @@
 
 import { existsSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { acpModel, DEFAULT_OPTIONS, type Ask } from "./model";
+import { acpModel, DEFAULT_OPTIONS, SoftModelError, type Ask } from "./model";
 import { readClassification, readRegionTable, readTaxonomy as readReleaseTaxonomy, type Topic } from "../facets/v1";
 
 const FACETS = join(import.meta.dir, "..", "facets");
@@ -122,7 +122,10 @@ async function askBatch(ask: Ask, system: string, batch: readonly NewListing[], 
     const out = new Map<string, ClassificationRow>();
     let answer: any;
     try { answer = await ask(system, batchPrompt(batch)); }
-    catch (error) { log(`batch failed: ${error instanceof Error ? error.message : error}`); return out; }
+    catch (error) {
+        if (!(error instanceof SoftModelError)) throw error; // hard: stop the run
+        log(`batch failed: ${error.message}`); return out;
+    }
     const byId = new Map((Array.isArray(answer?.items) ? answer.items : []).filter((i: any) => typeof i?.id === "string").map((i: any) => [i.id, i]));
     for (const listing of batch) {
         const row = checkAnswer(byId.get(listing.id), listing, tax);

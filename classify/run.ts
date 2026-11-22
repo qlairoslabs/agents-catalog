@@ -10,7 +10,7 @@
 import { mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { contentHash, inputOf, type ClassifyInput } from "./hash";
-import { acpModel, DEFAULT_OPTIONS, type Ask } from "./model";
+import { acpModel, DEFAULT_OPTIONS, SoftModelError, type Ask } from "./model";
 import { sanitize, validTags, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
 import { loadToolParts } from "../tool-parts";
@@ -85,6 +85,7 @@ export async function classify(items: readonly ClassifyInput[], ask: Ask, option
         let answer: any;
         try { answer = await ask(system, batchPrompt(batch.map(entry => entry.input))); }
         catch (error) {
+            if (!(error instanceof SoftModelError)) throw error; // hard: stop the run
             failed.push(...batch.map(entry => entry.input.id));
             options.log?.(`batch ${i / options.batch + 1} failed: ${error instanceof Error ? error.message : error}`);
             continue;
@@ -110,4 +111,6 @@ if (import.meta.main) {
     const result = await classify(await readItems(dir), ask, { tagsDir: TAGS_DIR, batch: Number(flag("batch") ?? 25),
         limit: flag("limit") ? Number(flag("limit")) : undefined, log: console.log });
     console.log(`done ${result.done}; ${result.failed.length} to retry; ${readdirSync(TAGS_DIR).filter(n => n.endsWith(".json")).length} stored`);
+    // 0: complete. 3: incomplete in an allowed way (retried next run). Anything else: a hard failure.
+    if (result.failed.length) process.exitCode = 3;
 }

@@ -242,7 +242,7 @@ Composio's toolkits), published beside the index.
 
 ## 11. Running the weekly build
 
-Every Sunday at 00:00 UTC the catalogue is rebuilt and published, with no manual
+Every Sunday at 00:00 UTC (the timer adds a random delay of up to 10 minutes) the catalogue is rebuilt and published, with no manual
 review. The catalogue expires 14 days after a publication, so one missed week is
 covered. Everything runs from one script, `ops/weekly-run.sh`, configured only by
 environment settings, so it can move to another machine or to CI without changes.
@@ -251,17 +251,31 @@ environment settings, so it can move to another machine or to CI without changes
 
 | # | Step | Command | Stops the run when |
 |---|---|---|---|
-| 1 | Update the checkout of this repository (`main`) | `git fetch`, fast-forward | `main` has diverged |
+| 1 | Update the job's own checkout of this repository | `git fetch`, fast-forward | the checkout has any local change, or `main` is not exactly `origin/main` |
 | 2 | Isolation canary | `bun classify/canary.ts` | the model used a tool, asked a permission, wrote a file, or gave no valid answer |
 | 3 | Build before labeling: incremental crawl, evidence, checks, merge, compare | `bun weekly.ts build ... --output <run>/untagged --verdict <run>/verdict-untagged.json` | the verdict is "do not publish" (below) |
-| 4 | Label new listings against the taxonomy | `bun weekly.ts needs-labels` then `bun classify/label.ts` | never: unlabeled listings publish as Unclassified and are tried again next week |
-| 5 | Classify new or changed tools (`read`, `write`, `risky`) | `bun classify/run.ts <run>/untagged` | never: unclassified tools count as able to change things until next week |
+| 4 | Label new listings against the taxonomy | `bun weekly.ts needs-labels` then `bun classify/label.ts` | a hard failure (below); an allowed incomplete result continues |
+| 5 | Classify new or changed tools (`read`, `write`, `risky`) | `bun classify/run.ts <run>/untagged` | a hard failure (below); an allowed incomplete result continues |
 | 6 | Build with the labels | `bun weekly.ts build ... --output <run>/tagged --verdict <run>/verdict.json`, then `bun build.ts validate` | the verdict, or validation fails |
-| 7 | Record the week's labels on `main` | commit `tags/` and `facets/classification-added.json` | the push fails |
+| 7 | Record the week's labels on `main` | one commit of only `tags/` and `facets/classification-added.json` | anything else changed, or the push fails |
 | 8 | Release the build | `bun weekly.ts release --parts <run>/tagged --branch weekly-build` prints its full commit | no commit is returned |
 | 9 | Publish | `gh workflow run publish -f build=<commit>` (§9) | the dispatch fails |
 
 The last good signed catalogue stays live whenever a run stops.
+
+**Model steps: incomplete or failed.** The labeler and the classifier exit `0` when
+complete and `3` when incomplete in the one allowed way: some answers were unusable
+(no valid JSON, a turn that did not end normally) or the provider's usage limit was
+reached. Those entries publish unlabeled (Unclassified; tools counted as able to change
+things) and are tried again next week. Any other failure is hard and stops the run: the
+model trying a tool or asking a permission, a sign-in failure, a container problem, or
+any other error.
+
+**The checkout belongs to the job.** It must be a dedicated clone, used for nothing
+else: the run refuses to start if it has any local change or is not exactly at
+`origin/main`, and it commits only the generated label files. If a run committed labels
+but could not push them, the next run refuses until that commit is pushed or removed by
+hand.
 
 **Restarting a run:** run the script again with the same `CATALOG_RUN_ID` (by default
 the date). The pre-labeling build is reused only if it finished with a verdict that

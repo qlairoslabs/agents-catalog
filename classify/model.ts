@@ -224,13 +224,26 @@ export function extractJson(text: string): unknown {
 
 export type Ask = (instructions: string, data: string) => Promise<unknown>;
 
+/** A batch that may be retried next run: the model's answer was unusable, or the
+ *  provider's usage limit was reached. Every other failure is hard and stops the
+ *  whole run: a tool or permission attempt, sign-in, the container, anything else. */
+export class SoftModelError extends Error {}
+const SOFT = /hit your .*limit|usage limit|rate.?limit|\b429\b|overloaded/i;
+
 /** One batch: the instructions, then the data. A batch where the harness
  *  announced a tool or asked for a permission is refused. */
 export function acpModel(options: ModelOptions = DEFAULT_OPTIONS): Ask {
     return async (instructions, data) => {
-        const run = await runBatch(options, `${instructions}\n\nAnswer with the JSON object only, no other text.\n\n${data}`);
-        if (run.tools.length || run.permissions) throw new Error(`the harness tried to use tools (${run.tools.join(", ") || "permission request"}); batch refused`);
-        if (run.stopReason !== "end_turn") throw new Error(`the turn ended with ${run.stopReason}; batch refused`);
-        return extractJson(run.text);
+        let run: BatchRun;
+        try { run = await runBatch(options, `${instructions}\n\nAnswer with the JSON object only, no other text.\n\n${data}`); }
+        catch (error) {
+            const message = error instanceof Error ? error.message : String(error);
+            if (SOFT.test(message)) throw new SoftModelError(message);
+            throw error;
+        }
+        if (run.tools.length || run.permissions) throw new Error(`the harness tried to use tools (${run.tools.join(", ") || "permission request"}); stopping`);
+        if (run.stopReason !== "end_turn") throw new SoftModelError(`the turn ended with ${run.stopReason}`);
+        try { return extractJson(run.text); }
+        catch (error) { throw new SoftModelError(error instanceof Error ? error.message : String(error)); }
     };
 }

@@ -6,7 +6,7 @@ import Ajv2020 from "ajv/dist/2020";
 import addFormats from "ajv-formats";
 import { applyTags } from "./apply";
 import { contentHash, inputOf, toolHash } from "./hash";
-import { containerCommand, DEFAULT_OPTIONS, extractJson, MANAGED_SETTINGS } from "./model";
+import { containerCommand, DEFAULT_OPTIONS, extractJson, MANAGED_SETTINGS, SoftModelError } from "./model";
 import { sanitize, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
 import { classify } from "./run";
@@ -88,7 +88,7 @@ test("classification is resumable: failed batches and missing ids are asked agai
     const flaky = async (_s: string, prompt: string) => {
         calls++;
         const batch = JSON.parse(prompt.slice(prompt.indexOf("["))) as { id: string }[];
-        if (calls === 2) throw new Error("rate limited");
+        if (calls === 2) throw new SoftModelError("rate limited");
         return { items: batch.filter(entry => entry.id !== "a").map(entry => ({ id: entry.id, domain: ["x"], product: [], audience: [], goal: [], summary: "s", whenToUse: "w", tasks: [], effects: [], flags: [] })) };
     };
     const first = await classify(items, flaky, { tagsDir, batch: 2 });
@@ -427,4 +427,10 @@ test("a source mapped two ways in one reply is unmapped, and uncovered comes fro
     expect(proposal.mapping.domain["travel/v3"]).toBe("travel/flights");
     expect(Object.entries(proposal.mapping.domain).some(([f, t]: any) => f.startsWith("travel") && t.startsWith("travel"))).toBe(true);
     expect(proposal.uncovered).toEqual([]);
+});
+
+test("a hard model failure stops the classifier", async () => {
+    const tagsDir = temp();
+    const items = [{ id: "a", kind: "skill" as const, title: "a", description: "", publisher: null, tools: [] }];
+    await expect(classify(items, async () => { throw new Error("Authentication required"); }, { tagsDir, batch: 2 })).rejects.toThrow(/Authentication/);
 });

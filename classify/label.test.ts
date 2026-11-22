@@ -3,6 +3,7 @@ import { mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { checkAnswer, doubtful, label, readTaxonomy, systemPrompt, batchPrompt } from "./label";
+import { SoftModelError } from "./model";
 
 const tax = readTaxonomy();
 const dirs: string[] = [];
@@ -56,7 +57,7 @@ test("a doubtful row is kept only through a valid re-check; otherwise it stays p
     const file = join(dir, "added.json");
     const haiku = async (_s: string, p: string) => ({ items: JSON.parse(p.slice(p.indexOf("["))).map((l: any) => ({ id: l.id, code: "", secondary: [], status: "excluded", summary: "S.", language: "en", regions: ["global"] })) });
     for (const sonnet of [
-        async () => { throw new Error("outage"); },
+        async () => { throw new SoftModelError("usage limit"); },
         async () => ({ items: [] }),
         async (_s: string, p: string) => ({ items: JSON.parse(p.slice(p.indexOf("["))).map((l: any) => ({ id: l.id, code: "99.99", status: "ok", summary: "S." })) }),
     ]) {
@@ -71,4 +72,10 @@ test("rows the release reader would refuse are never stored", () => {
     const many = tax.regions.filter(r => r !== "global" && r !== "unknown").slice(0, 30);
     expect(checkAnswer({ id: "x:a", code: "25.01", status: "ok", summary: "S.", language: "en", regions: many }, listing, tax)).toBeNull();
     expect(checkAnswer({ id: "x:a", code: "25.01", status: "ok", summary: "S.", language: "en", regions: ["global"] }, listing, tax)).not.toBeNull();
+});
+
+test("a hard model failure stops the labeler instead of leaving rows pending", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "label-")); dirs.push(dir);
+    const hard = async () => { throw new Error("the harness tried to use tools (Bash); stopping"); };
+    await expect(label([listing], { first: hard, recheck: hard }, { file: join(dir, "a.json"), skip: new Set(), batch: 10, tax })).rejects.toThrow(/tools/);
 });

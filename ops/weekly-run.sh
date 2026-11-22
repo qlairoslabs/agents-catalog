@@ -42,11 +42,18 @@ verdict_ok() { bun -e 'const v = await Bun.file(process.argv[1]).json(); if (v.p
 
 cd "$CATALOG_CHECKOUT"
 
+# The job owns this checkout: it must be clean and exactly at origin/main, so the
+# only changes it can ever commit are the ones it generates below.
+LABEL_PATHS=(tags facets/classification-added.json)
 step "update the checkout"
 git fetch -q origin
 git checkout -q main
+[ -z "$(git status --porcelain --untracked-files=all)" ] || fail "the checkout has local changes; it must be a dedicated, clean checkout"
 git merge -q --ff-only origin/main || fail "local main has diverged from origin/main"
+[ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ] || fail "local main is ahead of origin/main (an unpushed commit from an earlier run?); push or reset it by hand"
+FENCE="$(git rev-parse HEAD)"
 bun install --frozen-lockfile >/dev/null
+[ -z "$(git status --porcelain --untracked-files=all)" ] || fail "installing changed tracked files"
 
 step "isolation canary"
 bun classify/canary.ts || fail "the canary did not pass; nothing is classified"
@@ -72,14 +79,17 @@ fi
 step "label new listings"
 bun weekly.ts needs-labels --parts "$RUN/untagged" --classification-added facets/classification-added.json > "$RUN/needs-labels.jsonl"
 echo "$(wc -l < "$RUN/needs-labels.jsonl") listings to label"
+# Exit codes of the model steps: 0 complete; 3 incomplete in the allowed way (the
+# model's answer was unusable, or the usage limit was reached: those entries publish
+# unlabeled and are retried next week); anything else is a hard failure and stops
+# the run (a tool or permission attempt, sign-in, the container, any other error).
+model_step() { local code=0; "$@" || code=$?; case $code in 0) ;; 3) echo "incomplete (allowed): retried next week" ;; *) fail "hard failure in: $* (exit $code)" ;; esac; }
 if [ -s "$RUN/needs-labels.jsonl" ]; then
-    bun classify/label.ts "$RUN/needs-labels.jsonl" --model="$CLASSIFY_LABEL_MODEL" --recheck="$CLASSIFY_RECHECK_MODEL" \
-        || echo "some listings could not be labeled; they publish as Unclassified and are tried next week"
+    model_step bun classify/label.ts "$RUN/needs-labels.jsonl" --model="$CLASSIFY_LABEL_MODEL" --recheck="$CLASSIFY_RECHECK_MODEL"
 fi
 
 step "classify new or changed tools"
-bun classify/run.ts "$RUN/untagged" --model="$CLASSIFY_EFFECTS_MODEL" \
-    || echo "some entries could not be classified; their tools count as able to change things until next week"
+model_step bun classify/run.ts "$RUN/untagged" --model="$CLASSIFY_EFFECTS_MODEL"
 
 step "build, with the labels"
 TAGGED="$(fresh "$RUN/tagged")"; VERDICT="$TAGGED.verdict.json"
@@ -91,11 +101,19 @@ verdict_ok "$VERDICT" || fail "the labeled build's safety verdict refused it"
 bun build.ts validate "$TAGGED" || fail "validation failed"
 
 step "record this week's labels on main"
-git add tags facets/classification-added.json
-if ! git diff --cached --quiet; then
-    git commit -q -m "Weekly labels, run $RUN_ID"
-    git push -q origin HEAD:main || { git pull -q --rebase origin main && git push -q origin HEAD:main; } \
-        || fail "could not record the labels on main"
+# Only the generated paths; anything else changed in the checkout stops the run.
+OTHER="$(git status --porcelain --untracked-files=all -- . ':!tags' ':!facets/classification-added.json')"
+[ -z "$OTHER" ] || fail "unexpected changes outside the label files: $OTHER"
+git add -- "${LABEL_PATHS[@]}"
+if ! git diff --cached --quiet -- "${LABEL_PATHS[@]}"; then
+    git commit -q -m "Weekly labels, run $RUN_ID" -- "${LABEL_PATHS[@]}"
+    [ "$(git rev-parse HEAD~1)" = "$FENCE" ] || fail "the label commit is not a single commit on the fenced main"
+    if ! git push -q origin HEAD:main; then
+        # main moved meanwhile: replay only our one commit on it, then push.
+        git fetch -q origin && git rebase -q origin/main || fail "could not rebase the label commit"
+        [ "$(git rev-parse HEAD~1)" = "$(git rev-parse origin/main)" ] || fail "rebase produced more than the label commit"
+        git push -q origin HEAD:main || fail "could not record the labels on main"
+    fi
 fi
 
 step "release the build"
