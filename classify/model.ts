@@ -165,7 +165,15 @@ async function hostRefresh(): Promise<void> {
     try { await child.exited; } finally { clearTimeout(timer); }
 }
 
-export async function runBatch(options: ModelOptions, prompt: string): Promise<BatchRun> {
+/** A failure of the prompt itself, raised by the provider after the session was
+ *  set up and with no tool or permission activity seen: the only kind of thrown
+ *  failure that may be retried (if its message is a usage limit or rate limit). */
+export class PromptFailure extends Error {}
+
+type Controller = Pick<AgentController, "start" | "prompt" | "stop">;
+
+export async function runBatch(options: ModelOptions, prompt: string,
+    deps: { controller?: (config: ConstructorParameters<typeof AgentController>[0]) => Controller; removeContainer?: typeof removeContainer } = {}): Promise<BatchRun> {
     if (!process.env.CLAUDE_CODE_OAUTH_TOKEN) {
         if (!(options.credentials && existsSync(options.credentials))) {
             throw new Error("no Claude Code login: sign in with `claude` on this machine, or set CLAUDE_CODE_OAUTH_TOKEN");
@@ -181,7 +189,7 @@ export async function runBatch(options: ModelOptions, prompt: string): Promise<B
     const env = podmanEnv();
     const spawnEnv: Record<string, string> = { ...env };
     spawnEnv.CLAUDE_CODE_OAUTH_TOKEN = token;
-    const agent = new AgentController({
+    const agent: Controller = (deps.controller ?? (config => new AgentController(config)))({
         adapter: { command, displayName: "Claude (classify)" },
         adapterId: "claude",
         // The launcher replaces the adapter command with the exact podman process;
@@ -196,14 +204,21 @@ export async function runBatch(options: ModelOptions, prompt: string): Promise<B
     let permissions = 0;
     const timer = setTimeout(() => { void agent.stop().catch(() => undefined); }, options.timeoutMs);
     try {
-        await agent.start();
-        const result = await agent.prompt(prompt, {
+        await agent.start(); // a failure here is hard: the session never started
+        let result: Awaited<ReturnType<Controller["prompt"]>>;
+        try {
+            result = await agent.prompt(prompt, {
             // Task and todo activity reaches ACP as plan updates, not tool calls: both count.
             onActivity: (event: any) => {
                 if (["tool", "tool_update", "plan", "plan_update", "plan_removed"].includes(event?.kind)) tools.push(String(event.title ?? event.kind));
             },
             onPermissionRequest: () => { permissions++; return { outcome: "cancelled" } as const; },
-        });
+            });
+        } catch (error) {
+            // Activity seen before a failure is still an isolation breach: hard.
+            if (tools.length || permissions) throw new Error(`the harness tried to use tools (${tools.join(", ") || "permission request"}) before failing; stopping`);
+            throw new PromptFailure(error instanceof Error ? error.message : String(error));
+        }
         const text = result.messages.map((message: any) => message.text ?? "").join("\n");
         return { text, tools, permissions, stopReason: String(result.stopReason) };
     } finally {
@@ -211,7 +226,7 @@ export async function runBatch(options: ModelOptions, prompt: string): Promise<B
         await agent.stop().catch(() => undefined);
         // acp-client stops the relay with SIGTERM, then SIGKILL; the container
         // is removed here either way, and its absence confirmed.
-        await removeContainer(name, 20_000, env);
+        await (deps.removeContainer ?? removeContainer)(name, 20_000, env);
     }
 }
 
@@ -223,6 +238,13 @@ export function extractJson(text: string): unknown {
 }
 
 export type Ask = (instructions: string, data: string) => Promise<unknown>;
+
+/** Only a prompt failure with a usage-limit or rate-limit message is recoverable;
+ *  startup, teardown and every other error stay hard, whatever their text. */
+export function classifyFailure(error: unknown): Error {
+    if (error instanceof PromptFailure && SOFT.test(error.message)) return new SoftModelError(error.message);
+    return error instanceof Error ? error : new Error(String(error));
+}
 
 /** A batch that may be retried next run: the model's answer was unusable, or the
  *  provider's usage limit was reached. Every other failure is hard and stops the
@@ -236,11 +258,7 @@ export function acpModel(options: ModelOptions = DEFAULT_OPTIONS): Ask {
     return async (instructions, data) => {
         let run: BatchRun;
         try { run = await runBatch(options, `${instructions}\n\nAnswer with the JSON object only, no other text.\n\n${data}`); }
-        catch (error) {
-            const message = error instanceof Error ? error.message : String(error);
-            if (SOFT.test(message)) throw new SoftModelError(message);
-            throw error;
-        }
+        catch (error) { throw classifyFailure(error); }
         if (run.tools.length || run.permissions) throw new Error(`the harness tried to use tools (${run.tools.join(", ") || "permission request"}); stopping`);
         if (run.stopReason !== "end_turn") throw new SoftModelError(`the turn ended with ${run.stopReason}`);
         try { return extractJson(run.text); }

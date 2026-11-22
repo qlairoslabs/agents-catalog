@@ -268,14 +268,25 @@ complete and `3` when incomplete in the one allowed way: some answers were unusa
 (no valid JSON, a turn that did not end normally) or the provider's usage limit was
 reached. Those entries publish unlabeled (Unclassified; tools counted as able to change
 things) and are tried again next week. Any other failure is hard and stops the run: the
-model trying a tool or asking a permission, a sign-in failure, a container problem, or
-any other error.
+model trying a tool or asking a permission (even if the provider then fails), a sign-in
+failure, the session not starting, a container problem, or any other error. Only a
+failure of the prompt itself, with no tool activity, whose message is a usage or rate
+limit, counts as allowed.
 
 **The checkout belongs to the job.** It must be a dedicated clone, used for nothing
 else: the run refuses to start if it has any local change or is not exactly at
-`origin/main`, and it commits only the generated label files. If a run committed labels
-but could not push them, the next run refuses until that commit is pushed or removed by
-hand.
+`origin/main`, and it commits only the generated label files. Two states need a person
+before the next run:
+
+- **A hard failure after some batches succeeded** leaves label files written but not
+  committed (`tags/`, `facets/classification-added.json`). They are valid (every file is
+  checked before it is written), so the usual recovery is to commit and push them; or
+  discard them (`git checkout -- tags facets/classification-added.json` and `git clean
+  -fd tags`) and they are produced again.
+- **Labels committed but not pushed:** push that commit, or reset `main` to
+  `origin/main`.
+
+In both cases, find out first why the run failed (`CATALOG_WORK/<date>/run.log`).
 
 **Restarting a run:** run the script again with the same `CATALOG_RUN_ID` (by default
 the date). The pre-labeling build is reused only if it finished with a verdict that

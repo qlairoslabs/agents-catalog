@@ -434,3 +434,29 @@ test("a hard model failure stops the classifier", async () => {
     const items = [{ id: "a", kind: "skill" as const, title: "a", description: "", publisher: null, tools: [] }];
     await expect(classify(items, async () => { throw new Error("Authentication required"); }, { tagsDir, batch: 2 })).rejects.toThrow(/Authentication/);
 });
+
+test("tool activity before a provider failure is hard; only prompt-time limits are recoverable", async () => {
+    const { runBatch, classifyFailure, PromptFailure } = await import("./model");
+    const prev = process.env.CLAUDE_CODE_OAUTH_TOKEN;
+    process.env.CLAUDE_CODE_OAUTH_TOKEN = "test-token";
+    const deps = (impl: Partial<{ start: () => Promise<unknown>; prompt: (p: string, h: any) => Promise<unknown> }>) => ({
+        removeContainer: async () => {},
+        controller: () => ({ start: impl.start ?? (async () => ({})), stop: async () => {}, prompt: impl.prompt ?? (async () => ({ messages: [], stopReason: "end_turn" })) }) as any,
+    });
+    const run = (impl: Parameters<typeof deps>[0]) => runBatch(DEFAULT_OPTIONS, "p", deps(impl)).then(() => null, (e: unknown) => e);
+    try {
+        // Activity, then a 429: an isolation breach, hard.
+        const breach = await run({ prompt: async (_p, h) => { h.onActivity({ kind: "tool", title: "Bash" }); throw new Error("429 rate limit"); } });
+        expect(breach).not.toBeInstanceOf(PromptFailure);
+        expect(classifyFailure(breach)).not.toBeInstanceOf(SoftModelError);
+        const asked = await run({ prompt: async (_p, h) => { h.onPermissionRequest({}); throw new Error("You've hit your 5-hour limit"); } });
+        expect(classifyFailure(asked)).not.toBeInstanceOf(SoftModelError);
+        // A clean prompt-time limit: recoverable.
+        const limit = await run({ prompt: async () => { throw new Error("You've hit your 5-hour limit"); } });
+        expect(limit).toBeInstanceOf(PromptFailure);
+        expect(classifyFailure(limit)).toBeInstanceOf(SoftModelError);
+        // Any other prompt failure, and startup failures with matching text: hard.
+        expect(classifyFailure(await run({ prompt: async () => { throw new Error("Authentication required"); } }))).not.toBeInstanceOf(SoftModelError);
+        expect(classifyFailure(await run({ start: async () => { throw new Error("rate limit while starting"); } }))).not.toBeInstanceOf(SoftModelError);
+    } finally { if (prev === undefined) delete process.env.CLAUDE_CODE_OAUTH_TOKEN; else process.env.CLAUDE_CODE_OAUTH_TOKEN = prev; }
+});
