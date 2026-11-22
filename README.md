@@ -82,9 +82,22 @@ report and fails the build before it writes the parts.
 
 ## Signing and publishing (R3)
 
-`sign/` signs `index.json` with Ed25519 (`bun sign/cli.ts keygen|sign|verify`). It signs
-only with the shipped current key (`sign/keys.ts`, the same keys as the library's
-`BUILTIN_CATALOG_KEYS`) and verifies only shipped key ids.
+`sign/` signs `index.json` with Ed25519 (`bun sign/cli.ts keygen|sign|verify`).
+Routine publishing uses the shipped current key. The verifier accepts only IDs
+in `sign/keys.ts`, which holds the same public keys as the library.
+
+To sign a revocation index, move the prepared index to the offline machine.
+From the catalogue checkout, run:
+
+```sh
+env -i "$(command -v bun)" --no-env-file sign/cli.ts sign --next /offline/next.key /path/to/index-dir
+```
+
+The mode checks that the private key matches shipped key `catalog-2026-b`
+and writes `index.json.sig` beside the index. Omit the final directory argument
+to use the working directory. The environment may contain only `PATH`, `LANG`,
+`LC_ALL` and `TZ`. Use an offline machine even with a clean environment.
+Verify the detached signature before transferring the signed index for publication.
 
 The `publish` workflow is dispatched by hand, from `main`, **by the owner only**, with the
 full commit of a build the owner has reviewed (its output in `out/`, on a branch of this
