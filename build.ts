@@ -249,8 +249,23 @@ async function parts(output: string) {
         await writeAtomic(report,result.text);
         if (result.unexplained.length) throw Error(`Unattributed drops require review: ${result.unexplained.join(", ")}`);
     }
+    const retainedConnectors = stages.find(stage => stage.id === "connectors" && stage.warning);
+    const previous = arg("previous-parts");
+    const previousLists = retainedConnectors && previous && await Bun.file(join(previous, "tools.json")).exists()
+        ? await loadToolParts(previous, retainedConnectors.items)
+        : undefined;
+    const detached = detachTools(accepted.map(item => {
+        const ref = previousLists?.refs.get(item.id);
+        return item.kind === "mcp" && ref
+            ? {...item, connect:{...item.connect, tools:previousLists!.tools.get(ref.sha256)!}}
+            : item;
+    }));
+    const lightConnectors = json(wire(detached.listings, "connectors"));
+    validatePartBytes("connectors", lightConnectors);
     await mkdir(output,{recursive:true});
-    for (const { id, text } of stages) await writeAtomic(join(output,`${id}.json`),text);
+    for (const { id, text } of stages) await writeAtomic(join(output,`${id}.json`),id === "connectors" ? lightConnectors : text);
+    await writeToolParts(output, detached);
+    await loadToolParts(output, detached.listings);
     console.log(JSON.stringify({ listings: accepted.length, parts: stages.map(({id, items, warning}) => ({id,count:items.length,warning})), toolsProbed: probed, tagsApplied: classified.applied }));
 }
 
@@ -282,8 +297,9 @@ if (import.meta.main) {
         if (command === "validate") {
             const entries = await readdir(output, { withFileTypes: true });
             const expected = new Set(["connectors.json", "skills.json", "tools.json", "tools"]);
-            if (entries.length !== expected.size || entries.some(entry => !expected.has(entry.name)
-                || !(entry.name === "tools" ? entry.isDirectory() : entry.isFile()))) {
+            const required = partIds.map(id => id + ".json").concat("tools.json");
+            if (required.some(name => !entries.some(entry => entry.name === name && entry.isFile()))
+                || entries.some(entry => !expected.has(entry.name) || !(entry.name === "tools" ? entry.isDirectory() : entry.isFile()))) {
                 throw Error("release directory must contain only connectors.json, skills.json, tools.json and tools/");
             }
         }

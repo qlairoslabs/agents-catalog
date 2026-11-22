@@ -26,8 +26,11 @@ export async function loadToolParts(dir: string, items: readonly CatalogListingI
     const bytes = new Uint8Array(await manifest.arrayBuffer());
     const refs = decodeManifest(bytes, items);
     const directory = join(dir, "tools");
-    const files = await readdir(directory, { withFileTypes: true });
     const expected = new Set([...refs.values()].map(ref => ref.sha256 + ".json"));
+    const files = await readdir(directory, { withFileTypes: true }).catch(error => {
+        if (error.code === "ENOENT" && !expected.size) return [];
+        throw error;
+    });
     if (files.length !== expected.size || files.some(file => !file.isFile() || !expected.has(file.name))) {
         throw Error("tools directory has missing, orphan or invalid files");
     }

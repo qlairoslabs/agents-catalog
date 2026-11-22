@@ -181,3 +181,6 @@ The v1 parts command takes historical R1 listings as input. Use separate
 output directories for it and apply-tags. See examples/detached/ for the
 release layout. The manifest is capped at 2 MiB. Each blob is capped at
 1 MiB and 1,000 tools, with JSON depth at most 48.
+
+A signed release always includes tools.json. For an empty manifest,
+Git can omit the empty tools directory.

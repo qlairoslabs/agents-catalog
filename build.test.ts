@@ -1,6 +1,6 @@
 import { expect, test } from "bun:test";
 import { createHash } from "node:crypto";
-import { mkdirSync, mkdtempSync, rmSync, truncateSync } from "node:fs";
+import { mkdtempSync, rmSync, truncateSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { makeIndex, partWithFallback, pickCommunity } from "./build";
@@ -120,7 +120,6 @@ function cli(args: string[]) {
 }
 
 async function emptyTools(dir: string) {
-    mkdirSync(join(dir,"tools"));
     await Bun.write(join(dir,"tools.json"), '{"lists":{}}');
 }
 const lightConnectors = {...connectors,mcp:connectors.mcp.map(item=>{
