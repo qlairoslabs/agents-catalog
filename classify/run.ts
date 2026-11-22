@@ -9,7 +9,7 @@
 
 import { mkdirSync, readdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { contentHash, inputOf, type ClassifyInput } from "./hash";
+import { contentHash, inputOf, TOOLS_SHOWN, type ClassifyInput } from "./hash";
 import { acpModel, DEFAULT_OPTIONS, type Ask } from "./model";
 import { sanitize, validTags, type Tags } from "./output";
 import { batchPrompt, systemPrompt } from "./prompt";
@@ -57,19 +57,35 @@ export async function pending(items: readonly ClassifyInput[], tagsDir: string):
     return out;
 }
 
-export async function classify(items: readonly ClassifyInput[], ask: Ask, options: { tagsDir: string; batch: number; limit?: number; log?: (line: string) => void }): Promise<{ done: number; failed: string[] }> {
+/** Tools sent in one batch at most: a batch closes at `size` entries or when the
+ *  next entry would pass this many tools. An entry over it goes alone. */
+export const MAX_BATCH_TOOLS = 300;
+
+export function batches<T extends { input: ClassifyInput }>(todo: readonly T[], size: number, maxTools: number): T[][] {
+    const out: T[][] = [];
+    let current: T[] = [], tools = 0;
+    for (const entry of todo) {
+        const n = Math.min(entry.input.tools.length, TOOLS_SHOWN);
+        if (current.length && (current.length >= size || tools + n > maxTools)) { out.push(current); current = []; tools = 0; }
+        current.push(entry); tools += n;
+    }
+    if (current.length) out.push(current);
+    return out;
+}
+
+export async function classify(items: readonly ClassifyInput[], ask: Ask, options: { tagsDir: string; batch: number; maxTools?: number; limit?: number; log?: (line: string) => void }): Promise<{ done: number; failed: string[] }> {
     mkdirSync(options.tagsDir, { recursive: true });
     const todo = (await pending(items, options.tagsDir)).slice(0, options.limit ?? Infinity);
     const system = systemPrompt(readVocabulary());
     let done = 0;
     const failed: string[] = [];
-    for (let i = 0; i < todo.length; i += options.batch) {
-        const batch = todo.slice(i, i + options.batch);
+    for (const batch of batches(todo, options.batch, options.maxTools ?? MAX_BATCH_TOOLS)) {
+        const start = todo.indexOf(batch[0]!), end = start + batch.length;
         let answer: any;
         try { answer = await ask(system, batchPrompt(batch.map(entry => entry.input))); }
         catch (error) {
             failed.push(...batch.map(entry => entry.input.id));
-            options.log?.(`batch ${i / options.batch + 1} failed: ${error instanceof Error ? error.message : error}`);
+            options.log?.(`batch at ${start + 1}–${end} failed: ${error instanceof Error ? error.message : error}`);
             continue;
         }
         const byId = new Map((Array.isArray(answer?.items) ? answer.items : []).filter((item: any) => typeof item?.id === "string").map((item: any) => [item.id, item]));
@@ -79,7 +95,7 @@ export async function classify(items: readonly ClassifyInput[], ask: Ask, option
             writeTag(options.tagsDir, sanitize(result, input, hash));
             done++;
         }
-        options.log?.(`classified ${Math.min(i + options.batch, todo.length)}/${todo.length}`);
+        options.log?.(`classified ${end}/${todo.length}`);
     }
     return { done, failed };
 }

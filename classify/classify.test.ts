@@ -428,3 +428,12 @@ test("a source mapped two ways in one reply is unmapped, and uncovered comes fro
     expect(Object.entries(proposal.mapping.domain).some(([f, t]: any) => f.startsWith("travel") && t.startsWith("travel"))).toBe(true);
     expect(proposal.uncovered).toEqual([]);
 });
+
+test("batches close at the entry count or the tool budget, and counting only the tools shown", async () => {
+    const { batches } = await import("./run");
+    const entry = (n: number) => ({ input: { id: `e${n}`, kind: "connector" as const, title: "", description: "", publisher: null,
+        tools: Array.from({ length: n }, (_, i) => ({ name: `t${i}`, description: "", schema: "{}", complete: true, hash: "0".repeat(64) })) } });
+    const out = batches([entry(100), entry(150), entry(100), entry(500), entry(1), entry(1)], 25, 300);
+    expect(out.map(b => b.map(e => e.input.tools.length))).toEqual([[100, 150], [100, 500], [1, 1]]); // 500 counts as the 200 shown
+    expect(batches(Array.from({ length: 30 }, () => entry(0)), 25, 300).map(b => b.length)).toEqual([25, 5]);
+});
