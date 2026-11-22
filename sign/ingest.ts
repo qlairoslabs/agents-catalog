@@ -75,6 +75,8 @@ export async function ingest(sha: string, dest: string, repo = process.cwd()): P
     const paths = checkTree(entries);
     const leftovers = readdirSync(dest).filter(name => name !== ".git");
     if (leftovers.length) throw new Error(`destination is not empty: ${leftovers.join(", ")}`);
+    // Everything is read and checked first; nothing is written unless all of it passes.
+    const files: { path: string; bytes: Buffer }[] = [];
     for (const entry of entries) {
         const path = entry.path.slice(4);
         const bytes = git(["cat-file", "blob", entry.object], repo);
@@ -88,6 +90,9 @@ export async function ingest(sha: string, dest: string, repo = process.cwd()): P
             if (createHash("sha256").update(bytes).digest("hex") !== path.slice(6, 70)) throw new Error(`name does not match content: ${entry.path}`);
             if (!Array.isArray((parsed as any).tools)) throw new Error(`not a tool list: ${entry.path}`);
         }
+        files.push({ path, bytes });
+    }
+    for (const { path, bytes } of files) {
         if (path.includes("/")) mkdirSync(join(dest, path.slice(0, path.lastIndexOf("/"))), { recursive: true });
         await Bun.write(join(dest, path), bytes);
     }
