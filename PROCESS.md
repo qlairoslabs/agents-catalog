@@ -263,6 +263,11 @@ environment settings, so it can move to another machine or to CI without changes
 
 The last good signed catalogue stays live whenever a run stops.
 
+**Restarting a run:** run the script again with the same `CATALOG_RUN_ID` (by default
+the date). The pre-labeling build is reused only if it finished with a verdict that
+allows publishing; otherwise it is set aside and built again. The labeled build always
+goes to a fresh folder (`tagged.1`, `tagged.2`, ...). Labels already stored are reused.
+
 **Safety verdict** (steps 3 and 6), written by the build as JSON with `publish: true` or
 `false` and its reasons. "Do not publish" when: a drop has no rule; more than
 `CATALOG_MAX_DROP_FRACTION` (5%) of the previous listings dropped; a part shrinks below

@@ -47,12 +47,23 @@ bun install --frozen-lockfile >/dev/null
 step "isolation canary"
 bun classify/canary.ts || fail "the canary did not pass; nothing is classified"
 
+# A restarted run reuses a finished pre-labeling build only if its verdict allowed
+# publishing; otherwise that output is set aside and built again in a fresh folder.
+# The build refuses an existing output folder, so every build gets a new one.
+fresh() { local base="$1" n=1; while [ -e "$base.$n" ]; do n=$((n + 1)); done; echo "$base.$n"; }
+
 step "build, before labeling"
-bun weekly.ts build --cache "$CATALOG_CACHE" --run-id "$RUN_ID" --output "$RUN/untagged" \
-    --previous-index "$CATALOG_PREVIOUS_INDEX" --verdict "$RUN/verdict-untagged.json" \
-    --classification-added facets/classification-added.json --tags tags \
-    --max-drop-fraction "$CATALOG_MAX_DROP_FRACTION"
-verdict_ok "$RUN/verdict-untagged.json" || fail "the build's safety verdict refused it"
+if [ -d "$RUN/untagged" ] && [ -f "$RUN/verdict-untagged.json" ] && verdict_ok "$RUN/verdict-untagged.json" >/dev/null 2>&1; then
+    echo "reusing the finished build in $RUN/untagged"
+else
+    [ -e "$RUN/untagged" ] && mv "$RUN/untagged" "$(fresh "$RUN/untagged.failed")"
+    [ -e "$RUN/verdict-untagged.json" ] && mv "$RUN/verdict-untagged.json" "$(fresh "$RUN/verdict-untagged.failed")"
+    bun weekly.ts build --cache "$CATALOG_CACHE" --run-id "$RUN_ID" --output "$RUN/untagged" \
+        --previous-index "$CATALOG_PREVIOUS_INDEX" --verdict "$RUN/verdict-untagged.json" \
+        --classification-added facets/classification-added.json --tags tags \
+        --max-drop-fraction "$CATALOG_MAX_DROP_FRACTION"
+    verdict_ok "$RUN/verdict-untagged.json" || fail "the build's safety verdict refused it"
+fi
 
 step "label new listings"
 bun weekly.ts needs-labels --parts "$RUN/untagged" --classification-added facets/classification-added.json > "$RUN/needs-labels.jsonl"
@@ -67,12 +78,13 @@ bun classify/run.ts "$RUN/untagged" --model="$CLASSIFY_EFFECTS_MODEL" \
     || echo "some entries could not be classified; their tools count as able to change things until next week"
 
 step "build, with the labels"
-bun weekly.ts build --cache "$CATALOG_CACHE" --run-id "$RUN_ID" --output "$RUN/tagged" \
-    --previous-index "$CATALOG_PREVIOUS_INDEX" --verdict "$RUN/verdict.json" \
+TAGGED="$(fresh "$RUN/tagged")"; VERDICT="$TAGGED.verdict.json"
+bun weekly.ts build --cache "$CATALOG_CACHE" --run-id "$RUN_ID" --output "$TAGGED" \
+    --previous-index "$CATALOG_PREVIOUS_INDEX" --verdict "$VERDICT" \
     --classification-added facets/classification-added.json --tags tags \
     --max-drop-fraction "$CATALOG_MAX_DROP_FRACTION"
-verdict_ok "$RUN/verdict.json" || fail "the labeled build's safety verdict refused it"
-bun build.ts validate "$RUN/tagged" || fail "validation failed"
+verdict_ok "$VERDICT" || fail "the labeled build's safety verdict refused it"
+bun build.ts validate "$TAGGED" || fail "validation failed"
 
 step "record this week's labels on main"
 git add tags facets/classification-added.json
@@ -84,7 +96,7 @@ if ! git diff --cached --quiet; then
 fi
 
 step "release the build"
-SHA="$(bun weekly.ts release --parts "$RUN/tagged" --verdict "$RUN/verdict.json" --remote origin --branch weekly-build | tail -1)"
+SHA="$(bun weekly.ts release --parts "$TAGGED" --verdict "$VERDICT" --remote origin --branch weekly-build | tail -1)"
 [[ "$SHA" =~ ^[0-9a-f]{40}$ ]] || fail "release did not return a commit SHA"
 echo "$SHA" > "$RUN/build-sha"
 
