@@ -19,6 +19,9 @@ export interface FeedRejection {
     kind?: "remote" | "package";
     identifier?: string;
     reason: string;
+    /** For an unavailable signal: consecutive unavailable runs counted for this entry (1 when it had
+     *  no prior accepted record). The weekly build attributes a drop only when it reached the limit. */
+    unavailableRuns?: number;
     /** What failed, when the check could not be made. */
     detail?: string;
 }
@@ -95,7 +98,8 @@ export async function buildCheckedFeed(records: RegistryRecord[], providers: Fee
         const runs = Number(signals?.unavailableRuns ?? 0) + 1;
         const keep = !!before && runs < MAX_UNAVAILABLE_RUNS;
         if (keep) output.push({ ...before, _meta: { ...before._meta, "agents/community": { ...signals, unavailableRuns: runs } } });
-        reject(keep ? `${reason}, kept` : reason, { ...entry, detail: error instanceof Error ? error.message : String(error) });
+        reject(keep ? `${reason}, kept` : reason, { ...entry, detail: error instanceof Error ? error.message : String(error),
+            unavailableRuns: before ? runs : 1 });
     };
     const accept = (record: RegistryRecord, kind: "remote" | "package", signals: Record<string, unknown>,
         remote?: NonNullable<RegistryServer["remotes"]>[number], pkg?: NonNullable<RegistryServer["packages"]>[number]) => {

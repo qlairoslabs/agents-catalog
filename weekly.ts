@@ -152,8 +152,12 @@ const writeJson = async (path: string, value: unknown) => {
 export function dropReason(live: number, matching: FeedRejection[] | undefined): string | null {
     if (live !== 1 || matching?.length !== 1) return null;
     const rejection = matching[0]!;
-    if (/^(remote|package) signal unavailable$/.test(rejection.reason))
-        return `${rejection.reason} for ${MAX_UNAVAILABLE_RUNS} runs in a row`;
+    if (/^(remote|package) signal unavailable$/.test(rejection.reason)) {
+        // Only the rule's own drop: an accepted entry whose count reached the limit. The same
+        // string on a first failure (no prior accepted record) is not explained by it.
+        return (rejection.unavailableRuns ?? 0) >= MAX_UNAVAILABLE_RUNS
+            ? `${rejection.reason} for ${MAX_UNAVAILABLE_RUNS} runs in a row` : null;
+    }
     if (/unavailable|timeout|rate limit/i.test(rejection.reason) || rejection.detail) return null;
     return rejection.reason;
 }

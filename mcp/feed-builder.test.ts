@@ -67,6 +67,16 @@ test("an accepted entry survives a failed lookup, and leaves after three runs wi
     expect(feed.servers).toEqual([]);
     expect(feed.rejections.map(entry => [entry.reason, entry.detail])).toEqual([
         ["remote signal unavailable", "timed out"], ["package signal unavailable", "timed out"]]);
+    // the rule's drop carries the count that reached the limit
+    expect(feed.rejections.map(entry => entry.unavailableRuns)).toEqual([3, 3]);
+});
+
+test("a first failure with no prior accepted record carries a count of 1, so it is never the rule's drop", async () => {
+    const feed = await buildCheckedFeed([record("com.example/new", "https://mcp.example.com/mcp")], failing, when);
+    expect(feed.servers).toEqual([]);
+    expect(feed.rejections.map(entry => [entry.reason, entry.unavailableRuns])).toEqual([["remote signal unavailable", 1]]);
+    const { dropReason } = await import("../weekly");
+    expect(dropReason(1, feed.rejections)).toBeNull();
 });
 
 test("a real pass clears the count of runs without an answer", async () => {
