@@ -9,7 +9,7 @@ import { collectEvidence } from "./evidence";
 import { applyClassification } from "./facets/classification";
 import { loadReviewed } from "./facets/v1";
 import { Checkpoint } from "./mcp/checkpoint";
-import type { FeedRejection, RegistryRecord } from "./mcp/feed-builder";
+import { MAX_UNAVAILABLE_RUNS, type FeedRejection, type RegistryRecord } from "./mcp/feed-builder";
 import { MAX_MANIFEST_BYTES, readSignature, type CatalogListingItem } from "./mcp/item";
 import { decodeManifest, detachTools, loadToolParts, writeToolParts } from "./tool-parts";
 import { MAX_INDEX_BYTES, MAX_PART_BYTES, MAX_SELECTED_BYTES, validateIndexBytes, validateSelectedParts } from "./validate";
@@ -145,6 +145,19 @@ const writeJson = async (path: string, value: unknown) => {
     await rename(temporary,path);
 };
 
+/** The rule behind a community drop, or null when none applies (the drop then stops publishing).
+ *  A listing whose server could not be asked is kept for a few runs (feed-builder); when the feed
+ *  builder no longer keeps it, the reason names that rule. Other transient reasons never explain a
+ *  drop, and neither does a rejection that carries error detail. */
+export function dropReason(live: number, matching: FeedRejection[] | undefined): string | null {
+    if (live !== 1 || matching?.length !== 1) return null;
+    const rejection = matching[0]!;
+    if (/^(remote|package) signal unavailable$/.test(rejection.reason))
+        return `${rejection.reason} for ${MAX_UNAVAILABLE_RUNS} runs in a row`;
+    if (/unavailable|timeout|rate limit/i.test(rejection.reason) || rejection.detail) return null;
+    return rejection.reason;
+}
+
 async function reasonsForDrops(previous: CatalogListingItem[], checkpoint: string, report: string, reasons: Map<string,string>) {
     const database = new Checkpoint(checkpoint);
     const records = database.read<RegistryRecord[]>("registry:Infinity");
@@ -164,8 +177,8 @@ async function reasonsForDrops(previous: CatalogListingItem[], checkpoint: strin
         const config = item.connect.config;
         const matching = rejected.get(name)?.filter(r=>config.type === "http" ? r.kind === "remote"
             : r.kind === "package" && r.identifier === config.package.identifier);
-        if (live.length === 1 && matching?.length === 1 && !/unavailable|timeout|rate limit/i.test(matching[0]!.reason)
-            && !matching[0]!.detail) reasons.set(item.id,matching[0]!.reason);
+        const reason = dropReason(live.length, matching);
+        if (reason) reasons.set(item.id, reason);
     }
 }
 

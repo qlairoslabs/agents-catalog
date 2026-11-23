@@ -27,7 +27,7 @@ export interface FeedRejection {
 const TEMPORARY = new Set([408, 425, 429, 500, 502, 503, 504]);
 
 /** Runs without an answer before an accepted entry leaves the feed. */
-const MAX_UNAVAILABLE_RUNS = 3;
+export const MAX_UNAVAILABLE_RUNS = 3;
 
 export class HttpError extends Error {
     constructor(readonly status: number, message: string) { super(message); }

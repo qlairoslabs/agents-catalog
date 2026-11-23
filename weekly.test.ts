@@ -1,8 +1,8 @@
-import { expect, test } from "bun:test";
+import { dropReason, expect, test } from "bun:test";
 import { cp, mkdtemp, mkdir, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { compareWeekly } from "./weekly";
+import { compareWeekly, dropReason } from "./weekly";
 import { attachReviewed, loadReviewed } from "./facets/v1";
 import { readPart } from "./mcp/item";
 
@@ -131,4 +131,18 @@ test("the previous index verifies exact signed bytes and refuses a tampered inde
         expect(result.exitCode).toBe(1);
         expect(await Bun.file(verdict).json()).toMatchObject({publish:false,reasons:["previous release not verified"],previousUnsigned:false});
     } finally { await rm(directory,{recursive:true,force:true}); }
+});
+
+test("a drop after the unavailable runs runs out names that rule; other transient reasons explain nothing", () => {
+    const one = (reason: string, detail?: string) => [{ name: "a/b", kind: "remote" as const, reason, ...(detail ? { detail } : {}) }];
+    expect(dropReason(1, one("remote signal unavailable", "x.example does not resolve"))).toBe("remote signal unavailable for 3 runs in a row");
+    expect(dropReason(1, [{ name: "a/b", kind: "package", identifier: "p", reason: "package signal unavailable", detail: "timed out" }]))
+        .toBe("package signal unavailable for 3 runs in a row");
+    // still kept this run: not a drop reason
+    expect(dropReason(1, one("remote signal unavailable, kept", "timed out"))).toBeNull();
+    expect(dropReason(1, one("rate limit reached"))).toBeNull();
+    expect(dropReason(1, one("too few weekly downloads", "detail"))).toBeNull();
+    expect(dropReason(1, one("too few weekly downloads"))).toBe("too few weekly downloads");
+    expect(dropReason(2, one("too few weekly downloads"))).toBeNull();
+    expect(dropReason(1, undefined)).toBeNull();
 });
