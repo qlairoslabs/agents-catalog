@@ -1,26 +1,26 @@
 // classify/model.ts
-// Drives Claude Code through @qlairoslabs/acp-client (catalogue §7), one fresh
-// session per batch, on the maintainer's subscription.
+// Drives each classifier through @qlairoslabs/acp-client (catalogue §7), one
+// fresh session per batch.
 //
 // The input is untrusted and a harness has built-in tools that a refused
 // permission does not switch off, so the boundary is the container
 // (acp-client's own guidance): the ACP adapter runs in a read-only container
-// with an empty working folder, no host mounts but a read-only managed
-// settings file that denies every tool, no client terminal or filesystem, and
-// every permission request refused. The credential is the access token of the
-// maintainer's own Claude Code login, refreshed on the host (or a
-// CLAUDE_CODE_OAUTH_TOKEN, if set); the refresh token never enters the container.
+// with an empty working folder, read-only settings and credential mounts,
+// no client terminal or filesystem, and every permission request refused.
+// Subscription logins refresh on the host. The container receives only the
+// access credential, through a memory-backed file.
 
 import { randomUUID } from "node:crypto";
-import { chmodSync, closeSync, constants, existsSync, mkdtempSync, openSync, readFileSync, rmSync, writeFileSync, writeSync } from "node:fs";
+import { chmodSync, closeSync, constants, existsSync, mkdtempSync, openSync, readFileSync, readdirSync, lstatSync, rmSync, writeFileSync, writeSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { AgentController } from "@qlairoslabs/acp-client";
+import { CODEX_CLASSIFIER_CONFIG, codexLogin, codexModelCatalogue, refreshCodexLogin } from "./codex";
 
 export interface ModelOptions {
-    /** An image with claude-agent-acp and Claude Code, e.g. the agents standard image. */
+    /** The pinned execution image, with the selected adapter and its runtime. */
     image: string;
-    /** Claude Code's model alias, set through ANTHROPIC_MODEL in the container. */
+    /** The selected harness model name or provider/model identifier. */
     model: string;
     timeoutMs: number;
     /** The canary only: a host folder mounted as the working folder, to show it stays empty. */
@@ -31,12 +31,12 @@ export interface ModelOptions {
      *  host (under Claude Code's own lock) ever refreshes. Used unless
      *  CLAUDE_CODE_OAUTH_TOKEN is set. */
     credentials?: string;
-    /** Which harness: Claude Code through claude-agent-acp (default), or OpenCode
-     *  (`opencode acp`), whose model is `provider/model` (e.g.
-     *  `opencode-go/deepseek-v4.1-flash`) and whose key is OPENCODE_API_KEY, passed by
-     *  name. OpenCode's binary is mounted read-only from the host. */
-    harness?: "claude" | "opencode";
+    /** Claude Code by default. OpenCode uses its mounted binary. Codex uses
+     *  codex-acp and codex from the image. */
+    harness?: "claude" | "opencode" | "codex";
     opencodeBinary?: string;
+    codexAuth?: string;
+    codexModels?: string;
 }
 
 /** OpenCode's settings inside the container: no tools, every permission denied,
@@ -53,11 +53,13 @@ export function opencodeConfig(model: string): string {
 
 export const DEFAULT_OPTIONS: ModelOptions = {
     image: process.env.CLASSIFY_IMAGE ?? "localhost/agents-standard:linux-amd64-bf2f5c8fb584",
-    model: "sonnet",
+    model: process.env.CLASSIFY_HARNESS === "codex" ? "gpt-6-luna" : "sonnet",
     timeoutMs: 15 * 60_000,
     credentials: join(process.env.HOME ?? "", ".claude", ".credentials.json"),
-    harness: process.env.CLASSIFY_HARNESS === "opencode" ? "opencode" : "claude",
+    harness: process.env.CLASSIFY_HARNESS === "codex" ? "codex" : process.env.CLASSIFY_HARNESS === "opencode" ? "opencode" : "claude",
     opencodeBinary: process.env.CLASSIFY_OPENCODE_BINARY,
+    codexAuth: process.env.CLASSIFY_CODEX_AUTH ?? join(process.env.HOME ?? "", ".codex", "auth.json"),
+    codexModels: process.env.CLASSIFY_CODEX_MODELS ?? join(process.env.HOME ?? "", ".codex", "models_cache.json"),
 };
 
 /** The exact environment podman runs with on the host: the same for creating,
@@ -137,6 +139,17 @@ export function containerCommand(options: ModelOptions, settings: string, name =
     ];
     const start = (variable: string, program: string) =>
         `read -r k < ${KEY_PATH}; export ${variable}="$k"; unset k; exec ${program}`;
+    if (options.harness === "codex") return [
+        ...common,
+        "--tmpfs", "/home/classify:rw,size=128m",
+        "-v", `${settings}/codex.toml:/run/classify/config.toml:ro`,
+        "-v", `${settings}/models.json:/run/classify/models.json:ro`,
+        "-e", "CODEX_HOME=/home/classify/.codex",
+        "-e", "CODEX_REFRESH_TOKEN_URL_OVERRIDE=http://127.0.0.1:1",
+        "-e", `CODEX_CONFIG=${JSON.stringify({ model: options.model, sandbox_mode: "read-only", approval_policy: "never", mcp_servers: {} })}`,
+        "--entrypoint", "/bin/sh", options.image, "-c",
+        `set -eu; umask 077; mkdir -p "$CODEX_HOME"; cp /run/classify/config.toml "$CODEX_HOME/config.toml"; cp ${KEY_PATH} "$CODEX_HOME/auth.json"; exec codex-acp`,
+    ];
     if (options.harness === "opencode") {
         if (!options.opencodeBinary) throw new Error("OpenCode needs its binary (opencodeBinary)");
         return [
@@ -161,11 +174,41 @@ export function containerCommand(options: ModelOptions, settings: string, name =
     ];
 }
 
+function processStart(pid: number): string | null {
+    try {
+        const stat = readFileSync(`/proc/${pid}/stat`, "utf8");
+        return stat.slice(stat.lastIndexOf(")") + 2).split(" ")[19] ?? null;
+    } catch { return null; }
+}
+
+export function sweepKeyFiles(base = "/dev/shm"): void {
+    if (!isMemoryBacked(base)) return;
+    for (const name of readdirSync(base)) {
+        const match = /^classify-key-(\d+)-(\d+)-[a-zA-Z0-9]{6}$/.exec(name);
+        if (!match) continue;
+        const pid = Number(match[1]);
+        if (!Number.isSafeInteger(pid) || pid < 1) continue;
+        const started = processStart(pid);
+        if (started === match[2]) continue;
+        if (started === null) {
+            try { process.kill(pid, 0); continue; }
+            catch (error) { if ((error as NodeJS.ErrnoException).code !== "ESRCH") continue; }
+        }
+        const dir = join(base, name);
+        try {
+            const entry = lstatSync(dir);
+            if (entry.isDirectory() && entry.uid === process.getuid?.()) rmSync(dir, { recursive: true, force: true });
+        } catch (error) { if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error; }
+    }
+}
+
 /** Writes the credential to a memory-backed file only the user can read, for one run. */
 export function writeKeyFile(value: string, base = "/dev/shm"): { file: string; remove: () => void } {
     // Memory-backed only: never fall back to a disk directory for a credential.
     if (!isMemoryBacked(base)) throw new Error(`${base} is not a memory-backed directory; refusing to write the credential`);
-    const dir = mkdtempSync(join(base, "classify-key-"));
+    const started = processStart(process.pid);
+    if (!started) throw new Error("cannot identify the classifier process");
+    const dir = mkdtempSync(join(base, `classify-key-${process.pid}-${started}-`));
     const remove = () => rmSync(dir, { recursive: true, force: true });
     try {
         chmodSync(dir, 0o700);
@@ -211,17 +254,16 @@ export function loginAccess(file: string): { accessToken: string; expiresAt: num
 
 export const loginExpiry = (file: string) => loginAccess(file)?.expiresAt ?? null;
 
-/** A run must never need a refresh inside the container. If the token has less
- *  than `needMs` left, wait until it is nearly expired and let one trivial
- *  Claude Code call on the host refresh it, the normal way. */
+/** A run must never need a refresh inside the container. Wait until the
+ *  token is nearly expired and let the host login refresh it. */
 export async function ensureFreshLogin(file: string, needMs: number, deps: {
-    now?: () => number; sleep?: (ms: number) => Promise<void>; refresh?: () => Promise<void>; log?: (line: string) => void;
+    now?: () => number; sleep?: (ms: number) => Promise<void>; refresh?: () => Promise<void>; expiry?: () => number | null; login?: string; log?: (line: string) => void;
 } = {}): Promise<void> {
     const now = deps.now ?? Date.now, sleep = deps.sleep ?? Bun.sleep, log = deps.log ?? (() => undefined);
     const refresh = deps.refresh ?? hostRefresh;
     for (let attempt = 0; ; attempt++) {
-        const expiry = loginExpiry(file);
-        if (expiry === null) throw new Error(`cannot read the login's expiry in ${file}; sign in with \`claude\` on this machine`);
+        const expiry = deps.expiry ? deps.expiry() : loginExpiry(file);
+        if (expiry === null) throw new Error(`cannot read the login's expiry in ${file}; sign in with \`${deps.login ?? "claude"}\` on this machine`);
         if (expiry - now() >= needMs) return;
         if (attempt === 3) break; // checked again after the last refresh, then given up
         // First a minute before expiry; if that did not refresh, just after it.
@@ -230,7 +272,7 @@ export async function ensureFreshLogin(file: string, needMs: number, deps: {
         if (wait) await sleep(wait);
         await refresh();
     }
-    throw new Error("the login did not refresh on the host; run `claude` here once, then retry");
+    throw new Error(`the login did not refresh on the host; run \`${deps.login ?? "claude"}\` here once, then retry`);
 }
 
 async function hostRefresh(): Promise<void> {
@@ -249,15 +291,24 @@ type Controller = Pick<AgentController, "start" | "prompt" | "stop">;
 
 export async function runBatch(options: ModelOptions, prompt: string,
     deps: { controller?: (config: ConstructorParameters<typeof AgentController>[0]) => Controller; removeContainer?: typeof removeContainer } = {}): Promise<BatchRun> {
+    sweepKeyFiles();
     const opencode = options.harness === "opencode";
+    const codex = options.harness === "codex";
+    if (codex) {
+        const file = options.codexAuth;
+        if (!file) throw new Error("Codex needs a host ChatGPT login file");
+        await ensureFreshLogin(file, options.timeoutMs + 5 * 60_000, {
+            expiry: () => codexLogin(file)?.expiresAt ?? null, refresh: () => refreshCodexLogin(file), login: "codex",
+        });
+    }
     if (opencode && !process.env.OPENCODE_API_KEY) throw new Error("OPENCODE_API_KEY is not set for the OpenCode harness");
-    if (!opencode && !process.env.CLAUDE_CODE_OAUTH_TOKEN) {
+    if (!opencode && !codex && !process.env.CLAUDE_CODE_OAUTH_TOKEN) {
         if (!(options.credentials && existsSync(options.credentials))) {
             throw new Error("no Claude Code login: sign in with `claude` on this machine, or set CLAUDE_CODE_OAUTH_TOKEN");
         }
         await ensureFreshLogin(options.credentials, options.timeoutMs + 5 * 60_000);
     }
-    const token = opencode ? process.env.OPENCODE_API_KEY
+    const token = codex ? codexLogin(options.codexAuth!)?.credential : opencode ? process.env.OPENCODE_API_KEY
         : process.env.CLAUDE_CODE_OAUTH_TOKEN || (options.credentials ? loginAccess(options.credentials)?.accessToken : undefined);
     if (!token) throw new Error("no access token to give the container");
     // The relay adds the explicit empty tool set to session/new on the wire.
@@ -265,14 +316,21 @@ export async function runBatch(options: ModelOptions, prompt: string,
     // The credential file is removed on every path from here on, including a
     // failure while building the command or the controller.
     const key = writeKeyFile(token);
+    let codexSettings: string | undefined;
     try {
-        const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, settingsFile(), name, key.file)];
+        if (codex) {
+            if (!options.codexModels) throw new Error("Codex needs its host models_cache.json");
+            codexSettings = mkdtempSync(join(tmpdir(), "classify-codex-"));
+            writeFileSync(join(codexSettings, "codex.toml"), CODEX_CLASSIFIER_CONFIG);
+            writeFileSync(join(codexSettings, "models.json"), codexModelCatalogue(options.codexModels, options.model));
+        }
+        const command = [process.execPath, join(import.meta.dir, "acp-relay.ts"), ...containerCommand(options, codexSettings ?? settingsFile(), name, key.file)];
         // Only what podman needs on the host; the credential goes through the key file.
         const env = podmanEnv();
         const spawnEnv: Record<string, string> = { ...env };
         const agent: Controller = (deps.controller ?? (config => new AgentController(config)))({
-            adapter: { command, displayName: opencode ? "OpenCode (classify)" : "Claude (classify)" },
-            adapterId: opencode ? "opencode" : "claude",
+            adapter: { command, displayName: codex ? "Codex (classify)" : opencode ? "OpenCode (classify)" : "Claude (classify)" },
+            adapterId: codex ? "codex" : opencode ? "opencode" : "claude",
             // The launcher replaces the adapter command with the exact podman process;
             // /work is the folder the harness sees inside the container.
             launcher: { prepare: async () => ({ command, spawnCwd: tmpdir(), spawnEnv }) },
@@ -311,6 +369,7 @@ export async function runBatch(options: ModelOptions, prompt: string,
         }
     } finally {
         key.remove();
+        if (codexSettings) rmSync(codexSettings, { recursive: true, force: true });
     }
 }
 
