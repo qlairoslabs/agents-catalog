@@ -2,7 +2,7 @@ import { expect, test } from "bun:test";
 import { cp, mkdtemp, mkdir, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { compareWeekly } from "./weekly";
+import { compareWeekly, dropReason } from "./weekly";
 import { attachReviewed, loadReviewed } from "./facets/v1";
 import { readPart } from "./mcp/item";
 
@@ -131,4 +131,25 @@ test("the previous index verifies exact signed bytes and refuses a tampered inde
         expect(result.exitCode).toBe(1);
         expect(await Bun.file(verdict).json()).toMatchObject({publish:false,reasons:["previous release not verified"],previousUnsigned:false});
     } finally { await rm(directory,{recursive:true,force:true}); }
+});
+
+test("a drop after the unavailable runs runs out names that rule; other transient reasons explain nothing", () => {
+    const one = (reason: string, extra: Record<string, unknown> = {}) => [{ name: "a/b", kind: "remote" as const, reason, ...extra }];
+    // the rule: an accepted listing unavailable for MAX runs
+    expect(dropReason(1, one("remote signal unavailable", { detail: "x.example does not resolve", unavailableRuns: 3 })))
+        .toBe("remote signal unavailable for 3 runs in a row");
+    expect(dropReason(1, [{ name: "a/b", kind: "package", identifier: "p", reason: "package signal unavailable", detail: "timed out", unavailableRuns: 3 }]))
+        .toBe("package signal unavailable for 3 runs in a row");
+    // the same string on a first failure (no prior accepted record), or with no count, is not the rule
+    expect(dropReason(1, one("remote signal unavailable", { detail: "timed out", unavailableRuns: 1 }))).toBeNull();
+    expect(dropReason(1, one("remote signal unavailable", { detail: "timed out" }))).toBeNull();
+    // still kept this run: not a drop reason
+    expect(dropReason(1, one("remote signal unavailable, kept", { detail: "timed out", unavailableRuns: 2 }))).toBeNull();
+    expect(dropReason(1, one("rate limit reached"))).toBeNull();
+    expect(dropReason(1, one("too few weekly downloads", { detail: "detail" }))).toBeNull();
+    expect(dropReason(1, one("too few weekly downloads"))).toBe("too few weekly downloads");
+    // several live records, several matching rejections, or none: no single rule
+    expect(dropReason(2, one("too few weekly downloads"))).toBeNull();
+    expect(dropReason(1, [...one("too few weekly downloads"), ...one("domain or listing too young")])).toBeNull();
+    expect(dropReason(1, undefined)).toBeNull();
 });
