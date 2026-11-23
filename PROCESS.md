@@ -322,6 +322,25 @@ All in the environment; `ops/systemd/weekly.env.example` lists them.
 | `CLASSIFY_IMAGE` | the container image the models run in (§5.3) |
 | `CATALOG_GIT_NAME`, `CATALOG_GIT_EMAIL` | the identity of the job's commits (default `agents-catalog weekly`) |
 
+For the Codex classifier, use `CLASSIFY_HARNESS=codex` and a pinned image
+containing `codex` and `codex-acp`. The default model is `gpt-6-luna`.
+`CLASSIFY_CODEX_AUTH` and `CLASSIFY_CODEX_MODELS` default to the host's
+`~/.codex/auth.json` and `~/.codex/models_cache.json`. Run the isolation canary
+with the selected model before classifying.
+
+```sh
+CLASSIFY_HARNESS=codex CLASSIFY_CANARY_MODEL=gpt-6-luna bun classify/canary.ts
+```
+
+Codex refreshes on the host. The read-only credential mount contains the
+access token and account ID in Codex's external ChatGPT auth format. The
+container copies it into a fresh tmpfs Codex home. It has no refresh credential
+or host login mount. Its refresh endpoint is also blocked. Shell, patch, web
+search and MCP are disabled by the model profile, Codex settings and relay.
+The next classifier startup sweeps abandoned credential directories bearing
+a process ID and start time. Older unstamped directories are left alone
+because their owner process cannot be identified.
+
 Credentials are not settings: the model login and GitHub access come from the machine
 the job runs on.
 
