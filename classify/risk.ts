@@ -25,15 +25,17 @@ export function nameWords(name: string): string[] {
     return name.replace(/([a-z0-9])([A-Z])/g, "$1 $2").toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
 }
 
-/** "post" is also a noun ("GET_TELEGRAM_POST"): it counts as publishing only when no reading verb
- *  is in the name. */
-const READING = new Set(["get", "list", "search", "fetch", "scrape", "read", "find", "retrieve"]);
+/** Verbs that are also nouns ("GET_TELEGRAM_POST", "ADD_CHECKOUT_COUPON", "SET_DROP_DOWN",
+ *  "BATCH_FORWARD_GEOCODE"): they count only as the action's first word, where the verb stands. */
+const AMBIGUOUS = new Set(["post", "checkout", "purchase", "drop", "forward", "transfer", "charge", "notify"]);
 
-/** GW §4.1 applied to a model label: a write with a sending, paying, deleting or publishing verb
- *  in its name becomes risky. */
-export function specEffect(name: string, effect: Effect): Effect {
+/** GW §4.1 applied to a model label: a write whose action has a sending, paying, deleting or
+ *  publishing verb becomes risky. `toolkit` (a Composio toolkit slug such as "send_pulse") is
+ *  stripped from the start of the name first, so the provider's own name never counts. */
+export function specEffect(name: string, effect: Effect, toolkit?: string): Effect {
     if (effect !== "write") return effect;
-    const words = nameWords(name);
-    const reading = words.some(word => READING.has(word));
-    return words.some(word => RISKY_VERBS.has(word) && !(word === "post" && reading)) ? "risky" : effect;
+    let words = nameWords(name);
+    const prefix = toolkit ? nameWords(toolkit) : [];
+    if (prefix.length && prefix.every((word, index) => words[index] === word)) words = words.slice(prefix.length);
+    return words.some((word, index) => RISKY_VERBS.has(word) && (!AMBIGUOUS.has(word) || index === 0)) ? "risky" : effect;
 }
