@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "e3b7a7ea89b21ff012574cb6b8f75002ea57e8e1ec87d01b90e980080b0db281",
+ "domain": [
+  "software/code-intelligence"
+ ],
+ "product": [
+  "repowise",
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local codebase intelligence for coding agents covering dependency graph, git history, docs, decisions and code health.",
+ "whenToUse": "Use when a coding agent needs structural and historical context about a repository.",
+ "tasks": [
+  "map code graph",
+  "read git history",
+  "read docs",
+  "track decisions",
+  "assess code health"
+ ],
+ "effects": {},
+ "flags": []
+}

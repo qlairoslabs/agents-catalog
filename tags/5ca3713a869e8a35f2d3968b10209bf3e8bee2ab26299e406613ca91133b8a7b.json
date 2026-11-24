@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "5ca3713a869e8a35f2d3968b10209bf3e8bee2ab26299e406613ca91133b8a7b",
+ "domain": [
+  "health/fitness"
+ ],
+ "product": [
+  "getfit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Builds workouts to fit time, equipment and body limits, and searches published workouts and contributors on GetFit.",
+ "whenToUse": "Use when someone wants a workout plan or to browse existing workouts.",
+ "tasks": [
+  "build workout",
+  "search workouts",
+  "get workout",
+  "list contributors",
+  "get contributor"
+ ],
+ "effects": {
+  "2f24679068b9c2403c17b9c246740dadf0abc42d8a69b869700e0301a3b06df1": "write",
+  "e0551ad718b3387cf2f5c102a14803f5407bad987314d3ccb4752bf335c9e852": "write",
+  "1ad452f22d347b0224524c32430f02dca9274d05e200dc25f87532ac1684aa62": "write",
+  "b100148de588bfca4f03bfb8bc3abac6430d8093adf1f32b381c6ecca037c568": "write",
+  "003edf94c85d909b5eb303f693a725011a6d1e8391639f833108f7d8a6435986": "write"
+ },
+ "flags": []
+}

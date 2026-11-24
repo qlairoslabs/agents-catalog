@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "de28779e5223fb0350a2917e399e8af84c3c1d849be551ed3b9e281201fe097d",
+ "domain": [
+  "government/european-parliament",
+  "politics"
+ ],
+ "product": [
+  "european-parliament",
+  "epvotes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up European Parliament roll-call votes, MEP voting records, dossiers and upcoming votes from official records.",
+ "whenToUse": "Use when a question concerns how the European Parliament or its MEPs and groups voted, or what is scheduled to be voted on.",
+ "tasks": [
+  "search dossiers, MEPs and committees",
+  "list votes by day or topic",
+  "list upcoming votes",
+  "get vote results by group and country",
+  "get dossier details",
+  "get MEP voting record",
+  "compare political groups"
+ ],
+ "effects": {
+  "7dd8bdaa1dfd0cdd4f4b04f8a328501ebcd39a3e831bd2817e60a88ebed2803f": "read",
+  "ca03adff2c7e4a847122d8a56baef9b765c45be458013d17c2cb7248002dc497": "read",
+  "7bd533de9dd3cf14b5356d5ead4e77206e0a491222661a1e8e29edabb8c982fa": "write",
+  "415016dcbe78df2dd53f7724053916d7a851fbc88b633473bbb060ae9ad501ba": "read",
+  "c953d6e0e8ca70131bef17b1e5ab630e31fdaba59855e73c136cfffa22f5b620": "read",
+  "331c62b6d65437f64cfc6287f6775e3da63052d09b4e303ad2cb9eca69172abf": "read",
+  "b9a1c14a7e9a27243aceac79a2621ae9fae31a8a62e46b63864e8463b02bfffb": "read"
+ },
+ "flags": []
+}

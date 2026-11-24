@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "96b9569518d697ba940d909117bd4856ef2836e3923ffcee8bae3d7d231d2727",
+ "domain": [
+  "consumer/subscriptions"
+ ],
+ "product": [
+  "fleek"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Shows Fleek's current discounted prices for digital subscriptions versus list price, with plan comparisons and app links.",
+ "whenToUse": "Use when a user wants to find or compare discounted subscription plans for streaming, music, AI tools and similar services.",
+ "tasks": [
+  "find subscription deals",
+  "compare plans",
+  "explain how Fleek works",
+  "get app links"
+ ],
+ "effects": {
+  "19b5b36e7aa0deac0147e4d358e6e744a0a808a0d5fa7f1a80052d7875bcf7b7": "read",
+  "68acfeaa25d84f47038234b7cae82311943ab794692a7dc951a20725a85c50f3": "read",
+  "264969ebe4042b8d59a4e30f8b1fbc2e220167291b0b36640841efc50bd64809": "read",
+  "628a97bfde1be2a72e76b389711687f0f72307ee8826c7f714df5da437af19eb": "read"
+ },
+ "flags": []
+}

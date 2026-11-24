@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "956ce4911a1947b37d5ac60f808695a4329b23c6f46b239e5dd0ae9f75ea9847",
+ "domain": [
+  "travel/hiking-permits",
+  "travel/reservations"
+ ],
+ "product": [
+  "madeira-fun",
+  "paypay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "stay-compliant"
+ ],
+ "summary": "Checks Madeira hiking permit trails, availability, start times and fees, and reserves a permit through madeira.fun with email confirmation.",
+ "whenToUse": "Use when a visitor wants to hike a permit-controlled Madeira trail and needs availability, fees or a reservation.",
+ "tasks": [
+  "list permit trails",
+  "check availability",
+  "get start times",
+  "get permit fees",
+  "build booking link",
+  "start reservation",
+  "confirm reservation",
+  "check reservation status"
+ ],
+ "effects": {
+  "ef0ae96fcdd26a9ea750983cb4a9c12098938c89d18fab5b2d38a5627b1bce5e": "read",
+  "719e92d0503c0fac4f9da0ea191a95b6277bd2016c118f8efbc2c6b94ee9c26f": "read",
+  "ab1c965745704f0ddc7f27931ccb85057ac53de9bdee47b01ba0eef9bfc0a468": "write",
+  "c2e0f45c4e9c0d3ceb63428897992ba81325f95c791ce0bc3a6a6d0d85d38572": "read",
+  "055b9c56c7efaa2b0f3abb589b14419e169381ccd39dd2aca49a6f3848f7b4f7": "read",
+  "1e1ffb03acda7ca9e811850ba4f6ec553949cb58a3ad2e3781b316aa10bb6141": "write",
+  "ded35764a2c282587ab92e591438fae848353039a46f35a6f44661d937cd6807": "write",
+  "24e0a57a4661a983c83bc7ed4fa02f606585a2c94c65cf74093bcedf364936af": "read"
+ },
+ "flags": []
+}

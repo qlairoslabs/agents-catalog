@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3e7274e9b8917786fe9fdfdecf9a6e75892e20941398559e2bb7de296d56c910",
+ "domain": [
+  "software/network-intelligence"
+ ],
+ "product": [
+  "worldip"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up owner, ASN, geolocation, reverse DNS and hosted-domain counts for an IP address.",
+ "whenToUse": "Use when you need information about who owns an IP address or where it is located.",
+ "tasks": [
+  "look up IP profile",
+  "find own public IP"
+ ],
+ "effects": {
+  "1174ae30b13a00d4558e14ee5488332e89d302af25075238bf2e851645e77025": "write",
+  "ce849511140ead13ca4f3199ae94364e7abdb1028c9d0f4ba7b9c9053f1823bf": "write"
+ },
+ "flags": []
+}

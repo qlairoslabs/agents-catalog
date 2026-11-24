@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "315f772b7fcb791a8274f02291bcb057444b2d1e1786e6e45a8bb486b9b26fe9",
+ "domain": [
+  "design/feedback-management"
+ ],
+ "product": [
+  "figma",
+  "jira",
+  "notion",
+  "commentify"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Collects design feedback comments from Figma, Jira and Notion so they can be searched, read, replied to and marked done.",
+ "whenToUse": "Use when handling team design feedback across Figma, Jira and Notion.",
+ "tasks": [
+  "ask about feedback",
+  "search comments",
+  "read comments",
+  "reply to comments",
+  "mark comments done"
+ ],
+ "effects": {},
+ "flags": []
+}

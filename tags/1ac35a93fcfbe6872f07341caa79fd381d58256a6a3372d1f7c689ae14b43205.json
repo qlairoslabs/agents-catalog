@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1ac35a93fcfbe6872f07341caa79fd381d58256a6a3372d1f7c689ae14b43205",
+ "domain": [
+  "finance/regulatory-filings",
+  "finance/research"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Access SEC EDGAR filings including 10-K, 8-K, 13F, insider trades, XBRL financials and full-text search.",
+ "whenToUse": "Use when researching US public company filings, financials or insider activity.",
+ "tasks": [
+  "read 10-K filings",
+  "read 8-K filings",
+  "read 13F holdings",
+  "view insider trades",
+  "get XBRL financials",
+  "full-text search filings"
+ ],
+ "effects": {},
+ "flags": []
+}

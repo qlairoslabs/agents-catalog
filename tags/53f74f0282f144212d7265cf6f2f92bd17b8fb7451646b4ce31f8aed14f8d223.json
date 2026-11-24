@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "53f74f0282f144212d7265cf6f2f92bd17b8fb7451646b4ce31f8aed14f8d223",
+ "domain": [
+  "ai/memory"
+ ],
+ "product": [
+  "innernet"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Shared memory across AI tools covering projects, personal memory and tasks.",
+ "whenToUse": "Use when an agent should store or recall persistent context and tasks across tools.",
+ "tasks": [
+  "store memory",
+  "recall memory",
+  "manage projects",
+  "manage tasks"
+ ],
+ "effects": {},
+ "flags": []
+}

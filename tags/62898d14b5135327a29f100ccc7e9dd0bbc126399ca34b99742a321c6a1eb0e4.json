@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "62898d14b5135327a29f100ccc7e9dd0bbc126399ca34b99742a321c6a1eb0e4",
+ "domain": [
+  "software/hosting-comparison",
+  "commerce/price-comparison"
+ ],
+ "product": [
+  "accsly"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Read-only price comparison of VPS, hosting and GPU plans across 2,000+ hosts, plus ready-made accounts from shops.",
+ "whenToUse": "Use when choosing or comparing VPS, hosting or GPU rental plans and prices, or checking price changes.",
+ "tasks": [
+  "search VPS plans",
+  "compare hosts",
+  "find promos",
+  "rank hosts",
+  "track price history",
+  "find cheapest GPU",
+  "list account offers"
+ ],
+ "effects": {
+  "959daa1e0b15fe25f0f3fb2de45583977cfab2ed501a6f599f0bb0f246bc8b78": "write",
+  "8b91d55e380235c897a7c611cadbd066711b2e301b3ebdb30b6f1ccf606558b5": "read",
+  "f5320f376e9279fb5ad9d0c434bda07760ba6fab5230b790e2914e694659b53b": "read",
+  "f8777af753120dd0e22f5c4361efc46f497775379391ffebd72899949af2ba23": "read",
+  "e5e0f0f5579fdb20231f19880175be9383521b3c6096676f51c63630dc5bc731": "read",
+  "3d5dbd3e542f300bcd4c3764ad97cc42d05bc67534cb3c4b8330dbd48ebb3f90": "read",
+  "fbb9fd982bb9f22c26c8d9b4087cc0e9119c58dc729a50e5cc36e9f958ae514e": "read",
+  "013327237805c574c31bab3df58584ac4b0a8257e3a6f5574d46c6e2abc5bf40": "read",
+  "6932e4021c5c3cc7b385d4461d00000d9e3567eeabcb07311e1a981e2fea3535": "read",
+  "1dd0d11c3c911bfdc38fd5b95d5fd9c27bb70a1b01bee7bb12baceb0ca4dd532": "read"
+ },
+ "flags": [
+  "sells-ready-made-accounts-(telegram-gmail-etc),-possible-account-farming-marketplace"
+ ]
+}

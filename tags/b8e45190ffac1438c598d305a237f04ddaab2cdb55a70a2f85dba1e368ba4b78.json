@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b8e45190ffac1438c598d305a237f04ddaab2cdb55a70a2f85dba1e368ba4b78",
+ "domain": [
+  "software/ai-governance"
+ ],
+ "product": [
+  "aleeth"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Governance-gated MCP where each action is checked and recorded with a verifiable receipt.",
+ "whenToUse": "Use when agent actions need policy gating and auditable receipts.",
+ "tasks": [
+  "gate actions",
+  "issue verifiable receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

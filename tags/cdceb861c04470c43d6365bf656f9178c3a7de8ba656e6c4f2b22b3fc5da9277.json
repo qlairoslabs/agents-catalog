@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "cdceb861c04470c43d6365bf656f9178c3a7de8ba656e6c4f2b22b3fc5da9277",
+ "domain": [
+  "hr/job-postings",
+  "data/job-feeds"
+ ],
+ "product": [
+  "jobspipe"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Unified live job postings from over 30 applicant tracking systems and job boards in one schema.",
+ "whenToUse": "Use when searching or aggregating current job postings across many job boards and ATS feeds.",
+ "tasks": [
+  "search job postings",
+  "read ATS feeds"
+ ],
+ "effects": {},
+ "flags": []
+}

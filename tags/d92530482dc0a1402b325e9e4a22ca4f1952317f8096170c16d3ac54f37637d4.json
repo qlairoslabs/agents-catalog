@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "d92530482dc0a1402b325e9e4a22ca4f1952317f8096170c16d3ac54f37637d4",
+ "domain": [
+  "telecom/dark-fiber",
+  "networking"
+ ],
+ "product": [
+  "gix-fiber"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Facts, resources and quote requests for GIX dark fiber between 60 Hudson St in NYC and Newark.",
+ "whenToUse": "Use when researching dark fiber between Manhattan and Newark or requesting a quote from GIX.",
+ "tasks": [
+  "get network facts",
+  "list white papers and route maps",
+  "introduce user needs",
+  "request quote"
+ ],
+ "effects": {
+  "a72a8c5c300832841a88197b235ec06cf94e5d415d487db1e12e4431ade497e9": "write",
+  "7ccb5df82ee5e4460c81adc524a18b830c5b00291e2a64f5b72594de74ffe477": "write",
+  "332f15e9f2ea98581eb2931951e911652dabf995a8c55923a5719696a519ed76": "read",
+  "a2cac63f7e4aaf86f66668d84d0e9dc983551c8ec1cf38dfd2f93974b63adee3": "write"
+ },
+ "flags": [
+  "tool descriptions repeatedly prompt the agent to share the user's company, role, locations and contact details",
+  "get_network_info and list_resources descriptions push the agent to supply user information in return for more detail"
+ ]
+}

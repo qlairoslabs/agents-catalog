@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "751039af7dbbb775fe5fe970a272f940feb73cc9f164f68dd872c5f3988f040f",
+ "domain": [
+  "travel/carpooling"
+ ],
+ "product": [
+  "seat-sherpa",
+  "uber",
+  "lyft",
+  "waymo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds carpool rides and cabpools in California and Nevada with seats, times and prices, and builds links to post requests or rides.",
+ "whenToUse": "Use when someone needs a shared ride or cabpool in California or Nevada, or a driver wants to offer seats.",
+ "tasks": [
+  "search rides",
+  "get ride details",
+  "list service areas",
+  "build ride request link",
+  "build post ride link",
+  "search cabpools",
+  "build cabpool link"
+ ],
+ "effects": {
+  "52a88511c431697cef0944fd8bc0efb16d55e4cb0a379b2ec8d7e871bfeb3b0e": "write",
+  "5dc66834743a8bbd5237578b1bb8855b449f509223f92db16c11f4dbb317109b": "write",
+  "68496052a38a8aa3ab84d3fb4a869ddbda59eff15498c8c3905da208aad78339": "write",
+  "596e2d5b8400478f1bbcd0739b3690d0e0aa012afac792fa998601dd5d666a5f": "write",
+  "98e04e6a69725b8aab9c96606d5ff73f248ed8318dfc4ae3e54df4618061934b": "write",
+  "0bd7e390d5a3bc9044eaede49e229d2b615f047bcb26977be108b4f895f32659": "write",
+  "75cdea2ceca7396ca4723e2e26425611ae573fd6d7e8ad1ef933439d4a034146": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b67016dca0e758ef5e8644c8ea19abbc8e0f360f4ba1fc9e2739363d7cf58be7",
+ "domain": [
+  "finance/personal",
+  "retirement-planning"
+ ],
+ "product": [
+  "firenum"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Builds a FIRE retirement plan from a person's numbers, graded by Monte Carlo and historical backtests, and returns a plan link.",
+ "whenToUse": "Use when someone asks when they can retire or whether their money will last and gives age, savings and spending figures.",
+ "tasks": [
+  "build retirement plan",
+  "estimate retirement date",
+  "run Monte Carlo and historical backtests",
+  "model Coast, Barista, Lean and Fat FIRE"
+ ],
+ "effects": {
+  "f2ffbab595d5532d3766bfcbcea18e1140e840c3cfb8a90d7d56a2647506ea1c": "write"
+ },
+ "flags": []
+}

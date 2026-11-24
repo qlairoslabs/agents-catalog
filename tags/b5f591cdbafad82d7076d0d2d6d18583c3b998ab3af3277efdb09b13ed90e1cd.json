@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "b5f591cdbafad82d7076d0d2d6d18583c3b998ab3af3277efdb09b13ed90e1cd",
+ "domain": [
+  "cloud/cost-management",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "azure",
+  "microsoft-365",
+  "mobula"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Answers questions about customers' Azure costs, compliance and Microsoft 365 security.",
+ "whenToUse": "Use when a managed service provider needs to review client Azure spend, compliance or Microsoft 365 security.",
+ "tasks": [
+  "review Azure costs",
+  "check compliance",
+  "review Microsoft 365 security"
+ ],
+ "effects": {},
+ "flags": []
+}

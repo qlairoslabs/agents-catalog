@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "2cf80afc1ad496175ba3e60437ae1ff19cf0feeba8d04f7af724291acb3c2201",
+ "domain": [
+  "travel/esim",
+  "telecom"
+ ],
+ "product": [
+  "travel-to",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "sell"
+ ],
+ "summary": "Finds travel eSIM plans by country, checks phone support, and produces a quote and Stripe checkout link.",
+ "whenToUse": "Use when a traveler needs a mobile data eSIM for a destination.",
+ "tasks": [
+  "find eSIM plans",
+  "check phone support",
+  "get quote",
+  "get checkout link"
+ ],
+ "effects": {},
+ "flags": []
+}

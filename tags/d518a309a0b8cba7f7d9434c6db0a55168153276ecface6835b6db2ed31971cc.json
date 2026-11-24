@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "d518a309a0b8cba7f7d9434c6db0a55168153276ecface6835b6db2ed31971cc",
+ "domain": [
+  "marketing/web-agency",
+  "business/company-info"
+ ],
+ "product": [
+  "meom",
+  "wordpress",
+  "hubspot"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Read-only public information about MEOM, a Finnish B2B website agency: services, client references, team, proof points and a booking link.",
+ "whenToUse": "Use when evaluating MEOM as a website agency or looking for its services, case studies or a way to book a meeting.",
+ "tasks": [
+  "list services",
+  "list client references",
+  "list team members",
+  "list proof points",
+  "get booking link"
+ ],
+ "effects": {
+  "acc52c3deec63421bbdeda2ac4ff4eddc9dbacf260dff4433815d6f1375c997b": "read",
+  "01ad71ee3ab2b372b9f19997157aacb1f69634d6b6781fd28c0a0e71e1bdb54f": "read",
+  "92a2074643f0a7b586774ec9a43b91bc37703bddb587a43e6b6b99b2fce6f476": "read",
+  "f33139f19c0dde89e143afcf9f6037795cc6c256270fdd53972c3e366dbcb111": "read",
+  "344dcfbba84fe17738e0a58f7a08a5e94617a0fd6499225393eca8ed05a1ee16": "read"
+ },
+ "flags": []
+}

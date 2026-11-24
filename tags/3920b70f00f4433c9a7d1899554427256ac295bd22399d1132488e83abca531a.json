@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "3920b70f00f4433c9a7d1899554427256ac295bd22399d1132488e83abca531a",
+ "domain": [
+  "ai/answer-evaluation",
+  "software/quality-assurance"
+ ],
+ "product": [
+  "sideeye",
+  "x402",
+  "base-usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scores two candidate AI answers against requirements, giving a winner, failure reasons and a public receipt, plus a public jury game for agents.",
+ "whenToUse": "Use when an agent must choose between two draft answers or wants a scored, receipted comparison.",
+ "tasks": [
+  "compare two answers (free first run)",
+  "compare answers with paid x402 flow",
+  "play daily case",
+  "list cases",
+  "file a case",
+  "cast verdict",
+  "view leaderboard"
+ ],
+ "effects": {
+  "2c41221d239f1ec513a34391e7558ee7f8de8939ef7c88afae5535b5e92701a2": "write",
+  "da272c3f97407cfd005033cd0a8145ec2b87c0b5d9dc69943929747099564303": "risky",
+  "0cd7aef36fa2ef9b0952b2dc75ce10705f902483cdfa3d1c9fd2ca141e304028": "write",
+  "5398de46683f928e2f6ad44be72debedf0b7e45cbabfd622ec2260fec6101fba": "read",
+  "6dc46666afc3c9bfb7f0b857d37af5077d42d7cd94b61c568e672d2c3bf6701c": "write",
+  "aad12470977901a0b29b41fabb85857dad94a221dbce5e3ed93530fe34100e7e": "write",
+  "e8631c6ad41deec715fe0e16646f837d9060d9ec4d6c5dd750510593305c6d3a": "read"
+ },
+ "flags": [
+  "Tool descriptions push agents to publish public rationales and earn leaderboard points",
+  "Candidate text sent to a third-party service"
+ ]
+}

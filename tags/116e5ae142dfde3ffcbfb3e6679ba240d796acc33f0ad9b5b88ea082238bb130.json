@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "116e5ae142dfde3ffcbfb3e6679ba240d796acc33f0ad9b5b88ea082238bb130",
+ "domain": [
+  "nonprofit/book-donation",
+  "books/collectibles"
+ ],
+ "product": [
+  "library-of-congress",
+  "discogs",
+  "musicbrainz",
+  "open-library"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "support-customers",
+  "schedule"
+ ],
+ "summary": "Schedules free book donation pickups in Albuquerque and identifies first editions, CDs, vinyl and media by identifier.",
+ "whenToUse": "Use when a user in the Albuquerque area wants to donate books, or needs to identify a first edition or a record or CD.",
+ "tasks": [
+  "check pickup coverage",
+  "schedule book pickup",
+  "identify first edition",
+  "decode number line",
+  "look up publisher rules",
+  "look up LCCN",
+  "identify CD",
+  "identify vinyl",
+  "resolve any media identifier",
+  "compare donation options"
+ ],
+ "effects": {
+  "e0036f46f1f787e20f81ea1078d06ad234d33a4d1028afd5409465a04ba2703c": "read",
+  "e610f430262a64559995dd61a98e42b2d00481e54131de187c3baf64679c44b2": "write",
+  "8dde9a4f3bf263326f746bb90ebd7f53c969672862ff6eaf6bd8be859ba55062": "read",
+  "a5f8bd98588205b32167501f543932f1ff02dc07e9b3298cd6d622359fdd72ff": "read",
+  "07d66d9948f6000e66bfcf8e05e37dc111830fd788c6b67d93a673ddbc354722": "read",
+  "707a2575632443d95d15f51af64173e44390142dc94e64ebb87ec1f7f84fe565": "write",
+  "f0eef63c98599770df3d320f0ece88ddc7870ffae91f315e95c044a7bc1b416e": "read",
+  "83b48453c80d08d8aee153feba0f93b15a9cab8eec59b704f8c79996f5ffadd1": "read",
+  "5a889561e609cf03649d60bc3cc3035eb8a7e1f595d6a0d81c6cbbf8d0d00c95": "read",
+  "c8f9ed91c4f459450e04281d671e39f853d8a1c9c2fb3034bd7f2c0596b12733": "read",
+  "21a3f141ff6448cbea1bf671a356811bc2a98494271eb62e99ec1f6b27d9e753": "read",
+  "fe1a3eb15a65b5c829a70aa2cd42e1791ba2944ae5ed14c387ccde3574f57a93": "read",
+  "4f592627c3482710765c22a03acfad822c430e717eb0db3f97e0c4bbf7dd8ae7": "read",
+  "6bd674e7f8ae05022291faee103c8f891379f2fc9c37c4ee9661ee34cdf15d02": "read",
+  "30e0a21b9dc541a1ce7b04f25a76e90ae5ad2e792878f7dd05bed538117e783a": "read",
+  "34d9314c4eea5c493d5e094526d6444be380679fa9b0480c23e3242b743b828e": "write"
+ },
+ "flags": []
+}

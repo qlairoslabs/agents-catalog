@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "3a5171571885211cb795fa49c780efaa98ae3b209880591fbaae30d91f41665d",
+ "domain": [
+  "software/mcp-trust",
+  "software/cybersecurity"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Runtime behavioral trust scoring for MCP servers, to check reliability before calling unknown tools.",
+ "whenToUse": "Use when an agent wants to judge how reliable an unfamiliar MCP server is before using it.",
+ "tasks": [
+  "score MCP server trust",
+  "check server reliability"
+ ],
+ "effects": {},
+ "flags": []
+}

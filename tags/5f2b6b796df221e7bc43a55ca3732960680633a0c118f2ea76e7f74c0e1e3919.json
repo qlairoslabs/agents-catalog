@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "5f2b6b796df221e7bc43a55ca3732960680633a0c118f2ea76e7f74c0e1e3919",
+ "domain": [
+  "software/agent-tools"
+ ],
+ "product": [
+  "toolsnap"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Collection of 47 deterministic microtools for agents needing no account or API key, including fetch_extract to cut tokens.",
+ "whenToUse": "Use when an agent needs small deterministic utilities or compact web content extraction.",
+ "tasks": [
+  "fetch and extract web content",
+  "run microtools"
+ ],
+ "effects": {},
+ "flags": []
+}

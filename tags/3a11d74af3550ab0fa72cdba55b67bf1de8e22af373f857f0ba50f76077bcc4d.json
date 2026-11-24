@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3a11d74af3550ab0fa72cdba55b67bf1de8e22af373f857f0ba50f76077bcc4d",
+ "domain": [
+  "utilities/date-time",
+  "calendar"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Calculates days between dates, shifts dates with business-day and holiday exclusions, and lists public holidays by country and region.",
+ "whenToUse": "When an agent needs exact date arithmetic, business-day counts, deadlines, or public holiday dates.",
+ "tasks": [
+  "count days between dates",
+  "count business days",
+  "add or subtract time from a date",
+  "roll to next working day",
+  "list public holidays",
+  "find country and region codes"
+ ],
+ "effects": {
+  "2f30ebf6ea5a677d881599d4898359e1eb11ae7aaa1cb49640a6533bd3591d0e": "write",
+  "e0649f12448b410689b297246b36128e589458d8da1661fea5e3742f7515bac6": "write",
+  "22837fc142e6d81a536202efeee4861f6ec52ef916ceffcdcfe9ae1f2d0bdfbf": "read",
+  "d754d455534184a74170c3c83b0688e16e7d0eae98d8fa7a1608338f34976fa4": "write"
+ },
+ "flags": []
+}

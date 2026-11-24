@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "9218f7a402014ff2cb569d91827c7810cb09a49ffc5cf6041c4fd7e39c1d57a1",
+ "domain": [
+  "food/recipes",
+  "lifestyle/cooking"
+ ],
+ "product": [
+  "whats-cooking"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Suggests one complete dinner from the ingredients you have, with recipe, steps and shopping list, and browses community recipes.",
+ "whenToUse": "Use when a user asks what to cook tonight or wants a recipe based on ingredients, diet or time.",
+ "tasks": [
+  "suggest dinner from ingredients",
+  "filter by diet and time",
+  "browse shared recipes",
+  "get full recipe scaled to servings",
+  "build shopping list"
+ ],
+ "effects": {
+  "77523be61302acec9b1143c6c09608ac1e642f5563ccfeae008a6e0178fd413a": "read",
+  "03149e13119e3c37864fe827da3a7c54acbb850e76fd2f5a39ce7033669c27f7": "read",
+  "700c7a8ba8e3cc1f29744bfe9d34224181769a7b3037459f3230cda4bb19567e": "read"
+ },
+ "flags": []
+}

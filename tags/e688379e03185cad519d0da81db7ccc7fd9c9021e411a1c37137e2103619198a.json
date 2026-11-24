@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "e688379e03185cad519d0da81db7ccc7fd9c9021e411a1c37137e2103619198a",
+ "domain": [
+  "travel/trip-planning"
+ ],
+ "product": [
+  "wonderkit"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Read-only city guides and public itineraries for family, friends and couples trips, with links to the WonderKit planner.",
+ "whenToUse": "Use when someone wants things to do in a city or a ready-made trip itinerary.",
+ "tasks": [
+  "list cities",
+  "find activities",
+  "browse itineraries",
+  "search itineraries",
+  "get itinerary",
+  "build planner link"
+ ],
+ "effects": {
+  "9a452e5168568b8dbc4663be3646e789664d677bacaa6d85581d723ac6506e89": "write",
+  "3f91e18f4da9b29b8776700a6fdc9a186a8f4ce589bc45db151fcaaa5b48ed53": "write",
+  "19b14bfa03611e1e2645ce48c9cfa5d992d4887bf35135d69b4b4eea40c4e7df": "write",
+  "0d3111bf42c5f85ed6e786d5d42a6a5a0c338eadf28b0f1ac616054d7d0d189e": "write",
+  "e06999dc7e57279558e6ca1dc3465be034f2e3d14ce4a581f3ff3a8ed721a168": "write",
+  "6b60b00565ee4427af5c90cf19575a82d930c7dc56f44b46271357354b6474bc": "write",
+  "8079c05d73ad5c2c5b2f8b974b47657d7abe6e52194caa14946ab541a414e851": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3e2d6e3a1be640fab9d43cdad436cda8d1ce27dc30d375628f24e2db86a1cd33",
+ "domain": [
+  "software/cloud-hosting",
+  "software/serverless"
+ ],
+ "product": [
+  "eurobase"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Create, deploy and inspect projects and serverless Functions on the Eurobase European cloud platform.",
+ "whenToUse": "Use when deploying or inspecting apps and functions hosted on Eurobase.",
+ "tasks": [
+  "create projects",
+  "deploy projects",
+  "deploy functions",
+  "inspect projects"
+ ],
+ "effects": {},
+ "flags": []
+}

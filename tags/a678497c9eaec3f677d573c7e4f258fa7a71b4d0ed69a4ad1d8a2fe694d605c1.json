@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a678497c9eaec3f677d573c7e4f258fa7a71b4d0ed69a4ad1d8a2fe694d605c1",
+ "domain": [
+  "documents/pdf-generation"
+ ],
+ "product": [
+  "papely"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Generates PDFs from Papely templates as a single document, a ZIP batch, or emailed to recipients.",
+ "whenToUse": "Use when an agent must produce or email PDF documents from predefined templates.",
+ "tasks": [
+  "generate single pdf",
+  "generate zip batch",
+  "email pdf to recipients"
+ ],
+ "effects": {},
+ "flags": []
+}

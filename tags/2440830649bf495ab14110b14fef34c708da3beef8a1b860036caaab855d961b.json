@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2440830649bf495ab14110b14fef34c708da3beef8a1b860036caaab855d961b",
+ "domain": [
+  "software/diagramming",
+  "design/diagrams"
+ ],
+ "product": [
+  "plantuml",
+  "excalidraw"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Renders PlantUML text to SVG, PNG or hand-drawn Excalidraw diagrams, without file or network access.",
+ "whenToUse": "When an agent needs to turn PlantUML source into a diagram image.",
+ "tasks": [
+  "render PlantUML to SVG",
+  "render PlantUML to PNG",
+  "render Excalidraw style"
+ ],
+ "effects": {},
+ "flags": []
+}

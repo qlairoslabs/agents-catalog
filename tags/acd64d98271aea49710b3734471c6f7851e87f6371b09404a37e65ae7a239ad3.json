@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "acd64d98271aea49710b3734471c6f7851e87f6371b09404a37e65ae7a239ad3",
+ "domain": [
+  "software/source-control",
+  "software/devops"
+ ],
+ "product": [
+  "gitlab"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "GitLab MCP server with 66 tools and 246 typed actions grouped into 27 registry groups.",
+ "whenToUse": "When an agent needs to work with GitLab projects, merge requests, issues or pipelines.",
+ "tasks": [
+  "manage projects",
+  "manage merge requests",
+  "manage issues",
+  "manage pipelines"
+ ],
+ "effects": {},
+ "flags": []
+}

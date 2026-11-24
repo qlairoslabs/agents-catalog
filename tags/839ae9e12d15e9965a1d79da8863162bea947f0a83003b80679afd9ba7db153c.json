@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "839ae9e12d15e9965a1d79da8863162bea947f0a83003b80679afd9ba7db153c",
+ "domain": [
+  "finance/consumer-rates",
+  "finance/banking"
+ ],
+ "product": [
+  "ratezip",
+  "fdic"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Sourced, timestamped US savings, CD, mortgage and HELOC rates, with calculators for deposits, home equity payments and auto insurance quotes.",
+ "whenToUse": "Use when comparing US deposit or mortgage rates, modelling home equity payments, or comparing auto insurance quotes.",
+ "tasks": [
+  "compare deposit options",
+  "get savings rates",
+  "get CD rates",
+  "generate rate watch report",
+  "get mortgage rates",
+  "compare home equity payments",
+  "calculate deposit earnings difference",
+  "get state auto insurance benchmarks",
+  "check auto carrier quality",
+  "compare auto quotes"
+ ],
+ "effects": {
+  "6c0aebdcef7009af262295b0c5cb904f79f3d71c9f91bcb0cf29efaa734ed930": "read",
+  "37a8180e909cbed22d376c412018eb6d1ab0cae0d08ed6eb1f1912544d871ea2": "read",
+  "309e88873a29373b4a619e0b2089e1e3f699bcb120579569cdb3857f294fff4d": "read",
+  "2be5e5fa1e5b50a27235b9d0cb63808a985282d12b5883b7bd977e7ed540ed63": "read",
+  "f5763a2b7d5c09f7a8ded118b15691236f8a76247099d82b0c45479a256b4d72": "write",
+  "da7ce27bd4894f68938ad87d2ddb724e435332fb0edc22623b21ef6597edbde6": "read",
+  "4682f33ee81d5cffaf12086c5837055f493775e94c50a32fc2e9ddd8dddeaa77": "read",
+  "0ac91571b42000476eea3359f010a56c5f19caf63114be3623e12fba40278e96": "write",
+  "d30fe920d7cc27ecc05c5cb7fdf99884dc2960660249b501875d810ba7f97995": "read",
+  "24b20e8fd638fefc9e3434d0c327cac94c8a629d9a9198f05e20c4d58d65b727": "write"
+ },
+ "flags": []
+}

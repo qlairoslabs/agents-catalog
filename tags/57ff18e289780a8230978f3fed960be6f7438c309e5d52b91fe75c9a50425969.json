@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "57ff18e289780a8230978f3fed960be6f7438c309e5d52b91fe75c9a50425969",
+ "domain": [
+  "software/localization",
+  "software/i18n"
+ ],
+ "product": [
+  "verbaly"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "i18n for coding agents: extract, check and translate an app's text, with drafts a person approves.",
+ "whenToUse": "When an agent needs to localize an application's text strings.",
+ "tasks": [
+  "extract text",
+  "check translations",
+  "translate text",
+  "draft for approval"
+ ],
+ "effects": {},
+ "flags": []
+}

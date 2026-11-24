@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "05a21e1571f55d8614eafe4a07feb5ffb90fe546e3ea82d4156142d4e1067354",
+ "domain": [
+  "retail/product-catalog",
+  "retail/candles"
+ ],
+ "product": [
+  "bam-kaarsen"
+ ],
+ "audience": [
+  "sales",
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only search and browsing of the BAM Kaarsen candle catalogue and its white-label offering.",
+ "whenToUse": "Use when a user wants to find candle products, prices, stock or catalogue categories from BAM Kaarsen.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "browse catalogue tree",
+  "list products by facet"
+ ],
+ "effects": {
+  "03eaeeb9942fc4bfb62b79e06b7f79e5e9cfa2b2a2eecca265be1e02811ba310": "write",
+  "d31f34fd4a8f8ace211254b2ad3d3cc1c10f7a263c3191de1c8aebd32f98f2fa": "write",
+  "7d2b59ed8a6678e8449b563cbad5525949a3428cd1183abe528bee26082a476c": "write",
+  "faa953fa8a664a9d61e3fa28afd9de3a5f06b038c25e06a1eec7a7f05822b017": "write"
+ },
+ "flags": []
+}

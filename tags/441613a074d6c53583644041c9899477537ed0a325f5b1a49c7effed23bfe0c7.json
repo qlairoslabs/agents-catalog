@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "441613a074d6c53583644041c9899477537ed0a325f5b1a49c7effed23bfe0c7",
+ "domain": [
+  "healthcare/medicare",
+  "finance/health-costs"
+ ],
+ "product": [
+  "medicare",
+  "medigap",
+  "savewell"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Compares Original Medicare outpatient costs at surgery centers versus hospitals, Medigap rewards and nearby specialists by ZIP code.",
+ "whenToUse": "Use when a person with Original Medicare wants to compare procedure costs by care setting and find nearby specialists.",
+ "tasks": [
+  "list procedures",
+  "compare surgery center and hospital costs",
+  "check Medigap rewards",
+  "find specialists near a ZIP"
+ ],
+ "effects": {
+  "d147ab6eaf3816231144adf5eae42c6ff8fdb5e23e606556464e49e1f4f605a7": "read",
+  "3017697b0af2147932195e9d0fb3143ae79c7fb56316f31a37da40235493446a": "write"
+ },
+ "flags": []
+}

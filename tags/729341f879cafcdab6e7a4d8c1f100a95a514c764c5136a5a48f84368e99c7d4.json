@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "729341f879cafcdab6e7a4d8c1f100a95a514c764c5136a5a48f84368e99c7d4",
+ "domain": [
+  "software/cloud-infrastructure",
+  "software/cost-control"
+ ],
+ "product": [
+  "aws",
+  "gcp"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Lease AWS and GCP virtual machines for a fixed time, after which they stop themselves.",
+ "whenToUse": "Use when you need a temporary cloud VM that shuts down automatically to avoid idle costs.",
+ "tasks": [
+  "lease VMs",
+  "set lease duration",
+  "auto-stop instances"
+ ],
+ "effects": {},
+ "flags": []
+}

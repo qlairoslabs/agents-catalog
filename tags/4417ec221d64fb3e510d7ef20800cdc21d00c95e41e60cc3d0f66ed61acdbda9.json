@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "4417ec221d64fb3e510d7ef20800cdc21d00c95e41e60cc3d0f66ed61acdbda9",
+ "domain": [
+  "printing/business-cards"
+ ],
+ "product": [
+  "luxor-plastic-cards",
+  "stripe"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Quotes and orders 30mil plastic business cards, requests free samples and checks order status.",
+ "whenToUse": "Use when a user wants prices, samples or an order for plastic business cards.",
+ "tasks": [
+  "list card products and prices",
+  "get an order quote",
+  "search design templates",
+  "request a sample kit",
+  "create an order",
+  "check order status"
+ ],
+ "effects": {
+  "e04216f73c3e4c1790424a0e03e61da39d995b94cdcd44b3286e87ac52c1d18c": "read",
+  "a379facf4645d78b423e35f62980594e68b30173e6e5aae15ddfc00ec4d6d289": "read",
+  "bd3b97889632049a9daeaa209983bfe3c911ab90bb21739b152f6cf38558c9a0": "read",
+  "dbe5283cfbafcbb953873d62b9aa5f0dffb7c15ddfe190ab82e3cf43557c5ed0": "write",
+  "72a3d604df9b88072c36538944586a218f70f01f5783b8934c7e7852f5b18ee6": "write",
+  "838a045908cb4d9a12ff2dd6df36a360a7218ea71e8f30de50e2c45b2c57428c": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "db5a86655021b34bbfab008a29d0662ca76fb34678807edc65f803c0deca9ba9",
+ "domain": [
+  "business/company-data",
+  "sales/prospecting"
+ ],
+ "product": [
+  "bronnoysund-register",
+  "shopify"
+ ],
+ "audience": [
+  "sales",
+  "finance",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches the Norwegian Brønnøysund company register for profiles, financial accounts, corporate groups and company websites and their platforms.",
+ "whenToUse": "Use when researching Norwegian companies, building prospect lists or checking their financials and ecommerce platforms.",
+ "tasks": [
+  "search companies by filters",
+  "get company profile",
+  "get annual accounts",
+  "get corporate group",
+  "look up industry codes",
+  "find company websites and platforms",
+  "send feedback"
+ ],
+ "effects": {
+  "be3a3f0d162714e6d10bfe701e4828f05803d53b5b9e26c6cffc1ac287037d7d": "write",
+  "006a8fa915d4a80c2dd773a70484ee1c7b24615413d3eb8b999917f940a3d817": "write",
+  "8c02dd4bafd2a808cea3cabc814e38364ae58d4b8de3a052078fdc59d51612b3": "write",
+  "26fe9b97f6f4977ef5e72a3d105172352382fb822d1b2248e0343aa095bd359c": "write",
+  "7415cfd021cad838236668ac523ea153c1c9bf834aada4f0f723ad8b242328c7": "write",
+  "6a5e7d0951cd02b67605df86b3d51c366c2b5d4b41252122d8c46de8efebdfc2": "write",
+  "9793d4ef38f0e2f88b3e781ba8ffe67443fd9e7f24ef4c97637608aac0c07c69": "write"
+ },
+ "flags": []
+}

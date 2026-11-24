@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "6a1938753f13b5897adcf9eb5ee3ec28d2948cd40778640fa219eab54d6da273",
+ "domain": [
+  "games/discovery"
+ ],
+ "product": [
+  "foundplay"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches free browser games listed on Foundplay by genre, phone support, multiplayer, AI-made and popularity.",
+ "whenToUse": "Use when the user wants suggestions for free browser games to play.",
+ "tasks": [
+  "search browser games",
+  "filter by genre",
+  "filter by phone support",
+  "filter by multiplayer",
+  "sort by trending or new"
+ ],
+ "effects": {
+  "dbfaa37bcfee13ebe2ac0f14b54ab03667fd5e9cd55e4d2add2533f01796dd3f": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "267d4ea9ef2c19fe346681adca6485fea6abef8fd669fa84b2cbc5e3f0e0748c",
+ "domain": [
+  "travel/public-transport",
+  "travel/switzerland"
+ ],
+ "product": [
+  "swiss-public-transport"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Swiss public transport stations, connections and departure boards with real-time delays.",
+ "whenToUse": "Use when a user needs train, bus or tram connections or departures in Switzerland.",
+ "tasks": [
+  "find stations",
+  "find nearby stops",
+  "plan connections",
+  "show departure boards"
+ ],
+ "effects": {
+  "e95fcb03631aa8bcc8d360f2aaee4bb651fe4f2a015da65b9daa9f0c37401122": "write",
+  "c26a8e79883074199dbd362dddc69fb7794e1f78ee42e46d3cfb2e9aa9af414c": "write",
+  "322c1df93aff8fab086ba507e186e71ff6ad8495220078c0d9902a0dd77091f0": "write",
+  "dba58af3f9aa637316406b6d5ce445e0111927cef579e459701fb9bf408b79f0": "write"
+ },
+ "flags": []
+}

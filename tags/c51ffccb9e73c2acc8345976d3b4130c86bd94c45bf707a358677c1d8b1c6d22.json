@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "c51ffccb9e73c2acc8345976d3b4130c86bd94c45bf707a358677c1d8b1c6d22",
+ "domain": [
+  "sports/fantasy-football"
+ ],
+ "product": [
+  "draftcall",
+  "nfl"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "NFL fantasy football data: player profiles, rankings, byes, matchups, schedule strength and stat checks; head-to-head comparisons only in its app.",
+ "whenToUse": "Use when answering fantasy football draft or lineup questions needing rankings, bye weeks, matchups or stat verification.",
+ "tasks": [
+  "rank players by position",
+  "look up player profiles",
+  "find bye conflicts",
+  "check weekly matchups",
+  "grade schedule strength",
+  "find ADP gaps",
+  "verify stat claims",
+  "measure positional scarcity"
+ ],
+ "effects": {
+  "cba838d5558f36126e8b08a21e09fda1678b23af36c11e299f7694666d779d2f": "read",
+  "e2ab4a8fd8c6898a71dbc897f70ed0cb3e7b1061ce8f5719cf15f4b66834717b": "read",
+  "af15e2c22e4654dbde30836ec70dd2e3cd0f574ebcb92dee55457af316edd45f": "read",
+  "f22a00ebb9389a38f584c4f20f224b797c527de584a94ad043d1f671d62b9285": "read",
+  "a45b38c597ec35e6d5cad91011378cc33afbd3e9042571de25740f89f109e0bc": "read",
+  "06026390e0e2816362568231537559d72f7a2f8d1a96163f211aed5b9d7ddf38": "read",
+  "94ecc928d9115d610bb9f45aabe040490a8193de12c1f0f7cb985139db29bdaa": "read",
+  "7b15fffeaa70399569a156e6c979f4a86c7d758ff896d1b5515c82dd917342dd": "read",
+  "0004f22632a825be73ca16011dbbf00a9555036e20cc00a45d282fbc2b137ff8": "read",
+  "26682b9260023a2f7e3e460d3ce7ce29f43f922d36ab329d0b73bf7cc6c85068": "read"
+ },
+ "flags": []
+}

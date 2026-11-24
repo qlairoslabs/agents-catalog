@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "a1123567b908b3fdd05158c302d848e439eb5b79d95587a463dfdc78011c03ef",
+ "domain": [
+  "events/entertainment"
+ ],
+ "product": [
+  "robotio"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Shows the ROBOTio catalogue of humanoid robots for event rental, checks date availability and sends quote requests.",
+ "whenToUse": "Use when planning an event in Europe and wanting to rent humanoid robots with operators.",
+ "tasks": [
+  "view catalogue",
+  "check availability",
+  "request quote"
+ ],
+ "effects": {
+  "d3a5868f05df4bd69d5e7436e37f1131163cd3de5644ff07c4921e02ea659340": "read",
+  "622c601961901ee5a91badcabc845e62532f0a648c594f5bc927abccd872a2c6": "read",
+  "b142f182c7f3fe541f78fcad699c5d1298f0355309e9c156281825025b58a56d": "write"
+ },
+ "flags": []
+}

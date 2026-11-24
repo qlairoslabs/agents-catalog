@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "98ece3c3338636ac83e48f7a4e3722403b67c7c10021ab1ecda0bba4427cc80f",
+ "domain": [
+  "web/domains"
+ ],
+ "product": [
+  "rdap"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Checks live domain availability via RDAP and returns prices, brandability scores and estimated resale value, plus TLD price comparisons.",
+ "whenToUse": "Use when suggesting domain names or when a user asks whether domains are available or what a TLD costs.",
+ "tasks": [
+  "check domain availability",
+  "get brandability score",
+  "estimate resale value",
+  "compare TLD prices"
+ ],
+ "effects": {
+  "65e1004a8bf3e0e43e3d657cec8a375fc2f66bf3ffff53c76a91a41fdff0d360": "write",
+  "5f9e7e1413e505641667cf4c077eea844a6a06ba6afd8cac7ecb3947583e23ce": "write"
+ },
+ "flags": []
+}

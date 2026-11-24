@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "49e01feb93f5058eb024d6d00d9301ce82ee85b853b521d3ba5966ed3292d0e4",
+ "domain": [
+  "hardware/diy",
+  "hardware/firmware"
+ ],
+ "product": [
+  "meta-muse",
+  "esp32"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "Plans physical gadget bodies for AI agents, with parts lists, build plans, and owner-authorized firmware playbooks and compatibility checks.",
+ "whenToUse": "Use when planning or building a hardware body for an AI agent or researching device firmware modding.",
+ "tasks": [
+  "ask intake questions",
+  "plan gadget",
+  "get build plan",
+  "assess hackability",
+  "find reverse-engineering examples",
+  "find firmware playbooks",
+  "check firmware compatibility",
+  "verify firmware artifact",
+  "prepare firmware manifest"
+ ],
+ "effects": {
+  "504a02c0761fe1baf4eb1d522c8aa6373d35f9ef6c6827d658ebe579a56944f9": "write",
+  "d8ac65b0db9b3013c6bc015a74889c8810cdb0cb9ddc495344d0e84ba0d98400": "write",
+  "9ce85ae679a4308642765963d869901587b1460efff35f6e98342b1c8375bd79": "write",
+  "8374dd1c456e64500e0fcdbf16ba37d30368ee5683fbe1241da57ee437c0a320": "write",
+  "54950bbec3db3c063dbda1e45a39d23cca45cc55beaa6656141065502670549d": "write",
+  "5027ccc623daa387f2c385fd24aa376d5a129a4601b7b29d41350c851ffa3e28": "write",
+  "d12db17da2480aa7169829dceb7a5b061d8e25ebc90da963f799486b747d1706": "write",
+  "7773a07adaf9a88d64df6eb4c4516d0a0235cef0e2c8e8d6a866263ff067597e": "write",
+  "608924424f85149a7cb0de1a663cc8456126633512e238fd042cc3c557ed980f": "write",
+  "9984fa27a3257a0e1a5cf8b0a7fc1750f30802557d1ab839258177602f8e8f1a": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,58 @@
+{
+ "classifier": 2,
+ "contentHash": "9b9c9d15fd8fa0c3eb9f88e0c9d255a0ec1fad2b1ed9fe98efde82f766ab9dd7",
+ "domain": [
+  "it-services/networking",
+  "security/cameras-access"
+ ],
+ "product": [
+  "unifi",
+  "yestechie"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers",
+  "build-software"
+ ],
+ "summary": "Gives access to YesTechie's UniFi installer information, case studies, configuration guides, price lists and estimates, plus contact and job application forms.",
+ "whenToUse": "Use when someone needs UniFi Wi-Fi, camera or door-access guidance, a project price estimate or to contact YesTechie.",
+ "tasks": [
+  "get company info",
+  "list services",
+  "read case studies",
+  "read config guides",
+  "look up pricing",
+  "check coverage",
+  "estimate UniFi project",
+  "request site survey",
+  "apply for a job",
+  "list pages"
+ ],
+ "effects": {
+  "78539afb69c6c15718e3d7950037d138c31aa9cd1686d85105a33c05c62e4487": "read",
+  "0309fe9deca8e36e3ca0e82edc875a64002fce166a7d8e69c2dd5dd7cdcc5b97": "read",
+  "d4cbd6d17bebba7c95f4b711e3307840cb632a130c577cccb94491fa56b3e10d": "read",
+  "1b0ef2f1b8eb90e190ff33f6fb17e09a5f938fec9a6314ff70c50aa0b529db0a": "read",
+  "074919f191fd84c3c3e840e032dfe58f8c73bfe2b76cae38d64c2bbf8e2c666d": "read",
+  "81b53aec6a40f05f491b9c89fb2c5956ce4b7ddfaefbc83057d9b9f419045256": "read",
+  "cce8dbaefc293bde5158214f7c1a018daf108bde4737be57f7a016102c5cec4c": "read",
+  "b8d9a1bdf059270fd23495a665f4b1e12121da103198ea22e671a7d3b1fd88d8": "read",
+  "b2fab0fe24a67f370600f361f97b1df18d3fafe05da7ee2946a547e49e55e41d": "read",
+  "24a3b4798e48182fccf6af98b87aed41058d51700bd3411d60ee91f365a24c42": "read",
+  "38652059d1cecf011776cdb14b90b8a28ce1ca205b61431155ad6093fafe51ab": "read",
+  "7faa3db8f97dc9f9c2dc3b001da1102de47d56b784db8bca3a3810b75cba1685": "read",
+  "c3d99f96b1aaea1f7e2e7c0d04a83fc80808e504fe1806f095cd5c0ef3ea2131": "read",
+  "bfff21a4ddd99b31dfad6a4d7a6dc0732a27a4332e6ade2650aaa10d8b5c5503": "read",
+  "322f7f9da864076b591206b7b022050d5b69008e6089e4baa1091ed48647e712": "read",
+  "575c30c4e1eaaa084ad1b33c9936c88761aa341cc2ed8b1149ae5780e875ba3e": "read",
+  "b94d65249f7f41a75bfdc0c31b52945b367aaf31b3c329aedd8dd5b673c36346": "read",
+  "a402387480735031f818fd9ea653b866503840d6a13745d41a6d4ffb9367d4a3": "read",
+  "f67a7a231b5d8621491b49aac08da105b7d5bfffa3a29e77023a476f3f8c97ae": "write",
+  "0f09c0d8357500510468ddee45202d4843caba841940acaade2779cc4e9e4b8f": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "fe78fd243d51b0d03872481e5b12158a2d7b4756f9e01389c7d582bf6c73b736",
+ "domain": [
+  "data/maps",
+  "data/visualization"
+ ],
+ "product": [
+  "ultimaps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Generate choropleth, category and pin map images for countries, states, counties and ZIP codes.",
+ "whenToUse": "Use when a user needs a map image visualizing data by geographic region.",
+ "tasks": [
+  "create choropleth maps",
+  "create category maps",
+  "create pin maps"
+ ],
+ "effects": {},
+ "flags": []
+}

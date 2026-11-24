@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "7ac5d5d116b56379823ee3b82e28eacb39c10a673c4eea4c30242c8bb4c709bd",
+ "domain": [
+  "software/website-platform",
+  "business/zoho-consulting"
+ ],
+ "product": [
+  "wix",
+  "zoho",
+  "codestringers"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "build-software",
+  "be-online",
+  "get-customers"
+ ],
+ "summary": "Wix-powered MCP for the CodeStringers site: business details, site search and Wix API docs and calls, including a code-running API tool.",
+ "whenToUse": "Use when looking up CodeStringers business info or content, or calling Wix APIs on that site.",
+ "tasks": [
+  "read Wix docs",
+  "browse REST docs",
+  "search site API docs",
+  "call site API",
+  "generate visitor token",
+  "get business details",
+  "search site",
+  "run API scripts"
+ ],
+ "effects": {
+  "1513eedc5ae0a27f5d376555cf687520767b5a4e586763d0cd1753de5a6a8f2a": "write",
+  "4f5e1d9748c597ebf8ae05ae069dcdf99bf50d83cbdb6a632cf0807a2fc7f71f": "write",
+  "c5414b1f0851d2e00cad4946c1526a44fbf97fca1496326e48b83b56e838eac9": "write",
+  "6478773236562844d4e9d909f8bfc382b11c9d865a51ea5c11e6a09ee4f408ed": "write",
+  "31ef250368ba6dcc342c0f37ca247664e3949363e923db47d38f2873582a3edc": "write",
+  "27963f95922b59762490bc04599fba841ad64e1016585dcd222e911a26cfb12d": "write",
+  "ddc79a7bb3b0534bb6837619a93205823fb193e5398535547e18da2c6d9e712f": "write",
+  "2c67b9ee4b6ced41aad0a0f3860c89b341b2234e509d8776073883f833551340": "write",
+  "9c3c5a6294052e28098044ab6140c982b19140737f0fd14d87baaed76d72195a": "write",
+  "ed3570ff7f012558482a47017490b71d0fc956aeca7c230f26c85cdbe5371261": "risky"
+ },
+ "flags": []
+}

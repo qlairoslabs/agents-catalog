@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "6c415275aed0bd81a212117f72e694b019a0ab05ecae067357d89cfe01c0bfd0",
+ "domain": [
+  "hiring/job-search",
+  "hiring/market-data"
+ ],
+ "product": [
+  "metaintro",
+  "indeed",
+  "linkedin"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live job postings and reads employer profiles, market pay insights and local hiring demand.",
+ "whenToUse": "Use when helping someone find jobs, check a posting is still open, or research pay and employers.",
+ "tasks": [
+  "search jobs",
+  "read a job posting",
+  "get market insights",
+  "read employer profile",
+  "list company jobs",
+  "find similar jobs",
+  "see local hiring demand",
+  "verify a job link"
+ ],
+ "effects": {
+  "5235492c260bb4a44f8710fecd9de032fc8e18b0b9b96345cbb7c5cc29b9bc6a": "write",
+  "ae2f6e38b357f6f5d891dc5f29a6de9acbfc20607a97041d09dbfc067c32ca15": "read",
+  "4ad28bbaa60833393d5df2f8d1566949d1ada11bfcceab130bf033bc3f73e392": "write",
+  "33313ced9fb5e894b49730dab256a38f5efc56b92ee3f65bfebca841a97b8ff0": "write",
+  "07565c4cf03bfef9360361278db4fd9d18e8d98860cb473ad2256cafd0109ae8": "read",
+  "130ce9c34301d532d8010d4ad52231f2c481e7a6da641b34221a1a2d746eb523": "read",
+  "306c1b9798f76971968c981a1c310a98d3f201a33ddade4e8818b0867c5948e4": "read",
+  "dad6f2b60cf85a37dd604cfb56222e958c9ebb592a32ccefc124239b00d73778": "write"
+ },
+ "flags": []
+}

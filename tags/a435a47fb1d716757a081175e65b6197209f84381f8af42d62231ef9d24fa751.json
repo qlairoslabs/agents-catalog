@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a435a47fb1d716757a081175e65b6197209f84381f8af42d62231ef9d24fa751",
+ "domain": [
+  "travel/housing",
+  "real-estate/rentals"
+ ],
+ "product": [
+  "flatio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Searches Flatio's furnished monthly rentals across Europe and returns listing details and booking links on flatio.com.",
+ "whenToUse": "Use when someone wants a furnished rental for a month or longer in a European city.",
+ "tasks": [
+  "search rental listings",
+  "filter by dates, budget, size and pets",
+  "get listing details",
+  "price exact dates",
+  "deep-research search and fetch"
+ ],
+ "effects": {
+  "6fc379ff07f1592f644b8b0cdeb0a12c2f623e9cf418a2e47b00257bd1f9e590": "write",
+  "4d13c1edef514043359992a0436a7c1c8c1cd4bad0def87f77f0e051c0ab9c00": "read",
+  "091055f097404ccc5aa104a3270a82e163b9af8fae2fbca7f342eb353af9f43d": "read",
+  "98cb0f895d98a2d9ec316dd29b61bc987a3b928c0f0f9127a201a77f03b76c05": "read"
+ },
+ "flags": []
+}

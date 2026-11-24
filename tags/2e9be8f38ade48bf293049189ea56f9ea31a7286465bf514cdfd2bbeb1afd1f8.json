@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "2e9be8f38ade48bf293049189ea56f9ea31a7286465bf514cdfd2bbeb1afd1f8",
+ "domain": [
+  "software/mcp-tooling"
+ ],
+ "product": [
+  "docker"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Hot-reloads MCP servers and mounts community MCP servers mid-session without restarts, with optional Docker.",
+ "whenToUse": "When developing or extending an MCP setup and you want to add or reload servers without restarting.",
+ "tasks": [
+  "hot-reload MCP servers",
+  "mount community servers"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "52a0947fb954b81eac4d6a485f471d839f89c9235f9bfaa79ab05c7579a426e4",
+ "domain": [
+  "insurance/appraisal-directory"
+ ],
+ "product": [
+  "losshq"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Directory search of certified insurance appraisers and umpires by location, role and specialty.",
+ "whenToUse": "Use when someone needs to find an insurance appraiser or umpire or understand the appraisal process.",
+ "tasks": [
+  "search appraisers and umpires",
+  "get a professional's profile",
+  "explain the appraisal process"
+ ],
+ "effects": {
+  "a9d5ab8c10366457714ac41128035dee0b5f401d9489ecac4de0a1911e9d7e78": "read",
+  "f8dbf4f4fd7a5a0c9380a7a0fa73093c1aca707b1959914aad744a7f8544dab2": "read",
+  "6c71c5ed64b88a2fdff9b43ef6d75a47de81b9fffd09a73eb14c71d21d74bea1": "read"
+ },
+ "flags": []
+}

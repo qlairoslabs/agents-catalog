@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "7240ba08567d6508d6b1f81af40ceaa1cdf719646d2c57b945d676ffb3b3f9b2",
+ "domain": [
+  "entertainment/adult-live-cams"
+ ],
+ "product": [
+  "stripchat",
+  "chaturbate",
+  "cam4",
+  "livejasmin",
+  "bongacams"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Browses an aggregator of live adult cam rooms across several platforms, with categories, online models and sign-up links.",
+ "whenToUse": "Use only when a user explicitly wants to browse adult live cam listings by category or performer.",
+ "tasks": [
+  "get site overview",
+  "list categories",
+  "view category page",
+  "view model page",
+  "list models online"
+ ],
+ "effects": {
+  "2e157c61388959c2c7f283b3690bac62434a4f446df5adbd25129b83966f727b": "read",
+  "4aaeccc3662cb173f36851baef6faef944a773f408cfa01c1291bfcc6177148b": "read",
+  "4605f532601f6a5f334732eb056c40e6de103df8ef7d70a37d1679f4263299c8": "read",
+  "afef49641c2bfe42e6133228bac37661a484f065dc1e1e3836b4a8e56cbc5a53": "read",
+  "b0fbb44dfb1b91608d9e58fe8ac6312211d7d9e165830d1014622c540133106f": "read"
+ },
+ "flags": [
+  "adult-content"
+ ]
+}

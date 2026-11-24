@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "70fefe4c0195b371b6f79815174e7713ea7b91307c305887991c965b2806930e",
+ "domain": [
+  "hr/pay-transparency",
+  "legal/compliance"
+ ],
+ "product": [
+  "egapro",
+  "pariteck"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "hire-and-manage"
+ ],
+ "summary": "Public pay transparency and Egapro information: readiness checks for the EU directive, index lookups by SIREN, and a link to a demo contact form.",
+ "whenToUse": "Use when a French or EU employer asks about pay transparency obligations, Egapro scores or the gender-equality index reform.",
+ "tasks": [
+  "search public pages",
+  "fetch page text",
+  "assess readiness",
+  "look up Egapro index",
+  "simulate 2027 index",
+  "get contact form link"
+ ],
+ "effects": {
+  "f550c2ebc42d8b182a21901cd0b19fbb93b1a0091c6be36dbc233613dedfc956": "write",
+  "27225f46708fe5390edbf6e14b963eb8d42f7c8afe0a9a5c3fd68bf5a0a20913": "write",
+  "9c0a1cd39a839f18db410de32e3abf912213d705819902a6ffb730409dc430b6": "write",
+  "ff033f721016e05b08b9975cc49e1463c8a6f15ba22820a89c78f01310d975c4": "write",
+  "c44cf54a47b61d293ca1af0b329ee7b3fd3330ac47f5848c4838c47131930521": "write"
+ },
+ "flags": []
+}

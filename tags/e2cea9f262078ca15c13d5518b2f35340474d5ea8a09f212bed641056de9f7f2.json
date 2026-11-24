@@ -1,0 +1,81 @@
+{
+ "classifier": 2,
+ "contentHash": "e2cea9f262078ca15c13d5518b2f35340474d5ea8a09f212bed641056de9f7f2",
+ "domain": [
+  "finance/compliance",
+  "finance/payments",
+  "trade/export-controls"
+ ],
+ "product": [
+  "swift",
+  "ohmyfin",
+  "ofac",
+  "ecb"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money",
+  "get-paid"
+ ],
+ "summary": "Screens names, wallets and goods against sanctions and export-control lists, and helps with SWIFT payment lookup, tracking, cost, timing and FX reference data.",
+ "whenToUse": "Use when screening a counterparty, wallet or goods for sanctions or export controls, or when validating, tracking or diagnosing a cross-border bank payment.",
+ "tasks": [
+  "screen names against sanctions lists",
+  "screen crypto wallets",
+  "look up banks and SWIFT codes",
+  "validate IBANs",
+  "track SWIFT payments",
+  "estimate settlement time and cost",
+  "get FX rates and volatility",
+  "check bank holidays and business days",
+  "classify goods and look up ECCN",
+  "screen export controls by country",
+  "search company registries",
+  "look up correspondent bank instructions"
+ ],
+ "effects": {
+  "26b873a9036f898cd2174b5b55cd832b5bf7341fa372d5fba8b7b410c9d3ed4a": "write",
+  "d85194c440257d1171764152c4dfbd38dac5a11903e516a85910ec71313cc459": "write",
+  "2ef89f5573d60026634b2026298b125e5b8ca72906e0ed0f172ec15d23dcdb2b": "write",
+  "5ed59f56a833b43ed9753999e155de21b58425b2895960b5d042c6fde563b428": "read",
+  "300acff12b2f33bfeebd1de3d40fcbca1f659bb7b40fd2ee3387649fcab6fd1c": "write",
+  "66a9f5fe8f2918db6ed7de9461a17f8356c95af3afeb75c9ef790d9c314b24c5": "write",
+  "e380ad49dd2db9c56b85982529c9f8bd0d0d953287244112e28e34f88d2b6c34": "write",
+  "615182dd14d974d2d691b0827a01c8a379350096651ba49f293584ec44f36edf": "write",
+  "9abdbd13ba213e7645607fd6287cc137d6f37245d8a2b6eb921fe1e852bbd5cb": "write",
+  "b5326672e7b87c5adb5d74968906f4f1d253906a316bb7763b0194602c9d3ba4": "write",
+  "7034d4d16a37ca39af2ddd50bf783fa474d7389ef3257999dc292ec23fea0d17": "write",
+  "781e522f75e17605fe5c7c6e97062fb0bf8891d2b39cf588e8110691882c7f33": "write",
+  "c566a1a39aea2b0083d4821facbee7251b2fac68c5357e70a9d72106e97cf7c0": "write",
+  "cb04da84f5782772f0be46f2d6b6d81060d50214eef84dcf9176066b3fe33bb1": "write",
+  "d7f806733af1432a2d0079dae076dcf52da2e8d46883f7035cfb61e32f5e664c": "read",
+  "b030d42f4770bbe56185aa65f3d1e7d1cac5cb5e3404107356be65b5baf7bdf2": "write",
+  "0aa1202450286340bc1fa80c612cd8e122eca07342e5682c05051b15a6712edf": "write",
+  "fab3a0a32734c2bb29efaca384df97652d3a10f431201170d94c456377f2f800": "write",
+  "1378845e2841485514cc8ad3b15c83433f73b0fe14977e16e87c587692fc06c0": "write",
+  "a6826e2b5807a5284db6d455385133cd8c5baed78122f284e5b4bbe28432d095": "write",
+  "76e0099e57435ef6c2abd93c8b33ef8fa2929cc85bd8b4ea160a7a6c55087d94": "write",
+  "e19e3604c94056ed4745ee630b097ec6fdf251b26d8a7cd947cd3a2c72d87384": "read",
+  "d10fb1966470033c3f9e4ca8ad20627d8712ca128f82237230c90da105118dde": "write",
+  "ffa57966838ca9449cb8d4a1cb949bc34df7369b4d08ec91ee13d5f0c17ccf78": "read",
+  "4b61c1e92bdf77c70df7b61b11e3210f519176e6b24d82a5f59590ba5879b9e9": "write",
+  "949f0adff602b559ea36c583e57c1cd0a1f5a84d584622c929c434da5f207916": "write",
+  "4b6affb4990d82880bd9044bf2580475f14479c0e5beb49d0f41f77a1169be90": "write",
+  "2b97a08d0041ff868bf3cef395d792dd3af93d49dbf384114d717b3276d0e5a1": "write",
+  "80ff488858cdfb6ff474fd471251f00aaad12057007550a1e65da795bd23785d": "read",
+  "f27cfc91e277d9057ea37be0928c8242123c95ebaf64ad2731125aac8358cc23": "write",
+  "1f5a2bd910771700de0b4fd2877ef9c6f7336a2aa01dbb97d7d53e9dfa941a26": "write",
+  "14b824e520148d7c1e01963a82948c3f93ebef7a0f2e0aae705f86f6da423b3e": "write",
+  "0157a8ec3be920980b992f99d74d82256510862d60c37509ac9c7b246c916d7e": "write",
+  "3ef11b41370efc906e964f41c2e4efff2780c5402a86063da1cb0a7d7513eb1c": "write",
+  "15c810037806b5afff8fa1e9e6cdc41cf64910ed6a61ecdc2c4ff0add6bfdb70": "write",
+  "ad13f0d60b082d19d5f757206016fea48aff441607b344eee7ccfe55ca91f14c": "write",
+  "d96c7ccf202d84b61bd7413b89f6c42cb493b7472c7b0edf0fd3c77478a8c466": "read",
+  "87f71f785c5878485e3f54cc18d6173d59fa0bb359d5b396ae5d067eb883c005": "write"
+ },
+ "flags": []
+}

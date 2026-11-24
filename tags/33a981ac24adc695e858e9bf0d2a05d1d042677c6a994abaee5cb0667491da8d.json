@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "33a981ac24adc695e858e9bf0d2a05d1d042677c6a994abaee5cb0667491da8d",
+ "domain": [
+  "travel/transport",
+  "hospitality"
+ ],
+ "product": [
+  "platinumride",
+  "whatsapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Finds Gulf cross-border private transfer routes with indicative per-vehicle prices and border steps, and sends booking inquiries to Platinumride.",
+ "whenToUse": "When a user plans a private car transfer between Gulf cities or countries and may want to send a booking inquiry.",
+ "tasks": [
+  "search transfer routes",
+  "get route prices and border steps",
+  "send booking inquiry",
+  "read travel guides"
+ ],
+ "effects": {
+  "9f95be28f263070d70b434883643930ca3d5fa5ccf595824fbdf488bd3c81183": "write",
+  "b87ee09c231645346174c007c16c59e6b5518495220c0b918fbf22e1df861620": "read",
+  "d82009ddce1ecd1c5e36949cfbfd746fa8e02e92d2a31625943e99ef7ddd01dd": "write",
+  "5ab67029dde58013bf985c6c0f7078b230683df7c18529913a977d737c00ec68": "read"
+ },
+ "flags": []
+}

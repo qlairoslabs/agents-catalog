@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "f771b5c83ead9b789e7f720867f55e21f40923a35598b716e49f6fae0b94fe34",
+ "domain": [
+  "ecommerce/shipping",
+  "logistics"
+ ],
+ "product": [
+  "usps",
+  "ups",
+  "fedex"
+ ],
+ "audience": [
+  "sales",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Returns live USPS, UPS and FedEx shipping rates for US-origin packages and USPS First-Class postage and stamp combinations.",
+ "whenToUse": "When a user wants to compare carrier prices for a parcel or work out postage for a letter or flat.",
+ "tasks": [
+  "get carrier shipping rates",
+  "compare by price and transit time",
+  "get First-Class postage price",
+  "compute stamp combination"
+ ],
+ "effects": {
+  "171b91e940ab98191da93dc7b19400d317abb39c4fd67bd7ac3176d5ccdb89b1": "write",
+  "0bbac454c4937a3a87d94f4fa8513d4867d69ac8aa8d0572e208d7bd10d03991": "read"
+ },
+ "flags": [
+  "tool description instructs the agent to remind users to buy labels online via an affiliate-style link"
+ ]
+}

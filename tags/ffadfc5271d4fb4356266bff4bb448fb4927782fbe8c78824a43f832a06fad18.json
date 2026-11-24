@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "ffadfc5271d4fb4356266bff4bb448fb4927782fbe8c78824a43f832a06fad18",
+ "domain": [
+  "real-estate/new-build",
+  "real-estate/oman"
+ ],
+ "product": [
+  "muscat-properties"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Catalogue of new-build and off-plan projects in Oman, searchable by area, developer, bedrooms, status and OMR budget.",
+ "whenToUse": "Use when a user is looking for new or off-plan property in Oman.",
+ "tasks": [
+  "search projects",
+  "get project details",
+  "list areas",
+  "list developers"
+ ],
+ "effects": {
+  "83872bbac0ede897f2cedf2ad449b376e0117d3c48ef7c6af1b4a17a6dc25707": "read",
+  "9426ecc00a58fc09d32b3652c6cc9e1d6e455cbb74550d9f6c7a89ebc6c19b85": "read",
+  "8bbc94031bee3d009a64a0647b3a0866bd97ce71ed83838c5e0140fce183fb6f": "read",
+  "8861a57d4b227aee385d282bb16ff55d1be52993bb2eb0eeba7f8f6bc6791c7b": "read"
+ },
+ "flags": []
+}

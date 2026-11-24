@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "44966d04a14d26d4af1903f8a49cca011cb4ce28a32a3785fbc4a15d5e85bbed",
+ "domain": [
+  "finance/crypto-exchange"
+ ],
+ "product": [
+  "bitstore",
+  "usdt",
+  "monobank"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Lists crypto and fiat exchange methods, gives quotes with limits and a prefilled exchange link on bitstore.pro, and shows reserves.",
+ "whenToUse": "Use when a user wants a rate or a ready exchange link between crypto and fiat methods.",
+ "tasks": [
+  "list pay methods",
+  "list receive options",
+  "get exchange quote",
+  "get exchange link",
+  "check reserves",
+  "get exchange info"
+ ],
+ "effects": {
+  "e92a6f15e3e6809987795a715c499c31ab870d58797a31663291c57fe4ae7370": "read",
+  "2f643e785c8577593bd7a881b0789574450c7af3cb4c68fec2aea7b33c5a8c92": "read",
+  "7761b994301ee0073370e936aff58de2fc28f8a91b024aca460aac2b6654641e": "read",
+  "fb94899331f7f314ff48b966b08d3d100090eac5df2eabbb620243e870d211a7": "read",
+  "e39ad18021afa9aac1141fc44ae4a66bebfdb9a53b3f7d78c5c1b46dbd70af63": "read"
+ },
+ "flags": []
+}

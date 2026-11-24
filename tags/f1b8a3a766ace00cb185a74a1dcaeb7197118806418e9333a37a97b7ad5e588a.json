@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "f1b8a3a766ace00cb185a74a1dcaeb7197118806418e9333a37a97b7ad5e588a",
+ "domain": [
+  "media/news"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "News stories grouped across outlets, showing how many outlets cover each, who owns them and how fast they covered it.",
+ "whenToUse": "Use when a user wants a news overview or to compare coverage across outlets.",
+ "tasks": [
+  "group news stories",
+  "count outlets per story",
+  "show outlet owners",
+  "show coverage speed"
+ ],
+ "effects": {},
+ "flags": []
+}

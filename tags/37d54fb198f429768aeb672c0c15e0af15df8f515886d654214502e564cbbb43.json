@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "37d54fb198f429768aeb672c0c15e0af15df8f515886d654214502e564cbbb43",
+ "domain": [
+  "media/subtitles"
+ ],
+ "product": [
+  "opensubtitles"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches, inspects and downloads movie and TV subtitles from OpenSubtitles.com.",
+ "whenToUse": "When a user needs subtitles for a movie or TV episode.",
+ "tasks": [
+  "search subtitles",
+  "inspect subtitle details",
+  "download subtitles"
+ ],
+ "effects": {},
+ "flags": []
+}

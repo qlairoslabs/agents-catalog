@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "40a9dbc478651186290967a4ef834d002b9ffe01a6af9834770c1798674c96cf",
+ "domain": [
+  "pets/dogs",
+  "finance/insurance-estimates"
+ ],
+ "product": [
+  "thedogs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Matches and compares dog breeds, builds test-drive plans and arrival checklists, and estimates US vet and insurance costs.",
+ "whenToUse": "Use when someone is choosing a dog breed, preparing for a dog, or estimating vet costs.",
+ "tasks": [
+  "estimate vet costs",
+  "list breeds",
+  "match breeds",
+  "assess breed fit",
+  "find similar breeds",
+  "build arrival checklist",
+  "create test drive plan",
+  "review test drive",
+  "get breed profile",
+  "compare breeds"
+ ],
+ "effects": {
+  "a0f93763a01fa59823884c519dfb78d55444a5c2c5a756af7018cd9aea17e56c": "write",
+  "41a4832f92552f45d7527a920934bea4cfbce3cac60d32547643b213dcc75b32": "write",
+  "01cae5432ce77401c31a147585a2bac6ef5d95e794a66c5637814b4912572522": "write",
+  "d2328a9a6756622237c9a05e97e0e345a0d9b363281c682a5cfce39a7c56acd4": "write",
+  "fdff212f3eab972b787e63ec2d1d5a50d4e591bdaad90ff55bbb490fa3e931bb": "write",
+  "fe469ad5b6c2623a16cc772c2d474d6fce6f4add093949a5d9b4fc884f3c9524": "write",
+  "78d7d854971c3f7ca22152168aae7f6535d5d70dd8dd835d16f4eba18a09484b": "write",
+  "df555c83c752361551999ce5426dd3be00f1c6df21dc2eabb71a623a9bc1fa7f": "write",
+  "9bc13edde9d78db278db238f0ae39cb1056fd3cb9cfaed6f027e4b4efdb7a9e3": "write",
+  "8c01874dd73f844d1dbb94deb97a5bf4dda1fafcd7594b4f0e2ed77399830d83": "write"
+ },
+ "flags": []
+}

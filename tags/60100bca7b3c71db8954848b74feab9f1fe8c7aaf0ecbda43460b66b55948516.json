@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "60100bca7b3c71db8954848b74feab9f1fe8c7aaf0ecbda43460b66b55948516",
+ "domain": [
+  "finance/payments"
+ ],
+ "product": [
+  "allscale"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Lets assistants work in an AllScale business account: balances, invoices, checkout links and payouts.",
+ "whenToUse": "Use when checking balances or creating invoices, checkout links or payouts in AllScale.",
+ "tasks": [
+  "check balances",
+  "create invoices",
+  "create checkout links",
+  "make payouts"
+ ],
+ "effects": {},
+ "flags": []
+}

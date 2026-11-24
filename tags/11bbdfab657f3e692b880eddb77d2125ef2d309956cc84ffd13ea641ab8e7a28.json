@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "11bbdfab657f3e692b880eddb77d2125ef2d309956cc84ffd13ea641ab8e7a28",
+ "domain": [
+  "construction/interior-materials",
+  "retail/catalog"
+ ],
+ "product": [
+  "jitdot"
+ ],
+ "audience": [
+  "design",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "build-software"
+ ],
+ "summary": "Read-only Korean catalogue of interior finishing materials such as tiles, flooring and LVT, searchable by size, material and finish.",
+ "whenToUse": "Use when finding interior finishing materials, checking stock or design files on jitdot.com.",
+ "tasks": [
+  "search materials",
+  "get material details",
+  "check design files",
+  "check stock",
+  "list filters"
+ ],
+ "effects": {
+  "6b198020954c1c5ca1934c26554e487e47f200abcc1fffe2e0fcbb8a45cb8c61": "read",
+  "97ddf43116c09aaff8ff25844787336b0ad8fcdee5cdd63708819f12efaa3339": "read",
+  "cc91b52743b6baade542646b2557b1a6b4302a070189c1ce6d59401ae582f41f": "read",
+  "79511caa60167fcb2fe600904c25899b34f840d2d8f498eb0cc273b219ab1a92": "read",
+  "a23a6c2dacd8bfc84b4ce7b2f479e13826544097ae6b2f508c82082f3d075e7b": "read"
+ },
+ "flags": []
+}

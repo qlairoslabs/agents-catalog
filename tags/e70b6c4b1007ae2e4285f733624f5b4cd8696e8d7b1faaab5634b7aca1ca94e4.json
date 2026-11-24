@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "e70b6c4b1007ae2e4285f733624f5b4cd8696e8d7b1faaab5634b7aca1ca94e4",
+ "domain": [
+  "reference/history",
+  "data/research"
+ ],
+ "product": [
+  "wikipedia",
+  "wikidata",
+  "billboard"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "understand-what-is-happening"
+ ],
+ "summary": "Sourced historical facts by year, day, country and subject, with leaders, prices, inflation, Billboard No. 1 songs and claim checking.",
+ "whenToUse": "Use when you need a dated historical fact with a citable source or want to verify a historical claim.",
+ "tasks": [
+  "search dated history",
+  "get year summary",
+  "get events on a day",
+  "get subject timeline",
+  "get country record",
+  "get leaders",
+  "inflation-adjust dollars",
+  "check claims",
+  "get Nobel prizes",
+  "find source disagreements"
+ ],
+ "effects": {
+  "1f47601287d87521ef373614a63597469a99f7f472f462e2e7c86fdc082cb1de": "write",
+  "48211e40755531efeccd86f3787cdb064f0845d28649018969813394c168a980": "write",
+  "b2dc01c29795eab1a56da148a1f7d4231132fcb219c7177f0a4afbed49d62d93": "write",
+  "f1fcf4412dffd5b3e9e49711cf877c420ef95929cb28494756330ac30b190a3d": "write",
+  "62deb96506502b283ccae2ae3a7eef956b7075419b4e3fb5b0d0e86ee8b0d097": "write",
+  "03ed354092bfe47cbd920acae149f4dd1b03668696b5752432aeaebd3b521a89": "write",
+  "1234569cdfddf60a5053927efca06a18e73e94071694b7f2a2856d6862e3ab9b": "write",
+  "c779db9ce23237c6cf3f01c9b7890d31147f637658d92b760a1aece13c6d5f79": "write",
+  "7f7dc26330f0417be84f8427923c428d2620c527d3fbddee4555a4b612477d65": "write",
+  "977f41dfacb14f11356c78238b9a4c913d7003451d08739674da78e9d52f2ae2": "write",
+  "f001f66ee4d74d0f840168ad5cdc79f4b4d3c86a4dea84326ccaccba341f1ec0": "write",
+  "b56132a5fab82f050388cefc7b97d2168dc7f3dd73fabd0c5cdac4b1b8e353e2": "write",
+  "ff674e8d15ffec75e670c882cfc17f7ff1ba90a6d18b80dea4b80783e7f3186d": "write",
+  "9018dd5b26cfdcfe24b13c2bc66380413fffaf391acf97f0042064b7df3206ea": "write",
+  "7ce6608392e59052447f64d5168aa36629c1cbeecf97b9eb7f76f7ee122b1679": "write",
+  "10b3c38cb4fdbc8d64f9e2ba4b258c37db59db8459ef97fc9e6da0f1673d1938": "write"
+ },
+ "flags": []
+}

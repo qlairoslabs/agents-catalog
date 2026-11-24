@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "836a608bfce339d595e1e70e9363cc4a56bab5f759fc4545aacad4e1e0916e69",
+ "domain": [
+  "media/metadata",
+  "utilities"
+ ],
+ "product": [
+  "guessit",
+  "opensubtitles"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Parses movie and TV filenames into structured metadata such as title, year, season, episode, codecs, languages and release group.",
+ "whenToUse": "When an agent must extract title, season, episode or quality information from media filenames.",
+ "tasks": [
+  "parse a filename",
+  "parse up to 100 filenames in a batch",
+  "list recognised properties"
+ ],
+ "effects": {
+  "6758ece74843cca6570ece8bb3e74d203352de0caeb4eeb838de395b4ee37aa8": "read",
+  "5cc5237f14835433c69a3900be4396905f9e01f35287f6bf0f5fdadeea7b4fef": "read",
+  "54a3359ef2aabe666dd4ef1cf6ba313533ace37084b3b046e819fff2c8241bc8": "read"
+ },
+ "flags": []
+}

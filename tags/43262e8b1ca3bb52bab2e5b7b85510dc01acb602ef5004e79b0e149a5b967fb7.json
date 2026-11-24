@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "43262e8b1ca3bb52bab2e5b7b85510dc01acb602ef5004e79b0e149a5b967fb7",
+ "domain": [
+  "consumer/local-services",
+  "hospitality/booking"
+ ],
+ "product": [
+  "waitapp"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Lets an agent find venues and book tables, rooms and services, buy event tickets and order food delivery.",
+ "whenToUse": "Use when a user wants to book a venue, reserve a table, buy event tickets or order food.",
+ "tasks": [
+  "find venues",
+  "book tables",
+  "book rooms",
+  "book services",
+  "buy event tickets",
+  "order food delivery"
+ ],
+ "effects": {},
+ "flags": []
+}

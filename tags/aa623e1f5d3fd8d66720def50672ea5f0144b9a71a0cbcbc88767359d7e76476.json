@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "aa623e1f5d3fd8d66720def50672ea5f0144b9a71a0cbcbc88767359d7e76476",
+ "domain": [
+  "media/video-generation"
+ ],
+ "product": [
+  "seedance",
+  "aiunivid"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates Seedance 2.5 and 2.0 videos from chat, quoting credits before each job, with OAuth sign-in.",
+ "whenToUse": "Use when a user wants to generate AI videos with Seedance.",
+ "tasks": [
+  "generate videos",
+  "quote credits",
+  "sign in with OAuth"
+ ],
+ "effects": {},
+ "flags": []
+}

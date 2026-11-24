@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "725ad99da83e86e356a7415a59141452b7495932abbf2506600d144b9d0611f0",
+ "domain": [
+  "software/browser-automation"
+ ],
+ "product": [
+  "browsa"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Provides cloud browsers for AI agents and captcha solving for a user's own browser.",
+ "whenToUse": "Use when an agent needs a remote browser session or captcha solving for web automation.",
+ "tasks": [
+  "run cloud browsers",
+  "solve captchas"
+ ],
+ "effects": {},
+ "flags": [
+  "captcha-solving-can-bypass-bot-protection"
+ ]
+}

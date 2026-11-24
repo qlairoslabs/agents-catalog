@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "8965a627048d6c980f935068cc8f0ef9f4431487d9969dfc7aa3dcb30472b5c8",
+ "domain": [
+  "consumer/price-comparison",
+  "food-and-drink/beer"
+ ],
+ "product": [
+  "cerveja-barata"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds and ranks beer prices per litre at bars, supermarkets and drink shops in Brazilian cities.",
+ "whenToUse": "Use when a user wants the cheapest beer in a Brazilian city, nearby deals, or a price-per-litre calculation.",
+ "tasks": [
+  "convert price to price per litre",
+  "search beer deals",
+  "find cheapest prices now",
+  "get venue details",
+  "list neighbourhoods",
+  "read monthly price index",
+  "list catalogue"
+ ],
+ "effects": {
+  "ec3836be259b2adb7c9765659a26303781a28b9c9fcf2a8485ee40e651996e9a": "write",
+  "eebf69d5b24666bf0ba508ddb07b91a5ea536dbd96e2bb6669c949007ae3fe6a": "write",
+  "2273014a52f2a69d7bc36d30b87b950d636014e950db3b6c7a617575e23b737c": "write",
+  "85c5fbfab9fc9afc7356c56249fc8a600efeed261e780dfa4bd0ff9422f00561": "write",
+  "56e0b6b9e6ae05bf120bc15c63be283c1446ad2b7c081001884e10927a6b447d": "write",
+  "5902b0aebbb7cabc650d3e2a16ff5f89ae0cc33b7ab115a504aaafc710e39814": "write",
+  "8ffd12ffa6179445be6ebde89dc32815d6ecf3249b9fba70102734f6f6890fb2": "write"
+ },
+ "flags": []
+}

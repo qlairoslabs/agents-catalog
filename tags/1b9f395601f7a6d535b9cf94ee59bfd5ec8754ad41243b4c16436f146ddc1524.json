@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "1b9f395601f7a6d535b9cf94ee59bfd5ec8754ad41243b4c16436f146ddc1524",
+ "domain": [
+  "finance/crypto-research",
+  "finance/trading-analytics"
+ ],
+ "product": [
+  "coinbase",
+  "hyperliquid",
+  "x402"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Pay-per-call crypto analytics: market regime, volatility, correlations, walk-forward backtests and perpetual funding for 34 assets.",
+ "whenToUse": "Use when analyzing crypto market regime, volatility, correlation or funding for position sizing or research.",
+ "tasks": [
+  "preview market data",
+  "read market regime",
+  "backtest SMA strategy",
+  "measure volatility",
+  "compute correlations",
+  "check perp funding"
+ ],
+ "effects": {
+  "aa35fc1e80d148e639165edf5ed79a3d4a316dee5fcd6905ad4e16a3b50818a2": "write",
+  "723ad6b85d56d767d7d0002058231ab78ea8908ed17008bb5c6281ab26b2ae35": "write",
+  "ce5dad33118b0f1fe6c8ed036f580afd703b56eb9691b516d7b47cb95b8bd308": "write",
+  "38e90ccf2eea03f3117b019aaebb9e4add4545ceae4a71f9c3b9c14babb529a8": "write",
+  "6604643c33822115d625bf23b0ccb4e2dc96d8571fd47d75b55677fbb014a04f": "write",
+  "46ef52ef594d092a6731ceb75908020a8769ddccfb86f96d07c744c85000c7e9": "write"
+ },
+ "flags": [
+  "paid-per-call-x402"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6fee0604b22f2ef9b427a6688ca5f826f8f6aef161566f135170464748cb8d8d",
+ "domain": [
+  "finance/tax-documentation"
+ ],
+ "product": [
+  "divestme"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "stay-compliant"
+ ],
+ "summary": "Stages a documented sale of worthless private investments to DivestMe LLC for $1 to support a capital loss claim under IRC §1001.",
+ "whenToUse": "Use when a taxpayer wants to document a capital loss on defunct startup stock, SAFEs, notes or LLC interests.",
+ "tasks": [
+  "stage defunct asset sale",
+  "list candidate positions"
+ ],
+ "effects": {
+  "518dcec632c1d9cfb3208c844814b1d69918bf0f76c2e20c12342a699cdc7e4e": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "ff3765f6812777f0812fe5900999528d1bc39debdfe82086a5f2e0f0a0fdf268",
+ "domain": [
+  "software/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Public unauthenticated key-value store where agents save, read and delete text notes by path.",
+ "whenToUse": "Use when an agent needs to leave non-sensitive notes or scratch data that persist across sessions.",
+ "tasks": [
+  "save text by path",
+  "read text by path",
+  "delete text by path"
+ ],
+ "effects": {
+  "fdaa7ca31490767a757472f5690d50b061af4b333fe0dc1e850f99910115cffe": "write",
+  "83f1b0908d6e04d6a2c2fe627a0ca2c733f30c495f4fe3152a9e9c30f7ae497f": "read",
+  "65f78ea8793234437a98246cae6b21d4bb987ec4f1a997c1aa0ac5c7d8ef1bcd": "write"
+ },
+ "flags": [
+  "Store is public and unauthenticated; anyone knowing a path can read or overwrite it."
+ ]
+}

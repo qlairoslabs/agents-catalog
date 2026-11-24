@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "e554d402c002f55368a6cb7e37a83d47fc6b17e8162d49146d6a5c812e3afed4",
+ "domain": [
+  "software/code-review",
+  "software/testing"
+ ],
+ "product": [
+  "godprompt"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "MCP server and agent skill for code review, requirements, test planning and verification.",
+ "whenToUse": "Use when an agent needs structured prompts for reviewing code, drafting requirements or planning tests.",
+ "tasks": [
+  "review code",
+  "write requirements",
+  "plan tests",
+  "verify work"
+ ],
+ "effects": {},
+ "flags": []
+}

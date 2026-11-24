@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "4e717c670d862d416c15fae77a3d63940fad9f6cfc45c5e47a6e8a9ff0544d2a",
+ "domain": [
+  "lifestyle/astrology"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Read-only astrology service giving natal charts, transits, the sky of a day, and Vedic charts with dasha periods.",
+ "whenToUse": "Use when a user asks for astrological charts, transits or Vedic readings.",
+ "tasks": [
+  "compute natal chart",
+  "show transits",
+  "show sky of a day",
+  "compute Vedic chart",
+  "compute dasha"
+ ],
+ "effects": {},
+ "flags": []
+}

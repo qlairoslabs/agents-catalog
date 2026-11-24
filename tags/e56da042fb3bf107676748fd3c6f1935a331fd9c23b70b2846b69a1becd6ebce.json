@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "e56da042fb3bf107676748fd3c6f1935a331fd9c23b70b2846b69a1becd6ebce",
+ "domain": [
+  "legal/background-checks",
+  "finance/credit-risk"
+ ],
+ "product": [
+  "evidence-exekuci"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks Czech registers for a person or company: executions (paid), insolvency, land registry, ID validity, sanctions and VAT reliability.",
+ "whenToUse": "Use when you need to vet a Czech person or company for debts, insolvency, sanctions or ID validity.",
+ "tasks": [
+  "create check",
+  "check insolvency register",
+  "check land registry",
+  "check sanctions",
+  "validate ID document",
+  "check VAT reliability",
+  "order executions report",
+  "get report"
+ ],
+ "effects": {
+  "21ddb7087b768ad64ba963e126e00b2bcff056ceb4804a52fe88be907fb01e9b": "write",
+  "04d3297b1b8d4f93698439919a4d3ae29207f50f3fc9f7926f7bd1a23cfde3e1": "read",
+  "f6fcca457e6b459ed3b890bd7dd307faf62e97cc55a0cf3ec263eed30149e7be": "write",
+  "331bd648e1b759ff406c7ee21164b6f7f63f8915b485a48b8baeb28baac0de63": "read"
+ },
+ "flags": []
+}

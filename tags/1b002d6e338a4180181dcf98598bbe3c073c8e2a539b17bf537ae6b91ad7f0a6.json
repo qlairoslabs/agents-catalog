@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "1b002d6e338a4180181dcf98598bbe3c073c8e2a539b17bf537ae6b91ad7f0a6",
+ "domain": [
+  "software/ai-cost-management"
+ ],
+ "product": [
+  "trazum"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "build-software"
+ ],
+ "summary": "Lets an agent estimate the price and budget of its own prompts before sending them, via Trazum.",
+ "whenToUse": "When an agent should check the cost of a prompt before running it.",
+ "tasks": [
+  "estimate prompt cost",
+  "budget prompts"
+ ],
+ "effects": {},
+ "flags": []
+}

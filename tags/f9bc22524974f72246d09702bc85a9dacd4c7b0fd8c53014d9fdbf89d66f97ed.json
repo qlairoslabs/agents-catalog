@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "f9bc22524974f72246d09702bc85a9dacd4c7b0fd8c53014d9fdbf89d66f97ed",
+ "domain": [
+  "healthcare/clinic-management",
+  "software/help-center"
+ ],
+ "product": [
+  "all4clinic",
+  "whatsapp"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "schedule",
+  "sell"
+ ],
+ "summary": "Help guides, pricing plans, FAQ and meeting-time lookup for All4Clinic clinic management software in Brazil.",
+ "whenToUse": "Use when someone asks how to do something in All4Clinic, which plan fits a clinic, or wants a demo or training slot.",
+ "tasks": [
+  "search help guides",
+  "read help articles",
+  "list plans and recommend one",
+  "find demo or training times",
+  "explain signup steps",
+  "answer FAQs",
+  "list help topics"
+ ],
+ "effects": {
+  "39707912e4109292d262285e3207fc3cf09109e0e6b4a4ac9b91caceecb8e413": "write",
+  "4299410b4fd55e1bf0c2c60468640d71e175ef5d9f7db422051a2f35a142a0f1": "write",
+  "61060328b7ebfd9587aa357e9b9c34fbcc8e2f94e1192da901086e1bf829ce84": "write",
+  "2479e4fd710375eaa92185b8dbe816128a26fbf8d6c240e1038877eeed23850d": "write",
+  "b51179b7002f41731e6ede7ddeae867351bd7acca0524d4ddafcd5262632514b": "write",
+  "12f8341506fecf3e1defb4d7e9eb5448d16056cc321c53eb986a45f380b619af": "write",
+  "1599f61904643a06a41beeaef74a1e8a808bd05bb36778e44d8685d3e0fca997": "write"
+ },
+ "flags": []
+}

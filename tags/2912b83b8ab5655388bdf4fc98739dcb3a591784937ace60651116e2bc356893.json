@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "2912b83b8ab5655388bdf4fc98739dcb3a591784937ace60651116e2bc356893",
+ "domain": [
+  "gaming/pokemon",
+  "reference"
+ ],
+ "product": [
+  "pokemon",
+  "pokemon-tcg-pocket",
+  "ptcg"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Pokémon reference tools: Pokédex lookup, team analysis, type matchups, stat calculator, and TCG Pocket and Simplified Chinese PTCG card search.",
+ "whenToUse": "When a user asks about Pokémon stats, type matchups, team building or searching trading cards.",
+ "tasks": [
+  "look up a Pokémon",
+  "analyze a team",
+  "calculate type matchups",
+  "calculate stats",
+  "search TCG Pocket cards",
+  "search Chinese PTCG cards"
+ ],
+ "effects": {
+  "89f1c8fafd90936e5e6e8940df730437e6267d3ac59d6a78c8cace79e0f08a9c": "read",
+  "ad446ce9512e589c71531c46a716258e9376c8b00201f69441a1ced1db16e10c": "read",
+  "09829d752469406c3afb237ff990d30eef5a07279918fc0cb083f9881a6e4952": "read",
+  "3bcacd58a93f5ff491e7fc1e9b17f82a91101d062950de3501c02dfbcdb68865": "read",
+  "1b436cb98ca9140f034bec0a0e028b7df982be67294e92664146f41a97fbac2f": "read",
+  "c6b224fe77eff72f10a0ba0885d539053120539648328de410a914b99c071244": "read"
+ },
+ "flags": []
+}

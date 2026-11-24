@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "2fd4c58e167765051dc3e5f19a3bd266c8b74b9bee43932f2b90cd007107c40b",
+ "domain": [
+  "public-safety/disaster-monitoring"
+ ],
+ "product": [
+  "gdacs"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Queries GDACS disaster data: earthquakes, cyclones, floods, volcanoes, wildfires and droughts, with alerts and statistics.",
+ "whenToUse": "Use when you need current or historical global disaster events, alert levels or statistics by country.",
+ "tasks": [
+  "get event details",
+  "search events",
+  "list active disasters",
+  "get statistics",
+  "get recent alerts",
+  "get events by country",
+  "list event types",
+  "explain alert levels"
+ ],
+ "effects": {
+  "03e7485b452fcb70f08ab2ddfb22fd1016c1bbeaae05b376d82ad5b3d8b328ba": "read",
+  "a03536b333578d4bea022c7137f5fc5169b8dc08721b2344b15dd741de9a275b": "read",
+  "e03ea97b5593b726ddefa5dfaa78cb1be000f20aa757da6815937b1b1060879a": "read",
+  "2ae678cf2c250739c6582b2bdaa15c4b4d4441f6e900d009fdfda30f92b11b33": "read",
+  "b8ba6a0292ba221989f454ab34d71d86ad2114f3d68926bb4ffbc09be1ea3e76": "read",
+  "34c16da7dad20c68dd2b09611421f684ff0b75ef349991c318654857d8d74442": "read",
+  "cea994372b211bad15a5fe88af1edb4fd338b8d8e901a07d9879a870b8588555": "read",
+  "2c8f0468ed736b246446518f21e3a894728df064d4fb41ff0f41ca7f7db0dd99": "read"
+ },
+ "flags": []
+}

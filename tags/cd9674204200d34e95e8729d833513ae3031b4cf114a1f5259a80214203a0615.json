@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "cd9674204200d34e95e8729d833513ae3031b4cf114a1f5259a80214203a0615",
+ "domain": [
+  "identity/verification",
+  "healthcare/records"
+ ],
+ "product": [
+  "allclear"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Provides verified identity and consented personal context such as medical records, images and insurance via OAuth, OIDC and MCP.",
+ "whenToUse": "Use when an agent needs verified identity or user-consented health records and insurance data.",
+ "tasks": [
+  "verify identity",
+  "share consented medical records",
+  "share insurance data",
+  "authenticate via OAuth/OIDC"
+ ],
+ "effects": {},
+ "flags": []
+}

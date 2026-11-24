@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "6513c1db4399779c6d456229afdc608b0e9c70c75d335fe191b0b7dcb236533f",
+ "domain": [
+  "media/news"
+ ],
+ "product": [
+  "vi-update",
+  "good-day",
+  "straight-record"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Search and read U.S. Virgin Islands news from VI Update, Good Day and The Straight Record, including fact checks and papers.",
+ "whenToUse": "Use when a user wants U.S. Virgin Islands news coverage or fact checks.",
+ "tasks": [
+  "search articles",
+  "fetch full text",
+  "get latest items",
+  "list items by date",
+  "read Good Day edition",
+  "read Straight Record edition",
+  "get claims of the week",
+  "see coverage scope"
+ ],
+ "effects": {
+  "048fe6dc27f1ac3c634ed2a913e38812baebff9be48c5c4cc990adfe9c47ef9b": "write",
+  "5bda8b307f28466aae4956e248a3cdcfc84f87773eb69c539f119215b7307dab": "write",
+  "7d3f61f2cadee2825155905af6bd9300f74d197e5b61f801a8e071ec4d00d281": "read",
+  "21648d473fc65bd33304387a199e975b2de0446ac8f2cc1baaa115d4fa0afe0b": "read",
+  "234a27c16c4659bdff993daa0da28c9a8df9355afe0a76ed44d75648823202a9": "read",
+  "d1a89eb79996929b7d9aafa52ca8d1b4beb63b4e5ba3b293b3d3e41190e35f21": "read",
+  "a1e22d6ffbc07498b01b48fe9fa91609aae52acc0b826658c9de5149282e488e": "read",
+  "66db9c9f52043b206ddc2edb9493faf56a14e3df229950d0467ae69baf3ce105": "read"
+ },
+ "flags": []
+}

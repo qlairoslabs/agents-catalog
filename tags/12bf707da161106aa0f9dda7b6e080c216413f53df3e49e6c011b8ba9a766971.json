@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "12bf707da161106aa0f9dda7b6e080c216413f53df3e49e6c011b8ba9a766971",
+ "domain": [
+  "communication/email",
+  "security/governance"
+ ],
+ "product": [
+  "gmail",
+  "microsoft-365",
+  "imap"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Email access for agents across Gmail, M365 and IMAP with per-mailbox permissions, a send allowlist and audit log.",
+ "whenToUse": "Use when an agent needs governed access to read or send email from controlled mailboxes.",
+ "tasks": [
+  "read email",
+  "send email",
+  "enforce permissions",
+  "audit activity"
+ ],
+ "effects": {},
+ "flags": []
+}

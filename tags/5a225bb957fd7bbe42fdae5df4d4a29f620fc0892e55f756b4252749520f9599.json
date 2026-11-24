@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "5a225bb957fd7bbe42fdae5df4d4a29f620fc0892e55f756b4252749520f9599",
+ "domain": [
+  "finance/credit-cards"
+ ],
+ "product": [
+  "maxworth"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Read-only access to the cards, credits and offers a user tracks in MaxWorth, via OAuth sign-in.",
+ "whenToUse": "Use when a user asks about their own tracked credit cards, credits and offers.",
+ "tasks": [
+  "view tracked cards",
+  "view card credits",
+  "view offers"
+ ],
+ "effects": {},
+ "flags": []
+}

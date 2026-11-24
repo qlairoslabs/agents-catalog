@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "5564680862ceb67cf289a506385b1f7407792ada88d3853050cc6d8d538f53d3",
+ "domain": [
+  "legal/case-law",
+  "legal/swiss-law"
+ ],
+ "product": [
+  "entscheidsuche"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and fetches Swiss federal and cantonal court decisions in German, French and Italian.",
+ "whenToUse": "Use when researching Swiss case law, looking up a BGE citation or reading a court decision.",
+ "tasks": [
+  "semantic search decisions",
+  "keyword search decisions",
+  "look up by case number",
+  "fetch full decision text",
+  "list courts and cantons"
+ ],
+ "effects": {
+  "e17bfb41d357886d51b6553a981f87579429cf707b53d508efbde67953ccc228": "write",
+  "c271349fd1ad5dff8c3cd585c8281345821f5914d7b426da02030fed18aed70d": "write",
+  "3a7c7a12e8c1779c1fdc1c1c4e60bacf456aa911a0c56666c0eefca3e7986fdc": "write",
+  "967671de1360b81b925b2a7a1c1be1d9c3b27c54fdf8e3d4fde2fe3db4fd8906": "write",
+  "0880611e6c874e629cb06b555d1c63d611cecbae220a7e48dd4ad46e5d771e7d": "write",
+  "bb1bba0ade9b589f734a14d77497b2174c368e6c92e6f7d2e5a7ad782350a62a": "write",
+  "4a2e52cfdc2d9a8c8c5ba4ef5b289cefc36d8b8108c62ea7bad55a2922efc225": "write",
+  "6db033f8dce97afe78df6061ad2511b2d15a41a8d06f23bdc663307cbaf60c00": "write",
+  "7eb058fcafcb68a6f667c0cad2ce4ff6bdeb2e7307e140b5daa93bc78124b4f4": "write"
+ },
+ "flags": []
+}

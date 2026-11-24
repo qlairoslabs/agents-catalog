@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "ddf5168b08ebbd49816c621e8d2d417febeee66d6bcbcc27f3606f174adc37b1",
+ "domain": [
+  "software/bug-reporting"
+ ],
+ "product": [
+  "bugscreen"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "support-customers"
+ ],
+ "summary": "Configures mobile bug reporting and lets a coding assistant investigate retained reports.",
+ "whenToUse": "Use when setting up in-app bug reporting or investigating reported mobile bugs.",
+ "tasks": [
+  "configure bug reporting",
+  "investigate bug reports"
+ ],
+ "effects": {},
+ "flags": []
+}

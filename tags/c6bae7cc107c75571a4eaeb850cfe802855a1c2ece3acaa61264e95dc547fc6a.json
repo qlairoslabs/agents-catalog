@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "c6bae7cc107c75571a4eaeb850cfe802855a1c2ece3acaa61264e95dc547fc6a",
+ "domain": [
+  "personal/portfolio"
+ ],
+ "product": [
+  "github",
+  "leetcode"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to one person's portfolio: projects, posts, work history, profile, tech stack and coding activity.",
+ "whenToUse": "Use when you need background on Bo Kendell's projects, experience or skills.",
+ "tasks": [
+  "list projects",
+  "get project",
+  "list posts",
+  "get post",
+  "get experience",
+  "get profile",
+  "get tech stack",
+  "get activity"
+ ],
+ "effects": {
+  "1cfe1facf8bc5c29c6f47f7ebfd09e598814a87c54e93e294ded59015e24fabd": "write",
+  "33a3ee846379a79f67850689cbf531c4c1431a8b8f0895757713a96daabebec7": "write",
+  "4b8b01cc8269004d1270fcc3b4b0fe9febc9c0f137a395a98c363311731a9fb5": "write",
+  "efd8ba20f3573746326953b9ca2ccbab52b27c710f6cb63e462d230f6029ad18": "write",
+  "d4a9420d511a0899051c4a7f7e124dfca1fc0dec3a9fbeb0494bfc62d210d640": "write",
+  "27311e4cae8f139a415a463469cb10a4e01c9304ba047fe06b12c966b12d25e6": "write",
+  "bbedf4088eee73f3ebda1ec2b6cbfc0b44c32075041f0249ccbe99d72e161435": "write",
+  "0d6567312d525950ab8487bd441dba788b554d0bcf185369cab4c9b8ef11dab1": "write"
+ },
+ "flags": []
+}

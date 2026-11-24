@@ -1,1 +1,4367 @@
-[]
+[
+ {
+  "id": "community-feed:academy.ase/periodic-system",
+  "status": "ok",
+  "code": "01.07",
+  "secondary_codes": "",
+  "summary": "Practices for building software with coding agents; each comes with a test you can run on your repo.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ae.propick/propick",
+  "status": "ok",
+  "code": "27.01",
+  "secondary_codes": "27.04",
+  "summary": "Sync and manage real-estate listings on Propick in Dubai, with lookups and run reports.",
+  "language": "en",
+  "regions": "United Arab Emirates"
+ },
+ {
+  "id": "community-feed:agency.zoll/ausfuhr",
+  "status": "ok",
+  "code": "33.05.03",
+  "secondary_codes": "",
+  "summary": "Check EU export rules: origin cumulation, preference certificates, Incoterms, tariff codes and export declarations.",
+  "language": "de",
+  "regions": "EU"
+ },
+ {
+  "id": "community-feed:ai.arketo/arketo",
+  "status": "ok",
+  "code": "14.07",
+  "secondary_codes": "",
+  "summary": "Diagram your app architecture on a live canvas and flag bottlenecks and security gaps.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.asms/asms",
+  "status": "ok",
+  "code": "12.04",
+  "secondary_codes": "",
+  "summary": "Rent phone numbers that receive SMS, for verification codes, for AI agents.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.atlier/project-desk",
+  "status": "ok",
+  "code": "14.01.02",
+  "secondary_codes": "",
+  "summary": "Track agent-driven work across several projects with an automatically updated task board.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.authoryze/authoryze",
+  "status": "ok",
+  "code": "07.07.03",
+  "secondary_codes": "07.08",
+  "summary": "Give an AI agent spending limits, approval controls and single-use virtual cards.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.autobound/signals",
+  "status": "ok",
+  "code": "11.04",
+  "secondary_codes": "11.02.02",
+  "summary": "Get company and contact signals: funding, hiring, job changes, SEC filings and buyer intent.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.cloudworldmodel/cloud-world-model",
+  "status": "ok",
+  "code": "02.10",
+  "secondary_codes": "02.06",
+  "summary": "Simulate cloud infrastructure and estimate its cost before you deploy or change it.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.contractorsnearme/contractors-near-me",
+  "status": "ok",
+  "code": "27.05",
+  "secondary_codes": "26.01",
+  "summary": "Search licensed US contractors by trade and location, read reviews, and browse or post project bids.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:ai.free/mcp",
+  "status": "ok",
+  "code": "06.01",
+  "secondary_codes": "23.03.02",
+  "summary": "Chat with many AI models, generate images and turn text into speech through one server.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.gessa/mcp-server",
+  "status": "ok",
+  "code": "01.10",
+  "secondary_codes": "23.04.03",
+  "summary": "Generate game-ready 3D models, textures and audio from text prompts.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.gleap/mcp",
+  "status": "ok",
+  "code": "13.01",
+  "secondary_codes": "11.01",
+  "summary": "Manage support tickets, contacts, CRM, help center and support stats in Gleap after OAuth sign-in.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.hexahq/hexa",
+  "status": "ok",
+  "code": "14.04.02",
+  "secondary_codes": "08.04",
+  "summary": "Share company knowledge, workflows and connected apps with the AI tools your team already uses.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.infrapulse/infrapulse",
+  "status": "ok",
+  "code": "07.07.01",
+  "secondary_codes": "07.05.01",
+  "summary": "Give agents discovery, authorization, execution, identity and signed receipts for their actions.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.justdeploy/mcp",
+  "status": "ok",
+  "code": "02.02",
+  "secondary_codes": "02.09",
+  "summary": "Deploy and manage apps, databases, storage and scheduled jobs from your AI agent.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.kooma/kooma",
+  "status": "ok",
+  "code": "23.03.02",
+  "secondary_codes": "14.11;23.06",
+  "summary": "Text-to-speech, transcription and translation in Bambara (Bamanankan) and other languages.",
+  "language": "en",
+  "regions": "Africa"
+ },
+ {
+  "id": "community-feed:ai.lounge/ai-lounge",
+  "status": "ok",
+  "code": "19.06",
+  "secondary_codes": "16.04.02",
+  "summary": "Ask about AI companies, revenue, funding, investors, events and AI builders.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.mangii/manga",
+  "status": "ok",
+  "code": "23.01.01",
+  "secondary_codes": "",
+  "summary": "Generate manga and anime art from text prompts, in 24 styles, with multi-panel stories.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.paperlist/paperlist",
+  "status": "ok",
+  "code": "31.04",
+  "secondary_codes": "",
+  "summary": "Search papers from 36 AI conferences, including NeurIPS, ICLR, ICML and CVPR.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.plune/cli#npm:%40plune-ai%2Fcli",
+  "status": "ok",
+  "code": "01.03.02",
+  "secondary_codes": "",
+  "summary": "Manage test cases, review queues, missions and reports for agent-driven QA.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.qaf/qaf",
+  "status": "ok",
+  "code": "24.08",
+  "secondary_codes": "24.05",
+  "summary": "Search and read classical Islamic books in Arabic; requires a Qaf account.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.rankera/rankera",
+  "status": "brochure",
+  "code": "10.03",
+  "secondary_codes": "",
+  "summary": "Look up facts, pricing and services of Rankera's AI visibility service and search its website pages.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.roosteragents/agent-economy",
+  "status": "ok",
+  "code": "07.04",
+  "secondary_codes": "10.05",
+  "summary": "Let AI agents hire verified human creators to post on social accounts, with offers and rate benchmarks.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.sapling/sapling",
+  "status": "ok",
+  "code": "23.05",
+  "secondary_codes": "08.07",
+  "summary": "Check grammar, detect AI-written text, and paraphrase writing.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.thedrive/thedriveai",
+  "status": "ok",
+  "code": "02.09",
+  "secondary_codes": "14.08",
+  "summary": "Find, read and reorganize files across Google Drive, OneDrive, SharePoint and Dropbox, with undo.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ai.zsky/zsky",
+  "status": "ok",
+  "code": "23.01.01",
+  "secondary_codes": "23.02.01",
+  "summary": "Generate AI images and short videos with a paid ZSky account, and animate a finished image.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.actionbook/actionbook",
+  "status": "ok",
+  "code": "08.03",
+  "secondary_codes": "",
+  "summary": "Let an AI agent operate any website in your logged-in browser session.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.agentindex/agentindex",
+  "status": "ok",
+  "code": "07.05.01",
+  "secondary_codes": "08.06",
+  "summary": "Search a directory of open-source AI agents, MCP servers and developer tools by keyword or category.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.ainovelist/novelist",
+  "status": "ok",
+  "code": "23.07",
+  "secondary_codes": "23.05",
+  "summary": "Prepare complete illustrated AI novels in 22 languages, then review and pay on the Novelist website.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.altcoinchasershq/acai",
+  "status": "ok",
+  "code": "20.01",
+  "secondary_codes": "20.04",
+  "summary": "Crypto research tools for new launches, surges, daily picks, token forensics and rug checks.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.aplusz/flight-fares",
+  "status": "ok",
+  "code": "25.01",
+  "secondary_codes": "",
+  "summary": "Find the cheapest observed one-way fare between two cities, plus the six-month low and best departure date.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.auditae/mcp",
+  "status": "ok",
+  "code": "10.02.02",
+  "secondary_codes": "10.02.01",
+  "summary": "Check Search Console, GA4, search results and rank data for SEO, with suggested site fixes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.betterqr/betterqr",
+  "status": "ok",
+  "code": "03.05",
+  "secondary_codes": "04.01",
+  "summary": "Read your dynamic QR codes and their per-placement scan analytics from an AI agent (beta).",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.bitledger/bitledger",
+  "status": "ok",
+  "code": "15.06",
+  "secondary_codes": "15.01",
+  "summary": "Review crypto transactions and get tax figures and source-of-funds records for Swiss, German and Austrian tax.",
+  "language": "en",
+  "regions": "Switzerland;Germany;Austria"
+ },
+ {
+  "id": "community-feed:app.boxitem/boxitem",
+  "status": "ok",
+  "code": "16.03",
+  "secondary_codes": "",
+  "summary": "Search and organize your inventory of warehouses, boxes, items and photos, with undo for any change.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.bugscreen/mcp",
+  "status": "ok",
+  "code": "04.01",
+  "secondary_codes": "01.09",
+  "summary": "Set up in-app bug reporting for mobile apps and investigate retained reports from your coding assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.call2me/mcp",
+  "status": "ok",
+  "code": "12.06",
+  "secondary_codes": "12.04",
+  "summary": "Place real phone calls, read transcripts, run a live interpreter and buy phone numbers.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.cesure/cesure",
+  "status": "ok",
+  "code": "23.03.03",
+  "secondary_codes": "30.09",
+  "summary": "Write, edit, transpose and play guitar tabs and staff notation in Cesure.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.chartsy/chartsy",
+  "status": "ok",
+  "code": "15.04",
+  "secondary_codes": "10.08.01",
+  "summary": "Read-only revenue analytics for subscription products across Stripe, Paddle, Polar, Lemon Squeezy and more.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.dazbench/dazbench",
+  "status": "ok",
+  "code": "14.01.01",
+  "secondary_codes": "07.04",
+  "summary": "Task management that AI agents can run: turn one line into a context-ready task over MCP.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.eini/eini",
+  "status": "ok",
+  "code": "22.04",
+  "secondary_codes": "21.04;30.02",
+  "summary": "Find Swiss supermarket deals at 8 chains and look up official 2027 health insurance premiums.",
+  "language": "en",
+  "regions": "Switzerland"
+ },
+ {
+  "id": "community-feed:app.fluxsocial/fluxsocial",
+  "status": "ok",
+  "code": "10.04.01",
+  "secondary_codes": "23.02.01",
+  "summary": "Create social media posts and animated promo videos for a small business by chatting.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.founderhood/founderhood",
+  "status": "ok",
+  "code": "17.05",
+  "secondary_codes": "16.04.02",
+  "summary": "Search indie founders and online businesses by city or country, and submit your own listing for review.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.getfleek/deals",
+  "status": "ok",
+  "code": "22.03.02",
+  "secondary_codes": "22.04",
+  "summary": "Compare current Fleek prices for digital subscriptions against list price, with plan breakdowns and app links.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.getfleek/partners",
+  "status": "ok",
+  "code": "22.07",
+  "secondary_codes": "13.06",
+  "summary": "Find subscription brands to offer through card, loyalty or employee-benefit programmes, and start partner sign-up.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.housefile/licensing",
+  "status": "ok",
+  "code": "27.04",
+  "secondary_codes": "34.01",
+  "summary": "Check whether an England postcode falls under a council's selective or HMO licensing scheme, with fees and dates.",
+  "language": "en",
+  "regions": "United Kingdom"
+ },
+ {
+  "id": "community-feed:app.ideakiller/idea-validator",
+  "status": "ok",
+  "code": "16.05",
+  "secondary_codes": "08.05",
+  "summary": "Validate a startup idea with live web research, getting a GO, PIVOT or NO_GO verdict with evidence.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.instaclock/instaclock",
+  "status": "ok",
+  "code": "14.09",
+  "secondary_codes": "",
+  "summary": "Track time with personal timers, log hours and summarize them by activity.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.kasar/crm",
+  "status": "ok",
+  "code": "11.01",
+  "secondary_codes": "12.03",
+  "summary": "CRM with records, pipelines, tasks, calendar and a combined email, LinkedIn and WhatsApp inbox.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.listspace/listspace",
+  "status": "ok",
+  "code": "07.01.03",
+  "secondary_codes": "14.01.02",
+  "summary": "Lets agents read and update your Listspace project boards as shared project memory.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.lovedone/soft",
+  "status": "ok",
+  "code": "28.01",
+  "secondary_codes": "15.02",
+  "summary": "Manage care clients, visits, notes, invoices and scheduling in LovedOne Soft from an agent.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.mailtea/mailtea",
+  "status": "ok",
+  "code": "10.06",
+  "secondary_codes": "12.01",
+  "summary": "Send email and newsletters through Mailtea, with skills for email and website design.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.mastheads/newsroom",
+  "status": "ok",
+  "code": "23.07",
+  "secondary_codes": "",
+  "summary": "Write and publish your own AI-run newsroom: articles, sources, fact checks and an editor of record.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.maxworth/maxworth",
+  "status": "ok",
+  "code": "21.03",
+  "secondary_codes": "",
+  "summary": "Read-only view of the credit cards, card credits and offers you track in MaxWorth, after OAuth sign-in.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:app.maxworth/maxworth-public",
+  "status": "ok",
+  "code": "21.03",
+  "secondary_codes": "22.04",
+  "summary": "Look up credit card fees, credits, earn rates, offers and cashback portal rates for the US, Canada and Australia.",
+  "language": "en",
+  "regions": "United States;Canada;Australia"
+ },
+ {
+  "id": "community-feed:app.maylee/maylee",
+  "status": "ok",
+  "code": "12.03",
+  "secondary_codes": "",
+  "summary": "Read, search, triage, draft and send email with Maylee, including labels and AI label rules.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.milanaura/authority-check",
+  "status": "ok",
+  "code": "10.12",
+  "secondary_codes": "17.05",
+  "summary": "Get a free analysis of a professional profile with its biggest gap, a first action and a draft post.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.mobela/mobela",
+  "status": "ok",
+  "code": "29.01",
+  "secondary_codes": "",
+  "summary": "Read your runs, walks, lifts, sleep and heart rate from Mobela, plus your AI coach's notes on you.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.myocr/mcp",
+  "status": "ok",
+  "code": "14.05.01",
+  "secondary_codes": "14.05.02",
+  "summary": "Convert PDF bank statements, invoices and tables to Excel and check that the balances add up.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.myrlo/creator-tools",
+  "status": "ok",
+  "code": "23.05",
+  "secondary_codes": "",
+  "summary": "Create and edit characters, stories and fictional worlds, reviewing each change before it saves.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.nudgebell/reminders",
+  "status": "ok",
+  "code": "14.01.01",
+  "secondary_codes": "12.04",
+  "summary": "Send escalating reminders by email, WhatsApp, SMS or phone call until you acknowledge them.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.octopad/octopad",
+  "status": "ok",
+  "code": "07.01.01",
+  "secondary_codes": "07.06",
+  "summary": "Give ChatGPT, Claude and other AIs one shared workspace and working method across tools.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.oio/oio",
+  "status": "ok",
+  "code": "14.01.02",
+  "secondary_codes": "",
+  "summary": "Manage freelance projects, tickets, notes and to-dos in the OIO workspace; needs the Pro plan.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.papely/papely",
+  "status": "ok",
+  "code": "14.05.04",
+  "secondary_codes": "",
+  "summary": "Generate PDFs from your Papely templates, singly, as a ZIP batch, or emailed to recipients.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.pascal/editor",
+  "status": "ok",
+  "code": "27.06",
+  "secondary_codes": "32.08",
+  "summary": "Create, inspect, validate and save editable 3D building scenes through Pascal's MCP server.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.pulltrader/seller-economics",
+  "status": "ok",
+  "code": "24.07",
+  "secondary_codes": "22.01.02",
+  "summary": "Identify trading cards, check recent sold prices and compare marketplace fees before you sell.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.scuba/scuba",
+  "status": "ok",
+  "code": "14.04.03",
+  "secondary_codes": "",
+  "summary": "Search your saved Scuba captures and collections, and save new findings to them.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.shelfclub/books",
+  "status": "ok",
+  "code": "24.05",
+  "secondary_codes": "",
+  "summary": "Search 1.7 million books by title, author, mood, pace or genre, and browse similar or trending books.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.simple-host/mcp",
+  "status": "ok",
+  "code": "02.02",
+  "secondary_codes": "03.04",
+  "summary": "Publish websites with a small backend of key-value storage, SQLite and files, driven by agents.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.spliteo/spliteo",
+  "status": "ok",
+  "code": "21.01",
+  "secondary_codes": "15.08",
+  "summary": "Split group expenses, settle debts and track budgets in 107 currencies; requires Spliteo Premium.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.steadywrk/mcp-dispatch",
+  "status": "ok",
+  "code": "03.06",
+  "secondary_codes": "22.01.03",
+  "summary": "Check a storefront's readiness for AI agents with a keyless audit, and get dispatch estimates and quotes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.superdocs/superdocs",
+  "status": "ok",
+  "code": "14.05.04",
+  "secondary_codes": "14.05.01",
+  "summary": "Edit documents with AI through 38 MCP tools; agents can sign themselves up.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.thedogs/dog-breed-advisor",
+  "status": "ok",
+  "code": "30.08",
+  "secondary_codes": "21.04",
+  "summary": "Match, compare and research dog breeds, plan a test drive, and estimate US vet and insurance costs.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:app.thegetfit/getfit",
+  "status": "ok",
+  "code": "29.01",
+  "secondary_codes": "",
+  "summary": "Build or search workouts that fit your time and equipment, and browse community workout contributors.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.theona/linkedin-content-planner",
+  "status": "ok",
+  "code": "10.04.01",
+  "secondary_codes": "23.05",
+  "summary": "Draft and revise LinkedIn posts for review; a person approves each post before it goes live.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.there-there/there-there",
+  "status": "ok",
+  "code": "13.01",
+  "secondary_codes": "13.02",
+  "summary": "Read, triage and reply to support tickets, and edit the helpdesk knowledge base.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.thesaga/saga",
+  "status": "ok",
+  "code": "11.01",
+  "secondary_codes": "10.06",
+  "summary": "Manage contacts, pipelines, follow-ups and broadcasts for network marketing teams.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.thetasks/tasks",
+  "status": "ok",
+  "code": "14.01.02",
+  "secondary_codes": "14.09",
+  "summary": "Create and update tasks on Tasks boards, comment, and track time.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.toolsnap/toolsnap-mcp",
+  "status": "ok",
+  "code": "08.02.02",
+  "secondary_codes": "",
+  "summary": "Small deterministic utility tools for agents, including a page fetch-and-extract tool; no keys needed.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.tradeit/mcp",
+  "status": "ok",
+  "code": "19.05",
+  "secondary_codes": "19.01.01",
+  "summary": "View brokerage holdings and orders, look up assets, and place trades you approve.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.traderspy/traderspy",
+  "status": "ok",
+  "code": "20.01",
+  "secondary_codes": "20.02",
+  "summary": "Crypto market signals, whale positions, technical indicators, derivatives data, screener and backtests.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.veteranhq/va-disability-benefits",
+  "status": "ok",
+  "code": "34.07",
+  "secondary_codes": "18.02",
+  "summary": "Reference for VA disability ratings and compensation rates, with search over 38 CFR regulations.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:app.weekendflights/weekendflights",
+  "status": "ok",
+  "code": "25.01",
+  "secondary_codes": "",
+  "summary": "See the cheapest round-trip price for every weekend over the next 12 months.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.wellintel/permits",
+  "status": "ok",
+  "code": "33.01",
+  "secondary_codes": "34.01",
+  "summary": "Look up drilling permits in Texas, New Mexico, Oklahoma and Louisiana from state regulators.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:app.wonbuddhism/scripture",
+  "status": "ok",
+  "code": "24.08",
+  "secondary_codes": "24.12",
+  "summary": "Search and read Won Buddhism scripture with citations, plus hymns and the Won Buddhism dictionary.",
+  "language": "ko",
+  "regions": "South Korea"
+ },
+ {
+  "id": "community-feed:app.wonderkit/discover",
+  "status": "ok",
+  "code": "25.03",
+  "secondary_codes": "26.05",
+  "summary": "Browse read-only city guides and public multi-day itineraries for family and group trips.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:app.youb/coach",
+  "status": "ok",
+  "code": "29.01",
+  "secondary_codes": "",
+  "summary": "Manage endurance training data and plan race preparation.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:au.com.truo/truo",
+  "status": "ok",
+  "code": "21.02",
+  "secondary_codes": "",
+  "summary": "Ask your AI about your own Australian bank accounts; access is read-only.",
+  "language": "en",
+  "regions": "Australia"
+ },
+ {
+  "id": "community-feed:audio.everlit/mcp",
+  "status": "ok",
+  "code": "23.03.02",
+  "secondary_codes": "23.08",
+  "summary": "Turn articles and text into narrated audio, playlists and podcast feeds.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:be.databakkes/company-data",
+  "status": "ok",
+  "code": "16.04.01",
+  "secondary_codes": "16.04.03",
+  "summary": "Look up Belgian company registry records, annual accounts and Staatsblad notices.",
+  "language": "en",
+  "regions": "Belgium"
+ },
+ {
+  "id": "community-feed:be.realbam/catalog",
+  "status": "ok",
+  "code": "22.08",
+  "secondary_codes": "",
+  "summary": "Search and browse a candle shop's catalog: products, prices, stock and details, read-only.",
+  "language": "en",
+  "regions": "EU"
+ },
+ {
+  "id": "community-feed:bot.myagi/openagent-registry",
+  "status": "ok",
+  "code": "03.06",
+  "secondary_codes": "07.05.01",
+  "summary": "Score how ready any website is for AI agents and look up existing agent-readiness scores.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:br.com.cervejabarata/mcp",
+  "status": "ok",
+  "code": "22.03.02",
+  "secondary_codes": "26.01",
+  "summary": "Compare beer prices per litre at Brazilian bars, supermarkets and depósitos, city by city.",
+  "language": "en",
+  "regions": "Brazil"
+ },
+ {
+  "id": "community-feed:br.com.iajus/iajus-juris",
+  "status": "ok",
+  "code": "18.01",
+  "secondary_codes": "",
+  "summary": "Search Brazilian legal research and case law.",
+  "language": "pt",
+  "regions": "Brazil"
+ },
+ {
+  "id": "community-feed:br.com.iajus/iajus-pt",
+  "status": "ok",
+  "code": "18.01",
+  "secondary_codes": "",
+  "summary": "Search Portuguese legal research and case law.",
+  "language": "pt",
+  "regions": "Portugal"
+ },
+ {
+  "id": "community-feed:br.com.observatoriobr/observatorio-br",
+  "status": "ok",
+  "code": "05.09",
+  "secondary_codes": "19.02",
+  "summary": "Look up official Brazilian economic indicators from IBGE, the central bank and Treasury, with sources.",
+  "language": "pt",
+  "regions": "Brazil"
+ },
+ {
+  "id": "community-feed:ca.assetlab/mcp-server",
+  "status": "ok",
+  "code": "16.06",
+  "secondary_codes": "16.01",
+  "summary": "Manage work orders, preventive maintenance schedules, assets and capital plans in a CMMS.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ca.effset/guide",
+  "status": "brochure",
+  "code": "NEW",
+  "secondary_codes": "",
+  "summary": "Look up answers about Effset's IT services, Microsoft 365 and web plans and terms in Quebec; no AI generation.",
+  "language": "fr",
+  "regions": "Canada"
+ },
+ {
+  "id": "community-feed:ca.wedkit/wedkit",
+  "status": "ok",
+  "code": "26.04",
+  "secondary_codes": "14.02",
+  "summary": "Manage wedding guests, RSVPs, meal choices, seating and a wedding website.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:care.vitena/directory",
+  "status": "ok",
+  "code": "26.01",
+  "secondary_codes": "28.01",
+  "summary": "Search a public directory of health and wellness professionals, then check their services, languages and online booking.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:ch.opendata/transport",
+  "status": "ok",
+  "code": "25.04",
+  "secondary_codes": "",
+  "summary": "Look up Swiss stations, journeys and departures, with platforms and live delays.",
+  "language": "en",
+  "regions": "Switzerland"
+ },
+ {
+  "id": "community-feed:ch.opendata/vornamen",
+  "status": "ok",
+  "code": "05.09",
+  "secondary_codes": "",
+  "summary": "Look up how common first names are in Switzerland by sex and birth year, see newborn rankings, and compare names.",
+  "language": "en",
+  "regions": "Switzerland"
+ },
+ {
+  "id": "community-feed:cloud.mobula/mobula",
+  "status": "ok",
+  "code": "02.01.02",
+  "secondary_codes": "02.10;18.06",
+  "summary": "Ask questions about your customers' Azure costs, compliance and Microsoft 365 security.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:co.cuvo/website",
+  "status": "brochure",
+  "code": "28.01",
+  "secondary_codes": "",
+  "summary": "Read Cuvo Health's overview, pricing, comparisons and articles, and book a discovery call or request a callback.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:co.roterminal/roterminal",
+  "status": "ok",
+  "code": "24.03",
+  "secondary_codes": "",
+  "summary": "Look up live Roblox game data: current players, history, rising games, trends and studios.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.1of10/mcp",
+  "status": "ok",
+  "code": "10.04.03",
+  "secondary_codes": "23.01.01",
+  "summary": "Find outlier YouTube videos and channels, and generate video titles, ideas and thumbnails.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.1stdibs/1stDibs",
+  "status": "ok",
+  "code": "22.08",
+  "secondary_codes": "22.03.01",
+  "summary": "Browse and search luxury furniture, art, jewelry and fashion on 1stDibs, with prices and availability.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.4chems/platform-api",
+  "status": "ok",
+  "code": "32.02",
+  "secondary_codes": "18.06",
+  "summary": "Use hosted IUCLID, CHESAR and QSAR Toolbox chemical safety software, including onboarding, inquiries and admin.",
+  "language": "en",
+  "regions": "Europe"
+ },
+ {
+  "id": "community-feed:com.9make/9make",
+  "status": "ok",
+  "code": "10.10",
+  "secondary_codes": "01.09",
+  "summary": "Prepare app store submissions: ASO keywords, listing text, store screenshots and app preview video.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.achriom/achriom",
+  "status": "ok",
+  "code": "07.01.01",
+  "secondary_codes": "24.01;24.05",
+  "summary": "Keep a persistent memory of the books, movies, music, shows, anime, podcasts, games and manga you consume.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.acousticsoundpanels/acoustic-sound-panels",
+  "status": "ok",
+  "code": "27.08",
+  "secondary_codes": "27.06",
+  "summary": "Estimate a room's echo, get how many acoustic panels to buy and their price, or request a free room analysis.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.adspendspy/adspendspy",
+  "status": "ok",
+  "code": "10.01.03",
+  "secondary_codes": "",
+  "summary": "Browse Meta Ad Library ads with estimated spend per ad, top landing pages and alerts.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.adspendspy/adspendspy-demo",
+  "status": "ok",
+  "code": "10.01.03",
+  "secondary_codes": "",
+  "summary": "Try a keyless demo of Meta Ad Library ads with estimated spend and top landing pages for one advertiser.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.affix-io/agent-commons",
+  "status": "ok",
+  "code": "07.02",
+  "secondary_codes": "",
+  "summary": "Read and post in public two-agent rooms and threads on an open message board for AI agents.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.aigregator/ai-tools",
+  "status": "ok",
+  "code": "08.06",
+  "secondary_codes": "",
+  "summary": "Search, compare and get recommendations across thousands of AI tools, with pricing and alternatives.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.aiunivid/aiunivid",
+  "status": "ok",
+  "code": "23.02.01",
+  "secondary_codes": "",
+  "summary": "Generate Seedance AI videos from chat, with credit quotes shown before each job.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.aleeth/authority-mcp",
+  "status": "ok",
+  "code": "07.07.02",
+  "secondary_codes": "07.07.01",
+  "summary": "Gate every agent action through ICA governance and get a verifiable receipt for each one.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.alexpolonsky/profile",
+  "status": "profile",
+  "code": "08.06",
+  "secondary_codes": "",
+  "summary": "Read Alex Polonsky's public profile, availability, writing and music picks.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.allclearid/connect",
+  "status": "ok",
+  "code": "09.01",
+  "secondary_codes": "28.02",
+  "summary": "Verify identity and share consented personal data such as medical records, images and insurance via OAuth/OIDC.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.ameliavibe/amelia",
+  "status": "ok",
+  "code": "10.04.01",
+  "secondary_codes": "23.05",
+  "summary": "Draft, edit and schedule LinkedIn posts with an AI content assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.anythingmd/convert",
+  "status": "ok",
+  "code": "14.05.02",
+  "secondary_codes": "14.05.01",
+  "summary": "Convert PDFs, Office files, spreadsheets and images into clean Markdown sized for agent context.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.askgabriel/gabriel",
+  "status": "ok",
+  "code": "28.03",
+  "secondary_codes": "28.01",
+  "summary": "Buy supplements at cost-plus, track your health routine, search for care and get clinician-reviewed prescriptions.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:com.assessall/catalogue",
+  "status": "ok",
+  "code": "17.04",
+  "secondary_codes": "31.03",
+  "summary": "Search online assessments and free practice tests with INR and USD prices, plus assessment guides.",
+  "language": "en",
+  "regions": "India"
+ },
+ {
+  "id": "community-feed:com.astralread/astrology",
+  "status": "ok",
+  "code": "24.09",
+  "secondary_codes": "",
+  "summary": "Get natal charts, transits, daily sky, Vedic charts and dasha readings, read-only with no account.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.atollhq/atoll",
+  "status": "ok",
+  "code": "14.01.02",
+  "secondary_codes": "",
+  "summary": "Track goals, metrics, projects and issues in one project tool shared by you and your AI agents.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.audiohash/audiohash",
+  "status": "ok",
+  "code": "23.03.02",
+  "secondary_codes": "",
+  "summary": "Turn text into natural-sounding MP3 voice-overs in six languages.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.axiorank/axiorank",
+  "status": "ok",
+  "code": "07.07.02",
+  "secondary_codes": "07.07.01",
+  "summary": "Score agent tool calls, verify agent cards, enforce policies and keep an audit trail.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.backpr/data",
+  "status": "ok",
+  "code": "30.07",
+  "secondary_codes": "34.01;14.05.04",
+  "summary": "Look up US state youth-program rules, licensed camps and childcare, staff ratios, and free templates.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.bitterclip/bitterclip",
+  "status": "ok",
+  "code": "23.02.02",
+  "secondary_codes": "",
+  "summary": "Edit and produce videos from your recordings, with the app keeping track of past footage.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.blenderbridge/blender-bridge",
+  "status": "ok",
+  "code": "23.04.03",
+  "secondary_codes": "",
+  "summary": "Let an AI drive Blender to model, animate, texture, render and export 3D scenes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.blooio/mcp",
+  "status": "ok",
+  "code": "12.05",
+  "secondary_codes": "12.04",
+  "summary": "Send and receive iMessage, SMS, RCS and WhatsApp messages, and manage contacts, chats and numbers.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.bonizu/mcp",
+  "status": "ok",
+  "code": "22.03.01",
+  "secondary_codes": "22.08",
+  "summary": "Search and compare beauty, skincare and supplement products in a Benelux catalogue.",
+  "language": "nl",
+  "regions": "Benelux"
+ },
+ {
+  "id": "community-feed:com.brainygym/brainygym",
+  "status": "ok",
+  "code": "31.03",
+  "secondary_codes": "",
+  "summary": "Save courses you make with AI and review them with spaced repetition and a daily session.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.buyboxchecker/buy-box-checker",
+  "status": "ok",
+  "code": "22.01.02",
+  "secondary_codes": "22.03.02",
+  "summary": "Track which sellers win the Amazon Buy Box by city or ZIP, with history, alerts and rank changes.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.buzzerapi/buzzerapi",
+  "status": "ok",
+  "code": "27.07",
+  "secondary_codes": "",
+  "summary": "Issue timed or recurring building entry codes to deliveries and guests, and review access history.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.bykaranteli/mcp#npm:bykaranteli-mcp",
+  "status": "ok",
+  "code": "20.01",
+  "secondary_codes": "19.04",
+  "summary": "Get crypto derivatives data: funding rates, open interest, liquidations, options and ETF flows.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.canienter/visa-check",
+  "status": "ok",
+  "code": "25.06",
+  "secondary_codes": "",
+  "summary": "Check visa and entry requirements for 199 passports, with citations to official sources.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.char-gen/chargen",
+  "status": "ok",
+  "code": "24.04",
+  "secondary_codes": "",
+  "summary": "Read and update D&D campaigns, and generate NPCs and character art from an AI assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.chatmaxima/chatmaxima",
+  "status": "ok",
+  "code": "13.02",
+  "secondary_codes": "12.05",
+  "summary": "Build and test chatbots, WhatsApp templates and flows, and triage customer inbox messages.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.checkgrow/checkgrow",
+  "status": "ok",
+  "code": "10.12",
+  "secondary_codes": "10.08.03",
+  "summary": "Query your company's marketing knowledge, campaign performance and competitor data.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.checkrecall/vehicle-recalls",
+  "status": "ok",
+  "code": "25.08.01",
+  "secondary_codes": "",
+  "summary": "Check US NHTSA safety recall campaigns for a vehicle by make, model and model year.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.clypmint/broll",
+  "status": "ok",
+  "code": "23.01.03",
+  "secondary_codes": "23.02.02",
+  "summary": "Find real, licensed photos and video clips that match what a script describes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.clypmint/clypmint",
+  "status": "ok",
+  "code": "23.02.02",
+  "secondary_codes": "23.01.03",
+  "summary": "Edit videos with AI: cuts, captions, B-roll and motion, styled after a chosen or copied video.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.connectingodds/connecting-odds",
+  "status": "ok",
+  "code": "17.01",
+  "secondary_codes": "17.05;17.08",
+  "summary": "Search jobs, network professionally, benchmark salaries, research companies and check resumes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.cookingwithrobots/meal-planner",
+  "status": "ok",
+  "code": "30.01",
+  "secondary_codes": "30.02",
+  "summary": "Plan weekly meals from your pantry, find allergy-safe recipes and build grocery lists.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.cypheresim/esim",
+  "status": "ok",
+  "code": "25.07",
+  "secondary_codes": "12.04",
+  "summary": "Buy travel eSIM data plans and eSIMs with phone numbers in 180+ countries, paid in crypto.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.dailydigest/news",
+  "status": "ok",
+  "code": "24.11",
+  "secondary_codes": "",
+  "summary": "Group news stories across outlets, with outlet counts, owners and how fast each story spread.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.dharmikvibes/divineai",
+  "status": "ok",
+  "code": "24.08",
+  "secondary_codes": "",
+  "summary": "Get Hindu panchang, verified festival dates and vrat days for 50+ cities.",
+  "language": "en",
+  "regions": "India"
+ },
+ {
+  "id": "community-feed:com.dharmikvibes/studio",
+  "status": "ok",
+  "code": "24.08",
+  "secondary_codes": "24.05;24.12",
+  "summary": "Browse Hindu devotional audio, katha, aartis, Gita material, temple stories and manuscripts in Hindi and English.",
+  "language": "en",
+  "regions": "India"
+ },
+ {
+  "id": "community-feed:com.dharmikvibes/wellness",
+  "status": "ok",
+  "code": "25.03",
+  "secondary_codes": "24.08",
+  "summary": "Browse India spiritual retreats, yatras and pilgrimage trips with published prices, itineraries and booking contacts.",
+  "language": "en",
+  "regions": "India"
+ },
+ {
+  "id": "community-feed:com.domhaul/mcp",
+  "status": "ok",
+  "code": "03.03.03",
+  "secondary_codes": "03.03.01",
+  "summary": "Check live registry data to see whether domain names are really available, and compare first-year prices by TLD.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.dominionobservatory/observatory",
+  "status": "ok",
+  "code": "07.05.03",
+  "secondary_codes": "",
+  "summary": "Score the runtime reliability of MCP servers before your agent calls their tools.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.dotcom-tools/mcp",
+  "status": "ok",
+  "code": "03.06",
+  "secondary_codes": "02.08",
+  "summary": "Run website speed, ping, traceroute, DNS, email and streaming checks from more than 30 test locations.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.drmaker3d/shop",
+  "status": "ok",
+  "code": "33.07",
+  "secondary_codes": "22.02",
+  "summary": "Get instant quotes, checkout links and order tracking for custom 3D prints shipped across the United States.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.dugun/wedding",
+  "status": "ok",
+  "code": "26.04",
+  "secondary_codes": "26.01",
+  "summary": "Search Türkiye wedding venues and vendors by city, budget and guest count, read planning guides, and request quotes.",
+  "language": "en",
+  "regions": "Turkey"
+ },
+ {
+  "id": "community-feed:com.dune/mcp",
+  "status": "ok",
+  "code": "20.01",
+  "secondary_codes": "",
+  "summary": "Query and chart onchain data from 130+ blockchains using SQL.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.dzbuild/dzship",
+  "status": "ok",
+  "code": "33.05.01",
+  "secondary_codes": "",
+  "summary": "Create, price, track and cancel cash-on-delivery parcels with Algerian couriers, without a login.",
+  "language": "en",
+  "regions": "Algeria"
+ },
+ {
+  "id": "community-feed:com.e-labus/health",
+  "status": "ok",
+  "code": "28.02",
+  "secondary_codes": "28.03",
+  "summary": "Review your lab results, retests, medications, conditions and symptoms as trends in one health record.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.elysianintelligence/elysianprimus",
+  "status": "ok",
+  "code": "05.09",
+  "secondary_codes": "34.01",
+  "summary": "Query public data on CVEs, SEC filings, US housing, wildfires, contractor licenses and EPA product labels.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.email59/email59",
+  "status": "ok",
+  "code": "12.01",
+  "secondary_codes": "",
+  "summary": "Send transactional email from an AI agent, signing up by email code with no domain or DNS setup.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.emailit/emailit",
+  "status": "ok",
+  "code": "12.01",
+  "secondary_codes": "10.06",
+  "summary": "Send transactional email and run campaigns, manage contacts and domains, and check deliverability.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.epiphani/connector",
+  "status": "brochure",
+  "code": "NEW",
+  "secondary_codes": "",
+  "summary": "A single connector for the vendor's own apps covering tasks, health, money, travel and documents, with no tools listed.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.epvotes/epvotes",
+  "status": "ok",
+  "code": "34.03",
+  "secondary_codes": "34.01",
+  "summary": "Look up European Parliament roll-call votes, dossiers and MEP voting records from official sources.",
+  "language": "en",
+  "regions": "EU"
+ },
+ {
+  "id": "community-feed:com.estimatekit/estimatekit",
+  "status": "ok",
+  "code": "16.06",
+  "secondary_codes": "15.02;27.05",
+  "summary": "Draft good-better-best quotes and manage jobs and invoices for HVAC, plumbing and electrical shops.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.euaiactlaw/eu-ai-act-explorer",
+  "status": "ok",
+  "code": "06.08",
+  "secondary_codes": "",
+  "summary": "Look up EU AI Act articles, definitions and deadlines, and run a compliance assessment for your role.",
+  "language": "en",
+  "regions": "EU"
+ },
+ {
+  "id": "community-feed:com.fieldrobin/fieldrobin",
+  "status": "ok",
+  "code": "16.06",
+  "secondary_codes": "",
+  "summary": "Access your FieldRobin workspace to create customers and jobs, once access is authorized.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.firenum/fire-planner",
+  "status": "ok",
+  "code": "21.07",
+  "secondary_codes": "21.01",
+  "summary": "Work out when you could retire from your income, savings and spending, with simulated and historical checks.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:com.forgetreasury/treasury",
+  "status": "ok",
+  "code": "20.03",
+  "secondary_codes": "07.08",
+  "summary": "Deposit USDC into yield vaults on Base, check balances and APY, and get unsigned transactions for your wallet to sign.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.freightsidekick/freight-quotes",
+  "status": "ok",
+  "code": "33.05.02",
+  "secondary_codes": "",
+  "summary": "Get instant LTL, partial and truckload freight quotes for US and Canada shipments, with class and pallet info.",
+  "language": "en",
+  "regions": "United States;Canada"
+ },
+ {
+  "id": "community-feed:com.geospatialsystem/location-profile",
+  "status": "ok",
+  "code": "05.11.02",
+  "secondary_codes": "32.06",
+  "summary": "Get elevation, slope, terrain maps and 3-D surfaces for any site, at 5 m to 30 m resolution.",
+  "language": "en",
+  "regions": "global;United States;Australia;New Zealand"
+ },
+ {
+  "id": "community-feed:com.getmattered/getmattered#npm:getmattered-mcp",
+  "status": "ok",
+  "code": "17.02",
+  "secondary_codes": "17.01",
+  "summary": "Find jobs, tailor resumes and track applications, run as a local npm package.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.getplanagram/social-media",
+  "status": "ok",
+  "code": "10.04.01",
+  "secondary_codes": "",
+  "summary": "Create, schedule and manage social posts across 10 networks, including Instagram, TikTok, LinkedIn and X.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.getversive/mcp",
+  "status": "ok",
+  "code": "13.07",
+  "secondary_codes": "",
+  "summary": "Create, launch and analyze user research studies, AI interviews and AI tests from your agent.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.gixfiber/dark-fiber",
+  "status": "brochure",
+  "code": "32.13",
+  "secondary_codes": "",
+  "summary": "Read published facts about a NYC-Newark dark fiber network and request a quote from the provider.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.goeldhub/eldhub",
+  "status": "ok",
+  "code": "33.05.02",
+  "secondary_codes": "",
+  "summary": "Compare ELD providers and prices, check FMCSA logging rules, and find loads or switch savings for trucking fleets.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.gravelhost/gravelhost",
+  "status": "ok",
+  "code": "02.01.05",
+  "secondary_codes": "02.04",
+  "summary": "Check, fix and manage your GravelHost game servers and websites through conversation.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.helloaxel/flight-prices",
+  "status": "ok",
+  "code": "25.01",
+  "secondary_codes": "25.02",
+  "summary": "See live flight and hotel prices compared with published fares or rates, with the difference and a booking link.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.hive/hive",
+  "status": "ok",
+  "code": "14.01.02",
+  "secondary_codes": "14.09;11.01",
+  "summary": "Plan and track projects, actions, approvals, time and CRM in Hive from your AI assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.hoardo/hoardo",
+  "status": "ok",
+  "code": "NEW",
+  "secondary_codes": "14.01.01",
+  "summary": "Find, add, move and count belongings stored in boxes, rooms and lists in Hoardo.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.hotelvalora/mcp-demo",
+  "status": "brochure",
+  "code": "25.02",
+  "secondary_codes": "16.04.02",
+  "summary": "Try HotelVALORA's hotel valuation tool with a live sample asset, no account needed.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.hydrogenstudies/research",
+  "status": "ok",
+  "code": "28.04",
+  "secondary_codes": "31.04",
+  "summary": "Search, compare and summarize about 2,200 published studies on molecular hydrogen and health.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.hyperdash/data",
+  "status": "ok",
+  "code": "20.01",
+  "secondary_codes": "20.02",
+  "summary": "Get live and historical Hyperliquid data: markets, wallets, liquidations and analytics.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.idlefy/mcp",
+  "status": "ok",
+  "code": "02.04",
+  "secondary_codes": "02.01.01;02.01.03",
+  "summary": "Lease AWS and Google Cloud virtual machines for a set time and have them stop themselves.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.imagetostl/3d-converter",
+  "status": "ok",
+  "code": "14.05.02",
+  "secondary_codes": "32.08",
+  "summary": "Convert 3D model files such as STEP and IGES, and images, between formats via upload or URL, with no sign-in.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.inctryit/tryit",
+  "status": "ok",
+  "code": "10.04.03",
+  "secondary_codes": "10.01.03;10.02.02",
+  "summary": "Find viral Shorts, Reels and TikTok videos, rising keywords, channel analysis and ad search.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.infinihash/oryah-mail",
+  "status": "ok",
+  "code": "12.03",
+  "secondary_codes": "07.07.02;07.07.01",
+  "summary": "Give agents email access via Gmail, M365 and IMAP with per-mailbox permissions, send allowlist and audit log.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.insidercat/insidercat",
+  "status": "ok",
+  "code": "19.01.02",
+  "secondary_codes": "19.01.03;34.03",
+  "summary": "Look up Congress and corporate insider trades, portfolio holdings, performance, sentiment and ownership.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.integrated-ai/integrated-ai",
+  "status": "ok",
+  "code": "06.08",
+  "secondary_codes": "09.08",
+  "summary": "Draft AI governance policies for insurance agencies, check PII/PHI data rules, and get benefits and P&C workflow templates.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.intrinsicalpha/intrinsic-alpha",
+  "status": "ok",
+  "code": "19.01.03",
+  "secondary_codes": "19.01.02",
+  "summary": "Get DCF intrinsic values, financial statements, estimates and charts for U.S.-listed stocks.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.irisagent/support-analyst",
+  "status": "ok",
+  "code": "13.01",
+  "secondary_codes": "13.02",
+  "summary": "Ask questions about your support tickets, chats, agents and AI answer quality, with tickets cited.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.isearchfrom/isearchfrom",
+  "status": "ok",
+  "code": "10.02.02",
+  "secondary_codes": "10.03;10.01.03",
+  "summary": "Check Google results from any location, plus rank, ad and AI visibility, with free SEO tools.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.jitdot/catalog",
+  "status": "ok",
+  "code": "27.06",
+  "secondary_codes": "27.08",
+  "summary": "Search public interior finish materials such as tiles, flooring and LVT by size, material and finish, read-only.",
+  "language": "ko",
+  "regions": "South Korea"
+ },
+ {
+  "id": "community-feed:com.joinbuffet/buffet",
+  "status": "ok",
+  "code": "26.03",
+  "secondary_codes": "",
+  "summary": "Find this week's curated events and hangouts in Los Angeles, filtered by time, neighborhood, price or category.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.joinmane/booking",
+  "status": "ok",
+  "code": "30.05",
+  "secondary_codes": "26.01",
+  "summary": "Find barbers, stylists and estheticians who opted in on Mane and get a prefilled booking link.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:com.k2kanji/study",
+  "status": "ok",
+  "code": "31.02",
+  "secondary_codes": "31.03",
+  "summary": "Study flashcard decks for Japanese, Chinese, Korean, Spanish, French and Latin, with a spaced-repetition engine.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.kasprdata/data-mcp",
+  "status": "ok",
+  "code": "32.13",
+  "secondary_codes": "05.11.02",
+  "summary": "See internet quality by district since 2019 and get grades and disruption scores for your own locations.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:com.kaupr/kaupr",
+  "status": "ok",
+  "code": "16.04.02",
+  "secondary_codes": "11.04",
+  "summary": "Browse a dated record of what companies run, sell, hire and say on their websites, with sources.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.kintoolkit/label-reference",
+  "status": "ok",
+  "code": "28.03",
+  "secondary_codes": "28.04",
+  "summary": "Look up printed US children's medicine label dosages and read educational guides on them, with safety limits.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.legitym/legal",
+  "status": "ok",
+  "code": "18.01",
+  "secondary_codes": "18.02",
+  "summary": "Search French case law and legal codes from official sources, with citation checking.",
+  "language": "en",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:com.lensmor/mcp",
+  "status": "ok",
+  "code": "26.03",
+  "secondary_codes": "16.04.02;11.02.01",
+  "summary": "Find trade shows, research their exhibitors and companies, and look up B2B contacts.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.lingodew/lingodew",
+  "status": "ok",
+  "code": "31.02",
+  "secondary_codes": "",
+  "summary": "Find real YouTube videos graded by JLPT or CEFR level to learn Japanese or English, and check channel stats.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.linkjar/linkjar",
+  "status": "ok",
+  "code": "03.05",
+  "secondary_codes": "",
+  "summary": "Send PDFs, decks and web pages as branded links that track who opens them.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.lokerdollar/jobs",
+  "status": "ok",
+  "code": "17.01",
+  "secondary_codes": "17.08",
+  "summary": "Search worldwide remote jobs, check salary and skill-demand benchmarks, and get apply links.",
+  "language": "en",
+  "regions": "Indonesia"
+ },
+ {
+  "id": "community-feed:com.loomaly/loomaly",
+  "status": "ok",
+  "code": "10.02.02",
+  "secondary_codes": "10.02.01;10.03",
+  "summary": "Track search rankings and AI search visibility, find SEO issues, apply fixes and generate SEO reports.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.losshq/directory",
+  "status": "ok",
+  "code": "26.01",
+  "secondary_codes": "21.04",
+  "summary": "Search certified insurance appraisers and umpires by state, role and specialty, and read their profiles.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.luxorplasticcards/plastic-business-cards",
+  "status": "ok",
+  "code": "22.02",
+  "secondary_codes": "23.04.01",
+  "summary": "Get quotes and order 30mil plastic business cards, with free sample kits for US addresses.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.maddatech/madda-tasks",
+  "status": "ok",
+  "code": "14.01.02",
+  "secondary_codes": "",
+  "summary": "Plan project schedules with Gantt charts, task dependencies, baselines and reports, with AI agent help.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.maggiegeller/bookings",
+  "status": "ok",
+  "code": "26.01",
+  "secondary_codes": "28.01",
+  "summary": "Request optometry appointments in Metro Vancouver; the listing also includes tools for an unrelated engineering firm.",
+  "language": "en",
+  "regions": "Canada"
+ },
+ {
+  "id": "community-feed:com.manofmany/mcp",
+  "status": "ok",
+  "code": "22.03.03",
+  "secondary_codes": "22.04",
+  "summary": "Read men's lifestyle reviews and buyer's guides, find gift ideas, and check Australian retail deals.",
+  "language": "en",
+  "regions": "Australia"
+ },
+ {
+  "id": "community-feed:com.manusights/manusights",
+  "status": "ok",
+  "code": "31.04",
+  "secondary_codes": "",
+  "summary": "Check whether references exist or were retracted, look up journal AI policies, and preview manuscripts.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.mcpemails/emails",
+  "status": "ok",
+  "code": "12.03",
+  "secondary_codes": "",
+  "summary": "Read, send and triage email in Gmail, Outlook or any IMAP mailbox without storing messages.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.memecub/memecub",
+  "status": "ok",
+  "code": "23.01.03",
+  "secondary_codes": "23.01.01",
+  "summary": "Search Chinese and English reaction memes, place them in articles, or generate custom memes with AI.",
+  "language": "en",
+  "regions": "China;global"
+ },
+ {
+  "id": "community-feed:com.mogean/store",
+  "status": "ok",
+  "code": "26.05",
+  "secondary_codes": "",
+  "summary": "Search and count US points of interest by brand, category and state.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.moon-oh/moonoh-marketplace",
+  "status": "ok",
+  "code": "22.05",
+  "secondary_codes": "24.08",
+  "summary": "Search NYC and northern New Jersey secondhand listings, view price reports, and find Manhattan churches.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.movingpolygons/maps",
+  "status": "ok",
+  "code": "24.12",
+  "secondary_codes": "05.11.02",
+  "summary": "Create, edit and publish animated maps of historical borders in your Moving Polygons account.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.movingpolygons/maps-public",
+  "status": "ok",
+  "code": "24.12",
+  "secondary_codes": "05.11.02",
+  "summary": "Search and read published animated maps of historical borders, without signing in.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.nabarfinder/nabarfinder",
+  "status": "ok",
+  "code": "26.02",
+  "secondary_codes": "30.04",
+  "summary": "Find human-verified bars with real non-alcoholic drink menus in cities across the US and UK.",
+  "language": "en",
+  "regions": "United States;United Kingdom"
+ },
+ {
+  "id": "community-feed:com.noeixodigital/radar",
+  "status": "ok",
+  "code": "13.02",
+  "secondary_codes": "11.01;12.05",
+  "summary": "Run WhatsApp sales and support with an AI agent, a CRM pipeline and post-sale follow-up for Brazilian businesses.",
+  "language": "en",
+  "regions": "Brazil"
+ },
+ {
+  "id": "community-feed:com.nuzzodevstudio/quasar-guide",
+  "status": "ok",
+  "code": "14.04.02",
+  "secondary_codes": "14.01.02",
+  "summary": "Search and read the Quasar project management product guide, chapter by chapter, without signing in.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.octothinks/presets",
+  "status": "ok",
+  "code": "22.03.02",
+  "secondary_codes": "16.05",
+  "summary": "Get ranked options and weighted criteria for buying decisions, in six languages.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.onlypult/mcp",
+  "status": "ok",
+  "code": "10.04.01",
+  "secondary_codes": "10.04.02",
+  "summary": "Draft, schedule and publish social media posts, and read their analytics.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.openmypro/agents",
+  "status": "ok",
+  "code": "07.03",
+  "secondary_codes": "07.02",
+  "summary": "Register an agent profile to offer services, answer public requests, enter bounties and message other agents.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.opensubtitles/guessit-js",
+  "status": "ok",
+  "code": "24.01",
+  "secondary_codes": "",
+  "summary": "Parse movie and TV episode filenames into title, year, season, episode, codec and release group.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.opensubtitles/mcp-server",
+  "status": "ok",
+  "code": "24.01",
+  "secondary_codes": "",
+  "summary": "Search, inspect and download movie and TV subtitles from OpenSubtitles.com.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.optionswave/mcp",
+  "status": "ok",
+  "code": "19.01.03",
+  "secondary_codes": "",
+  "summary": "Check what options prices imply for US stock earnings reports and get post-earnings drift signals.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.orbilyn/mcp",
+  "status": "ok",
+  "code": "22.01.02",
+  "secondary_codes": "",
+  "summary": "Keep product catalogue data consistent across online marketplaces from one control point.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.orbitfour/domains",
+  "status": "ok",
+  "code": "03.03.01",
+  "secondary_codes": "03.03.03",
+  "summary": "Check domain availability and registry prices, search for name ideas, and check whether names can be transferred.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.ozaponline/whatsapp",
+  "status": "ok",
+  "code": "12.05",
+  "secondary_codes": "13.02",
+  "summary": "Read and reply to business WhatsApp chats, pause the AI agent, and edit its prompt.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.permit-stack/permits",
+  "status": "ok",
+  "code": "27.03",
+  "secondary_codes": "34.01",
+  "summary": "Look up US building permits, permit history by address, and contractors from city and county records.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.peskio/peskio",
+  "status": "ok",
+  "code": "29.05",
+  "secondary_codes": "32.06",
+  "summary": "Check tide times, sea conditions and fishing or diving scores for coastal places in Europe, North Africa and the US.",
+  "language": "en",
+  "regions": "Europe;Africa;United States"
+ },
+ {
+  "id": "community-feed:com.photo2skin/photo2skin",
+  "status": "ok",
+  "code": "24.03",
+  "secondary_codes": "23.01.01",
+  "summary": "Make Minecraft skins from photos or prompts, plus AI builds, maps and textures.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.pinbuilds/pinbuilds",
+  "status": "ok",
+  "code": "10.04.01",
+  "secondary_codes": "23.04.01",
+  "summary": "Turn blog posts and Shopify or Etsy products into Pinterest pins and schedule them to boards.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.platinumride/transfers",
+  "status": "ok",
+  "code": "25.04",
+  "secondary_codes": "",
+  "summary": "Find Gulf cross-border private transfer routes with indicative prices, and send a booking request.",
+  "language": "en",
+  "regions": "GCC"
+ },
+ {
+  "id": "community-feed:com.playlistmap/playlistmap",
+  "status": "ok",
+  "code": "10.05",
+  "secondary_codes": "24.02",
+  "summary": "Find active Spotify playlists that fit a song and screen playlists for suspicious follower patterns.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.podlexicon/podlexicon",
+  "status": "ok",
+  "code": "23.08",
+  "secondary_codes": "",
+  "summary": "Search and read AI summaries of over 88,000 podcast episodes from 150+ mostly long-form shows.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.pokemonlore/pokemonlore",
+  "status": "ok",
+  "code": "24.03",
+  "secondary_codes": "24.07",
+  "summary": "Look up Pokémon stats and type matchups, analyse teams, and search Pokémon TCG and TCG Pocket cards.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.posthog/mcp",
+  "status": "ok",
+  "code": "10.08.02",
+  "secondary_codes": "10.09;04.01",
+  "summary": "Query product analytics, manage feature flags and experiments, and investigate errors in PostHog.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.potomacledger/trades",
+  "status": "ok",
+  "code": "34.03",
+  "secondary_codes": "19.01.02",
+  "summary": "Search stock trades disclosed by US Congress and executive officials, with potential conflict flags.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.presscart/presscart",
+  "status": "ok",
+  "code": "10.11",
+  "secondary_codes": "",
+  "summary": "Browse 1,700+ publications and manage media placement campaigns, orders and articles.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.prismposter/creator-tools",
+  "status": "ok",
+  "code": "23.02.02",
+  "secondary_codes": "",
+  "summary": "Get social media frame sizes and safe areas, check aspect ratios and bitrates, and convert subtitle files.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.prismposter/studio",
+  "status": "ok",
+  "code": "23.02.01",
+  "secondary_codes": "23.01.01;23.03.01",
+  "summary": "Generate AI videos with sound, images, songs and characters using your PrismPoster account.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.producthunt/mcp",
+  "status": "ok",
+  "code": "08.06",
+  "secondary_codes": "",
+  "summary": "Discover apps, AI tools and MCP servers, compare alternatives, and manage Product Hunt launches and ads.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.pythonanywhere.paynemuse/agent-eligibility",
+  "status": "ok",
+  "code": "07.07.02",
+  "secondary_codes": "18.07;15.06",
+  "summary": "Score an AI agent's task as CLEAR, HOLD or FAIL, and check EU VAT numbers and sanctions lists.",
+  "language": "en",
+  "regions": "EU;United States"
+ },
+ {
+  "id": "community-feed:com.quanterlab/quanterlab",
+  "status": "ok",
+  "code": "19.05",
+  "secondary_codes": "",
+  "summary": "Backtest trading rules on point-in-time data and read registered finance studies.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.quantstark/quantstark",
+  "status": "ok",
+  "code": "19.05",
+  "secondary_codes": "19.08",
+  "summary": "Pull factor data, run equity backtests, and use risk model, attribution and optimizer tools.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.redreplier/mcp-server",
+  "status": "ok",
+  "code": "11.04",
+  "secondary_codes": "10.04.02",
+  "summary": "Find sales leads from Reddit, Hacker News, X, Bluesky and Facebook group posts, scored by AI.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.relaygpu/mcp",
+  "status": "ok",
+  "code": "06.02",
+  "secondary_codes": "06.01",
+  "summary": "Run image, video, audio and language models on Relay's GPUs, poll task status and upload files.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.reliancetrenchless/catalogue",
+  "status": "ok",
+  "code": "33.03",
+  "secondary_codes": "22.07",
+  "summary": "Search and compare Reliance Trenchless pipe-repair products, view specs and documents, and prepare a technical enquiry checklist.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.replyonthefly/replyonthefly",
+  "status": "ok",
+  "code": "13.03",
+  "secondary_codes": "12.04",
+  "summary": "Draft replies to Google and Yelp reviews and send text messages asking customers for reviews.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.resumonk/resumonk",
+  "status": "ok",
+  "code": "17.02",
+  "secondary_codes": "17.01",
+  "summary": "Build, improve and share your resume and run your job search from your AI assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.revensi/revensi",
+  "status": "ok",
+  "code": "16.01",
+  "secondary_codes": "08.04",
+  "summary": "Connect an AI assistant to Revensi OS to use its agents, workflows and business data.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.ribqa/sentinel-aleph",
+  "status": "ok",
+  "code": "20.01",
+  "secondary_codes": "",
+  "summary": "Get crypto signals, public ledger data, BTC chart reads, news and backtests of your strategies; no trading.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.rightmoney/mcp",
+  "status": "ok",
+  "code": "21.01",
+  "secondary_codes": "",
+  "summary": "Split your money into Bills, Lifestyle and Freedom buckets through your AI assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.robinsonaisystems/github",
+  "status": "ok",
+  "code": "01.01.01",
+  "secondary_codes": "01.05",
+  "summary": "Manage GitHub repos, pull requests, issues and Actions from your AI assistant, with preview and read-only modes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.savewellnow/care",
+  "status": "ok",
+  "code": "28.05",
+  "secondary_codes": "21.04",
+  "summary": "Compare Original Medicare costs for outpatient procedures at surgery centers vs hospitals, and find nearby specialists.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.scriptcompiler/scriptcompiler",
+  "status": "adult",
+  "code": "NEW",
+  "secondary_codes": "",
+  "summary": "Create motion scripts and play them on adult toys such as Handy, Autoblow, Kiiroo, OSSM and Lovense devices.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.seasonaledge/mcp",
+  "status": "ok",
+  "code": "19.01.01",
+  "secondary_codes": "",
+  "summary": "Find calendar days, weeks and events when US stocks or ETFs historically beat simply holding them.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.secblast/sec-blast",
+  "status": "ok",
+  "code": "19.01.02",
+  "secondary_codes": "16.04.03",
+  "summary": "Search and read SEC EDGAR filings, insider trades, 13F holdings and XBRL financials for US companies.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.shanchuangkj/medicine-data",
+  "status": "ok",
+  "code": "32.02",
+  "secondary_codes": "16.04.02",
+  "summary": "Query Chinese pharma data on drugs, clinical trials, deals, patents and sales; billed per row.",
+  "language": "en",
+  "regions": "China"
+ },
+ {
+  "id": "community-feed:com.sigwren/sigwren",
+  "status": "ok",
+  "code": "29.01",
+  "secondary_codes": "29.05",
+  "summary": "Plan and track trail and ultra running training, with race course, pacing and fuelling guidance.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.sissoo/finder",
+  "status": "ok",
+  "code": "28.06",
+  "secondary_codes": "28.09",
+  "summary": "Search bookable wellbeing sessions, such as online therapy, coaching and massage, with prices and booking links.",
+  "language": "en",
+  "regions": "United Kingdom;Ireland"
+ },
+ {
+  "id": "community-feed:com.skaidigital/norwegian-companies",
+  "status": "ok",
+  "code": "16.04.01",
+  "secondary_codes": "16.04.03",
+  "summary": "Search and profile Norwegian companies from the Brønnøysund register: accounts, roles, groups and websites.",
+  "language": "en",
+  "regions": "Norway"
+ },
+ {
+  "id": "community-feed:com.skaidigital/shopify-speed-check",
+  "status": "ok",
+  "code": "03.06",
+  "secondary_codes": "22.01.01",
+  "summary": "Test Shopify store speed and Core Web Vitals, detect the theme, and compare Shopify plan fees.",
+  "language": "en",
+  "regions": "United States;United Kingdom;Australia;Norway;New Zealand"
+ },
+ {
+  "id": "community-feed:com.slashyear/mcp",
+  "status": "ok",
+  "code": "24.12",
+  "secondary_codes": "05.09",
+  "summary": "Look up sourced history by year, day, country or subject, plus leaders, prices, No. 1 songs and fact checks.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.sport-mcp/sport-mcp",
+  "status": "ok",
+  "code": "29.01",
+  "secondary_codes": "",
+  "summary": "Read and log strength workouts, records and progress from an iPhone app through your AI assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.standardblanks/shop",
+  "status": "ok",
+  "code": "22.02",
+  "secondary_codes": "22.08",
+  "summary": "Search blank apparel, check stock, get exact prices and build a cart on standardblanks.com for checkout.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.steammaho/steammaho",
+  "status": "ok",
+  "code": "24.03",
+  "secondary_codes": "",
+  "summary": "Analyze Steam games by mechanics: earnings, launch ranges, price bands, player counts and closest matches.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.subtensor/reference",
+  "status": "ok",
+  "code": "20.06",
+  "secondary_codes": "01.02.02",
+  "summary": "Look up and decode Subtensor (Bittensor) blockchain pallets, events, calls, storage and SCALE data.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.swolvy/mcp",
+  "status": "ok",
+  "code": "03.04",
+  "secondary_codes": "03.01",
+  "summary": "Publish HTML from your AI assistant and get a shareable link, with no account needed.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.sxs-ai/sxs-match-data",
+  "status": "ok",
+  "code": "29.03",
+  "secondary_codes": "",
+  "summary": "Read-only football match data, odds and post-match reviews for China's sports lottery; free for the previous day only.",
+  "language": "en",
+  "regions": "China"
+ },
+ {
+  "id": "community-feed:com.takeonbid/takeon",
+  "status": "ok",
+  "code": "27.06",
+  "secondary_codes": "",
+  "summary": "Do electrical takeoffs from drawings, with counts, schedules, specs and priced bid estimates.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:com.telebart/barter",
+  "status": "ok",
+  "code": "22.05",
+  "secondary_codes": "07.03",
+  "summary": "List your items for barter, find swaps and propose trades, signing in with OAuth.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.telebart/lobby",
+  "status": "ok",
+  "code": "07.02",
+  "secondary_codes": "",
+  "summary": "Read and post in an open chat room where AI agents talk to each other; no sign-in needed.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.tella/product",
+  "status": "ok",
+  "code": "23.02.02",
+  "secondary_codes": "",
+  "summary": "Create, edit, organize, export and publish videos in Tella.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.theaiintegrationhub/use-cases",
+  "status": "brochure",
+  "code": "16.05",
+  "secondary_codes": "",
+  "summary": "Company site listing AI use cases by industry and workflow, promoting its AI consulting services; no real tools exposed.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.theopenapps/openapps",
+  "status": "ok",
+  "code": "08.06",
+  "secondary_codes": "",
+  "summary": "See rankings and launch listings for apps in the ChatGPT, Claude, Cursor and Grok app stores.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.tirokdo/gift-ideas",
+  "status": "ok",
+  "code": "14.10",
+  "secondary_codes": "22.08",
+  "summary": "Organize Secret Santa draws, get gift ideas and write letters to Father Christmas.",
+  "language": "fr",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:com.tjaz/quiz",
+  "status": "ok",
+  "code": "24.04",
+  "secondary_codes": "",
+  "summary": "Create, find and share multiple-choice quizzes that people play alone or together on tjaz.com.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.torrentswap/swap",
+  "status": "ok",
+  "code": "20.03",
+  "secondary_codes": "",
+  "summary": "Get quotes and create no-account cross-chain crypto swaps, then check each swap until it completes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.trustboundarysystems/bookings",
+  "status": "brochure",
+  "code": "18.04",
+  "secondary_codes": "",
+  "summary": "Get info on a blockchain and AI advisory firm and an optometry clinic, and send booking requests for calls or appointments.",
+  "language": "en",
+  "regions": "Canada"
+ },
+ {
+  "id": "community-feed:com.truvo/mcp",
+  "status": "ok",
+  "code": "21.04",
+  "secondary_codes": "",
+  "summary": "Compare car, renters and pet insurance quotes from over 50 carriers.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.ultimaps/mcp",
+  "status": "ok",
+  "code": "05.11.02",
+  "secondary_codes": "",
+  "summary": "Generate choropleth, category and pin map images for countries, states, counties and ZIP codes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.univs/univs",
+  "status": "ok",
+  "code": "31.01",
+  "secondary_codes": "",
+  "summary": "Search university programmes, institutes and study-abroad agencies worldwide, with tuition and application links.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.uplads/uplads",
+  "status": "ok",
+  "code": "10.01.02",
+  "secondary_codes": "10.01.01",
+  "summary": "Stage and manage ad campaigns on Meta, Google Ads, TikTok, Snapchat and LinkedIn.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.us.mechanic/auto-manual",
+  "status": "ok",
+  "code": "25.08.03",
+  "secondary_codes": "25.08.01",
+  "summary": "Look up car specs, repair steps, recalls and complaints; full manual steps cost 5 cents each after 10 free.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.userjot/userjot",
+  "status": "ok",
+  "code": "13.01",
+  "secondary_codes": "13.03",
+  "summary": "Answer support chats, write help articles, triage feature requests and publish changelogs.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.usespur/spur",
+  "status": "ok",
+  "code": "11.03",
+  "secondary_codes": "11.02.01",
+  "summary": "Find real estate leads, skip-trace property owners, and run direct mail, SMS and email outreach.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.vamosalicante/mcp-server",
+  "status": "ok",
+  "code": "26.05",
+  "secondary_codes": "26.06",
+  "summary": "Look up verified Alicante information: transport, parking, beaches, weather, food and leisure.",
+  "language": "es",
+  "regions": "Spain"
+ },
+ {
+  "id": "community-feed:com.vibeday/vibeday",
+  "status": "ok",
+  "code": "10.04.01",
+  "secondary_codes": "23.04.01",
+  "summary": "Create, preview, schedule and publish social posts, carousels and reels from your AI assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.vicatoo/hotels",
+  "status": "ok",
+  "code": "25.02",
+  "secondary_codes": "",
+  "summary": "Search hotels in Arabic or English, compare live rates and room videos, then book on vicatoo.com.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.viupdate/news",
+  "status": "ok",
+  "code": "24.11",
+  "secondary_codes": "",
+  "summary": "Search and read U.S. Virgin Islands news, weekly editions, fact checks and long-form reports.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.walnutinvest/walnut",
+  "status": "ok",
+  "code": "19.08",
+  "secondary_codes": "",
+  "summary": "Connect your investment portfolio to your AI assistant to analyze holdings and plan investments.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.wecantrack/wecantrack",
+  "status": "ok",
+  "code": "10.07",
+  "secondary_codes": "",
+  "summary": "Read-only access to your affiliate earnings, sales, clicks, sessions and ad profit.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.wholesaleholland/shop",
+  "status": "ok",
+  "code": "22.07",
+  "secondary_codes": "",
+  "summary": "Search and order wholesale toys, gifts and party items from a Dutch B2B store, with checkout and order tracking.",
+  "language": "en",
+  "regions": "Netherlands"
+ },
+ {
+  "id": "community-feed:com.wickfunded/trading",
+  "status": "ok",
+  "code": "19.05",
+  "secondary_codes": "",
+  "summary": "Read and trade a simulated funded trading challenge account through your AI assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:com.wyxdapp/wyxd-guide-mcp",
+  "status": "ok",
+  "code": "25.03",
+  "secondary_codes": "",
+  "summary": "Find vetted local guides and travel routes across China, with links to chat with and book them.",
+  "language": "en",
+  "regions": "China"
+ },
+ {
+  "id": "community-feed:com.yestechie/site",
+  "status": "ok",
+  "code": "27.05",
+  "secondary_codes": "09.05",
+  "summary": "Get UniFi Wi-Fi, camera and door-access install estimates, configuration guides and callback requests.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:com.zippendo/mcp",
+  "status": "ok",
+  "code": "33.05.01",
+  "secondary_codes": "22.01.03",
+  "summary": "Manage orders, book shipments, print labels and track parcels with PostNord, GLS, Bring and DHL.",
+  "language": "en",
+  "regions": "Nordics"
+ },
+ {
+  "id": "community-feed:cz.autoisto/intents",
+  "status": "ok",
+  "code": "25.08.02",
+  "secondary_codes": "",
+  "summary": "Watch Czech used-car listings over time after e-mail opt-in, or search current car offers now.",
+  "language": "en",
+  "regions": "Czech Republic"
+ },
+ {
+  "id": "community-feed:cz.bidoro/bidoro",
+  "status": "ok",
+  "code": "27.01",
+  "secondary_codes": "",
+  "summary": "Browse, draft, publish and bid on Czech property listings through AI agents acting for sellers and brokers.",
+  "language": "en",
+  "regions": "Czech Republic"
+ },
+ {
+  "id": "community-feed:cz.evidence-exekuci/evidence",
+  "status": "ok",
+  "code": "18.03",
+  "secondary_codes": "18.07;16.04.03",
+  "summary": "Check a person or company in Czech registers for executions, insolvency, land ownership, ID validity and sanctions.",
+  "language": "en",
+  "regions": "Czech Republic"
+ },
+ {
+  "id": "community-feed:cz.robotio/event-robots",
+  "status": "ok",
+  "code": "26.03",
+  "secondary_codes": "",
+  "summary": "Browse humanoid robots for rent with operators, check date availability and request a quote for events.",
+  "language": "en",
+  "regions": "Europe"
+ },
+ {
+  "id": "community-feed:cz.rsolution/verejny",
+  "status": "profile",
+  "code": "17.05",
+  "secondary_codes": "",
+  "summary": "See a Czech freelance developer's services, prices and availability, and send them an inquiry.",
+  "language": "cs",
+  "regions": "Czech Republic"
+ },
+ {
+  "id": "community-feed:de.ausschreibungsagenten/tender-search",
+  "status": "ok",
+  "code": "34.02",
+  "secondary_codes": "",
+  "summary": "Search public procurement notices from 17 sources across Germany, the EU and the UK, read-only.",
+  "language": "en",
+  "regions": "Germany;EU;United Kingdom"
+ },
+ {
+  "id": "community-feed:de.openwein/mcp",
+  "status": "ok",
+  "code": "30.04",
+  "secondary_codes": "26.01;26.03",
+  "summary": "Search ~5,900 German wineries, wine towns, vineyard sites and wine festivals, with events and weather per vintage.",
+  "language": "en",
+  "regions": "Germany"
+ },
+ {
+  "id": "community-feed:de.taufnaus/merchant",
+  "status": "ok",
+  "code": "22.01.01",
+  "secondary_codes": "22.01.03;22.01.02",
+  "summary": "Manage your taufnaus online shop: products, orders, stock, design, marketplace listings and accounting.",
+  "language": "en",
+  "regions": "Germany"
+ },
+ {
+  "id": "community-feed:de.taufnaus/shop",
+  "status": "ok",
+  "code": "22.08",
+  "secondary_codes": "22.06",
+  "summary": "Search German gift shops for christening, birth and toy gifts, build a cart and get a payment link.",
+  "language": "en",
+  "regions": "Germany"
+ },
+ {
+  "id": "community-feed:dev.brandpilot/brandpilot-mcp",
+  "status": "ok",
+  "code": "01.08.01",
+  "secondary_codes": "23.04.02",
+  "summary": "Give coding agents your brand and design system tokens, design context and repo rules.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.btlabs/core",
+  "status": "brochure",
+  "code": "03.02",
+  "secondary_codes": "",
+  "summary": "Access btlabs site content and brand data for AI agents via OAuth or API key.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.codemindhq/codemind",
+  "status": "ok",
+  "code": "01.07",
+  "secondary_codes": "01.04.02;01.03.01",
+  "summary": "Have Codemind build JS/TS features with tests, review code and triage GitHub issues into fix PRs, billed per verified build.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.commentary/review",
+  "status": "ok",
+  "code": "07.04",
+  "secondary_codes": "14.05.04",
+  "summary": "Have a human review agent plans, rendered documents, forms, research and live previews.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.craftery/tools",
+  "status": "ok",
+  "code": "14.10",
+  "secondary_codes": "01.08.02",
+  "summary": "Convert colours to code for many platforms, check WCAG contrast, make UUIDs, convert timestamps and hash text.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.currents/mcp",
+  "status": "ok",
+  "code": "01.03.02",
+  "secondary_codes": "01.05",
+  "summary": "Run CI tests that self-heal and produce proof of work for AI agents.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.domainee/domainee",
+  "status": "ok",
+  "code": "03.03.02",
+  "secondary_codes": "",
+  "summary": "Connect, verify and manage customer custom domains, SSL and DNS for a SaaS product.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.eurobase/eurobase",
+  "status": "ok",
+  "code": "02.03",
+  "secondary_codes": "02.01.05",
+  "summary": "Create, deploy and inspect Eurobase projects and Functions on a European cloud.",
+  "language": "en",
+  "regions": "Europe"
+ },
+ {
+  "id": "community-feed:dev.fly.otten-group-max/otten-group-max",
+  "status": "ok",
+  "code": "12.05",
+  "secondary_codes": "",
+  "summary": "Read authorized MAX messenger work chats and files for approved companies.",
+  "language": "en",
+  "regions": "Russia"
+ },
+ {
+  "id": "community-feed:dev.fly.tallyforge-quant-signals/quant-signals",
+  "status": "ok",
+  "code": "20.01",
+  "secondary_codes": "07.08",
+  "summary": "Pay per call for crypto market research: regimes, walk-forward backtests, volatility, correlations and perp funding.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.hackshop/hackshop-mcp",
+  "status": "ok",
+  "code": "01.11",
+  "secondary_codes": "32.12",
+  "summary": "Plan a hardware body for an AI agent: pick boards, get parts and build steps, and check owner-authorized firmware playbooks.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.hydrant/hydrant",
+  "status": "ok",
+  "code": "14.01.02",
+  "secondary_codes": "07.01.03",
+  "summary": "Track issues, projects and dependencies with your agent in a workspace you control.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.jobspipe/mcp",
+  "status": "ok",
+  "code": "17.01",
+  "secondary_codes": "",
+  "summary": "Search live job postings from over 30 ATS feeds and job boards in one format.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.keyframer/keyframer",
+  "status": "ok",
+  "code": "01.09",
+  "secondary_codes": "23.04.03",
+  "summary": "Use 150+ React Native animation recipes, author scenes, preview on phone by QR and generate Reanimated v4 code.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.kuuhaku/kuuhaku",
+  "status": "ok",
+  "code": "01.01.02",
+  "secondary_codes": "",
+  "summary": "Ask who calls a route, what a change breaks or who reads a field across a system's repos.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.legalize/legalize",
+  "status": "ok",
+  "code": "18.02",
+  "secondary_codes": "",
+  "summary": "Read and search Legalize's open corpus of laws, at any point in time.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:dev.mywine/my-wine",
+  "status": "ok",
+  "code": "30.04",
+  "secondary_codes": "22.03.02",
+  "summary": "Find wines and compare live merchant prices in your region, with fair-deal search.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.out-box/mcp",
+  "status": "ok",
+  "code": "03.01",
+  "secondary_codes": "",
+  "summary": "Publish and manage HTML pages in a personal library from any MCP client.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.pendnt/pendnt",
+  "status": "ok",
+  "code": "07.04",
+  "secondary_codes": "",
+  "summary": "Get human approvals, notifications and webhooks so headless agents can wait for people and wake up.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.ployz/ployz",
+  "status": "ok",
+  "code": "02.02",
+  "secondary_codes": "",
+  "summary": "Deploy apps, databases and preview environments to your own servers from an agent.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.repowise/repowise#pypi:repowise",
+  "status": "ok",
+  "code": "01.01.02",
+  "secondary_codes": "",
+  "summary": "Query a local codebase's graph, git history, docs and decisions to understand code health.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.sinatra/sinatra",
+  "status": "ok",
+  "code": "01.07",
+  "secondary_codes": "01.01.01",
+  "summary": "Start, follow up on and stop hosted coding tasks that can open GitHub pull requests.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.tell/tell",
+  "status": "ok",
+  "code": "07.02",
+  "secondary_codes": "",
+  "summary": "Send a note to someone through your coding agent; their agent receives it and explains it.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.theboomer/ai-tasker",
+  "status": "ok",
+  "code": "14.01.02",
+  "secondary_codes": "",
+  "summary": "Coordinate tasks and sprints for humans and AI agents with scoped API keys and audit logs.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.useproxy/proxy",
+  "status": "ok",
+  "code": "10.01.03",
+  "secondary_codes": "",
+  "summary": "Search Meta, Google, LinkedIn and TikTok ad libraries from an AI assistant without API keys.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.vibeseo/geo",
+  "status": "ok",
+  "code": "10.03",
+  "secondary_codes": "",
+  "summary": "Check how often your brand appears in ChatGPT, Gemini and Google AI answers, and which sources are cited.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.vibeseo/vibeseo",
+  "status": "ok",
+  "code": "10.02.02",
+  "secondary_codes": "10.02.01;10.02.04",
+  "summary": "Run keyword research, site audits, Search Console checks and backlink reviews for SEO work.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:dev.wealthtech/mcp",
+  "status": "ok",
+  "code": "08.06",
+  "secondary_codes": "07.05.01",
+  "summary": "Look up sourced API access facts, vendor MCP servers and SEC Form ADV column meanings for wealth tech.",
+  "language": "en",
+  "regions": "global;United States"
+ },
+ {
+  "id": "community-feed:directory.nohumans/registry",
+  "status": "ok",
+  "code": "07.08",
+  "secondary_codes": "08.06",
+  "summary": "Search paid x402 APIs and check listings and past purchase results before paying with USDC.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:fi.meom/public",
+  "status": "brochure",
+  "code": "NEW",
+  "secondary_codes": "",
+  "summary": "Read a Finnish web agency's published services, client references, team and meeting booking link; no real tool beyond its own info.",
+  "language": "en",
+  "regions": "Finland"
+ },
+ {
+  "id": "community-feed:fm.allcams/cams",
+  "status": "adult",
+  "code": "NEW",
+  "secondary_codes": "",
+  "summary": "Browse live adult webcam categories and see which models are online on cam sites.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:fr.dinilu/mcp",
+  "status": "ok",
+  "code": "22.02",
+  "secondary_codes": "",
+  "summary": "Get prices, options and shipping quotes for custom promotional products in France.",
+  "language": "fr",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.etatdate/etatdate",
+  "status": "brochure",
+  "code": "18.06",
+  "secondary_codes": "",
+  "summary": "Read about pre-état daté and état daté for French condominium sales: prices, legal framework, required documents.",
+  "language": "fr",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.ipv4/network-tools",
+  "status": "ok",
+  "code": "02.08",
+  "secondary_codes": "03.03.02;03.03.03",
+  "summary": "Run DNS, WHOIS, SSL, IP geolocation, email validation, blacklist and HTTP header checks.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:fr.juan-branco/branco",
+  "status": "ok",
+  "code": "18.01",
+  "secondary_codes": "18.02",
+  "summary": "Search French legal texts and case law, get citations, and run legal calculations.",
+  "language": "fr",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.kbiz/mcp",
+  "status": "ok",
+  "code": "16.04.01",
+  "secondary_codes": "16.04.03",
+  "summary": "Look up French company records, executives and BODACC legal announcements.",
+  "language": "fr",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.lagrandecarte/mcp",
+  "status": "ok",
+  "code": "05.09",
+  "secondary_codes": "27.03",
+  "summary": "Query French open data on communes, parcels, natural risks, property sales, water, crime and planning.",
+  "language": "en",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.lingoris/traduction-assermentee",
+  "status": "ok",
+  "code": "23.06",
+  "secondary_codes": "",
+  "summary": "Get firm prices and order status for certified translations in 100+ languages.",
+  "language": "en",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.listar/listar",
+  "status": "ok",
+  "code": "11.02.01",
+  "secondary_codes": "",
+  "summary": "Find verified B2B emails, phone numbers and decision makers at any company.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:fr.lybox/lybox",
+  "status": "ok",
+  "code": "27.03",
+  "secondary_codes": "27.01",
+  "summary": "Scan French rental listings and compare yields, cash flow and INSEE market data by city.",
+  "language": "fr",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.magicprices/mcp",
+  "status": "ok",
+  "code": "22.03.02",
+  "secondary_codes": "22.04",
+  "summary": "Compare product prices, price history, store offers and coupons in France.",
+  "language": "en",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.picksly/picksly",
+  "status": "ok",
+  "code": "22.03.03",
+  "secondary_codes": "22.03.02",
+  "summary": "Get top-rated phones, tablets, laptops and smartwatches for your profile and budget, with live prices.",
+  "language": "en",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.ptipanda/liste-de-naissance",
+  "status": "ok",
+  "code": "30.07",
+  "secondary_codes": "22.06",
+  "summary": "Build a birth gift list from curated French baby gift ideas and turn it into a shareable link.",
+  "language": "fr",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:fr.scoreinvest/outils",
+  "status": "ok",
+  "code": "21.07",
+  "secondary_codes": "21.04",
+  "summary": "Check French savings rates, run compound interest and flat-tax calculations, and request a callback.",
+  "language": "fr",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:free.clipart/mcp",
+  "status": "ok",
+  "code": "23.01.03",
+  "secondary_codes": "",
+  "summary": "Search about 95,000 public domain clipart images and get SVG or PNG download links.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:fun.madeira/hiking-permits",
+  "status": "ok",
+  "code": "29.05",
+  "secondary_codes": "25.03",
+  "summary": "Check availability and book government-required hiking permits for Madeira trails, with fee details.",
+  "language": "en",
+  "regions": "Portugal"
+ },
+ {
+  "id": "community-feed:guide.whatscooking/whats-cooking",
+  "status": "ok",
+  "code": "30.01",
+  "secondary_codes": "",
+  "summary": "Get one complete dinner recipe with steps and a shopping list from ingredients you already have.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:guru.bordeaux/en-primeur",
+  "status": "ok",
+  "code": "30.04",
+  "secondary_codes": "",
+  "summary": "Read first-hand Bordeaux en primeur tasting notes plus appellation climate, phenology and terroir information.",
+  "language": "en",
+  "regions": "France"
+ },
+ {
+  "id": "community-feed:health.libby/libby-health",
+  "status": "ok",
+  "code": "28.02",
+  "secondary_codes": "",
+  "summary": "Read your own lab results, marker trends and reports through a read-only connection.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:health.voa/tiss",
+  "status": "ok",
+  "code": "28.05",
+  "secondary_codes": "28.04",
+  "summary": "Validate, build and audit Brazilian TISS health insurance billing files and look up TUSS procedure codes.",
+  "language": "pt",
+  "regions": "Brazil"
+ },
+ {
+  "id": "community-feed:health.voa/voa",
+  "status": "ok",
+  "code": "28.02",
+  "secondary_codes": "",
+  "summary": "Access patient records and prepare clinical documents for review before anything is saved.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:in.hopehire/mcp",
+  "status": "ok",
+  "code": "17.02",
+  "secondary_codes": "11.03",
+  "summary": "Tailor resumes to job posts, score ATS fit, find hiring leads and send cold outreach emails.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:in.runlite/runlite",
+  "status": "ok",
+  "code": "03.01",
+  "secondary_codes": "13.04",
+  "summary": "Host AI-built websites with working contact forms that send enquiries by email or WhatsApp.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.1322/docs",
+  "status": "ok",
+  "code": "10.04.02",
+  "secondary_codes": "01.02.02",
+  "summary": "Read reference docs for the 1322 real-time social and news monitoring API: endpoints, auth and events.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.3bids/contractor",
+  "status": "ok",
+  "code": "16.06",
+  "secondary_codes": "15.02",
+  "summary": "Run a contractor business from an agent: CRM, jobs, dispatch, estimates, invoices and reports.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.aitrips/trip-planner",
+  "status": "ok",
+  "code": "25.03",
+  "secondary_codes": "05.11.02",
+  "summary": "Plan trips on a map with routed transport, day-by-day itineraries and shareable plans.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.allscale/mcp",
+  "status": "ok",
+  "code": "15.03",
+  "secondary_codes": "15.02",
+  "summary": "Check balances, invoices, checkout links and payouts in an AllScale business account.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.careclinic/health-tracker",
+  "status": "ok",
+  "code": "28.02",
+  "secondary_codes": "28.06",
+  "summary": "Review your health schedule, symptoms and mood, and record check-ins you confirm in CareClinic.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.coachiq/coachiq",
+  "status": "ok",
+  "code": "14.02",
+  "secondary_codes": "11.01",
+  "summary": "Run a coaching business from an agent: bookings, clients, forms, lessons, inbox and programs.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.draftcall/fantasy-football",
+  "status": "ok",
+  "code": "29.02",
+  "secondary_codes": "29.01",
+  "summary": "Look up NFL fantasy rankings, stats, byes, matchups and schedule strength; head-to-head compares need the app.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:io.f2h/files",
+  "status": "ok",
+  "code": "02.09",
+  "secondary_codes": "",
+  "summary": "Upload files, organize them in folders and share links, with optional passwords or file collection.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.filingpulse/filingpulse",
+  "status": "ok",
+  "code": "19.01.02",
+  "secondary_codes": "19.06",
+  "summary": "Search SEC insider trades, 8-K corporate events and IPO registration filings, read-only.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:io.foundplay/creators",
+  "status": "ok",
+  "code": "01.10",
+  "secondary_codes": "24.03",
+  "summary": "Check if your browser game is listed on Foundplay, get a free listing link, and see paid boost plans.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.foundplay/foundplay",
+  "status": "ok",
+  "code": "24.03",
+  "secondary_codes": "",
+  "summary": "Search free browser games by genre, phone support, play with friends or AI-made, to find something to play.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.free3d/models",
+  "status": "ok",
+  "code": "23.04.03",
+  "secondary_codes": "07.08",
+  "summary": "Search over 100,000 3D models and download them, with some files gated by a small USDC payment.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.AVIDS2/memorix#npm:memorix",
+  "status": "ok",
+  "code": "07.01.02",
+  "secondary_codes": "",
+  "summary": "Store local project memory that persists across sessions for coding agents.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.Craig-Horton/aibvf-mcp#npm:aibvf-mcp",
+  "status": "ok",
+  "code": "16.05",
+  "secondary_codes": "",
+  "summary": "Review an AI project proposal and get a Stop, Fix or Accelerate verdict with gaps and next steps.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.Denpex/denpex-mcp#npm:denpex-mcp",
+  "status": "ok",
+  "code": "06.09",
+  "secondary_codes": "06.02",
+  "summary": "Diagnose GPU and ML training failures such as CUDA out-of-memory and NCCL timeouts, locally or in the cloud.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.GoatInAHat/toolfactory#npm:toolfactory",
+  "status": "ok",
+  "code": "06.03",
+  "secondary_codes": "07.06",
+  "summary": "Write an agent tool once and package it as Agent Skills, MCP servers or plugins for several clients.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.JialaoLiu/dsh-baton#npm:dsh-baton-mcp",
+  "status": "ok",
+  "code": "07.02",
+  "secondary_codes": "01.07",
+  "summary": "Hand tasks from Claude Code or Codex to a local DeepSeek Harness agent.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.PerryLink/dsh-cert#npm:dsh-cert-mcp",
+  "status": "ok",
+  "code": "07.05.03",
+  "secondary_codes": "",
+  "summary": "Look up certification status of DeepSeek Harness plugins from a read-only registry.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.ShinjukuStaition/shinjuku-shield#npm:shinjuku-shield",
+  "status": "ok",
+  "code": "07.08",
+  "secondary_codes": "20.04",
+  "summary": "Pay for services privately in USDC on Solana, with spending caps you set.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.TheVilfer/better-tg-cli#npm:better-tg-cli",
+  "status": "ok",
+  "code": "12.05",
+  "secondary_codes": "",
+  "summary": "Read, search and send Telegram messages from your own account, with approval required for sends.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.TrazumAPP/trazum#npm:%40trazum%2Fmcp",
+  "status": "ok",
+  "code": "06.07",
+  "secondary_codes": "",
+  "summary": "Price and budget your AI prompts before the agent sends them.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.WendellResearch-AI/benchwarmers#npm:%40wendellresearch-ai%2Fbenchwarmers",
+  "status": "ok",
+  "code": "06.01",
+  "secondary_codes": "",
+  "summary": "Ask several LLMs the same question at once and collect their verdicts.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.bytedance/mcp-server-browser#npm:%40agent-infra%2Fmcp-server-browser",
+  "status": "ok",
+  "code": "08.03",
+  "secondary_codes": "",
+  "summary": "Let an AI agent control a browser for web tasks through an MCP server.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.bytedance/mcp-server-commands#npm:%40agent-infra%2Fmcp-server-commands",
+  "status": "ok",
+  "code": "01.06",
+  "secondary_codes": "",
+  "summary": "Run arbitrary shell commands on your local machine from an agent.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.chrisgleissner/c64bridge#npm:c64bridge",
+  "status": "ok",
+  "code": "01.11",
+  "secondary_codes": "24.03",
+  "summary": "Control a Commodore 64 Ultimate machine or the VICE emulator from an agent.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.gangfun/gang#npm:%40gangfun%2Fcli",
+  "status": "ok",
+  "code": "20.07",
+  "secondary_codes": "20.03",
+  "summary": "Launch, trade and follow agent-made tokens on a BNB Chain launchpad.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.goklab/guardvibe#npm:guardvibe",
+  "status": "ok",
+  "code": "09.03.01",
+  "secondary_codes": "07.07.02",
+  "summary": "Check code your AI writes against 684 security rules, with a CLI and host security audit.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.grethel-labs/excaliplant#npm:%40grethel-labs%2Fexcaliplant",
+  "status": "ok",
+  "code": "14.07",
+  "secondary_codes": "",
+  "summary": "Turn PlantUML text into SVG, PNG or hand-drawn Excalidraw diagrams.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.kaiser-data/kitsune-mcp#npm:kitsune-mcp",
+  "status": "ok",
+  "code": "07.05.02",
+  "secondary_codes": "",
+  "summary": "Hot-reload MCP servers and mount community ones mid-session without restarting.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.kitfunso/hippo-memory#npm:hippo-memory",
+  "status": "ok",
+  "code": "07.01.01",
+  "secondary_codes": "",
+  "summary": "Persistent memory shared across agents and sessions.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.learn-automated-testing/selenium-ai-agent#npm:selenium-ai-agent",
+  "status": "ok",
+  "code": "01.03.02",
+  "secondary_codes": "01.03.01",
+  "summary": "Plan, generate and self-heal Selenium browser tests, run with pytest or on a Selenium Grid.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.verbaly-i18n/verbaly#npm:%40verbaly%2Fmcp",
+  "status": "ok",
+  "code": "23.06",
+  "secondary_codes": "01.07",
+  "summary": "Extract, check and translate an app's UI text, with drafts a person approves.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.vyomi-cloud/vyomi#npm:vyomi-tunnel",
+  "status": "ok",
+  "code": "01.03.03",
+  "secondary_codes": "02.07",
+  "summary": "Run a local simulator of AWS, GCP and Azure services for agents to develop against.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.github.zerobounce/zerobounce-mcp#npm:%40zerobounce%2Fmcp",
+  "status": "ok",
+  "code": "12.02",
+  "secondary_codes": "11.02.01",
+  "summary": "Validate and score email addresses, find emails, clean lists and run inbox placement tests.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.grabmail/mcp",
+  "status": "ok",
+  "code": "12.03",
+  "secondary_codes": "",
+  "summary": "Create disposable email inboxes and read verification codes or links sent to them.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.rendry/rendry",
+  "status": "ok",
+  "code": "23.04.01",
+  "secondary_codes": "",
+  "summary": "Render on-brand PNG images from JSON templates.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.scrapfly.mcp/mcp",
+  "status": "ok",
+  "code": "08.02.01",
+  "secondary_codes": "",
+  "summary": "Scrape websites and extract structured data or web content at scale.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.sheetdb/sheetdb",
+  "status": "ok",
+  "code": "05.05",
+  "secondary_codes": "05.04",
+  "summary": "Read and write Google Sheets rows through SheetDB, with per-API permissions and approved deletes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.superlines/mcp",
+  "status": "ok",
+  "code": "10.03",
+  "secondary_codes": "",
+  "summary": "See how AI assistants mention, cite and rank your brand against competitors.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.tseha/tseha",
+  "status": "ok",
+  "code": "01.07",
+  "secondary_codes": "01.08.01",
+  "summary": "Gives coding agents your design system and coding standards so they follow them.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:io.worldip/worldip",
+  "status": "ok",
+  "code": "02.08",
+  "secondary_codes": "",
+  "summary": "Look up owner, network, location and reverse DNS for any IP, plus domains hosted on IPv4 addresses.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:it.follow/mcp",
+  "status": "ok",
+  "code": "24.11",
+  "secondary_codes": "14.04.03",
+  "summary": "Let your AI read your follow.it subscriptions, unread stories and reading history.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:jobs.landing/employer",
+  "status": "ok",
+  "code": "17.03",
+  "secondary_codes": "",
+  "summary": "Manage your Landing.Jobs employer postings, applications, candidates and reports.",
+  "language": "en",
+  "regions": "Europe"
+ },
+ {
+  "id": "community-feed:land.fabrica/mcp-testnet",
+  "status": "junk",
+  "code": "20.07",
+  "secondary_codes": "",
+  "summary": "Try Fabrica tokenized property tools on the Sepolia test network with no real-world effect.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:legal.kvasir/kvasir-legal",
+  "status": "ok",
+  "code": "18.02",
+  "secondary_codes": "18.01",
+  "summary": "Look up and verify German, Austrian, Swiss and EU legal citations against official sources.",
+  "language": "en",
+  "regions": "Germany;Austria;Switzerland;EU"
+ },
+ {
+  "id": "community-feed:link.b59/b59-link",
+  "status": "ok",
+  "code": "03.05",
+  "secondary_codes": "10.08.01",
+  "summary": "Create short links and QR codes, and read click stats and page-view counts.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:live.innernet/innernet",
+  "status": "ok",
+  "code": "07.01.01",
+  "secondary_codes": "14.01.01",
+  "summary": "Keep one memory across AI tools for projects, personal notes and tasks, via MCP.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:market.payapi/marketplace",
+  "status": "ok",
+  "code": "07.08",
+  "secondary_codes": "07.03",
+  "summary": "Search and list pay-per-call APIs settled in USDC on Base, Solana or Algorand.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:me.bizstats/mcp",
+  "status": "ok",
+  "code": "16.04.01",
+  "secondary_codes": "34.02",
+  "summary": "Search Montenegrin company filings, registry records, public tenders and state payments.",
+  "language": "en",
+  "regions": "Europe"
+ },
+ {
+  "id": "community-feed:me.reefwith/reef",
+  "status": "ok",
+  "code": "07.01.03",
+  "secondary_codes": "07.01.01",
+  "summary": "Shared memory spaces (\"coves\") that your AI assistant and people can read and write together.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:me.untype/aboard",
+  "status": "ok",
+  "code": "16.05",
+  "secondary_codes": "08.05",
+  "summary": "Browse falsifiable claims about systemic problems, with a causal graph, forecasts and dossiers.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:miami.own/own-miami",
+  "status": "ok",
+  "code": "27.03",
+  "secondary_codes": "27.01",
+  "summary": "Explore Miami condo buildings, listings, deed sales, ownership and market index data.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:net.invitt/invitt",
+  "status": "ok",
+  "code": "26.04",
+  "secondary_codes": "14.02",
+  "summary": "Plan an event in chat: venue ideas, past events, then emailed invites and RSVP tracking.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:net.trynanobanana/banana-art-lab",
+  "status": "ok",
+  "code": "23.01.01",
+  "secondary_codes": "",
+  "summary": "Generate images with several AI models and place them on a Banana Art Lab canvas.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:net.zerobounce/mcp",
+  "status": "ok",
+  "code": "12.02",
+  "secondary_codes": "11.02.01",
+  "summary": "Validate and score email addresses, clean lists, find emails and test inbox placement.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:network.caper/caper-wiki",
+  "status": "ok",
+  "code": "20.03",
+  "secondary_codes": "14.04.02",
+  "summary": "Read Caper's DAO wiki and on-chain data; create DAOs, trade and vote on Radix testnet.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:news.hottub/hottub-news",
+  "status": "ok",
+  "code": "24.11",
+  "secondary_codes": "11.02.02",
+  "summary": "Search world news in many languages, find companies in stories, and price press release placements.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:nl.boekenbase/catalogus",
+  "status": "ok",
+  "code": "24.05",
+  "secondary_codes": "",
+  "summary": "Search the Dutch book catalogue by keyword, ISBN, author or plain-language description.",
+  "language": "en",
+  "regions": "Netherlands"
+ },
+ {
+  "id": "community-feed:nl.feedmycart/feedmycart",
+  "status": "ok",
+  "code": "30.02",
+  "secondary_codes": "",
+  "summary": "Shared grocery list with pantry tracking and weekly supermarket deals across 15 countries.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:nl.getapi/mcp",
+  "status": "ok",
+  "code": "34.01",
+  "secondary_codes": "16.04.01",
+  "summary": "Look up Dutch government and register data such as KVK company, BAG address and energy label records.",
+  "language": "nl",
+  "regions": "Netherlands"
+ },
+ {
+  "id": "community-feed:nl.kentekenkompas/vehicle-knowledge",
+  "status": "ok",
+  "code": "25.08.01",
+  "secondary_codes": "",
+  "summary": "Read cited Dutch vehicle knowledge: model context, model comparisons and Dutch car terms.",
+  "language": "en",
+  "regions": "Netherlands"
+ },
+ {
+  "id": "community-feed:nl.marketingburos/marketingburos",
+  "status": "ok",
+  "code": "10.12",
+  "secondary_codes": "",
+  "summary": "Search, compare and match Dutch marketing agencies by specialism, city and cases; send quote requests.",
+  "language": "en",
+  "regions": "Netherlands"
+ },
+ {
+  "id": "community-feed:no.glodi/public-catalog",
+  "status": "ok",
+  "code": "30.05",
+  "secondary_codes": "28.01",
+  "summary": "Find Norwegian clinics and cosmetic treatments, compare prices and free times, and book.",
+  "language": "en",
+  "regions": "Norway"
+ },
+ {
+  "id": "community-feed:now.carejobs/healthcare-jobs",
+  "status": "ok",
+  "code": "17.01",
+  "secondary_codes": "17.08",
+  "summary": "Search open US healthcare jobs with posted pay, employer and state data, and check visa sponsorship records.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:nz.yardstock/nz-car-listings",
+  "status": "ok",
+  "code": "25.08.02",
+  "secondary_codes": "",
+  "summary": "Search used cars for sale at New Zealand dealer yards by make, model, price and city.",
+  "language": "en",
+  "regions": "New Zealand"
+ },
+ {
+  "id": "community-feed:one.commentify/commentify",
+  "status": "ok",
+  "code": "14.01.02",
+  "secondary_codes": "01.08.02",
+  "summary": "Ask, search, read, reply to and close your team's design feedback across Figma, Jira and Notion.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:one.kalpana/batch",
+  "status": "ok",
+  "code": "23.01.01",
+  "secondary_codes": "",
+  "summary": "Generate ad creatives and product images in bulk from a spreadsheet.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:one.kalpana/designer",
+  "status": "ok",
+  "code": "23.04.01",
+  "secondary_codes": "23.01.01",
+  "summary": "Make ad creatives, social posts and banners from a brief as editable designs you can reuse.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:online.sasame/research",
+  "status": "ok",
+  "code": "07.03",
+  "secondary_codes": "07.05.03",
+  "summary": "Find open paid outcome work for providers, and grade MCP servers against a discoverability standard.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:online.securestamp/action-proof",
+  "status": "ok",
+  "code": "07.07.01",
+  "secondary_codes": "",
+  "summary": "Record verifiable proof of agent actions across clouds; beta, sandbox by default, production is opt-in.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:online.smartcontact/crm",
+  "status": "ok",
+  "code": "11.01",
+  "secondary_codes": "",
+  "summary": "Track companies, contacts, calls, tasks and deals in a CRM for UK small businesses.",
+  "language": "en",
+  "regions": "United Kingdom"
+ },
+ {
+  "id": "community-feed:online.waitapp/waitapp",
+  "status": "ok",
+  "code": "26.02",
+  "secondary_codes": "26.03;26.01",
+  "summary": "Find venues, book tables, rooms and services, buy event tickets and order food delivery.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:org.directindex/scanner",
+  "status": "ok",
+  "code": "03.06",
+  "secondary_codes": "10.03",
+  "summary": "Scores business websites for AI-agent readiness and shows what ChatGPT, Claude and Gemini say about businesses by city.",
+  "language": "en",
+  "regions": "Europe"
+ },
+ {
+  "id": "community-feed:org.duckdns.agentnotes/stash",
+  "status": "ok",
+  "code": "07.01.01",
+  "secondary_codes": "",
+  "summary": "Save, read and delete text at paths in a public, no-login store that persists across agent sessions.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:org.jsonresume/jsonresume",
+  "status": "ok",
+  "code": "17.02",
+  "secondary_codes": "",
+  "summary": "Read, write, validate and theme JSON resumes, export them to PDF or Word, and match them to HN jobs.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:org.newmexicoliteracyproject/nmlp-mcp",
+  "status": "ok",
+  "code": "24.05",
+  "secondary_codes": "34.05;24.07",
+  "summary": "Book donation pickup in the Albuquerque area, and identify first editions and printings of collectible books.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:org.oravan/mcp",
+  "status": "ok",
+  "code": "34.03",
+  "secondary_codes": "34.07",
+  "summary": "Look up US Congress bills in plain language and find your House member and senators by ZIP code.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:org.pubscope/pubscope",
+  "status": "ok",
+  "code": "31.04",
+  "secondary_codes": "",
+  "summary": "Check journal indexing, quartile, APC fees, trust score and publication times for academic venues.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:org.roundtrips/roundtrips",
+  "status": "ok",
+  "code": "25.03",
+  "secondary_codes": "14.02",
+  "summary": "Plan a group trip with invites, votes, day plans and shared costs from your AI assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:org.scoutee/scoutee",
+  "status": "ok",
+  "code": "34.02",
+  "secondary_codes": "",
+  "summary": "Search public procurement tenders by CPV code, with optional daily email alerts.",
+  "language": "en",
+  "regions": "EU"
+ },
+ {
+  "id": "community-feed:org.ukrfish.sk/sudnokontrol",
+  "status": "ok",
+  "code": "25.09",
+  "secondary_codes": "34.01",
+  "summary": "Search and look up Ukrainian state ship registry records by vessel number, name or owner.",
+  "language": "en",
+  "regions": "Ukraine"
+ },
+ {
+  "id": "community-feed:org.verdictiq/gatekeeperai",
+  "status": "ok",
+  "code": "11.01",
+  "secondary_codes": "12.06",
+  "summary": "Search leads, read call transcripts, move deals and log activity in a CRM with an AI phone receptionist.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:org.vr/vr-mcp",
+  "status": "ok",
+  "code": "24.11",
+  "secondary_codes": "22.03.03",
+  "summary": "Read VR, AR and XR news, editorial articles, events, deals and headset comparisons from VR.org.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:org.worldgdp/nowcasts",
+  "status": "ok",
+  "code": "19.02",
+  "secondary_codes": "",
+  "summary": "Get daily GDP nowcasts for 47 economies and the world, plus trade, sector and conflict-risk indicators.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:page.stride/stride",
+  "status": "ok",
+  "code": "01.07",
+  "secondary_codes": "14.01.02",
+  "summary": "Give coding agents your team's stories, acceptance criteria, designs and docs after signing in with OAuth.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:pro.bitstore/exchange",
+  "status": "ok",
+  "code": "20.03",
+  "secondary_codes": "",
+  "summary": "Get crypto and fiat exchange quotes, limits and reserves, with links to make the exchange on bitstore.pro.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:properties.muscat/catalog",
+  "status": "ok",
+  "code": "27.01",
+  "secondary_codes": "",
+  "summary": "Search new-build and off-plan projects in Oman by area, developer, bedrooms and starting price in OMR.",
+  "language": "en",
+  "regions": "GCC"
+ },
+ {
+  "id": "community-feed:pt.casatoo/casatoo",
+  "status": "ok",
+  "code": "27.01",
+  "secondary_codes": "",
+  "summary": "Search and compare homes listed on Portuguese real-estate portals.",
+  "language": "en",
+  "regions": "Portugal"
+ },
+ {
+  "id": "community-feed:realestate.palmera/catalog",
+  "status": "ok",
+  "code": "27.01",
+  "secondary_codes": "",
+  "summary": "Search off-plan and ready homes in the UAE, Oman, Cyprus, Bali, Thailand and London, with prices and payment plans.",
+  "language": "en",
+  "regions": "United Arab Emirates;GCC;Cyprus;Indonesia;Thailand;United Kingdom"
+ },
+ {
+  "id": "community-feed:realestate.rak/catalog",
+  "status": "ok",
+  "code": "27.01",
+  "secondary_codes": "",
+  "summary": "Search off-plan Ras Al Khaimah projects by area, developer, budget and handover year, plus area guides and FAQs.",
+  "language": "en",
+  "regions": "UAE"
+ },
+ {
+  "id": "community-feed:ru.skillfoxx/catalog",
+  "status": "ok",
+  "code": "07.05.01",
+  "secondary_codes": "07.06",
+  "summary": "Search and get install steps for agent skills, MCP servers and CLI tools from a reviewed catalogue.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:ru.stadika/stadika",
+  "status": "ok",
+  "code": "31.01",
+  "secondary_codes": "",
+  "summary": "Browse study programs abroad, scholarships, internships and Russian universities and colleges.",
+  "language": "en",
+  "regions": "Russia;global"
+ },
+ {
+  "id": "community-feed:ru.tachka/shop",
+  "status": "ok",
+  "code": "25.08.03",
+  "secondary_codes": "",
+  "summary": "Search Russian auto parts by name, article number or VIN, build a cart, and get delivery estimates.",
+  "language": "en",
+  "regions": "Russia"
+ },
+ {
+  "id": "community-feed:sale.finda/findasale",
+  "status": "ok",
+  "code": "22.05",
+  "secondary_codes": "",
+  "summary": "Find yard sales, auctions and flea markets by city, ZIP or date, and search items listed for sale.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:shop.grokzilla/micro-pay",
+  "status": "ok",
+  "code": "14.10",
+  "secondary_codes": "10.02.01;09.04",
+  "summary": "Pay-per-call tools for SEO and AI-crawler audits, JSON and text utilities, token risk and OSINT, paid in USDC.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:shop.sampo/catalog",
+  "status": "ok",
+  "code": "30.02",
+  "secondary_codes": "",
+  "summary": "Browse the SAMPO supermarket catalogue and place an order, paying on the bank's page.",
+  "language": "ru",
+  "regions": "Russia"
+ },
+ {
+  "id": "community-feed:site.chatgpt.handy-drake-3041.changesignal-beta/changesignal",
+  "status": "ok",
+  "code": "01.04.03",
+  "secondary_codes": "01.02.01",
+  "summary": "Check the impact of exact SDK version upgrades using official release notes and commit-pinned evidence.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:site.chatgpt.honewa-6908.honewa-quality/quality",
+  "status": "ok",
+  "code": "03.06",
+  "secondary_codes": "14.05.01",
+  "summary": "Run technical quality checks on PNG/JPEG images, PDFs and public HTTPS pages, with limited free trials.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:site.chatgpt.niftycucumber8.agentnet-amsewada/agentnet",
+  "status": "ok",
+  "code": "07.02",
+  "secondary_codes": "14.10",
+  "summary": "Check an AI agent network's status and run a few free text tasks such as text insights and SHA-256.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:site.chatgpt.tancurl3.rankfence-tools-pgg/rankfence",
+  "status": "ok",
+  "code": "06.09",
+  "secondary_codes": "32.03",
+  "summary": "Replay supplied ranked lists to check whether reciprocal rank fusion gives an exact top-k result.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:so.agentcloud/ios-simulator",
+  "status": "ok",
+  "code": "01.09",
+  "secondary_codes": "02.07",
+  "summary": "Build, run and inspect iOS apps in disposable hosted simulators from cloud coding agents.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:so.kadent/kadent-scan",
+  "status": "ok",
+  "code": "07.05.03",
+  "secondary_codes": "",
+  "summary": "Scan a remote MCP server before connecting to see its tools and their risk ratings.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:social.posty/mcp",
+  "status": "ok",
+  "code": "10.04.01",
+  "secondary_codes": "10.04.02",
+  "summary": "Plan, schedule and publish social posts, manage media, campaigns and approvals, and view analytics.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:space.spontanno/events",
+  "status": "ok",
+  "code": "26.03",
+  "secondary_codes": "",
+  "summary": "Find concerts, theatre and other events in Russian cities, get a random pick or a shareable shortlist.",
+  "language": "en",
+  "regions": "Russia"
+ },
+ {
+  "id": "community-feed:tax.990/990n-filing",
+  "status": "ok",
+  "code": "15.06",
+  "secondary_codes": "34.05",
+  "summary": "Prepare and check a Form 990-N from IRS records, pay on 990.tax and track IRS acceptance.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:tax.990/nonprofit-lookup",
+  "status": "ok",
+  "code": "34.05",
+  "secondary_codes": "15.06",
+  "summary": "Look up US nonprofits' IRS exempt status, revocations, Form 990 financials and filing due dates.",
+  "language": "en",
+  "regions": "United States"
+ },
+ {
+  "id": "community-feed:tech.coniuncta.regularus/regularus",
+  "status": "ok",
+  "code": "18.06",
+  "secondary_codes": "",
+  "summary": "Get fixed prices and document checklists for EU cosmetic safety reports, and verify signed reports by number.",
+  "language": "en",
+  "regions": "EU"
+ },
+ {
+  "id": "community-feed:tech.latitude10/agent-readiness",
+  "status": "ok",
+  "code": "01.02.02",
+  "secondary_codes": "",
+  "summary": "Score an OpenAPI spec from 0 to 100 for how well AI agents will be able to use the API.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:tech.latitude10/store",
+  "status": "ok",
+  "code": "01.08.01",
+  "secondary_codes": "01.02.02",
+  "summary": "Browse and buy developer kits and DESIGN.md design systems for agents in USDC, or send a project brief.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:tech.openfinance/trading",
+  "status": "ok",
+  "code": "20.02",
+  "secondary_codes": "19.05;19.07",
+  "summary": "Trade crypto, perps, stocks, prediction markets, forex and memecoins through one agent endpoint.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:tech.portali/portali",
+  "status": "ok",
+  "code": "15.01",
+  "secondary_codes": "14.05.01",
+  "summary": "Manage bookkeeping for CPA firms: clients, QuickBooks, bank data, reports, OCR documents and billing.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:tech.saasoffers/deals",
+  "status": "ok",
+  "code": "22.04",
+  "secondary_codes": "",
+  "summary": "Search verified startup discounts, credits and coupons for SaaS tools, with links to claim them.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:tech.tailor/mcp",
+  "status": "ok",
+  "code": "01.02.01",
+  "secondary_codes": "",
+  "summary": "Search and read Tailor Platform's public documentation pages from an AI assistant.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:tech.techpool/techpool",
+  "status": "ok",
+  "code": "16.06",
+  "secondary_codes": "14.09",
+  "summary": "Manage field service work: missions, schedules, field reports, clients and timesheets.",
+  "language": "en",
+  "regions": "unknown"
+ },
+ {
+  "id": "community-feed:to.appy/smart-links",
+  "status": "ok",
+  "code": "03.05",
+  "secondary_codes": "10.08.01",
+  "summary": "Create and edit Appy smart links for apps and read their click and install statistics.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:to.travel/mcp",
+  "status": "ok",
+  "code": "25.07",
+  "secondary_codes": "",
+  "summary": "Find travel eSIM plans by country, check phone support, and get a quote with a checkout link.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:top.skillaria/skillaria",
+  "status": "ok",
+  "code": "31.01",
+  "secondary_codes": "",
+  "summary": "Search Skillaria.Top video courses and free how-to guides on AI, DevOps, Linux and Git, and read them.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:tv.sleipnir/sleipnir",
+  "status": "ok",
+  "code": "NEW",
+  "secondary_codes": "23.02.02",
+  "summary": "Control a multistream relay: check live status, switch stream destinations, manage teams and generate stream overlays.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:uk.co.doctilla/doctilla",
+  "status": "ok",
+  "code": "33.03",
+  "secondary_codes": "18.06",
+  "summary": "Manage ISO 9001 quality records: corrective actions, 8D reports, nonconformances, audits, risks, suppliers and documents.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:uk.co.magicprices/mcp",
+  "status": "ok",
+  "code": "22.03.02",
+  "secondary_codes": "22.03.01;22.04",
+  "summary": "Search UK products, compare store offers and price history, and find deals and coupons in GBP. Read-only.",
+  "language": "en",
+  "regions": "United Kingdom"
+ },
+ {
+  "id": "community-feed:uk.ugot.fortune/saju",
+  "status": "ok",
+  "code": "24.09",
+  "secondary_codes": "",
+  "summary": "Get Korean saju fortune readings: natal chart, daily and yearly luck, compatibility, and saved profiles.",
+  "language": "en",
+  "regions": "South Korea"
+ },
+ {
+  "id": "community-feed:xyz.clickthislink/ai-visibility-checker",
+  "status": "ok",
+  "code": "10.03",
+  "secondary_codes": "03.06",
+  "summary": "Score how well ChatGPT, Google and other AI search can find, read and recommend a website, with fixes.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:xyz.gardenpatch/gardenpatch",
+  "status": "ok",
+  "code": "10.12",
+  "secondary_codes": "14.10;13.03",
+  "summary": "Pay per call for growth coaching, small utilities like QR codes and time zones, and review-request messages.",
+  "language": "en",
+  "regions": "global"
+ },
+ {
+  "id": "community-feed:xyz.urbangametheory/urban-game-theory",
+  "status": "ok",
+  "code": "27.06",
+  "secondary_codes": "27.03;34.03",
+  "summary": "Inspect parcels, draft and compare urban plans and buildings, and share 2D/3D designs for community review.",
+  "language": "en",
+  "regions": "global"
+ }
+]

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "bc8ca4886aaff526cc12ed79313962acd256bad138418856a537c7b583624f1b",
+ "domain": [
+  "education/study-abroad"
+ ],
+ "product": [
+  "univs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Search universities, study programmes and education agencies worldwide on Univs.",
+ "whenToUse": "Use when a student wants to find programmes, institutes or study-abroad agencies.",
+ "tasks": [
+  "search study programmes",
+  "search institutes",
+  "search agencies",
+  "list countries"
+ ],
+ "effects": {
+  "bdbb42b5eabb7ff73a4e28e6b7bd1f44e7b40a182ec22c5ff8aeb13cee66baeb": "read",
+  "7c0cbb4fc1a8f28ad8c75bc192ee29d9a5e50bb972988828f01280056b55844c": "read",
+  "9a8b4512de20c0daa24e72364a8b99df05440f1aab41243da0ef34943de3cdc9": "read",
+  "44fbe9e88e11133386c89e0f0604df1acc974138277952123bcd86fc47117504": "read"
+ },
+ "flags": []
+}

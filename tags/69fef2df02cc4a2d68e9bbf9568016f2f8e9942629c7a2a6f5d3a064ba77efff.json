@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "69fef2df02cc4a2d68e9bbf9568016f2f8e9942629c7a2a6f5d3a064ba77efff",
+ "domain": [
+  "economics/statistics",
+  "government/open-data"
+ ],
+ "product": [
+  "ibge",
+  "banco-central",
+  "tesouro"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Official Brazilian economic indicators from IBGE, Banco Central and Tesouro, with source and period.",
+ "whenToUse": "Use when you need sourced Brazilian economic indicators such as inflation, rates or treasury data.",
+ "tasks": [
+  "fetch economic indicators",
+  "cite source and period"
+ ],
+ "effects": {},
+ "flags": []
+}

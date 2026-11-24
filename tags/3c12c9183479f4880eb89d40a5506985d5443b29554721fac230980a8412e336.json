@@ -1,0 +1,62 @@
+{
+ "classifier": 2,
+ "contentHash": "3c12c9183479f4880eb89d40a5506985d5443b29554721fac230980a8412e336",
+ "domain": [
+  "finance/nft-marketplace",
+  "finance/crypto-lending"
+ ],
+ "product": [
+  "gondi",
+  "opensea",
+  "ethereum",
+  "cryptopunks"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only NFT market and NFT-backed lending data on GONDI: prices, sales, loan offers, lender returns, borrow quotes and wallet holdings.",
+ "whenToUse": "Use when you need NFT floor prices, sales, loan offers or quotes, or a wallet's lending and borrowing positions on GONDI.",
+ "tasks": [
+  "search collections and NFTs",
+  "get floor and top bid",
+  "list recent sales",
+  "view floor price history",
+  "list top collections",
+  "view lending market overview",
+  "list loan offers",
+  "get borrow quote",
+  "get buy-with-loan quote",
+  "view lender returns",
+  "list borrower loans",
+  "view wallet holdings"
+ ],
+ "effects": {
+  "d9a30f1131bb40d0624179ce21939660134819528a98b6269986758ca9d7be85": "read",
+  "381f181b3f25610d70b6ad6b6e42c88a14eb86c052d55ea7e4360de48d5b2f86": "read",
+  "4e291f17b9df54d4fcb738f0b6d2343c69fc098a346c0aa1d79bc1eaa6a0c80a": "read",
+  "b7d279f98c80a2f48481a4cae8250a9caf8d6ff5302661f5fb7b660435c46969": "write",
+  "865eb373e9253ced442cf90bbab76274256cf7991c03b4d9db5682a3725734da": "write",
+  "81a800db993008f07c8f48e20590ab17fcd73cf8f995f034074ede01a19acae1": "read",
+  "224e7bb21a4ae34c7979d5801c6d6bf9fb5e7a75f78a0c05bc4e1b3a533f276d": "write",
+  "e131e9af20c13758eb4afdcb565d25356168c505b7e929ad708fbb63944502ec": "read",
+  "1adf32f153f9a052c4da60a4f0866b972e11225e02dce61c231884f8c7150a0a": "read",
+  "b2f2a5127aa093764a7046869493dfba614e385d48aacdf06b4e160d2afceccc": "read",
+  "b8c3a76d2d1c1c366521b3a5a75e38925ec90d5ee7f8343179120a91e2467ba0": "read",
+  "826656014c416098011312253db475539ec223bcf5e42707f2c32a4b65ad72ec": "write",
+  "015a7e88746ab60e4cd8a1b2b5a981cc61faa7a794fe41bed9e8971ba735e368": "read",
+  "69883e3896b73408c9b01ba0f39ea73a65552436355ab2095cc79ed728daf1f2": "read",
+  "3965e5e31ff25feb0385847a27005ea75e0b843918d912522f54942cc66bbabb": "read",
+  "bacea4783a8c9db7618eb27a04b64040e7993caa25f6466961eaadbbe459de45": "write",
+  "46cf20f9f2d7802dba52789bed7dbd1b11c3b42baadc63f8a586aa296937a9f8": "write",
+  "6b24136c977bc99ff923a8dba167c515af4b9c951bde4acb82e82fb1e1c38ba2": "write",
+  "05e9cb4ef757635c6232834efc66ec02576ca3d27a861be01347d7c3c6713f25": "write",
+  "7eb3128305dec17f2496aad90a93cc55014dfa5e2d944d367f52299ded3988ca": "write",
+  "c457555810f11cb4ef79e17d9ba0b4eabc0f986741ab5d6e9dda37e62abdee69": "read"
+ },
+ "flags": []
+}

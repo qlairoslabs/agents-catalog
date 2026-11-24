@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "34d563fe70a30cce5a16df1d304222e2ee8de9cc515fd8b1f974f07143dec07b",
+ "domain": [
+  "productivity/task-management"
+ ],
+ "product": [
+  "dazbench"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Task management for AI agents that turns a single line of text into a task with context, available over MCP.",
+ "whenToUse": "Use when an agent needs to create and track tasks with context in Dazbench.",
+ "tasks": [
+  "create tasks from one line",
+  "track tasks",
+  "give agents task context"
+ ],
+ "effects": {},
+ "flags": []
+}

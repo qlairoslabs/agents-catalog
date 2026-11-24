@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5c0a98caf6324f4438980de7453cbfda5dc8ff64ed1217d03bb3b6cac55bf5ab",
+ "domain": [
+  "finance/blockchain-analytics",
+  "data/sql"
+ ],
+ "product": [
+  "dune"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Query and chart onchain data from over 130 blockchains using DuneSQL.",
+ "whenToUse": "Use when a user needs blockchain data analysis or charts via Dune queries.",
+ "tasks": [
+  "query onchain data",
+  "run DuneSQL",
+  "chart blockchain data"
+ ],
+ "effects": {},
+ "flags": []
+}

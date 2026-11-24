@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "034b1e388f85c44bb6600b5a938edc8159c09312a742999795139d9911e221a2",
+ "domain": [
+  "art/reference",
+  "shopping/art-reproductions"
+ ],
+ "product": [
+  "most-famous-paintings"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches famous artworks, artists, museums and articles and quotes prices for painting reproductions and custom prints.",
+ "whenToUse": "Use when answering art questions or quoting a print or oil-painting reproduction of a famous work.",
+ "tasks": [
+  "search artworks, artists, museums, articles",
+  "semantic search of passages",
+  "get detail records",
+  "quote a reproduction",
+  "quote a custom reproduction",
+  "check artwork availability",
+  "find a work in the catalog"
+ ],
+ "effects": {
+  "04da1599efd346ab49fe612e811b1f0c886d6af61bed5bb40b7de7eb99fa2c93": "write",
+  "95a8b465e58d9e9004c8fcf0febe1a7ee7442a564b1c3fc319a69fc8082bd9a7": "read",
+  "286311b2e9a756f26f6ef1cf667a4d97ac06d841a8e338843c21eaa6d72ae19e": "read",
+  "fe13211dce8b114573b91e9e78015c6a9b819e1a8fc2be22d3afe97b01589812": "read",
+  "b16b000f7fd5e320be0d4e4229312d18712f89c2d26d49f4fa4b33be0f7a51a7": "write",
+  "ade82f9221b511cbc639280822c5101acb946529e185d8e3ea768f9320b322c8": "write",
+  "541498c70beee72786531a89508f2673374296a994288e6ecd8b49fde9ebed6b": "write",
+  "ca658000e74dce9282d557e26ec234ecd8ea21035931b302eca50487a4b4b368": "write",
+  "840b1b6830d34d97ec39e1bc13dd267a0a7aae0471caab2e5728a74a193a7978": "read",
+  "5c008eb63947ffd34a1b5ec681e701f804d94dcc43945747d844512a582530a7": "read",
+  "e37ebd774c411084f4545b1aab3e651225e03ef44f96fdc0741af407d0c9b6ac": "read",
+  "0be50a42c3ddcf6fd764ddf6629c60a0f16a9b1f5ed0c9d5eff911c3ffb07285": "write",
+  "4e6fdf7e337a9e0716fe91e8e4bed0c0ee3fcb17df0c3f762349a5df2fcfb247": "write",
+  "7f0f4d8c986088e6b2457397a108a30f0b2d868c561e7ff1fa372a2ae75ef4d1": "write",
+  "4ae21c2160b858e3a5b9cd51fcfc06b8c36d52d6aed596f122546cc4fc17e157": "write"
+ },
+ "flags": []
+}

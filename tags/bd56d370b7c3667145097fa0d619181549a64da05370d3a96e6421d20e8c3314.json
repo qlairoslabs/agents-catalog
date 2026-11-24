@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "bd56d370b7c3667145097fa0d619181549a64da05370d3a96e6421d20e8c3314",
+ "domain": [
+  "education/language-learning",
+  "media/video"
+ ],
+ "product": [
+  "youtube",
+  "lingodew"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Finds real YouTube videos for learning Japanese or English filtered by level and topic, with channel statistics.",
+ "whenToUse": "Use when recommending YouTube videos or channels for a Japanese or English learner at a given level.",
+ "tasks": [
+  "find videos by level",
+  "filter by topic",
+  "get channel stats",
+  "get product info"
+ ],
+ "effects": {
+  "33cdc18e89ea9e906a5e2ebd3c7af5d6f3db1ca76317b7fa021add5a15521a71": "read",
+  "a3737ad17c851999959e63dea28bca240b5f5cb94f2dd1c6220123d50bfc77c7": "read",
+  "f35bfee0045faa95fe3027dbbb7a60c7d0ecc4d202e91b71d81e87b6315e0595": "read"
+ },
+ "flags": []
+}

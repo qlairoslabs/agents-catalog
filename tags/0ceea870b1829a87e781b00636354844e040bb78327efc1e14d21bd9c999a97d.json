@@ -1,0 +1,63 @@
+{
+ "classifier": 2,
+ "contentHash": "0ceea870b1829a87e781b00636354844e040bb78327efc1e14d21bd9c999a97d",
+ "domain": [
+  "software/cybersecurity",
+  "security/vulnerability-intelligence"
+ ],
+ "product": [
+  "zen-secdb",
+  "cisa-kev",
+  "mitre-attack",
+  "nvd",
+  "metasploit",
+  "exploit-db"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "CVE intelligence with CVSS, EPSS, KEV, SSVC, advisories, exploits, ATT&CK mapping and package audits.",
+ "whenToUse": "Use when assessing or prioritising vulnerabilities, or auditing packages and Linux hosts for known CVEs.",
+ "tasks": [
+  "look up CVE details",
+  "get CVSS and EPSS scores",
+  "check KEV listing",
+  "compute SSVC",
+  "audit Linux packages",
+  "audit PURL dependencies",
+  "find exploits and sightings",
+  "map CVE to ATT&CK",
+  "run feed reports"
+ ],
+ "effects": {
+  "5e25597ec57a5e8ad5e60f9ef9b3a9ea11928654f436715efcecc458dd34e8d0": "write",
+  "3d0d5f04949fb8940a16329c4c2427ba4e4c6c7c67d397bef01f97e858adfe05": "write",
+  "a3f5ab0fb1b1b8549c424657ba3c2768741196fc8ad5eac7ad63aa033e025cd6": "write",
+  "cc18a46f3f7bd0a2404c3ce51819aa277bb05afb86a734f142d0bc404851774b": "write",
+  "ddce4821d2e82a85e4226aec43d07e39d4c030e6ee65c5b3a32ed36f44ac16b7": "write",
+  "661eebd363dba2733bd5e1ee8289a71a994573d3e5001cad9cb3c2554bd2dc8a": "write",
+  "8f90de3a408d5afbe89afab2148001a761970df3831ecb26792a74ae29669505": "write",
+  "7a454ac2d6899fd91a5718ba24b27a0421215122eaf3da334fef027f23477d72": "write",
+  "be9f9e0ca5191562b66c7a52fbfb63e97a721f866278431e8f54d388a3b01b25": "write",
+  "2f6347dab6e4391d51b0ce12f558c1ae6881ee727ca8e257b51e6f5425c56ccd": "write",
+  "94dfe0b209886438ac174a2d293619e959289d6dc1d2d205c111e3d0969b3af8": "write",
+  "51b15760ee6d3213b1687e9b1a4d8705c99553ca8b6f20d8e3b4129eac010446": "write",
+  "15a5fb1359cfcf597a8f2354935c6a2920ff1b5cfbbcd8667cff8fafe8f0b7fe": "write",
+  "6d1566ecb8ac976547951ab6b618387903fcb38bacaed579bb620ab78a771dbc": "write",
+  "e653c9c9131a003cf12f07dbacee7a70150062809a009e982f5be255df4e8486": "write",
+  "3aea192233d625d1846875f7369c10f29b5cf1a4ed7a2f579ada0b2b48a71d32": "write",
+  "4b6a195e951e9a873c7afbd449dcdb7a0f86a19cb265e809739b5590815b51be": "write",
+  "b95f6513ceba57af1728a67ad81b5495443a792f1c263b9a55606b10361a12bd": "write",
+  "75c130eb8f19bca6b98064c4001f541fd3e19c24eb5244aae2aaf6a81d518a8e": "write",
+  "39a3c9ccfc8f2cdb5c45e6c97963e25bf1ee6dcbd4fecbb4ae3bca3e13b4c850": "write",
+  "eb8d7d855f95098ac998f4ad514088c7a71650f6a21f9f2c8e66675805d628bf": "write",
+  "3ca6f691bc6bfd48b931542bc6ef292fc094806e0c52082c00f8051cf1289f1e": "write",
+  "cb2f288931616698198769e62c8b39caa3f1789d3cb5e3b5d2e4c85d8b61cf60": "write"
+ },
+ "flags": []
+}

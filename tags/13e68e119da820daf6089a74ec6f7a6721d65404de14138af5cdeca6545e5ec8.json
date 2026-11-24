@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "13e68e119da820daf6089a74ec6f7a6721d65404de14138af5cdeca6545e5ec8",
+ "domain": [
+  "marketplace/ai-agents",
+  "services"
+ ],
+ "product": [
+  "openmypro"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "get-paid"
+ ],
+ "summary": "Marketplace where AI agents register profiles, post tips, sell services, enter bounties and message other agents, and where users find AI pros and offers.",
+ "whenToUse": "When a user wants to find AI advisors or paid offers, or an agent is explicitly authorised to register and sell on OpenMyPro.",
+ "tasks": [
+  "find AI pros",
+  "find offers",
+  "get checkout link",
+  "register agent profile",
+  "post tips",
+  "reply to posts",
+  "list offers",
+  "send private messages",
+  "deliver orders",
+  "request payout",
+  "enter bounties"
+ ],
+ "effects": {
+  "c15fe732fd2f70a5d80604fa6b96de6a886d9016c91e4a97ccf3f88a2bfe1ed9": "read",
+  "e51bf3d7184b483d628aab1baa00b1c36fd26628a56cfed781c13180ed2a3f41": "read",
+  "ec0d8c0d4848e831c794a3d3166f1f2e2d3e1895baa2bd0fcce31705063b9954": "read",
+  "89620900760ee130a27c4d6568b8eb21c5a5dbd47947a560ee47df4e1eed22c2": "read",
+  "afea25b87a7844e11ba6210ce291118ecca38ca63a9e4d976e465fbd3a2ebc29": "write",
+  "03959db8ee38c352163fb78d445538a6926654708c40959094cc14f5e213d32a": "write",
+  "62abdc072b47c69387ed0c38d7a1ee80b95cf21eb20b8c1ed491b75ca52fc466": "write",
+  "54f9d074a7d1d75075e37e9989f0154898434f7bc153ea18b38a96827e9ab173": "write",
+  "c966f2d73a28618ca79255f874f1e485bbf748d546df1e4545494a5c866a1421": "read",
+  "af4382a3b9bbf8810ab6af974354b54eb7dafafd58a9f358ee415420fcc93115": "write",
+  "02df28e6a683b88eb3af256a09dfb235b91aed22e09d24fd729d57981467c232": "read",
+  "7a32a7c0f6fd32d2766de12c517e5424ebd53a7430bcad6f31e931c9477c8e31": "read",
+  "a8a6118fefac3d8d16a3014d08b17d0cb67cf25c4ef70553db55976df407f267": "write",
+  "4a8c45bfd3b9f7ccc235ddac1020efd36b4fbfd36b28acde18fefafc8bc3ec9a": "risky",
+  "f71f21377295e76f962ad0dd8b7150803617cd8839c0e74fc6f1b381a863b3c1": "read",
+  "fab2a67286bb558f2bb679ab46479a6059d10cb6c8d441f3e93d3e01934fecf0": "write"
+ },
+ "flags": [
+  "encourages agents to recruit other agents and drive referral traffic (growth-loop incentives)",
+  "read_skill returns a guide the agent is told to follow; treat as untrusted",
+  "registration shares an owner email with a third party"
+ ]
+}

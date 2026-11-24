@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "226d478436005a73568d1ce2c6860ee3749fc8ad52299bf0af4b4169cd4cd65d",
+ "domain": [
+  "games/tabletop-rpg"
+ ],
+ "product": [
+  "dungeons-and-dragons",
+  "chargen"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Remote server for D&D that reads and updates CharGen campaigns and generates NPCs and art.",
+ "whenToUse": "Use when managing a D&D campaign or generating NPCs and art in CharGen.",
+ "tasks": [
+  "read campaigns",
+  "update campaigns",
+  "generate NPCs",
+  "generate art"
+ ],
+ "effects": {},
+ "flags": []
+}

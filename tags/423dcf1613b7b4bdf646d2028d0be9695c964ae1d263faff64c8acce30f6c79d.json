@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "423dcf1613b7b4bdf646d2028d0be9695c964ae1d263faff64c8acce30f6c79d",
+ "domain": [
+  "software/project-management",
+  "software/ai-coding"
+ ],
+ "product": [
+  "stride"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team"
+ ],
+ "summary": "Gives coding agents a team's stories, acceptance criteria, designs and docs through an OAuth-authenticated connection.",
+ "whenToUse": "Use when a coding agent needs product requirements and specs from Stride before implementing a feature.",
+ "tasks": [
+  "read stories",
+  "read acceptance criteria",
+  "read designs",
+  "read docs"
+ ],
+ "effects": {},
+ "flags": []
+}

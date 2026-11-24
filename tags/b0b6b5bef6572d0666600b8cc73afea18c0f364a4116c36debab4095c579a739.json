@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "b0b6b5bef6572d0666600b8cc73afea18c0f364a4116c36debab4095c579a739",
+ "domain": [
+  "hospitality/booking"
+ ],
+ "product": [
+  "tehprof-booking"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Browse bookable resources and availability for a tenant, and create, list, view and cancel reservations.",
+ "whenToUse": "Use when checking availability or managing reservations for rooms, halls or services on TehProf Booking.",
+ "tasks": [
+  "get branding",
+  "list resources",
+  "list groups",
+  "check availability",
+  "create reservation",
+  "list reservations",
+  "get reservation",
+  "cancel reservation"
+ ],
+ "effects": {
+  "8a03ce10133138c80b0eb49508a6e1408a02e6b1ab96ecc79b0dea1656655ae5": "read",
+  "f059e6830469be0b0b33bbdd685deb333f37364fee33eae06884a4bd1e474c04": "read",
+  "05ac58576a2be7f13766d4c71501ee0ab5af8b60f2148f0a31d2c2c62b3df7b0": "read",
+  "008e77acb6aa490d88e5a2347e4d39de994f0be099cd96a0bad05155584c61f2": "read",
+  "24fd423eac7aa2705721fdd4de54cd299587b4470af56665a8d80079af6fbd38": "write",
+  "9cda0722d780b892c0a3f26d5b110dd2b1e0b86746df83638db30f5e70a8c0b1": "read",
+  "12f6263d832c51ee9b520b97dd31f8db696a7028fc70a0e8d57573b3f4acadb8": "read",
+  "5589ab1c822e388e89e09f16b0180cb237d28f959804e61188b7ea6ae3292a65": "write"
+ },
+ "flags": []
+}

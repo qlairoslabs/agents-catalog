@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "756c83688a374473dea8e617ecca4da5cdcc99f3f55854014b68bfc168830c74",
+ "domain": [
+  "travel/wellness-retreats",
+  "religion/pilgrimage"
+ ],
+ "product": [
+  "dharmikvibes"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Browse spiritual wellness retreats, yatras, experiences and group sessions across India, with itineraries and published prices; it cannot book.",
+ "whenToUse": "Use when a user is exploring spiritual retreats or pilgrimage trips in India and wants itineraries, prices or booking contact.",
+ "tasks": [
+  "search trips",
+  "fetch page text",
+  "list trips",
+  "get trip details",
+  "get booking contact",
+  "list travel articles"
+ ],
+ "effects": {
+  "807186b9b266981cc4e7b6b8e81c01f566eebb1bf5dc74c91ca31e1c9d99062a": "write",
+  "2f33787ee16242b7f2172cb6bfb35ef79695a161d987ade21df240c93c4d64b3": "write",
+  "32cd0948ae595cdc5da37243127b3d85da5ad8ffe716728bb05be02b5a828137": "write",
+  "bea92656d929112d8dcd71c87d4d7d55f4164be5f3d29bf66feed956f8a3b00f": "write",
+  "9c211c8b0ce8e1c29693e63af246034c0d791fcde1b6bf12fdaa866a0f8a30b6": "write",
+  "8f8ebbb7cdf10e71cb2810ba0ea7483a3a9a9b5d72a029d18af771cadea05104": "write"
+ },
+ "flags": []
+}

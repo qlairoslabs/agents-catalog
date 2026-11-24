@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b2c41e5c274f71c75d1a4628faa4827d410ebf61c603d6c9fbdc39fc67fa434b",
+ "domain": [
+  "data/public-records",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "sec",
+  "epa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Public data lookups for agents: CVEs, SEC filings, housing, wildfire, contractor licenses and EPA labels.",
+ "whenToUse": "Use when an agent needs public records such as CVEs, SEC filings, contractor licenses or EPA labels.",
+ "tasks": [
+  "look up CVEs",
+  "search SEC filings",
+  "housing data",
+  "wildfire data",
+  "check contractor licenses",
+  "EPA labels"
+ ],
+ "effects": {},
+ "flags": []
+}

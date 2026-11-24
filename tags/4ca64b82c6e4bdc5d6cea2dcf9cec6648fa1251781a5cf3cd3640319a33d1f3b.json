@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "4ca64b82c6e4bdc5d6cea2dcf9cec6648fa1251781a5cf3cd3640319a33d1f3b",
+ "domain": [
+  "support/helpdesk",
+  "crm"
+ ],
+ "product": [
+  "gleap"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "keep-in-touch"
+ ],
+ "summary": "Official Gleap server for tickets, contacts, CRM, help center and support statistics, with OAuth sign-in.",
+ "whenToUse": "Use when handling support tickets, contacts or help center content in Gleap.",
+ "tasks": [
+  "manage tickets",
+  "manage contacts",
+  "use CRM",
+  "manage help center",
+  "read support stats"
+ ],
+ "effects": {},
+ "flags": []
+}

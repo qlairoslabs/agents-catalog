@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "926116ae68ce78a61d9f581b8c2cba6566e1af93ea948e7ca230b79fe2111cf8",
+ "domain": [
+  "business/appointment-booking",
+  "automotive/detailing"
+ ],
+ "product": [
+  "google-maps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Booking door for ES Luxury Auto Detailing: services and prices, open times, service address check, booking and cancellation.",
+ "whenToUse": "Use when a user wants to book auto detailing or tint services with ES Luxury Auto Detailing.",
+ "tasks": [
+  "read business card",
+  "find open times",
+  "check service address",
+  "book appointment",
+  "check booking",
+  "cancel booking"
+ ],
+ "effects": {
+  "40da7fa3df9bf4a476db82675ec4d451d7c8e9e64346aa8ebb7c8b49a517de8e": "write",
+  "47575978686d3601c3ece600520670812df7ed936d4f4762265b6b4812dc1f9d": "write",
+  "aa10fad3251a3101cda7dba499b66493609bec6d82b30d88014717897c8cac14": "write",
+  "5ed5fe6ae04218273f4dd532b57583ebfc38dbd87253a24bf45415e2fc72d70b": "write",
+  "7808a4a08f0e1363dd413375b36acc2b1afa0a6709880fd61e272921c31901a5": "write",
+  "e05f7dd7236f66d75b1b0fdce3c4a2bbf4d8347bb8505620c104fee49a8891af": "write"
+ },
+ "flags": []
+}

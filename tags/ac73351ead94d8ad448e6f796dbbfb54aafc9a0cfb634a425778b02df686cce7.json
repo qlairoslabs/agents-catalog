@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "ac73351ead94d8ad448e6f796dbbfb54aafc9a0cfb634a425778b02df686cce7",
+ "domain": [
+  "software/network-diagnostics",
+  "web/performance"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Runs website speed, ping, traceroute, DNS, web server, email, FTP and streaming tests from over 30 locations.",
+ "whenToUse": "Use when diagnosing website performance, DNS or network reachability from multiple locations.",
+ "tasks": [
+  "website speed test",
+  "ping",
+  "traceroute",
+  "DNS lookup",
+  "web server test",
+  "email test",
+  "FTP test",
+  "streaming test"
+ ],
+ "effects": {},
+ "flags": []
+}

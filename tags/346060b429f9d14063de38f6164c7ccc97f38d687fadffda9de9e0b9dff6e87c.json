@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "346060b429f9d14063de38f6164c7ccc97f38d687fadffda9de9e0b9dff6e87c",
+ "domain": [
+  "finance/trading"
+ ],
+ "product": [
+  "quantifyme"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Turns a plain-English trading strategy description into a deployed live signal model in one call, without signup.",
+ "whenToUse": "Use when a user wants to define and deploy a trading signal strategy from a text description.",
+ "tasks": [
+  "describe trading strategy",
+  "deploy signal model"
+ ],
+ "effects": {},
+ "flags": []
+}

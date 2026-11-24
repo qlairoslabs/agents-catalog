@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "5ddb93a29732becae5411043a84dfcd0a0c77ab2643e0af58177a7a100c9aa43",
+ "domain": [
+  "retail/building-materials",
+  "ecommerce/catalog"
+ ],
+ "product": [
+  "woocommerce",
+  "steelprofil"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Read-only access to the SteelProfil building materials catalogue, with product search, specifications and quantity-based net and gross prices in PLN.",
+ "whenToUse": "Use when a user wants to find building materials from SteelProfil or get a price for a given quantity.",
+ "tasks": [
+  "search products",
+  "get product details",
+  "quote price by quantity",
+  "view translations"
+ ],
+ "effects": {
+  "1e422cc0af6426ce57eabe96cb905c8ef235ae39d9e30b2ff2eb6686dbe502c3": "read",
+  "3bc3b453a88439846f6d0c751ce8aee94658c6e9aa3e8a1354aab10a5ef3fe70": "read",
+  "8106c5585cfde2ac35c317ecac69e1f36d79d466d98f90d109bbc836a5d58d63": "read"
+ },
+ "flags": []
+}

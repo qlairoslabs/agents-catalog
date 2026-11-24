@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "7f2ac964528d1ac3984e7d8ed4b0a1ab5738dd14422f1041c11da13c0c8da762",
+ "domain": [
+  "productivity/file-management"
+ ],
+ "product": [
+  "google-drive",
+  "onedrive",
+  "sharepoint",
+  "dropbox"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Finds, reads and reorganizes files across Google Drive, OneDrive, SharePoint and Dropbox, with undo.",
+ "whenToUse": "Use when searching or reorganizing files across cloud storage services.",
+ "tasks": [
+  "search files",
+  "read files",
+  "reorganize files",
+  "undo changes"
+ ],
+ "effects": {},
+ "flags": []
+}

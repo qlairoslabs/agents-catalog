@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "a1482b3d62f94a11cb28538733566134419d0a7a7deedff9283bbfbbdf8139d6",
+ "domain": [
+  "software/browser-automation"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Local MCP server that gives an AI agent control of a web browser for browsing and page interaction.",
+ "whenToUse": "When an agent needs to open, navigate or interact with web pages in a browser.",
+ "tasks": [
+  "browse web pages",
+  "interact with pages",
+  "automate browser actions"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b91e620fe4bd58385a78d5564e5057f56af2b290b419d3ff28a0041f8c3f24cb",
+ "domain": [
+  "business/ai-strategy",
+  "business/project-review"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Reviews an AI project proposal and returns a Stop, Fix or Accelerate verdict with decision gaps and a next action.",
+ "whenToUse": "When an agent needs to assess the business value and readiness of a proposed AI initiative.",
+ "tasks": [
+  "review AI proposals",
+  "find decision gaps",
+  "recommend next action"
+ ],
+ "effects": {},
+ "flags": []
+}

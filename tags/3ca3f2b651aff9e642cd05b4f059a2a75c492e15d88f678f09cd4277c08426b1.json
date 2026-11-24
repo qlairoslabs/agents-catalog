@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "3ca3f2b651aff9e642cd05b4f059a2a75c492e15d88f678f09cd4277c08426b1",
+ "domain": [
+  "finance/wealth-management",
+  "data/vendor-research"
+ ],
+ "product": [
+  "wealthbox",
+  "orion",
+  "sec-form-adv"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only reference on API access, vendor MCP servers and SEC Form ADV columns for wealth tech products.",
+ "whenToUse": "Use when checking how to integrate with a wealth tech product or interpreting Form ADV data.",
+ "tasks": [
+  "search products",
+  "get product access facts",
+  "compare access",
+  "list MCP servers",
+  "get MCP server record",
+  "read changelog",
+  "explain Form ADV column",
+  "list categories"
+ ],
+ "effects": {
+  "4ebcb2438ce8f29a8b68eaf2868e77d15e0d318f93459db29b26ff7f4c9bee73": "write",
+  "c8edde11227e46fd95b6cac8b74bc852c11da5ad0b193ec714f50e1e5b9fa445": "write",
+  "e21f87d8e037139ceba28b8557ead3e3aa5c5e37a145e3e713d70234a1d932ac": "write",
+  "70b2acc2a2f0bd8608b984ed360134a6114d314b45daedf9c0624dece56c6b28": "write",
+  "67b66c32095db68a4f4a006acce51439088b8ae89f4b2bde6953947c2153c14f": "write",
+  "f31b3d740869942508cbc68b58d84492910f79c7f9db827470aac047f8a31706": "write",
+  "f0b698ec570baded24c6faec975c9c2b776b4e832eb94b131ee226a446ee0cdb": "write",
+  "58ef369002aeab3c26901ff33fe683d893f853fe7313573a86d6a8bd84eda7b9": "write"
+ },
+ "flags": []
+}

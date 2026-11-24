@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6e9ff22675826ea3ce09d137888bb3f7cdce20fd4f22c016617646c4d589fd54",
+ "domain": [
+  "finance/payments",
+  "ai-agents/governance"
+ ],
+ "product": [
+  "authoryze"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Gives an AI agent a spending limit with approval controls and single-use virtual cards.",
+ "whenToUse": "Use when an agent needs to make purchases under a controlled limit with approvals and virtual cards.",
+ "tasks": [
+  "set spending limits",
+  "require approvals",
+  "issue single-use virtual cards"
+ ],
+ "effects": {},
+ "flags": []
+}

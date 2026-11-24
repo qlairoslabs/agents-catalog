@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "d986b1790ac9d3e45a0165bcaa429e87bf04ce67694fe743d6339757c4d7cff0",
+ "domain": [
+  "communication/disposable-email"
+ ],
+ "product": [
+  "grabmail"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Creates disposable email addresses and reads incoming messages, so agents can receive sign-up codes and confirmation links.",
+ "whenToUse": "Use when an agent needs a throwaway inbox to receive a verification code or sign-in link.",
+ "tasks": [
+  "create disposable address",
+  "list domains",
+  "list messages",
+  "read message",
+  "wait for message",
+  "delete message"
+ ],
+ "effects": {
+  "0bf3988e05fb3dbd36a72f866e81704be99495652748b3a1bc2fd67285179809": "write",
+  "128485f6fa5c268649c5d5625f5141543a92637d6ab5683cbf51c817692ce9bd": "read",
+  "3d682f59f79eb457b31380bd3ce65a88b490af3676ee939946b32005e3c5ee3f": "read",
+  "1c336a6df81dec91c11f38cf14b7c5dcdc6db143534ac40754ebabd3416e529c": "read",
+  "7e44ad3dbe41ae99a963074aa6a39342bf9df4507fc80107e74e25e2cc9a4dd7": "read",
+  "e8ae02116c3a19c58ecc93f045d4435f931dc722a1f8410dcc55af4aa7901cb1": "write"
+ },
+ "flags": []
+}

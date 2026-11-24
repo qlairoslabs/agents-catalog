@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "01334074a52b124d442bfcd6daa4fd2d17232518f5adae50e4076eda81b181aa",
+ "domain": [
+  "finance/sec-filings"
+ ],
+ "product": [
+  "sec-edgar"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Read-only access to normalized SEC EDGAR data: Form 3/4/5 insider trades, 8-K events and S-1/F-1 IPO registrations.",
+ "whenToUse": "Use when researching insider transactions, 8-K corporate events or IPO registration filings for US issuers.",
+ "tasks": [
+  "list insider trades",
+  "fetch insider filing",
+  "list 8-K events",
+  "track IPO registrations",
+  "fetch registration event",
+  "check dataset coverage",
+  "read schema"
+ ],
+ "effects": {
+  "1afef39c1285f57cfd6a933a8a2e2ea73f873904ba332331e82a67c9d65c5c88": "write",
+  "0bd87844b346430326dca61886fede9ef98a83d75799def0bd6937ed5eeb9aea": "read",
+  "693a0fb2caf95f8992acc6013eac31c2a279961dac157f8181ae2b6bcfdc29bc": "read",
+  "e3b3b6edda2a1933ee21452933c26b7ee71828b5c860fd4a0862aa4f9d5afc7a": "read",
+  "125b0966b2ea945d1fb3b4abb0c14d3aa4ebbcd92922e04178edf73be01a6ed7": "read",
+  "5802d756b9a155b649a1febab82b3c09ad47f4f2ead47105f6b2890a0e35278e": "read",
+  "0c4a722b2eb6271eb732b1ef58b252179d24033b9c5986b82691bb2851d3a5a7": "read"
+ },
+ "flags": []
+}

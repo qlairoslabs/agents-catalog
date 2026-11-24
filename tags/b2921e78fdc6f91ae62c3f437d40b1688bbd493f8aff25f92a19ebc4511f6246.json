@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "b2921e78fdc6f91ae62c3f437d40b1688bbd493f8aff25f92a19ebc4511f6246",
+ "domain": [
+  "health/personal-records"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives access to a person's lab results and health record: trends, retests, medications, conditions and symptoms.",
+ "whenToUse": "Use when a user wants to review or interpret their own lab results and health history.",
+ "tasks": [
+  "view lab results",
+  "show trends",
+  "track retests",
+  "list medications",
+  "list conditions",
+  "log symptoms"
+ ],
+ "effects": {},
+ "flags": []
+}

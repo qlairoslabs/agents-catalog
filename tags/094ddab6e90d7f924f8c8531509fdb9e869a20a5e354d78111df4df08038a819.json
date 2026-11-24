@@ -1,0 +1,64 @@
+{
+ "classifier": 2,
+ "contentHash": "094ddab6e90d7f924f8c8531509fdb9e869a20a5e354d78111df4df08038a819",
+ "domain": [
+  "health/beauty-clinics"
+ ],
+ "product": [
+  "glodi",
+  "vipps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "support-customers",
+  "sell"
+ ],
+ "summary": "Finds Norwegian skin and beauty clinics, treatments, prices and free times, and handles bookings, gift cards, events and product orders.",
+ "whenToUse": "Use when a user wants to find a clinic or treatment in Norway, book or cancel appointments, or buy gift cards and products.",
+ "tasks": [
+  "find clinics",
+  "search treatments",
+  "find free times",
+  "book appointments",
+  "cancel bookings",
+  "join waitlist",
+  "send inquiries",
+  "buy gift cards",
+  "register for events",
+  "order products",
+  "view offers and reviews",
+  "price clinic software modules"
+ ],
+ "effects": {
+  "e78c46ee574d3f91097fcde4c430a694143fa8e6d8d59b76ebf8d1650cfec839": "read",
+  "5cecf40b31bfbbe97a3b14bad340778015e6570353acbd8a8182673c37ab2e70": "read",
+  "0743f14db797eead6af93dc8244f28f8d9aee23fd1eed68aaa410b9465db6156": "read",
+  "e0a28f91f5fc0d50ae417edffcd7402b88c0d0ca565e158b57245513de96fc11": "read",
+  "d6bf64ce39e05cc9f2a6e51457fedc0e3ce647ee230b9d51c04f35e68925c84b": "read",
+  "2ccdb6d7948f7436fe6f1fa16e1669b7bf61d009b6fdbfbbacf532dfaa95061d": "read",
+  "aebce0508b898c35fa22fe38b9beab2d7812242be4ab36737a39aab276965ce9": "read",
+  "87d2190a03ae7b8dee8d84bb6fc1d99d8c7d567a1a1d5d05d53db4234c4b92b6": "read",
+  "0d4afc183517cdb7a26e54a84e3615f1cb797554d615da46460943883f47401d": "read",
+  "c026f1698b0746c255dbe1b32bbe8c22788132a9447bad7aa9964ad3d43c6b55": "read",
+  "e5b8931d6cb7e8ce752bc9dfa7edf1bedc38c2b44e477f963433f104fc3ba2ec": "read",
+  "cba71eb96dde218bb0aad33fc9a7f359fbdd929fedeb796c28a9c331a3b4822c": "read",
+  "c60f2069cecac0eedf2d1b85c5ac736e7e96fd59efb9ec3010aebf6836681c61": "read",
+  "8cb6f4f12cd7d7cf3dbead3b1e92a4e8af75a428c7f3c974e74405235eb20ab3": "read",
+  "73956fc131348a1923912c13826be4d04840eeb1cb5e45ce8deda4c20dfc8145": "read",
+  "dac539931e1a5f659d8c46fce3df2c4ea5d8319ff3cc1f44073045eb3394c101": "read",
+  "bc62eac8a9f8ca0751280f11ac426c1b17c0d9733b9ed48cf32ac58bdc64d1f7": "write",
+  "7efcb5f163f145c54a202f82cd5716383b1bf32dda23015717d60b83b9d0d389": "write",
+  "484ed56cb7c87c233b1d9adcd4870dab7bc4e131f557aa29bec77ffc9dec8a6f": "write",
+  "a181dd84234dee12344b809ae4c67a4065ab35082b80e48ce1a88f8067171f58": "write",
+  "1d1a2b10a8ec08ceb0e2d157d2b099173ee01bd1640c5e16be4936c7d3f73512": "write",
+  "2b122a1065664049fb09ef65c468d191fddb263e83475819a8d82975da2d6f6e": "write",
+  "9c486e540bd19a0702f28576d2c605c8a68af03ee9c067290c1ff4a3484c8442": "write",
+  "5fb673e91e204cf035bcdf4add1aa0eaf1f00a915925b47e3557899e11541ba2": "write",
+  "a79befcaebb68717ccd2bda644fada6b47f8954fbd850971d1ff6484d395dff6": "write",
+  "11cc2073e970d51346df5d78edee5dff27453777b48bfba5074007c69958b058": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "6e4c69c2c5fac69f5095c6e0f11a4be4afe04d628cd6fc10f3e4f9d671902067",
+ "domain": [
+  "travel/planning"
+ ],
+ "product": [
+  "aitrips"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "create-content"
+ ],
+ "summary": "Plans trips on a map with routed transport, day-by-day itineraries and a shareable plan.",
+ "whenToUse": "Use when the user wants a trip itinerary with routes built and shared.",
+ "tasks": [
+  "plan trips on a map",
+  "route transport",
+  "build itineraries",
+  "share plans"
+ ],
+ "effects": {},
+ "flags": []
+}

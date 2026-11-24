@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "c06ee1be2b720d58a7315f1f777d95d60120ab5982ab3a52e70270a972f7670b",
+ "domain": [
+  "productivity/reminders"
+ ],
+ "product": [
+  "nudgebell",
+  "whatsapp",
+  "sms",
+  "email"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "keep-in-touch"
+ ],
+ "summary": "Lets an agent create reminders delivered by email, WhatsApp, SMS or call in staged steps that stop once acknowledged.",
+ "whenToUse": "Use when a user needs a persistent multi-channel reminder that escalates until acknowledged.",
+ "tasks": [
+  "create reminders",
+  "set escalation steps",
+  "send via email, WhatsApp, SMS or call"
+ ],
+ "effects": {},
+ "flags": []
+}

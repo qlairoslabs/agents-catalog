@@ -1,0 +1,65 @@
+{
+ "classifier": 2,
+ "contentHash": "0938f9718eb6fd92cc621205a8651f06e573fbeeabf7719172f0a051ffc9e9b1",
+ "domain": [
+  "marketing/ai-visibility",
+  "local-business/directory"
+ ],
+ "product": [
+  "chatgpt",
+  "claude",
+  "gemini",
+  "stripe",
+  "thefork",
+  "zenchef",
+  "sevenrooms",
+  "toast"
+ ],
+ "audience": [
+  "marketing",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "be-online"
+ ],
+ "summary": "Scores how readable and bookable local business websites are for AI agents, with city indexes, assistant answer tracking and direct booking links.",
+ "whenToUse": "Use when a user wants to find places that take bookings or orders directly, or check how AI assistants treat a restaurant's website.",
+ "tasks": [
+  "scan website for agent readiness",
+  "find direct booking places",
+  "compare cities",
+  "check menu prices",
+  "see what assistants say about a business",
+  "check vendor terms for agents",
+  "order deep report",
+  "search places"
+ ],
+ "effects": {
+  "9ba67f769a371d71077d8b5e9e4d620ce6fd138d4285a602c9e91b1f866c6974": "write",
+  "3627a71f37d7697ae8efb1499fb9b60d52c713869b6d2740b77c76b1ac003b81": "read",
+  "d546b8baf0f9c32b266e08aea99c2e949279dafa32624aa11a14f91a126b36f1": "read",
+  "0fefec53cd900a6d377c89f08fea29d75839e70d9e528170880cc68f64492ae6": "write",
+  "0dc5e76f4530395dc73ece3131983713111091dff8a0b15093470b38442c8797": "read",
+  "2ece1bf135b0ad1f032ed2780dba11fa6bd1455a12633dbaf966f2adb8138253": "read",
+  "0fff066a10037de4868d13f6a2eb0703092263c7429851d7febbb7003dccaec0": "write",
+  "36d5ee1ff17c9b2686c14fa7c6f400814b9eadce61e4f464af362bcbbb3cccea": "read",
+  "cf8f5b56c04919cfd9c6367946a532e0287a2a3f53e638dd3e98cc2295fb549b": "read",
+  "cf69c28c090f73432e861e897bc4a440c6e60f2345858951b8bcc6f5f130e7df": "read",
+  "dbc1def3f739b52023ef3f602f27d47c957493f78195c5bc720bc74cbbc679d5": "read",
+  "f5532251a6035cd3d586724ee808c31b28fbf6b41aae7ef94f0ec895ccf15746": "read",
+  "8a1a3ae84bacf958efe284fe88539459ac52cf76cc44a40c02587a8517f01590": "read",
+  "24807340b230a8036bf365937783fa3fd4c4ff4b96b93735bac9f545e0ccd13b": "read",
+  "8e28b265e952f64095f5f6519bbb8f246fe3abb1387c6aad10319a0e7a5fe360": "read",
+  "ea269539334330b083afef49034fa9d3498b9cbbee28c129943b9162582b2fe8": "read",
+  "8c2ecb475d3cfb3e1d865407817b60d477166a2570bc7f702bcf66f8bc7629d7": "read",
+  "b456881d7469e512f9222b7ad06ed3c73d4d8776bc4414ca3597e6497dc0031f": "write",
+  "e87fd179b456687e5968b55acfec727db271f929b13e50d76b855020603ceb46": "read",
+  "60ac5a5c1fe6c0a085ecfcece2cc514e882c7b46bf803e80b25f787be8fffb24": "read"
+ },
+ "flags": [
+  "Tool schemas require extra analytics fields (context, llm_model, conversation_id) that ask the agent to report its model and describe its calls."
+ ]
+}

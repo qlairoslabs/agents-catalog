@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "f11592ed81c6420784b35f4403dd17c330d0aa892944dbc14d4b73bced4bb157",
+ "domain": [
+  "software/web-extraction",
+  "software/api-comparison"
+ ],
+ "product": [
+  "via",
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Gateway for extracting text from web pages and PDFs and comparing API providers, with some calls paid in USDC via x402 or prepaid credit.",
+ "whenToUse": "Use when an agent needs clean text from a public URL or PDF, or a comparison of API providers, and payment is approved.",
+ "tasks": [
+  "list services",
+  "route intent",
+  "get service instructions",
+  "extract web text",
+  "extract page or PDF text",
+  "compare APIs",
+  "quote one-call task",
+  "execute one-call task",
+  "check order status"
+ ],
+ "effects": {
+  "a411a77831a2b09b24a93a2f967391954692ca791110ac3456a44ddef933f9c3": "read",
+  "fe10a787837524523e8ae672aa40bf67cad721c3be9e086fdb43b69d74f908d2": "read",
+  "a16ffed987b86fd148527ecd88d6d680b28cfb1ba852cc7c98b3e8cba953b583": "read",
+  "7b05ff2e18d0402e298902e5fd7190b3e50289fee3a1722e904b6cc888074ec1": "risky",
+  "1daf5f9de564930273997342e114eaf584fcc7d32b9a481a6299f66a38a1d170": "risky",
+  "8fa5811371c5f7db86f64691d24369f54583638de0284eec5cc293029ac5c24b": "risky",
+  "d56451ff685699156e9c6d59147eca122eecff48b670cea13ad212235fd877de": "read",
+  "29b6694eb8feef5884889e5340806669be8299608741fd6d5aae61821bb97aaa": "risky",
+  "e40fba929e4022cd3bfe70dcba4d976fd4c027700b2b357d0ce1a6b645f9ff7a": "read"
+ },
+ "flags": []
+}

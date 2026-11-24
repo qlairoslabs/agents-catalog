@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "b2bcec98da7e00a47f2d927799ed5e04ffb43dc80b2347f1a72109d6db1adacd",
+ "domain": [
+  "ecommerce/auto-parts",
+  "retail/automotive"
+ ],
+ "product": [
+  "tachka"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "Auto parts store: search products, build a cart, estimate RU/CIS delivery and place orders as leads confirmed by the store.",
+ "whenToUse": "Use when a user wants to find auto parts, price delivery or place an order on Tachka.ru.",
+ "tasks": [
+  "search products",
+  "view product details",
+  "add to cart",
+  "update cart",
+  "find cities and pickup points",
+  "estimate delivery",
+  "get checkout link",
+  "place order"
+ ],
+ "effects": {
+  "e07db1f54dddc0a2f0b0e99f10d618f91956f71028a961df4312d5d1c0f4767d": "write",
+  "07b88cc6d349b9719d1bf694450749f87c6c4ecb8cd4884bab1d3f53ec26c34a": "write",
+  "6dd22c81a471a76f1088790890007b8465ad8f045be84cc531cc03e72a7d33de": "read",
+  "e859ead9770dd05365933fddfefb693d7fab218a779bd03846a0bb0c8b41c675": "read",
+  "6a2e05e94d0d0502eead8b48c3bcb5afca86e9734ca80506653d8793195ecc3f": "write",
+  "de74b675efd612e234788e524a8e3f9e6e4e70e8b6adf16a229cfda86455298d": "read",
+  "e42e908d1421ba746e9305c7b4cd93e41cb1737991bbb227565660b2302c7d7c": "read",
+  "8b0714985f3dc05f7f6609716df9b5083991071b0a3afcf176af57a2b96c63b6": "read",
+  "a3988aa3e8a5284da435f2181aa8e07b715b96abde4433a12f9b586ef6e2f3fd": "write",
+  "2544604380eb2c4a707f3722b6116dd8e7b457b6ade5cd4a12f34bbb081ea792": "write"
+ },
+ "flags": []
+}

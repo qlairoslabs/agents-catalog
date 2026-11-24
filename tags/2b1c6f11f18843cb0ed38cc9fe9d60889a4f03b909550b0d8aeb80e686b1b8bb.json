@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2b1c6f11f18843cb0ed38cc9fe9d60889a4f03b909550b0d8aeb80e686b1b8bb",
+ "domain": [
+  "communication/email"
+ ],
+ "product": [
+  "maylee"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "AI email client that reads, searches, triages, drafts and sends mail and manages labels, views and label rules.",
+ "whenToUse": "Use when an agent should handle a user's inbox: triage, drafting, sending and labeling.",
+ "tasks": [
+  "read email",
+  "search email",
+  "triage",
+  "draft replies",
+  "send email",
+  "manage labels",
+  "manage views",
+  "set AI label rules"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "4df2cff6d38620e4495ba16420eab18d2703c4beaac6f75e9b189f32e299ea81",
+ "domain": [
+  "business/partnerships",
+  "consumer/subscriptions"
+ ],
+ "product": [
+  "fleek"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Helps card, loyalty, benefits and telco programmes pick subscription brands to offer via Fleek, and gives merchant and creator sign-up info.",
+ "whenToUse": "Use when a business or creator wants to offer or sell subscriptions through Fleek programmes.",
+ "tasks": [
+  "search brand catalogue",
+  "look up brand",
+  "shortlist brands for programme",
+  "get workspace sign-up link",
+  "explain merchant onboarding",
+  "explain creator onboarding"
+ ],
+ "effects": {
+  "eb84a20158b5dee6dfaf15fef46d2f158a96a053b7b2780c740c61d417e1671d": "read",
+  "d608821e3eedbdbf2d9d0b9d89c42adf0824bd4fc571651e566ce38c2ef9dce8": "read",
+  "9f68cffb67356a172aea0343b56f8c940a75796b336bd8e7932fe40a900a9770": "read",
+  "4a15f09fdb7ba29d2cf0cb68729968a4df655c9c924328514aeb74e358c87ad9": "read",
+  "7642c59893d5a0a54dcfde03758024805cf07a9dd84d7ebe8cf431d78ed03ebb": "read",
+  "054caa9b50d18228689c1a06cf6ab8239106cc55f884ce6f1133364f65d638f2": "read"
+ },
+ "flags": []
+}

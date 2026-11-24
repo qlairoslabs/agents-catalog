@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "89e5462438ab6e71be06025729281746a1ed6523677dab3263af7203fef28e14",
+ "domain": [
+  "knowledge-base/documentation"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search and Markdown reading of a person's public documents, prompts and resources.",
+ "whenToUse": "Use when you need to look up or read content from liz's public documentation.",
+ "tasks": [
+  "list public documents",
+  "read a document as Markdown",
+  "read a document section",
+  "find related documents",
+  "search documentation"
+ ],
+ "effects": {
+  "4c3b01d2e926d11cdd771b031010184fa9b3c80b5b375d45819ca18f491bf39c": "read",
+  "0a30ddfa72b736d5b490a6b004b5ea2e5e644d3fe41682b64b4d67040f27b0fe": "read",
+  "a0caea8e2631890ea03d9a263f7812d4515981c39d705635bcd3ec8613bf8139": "read",
+  "a81dee1bf3f4cb2c0f379d84aebaad5709516a398e26dbb5a05286e07c09e503": "read",
+  "84eed4c4fbcb31dac70e0be494d8e51759107cb404548410042d0c75c1db81a7": "read"
+ },
+ "flags": []
+}

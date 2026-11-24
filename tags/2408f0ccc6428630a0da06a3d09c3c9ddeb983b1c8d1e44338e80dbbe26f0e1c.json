@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "2408f0ccc6428630a0da06a3d09c3c9ddeb983b1c8d1e44338e80dbbe26f0e1c",
+ "domain": [
+  "software/api-docs",
+  "finance/social-monitoring"
+ ],
+ "product": [
+  "1322",
+  "x",
+  "truth-social",
+  "instagram",
+  "youtube",
+  "tiktok",
+  "binance-square"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Documentation reference for the 1322 real-time social and news monitoring API: REST, WebSocket and events.",
+ "whenToUse": "Use when integrating with the 1322 monitoring API and you need endpoints, auth, rate limits or event shapes.",
+ "tasks": [
+  "list supported platforms",
+  "get REST and WebSocket docs per platform"
+ ],
+ "effects": {
+  "d8ba1ea6c48b4cb2cfe25de221dd3a6d1afb7f734f3d0ac647203c5876988bda": "read",
+  "854c9904765a675c9c65906ac418c91f403d2733103ee41591211bd173efba74": "read"
+ },
+ "flags": []
+}

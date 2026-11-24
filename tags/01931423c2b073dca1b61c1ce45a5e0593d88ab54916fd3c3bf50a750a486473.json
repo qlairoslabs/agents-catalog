@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "01931423c2b073dca1b61c1ce45a5e0593d88ab54916fd3c3bf50a750a486473",
+ "domain": [
+  "finance/crypto-swaps"
+ ],
+ "product": [
+  "monero",
+  "wagyu"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Quotes, creates and tracks cross-chain crypto swaps, including Monero, returning a deposit address for each order.",
+ "whenToUse": "Use when the user wants to swap crypto between chains and needs a quote, a swap order or its status.",
+ "tasks": [
+  "list supported chains",
+  "search tokens",
+  "get swap quote",
+  "create swap order",
+  "track swap status",
+  "set refund address"
+ ],
+ "effects": {
+  "d04da4d244f48fee677c9f08e689a07a47d6f2023fd0a72e6afd00a6240cef8a": "read",
+  "9c59b4ef79b0a6e999a186f99d725b23028134a17435d3527a2aa34a4a09eae7": "read",
+  "58621fd47bedcf026e45a96e4bf0856e356bf94de3c51e60cda2873d46a5fef0": "read",
+  "4ef47bc0918f1b2b364ea3f9fb0d617ca2eeceee4880b6aea7082c045df3321b": "risky",
+  "2c1708cfef8f9aa4daf8b0bd4094457f86cbd2c8c69b5abfac8211617fe744f2": "read",
+  "1d128942cb5869d6dd1ce9ee743b146eddc8c2423bc6b04fb06a001a13f25b79": "write"
+ },
+ "flags": []
+}

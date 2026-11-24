@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "d063b1fd6adb2c68efd85ef045e2882c70313ed22a9f17166ceeb64347b58816",
+ "domain": [
+  "software/agent-memory",
+  "software/search"
+ ],
+ "product": [
+  "claude-code",
+  "codex",
+  "cursor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local memory and session search across fifty-two coding agents including Claude Code, Codex and Cursor.",
+ "whenToUse": "When an agent needs to find past coding-session context across agents.",
+ "tasks": [
+  "search past sessions",
+  "recall context"
+ ],
+ "effects": {},
+ "flags": []
+}

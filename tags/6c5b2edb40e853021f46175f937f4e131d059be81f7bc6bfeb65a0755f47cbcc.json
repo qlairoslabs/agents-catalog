@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "6c5b2edb40e853021f46175f937f4e131d059be81f7bc6bfeb65a0755f47cbcc",
+ "domain": [
+  "software/testing",
+  "software/ci"
+ ],
+ "product": [
+  "currents"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Currents service for self-healing CI tests and proof of work for AI agents.",
+ "whenToUse": "Use when an agent needs to inspect or repair CI test runs on Currents.",
+ "tasks": [],
+ "effects": {},
+ "flags": []
+}

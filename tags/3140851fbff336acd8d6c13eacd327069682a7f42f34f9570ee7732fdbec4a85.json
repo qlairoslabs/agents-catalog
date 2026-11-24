@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "3140851fbff336acd8d6c13eacd327069682a7f42f34f9570ee7732fdbec4a85",
+ "domain": [
+  "software/mobile-animation",
+  "software/react-native"
+ ],
+ "product": [
+  "react-native",
+  "reanimated"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "create-content"
+ ],
+ "summary": "React Native animation recipe library with scene authoring, QR phone preview and Reanimated v4 code generation.",
+ "whenToUse": "Use when building or prototyping animations in a React Native app.",
+ "tasks": [
+  "browse animation recipes",
+  "author scenes",
+  "preview on phone via QR",
+  "generate Reanimated v4 code"
+ ],
+ "effects": {},
+ "flags": []
+}

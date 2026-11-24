@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "d190314150c5f2749585eb3dc8d6eed1449446ba2eb1b4aa531004fc1db57c71",
+ "domain": [
+  "careers/resume"
+ ],
+ "product": [
+  "json-resume",
+  "hacker-news"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "create-content"
+ ],
+ "summary": "Reads, writes, validates and themes a resume.json, exports PDF and Word, and matches it to Hacker News job posts.",
+ "whenToUse": "Use when a user wants to edit or export a JSON Resume or find matching jobs.",
+ "tasks": [
+  "read resume",
+  "write resume",
+  "validate resume",
+  "apply theme",
+  "export pdf",
+  "export word",
+  "match hn jobs"
+ ],
+ "effects": {},
+ "flags": []
+}

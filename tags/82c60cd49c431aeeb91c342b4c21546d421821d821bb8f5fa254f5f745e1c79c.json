@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "82c60cd49c431aeeb91c342b4c21546d421821d821bb8f5fa254f5f745e1c79c",
+ "domain": [
+  "crypto/agent-registry"
+ ],
+ "product": [
+  "moonbeam",
+  "erc-8004",
+  "base",
+  "x402"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks where an ERC-8004 agent is listed on registries, plus small x402-paid lookups for prices, onchain data, address risk and hashes.",
+ "whenToUse": "Use when checking an agent's registry listing status or buying small paid onchain lookups.",
+ "tasks": [
+  "check registry listing",
+  "get market price",
+  "query onchain data",
+  "check address risk",
+  "compute digests"
+ ],
+ "effects": {
+  "dc0e1fba24ff30f0390da54c9a1932303117be25b05d00a7088c475af275a394": "read",
+  "ea079d4a4729fcbf9c27743861363b1fffffdd2c67a2cfee155780ecd4d4ac5c": "write",
+  "6f6e5eafbb7938bd50dc1f1d95772835e9a4168015a34acd8e3fb240a78fb21a": "write",
+  "4d90a643cd831a13485c03119660d56b504e0978ce370b1bcc02ce64d6799843": "write",
+  "6ec6f3fc749e99fefcdf4216efb863a87dfa02e872a5c70e9774324396ebe759": "write"
+ },
+ "flags": []
+}

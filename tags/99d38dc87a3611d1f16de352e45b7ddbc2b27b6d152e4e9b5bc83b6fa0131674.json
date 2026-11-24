@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "99d38dc87a3611d1f16de352e45b7ddbc2b27b6d152e4e9b5bc83b6fa0131674",
+ "domain": [
+  "design/image-generation"
+ ],
+ "product": [
+  "rendry"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Renders on-brand PNG images deterministically from JSON templates.",
+ "whenToUse": "Use when you need to produce consistent branded images from a template programmatically.",
+ "tasks": [
+  "render images from templates"
+ ],
+ "effects": {},
+ "flags": []
+}

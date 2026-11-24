@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "053acdcd9c77dd0b991e63ab32ff118ccf53ceb7bdc8f98ab97f28ae377b687a",
+ "domain": [
+  "health/medication-labels",
+  "health/pediatrics"
+ ],
+ "product": [
+  "tylenol",
+  "motrin",
+  "zyrtec",
+  "claritin"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reference for printed US children's and infants' liquid medicine label directions and educational question guides, with sources and safety limits.",
+ "whenToUse": "Use when a user asks what a US children's or infant medicine bottle label says, not to decide a dose for a child.",
+ "tasks": [
+  "list supported bottles",
+  "find label references",
+  "read label directions",
+  "list question guides",
+  "read question guide"
+ ],
+ "effects": {
+  "fbfa295a443ace0cb724d0e181e79f20d52110fd157293a7af76b733377f92d2": "read",
+  "fb613f6f94487d8dc9d68af1c0fada53eb411a568d690e78370be5ff31d27266": "write",
+  "dfce881dcc4e69aa321a9e1e6d0017653a2e75c2d3c6a7eae823800791c7f934": "read",
+  "7e08ff7f764f4eb429ab2fb2c7c374bc45bdd199c58a67e055db0c802c9a3a89": "read",
+  "04f9e339a18f0691c4262b6ec8dbac24b6198c27cf942193dad41fd79ff90f4e": "read"
+ },
+ "flags": []
+}

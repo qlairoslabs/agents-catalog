@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b00165aa385b220da1cf43e999411ba64a8bd87e7e9b39acc5f318530e65692d",
+ "domain": [
+  "software/product-analytics"
+ ],
+ "product": [
+  "posthog"
+ ],
+ "audience": [
+  "development",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "build-software"
+ ],
+ "summary": "Queries PostHog analytics, manages feature flags and experiments, and investigates errors.",
+ "whenToUse": "When a user needs product analytics, feature flag or experiment changes, or error investigation in PostHog.",
+ "tasks": [
+  "query analytics",
+  "manage feature flags",
+  "manage experiments",
+  "investigate errors"
+ ],
+ "effects": {},
+ "flags": []
+}

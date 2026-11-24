@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "d4f1674f5e3a5ea2c52541dbcf6773e6eb088a3c56ea4e21e7e737ed542e364f",
+ "domain": [
+  "entertainment/video-games",
+  "recommendations"
+ ],
+ "product": [
+  "steam",
+  "imho-run"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Steam game recommender: similar games, facts, trending and new releases, library-based picks and finding a game from a description.",
+ "whenToUse": "Use when a user wants Steam game suggestions or facts about a game.",
+ "tasks": [
+  "find games like a game",
+  "recommend from seeds and filters",
+  "recommend from Steam library",
+  "get game facts",
+  "identify game from description",
+  "list trending games",
+  "list new releases",
+  "search games"
+ ],
+ "effects": {
+  "f5241cb8fa960e8a2c44b1b7cd8144be006573c7b5cb255e8324a656217dbc61": "read",
+  "d4195b9364f55521141dfae9616f239a460ebcdc129dbe55a66dd9268dfb8fb0": "write",
+  "0aa51596ce8e07204036ab4e6a502530e04e6abe864f36a0dc30d899ceba4901": "write",
+  "2c2009bc62ff7180563db8bfb02637f78f2cc6bcb88e62969cf35b2387580ffd": "read",
+  "811bec696869f1a63e1cbaea183900b31d537923aac96483c332acd81d820fb3": "write",
+  "20c7b371dff937ce9eb18a49f0ad5860a2f7f65a6a090d36137196579109366c": "read",
+  "fbd67cb602108b9546f198229b6d4f34feec726f54824c4f8522fdcf1b16559d": "write",
+  "4697a3570915a219a91c848c47f5638368c863a17b57139bf959e125e4dc4483": "read"
+ },
+ "flags": []
+}

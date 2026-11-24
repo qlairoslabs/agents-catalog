@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "f4fcc8b493a5dbc137ec9bd441389356299b72be6483e22bb3158608fd93fcde",
+ "domain": [
+  "business/appointment-booking",
+  "pet-care/dog-services"
+ ],
+ "product": [
+  "google-maps"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Booking door for ShesMyDogLady dog care: services, open visit times, address check, and booking requests the business approves.",
+ "whenToUse": "Use when a user wants to request a dog walking or care visit, starting with a meet and greet, from ShesMyDogLady.",
+ "tasks": [
+  "read business card",
+  "find open times",
+  "check dog's address",
+  "request a visit",
+  "check booking",
+  "cancel booking request"
+ ],
+ "effects": {
+  "694e6a65857b6cef5c78f708521abbeb072152fd5ce31a7bf075473398818513": "write",
+  "eae108c840cd5e38ed7dad386bec908a316b5604f1f68230ff504061f0b5e4a4": "write",
+  "81d0340b1248e3e61d79f38456968215f1e051c1ccab314b7fdc6b67bf12cd6a": "write",
+  "e1812e4c36735bfc2894cc08dc1ce2d61f564540f47cf7b909ddcc349590ec23": "write",
+  "7808a4a08f0e1363dd413375b36acc2b1afa0a6709880fd61e272921c31901a5": "write",
+  "66c09905bcb9220ff179f447a21d41f79a6e9e00337cb8a426341398376cb4e8": "write"
+ },
+ "flags": []
+}

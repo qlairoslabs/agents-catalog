@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "140d86c451db9aff83b88b522fa262b0937bf447cca09e3c77b7c50c186bce2d",
+ "domain": [
+  "procurement/tenders"
+ ],
+ "product": [
+  "scoutee"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches public tenders, suggests CPV codes with AI and offers a free account with daily email alerts.",
+ "whenToUse": "Use when a user wants to find public procurement tenders or the right CPV code.",
+ "tasks": [
+  "search tenders",
+  "find cpv code",
+  "set email alerts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "7c0c5c2d3c39374ac217f858a20cfbafa41b1c8538168a70da9537ee0a4b6809",
+ "domain": [
+  "ecommerce/hardware",
+  "construction/supplies"
+ ],
+ "product": [
+  "the-builders-supply",
+  "schlage"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Catalog of The Builders Supply door and builders hardware with search, comparison, availability, policies and product page links.",
+ "whenToUse": "Use when finding door or builders hardware, checking stock and getting links to buy.",
+ "tasks": [
+  "search products",
+  "browse categories",
+  "check availability",
+  "compare products",
+  "get product details",
+  "create product page links",
+  "read store policies"
+ ],
+ "effects": {
+  "46fe4a4243b3a877f4f17933ab49a8cd9d6ed610ee3aa1778c085866268696fe": "write",
+  "d564d0df3a14387151d101ef6cd06f3fd4f8f1a5e388ef3333a06eb2fbd59458": "write",
+  "a532a1ace1e83a1ab0522113f19a54d34f3145ea0e59f66b50257218df8157c4": "write",
+  "f31fa0037a886ef5518b8b5d7da6b21edb2f6951054a77d8e0d753a168b942ff": "write",
+  "a95704e123f020ace77a643bd2b52a30a038d5c5b006bdc35fcf44a35ca8ecc9": "write",
+  "ab4b34aa41ed5fe3fca01c705908b682a12823d95ce14ba5f49494e084bac6aa": "write",
+  "4c1cb528a4589c77f02bd882c008ce6b87fd97041907b9fe5b11a641cf58f24b": "write",
+  "4aa3f5f529999fea8098acd346c11863db7f5e8b8df9f8798b5a80f158551e98": "write"
+ },
+ "flags": []
+}

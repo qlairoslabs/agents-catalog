@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "9ecf902ab90016440752aaaf16bb4a5ced4b933a5d80817b529ee2993032914b",
+ "domain": [
+  "data/russian-reference-data",
+  "finance/verification"
+ ],
+ "product": [
+  "htmlweb"
+ ],
+ "audience": [
+  "development",
+  "finance"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant"
+ ],
+ "summary": "Russian reference API for agents: lookup of INN/OGRN company identifiers, banks by BIC and geolocation by IP, with pay-per-use via x402.",
+ "whenToUse": "Use when an agent needs to verify Russian company or bank identifiers or locate an IP.",
+ "tasks": [
+  "look up INN/OGRN",
+  "find bank by BIC",
+  "geolocate IP"
+ ],
+ "effects": {},
+ "flags": []
+}

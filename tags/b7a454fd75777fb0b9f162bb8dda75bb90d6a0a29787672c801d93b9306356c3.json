@@ -1,0 +1,59 @@
+{
+ "classifier": 2,
+ "contentHash": "b7a454fd75777fb0b9f162bb8dda75bb90d6a0a29787672c801d93b9306356c3",
+ "domain": [
+  "finance/crypto-markets",
+  "finance/stock-markets"
+ ],
+ "product": [
+  "marktbit",
+  "polymarket",
+  "bybit"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Live crypto and Indonesian/global stock market data: prices, sentiment, on-chain metrics, derivatives, technical indicators and prediction markets.",
+ "whenToUse": "Use when a user wants current crypto or stock market data, technical analysis, sentiment or derivatives snapshots.",
+ "tasks": [
+  "get global market snapshot",
+  "fear and greed index",
+  "trending coins",
+  "crypto listings",
+  "crypto news",
+  "DeFi TVL",
+  "stock listings",
+  "chart analysis",
+  "technical indicators",
+  "whale transactions",
+  "derivatives funding rates",
+  "prediction market odds"
+ ],
+ "effects": {
+  "f6ed56724ed6204c2769eb3460922135450d627bcd95fe0de044749c6f9a7bf4": "write",
+  "90554cdd7e73f7ad720a376dcdd35d04b3ebb60ffecc23689dfd64d1588d93a3": "write",
+  "1c4a7fbfcac2032d2c0f75db8f195e5df29d49c6fc2779229429f50d0abda70a": "write",
+  "5badeaad9d5be0570136f37f3ae3f0b8fd40147d755cd5d521621ab901dbd2f4": "write",
+  "36e0388257a65b10d4be7fbd7ebfecc36ded47c921078de1f6d0d5ee879f8902": "write",
+  "eaa4c86e89d8fbd7e1d826e2c66bb304f27eebaa780657236f2fa3dcec0d0a62": "write",
+  "b44165a886a589132be095692b7a8217fdf810fbf385a471968464ef7624e25a": "write",
+  "fb38c570a41a3143d236b9c27fa1ec750d4287b1f8050ca17383f1ec41b7d205": "write",
+  "989fe159d346d25f841159d018cb074f42511a2eb65aa53964712fec157ae82d": "write",
+  "1e75b9d0e404ac2a9c05cdca5401db5e201d0504688f5fb759e0b5fd13abd248": "write",
+  "6a020a26d29f3ac45314b19bd3ff2388e25a59422a0cbf2a41060ace908be64b": "write",
+  "4c1bc5d94394bcbd56f8f58b972b2b61c2d9b3edc2fdc07bb398988a67167f09": "write",
+  "876c1d323686e9c3b1f1ce3bb51be1e79eb1b0b029ea9d97c6030f520c638ac1": "write",
+  "198b409fb70d1a604c4de245fd8c5d2b71e5ee15fd36a31ef564af82c64860e4": "write",
+  "cf89c0117b47f8a308d126e155b7ba171009a04b53a60ae1b92605fa406b0088": "write",
+  "3812bae7fdf6160bdcd42a203cbee4257687128bb91235700e5f3ed90c40a7c5": "write",
+  "158973f60e08317019668605f5f9a98713abacce135284adbabd2e53595a1cfd": "write",
+  "11e387faa7e06619e38841be7816be9416de77f1a9b3450b4dd05b27c63721c8": "write",
+  "08bcd2aff966dc2331879dc3e00d66f21f5d2c9f8d624fb92b2e464b8daa8f61": "write",
+  "55c0150fa7128b672764715ea9432e9f884269968b429e2a33a9d10b02ea9ef5": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2948ac1d590561de514772264e468022bde8e9fb7b282867e2c768636656d849",
+ "domain": [
+  "shopping/wine",
+  "commerce/price-comparison"
+ ],
+ "product": [
+  "my-wine"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Find wines and compare live merchant prices in a region, with fair-deal search and OAuth login.",
+ "whenToUse": "Use when looking for a wine or comparing its prices across merchants.",
+ "tasks": [
+  "search wines",
+  "compare merchant prices",
+  "find fair deals"
+ ],
+ "effects": {},
+ "flags": []
+}

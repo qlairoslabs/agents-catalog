@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "feabaca2e3d3fce19798f913fa87cd92ca876ed35460890f334f513bbb1d8de2",
+ "domain": [
+  "engineering/structural",
+  "software/simulation"
+ ],
+ "product": [
+  "fers"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Structural finite element analysis for AI agents: frames, buckling and Eurocode checks, also as a skill and plugin.",
+ "whenToUse": "Use when a structural engineering task needs FEM analysis, buckling or Eurocode verification.",
+ "tasks": [
+  "model structural frames",
+  "run FEM analysis",
+  "check buckling",
+  "perform Eurocode checks"
+ ],
+ "effects": {},
+ "flags": []
+}

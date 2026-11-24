@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "4b3a6e72dce9e3f502e1fc46559723eb5b8aced57f0467d4f8cc49a6fc95109e",
+ "domain": [
+  "data/weather",
+  "data/forecast-verification"
+ ],
+ "product": [
+  "weatherxm",
+  "ecmwf",
+  "gfs",
+  "meteoblue"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Compare accuracy of 45 weather forecast models against ground stations, and find the best model for a location and variable.",
+ "whenToUse": "Use when choosing the most accurate weather forecast model for a place or checking ground-station coverage.",
+ "tasks": [
+  "find best forecast model",
+  "check ground-truth coverage",
+  "read accuracy leaderboard",
+  "compare models head to head",
+  "request forecast access"
+ ],
+ "effects": {
+  "f718d1cc7e687a8146ddaab689dda12102709ed96090cc881a610a1fea7b40c9": "write",
+  "94b7498c4384b2d7fbffed93abf86a4376ea6533bdaa00181d9c99489bdcf57e": "read",
+  "814e32d7c8ae04d5b9d89848541cf5a02cfac7145863a2261bcdd13214315d77": "write",
+  "456ed6b2bb90ed8bee2bd9fdc840d46bec8ff40489ca9086c8cc03ce8abc59fb": "write",
+  "06f29113fc95d54be9df7f00599d79ee3890f67dd75541d0ae55d6abc9632de6": "write"
+ },
+ "flags": []
+}

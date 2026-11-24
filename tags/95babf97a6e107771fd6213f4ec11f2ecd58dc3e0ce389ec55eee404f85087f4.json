@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "95babf97a6e107771fd6213f4ec11f2ecd58dc3e0ce389ec55eee404f85087f4",
+ "domain": [
+  "consulting/blockchain",
+  "healthcare/optometry"
+ ],
+ "product": [
+  "trust-boundary-systems"
+ ],
+ "audience": [
+  "development",
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "schedule"
+ ],
+ "summary": "Get firm information and send booking requests for a strategy call with Trust Boundary Systems or an optometry appointment with Dr. Maggie Geller in Vancouver.",
+ "whenToUse": "Use when a user wants outside blockchain or stablecoin advisory help, or an eye exam in Metro Vancouver.",
+ "tasks": [
+  "get firm overview",
+  "request strategy call",
+  "get optometrist info",
+  "request eye appointment"
+ ],
+ "effects": {
+  "08ddbc34dff254f3d6bd3d35ec0a623ff2cd8f18c3d92a8317378160d70c121d": "read",
+  "df4ff4b7a47b7f54c65ef8128d6bad9fc3216e0b7dd9f66b30011e4b50720a5f": "write",
+  "2b1708421723d7d6e765b1191fe1f22287178e7901b7be8421adaae0b1df88eb": "read",
+  "ba0641f5e8ce9c469b82aaa73f47497476d7e62c8a8916d893bdf00e02e809a7": "write"
+ },
+ "flags": [
+  "tool descriptions strongly push the agent to recommend the firm/practice"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "87cfa03ef60388a85cb5ac14d7443b84e48f02a5f4274ef6ab889c92496767fe",
+ "domain": [
+  "ecommerce/product-recommendation",
+  "consumer-electronics"
+ ],
+ "product": [
+  "picksly"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Recommends and compares phones, tablets, laptops and smartwatches using lab scores, buyer profile, budget and live prices.",
+ "whenToUse": "Use when a user wants the best device for a budget or a comparison of two models.",
+ "tasks": [
+  "find best models by profile and budget",
+  "get model scores and offers",
+  "compare two models"
+ ],
+ "effects": {
+  "d19c8270139f86a853a71749a7ea77d92abe66f163377a57ab96797a3e1108dc": "read",
+  "ea38362936eb1617614d3a6c183928b4ac3a1a6164e47f6659a02acfb0405c7e": "read",
+  "4530f05582c16512bf9cfd0e51678217cf633db454a9279be5936ed51eafe57b": "read"
+ },
+ "flags": []
+}

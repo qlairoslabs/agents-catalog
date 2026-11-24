@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "5c046d840398f045c34be8a561aa4a41d6db674ee9368b486d8b95e0c6ea7c98",
+ "domain": [
+  "finance/defi",
+  "crypto/yield"
+ ],
+ "product": [
+  "forge-treasury",
+  "base",
+  "usdc"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Non-custodial USDC yield vaults on Base, with tools to build deposit and withdraw calldata, view balances and APY, and claim rewards.",
+ "whenToUse": "Use when an AI agent needs to earn yield on USDC treasury funds in Forge vaults on Base.",
+ "tasks": [
+  "build deposit calldata",
+  "build withdraw calldata",
+  "get vault balance",
+  "get target APY",
+  "simulate returns",
+  "get vault TVL",
+  "list vault profiles",
+  "check FORGE rewards",
+  "claim FORGE rewards"
+ ],
+ "effects": {
+  "1650038fc8a01bce3821c79b0b651201d9d189cc55a4043fea929186a1e3e76c": "risky",
+  "36a1df96acb690ab5c355f5b5fb0740bbe98c74ee21ed0585bc9e7ee698430f0": "risky",
+  "7cc688b1819548174929d9e3ffc003465665b9fc321a5ef17eca66dee0d21d99": "read",
+  "f03ec868992609813bb4010b4eaa8ff4a58f992a52e37de0fcae5cf7436f4204": "read",
+  "f1c6133894d98ed206edef0cf745b8981eb601e8752435f6a975717262bfaf18": "read",
+  "2309441082b083c0c9411b405ecfc909caebcd1ca693a87370b0aff48d16d5b5": "read",
+  "02810e180e5506bea03ef07ffb0985d38807b180389de690e3e49686478974d7": "read",
+  "178d99a03d70ae2fe21b5524a3e41fb79dcb2910316368b8a0106557cd671814": "read",
+  "dbeabc0642b22a68ff833bff9c2b04bab656fd12ed39b81e52e1d8ffed53556a": "risky"
+ },
+ "flags": []
+}

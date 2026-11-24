@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "812429455ed19e6abbec9edb3b6f6f372d7e065b9ad8647ac3d14a8f0cb4d61b",
+ "domain": [
+  "infrastructure/data-centers",
+  "energy/power-grid"
+ ],
+ "product": [
+  "dc-hub"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Data center and energy intelligence orchestration layer covering plan execution, DCPI, power grid and fiber, run locally via npm.",
+ "whenToUse": "Use when analysing data center markets, power grid or fiber data.",
+ "tasks": [
+  "execute plans",
+  "query data center intelligence",
+  "analyse power grid",
+  "look up fiber"
+ ],
+ "effects": {},
+ "flags": []
+}

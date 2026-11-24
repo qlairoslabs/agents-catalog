@@ -1,0 +1,22 @@
+{
+ "classifier": 2,
+ "contentHash": "fd240371df2899e0603f3c934dd36116b4c5ab1572d0049e9baf737673face97",
+ "domain": [
+  "software/developer-education"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Gives short local lessons on concepts a developer may not know yet, based on code their AI wrote.",
+ "whenToUse": "When a developer wants to learn from AI-generated code.",
+ "tasks": [
+  "generate short lessons",
+  "track knowledge gaps"
+ ],
+ "effects": {},
+ "flags": []
+}

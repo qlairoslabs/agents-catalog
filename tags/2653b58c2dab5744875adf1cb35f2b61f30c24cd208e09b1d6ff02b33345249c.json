@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2653b58c2dab5744875adf1cb35f2b61f30c24cd208e09b1d6ff02b33345249c",
+ "domain": [
+  "software/testing"
+ ],
+ "product": [
+  "plune"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local client for the Plune test management service, covering review queue, test cases, missions, strategy and reports.",
+ "whenToUse": "Use when an agent needs to manage or review software test cases and reports in Plune.",
+ "tasks": [
+  "review test queue",
+  "manage test cases",
+  "run missions",
+  "view strategy",
+  "read reports"
+ ],
+ "effects": {},
+ "flags": []
+}

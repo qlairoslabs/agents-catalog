@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "6d6c182fd44dfa40f8c5208618bd7f509cff749c184741d672f2797ef4274403",
+ "domain": [
+  "food-and-drink/wine",
+  "travel/events"
+ ],
+ "product": [
+  "openwein"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "schedule"
+ ],
+ "summary": "Read-only directory of German wineries, wine towns, vineyard sites, wine festivals and vintage weather data.",
+ "whenToUse": "Use when a user asks about German wine regions, wineries, vineyard sites or upcoming wine events.",
+ "tasks": [
+  "list regions",
+  "search wineries",
+  "get winery details",
+  "list events",
+  "search towns",
+  "search vineyard sites",
+  "get vintage weather",
+  "look up glossary terms"
+ ],
+ "effects": {
+  "dd20647fbeef7cc47344900d1e58375c30b780f16eec2ea07b36cd56752a47bd": "read",
+  "a5a5d9136dc62c832bae5a32f39a2524a154b5821fea97fe516bcc969aff52d9": "read",
+  "c1cf0b84ea67d5ae6d5ac6038415b350f290441789b526c2c397c43c1dfd2a85": "read",
+  "9cdd22044a36477032da3272b1a49aa75f05b2aaac61f83b44c2eb8fa387f61d": "read",
+  "29637de57d331401f0edc7c866eaca7fe01cf8abc8038c343365feb5d758c2dc": "read",
+  "b2341ad8c07b4fa130e999ccb61ddb11e93fe8c9716007336f9e675c4ffaf886": "read",
+  "dc89886b2ece08bbb0a5033dcbe8f734ace4ea43c4be74b6484e7887c9df7768": "read",
+  "e635323fc2ed04a48a85ab3c73e96cec8b307f455455ddd465b3e8dbbc108982": "write",
+  "bfec7745ee445894686ce671c094ef3f00e08c65c66a9917d0bede047a6e3b66": "read",
+  "dc4ab89d006fda8cb7f4b68cf4b0843a50718c9bce257836a4230b1f011fc4b9": "read",
+  "8243b1cc400c3441287d29ec9344fb23d3dff68c678cf96d3b2a0a148eabd48d": "read",
+  "5e5920cb494cf648327f7230e5d78ed7de76291eb2df324822e13056f91769b9": "read"
+ },
+ "flags": []
+}

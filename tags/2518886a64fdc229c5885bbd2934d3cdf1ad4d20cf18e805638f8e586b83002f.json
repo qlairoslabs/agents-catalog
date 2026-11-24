@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2518886a64fdc229c5885bbd2934d3cdf1ad4d20cf18e805638f8e586b83002f",
+ "domain": [
+  "research/manuscript-publishing"
+ ],
+ "product": [
+  "manusights"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "stay-compliant"
+ ],
+ "summary": "Checks whether references exist or were retracted, looks up journal AI policies and previews manuscripts.",
+ "whenToUse": "Use when verifying citations or checking journal AI policies before submitting a manuscript.",
+ "tasks": [
+  "verify references exist",
+  "check for retractions",
+  "look up journal AI policies",
+  "preview manuscripts"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bd5fe1beb568b57e5d89d9eaf8d93881ccd35c2e2900604329d225702a4569e1",
+ "domain": [
+  "finance/document-extraction"
+ ],
+ "product": [
+  "myocr",
+  "excel"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Converts PDF bank statements into Excel and verifies that balances add up, also handling invoices and tables.",
+ "whenToUse": "Use when you need to turn PDF statements or invoices into spreadsheets and reconcile balances.",
+ "tasks": [
+  "convert bank statements to Excel",
+  "check balances",
+  "extract invoices",
+  "extract tables"
+ ],
+ "effects": {},
+ "flags": []
+}

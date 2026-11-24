@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "c93bfc08273f9f62136e8cdfad66a67f1ec0fb005a20a8bab12aa439c4ca6e6b",
+ "domain": [
+  "media/vr-ar-xr-news"
+ ],
+ "product": [
+  "vr-org"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only VR, AR and XR news, editorials, events, deals, headset comparisons and buyer guides from VR.org.",
+ "whenToUse": "Use when a user asks about VR/AR/XR news, headsets, games or events.",
+ "tasks": [
+  "search news",
+  "get trending topics",
+  "read original articles",
+  "list events",
+  "browse deals",
+  "compare headsets",
+  "list top games",
+  "list top apps",
+  "explain vr topics"
+ ],
+ "effects": {
+  "5e0ec60cad58359f79724e2bcfc184fd6ecf35c80219d8b2aa42ae377935c6e6": "read",
+  "6df0214c28495bc54f7b8c16b670bf209f0d6850b37b175a34188e1b4384eadf": "read",
+  "3137abece97d9a00898ca9eec4873d0eae350e9595a88f6918d4cf22bf22f147": "read",
+  "9a28c524a6f1cf66a7883507c2265c41878f6347cdf44f7cd6adfbe3e1cdf185": "read",
+  "f09c659785cc6d575a0478336da1ef197e32cf85be11442fe5e3008d48c21026": "read",
+  "67ab28770dcdb381c522849600c2c8e9b51fd639afbe92fe33766d74fb09325b": "read",
+  "6fcbbf7dc36e3ea16bca9d174cc7f9740a17227dd9462c7094ab4a782fd6c4b0": "read",
+  "630a678c552d561b0672aad64de035abd0a99928673a3cb9f9022de9f4428bfc": "read",
+  "5c8763b213383245c6efec00bb0fb8c45d2e5c339fea4e901078bd7263de32dd": "read",
+  "b43c3733af79fed9751c7be0d810d43ef62e539e11278c15893325170520698b": "read",
+  "c296fe4ae6dff40acc6f1777698156d966342b60d68065029cc6289d08313259": "read"
+ },
+ "flags": []
+}

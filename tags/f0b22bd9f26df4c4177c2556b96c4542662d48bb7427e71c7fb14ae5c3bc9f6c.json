@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "f0b22bd9f26df4c4177c2556b96c4542662d48bb7427e71c7fb14ae5c3bc9f6c",
+ "domain": [
+  "software/developer-utilities",
+  "content/documents"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "API utilities for generating PDFs from HTML or Markdown, validating emails, converting and hosting images, and creating QR codes and barcodes.",
+ "whenToUse": "Use when an agent needs to generate a PDF, validate an email address, convert or host an image, or make a QR code or barcode.",
+ "tasks": [
+  "generate PDF from HTML",
+  "generate PDF from Markdown",
+  "validate email",
+  "convert images",
+  "host images",
+  "create QR codes",
+  "create barcodes"
+ ],
+ "effects": {},
+ "flags": []
+}

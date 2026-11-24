@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bbdb2a041172b7dc4689695054c52210295364f4445809ad3e60c62d11b7d9d1",
+ "domain": [
+  "software/domains",
+  "software/saas-infrastructure"
+ ],
+ "product": [
+  "domainee"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "API for SaaS products to connect, verify and manage customer custom domains, including SSL certificates and DNS.",
+ "whenToUse": "Use when a SaaS app needs to let its customers attach their own domains with SSL and DNS handled.",
+ "tasks": [
+  "connect custom domains",
+  "verify domains",
+  "manage SSL",
+  "manage DNS"
+ ],
+ "effects": {},
+ "flags": []
+}

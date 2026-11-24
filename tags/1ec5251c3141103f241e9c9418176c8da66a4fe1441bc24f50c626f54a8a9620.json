@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1ec5251c3141103f241e9c9418176c8da66a4fe1441bc24f50c626f54a8a9620",
+ "domain": [
+  "finance/tax",
+  "nonprofit"
+ ],
+ "product": [
+  "990-tax",
+  "irs"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-paid"
+ ],
+ "summary": "Prepares and checks IRS Form 990-N from IRS records, with review and payment on 990.tax and tracking of IRS acceptance.",
+ "whenToUse": "Use when a small US nonprofit needs to file its Form 990-N e-Postcard.",
+ "tasks": [
+  "prepare Form 990-N",
+  "check filing",
+  "review and pay",
+  "track IRS acceptance"
+ ],
+ "effects": {},
+ "flags": []
+}

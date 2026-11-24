@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "58d7ea9b8dce672952cb4c102c93230c825615ff4e9c11098a3f46e05837aff9",
+ "domain": [
+  "commerce/price-comparison"
+ ],
+ "product": [
+  "magic-prices-uk"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Read-only UK price comparison: product search, store offers, price history, deals, coupons and buy-or-wait analysis in GBP.",
+ "whenToUse": "Use when comparing prices or finding deals and coupons for products in the UK.",
+ "tasks": [
+  "search products",
+  "get product sheet",
+  "compare store offers",
+  "price history",
+  "compare products",
+  "similar products",
+  "analyze price",
+  "browse categories",
+  "brand products",
+  "find deals",
+  "promo codes",
+  "store profiles"
+ ],
+ "effects": {
+  "9a10d738b7e72adf9e8d171b7f12204b643ed4e954a2257cb792551fcdab7bd2": "read",
+  "5dd4bc00a522845d8d77fa4d3e15cca423ddea27c93b2400ffce7c33962f8dd1": "read",
+  "dccc7dc0e00dc8a36249409868dd33bda4bde7d726e15067c1d0fff2550b4c0f": "read",
+  "49ff8a28179c40ce3b9ec07798dd08e52d12c259a4b9eb3f040652a44f00abdf": "read",
+  "e02d8e2f099fd14c4a681106fbe5c54aa1dba2a27e9792eff789b94f19dd8b4f": "read",
+  "fa02d386388f0bb50aa0b9468968c9266fc9f872f3801df98072a20f0ff78deb": "read",
+  "406a531e55a20889f3c08af247013aab10765b9d909332761570810179d432af": "read",
+  "2320a02d6f32a1b3622bd3c19264320da77c38985ebf2d3be4848f7674e1693e": "read",
+  "eaa474188a169bbe33d0743a53ca89432e944cb2f20291c31180b8ca4c667a0f": "read",
+  "6cb88eb8412cd7a84674ea61c02c680be94286294bbc5183cfc33b264cb6a316": "read",
+  "d1a341e429a7411b67b63b58e45c278304055eb046544235a6de8ab448bb191e": "read",
+  "8648e4fd93019b54e0515598783d1fddd7301d970b5c59bd6cb191032930e1c7": "read",
+  "ecc04116ddfa6f039c9d9843baecac43a7aacf7b677ae1bd21180a346e74f34a": "read",
+  "66dd76ae5deb77d326820ade45c69e9d091928144b3180b10aa85d64141a54dd": "read"
+ },
+ "flags": []
+}

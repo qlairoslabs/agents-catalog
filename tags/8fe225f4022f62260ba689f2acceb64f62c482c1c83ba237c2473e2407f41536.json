@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "8fe225f4022f62260ba689f2acceb64f62c482c1c83ba237c2473e2407f41536",
+ "domain": [
+  "telecom/esim",
+  "travel"
+ ],
+ "product": [
+  "esim"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "get-paid"
+ ],
+ "summary": "Search destinations and plans for travel eSIMs, including ones with phone numbers, and buy them with crypto invoices, with order tracking and top-ups.",
+ "whenToUse": "Use when a user wants to buy or top up a travel eSIM or a phone-number eSIM and pay with cryptocurrency.",
+ "tasks": [
+  "search destinations",
+  "list eSIM plans",
+  "view plan details",
+  "list payment coins",
+  "create crypto order",
+  "check order status",
+  "cancel unpaid order",
+  "top up an eSIM"
+ ],
+ "effects": {
+  "6e130d75cb7c0575aa7d08740570540f74e05df72f4bac809898f8ff60826f58": "write",
+  "96a6367b43dc20916449c9f860b156bd41e756128c35c8ecccfafccf6d65114b": "write",
+  "ce4523b5773c8443ef0436401f9be0c2d89afc4680056c5afbbf4f56f2ae76d2": "write",
+  "d8dd61931a4a8799140ed846ea5f4a77fa6368494c08e8a6aedfd49824e20b89": "write",
+  "abb34b77713d0607b6b894212e52ac3dc7dcc2dfc6ddd889793b054e7e948777": "risky",
+  "f866e1cb1b887d849f110fed3512021177d049f5ea0981f3863c62bfa37cc800": "write",
+  "d37e168679c3597adc7957795ee6568fbb96e43fb92cba4ee551abd6f3f233d3": "write",
+  "26bd37bc1434d7d0656846d7386b6ba61896a4df7c3b7d50be85c7435f8b8328": "write",
+  "b2e56be1f8a964ae8033367b7ec3c97e54cff940c0a891efff31bdc872aab0a1": "risky"
+ },
+ "flags": []
+}

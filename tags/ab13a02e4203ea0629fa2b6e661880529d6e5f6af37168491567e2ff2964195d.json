@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "ab13a02e4203ea0629fa2b6e661880529d6e5f6af37168491567e2ff2964195d",
+ "domain": [
+  "data/web-scraping"
+ ],
+ "product": [
+  "scrapfly"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scrapes websites and extracts structured data at scale using Scrapfly.",
+ "whenToUse": "Use when you need to fetch or extract content from web pages, including at volume.",
+ "tasks": [
+  "scrape websites",
+  "extract structured data",
+  "collect web content"
+ ],
+ "effects": {},
+ "flags": []
+}

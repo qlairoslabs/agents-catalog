@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "af29798207f9017f1a56b81726ae681888f87ab80cf7a0c06e8262ed08c4799d",
+ "domain": [
+  "hosting/game-servers",
+  "web/hosting"
+ ],
+ "product": [
+  "gravelhost"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "automate-work"
+ ],
+ "summary": "Checks, fixes and manages GravelHost game servers and websites through conversation.",
+ "whenToUse": "Use when the user needs to diagnose or manage their GravelHost game server or website.",
+ "tasks": [
+  "check server status",
+  "fix server issues",
+  "manage game servers",
+  "manage websites"
+ ],
+ "effects": {},
+ "flags": []
+}

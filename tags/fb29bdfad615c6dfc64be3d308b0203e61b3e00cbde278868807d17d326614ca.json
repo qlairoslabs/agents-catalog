@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "fb29bdfad615c6dfc64be3d308b0203e61b3e00cbde278868807d17d326614ca",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "imessage",
+  "sms",
+  "rcs",
+  "whatsapp"
+ ],
+ "audience": [
+  "sales",
+  "support",
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "support-customers"
+ ],
+ "summary": "Sends and receives iMessage, SMS, RCS and WhatsApp messages and manages contacts, chats and numbers.",
+ "whenToUse": "Use when an agent needs to message people over iMessage, SMS, RCS or WhatsApp.",
+ "tasks": [
+  "send messages",
+  "receive messages",
+  "manage contacts",
+  "manage chats",
+  "manage numbers"
+ ],
+ "effects": {},
+ "flags": []
+}

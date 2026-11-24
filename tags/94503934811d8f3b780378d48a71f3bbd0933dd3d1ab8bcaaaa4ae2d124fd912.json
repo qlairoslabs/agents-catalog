@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "94503934811d8f3b780378d48a71f3bbd0933dd3d1ab8bcaaaa4ae2d124fd912",
+ "domain": [
+  "ai-agents/infrastructure",
+  "identity/security"
+ ],
+ "product": [
+  "infrapulse"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Infrastructure for AI agents covering discovery, authorization, execution, identity and signed receipts.",
+ "whenToUse": "Use when building agents that need discovery, authorization, identity and auditable receipts.",
+ "tasks": [
+  "discover services",
+  "authorize actions",
+  "execute actions",
+  "manage identity",
+  "issue signed receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

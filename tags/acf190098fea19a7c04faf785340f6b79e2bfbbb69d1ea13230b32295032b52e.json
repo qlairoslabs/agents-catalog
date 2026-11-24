@@ -1,0 +1,23 @@
+{
+ "classifier": 2,
+ "contentHash": "acf190098fea19a7c04faf785340f6b79e2bfbbb69d1ea13230b32295032b52e",
+ "domain": [
+  "software/agent-memory"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Shared persistent memory that can be used across different AI agents.",
+ "whenToUse": "When an agent should store and recall information across sessions or between agents.",
+ "tasks": [
+  "store memories",
+  "recall memories"
+ ],
+ "effects": {},
+ "flags": []
+}

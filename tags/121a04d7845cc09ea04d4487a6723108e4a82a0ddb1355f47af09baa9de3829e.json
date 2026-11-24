@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "121a04d7845cc09ea04d4487a6723108e4a82a0ddb1355f47af09baa9de3829e",
+ "domain": [
+  "software/quality-assurance",
+  "web/page-testing"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Technical quality checks for PNG/JPEG images, PDFs and public HTTPS pages, with limited free trials for agents.",
+ "whenToUse": "Use when an agent needs a technical QA check of an image, PDF or public web page.",
+ "tasks": [
+  "check images",
+  "check PDFs",
+  "check public pages"
+ ],
+ "effects": {},
+ "flags": []
+}

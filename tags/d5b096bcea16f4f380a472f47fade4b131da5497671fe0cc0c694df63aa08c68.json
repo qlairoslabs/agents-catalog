@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "d5b096bcea16f4f380a472f47fade4b131da5497671fe0cc0c694df63aa08c68",
+ "domain": [
+  "software/shell-commands"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Local MCP server that lets an AI agent run arbitrary shell commands on the host machine.",
+ "whenToUse": "When an agent needs to execute commands in a local shell, with the user accepting full command access.",
+ "tasks": [
+  "run shell commands"
+ ],
+ "effects": {},
+ "flags": [
+  "runs-arbitrary-commands"
+ ]
+}

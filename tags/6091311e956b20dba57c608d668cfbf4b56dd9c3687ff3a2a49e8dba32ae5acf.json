@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "6091311e956b20dba57c608d668cfbf4b56dd9c3687ff3a2a49e8dba32ae5acf",
+ "domain": [
+  "finance/lending",
+  "finance/personal-loans"
+ ],
+ "product": [
+  "incrediblefi"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Personal loan marketplace matching users with lenders; exposes the loan application form fields.",
+ "whenToUse": "Use when a user wants to explore or apply for a personal loan through the marketplace.",
+ "tasks": [
+  "get loan application fields",
+  "match with lenders"
+ ],
+ "effects": {
+  "57d5d744fe0f3b260ff96c1ef1f7bcbad5294915cbcd7e1056007465e62d5ab5": "read"
+ },
+ "flags": []
+}

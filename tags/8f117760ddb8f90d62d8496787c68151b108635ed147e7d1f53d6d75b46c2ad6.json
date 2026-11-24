@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "8f117760ddb8f90d62d8496787c68151b108635ed147e7d1f53d6d75b46c2ad6",
+ "domain": [
+  "legal/ai-regulation",
+  "compliance"
+ ],
+ "product": [
+  "eu-ai-act"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Read-only access to the amended EU AI Act text, definitions, obligations and deadlines, with citations, plus a compliance assessment.",
+ "whenToUse": "Use when you need exact EU AI Act wording, role obligations, application dates or a compliance assessment.",
+ "tasks": [
+  "get article text",
+  "get recitals",
+  "get annexes",
+  "look up definitions",
+  "search the text",
+  "list obligations by role and risk tier",
+  "check application deadlines",
+  "assess compliance",
+  "send feedback to maintainer"
+ ],
+ "effects": {
+  "8a78e5bdbdf5b072471d0dd9a29247663b1abf7cd1aa83098a39e081a757c82f": "read",
+  "fba1973c3067186003b230c56d27a5c2857d5cbff3487876f323b2c5a702d292": "read",
+  "28cd6f202c284de4b766dff3e1774a620b2d9116aabcd5bb6b6b96b453ba598d": "read",
+  "db70406d363a291e9010c6cae5f0ce582189a398b0773839801e166d9372585b": "read",
+  "5dedba06a055e1097db155986ad041a7bcddbfdfe3159f69e8f1119389593c24": "read",
+  "81bd914f5bb922458cbe5c4302ef7473ff247d493ebcb951707d2ef03b264134": "read",
+  "40b294825d8f28216f8502833345a869f3973ba7e605670dc5431a22aa3d4488": "read",
+  "98740b819c78fb87079de1f0439cc6ca7282d2042798fd427ad034ebaba40555": "write",
+  "af21c8a94affda7f1cb724c5453c58f6e1dbd2d92ff98d2cbaaa98e7fba05846": "write"
+ },
+ "flags": []
+}

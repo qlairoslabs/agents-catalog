@@ -1,0 +1,61 @@
+{
+ "classifier": 2,
+ "contentHash": "7798ec72043e0ced2ddd9c4451876cae074ed225b4e9fe294d94a2697c6722ab",
+ "domain": [
+  "software/network-diagnostics",
+  "hardware/pricing"
+ ],
+ "product": [
+  "dns",
+  "spf",
+  "dkim",
+  "dmarc",
+  "github",
+  "cloudflare",
+  "vercel",
+  "newegg"
+ ],
+ "audience": [
+  "development",
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Live DNS, email authentication, redirect and security header checks, service status and uptime history, plus PC part prices, deals and remote tech jobs.",
+ "whenToUse": "When an agent needs live domain or site diagnostics, vendor outage history, or current PC hardware price context.",
+ "tasks": [
+  "look up DNS records",
+  "check SPF DKIM DMARC",
+  "trace redirects",
+  "audit security headers",
+  "check service status",
+  "report uptime history",
+  "track RAM prices",
+  "track component prices",
+  "judge a price",
+  "find hardware deals",
+  "search remote jobs"
+ ],
+ "effects": {
+  "00380ebc7411f6ec739d4127924701248187b2a22ca12fa78ffd334e508439fc": "read",
+  "15258bc2a9d8bffe041b77cc13d3d65608802432b7fe4afae92f0ff3c24a4107": "read",
+  "f4b97fe3ff750900d671821e37ed326b5598d53f8077cd9990e8d852e2a57683": "read",
+  "3981a37cb5e9643865bd386c69df251a8060778a2028425eb8681493d5b754b1": "read",
+  "eefab1ff836d07ff72b34130b0a55f05941e6f15bed58100e6982482f1f26818": "read",
+  "24ce303d04414760f31a32fd0d889483590bf31c8868eb2a0d2de2698d42a581": "read",
+  "7a678114955895ca7f79be0bbb9e2940cdc83e908e9f775407014ef6df5b6a65": "write",
+  "9e529f0eae338743a25b7e5118f72e574a2210a059d95af644047e7c941aa99f": "write",
+  "df97c90649bafbf7db5632b19070e2bfe43356301b3bacc45c67970ada8d7a28": "read",
+  "6bda04fbc74317b861e907092b669913e0c6c6f5f4d3d258f9a67ebea33eaec7": "write",
+  "d250052914276852d4d8b0cf9f9ee57d23b59f995f53344c9a708a6c6ec33c83": "read",
+  "32c440d8866c5c4286bde1cff9a9295d89cbba645f0d588302b2d50eeec7168b": "read",
+  "9426b1a06c63c65134bd555e96733d0ce9497b420e8fc17dafda822c4369f2ac": "read"
+ },
+ "flags": [
+  "find_deals returns Amazon affiliate-tagged links"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "27d2cb7ddb9f0aa432626d76eebc62aacdc0a0899d0c63d8560d5653942afc6b",
+ "domain": [
+  "software/ai-tools-directory"
+ ],
+ "product": [
+  "agentindex",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a curated directory of open-source AI agents, MCP servers and developer tools, with details, trending lists and submissions.",
+ "whenToUse": "Use when looking for an open-source AI agent or MCP server for a need, or to suggest one for listing.",
+ "tasks": [
+  "search tools",
+  "get tool details",
+  "list categories",
+  "get top-ranked tools",
+  "submit repository for listing"
+ ],
+ "effects": {
+  "39a00ae4331689f829542ee15f65d462eec3929ec0a8d3e797e564e7e076a68b": "write",
+  "54d940f37e329d3c1138cf45090907c09c884aba95c5f206b51f01ff2c62ff1d": "read",
+  "8863a00d156c40d70c14d3d6b18656b03822835520d0e06a2d51d2006438c370": "read",
+  "b3fa32d998eb049fe9fd4925443f36fa757793152a07c29dd98cac8473abe467": "read",
+  "9873371078777d8206c1bc80edd47cd6728629ee67815c4755674a44ccec9360": "write"
+ },
+ "flags": []
+}

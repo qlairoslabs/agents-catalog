@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "1b0467e5b2f2b27eaae83f923cab2925f37dde8e69e0a581c94d0a6ebafad4c4",
+ "domain": [
+  "productivity/agenda-planning"
+ ],
+ "product": [
+  "sessionplan"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "work-as-a-team"
+ ],
+ "summary": "Creates and decodes shareable visual agenda links for workshops, trainings, meetings and events.",
+ "whenToUse": "Use when a user wants to build, read or revise a timed workshop or meeting agenda.",
+ "tasks": [
+  "create agenda link",
+  "decode agenda link",
+  "revise agenda"
+ ],
+ "effects": {
+  "63f6b64bcee31e0e7b4baa88f68e26345f4416b1c1ea2375e64e4273edcdae85": "write",
+  "315435fc5311031cf4435f0d5bc42946ff2776773c647dba60a3acabb9861b9c": "read"
+ },
+ "flags": []
+}

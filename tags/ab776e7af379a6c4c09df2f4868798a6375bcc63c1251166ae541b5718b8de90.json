@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "ab776e7af379a6c4c09df2f4868798a6375bcc63c1251166ae541b5718b8de90",
+ "domain": [
+  "government/contracting",
+  "compliance"
+ ],
+ "product": [
+  "sam-gov",
+  "govgazette"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches federal contracting opportunities, awards and vendors, and reviews SAM exclusion records with source dates.",
+ "whenToUse": "Use when finding US federal contract opportunities, researching awards or vendors, or checking exclusion records.",
+ "tasks": [
+  "search opportunities",
+  "search vendors and awards",
+  "check exclusions",
+  "get exclusion context",
+  "compare exclusion snapshots",
+  "research an opportunity",
+  "explain NAICS match",
+  "read record text",
+  "check data freshness"
+ ],
+ "effects": {
+  "849498440d0145b641c3acbffa236bcb3cd2330566a5bc87bf8aff0d63e568a7": "read",
+  "bf769df5724bfb70983584be64043c3c1f8a25cd51d3bb52585e8f76c027617a": "read",
+  "eb304dce9e5fed593b4609458bec312055f1264705369bc951eb90ca5a6d881c": "read",
+  "24fbb69385e677593aac66fca1c50fcb1dfde91033ef44c9e1838247aef55f7a": "read",
+  "1fb5e05912c5b894317179ac74f9b551a0c8d8219637949293f2ba47df87ebd1": "read",
+  "226adbedf2ad6039c3dde533ba20d42aba7f787d3377f11fd467407bdaa912ef": "read",
+  "697e6dd4c816233e16478a94a2e3339d3367c79610984a74457005212bd1876e": "read",
+  "92c1dea5c4f0fb8fd29f2c2c3a3b13265c2704290d2053d59c0c22ac4f0e6436": "read",
+  "81a198b91620aae8981a1b8b81439c60d41926b86d8d031bc19775120aa0f3a3": "read",
+  "45cef5f7883cb2f886b07950105df24310df22208be73c203a67847028ffe1b3": "read",
+  "e077d617c58d8ee46470dfd1c5c0719ad5d4fe69da0594e15b04a20705b4b51c": "read"
+ },
+ "flags": []
+}

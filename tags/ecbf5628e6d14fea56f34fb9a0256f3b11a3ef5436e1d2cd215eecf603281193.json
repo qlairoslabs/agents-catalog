@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ecbf5628e6d14fea56f34fb9a0256f3b11a3ef5436e1d2cd215eecf603281193",
+ "domain": [
+  "personal/inventory"
+ ],
+ "product": [
+  "boxitem"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Searches and organizes a personal inventory of warehouses, boxes, items and photos, with undo.",
+ "whenToUse": "Use when finding or organizing stored household or warehouse items.",
+ "tasks": [
+  "search inventory",
+  "organize boxes and items",
+  "manage photos",
+  "undo changes"
+ ],
+ "effects": {},
+ "flags": []
+}

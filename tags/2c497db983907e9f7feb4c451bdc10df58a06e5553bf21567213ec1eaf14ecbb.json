@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "2c497db983907e9f7feb4c451bdc10df58a06e5553bf21567213ec1eaf14ecbb",
+ "domain": [
+  "finance/trading",
+  "finance/research"
+ ],
+ "product": [
+  "quanterlab"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Backtest trading rules and read registered finance studies using point-in-time data.",
+ "whenToUse": "Use when testing a trading rule historically or looking up registered finance studies.",
+ "tasks": [
+  "backtest trading rules",
+  "read finance studies"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "fcdbc85ef6eb93f406e2f39687bae22bba9d1ed78fecaf4d13c56d99014cbedc",
+ "domain": [
+  "software/procurement",
+  "business"
+ ],
+ "product": [
+  "saasoffers"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Searches a catalogue of verified startup deals, discounts and credits on SaaS tools with claim links.",
+ "whenToUse": "Use when someone wants a discount or free credits for a software tool.",
+ "tasks": [
+  "search deals",
+  "get deal details",
+  "list categories"
+ ],
+ "effects": {
+  "14a5fec006f910303496fca54e88b637fab0988aafe17fdcc01b6037e56845f4": "read",
+  "1724cec91369486d1218df8a11b48a33ad90d0a88f0eb845dfc4540af7e7cd70": "read",
+  "8ca806122e9e9edf378585ef4dd6d8948ac5419c1be90b2de88a6fa2d06aed56": "read"
+ },
+ "flags": []
+}

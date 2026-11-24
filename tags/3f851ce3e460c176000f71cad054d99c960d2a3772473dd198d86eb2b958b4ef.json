@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "3f851ce3e460c176000f71cad054d99c960d2a3772473dd198d86eb2b958b4ef",
+ "domain": [
+  "business/consulting-content",
+  "supply-chain"
+ ],
+ "product": [
+  "kettle-logic"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Exposes Kettle Logic insight articles and industry guidance for search and reading.",
+ "whenToUse": "Use when looking for Kettle Logic articles or industry overviews.",
+ "tasks": [
+  "search articles",
+  "get industry overview",
+  "list articles",
+  "list industries",
+  "get article"
+ ],
+ "effects": {
+  "0dc95d61c7a37239da0059ef7aee2100a970a185b11f846e704ab04f47e28bf4": "read",
+  "dc3e7da2d959b631e9e1562268901f1496756afb0e971c17dbf121e729c9f3f5": "read",
+  "549fd7dbfa73dc2127843efe2023972bde70bfb14ff6f804d1e41df2e4973f15": "read",
+  "dd584c71d81ed0d2ca6199031639389e8fd5063b1223e91e8c9e81269fc444b4": "read",
+  "2ec329fa1b43fb4f7908b27113020952dcdcd33cdfb3d2046fd9ea3a37fdaca4": "read"
+ },
+ "flags": []
+}

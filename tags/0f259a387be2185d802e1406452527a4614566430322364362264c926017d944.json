@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "0f259a387be2185d802e1406452527a4614566430322364362264c926017d944",
+ "domain": [
+  "hr/assessments",
+  "education"
+ ],
+ "product": [
+  "assessall"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches AssessAll's catalogue of online assessments, free practice tests and guides, with INR and USD prices.",
+ "whenToUse": "Use when choosing skills or hiring assessments or looking for practice tests and assessment guidance.",
+ "tasks": [
+  "search assessments",
+  "get assessment details",
+  "list practice tests",
+  "search guides"
+ ],
+ "effects": {
+  "be00374fc99b1f2e8e7a96842ba750892bc35e6d11cbb43cb3a45363c4e8efba": "read",
+  "1cbcd0ff139f8e3fe9374545e26f656126931b256b29735093afce8b8f14d359": "read",
+  "4470d18139c272db8107bd01500e5f9e6332a1136879cbe1ee1382423b2fb199": "read",
+  "1dbf75cbff56cd4d024d8bc357fb1da7535e9560fbe308b606f8acebe35b74df": "read"
+ },
+ "flags": []
+}

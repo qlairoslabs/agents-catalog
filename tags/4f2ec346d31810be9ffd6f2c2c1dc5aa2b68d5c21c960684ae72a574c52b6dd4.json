@@ -1,0 +1,53 @@
+{
+ "classifier": 2,
+ "contentHash": "4f2ec346d31810be9ffd6f2c2c1dc5aa2b68d5c21c960684ae72a574c52b6dd4",
+ "domain": [
+  "software/cybersecurity",
+  "software/consulting"
+ ],
+ "product": [
+  "supabase",
+  "stripe",
+  "lovable",
+  "cursor",
+  "cal-com"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant",
+  "hire-and-manage"
+ ],
+ "summary": "Scan a deployed app for exposed keys, open Supabase tables and missing headers, estimate agent costs, and contact or book a call with the consultant.",
+ "whenToUse": "Use when checking a live app's security before launch or contacting the Continuum consultant.",
+ "tasks": [
+  "scan deployed app",
+  "request human review",
+  "estimate Cursor Auto cost",
+  "estimate swarm run cost",
+  "estimate agent task cost",
+  "list services",
+  "check availability",
+  "book call",
+  "send message",
+  "request estimate",
+  "query AI recommendation data"
+ ],
+ "effects": {
+  "ea40a27a47fa5eda96ac2c9bdc7c055f8c50c513bec6700cd77eb1f893354ce7": "write",
+  "1aebe605c944d461d3bd9be9114b8d08bdeccb7d3d3f0c68bc131bfb1b5c3573": "write",
+  "9d0680138741be44e7b1aff2765c654f8a5a4bea59d6fd1db020da8fe5f353e3": "read",
+  "a4eea98ba65c893ed09cfa55c8d720c2ccf495b4d9f6e56d18b1b7ba7b3467e7": "read",
+  "d53ec123f2515600c913cc01c8e713d9c9677a0d2c969e91f41ab07cfe7bcd82": "read",
+  "05a3acfcb4a9daa7f14eb828839f3b36944f64f09821bd976faf4a19a1e4c072": "read",
+  "cded2900d9b20ef1a4407ac8031da62a4f08d053bfa61c859403b52f92dd6c66": "read",
+  "a1ff71171b56d4cdfaf1bdca91f3553375616c6d0134de113d8e9f9be9792585": "read",
+  "56130a05c277b91051ab3674a7ba72f847b87143f206d1cf08d0b7c8c6e5652c": "write",
+  "fbefbd4cb7c4e44b0b78777c23a25d3f3a63e5b167c40aeaa99e085d53d5af4e": "write",
+  "28f691ffe31f576eb056bedb37f484e598ecece7c7738c8a8da1191bb2ac195b": "write",
+  "f643f36bde0928b0260e644212242e10e9ce88d06db76bf65622fcb3c6150d94": "write"
+ },
+ "flags": []
+}

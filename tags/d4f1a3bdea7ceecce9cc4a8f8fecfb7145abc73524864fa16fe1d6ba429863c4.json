@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "d4f1a3bdea7ceecce9cc4a8f8fecfb7145abc73524864fa16fe1d6ba429863c4",
+ "domain": [
+  "health/fitness-tracking"
+ ],
+ "product": [
+  "mobela"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives access to a user's runs, walks, lifts, sleep and heart rate from Mobela, plus their AI coach's notes.",
+ "whenToUse": "Use when a user asks about their workouts, sleep or heart data or coaching notes.",
+ "tasks": [
+  "read workouts",
+  "read sleep",
+  "read heart rate",
+  "read coach notes"
+ ],
+ "effects": {},
+ "flags": []
+}

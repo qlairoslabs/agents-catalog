@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "78cc210040b63d05665bde1420a72284886e94de2ff93d169f1ce10e96c99e73",
+ "domain": [
+  "software/developer-tools"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Developer utilities for color conversion, WCAG contrast checks, timestamp conversion, UUID generation and hashing.",
+ "whenToUse": "Use when you need exact color format conversions, contrast ratios, UUIDs, hashes or timestamp conversions.",
+ "tasks": [
+  "convert colors",
+  "check WCAG contrast",
+  "generate SwiftUI color code",
+  "generate UUIDs",
+  "hash text",
+  "convert timestamps"
+ ],
+ "effects": {
+  "a81bffdd6972fc3a49012defb7d990a3ab5e223f06de52d45f9cf6a32b4de7ed": "read",
+  "31b3a8f74bc17e559cdb24edc5893587bb1f4b670b51bc3c48ca1dada156c1a8": "read",
+  "2f57b301ec48eb0852debf58140bb82c60b82d6c4a78e0cbd42975bbc89c8e2c": "read",
+  "a6c84162ad8cd860fb8da3f8bac13caccee18ea2c302524d95daed010b97b814": "read",
+  "afe2007b2101adc355056be5c0c0dd7adcdeb77e68fdbf98eca158ad9137f3c8": "read",
+  "d58cbba6205d8fa8f47b4f4f7f498c36005164e259e33ebf4d40e941bc84d32a": "read"
+ },
+ "flags": []
+}

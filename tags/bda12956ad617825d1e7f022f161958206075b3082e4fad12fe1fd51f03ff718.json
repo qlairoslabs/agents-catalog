@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "bda12956ad617825d1e7f022f161958206075b3082e4fad12fe1fd51f03ff718",
+ "domain": [
+  "business/revops",
+  "sales-marketing"
+ ],
+ "product": [
+  "leanscale"
+ ],
+ "audience": [
+  "sales",
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening",
+  "automate-work"
+ ],
+ "summary": "Knowledge base of go-to-market and RevOps playbooks, benchmarks, podcast episodes and case studies from LeanScale.",
+ "whenToUse": "Use when answering go-to-market, RevOps, CRM, attribution or sales-ops questions or diagnosing a GTM problem.",
+ "tasks": [
+  "search GTM knowledge",
+  "diagnose GTM situation",
+  "read playbooks",
+  "list playbooks",
+  "get benchmarks",
+  "search podcast",
+  "read case studies",
+  "about LeanScale"
+ ],
+ "effects": {
+  "b47cab36896aec527f5a362f9660a88d3d8695e8e2669dd25e4bff83e511dd05": "write",
+  "f59633eb61b08bd26aaecb10fadbf4596372f1eba9cc7df192f41b32fd36b28c": "read",
+  "78591ca51c9ca3d34231521dc4e150d126d2ac8277fe86fca4a06bac0184e551": "read",
+  "ad375dfd67d67431bda9b7c890993d3a8e2dd4c390734def0452e3f1659b6e41": "read",
+  "ca107b33d20d242400e2d9c9cd941138cb447d1fa3e81957bf1335461645c757": "read",
+  "5b4870f08efea31c5ebd08a72e0369426215c0402e86e9c3f847de809b7dae76": "read",
+  "2f0037d4d5c7d1a99eba80fda2272e08323605a03e1a2f567dc28accec0d4b9a": "read",
+  "ec6363a0ca5147b9e861df96457edf74f455d767288a178c8a8982f2860bc793": "read"
+ },
+ "flags": []
+}

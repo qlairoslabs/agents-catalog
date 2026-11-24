@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "bebb1eb5f5550fa7a91bf54c80d9c2ba0bb2ade2c82b117b76b081c580b456be",
+ "domain": [
+  "software/project-management",
+  "software/issue-tracking"
+ ],
+ "product": [
+  "hydrant"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Track issues, projects and dependencies from an agent in a self-controlled workspace.",
+ "whenToUse": "Use when an agent needs to create or review issues, projects and dependencies in Hydrant.",
+ "tasks": [
+  "track issues",
+  "manage projects",
+  "track dependencies"
+ ],
+ "effects": {},
+ "flags": []
+}

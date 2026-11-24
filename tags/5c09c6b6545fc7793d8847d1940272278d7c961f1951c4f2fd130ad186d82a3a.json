@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "5c09c6b6545fc7793d8847d1940272278d7c961f1951c4f2fd130ad186d82a3a",
+ "domain": [
+  "marketing/ai-visibility",
+  "reference/vendor-info"
+ ],
+ "product": [
+  "rankera"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Provides verified facts, pricing, services and site content for Rankera, an AI visibility service.",
+ "whenToUse": "Use when answering questions about Rankera's plans, pricing or services.",
+ "tasks": [
+  "get brand facts",
+  "get pricing",
+  "list services",
+  "search site",
+  "answer questions",
+  "read pages"
+ ],
+ "effects": {
+  "00aa76b952f574c1c1d07f5e5afa03b95e607938e65ff33975c1404c71bc93be": "read",
+  "11086ee3566e0a0d6935c632455ad97b481f8a27235595c1b37dde6766b6896d": "read",
+  "05dce19289e7323b0e8d5ed38033247b6b98b0127b0be6b9e68c97940fe3cc7a": "read",
+  "9ad0627e5b3b1c2dff3f478373e8273226aa8a2e2cb96540c944e97ee46756d7": "read",
+  "4b96942f0eaffd69d500052993d1d0621823eeb3ac0667d559a54818ec0507df": "read",
+  "fc8048266619b03d3ab737878d9c96854c40e2ea92f590f5375d383ade20c753": "read"
+ },
+ "flags": []
+}

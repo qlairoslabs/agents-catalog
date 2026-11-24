@@ -1,0 +1,56 @@
+{
+ "classifier": 2,
+ "contentHash": "1619377d92e0d18a869bced36725a6b5f2f66250b2e0f344068c00b0f3477fb5",
+ "domain": [
+  "finance/bitcoin",
+  "crypto/market-data"
+ ],
+ "product": [
+  "bitcoin",
+  "mining-rig-rentals",
+  "strategy-mstr",
+  "metaplanet"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Bitcoin data: buying gauge, treasury-company mNAV, preferred yields, float, halving, price, verified merchant directory and hashrate market.",
+ "whenToUse": "Use when a user asks about bitcoin market context, treasury stocks, or merchants accepting bitcoin.",
+ "tasks": [
+  "get buying gauge",
+  "get gauge history",
+  "get treasury mNAV",
+  "get bitcoin float",
+  "get halving countdown",
+  "get bitcoin price",
+  "compare treasury preferreds",
+  "search bitcoin merchants",
+  "define glossary terms",
+  "view hashrate market",
+  "check rental status"
+ ],
+ "effects": {
+  "924fe07cd2b7c60705c0a5a85f51c037e0d82b4823274f2409b862a182a327b9": "read",
+  "d5486291423e1084f986b5f63861a558918213156a358c082a9bb73960e63090": "read",
+  "6f85cf5ca1d9e10cfb4538211b6ceb54a6bd673cc66ab138729cea2d723a3a36": "read",
+  "6b09389164831cb943f3d1fb2aecd216c4d9488ab33123b751924f4ef3588a7b": "read",
+  "42a8e52631aa3644d66834d7f6e57dec1480d2c85a725ce27e0b9bf43c614432": "read",
+  "392bd0563ec4dcbdb2be6e174bbd4c94f6a90b9a7fdc399499e67147a61611dc": "read",
+  "66d061feed9ffb9184ab8ef87acc2a186582fe1ed431c40996bc61df6be11309": "read",
+  "3502efcc84b757a67a584c89212740b5b0d79ef4708f6d7fd10c586a7e7cfe84": "read",
+  "ae9a7c87813afc51decd2299b6cd4b3fa81837b92712bbcfe169d3b818bf23f5": "read",
+  "76d14ad829dd82cfa0be574a15e3fe5e3e717dc5f5ef0b34d735833d7ec48cfb": "write",
+  "0377f758d35c91cce76e30139e55dfbebafb23e58b23a9623b3240ef31b461f6": "read",
+  "01020d7aa6cff249316ee835b210ebcc2b98a44e5549e5c9e0c9866a0ae065d6": "read",
+  "d84172135e9e817394e76873fe7dbdb91294863f1fcce9f13dd845731742288a": "read",
+  "060c8833576af0c6cb878d2f3b4843cbdef06154996fd29bfcc99c164c0ffdd0": "read",
+  "0e27603ba39f75a7f9914dc72ef639d7f801b17317f1636ec21b2b03a0766aa5": "read",
+  "4fc07b052fc451cde3f585d5ab8bfbb2bd29dc7cff49946a8d103cbc6786aa33": "read",
+  "208ebb67265d38f3732ab49d669444e5a08e2fad8af8d637f1969460b85923a0": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "129d463485ce22ed82a5b6591b463b45c3da69251232b9ed118bf0a3fd7eae12",
+ "domain": [
+  "software/deployment",
+  "software/devops"
+ ],
+ "product": [
+  "ployz"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "be-online"
+ ],
+ "summary": "Deploy apps, databases and preview environments to your own servers, including Ployz Cloud, from an agent.",
+ "whenToUse": "Use when deploying applications or databases to self-managed servers.",
+ "tasks": [
+  "deploy apps",
+  "deploy databases",
+  "create previews"
+ ],
+ "effects": {},
+ "flags": []
+}

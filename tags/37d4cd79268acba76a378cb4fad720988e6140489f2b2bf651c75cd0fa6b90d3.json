@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "37d4cd79268acba76a378cb4fad720988e6140489f2b2bf651c75cd0fa6b90d3",
+ "domain": [
+  "automotive/repair"
+ ],
+ "product": [
+  "nhtsa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Car repair information: vehicle specs, repair jobs, recalls, complaints, factory manual links, and a paid full manual.",
+ "whenToUse": "Use when a user needs repair steps, specs, recalls or complaints for a specific vehicle.",
+ "tasks": [
+  "look up vehicle",
+  "list repair jobs",
+  "find factory manual links",
+  "check recalls",
+  "view complaints",
+  "find repair guides",
+  "get mechanic market stats",
+  "create access key",
+  "read full manual",
+  "check account"
+ ],
+ "effects": {
+  "fa8045e8e445c05978993819b8574c8d5524ac681b060b82cffff24b508a7763": "read",
+  "10fd4e1271a94e6947339348f5866bcfc25cbdc507e31fac96ccb3172bfe82d9": "read",
+  "e44da6d909b9337eca4fce9bd3a445674a496cf41a3692a07360454a80bf2a8a": "read",
+  "a4a4a1c04061570ceda71b279fbdd2eed879ef14700c9eb2edb3d5ebfca948fe": "read",
+  "49c65213ad70adcb4a032924a61717980ac161ad7c8d53e9c50ad956bb850a5c": "read",
+  "c86ed6b2064d7141df3f7baf64b40b81c68bca35ef81aa1f3e699f3563917d95": "read",
+  "63c0d0b399825e4b0062331f35a2bcd88dc93684dec53ca9fff3d7e02e767efa": "read",
+  "57519e0506ef4765c787331aa18e4c134e21e59fd35d8503a6bf4451a2a90bd1": "write",
+  "6a24b0115ef2c04c7d3845a6ae6b10fa568c1c0d935b9d210e0b67fcb06ce3f2": "risky",
+  "c744a33be34daa9a3be083ef89d6bf2484b682f4840cf6d85132b7154cf2a333": "read"
+ },
+ "flags": []
+}

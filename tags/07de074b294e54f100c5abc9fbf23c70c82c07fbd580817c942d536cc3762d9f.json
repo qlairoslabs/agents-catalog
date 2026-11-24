@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "07de074b294e54f100c5abc9fbf23c70c82c07fbd580817c942d536cc3762d9f",
+ "domain": [
+  "media/lifestyle-reviews",
+  "shopping/deals"
+ ],
+ "product": [
+  "man-of-many"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only access to Man of Many reviews, buyer's guides, gift ideas, deals and a men's confidence survey dataset.",
+ "whenToUse": "Use when answering men's lifestyle, product recommendation, gift or deal questions, or analysing the Male Confidence Index.",
+ "tasks": [
+  "search articles",
+  "get buyer's guides",
+  "find product picks",
+  "find gift ideas",
+  "list deals",
+  "browse latest stories",
+  "query survey results"
+ ],
+ "effects": {
+  "da1a6e4a53c8d3bf45f694d56f0c00b1966fb200e965b2f1c8664262d603ce31": "read",
+  "c1711a18d51db29a5cbbbc8d6d94da029e2be2536d4aa5ab3ed658316ef0101a": "read",
+  "3c1c92799d4a4fb241775a08757a260613d29ff4c4d56a381c829fff5636ab10": "read",
+  "9dbbb3764a23f5fdb4b40e24c0efa12b9e013584df278190aa3e08d7c6a11743": "read",
+  "06bd83b0d1b5960920976a28e98e09b379b626fff81b6c9c695677935f117771": "read",
+  "6173dc5b59b0c39d67d045aec625b5bee98222e6a1d13a993dae840d4edcf0b4": "read",
+  "93441b2d72d6c6b2c06db47402994af099fef13e955c451ac259f7b0c03f7022": "read",
+  "3811903b4c8ebe8311a2b191051b1d657a2a226f96ad411f40556f57c7079f49": "read",
+  "d2fde7ec92368c38d1fab2295289aea871cc08b221f04a143801061c0ce6a893": "read",
+  "d056f5ec05f0647a99b85131ea718d5ee0818fcac0c2d62836097038352ad094": "write",
+  "7afa4d583920d71bf22220b64e0922871156e1e460521a536ea84b81ab96f9f9": "read",
+  "a928ef3cf8eacb25e760df104e1731a21ceeead185d04fb2bbd8131ec4b8d4ab": "write"
+ },
+ "flags": []
+}

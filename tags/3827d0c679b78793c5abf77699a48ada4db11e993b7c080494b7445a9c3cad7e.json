@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "3827d0c679b78793c5abf77699a48ada4db11e993b7c080494b7445a9c3cad7e",
+ "domain": [
+  "healthcare/telehealth",
+  "sales"
+ ],
+ "product": [
+  "cuvo"
+ ],
+ "audience": [
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Cuvo Health's website content, pricing and comparisons for its white-label telehealth platform, plus booking of discovery calls and callback requests.",
+ "whenToUse": "Use when evaluating Cuvo as a white-label telehealth provider or when booking a discovery call with its team.",
+ "tasks": [
+  "read company overview",
+  "get pricing",
+  "list competitor comparisons",
+  "read comparison pages",
+  "list articles",
+  "read articles",
+  "check call availability",
+  "book discovery call",
+  "request callback"
+ ],
+ "effects": {
+  "129d4ab31d9700372d6dbff96a843fe7930d68aa8b24c423e3406f4557cb390a": "read",
+  "6416c0fa536d604418290020776a6a09b16d63e699bcddfe7ed442f02ef27d19": "read",
+  "da529cbf6735b3779b2209119525bc42abc9781133d9bf0fe1a225d6a75ccc5c": "read",
+  "efd16ce6c1942fca2e2766968e94f45d134b05a81f5a4c0a421bbbfe5b5c3d03": "read",
+  "255d606199ede3380e430271a63cb451b7a99b35fa2ded45d6b74c173ceaec14": "read",
+  "369be92fa7d12d5b892abe773ee64b44c9b030c7f161da72cb6265e595317997": "read",
+  "09027431b254d049703f4982af74efc1f7e3ab15e7f73e8bb4b307a4b1c43334": "read",
+  "cbb0ef65e3bf6abbb828ba2f31c3bd7d69b9b0e8eec114ec124f540749d861e3": "write",
+  "88e0b9c898a58c29e659b1a04c92ab66d28dc39a5d3b8d32af30f5fce8d48d48": "write"
+ },
+ "flags": []
+}

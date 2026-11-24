@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "288b00974d3c0aa24f134218c2ff5344616841d42ce7a350aec668c592cc6c4c",
+ "domain": [
+  "ecommerce/amazon-seller"
+ ],
+ "product": [
+  "amazon"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "understand-what-is-happening"
+ ],
+ "summary": "Shows who wins the Amazon Buy Box by city or ZIP, with history, alerts, sales rank and page change tracking.",
+ "whenToUse": "Use when monitoring Buy Box ownership, sales rank or listing changes for Amazon products.",
+ "tasks": [
+  "check Buy Box winner",
+  "view history",
+  "set alerts",
+  "track sales rank",
+  "detect page changes"
+ ],
+ "effects": {},
+ "flags": []
+}

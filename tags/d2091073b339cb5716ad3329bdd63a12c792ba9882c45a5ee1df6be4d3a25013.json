@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "d2091073b339cb5716ad3329bdd63a12c792ba9882c45a5ee1df6be4d3a25013",
+ "domain": [
+  "education/childcare",
+  "reference/regulations"
+ ],
+ "product": [
+  "backpr"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Free sourced data on US youth programs: state childcare and camp rules, licensed program finder, registration software pricing and printable templates.",
+ "whenToUse": "Use when answering questions about state childcare or camp requirements, staffing ratios, finding licensed programs, comparing registration software or finding forms.",
+ "tasks": [
+  "look up state rules",
+  "list states by rule",
+  "calculate staff needed",
+  "compare registration software",
+  "find licensed programs",
+  "get directory stats",
+  "find templates",
+  "search BackPR pages",
+  "list datasets",
+  "about BackPR"
+ ],
+ "effects": {
+  "9f6f001a20393b672d2eca0dfc789f851b33e3804a5a5fa8a9536a619f9f114d": "write",
+  "7bf06a6f9b0e555950dcf4b0c685458171afdd8e4ace0fa9a644524fa86341bd": "write",
+  "9dde540319c4ed769e6894c6f711133add4ca3749f3e2d25ca2c4c52f908ff12": "write",
+  "a64d9fcedcee64c19187bb8cbee0e5d8fb9e26de38a1c0c2c994b8dd54f893fe": "write",
+  "7510f99ba306f13c0252c7acb7f76d5179231a2858de1d050ce85f28532bb753": "write",
+  "acc350bfa6394b8ba249a00a432723aac1b536dc68bf605f45d8bdc697fcd696": "write",
+  "ff70308e5ed9c6efd87f9432774b9b98ff198adb305e4655112f209924a19a7d": "write",
+  "9580442e644e370b05c56815eeea63d0e3990482e253cf426f06c766640dcfe2": "write",
+  "87db32a586d07f43c1c0ae948e346aabd0e2233f9b40832f52a29b51e5d86dc9": "write",
+  "e7e6dbffd7db57ac58343214f7c5e3d58d094fc83de7d59f8e7845f199a2c603": "write"
+ },
+ "flags": []
+}

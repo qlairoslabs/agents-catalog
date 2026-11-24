@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "9e7abb556d559372ffb5670b59885187211e6a6ad76c5896b2bf989fbd6a980d",
+ "domain": [
+  "marketing/qr-codes"
+ ],
+ "product": [
+  "betterqr"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reads BetterQR dynamic QR codes and per-placement scan analytics (beta).",
+ "whenToUse": "Use when checking QR code scan analytics.",
+ "tasks": [
+  "read QR codes",
+  "read scan analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

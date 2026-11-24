@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "96c01766165112437acfaad25f2db9a7b06de7f3e913dd8e48a740a7c28ba53e",
+ "domain": [
+  "software/project-management",
+  "documentation"
+ ],
+ "product": [
+  "quasar"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Read-only documentation guide for Quasar, a project management tool built for AI agents, with chapter index, search and fetch.",
+ "whenToUse": "When an agent needs to learn how Quasar works or answer questions about its features and setup.",
+ "tasks": [
+  "list guide chapters",
+  "read a chapter",
+  "search the guide",
+  "fetch a section by id"
+ ],
+ "effects": {
+  "11422f2a5a1e9ce369d36944661cb5acdb6addb00753003d8400d05d8fe33a63": "read",
+  "d9c03a199936ce358eca989562bc9ad4c2cad098631fe2771dbbdabb0a847063": "read",
+  "64460c7fc97812208e5ce281388f161154c29e4185daa8adcd668b9199f2386e": "read",
+  "ddec3280411792276366c21d61ce5a872c10f568d5bf6aeb44f02e1e801147ba": "read"
+ },
+ "flags": []
+}

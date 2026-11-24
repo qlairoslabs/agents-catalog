@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "1158e1b902c8d19613e5bff6e93b95c236e31747168d07170440cec97eb8a8b8",
+ "domain": [
+  "property/licensing"
+ ],
+ "product": [
+  "housefile"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Checks whether an English postcode falls under a council selective or HMO licensing scheme, with dates, fees and upcoming changes.",
+ "whenToUse": "Use when a landlord or agent needs to know licensing requirements for a rental property in England.",
+ "tasks": [
+  "check property licensing by postcode",
+  "list council schemes",
+  "see upcoming changes",
+  "check coverage"
+ ],
+ "effects": {
+  "9104f44d3c61eda6497257c9ec62176cc90e694bdc0931cd2f9753ee0cec5ad5": "read",
+  "f67952e757fdcfd96f015d10d2342b3a8d98b4785e570e7504d9cd308d9600f6": "read",
+  "cd8b8dfbceef5394dcd351603c5b63fe0d8351a41011e3e36266716c8512c172": "read",
+  "4a816c129c20a36e24285dd5a45e58f20eb090c439966aa4cf659b7dba08a44c": "read"
+ },
+ "flags": []
+}

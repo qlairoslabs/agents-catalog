@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "009af44c82c14d040c4bdf5765ca1060f9cea0b641772a1bdca3fa5e1aa575f8",
+ "domain": [
+  "productivity/project-management"
+ ],
+ "product": [
+  "listspace"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Gives AI agents project memory by reading and updating a user's Listspace boards.",
+ "whenToUse": "Use when an agent should recall or update project state kept on Listspace boards.",
+ "tasks": [
+  "read boards",
+  "update boards"
+ ],
+ "effects": {},
+ "flags": []
+}

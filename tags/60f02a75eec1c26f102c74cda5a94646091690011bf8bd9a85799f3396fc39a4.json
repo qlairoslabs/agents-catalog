@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "60f02a75eec1c26f102c74cda5a94646091690011bf8bd9a85799f3396fc39a4",
+ "domain": [
+  "games/publishing"
+ ],
+ "product": [
+  "foundplay",
+  "stripe"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Helps browser game makers check Foundplay listing status, get the free listing link, a launch checklist and Boost plan details.",
+ "whenToUse": "Use when a game maker asks about launching, listing or promoting a browser game on Foundplay.",
+ "tasks": [
+  "get launch checklist",
+  "check listing and plays",
+  "get free listing link",
+  "show Boost plans"
+ ],
+ "effects": {
+  "b71bea650fcc1b700e800e1f789f85fe4c5436ef37db96ab000a667b0312e325": "read",
+  "1fcbf570e52ce773413cd5a1cf2b8e7d56c6b54fe04350ec9e86868e4ec36368": "read",
+  "d7dbd71229683c19f0551c45c58356adb2ea3de4ebefd07f9217d694fd8f50af": "read",
+  "246560b88ea72768a7791119076e2400af80b68150bacf735f7b9587e897309a": "read"
+ },
+ "flags": []
+}

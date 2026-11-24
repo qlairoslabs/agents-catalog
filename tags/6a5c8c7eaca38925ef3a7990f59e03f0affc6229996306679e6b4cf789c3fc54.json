@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "6a5c8c7eaca38925ef3a7990f59e03f0affc6229996306679e6b4cf789c3fc54",
+ "domain": [
+  "marketing/agency-directory"
+ ],
+ "product": [
+  "marketingburos"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "hire-and-manage"
+ ],
+ "summary": "Searches and compares Dutch marketing agencies by specialism, location and cases, matches briefs and submits quote requests.",
+ "whenToUse": "Use when a buyer needs to find, compare or request quotes from Dutch marketing agencies.",
+ "tasks": [
+  "search agencies",
+  "match a brief",
+  "find an agency",
+  "view agency profile",
+  "submit RFQ",
+  "compare agencies"
+ ],
+ "effects": {
+  "99e3fba9079e0a78739afdb17b5d56abe4199593af50f6311efbe9f8db403001": "write",
+  "c3f686c8768df7db783e12e5a6655669196cbfcd325a8ab3805bccae594998e7": "write",
+  "694076ae220e2cb8acfb60a96478b041a3d3b1669ff9ac69bed1657eaff7e2ab": "read",
+  "8c543e23ccdd385f2b5a294de4d00dccff0a3185c99a56734f0c75338ff2c0a9": "read",
+  "fc6eb4c510a0af76ee7d5870883177a0abcba87d928ab2384a424d244a8be645": "write",
+  "61c60579e4cafd4b40b8bb5a0dd7ec5c6fea7df0ed27436f7605f775af5296d7": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "840bd670edff2d7fe5db673fe4ae5928e220449de2a43051b6f720a1b9285413",
+ "domain": [
+  "health/provider-directory",
+  "health/wellness"
+ ],
+ "product": [
+  "vitena"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "schedule"
+ ],
+ "summary": "Searches Vitena's public directory of bookable health and wellness professionals and returns their profiles.",
+ "whenToUse": "Use when a user wants to find a dietitian, dentist, psychologist or similar professional by place, language or specialty.",
+ "tasks": [
+  "list filter values",
+  "search providers",
+  "get provider profile"
+ ],
+ "effects": {
+  "c2dc5729e281eedb0d676a6efab7d2c5fc195addc528e0ea39b546afca587e11": "write",
+  "cd5dcec9f35fd8a6c9621a77ee164fd5055fe80f81bca6f03edbeceddac172da": "write",
+  "08771f85114fcb0d29c2b13d69cc389519e630db0a64c2ac36bc85d339f1dcdd": "write"
+ },
+ "flags": []
+}

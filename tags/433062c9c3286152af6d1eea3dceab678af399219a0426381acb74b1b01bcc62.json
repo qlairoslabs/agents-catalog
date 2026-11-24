@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "433062c9c3286152af6d1eea3dceab678af399219a0426381acb74b1b01bcc62",
+ "domain": [
+  "travel/flights",
+  "travel/hotels"
+ ],
+ "product": [
+  "axel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Shows live flight and hotel prices next to the published fare or rate, the difference, and a booking link.",
+ "whenToUse": "Use when comparing live flight or hotel prices against published fares and rates.",
+ "tasks": [
+  "get live flight prices",
+  "get live hotel prices",
+  "compare with published fares",
+  "provide booking links"
+ ],
+ "effects": {},
+ "flags": []
+}

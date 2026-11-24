@@ -1,0 +1,49 @@
+{
+ "classifier": 2,
+ "contentHash": "aa0df71946e063c6582a1dbb5a7d59b4a53c55bb9dfb26c4b47589e61f78b722",
+ "domain": [
+  "sales/lead-generation",
+  "business/company-data"
+ ],
+ "product": [
+  "goodleads",
+  "stripe"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Sells lists of new US business owner contacts from state filings, with free previews, quotes and Stripe checkout links.",
+ "whenToUse": "Use when a user wants leads for newly registered US businesses, with counts and prices before buying.",
+ "tasks": [
+  "interpret list requests",
+  "browse leads",
+  "quote list price",
+  "check data quality",
+  "create checkout link",
+  "look up lead by ID",
+  "list live states",
+  "explain classification codes"
+ ],
+ "effects": {
+  "3bf3e6bcd8b3626830182fd5cfe23a469be97eff219cb3bffbb1c66537fea64b": "write",
+  "ac45eba24df0c2720292ec2f8e29d1eb4766f3391f354a87197aa4ec5a17bdeb": "write",
+  "3940e9f827b3ec78c56da975286e5875c8ccbe03a6a7ce28963a9b0cf35d6e23": "write",
+  "22bc4c77317857a1bfeed88a9ead2fdfda73b8739d74cede0131b79dbbf8bc7f": "write",
+  "7dd52b6a36d6f63977a2b6fbfde28d25e6fb837f7bb02662dec4bd80f5b50ab3": "write",
+  "609b4b3dbba8866c68de5a10ffb833a9944dbf9a5f3713f885c6cb80f4ec0fb8": "write",
+  "824cc21e4fff5c5a6121e2d4f9a7fbc6479678a07915e2083640a5c26a1430da": "write",
+  "230931185b348dbc98c8eb8e23567e8eaa31beb0917c3dafa0a64cfdc36bd78d": "write",
+  "ed533e8800a0b7c94fac468189d222065e1106021ee3e60154c66ff784beae7e": "write",
+  "6a37f02a74166156def2659616814c8529e03b2473cc00c72238d371821a78da": "write",
+  "805ccc33742197b39965c59598a308f5ebebd0940dc692faa7097baf7deb9808": "write",
+  "44d7eb0514bce5a96b8c9bcc0705b4c91e55a8007e9fe7d16c1ac9b854add66e": "write",
+  "e788df2230ceb92fc3fec19bbacf62c3679c339908960066151e7580974f2bac": "write",
+  "80d9d9d64600b53a7c4eeb72e09749cdd02dac98b96e6ada5ea90e1652b16699": "write"
+ },
+ "flags": []
+}

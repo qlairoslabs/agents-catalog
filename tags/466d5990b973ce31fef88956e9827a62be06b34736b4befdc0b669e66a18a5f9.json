@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "466d5990b973ce31fef88956e9827a62be06b34736b4befdc0b669e66a18a5f9",
+ "domain": [
+  "ecommerce/readiness-audit",
+  "logistics/dispatch"
+ ],
+ "product": [
+  "steadywrk"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "be-online",
+  "sell"
+ ],
+ "summary": "Keyless probe checking storefront readiness for AI agents, linking a Store Guard audit, plus dispatch estimates and quotes.",
+ "whenToUse": "Use when assessing a storefront's agent readiness or getting dispatch estimates and quotes.",
+ "tasks": [
+  "probe storefront readiness",
+  "link store guard audit",
+  "estimate dispatch",
+  "get quotes"
+ ],
+ "effects": {},
+ "flags": []
+}

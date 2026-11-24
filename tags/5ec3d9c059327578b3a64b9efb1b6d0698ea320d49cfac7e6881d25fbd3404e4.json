@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "5ec3d9c059327578b3a64b9efb1b6d0698ea320d49cfac7e6881d25fbd3404e4",
+ "domain": [
+  "software/engineering-practices",
+  "software/ai-coding"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference of agentic engineering practices, each paired with an observable test that can be checked against a code repository.",
+ "whenToUse": "Use when assessing or improving how a repository is built with coding agents against a catalogue of practices and tests.",
+ "tasks": [
+  "read overview of the table",
+  "find practices by role or group",
+  "get a practice in full",
+  "check a repository against tests"
+ ],
+ "effects": {
+  "55ffe91adbef9fbe01a81bb02d9fde52dee8326bf8f87072fa0b07573f75e0e5": "read",
+  "7bf13eeb21bfa321484c93cb68548c20e76bce20b095b0c6321d2d282fcca736": "read",
+  "1015a47d9efef5fe0e27a5bbb63eafc54decd99bcf0601da861ce672c9676a01": "read",
+  "af30ca1afc51edc769f1737a2e41b1b5317a941911b2b6eab9f12f04c1f11eee": "read"
+ },
+ "flags": []
+}

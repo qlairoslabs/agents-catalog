@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "cc835fb849e02e16b6bc9a6e87a32fd5fefb1d4b79e6ae32d853dd06c4969c33",
+ "domain": [
+  "religion/hindu-calendar"
+ ],
+ "product": [
+  "dharmikvibes",
+  "divineai"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Hindu panchang for 50+ cities, verified festival dates, vrat days, bookable pujas and temple darshan listings.",
+ "whenToUse": "Use when a user asks about Hindu festival dates, panchang details for a city, vrat days, or pujas and temples.",
+ "tasks": [
+  "get festival dates",
+  "get daily panchang",
+  "list vrat dates",
+  "search bookable pujas",
+  "search temples for darshan"
+ ],
+ "effects": {
+  "36e7a67a000864309bc89f2d5bc3121f199f962955095c40d178cc395a10559c": "write",
+  "2f98323954b1e0214672718d82e0430aefc270642a857f0db0195fff3c191d5c": "write",
+  "bf37a1191dbad6145be46167816060b3c0007382139db3b794ee5173c6c00047": "write",
+  "a0a116834f9a24e5ad4f4faff0e3de86e9e294c8bfd712c44e1ac797d23f4865": "write",
+  "31da8093d82c4e90a5a4d3ee570fa98fa30d4bd14cbc125fd54638f06d6a0a72": "write"
+ },
+ "flags": []
+}

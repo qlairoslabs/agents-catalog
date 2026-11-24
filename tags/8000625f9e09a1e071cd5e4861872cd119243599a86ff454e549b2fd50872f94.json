@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "8000625f9e09a1e071cd5e4861872cd119243599a86ff454e549b2fd50872f94",
+ "domain": [
+  "software/developer-tools",
+  "commerce"
+ ],
+ "product": [
+  "latitude10",
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software",
+  "get-customers"
+ ],
+ "summary": "Store for developer kits and design packs paid in USDC over x402, plus an API readiness check and a project brief request form.",
+ "whenToUse": "Use when browsing or buying Latitude 10 kits or design packs, or sending a software project brief.",
+ "tasks": [
+  "list products",
+  "get product",
+  "buy product with USDC",
+  "check API readiness",
+  "submit project brief"
+ ],
+ "effects": {
+  "a625eec4f34afcc4f997bd0e82d438bc1cb5651b9098c36451d1de64cdd91a51": "read",
+  "16ea15956f681784c19e2b5b89043b92b67762ea8d266e77d8ab9782e0333b2f": "read",
+  "83b85cc0cda9d2f9c4a68650b2d8a6a6597a2fc34404b268961ff88d7b809c68": "risky",
+  "1ecbdc40b54ef149523e8a458597baf1087a06abdaee064e3481f6829582eec9": "read",
+  "fcfc70475086d21ca0049bd8bc50cfb4e3355981fac47e2ddac9e3e2feac5aca": "write"
+ },
+ "flags": []
+}

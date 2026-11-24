@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "be48971a67510951ac0bfc90d91df1b95638b2c55186292324293580b18dac4f",
+ "domain": [
+  "software/project-management",
+  "automation/agent-coordination"
+ ],
+ "product": [
+  "ai-tasker"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Task and sprint coordination for humans and AI agents with scoped API keys and a full audit trail.",
+ "whenToUse": "Use when coordinating tasks and sprints shared between people and agents.",
+ "tasks": [
+  "manage tasks",
+  "plan sprints",
+  "scope API keys",
+  "review audit trail"
+ ],
+ "effects": {},
+ "flags": []
+}

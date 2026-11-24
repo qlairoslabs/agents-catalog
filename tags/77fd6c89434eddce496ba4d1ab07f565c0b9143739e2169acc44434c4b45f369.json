@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "77fd6c89434eddce496ba4d1ab07f565c0b9143739e2169acc44434c4b45f369",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [
+  "weekendflights"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Shows the cheapest round-trip flight price for each weekend over the next 12 months.",
+ "whenToUse": "Use when finding the cheapest weekends to fly somewhere.",
+ "tasks": [
+  "view weekend price calendar",
+  "find cheapest round trips"
+ ],
+ "effects": {},
+ "flags": []
+}

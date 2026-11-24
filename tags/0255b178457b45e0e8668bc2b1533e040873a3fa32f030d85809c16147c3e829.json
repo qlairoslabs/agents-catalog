@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "0255b178457b45e0e8668bc2b1533e040873a3fa32f030d85809c16147c3e829",
+ "domain": [
+  "finance/crypto-safety"
+ ],
+ "product": [
+  "verify402",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Checks whether a crypto token is safe and sellable via a quote before an agent swaps it, at $0.02 per call.",
+ "whenToUse": "Use when an agent is about to swap a token and should check sellability first.",
+ "tasks": [
+  "check token sellability",
+  "pre-swap safety check"
+ ],
+ "effects": {},
+ "flags": [
+  "paid-per-call-service"
+ ]
+}

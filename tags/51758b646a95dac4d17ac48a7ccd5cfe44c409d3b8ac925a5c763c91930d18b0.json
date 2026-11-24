@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "51758b646a95dac4d17ac48a7ccd5cfe44c409d3b8ac925a5c763c91930d18b0",
+ "domain": [
+  "blockchain/reference",
+  "software/documentation"
+ ],
+ "product": [
+  "subtensor",
+  "bittensor"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Reference for the Subtensor blockchain covering pallets, events, calls, storage, constants, errors, SCALE decoding and code examples.",
+ "whenToUse": "Use when developing against Bittensor/Subtensor and you need runtime details or to decode SCALE data.",
+ "tasks": [
+  "search runtime items",
+  "look up pallets, calls and events",
+  "browse by category",
+  "explore version history and migrations",
+  "explain concepts and workflows",
+  "generate code examples",
+  "decode SCALE hex",
+  "set session preferences"
+ ],
+ "effects": {
+  "302ecdc8aa0e279498f222b2956f7f2095bea6c0ef3581b4851379e7950851f8": "write",
+  "e5fcd55529d603318e5cde9434cffa90213adbe17a1687654c1b7a2beaf489c8": "write",
+  "0fafb1c7e5feb0b46fd5394e884a6729da7e5385c120a2403c1f66e560cc04f7": "write",
+  "aa87b738e4f19c2291312972dccf99d8742115ddec5ad3e1d5b9c54e07f4b26e": "write",
+  "1bd064f1f2aa4d1b847f376c37f13183794047a75e7b83d3133d72a61acf59e2": "write",
+  "135c96c749345c4c084177ea8e7f97fdec1882c468ff5b7ba6f00c125e85de76": "write",
+  "0173b7b4affa9cb12eaa698a4b9cb65bf4f85ecfe30d66eefdd5accc6bfaad65": "write"
+ },
+ "flags": []
+}

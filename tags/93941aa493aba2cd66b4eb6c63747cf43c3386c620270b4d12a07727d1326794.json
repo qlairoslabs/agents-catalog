@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "93941aa493aba2cd66b4eb6c63747cf43c3386c620270b4d12a07727d1326794",
+ "domain": [
+  "business/directory"
+ ],
+ "product": [
+  "founderhood"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "work-as-a-team"
+ ],
+ "summary": "Searches a directory of indie founders and online businesses by location and category, and submits new listings for review.",
+ "whenToUse": "Use when finding indie businesses or cofounders by place, or listing a business with the founder's consent.",
+ "tasks": [
+  "search founders",
+  "list cities",
+  "get founder listing",
+  "submit listing"
+ ],
+ "effects": {
+  "0ab1b4697f52cf61ffa35dbbe91a037333cb0377a95f9eb8b71aa3b8da25849a": "read",
+  "0f7a27505614cccad8e88fcd5d26c7a2cc5b751a6d03d78bf5512e790954cc47": "read",
+  "39c1d1357000a7f50c39fb49b8f46fc546ef5428e2d21e2c4efa57443ed59939": "read",
+  "b82d8cb43c7e1927bc7a143ef16944c45380d036b000009ade9938e11406ecc6": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "2f047a711ad5bbfae00de072dbd91e98b25ed6dcc17e6b6d6060a3ad43ea4e59",
+ "domain": [
+  "software/dependency-management",
+  "software/release-notes"
+ ],
+ "product": [
+  "sdk"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Looks up official release notes and release-level impact for specific SDK version upgrades from a curated snapshot.",
+ "whenToUse": "Use when planning an exact SDK version upgrade and needing sourced release notes.",
+ "tasks": [
+  "get release impact for an upgrade pair",
+  "list supported upgrade pairs"
+ ],
+ "effects": {
+  "ee485709dca96e2bfc0459a9261badf77c2bbec324c12f7e9970e864bdfbc19a": "read",
+  "65d8a62d3d4a459a21e6a4f56b199bc7a9789cfad8b4e1ee2d54f7e1c021021a": "read"
+ },
+ "flags": []
+}

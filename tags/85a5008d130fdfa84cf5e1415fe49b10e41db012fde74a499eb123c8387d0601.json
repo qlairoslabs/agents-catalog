@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "85a5008d130fdfa84cf5e1415fe49b10e41db012fde74a499eb123c8387d0601",
+ "domain": [
+  "it/hardware-lifecycle"
+ ],
+ "product": [
+  "cisco",
+  "fortinet"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Looks up hardware end-of-sale and end-of-life dates by part number, linked to vendor bulletins.",
+ "whenToUse": "Use when checking whether hardware parts are still supported or nearing end of life.",
+ "tasks": [
+  "look up part number",
+  "bulk check up to 25 parts",
+  "search product families",
+  "get family record",
+  "list vendors"
+ ],
+ "effects": {
+  "3a671fc0ae6cd52550078047b42cae17e97cc899fc14b24362137e5fb26b5c96": "read",
+  "c93349e66d0eacbc442b02fdfd7eeac774e2e4ea13ca1d94506e71e0e9ac98e1": "read",
+  "2363d2be66e4d02a23fdc2fa89904e93bc914ffd1a766279c72c5d912367fa24": "read",
+  "9fbf1f3eb53dea961bf7e3b3f1dfc487911f9e7a87f0d90410a3db94944b3f54": "read",
+  "b6233f8f10ea60f67ae225a926e021d61fb18dd13e7b58ec5d4d1ed43e67e31d": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "b76979dd23fae20140b5f0691ffbf970522d43837af084aa5abe81e8740477a8",
+ "domain": [
+  "events/weddings"
+ ],
+ "product": [
+  "dugun"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Search wedding venues, vendors and planning articles in Türkiye, compare options and send quote requests to businesses.",
+ "whenToUse": "Use when a user is planning a wedding in Türkiye and needs venues, vendors, advice or quotes.",
+ "tasks": [
+  "search venues",
+  "find similar venues",
+  "get venue or vendor details",
+  "search wedding vendors",
+  "search planning articles",
+  "get quote form",
+  "submit quote request"
+ ],
+ "effects": {
+  "e39c8423b305a68e348e933125ee0c63da2d9315e1e36202632f6ca0c11a7ef8": "write",
+  "70b4ab9cc978e1da0cee8ee09af484c0cf7de2bd1b0840b5dd3a8ebe95774208": "write",
+  "34ae6f9b37499af888af45a74fdc9c426c12b160bfe80daa844b53ef0bcbfa22": "write",
+  "22c8427aa0930fcda05c99eb722f1cb91045b886dabd2ada4b34bb4a7d1d0f3f": "write",
+  "e3c815cf3218a749cc5cdcd1c038cac3295becb7c5c761fdff149dacd67c3d01": "write",
+  "3ca43c677801e6645a8d1bd9c4ff970f75ca2e11dd0365504e40cf481b3c3fb2": "write",
+  "60e83bd6c10063cd3ac60fae8e74f956dbe42869e101e6709108ed2be45d170a": "write"
+ },
+ "flags": []
+}

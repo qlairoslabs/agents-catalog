@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "190088125b3f532a0cb037693e070b324b7cae10f387f85d632f81595bf3720a",
+ "domain": [
+  "finance/compliance",
+  "ai-agents/evaluation"
+ ],
+ "product": [
+  "vies",
+  "ofac",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Scores whether an AI agent is eligible for a task, and checks EU VAT numbers, sanctions lists and counterparties.",
+ "whenToUse": "Use when you need an agent eligibility verdict, a VAT number check, a sanctions screening or counterparty due diligence.",
+ "tasks": [
+  "score agent eligibility",
+  "show scoring table",
+  "list paid services",
+  "check EU VAT number",
+  "screen sanctions lists",
+  "run counterparty due diligence"
+ ],
+ "effects": {
+  "bda289125e4f73e5acea40ee689ee6e23a1e0752c29ddfa2558cf6fa4a3a6e75": "read",
+  "c90cd64b83cd7e4fcc03b1daa8d64e41d4bba2f452e09915fff23562e37e9e54": "read",
+  "441590324b26230382a1246deb56633b6e6cc3e99d87ac7f4c8aa7c2f53e34f3": "read",
+  "95a63c65bee1e009a413718464af41edfa615e6b86f0e0adbd773ff4222b12f9": "read",
+  "b1b986696e6ea623ebd3e475fc7a1b98a64c96405df7cfb528c6e2e1ad5729a0": "read",
+  "76c5580f4082f7e83a7bd205b745482a76a9346026b9e5b6bd068272a5c83f50": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,74 @@
+{
+ "classifier": 2,
+ "contentHash": "34741e46d2fd649987856e79af041cacc97787104a7c0972385a82e1c3ef9c7f",
+ "domain": [
+  "finance/market-intelligence",
+  "crypto/defi"
+ ],
+ "product": [
+  "x402",
+  "base",
+  "robinhood-chain",
+  "polymarket",
+  "sec-edgar",
+  "morpho",
+  "goplus",
+  "li-fi"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Pay-per-call market intelligence on crypto, tokenized and US equities, SEC filings and prediction markets, plus tools that prepare unsigned swap, bridge, order and yield transactions.",
+ "whenToUse": "Use when an agent needs paid market, filings or token-risk data, or an unsigned on-chain transaction prepared for review.",
+ "tasks": [
+  "read crypto news",
+  "scan tokenized equities",
+  "read SEC fundamentals and filings",
+  "read insider trades",
+  "screen token security",
+  "quote stock tokens",
+  "read Polymarket markets",
+  "prepare swap",
+  "prepare bridge",
+  "prepare Polymarket order",
+  "prepare yield deposit",
+  "ask in plain words"
+ ],
+ "effects": {
+  "ef2e9225ecf68c241dfe736427b4d445c41a6bf074ea7a2c158bec4e084bdb0b": "write",
+  "337bfe2e36aaa2fc675531925c842fe699cee9fe021b9eee3bbe646680898e7c": "write",
+  "28b93b3e844036eed819cfc7dae1c262489b5bcebaa13a2ecc3f6b3047760568": "write",
+  "53cf575186f26a672f91a911623eb4e6028fca19bb3e01c7aeb026774d1416b6": "write",
+  "700f3d1a8c3af768a1691b4dbbff25af2a72cebf1056b7c6b2690f4e22a8b9ba": "write",
+  "115299ee1dfe1ab08cea541f7a8898ad1dd474ba51cf3c2802033bc16e831221": "write",
+  "ab4f8320ee20e72bd0689d00e0a5cee51627f236f1651e44ccb0e24c88124c37": "write",
+  "9182b6b918da7cfae267f00d0968cc1b5a0d93ced55ee2e68eef5e7e0e4f9ade": "write",
+  "ebf381bf00044f36e3dfa116b699b041622b0a82dae91a04669cde2c8428d0ad": "write",
+  "7b2b13039ab1a984cb9e50ddbd0c744fb257b79c3e21b2970c372f54b9f8193e": "write",
+  "5513027ea7c2f5d7f2d16be25e4f26785bd216895f1832bf282c6ba17dbb8364": "write",
+  "02a11f0c3d9637d35d68dc60cb116091bfd58fad074d8c654b1f5148af785bea": "write",
+  "7cb9b7900b26c2fafd3f96267c1a03fc7a969642545ee3053a1539aa30dc727e": "write",
+  "a6ec033a71bccc884494a1da653d54e337fca437039b7f11f1fbd1a04343af7e": "write",
+  "e0621fb75e18de1236cd4ddb14b80b1ce5f766387f4372042072f964ae17601d": "write",
+  "27bec8fef8670022fea8b1f728231e753c790012efd17fba0829d2b00b84a54b": "write",
+  "45300c48900cc82b1eeee564992d8387bf80ebab1644e8046ce6d5784e868214": "write",
+  "efa74c1737c3159667c2efdc04aa63641ef79218d8d00f9470a210318a012997": "write",
+  "f58f3649e1f222660c46362cd0ec31baba96adc0b2b50a90170abe976bc91737": "write",
+  "5287865d2e703cacf8e0e19ac83fc745664267774ed7e79078c09323befbb547": "write",
+  "19c2fa4532733a1dd2d2178fee15e19ba3ca16444afc66a8b3a6d4ee0fa5ccdb": "write",
+  "ba4bea87e76508b70689eb66002d7a53654b6a2e7829183e99000daf948c00fd": "write",
+  "4773205c3bc79ac41b4e204cb56b23a995be1c56c3bad8242def43c091ac0fb0": "risky",
+  "f47df1cde04db1c95cc9dc0a624f13ecebe5f86f341d44c59d39a5f139201a33": "risky",
+  "1bf8c6207c6512be13e78b1ccc4cea9ce0be3a9b9c5a7254ba19cc9ea34d2978": "risky",
+  "ad9c38f19ce9961c572b5f4b4d3230b72005ca15c16a51c24f09eeb51b07df4d": "risky",
+  "06b5d5f872ac7ffae90b0644ee296e549d70fec28f9b78a9bd6f9e76b3ef8ec2": "risky",
+  "6efb2f9b459b8530be5dd79b7c95ed318b07769a64b55e581460e7d03a9ae683": "risky",
+  "96ac6dbba0f519e70a8ca26fd92933ff05aeea54c876a9c76c15d25549d6e763": "read"
+ },
+ "flags": []
+}

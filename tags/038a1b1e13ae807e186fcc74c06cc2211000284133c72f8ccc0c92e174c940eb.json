@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "038a1b1e13ae807e186fcc74c06cc2211000284133c72f8ccc0c92e174c940eb",
+ "domain": [
+  "language/sworn-translation"
+ ],
+ "product": [
+  "lingoris"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "Gives firm prices for sworn translations in France, lists supported languages and checks the status of an existing order.",
+ "whenToUse": "Use when a user needs a certified translation price or wants to track a Lingoris order.",
+ "tasks": [
+  "get price estimate",
+  "list languages",
+  "check order status"
+ ],
+ "effects": {
+  "bc5314f77d36e8bd494d930c6b136314898f723a1019af3a8e3493b25832a3a9": "read",
+  "91ad24cec726ebad9a3c561d4ba66f7a1f4451817819afb98e23668cf0fffb82": "read",
+  "593df70b9a757bd6741029d903584e2d06f97b2954ab5a67a27d85145366c63b": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0c1ef3d7ea1b99c061f0e8c8444e3986ed2611f9ebebdbbabb9c1ca91fc2ed17",
+ "domain": [
+  "ai/multi-model"
+ ],
+ "product": [
+  "benchwarmers"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Queries several LLMs at once through a local Benchwarmers server and uses their verdicts to choose the next panel of models.",
+ "whenToUse": "Use when you want to compare answers from multiple language models on the same question.",
+ "tasks": [
+  "query multiple LLMs",
+  "compare model answers",
+  "select next panel"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "8183749ffe15f3bd6cad1fea7b6f68c97dd5d53f9659668d2921248ad4832c19",
+ "domain": [
+  "logistics/trucking",
+  "compliance/fmcsa"
+ ],
+ "product": [
+  "eld-hub",
+  "highway",
+  "fmcsa"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "ELD Hub's pricing, ELD comparisons, FMCSA rules, broker integration checks and signup guidance for small trucking fleets.",
+ "whenToUse": "Use when a trucker or small fleet needs help with ELD requirements, provider costs, hours-of-service rules or starting a trucking business.",
+ "tasks": [
+  "recommend ELD",
+  "check ELD requirement",
+  "get hours-of-service rules",
+  "check broker integration",
+  "compare ELD providers",
+  "estimate switch savings",
+  "check hardware compatibility",
+  "get pricing",
+  "start signup",
+  "find loads",
+  "start trucking business",
+  "read blog posts"
+ ],
+ "effects": {
+  "232b6dd16fae8ab9439e928029446c776e491b2d580c1aea2ddb07bc54f19e20": "read",
+  "e661c8c3226848ba53764c9dd5aaef0500634a684e9b9ef2f31b97a83fc3bc79": "read",
+  "60d1d8eef2c449fc17bede5fadc1a30a1117c448febc82a42a0084f6030efaa1": "read",
+  "27028184164090608635d3d93004012e9a25eba40e4e8c32515b8ac24e343117": "read",
+  "4391249309186550437049e20f78bc7169c2823f5354a93e197ccb5dc0be25d2": "read",
+  "d8bc7015fcee17df9f3926f3c27f015cebf61d9e9fa04658010bc0d71c848f19": "read",
+  "e083e033e0c91f1773bac504b967f3cfec873f8882abe5d8a28a669539d0cab8": "read",
+  "9d7b245fd7410ff1c59217e8b7431bdeb4a8b554bea1220b8378d853c91e7e61": "read",
+  "05fb4da356474f6c836547e859de56be21a4ec00cb02949a1926177d17bb72ca": "read",
+  "ba1ad44c815353a0f22407f86bd914c5ac97cd9b256482533164a056ebebcca8": "read",
+  "65561555dfd64c585692531b7dc4a28556080b4b91c12d64285514869454dccd": "read",
+  "a961535724284b8a1cf193270e8cf4ad99b7abbdc8c712002c77423af0dea605": "read",
+  "874eabbe348e60ed9f785c9440df7bac62d0cbd727c253eda4ca787ab757ba49": "read",
+  "77724c8d5272394292094d31c5aac2f9c397d7f4b45901b3a46b497bcffd6fa7": "read",
+  "e0890bcfc8f74b2cc880c7bef4b0c8f48d6301e7fc9dc90e0ed8a37b0e9bea7a": "read"
+ },
+ "flags": []
+}

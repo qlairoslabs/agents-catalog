@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "2eb50798f34d3567281b6c162ca39add83bb5f9fe03ad9e8d140f833b16a40c4",
+ "domain": [
+  "software/cybersecurity"
+ ],
+ "product": [
+  "npm",
+  "pypi",
+  "vscode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Runs static security scans on npm and PyPI packages, MCP servers, agent skills and VS Code extensions.",
+ "whenToUse": "Use when vetting a package, MCP server, skill or extension for security issues before installing.",
+ "tasks": [
+  "scan npm packages",
+  "scan PyPI packages",
+  "scan MCP servers",
+  "scan agent skills",
+  "scan VS Code extensions"
+ ],
+ "effects": {},
+ "flags": []
+}

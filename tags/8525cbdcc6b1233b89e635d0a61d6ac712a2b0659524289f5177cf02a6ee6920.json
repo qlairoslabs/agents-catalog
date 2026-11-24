@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "8525cbdcc6b1233b89e635d0a61d6ac712a2b0659524289f5177cf02a6ee6920",
+ "domain": [
+  "events/ticketing",
+  "events/guatemala"
+ ],
+ "product": [
+  "pandy-tickets",
+  "google"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "sell",
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Finds events in Guatemala, produces checkout links and drafts new events for the organizer to review and publish.",
+ "whenToUse": "Use when a user wants to find Guatemalan events, get a ticket checkout link, or start organizing an event with tickets.",
+ "tasks": [
+  "search events",
+  "get event details",
+  "get checkout link",
+  "draft new event"
+ ],
+ "effects": {
+  "773e71f84c4189114a939b34ec6dbd0d3898f68e599fc51f29beda8c3c75ea07": "write",
+  "fe6fbc3e4595f2d90d58f0884135f3065f8c9a4763471f241947d0f20da3193f": "write",
+  "0789a58b8121823d41a135e43180c69c5ec0814406fd2d36e8baa96ba360ada7": "write",
+  "49f76b6caa7bd6c1973dd96ed7c2fb4f6807e9db157ba639317fc41d9ba159db": "write"
+ },
+ "flags": []
+}

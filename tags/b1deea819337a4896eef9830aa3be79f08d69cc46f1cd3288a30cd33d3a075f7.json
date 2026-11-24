@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "b1deea819337a4896eef9830aa3be79f08d69cc46f1cd3288a30cd33d3a075f7",
+ "domain": [
+  "commerce/3d-printing",
+  "manufacturing"
+ ],
+ "product": [
+  "stripe",
+  "printables",
+  "thingiverse",
+  "makerworld"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-paid"
+ ],
+ "summary": "3D printing studio shop: instant quotes for model files, product search, Stripe checkout links, order tracking and quote requests.",
+ "whenToUse": "Use when a user wants a 3D print priced, a custom figure or gift ordered, or an existing order tracked.",
+ "tasks": [
+  "describe the studio",
+  "search products",
+  "get product offers",
+  "show print price examples",
+  "list print options",
+  "quote custom print",
+  "create checkout link",
+  "track order",
+  "send quote request"
+ ],
+ "effects": {
+  "f0b7939807bacb2982ca5a7238eccb509570a7dbe8c1916cf87d526a12fc6353": "write",
+  "26cf6c58cc73068307c6e7f97bf8f5cabfe04a8da05bf4a40fc39820dcf059ce": "write",
+  "902a5d44b0cd0038f8e5a9989eec5ac6c490413cf6a31da0e7ced85fca61ffab": "write",
+  "8b815d4c1bd17fbccbe05afb57a4ace5ccff5b9a9bca4460baf4c7621ed9f0c4": "write",
+  "370d18333fce55f36d09742e5695aa55e6f29c7ae085e98f312cb9b4ca7c2855": "write",
+  "aebc95034ec73f91c69ecaebd60d537b1495aa1c0a5b46732fdf1c3220a193e2": "write",
+  "3e693151ac2426a2d1da5bcac5629d4797a52fbe7ce8a97fff9dbf761e8052bd": "write",
+  "fe5ed8af90ad04063726783897c59a1d803481f4663aeef74ef9ace0e61f2b5a": "write",
+  "a914d7d250bc2210b37a3e8254ca2e75174949eaee25a8a3a89ebb76b519a9f7": "write"
+ },
+ "flags": []
+}

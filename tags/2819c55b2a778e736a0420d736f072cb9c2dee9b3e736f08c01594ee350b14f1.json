@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "2819c55b2a778e736a0420d736f072cb9c2dee9b3e736f08c01594ee350b14f1",
+ "domain": [
+  "communication/whatsapp",
+  "customer-support"
+ ],
+ "product": [
+  "whatsapp",
+  "ozaponline"
+ ],
+ "audience": [
+  "support",
+  "sales"
+ ],
+ "goal": [
+  "support-customers",
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Manages a business WhatsApp account: read chats, reply to customers, pause the AI agent and edit its prompt.",
+ "whenToUse": "When a user wants to review or answer customer WhatsApp conversations or adjust the oZapOnline AI agent.",
+ "tasks": [
+  "read chats",
+  "reply to customers",
+  "pause AI agent",
+  "edit agent prompt"
+ ],
+ "effects": {},
+ "flags": []
+}

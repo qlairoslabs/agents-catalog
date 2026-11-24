@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7767f49cef57ee0927788c9f3255b199e61e12a8641fe463c278b6f77de26539",
+ "domain": [
+  "software/architecture",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "arketo"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Lets you draw an application's architecture on a live canvas and flags bottlenecks and security gaps.",
+ "whenToUse": "Use when designing or reviewing an app architecture diagram and checking it for bottlenecks and security weaknesses.",
+ "tasks": [
+  "draw architecture on canvas",
+  "flag bottlenecks",
+  "flag security gaps"
+ ],
+ "effects": {},
+ "flags": []
+}

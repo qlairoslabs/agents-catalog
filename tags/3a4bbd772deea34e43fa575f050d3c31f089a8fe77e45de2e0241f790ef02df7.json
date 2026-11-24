@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "3a4bbd772deea34e43fa575f050d3c31f089a8fe77e45de2e0241f790ef02df7",
+ "domain": [
+  "commerce/classifieds",
+  "real-estate"
+ ],
+ "product": [
+  "bazaraki"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches Bazaraki classified listings and new property developments in Cyprus, shows details and reveals seller contacts on request.",
+ "whenToUse": "Use when a user wants to find items, properties or new developments for sale in Cyprus or contact a seller.",
+ "tasks": [
+  "search listings",
+  "get listing details",
+  "reveal seller contact",
+  "list categories",
+  "get category filters",
+  "search new developments",
+  "get development details",
+  "reveal developer contact"
+ ],
+ "effects": {
+  "1c5ad73cecbad56af245673b91dad784629b4ff51c64b215f9c9dc031655ff89": "write",
+  "7602ba0dd6753acf95334004b186a6369242d557b10e0ce870ee3cad32123150": "write",
+  "590f7df077826460af861c87b5a81351b67b4c02a098a61605f652cf61086e0c": "write",
+  "2337e4d4db5e4fa10aad0797511393b36f8c4c0647ea25e7e354a1787daa0832": "write",
+  "61a2d043b08bc355408973ccd2aa8acec831297a329b1d6e4b7f17cc40840a93": "write",
+  "93d6e50bb616f5aa164d7fcda8ecd22f60a956259a90b6b41bc5d0fffbfde32f": "write",
+  "5ce1a97c7186ae6a7e86e100aa0a6b6f5984267dfb2ab422709d51effa8aa1de": "write",
+  "2342b4ea9e8d49f7258101c7f719835c1e2935a7cf08988abedd38a1cbc577bb": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "7e3b5809c4f9318d8a2820a4bae8d6944689f304d10359600950834ec60e1bd1",
+ "domain": [
+  "hr/job-search"
+ ],
+ "product": [
+  "finder-work"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches live job vacancies and salary statistics across Russia, Belarus, Kazakhstan, Germany, France and many other countries.",
+ "whenToUse": "Use when a user wants current job openings or typical pay for a profession in a country or city.",
+ "tasks": [
+  "search vacancies",
+  "get vacancy details",
+  "salary statistics",
+  "list supported countries"
+ ],
+ "effects": {
+  "b81312b0c543bd0d266248e97e6082f83c1203a65251c2009a29dddaa4d82227": "write",
+  "b8e1fdd1de5cac0969a80d524a0214f077232f67a2153a2f3a6577a63b12259e": "read",
+  "b2d69ff1bea56f7ebd24ba65ae2e28fac64231beaa625100a3fa76fbf484d24e": "read",
+  "7ab79e6ab37f9f6b658e20b8f8329f72f1505a1fa08ada031897cef1492c79af": "read",
+  "73c96776b874ce90225664fc0a2a173e6d16bd32ce3201a2655597a1450080b7": "read",
+  "b3527cec25a3a454df4d7801dd871ccfd2ec584bfc91838e621e459e3ff0dafc": "read"
+ },
+ "flags": []
+}

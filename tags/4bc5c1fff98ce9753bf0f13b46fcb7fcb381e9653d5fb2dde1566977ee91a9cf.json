@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "4bc5c1fff98ce9753bf0f13b46fcb7fcb381e9653d5fb2dde1566977ee91a9cf",
+ "domain": [
+  "insurance/ai-governance",
+  "business/consulting"
+ ],
+ "product": [
+  "integrated-ai"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Helps insurance agencies draft AI governance policies, classify data safety, assess AI readiness and find workflows.",
+ "whenToUse": "Use when an insurance agency needs an AI policy draft, data-handling guidance or starter AI workflows.",
+ "tasks": [
+  "draft AI governance policy",
+  "check data safety",
+  "assess AI readiness",
+  "find workflows",
+  "get pricing info"
+ ],
+ "effects": {
+  "962d462398dd4aa23ca805f05fb5da269d7823ae2c4dfe53b0dcd05854eba9d8": "read",
+  "b84b53fdfb8cb458d8d09558486bc0ffc145fc4b91e59073c58aa5532827104b": "read",
+  "3c80d1a92033bca4157e3149a12c4ad5327b18fc09581b18a4923d4400167475": "read",
+  "c87a4fe963ef1b3776053e038ac3bc565dde4dd590917b51cd126276369d14a2": "read",
+  "8af418cf2728d35d94d9b13d199013b46cf4e5c4742545ed44c7d988837b2a26": "read"
+ },
+ "flags": []
+}

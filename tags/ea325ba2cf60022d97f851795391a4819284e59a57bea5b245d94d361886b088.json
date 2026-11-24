@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ea325ba2cf60022d97f851795391a4819284e59a57bea5b245d94d361886b088",
+ "domain": [
+  "sales/crm",
+  "support/phone-reception"
+ ],
+ "product": [
+  "gatekeeperai"
+ ],
+ "audience": [
+  "sales",
+  "support"
+ ],
+ "goal": [
+  "get-customers",
+  "support-customers",
+  "sell"
+ ],
+ "summary": "CRM with an AI phone receptionist: search leads, read call transcripts, move deals and log activity.",
+ "whenToUse": "Use when a user wants to manage leads, deals or call transcripts in GateKeeperAI.",
+ "tasks": [
+  "search leads",
+  "read call transcripts",
+  "move deals",
+  "log activity"
+ ],
+ "effects": {},
+ "flags": []
+}

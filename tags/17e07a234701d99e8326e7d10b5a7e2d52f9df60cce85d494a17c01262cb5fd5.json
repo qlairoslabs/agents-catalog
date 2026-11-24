@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "17e07a234701d99e8326e7d10b5a7e2d52f9df60cce85d494a17c01262cb5fd5",
+ "domain": [
+  "marketing/email-deliverability"
+ ],
+ "product": [
+  "zerobounce"
+ ],
+ "audience": [
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "get-customers"
+ ],
+ "summary": "Validates, scores and finds email addresses, cleans lists in bulk, and runs inbox placement tests and warmup.",
+ "whenToUse": "Use when checking or cleaning email lists or improving email deliverability.",
+ "tasks": [
+  "validate emails",
+  "score emails",
+  "find emails",
+  "clean lists in bulk",
+  "test inbox placement",
+  "warm up email"
+ ],
+ "effects": {},
+ "flags": []
+}

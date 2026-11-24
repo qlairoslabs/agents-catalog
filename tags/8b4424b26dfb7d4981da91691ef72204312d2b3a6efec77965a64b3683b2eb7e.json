@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "8b4424b26dfb7d4981da91691ef72204312d2b3a6efec77965a64b3683b2eb7e",
+ "domain": [
+  "finance/compliance",
+  "finance/bookkeeping"
+ ],
+ "product": [
+  "median",
+  "quickbooks",
+  "xero",
+  "stripe"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "run-the-money"
+ ],
+ "summary": "Lists US company filing obligations and runs a bookkeeping health check with scoring, from a firm that sells accounting services.",
+ "whenToUse": "Use when a founder needs to know US federal or state filing obligations or wants to check the health of their books.",
+ "tasks": [
+  "list compliance obligations",
+  "explain an obligation",
+  "get evidence recipes",
+  "list bookkeeping checks",
+  "explain a check",
+  "score books health",
+  "read company pricing and blog"
+ ],
+ "effects": {
+  "069f6c04503cb2924d18c74db3c174d5235579889ca306173df4e86327a4c8cb": "read",
+  "dcc856b76d85c3ff67882aa4786f9dd95ba701ed25d61afdd0c1c69d5f65a8e2": "read",
+  "3eb56fec84c7f2873097cab1bcd43258c15785f874175f279449a58b2cd49809": "read",
+  "0eab5d0362207fc2aa183b37b8429539d708fe5e8838340f57feb59ac8c9af9e": "read",
+  "7122ffdf91d7cfddae6c59fce56fac55b7fe9c3f259bfd9537469ab19278cd4f": "read",
+  "5a5c4bd2232048137ae780571d7f461aed050e7754b3041f4e8b8fb495636273": "write",
+  "560e11d8e9133f5b5f80d44af0042fecb66942537007b184f3984784cf7d8101": "write",
+  "64481fd0aba13f0fc8870c92e4db2303c908d756e9f69f47455d49388df0e0c7": "read",
+  "82450e2462d26551957a517e8d9f87016ada4e979e8cd15436c80a3f13b6a631": "read",
+  "203e59249d59f0de978ae996d0e3600b5584d45062fd7b33d30df1b2373ede3b": "write",
+  "42c96d7d12e856dabec976ca02f19246bd04214c32a2b9cbd4ff4d4534f7a44b": "read",
+  "504b4d718ea7309d715fb1245c95e65654ed1405e0a457618b3ece51a6fbeb09": "write"
+ },
+ "flags": []
+}

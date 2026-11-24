@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "b4f29eea7544a0e580738674f0bd1486b444afac4c54a567e665b91697fade60",
+ "domain": [
+  "outdoors/fishing",
+  "weather/marine"
+ ],
+ "product": [
+  "peskio"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "understand-what-is-happening"
+ ],
+ "summary": "Tide tables, sea conditions, coastal place profiles and fishing or diving day scores for coastal places in Europe, North Africa and the US.",
+ "whenToUse": "When a user asks about tides, sea conditions or the best day or spot to fish or dive on a coast.",
+ "tasks": [
+  "resolve place names",
+  "get place profile",
+  "get tide table",
+  "get daily fishing conditions",
+  "compare days",
+  "find best nearby spots"
+ ],
+ "effects": {
+  "6a124790cc2c176d0e25e73aad7c03e899c5d04ac301ce1748b4253c7c460d07": "read",
+  "2cebf253f9eba47644e90c0bc162dd83e2bf5b6b0e75ef85853cf3d019afd58a": "read",
+  "7ab9d3ecb70ef463ec3585221eb8217d2dbe9b19762c24d6395543062639e524": "write",
+  "a410039516e86fd16a196bf0d5155c7fc5583f427aa01a77d5f9669f33013319": "write",
+  "cd2815d555f70d3acd88751e5201ab4cf9f89ea6ac8ac805e72dde3733034966": "write",
+  "882136e90c5752f5eed38e7fcbd55896ecb9af7aa5d15a50b68824aaec40c15a": "write"
+ },
+ "flags": []
+}

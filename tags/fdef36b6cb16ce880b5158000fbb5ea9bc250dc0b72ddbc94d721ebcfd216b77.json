@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fdef36b6cb16ce880b5158000fbb5ea9bc250dc0b72ddbc94d721ebcfd216b77",
+ "domain": [
+  "design/3d-models"
+ ],
+ "product": [
+  "free3d",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches over 100k 3D models, with downloads gated by a $0.10 USDC x402 payment.",
+ "whenToUse": "Use when the user needs to find or download a 3D model.",
+ "tasks": [
+  "search 3D models",
+  "download models with x402 payment"
+ ],
+ "effects": {},
+ "flags": [
+  "paid-downloads-move-money-via-x402"
+ ]
+}

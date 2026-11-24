@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "db36e073bf29edf8e0e725c5c65e6115425b260f35a9c9d259f35a60266ab738",
+ "domain": [
+  "health/clinical-records"
+ ],
+ "product": [
+  "voa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Lets an assistant read Voa patient records and draft clinical documents, saved only after confirmation.",
+ "whenToUse": "Use when a clinician needs patient records pulled up or clinical documents prepared for review in Voa.",
+ "tasks": [
+  "read patient records",
+  "prepare clinical documents",
+  "save confirmed documents"
+ ],
+ "effects": {},
+ "flags": []
+}

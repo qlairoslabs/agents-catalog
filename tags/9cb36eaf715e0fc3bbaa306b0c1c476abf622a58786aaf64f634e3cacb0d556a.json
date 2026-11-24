@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "9cb36eaf715e0fc3bbaa306b0c1c476abf622a58786aaf64f634e3cacb0d556a",
+ "domain": [
+  "software/web-hosting"
+ ],
+ "product": [
+  "simple-host"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Publishes websites with a small backend including key-value store, SQLite and file storage, controlled by AI agents.",
+ "whenToUse": "Use when an agent needs to deploy a small website with simple backend storage.",
+ "tasks": [
+  "publish websites",
+  "use kv storage",
+  "use sqlite",
+  "store files"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "ac3717f7014ea7ca3463d21819bd59935fbd5b4530e2602981fb9e10a7ab3b53",
+ "domain": [
+  "ecommerce/apparel",
+  "wholesale/blank-apparel"
+ ],
+ "product": [
+  "standard-blanks"
+ ],
+ "audience": [
+  "operations",
+  "marketing",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "build-software"
+ ],
+ "summary": "Searches blank apparel on Standard Blanks, checks stock, prices orders with shipping and builds a cart link for checkout.",
+ "whenToUse": "Use when sourcing blank garments for printing or merch and needing stock, pricing and a cart.",
+ "tasks": [
+  "search catalog",
+  "get product details",
+  "check inventory",
+  "quote prices and shipping",
+  "build cart link"
+ ],
+ "effects": {
+  "5ab425edacdc58b43d5b79eede0f6817be651027a5b483cf3da328ce65c5eb08": "write",
+  "098c3ae322edb995416468b40978ad286b816a17153221de44ddf07435842f8f": "write",
+  "7995ae2219494968a50b7718da281bdee290ca65ed82a3b26bd653e69c12e8c7": "write",
+  "2b71e98b6bfa11320059548cacf2a6e994435632bab5b1a77cc747efd0c43ecf": "write",
+  "47911c9b5edf579e658a534a06516cd35a55f7cf588d084ce7448d594741361e": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "873e3f5a830b0e0902b7689564b1133836b185f717badf1ef21f2c3ff978dabc",
+ "domain": [
+  "software/ml-ops",
+  "hardware/gpu"
+ ],
+ "product": [
+  "cuda",
+  "nccl",
+  "nvidia"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Diagnoses GPU and ML training failures such as CUDA out-of-memory, NCCL timeouts and Xid faults, locally or via cloud.",
+ "whenToUse": "When an ML training job crashes or stalls and an agent needs to find the cause on GPU hardware.",
+ "tasks": [
+  "diagnose CUDA OOM",
+  "diagnose NCCL timeouts",
+  "analyze Xid faults"
+ ],
+ "effects": {},
+ "flags": []
+}

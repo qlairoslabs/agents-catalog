@@ -1,0 +1,48 @@
+{
+ "classifier": 2,
+ "contentHash": "f3d1345e66499885615e05cdb4a2c683fd712a3a7f686f18eabaf9a0c2edead3",
+ "domain": [
+  "ecommerce/price-comparison",
+  "retail/consumer"
+ ],
+ "product": [
+  "magic-prices",
+  "fnac"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only French price comparison: product search, store offers, price history, deals, coupons and buy-or-wait analysis in EUR.",
+ "whenToUse": "Use when a user wants the best current price, price history, deals or coupons for a product in France.",
+ "tasks": [
+  "search products",
+  "compare store offers",
+  "view price history",
+  "compare products",
+  "find deals",
+  "find promo codes",
+  "view store profiles",
+  "get buy or wait verdict"
+ ],
+ "effects": {
+  "ee7c03355bb36a28dbb80ed9be39825718608ac59deb9de5f8badea1ace34040": "read",
+  "2703aa849d7a35a257e33dc1b90addab4b73641bee6c6da99c460a5475f7ad07": "read",
+  "dd1a9cf0c366ae273f5d7a8d4c076bc483a3f3264cbb17993f178d480fe08819": "read",
+  "b46a15b3fd228f7c5ec0a9bef7bdd0c3f1580cf4c6e62c7ab03565df8a1bb316": "read",
+  "5fc2f81f392869864b7ded56a21a56b4c0c5b1ad1d9fd3ba254fe9fb2507d283": "read",
+  "cf3b7ca42b65545cde48be4862caa1f762e20ce4fbd7ca929a1bbb7b6501ec99": "read",
+  "72c6a0493159c2b0bc9b93ae75a9af8c5fa259b75b656911de027b3d6ebae179": "read",
+  "73dbe97c133ed6a41695051460e1fa5d00300b4ac300f1af95dbd5a277d91582": "read",
+  "c88ace9ab75a758aaca467815aa472d11038568b8aefd350ac537a3e9ef3bae6": "read",
+  "5d12ff92ee5ddfd3ad60c5c6a1ee544901061553ebaac6ef14711a1d9593ed02": "read",
+  "65fd8be2333041a800cdaef3b67630167e784750bf2b3b140235e2400dba93f3": "read",
+  "9ec4caa5295c4c573abdfd577b6cffb397bf7f05d6a008563b862fe53e5ce96f": "read",
+  "43081882e007c73b0e07f4bf9773e1237235666ed189b207b3ef03be1cc0ba8a": "read",
+  "1dace0d9c62bb8372ae085c6f887206b472efa29060f48556e984e3d3b6f2657": "read"
+ },
+ "flags": []
+}

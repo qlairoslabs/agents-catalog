@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "921616f9ba4bdf741d467c5a042cf5d4a57599f2fc6989109261bb0eb4f936a2",
+ "domain": [
+  "software/agent-orchestration"
+ ],
+ "product": [
+  "deepseek",
+  "claude-code",
+  "codex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Hands tasks from Claude Code, Codex or other MCP clients over to a local DeepSeek Harness.",
+ "whenToUse": "When an agent should delegate a task to a local DeepSeek Harness.",
+ "tasks": [
+  "delegate tasks to DeepSeek Harness"
+ ],
+ "effects": {},
+ "flags": []
+}

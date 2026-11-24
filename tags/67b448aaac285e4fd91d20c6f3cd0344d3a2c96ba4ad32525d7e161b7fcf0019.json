@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "67b448aaac285e4fd91d20c6f3cd0344d3a2c96ba4ad32525d7e161b7fcf0019",
+ "domain": [
+  "software/cms",
+  "developer-tools"
+ ],
+ "product": [
+  "drupal",
+  "composer",
+  "wordpress"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Queries Drupal core API changes, contrib usage, upgrade readiness, composer patches, code search and SQL over a dataset, plus WordPress theme conversion status.",
+ "whenToUse": "Use when planning or checking a Drupal core or contrib upgrade, patches or deprecated API usage.",
+ "tasks": [
+  "check patches",
+  "re-roll patch",
+  "scan composer",
+  "what changed in core",
+  "look up core symbol",
+  "list symbol users",
+  "search code",
+  "project upgrade report",
+  "query dataset",
+  "WordPal theme status"
+ ],
+ "effects": {
+  "9c4d6c48b8b67c686507d0266b67275e6c6578741db429be48f2972f934f5071": "write",
+  "2a26f9609a85ded5ae9b9327ab30c38e111e1883f72f399216cd61d05897ae71": "write",
+  "9f52ed990b3b83a835b1dfedf2969e035fc751cead7d8d4172548dc428444a41": "write",
+  "5eb461e57c652ad376d22b07e70133d8014ea4099d8bc059217fb7420f268f93": "write",
+  "a8114f1b0b2e015d838cba6f2e94a5e53df8b7e95ebc98c19465f3d4feac2881": "write",
+  "d1d3e1cb9ed79420433d1ede3ec7530f328a35c43f620426c39235a2cb1e4f2a": "write",
+  "869ea82e72a5bfd31e1e753feba9e301b36c9f7a41b468ddc35438673d63834a": "write",
+  "1b2143c5edf5a3a278991a0c8e446a2459303cf330c1b5d09c8600724f0efbdb": "write",
+  "b6e2eb2b3e26b354e5666a52d958400dd8550468dd815cec0d743f56512bbe53": "write",
+  "e480f761d0c1c374e7c927d57672868b99ebb250e80fa573a1314ba7f742e1a6": "write",
+  "05f992a43fd5942359d2fd0f780b88626990dcf60d0e24ed5e8b6b879812f0b7": "write",
+  "3c9e1c625137af64c9095184e2c38dc76d4791d0e3b54b6479293f60254735bf": "write",
+  "0d2c11fe4f504c3ddcba4c35beb972952db9c9b200d9149066df590a36290ac3": "write",
+  "af86e7e90fcb257c692e746d22257acc27ddd4fc02419c9213a1b141710fafba": "write",
+  "508d24ec2cad2abc88e1105cb1139491414c6a124463598be125963b0858edbe": "write",
+  "f1dd51ab435d4db0aeab47ece2e17fee98817a9d3ce473eafeaf8ebe341f64d1": "write",
+  "426a5a530dc17c553a91a44454aae38ce311d30da135c1f4bfd73f7875aa3e6c": "write"
+ },
+ "flags": []
+}

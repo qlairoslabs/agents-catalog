@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "75a6a550395439f6ebe4d66df5636b16fdb640b3441560625b071e1a328b0b62",
+ "domain": [
+  "finance/personal-finance",
+  "finance/budgeting"
+ ],
+ "product": [
+  "right-money"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Personal money system that splits finances into Bills, Lifestyle and Freedom buckets, hosted for agents.",
+ "whenToUse": "Use when helping a user organise personal finances into the three-bucket Right Money system.",
+ "tasks": [
+  "manage bills bucket",
+  "manage lifestyle bucket",
+  "manage freedom bucket"
+ ],
+ "effects": {},
+ "flags": []
+}

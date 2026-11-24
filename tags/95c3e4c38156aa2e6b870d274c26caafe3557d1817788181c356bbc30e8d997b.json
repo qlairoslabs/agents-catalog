@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "95c3e4c38156aa2e6b870d274c26caafe3557d1817788181c356bbc30e8d997b",
+ "domain": [
+  "personal/profile",
+  "hiring"
+ ],
+ "product": [
+  "last-fm"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "get-customers"
+ ],
+ "summary": "Read-only public profile of Alex Polonsky: experience, availability, writing and music listening picks.",
+ "whenToUse": "Use when you need information about Alex Polonsky's background, availability, articles or music taste.",
+ "tasks": [
+  "get profile",
+  "get availability",
+  "list posts",
+  "read post",
+  "get music rotation",
+  "discover music"
+ ],
+ "effects": {
+  "6ac5662543273eebf090e26a023175a63dae9eab2d0a411673ea98bd72d4accb": "write",
+  "634e3209bd4f81a090d3cb5e5f3788bcf681537c457cccd8502dfcd45caed819": "read",
+  "06e45108afe2f241bb684f0e07bfce500c9618af55310fc54c894fd8206ad47d": "write",
+  "30cbaabca5ed67cabc0228bba003499506a1530e2e6a5408cc17e89402dd19f8": "read",
+  "7c38ed0f7d7d73eae9772846268fd2310ce80cf9bd869052fbaeae8dcf4ada23": "read",
+  "6a83835d70c50fd696d1016c2517d34adb13020aec70590cd7ef07d834b995f9": "read"
+ },
+ "flags": []
+}

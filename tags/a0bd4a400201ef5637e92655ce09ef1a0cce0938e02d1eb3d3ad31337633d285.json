@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a0bd4a400201ef5637e92655ce09ef1a0cce0938e02d1eb3d3ad31337633d285",
+ "domain": [
+  "hardware/retro-computing",
+  "software/emulation"
+ ],
+ "product": [
+  "commodore-64",
+  "vice"
+ ],
+ "audience": [
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "MCP server to control Commodore 64 Ultimate hardware and the VICE emulator from an AI agent.",
+ "whenToUse": "When an agent should drive a C64 Ultimate device or VICE emulator, such as loading or running programs.",
+ "tasks": [
+  "control C64 hardware",
+  "control VICE emulator",
+  "run programs"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "f546ec159fbec26539dcd7d65f28391b9bfe0a22ba6d24b017c5617d28e54aa7",
+ "domain": [
+  "books/catalogue"
+ ],
+ "product": [
+  "boekenbase"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a Dutch book catalogue of over 2 million titles by keyword, ISBN or plain language, with new releases.",
+ "whenToUse": "Use when looking up Dutch books, ISBN details or recent releases.",
+ "tasks": [
+  "search books",
+  "get book by ISBN",
+  "list new releases"
+ ],
+ "effects": {
+  "24f90ffaaf8a45e016f06f267753aec7397acb5620db5b6c97667bbd8f8cb385": "read",
+  "a0cbfa449e47aba5c7437de94f1596e49862cc3338a6676eba82d8152222a3cb": "read",
+  "7945f25d62e963f0831ad50bea71efd85ef9c612f9f3f46bba6a6db31c80fd18": "read"
+ },
+ "flags": []
+}

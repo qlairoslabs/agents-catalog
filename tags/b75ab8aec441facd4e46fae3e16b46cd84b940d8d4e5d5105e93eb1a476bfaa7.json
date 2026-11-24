@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b75ab8aec441facd4e46fae3e16b46cd84b940d8d4e5d5105e93eb1a476bfaa7",
+ "domain": [
+  "music/promotion",
+  "streaming"
+ ],
+ "product": [
+  "spotify",
+  "playlistmap"
+ ],
+ "audience": [
+  "marketing",
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Finds active Spotify playlists that fit a song and gives an integrity estimate for a public playlist.",
+ "whenToUse": "When an artist wants playlists to pitch a track to or needs to screen a playlist for fake engagement.",
+ "tasks": [
+  "match playlists to a song",
+  "estimate playlist integrity"
+ ],
+ "effects": {
+  "fc18ab9e8dc5a8b2ba04bbf5df0fe4f0c728579da9d1132fe070c669df08fc5c": "read",
+  "3587339cb3d0813ac7b6c215765f5cbe72707bb5de9fab2e84f28e499a140afe": "read"
+ },
+ "flags": []
+}

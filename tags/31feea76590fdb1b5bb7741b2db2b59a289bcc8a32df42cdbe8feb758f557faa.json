@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "31feea76590fdb1b5bb7741b2db2b59a289bcc8a32df42cdbe8feb758f557faa",
+ "domain": [
+  "software/cybersecurity",
+  "software/ai-agents"
+ ],
+ "product": [
+  "axiorank"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Zero-trust gateway for AI agents that scores tool calls, verifies agent cards, enforces policy and keeps an audit trail.",
+ "whenToUse": "Use when you need to control, score or audit what AI agents are allowed to do with their tools.",
+ "tasks": [
+  "score tool calls",
+  "verify agent cards",
+  "enforce policy",
+  "audit agent activity"
+ ],
+ "effects": {},
+ "flags": []
+}

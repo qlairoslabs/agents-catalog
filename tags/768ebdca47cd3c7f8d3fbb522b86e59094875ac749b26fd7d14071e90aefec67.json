@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "768ebdca47cd3c7f8d3fbb522b86e59094875ac749b26fd7d14071e90aefec67",
+ "domain": [
+  "communication/email",
+  "software/developer-utilities"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "keep-in-touch",
+  "automate-work"
+ ],
+ "summary": "Lets AI agents send transactional email after signing up with an email code, with no domain or DNS setup.",
+ "whenToUse": "Use when an agent needs to send transactional email quickly without configuring a domain.",
+ "tasks": [
+  "sign up by email code",
+  "send transactional email"
+ ],
+ "effects": {},
+ "flags": []
+}

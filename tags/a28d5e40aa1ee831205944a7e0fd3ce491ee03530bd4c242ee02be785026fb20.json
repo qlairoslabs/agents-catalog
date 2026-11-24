@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a28d5e40aa1ee831205944a7e0fd3ce491ee03530bd4c242ee02be785026fb20",
+ "domain": [
+  "operations/maintenance-management",
+  "operations/asset-management"
+ ],
+ "product": [
+  "assetlab"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Access work orders, preventive maintenance schedules, assets, capital plans and infrastructure in the AssetLab CMMS/EAM.",
+ "whenToUse": "Use when managing maintenance work orders, assets or capital plans in AssetLab.",
+ "tasks": [
+  "manage work orders",
+  "view PM schedules",
+  "look up assets",
+  "review capital plans"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a92c568f3b26f18abe8bfc53d0857f328d56710938eb97a3a6c1d95b7da96dbc",
+ "domain": [
+  "data/documentation",
+  "ai/documentation"
+ ],
+ "product": [
+  "shipshape-data"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search and retrieval of Shipshape Data's guides on data and AI, with pages returned as markdown.",
+ "whenToUse": "Use when you need practical guidance on data architecture, data cleaning or AI topics from Shipshape Data's documentation.",
+ "tasks": [
+  "search documentation",
+  "fetch page as markdown",
+  "list site sections",
+  "list guides by category"
+ ],
+ "effects": {
+  "41dc2f2e9632f8a0fdd02da4338aaae13c8df5ba21c6f8dc3f94498d45060c86": "write",
+  "edc9d58845e0b7110ce6662ebc99e40645d0879e1412a9327d46740c0f0c4451": "write",
+  "ed2552093341bd73010544f95f5d867e018cd687b86ed7532060cc4f271fa851": "write"
+ },
+ "flags": []
+}

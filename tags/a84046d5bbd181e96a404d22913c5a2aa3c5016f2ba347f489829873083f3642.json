@@ -1,0 +1,54 @@
+{
+ "classifier": 2,
+ "contentHash": "a84046d5bbd181e96a404d22913c5a2aa3c5016f2ba347f489829873083f3642",
+ "domain": [
+  "crypto/dao",
+  "knowledge-base"
+ ],
+ "product": [
+  "caper",
+  "radix"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "run-the-money"
+ ],
+ "summary": "Reads Caper's wiki and DAO listings, and on Radix testnet prepares signable DAO, trade and proposal transactions and lets holders edit DAO wiki pages.",
+ "whenToUse": "Use when researching Caper or its DAOs, or when creating, trading in or governing a DAO on Radix Stokenet.",
+ "tasks": [
+  "search wiki",
+  "read pages",
+  "browse categories",
+  "list DAOs",
+  "authenticate with signed challenge",
+  "build transaction manifests",
+  "register committed transactions",
+  "edit DAO wiki pages",
+  "delete wiki pages",
+  "send feedback"
+ ],
+ "effects": {
+  "f3f8044dd000f66f309b6c907f323d851322c78804804d8332d55af538712b24": "write",
+  "98c686c83c0f7c005beddbbbf972a65b69b8c702ab083476c97e24cdd8f4ae39": "write",
+  "98fbb7c3a349a7779eb5295f7c1622b42e0fdfc93acfa99f9db105e4d71d8fa6": "read",
+  "3174b72046afa215db5a35683576234ec352354813a8fa70342454ffb024b667": "read",
+  "ee1ed82ea4ba522f49cfb1f8f43b84fd6939dcb24cb0c3dd7c79172206f26c16": "read",
+  "023b3d59ad2b297e23ec6c08ae26d91cff34f4505c78951f06eb7ffb8fee6945": "read",
+  "c03f3b9f419593319a33cca49047c1bf1685e96794b06924090ce483b5623d33": "read",
+  "bdbdcb3941cfce84a02bfa791fc782a53abbb6173b92103965532e6b52db1f09": "read",
+  "8f71fcafd4432db8af956e5f81fd0c5d5ef10a9f3c7a24967414ca7824215eae": "read",
+  "87ab5c4e2dea72aef35281c0db1d8d145e8fee00ec7a5eb3dcba70fc415ecec0": "write",
+  "7eda25abe1db3b0ae5ee592a7ef51a2bc2117e07f9d637cc63a8ee4d980d9c89": "write",
+  "73b87579126dd0bb5b420fc8ab1821b0c7db8071551889bd6d3637891b6cd4ed": "write",
+  "e77bcd0daa4e6aed5b7e5f324283069b45cc9ae17b17ad9716910fb5859e03a7": "write",
+  "4d71ca75cd4988069461905ac196d697ecd1534b17feb9dd9c1fe7fd630aa425": "write",
+  "c077fbd260262e89b25a603595143372b17c923f05aa0a6fc10ce256fc7e2047": "write",
+  "cf55efc19384772671865ad6c3266e5413b4a0e358d3b0067ab7a09c401f6e32": "write",
+  "9d894b55fbca72499a194e2a5cf9917b378465015ebc66e0c513ee450b976694": "write"
+ },
+ "flags": []
+}

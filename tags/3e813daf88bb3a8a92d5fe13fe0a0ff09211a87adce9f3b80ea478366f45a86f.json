@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "3e813daf88bb3a8a92d5fe13fe0a0ff09211a87adce9f3b80ea478366f45a86f",
+ "domain": [
+  "marketing/seo",
+  "software/web"
+ ],
+ "product": [
+  "chatgpt",
+  "google",
+  "claude",
+  "perplexity",
+  "grok"
+ ],
+ "audience": [
+  "marketing",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks how well a website can be found, read and recommended by AI assistants and search engines, returning a score, category scores and top issues to fix.",
+ "whenToUse": "Use when you need to audit a website's SEO, answer-engine and generative-engine visibility and get a list of fixes.",
+ "tasks": [
+  "check website AI visibility",
+  "score SEO/AEO/GEO",
+  "list top issues to fix",
+  "get shareable score card link"
+ ],
+ "effects": {
+  "9e4c8b7fd6e977fb29582801b45008c4353f151b8d5db2d4b3cc98aeb9191e4f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,57 @@
+{
+ "classifier": 2,
+ "contentHash": "4bd3b64148695e0d6360f168515dde30c9f0842ae5a079d077d4ac6ddfa69528",
+ "domain": [
+  "finance/macroeconomics"
+ ],
+ "product": [
+  "worldgdp",
+  "imf-portwatch",
+  "un-comtrade",
+  "uppsala-conflict-data-program",
+  "gdelt",
+  "ism"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Daily GDP nowcasts for 47 economies plus weekly activity, trade, chokepoint, sector, AI-cycle, policy and conflict indicators.",
+ "whenToUse": "Use when you need current macro estimates, trade flows or economic risk indicators for a country or region.",
+ "tasks": [
+  "list economy nowcasts",
+  "get gdp nowcast",
+  "get world and regional aggregates",
+  "view release calendar",
+  "check track record",
+  "get weekly pulse",
+  "get trade nowcast",
+  "monitor chokepoints",
+  "get product trade",
+  "get sector activity",
+  "list companies by sector",
+  "get conflict risk"
+ ],
+ "effects": {
+  "5a4f97a7f132fb7139aa830b59fcf496e70c34f6ffa03ca355c2677afd748a1f": "read",
+  "b41cdd790bf6ee4f290aa5f287480f95ffc04b70395dbac369bf615a79b7ded5": "read",
+  "87c085da19273f7d80b52336d8a46db831cc53a0bd4293042a9d024d519ef480": "read",
+  "ed0575747ee05f703c940978ecf50877a065ceafaa1b1c55640c2ca8c2ece1ad": "read",
+  "b83f4e928432bbc1e557d4417eb7648aed5dd66d18fdb20d5c66c1a7cefb0114": "read",
+  "da80c5a62698735927ca18777ea420f27aaa7719db6fb3ee0ccc0071f3cf7fe5": "read",
+  "bb2bd3fa7535b61c1413e68928705f81d066071f9fa2734d19d38a4d0ab1515e": "read",
+  "f9a5a545c0ea444d5e4d4f2b2b5752dfd8fbb60587cf84a67fca666977a94c11": "read",
+  "86319aa508720891de73dfb4774042999c7a3818bc6e3daddae806e6f568aa19": "write",
+  "4e02f23e8fc71c98b937b3227aa01272469a579cd4c53d4940809a1a9dd85b4b": "write",
+  "2b3eca74a4afc9bdff3101ce12746bd16f9549b9395d2f0ca5ca4cbac75e5a61": "read",
+  "50f87bde202bc8557111e7ebb78b1c51fac0ff6a6be3622bb65918fba9947cdd": "read",
+  "5520010f3a63e115bf385fbae496672a70e9376107e9937d3892fe94592f88aa": "write",
+  "717dbfdacfa55f8edba8c18b2f6a12fcc5c9b2280b3fc941ef5c5375f4bd40a8": "write",
+  "7724939f81c74bdb81e2b91e55482b6cf6fc61fb9a0bb0eb45d335775faf38ff": "write"
+ },
+ "flags": []
+}

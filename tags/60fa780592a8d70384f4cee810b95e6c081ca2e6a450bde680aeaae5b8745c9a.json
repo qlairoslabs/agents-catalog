@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "60fa780592a8d70384f4cee810b95e6c081ca2e6a450bde680aeaae5b8745c9a",
+ "domain": [
+  "finance/tax",
+  "nonprofit"
+ ],
+ "product": [
+  "irs",
+  "990-tax"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Looks up US nonprofits in IRS records: exempt status, revocations, Form 990 financials, due dates, statistics and reject-code explanations.",
+ "whenToUse": "Use when researching a US nonprofit's status or finances or working out which 990 form and deadline apply.",
+ "tasks": [
+  "search nonprofits",
+  "get profile",
+  "check exempt status",
+  "determine 990 form",
+  "get filing due date",
+  "national stats",
+  "top nonprofit rankings",
+  "explain reject codes"
+ ],
+ "effects": {
+  "eadb65525cae1d70299532f63e36326505aa22dbdc9f0b242901f8f1904fd15d": "read",
+  "41844df71123ae382a0046431058764c14614cd7ca4954d4e92b4f60fe5a2328": "read",
+  "cdc00760ee394306958e3d33a6ffdef8bf897b3436398d3e33ade64de84b7982": "read",
+  "b4b99e852e81aadf3ccbc40c2735833142696567713446d06a199baa15ed2bf0": "read",
+  "599f9bef2b9fd3a98985cc6d7b4299717137e8442f1ba3d2bf5472b1dec3ccfa": "read",
+  "49230d0bc565313c5bd9d9bc98a58b97f7729c07493bf833ee2cad676e0e58ea": "read",
+  "353b9367ff1bab529bba9e3654882c3a240006a7f1182fd078ee8b30cb2b9823": "read",
+  "95e3f62b63690e075299326dd09e8e5df310d03c2281818127c4998abe12ecf4": "read"
+ },
+ "flags": []
+}

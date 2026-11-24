@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6a37f2e221d7480b8ee625b47ab002de22dd64e86edd63a09982a21104ad610a",
+ "domain": [
+  "web/agent-readiness",
+  "web/seo"
+ ],
+ "product": [
+  "myagi"
+ ],
+ "audience": [
+  "development",
+  "marketing"
+ ],
+ "goal": [
+  "be-online",
+  "understand-what-is-happening"
+ ],
+ "summary": "Scores how ready a website is for AI agents via the Open Agent Registry, plus platform info and a contact form.",
+ "whenToUse": "Use when you want to check a domain's AI-agent readiness score or learn about the Myagi platform.",
+ "tasks": [
+  "look up domain agent-readiness score",
+  "query platform info",
+  "submit contact inquiry"
+ ],
+ "effects": {
+  "884e56b18ab0a43c51bc0a4435c270b11eb67746f3ca30cb823489d932b5c9e4": "write",
+  "633e588b05e0728398b553c353e79f17575d93695d203d1a2073b2ca58704bb3": "write",
+  "5b4e798856041798cdbc970afaf4993d3465f6fab87e88740d1567e6a02b49c6": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "12709c001d9dab3d76429c77fc899fc8e3f28b2202f60e4f6384ae0f7cbd7e25",
+ "domain": [
+  "finance/crypto-payments",
+  "blockchain/solana"
+ ],
+ "product": [
+  "solana",
+  "usdc",
+  "x402"
+ ],
+ "audience": [
+  "finance",
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "run-the-money"
+ ],
+ "summary": "Private x402 payments on Solana: shield, pay and unshield USDC within spending caps you set.",
+ "whenToUse": "When an agent must make private USDC payments on Solana under user-defined limits.",
+ "tasks": [
+  "shield USDC",
+  "pay with x402",
+  "unshield USDC",
+  "set spending caps"
+ ],
+ "effects": {},
+ "flags": [
+  "moves-money"
+ ]
+}

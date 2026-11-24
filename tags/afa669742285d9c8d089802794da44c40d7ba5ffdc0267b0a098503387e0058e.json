@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "afa669742285d9c8d089802794da44c40d7ba5ffdc0267b0a098503387e0058e",
+ "domain": [
+  "business/field-service"
+ ],
+ "product": [
+  "fieldrobin"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Authenticated access to a FieldRobin workspace, including creating customers and jobs where scopes allow.",
+ "whenToUse": "Use when the user wants to manage customers and jobs in their FieldRobin workspace.",
+ "tasks": [
+  "create customers",
+  "create jobs",
+  "access workspace data"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "5b5ec150e529ee98cbe26eb93be219e9d4ee6b9ce5219a34f254ea7e3439d89a",
+ "domain": [
+  "finance/public-disclosures",
+  "government/transparency"
+ ],
+ "product": [
+  "potomacledger"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only search of disclosed stock trades by US Congress members and executive-branch officials, with potential conflict flags and aggregates.",
+ "whenToUse": "When a user researches trades by officials, by ticker, or potential conflicts of interest.",
+ "tasks": [
+  "search trades",
+  "get trades for a person",
+  "get activity for a ticker",
+  "list recent trades",
+  "list flagged conflicts",
+  "aggregate statistics"
+ ],
+ "effects": {
+  "1d034ef650c536aabddf8b207768ece2d7d18cfd88b79e95487a10898c228cec": "read",
+  "8d86f67595793654b4718634092222a213448860816d1e19911cdca010226766": "read",
+  "46cd54fdaf52d7b1fbe47d40a9654556a49a2a8d3be2ed91a561cfbdbab4ba01": "read",
+  "ecba4238be0069e0a5c5a7aed4f848928969523b324f7801b21171165e2fdbb6": "read",
+  "c278f71c28d22cd0c599df34656c7a5806f270b100bc8b960ce0c0333aa24fca": "read",
+  "105b3e306d6e7190d608fe15f9dadd7c264de6461b323c2a1d182bb589c69d5f": "read"
+ },
+ "flags": []
+}

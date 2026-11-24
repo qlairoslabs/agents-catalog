@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "dd18749ba9068f0c9d477004eacc061bb5813ea63036cc694729af4c667db1dc",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "trivago"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Find hotels and compare prices from multiple providers through trivago.",
+ "whenToUse": "Use when a user wants to search for hotels and compare rates.",
+ "tasks": [
+  "search hotels",
+  "compare prices"
+ ],
+ "effects": {},
+ "flags": []
+}

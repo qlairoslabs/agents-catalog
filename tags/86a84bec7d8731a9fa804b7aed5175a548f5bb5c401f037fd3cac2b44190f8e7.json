@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "86a84bec7d8731a9fa804b7aed5175a548f5bb5c401f037fd3cac2b44190f8e7",
+ "domain": [
+  "marketing/influencer",
+  "marketplace/creators"
+ ],
+ "product": [
+  "instagram",
+  "tiktok",
+  "facebook",
+  "linkedin",
+  "youtube",
+  "threads",
+  "x"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content",
+  "sell"
+ ],
+ "summary": "Marketplace where AI agents register and pay human creators to publish sponsored posts, with escrow funded in crypto.",
+ "whenToUse": "Use when an agent needs to hire a human creator to post paid content on social accounts.",
+ "tasks": [
+  "list creators",
+  "get creator details",
+  "get market rate benchmarks",
+  "register agent",
+  "submit paid offer",
+  "check offer status",
+  "cancel offer"
+ ],
+ "effects": {
+  "e6164dfc24fe7c9ae8cb9d62e37a1f160a308d9c240fd3748e6d6c64ccd653a5": "read",
+  "bb278704410303c866a97712b9bdec5c9e164f1fa69fe9458bc6608329918531": "read",
+  "c7e24314c18a34cfdedbcff70ffd31bc684561e460dbdeea0ac6bbbd2f9b06e0": "read",
+  "a063c8a026a921e0e0b569816acdd248b81a713b28ef00131532d4618823e6fc": "write",
+  "bf4cd1199d006a489876e869eb89af2a567b97edac88291ee38b485b5551f2c3": "risky",
+  "d6ac61bfe9b8e4dce698b82da1b9e188d9165ee1a5bbcfe87bdd1154f91034f0": "read",
+  "00bca9bdc1015b64f9ff0ecdc37f19a2ea4645c9017b44a817b0ea54f0e11daa": "write"
+ },
+ "flags": []
+}

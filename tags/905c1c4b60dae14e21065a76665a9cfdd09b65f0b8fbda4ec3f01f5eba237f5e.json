@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "905c1c4b60dae14e21065a76665a9cfdd09b65f0b8fbda4ec3f01f5eba237f5e",
+ "domain": [
+  "entertainment/cinema"
+ ],
+ "product": [
+  "multicines-ortega"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "sell"
+ ],
+ "summary": "Shows movie listings, showtimes and ticket links for Multicines Ortega in Puertollano, Spain.",
+ "whenToUse": "Use when someone asks what is playing or when at Multicines Ortega and wants a ticket link.",
+ "tasks": [
+  "list showtimes by day",
+  "search a movie by title",
+  "list cinemas",
+  "get ticket purchase links"
+ ],
+ "effects": {
+  "2a63796592d2a93b1066aa0e2929ebca7d32b039b1c92b5c9a191ef4625eab69": "write",
+  "b15f43937f88db1ed8f682802b84175500308672699b7c560ada2e559c8cb679": "read",
+  "03625db1901e8868111e78db959ef40d6924860462e926bd947698db6618023b": "read"
+ },
+ "flags": []
+}

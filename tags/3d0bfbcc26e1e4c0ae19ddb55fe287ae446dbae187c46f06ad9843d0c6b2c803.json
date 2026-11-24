@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "3d0bfbcc26e1e4c0ae19ddb55fe287ae446dbae187c46f06ad9843d0c6b2c803",
+ "domain": [
+  "marketing/ad-intelligence"
+ ],
+ "product": [
+  "meta",
+  "facebook"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Keyless demo of Meta Ad Library analysis limited to one advertiser, with estimated ad spend and top landing pages.",
+ "whenToUse": "Use to try out ad spend analysis on the single demo advertiser's Meta ads.",
+ "tasks": [
+  "list tracked brands",
+  "search brands",
+  "list brand ads",
+  "get ad details",
+  "get top ads stats",
+  "rank landing pages"
+ ],
+ "effects": {
+  "def7d0edefad0036fcb8d0935f371f2ee2ed0dc1c27af1392f4f58fbd33018f6": "read",
+  "748c87a1d85a8ac5111fd0763c65f301852c98d0cd546b413c0f8539d6ec8e8a": "read",
+  "7f6539a970b83712bfabe2656b20a332900e361e3a4b39620a552106cdc73a93": "read",
+  "69c5b82380c852c3702e51570b8d6507ab2942405b42128f7fe5e32dc7eb82c4": "read",
+  "ce6555d7d1606516633ea1f773923b4321d53340e653738de59b7984e95953e7": "read",
+  "5a57a9bd8ad996031ddae71a5894cbb567284fba0e63f268d6983d92f4400f89": "read",
+  "d3a402fd5c9c69b421a94e48dacd85edf9049b7bc40c01171bbc66bbd1cc9eaf": "write"
+ },
+ "flags": []
+}

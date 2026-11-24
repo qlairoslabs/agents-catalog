@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "04a1556e281223a7651d07375c3bc3e91afd4e61d7b85957abd494efb9fe9aa4",
+ "domain": [
+  "finance/savings-and-investment",
+  "finance/calculators"
+ ],
+ "product": [
+  "scoreinvest"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "get-customers"
+ ],
+ "summary": "French savings tools: regulated savings rates, compound interest and PFU tax calculators, product status, and a two-step callback request for a brokerage.",
+ "whenToUse": "Use when a user wants current French savings rates, simple investment calculations, or to request a callback from the broker.",
+ "tasks": [
+  "get Livret A, LDDS, LEP rates",
+  "simulate compound interest",
+  "calculate PFU tax",
+  "check product status",
+  "request callback",
+  "confirm or cancel action",
+  "search site content"
+ ],
+ "effects": {
+  "e43be70a6ce8a1628f59557ef1c2168ca352ef00b551ddddeaf44ef7851c8fbf": "write",
+  "5ee61f39168d71a1bb6b668cedd107a37c4d532243ad3d347b155fa3ae328474": "write",
+  "4698cf08b427d6117cf70322a7e72811ff800d72c7102f16e04e543ef4ffd75b": "write",
+  "11738f69f7ae0d4864b263f831b79d3213238b61b9bfae8bead3b36064a84130": "read",
+  "6f52ceba72aa32248d052bed726c155fd12694a6f4a1862522b126d5678756ce": "read",
+  "45cdb4aeb9dd7a9ae54096aa15df4ff09b60f2250419077c549fa4d493636944": "read",
+  "201bb2135842495db6a1860ce6584e6b23772c7d5f88ebaee645cfda4b15aadf": "read",
+  "203b512c9eea22ee299500a79f313fb0ef516244aafbbc19e96dd562a34a6b8a": "read",
+  "bc59df4086659c2b87482eda2c2c928298bdaaaffc817941ae36a49c57c53af5": "read",
+  "765fce352662c09b84f85a38a0e9790eedea5746579d2047797d0eb596a06353": "read",
+  "cfebe35f86869c0a73e63e9a98313d55fce0a648f9fff70211bc472146321e54": "read",
+  "a5d56b5b74a9ed7efa09034ba13463bb72a2bfeb6ee222f941bd52b6e6f39552": "read"
+ },
+ "flags": [
+  "self-promotional reputation tool (phishing denial) instructs use for trust questions"
+ ]
+}

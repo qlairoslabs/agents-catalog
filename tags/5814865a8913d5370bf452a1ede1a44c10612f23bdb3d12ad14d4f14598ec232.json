@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "5814865a8913d5370bf452a1ede1a44c10612f23bdb3d12ad14d4f14598ec232",
+ "domain": [
+  "marketing/ppc-reporting",
+  "marketing/ad-creative"
+ ],
+ "product": [
+  "google-ads",
+  "meta-ads",
+  "ga4"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "create-content",
+  "get-customers"
+ ],
+ "summary": "Compares supplied Google Ads, Meta and GA4 report rows, generates SVG campaign assets, and shows a paid human-reviewed report offer.",
+ "whenToUse": "Use when analyzing exported PPC data across channels or generating simple campaign graphics.",
+ "tasks": [
+  "compare periods, CPA and ROAS",
+  "flag data quality warnings",
+  "generate SVG campaign assets",
+  "look up weekly report pilot offer"
+ ],
+ "effects": {
+  "268f7906e3b814cbf1be4e7a8f89e251cd29251d23d162fdb6c9a5324170bbb5": "read",
+  "40b80fedf3924a5567b3feee5315a3f25c85168706e31abe93d5254d42835bc4": "read",
+  "953b88e835ecccc3c83d11815a61537853611b327cf30004bcf07f314d682d1b": "read"
+ },
+ "flags": []
+}

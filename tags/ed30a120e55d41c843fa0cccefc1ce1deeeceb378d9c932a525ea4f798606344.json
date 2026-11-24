@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "ed30a120e55d41c843fa0cccefc1ce1deeeceb378d9c932a525ea4f798606344",
+ "domain": [
+  "hiring/job-search",
+  "hiring/market-data"
+ ],
+ "product": [
+  "loker-dollar"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches worldwide-remote, USD-paid job listings with Indonesia eligibility flags, plus salary, skill and hiring-trend data.",
+ "whenToUse": "Use when helping someone, especially in Indonesia, find remote jobs or check remote-job market data.",
+ "tasks": [
+  "search remote jobs",
+  "get job details",
+  "list AI data-work platforms",
+  "get IDR salary benchmarks",
+  "get skill demand",
+  "get hiring trends",
+  "request commercial data access"
+ ],
+ "effects": {
+  "2bfaf95efb4559571d5a23d5ee2232741f6b3048096a3223464e41d7c8e43b0a": "read",
+  "f91bc91b8d01bfc3d29a1fe769634df31d51877d167018d6afb52cbfa8ce8c46": "read",
+  "b6c156019056da7e79326ac112da0b6022f4f2d0c6fc0c01dbe0274cc3739ef1": "read",
+  "53aa318edec62527ff97664bf26b8c0fcbed45dd850ae278c8fcb9303c522713": "read",
+  "ada39440f827e8b29cc3887df220bc1fecc91c5964a0fd06df6053bf1b3f8646": "read",
+  "3c5957e9a1da6f90ec45b67fff66a1fbf80bdaf1f5a76fb84f601df223a92b00": "read",
+  "96b75bd3f4b6858ba631ebbcb851973275425a68c48e0a3a9b76c3b0fa9b22e0": "write"
+ },
+ "flags": []
+}

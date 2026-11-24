@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "b9ddfec5397aea84721b11a07a795c459055f2b9464c70a6a327e9b3b8794748",
+ "domain": [
+  "retail/digital-goods",
+  "retail/product-catalog"
+ ],
+ "product": [
+  "kodshop"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Read-only catalogue of gift cards, service top-ups and travel eSIMs sold by KodShop.",
+ "whenToUse": "Use when a user wants to find gift cards, top-ups or eSIM plans and their prices.",
+ "tasks": [
+  "search catalogue",
+  "get product denominations and prices"
+ ],
+ "effects": {
+  "2dade5e4ab0bc55d74c2dd586dc9813defae6ca2df2d4a6b732791c555dcd62c": "write",
+  "4d8f64b08b71f31bcc2c75ce5e7e2489e23dd30fb212e48fb36305d63f8aa909": "write"
+ },
+ "flags": []
+}

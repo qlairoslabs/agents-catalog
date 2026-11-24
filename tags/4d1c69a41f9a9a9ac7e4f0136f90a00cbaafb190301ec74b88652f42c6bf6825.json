@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "4d1c69a41f9a9a9ac7e4f0136f90a00cbaafb190301ec74b88652f42c6bf6825",
+ "domain": [
+  "travel/flights"
+ ],
+ "product": [],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Gives the cheapest observed one-way fare, six-month low and best departure date for a city pair, from cached snapshots.",
+ "whenToUse": "Use when a user asks about cheap flights or the best date to fly between two cities.",
+ "tasks": [
+  "find cheapest fare",
+  "list cheap routes from origin",
+  "resolve city to IATA code"
+ ],
+ "effects": {
+  "311effc532189bd6283ed731bd043d1fed32f15f6ba5fc20440e16d87c9da35f": "read",
+  "4cfa78eac87c16f5916dbae5e15f3b23ec4467828e1caea5743b564b68225e85": "read",
+  "80cda4f05085088d567b8df44bb8f5baf1bac538b0e97e96bd8c12f23e9ba1dc": "read"
+ },
+ "flags": []
+}

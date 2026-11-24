@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "3361ab8b75555be85731da0132de2ca34d6f5c17d85328a1c624f53e3fe5e79c",
+ "domain": [
+  "business/company-data",
+  "government/registers"
+ ],
+ "product": [
+  "kbo",
+  "nbb",
+  "staatsblad"
+ ],
+ "audience": [
+  "finance",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers",
+  "stay-compliant"
+ ],
+ "summary": "Provides Belgian company data from official registers: KBO, NBB annual accounts and the Staatsblad.",
+ "whenToUse": "Use when you need to look up Belgian companies, their annual accounts or official publications.",
+ "tasks": [
+  "look up company registry data",
+  "read annual accounts",
+  "find official gazette publications"
+ ],
+ "effects": {},
+ "flags": []
+}

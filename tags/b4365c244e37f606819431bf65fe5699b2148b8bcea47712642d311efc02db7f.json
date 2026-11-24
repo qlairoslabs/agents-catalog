@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "b4365c244e37f606819431bf65fe5699b2148b8bcea47712642d311efc02db7f",
+ "domain": [
+  "software/plugin-registry"
+ ],
+ "product": [
+  "deepseek"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "stay-compliant"
+ ],
+ "summary": "Read-only MCP server exposing the certification registry for DeepSeek Harness plugins.",
+ "whenToUse": "When an agent needs to check the certification status of a DeepSeek Harness plugin.",
+ "tasks": [
+  "look up plugin certification"
+ ],
+ "effects": {},
+ "flags": []
+}

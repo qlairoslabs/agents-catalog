@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "5a9ffddeef85bc2493184a30f4e2a12f2753cb52f5134135e74285c2aa24d091",
+ "domain": [
+  "content/memes"
+ ],
+ "product": [
+  "memecub"
+ ],
+ "audience": [
+  "marketing",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Searches a meme and Chinese sticker library, places images into articles and generates custom AI memes using credits.",
+ "whenToUse": "Use when you need reaction images for an article or want to find or generate a meme.",
+ "tasks": [
+  "search memes",
+  "get meme license details",
+  "auto-place images in an article",
+  "generate an AI meme",
+  "list categories"
+ ],
+ "effects": {
+  "5298d3e0e10c80c638e6dca88bb30f475a9fac16b28e1b27aceb3801fe681d65": "read",
+  "cf0210b6f7afbbaf457805bde98189efd3ad275d7204438c8de98d2ac99bfa3a": "read",
+  "8e6193b7d45fddb8c5403709d82402287227934e660ca01637650dbb9011e133": "write",
+  "0c06873266a4ef3ee03080b803304ab3caa822a9247cad6ce2f6c5bdba3f6506": "write",
+  "58ebaf17564fece75cacdef307c737fda7ef38d3d07b5db329d27ff575e9ef15": "read"
+ },
+ "flags": []
+}

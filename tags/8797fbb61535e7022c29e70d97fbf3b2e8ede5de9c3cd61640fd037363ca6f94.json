@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "8797fbb61535e7022c29e70d97fbf3b2e8ede5de9c3cd61640fd037363ca6f94",
+ "domain": [
+  "marketplace/contractors",
+  "construction"
+ ],
+ "product": [
+  "contractors-near-me"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Directory of US contractors with search, profiles, reviews, availability, bid invitations and marketplace requests.",
+ "whenToUse": "Use when finding a licensed contractor, reading their reviews, or browsing open bid invitations and requests.",
+ "tasks": [
+  "search contractors",
+  "get contractor profile",
+  "get reviews",
+  "list trades",
+  "search bid invitations",
+  "get availability",
+  "list marketplace requests",
+  "build badge snippet"
+ ],
+ "effects": {
+  "bcf9190b9ccfb11b0125ba8deddcca87b85719a60785d7f4957f4ecf0bb2a1aa": "read",
+  "3e1f56d759074f18cd0e4ad07f0e30772beceddcd6025a7db6088b08a77da8c3": "read",
+  "123ecf82ae1d4a028d998abff861b6da5c5e57d198320a4552fed4f4e38ff48a": "read",
+  "8fda87911bb7dad128e2b3ac950283af07a05e3b17cb9037ce067cea29a3a73a": "read",
+  "a2465dbd9cbe2b67f50942b7629fd45d6eacea0f8ede2a3656834b238110332f": "read",
+  "4ad0ad2e1a5b41be8631fce81fd8aa757df6b1837221e6c2f795b9cb98cfa379": "read",
+  "b4a45ff4b7fba8b095f88dc5dfda47124aaa5f7b0d564924601761c5489c8790": "read",
+  "67814fc1daf635bc919fdb8dffc69c434abc50252a24b181be2dbb305209f668": "read",
+  "8e8cdb25c72df36703ddd35cf200f6b61aff61b81fb3c7576f95e4e20d015570": "read",
+  "f1cf295f290796c280051804f58465ad858275d0730e4a50d055da255c785d1c": "read"
+ },
+ "flags": []
+}

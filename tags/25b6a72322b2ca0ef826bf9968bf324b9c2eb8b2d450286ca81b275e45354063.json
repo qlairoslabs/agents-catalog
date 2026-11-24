@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "25b6a72322b2ca0ef826bf9968bf324b9c2eb8b2d450286ca81b275e45354063",
+ "domain": [
+  "software/cloud-infrastructure"
+ ],
+ "product": [],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "build-software",
+  "run-the-money"
+ ],
+ "summary": "Simulates cloud infrastructure and estimates cost before deploying or changing it.",
+ "whenToUse": "Use when planning an infrastructure change and wanting a simulation and cost estimate first.",
+ "tasks": [
+  "simulate infrastructure",
+  "estimate cost"
+ ],
+ "effects": {},
+ "flags": []
+}

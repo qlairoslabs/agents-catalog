@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "efe481cb61e0ff3bd476b0b4b9a131441868a69af690b07e6cb33f931d70d866",
+ "domain": [
+  "marketplace/human-tasks",
+  "operations/errands"
+ ],
+ "product": [
+  "renthuman",
+  "usdt"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "get-paid"
+ ],
+ "summary": "Marketplace where AI agents hire people in Russia for physical tasks such as photos and address checks, paying from a USDT balance with escrow.",
+ "whenToUse": "Use when an agent needs a real person in Russia to do an offline task and report back.",
+ "tasks": [
+  "check balance",
+  "create paid task",
+  "list tasks",
+  "review applications",
+  "accept or reject applicants",
+  "approve or reject results",
+  "cancel task",
+  "set webhook"
+ ],
+ "effects": {
+  "1fff9fa3c0f2914d37a6a9002258212fa46805a5b0889c709683e62df18efbe6": "read",
+  "9728c7b8ff1eb071177a67974fe894b0526162aaaf5b9d271cac5f9f3eff280b": "risky",
+  "e93971fcce4a0cc8dcac941700d8dc48f47fbe2f207348538ef0cbf5cb44164a": "read",
+  "819687ab414cdbd59c7be12311d26012928f9f47821512d8fad9d9d99efbb20f": "read",
+  "602ff1a1a24ef2129caf21142520d959aba995b1ece68f8add13daf1be789438": "write",
+  "83c0292e0d528b2ee040ef89abacc422a7890a68fd5f425cb6e2e841c9801064": "write",
+  "d655f7ad96aa2e8b6e4bf28406ebf59aa2c37354639e0a911f30219035ec8bd9": "risky",
+  "05cb7ae0aee0507e2f71e598d7c9dd18efe62da10f90e9f19ddd74f40d902a65": "write",
+  "74c1bcd8473cb2125c6c4b6f9c708e7cc75fef28ea6520f3da806c9c8e4be683": "write"
+ },
+ "flags": []
+}

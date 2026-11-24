@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "a049a9a6b55f33b68810527a83190c53731e28ea267779fce35ac9eefd617313",
+ "domain": [
+  "design/diagramming"
+ ],
+ "product": [
+  "draw-io",
+  "mermaid",
+  "plantuml"
+ ],
+ "audience": [
+  "development",
+  "design",
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "work-as-a-team"
+ ],
+ "summary": "Turns Mermaid, PlantUML, CSV or draw.io XML into editable draw.io diagrams, with a shape library search.",
+ "whenToUse": "Use when the user wants a flowchart, architecture, UML or other diagram created as an editable draw.io file.",
+ "tasks": [
+  "create diagrams from XML",
+  "convert Mermaid",
+  "convert PlantUML",
+  "convert CSV",
+  "create quick semantic diagrams",
+  "search shapes",
+  "read format reference"
+ ],
+ "effects": {
+  "5b7dd12429a2d411d1295d5c72785223aed226fe25e155f09c7ffe3d9e76ad68": "write",
+  "dc99b9bba3b003366431beefd992cce743fc85be3ae62f4f5b493cf7f649fd34": "write",
+  "622cedac68044be49397a68392b26d780aea572a29db8a201f08401bd5e28f7c": "write",
+  "274389d4da493395fdc3637a1a9588299c3d41e82f719dfbdc9151d9d0929747": "read"
+ },
+ "flags": []
+}

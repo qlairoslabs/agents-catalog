@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "0caa05f195a1df0d0f0f1ac915d6d6ee4976358314fc4083ba195c4e1d0eb1bb",
+ "domain": [
+  "lifestyle/events",
+  "entertainment"
+ ],
+ "product": [
+  "spontanno"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches concerts, theatre, standup and other events in Russian cities, picks a random event, shows details and saves shareable shortlists.",
+ "whenToUse": "Use when a user wants ideas for things to attend in a Russian city or a surprise pick for an evening.",
+ "tasks": [
+  "search events",
+  "filter by date, price and category",
+  "random event pick",
+  "get event details",
+  "list covered cities",
+  "create shareable shortlist"
+ ],
+ "effects": {
+  "5f29447e990d33558a3473adec73ffd8012ecf7030da18a3e441f52545d1a9a1": "write",
+  "5fcca078aff6e539788c46428ab1a95bc524c4faabd28a3394e7fe8624ef572c": "write",
+  "95bf4625636f10d9bdf237a64bc45da0f13608698b9cbd58ac9edd0b2f56a1d4": "read",
+  "43390de2ca6e32cc5050086def16d91faa3c0a5bff8d00efc32fb3fe8b18790c": "read",
+  "83a12e3aec6e194ee6100143d2c7effcb64fb4a7bf5694fb9f5a3607257e4939": "write"
+ },
+ "flags": []
+}

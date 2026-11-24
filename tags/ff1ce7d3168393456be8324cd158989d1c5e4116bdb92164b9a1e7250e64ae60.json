@@ -1,0 +1,44 @@
+{
+ "classifier": 2,
+ "contentHash": "ff1ce7d3168393456be8324cd158989d1c5e4116bdb92164b9a1e7250e64ae60",
+ "domain": [
+  "marketplace/secondhand",
+  "local/yard-sales"
+ ],
+ "product": [
+  "finda-sale"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Search public yard sales, estate sales, auctions and flea markets, and the items listed in them.",
+ "whenToUse": "Use when a user wants to find local sales or a specific secondhand item for sale.",
+ "tasks": [
+  "search sales",
+  "get sale details",
+  "search items",
+  "get item details",
+  "list cities",
+  "list sale types",
+  "list categories",
+  "find trending sales",
+  "find sales starting soon"
+ ],
+ "effects": {
+  "9bbf758538db0489c464f78bb7f88bba9791375358eba10ce40e009bdf578464": "read",
+  "8e4aa3d5609457307a25f27e42450ea15e99424a1570e1c1d98ea67f7756d42f": "read",
+  "0be3ae34df42005f4cac586e8d291944989dbdcef0319a7de05525dbca33eb32": "read",
+  "64e6f66935aa16329744fffd6df641a1d8fea980ed7847c46bb8f891dae4a18e": "read",
+  "eb16f5bf73b5b01c23cca01cc05c3fa454c46d86eb928ba0d25f7aeaee6c4d5a": "read",
+  "35a47dde6eecfbd67902ea5761954967028c8235d0bbab96ee2076b512d4900d": "read",
+  "def01b169ed57304b23cd307c3febeb6f97449a59feb70195e3e3de05f9186e2": "read",
+  "0eb2e5708b9cc437e429471dcd34ecf2a3698d7a2a48ddeb1191934a95abca98": "read",
+  "e86e3a81ca77507b0ac4723de2f20b1603f5553487f06f29eb5b9bd89703c433": "read",
+  "5d7dac805165dcbc8ba233dac709398f6f83d67ed970cd98d07371d004028b01": "read"
+ },
+ "flags": []
+}

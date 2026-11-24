@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "b202a2749923bbb6463075834e89125e290d99860f0b8d1dec3ff5b05e5893ad",
+ "domain": [
+  "media/video",
+  "marketing/social-media"
+ ],
+ "product": [
+  "instagram",
+  "tiktok",
+  "youtube",
+  "facebook",
+  "linkedin",
+  "x",
+  "pinterest",
+  "discord"
+ ],
+ "audience": [
+  "marketing",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Calculators and reference data for social media frame sizes and safe areas, aspect ratios, video bitrate, subtitle conversion and tempo.",
+ "whenToUse": "Use when preparing video or images for a social platform and you need frame sizes, safe areas, crop plans, bitrate budgets, subtitle conversion or tempo math.",
+ "tasks": [
+  "look up placement frame size and safe area",
+  "list social media placements",
+  "check element against safe area",
+  "calculate aspect ratio and crop plan",
+  "estimate video bitrate and file size",
+  "convert srt and vtt subtitles",
+  "estimate tempo and delay times"
+ ],
+ "effects": {
+  "4bc41d2321040fcc62524ed1be87182b6f826f93855c80d57a82bef26fba1f99": "write",
+  "6e8e2a9a141319483fe9d534825e362697ea9ce1f1f93d9a05ce8ec10f6f6404": "read",
+  "e75705790a3d3269e4a3f13c4a4233443276233afbe95591e71a808630a64975": "read",
+  "8c31dd1f684bb308584582ddcd9f0071f5c485e82852e91b4add45232ae564d2": "read",
+  "dcbb36119998c4e5ebe97c853c518b58616707f568aa77fc97e216e7aaf4ba37": "read",
+  "2d0dd5e662c99bd00f515b2dca4e05ddeb9014b149a19ff6135c70fd9fc0398d": "read",
+  "90ce632e7716f8c3d6080a5d848a4589c9401bc620b282a17e737c44f52abf60": "read"
+ },
+ "flags": []
+}

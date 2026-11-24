@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "471232ffb1a4d3f78c8ce151abb5f31feae9269102660bd50a47e57d74aec4f5",
+ "domain": [
+  "retail/gift-registry",
+  "family/baby"
+ ],
+ "product": [
+  "ptipanda"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "sell"
+ ],
+ "summary": "Browses baby gift ideas from French shops and prepares a link for a parent to create a birth registry with the chosen items.",
+ "whenToUse": "Use when helping a parent pick baby items and set up a birth gift list on ptipanda.fr.",
+ "tasks": [
+  "list catalogue sections",
+  "search gift ideas by budget",
+  "prepare registry link"
+ ],
+ "effects": {
+  "d5abcde7199fb6d5f194cef4117b5517af5d7403fed2e98795feeceae548bb0c": "read",
+  "29862260b546db54b41fed219e17c63b5b3b05a3adb710129f2ba75adfdd17e3": "read",
+  "2e55764c2316b205bb98894898b06e28f17260c8aeb0b4b0391aa08edd886add": "write"
+ },
+ "flags": []
+}

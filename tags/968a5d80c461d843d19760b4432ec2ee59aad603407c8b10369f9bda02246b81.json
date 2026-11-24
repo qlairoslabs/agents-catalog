@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "968a5d80c461d843d19760b4432ec2ee59aad603407c8b10369f9bda02246b81",
+ "domain": [
+  "commerce/research-chemicals",
+  "commerce/ordering"
+ ],
+ "product": [
+  "remy-research"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Search a UAE research-use-only peptide catalogue, price baskets in AED and build checkout links for buyer review; it submits no orders.",
+ "whenToUse": "Use when a buyer in the UAE wants to look up research-use-only products, get an AED quote or a checkout link.",
+ "tasks": [
+  "search products",
+  "quote basket",
+  "prepare checkout link with prefill"
+ ],
+ "effects": {
+  "520edfdc5bbb30a87dd6629a90cbbfcd1267f196a4d0dbe38ddd3cf2ba90679a": "read",
+  "65784ae01b966eae3a730099dac7c7ef37774937b320094e1c81a9035c80ad80": "write",
+  "192548d968fec3229e3b66429731385540ee2040951da50bf136952128ba1c8c": "write"
+ },
+ "flags": []
+}

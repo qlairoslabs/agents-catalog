@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "69d0b346682f9e9357a25ccee9805443530ed714044de583e8450eb97828caed",
+ "domain": [
+  "finance/trading",
+  "crypto"
+ ],
+ "product": [
+  "openfinance"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Trading access for AI agents across crypto, perps, stocks, prediction markets, forex and memecoins.",
+ "whenToUse": "Use when an agent needs to trade or query markets through OpenFinance.",
+ "tasks": [
+  "trade crypto",
+  "trade perps",
+  "trade stocks",
+  "prediction markets",
+  "forex"
+ ],
+ "effects": {},
+ "flags": []
+}

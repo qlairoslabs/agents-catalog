@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "b14f75cfa4e98f8565421c245395e2f1d8b345c9b08d98552a4da20af483f12d",
+ "domain": [
+  "events/ticketing"
+ ],
+ "product": [
+  "biletyna"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Searches events on Biletyna.pl, lists performance dates and returns venue, price, free places and purchase links.",
+ "whenToUse": "Use when a user wants concerts, theatre or shows in Poland and ticket links.",
+ "tasks": [
+  "search events",
+  "list performances of a title",
+  "get event details",
+  "get title details"
+ ],
+ "effects": {
+  "b4aa46c07df662ca3fd0b943db7d1652d12071750e659e22b8df40e78a61f171": "read",
+  "4dfe2131e144010bf61c38807f3094e53a18dba2e31c6fce482bcf27d421641e": "write",
+  "1e8cf914bdaf3166891b9cf4ae7a58ce3f913859704810e6d60eee8f268b4943": "read",
+  "cf21ce945ee68427deb4fd86fc54c349b67fd77a0ff4ca8b3ff9d51e6aacf93a": "read"
+ },
+ "flags": []
+}

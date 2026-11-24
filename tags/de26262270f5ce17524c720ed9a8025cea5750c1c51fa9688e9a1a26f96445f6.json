@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "de26262270f5ce17524c720ed9a8025cea5750c1c51fa9688e9a1a26f96445f6",
+ "domain": [
+  "finance/market-data"
+ ],
+ "product": [
+  "metaltakip"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Turkish-language historical data on gold, currencies, commodities, minimum wage and inflation, plus search of the site's analysis articles.",
+ "whenToUse": "Use when you need Turkish gold, FX, commodity, minimum-wage or inflation history.",
+ "tasks": [
+  "search analysis articles",
+  "fetch an article",
+  "get yearly gold prices",
+  "get minimum wage by year",
+  "get yearly FX rates",
+  "calculate inflation",
+  "get commodity prices",
+  "get country gold prices",
+  "find data pages"
+ ],
+ "effects": {
+  "1f353a8fb17cde0726b548fde98b1ddc372d418bc3e5ed325716a12f51dd1eae": "read",
+  "7b7fbe22773306170b71bd0e60a29d3028824fa1dadc919fdb56acb521dbf9c3": "read",
+  "4ab181da3fe03ef09a84f5789a37a7542e88abe85a6a12e137e50f888c0f9237": "read",
+  "f9db7210ac156ce6f3121ebf469489667672fac04d36479af0ef151c5da97295": "read",
+  "3613693980cd05dfdae1e336eee6af47fcef914fb8f9d4be4a4c454b1af1e500": "read",
+  "e286aca68b5f2b09547ebc8869dddd57fdfef2e16f40bb3541af0e5dcfbcadd6": "read",
+  "b8ce6374afc4dec871a7e513f8ab945f6174679c43ae143373940a6681fa5c2d": "read",
+  "cd21bb1101a475a57b8aca9a129ce1947447ae0f99c1a071f26d80a975548f15": "read",
+  "49026c68bd34f5ce25846090f0bc67610749c0a5c29f32a83dc98dc16fc97e21": "read"
+ },
+ "flags": []
+}

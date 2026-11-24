@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f49120f75912401c5aee76d98958cc28ea4fff0f136f116789797ece2432731d",
+ "domain": [
+  "productivity/spreadsheets"
+ ],
+ "product": [
+  "sheetdb",
+  "google-sheets"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Reads and writes Google Sheets rows through SheetDB APIs, with per-API agent permissions and approval for deletes.",
+ "whenToUse": "Use when an agent needs to read or update spreadsheet data stored in Google Sheets.",
+ "tasks": [
+  "read rows",
+  "write rows",
+  "update rows",
+  "delete rows with approval"
+ ],
+ "effects": {},
+ "flags": []
+}

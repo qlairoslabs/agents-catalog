@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c68a8efe3755ded5bc912cfc8713b212abcf34a3e29784bc013b1b614a599f5b",
+ "domain": [
+  "productivity/task-management"
+ ],
+ "product": [
+  "tasks"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "work-as-a-team"
+ ],
+ "summary": "Reads and edits Tasks boards: creates and updates tasks, adds comments and tracks time.",
+ "whenToUse": "Use when an agent should manage tasks, comments or time tracking on Tasks boards.",
+ "tasks": [
+  "create tasks",
+  "update tasks",
+  "comment",
+  "track time"
+ ],
+ "effects": {},
+ "flags": []
+}

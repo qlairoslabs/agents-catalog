@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "0d56ed88ade50fe32e2ecc5b2ad42bd882ff7fda47a18ad821db7af99cc0c884",
+ "domain": [
+  "shopping/tobacco",
+  "retail/catalog"
+ ],
+ "product": [
+  "neptune-cigars",
+  "cigar-scanner"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches premium cigars with community ratings, live stock and price, similar lines and US state shipping rules.",
+ "whenToUse": "Use when helping an adult find cigars, check what is in stock or confirm shipping to a US state.",
+ "tasks": [
+  "search cigar lines",
+  "get line details",
+  "search products in stock",
+  "check state shipping",
+  "find similar cigars"
+ ],
+ "effects": {
+  "7059ea0bb5981c882e183092471d71c28d4526aaed28dca4215864b12f0f87b4": "read",
+  "f733a8e97349e2be747adce5990cb8075627b7909b0274b3561378f057c875c0": "read",
+  "585b325bb7d40f1eaf7c3f61bdd8e555bd455fd857c856df1048875488d439e3": "read",
+  "c9fed39cb2e728f6f09033144229a8ee67d462906f147842f97dce056fa43df0": "read",
+  "a3cc590b64bab5a0275fff169e964c0f55abdf589fdbfac57a76dfc16a7a0295": "read"
+ },
+ "flags": []
+}

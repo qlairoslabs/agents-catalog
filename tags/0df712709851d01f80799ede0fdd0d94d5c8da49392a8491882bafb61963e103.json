@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0df712709851d01f80799ede0fdd0d94d5c8da49392a8491882bafb61963e103",
+ "domain": [
+  "productivity/knowledge-management"
+ ],
+ "product": [
+  "scuba"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work",
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches saved Captures and Collections in Scuba and saves new findings back to it.",
+ "whenToUse": "Use when an agent should recall saved items from Scuba or store useful findings there.",
+ "tasks": [
+  "search captures",
+  "search collections",
+  "save findings"
+ ],
+ "effects": {},
+ "flags": []
+}

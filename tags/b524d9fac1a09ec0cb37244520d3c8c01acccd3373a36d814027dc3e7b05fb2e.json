@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "b524d9fac1a09ec0cb37244520d3c8c01acccd3373a36d814027dc3e7b05fb2e",
+ "domain": [
+  "data/web-data",
+  "marketing/research"
+ ],
+ "product": [
+  "google",
+  "chatgpt",
+  "gemini",
+  "youtube",
+  "amazon",
+  "reddit",
+  "tiktok"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "development"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "get-customers"
+ ],
+ "summary": "Returns structured web data from 98 platforms including Google, ChatGPT, Gemini, YouTube, Amazon, Reddit and TikTok.",
+ "whenToUse": "When an agent needs structured search or platform data from major websites.",
+ "tasks": [
+  "search Google",
+  "query platform data",
+  "get YouTube data",
+  "get Amazon data",
+  "get Reddit data"
+ ],
+ "effects": {},
+ "flags": []
+}

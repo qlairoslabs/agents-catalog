@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "0e7fcbf3e0df3f9af79483fc05f08ebf42e14d64685a47936ee2c38bef2f93f0",
+ "domain": [
+  "shopping/local-marketplace",
+  "local/directory"
+ ],
+ "product": [
+  "moonoh"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches marketplace and local shop listings in NYC and northern NJ, with price reports and a Manhattan church directory.",
+ "whenToUse": "Use when looking for second-hand or local items in NYC/NJ or finding Manhattan Protestant churches.",
+ "tasks": [
+  "search marketplace listings",
+  "get item details",
+  "get price reports",
+  "search churches",
+  "get church details"
+ ],
+ "effects": {
+  "433c29436804d927b61ccbbd62115af398e8a318fcb77b942472a086ffebd526": "read",
+  "98cf98fcf54874fcc100507acb21396f02261a474e07c90de62899a40793492d": "read",
+  "ab77307e844a2b77a74a25a8fe4e370f62c1f0473b2a21002c0e3f847d4f2891": "read",
+  "84f8ff9440c3a0633ba434a21fb71a8ae11eea883cd31a20ce3adbf6b8e13ec1": "read",
+  "cdb48f525d2673423207cc9a3ec9c88c78cbbf6344df4339cb071eeb430f66ef": "read"
+ },
+ "flags": []
+}

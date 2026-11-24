@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "144dfb92b071c59e2de0be7750caa69bf31eebc974306f66e463e8164928e3e5",
+ "domain": [
+  "food-and-drink/venue-directory"
+ ],
+ "product": [
+  "nabarfinder"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Verified directory of non-alcoholic bars with city listings, venue records and verified NA drink menus.",
+ "whenToUse": "Use when finding bars with strong non-alcoholic drink programs or venues serving a specific NA drink.",
+ "tasks": [
+  "search venues",
+  "get a venue record",
+  "list covered cities",
+  "find venues by drink",
+  "get a venue's NA menu"
+ ],
+ "effects": {
+  "2ab9884497b7e680e5c1bd7a8f82dec1d77183fa04b8bede7b9ba38657fddf0f": "write",
+  "d0a1ee1db742dbe83d86a85a64b02241423799e901372ffef91951f35ca8b09a": "read",
+  "c7a094dcc36310d8cf7741748a473d5fba88e5ae51c435a9545572d3bc24b78d": "read",
+  "3cdfcc14e6c3bcf9333db8bba069a06b91ba11b21478a84f4b8da057d1da6e70": "write",
+  "acaf0684e6893dd0f4061cd4224d28d6faf80dc44b93a3fd69a6bbb39f556455": "read"
+ },
+ "flags": []
+}

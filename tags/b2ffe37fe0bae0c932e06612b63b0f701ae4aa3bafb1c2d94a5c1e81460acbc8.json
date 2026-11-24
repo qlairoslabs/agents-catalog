@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "b2ffe37fe0bae0c932e06612b63b0f701ae4aa3bafb1c2d94a5c1e81460acbc8",
+ "domain": [
+  "health/wellbeing",
+  "marketplace/bookings"
+ ],
+ "product": [
+  "sissoo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Finds bookable wellbeing sessions such as therapy, coaching and massage with independent practitioners on Sissoo, with prices, free times and booking links.",
+ "whenToUse": "Use when a person wants to find and compare therapy, counselling or wellbeing sessions and see available times.",
+ "tasks": [
+  "search sessions",
+  "get session details",
+  "list next free times",
+  "view practitioner profile",
+  "answer help centre questions"
+ ],
+ "effects": {
+  "a4561a77676d24fceb607e001fa2d2e6a9c08d2f45a73e3f63e88617481ffaa5": "write",
+  "23bb00e958471634019c944bb4a3e78596a63651fa7f7e51772da9a5ecff9113": "write",
+  "06f889f550cace9351934f9f1264c78977b466b5c8c729cd7caa60892a60ee2d": "write",
+  "9008255b6705b26fc8184294e8f32b1f81ddebd10d0109488bfb22d2349e3df2": "write",
+  "c891d46d41a7f6b555d46c5d479f77dd268bfc2dc0c6afb805ac6eb95efbebc5": "write"
+ },
+ "flags": []
+}

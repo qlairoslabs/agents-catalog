@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "b4d7e8273b0eeb86b136a7f89f00721fcf7de7fdd8e3b5204f48317ae9663b92",
+ "domain": [
+  "software/code-analysis",
+  "software/dependency-mapping"
+ ],
+ "product": [
+  "kuuhaku"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers cross-repo questions such as who calls a route, what a change breaks, or who reads a field.",
+ "whenToUse": "Use when assessing the impact of a code change across multiple repositories.",
+ "tasks": [
+  "find route callers",
+  "assess change impact",
+  "find field readers"
+ ],
+ "effects": {},
+ "flags": []
+}

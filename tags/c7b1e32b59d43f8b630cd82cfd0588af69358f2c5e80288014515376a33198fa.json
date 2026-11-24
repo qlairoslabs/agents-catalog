@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c7b1e32b59d43f8b630cd82cfd0588af69358f2c5e80288014515376a33198fa",
+ "domain": [
+  "finance/crypto-data"
+ ],
+ "product": [],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Local npm server giving crypto derivatives data: funding rates, open interest, liquidations, options and ETF flows.",
+ "whenToUse": "Use when analysing crypto derivatives markets and you have an account key.",
+ "tasks": [
+  "get funding rates",
+  "get open interest",
+  "get liquidations",
+  "get options data",
+  "get ETF flows"
+ ],
+ "effects": {},
+ "flags": []
+}

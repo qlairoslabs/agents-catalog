@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "b64c26035559ed7aafdd68e4a49f87d7c2ca201f34057ac99e7a61c208081f36",
+ "domain": [
+  "ai/model-inference",
+  "media/generation"
+ ],
+ "product": [
+  "relay"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Run Relay-hosted image, video, audio and LLM models, poll tasks, upload files and search Relay documentation.",
+ "whenToUse": "Use when you need to run generative models on Relay or check task status and docs.",
+ "tasks": [
+  "run models",
+  "poll tasks",
+  "upload files",
+  "search docs"
+ ],
+ "effects": {},
+ "flags": []
+}

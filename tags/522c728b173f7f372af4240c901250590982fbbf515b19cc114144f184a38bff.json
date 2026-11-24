@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "522c728b173f7f372af4240c901250590982fbbf515b19cc114144f184a38bff",
+ "domain": [
+  "design/image-generation"
+ ],
+ "product": [
+  "banana-art-lab",
+  "gpt-image",
+  "nano-banana"
+ ],
+ "audience": [
+  "design",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Generates images with several AI models and places them on a Banana Art Lab canvas.",
+ "whenToUse": "Use when a user wants AI-generated images placed on a Banana Art Lab canvas.",
+ "tasks": [
+  "generate images",
+  "place images on canvas"
+ ],
+ "effects": {},
+ "flags": []
+}

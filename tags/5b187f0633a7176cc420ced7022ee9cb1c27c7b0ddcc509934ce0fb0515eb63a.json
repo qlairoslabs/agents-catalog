@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "5b187f0633a7176cc420ced7022ee9cb1c27c7b0ddcc509934ce0fb0515eb63a",
+ "domain": [
+  "productivity/ai-workspace"
+ ],
+ "product": [
+  "octopad",
+  "chatgpt",
+  "claude"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "work-as-a-team",
+  "build-software"
+ ],
+ "summary": "Shared workspace and method that lets ChatGPT, Claude and other AIs work from the same context.",
+ "whenToUse": "Use when several AI assistants should share one workspace and working method for building.",
+ "tasks": [
+  "share workspace across AIs",
+  "apply common method"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "a5a6a1c0f9e6653ede97bde45409ac24789258065fd5ed781bf2230b860cc9da",
+ "domain": [
+  "software/consulting"
+ ],
+ "product": [
+  "rsolution"
+ ],
+ "audience": [
+  "operations",
+  "development"
+ ],
+ "goal": [
+  "get-customers",
+  "build-software"
+ ],
+ "summary": "Provides a Czech internal-systems developer's services, price ranges and availability, and sends an inquiry message.",
+ "whenToUse": "Use when a user wants to hire a Czech developer for internal systems or ask about their rates.",
+ "tasks": [
+  "check availability",
+  "view services",
+  "view price list",
+  "send inquiry"
+ ],
+ "effects": {
+  "b2505943c3f85284b9bf128b2f4eb73a6a2640c7d6d9c11ad41b5147459a77af": "read",
+  "f08ae6a03eaa3626d7039cddf19bd5c0c5df8d6e137891cb0bde384ca1df696f": "write",
+  "9bb689ffc5541bcff26a6b2c31b851f0787a18bbad44615789bd17d5a4c583f5": "read",
+  "eba930506f527d3b70a3874b7961372aafba1fa9751a549d1a03f461f1b5c4b0": "read"
+ },
+ "flags": []
+}

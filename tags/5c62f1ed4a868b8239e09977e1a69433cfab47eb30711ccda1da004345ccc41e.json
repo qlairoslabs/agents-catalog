@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "5c62f1ed4a868b8239e09977e1a69433cfab47eb30711ccda1da004345ccc41e",
+ "domain": [
+  "software/version-control",
+  "software/devops"
+ ],
+ "product": [
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "work-as-a-team",
+  "automate-work"
+ ],
+ "summary": "Operate GitHub from an AI assistant: repositories, pull requests, issues and Actions, with previews and a read-only mode.",
+ "whenToUse": "Use when you need to manage GitHub repos, PRs, issues or Actions workflows.",
+ "tasks": [
+  "manage repositories",
+  "manage pull requests",
+  "manage issues",
+  "manage Actions",
+  "preview changes",
+  "read-only mode"
+ ],
+ "effects": {},
+ "flags": []
+}

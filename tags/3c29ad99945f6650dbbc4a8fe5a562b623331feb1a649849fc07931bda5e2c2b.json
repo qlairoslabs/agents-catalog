@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3c29ad99945f6650dbbc4a8fe5a562b623331feb1a649849fc07931bda5e2c2b",
+ "domain": [
+  "finance/banking",
+  "finance/personal-finance"
+ ],
+ "product": [
+  "truo"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Lets an AI answer questions about the user's own Australian bank accounts, with read-only access at the bank.",
+ "whenToUse": "Use when a user asks about balances or transactions in their Australian bank accounts.",
+ "tasks": [
+  "query bank accounts",
+  "review transactions"
+ ],
+ "effects": {},
+ "flags": []
+}

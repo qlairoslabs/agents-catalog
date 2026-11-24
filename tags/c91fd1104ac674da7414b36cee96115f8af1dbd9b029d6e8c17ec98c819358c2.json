@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "c91fd1104ac674da7414b36cee96115f8af1dbd9b029d6e8c17ec98c819358c2",
+ "domain": [
+  "sales/lead-generation",
+  "marketing/social-listening"
+ ],
+ "product": [
+  "reddit",
+  "hacker-news",
+  "x",
+  "bluesky",
+  "facebook"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers"
+ ],
+ "summary": "Finds AI-scored sales leads from mentions on Reddit, Hacker News, X, Bluesky and Facebook groups.",
+ "whenToUse": "Use when looking for potential customers talking about relevant needs on social and community platforms.",
+ "tasks": [
+  "find leads in social mentions",
+  "score leads with AI"
+ ],
+ "effects": {},
+ "flags": []
+}

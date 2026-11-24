@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "e53528b0eed14f49a4a11295b36e6c36b592787beb450be506385bfe9c91df22",
+ "domain": [
+  "search/ranking",
+  "software/information-retrieval"
+ ],
+ "product": [],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Replays supplied ranked lists under reciprocal rank fusion and checks whether shard-local fusion gives an exact top-k.",
+ "whenToUse": "Use when evaluating reciprocal rank fusion or pagination cost over supplied rankings.",
+ "tasks": [
+  "replay RRF in page rounds",
+  "compute exact winners",
+  "compare with exhaustive result"
+ ],
+ "effects": {
+  "165100f0df06d411141ac2053975577b812a55f97385e998192acabfa3a17a94": "read"
+ },
+ "flags": []
+}

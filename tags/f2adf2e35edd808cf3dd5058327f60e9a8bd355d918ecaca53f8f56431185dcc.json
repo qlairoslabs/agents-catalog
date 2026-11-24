@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "f2adf2e35edd808cf3dd5058327f60e9a8bd355d918ecaca53f8f56431185dcc",
+ "domain": [
+  "design/3d-modeling",
+  "architecture"
+ ],
+ "product": [
+  "pascal"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Creates, inspects, validates and saves editable 3D building scenes through Pascal's MCP server.",
+ "whenToUse": "Use when an agent needs to build or edit 3D building scenes in the Pascal editor.",
+ "tasks": [
+  "create 3d scenes",
+  "inspect scenes",
+  "validate scenes",
+  "save scenes"
+ ],
+ "effects": {},
+ "flags": []
+}

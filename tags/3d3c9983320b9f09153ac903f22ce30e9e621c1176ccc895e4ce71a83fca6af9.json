@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3d3c9983320b9f09153ac903f22ce30e9e621c1176ccc895e4ce71a83fca6af9",
+ "domain": [
+  "software/mobile-development",
+  "software/testing"
+ ],
+ "product": [
+  "ios-simulator",
+  "xcode"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Hosted disposable iOS Simulators where cloud coding agents can build, run and inspect iOS apps.",
+ "whenToUse": "Use when a cloud coding agent must build or test an iOS app without a local Mac.",
+ "tasks": [
+  "build iOS apps",
+  "run in simulator",
+  "inspect app"
+ ],
+ "effects": {},
+ "flags": []
+}

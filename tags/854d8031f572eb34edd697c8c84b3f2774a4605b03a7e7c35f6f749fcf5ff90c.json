@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "854d8031f572eb34edd697c8c84b3f2774a4605b03a7e7c35f6f749fcf5ff90c",
+ "domain": [
+  "shopping/deals"
+ ],
+ "product": [
+  "moneydeals",
+  "aliexpress"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches verified US consumer-tech deals and coupons with 90-day price history and product comparison.",
+ "whenToUse": "Use when a user wants current tech deals, coupons or to judge whether a price is good.",
+ "tasks": [
+  "search deals",
+  "get a deal",
+  "check price history",
+  "find coupons",
+  "compare products",
+  "list categories",
+  "list brands"
+ ],
+ "effects": {
+  "5bea1a8074e726e34257f6b2ae1c902a962c69ada6da0c3f452a8e28d7079484": "write",
+  "c8cd0d7e9b409f575e718cd4a171d3e9c745e0ac5e1690739e60640019e4f912": "read",
+  "8ac00a5e0f0cc4686941186253b5a9d5e598cb152e7ac812546a71c75c1a75d2": "read",
+  "83e314d1f17c4241de46f3562b13576a6c74397e77a7d8d3ba98719959c16e50": "write",
+  "e4beaf863f60be5179ef3abdc38867f0350fafb991d9c70867613a59b8e57112": "read",
+  "652743b6ab4147ca864d2ccbd4e2ccae7d9fd6412e8f16b0adcce2362c90306e": "read",
+  "f41caf2bc4a3e136c4e9c054095a9c1a84980459fab1e1582fcf2f1e8d8803cf": "write"
+ },
+ "flags": []
+}

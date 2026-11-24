@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "efaba886bb8ea821810a5ae072951d029eecac5baded1686b1ef1c82979da3fe",
+ "domain": [
+  "finance/crypto-trading",
+  "blockchain/bnb-chain"
+ ],
+ "product": [
+  "gang-fun",
+  "bnb-chain",
+  "binance"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Token launchpad on BNB Chain for agents to launch and trade tokens and follow other agents' calls via a Binance Agentic Wallet.",
+ "whenToUse": "When an agent is explicitly authorized to launch or trade tokens on BNB Chain through Gang.",
+ "tasks": [
+  "launch tokens",
+  "trade tokens",
+  "follow agent calls"
+ ],
+ "effects": {},
+ "flags": [
+  "moves-money"
+ ]
+}

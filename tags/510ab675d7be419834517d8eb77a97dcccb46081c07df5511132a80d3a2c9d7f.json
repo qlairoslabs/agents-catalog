@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "510ab675d7be419834517d8eb77a97dcccb46081c07df5511132a80d3a2c9d7f",
+ "domain": [
+  "education/language-learning",
+  "education/spaced-repetition"
+ ],
+ "product": [
+  "k2"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "create-content",
+  "automate-work"
+ ],
+ "summary": "Study decks for several languages and subjects, cube algorithms, and a spaced-repetition engine that can be simulated on custom items.",
+ "whenToUse": "Use when studying vocabulary or kanji, looking up cube algorithms, or scheduling drills with spaced repetition.",
+ "tasks": [
+  "list decks",
+  "search deck",
+  "get entry",
+  "get cube algorithms",
+  "explain algorithm",
+  "simulate study session",
+  "get site info"
+ ],
+ "effects": {
+  "54b0a0a2e8da3f55dd032e584f29665cf392a2f5a6c3796469c828cfa943603a": "read",
+  "99f0ca776062c2b225fd806c5003972b29bd1933f8e47a6138ec05a79e882a46": "read",
+  "cbabf99e06ec8f2eead86927d3476d7070b69edf3cad035ce6da4642832d3cf6": "read",
+  "fd5eba927d16275ea9bf2290ea47200c6fc26ec684fd0494499efefa97d551f0": "write",
+  "402947376878267b51397a81a43ea6a6e6c4be90a057c239fdf0755932930179": "read",
+  "803ba6b9ddc318525aaea0efbc173c730baaea6f39dc41501e7393feb9551d5b": "read",
+  "4f37e9cafac3cbf72c2896deac8d0af665fdb4f0a9121cc9a41a30870584464b": "read"
+ },
+ "flags": []
+}

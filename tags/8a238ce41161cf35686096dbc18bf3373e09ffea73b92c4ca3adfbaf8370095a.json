@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "8a238ce41161cf35686096dbc18bf3373e09ffea73b92c4ca3adfbaf8370095a",
+ "domain": [
+  "automation/browser"
+ ],
+ "product": [
+  "actionbook"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Lets an AI agent operate websites through a real, logged-in browser session.",
+ "whenToUse": "Use when an agent must perform actions on a website that requires a logged-in browser.",
+ "tasks": [
+  "operate websites",
+  "use logged-in browser session"
+ ],
+ "effects": {},
+ "flags": []
+}

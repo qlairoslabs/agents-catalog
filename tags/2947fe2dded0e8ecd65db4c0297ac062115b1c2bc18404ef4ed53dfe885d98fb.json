@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2947fe2dded0e8ecd65db4c0297ac062115b1c2bc18404ef4ed53dfe885d98fb",
+ "domain": [
+  "geospatial/terrain"
+ ],
+ "product": [
+  "geospatial-system"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Elevation, slope, terrain maps and 3-D surfaces for any site, at 30 m globally with finer US, Australia and New Zealand coverage.",
+ "whenToUse": "Use when you need elevation, slope or terrain data for a location.",
+ "tasks": [
+  "get elevation",
+  "calculate slope",
+  "produce terrain maps",
+  "generate 3-D surfaces"
+ ],
+ "effects": {},
+ "flags": []
+}

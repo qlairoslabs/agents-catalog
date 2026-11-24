@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "b38fcb03c73deab58eeb4aaa43880b9d1427554078b8421c39258628dc94c8ed",
+ "domain": [
+  "ecommerce/marketplace",
+  "luxury-goods"
+ ],
+ "product": [
+  "1stdibs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Browse and search the 1stDibs marketplace of furniture, art, jewelry and fashion, and view item details.",
+ "whenToUse": "Use when helping someone find or compare antique, vintage or design items on 1stDibs.",
+ "tasks": [
+  "read category taxonomy",
+  "browse items",
+  "search items by keyword",
+  "get item details",
+  "show item cards"
+ ],
+ "effects": {
+  "9877269d3cf50f05f67f3dea55386102199b19095aa44c03375201861eb7ac74": "read",
+  "40175523b93c1d508dc68d8490aacb69439778181521de502326390eff0588f6": "read",
+  "cb5d5fef07c6523bead1fa1907a2b76238342235733acc34d325f4c1cdd12615": "read",
+  "4e7ccf12dbd34a970f672ac1170963db9adbaf72becb60449818209dc0aefc01": "read",
+  "bcedcd1c5d66b5acd2ebc1885f0c845c0ec01523555ccc6f6096122981449cd4": "read"
+ },
+ "flags": []
+}

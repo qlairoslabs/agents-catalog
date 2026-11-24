@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a5ae5c7c10a8f03c7338699991387726f3dacb30a784d1e00282f5d2f5bde037",
+ "domain": [
+  "software/deployment",
+  "cloud/hosting"
+ ],
+ "product": [
+  "justdeploy"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "be-online",
+  "build-software"
+ ],
+ "summary": "Deploys and manages apps, databases, storage and scheduled jobs from an AI agent.",
+ "whenToUse": "Use when you want to deploy or manage an app and its backing services via JustDeploy.",
+ "tasks": [
+  "deploy apps",
+  "manage databases",
+  "manage storage",
+  "manage scheduled jobs"
+ ],
+ "effects": {},
+ "flags": []
+}

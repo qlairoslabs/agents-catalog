@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "7558272dbc52860f373cefe1f7e26f9b78ee7a86a605b82ad2bb8f016e18c9ac",
+ "domain": [
+  "communications/sms",
+  "identity/verification"
+ ],
+ "product": [
+  "asms"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Provides phone numbers for AI agents to receive SMS verification codes, including rented numbers.",
+ "whenToUse": "Use when an agent needs a phone number to receive an SMS verification code.",
+ "tasks": [
+  "get SMS verification codes",
+  "rent numbers that receive SMS"
+ ],
+ "effects": {},
+ "flags": []
+}

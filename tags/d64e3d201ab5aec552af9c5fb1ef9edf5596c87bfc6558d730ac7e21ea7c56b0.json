@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "d64e3d201ab5aec552af9c5fb1ef9edf5596c87bfc6558d730ac7e21ea7c56b0",
+ "domain": [
+  "finance/crypto-data",
+  "finance/trading"
+ ],
+ "product": [
+  "hyperliquid",
+  "hyperdash"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Live and historical Hyperliquid market, wallet, liquidation and analytics data.",
+ "whenToUse": "Use when analyzing Hyperliquid markets, wallets or liquidations.",
+ "tasks": [
+  "query markets",
+  "look up wallets",
+  "track liquidations",
+  "run analytics"
+ ],
+ "effects": {},
+ "flags": []
+}

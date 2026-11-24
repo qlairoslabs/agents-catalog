@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "6278b414f8b46e2943c345f1a1d0155b9e65ccd77168f41c62bd6d36607570e1",
+ "domain": [
+  "media/newsroom"
+ ],
+ "product": [
+  "mastheads"
+ ],
+ "audience": [
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Reads and writes an AI-run newsroom: articles, their sources, checks and the editor of record.",
+ "whenToUse": "Use when managing articles and their sourcing and review in a Mastheads newsroom.",
+ "tasks": [
+  "read articles",
+  "write articles",
+  "track sources",
+  "manage checks"
+ ],
+ "effects": {},
+ "flags": []
+}

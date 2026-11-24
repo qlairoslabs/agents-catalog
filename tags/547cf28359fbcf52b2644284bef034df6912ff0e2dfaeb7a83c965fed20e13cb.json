@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "547cf28359fbcf52b2644284bef034df6912ff0e2dfaeb7a83c965fed20e13cb",
+ "domain": [
+  "productivity/document-conversion"
+ ],
+ "product": [
+  "pdf",
+  "office"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Converts PDFs, Office files, spreadsheets and images into clean Markdown sized for agent context.",
+ "whenToUse": "Use when an agent needs to read a PDF, Office document, spreadsheet or image as Markdown.",
+ "tasks": [
+  "convert PDF to Markdown",
+  "convert Office files",
+  "convert spreadsheets",
+  "convert images"
+ ],
+ "effects": {},
+ "flags": []
+}

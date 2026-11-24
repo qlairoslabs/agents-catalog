@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "c6c91dfd6b175178298f135e1f0d3b62d8198b7b8b826956a83481dd1a387abd",
+ "domain": [
+  "finance/compliance",
+  "regulatory/lei"
+ ],
+ "product": [
+  "global-finreg",
+  "lei"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "LEI lookup, entity maps and company filings, plus registering, renewing and transferring LEIs through Global FinReg.",
+ "whenToUse": "Use when you need to look up a legal entity identifier or register, renew or transfer one.",
+ "tasks": [
+  "look up LEIs",
+  "map entities",
+  "find company filings",
+  "register LEI",
+  "renew LEI",
+  "transfer LEI"
+ ],
+ "effects": {},
+ "flags": []
+}

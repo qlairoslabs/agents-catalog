@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "ec7643a4b09cc34613988759fee3d0a5d792e8eb4519d10bc8bffa6ab801de4c",
+ "domain": [
+  "software/cybersecurity",
+  "software/mcp-security"
+ ],
+ "product": [
+  "mcp"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Scans a remote MCP server's tools for risky capabilities and prompt-injection patterns before you connect it.",
+ "whenToUse": "Use before connecting an MCP server you run or may use, to assess its security risks.",
+ "tasks": [
+  "handshake with MCP server",
+  "rate tool capabilities",
+  "flag prompt-injection patterns",
+  "check lethal trifecta"
+ ],
+ "effects": {
+  "2e81644f10d3a73fef0c869e5beb339686877ccdd1005e4fef90d62f79070a84": "read"
+ },
+ "flags": []
+}

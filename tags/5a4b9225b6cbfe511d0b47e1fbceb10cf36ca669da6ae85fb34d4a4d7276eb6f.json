@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "5a4b9225b6cbfe511d0b47e1fbceb10cf36ca669da6ae85fb34d4a4d7276eb6f",
+ "domain": [
+  "media/audio",
+  "content/text-to-speech"
+ ],
+ "product": [
+  "everlit"
+ ],
+ "audience": [
+  "everyone",
+  "marketing"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Converts articles and text into narrated audio, playlists and podcast feeds from an AI agent.",
+ "whenToUse": "Use when a user wants text or articles turned into audio, playlists or podcast feeds.",
+ "tasks": [
+  "narrate articles",
+  "create audio from text",
+  "build playlists",
+  "generate podcast feeds"
+ ],
+ "effects": {},
+ "flags": []
+}

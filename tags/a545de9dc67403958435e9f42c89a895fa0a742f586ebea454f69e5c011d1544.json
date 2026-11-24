@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "a545de9dc67403958435e9f42c89a895fa0a742f586ebea454f69e5c011d1544",
+ "domain": [
+  "software/agent-tooling"
+ ],
+ "product": [
+  "claude",
+  "codex"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Lets you define an agent tool once and package it as Agent Skills, MCP servers or plugins for Claude and Codex.",
+ "whenToUse": "When building a tool that must ship in several agent formats from one definition.",
+ "tasks": [
+  "define agent tool",
+  "generate skills",
+  "generate MCP servers",
+  "generate plugins"
+ ],
+ "effects": {},
+ "flags": []
+}

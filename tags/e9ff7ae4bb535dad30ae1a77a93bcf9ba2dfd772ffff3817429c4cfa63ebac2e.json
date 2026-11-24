@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e9ff7ae4bb535dad30ae1a77a93bcf9ba2dfd772ffff3817429c4cfa63ebac2e",
+ "domain": [
+  "statistics/demographics",
+  "government/open-data"
+ ],
+ "product": [
+  "bfs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Official Swiss statistics on first names: counts by birth year, newborn rankings and name comparisons.",
+ "whenToUse": "Use when a user asks how common or popular a first name is in Switzerland.",
+ "tasks": [
+  "profile a first name",
+  "rank newborn names",
+  "list names by birth year",
+  "compare names"
+ ],
+ "effects": {
+  "3ec51ea9486a496b76c6174385fb0fb2790f57a6ccc40a75134aeade1fe9c09b": "write",
+  "9fe4b4ccff838b18c076983653561ebf7e6f3a83cee19a1ac9a40d510f41bff8": "write",
+  "e84fdb22fa81fc32c37d2bb7610f62a7034f30db9a00a67096be4d8cf05e6522": "write",
+  "4f964e8e18aa1dacc5cd2c1ebc71b5e751b38eb9c63fc653af6057488c4401cd": "write"
+ },
+ "flags": []
+}

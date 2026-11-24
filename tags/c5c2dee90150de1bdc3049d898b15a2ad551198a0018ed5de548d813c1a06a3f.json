@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "c5c2dee90150de1bdc3049d898b15a2ad551198a0018ed5de548d813c1a06a3f",
+ "domain": [
+  "finance/equities-research",
+  "finance/options"
+ ],
+ "product": [
+  "optionswave"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Earnings research for US stocks showing options-implied moves ahead of reports and post-earnings drift model signals afterwards.",
+ "whenToUse": "When a user researches US stock earnings events and wants options-implied expectations or PEAD signals.",
+ "tasks": [
+  "look up options-implied earnings move",
+  "read PEAD model signals"
+ ],
+ "effects": {},
+ "flags": []
+}

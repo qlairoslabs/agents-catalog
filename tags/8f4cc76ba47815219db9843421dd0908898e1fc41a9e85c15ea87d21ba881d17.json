@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "8f4cc76ba47815219db9843421dd0908898e1fc41a9e85c15ea87d21ba881d17",
+ "domain": [
+  "sports/football-analytics"
+ ],
+ "product": [
+  "sxs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only football match data with recommendations, computed probabilities and lottery odds, plus published post-match reviews; free tier covers the previous match day.",
+ "whenToUse": "Use when looking up SXS match data or reviews for a past match day or team.",
+ "tasks": [
+  "get match data by date or team",
+  "get published match review"
+ ],
+ "effects": {
+  "5342b0566d0f1725b3e913986cdb219204a2bc541ab01fe0ed10829bdfec5196": "write",
+  "5c94ee14a1ba086795052c8d5323fa8f8c75ca45bba458285682cca2083be7fa": "write"
+ },
+ "flags": []
+}

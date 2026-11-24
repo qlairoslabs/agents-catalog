@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "e3e6ae0557e89b848de0b66dd3fb552d9014f2695d8252d1a3da6eb12d9796d7",
+ "domain": [
+  "finance/crypto-swaps"
+ ],
+ "product": [
+  "torrentswap",
+  "bitcoin",
+  "ethereum",
+  "solana",
+  "thorchain",
+  "chainflip",
+  "near-intents"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Cross-chain cryptocurrency swaps without an account: list assets, get quotes, validate addresses, create swaps and track status.",
+ "whenToUse": "Use when a user wants to swap one crypto asset for another across chains and track the swap.",
+ "tasks": [
+  "list swappable assets",
+  "list routing providers",
+  "get swap quotes",
+  "validate addresses",
+  "create swaps",
+  "track swap status"
+ ],
+ "effects": {
+  "a51028dff46e1fb526a653506a28fda0b063893654d29bb5f831a86191f00423": "read",
+  "c589bf86c39b16db57cf0bcc87475a8df58ac162cf2b25667ea1ff678a114bb8": "read",
+  "ad250d7556ece2f5e5b0221a4eba4ec916ae74e2e56de0932b36e1e9d22a852b": "read",
+  "b7f32e238b5f700617f1e29056c49e3081ae326ef0767a3d1ae773201302bdea": "read",
+  "7807fb160e8df6ee68c0b583e34f013c975a3fa4e484da56bb988b90251f48a7": "risky",
+  "5216ae55f9b14f8584dcee2bfb3add96309044b060ef62d2a3b034dd5e6c218a": "read"
+ },
+ "flags": []
+}

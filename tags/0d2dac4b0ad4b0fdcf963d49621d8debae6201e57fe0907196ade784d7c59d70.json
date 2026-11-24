@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "0d2dac4b0ad4b0fdcf963d49621d8debae6201e57fe0907196ade784d7c59d70",
+ "domain": [
+  "health/self-tracking"
+ ],
+ "product": [
+  "careclinic"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Reviews schedules, symptoms and mood in CareClinic and records check-ins only after explicit confirmation.",
+ "whenToUse": "Use when the user wants to review their health tracking data or log a confirmed check-in.",
+ "tasks": [
+  "review schedules",
+  "review symptoms",
+  "review mood",
+  "log confirmed check-ins"
+ ],
+ "effects": {},
+ "flags": []
+}

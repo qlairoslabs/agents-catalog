@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "a4cbc92ed2db1fe8eb61e16b281805bea79bd7d6d7e9ccd676607bb399671309",
+ "domain": [
+  "finance/api-marketplace",
+  "web3/payments"
+ ],
+ "product": [
+  "payapi-market",
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Searches a catalogue of settlement-verified pay-per-call x402 APIs, shows listings and reliability, and lets providers submit APIs.",
+ "whenToUse": "Use when finding paid APIs an agent can call with USDC, or listing your own.",
+ "tasks": [
+  "search APIs",
+  "browse APIs",
+  "get API details",
+  "submit listing",
+  "search agents"
+ ],
+ "effects": {
+  "07edb751b82629bd3ed2ab5abb35eb83255b10d4f58ca27949d09296f3ba9a22": "read",
+  "31cb15dba8211179951a0caaa62544ba75a9a9643d175321bfc1ce4416b1f520": "read",
+  "112272cb1cca88eca12576df8d2d4212695c06dc374e91a61dd91f968dec5b6b": "write",
+  "9623e1f93e8d82ab10328563c937fb012664c73c084e0cad1f1526a90790a20a": "write",
+  "ef8442ba0852a0f699442681496f0b4fc11ee8a4c621c7aaf0801a642e817c42": "read"
+ },
+ "flags": []
+}

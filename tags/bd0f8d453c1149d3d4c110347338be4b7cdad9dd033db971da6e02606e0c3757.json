@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "bd0f8d453c1149d3d4c110347338be4b7cdad9dd033db971da6e02606e0c3757",
+ "domain": [
+  "finance/brokerage",
+  "finance/trading"
+ ],
+ "product": [
+  "trade-it"
+ ],
+ "audience": [
+  "finance",
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Connects brokerage accounts to AI assistants for viewing holdings, looking up assets, placing orders and approved trading.",
+ "whenToUse": "Use when an agent needs to view brokerage holdings or place trades with user approval.",
+ "tasks": [
+  "view holdings",
+  "place orders",
+  "look up assets",
+  "execute approved trades"
+ ],
+ "effects": {},
+ "flags": []
+}

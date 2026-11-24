@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "3e26b773c654acbdde970dc0f5fd8ef6581cce763977249f74e5d2de1168df0c",
+ "domain": [
+  "software/agent-marketplace"
+ ],
+ "product": [
+  "sasame",
+  "gec"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work",
+  "get-customers"
+ ],
+ "summary": "Public tools for finding open GEC outcome work, searching SaSame knowledge and grading MCP servers for discoverability.",
+ "whenToUse": "Use when looking for open GEC work as a provider or auditing an MCP server's discoverability.",
+ "tasks": [
+  "get started guidance",
+  "find open outcome demands",
+  "search public knowledge",
+  "audit an MCP server"
+ ],
+ "effects": {
+  "7237a443162a508967435b7642e5235150632fc4f4a85e5e45a02b86f1ff2ba7": "read",
+  "6632e3edf940f6e14876d5e6b76798061217d7d34274aa3eafee968c1f3d4498": "read",
+  "1b1eda9cf832f3fba0c2cc6cea0b3836db121ed1ea33d6ae20477ea0eb1147cd": "read",
+  "a520d81b8fb6729a146c8970f562f82274cadd4a7e7eec9ab8849d661c58abbd": "write"
+ },
+ "flags": []
+}

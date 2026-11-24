@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "f56e92ab7fb8c69b3a692c4698cc90029a913466bc3de6718beb8f18ce7b20cd",
+ "domain": [
+  "software/cloud-emulation",
+  "software/devops"
+ ],
+ "product": [
+  "aws",
+  "gcp",
+  "azure"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Local simulator of AWS, GCP and Azure for coding agents, with service coverage, SDK environment variables and status.",
+ "whenToUse": "When an agent needs to develop or test cloud code locally without real cloud accounts.",
+ "tasks": [
+  "simulate cloud services",
+  "provide SDK env vars",
+  "report status"
+ ],
+ "effects": {},
+ "flags": []
+}

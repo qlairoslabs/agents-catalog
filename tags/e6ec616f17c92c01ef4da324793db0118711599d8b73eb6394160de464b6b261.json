@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "e6ec616f17c92c01ef4da324793db0118711599d8b73eb6394160de464b6b261",
+ "domain": [
+  "customer-support/chatbots",
+  "communication/messaging"
+ ],
+ "product": [
+  "chatmaxima",
+  "whatsapp"
+ ],
+ "audience": [
+  "support",
+  "marketing"
+ ],
+ "goal": [
+  "support-customers",
+  "automate-work",
+  "keep-in-touch"
+ ],
+ "summary": "Builds and tests ChatMaxima chatbots, WhatsApp templates and Flows, and triages the customer inbox.",
+ "whenToUse": "Use when creating or testing chatbots and WhatsApp templates or sorting customer conversations in ChatMaxima.",
+ "tasks": [
+  "build chatbots",
+  "test chatbots",
+  "manage WhatsApp templates",
+  "manage Flows",
+  "triage inbox"
+ ],
+ "effects": {},
+ "flags": []
+}

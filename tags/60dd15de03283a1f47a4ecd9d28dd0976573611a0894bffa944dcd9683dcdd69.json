@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "60dd15de03283a1f47a4ecd9d28dd0976573611a0894bffa944dcd9683dcdd69",
+ "domain": [
+  "automotive/knowledge"
+ ],
+ "product": [
+  "kentekenkompas"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only Dutch vehicle knowledge base with model context, stored model relations, term definitions and cited sources.",
+ "whenToUse": "Use when answering questions about Dutch vehicle models, terminology or alternatives with citations.",
+ "tasks": [
+  "search vehicle knowledge",
+  "get model context",
+  "get answers",
+  "compare models",
+  "explain Dutch vehicle terms",
+  "inspect sources",
+  "check fuel price status"
+ ],
+ "effects": {
+  "501407bfacbc057ac138e3c539a156e12cd9eb8b9443f88650977839a567f8ba": "read",
+  "8643be9a45dd832a7d7aacb40a9cbc52c96322955fefca20c409acba472e7b47": "read",
+  "d04fb69e8321db0f2583786381e1f8f0aa7d056ef25f4743f80618a70daca813": "read",
+  "f719dc35b3f66e05b8240d1b05810e156d2fce84ac970c06f6ac1a8bf016e2d3": "write",
+  "b33eeeea66d5a89af940be9567babb4167c00fc8bcc5d72d24363b912dc2837d": "read",
+  "e0b997c3def6c1f86617a33f77ed01e85e3369e8fd1989d6ff0a66473073192b": "read",
+  "fdbe4841213abfcac1750df261ce739995274d55b5ea674a3617005153f36606": "read"
+ },
+ "flags": []
+}

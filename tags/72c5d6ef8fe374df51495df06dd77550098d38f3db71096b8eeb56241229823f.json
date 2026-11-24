@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "72c5d6ef8fe374df51495df06dd77550098d38f3db71096b8eeb56241229823f",
+ "domain": [
+  "software/servicenow",
+  "operations/it-service-management"
+ ],
+ "product": [
+  "servicenow"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "build-software"
+ ],
+ "summary": "Toolkit of 500+ tools for working with ServiceNow from Claude, ChatGPT, Copilot and other MCP clients.",
+ "whenToUse": "Use when an agent needs to read or change ServiceNow records, workflows or configuration.",
+ "tasks": [
+  "query ServiceNow records",
+  "manage incidents",
+  "automate workflows",
+  "administer instance"
+ ],
+ "effects": {},
+ "flags": []
+}

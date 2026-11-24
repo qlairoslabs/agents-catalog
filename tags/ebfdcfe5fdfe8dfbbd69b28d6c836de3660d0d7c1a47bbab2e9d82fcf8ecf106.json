@@ -1,0 +1,24 @@
+{
+ "classifier": 2,
+ "contentHash": "ebfdcfe5fdfe8dfbbd69b28d6c836de3660d0d7c1a47bbab2e9d82fcf8ecf106",
+ "domain": [
+  "web3/real-estate"
+ ],
+ "product": [
+  "fabrica",
+  "sepolia"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Testnet version of Fabrica tools on Sepolia for trying property tools with no real-world effect.",
+ "whenToUse": "Use when testing Fabrica property tools safely on a test network.",
+ "tasks": [
+  "try Fabrica tools on testnet"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "210767aa56b5b5e571563bd3ec78a63049b3edc1403df0f4f2f08a18c5b9cb7d",
+ "domain": [
+  "travel/package-holidays",
+  "travel/flights"
+ ],
+ "product": [
+  "sistaminuten"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Realtime search of package holidays and charter-only flights departing from Sweden, with prices and booking links.",
+ "whenToUse": "Use when a user wants Swedish-departure package trips or charter flights.",
+ "tasks": [
+  "search package holidays",
+  "filter by destination, dates, board, features",
+  "search charter flights",
+  "sort by price or date"
+ ],
+ "effects": {
+  "67bdd5b494394752d521dba320916b24530c8e641ee1efa4ee056790479e2404": "write",
+  "7686ed510601e1d56d49f44b2fde0a9600a54f09b465cfab6e1cfaa9bf5e281b": "read"
+ },
+ "flags": []
+}

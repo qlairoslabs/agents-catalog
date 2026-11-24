@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "84c9061e77e44c06559302ca44e3505b56e95ff321602aa5c80b0b884427ce16",
+ "domain": [
+  "software/audit-proof"
+ ],
+ "product": [
+  "securestamp"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Beta cross-cloud action-proof service, sandbox by default with production opt-in through a customer Guardian; self-described as unverified.",
+ "whenToUse": "Use only for experimenting with action proofs in a sandbox, given its unverified beta status.",
+ "tasks": [
+  "record action proofs"
+ ],
+ "effects": {},
+ "flags": [
+  "self-described-unverified-beta"
+ ]
+}

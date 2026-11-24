@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "550b3defdffccddc6f9251b74f089cb3fefca3086e8c73c8871756769051d1c8",
+ "domain": [
+  "design/3d",
+  "media/animation"
+ ],
+ "product": [
+  "blender"
+ ],
+ "audience": [
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Lets an AI control Blender for 3D modeling, Geometry Nodes, materials, animation, rendering and export.",
+ "whenToUse": "Use when you want an agent to build or modify 3D scenes and render them in Blender.",
+ "tasks": [
+  "model 3D objects",
+  "edit geometry nodes",
+  "create materials",
+  "animate",
+  "render",
+  "export"
+ ],
+ "effects": {},
+ "flags": []
+}

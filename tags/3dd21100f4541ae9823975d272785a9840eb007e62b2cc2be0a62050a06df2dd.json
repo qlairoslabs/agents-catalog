@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "3dd21100f4541ae9823975d272785a9840eb007e62b2cc2be0a62050a06df2dd",
+ "domain": [
+  "software/ai-tool-directory"
+ ],
+ "product": [
+  "aigregator"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and compares a directory of thousands of AI tools with pricing, features and alternatives.",
+ "whenToUse": "Use when choosing or comparing AI tools for a particular need.",
+ "tasks": [
+  "list categories",
+  "search tools",
+  "get tool profile",
+  "compare tools",
+  "recommend tools"
+ ],
+ "effects": {
+  "9c7ddf9e5cfabba95add2d76755007f02d17b7b3c54be6e4a99e30b84455e42f": "read",
+  "f5851293a3818f64a1562ebc78abdfdde1adefc14a5719b7384f7b4755d299ff": "read",
+  "3d54528ba3874dbe9ee0277f537ee14f941c1c889178419af67bed731517ea7f": "read",
+  "6e01cf6f86ddd2b3b4f1f67f97a98eece70800c64f5eeccd9e428b0165b258db": "read",
+  "2ca284926309c00a78d1bc5f7d09564cfd6fe3d8a131dfb47588c60fe58e931b": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "48aacb87a2edab10a7ca9053e9099e23f76ef466a8943490a93179fc1e7dcc2c",
+ "domain": [
+  "shopping/price-comparison"
+ ],
+ "product": [
+  "amazon",
+  "outletpicks"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Finds OutletPicks listings of Amazon US products ranked by cost per unit, category price pages, and larger pack options.",
+ "whenToUse": "When a user wants to know whether an Amazon product is a good price per unit or find a cheaper pack size.",
+ "tasks": [
+  "find listings by cost per unit",
+  "get category price page",
+  "find cheaper bigger pack"
+ ],
+ "effects": {
+  "0e3bc01e0daa39488d868568c049a2831193e7faac88e7d3513026ca64353241": "read",
+  "27c0ab6833793992767a5f892833596029b2be807c288e40ff71372db2d386f6": "read",
+  "79b93b45b7aba6a782f0789c8de4bd8c91353cea8eaff2569c024f2e7cbbd3df": "read"
+ },
+ "flags": []
+}

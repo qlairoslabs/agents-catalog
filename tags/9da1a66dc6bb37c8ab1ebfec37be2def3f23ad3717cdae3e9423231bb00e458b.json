@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "9da1a66dc6bb37c8ab1ebfec37be2def3f23ad3717cdae3e9423231bb00e458b",
+ "domain": [
+  "beauty/appointment-booking",
+  "local-services"
+ ],
+ "product": [
+  "mane"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Find opted-in barbers, stylists and estheticians on Mane, view services and availability, and get a prefilled booking link.",
+ "whenToUse": "Use when a user wants to find a beauty professional and book an appointment slot.",
+ "tasks": [
+  "search operators",
+  "get operator profile",
+  "list services",
+  "list availability",
+  "get booking link"
+ ],
+ "effects": {
+  "8a47f39a9d231d775e781e1738e82e07570925fd8c7d201b4e0ed1d85eb54061": "read",
+  "8383939ce036fdeb3f3e0f1eed236cdaca89682a467ea7c28b0c60ba0066cdf6": "read",
+  "1342999246d18415a97c9064c644ea4d253ef95689ed5d92dece4da90ef90179": "read",
+  "4b4db18911acf84106d6b37dd155e36571520ea68ea7d5a1df88aca1ea4c811c": "read",
+  "d4dc23798aad775cdcd423752c0ab8c588c50fd9792cc2ac90b8927805748a0e": "read"
+ },
+ "flags": []
+}

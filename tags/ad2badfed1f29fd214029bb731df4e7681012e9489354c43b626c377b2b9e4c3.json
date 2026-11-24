@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "ad2badfed1f29fd214029bb731df4e7681012e9489354c43b626c377b2b9e4c3",
+ "domain": [
+  "software/ui-components",
+  "design/frontend"
+ ],
+ "product": [
+  "react",
+  "shadcn"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Search a catalog of interactive React components with unusual motion and fetch their install commands and source.",
+ "whenToUse": "Use when building a React UI and you want distinctive animated components installable via shadcn.",
+ "tasks": [
+  "search components",
+  "filter by tags",
+  "get install command",
+  "get component source"
+ ],
+ "effects": {
+  "aae5006771dabd6777ec2e4590d60d71e5514f1ed04fedf63a007dd1453e4605": "read",
+  "59876f3e58e996e4b5437468903b0fa46df5187a64c492e96a22c45c1a7ab63b": "read"
+ },
+ "flags": []
+}

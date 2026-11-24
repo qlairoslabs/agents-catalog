@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "9e401e3c9f892300129d67612753cb954744560d626a547ea92067ee3fbb033c",
+ "domain": [
+  "finance/payments-integration"
+ ],
+ "product": [
+  "roki-connect"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "get-paid",
+  "build-software"
+ ],
+ "summary": "Documentation, schemas, validators and sandbox access to help coding agents integrate the ROKI Connect payments API.",
+ "whenToUse": "Use when writing or auditing code that integrates ROKI Connect payments or webhooks.",
+ "tasks": [
+  "search docs",
+  "list operations",
+  "get schemas",
+  "validate requests",
+  "check results",
+  "verify webhook signatures",
+  "scaffold integrations",
+  "audit integrations",
+  "run sandbox calls"
+ ],
+ "effects": {
+  "b6759c910444190cd65e0437d458479efaee113d4f428f720d35d35fb0ca18d2": "read",
+  "1a760b03031fe2ca025ef4c96f07eacee12af4a2fea86bc60f8b2fa49ce6eb69": "read",
+  "9873da6956aaad05b5c7b113d7f875587d902f8ac807cc7391c85483c84405f9": "read",
+  "3ffbfc8fe4cd0d17124b32ca0faab872844c0e7f689a210cf9b5a3787c865386": "read",
+  "d5a8b665e8a8993695006b9b8c109df00c5389c88d7f45bdafd702135892bd73": "read",
+  "159e06bd85588fb012106d0d2dddc4daacbe7c74c7d187b21c4cd7c901d175b6": "read",
+  "d6f2cd3790c6a74290e4be211a2751f22b32641cd16dc072898e4ed73d295d80": "read",
+  "e1ee7c9c542bb447d053965b5b7d9addd932515544dfe288a393c2facac83249": "write",
+  "81b3c66da4bcec7d6feafc514b1b9b652b6995a5d300e2ac6f409b39a757965e": "read",
+  "658aaaf8497fd481a8a258ec49ba3d72951fe76737930902a100538f6ac27c6c": "read",
+  "ef9068b741bcff8d0b891b1976185ddedca1cc1f42a919b2b34a46c860c629b9": "read",
+  "f36e1356e2da7eba46a07ffd69f35b09208c9654d5a582a58edbf2892bf51197": "read",
+  "48547c4273ba0a657655f1dae22b7ef72c966753841c60985f31953752ec6d46": "read",
+  "fd9313dd7c649130318bc04ed08c7eaf1e1fddb078256e50400cd8c223fa7d22": "read",
+  "cf9e5d6f04038ad3173de905bd155b6b890ce07a811dfcc67ebf734678604eb0": "read",
+  "dbd253231d93a77eaab169071f08779245d4a38d99ede7bfe39b4c04645560fd": "read",
+  "d6192b42101858efb4ca0f2c2a11e995d1d81b010b98b7ca054174644bf4d988": "write",
+  "6261119466d89aa02253ab807ac5801eff09d130d345dd139c5e843a108d9218": "read",
+  "abd63faf4d435886ee9505cab5dc246acec6d7b6c4a208a6cc380ae3c6ef49a2": "read"
+ },
+ "flags": []
+}

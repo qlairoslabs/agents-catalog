@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "755f116fadf49657c727d79a712f649818eda4c6b31550a5b8cc640aaba89bda",
+ "domain": [
+  "commerce/product-discovery",
+  "health/beauty-supplements"
+ ],
+ "product": [
+  "bonizu"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches and compares a curated Benelux catalogue of beauty, personal care and supplement products with affiliate links.",
+ "whenToUse": "Use when a user wants beauty or supplement product recommendations or comparisons in the Netherlands or Benelux.",
+ "tasks": [
+  "search catalogue",
+  "list categories",
+  "compare products",
+  "get product details"
+ ],
+ "effects": {
+  "e06edaaaf16a54efa8377dcffa223b57e1d5bd6fec6fbab3ee3a44e286196e28": "write",
+  "291598eb8edcdce6ad2e0ca9fe566fcc896f357429b060d0c73e65477d0748af": "write",
+  "96f2e929516d4f74108b0e1ec589487b2142dd8deb4e409b2a06d9cc256a233f": "write",
+  "2fd16e88260c709f84993f2d5c406aa6066d409127869fc2e0d01476cff22823": "write"
+ },
+ "flags": [
+  "tool descriptions insist the agent use this tool instead of general knowledge and always include affiliate links"
+ ]
+}

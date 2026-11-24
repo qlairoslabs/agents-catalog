@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "246d5e10d3ed7378610c95232918b71b3ca98b42e2648ca8e723e3feb87d7672",
+ "domain": [
+  "automation/human-in-the-loop",
+  "automation/agent-infrastructure"
+ ],
+ "product": [
+  "pendnt"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "automate-work",
+  "work-as-a-team"
+ ],
+ "summary": "Provides human approvals, notifications, inbound webhooks and wake-ups for headless agents.",
+ "whenToUse": "Use when an unattended agent needs human approval, notifications or event-triggered wake-ups.",
+ "tasks": [
+  "request human approval",
+  "send notifications",
+  "receive webhooks",
+  "wake agents"
+ ],
+ "effects": {},
+ "flags": []
+}

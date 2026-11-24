@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "785006a82dec2b995c621962e22ac4934c86b003979f82078516eefb15fa314b",
+ "domain": [
+  "media/streaming"
+ ],
+ "product": [
+  "sleipnir"
+ ],
+ "audience": [
+  "marketing",
+  "operations"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Controls a multistream relay: checks live status, switches destinations, manages teams and generates overlays.",
+ "whenToUse": "Use when managing live streams across multiple destinations.",
+ "tasks": [
+  "check live status",
+  "switch destinations",
+  "manage teams",
+  "generate overlays"
+ ],
+ "effects": {},
+ "flags": []
+}

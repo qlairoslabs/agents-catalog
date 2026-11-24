@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "47af1eafdbce6ceefd9c9b3e9ec0b2bbd904c08590a1fa751d2f8339eab38fbd",
+ "domain": [
+  "finance/quantitative-equity",
+  "finance/trading"
+ ],
+ "product": [
+  "quantstark"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "run-the-money",
+  "understand-what-is-happening"
+ ],
+ "summary": "Quantitative equity toolkit with factor data, backtests, a risk model, performance attribution and a portfolio optimizer.",
+ "whenToUse": "Use when doing quantitative equity research, backtesting, risk analysis, attribution or portfolio optimization.",
+ "tasks": [
+  "get factor data",
+  "run backtests",
+  "run risk model",
+  "attribute performance",
+  "optimize portfolio"
+ ],
+ "effects": {},
+ "flags": []
+}

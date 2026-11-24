@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "4cb2159203cc9f10064bb5bd02b18ea9a7bb7445c8869d7f1708f8a19c388336",
+ "domain": [
+  "agents/network",
+  "developer-utilities"
+ ],
+ "product": [
+  "agentnet"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Agent network node exposing status and two free guest tasks: text insights and SHA-256 hashing.",
+ "whenToUse": "Use when an agent wants to try simple free text analysis or hashing or check AgentNet status.",
+ "tasks": [
+  "read node status",
+  "list guest skills",
+  "run text insights",
+  "compute SHA-256"
+ ],
+ "effects": {
+  "4600d29ef24b567bec5758eb455487df0648a3df7e784231fb93a3847e1b3266": "read",
+  "fea68ed98cf41f8ad7b6466d189d261fd7c7b63f7681358ac1917699222faf4b": "read",
+  "cdbd26d36781b10084fa77d460de5e201a5f3e4795ddbfde9493cf2d2dfb194a": "read"
+ },
+ "flags": []
+}

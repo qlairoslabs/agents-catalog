@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "648e7b4fb629f46e3f98c9b60767fbf3fd40ee57de427e88107ee8bf9c620b59",
+ "domain": [
+  "software/agent-tooling",
+  "developer/catalog"
+ ],
+ "product": [
+  "skillfoxx"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Catalog of skills, MCP servers and CLI tools for AI agents, with search, install plans per agent and project-based recommendations.",
+ "whenToUse": "Use when looking for or installing agent skills, MCP servers or CLI tools.",
+ "tasks": [
+  "search catalog",
+  "read entry details and risk level",
+  "plan install for an agent",
+  "report install",
+  "recommend tools for a project",
+  "list categories"
+ ],
+ "effects": {
+  "2e9a805737db328d101fb4d31352a2a9d7f47974657b9761ebd19362a42b0ac9": "read",
+  "23bb9afb7c95d4d081257c3377a204161967935b15acd7b964885fa666e48ad8": "read",
+  "d2f36b46c5d76626f9edd9e65c4c92894413274c6bcb0dae63c46366be3eef0c": "write",
+  "37d0f48c1194fbd7a53b85588915c3ad0f50a7929491937b6120723f29e66110": "write",
+  "3ee652393c7642506f1d6582547a1efe0a0f85af47ff9b4d0c126ef03773319c": "read",
+  "815a75d8434dd9a1c8503d7a08156316a5d0a636e37eda5c19b684c2bf08e700": "read"
+ },
+ "flags": []
+}

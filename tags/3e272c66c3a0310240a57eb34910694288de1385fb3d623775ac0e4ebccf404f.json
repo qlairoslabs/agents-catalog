@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "3e272c66c3a0310240a57eb34910694288de1385fb3d623775ac0e4ebccf404f",
+ "domain": [
+  "support/analytics",
+  "support/helpdesk"
+ ],
+ "product": [
+  "irisagent"
+ ],
+ "audience": [
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Answers questions about support tickets, chats, agents and AI answer quality, citing tickets.",
+ "whenToUse": "Use when analyzing support operations or AI answer quality from ticket data.",
+ "tasks": [
+  "query tickets",
+  "analyze chats",
+  "assess agents",
+  "assess AI answer quality"
+ ],
+ "effects": {},
+ "flags": []
+}

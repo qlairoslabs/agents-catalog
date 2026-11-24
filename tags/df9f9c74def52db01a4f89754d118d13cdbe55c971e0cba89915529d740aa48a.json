@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "df9f9c74def52db01a4f89754d118d13cdbe55c971e0cba89915529d740aa48a",
+ "domain": [
+  "software/cybersecurity",
+  "ai-agents/governance"
+ ],
+ "product": [
+  "cedar",
+  "protect-mcp"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "automate-work"
+ ],
+ "summary": "Local npm server exposing Cedar policy checks and signed receipts as MCP tools; blocking agent calls requires its hooks.",
+ "whenToUse": "Use when you need to evaluate Cedar policies or produce signed receipts for agent tool calls.",
+ "tasks": [
+  "check Cedar policies",
+  "create signed receipts"
+ ],
+ "effects": {},
+ "flags": []
+}

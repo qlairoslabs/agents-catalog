@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "4e42c0807ae71b3f347bedb0482c235d2f16e48c5bb6e55b87f72494033747d2",
+ "domain": [
+  "automotive/safety-recalls"
+ ],
+ "product": [
+  "nhtsa"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "stay-compliant",
+  "understand-what-is-happening"
+ ],
+ "summary": "Checks US NHTSA safety recall campaigns for a vehicle by make, model and model year.",
+ "whenToUse": "Use when a user asks whether a vehicle model year has official safety recalls.",
+ "tasks": [
+  "check vehicle recalls"
+ ],
+ "effects": {
+  "16c474b8e25e2ab02feafbb7944c8b1a48fe1d4bb0aa890b4c1020454ab0a106": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "2669b2b449fb8625b200750f851a79b16e20e5f3f96506257051fdfd56e47f9e",
+ "domain": [
+  "property/access-control"
+ ],
+ "product": [
+  "buzzerapi"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "automate-work"
+ ],
+ "summary": "Manages apartment buzzer access: entry codes for deliveries and guests, timed or recurring access, and access history.",
+ "whenToUse": "Use when an agent must grant, schedule or review building entry for guests or deliveries.",
+ "tasks": [
+  "create access codes",
+  "schedule timed entry",
+  "set recurring entry",
+  "view access history"
+ ],
+ "effects": {},
+ "flags": []
+}

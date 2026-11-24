@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "65c05bf218f98d60d494afafcded63aa0edce38cb7af860ec526d9d4f159f6be",
+ "domain": [
+  "logistics/shipping"
+ ],
+ "product": [],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Creates, tracks, prices and cancels cash-on-delivery parcels with 101 Algerian couriers, without login.",
+ "whenToUse": "Use when shipping or tracking cash-on-delivery parcels in Algeria.",
+ "tasks": [
+  "create parcels",
+  "track parcels",
+  "price shipping",
+  "cancel parcels"
+ ],
+ "effects": {},
+ "flags": []
+}

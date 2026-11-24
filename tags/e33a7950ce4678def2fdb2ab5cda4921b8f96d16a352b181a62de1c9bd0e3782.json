@@ -1,0 +1,40 @@
+{
+ "classifier": 2,
+ "contentHash": "e33a7950ce4678def2fdb2ab5cda4921b8f96d16a352b181a62de1c9bd0e3782",
+ "domain": [
+  "professional-services/property-appraisal",
+  "finance/valuation"
+ ],
+ "product": [
+  "valpro"
+ ],
+ "audience": [
+  "everyone",
+  "finance"
+ ],
+ "goal": [
+  "get-customers",
+  "stay-compliant"
+ ],
+ "summary": "Moscow property appraisal company: price calculator, service catalog, required documents, FAQ and lead creation without personal data.",
+ "whenToUse": "Use when a user needs a quote or document list for property or vehicle appraisal in Moscow.",
+ "tasks": [
+  "calculate appraisal price",
+  "list services",
+  "list required documents",
+  "answer FAQ",
+  "search knowledge base",
+  "ask assistant",
+  "create lead"
+ ],
+ "effects": {
+  "5c0da841c652de5b28e26105bdd373e3a0e02d1762a5cc8e1cb8fc4d6a0f74bb": "read",
+  "c0e84e8b2431edaaf4836c19f6f2120855244404c5413c92eb8d6ba3fcce0133": "read",
+  "0fddfe018477cc603d4bccad1f8c480916412b1071e6b83611837e30e07f366e": "read",
+  "20d26a2fbfcfa1761df2b78f6f8e722c6f55b27e32b17cf035311a01f16b41b2": "read",
+  "b377f00c6ae46a317b726b2ef51b47cb5f2ad4ea569d590690718e3537d2774a": "read",
+  "5d6142c992502cf788e00840aa559e19b029fed64b9a6cbd07e63bbc47e63130": "read",
+  "a73033172ff3d8a8b24cb3f182e2fdf11a2c3b0f3a8026e1a5017b14976dc20e": "write"
+ },
+ "flags": []
+}

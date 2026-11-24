@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "93da254a9bbf0ea0877b65d2b9ed394928624a659b2f272732896c9d58febdf1",
+ "domain": [
+  "consumer-safety/product-data",
+  "retail/product-lookup"
+ ],
+ "product": [
+  "productguru",
+  "ademe",
+  "openstreetmap"
+ ],
+ "audience": [
+  "everyone",
+  "support"
+ ],
+ "goal": [
+  "stay-compliant",
+  "support-customers"
+ ],
+ "summary": "Looks up products by barcode for factual attributes and official recall notices, and finds nearby repair businesses in several European countries.",
+ "whenToUse": "Use when a user has a barcode and wants product facts or recall status, or needs a local repairer.",
+ "tasks": [
+  "look up product by barcode",
+  "check recall notices",
+  "search products and recalls",
+  "fetch record",
+  "find nearby repairers"
+ ],
+ "effects": {
+  "47f52671e1658e0e8368d48faa539a4b22244adf2e463d0813b24cf1eb07ab96": "read",
+  "e7fc81c16717a0afbcf89adc59e703bcd3f7547f2d3a2799a31b2b6a1cf4f913": "read",
+  "29eab6f636c27386ed86695603ccaec4f876d4ecab9e99f9eb6e35338e96da84": "read",
+  "09f28e119a8560f6292a48500cbb8d8d16f2f8c7258a4a866d49b20948351b94": "write"
+ },
+ "flags": []
+}

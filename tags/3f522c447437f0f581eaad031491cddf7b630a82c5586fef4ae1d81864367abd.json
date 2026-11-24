@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "3f522c447437f0f581eaad031491cddf7b630a82c5586fef4ae1d81864367abd",
+ "domain": [
+  "logistics/shipping",
+  "e-commerce"
+ ],
+ "product": [
+  "postnord",
+  "gls",
+  "bring",
+  "dhl",
+  "zippendo"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Manages orders, books shipments, prints labels and tracks parcels across PostNord, GLS, Bring and DHL.",
+ "whenToUse": "Use when a merchant needs to book or track parcels with Nordic carriers.",
+ "tasks": [],
+ "effects": {},
+ "flags": []
+}

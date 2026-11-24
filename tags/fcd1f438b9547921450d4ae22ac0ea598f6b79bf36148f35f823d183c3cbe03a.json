@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "fcd1f438b9547921450d4ae22ac0ea598f6b79bf36148f35f823d183c3cbe03a",
+ "domain": [
+  "ecommerce/acoustics",
+  "home-improvement"
+ ],
+ "product": [
+  "acoustic-sound-panels"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Estimates a room's echo, recommends acoustic panel counts with prices, and submits Free Room Analysis requests.",
+ "whenToUse": "Use when someone wants to reduce echo in a room and needs panel recommendations or a quote.",
+ "tasks": [
+  "estimate room echo",
+  "recommend panels",
+  "get current prices",
+  "request free room analysis",
+  "get room scan link"
+ ],
+ "effects": {
+  "2a187c2cc43076f5bcad74117de9a23059bd43cb56e3658aa5aa3fd84c115dc2": "read",
+  "8cfda5b03eeb0ac0d9c250c2b86328dd9bfa5077aeab540cbbd066cc67231f6d": "read",
+  "fc455983c74d0ead4498a3c748c96b0032085d5b823ebb5acef21f9c135e6ff9": "write",
+  "9974453d1b9f74c496de6f60bd72ab648c50acfd0c5f333bd892e496282adadc": "read"
+ },
+ "flags": []
+}

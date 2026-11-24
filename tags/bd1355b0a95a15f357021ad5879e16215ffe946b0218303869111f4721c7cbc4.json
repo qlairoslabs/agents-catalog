@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "bd1355b0a95a15f357021ad5879e16215ffe946b0218303869111f4721c7cbc4",
+ "domain": [
+  "travel/vacation-rentals"
+ ],
+ "product": [
+  "chucho",
+  "instagram",
+  "tiktok",
+  "youtube"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule",
+  "get-customers"
+ ],
+ "summary": "Searches vacation rentals worldwide, checks host prices and availability, and sends enquiries or booking handoffs to hosts.",
+ "whenToUse": "Use when a traveler wants to find a vacation rental, get a stay quote, explore the area or contact the host.",
+ "tasks": [
+  "search properties",
+  "estimate stay price",
+  "get stay quote",
+  "get booking link",
+  "read enquiry form",
+  "prepare enquiry",
+  "submit enquiry",
+  "explore nearby places",
+  "inspect travel video",
+  "render property cards"
+ ],
+ "effects": {
+  "5f3539433929e89e8478beb068538d6959dbaef44e24d19d9527e3fbe8a8f06a": "write",
+  "de526b148efecd2efee785c6f9d88c58bc7d5c8e75b00b1ef05b1b1dff489c29": "write",
+  "2591a9ed05e666f2f1fa91ad554c845c3172847879bf49686986851dc85a6231": "write",
+  "80e74138f84835c7c1313cbc886e7d739ce89523cd00fa8a2d7a5e041be76ce9": "write",
+  "d9f540e066ae3e13033c31dc8896624fa915a1a08fe2461f99e76f4162af01b6": "write",
+  "b34fd6f7900f1eed33dd8154c56af792fd52e60e54e09ea4bf4e6e2be481a886": "read",
+  "c932990ab58aca7f21ecf1bd52fbd7dcf0e5184013f19333090bfe50366cf214": "read",
+  "aa77a042be982a6d7b8afffb520eb524a7043179f3450110a8ea6948e9ef9262": "write",
+  "fe992d60a9ba2c737dac4ae86b2ec9da6ec05a65d55852b9b01afa79d924da45": "write",
+  "bc3a74976563fddc97a8996c1f83aa22d1678cbc664eba4694326fd2cd5d46e5": "write",
+  "f9c77d8fe64050c279d0189526956c4ab665ac861faf5709b0c4fa9314e05ed9": "write",
+  "1c710bd82589ccd71329ec02efffc5d103e6063c584f745fdb95d482c72bbd5b": "read",
+  "710faceccf761f2dfc0ad799458c5230d4e182dd26e3eef2c59356ba854677ed": "read",
+  "3c6feb82aa13becd96b58b83b5979351c2f44ab4ccfbe842e09980299a8d5a94": "write",
+  "338b291279a36e102d83d53d42eecdc8c842f08f938e3992565900becd92a936": "write"
+ },
+ "flags": []
+}

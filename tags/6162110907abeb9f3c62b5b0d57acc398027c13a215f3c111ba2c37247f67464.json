@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "6162110907abeb9f3c62b5b0d57acc398027c13a215f3c111ba2c37247f67464",
+ "domain": [
+  "marketplace/classifieds",
+  "real-estate"
+ ],
+ "product": [
+  "unegui-mn"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches Unegui.mn classified listings and new developments in Mongolia, shows details and can reveal seller contacts.",
+ "whenToUse": "Use when searching for items or properties on Unegui.mn or contacting a seller.",
+ "tasks": [
+  "search listings",
+  "get listing details",
+  "reveal seller contact",
+  "list categories",
+  "get category filters",
+  "search new buildings",
+  "get new building",
+  "reveal developer contact"
+ ],
+ "effects": {
+  "b025f914750926eafe05410e5a292bd8621df09e27d6b7f180ce8e7ca5da3b7d": "read",
+  "c8990f27c7c4ff6c49b51ef91b5f170d1351224703b34dee96ef27929279d081": "read",
+  "590f7df077826460af861c87b5a81351b67b4c02a098a61605f652cf61086e0c": "read",
+  "c875eb111cd30ca5d66fa1f1cd598962853d1631279283faaebd96c0327bbf95": "read",
+  "1690d0fa52cd3faec27248a30e4b668ab1c4951dd5c716aabf96956e8a43f8a4": "read",
+  "14b149e7031a5718351f5c8ca8426d3e55c5a7b9a2aace9001a0ec7cf9d15d61": "read",
+  "d1b1d1cbaec94d62953e0773b83804a6c39c9ee5766c9b09cbdefec645caed63": "read",
+  "2342b4ea9e8d49f7258101c7f719835c1e2935a7cf08988abedd38a1cbc577bb": "read"
+ },
+ "flags": []
+}

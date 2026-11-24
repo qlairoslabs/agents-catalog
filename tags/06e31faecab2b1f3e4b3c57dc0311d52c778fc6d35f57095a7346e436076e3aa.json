@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "06e31faecab2b1f3e4b3c57dc0311d52c778fc6d35f57095a7346e436076e3aa",
+ "domain": [
+  "trade/customs",
+  "logistics/export"
+ ],
+ "product": [
+  "zoll-agency",
+  "dhl"
+ ],
+ "audience": [
+  "operations",
+  "finance"
+ ],
+ "goal": [
+  "stay-compliant",
+  "sell"
+ ],
+ "summary": "German-language EU customs helper for exports and imports: cumulation, preference proofs, Incoterms, tariff codes, declaration need and invoice pre-checks.",
+ "whenToUse": "Use when a user needs EU export or import customs rules, such as proof of origin, Incoterms, commodity codes or whether a declaration is required.",
+ "tasks": [
+  "check origin cumulation",
+  "determine preference proof",
+  "choose Incoterms clause",
+  "search commodity codes",
+  "check if export declaration needed",
+  "search customs guides",
+  "determine import route",
+  "pre-check commercial invoice"
+ ],
+ "effects": {
+  "6356670a9868673f3c539b15f71675aa13af156e0e2d5141bb2f22a6777a3c83": "write",
+  "34141aa04e3eaf67f61c2a555cb753c3f62b958decec73eb2c47c01adb3f8f0c": "read",
+  "667aeda0b6cc345cfc63284762b6b7f415834f129526d6f37b41408dd472eb91": "read",
+  "5788f8ca0154b827418ab6388c0e34f1b13b0c58e68c166cf40761d7dfd748d6": "read",
+  "6fe557657244d4dbfc800fcca5cf13d7810651e127974eb9d0db3362d8b01931": "read",
+  "2b0035c9f2096d599a532aff7d4f915bb714709b97fc5c7223e100ad0758640b": "read",
+  "8c36a4e55beb00306c31f0b7e3ce46da5eabc251f99b7c664420113d72592d0d": "write",
+  "773ce440c6b20cba33bc3fbbe553f81f7cf44352dd6c7f5c59a59d45fe5117c7": "write"
+ },
+ "flags": []
+}

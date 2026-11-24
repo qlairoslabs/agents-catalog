@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "51e510d85b79139dcb5e117516371d0ec5643cd8df15cdd2078f506b97e7011d",
+ "domain": [
+  "design/file-conversion",
+  "design/3d"
+ ],
+ "product": [
+  "imagetostl"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "Converts 3D model files between formats and images between image formats, via URL or upload.",
+ "whenToUse": "Use when a user needs to convert a 3D model or image file to another format.",
+ "tasks": [
+  "list supported formats",
+  "create upload link",
+  "start conversion",
+  "check conversion status",
+  "delete conversion files"
+ ],
+ "effects": {
+  "5d4d97e0e5a0959cc025fe0c8b93ae543c21c74178101aacdd4428ede264810c": "read",
+  "8d822fce43856bfb696367038c6be55dd70d888f8a750290220091336fed2381": "write",
+  "178a05ec32a0372bbba8d7aa1f991894e152cab9428c3160db4c953135f0339e": "write",
+  "621b5d744d40e42ebe0b832c55f67642ac8695b04f6bf3446f42e1bbafbb964f": "write",
+  "4f8a286c43cc07f8a68ec072c79e0a66c7d284078ce313815aab132b3c2a5cea": "read"
+ },
+ "flags": []
+}

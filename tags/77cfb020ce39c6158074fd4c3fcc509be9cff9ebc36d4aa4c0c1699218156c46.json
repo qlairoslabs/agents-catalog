@@ -1,0 +1,50 @@
+{
+ "classifier": 2,
+ "contentHash": "77cfb020ce39c6158074fd4c3fcc509be9cff9ebc36d4aa4c0c1699218156c46",
+ "domain": [
+  "business/growth-coaching",
+  "payments/x402"
+ ],
+ "product": [
+  "x402",
+  "usdc",
+  "base"
+ ],
+ "audience": [
+  "marketing",
+  "sales",
+  "operations"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Pay-per-call growth coaching, small utilities (QR codes, ICS files, image resize) and a review-request sending action, settled in USDC on Base via x402.",
+ "whenToUse": "Use when you need paid growth advice, a small utility, or to send a consented review request, and can pay with a USDC wallet.",
+ "tasks": [
+  "list growth coaches",
+  "get sample coach response",
+  "call a growth coach",
+  "send review request",
+  "generate QR code",
+  "convert time zones",
+  "convert markdown to HTML",
+  "create calendar ics",
+  "check website growth signals",
+  "resize image",
+  "fetch payment receipt"
+ ],
+ "effects": {
+  "e524bbfd2559108c132569639f16936a22dd98dafe0c43f6173cca2e22b33e33": "read",
+  "b1fac40166ca06208d75b2ebf597dd432a23a7ad034c2f39fe8c160f1f934393": "read",
+  "a6e07128577febcfc5e905cd123cb7f34533415eee857e88dcc0f40c8da5b4f4": "read",
+  "111dfab36f87be3a71b0936ba04d7cbcb52a815423b42eb9625fdb8936d39671": "read",
+  "0bb031c5e9ce458b57cbc19951a7381284739c2211afdf9518bc8f298225dc7a": "read",
+  "e00e6738d243d7dc263ca73e6ed822303baec9efcc8ef4022c4717f4b5c42a2c": "risky",
+  "dfc02353ca152eaf58283f8b9856f408c31dd01108086d4c614a3b8809b2d6f6": "risky",
+  "e92d1f27d6c7e432bc61e9fe6cc2fbb6550dae9ead7a0cae0c352695e568be90": "risky",
+  "afeaa2228a77c4ef92e7abfb86ef9e99510b3311c9ff78bd4dba11e69433ceee": "read"
+ },
+ "flags": []
+}

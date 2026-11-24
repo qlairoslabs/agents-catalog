@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "61ff661a52a50efb8ba7ecc19e795c9121f1c2e67b7c30936208a420d4007823",
+ "domain": [
+  "civic/legislation"
+ ],
+ "product": [
+  "us-congress"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Read-only nonpartisan US Congress data: plain-language bill summaries, bill search, representative lookup by ZIP, in English and Spanish.",
+ "whenToUse": "Use when a user asks about a federal bill, what Congress is doing, or who represents them.",
+ "tasks": [
+  "look up representatives by zip",
+  "get bill decode",
+  "search bills",
+  "see what is moving in congress",
+  "get representative details"
+ ],
+ "effects": {
+  "2a2f9073f4b8aa2d250b9d3954525d8328adc9fb82c76a890c8b74db2aa843cd": "write",
+  "0346330383ea64bd9366ad275040a7b41bc21df300a18147dc622222c99adcce": "write",
+  "52ffd75b0cf5849541d9d12f6af0eb75eb02636d661572be259fe8cfb0918287": "read",
+  "8e0a83f70a3169216bb20b502dc9be12e95dd88228e08729c68aa609b7060f67": "read",
+  "707844108548e1dc11cb4d1a7864bc8318be1a715321d8112d91b6f88855c24a": "read"
+ },
+ "flags": []
+}

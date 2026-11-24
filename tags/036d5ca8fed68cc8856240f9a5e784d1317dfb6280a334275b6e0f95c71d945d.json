@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "036d5ca8fed68cc8856240f9a5e784d1317dfb6280a334275b6e0f95c71d945d",
+ "domain": [
+  "software/coding-agents"
+ ],
+ "product": [
+  "sinatra",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Hosted coding agent whose tasks can be started, followed up and stopped, and can open GitHub pull requests.",
+ "whenToUse": "Use when delegating coding tasks to a remote agent that produces pull requests.",
+ "tasks": [
+  "start coding task",
+  "follow up on task",
+  "stop task",
+  "open pull requests"
+ ],
+ "effects": {},
+ "flags": []
+}

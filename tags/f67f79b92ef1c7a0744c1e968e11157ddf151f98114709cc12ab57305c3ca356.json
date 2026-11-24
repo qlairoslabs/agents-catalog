@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "f67f79b92ef1c7a0744c1e968e11157ddf151f98114709cc12ab57305c3ca356",
+ "domain": [
+  "travel/hotels"
+ ],
+ "product": [
+  "vicatoo"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "schedule"
+ ],
+ "summary": "Search hotels in Arabic or English with live rates, reviews and room videos; booking completes on vicatoo.com.",
+ "whenToUse": "Use when a user wants to find hotels, compare live rates or read reviews.",
+ "tasks": [
+  "search hotels",
+  "get hotel details",
+  "check availability and rates",
+  "read guest reviews",
+  "get room video",
+  "learn about VICATOO"
+ ],
+ "effects": {
+  "5a901ca629b9bfe6d5f77c3ba4ef4c263f16138ad7a798042da014d609204bee": "write",
+  "dc41e8af2f35f5fc596db5d752f4b34d31b4ad635d5901aa32f0de2dc7e30bc9": "write",
+  "59d7b1e577bcc72ac34d0c7be8129d08e4b31a44785d0a8345c28835c7e712c1": "read",
+  "60ba3ca6da67d6a9c8995eb5f9baea0ef50f6db7db42b606d8a8d19314552834": "read",
+  "473d2b9cb1846a7bd2088935e9d801e5905e0a0cb0c155d6f5aa99ad05b4bc73": "read",
+  "cd23649f5d10097963574bd3415a6164db01cd92ae8c316b24a881cc9f62bc5a": "read"
+ },
+ "flags": []
+}

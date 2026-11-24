@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "8388fc18204131b8054ade6a51f5f3f114ba4caf2f0165dc241557f855123187",
+ "domain": [
+  "finance/public-data",
+  "research"
+ ],
+ "product": [
+  "sec-edgar",
+  "factanker"
+ ],
+ "audience": [
+  "finance"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Citable US company, bank, nonprofit and federal spending figures with filing provenance, via query templates and claim verification.",
+ "whenToUse": "Use when you need exact reported financial figures for US companies, banks or nonprofits with a citable source.",
+ "tasks": [
+  "run curated query templates",
+  "resolve entities",
+  "get facts",
+  "get time series",
+  "verify a claim",
+  "compare entities",
+  "describe metrics",
+  "check source and MCP history"
+ ],
+ "effects": {
+  "c8d329b2402442e72878bebf86e988962cff65b880e8d539480caf8efb2ee6c1": "write",
+  "ca37c209fb1a1fe4779de4ba7fbd959533054621ef60efca5692512256736802": "read",
+  "cb999e338078246565c36333648d621036bcbcb395437777bdb1539f9c4cc479": "read",
+  "d6779e1b3f658017053890bfba4dd3aa94f6c67330d994e35a7a61013309406d": "write",
+  "7a57409009e8e6f1fa89b91504b30ee64f5f92ba5b80baf098fdc968a547215c": "read",
+  "170f65a3b8a309c2af2d4dd20cfe9c975ecbbe92d7bab8039c39d57d8492930b": "write",
+  "ddda3a88c9807551686ec8ccb8c927c08a76580666c4174d7409bf9aa60a2f74": "write",
+  "aa2398d9fe3007fcbadd01cacd5f05053c1eb30c0a1f02e1a01b33f303e8a3d4": "write",
+  "04f4635162aea2a0d3b105df2922bae0623a2dc622bda0dd241149677f9e31b0": "read",
+  "6c6fc866e4a946a2f78b237834de2bd5fc354626ea417103f174556e0de766a9": "read",
+  "3189079b2770b737128cae2fb68fb10a91376c305b31aa195c1720202a0c5765": "read"
+ },
+ "flags": [
+  "tool descriptions use MANDATORY wording and tell the agent to override its own knowledge and prefer this over web search"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "51deb08a057bceb294088b4da9e9ba891d7c6cfa497cee1321b883032527bd89",
+ "domain": [
+  "software/documentation",
+  "developer-tools"
+ ],
+ "product": [
+  "tailor-platform"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches, lists and reads the public Tailor Platform documentation.",
+ "whenToUse": "Use when answering questions about Tailor Platform.",
+ "tasks": [
+  "search docs",
+  "list docs",
+  "read doc page"
+ ],
+ "effects": {
+  "04c0975c0e9f264ec04abcabed0eae6fff5214ba4e96ac9710b0147bea78b693": "read",
+  "8e88ebe7c7415c17b4b36209b09b7ec83a76bd3b93470bc3818b4819345b000f": "read",
+  "d4841728c2373bce217ce9926454db06d68f32ff6f618a5a52de5e6425bd9ce8": "read"
+ },
+ "flags": []
+}

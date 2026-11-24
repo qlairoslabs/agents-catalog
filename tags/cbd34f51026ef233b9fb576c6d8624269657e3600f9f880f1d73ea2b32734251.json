@@ -1,0 +1,43 @@
+{
+ "classifier": 2,
+ "contentHash": "cbd34f51026ef233b9fb576c6d8624269657e3600f9f880f1d73ea2b32734251",
+ "domain": [
+  "web/domains-hosting",
+  "web/support"
+ ],
+ "product": [
+  "host-al",
+  "plesk",
+  "virtfusion",
+  "paypal"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "be-online",
+  "support-customers"
+ ],
+ "summary": "Checks .al and international domain availability, lists Host.al hosting and server products with prices, and answers support questions.",
+ "whenToUse": "Use when checking domain availability or prices, finding Host.al servers, or answering questions about hosting in Albania.",
+ "tasks": [
+  "check domain availability",
+  "get domain prices",
+  "list hosting products",
+  "generate order link",
+  "search help articles",
+  "browse help topics",
+  "get company info"
+ ],
+ "effects": {
+  "d2faa8c5971422a9845a0f716f5b0d028366402dae16c74d80e3ee8db05876da": "read",
+  "10b63ffee883d965f4e8f8fab10a2a6b9261c207727bec8248a6381c1dcb9f98": "read",
+  "15eb1836d1a27fdde6b6e63f507d4aaeea1eb6f344b148b3d5cf6de8c0bfe3b2": "read",
+  "af1c8392c9a29aecfcb6a5295c84a591215161eed2b2332afa96e72a2e967d63": "read",
+  "3cb0a292d56ec38871fcb6ea751eae63b158fcd11383026c872c1368f59e8f49": "read",
+  "6021891c9b06ad3bb6f34f478e988ba0a08c2088737aaaceeedb9c7e27278d27": "read",
+  "63805d14f08a1d284c800b614a3a41cb2327960e85626b0cf575ad49dd9e4d4f": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "180c6c3dd0ef8040b75429178b16c0cab15aae31a6fe1a8359ad0a833a1a3a3f",
+ "domain": [
+  "real-estate/building-permits",
+  "construction"
+ ],
+ "product": [
+  "permitstack"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "understand-what-is-happening"
+ ],
+ "summary": "Provides US building permit records, permit history by address and contractor information from city and county sources.",
+ "whenToUse": "When a user researches permits at a property or wants to find contractors from permit records.",
+ "tasks": [
+  "search building permits",
+  "get permit history by address",
+  "find contractors"
+ ],
+ "effects": {},
+ "flags": []
+}

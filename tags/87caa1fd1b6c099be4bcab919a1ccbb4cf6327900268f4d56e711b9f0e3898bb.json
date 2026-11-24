@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "87caa1fd1b6c099be4bcab919a1ccbb4cf6327900268f4d56e711b9f0e3898bb",
+ "domain": [
+  "health/lab-results"
+ ],
+ "product": [
+  "libby-health"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Gives an AI assistant read-only access to a person's own lab markers, trends and reports.",
+ "whenToUse": "Use when the user wants to review or interpret their own lab results and how they change over time.",
+ "tasks": [
+  "read lab markers",
+  "view trends",
+  "read lab reports"
+ ],
+ "effects": {},
+ "flags": []
+}

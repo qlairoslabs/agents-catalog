@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "ca242f4ef51f07bb62e4dfdbdbdb7fa83b97baacecd4e71d23621ee212376522",
+ "domain": [
+  "content/web-publishing"
+ ],
+ "product": [
+  "outbox"
+ ],
+ "audience": [
+  "everyone",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "be-online"
+ ],
+ "summary": "Publish and manage HTML pages in an Outbox library from any MCP client.",
+ "whenToUse": "Use when an agent should publish or manage HTML pages it generated.",
+ "tasks": [
+  "publish HTML pages",
+  "manage page library"
+ ],
+ "effects": {},
+ "flags": []
+}

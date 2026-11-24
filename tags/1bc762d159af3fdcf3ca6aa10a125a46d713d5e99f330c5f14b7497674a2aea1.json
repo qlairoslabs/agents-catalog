@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "1bc762d159af3fdcf3ca6aa10a125a46d713d5e99f330c5f14b7497674a2aea1",
+ "domain": [
+  "software/design-systems"
+ ],
+ "product": [
+  "tseha"
+ ],
+ "audience": [
+  "development",
+  "design"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Provides a team's design system and coding standards to coding agents.",
+ "whenToUse": "Use when a coding agent should follow the project's design system and coding conventions.",
+ "tasks": [
+  "serve design system",
+  "serve coding standards"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "5888b6e426ee4e8ea09e4d9c6f4c6232687d708bd5a9ddd2bb3c7a9186f1d64d",
+ "domain": [
+  "maritime/vessel-registry"
+ ],
+ "product": [
+  "ukrainian-state-ship-registry"
+ ],
+ "audience": [
+  "operations",
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches the Ukrainian State Ship Registry and Ship Book by registration number, name or owner, and returns records and counts.",
+ "whenToUse": "Use when you need to identify or check a Ukrainian-registered vessel.",
+ "tasks": [
+  "search vessels",
+  "look up by registration number",
+  "get registry statistics",
+  "get dataset metadata"
+ ],
+ "effects": {
+  "3065c6f874e0c2a34292e25697d514bfbb3c96d3a2462f2942e92a1e19f5ae1c": "read",
+  "f099e8fc59395c9780c9530e0300c673f2e5d9e37d8787ce2af611da88b5a764": "read",
+  "db5a06bca40be03fb022d2259d29a2d394fe659355632c1310621ec44644a7c9": "read",
+  "537c17e46910aea179eac0eb51c515af9fe549718aee2ec48c4896e18826b7b3": "read"
+ },
+ "flags": []
+}

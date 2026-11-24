@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "a61c968148a4a1f1356ab5c945419e89c2f377cf8f0d086e3b9a983cdebc4a50",
+ "domain": [
+  "software/networking",
+  "software/cybersecurity"
+ ],
+ "product": [
+  "ipv4.fr"
+ ],
+ "audience": [
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Network diagnostic tools: DNS, WHOIS, SSL, IP geolocation, email validation, DNS blacklist checks, HTTP headers and subnet calculation.",
+ "whenToUse": "Use when you need to inspect a domain, IP address or email for DNS, certificate, blacklist or header information.",
+ "tasks": [
+  "DNS lookup",
+  "WHOIS lookup",
+  "SSL check",
+  "IP geolocation",
+  "email validation",
+  "blacklist check",
+  "HTTP headers",
+  "subnet calculation"
+ ],
+ "effects": {},
+ "flags": []
+}

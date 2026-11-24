@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "e27661e951e7c9e526cc1d8076b1b3897ef55541c91d478f66a59d1a294882f7",
+ "domain": [
+  "it-services/managed-services",
+  "business/faq"
+ ],
+ "product": [
+  "microsoft-365",
+  "effset"
+ ],
+ "audience": [
+  "everyone",
+  "operations"
+ ],
+ "goal": [
+  "support-customers",
+  "sell"
+ ],
+ "summary": "Searches validated public answers about Effset's IT services, Microsoft 365, web services and plans in Quebec.",
+ "whenToUse": "Use when someone asks about Effset's services, packages or terms.",
+ "tasks": [
+  "answer questions about services",
+  "look up plans and terms"
+ ],
+ "effects": {
+  "8d131bb31bbabb597d7c60b676f962ca94281f4d127ce114a7df3bb166370e4c": "write"
+ },
+ "flags": []
+}

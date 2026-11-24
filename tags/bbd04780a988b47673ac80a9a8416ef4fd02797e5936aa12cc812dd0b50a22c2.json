@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "bbd04780a988b47673ac80a9a8416ef4fd02797e5936aa12cc812dd0b50a22c2",
+ "domain": [
+  "marketing/personal-branding"
+ ],
+ "product": [
+  "milanaura",
+  "linkedin"
+ ],
+ "audience": [
+  "sales",
+  "marketing"
+ ],
+ "goal": [
+  "get-customers",
+  "create-content"
+ ],
+ "summary": "Runs a free review of a professional's public profile, returning strengths, the biggest visibility gap, a first action and a draft post.",
+ "whenToUse": "Use when a professional wants feedback on their LinkedIn-style profile and a post in their voice.",
+ "tasks": [
+  "analyze professional profile",
+  "identify visibility gap",
+  "suggest first action",
+  "write authority post",
+  "fetch check result"
+ ],
+ "effects": {
+  "981dcb75dcbc6482f4c9316934db967f59ca0c8dce6adec0a341ed39c70c890d": "write",
+  "7b3ad7b0395d429e77bc23ed7480155e15fbfd19a0892fac86f02ef028a0a6a9": "read"
+ },
+ "flags": []
+}

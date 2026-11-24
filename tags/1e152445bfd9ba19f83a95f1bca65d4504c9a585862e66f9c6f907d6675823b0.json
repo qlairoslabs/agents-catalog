@@ -1,0 +1,45 @@
+{
+ "classifier": 2,
+ "contentHash": "1e152445bfd9ba19f83a95f1bca65d4504c9a585862e66f9c6f907d6675823b0",
+ "domain": [
+  "finance/credit-cards"
+ ],
+ "product": [
+  "maxworth",
+  "amex",
+  "chase",
+  "rakuten",
+  "topcashback"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Public data on credit cards: annual fees, statement credits, earn rates, card offers and cashback portal rates.",
+ "whenToUse": "Use when comparing credit cards or checking credits, offers and cashback rates in the US, Canada or Australia.",
+ "tasks": [
+  "search cards",
+  "get card details",
+  "list credits",
+  "compare cards",
+  "search cashback portals",
+  "search card offers",
+  "read credit deadline report",
+  "search pages"
+ ],
+ "effects": {
+  "41974228c853076c7943489d5ca85ee8b7f9eff183c0469b129523c38caeeacd": "read",
+  "833b72b537e0f6c1f135a36b991d0370bea1f65d616750d57aa65d102f5e8a93": "read",
+  "95cf735093b3d47f75bef3d050afcc5c079a08d937b1fc017e45a1459b239a42": "read",
+  "9c1e939415858ac517e3f6ff9c237f3efc49563553e4b10a54af856ae70f3c90": "read",
+  "8256a1e572d6280c442d257afa94c4ebd169a22279cfce74834958d68d5dafb7": "read",
+  "9218c691160f144b1c34ed61b9467ccbcb544f775e7fe85a5d756c599a2fcdd1": "read",
+  "14ce93c65b92c07adb237ba10f5b51f386bbdbcdf0dc0a27f31a9b8228948b6b": "read",
+  "28bd734e09614251c47b342a07c083237519c7915932dbc96b9b8b5834c0a3cc": "read",
+  "efa84a00067def9088867090d9b9bdb72f58ec2a1bdf8f3fe88142e84c0bad8f": "read",
+  "2480b822246212dfbfc96162d89f38160f706b9a6986f73ed94de58b8d2a4910": "read"
+ },
+ "flags": []
+}

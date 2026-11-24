@@ -1,0 +1,37 @@
+{
+ "classifier": 2,
+ "contentHash": "97e19c4a50cb0407dfad126cb893e4de7a2e87bb55c433898e71de99c6ab1b61",
+ "domain": [
+  "real-estate/land-registry",
+  "legal/property"
+ ],
+ "product": [
+  "hypotheques-en-ligne"
+ ],
+ "audience": [
+  "finance",
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "stay-compliant",
+  "get-customers"
+ ],
+ "summary": "Quotes prices for French land-registry documents such as mortgage status reports and deeds, lists subscription tiers, and gives order links and guides.",
+ "whenToUse": "Use when a user needs the cost of a French land-registry document, a subscription price, or a link to order one.",
+ "tasks": [
+  "quote document price",
+  "list subscription rates",
+  "route by profession",
+  "get order links",
+  "search legal guides"
+ ],
+ "effects": {
+  "ae3a7b34a1de27a861ecbc51b170ef5c0d44b22f1592e73abf4a9a4bb977f0b3": "write",
+  "37d0b765e04ba4ea233c6f580ef5e6903aa7ad3cbacaf64acf40eb839f4cedcd": "read",
+  "65534875dba844124edb01173d71efe410623403d28794f1e8f334f6863737af": "read",
+  "7b9adef31d11bd77a9d4ccfd4d24a1a665b6a6b1e361d96ec36e2337a3bf653b": "write",
+  "98a0785cb98bd8bd3acbea7585d259fe17b65fe2c57f5bba3e3e485a9beaa80a": "write"
+ },
+ "flags": []
+}

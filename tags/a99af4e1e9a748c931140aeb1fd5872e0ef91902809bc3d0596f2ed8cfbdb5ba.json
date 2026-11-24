@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "a99af4e1e9a748c931140aeb1fd5872e0ef91902809bc3d0596f2ed8cfbdb5ba",
+ "domain": [
+  "finance/payments-directory",
+  "data/api-discovery"
+ ],
+ "product": [
+  "x402",
+  "usdc"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "run-the-money",
+  "automate-work"
+ ],
+ "summary": "Directory of paid x402 APIs with delivery outcomes from real USDC purchases, to check reliability before spending.",
+ "whenToUse": "Use when an agent must pick or vet a paid x402 endpoint before paying for it.",
+ "tasks": [
+  "search paid services",
+  "get service details",
+  "resolve endpoint",
+  "see agent demand"
+ ],
+ "effects": {
+  "2709be23f1bf17ab9ca14d87574b5fc8f67a852764de2755fb026f6363635013": "write",
+  "45264a3653f2275c8925a22c1cebfc7fdb840a00b49c64f2e3ae078473d964a4": "write",
+  "20e36dc1975ef8fabd0b19c9fd8d083b1d16e311a684e5200b9b8030deccfeb3": "write",
+  "8686d79efba4a4a6f8b352e01c68dc9bcc7e8350811491420792e584f878feab": "write"
+ },
+ "flags": []
+}

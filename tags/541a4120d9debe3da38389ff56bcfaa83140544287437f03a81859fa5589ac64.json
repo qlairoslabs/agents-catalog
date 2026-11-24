@@ -1,0 +1,36 @@
+{
+ "classifier": 2,
+ "contentHash": "541a4120d9debe3da38389ff56bcfaa83140544287437f03a81859fa5589ac64",
+ "domain": [
+  "hr/healthcare-jobs"
+ ],
+ "product": [
+  "carejobs"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "hire-and-manage"
+ ],
+ "summary": "Searches open US healthcare jobs across hospitals and health systems with posted pay, employer data and visa sponsorship records.",
+ "whenToUse": "Use when finding US healthcare jobs, pay benchmarks or employers' visa sponsorship history.",
+ "tasks": [
+  "search healthcare jobs",
+  "compare posted pay",
+  "view job market stats",
+  "browse jobs by state",
+  "list employers",
+  "check employer visa record"
+ ],
+ "effects": {
+  "8693bb6ee37d5fc4aef98d454fa9eda03958991cd586a03320525e16ab06c4d6": "read",
+  "3787f292cf3f322297bc2ef0de7e5a8bee46ab1b9e2ac5e43276deb9594fb633": "read",
+  "470df5e9da6183a9764401e01349fcd20f56d00e97f5990da972eb2938eead13": "read",
+  "5756b74166a1addd6ed7a4fda352b88a4b3cf67eaf0553b26f2a0f01dc501253": "read",
+  "e03f20ca0d72428de163f268e3bc1b977c8c46f87e643dfc6f5a3ba625ef21a0": "read",
+  "c9c4974aff942f8dcc71fca238c869a3029b137ba417d641a2eee198b2e04d3b": "read",
+  "ee372a086c171353d73256174939051292599db5d683aa09b0a22beb02f5aabc": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,38 @@
+{
+ "classifier": 2,
+ "contentHash": "044e31948e208734d43602c7ca20cec82212a03b757d26bb8f79b5a453acd01e",
+ "domain": [
+  "ecommerce/shopify",
+  "web/performance"
+ ],
+ "product": [
+  "shopify",
+  "google-pagespeed-insights"
+ ],
+ "audience": [
+  "marketing",
+  "development",
+  "operations"
+ ],
+ "goal": [
+  "be-online",
+  "sell",
+  "run-the-money"
+ ],
+ "summary": "Tests Shopify store speed and Core Web Vitals, detects theme or headless storefronts, and compares Shopify plan fees for a sales volume.",
+ "whenToUse": "Use when assessing a Shopify store's performance or comparing Shopify plan costs.",
+ "tasks": [
+  "test store speed",
+  "list slowing apps and scripts",
+  "detect Shopify theme or headless",
+  "compare plan fees",
+  "send feedback"
+ ],
+ "effects": {
+  "37b4c00f64510dcd6a7f8119a2e8f133c84e025fd2935c145bec9937e1ac70df": "write",
+  "cff02ad9c22cee3d56d5abd3737453c3c31920f654b8c2f90dad980e8283a85b": "write",
+  "bd149bb5fc5d82180931eb521fae24f2bc341917ee64da7ee89117503a338493": "write",
+  "9793d4ef38f0e2f88b3e781ba8ffe67443fd9e7f24ef4c97637608aac0c07c69": "write"
+ },
+ "flags": []
+}

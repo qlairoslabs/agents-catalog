@@ -1,0 +1,52 @@
+{
+ "classifier": 2,
+ "contentHash": "839e3e8ba5658d914ceca873e3dfb4787edf27068154745108cf4d2d31cec859",
+ "domain": [
+  "retail/wholesale",
+  "e-commerce"
+ ],
+ "product": [
+  "wholesale-holland"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Lets an agent browse a Dutch B2B wholesaler's toys, gifts and party goods, build a cart, check shipping and place and pay for an order.",
+ "whenToUse": "Use when a business buyer wants to find wholesale toys, gifts or seasonal items from this Dutch store and order them.",
+ "tasks": [
+  "search products",
+  "browse categories",
+  "view product details",
+  "edit cart",
+  "check shipping costs",
+  "start order",
+  "set checkout details",
+  "place order",
+  "check payment",
+  "cancel payment",
+  "view order history",
+  "get store info"
+ ],
+ "effects": {
+  "dd6a8a4789607f3ebd6cb0c6a18d42c9b1e7e7b7e1597265846b187defa01df0": "write",
+  "f5ea5382b00d0e01bfc277cf29f615dfafb6fde6b80325bf81a7aaa4ef76310d": "write",
+  "9decd7636128e415fe777258ccc35f2b87bfdf5c3cbd4c026fe9a2d3965440c5": "write",
+  "984228707cf4b23d8807af64f599be2b652f4c1761f25a0f75066a6107b57393": "write",
+  "1b67a1d559e3977c3474e9f35537142b2a674ead21b95068f8c1d599088100e4": "read",
+  "51588594449d535b03de189e63c36212debaf66ae145ceaca9fa2ef6c03bfd8f": "read",
+  "7d6cd818c52a2b03bbc1ee2e928aabdb572858b61412a601e32b833c0fb3151c": "write",
+  "738b38b9c73a73e5d45cbe5870e5980d0d51340b51d192aba05369f0b36d9095": "read",
+  "26251eddba598a16b23d8c654051b8da0c6a694b5a19c0aa98575ad283590181": "write",
+  "a3b5387c518bc6fc427a05cc818b1e94ccb6b797d3a6f328b0e8708a981264aa": "write",
+  "c24cf93eded3397ce0b8a115a6b50ca10dd9759201a28a6d96bb8cd8e6a309a9": "risky",
+  "fd26e2fd81a20a077ff7c8e27ea7c40a5e2fa988e56267361134f29987962bdb": "read",
+  "8f858930b0c1e9580919cbbbc559eb6d39c9b1d406a0265e50483bbf23311fb5": "write",
+  "9f2267d3536a94654be96c200b109733a01f9a4a8e7d08695a183b26075c91b3": "write"
+ },
+ "flags": []
+}

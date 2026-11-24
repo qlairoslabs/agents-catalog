@@ -1,0 +1,58 @@
+{
+ "classifier": 2,
+ "contentHash": "575712dab0ebbd5b9323e3884408ae475a06f4f27f110bdb29eb55a7b80ffd86",
+ "domain": [
+  "industrial/oil-and-gas",
+  "manufacturing/machining"
+ ],
+ "product": [
+  "feode",
+  "nov-grant-prideco"
+ ],
+ "audience": [
+  "operations",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell",
+  "build-software"
+ ],
+ "summary": "Company information, product specs, drill pipe reference data and enquiry or RFQ submission for FEODE's offshore well services and machining.",
+ "whenToUse": "Use when researching FEODE's subsea wellhead, drill pipe, abandonment or machining capabilities, or when sending an enquiry or RFQ.",
+ "tasks": [
+  "get company profile",
+  "list lines of business",
+  "get product specs",
+  "list certifications",
+  "get track record",
+  "search website",
+  "look up drill pipe specs",
+  "get drill string guidance",
+  "get machining terms",
+  "submit machining RFQ",
+  "submit enquiry"
+ ],
+ "effects": {
+  "13a0dba654fe384a701b170f8253901a0bf04a8670de42962346356ad11dadf9": "read",
+  "55fe5a2b3e88e068c6eff6c31a9dccd375643a0177e935755d621fbd0976827e": "read",
+  "917ccdae0e3ff5cac7ba10ffd14a1ae27b8701243bb3d150d421ed5ce1390625": "read",
+  "ed42fe3ed92c6503f7a64aaa9f9621bb314d0e5c49263c1f7e7c9b40668631f2": "read",
+  "328f7da2e92d0fb99067dadef9300f8d79d4144f28be8ba273899a9d2fa2568c": "read",
+  "34feddbcf28f30667f44f5bb8d4ef4e3f828d8993bb29395e0b62165650ddaea": "read",
+  "35ddcba8353f35ffa9fa6c1af34b1cd0aa5f0f864950a42510e058f42938e49d": "read",
+  "2c9888391a522583a611cd8aae674af40776bed578080f4e892092c18f1a1e97": "read",
+  "3a8dad07a99517a7279bb91b68d17543578a15dc463e5e1d42a9bfe0977e952d": "read",
+  "3a380c0d7091e6c9827ccb7c1bf127bf9124e72ee814d176f90f9394cfbeb57b": "read",
+  "732342399e45563312bebcb6be05a3b4531215468f11f6859045c5d91d75699e": "read",
+  "1e674e130fff7c36965a2df24a6592c69b2e052f5cc092dd7578289a505a73bc": "read",
+  "7cc5e21b86f95ea9c769c46283ced1631b5cce30c5217d09ec203dee3bc13dfb": "read",
+  "253165be713d8d6fbdc761386712a1ee48323892bbfdd5d32730b9e12eb5783a": "read",
+  "40b790c4c2ba5a6cb4a5e52bcb46e00b5b5ed085554c96cf1823f19561804a38": "read",
+  "cef0850559c0926919f71caea6dfb32b79689f37cdc5133ef55a5d9c7d63da23": "read",
+  "9365c39dd0a98229f760ff1413ba400d26bf20ae1dbf8d2f6dcc393307dac265": "read",
+  "38ff18c1ea83cf8b92607e0bbb74bda343855952481343b70bcc30e0d2773791": "write",
+  "15f01bcc361cb7ec39744da51a7d6e5ceca388c0c8866921b6699b7e2fb468bc": "write"
+ },
+ "flags": []
+}

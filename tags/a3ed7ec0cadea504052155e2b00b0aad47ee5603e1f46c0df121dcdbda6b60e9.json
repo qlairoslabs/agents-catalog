@@ -1,0 +1,26 @@
+{
+ "classifier": 2,
+ "contentHash": "a3ed7ec0cadea504052155e2b00b0aad47ee5603e1f46c0df121dcdbda6b60e9",
+ "domain": [
+  "communication/messaging"
+ ],
+ "product": [
+  "telegram"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "keep-in-touch"
+ ],
+ "summary": "Use your own Telegram account to read, search and send messages and press bot buttons, with writes needing approval.",
+ "whenToUse": "When an agent needs to read or send Telegram messages on the user's behalf.",
+ "tasks": [
+  "read messages",
+  "search messages",
+  "send messages",
+  "press bot buttons"
+ ],
+ "effects": {},
+ "flags": []
+}

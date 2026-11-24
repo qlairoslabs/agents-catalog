@@ -1,0 +1,32 @@
+{
+ "classifier": 2,
+ "contentHash": "6bf10d77f4aba68024de7f53ac1f6d7b657887c18e2a22b93766ba2d200fe479",
+ "domain": [
+  "finance/revenue-analytics"
+ ],
+ "product": [
+  "stripe",
+  "paddle",
+  "polar",
+  "lemon-squeezy",
+  "creem",
+  "freemius"
+ ],
+ "audience": [
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "run-the-money"
+ ],
+ "summary": "Read-only revenue analytics drawn from Stripe, Paddle, Polar, Lemon Squeezy, Creem and Freemius accounts.",
+ "whenToUse": "Use when you need to look up revenue and subscription metrics across payment platforms without changing anything.",
+ "tasks": [
+  "view revenue analytics",
+  "compare payment platforms",
+  "read subscription metrics"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,39 @@
+{
+ "classifier": 2,
+ "contentHash": "87a76fd332abb65360315ed59e2a0d7545b346d9a418fa653298b6ceb820c185",
+ "domain": [
+  "commerce/classifieds",
+  "real-estate"
+ ],
+ "product": [
+  "somon-tj"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Searches Somon.tj classified listings and new developments in Tajikistan, shows details and reveals seller contacts on request.",
+ "whenToUse": "Use when looking for items or property for sale in Tajikistan.",
+ "tasks": [
+  "search listings",
+  "get listing details",
+  "browse categories",
+  "get category filters",
+  "search new buildings",
+  "reveal seller contact"
+ ],
+ "effects": {
+  "be85e387fbde56bfc3ec2df078fac62530b489959e643bfd3d709e8cfdf849c4": "read",
+  "be4e8c364cf21399f8bd8cf2bd81d1f2d6a201f70b2b3ff28d89a6f4b3deba72": "read",
+  "590f7df077826460af861c87b5a81351b67b4c02a098a61605f652cf61086e0c": "read",
+  "cc6d23b756a69fcd8e5bffcc02a93c3cec111b74554b7c59b678910b27e111de": "read",
+  "7e0f417cf544a416ac406079226414b6a6ec3b23e4d38b26d6fbd76b866d0eff": "read",
+  "50e64ab3bbfa4326a3a3e7caf7ed57a21699c1942ce1caf15104ac16eb8cb61e": "read",
+  "85a297288e6ea26942d62225e1138b18947599fbe391bdba24c89ac56ae770bd": "read",
+  "2342b4ea9e8d49f7258101c7f719835c1e2935a7cf08988abedd38a1cbc577bb": "read"
+ },
+ "flags": []
+}

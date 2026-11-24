@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "39a6ca0ba6bcafa4bdcd79ae7ca1756bcd218a0d860db3d1abba8e40b5c369ad",
+ "domain": [
+  "shopping/decision-support",
+  "research"
+ ],
+ "product": [
+  "octothinks"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches and retrieves reviewed decision matrices and buying guides with ranked options and weighted criteria in six languages.",
+ "whenToUse": "When a user is comparing products or options and wants a pre-reviewed ranked matrix or buying guide.",
+ "tasks": [
+  "search decision presets",
+  "filter by category and language",
+  "get full preset with options and criteria",
+  "read comparison FAQs"
+ ],
+ "effects": {
+  "d2380aa3860d83886f271cd654811fa6b45ea1229fdb966fe608d1461b3d442f": "read",
+  "58697314a1f296f184ad693f5396b00540c5051abed65b8f493f7b7d8ca88993": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "121766d8ff9e36654fdc7ef9d10d204c19b052cf546ed27d56b5f4529a05b849",
+ "domain": [
+  "chemistry/regulatory",
+  "software/hosting"
+ ],
+ "product": [
+  "iuclid",
+  "chesar",
+  "qsar-toolbox",
+  "4chems"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant"
+ ],
+ "summary": "Remote server for 4chems' hosted IUCLID, CHESAR and QSAR Toolbox services, covering onboarding, inquiries and administration.",
+ "whenToUse": "Use when managing or inquiring about hosted IUCLID, CHESAR or QSAR Toolbox for chemical regulatory work.",
+ "tasks": [
+  "onboard to hosted platform",
+  "send inquiries",
+  "administer accounts"
+ ],
+ "effects": {},
+ "flags": []
+}

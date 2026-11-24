@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "1565432b261bd8479bb55f35e9dba8a5e066d098f1f2dea2222d4318c02f8032",
+ "domain": [
+  "healthcare/consumer-health",
+  "ecommerce/supplements"
+ ],
+ "product": [
+  "gabriel"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Consumer health service offering cost-plus supplements, personal health routines, care search and clinician-reviewed prescriptions.",
+ "whenToUse": "Use when a user wants supplements, care search or a clinician-reviewed prescription through Gabriel.",
+ "tasks": [
+  "order supplements",
+  "track health routine",
+  "search for care",
+  "request clinician-reviewed prescription"
+ ],
+ "effects": {},
+ "flags": []
+}

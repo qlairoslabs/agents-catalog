@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "fd4588fe18ee578f460ab418929d4c7a714dde4e4c12f2b97dc14eeb2544ae39",
+ "domain": [
+  "software/cybersecurity",
+  "software/cryptography"
+ ],
+ "product": [
+  "rsa",
+  "ecdsa",
+  "cbom"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "stay-compliant",
+  "build-software"
+ ],
+ "summary": "Offline scanner that finds quantum-vulnerable cryptography such as RSA, ECDSA and DH in code and produces a cryptographic inventory and CBOM.",
+ "whenToUse": "Use when auditing a codebase for cryptography that needs post-quantum migration.",
+ "tasks": [
+  "scan code for vulnerable crypto",
+  "build cryptographic inventory",
+  "generate CBOM"
+ ],
+ "effects": {},
+ "flags": []
+}

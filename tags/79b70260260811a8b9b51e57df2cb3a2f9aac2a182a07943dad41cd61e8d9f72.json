@@ -1,0 +1,46 @@
+{
+ "classifier": 2,
+ "contentHash": "79b70260260811a8b9b51e57df2cb3a2f9aac2a182a07943dad41cd61e8d9f72",
+ "domain": [
+  "commerce/online-store",
+  "print-on-demand"
+ ],
+ "product": [
+  "bolot-studio"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "support-customers"
+ ],
+ "summary": "Read-only storefront for Bolot Studio's custom metal photo prints and house number signs: catalogue, shipping, reviews and configurator links.",
+ "whenToUse": "Use when helping a customer choose, price or configure a metal print or address sign from Bolot Studio.",
+ "tasks": [
+  "search products",
+  "recommend products",
+  "search policies and FAQs",
+  "compare products",
+  "get store info",
+  "check photo resolution",
+  "estimate shipping",
+  "summarize reviews",
+  "build configurator link"
+ ],
+ "effects": {
+  "5a3fedef5a29be90f2bcaebe96764feffdfdac044f80fdaf49b10961b309caa4": "write",
+  "5f682141e304c6ec097cdc2650d73cc22c259e11f04b372524fcee3763163e78": "write",
+  "3de6746ad657ec5f4d5d52f24454e9ad4b53a43db7910342099bcbf8e4340aef": "write",
+  "262dc9d758a2f4776c1a0d4abff775d56f89c63c326afd779ed7935caf795e3b": "write",
+  "44e30f632841869e4d736039264a357e7958caba0221e1932fc6f93ca6054b87": "write",
+  "06d7c66bd3c13442f4d4c18b5c2f0ff47199a98eeade4a3baef2ab9b3fdbae40": "write",
+  "6dbb01cd42cd00e2caa698d3378f9d69b235fb363624bb6cf33f4aca07d9cffe": "write",
+  "006792cb8025f582c73837c85a48d765de55aa2f50f0266bff299976de448047": "write",
+  "4ec95eb3011b34433e051a0dc9f8cb3ac90f88b57233bc1c479c14712b925db0": "write",
+  "8688ce3cea67695866f500cc605bead9e42f070f1464ebe22d9a2af24ae74fec": "write",
+  "5c955a0f190f3d1358a68247f7b9092210dd8e5c2a82cd91460440098f4b94dd": "write"
+ },
+ "flags": []
+}

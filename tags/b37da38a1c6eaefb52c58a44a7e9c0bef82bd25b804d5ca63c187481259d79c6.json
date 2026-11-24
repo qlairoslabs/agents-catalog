@@ -1,0 +1,35 @@
+{
+ "classifier": 2,
+ "contentHash": "b37da38a1c6eaefb52c58a44a7e9c0bef82bd25b804d5ca63c187481259d79c6",
+ "domain": [
+  "media/books"
+ ],
+ "product": [
+  "shelfclub"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches a 1.7 million book catalog by title, author, mood, vibe, pace or genre and returns similar and trending books.",
+ "whenToUse": "Use when someone wants book recommendations or details on a book or author.",
+ "tasks": [
+  "search books",
+  "find books by mood",
+  "look up book by isbn",
+  "find similar books",
+  "list trending books",
+  "look up author"
+ ],
+ "effects": {
+  "3ab21a76c7b64e2e9a6141deb668f18f55608e4742220db0b9d1371934ec0e96": "write",
+  "c456b85846c6d1644ad265ad2896b58678d28255b1b2290f87bffd03dacc99d6": "write",
+  "75020288eef0341abd2f279100de6b9c1525a12a44dc26899da8c1b270ea579c": "write",
+  "8ebb49a0842a0a71ae8ef9f6323811f9243808602079986e17563519c0df5e27": "write",
+  "bbd25a6c2527b2776ff6e2701415bcd62afdb5a3a615000f6e0761791dfce0b5": "write",
+  "fb2e6b670eedb422635590dea4a6b517c6a8c54c8a83cec6283b127931abc8c9": "write"
+ },
+ "flags": []
+}

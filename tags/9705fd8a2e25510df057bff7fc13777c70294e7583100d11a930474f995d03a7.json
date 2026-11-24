@@ -1,0 +1,41 @@
+{
+ "classifier": 2,
+ "contentHash": "9705fd8a2e25510df057bff7fc13777c70294e7583100d11a930474f995d03a7",
+ "domain": [
+  "retail/gifts",
+  "e-commerce"
+ ],
+ "product": [
+  "taufnaus",
+  "stripe"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell"
+ ],
+ "summary": "Searches German gift shops, builds a cart and creates a Stripe payment link for the customer to pay.",
+ "whenToUse": "Use when a user wants to find and order gifts such as christening or birth presents from German shops.",
+ "tasks": [
+  "list shops",
+  "search products",
+  "get product details",
+  "find related products",
+  "set cart",
+  "view cart",
+  "checkout with payment link",
+  "check order status"
+ ],
+ "effects": {
+  "39830df674bc1e19cb6eda76b04e161bfca925c4a7a8e1c22bc676ea43ef159b": "read",
+  "306e72f48408cdce95409cf1ab3bb3881bef30ec839612eed64333ad47f70d65": "read",
+  "53364f4e364e74dc7afff9c533f5e73a76cc870f9d671960d0cc0d8111e6557d": "read",
+  "d5507d9c7f6ca8675365ad70849e5f32faea6e42c95bd6914fb475856c7b68ba": "read",
+  "a4ac5ee8055c1167f1a5e9a92d0aa4d4799ffc604224f1311098f76b8d26d6d4": "write",
+  "48417d2d2ed4a503da85d5a87985c21c267e642171c6893d9e2853723e53f835": "read",
+  "cbac3dd2fdf559eeeaa6990ac4883f33febff82db1171d8ecfce0eafdf34ea08": "write",
+  "52fe3282ce4436ab27e7d02aff48ce8b6b572ddd616df313fd6d3538df3acba0": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,47 @@
+{
+ "classifier": 2,
+ "contentHash": "43d0b96e0bc72d981f5cf511dd112f6a9b0e4864d2f306e7cf4ba3bb60eab218",
+ "domain": [
+  "business/company-data"
+ ],
+ "product": [
+  "crps",
+  "cejn"
+ ],
+ "audience": [
+  "sales",
+  "finance",
+  "operations"
+ ],
+ "goal": [
+  "understand-what-is-happening",
+  "stay-compliant"
+ ],
+ "summary": "Looks up Montenegrin companies, registry records, public tenders, Treasury payments, risk events and people in registry records.",
+ "whenToUse": "Use when researching a Montenegrin company, tender or public payment.",
+ "tasks": [
+  "search companies",
+  "get company profile",
+  "rank companies",
+  "search tenders",
+  "get tender",
+  "search public payments",
+  "recent company events",
+  "find person",
+  "get person",
+  "dataset status"
+ ],
+ "effects": {
+  "506dd0541f802e4e28a085cca2ef974fcc49c95469e9b6171487fd6ebf18fac7": "read",
+  "161ce0b8950344c9b8c19ae3e9d457933eb1d577ecb35e0832dd8f778fc5b455": "read",
+  "c1a1ef06ab5745fa8d38db916e96ba8cc27ab3e7e6a155f0697294ec5587a22e": "read",
+  "70c3cb812fe19ee06668ca214be7c95c97a6fae8254f7954ff127b2e52381429": "read",
+  "ee43cff31a204155be835a5e0a2ce6f725132afb0afe97b49c38663d7c4e7de6": "read",
+  "1ce7c677a6f1663e39d22e7626e3cb517ef2e9ff9b43dea25b09c66d12ffc1b0": "read",
+  "1ef0cb14b7f6300b323a4f58897923af1b9f42beedf734b6d890419bee23042e": "read",
+  "75a94405a2d6f1a2ba05f107fa35cdcb7ed2654f3944046d20c47bfc9e12625e": "read",
+  "ed65d11e60df5c6bd6afb3d8b5ec8d9d6d9c046f28a274ed772931ba937dc0d1": "read",
+  "43b9797154d5c1e923a4b28ed0374c54b0ea300ee08552a73ddf1b5deacf435c": "read"
+ },
+ "flags": []
+}

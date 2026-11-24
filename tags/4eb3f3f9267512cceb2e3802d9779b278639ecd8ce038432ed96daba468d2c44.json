@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "4eb3f3f9267512cceb2e3802d9779b278639ecd8ce038432ed96daba468d2c44",
+ "domain": [
+  "logistics/freight"
+ ],
+ "product": [
+  "freight-sidekick"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "sell",
+  "automate-work"
+ ],
+ "summary": "Instant LTL, partial and truckload freight quotes for the US and Canada, with freight class and pallet tools.",
+ "whenToUse": "Use when you need a freight shipping quote in the US or Canada.",
+ "tasks": [
+  "quote LTL freight",
+  "quote partial loads",
+  "quote truckload",
+  "determine freight class",
+  "calculate pallets"
+ ],
+ "effects": {},
+ "flags": []
+}

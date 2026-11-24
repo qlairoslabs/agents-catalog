@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "536597711d17f2573f23f90a864d1b39cfd052fde44bb06ce1534a6cafe9512e",
+ "domain": [
+  "automotive/used-car-listings"
+ ],
+ "product": [
+  "yardstock"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "understand-what-is-happening"
+ ],
+ "summary": "Searches live used-car stock on New Zealand dealer yards by make, model, price, city and other filters.",
+ "whenToUse": "Use when a user is looking for used cars at New Zealand dealerships.",
+ "tasks": [
+  "see coverage",
+  "search stock by filters",
+  "search by plain sentence",
+  "fetch a listing"
+ ],
+ "effects": {
+  "0e8a3708de4980503ed168538ee117f59d39aa9922818ddd87a91d00f83aabcd": "read",
+  "481b3dd2edd4d6c95ba3187a069820cb9d0b1eac31889735715a61e06dc6cbe2": "read",
+  "cdafaf6a67066ba44f00e7cd2d20d4e3e1e80d91d712e6dddb4ad5f4613def20": "read",
+  "a8f777be590d4ed7932d55e9b794cefc04ae7dc151b5885b8b7868c8f45da674": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,64 @@
+{
+ "classifier": 2,
+ "contentHash": "bb23e30b898ff385840f932b310023afb6981379064ee34279dad27a63f02195",
+ "domain": [
+  "software/code-generation",
+  "software/testing"
+ ],
+ "product": [
+  "codemind",
+  "github"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Cloud service that generates verified JS/TS features and tests, reviews code, runs batch builds and tracks GitHub issue-triage runs.",
+ "whenToUse": "Use when delegating routine JS/TS implementation, verification or code review to a paid cloud service.",
+ "tasks": [
+  "create free account",
+  "build feature",
+  "build batch of stories",
+  "build from spec",
+  "stream build progress",
+  "test component",
+  "review code",
+  "get build files",
+  "check billing",
+  "list repos",
+  "get triage runs"
+ ],
+ "effects": {
+  "585b1ebc29a23da2268f76a517c50a47b704b013ab9d60db5417e2bed60f9a9b": "write",
+  "547b5a0ed110f1f11f8b99bef46ebcd73b36ab826208b9b1828dde21387e26a0": "write",
+  "3dc55af6d79d4aa13ad188ec43a60f15335aac09e9f3c8294a5e43889bbeef72": "read",
+  "eb028935a507e3f746811c281ef355d7392505810beee7678eff5127a3f15922": "write",
+  "654bcc86ffa7bcc0fc8678f80512c5c88b865a351ddf01dfaf2f78f53cccb3b0": "write",
+  "56bca22a10b941b62b50e8c91eb2aef63ae67189cae24bd6663b6b34b2f8b180": "write",
+  "ef85bea609e47ceffedfe07fb26565eba94f3b055f4c0fefd584621d6c6cadbd": "read",
+  "0c9b9c1e8c76bd3a5eb64c141372b81c7647977df1363962156436fee1cb244a": "read",
+  "9277c746400d6abd23e01a4a094e34e575409ceff3249cb34aac733b6533bd59": "read",
+  "454201228fb92f98b32ac0dd0a89e35414e40c4f5ece9a371f8c341c0a1ba90a": "read",
+  "a04b074a1c750b75f5ce9c1fad025651d3f1670f0d674b9b155068dffc3f9c36": "write",
+  "bfaf2914e516079a94b873c6ac09a2549ad467421ca8e0a60f21d36264809cd5": "write",
+  "048aeee055a5acce2c6a59b10df54ab65cadd10543edae8b44fe1e17b675f229": "read",
+  "ae7caf1c3ee940258403b635e25a562d58be5a41e3966db5580fe34bc4840ccd": "read",
+  "30d875b17fd1f8d67e242164d40fc9e45e1dd2f13c6238844073438f4cba558e": "write",
+  "7d40b39d960f15fb8aec9e07a1599217d7f715f799c88c875ec9b5f722495cfa": "read",
+  "991a7f5476881c2d9ffba5e2c29f7d4f28667bb8f30b8f00d637a9eebb571acb": "read",
+  "301ebd3a06d37c62d578439c4d186902f9e380e3dda0976aa11f341397f2dfdf": "read",
+  "e5762639257e6b8ff7ccd8ef76c3a719b15b402445fa324a881fccc33e14a09d": "read",
+  "2be2141db8f04f6beb80c777e52b686cf15f02a6eb1c745fa63301a43ef20a87": "read",
+  "de88fd20684eb94cb25dfc206bc6f775fbb868ee3357dddb29904654b73fb359": "read",
+  "c91cddaf6874d385ae776dc15a70328581c11ff6742060cc0d9857da9a07f057": "write",
+  "d1123bd30d5791410268677afef361f84f6b624a171b0e9f7b5ba3fdf354e686": "write",
+  "1e6b474cab348290cc8a78c6718dec7827f365fa4ecf29740b04f00ffc2d8d2d": "read",
+  "26c0154d30de1f7ae8a61bfb4df0aacbcda53455f15dbacf6e26da4a9c7866b2": "write",
+  "b7941d0c61e1d67112d7735092c108cc3af9e916620f7a1642e796f45488615c": "read",
+  "4b948214a1b8c165402ba2e9c351deb0da85c5999e3a1ef744d9db3965d4dffa": "write"
+ },
+ "flags": []
+}

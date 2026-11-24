@@ -1,0 +1,33 @@
+{
+ "classifier": 2,
+ "contentHash": "50c9b1809a8005b1b95ac815aebd68000673c2d206e61aa3bbadce3c98fdf714",
+ "domain": [
+  "education/technology"
+ ],
+ "product": [
+  "skillaria",
+  "linux",
+  "git"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Searches and reads Skillaria.Top video courses and free guides on AI, DevOps, Linux and Git in 20 languages.",
+ "whenToUse": "Use when a user wants learning material on Linux, Git, DevOps or AI.",
+ "tasks": [
+  "search courses",
+  "get course",
+  "search guides",
+  "read guide"
+ ],
+ "effects": {
+  "39d5a2fbf7a29663c04a2175f1301987af6dbd0f9ff5dc5794e2f28968c4241b": "read",
+  "42af493ae57633eb7bfeecb4269f5e9493d00aee7807206d2e636790ec92e2ca": "read",
+  "5130b6d63d46b0490d2b9bff3953d15e996a6da3da440a48b7b040ed839eb349": "read",
+  "e61c90945271345bb34cb340c63748a2e52640d419548f51487a4b25cb644483": "read"
+ },
+ "flags": []
+}

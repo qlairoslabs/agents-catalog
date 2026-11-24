@@ -1,0 +1,27 @@
+{
+ "classifier": 2,
+ "contentHash": "a048ec43c65664d9c1d58640d256c4d32b90b3295cd2be5847febc8b23e9fe0e",
+ "domain": [
+  "software/api",
+  "developer-tools"
+ ],
+ "product": [
+  "openapi"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Scores an API from 0 to 100 on how well AI agents can use it, based on its OpenAPI spec.",
+ "whenToUse": "Use before turning an API into an MCP server or listing it for agents.",
+ "tasks": [
+  "score OpenAPI spec",
+  "list rule results and fixes"
+ ],
+ "effects": {
+  "1ecbdc40b54ef149523e8a458597baf1087a06abdaee064e3481f6829582eec9": "read"
+ },
+ "flags": []
+}

@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "42cb58d2747232c76e925b413dfb1f3d153e16002ce9309cc8dd0e73fbe911bf",
+ "domain": [
+  "energy/solar",
+  "sales/quoting"
+ ],
+ "product": [
+  "csolar"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Estimates a solar system size, savings and price from an electricity bill and checks whether a municipality is in CSolar's service area.",
+ "whenToUse": "Use when a user in São Paulo state wants a solar power estimate or to check coverage by CSolar.",
+ "tasks": [
+  "check service area",
+  "estimate solar system",
+  "calculate payback"
+ ],
+ "effects": {
+  "1e9ddbedd6c4dd4abf67fe09e606278f2e2315433d99dbfe02aedefe98e38129": "write",
+  "47a0219b67930445be2a6de7d37d9b530a9803c64dbcef394668db996ae3c2c4": "write"
+ },
+ "flags": []
+}

@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "0ff7a08a623c60bb825dcf5d61040fdfd7e71afb05adc6c9db691826ecbb259d",
+ "domain": [
+  "gaming/minecraft",
+  "creative/ai-generation"
+ ],
+ "product": [
+  "minecraft",
+  "photo2skin"
+ ],
+ "audience": [
+  "everyone",
+  "design"
+ ],
+ "goal": [
+  "create-content"
+ ],
+ "summary": "AI tools for Minecraft that generate skins from photos or prompts, builds, real-world maps and textures.",
+ "whenToUse": "When a user wants a Minecraft skin, build, map or texture generated.",
+ "tasks": [
+  "generate skin from photo",
+  "generate skin from prompt",
+  "generate builds",
+  "create real-world maps",
+  "create textures"
+ ],
+ "effects": {},
+ "flags": []
+}

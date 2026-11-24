@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "6e535f247dc1dac438eea79b860245477e2db33d9707ca79a7ac417fb9f5b80c",
+ "domain": [
+  "compliance/cosmetics",
+  "legal"
+ ],
+ "product": [
+  "regularus"
+ ],
+ "audience": [
+  "operations"
+ ],
+ "goal": [
+  "stay-compliant",
+  "sell"
+ ],
+ "summary": "Quotes fixed prices, lists required documents and verifies signed EU cosmetic product safety reports (CPSR).",
+ "whenToUse": "Use when a cosmetics maker needs a CPSR price, document checklist or report verification.",
+ "tasks": [
+  "calculate CPSR price",
+  "list required documents",
+  "verify signed report"
+ ],
+ "effects": {
+  "b4c9d1192bea0b06e303c4b58243b37a5de066d7f836b47048bd3ed8c07b0799": "read",
+  "48f93bc4ad95c393c8595809e3db65c5b638e1b927b9af37238fa5bb3a27abdf": "read",
+  "0f8e32ed300c6af75e56c1c5d7934248d844535471512e8e7d1de794f4c96f71": "read"
+ },
+ "flags": []
+}

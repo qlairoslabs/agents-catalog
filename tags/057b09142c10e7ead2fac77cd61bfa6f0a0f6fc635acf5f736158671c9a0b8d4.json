@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "057b09142c10e7ead2fac77cd61bfa6f0a0f6fc635acf5f736158671c9a0b8d4",
+ "domain": [
+  "web/domains"
+ ],
+ "product": [
+  "orbitfour"
+ ],
+ "audience": [
+  "marketing",
+  "development",
+  "everyone"
+ ],
+ "goal": [
+  "be-online"
+ ],
+ "summary": "Checks domain availability with live registry pricing, suggests available names, and reports TLD requirements and transfer eligibility.",
+ "whenToUse": "When a user is choosing, pricing or planning to register or transfer a domain name.",
+ "tasks": [
+  "check domain availability",
+  "get registration and renewal prices",
+  "search available names",
+  "look up TLD requirements",
+  "check transfer eligibility"
+ ],
+ "effects": {
+  "235dbac72d59dcce127799be44d2fdcc3d2125c2db7764fb2c64b1167b899b0c": "write",
+  "c125e61027680a45b62f963e82f9f5c09914269638898201c05b182829bec1ef": "write",
+  "9f4e758691823526728d8ed0f2477864a938757d9cd5ae3bd9a8c90377e790fa": "write",
+  "23fdc4024940d8fb832f066aeeca8df62ee1389d9f6fc731ec11cc149c50c618": "write"
+ },
+ "flags": []
+}

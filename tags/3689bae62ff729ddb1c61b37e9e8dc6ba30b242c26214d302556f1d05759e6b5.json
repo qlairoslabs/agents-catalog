@@ -1,0 +1,31 @@
+{
+ "classifier": 2,
+ "contentHash": "3689bae62ff729ddb1c61b37e9e8dc6ba30b242c26214d302556f1d05759e6b5",
+ "domain": [
+  "travel/package-holidays",
+  "travel/flights"
+ ],
+ "product": [
+  "akkilahdot"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "sell",
+  "get-customers"
+ ],
+ "summary": "Searches live package holiday and charter flight offers departing from Finland, with prices, availability and booking links.",
+ "whenToUse": "Use when a user wants a package holiday or a charter-only flight from Finland and needs current prices.",
+ "tasks": [
+  "search package holidays",
+  "search charter flights",
+  "filter by destination, dates and board type",
+  "get booking links"
+ ],
+ "effects": {
+  "6967e8e99638cf0fe5d9d071cabc956382f15eb05a5fa75c54f6d6db6906d066": "write",
+  "26eea1b7697d3dde98fb1b1562abc29543001d9931c4592463f655493b0e03bf": "read"
+ },
+ "flags": []
+}

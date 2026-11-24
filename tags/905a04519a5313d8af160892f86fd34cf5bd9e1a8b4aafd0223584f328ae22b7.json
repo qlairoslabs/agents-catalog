@@ -1,0 +1,28 @@
+{
+ "classifier": 2,
+ "contentHash": "905a04519a5313d8af160892f86fd34cf5bd9e1a8b4aafd0223584f328ae22b7",
+ "domain": [
+  "gaming/asset-generation",
+  "ai/generative-media"
+ ],
+ "product": [
+  "gessa"
+ ],
+ "audience": [
+  "design",
+  "development"
+ ],
+ "goal": [
+  "create-content",
+  "build-software"
+ ],
+ "summary": "Generates game-ready 3D models, textures and audio from natural-language prompts.",
+ "whenToUse": "Use when you need game assets such as 3D models, textures or audio generated from a description.",
+ "tasks": [
+  "generate 3D models",
+  "generate textures",
+  "generate audio"
+ ],
+ "effects": {},
+ "flags": []
+}

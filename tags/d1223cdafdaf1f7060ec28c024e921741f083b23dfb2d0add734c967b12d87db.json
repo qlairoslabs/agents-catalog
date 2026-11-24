@@ -1,0 +1,34 @@
+{
+ "classifier": 2,
+ "contentHash": "d1223cdafdaf1f7060ec28c024e921741f083b23dfb2d0add734c967b12d87db",
+ "domain": [
+  "real-estate/off-plan",
+  "real-estate/international"
+ ],
+ "product": [
+  "palmera"
+ ],
+ "audience": [
+  "everyone",
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Catalogue of off-plan and ready properties in the UAE, Oman, Georgia, Cyprus, Bali, Thailand and London.",
+ "whenToUse": "Use when a user wants to find new-build or off-plan property in these markets.",
+ "tasks": [
+  "search projects",
+  "get project details",
+  "list developers",
+  "list areas"
+ ],
+ "effects": {
+  "38cf84a458e323f1c42192c891a9e384f1d4efdae33eecce890a3795ce1805b9": "read",
+  "fa243f66a5ee9b082f893cec8ed0619eb6f1e75d3b24713c2f93252a9697637e": "read",
+  "6057945d70e3010927fbf6758571e5544cc3f6140e92203dd9eaafb986dec845": "read",
+  "f8135dac28a34e2a5eeb2e859eb29879b0d236cba97da253d4b55df918ac2716": "read"
+ },
+ "flags": []
+}

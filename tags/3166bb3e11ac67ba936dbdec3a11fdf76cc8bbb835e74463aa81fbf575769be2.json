@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "3166bb3e11ac67ba936dbdec3a11fdf76cc8bbb835e74463aa81fbf575769be2",
+ "domain": [
+  "software/agent-memory"
+ ],
+ "product": [
+  "memorix"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software",
+  "automate-work"
+ ],
+ "summary": "Local-first project memory for AI agents, with legacy MCP and 2026 discovery compatibility.",
+ "whenToUse": "Use when an agent needs to store and recall project context across sessions locally.",
+ "tasks": [
+  "store project memory",
+  "recall project memory"
+ ],
+ "effects": {},
+ "flags": []
+}

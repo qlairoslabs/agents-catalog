@@ -1,0 +1,30 @@
+{
+ "classifier": 2,
+ "contentHash": "9625c538c7823d42afee2ef7fbd650894d442f6ce59a878f6828ffe638e0e6de",
+ "domain": [
+  "healthcare/care-management"
+ ],
+ "product": [
+  "lovedone"
+ ],
+ "audience": [
+  "operations",
+  "support"
+ ],
+ "goal": [
+  "support-customers",
+  "schedule",
+  "get-paid"
+ ],
+ "summary": "Care business management for clients, visits, notes, invoices and scheduling, using an API key or OAuth.",
+ "whenToUse": "Use when managing care clients, visits, notes and invoices in LovedOne Soft.",
+ "tasks": [
+  "manage clients",
+  "log visits",
+  "write notes",
+  "create invoices",
+  "schedule visits"
+ ],
+ "effects": {},
+ "flags": []
+}

@@ -1,0 +1,29 @@
+{
+ "classifier": 2,
+ "contentHash": "75e84f4382f76340e5d3bfc6d32ae05d8b0919996ff2de9b099c1de94cc69f11",
+ "domain": [
+  "software/testing",
+  "software/browser-automation"
+ ],
+ "product": [
+  "selenium",
+  "pytest",
+  "selenium-grid"
+ ],
+ "audience": [
+  "development"
+ ],
+ "goal": [
+  "build-software"
+ ],
+ "summary": "Selenium MCP server to plan, generate and heal tests, pytest by default or other languages, with Selenium Grid support.",
+ "whenToUse": "When an agent needs to create or repair browser UI tests.",
+ "tasks": [
+  "plan tests",
+  "generate tests",
+  "heal tests",
+  "run on Selenium Grid"
+ ],
+ "effects": {},
+ "flags": []
+}

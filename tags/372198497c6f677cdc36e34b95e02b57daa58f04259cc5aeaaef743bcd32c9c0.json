@@ -1,0 +1,42 @@
+{
+ "classifier": 2,
+ "contentHash": "372198497c6f677cdc36e34b95e02b57daa58f04259cc5aeaaef743bcd32c9c0",
+ "domain": [
+  "sales/outbound-automation"
+ ],
+ "product": [
+  "hal"
+ ],
+ "audience": [
+  "sales"
+ ],
+ "goal": [
+  "get-customers",
+  "sell"
+ ],
+ "summary": "Public information about the HAL autonomous AI sales agent: products, pricing, features, use cases, playbooks and blog posts.",
+ "whenToUse": "Use when evaluating or learning about gethal.ai's sales agent products and pricing.",
+ "tasks": [
+  "get company info",
+  "get pricing",
+  "list products",
+  "list features",
+  "get use cases",
+  "get playbooks",
+  "read blog posts",
+  "explain how HAL works",
+  "get customer profile"
+ ],
+ "effects": {
+  "04da09d116eadb043af3e6d6834e74d00ffa63fea8c9326d4cc489f7a010afce": "read",
+  "efdd330c33e50492d91af366cefbc71b11f74384058b7c8f31478693eb41984c": "read",
+  "dfa83141b6d21424aac47f8fe14d21781326ab300bd5379f45f034677b31bf12": "read",
+  "e37758cf2e874b166cc9408b1d4b92c3c2fa5c591b6fdc2c60448205880f37d4": "read",
+  "0ca95e67b3adbc4aea52f2f1038ed777ebf898cd939ba4052c52ae903e008082": "read",
+  "ea40dbf8111624d148cac0204aa9966fa35a718cb6b3d567a951182847d6117d": "read",
+  "4274459a971f2f524c809127bb0be0c24e15c8f5f45b5ba643427c479a7176a1": "read",
+  "d492e5984803531c4923b31ceeb20921d3eb8d5dfd1f5cad787047044ea8ef61": "read",
+  "e1da95a9e79cce557576616615f5e7c1043b6b45669107389307e50c616d13d5": "read"
+ },
+ "flags": []
+}

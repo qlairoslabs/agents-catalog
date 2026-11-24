@@ -1,0 +1,25 @@
+{
+ "classifier": 2,
+ "contentHash": "135b9d3dd88c1c779d4fca223c7af34a4e3004dfac06c75ea014ba4457ca010c",
+ "domain": [
+  "consumer/shopping",
+  "finance/insurance"
+ ],
+ "product": [
+  "eini"
+ ],
+ "audience": [
+  "everyone"
+ ],
+ "goal": [
+  "run-the-money"
+ ],
+ "summary": "Looks up Swiss supermarket deals across eight chains and official 2027 health insurance premiums.",
+ "whenToUse": "Use when a user in Switzerland asks about grocery offers or health insurance premium comparisons.",
+ "tasks": [
+  "find supermarket deals",
+  "look up health insurance premiums"
+ ],
+ "effects": {},
+ "flags": []
+}
