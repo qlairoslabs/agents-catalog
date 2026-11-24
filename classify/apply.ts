@@ -14,6 +14,7 @@ import { join } from "node:path";
 import { contentHash, inputOf, toolHash, type ClassifyInput } from "./hash";
 import type { Tags } from "./output";
 import { FIELDS, type Vocabulary } from "./vocabulary";
+import { specEffect } from "./risk";
 
 export const MAX_ATTRIBUTES = 32;
 export const MAX_VALUES = 20;
@@ -48,7 +49,9 @@ export function applyTags<T extends Record<string, any>>(item: T, kind: Classify
     if (Array.isArray(item.connect?.tools)) {
         next.connect = { ...item.connect, tools: item.connect.tools.map((tool: any) => {
             const hash = toolHash(tool);
-            const effect = Object.hasOwn(found.effects, hash) ? found.effects[hash] : undefined;
+            const labelled = Object.hasOwn(found.effects, hash) ? found.effects[hash] : undefined;
+            // GW §4.1: sending, paying, deleting and publishing are risky (classify/risk.ts).
+            const effect = labelled ? specEffect(String(tool.name ?? ""), labelled) : undefined;
             const { effect: _old, ...rest } = tool;
             return effect ? { ...rest, effect: { effect, hash } } : rest;
         }) };
